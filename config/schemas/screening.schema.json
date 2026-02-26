@@ -1,0 +1,39 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "tittel",
+    "kilder",
+    "kapabiliteter",
+    "fagomrader",
+    "prinsipper",
+    "gjenbruk",
+    "risiko_nivaa",
+    "tiltaksbeskrivelse",
+    "antakelser",
+    "kapabilitetsvurdering",
+    "prinsippvurdering",
+    "gjenbruk_og_alternativer",
+    "risiko_og_konsekvenser",
+    "anbefaling"
+  ],
+  "properties": {
+    "id": { "type": "string" },
+    "tittel": { "type": "string" },
+    "kilder": { "type": "array", "items": { "type": "string" } },
+    "kapabiliteter": { "type": "array", "items": { "type": "string" } },
+    "fagomrader": { "type": "array", "items": { "type": "string" } },
+    "prinsipper": { "type": "array", "items": { "type": "string" } },
+    "gjenbruk": { "type": "array", "items": { "type": "string" } },
+    "risiko_nivaa": { "type": "string", "enum": ["lav", "middels", "hoy"] },
+
+    "tiltaksbeskrivelse": { "type": "string" },
+    "antakelser": { "type": "string" },
+    "kapabilitetsvurdering": { "type": "string" },
+    "prinsippvurdering": { "type": "string" },
+    "gjenbruk_og_alternativer": { "type": "string" },
+    "risiko_og_konsekvenser": { "type": "string" },
+    "anbefaling": { "type": "string" }
+  }
+}
