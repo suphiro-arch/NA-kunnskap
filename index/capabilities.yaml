@@ -1,0 +1,10 @@
+- id: identitet
+  navn: Identitet og tilgang
+- id: samhandling
+  navn: Samhandling på tvers
+- id: datadeling
+  navn: Datadeling og tilgjengeliggjøring
+- id: logging
+  navn: Logging og sporbarhet
+- id: sikkerhet
+  navn: Informasjonssikkerhet
