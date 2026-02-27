@@ -78,3 +78,7 @@ Oversikt over NGIS, høydedata, Norge i bilder, luftfartshindre m.m.
 
 ### [Geonorge – felles tjeneste for kartdata](https://www.geonorge.no/Geodataarbeid/geografisk-infrastruktur/teknologisk-rammeverk/for-utviklere-teknologisk-rammeverk/felleslosninger/)  
 Nasjonal portal for søk, tilgang og standardisering av stedfestet informasjon.
+
+## Helse
+###  [Nasjonale e-helseløsninger for helse](https://www.nhn.no/tjenester)  
+Beskrivelse av samhandlingstjenester som lar helsepersonell utveksle helseopplysninger på tvers av virksomheter og nivå.
