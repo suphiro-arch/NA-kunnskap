@@ -1,12 +1,19 @@
 # Nasjonale fellestjenester og felleskomponenter
 
 Formål: Samlet lenkeliste over nasjonale fellesløsninger, sektorkilder og relevante veiledningsressurser.
+Sist redigert: 2026-03-05.
 
 ## Digdir (Digitaliseringsdirektoratet)
 
 ### Nasjonale fellesløsninger
 - https://www.digdir.no/felleslosninger/nasjonale-felleslosninger/750
 - https://docs.altinn.studio/nb/ (mest oppdatert for Altinn)
+
+### Sentrale felleskomponenter
+- ID-porten: https://www.digdir.no/id-porten/om-id-porten/1507
+- Maskinporten: https://www.digdir.no/om-tjenesten/maskinporten/1558
+- Digital post (felleskomponent): https://www.digdir.no/felleskomponenter/digital-post/1483
+- Sertifikattjenester: https://www.digdir.no/digital-sikkerhet/sertifikattjenester/1538
 
 ### Prinsipper og overordnet beskrivelse
 - Strategiske prinsipper for felleskomponenter: https://www.digdir.no/media/395/download
@@ -23,9 +30,19 @@ Formål: Samlet lenkeliste over nasjonale fellesløsninger, sektorkilder og rele
 
 ---
 
+## Altinn og Brønnøysundregistrene
+
+- Altinn: https://www.altinn.no
+- ELMA: https://www.altinn.no/tjenester/uten-innlogging/elma/
+- Brønnøysundregistrene: https://www.brreg.no
+- Enhetsregisteret: https://www.brreg.no/enkelt-i-brreg/registre-og-teknologi/enhetsregister/
+
+---
+
 ## NAV
 
 - NAV hovedside: https://www.nav.no/
+- NAV registre/statistikk: https://www.nav.no/no/NAV+og+samfunn/Statistikk/og+fakta/registre/
 - DSOP-dokumentasjon (inkl. NAV-integrasjoner): https://dokumentasjon.dsop.no/
 
 ---
@@ -62,27 +79,50 @@ Formål: Samlet lenkeliste over nasjonale fellesløsninger, sektorkilder og rele
 
 ## Skatteetaten
 
+- Folkeregisteret: https://www.skatteetaten.no/person/folkeregister/
 - Digital plattforminformasjon (DPI): https://www.skatteetaten.no/bedrift-og-organisasjon/rapportering-og-bransjer/tredjepartsopplysninger/andre-bransjer/digital-plattforminformasjon-dpi/veiledning-for-digital-plattforminformasjon-dpi/
 - DSOP - felleskomponenter og integrasjoner: https://dokumentasjon.dsop.no/
 - KS-Skatteetaten segmentsamarbeid: https://ksdigital.no/tjenestene/fiks-register/segmentsamarbeid/
 
 ---
 
-## Helse (Helsedata, FHI, Helsedirektoratet)
+## Helse (Helsedata, FHI, Helsedirektoratet, NHN, Helsenorge)
 
+### Overordnet
 - Helsedata.no: https://helsedata.no/
 - FHI - Avdeling Helsedata: https://www.fhi.no/om/organisasjon/helsedata/
 - Helsedirektoratet - helseregistre og helsedata: https://www.helsedirektoratet.no/helseregistre-og-helsedata
 - Regjeringen - helsedata: https://www.regjeringen.no/no/tema/helse-og-omsorg/digitalisering-av-helse-og-omsorgstjenestene/innsikt/helsedata/id3019347/
-- Nasjonale e-helseløsninger for helse: https://www.nhn.no/tjenester
+
+### Nasjonale e-helseløsninger
+- NHN tjenester (oversikt): https://www.nhn.no/tjenester/
+- Kjernejournal (om tjenesten): https://www.nhn.no/tjenester/kjernejournal/om-tjenesten
+- E-resept: https://www.nhn.no/tjenester/e-resept
+- Helsenorge (innbyggerside): https://www.helsenorge.no/
+- Helseopplysninger som deles (Helsenorge): https://www.helsenorge.no/helseopplysninger-som-deles
 
 ---
 
 ## Kartverket
 
+- Matrikkelen: https://kartverket.no/enhetsregister/matrikkelen/
 - Nasjonale fellesløsninger for geodata: https://www.kartverket.no/geodataarbeid/felleslosningene/nasjonale-felleslosninger-for-geodata
 - Kartverkets fellesløsninger: https://www.kartverket.no/geodataarbeid/felleslosningene
 - Geonorge - felles tjeneste for kartdata: https://www.geonorge.no/Geodataarbeid/geografisk-infrastruktur/teknologisk-rammeverk/for-utviklere-teknologisk-rammeverk/felleslosninger/
+
+---
+
+## Utdanning
+
+- Samordna opptak: https://www.samordnaopptak.no
+
+---
+
+## Tillitstjenester
+
+- BankID: https://www.bankid.no
+- Buypass: https://www.buypass.no
+- Commfides: https://www.commfides.no
 
 ---
 
@@ -97,21 +137,18 @@ Formål: Samlet lenkeliste over nasjonale fellesløsninger, sektorkilder og rele
 ## Tematisk oversikt over digitale ressurser
 
 ### 1. Organisering, styring og virkemidler
-
 - Strategisk samordning: Digitaliseringsrådet, SKATE, Arkitektur- og standardiseringsrådet.
 - Styring av sammenhengende tjenester: veiledning og styringsråd.
 - Regelverk og juridisk koordinering: ressurssenter, veiledere, EU-regelverk og Digitaliseringsrundskrivet.
 - Virkemidler og finansiering: Stimulab, medfinansieringsordningen, EU-finansiering og ordinære satsingsforslag.
 
 ### 2. Veiledninger, standarder og metodikk
-
 - Innovasjon og digitalisering: den triple diamanten, strategisk fremsyn, missions, designmetodikk.
 - Arkitektur og samhandling: arkitekturprinsipper, rammeverk for digital samhandling, hendelsesarkitektur, tjenestekjeder, målbilder og veikart.
 - Informasjonsforvaltning og standardisering: orden i eget hus, referansekatalogen, internasjonalt standardiseringsarbeid.
 - Informasjonssikkerhet: Stifinneren, sikkerhetsstandarder og NSMs grunnprinsipper.
 
 ### 3. Felles løsninger og infrastruktur
-
 - Plattformer og portaler: Altinn tjenester 3.0, Norge.no, Altinn.no.
 - Datautveksling og integrasjon: eFormidling, Altinn Formidling, data.norge.no, data.altinn.no, Altinn events.
 - Tillitstjenester og transparens: ID-porten, Maskinporten, eSignering, Altinn autorisasjon, eInnsyn.
