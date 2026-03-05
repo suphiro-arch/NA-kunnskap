@@ -18,9 +18,10 @@ Moden nasjonal løsning for innsyn og oppslag i offentlig informasjon.
 eInnsyn er en nasjonal løsning som gjør offentlig informasjon lettere tilgjengelig gjennom søk, innsyn og oppslag på tvers av virksomheter.
 
 ## Kapabiliteter
-- Innsyn og transparens
-- Søk og oppslag i offentlig informasjon
-- Tilrettelegging for åpenhet og etterprøvbarhet
+- Tillit: Sporbarhet og innsyn
+- Informasjonsforvaltning: Oversikt over tjenester
+- Sluttbrukertjenester: Sammenhengende tjenester
+- Standardisering: Forvaltningsstandarder
 
 ## Produktmål
 - Forenkle innsyn i offentlig informasjon

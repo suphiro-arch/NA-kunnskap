@@ -18,10 +18,12 @@ Høy. Altinn er etablert nasjonal fellesløsning med bred bruk i offentlig sekto
 Altinn er en nasjonal plattform for digitale tjenester, meldingsutveksling og samhandling mellom offentlige virksomheter, innbyggere og næringsliv.
 
 ## Kapabiliteter
-- Digital tjenesteutvikling og tjenesteleveranse
-- Innsending, meldingsutveksling og formidling
-- Autorisasjon og samhandling på tvers av virksomheter
-- Integrasjon mot nasjonale felleskomponenter
+- Tjenesteutvikling: Utviklings- og kjøretidsmiljø
+- Tjenesteutvikling: Integrerbare tjenester
+- Tjenesteutvikling: Gjenbrukbare tjenester
+- Datautveksling og integrasjon: Meldingsformidling
+- Sluttbrukertjenester: Sammenhengende tjenester
+- Samarbeid: Tjenesteforvaltning
 
 ## Produktmål
 - Effektivisere digital tjenesteleveranse i offentlig sektor

@@ -18,11 +18,14 @@ Delvis grunnlag: ID-porten er omtalt som nasjonal felleskomponent i lokale kilde
 ID-porten er en nasjonal felleskomponent for autentisering/innlogging, brukt som identitetskomponent i offentlig digital samhandling.
 
 ## Kapabiliteter
-- Identitet/autentisering
-- Tilgangskontroll (indirekte, gjennom sikker innlogging)
-- Sikkerhet i digitale tjenester
+- Tillit: Autentisering
+- Tillit: Tilgangskontroll
+- Tillit: Representasjon
+- Tillit: Identifisering
+- Tillit: Sporbarhet og innsyn
+- Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling
 
-Grunnlag: Lokale filer omtaler ID-porten som autentiseringskomponent i integrasjonsløsninger.
+Grunnlag: Kapabilitetsnavnene er avstemt mot `index/capabilities.yaml`.
 
 ## Produktmål
 Usikkert, men sannsynlig mål basert på kildene:

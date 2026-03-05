@@ -18,10 +18,13 @@ Høy. Maskinporten er etablert nasjonal felleskomponent for maskin-til-maskin au
 Maskinporten er en nasjonal tillits- og autorisasjonstjeneste for API-kall mellom virksomheter og systemer.
 
 ## Kapabiliteter
-- Identitet for virksomheter/systemklienter
-- Tilgangsstyring og delegering av API-tilgang
-- Sikker datadeling på tvers av virksomheter
-- Sporbarhet og kontroll i integrasjoner
+- Tillit: Autentisering
+- Tillit: Tilgangsstyring
+- Tillit: Tilgangskontroll
+- Tillit: Sporbarhet og innsyn
+- Datautveksling og integrasjon: Dele data med andre
+- Datautveksling og integrasjon: Bruke data fra andre
+- Tjenesteutvikling: Integrerbare tjenester
 
 ## Produktmål
 - Standardisere sikker maskinell samhandling i offentlig sektor
