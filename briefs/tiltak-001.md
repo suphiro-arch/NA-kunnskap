@@ -1,14 +1,56 @@
-Tiltak: Tiltak-001 – Eksempel
+Tiltak: Felles integrasjonsplattform for deling av byggesaksdata
 
-Mål: ...
 
-Bakgrunn: ...
 
-Omfang: ...
+Mål:
 
-Kjente systemer/fellesløsninger: ...
+Etablere en felles API-basert løsning for deling av byggesaksdata mellom kommuner og statlige etater.
 
-Krav/rammer: ...
 
-Lenker til kilder: (kan også ligge i sources/links.md)
+
+Bakgrunn:
+
+I dag skjer utveksling via manuelle prosesser og punkt-til-punkt integrasjoner.
+
+
+
+Omfang:
+
+\- API for uthenting av byggesaksstatus
+
+\- Standardisert datamodell
+
+\- Integrasjon med eksisterende fagsystemer
+
+
+
+Berørte systemer:
+
+\- Kommunale byggesaksystemer
+
+\- Altinn
+
+\- Matrikkel
+
+
+
+Krav:
+
+\- Følge nasjonale prinsipper for datadeling
+
+\- Autentisering via ID-porten
+
+\- Logging av alle oppslag
+
+\- Bruk av åpne standarder
+
+
+
+Antatt gjenbruk:
+
+\- ID-porten
+
+\- Maskinporten
+
+\- Felles datakatalog
 
