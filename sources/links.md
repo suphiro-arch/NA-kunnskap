@@ -1,24 +1,20 @@
 # Nasjonale fellestjenester og felleskomponenter
 
+Denne filen samler lenker til sentrale nasjonale fellesløsninger, sektorsider og relevante veiledningsressurser.
+
 ## Digdir (Digitaliseringsdirektoratet)
 
 ### Nasjonale fellesløsninger
 - https://www.digdir.no/felleslosninger/nasjonale-felleslosninger/750
 - https://docs.altinn.studio/nb/ (mest oppdatert for Altinn)
 
-Oversikt over nasjonale fellesløsninger som Altinn, ID-porten, Digital postkasse, eFormidling og eInnsyn.
-
 ### Strategiske prinsipper for felleskomponenter
 - https://www.digdir.no/media/395/download
-
-Regjeringens overordnede prinsipper for etablering, styring og bruk av nasjonale felleskomponenter.
 
 ### Nasjonale felleskomponenter - samlet beskrivelse
 - https://had.no/prosjektveiviseren/Prosjektveiviseren/god-praksis/it-politiske-tema/nasjonale-felleskomponenter.html
 
-Historisk og konseptuell innføring i nasjonale felleskomponenter som Folkeregisteret, Matrikkelen, Enhetsregisteret, Altinn og eID-infrastruktur.
-
-### Digdir samarbeidssider
+### Samarbeidssider (Digdir)
 - https://samarbeid.digdir.no/
 - https://samarbeid.digdir.no/id-porten/tillitstenester/2479
 - https://samarbeid.digdir.no/felles-datakatalog/datadeling/2480
@@ -34,18 +30,14 @@ Historisk og konseptuell innføring i nasjonale felleskomponenter som Folkeregis
 ### NAV hovedside
 - https://www.nav.no/
 
-Inngang til NAVs tjenester for innbyggere, arbeidsgivere og samarbeidspartnere. NAV bruker nasjonale felleskomponenter (ID-porten, Altinn-integrasjoner osv.).
-
 ### DSOP-dokumentasjon (inkl. NAV-integrasjoner)
 - https://dokumentasjon.dsop.no/
 
-Dokumentasjon av DSOP-tjenester som samtykkebasert lånesøknad, syke- og uføreopplysninger fra NAV, API-er, Maskinporten-integrasjon og felleskomponenter.
-
 ---
 
-## KS / Kommunal sektor (KS Digital)
+## KS / kommunal sektor (KS Digital)
 
-### Fellesløsninger
+### KS Digital - oversikt
 - https://ksdigital.no/tjenester-2/
 
 ### FIKS-plattformen
@@ -142,14 +134,14 @@ Dokumentasjon av DSOP-tjenester som samtykkebasert lånesøknad, syke- og uføre
 ### 1. Organisering, styring, samordning og virkemidler
 
 #### Strategisk samordning og koordinering
-- Digitaliseringsrådet: Gir råd om digitalisering.
-- SKATE: Gir råd til Digitaliseringsdirektoratet (Digdir).
-- Arkitektur- og standardiseringsrådet: Identifiserer behov, gir råd og utvikler standarder.
-- Bygge kultur og kompetanse: Fagarenaer, forum, nettverk, konferanser, kurs og informasjon via digdir.no.
+- Digitaliseringsrådet: Råd om digitalisering.
+- SKATE: Råd til Digitaliseringsdirektoratet.
+- Arkitektur- og standardiseringsrådet: Behov, råd og standardutvikling.
+- Kultur og kompetanse: Arenaer, forum, nettverk, konferanser og kurs via digdir.no.
 
 #### Styring av integrerbare og sammenhengende tjenester
 - Veiledning om styring og organisering av sammenhengende tjenester.
-- Styringsråd for de ulike produktgruppene.
+- Styringsråd for ulike produktgrupper.
 
 #### Regelverk og juridisk koordinering
 - Ressurssenter for deling og bruk av data.
@@ -171,7 +163,7 @@ Dokumentasjon av DSOP-tjenester som samtykkebasert lånesøknad, syke- og uføre
 - Strategisk fremsyn.
 - Missions.
 - Designmetodikk.
-- Digitalisering: Veiledning i bruk av fellesløsninger og sammenhengende tjenester.
+- Veiledning i bruk av fellesløsninger og sammenhengende tjenester.
 
 #### Arkitektur og digital samhandlingsevne
 - Overordnede arkitekturprinsipper.
