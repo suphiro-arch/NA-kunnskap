@@ -1,6 +1,6 @@
 # Nasjonale fellestjenester og felleskomponenter
 
-Denne filen samler lenker til sentrale nasjonale fellesløsninger, sektorsider og relevante veiledningsressurser.
+Formål: Samlet lenkeliste over nasjonale fellesløsninger, sektorkilder og relevante veiledningsressurser.
 
 ## Digdir (Digitaliseringsdirektoratet)
 
@@ -8,11 +8,9 @@ Denne filen samler lenker til sentrale nasjonale fellesløsninger, sektorsider o
 - https://www.digdir.no/felleslosninger/nasjonale-felleslosninger/750
 - https://docs.altinn.studio/nb/ (mest oppdatert for Altinn)
 
-### Strategiske prinsipper for felleskomponenter
-- https://www.digdir.no/media/395/download
-
-### Nasjonale felleskomponenter - samlet beskrivelse
-- https://had.no/prosjektveiviseren/Prosjektveiviseren/god-praksis/it-politiske-tema/nasjonale-felleskomponenter.html
+### Prinsipper og overordnet beskrivelse
+- Strategiske prinsipper for felleskomponenter: https://www.digdir.no/media/395/download
+- Nasjonale felleskomponenter (samlet beskrivelse): https://had.no/prosjektveiviseren/Prosjektveiviseren/god-praksis/it-politiske-tema/nasjonale-felleskomponenter.html
 
 ### Samarbeidssider (Digdir)
 - https://samarbeid.digdir.no/
@@ -27,28 +25,19 @@ Denne filen samler lenker til sentrale nasjonale fellesløsninger, sektorsider o
 
 ## NAV
 
-### NAV hovedside
-- https://www.nav.no/
-
-### DSOP-dokumentasjon (inkl. NAV-integrasjoner)
-- https://dokumentasjon.dsop.no/
+- NAV hovedside: https://www.nav.no/
+- DSOP-dokumentasjon (inkl. NAV-integrasjoner): https://dokumentasjon.dsop.no/
 
 ---
 
 ## KS / kommunal sektor (KS Digital)
 
-### KS Digital - oversikt
-- https://ksdigital.no/tjenester-2/
-
-### FIKS-plattformen
-- https://ksdigital.no/tjenestene/fiks-plattformen/
-- https://developers.fiks.ks.no/fiks-plattformen.pdf
-
-### Felles mal for innføring av digitale fellestjenester
-- https://ksdigital.no/tjenestene/felles-mal-for-innforing-av-digitale-fellestjenester/
-
-### KS Digital - Felles Tjenesteplattform
-- https://www.digdir.no/digitaliseringsradet/ks-digital-tiltaket-felles-tjenesteplattform/7556
+### Oversikt og plattform
+- KS Digital tjenester: https://ksdigital.no/tjenester-2/
+- FIKS-plattformen: https://ksdigital.no/tjenestene/fiks-plattformen/
+- FIKS teknisk dokumentasjon (PDF): https://developers.fiks.ks.no/fiks-plattformen.pdf
+- Felles mal for innføring av digitale fellestjenester: https://ksdigital.no/tjenestene/felles-mal-for-innforing-av-digitale-fellestjenester/
+- KS Digital - Felles Tjenesteplattform (Digitaliseringsrådet): https://www.digdir.no/digitaliseringsradet/ks-digital-tiltaket-felles-tjenesteplattform/7556
 
 ### Tjenester for fagsystemer
 - https://ksdigital.no/tjenestene/digiorden/
@@ -73,135 +62,58 @@ Denne filen samler lenker til sentrale nasjonale fellesløsninger, sektorsider o
 
 ## Skatteetaten
 
-### Digital plattforminformasjon (DPI)
-- https://www.skatteetaten.no/bedrift-og-organisasjon/rapportering-og-bransjer/tredjepartsopplysninger/andre-bransjer/digital-plattforminformasjon-dpi/veiledning-for-digital-plattforminformasjon-dpi/
-
-### DSOP - felleskomponenter og integrasjoner
-- https://dokumentasjon.dsop.no/
-
-### KS-Skatteetaten segmentsamarbeid
-- https://ksdigital.no/tjenestene/fiks-register/segmentsamarbeid/
+- Digital plattforminformasjon (DPI): https://www.skatteetaten.no/bedrift-og-organisasjon/rapportering-og-bransjer/tredjepartsopplysninger/andre-bransjer/digital-plattforminformasjon-dpi/veiledning-for-digital-plattforminformasjon-dpi/
+- DSOP - felleskomponenter og integrasjoner: https://dokumentasjon.dsop.no/
+- KS-Skatteetaten segmentsamarbeid: https://ksdigital.no/tjenestene/fiks-register/segmentsamarbeid/
 
 ---
 
 ## Helse (Helsedata, FHI, Helsedirektoratet)
 
-### Helsedata.no
-- https://helsedata.no/
-
-### FHI - Avdeling Helsedata
-- https://www.fhi.no/om/organisasjon/helsedata/
-
-### Helsedirektoratet - helseregistre og helsedata
-- https://www.helsedirektoratet.no/helseregistre-og-helsedata
-
-### Regjeringen - helsedata
-- https://www.regjeringen.no/no/tema/helse-og-omsorg/digitalisering-av-helse-og-omsorgstjenestene/innsikt/helsedata/id3019347/
-
-### Nasjonale e-helseløsninger for helse
-- https://www.nhn.no/tjenester
+- Helsedata.no: https://helsedata.no/
+- FHI - Avdeling Helsedata: https://www.fhi.no/om/organisasjon/helsedata/
+- Helsedirektoratet - helseregistre og helsedata: https://www.helsedirektoratet.no/helseregistre-og-helsedata
+- Regjeringen - helsedata: https://www.regjeringen.no/no/tema/helse-og-omsorg/digitalisering-av-helse-og-omsorgstjenestene/innsikt/helsedata/id3019347/
+- Nasjonale e-helseløsninger for helse: https://www.nhn.no/tjenester
 
 ---
 
 ## Kartverket
 
-### Nasjonale fellesløsninger for geodata
-- https://www.kartverket.no/geodataarbeid/felleslosningene/nasjonale-felleslosninger-for-geodata
-
-### Kartverkets fellesløsninger
-- https://www.kartverket.no/geodataarbeid/felleslosningene
-
-### Geonorge - felles tjeneste for kartdata
-- https://www.geonorge.no/Geodataarbeid/geografisk-infrastruktur/teknologisk-rammeverk/for-utviklere-teknologisk-rammeverk/felleslosninger/
+- Nasjonale fellesløsninger for geodata: https://www.kartverket.no/geodataarbeid/felleslosningene/nasjonale-felleslosninger-for-geodata
+- Kartverkets fellesløsninger: https://www.kartverket.no/geodataarbeid/felleslosningene
+- Geonorge - felles tjeneste for kartdata: https://www.geonorge.no/Geodataarbeid/geografisk-infrastruktur/teknologisk-rammeverk/for-utviklere-teknologisk-rammeverk/felleslosninger/
 
 ---
 
 ## Nasjonal verktøykasse for deling av data
 
-### Bruke data fra andre
-- https://www.digdir.no/datadeling/slik-kommer-du-i-gang-med-bruke-data-fra-andre/2255
-
-### Dele data med andre
-- https://www.digdir.no/datadeling/slik-blir-du-en-god-datatilbyder/2248
-
-### Andre ressurser
-- https://www.sikkert.no/
+- Bruke data fra andre: https://www.digdir.no/datadeling/slik-kommer-du-i-gang-med-bruke-data-fra-andre/2255
+- Dele data med andre: https://www.digdir.no/datadeling/slik-blir-du-en-god-datatilbyder/2248
+- Andre ressurser: https://www.sikkert.no/
 
 ---
 
-## Oversikt over digitale ressurser og fellesløsninger
+## Tematisk oversikt over digitale ressurser
 
-### 1. Organisering, styring, samordning og virkemidler
+### 1. Organisering, styring og virkemidler
 
-#### Strategisk samordning og koordinering
-- Digitaliseringsrådet: Råd om digitalisering.
-- SKATE: Råd til Digitaliseringsdirektoratet.
-- Arkitektur- og standardiseringsrådet: Behov, råd og standardutvikling.
-- Kultur og kompetanse: Arenaer, forum, nettverk, konferanser og kurs via digdir.no.
+- Strategisk samordning: Digitaliseringsrådet, SKATE, Arkitektur- og standardiseringsrådet.
+- Styring av sammenhengende tjenester: veiledning og styringsråd.
+- Regelverk og juridisk koordinering: ressurssenter, veiledere, EU-regelverk og Digitaliseringsrundskrivet.
+- Virkemidler og finansiering: Stimulab, medfinansieringsordningen, EU-finansiering og ordinære satsingsforslag.
 
-#### Styring av integrerbare og sammenhengende tjenester
-- Veiledning om styring og organisering av sammenhengende tjenester.
-- Styringsråd for ulike produktgrupper.
+### 2. Veiledninger, standarder og metodikk
 
-#### Regelverk og juridisk koordinering
-- Ressurssenter for deling og bruk av data.
-- Veileder for digitaliseringsvennlig regelverk.
-- Veileder for roller og ansvar ved deling av opplysninger.
-- Oversikt over EU-regelverk.
-- Innspill til høringer.
-- Digitaliseringsrundskrivet: Pålegg og anbefalinger for offentlig sektor.
-
-#### Virkemidler og finansiering
-- Stimulab: Veiledning og midler til innovasjon.
-- Medfinansieringsordningen: Delfinansiering av prosjekter.
-- Andre kilder: EU-finansiering og ordinære satsingsforslag.
-
-### 2. Veiledninger, beste praksis, standarder og metodikk
-
-#### Innovasjon og digitalisering
-- Den triple diamanten.
-- Strategisk fremsyn.
-- Missions.
-- Designmetodikk.
-- Veiledning i bruk av fellesløsninger og sammenhengende tjenester.
-
-#### Arkitektur og digital samhandlingsevne
-- Overordnede arkitekturprinsipper.
-- Rammeverk for digital samhandling.
-- Arkitektur for hendelser.
-- Kart for tjenestekjeder.
-- Arkitekturmålbilde og veikart.
-
-#### Informasjonsforvaltning og standardisering
-- Rammeverk for informasjonsforvaltning.
-- Orden i eget hus.
-- Referansekatalogen for IT-standarder.
-- Internasjonalt standardiseringsarbeid.
-
-#### Informasjonssikkerhet
-- Stifinneren.
-- Veiledere for sikkerhetsstandarder (datakommunikasjon, e-post, DNS, virksomhetsautentisering).
-- Grunnprinsipper for IKT-sikkerhet (NSM).
+- Innovasjon og digitalisering: den triple diamanten, strategisk fremsyn, missions, designmetodikk.
+- Arkitektur og samhandling: arkitekturprinsipper, rammeverk for digital samhandling, hendelsesarkitektur, tjenestekjeder, målbilder og veikart.
+- Informasjonsforvaltning og standardisering: orden i eget hus, referansekatalogen, internasjonalt standardiseringsarbeid.
+- Informasjonssikkerhet: Stifinneren, sikkerhetsstandarder og NSMs grunnprinsipper.
 
 ### 3. Felles løsninger og infrastruktur
 
-#### Plattformer og portaler
-- Altinn tjenester 3.0.
-- Norge.no.
-- Altinn.no.
-
-#### Løsninger for datautveksling og integrasjon
-- eFormidling.
-- Altinn Formidling.
-- data.norge.no.
-- data.altinn.no.
-- Altinn events.
-
-#### Tillitstjenester og transparens
-- ID-porten.
-- Maskinporten.
-- eSignering.
-- Altinn autorisasjon.
-- eInnsyn.
+- Plattformer og portaler: Altinn tjenester 3.0, Norge.no, Altinn.no.
+- Datautveksling og integrasjon: eFormidling, Altinn Formidling, data.norge.no, data.altinn.no, Altinn events.
+- Tillitstjenester og transparens: ID-porten, Maskinporten, eSignering, Altinn autorisasjon, eInnsyn.
 
 Merk: Det finnes foreløpig ingen fellesløsninger for dataanalyse og visualisering.
