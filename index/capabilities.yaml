@@ -1,10 +1,533 @@
-- id: identitet
-  navn: Identitet og tilgang
-- id: samhandling
-  navn: Samhandling på tvers
-- id: datadeling
-  navn: Datadeling og tilgjengeliggjøring
-- id: logging
-  navn: Logging og sporbarhet
-- id: sikkerhet
-  navn: Informasjonssikkerhet
+# Nasjonal Arkitektur Kapabilitetsmodell
+# Kilde: ArchiMate modell v.2026-02-27
+# Eksportert fra: 2026-03-02-Kapabilitetsoversikt.html
+
+kapabilitetsmodell:
+  id: id-ba60560a9ed64b4d87b2fd4fa6b32937
+  navn: Nasjonal arkitektur for samhandling
+  beskrivelse: >
+    Evne til å sikre samhandling, gjenbruk og strategisk retning
+    i et nasjonalt digitalt økosystem.
+
+  kapabiliteter:
+
+    - id: id-682d96a51e604ed2a00e1f4824023bab
+      navn: Strategisk styring
+      ikon: target
+      beskrivelse: >
+        Evnen til å sette retning for nasjonal arkitektur og realisere strategiske mål.
+      prinsipper:
+        - id-dbfcb14c3e024a40b6cb71138311abc0  # P2
+      delkapabiliteter:
+        - id: id-ecdde89168314bfb94b6a6ac70a55bc7
+          navn: Finansiering
+          beskrivelse: >
+            Evne til å utforme, anvende og forvalte finansielle virkemidler for å styre
+            digitalisering i økosystemets i tråd med nasjonale mål.
+        - id: id-dabf94e621f644ffa53ebb44dcc9ff79
+          navn: Arkitekturstyring
+          beskrivelse: >
+            Evne til å etablere, forvalte og styre en helhetlig nasjonal digital arkitektur
+            som et felles, forpliktende rammeverk, for å sikre samhandling, gjenbruk og
+            strategisk retning i et nasjonalt digitalt økosystem.
+        - id: id-034543e002414306a8fbecc8c9d8e496
+          navn: Samordning
+          beskrivelse: >
+            Evnen til å harmonisere og koordinere strategisk retning, beslutninger og
+            ressursbruk på tvers av virksomheter, for å realisere felles samfunnsmål
+            og sammenhengende tjenester.
+
+    - id: id-e67a4f2983ce40f9823ec34ba460055a
+      navn: Samarbeid
+      ikon: users
+      beskrivelse: >
+        Evne til å samarbeid og samhandling på tvers av offentlig og privat forvaltning.
+      prinsipper:
+        - id-dbfcb14c3e024a40b6cb71138311abc0  # P2
+        - id-0007ec16e9a1406d9f6aabd1f975d993  # P6
+      delkapabiliteter:
+        - id: id-9ea8fbaeb19243fa971013c57c3e96f9
+          navn: Organisatorisk samhandling
+          beskrivelse: >
+            Evnen til å effektivisere forretningsprosesser og verdikjeder på tvers
+            av organisatoriske grenser.
+        - id: id-b4a86e2e430c472b9f74bedb7f66fd74
+          navn: Samarbeidsarenaer og nettverk
+          beskrivelse: >
+            Evne til å effektivisere, etablere, forvalte og fasilitere arenaer, nettverk
+            og prosesser som fremmer kunnskapsdeling, dialog og samordning på tvers av
+            virksomheter i økosystemet.
+        - id: id-3f59d920995e4d488e56f61356dcf97a
+          navn: Tjenesteforvaltning
+          beskrivelse: >
+            Evne til å formalisere samarbeid gjennom tydelig definerte roller, ansvar og
+            avtaler for å sikre forutsigbar og effektiv felles styring mellom samhandlende
+            virksomheter.
+
+    - id: id-1be148b57796458993c3f7f5f24815ca
+      navn: Sluttbrukertjenester
+      ikon: layers
+      beskrivelse: >
+        Evne til å tilby en sammenhengende digital brukeropplevelse gjennom et økosystem
+        av standardiserte og integrerbare tjenester.
+      prinsipper:
+        - id-94f7473fb4184e3b94bb92c35186b88f  # P1
+        - id-d0918d8701a4408b93a9ab278ecbb85e  # P5
+      delkapabiliteter:
+        - id: id-0aa7eced8c5c460f8bc64b77bd6a16c4
+          navn: Sammenhengende tjenester
+          beskrivelse: >
+            Evne til å levere en digital brukerorienterte tjenester som fremstår som en
+            logisk og uavbrutt prosess for brukeren, selv når den involverer og koordinerer
+            handlinger og tjenester fra flere, uavhengige virksomheter.
+        - id: id-825b1ea1217b4eedb6caae165aeb8e41
+          navn: Tjenestekjeder
+          beskrivelse: >
+            Evne til å dynamisk sette sammen, koordinere og automatisere flyten av informasjon
+            og prosesser på tvers av uavhengige, integrerbare tjenester for å levere en
+            komplett ende-til-ende-tjeneste for brukeren.
+        - id: id-9bc3012bcd154e27aa094ac36bf391be
+          navn: Proaktive tjenester
+          beskrivelse: >
+            Evne til å, basert på registrerte hendelser og delte data, automatisk identifisere
+            en brukers behov for offentlige tjenester og proaktivt tilby relevant informasjon,
+            veiledning eller starte en tjenesteprosess på vegne av brukeren.
+
+    - id: id-ad6f81e892a74590840828b6aabb270d
+      navn: Datautveksling og integrasjon
+      ikon: workflow
+      beskrivelse: >
+        Evne til å sikkert, effektivt og standardisert utveksle data mellom aktører
+        i økosystemet.
+      prinsipper:
+        - id-a27833cb9e324549916a528f31481dce  # P4
+      delkapabiliteter:
+        - id: id-efe1a2676c124eeab946802af96a1ab7
+          navn: Dele data med andre
+          beskrivelse: >
+            Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er,
+            slik at andre aktører med lovlig grunnlag enkelt kan oppdage og gjenbruke dem.
+        - id: id-84629318a3b84213ac3a83bdb6a1aad9
+          navn: Bruke data fra andre
+          beskrivelse: >
+            Evne til å gjenbruke data fra andre i egne tjenester og prosesser.
+        - id: id-b503993b59044b83b3c38fb179fa732c
+          navn: Meldingsformidling
+          beskrivelse: >
+            Evnen til å garantere levering og meldingsrekkefølge til rett mottaker.
+        - id: id-64811e71d98647e5a678a0a2e79ae617
+          navn: Hendelsesdrevet
+          beskrivelse: >
+            Evne til å publisere og reagere på digitale hendelser og kontinuerlige
+            datastrømmer når de inntreffer.
+
+    - id: id-d503cf06faa1417b8acd4b26a5c0741e
+      navn: Tillit
+      ikon: shield-check
+      beskrivelse: >
+        Evne å tilby tillitstjenester som muliggjør autentisering og autorisasjon på tvers
+        av tjenestekjeder, og støtte en distribuert arkitektur og føderering mellom ulike
+        domener og tjenester.
+      prinsipper:
+        - id-5b6ec861e2d246ce90c99ea282d35610  # P7
+      delkapabiliteter:
+        - id: id-ec0afaac123d4f9e83889d9022a198c3
+          navn: Autentisering
+          beskrivelse: >
+            Evne til å på en sikker og entydig måte verifisere den digitale identiteten
+            til brukere og systemer.
+        - id: id-a8a1eb0181f04006ba7d3b5ab2fa9ca8
+          navn: Tilgangskontroll
+          beskrivelse: >
+            Evne til å kontrollere at en bruker har rettighet til å benytte angitt ressurs
+            eller tjeneste på vegne av andre eller seg selv.
+        - id: id-b440252bc3de42dea8468be54e54b1fa
+          navn: Tilgangsstyring
+          beskrivelse: >
+            Evne til å styre og gi tilgang til hvem som har rettighet til å benytte en
+            ressurs (tjeneste, system, API, opplysning) på vegne av seg selv, andre
+            personer eller virksomheter.
+        - id: id-b2aafe1f4c534db6b92c40b1eef605f2
+          navn: Representasjon
+          beskrivelse: >
+            Evne til til å kunne opptre eller utføre handlinger digitalt på vegne av andre.
+        - id: id-2dfe07b3eae740b9a292e0a4a42d22db
+          navn: Sporbarhet og innsyn
+          beskrivelse: >
+            Dokumentasjon og logging av opplysninger for bruk i innsyn, forvaltning
+            og kontroll av tillitstjenester.
+        - id: id-f5214c3db8de4738ab03abb7b7e553ed
+          navn: Signering
+          beskrivelse: >
+            Evne til juridisk bindende signering av dokumenter eller transaksjoner.
+        - id: id-809f454dc4024d56ab54079252fdfe29
+          navn: Samtykke
+          beskrivelse: >
+            Evne til å akseptere, godkjenne eller gi tillatelse på vegne av seg selv
+            eller andre, der det foreligger et representasjonsforhold.
+        - id: id-4b66bbf964834654b5f0c61e955b91b1
+          navn: Identifisering
+          beskrivelse: >
+            Evne til entydig å fastslå og registrere identiteter (personer, virksomheter
+            eller systemer) gjennom pålitelige metoder og kilder.
+
+    - id: id-98df6c2b4df340c7a3a3ad32d99ca37e
+      navn: Datadrevet
+      ikon: trending-up
+      beskrivelse: >
+        Evne til å systematisk bruke data som en strategisk ressurs for å skape innsikt,
+        informere beslutninger og utvikle bedre, mer treffsikre og effektive tjenester.
+      prinsipper:
+        - id-a27833cb9e324549916a528f31481dce  # P4
+      delkapabiliteter:
+        - id: id-fa54a429cbd84db09da1b2b2165fc352
+          navn: Dataanalyse
+          beskrivelse: >
+            Evnen til å transformere rådata til meningsfull innsikt og bygge prediktive modeller.
+        - id: id-7e3d1d3396914d65a177c9d5346d6feb
+          navn: Sammenstilling av data
+          beskrivelse: >
+            Evne til å hente, kombinere og foredle data fra ulike kilder for å skape ny
+            innsikt, et helhetlig beslutningsgrunnlag, eller sammenhengende tjenester
+            for brukeren.
+        - id: id-8914d57f4f1442b1b562252a3630a686
+          navn: Visualisering
+          beskrivelse: >
+            Evne til å omforme komplekse data til visuelle fremstillinger som gjør innsikt
+            lett tilgjengelig, forståelig og anvendbar.
+
+    - id: id-48c9873ae59341a49c2dca27379fab55
+      navn: Informasjonssikkerhet
+      ikon: shield-check
+      beskrivelse: >
+        Evne til å ha tilstrekkelig sikkerhet i tjenester og løsninger som benyttes
+        i felles økosystem.
+      prinsipper:
+        - id-5b6ec861e2d246ce90c99ea282d35610  # P7
+      delkapabiliteter:
+        - id: id-980043f78fa94eec8ecf46338a5b9c6b
+          navn: Styringssystem
+          beskrivelse: >
+            Evne til å evaluere, forbedre, fornye styringssystem for informasjonssikkerhet.
+        - id: id-34d3d64b3afe4327a29ee6c2f7f74dff
+          navn: Sikring av informasjonsflyt og datautveksling
+          beskrivelse: >
+            Kapabiliteten omfatter de tekniske og organisatoriske tiltakene som sikrer at
+            informasjon som utveksles mellom virksomheter er beskyttet mot innsyn og
+            manipulering, og at dataflyten er kontrollert.
+
+    - id: id-cd3b6a8989a448a2b4dfbf430a41bad4
+      navn: Tjenesteutvikling
+      ikon: cpu
+      beskrivelse: >
+        Evne til å utvikle sammenhengende digitale tjenester.
+      prinsipper:
+        - id-94f7473fb4184e3b94bb92c35186b88f  # P1
+        - id-d0918d8701a4408b93a9ab278ecbb85e  # P5
+      delkapabiliteter:
+        - id: id-ce84b9b6943f4789bca153c0ed15245a
+          navn: Utviklings- og kjøretidsmiljø
+          beskrivelse: >
+            Evne til å tilby og forvalte en felles, skalerbar teknisk plattform og en
+            tilhørende verktøykasse med standardiserte byggeklosser, verktøy og
+            utviklingsmiljøer som forenkler og akselererer utviklingen av digitale tjenester.
+        - id: id-60827614648541ef8520df87fa25d100
+          navn: Integrerbare tjenester
+          beskrivelse: >
+            Evne til å designe, utvikle og eksponere data og funksjonalitet som selvstendige,
+            standardiserte og maskinlesbare tjenester (API-er), slik at de enkelt kan
+            oppdages, forstås og integreres i nye, tverrgående prosesser og løsninger.
+        - id: id-f696350f5d844a96854deadb83bc3c81
+          navn: Gjenbrukbare tjenester
+          beskrivelse: >
+            Evne til å utvikle og benytte tjenester som kan brukes i nye sammenhenger
+            på tvers av offentlig forvaltning og næringsliv.
+        - id: id-379e167f7b9c4fbea9c6969425ba7f6c
+          navn: Tjenestedesign
+          beskrivelse: >
+            Evne til å sette brukerens behov, livssituasjon og helhetlige reise som
+            utgangspunkt for utvikling av sammenhengende tjenester.
+
+    - id: id-896e4c1434604caa891b94bcce964720
+      navn: Informasjonsforvaltning
+      ikon: database
+      beskrivelse: >
+        Evne til å ha et felles rammeverk og styringsmodell for informasjonsforvaltning,
+        slik at offentlige virksomheter kan utveksle og dele data og beskrivelser.
+      prinsipper:
+        - id-0007ec16e9a1406d9f6aabd1f975d993  # P6
+      delkapabiliteter:
+        - id: id-5c6c20d50b6a4b168524901372f0ca6e
+          navn: Informasjonsarkitektur
+          beskrivelse: >
+            Evne til å strukturere og modellere informasjon på en standardisert måte,
+            slik at data og innhold blir finnbart, forståelig og gjenbrukbart for både
+            mennesker og maskiner på tvers av hele økosystemet.
+        - id: id-a40bf39259434db48f358cc543428c8a
+          navn: Oversikt over informasjonsmodeller
+          beskrivelse: >
+            Evne til å gi oversikt over informasjonsmodeller for å kunne gi en felles
+            forståelse av datastrukturer, slik at data kan tolkes korrekt og meningsfullt.
+        - id: id-3c6f94ba791a4aa298809ef3f46bdc87
+          navn: Oversikt over datasett
+          beskrivelse: >
+            Evne til å systematisk oppdage, vurdere og gjenbruke data på tvers av offentlig
+            sektor gjennom en sentral, standardisert oversikt over tilgjengelige datasett.
+        - id: id-e5a55d4bacd14740a656bc896d25497a
+          navn: Oversikt over hendelser
+          beskrivelse: >
+            Evne til å få oversikt over hvilke hendelser som utløser eller utløses av en tjeneste.
+        - id: id-718d8e94a9b847a485fc6518b4f2588d
+          navn: Oversikt over API
+          beskrivelse: >
+            Evne til å datadeling og tjenesteintegrasjon ved å oppdage, forstå og koble
+            seg til tilgjengelige data via en standardisert oversikt over maskinlesbare
+            grensesnitt (API-er).
+        - id: id-dc38d2667240445db35f7f0f38fc1e15
+          navn: Oversikt over begreper
+          beskrivelse: >
+            Evne til å etablere en omforent begrepsforståelse ved å definere, dele og
+            gjenbruke begreper på tvers av virksomheter, for å sikre entydig kommunikasjon
+            og semantisk samhandlingsevne.
+        - id: id-d9374751da7d4b36bb0b3be609ff7d28
+          navn: Oversikt over tjenester
+          beskrivelse: >
+            Evne til å gi oversikt over og oppdage tjenester som tilbys av eller på vegne
+            av offentlig sektor.
+        - id: id-5852d070415849fab42749cb488d984a
+          navn: Datastyring
+          beskrivelse: >
+            Evne til å sikre enhetlig og ansvarlig forvaltning av nasjonale dataressurser
+            gjennom felles rammeverk, klar ansvarsplassering og systematisk kvalitetsarbeid.
+
+    - id: id-c3f87c86b19547359c677a333b16f03b
+      navn: Standardisering
+      ikon: settings
+      beskrivelse: >
+        Evne til å identifisere, vedta, forvalte og fremme bruk av omforente standarder og
+        spesifikasjoner som sikrer interoperabilitet og gjenbruk på tvers av sektorer og
+        landegrenser.
+      prinsipper:
+        - id-0007ec16e9a1406d9f6aabd1f975d993  # P6
+      delkapabiliteter:
+        - id: id-697145d3768b40d39f9463667b78f749
+          navn: EU standarder
+          beskrivelse: >
+            Evnen til at EU standardene forstås og tas i bruk.
+        - id: id-b99fcd8160d24e5f8ea3c17b15072f7a
+          navn: Forvaltningsstandarder
+          beskrivelse: >
+            Evne til å implementere og ta i bruk nasjonale standarder.
+
+    - id: id-299fc063873a4f278a1d3c0ac9480467
+      navn: Juridisk samhandling
+      ikon: scale
+      beskrivelse: >
+        Evne til å etablere, forvalte og formidle et helhetlig juridisk rammeverk som
+        muliggjør og regulerer sikker og effektiv digital samhandling.
+      prinsipper:
+        - id-7d62a886cdc14d20a5b361cf68da5754  # P3
+        - id-5b6ec861e2d246ce90c99ea282d35610  # P7
+      delkapabiliteter: []
+
+    - id: id-c0547226c598467a942dced879d0c18b
+      navn: Veiledning
+      ikon: book-open
+      beskrivelse: >
+        Evne til at veiledninger for digital samhandling utarbeides og benyttes i
+        felles økosystem.
+      prinsipper:
+        - id-0007ec16e9a1406d9f6aabd1f975d993  # P6
+      delkapabiliteter: []
+
+    - id: id-d7aa97e6319a492d8a1345bcaa8e154a
+      navn: Datakilder
+      ikon: database
+      beskrivelse: >
+        Evne til å tilgjengeliggjøre og forvalte data som en nasjonal fellesressurs,
+        slik at de kan oppdages, forstås og gjenbrukes på en sikker og standardisert måte.
+      prinsipper:
+        - id-a27833cb9e324549916a528f31481dce  # P4
+      delkapabiliteter:
+        - id: id-3dbd3a9115cb4c54876490cbf02b0c58
+          navn: Grunndata
+          beskrivelse: >
+            Evne til å identifisere og formelt anerkjenne autoritative datakilder basert
+            på en systematisk vurdering av deres verdi.
+        - id: id-711390c3ddaa4b67914ccbcc2f1831aa
+          navn: Sanntidsdata
+          beskrivelse: >
+            Evne til å sikkert prosessere og distribuere kontinuerlige datastrømmer for å
+            muliggjøre sanntidsinnsikt, automatisering og umiddelbar respons.
+        - id: id-db4f30a87ae84561a4058d4d264177b1
+          navn: Åpne data
+          beskrivelse: >
+            Evne til å tilgjengeliggjøre åpne data slik at den kan leses og tolkes av
+            både maskiner og mennesker, og som alle kan få tilgang til, bruke og dele.
+        - id: id-68ec332ee94c483e878a3a2ae903863f
+          navn: Testdata
+          beskrivelse: >
+            Evne til å generere og tilgjengeliggjøre representative og personvernsikre datasett.
+        - id: id-08d657e690c046019dbf6d52b1ed4d63
+          navn: Ustrukturerte data
+          beskrivelse: >
+            Evne til å tilgjengeliggjøre og forvalte data som ikke er påført en
+            forhåndsdefinert struktur.
+
+# ──────────────────────────────────────────────
+# PRINSIPPER
+# ──────────────────────────────────────────────
+prinsipper:
+  - id: id-94f7473fb4184e3b94bb92c35186b88f
+    navn: "P1: Ta utgangspunkt i brukernes behov"
+  - id: id-dbfcb14c3e024a40b6cb71138311abc0
+    navn: "P2: Ta arkitektur-beslutninger på rett nivå"
+  - id: id-7d62a886cdc14d20a5b361cf68da5754
+    navn: "P3: Bidra til digitaliseringsvennlige regelverk"
+  - id: id-a27833cb9e324549916a528f31481dce
+    navn: "P4: Del og gjenbruk data"
+  - id: id-d0918d8701a4408b93a9ab278ecbb85e
+    navn: "P5: Del og gjenbruk løsninger"
+  - id: id-0007ec16e9a1406d9f6aabd1f975d993
+    navn: "P6: Lag digitale løsninger som støtter samhandling"
+  - id: id-5b6ec861e2d246ce90c99ea282d35610
+    navn: "P7: Sørg for tillit til oppgaveløsningen"
+
+# ──────────────────────────────────────────────
+# STRATEGISKE MÅL
+# ──────────────────────────────────────────────
+strategiske_maal:
+  - id: id-897fd3d0f5fd4c2891e824a371d5e69b
+    type: Outcome
+    navn: >
+      Et velfungerende felles digitalt økosystem for samhandling og
+      tjenesteutvikling i offentlig sektor
+    beskrivelse: >
+      Beskriver nødvendige ressurser for samhandling og tydeliggjøre
+      sammenhenger og ansvar.
+
+  - id: id-a4062153239a4d13a9fdef8cc205c8e6
+    type: Goal
+    navn: Sterkere styring og samordning av digitalisering på tvers av sektorer
+
+  - id: id-cbc357e78ede45e8aa565fde3b7380b5
+    type: Goal
+    navn: Bedre, mer sammenhengende digitale tjenester til innbyggere og næringsliv
+
+  - id: id-56e7246019f54eec8093568bd0fb8e22
+    type: Goal
+    navn: Norge skal være ledende på verdiskaping med data
+
+  - id: id-90ff9c60528d4dfe93d534bd6a7bcfeb
+    type: Goal
+    navn: Deltakelse i EUs satsing på dataområder
+
+  - id: id-9f2593113134463ea6863703c308b251
+    type: Goal
+    navn: Nasjonal infrastruktur for kunstig intelligens (KI)
+
+  - id: id-bf3fa917baad486d9865b9627199a2d4
+    type: Goal
+    navn: Gode rammevilkår for næringslivets bruk av KI
+
+  - id: id-89e255a238d346a4901424f0059e6345
+    type: Goal
+    navn: Næringslivets konkurranseevne styrkes gjennom data
+
+  - id: id-9622546accfc43d28a38cebdecf8818a
+    type: Goal
+    navn: Alle skal ha tilbud om en elektronisk identitet
+
+# ──────────────────────────────────────────────
+# PRINSIPP–KAPABILITET KOBLINGER (begrunnelser)
+# ──────────────────────────────────────────────
+prinsipp_kapabilitet_koblinger:
+
+  - prinsipp_id: id-94f7473fb4184e3b94bb92c35186b88f  # P1
+    koblinger:
+      - kapabilitet_id: id-cd3b6a8989a448a2b4dfbf430a41bad4
+        begrunnelse: >
+          Tjenestedesign sikrer at utviklingsløp starter med brukernes faktiske behov
+          og livssituasjon fremfor tekniske begrensninger.
+      - kapabilitet_id: id-1be148b57796458993c3f7f5f24815ca
+        begrunnelse: >
+          Gjennom sammenhengende tjenester og proaktivitet settes brukeren i sentrum
+          for leveranse på tvers av etater.
+
+  - prinsipp_id: id-dbfcb14c3e024a40b6cb71138311abc0  # P2
+    koblinger:
+      - kapabilitet_id: id-682d96a51e604ed2a00e1f4824023bab
+        begrunnelse: >
+          Arkitekturstyring og samordning muliggjør balanserte beslutninger mellom
+          nasjonale fellesløsninger og sektorspesifikk frihet.
+      - kapabilitet_id: id-e67a4f2983ce40f9823ec34ba460055a
+        begrunnelse: >
+          Tjenesteforvaltning og felles styringsmodeller sikrer forankring av felles
+          beslutninger i økosystemet.
+
+  - prinsipp_id: id-7d62a886cdc14d20a5b361cf68da5754  # P3
+    koblinger:
+      - kapabilitet_id: id-299fc063873a4f278a1d3c0ac9480467
+        begrunnelse: >
+          Juridisk samhandling identifiserer hindringer i lovverket som står i veien
+          for moderne digitale prosesser og informasjonsflyt.
+
+  - prinsipp_id: id-a27833cb9e324549916a528f31481dce  # P4
+    koblinger:
+      - kapabilitet_id: id-ad6f81e892a74590840828b6aabb270d
+        begrunnelse: >
+          Teknisk evne til å dele og bruke data via API-er og meldinger er fundamentet
+          for prinsippet om 'kun én gang'.
+      - kapabilitet_id: id-98df6c2b4df340c7a3a3ad32d99ca37e
+        begrunnelse: >
+          Sammenstilling av data fra ulike kilder skaper ny innsikt som forutsetter
+          aktiv deling og gjenbruk.
+      - kapabilitet_id: id-d7aa97e6319a492d8a1345bcaa8e154a
+        begrunnelse: >
+          Grunndata som autoritative kilder sikrer at alle deltakere bruker korrekte
+          og oppdaterte data nasjonalt.
+
+  - prinsipp_id: id-d0918d8701a4408b93a9ab278ecbb85e  # P5
+    koblinger:
+      - kapabilitet_id: id-cd3b6a8989a448a2b4dfbf430a41bad4
+        begrunnelse: >
+          Gjenbrukbare og integrerbare tjenester reduserer duplisering og akselererer
+          utviklingstakten i hele sektoren.
+      - kapabilitet_id: id-1be148b57796458993c3f7f5f24815ca
+        begrunnelse: >
+          Koordinering av tjenestekjeder bygger på eksisterende byggeklosser for å
+          levere ende-til-ende verdi.
+
+  - prinsipp_id: id-0007ec16e9a1406d9f6aabd1f975d993  # P6
+    koblinger:
+      - kapabilitet_id: id-e67a4f2983ce40f9823ec34ba460055a
+        begrunnelse: >
+          Samarbeidsarenaer og nettverk fasiliterer den organisatoriske evnen til å
+          jobbe sammen på tvers.
+      - kapabilitet_id: id-896e4c1434604caa891b94bcce964720
+        begrunnelse: >
+          Informasjonsarkitektur og felles begreper gir det felles språket som er
+          nødvendig for maskinell samhandling.
+      - kapabilitet_id: id-c3f87c86b19547359c677a333b16f03b
+        begrunnelse: >
+          Bruk av felles standarder sikrer interoperabilitet slik at ulike systemer
+          faktisk kan fungere sammen.
+      - kapabilitet_id: id-c0547226c598467a942dced879d0c18b
+        begrunnelse: >
+          Felles veiledning sikrer at alle aktører praktiserer samhandling på en
+          harmonisert måte.
+
+  - prinsipp_id: id-5b6ec861e2d246ce90c99ea282d35610  # P7
+    koblinger:
+      - kapabilitet_id: id-d503cf06faa1417b8acd4b26a5c0741e
+        begrunnelse: >
+          Autentisering, autorisasjon og samtykke legger det tekniske tillitsgrunnlaget
+          for digital interaksjon.
+      - kapabilitet_id: id-48c9873ae59341a49c2dca27379fab55
+        begrunnelse: >
+          Sikring av informasjonsflyt og robuste styringssystemer beskytter dataenes
+          integritet og borgernes personvern.
+      - kapabilitet_id: id-299fc063873a4f278a1d3c0ac9480467
+        begrunnelse: >
+          Et avklart juridisk rammeverk gir rettslig forutsigbarhet som er kritisk
+          for brukernes tillit til løsningene.
