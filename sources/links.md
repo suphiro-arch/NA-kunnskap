@@ -142,6 +142,31 @@ Sist redigert: 2026-03-05.
 
 ---
 
+## Standardisering og veiledning (nasjonal arkitektur)
+
+### Arkitektur (Digdir)
+- Nasjonal arkitektur: https://www.digdir.no/samhandling/nasjonal-arkitektur/2150
+- Overordnede arkitekturprinsipper: https://www.digdir.no/samhandling/overordnede-arkitekturprinsipper/1065
+- Rammeverk for digital samhandling: https://www.digdir.no/samhandling/rammeverk-digital-samhandling/2149
+- Referansearkitekturer: https://www.digdir.no/samhandling/referansearkitekturer/2131
+- Arkitektur for hendelser: https://www.digdir.no/samhandling/arkitektur-hendelser/4691
+- Kart for tjenestekjeder: https://www.digdir.no/samhandling/kart-tjenestekjeder/4168
+
+### Standardisering (Digdir)
+- Referansekatalogen for IT-standarder: https://www.digdir.no/digitalisering-og-samordning/referansekatalogen-it-standarder/1480
+- Arbeidsmetodikk for referansekatalogen: https://www.digdir.no/digitalisering-og-samordning/arbeidsmetodikk-referansekatalogen/5622
+- Arkitektur- og standardiseringsrådet: https://www.digdir.no/digitalisering-og-samordning/arkitektur-og-standardiseringsradet/3918
+
+### Informasjonsforvaltning og styring
+- Rammeverk for informasjonsforvaltning: https://www.digdir.no/digitalisering-og-samordning/rammeverk-informasjonsforvaltning/2419
+- Orden i eget hus: https://www.digdir.no/orden-eget-hus/orden-eget-hus/2717
+- Digitaliseringsrundskrivet: https://www.digdir.no/styring-og-organisering/digitaliseringsrundskrivet/1230
+
+### Informasjonssikkerhet (NSM)
+- Grunnprinsipper for IKT-sikkerhet: https://nsm.no/fagomrader/digital-sikkerhet/grunnprinsipper-for-ikt-sikkerhet/
+
+---
+
 ## Tematisk oversikt over digitale ressurser
 
 ### 1. Organisering, styring og virkemidler
