@@ -8,11 +8,15 @@ Sist redigert: 2026-03-05.
 ### Nasjonale fellesløsninger
 - https://www.digdir.no/felleslosninger/nasjonale-felleslosninger/750
 - https://docs.altinn.studio/nb/ (mest oppdatert for Altinn)
+- https://docs.digdir.no/ (samlet teknisk dokumentasjon)
 
 ### Sentrale felleskomponenter
 - ID-porten: https://www.digdir.no/id-porten/om-id-porten/1507
+- ID-porten (teknisk dokumentasjon): https://docs.digdir.no/docs/idporten/
 - Maskinporten: https://www.digdir.no/om-tjenesten/maskinporten/1558
 - Digital post (felleskomponent): https://www.digdir.no/felleskomponenter/digital-post/1483
+- Kontakt- og reservasjonsregisteret (KRR): https://docs.digdir.no/docs/Kontaktregisteret/
+- KRR overordnet: https://docs.digdir.no/docs/Kontaktregisteret/krr_overordnet
 - Sertifikattjenester: https://www.digdir.no/digital-sikkerhet/sertifikattjenester/1538
 
 ### Prinsipper og overordnet beskrivelse
@@ -100,6 +104,10 @@ Sist redigert: 2026-03-05.
 - E-resept: https://www.nhn.no/tjenester/e-resept
 - Helsenorge (innbyggerside): https://www.helsenorge.no/
 - Helseopplysninger som deles (Helsenorge): https://www.helsenorge.no/helseopplysninger-som-deles
+- Kjernejournal (Helsenorge): https://www.helsenorge.no/helseopplysninger-som-deles/kjernejournal/
+- Resepter (Helsenorge): https://www.helsenorge.no/legemidler/resepter
+- HelseID (hva er HelseID): https://www.nhn.no/tjenester/helseid/hva-er-helseid
+- HelseID tjenestetilbud: https://www.nhn.no/tjenester/helseid/tjenestetilbud
 
 ---
 
