@@ -18,10 +18,12 @@ Høy. Felles datakatalog er en etablert nasjonal komponent for synliggjøring av
 Felles datakatalog er nasjonal løsning for å beskrive og tilgjengeliggjøre metadata om datasett, API-er og informasjonsmodeller for datadeling i offentlig sektor.
 
 ## Kapabiliteter
-- Metadataforvaltning
-- Synliggjøring av data og API-er
-- Semantisk samhandling og felles begrepsforståelse
-- Støtte for datadeling på tvers av virksomheter
+- Informasjonsforvaltning: Oversikt over datasett
+- Informasjonsforvaltning: Oversikt over API
+- Informasjonsforvaltning: Oversikt over begreper
+- Informasjonsforvaltning: Oversikt over informasjonsmodeller
+- Datautveksling og integrasjon: Dele data med andre
+- Standardisering: Forvaltningsstandarder
 
 ## Produktmål
 - Øke gjenfinning og gjenbruk av offentlige data

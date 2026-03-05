@@ -18,9 +18,10 @@ Moden løsning for meldingsutveksling i offentlig sektor, med etablert plass i n
 eFormidling er en nasjonal samhandlingskomponent for sikker og standardisert meldingsutveksling mellom offentlige virksomheter.
 
 ## Kapabiliteter
-- Meldingsutveksling mellom virksomheter
-- Standardisert digital samhandling
-- Sikker og sporbar transport av informasjon
+- Datautveksling og integrasjon: Meldingsformidling
+- Samarbeid: Organisatorisk samhandling
+- Standardisering: Forvaltningsstandarder
+- Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling
 
 ## Produktmål
 - Forenkle og standardisere digital meldingsflyt mellom offentlige aktører

@@ -18,10 +18,10 @@ Høy. Digital post er etablert felleskomponent med utbredt bruk i offentlig sekt
 Digital post er nasjonal felleskomponent for sikker digital utsending av meldinger fra offentlig sektor til innbyggere og virksomheter.
 
 ## Kapabiliteter
-- Sikker digital meldingsdistribusjon
-- Varsling og digital kommunikasjon
-- Sporbar utsending og mottak
-- Gjenbrukbar kanal for offentlig post
+- Datautveksling og integrasjon: Meldingsformidling
+- Tillit: Sporbarhet og innsyn
+- Sluttbrukertjenester: Sammenhengende tjenester
+- Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling
 
 ## Produktmål
 - Erstatte papirbasert post der det er hensiktsmessig
