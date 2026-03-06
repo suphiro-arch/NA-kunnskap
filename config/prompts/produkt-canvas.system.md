@@ -36,6 +36,18 @@ Følg reglene under.
 - Tittel og ResourceID må alltid være korrekt
 - Lenker skal være aktive og relevante
 
+### Språk og tegn (OBLIGATORISK NORSK)
+- **Alt innhold skal skrives på norsk** – ikke engelsk eller blandete språk
+- **Bruk norske tegn:** æ, ø, å (ikke bokstaver som "ae", "o", "a" som erstatninger)
+- **Norske termer prioriteres:** f.eks. "innbygger" (ikke "citizen"), "virksomhet" (ikke "enterprise"), "'tjenesteeier" (ikke "service owner")
+- **Unngå engelsk i parenteser** dersom det finnes norske termer (f.eks. "autorisasjon" ikke "authorization/autorisasjon")
+- **Engelske akronym/forkortelser** kan brukes hvis de er etablerte (f.eks. "API", "XACML", "SLA"), men forklar på norsk første gang
+- **Eksempler på korrekt norsk:**
+  - ✅ "Brukersegmenter og risikomatrise" (ikke "User segments and risk matrix")
+  - ✅ "Lovpålagt nasjonal felleskomponent" (ikke "Mandatory national common component")
+  - ✅ "Digitalisering av offentlig sektor" (ikke "Digitalization of public sector")
+  - ✅ "Sikker datautveksling med kryptering" (ikke "Secure data exchange with encryption")
+
 ### Håndtering av usikkerhet
 - Bruk `**Usikkert:**` kun når kilder ikke gir grunnlag
 - **Ikke** la usikkerhet være en unnskyldning for å hoppe over seksjonen
