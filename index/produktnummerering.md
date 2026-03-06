@@ -21,14 +21,15 @@ Filnavn bruker format: `NN-<produkt>-produkt-canvas.md`.
 | 13 | Felles datakatalog | finnes | `13-Felles-datakatalog-produkt-canvas.md` |
 | 14 | Begrepskatalog | finnes | `14-Begrepskatalog-produkt-canvas.md` |
 | 15 | API-katalog | finnes | `15-API-katalog-produkt-canvas.md` |
-| 16 | data.norge.no | mangler | `16-data-norge-no-produkt-canvas.md` |
-| 17 | data.altinn.no | mangler | `17-data-altinn-no-produkt-canvas.md` |
-| 18 | Norge.no | mangler | `18-Norge-no-produkt-canvas.md` |
+| 16 | data.norge.no | finnes | `16-data-norge-no-produkt-canvas.md` |
+| 17 | data.altinn.no | finnes | `17-data-altinn-no-produkt-canvas.md` |
+| 18 | Norge.no | finnes | `18-Norge-no-produkt-canvas.md` |
 | 19 | Altinn | finnes | `19-Altinn-produkt-canvas.md` |
 | 20 | Altinn Studio | finnes | `20-Altinn-Studio-produkt-canvas.md` |
 | 21 | Altinn Portal | finnes | `21-Altinn-Portal-produkt-canvas.md` |
 | 22 | Dialogporten | finnes | `22-Dialogporten-produkt-canvas.md` |
 | 23 | Melding (Altinn 3 Melding / Correspondence) | finnes | `23-Altinn-3-Melding-produkt-canvas.md` |
 | 24 | Varsling (Notifications) | finnes | `24-Varslinger-produkt-canvas.md` |
+
 
 
