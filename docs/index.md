@@ -1,6 +1,6 @@
-﻿# Nasjonale fellestjenester og felleskomponenter
+# Nasjonale fellestjenester og felleskomponenter
 
-FormÃ¥l: Samlet lenkeliste over nasjonale felleslÃ¸sninger, sektorkilder og relevante veiledningsressurser.
+Formål: Samlet lenkeliste over nasjonale fellesløsninger, sektorkilder og relevante veiledningsressurser.
 Sist redigert: 2026-03-06.
 
 ## Digdir (Digitaliseringsdirektoratet)
@@ -62,8 +62,8 @@ Sist redigert: 2026-03-06.
 - KS Digital tjenester: https://ksdigital.no/tjenester-2/
 - FIKS-plattformen: https://ksdigital.no/tjenestene/fiks-plattformen/
 - FIKS teknisk dokumentasjon (PDF): https://developers.fiks.ks.no/fiks-plattformen.pdf
-- Felles mal for innfÃ¸ring av digitale fellestjenester: https://ksdigital.no/tjenestene/felles-mal-for-innforing-av-digitale-fellestjenester/
-- KS Digital - Felles Tjenesteplattform (DigitaliseringsrÃ¥det): https://www.digdir.no/digitaliseringsradet/ks-digital-tiltaket-felles-tjenesteplattform/7556
+- Felles mal for innføring av digitale fellestjenester: https://ksdigital.no/tjenestene/felles-mal-for-innforing-av-digitale-fellestjenester/
+- KS Digital - Felles Tjenesteplattform (Digitaliseringsrådet): https://www.digdir.no/digitaliseringsradet/ks-digital-tiltaket-felles-tjenesteplattform/7556
 
 ### Tjenester for fagsystemer
 - https://ksdigital.no/tjenestene/digiorden/
@@ -103,7 +103,7 @@ Sist redigert: 2026-03-06.
 - Helsedirektoratet - helseregistre og helsedata: https://www.helsedirektoratet.no/helseregistre-og-helsedata
 - Regjeringen - helsedata: https://www.regjeringen.no/no/tema/helse-og-omsorg/digitalisering-av-helse-og-omsorgstjenestene/innsikt/helsedata/id3019347/
 
-### Nasjonale e-helselÃ¸sninger
+### Nasjonale e-helseløsninger
 - NHN tjenester (oversikt): https://www.nhn.no/tjenester/
 - Kjernejournal (om tjenesten): https://www.nhn.no/tjenester/kjernejournal/om-tjenesten
 - E-resept: https://www.nhn.no/tjenester/e-resept
@@ -139,9 +139,9 @@ Sist redigert: 2026-03-06.
 ### Domstolverket
 - Domstolverket: https://www.domstolverket.no/
 
-### PÃ¥talemyndigheten og Riksadvokaten
+### Påtalemyndigheten og Riksadvokaten
 - Riksadvokaten: https://www.riksadvokaten.no/
-- PÃ¥taleinstitusjonene: https://www.domstolverket.no/organisation/prosecuting-authority/
+- Påtaleinstitusjonene: https://www.domstolverket.no/organisation/prosecuting-authority/
 
 ### Politiet
 - Politiet: https://www.politiet.no/
@@ -151,15 +151,15 @@ Sist redigert: 2026-03-06.
 ## Norge.no - Nasjonalt Informasjonssenter
 
 - Norge.no: https://www.norge.no/
-- Om tjenestene pÃ¥ Norge.no: https://www.norge.no/om-norge-no
+- Om tjenestene på Norge.no: https://www.norge.no/om-norge-no
 
 ---
 
 ## Kartverket
 
 - Matrikkelen: https://kartverket.no/enhetsregister/matrikkelen/
-- Nasjonale felleslÃ¸sninger for geodata: https://www.kartverket.no/geodataarbeid/felleslosningene/nasjonale-felleslosninger-for-geodata
-- Kartverkets felleslÃ¸sninger: https://www.kartverket.no/geodataarbeid/felleslosningene
+- Nasjonale fellesløsninger for geodata: https://www.kartverket.no/geodataarbeid/felleslosningene/nasjonale-felleslosninger-for-geodata
+- Kartverkets fellesløsninger: https://www.kartverket.no/geodataarbeid/felleslosningene
 - Geonorge - felles tjeneste for kartdata: https://www.geonorge.no/Geodataarbeid/geografisk-infrastruktur/teknologisk-rammeverk/for-utviklere-teknologisk-rammeverk/felleslosninger/
 
 ---
@@ -178,7 +178,7 @@ Sist redigert: 2026-03-06.
 
 ---
 
-## Nasjonal verktÃ¸ykasse for deling av data
+## Nasjonal verktøykasse for deling av data
 
 - Bruke data fra andre: https://www.digdir.no/datadeling/slik-kommer-du-i-gang-med-bruke-data-fra-andre/2255
 - Dele data med andre: https://www.digdir.no/datadeling/slik-blir-du-en-god-datatilbyder/2248
@@ -199,7 +199,7 @@ Sist redigert: 2026-03-06.
 ### Standardisering (Digdir)
 - Referansekatalogen for IT-standarder: https://www.digdir.no/digitalisering-og-samordning/referansekatalogen-it-standarder/1480
 - Arbeidsmetodikk for referansekatalogen: https://www.digdir.no/digitalisering-og-samordning/arbeidsmetodikk-referansekatalogen/5622
-- Arkitektur- og standardiseringsrÃ¥det: https://www.digdir.no/digitalisering-og-samordning/arkitektur-og-standardiseringsradet/3918
+- Arkitektur- og standardiseringsrådet: https://www.digdir.no/digitalisering-og-samordning/arkitektur-og-standardiseringsradet/3918
 
 ### Informasjonsforvaltning og styring
 - Rammeverk for informasjonsforvaltning: https://www.digdir.no/digitalisering-og-samordning/rammeverk-informasjonsforvaltning/2419
@@ -214,21 +214,21 @@ Sist redigert: 2026-03-06.
 ## Tematisk oversikt over digitale ressurser
 
 ### 1. Organisering, styring og virkemidler
-- Strategisk samordning: DigitaliseringsrÃ¥det, SKATE, Arkitektur- og standardiseringsrÃ¥det.
-- Styring av sammenhengende tjenester: veiledning og styringsrÃ¥d.
+- Strategisk samordning: Digitaliseringsrådet, SKATE, Arkitektur- og standardiseringsrådet.
+- Styring av sammenhengende tjenester: veiledning og styringsråd.
 - Regelverk og juridisk koordinering: ressurssenter, veiledere, EU-regelverk og Digitaliseringsrundskrivet.
-- Virkemidler og finansiering: Stimulab, medfinansieringsordningen, EU-finansiering og ordinÃ¦re satsingsforslag.
+- Virkemidler og finansiering: Stimulab, medfinansieringsordningen, EU-finansiering og ordinære satsingsforslag.
 
 ### 2. Veiledninger, standarder og metodikk
 - Innovasjon og digitalisering: den triple diamanten, strategisk fremsyn, missions, designmetodikk.
-- Arkitektur og samhandling: arkitekturprinsipper, rammeverk for digital samhandling, hendelsesarkitektur, tjenestekjeder, mÃ¥lbilder og veikart.
+- Arkitektur og samhandling: arkitekturprinsipper, rammeverk for digital samhandling, hendelsesarkitektur, tjenestekjeder, målbilder og veikart.
 - Informasjonsforvaltning og standardisering: orden i eget hus, referansekatalogen, internasjonalt standardiseringsarbeid.
 - Informasjonssikkerhet: Stifinneren, sikkerhetsstandarder og NSMs grunnprinsipper.
 
-### 3. Felles lÃ¸sninger og infrastruktur
+### 3. Felles løsninger og infrastruktur
 - Plattformer og portaler: Altinn tjenester 3.0, Norge.no, Altinn.no.
 - Datautveksling og integrasjon: eFormidling, Altinn Formidling, data.norge.no, data.altinn.no, Altinn events.
 - Tillitstjenester og transparens: ID-porten, Maskinporten, eSignering, Altinn autorisasjon, eInnsyn.
 
-Merk: Det finnes forelÃ¸pig ingen felleslÃ¸sninger for dataanalyse og visualisering.
+Merk: Det finnes foreløpig ingen fellesløsninger for dataanalyse og visualisering.
 
