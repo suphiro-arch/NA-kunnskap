@@ -1,39 +1,124 @@
 ﻿# Standardprompt: Produktbeskrivelser (Produkt-canvas)
 
-Formaal: sikre lik utfylling av produktbeskrivelser for arkitekturvurderinger, analyser og gjenbruk.
+Formål: Sikre lik, detaljert og grundig utfylling av produktbeskrivelser for arkitekturvurderinger, analyser og gjenbruk.
 
-## Kilder som skal brukes hver gang
-1. Mal:
-- `results/templates/produkt-canvas-template.md`
+---
 
-2. Kapabilitetsgrunnlag:
-- `index/capabilities.yaml`
-- Bruk kun kapabilitetsnavn og delkapabiliteter som finnes her.
+## Arbeidsgang
 
-3. Lenkekilder:
-- `sources/links.md`
-- Finn relevante lenker for produktet og bruk disse i utfyllingen.
+### Trinn 1: Les eksisterende versjon (VIKTIG!)
+- **Hvis produktbeskrivelse allerede finnes**: Les gjennom hele filen først
+- Identifiser hvilke felt som er fylt ut, og hvilke som er merket `Usikkert:`
+- Vurder hvilke seksjoner som kan forbedres, detaljeres eller utdypes
+- **Mål:** Bygge videre på eksisterende jobb, ikke starte fra scratch
 
-4. Produktnummerering:
-- `index/produktnummerering.md`
-- Sett korrekt nummer i feltet `Ressurs ID`.
+### Trinn 2: Vurder oppgavetyp
+- **Forbedring av eksisterende:** Lage en revisjonert versjon (se navngivning)
+- **Ny produktbeskrivelse:** Starte fra mal + kilder
+
+### Trinn 3: Hent kilder (samme hver gang)
+1. Mal: `results/templates/produkt-canvas-template.md`
+2. Kapabiliteter: `index/capabilities.yaml` (kun navnene som finnes her)
+3. Lenker: `sources/links.md` (lokal liste + aktive lenker til dokumentasjon)
+4. Produktnummer: `index/produktnummerering.md`
+5. **Åpne kilder**: Digdir Docs, Samarbeidsportalen, felles-IKT, produkteier-nettsteder (f.eks. altinn.studio)
+
+### Trinn 4: Skriv/forbedre innhold
+Følg reglene under.
+
+---
 
 ## Utfyllingsregler
-- Fyll ut alle seksjoner i malen med konkret, nyttig innhold.
-- Skill tydelig mellom fakta og antakelser.
-- Bruk formuleringen `Usikkert:` der kildene ikke gir sikkert grunnlag.
-- Knytt `Kapabiliteter` eksplisitt til navn i `index/capabilities.yaml`.
-- Beskriv `Scope og avgrensning` med hva som inngaar og ikke inngaar.
-- Beskriv risiko under minst: juridisk, teknisk, sikkerhet, leverandoer, bruk.
-- Oppgi alltid `Lenke til dokumentasjon` og `Kildegrunnlag brukt i denne utfyllingen`.
+
+### Generelt
+- Fyll alle seksjoner med konkret, nyttig innhold (ikke generiske setninger)
+- Skill tydelig mellom **fakta** (fra kilder), **deduksjon** (logisk utledet), og **usikkerhet**
+- Tittel og ResourceID må alltid være korrekt
+- Lenker skal være aktive og relevante
+
+### Håndtering av usikkerhet
+- Bruk `**Usikkert:**` kun når kilder ikke gir grunnlag
+- **Ikke** la usikkerhet være en unnskyldning for å hoppe over seksjonen
+- Prøvd derimot å **dedusere fra kontekst**: Hvis produktet er i produksjon, hvordan oppfyller det sine formål?
+- Eks.: "Status er ikke eksplisitt dokumentert, men ut fra at produktet er aktivt i bruk, vurderes det som i Produksjon"
+
+### Spesifikke felt
+
+**Kapabiliteter:**
+- Knytt eksplisitt til navn i `index/capabilities.yaml`
+- Beskriv *hvordan* produktet bidrar (ikke bare list opp navn)
+- Format: `- Tillit: Autentisering` og forklaring
+
+**Scope og avgrensning:**
+- Be konkret hva som inngår og hva som ikke inngår
+- Bruk lister eller tabeller for klarhet
+- Eksempel: "Inngår: autentisering, sesjonsstyring. Inngår IKKE: autorisasjon, saksbehandling"
+
+**Risiko:**
+- Dekk minst: juridisk, teknisk, sikkerhet, leverandør, bruker-opplevelse
+- Bruk tabell med kategori + konkret risiko + håndtering
+- Vær presis (unngå generiske formuleringer som "integrasjonsrisiko")
+
+**Forvaltning/Eier:**
+- Fordel på: Produktansvar, Driftsansvar, Budsjettansvar, Styringsmodell
+- Navngi konkrete organisasjoner dersom mulig
+- Vis relasjon til overordnede styringsforum (f.eks. Arkitekturråd, Digitaliseringsrådet)
+
+**Veikart, Finansiering, Plattform:**
+- Disse feltene er ofte usikre → Oppgi kilder eksplisitt
+- Hvis informasjon er privat/intern → Skriv "Ikke offentlig dokumentert" i stedet for "Usikkert"
+- Gi linker til steder hvor informasjonen finnes (f.eks. Samarbeidsportalen for tilgang)
+
+**Forretningsverdi:**
+- Konkretiser for ulike brukergrupper (innbygger, virksomhet, samfunn, tjenesteeier)
+- Gi både kvalitative (bedre opplevelse) og kvantitative estimater (hvis mulig)
+- Koble til arkitekturprinsipper og nasjonale satsingsområder
+
+### Kilder
+- Alltid oppgi konkrete, aktive lenker
+- Skille mellom lokale kilder (`sources/links.md`) og eksterne kilder (Digdir Docs, Samarbeidsportalen osv.)
+- Oppgi hentedato
+- Bruk både offisielle kilder og praktisk erfaring / dokumentererte use cases
+
+---
 
 ## Kvalitetskriterier for ferdig dokument
-- Sporbarhet: paastander kan spores til kilder.
-- Sammenlignbarhet: samme struktur og detaljnivaa pa tvers av produkter.
-- Gjenbruk: innholdet skal kunne brukes direkte i arkitekturvurdering/screening.
-- Tydelig status: marker ukjent informasjon i stedet for aa gjette.
+
+| Kriterium | Sjekk |
+|-----------|-------|
+| **Sporbarhet** | Alle påstander kan spores til konkret kilde (lenke eller dokument) |
+| **Sammenlignbarhet** | Samme struktur og detalj-nivå som andre produktbeskrivelser |
+| **Gjenbrukbarhet** | Teksten kan brukes direkte i arkitekturvurdering eller screening uten redigering |
+| **Tydelig status** | Usikkerhet er marked eksplisitt; gjetninger er unngått |
+| **Konkretisering** | Hver seksjonen inneholder spesifikke eksempler og konkrete detaljer (ikke generic tekst) |
+| **Tabeller** | Komplekse felt (risiko, forvaltning, brukersegmenter) er fremstilt i tabellformat for lesbarhet |
+
+---
 
 ## Navngiving av filer
-- Behold eksisterende filnavn der de allerede finnes.
-- For nye filer: `results/Produktbeskrivelser/NN-<Produktnavn>-produkt-canvas.md` (NN fra `index/produktnummerering.md`).
 
+### Når du forbedrer eksisterende versjon
+Format: `NN-<Produktnavn>-produkt-canvas-<forfatter>.md`
+
+Eksempler:
+- `01-ID-porten-produkt-canvas-copilot.md` (forbedret av GitHub Copilot)
+- `01-ID-porten-produkt-canvas-codex.md` (forbedret av ChatGPT)
+- `01-ID-porten-produkt-canvas-manuel.md` (forbedret manuelt)
+
+**Hensikt:** Tillater sammenlikning av ulike tilnærminger + versjonskontroll
+
+### Når du lager nye filer
+Format: `NN-<Produktnavn>-produkt-canvas.md`
+
+Eksempel: `05-Kontakt-og-reservasjonsregisteret-produkt-canvas.md`
+
+---
+
+## Tips for god arbeidsprosess
+
+1. **Les først, skriv siden:** Aldri overskriv eldre arbeid uten å forstå det først
+2. **Bruk kilder aktivt:** Åpne 2-3 lenker mens du skriver (ikke skriv fra hukommelse)
+3. **Iterering:** Start med basisfakta, så deduser verdier + strategisk betydning
+4. **Konsistens:** Sjekk formatering og tonalitet mot eksisterende canvas-filer
+5. **Versjonering:** Hvis du gør stort forbedring – lag "-forfatter"-versjon for sammenlikning
+6. **Dokumenter:** Legg inn "Merknad om kvalitetsforbedringer" eller "Endringer fra forrige versjon" i slutten hvis relevant
