@@ -1,0 +1,51 @@
+name: Auto-push Produktbeskrivelser
+
+on:
+  push:
+    paths:
+      - 'results/Produktbeskrivelser/**'
+    branches:
+      - main
+  workflow_dispatch: # Manuell trigger
+
+jobs:
+  auto-push:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure Git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Actions"
+
+      - name: Check for uncommitted changes in Produktbeskrivelser
+        id: check-changes
+        run: |
+          if git status results/Produktbeskrivelser/ | grep -q "modified:\|new file:"; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Stage and commit changes
+        if: steps.check-changes.outputs.has_changes == 'true'
+        run: |
+          git add results/Produktbeskrivelser/
+          git commit -m "chore: Auto-push endringer i Produktbeskrivelser
+          
+          - Automatisk commit fra GitHub Actions
+          - Filene er oppdatert lokalt
+          - Tidspunkt: $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+
+      - name: Push changes
+        if: steps.check-changes.outputs.has_changes == 'true'
+        run: |
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
