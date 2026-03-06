@@ -6,8 +6,7 @@ Målgruppe: Hovedfokus er forretningssiden og strategisk arkitektur.
 Digital post (felleskomponent)
 
 ## Ressurs ID
-Usikkert: Ressurs-ID fra intern excel er ikke tilgjengelig i repoet.
-
+9 (Produktliste NA-kunnskap).
 ## Status/Livsfase
 Produksjon.
 
@@ -90,3 +89,4 @@ Indikasjon i kilder peker mot nasjonal forvaltning, men detaljfordeling ikke dok
 ## Kildegrunnlag brukt i denne utfyllingen
 - Lokal fil: `sources/links.md`
 - Lokal fil: `sources/test.md`
+

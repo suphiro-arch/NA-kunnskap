@@ -6,8 +6,7 @@ Målgruppe: Hovedfokus er forretningssiden og strategisk arkitektur.
 ID-porten
 
 ## Ressurs ID
-Usikkert: Ikke funnet ressurs-ID i tilgjengelige kilder i repoet.
-
+1 (Produktliste NA-kunnskap).
 ## Status/Livsfase
 Usikkert: Ikke dokumentert i de tilgjengelige kildene her. (Feltet i malen er: Planlagt / Under utvikling / Pilot / Produksjon / Utfasing.)
 
@@ -105,3 +104,4 @@ Usikkert i detalj i lokale kilder. Delvis indikasjon på nasjonal forvaltning gj
 
 ## Merknad om usikkerhet
 Utfyllingen er gjort konservativt. Der grunnlag mangler i tilgjengelige kilder, er feltene markert som usikre i stedet for å anta detaljer.
+

@@ -18,6 +18,13 @@ Sist redigert: 2026-03-05.
 - Kontakt- og reservasjonsregisteret (KRR): https://docs.digdir.no/docs/Kontaktregisteret/
 - KRR overordnet: https://docs.digdir.no/docs/Kontaktregisteret/krr_overordnet
 - Sertifikattjenester: https://www.digdir.no/digital-sikkerhet/sertifikattjenester/1538
+- eSignering og sealing: https://www.digdir.no/digital-sikkerhet/esignering/1487
+- eSignering dokumentasjon: https://docs.digdir.no/docs/esignering/
+- eInnsyn: https://www.digdir.no/einnsyn/om-einnsyn/2262
+- eInnsyn dokumentasjon: https://docs.digdir.no/docs/einnsyn/
+- eFormidling: https://www.digdir.no/eformidling/om-eformidling/2182
+- eFormidling dokumentasjon: https://docs.digdir.no/docs/eformidling/
+- Felles datakatalog: https://www.digdir.no/felles-datakatalog/om-felles-datakatalog/2274
 
 ### Prinsipper og overordnet beskrivelse
 - Strategiske prinsipper for felleskomponenter: https://www.digdir.no/media/395/download
@@ -108,6 +115,45 @@ Sist redigert: 2026-03-05.
 - Resepter (Helsenorge): https://www.helsenorge.no/legemidler/resepter
 - HelseID (hva er HelseID): https://www.nhn.no/tjenester/helseid/hva-er-helseid
 - HelseID tjenestetilbud: https://www.nhn.no/tjenester/helseid/tjenestetilbud
+
+### Norsk Helsenett
+- Norsk Helsenett SF: https://www.nhn.no/
+- Helsenett infrastruktur: https://www.nhn.no/tjenester/helsenett-infrastruktur/
+- Videokonsultasjon (VIO): https://www.nhn.no/tjenester/videokonsultasjon/
+
+---
+
+## Arkivering og Dokumentforvaltning
+
+### Arkivverket (Riksarkivaren)
+- Arkivverket hovedside: https://www.arkivverket.no/
+- eArk-standarden: https://www.arkivverket.no/norske-standarder/eark-standard
+- NOARK standarden: https://www.arkivverket.no/arkivering/noark
+- Digital forvaltning av dokumenter: https://www.arkivverket.no/arkivering/digitalisering
+
+---
+
+## Juridisk og Rettslig Infrastruktur
+
+### Lovdata og juridisk informasjon
+- Lovdata: https://www.lovdata.no/
+
+### Domstolverket
+- Domstolverket: https://www.domstolverket.no/
+
+### Påtalemyndigheten og Riksadvokaten
+- Riksadvokaten: https://www.riksadvokaten.no/
+- Påtaleinstitusjonene: https://www.domstolverket.no/organisation/prosecuting-authority/
+
+### Politiet
+- Politiet: https://www.politiet.no/
+
+---
+
+## Norge.no - Nasjonalt Informasjonssenter
+
+- Norge.no: https://www.norge.no/
+- Om tjenestene på Norge.no: https://www.norge.no/om-norge-no
 
 ---
 
