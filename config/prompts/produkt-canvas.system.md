@@ -35,4 +35,5 @@ Formaal: sikre lik utfylling av produktbeskrivelser for arkitekturvurderinger, a
 
 ## Navngiving av filer
 - Behold eksisterende filnavn der de allerede finnes.
-- For nye filer: `results/Produktbeskrivelser/<Produktnavn>-produkt-canvas.md`.
+- For nye filer: `results/Produktbeskrivelser/NN-<Produktnavn>-produkt-canvas.md` (NN fra `index/produktnummerering.md`).
+
