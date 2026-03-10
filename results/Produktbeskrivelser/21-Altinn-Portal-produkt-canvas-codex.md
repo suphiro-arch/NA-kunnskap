@@ -153,7 +153,7 @@ Høy gjenbruksverdi:
 
 ## Kildegrunnlag brukt i utfyllingen
 - Lokal fil: `results/Produktbeskrivelser/21-Altinn-Portal-produkt-canvas.md`
-- Lokal fil: `results/templates/produkt-canvas-template.md`
+- Lokal fil: `config/templates/produkt-canvas-template.md`
 - Lokal fil: `index/capabilities.yaml`
 - Lokal fil: `sources/links.md`
 - Nettkilde: Altinn startside (hentedato 2026-03-10)

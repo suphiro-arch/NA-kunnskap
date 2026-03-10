@@ -169,7 +169,7 @@ Høy gjenbruksverdi:
 ## Kildegrunnlag brukt i utfyllingen
 - Lokal fil: `results/Produktbeskrivelser/16-data-norge-no-produkt-canvas.md`
 - Lokal fil: `results/Produktbeskrivelser/16-data-norge-no-produkt-canvas-copilot.md`
-- Lokal fil: `results/templates/produkt-canvas-template.md`
+- Lokal fil: `config/templates/produkt-canvas-template.md`
 - Lokal fil: `index/capabilities.yaml`
 - Lokal fil: `index/produktnummerering.md`
 - Lokal fil: `sources/links.md`

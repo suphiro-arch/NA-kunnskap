@@ -26,7 +26,7 @@ Formål: Sikre lik, detaljert og grundig utfylling av produktbeskrivelser for ar
 - Dokumenter kort hva som er nytt i analysen (nye kilder, nye funn, avklarte usikkerheter)
 
 ### Trinn 3: Hent kilder (samme hver gang)
-1. Mal: `results/templates/produkt-canvas-template.md`
+1. Mal: `config/templates/produkt-canvas-template.md`
 2. Kapabiliteter: `index/capabilities.yaml` (kun navnene som finnes her)
 3. Lenker: `sources/links.md` (lokal liste + aktive lenker til dokumentasjon)
 4. Produktnummer: `index/produktnummerering.md`
