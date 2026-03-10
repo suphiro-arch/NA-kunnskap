@@ -69,6 +69,11 @@ Følg reglene under.
 - Beskriv *hvordan* produktet bidrar (ikke bare list opp navn)
 - Format: `- Tillit: Autentisering` og forklaring
 
+**Produktmål:**
+- Beskriv både strategiske og operative mål, med tydelig kobling til dokumenterte prioriteringer
+- For Digdir-produkter: sjekk alltid dokumentasjon i Samarbeidsportalen i tillegg til Digdir Docs
+- Hvis målformuleringer avviker mellom kilder: marker hva som er primærkilde og hva som er deduksjon
+
 **Scope og avgrensning:**
 - Be konkret hva som inngår og hva som ikke inngår
 - Bruk lister eller tabeller for klarhet
@@ -127,6 +132,15 @@ Eksempler:
 - `01-ID-porten-produkt-canvas-manuel.md` (forbedret manuelt)
 
 **Hensikt:** Tillater sammenlikning av ulike tilnærminger + versjonskontroll
+
+### Når du kjører ny forbedringsrunde på samme forfattervariant
+Format: `NN-<Produktnavn>-produkt-canvas-<forfatter>-vX.md` (der `X` starter på `2`)
+
+Eksempler:
+- `21-Altinn-Portal-produkt-canvas-codex-v2.md`
+- `21-Altinn-Portal-produkt-canvas-codex-v3.md`
+
+**Regel:** Bruk versjonsledd (`-v2` og oppover) når både basisbeskrivelse og forbedret variant allerede finnes, og du lager en ny kjøring av forbedringen.
 
 ### Når du lager nye filer
 Format: `NN-<Produktnavn>-produkt-canvas.md`
