@@ -9,7 +9,9 @@ Dialogporten
 22 (Produktliste NA-kunnskap).
 
 ## Status/Livsfase
-Produksjon
+**Produksjon** - etablert fellesløsning med aktiv videreutvikling og pågående migrering av historiske data.
+
+**Fakta:** Dialogporten gjør meldinger og dialoger fra Altinn 3 og andre digitale tjenesteplattformer tilgjengelige i et felles format, og livesynkronisering av endringer er aktiv.
 
 ## Modenhet
 **Middels til høy funksjonell modenhet** - kjernefunksjonen er etablert, men migreringen er fortsatt under utvikling:
@@ -21,8 +23,6 @@ Produksjon
 
 ## Kort beskrivelse
 Dialogporten er Altinns felles representasjons- og samhandlingslag for digitale dialoger. Produktet gjør meldinger og dialoger fra ulike tjenesteplattformer tilgjengelige i et felles format, slik at sluttbrukersystemer, arbeidsflater og portaler kan presentere den samme dialogen på en konsistent måte.
-
-Løsningen er i aktiv produksjon med videreutvikling, livesynkronisering av nye endringer og fasevis migrering av historiske data fra eldre løsninger.
 
 ## Kapabiliteter
 - **Sluttbrukertjenester: Sammenhengende tjenester** gjør dialoger fra flere plattformer tilgjengelige i samme representasjon og brukerreise.

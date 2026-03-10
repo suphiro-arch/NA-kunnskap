@@ -73,9 +73,10 @@ Følg reglene under.
 ### Spesifikke felt
 
 **Status/Livsfase:**
-- Feltet skal kun angi livsfase (`Planlagt`, `Under utvikling`, `Pilot`, `Produksjon`, `Utfasing`)
-- Unngå faktasetninger og utdyping i dette feltet
-- Legg begrunnende fakta, overgangsinformasjon og kontekst i **Kort beskrivelse** eller **Modenhet**
+- Start med livsfase (`Planlagt`, `Under utvikling`, `Pilot`, `Produksjon`, `Utfasing`)
+- Det er tillatt med 1-2 korte faktasetninger i statusfeltet når dette tydeliggjør overgangsfase eller produksjonsstatus
+- Unngå lang funksjonsbeskrivelse i statusfeltet; dette hører hjemme i **Kort beskrivelse**
+- Bruk gjerne mønsteret: `**Produksjon** - kort statuskontekst` etterfulgt av `**Fakta:** ...` ved behov
 
 **Kapabiliteter:**
 - Knytt eksplisitt til navn i `index/capabilities.yaml`
