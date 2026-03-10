@@ -1,7 +1,7 @@
 # Nasjonale fellestjenester og felleskomponenter
 
 Formål: Samlet lenkeliste over nasjonale fellesløsninger, sektorkilder og relevante veiledningsressurser.
-Sist redigert: 2026-03-06.
+Sist redigert: 2026-03-10.
 
 ## Digdir (Digitaliseringsdirektoratet)
 
@@ -34,6 +34,8 @@ Sist redigert: 2026-03-06.
 - https://samarbeid.digdir.no/
 - https://samarbeid.digdir.no/id-porten/tillitstenester/2479
 - https://samarbeid.digdir.no/felles-datakatalog/datadeling/2480
+- https://samarbeid.digdir.no/felles-datakatalog/dette-er-felles-datakatalog/1616
+- https://samarbeid.digdir.no/felles-datakatalog/datanorgeno/1617
 - https://samarbeid.digdir.no/altinn/tjenesteutvikling/2634
 - https://samarbeid.digdir.no/digital-postkasse/meldingsutveksling/2483
 - https://samarbeid.digdir.no/einnsyn/innsyn-og-oppslag/2484
