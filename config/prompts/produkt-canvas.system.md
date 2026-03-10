@@ -47,6 +47,9 @@ Følg reglene under.
 - Tittel og ResourceID må alltid være korrekt
 - Lenker skal være aktive og relevante
 - Ved revisjon: vis eksplisitt hvilke deler som er forbedret i analysen, ikke bare i språk/drakt
+- Skriv resultatet som en selvstendig produktbeskrivelse for målgruppen, ikke som referat av hva som står på nettsider eller i dokumentasjon
+- Unngå formuleringer som "nettsiden sier", "forsiden viser", "kilden beskriver" i selve hovedteksten; bruk heller dette kun i kildegrunnlag eller når du markerer usikkerhet/kildekonflikt
+- Syntetiser kilder til én ny, helhetlig beskrivelse med egne formuleringer, samtidig som innholdet skal være sporbar til kildene
 
 ### Språk og tegn (OBLIGATORISK NORSK)
 - **Alt innhold skal skrives på norsk** – ikke engelsk eller blandete språk
@@ -71,12 +74,19 @@ Følg reglene under.
 **Kapabiliteter:**
 - Knytt eksplisitt til navn i `index/capabilities.yaml`
 - Beskriv *hvordan* produktet bidrar (ikke bare list opp navn)
-- Format: `- Tillit: Autentisering` og forklaring
+- Format: `- **Tillit: Autentisering**` etterfulgt av forklaring i vanlig skrift på neste linje eller i samme punkt
+- Navnet på kapabiliteten skal være i fet skrift; forklaringen skal være i vanlig skrift
 
 **Produktmål:**
 - Beskriv både strategiske og operative mål, med tydelig kobling til dokumenterte prioriteringer
 - For Digdir-produkter: sjekk alltid dokumentasjon i Samarbeidsportalen i tillegg til Digdir Docs
 - Hvis målformuleringer avviker mellom kilder: marker hva som er primærkilde og hva som er deduksjon
+
+**Brukere og brukersegmenter:**
+- Del opp brukerbildet eksplisitt i segmenter, ikke bare som løpende tekst
+- Bruk som hovedregel tabell med kolonnene `Brukersegment | Primære behov | Bruksområde | Kommentar`
+- Skill mellom hvem brukeren er, hva brukeren trenger, og hvordan produktet faktisk brukes
+- Ta med både primærbrukere, sekundærbrukere og forvaltnings-/støttemiljø når det er relevant
 
 **Scope og avgrensning:**
 - Be konkret hva som inngår og hva som ikke inngår
