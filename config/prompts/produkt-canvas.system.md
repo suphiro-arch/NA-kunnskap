@@ -72,6 +72,11 @@ Følg reglene under.
 
 ### Spesifikke felt
 
+**Status/Livsfase:**
+- Feltet skal kun angi livsfase (`Planlagt`, `Under utvikling`, `Pilot`, `Produksjon`, `Utfasing`)
+- Unngå faktasetninger og utdyping i dette feltet
+- Legg begrunnende fakta, overgangsinformasjon og kontekst i **Kort beskrivelse** eller **Modenhet**
+
 **Kapabiliteter:**
 - Knytt eksplisitt til navn i `index/capabilities.yaml`
 - Beskriv *hvordan* produktet bidrar (ikke bare list opp navn)
@@ -174,6 +179,6 @@ Følg reglene under.
 2. **Bruk kilder aktivt:** Åpne 2-3 lenker mens du skriver (ikke skriv fra hukommelse)
 3. **Iterering:** Start med basisfakta, så deduser verdier + strategisk betydning
 4. **Konsistens:** Sjekk formatering og tonalitet mot eksisterende canvas-filer
-5. **Versjonering:** Bruk alltid neste globale versjonsnummer for produktet; legg bare til forfatter i filnavnet når det er eksplisitt nyttig
+5. **Versjonering:** Bruk alltid neste globale versjonsnummer for produktet og inkluder alltid forfatter i filnavnet
 6. **Dokumenter:** Legg inn "Merknad om kvalitetsforbedringer" eller "Endringer fra forrige versjon" i slutten hvis relevant
 7. **Skill forbedringstyper:** Legg inn korte punkt for "Analyseforbedringer" og "Tekstlige forbedringer"
