@@ -29,6 +29,8 @@ Formål: Sikre lik, detaljert og grundig utfylling av produktbeskrivelser for ar
 3. Lenker: `sources/links.md` (lokal liste + aktive lenker til dokumentasjon)
 4. Produktnummer: `index/produktnummerering.md`
 5. **Åpne kilder**: Digdir Docs, Samarbeidsportalen, felles-IKT, produkteier-nettsteder (f.eks. altinn.studio)
+6. **URL-valg:** Bruk som hovedregel de konkrete URL-ene som allerede er listet i `sources/links.md` før du prøver bredere søk
+7. **Utvid bare ved behov:** Gå utover `sources/links.md` kun hvis lenkene der er utilstrekkelige, utdaterte eller utilgjengelige, og dokumenter hvorfor
 
 ### Trinn 4: Skriv/forbedre innhold
 Følg reglene under.
@@ -105,6 +107,7 @@ Følg reglene under.
 - Oppgi hentedato
 - Bruk både offisielle kilder og praktisk erfaring / dokumentererte use cases
 - For revisjoner: oppgi minst 2 oppdaterte eksterne kilder kontrollert i aktuell arbeidsøkt
+- Prioriter direkte oppslag i URL-er fra `sources/links.md` fremfor brede nettsøk
 
 ---
 
