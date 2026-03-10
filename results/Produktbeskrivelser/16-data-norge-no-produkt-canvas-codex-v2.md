@@ -175,7 +175,7 @@ Nasjonal webportal for oppdagelse, metadataforvaltning, veiledning og fellesskap
 - Lokal fil: `results/Produktbeskrivelser/16-data-norge-no-produkt-canvas.md`
 - Lokal fil: `results/Produktbeskrivelser/16-data-norge-no-produkt-canvas-copilot.md`
 - Lokal fil: `results/Produktbeskrivelser/16-data-norge-no-produkt-canvas-codex.md`
-- Lokal fil: `results/templates/produkt-canvas-template.md`
+- Lokal fil: `config/templates/produkt-canvas-template.md`
 - Lokal fil: `index/capabilities.yaml`
 - Lokal fil: `index/produktnummerering.md`
 - Lokal fil: `sources/links.md`
