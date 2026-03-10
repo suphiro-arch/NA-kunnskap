@@ -18,9 +18,12 @@ Vurder teknisk, organisatorisk, markedsmessig og regulatorisk modenhet.
 
 ## Kort beskrivelse
 Kort om produktet sett fra et forretningsperspektiv.
+Skriv som en selvstendig beskrivelse for målgruppen, ikke som referat av hva en nettside eller kilde sier.
 
 ## Kapabiliteter
 Hvilke kapabiliteter i Nasjonal arkitektur bidrar produktet til å realisere eller forbedre?
+Bruk formatet:
+`- **Kapabilitet**` etterfulgt av forklaring i vanlig skrift.
 
 ## Produktmål
 Strategiske og operative mål. Hva skal produktet oppnå?
@@ -29,7 +32,10 @@ Strategiske og operative mål. Hva skal produktet oppnå?
 Hvilket problem eller behov løser produktet?
 
 ## Hvem er brukerne og brukersegmentene
-Prioriterte brukergrupper og andre interessenter.
+Beskriv brukerbildet eksplisitt i segmenter.
+Bruk som hovedregel en tabell med kolonnene:
+`Brukersegment | Primære behov | Bruksområde | Kommentar`
+Ta med både primærbrukere, sekundærbrukere og forvaltnings-/støttemiljø når det er relevant.
 
 ## Hovedfunksjoner
 Viktigste funksjoner og nøkkelfunksjoner.
@@ -69,4 +75,3 @@ Hoveddokumentasjon, kom i gang, vilkår/pris (om relevant), status/drift.
 
 ## Kildegrunnlag brukt i utfyllingen
 Oppgi konkrete URL-er og lokale filer.
-

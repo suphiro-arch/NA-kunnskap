@@ -11,38 +11,29 @@ data.norge.no
 ## Status/Livsfase
 **Produksjon** - etablert nasjonal portal for datadeling og oppdagelse av dataressurser.
 
-**Fakta:** Forsiden på data.norge.no beskriver løsningen som "Der Norge deler data" og viser at KI-søket omfatter data fra over 125 virksomheter og over 8000 datasett (hentet 2026-03-10).
+**Fakta:** data.norge.no samler data fra over 125 virksomheter og over 8000 datasett, og tilbyr både ordinært søk og KI-søk (hentet 2026-03-10).
 
 ## Modenhet
 **Høy funksjonell modenhet** - etablert og bredt synlig løsning:
-- data.norge.no tilbyr flere katalogtyper i samme brukerflate: datasett, API-er, begreper, informasjonsmodeller, tjenester og hendelser.
-- Portalen har egen brukerveiledning, teknisk dokumentasjon og nettforumet Datalandsbyen.
-- Digitaliseringsdirektoratet er ansvarlig for drift og utvikling av nettstedet, mens virksomhetene selv forvalter eget innhold i katalogene.
+- data.norge.no samler flere katalogtyper i samme brukerflate: datasett, API-er, begreper, informasjonsmodeller, tjenester og hendelser.
+- Løsningen har egen brukerveiledning, teknisk dokumentasjon og nettforumet Datalandsbyen.
+- Digitaliseringsdirektoratet har ansvar for drift og utvikling av nettstedet, mens virksomhetene selv forvalter eget innhold i katalogene.
 
-**Deduksjon:** Løsningen fremstår som moden som nasjonal inngang, men kvaliteten i katalogene vil variere med hvor godt den enkelte virksomhet publiserer og vedlikeholder metadata.
+**Deduksjon:** Løsningen er moden som nasjonal inngang til dataoppdagelse, men den faktiske nytteverdien vil variere med kvaliteten på metadataene virksomhetene publiserer.
 
 ## Kort beskrivelse
 data.norge.no er en nasjonal fellesløsning for å finne, forstå og viderebruke dataressurser. Portalen samler metadata om datasett, API-er, begreper, informasjonsmodeller, tjenester og hendelser, og gjør det enklere å oppdage hvilke data offentlig sektor har og kan dele med andre.
 
 ## Kapabiliteter
-- **Informasjonsforvaltning: Oversikt over datasett**
-  Portalen gir nasjonal oversikt over publiserte datasett og gjør dem søkbare på tvers av virksomheter.
-- **Informasjonsforvaltning: Oversikt over API**
-  API-er synliggjøres som del av samme katalogstruktur, slik at datakonsumenter lettere kan finne maskinlesbare grensesnitt.
-- **Informasjonsforvaltning: Oversikt over begreper**
-  Begreper og definisjoner gjøres tilgjengelige for å støtte felles forståelse av data.
-- **Informasjonsforvaltning: Oversikt over informasjonsmodeller**
-  Informasjonsmodeller synliggjøres som egne ressurser og kan brukes til semantisk avklaring.
-- **Informasjonsforvaltning: Oversikt over tjenester**
-  Tjenester i offentlig sektor inngår som del av ressursbildet på portalen.
-- **Informasjonsforvaltning: Oversikt over hendelser**
-  Hendelser synliggjøres som egne ressurser som kan støtte videre digital samhandling.
-- **Datautveksling og integrasjon: Dele data med andre**
-  Datatilbydere får en nasjonal kanal for å gjøre dataressurser oppdagbare og forståelige.
-- **Datautveksling og integrasjon: Bruke data fra andre**
-  Datakonsumenter får ett sted å oppdage, vurdere og finne tilgangsinformasjon om dataressurser.
-- **Standardisering: Forvaltningsstandarder**
-  Portalen bygger på standardisert metadataforvaltning for å gi sammenlignbarhet og gjenfinnbarhet.
+- **Informasjonsforvaltning: Oversikt over datasett** gir nasjonal oversikt over publiserte datasett og gjør dem søkbare på tvers av virksomheter.
+- **Informasjonsforvaltning: Oversikt over API** synliggjør maskinlesbare grensesnitt i samme katalogstruktur som øvrige dataressurser.
+- **Informasjonsforvaltning: Oversikt over begreper** gjør definisjoner tilgjengelige og støtter felles forståelse av data.
+- **Informasjonsforvaltning: Oversikt over informasjonsmodeller** synliggjør modeller som kan brukes til semantisk avklaring og bedre tolkning.
+- **Informasjonsforvaltning: Oversikt over tjenester** viser relevante offentlige tjenester som del av ressursbildet.
+- **Informasjonsforvaltning: Oversikt over hendelser** gjør hendelser synlige som egne ressurser som kan støtte videre digital samhandling.
+- **Datautveksling og integrasjon: Dele data med andre** gir datatilbydere en nasjonal kanal for å gjøre dataressurser oppdagbare og forståelige.
+- **Datautveksling og integrasjon: Bruke data fra andre** gir datakonsumenter ett sted å oppdage, vurdere og finne tilgangsinformasjon om dataressurser.
+- **Standardisering: Forvaltningsstandarder** bygger på standardisert metadataforvaltning som gir sammenlignbarhet og bedre gjenfinning.
 
 Grunnlag: Kapabilitetsnavn fra `index/capabilities.yaml`, vurdert mot dokumentert funksjon i data.norge.no og Samarbeidsportalen.
 
@@ -53,14 +44,14 @@ Dokumenterte mål:
 - Gi oversikt over hvilke data offentlig sektor har og kan dele.
 - Gi datakonsumenter enklere tilgang til dataressurser.
 - Fremme viderebruk av data for både kommersielle og ikke-kommersielle formål.
-- Vise hvilke data virksomheter har som de kan dele med andre.
+- Synliggjøre hvilke data virksomheter har som de kan dele med andre.
 
 Operative mål utledet fra de samme kildene:
-- Gjøre det enklere å finne data gjennom standard søk, avanserte filtre og KI-søk.
+- Gjøre det enklere å finne data gjennom søk, filtre og KI-støttet oppdagelse.
 - Hjelpe brukere med å oppdage, vurdere og ta i bruk data, inkludert beskyttede data.
-- Synliggjøre informasjon om datatilbydere, tilgjengelighet, datakvalitet og hvordan ressurser henger sammen.
+- Synliggjøre informasjon om datatilbydere, tilgjengelighet, datakvalitet og sammenhenger mellom ressurser.
 
-**Deduksjon:** data.norge.no har også et tydelig mål om å redusere fragmentering ved å samle flere katalogtyper i én nasjonal inngang, selv om dette ikke er formulert eksplisitt som et eget mål i kildene.
+**Deduksjon:** data.norge.no har også en tydelig rolle i å redusere fragmentering ved å samle flere katalogtyper i én nasjonal inngang, selv om dette ikke er formulert som et eget mål i kildene.
 
 ## Brukerbehov
 - Datakonsumenter trenger ett sted å finne relevante data uten å lete gjennom mange separate nettsteder.
@@ -75,19 +66,19 @@ Operative mål utledet fra de samme kildene:
 | Offentlige datatilbydere | Publisere og vedlikeholde metadata | Datasett, API-er, begreper og modeller | Innholdet leveres og forvaltes av virksomhetene selv |
 | Utviklere og integrasjonsteam | Finne data og API-er raskt | Integrasjon, analyse og tjenesteutvikling | Benytter søk, filtre og dokumentasjon |
 | Arkitekter og informasjonsforvaltere | Felles oversikt og semantisk avklaring | Kartlegging, gjenbruk, styring | Har nytte av flere katalogtyper i sammenheng |
-| Forskning og innovasjonsmiljø | Oppdage relevante dataressurser | Analyse, forskning og nye tjenester | Viderebruk er uttrykkelig støttet i kildene |
-| Virksomheter og privat sektor | Finne data for viderebruk | Kommersielle og ikke-kommersielle formål | Fremmes eksplisitt på om-siden |
+| Forskning og innovasjonsmiljø | Oppdage relevante dataressurser | Analyse, forskning og nye tjenester | Viderebruk er del av produktets dokumenterte formål |
+| Virksomheter og privat sektor | Finne data for viderebruk | Kommersielle og ikke-kommersielle formål | Nytten er størst når metadata er oppdaterte og forståelige |
 
 ## Hovedfunksjoner
 ### Primære funksjoner
 - Felles søk på tvers av datasett, API-er, begreper, informasjonsmodeller, tjenester og hendelser.
-- KI-søk med naturlig språk, med eksplisitt forbehold om at søket kan være ufullstendig og inneholde feil.
+- KI-søk med naturlig språk. Produktet opplyser samtidig at søket kan være ufullstendig og inneholde feil.
 - Standard tekstsøk med avanserte filtre.
 - Metadata-visning med informasjon om datatilbyder, tilgjengelighet og datakvalitet.
 - Oversikt over om data er åpne eller har begrenset tilgang.
 - Brukerveiledning for å finne og dele data.
 - Datalandsbyen som nettforum for spørsmål, erfaringsdeling og etterspørsel etter data.
-- Verktøy og støttefunksjoner som virksomhetsoversikt, Etterspør data, Datajegeren og SPARQL-sandkasse.
+- Støttefunksjoner som virksomhetsoversikt, Etterspør data, Datajegeren og SPARQL-sandkasse.
 
 ### Scope og avgrensning
 | Inngår | Inngår ikke |
@@ -100,12 +91,12 @@ Operative mål utledet fra de samme kildene:
 
 ## Veikart over kommende funksjonalitet
 **Fakta:**
-- Produktsiden i Samarbeidsportalen viser egne innganger for `Kostnader`, `Ta i bruk`, `Statistikk`, `Utviklingsplan`, `Teknisk dokumentasjon` og `Driftsmeldinger`.
-- Forsiden på data.norge.no fremhever KI-søk som en sentral og aktiv funksjon.
+- Produktet har dokumenterte innganger for `Kostnader`, `Ta i bruk`, `Statistikk`, `Utviklingsplan`, `Teknisk dokumentasjon` og `Driftsmeldinger`.
+- KI-søk er allerede en synlig og aktiv funksjon i løsningen.
 
 **Ikke offentlig verifisert i denne arbeidsøkten:** Selve innholdet i `Utviklingsplan` og eventuelle tidsfestede roadmap-punkter er ikke hentet ut.
 
-**Deduksjon:** Videreutviklingen er sannsynligvis konsentrert om søkekvalitet, metadataforbedring og støtte til datadeling, men detaljer må bekreftes i utviklingsplanen.
+**Deduksjon:** Videreutviklingen ser ut til å være konsentrert om søkekvalitet, metadataforbedring og støtte til datadeling, men detaljer må bekreftes i utviklingsplanen.
 
 ## Forretningsverdi/Verdiforslag
 ### For datatilbydere
@@ -114,7 +105,7 @@ Operative mål utledet fra de samme kildene:
 
 ### For datakonsumenter
 - Reduserer letetid og gjør det enklere å vurdere om eksisterende data kan brukes.
-- Gir mer helhetlig grunnlag for å forstå data gjennom kobling til begreper, modeller og API-er.
+- Gir bedre grunnlag for å forstå data gjennom kobling til begreper, modeller og API-er.
 
 ### For offentlig sektor og samfunn
 - Understøtter datadeling som felles praksis i stedet for mange parallelle katalogløsninger.
@@ -141,7 +132,7 @@ Operative mål utledet fra de samme kildene:
 ## Plattform
 Nasjonal webportal for oppdagelse, metadataforvaltning, veiledning og fellesskapsstøtte knyttet til datadeling.
 
-**Fakta:** Portalen tilbyr søk, kataloger, veiledning, teknisk dokumentasjon og nettforum i samme løsningsområde.
+**Fakta:** Løsningen kombinerer søk, kataloger, veiledning, teknisk dokumentasjon og nettforum i samme produktområde.
 
 **Ikke offentlig dokumentert i brukte kilder:** Full teknisk plattformbeskrivelse, skyvalg, intern søketeknologi og driftsarkitektur.
 
@@ -156,19 +147,19 @@ Nasjonal webportal for oppdagelse, metadataforvaltning, veiledning og fellesskap
 - **P4 Del og gjenbruk data** - Portalen er direkte innrettet mot oppdagelse og viderebruk av data.
 - **P5 Del og gjenbruk løsninger** - data.norge.no fungerer som en felles nasjonal løsning i stedet for mange lokale kataloger.
 - **P6 Lag digitale løsninger som støtter samhandling** - Katalogene og veiledningen gir felles oversikt og språk på tvers av virksomheter.
-- **P1 Ta utgangspunkt i brukernes behov** - Søk, veiledning og etterspørselsstøtte er tydelig utformet for å hjelpe brukere med å finne data.
+- **P1 Ta utgangspunkt i brukernes behov** - søk, veiledning og etterspørselsstøtte er utformet for å hjelpe brukere med å finne data.
 
 ## Finansiering
-- Samarbeidsportalen viser at produktet har en egen side for `Kostnader`.
+- **Fakta:** Offentlig kostnadsinformasjon er strukturert som eget tema i forvaltningsmaterialet.
 - **Ikke offentlig verifisert i denne arbeidsøkten:** Innholdet på kostnadssiden er ikke kontrollert, og offentlig tilgjengelig finansieringsmodell kan derfor ikke beskrives presist her.
-- Det er imidlertid dokumentert at Digdir har ansvar for drift og utvikling av nettstedet.
+- Det er dokumentert at Digdir har ansvar for drift og utvikling av nettstedet.
 
 ## Forvaltning/eier
 | Ansvarsområde | Organisasjon / vurdering | Grunnlag |
 |---|---|---|
 | Produktansvar | Digitaliseringsdirektoratet (Digdir) | data.norge.no og Samarbeidsportalen |
-| Driftsansvar | Digdir er ansvarlig for drift og utvikling av nettstedet | Om Data.norge.no |
-| Budsjettansvar | Ikke offentlig spesifisert i brukte kilder | Kostnadsside finnes, men ikke verifisert |
+| Driftsansvar | Digdir har ansvar for drift og utvikling av nettstedet | Om Data.norge.no |
+| Budsjettansvar | Ikke offentlig spesifisert i brukte kilder | Kostnadsside finnes, men er ikke verifisert i denne arbeidsøkten |
 | Styringsmodell | Digdir forvalter løsningen, mens virksomhetene selv forvalter eget kataloginnhold | Om Data.norge.no |
 
 ## Lenke til dokumentasjon
@@ -200,12 +191,11 @@ Nasjonal webportal for oppdagelse, metadataforvaltning, veiledning og fellesskap
 ## Endringer fra forrige versjoner
 
 ### Analyseforbedringer
-- Utgangspunktet er flyttet fra basisfilen til den sist oppdaterte forbedringsfilen, `16-data-norge-no-produkt-canvas-copilot.md`, slik at vurderingen faktisk bygger videre på siste arbeid.
-- Produktmål og produktkontekst er kontrollert mot både data.norge.no og Samarbeidsportalen, ikke bare mot generelle Digdir-lenker.
-- Flere detaljerte påstander fra `-copilot`-versjonen er strammet inn eller fjernet fordi de ikke lot seg verifisere offentlig i brukte kilder, blant annet konkrete kostnadsestimater, Azure-hosting, spesifikk søketeknologi, EU-finansiering, oppetidsnivå og detaljerte roadmap-punkter.
-- Samarbeidsportalen-lenkene for `Dette er Felles datakatalog` og `data.norge.no` er brukt som mer presise kilder enn den generelle `datadeling/2480`-lenken.
+- Utgangspunktet er fortsatt siste forbedringsfil, `16-data-norge-no-produkt-canvas-copilot.md`, men innholdet er strammet inn mot det som lot seg verifisere offentlig i brukt kildegrunnlag.
+- Produktmål og produktkontekst er kontrollert mot både data.norge.no og Samarbeidsportalen.
+- Flere detaljerte påstander fra tidligere forbedringsversjoner er fortsatt holdt tilbake eller markert som ikke offentlig verifisert når offentlig dokumentasjon mangler.
 
 ### Tekstlige forbedringer
-- Innholdet er beholdt relativt omfattende, men gjort mer presist og mindre spekulativt enn forrige versjon.
-- Kapabiliteter, mål, funksjoner og forvaltning er koblet tydeligere til dokumenterte kilder.
-- Usikkerhet er flyttet fra implisitte antakelser til eksplisitte formuleringer der offentlig dokumentasjon mangler.
+- Hovedteksten er skrevet om til en selvstendig produktbeskrivelse i stedet for å beskrive hva nettsider eller kilder viser.
+- Kapabiliteter og brukersegmenter følger den nye standarden med tydeligere oppdeling og mer direkte språk.
+- Fakta, deduksjon og manglende offentlig dokumentasjon er beholdt, men formulert mer konsekvent for målgruppen.
