@@ -8,6 +8,8 @@ Formål: Sikre lik, detaljert og grundig utfylling av produktbeskrivelser for ar
 
 ### Trinn 1: Les eksisterende versjon (VIKTIG!)
 - **Hvis produktbeskrivelse allerede finnes**: Les gjennom hele filen først
+- **Hvis flere versjoner finnes**: Bygg videre på siste oppdaterte forbedrede versjon som utgangspunkt, med mindre brukeren ber om noe annet
+- Bruk høyeste versjonsnummer (`-vX`) eller siste tydelig oppdaterte forbedringsfil som primærbase, ikke automatisk den opprinnelige basisfilen
 - Identifiser hvilke felt som er fylt ut, og hvilke som er merket `Usikkert:`
 - Vurder hvilke seksjoner som kan forbedres, detaljeres eller utdypes
 - **Mål:** Bygge videre på eksisterende jobb, ikke starte fra scratch
@@ -144,6 +146,7 @@ Eksempler:
 - `21-Altinn-Portal-produkt-canvas-codex-v3.md`
 
 **Regel:** Bruk versjonsledd (`-v2` og oppover) når både basisbeskrivelse og forbedret variant allerede finnes, og du lager en ny kjøring av forbedringen.
+**Utgangspunkt:** Når du lager `-v2` eller høyere, skal du som hovedregel bygge videre på siste versjon i samme spor.
 
 ### Når du lager nye filer
 Format: `NN-<Produktnavn>-produkt-canvas.md`
