@@ -4,7 +4,7 @@ Kilde: konvertert fra `sources/Mal - Produkt canvas.docx`.
 Maalgruppe: forretningssiden og strategisk arkitektur.
 
 ## Navn
-Det offisielle navnet paa produktet eller loesningen.
+Det offisielle navnet paa produktet eller løsningen.
 
 ## Ressurs ID
 Produktnummer fra index/produktnummerering.md.
@@ -20,22 +20,22 @@ Vurder teknisk, organisatorisk, markedsmessig og regulatorisk modenhet.
 Kort om produktet sett fra et forretningsperspektiv.
 
 ## Kapabiliteter
-Hvilke kapabiliteter i Nasjonal arkitektur bidrar produktet til aa realisere eller forbedre?
+Hvilke kapabiliteter i Nasjonal arkitektur bidrar produktet til å realisere eller forbedre?
 
-## Produktmaal
-Strategiske og operative maal. Hva skal produktet oppnaa?
+## Produktmål
+Strategiske og operative mål. Hva skal produktet oppnå?
 
 ## Brukerbehov
-Hvilket problem eller behov loeser produktet?
+Hvilket problem eller behov løser produktet?
 
 ## Hvem er brukerne og brukersegmentene
 Prioriterte brukergrupper og andre interessenter.
 
 ## Hovedfunksjoner
-Viktigste funksjoner og noekkelfunksjoner.
+Viktigste funksjoner og nøkkelfunksjoner.
 
 ### Scope og avgrensning
-Hva inngaar og hva inngaar ikke.
+Hva inngår og hva inngår ikke.
 
 ## Veikart over kommende funksjonalitet
 Beskrivelse av kjent eller antatt veikart.
@@ -55,8 +55,8 @@ Sky (lokasjon), on-prem eller hybrid.
 ## Gjenbruk
 Vurder gjenbruksvennlighet av API-er, standarder og lisensiering.
 
-## Stoette arkitekturprinsipper
-I hvilken grad stoettes nasjonale arkitekturprinsipper?
+## Støtter arkitekturprinsipper
+I hvilken grad støttes nasjonale arkitekturprinsipper?
 
 ## Finansiering
 Type finansiering for utvikling og drift.
@@ -65,7 +65,7 @@ Type finansiering for utvikling og drift.
 Del opp i produktansvar, driftsansvar, budsjettansvar og styringsmodell.
 
 ## Lenke til dokumentasjon
-Hoveddokumentasjon, kom i gang, vilkaar/pris (om relevant), status/drift.
+Hoveddokumentasjon, kom i gang, vilkår/pris (om relevant), status/drift.
 
 ## Kildegrunnlag brukt i utfyllingen
 Oppgi konkrete URL-er og lokale filer.

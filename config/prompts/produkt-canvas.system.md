@@ -1,4 +1,4 @@
-﻿# Standardprompt: Produktbeskrivelser (Produkt-canvas)
+# Standardprompt: Produktbeskrivelser (Produkt-canvas)
 
 Formål: Sikre lik, detaljert og grundig utfylling av produktbeskrivelser for arkitekturvurderinger, analyser og gjenbruk.
 
@@ -15,6 +15,13 @@ Formål: Sikre lik, detaljert og grundig utfylling av produktbeskrivelser for ar
 ### Trinn 2: Vurder oppgavetyp
 - **Forbedring av eksisterende:** Lage en revisjonert versjon (se navngivning)
 - **Ny produktbeskrivelse:** Starte fra mal + kilder
+
+### Trinn 2B: Avklar forbedringsnivå (OBLIGATORISK ved revisjon)
+- En forbedret versjon skal alltid inneholde både:
+  1. **Analyseforbedring:** ny eller oppdatert kildegjennomgang med verifiserte fakta
+  2. **Tekstforbedring:** bedre struktur, presisjon, språk og lesbarhet
+- **Ikke godkjent forbedring:** kun språkvask, omformulering eller tabellformattering uten nytt analysegrunnlag
+- Dokumenter kort hva som er nytt i analysen (nye kilder, nye funn, avklarte usikkerheter)
 
 ### Trinn 3: Hent kilder (samme hver gang)
 1. Mal: `results/templates/produkt-canvas-template.md`
@@ -35,6 +42,7 @@ Følg reglene under.
 - Skill tydelig mellom **fakta** (fra kilder), **deduksjon** (logisk utledet), og **usikkerhet**
 - Tittel og ResourceID må alltid være korrekt
 - Lenker skal være aktive og relevante
+- Ved revisjon: vis eksplisitt hvilke deler som er forbedret i analysen, ikke bare i språk/drakt
 
 ### Språk og tegn (OBLIGATORISK NORSK)
 - **Alt innhold skal skrives på norsk** – ikke engelsk eller blandete språk
@@ -91,6 +99,7 @@ Følg reglene under.
 - Skille mellom lokale kilder (`sources/links.md`) og eksterne kilder (Digdir Docs, Samarbeidsportalen osv.)
 - Oppgi hentedato
 - Bruk både offisielle kilder og praktisk erfaring / dokumentererte use cases
+- For revisjoner: oppgi minst 2 oppdaterte eksterne kilder kontrollert i aktuell arbeidsøkt
 
 ---
 
@@ -134,3 +143,4 @@ Eksempel: `05-Kontakt-og-reservasjonsregisteret-produkt-canvas.md`
 4. **Konsistens:** Sjekk formatering og tonalitet mot eksisterende canvas-filer
 5. **Versjonering:** Hvis du gør stort forbedring – lag "-forfatter"-versjon for sammenlikning
 6. **Dokumenter:** Legg inn "Merknad om kvalitetsforbedringer" eller "Endringer fra forrige versjon" i slutten hvis relevant
+7. **Skill forbedringstyper:** Legg inn korte punkt for "Analyseforbedringer" og "Tekstlige forbedringer"
