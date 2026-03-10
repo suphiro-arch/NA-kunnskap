@@ -8,8 +8,9 @@ Formål: Sikre lik, detaljert og grundig utfylling av produktbeskrivelser for ar
 
 ### Trinn 1: Les eksisterende versjon (VIKTIG!)
 - **Hvis produktbeskrivelse allerede finnes**: Les gjennom hele filen først
-- **Hvis flere versjoner finnes**: Bygg videre på siste oppdaterte forbedrede versjon som utgangspunkt, med mindre brukeren ber om noe annet
-- Bruk høyeste versjonsnummer (`-vX`) eller siste tydelig oppdaterte forbedringsfil som primærbase, ikke automatisk den opprinnelige basisfilen
+- **Hvis flere versjoner finnes**: Bygg videre på filen med høyest versjonsnummer som utgangspunkt, med mindre brukeren ber om noe annet
+- Versjonsrekkefølgen gjelder på tvers av forfattere og modeller; høyeste versjon er siste versjon
+- Hvis eldre filer mangler versjonsnummer: behandle dem som historiske filer og bruk den faglig mest oppdaterte av dem som lesegrunnlag, men skriv nye leveranser etter den nye versjonsregelen
 - Identifiser hvilke felt som er fylt ut, og hvilke som er merket `Usikkert:`
 - Vurder hvilke seksjoner som kan forbedres, detaljeres eller utdypes
 - **Mål:** Bygge videre på eksisterende jobb, ikke starte fra scratch
@@ -138,30 +139,32 @@ Følg reglene under.
 
 ## Navngiving av filer
 
-### Når du forbedrer eksisterende versjon
-Format: `NN-<Produktnavn>-produkt-canvas-<forfatter>.md`
+### Obligatorisk format for alle filer
+`NN-<Produktnavn>-produkt-canvas-vX-<forfatter>.md`
 
-Eksempler:
-- `01-ID-porten-produkt-canvas-copilot.md` (forbedret av GitHub Copilot)
-- `01-ID-porten-produkt-canvas-codex.md` (forbedret av ChatGPT)
-- `01-ID-porten-produkt-canvas-manuel.md` (forbedret manuelt)
+- `NN` = produktnummer (to siffer)
+- `<Produktnavn>` = kebab-case-navn
+- `vX` = versjonsnummer (`v1`, `v2`, `v3`, ...)
+- `<forfatter>` = hvem som opprettet filen (f.eks. `copilot`, `codex`, `hilros`, `manuel`)
 
-**Hensikt:** Tillater sammenlikning av ulike tilnærminger + versjonskontroll
+**Eksempler:**
+- `01-ID-porten-produkt-canvas-v1-copilot.md`
+- `01-ID-porten-produkt-canvas-v2-codex.md`
+- `21-Altinn-Portal-produkt-canvas-v3-manuel.md`
 
-### Når du kjører ny forbedringsrunde på samme forfattervariant
-Format: `NN-<Produktnavn>-produkt-canvas-<forfatter>-vX.md` (der `X` starter på `2`)
+**Regler:**
+- Versjonsnummer og forfatter er **alltid obligatorisk** i filnavnet
+- Første opprettede fil for et produkt får alltid `v1`
+- Neste versjoner av samme produkt får `v2`, `v3`, `v4` ... i kronologisk rekkefølge
+- Versjonsnummeret er globalt per produkt – det øker uavhengig av hvem som lager neste versjon
+- Høyeste versjonsnummer er gjeldende siste versjon
+- Det skal ikke opprettes parallelle versjonsspor per forfatter
+- Eldre versjoner beholdes for historikk
 
-Eksempler:
-- `21-Altinn-Portal-produkt-canvas-codex-v2.md`
-- `21-Altinn-Portal-produkt-canvas-codex-v3.md`
-
-**Regel:** Bruk versjonsledd (`-v2` og oppover) når både basisbeskrivelse og forbedret variant allerede finnes, og du lager en ny kjøring av forbedringen.
-**Utgangspunkt:** Når du lager `-v2` eller høyere, skal du som hovedregel bygge videre på siste versjon i samme spor.
-
-### Når du lager nye filer
-Format: `NN-<Produktnavn>-produkt-canvas.md`
-
-Eksempel: `05-Kontakt-og-reservasjonsregisteret-produkt-canvas.md`
+### Overgangsregel for eksisterende repo
+- Eldre filer uten versjonsnummer behandles som historiske referanser
+- Nye filer skal alltid følge formatet over med `vX` og `<forfatter>`
+- Hvis det finnes flere eldre, uversjonerte filer for samme produkt: bygg på den mest faglig oppdaterte, men lagre ny leveranse etter ny versjonsregel
 
 ---
 
@@ -171,6 +174,6 @@ Eksempel: `05-Kontakt-og-reservasjonsregisteret-produkt-canvas.md`
 2. **Bruk kilder aktivt:** Åpne 2-3 lenker mens du skriver (ikke skriv fra hukommelse)
 3. **Iterering:** Start med basisfakta, så deduser verdier + strategisk betydning
 4. **Konsistens:** Sjekk formatering og tonalitet mot eksisterende canvas-filer
-5. **Versjonering:** Hvis du gør stort forbedring – lag "-forfatter"-versjon for sammenlikning
+5. **Versjonering:** Bruk alltid neste globale versjonsnummer for produktet; legg bare til forfatter i filnavnet når det er eksplisitt nyttig
 6. **Dokumenter:** Legg inn "Merknad om kvalitetsforbedringer" eller "Endringer fra forrige versjon" i slutten hvis relevant
 7. **Skill forbedringstyper:** Legg inn korte punkt for "Analyseforbedringer" og "Tekstlige forbedringer"
