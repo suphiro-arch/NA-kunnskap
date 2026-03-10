@@ -9,7 +9,9 @@ Altinn 3 Melding (Correspondence)
 23 (Produktliste NA-kunnskap).
 
 ## Status/Livsfase
-Produksjon
+**Produksjon** - etablert meldingstjeneste med aktiv overgang og migrering fra Altinn 2.
+
+**Fakta:** Altinn 3 Melding brukes for sikker utveksling av korrespondanse mellom offentlige etater og enkeltpersoner eller bedrifter, og Altinn II måtte reetableres i Altinn 3 før 19. juni 2026.
 
 ## Modenhet
 **Middels til høy funksjonell modenhet** - produktet er etablert, men overgangsarbeidet påvirker totalbildet:
@@ -21,8 +23,6 @@ Produksjon
 
 ## Kort beskrivelse
 Altinn 3 Melding er en nasjonal meldingstjeneste for sikker digital utveksling av korrespondanse mellom offentlige virksomheter og mottakere i offentlig sektor, næringsliv og befolkning. Produktet støtter livssyklus, tilgangsstyring, vedlegg, varsling og hendelser, og gjør meldinger tilgjengelige i arbeidsflate og Dialogporten som del av en mer sammenhengende digital kommunikasjon.
-
-Produktet er i aktiv produksjon og inngår i overgangsløpet fra Altinn 2, der tjenester og data reetableres og migreres til Altinn 3.
 
 ## Kapabiliteter
 - **Datautveksling og integrasjon: Meldingsformidling** håndterer sikker digital utsending og mottak av meldinger med status og livssyklus.

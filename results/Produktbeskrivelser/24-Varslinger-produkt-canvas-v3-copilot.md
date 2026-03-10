@@ -9,7 +9,9 @@ Altinn Varslinger
 24 (Produktliste NA-kunnskap).
 
 ## Status/Livsfase
-Produksjon
+**Produksjon** - etablert varslingsprodukt med aktiv videreutvikling.
+
+**Fakta:** Altinn Varslinger tilbyr enveis kommunikasjon med innbyggere og virksomheter, og støtter e-post og SMS med programmatisk utsending og leveringsstatus.
 
 ## Modenhet
 **Middels til høy funksjonell modenhet** - produktet er etablert og dokumentert, men utvikles videre:
@@ -21,8 +23,6 @@ Produksjon
 
 ## Kort beskrivelse
 Altinn Varslinger er en fellesløsning for enveis digital varsling til innbyggere og virksomheter. Produktet gjør det mulig å sende varsler via e-post og SMS, slå opp mottakerens navn og kontaktinformasjon fra nasjonale registre, bruke autorisasjon for å finne riktige mottakere i organisasjoner og styre utsending basert på betingelser og kanalpreferanser.
-
-Løsningen er i aktiv produksjon med videreutvikling av kanalstøtte og styringsmekanismer for robust og målrettet varsling.
 
 ## Kapabiliteter
 - **Sluttbrukertjenester: Proaktive tjenester** gjør det mulig å varsle mottakere når en hendelse eller tilstand krever oppmerksomhet.
