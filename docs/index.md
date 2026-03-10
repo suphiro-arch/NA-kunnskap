@@ -25,6 +25,8 @@ Sist redigert: 2026-03-10.
 - eFormidling: https://www.digdir.no/eformidling/om-eformidling/2182
 - eFormidling dokumentasjon: https://docs.digdir.no/docs/eformidling/
 - Felles datakatalog: https://www.digdir.no/felles-datakatalog/om-felles-datakatalog/2274
+- data.altinn.no: https://data.altinn.no/
+- data.altinn.no dokumentasjon: https://docs.data.altinn.no/
 
 ### Prinsipper og overordnet beskrivelse
 - Strategiske prinsipper for felleskomponenter: https://www.digdir.no/media/395/download
