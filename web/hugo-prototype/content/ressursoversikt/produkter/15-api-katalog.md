@@ -1,4 +1,4 @@
-﻿---
+---
 title: "15 - API-katalog"
 ---
 

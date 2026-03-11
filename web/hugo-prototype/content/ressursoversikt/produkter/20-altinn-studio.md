@@ -1,4 +1,4 @@
-﻿---
+---
 title: "20 - Altinn-Studio"
 ---
 
