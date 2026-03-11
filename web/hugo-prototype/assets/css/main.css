@@ -275,6 +275,10 @@ body.no-toc .site-shell {
   overflow-wrap: anywhere;
 }
 
+.content-card--secondary {
+  margin-top: 1.15rem;
+}
+
 .prose {
   min-width: 0;
 }
@@ -426,6 +430,13 @@ body.no-toc .site-shell {
   padding: 1rem 1rem 1.05rem;
 }
 
+.section-card--compact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  min-height: 11rem;
+}
+
 .section-card__meta {
   margin: 0;
   font-size: 0.78rem;
@@ -459,6 +470,10 @@ body.no-toc .site-shell {
   margin-top: 0.9rem;
   font-weight: 700;
   text-decoration: none;
+}
+
+.section-card--compact .section-card__link {
+  margin-top: auto;
 }
 
 .content-card__footer {
