@@ -1,4 +1,4 @@
-﻿---
+---
 title: "05 - Kontakt-og-reservasjonsregisteret"
 ---
 
