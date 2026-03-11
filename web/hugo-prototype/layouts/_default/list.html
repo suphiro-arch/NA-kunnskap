@@ -1,10 +1,43 @@
 {{ define "main" }}
+{{ $pages := .Pages.ByWeight }}
 <article class="content-card">
   <header class="content-card__header">
+    {{ if .IsHome }}
+    <p class="content-card__eyebrow">Dokumentasjon</p>
+    {{ else }}
+    <p class="content-card__eyebrow">Seksjon</p>
+    {{ end }}
     <h1>{{ .Title }}</h1>
   </header>
+
   <div class="content-card__body">
-    {{ .Content }}
+    <div class="prose">
+      {{ .Content }}
+    </div>
   </div>
 </article>
+
+{{ if gt (len $pages) 0 }}
+<section class="section-overview">
+  <div class="section-overview__header">
+    <h2>{{ if .IsHome }}Seksjoner{{ else }}I Denne Seksjonen{{ end }}</h2>
+    <p>{{ if .IsHome }}Innganger til hoveddelene av dokumentasjonen.{{ else }}Undersider og innhold som hører til denne seksjonen.{{ end }}</p>
+  </div>
+
+  <div class="section-grid">
+    {{ range $pages }}
+    <article class="section-card">
+      <p class="section-card__meta">{{ if .IsSection }}Seksjon{{ else }}Side{{ end }}</p>
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      {{ with .Summary }}
+      <p>{{ . | plainify }}</p>
+      {{ else }}
+      <p>{{ .LinkTitle }} er en del av dokumentasjonen.</p>
+      {{ end }}
+      <a class="section-card__link" href="{{ .RelPermalink }}">Åpne side</a>
+    </article>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
 {{ end }}

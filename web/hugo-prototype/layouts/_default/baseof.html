@@ -4,37 +4,75 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.siteDescription }}{{ end }}" />
     {{ $styles := resources.Get "css/main.css" | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" />
   </head>
-  <body>
+  {{ $toc := .TableOfContents }}
+  {{ $hasToc := gt (len (findRE "<li" $toc 1)) 0 }}
+  {{ $currentSection := "" }}
+  {{ if .IsHome }}
+    {{ $currentSection = "" }}
+  {{ else if .IsSection }}
+    {{ $currentSection = .Section }}
+  {{ else if .CurrentSection }}
+    {{ $currentSection = .CurrentSection.Section }}
+  {{ end }}
+  <body class="{{ if $hasToc }}has-toc{{ else }}no-toc{{ end }}">
+    <a class="skip-link" href="#main-content">Hopp til innhold</a>
+
     <header class="site-header">
       <div class="site-header__inner">
         <p class="site-header__kicker">NA-kunnskap</p>
-        <h1><a href="{{ "" | relURL }}">{{ .Site.Title }}</a></h1>
-        <p class="site-header__lead">{{ .Site.Params.siteDescription }}</p>
+        <div class="site-header__heading">
+          <h1><a href="{{ "" | relURL }}">{{ .Site.Title }}</a></h1>
+          <p class="site-header__lead">{{ .Site.Params.siteDescription }}</p>
+        </div>
       </div>
     </header>
 
     <div class="site-shell">
       <aside class="site-nav">
-        <h2>Innhold</h2>
-        <ul>
-          <li><a href="{{ "" | relURL }}">Forside</a></li>
-          {{ range .Site.Sections.ByWeight }}
-          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-          {{ end }}
-        </ul>
+        <div class="site-nav__inner">
+          <h2>Navigasjon</h2>
+          <ul class="site-nav__list">
+            <li class="site-nav__item {{ if .IsHome }}is-active{{ end }}">
+              <a href="{{ "" | relURL }}">Forside</a>
+            </li>
+            {{ range .Site.Sections.ByWeight }}
+            {{ $section := . }}
+            <li class="site-nav__item {{ if eq $section.Section $currentSection }}is-active{{ end }}">
+              <a href="{{ $section.RelPermalink }}">{{ $section.Title }}</a>
+              {{ if eq $section.Section $currentSection }}
+                {{ $children := $section.Pages.ByWeight }}
+                {{ if gt (len $children) 0 }}
+                <ul class="site-nav__sublist">
+                  {{ range $children }}
+                  <li>
+                    <a class="{{ if eq .RelPermalink $.RelPermalink }}is-current{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                  </li>
+                  {{ end }}
+                </ul>
+                {{ end }}
+              {{ end }}
+            </li>
+            {{ end }}
+          </ul>
+        </div>
       </aside>
 
-      <main class="site-main">
+      <main class="site-main" id="main-content">
         {{ block "main" . }}{{ end }}
       </main>
 
+      {{ if $hasToc }}
       <aside class="site-toc">
-        <h2>På denne siden</h2>
-        {{ .TableOfContents }}
+        <div class="site-toc__inner">
+          <h2>På denne siden</h2>
+          {{ $toc }}
+        </div>
       </aside>
+      {{ end }}
     </div>
   </body>
 </html>

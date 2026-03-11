@@ -1,10 +1,44 @@
 {{ define "main" }}
 <article class="content-card">
   <header class="content-card__header">
+    <nav class="breadcrumbs" aria-label="Brødsmuler">
+      <a href="{{ "" | relURL }}">Forside</a>
+      {{ range .Ancestors.Reverse }}
+      {{ if not .IsHome }}
+      <span>/</span>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{ end }}
+      {{ end }}
+      <span>/</span>
+      <span aria-current="page">{{ .Title }}</span>
+    </nav>
+    {{ with .CurrentSection }}
+    <p class="content-card__eyebrow">{{ .Title }}</p>
+    {{ end }}
     <h1>{{ .Title }}</h1>
   </header>
+
   <div class="content-card__body">
-    {{ .Content }}
+    <div class="prose">
+      {{ .Content }}
+    </div>
   </div>
+
+  {{ if or .PrevInSection .NextInSection }}
+  <footer class="content-card__footer">
+    {{ with .PrevInSection }}
+    <a class="pager-link" href="{{ .RelPermalink }}">
+      <span class="pager-link__label">Forrige</span>
+      <strong>{{ .Title }}</strong>
+    </a>
+    {{ end }}
+    {{ with .NextInSection }}
+    <a class="pager-link pager-link--next" href="{{ .RelPermalink }}">
+      <span class="pager-link__label">Neste</span>
+      <strong>{{ .Title }}</strong>
+    </a>
+    {{ end }}
+  </footer>
+  {{ end }}
 </article>
 {{ end }}

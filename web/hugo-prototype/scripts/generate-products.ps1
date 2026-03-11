@@ -5,11 +5,13 @@ $outDir = 'web/hugo-prototype/content/ressursoversikt/produkter'
 $repoBlobBase = 'https://github.com/suphiro-arch/NA-kunnskap/blob/main'
 New-Item -ItemType Directory -Force -Path $outDir | Out-Null
 
-$pattern = '^(?<id>\d+)-(?<name>.+)-produkt-canvas-v(?<ver>\d+)-(?<author>[^.]+)\.md$'
+$patternCurrent = '^(?<id>\d+)-(?<name>.+)-produkt-canvas-v(?<ver>\d+)-(?<author>[^.]+)\.md$'
+$patternNoAuthor = '^(?<id>\d+)-(?<name>.+)-produkt-canvas-v(?<ver>\d+)\.md$'
+$patternLegacy = '^(?<id>\d+)-(?<name>.+)-produkt-canvas(?:-(?<author>[^.]+))?\.md$'
 $items = @()
 
 Get-ChildItem $srcDir -File | ForEach-Object {
-  if ($_.Name -match $pattern) {
+  if ($_.Name -match $patternCurrent) {
     $items += [PSCustomObject]@{
       Id = [int]$Matches.id
       Name = $Matches.name
@@ -18,6 +20,34 @@ Get-ChildItem $srcDir -File | ForEach-Object {
       FileName = $_.Name
       RelativePath = "results/Produktbeskrivelser/$($_.Name)"
       FullPath = $_.FullName
+      LastWriteTime = $_.LastWriteTime
+      IsLegacy = $false
+    }
+  }
+  elseif ($_.Name -match $patternNoAuthor) {
+    $items += [PSCustomObject]@{
+      Id = [int]$Matches.id
+      Name = $Matches.name
+      Version = [int]$Matches.ver
+      Author = 'ukjent'
+      FileName = $_.Name
+      RelativePath = "results/Produktbeskrivelser/$($_.Name)"
+      FullPath = $_.FullName
+      LastWriteTime = $_.LastWriteTime
+      IsLegacy = $false
+    }
+  }
+  elseif ($_.Name -match $patternLegacy) {
+    $items += [PSCustomObject]@{
+      Id = [int]$Matches.id
+      Name = $Matches.name
+      Version = 0
+      Author = $(if ($Matches.author) { $Matches.author } else { 'legacy' })
+      FileName = $_.Name
+      RelativePath = "results/Produktbeskrivelser/$($_.Name)"
+      FullPath = $_.FullName
+      LastWriteTime = $_.LastWriteTime
+      IsLegacy = $true
     }
   }
 }
@@ -25,7 +55,9 @@ Get-ChildItem $srcDir -File | ForEach-Object {
 $latest = $items |
   Group-Object Id |
   ForEach-Object {
-    $_.Group | Sort-Object -Property Version, FileName -Descending | Select-Object -First 1
+    $_.Group |
+      Sort-Object -Property @{ Expression = 'Version'; Descending = $true }, @{ Expression = 'LastWriteTime'; Descending = $true }, @{ Expression = 'FileName'; Descending = $true } |
+      Select-Object -First 1
   } |
   Sort-Object Id
 
@@ -68,11 +100,9 @@ function Clean-ShortDescription {
     if ($trim.StartsWith('**Deduksjon:**')) { continue }
     if ($trim.StartsWith('**Fakta:**')) { continue }
 
-    # Fjern enkel markdown-stil for ren tabelltekst.
     $clean = $trim -replace '\*\*', ''
     $parts += $clean
 
-    # Hold beskrivelsen kort i oversikten.
     if (($parts -join ' ').Length -ge 260) { break }
   }
 
@@ -87,15 +117,21 @@ function Clean-ShortDescription {
   return $text
 }
 
-function To-Slug {
-  param([string]$Name)
+function Extract-DisplayName {
+  param(
+    [string[]]$Lines,
+    [string]$Fallback
+  )
 
-  $slug = $Name.ToLower()
-  $slug = $slug -replace 'æ', 'ae'
-  $slug = $slug -replace 'ø', 'o'
-  $slug = $slug -replace 'å', 'a'
-  $slug = $slug -replace '[^a-z0-9]+', '-'
-  return $slug.Trim('-')
+  $section = Extract-Section -Lines $Lines -Heading 'Navn'
+  foreach ($line in $section) {
+    $trim = $line.Trim()
+    if ($trim) {
+      return $trim
+    }
+  }
+
+  return (($Fallback -replace '-', ' ').Trim())
 }
 
 $index = @(
@@ -106,7 +142,7 @@ $index = @(
   '',
   '# Produkter (siste versjon)',
   '',
-  'Denne oversikten viser kun siste versjon per produkt.',
+  'Denne oversikten viser siste versjon per produkt basert på høyeste versjonsnummer.',
   '',
   '| Produkt | Siste versjon | Kort beskrivelse | Markdown |',
   '|---|---|---|---|'
@@ -114,18 +150,20 @@ $index = @(
 
 foreach ($p in $latest) {
   $raw = Get-Content -Path $p.FullPath -Encoding utf8
+  $displayName = Extract-DisplayName -Lines $raw -Fallback $p.Name
   $descriptionSection = Extract-Section -Lines $raw -Heading 'Kort beskrivelse'
   $shortDescription = Clean-ShortDescription -Section $descriptionSection
 
   $blobUrl = ('{0}/{1}' -f $repoBlobBase, $p.RelativePath)
   $safeDescription = ($shortDescription -replace '\|', '/')
+  $versionLabel = if ($p.Version -gt 0) { "v$($p.Version)" } else { 'legacy' }
+  $authorLabel = if ($p.Author) { $p.Author } else { 'ukjent' }
 
-  $index += ('| {0} | v{1} ({2}) | {3} | [Fil]({4}) |' -f $p.Name, $p.Version, $p.Author, $safeDescription, $blobUrl)
+  $index += ('| {0} | {1} ({2}) | {3} | [Fil]({4}) |' -f $displayName, $versionLabel, $authorLabel, $safeDescription, $blobUrl)
 }
 
 Set-Content -Path (Join-Path $outDir '_index.md') -Value $index -Encoding utf8
 
-# Fjern individuelle produktsider - vi beholder kun samlet oversikt.
 Get-ChildItem $outDir -File |
   Where-Object { $_.Name -ne '_index.md' } |
   Remove-Item -Force
