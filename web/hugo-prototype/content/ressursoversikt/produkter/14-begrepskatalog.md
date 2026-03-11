@@ -1,4 +1,4 @@
-﻿---
+---
 title: "14 - Begrepskatalog"
 ---
 
