@@ -1,4 +1,4 @@
-﻿---
+---
 title: "23 - Altinn-3-Melding"
 ---
 

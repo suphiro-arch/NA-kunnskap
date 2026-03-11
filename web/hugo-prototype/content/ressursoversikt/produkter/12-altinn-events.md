@@ -1,4 +1,4 @@
-﻿---
+---
 title: "12 - Altinn-events"
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "13 - Felles-datakatalog"
 ---
 

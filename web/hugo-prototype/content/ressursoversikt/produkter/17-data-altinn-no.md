@@ -1,4 +1,4 @@
-﻿---
+---
 title: "17 - data-altinn-no"
 ---
 

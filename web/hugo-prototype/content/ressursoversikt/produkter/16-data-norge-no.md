@@ -1,4 +1,4 @@
-﻿---
+---
 title: "16 - data-norge-no"
 ---
 
