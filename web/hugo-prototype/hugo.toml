@@ -1,0 +1,12 @@
+baseURL = "https://suphiro-arch.github.io/NA-kunnskap/prototype/"
+languageCode = "nb-no"
+title = "Nasjonal arkitektur"
+
+[params]
+  siteDescription = "Testflate for innhold om nasjonal arkitektur, prinsipper, kapabiliteter og ressursoversikt."
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+    ordered = false

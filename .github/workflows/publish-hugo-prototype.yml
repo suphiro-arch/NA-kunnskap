@@ -1,0 +1,53 @@
+name: Publish Hugo Prototype to docs/prototype
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "web/hugo-prototype/**"
+      - "results/Produktbeskrivelser/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.125.7"
+          extended: true
+
+      - name: Regenerate product pages
+        shell: pwsh
+        run: |
+          ./web/hugo-prototype/scripts/generate-products.ps1
+
+      - name: Build prototype to docs/prototype
+        run: |
+          hugo --source web/hugo-prototype --destination ../../docs/prototype --gc --minify
+
+      - name: Add .nojekyll marker
+        run: |
+          touch docs/.nojekyll
+
+      - name: Commit synced prototype
+        run: |
+          if git diff --quiet -- docs/prototype docs/.nojekyll web/hugo-prototype/content/ressursoversikt/produkter; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/prototype docs/.nojekyll web/hugo-prototype/content/ressursoversikt/produkter
+          git commit -m "chore: publish hugo prototype to docs/prototype"
+          git push
