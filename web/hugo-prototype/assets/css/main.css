@@ -361,10 +361,33 @@ body.no-toc .site-shell {
   border-bottom: 1px solid var(--line-subtle);
   text-align: left;
   vertical-align: top;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: normal;
 }
 
 .prose th {
   background: #f3f7fa;
+}
+
+.prose th:nth-child(1),
+.prose td:nth-child(1) {
+  min-width: 12rem;
+}
+
+.prose th:nth-child(2),
+.prose td:nth-child(2) {
+  min-width: 8rem;
+}
+
+.prose th:nth-child(3),
+.prose td:nth-child(3) {
+  min-width: 30rem;
+}
+
+.prose th:nth-child(4),
+.prose td:nth-child(4) {
+  min-width: 7rem;
 }
 
 .prose blockquote {

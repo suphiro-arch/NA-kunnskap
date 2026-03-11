@@ -1,16 +1,25 @@
----
+﻿---
 title: "Kapabiliteter"
 weight: 10
+description: "Oversikt over evnene som trengs for samhandling, styring og utvikling i et nasjonalt digitalt økosystem."
 ---
 
 # Kapabiliteter
 
-Kapabilitetene beskriver hvilke evner som trengs for a sikre samhandling, gjenbruk og strategisk retning i et nasjonalt digitalt okosystem.
+Kapabilitetene beskriver hvilke evner som må være på plass for å utvikle, forvalte og videreutvikle et nasjonalt økosystem for digital samhandling. De fungerer som et språk for å beskrive hva økosystemet må kunne gjøre, uavhengig av hvilke produkter som brukes til å realisere det.
+
+## Hvordan lese denne siden
+
+Bruk kapabilitetene som en struktur for analyse og prioritering:
+
+- Kapabilitetene beskriver behov og evner, ikke konkrete systemer.
+- Delkapabilitetene viser hva som må være dekket for at en hovedkapabilitet skal fungere i praksis.
+- Koblingen til prinsipper og produkter hjelper deg å gå fra modell til gjennomføring.
 
 ## Hovedkapabiliteter
 
 ### Strategisk styring
-Evnen til a sette retning for nasjonal arkitektur og realisere strategiske mal.
+Evnen til å sette retning for nasjonal arkitektur, prioritere tiltak og sikre koordinert utvikling over tid.
 
 Delkapabiliteter:
 - Finansiering
@@ -18,7 +27,7 @@ Delkapabiliteter:
 - Samordning
 
 ### Samarbeid
-Evne til samarbeid og samhandling pa tvers av offentlig og privat forvaltning.
+Evnen til å etablere og vedlikeholde samarbeid på tvers av virksomheter, sektorer og forvaltningsnivåer.
 
 Delkapabiliteter:
 - Organisatorisk samhandling
@@ -26,7 +35,7 @@ Delkapabiliteter:
 - Tjenesteforvaltning
 
 ### Sluttbrukertjenester
-Evne til a tilby en sammenhengende digital brukeropplevelse gjennom et okosystem av standardiserte og integrerbare tjenester.
+Evnen til å levere sammenhengende og forståelige brukeropplevelser gjennom flere tjenester og aktører.
 
 Delkapabiliteter:
 - Sammenhengende tjenester
@@ -34,16 +43,16 @@ Delkapabiliteter:
 - Proaktive tjenester
 
 ### Datautveksling og integrasjon
-Evne til a sikkert, effektivt og standardisert utveksle data mellom aktorer i okosystemet.
+Evnen til å dele, hente og formidle informasjon sikkert, effektivt og standardisert mellom aktører i økosystemet.
 
 Delkapabiliteter:
 - Dele data med andre
 - Bruke data fra andre
 - Meldingsformidling
-- Hendelsesdrevet
+- Hendelsesdrevet samhandling
 
 ### Tillit
-Evne til a tilby tillitstjenester som muliggjør autentisering og autorisasjon pa tvers av tjenestekjeder.
+Evnen til å etablere trygg identifisering, tilgangskontroll og dokumenterbar bruk av digitale tjenester og data.
 
 Delkapabiliteter:
 - Autentisering
@@ -56,7 +65,7 @@ Delkapabiliteter:
 - Identifisering
 
 ### Datadrevet
-Evne til a bruke data systematisk for innsikt, beslutningsstotte og bedre tjenester.
+Evnen til å bruke data systematisk for innsikt, forbedring og bedre beslutninger.
 
 Delkapabiliteter:
 - Dataanalyse
@@ -64,23 +73,23 @@ Delkapabiliteter:
 - Visualisering
 
 ### Informasjonssikkerhet
-Evne til a etablere tilstrekkelig sikkerhet i tjenester og losninger som brukes i felles okosystem.
+Evnen til å sikre informasjon, tjenester og dataflyt på et nivå som er tilpasset risiko og samfunnskritisk betydning.
 
 Delkapabiliteter:
 - Styringssystem
 - Sikring av informasjonsflyt og datautveksling
 
 ### Tjenesteutvikling
-Evne til a utvikle sammenhengende digitale tjenester med gjenbrukbare og integrerbare byggeklosser.
+Evnen til å utvikle og forvalte sammenhengende digitale tjenester med gjenbrukbare byggeklosser.
 
 Delkapabiliteter:
-- Utviklings- og kjoretidsmiljo
+- Utviklings- og kjøretidsmiljø
 - Integrerbare tjenester
 - Gjenbrukbare tjenester
 - Tjenestedesign
 
 ### Informasjonsforvaltning
-Evne til a etablere rammeverk for informasjonsforvaltning slik at data og beskrivelser kan deles og gjenbrukes.
+Evnen til å beskrive, forvalte og tilgjengeliggjøre informasjon slik at data kan deles og forstås på tvers.
 
 Delkapabiliteter:
 - Informasjonsarkitektur
@@ -93,33 +102,35 @@ Delkapabiliteter:
 - Datastyring
 
 ### Standardisering
-Evne til a identifisere, vedta og forvalte standarder som sikrer interoperabilitet pa tvers av sektorer og landegrenser.
+Evnen til å identifisere, vedta og forvalte standarder som gjør samhandling mulig på tvers av sektorer og grenser.
 
 Delkapabiliteter:
-- EU standarder
+- EU-standarder
 - Forvaltningsstandarder
 
 ### Juridisk samhandling
-Evne til a etablere og forvalte juridiske rammer for sikker og effektiv digital samhandling.
+Evnen til å etablere og forvalte juridiske rammer som gjør digital samhandling lovlig, trygg og skalerbar.
 
 ### Veiledning
-Evne til a utarbeide og anvende veiledning for digital samhandling i felles okosystem.
+Evnen til å utvikle og formidle praktisk veiledning som hjelper virksomheter å bruke felles arkitektur og felles ressurser riktig.
 
 ### Datakilder
-Evne til a tilgjengeliggjore og forvalte data som nasjonal fellesressurs.
+Evnen til å tilgjengeliggjøre og forvalte data som nasjonal fellesressurs.
 
 Delkapabiliteter:
 - Grunndata
 - Sanntidsdata
-- Apne data
+- Åpne data
 - Testdata
 - Ustrukturerte data
 
-## Kobling til prinsipper og produkter
+## Hvordan henger dette sammen med resten av dokumentasjonen?
 
-- Hvilke prinsipper som understotter kapabilitetene finnes pa [Prinsipper](../prinsipper/).
-- Hvilke konkrete produkter som bidrar til kapabilitetene finnes pa [Ressursoversikt](../ressursoversikt/).
+Kapabilitetene er den strukturelle kjernen i modellen.
 
-## Videre arbeid
+- [Prinsipper](../prinsipper/) beskriver hvordan kapabilitetene bør realiseres.
+- [Ressursoversikt](../ressursoversikt/) viser hvilke produkter og fellesløsninger som kan støtte dem.
 
-Neste steg er a vise en enkel matrise per kapabilitet: relevante prinsipper, sentrale produkter og kildehenvisning.
+## Neste steg i prototypen
+
+Neste naturlige steg er å koble hver hovedkapabilitet til relevante prinsipper og sentrale produkter i en mer eksplisitt matrise.
