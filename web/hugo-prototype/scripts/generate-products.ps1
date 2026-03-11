@@ -3,7 +3,6 @@ $ErrorActionPreference = 'Stop'
 $srcDir = 'results/Produktbeskrivelser'
 $outDir = 'web/hugo-prototype/content/ressursoversikt/produkter'
 $repoBlobBase = 'https://github.com/suphiro-arch/NA-kunnskap/blob/main'
-$repoRawBase = 'https://raw.githubusercontent.com/suphiro-arch/NA-kunnskap/main'
 New-Item -ItemType Directory -Force -Path $outDir | Out-Null
 
 $pattern = '^(?<id>\d+)-(?<name>.+)-produkt-canvas-v(?<ver>\d+)-(?<author>[^.]+)\.md$'
@@ -57,29 +56,46 @@ function Extract-Section {
   return $Lines[$start..$end]
 }
 
-function Clean-Status {
+function Clean-ShortDescription {
   param([string[]]$Section)
-  $status = @()
+
+  $parts = @()
   foreach ($line in $Section) {
     $trim = $line.Trim()
-    if ($trim -and -not $trim.StartsWith('**Fakta:**') -and -not $trim.StartsWith('**Deduksjon:**')) {
-      $status += $trim
-    }
+    if (-not $trim) { continue }
+    if ($trim.StartsWith('- ')) { continue }
+    if ($trim.StartsWith('Grunnlag:')) { continue }
+    if ($trim.StartsWith('**Deduksjon:**')) { continue }
+    if ($trim.StartsWith('**Fakta:**')) { continue }
+
+    # Fjern enkel markdown-stil for ren tabelltekst.
+    $clean = $trim -replace '\*\*', ''
+    $parts += $clean
+
+    # Hold beskrivelsen kort i oversikten.
+    if (($parts -join ' ').Length -ge 260) { break }
   }
-  if ($status.Count -eq 0) { return 'Ikke oppgitt' }
-  return ($status -join ' ')
+
+  if ($parts.Count -eq 0) {
+    return 'Kort beskrivelse er ikke oppgitt.'
+  }
+
+  $text = ($parts -join ' ') -replace '\s+', ' '
+  if ($text.Length -gt 220) {
+    return ($text.Substring(0, 220).TrimEnd() + '...')
+  }
+  return $text
 }
 
-function Extract-Capabilities {
-  param([string[]]$Section)
-  $caps = @()
-  foreach ($line in $Section) {
-    $trim = $line.Trim()
-    if ($trim -match '^-\s+\*\*(.+?)\*\*') {
-      $caps += $Matches[1]
-    }
-  }
-  return $caps
+function To-Slug {
+  param([string]$Name)
+
+  $slug = $Name.ToLower()
+  $slug = $slug -replace 'æ', 'ae'
+  $slug = $slug -replace 'ø', 'o'
+  $slug = $slug -replace 'å', 'a'
+  $slug = $slug -replace '[^a-z0-9]+', '-'
+  return $slug.Trim('-')
 }
 
 $index = @(
@@ -92,71 +108,26 @@ $index = @(
   '',
   'Denne oversikten viser kun siste versjon per produkt.',
   '',
-  '| Produkt | Siste versjon | Status/livsfase | Produktside | Markdown |',
-  '|---|---|---|---|---|'
+  '| Produkt | Siste versjon | Kort beskrivelse | Markdown |',
+  '|---|---|---|---|'
 )
 
-$expected = @()
 foreach ($p in $latest) {
   $raw = Get-Content -Path $p.FullPath -Encoding utf8
-  $statusSection = Extract-Section -Lines $raw -Heading 'Status/Livsfase'
-  $capSection = Extract-Section -Lines $raw -Heading 'Kapabiliteter'
+  $descriptionSection = Extract-Section -Lines $raw -Heading 'Kort beskrivelse'
+  $shortDescription = Clean-ShortDescription -Section $descriptionSection
 
-  $status = Clean-Status -Section $statusSection
-  $caps = Extract-Capabilities -Section $capSection
-
-  $slugName = ($p.Name.ToLower() -replace '[^a-z0-9]+', '-').Trim('-')
-  $slug = ('{0:D2}-{1}' -f $p.Id, $slugName)
-  $expected += ($slug + '.md')
-
-  $statusOneLine = ($status -replace '\|', '/')
   $blobUrl = ('{0}/{1}' -f $repoBlobBase, $p.RelativePath)
-  $rawUrl = ('{0}/{1}' -f $repoRawBase, $p.RelativePath)
+  $safeDescription = ($shortDescription -replace '\|', '/')
 
-  $productLines = @(
-    '---',
-    ('title: "{0:D2} - {1}"' -f $p.Id, $p.Name),
-    '---',
-    '',
-    ('# {0:D2} - {1}' -f $p.Id, $p.Name),
-    '',
-    '## Kilde for siste versjon',
-    '',
-    ('- Fil: `{0}`' -f $p.RelativePath),
-    ('- Versjon: `v{0}`' -f $p.Version),
-    ('- Opprettet av: `{0}`' -f $p.Author),
-    '',
-    '## Status/livsfase',
-    '',
-    ('{0}' -f $status),
-    '',
-    '## Kapabilitetsmapping',
-    ''
-  )
-
-  if ($caps.Count -gt 0) {
-    foreach ($c in $caps) {
-      $productLines += ('- {0}' -f $c)
-    }
-  } else {
-    $productLines += '- Ikke oppgitt i kildedokumentet.'
-  }
-
-  $productLines += ''
-  $productLines += '## Lenke til kildedokument'
-  $productLines += ''
-  $productLines += ('- [Aapne markdown pa GitHub]({0})' -f $blobUrl)
-  $productLines += ('- [Aapne raw markdown]({0})' -f $rawUrl)
-
-  Set-Content -Path (Join-Path $outDir ($slug + '.md')) -Value $productLines -Encoding utf8
-
-  $index += ('| {0} | v{1} ({2}) | {3} | [{0}](/ressursoversikt/produkter/{4}/) | [Fil]({5}) |' -f $p.Name, $p.Version, $p.Author, $statusOneLine, $slug, $blobUrl)
+  $index += ('| {0} | v{1} ({2}) | {3} | [Fil]({4}) |' -f $p.Name, $p.Version, $p.Author, $safeDescription, $blobUrl)
 }
 
 Set-Content -Path (Join-Path $outDir '_index.md') -Value $index -Encoding utf8
 
+# Fjern individuelle produktsider - vi beholder kun samlet oversikt.
 Get-ChildItem $outDir -File |
-  Where-Object { $_.Name -ne '_index.md' -and $expected -notcontains $_.Name } |
+  Where-Object { $_.Name -ne '_index.md' } |
   Remove-Item -Force
 
-Write-Output ("Generated pages: {0}" -f $latest.Count)
+Write-Output ("Genererte oversikt for produkter: {0}" -f $latest.Count)

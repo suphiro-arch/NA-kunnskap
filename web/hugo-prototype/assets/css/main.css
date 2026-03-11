@@ -38,7 +38,7 @@ a {
 }
 
 .site-header__inner {
-  max-width: 1220px;
+  max-width: 1680px;
   margin: 0 auto;
   padding: 1.25rem 1rem 1.5rem;
 }
@@ -68,12 +68,16 @@ a {
 }
 
 .site-shell {
-  max-width: 1220px;
+  max-width: 1680px;
   margin: 1.25rem auto 2rem;
-  padding: 0 1rem;
+  padding: 0 1.25rem;
   display: grid;
-  grid-template-columns: minmax(200px, 280px) minmax(0, 1fr) minmax(180px, 260px);
+  grid-template-columns: clamp(220px, 18vw, 280px) minmax(0, 1fr) clamp(180px, 14vw, 240px);
   gap: 1rem;
+}
+
+.site-main {
+  min-width: 0;
 }
 
 .site-nav,
