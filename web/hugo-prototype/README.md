@@ -1,8 +1,8 @@
-# Hugo prototype
+﻿# Hugo prototype
 
 Dette er en isolert prototype for en framtidig nettside om nasjonal arkitektur.
 
-## Forelopig struktur
+## Foreløpig struktur
 
 - Forside
 - Kapabiliteter
@@ -13,9 +13,26 @@ Dette er en isolert prototype for en framtidig nettside om nasjonal arkitektur.
 
 - `index/capabilities.yaml`
 - `results/Produktbeskrivelser/`
-- `index/principles.md` brukes ikke forelopig fordi den ikke er ferdig utfylt
+- `index/principles.md` brukes ikke foreløpig fordi den ikke er ferdig utfylt
 
-## Lokal kjoring
+## Generering av innhold
+
+Produkter og kapabiliteter genereres fra repoets kildefiler:
+
+```bash
+python scripts/generate-capabilities.py
+powershell -ExecutionPolicy Bypass -File scripts/generate-products.ps1
+```
+
+Kapabilitetsscriptet bygger:
+- hovedkapabiliteter
+- delkapabiliteter
+- mapping fra kapabiliteter til siste versjon av relevante produktbeskrivelser
+
+Produktscriptet bygger:
+- samlet oversikt over siste versjon per produkt
+
+## Lokal kjøring
 
 ```bash
 hugo server
