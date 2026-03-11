@@ -1,4 +1,4 @@
----
+﻿---
 title: "06 - eInnsyn"
 ---
 
@@ -26,4 +26,5 @@ title: "06 - eInnsyn"
 
 ## Lenke til kildedokument
 
-- [Aapne kildedokument i repo](/results/Produktbeskrivelser/06-eInnsyn-produkt-canvas-v2-copilot.md)
+- [Aapne markdown pa GitHub](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/06-eInnsyn-produkt-canvas-v2-copilot.md)
+- [Aapne raw markdown](https://raw.githubusercontent.com/suphiro-arch/NA-kunnskap/main/results/Produktbeskrivelser/06-eInnsyn-produkt-canvas-v2-copilot.md)

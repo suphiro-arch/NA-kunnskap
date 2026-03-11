@@ -1,4 +1,4 @@
----
+﻿---
 title: "24 - Varslinger"
 ---
 
@@ -26,4 +26,5 @@ title: "24 - Varslinger"
 
 ## Lenke til kildedokument
 
-- [Aapne kildedokument i repo](/results/Produktbeskrivelser/24-Varslinger-produkt-canvas-v3-copilot.md)
+- [Aapne markdown pa GitHub](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/24-Varslinger-produkt-canvas-v3-copilot.md)
+- [Aapne raw markdown](https://raw.githubusercontent.com/suphiro-arch/NA-kunnskap/main/results/Produktbeskrivelser/24-Varslinger-produkt-canvas-v3-copilot.md)

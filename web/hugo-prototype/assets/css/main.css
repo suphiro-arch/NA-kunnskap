@@ -72,7 +72,7 @@ a {
   margin: 1.25rem auto 2rem;
   padding: 0 1rem;
   display: grid;
-  grid-template-columns: 240px minmax(0, 1fr) 220px;
+  grid-template-columns: minmax(200px, 280px) minmax(0, 1fr) minmax(180px, 260px);
   gap: 1rem;
 }
 
@@ -83,6 +83,7 @@ a {
   border: 1px solid var(--line-subtle);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-soft);
+  min-width: 0;
 }
 
 .site-nav,
@@ -124,6 +125,30 @@ a {
 .content-card__body {
   padding: 1rem 1.25rem 1.4rem;
   line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+.site-nav a,
+.site-toc a,
+.content-card__body td,
+.content-card__body th {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.content-card__body table {
+  width: 100%;
+  display: block;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+
+.content-card__body th,
+.content-card__body td {
+  padding: 0.45rem 0.55rem;
+  border-bottom: 1px solid var(--line-subtle);
+  text-align: left;
+  vertical-align: top;
 }
 
 .content-card__body h2 {

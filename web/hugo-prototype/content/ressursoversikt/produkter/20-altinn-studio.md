@@ -1,4 +1,4 @@
----
+﻿---
 title: "20 - Altinn-Studio"
 ---
 
@@ -27,4 +27,5 @@ title: "20 - Altinn-Studio"
 
 ## Lenke til kildedokument
 
-- [Aapne kildedokument i repo](/results/Produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md)
+- [Aapne markdown pa GitHub](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md)
+- [Aapne raw markdown](https://raw.githubusercontent.com/suphiro-arch/NA-kunnskap/main/results/Produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md)

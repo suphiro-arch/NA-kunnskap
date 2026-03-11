@@ -1,4 +1,4 @@
----
+﻿---
 title: "21 - Altinn-Portal"
 ---
 
@@ -26,4 +26,5 @@ title: "21 - Altinn-Portal"
 
 ## Lenke til kildedokument
 
-- [Aapne kildedokument i repo](/results/Produktbeskrivelser/21-Altinn-Portal-produkt-canvas-v3-codex.md)
+- [Aapne markdown pa GitHub](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/21-Altinn-Portal-produkt-canvas-v3-codex.md)
+- [Aapne raw markdown](https://raw.githubusercontent.com/suphiro-arch/NA-kunnskap/main/results/Produktbeskrivelser/21-Altinn-Portal-produkt-canvas-v3-codex.md)
