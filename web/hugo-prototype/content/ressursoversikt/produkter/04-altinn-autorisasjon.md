@@ -1,4 +1,4 @@
-﻿---
+---
 title: "04 - Altinn-autorisasjon"
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "09 - Digital-postkasse"
 ---
 
