@@ -42,8 +42,8 @@ Dette prinsippet er koblet til samarbeid, informasjonsarkitektur, standarder og 
 
 ## Videre til andre sider
 
-- Full oversikt over kapabilitetene finnes pa [Kapabiliteter](/kapabiliteter/).
-- Konkrete produkter og felleslosninger finnes pa [Ressursoversikt](/ressursoversikt/).
+- Full oversikt over kapabilitetene finnes pa [Kapabiliteter](../kapabiliteter/).
+- Konkrete produkter og felleslosninger finnes pa [Ressursoversikt](../ressursoversikt/).
 
 ## Videre arbeid
 

@@ -30,9 +30,9 @@ Maalet med denne testflaten er a gi en tydelig inngang for tre brukerbehov:
 
 ## Innhold i denne testen
 
-- [Kapabiliteter](/kapabiliteter/)
-- [Prinsipper](/prinsipper/)
-- [Ressursoversikt](/ressursoversikt/)
+- [Kapabiliteter](kapabiliteter/)
+- [Prinsipper](prinsipper/)
+- [Ressursoversikt](ressursoversikt/)
 
 ## Kildegrunnlag i denne prototypen
 
