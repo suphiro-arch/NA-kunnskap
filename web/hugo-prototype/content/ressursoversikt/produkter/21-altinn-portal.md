@@ -1,4 +1,4 @@
-﻿---
+---
 title: "21 - Altinn-Portal"
 ---
 
