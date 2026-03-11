@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Produkter"
 weight: 31
 description: "Samlet oversikt over siste publiserte versjon av hver produktbeskrivelse."
