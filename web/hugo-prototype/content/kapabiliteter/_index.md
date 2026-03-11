@@ -117,8 +117,8 @@ Delkapabiliteter:
 
 ## Kobling til prinsipper og produkter
 
-- Hvilke prinsipper som understotter kapabilitetene finnes pa [Prinsipper](/prinsipper/).
-- Hvilke konkrete produkter som bidrar til kapabilitetene finnes pa [Ressursoversikt](/ressursoversikt/).
+- Hvilke prinsipper som understotter kapabilitetene finnes pa [Prinsipper](../prinsipper/).
+- Hvilke konkrete produkter som bidrar til kapabilitetene finnes pa [Ressursoversikt](../ressursoversikt/).
 
 ## Videre arbeid
 

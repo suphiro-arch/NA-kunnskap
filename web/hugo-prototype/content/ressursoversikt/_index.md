@@ -17,7 +17,7 @@ I denne prototypen bruker vi kun **siste versjon per produkt**.
 
 Alle produkter er samlet pa egne undersider:
 
-- [Gaa til produktsamling](/ressursoversikt/produkter/)
+- [Gaa til produktsamling](produkter/)
 
 Hver produktside viser:
 
@@ -35,4 +35,4 @@ Hver produktside viser:
 
 - Legge til kapabilitetsmapping per produkt pa hver produktside.
 - Legge til status/livsfase som egen metadata-kolonne.
-- Lage dypkoblinger mellom produkter og relevante seksjoner pa [Kapabiliteter](/kapabiliteter/) og [Prinsipper](/prinsipper/).
+- Lage dypkoblinger mellom produkter og relevante seksjoner pa [Kapabiliteter](../kapabiliteter/) og [Prinsipper](../prinsipper/).
