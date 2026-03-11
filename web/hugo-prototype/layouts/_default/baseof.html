@@ -11,7 +11,7 @@
     <header class="site-header">
       <div class="site-header__inner">
         <p class="site-header__kicker">NA-kunnskap</p>
-        <h1><a href="{{ "/" | relURL }}">{{ .Site.Title }}</a></h1>
+        <h1><a href="{{ "" | relURL }}">{{ .Site.Title }}</a></h1>
         <p class="site-header__lead">{{ .Site.Params.siteDescription }}</p>
       </div>
     </header>
@@ -20,7 +20,7 @@
       <aside class="site-nav">
         <h2>Innhold</h2>
         <ul>
-          <li><a href="{{ "/" | relURL }}">Forside</a></li>
+          <li><a href="{{ "" | relURL }}">Forside</a></li>
           {{ range .Site.Sections.ByWeight }}
           <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
           {{ end }}
