@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="nb">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+    {{ $styles := resources.Get "css/main.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <p class="site-header__kicker">NA-kunnskap</p>
+        <h1><a href="{{ "/" | relURL }}">{{ .Site.Title }}</a></h1>
+        <p class="site-header__lead">{{ .Site.Params.siteDescription }}</p>
+      </div>
+    </header>
+
+    <div class="site-shell">
+      <aside class="site-nav">
+        <h2>Innhold</h2>
+        <ul>
+          <li><a href="{{ "/" | relURL }}">Forside</a></li>
+          {{ range .Site.Sections.ByWeight }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+          {{ end }}
+        </ul>
+      </aside>
+
+      <main class="site-main">
+        {{ block "main" . }}{{ end }}
+      </main>
+
+      <aside class="site-toc">
+        <h2>Pa denne siden</h2>
+        {{ .TableOfContents }}
+      </aside>
+    </div>
+  </body>
+</html>
