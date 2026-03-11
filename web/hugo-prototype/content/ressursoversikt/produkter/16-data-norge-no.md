@@ -1,4 +1,4 @@
----
+﻿---
 title: "16 - data-norge-no"
 ---
 
@@ -28,4 +28,5 @@ title: "16 - data-norge-no"
 
 ## Lenke til kildedokument
 
-- [Aapne kildedokument i repo](/results/Produktbeskrivelser/16-data-norge-no-produkt-canvas-v4-codex.md)
+- [Aapne markdown pa GitHub](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/16-data-norge-no-produkt-canvas-v4-codex.md)
+- [Aapne raw markdown](https://raw.githubusercontent.com/suphiro-arch/NA-kunnskap/main/results/Produktbeskrivelser/16-data-norge-no-produkt-canvas-v4-codex.md)

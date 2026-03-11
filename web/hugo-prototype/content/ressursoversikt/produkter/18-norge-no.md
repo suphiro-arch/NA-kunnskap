@@ -1,4 +1,4 @@
----
+﻿---
 title: "18 - Norge-no"
 ---
 
@@ -24,4 +24,5 @@ title: "18 - Norge-no"
 
 ## Lenke til kildedokument
 
-- [Aapne kildedokument i repo](/results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md)
+- [Aapne markdown pa GitHub](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md)
+- [Aapne raw markdown](https://raw.githubusercontent.com/suphiro-arch/NA-kunnskap/main/results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md)

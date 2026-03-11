@@ -1,4 +1,4 @@
----
+﻿---
 title: "17 - data-altinn-no"
 ---
 
@@ -28,4 +28,5 @@ title: "17 - data-altinn-no"
 
 ## Lenke til kildedokument
 
-- [Aapne kildedokument i repo](/results/Produktbeskrivelser/17-data-altinn-no-produkt-canvas-v3-codex.md)
+- [Aapne markdown pa GitHub](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/17-data-altinn-no-produkt-canvas-v3-codex.md)
+- [Aapne raw markdown](https://raw.githubusercontent.com/suphiro-arch/NA-kunnskap/main/results/Produktbeskrivelser/17-data-altinn-no-produkt-canvas-v3-codex.md)

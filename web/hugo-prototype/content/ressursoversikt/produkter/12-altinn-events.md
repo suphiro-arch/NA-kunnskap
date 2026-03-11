@@ -1,4 +1,4 @@
----
+﻿---
 title: "12 - Altinn-events"
 ---
 
@@ -26,4 +26,5 @@ title: "12 - Altinn-events"
 
 ## Lenke til kildedokument
 
-- [Aapne kildedokument i repo](/results/Produktbeskrivelser/12-Altinn-events-produkt-canvas-v2-copilot.md)
+- [Aapne markdown pa GitHub](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/12-Altinn-events-produkt-canvas-v2-copilot.md)
+- [Aapne raw markdown](https://raw.githubusercontent.com/suphiro-arch/NA-kunnskap/main/results/Produktbeskrivelser/12-Altinn-events-produkt-canvas-v2-copilot.md)

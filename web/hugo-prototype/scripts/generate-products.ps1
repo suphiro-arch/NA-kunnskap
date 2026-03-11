@@ -2,6 +2,8 @@ $ErrorActionPreference = 'Stop'
 
 $srcDir = 'results/Produktbeskrivelser'
 $outDir = 'web/hugo-prototype/content/ressursoversikt/produkter'
+$repoBlobBase = 'https://github.com/suphiro-arch/NA-kunnskap/blob/main'
+$repoRawBase = 'https://raw.githubusercontent.com/suphiro-arch/NA-kunnskap/main'
 New-Item -ItemType Directory -Force -Path $outDir | Out-Null
 
 $pattern = '^(?<id>\d+)-(?<name>.+)-produkt-canvas-v(?<ver>\d+)-(?<author>[^.]+)\.md$'
@@ -90,8 +92,8 @@ $index = @(
   '',
   'Denne oversikten viser kun siste versjon per produkt.',
   '',
-  '| Produkt | Siste versjon | Status/livsfase | Produktside |',
-  '|---|---|---|---|'
+  '| Produkt | Siste versjon | Status/livsfase | Produktside | Markdown |',
+  '|---|---|---|---|---|'
 )
 
 $expected = @()
@@ -108,6 +110,8 @@ foreach ($p in $latest) {
   $expected += ($slug + '.md')
 
   $statusOneLine = ($status -replace '\|', '/')
+  $blobUrl = ('{0}/{1}' -f $repoBlobBase, $p.RelativePath)
+  $rawUrl = ('{0}/{1}' -f $repoRawBase, $p.RelativePath)
 
   $productLines = @(
     '---',
@@ -141,11 +145,12 @@ foreach ($p in $latest) {
   $productLines += ''
   $productLines += '## Lenke til kildedokument'
   $productLines += ''
-  $productLines += ('- [Aapne kildedokument i repo](/{0})' -f $p.RelativePath)
+  $productLines += ('- [Aapne markdown pa GitHub]({0})' -f $blobUrl)
+  $productLines += ('- [Aapne raw markdown]({0})' -f $rawUrl)
 
   Set-Content -Path (Join-Path $outDir ($slug + '.md')) -Value $productLines -Encoding utf8
 
-  $index += ('| {0} | v{1} ({2}) | {3} | [{0}](/ressursoversikt/produkter/{4}/) |' -f $p.Name, $p.Version, $p.Author, $statusOneLine, $slug)
+  $index += ('| {0} | v{1} ({2}) | {3} | [{0}](/ressursoversikt/produkter/{4}/) | [Fil]({5}) |' -f $p.Name, $p.Version, $p.Author, $statusOneLine, $slug, $blobUrl)
 }
 
 Set-Content -Path (Join-Path $outDir '_index.md') -Value $index -Encoding utf8

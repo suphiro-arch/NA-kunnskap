@@ -1,4 +1,4 @@
----
+﻿---
 title: "04 - Altinn-autorisasjon"
 ---
 
@@ -29,4 +29,5 @@ title: "04 - Altinn-autorisasjon"
 
 ## Lenke til kildedokument
 
-- [Aapne kildedokument i repo](/results/Produktbeskrivelser/04-Altinn-autorisasjon-produkt-canvas-v2-copilot.md)
+- [Aapne markdown pa GitHub](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/04-Altinn-autorisasjon-produkt-canvas-v2-copilot.md)
+- [Aapne raw markdown](https://raw.githubusercontent.com/suphiro-arch/NA-kunnskap/main/results/Produktbeskrivelser/04-Altinn-autorisasjon-produkt-canvas-v2-copilot.md)

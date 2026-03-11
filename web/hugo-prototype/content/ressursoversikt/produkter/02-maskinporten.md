@@ -1,4 +1,4 @@
----
+﻿---
 title: "02 - Maskinporten"
 ---
 
@@ -28,4 +28,5 @@ title: "02 - Maskinporten"
 
 ## Lenke til kildedokument
 
-- [Aapne kildedokument i repo](/results/Produktbeskrivelser/02-Maskinporten-produkt-canvas-v2-copilot.md)
+- [Aapne markdown pa GitHub](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/02-Maskinporten-produkt-canvas-v2-copilot.md)
+- [Aapne raw markdown](https://raw.githubusercontent.com/suphiro-arch/NA-kunnskap/main/results/Produktbeskrivelser/02-Maskinporten-produkt-canvas-v2-copilot.md)
