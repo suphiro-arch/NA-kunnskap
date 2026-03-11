@@ -9,20 +9,17 @@ To måter å automatisere push til GitHub:
 
 ---
 
-## Alternativ 1: GitHub Actions (enklest – ingen setup nødvendig!)
+## Alternativ 1: GitHub Actions (allerede i bruk i repoet)
 
 **Status:** ✅ Allerede installert
 
-De GitHub Actions workflow vil:
+Denne workflowen vil:
 - Trigges når filer endres i `results/Produktbeskrivelser/`
 - Automatisk committe og pushe videre
-- Kreves: GitHub Personal Access Token (hvis private repo)
+- Bruke innebygd `GITHUB_TOKEN` i GitHub Actions
 
 **Aktivering:**
-1. Gå til GitHub → Settings → Developer settings → Personal access tokens
-2. Lag en token med `repo` og `workflow` tillatelser
-3. Gå til repo → Settings → Secrets → New repository secret
-4. Legg inn som `GITHUB_TOKEN` eller bare bruk default GitHub token (gjøres automatisk for actions)
+Ingen ekstra aktivering er normalt nødvendig. Workflowen ligger i repoet og bruker standardtoken.
 
 **Hvordan det fungerer:**
 ```
@@ -99,14 +96,27 @@ Slett filen eller disable workflow i GitHub
 
 **Bruk post-commit hook (Alternativ 2)** fordi:
 - ✅ Enklest å sette opp
-- ✅ Ingen credentials nødvendig
+- ✅ Ingen innloggingstoken nødvendig
 - ✅ Fungerer offline (vel, ikke push-delen)
-- ✅ Gir deg immediate feedback lokalt
+- ✅ Gir rask tilbakemelding lokalt
 
 **GitHub Actions kan brukes som backup** for:
-- Automatisk synkronisering av `results/` til `docs/`
-- Running lint/validation på filer
-- GitHub Pages deployment
+- Automatisk synkronisering av filer (f.eks. `sources/links.md` → `docs/index.md`)
+- Lint/validering ved behov
+
+---
+
+## GitHub Pages (publisering)
+
+Dette repoet bruker GitHub Pages via repository-innstillinger, ikke en egen Pages-workflow i `.github/workflows/`.
+
+**Anbefalt oppsett:**
+1. Gå til repo → `Settings` → `Pages`
+2. `Source`: `Deploy from a branch`
+3. `Branch`: `main`
+4. `Folder`: `/docs`
+
+Når dette er satt, publiseres innholdet i `docs/` automatisk av GitHub Pages.
 
 ---
 
@@ -116,7 +126,7 @@ Slett filen eller disable workflow i GitHub
 - **Løsning:** Sjekk at filen er kjørbar (`chmod +x .git/hooks/post-commit` på Mac/Linux)
 - **Løsning Mac/Linux:** Git hooks må være `.sh` eller ingen extension; ikke `.bat`
 
-**Problem:** Post-commit hook feiler silencully
+**Problem:** Post-commit hook feiler uten feilmelding
 - **Løsning:** Legg til `set -x` i toppen av bash-versjonen for debug-output
 
 **Problem:** Infinite loop (push trigges endringer som trigges push)
