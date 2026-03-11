@@ -5,7 +5,7 @@ weight: 31
 
 # Produkter (siste versjon)
 
-Denne oversikten viser siste versjon per produkt basert pÃ¥ hÃ¸yeste versjonsnummer.
+Denne oversikten viser siste versjon per produkt basert på høyeste versjonsnummer.
 
 | Produkt | Siste versjon | Kort beskrivelse | Markdown |
 |---|---|---|---|
