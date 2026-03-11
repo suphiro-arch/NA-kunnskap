@@ -1,4 +1,4 @@
-{{ define "main" }}
+﻿{{ define "main" }}
 {{ $pages := .Pages.ByWeight }}
 <article class="content-card">
   <header class="content-card__header">
@@ -29,10 +29,14 @@
     <article class="section-card">
       <p class="section-card__meta">{{ if .IsSection }}Seksjon{{ else }}Side{{ end }}</p>
       <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      {{ with .Description }}
+      <p>{{ . }}</p>
+      {{ else }}
       {{ with .Summary }}
       <p>{{ . | plainify }}</p>
       {{ else }}
       <p>{{ .LinkTitle }} er en del av dokumentasjonen.</p>
+      {{ end }}
       {{ end }}
       <a class="section-card__link" href="{{ .RelPermalink }}">Åpne side</a>
     </article>

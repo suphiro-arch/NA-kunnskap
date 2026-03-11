@@ -1,23 +1,35 @@
----
+﻿---
 title: "Prinsipper"
 weight: 20
+description: "Arkitekturprinsipper som gir retning for samhandling, gjenbruk, tillit og styring i nasjonal arkitektur."
 ---
 
 # Prinsipper
 
-Prinsippene gir faglige foringer for hvordan nasjonal arkitektur bor utvikles og forvaltes.
+Prinsippene gir faglige føringer for hvordan nasjonal arkitektur bør utvikles og forvaltes. De skal brukes når man vurderer løsninger, prioriterer tiltak og avklarer hvilke valg som gir mest verdi på tvers av virksomheter.
+
+## Hvordan bruke prinsippene
+
+Prinsippene er ikke bare formuleringer for strategi og styringsdokumenter. De er ment å brukes aktivt når man:
+
+- vurderer nye fellesløsninger eller endringer i eksisterende løsninger
+- prioriterer mellom alternative tiltak
+- avklarer krav til samhandling, gjenbruk og tillit
+- begrunner arkitekturvalg på tvers av team og virksomheter
 
 ## Arkitekturprinsipper
 
-- **P1: Ta utgangspunkt i brukernes behov**
-- **P2: Ta arkitektur-beslutninger pa rett niva**
-- **P3: Bidra til digitaliseringsvennlige regelverk**
-- **P4: Del og gjenbruk data**
-- **P5: Del og gjenbruk losninger**
-- **P6: Lag digitale losninger som stotter samhandling**
-- **P7: Sorg for tillit til oppgavelosningen**
+| Prinsipp | Hva det betyr i praksis |
+|---|---|
+| **P1: Ta utgangspunkt i brukernes behov** | Løsninger bør formes ut fra reelle behov hos innbyggere, virksomheter og forvaltning, ikke ut fra organisatoriske siloer. |
+| **P2: Ta arkitekturbeslutninger på rett nivå** | Beslutninger bør tas så nær problemet som mulig, men løftes når konsekvensene går på tvers av flere aktører. |
+| **P3: Bidra til digitaliseringsvennlige regelverk** | Regelverk bør støtte digital samhandling, automatisering og sammenhengende tjenester. |
+| **P4: Del og gjenbruk data** | Data bør kunne beskrives, finnes og brukes på tvers når det er hjemmel og behov for det. |
+| **P5: Del og gjenbruk løsninger** | Felles behov bør dekkes med gjenbrukbare byggeklosser fremfor parallelle særutviklede løsninger. |
+| **P6: Lag digitale løsninger som støtter samhandling** | Tjenester bør bygges slik at de kan inngå i større sammenhenger med andre tjenester og aktører. |
+| **P7: Sørg for tillit til oppgaveløsningen** | Sikkerhet, sporbarhet og dokumenterbarhet må være integrert i løsningene. |
 
-## Prinsipp til kapabilitet (utvalg)
+## Sammenheng mellom prinsipper og kapabiliteter
 
 | Prinsipp | Sentrale kapabiliteter |
 |---|---|
@@ -29,22 +41,18 @@ Prinsippene gir faglige foringer for hvordan nasjonal arkitektur bor utvikles og
 | P6 | Samarbeid, Informasjonsforvaltning, Standardisering, Veiledning |
 | P7 | Tillit, Informasjonssikkerhet, Juridisk samhandling |
 
-## Eksempler pa begrunnelser fra modellen
+## Eksempler på hvordan prinsippene brukes
 
 ### P4: Del og gjenbruk data
-Dette prinsippet er koblet til kapabilitetene datautveksling og integrasjon, datadrevet og grunndata. Begrunnelsen i modellen er at deling og gjenbruk av data er grunnlaget for API-er, meldinger, sammenstilling og innsikt.
+Dette prinsippet er særlig relevant når virksomheter skal beskrive, gjøre tilgjengelig og bruke data på tvers. Det peker direkte mot kapabiliteter for datautveksling, datakilder og informasjonsforvaltning.
 
-### P5: Del og gjenbruk losninger
-Dette prinsippet er koblet til tjenesteutvikling og sluttbrukertjenester. Begrunnelsen er at gjenbrukbare byggeklosser reduserer duplisering og gjor det lettere a levere ende-til-ende-tjenester.
+### P5: Del og gjenbruk løsninger
+Dette prinsippet er sentralt når man vurderer om et behov bør dekkes av en fellesløsning, en gjenbrukbar komponent eller en lokal spesialtilpasning.
 
-### P6: Lag digitale losninger som stotter samhandling
-Dette prinsippet er koblet til samarbeid, informasjonsarkitektur, standarder og veiledning. Felles begreper, standarder og arbeidsformer er nodvendige for faktisk samhandling.
+### P6: Lag digitale løsninger som støtter samhandling
+Dette prinsippet er viktig når en løsning skal inngå i en større tjenestekjede og må fungere sammen med andre produkter, prosesser og dataflyter.
 
-## Videre til andre sider
+## Videre navigasjon
 
-- Full oversikt over kapabilitetene finnes pa [Kapabiliteter](../kapabiliteter/).
-- Konkrete produkter og felleslosninger finnes pa [Ressursoversikt](../ressursoversikt/).
-
-## Videre arbeid
-
-Neste steg er a vise alle prinsipp-kapabilitet-koblinger fra modellen i en komplett tabell, inkludert begrunnelser.
+- Gå til [Kapabiliteter](../kapabiliteter/) for å se hvilke evner prinsippene skal støtte.
+- Gå til [Ressursoversikt](../ressursoversikt/) for å finne produkter og fellesløsninger som understøtter prinsippene i praksis.

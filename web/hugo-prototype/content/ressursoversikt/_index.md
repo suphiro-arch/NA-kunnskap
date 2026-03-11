@@ -1,38 +1,46 @@
----
+﻿---
 title: "Ressursoversikt"
 weight: 30
+description: "Inngang til produktbeskrivelser og andre felles ressurser som understøtter kapabilitetene i modellen."
 ---
 
 # Ressursoversikt
 
-Ressursoversikten samler produktbeskrivelser for nasjonale fellesløsninger og relaterte ressurser.
+Ressursoversikten er inngangen til de konkrete produktene og fellesløsningene som brukes for å realisere kapabiliteter i praksis. Her går dokumentasjonen fra modell og føringer til faktiske virkemidler.
 
-## Hva skal denne siden gi?
+## Hva finner du her?
 
-Denne siden er inngangen til produktoversiktene i `results/Produktbeskrivelser/` og hjelper brukeren å se hvilke produkter som støtter hvilke kapabiliteter.
+Denne delen samler produktbeskrivelser for nasjonale fellesløsninger og relaterte ressurser. Målet er å gjøre det enkelt å finne:
 
-I denne prototypen bruker vi kun **siste versjon per produkt**.
+- hvilke produkter som finnes
+- hva de brukes til
+- hvilken versjon av beskrivelsen som er siste gjeldende versjon
+
+## Hvordan lese ressursoversikten
+
+Start i produktsamlingen når du trenger et konkret produkt eller vil orientere deg i porteføljen. Hver rad viser:
+
+- produktnavn
+- siste publiserte versjon
+- en kort beskrivelse av produktets rolle
+- direkte lenke til markdownfilen i GitHub
 
 ## Produkter
 
-Alle produkter er samlet i én tabell:
-
 - [Gå til produktsamling](produkter/)
 
-Hver rad viser:
+## Avgrensning i denne prototypen
 
-- produktnavn
-- siste versjon og forfatter
-- kort beskrivelse
-- direkte lenke til markdownfil i GitHub
+I denne prototypen viser nettstedet bare siste versjon per produkt.
 
-## Regel for versjonsvalg
+- Høyeste versjonsnummer regnes som gjeldende versjon.
+- Eldre versjoner beholdes i repoet som historikk og arbeidsgrunnlag.
+- Oversikten er laget for rask navigasjon, ikke som komplett forvaltningshistorikk.
 
-- Vi velger alltid høyeste versjonsnummer per produktnummer.
-- Eldre versjoner beholdes i repoet, men brukes ikke i nettstedets ressursoversikt.
+## Videre utvikling
 
-## Forslag til neste iterasjon
+Naturlige neste steg for denne delen er:
 
-- Legge til kapabilitetsmapping som egen kolonne i tabellen.
-- Legge til filtrering på kapabilitet eller produktområde.
-- Lage dypkoblinger mellom produkter og relevante seksjoner på [Kapabiliteter](../kapabiliteter/) og [Prinsipper](../prinsipper/).
+- å vise hvilke kapabiliteter hvert produkt støtter
+- å legge til filtrering eller gruppering per produktområde
+- å koble produktene tydeligere til relevante kapabiliteter og prinsipper

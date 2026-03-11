@@ -1,4 +1,4 @@
-$ErrorActionPreference = 'Stop'
+﻿$ErrorActionPreference = 'Stop'
 
 $srcDir = 'results/Produktbeskrivelser'
 $outDir = 'web/hugo-prototype/content/ressursoversikt/produkter'
@@ -102,8 +102,6 @@ function Clean-ShortDescription {
 
     $clean = $trim -replace '\*\*', ''
     $parts += $clean
-
-    if (($parts -join ' ').Length -ge 260) { break }
   }
 
   if ($parts.Count -eq 0) {
@@ -111,9 +109,6 @@ function Clean-ShortDescription {
   }
 
   $text = ($parts -join ' ') -replace '\s+', ' '
-  if ($text.Length -gt 220) {
-    return ($text.Substring(0, 220).TrimEnd() + '...')
-  }
   return $text
 }
 
@@ -138,11 +133,14 @@ $index = @(
   '---',
   'title: "Produkter"',
   'weight: 31',
+  'description: "Samlet oversikt over siste publiserte versjon av hver produktbeskrivelse."',
   '---',
   '',
   '# Produkter (siste versjon)',
   '',
   'Denne oversikten viser siste versjon per produkt basert på høyeste versjonsnummer.',
+  '',
+  'Bruk siden for å finne riktig produktbeskrivelse raskt, og gå derfra videre til detaljene i markdownfilen på GitHub.',
   '',
   '| Produkt | Siste versjon | Kort beskrivelse | Markdown |',
   '|---|---|---|---|'
