@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Produkter"
 weight: 31
 ---
