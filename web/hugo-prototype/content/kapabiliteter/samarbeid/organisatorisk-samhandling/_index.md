@@ -1,0 +1,36 @@
+---
+title: "Organisatorisk samhandling"
+weight: 1
+description: "Evnen til å effektivisere forretningsprosesser og verdikjeder på tvers av organisatoriske grenser."
+cardMeta: "6 produkter"
+---
+
+# Organisatorisk samhandling
+
+Evnen til å effektivisere forretningsprosesser og verdikjeder på tvers av organisatoriske grenser.
+
+## Hører til
+
+Denne delkapabiliteten er en del av [Samarbeid](../).
+
+## Relevante prinsipper
+
+| Prinsipp | Begrunnelse |
+| --- | --- |
+| P2: Ta arkitektur-beslutninger på rett nivå | Tjenesteforvaltning og felles styringsmodeller sikrer forankring av felles beslutninger i økosystemet. |
+| P6: Lag digitale løsninger som støtter samhandling | Samarbeidsarenaer og nettverk fasiliterer den organisatoriske evnen til å jobbe sammen på tvers. |
+
+## Relaterte produkter
+
+| Produkt | Versjon | Hvorfor relevant | Fil |
+| --- | --- | --- | --- |
+| eFormidling | v2 (copilot) | Samhändig kommunikasion mellom virksomheter | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md) |
+| Altinn formidling (Broker) | v2 (copilot) | Enabler samhandling mellom organisasjoner | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/08-Altinn-formidling-produkt-canvas-v2-copilot.md) |
+| ELMA (Elektronisk mottakeradresseregister) | v2 (copilot) | Enabler grensekryssende dokumentutveksling | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/10-ELMA-produkt-canvas-v2-copilot.md) |
+| Peppol eDelivery | v2 (copilot) | Enabler grensekryssende og tversektor samhandling | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/11-Peppol-eDelivery-produkt-canvas-v2-copilot.md) |
+| Begrepskatalog | v2 (copilot) | Enabler semantisk samhandling på tvers | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/14-Begrepskatalog-produkt-canvas-v2-copilot.md) |
+| Norge.no | v2 (copilot) | Tverretatlig samhandling gjennom veiviserfunksjonen | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md) |
+
+## Videre navigasjon
+
+Andre delkapabiliteter i samme hovedkapabilitet: [Samarbeidsarenaer og nettverk](../samarbeidsarenaer-og-nettverk/), [Tjenesteforvaltning](../tjenesteforvaltning/).

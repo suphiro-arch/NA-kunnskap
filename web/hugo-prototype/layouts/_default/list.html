@@ -1,5 +1,6 @@
 ﻿{{ define "main" }}
 {{ $pages := .Pages.ByWeight }}
+{{ $isCapabilitySection := eq .Section "kapabiliteter" }}
 <article class="content-card">
   <header class="content-card__header">
     {{ if .IsHome }}
@@ -24,10 +25,10 @@
     <p>{{ if .IsHome }}Innganger til hoveddelene av dokumentasjonen.{{ else }}Undersider og innhold som hører til denne seksjonen.{{ end }}</p>
   </div>
 
-  <div class="section-grid">
+  <div class="section-grid{{ if $isCapabilitySection }} section-grid--three{{ end }}">
     {{ range $pages }}
     <article class="section-card">
-      <p class="section-card__meta">{{ if .IsSection }}Seksjon{{ else }}Side{{ end }}</p>
+      <p class="section-card__meta">{{ with .Params.cardMeta }}{{ . }}{{ else }}{{ if .IsSection }}Seksjon{{ else }}Side{{ end }}{{ end }}</p>
       <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
       {{ with .Description }}
       <p>{{ . }}</p>

@@ -129,6 +129,100 @@ function Extract-DisplayName {
   return (($Fallback -replace '-', ' ').Trim())
 }
 
+function Convert-ToSlug {
+  param([string]$Value)
+
+  $slug = $Value.Trim().ToLowerInvariant()
+  $slug = $slug.Replace('æ', 'ae').Replace('ø', 'o').Replace('å', 'a')
+  $slug = $slug -replace '[^a-z0-9]+', '-'
+  return $slug.Trim('-')
+}
+
+function Resolve-CapabilitySlug {
+  param([string]$Value)
+
+  $slug = Convert-ToSlug $Value
+  $aliases = @{
+    'datautveksling' = 'datautveksling-og-integrasjon'
+    'samhandling' = 'samarbeid'
+    'informasjonsstyring' = 'informasjonsforvaltning'
+    'informasjonssikkerheit' = 'informasjonssikkerhet'
+  }
+
+  if ($aliases.ContainsKey($slug)) {
+    return $aliases[$slug]
+  }
+
+  return $slug
+}
+
+function Extract-CapabilityLinks {
+  param([string[]]$Section)
+
+  $links = New-Object System.Collections.Generic.List[string]
+  $seen = @{}
+  $capabilityRoot = 'web/hugo-prototype/content/kapabiliteter'
+
+  foreach ($line in $Section) {
+    $trim = $line.Trim()
+    if ($trim -notmatch '^- ') { continue }
+    if ($trim -notmatch '^\-\s+\*\*(.+?)\*\*') { continue }
+
+    $label = $Matches[1].Trim()
+    $parts = ($label -split ':', 2) | ForEach-Object { $_.Trim() }
+
+    if ($parts.Count -eq 2 -and $parts[1]) {
+      $mainSlug = Resolve-CapabilitySlug $parts[0]
+      $subSlug = Convert-ToSlug $parts[1]
+      $targetDir = Join-Path $capabilityRoot (Join-Path $mainSlug $subSlug)
+      if (Test-Path $targetDir) {
+        $key = "$mainSlug/$subSlug"
+        if (-not $seen.ContainsKey($key)) {
+          $links.Add(("[{0}](../../kapabiliteter/{1}/{2}/)" -f $label, $mainSlug, $subSlug))
+          $seen[$key] = $true
+        }
+        continue
+      }
+    }
+
+    $mainSlugOnly = Resolve-CapabilitySlug $parts[0]
+    $mainDir = Join-Path $capabilityRoot $mainSlugOnly
+    if (Test-Path $mainDir) {
+      $key = $mainSlugOnly
+      if (-not $seen.ContainsKey($key)) {
+        $links.Add(("[{0}](../../kapabiliteter/{1}/)" -f $parts[0], $mainSlugOnly))
+        $seen[$key] = $true
+      }
+      continue
+    }
+
+    $subSlugOnly = Convert-ToSlug $parts[0]
+    $subMatch = Get-ChildItem -Directory -Recurse $capabilityRoot |
+      Where-Object { $_.Name -eq $subSlugOnly } |
+      Select-Object -First 1
+    if ($subMatch) {
+      $relative = $subMatch.FullName.Substring((Resolve-Path $capabilityRoot).Path.Length).TrimStart('\') -replace '\\', '/'
+      $key = $relative
+      if (-not $seen.ContainsKey($key)) {
+        $links.Add(("[{0}](../../kapabiliteter/{1}/)" -f $parts[0], $relative))
+        $seen[$key] = $true
+      }
+      continue
+    }
+
+    if (-not $seen.ContainsKey($label)) {
+      $links.Add($label)
+      $seen[$label] = $true
+    }
+  }
+
+  if ($links.Count -eq 0) {
+    return 'Ikke koblet til kapabilitetssider ennå.'
+  }
+
+  return ($links -join '<br>')
+}
+
 $index = @(
   '---',
   'title: "Produkter"',
@@ -140,24 +234,26 @@ $index = @(
   '',
   'Denne oversikten viser siste versjon per produkt basert på høyeste versjonsnummer.',
   '',
-  'Bruk siden for å finne riktig produktbeskrivelse raskt, og gå derfra videre til detaljene i markdownfilen på GitHub.',
+  'Bruk siden for å finne riktig produktbeskrivelse raskt, og gå derfra videre til detaljene i markdownfilen på GitHub eller via relevante kapabilitetssider.',
   '',
-  '| Produkt | Siste versjon | Kort beskrivelse | Markdown |',
-  '|---|---|---|---|'
+  '| Produkt | Siste versjon | Kort beskrivelse | Markdown | Kapabiliteter |',
+  '|---|---|---|---|---|'
 )
 
 foreach ($p in $latest) {
   $raw = Get-Content -Path $p.FullPath -Encoding utf8
   $displayName = Extract-DisplayName -Lines $raw -Fallback $p.Name
   $descriptionSection = Extract-Section -Lines $raw -Heading 'Kort beskrivelse'
+  $capabilitySection = Extract-Section -Lines $raw -Heading 'Kapabiliteter'
   $shortDescription = Clean-ShortDescription -Section $descriptionSection
+  $capabilityLinks = Extract-CapabilityLinks -Section $capabilitySection
 
   $blobUrl = ('{0}/{1}' -f $repoBlobBase, $p.RelativePath)
   $safeDescription = ($shortDescription -replace '\|', '/')
   $versionLabel = if ($p.Version -gt 0) { "v$($p.Version)" } else { 'legacy' }
   $authorLabel = if ($p.Author) { $p.Author } else { 'ukjent' }
 
-  $index += ('| {0} | {1} ({2}) | {3} | [Fil]({4}) |' -f $displayName, $versionLabel, $authorLabel, $safeDescription, $blobUrl)
+  $index += ('| {0} | {1} ({2}) | {3} | [Fil]({4}) | {5} |' -f $displayName, $versionLabel, $authorLabel, $safeDescription, $blobUrl, $capabilityLinks)
 }
 
 Set-Content -Path (Join-Path $outDir '_index.md') -Value $index -Encoding utf8
