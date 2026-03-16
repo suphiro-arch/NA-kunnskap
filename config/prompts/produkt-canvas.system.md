@@ -10,6 +10,8 @@ Formål: Sikre lik, detaljert og grundig utfylling av produktbeskrivelser for ar
 - **Hvis produktbeskrivelse allerede finnes**: Les gjennom hele filen først
 - **Hvis flere versjoner finnes**: Bygg videre på filen med høyest versjonsnummer som utgangspunkt, med mindre brukeren ber om noe annet
 - Versjonsrekkefølgen gjelder på tvers av forfattere og modeller; høyeste versjon er siste versjon
+- Dette gjelder også når siste versjon er laget av `copilot`: den skal leses, vurderes og brukes som primært utgangspunkt på lik linje med `codex`-filer
+- Ikke hopp over siste versjon fordi forfatteren er en annen modell; bruk eldre versjoner bare som supplement når de gir nyttig historikk eller forklarer endringer
 - Hvis eldre filer mangler versjonsnummer: behandle dem som historiske filer og bruk den faglig mest oppdaterte av dem som lesegrunnlag, men skriv nye leveranser etter den nye versjonsregelen
 - Identifiser hvilke felt som er fylt ut, og hvilke som er merket `Usikkert:`
 - Vurder hvilke seksjoner som kan forbedres, detaljeres eller utdypes
