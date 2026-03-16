@@ -11,11 +11,13 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
   - `results/` brukes for leveranser og innhold som skal kunne gjenbrukes direkte.
   - `briefs/` brukes for arbeidsstyring, handover, beslutninger og mellomdokumenter.
   - `briefs/arbeidsstyring-og-handover/` brukes for større arbeidsnotater, MVP-skisser, handover-dokumenter og lignende som ikke er sluttleveranser.
+- Les `README.md` i aktuell mappe når oppgaven berører den delen av repoet, slik at lokal struktur og arbeidsmåte følges.
 
 ## Produktbeskrivelser
 - Bruk alltid høyeste eksisterende versjonsnummer for et produkt som primært utgangspunkt, uavhengig av om siste versjon er laget av `codex`, `copilot` eller en person.
 - Eldre versjoner skal bare brukes som supplement for historikk, sammenligning eller endringsforståelse.
 - Følg metoden i [config/prompts/produkt-canvas.system.md](/c:/Users/HILROS/NA-kunnskap/config/prompts/produkt-canvas.system.md) ved arbeid med produkt-canvas.
+- Ved opprettelse av nye produktbeskrivelser skal [config/prompts/produkt-canvas.system.md](/c:/Users/HILROS/NA-kunnskap/config/prompts/produkt-canvas.system.md) alltid brukes som styrende instruks.
 - Nye produktfiler skal følge gjeldende versjoneringsregel i promptfila.
 
 ## Kilder og analyse
