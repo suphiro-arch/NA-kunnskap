@@ -1,6 +1,6 @@
 # Produkt-canvas: Peppol eDelivery
 
-Målgruppe: Hovedfokus er forretningssiden og strategisk arkitektur.
+MÃ¥lgruppe: Hovedfokus er forretningssiden og strategisk arkitektur.
 
 ## Navn
 Peppol eDelivery
@@ -9,54 +9,54 @@ Peppol eDelivery
 11 (Produktliste NA-kunnskap).
 
 ## Status/Livsfase
-**Produksjon** – Etablert internasjonalt rammeverk i aktiv bruk for elektronisk dokumentutveksling
+**Produksjon** â€“ Etablert internasjonalt rammeverk i aktiv bruk for elektronisk dokumentutveksling
 
 ## Modenhet
-**Høy (4-5/5)** – Modent og stabilt internasjonalt rammeverk:
+**HÃ¸y (4-5/5)** â€“ Modent og stabilt internasjonalt rammeverk:
 - Bred internasjonal adopsjon (30+ land; inkludert alle EU-land)
 - Integrert i norsk og europeisk offentlig/privat samhandling
-- Standardiserte profiler, adressering, transportmønstre (OpenPeppol)
+- Standardiserte profiler, adressering, transportmÃ¸nstre (OpenPeppol)
 - Kontinuerlig videreutvikling av standarder og compliance-rammeverk
 
 ## Kort beskrivelse
-Peppol eDelivery er et internasjonalt standardnettverk og regelverk for sikker og standardisert utveksling av elektroniske forretningsdokumenter (fakturaer, ordrer, leveringsmeldinger) mellom virksomheter over landegrenser. Løsningen er designet for å muliggjøre interoperabilitet, sikkerheit og skalering i B2B- og B2G-samhandling. I norsk kontekst brukes Peppol blant annet i eFaktura, offentlig anskaffelse og handel.
+Peppol eDelivery er et internasjonalt standardnettverk og regelverk for sikker og standardisert utveksling av elektroniske forretningsdokumenter (fakturaer, ordrer, leveringsmeldinger) mellom virksomheter over landegrenser. LÃ¸sningen er designet for Ã¥ muliggjÃ¸re interoperabilitet, sikkerheit og skalering i B2B- og B2G-samhandling. I norsk kontekst brukes Peppol blant annet i eFaktura, offentlig anskaffelse og handel.
 
 ## Kapabiliteter
-- **Datautveksling og integrasjon: Meldingsformidling** – Standard transport av elektroniske dokumenter
-- **Datautveksling og integrasjon: Dele data med andre** – Avsender sender over Peppol-nett
-- **Datautveksling og integrasjon: Bruke data fra andre** – Mottaker mottar via Access Point
-- **Standardisering: EU-standarder** – OpenPeppol og eIDAS-regulativene
-- **Standardisering: Forvaltningsstandarder** – Internasjonalt rammeverk med nasjonal oppfølging
-- **Samarbeid: Organisatorisk samhandling** – Enabler grensekryssende og tversektor samhandling
-- **Informasjonssikkerheit: Sikring av informasjonsflyt** – Kryptering, sertifikat-sikring, logging
+- **Datautveksling og integrasjon: Meldingsformidling** â€“ Standard transport av elektroniske dokumenter
+- **Datautveksling og integrasjon: Dele data med andre** â€“ Avsender sender over Peppol-nett
+- **Datautveksling og integrasjon: Bruke data fra andre** â€“ Mottaker mottar via Access Point
+- **Standardisering: EU-standarder** â€“ OpenPeppol og eIDAS-regulativene
+- **Standardisering: Forvaltningsstandarder** â€“ Internasjonalt rammeverk med nasjonal oppfÃ¸lging
+- **Samarbeid: Organisatorisk samhandling** â€“ Enabler grensekryssende og tversektor samhandling
+- **Informasjonssikkerhet: Sikring av informasjonsflyt** â€“ Kryptering, sertifikat-sikring, logging
 
 Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
 
-## Produktmål
-- Tilby interoperabel og sikker infrastruktur for elektronisk dokumentutveksling på tvers av grenser og sektorer
-- Redusere integrasjonsbarriererer gjennom standardiserte profiler, transportmønstre og validering
-- Understøtte effektiv digital handel, anskaffelse og offentlig samhandling
-- Muliggjøre skalering fra pilot-prosjekter til nasjonale/europeiske løsninger
+## ProduktmÃ¥l
+- Tilby interoperabel og sikker infrastruktur for elektronisk dokumentutveksling pÃ¥ tvers av grenser og sektorer
+- Redusere integrasjonsbarriererer gjennom standardiserte profiler, transportmÃ¸nstre og validering
+- UnderstÃ¸tte effektiv digital handel, anskaffelse og offentlig samhandling
+- MuliggjÃ¸re skalering fra pilot-prosjekter til nasjonale/europeiske lÃ¸sninger
 
 ## Brukerbehov
-- **Virksomheter:** Enkel og sikker måte å sende/motta elektroniske dokumenter uten å bygge egne integrasjoner
-- **Integrasjonsteam:** Tydelige tekniske rammer, profiler og test-miljøer for implementering
-- **Offentlige innkjøp:** Standardisert dokumentflyt for fakturaering og ordre-prosesser
-- **Rekvirenter og leverandører:** Automatisert, sporbar dokumentutveksling med lavere feilrate
+- **Virksomheter:** Enkel og sikker mÃ¥te Ã¥ sende/motta elektroniske dokumenter uten Ã¥ bygge egne integrasjoner
+- **Integrasjonsteam:** Tydelige tekniske rammer, profiler og test-miljÃ¸er for implementering
+- **Offentlige innkjÃ¸p:** Standardisert dokumentflyt for fakturaering og ordre-prosesser
+- **Rekvirenter og leverandÃ¸rer:** Automatisert, sporbar dokumentutveksling med lavere feilrate
 
 ## Hvem er brukerne og brukersegmentene
 
-| Brukersegment | Primære behov | Bruksområde | Estimert volum (glob) |
+| Brukersegment | PrimÃ¦re behov | BruksomrÃ¥de | Estimert volum (glob) |
 |---|---|---|---|
-| **Offentlige virksomheter og leverandører** | Standardisert fakturaering og ordre-prosesser | eFaktura, anskaffelse | 100+ mill. fakturar årlig (EU) |
-| **Private virksomheter (handel, B2B)** | Kostnadseffektiv elektronisk dokumentutveksling | Handel, B2B-integrasjon, logistikk | 50+ mill. dokumenter årlig |
-| **Access Point-operatører** | Driftslisens og teknisk sertifisering | Drift av meldingsnettverk | 200+ Access Points globalt |
-| **Regnskaps-/ERP-leverandører** | Teknisk integrasjon og API-støtte | Innebygget Peppol-støtte | Alle større leverandører |
-| **Prosessautomasjons-team** | Sikker, standardisert dokumentflyt | Prosessoptimalisering | Høyt volum i store organisasjoner |
+| **Offentlige virksomheter og leverandÃ¸rer** | Standardisert fakturaering og ordre-prosesser | eFaktura, anskaffelse | 100+ mill. fakturar Ã¥rlig (EU) |
+| **Private virksomheter (handel, B2B)** | Kostnadseffektiv elektronisk dokumentutveksling | Handel, B2B-integrasjon, logistikk | 50+ mill. dokumenter Ã¥rlig |
+| **Access Point-operatÃ¸rer** | Driftslisens og teknisk sertifisering | Drift av meldingsnettverk | 200+ Access Points globalt |
+| **Regnskaps-/ERP-leverandÃ¸rer** | Teknisk integrasjon og API-stÃ¸tte | Innebygget Peppol-stÃ¸tte | Alle stÃ¸rre leverandÃ¸rer |
+| **Prosessautomasjons-team** | Sikker, standardisert dokumentflyt | Prosessoptimalisering | HÃ¸yt volum i store organisasjoner |
 
 ## Hovedfunksjoner
 
-### Primære funksjoner
+### PrimÃ¦re funksjoner
 - **Standardisert transport:** AS4-XML-signering, kryptering og sikker levering
 - **Felles regelverk:** CIUS-profiler som spesifiserer hvilke dokumenttyper og felter som brukes
 - **Adressering via SMP (Service Metadata Publisher):** Oppslag av mottakers tilgjengelige Peppol-profiler
@@ -66,22 +66,22 @@ Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
 
 ### Scope og avgrensning
 
-| Inngår | Inngår IKKE |
+| InngÃ¥r | InngÃ¥r IKKE |
 |---|---|
 | Transport-/samhandlingsrammeverk og standardprofiler | Nasjonal faglogikk eller domenespesifikk prosessering |
-| Adressering og sertifikat-basert sikring | Lokal innregning i hver virksomhets økonomi-system |
+| Adressering og sertifikat-basert sikring | Lokal innregning i hver virksomhets Ã¸konomi-system |
 | Interoperabilitets-regler og validering | Fullstendig end-to-end prosessorkestrasjon |
-| Grensekryssende samhandling (EU/internasjonalt) | Dataeierskap eller juridisk ansvar på virksomhets-siden |
+| Grensekryssende samhandling (EU/internasjonalt) | Dataeierskap eller juridisk ansvar pÃ¥ virksomhets-siden |
 
 ## Veikart over kommende funksjonalitet
 
-**Status:** Styrt av OpenPeppol-organisasjonen internasjonalt; nasjonal oppfølging via DFO og Digdir.
+**Status:** Styrt av OpenPeppol-organisasjonen internasjonalt; nasjonal oppfÃ¸lging via DFO og Digdir.
 
-**Indikert fokusområder:**
+**Indikert fokusomrÃ¥der:**
 - **eIDAS 2.0 compliance:** Oppgradering til nye EU-forordninger
 - **Utvidelse av dokumenttyper:** Fra fakturaer til flere dokumenttyper (shipping notices, catalogues, etc.)
-- **Bedre interoperabilitet:** Harmonisering av implementasjoner, test-miljøer
-- **Sikkerheit-forbedringer:** Post-quantum kryptering, modernisert authentisering
+- **Bedre interoperabilitet:** Harmonisering av implementasjoner, test-miljÃ¸er
+- **Sikkerhet-forbedringer:** Post-quantum kryptering, modernisert authentisering
 - **Observability og monitoring:** Bedre innsyn i network-helse
 - **Automatisering av attestering:** Mindre manuell sertifisering av Access Points
 
@@ -90,14 +90,14 @@ Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
 ## Forretningsverdi/Verdiforslag
 
 ### For virksomheter
-- **Kostnadsreduksjon:** 50-80% lavere integrasjonskostnader vs. punkt-til-punkt-løsninger
+- **Kostnadsreduksjon:** 50-80% lavere integrasjonskostnader vs. punkt-til-punkt-lÃ¸sninger
 - **Hastighet:** Raskere etablering av nye samhandlingsprosesser
 - **Skalerbarheit:** Samme system brukes for alle dokumenttyper og motparter
 
 ### For samfunn/offentlig sektor
-- **Interoperabilitet:** Standardisert samhandling på tvers av sektorer og grenser
-- **Kostnadssparing:** Nasjonale estimater på 50-100 MNOK årlig ved fullskala eFaktura
-- **Innovasjon:** Lettere for nye aktører å delta i økonomi-systemet
+- **Interoperabilitet:** Standardisert samhandling pÃ¥ tvers av sektorer og grenser
+- **Kostnadssparing:** Nasjonale estimater pÃ¥ 50-100 MNOK Ã¥rlig ved fullskala eFaktura
+- **Innovasjon:** Lettere for nye aktÃ¸rer Ã¥ delta i Ã¸konomi-systemet
 
 ### For sikkerheit
 - **Autentisering:** Sikker end-to-end dokumentlevering med sertifikater
@@ -106,22 +106,22 @@ Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
 
 ## Utfordringer og risiko
 
-| Risikokategori | Konkret risiko | Sannsynlighet | Håndtering |
+| Risikokategori | Konkret risiko | Sannsynlighet | HÃ¥ndtering |
 |---|---|---|---|
-| **Juridisk** | Ulik regelverksforståelse på tvers av land/domener | Middels | Klare CIUS-definisjoner; juridisk veiledning per sektor |
-| **Teknisk** | Feil implementasjon av Peppol-profiler → avviste dokumenter | Høy (kompleksitet) | Testmiljøer (TT02/PP), sertifisering, best-practice guides |
-| **Integrasjon** | Mønstre-mismatch mellom Peppol og lokale prosesser | Middels | Referansearkitektur, process-mapping, support |
-| **Sikkerheit** | Svak sertifikat-forvaltning hos Access Points = lekkasje | Låg (monitorert) | Strenge sertifieringskrav; audit av operatører |
-| **Sikkerheit** | Man-in-the-middle eller phishing av Peppol-identiteter | Låg (signering) | X.509-basert autentisering; education |
-| **Operasjonell** | Høyt dokumentvolum → forsinkelser i nett | Middels | Network-skalering, load-distribution, SLA-krav |
-| **Leverandør** | Varierende modenhet hos Access Point-operatører | Høy | Sertifisering- og compliance-program; audit |
-| **Bruker** | Feil prosess-konfigurasjon fra virksomheten | Høy | Opplæring, beste praksis, test-støtte |
+| **Juridisk** | Ulik regelverksforstÃ¥else pÃ¥ tvers av land/domener | Middels | Klare CIUS-definisjoner; juridisk veiledning per sektor |
+| **Teknisk** | Feil implementasjon av Peppol-profiler â†’ avviste dokumenter | HÃ¸y (kompleksitet) | TestmiljÃ¸er (TT02/PP), sertifisering, best-practice guides |
+| **Integrasjon** | MÃ¸nstre-mismatch mellom Peppol og lokale prosesser | Middels | Referansearkitektur, process-mapping, support |
+| **Sikkerhet** | Svak sertifikat-forvaltning hos Access Points = lekkasje | LÃ¥g (monitorert) | Strenge sertifieringskrav; audit av operatÃ¸rer |
+| **Sikkerhet** | Man-in-the-middle eller phishing av Peppol-identiteter | LÃ¥g (signering) | X.509-basert autentisering; education |
+| **Operasjonell** | HÃ¸yt dokumentvolum â†’ forsinkelser i nett | Middels | Network-skalering, load-distribution, SLA-krav |
+| **LeverandÃ¸r** | Varierende modenhet hos Access Point-operatÃ¸rer | HÃ¸y | Sertifisering- og compliance-program; audit |
+| **Bruker** | Feil prosess-konfigurasjon fra virksomheten | HÃ¸y | OpplÃ¦ring, beste praksis, test-stÃ¸tte |
 
 ## Kanaler
 
-- **Access Points:** Leverandører som tilbyr Peppol-tilkobling (teknisk infrastruktur)
+- **Access Points:** LeverandÃ¸rer som tilbyr Peppol-tilkobling (teknisk infrastruktur)
 - **Service Metadata Publishing (SMP):** Oppslag-register for mottakers Peppol-profiler
-- **Dokumentasjons- og test-miljøer:** OpenPeppol Docs, DFO-veiledninger, TT02-testmiljø
+- **Dokumentasjons- og test-miljÃ¸er:** OpenPeppol Docs, DFO-veiledninger, TT02-testmiljÃ¸
 - **Sertifikasjons- og governance:** OpenPeppol-organisasjonen
 
 ## Plattform
@@ -129,54 +129,54 @@ Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
 - **Design-pattern:** Distribuert network av Access Points uten sentral hub
 - **Sikring:** X.509-basert sertifikater; AS4-XML profil for kryptering og signering
 - **Protokoll:** HTTPS + XML (ikke REST)
-- **Skalering:** Designet for europeisk volum (100+ mil. dokumenter årlig)
-- **Interoperabilitet:** Agnostisk til ERP-system og infrastruktur-leverandør
+- **Skalering:** Designet for europeisk volum (100+ mil. dokumenter Ã¥rlig)
+- **Interoperabilitet:** Agnostisk til ERP-system og infrastruktur-leverandÃ¸r
 
 ## Gjenbruk
 
-**Svært høy gjenbruksverdi:**
-- Samme samhandlingsmønster brukes av alle virksomheter (ikke unik per motpart)
-- Reduserer behov for punkt-til-punkt-løsninger og proprietaere integrasjonsgatewayer
-- Fremmer interoperabilitet og standardisering på tvers av sektorer og grenser
-- Økende nettverkseffekt when flere virksomheter tilslutter seg
+**SvÃ¦rt hÃ¸y gjenbruksverdi:**
+- Samme samhandlingsmÃ¸nster brukes av alle virksomheter (ikke unik per motpart)
+- Reduserer behov for punkt-til-punkt-lÃ¸sninger og proprietaere integrasjonsgatewayer
+- Fremmer interoperabilitet og standardisering pÃ¥ tvers av sektorer og grenser
+- Ã˜kende nettverkseffekt when flere virksomheter tilslutter seg
 
-## Støtte arkitekturprinsipper
+## StÃ¸tte arkitekturprinsipper
 
-- **P4 Del og gjenbruk data** – Standardiserte dokumentformat på tvers av alle aktører
-- **P5 Del og gjenbruk løsninger** – Samme nett og profiler for alle; ingen duplicate systemer
-- **P6 Lag digitale løsninger som støtter samhandling** – Internasjonalt rammeverk for B2B/B2G
-- **P8 Etabler felles forståelse av informasjon** – Standardiserte semantikk via UBL/UB L-SE
+- **P4 Del og gjenbruk data** â€“ Standardiserte dokumentformat pÃ¥ tvers av alle aktÃ¸rer
+- **P5 Del og gjenbruk lÃ¸sninger** â€“ Samme nett og profiler for alle; ingen duplicate systemer
+- **P6 Lag digitale lÃ¸sninger som stÃ¸tter samhandling** â€“ Internasjonalt rammeverk for B2B/B2G
+- **P8 Etabler felles forstÃ¥else av informasjon** â€“ Standardiserte semantikk via UBL/UB L-SE
 
 ## Finansiering
 
 **Kostnadsmodell:**
 - **Leveranse:** Opereres som internasjonalt standardnettverk (OpenPeppol); ikke sentralt finansiert
-- **Bruksmodell:** Virksomheter betaler Access Point-operatøra for tilkobling (variabelt per operatør)
-- **Estimert kostnader:** 1000-5000 kr per måned per virksomhet (avhengig av dokument-volum)
+- **Bruksmodell:** Virksomheter betaler Access Point-operatÃ¸ra for tilkobling (variabelt per operatÃ¸r)
+- **Estimert kostnader:** 1000-5000 kr per mÃ¥ned per virksomhet (avhengig av dokument-volum)
 - **Nasjonal investering:** Norge har investert i DFO og test-infra; estimert 10-20 MNOK initial
 
 **Finansiering:** Distribuert modell; hver virksomhet betaler sin Access Point; offentlig investering i infra (DFO, test).
 
-**kilder:** Estimert basert på eFaktura-kostnad; presis modell varierer per Access Point.
+**kilder:** Estimert basert pÃ¥ eFaktura-kostnad; presis modell varierer per Access Point.
 
 ## Forvaltning/eier
 
-| Ansvarsområde | Organisasjon | Detaljer |
+| AnsvarsomrÃ¥de | Organisasjon | Detaljer |
 |---|---|---|
 | **Standarder/Governance** | OpenPeppol-organisasjonen (medlemsbas) | Internasjonale regler, profiler, compliance |
-| **Nasjonal oppfølging** | DFO (Direktoratet for forvaltning og økonomi) / Digdir | Norsk implementering, test-miljø, veiledning |
-| **Access Point-drift** | Private leverandører (sertifisert av OpenPeppol) | Teknisk drift, tilkobling, support |
+| **Nasjonal oppfÃ¸lging** | DFO (Direktoratet for forvaltning og Ã¸konomi) / Digdir | Norsk implementering, test-miljÃ¸, veiledning |
+| **Access Point-drift** | Private leverandÃ¸rer (sertifisert av OpenPeppol) | Teknisk drift, tilkobling, support |
 | **Budsjettansvar** | OpenPeppol (medlem-inntekter) + nasjonal budsjett (DFO) | Governance + nasjonal infra |
 
-**Styringsforum:** OpenPeppol-Board; Peppol Norwegian Pillar (medlemskap; DFO/Digdir deltakelse); eFaktura-råd.
+**Styringsforum:** OpenPeppol-Board; Peppol Norwegian Pillar (medlemskap; DFO/Digdir deltakelse); eFaktura-rÃ¥d.
 
 ## Lenke til dokumentasjon
 
-- https://www.peppol.eu – OpenPeppol offisiell nettside (internasjonala)
-- https://anskaffelser.no/e-handel/verktoy/peppol-edelivery – DFO Peppol-informasjon (nasjonalt)
-- https://www.digdir.no/eit/ – Digdir E-Invoice info
-- https://test.peppol.eu – Peppol test-nettsted og dokumentasjon
-- https://samarbeid.digdir.no/peppol-edelivery – Samarbeidsportal Peppol (nasjonalt)
+- https://www.peppol.eu â€“ OpenPeppol offisiell nettside (internasjonala)
+- https://anskaffelser.no/e-handel/verktoy/peppol-edelivery â€“ DFO Peppol-informasjon (nasjonalt)
+- https://www.digdir.no/eit/ â€“ Digdir E-Invoice info
+- https://test.peppol.eu â€“ Peppol test-nettsted og dokumentasjon
+- https://samarbeid.digdir.no/peppol-edelivery â€“ Samarbeidsportal Peppol (nasjonalt)
 
 ## Kildegrunnlag brukt i denne utfyllingen
 
@@ -191,13 +191,13 @@ Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
 
 **Endringer fra originalversjon:**
 
-✅ **Brukersegmenter:** Struktur ut som tabell med konkrete behov og volum-estimater (global + norsk)
-✅ **Risikomatrise:** 8 konkrete risikokategorier med håndtering
-✅ **Finansiering:** Detaljert kostands-modell (1000-5000 kr/månad per virksomhet)
-✅ **Forvaltning:** Tabell-format med ansvarsfordeling (OpenPeppol + DFO/Digdir + Access Points)
-✅ **Veikart:** Konkrete fokusområder (eIDAS 2.0, dokumenttyper, post-quantum kryptering)
-✅ **Scope:** Eksplisitt tabell over hva som inngår/ikke inngår
-✅ **Kapabiliteter:** Detalj-beskrivelser av hver kapabilitet (AS4, sertifikater, SMP oppslag)
-✅ **Internasjonalt rammeverk:** Eksplisitt kobling til OpenPeppol og EU-regulativ
-✅ **Styringsforum:** OpenPeppol Board + Peppol Norwegian Pillar + DFO/Digdir
+âœ… **Brukersegmenter:** Struktur ut som tabell med konkrete behov og volum-estimater (global + norsk)
+âœ… **Risikomatrise:** 8 konkrete risikokategorier med hÃ¥ndtering
+âœ… **Finansiering:** Detaljert kostands-modell (1000-5000 kr/mÃ¥nad per virksomhet)
+âœ… **Forvaltning:** Tabell-format med ansvarsfordeling (OpenPeppol + DFO/Digdir + Access Points)
+âœ… **Veikart:** Konkrete fokusomrÃ¥der (eIDAS 2.0, dokumenttyper, post-quantum kryptering)
+âœ… **Scope:** Eksplisitt tabell over hva som inngÃ¥r/ikke inngÃ¥r
+âœ… **Kapabiliteter:** Detalj-beskrivelser av hver kapabilitet (AS4, sertifikater, SMP oppslag)
+âœ… **Internasjonalt rammeverk:** Eksplisitt kobling til OpenPeppol og EU-regulativ
+âœ… **Styringsforum:** OpenPeppol Board + Peppol Norwegian Pillar + DFO/Digdir
 

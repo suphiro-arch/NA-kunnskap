@@ -1,6 +1,6 @@
-﻿# Produkt-canvas: API-katalog
+# Produkt-canvas: API-katalog
 
-Maalgruppe: Hovedfokus er forretningssiden og strategisk arkitektur.
+Målgruppe: Hovedfokus er forretningssiden og strategisk arkitektur.
 
 ## Navn
 API-katalog
@@ -9,16 +9,16 @@ API-katalog
 15 (Produktliste NA-kunnskap).
 
 ## Status/Livsfase
-Produksjon som del av Felles datakatalog-oekosystemet.
+Produksjon som del av Felles datakatalog-økosystemet.
 
 ## Modenhet
-Hoy:
+Høy:
 - Etablert katalogfunksjon for API-oversikt i offentlig sektor.
 - Brukes for oppdagbarhet og gjenbruk av maskinlesbare grensesnitt.
 - Integrert i nasjonale datadelingstjenester.
 
 ## Kort beskrivelse
-API-katalogen er delen av Felles datakatalog som gir oversikt over tilgjengelige API-er i offentlig sektor. Formaalet er aa gjøre API-er enklere aa finne, forstaa og gjenbruke i nye tjenester og integrasjoner.
+API-katalogen er delen av Felles datakatalog som gir oversikt over tilgjengelige API-er i offentlig sektor. Formålet er å gjøre API-er enklere å finne, forstå og gjenbruke i nye tjenester og integrasjoner.
 
 ## Kapabiliteter
 - Informasjonsforvaltning: Oversikt over API
@@ -30,16 +30,16 @@ API-katalogen er delen av Felles datakatalog som gir oversikt over tilgjengelige
 
 Grunnlag: kapabiliteter mappet mot `index/capabilities.yaml`.
 
-## Produktmaal
-- Oeke oppdagbarhet av offentlige API-er.
+## Produktmål
+- Øke oppdagbarhet av offentlige API-er.
 - Redusere tid/kostnad i integrasjonsprosjekter.
 - Fremme standardiserte API-beskrivelser og metadata.
-- Oeke gjenbruk av eksisterende grensesnitt i nye tjenester.
+- Øke gjenbruk av eksisterende grensesnitt i nye tjenester.
 
 ## Brukerbehov
-- Utviklere og integrasjonsteam trenger ett sted aa finne relevante API-er.
+- Utviklere og integrasjonsteam trenger ett sted å finne relevante API-er.
 - Virksomheter trenger kanal for publisering av API-metadata.
-- Arkitekturmiljoer trenger bedre oversikt over tilgjengelige integrasjonspunkter.
+- Arkitekturmiljøer trenger bedre oversikt over tilgjengelige integrasjonspunkter.
 
 ## Hvem er brukerne og brukersegmentene
 - API-forvaltere hos offentlige virksomheter.
@@ -50,13 +50,13 @@ Grunnlag: kapabiliteter mappet mot `index/capabilities.yaml`.
 - Katalogisering av API-er med metadata.
 - Oppslag og filtrering for gjenfinning av relevante API-er.
 - Tilrettelegging for lenker til teknisk dokumentasjon/spesifikasjoner.
-- Understoette standardisert beskrivelse og forvaltning av API-portefoljer.
+- Understøtte standardisert beskrivelse og forvaltning av API-portefoljer.
 
 ### Scope og avgrensning
-- Inngaar:
+- Inngår:
   - oversikt, metadata og oppdagbarhet for API-er
   - stotte for gjenbruk i integrasjonsarbeid
-- Inngaar ikke:
+- Inngår ikke:
   - API-gateway-funksjon eller runtime-kontroll
   - full livssyklusforvaltning av API-er i hver virksomhet
 
@@ -66,14 +66,14 @@ Grunnlag: kapabiliteter mappet mot `index/capabilities.yaml`.
 
 ## Forretningsverdi/Verdiforslag
 - Reduserer dobbeltarbeid ved at eksisterende API-er blir synlige og gjenbrukbare.
-- Oeker fart i tjenesteutvikling og datadeling.
+- Øker fart i tjenesteutvikling og datadeling.
 - Bedrer kvalitet i integrasjonsbeslutninger gjennom bedre oversikt.
 
 ## Utfordringer og risiko
-- Juridisk risiko: mangelfull metadata om rettigheter/bruksvilkaar kan gi feilbruk.
+- Juridisk risiko: mangelfull metadata om rettigheter/bruksvilkår kan gi feilbruk.
 - Teknisk risiko: foreldet eller ufullstendig API-informasjon reduserer nytte.
-- Sikkerhetsrisiko: feil eksponeringsnivaa i metadata kan gi uoensket innsikt.
-- Leverandoerrisiko: varierende metadata-kvalitet mellom virksomheter.
+- Sikkerhetsrisiko: feil eksponeringsnivå i metadata kan gi uønsket innsikt.
+- Leverandørrisiko: varierende metadata-kvalitet mellom virksomheter.
 - Brukerrisiko: svak dokumentasjonskvalitet gir feil implementasjon hos konsumenter.
 
 ## Kanaler
@@ -81,27 +81,27 @@ Grunnlag: kapabiliteter mappet mot `index/capabilities.yaml`.
 - Lenker til virksomhetenes API-dokumentasjon.
 
 ## Plattform
-Del av Felles datakatalog i nasjonalt datadelingsoekosystem.
+Del av Felles datakatalog i nasjonalt datadelingsøkosystem.
 
 ## Gjenbruk
-Svaert hoy gjenbruksverdi:
+Svært høy gjenbruksverdi:
 - fremmer gjenbruk av eksisterende API-er
 - reduserer behov for nye, parallelle grensesnitt
 - muliggjør bedre portefoljestyring av API-er
 
-## Stoette arkitekturprinsipper
-Sterk stoette for:
+## Støtte arkitekturprinsipper
+Sterk støtte for:
 - P4 Del og gjenbruk data
-- P5 Del og gjenbruk loesninger
-- P6 Lag digitale loesninger som stoetter samhandling
+- P5 Del og gjenbruk løsninger
+- P6 Lag digitale løsninger som støtter samhandling
 
 ## Finansiering
 Ikke eksplisitt spesifisert i kildene brukt her.
 
 ## Forvaltning/eier
-- Produktansvar: Digdir/Felles datakatalog-miljo
-- Driftsansvar: usikkert i offentlig detaljnivaa
-- Budsjettansvar: usikkert i offentlig detaljnivaa
+- Produktansvar: Digdir/Felles datakatalog-miljø
+- Driftsansvar: usikkert i offentlig detaljnivå
+- Budsjettansvar: usikkert i offentlig detaljnivå
 - Styringsmodell: nasjonal forvaltning av datadelingstjenester
 
 ## Lenke til dokumentasjon

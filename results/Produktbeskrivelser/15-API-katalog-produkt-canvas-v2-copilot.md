@@ -107,8 +107,8 @@ Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
 |---|---|---|---|
 | **Juridisk** | Mangelfull informasjon om rettigheter/bruksbetingelser → feilbruk | Middels | Standardisert metadata om lisens; juridisk gjennomgang |
 | **Datakvalitet** | Foreldet eller ufullstendig API-dokumentasjon → feil implementering | Høy | Automatsik refresh av OpenAPI-filer; revisjonsrutiner |
-| **Sikkerheit** | Sensitive eller interne API-er eksponert utilsiktet | Middels | Klassifisering av API-er; åpenvær-retningslinjer |
-| **Organisatorisk** | Varierende metadata-kvalitet fra ulike virksomheter | Høy | Insentiver for kvalitet; templates; automatsik validering |
+| **Sikkerhet** | Sensitive eller interne API-er eksponert utilsiktet | Middels | Klassifisering av API-er; åpenvær-retningslinjer |
+| **Organisatorisk** | Varierende metadata-kvalitet fra ulike virksomheter | Høy | Insentiver for kvalitet; templates; automatisk validering |
 | **Teknisk** | Feil i OpenAPI-format reduserer nytte | Middels | Validering av OpenAPI-filer; test-miljø; SDK-generering |
 | **Bruker** | Dårlig dokumentasjon eller uklare eksempler = høy implementeringsfeil | Høy | Fokus på dokumentasjonskvalitet; best-practice guides |
 | **Leverandør** | Avhengighet til Digdir-drift | Høy | Offentlig eierskap sikrer kontinuitet; SLA-krav |

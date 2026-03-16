@@ -1,6 +1,6 @@
-﻿# Produkt-canvas: Altinn Studio
+# Produkt-canvas: Altinn Studio
 
-Maalgruppe: Hovedfokus er forretningssiden og strategisk arkitektur.
+Målgruppe: Hovedfokus er forretningssiden og strategisk arkitektur.
 
 ## Navn
 Altinn Studio
@@ -12,16 +12,16 @@ Altinn Studio
 Produksjon med aktiv videreutvikling av utvikleropplevelse, byggeklosser og plattformfunksjoner.
 
 ## Modenhet
-Hoy:
+Høy:
 - Etablert som sentral utviklingsplattform i Altinn 3.
 - Dokumentert med omfattende veiledning, API-er og runtime-modell.
 - Bred bruk i offentlig sektor for utvikling og forvaltning av digitale tjenester.
 
 ## Kort beskrivelse
-Altinn Studio er utviklings- og forvaltningsplattformen for bygging av digitale tjenester i Altinn-oekosystemet. Produktet gir virksomheter verktøy, runtime-kapabiliteter og standardiserte moenstre som reduserer tid fra behov til produksjon.
+Altinn Studio er utviklings- og forvaltningsplattformen for bygging av digitale tjenester i Altinn-økosystemet. Produktet gir virksomheter verktøy, runtime-kapabiliteter og standardiserte mønstre som reduserer tid fra behov til produksjon.
 
 ## Kapabiliteter
-- Tjenesteutvikling: Utviklings- og kjoeretidsmiljo
+- Tjenesteutvikling: Utviklings- og kjøretidsmiljø
 - Tjenesteutvikling: Integrerbare tjenester
 - Tjenesteutvikling: Gjenbrukbare tjenester
 - Tjenesteutvikling: Tjenestedesign
@@ -32,55 +32,55 @@ Altinn Studio er utviklings- og forvaltningsplattformen for bygging av digitale 
 
 Grunnlag: kapabiliteter mappet mot `index/capabilities.yaml`.
 
-## Produktmaal
+## Produktmål
 - Senke terskelen for utvikling av digitale offentlige tjenester.
-- Standardisere tjenesteutvikling med felles byggeklosser og plattformmoenstre.
-- Oeke gjenbruk og redusere duplisering av funksjonalitet paa tvers av virksomheter.
-- Understoette raskere leveranse av sammenhengende tjenester med innebygd sikkerhet.
+- Standardisere tjenesteutvikling med felles byggeklosser og plattformmønstre.
+- Øke gjenbruk og redusere duplisering av funksjonalitet på tvers av virksomheter.
+- Understøtte raskere leveranse av sammenhengende tjenester med innebygd sikkerhet.
 
 ## Brukerbehov
-- Tjenesteeiere trenger en felles plattform for aa utvikle, drifte og forbedre tjenester.
+- Tjenesteeiere trenger en felles plattform for å utvikle, drifte og forbedre tjenester.
 - Utviklingsteam trenger verktøy, dokumentasjon og standardkomponenter som virker sammen.
-- Forvaltning trenger kontroll, sporbarhet og effektiv endringshaandtering i tjenestelivssyklus.
+- Forvaltning trenger kontroll, sporbarhet og effektiv endringshåndtering i tjenestelivssyklus.
 
 ## Hvem er brukerne og brukersegmentene
 - Offentlige tjenesteeiere.
-- Utviklere, arkitekter og DevOps-miljoer.
-- Leverandoerer som bygger/forvalter tjenester paa vegne av virksomheter.
-- Sluttbrukere som indirekte faar tjenester levert gjennom plattformen.
+- Utviklere, arkitekter og DevOps-miljøer.
+- Leverandører som bygger/forvalter tjenester på vegne av virksomheter.
+- Sluttbrukere som indirekte får tjenester levert gjennom plattformen.
 
 ## Hovedfunksjoner
 - Verktøy for tjenesteutvikling, modellering og publisering.
 - Runtime-kapabiliteter for innsending, validering, prosess og databehandling.
 - Integrasjonsstotte mot fellestjenester som autentisering, autorisasjon, melding og varsling.
-- Miljoer og moenstre for test, deploy og forvaltning.
-- Dokumentasjon og kom-i-gang-loep for nyetablering av tjenester.
+- Miljøer og mønstre for test, deploy og forvaltning.
+- Dokumentasjon og kom-i-gang-løp for nyetablering av tjenester.
 
 ### Scope og avgrensning
-- Inngaar:
-  - felles plattform for utvikling og kjoering av digitale tjenester
-  - standard byggeklosser og integrasjonsmoenstre
-  - driftnaere kapabiliteter i Altinn-oekosystemet
-- Inngaar ikke:
+- Inngår:
+  - felles plattform for utvikling og kjøring av digitale tjenester
+  - standard byggeklosser og integrasjonsmønstre
+  - driftnære kapabiliteter i Altinn-økosystemet
+- Inngår ikke:
   - all sektorspesifikk forretningslogikk
   - virksomhetenes hele interne systemlandskap utenfor Altinn-plattformen
 
 ## Veikart over kommende funksjonalitet
-- Loepende videreutvikling av plattform, runtime og utviklerstotte.
+- Løpende videreutvikling av plattform, runtime og utviklerstotte.
 - Kontinuerlig harmonisering med øvrige Altinn 3-produkter.
-- Konkrete prioriteringer ma avstemmes mot gjeldende versjonsdokumentasjon i Altinn docs.
+- Konkrete prioriteringer må avstemmes mot gjeldende versjonsdokumentasjon i Altinn docs.
 
 ## Forretningsverdi/Verdiforslag
 - Kortere utviklingstid og lavere etableringskostnad for nye tjenester.
-- Hoyere kvalitet og mer forutsigbar drift gjennom standardiserte moenstre.
-- Oekt gjenbruk av fellestjenester og komponenter.
-- Bedre forutsetning for sammenhengende brukerreiser paa tvers av offentlig sektor.
+- Høyere kvalitet og mer forutsigbar drift gjennom standardiserte mønstre.
+- Økt gjenbruk av fellestjenester og komponenter.
+- Bedre forutsetning for sammenhengende brukerreiser på tvers av offentlig sektor.
 
 ## Utfordringer og risiko
 - Juridisk risiko: feil domenetolkning i tjenestelogikk hos den enkelte tjenesteeier.
 - Teknisk risiko: avhengighet til plattformendringer, versjoner og korrekt integrasjonsbruk.
 - Sikkerhetsrisiko: varierende modenhet hos team kan gi ulik kvalitet i sikker implementasjon.
-- Leverandoerrisiko: kompetanse- og kapasitetsforskjeller mellom leverandoerer og virksomheter.
+- Leverandørrisiko: kompetanse- og kapasitetsforskjeller mellom leverandører og virksomheter.
 - Brukerrisiko: svak tjenestedesign hos enkeltprosjekter kan svekke opplevd kvalitet selv med god plattform.
 
 ## Kanaler
@@ -89,30 +89,30 @@ Grunnlag: kapabiliteter mappet mot `index/capabilities.yaml`.
 - Leveranse gjennom Altinn-baserte sluttbrukertjenester og arbeidsflater.
 
 ## Plattform
-Skybasert utviklings- og runtimeplattform i Altinn 3-oekosystemet.
+Skybasert utviklings- og runtimeplattform i Altinn 3-økosystemet.
 
 ## Gjenbruk
-Svaert hoy gjenbruksverdi:
-- felles byggeklosser og utviklingsmoenstre
+Svært høy gjenbruksverdi:
+- felles byggeklosser og utviklingsmønstre
 - standard runtime-komponenter
 - reduserer behovet for a bygge alt fra bunnen i hvert prosjekt
 
-## Stoette arkitekturprinsipper
-Sterk stoette for:
+## Støtte arkitekturprinsipper
+Sterk støtte for:
 - P1 Ta utgangspunkt i brukernes behov
-- P5 Del og gjenbruk loesninger
-- P6 Lag digitale loesninger som stoetter samhandling
-- P7 Soerg for tillit til oppgaveloesningen
+- P5 Del og gjenbruk løsninger
+- P6 Lag digitale løsninger som støtter samhandling
+- P7 Sørg for tillit til oppgaveløsningen
 
 ## Finansiering
 Ikke eksplisitt detaljert i kildene brukt her.
-Forutsettes som del av nasjonal finansiering av Altinn-fellesloesninger.
+Forutsettes som del av nasjonal finansiering av Altinn-fellesløsninger.
 
 ## Forvaltning/eier
 - Produktansvar: Altinn-forvaltningen
 - Driftsansvar: Altinn-forvaltningen
-- Budsjettansvar: usikkert i offentlig detaljnivaa
-- Styringsmodell: nasjonal forvaltning i Altinn-portefoljen
+- Budsjettansvar: usikkert i offentlig detaljnivå
+- Styringsmodell: nasjonal forvaltning i Altinn-porteføljen
 
 ## Lenke til dokumentasjon
 - https://docs.altinn.studio/nb/

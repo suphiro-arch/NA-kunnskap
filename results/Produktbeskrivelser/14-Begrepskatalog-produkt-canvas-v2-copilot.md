@@ -106,7 +106,7 @@ Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
 | Risikokategori | Konkret risiko | Sannsynlighet | Håndtering |
 |---|---|---|---|
 | **Juridisk** | Falsk eller villedende begrepsdefinisjoner i juriske prosesser | Middels | Retningslinjer for juridiske begreper; gjennomsyn før publisering |
-| **Datakvalitet** | Ufullstendige, tvetydige eller foreldede begrepsdefinisjon | Høy | Kvalitets-indikatorer; automatsik påminnelser; revisjonsrutiner |
+| **Datakvalitet** | Ufullstendige, tvetydige eller foreldede begrepsdefinisjon | Høy | Kvalitets-indikatorer; automatisk påminnelser; revisjonsrutiner |
 | **Semantisk** | Duplikater av samme begrep fra ulike virksomheter = forvirring | Høy | Deduplicering-algoritmer; GOD-praksiser; standardisert betegnelsesformat |
 | **Organisatorisk** | Lav adopsjon fra virksomheter → katalog blir ufullstendig | Høy | Insentiver, kampanjer, integrasjon i systemkrav |
 | **Teknisk** | Feil i SKOS-format eller RDF-eksport = inferencing-feil | Middels | Validering av export-format; tester av ontologi-inferencer |

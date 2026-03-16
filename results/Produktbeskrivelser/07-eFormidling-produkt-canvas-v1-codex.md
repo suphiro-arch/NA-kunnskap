@@ -84,7 +84,7 @@ Indikasjon i kilder peker mot nasjonal forvaltning, men detaljfordeling ikke dok
 - Styringsmodell: usikkert
 
 ## Lenke til dokumentasjon
-- https://www.digdir.no/felleslosninger/nasjonale-felleslosninger/750
+- https://www.digdir.no/fellesløsninger/nasjonale-fellesløsninger/750
 
 ## Kildegrunnlag brukt i denne utfyllingen
 - Lokal fil: `sources/links.md`
