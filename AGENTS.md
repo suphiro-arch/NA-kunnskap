@@ -28,8 +28,11 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Hvis en påstand ikke kan bekreftes i tilgjengelige kilder, skal dette sies tydelig i teksten.
 
 ## Innhold og språkføring
+- Skriv dokumentasjon for målgruppen for nasjonal arkitektur, med tydelig og direkte språk.
+- Skriv i aktiv form når det er naturlig, ikke i passiv eller distansert referatform.
 - Skriv selvstendige beskrivelser for målgruppen, ikke referat av nettsider eller dokumentasjon.
 - Unngå formuleringer som `nettsiden sier`, `kilden beskriver` og lignende i hovedteksten.
+- Gjenfortell og syntetiser kilder på en egnet måte for målgruppen, og legg heller ved lenker enn å vise til ordlyden andre steder.
 - Syntetiser kilder til én samlet forklaring med sporbare henvisninger.
 
 ## Hugo-prototype
