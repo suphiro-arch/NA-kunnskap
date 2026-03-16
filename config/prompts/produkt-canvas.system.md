@@ -102,6 +102,14 @@ Følg reglene under.
 - Bruk lister eller tabeller for klarhet
 - Eksempel: "Inngår: autentisering, sesjonsstyring. Inngår IKKE: autorisasjon, saksbehandling"
 
+**Funksjonalitet og hovedfunksjoner:**
+- Beskriv funksjonaliteten på et konseptnivå som gjør det mulig å forstå om produktet faktisk kan løse behovene det er ment å dekke
+- Hver hovedfunksjon skal beskrives med noen setninger, ikke bare som navn i punktliste
+- Forklar hva funksjonen gjør, hvilken type behov den dekker, og hvilke avgrensninger som er viktige for å forstå når produktet er relevant
+- Beskriv funksjoner slik at overlappende løsninger kan skilles fra hverandre, slik at leseren blir veiledet til den mest relevante løsningen for gjenbruk
+- Unngå bare tekniske etiketter som "API", "innboks" eller "varsling" uten forklarende tekst om hvordan funksjonen brukes i praksis
+- Hvis flere produkter dekker tilstøtende eller delvis overlappende behov, skal funksjonsbeskrivelsen tydeliggjøre hva dette produktet gjør, og hva det ikke gjør
+
 **Risiko:**
 - Dekk minst: juridisk, teknisk, sikkerhet, leverandør, bruker-opplevelse
 - Bruk tabell med kategori + konkret risiko + håndtering
