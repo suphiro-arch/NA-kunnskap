@@ -4,7 +4,7 @@ author: codex
 status: draft
 topic: dokumentasjonsassistent-neste-steg
 sources:
-  - briefs/2026-03-16-dokumentasjonsassistent-mvp-v1.md
+  - briefs/arbeidsstyring-og-handover/2026-03-16-dokumentasjonsassistent-mvp-v1.md
 ---
 
 # Neste steg
@@ -34,4 +34,4 @@ sources:
 5. Legg inn enkel chat-widget i Hugo-prototypen.
 
 ## Referanser
-- [MVP-skisse for dokumentasjonsassistent](c:/Users/HILROS/NA-kunnskap/briefs/2026-03-16-dokumentasjonsassistent-mvp-v1.md)
+- [MVP-skisse for dokumentasjonsassistent](c:/Users/HILROS/NA-kunnskap/briefs/arbeidsstyring-og-handover/2026-03-16-dokumentasjonsassistent-mvp-v1.md)
