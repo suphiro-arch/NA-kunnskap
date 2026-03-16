@@ -37,6 +37,9 @@ Repo for arbeid med nasjonal arkitektur, produktbeskrivelser, kapabiliteter, pri
 ## Prinsipper for innhold
 - skriv på norsk i dokumentinnhold
 - bruk `æ`, `ø` og `å` i vanlig tekst
+- skriv for målgruppen for nasjonal arkitektur i aktiv form
+- gjenfortell og syntetiser innholdet med egne formuleringer i stedet for å referere til hva andre kilder sier
+- legg ved lenker til kildene i stedet for å skrive hovedteksten som henvisning til andre dokumenter
 - bruk `sources/links.md` som førstevalg for eksterne kilder
 - oppgi ekstra kilder eksplisitt når arbeidet går bredere enn den lokale lenkelista
 - skill mellom fakta, deduksjon og usikkerhet
