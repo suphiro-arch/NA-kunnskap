@@ -94,5 +94,3 @@ Indikasjon i kilder peker mot nasjonal forvaltning, men detaljfordeling ikke dok
 
 ## Kildegrunnlag brukt i denne utfyllingen
 - Lokal fil: `sources/links.md`
-- Lokal fil: `sources/test.md`
-

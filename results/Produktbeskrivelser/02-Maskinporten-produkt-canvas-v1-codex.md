@@ -95,5 +95,3 @@ Indikasjon i kilder peker mot nasjonal forvaltning hos Digdir, men intern rollef
 
 ## Kildegrunnlag brukt i denne utfyllingen
 - Lokal fil: `sources/links.md`
-- Lokal fil: `sources/test.md`
-

@@ -64,7 +64,7 @@ Usikkert: Ingen kvantitative gevinster eller KPI-er dokumentert i kildene.
 - Risiko ved mangelfull sikkerhetsimplementering hos konsumerende tjenester
 - Avhengighet til ekstern felleskomponent
 
-Grunnlag: Risikoformuleringer i lokale screening-dokumenter (der ID-porten inngår som del av helhetsløsning).
+Grunnlag: Risikoene er utledet fra produktets rolle som nasjonal autentiseringskomponent og generelle integrasjonsavhengigheter.
 
 ## Kanaler
 Usikkert: Ikke detaljert i tilgjengelige kilder. Sannsynlig leveranse via digitale grensesnitt/API-integrasjoner og innloggingsflyt i tjenestekanaler.
@@ -75,11 +75,11 @@ Usikkert: Ikke dokumentert i tilgjengelige kilder (sky/on-prem/lokasjon ikke opp
 ## Gjenbruk
 Høy gjenbruksverdi indikert i kildene:
 - Omtalt som gjenbrukbar nasjonal felleskomponent
-- Brukt sammen med andre felleskomponenter (f.eks. Maskinporten/Felles datakatalog i screening-eksempler)
+- Typisk brukt sammen med andre felleskomponenter som del av offentlig digital samhandling
 
 ## Støtte arkitekturprinsipper
 Delvis grunnlag:
-- Understøtter prinsipper om gjenbruk og standardisering (utledet fra lokale screening-tekster)
+- Understøtter prinsipper om gjenbruk og standardisering
 - Usikkert i hvilken grad alle nasjonale arkitekturprinsipper er oppfylt uten mer dokumentasjon
 
 ## Finansiering
@@ -96,12 +96,7 @@ Usikkert i detalj i lokale kilder. Delvis indikasjon på nasjonal forvaltning gj
 - https://www.digdir.no/id-porten/om-id-porten/1507
 
 ## Kildegrunnlag brukt i denne utfyllingen
-- Lokal fil: `sources/links.md` (tom i dette repoet per nå)
-- Lokal fil: `sources/test.md`
-- Lokal fil: `briefs/tiltak-001.md`
-- Lokal fil: `results/screeninger/2026-02-26-felles-integrasjonsplattform-byggesak.md`
-- Lokal fil: `results/screeninger/2026-02-26-byggesak-integrasjonsplattform.md`
+- Lokal fil: `sources/links.md`
 
 ## Merknad om usikkerhet
 Utfyllingen er gjort konservativt. Der grunnlag mangler i tilgjengelige kilder, er feltene markert som usikre i stedet for å anta detaljer.
-
