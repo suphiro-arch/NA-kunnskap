@@ -1,0 +1,37 @@
+# Repo-regler for assistenter
+
+Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
+
+## Generelt
+- Skriv på norsk i dokumentinnhold, forklaringer og nye markdownfiler.
+- Bruk vanlig norsk tegnsett i dokumentinnhold: `æ`, `ø` og `å`.
+- Bruk ASCII bare der tekniske begrensninger krever det, for eksempel i filnavn, slugger, kode eller enkelte lokale git-hooker.
+- Bevar etablert struktur i repoet: `config/` for regler og maler, `results/` for leveranser, `web/` for Hugo-prototypen, `sources/` for kildegrunnlag og `briefs/` for handoff og beslutninger.
+
+## Produktbeskrivelser
+- Bruk alltid høyeste eksisterende versjonsnummer for et produkt som primært utgangspunkt, uavhengig av om siste versjon er laget av `codex`, `copilot` eller en person.
+- Eldre versjoner skal bare brukes som supplement for historikk, sammenligning eller endringsforståelse.
+- Følg metoden i [config/prompts/produkt-canvas.system.md](/c:/Users/HILROS/NA-kunnskap/config/prompts/produkt-canvas.system.md) ved arbeid med produkt-canvas.
+- Nye produktfiler skal følge gjeldende versjoneringsregel i promptfila.
+
+## Kilder og analyse
+- Bruk `sources/links.md` som førstevalg for eksterne kilder.
+- Gå bredere enn lenkene i `sources/links.md` bare når de er utilstrekkelige, utdaterte eller utilgjengelige.
+- Hvis arbeidet bruker bredere søk enn `sources/links.md`, skal de ekstra kildene nevnes eksplisitt i dokumentasjonen eller leveransen.
+- Skill tydelig mellom fakta, deduksjon og usikkerhet.
+- Hvis en påstand ikke kan bekreftes i tilgjengelige kilder, skal dette sies tydelig i teksten.
+
+## Innhold og språkføring
+- Skriv selvstendige beskrivelser for målgruppen, ikke referat av nettsider eller dokumentasjon.
+- Unngå formuleringer som `nettsiden sier`, `kilden beskriver` og lignende i hovedteksten.
+- Syntetiser kilder til én samlet forklaring med sporbare henvisninger.
+
+## Hugo-prototype
+- Når produktbeskrivelser som mater web-oversikter endres, oppdater relevante genererte oversikter i `web/hugo-prototype/content/`.
+- Bevar nettstedet som en lettlest dokumentasjonsside med tydelig navigasjon og lesbar tekst.
+- Unngå designgrep som gjør dokumentasjon vanskeligere å lese eller navigere.
+
+## Arbeidsflyt
+- Oppdater `briefs/next-step.md` når arbeid endrer hva som er gjort eller hva som gjenstår.
+- Oppdater `briefs/decisions.md` når det tas varige metode- eller arkitekturvalg.
+- Hvis nye generelle regler blir viktige for repoet, legg dem i denne fila heller enn å spre dem tilfeldig i enkeltfiler.
