@@ -112,7 +112,7 @@ Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
 | **Juridisk** | Feil eller foreldet informasjon → påvirker innbyggers rettighetsforståelse | Middels | Klar redaktørpolicy; gjennomsyn; ansvar-fordeling |
 | **Teknisk** | Avhengighet til lenkekvalitet fra andre etater → brutte lenker | Høy | Automatisert link-checking; oppfølging med etater |
 | **Datakvalitet** | Innhold blir foreldet eller irrelevant | Høy | Redaktørteam; revisjonsprosess; insentiver for etater |
-| **Sikkerheit** | Misinformasjon eller manipulasjon av innhold | Middels | Redaktørkontrol; audit; sikring av redaksjonssystem |
+| **Sikkerhet** | Misinformasjon eller manipulasjon av innhold | Middels | Redaktørkontrol; audit; sikring av redaksjonssystem |
 | **Organisatorisk** | Mangel på samarbeid fra fagetater ved publis ering av innhold | Høy | Forpliktelse gjennom styringskort; incentiverr |
 | **Bruker** | Dårlig UX eller språk for lavmål-brukere | Høy | Bruker-testing; fokus på enkel språk; innsyn |
 | **Leverandør** | Avhengighet til offentlig finansiering og styring | Høy | Offentlig eierskap sikrer kontinuitet; budsjett-sikring |

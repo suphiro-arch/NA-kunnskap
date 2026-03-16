@@ -1,6 +1,6 @@
-﻿# Produkt-canvas: Peppol eDelivery
+# Produkt-canvas: Peppol eDelivery
 
-Maalgruppe: Hovedfokus er forretningssiden og strategisk arkitektur.
+Målgruppe: Hovedfokus er forretningssiden og strategisk arkitektur.
 
 ## Navn
 Peppol eDelivery
@@ -12,10 +12,10 @@ Peppol eDelivery
 Produksjon som etablert internasjonalt rammeverk for sikker og standardisert dokumentutveksling.
 
 ## Modenhet
-Hoy:
+Høy:
 - Modent internasjonalt rammeverk med bred adopsjon.
 - Integrert i norsk offentlig/privat samhandling for elektroniske forretningsdokumenter.
-- Bygger paa standardiserte profiler, adressering og transportmoenstre.
+- Bygger på standardiserte profiler, adressering og transportmønstre.
 
 ## Kort beskrivelse
 Peppol eDelivery er et standardisert nettverk og regelverk for utveksling av elektroniske forretningsdokumenter mellom virksomheter over landegrenser og sektorer. I norsk kontekst brukes rammeverket blant annet i eFaktura og offentlig anskaffelsesrelatert samhandling.
@@ -31,79 +31,79 @@ Peppol eDelivery er et standardisert nettverk og regelverk for utveksling av ele
 
 Grunnlag: kapabiliteter mappet mot `index/capabilities.yaml`.
 
-## Produktmaal
-- Tilby interoperabel og sikker dokumentutveksling mellom aktorer.
+## Produktmål
+- Tilby interoperabel og sikker dokumentutveksling mellom aktører.
 - Redusere integrasjonsbarrierer med felles standarder og profiler.
-- Understoette effektiv digital handel og anskaffelsesflyt.
+- Understøtte effektiv digital handel og anskaffelsesflyt.
 
 ## Brukerbehov
-- Virksomheter trenger en felles standard for aa sende/motta elektroniske dokumenter.
+- Virksomheter trenger en felles standard for å sende/motta elektroniske dokumenter.
 - Integrasjonsteam trenger tydelige tekniske rammer for transport, adressering og validering.
 - Offentlige innkjops- og fakturaprosesser trenger sporbar, standardisert dokumentflyt.
 
 ## Hvem er brukerne og brukersegmentene
-- Offentlige virksomheter og leverandoerer.
-- Regnskaps-/ERP-leverandoerer og access point-operatoerer.
-- Naeringslivsaktorer i e-handel og anskaffelse.
+- Offentlige virksomheter og leverandører.
+- Regnskaps-/ERP-leverandører og access point-operatører.
+- Næringslivsaktører i e-handel og anskaffelse.
 
 ## Hovedfunksjoner
 - Standardisert transport og ruting av elektroniske dokumenter.
 - Felles regelverk for interoperabilitet.
 - Samspill med adresseregisterfunksjoner (som ELMA i Norge).
-- Stotte for internasjonal samhandling gjennom anerkjente profiler.
+- Støtte for internasjonal samhandling gjennom anerkjente profiler.
 
 ### Scope og avgrensning
-- Inngaar:
+- Inngår:
   - transport-/samhandlingsrammeverk
   - standardprofiler og interoperabilitetsregler
-- Inngaar ikke:
+- Inngår ikke:
   - nasjonal faglogikk i hver virksomhets okonomisystem
-  - lokal prosesshaandtering utover dokumentutveksling
+  - lokal prosesshåndtering utover dokumentutveksling
 
 ## Veikart over kommende funksjonalitet
-- Loepende videreutvikling i internasjonalt standardiseringsloep.
-- Nasjonale prioriteringer styres av relevante norske myndigheter og forvaltningsmiljoer.
+- Løpende videreutvikling i internasjonalt standardiseringsløp.
+- Nasjonale prioriteringer styres av relevante norske myndigheter og forvaltningsmiljøer.
 
 ## Forretningsverdi/Verdiforslag
 - Reduserer kostnader ved grensekryssende og tverrsektoriell dokumentutveksling.
-- Oeker kvalitet og treffsikkerhet i automatiserte dokumentprosesser.
-- Bedre skalerbarhet enn proprietaere punkt-til-punkt-loesninger.
+- Øker kvalitet og treffsikkerhet i automatiserte dokumentprosesser.
+- Bedre skalerbarhet enn proprietære punkt-til-punkt-løsninger.
 
 ## Utfordringer og risiko
-- Juridisk risiko: ulik regelverksforstaaelse mellom domener/land.
+- Juridisk risiko: ulik regelverksforståelse mellom domener/land.
 - Teknisk risiko: feil profilbruk eller mapping gir avviste dokumenter.
 - Sikkerhetsrisiko: utilstrekkelig sikring av noder/endepunkter.
-- Leverandoerrisiko: varierende modenhet hos access points/systemleverandoerer.
+- Leverandørrisiko: varierende modenhet hos access points/systemleverandører.
 - Brukerrisiko: feil konfigurert eDelivery-flyt gir operasjonelle avvik.
 
 ## Kanaler
 - Access points og integrasjoner i ERP/okonomisystem.
-- Offentlige veiledningssider (DFO/forvaltningsmiljoer).
+- Offentlige veiledningssider (DFO/forvaltningsmiljøer).
 
 ## Plattform
 Internasjonalt standardnettverk for elektronisk dokumentutveksling.
-Nasjonal bruk forankres i norske forvaltnings- og regelverksmiljoer.
+Nasjonal bruk forankres i norske forvaltnings- og regelverksmiljøer.
 
 ## Gjenbruk
-Svaert hoy gjenbruksverdi:
-- samme samhandlingsmoenster kan brukes av mange aktorer
+Svært høy gjenbruksverdi:
+- samme samhandlingsmønster kan brukes av mange aktører
 - reduserer behov for unike integrasjoner per motpart
-- fremmer interoperabilitet paa tvers av grenser og sektorer
+- fremmer interoperabilitet på tvers av grenser og sektorer
 
-## Stoette arkitekturprinsipper
-Sterk stoette for:
+## Støtte arkitekturprinsipper
+Sterk støtte for:
 - P4 Del og gjenbruk data
-- P6 Lag digitale loesninger som stoetter samhandling
-- P5 Del og gjenbruk loesninger
+- P6 Lag digitale løsninger som støtter samhandling
+- P5 Del og gjenbruk løsninger
 
 ## Finansiering
 Ikke eksplisitt spesifisert i kildene brukt her.
 
 ## Forvaltning/eier
-- Produktansvar: internasjonalt rammeverk med nasjonal oppfoelging
-- Driftsansvar: distribuert mellom deltagende infrastrukturaktorer
-- Budsjettansvar: usikkert i offentlig detaljnivaa
-- Styringsmodell: standard- og regelverksstyrt oekosystem
+- Produktansvar: internasjonalt rammeverk med nasjonal oppfølging
+- Driftsansvar: distribuert mellom deltagende infrastrukturaktører
+- Budsjettansvar: usikkert i offentlig detaljnivå
+- Styringsmodell: standard- og regelverksstyrt økosystem
 
 ## Lenke til dokumentasjon
 - https://anskaffelser.no/e-handel/verktoy/peppol-edelivery

@@ -65,7 +65,7 @@ Grunnlag: kapabiliteter mappet mot `index/capabilities.yaml`.
 ## Veikart over kommende funksjonalitet
 - Forventet løpende forbedring av metadata-kvalitet, søkbarhet og brukervennlighet.
 - Kontinuerlig utvikling i samspill med Felles datakatalog og nasjonale datadelingsinitiativ.
-- Konkrete prioriteringer må avstemmes med Digdirs offentlige roadmap/forvaltningsinfo.
+- Konkrete prioriteringer må avstemmes med Digdirs offentlige roadmap/forvaltningsinformasjon.
 
 ## Forretningsverdi/Verdiforslag
 - Reduserer dobbeltarbeid ved at eksisterende dataressurser blir synlige.

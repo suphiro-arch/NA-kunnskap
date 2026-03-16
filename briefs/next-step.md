@@ -1,26 +1,37 @@
-﻿---
-date: 2026-03-06
+---
+date: 2026-03-16
 author: codex
 status: draft
-topic: handoff
-sources: []
+topic: dokumentasjonsassistent-neste-steg
+sources:
+  - briefs/2026-03-16-dokumentasjonsassistent-mvp-v1.md
 ---
 
 # Neste steg
 
 ## Hva er gjort
-- 
+- Definert målbildet for en åpen dokumentasjonsassistent på nettsiden.
+- Avgrenset MVP til kun offentlig informasjon fra repoet.
+- Beskrevet anbefalt arkitektur med Hugo-frontend, egen backend og OpenAI retrieval.
+- Dokumentert lisens- og avtaleavklaringer som må på plass før bygging.
 
-## Hva gjenstaar
-- 
+## Hva gjenstår
+- Velge lisens for dokumentasjonsinnholdet i repoet.
+- Velge backend-plattform for assistenten.
+- Lage teknisk skjelett for backend og indeksering.
+- Koble enkel chatflate til Hugo-prototypen.
 
 ## Blokkere/risiko
-- 
+- Repoet har ingen eksplisitt lisens for dokumentasjonsinnholdet.
+- Åpen internettflate krever moderering, rate limiting og tydelig avgrensning av datagrunnlag.
+- Eldre produktbeskrivelser kan gi ujevn retrieval-kvalitet.
 
 ## Konkrete neste oppgaver
-1. 
-2. 
-3. 
+1. Avklar lisens for offentlig dokumentasjonsinnhold.
+2. Velg backend-plattform, helst Azure Functions.
+3. Lag første backend-skjelett for `/api/ask`.
+4. Lag første indeksjobb for repo-dokumentasjonen.
+5. Legg inn enkel chat-widget i Hugo-prototypen.
 
 ## Referanser
-- 
+- [MVP-skisse for dokumentasjonsassistent](c:/Users/HILROS/NA-kunnskap/briefs/2026-03-16-dokumentasjonsassistent-mvp-v1.md)

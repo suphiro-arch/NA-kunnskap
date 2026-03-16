@@ -1,6 +1,6 @@
-﻿# Produkt-canvas: Varslinger
+# Produkt-canvas: Varslinger
 
-Maalgruppe: Hovedfokus er forretningssiden og strategisk arkitektur.
+Målgruppe: Hovedfokus er forretningssiden og strategisk arkitektur.
 
 ## Navn
 Altinn Varslinger
@@ -11,23 +11,23 @@ Altinn Varslinger
 Produksjon med kontinuerlig videreutvikling.
 
 ## Modenhet
-Middels til hoy:
-- Etablert varslingsprodukt med API, kanalstoette og testprosedyrer.
+Middels til høy:
+- Etablert varslingsprodukt med API, kanalstøtte og testprosedyrer.
 - Integrert med nasjonale registre for oppslag av navn/kontaktinformasjon.
-- Omraadet utvikles videre med planlagte utvidelser i kanalstoette.
+- Området utvikles videre med planlagte utvidelser i kanalstøtte.
 
 ## Kort beskrivelse
-Altinn Varslinger er en tjeneste for enveis digital varsling til innbyggere og virksomheter via e-post og SMS. Produktet muliggjoer programmatisk utsending, mottakeroppslag, kanalprioritering og leveringsoppfolging i offentlig kommunikasjon.
+Altinn Varslinger er en tjeneste for enveis digital varsling til innbyggere og virksomheter via e-post og SMS. Produktet muliggjør programmatisk utsending, mottakeroppslag, kanalprioritering og leveringsoppfølging i offentlig kommunikasjon.
 
 ## Kapabiliteter
-- Proaktiv kommunikasjon: utsending av varsler paa riktige tidspunkter.
-- Integrasjon: API-basert bestilling, oppfolging og status.
+- Proaktiv kommunikasjon: utsending av varsler på riktige tidspunkter.
+- Integrasjon: API-basert bestilling, oppfølging og status.
 - Registerbasert databruk: oppslag av navn/kontaktdetaljer via nasjonale registre.
 - Regelstyring: sendebetingelser og kanalpreferanser.
 - Tillit og tilgang: samspill med Altinn autorisasjon for mottakeridentifikasjon i organisasjoner.
 
-## Produktmaal
-- Gjore det enkelt for offentlige aktorer aa sende driftssikre varsler i stor skala.
+## Produktmål
+- Gjøre det enkelt for offentlige aktører å sende driftssikre varsler i stor skala.
 - Redusere feilutsendelser gjennom oppslag, deduplisering og betingelsesstyring.
 - Styrke sluttbrukeropplevelse med rett kanal til rett mottaker.
 - Tilby felles varslingskapabilitet som kan gjenbrukes i flere tjenester.
@@ -35,45 +35,45 @@ Altinn Varslinger er en tjeneste for enveis digital varsling til innbyggere og v
 ## Brukerbehov
 - Tjenesteeiere trenger en felles, sikker og effektiv varslingsmotor.
 - Sluttbrukere trenger tidsriktige varsler om hendelser som krever oppmerksomhet.
-- Integrasjonsteam trenger robuste API-er for utsending og statushaandtering.
+- Integrasjonsteam trenger robuste API-er for utsending og statushåndtering.
 
 ## Hvem er brukerne og brukersegmentene
 - Offentlige tjenesteeiere og interne Altinn-systemer.
-- Leverandoerer av fagsystem og tjenesteeiersystemer.
+- Leverandører av fagsystem og tjenesteeiersystemer.
 - Innbyggere og virksomheter som mottar varsler.
-- Drifts- og sikkerhetsmiljoer som foelger opp levering og feilhaandtering.
+- Drifts- og sikkerhetsmiljøer som følger opp levering og feilhåndtering.
 
 ## Hovedfunksjoner
 - Utsending via e-post og SMS med kanalpreferanse og fallback.
-- Mottakeroppslag (navn, kontaktinfo, reservasjonsstatus) basert paa foedselsnummer/organisasjonsnummer.
+- Mottakeroppslag (navn, kontaktinfo, reservasjonsstatus) basert på fødselsnummer/organisasjonsnummer.
 - Autorisasjonsbasert mottakeridentifikasjon for organisasjonskontekst.
-- Sendebetingelser for paa-minnelse og hendelsesstyrt varsling.
+- Sendebetingelser for på-minnelse og hendelsesstyrt varsling.
 - Status- og feilhendelser tilgjengelig via API.
-- Teststoette for TT02 med kontrollerte mekanismer for SMS.
+- Teststøtte for TT02 med kontrollerte mekanismer for SMS.
 
 ### Scope og avgrensning
-- Inngaar:
+- Inngår:
   - enveis varsling (ikke full toveis dialog)
   - kanalstyring, oppslag, betingelser, status
   - integrasjon mot tjenesteeiersystemer og Altinn-tjenester
-- Inngaar ikke:
-  - vedlegg i e-postvarsler (ikke stoettet per dokumentasjon)
+- Inngår ikke:
+  - vedlegg i e-postvarsler (ikke støttet per dokumentasjon)
   - full meldingsboksfunksjonalitet (dekkes av andre produkter som Melding/Dialogporten)
 
 ## Veikart over kommende funksjonalitet
-- Dokumentasjonen beskriver plan om bredere kanalstoette over tid.
+- Dokumentasjonen beskriver plan om bredere kanalstøtte over tid.
 - Videreutvikling av forklaringer/referanse for oppslag, betingelser og API-funksjoner.
-- Konkrete leveransepunkter boer loepende avstemmes mot produktets offentlige backlog/status.
+- Konkrete leveransepunkter bør løpende avstemmes mot produktets offentlige backlog/status.
 
 ## Forretningsverdi/Verdiforslag
-- Hoy nytte for tjenester med behov for rask brukeroppmerksomhet.
-- Reduserer behov for virksomhetsspesifikke varslingsloesninger.
-- Oeker treffsikkerhet i kommunikasjon gjennom register- og autorisasjonsbaserte oppslag.
-- Bedre operasjonell kontroll via programmatisk status- og feilhaandtering.
+- Høy nytte for tjenester med behov for rask brukeroppmerksomhet.
+- Reduserer behov for virksomhetsspesifikke varslingsløsninger.
+- Øker treffsikkerhet i kommunikasjon gjennom register- og autorisasjonsbaserte oppslag.
+- Bedre operasjonell kontroll via programmatisk status- og feilhåndtering.
 
 ## Utfordringer og risiko
 - Personvern- og etterlevelsesrisiko knyttet til kontaktdata og varslingsinnhold.
-- Leveringsrisiko i eksterne kanaler (spamfiltrering, teleoperatoerforhold, forsinkelse).
+- Leveringsrisiko i eksterne kanaler (spamfiltrering, teleoperatørforhold, forsinkelse).
 - Avhengighet til kvalitet/timeliness i registerdata.
 - Risiko for feil konfigurasjon av sendebetingelser og kanalpolicy.
 
@@ -83,21 +83,21 @@ Altinn Varslinger er en tjeneste for enveis digital varsling til innbyggere og v
 - Kanalpreferansemodeller (e-post foretrukket / SMS foretrukket med fallback)
 
 ## Plattform
-Skybasert API-tjeneste i Altinn-oekosystemet.
+Skybasert API-tjeneste i Altinn-økosystemet.
 Detaljer om driftslokasjon/underliggende infrastruktur er ikke eksplisitt beskrevet i kildene brukt her.
 
 ## Gjenbruk
-Svaert hoy gjenbruksverdi:
+Svært høy gjenbruksverdi:
 - felles API-basert varslingsmotor for flere offentlige tjenester
-- felles moenster for kanalvalg, mottakeroppslag og betinget sending
+- felles mønster for kanalvalg, mottakeroppslag og betinget sending
 - reduserer duplisering av varslingsfunksjon i enkeltprosjekter
 
-## Stoette arkitekturprinsipper
-Vurderes som sterk paa:
+## Støtte arkitekturprinsipper
+Vurderes som sterk på:
 - gjenbruk av felleskomponenter
 - standardiserte grensesnitt og automatisering
 - innebygd sikkerhet og styring av tilgang/mottakeridentitet
-- robust digital samhandling paa tvers av virksomheter
+- robust digital samhandling på tvers av virksomheter
 
 ## Finansiering
 Ikke spesifisert i kildene brukt her.
@@ -107,8 +107,8 @@ Forutsettes som del av offentlig finansiert nasjonal fellestjeneste.
 Ma kvalitetssikres mot formell styringsinformasjon:
 - Produktansvar: Altinn-forvaltningen
 - Driftsansvar: Altinn-forvaltningen
-- Budsjettansvar: Usikkert i offentlig detaljnivaa
-- Styringsmodell: Nasjonal forvaltning av felleslosning
+- Budsjettansvar: Usikkert i offentlig detaljnivå
+- Styringsmodell: Nasjonal forvaltning av fellesløsning
 
 ## Lenke til dokumentasjon
 - https://docs.altinn.studio/nb/notifications/
