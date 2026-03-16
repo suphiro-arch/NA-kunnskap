@@ -6,7 +6,11 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Skriv på norsk i dokumentinnhold, forklaringer og nye markdownfiler.
 - Bruk vanlig norsk tegnsett i dokumentinnhold: `æ`, `ø` og `å`.
 - Bruk ASCII bare der tekniske begrensninger krever det, for eksempel i filnavn, slugger, kode eller enkelte lokale git-hooker.
-- Bevar etablert struktur i repoet: `config/` for regler og maler, `results/` for leveranser, `web/` for Hugo-prototypen, `sources/` for kildegrunnlag og `briefs/` for handoff og beslutninger.
+- Bevar etablert struktur i repoet: `config/` for regler og maler, `results/` for leveranser, `web/` for Hugo-prototypen, `sources/` for kildegrunnlag og `briefs/` for arbeidsstyring og handover.
+- Tolking av mapper:
+  - `results/` brukes for leveranser og innhold som skal kunne gjenbrukes direkte.
+  - `briefs/` brukes for arbeidsstyring, handover, beslutninger og mellomdokumenter.
+  - `briefs/arbeidsstyring-og-handover/` brukes for større arbeidsnotater, MVP-skisser, handover-dokumenter og lignende som ikke er sluttleveranser.
 
 ## Produktbeskrivelser
 - Bruk alltid høyeste eksisterende versjonsnummer for et produkt som primært utgangspunkt, uavhengig av om siste versjon er laget av `codex`, `copilot` eller en person.
@@ -34,4 +38,5 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 ## Arbeidsflyt
 - Oppdater `briefs/next-step.md` når arbeid endrer hva som er gjort eller hva som gjenstår.
 - Oppdater `briefs/decisions.md` når det tas varige metode- eller arkitekturvalg.
+- Legg nye arbeidsdokumenter og handover-notater i `briefs/arbeidsstyring-og-handover/` når de ikke hører hjemme i `results/`.
 - Hvis nye generelle regler blir viktige for repoet, legg dem i denne fila heller enn å spre dem tilfeldig i enkeltfiler.

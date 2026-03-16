@@ -5,8 +5,14 @@ Denne fila beskriver hvordan assistenter (Copilot/Codex) samarbeider via filer i
 ## Mapper
 - `sources/`: rådata, kilder, linker, notater fra oppslag.
 - `results/`: bearbeidede leveranser og ferdige beskrivelser.
-- `briefs/`: handoff, avklaringer, beslutninger og neste steg.
+- `briefs/`: arbeidsstyring, handover, avklaringer, beslutninger og neste steg.
 - `config/`: schema, prompts og felles konfig.
+
+## Struktur i `briefs/`
+- `briefs/next-step.md`: kort status over hva som er gjort og hva som gjenstår.
+- `briefs/decisions.md`: varige beslutninger om metode, struktur og arkitektur.
+- `briefs/arbeidsstyring-og-handover/`: arbeidsdokumenter, skisser, handover-notater og større mellomleveranser som ikke er faglige sluttresultater.
+- Bruk `results/` for leveranser som skal fungere som kunnskapsgrunnlag eller ferdig innhold; bruk `briefs/` for arbeidsstyring og overgang mellom økter.
 
 ## Minimum metadata i nye markdownfiler
 Bruk denne frontmatteren:
@@ -42,6 +48,7 @@ Dette gjelder som standard for nye markdown- og dokumentasjonsfiler. Hvis en bes
 2. Skriv oppsummering/leveranse i `results/` med kildehenvisning.
 3. Oppdater `briefs/next-step.md` med hva som er gjort og hva som gjenstår.
 4. Logg viktige valg i `briefs/decisions.md`.
+5. Legg arbeidsdokumenter og handover-notater i `briefs/arbeidsstyring-og-handover/`.
 
 ## Navngiving
 Format: `YYYY-MM-DD-tema-vN.md`
