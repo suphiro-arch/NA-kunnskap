@@ -1,12 +1,12 @@
-# NA kunnskap arbeidsflyt
+# Briefs: arbeidsstyring og handover
 
-Denne fila beskriver hvordan assistenter (Copilot/Codex) samarbeider via filer i repoet.
+Denne fila beskriver hvordan `briefs/` brukes til arbeidsstyring, handover og beslutningsstøtte i repoet.
 
-## Mapper
-- `sources/`: rådata, kilder, linker, notater fra oppslag.
-- `results/`: bearbeidede leveranser og ferdige beskrivelser.
-- `briefs/`: arbeidsstyring, handover, avklaringer, beslutninger og neste steg.
-- `config/`: schema, prompts og felles konfig.
+## Rolle i repoet
+- `briefs/` brukes for arbeidsstyring, handover, avklaringer, beslutninger og mellomdokumenter.
+- `results/` brukes for leveranser og innhold som skal fungere som kunnskapsgrunnlag videre.
+- Hvis et dokument primært er et arbeidsnotat eller en skisse, hører det hjemme i `briefs/`.
+- Hvis et dokument er en faglig leveranse eller et innholdsdokument som skal gjenbrukes direkte, hører det hjemme i `results/`.
 
 ## Struktur i `briefs/`
 - `briefs/next-step.md`: kort status over hva som er gjort og hva som gjenstår.
