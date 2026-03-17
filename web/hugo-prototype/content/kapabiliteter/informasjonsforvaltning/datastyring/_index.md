@@ -13,6 +13,6 @@ Denne delkapabiliteten er en del av [Informasjonsforvaltning](../).
 
 ## Relaterte produkter
 
-| Produkt | Produktbeskrivelse | Hvorfor relevant | Link til dokumentasjon |
-| --- | --- | --- | --- |
-| Begrepskatalog | v2 (copilot) | Forvaltning av begrepskvalitet | [Åpne dokumentasjon](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/14-Begrepskatalog-produkt-canvas-v2-copilot.md) |
+| Produkt | Produktbeskrivelse | Hvorfor relevant |
+| --- | --- | --- |
+| Begrepskatalog | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/14-Begrepskatalog-produkt-canvas-v2-copilot.md) | Forvaltning av begrepskvalitet |

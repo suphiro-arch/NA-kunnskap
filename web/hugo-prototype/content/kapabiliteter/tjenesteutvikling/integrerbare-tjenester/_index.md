@@ -13,7 +13,7 @@ Denne delkapabiliteten er en del av [Tjenesteutvikling](../).
 
 ## Relaterte produkter
 
-| Produkt | Produktbeskrivelse | Hvorfor relevant | Link til dokumentasjon |
-| --- | --- | --- | --- |
-| Altinn formidling (Broker) | v2 (copilot) | Standardisert API for integrasjon | [Åpne dokumentasjon](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/08-Altinn-formidling-produkt-canvas-v2-copilot.md) |
-| API-katalog | v2 (copilot) | Standard API-katalogisering | [Åpne dokumentasjon](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md) |
+| Produkt | Produktbeskrivelse | Hvorfor relevant |
+| --- | --- | --- |
+| Altinn formidling (Broker) | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/08-Altinn-formidling-produkt-canvas-v2-copilot.md) | Standardisert API for integrasjon |
+| API-katalog | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md) | Standard API-katalogisering |

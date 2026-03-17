@@ -13,6 +13,6 @@ Denne delkapabiliteten er en del av [Informasjonsforvaltning](../).
 
 ## Relaterte produkter
 
-| Produkt | Produktbeskrivelse | Hvorfor relevant | Link til dokumentasjon |
-| --- | --- | --- | --- |
-| API-katalog | v2 (copilot) | Katalogisering og søk av API-ressurser | [Åpne dokumentasjon](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md) |
+| Produkt | Produktbeskrivelse | Hvorfor relevant |
+| --- | --- | --- |
+| API-katalog | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md) | Katalogisering og søk av API-ressurser |

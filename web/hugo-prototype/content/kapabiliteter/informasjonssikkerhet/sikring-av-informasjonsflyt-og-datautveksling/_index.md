@@ -13,6 +13,6 @@ Denne delkapabiliteten er en del av [Informasjonssikkerhet](../).
 
 ## Relaterte produkter
 
-| Produkt | Produktbeskrivelse | Hvorfor relevant | Link til dokumentasjon |
-| --- | --- | --- | --- |
-| eFormidling | v2 (copilot) | Kryptering, integritet, ikke-benektelse | [Åpne dokumentasjon](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md) |
+| Produkt | Produktbeskrivelse | Hvorfor relevant |
+| --- | --- | --- |
+| eFormidling | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md) | Kryptering, integritet, ikke-benektelse |

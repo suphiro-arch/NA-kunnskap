@@ -13,8 +13,8 @@ Denne delkapabiliteten er en del av [Datautveksling og integrasjon](../).
 
 ## Relaterte produkter
 
-| Produkt | Produktbeskrivelse | Hvorfor relevant | Link til dokumentasjon |
-| --- | --- | --- | --- |
-| eFormidling | v2 (copilot) | Mottak og automatisering av innkommende meldinger | [Åpne dokumentasjon](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md) |
-| Altinn formidling (Broker) | v2 (copilot) | Mottaker henter data fra formidlingstjeneste | [Åpne dokumentasjon](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/08-Altinn-formidling-produkt-canvas-v2-copilot.md) |
-| API-katalog | v2 (copilot) | Oppdagelse og gjenbruk av API-er | [Åpne dokumentasjon](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md) |
+| Produkt | Produktbeskrivelse | Hvorfor relevant |
+| --- | --- | --- |
+| eFormidling | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md) | Mottak og automatisering av innkommende meldinger |
+| Altinn formidling (Broker) | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/08-Altinn-formidling-produkt-canvas-v2-copilot.md) | Mottaker henter data fra formidlingstjeneste |
+| API-katalog | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md) | Oppdagelse og gjenbruk av API-er |
