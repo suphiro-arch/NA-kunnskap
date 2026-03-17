@@ -1,4 +1,4 @@
----
+﻿---
 date: 2026-03-16
 author: codex
 status: draft
@@ -19,6 +19,7 @@ sources:
 - Strammet inn metodekravet for kapabiliteter: bare direkte og sterke koblinger til produktets egen funksjon skal tas med.
 - Regenerert produktover­sikten i Hugo-prototypen slik at siste versjon for produkt `02-06` nå vises på nettsiden.
 - Lagt om publiseringsmodellen for Hugo-prototypen til GitHub Pages artifact-deploy direkte fra `web/hugo-prototype/`.
+- Innført en eksplisitt masterfil for koblingen mellom produkter og kapabiliteter i `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.json`, og lagt om webgeneratorene til å bruke den begge veier.
 
 ## Hva gjenstår
 - Velge lisens for dokumentasjonsinnholdet i repoet.
@@ -26,6 +27,7 @@ sources:
 - Lage teknisk skjelett for backend og indeksering.
 - Koble enkel chatflate til Hugo-prototypen.
 - Oppdatere de neste produktbeskrivelsene i stigende rekkefølge etter samme metode som for `02-06`.
+- Følge opp kvaliteten i selve koblingene mellom produkter og kapabiliteter, særlig i eldre produktbeskrivelser der kapabilitetsseksjonen er svakere eller mindre presis.
 
 ## Blokkere/risiko
 - Repoet har ingen eksplisitt lisens for dokumentasjonsinnholdet.
@@ -41,12 +43,13 @@ sources:
 5. Legg inn enkel chat-widget i Hugo-prototypen.
 6. Fortsett revisjon av produktbeskrivelser med samme regler for direkte kapabilitetskobling og ryddigere metadata.
 7. Verifiser at GitHub Pages bruker Actions-baserte deployments og ikke gammel `docs/`-publisering.
+8. Kvalitetssikre koblingene i masterfila mot eldre produktbeskrivelser, slik at begge retninger i webprototypen blir faglig konsistente.
 
 ## Referanser
 - [MVP-skisse for dokumentasjonsassistent](c:/Users/HILROS/NA-kunnskap/briefs/arbeidsstyring-og-handover/2026-03-16-dokumentasjonsassistent-mvp-v1.md)
 
 ## Strukturforslag som er utsatt
-- Vurdere ? samle produktrelatert grunnlag i en tydeligere mappe under `arkitektur/`, for eksempel `arkitektur/produkter/`.
-- Vurdere om produktbeskrivelser p? sikt b?r flyttes til en egen undermappe for genererte beskrivelser, i stedet for ? ligge direkte under `results/Produktbeskrivelser/`.
-- Vurdere om `sources/links.md` p? sikt b?r flyttes n?rmere produktomr?det.
-- Vurdere om en bredere mappe som `ressurser/` senere b?r samle produkter, standarder, veiledninger og andre virkemidler.
+- Vurdere å samle produktrelatert grunnlag i en tydeligere mappe under `arkitektur/`, for eksempel `arkitektur/produkter/`.
+- Vurdere om produktbeskrivelser på sikt bør flyttes til en egen undermappe for genererte beskrivelser, i stedet for å ligge direkte under `results/Produktbeskrivelser/`.
+- Vurdere om `sources/links.md` på sikt bør flyttes nærmere produktområdet.
+- Vurdere om en bredere mappe som `ressurser/` senere bør samle produkter, standarder, veiledninger og andre virkemidler.

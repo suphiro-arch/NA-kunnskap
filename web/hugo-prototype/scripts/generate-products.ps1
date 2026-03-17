@@ -2,8 +2,10 @@
 
 $srcDir = 'results/Produktbeskrivelser'
 $outDir = 'web/hugo-prototype/content/ressursoversikt/produkter'
+$mapFile = 'arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.json'
 $repoBlobBase = 'https://github.com/suphiro-arch/NA-kunnskap/blob/main'
 New-Item -ItemType Directory -Force -Path $outDir | Out-Null
+$productCapabilityMap = Get-Content -Raw $mapFile -Encoding utf8 | ConvertFrom-Json
 
 $patternCurrent = '^(?<id>\d+)-(?<name>.+)-produkt-canvas-v(?<ver>\d+)-(?<author>[^.]+)\.md$'
 $patternNoAuthor = '^(?<id>\d+)-(?<name>.+)-produkt-canvas-v(?<ver>\d+)\.md$'
@@ -152,90 +154,33 @@ function Extract-DisplayName {
   return (($Fallback -replace '-', ' ').Trim())
 }
 
-function Convert-ToSlug {
-  param([string]$Value)
-
-  $slug = $Value.Trim().ToLowerInvariant()
-  $slug = $slug.Replace('æ', 'ae').Replace('ø', 'o').Replace('å', 'a')
-  $slug = $slug -replace '[^a-z0-9]+', '-'
-  return $slug.Trim('-')
-}
-
-function Resolve-CapabilitySlug {
-  param([string]$Value)
-
-  $slug = Convert-ToSlug $Value
-  $aliases = @{
-    'datautveksling' = 'datautveksling-og-integrasjon'
-    'samhandling' = 'samarbeid'
-    'informasjonsstyring' = 'informasjonsforvaltning'
-    'informasjonssikkerheit' = 'informasjonssikkerhet'
-  }
-
-  if ($aliases.ContainsKey($slug)) {
-    return $aliases[$slug]
-  }
-
-  return $slug
-}
-
 function Extract-CapabilityLinks {
-  param([string[]]$Section)
+  param([string]$RelativePath)
 
   $links = New-Object System.Collections.Generic.List[string]
   $seen = @{}
-  $capabilityRoot = 'web/hugo-prototype/content/kapabiliteter'
+  $productEntry = $productCapabilityMap.products |
+    Where-Object { $_.relative_path -eq $RelativePath } |
+    Select-Object -First 1
 
-  foreach ($line in $Section) {
-    $trim = $line.Trim()
-    if ($trim -notmatch '^- ') { continue }
-    if ($trim -notmatch '^\-\s+\*\*(.+?)\*\*') { continue }
+  if (-not $productEntry) {
+    return 'Ikke koblet til kapabilitetssider ennå.'
+  }
 
-    $label = $Matches[1].Trim()
-    $parts = ($label -split ':', 2) | ForEach-Object { $_.Trim() }
-
-    if ($parts.Count -eq 2 -and $parts[1]) {
-      $mainSlug = Resolve-CapabilitySlug $parts[0]
-      $subSlug = Convert-ToSlug $parts[1]
-      $targetDir = Join-Path $capabilityRoot (Join-Path $mainSlug $subSlug)
-      if (Test-Path $targetDir) {
-        $key = "$mainSlug/$subSlug"
-        if (-not $seen.ContainsKey($key)) {
-          $links.Add(("[{0}](../../kapabiliteter/{1}/{2}/)" -f $parts[1], $mainSlug, $subSlug))
-          $seen[$key] = $true
-        }
-        continue
-      }
-    }
-
-    $mainSlugOnly = Resolve-CapabilitySlug $parts[0]
-    $mainDir = Join-Path $capabilityRoot $mainSlugOnly
-    if (Test-Path $mainDir) {
-      $key = $mainSlugOnly
+  foreach ($capability in $productEntry.capabilities) {
+    if ($capability.subcapability_slug) {
+      $key = "{0}/{1}" -f $capability.capability_slug, $capability.subcapability_slug
       if (-not $seen.ContainsKey($key)) {
-        $links.Add(("[{0}](../../kapabiliteter/{1}/)" -f $parts[0], $mainSlugOnly))
+        $links.Add(("[{0}](../../kapabiliteter/{1}/{2}/)" -f $capability.subcapability_name, $capability.capability_slug, $capability.subcapability_slug))
         $seen[$key] = $true
       }
       continue
     }
 
-    $subSlugOnly = Convert-ToSlug $parts[0]
-    $subMatch = Get-ChildItem -Directory -Recurse $capabilityRoot |
-      Where-Object { $_.Name -eq $subSlugOnly } |
-      Select-Object -First 1
-    if ($subMatch) {
-      $relative = $subMatch.FullName.Substring((Resolve-Path $capabilityRoot).Path.Length).TrimStart('\') -replace '\\', '/'
-      $key = $relative
-      if (-not $seen.ContainsKey($key)) {
-        $links.Add(("[{0}](../../kapabiliteter/{1}/)" -f $parts[0], $relative))
-        $seen[$key] = $true
-      }
-      continue
-    }
-
-    if (-not $seen.ContainsKey($label)) {
-      $links.Add($label)
-      $seen[$label] = $true
+    $key = $capability.capability_slug
+    if (-not $seen.ContainsKey($key)) {
+      $links.Add(("[{0}](../../kapabiliteter/{1}/)" -f $capability.capability_name, $capability.capability_slug))
+      $seen[$key] = $true
     }
   }
 
@@ -267,9 +212,8 @@ foreach ($p in $latest) {
   $raw = Get-Content -Path $p.FullPath -Encoding utf8
   $displayName = Extract-DisplayName -Lines $raw -Fallback $p.Name
   $descriptionSection = Extract-Section -Lines $raw -Heading 'Kort beskrivelse'
-  $capabilitySection = Extract-Section -Lines $raw -Heading 'Kapabiliteter'
   $shortDescription = Shorten-OverviewDescription -Text (Clean-ShortDescription -Section $descriptionSection)
-  $capabilityLinks = Extract-CapabilityLinks -Section $capabilitySection
+  $capabilityLinks = Extract-CapabilityLinks -RelativePath $p.RelativePath
 
   $blobUrl = ('{0}/{1}' -f $repoBlobBase, $p.RelativePath)
   $versionLabel = if ($p.Version -gt 0) { "v$($p.Version)" } else { 'legacy' }
