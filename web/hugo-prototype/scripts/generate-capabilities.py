@@ -1,5 +1,6 @@
 ﻿from __future__ import annotations
 
+import json
 import re
 import shutil
 import unicodedata
@@ -8,6 +9,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
 CAPABILITIES_FILE = REPO_ROOT / 'arkitektur' / 'kapabiliteter' / 'capabilities.yaml'
+MAP_FILE = REPO_ROOT / 'arkitektur' / 'kapabiliteter' / 'produkt-kapabilitet-koblinger.json'
 PRODUCTS_DIR = REPO_ROOT / 'results' / 'Produktbeskrivelser'
 OUT_DIR = REPO_ROOT / 'web' / 'hugo-prototype' / 'content' / 'kapabiliteter'
 REPO_BLOB_BASE = 'https://github.com/suphiro-arch/NA-kunnskap/blob/main'
@@ -311,63 +313,36 @@ def extract_display_name(markdown: str, fallback: str) -> str:
 
 
 def parse_product_capability_mappings(capabilities: list[dict]) -> tuple[dict[str, list[dict]], dict[str, list[dict]]]:
-    capability_lookup = {normalize_name(cap['navn']): cap for cap in capabilities}
-    subcap_lookup: dict[str, tuple[dict, dict]] = {}
-    for cap in capabilities:
-        for sub in cap['delkapabiliteter']:
-            subcap_lookup[normalize_name(sub['navn'])] = (cap, sub)
-
     capability_products: dict[str, list[dict]] = defaultdict(list)
     subcap_products: dict[str, list[dict]] = defaultdict(list)
 
-    for product in latest_product_files():
-        markdown = read_text(product['path'])
-        display_name = extract_display_name(markdown, product['name'])
-        section = extract_section(markdown, 'Kapabiliteter')
-        if not section:
-            continue
-        for raw_line in section.splitlines():
-            line = raw_line.strip()
-            if not line.startswith('- '):
-                continue
-            match = BOLD_BULLET_PATTERN.match(line)
-            if not match:
-                continue
-            label = match.group(1).strip()
-            explanation = (match.group(2) or '').strip().lstrip('–- ').rstrip('.')
-            label_parts = [part.strip() for part in label.split(':', 1)]
-
-            mapped_capability = None
-            mapped_subcap = None
-            if len(label_parts) == 2:
-                main_key = normalize_name(label_parts[0])
-                sub_key = normalize_name(label_parts[1])
-                mapped_capability = capability_lookup.get(main_key)
-                if sub_key in subcap_lookup:
-                    mapped_capability, mapped_subcap = subcap_lookup[sub_key]
-            else:
-                key = normalize_name(label)
-                mapped_capability = capability_lookup.get(key)
-                if key in subcap_lookup:
-                    mapped_capability, mapped_subcap = subcap_lookup[key]
-
-            if not mapped_capability:
-                continue
-
-            entry = {
-                'product_id': product['id'],
-                'product_name': display_name,
+    mapping = json.loads(MAP_FILE.read_text(encoding='utf-8'))
+    for capability in mapping['capabilities']:
+        for product in capability.get('products', []):
+            capability_products[capability['capability_id']].append({
+                'product_id': product['product_id'],
+                'product_name': product['product_name'],
                 'version': product['version'],
                 'author': product['author'],
                 'relative_path': product['relative_path'],
-                'product_url': f"{REPO_BLOB_BASE}/{product['relative_path']}",
-                'mapping_label': label,
-                'explanation': explanation,
-                'subcap_name': mapped_subcap['navn'] if mapped_subcap else '',
-            }
-            capability_products[mapped_capability['id']].append(entry)
-            if mapped_subcap:
-                subcap_products[mapped_subcap['id']].append(entry)
+                'product_url': product['product_url'],
+                'mapping_label': product['mapping_label'],
+                'explanation': product['explanation'],
+                'subcap_name': product.get('subcapability_name', ''),
+            })
+        for subcap in capability.get('subcapabilities', []):
+            for product in subcap.get('products', []):
+                subcap_products[subcap['subcapability_id']].append({
+                    'product_id': product['product_id'],
+                    'product_name': product['product_name'],
+                    'version': product['version'],
+                    'author': product['author'],
+                    'relative_path': product['relative_path'],
+                    'product_url': product['product_url'],
+                    'mapping_label': product['mapping_label'],
+                    'explanation': product['explanation'],
+                    'subcap_name': product.get('subcapability_name', ''),
+                })
 
     for entries in capability_products.values():
         entries.sort(key=lambda item: (item['product_id'], item['subcap_name'], item['product_name']))
