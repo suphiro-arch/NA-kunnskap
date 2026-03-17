@@ -2,7 +2,7 @@
 title: "Samtykke"
 weight: 7
 description: "Evne til å akseptere, godkjenne eller gi tillatelse på vegne av seg selv eller andre, der det foreligger et representasjonsforhold."
-cardMeta: "1 produkter"
+cardMeta: "0 produkter"
 ---
 
 # Samtykke
@@ -21,9 +21,7 @@ Denne delkapabiliteten er en del av [Tillit](../).
 
 ## Relaterte produkter
 
-| Produkt | Versjon | Hvorfor relevant | Fil |
-| --- | --- | --- | --- |
-| eSignering | v2 (copilot) | Mulighet for konsent-håndtering i signeringsprosess | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/03-eSignering-produkt-canvas-v2-copilot.md) |
+Ingen produkter er koblet til denne delkapabiliteten foreløpig.
 
 ## Videre navigasjon
 

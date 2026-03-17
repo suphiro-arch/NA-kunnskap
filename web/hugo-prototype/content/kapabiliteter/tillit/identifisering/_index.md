@@ -2,7 +2,7 @@
 title: "Identifisering"
 weight: 8
 description: "Evne til entydig å fastslå og registrere identiteter (personer, virksomheter eller systemer) gjennom pålitelige metoder og kilder."
-cardMeta: "3 produkter"
+cardMeta: "0 produkter"
 ---
 
 # Identifisering
@@ -21,11 +21,7 @@ Denne delkapabiliteten er en del av [Tillit](../).
 
 ## Relaterte produkter
 
-| Produkt | Versjon | Hvorfor relevant | Fil |
-| --- | --- | --- | --- |
-| ID-porten | v2 (copilot) | Påvisning av bruker-identitet via godkjente eID-hjemler | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/01-ID-porten-produkt-canvas-v2-copilot.md) |
-| eSignering | v2 (copilot) | Sikker identifikasjon basert på fnr./personnavn | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/03-eSignering-produkt-canvas-v2-copilot.md) |
-| Altinn autorisasjon | v2 (copilot) | Sikker identitetsverifisering for tilgangsavgjørelse | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/04-Altinn-autorisasjon-produkt-canvas-v2-copilot.md) |
+Ingen produkter er koblet til denne delkapabiliteten foreløpig.
 
 ## Videre navigasjon
 

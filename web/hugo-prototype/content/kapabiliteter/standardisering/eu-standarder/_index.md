@@ -2,7 +2,7 @@
 title: "EU standarder"
 weight: 1
 description: "Evnen til at EU standardene forstås og tas i bruk."
-cardMeta: "1 produkter"
+cardMeta: "0 produkter"
 ---
 
 # EU standarder
@@ -21,9 +21,7 @@ Denne delkapabiliteten er en del av [Standardisering](../).
 
 ## Relaterte produkter
 
-| Produkt | Versjon | Hvorfor relevant | Fil |
-| --- | --- | --- | --- |
-| Peppol eDelivery | v2 (copilot) | OpenPeppol og eIDAS-regulativene | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/11-Peppol-eDelivery-produkt-canvas-v2-copilot.md) |
+Ingen produkter er koblet til denne delkapabiliteten foreløpig.
 
 ## Videre navigasjon
 

@@ -2,7 +2,7 @@
 title: "Tilgangsstyring"
 weight: 3
 description: "Evne til å styre og gi tilgang til hvem som har rettighet til å benytte en ressurs (tjeneste, system, API, opplysning) på vegne av seg selv, andre personer eller virksomheter."
-cardMeta: "2 produkter"
+cardMeta: "0 produkter"
 ---
 
 # Tilgangsstyring
@@ -21,10 +21,7 @@ Denne delkapabiliteten er en del av [Tillit](../).
 
 ## Relaterte produkter
 
-| Produkt | Versjon | Hvorfor relevant | Fil |
-| --- | --- | --- | --- |
-| Maskinporten | v2 (copilot) | Håndtering av fullmakter og delegering mellom virksomheter | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/02-Maskinporten-produkt-canvas-v2-copilot.md) |
-| Altinn autorisasjon | v2 (copilot) | Administrasjon av roller, representasjon, delegering | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/04-Altinn-autorisasjon-produkt-canvas-v2-copilot.md) |
+Ingen produkter er koblet til denne delkapabiliteten foreløpig.
 
 ## Videre navigasjon
 

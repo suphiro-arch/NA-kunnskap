@@ -9,14 +9,6 @@ cardMeta: "3 delkapabiliteter · 0 produkter"
 
 Evne til å systematisk bruke data som en strategisk ressurs for å skape innsikt, informere beslutninger og utvikle bedre, mer treffsikre og effektive tjenester.
 
-## Delkapabiliteter
-
-| Delkapabilitet | Beskrivelse | Produkter |
-| --- | --- | --- |
-| [Dataanalyse](dataanalyse/) | Evnen til å transformere rådata til meningsfull innsikt og bygge prediktive modeller. | 0 |
-| [Sammenstilling av data](sammenstilling-av-data/) | Evne til å hente, kombinere og foredle data fra ulike kilder for å skape ny innsikt, et helhetlig beslutningsgrunnlag, eller sammenhengende tjenester for brukeren. | 0 |
-| [Visualisering](visualisering/) | Evne til å omforme komplekse data til visuelle fremstillinger som gjør innsikt lett tilgjengelig, forståelig og anvendbar. | 0 |
-
 ## Relevante prinsipper
 
 | Prinsipp | Begrunnelse |

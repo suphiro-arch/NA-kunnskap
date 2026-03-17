@@ -2,7 +2,7 @@
 title: "Oversikt over hendelser"
 weight: 4
 description: "Evne til å få oversikt over hvilke hendelser som utløser eller utløses av en tjeneste."
-cardMeta: "1 produkter"
+cardMeta: "0 produkter"
 ---
 
 # Oversikt over hendelser
@@ -21,9 +21,7 @@ Denne delkapabiliteten er en del av [Informasjonsforvaltning](../).
 
 ## Relaterte produkter
 
-| Produkt | Versjon | Hvorfor relevant | Fil |
-| --- | --- | --- | --- |
-| Altinn events (Hendelsestjeneste) | v2 (copilot) | Logging og historikk av alle hendelser | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/12-Altinn-events-produkt-canvas-v2-copilot.md) |
+Ingen produkter er koblet til denne delkapabiliteten foreløpig.
 
 ## Videre navigasjon
 

@@ -2,7 +2,7 @@
 title: "Proaktive tjenester"
 weight: 3
 description: "Evne til å, basert på registrerte hendelser og delte data, automatisk identifisere en brukers behov for offentlige tjenester og proaktivt tilby relevant informasjon, veiledning eller starte en tjenesteprosess på vegne av brukeren."
-cardMeta: "1 produkter"
+cardMeta: "0 produkter"
 ---
 
 # Proaktive tjenester
@@ -22,9 +22,7 @@ Denne delkapabiliteten er en del av [Sluttbrukertjenester](../).
 
 ## Relaterte produkter
 
-| Produkt | Versjon | Hvorfor relevant | Fil |
-| --- | --- | --- | --- |
-| Altinn events (Hendelsestjeneste) | v2 (copilot) | Hendelser triggers automatiserte tjenester | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/12-Altinn-events-produkt-canvas-v2-copilot.md) |
+Ingen produkter er koblet til denne delkapabiliteten foreløpig.
 
 ## Videre navigasjon
 

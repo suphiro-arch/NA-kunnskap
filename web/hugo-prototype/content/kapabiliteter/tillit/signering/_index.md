@@ -2,7 +2,7 @@
 title: "Signering"
 weight: 6
 description: "Evne til juridisk bindende signering av dokumenter eller transaksjoner."
-cardMeta: "1 produkter"
+cardMeta: "0 produkter"
 ---
 
 # Signering
@@ -21,9 +21,7 @@ Denne delkapabiliteten er en del av [Tillit](../).
 
 ## Relaterte produkter
 
-| Produkt | Versjon | Hvorfor relevant | Fil |
-| --- | --- | --- | --- |
-| eSignering | v2 (copilot) | Digital signering av dokumenter | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/03-eSignering-produkt-canvas-v2-copilot.md) |
+Ingen produkter er koblet til denne delkapabiliteten foreløpig.
 
 ## Videre navigasjon
 

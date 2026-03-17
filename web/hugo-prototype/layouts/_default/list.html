@@ -1,27 +1,8 @@
-﻿{{ define "main" }}
+{{ define "main" }}
 {{ $pages := .Pages.ByWeight }}
 {{ $isCapabilitySection := eq .Section "kapabiliteter" }}
 
-{{ if and (gt (len $pages) 0) $isCapabilitySection }}
-<section class="section-overview">
-  <div class="section-overview__header">
-    <h2>{{ if .IsHome }}Seksjoner{{ else }}I Denne Seksjonen{{ end }}</h2>
-    <p>{{ if .IsHome }}Innganger til hoveddelene av dokumentasjonen.{{ else }}Undersider og innhold som hører til denne seksjonen.{{ end }}</p>
-  </div>
-
-  <div class="section-grid section-grid--three">
-    {{ range $pages }}
-    <article class="section-card section-card--compact">
-      <p class="section-card__meta">{{ with .Params.cardMeta }}{{ . }}{{ else }}{{ if .IsSection }}Seksjon{{ else }}Side{{ end }}{{ end }}</p>
-      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-      <a class="section-card__link" href="{{ .RelPermalink }}">Åpne side</a>
-    </article>
-    {{ end }}
-  </div>
-</section>
-{{ end }}
-
-<article class="content-card{{ if $isCapabilitySection }} content-card--secondary{{ end }}">
+<article class="content-card">
   <header class="content-card__header">
     {{ if .IsHome }}
     <p class="content-card__eyebrow">Dokumentasjon</p>
@@ -37,6 +18,38 @@
     </div>
   </div>
 </article>
+
+{{ if and (gt (len $pages) 0) $isCapabilitySection }}
+<section class="section-overview">
+  <div class="section-overview__header">
+    <h2>{{ if .IsHome }}Seksjoner{{ else }}I Denne Seksjonen{{ end }}</h2>
+    <p>{{ if .IsHome }}Innganger til hoveddelene av dokumentasjonen.{{ else }}Undersider og innhold som hører til denne seksjonen.{{ end }}</p>
+  </div>
+
+  <div class="section-grid section-grid--three">
+    {{ range $pages }}
+    <article class="section-card section-card--compact section-card--capability">
+      {{ with .Params.cardMeta }}
+      <div class="section-card__stats">
+        {{ range split . "·" }}
+        <span class="section-card__stat">{{ . | strings.TrimSpace }}</span>
+        {{ end }}
+      </div>
+      {{ else }}
+      <p class="section-card__meta">{{ if .IsSection }}Seksjon{{ else }}Side{{ end }}</p>
+      {{ end }}
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      {{ with .Description }}
+      <p class="section-card__description">{{ . }}</p>
+      {{ else }}
+      <p class="section-card__description">Åpne siden for beskrivelse, delkapabiliteter og relaterte produkter.</p>
+      {{ end }}
+      <a class="section-card__link" href="{{ .RelPermalink }}">Åpne side</a>
+    </article>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
 
 {{ if and (gt (len $pages) 0) (not $isCapabilitySection) }}
 <section class="section-overview">

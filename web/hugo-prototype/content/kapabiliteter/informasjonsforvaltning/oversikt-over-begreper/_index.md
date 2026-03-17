@@ -2,7 +2,7 @@
 title: "Oversikt over begreper"
 weight: 6
 description: "Evne til å etablere en omforent begrepsforståelse ved å definere, dele og gjenbruke begreper på tvers av virksomheter, for å sikre entydig kommunikasjon og semantisk samhandlingsevne."
-cardMeta: "2 produkter"
+cardMeta: "1 produkter"
 ---
 
 # Oversikt over begreper
@@ -23,7 +23,6 @@ Denne delkapabiliteten er en del av [Informasjonsforvaltning](../).
 
 | Produkt | Versjon | Hvorfor relevant | Fil |
 | --- | --- | --- | --- |
-| Felles datakatalog | v2 (copilot) | Integrasjon med Begrepskatalog for semantisk enighet | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/13-Felles-datakatalog-produkt-canvas-v2-copilot.md) |
 | Begrepskatalog | v2 (copilot) | Katalogisering og søk av autoritative begreper | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/14-Begrepskatalog-produkt-canvas-v2-copilot.md) |
 
 ## Videre navigasjon

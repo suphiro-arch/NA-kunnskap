@@ -2,7 +2,7 @@
 title: "Oversikt over datasett"
 weight: 3
 description: "Evne til å systematisk oppdage, vurdere og gjenbruke data på tvers av offentlig sektor gjennom en sentral, standardisert oversikt over tilgjengelige datasett."
-cardMeta: "1 produkter"
+cardMeta: "0 produkter"
 ---
 
 # Oversikt over datasett
@@ -21,9 +21,7 @@ Denne delkapabiliteten er en del av [Informasjonsforvaltning](../).
 
 ## Relaterte produkter
 
-| Produkt | Versjon | Hvorfor relevant | Fil |
-| --- | --- | --- | --- |
-| Felles datakatalog | v2 (copilot) | Katalogisering og søk av offentlige datasett | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/13-Felles-datakatalog-produkt-canvas-v2-copilot.md) |
+Ingen produkter er koblet til denne delkapabiliteten foreløpig.
 
 ## Videre navigasjon
 

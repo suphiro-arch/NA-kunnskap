@@ -9,10 +9,6 @@ cardMeta: "0 delkapabiliteter · 0 produkter"
 
 Evne til at veiledninger for digital samhandling utarbeides og benyttes i felles økosystem.
 
-## Delkapabiliteter
-
-Denne hovedkapabiliteten har ingen registrerte delkapabiliteter.
-
 ## Relevante prinsipper
 
 | Prinsipp | Begrunnelse |

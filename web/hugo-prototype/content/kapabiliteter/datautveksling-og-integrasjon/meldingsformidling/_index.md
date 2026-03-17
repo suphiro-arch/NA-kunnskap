@@ -2,7 +2,7 @@
 title: "Meldingsformidling"
 weight: 3
 description: "Evnen til å garantere levering og meldingsrekkefølge til rett mottaker."
-cardMeta: "4 produkter"
+cardMeta: "2 produkter"
 ---
 
 # Meldingsformidling
@@ -25,8 +25,6 @@ Denne delkapabiliteten er en del av [Datautveksling og integrasjon](../).
 | --- | --- | --- | --- |
 | eFormidling | v2 (copilot) | Standardisert protokoll for meldingsutveksling | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md) |
 | Altinn formidling (Broker) | v2 (copilot) | Sikker transport av data via broker | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/08-Altinn-formidling-produkt-canvas-v2-copilot.md) |
-| Peppol eDelivery | v2 (copilot) | Standard transport av elektroniske dokumenter | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/11-Peppol-eDelivery-produkt-canvas-v2-copilot.md) |
-| Altinn | v2 (copilot) | Altinn Formidling for sikker meldingsutveksling | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/19-Altinn-produkt-canvas-v2-copilot.md) |
 
 ## Videre navigasjon
 
