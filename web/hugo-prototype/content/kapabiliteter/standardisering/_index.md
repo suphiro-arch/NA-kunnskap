@@ -2,7 +2,7 @@
 title: "Standardisering"
 weight: 10
 description: "Evne til å identifisere, vedta, forvalte og fremme bruk av omforente standarder og spesifikasjoner som sikrer interoperabilitet og gjenbruk på tvers av sektorer og landegrenser."
-cardMeta: "2 delkapabiliteter / 9 produkter"
+cardMeta: "2 delkapabiliteter / 8 produkter"
 productsMarkdown: |
   ## Relaterte produkter
   
@@ -17,7 +17,6 @@ productsMarkdown: |
   | API-katalog | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md) | Forvaltningsstandarder | OpenAPI/Swagger standarder |
   | data.norge.no | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/16-data-norge-no-produkt-canvas-v4-codex.md) | Forvaltningsstandarder | bygger på standardisert metadataforvaltning som gir sammenlignbarhet og bedre gjenfinning |
   | data.altinn.no | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/17-data-altinn-no-produkt-canvas-v3-codex.md) | Forvaltningsstandarder | gir et felles API- og tilgangsmønster som gjør løsningene mer forutsigbare for både tilbydere og konsumenter |
-  | Altinn Varslinger | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/24-Varslinger-produkt-canvas-v4-codex.md) | Forvaltningsstandarder | gir tjenesteeiere et felles mønster for kanalvalg, oppslag og status i stedet for lokale varslingsmotorer |
 ---
 
 Evne til å identifisere, vedta, forvalte og fremme bruk av omforente standarder og spesifikasjoner som sikrer interoperabilitet og gjenbruk på tvers av sektorer og landegrenser.

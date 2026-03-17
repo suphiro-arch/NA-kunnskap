@@ -19,7 +19,8 @@ sources:
 - Strammet inn metodekravet for kapabiliteter: bare direkte og sterke koblinger til produktets egen funksjon skal tas med.
 - Regenerert produktover­sikten i Hugo-prototypen slik at siste versjon for produkt `02-06` nå vises på nettsiden.
 - Lagt om publiseringsmodellen for Hugo-prototypen til GitHub Pages artifact-deploy direkte fra `web/hugo-prototype/`.
-- Innført en eksplisitt, manuelt vedlikeholdt masterfil for koblingen mellom produkter og kapabiliteter i `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.json`, og lagt om webgeneratorene til å bruke den begge veier.
+
+- Kvalitetssjekket masterfila for produkt-kapabilitet-koblinger og strammet inn koblingene til et første manuelt arbeidsutkast basert på direkte og sterke koblinger.
 
 ## Hva gjenstår
 - Velge lisens for dokumentasjonsinnholdet i repoet.
@@ -53,3 +54,4 @@ sources:
 - Vurdere om produktbeskrivelser på sikt bør flyttes til en egen undermappe for genererte beskrivelser, i stedet for å ligge direkte under `results/Produktbeskrivelser/`.
 - Vurdere om `sources/links.md` på sikt bør flyttes nærmere produktområdet.
 - Vurdere om en bredere mappe som `ressurser/` senere bør samle produkter, standarder, veiledninger og andre virkemidler.
+
