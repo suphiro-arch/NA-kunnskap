@@ -2,7 +2,7 @@
 title: "Oversikt over informasjonsmodeller"
 weight: 2
 description: "Evne til å gi oversikt over informasjonsmodeller for å kunne gi en felles forståelse av datastrukturer, slik at data kan tolkes korrekt og meningsfullt."
-cardMeta: "1 produkter"
+cardMeta: "0 produkter"
 ---
 
 # Oversikt over informasjonsmodeller
@@ -21,9 +21,7 @@ Denne delkapabiliteten er en del av [Informasjonsforvaltning](../).
 
 ## Relaterte produkter
 
-| Produkt | Versjon | Hvorfor relevant | Fil |
-| --- | --- | --- | --- |
-| Felles datakatalog | v2 (copilot) | Støtte for SOSI og andre datamodeller | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/13-Felles-datakatalog-produkt-canvas-v2-copilot.md) |
+Ingen produkter er koblet til denne delkapabiliteten foreløpig.
 
 ## Videre navigasjon
 

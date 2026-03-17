@@ -2,7 +2,7 @@
 title: "Oversikt over API"
 weight: 5
 description: "Evne til å datadeling og tjenesteintegrasjon ved å oppdage, forstå og koble seg til tilgjengelige data via en standardisert oversikt over maskinlesbare grensesnitt (API-er)."
-cardMeta: "3 produkter"
+cardMeta: "1 produkter"
 ---
 
 # Oversikt over API
@@ -23,8 +23,6 @@ Denne delkapabiliteten er en del av [Informasjonsforvaltning](../).
 
 | Produkt | Versjon | Hvorfor relevant | Fil |
 | --- | --- | --- | --- |
-| ELMA (Elektronisk mottakeradresseregister) | v2 (copilot) | Oppslag-API for adresseoppslag | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/10-ELMA-produkt-canvas-v2-copilot.md) |
-| Felles datakatalog | v2 (copilot) | Katalogisering av tilgjengelige API-er | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/13-Felles-datakatalog-produkt-canvas-v2-copilot.md) |
 | API-katalog | v2 (copilot) | Katalogisering og søk av API-ressurser | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md) |
 
 ## Videre navigasjon

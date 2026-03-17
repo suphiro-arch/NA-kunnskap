@@ -2,7 +2,7 @@
 title: "Tjenestedesign"
 weight: 4
 description: "Evne til å sette brukerens behov, livssituasjon og helhetlige reise som utgangspunkt for utvikling av sammenhengende tjenester."
-cardMeta: "2 produkter"
+cardMeta: "1 produkter"
 ---
 
 # Tjenestedesign
@@ -25,7 +25,6 @@ Denne delkapabiliteten er en del av [Tjenesteutvikling](../).
 | Produkt | Versjon | Hvorfor relevant | Fil |
 | --- | --- | --- | --- |
 | Norge.no | v2 (copilot) | Behovsbasert navigasjon og informasjonstruktur | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md) |
-| Altinn Studio | v2 (copilot) | Low-code UI-modellering for brukergrensesnitt | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md) |
 
 ## Videre navigasjon
 

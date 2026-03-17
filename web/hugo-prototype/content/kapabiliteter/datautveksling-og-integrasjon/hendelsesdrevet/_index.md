@@ -2,7 +2,7 @@
 title: "Hendelsesdrevet"
 weight: 4
 description: "Evne til å publisere og reagere på digitale hendelser og kontinuerlige datastrømmer når de inntreffer."
-cardMeta: "1 produkter"
+cardMeta: "0 produkter"
 ---
 
 # Hendelsesdrevet
@@ -21,9 +21,7 @@ Denne delkapabiliteten er en del av [Datautveksling og integrasjon](../).
 
 ## Relaterte produkter
 
-| Produkt | Versjon | Hvorfor relevant | Fil |
-| --- | --- | --- | --- |
-| Altinn events (Hendelsestjeneste) | v2 (copilot) | Publisering og abonnement på hendelser | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/12-Altinn-events-produkt-canvas-v2-copilot.md) |
+Ingen produkter er koblet til denne delkapabiliteten foreløpig.
 
 ## Videre navigasjon
 

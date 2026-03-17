@@ -2,7 +2,7 @@
 title: "Representasjon"
 weight: 4
 description: "Evne til til å kunne opptre eller utføre handlinger digitalt på vegne av andre."
-cardMeta: "2 produkter"
+cardMeta: "0 produkter"
 ---
 
 # Representasjon
@@ -21,10 +21,7 @@ Denne delkapabiliteten er en del av [Tillit](../).
 
 ## Relaterte produkter
 
-| Produkt | Versjon | Hvorfor relevant | Fil |
-| --- | --- | --- | --- |
-| ID-porten | v2 (copilot) | Støtte for virksomhetsrepresentanter som logger inn på vegne av organisasjoner | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/01-ID-porten-produkt-canvas-v2-copilot.md) |
-| Altinn autorisasjon | v2 (copilot) | Mulighet for personer/virksomheter å representere andre | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/04-Altinn-autorisasjon-produkt-canvas-v2-copilot.md) |
+Ingen produkter er koblet til denne delkapabiliteten foreløpig.
 
 ## Videre navigasjon
 

@@ -2,7 +2,7 @@
 title: "Gjenbrukbare tjenester"
 weight: 3
 description: "Evne til å utvikle og benytte tjenester som kan brukes i nye sammenhenger på tvers av offentlig forvaltning og næringsliv."
-cardMeta: "2 produkter"
+cardMeta: "0 produkter"
 ---
 
 # Gjenbrukbare tjenester
@@ -22,10 +22,7 @@ Denne delkapabiliteten er en del av [Tjenesteutvikling](../).
 
 ## Relaterte produkter
 
-| Produkt | Versjon | Hvorfor relevant | Fil |
-| --- | --- | --- | --- |
-| Altinn | v2 (copilot) | Byggeklosser og mønstre for rask tjenesteutvikling | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/19-Altinn-produkt-canvas-v2-copilot.md) |
-| Altinn Studio | v2 (copilot) | Komponenter-bibliotek og mønstre for enkel gjenbruk | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md) |
+Ingen produkter er koblet til denne delkapabiliteten foreløpig.
 
 ## Videre navigasjon
 

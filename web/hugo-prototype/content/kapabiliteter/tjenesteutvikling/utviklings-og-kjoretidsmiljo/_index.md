@@ -2,7 +2,7 @@
 title: "Utviklings- og kjøretidsmiljø"
 weight: 1
 description: "Evne til å tilby og forvalte en felles, skalerbar teknisk plattform og en tilhørende verktøykasse med standardiserte byggeklosser, verktøy og utviklingsmiljøer som forenkler og akselererer utviklingen av digitale tjenester."
-cardMeta: "2 produkter"
+cardMeta: "0 produkter"
 ---
 
 # Utviklings- og kjøretidsmiljø
@@ -22,10 +22,7 @@ Denne delkapabiliteten er en del av [Tjenesteutvikling](../).
 
 ## Relaterte produkter
 
-| Produkt | Versjon | Hvorfor relevant | Fil |
-| --- | --- | --- | --- |
-| Altinn | v2 (copilot) | Altinn Studio som platform for tjenesteutvikling | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/19-Altinn-produkt-canvas-v2-copilot.md) |
-| Altinn Studio | v2 (copilot) | Integrert IDE og runtime for tjenesteutvikling | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md) |
+Ingen produkter er koblet til denne delkapabiliteten foreløpig.
 
 ## Videre navigasjon
 

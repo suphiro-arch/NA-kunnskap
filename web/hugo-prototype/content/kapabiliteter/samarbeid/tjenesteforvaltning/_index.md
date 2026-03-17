@@ -2,7 +2,7 @@
 title: "Tjenesteforvaltning"
 weight: 3
 description: "Evne til å formalisere samarbeid gjennom tydelig definerte roller, ansvar og avtaler for å sikre forutsigbar og effektiv felles styring mellom samhandlende virksomheter."
-cardMeta: "2 produkter"
+cardMeta: "0 produkter"
 ---
 
 # Tjenesteforvaltning
@@ -22,10 +22,7 @@ Denne delkapabiliteten er en del av [Samarbeid](../).
 
 ## Relaterte produkter
 
-| Produkt | Versjon | Hvorfor relevant | Fil |
-| --- | --- | --- | --- |
-| Altinn | v2 (copilot) | Verktøy for tjenesteeiere til å administrere tjenester | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/19-Altinn-produkt-canvas-v2-copilot.md) |
-| Altinn Studio | v2 (copilot) | Verktøy for release-management, versjonering, miljøer | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md) |
+Ingen produkter er koblet til denne delkapabiliteten foreløpig.
 
 ## Videre navigasjon
 

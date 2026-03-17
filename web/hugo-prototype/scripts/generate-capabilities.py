@@ -7,7 +7,7 @@ from collections import defaultdict
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
-CAPABILITIES_FILE = REPO_ROOT / 'index' / 'capabilities.yaml'
+CAPABILITIES_FILE = REPO_ROOT / 'arkitektur' / 'kapabiliteter' / 'capabilities.yaml'
 PRODUCTS_DIR = REPO_ROOT / 'results' / 'Produktbeskrivelser'
 OUT_DIR = REPO_ROOT / 'web' / 'hugo-prototype' / 'content' / 'kapabiliteter'
 REPO_BLOB_BASE = 'https://github.com/suphiro-arch/NA-kunnskap/blob/main'
@@ -406,8 +406,6 @@ def generate() -> None:
                 child.unlink()
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    overview_rows: list[list[str]] = []
-
     for index, capability in enumerate(capabilities, start=1):
         cap_slug = slugify(capability['navn'])
         cap_dir = OUT_DIR / cap_slug
@@ -415,22 +413,9 @@ def generate() -> None:
         subcaps = capability['delkapabiliteter']
         card_meta = f"{len(subcaps)} delkapabiliteter · {len({entry['product_id'] for entry in products})} produkter"
 
-        overview_rows.append([
-            f"[{capability['navn']}]({cap_slug}/)",
-            capability['beskrivelse'],
-            str(len(subcaps)),
-            str(len({entry['product_id'] for entry in products})),
-        ])
-
-        subcap_rows = []
         for sub_index, subcap in enumerate(subcaps, start=1):
             sub_slug = slugify(subcap['navn'])
             sub_products = subcap_products.get(subcap['id'], [])
-            subcap_rows.append([
-                f"[{subcap['navn']}]({sub_slug}/)",
-                subcap['beskrivelse'],
-                str(len({entry['product_id'] for entry in sub_products})),
-            ])
 
             sub_principle_rows = []
             for principle in principle_reason_map.get(capability['id'], []):
@@ -509,10 +494,6 @@ cardMeta: "{card_meta}"
 
 {capability['beskrivelse']}
 
-## Delkapabiliteter
-
-{table_or_message(['Delkapabilitet', 'Beskrivelse', 'Produkter'], subcap_rows, 'Denne hovedkapabiliteten har ingen registrerte delkapabiliteter.')}
-
 ## Relevante prinsipper
 
 {table_or_message(['Prinsipp', 'Begrunnelse'], principle_rows, 'Ingen prinsippkoblinger er registrert foreløpig.')}
@@ -533,10 +514,6 @@ description: "Oversikt over hovedkapabiliteter, delkapabiliteter og hvilke produ
 # Kapabiliteter
 
 Kapabilitetene beskriver hvilke evner som må være på plass for å utvikle, forvalte og videreutvikle et nasjonalt økosystem for digital samhandling. I denne prototypen er de organisert som en navigerbar struktur: først hovedkapabiliteter, deretter delkapabiliteter og til slutt koblinger videre til relevante produkter.
-
-## Oversikt over hovedkapabiliteter
-
-{table_or_message(['Kapabilitet', 'Beskrivelse', 'Delkapabiliteter', 'Produkter'], overview_rows, 'Ingen kapabiliteter er tilgjengelige.')}
 
 ## Hvordan bruke denne delen
 
