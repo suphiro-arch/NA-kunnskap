@@ -33,13 +33,13 @@ Prinsippene er ikke bare formuleringer for strategi og styringsdokumenter. De er
 
 | Prinsipp | Sentrale kapabiliteter |
 |---|---|
-| P1 | [Sluttbrukertjenester](../kapabiliteter/sluttbrukertjenester/), [Tjenesteutvikling](../kapabiliteter/tjenesteutvikling/) |
-| P2 | [Strategisk styring](../kapabiliteter/strategisk-styring/), [Samarbeid](../kapabiliteter/samarbeid/) |
-| P3 | [Juridisk samhandling](../kapabiliteter/juridisk-samhandling/) |
-| P4 | [Datautveksling og integrasjon](../kapabiliteter/datautveksling-og-integrasjon/), [Datadrevet](../kapabiliteter/datadrevet/), [Datakilder](../kapabiliteter/datakilder/) |
-| P5 | [Tjenesteutvikling](../kapabiliteter/tjenesteutvikling/), [Sluttbrukertjenester](../kapabiliteter/sluttbrukertjenester/) |
-| P6 | [Samarbeid](../kapabiliteter/samarbeid/), [Informasjonsforvaltning](../kapabiliteter/informasjonsforvaltning/), [Standardisering](../kapabiliteter/standardisering/), [Veiledning](../kapabiliteter/veiledning/) |
-| P7 | [Tillit](../kapabiliteter/tillit/), [Informasjonssikkerhet](../kapabiliteter/informasjonssikkerhet/), [Juridisk samhandling](../kapabiliteter/juridisk-samhandling/) |
+| Ta utgangspunkt i brukernes behov | [Sluttbrukertjenester](../kapabiliteter/sluttbrukertjenester/), [Tjenesteutvikling](../kapabiliteter/tjenesteutvikling/) |
+| Ta arkitekturbeslutninger på rett nivå | [Strategisk styring](../kapabiliteter/strategisk-styring/), [Samarbeid](../kapabiliteter/samarbeid/) |
+| Bidra til digitaliseringsvennlige regelverk | [Juridisk samhandling](../kapabiliteter/juridisk-samhandling/) |
+| Del og gjenbruk data | [Datautveksling og integrasjon](../kapabiliteter/datautveksling-og-integrasjon/), [Datadrevet](../kapabiliteter/datadrevet/), [Datakilder](../kapabiliteter/datakilder/) |
+| Del og gjenbruk løsninger | [Tjenesteutvikling](../kapabiliteter/tjenesteutvikling/), [Sluttbrukertjenester](../kapabiliteter/sluttbrukertjenester/) |
+| Lag digitale løsninger som støtter samhandling | [Samarbeid](../kapabiliteter/samarbeid/), [Informasjonsforvaltning](../kapabiliteter/informasjonsforvaltning/), [Standardisering](../kapabiliteter/standardisering/), [Veiledning](../kapabiliteter/veiledning/) |
+| Sørg for tillit til oppgaveløsningen | [Tillit](../kapabiliteter/tillit/), [Informasjonssikkerhet](../kapabiliteter/informasjonssikkerhet/), [Juridisk samhandling](../kapabiliteter/juridisk-samhandling/) |
 
 ## Eksempler på hvordan prinsippene brukes
 
