@@ -5,8 +5,6 @@ description: "Evne til å etablere, forvalte og formidle et helhetlig juridisk r
 cardMeta: "0 delkapabiliteter · 0 produkter"
 ---
 
-# Juridisk samhandling
-
 Evne til å etablere, forvalte og formidle et helhetlig juridisk rammeverk som muliggjør og regulerer sikker og effektiv digital samhandling.
 
 ## Relevante prinsipper

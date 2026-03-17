@@ -5,8 +5,6 @@ description: "Evne til å etablere, forvalte og styre en helhetlig nasjonal digi
 cardMeta: "0 produkter"
 ---
 
-# Arkitekturstyring
-
 Evne til å etablere, forvalte og styre en helhetlig nasjonal digital arkitektur som et felles, forpliktende rammeverk, for å sikre samhandling, gjenbruk og strategisk retning i et nasjonalt digitalt økosystem.
 
 ## Hører til

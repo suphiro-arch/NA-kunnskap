@@ -5,8 +5,6 @@ description: "Evnen til å transformere rådata til meningsfull innsikt og bygge
 cardMeta: "0 produkter"
 ---
 
-# Dataanalyse
-
 Evnen til å transformere rådata til meningsfull innsikt og bygge prediktive modeller.
 
 ## Hører til

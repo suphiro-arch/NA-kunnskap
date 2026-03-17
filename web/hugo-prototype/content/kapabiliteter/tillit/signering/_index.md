@@ -5,8 +5,6 @@ description: "Evne til juridisk bindende signering av dokumenter eller transaksj
 cardMeta: "0 produkter"
 ---
 
-# Signering
-
 Evne til juridisk bindende signering av dokumenter eller transaksjoner.
 
 ## Hører til

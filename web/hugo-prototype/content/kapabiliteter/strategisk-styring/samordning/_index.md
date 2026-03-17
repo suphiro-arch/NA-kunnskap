@@ -5,8 +5,6 @@ description: "Evnen til å harmonisere og koordinere strategisk retning, beslutn
 cardMeta: "0 produkter"
 ---
 
-# Samordning
-
 Evnen til å harmonisere og koordinere strategisk retning, beslutninger og ressursbruk på tvers av virksomheter, for å realisere felles samfunnsmål og sammenhengende tjenester.
 
 ## Hører til

@@ -5,8 +5,6 @@ description: "Evne til å levere en digital brukerorienterte tjenester som frems
 cardMeta: "2 produkter"
 ---
 
-# Sammenhengende tjenester
-
 Evne til å levere en digital brukerorienterte tjenester som fremstår som en logisk og uavbrutt prosess for brukeren, selv når den involverer og koordinerer handlinger og tjenester fra flere, uavhengige virksomheter.
 
 ## Hører til

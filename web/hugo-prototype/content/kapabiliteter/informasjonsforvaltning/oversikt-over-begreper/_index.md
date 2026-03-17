@@ -5,8 +5,6 @@ description: "Evne til å etablere en omforent begrepsforståelse ved å definer
 cardMeta: "1 produkter"
 ---
 
-# Oversikt over begreper
-
 Evne til å etablere en omforent begrepsforståelse ved å definere, dele og gjenbruke begreper på tvers av virksomheter, for å sikre entydig kommunikasjon og semantisk samhandlingsevne.
 
 ## Hører til

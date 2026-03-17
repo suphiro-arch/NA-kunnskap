@@ -5,8 +5,6 @@ description: "Evnen til å garantere levering og meldingsrekkefølge til rett mo
 cardMeta: "2 produkter"
 ---
 
-# Meldingsformidling
-
 Evnen til å garantere levering og meldingsrekkefølge til rett mottaker.
 
 ## Hører til

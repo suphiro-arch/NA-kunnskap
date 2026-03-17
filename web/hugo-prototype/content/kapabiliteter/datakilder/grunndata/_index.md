@@ -5,8 +5,6 @@ description: "Evne til å identifisere og formelt anerkjenne autoritative dataki
 cardMeta: "0 produkter"
 ---
 
-# Grunndata
-
 Evne til å identifisere og formelt anerkjenne autoritative datakilder basert på en systematisk vurdering av deres verdi.
 
 ## Hører til

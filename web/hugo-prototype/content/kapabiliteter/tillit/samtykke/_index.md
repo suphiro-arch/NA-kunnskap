@@ -5,8 +5,6 @@ description: "Evne til å akseptere, godkjenne eller gi tillatelse på vegne av 
 cardMeta: "0 produkter"
 ---
 
-# Samtykke
-
 Evne til å akseptere, godkjenne eller gi tillatelse på vegne av seg selv eller andre, der det foreligger et representasjonsforhold.
 
 ## Hører til

@@ -5,8 +5,6 @@ description: "Evne til å sette brukerens behov, livssituasjon og helhetlige rei
 cardMeta: "1 produkter"
 ---
 
-# Tjenestedesign
-
 Evne til å sette brukerens behov, livssituasjon og helhetlige reise som utgangspunkt for utvikling av sammenhengende tjenester.
 
 ## Hører til

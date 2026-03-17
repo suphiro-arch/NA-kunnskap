@@ -5,8 +5,6 @@ description: "Evne til å på en sikker og entydig måte verifisere den digitale
 cardMeta: "0 produkter"
 ---
 
-# Autentisering
-
 Evne til å på en sikker og entydig måte verifisere den digitale identiteten til brukere og systemer.
 
 ## Hører til

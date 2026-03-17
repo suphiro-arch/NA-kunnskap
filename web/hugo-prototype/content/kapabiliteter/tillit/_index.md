@@ -5,8 +5,6 @@ description: "Evne å tilby tillitstjenester som muliggjør autentisering og aut
 cardMeta: "8 delkapabiliteter · 1 produkter"
 ---
 
-# Tillit
-
 Evne å tilby tillitstjenester som muliggjør autentisering og autorisasjon på tvers av tjenestekjeder, og støtte en distribuert arkitektur og føderering mellom ulike domener og tjenester.
 
 ## Relevante prinsipper

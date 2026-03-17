@@ -5,8 +5,6 @@ description: "Evne til å sikre enhetlig og ansvarlig forvaltning av nasjonale d
 cardMeta: "1 produkter"
 ---
 
-# Datastyring
-
 Evne til å sikre enhetlig og ansvarlig forvaltning av nasjonale dataressurser gjennom felles rammeverk, klar ansvarsplassering og systematisk kvalitetsarbeid.
 
 ## Hører til

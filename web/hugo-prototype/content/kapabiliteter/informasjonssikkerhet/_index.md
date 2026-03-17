@@ -5,8 +5,6 @@ description: "Evne til å ha tilstrekkelig sikkerhet i tjenester og løsninger s
 cardMeta: "2 delkapabiliteter · 2 produkter"
 ---
 
-# Informasjonssikkerhet
-
 Evne til å ha tilstrekkelig sikkerhet i tjenester og løsninger som benyttes i felles økosystem.
 
 ## Relevante prinsipper

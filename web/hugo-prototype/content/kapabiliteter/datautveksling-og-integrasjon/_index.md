@@ -5,8 +5,6 @@ description: "Evne til å sikkert, effektivt og standardisert utveksle data mell
 cardMeta: "4 delkapabiliteter · 4 produkter"
 ---
 
-# Datautveksling og integrasjon
-
 Evne til å sikkert, effektivt og standardisert utveksle data mellom aktører i økosystemet.
 
 ## Relevante prinsipper

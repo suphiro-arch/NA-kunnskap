@@ -5,8 +5,6 @@ description: "Evne til å designe, utvikle og eksponere data og funksjonalitet s
 cardMeta: "2 produkter"
 ---
 
-# Integrerbare tjenester
-
 Evne til å designe, utvikle og eksponere data og funksjonalitet som selvstendige, standardiserte og maskinlesbare tjenester (API-er), slik at de enkelt kan oppdages, forstås og integreres i nye, tverrgående prosesser og løsninger.
 
 ## Hører til

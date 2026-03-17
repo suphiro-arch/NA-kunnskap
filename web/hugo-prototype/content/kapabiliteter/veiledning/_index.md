@@ -5,8 +5,6 @@ description: "Evne til at veiledninger for digital samhandling utarbeides og ben
 cardMeta: "0 delkapabiliteter · 0 produkter"
 ---
 
-# Veiledning
-
 Evne til at veiledninger for digital samhandling utarbeides og benyttes i felles økosystem.
 
 ## Relevante prinsipper

@@ -5,8 +5,6 @@ description: "Evne til å utvikle sammenhengende digitale tjenester."
 cardMeta: "4 delkapabiliteter · 3 produkter"
 ---
 
-# Tjenesteutvikling
-
 Evne til å utvikle sammenhengende digitale tjenester.
 
 ## Relevante prinsipper

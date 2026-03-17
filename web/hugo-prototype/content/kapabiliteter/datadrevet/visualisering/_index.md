@@ -5,8 +5,6 @@ description: "Evne til å omforme komplekse data til visuelle fremstillinger som
 cardMeta: "0 produkter"
 ---
 
-# Visualisering
-
 Evne til å omforme komplekse data til visuelle fremstillinger som gjør innsikt lett tilgjengelig, forståelig og anvendbar.
 
 ## Hører til

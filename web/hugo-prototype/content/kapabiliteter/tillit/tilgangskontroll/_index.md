@@ -5,8 +5,6 @@ description: "Evne til å kontrollere at en bruker har rettighet til å benytte 
 cardMeta: "0 produkter"
 ---
 
-# Tilgangskontroll
-
 Evne til å kontrollere at en bruker har rettighet til å benytte angitt ressurs eller tjeneste på vegne av andre eller seg selv.
 
 ## Hører til

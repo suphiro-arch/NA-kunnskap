@@ -5,8 +5,6 @@ description: "Evne til å effektivisere, etablere, forvalte og fasilitere arenae
 cardMeta: "0 produkter"
 ---
 
-# Samarbeidsarenaer og nettverk
-
 Evne til å effektivisere, etablere, forvalte og fasilitere arenaer, nettverk og prosesser som fremmer kunnskapsdeling, dialog og samordning på tvers av virksomheter i økosystemet.
 
 ## Hører til

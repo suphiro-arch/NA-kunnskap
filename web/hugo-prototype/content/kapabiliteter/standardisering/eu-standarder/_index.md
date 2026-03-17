@@ -5,8 +5,6 @@ description: "Evnen til at EU standardene forstås og tas i bruk."
 cardMeta: "0 produkter"
 ---
 
-# EU standarder
-
 Evnen til at EU standardene forstås og tas i bruk.
 
 ## Hører til

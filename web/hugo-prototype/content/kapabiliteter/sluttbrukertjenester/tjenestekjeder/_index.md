@@ -5,8 +5,6 @@ description: "Evne til å dynamisk sette sammen, koordinere og automatisere flyt
 cardMeta: "1 produkter"
 ---
 
-# Tjenestekjeder
-
 Evne til å dynamisk sette sammen, koordinere og automatisere flyten av informasjon og prosesser på tvers av uavhengige, integrerbare tjenester for å levere en komplett ende-til-ende-tjeneste for brukeren.
 
 ## Hører til

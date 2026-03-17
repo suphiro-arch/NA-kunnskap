@@ -5,8 +5,6 @@ description: "Evne til å sikkert prosessere og distribuere kontinuerlige datast
 cardMeta: "0 produkter"
 ---
 
-# Sanntidsdata
-
 Evne til å sikkert prosessere og distribuere kontinuerlige datastrømmer for å muliggjøre sanntidsinnsikt, automatisering og umiddelbar respons.
 
 ## Hører til

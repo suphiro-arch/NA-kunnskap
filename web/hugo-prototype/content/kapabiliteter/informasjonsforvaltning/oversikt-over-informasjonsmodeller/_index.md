@@ -5,8 +5,6 @@ description: "Evne til å gi oversikt over informasjonsmodeller for å kunne gi 
 cardMeta: "0 produkter"
 ---
 
-# Oversikt over informasjonsmodeller
-
 Evne til å gi oversikt over informasjonsmodeller for å kunne gi en felles forståelse av datastrukturer, slik at data kan tolkes korrekt og meningsfullt.
 
 ## Hører til

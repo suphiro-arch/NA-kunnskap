@@ -5,8 +5,6 @@ description: "Evne til entydig å fastslå og registrere identiteter (personer, 
 cardMeta: "0 produkter"
 ---
 
-# Identifisering
-
 Evne til entydig å fastslå og registrere identiteter (personer, virksomheter eller systemer) gjennom pålitelige metoder og kilder.
 
 ## Hører til

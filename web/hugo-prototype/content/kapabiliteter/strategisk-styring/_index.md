@@ -5,8 +5,6 @@ description: "Evnen til å sette retning for nasjonal arkitektur og realisere st
 cardMeta: "3 delkapabiliteter · 0 produkter"
 ---
 
-# Strategisk styring
-
 Evnen til å sette retning for nasjonal arkitektur og realisere strategiske mål.
 
 ## Relevante prinsipper
