@@ -6,7 +6,9 @@ on:
     paths:
       - "web/hugo-prototype/**"
       - "results/Produktbeskrivelser/**"
-      - "arkitektur/kapabiliteter/**"
+      - "arkitektur/**"
+      - "config/prompts/**"
+      - "config/templates/**"
   workflow_dispatch:
 
 permissions:
