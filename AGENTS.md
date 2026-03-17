@@ -38,6 +38,7 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 
 ## Hugo-prototype
 - Når produktbeskrivelser som mater web-oversikter endres, oppdater relevante genererte oversikter i `web/hugo-prototype/content/`.
+- Hugo-prototypen publiseres fra `web/hugo-prototype/` via GitHub Pages artifact-deploy, ikke ved å commite bygget HTML tilbake til repoet.
 - Bevar nettstedet som en lettlest dokumentasjonsside med tydelig navigasjon og lesbar tekst.
 - Unngå designgrep som gjør dokumentasjon vanskeligere å lese eller navigere.
 

@@ -1,4 +1,4 @@
-name: Publish Hugo Prototype to docs/prototype
+name: Publish Hugo Prototype to GitHub Pages
 
 on:
   push:
@@ -6,14 +6,24 @@ on:
     paths:
       - "web/hugo-prototype/**"
       - "results/Produktbeskrivelser/**"
+      - "arkitektur/kapabiliteter/**"
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
-  build-and-sync:
+  build-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Checkout
@@ -27,27 +37,27 @@ jobs:
           hugo-version: "0.125.7"
           extended: true
 
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Regenerate capability pages
+        run: |
+          python web/hugo-prototype/scripts/generate-capabilities.py
+
       - name: Regenerate product pages
         shell: pwsh
         run: |
           ./web/hugo-prototype/scripts/generate-products.ps1
 
-      - name: Build prototype to docs/prototype
+      - name: Build prototype
         run: |
-          hugo --source web/hugo-prototype --destination ../../docs/prototype --gc --minify
+          hugo --source web/hugo-prototype --destination public --gc --minify
 
-      - name: Add .nojekyll marker
-        run: |
-          touch docs/.nojekyll
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
 
-      - name: Commit synced prototype
-        run: |
-          if git diff --quiet -- docs/prototype docs/.nojekyll web/hugo-prototype/content/ressursoversikt/produkter; then
-            echo "No changes to commit"
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/prototype docs/.nojekyll web/hugo-prototype/content/ressursoversikt/produkter
-          git commit -m "chore: publish hugo prototype to docs/prototype"
-          git push
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

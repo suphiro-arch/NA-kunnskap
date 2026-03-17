@@ -18,3 +18,4 @@ sources: []
 | 2026-03-16 | Formål | Assistenten skal hjelpe prosjekter å finne relevante kapabiliteter, produkter, prinsipper og mulige gap | Passer målbildet for en arkitekturassistent | team |
 | 2026-03-17 | Produktbeskrivelser | Nye produktbeskrivelser skal ikke starte med egen linje for målgruppe, og `Ressurs ID` skal skrives uten parentesforklaring | Gjør dokumentene lettere å lese og enklere å skanne på tvers av produkter | team |
 | 2026-03-17 | Kapabilitetsmapping | Produktbeskrivelser skal bare ta med kapabiliteter med sterk og direkte kobling til produktets egen funksjon | Reduserer støy og gjør det lettere å skille overlappende løsninger ved gjenbruksvurdering | team |
+| 2026-03-17 | Webpublisering | Hugo-prototypen skal publiseres med GitHub Pages artifact-deploy direkte fra `web/hugo-prototype/` | Fjerner den skjøre synken via `docs/prototype` og gjør publiseringen mer forutsigbar | team |

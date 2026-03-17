@@ -43,3 +43,9 @@ hugo server
 ```bash
 hugo --gc --minify
 ```
+
+## Publisering
+
+- GitHub Actions bygger prototypen direkte fra `web/hugo-prototype/`.
+- GitHub Pages deployer bygget som artifact.
+- `docs/prototype/` brukes ikke lenger som publiseringsmål for denne prototypen.

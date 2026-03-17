@@ -69,7 +69,7 @@ Assistenten skal svare med:
 Eksisterende styrker i repoet:
 
 - statisk nettside i `web/hugo-prototype`
-- publisering til `docs/prototype`
+- GitHub Pages-publisering fra Hugo-prototypen via workflow
 - GitHub Actions for publisering
 - strukturert dokumentgrunnlag i:
   - `arkitektur/kapabiliteter/capabilities.yaml`
