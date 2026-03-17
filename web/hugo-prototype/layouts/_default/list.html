@@ -32,7 +32,7 @@
       {{ with .Params.cardMeta }}
       <div class="section-card__stats">
         {{ range split . "·" }}
-        <span class="section-card__stat">{{ . | strings.TrimSpace }}</span>
+        <span class="section-card__stat">{{ trim . " " }}</span>
         {{ end }}
       </div>
       {{ else }}
