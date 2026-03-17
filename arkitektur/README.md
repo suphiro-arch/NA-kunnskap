@@ -3,8 +3,8 @@
 Denne mappa samler det strukturerte arkitekturgrunnlaget i repoet.
 
 ## Innhold
-- `kapabiliteter/`: kapabilitetskart og tilh?rende strukturdata
-- `prinsipper/`: arkitekturprinsipper og f?ringer
-- `produkter/`: produktnummerering og andre strukturer som gjelder produktomr?det
+- `kapabiliteter/`: kapabilitetskart og tilhørende strukturdata
+- `prinsipper/`: arkitekturprinsipper og føringer
+- `produkter/`: produktnummerering og andre strukturer som gjelder produktområdet
 
-Mappa brukes som faglig kildeomr?de. Leveranser og genererte beskrivelser h?rer fortsatt hjemme i `results/`.
+Mappa brukes som faglig kildeområde. Leveranser og genererte beskrivelser hører fortsatt hjemme i `results/`.
