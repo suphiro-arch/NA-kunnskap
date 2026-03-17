@@ -9,7 +9,7 @@ Denne mappa samler det strukturerte arkitekturgrunnlaget i repoet.
 
 ## Koblinger mellom produkter og kapabiliteter
 - `kapabiliteter/produkt-kapabilitet-koblinger.json` er masterfila for koblingen mellom produkter og kapabiliteter.
-- Fila genereres fra siste versjon av produktbeskrivelsene og `kapabiliteter/capabilities.yaml`.
+- Fila vedlikeholdes manuelt i repoet og er autoritativ kilde for koblingen mellom produkter og kapabiliteter.
 - Hugo-generatorene skal bruke denne fila som felles grunnlag begge veier:
   - fra produkter til kapabiliteter i produktoverblikket
   - fra kapabiliteter til produkter i kapabilitetssidene
