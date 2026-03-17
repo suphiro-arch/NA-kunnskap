@@ -5,8 +5,6 @@ description: "Evne til å tilgjengeliggjøre egne data som veldokumenterte og si
 cardMeta: "4 produkter"
 ---
 
-# Dele data med andre
-
 Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er, slik at andre aktører med lovlig grunnlag enkelt kan oppdage og gjenbruke dem.
 
 ## Hører til

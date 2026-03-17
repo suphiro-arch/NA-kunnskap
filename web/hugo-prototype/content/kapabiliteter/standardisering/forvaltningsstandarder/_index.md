@@ -5,8 +5,6 @@ description: "Evne til å implementere og ta i bruk nasjonale standarder."
 cardMeta: "3 produkter"
 ---
 
-# Forvaltningsstandarder
-
 Evne til å implementere og ta i bruk nasjonale standarder.
 
 ## Hører til

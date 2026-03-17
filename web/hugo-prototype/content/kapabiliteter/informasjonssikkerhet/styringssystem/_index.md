@@ -5,8 +5,6 @@ description: "Evne til å evaluere, forbedre, fornye styringssystem for informas
 cardMeta: "0 produkter"
 ---
 
-# Styringssystem
-
 Evne til å evaluere, forbedre, fornye styringssystem for informasjonssikkerhet.
 
 ## Hører til

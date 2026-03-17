@@ -5,8 +5,6 @@ description: "Evne til å få oversikt over hvilke hendelser som utløser eller 
 cardMeta: "0 produkter"
 ---
 
-# Oversikt over hendelser
-
 Evne til å få oversikt over hvilke hendelser som utløser eller utløses av en tjeneste.
 
 ## Hører til

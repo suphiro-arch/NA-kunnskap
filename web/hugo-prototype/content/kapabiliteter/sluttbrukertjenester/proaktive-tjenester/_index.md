@@ -5,8 +5,6 @@ description: "Evne til å, basert på registrerte hendelser og delte data, autom
 cardMeta: "0 produkter"
 ---
 
-# Proaktive tjenester
-
 Evne til å, basert på registrerte hendelser og delte data, automatisk identifisere en brukers behov for offentlige tjenester og proaktivt tilby relevant informasjon, veiledning eller starte en tjenesteprosess på vegne av brukeren.
 
 ## Hører til

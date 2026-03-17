@@ -5,8 +5,6 @@ description: "Evne til å strukturere og modellere informasjon på en standardis
 cardMeta: "2 produkter"
 ---
 
-# Informasjonsarkitektur
-
 Evne til å strukturere og modellere informasjon på en standardisert måte, slik at data og innhold blir finnbart, forståelig og gjenbrukbart for både mennesker og maskiner på tvers av hele økosystemet.
 
 ## Hører til

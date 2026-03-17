@@ -5,8 +5,6 @@ description: "Evne til å tilby en sammenhengende digital brukeropplevelse gjenn
 cardMeta: "3 delkapabiliteter · 2 produkter"
 ---
 
-# Sluttbrukertjenester
-
 Evne til å tilby en sammenhengende digital brukeropplevelse gjennom et økosystem av standardiserte og integrerbare tjenester.
 
 ## Relevante prinsipper

@@ -5,8 +5,6 @@ description: "Evne til å publisere og reagere på digitale hendelser og kontinu
 cardMeta: "0 produkter"
 ---
 
-# Hendelsesdrevet
-
 Evne til å publisere og reagere på digitale hendelser og kontinuerlige datastrømmer når de inntreffer.
 
 ## Hører til

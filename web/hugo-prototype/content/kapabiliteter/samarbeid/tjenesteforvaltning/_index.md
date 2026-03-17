@@ -5,8 +5,6 @@ description: "Evne til å formalisere samarbeid gjennom tydelig definerte roller
 cardMeta: "0 produkter"
 ---
 
-# Tjenesteforvaltning
-
 Evne til å formalisere samarbeid gjennom tydelig definerte roller, ansvar og avtaler for å sikre forutsigbar og effektiv felles styring mellom samhandlende virksomheter.
 
 ## Hører til

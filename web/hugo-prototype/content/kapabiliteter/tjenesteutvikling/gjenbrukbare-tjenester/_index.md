@@ -5,8 +5,6 @@ description: "Evne til å utvikle og benytte tjenester som kan brukes i nye samm
 cardMeta: "0 produkter"
 ---
 
-# Gjenbrukbare tjenester
-
 Evne til å utvikle og benytte tjenester som kan brukes i nye sammenhenger på tvers av offentlig forvaltning og næringsliv.
 
 ## Hører til

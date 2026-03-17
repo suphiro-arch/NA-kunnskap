@@ -5,8 +5,6 @@ description: "Evne til å tilby og forvalte en felles, skalerbar teknisk plattfo
 cardMeta: "0 produkter"
 ---
 
-# Utviklings- og kjøretidsmiljø
-
 Evne til å tilby og forvalte en felles, skalerbar teknisk plattform og en tilhørende verktøykasse med standardiserte byggeklosser, verktøy og utviklingsmiljøer som forenkler og akselererer utviklingen av digitale tjenester.
 
 ## Hører til

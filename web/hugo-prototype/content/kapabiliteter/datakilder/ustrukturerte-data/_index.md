@@ -5,8 +5,6 @@ description: "Evne til å tilgjengeliggjøre og forvalte data som ikke er påfø
 cardMeta: "0 produkter"
 ---
 
-# Ustrukturerte data
-
 Evne til å tilgjengeliggjøre og forvalte data som ikke er påført en forhåndsdefinert struktur.
 
 ## Hører til

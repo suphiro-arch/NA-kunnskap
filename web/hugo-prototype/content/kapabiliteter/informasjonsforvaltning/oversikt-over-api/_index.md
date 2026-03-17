@@ -5,8 +5,6 @@ description: "Evne til å datadeling og tjenesteintegrasjon ved å oppdage, fors
 cardMeta: "1 produkter"
 ---
 
-# Oversikt over API
-
 Evne til å datadeling og tjenesteintegrasjon ved å oppdage, forstå og koble seg til tilgjengelige data via en standardisert oversikt over maskinlesbare grensesnitt (API-er).
 
 ## Hører til

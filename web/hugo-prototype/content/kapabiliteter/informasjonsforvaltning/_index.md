@@ -5,8 +5,6 @@ description: "Evne til å ha et felles rammeverk og styringsmodell for informasj
 cardMeta: "8 delkapabiliteter · 3 produkter"
 ---
 
-# Informasjonsforvaltning
-
 Evne til å ha et felles rammeverk og styringsmodell for informasjonsforvaltning, slik at offentlige virksomheter kan utveksle og dele data og beskrivelser.
 
 ## Relevante prinsipper

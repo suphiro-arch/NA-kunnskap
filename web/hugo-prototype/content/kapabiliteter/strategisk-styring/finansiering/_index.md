@@ -5,8 +5,6 @@ description: "Evne til å utforme, anvende og forvalte finansielle virkemidler f
 cardMeta: "0 produkter"
 ---
 
-# Finansiering
-
 Evne til å utforme, anvende og forvalte finansielle virkemidler for å styre digitalisering i økosystemets i tråd med nasjonale mål.
 
 ## Hører til

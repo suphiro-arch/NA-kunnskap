@@ -5,8 +5,6 @@ description: "Evne til til å kunne opptre eller utføre handlinger digitalt på
 cardMeta: "0 produkter"
 ---
 
-# Representasjon
-
 Evne til til å kunne opptre eller utføre handlinger digitalt på vegne av andre.
 
 ## Hører til

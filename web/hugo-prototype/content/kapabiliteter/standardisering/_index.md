@@ -5,8 +5,6 @@ description: "Evne til å identifisere, vedta, forvalte og fremme bruk av omfore
 cardMeta: "2 delkapabiliteter · 3 produkter"
 ---
 
-# Standardisering
-
 Evne til å identifisere, vedta, forvalte og fremme bruk av omforente standarder og spesifikasjoner som sikrer interoperabilitet og gjenbruk på tvers av sektorer og landegrenser.
 
 ## Relevante prinsipper

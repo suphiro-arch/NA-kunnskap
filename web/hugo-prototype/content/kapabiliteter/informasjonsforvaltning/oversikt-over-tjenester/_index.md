@@ -5,8 +5,6 @@ description: "Evne til å gi oversikt over og oppdage tjenester som tilbys av el
 cardMeta: "1 produkter"
 ---
 
-# Oversikt over tjenester
-
 Evne til å gi oversikt over og oppdage tjenester som tilbys av eller på vegne av offentlig sektor.
 
 ## Hører til

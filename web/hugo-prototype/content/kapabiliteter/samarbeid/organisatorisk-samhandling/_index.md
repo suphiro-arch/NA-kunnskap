@@ -5,8 +5,6 @@ description: "Evnen til å effektivisere forretningsprosesser og verdikjeder på
 cardMeta: "4 produkter"
 ---
 
-# Organisatorisk samhandling
-
 Evnen til å effektivisere forretningsprosesser og verdikjeder på tvers av organisatoriske grenser.
 
 ## Hører til

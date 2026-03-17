@@ -5,8 +5,6 @@ description: "Evne til å systematisk oppdage, vurdere og gjenbruke data på tve
 cardMeta: "0 produkter"
 ---
 
-# Oversikt over datasett
-
 Evne til å systematisk oppdage, vurdere og gjenbruke data på tvers av offentlig sektor gjennom en sentral, standardisert oversikt over tilgjengelige datasett.
 
 ## Hører til

@@ -5,8 +5,6 @@ description: "Evne til å generere og tilgjengeliggjøre representative og perso
 cardMeta: "0 produkter"
 ---
 
-# Testdata
-
 Evne til å generere og tilgjengeliggjøre representative og personvernsikre datasett.
 
 ## Hører til

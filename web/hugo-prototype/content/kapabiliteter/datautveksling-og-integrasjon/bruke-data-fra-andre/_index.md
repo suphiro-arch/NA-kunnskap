@@ -5,8 +5,6 @@ description: "Evne til å gjenbruke data fra andre i egne tjenester og prosesser
 cardMeta: "3 produkter"
 ---
 
-# Bruke data fra andre
-
 Evne til å gjenbruke data fra andre i egne tjenester og prosesser.
 
 ## Hører til

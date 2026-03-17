@@ -5,8 +5,6 @@ description: "Evne til å hente, kombinere og foredle data fra ulike kilder for 
 cardMeta: "0 produkter"
 ---
 
-# Sammenstilling av data
-
 Evne til å hente, kombinere og foredle data fra ulike kilder for å skape ny innsikt, et helhetlig beslutningsgrunnlag, eller sammenhengende tjenester for brukeren.
 
 ## Hører til

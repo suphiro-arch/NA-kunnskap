@@ -5,8 +5,6 @@ description: "Evne til å samarbeid og samhandling på tvers av offentlig og pri
 cardMeta: "3 delkapabiliteter · 4 produkter"
 ---
 
-# Samarbeid
-
 Evne til å samarbeid og samhandling på tvers av offentlig og privat forvaltning.
 
 ## Relevante prinsipper

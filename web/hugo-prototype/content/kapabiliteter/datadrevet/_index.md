@@ -5,8 +5,6 @@ description: "Evne til å systematisk bruke data som en strategisk ressurs for �
 cardMeta: "3 delkapabiliteter · 0 produkter"
 ---
 
-# Datadrevet
-
 Evne til å systematisk bruke data som en strategisk ressurs for å skape innsikt, informere beslutninger og utvikle bedre, mer treffsikre og effektive tjenester.
 
 ## Relevante prinsipper

@@ -5,8 +5,6 @@ description: "Kapabiliteten omfatter de tekniske og organisatoriske tiltakene so
 cardMeta: "1 produkter"
 ---
 
-# Sikring av informasjonsflyt og datautveksling
-
 Kapabiliteten omfatter de tekniske og organisatoriske tiltakene som sikrer at informasjon som utveksles mellom virksomheter er beskyttet mot innsyn og manipulering, og at dataflyten er kontrollert.
 
 ## Hører til

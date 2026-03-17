@@ -5,8 +5,6 @@ description: "Dokumentasjon og logging av opplysninger for bruk i innsyn, forval
 cardMeta: "1 produkter"
 ---
 
-# Sporbarhet og innsyn
-
 Dokumentasjon og logging av opplysninger for bruk i innsyn, forvaltning og kontroll av tillitstjenester.
 
 ## Hører til
