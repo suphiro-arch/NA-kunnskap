@@ -1,5 +1,5 @@
 {
-  "source": "manuelt vedlikeholdt masterfil",
+  "source": "manuelt vedlikeholdt masterfil, kvalitetssjekket mot siste produktversjoner",
   "products": [
     {
       "product_id": 1,
@@ -320,16 +320,6 @@
           "explanation": "Samhändig kommunikasion mellom virksomheter"
         },
         {
-          "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
-          "capability_name": "Sluttbrukertjenester",
-          "capability_slug": "sluttbrukertjenester",
-          "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
-          "subcapability_name": "Sammenhengende tjenester",
-          "subcapability_slug": "sammenhengende-tjenester",
-          "mapping_label": "Samhandling: Sammenhengende tjenester",
-          "explanation": "Bidrag til integrert samhandling"
-        },
-        {
           "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
           "capability_name": "Standardisering",
           "capability_slug": "standardisering",
@@ -383,10 +373,10 @@
           "capability_id": "id-48c9873ae59341a49c2dca27379fab55",
           "capability_name": "Informasjonssikkerhet",
           "capability_slug": "informasjonssikkerhet",
-          "subcapability_id": "",
-          "subcapability_name": "",
-          "subcapability_slug": "",
-          "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt",
+          "subcapability_id": "id-34d3d64b3afe4327a29ee6c2f7f74dff",
+          "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
+          "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling",
+          "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
           "explanation": "Kryptering, autentisering, tilgangskontroll"
         },
         {
@@ -398,16 +388,6 @@
           "subcapability_slug": "organisatorisk-samhandling",
           "mapping_label": "Samarbeid: Organisatorisk samhandling",
           "explanation": "Enabler samhandling mellom organisasjoner"
-        },
-        {
-          "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-          "capability_name": "Tillit",
-          "capability_slug": "tillit",
-          "subcapability_id": "id-2dfe07b3eae740b9a292e0a4a42d22db",
-          "subcapability_name": "Sporbarhet og innsyn",
-          "subcapability_slug": "sporbarhet-og-innsyn",
-          "mapping_label": "Tillit: Sporbarhet og innsyn",
-          "explanation": "Logging av all formidling og leveringsstatus"
         },
         {
           "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
@@ -433,51 +413,41 @@
           "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
           "capability_name": "Datautveksling og integrasjon",
           "capability_slug": "datautveksling-og-integrasjon",
-          "subcapability_id": "",
-          "subcapability_name": "",
-          "subcapability_slug": "",
-          "mapping_label": "Datautveksling og integrasjon:",
-          "explanation": "Meldingsformidling – Sikker transport av post fra avsender til innbygger"
+          "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+          "subcapability_name": "Dele data med andre",
+          "subcapability_slug": "dele-data-med-andre",
+          "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+          "explanation": "integrering med offentlige fagsystemer"
         },
         {
           "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
           "capability_name": "Datautveksling og integrasjon",
           "capability_slug": "datautveksling-og-integrasjon",
-          "subcapability_id": "",
-          "subcapability_name": "",
-          "subcapability_slug": "",
-          "mapping_label": "Datautveksling og integrasjon:",
-          "explanation": "Dele data med andre – Integrering med offentlige fagsystemer"
+          "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
+          "subcapability_name": "Meldingsformidling",
+          "subcapability_slug": "meldingsformidling",
+          "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+          "explanation": "sikker transport av post fra avsender til innbygger"
         },
         {
           "capability_id": "id-48c9873ae59341a49c2dca27379fab55",
           "capability_name": "Informasjonssikkerhet",
           "capability_slug": "informasjonssikkerhet",
-          "subcapability_id": "",
-          "subcapability_name": "",
-          "subcapability_slug": "",
-          "mapping_label": "Informasjonssikkerhet:",
-          "explanation": "Sikring av informasjonsflyt og datautveksling – Kryptering, autentisering, tilgangskontroll"
+          "subcapability_id": "id-34d3d64b3afe4327a29ee6c2f7f74dff",
+          "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
+          "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling",
+          "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
+          "explanation": "kryptering, autentisering og tilgangskontroll"
         },
         {
           "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
           "capability_name": "Sluttbrukertjenester",
           "capability_slug": "sluttbrukertjenester",
-          "subcapability_id": "",
-          "subcapability_name": "",
-          "subcapability_slug": "",
-          "mapping_label": "Sluttbrukertjenester:",
-          "explanation": "Sammenhengende tjenester – Innbyggers sentrale innboks for offentlig post"
-        },
-        {
-          "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-          "capability_name": "Tillit",
-          "capability_slug": "tillit",
-          "subcapability_id": "",
-          "subcapability_name": "",
-          "subcapability_slug": "",
-          "mapping_label": "Tillit:",
-          "explanation": "Sporbarhet og innsyn – Loggering av all post og leveringsstatus"
+          "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
+          "subcapability_name": "Sammenhengende tjenester",
+          "subcapability_slug": "sammenhengende-tjenester",
+          "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+          "explanation": "innbyggers sentrale innboks for offentlig post"
         }
       ]
     },
@@ -513,41 +483,11 @@
           "capability_id": "id-896e4c1434604caa891b94bcce964720",
           "capability_name": "Informasjonsforvaltning",
           "capability_slug": "informasjonsforvaltning",
-          "subcapability_id": "id-718d8e94a9b847a485fc6518b4f2588d",
-          "subcapability_name": "Oversikt over API",
-          "subcapability_slug": "oversikt-over-api",
-          "mapping_label": "Informasjonsforvaltning: Oversikt over API",
-          "explanation": "â€“ Oppslag-API for adresseoppslag"
-        },
-        {
-          "capability_id": "id-896e4c1434604caa891b94bcce964720",
-          "capability_name": "Informasjonsforvaltning",
-          "capability_slug": "informasjonsforvaltning",
           "subcapability_id": "id-d9374751da7d4b36bb0b3be609ff7d28",
           "subcapability_name": "Oversikt over tjenester",
           "subcapability_slug": "oversikt-over-tjenester",
           "mapping_label": "Informasjonsforvaltning: Oversikt over tjenester",
           "explanation": "â€“ ELMA er felles register for kompatible mottagertjenester"
-        },
-        {
-          "capability_id": "id-48c9873ae59341a49c2dca27379fab55",
-          "capability_name": "Informasjonssikkerhet",
-          "capability_slug": "informasjonssikkerhet",
-          "subcapability_id": "",
-          "subcapability_name": "",
-          "subcapability_slug": "",
-          "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt",
-          "explanation": "â€“ Sikker adresseoppslag med tilgangskontroll"
-        },
-        {
-          "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
-          "capability_name": "Samarbeid",
-          "capability_slug": "samarbeid",
-          "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
-          "subcapability_name": "Organisatorisk samhandling",
-          "subcapability_slug": "organisatorisk-samhandling",
-          "mapping_label": "Samarbeid: Organisatorisk samhandling",
-          "explanation": "â€“ Enabler grensekryssende dokumentutveksling"
         },
         {
           "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
@@ -603,21 +543,11 @@
           "capability_id": "id-48c9873ae59341a49c2dca27379fab55",
           "capability_name": "Informasjonssikkerhet",
           "capability_slug": "informasjonssikkerhet",
-          "subcapability_id": "",
-          "subcapability_name": "",
-          "subcapability_slug": "",
-          "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt",
+          "subcapability_id": "id-34d3d64b3afe4327a29ee6c2f7f74dff",
+          "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
+          "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling",
+          "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
           "explanation": "â€“ Kryptering, sertifikat-sikring, logging"
-        },
-        {
-          "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
-          "capability_name": "Samarbeid",
-          "capability_slug": "samarbeid",
-          "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
-          "subcapability_name": "Organisatorisk samhandling",
-          "subcapability_slug": "organisatorisk-samhandling",
-          "mapping_label": "Samarbeid: Organisatorisk samhandling",
-          "explanation": "â€“ Enabler grensekryssende og tversektor samhandling"
         },
         {
           "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
@@ -680,34 +610,14 @@
           "explanation": "â€“ Publisering og abonnement pÃ¥ hendelser"
         },
         {
-          "capability_id": "id-896e4c1434604caa891b94bcce964720",
-          "capability_name": "Informasjonsforvaltning",
-          "capability_slug": "informasjonsforvaltning",
-          "subcapability_id": "id-e5a55d4bacd14740a656bc896d25497a",
-          "subcapability_name": "Oversikt over hendelser",
-          "subcapability_slug": "oversikt-over-hendelser",
-          "mapping_label": "Informasjonsforvaltning: Oversikt over hendelser",
-          "explanation": "â€“ Logging og historikk av alle hendelser"
-        },
-        {
           "capability_id": "id-48c9873ae59341a49c2dca27379fab55",
           "capability_name": "Informasjonssikkerhet",
           "capability_slug": "informasjonssikkerhet",
-          "subcapability_id": "",
-          "subcapability_name": "",
-          "subcapability_slug": "",
-          "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt",
+          "subcapability_id": "id-34d3d64b3afe4327a29ee6c2f7f74dff",
+          "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
+          "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling",
+          "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
           "explanation": "â€“ Sikret transport; tilgangskontroll pÃ¥ abonnement"
-        },
-        {
-          "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
-          "capability_name": "Sluttbrukertjenester",
-          "capability_slug": "sluttbrukertjenester",
-          "subcapability_id": "id-9bc3012bcd154e27aa094ac36bf391be",
-          "subcapability_name": "Proaktive tjenester",
-          "subcapability_slug": "proaktive-tjenester",
-          "mapping_label": "Sluttbrukertjenester: Proaktive tjenester",
-          "explanation": "â€“ Hendelser triggers automatiserte tjenester"
         },
         {
           "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
@@ -729,16 +639,6 @@
       "relative_path": "results/Produktbeskrivelser/13-Felles-datakatalog-produkt-canvas-v2-copilot.md",
       "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/13-Felles-datakatalog-produkt-canvas-v2-copilot.md",
       "capabilities": [
-        {
-          "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-          "capability_name": "Datautveksling og integrasjon",
-          "capability_slug": "datautveksling-og-integrasjon",
-          "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
-          "subcapability_name": "Dele data med andre",
-          "subcapability_slug": "dele-data-med-andre",
-          "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-          "explanation": "â€“ Metadata-basert oppdagelse av datasett for deling"
-        },
         {
           "capability_id": "id-896e4c1434604caa891b94bcce964720",
           "capability_name": "Informasjonsforvaltning",
@@ -800,16 +700,6 @@
       "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/14-Begrepskatalog-produkt-canvas-v2-copilot.md",
       "capabilities": [
         {
-          "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-          "capability_name": "Datautveksling og integrasjon",
-          "capability_slug": "datautveksling-og-integrasjon",
-          "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
-          "subcapability_name": "Dele data med andre",
-          "subcapability_slug": "dele-data-med-andre",
-          "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-          "explanation": "Semantisk linking til datasett og API-er"
-        },
-        {
           "capability_id": "id-896e4c1434604caa891b94bcce964720",
           "capability_name": "Informasjonsforvaltning",
           "capability_slug": "informasjonsforvaltning",
@@ -840,16 +730,6 @@
           "explanation": "Katalogisering og søk av autoritative begreper"
         },
         {
-          "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
-          "capability_name": "Samarbeid",
-          "capability_slug": "samarbeid",
-          "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
-          "subcapability_name": "Organisatorisk samhandling",
-          "subcapability_slug": "organisatorisk-samhandling",
-          "mapping_label": "Samarbeid: Organisatorisk samhandling",
-          "explanation": "Enabler semantisk samhandling på tvers"
-        },
-        {
           "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
           "capability_name": "Standardisering",
           "capability_slug": "standardisering",
@@ -869,26 +749,6 @@
       "relative_path": "results/Produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md",
       "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md",
       "capabilities": [
-        {
-          "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-          "capability_name": "Datautveksling og integrasjon",
-          "capability_slug": "datautveksling-og-integrasjon",
-          "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
-          "subcapability_name": "Bruke data fra andre",
-          "subcapability_slug": "bruke-data-fra-andre",
-          "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
-          "explanation": "Oppdagelse og gjenbruk av API-er"
-        },
-        {
-          "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-          "capability_name": "Datautveksling og integrasjon",
-          "capability_slug": "datautveksling-og-integrasjon",
-          "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
-          "subcapability_name": "Dele data med andre",
-          "subcapability_slug": "dele-data-med-andre",
-          "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-          "explanation": "Publisering av API-metadata"
-        },
         {
           "capability_id": "id-896e4c1434604caa891b94bcce964720",
           "capability_name": "Informasjonsforvaltning",
@@ -918,16 +778,6 @@
           "subcapability_slug": "forvaltningsstandarder",
           "mapping_label": "Standardisering: Forvaltningsstandarder",
           "explanation": "OpenAPI/Swagger standarder"
-        },
-        {
-          "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
-          "capability_name": "Tjenesteutvikling",
-          "capability_slug": "tjenesteutvikling",
-          "subcapability_id": "id-60827614648541ef8520df87fa25d100",
-          "subcapability_name": "Integrerbare tjenester",
-          "subcapability_slug": "integrerbare-tjenester",
-          "mapping_label": "Tjenesteutvikling: Integrerbare tjenester",
-          "explanation": "Standard API-katalogisering"
         }
       ]
     },
@@ -939,26 +789,6 @@
       "relative_path": "results/Produktbeskrivelser/16-data-norge-no-produkt-canvas-v4-codex.md",
       "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/16-data-norge-no-produkt-canvas-v4-codex.md",
       "capabilities": [
-        {
-          "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-          "capability_name": "Datautveksling og integrasjon",
-          "capability_slug": "datautveksling-og-integrasjon",
-          "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
-          "subcapability_name": "Bruke data fra andre",
-          "subcapability_slug": "bruke-data-fra-andre",
-          "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
-          "explanation": "gir datakonsumenter ett sted å oppdage, vurdere og finne tilgangsinformasjon om dataressurser"
-        },
-        {
-          "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-          "capability_name": "Datautveksling og integrasjon",
-          "capability_slug": "datautveksling-og-integrasjon",
-          "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
-          "subcapability_name": "Dele data med andre",
-          "subcapability_slug": "dele-data-med-andre",
-          "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-          "explanation": "gir datatilbydere en nasjonal kanal for å gjøre dataressurser oppdagbare og forståelige"
-        },
         {
           "capability_id": "id-896e4c1434604caa891b94bcce964720",
           "capability_name": "Informasjonsforvaltning",
@@ -1178,16 +1008,6 @@
           "subcapability_slug": "tjenestekjeder",
           "mapping_label": "Sluttbrukertjenester: Tjenestekjeder",
           "explanation": "Lenking av relaterte tjenester basert på livsbegivenheter"
-        },
-        {
-          "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
-          "capability_name": "Tjenesteutvikling",
-          "capability_slug": "tjenesteutvikling",
-          "subcapability_id": "id-379e167f7b9c4fbea9c6969425ba7f6c",
-          "subcapability_name": "Tjenestedesign",
-          "subcapability_slug": "tjenestedesign",
-          "mapping_label": "Tjenesteutvikling: Tjenestedesign",
-          "explanation": "Behovsbasert navigasjon og informasjonstruktur"
         }
       ]
     },
@@ -1200,26 +1020,6 @@
       "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/19-Altinn-produkt-canvas-v2-copilot.md",
       "capabilities": [
         {
-          "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-          "capability_name": "Datautveksling og integrasjon",
-          "capability_slug": "datautveksling-og-integrasjon",
-          "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-          "subcapability_name": "Meldingsformidling",
-          "subcapability_slug": "meldingsformidling",
-          "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
-          "explanation": "â€“ Altinn Formidling for sikker meldingsutveksling"
-        },
-        {
-          "capability_id": "id-48c9873ae59341a49c2dca27379fab55",
-          "capability_name": "Informasjonssikkerhet",
-          "capability_slug": "informasjonssikkerhet",
-          "subcapability_id": "",
-          "subcapability_name": "",
-          "subcapability_slug": "",
-          "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt",
-          "explanation": "â€“ Integrert sikkerheit, autentisering, autorisasjon"
-        },
-        {
           "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
           "capability_name": "Samarbeid",
           "capability_slug": "samarbeid",
@@ -1228,26 +1028,6 @@
           "subcapability_slug": "tjenesteforvaltning",
           "mapping_label": "Samarbeid: Tjenesteforvaltning",
           "explanation": "â€“ VerktÃ¸y for tjenesteeiere til Ã¥ administrere tjenester"
-        },
-        {
-          "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
-          "capability_name": "Sluttbrukertjenester",
-          "capability_slug": "sluttbrukertjenester",
-          "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
-          "subcapability_name": "Sammenhengende tjenester",
-          "subcapability_slug": "sammenhengende-tjenester",
-          "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-          "explanation": "â€“ Altinn Portal og Altinn Apps for innbygger-grensesnitt"
-        },
-        {
-          "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
-          "capability_name": "Tjenesteutvikling",
-          "capability_slug": "tjenesteutvikling",
-          "subcapability_id": "",
-          "subcapability_name": "",
-          "subcapability_slug": "",
-          "mapping_label": "Tjenesteutvikling: Utviklings- og kjÃ¸retidsmiljÃ¸",
-          "explanation": "â€“ Altinn Studio som platform for tjenesteutvikling"
         },
         {
           "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
@@ -1280,56 +1060,6 @@
       "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md",
       "capabilities": [
         {
-          "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-          "capability_name": "Datautveksling og integrasjon",
-          "capability_slug": "datautveksling-og-integrasjon",
-          "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
-          "subcapability_name": "Bruke data fra andre",
-          "subcapability_slug": "bruke-data-fra-andre",
-          "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
-          "explanation": "â€“ API-integrasjon mot andre systemer"
-        },
-        {
-          "capability_id": "id-48c9873ae59341a49c2dca27379fab55",
-          "capability_name": "Informasjonssikkerhet",
-          "capability_slug": "informasjonssikkerhet",
-          "subcapability_id": "",
-          "subcapability_name": "",
-          "subcapability_slug": "",
-          "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt",
-          "explanation": "â€“ Bygg-inn sikkerheit, autentisering, autorisasjon"
-        },
-        {
-          "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
-          "capability_name": "Samarbeid",
-          "capability_slug": "samarbeid",
-          "subcapability_id": "id-3f59d920995e4d488e56f61356dcf97a",
-          "subcapability_name": "Tjenesteforvaltning",
-          "subcapability_slug": "tjenesteforvaltning",
-          "mapping_label": "Samarbeid: Tjenesteforvaltning",
-          "explanation": "â€“ VerktÃ¸y for release-management, versjonering, miljÃ¸er"
-        },
-        {
-          "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
-          "capability_name": "Sluttbrukertjenester",
-          "capability_slug": "sluttbrukertjenester",
-          "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
-          "subcapability_name": "Sammenhengende tjenester",
-          "subcapability_slug": "sammenhengende-tjenester",
-          "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-          "explanation": "â€“ Integration med Altinn Portal/Apps for sluttbrukerpresentasjon"
-        },
-        {
-          "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
-          "capability_name": "Tjenesteutvikling",
-          "capability_slug": "tjenesteutvikling",
-          "subcapability_id": "",
-          "subcapability_name": "",
-          "subcapability_slug": "",
-          "mapping_label": "Tjenesteutvikling: Utviklings- og kjÃ¸retidsmiljÃ¸",
-          "explanation": "â€“ Integrert IDE og runtime for tjenesteutvikling"
-        },
-        {
           "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
           "capability_name": "Tjenesteutvikling",
           "capability_slug": "tjenesteutvikling",
@@ -1358,6 +1088,16 @@
           "subcapability_slug": "tjenestedesign",
           "mapping_label": "Tjenesteutvikling: Tjenestedesign",
           "explanation": "â€“ Low-code UI-modellering for brukergrensesnitt"
+        },
+        {
+          "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
+          "capability_name": "Tjenesteutvikling",
+          "capability_slug": "tjenesteutvikling",
+          "subcapability_id": "id-ce84b9b6943f4789bca153c0ed15245a",
+          "subcapability_name": "Utviklings- og kjøretidsmiljø",
+          "subcapability_slug": "utviklings-og-kjoretidsmiljo",
+          "mapping_label": "Tjenesteutvikling: Utviklings- og kjøretidsmiljø",
+          "explanation": "â€“ Integrert IDE og runtime for tjenesteutvikling"
         }
       ]
     },
@@ -1369,26 +1109,6 @@
       "relative_path": "results/Produktbeskrivelser/21-Altinn-Portal-produkt-canvas-v3-codex.md",
       "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/21-Altinn-Portal-produkt-canvas-v3-codex.md",
       "capabilities": [
-        {
-          "capability_id": "id-48c9873ae59341a49c2dca27379fab55",
-          "capability_name": "Informasjonssikkerhet",
-          "capability_slug": "informasjonssikkerhet",
-          "subcapability_id": "id-34d3d64b3afe4327a29ee6c2f7f74dff",
-          "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
-          "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling",
-          "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
-          "explanation": "er nødvendig fordi portalen eksponerer oppgaver, meldinger og tilganger fra mange underliggende tjenester i samme brukerflate"
-        },
-        {
-          "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
-          "capability_name": "Samarbeid",
-          "capability_slug": "samarbeid",
-          "subcapability_id": "id-3f59d920995e4d488e56f61356dcf97a",
-          "subcapability_name": "Tjenesteforvaltning",
-          "subcapability_slug": "tjenesteforvaltning",
-          "mapping_label": "Samarbeid: Tjenesteforvaltning",
-          "explanation": "gir mange tjenesteeiere en felles portalflate i stedet for separate sluttbrukergrensesnitt"
-        },
         {
           "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
           "capability_name": "Sluttbrukertjenester",
@@ -1468,16 +1188,6 @@
           "subcapability_slug": "hendelsesdrevet",
           "mapping_label": "Datautveksling og integrasjon: Hendelsesdrevet",
           "explanation": "bruker hendelser og abonnementer for å oppdage endringer uten kontinuerlig polling"
-        },
-        {
-          "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
-          "capability_name": "Samarbeid",
-          "capability_slug": "samarbeid",
-          "subcapability_id": "id-3f59d920995e4d488e56f61356dcf97a",
-          "subcapability_name": "Tjenesteforvaltning",
-          "subcapability_slug": "tjenesteforvaltning",
-          "mapping_label": "Samarbeid: Tjenesteforvaltning",
-          "explanation": "gjør det mulig å samordne digital dialog på tvers av ulike plattformer og tjenesteeiere"
         },
         {
           "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
@@ -1560,16 +1270,6 @@
           "explanation": "beskytter innhold, vedlegg og overføringer i meldingsflyten"
         },
         {
-          "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
-          "capability_name": "Sluttbrukertjenester",
-          "capability_slug": "sluttbrukertjenester",
-          "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
-          "subcapability_name": "Sammenhengende tjenester",
-          "subcapability_slug": "sammenhengende-tjenester",
-          "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-          "explanation": "gjør meldinger tilgjengelige i Altinn Arbeidsflate og som dialoger i Dialogporten"
-        },
-        {
           "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
           "capability_name": "Tillit",
           "capability_slug": "tillit",
@@ -1648,16 +1348,6 @@
           "subcapability_slug": "proaktive-tjenester",
           "mapping_label": "Sluttbrukertjenester: Proaktive tjenester",
           "explanation": "gjør det mulig å varsle mottakere når en hendelse eller tilstand krever oppmerksomhet"
-        },
-        {
-          "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
-          "capability_name": "Standardisering",
-          "capability_slug": "standardisering",
-          "subcapability_id": "id-b99fcd8160d24e5f8ea3c17b15072f7a",
-          "subcapability_name": "Forvaltningsstandarder",
-          "subcapability_slug": "forvaltningsstandarder",
-          "mapping_label": "Standardisering: Forvaltningsstandarder",
-          "explanation": "gir tjenesteeiere et felles mønster for kanalvalg, oppslag og status i stedet for lokale varslingsmotorer"
         },
         {
           "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
@@ -1759,45 +1449,6 @@
           "subcapability_slug": "organisatorisk-samhandling"
         },
         {
-          "product_id": 10,
-          "product_name": "ELMA (Elektronisk mottakeradresseregister)",
-          "version": 2,
-          "author": "copilot",
-          "relative_path": "results/Produktbeskrivelser/10-ELMA-produkt-canvas-v2-copilot.md",
-          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/10-ELMA-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Samarbeid: Organisatorisk samhandling",
-          "explanation": "â€“ Enabler grensekryssende dokumentutveksling",
-          "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
-          "subcapability_name": "Organisatorisk samhandling",
-          "subcapability_slug": "organisatorisk-samhandling"
-        },
-        {
-          "product_id": 11,
-          "product_name": "Peppol eDelivery",
-          "version": 2,
-          "author": "copilot",
-          "relative_path": "results/Produktbeskrivelser/11-Peppol-eDelivery-produkt-canvas-v2-copilot.md",
-          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/11-Peppol-eDelivery-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Samarbeid: Organisatorisk samhandling",
-          "explanation": "â€“ Enabler grensekryssende og tversektor samhandling",
-          "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
-          "subcapability_name": "Organisatorisk samhandling",
-          "subcapability_slug": "organisatorisk-samhandling"
-        },
-        {
-          "product_id": 14,
-          "product_name": "Begrepskatalog",
-          "version": 2,
-          "author": "copilot",
-          "relative_path": "results/Produktbeskrivelser/14-Begrepskatalog-produkt-canvas-v2-copilot.md",
-          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/14-Begrepskatalog-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Samarbeid: Organisatorisk samhandling",
-          "explanation": "Enabler semantisk samhandling på tvers",
-          "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
-          "subcapability_name": "Organisatorisk samhandling",
-          "subcapability_slug": "organisatorisk-samhandling"
-        },
-        {
           "product_id": 18,
           "product_name": "Norge.no",
           "version": 2,
@@ -1819,45 +1470,6 @@
           "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/19-Altinn-produkt-canvas-v2-copilot.md",
           "mapping_label": "Samarbeid: Tjenesteforvaltning",
           "explanation": "â€“ VerktÃ¸y for tjenesteeiere til Ã¥ administrere tjenester",
-          "subcapability_id": "id-3f59d920995e4d488e56f61356dcf97a",
-          "subcapability_name": "Tjenesteforvaltning",
-          "subcapability_slug": "tjenesteforvaltning"
-        },
-        {
-          "product_id": 20,
-          "product_name": "Altinn Studio",
-          "version": 2,
-          "author": "copilot",
-          "relative_path": "results/Produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md",
-          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Samarbeid: Tjenesteforvaltning",
-          "explanation": "â€“ VerktÃ¸y for release-management, versjonering, miljÃ¸er",
-          "subcapability_id": "id-3f59d920995e4d488e56f61356dcf97a",
-          "subcapability_name": "Tjenesteforvaltning",
-          "subcapability_slug": "tjenesteforvaltning"
-        },
-        {
-          "product_id": 21,
-          "product_name": "Altinn Portal",
-          "version": 3,
-          "author": "codex",
-          "relative_path": "results/Produktbeskrivelser/21-Altinn-Portal-produkt-canvas-v3-codex.md",
-          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/21-Altinn-Portal-produkt-canvas-v3-codex.md",
-          "mapping_label": "Samarbeid: Tjenesteforvaltning",
-          "explanation": "gir mange tjenesteeiere en felles portalflate i stedet for separate sluttbrukergrensesnitt",
-          "subcapability_id": "id-3f59d920995e4d488e56f61356dcf97a",
-          "subcapability_name": "Tjenesteforvaltning",
-          "subcapability_slug": "tjenesteforvaltning"
-        },
-        {
-          "product_id": 22,
-          "product_name": "Dialogporten",
-          "version": 4,
-          "author": "codex",
-          "relative_path": "results/Produktbeskrivelser/22-Dialogporten-produkt-canvas-v4-codex.md",
-          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/22-Dialogporten-produkt-canvas-v4-codex.md",
-          "mapping_label": "Samarbeid: Tjenesteforvaltning",
-          "explanation": "gjør det mulig å samordne digital dialog på tvers av ulike plattformer og tjenesteeiere",
           "subcapability_id": "id-3f59d920995e4d488e56f61356dcf97a",
           "subcapability_name": "Tjenesteforvaltning",
           "subcapability_slug": "tjenesteforvaltning"
@@ -1910,45 +1522,6 @@
               "subcapability_slug": "organisatorisk-samhandling"
             },
             {
-              "product_id": 10,
-              "product_name": "ELMA (Elektronisk mottakeradresseregister)",
-              "version": 2,
-              "author": "copilot",
-              "relative_path": "results/Produktbeskrivelser/10-ELMA-produkt-canvas-v2-copilot.md",
-              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/10-ELMA-produkt-canvas-v2-copilot.md",
-              "mapping_label": "Samarbeid: Organisatorisk samhandling",
-              "explanation": "â€“ Enabler grensekryssende dokumentutveksling",
-              "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
-              "subcapability_name": "Organisatorisk samhandling",
-              "subcapability_slug": "organisatorisk-samhandling"
-            },
-            {
-              "product_id": 11,
-              "product_name": "Peppol eDelivery",
-              "version": 2,
-              "author": "copilot",
-              "relative_path": "results/Produktbeskrivelser/11-Peppol-eDelivery-produkt-canvas-v2-copilot.md",
-              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/11-Peppol-eDelivery-produkt-canvas-v2-copilot.md",
-              "mapping_label": "Samarbeid: Organisatorisk samhandling",
-              "explanation": "â€“ Enabler grensekryssende og tversektor samhandling",
-              "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
-              "subcapability_name": "Organisatorisk samhandling",
-              "subcapability_slug": "organisatorisk-samhandling"
-            },
-            {
-              "product_id": 14,
-              "product_name": "Begrepskatalog",
-              "version": 2,
-              "author": "copilot",
-              "relative_path": "results/Produktbeskrivelser/14-Begrepskatalog-produkt-canvas-v2-copilot.md",
-              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/14-Begrepskatalog-produkt-canvas-v2-copilot.md",
-              "mapping_label": "Samarbeid: Organisatorisk samhandling",
-              "explanation": "Enabler semantisk samhandling på tvers",
-              "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
-              "subcapability_name": "Organisatorisk samhandling",
-              "subcapability_slug": "organisatorisk-samhandling"
-            },
-            {
               "product_id": 18,
               "product_name": "Norge.no",
               "version": 2,
@@ -1988,45 +1561,6 @@
               "subcapability_id": "id-3f59d920995e4d488e56f61356dcf97a",
               "subcapability_name": "Tjenesteforvaltning",
               "subcapability_slug": "tjenesteforvaltning"
-            },
-            {
-              "product_id": 20,
-              "product_name": "Altinn Studio",
-              "version": 2,
-              "author": "copilot",
-              "relative_path": "results/Produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md",
-              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md",
-              "mapping_label": "Samarbeid: Tjenesteforvaltning",
-              "explanation": "â€“ VerktÃ¸y for release-management, versjonering, miljÃ¸er",
-              "subcapability_id": "id-3f59d920995e4d488e56f61356dcf97a",
-              "subcapability_name": "Tjenesteforvaltning",
-              "subcapability_slug": "tjenesteforvaltning"
-            },
-            {
-              "product_id": 21,
-              "product_name": "Altinn Portal",
-              "version": 3,
-              "author": "codex",
-              "relative_path": "results/Produktbeskrivelser/21-Altinn-Portal-produkt-canvas-v3-codex.md",
-              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/21-Altinn-Portal-produkt-canvas-v3-codex.md",
-              "mapping_label": "Samarbeid: Tjenesteforvaltning",
-              "explanation": "gir mange tjenesteeiere en felles portalflate i stedet for separate sluttbrukergrensesnitt",
-              "subcapability_id": "id-3f59d920995e4d488e56f61356dcf97a",
-              "subcapability_name": "Tjenesteforvaltning",
-              "subcapability_slug": "tjenesteforvaltning"
-            },
-            {
-              "product_id": 22,
-              "product_name": "Dialogporten",
-              "version": 4,
-              "author": "codex",
-              "relative_path": "results/Produktbeskrivelser/22-Dialogporten-produkt-canvas-v4-codex.md",
-              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/22-Dialogporten-produkt-canvas-v4-codex.md",
-              "mapping_label": "Samarbeid: Tjenesteforvaltning",
-              "explanation": "gjør det mulig å samordne digital dialog på tvers av ulike plattformer og tjenesteeiere",
-              "subcapability_id": "id-3f59d920995e4d488e56f61356dcf97a",
-              "subcapability_name": "Tjenesteforvaltning",
-              "subcapability_slug": "tjenesteforvaltning"
             }
           ]
         }
@@ -2052,43 +1586,17 @@
           "subcapability_slug": "sammenhengende-tjenester"
         },
         {
-          "product_id": 7,
-          "product_name": "eFormidling",
-          "version": 2,
-          "author": "copilot",
-          "relative_path": "results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md",
-          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Samhandling: Sammenhengende tjenester",
-          "explanation": "Bidrag til integrert samhandling",
-          "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
-          "subcapability_name": "Sammenhengende tjenester",
-          "subcapability_slug": "sammenhengende-tjenester"
-        },
-        {
           "product_id": 9,
           "product_name": "Digital postkasse (felleskomponent)",
           "version": 2,
           "author": "copilot",
           "relative_path": "results/Produktbeskrivelser/09-Digital-postkasse-produkt-canvas-v2-copilot.md",
           "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/09-Digital-postkasse-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Sluttbrukertjenester:",
-          "explanation": "Sammenhengende tjenester – Innbyggers sentrale innboks for offentlig post",
-          "subcapability_id": "",
-          "subcapability_name": "",
-          "subcapability_slug": ""
-        },
-        {
-          "product_id": 12,
-          "product_name": "Altinn events (Hendelsestjeneste)",
-          "version": 2,
-          "author": "copilot",
-          "relative_path": "results/Produktbeskrivelser/12-Altinn-events-produkt-canvas-v2-copilot.md",
-          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/12-Altinn-events-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Sluttbrukertjenester: Proaktive tjenester",
-          "explanation": "â€“ Hendelser triggers automatiserte tjenester",
-          "subcapability_id": "id-9bc3012bcd154e27aa094ac36bf391be",
-          "subcapability_name": "Proaktive tjenester",
-          "subcapability_slug": "proaktive-tjenester"
+          "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+          "explanation": "innbyggers sentrale innboks for offentlig post",
+          "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
+          "subcapability_name": "Sammenhengende tjenester",
+          "subcapability_slug": "sammenhengende-tjenester"
         },
         {
           "product_id": 18,
@@ -2115,32 +1623,6 @@
           "subcapability_id": "id-825b1ea1217b4eedb6caae165aeb8e41",
           "subcapability_name": "Tjenestekjeder",
           "subcapability_slug": "tjenestekjeder"
-        },
-        {
-          "product_id": 19,
-          "product_name": "Altinn",
-          "version": 2,
-          "author": "copilot",
-          "relative_path": "results/Produktbeskrivelser/19-Altinn-produkt-canvas-v2-copilot.md",
-          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/19-Altinn-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-          "explanation": "â€“ Altinn Portal og Altinn Apps for innbygger-grensesnitt",
-          "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
-          "subcapability_name": "Sammenhengende tjenester",
-          "subcapability_slug": "sammenhengende-tjenester"
-        },
-        {
-          "product_id": 20,
-          "product_name": "Altinn Studio",
-          "version": 2,
-          "author": "copilot",
-          "relative_path": "results/Produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md",
-          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-          "explanation": "â€“ Integration med Altinn Portal/Apps for sluttbrukerpresentasjon",
-          "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
-          "subcapability_name": "Sammenhengende tjenester",
-          "subcapability_slug": "sammenhengende-tjenester"
         },
         {
           "product_id": 21,
@@ -2182,19 +1664,6 @@
           "subcapability_slug": "sammenhengende-tjenester"
         },
         {
-          "product_id": 23,
-          "product_name": "Altinn 3 Melding (Correspondence)",
-          "version": 4,
-          "author": "codex",
-          "relative_path": "results/Produktbeskrivelser/23-Altinn-3-Melding-produkt-canvas-v4-codex.md",
-          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/23-Altinn-3-Melding-produkt-canvas-v4-codex.md",
-          "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-          "explanation": "gjør meldinger tilgjengelige i Altinn Arbeidsflate og som dialoger i Dialogporten",
-          "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
-          "subcapability_name": "Sammenhengende tjenester",
-          "subcapability_slug": "sammenhengende-tjenester"
-        },
-        {
           "product_id": 24,
           "product_name": "Altinn Varslinger",
           "version": 4,
@@ -2229,14 +1698,14 @@
               "subcapability_slug": "sammenhengende-tjenester"
             },
             {
-              "product_id": 7,
-              "product_name": "eFormidling",
+              "product_id": 9,
+              "product_name": "Digital postkasse (felleskomponent)",
               "version": 2,
               "author": "copilot",
-              "relative_path": "results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md",
-              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md",
-              "mapping_label": "Samhandling: Sammenhengende tjenester",
-              "explanation": "Bidrag til integrert samhandling",
+              "relative_path": "results/Produktbeskrivelser/09-Digital-postkasse-produkt-canvas-v2-copilot.md",
+              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/09-Digital-postkasse-produkt-canvas-v2-copilot.md",
+              "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+              "explanation": "innbyggers sentrale innboks for offentlig post",
               "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
               "subcapability_name": "Sammenhengende tjenester",
               "subcapability_slug": "sammenhengende-tjenester"
@@ -2250,32 +1719,6 @@
               "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md",
               "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
               "explanation": "Helhetlig brukerreise på tvers av offentlig sektor",
-              "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
-              "subcapability_name": "Sammenhengende tjenester",
-              "subcapability_slug": "sammenhengende-tjenester"
-            },
-            {
-              "product_id": 19,
-              "product_name": "Altinn",
-              "version": 2,
-              "author": "copilot",
-              "relative_path": "results/Produktbeskrivelser/19-Altinn-produkt-canvas-v2-copilot.md",
-              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/19-Altinn-produkt-canvas-v2-copilot.md",
-              "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-              "explanation": "â€“ Altinn Portal og Altinn Apps for innbygger-grensesnitt",
-              "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
-              "subcapability_name": "Sammenhengende tjenester",
-              "subcapability_slug": "sammenhengende-tjenester"
-            },
-            {
-              "product_id": 20,
-              "product_name": "Altinn Studio",
-              "version": 2,
-              "author": "copilot",
-              "relative_path": "results/Produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md",
-              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md",
-              "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-              "explanation": "â€“ Integration med Altinn Portal/Apps for sluttbrukerpresentasjon",
               "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
               "subcapability_name": "Sammenhengende tjenester",
               "subcapability_slug": "sammenhengende-tjenester"
@@ -2302,19 +1745,6 @@
               "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/22-Dialogporten-produkt-canvas-v4-codex.md",
               "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
               "explanation": "gjør dialoger fra flere plattformer tilgjengelige i samme representasjon og brukerreise",
-              "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
-              "subcapability_name": "Sammenhengende tjenester",
-              "subcapability_slug": "sammenhengende-tjenester"
-            },
-            {
-              "product_id": 23,
-              "product_name": "Altinn 3 Melding (Correspondence)",
-              "version": 4,
-              "author": "codex",
-              "relative_path": "results/Produktbeskrivelser/23-Altinn-3-Melding-produkt-canvas-v4-codex.md",
-              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/23-Altinn-3-Melding-produkt-canvas-v4-codex.md",
-              "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-              "explanation": "gjør meldinger tilgjengelige i Altinn Arbeidsflate og som dialoger i Dialogporten",
               "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
               "subcapability_name": "Sammenhengende tjenester",
               "subcapability_slug": "sammenhengende-tjenester"
@@ -2361,19 +1791,6 @@
           "subcapability_slug": "proaktive-tjenester",
           "description": "Evne til å, basert på registrerte hendelser og delte data, automatisk identifisere en brukers behov for offentlige tjenester og proaktivt tilby relevant informasjon, veiledning eller starte en tjenesteprosess på vegne av brukeren.",
           "products": [
-            {
-              "product_id": 12,
-              "product_name": "Altinn events (Hendelsestjeneste)",
-              "version": 2,
-              "author": "copilot",
-              "relative_path": "results/Produktbeskrivelser/12-Altinn-events-produkt-canvas-v2-copilot.md",
-              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/12-Altinn-events-produkt-canvas-v2-copilot.md",
-              "mapping_label": "Sluttbrukertjenester: Proaktive tjenester",
-              "explanation": "â€“ Hendelser triggers automatiserte tjenester",
-              "subcapability_id": "id-9bc3012bcd154e27aa094ac36bf391be",
-              "subcapability_name": "Proaktive tjenester",
-              "subcapability_slug": "proaktive-tjenester"
-            },
             {
               "product_id": 24,
               "product_name": "Altinn Varslinger",
@@ -2521,11 +1938,11 @@
           "author": "copilot",
           "relative_path": "results/Produktbeskrivelser/09-Digital-postkasse-produkt-canvas-v2-copilot.md",
           "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/09-Digital-postkasse-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Datautveksling og integrasjon:",
-          "explanation": "Meldingsformidling – Sikker transport av post fra avsender til innbygger",
-          "subcapability_id": "",
-          "subcapability_name": "",
-          "subcapability_slug": ""
+          "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+          "explanation": "integrering med offentlige fagsystemer",
+          "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+          "subcapability_name": "Dele data med andre",
+          "subcapability_slug": "dele-data-med-andre"
         },
         {
           "product_id": 9,
@@ -2534,11 +1951,11 @@
           "author": "copilot",
           "relative_path": "results/Produktbeskrivelser/09-Digital-postkasse-produkt-canvas-v2-copilot.md",
           "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/09-Digital-postkasse-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Datautveksling og integrasjon:",
-          "explanation": "Dele data med andre – Integrering med offentlige fagsystemer",
-          "subcapability_id": "",
-          "subcapability_name": "",
-          "subcapability_slug": ""
+          "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+          "explanation": "sikker transport av post fra avsender til innbygger",
+          "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
+          "subcapability_name": "Meldingsformidling",
+          "subcapability_slug": "meldingsformidling"
         },
         {
           "product_id": 10,
@@ -2645,84 +2062,6 @@
           "subcapability_slug": "hendelsesdrevet"
         },
         {
-          "product_id": 13,
-          "product_name": "Felles datakatalog",
-          "version": 2,
-          "author": "copilot",
-          "relative_path": "results/Produktbeskrivelser/13-Felles-datakatalog-produkt-canvas-v2-copilot.md",
-          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/13-Felles-datakatalog-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-          "explanation": "â€“ Metadata-basert oppdagelse av datasett for deling",
-          "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
-          "subcapability_name": "Dele data med andre",
-          "subcapability_slug": "dele-data-med-andre"
-        },
-        {
-          "product_id": 14,
-          "product_name": "Begrepskatalog",
-          "version": 2,
-          "author": "copilot",
-          "relative_path": "results/Produktbeskrivelser/14-Begrepskatalog-produkt-canvas-v2-copilot.md",
-          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/14-Begrepskatalog-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-          "explanation": "Semantisk linking til datasett og API-er",
-          "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
-          "subcapability_name": "Dele data med andre",
-          "subcapability_slug": "dele-data-med-andre"
-        },
-        {
-          "product_id": 15,
-          "product_name": "API-katalog",
-          "version": 2,
-          "author": "copilot",
-          "relative_path": "results/Produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md",
-          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
-          "explanation": "Oppdagelse og gjenbruk av API-er",
-          "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
-          "subcapability_name": "Bruke data fra andre",
-          "subcapability_slug": "bruke-data-fra-andre"
-        },
-        {
-          "product_id": 15,
-          "product_name": "API-katalog",
-          "version": 2,
-          "author": "copilot",
-          "relative_path": "results/Produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md",
-          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-          "explanation": "Publisering av API-metadata",
-          "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
-          "subcapability_name": "Dele data med andre",
-          "subcapability_slug": "dele-data-med-andre"
-        },
-        {
-          "product_id": 16,
-          "product_name": "data.norge.no",
-          "version": 4,
-          "author": "codex",
-          "relative_path": "results/Produktbeskrivelser/16-data-norge-no-produkt-canvas-v4-codex.md",
-          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/16-data-norge-no-produkt-canvas-v4-codex.md",
-          "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
-          "explanation": "gir datakonsumenter ett sted å oppdage, vurdere og finne tilgangsinformasjon om dataressurser",
-          "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
-          "subcapability_name": "Bruke data fra andre",
-          "subcapability_slug": "bruke-data-fra-andre"
-        },
-        {
-          "product_id": 16,
-          "product_name": "data.norge.no",
-          "version": 4,
-          "author": "codex",
-          "relative_path": "results/Produktbeskrivelser/16-data-norge-no-produkt-canvas-v4-codex.md",
-          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/16-data-norge-no-produkt-canvas-v4-codex.md",
-          "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-          "explanation": "gir datatilbydere en nasjonal kanal for å gjøre dataressurser oppdagbare og forståelige",
-          "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
-          "subcapability_name": "Dele data med andre",
-          "subcapability_slug": "dele-data-med-andre"
-        },
-        {
           "product_id": 17,
           "product_name": "data.altinn.no",
           "version": 3,
@@ -2747,32 +2086,6 @@
           "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
           "subcapability_name": "Dele data med andre",
           "subcapability_slug": "dele-data-med-andre"
-        },
-        {
-          "product_id": 19,
-          "product_name": "Altinn",
-          "version": 2,
-          "author": "copilot",
-          "relative_path": "results/Produktbeskrivelser/19-Altinn-produkt-canvas-v2-copilot.md",
-          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/19-Altinn-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
-          "explanation": "â€“ Altinn Formidling for sikker meldingsutveksling",
-          "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-          "subcapability_name": "Meldingsformidling",
-          "subcapability_slug": "meldingsformidling"
-        },
-        {
-          "product_id": 20,
-          "product_name": "Altinn Studio",
-          "version": 2,
-          "author": "copilot",
-          "relative_path": "results/Produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md",
-          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
-          "explanation": "â€“ API-integrasjon mot andre systemer",
-          "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
-          "subcapability_name": "Bruke data fra andre",
-          "subcapability_slug": "bruke-data-fra-andre"
         },
         {
           "product_id": 22,
@@ -2900,6 +2213,19 @@
               "subcapability_slug": "dele-data-med-andre"
             },
             {
+              "product_id": 9,
+              "product_name": "Digital postkasse (felleskomponent)",
+              "version": 2,
+              "author": "copilot",
+              "relative_path": "results/Produktbeskrivelser/09-Digital-postkasse-produkt-canvas-v2-copilot.md",
+              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/09-Digital-postkasse-produkt-canvas-v2-copilot.md",
+              "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+              "explanation": "integrering med offentlige fagsystemer",
+              "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+              "subcapability_name": "Dele data med andre",
+              "subcapability_slug": "dele-data-med-andre"
+            },
+            {
               "product_id": 10,
               "product_name": "ELMA (Elektronisk mottakeradresseregister)",
               "version": 2,
@@ -2934,58 +2260,6 @@
               "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/12-Altinn-events-produkt-canvas-v2-copilot.md",
               "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
               "explanation": "â€“ Tjeneste publiserer hendelser",
-              "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
-              "subcapability_name": "Dele data med andre",
-              "subcapability_slug": "dele-data-med-andre"
-            },
-            {
-              "product_id": 13,
-              "product_name": "Felles datakatalog",
-              "version": 2,
-              "author": "copilot",
-              "relative_path": "results/Produktbeskrivelser/13-Felles-datakatalog-produkt-canvas-v2-copilot.md",
-              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/13-Felles-datakatalog-produkt-canvas-v2-copilot.md",
-              "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-              "explanation": "â€“ Metadata-basert oppdagelse av datasett for deling",
-              "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
-              "subcapability_name": "Dele data med andre",
-              "subcapability_slug": "dele-data-med-andre"
-            },
-            {
-              "product_id": 14,
-              "product_name": "Begrepskatalog",
-              "version": 2,
-              "author": "copilot",
-              "relative_path": "results/Produktbeskrivelser/14-Begrepskatalog-produkt-canvas-v2-copilot.md",
-              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/14-Begrepskatalog-produkt-canvas-v2-copilot.md",
-              "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-              "explanation": "Semantisk linking til datasett og API-er",
-              "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
-              "subcapability_name": "Dele data med andre",
-              "subcapability_slug": "dele-data-med-andre"
-            },
-            {
-              "product_id": 15,
-              "product_name": "API-katalog",
-              "version": 2,
-              "author": "copilot",
-              "relative_path": "results/Produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md",
-              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md",
-              "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-              "explanation": "Publisering av API-metadata",
-              "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
-              "subcapability_name": "Dele data med andre",
-              "subcapability_slug": "dele-data-med-andre"
-            },
-            {
-              "product_id": 16,
-              "product_name": "data.norge.no",
-              "version": 4,
-              "author": "codex",
-              "relative_path": "results/Produktbeskrivelser/16-data-norge-no-produkt-canvas-v4-codex.md",
-              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/16-data-norge-no-produkt-canvas-v4-codex.md",
-              "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-              "explanation": "gir datatilbydere en nasjonal kanal for å gjøre dataressurser oppdagbare og forståelige",
               "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
               "subcapability_name": "Dele data med andre",
               "subcapability_slug": "dele-data-med-andre"
@@ -3090,32 +2364,6 @@
               "subcapability_slug": "bruke-data-fra-andre"
             },
             {
-              "product_id": 15,
-              "product_name": "API-katalog",
-              "version": 2,
-              "author": "copilot",
-              "relative_path": "results/Produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md",
-              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md",
-              "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
-              "explanation": "Oppdagelse og gjenbruk av API-er",
-              "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
-              "subcapability_name": "Bruke data fra andre",
-              "subcapability_slug": "bruke-data-fra-andre"
-            },
-            {
-              "product_id": 16,
-              "product_name": "data.norge.no",
-              "version": 4,
-              "author": "codex",
-              "relative_path": "results/Produktbeskrivelser/16-data-norge-no-produkt-canvas-v4-codex.md",
-              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/16-data-norge-no-produkt-canvas-v4-codex.md",
-              "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
-              "explanation": "gir datakonsumenter ett sted å oppdage, vurdere og finne tilgangsinformasjon om dataressurser",
-              "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
-              "subcapability_name": "Bruke data fra andre",
-              "subcapability_slug": "bruke-data-fra-andre"
-            },
-            {
               "product_id": 17,
               "product_name": "data.altinn.no",
               "version": 3,
@@ -3124,19 +2372,6 @@
               "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/17-data-altinn-no-produkt-canvas-v3-codex.md",
               "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
               "explanation": "gjør det mulig for konsumenter å hente data direkte fra kilden gjennom en standardisert API-modell",
-              "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
-              "subcapability_name": "Bruke data fra andre",
-              "subcapability_slug": "bruke-data-fra-andre"
-            },
-            {
-              "product_id": 20,
-              "product_name": "Altinn Studio",
-              "version": 2,
-              "author": "copilot",
-              "relative_path": "results/Produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md",
-              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md",
-              "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
-              "explanation": "â€“ API-integrasjon mot andre systemer",
               "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
               "subcapability_name": "Bruke data fra andre",
               "subcapability_slug": "bruke-data-fra-andre"
@@ -3189,6 +2424,19 @@
               "subcapability_slug": "meldingsformidling"
             },
             {
+              "product_id": 9,
+              "product_name": "Digital postkasse (felleskomponent)",
+              "version": 2,
+              "author": "copilot",
+              "relative_path": "results/Produktbeskrivelser/09-Digital-postkasse-produkt-canvas-v2-copilot.md",
+              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/09-Digital-postkasse-produkt-canvas-v2-copilot.md",
+              "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+              "explanation": "sikker transport av post fra avsender til innbygger",
+              "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
+              "subcapability_name": "Meldingsformidling",
+              "subcapability_slug": "meldingsformidling"
+            },
+            {
               "product_id": 11,
               "product_name": "Peppol eDelivery",
               "version": 2,
@@ -3197,19 +2445,6 @@
               "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/11-Peppol-eDelivery-produkt-canvas-v2-copilot.md",
               "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
               "explanation": "â€“ Standard transport av elektroniske dokumenter",
-              "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-              "subcapability_name": "Meldingsformidling",
-              "subcapability_slug": "meldingsformidling"
-            },
-            {
-              "product_id": 19,
-              "product_name": "Altinn",
-              "version": 2,
-              "author": "copilot",
-              "relative_path": "results/Produktbeskrivelser/19-Altinn-produkt-canvas-v2-copilot.md",
-              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/19-Altinn-produkt-canvas-v2-copilot.md",
-              "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
-              "explanation": "â€“ Altinn Formidling for sikker meldingsutveksling",
               "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
               "subcapability_name": "Meldingsformidling",
               "subcapability_slug": "meldingsformidling"
@@ -3426,32 +2661,6 @@
           "subcapability_id": "id-b440252bc3de42dea8468be54e54b1fa",
           "subcapability_name": "Tilgangsstyring",
           "subcapability_slug": "tilgangsstyring"
-        },
-        {
-          "product_id": 8,
-          "product_name": "Altinn formidling (Broker)",
-          "version": 2,
-          "author": "copilot",
-          "relative_path": "results/Produktbeskrivelser/08-Altinn-formidling-produkt-canvas-v2-copilot.md",
-          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/08-Altinn-formidling-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Tillit: Sporbarhet og innsyn",
-          "explanation": "Logging av all formidling og leveringsstatus",
-          "subcapability_id": "id-2dfe07b3eae740b9a292e0a4a42d22db",
-          "subcapability_name": "Sporbarhet og innsyn",
-          "subcapability_slug": "sporbarhet-og-innsyn"
-        },
-        {
-          "product_id": 9,
-          "product_name": "Digital postkasse (felleskomponent)",
-          "version": 2,
-          "author": "copilot",
-          "relative_path": "results/Produktbeskrivelser/09-Digital-postkasse-produkt-canvas-v2-copilot.md",
-          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/09-Digital-postkasse-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Tillit:",
-          "explanation": "Sporbarhet og innsyn – Loggering av all post og leveringsstatus",
-          "subcapability_id": "",
-          "subcapability_name": "",
-          "subcapability_slug": ""
         },
         {
           "product_id": 17,
@@ -3845,19 +3054,6 @@
           "description": "Dokumentasjon og logging av opplysninger for bruk i innsyn, forvaltning og kontroll av tillitstjenester.",
           "products": [
             {
-              "product_id": 8,
-              "product_name": "Altinn formidling (Broker)",
-              "version": 2,
-              "author": "copilot",
-              "relative_path": "results/Produktbeskrivelser/08-Altinn-formidling-produkt-canvas-v2-copilot.md",
-              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/08-Altinn-formidling-produkt-canvas-v2-copilot.md",
-              "mapping_label": "Tillit: Sporbarhet og innsyn",
-              "explanation": "Logging av all formidling og leveringsstatus",
-              "subcapability_id": "id-2dfe07b3eae740b9a292e0a4a42d22db",
-              "subcapability_name": "Sporbarhet og innsyn",
-              "subcapability_slug": "sporbarhet-og-innsyn"
-            },
-            {
               "product_id": 21,
               "product_name": "Altinn Portal",
               "version": 3,
@@ -4099,11 +3295,11 @@
           "author": "copilot",
           "relative_path": "results/Produktbeskrivelser/08-Altinn-formidling-produkt-canvas-v2-copilot.md",
           "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/08-Altinn-formidling-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt",
+          "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
           "explanation": "Kryptering, autentisering, tilgangskontroll",
-          "subcapability_id": "",
-          "subcapability_name": "",
-          "subcapability_slug": ""
+          "subcapability_id": "id-34d3d64b3afe4327a29ee6c2f7f74dff",
+          "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
+          "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling"
         },
         {
           "product_id": 9,
@@ -4112,24 +3308,11 @@
           "author": "copilot",
           "relative_path": "results/Produktbeskrivelser/09-Digital-postkasse-produkt-canvas-v2-copilot.md",
           "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/09-Digital-postkasse-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Informasjonssikkerhet:",
-          "explanation": "Sikring av informasjonsflyt og datautveksling – Kryptering, autentisering, tilgangskontroll",
-          "subcapability_id": "",
-          "subcapability_name": "",
-          "subcapability_slug": ""
-        },
-        {
-          "product_id": 10,
-          "product_name": "ELMA (Elektronisk mottakeradresseregister)",
-          "version": 2,
-          "author": "copilot",
-          "relative_path": "results/Produktbeskrivelser/10-ELMA-produkt-canvas-v2-copilot.md",
-          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/10-ELMA-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt",
-          "explanation": "â€“ Sikker adresseoppslag med tilgangskontroll",
-          "subcapability_id": "",
-          "subcapability_name": "",
-          "subcapability_slug": ""
+          "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
+          "explanation": "kryptering, autentisering og tilgangskontroll",
+          "subcapability_id": "id-34d3d64b3afe4327a29ee6c2f7f74dff",
+          "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
+          "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling"
         },
         {
           "product_id": 11,
@@ -4138,11 +3321,11 @@
           "author": "copilot",
           "relative_path": "results/Produktbeskrivelser/11-Peppol-eDelivery-produkt-canvas-v2-copilot.md",
           "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/11-Peppol-eDelivery-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt",
+          "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
           "explanation": "â€“ Kryptering, sertifikat-sikring, logging",
-          "subcapability_id": "",
-          "subcapability_name": "",
-          "subcapability_slug": ""
+          "subcapability_id": "id-34d3d64b3afe4327a29ee6c2f7f74dff",
+          "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
+          "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling"
         },
         {
           "product_id": 12,
@@ -4151,11 +3334,11 @@
           "author": "copilot",
           "relative_path": "results/Produktbeskrivelser/12-Altinn-events-produkt-canvas-v2-copilot.md",
           "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/12-Altinn-events-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt",
+          "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
           "explanation": "â€“ Sikret transport; tilgangskontroll pÃ¥ abonnement",
-          "subcapability_id": "",
-          "subcapability_name": "",
-          "subcapability_slug": ""
+          "subcapability_id": "id-34d3d64b3afe4327a29ee6c2f7f74dff",
+          "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
+          "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling"
         },
         {
           "product_id": 17,
@@ -4166,45 +3349,6 @@
           "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/17-data-altinn-no-produkt-canvas-v3-codex.md",
           "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
           "explanation": "legger til rette for sikker utveksling også når data ikke er åpne eller inneholder personopplysninger",
-          "subcapability_id": "id-34d3d64b3afe4327a29ee6c2f7f74dff",
-          "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
-          "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling"
-        },
-        {
-          "product_id": 19,
-          "product_name": "Altinn",
-          "version": 2,
-          "author": "copilot",
-          "relative_path": "results/Produktbeskrivelser/19-Altinn-produkt-canvas-v2-copilot.md",
-          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/19-Altinn-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt",
-          "explanation": "â€“ Integrert sikkerheit, autentisering, autorisasjon",
-          "subcapability_id": "",
-          "subcapability_name": "",
-          "subcapability_slug": ""
-        },
-        {
-          "product_id": 20,
-          "product_name": "Altinn Studio",
-          "version": 2,
-          "author": "copilot",
-          "relative_path": "results/Produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md",
-          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt",
-          "explanation": "â€“ Bygg-inn sikkerheit, autentisering, autorisasjon",
-          "subcapability_id": "",
-          "subcapability_name": "",
-          "subcapability_slug": ""
-        },
-        {
-          "product_id": 21,
-          "product_name": "Altinn Portal",
-          "version": 3,
-          "author": "codex",
-          "relative_path": "results/Produktbeskrivelser/21-Altinn-Portal-produkt-canvas-v3-codex.md",
-          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/21-Altinn-Portal-produkt-canvas-v3-codex.md",
-          "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
-          "explanation": "er nødvendig fordi portalen eksponerer oppgaver, meldinger og tilganger fra mange underliggende tjenester i samme brukerflate",
           "subcapability_id": "id-34d3d64b3afe4327a29ee6c2f7f74dff",
           "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
           "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling"
@@ -4303,6 +3447,58 @@
               "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling"
             },
             {
+              "product_id": 8,
+              "product_name": "Altinn formidling (Broker)",
+              "version": 2,
+              "author": "copilot",
+              "relative_path": "results/Produktbeskrivelser/08-Altinn-formidling-produkt-canvas-v2-copilot.md",
+              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/08-Altinn-formidling-produkt-canvas-v2-copilot.md",
+              "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
+              "explanation": "Kryptering, autentisering, tilgangskontroll",
+              "subcapability_id": "id-34d3d64b3afe4327a29ee6c2f7f74dff",
+              "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
+              "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling"
+            },
+            {
+              "product_id": 9,
+              "product_name": "Digital postkasse (felleskomponent)",
+              "version": 2,
+              "author": "copilot",
+              "relative_path": "results/Produktbeskrivelser/09-Digital-postkasse-produkt-canvas-v2-copilot.md",
+              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/09-Digital-postkasse-produkt-canvas-v2-copilot.md",
+              "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
+              "explanation": "kryptering, autentisering og tilgangskontroll",
+              "subcapability_id": "id-34d3d64b3afe4327a29ee6c2f7f74dff",
+              "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
+              "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling"
+            },
+            {
+              "product_id": 11,
+              "product_name": "Peppol eDelivery",
+              "version": 2,
+              "author": "copilot",
+              "relative_path": "results/Produktbeskrivelser/11-Peppol-eDelivery-produkt-canvas-v2-copilot.md",
+              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/11-Peppol-eDelivery-produkt-canvas-v2-copilot.md",
+              "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
+              "explanation": "â€“ Kryptering, sertifikat-sikring, logging",
+              "subcapability_id": "id-34d3d64b3afe4327a29ee6c2f7f74dff",
+              "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
+              "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling"
+            },
+            {
+              "product_id": 12,
+              "product_name": "Altinn events (Hendelsestjeneste)",
+              "version": 2,
+              "author": "copilot",
+              "relative_path": "results/Produktbeskrivelser/12-Altinn-events-produkt-canvas-v2-copilot.md",
+              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/12-Altinn-events-produkt-canvas-v2-copilot.md",
+              "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
+              "explanation": "â€“ Sikret transport; tilgangskontroll pÃ¥ abonnement",
+              "subcapability_id": "id-34d3d64b3afe4327a29ee6c2f7f74dff",
+              "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
+              "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling"
+            },
+            {
               "product_id": 17,
               "product_name": "data.altinn.no",
               "version": 3,
@@ -4311,19 +3507,6 @@
               "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/17-data-altinn-no-produkt-canvas-v3-codex.md",
               "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
               "explanation": "legger til rette for sikker utveksling også når data ikke er åpne eller inneholder personopplysninger",
-              "subcapability_id": "id-34d3d64b3afe4327a29ee6c2f7f74dff",
-              "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
-              "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling"
-            },
-            {
-              "product_id": 21,
-              "product_name": "Altinn Portal",
-              "version": 3,
-              "author": "codex",
-              "relative_path": "results/Produktbeskrivelser/21-Altinn-Portal-produkt-canvas-v3-codex.md",
-              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/21-Altinn-Portal-produkt-canvas-v3-codex.md",
-              "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
-              "explanation": "er nødvendig fordi portalen eksponerer oppgaver, meldinger og tilganger fra mange underliggende tjenester i samme brukerflate",
               "subcapability_id": "id-34d3d64b3afe4327a29ee6c2f7f74dff",
               "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
               "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling"
@@ -4404,19 +3587,6 @@
           "subcapability_slug": "integrerbare-tjenester"
         },
         {
-          "product_id": 15,
-          "product_name": "API-katalog",
-          "version": 2,
-          "author": "copilot",
-          "relative_path": "results/Produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md",
-          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Tjenesteutvikling: Integrerbare tjenester",
-          "explanation": "Standard API-katalogisering",
-          "subcapability_id": "id-60827614648541ef8520df87fa25d100",
-          "subcapability_name": "Integrerbare tjenester",
-          "subcapability_slug": "integrerbare-tjenester"
-        },
-        {
           "product_id": 17,
           "product_name": "data.altinn.no",
           "version": 3,
@@ -4428,32 +3598,6 @@
           "subcapability_id": "id-60827614648541ef8520df87fa25d100",
           "subcapability_name": "Integrerbare tjenester",
           "subcapability_slug": "integrerbare-tjenester"
-        },
-        {
-          "product_id": 18,
-          "product_name": "Norge.no",
-          "version": 2,
-          "author": "copilot",
-          "relative_path": "results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md",
-          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Tjenesteutvikling: Tjenestedesign",
-          "explanation": "Behovsbasert navigasjon og informasjonstruktur",
-          "subcapability_id": "id-379e167f7b9c4fbea9c6969425ba7f6c",
-          "subcapability_name": "Tjenestedesign",
-          "subcapability_slug": "tjenestedesign"
-        },
-        {
-          "product_id": 19,
-          "product_name": "Altinn",
-          "version": 2,
-          "author": "copilot",
-          "relative_path": "results/Produktbeskrivelser/19-Altinn-produkt-canvas-v2-copilot.md",
-          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/19-Altinn-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Tjenesteutvikling: Utviklings- og kjÃ¸retidsmiljÃ¸",
-          "explanation": "â€“ Altinn Studio som platform for tjenesteutvikling",
-          "subcapability_id": "",
-          "subcapability_name": "",
-          "subcapability_slug": ""
         },
         {
           "product_id": 19,
@@ -4480,19 +3624,6 @@
           "subcapability_id": "id-60827614648541ef8520df87fa25d100",
           "subcapability_name": "Integrerbare tjenester",
           "subcapability_slug": "integrerbare-tjenester"
-        },
-        {
-          "product_id": 20,
-          "product_name": "Altinn Studio",
-          "version": 2,
-          "author": "copilot",
-          "relative_path": "results/Produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md",
-          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Tjenesteutvikling: Utviklings- og kjÃ¸retidsmiljÃ¸",
-          "explanation": "â€“ Integrert IDE og runtime for tjenesteutvikling",
-          "subcapability_id": "",
-          "subcapability_name": "",
-          "subcapability_slug": ""
         },
         {
           "product_id": 20,
@@ -4532,6 +3663,19 @@
           "subcapability_id": "id-379e167f7b9c4fbea9c6969425ba7f6c",
           "subcapability_name": "Tjenestedesign",
           "subcapability_slug": "tjenestedesign"
+        },
+        {
+          "product_id": 20,
+          "product_name": "Altinn Studio",
+          "version": 2,
+          "author": "copilot",
+          "relative_path": "results/Produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md",
+          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md",
+          "mapping_label": "Tjenesteutvikling: Utviklings- og kjøretidsmiljø",
+          "explanation": "â€“ Integrert IDE og runtime for tjenesteutvikling",
+          "subcapability_id": "id-ce84b9b6943f4789bca153c0ed15245a",
+          "subcapability_name": "Utviklings- og kjøretidsmiljø",
+          "subcapability_slug": "utviklings-og-kjoretidsmiljo"
         },
         {
           "product_id": 22,
@@ -4579,7 +3723,21 @@
           "subcapability_name": "Utviklings- og kjøretidsmiljø",
           "subcapability_slug": "utviklings-og-kjoretidsmiljo",
           "description": "Evne til å tilby og forvalte en felles, skalerbar teknisk plattform og en tilhørende verktøykasse med standardiserte byggeklosser, verktøy og utviklingsmiljøer som forenkler og akselererer utviklingen av digitale tjenester.",
-          "products": []
+          "products": [
+            {
+              "product_id": 20,
+              "product_name": "Altinn Studio",
+              "version": 2,
+              "author": "copilot",
+              "relative_path": "results/Produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md",
+              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md",
+              "mapping_label": "Tjenesteutvikling: Utviklings- og kjøretidsmiljø",
+              "explanation": "â€“ Integrert IDE og runtime for tjenesteutvikling",
+              "subcapability_id": "id-ce84b9b6943f4789bca153c0ed15245a",
+              "subcapability_name": "Utviklings- og kjøretidsmiljø",
+              "subcapability_slug": "utviklings-og-kjoretidsmiljo"
+            }
+          ]
         },
         {
           "subcapability_id": "id-60827614648541ef8520df87fa25d100",
@@ -4622,19 +3780,6 @@
               "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/12-Altinn-events-produkt-canvas-v2-copilot.md",
               "mapping_label": "Tjenesteutvikling: Integrerbare tjenester",
               "explanation": "â€“ Standard API for hendelsesintegrasjon",
-              "subcapability_id": "id-60827614648541ef8520df87fa25d100",
-              "subcapability_name": "Integrerbare tjenester",
-              "subcapability_slug": "integrerbare-tjenester"
-            },
-            {
-              "product_id": 15,
-              "product_name": "API-katalog",
-              "version": 2,
-              "author": "copilot",
-              "relative_path": "results/Produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md",
-              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md",
-              "mapping_label": "Tjenesteutvikling: Integrerbare tjenester",
-              "explanation": "Standard API-katalogisering",
               "subcapability_id": "id-60827614648541ef8520df87fa25d100",
               "subcapability_name": "Integrerbare tjenester",
               "subcapability_slug": "integrerbare-tjenester"
@@ -4760,19 +3905,6 @@
           "description": "Evne til å sette brukerens behov, livssituasjon og helhetlige reise som utgangspunkt for utvikling av sammenhengende tjenester.",
           "products": [
             {
-              "product_id": 18,
-              "product_name": "Norge.no",
-              "version": 2,
-              "author": "copilot",
-              "relative_path": "results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md",
-              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md",
-              "mapping_label": "Tjenesteutvikling: Tjenestedesign",
-              "explanation": "Behovsbasert navigasjon og informasjonstruktur",
-              "subcapability_id": "id-379e167f7b9c4fbea9c6969425ba7f6c",
-              "subcapability_name": "Tjenestedesign",
-              "subcapability_slug": "tjenestedesign"
-            },
-            {
               "product_id": 20,
               "product_name": "Altinn Studio",
               "version": 2,
@@ -4802,37 +3934,11 @@
           "author": "copilot",
           "relative_path": "results/Produktbeskrivelser/10-ELMA-produkt-canvas-v2-copilot.md",
           "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/10-ELMA-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Informasjonsforvaltning: Oversikt over API",
-          "explanation": "â€“ Oppslag-API for adresseoppslag",
-          "subcapability_id": "id-718d8e94a9b847a485fc6518b4f2588d",
-          "subcapability_name": "Oversikt over API",
-          "subcapability_slug": "oversikt-over-api"
-        },
-        {
-          "product_id": 10,
-          "product_name": "ELMA (Elektronisk mottakeradresseregister)",
-          "version": 2,
-          "author": "copilot",
-          "relative_path": "results/Produktbeskrivelser/10-ELMA-produkt-canvas-v2-copilot.md",
-          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/10-ELMA-produkt-canvas-v2-copilot.md",
           "mapping_label": "Informasjonsforvaltning: Oversikt over tjenester",
           "explanation": "â€“ ELMA er felles register for kompatible mottagertjenester",
           "subcapability_id": "id-d9374751da7d4b36bb0b3be609ff7d28",
           "subcapability_name": "Oversikt over tjenester",
           "subcapability_slug": "oversikt-over-tjenester"
-        },
-        {
-          "product_id": 12,
-          "product_name": "Altinn events (Hendelsestjeneste)",
-          "version": 2,
-          "author": "copilot",
-          "relative_path": "results/Produktbeskrivelser/12-Altinn-events-produkt-canvas-v2-copilot.md",
-          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/12-Altinn-events-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Informasjonsforvaltning: Oversikt over hendelser",
-          "explanation": "â€“ Logging og historikk av alle hendelser",
-          "subcapability_id": "id-e5a55d4bacd14740a656bc896d25497a",
-          "subcapability_name": "Oversikt over hendelser",
-          "subcapability_slug": "oversikt-over-hendelser"
         },
         {
           "product_id": 13,
@@ -5153,19 +4259,6 @@
           "description": "Evne til å få oversikt over hvilke hendelser som utløser eller utløses av en tjeneste.",
           "products": [
             {
-              "product_id": 12,
-              "product_name": "Altinn events (Hendelsestjeneste)",
-              "version": 2,
-              "author": "copilot",
-              "relative_path": "results/Produktbeskrivelser/12-Altinn-events-produkt-canvas-v2-copilot.md",
-              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/12-Altinn-events-produkt-canvas-v2-copilot.md",
-              "mapping_label": "Informasjonsforvaltning: Oversikt over hendelser",
-              "explanation": "â€“ Logging og historikk av alle hendelser",
-              "subcapability_id": "id-e5a55d4bacd14740a656bc896d25497a",
-              "subcapability_name": "Oversikt over hendelser",
-              "subcapability_slug": "oversikt-over-hendelser"
-            },
-            {
               "product_id": 16,
               "product_name": "data.norge.no",
               "version": 4,
@@ -5186,19 +4279,6 @@
           "subcapability_slug": "oversikt-over-api",
           "description": "Evne til å datadeling og tjenesteintegrasjon ved å oppdage, forstå og koble seg til tilgjengelige data via en standardisert oversikt over maskinlesbare grensesnitt (API-er).",
           "products": [
-            {
-              "product_id": 10,
-              "product_name": "ELMA (Elektronisk mottakeradresseregister)",
-              "version": 2,
-              "author": "copilot",
-              "relative_path": "results/Produktbeskrivelser/10-ELMA-produkt-canvas-v2-copilot.md",
-              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/10-ELMA-produkt-canvas-v2-copilot.md",
-              "mapping_label": "Informasjonsforvaltning: Oversikt over API",
-              "explanation": "â€“ Oppslag-API for adresseoppslag",
-              "subcapability_id": "id-718d8e94a9b847a485fc6518b4f2588d",
-              "subcapability_name": "Oversikt over API",
-              "subcapability_slug": "oversikt-over-api"
-            },
             {
               "product_id": 13,
               "product_name": "Felles datakatalog",
@@ -5479,19 +4559,6 @@
           "subcapability_id": "id-b99fcd8160d24e5f8ea3c17b15072f7a",
           "subcapability_name": "Forvaltningsstandarder",
           "subcapability_slug": "forvaltningsstandarder"
-        },
-        {
-          "product_id": 24,
-          "product_name": "Altinn Varslinger",
-          "version": 4,
-          "author": "codex",
-          "relative_path": "results/Produktbeskrivelser/24-Varslinger-produkt-canvas-v4-codex.md",
-          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/24-Varslinger-produkt-canvas-v4-codex.md",
-          "mapping_label": "Standardisering: Forvaltningsstandarder",
-          "explanation": "gir tjenesteeiere et felles mønster for kanalvalg, oppslag og status i stedet for lokale varslingsmotorer",
-          "subcapability_id": "id-b99fcd8160d24e5f8ea3c17b15072f7a",
-          "subcapability_name": "Forvaltningsstandarder",
-          "subcapability_slug": "forvaltningsstandarder"
         }
       ],
       "subcapabilities": [
@@ -5622,19 +4689,6 @@
               "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/17-data-altinn-no-produkt-canvas-v3-codex.md",
               "mapping_label": "Standardisering: Forvaltningsstandarder",
               "explanation": "gir et felles API- og tilgangsmønster som gjør løsningene mer forutsigbare for både tilbydere og konsumenter",
-              "subcapability_id": "id-b99fcd8160d24e5f8ea3c17b15072f7a",
-              "subcapability_name": "Forvaltningsstandarder",
-              "subcapability_slug": "forvaltningsstandarder"
-            },
-            {
-              "product_id": 24,
-              "product_name": "Altinn Varslinger",
-              "version": 4,
-              "author": "codex",
-              "relative_path": "results/Produktbeskrivelser/24-Varslinger-produkt-canvas-v4-codex.md",
-              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/24-Varslinger-produkt-canvas-v4-codex.md",
-              "mapping_label": "Standardisering: Forvaltningsstandarder",
-              "explanation": "gir tjenesteeiere et felles mønster for kanalvalg, oppslag og status i stedet for lokale varslingsmotorer",
               "subcapability_id": "id-b99fcd8160d24e5f8ea3c17b15072f7a",
               "subcapability_name": "Forvaltningsstandarder",
               "subcapability_slug": "forvaltningsstandarder"

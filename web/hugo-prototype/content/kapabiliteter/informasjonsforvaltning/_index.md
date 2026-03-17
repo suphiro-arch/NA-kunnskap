@@ -2,15 +2,13 @@
 title: "Informasjonsforvaltning"
 weight: 9
 description: "Evne til å ha et felles rammeverk og styringsmodell for informasjonsforvaltning, slik at offentlige virksomheter kan utveksle og dele data og beskrivelser."
-cardMeta: "8 delkapabiliteter / 7 produkter"
+cardMeta: "8 delkapabiliteter / 6 produkter"
 productsMarkdown: |
   ## Relaterte produkter
   
   | Produkt | Produktbeskrivelse | Koblet via | Hvorfor relevant |
   | --- | --- | --- | --- |
-  | ELMA (Elektronisk mottakeradresseregister) | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/10-ELMA-produkt-canvas-v2-copilot.md) | Oversikt over API | â€“ Oppslag-API for adresseoppslag |
   | ELMA (Elektronisk mottakeradresseregister) | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/10-ELMA-produkt-canvas-v2-copilot.md) | Oversikt over tjenester | â€“ ELMA er felles register for kompatible mottagertjenester |
-  | Altinn events (Hendelsestjeneste) | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/12-Altinn-events-produkt-canvas-v2-copilot.md) | Oversikt over hendelser | â€“ Logging og historikk av alle hendelser |
   | Felles datakatalog | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/13-Felles-datakatalog-produkt-canvas-v2-copilot.md) | Oversikt over API | â€“ Katalogisering av tilgjengelige API-er |
   | Felles datakatalog | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/13-Felles-datakatalog-produkt-canvas-v2-copilot.md) | Oversikt over begreper | â€“ Integrasjon med Begrepskatalog for semantisk enighet |
   | Felles datakatalog | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/13-Felles-datakatalog-produkt-canvas-v2-copilot.md) | Oversikt over datasett | â€“ Katalogisering og sÃ¸k av offentlige datasett |

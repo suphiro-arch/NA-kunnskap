@@ -2,7 +2,7 @@
 title: "Bruke data fra andre"
 weight: 2
 description: "Evne til å gjenbruke data fra andre i egne tjenester og prosesser."
-cardMeta: "11 produkter"
+cardMeta: "8 produkter"
 ---
 
 Evne til å gjenbruke data fra andre i egne tjenester og prosesser.
@@ -21,8 +21,5 @@ Denne delkapabiliteten er en del av [Datautveksling og integrasjon](../).
 | ELMA (Elektronisk mottakeradresseregister) | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/10-ELMA-produkt-canvas-v2-copilot.md) | â€“ Avsendere slÃ¥r opp mottakeradresser |
 | Peppol eDelivery | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/11-Peppol-eDelivery-produkt-canvas-v2-copilot.md) | â€“ Mottaker mottar via Access Point |
 | Altinn events (Hendelsestjeneste) | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/12-Altinn-events-produkt-canvas-v2-copilot.md) | â€“ Abonnent mottar hendelser |
-| API-katalog | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md) | Oppdagelse og gjenbruk av API-er |
-| data.norge.no | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/16-data-norge-no-produkt-canvas-v4-codex.md) | gir datakonsumenter ett sted å oppdage, vurdere og finne tilgangsinformasjon om dataressurser |
 | data.altinn.no | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/17-data-altinn-no-produkt-canvas-v3-codex.md) | gjør det mulig for konsumenter å hente data direkte fra kilden gjennom en standardisert API-modell |
-| Altinn Studio | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md) | â€“ API-integrasjon mot andre systemer |
 | Dialogporten | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/22-Dialogporten-produkt-canvas-v4-codex.md) | gir sluttbrukersystemer og portaler tilgang til dialogdata gjennom standardiserte API-er |

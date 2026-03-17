@@ -79,7 +79,7 @@ eInnsyn er den nasjonale fellesløsningen som gjør offentlig informasjon letter
 
 eFormidling er Norges nasjonale felleskomponent for sikker, standardisert og sporbar meldingsutveksling mellom offentlige virksomheter og mellom offentlig sektor og næringslivet. Løsningen implementerer internasjonale standarder (Peppol) og gjør det mulig for virksomheter å utstrekke meldinger (f.eks. fakturaer,...
 
-**Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/) · [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/) · [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/)
+**Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/) · [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/)
 
 ---
 
@@ -89,7 +89,7 @@ eFormidling er Norges nasjonale felleskomponent for sikker, standardisert og spo
 
 Altinn formidling (Broker) er en nasjonal formidlingstjeneste for sikker, asynkron datautveksling mellom virksomheter og systemer. Tjenesten er designet for scenarioer hvor data må overføres pålitelig uten tett synkron kobling mellom avsender og mottaker, og tilbyr kømekanismer, leveringssikkerhet og sporbarhet.
 
-**Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Informasjonssikkerhet](../../kapabiliteter/informasjonssikkerhet/) · [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/) · [Sporbarhet og innsyn](../../kapabiliteter/tillit/sporbarhet-og-innsyn/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
+**Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
 
 ---
 
@@ -99,7 +99,7 @@ Altinn formidling (Broker) er en nasjonal formidlingstjeneste for sikker, asynkr
 
 Digital postkasse er nasjonal felleskomponent for sikker digital utsending av vedtak, informasjon og annen post fra offentlige virksomheter til innbyggere. Løsningen erstatter papirbasert post for mange dokumenttyper og gir innbyggere en samlet digital innboks med sporbar og sikker levering.
 
-**Kapabiliteter:** [Datautveksling og integrasjon](../../kapabiliteter/datautveksling-og-integrasjon/) · [Informasjonssikkerhet](../../kapabiliteter/informasjonssikkerhet/) · [Sluttbrukertjenester](../../kapabiliteter/sluttbrukertjenester/) · [Tillit](../../kapabiliteter/tillit/)
+**Kapabiliteter:** [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/)
 
 ---
 
@@ -109,7 +109,7 @@ Digital postkasse er nasjonal felleskomponent for sikker digital utsending av ve
 
 ELMA (Elektronisk mottakeradresseregister) er et nasjonalt register som brukes til Ã¥ finne hvor og hvordan elektroniske forretningsdokumenter (fakturaer, ordrer, leveringsmeldinger osv.) kan leveres til en virksomhet. LÃ¸sningen understÃ¸tter korrekt ruting i Peppol-Ã¸kosystemet og reduserer feil i automatisert...
 
-**Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Oversikt over API](../../kapabiliteter/informasjonsforvaltning/oversikt-over-api/) · [Oversikt over tjenester](../../kapabiliteter/informasjonsforvaltning/oversikt-over-tjenester/) · [Informasjonssikkerhet](../../kapabiliteter/informasjonssikkerhet/) · [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/) · [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/)
+**Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Oversikt over tjenester](../../kapabiliteter/informasjonsforvaltning/oversikt-over-tjenester/) · [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/)
 
 ---
 
@@ -119,7 +119,7 @@ ELMA (Elektronisk mottakeradresseregister) er et nasjonalt register som brukes t
 
 Peppol eDelivery er et internasjonalt standardnettverk og regelverk for sikker og standardisert utveksling av elektroniske forretningsdokumenter (fakturaer, ordrer, leveringsmeldinger) mellom virksomheter over landegrenser. LÃ¸sningen er designet for Ã¥ muliggjÃ¸re interoperabilitet, sikkerheit og skalering i B2B- og...
 
-**Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Informasjonssikkerhet](../../kapabiliteter/informasjonssikkerhet/) · [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/) · [EU standarder](../../kapabiliteter/standardisering/eu-standarder/) · [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/)
+**Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [EU standarder](../../kapabiliteter/standardisering/eu-standarder/) · [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/)
 
 ---
 
@@ -129,7 +129,7 @@ Peppol eDelivery er et internasjonalt standardnettverk og regelverk for sikker o
 
 Altinn events er en nasjonal hendelsestjeneste som muliggjÃ¸r publisering og konsum av hendelser pÃ¥ tvers av tjenester og systemer nÃ¦r de inntreffer. LÃ¸sningen understÃ¸tter hendelsesdrevet arkitektur, der tjenester kan reagere raskt pÃ¥ tilstandsendringer uten tett synkron avhengighet, og muliggjÃ¸r proaktive og...
 
-**Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Hendelsesdrevet](../../kapabiliteter/datautveksling-og-integrasjon/hendelsesdrevet/) · [Oversikt over hendelser](../../kapabiliteter/informasjonsforvaltning/oversikt-over-hendelser/) · [Informasjonssikkerhet](../../kapabiliteter/informasjonssikkerhet/) · [Proaktive tjenester](../../kapabiliteter/sluttbrukertjenester/proaktive-tjenester/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
+**Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Hendelsesdrevet](../../kapabiliteter/datautveksling-og-integrasjon/hendelsesdrevet/) · [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
 
 ---
 
@@ -139,7 +139,7 @@ Altinn events er en nasjonal hendelsestjeneste som muliggjÃ¸r publisering og k
 
 Felles datakatalog er en nasjonal lÃ¸sning for Ã¥ beskrive, katalogisere og gjÃ¸re datasett, API-er, informasjonsmodeller og begreper synlige og synlige og oppdagbare for datadeling i offentlig og privat sektor. Katalogen fungerer som sentral referanse for "hva data finnes, hvem som eier dem, og hvordan de kan...
 
-**Kapabiliteter:** [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Oversikt over API](../../kapabiliteter/informasjonsforvaltning/oversikt-over-api/) · [Oversikt over begreper](../../kapabiliteter/informasjonsforvaltning/oversikt-over-begreper/) · [Oversikt over datasett](../../kapabiliteter/informasjonsforvaltning/oversikt-over-datasett/) · [Oversikt over informasjonsmodeller](../../kapabiliteter/informasjonsforvaltning/oversikt-over-informasjonsmodeller/) · [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/)
+**Kapabiliteter:** [Oversikt over API](../../kapabiliteter/informasjonsforvaltning/oversikt-over-api/) · [Oversikt over begreper](../../kapabiliteter/informasjonsforvaltning/oversikt-over-begreper/) · [Oversikt over datasett](../../kapabiliteter/informasjonsforvaltning/oversikt-over-datasett/) · [Oversikt over informasjonsmodeller](../../kapabiliteter/informasjonsforvaltning/oversikt-over-informasjonsmodeller/) · [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/)
 
 ---
 
@@ -149,7 +149,7 @@ Felles datakatalog er en nasjonal lÃ¸sning for Ã¥ beskrive, katalogisere og 
 
 Begrepskatalogen er nasjonalt register for begreper og definisjoner brukt i offentlig sektor. Løsningen sikrer felles forståelse av sentrale ord og uttrykk, slik at data og tjenester kan tolkes uniformt på tvers av virksomheter og reduserer semantiske misforståelser i datadeling og integrasjon.
 
-**Kapabiliteter:** [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Datastyring](../../kapabiliteter/informasjonsforvaltning/datastyring/) · [Informasjonsarkitektur](../../kapabiliteter/informasjonsforvaltning/informasjonsarkitektur/) · [Oversikt over begreper](../../kapabiliteter/informasjonsforvaltning/oversikt-over-begreper/) · [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/) · [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/)
+**Kapabiliteter:** [Datastyring](../../kapabiliteter/informasjonsforvaltning/datastyring/) · [Informasjonsarkitektur](../../kapabiliteter/informasjonsforvaltning/informasjonsarkitektur/) · [Oversikt over begreper](../../kapabiliteter/informasjonsforvaltning/oversikt-over-begreper/) · [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/)
 
 ---
 
@@ -159,7 +159,7 @@ Begrepskatalogen er nasjonalt register for begreper og definisjoner brukt i offe
 
 API-katalogen er nasjonal register for tilgjengelige API-er i offentlig sektor. Løsningen gjør det mulig å oppdage, forstå og gjenbruke felles API-er i nye tjenester og integrasjoner, og reduserer behov for parallelle/proprietaere grensesnitt.
 
-**Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Informasjonsarkitektur](../../kapabiliteter/informasjonsforvaltning/informasjonsarkitektur/) · [Oversikt over API](../../kapabiliteter/informasjonsforvaltning/oversikt-over-api/) · [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
+**Kapabiliteter:** [Informasjonsarkitektur](../../kapabiliteter/informasjonsforvaltning/informasjonsarkitektur/) · [Oversikt over API](../../kapabiliteter/informasjonsforvaltning/oversikt-over-api/) · [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/)
 
 ---
 
@@ -169,7 +169,7 @@ API-katalogen er nasjonal register for tilgjengelige API-er i offentlig sektor. 
 
 data.norge.no er en nasjonal fellesløsning for å finne, forstå og viderebruke dataressurser. Portalen samler metadata om datasett, API-er, begreper, informasjonsmodeller, tjenester og hendelser, og gjør det enklere å oppdage hvilke data offentlig sektor har og kan dele med andre.
 
-**Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Oversikt over API](../../kapabiliteter/informasjonsforvaltning/oversikt-over-api/) · [Oversikt over begreper](../../kapabiliteter/informasjonsforvaltning/oversikt-over-begreper/) · [Oversikt over datasett](../../kapabiliteter/informasjonsforvaltning/oversikt-over-datasett/) · [Oversikt over hendelser](../../kapabiliteter/informasjonsforvaltning/oversikt-over-hendelser/) · [Oversikt over informasjonsmodeller](../../kapabiliteter/informasjonsforvaltning/oversikt-over-informasjonsmodeller/) · [Oversikt over tjenester](../../kapabiliteter/informasjonsforvaltning/oversikt-over-tjenester/) · [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/)
+**Kapabiliteter:** [Oversikt over API](../../kapabiliteter/informasjonsforvaltning/oversikt-over-api/) · [Oversikt over begreper](../../kapabiliteter/informasjonsforvaltning/oversikt-over-begreper/) · [Oversikt over datasett](../../kapabiliteter/informasjonsforvaltning/oversikt-over-datasett/) · [Oversikt over hendelser](../../kapabiliteter/informasjonsforvaltning/oversikt-over-hendelser/) · [Oversikt over informasjonsmodeller](../../kapabiliteter/informasjonsforvaltning/oversikt-over-informasjonsmodeller/) · [Oversikt over tjenester](../../kapabiliteter/informasjonsforvaltning/oversikt-over-tjenester/) · [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/)
 
 ---
 
@@ -189,7 +189,7 @@ data.altinn.no er Altinns fellesløsning for kontrollert datadeling mellom virks
 
 Norge.no er en nasjonal informasjons- og veivisertjeneste som hjelper innbyggere å finne relevant offentlig informasjon og tjenester. Løsningen fungerer som bruKerorientert sentral inngang til offentlig sektor, med fokus på tilgjengelighet, forståelighet og navigasjon basert på innbyggernes livsituasjoner og behov.
 
-**Kapabiliteter:** [Oversikt over tjenester](../../kapabiliteter/informasjonsforvaltning/oversikt-over-tjenester/) · [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/) · [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/) · [Tjenestekjeder](../../kapabiliteter/sluttbrukertjenester/tjenestekjeder/) · [Tjenestedesign](../../kapabiliteter/tjenesteutvikling/tjenestedesign/)
+**Kapabiliteter:** [Oversikt over tjenester](../../kapabiliteter/informasjonsforvaltning/oversikt-over-tjenester/) · [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/) · [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/) · [Tjenestekjeder](../../kapabiliteter/sluttbrukertjenester/tjenestekjeder/)
 
 ---
 
@@ -199,7 +199,7 @@ Norge.no er en nasjonal informasjons- og veivisertjeneste som hjelper innbyggere
 
 Altinn er Norges nasjonale plattform for digitale tjenester, meldingsutveksling og samhandling mellom offentlige virksomheter, innbyggere og nÃ¦ringsliv. LÃ¸sningen tilbyr end-to-end infrastruktur for tjenesteutvikling, -kjÃ¸ring og -forvaltning, med integrering av felles sikkerhets- og samhandlings-komponenter.
 
-**Kapabiliteter:** [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Informasjonssikkerhet](../../kapabiliteter/informasjonssikkerhet/) · [Tjenesteforvaltning](../../kapabiliteter/samarbeid/tjenesteforvaltning/) · [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/) · [Tjenesteutvikling](../../kapabiliteter/tjenesteutvikling/) · [Gjenbrukbare tjenester](../../kapabiliteter/tjenesteutvikling/gjenbrukbare-tjenester/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
+**Kapabiliteter:** [Tjenesteforvaltning](../../kapabiliteter/samarbeid/tjenesteforvaltning/) · [Gjenbrukbare tjenester](../../kapabiliteter/tjenesteutvikling/gjenbrukbare-tjenester/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
 
 ---
 
@@ -209,7 +209,7 @@ Altinn er Norges nasjonale plattform for digitale tjenester, meldingsutveksling 
 
 Altinn Studio er web-basert IDE og utviklingsplattform for bygging av digitale Altinn-tjenester. LÃ¸sningen tilbyr low-code/no-code verktÃ¸y, standardiserte byggeklosser, integrasjonsmÃ¸nstre og runtime-kapabiliteter som drastisk reduserer tid og kompleksitet fra behovsanalyse til produksjonssetting av digitale...
 
-**Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Informasjonssikkerhet](../../kapabiliteter/informasjonssikkerhet/) · [Tjenesteforvaltning](../../kapabiliteter/samarbeid/tjenesteforvaltning/) · [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/) · [Tjenesteutvikling](../../kapabiliteter/tjenesteutvikling/) · [Gjenbrukbare tjenester](../../kapabiliteter/tjenesteutvikling/gjenbrukbare-tjenester/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/) · [Tjenestedesign](../../kapabiliteter/tjenesteutvikling/tjenestedesign/)
+**Kapabiliteter:** [Gjenbrukbare tjenester](../../kapabiliteter/tjenesteutvikling/gjenbrukbare-tjenester/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/) · [Tjenestedesign](../../kapabiliteter/tjenesteutvikling/tjenestedesign/) · [Utviklings- og kjøretidsmiljø](../../kapabiliteter/tjenesteutvikling/utviklings-og-kjoretidsmiljo/)
 
 ---
 
@@ -219,7 +219,7 @@ Altinn Studio er web-basert IDE og utviklingsplattform for bygging av digitale A
 
 Altinn Portal er den sentrale brukerinngangen til skjema, tjenester, meldinger og tilgangsstyring i Altinn. Portalen samler oppgaver og kommunikasjon fra mange offentlige aktører i én arbeidsflate, og gjør det mulig for både privatpersoner og virksomheter å finne tjenester, følge opp meldinger og handle på egne eller...
 
-**Kapabiliteter:** [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [Tjenesteforvaltning](../../kapabiliteter/samarbeid/tjenesteforvaltning/) · [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/) · [Tjenestekjeder](../../kapabiliteter/sluttbrukertjenester/tjenestekjeder/) · [Representasjon](../../kapabiliteter/tillit/representasjon/) · [Sporbarhet og innsyn](../../kapabiliteter/tillit/sporbarhet-og-innsyn/) · [Tilgangsstyring](../../kapabiliteter/tillit/tilgangsstyring/)
+**Kapabiliteter:** [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/) · [Tjenestekjeder](../../kapabiliteter/sluttbrukertjenester/tjenestekjeder/) · [Representasjon](../../kapabiliteter/tillit/representasjon/) · [Sporbarhet og innsyn](../../kapabiliteter/tillit/sporbarhet-og-innsyn/) · [Tilgangsstyring](../../kapabiliteter/tillit/tilgangsstyring/)
 
 ---
 
@@ -229,7 +229,7 @@ Altinn Portal er den sentrale brukerinngangen til skjema, tjenester, meldinger o
 
 Dialogporten er Altinns felles representasjons- og samhandlingslag for digitale dialoger. Produktet gjør meldinger og dialoger fra ulike tjenesteplattformer tilgjengelige i et felles format, slik at sluttbrukersystemer, arbeidsflater og portaler kan presentere den samme dialogen på en konsistent måte.
 
-**Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Hendelsesdrevet](../../kapabiliteter/datautveksling-og-integrasjon/hendelsesdrevet/) · [Tjenesteforvaltning](../../kapabiliteter/samarbeid/tjenesteforvaltning/) · [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/) · [Autentisering](../../kapabiliteter/tillit/autentisering/) · [Tilgangskontroll](../../kapabiliteter/tillit/tilgangskontroll/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
+**Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Hendelsesdrevet](../../kapabiliteter/datautveksling-og-integrasjon/hendelsesdrevet/) · [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/) · [Autentisering](../../kapabiliteter/tillit/autentisering/) · [Tilgangskontroll](../../kapabiliteter/tillit/tilgangskontroll/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
 
 ---
 
@@ -239,7 +239,7 @@ Dialogporten er Altinns felles representasjons- og samhandlingslag for digitale 
 
 Altinn 3 Melding er en nasjonal meldingstjeneste for sikker digital utveksling av korrespondanse mellom offentlige virksomheter og mottakere i offentlig sektor, næringsliv og befolkning. Produktet støtter livssyklus, tilgangsstyring, vedlegg, varsling og hendelser, og gjør meldinger tilgjengelige i arbeidsflate og...
 
-**Kapabiliteter:** [Hendelsesdrevet](../../kapabiliteter/datautveksling-og-integrasjon/hendelsesdrevet/) · [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/) · [Sporbarhet og innsyn](../../kapabiliteter/tillit/sporbarhet-og-innsyn/) · [Tilgangskontroll](../../kapabiliteter/tillit/tilgangskontroll/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
+**Kapabiliteter:** [Hendelsesdrevet](../../kapabiliteter/datautveksling-og-integrasjon/hendelsesdrevet/) · [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [Sporbarhet og innsyn](../../kapabiliteter/tillit/sporbarhet-og-innsyn/) · [Tilgangskontroll](../../kapabiliteter/tillit/tilgangskontroll/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
 
 ---
 
@@ -249,6 +249,6 @@ Altinn 3 Melding er en nasjonal meldingstjeneste for sikker digital utveksling a
 
 Altinn Varslinger er en fellesløsning for enveis digital varsling til innbyggere og virksomheter. Produktet gjør det mulig å sende varsler via e-post og SMS, slå opp mottakerens navn og kontaktinformasjon fra nasjonale registre, bruke autorisasjon for å finne riktige mottakere i organisasjoner og styre utsending...
 
-**Kapabiliteter:** [Sammenstilling av data](../../kapabiliteter/datadrevet/sammenstilling-av-data/) · [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [Proaktive tjenester](../../kapabiliteter/sluttbrukertjenester/proaktive-tjenester/) · [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/) · [Tilgangskontroll](../../kapabiliteter/tillit/tilgangskontroll/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
+**Kapabiliteter:** [Sammenstilling av data](../../kapabiliteter/datadrevet/sammenstilling-av-data/) · [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [Proaktive tjenester](../../kapabiliteter/sluttbrukertjenester/proaktive-tjenester/) · [Tilgangskontroll](../../kapabiliteter/tillit/tilgangskontroll/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
 
 ---

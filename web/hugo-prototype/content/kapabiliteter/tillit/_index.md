@@ -2,7 +2,7 @@
 title: "Tillit"
 weight: 5
 description: "Evne å tilby tillitstjenester som muliggjør autentisering og autorisasjon på tvers av tjenestekjeder, og støtte en distribuert arkitektur og føderering mellom ulike domener og tjenester."
-cardMeta: "8 delkapabiliteter / 11 produkter"
+cardMeta: "8 delkapabiliteter / 9 produkter"
 productsMarkdown: |
   ## Relaterte produkter
   
@@ -18,8 +18,6 @@ productsMarkdown: |
   | Altinn autorisasjon | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/04-Altinn-autorisasjon-produkt-canvas-v3-codex.md) | Representasjon | gjør det mulig å opptre på vegne av virksomhet eller annen part når dette er definert i Altinns rettighetsmodell |
   | Altinn autorisasjon | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/04-Altinn-autorisasjon-produkt-canvas-v3-codex.md) | Tilgangskontroll | er kjernefunksjonen og avgjør om en bruker, virksomhet eller system får utføre en bestemt handling eller bruke en bestemt ressurs |
   | Altinn autorisasjon | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/04-Altinn-autorisasjon-produkt-canvas-v3-codex.md) | Tilgangsstyring | gjør det mulig å forvalte roller, rettigheter og delegeringer som grunnlag for autorisasjonsbeslutninger |
-  | Altinn formidling (Broker) | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/08-Altinn-formidling-produkt-canvas-v2-copilot.md) | Sporbarhet og innsyn | Logging av all formidling og leveringsstatus |
-  | Digital postkasse (felleskomponent) | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/09-Digital-postkasse-produkt-canvas-v2-copilot.md) | Tillit | Sporbarhet og innsyn – Loggering av all post og leveringsstatus |
   | data.altinn.no | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/17-data-altinn-no-produkt-canvas-v3-codex.md) | Autentisering | støtter maskin-til-maskin-tilgang gjennom virksomhetssertifikat eller Maskinporten |
   | data.altinn.no | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/17-data-altinn-no-produkt-canvas-v3-codex.md) | Samtykke | muliggjør datadeling når bruk av data forutsetter et gyldig samtykke |
   | data.altinn.no | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/17-data-altinn-no-produkt-canvas-v3-codex.md) | Tilgangskontroll | håndterer tilgang gjennom tjenestekontekst, rettigheter og definerte datakilder |
