@@ -11,16 +11,10 @@ Evne til å evaluere, forbedre, fornye styringssystem for informasjonssikkerhet.
 
 Denne delkapabiliteten er en del av [Informasjonssikkerhet](../).
 
-## Relevante prinsipper
+## Videre navigasjon
 
-| Prinsipp | Begrunnelse |
-| --- | --- |
-| P7: Sørg for tillit til oppgaveløsningen | Sikring av informasjonsflyt og robuste styringssystemer beskytter dataenes integritet og borgernes personvern. |
+Andre delkapabiliteter i samme hovedkapabilitet: [Sikring av informasjonsflyt og datautveksling](../sikring-av-informasjonsflyt-og-datautveksling/).
 
 ## Relaterte produkter
 
 Ingen produkter er koblet til denne delkapabiliteten foreløpig.
-
-## Videre navigasjon
-
-Andre delkapabiliteter i samme hovedkapabilitet: [Sikring av informasjonsflyt og datautveksling](../sikring-av-informasjonsflyt-og-datautveksling/).

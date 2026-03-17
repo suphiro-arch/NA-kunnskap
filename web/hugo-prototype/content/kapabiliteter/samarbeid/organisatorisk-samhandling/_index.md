@@ -11,12 +11,9 @@ Evnen til å effektivisere forretningsprosesser og verdikjeder på tvers av orga
 
 Denne delkapabiliteten er en del av [Samarbeid](../).
 
-## Relevante prinsipper
+## Videre navigasjon
 
-| Prinsipp | Begrunnelse |
-| --- | --- |
-| P2: Ta arkitektur-beslutninger på rett nivå | Tjenesteforvaltning og felles styringsmodeller sikrer forankring av felles beslutninger i økosystemet. |
-| P6: Lag digitale løsninger som støtter samhandling | Samarbeidsarenaer og nettverk fasiliterer den organisatoriske evnen til å jobbe sammen på tvers. |
+Andre delkapabiliteter i samme hovedkapabilitet: [Samarbeidsarenaer og nettverk](../samarbeidsarenaer-og-nettverk/), [Tjenesteforvaltning](../tjenesteforvaltning/).
 
 ## Relaterte produkter
 
@@ -26,7 +23,3 @@ Denne delkapabiliteten er en del av [Samarbeid](../).
 | Altinn formidling (Broker) | v2 (copilot) | Enabler samhandling mellom organisasjoner | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/08-Altinn-formidling-produkt-canvas-v2-copilot.md) |
 | Begrepskatalog | v2 (copilot) | Enabler semantisk samhandling på tvers | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/14-Begrepskatalog-produkt-canvas-v2-copilot.md) |
 | Norge.no | v2 (copilot) | Tverretatlig samhandling gjennom veiviserfunksjonen | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md) |
-
-## Videre navigasjon
-
-Andre delkapabiliteter i samme hovedkapabilitet: [Samarbeidsarenaer og nettverk](../samarbeidsarenaer-og-nettverk/), [Tjenesteforvaltning](../tjenesteforvaltning/).

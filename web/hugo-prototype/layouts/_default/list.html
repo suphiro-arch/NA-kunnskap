@@ -20,31 +20,16 @@
 </article>
 
 {{ if and (gt (len $pages) 0) $isCapabilitySection }}
-<section class="section-overview">
-  <div class="section-overview__header">
-    <h2>{{ if .IsHome }}Seksjoner{{ else }}I Denne Seksjonen{{ end }}</h2>
-    <p>{{ if .IsHome }}Innganger til hoveddelene av dokumentasjonen.{{ else }}Undersider og innhold som hører til denne seksjonen.{{ end }}</p>
-  </div>
-
+<section class="section-overview section-overview--capabilities">
   <div class="section-grid section-grid--three">
     {{ range $pages }}
-    <article class="section-card section-card--compact section-card--capability">
-      {{ with .Params.cardMeta }}
-      <div class="section-card__stats">
-        {{ range split . "·" }}
-        <span class="section-card__stat">{{ trim . " " }}</span>
-        {{ end }}
-      </div>
-      {{ else }}
-      <p class="section-card__meta">{{ if .IsSection }}Seksjon{{ else }}Side{{ end }}</p>
-      {{ end }}
+    <article class="section-card section-card--capability">
       <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
       {{ with .Description }}
       <p class="section-card__description">{{ . }}</p>
       {{ else }}
       <p class="section-card__description">Åpne siden for beskrivelse, delkapabiliteter og relaterte produkter.</p>
       {{ end }}
-      <a class="section-card__link" href="{{ .RelPermalink }}">Åpne side</a>
     </article>
     {{ end }}
   </div>
@@ -77,5 +62,15 @@
     {{ end }}
   </div>
 </section>
+{{ end }}
+
+{{ with .Params.productsMarkdown }}
+<article class="content-card content-card--secondary">
+  <div class="content-card__body">
+    <div class="prose">
+      {{ . | markdownify }}
+    </div>
+  </div>
+</article>
 {{ end }}
 {{ end }}

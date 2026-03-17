@@ -11,16 +11,10 @@ Evne til å på en sikker og entydig måte verifisere den digitale identiteten t
 
 Denne delkapabiliteten er en del av [Tillit](../).
 
-## Relevante prinsipper
+## Videre navigasjon
 
-| Prinsipp | Begrunnelse |
-| --- | --- |
-| P7: Sørg for tillit til oppgaveløsningen | Autentisering, autorisasjon og samtykke legger det tekniske tillitsgrunnlaget for digital interaksjon. |
+Andre delkapabiliteter i samme hovedkapabilitet: [Tilgangskontroll](../tilgangskontroll/), [Tilgangsstyring](../tilgangsstyring/), [Representasjon](../representasjon/), [Sporbarhet og innsyn](../sporbarhet-og-innsyn/), [Signering](../signering/), [Samtykke](../samtykke/), [Identifisering](../identifisering/).
 
 ## Relaterte produkter
 
 Ingen produkter er koblet til denne delkapabiliteten foreløpig.
-
-## Videre navigasjon
-
-Andre delkapabiliteter i samme hovedkapabilitet: [Tilgangskontroll](../tilgangskontroll/), [Tilgangsstyring](../tilgangsstyring/), [Representasjon](../representasjon/), [Sporbarhet og innsyn](../sporbarhet-og-innsyn/), [Signering](../signering/), [Samtykke](../samtykke/), [Identifisering](../identifisering/).

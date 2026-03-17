@@ -11,16 +11,10 @@ Evne til å sikkert prosessere og distribuere kontinuerlige datastrømmer for å
 
 Denne delkapabiliteten er en del av [Datakilder](../).
 
-## Relevante prinsipper
+## Videre navigasjon
 
-| Prinsipp | Begrunnelse |
-| --- | --- |
-| P4: Del og gjenbruk data | Grunndata som autoritative kilder sikrer at alle deltakere bruker korrekte og oppdaterte data nasjonalt. |
+Andre delkapabiliteter i samme hovedkapabilitet: [Grunndata](../grunndata/), [Åpne data](../apne-data/), [Testdata](../testdata/), [Ustrukturerte data](../ustrukturerte-data/).
 
 ## Relaterte produkter
 
 Ingen produkter er koblet til denne delkapabiliteten foreløpig.
-
-## Videre navigasjon
-
-Andre delkapabiliteter i samme hovedkapabilitet: [Grunndata](../grunndata/), [Åpne data](../apne-data/), [Testdata](../testdata/), [Ustrukturerte data](../ustrukturerte-data/).

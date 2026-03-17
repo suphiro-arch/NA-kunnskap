@@ -394,8 +394,13 @@ def write_file(path: Path, content: str) -> None:
     path.write_text(content.strip() + '\n', encoding='utf-8')
 
 
+def indent_block(text: str, spaces: int = 2) -> str:
+    prefix = ' ' * spaces
+    return '\n'.join(prefix + line if line else prefix for line in text.splitlines())
+
+
 def generate() -> None:
-    capabilities, principles, principle_reason_map = parse_capabilities_yaml(CAPABILITIES_FILE)
+    capabilities, _, _ = parse_capabilities_yaml(CAPABILITIES_FILE)
     capability_products, subcap_products = parse_product_capability_mappings(capabilities)
 
     if OUT_DIR.exists():
@@ -411,15 +416,11 @@ def generate() -> None:
         cap_dir = OUT_DIR / cap_slug
         products = capability_products.get(capability['id'], [])
         subcaps = capability['delkapabiliteter']
-        card_meta = f"{len(subcaps)} delkapabiliteter · {len({entry['product_id'] for entry in products})} produkter"
+        card_meta = f"{len(subcaps)} delkapabiliteter / {len({entry['product_id'] for entry in products})} produkter"
 
         for sub_index, subcap in enumerate(subcaps, start=1):
             sub_slug = slugify(subcap['navn'])
             sub_products = subcap_products.get(subcap['id'], [])
-
-            sub_principle_rows = []
-            for principle in principle_reason_map.get(capability['id'], []):
-                sub_principle_rows.append([principle['principle_name'], principle['reason'] or 'Koblet via hovedkapabiliteten.'])
 
             sibling_links = ', '.join(
                 f"[{sibling['navn']}](../{slugify(sibling['navn'])}/)" for sibling in subcaps if sibling['id'] != subcap['id']
@@ -447,27 +448,15 @@ cardMeta: "{len({entry['product_id'] for entry in sub_products})} produkter"
 
 Denne delkapabiliteten er en del av [{capability['navn']}](../).
 
-## Relevante prinsipper
+## Videre navigasjon
 
-{table_or_message(['Prinsipp', 'Begrunnelse'], sub_principle_rows, 'Ingen prinsippkoblinger er registrert foreløpig.')}
+{"Andre delkapabiliteter i samme hovedkapabilitet: " + sibling_links + "." if sibling_links else 'Denne hovedkapabiliteten har ingen andre delkapabiliteter.'}
 
 ## Relaterte produkter
 
 {table_or_message(['Produkt', 'Versjon', 'Hvorfor relevant', 'Fil'], sub_product_rows, 'Ingen produkter er koblet til denne delkapabiliteten foreløpig.')}
-
-## Videre navigasjon
-
-{"Andre delkapabiliteter i samme hovedkapabilitet: " + sibling_links + "." if sibling_links else 'Denne hovedkapabiliteten har ingen andre delkapabiliteter.'}
 """
             write_file(cap_dir / sub_slug / '_index.md', sub_content)
-
-        principle_rows = []
-        for principle_id in capability['prinsipper']:
-            reason_entry = next((item for item in principle_reason_map.get(capability['id'], []) if item['principle_id'] == principle_id), None)
-            principle_rows.append([
-                principles.get(principle_id, principle_id),
-                reason_entry['reason'] if reason_entry and reason_entry['reason'] else 'Koblingen er registrert i kapabilitetsmodellen uten egen begrunnelse her.',
-            ])
 
         product_rows = []
         for entry in products:
@@ -480,23 +469,22 @@ Denne delkapabiliteten er en del av [{capability['navn']}](../).
                 f"[Fil]({entry['product_url']})",
             ])
 
+        products_markdown = f"""## Relaterte produkter
+
+{table_or_message(['Produkt', 'Versjon', 'Koblet via', 'Hvorfor relevant', 'Fil'], product_rows, 'Ingen produkter er koblet til denne kapabiliteten foreløpig.')}
+"""
+
         capability_content = f"""
 ---
 title: "{capability['navn']}"
 weight: {index}
 description: "{capability['beskrivelse']}"
 cardMeta: "{card_meta}"
+productsMarkdown: |
+{indent_block(products_markdown.strip(), 2)}
 ---
 
 {capability['beskrivelse']}
-
-## Relevante prinsipper
-
-{table_or_message(['Prinsipp', 'Begrunnelse'], principle_rows, 'Ingen prinsippkoblinger er registrert foreløpig.')}
-
-## Relaterte produkter
-
-{table_or_message(['Produkt', 'Versjon', 'Koblet via', 'Hvorfor relevant', 'Fil'], product_rows, 'Ingen produkter er koblet til denne kapabiliteten foreløpig.')}
 """
         write_file(cap_dir / '_index.md', capability_content)
 
@@ -509,9 +497,9 @@ description: "Oversikt over hovedkapabiliteter, delkapabiliteter og hvilke produ
 
 Kapabilitetene beskriver hvilke evner som må være på plass for å utvikle, forvalte og videreutvikle et nasjonalt økosystem for digital samhandling. I denne prototypen er de organisert som en navigerbar struktur: først hovedkapabiliteter, deretter delkapabiliteter og til slutt koblinger videre til relevante produkter.
 
-- Start med et kort i oversikten under for å åpne en hovedkapabilitet.
+- Velg en hovedkapabilitet for å åpne beskrivelse og delkapabiliteter.
 - Gå videre til delkapabiliteter for å se mer avgrensede evner.
-- Bruk produkttabellene på hver side for å finne hvilke fellesløsninger som understøtter kapabiliteten i praksis.
+- Bruk produktoversikten nederst på kapabilitetssidene for å finne relevante fellesløsninger.
 """
     write_file(OUT_DIR / '_index.md', top_content)
 

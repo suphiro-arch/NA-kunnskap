@@ -11,16 +11,10 @@ Evnen til å transformere rådata til meningsfull innsikt og bygge prediktive mo
 
 Denne delkapabiliteten er en del av [Datadrevet](../).
 
-## Relevante prinsipper
+## Videre navigasjon
 
-| Prinsipp | Begrunnelse |
-| --- | --- |
-| P4: Del og gjenbruk data | Sammenstilling av data fra ulike kilder skaper ny innsikt som forutsetter aktiv deling og gjenbruk. |
+Andre delkapabiliteter i samme hovedkapabilitet: [Sammenstilling av data](../sammenstilling-av-data/), [Visualisering](../visualisering/).
 
 ## Relaterte produkter
 
 Ingen produkter er koblet til denne delkapabiliteten foreløpig.
-
-## Videre navigasjon
-
-Andre delkapabiliteter i samme hovedkapabilitet: [Sammenstilling av data](../sammenstilling-av-data/), [Visualisering](../visualisering/).

@@ -11,16 +11,10 @@ Evne til å omforme komplekse data til visuelle fremstillinger som gjør innsikt
 
 Denne delkapabiliteten er en del av [Datadrevet](../).
 
-## Relevante prinsipper
+## Videre navigasjon
 
-| Prinsipp | Begrunnelse |
-| --- | --- |
-| P4: Del og gjenbruk data | Sammenstilling av data fra ulike kilder skaper ny innsikt som forutsetter aktiv deling og gjenbruk. |
+Andre delkapabiliteter i samme hovedkapabilitet: [Dataanalyse](../dataanalyse/), [Sammenstilling av data](../sammenstilling-av-data/).
 
 ## Relaterte produkter
 
 Ingen produkter er koblet til denne delkapabiliteten foreløpig.
-
-## Videre navigasjon
-
-Andre delkapabiliteter i samme hovedkapabilitet: [Dataanalyse](../dataanalyse/), [Sammenstilling av data](../sammenstilling-av-data/).
