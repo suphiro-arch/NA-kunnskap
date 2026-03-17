@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" />
   </head>
   {{ $toc := .TableOfContents }}
-  {{ $hasToc := gt (len (findRE "<li" $toc 1)) 0 }}
+  {{ $hideToc := .Params.hideToc }}
+  {{ $hasToc := and (not $hideToc) (gt (len (findRE "<li" $toc 1)) 0) }}
   {{ $currentSection := "" }}
   {{ if .IsHome }}
     {{ $currentSection = "" }}
