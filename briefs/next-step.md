@@ -32,6 +32,7 @@ sources:
 - Åpen internettflate krever moderering, rate limiting og tydelig avgrensning av datagrunnlag.
 - Eldre produktbeskrivelser kan gi ujevn retrieval-kvalitet.
 - GitHub Pages-oppsettet må verifiseres i repo-innstillingene slik at artifact-deploy faktisk er valgt som publiseringskilde.
+- `docs/prototype/` ligger fortsatt i repoet som midlertidig rest fra gammel publiseringsmodell.
 
 ## Konkrete neste oppgaver
 1. Avklar lisens for offentlig dokumentasjonsinnhold.
@@ -41,6 +42,7 @@ sources:
 5. Legg inn enkel chat-widget i Hugo-prototypen.
 6. Fortsett revisjon av produktbeskrivelser med samme regler for direkte kapabilitetskobling og ryddigere metadata.
 7. Verifiser at GitHub Pages bruker Actions-baserte deployments og ikke gammel `docs/`-publisering.
+8. Slett `docs/prototype/` og eventuelt hele `docs/` når GitHub Pages er verifisert på ny deploymodell.
 
 ## Referanser
 - [MVP-skisse for dokumentasjonsassistent](c:/Users/HILROS/NA-kunnskap/briefs/arbeidsstyring-og-handover/2026-03-16-dokumentasjonsassistent-mvp-v1.md)
