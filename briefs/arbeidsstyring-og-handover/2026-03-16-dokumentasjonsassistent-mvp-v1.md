@@ -5,7 +5,7 @@ status: draft
 topic: dokumentasjonsassistent-mvp
 sources:
   - web/hugo-prototype/README.md
-  - docs/AUTOMATISK-PUSH-SETUP.md
+  - briefs/arbeidsstyring-og-handover/AUTOMATISK-PUSH-SETUP.md
   - arkitektur/kapabiliteter/capabilities.yaml
   - results/Produktbeskrivelser/
   - https://platform.openai.com/docs/api-reference/responses/tutorials-and-guides
