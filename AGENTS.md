@@ -1,4 +1,4 @@
-# Repo-regler for assistenter
+﻿# Repo-regler for assistenter
 
 Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 
@@ -38,7 +38,7 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 
 ## Hugo-prototype
 - Når produktbeskrivelser som mater web-oversikter endres, oppdater relevante genererte oversikter i `web/hugo-prototype/content/`.
-- Bruk `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.json` som autoritativ masterfil for koblingen mellom produkter og kapabiliteter når weboversikter eller kapabilitetssider oppdateres.
+- Bruk `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml` som autoritativ masterfil for koblingen mellom produkter og kapabiliteter når weboversikter eller kapabilitetssider oppdateres.
 - Hugo-prototypen publiseres fra `web/hugo-prototype/` via GitHub Pages artifact-deploy, ikke ved å commite bygget HTML tilbake til repoet.
 - Bevar nettstedet som en lettlest dokumentasjonsside med tydelig navigasjon og lesbar tekst.
 - Unngå designgrep som gjør dokumentasjon vanskeligere å lese eller navigere.
@@ -48,3 +48,4 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Oppdater `briefs/decisions.md` når det tas varige metode- eller arkitekturvalg.
 - Legg nye arbeidsdokumenter og handover-notater i `briefs/arbeidsstyring-og-handover/` når de ikke hører hjemme i `results/`.
 - Hvis nye generelle regler blir viktige for repoet, legg dem i denne fila heller enn å spre dem tilfeldig i enkeltfiler.
+
