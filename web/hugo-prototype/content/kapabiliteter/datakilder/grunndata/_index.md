@@ -2,7 +2,7 @@
 title: "Grunndata"
 weight: 1
 description: "Evne til å identifisere og formelt anerkjenne autoritative datakilder basert på en systematisk vurdering av deres verdi."
-cardMeta: "0 produkter"
+cardMeta: "1 produkter"
 ---
 
 Evne til å identifisere og formelt anerkjenne autoritative datakilder basert på en systematisk vurdering av deres verdi.
@@ -13,4 +13,6 @@ Denne delkapabiliteten er en del av [Datakilder](../).
 
 ## Relaterte produkter
 
-Ingen produkter er koblet til denne delkapabiliteten foreløpig.
+| Produkt | Produktbeskrivelse | Hvorfor relevant |
+| --- | --- | --- |
+| Kontakt- og reservasjonsregisteret | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/05-Kontakt-og-reservasjonsregisteret-produkt-canvas-v3-codex.md) | fungerer som en felles autoritativ kilde for kontaktopplysninger og reservasjonsstatus som andre offentlige løsninger kan bygge på |
