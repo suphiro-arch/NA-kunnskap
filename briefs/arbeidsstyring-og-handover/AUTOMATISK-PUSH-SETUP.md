@@ -20,8 +20,6 @@ Workflowene i `.github/workflows/` håndterer blant annet:
 - publisering av Hugo-prototypen til GitHub Pages
 - automatisering knyttet til produktbeskrivelser
 
-GitHub Actions brukes ikke lenger til å speile filer til `docs/`.
-
 ---
 
 ## Alternativ 2: Post-commit-hook
@@ -144,4 +142,3 @@ GitHub Pages skal ikke lenger peke til `/docs`.
 
 1. Test hooken med en tom commit hvis du vil verifisere lokal flyt.
 2. Verifiser at GitHub Pages bruker `GitHub Actions` som source.
-3. Fjern `docs/prototype/` når ny publiseringsmodell er bekreftet.

@@ -15,7 +15,6 @@ Repo for arbeid med nasjonal arkitektur, produktbeskrivelser, kapabiliteter, pri
 - `config/`: prompts, maler og annen styrende konfigurasjon
 - `arkitektur/`: strukturerte oversikter, blant annet kapabiliteter og produktnummerering
 - `web/hugo-prototype/`: Hugo-kildekode for dokumentasjonsprototypen
-- `docs/`: midlertidig rest fra tidligere publiseringsmodell, beholdes foreløpig som fallback til GitHub Pages er verifisert
 
 ## Styrende filer
 - [AGENTS.md](/c:/Users/HILROS/NA-kunnskap/AGENTS.md): generelle repo-regler for assistenter
@@ -33,7 +32,6 @@ Repo for arbeid med nasjonal arkitektur, produktbeskrivelser, kapabiliteter, pri
 - Publisert base-URL er konfigurert til:
   - `https://suphiro-arch.github.io/NA-kunnskap/prototype/`
 - GitHub Pages publiserer bygget direkte fra GitHub Actions som artifact-deploy.
-- `docs/prototype/` er ikke lenger sannhetskilde eller publiseringsmål for prototypen, og skal fjernes når Pages-oppsettet er bekreftet.
 
 ## Prinsipper for innhold
 - skriv på norsk i dokumentinnhold
