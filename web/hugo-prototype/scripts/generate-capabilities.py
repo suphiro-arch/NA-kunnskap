@@ -426,9 +426,8 @@ def generate() -> None:
             for entry in sub_products:
                 sub_product_rows.append([
                     entry['product_name'],
-                    f"v{entry['version']} ({entry['author']})" if entry['version'] > 0 else 'legacy',
+                    f"[v{entry['version']} ({entry['author']})]({entry['product_url']})" if entry['version'] > 0 else f"[legacy]({entry['product_url']})",
                     entry['explanation'] or 'Produktet er eksplisitt koblet til denne delkapabiliteten i produktbeskrivelsen.',
-                    f"[Åpne dokumentasjon]({entry['product_url']})",
                 ])
 
             sub_content = f"""
@@ -447,7 +446,7 @@ Denne delkapabiliteten er en del av [{capability['navn']}](../).
 
 ## Relaterte produkter
 
-{table_or_message(['Produkt', 'Produktbeskrivelse', 'Hvorfor relevant', 'Link til dokumentasjon'], sub_product_rows, 'Ingen produkter er koblet til denne delkapabiliteten foreløpig.')}
+{table_or_message(['Produkt', 'Produktbeskrivelse', 'Hvorfor relevant'], sub_product_rows, 'Ingen produkter er koblet til denne delkapabiliteten foreløpig.')}
 """
             write_file(cap_dir / sub_slug / '_index.md', sub_content)
 
@@ -456,16 +455,15 @@ Denne delkapabiliteten er en del av [{capability['navn']}](../).
             mapping_name = entry['subcap_name'] or capability['navn']
             product_rows.append([
                 entry['product_name'],
-                f"v{entry['version']} ({entry['author']})" if entry['version'] > 0 else 'legacy',
+                f"[v{entry['version']} ({entry['author']})]({entry['product_url']})" if entry['version'] > 0 else f"[legacy]({entry['product_url']})",
                 mapping_name,
                 entry['explanation'] or 'Produktet er eksplisitt koblet til denne kapabiliteten i produktbeskrivelsen.',
-                f"[Åpne dokumentasjon]({entry['product_url']})",
             ])
 
         products_markdown = (
             "## Relaterte produkter\n\n"
             + table_or_message(
-                ['Produkt', 'Produktbeskrivelse', 'Koblet via', 'Hvorfor relevant', 'Link til dokumentasjon'],
+                ['Produkt', 'Produktbeskrivelse', 'Koblet via', 'Hvorfor relevant'],
                 product_rows,
                 'Ingen produkter er koblet til denne kapabiliteten foreløpig.',
             )
