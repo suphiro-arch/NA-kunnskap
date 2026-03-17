@@ -49,6 +49,8 @@ Følg reglene under.
 - Skill tydelig mellom **fakta** (fra kilder), **deduksjon** (logisk utledet), og **usikkerhet**
 - Tittel og ResourceID må alltid være korrekt
 - Lenker skal være aktive og relevante
+- Ikke legg inn egen linje for `Målgruppe` øverst i dokumentet; målgruppen er styrende for språk og innhold, men skal ikke stå som egen metadata-linje i produktbeskrivelsen
+- Skriv `Ressurs ID` som selve nummeret eller nummer + produktnavn hvis det gir mening, men ikke legg til parentesforklaringer som `(Produktliste NA-kunnskap)`
 - Ved revisjon: vis eksplisitt hvilke deler som er forbedret i analysen, ikke bare i språk/drakt
 - Skriv resultatet som en selvstendig produktbeskrivelse for målgruppen, ikke som referat av hva som står på nettsider eller i dokumentasjon
 - Unngå formuleringer som "nettsiden sier", "forsiden viser", "kilden beskriver" i selve hovedteksten; bruk heller dette kun i kildegrunnlag eller når du markerer usikkerhet/kildekonflikt
@@ -83,6 +85,9 @@ Følg reglene under.
 **Kapabiliteter:**
 - Knytt eksplisitt til navn i `arkitektur/kapabiliteter/capabilities.yaml`
 - Beskriv *hvordan* produktet bidrar (ikke bare list opp navn)
+- Ta bare med kapabiliteter der koblingen er sterk og direkte dokumentert eller klart utledbar fra produktets egen funksjon
+- Ikke ta med kapabiliteter som bare berøres indirekte gjennom andre produkter, plattformer eller avhengigheter
+- Hvis du er i tvil om koblingen er sterk nok, skal kapabiliteten utelates
 - Format: `- **Tillit: Autentisering**` etterfulgt av forklaring i vanlig skrift på neste linje eller i samme punkt
 - Navnet på kapabiliteten skal være i fet skrift; forklaringen skal være i vanlig skrift
 
