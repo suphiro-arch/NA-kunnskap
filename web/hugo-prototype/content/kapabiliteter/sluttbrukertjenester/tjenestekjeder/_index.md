@@ -11,12 +11,8 @@ Evne til å dynamisk sette sammen, koordinere og automatisere flyten av informas
 
 Denne delkapabiliteten er en del av [Sluttbrukertjenester](../).
 
-## Videre navigasjon
-
-Andre delkapabiliteter i samme hovedkapabilitet: [Sammenhengende tjenester](../sammenhengende-tjenester/), [Proaktive tjenester](../proaktive-tjenester/).
-
 ## Relaterte produkter
 
-| Produkt | Versjon | Hvorfor relevant | Fil |
+| Produkt | Produktbeskrivelse | Hvorfor relevant | Link til dokumentasjon |
 | --- | --- | --- | --- |
-| Norge.no | v2 (copilot) | Lenking av relaterte tjenester basert på livsbegivenheter | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md) |
+| Norge.no | v2 (copilot) | Lenking av relaterte tjenester basert på livsbegivenheter | [Åpne dokumentasjon](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md) |

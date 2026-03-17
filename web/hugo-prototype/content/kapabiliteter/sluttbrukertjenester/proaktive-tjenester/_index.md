@@ -11,10 +11,6 @@ Evne til å, basert på registrerte hendelser og delte data, automatisk identifi
 
 Denne delkapabiliteten er en del av [Sluttbrukertjenester](../).
 
-## Videre navigasjon
-
-Andre delkapabiliteter i samme hovedkapabilitet: [Sammenhengende tjenester](../sammenhengende-tjenester/), [Tjenestekjeder](../tjenestekjeder/).
-
 ## Relaterte produkter
 
 Ingen produkter er koblet til denne delkapabiliteten foreløpig.

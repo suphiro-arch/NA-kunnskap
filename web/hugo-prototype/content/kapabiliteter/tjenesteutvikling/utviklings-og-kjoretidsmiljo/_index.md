@@ -11,10 +11,6 @@ Evne til å tilby og forvalte en felles, skalerbar teknisk plattform og en tilh�
 
 Denne delkapabiliteten er en del av [Tjenesteutvikling](../).
 
-## Videre navigasjon
-
-Andre delkapabiliteter i samme hovedkapabilitet: [Integrerbare tjenester](../integrerbare-tjenester/), [Gjenbrukbare tjenester](../gjenbrukbare-tjenester/), [Tjenestedesign](../tjenestedesign/).
-
 ## Relaterte produkter
 
 Ingen produkter er koblet til denne delkapabiliteten foreløpig.

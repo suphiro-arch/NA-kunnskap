@@ -11,10 +11,6 @@ Evne til å hente, kombinere og foredle data fra ulike kilder for å skape ny in
 
 Denne delkapabiliteten er en del av [Datadrevet](../).
 
-## Videre navigasjon
-
-Andre delkapabiliteter i samme hovedkapabilitet: [Dataanalyse](../dataanalyse/), [Visualisering](../visualisering/).
-
 ## Relaterte produkter
 
 Ingen produkter er koblet til denne delkapabiliteten foreløpig.

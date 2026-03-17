@@ -11,12 +11,8 @@ Dokumentasjon og logging av opplysninger for bruk i innsyn, forvaltning og kontr
 
 Denne delkapabiliteten er en del av [Tillit](../).
 
-## Videre navigasjon
-
-Andre delkapabiliteter i samme hovedkapabilitet: [Autentisering](../autentisering/), [Tilgangskontroll](../tilgangskontroll/), [Tilgangsstyring](../tilgangsstyring/), [Representasjon](../representasjon/), [Signering](../signering/), [Samtykke](../samtykke/), [Identifisering](../identifisering/).
-
 ## Relaterte produkter
 
-| Produkt | Versjon | Hvorfor relevant | Fil |
+| Produkt | Produktbeskrivelse | Hvorfor relevant | Link til dokumentasjon |
 | --- | --- | --- | --- |
-| Altinn formidling (Broker) | v2 (copilot) | Logging av all formidling og leveringsstatus | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/08-Altinn-formidling-produkt-canvas-v2-copilot.md) |
+| Altinn formidling (Broker) | v2 (copilot) | Logging av all formidling og leveringsstatus | [Åpne dokumentasjon](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/08-Altinn-formidling-produkt-canvas-v2-copilot.md) |

@@ -51,8 +51,3 @@ Dette prinsippet er sentralt når man vurderer om et behov bør dekkes av en fel
 
 ### P6: Lag digitale løsninger som støtter samhandling
 Dette prinsippet er viktig når en løsning skal inngå i en større tjenestekjede og må fungere sammen med andre produkter, prosesser og dataflyter.
-
-## Videre navigasjon
-
-- Gå til [Kapabiliteter](../kapabiliteter/) for å se hvilke evner prinsippene skal støtte.
-- Gå til [Ressursoversikt](../ressursoversikt/) for å finne produkter og fellesløsninger som understøtter prinsippene i praksis.

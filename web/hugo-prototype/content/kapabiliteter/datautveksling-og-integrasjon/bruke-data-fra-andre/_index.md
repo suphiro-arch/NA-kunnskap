@@ -11,14 +11,10 @@ Evne til å gjenbruke data fra andre i egne tjenester og prosesser.
 
 Denne delkapabiliteten er en del av [Datautveksling og integrasjon](../).
 
-## Videre navigasjon
-
-Andre delkapabiliteter i samme hovedkapabilitet: [Dele data med andre](../dele-data-med-andre/), [Meldingsformidling](../meldingsformidling/), [Hendelsesdrevet](../hendelsesdrevet/).
-
 ## Relaterte produkter
 
-| Produkt | Versjon | Hvorfor relevant | Fil |
+| Produkt | Produktbeskrivelse | Hvorfor relevant | Link til dokumentasjon |
 | --- | --- | --- | --- |
-| eFormidling | v2 (copilot) | Mottak og automatisering av innkommende meldinger | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md) |
-| Altinn formidling (Broker) | v2 (copilot) | Mottaker henter data fra formidlingstjeneste | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/08-Altinn-formidling-produkt-canvas-v2-copilot.md) |
-| API-katalog | v2 (copilot) | Oppdagelse og gjenbruk av API-er | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md) |
+| eFormidling | v2 (copilot) | Mottak og automatisering av innkommende meldinger | [Åpne dokumentasjon](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md) |
+| Altinn formidling (Broker) | v2 (copilot) | Mottaker henter data fra formidlingstjeneste | [Åpne dokumentasjon](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/08-Altinn-formidling-produkt-canvas-v2-copilot.md) |
+| API-katalog | v2 (copilot) | Oppdagelse og gjenbruk av API-er | [Åpne dokumentasjon](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md) |

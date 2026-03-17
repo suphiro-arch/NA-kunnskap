@@ -11,10 +11,6 @@ Evne til å utforme, anvende og forvalte finansielle virkemidler for å styre di
 
 Denne delkapabiliteten er en del av [Strategisk styring](../).
 
-## Videre navigasjon
-
-Andre delkapabiliteter i samme hovedkapabilitet: [Arkitekturstyring](../arkitekturstyring/), [Samordning](../samordning/).
-
 ## Relaterte produkter
 
 Ingen produkter er koblet til denne delkapabiliteten foreløpig.

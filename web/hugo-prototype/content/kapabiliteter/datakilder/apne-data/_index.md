@@ -11,10 +11,6 @@ Evne til å tilgjengeliggjøre åpne data slik at den kan leses og tolkes av bå
 
 Denne delkapabiliteten er en del av [Datakilder](../).
 
-## Videre navigasjon
-
-Andre delkapabiliteter i samme hovedkapabilitet: [Grunndata](../grunndata/), [Sanntidsdata](../sanntidsdata/), [Testdata](../testdata/), [Ustrukturerte data](../ustrukturerte-data/).
-
 ## Relaterte produkter
 
 Ingen produkter er koblet til denne delkapabiliteten foreløpig.

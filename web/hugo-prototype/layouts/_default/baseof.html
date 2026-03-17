@@ -8,9 +8,6 @@
     {{ $styles := resources.Get "css/main.css" | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" />
   </head>
-  {{ $toc := .TableOfContents }}
-  {{ $hideToc := .Params.hideToc }}
-  {{ $hasToc := and (not $hideToc) (gt (len (findRE "<li" $toc 1)) 0) }}
   {{ $currentSection := "" }}
   {{ if .IsHome }}
     {{ $currentSection = "" }}
@@ -19,7 +16,7 @@
   {{ else if .CurrentSection }}
     {{ $currentSection = .CurrentSection.Section }}
   {{ end }}
-  <body class="{{ if $hasToc }}has-toc{{ else }}no-toc{{ end }}">
+  <body class="no-toc">
     <a class="skip-link" href="#main-content">Hopp til innhold</a>
 
     <header class="site-header">
@@ -49,8 +46,21 @@
                 {{ if gt (len $children) 0 }}
                 <ul class="site-nav__sublist">
                   {{ range $children }}
+                  {{ $isCurrentBranch := or (eq .RelPermalink $.RelPermalink) (.IsAncestor $) }}
                   <li>
-                    <a class="{{ if eq .RelPermalink $.RelPermalink }}is-current{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    <a class="{{ if $isCurrentBranch }}is-current{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    {{ if and $isCurrentBranch (eq $section.Section "kapabiliteter") .IsSection }}
+                      {{ $grandchildren := .Pages.ByWeight }}
+                      {{ if gt (len $grandchildren) 0 }}
+                      <ul class="site-nav__sublist">
+                        {{ range $grandchildren }}
+                        <li>
+                          <a class="{{ if eq .RelPermalink $.RelPermalink }}is-current{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                        </li>
+                        {{ end }}
+                      </ul>
+                      {{ end }}
+                    {{ end }}
                   </li>
                   {{ end }}
                 </ul>
@@ -65,15 +75,6 @@
       <main class="site-main" id="main-content">
         {{ block "main" . }}{{ end }}
       </main>
-
-      {{ if $hasToc }}
-      <aside class="site-toc">
-        <div class="site-toc__inner">
-          <h2>På denne siden</h2>
-          {{ $toc }}
-        </div>
-      </aside>
-      {{ end }}
     </div>
   </body>
 </html>
