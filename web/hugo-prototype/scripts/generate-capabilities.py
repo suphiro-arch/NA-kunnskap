@@ -16,7 +16,7 @@ CURRENT_PATTERN = re.compile(r'^(?P<id>\d+)-(?P<name>.+)-produkt-canvas-v(?P<ver
 NO_AUTHOR_PATTERN = re.compile(r'^(?P<id>\d+)-(?P<name>.+)-produkt-canvas-v(?P<ver>\d+)\.md$')
 LEGACY_PATTERN = re.compile(r'^(?P<id>\d+)-(?P<name>.+)-produkt-canvas(?:-(?P<author>[^.]+))?\.md$')
 SECTION_PATTERN = re.compile(r'^##\s+(.+?)\s*$')
-BOLD_BULLET_PATTERN = re.compile(r'^-\s+\*\*(.+?)\*\*(?:\s*[–-]\s*(.+))?$')
+BOLD_BULLET_PATTERN = re.compile(r'^-\s+\*\*(.+?)\*\*(?:\s*(?:[–-]\s*)?(.+))?$')
 
 
 def read_text(path: Path) -> str:
@@ -334,7 +334,7 @@ def parse_product_capability_mappings(capabilities: list[dict]) -> tuple[dict[st
             if not match:
                 continue
             label = match.group(1).strip()
-            explanation = (match.group(2) or '').strip().rstrip('.')
+            explanation = (match.group(2) or '').strip().lstrip('–- ').rstrip('.')
             label_parts = [part.strip() for part in label.split(':', 1)]
 
             mapped_capability = None

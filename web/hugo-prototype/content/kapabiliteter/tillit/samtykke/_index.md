@@ -2,7 +2,7 @@
 title: "Samtykke"
 weight: 7
 description: "Evne til å akseptere, godkjenne eller gi tillatelse på vegne av seg selv eller andre, der det foreligger et representasjonsforhold."
-cardMeta: "0 produkter"
+cardMeta: "1 produkter"
 ---
 
 Evne til å akseptere, godkjenne eller gi tillatelse på vegne av seg selv eller andre, der det foreligger et representasjonsforhold.
@@ -13,4 +13,6 @@ Denne delkapabiliteten er en del av [Tillit](../).
 
 ## Relaterte produkter
 
-Ingen produkter er koblet til denne delkapabiliteten foreløpig.
+| Produkt | Produktbeskrivelse | Hvorfor relevant |
+| --- | --- | --- |
+| data.altinn.no | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/17-data-altinn-no-produkt-canvas-v3-codex.md) | muliggjør datadeling når bruk av data forutsetter et gyldig samtykke |
