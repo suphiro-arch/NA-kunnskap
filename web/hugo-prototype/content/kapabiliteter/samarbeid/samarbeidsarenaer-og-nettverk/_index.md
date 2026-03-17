@@ -11,10 +11,6 @@ Evne til å effektivisere, etablere, forvalte og fasilitere arenaer, nettverk og
 
 Denne delkapabiliteten er en del av [Samarbeid](../).
 
-## Videre navigasjon
-
-Andre delkapabiliteter i samme hovedkapabilitet: [Organisatorisk samhandling](../organisatorisk-samhandling/), [Tjenesteforvaltning](../tjenesteforvaltning/).
-
 ## Relaterte produkter
 
 Ingen produkter er koblet til denne delkapabiliteten foreløpig.

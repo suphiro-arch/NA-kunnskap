@@ -21,6 +21,9 @@
 
 {{ if and (gt (len $pages) 0) $isCapabilitySection }}
 <section class="section-overview section-overview--capabilities">
+  <div class="section-overview__header">
+    <h2>{{ if .IsHome }}Hovedkapabiliteter{{ else }}Delkapabiliteter{{ end }}</h2>
+  </div>
   <div class="section-grid section-grid--three">
     {{ range $pages }}
     <article class="section-card section-card--capability">

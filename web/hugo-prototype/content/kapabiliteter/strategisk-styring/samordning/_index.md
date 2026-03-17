@@ -11,10 +11,6 @@ Evnen til å harmonisere og koordinere strategisk retning, beslutninger og ressu
 
 Denne delkapabiliteten er en del av [Strategisk styring](../).
 
-## Videre navigasjon
-
-Andre delkapabiliteter i samme hovedkapabilitet: [Finansiering](../finansiering/), [Arkitekturstyring](../arkitekturstyring/).
-
 ## Relaterte produkter
 
 Ingen produkter er koblet til denne delkapabiliteten foreløpig.

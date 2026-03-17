@@ -11,12 +11,8 @@ Evne til å sette brukerens behov, livssituasjon og helhetlige reise som utgangs
 
 Denne delkapabiliteten er en del av [Tjenesteutvikling](../).
 
-## Videre navigasjon
-
-Andre delkapabiliteter i samme hovedkapabilitet: [Utviklings- og kjøretidsmiljø](../utviklings-og-kjoretidsmiljo/), [Integrerbare tjenester](../integrerbare-tjenester/), [Gjenbrukbare tjenester](../gjenbrukbare-tjenester/).
-
 ## Relaterte produkter
 
-| Produkt | Versjon | Hvorfor relevant | Fil |
+| Produkt | Produktbeskrivelse | Hvorfor relevant | Link til dokumentasjon |
 | --- | --- | --- | --- |
-| Norge.no | v2 (copilot) | Behovsbasert navigasjon og informasjonstruktur | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md) |
+| Norge.no | v2 (copilot) | Behovsbasert navigasjon og informasjonstruktur | [Åpne dokumentasjon](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md) |

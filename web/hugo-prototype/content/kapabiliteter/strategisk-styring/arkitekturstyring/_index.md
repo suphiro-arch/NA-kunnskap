@@ -11,10 +11,6 @@ Evne til å etablere, forvalte og styre en helhetlig nasjonal digital arkitektur
 
 Denne delkapabiliteten er en del av [Strategisk styring](../).
 
-## Videre navigasjon
-
-Andre delkapabiliteter i samme hovedkapabilitet: [Finansiering](../finansiering/), [Samordning](../samordning/).
-
 ## Relaterte produkter
 
 Ingen produkter er koblet til denne delkapabiliteten foreløpig.

@@ -11,13 +11,9 @@ Evne til å designe, utvikle og eksponere data og funksjonalitet som selvstendig
 
 Denne delkapabiliteten er en del av [Tjenesteutvikling](../).
 
-## Videre navigasjon
-
-Andre delkapabiliteter i samme hovedkapabilitet: [Utviklings- og kjøretidsmiljø](../utviklings-og-kjoretidsmiljo/), [Gjenbrukbare tjenester](../gjenbrukbare-tjenester/), [Tjenestedesign](../tjenestedesign/).
-
 ## Relaterte produkter
 
-| Produkt | Versjon | Hvorfor relevant | Fil |
+| Produkt | Produktbeskrivelse | Hvorfor relevant | Link til dokumentasjon |
 | --- | --- | --- | --- |
-| Altinn formidling (Broker) | v2 (copilot) | Standardisert API for integrasjon | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/08-Altinn-formidling-produkt-canvas-v2-copilot.md) |
-| API-katalog | v2 (copilot) | Standard API-katalogisering | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md) |
+| Altinn formidling (Broker) | v2 (copilot) | Standardisert API for integrasjon | [Åpne dokumentasjon](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/08-Altinn-formidling-produkt-canvas-v2-copilot.md) |
+| API-katalog | v2 (copilot) | Standard API-katalogisering | [Åpne dokumentasjon](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md) |

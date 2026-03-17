@@ -11,10 +11,6 @@ Evnen til å transformere rådata til meningsfull innsikt og bygge prediktive mo
 
 Denne delkapabiliteten er en del av [Datadrevet](../).
 
-## Videre navigasjon
-
-Andre delkapabiliteter i samme hovedkapabilitet: [Sammenstilling av data](../sammenstilling-av-data/), [Visualisering](../visualisering/).
-
 ## Relaterte produkter
 
 Ingen produkter er koblet til denne delkapabiliteten foreløpig.

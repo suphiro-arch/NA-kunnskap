@@ -11,15 +11,11 @@ Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er, sl
 
 Denne delkapabiliteten er en del av [Datautveksling og integrasjon](../).
 
-## Videre navigasjon
-
-Andre delkapabiliteter i samme hovedkapabilitet: [Bruke data fra andre](../bruke-data-fra-andre/), [Meldingsformidling](../meldingsformidling/), [Hendelsesdrevet](../hendelsesdrevet/).
-
 ## Relaterte produkter
 
-| Produkt | Versjon | Hvorfor relevant | Fil |
+| Produkt | Produktbeskrivelse | Hvorfor relevant | Link til dokumentasjon |
 | --- | --- | --- | --- |
-| eFormidling | v2 (copilot) | Sikker meldingsutveksling over organisasjonsgrenser | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md) |
-| Altinn formidling (Broker) | v2 (copilot) | Avsender legger data i formidlingstjenste | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/08-Altinn-formidling-produkt-canvas-v2-copilot.md) |
-| Begrepskatalog | v2 (copilot) | Semantisk linking til datasett og API-er | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/14-Begrepskatalog-produkt-canvas-v2-copilot.md) |
-| API-katalog | v2 (copilot) | Publisering av API-metadata | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md) |
+| eFormidling | v2 (copilot) | Sikker meldingsutveksling over organisasjonsgrenser | [Åpne dokumentasjon](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md) |
+| Altinn formidling (Broker) | v2 (copilot) | Avsender legger data i formidlingstjenste | [Åpne dokumentasjon](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/08-Altinn-formidling-produkt-canvas-v2-copilot.md) |
+| Begrepskatalog | v2 (copilot) | Semantisk linking til datasett og API-er | [Åpne dokumentasjon](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/14-Begrepskatalog-produkt-canvas-v2-copilot.md) |
+| API-katalog | v2 (copilot) | Publisering av API-metadata | [Åpne dokumentasjon](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md) |

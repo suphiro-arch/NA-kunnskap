@@ -422,16 +422,13 @@ def generate() -> None:
             sub_slug = slugify(subcap['navn'])
             sub_products = subcap_products.get(subcap['id'], [])
 
-            sibling_links = ', '.join(
-                f"[{sibling['navn']}](../{slugify(sibling['navn'])}/)" for sibling in subcaps if sibling['id'] != subcap['id']
-            )
             sub_product_rows = []
             for entry in sub_products:
                 sub_product_rows.append([
                     entry['product_name'],
                     f"v{entry['version']} ({entry['author']})" if entry['version'] > 0 else 'legacy',
                     entry['explanation'] or 'Produktet er eksplisitt koblet til denne delkapabiliteten i produktbeskrivelsen.',
-                    f"[Fil]({entry['product_url']})",
+                    f"[Åpne dokumentasjon]({entry['product_url']})",
                 ])
 
             sub_content = f"""
@@ -448,13 +445,9 @@ cardMeta: "{len({entry['product_id'] for entry in sub_products})} produkter"
 
 Denne delkapabiliteten er en del av [{capability['navn']}](../).
 
-## Videre navigasjon
-
-{"Andre delkapabiliteter i samme hovedkapabilitet: " + sibling_links + "." if sibling_links else 'Denne hovedkapabiliteten har ingen andre delkapabiliteter.'}
-
 ## Relaterte produkter
 
-{table_or_message(['Produkt', 'Versjon', 'Hvorfor relevant', 'Fil'], sub_product_rows, 'Ingen produkter er koblet til denne delkapabiliteten foreløpig.')}
+{table_or_message(['Produkt', 'Produktbeskrivelse', 'Hvorfor relevant', 'Link til dokumentasjon'], sub_product_rows, 'Ingen produkter er koblet til denne delkapabiliteten foreløpig.')}
 """
             write_file(cap_dir / sub_slug / '_index.md', sub_content)
 
@@ -466,13 +459,17 @@ Denne delkapabiliteten er en del av [{capability['navn']}](../).
                 f"v{entry['version']} ({entry['author']})" if entry['version'] > 0 else 'legacy',
                 mapping_name,
                 entry['explanation'] or 'Produktet er eksplisitt koblet til denne kapabiliteten i produktbeskrivelsen.',
-                f"[Fil]({entry['product_url']})",
+                f"[Åpne dokumentasjon]({entry['product_url']})",
             ])
 
-        products_markdown = f"""## Relaterte produkter
-
-{table_or_message(['Produkt', 'Versjon', 'Koblet via', 'Hvorfor relevant', 'Fil'], product_rows, 'Ingen produkter er koblet til denne kapabiliteten foreløpig.')}
-"""
+        products_markdown = (
+            "## Relaterte produkter\n\n"
+            + table_or_message(
+                ['Produkt', 'Produktbeskrivelse', 'Koblet via', 'Hvorfor relevant', 'Link til dokumentasjon'],
+                product_rows,
+                'Ingen produkter er koblet til denne kapabiliteten foreløpig.',
+            )
+        )
 
         capability_content = f"""
 ---

@@ -11,10 +11,6 @@ Evne til å formalisere samarbeid gjennom tydelig definerte roller, ansvar og av
 
 Denne delkapabiliteten er en del av [Samarbeid](../).
 
-## Videre navigasjon
-
-Andre delkapabiliteter i samme hovedkapabilitet: [Organisatorisk samhandling](../organisatorisk-samhandling/), [Samarbeidsarenaer og nettverk](../samarbeidsarenaer-og-nettverk/).
-
 ## Relaterte produkter
 
 Ingen produkter er koblet til denne delkapabiliteten foreløpig.

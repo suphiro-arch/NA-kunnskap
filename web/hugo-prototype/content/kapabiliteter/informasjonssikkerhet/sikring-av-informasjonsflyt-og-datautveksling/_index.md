@@ -11,12 +11,8 @@ Kapabiliteten omfatter de tekniske og organisatoriske tiltakene som sikrer at in
 
 Denne delkapabiliteten er en del av [Informasjonssikkerhet](../).
 
-## Videre navigasjon
-
-Andre delkapabiliteter i samme hovedkapabilitet: [Styringssystem](../styringssystem/).
-
 ## Relaterte produkter
 
-| Produkt | Versjon | Hvorfor relevant | Fil |
+| Produkt | Produktbeskrivelse | Hvorfor relevant | Link til dokumentasjon |
 | --- | --- | --- | --- |
-| eFormidling | v2 (copilot) | Kryptering, integritet, ikke-benektelse | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md) |
+| eFormidling | v2 (copilot) | Kryptering, integritet, ikke-benektelse | [Åpne dokumentasjon](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md) |

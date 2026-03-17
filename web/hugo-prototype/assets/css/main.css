@@ -111,13 +111,9 @@ a:hover {
   margin: 1.5rem auto 2.2rem;
   padding: 0 1.25rem;
   display: grid;
-  grid-template-columns: minmax(15rem, 18rem) minmax(0, 1fr) minmax(13rem, 16rem);
+  grid-template-columns: minmax(15rem, 18rem) minmax(0, 1fr);
   gap: 1.25rem;
   align-items: start;
-}
-
-body.no-toc .site-shell {
-  grid-template-columns: minmax(15rem, 18rem) minmax(0, 1fr);
 }
 
 .site-main {
@@ -125,7 +121,6 @@ body.no-toc .site-shell {
 }
 
 .site-nav,
-.site-toc,
 .content-card,
 .section-card {
   background: var(--surface-card);
@@ -135,19 +130,16 @@ body.no-toc .site-shell {
   min-width: 0;
 }
 
-.site-nav__inner,
-.site-toc__inner {
+.site-nav__inner {
   padding: 1rem;
 }
 
-.site-nav,
-.site-toc {
+.site-nav {
   position: sticky;
   top: 1rem;
 }
 
 .site-nav h2,
-.site-toc h2,
 .section-overview__header h2 {
   margin: 0;
   font-size: 0.96rem;
@@ -198,6 +190,11 @@ body.no-toc .site-shell {
   border-left: 2px solid var(--surface-strong);
 }
 
+.site-nav__sublist .site-nav__sublist {
+  margin-top: 0.15rem;
+  margin-left: 0.3rem;
+}
+
 .site-nav__sublist a {
   color: var(--ink-body);
   font-size: 0.95rem;
@@ -207,28 +204,6 @@ body.no-toc .site-shell {
   background: var(--accent-soft);
   color: #175d57;
   font-weight: 700;
-}
-
-.site-toc nav {
-  margin-top: 0.85rem;
-}
-
-.site-toc ul {
-  margin: 0;
-  padding-left: 1rem;
-}
-
-.site-toc li + li {
-  margin-top: 0.35rem;
-}
-
-.site-toc a {
-  color: var(--ink-body);
-  text-decoration: none;
-}
-
-.site-toc a:hover {
-  text-decoration: underline;
 }
 
 .content-card__header {
@@ -426,6 +401,10 @@ body.no-toc .site-shell {
   max-width: 48rem;
 }
 
+.section-overview--capabilities .section-overview__header {
+  margin-bottom: 0.8rem;
+}
+
 .section-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
@@ -567,13 +546,8 @@ body.no-toc .site-shell {
 }
 
 @media (max-width: 1080px) {
-  .site-shell,
-  body.no-toc .site-shell {
+  .site-shell {
     grid-template-columns: minmax(13.5rem, 16rem) minmax(0, 1fr);
-  }
-
-  .site-toc {
-    display: none;
   }
 
   .section-grid--three {
@@ -582,13 +556,11 @@ body.no-toc .site-shell {
 }
 
 @media (max-width: 820px) {
-  .site-shell,
-  body.no-toc .site-shell {
+  .site-shell {
     grid-template-columns: 1fr;
   }
 
-  .site-nav,
-  .site-toc {
+  .site-nav {
     position: static;
   }
 
