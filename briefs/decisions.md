@@ -16,3 +16,5 @@ sources: []
 | 2026-03-16 | Scope | MVP skal bare svare og veilede, ikke utføre handlinger | Gir enklere arkitektur og lavere risiko | team |
 | 2026-03-16 | Retrieval | MVP skal bruke repoet som eneste kunnskapskilde | Sikrer sporbarhet og kildekontroll | team |
 | 2026-03-16 | Formål | Assistenten skal hjelpe prosjekter å finne relevante kapabiliteter, produkter, prinsipper og mulige gap | Passer målbildet for en arkitekturassistent | team |
+| 2026-03-17 | Produktbeskrivelser | Nye produktbeskrivelser skal ikke starte med egen linje for målgruppe, og `Ressurs ID` skal skrives uten parentesforklaring | Gjør dokumentene lettere å lese og enklere å skanne på tvers av produkter | team |
+| 2026-03-17 | Kapabilitetsmapping | Produktbeskrivelser skal bare ta med kapabiliteter med sterk og direkte kobling til produktets egen funksjon | Reduserer støy og gjør det lettere å skille overlappende løsninger ved gjenbruksvurdering | team |

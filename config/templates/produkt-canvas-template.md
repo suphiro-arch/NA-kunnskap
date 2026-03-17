@@ -1,13 +1,12 @@
 ﻿# Produkt-canvas mal (Markdown)
 
 Kilde: konvertert fra `sources/Mal - Produkt canvas.docx`.
-Maalgruppe: forretningssiden og strategisk arkitektur.
 
 ## Navn
 Det offisielle navnet paa produktet eller løsningen.
 
 ## Ressurs ID
-Produktnummer fra arkitektur/produkter/produktnummerering.md.
+Produktnummer fra arkitektur/produkter/produktnummerering.md, uten ekstra parentesforklaringer.
 
 ## Status/Livsfase
 Planlagt / Under utvikling / Pilot / Produksjon / Utfasing
@@ -24,6 +23,7 @@ Skriv som en selvstendig beskrivelse for målgruppen, ikke som referat av hva en
 Hvilke kapabiliteter i Nasjonal arkitektur bidrar produktet til å realisere eller forbedre?
 Bruk formatet:
 `- **Kapabilitet**` etterfulgt av forklaring i vanlig skrift.
+Ta bare med kapabiliteter med sterk, direkte kobling til produktets egen funksjon.
 
 ## Produktmål
 Strategiske og operative mål. Hva skal produktet oppnå?

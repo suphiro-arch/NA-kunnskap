@@ -14,12 +14,17 @@ sources:
 - Avgrenset MVP til kun offentlig informasjon fra repoet.
 - Beskrevet anbefalt arkitektur med Hugo-frontend, egen backend og OpenAI retrieval.
 - Dokumentert lisens- og avtaleavklaringer som må på plass før bygging.
+- Oppdatert produktbeskrivelsene for produkt `02-06` til nye `v3-codex`-versjoner med sterkere kildegrunnlag og strammere kapabilitetsvalg.
+- Oppdatert prompt og mal for produkt-canvas slik at nye beskrivelser ikke skal starte med egen linje for målgruppe, og `Ressurs ID` ikke skal ha parentesforklaring.
+- Strammet inn metodekravet for kapabiliteter: bare direkte og sterke koblinger til produktets egen funksjon skal tas med.
+- Regenerert produktover­sikten i Hugo-prototypen slik at siste versjon for produkt `02-06` nå vises på nettsiden.
 
 ## Hva gjenstår
 - Velge lisens for dokumentasjonsinnholdet i repoet.
 - Velge backend-plattform for assistenten.
 - Lage teknisk skjelett for backend og indeksering.
 - Koble enkel chatflate til Hugo-prototypen.
+- Oppdatere de neste produktbeskrivelsene i stigende rekkefølge etter samme metode som for `02-06`.
 
 ## Blokkere/risiko
 - Repoet har ingen eksplisitt lisens for dokumentasjonsinnholdet.
@@ -32,6 +37,7 @@ sources:
 3. Lag første backend-skjelett for `/api/ask`.
 4. Lag første indeksjobb for repo-dokumentasjonen.
 5. Legg inn enkel chat-widget i Hugo-prototypen.
+6. Fortsett revisjon av produktbeskrivelser med samme regler for direkte kapabilitetskobling og ryddigere metadata.
 
 ## Referanser
 - [MVP-skisse for dokumentasjonsassistent](c:/Users/HILROS/NA-kunnskap/briefs/arbeidsstyring-og-handover/2026-03-16-dokumentasjonsassistent-mvp-v1.md)
