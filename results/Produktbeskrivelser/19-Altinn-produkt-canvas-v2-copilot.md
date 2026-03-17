@@ -30,7 +30,7 @@ Altinn er Norges nasjonale plattform for digitale tjenester, meldingsutveksling 
 - **Samarbeid: Tjenesteforvaltning** â€“ VerktÃ¸y for tjenesteeiere til Ã¥ administrere tjenester
 - **Informasjonssikkerhet: Sikring av informasjonsflyt** â€“ Integrert sikkerheit, autentisering, autorisasjon
 
-Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
+Grunnlag: Kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
 
 ## ProduktmÃ¥l
 - Standardisere og effektivisere digital tjenesteleveranse i offentlig sektor
@@ -192,7 +192,7 @@ Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
 ## Kildegrunnlag brukt i denne utfyllingen
 
 - Lokal fil: `sources/links.md`
-- Lokal fil: `index/capabilities.yaml`
+- Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Nettkilder: Altinn.no, Altinn Docs, Digdir.no (hentet 2026-03-07)
 - Kilder for finansiering: Digdir-rapporter, statsbudsjett (estimert)
 

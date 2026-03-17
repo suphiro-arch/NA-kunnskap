@@ -33,7 +33,7 @@ Altinn autorisasjon er den nasjonale autorisasjonsmekanismen i Altinn 3 for å a
 - **Tjenesteutvikling: Integrerbare tjenester** – Felleskomponent for autorisasjon i API-er
 - **Informasjonssikkerhet: Sikring av informasjonsflyt** – Grunnlag for sikker dataflyt
 
-Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
+Grunnlag: Kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
 
 ## Produktmål
 - Tilby en felles, policy-basert autorisasjonsmotor for tjenester og API-er i Altinn og Altinn 3-økosystemet
@@ -189,7 +189,7 @@ Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
 ## Kildegrunnlag brukt i denne utfyllingen
 
 - Lokal fil: `sources/links.md`
-- Lokal fil: `index/capabilities.yaml`
+- Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Nettkilder: Altinn Docs (hentet 2026-03-07)
 - Samarbeidsportalen: ID-porten / Produktgruppe Tillisstjenester (hentet 2026-03-07)
 - Kilder for finansiering: Altinn-portefølje-rapporter (estimert)

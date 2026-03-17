@@ -11,9 +11,9 @@ Dette er en isolert prototype for en framtidig nettside om nasjonal arkitektur.
 
 ## Kilder i repoet
 
-- `index/capabilities.yaml`
+- `arkitektur/kapabiliteter/capabilities.yaml`
 - `results/Produktbeskrivelser/`
-- `index/principles.md` brukes ikke foreløpig fordi den ikke er ferdig utfylt
+- `arkitektur/prinsipper/principles.md` brukes ikke foreløpig fordi den ikke er ferdig utfylt
 
 ## Generering av innhold
 

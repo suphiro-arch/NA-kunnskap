@@ -27,7 +27,7 @@ Norge.no er en nasjonal informasjons- og veivisertjeneste som hjelper innbyggere
 - Informasjonsforvaltning: Oversikt over tjenester
 - Samarbeid: Organisatorisk samhandling
 
-Grunnlag: kapabiliteter mappet mot `index/capabilities.yaml`.
+Grunnlag: kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
 
 ## Produktmål
 - Gjøre det enklere for innbyggere å finne og forstå offentlige tjenester.
@@ -107,6 +107,6 @@ Ikke eksplisitt spesifisert i kildene brukt her.
 
 ## Kildegrunnlag brukt i denne utfyllingen
 - Lokal fil: `sources/links.md`
-- Lokal fil: `index/capabilities.yaml`
+- Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Nettkilder: Norge.no/data.norge.no/data.altinn.no (hentet 2026-03-07)
 - Merk: Norge.no ga HTTP 502 ved verifiseringstidspunkt i denne økten.

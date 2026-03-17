@@ -42,7 +42,7 @@ Bidrar til realisering av fÃ¸lgende kapabiliteter (fra NA-kunnskap):
 - **Samhandling: Sammenhengende tjenester** â€“ Enhetlig sÃ¸kegrensesnitt pÃ¥ tvers av virksomheter
 - **Standardisering: Forvaltningsstandarder** â€“ Standardisert publisering av innsynsdata
 
-*Grunnlag: Kapabiliteter validert mot index/capabilities.yaml*
+*Grunnlag: Kapabiliteter validert mot arkitektur/kapabiliteter/capabilities.yaml*
 
 ## ProduktmÃ¥l
 - Implementere Offentlighetsloven Â§ 2 (allmennhetens rett til innsyn) digitalt
@@ -239,7 +239,7 @@ Modell:
 
 ## Kildegrunnlag brukt i denne utfyllingen
 - **Lokal fil:** `sources/links.md` (oppdatert 2026-03-06)
-- **Lokal fil:** `index/capabilities.yaml` (kapabilitetsvalidering)
+- **Lokal fil:** `arkitektur/kapabiliteter/capabilities.yaml` (kapabilitetsvalidering)
 - **Nettkilder:**
   - Digdir Docs: https://docs.digdir.no/docs/einnsyn/
   - Digdir Samarbeidsportal: https://samarbeid.digdir.no/einnsyn/

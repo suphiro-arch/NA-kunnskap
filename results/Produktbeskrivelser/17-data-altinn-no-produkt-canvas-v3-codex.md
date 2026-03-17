@@ -35,7 +35,7 @@ data.altinn.no er Altinns fellesløsning for kontrollert datadeling mellom virks
 - **Tjenesteutvikling: Integrerbare tjenester** bruker samme tekniske mønster på tvers av produkter og gjør nye datadelingstjenester lettere å integrere.
 - **Standardisering: Forvaltningsstandarder** gir et felles API- og tilgangsmønster som gjør løsningene mer forutsigbare for både tilbydere og konsumenter.
 
-Grunnlag: Kapabilitetsnavn fra `index/capabilities.yaml`, vurdert mot dokumentert funksjon på data.altinn.no og docs.data.altinn.no.
+Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot dokumentert funksjon på data.altinn.no og docs.data.altinn.no.
 
 ## Produktmål
 **Primærkilder:** data.altinn.no, produktsiden og docs.data.altinn.no.
@@ -172,8 +172,8 @@ Datadelingsløsning i Altinn-porteføljen basert på en generisk API-modell for 
 - Lokal fil: `results/Produktbeskrivelser/17-data-altinn-no-produkt-canvas.md`
 - Lokal fil: `results/Produktbeskrivelser/17-data-altinn-no-produkt-canvas-copilot.md`
 - Lokal fil: `config/templates/produkt-canvas-template.md`
-- Lokal fil: `index/capabilities.yaml`
-- Lokal fil: `index/produktnummerering.md`
+- Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
+- Lokal fil: `arkitektur/produkter/produktnummerering.md`
 - Lokal fil: `sources/links.md`
 - Nettkilde: https://data.altinn.no/ (hentet 2026-03-10)
 - Nettkilde: https://data.altinn.no/products (hentet 2026-03-10)

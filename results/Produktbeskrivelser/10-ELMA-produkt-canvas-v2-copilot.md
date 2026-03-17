@@ -30,7 +30,7 @@ ELMA (Elektronisk mottakeradresseregister) er et nasjonalt register som brukes t
 - **Samarbeid: Organisatorisk samhandling** â€“ Enabler grensekryssende dokumentutveksling
 - **Informasjonssikkerhet: Sikring av informasjonsflyt** â€“ Sikker adresseoppslag med tilgangskontroll
 
-Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
+Grunnlag: Kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
 
 ## ProduktmÃ¥l
 - Sikre korrekt elektronisk adressering i digital dokumentutveksling pÃ¥ tvers av virksomheter
@@ -178,7 +178,7 @@ Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
 ## Kildegrunnlag brukt i denne utfyllingen
 
 - Lokal fil: `sources/links.md`
-- Lokal fil: `index/capabilities.yaml`
+- Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Nettkilder: BrÃ¸nnÃ¸ysund.no, Altinn.no, Peppol.eu (hentet 2026-03-07)
 - Kilder for finansiering: eFaktura-rapporter (estimert)
 

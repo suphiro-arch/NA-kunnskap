@@ -30,7 +30,7 @@ Altinn Studio er utviklings- og forvaltningsplattformen for bygging av digitale 
 - Datautveksling og integrasjon: Bruke data fra andre
 - Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling
 
-Grunnlag: kapabiliteter mappet mot `index/capabilities.yaml`.
+Grunnlag: kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
 
 ## Produktmål
 - Senke terskelen for utvikling av digitale offentlige tjenester.
@@ -122,5 +122,5 @@ Forutsettes som del av nasjonal finansiering av Altinn-fellesløsninger.
 
 ## Kildegrunnlag brukt i denne utfyllingen
 - Lokal fil: `sources/links.md`
-- Lokal fil: `index/capabilities.yaml`
+- Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Nettkilder: Altinn Docs (hentet 2026-03-06)

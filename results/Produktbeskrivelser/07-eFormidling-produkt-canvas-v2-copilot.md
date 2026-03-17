@@ -44,7 +44,7 @@ Bidrar til realisering av følgende kapabiliteter (fra NA-kunnskap):
 **Standardisering-dimensjonen:**
 - **Forvaltningsstandarder** – Implementering av Peppol og AS4-standarder
 
-*Grunnlag: Kapabiliteter validert mot index/capabilities.yaml*
+*Grunnlag: Kapabiliteter validert mot arkitektur/kapabiliteter/capabilities.yaml*
 
 ## Produktmål
 - Standardisere digital meldingsutveksling i offentlig sektor
@@ -248,7 +248,7 @@ Kostnadsdetaljerer må hentes fra Digdir/Samarbeidsportalen.
 
 ## Kildegrunnlag brukt i denne utfyllingen
 - **Lokal fil:** `sources/links.md` (oppdatert 2026-03-06)
-- **Lokal fil:** `index/capabilities.yaml` (kapabilitetsvalidering)
+- **Lokal fil:** `arkitektur/kapabiliteter/capabilities.yaml` (kapabilitetsvalidering)
 - **Nettkilder:**
   - Digdir Docs: https://docs.digdir.no/docs/eformidling/
   - Digdir Samarbeidsportal: https://samarbeid.digdir.no/eformidling/

@@ -38,7 +38,7 @@ Altinn Portal er den sentrale brukerinngangen til skjema, tjenester, innboks og 
 - **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling**
   Portalen må ivareta trygg flyt mellom brukerflate, innboks og underliggende tjenester.
 
-Grunnlag: Kapabilitetsnavn fra `index/capabilities.yaml`, vurdert mot dokumentert funksjon i Altinn-kilder.
+Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot dokumentert funksjon i Altinn-kilder.
 
 ## Produktmål
 - Gi en samlet og brukervennlig inngang til offentlige digitale tjenester i Altinn.
@@ -154,7 +154,7 @@ Høy gjenbruksverdi:
 ## Kildegrunnlag brukt i utfyllingen
 - Lokal fil: `results/Produktbeskrivelser/21-Altinn-Portal-produkt-canvas.md`
 - Lokal fil: `config/templates/produkt-canvas-template.md`
-- Lokal fil: `index/capabilities.yaml`
+- Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Lokal fil: `sources/links.md`
 - Nettkilde: Altinn startside (hentedato 2026-03-10)
 - Nettkilde: Altinn hjelp, tilgangsstyring/innboks (hentedato 2026-03-10)

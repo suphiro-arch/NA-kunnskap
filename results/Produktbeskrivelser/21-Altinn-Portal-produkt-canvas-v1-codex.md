@@ -29,7 +29,7 @@ Altinn Portal er den brukerrettede inngangen til Altinn-tjenester for innbyggere
 - Samarbeid: Organisatorisk samhandling
 - Tjenesteutvikling: Gjenbrukbare tjenester
 
-Grunnlag: kapabiliteter mappet mot `index/capabilities.yaml`.
+Grunnlag: kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
 
 ## Produktmål
 - Tilby en samlet og brukervennlig inngang til offentlige digitale tjenester i Altinn-økosystemet.
@@ -120,5 +120,5 @@ Forutsettes som del av nasjonal finansiering av Altinn-fellesløsninger.
 
 ## Kildegrunnlag brukt i denne utfyllingen
 - Lokal fil: `sources/links.md`
-- Lokal fil: `index/capabilities.yaml`
+- Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Nettkilder: Altinn/Digdir-sider (hentet 2026-03-06)

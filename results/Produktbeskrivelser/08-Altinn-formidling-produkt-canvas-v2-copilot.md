@@ -30,7 +30,7 @@ Altinn formidling (Broker) er en nasjonal formidlingstjeneste for sikker, asynkr
 - **Informasjonssikkerhet: Sikring av informasjonsflyt** – Kryptering, autentisering, tilgangskontroll
 - **Tillit: Sporbarhet og innsyn** – Logging av all formidling og leveringsstatus
 
-Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
+Grunnlag: Kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
 
 ## Produktmål
 - Tilby en felles nasjonal tjeneste for robust asynkron dataformidling uten tett kobling
@@ -189,7 +189,7 @@ Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
 ## Kildegrunnlag brukt i denne utfyllingen
 
 - Lokal fil: `sources/links.md`
-- Lokal fil: `index/capabilities.yaml`
+- Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Nettkilder: Altinn Docs (hentet 2026-03-07)
 - Samarbeidsportalen: Altinn API (hentet 2026-03-07)
 - Kilder for finansiering: Altinn-portefølje-rapporter (estimert)

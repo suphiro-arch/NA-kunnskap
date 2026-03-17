@@ -28,7 +28,7 @@ Digital postkasse er nasjonal felleskomponent for sikker digital utsending av ve
 - **Sluttbrukertjenester:** Sammenhengende tjenester – Innbyggers sentrale innboks for offentlig post
 - **Informasjonssikkerhet:** Sikring av informasjonsflyt og datautveksling – Kryptering, autentisering, tilgangskontroll
 
-Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
+Grunnlag: Kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
 
 ## Produktmål
 - Muliggjøre sikker, papirløs digital utsending av vedtak og post fra offentlig sektor til innbyggere
@@ -183,7 +183,7 @@ Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
 ## Kildegrunnlag brukt i denne utfyllingen
 
 - Lokal fil: `sources/links.md`
-- Lokal fil: `index/capabilities.yaml`
+- Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Nettkilder: Digdir.no og Postkasse.no (hentet 2026-03-06)
 - Samarbeidsportalen: Digital kommunikasjon (begrenset tilgang)
 - Kilder for finansiering: Digdir-rapporter (estimert 100-150 MNOK)

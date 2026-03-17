@@ -29,7 +29,7 @@ data.norge.no er den nasjonale portalen for å oppdage, beskrive og gjenbruke da
 - Datautveksling og integrasjon: Bruke data fra andre
 - Standardisering: Forvaltningsstandarder
 
-Grunnlag: kapabiliteter mappet mot `index/capabilities.yaml`.
+Grunnlag: kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
 
 ## Produktmål
 - Øke oppdagbarhet og gjenbruk av offentlige dataressurser.
@@ -115,5 +115,5 @@ Ikke eksplisitt spesifisert i kildene brukt her.
 
 ## Kildegrunnlag brukt i denne utfyllingen
 - Lokal fil: `sources/links.md`
-- Lokal fil: `index/capabilities.yaml`
+- Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Nettkilder: data.norge.no/Digdir (hentet 2026-03-07)

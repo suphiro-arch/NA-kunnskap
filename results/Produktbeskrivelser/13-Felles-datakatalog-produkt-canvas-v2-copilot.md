@@ -29,7 +29,7 @@ Felles datakatalog er en nasjonal lÃ¸sning for Ã¥ beskrive, katalogisere og 
 - **Datautveksling og integrasjon: Dele data med andre** â€“ Metadata-basert oppdagelse av datasett for deling
 - **Standardisering: Forvaltningsstandarder** â€“ DCAT-AP-NO standarder og metadata-klassifikasjoner
 
-Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
+Grunnlag: Kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
 
 ## ProduktmÃ¥l
 - Ã˜ke gjenfinning og gjenbruk av offentlige data gjennom sentralisert katalogisering
@@ -187,7 +187,7 @@ Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
 ## Kildegrunnlag brukt i denne utfyllingen
 
 - Lokal fil: `sources/links.md`
-- Lokal fil: `index/capabilities.yaml`
+- Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Nettkilder: data.norge.no, Digdir.no (hentet 2026-03-07)
 - Samarbeidsportalen: Datadeling (hentet 2026-03-07)
 - Kilder for finansiering: Digdir-rapporter og benchmarking (estimert)

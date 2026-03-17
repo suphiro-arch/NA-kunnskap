@@ -33,7 +33,7 @@ Altinn 3 Melding er en nasjonal meldingstjeneste for sikker digital utveksling a
 - **Sluttbrukertjenester: Sammenhengende tjenester** gjør meldinger tilgjengelige i Altinn Arbeidsflate og som dialoger i Dialogporten.
 - **Tjenesteutvikling: Integrerbare tjenester** tilbyr API-er for sending, mottak og automatisert meldingshåndtering.
 
-Grunnlag: Kapabilitetsnavn fra `index/capabilities.yaml`, vurdert mot Altinn Melding-dokumentasjonen.
+Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot Altinn Melding-dokumentasjonen.
 
 ## Produktmål
 **Primærkilder:** Altinn Melding hovedside, `Hva får du?`, livssyklus og overgangsdokumentasjon.
@@ -166,8 +166,8 @@ Meldingstjeneste i Altinn-porteføljen med API-er, vedleggshåndtering, statusfl
 ## Kildegrunnlag brukt i utfyllingen
 - Lokal fil: `results/Produktbeskrivelser/23-Altinn-3-Melding-produkt-canvas-v2-codex.md`
 - Lokal fil: `config/templates/produkt-canvas-template.md`
-- Lokal fil: `index/capabilities.yaml`
-- Lokal fil: `index/produktnummerering.md`
+- Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
+- Lokal fil: `arkitektur/produkter/produktnummerering.md`
 - Lokal fil: `sources/links.md`
 - Nettkilde: https://docs.altinn.studio/nb/correspondence/ (hentet 2026-03-10)
 - Nettkilde: https://docs.altinn.studio/nb/correspondence/what-do-you-get/ (hentet 2026-03-10)

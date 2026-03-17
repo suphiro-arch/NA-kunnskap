@@ -13,7 +13,7 @@ Repo for arbeid med nasjonal arkitektur, produktbeskrivelser, kapabiliteter, pri
 - `sources/`: kildegrunnlag, lenker og rånotater
 - `briefs/`: arbeidsstyring, handover og beslutningsstøtte
 - `config/`: prompts, maler og annen styrende konfigurasjon
-- `index/`: strukturerte oversikter, blant annet kapabiliteter og produktnummerering
+- `arkitektur/`: strukturerte oversikter, blant annet kapabiliteter og produktnummerering
 - `web/hugo-prototype/`: Hugo-kildekode for dokumentasjonsprototypen
 - `docs/prototype/`: publisert nettsted bygget fra Hugo-prototypen
 

@@ -44,7 +44,7 @@ data.norge.no er den nasjonale portalen for å finne, forstå og ta i bruk datar
 - **Standardisering: Forvaltningsstandarder**
   Portalen forutsetter strukturert og standardisert beskrivelse av ressurser for å sikre gjenfinning og samhandling.
 
-Grunnlag: Kapabilitetsnavn fra `index/capabilities.yaml`, vurdert opp mot dokumenterte funksjoner på data.norge.no.
+Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert opp mot dokumenterte funksjoner på data.norge.no.
 
 ## Produktmål
 **Primærkilde:** `Om Data.norge.no` på data.norge.no.
@@ -170,8 +170,8 @@ Høy gjenbruksverdi:
 - Lokal fil: `results/Produktbeskrivelser/16-data-norge-no-produkt-canvas.md`
 - Lokal fil: `results/Produktbeskrivelser/16-data-norge-no-produkt-canvas-copilot.md`
 - Lokal fil: `config/templates/produkt-canvas-template.md`
-- Lokal fil: `index/capabilities.yaml`
-- Lokal fil: `index/produktnummerering.md`
+- Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
+- Lokal fil: `arkitektur/produkter/produktnummerering.md`
 - Lokal fil: `sources/links.md`
 - Nettkilde: https://data.norge.no/ (hentet 2026-03-10)
 - Nettkilde: https://data.norge.no/nb/about (hentet 2026-03-10)

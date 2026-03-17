@@ -29,7 +29,7 @@ data.altinn.no er en portal for oppdagelse og deling av dataressurser knyttet ti
 - **Tjenesteutvikling: Integrerbare tjenester** â€“ API-dokumentasjon for Altinn Studio-utvikling
 - **Standardisering: Forvaltningsstandarder** â€“ Standardisert Altinn-metadata
 
-Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
+Grunnlag: Kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
 
 ## ProduktmÃ¥l
 - Ã˜ke oppdagbarheit av dataressurser innenfor Altinn-Ã¸kosystemet
@@ -176,7 +176,7 @@ Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
 ## Kildegrunnlag brukt i denne utfyllingen
 
 - Lokal fil: `sources/links.md`
-- Lokal fil: `index/capabilities.yaml`
+- Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Nettkilder: data.altinn.no, Altinn Docs (hentet 2026-03-07)
 - Kilder for finansiering: Altinn-portefÃ¸lje-rapporter (estimert)
 

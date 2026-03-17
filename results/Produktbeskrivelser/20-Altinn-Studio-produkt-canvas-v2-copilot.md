@@ -31,7 +31,7 @@ Altinn Studio er web-basert IDE og utviklingsplattform for bygging av digitale A
 - **Datautveksling og integrasjon: Bruke data fra andre** â€“ API-integrasjon mot andre systemer
 - **Informasjonssikkerhet: Sikring av informasjonsflyt** â€“ Bygg-inn sikkerheit, autentisering, autorisasjon
 
-Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
+Grunnlag: Kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
 
 ## ProduktmÃ¥l
 - Senke terskelen for utvikling av digitale offentlige tjenester (low-code enablement)
@@ -195,7 +195,7 @@ Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
 ## Kildegrunnlag brukt i denne utfyllingen
 
 - Lokal fil: `sources/links.md`
-- Lokal fil: `index/capabilities.yaml`
+- Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Nettkilder: Altinn Docs, Studio.altinn.cloud (hentet 2026-03-07)
 - Kilder for finansiering: Digdir-rapporter og Altinn-portefÃ¸lje (estimert)
 

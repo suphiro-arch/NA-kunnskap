@@ -29,7 +29,7 @@ Begrepskatalogen er nasjonalt register for begreper og definisjoner brukt i offe
 - **Datautveksling og integrasjon: Dele data med andre** – Semantisk linking til datasett og API-er
 - **Samarbeid: Organisatorisk samhandling** – Enabler semantisk samhandling på tvers
 
-Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
+Grunnlag: Kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
 
 ## Produktmål
 - Etablere felles og autorative begrepsdefinisjoner på tvers av offentlig sektor
@@ -179,7 +179,7 @@ Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
 ## Kildegrunnlag brukt i denne utfyllingen
 
 - Lokal fil: `sources/links.md`
-- Lokal fil: `index/capabilities.yaml`
+- Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Nettkilder: data.norge.no, Digdir.no (hentet 2026-03-07)
 - Kilder for finansiering: Digdir-rapporter og benchmarking (estimert)
 

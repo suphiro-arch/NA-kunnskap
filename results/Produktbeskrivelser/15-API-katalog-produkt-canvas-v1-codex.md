@@ -28,7 +28,7 @@ API-katalogen er delen av Felles datakatalog som gir oversikt over tilgjengelige
 - Tjenesteutvikling: Integrerbare tjenester
 - Standardisering: Forvaltningsstandarder
 
-Grunnlag: kapabiliteter mappet mot `index/capabilities.yaml`.
+Grunnlag: kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
 
 ## Produktmål
 - Øke oppdagbarhet av offentlige API-er.
@@ -110,5 +110,5 @@ Ikke eksplisitt spesifisert i kildene brukt her.
 
 ## Kildegrunnlag brukt i denne utfyllingen
 - Lokal fil: `sources/links.md`
-- Lokal fil: `index/capabilities.yaml`
+- Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Nettkilder: data.norge.no/Digdir (hentet 2026-03-07)

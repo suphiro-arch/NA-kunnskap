@@ -35,7 +35,7 @@ data.norge.no er en nasjonal fellesløsning for å finne, forstå og viderebruke
 - **Datautveksling og integrasjon: Bruke data fra andre** gir datakonsumenter ett sted å oppdage, vurdere og finne tilgangsinformasjon om dataressurser.
 - **Standardisering: Forvaltningsstandarder** bygger på standardisert metadataforvaltning som gir sammenlignbarhet og bedre gjenfinning.
 
-Grunnlag: Kapabilitetsnavn fra `index/capabilities.yaml`, vurdert mot dokumentert funksjon i data.norge.no og Samarbeidsportalen.
+Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot dokumentert funksjon i data.norge.no og Samarbeidsportalen.
 
 ## Produktmål
 **Primærkilder:** data.norge.no `Om Data.norge.no` og Samarbeidsportalen `data.norge.no`.
@@ -176,8 +176,8 @@ Nasjonal webportal for oppdagelse, metadataforvaltning, veiledning og fellesskap
 - Lokal fil: `results/Produktbeskrivelser/16-data-norge-no-produkt-canvas-copilot.md`
 - Lokal fil: `results/Produktbeskrivelser/16-data-norge-no-produkt-canvas-codex.md`
 - Lokal fil: `config/templates/produkt-canvas-template.md`
-- Lokal fil: `index/capabilities.yaml`
-- Lokal fil: `index/produktnummerering.md`
+- Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
+- Lokal fil: `arkitektur/produkter/produktnummerering.md`
 - Lokal fil: `sources/links.md`
 - Nettkilde: https://data.norge.no/ (hentet 2026-03-10)
 - Nettkilde: https://data.norge.no/nb/about (hentet 2026-03-10)

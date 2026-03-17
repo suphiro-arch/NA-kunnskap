@@ -6,8 +6,9 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Skriv på norsk i dokumentinnhold, forklaringer og nye markdownfiler.
 - Bruk vanlig norsk tegnsett i dokumentinnhold: `æ`, `ø` og `å`.
 - Bruk ASCII bare der tekniske begrensninger krever det, for eksempel i filnavn, slugger, kode eller enkelte lokale git-hooker.
-- Bevar etablert struktur i repoet: `config/` for regler og maler, `results/` for leveranser, `web/` for Hugo-prototypen, `sources/` for kildegrunnlag og `briefs/` for arbeidsstyring og handover.
+- Bevar etablert struktur i repoet: `arkitektur/` for faglig arkitekturgrunnlag, `config/` for regler og maler, `results/` for leveranser, `web/` for Hugo-prototypen, `sources/` for kildegrunnlag og `briefs/` for arbeidsstyring og handover.
 - Tolking av mapper:
+  - `arkitektur/` brukes for strukturert arkitekturgrunnlag, som kapabiliteter, prinsipper og produktnummerering.
   - `results/` brukes for leveranser og innhold som skal kunne gjenbrukes direkte.
   - `briefs/` brukes for arbeidsstyring, handover, beslutninger og mellomdokumenter.
   - `briefs/arbeidsstyring-og-handover/` brukes for større arbeidsnotater, MVP-skisser, handover-dokumenter og lignende som ikke er sluttleveranser.
