@@ -28,7 +28,7 @@ Begrepskatalogen er den delen av Felles datakatalog som gir oversikt over begrep
 - Samarbeid: Samarbeidsarenaer og nettverk
 - Datautveksling og integrasjon: Dele data med andre
 
-Grunnlag: kapabiliteter mappet mot `index/capabilities.yaml`.
+Grunnlag: kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
 
 ## Produktmål
 - Etablere felles begrepsforståelse på tvers av offentlig sektor.
@@ -109,5 +109,5 @@ Ikke eksplisitt spesifisert i kildene brukt her.
 
 ## Kildegrunnlag brukt i denne utfyllingen
 - Lokal fil: `sources/links.md`
-- Lokal fil: `index/capabilities.yaml`
+- Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Nettkilder: data.norge.no/Digdir (hentet 2026-03-07)

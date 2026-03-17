@@ -30,7 +30,7 @@ Kontakt- og reservasjonsregisteret (KRR) er en nasjonal felleskomponent som gir 
 - **Tillit:** Sporbarhet og innsyn – Loggede oppslag med innbyggers innsyn
 - **Informasjonssikkerhet:** Sikring av informasjonsflyt og datautveksling – Oversiktsdata som krev tilgangskontroll
 
-Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
+Grunnlag: Kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
 
 ## Produktmål
 - Sikre at offentlige virksomheter kommuniserer i riktig kanal til riktig mottaker (kanalkorrekt utnytte)
@@ -180,7 +180,7 @@ Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
 ## Kildegrunnlag brukt i denne utfyllingen
 
 - Lokal fil: `sources/links.md`
-- Lokal fil: `index/capabilities.yaml`
+- Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Nettkilder: Digdir Docs og Digdir.no (hentet 2026-03-06)
 - Samarbeidsportalen: Digital kommunikasjon (begrenset tilgang)
 - Kilder for finansiering: Digdir-rapporter og statsbudsjett-sammenlikning (estimert)

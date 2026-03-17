@@ -29,7 +29,7 @@ Kontakt- og reservasjonsregisteret er en nasjonal felleskomponent som gir offent
 - Tillit: Sporbarhet og innsyn
 - Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling
 
-Grunnlag: kapabiliteter mappet mot `index/capabilities.yaml`.
+Grunnlag: kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
 
 ## Produktmål
 - Sikre at offentlige virksomheter kommuniserer i riktig kanal til riktig mottaker.
@@ -120,5 +120,5 @@ Forutsettes som offentlig finansiert nasjonal felleskomponent.
 
 ## Kildegrunnlag brukt i denne utfyllingen
 - Lokal fil: `sources/links.md`
-- Lokal fil: `index/capabilities.yaml`
+- Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Nettkilder: Digdir docs og Digdir.no (hentet 2026-03-06)

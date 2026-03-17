@@ -33,7 +33,7 @@ Altinn Portal er den sentrale brukerinngangen til skjema, tjenester, meldinger o
 - **Samarbeid: Tjenesteforvaltning** gir mange tjenesteeiere en felles portalflate i stedet for separate sluttbrukergrensesnitt.
 - **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** er nødvendig fordi portalen eksponerer oppgaver, meldinger og tilganger fra mange underliggende tjenester i samme brukerflate.
 
-Grunnlag: Kapabilitetsnavn fra `index/capabilities.yaml`, vurdert mot dokumentert funksjon på info.altinn.no og tilhørende hjelpesider.
+Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot dokumentert funksjon på info.altinn.no og tilhørende hjelpesider.
 
 ## Produktmål
 **Primærkilder:** Altinn infosider om nye Altinn, tilgangsstyring og startside.
@@ -167,8 +167,8 @@ Portal- og arbeidsflatekomponent i Altinn-porteføljen, med brukergrensesnitt fo
 ## Kildegrunnlag brukt i utfyllingen
 - Lokal fil: `results/Produktbeskrivelser/21-Altinn-Portal-produkt-canvas-v2-codex.md`
 - Lokal fil: `config/templates/produkt-canvas-template.md`
-- Lokal fil: `index/capabilities.yaml`
-- Lokal fil: `index/produktnummerering.md`
+- Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
+- Lokal fil: `arkitektur/produkter/produktnummerering.md`
 - Lokal fil: `sources/links.md`
 - Nettkilde: https://info.altinn.no/ (hentet 2026-03-10)
 - Nettkilde: https://info.altinn.no/nyheter/om-nye-altinn/ (hentet 2026-03-10)

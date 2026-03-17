@@ -44,7 +44,7 @@ Bidrar til realisering av fÃ¸lgende kapabiliteter (fra NA-kunnskap):
 **Informasjonssikkerhet-dimensjonen:**
 - **Sikring av informasjonsflyt og datautveksling** â€“ TLS, OAuth 2.0, digitale sertifikater
 
-*Grunnlag: Kapabiliteter validert mot index/capabilities.yaml*
+*Grunnlag: Kapabiliteter validert mot arkitektur/kapabiliteter/capabilities.yaml*
 
 ## ProduktmÃ¥l
 - Tilby sentral, sikker og standardisert autentiseringsmekanisme for API-samarbeid pÃ¥ tvers av virksomheter
@@ -253,7 +253,7 @@ Kostnadsdetaljerer mÃ¥ hentes fra Digdir/Samarbeidsportalen.
 
 ## Kildegrunnlag brukt i denne utfyllingen
 - **Lokal fil:** `sources/links.md` (oppdatert 2026-03-06 med rÃ¸de/gule elementer)
-- **Lokal fil:** `index/capabilities.yaml` (kapabilitetsvalidering)
+- **Lokal fil:** `arkitektur/kapabiliteter/capabilities.yaml` (kapabilitetsvalidering)
 - **Nettkilder:**
   - Digdir Docs: https://docs.digdir.no/docs/maskinporten/
   - Digdir Samarbeidsportal: https://samarbeid.digdir.no/maskinporten/

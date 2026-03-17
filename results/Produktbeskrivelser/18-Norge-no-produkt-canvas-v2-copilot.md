@@ -28,7 +28,7 @@ Norge.no er en nasjonal informasjons- og veivisertjeneste som hjelper innbyggere
 - **Informasjonsforvaltning: Oversikt over tjenester** – Katalog og oppdagelse av offentlige tjenester
 - **Samarbeid: Organisatorisk samhandling** – Tverretatlig samhandling gjennom veiviserfunksjonen
 
-Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
+Grunnlag: Kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
 
 ## Produktmål
 - Gjøre det enklere for innbyggere å finne og forstå offentlige tjenester og informasjon
@@ -182,7 +182,7 @@ Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
 ## Kildegrunnlag brukt i denne utfyllingen
 
 - Lokal fil: `sources/links.md`
-- Lokal fil: `index/capabilities.yaml`
+- Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Nettkilder: Norge.no, Digdir.no (hentet 2026-03-07)
 - Kilder for finansiering: Digdir-rapporter og budsjett-dokumenter (estimert)
 

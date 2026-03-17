@@ -29,7 +29,7 @@ Altinn events er en nasjonal hendelsestjeneste som muliggjør publisering og kon
 - Informasjonsforvaltning: Oversikt over hendelser
 - Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling
 
-Grunnlag: kapabiliteter mappet mot `index/capabilities.yaml`.
+Grunnlag: kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
 
 ## Produktmål
 - Tilby felles infrastruktur for hendelsesdrevet samhandling i offentlig sektor.
@@ -122,5 +122,5 @@ Forutsettes forvaltet som del av Altinns nasjonale fellesløsninger.
 
 ## Kildegrunnlag brukt i denne utfyllingen
 - Lokal fil: `sources/links.md`
-- Lokal fil: `index/capabilities.yaml`
+- Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Nettkilder: Altinn Docs (hentet 2026-03-06)

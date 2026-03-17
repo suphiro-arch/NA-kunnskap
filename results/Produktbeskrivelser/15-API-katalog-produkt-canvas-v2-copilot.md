@@ -29,7 +29,7 @@ API-katalogen er nasjonal register for tilgjengelige API-er i offentlig sektor. 
 - **Tjenesteutvikling: Integrerbare tjenester** – Standard API-katalogisering
 - **Standardisering: Forvaltningsstandarder** – OpenAPI/Swagger standarder
 
-Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
+Grunnlag: Kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
 
 ## Produktmål
 - Øke oppdagbarheit av offentlige API-er og reduce tid fra integrasjon-behov til faktisk bruk
@@ -179,7 +179,7 @@ Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
 ## Kildegrunnlag brukt i denne utfyllingen
 
 - Lokal fil: `sources/links.md`
-- Lokal fil: `index/capabilities.yaml`
+- Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Nettkilder: data.norge.no, Digdir.no (hentet 2026-03-07)
 - Kilder for finansiering: Digdir-rapporter og benchmarking (estimert)
 

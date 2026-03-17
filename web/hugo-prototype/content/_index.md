@@ -49,8 +49,8 @@ Bruk siden som et oppslagsverk, ikke som en lineær rapport.
 
 Prototypen bygger foreløpig på innhold fra:
 
-- `index/capabilities.yaml`
-- `index/principles.md`
+- `arkitektur/kapabiliteter/capabilities.yaml`
+- `arkitektur/prinsipper/principles.md`
 - `results/Produktbeskrivelser/`
 
 Dette er fortsatt en testflate. Målet nå er å gjøre strukturen tydelig og lesbar før innholdet utvides videre.

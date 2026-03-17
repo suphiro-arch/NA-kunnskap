@@ -30,9 +30,9 @@ Formål: Sikre lik, detaljert og grundig utfylling av produktbeskrivelser for ar
 
 ### Trinn 3: Hent kilder (samme hver gang)
 1. Mal: `config/templates/produkt-canvas-template.md`
-2. Kapabiliteter: `index/capabilities.yaml` (kun navnene som finnes her)
+2. Kapabiliteter: `arkitektur/kapabiliteter/capabilities.yaml` (kun navnene som finnes her)
 3. Lenker: `sources/links.md` (lokal liste + aktive lenker til dokumentasjon)
-4. Produktnummer: `index/produktnummerering.md`
+4. Produktnummer: `arkitektur/produkter/produktnummerering.md`
 5. **Åpne kilder**: Digdir Docs, Samarbeidsportalen, felles-IKT, produkteier-nettsteder (f.eks. altinn.studio)
 6. **URL-valg:** Bruk som hovedregel de konkrete URL-ene som allerede er listet i `sources/links.md` før du prøver bredere søk
 7. **Utvid bare ved behov:** Gå utover `sources/links.md` kun hvis lenkene der er utilstrekkelige, utdaterte eller utilgjengelige, og dokumenter hvorfor
@@ -81,7 +81,7 @@ Følg reglene under.
 - Bruk gjerne mønsteret: `**Produksjon** - kort statuskontekst` etterfulgt av `**Fakta:** ...` ved behov
 
 **Kapabiliteter:**
-- Knytt eksplisitt til navn i `index/capabilities.yaml`
+- Knytt eksplisitt til navn i `arkitektur/kapabiliteter/capabilities.yaml`
 - Beskriv *hvordan* produktet bidrar (ikke bare list opp navn)
 - Format: `- **Tillit: Autentisering**` etterfulgt av forklaring i vanlig skrift på neste linje eller i samme punkt
 - Navnet på kapabiliteten skal være i fet skrift; forklaringen skal være i vanlig skrift

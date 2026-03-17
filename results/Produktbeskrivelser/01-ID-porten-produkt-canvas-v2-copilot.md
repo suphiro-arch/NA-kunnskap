@@ -42,7 +42,7 @@ Bidrar til realisering av følgende kapabiliteter (fra NA-kunnskap):
 **Tjenesteutvikling:**
 - **Integrerbare tjenester** – Standardiserte integrasjonspunkter for tjenesteeiere
 
-*Grunnlag: Kapabiliteter validert mot index/capabilities.yaml*
+*Grunnlag: Kapabiliteter validert mot arkitektur/kapabiliteter/capabilities.yaml*
 
 ## Produktmål
 - Tilby sentral, sikker og brukervennlig autentiseringsmekanisme for samlet offentlig digital samhandling
@@ -223,7 +223,7 @@ Kostnadsdetajer må hentes fra Digdir/Samarbeidsportalen.
 
 ## Kildegrunnlag brukt i denne utfyllingen
 - **Lokal fil:** `sources/links.md` (oppdatert 2026-03-06 med røde/gule elementer)
-- **Lokal fil:** `index/capabilities.yaml` (kapabilitetsvalidering)
+- **Lokal fil:** `arkitektur/kapabiliteter/capabilities.yaml` (kapabilitetsvalidering)
 - **Nettkilder:** 
   - Digdir Docs: https://docs.digdir.no/docs/idporten/
   - Digdir Samarbeidsportal: https://samarbeid.digdir.no/id-porten/

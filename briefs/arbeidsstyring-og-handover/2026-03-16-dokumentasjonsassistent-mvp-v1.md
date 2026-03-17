@@ -6,7 +6,7 @@ topic: dokumentasjonsassistent-mvp
 sources:
   - web/hugo-prototype/README.md
   - docs/AUTOMATISK-PUSH-SETUP.md
-  - index/capabilities.yaml
+  - arkitektur/kapabiliteter/capabilities.yaml
   - results/Produktbeskrivelser/
   - https://platform.openai.com/docs/api-reference/responses/tutorials-and-guides
   - https://platform.openai.com/docs/guides/tools-file-search
@@ -72,7 +72,7 @@ Eksisterende styrker i repoet:
 - publisering til `docs/prototype`
 - GitHub Actions for publisering
 - strukturert dokumentgrunnlag i:
-  - `index/capabilities.yaml`
+  - `arkitektur/kapabiliteter/capabilities.yaml`
   - `results/Produktbeskrivelser/`
   - `web/hugo-prototype/content/`
 - generering av produktsider og kapabilitetssider
@@ -149,7 +149,7 @@ MVP-en skal bruke bare offentlig repo-innhold.
 
 Første kunnskapskilder:
 
-- `index/capabilities.yaml`
+- `arkitektur/kapabiliteter/capabilities.yaml`
 - `results/Produktbeskrivelser/*.md`
 - `web/hugo-prototype/content/**/*.md`
 
@@ -174,7 +174,7 @@ Legg til en GitHub Action eller egen deploy-jobb som:
 Dette bør trigges ved endringer i:
 
 - `results/Produktbeskrivelser/`
-- `index/`
+- `arkitektur/`
 - `web/hugo-prototype/content/`
 
 ## Svarprofil for assistenten

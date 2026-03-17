@@ -35,3 +35,9 @@ sources:
 
 ## Referanser
 - [MVP-skisse for dokumentasjonsassistent](c:/Users/HILROS/NA-kunnskap/briefs/arbeidsstyring-og-handover/2026-03-16-dokumentasjonsassistent-mvp-v1.md)
+
+## Strukturforslag som er utsatt
+- Vurdere ? samle produktrelatert grunnlag i en tydeligere mappe under `arkitektur/`, for eksempel `arkitektur/produkter/`.
+- Vurdere om produktbeskrivelser p? sikt b?r flyttes til en egen undermappe for genererte beskrivelser, i stedet for ? ligge direkte under `results/Produktbeskrivelser/`.
+- Vurdere om `sources/links.md` p? sikt b?r flyttes n?rmere produktomr?det.
+- Vurdere om en bredere mappe som `ressurser/` senere b?r samle produkter, standarder, veiledninger og andre virkemidler.

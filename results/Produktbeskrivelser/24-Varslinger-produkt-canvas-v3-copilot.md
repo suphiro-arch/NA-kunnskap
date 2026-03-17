@@ -35,7 +35,7 @@ Produktet støtter API-basert utsending og programmatisk oppfølging av utsendel
 - **Datadrevet: Sammenstilling av data** kombinerer kontaktdata, reservasjonsstatus og autorisasjonsinformasjon for å velge riktig mottaker og kanal.
 - **Standardisering: Forvaltningsstandarder** gir tjenesteeiere et felles mønster for kanalvalg, oppslag og status i stedet for lokale varslingsmotorer.
 
-Grunnlag: Kapabilitetsnavn fra `index/capabilities.yaml`, vurdert mot dokumentert funksjon i Altinn Varslinger.
+Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot dokumentert funksjon i Altinn Varslinger.
 
 ## Produktmål
 **Primærkilder:** Varslinger hovedside, `Om Varslinger`, `Hva får du?` og forklaringssider.
@@ -166,8 +166,8 @@ API-basert varslingsløsning i Altinn-porteføljen med oppslag mot nasjonale reg
 ## Kildegrunnlag brukt i utfyllingen
 - Lokal fil: `results/Produktbeskrivelser/24-Varslinger-produkt-canvas-v2-codex.md`
 - Lokal fil: `config/templates/produkt-canvas-template.md`
-- Lokal fil: `index/capabilities.yaml`
-- Lokal fil: `index/produktnummerering.md`
+- Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
+- Lokal fil: `arkitektur/produkter/produktnummerering.md`
 - Lokal fil: `sources/links.md`
 - Nettkilde: https://docs.altinn.studio/nb/notifications/ (hentet 2026-03-10)
 - Nettkilde: https://docs.altinn.studio/nb/notifications/about/ (hentet 2026-03-10)

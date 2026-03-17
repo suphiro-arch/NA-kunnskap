@@ -29,7 +29,7 @@ ELMA er et elektronisk mottakeradresseregister som brukes til å finne hvor og h
 - Samarbeid: Organisatorisk samhandling
 - Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling
 
-Grunnlag: kapabiliteter mappet mot `index/capabilities.yaml`.
+Grunnlag: kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
 
 ## Produktmål
 - Sikre korrekt elektronisk adressering i digital dokumentutveksling.
@@ -111,5 +111,5 @@ Ikke eksplisitt spesifisert i kildene brukt her.
 
 ## Kildegrunnlag brukt i denne utfyllingen
 - Lokal fil: `sources/links.md`
-- Lokal fil: `index/capabilities.yaml`
+- Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Nettkilder: Brreg/Altinn (hentet 2026-03-07)

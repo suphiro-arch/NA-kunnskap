@@ -24,7 +24,7 @@ ID-porten er en nasjonal felleskomponent for autentisering/innlogging, brukt som
 - Tillit: Sporbarhet og innsyn
 - Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling
 
-Grunnlag: Kapabilitetsnavnene er avstemt mot `index/capabilities.yaml`.
+Grunnlag: Kapabilitetsnavnene er avstemt mot `arkitektur/kapabiliteter/capabilities.yaml`.
 
 ## Produktmål
 Usikkert, men sannsynlig mål basert på kildene:

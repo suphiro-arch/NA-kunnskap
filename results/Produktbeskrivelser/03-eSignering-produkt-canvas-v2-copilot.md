@@ -31,7 +31,7 @@ eSignering er en nasjonal felleslÃ¸sning som lar offentlige virksomheter gjenn
 - **Informasjonssikkerhet: Sikring av informasjonsflyt** â€“ Kryptering, TLS, sikker transport
 - **Tjenesteutvikling: Integrerbare tjenester** â€“ Standard API for integrasjon i fagsystemer
 
-Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
+Grunnlag: Kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
 
 ## ProduktmÃ¥l
 - Tilby en felles nasjonal signeringstjeneste som kan gjenbrukes pÃ¥ tvers av offentlig sektor
@@ -190,7 +190,7 @@ Grunnlag: Kapabiliteter mappet mot `index/capabilities.yaml`.
 ## Kildegrunnlag brukt i denne utfyllingen
 
 - Lokal fil: `sources/links.md`
-- Lokal fil: `index/capabilities.yaml`
+- Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Nettkilder: Digdir Docs og Samarbeidsportalen (hentet 2026-03-07)
 - Kostnadsmodell: Samarbeidsportalen (April 2024-versjon)
 - Kilder for finansiering: Digdir-rapporter (estimert 20-50 MNOK)

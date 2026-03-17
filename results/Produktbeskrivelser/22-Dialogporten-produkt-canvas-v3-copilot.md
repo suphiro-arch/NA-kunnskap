@@ -33,7 +33,7 @@ Dialogporten er Altinns felles representasjons- og samhandlingslag for digitale 
 - **Tjenesteutvikling: Integrerbare tjenester** gir tjenesteeiere og plattformer et felles mønster for å eksponere dialoger.
 - **Samarbeid: Tjenesteforvaltning** gjør det mulig å samordne digital dialog på tvers av ulike plattformer og tjenesteeiere.
 
-Grunnlag: Kapabilitetsnavn fra `index/capabilities.yaml`, vurdert mot funksjoner dokumentert i Dialogporten.
+Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot funksjoner dokumentert i Dialogporten.
 
 ## Produktmål
 **Primærkilder:** Dialogportens hovedside, `Hva får du?` og `Status migrering`.
@@ -165,8 +165,8 @@ Felles dialoglag i Altinn-porteføljen med API-er, GraphQL, hendelser og integra
 ## Kildegrunnlag brukt i utfyllingen
 - Lokal fil: `results/Produktbeskrivelser/22-Dialogporten-produkt-canvas-v2-codex.md`
 - Lokal fil: `config/templates/produkt-canvas-template.md`
-- Lokal fil: `index/capabilities.yaml`
-- Lokal fil: `index/produktnummerering.md`
+- Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
+- Lokal fil: `arkitektur/produkter/produktnummerering.md`
 - Lokal fil: `sources/links.md`
 - Nettkilde: https://docs.altinn.studio/nb/dialogporten/ (hentet 2026-03-10)
 - Nettkilde: https://docs.altinn.studio/nb/dialogporten/what-do-you-get/ (hentet 2026-03-10)

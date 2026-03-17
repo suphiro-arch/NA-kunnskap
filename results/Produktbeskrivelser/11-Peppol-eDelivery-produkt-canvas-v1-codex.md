@@ -29,7 +29,7 @@ Peppol eDelivery er et standardisert nettverk og regelverk for utveksling av ele
 - Samarbeid: Organisatorisk samhandling
 - Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling
 
-Grunnlag: kapabiliteter mappet mot `index/capabilities.yaml`.
+Grunnlag: kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
 
 ## Produktmål
 - Tilby interoperabel og sikker dokumentutveksling mellom aktører.
@@ -111,5 +111,5 @@ Ikke eksplisitt spesifisert i kildene brukt her.
 
 ## Kildegrunnlag brukt i denne utfyllingen
 - Lokal fil: `sources/links.md`
-- Lokal fil: `index/capabilities.yaml`
+- Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Nettkilder: DFO/Peppol (hentet 2026-03-07)

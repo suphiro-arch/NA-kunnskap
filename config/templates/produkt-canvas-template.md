@@ -7,7 +7,7 @@ Maalgruppe: forretningssiden og strategisk arkitektur.
 Det offisielle navnet paa produktet eller løsningen.
 
 ## Ressurs ID
-Produktnummer fra index/produktnummerering.md.
+Produktnummer fra arkitektur/produkter/produktnummerering.md.
 
 ## Status/Livsfase
 Planlagt / Under utvikling / Pilot / Produksjon / Utfasing
