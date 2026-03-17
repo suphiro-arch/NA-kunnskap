@@ -11,17 +11,10 @@ Evne til å, basert på registrerte hendelser og delte data, automatisk identifi
 
 Denne delkapabiliteten er en del av [Sluttbrukertjenester](../).
 
-## Relevante prinsipper
+## Videre navigasjon
 
-| Prinsipp | Begrunnelse |
-| --- | --- |
-| P1: Ta utgangspunkt i brukernes behov | Gjennom sammenhengende tjenester og proaktivitet settes brukeren i sentrum for leveranse på tvers av etater. |
-| P5: Del og gjenbruk løsninger | Koordinering av tjenestekjeder bygger på eksisterende byggeklosser for å levere ende-til-ende verdi. |
+Andre delkapabiliteter i samme hovedkapabilitet: [Sammenhengende tjenester](../sammenhengende-tjenester/), [Tjenestekjeder](../tjenestekjeder/).
 
 ## Relaterte produkter
 
 Ingen produkter er koblet til denne delkapabiliteten foreløpig.
-
-## Videre navigasjon
-
-Andre delkapabiliteter i samme hovedkapabilitet: [Sammenhengende tjenester](../sammenhengende-tjenester/), [Tjenestekjeder](../tjenestekjeder/).

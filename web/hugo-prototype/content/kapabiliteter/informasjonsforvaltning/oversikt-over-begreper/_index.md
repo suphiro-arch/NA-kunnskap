@@ -11,18 +11,12 @@ Evne til å etablere en omforent begrepsforståelse ved å definere, dele og gje
 
 Denne delkapabiliteten er en del av [Informasjonsforvaltning](../).
 
-## Relevante prinsipper
+## Videre navigasjon
 
-| Prinsipp | Begrunnelse |
-| --- | --- |
-| P6: Lag digitale løsninger som støtter samhandling | Informasjonsarkitektur og felles begreper gir det felles språket som er nødvendig for maskinell samhandling. |
+Andre delkapabiliteter i samme hovedkapabilitet: [Informasjonsarkitektur](../informasjonsarkitektur/), [Oversikt over informasjonsmodeller](../oversikt-over-informasjonsmodeller/), [Oversikt over datasett](../oversikt-over-datasett/), [Oversikt over hendelser](../oversikt-over-hendelser/), [Oversikt over API](../oversikt-over-api/), [Oversikt over tjenester](../oversikt-over-tjenester/), [Datastyring](../datastyring/).
 
 ## Relaterte produkter
 
 | Produkt | Versjon | Hvorfor relevant | Fil |
 | --- | --- | --- | --- |
 | Begrepskatalog | v2 (copilot) | Katalogisering og søk av autoritative begreper | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/14-Begrepskatalog-produkt-canvas-v2-copilot.md) |
-
-## Videre navigasjon
-
-Andre delkapabiliteter i samme hovedkapabilitet: [Informasjonsarkitektur](../informasjonsarkitektur/), [Oversikt over informasjonsmodeller](../oversikt-over-informasjonsmodeller/), [Oversikt over datasett](../oversikt-over-datasett/), [Oversikt over hendelser](../oversikt-over-hendelser/), [Oversikt over API](../oversikt-over-api/), [Oversikt over tjenester](../oversikt-over-tjenester/), [Datastyring](../datastyring/).

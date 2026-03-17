@@ -6,6 +6,6 @@ description: "Oversikt over hovedkapabiliteter, delkapabiliteter og hvilke produ
 
 Kapabilitetene beskriver hvilke evner som må være på plass for å utvikle, forvalte og videreutvikle et nasjonalt økosystem for digital samhandling. I denne prototypen er de organisert som en navigerbar struktur: først hovedkapabiliteter, deretter delkapabiliteter og til slutt koblinger videre til relevante produkter.
 
-- Start med et kort i oversikten under for å åpne en hovedkapabilitet.
+- Velg en hovedkapabilitet for å åpne beskrivelse og delkapabiliteter.
 - Gå videre til delkapabiliteter for å se mer avgrensede evner.
-- Bruk produkttabellene på hver side for å finne hvilke fellesløsninger som understøtter kapabiliteten i praksis.
+- Bruk produktoversikten nederst på kapabilitetssidene for å finne relevante fellesløsninger.

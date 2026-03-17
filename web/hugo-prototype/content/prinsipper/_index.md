@@ -33,13 +33,13 @@ Prinsippene er ikke bare formuleringer for strategi og styringsdokumenter. De er
 
 | Prinsipp | Sentrale kapabiliteter |
 |---|---|
-| P1 | Sluttbrukertjenester, Tjenesteutvikling |
-| P2 | Strategisk styring, Samarbeid |
-| P3 | Juridisk samhandling |
-| P4 | Datautveksling og integrasjon, Datadrevet, Datakilder |
-| P5 | Tjenesteutvikling, Sluttbrukertjenester |
-| P6 | Samarbeid, Informasjonsforvaltning, Standardisering, Veiledning |
-| P7 | Tillit, Informasjonssikkerhet, Juridisk samhandling |
+| P1 | [Sluttbrukertjenester](../kapabiliteter/sluttbrukertjenester/), [Tjenesteutvikling](../kapabiliteter/tjenesteutvikling/) |
+| P2 | [Strategisk styring](../kapabiliteter/strategisk-styring/), [Samarbeid](../kapabiliteter/samarbeid/) |
+| P3 | [Juridisk samhandling](../kapabiliteter/juridisk-samhandling/) |
+| P4 | [Datautveksling og integrasjon](../kapabiliteter/datautveksling-og-integrasjon/), [Datadrevet](../kapabiliteter/datadrevet/), [Datakilder](../kapabiliteter/datakilder/) |
+| P5 | [Tjenesteutvikling](../kapabiliteter/tjenesteutvikling/), [Sluttbrukertjenester](../kapabiliteter/sluttbrukertjenester/) |
+| P6 | [Samarbeid](../kapabiliteter/samarbeid/), [Informasjonsforvaltning](../kapabiliteter/informasjonsforvaltning/), [Standardisering](../kapabiliteter/standardisering/), [Veiledning](../kapabiliteter/veiledning/) |
+| P7 | [Tillit](../kapabiliteter/tillit/), [Informasjonssikkerhet](../kapabiliteter/informasjonssikkerhet/), [Juridisk samhandling](../kapabiliteter/juridisk-samhandling/) |
 
 ## Eksempler på hvordan prinsippene brukes
 

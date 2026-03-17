@@ -411,6 +411,10 @@ body.no-toc .site-shell {
   margin-top: 1.15rem;
 }
 
+.section-overview--capabilities {
+  margin-top: 1rem;
+}
+
 .section-overview__header {
   margin-bottom: 0.9rem;
   padding: 0 0.2rem;
@@ -476,31 +480,10 @@ body.no-toc .site-shell {
   line-height: 1.6;
 }
 
-.section-card__stats {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.45rem;
-}
-
-.section-card__stat {
-  display: inline-flex;
-  align-items: center;
-  min-height: 2rem;
-  padding: 0.2rem 0.65rem;
-  border-radius: 999px;
-  background: var(--surface-soft);
-  border: 1px solid var(--line-subtle);
-  color: var(--ink-muted);
-  font-size: 0.75rem;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  white-space: nowrap;
-}
-
 .section-card--capability {
   position: relative;
   overflow: hidden;
-  padding: 1.15rem 1.15rem 1.2rem;
+  padding: 1.15rem 1.15rem 1.1rem;
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0.94)),
     radial-gradient(circle at top right, rgba(35, 98, 143, 0.12), transparent 42%);
@@ -523,13 +506,14 @@ body.no-toc .site-shell {
 }
 
 .section-card--capability h3 {
-  margin-top: 0.1rem;
-  margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0.55rem;
   font-size: 1.12rem;
 }
 
 .section-card--capability .section-card__description {
   font-size: 0.98rem;
+  max-width: 34ch;
 }
 
 .section-card__link {
@@ -541,20 +525,6 @@ body.no-toc .site-shell {
 
 .section-card--compact .section-card__link {
   margin-top: auto;
-}
-
-.section-card--capability .section-card__link {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-  width: fit-content;
-  padding: 0.35rem 0.1rem 0;
-}
-
-.section-card--capability .section-card__link::after {
-  content: "\\2192";
-  font-size: 1rem;
-  line-height: 1;
 }
 
 .content-card__footer {

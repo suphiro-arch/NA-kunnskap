@@ -11,18 +11,12 @@ Kapabiliteten omfatter de tekniske og organisatoriske tiltakene som sikrer at in
 
 Denne delkapabiliteten er en del av [Informasjonssikkerhet](../).
 
-## Relevante prinsipper
+## Videre navigasjon
 
-| Prinsipp | Begrunnelse |
-| --- | --- |
-| P7: Sørg for tillit til oppgaveløsningen | Sikring av informasjonsflyt og robuste styringssystemer beskytter dataenes integritet og borgernes personvern. |
+Andre delkapabiliteter i samme hovedkapabilitet: [Styringssystem](../styringssystem/).
 
 ## Relaterte produkter
 
 | Produkt | Versjon | Hvorfor relevant | Fil |
 | --- | --- | --- | --- |
 | eFormidling | v2 (copilot) | Kryptering, integritet, ikke-benektelse | [Fil](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md) |
-
-## Videre navigasjon
-
-Andre delkapabiliteter i samme hovedkapabilitet: [Styringssystem](../styringssystem/).
