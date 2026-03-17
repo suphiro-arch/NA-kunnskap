@@ -30,7 +30,7 @@ Repo for arbeid med nasjonal arkitektur, produktbeskrivelser, kapabiliteter, pri
 ## Webprototype
 - Hugo-prototypen bygges fra `web/hugo-prototype/`.
 - Publisert base-URL er konfigurert til:
-  - `https://suphiro-arch.github.io/NA-kunnskap/prototype/`
+  - `https://suphiro-arch.github.io/NA-kunnskap/`
 - GitHub Pages publiserer bygget direkte fra GitHub Actions som artifact-deploy.
 
 ## Prinsipper for innhold
