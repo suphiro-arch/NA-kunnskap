@@ -2,7 +2,7 @@
 
 $srcDir = 'results/Produktbeskrivelser'
 $outDir = 'web/hugo-prototype/content/ressursoversikt/produkter'
-$mapFile = 'arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.json'
+$mapFile = 'arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml'
 $repoBlobBase = 'https://github.com/suphiro-arch/NA-kunnskap/blob/main'
 New-Item -ItemType Directory -Force -Path $outDir | Out-Null
 $productCapabilityMap = Get-Content -Raw $mapFile -Encoding utf8 | ConvertFrom-Json
@@ -238,3 +238,4 @@ Get-ChildItem $outDir -File |
   Remove-Item -Force
 
 Write-Output ("Genererte oversikt for produkter: {0}" -f $latest.Count)
+
