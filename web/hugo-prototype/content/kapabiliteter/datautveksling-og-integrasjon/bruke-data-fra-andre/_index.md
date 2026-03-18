@@ -16,7 +16,7 @@ Denne delkapabiliteten er en del av [Datautveksling og integrasjon](../).
 | Produkt | Produktbeskrivelse | Hvorfor relevant |
 | --- | --- | --- |
 | Maskinporten | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/02-Maskinporten-produkt-canvas-v3-codex.md) | gjør det mulig for datakonsumenter å hente data fra andre virksomheter gjennom samme nasjonale tillitsmønster |
-| eFormidling | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md) | Mottak og automatisering av innkommende meldinger |
+| eFormidling | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md) | Mottak og automatisering av innkommende meldinger. |
 | Altinn formidling (Broker) | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/08-Altinn-formidling-produkt-canvas-v2-copilot.md) | Mottaker henter data fra formidlingstjeneste |
 | ELMA (Elektronisk mottakeradresseregister) | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/10-ELMA-produkt-canvas-v2-copilot.md) | â€“ Avsendere slÃ¥r opp mottakeradresser |
 | Peppol eDelivery | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/11-Peppol-eDelivery-produkt-canvas-v2-copilot.md) | â€“ Mottaker mottar via Access Point |

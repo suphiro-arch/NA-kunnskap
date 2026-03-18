@@ -27,24 +27,14 @@ DIGDIR-007
 eFormidling er Norges nasjonale felleskomponent for sikker, standardisert og sporbar meldingsutveksling mellom offentlige virksomheter og mellom offentlig sektor og nÃ¦ringslivet. LÃ¸sningen implementerer internasjonale standarder (Peppol) og gjÃ¸r det mulig for virksomheter Ã¥ utstrekke meldinger (f.eks. fakturaer, bestillinger, rapporter) uten Ã¥ mÃ¥tte etablere bilaterale integrasjoner. eFormidling stÃ¸tter digital samhandling, reduserer papir og manuell hÃ¥ndtering.
 
 ## Kapabiliteter
-Bidrar til realisering av fÃ¸lgende kapabiliteter (fra NA-kunnskap):
+- **Datautveksling og integrasjon: Dele data med andre** - Sikker meldingsutveksling over organisasjonsgrenser.
+- **Datautveksling og integrasjon: Bruke data fra andre** - Mottak og automatisering av innkommende meldinger.
+- **Datautveksling og integrasjon: Meldingsformidling** - Standardisert protokoll for meldingsutveksling.
+- **Samarbeid: Organisatorisk samhandling** - Standardisert samhandling mellom virksomheter.
+- **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** - Kryptering, integritet og sporbarhet i meldingsflyten.
+- **Standardisering: Forvaltningsstandarder** - Implementering av Peppol- og AS4-standarder.
 
-**Datautveksling og integrasjon-dimensjonen:**
-- **Datautveksling: Dele data med andre** â€“ Sikker meldingsutveksling over organisasjonsgrenser
-- **Datautveksling: Bruke data fra andre** â€“ Mottak og automatisering av innkommende meldinger
-- **Datautveksling: Meldingsformidling** â€“ Standardisert protokoll for meldingsutveksling
-
-**Samhandling-dimensjonen:**
-- **Samhandling: Organisatorisk samhandling** â€“ SamhÃ¤ndig kommunikasion mellom virksomheter
-- **Samhandling: Sammenhengende tjenester** â€“ Bidrag til integrert samhandling
-
-**Informasjonssikkerhet-dimensjonen:**
-- **Sikring av informasjonsflyt og datautveksling** â€“ Kryptering, integritet, ikke-benektelse
-
-**Standardisering-dimensjonen:**
-- **Forvaltningsstandarder** â€“ Implementering av Peppol og AS4-standarder
-
-*Grunnlag: Kapabiliteter validert mot arkitektur/kapabiliteter/capabilities.yaml*
+Grunnlag: Kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
 
 ## ProduktmÃ¥l
 - Standardisere digital meldingsutveksling i offentlig sektor
