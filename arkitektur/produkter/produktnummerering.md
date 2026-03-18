@@ -18,6 +18,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | `DIGDIR` | Digdir | Digitale fellesløsninger og Altinn-relaterte løsninger som forvaltes i Digdir-regi |
 | `BRREG` | Brønnøysundregistrene | Register- og samhandlingsløsninger som forvaltes av Brønnøysundregistrene |
 | `KS` | KS Digital | Kommunale fellesløsninger og KS-plattformtjenester |
+| `SIKT` | Sikt | Nasjonale fellesløsninger for utdanning og forskning |
 | `HDIR` | Helsedirektoratet | Helsedirektoratets nasjonale ressurser |
 | `NHN` | Norsk helsenett | Nasjonale e-helseløsninger og helseinfrastruktur |
 | `NAV` | NAV | NAVs fellesløsninger og registre |
@@ -68,6 +69,15 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | 29 | `KS-005` | Felles tjenesteplattform | Plattform | Kommunal tjenesteplattform | Samarbeid: Organisatorisk samhandling<br>Tjenesteutvikling: Gjenbrukbare tjenester | Ikke opprettet ennå | - |
 | 30 | `KS-006` | Fiks Digiorden | Fellesløsning | Styrings- og oversiktsløsning | Informasjonsforvaltning: Datastyring<br>Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling | Ikke opprettet ennå | - |
 
+## Sikt (`SIKT`)
+| Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Kapabilitetstreff | Siste versjon | Dokument |
+|---:|---|---|---|---|---|---|---|
+| 47 | `SIKT-001` | Feide | Felleskomponent | Innloggings- og datadelingstjeneste | Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling<br>Tillit: Autentisering<br>Tillit: Tilgangskontroll | Ikke opprettet ennå | - |
+| 48 | `SIKT-002` | Felles studentsystem (FS) | Fellesløsning | Studentinformasjonssystem | Datautveksling og integrasjon: Dele data med andre<br>Informasjonsforvaltning: Datastyring<br>Samarbeid: Organisatorisk samhandling | Ikke opprettet ennå | - |
+| 49 | `SIKT-003` | Opptaksløsninger | Fellesløsning | Opptaks- og saksbehandlingsløsning | Datautveksling og integrasjon: Bruke data fra andre<br>Samarbeid: Organisatorisk samhandling<br>Sluttbrukertjenester: Sammenhengende tjenester | Ikke opprettet ennå | - |
+| 50 | `SIKT-004` | Nasjonal vitnemålsdatabase (NVB) | Register | Resultat- og vitnemålsdatabase | Datakilder: Grunndata<br>Datautveksling og integrasjon: Dele data med andre | Ikke opprettet ennå | - |
+| 51 | `SIKT-005` | Vitnemålsportalen | Fellesløsning | Delingsportal for resultater og vitnemål | Datautveksling og integrasjon: Dele data med andre<br>Sluttbrukertjenester: Sammenhengende tjenester | Ikke opprettet ennå | - |
+
 ## Helsedirektoratet (`HDIR`)
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Kapabilitetstreff | Siste versjon | Dokument |
 |---:|---|---|---|---|---|---|---|
@@ -111,6 +121,11 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 - KS Digital: https://ksdigital.no/tjenestene/fiks-plattformen/
 - KS Digital: https://ksdigital.no/tjenestene/utviklingsprosjekter/felles-tjenesteplattform/
 - KS Digital: https://ksdigital.no/2022/06/14/nyheter-om-fiks-digiorden/
+- Feide: https://www.feide.no/om-feide
+- Sikt: https://sikt.no/tjenester/felles-studentsystem-fs
+- Sikt: https://sikt.no/tjenester/opptakslosninger
+- Sikt: https://sikt.no/nb/tjenester/nasjonal-vitnemalsdatabase
+- Sikt: https://sikt.no/tjenester/vitnemalsportalen
 - Norsk helsenett: https://www.nhn.no/tjenester/helseid/hva-er-helseid
 - Helsenorge: https://www.helsenorge.no/om-helsenorge-no/
 - Norsk helsenett: https://www.nhn.no/tjenester/kjernejournal/om-tjenesten
