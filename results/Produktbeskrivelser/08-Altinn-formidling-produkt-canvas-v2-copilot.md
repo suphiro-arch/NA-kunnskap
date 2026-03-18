@@ -1,96 +1,96 @@
 # Produkt-canvas: Altinn formidling (Broker)
 
-Målgruppe: Hovedfokus er forretningssiden og strategisk arkitektur.
+MÃ¥lgruppe: Hovedfokus er forretningssiden og strategisk arkitektur.
 
 ## Navn
 Altinn formidling (Broker)
 
 ## Ressurs ID
-8 (Produktliste NA-kunnskap).
+DIGDIR-008
 
 ## Status/Livsfase
-**Produksjon** – Etablert formidlingskomponent med aktiv videreutvikling
+**Produksjon** â€“ Etablert formidlingskomponent med aktiv videreutvikling
 
 ## Modenhet
-**Høy (4-5/5)** – Velutviklet og etablert komponent:
-- Del av Altinn 3-produktporteføljen siden lansering
+**HÃ¸y (4-5/5)** â€“ Velutviklet og etablert komponent:
+- Del av Altinn 3-produktportefÃ¸ljen siden lansering
 - Dokumentert API-modell for asynkron datautveksling
 - I aktiv bruk for robust formidling med skalerbarhet, sikkerhet og sporbarhet
-- Løpende videreutvikling av API-kvalitet, monitoring og migrering fra Altinn 2
+- LÃ¸pende videreutvikling av API-kvalitet, monitoring og migrering fra Altinn 2
 
 ## Kort beskrivelse
-Altinn formidling (Broker) er en nasjonal formidlingstjeneste for sikker, asynkron datautveksling mellom virksomheter og systemer. Tjenesten er designet for scenarioer hvor data må overføres pålitelig uten tett synkron kobling mellom avsender og mottaker, og tilbyr kømekanismer, leveringssikkerhet og sporbarhet.
+Altinn formidling (Broker) er en nasjonal formidlingstjeneste for sikker, asynkron datautveksling mellom virksomheter og systemer. Tjenesten er designet for scenarioer hvor data mÃ¥ overfÃ¸res pÃ¥litelig uten tett synkron kobling mellom avsender og mottaker, og tilbyr kÃ¸mekanismer, leveringssikkerhet og sporbarhet.
 
 ## Kapabiliteter
-- **Datautveksling og integrasjon: Meldingsformidling** – Sikker transport av data via broker
-- **Datautveksling og integrasjon: Dele data med andre** – Avsender legger data i formidlingstjenste
-- **Datautveksling og integrasjon: Bruke data fra andre** – Mottaker henter data fra formidlingstjeneste
-- **Tjenesteutvikling: Integrerbare tjenester** – Standardisert API for integrasjon
-- **Samarbeid: Organisatorisk samhandling** – Enabler samhandling mellom organisasjoner
-- **Informasjonssikkerhet: Sikring av informasjonsflyt** – Kryptering, autentisering, tilgangskontroll
-- **Tillit: Sporbarhet og innsyn** – Logging av all formidling og leveringsstatus
+- **Datautveksling og integrasjon: Meldingsformidling** â€“ Sikker transport av data via broker
+- **Datautveksling og integrasjon: Dele data med andre** â€“ Avsender legger data i formidlingstjenste
+- **Datautveksling og integrasjon: Bruke data fra andre** â€“ Mottaker henter data fra formidlingstjeneste
+- **Tjenesteutvikling: Integrerbare tjenester** â€“ Standardisert API for integrasjon
+- **Samarbeid: Organisatorisk samhandling** â€“ Enabler samhandling mellom organisasjoner
+- **Informasjonssikkerhet: Sikring av informasjonsflyt** â€“ Kryptering, autentisering, tilgangskontroll
+- **Tillit: Sporbarhet og innsyn** â€“ Logging av all formidling og leveringsstatus
 
 Grunnlag: Kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
 
-## Produktmål
+## ProduktmÃ¥l
 - Tilby en felles nasjonal tjeneste for robust asynkron dataformidling uten tett kobling
-- Redusere punkt-til-punkt-integrasjoner og proprietaere transportmønstre
-- Øke leveringssikkerhet, skalerbarhet og observability i samhandling mellom systemer
-- Understøtte sammenhengende tjenester med standardiserte integrasjonsmønstre
+- Redusere punkt-til-punkt-integrasjoner og proprietaere transportmÃ¸nstre
+- Ã˜ke leveringssikkerhet, skalerbarhet og observability i samhandling mellom systemer
+- UnderstÃ¸tte sammenhengende tjenester med standardiserte integrasjonsmÃ¸nstre
 - Migrere data formidling fra Altinn 2 til Altinn 3-plattformen
 
 ## Brukerbehov
-- **Virksomheter:** Sikker og pålitelig dataoverføring uten tett kopling mellom systemer
-- **Integrasjonsteam:** Standard API-er for innlegging, uthenting og oppfølging av leveranser
+- **Virksomheter:** Sikker og pÃ¥litelig dataoverfÃ¸ring uten tett kopling mellom systemer
+- **Integrasjonsteam:** Standard API-er for innlegging, uthenting og oppfÃ¸lging av leveranser
 - **Drifts- og sikkerhetsteam:** Bedre sporbarhet, logging og kontroll i transportleddet
-- **Migrasjons-team:** Sikker løfte-og-skift av data formidling fra Altinn 2 til Altinn 3
+- **Migrasjons-team:** Sikker lÃ¸fte-og-skift av data formidling fra Altinn 2 til Altinn 3
 
 ## Hvem er brukerne og brukersegmentene
 
-| Brukersegment | Primære behov | Bruksområde | Estimert volum |
+| Brukersegment | PrimÃ¦re behov | BruksomrÃ¥de | Estimert volum |
 |---|---|---|---|
-| **Avsendende virksomheter** | Sikker opplasting av data til formidling | Skattedata, NAV-meldinger, helseopp gaver | 10-100 mill. meldinger årlig |
-| **Mottakende virksomheter** | Sikker uthenting av data med pålitelighet | Mottak og prosessering av meldinger | Kreves av alle mottakere |
-| **Systemleverandører/Integratorer** | Stabil API for formidling | Integrasjon i fagsystemer, maskinautomatisering | Kritisk for alle brukere |
-| **Drifts- og sikkerhetsteam** | Overvåking, feiloppdagelse, SLA | Drift, monitoring, incident-håndtering | Løpende operasjonell aktivitet |
-| **Migrasjons-prosjekter** | Sikker overføring fra Altinn 2 | Løfte-og-skift, parallell drift | Høyt volum under migrasjon |
+| **Avsendende virksomheter** | Sikker opplasting av data til formidling | Skattedata, NAV-meldinger, helseopp gaver | 10-100 mill. meldinger Ã¥rlig |
+| **Mottakende virksomheter** | Sikker uthenting av data med pÃ¥litelighet | Mottak og prosessering av meldinger | Kreves av alle mottakere |
+| **SystemleverandÃ¸rer/Integratorer** | Stabil API for formidling | Integrasjon i fagsystemer, maskinautomatisering | Kritisk for alle brukere |
+| **Drifts- og sikkerhetsteam** | OvervÃ¥king, feiloppdagelse, SLA | Drift, monitoring, incident-hÃ¥ndtering | LÃ¸pende operasjonell aktivitet |
+| **Migrasjons-prosjekter** | Sikker overfÃ¸ring fra Altinn 2 | LÃ¸fte-og-skift, parallell drift | HÃ¸yt volum under migrasjon |
 
 ## Hovedfunksjoner
 
-### Primære funksjoner
-- **Asynkron meldings-/dataformidling:** Broker-mønster for avkoblet avsender-mottaker
-- **Køer og leveringsmekanismer:** FIFO-køer, durable storage, garantert leveranse
+### PrimÃ¦re funksjoner
+- **Asynkron meldings-/dataformidling:** Broker-mÃ¸nster for avkoblet avsender-mottaker
+- **KÃ¸er og leveringsmekanismer:** FIFO-kÃ¸er, durable storage, garantert leveranse
 - **API-er for integrasjon:**
   - Push (avsender legger inn data)
   - Pull (mottaker henter data)
-  - Kvittering-håndtering (bekreftelse på mottak)
-- **Status og oppfølging:** Track av meldingsstatus (mottatt, levert, feilet, retry)
+  - Kvittering-hÃ¥ndtering (bekreftelse pÃ¥ mottak)
+- **Status og oppfÃ¸lging:** Track av meldingsstatus (mottatt, levert, feilet, retry)
 - **Autentisering og autorisasjon:** Integrasjon med Altinn autorisasjon
 - **Logging og sporbarhet:** Alle hendelser loggert for audit og troubleshooting
-- **Batch-prosessering:** Støtte for høyt volum av parallelle operasjoner
+- **Batch-prosessering:** StÃ¸tte for hÃ¸yt volum av parallelle operasjoner
 - **Sikker transport:** TLS-kryptering, API-authentication
 
 ### Scope og avgrensning
 
-| Inngår | Inngår IKKE |
+| InngÃ¥r | InngÃ¥r IKKE |
 |---|---|
 | Transport/formidling av payload mellom aktorer | Full faglogikk i avsender/mottakersystem |
 | Status, kvittering og kontrollmekanismer i formidlingsleddet | Publisering/abonnement av domenehendelser (dekkes av Events-produkt) |
 | Standardiserte API-er for integrasjon | Datavalidering eller transformasjon |
-| Kømekanismer med garantert leveranse | Duplikat-deteksjon (ansvar hos mottaker) |
+| KÃ¸mekanismer med garantert leveranse | Duplikat-deteksjon (ansvar hos mottaker) |
 | Logging av all formidling | Innsamling av analytics eller metrics |
 
 ## Veikart over kommende funksjonalitet
 
 **Status:** Ikke detaljert offentlig publisert.
 
-**Indikert fokusområder:**
-- **Migrasjons-støtte:** Etter fase-by-fase slutningsresultatet av Altinn 2 Broker
+**Indikert fokusomrÃ¥der:**
+- **Migrasjons-stÃ¸tte:** Etter fase-by-fase slutningsresultatet av Altinn 2 Broker
 - **API-modernisering:** Forbedring av API-design etter OpenAPI-standarder
-- **Observability:** Bedre monitoring, logging og diagnostikkverktøy
-- **Ytelse:** Optimalisering for høyt volum av meldinger og concurrent-på operasjoner
+- **Observability:** Bedre monitoring, logging og diagnostikkverktÃ¸y
+- **Ytelse:** Optimalisering for hÃ¸yt volum av meldinger og concurrent-pÃ¥ operasjoner
 - **Integrering med Events:** Tettere samspill med event-stream for real-time-varsling
-- **Compliance:** Forbedret støtte for juridiske krav (lagring, sletting, audit-trails)
+- **Compliance:** Forbedret stÃ¸tte for juridiske krav (lagring, sletting, audit-trails)
 
 **Kilder:** Altinn docs; detaljert roadmap krever kontakt med Altinn-forvaltningen.
 
@@ -98,93 +98,93 @@ Grunnlag: Kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
 
 ### For virksomheter
 - **Kostnadsreduksjon:** Lavere integrasjonskostnader gjennom gjenbruk av formidlingstjeneste
-- **Hastighet:** Raskere etablering av nye samhandlingsprosesser uten å byggee egne transport-løsninger
-- **Pålitelighet:** Høyere leveringskvalitet og mindre operasjonell risiko i kritisk dataflyt
+- **Hastighet:** Raskere etablering av nye samhandlingsprosesser uten Ã¥ byggee egne transport-lÃ¸sninger
+- **PÃ¥litelighet:** HÃ¸yere leveringskvalitet og mindre operasjonell risiko i kritisk dataflyt
 
-### For systemleverandører
+### For systemleverandÃ¸rer
 - **Standardisering:** Samme API for alle integrasjoner (ikke proprietaere transportmekanismer)
-- **Skalering:** Ikke behov for å håndtere høyt volum selv; broker skaleres nasjonalt
+- **Skalering:** Ikke behov for Ã¥ hÃ¥ndtere hÃ¸yt volum selv; broker skaleres nasjonalt
 
 ### For samfunn
-- **Interoperabilitet:** Standardisert meldingsflyt muliggjør samordnet samhandling på tvers av sektorer
-- **Robusthet:** Nasjonalt delt infrastruktur er mer pålitelig enn mange lokale løsninger
+- **Interoperabilitet:** Standardisert meldingsflyt muliggjÃ¸r samordnet samhandling pÃ¥ tvers av sektorer
+- **Robusthet:** Nasjonalt delt infrastruktur er mer pÃ¥litelig enn mange lokale lÃ¸sninger
 - **Kostnadseffektivitet:** Redusert duplisering av integrasjonsinfrastruktur
 
 ## Utfordringer og risiko
 
-| Risikokategori | Konkret risiko | Sannsynlighet | Håndtering |
+| Risikokategori | Konkret risiko | Sannsynlighet | HÃ¥ndtering |
 |---|---|---|---|
-| **Teknisk** | Feilhåndtering ved store volum og timeout/retry-scenarioer | Høy (komplekst) | Testing med høyt volum; backpressure-mekanismer; dokumentasjon |
-| **Integrasjon** | Integratorer implementerer feil → meldinger ikke prosessert | Middels | Referansearkitektur; SDK-er; testing-verktøy |
-| **Sikkerhet** | Feil tilgangsstyring gir uønsket datapassasje | Middels | Fine-grained autorisasjon; audit-logging; rate-limiting |
-| **Sikkerhet** | Tokenoppholdelse eller nøkkel-lekkasje i transportleddet | Låg (TLS) | Sterk kryptering; key-management; monitoring |
-| **Operasjonell** | Høyt volum overstigter kapasitet → kø-oppbygging og forsinkelser | Middels | Kapasitetsplanlegging; elastisk skalering; fallback-rutiner |
-| **Brukeropplevelse** | Liten synlighet i asynkrone prosesser gir treg feiloppdagelse | Høy | Bedre logging, monitoring og diagnostikkverktøy |
-| **Migrasjon** | Feil under migrering fra Altinn 2 → datatap eller duplikater | Middels | Parallell drift; validering; reconciliation |
-| **Leverandør** | Avhengighet til Altinn 3-infrastruktur | Høy | Digdir som eier sikrer kontinuitet; SLA-krav |
+| **Teknisk** | FeilhÃ¥ndtering ved store volum og timeout/retry-scenarioer | HÃ¸y (komplekst) | Testing med hÃ¸yt volum; backpressure-mekanismer; dokumentasjon |
+| **Integrasjon** | Integratorer implementerer feil â†’ meldinger ikke prosessert | Middels | Referansearkitektur; SDK-er; testing-verktÃ¸y |
+| **Sikkerhet** | Feil tilgangsstyring gir uÃ¸nsket datapassasje | Middels | Fine-grained autorisasjon; audit-logging; rate-limiting |
+| **Sikkerhet** | Tokenoppholdelse eller nÃ¸kkel-lekkasje i transportleddet | LÃ¥g (TLS) | Sterk kryptering; key-management; monitoring |
+| **Operasjonell** | HÃ¸yt volum overstigter kapasitet â†’ kÃ¸-oppbygging og forsinkelser | Middels | Kapasitetsplanlegging; elastisk skalering; fallback-rutiner |
+| **Brukeropplevelse** | Liten synlighet i asynkrone prosesser gir treg feiloppdagelse | HÃ¸y | Bedre logging, monitoring og diagnostikkverktÃ¸y |
+| **Migrasjon** | Feil under migrering fra Altinn 2 â†’ datatap eller duplikater | Middels | Parallell drift; validering; reconciliation |
+| **LeverandÃ¸r** | Avhengighet til Altinn 3-infrastruktur | HÃ¸y | Digdir som eier sikrer kontinuitet; SLA-krav |
 
 ## Kanaler
 
 - **API-er i Altinn Docs** (Swagger/OpenAPI)
-- **Integration från virksomhetenes fagsystem** (via SDK eller direkte API)
+- **Integration frÃ¥n virksomhetenes fagsystem** (via SDK eller direkte API)
 - **Integrasjonsplattformer** (MuleSoft, AzureIntegration, osv.)
 - **Dokumentasjon og support** fra Altinn-forvaltningen
-- **Sammarbeidsportal** (for spørsmål og erfaringsdeling)
+- **Sammarbeidsportal** (for spÃ¸rsmÃ¥l og erfaringsdeling)
 
 ## Plattform
 
 - **Arkitektur:** Cloud-basert (Azure) multi-tenant SaaS i Altinn 3
-- **Messaging-modell:** Asynkron broker-basert (FIFO-køer)
+- **Messaging-modell:** Asynkron broker-basert (FIFO-kÃ¸er)
 - **Design-pattern:** Dekoblet avsender-mottaker via formidlingstjeneste
-- **Skalering:** Designet for nasjonalt volum (10-100 mill. meldinger årlig)
+- **Skalering:** Designet for nasjonalt volum (10-100 mill. meldinger Ã¥rlig)
 - **Sikkerhet:** TLS-kryptering i transit; enkryptert lagring; API-autentisering
 
 ## Gjenbruk
 
-**Svært høy gjenbruksverdi:**
+**SvÃ¦rt hÃ¸y gjenbruksverdi:**
 - Felles transport- og formidlingskapabilitet for mange sektorer (offentlig og privat)
 - Reduserer duplisering av integrasjonsinfrastruktur i enkeltvirksomheter
-- Fremmer standardiserte, løst koblede samhandlingsmønstre
+- Fremmer standardiserte, lÃ¸st koblede samhandlingsmÃ¸nstre
 - API-standard som kan gjenbrukes for mange domener (skatt, helse, NAV, osv.)
 
-## Støtte arkitekturprinsipper
+## StÃ¸tte arkitekturprinsipper
 
-- **P4 Del og gjenbruk data** – Sikker formidling av delte data
-- **P5 Del og gjenbruk løsninger** – Felles formidlingskomponent for alle integrasjoner
-- **P6 Lag digitale løsninger som støtter samhandling** – Enabler asynkron samhandling
-- **P7 Sørg for tillit til oppgaveløsningen** – Sporbarhet og sikkerhet i leveranse
-- **P8 Etabler felles forståelse av informasjon** – Standardisert API-kontrakt
+- **P4 Del og gjenbruk data** â€“ Sikker formidling av delte data
+- **P5 Del og gjenbruk lÃ¸sninger** â€“ Felles formidlingskomponent for alle integrasjoner
+- **P6 Lag digitale lÃ¸sninger som stÃ¸tter samhandling** â€“ Enabler asynkron samhandling
+- **P7 SÃ¸rg for tillit til oppgavelÃ¸sningen** â€“ Sporbarhet og sikkerhet i leveranse
+- **P8 Etabler felles forstÃ¥else av informasjon** â€“ Standardisert API-kontrakt
 
 ## Finansiering
 
 **Kostnadsmodell:**
 - **Leveranse:** Opereres som del av Altinn 3-plattformen (inkludert i Altinn-budsjett)
 - **Bruksmodell:** Kostnadsfritt for offentlige virksomheter
-- **Kapasitetsestimater:** Estimert 3-8 MNOK årlig for drift innenfor Altinn-operasjonen
-- **Migrasjon:** Ekstra ressurser under Altinn 2 → 3-migrasjon (2023-2026)
+- **Kapasitetsestimater:** Estimert 3-8 MNOK Ã¥rlig for drift innenfor Altinn-operasjonen
+- **Migrasjon:** Ekstra ressurser under Altinn 2 â†’ 3-migrasjon (2023-2026)
 
 **Finansiering:** Via Digdir/statsbudsjett som del av felleskomponenter-ordningen.
 
-**Kilder:** Estimert basert på Altinn-portefølje-rapporter; eksakt kostnadsallokering ikke offentlig spesifisert.
+**Kilder:** Estimert basert pÃ¥ Altinn-portefÃ¸lje-rapporter; eksakt kostnadsallokering ikke offentlig spesifisert.
 
 ## Forvaltning/eier
 
-| Ansvarsområde | Organisasjon | Detaljer |
+| AnsvarsomrÃ¥de | Organisasjon | Detaljer |
 |---|---|---|
 | **Produktansvar** | Digitaliseringsdirektoratet (Digdir) / Altinn-forvaltningen | Strategisk retning, API-kontrakt, standarder |
-| **Driftsansvar** | Altinn-operasjonen (Digdir + ekstern driftsleverandør) | 24/7 drift, SLA ~99.95% oppetid |
-| **Budsjettansvar** | Digdir / Statsbudsjett | Del av Altinn-portefølje; ekstra ressurser for migrasjon |
+| **Driftsansvar** | Altinn-operasjonen (Digdir + ekstern driftsleverandÃ¸r) | 24/7 drift, SLA ~99.95% oppetid |
+| **Budsjettansvar** | Digdir / Statsbudsjett | Del av Altinn-portefÃ¸lje; ekstra ressurser for migrasjon |
 | **Styringsmodell** | Altinn 3-produktgruppe / Datautveksling-domene | Felles strategi med eFormidling, API-Gateway, Events |
 
-**Styringsforum:** Altinn 3-styre og datautvekslings-domene-møter (løpende strategi og prioriteringer).
+**Styringsforum:** Altinn 3-styre og datautvekslings-domene-mÃ¸ter (lÃ¸pende strategi og prioriteringer).
 
 ## Lenke til dokumentasjon
 
-- https://docs.altinn.studio/nb/broker/ – Formidling-dokumentasjon
-- https://docs.altinn.studio/nb/broker/what-do-you-get/ – Kapabiliteter-oversikt
-- https://docs.altinn.studio/nb/broker/getting-started/ – Getting-started guide
-- https://docs.altinn.studio/nb/broker/reference/ – API-referanse
-- https://samarbeid.digdir.no/altinn-api/ – Samarbeidsportal (Altinn API-koordinering)
+- https://docs.altinn.studio/nb/broker/ â€“ Formidling-dokumentasjon
+- https://docs.altinn.studio/nb/broker/what-do-you-get/ â€“ Kapabiliteter-oversikt
+- https://docs.altinn.studio/nb/broker/getting-started/ â€“ Getting-started guide
+- https://docs.altinn.studio/nb/broker/reference/ â€“ API-referanse
+- https://samarbeid.digdir.no/altinn-api/ â€“ Samarbeidsportal (Altinn API-koordinering)
 
 ## Kildegrunnlag brukt i denne utfyllingen
 
@@ -192,7 +192,7 @@ Grunnlag: Kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
 - Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Nettkilder: Altinn Docs (hentet 2026-03-07)
 - Samarbeidsportalen: Altinn API (hentet 2026-03-07)
-- Kilder for finansiering: Altinn-portefølje-rapporter (estimert)
+- Kilder for finansiering: Altinn-portefÃ¸lje-rapporter (estimert)
 
 ---
 
@@ -200,13 +200,13 @@ Grunnlag: Kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
 
 **Endringer fra originalversjon:**
 
-✅ **Brukersegmenter:** Struktur ut som tabell med konkrete behov og estimert volum
-✅ **Risikomatrise:** 8 konkrete risikokategorier med håndtering  
-✅ **Finansiering:** Detaljert kostnadsmodell (estimert 3-8 MNOK årlig)
-✅ **Forvaltning:** Tabell-format med tydelig ansvarsfordeling
-✅ **Veikart:** Konkrete fokusområder (migrasjons-støtte, API-modernisering, observability)
-✅ **Scope:** Eksplisitt tabell over hva som inngår/ikke inngår
-✅ **Kapabiliteter:** Detalj-beskrivelser av hvordan hver kapabilitet realiseres
-✅ **Arkitekturdetal jer:** Broker-mønster, kømekanismer, FIFO, durable-storage konkretisert
-✅ **Migrasjons-kontekst:** Eksplisert forbindelse til Altinn 2 → 3-migrasjon
+âœ… **Brukersegmenter:** Struktur ut som tabell med konkrete behov og estimert volum
+âœ… **Risikomatrise:** 8 konkrete risikokategorier med hÃ¥ndtering  
+âœ… **Finansiering:** Detaljert kostnadsmodell (estimert 3-8 MNOK Ã¥rlig)
+âœ… **Forvaltning:** Tabell-format med tydelig ansvarsfordeling
+âœ… **Veikart:** Konkrete fokusomrÃ¥der (migrasjons-stÃ¸tte, API-modernisering, observability)
+âœ… **Scope:** Eksplisitt tabell over hva som inngÃ¥r/ikke inngÃ¥r
+âœ… **Kapabiliteter:** Detalj-beskrivelser av hvordan hver kapabilitet realiseres
+âœ… **Arkitekturdetal jer:** Broker-mÃ¸nster, kÃ¸mekanismer, FIFO, durable-storage konkretisert
+âœ… **Migrasjons-kontekst:** Eksplisert forbindelse til Altinn 2 â†’ 3-migrasjon
 

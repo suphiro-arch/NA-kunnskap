@@ -1,10 +1,10 @@
-﻿# Produkt-canvas: eInnsyn
+# Produkt-canvas: eInnsyn
 
 ## Navn
 eInnsyn
 
 ## Ressurs ID
-6
+DIGDIR-006
 
 ## Status/Livsfase
 **Produksjon** - etablert nasjonal fellesløsning for publisering og innsyn i offentlig informasjon.

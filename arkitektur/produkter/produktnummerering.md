@@ -1,13 +1,14 @@
 # Produktregister og ressurs-ID-er
 
-Kilde: arbeidsregister bygget fra eksisterende produktliste og siste produktversjoner i repoet.
+Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjoner i repoet og første arbeidsutkast for nye ressurseiere fra `sources/links.md`.
 
 ## Prinsipp
 - `Løpenr` beholdes som stabil intern sortering og brukes fortsatt i filnavn, for eksempel `01-ID-porten-produkt-canvas-v3-codex.md`.
 - `Ressurs-ID` er den nye, kanoniske identifikatoren som skal brukes i feltet `Ressurs ID` i produktbeskrivelser.
 - `Ressurs-ID` bygges som `<EIERKODE>-<løpenummer hos eier>`, for eksempel `DIGDIR-001` eller `KS-003`.
 - Nye produkter skal få neste ledige nummer innenfor sin eierkode. Eksisterende `Ressurs-ID` skal ikke endres uten bevisst omnummerering.
-- Eierkolonnen er et første arbeidsutkast og kan justeres når vi kvalitetssikrer eierskap for flere ressurser.
+- Rader uten egen produktbeskrivelse ennå er arbeidsutkast. Der står `Siste versjon` som `Ikke opprettet ennå` og dokumentfeltet er tomt.
+- Eier, type ressurs og kapabilitetstreff for nye ressurser er første arbeidsutkast og må kvalitetssikres når produktbeskrivelsene opprettes.
 
 ## Eierkoder
 | Eierkode | Eier | Bruk |
@@ -52,14 +53,26 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste og siste produktvers
 | 11 | `BRREG-002` | Peppol eDelivery | Meldingsinfrastruktur | Datautveksling og integrasjon: Bruke data fra andre<br>Datautveksling og integrasjon: Dele data med andre<br>Datautveksling og integrasjon: Meldingsformidling<br>Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling<br>Standardisering: EU-standarder<br>Standardisering: Forvaltningsstandarder | v2 (copilot) | [Åpne](../../results/Produktbeskrivelser/11-Peppol-eDelivery-produkt-canvas-v2-copilot.md) |
 
 ## KS Digital (`KS`)
-Ingen registrerte ressurser ennå.
+| Løpenr | Ressurs-ID | Navn | Type ressurs | Kapabilitetstreff | Siste versjon | Dokument |
+|---:|---|---|---|---|---|---|
+| 25 | `KS-001` | FIKS-plattformen | Samhandlingsplattform | Samarbeid: Organisatorisk samhandling<br>Tjenesteutvikling: Integrerbare tjenester | Ikke opprettet ennå | - |
+| 26 | `KS-002` | FIKS Melding | Formidlingstjeneste | Datautveksling og integrasjon: Meldingsformidling<br>Samarbeid: Organisatorisk samhandling | Ikke opprettet ennå | - |
+| 27 | `KS-003` | SvarUt | Utsendingstjeneste | Datautveksling og integrasjon: Meldingsformidling<br>Sluttbrukertjenester: Sammenhengende tjenester | Ikke opprettet ennå | - |
+| 28 | `KS-004` | FIKS Register | Registertjeneste | Datakilder: Grunndata<br>Datautveksling og integrasjon: Dele data med andre | Ikke opprettet ennå | - |
 
 ## Helsedirektoratet (`HDIR`)
-Ingen registrerte ressurser ennå.
+| Løpenr | Ressurs-ID | Navn | Type ressurs | Kapabilitetstreff | Siste versjon | Dokument |
+|---:|---|---|---|---|---|---|
+| 29 | `HDIR-001` | Helsedata.no | Datatilgangsportal | Informasjonsforvaltning: Oversikt over datasett<br>Informasjonsforvaltning: Oversikt over tjenester | Ikke opprettet ennå | - |
 
 ## NAV (`NAV`)
-Ingen registrerte ressurser ennå.
+| Løpenr | Ressurs-ID | Navn | Type ressurs | Kapabilitetstreff | Siste versjon | Dokument |
+|---:|---|---|---|---|---|---|
+| 30 | `NAV-001` | NAV registre og statistikk | Data- og registeroversikt | Informasjonsforvaltning: Oversikt over datasett<br>Datakilder: Grunndata | Ikke opprettet ennå | - |
 
 ## Skatteetaten (`SKATT`)
-Ingen registrerte ressurser ennå.
+| Løpenr | Ressurs-ID | Navn | Type ressurs | Kapabilitetstreff | Siste versjon | Dokument |
+|---:|---|---|---|---|---|---|
+| 31 | `SKATT-001` | Folkeregisteret | Register / grunndata | Datakilder: Grunndata<br>Datautveksling og integrasjon: Dele data med andre | Ikke opprettet ennå | - |
+| 32 | `SKATT-002` | Digital plattforminformasjon (DPI) | Rapporterings- og datadelingstjeneste | Datautveksling og integrasjon: Dele data med andre<br>Standardisering: Forvaltningsstandarder | Ikke opprettet ennå | - |
 

@@ -22,6 +22,8 @@ sources:
 
 - Kvalitetssjekket masterfila for produkt-kapabilitet-koblinger og strammet inn koblingene til et første manuelt arbeidsutkast basert på direkte og sterke koblinger.
 - Lagt om produktregisteret til eierbasert `Ressurs ID`, med ekstra kolonner for ressurstype, kapabilitetstreff og lenke til siste dokumentversjon.
+- Oppdatert siste versjon av produkt `01-24` slik at feltet `Ressurs ID` nå bruker eierbasert identifikator.
+- Lagt inn første arbeidsutkast for ressurser fra `KS`, `HDIR`, `NAV` og `SKATT` i produktregisteret, basert på `sources/links.md`.
 
 ## Hva gjenstår
 - Velge lisens for dokumentasjonsinnholdet i repoet.
@@ -31,6 +33,7 @@ sources:
 - Oppdatere de neste produktbeskrivelsene i stigende rekkefølge etter samme metode som for `02-06`.
 - Følge opp kvaliteten i selve koblingene mellom produkter og kapabiliteter, særlig i eldre produktbeskrivelser der kapabilitetsseksjonen er svakere eller mindre presis.
 - Ta inn de første ressursene fra KS, Helsedirektoratet, NAV og Skatteetaten i produktregisteret med samme ID-prinsipp.
+- Kvalitetssikre de nye arbeidsutkastene for `KS`, `HDIR`, `NAV` og `SKATT`, særlig eierskap, ressurstype og kapabilitetstreff.
 
 ## Blokkere/risiko
 - Repoet har ingen eksplisitt lisens for dokumentasjonsinnholdet.

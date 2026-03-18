@@ -1,10 +1,10 @@
-﻿# Produkt-canvas: Kontakt- og reservasjonsregisteret
+# Produkt-canvas: Kontakt- og reservasjonsregisteret
 
 ## Navn
 Kontakt- og reservasjonsregisteret
 
 ## Ressurs ID
-5
+DIGDIR-005
 
 ## Status/Livsfase
 **Produksjon** - etablert nasjonal fellesløsning for kontaktopplysninger og reservasjonsstatus ved digital kommunikasjon.
