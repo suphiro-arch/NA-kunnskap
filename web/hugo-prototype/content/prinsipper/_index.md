@@ -1,53 +1,41 @@
-﻿---
+---
 title: "Prinsipper"
 weight: 20
 description: "Arkitekturprinsipper som gir retning for samhandling, gjenbruk, tillit og styring i nasjonal arkitektur."
 ---
 
-# Prinsipper
+# Prinsipper for nasjonal arkitektur
 
-Prinsippene gir faglige føringer for hvordan nasjonal arkitektur bør utvikles og forvaltes. De skal brukes når man vurderer løsninger, prioriterer tiltak og avklarer hvilke valg som gir mest verdi på tvers av virksomheter.
+Kildegrunnlag:
+- `sources/2025-03-18-Nasjonal Arkitektur.xml`
+- `arkitektur/kapabiliteter/capabilities.yaml`
 
-## Hvordan bruke prinsippene
+Denne fila samler de sju arkitekturprinsippene som faktisk er koblet til kapabilitetsmodellen, og viser hvilke hovedkapabiliteter som realiserer hvert prinsipp.
 
-Prinsippene er ikke bare formuleringer for strategi og styringsdokumenter. De er ment å brukes aktivt når man:
-
-- vurderer nye fellesløsninger eller endringer i eksisterende løsninger
-- prioriterer mellom alternative tiltak
-- avklarer krav til samhandling, gjenbruk og tillit
-- begrunner arkitekturvalg på tvers av team og virksomheter
-
-## Arkitekturprinsipper
+## Prinsipper
 
 | Prinsipp | Hva det betyr i praksis |
 |---|---|
-| **P1: Ta utgangspunkt i brukernes behov** | Løsninger bør formes ut fra reelle behov hos innbyggere, virksomheter og forvaltning, ikke ut fra organisatoriske siloer. |
-| **P2: Ta arkitekturbeslutninger på rett nivå** | Beslutninger bør tas så nær problemet som mulig, men løftes når konsekvensene går på tvers av flere aktører. |
-| **P3: Bidra til digitaliseringsvennlige regelverk** | Regelverk bør støtte digital samhandling, automatisering og sammenhengende tjenester. |
-| **P4: Del og gjenbruk data** | Data bør kunne beskrives, finnes og brukes på tvers når det er hjemmel og behov for det. |
-| **P5: Del og gjenbruk løsninger** | Felles behov bør dekkes med gjenbrukbare byggeklosser fremfor parallelle særutviklede løsninger. |
-| **P6: Lag digitale løsninger som støtter samhandling** | Tjenester bør bygges slik at de kan inngå i større sammenhenger med andre tjenester og aktører. |
-| **P7: Sørg for tillit til oppgaveløsningen** | Sikkerhet, sporbarhet og dokumenterbarhet må være integrert i løsningene. |
+| **P1: Ta utgangspunkt i brukernes behov** | Løsninger skal formes ut fra reelle behov hos innbyggere, virksomheter og forvaltning, ikke ut fra organisatoriske siloer. |
+| **P2: Ta arkitekturbeslutninger på rett nivå** | Beslutninger skal tas så nær problemet som mulig, men løftes når konsekvensene går på tvers av flere aktører. |
+| **P3: Bidra til digitaliseringsvennlige regelverk** | Regelverk skal støtte digital samhandling, automatisering og sammenhengende tjenester. |
+| **P4: Del og gjenbruk data** | Data skal kunne beskrives, finnes og brukes på tvers når det er hjemmel og behov for det. |
+| **P5: Del og gjenbruk løsninger** | Felles behov skal dekkes med gjenbrukbare byggeklosser framfor parallelle særutviklede løsninger. |
+| **P6: Lag digitale løsninger som støtter samhandling** | Tjenester skal bygges slik at de kan inngå i større sammenhenger med andre tjenester og aktører. |
+| **P7: Sørg for tillit til oppgaveløsningen** | Sikkerhet, sporbarhet og dokumenterbarhet skal være integrert i løsningene. |
 
-## Sammenheng mellom prinsipper og kapabiliteter
+## Kobling mellom prinsipper og kapabiliteter
 
-| Prinsipp | Sentrale kapabiliteter |
+| Prinsipp | Hovedkapabiliteter |
 |---|---|
-| Ta utgangspunkt i brukernes behov | [Sluttbrukertjenester](../kapabiliteter/sluttbrukertjenester/), [Tjenesteutvikling](../kapabiliteter/tjenesteutvikling/) |
-| Ta arkitekturbeslutninger på rett nivå | [Strategisk styring](../kapabiliteter/strategisk-styring/), [Samarbeid](../kapabiliteter/samarbeid/) |
-| Bidra til digitaliseringsvennlige regelverk | [Juridisk samhandling](../kapabiliteter/juridisk-samhandling/) |
-| Del og gjenbruk data | [Datautveksling og integrasjon](../kapabiliteter/datautveksling-og-integrasjon/), [Datadrevet](../kapabiliteter/datadrevet/), [Datakilder](../kapabiliteter/datakilder/) |
-| Del og gjenbruk løsninger | [Tjenesteutvikling](../kapabiliteter/tjenesteutvikling/), [Sluttbrukertjenester](../kapabiliteter/sluttbrukertjenester/) |
-| Lag digitale løsninger som støtter samhandling | [Samarbeid](../kapabiliteter/samarbeid/), [Informasjonsforvaltning](../kapabiliteter/informasjonsforvaltning/), [Standardisering](../kapabiliteter/standardisering/), [Veiledning](../kapabiliteter/veiledning/) |
-| Sørg for tillit til oppgaveløsningen | [Tillit](../kapabiliteter/tillit/), [Informasjonssikkerhet](../kapabiliteter/informasjonssikkerhet/), [Juridisk samhandling](../kapabiliteter/juridisk-samhandling/) |
+| **P1: Ta utgangspunkt i brukernes behov** | `Sluttbrukertjenester`, `Tjenesteutvikling` |
+| **P2: Ta arkitekturbeslutninger på rett nivå** | `Strategisk styring`, `Samarbeid` |
+| **P3: Bidra til digitaliseringsvennlige regelverk** | `Juridisk samhandling` |
+| **P4: Del og gjenbruk data** | `Datakilder`, `Datautveksling og integrasjon`, `Datadrevet` |
+| **P5: Del og gjenbruk løsninger** | `Sluttbrukertjenester`, `Tjenesteutvikling` |
+| **P6: Lag digitale løsninger som støtter samhandling** | `Samarbeid`, `Datautveksling og integrasjon`, `Informasjonsforvaltning`, `Standardisering`, `Veiledning` |
+| **P7: Sørg for tillit til oppgaveløsningen** | `Tillit`, `Informasjonssikkerhet`, `Juridisk samhandling` |
 
-## Eksempler på hvordan prinsippene brukes
+## Avgrensning
 
-### P4: Del og gjenbruk data
-Dette prinsippet er særlig relevant når virksomheter skal beskrive, gjøre tilgjengelig og bruke data på tvers. Det peker direkte mot kapabiliteter for datautveksling, datakilder og informasjonsforvaltning.
-
-### P5: Del og gjenbruk løsninger
-Dette prinsippet er sentralt når man vurderer om et behov bør dekkes av en fellesløsning, en gjenbrukbar komponent eller en lokal spesialtilpasning.
-
-### P6: Lag digitale løsninger som støtter samhandling
-Dette prinsippet er viktig når en løsning skal inngå i en større tjenestekjede og må fungere sammen med andre produkter, prosesser og dataflyter.
+Denne fila bruker de prinsippene som er aktivt koblet til top-level-kapabiliteter i modellen. XML-kilden inneholder også generiske eller sideordnede principelementer, som `Prinsipp`, `Kun en gang`, `FAIR` og `NSM`, men disse er ikke modellert som del av den operative koblingen mellom prinsipper og kapabiliteter.

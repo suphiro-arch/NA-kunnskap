@@ -46,6 +46,10 @@ jobs:
         run: |
           python web/hugo-prototype/scripts/generate-capabilities.py
 
+      - name: Sync principles page
+        run: |
+          python web/hugo-prototype/scripts/sync-principles.py
+
       - name: Regenerate product pages
         shell: pwsh
         run: |

@@ -13,7 +13,8 @@ Dette er en isolert prototype for en framtidig nettside om nasjonal arkitektur.
 
 - `arkitektur/kapabiliteter/capabilities.yaml`
 - `results/Produktbeskrivelser/`
-- `arkitektur/prinsipper/principles.md` brukes ikke foreløpig fordi den ikke er ferdig utfylt
+- `arkitektur/prinsipper/principles.md`
+- `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml`
 
 ## Generering av innhold
 
@@ -21,6 +22,7 @@ Produkter og kapabiliteter genereres fra repoets kildefiler:
 
 ```bash
 python scripts/generate-capabilities.py
+python scripts/sync-principles.py
 powershell -ExecutionPolicy Bypass -File scripts/generate-products.ps1
 ```
 
@@ -31,6 +33,9 @@ Kapabilitetsscriptet bygger:
 
 Produktscriptet bygger:
 - samlet oversikt over siste versjon per produkt
+
+Prinsippscriptet bygger:
+- websidens prinsippinnhold direkte fra `arkitektur/prinsipper/principles.md`
 
 ## Lokal kjøring
 

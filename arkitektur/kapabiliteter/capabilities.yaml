@@ -100,6 +100,7 @@ kapabilitetsmodell:
         Evne til å sikkert, effektivt og standardisert utveksle data mellom aktører
         i økosystemet.
       prinsipper:
+        - id-0007ec16e9a1406d9f6aabd1f975d993  # P6
         - id-a27833cb9e324549916a528f31481dce  # P4
       delkapabiliteter:
         - id: id-efe1a2676c124eeab946802af96a1ab7
