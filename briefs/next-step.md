@@ -40,6 +40,7 @@ sources:
 - Dokumentert råkilder, kuraterte arbeidsfiler og videre prosessering i [struktur-og-bearbeiding.md](c:/Users/HILROS/NA-kunnskap/arkitektur/struktur-og-bearbeiding.md).
 - Kartlagt mål- og ressursrelasjoner i XML-kilden, dokumentert at ressursrelasjonene ikke er på samme nivå som repoets produktmaster, og opprettet [maal.md](c:/Users/HILROS/NA-kunnskap/arkitektur/maal/maal.md) som første kuraterte måloversikt.
 - Ryddet `capabilities.yaml` slik at den nå bare inneholder kapabilitetsstrukturen, mens prinsipptekst og målspor ligger i egne kuraterte filer.
+- Utvidet `maal.md` med de få eksplisitte kapabilitet-til-mål-koblingene som faktisk finnes i XML-kilden, og markerte hvilke som er operative versus generiske.
 
 ## Hva gjenstår
 - Velge lisens for dokumentasjonsinnholdet i repoet.

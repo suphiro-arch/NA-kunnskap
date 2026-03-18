@@ -5,6 +5,16 @@ Kildegrunnlag:
 
 Denne fila samler de operative målene som faktisk er modellert i XML-kilden, og beskriver hvordan de er koblet til den overordnede arkitekturmodellen.
 
+## Eksplisitte koblinger til kapabiliteter i XML
+
+XML-kilden har få direkte koblinger mellom kapabiliteter og mål. De som faktisk finnes, er:
+
+| Kapabilitet | Relasjon | Mål / utfall | Kommentar |
+|---|---|---|---|
+| `Nasjonal arkitektur for samhandling` | Realiserer | `Et velfungerende felles digitalt økosystem for samhandling og tjenesteutvikling i offentlig sektor` | Dette er den tydeligste operative koblingen i modellen. |
+| `Strategisk kapabilitet (overordnet)` | Realiserer | `Behov` | Generisk kobling i modellen. Ikke brukt videre som operativ kapabilitet i repoet. |
+| `Strategisk kapabilitet (overordnet)` | Realiserer / assosieres med | `Effektmål fremtid` | Generisk kobling i modellen. Ikke brukt videre som operativ kapabilitet i repoet. |
+
 ## Hovedmål i modellen
 
 ### Overordnet mål
@@ -32,6 +42,7 @@ XML-modellen viser disse eksplisitte koblingene:
 
 1. `Nasjonal arkitektur for samhandling` realiserer målet `Et velfungerende felles digitalt økosystem for samhandling og tjenesteutvikling i offentlig sektor`.
 2. Dette overordnede målet påvirker de åtte strategiske målene listet over.
+3. XML-en har i tillegg generiske koblinger fra `Strategisk kapabilitet (overordnet)` til `Behov` og `Effektmål fremtid`, men disse er ikke del av repoets kuraterte operative kapabilitetsstruktur.
 
 ## Viktig avgrensning
 
@@ -39,7 +50,7 @@ XML-kilden viser ikke en full operativ kobling fra hver hovedkapabilitet til hve
 
 Det betyr:
 - modellen kan brukes som grunnlag for et eget målspor i repoet
-- men den kan ikke brukes direkte som autoritativ detaljkobling mellom hver kapabilitet og hvert mål uten videre kuratering
+- men den kan ikke brukes direkte som autoritativ detaljkobling mellom hver hovedkapabilitet og hvert mål uten videre kuratering
 
 ## Anbefalt bruk i repoet
 
