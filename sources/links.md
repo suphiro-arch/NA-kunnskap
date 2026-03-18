@@ -29,6 +29,9 @@ Sist redigert: 2026-03-18.
 - eInnsyn - innsyn og oppslag: https://samarbeid.digdir.no/einnsyn/innsyn-og-oppslag/2484
 - eFormidling: https://www.digdir.no/eformidling/om-eformidling/2182
 - eFormidling dokumentasjon: https://docs.digdir.no/docs/eformidling/
+- ELMA: https://www.digdir.no/felleslosninger/elektronisk-mottakerregister-elma/784 (lagt til 2026-03-18)
+- ELMA dokumentasjon: https://docs.digdir.no/docs/ELMA/ (lagt til 2026-03-18)
+- ELMA i Samarbeidsportalen: https://samarbeid.digdir.no/elma/dette-er-elma/108 (lagt til 2026-03-18)
 - Felles datakatalog: https://www.digdir.no/felles-datakatalog/om-felles-datakatalog/2274
 - Felles datakatalog - datadeling: https://samarbeid.digdir.no/felles-datakatalog/datadeling/2480
 - Felles datakatalog - dette er Felles datakatalog: https://samarbeid.digdir.no/felles-datakatalog/dette-er-felles-datakatalog/1616
@@ -42,7 +45,11 @@ Sist redigert: 2026-03-18.
 ### Brønnøysundregistrene
 - Brønnøysundregistrene: https://www.brreg.no
 - Enhetsregisteret: https://www.brreg.no/enkelt-i-brreg/registre-og-teknologi/enhetsregister/
-- ELMA: https://www.altinn.no/tjenester/uten-innlogging/elma/
+
+### OpenPeppol
+- OpenPeppol: https://peppol.org/ (lagt til 2026-03-18)
+- Peppol dokumentasjon: https://peppol.org/documentation/ (lagt til 2026-03-18)
+- Peppol eDelivery-dokumentasjon: https://docs.peppol.eu/edelivery/ (lagt til 2026-03-18)
 
 ### NAV
 - NAV hovedside: https://www.nav.no/
@@ -151,6 +158,14 @@ Sist redigert: 2026-03-18.
 - Referansekatalogen for IT-standarder: https://www.digdir.no/digitalisering-og-samordning/referansekatalogen-it-standarder/1480
 - Arbeidsmetodikk for referansekatalogen: https://www.digdir.no/digitalisering-og-samordning/arbeidsmetodikk-referansekatalogen/5622
 - Arkitektur- og standardiseringsrådet: https://www.digdir.no/digitalisering-og-samordning/arkitektur-og-standardiseringsradet/3918
+
+### EHF og Peppol
+- Elektronisk handelsformat (EHF): https://www.anskaffelser.no/hva-skal-du-kjope/fagsystemer-digitale-anskaffelser/elektronisk-handelsformat-ehf (lagt til 2026-03-18)
+- Veiledningspakke for systemleverandører: https://www.anskaffelser.no/verktoy/verktoypakker/veiledningspakke-systemleverandorer (lagt til 2026-03-18)
+- Aksesspunkt: https://www.anskaffelser.no/verktoy/veiledere/aksesspunkt (lagt til 2026-03-18)
+- Aksesspunkter for EHF- og BIS-formater: https://anskaffelser.no/verktoy/veiledere/aksesspunkter-ehf-og-bis-formater (lagt til 2026-03-18)
+- EHF prosessdefinisjoner: https://anskaffelser.no/verktoy/verktoypakker/elektronisk-handelsformat-ehf-prosessdefinisjoner (lagt til 2026-03-18)
+- Bruksvilkår for ELMA: https://samarbeid.digdir.no/elma/bruksvilkar-elma/2072 (lagt til 2026-03-18)
 
 ### Informasjonsforvaltning og styring
 - Rammeverk for informasjonsforvaltning: https://www.digdir.no/digitalisering-og-samordning/rammeverk-informasjonsforvaltning/2419
