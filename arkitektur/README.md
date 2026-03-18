@@ -20,6 +20,11 @@ Denne mappa samler det strukturerte arkitekturgrunnlaget i repoet.
 - `maal/maal.md` brukes videre som kuratert referanse når analyser eller dokumentasjon trenger kobling mellom nasjonal arkitektur og strategiske mål.
 - Webens prinsippside synkes fra `prinsipper/principles.md`, slik at repoet har én styrende fil for prinsippinnholdet.
 
+## Avgrensning mellom filer
+- `capabilities.yaml` skal beskrive kapabilitetsstrukturen, ikke være en samlefil for mål- og prinsipptekst.
+- `principles.md` skal samle prinsippnavn, prinsippforklaringer og prinsipp-kapabilitetskoblinger.
+- `maal/maal.md` skal samle målsporet fra modellen.
+
 ## Koblinger mellom produkter og kapabiliteter
 - `kapabiliteter/produkt-kapabilitet-koblinger.yaml` er masterfila for koblingen mellom produkter og kapabiliteter.
 - Fila vedlikeholdes manuelt i repoet og er autoritativ kilde for koblingen mellom produkter og kapabiliteter.

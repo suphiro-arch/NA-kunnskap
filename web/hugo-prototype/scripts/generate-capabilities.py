@@ -85,32 +85,8 @@ def parse_scalar(lines: list[str], index: int, field_indent: int) -> tuple[str, 
     return value.strip(), index + 1
 
 
-def parse_capabilities_yaml(path: Path) -> tuple[list[dict], dict[str, str], dict[str, list[dict]]]:
+def parse_capabilities_yaml(path: Path) -> list[dict]:
     lines = read_text(path).splitlines()
-
-    principles: dict[str, str] = {}
-    principle_reason_map: dict[str, list[dict]] = defaultdict(list)
-
-    # Top-level principles names
-    for idx, line in enumerate(lines):
-        if line.strip() == 'prinsipper:' and not line.startswith(' '):
-            i = idx + 1
-            while i < len(lines):
-                if re.match(r'^[A-Za-z_]+:', lines[i]):
-                    break
-                if lines[i].startswith('  - id:'):
-                    principle_id = lines[i].split(':', 1)[1].strip()
-                    i += 1
-                    name = ''
-                    while i < len(lines) and not lines[i].startswith('  - id:') and not re.match(r'^[A-Za-z_]+:', lines[i]):
-                        if lines[i].startswith('    navn:'):
-                            name, i = parse_scalar(lines, i, 4)
-                            continue
-                        i += 1
-                    principles[principle_id] = name
-                    continue
-                i += 1
-            break
 
     capabilities: list[dict] = []
     i = 0
@@ -193,40 +169,7 @@ def parse_capabilities_yaml(path: Path) -> tuple[list[dict], dict[str, str], dic
                 i += 1
         i += 1
 
-    # Principle-capability reasons
-    for idx, line in enumerate(lines):
-        if line.strip() == 'prinsipp_kapabilitet_koblinger:' and not line.startswith(' '):
-            i = idx + 1
-            while i < len(lines):
-                if lines[i].startswith('  - prinsipp_id:'):
-                    principle_id = lines[i].split(':', 1)[1].strip().split()[0]
-                    i += 1
-                    while i < len(lines):
-                        if lines[i].startswith('  - prinsipp_id:'):
-                            break
-                        if lines[i].startswith('      - kapabilitet_id:'):
-                            capability_id = lines[i].split(':', 1)[1].strip().split()[0]
-                            i += 1
-                            reason = ''
-                            while i < len(lines):
-                                if lines[i].startswith('      - kapabilitet_id:') or lines[i].startswith('  - prinsipp_id:'):
-                                    break
-                                if lines[i].startswith('        begrunnelse:'):
-                                    reason, i = parse_scalar(lines, i, 8)
-                                    continue
-                                i += 1
-                            principle_reason_map[capability_id].append({
-                                'principle_id': principle_id,
-                                'principle_name': principles.get(principle_id, principle_id),
-                                'reason': reason,
-                            })
-                            continue
-                        i += 1
-                    continue
-                i += 1
-            break
-
-    return capabilities, principles, principle_reason_map
+    return capabilities
 
 
 def extract_section(markdown: str, heading: str) -> str:
@@ -427,7 +370,7 @@ def indent_block(text: str, spaces: int = 2) -> str:
 
 
 def generate() -> None:
-    capabilities, _, _ = parse_capabilities_yaml(CAPABILITIES_FILE)
+    capabilities = parse_capabilities_yaml(CAPABILITIES_FILE)
     capability_products, subcap_products = parse_product_capability_mappings(capabilities)
 
     if OUT_DIR.exists():
