@@ -8,12 +8,17 @@ Sist redigert: 2026-03-18.
 ### Digdir
 - Nasjonale fellesløsninger: https://www.digdir.no/felleslosninger/nasjonale-felleslosninger/750
 - Samlet teknisk dokumentasjon: https://docs.digdir.no/
+- Samarbeidsportalen: https://samarbeid.digdir.no/
 - Altinn: https://www.altinn.no
 - Altinn dokumentasjon: https://docs.altinn.studio/nb/ (mest oppdatert for Altinn)
+- Altinn - tjenesteutvikling: https://samarbeid.digdir.no/altinn/tjenesteutvikling/2634
+- Altinn - portaler og brukeroppleving: https://samarbeid.digdir.no/altinn/portalar-og-brukaroppleving/2485
 - ID-porten: https://www.digdir.no/id-porten/om-id-porten/1507
 - ID-porten dokumentasjon: https://docs.digdir.no/docs/idporten/
+- ID-porten - tillitstjenester: https://samarbeid.digdir.no/id-porten/tillitstenester/2479
 - Maskinporten: https://www.digdir.no/om-tjenesten/maskinporten/1558
 - Digital post (felleskomponent): https://www.digdir.no/felleskomponenter/digital-post/1483
+- Digital postkasse - meldingsutveksling: https://samarbeid.digdir.no/digital-postkasse/meldingsutveksling/2483
 - Kontakt- og reservasjonsregisteret (KRR): https://docs.digdir.no/docs/Kontaktregisteret/
 - KRR overordnet: https://docs.digdir.no/docs/Kontaktregisteret/krr_overordnet
 - Sertifikattjenester: https://www.digdir.no/digital-sikkerhet/sertifikattjenester/1538
@@ -21,24 +26,18 @@ Sist redigert: 2026-03-18.
 - eSignering dokumentasjon: https://docs.digdir.no/docs/esignering/
 - eInnsyn: https://www.digdir.no/einnsyn/om-einnsyn/2262
 - eInnsyn dokumentasjon: https://docs.digdir.no/docs/einnsyn/
+- eInnsyn - innsyn og oppslag: https://samarbeid.digdir.no/einnsyn/innsyn-og-oppslag/2484
 - eFormidling: https://www.digdir.no/eformidling/om-eformidling/2182
 - eFormidling dokumentasjon: https://docs.digdir.no/docs/eformidling/
 - Felles datakatalog: https://www.digdir.no/felles-datakatalog/om-felles-datakatalog/2274
+- Felles datakatalog - datadeling: https://samarbeid.digdir.no/felles-datakatalog/datadeling/2480
+- Felles datakatalog - dette er Felles datakatalog: https://samarbeid.digdir.no/felles-datakatalog/dette-er-felles-datakatalog/1616
+- data.norge.no: https://data.norge.no/
+- data.norge.no i Samarbeidsportalen: https://samarbeid.digdir.no/felles-datakatalog/datanorgeno/1617
 - data.altinn.no: https://data.altinn.no/
 - data.altinn.no dokumentasjon: https://docs.data.altinn.no/
 - Norge.no: https://www.norge.no/
 - Om tjenestene på Norge.no: https://www.norge.no/om-norge-no
-
-### Digdir samarbeidsflater
-- Samarbeidsportalen: https://samarbeid.digdir.no/
-- ID-porten - tillitstjenester: https://samarbeid.digdir.no/id-porten/tillitstenester/2479
-- Felles datakatalog - datadeling: https://samarbeid.digdir.no/felles-datakatalog/datadeling/2480
-- Felles datakatalog - dette er Felles datakatalog: https://samarbeid.digdir.no/felles-datakatalog/dette-er-felles-datakatalog/1616
-- data.norge.no i Samarbeidsportalen: https://samarbeid.digdir.no/felles-datakatalog/datanorgeno/1617
-- Altinn - tjenesteutvikling: https://samarbeid.digdir.no/altinn/tjenesteutvikling/2634
-- Digital postkasse - meldingsutveksling: https://samarbeid.digdir.no/digital-postkasse/meldingsutveksling/2483
-- eInnsyn - innsyn og oppslag: https://samarbeid.digdir.no/einnsyn/innsyn-og-oppslag/2484
-- Altinn - portaler og brukeroppleving: https://samarbeid.digdir.no/altinn/portalar-og-brukaroppleving/2485
 
 ### Brønnøysundregistrene
 - Brønnøysundregistrene: https://www.brreg.no
@@ -112,8 +111,17 @@ Sist redigert: 2026-03-18.
 
 ### Utdanning
 - Samordna opptak: https://www.samordnaopptak.no
+- Utdanning.no: https://utdanning.no/
+- Om Utdanning.no: https://utdanning.no/tema/om_utdanning.no/om_utdanning.no (lagt til 2026-03-18)
+- Om Sikt: https://sikt.no/om-sikt (lagt til 2026-03-18)
+- Se hva vi kan tilby: https://sikt.no/se-hva-vi-kan-tilby (lagt til 2026-03-18)
+- Utdanning og administrasjon i Sikt: https://sikt.no/se-hva-vi-kan-tilby/utdanning-og-administrasjon (lagt til 2026-03-18)
+- Felles studentsystem (FS): https://sikt.no/tjenester/felles-studentsystem-fs (lagt til 2026-03-18)
+- Opptaksløsninger: https://sikt.no/tjenester/opptakslosninger (lagt til 2026-03-18)
+- Nasjonal vitnemålsdatabase (NVB): https://sikt.no/nb/tjenester/nasjonal-vitnemalsdatabase (lagt til 2026-03-18)
+- Feide videreutvikling: https://sikt.no/tiltak/feide-videreutvikling (lagt til 2026-03-18)
 
-### Tillitstjenester
+### eID tilbydere
 - BankID: https://www.bankid.no
 - Buypass: https://www.buypass.no
 - Commfides: https://www.commfides.no
@@ -146,10 +154,29 @@ Sist redigert: 2026-03-18.
 - Digitaliseringsrundskrivet: https://www.digdir.no/styring-og-organisering/digitaliseringsrundskrivet/1230
 - Bruke data fra andre: https://www.digdir.no/datadeling/slik-kommer-du-i-gang-med-bruke-data-fra-andre/2255
 - Dele data med andre: https://www.digdir.no/datadeling/slik-blir-du-en-god-datatilbyder/2248
-- Andre ressurser: https://www.sikkert.no/
 
-### Informasjonssikkerhet
-- Grunnprinsipper for IKT-sikkerhet: https://nsm.no/fagomrader/digital-sikkerhet/grunnprinsipper-for-ikt-sikkerhet/
+### Informasjonssikkerhet og personvern
+- Sikkert.no: https://www.sikkert.no/ (lagt til 2026-03-18)
+- Sikkert.no for bedrifter: https://www.sikkert.no/bedrift (lagt til 2026-03-18)
+- Sikkert.no for offentlig sektor: https://www.sikkert.no/offentlig (lagt til 2026-03-18)
+- Grunnprinsipper for sikkerhet: https://www.sikkert.no/bedrift/artikler/grunnprinsipper-for-sikkerhet (lagt til 2026-03-18)
+- Cybersjekk: https://www.sikkert.no/bedrift/artikler/cybersjekk (lagt til 2026-03-18)
+- Veileder i digitalsikkerhetsloven og -forskriften: https://www.sikkert.no/offentlig/artikler/digitalsikkerhetsloven-og-forskriften/veileder-i-digitalsikkerhetsloven-og-forskriften (lagt til 2026-03-18)
+- Introduksjon til digitalsikkerhetsloven og -forskriften: https://www.sikkert.no/offentlig/artikler/digitalsikkerhetsloven-og-forskriften/introduksjon (lagt til 2026-03-18)
+- Datatilsynet: https://www.datatilsynet.no/ (lagt til 2026-03-18)
+- Etablere internkontroll: https://www.datatilsynet.no/rettigheter-og-plikter/virksomhetenes-plikter/informasjonssikkerhet-internkontroll/etablere-internkontroll/ (lagt til 2026-03-18)
+- Iverksette styringssystem for informasjonssikkerhet: https://www.datatilsynet.no/rettigheter-og-plikter/virksomhetenes-plikter/informasjonssikkerhet-internkontroll/etablere-internkontroll/iverksette-styringssystem-for-informasjonssikkerhet/ (lagt til 2026-03-18)
+- Informasjonssikkerhet hos virksomheter: https://www.datatilsynet.no/regelverk-og-verktoy/sporsmal-svar/Informasjonssikkerhet-hos-virksomheter/ (lagt til 2026-03-18)
+
+### Kunstig intelligens
+- Veiledning for KI i offentlig sektor: https://www.digdir.no/kunstig-intelligens/veiledning-ki-i-offentlig-sektor/4132 (lagt til 2026-03-18)
+- Om Digdirs KI-veiledning: https://www.digdir.no/kunstig-intelligens/om-digdirs-ki-veiledning/4601 (lagt til 2026-03-18)
+- Råd for ansvarlig utvikling og bruk av kunstig intelligens i offentlig sektor: https://www.digdir.no/kunstig-intelligens/rad-ansvarlig-utvikling-og-bruk-av-kunstig-intelligens-i-offentlig-sektor/4272 (lagt til 2026-03-18)
+- Ansvarlig anskaffelse og bruk av generativ kunstig intelligens i offentlig sektor: https://www.digdir.no/kunstig-intelligens/bruk-av-generativ-kunstig-intelligens-i-offentlig-sektor/4670 (lagt til 2026-03-18)
+- Digdir etablerer KI Norge: https://www.digdir.no/kunstig-intelligens/digdir-etablerer-ki-norge/7412 (lagt til 2026-03-18)
+- Utnytte mulighetene i kunstig intelligens: https://www.digdir.no/digitalisering-og-samordning/utnytte-mulighetene-i-kunstig-intelligens/7097 (lagt til 2026-03-18)
+- Datatilsynets regulatoriske sandkasse for kunstig intelligens: https://www.datatilsynet.no/regelverk-og-verktoy/sandkasse-for-kunstig-intelligens/ (lagt til 2026-03-18)
+- Å lykkes med åpenhet ved bruk av kunstig intelligens: https://www.datatilsynet.no/regelverk-og-verktoy/sandkasse-for-kunstig-intelligens/ferdige-prosjekter-og-rapporter/a-lykkes-med-apenhet-hvordan-informere-om-bruk-av-kunstig-intelligens/ (lagt til 2026-03-18)
 
 ### Arkiv og dokumentforvaltning
 - Arkivverket hovedside: https://www.arkivverket.no/
