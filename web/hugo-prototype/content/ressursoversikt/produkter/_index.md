@@ -167,7 +167,7 @@ API-katalogen er nasjonal register for tilgjengelige API-er i offentlig sektor. 
 
 **Siste versjon:** v4 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/16-data-norge-no-produkt-canvas-v4-codex.md)
 
-data.norge.no er en nasjonal felleslÃ¸sning for Ã¥ finne, forstÃ¥ og viderebruke dataressurser. Portalen samler metadata om datasett, API-er, begreper, informasjonsmodeller, tjenester og hendelser, og gjÃ¸r det enklere Ã¥ oppdage hvilke data offentlig sektor har og kan dele med andre.
+data.norge.no er en nasjonal fellesløsning for å finne, forstå og viderebruke dataressurser. Portalen samler metadata om datasett, API-er, begreper, informasjonsmodeller, tjenester og hendelser, og gjør det enklere å oppdage hvilke data offentlig sektor har og kan dele med andre.
 
 **Kapabiliteter:** [Oversikt over API](../../kapabiliteter/informasjonsforvaltning/oversikt-over-api/) · [Oversikt over begreper](../../kapabiliteter/informasjonsforvaltning/oversikt-over-begreper/) · [Oversikt over datasett](../../kapabiliteter/informasjonsforvaltning/oversikt-over-datasett/) · [Oversikt over hendelser](../../kapabiliteter/informasjonsforvaltning/oversikt-over-hendelser/) · [Oversikt over informasjonsmodeller](../../kapabiliteter/informasjonsforvaltning/oversikt-over-informasjonsmodeller/) · [Oversikt over tjenester](../../kapabiliteter/informasjonsforvaltning/oversikt-over-tjenester/) · [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/)
 
@@ -177,7 +177,7 @@ data.norge.no er en nasjonal felleslÃ¸sning for Ã¥ finne, forstÃ¥ og vider
 
 **Siste versjon:** v3 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/17-data-altinn-no-produkt-canvas-v3-codex.md)
 
-data.altinn.no er Altinns felleslÃ¸sning for kontrollert datadeling mellom virksomheter. Produktet gjÃ¸r det mulig Ã¥ hente informasjon direkte fra autoritative kilder nÃ¥r det finnes lovlig grunnlag, autorisasjon eller samtykke, og gir konsumenter Ã©n teknisk modell for Ã¥ bruke flere ulike datadelingstjenester.
+data.altinn.no er Altinns fellesløsning for kontrollert datadeling mellom virksomheter. Produktet gjør det mulig å hente informasjon direkte fra autoritative kilder når det finnes lovlig grunnlag, autorisasjon eller samtykke, og gir konsumenter én teknisk modell for å bruke flere ulike datadelingstjenester.
 
 **Kapabiliteter:** [Sammenstilling av data](../../kapabiliteter/datadrevet/sammenstilling-av-data/) · [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/) · [Autentisering](../../kapabiliteter/tillit/autentisering/) · [Samtykke](../../kapabiliteter/tillit/samtykke/) · [Tilgangskontroll](../../kapabiliteter/tillit/tilgangskontroll/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
 
@@ -217,7 +217,7 @@ Altinn Studio er web-basert IDE og utviklingsplattform for bygging av digitale A
 
 **Siste versjon:** v3 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/21-Altinn-Portal-produkt-canvas-v3-codex.md)
 
-Altinn Portal er den sentrale brukerinngangen til skjema, tjenester, meldinger og tilgangsstyring i Altinn. Portalen samler oppgaver og kommunikasjon fra mange offentlige aktÃ¸rer i Ã©n arbeidsflate, og gjÃ¸r det mulig for bÃ¥de privatpersoner og virksomheter Ã¥ finne tjenester, fÃ¸lge opp meldinger og handle pÃ¥ egne...
+Altinn Portal er den sentrale brukerinngangen til skjema, tjenester, meldinger og tilgangsstyring i Altinn. Portalen samler oppgaver og kommunikasjon fra mange offentlige aktører i én arbeidsflate, og gjør det mulig for både privatpersoner og virksomheter å finne tjenester, følge opp meldinger og handle på egne eller...
 
 **Kapabiliteter:** [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/) · [Tjenestekjeder](../../kapabiliteter/sluttbrukertjenester/tjenestekjeder/) · [Representasjon](../../kapabiliteter/tillit/representasjon/) · [Sporbarhet og innsyn](../../kapabiliteter/tillit/sporbarhet-og-innsyn/) · [Tilgangsstyring](../../kapabiliteter/tillit/tilgangsstyring/)
 
@@ -227,7 +227,7 @@ Altinn Portal er den sentrale brukerinngangen til skjema, tjenester, meldinger o
 
 **Siste versjon:** v4 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/22-Dialogporten-produkt-canvas-v4-codex.md)
 
-Dialogporten er Altinns felles representasjons- og samhandlingslag for digitale dialoger. Produktet gjÃ¸r meldinger og dialoger fra ulike tjenesteplattformer tilgjengelige i et felles format, slik at sluttbrukersystemer, arbeidsflater og portaler kan presentere den samme dialogen pÃ¥ en konsistent mÃ¥te.
+Dialogporten er Altinns felles representasjons- og samhandlingslag for digitale dialoger. Produktet gjør meldinger og dialoger fra ulike tjenesteplattformer tilgjengelige i et felles format, slik at sluttbrukersystemer, arbeidsflater og portaler kan presentere den samme dialogen på en konsistent måte.
 
 **Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Hendelsesdrevet](../../kapabiliteter/datautveksling-og-integrasjon/hendelsesdrevet/) · [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/) · [Autentisering](../../kapabiliteter/tillit/autentisering/) · [Tilgangskontroll](../../kapabiliteter/tillit/tilgangskontroll/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
 
@@ -237,7 +237,7 @@ Dialogporten er Altinns felles representasjons- og samhandlingslag for digitale 
 
 **Siste versjon:** v4 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/23-Altinn-3-Melding-produkt-canvas-v4-codex.md)
 
-Altinn 3 Melding er en nasjonal meldingstjeneste for sikker digital utveksling av korrespondanse mellom offentlige virksomheter og mottakere i offentlig sektor, nÃ¦ringsliv og befolkning. Produktet stÃ¸tter livssyklus, tilgangsstyring, vedlegg, varsling og hendelser, og gjÃ¸r meldinger tilgjengelige i arbeidsflate og...
+Altinn 3 Melding er en nasjonal meldingstjeneste for sikker digital utveksling av korrespondanse mellom offentlige virksomheter og mottakere i offentlig sektor, næringsliv og befolkning. Produktet støtter livssyklus, tilgangsstyring, vedlegg, varsling og hendelser, og gjør meldinger tilgjengelige i arbeidsflate og...
 
 **Kapabiliteter:** [Hendelsesdrevet](../../kapabiliteter/datautveksling-og-integrasjon/hendelsesdrevet/) · [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [Sporbarhet og innsyn](../../kapabiliteter/tillit/sporbarhet-og-innsyn/) · [Tilgangskontroll](../../kapabiliteter/tillit/tilgangskontroll/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
 
@@ -247,7 +247,7 @@ Altinn 3 Melding er en nasjonal meldingstjeneste for sikker digital utveksling a
 
 **Siste versjon:** v4 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/24-Varslinger-produkt-canvas-v4-codex.md)
 
-Altinn Varslinger er en felleslÃ¸sning for enveis digital varsling til innbyggere og virksomheter. Produktet gjÃ¸r det mulig Ã¥ sende varsler via e-post og SMS, slÃ¥ opp mottakerens navn og kontaktinformasjon fra nasjonale registre, bruke autorisasjon for Ã¥ finne riktige mottakere i organisasjoner og styre utsending...
+Altinn Varslinger er en fellesløsning for enveis digital varsling til innbyggere og virksomheter. Produktet gjør det mulig å sende varsler via e-post og SMS, slå opp mottakerens navn og kontaktinformasjon fra nasjonale registre, bruke autorisasjon for å finne riktige mottakere i organisasjoner og styre utsending...
 
 **Kapabiliteter:** [Sammenstilling av data](../../kapabiliteter/datadrevet/sammenstilling-av-data/) · [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [Proaktive tjenester](../../kapabiliteter/sluttbrukertjenester/proaktive-tjenester/) · [Tilgangskontroll](../../kapabiliteter/tillit/tilgangskontroll/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
 
