@@ -55,19 +55,19 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 ## Brønnøysundregistrene (`BRREG`)
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Kapabilitetstreff | Siste versjon | Dokument |
 |---:|---|---|---|---|---|---|---|
-| 10 | `BRREG-001` | ELMA (Elektronisk mottakeradresseregister) | Register | Adresseregister | Datautveksling og integrasjon: Bruke data fra andre<br>Datautveksling og integrasjon: Dele data med andre<br>Informasjonsforvaltning: Oversikt over tjenester<br>Standardisering: Forvaltningsstandarder | v2 (copilot) | [Åpne](../../results/Produktbeskrivelser/10-ELMA-produkt-canvas-v2-copilot.md) |
-| 11 | `BRREG-002` | Peppol eDelivery | Felleskomponent | Meldingsinfrastruktur | Datautveksling og integrasjon: Bruke data fra andre<br>Datautveksling og integrasjon: Dele data med andre<br>Datautveksling og integrasjon: Meldingsformidling<br>Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling<br>Standardisering: EU-standarder<br>Standardisering: Forvaltningsstandarder | v2 (copilot) | [Åpne](../../results/Produktbeskrivelser/11-Peppol-eDelivery-produkt-canvas-v2-copilot.md) |
+| 10 | `BRREG-001` | ELMA (Elektronisk mottakeradresseregister) | Register | Adresseregister | Datautveksling og integrasjon: Bruke data fra andre<br>Datautveksling og integrasjon: Meldingsformidling<br>Standardisering: Forvaltningsstandarder | v2 (copilot) | [Åpne](../../results/Produktbeskrivelser/10-ELMA-produkt-canvas-v2-copilot.md) |
+| 11 | `BRREG-002` | Peppol eDelivery | Felleskomponent | Meldingsinfrastruktur | Datautveksling og integrasjon: Meldingsformidling<br>Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling<br>Standardisering: EU-standarder<br>Standardisering: Forvaltningsstandarder | v2 (copilot) | [Åpne](../../results/Produktbeskrivelser/11-Peppol-eDelivery-produkt-canvas-v2-copilot.md) |
 | 46 | `BRREG-003` | Enhetsregisteret | Register | Register / grunndata | Datakilder: Grunndata<br>Datautveksling og integrasjon: Dele data med andre | Ikke opprettet ennå | - |
 
 ## KS Digital (`KS`)
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Kapabilitetstreff | Siste versjon | Dokument |
 |---:|---|---|---|---|---|---|---|
-| 25 | `KS-001` | FIKS-plattformen | Plattform | Samhandlingsplattform | Samarbeid: Organisatorisk samhandling<br>Tjenesteutvikling: Integrerbare tjenester | Ikke opprettet ennå | - |
-| 26 | `KS-002` | FIKS Melding | Fellesløsning | Formidlingstjeneste | Datautveksling og integrasjon: Meldingsformidling<br>Samarbeid: Organisatorisk samhandling | Ikke opprettet ennå | - |
-| 27 | `KS-003` | SvarUt | Fellesløsning | Utsendingstjeneste | Datautveksling og integrasjon: Meldingsformidling<br>Sluttbrukertjenester: Sammenhengende tjenester | Ikke opprettet ennå | - |
-| 28 | `KS-004` | FIKS Register | Register | Registertjeneste | Datakilder: Grunndata<br>Datautveksling og integrasjon: Dele data med andre | Ikke opprettet ennå | - |
-| 29 | `KS-005` | Felles tjenesteplattform | Plattform | Kommunal tjenesteplattform | Samarbeid: Organisatorisk samhandling<br>Tjenesteutvikling: Gjenbrukbare tjenester | Ikke opprettet ennå | - |
-| 30 | `KS-006` | Fiks Digiorden | Fellesløsning | Styrings- og oversiktsløsning | Informasjonsforvaltning: Datastyring<br>Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling | Ikke opprettet ennå | - |
+| 25 | `KS-001` | FIKS-plattformen | Plattform | Samhandlingsplattform | Samarbeid: Organisatorisk samhandling<br>Tjenesteutvikling: Integrerbare tjenester<br>Tjenesteutvikling: Utviklings- og kjøretidsmiljø | Ikke opprettet ennå | - |
+| 26 | `KS-002` | FIKS Melding | Fellesløsning | Formidlingstjeneste | Datautveksling og integrasjon: Meldingsformidling<br>Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling<br>Samarbeid: Organisatorisk samhandling | Ikke opprettet ennå | - |
+| 27 | `KS-003` | SvarUt | Fellesløsning | Utsendingstjeneste | Datautveksling og integrasjon: Meldingsformidling<br>Samarbeid: Organisatorisk samhandling<br>Sluttbrukertjenester: Sammenhengende tjenester | Ikke opprettet ennå | - |
+| 28 | `KS-004` | FIKS Register | Fellesløsning | Oppslags- og registertilgangstjeneste | Datakilder: Grunndata<br>Datautveksling og integrasjon: Bruke data fra andre | Ikke opprettet ennå | - |
+| 29 | `KS-005` | Felles tjenesteplattform | Plattform | Kommunal tjenesteplattform | Samarbeid: Organisatorisk samhandling<br>Tjenesteutvikling: Gjenbrukbare tjenester<br>Tjenesteutvikling: Utviklings- og kjøretidsmiljø | Ikke opprettet ennå | - |
+| 30 | `KS-006` | Fiks Digiorden | Fellesløsning | Styrings- og oversiktsløsning | Informasjonsforvaltning: Datastyring<br>Informasjonsforvaltning: Oversikt over datasett<br>Informasjonsforvaltning: Oversikt over tjenester | Ikke opprettet ennå | - |
 
 ## Sikt (`SIKT`)
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Kapabilitetstreff | Siste versjon | Dokument |
