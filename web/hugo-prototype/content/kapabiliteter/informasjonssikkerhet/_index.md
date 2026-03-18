@@ -2,7 +2,7 @@
 title: "Informasjonssikkerhet"
 weight: 7
 description: "Evne til å ha tilstrekkelig sikkerhet i tjenester og løsninger som benyttes i felles økosystem."
-cardMeta: "2 delkapabiliteter / 11 produkter"
+cardMeta: "2 delkapabiliteter / 12 produkter"
 productsMarkdown: |
   ## Relaterte produkter
   
@@ -19,6 +19,7 @@ productsMarkdown: |
   | data.altinn.no | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/17-data-altinn-no-produkt-canvas-v3-codex.md) | Sikring av informasjonsflyt og datautveksling | legger til rette for sikker utveksling også når data ikke er åpne eller inneholder personopplysninger |
   | Altinn 3 Melding (Correspondence) | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/23-Altinn-3-Melding-produkt-canvas-v4-codex.md) | Sikring av informasjonsflyt og datautveksling | beskytter innhold, vedlegg og overføringer i meldingsflyten |
   | Altinn Varslinger | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/24-Varslinger-produkt-canvas-v4-codex.md) | Sikring av informasjonsflyt og datautveksling | er nødvendig fordi kontaktinformasjon og varslingsinnhold behandles gjennom flere kanaler og oppslag |
+  | FIKS Melding | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v1-codex.md) | Sikring av informasjonsflyt og datautveksling | støtter sikre meldingsløp og publiserer sikkerhetsunderlag for bruk av flere kanaler. |
 ---
 
 Evne til å ha tilstrekkelig sikkerhet i tjenester og løsninger som benyttes i felles økosystem.

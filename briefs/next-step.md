@@ -30,6 +30,7 @@ sources:
 - Kvalitetssikret `BRREG` og `KS` i produktregisteret med strammere kapabilitetstreff og tydeligere skille mellom register, plattform og tilgangstjeneste.
 - Kvalitetssikret `HDIR`, `NHN` og `NAV` i produktregisteret med tydeligere skille mellom portal, tillitstjeneste, delingsløsning og register.
 - Kvalitetssikret `SKATT`, `KART` og `DIGDIR` i produktregisteret med mer direkte kapabilitetstreff, særlig for `eFormidling`, `Norge.no`, `Skatteetatens delingstjenester` og `Geonorge`.
+- Opprettet første produktbeskrivelser for KS-ressursene `KS-001` til `KS-006` og synkronisert produktregister, masterfil for produkt-kapabilitet-koblinger og webgrunnlag mot de nye filene.
 
 ## Hva gjenstår
 - Velge lisens for dokumentasjonsinnholdet i repoet.

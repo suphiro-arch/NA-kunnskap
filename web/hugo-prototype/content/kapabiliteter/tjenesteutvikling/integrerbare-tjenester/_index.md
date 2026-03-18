@@ -2,7 +2,7 @@
 title: "Integrerbare tjenester"
 weight: 2
 description: "Evne til å designe, utvikle og eksponere data og funksjonalitet som selvstendige, standardiserte og maskinlesbare tjenester (API-er), slik at de enkelt kan oppdages, forstås og integreres i nye, tverrgående prosesser og løsninger."
-cardMeta: "9 produkter"
+cardMeta: "10 produkter"
 ---
 
 Evne til å designe, utvikle og eksponere data og funksjonalitet som selvstendige, standardiserte og maskinlesbare tjenester (API-er), slik at de enkelt kan oppdages, forstås og integreres i nye, tverrgående prosesser og løsninger.
@@ -24,3 +24,4 @@ Denne delkapabiliteten er en del av [Tjenesteutvikling](../).
 | Dialogporten | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/22-Dialogporten-produkt-canvas-v4-codex.md) | gir tjenesteeiere og plattformer et felles mønster for å eksponere dialoger |
 | Altinn 3 Melding (Correspondence) | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/23-Altinn-3-Melding-produkt-canvas-v4-codex.md) | tilbyr API-er for sending, mottak og automatisert meldingshåndtering |
 | Altinn Varslinger | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/24-Varslinger-produkt-canvas-v4-codex.md) | tilbyr API-er for integrasjon med Altinn Apps, Altinn-tjenester og tjenesteeiersystemer |
+| FIKS-plattformen | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/25-FIKS-plattformen-produkt-canvas-v1-codex.md) | tilbyr felles API-er og integrasjonskomponenter som gjør det lettere å koble systemer og tjenester sammen. |
