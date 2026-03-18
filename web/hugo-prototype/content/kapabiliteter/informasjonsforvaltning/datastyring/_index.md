@@ -2,7 +2,7 @@
 title: "Datastyring"
 weight: 8
 description: "Evne til å sikre enhetlig og ansvarlig forvaltning av nasjonale dataressurser gjennom felles rammeverk, klar ansvarsplassering og systematisk kvalitetsarbeid."
-cardMeta: "1 produkter"
+cardMeta: "2 produkter"
 ---
 
 Evne til å sikre enhetlig og ansvarlig forvaltning av nasjonale dataressurser gjennom felles rammeverk, klar ansvarsplassering og systematisk kvalitetsarbeid.
@@ -16,3 +16,4 @@ Denne delkapabiliteten er en del av [Informasjonsforvaltning](../).
 | Produkt | Produktbeskrivelse | Hvorfor relevant |
 | --- | --- | --- |
 | Begrepskatalog | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/14-Begrepskatalog-produkt-canvas-v2-copilot.md) | Forvaltning av begrepskvalitet |
+| Fiks Digiorden | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/30-Fiks-Digiorden-produkt-canvas-v1-codex.md) | gir kommunen styringsstøtte og samlet oversikt over applikasjoner, data og sentrale forvaltningsopplysninger. |

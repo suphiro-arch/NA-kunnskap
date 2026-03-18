@@ -2,7 +2,7 @@
 title: "Tjenesteutvikling"
 weight: 8
 description: "Evne til å utvikle sammenhengende digitale tjenester."
-cardMeta: "4 delkapabiliteter / 10 produkter"
+cardMeta: "4 delkapabiliteter / 12 produkter"
 productsMarkdown: |
   ## Relaterte produkter
   
@@ -18,6 +18,8 @@ productsMarkdown: |
   | Dialogporten | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/22-Dialogporten-produkt-canvas-v4-codex.md) | Integrerbare tjenester | gir tjenesteeiere og plattformer et felles mønster for å eksponere dialoger |
   | Altinn 3 Melding (Correspondence) | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/23-Altinn-3-Melding-produkt-canvas-v4-codex.md) | Integrerbare tjenester | tilbyr API-er for sending, mottak og automatisert meldingshåndtering |
   | Altinn Varslinger | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/24-Varslinger-produkt-canvas-v4-codex.md) | Integrerbare tjenester | tilbyr API-er for integrasjon med Altinn Apps, Altinn-tjenester og tjenesteeiersystemer |
+  | FIKS-plattformen | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/25-FIKS-plattformen-produkt-canvas-v1-codex.md) | Integrerbare tjenester, Utviklings- og kjøretidsmiljø | Støtter flere delkapabiliteter i denne hovedkapabiliteten. |
+  | Felles tjenesteplattform | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/29-Felles-tjenesteplattform-produkt-canvas-v1-codex.md) | Gjenbrukbare tjenester, Utviklings- og kjøretidsmiljø | Støtter flere delkapabiliteter i denne hovedkapabiliteten. |
 ---
 
 Evne til å utvikle sammenhengende digitale tjenester.

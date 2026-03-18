@@ -2,7 +2,7 @@
 title: "Datautveksling og integrasjon"
 weight: 4
 description: "Evne til å sikkert, effektivt og standardisert utveksle data mellom aktører i økosystemet."
-cardMeta: "4 delkapabiliteter / 12 produkter"
+cardMeta: "4 delkapabiliteter / 15 produkter"
 productsMarkdown: |
   ## Relaterte produkter
   
@@ -20,6 +20,9 @@ productsMarkdown: |
   | Dialogporten | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/22-Dialogporten-produkt-canvas-v4-codex.md) | Bruke data fra andre, Hendelsesdrevet | Støtter flere delkapabiliteter i denne hovedkapabiliteten. |
   | Altinn 3 Melding (Correspondence) | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/23-Altinn-3-Melding-produkt-canvas-v4-codex.md) | Hendelsesdrevet, Meldingsformidling | Støtter flere delkapabiliteter i denne hovedkapabiliteten. |
   | Altinn Varslinger | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/24-Varslinger-produkt-canvas-v4-codex.md) | Meldingsformidling | brukes til programmatisk utsending og leveringsoppfølging av varsler |
+  | FIKS Melding | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v1-codex.md) | Meldingsformidling | gir kommunene en felles tjeneste for å sende meldinger og dokumenter gjennom flere kanaler fra samme løsning. |
+  | SvarUt | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/27-SvarUt-produkt-canvas-v1-codex.md) | Meldingsformidling | fordeler dokumenter til flere mottakerkanaler gjennom ett sentralisert utsendingsløp. |
+  | FIKS Register | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/28-FIKS-Register-produkt-canvas-v1-codex.md) | Bruke data fra andre | gir fagsystemer og forvaltere et standardisert løp for å hente registerdata fra andre virksomheter. |
 ---
 
 Evne til å sikkert, effektivt og standardisert utveksle data mellom aktører i økosystemet.

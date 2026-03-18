@@ -62,12 +62,12 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 ## KS Digital (`KS`)
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Kapabilitetstreff | Siste versjon | Dokument |
 |---:|---|---|---|---|---|---|---|
-| 25 | `KS-001` | FIKS-plattformen | Plattform | Samhandlingsplattform | Samarbeid: Organisatorisk samhandling<br>Tjenesteutvikling: Integrerbare tjenester<br>Tjenesteutvikling: Utviklings- og kjøretidsmiljø | Ikke opprettet ennå | - |
-| 26 | `KS-002` | FIKS Melding | Fellesløsning | Formidlingstjeneste | Datautveksling og integrasjon: Meldingsformidling<br>Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling<br>Samarbeid: Organisatorisk samhandling | Ikke opprettet ennå | - |
-| 27 | `KS-003` | SvarUt | Fellesløsning | Utsendingstjeneste | Datautveksling og integrasjon: Meldingsformidling<br>Samarbeid: Organisatorisk samhandling<br>Sluttbrukertjenester: Sammenhengende tjenester | Ikke opprettet ennå | - |
-| 28 | `KS-004` | FIKS Register | Fellesløsning | Oppslags- og registertilgangstjeneste | Datakilder: Grunndata<br>Datautveksling og integrasjon: Bruke data fra andre | Ikke opprettet ennå | - |
-| 29 | `KS-005` | Felles tjenesteplattform | Plattform | Kommunal tjenesteplattform | Samarbeid: Organisatorisk samhandling<br>Tjenesteutvikling: Gjenbrukbare tjenester<br>Tjenesteutvikling: Utviklings- og kjøretidsmiljø | Ikke opprettet ennå | - |
-| 30 | `KS-006` | Fiks Digiorden | Fellesløsning | Styrings- og oversiktsløsning | Informasjonsforvaltning: Datastyring<br>Informasjonsforvaltning: Oversikt over datasett<br>Informasjonsforvaltning: Oversikt over tjenester | Ikke opprettet ennå | - |
+| 25 | `KS-001` | FIKS-plattformen | Plattform | Samhandlingsplattform | Samarbeid: Organisatorisk samhandling<br>Tjenesteutvikling: Integrerbare tjenester<br>Tjenesteutvikling: Utviklings- og kjøretidsmiljø | v1 (codex) | [Åpne](../../results/Produktbeskrivelser/25-FIKS-plattformen-produkt-canvas-v1-codex.md) |
+| 26 | `KS-002` | FIKS Melding | Fellesløsning | Formidlingstjeneste | Datautveksling og integrasjon: Meldingsformidling<br>Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling<br>Samarbeid: Organisatorisk samhandling | v1 (codex) | [Åpne](../../results/Produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v1-codex.md) |
+| 27 | `KS-003` | SvarUt | Fellesløsning | Utsendingstjeneste | Datautveksling og integrasjon: Meldingsformidling<br>Samarbeid: Organisatorisk samhandling<br>Sluttbrukertjenester: Sammenhengende tjenester | v1 (codex) | [Åpne](../../results/Produktbeskrivelser/27-SvarUt-produkt-canvas-v1-codex.md) |
+| 28 | `KS-004` | FIKS Register | Fellesløsning | Oppslags- og registertilgangstjeneste | Datakilder: Grunndata<br>Datautveksling og integrasjon: Bruke data fra andre | v1 (codex) | [Åpne](../../results/Produktbeskrivelser/28-FIKS-Register-produkt-canvas-v1-codex.md) |
+| 29 | `KS-005` | Felles tjenesteplattform | Plattform | Kommunal tjenesteplattform | Samarbeid: Organisatorisk samhandling<br>Tjenesteutvikling: Gjenbrukbare tjenester<br>Tjenesteutvikling: Utviklings- og kjøretidsmiljø | v1 (codex) | [Åpne](../../results/Produktbeskrivelser/29-Felles-tjenesteplattform-produkt-canvas-v1-codex.md) |
+| 30 | `KS-006` | Fiks Digiorden | Fellesløsning | Styrings- og oversiktsløsning | Informasjonsforvaltning: Datastyring<br>Informasjonsforvaltning: Oversikt over datasett<br>Informasjonsforvaltning: Oversikt over tjenester | v1 (codex) | [Åpne](../../results/Produktbeskrivelser/30-Fiks-Digiorden-produkt-canvas-v1-codex.md) |
 
 ## Sikt (`SIKT`)
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Kapabilitetstreff | Siste versjon | Dokument |

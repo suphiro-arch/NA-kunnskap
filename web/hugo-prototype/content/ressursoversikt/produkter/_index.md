@@ -252,3 +252,63 @@ Altinn Varslinger er en felleslÃ¸sning for enveis digital varsling til innbygg
 **Kapabiliteter:** [Sammenstilling av data](../../kapabiliteter/datadrevet/sammenstilling-av-data/) · [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [Proaktive tjenester](../../kapabiliteter/sluttbrukertjenester/proaktive-tjenester/) · [Tilgangskontroll](../../kapabiliteter/tillit/tilgangskontroll/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
 
 ---
+
+## FIKS-plattformen
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/25-FIKS-plattformen-produkt-canvas-v1-codex.md)
+
+FIKS-plattformen er KS Digitals felles plattform for digital samhandling i kommunal sektor. Plattformen gir kommuner, fylkeskommuner og leverandører et felles teknisk rammeverk for å utvikle, integrere, forvalte og bruke digitale tjenester på en mer standardisert måte. Produktet er særlig relevant når kommunal sektor...
+
+**Kapabiliteter:** [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/) · [Utviklings- og kjøretidsmiljø](../../kapabiliteter/tjenesteutvikling/utviklings-og-kjoretidsmiljo/)
+
+---
+
+## FIKS Melding
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v1-codex.md)
+
+FIKS Melding er KS Digitals meldingstjeneste for sikker og fleksibel informasjonsflyt mellom kommuner, innbyggere og andre virksomheter. Løsningen gjør det mulig å sende informasjon gjennom flere kanaler fra samme tjenestegrunnlag, slik at kommunen kan velge utsendingsmåte etter behov og bruke samme løsning til både...
+
+**Kapabiliteter:** [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/)
+
+---
+
+## SvarUt
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/27-SvarUt-produkt-canvas-v1-codex.md)
+
+SvarUt er KS Digitals sentraliserte løsning for å sende dokumenter fra offentlige virksomheter til riktig mottakerkanal. Tjenesten gjør det mulig å formidle utgående post videre til blant annet Altinn, SvarInn, Digipost, e-Boks eller fysisk brev, uten at avsender må bygge separate distribusjonsløp mot hver kanal...
+
+**Kapabiliteter:** [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/) · [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/)
+
+---
+
+## FIKS Register
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/28-FIKS-Register-produkt-canvas-v1-codex.md)
+
+FIKS Register er KS Digitals fellestjeneste for oppslag i nasjonale registre fra kommunal sektor. Løsningen gjør det mulig å bruke samme tilgangs- og integrasjonsmønster mot flere datakilder, slik at kommuner og fylkeskommuner kan hente opplysninger i egne arbeidsprosesser uten å etablere separate løsninger for hvert...
+
+**Kapabiliteter:** [Grunndata](../../kapabiliteter/datakilder/grunndata/) · [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/)
+
+---
+
+## Felles tjenesteplattform
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/29-Felles-tjenesteplattform-produkt-canvas-v1-codex.md)
+
+Felles tjenesteplattform er KS Digitals program for å etablere et bredere felles plattformgrunnlag for tjenesteutvikling i kommunal sektor. Løsningen skal samle applikasjonsplattform, dataplattform, Allmenningen og den eksisterende FIKS-plattformen i et mer helhetlig økosystem for deling, utvikling og samordning...
+
+**Kapabiliteter:** [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/) · [Gjenbrukbare tjenester](../../kapabiliteter/tjenesteutvikling/gjenbrukbare-tjenester/) · [Utviklings- og kjøretidsmiljø](../../kapabiliteter/tjenesteutvikling/utviklings-og-kjoretidsmiljo/)
+
+---
+
+## Fiks Digiorden
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/30-Fiks-Digiorden-produkt-canvas-v1-codex.md)
+
+Fiks Digiorden er KS Digitals styrings- og oversiktsløsning for kommunal informasjonsforvaltning. Løsningen hjelper kommuner med å få oversikt over applikasjoner, datasett og sentrale styringsopplysninger i eget digitalt landskap, slik at det blir lettere å planlegge prosjekter, vurdere konsekvenser og bruke...
+
+**Kapabiliteter:** [Datastyring](../../kapabiliteter/informasjonsforvaltning/datastyring/) · [Oversikt over datasett](../../kapabiliteter/informasjonsforvaltning/oversikt-over-datasett/) · [Oversikt over tjenester](../../kapabiliteter/informasjonsforvaltning/oversikt-over-tjenester/)
+
+---
