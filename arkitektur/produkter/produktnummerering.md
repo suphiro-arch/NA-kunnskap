@@ -119,7 +119,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 |---:|---|---|---|---|---|---|---|
 | 41 | `EU-001` | European Digital Identity Wallet | EU-felleskomponent | Digital identitetslommebok | Tillit: Autentisering<br>Tillit: Signering | Ikke opprettet ennå | - |
 | 42 | `EU-002` | eID Building Block | EU-felleskomponent | E-identifikasjonskomponent | Tillit: Autentisering<br>Datautveksling og integrasjon: Bruke data fra andre | Ikke opprettet ennå | - |
-| 43 | `EU-003` | eDelivery Building Block | EU-felleskomponent | Meldings- og dokumentutveksling | Datautveksling og integrasjon: Meldingsformidling<br>Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling | Ikke opprettet ennå | - |
+| 43 | `EU-003` | eDelivery Building Block | EU-felleskomponent | Byggestein / referanseramme for eDelivery | Datautveksling og integrasjon: Meldingsformidling<br>Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling | Ikke opprettet ennå | - |
 | 44 | `EU-004` | eSignature Building Block | EU-felleskomponent | Signaturkomponent | Tillit: Signering<br>Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling | Ikke opprettet ennå | - |
 | 45 | `EU-005` | Once-Only Technical System (OOTS) | EU-felleskomponent | Grensekryssende datadelingsinfrastruktur | Datautveksling og integrasjon: Dele data med andre<br>Samarbeid: Organisatorisk samhandling | Ikke opprettet ennå | - |
 

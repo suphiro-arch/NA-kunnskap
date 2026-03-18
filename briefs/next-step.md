@@ -32,6 +32,7 @@ sources:
 - Kvalitetssikret `SKATT`, `KART` og `DIGDIR` i produktregisteret med mer direkte kapabilitetstreff, særlig for `eFormidling`, `Norge.no`, `Skatteetatens delingstjenester` og `Geonorge`.
 - Opprettet første produktbeskrivelser for KS-ressursene `KS-001` til `KS-006` og synkronisert produktregister, masterfil for produkt-kapabilitet-koblinger og webgrunnlag mot de nye filene.
 - Oppdatert lenkedokumentet med egne lenker for ELMA, OpenPeppol og EHF-/Peppol-veiledning, og opprettet nye `v3-codex`-beskrivelser for `ELMA` og `Peppol eDelivery`.
+- Avklart at `EU-003 eDelivery Building Block` beholdes i registeret som egen EU-ressurs, men som referanseramme og byggestein rundt samme problemområde som `Peppol eDelivery`.
 
 ## Hva gjenstår
 - Velge lisens for dokumentasjonsinnholdet i repoet.
@@ -43,7 +44,7 @@ sources:
 - Ta inn de første ressursene fra KS, Helsedirektoratet, NAV og Skatteetaten i produktregisteret med samme ID-prinsipp.
 - Kvalitetssikre de nye arbeidsutkastene for `KS`, `HDIR`, `NAV` og `SKATT`, særlig eierskap, ressurstype og kapabilitetstreff.
 - Vurdere om flere helse- og NAV-ressurser bør inn i registeret, særlig flere delingstjenester og nasjonale innbyggertjenester.
-- Vurdere om `Peppol eDelivery` og `EU-003 eDelivery Building Block` bør stå som to separate ressurser i registeret, eller om den ene bør omtales som referanse rundt den andre.
+- Vurdere om flere EU-byggesteiner bør behandles som referanseressurser i registeret uten at de prioriteres for egne produktbeskrivelser med en gang.
 - Lage første produktbeskrivelser for de mest sentrale `SIKT`-ressursene, særlig Feide og Vitnemålsportalen.
 - Kvalitetssikre de nye arbeidsutkastene for `EU`, særlig om de bør stå som egne ressurser i registeret eller omtales som referanseøkosystem rundt norske løsninger.
 - Vurdere om `Altinn` som paraplyressurs skal beholdes med dagens stramme plattformkoblinger, eller deles tydeligere fra underliggende Digdir-løsninger i registeret.
