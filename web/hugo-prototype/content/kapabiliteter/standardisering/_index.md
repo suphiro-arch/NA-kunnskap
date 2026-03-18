@@ -9,7 +9,7 @@ productsMarkdown: |
   | Produkt | Produktbeskrivelse | Koblet via | Hvorfor relevant |
   | --- | --- | --- | --- |
   | eFormidling | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v3-codex.md) | Forvaltningsstandarder | Implementering av Peppol- og AS4-standarder. |
-  | Peppol eDelivery | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/11-Peppol-eDelivery-produkt-canvas-v2-copilot.md) | Forvaltningsstandarder | bygger p? forvaltede samhandlingsregler, meldingsprofiler og transportspesifikasjoner |
+  | Peppol eDelivery | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/11-Peppol-eDelivery-produkt-canvas-v3-codex.md) | Forvaltningsstandarder | bygger p? forvaltede samhandlingsregler, meldingsprofiler og transportspesifikasjoner |
   | Felles datakatalog | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/13-Felles-datakatalog-produkt-canvas-v2-copilot.md) | Forvaltningsstandarder | – DCAT-AP-NO standarder og metadata-klassifikasjoner |
   | Begrepskatalog | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/14-Begrepskatalog-produkt-canvas-v2-copilot.md) | Forvaltningsstandarder | Standardisert begrepsdefinering (SKOS-format) |
   | API-katalog | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md) | Forvaltningsstandarder | OpenAPI/Swagger standarder |

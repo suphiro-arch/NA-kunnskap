@@ -103,11 +103,11 @@ Digital postkasse er nasjonal felleskomponent for sikker digital utsending av ve
 
 ---
 
-## ELMA (Elektronisk mottakeradresseregister)
+## ELMA
 
-**Siste versjon:** v2 (copilot) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/10-ELMA-produkt-canvas-v2-copilot.md)
+**Siste versjon:** v3 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/10-ELMA-produkt-canvas-v3-codex.md)
 
-ELMA (Elektronisk mottakeradresseregister) er et nasjonalt register som brukes til å finne hvor og hvordan elektroniske forretningsdokumenter (fakturaer, ordrer, leveringsmeldinger osv.) kan leveres til en virksomhet. Løsningen understøtter korrekt ruting i Peppol-økosystemet og reduserer feil i automatisert...
+ELMA er den norske oppslagstjenesten som gjør det mulig å finne riktig elektronisk mottakeradresse og hvilke dokumenttyper en virksomhet kan motta i EHF- og Peppol-samhandling. Produktet er relevant når en avsender eller et aksesspunkt må avklare hvor et dokument skal sendes og hvilke profiler mottakeren støtter. ELMA...
 
 **Kapabiliteter:** [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Identifisering](../../kapabiliteter/tillit/identifisering/)
 
@@ -115,9 +115,9 @@ ELMA (Elektronisk mottakeradresseregister) er et nasjonalt register som brukes t
 
 ## Peppol eDelivery
 
-**Siste versjon:** v2 (copilot) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/11-Peppol-eDelivery-produkt-canvas-v2-copilot.md)
+**Siste versjon:** v3 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/11-Peppol-eDelivery-produkt-canvas-v3-codex.md)
 
-Peppol eDelivery er et internasjonalt standardnettverk og regelverk for sikker og standardisert utveksling av elektroniske forretningsdokumenter (fakturaer, ordrer, leveringsmeldinger) mellom virksomheter over landegrenser. Løsningen er designet for å muliggjøre interoperabilitet, sikkerheit og skalering i B2B- og...
+Peppol eDelivery er et internasjonalt samhandlingsrammeverk for sikker og standardisert utveksling av elektroniske dokumenter mellom virksomheter. Ressursen er relevant når en løsning trenger et felles transport- og adresseringsmønster for dokumentutveksling, særlig i sammenheng med EHF og andre Peppol-baserte...
 
 **Kapabiliteter:** [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/) · [Identifisering](../../kapabiliteter/tillit/identifisering/)
 
