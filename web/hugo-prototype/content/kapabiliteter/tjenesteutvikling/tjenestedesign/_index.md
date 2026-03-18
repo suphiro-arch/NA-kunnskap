@@ -16,4 +16,4 @@ Denne delkapabiliteten er en del av [Tjenesteutvikling](../).
 | Produkt | Produktbeskrivelse | Hvorfor relevant |
 | --- | --- | --- |
 | Norge.no | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v3-codex.md) | Behovsbasert navigasjon og informasjonsstruktur. |
-| Altinn Studio | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md) | â€“ Low-code UI-modellering for brukergrensesnitt |
+| Altinn Studio | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md) | – Low-code UI-modellering for brukergrensesnitt |

@@ -15,4 +15,4 @@ Denne delkapabiliteten er en del av [Standardisering](../).
 
 | Produkt | Produktbeskrivelse | Hvorfor relevant |
 | --- | --- | --- |
-| Peppol eDelivery | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/11-Peppol-eDelivery-produkt-canvas-v2-copilot.md) | â€“ OpenPeppol og eIDAS-regulativene |
+| Peppol eDelivery | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/11-Peppol-eDelivery-produkt-canvas-v2-copilot.md) | – OpenPeppol og eIDAS-regulativene |

@@ -8,7 +8,7 @@ productsMarkdown: |
   
   | Produkt | Produktbeskrivelse | Koblet via | Hvorfor relevant |
   | --- | --- | --- | --- |
-  | ELMA (Elektronisk mottakeradresseregister) | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/10-ELMA-produkt-canvas-v2-copilot.md) | Oversikt over tjenester | â€“ ELMA er felles register for kompatible mottagertjenester |
+  | ELMA (Elektronisk mottakeradresseregister) | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/10-ELMA-produkt-canvas-v2-copilot.md) | Oversikt over tjenester | – ELMA er felles register for kompatible mottagertjenester |
   | Felles datakatalog | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/13-Felles-datakatalog-produkt-canvas-v2-copilot.md) | Oversikt over API, Oversikt over begreper, Oversikt over datasett, Oversikt over informasjonsmodeller | Støtter flere delkapabiliteter i denne hovedkapabiliteten. |
   | Begrepskatalog | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/14-Begrepskatalog-produkt-canvas-v2-copilot.md) | Datastyring, Informasjonsarkitektur, Oversikt over begreper | Støtter flere delkapabiliteter i denne hovedkapabiliteten. |
   | API-katalog | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md) | Informasjonsarkitektur, Oversikt over API | Støtter flere delkapabiliteter i denne hovedkapabiliteten. |
