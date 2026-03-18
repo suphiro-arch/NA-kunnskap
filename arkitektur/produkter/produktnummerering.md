@@ -72,11 +72,12 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 ## Sikt (`SIKT`)
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Kapabilitetstreff | Siste versjon | Dokument |
 |---:|---|---|---|---|---|---|---|
-| 47 | `SIKT-001` | Feide | Felleskomponent | Innloggings- og datadelingstjeneste | Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling<br>Tillit: Autentisering<br>Tillit: Tilgangskontroll | Ikke opprettet ennå | - |
-| 48 | `SIKT-002` | Felles studentsystem (FS) | Fellesløsning | Studentinformasjonssystem | Datautveksling og integrasjon: Dele data med andre<br>Informasjonsforvaltning: Datastyring<br>Samarbeid: Organisatorisk samhandling | Ikke opprettet ennå | - |
+| 47 | `SIKT-001` | Feide | Felleskomponent | Innloggings- og datadelingstjeneste | Datautveksling og integrasjon: Dele data med andre<br>Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling<br>Tillit: Autentisering<br>Tillit: Tilgangskontroll | Ikke opprettet ennå | - |
+| 48 | `SIKT-002` | Felles studentsystem (FS) | Plattform | Studieadministrativ plattform | Datautveksling og integrasjon: Bruke data fra andre<br>Datautveksling og integrasjon: Dele data med andre<br>Informasjonsforvaltning: Datastyring<br>Samarbeid: Organisatorisk samhandling | Ikke opprettet ennå | - |
 | 49 | `SIKT-003` | Opptaksløsninger | Fellesløsning | Opptaks- og saksbehandlingsløsning | Datautveksling og integrasjon: Bruke data fra andre<br>Samarbeid: Organisatorisk samhandling<br>Sluttbrukertjenester: Sammenhengende tjenester | Ikke opprettet ennå | - |
-| 50 | `SIKT-004` | Nasjonal vitnemålsdatabase (NVB) | Register | Resultat- og vitnemålsdatabase | Datakilder: Grunndata<br>Datautveksling og integrasjon: Dele data med andre | Ikke opprettet ennå | - |
-| 51 | `SIKT-005` | Vitnemålsportalen | Fellesløsning | Delingsportal for resultater og vitnemål | Datautveksling og integrasjon: Dele data med andre<br>Sluttbrukertjenester: Sammenhengende tjenester | Ikke opprettet ennå | - |
+| 50 | `SIKT-004` | Nasjonal vitnemålsdatabase (NVB) | Register | Resultat- og dokumentasjonsregister | Datakilder: Grunndata<br>Datautveksling og integrasjon: Dele data med andre | Ikke opprettet ennå | - |
+| 51 | `SIKT-005` | Vitnemålsportalen | Portal | Delingsportal for resultater og vitnemål | Datautveksling og integrasjon: Dele data med andre<br>Sluttbrukertjenester: Sammenhengende tjenester | Ikke opprettet ennå | - |
+| 52 | `SIKT-006` | Nasjonalt utdanningsregister | Register | Register over utdanningstilbud og akkreditering | Datakilder: Grunndata<br>Datautveksling og integrasjon: Dele data med andre<br>Informasjonsforvaltning: Datastyring | Ikke opprettet ennå | - |
 
 ## Helsedirektoratet (`HDIR`)
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Kapabilitetstreff | Siste versjon | Dokument |
@@ -126,6 +127,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 - Sikt: https://sikt.no/tjenester/opptakslosninger
 - Sikt: https://sikt.no/nb/tjenester/nasjonal-vitnemalsdatabase
 - Sikt: https://sikt.no/tjenester/vitnemalsportalen
+- Sikt: https://sikt.no/tiltak/nasjonalt-utdanningsregister
 - Norsk helsenett: https://www.nhn.no/tjenester/helseid/hva-er-helseid
 - Helsenorge: https://www.helsenorge.no/om-helsenorge-no/
 - Norsk helsenett: https://www.nhn.no/tjenester/kjernejournal/om-tjenesten
