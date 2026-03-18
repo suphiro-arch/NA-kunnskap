@@ -20,6 +20,9 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Følg metoden i [config/prompts/produkt-canvas.system.md](/c:/Users/HILROS/NA-kunnskap/config/prompts/produkt-canvas.system.md) ved arbeid med produkt-canvas.
 - Ved opprettelse av nye produktbeskrivelser skal [config/prompts/produkt-canvas.system.md](/c:/Users/HILROS/NA-kunnskap/config/prompts/produkt-canvas.system.md) alltid brukes som styrende instruks.
 - Nye produktfiler skal følge gjeldende versjoneringsregel i promptfila.
+- Nye eller oppdaterte produktbeskrivelser skal lagres som ren `UTF-8`.
+- Etter opprettelse eller endring av produktbeskrivelser skal det gjøres en eksplisitt kontroll for tegnkodingsfeil, ikke bare en visuell sjekk i terminalen.
+- Hvis tekst viser typiske tegnkodingsfeil med doble bokstavsekvenser eller ødelagte typografitegn, skal fila rettes før commit og før genererte oversikter oppdateres.
 
 ## Kilder og analyse
 - Bruk `sources/links.md` som førstevalg for eksterne kilder.
@@ -42,6 +45,7 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Hugo-prototypen publiseres fra `web/hugo-prototype/` via GitHub Pages artifact-deploy, ikke ved å commite bygget HTML tilbake til repoet.
 - Bevar nettstedet som en lettlest dokumentasjonsside med tydelig navigasjon og lesbar tekst.
 - Unngå designgrep som gjør dokumentasjon vanskeligere å lese eller navigere.
+- Publiseringsflyten skal validere tekstfiler for tegnkodingsfeil før Hugo-build kjøres.
 
 ## Arbeidsflyt
 - Oppdater `briefs/next-step.md` når arbeid endrer hva som er gjort eller hva som gjenstår.

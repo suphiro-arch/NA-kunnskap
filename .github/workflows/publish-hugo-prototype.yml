@@ -51,6 +51,10 @@ jobs:
         run: |
           ./web/hugo-prototype/scripts/generate-products.ps1
 
+      - name: Validate text encoding
+        run: |
+          python web/hugo-prototype/scripts/validate-text-encoding.py
+
       - name: Build prototype
         run: |
           hugo --source web/hugo-prototype --destination public --gc --minify

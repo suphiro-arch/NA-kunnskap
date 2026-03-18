@@ -64,6 +64,9 @@ Følg reglene under.
 - **Norske termer prioriteres:** f.eks. "innbygger" (ikke "citizen"), "virksomhet" (ikke "enterprise"), "'tjenesteeier" (ikke "service owner")
 - **Unngå engelsk i parenteser** dersom det finnes norske termer (f.eks. "autorisasjon" ikke "authorization/autorisasjon")
 - **Engelske akronym/forkortelser** kan brukes hvis de er etablerte (f.eks. "API", "XACML", "SLA"), men forklar på norsk første gang
+- **Lagre filer som UTF-8:** nye og oppdaterte produktbeskrivelser skal lagres som ren `UTF-8`
+- **Valider tegnkoding eksplisitt:** ikke stol på visning i terminal alene; kontroller at teksten ikke inneholder doble bokstavsekvenser eller ødelagte typografitegn som tyder på feil tegnkoding
+- **Rett tegnkodingsfeil før lagring:** hvis slike sekvenser oppstår, skal fila normaliseres før commit og før genererte oversikter oppdateres
 - **Eksempler på korrekt norsk:**
   - ✅ "Brukersegmenter og risikomatrise" (ikke "User segments and risk matrix")
   - ✅ "Lovpålagt nasjonal felleskomponent" (ikke "Mandatory national common component")
