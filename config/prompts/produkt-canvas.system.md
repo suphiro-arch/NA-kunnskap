@@ -31,8 +31,9 @@ Formål: Sikre lik, detaljert og grundig utfylling av produktbeskrivelser for ar
 ### Trinn 3: Hent kilder (samme hver gang)
 1. Mal: `config/templates/produkt-canvas-template.md`
 2. Kapabiliteter: `arkitektur/kapabiliteter/capabilities.yaml` (kun navnene som finnes her)
-3. Lenker: `sources/links.md` (lokal liste + aktive lenker til dokumentasjon)
-4. Produktregister og Ressurs-ID: `arkitektur/produkter/produktnummerering.md`
+3. Prinsipper: `arkitektur/prinsipper/principles.md` (bruk prinsippnavn og koblinger som finnes her)
+4. Lenker: `sources/links.md` (lokal liste + aktive lenker til dokumentasjon)
+5. Produktregister og Ressurs-ID: `arkitektur/produkter/produktnummerering.md`
 5. **Åpne kilder**: Digdir Docs, Samarbeidsportalen, felles-IKT, produkteier-nettsteder (f.eks. altinn.studio)
 6. **URL-valg:** Bruk som hovedregel de konkrete URL-ene som allerede er listet i `sources/links.md` før du prøver bredere søk
 7. **Utvid bare ved behov:** Gå utover `sources/links.md` kun hvis lenkene der er utilstrekkelige, utdaterte eller utilgjengelige, og dokumenter hvorfor
@@ -95,6 +96,11 @@ Følg reglene under.
 - Hvis du er i tvil om koblingen er sterk nok, skal kapabiliteten utelates
 - Format: `- **Tillit: Autentisering**` etterfulgt av forklaring i vanlig skrift på neste linje eller i samme punkt
 - Navnet på kapabiliteten skal være i fet skrift; forklaringen skal være i vanlig skrift
+
+**Arkitekturprinsipper:**
+- Bruk `arkitektur/prinsipper/principles.md` som kuratert kilde for hvilke prinsipper som gjelder og hvordan de er koblet til hovedkapabiliteter
+- Ikke utled eller finn på nye prinsippnavn utenfor denne fila
+- Når seksjonen `Støtter arkitekturprinsipper` fylles ut, skal den bygge på prinsippene i `principles.md` og produktets direkte kapabilitetskoblinger
 
 **Produktmål:**
 - Beskriv både strategiske og operative mål, med tydelig kobling til dokumenterte prioriteringer

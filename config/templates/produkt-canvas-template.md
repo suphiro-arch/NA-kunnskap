@@ -64,6 +64,7 @@ Vurder gjenbruksvennlighet av API-er, standarder og lisensiering.
 
 ## Støtter arkitekturprinsipper
 I hvilken grad støttes nasjonale arkitekturprinsipper?
+Bruk `arkitektur/prinsipper/principles.md` som kilde for prinsippnavn og koblinger.
 
 ## Finansiering
 Type finansiering for utvikling og drift.

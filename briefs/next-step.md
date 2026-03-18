@@ -34,6 +34,11 @@ sources:
 - Oppdatert lenkedokumentet med egne lenker for ELMA, OpenPeppol og EHF-/Peppol-veiledning, og opprettet nye `v3-codex`-beskrivelser for `ELMA` og `Peppol eDelivery`.
 - Avklart at `EU-003 eDelivery Building Block` beholdes i registeret som egen EU-ressurs, men som referanseramme og byggestein rundt samme problemområde som `Peppol eDelivery`.
 - Utvidet EU-delen med `EU Open Source Solutions Catalogue`, `Interoperable Europe Solutions` og `Core Vocabularies` som referanseressurser, og oppdatert lenkedokumentet med flere offisielle interoperabilitetskilder fra Interoperable Europe.
+- Sammenlignet ny XML-kilde for nasjonal arkitektur med `capabilities.yaml`, laget avviksrapport i `sources/` og rettet manglende `P6`-kobling for `Datautveksling og integrasjon`.
+- Fylte ut `arkitektur/prinsipper/principles.md` med operative prinsipper og synket prinsippkoblingene mot webversjonen.
+- Knyttet `arkitektur/prinsipper/principles.md` direkte inn i videre bruk: som kilde for prinsipper i produktanalyser, som synkgrunnlag for webens prinsippside og som del av repoets dokumenterte arbeidsflyt.
+- Dokumentert råkilder, kuraterte arbeidsfiler og videre prosessering i [struktur-og-bearbeiding.md](c:/Users/HILROS/NA-kunnskap/arkitektur/struktur-og-bearbeiding.md).
+- Kartlagt mål- og ressursrelasjoner i XML-kilden, dokumentert at ressursrelasjonene ikke er på samme nivå som repoets produktmaster, og opprettet [maal.md](c:/Users/HILROS/NA-kunnskap/arkitektur/maal/maal.md) som første kuraterte måloversikt.
 
 ## Hva gjenstår
 - Velge lisens for dokumentasjonsinnholdet i repoet.
@@ -47,6 +52,10 @@ sources:
 - Vurdere om flere helse- og NAV-ressurser bør inn i registeret, særlig flere delingstjenester og nasjonale innbyggertjenester.
 - Vurdere om flere EU-byggesteiner bør behandles som referanseressurser i registeret uten at de prioriteres for egne produktbeskrivelser med en gang.
 - Vurdere om noen av EU-referanseressursene bør få korte oversiktsbeskrivelser i weben uten at de blir fullverdige produkt-canvas-filer.
+- Gå gjennom avviksrapporten for XML mot kapabilitets- og prinsippgrunnlaget og avgjøre om flere beskrivelsestekster eller hjelpeelementer skal kurateres videre inn i repoet.
+- Vurdere om weben også skal generere kapabilitets- og prinsippsammendrag direkte fra kuraterte filer i `arkitektur/`, slik at man unngår dobbelt vedlikehold av innledningstekster.
+- Vurdere om weben også bør få en egen målside bygget fra `arkitektur/maal/maal.md`, slik at mål, prinsipper, kapabiliteter og ressurser kan leses i samme struktur.
+- Vurdere om det senere trengs en egen kuratert koblingsfil mellom hovedkapabiliteter og strategiske mål, dersom målsporet skal brukes mer operativt i analyser og veiledning.
 - Lage første produktbeskrivelser for de mest sentrale `SIKT`-ressursene, særlig Feide og Vitnemålsportalen.
 - Kvalitetssikre de nye arbeidsutkastene for `EU`, særlig om de bør stå som egne ressurser i registeret eller omtales som referanseøkosystem rundt norske løsninger.
 - Vurdere om `Altinn` som paraplyressurs skal beholdes med dagens stramme plattformkoblinger, eller deles tydeligere fra underliggende Digdir-løsninger i registeret.

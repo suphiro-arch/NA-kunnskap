@@ -8,7 +8,7 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Bruk ASCII bare der tekniske begrensninger krever det, for eksempel i filnavn, slugger, kode eller enkelte lokale git-hooker.
 - Bevar etablert struktur i repoet: `arkitektur/` for faglig arkitekturgrunnlag, `config/` for regler og maler, `results/` for leveranser, `web/` for Hugo-prototypen, `sources/` for kildegrunnlag og `briefs/` for arbeidsstyring og handover.
 - Tolking av mapper:
-  - `arkitektur/` brukes for strukturert arkitekturgrunnlag, som kapabiliteter, prinsipper og produktnummerering.
+  - `arkitektur/` brukes for strukturert arkitekturgrunnlag, som kapabiliteter, mål, prinsipper og produktnummerering.
   - `results/` brukes for leveranser og innhold som skal kunne gjenbrukes direkte.
   - `briefs/` brukes for arbeidsstyring, handover, beslutninger og mellomdokumenter.
   - `briefs/arbeidsstyring-og-handover/` brukes for større arbeidsnotater, MVP-skisser, handover-dokumenter og lignende som ikke er sluttleveranser.
@@ -42,6 +42,7 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 ## Hugo-prototype
 - Når produktbeskrivelser som mater web-oversikter endres, oppdater relevante genererte oversikter i `web/hugo-prototype/content/`.
 - Bruk `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml` som autoritativ masterfil for koblingen mellom produkter og kapabiliteter når weboversikter eller kapabilitetssider oppdateres.
+- Bruk `arkitektur/prinsipper/principles.md` som kuratert kilde for prinsipper i analyser, produktbeskrivelser og webinnhold.
 - Hugo-prototypen publiseres fra `web/hugo-prototype/` via GitHub Pages artifact-deploy, ikke ved å commite bygget HTML tilbake til repoet.
 - Bevar nettstedet som en lettlest dokumentasjonsside med tydelig navigasjon og lesbar tekst.
 - Unngå designgrep som gjør dokumentasjon vanskeligere å lese eller navigere.
