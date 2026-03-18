@@ -29,6 +29,7 @@ sources:
 - Kvalitetssikret første arbeidsutkast for `SIKT`-ressursene og utvidet registeret med `Nasjonalt utdanningsregister` som egen kandidat for tverrsektoriell samhandling i utdanningssektoren.
 - Kvalitetssikret `BRREG` og `KS` i produktregisteret med strammere kapabilitetstreff og tydeligere skille mellom register, plattform og tilgangstjeneste.
 - Kvalitetssikret `HDIR`, `NHN` og `NAV` i produktregisteret med tydeligere skille mellom portal, tillitstjeneste, delingsløsning og register.
+- Kvalitetssikret `SKATT`, `KART` og `DIGDIR` i produktregisteret med mer direkte kapabilitetstreff, særlig for `eFormidling`, `Norge.no`, `Skatteetatens delingstjenester` og `Geonorge`.
 
 ## Hva gjenstår
 - Velge lisens for dokumentasjonsinnholdet i repoet.
@@ -42,7 +43,8 @@ sources:
 - Vurdere om flere helse- og NAV-ressurser bør inn i registeret, særlig flere delingstjenester og nasjonale innbyggertjenester.
 - Ta eksplisitt stilling til om `Peppol eDelivery` fortsatt skal ligge under `BRREG`, eller om den bør få egen eierkode i registeret.
 - Lage første produktbeskrivelser for de mest sentrale `SIKT`-ressursene, særlig Feide og Vitnemålsportalen.
-- Kvalitetssikre de nye arbeidsutkastene for `NHN`, `KART` og `EU`, særlig om de bør stå som egne ressurser i registeret eller omtales som referanseøkosystem rundt norske løsninger.
+- Kvalitetssikre de nye arbeidsutkastene for `EU`, særlig om de bør stå som egne ressurser i registeret eller omtales som referanseøkosystem rundt norske løsninger.
+- Vurdere om `Altinn` som paraplyressurs skal beholdes med dagens stramme plattformkoblinger, eller deles tydeligere fra underliggende Digdir-løsninger i registeret.
 
 ## Blokkere/risiko
 - Repoet har ingen eksplisitt lisens for dokumentasjonsinnholdet.
