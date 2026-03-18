@@ -2,7 +2,7 @@
 title: "Sluttbrukertjenester"
 weight: 3
 description: "Evne til å tilby en sammenhengende digital brukeropplevelse gjennom et økosystem av standardiserte og integrerbare tjenester."
-cardMeta: "3 delkapabiliteter / 7 produkter"
+cardMeta: "3 delkapabiliteter / 8 produkter"
 productsMarkdown: |
   ## Relaterte produkter
   
@@ -15,6 +15,7 @@ productsMarkdown: |
   | Dialogporten | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/22-Dialogporten-produkt-canvas-v4-codex.md) | Sammenhengende tjenester | gjør dialoger fra flere plattformer tilgjengelige i samme representasjon og brukerreise |
   | Altinn Varslinger | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/24-Varslinger-produkt-canvas-v4-codex.md) | Proaktive tjenester | gjør det mulig å varsle mottakere når en hendelse eller tilstand krever oppmerksomhet |
   | SvarUt | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/27-SvarUt-produkt-canvas-v1-codex.md) | Sammenhengende tjenester | lar mottakeren nås gjennom ulike kanaler via ett samlet utsendingsløp. |
+  | Vitnemålsportalen | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/51-Vitnemalsportalen-produkt-canvas-v1-codex.md) | Sammenhengende tjenester | samler innsyn, uthenting og deling av resultater i én brukerrettet arbeidsflate som knytter sammen utdanningssektor og mottakere utenfor sektoren |
 ---
 
 Evne til å tilby en sammenhengende digital brukeropplevelse gjennom et økosystem av standardiserte og integrerbare tjenester.

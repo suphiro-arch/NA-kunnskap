@@ -2,7 +2,7 @@
 title: "Datautveksling og integrasjon"
 weight: 4
 description: "Evne til å sikkert, effektivt og standardisert utveksle data mellom aktører i økosystemet."
-cardMeta: "4 delkapabiliteter / 15 produkter"
+cardMeta: "4 delkapabiliteter / 17 produkter"
 productsMarkdown: |
   ## Relaterte produkter
   
@@ -23,6 +23,8 @@ productsMarkdown: |
   | FIKS Melding | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v1-codex.md) | Meldingsformidling | gir kommunene en felles tjeneste for å sende meldinger og dokumenter gjennom flere kanaler fra samme løsning. |
   | SvarUt | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/27-SvarUt-produkt-canvas-v1-codex.md) | Meldingsformidling | fordeler dokumenter til flere mottakerkanaler gjennom ett sentralisert utsendingsløp. |
   | FIKS Register | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/28-FIKS-Register-produkt-canvas-v1-codex.md) | Bruke data fra andre | gir fagsystemer og forvaltere et standardisert løp for å hente registerdata fra andre virksomheter. |
+  | Feide | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/47-Feide-produkt-canvas-v1-codex.md) | Dele data med andre | gjør det mulig å dele nødvendige identitets- og organisasjonsopplysninger fra vertsorganisasjonen til tilknyttede tjenester på en kontrollert måte |
+  | Vitnemålsportalen | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/51-Vitnemalsportalen-produkt-canvas-v1-codex.md) | Dele data med andre | gjør det mulig for brukeren å dele resultater med eksterne mottakere gjennom en kontrollert digital tjeneste i stedet for manuell dokumentutveksling |
 ---
 
 Evne til å sikkert, effektivt og standardisert utveksle data mellom aktører i økosystemet.

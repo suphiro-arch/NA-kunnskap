@@ -312,3 +312,23 @@ Fiks Digiorden er KS Digitals styrings- og oversiktsløsning for kommunal inform
 **Kapabiliteter:** [Datastyring](../../kapabiliteter/informasjonsforvaltning/datastyring/) · [Oversikt over datasett](../../kapabiliteter/informasjonsforvaltning/oversikt-over-datasett/) · [Oversikt over tjenester](../../kapabiliteter/informasjonsforvaltning/oversikt-over-tjenester/)
 
 ---
+
+## Feide
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/47-Feide-produkt-canvas-v1-codex.md)
+
+Feide er den nasjonale fellesløsningen for trygg innlogging og datadeling i utdannings- og forskningssektoren. Produktet gir elever, studenter, forskere, undervisere og ansatte én felles identitet som kan brukes på tvers av mange digitale tjenester. Feide er særlig relevant når sektoren trenger gjenbrukbar...
+
+**Kapabiliteter:** [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [Autentisering](../../kapabiliteter/tillit/autentisering/) · [Tilgangskontroll](../../kapabiliteter/tillit/tilgangskontroll/)
+
+---
+
+## Vitnemålsportalen
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/51-Vitnemalsportalen-produkt-canvas-v1-codex.md)
+
+Vitnemålsportalen er en nasjonal delingstjeneste som gjør det mulig for brukere å hente ut og dele resultater og vitnemål digitalt. Produktet gir den som eier resultatene kontroll over hvem som får innsyn, og gjør det enklere for studiesteder og arbeidsgivere å motta verifiserbare resultater uten manuell håndtering av...
+
+**Kapabiliteter:** [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/)
+
+---

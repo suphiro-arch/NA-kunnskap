@@ -125,12 +125,14 @@ Sist redigert: 2026-03-18.
 - Om Sikt: https://sikt.no/om-sikt (lagt til 2026-03-18)
 - Se hva vi kan tilby: https://sikt.no/se-hva-vi-kan-tilby (lagt til 2026-03-18)
 - Utdanning og administrasjon i Sikt: https://sikt.no/se-hva-vi-kan-tilby/utdanning-og-administrasjon (lagt til 2026-03-18)
+- Feide hos Sikt: https://sikt.no/tjenester/feide (lagt til 2026-03-18)
 - Felles studentsystem (FS): https://sikt.no/tjenester/felles-studentsystem-fs (lagt til 2026-03-18)
 - Opptaksløsninger: https://sikt.no/tjenester/opptakslosninger (lagt til 2026-03-18)
 - Nasjonal vitnemålsdatabase (NVB): https://sikt.no/nb/tjenester/nasjonal-vitnemalsdatabase (lagt til 2026-03-18)
 - Vitnemålsportalen: https://sikt.no/tjenester/vitnemalsportalen (lagt til 2026-03-18)
 - Nasjonalt utdanningsregister: https://sikt.no/tiltak/nasjonalt-utdanningsregister (lagt til 2026-03-18)
 - Feide videreutvikling: https://sikt.no/tiltak/feide-videreutvikling (lagt til 2026-03-18)
+- Feide teknisk dokumentasjon: https://docs.feide.no/ (lagt til 2026-03-18)
 
 ### eID tilbydere
 - BankID: https://www.bankid.no
