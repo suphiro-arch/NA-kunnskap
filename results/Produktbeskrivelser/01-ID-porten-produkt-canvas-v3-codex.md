@@ -24,13 +24,11 @@ DIGDIR-001
 ID-porten er den nasjonale fellesløsningen for sikker innlogging til offentlige digitale tjenester. Løsningen gir innbyggere én gjenkjennelig inngang til tjenester på tvers av virksomheter, og gir tjenesteeiere en felles autentiseringskomponent i stedet for lokale innloggingsløsninger. ID-porten er særlig relevant når en tjeneste trenger sikker identitetsbekreftelse av en bruker, og når samme innloggingsmønster skal gjenbrukes på tvers av mange offentlige tjenester.
 
 ## Kapabiliteter
+- **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** beskytter innloggingsflyt, tokenutstedelse og overføring av identitetsinformasjon mellom ID-porten og tjenesteeier.
 - **Tillit: Autentisering** verifiserer brukerens identitet gjennom godkjente eID-er og gir et felles sikkerhetsnivå på tvers av offentlige tjenester.
 - **Tillit: Identifisering** kobler innloggingen til en entydig digital identitet som tjenesteeier kan bruke videre i sin saks- og tjenestelogikk.
 - **Tillit: Representasjon** støtter innlogging i bruker-kontekst også når en innbygger handler med valgt virksomhet eller i delegert kontekst, i samspill med andre tillitstjenester og representasjonsgrunnlag.
-- **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** beskytter innloggingsflyt, tokenutstedelse og overføring av identitetsinformasjon mellom ID-porten og tjenesteeier.
 - **Tjenesteutvikling: Integrerbare tjenester** gjør autentisering gjenbrukbar gjennom standardiserte grensesnitt og dokumenterte integrasjonsmønstre.
-
-Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot dokumentert funksjon i Digdir Docs, Digdirs produktside og Samarbeidsportalen.
 
 ## Produktmål
 **Primærkilder:** Digdirs produktside for ID-porten og Samarbeidsportalen for tillitstjenester.

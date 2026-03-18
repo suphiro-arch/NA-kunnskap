@@ -22,14 +22,11 @@ DIGDIR-011
 Felles datakatalog er en nasjonal løsning for å beskrive, katalogisere og gjøre datasett, API-er, informasjonsmodeller og begreper synlige og synlige og oppdagbare for datadeling i offentlig og privat sektor. Katalogen fungerer som sentral referanse for "hva data finnes, hvem som eier dem, og hvordan de kan brukes", og støtter både avanserte arkitekter og gjennomsnittsbrukere som søker relevante datakilder.
 
 ## Kapabiliteter
-- **Informasjonsforvaltning: Oversikt over datasett** – Katalogisering og søk av offentlige datasett
-- **Informasjonsforvaltning: Oversikt over API** – Katalogisering av tilgjengelige API-er
-- **Informasjonsforvaltning: Oversikt over begreper** – Integrasjon med Begrepskatalog for semantisk enighet
-- **Informasjonsforvaltning: Oversikt over informasjonsmodeller** – Støtte for SOSI og andre datamodeller
-- **Datautveksling og integrasjon: Dele data med andre** – Metadata-basert oppdagelse av datasett for deling
-- **Standardisering: Forvaltningsstandarder** – DCAT-AP-NO standarder og metadata-klassifikasjoner
-
-Grunnlag: Kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
+- **Informasjonsforvaltning: Oversikt over API** – Katalogisering av tilgjengelige API-er.
+- **Informasjonsforvaltning: Oversikt over begreper** – Integrasjon med Begrepskatalog for semantisk enighet.
+- **Informasjonsforvaltning: Oversikt over datasett** – Katalogisering og søk av offentlige datasett.
+- **Informasjonsforvaltning: Oversikt over informasjonsmodeller** – Støtte for SOSI og andre datamodeller.
+- **Standardisering: Forvaltningsstandarder** – DCAT-AP-NO standarder og metadata-klassifikasjoner.
 
 ## Produktmål
 - ?ke gjenfinning og gjenbruk av offentlige data gjennom sentralisert katalogisering

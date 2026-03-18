@@ -22,15 +22,9 @@ DIGDIR-017
 Altinn er Norges nasjonale plattform for digitale tjenester, meldingsutveksling og samhandling mellom offentlige virksomheter, innbyggere og næringsliv. Løsningen tilbyr end-to-end infrastruktur for tjenesteutvikling, -kjøring og -forvaltning, med integrering av felles sikkerhets- og samhandlings-komponenter.
 
 ## Kapabiliteter
-- **Tjenesteutvikling: Utviklings- og kjøretidsmiljø** – Altinn Studio som platform for tjenesteutvikling
-- **Tjenesteutvikling: Integrerbare tjenester** – Standard API-er for integrasjon med andre systemer
-- **Tjenesteutvikling: Gjenbrukbare tjenester** – Byggeklosser og mønstre for rask tjenesteutvikling
-- **Datautveksling og integrasjon: Meldingsformidling** – Altinn Formidling for sikker meldingsutveksling
-- **Sluttbrukertjenester: Sammenhengende tjenester** – Altinn Portal og Altinn Apps for innbygger-grensesnitt
-- **Samarbeid: Tjenesteforvaltning** – Verktøy for tjenesteeiere til å administrere tjenester
-- **Informasjonssikkerhet: Sikring av informasjonsflyt** – Integrert sikkerheit, autentisering, autorisasjon
-
-Grunnlag: Kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
+- **Samarbeid: Tjenesteforvaltning** – Verktøy for tjenesteeiere til å administrere tjenester.
+- **Tjenesteutvikling: Gjenbrukbare tjenester** – Byggeklosser og mønstre for rask tjenesteutvikling.
+- **Tjenesteutvikling: Integrerbare tjenester** – Standard API-er for integrasjon med andre systemer.
 
 ## Produktmål
 - Standardisere og effektivisere digital tjenesteleveranse i offentlig sektor

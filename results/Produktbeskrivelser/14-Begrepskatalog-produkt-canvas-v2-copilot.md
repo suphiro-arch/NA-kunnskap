@@ -22,14 +22,10 @@ DIGDIR-012
 Begrepskatalogen er nasjonalt register for begreper og definisjoner brukt i offentlig sektor. Løsningen sikrer felles forståelse av sentrale ord og uttrykk, slik at data og tjenester kan tolkes uniformt på tvers av virksomheter og reduserer semantiske misforståelser i datadeling og integrasjon.
 
 ## Kapabiliteter
-- **Informasjonsforvaltning: Oversikt over begreper** – Katalogisering og søk av autoritative begreper
-- **Informasjonsforvaltning: Informasjonsarkitektur** – Semantisk grunnlag for datamodeller
-- **Informasjonsforvaltning: Datastyring** – Forvaltning av begrepskvalitet
-- **Standardisering: Forvaltningsstandarder** – Standardisert begrepsdefinering (SKOS-format)
-- **Datautveksling og integrasjon: Dele data med andre** – Semantisk linking til datasett og API-er
-- **Samarbeid: Organisatorisk samhandling** – Enabler semantisk samhandling på tvers
-
-Grunnlag: Kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
+- **Informasjonsforvaltning: Datastyring** Forvaltning av begrepskvalitet.
+- **Informasjonsforvaltning: Informasjonsarkitektur** Semantisk grunnlag for datamodeller.
+- **Informasjonsforvaltning: Oversikt over begreper** Katalogisering og søk av autoritative begreper.
+- **Standardisering: Forvaltningsstandarder** Standardisert begrepsdefinering (SKOS-format).
 
 ## Produktmål
 - Etablere felles og autorative begrepsdefinisjoner på tvers av offentlig sektor

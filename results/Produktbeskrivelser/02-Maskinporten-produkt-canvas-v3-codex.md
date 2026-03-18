@@ -24,13 +24,11 @@ DIGDIR-002
 Maskinporten er den nasjonale fellesløsningen for å autentisere systemer og styre tilgang når virksomheter utveksler data eller bruker hverandres API-er. Produktet gjør det mulig å bygge sikre integrasjoner uten at hver datatilbyder og datakonsument må etablere egne autentiserings- og tokenløsninger. Maskinporten er særlig relevant når behovet er kontrollert maskin-til-maskin-kommunikasjon mellom virksomheter, ikke innlogging for sluttbrukere.
 
 ## Kapabiliteter
+- **Datautveksling og integrasjon: Bruke data fra andre** gjør det mulig for datakonsumenter å hente data fra andre virksomheter gjennom samme nasjonale tillitsmønster.
+- **Datautveksling og integrasjon: Dele data med andre** gjør det mulig for datatilbydere å eksponere API-er på en standardisert og sikker måte for andre virksomheter.
+- **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** beskytter tokenutstedelse, klientautentisering og overføring av tilgangsgrunnlag i integrasjonsflyten.
 - **Tillit: Autentisering** bekrefter identiteten til virksomheter og systemer som skal bruke API-er eller hente data maskinelt.
 - **Tillit: Tilgangskontroll** gir grunnlag for å slippe inn bare systemer som har riktig token, scope og godkjent tilgang til den aktuelle ressursen.
-- **Datautveksling og integrasjon: Dele data med andre** gjør det mulig for datatilbydere å eksponere API-er på en standardisert og sikker måte for andre virksomheter.
-- **Datautveksling og integrasjon: Bruke data fra andre** gjør det mulig for datakonsumenter å hente data fra andre virksomheter gjennom samme nasjonale tillitsmønster.
-- **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** beskytter tokenutstedelse, klientautentisering og overføring av tilgangsgrunnlag i integrasjonsflyten.
-
-Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot dokumentert funksjon i Digdir Docs og Samarbeidsportalen.
 
 ## Produktmål
 **Primærkilder:** Digdir Docs for Maskinporten og Samarbeidsportalen for produktområdet.

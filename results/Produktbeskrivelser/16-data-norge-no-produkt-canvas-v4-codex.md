@@ -25,17 +25,13 @@ DIGDIR-014
 data.norge.no er en nasjonal fellesløsning for å finne, forstå og viderebruke dataressurser. Portalen samler metadata om datasett, API-er, begreper, informasjonsmodeller, tjenester og hendelser, og gjør det enklere å oppdage hvilke data offentlig sektor har og kan dele med andre.
 
 ## Kapabiliteter
-- **Informasjonsforvaltning: Oversikt over datasett** gir nasjonal oversikt over publiserte datasett og gjør dem søkbare på tvers av virksomheter.
 - **Informasjonsforvaltning: Oversikt over API** synliggjør maskinlesbare grensesnitt i samme katalogstruktur som øvrige dataressurser.
 - **Informasjonsforvaltning: Oversikt over begreper** gjør definisjoner tilgjengelige og støtter felles forståelse av data.
+- **Informasjonsforvaltning: Oversikt over datasett** gir nasjonal oversikt over publiserte datasett og gjør dem søkbare på tvers av virksomheter.
+- **Informasjonsforvaltning: Oversikt over hendelser** gjør hendelser synlige som egne ressurser som kan støtte videre digital samhandling.
 - **Informasjonsforvaltning: Oversikt over informasjonsmodeller** synliggjør modeller som kan brukes til semantisk avklaring og bedre tolkning.
 - **Informasjonsforvaltning: Oversikt over tjenester** viser relevante offentlige tjenester som del av ressursbildet.
-- **Informasjonsforvaltning: Oversikt over hendelser** gjør hendelser synlige som egne ressurser som kan støtte videre digital samhandling.
-- **Datautveksling og integrasjon: Dele data med andre** gir datatilbydere en nasjonal kanal for å gjøre dataressurser oppdagbare og forståelige.
-- **Datautveksling og integrasjon: Bruke data fra andre** gir datakonsumenter ett sted å oppdage, vurdere og finne tilgangsinformasjon om dataressurser.
 - **Standardisering: Forvaltningsstandarder** bygger på standardisert metadataforvaltning som gir sammenlignbarhet og bedre gjenfinning.
-
-Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot dokumentert funksjon i data.norge.no og Samarbeidsportalen.
 
 ## Produktmål
 **Primærkilder:** data.norge.no `Om Data.norge.no` og Samarbeidsportalen `data.norge.no`.

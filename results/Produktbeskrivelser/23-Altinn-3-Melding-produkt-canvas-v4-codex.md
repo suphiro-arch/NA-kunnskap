@@ -25,15 +25,12 @@ DIGDIR-021
 Altinn 3 Melding er en nasjonal meldingstjeneste for sikker digital utveksling av korrespondanse mellom offentlige virksomheter og mottakere i offentlig sektor, næringsliv og befolkning. Produktet støtter livssyklus, tilgangsstyring, vedlegg, varsling og hendelser, og gjør meldinger tilgjengelige i arbeidsflate og Dialogporten som del av en mer sammenhengende digital kommunikasjon.
 
 ## Kapabiliteter
-- **Datautveksling og integrasjon: Meldingsformidling** håndterer sikker digital utsending og mottak av meldinger med status og livssyklus.
-- **Tillit: Tilgangskontroll** sørger for at kun autoriserte brukere og systemer får tilgang til meldinger og vedlegg.
-- **Tillit: Sporbarhet og innsyn** understøttes gjennom omfattende logging av hendelser og prosesser.
-- **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** beskytter innhold, vedlegg og overføringer i meldingsflyten.
 - **Datautveksling og integrasjon: Hendelsesdrevet** støtter abonnementer og oppfølging av hendelser knyttet til sendte meldinger.
-- **Sluttbrukertjenester: Sammenhengende tjenester** gjør meldinger tilgjengelige i Altinn Arbeidsflate og som dialoger i Dialogporten.
+- **Datautveksling og integrasjon: Meldingsformidling** håndterer sikker digital utsending og mottak av meldinger med status og livssyklus.
+- **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** beskytter innhold, vedlegg og overføringer i meldingsflyten.
+- **Tillit: Sporbarhet og innsyn** understøttes gjennom omfattende logging av hendelser og prosesser.
+- **Tillit: Tilgangskontroll** sørger for at kun autoriserte brukere og systemer får tilgang til meldinger og vedlegg.
 - **Tjenesteutvikling: Integrerbare tjenester** tilbyr API-er for sending, mottak og automatisert meldingshåndtering.
-
-Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot Altinn Melding-dokumentasjonen.
 
 ## Produktmål
 **Primærkilder:** Altinn Melding hovedside, `Hva får du?`, livssyklus og overgangsdokumentasjon.

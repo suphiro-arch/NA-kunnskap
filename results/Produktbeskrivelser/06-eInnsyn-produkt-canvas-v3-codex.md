@@ -24,10 +24,8 @@ DIGDIR-006
 eInnsyn er den nasjonale fellesløsningen som gjør offentlig informasjon lettere tilgjengelig for innbyggere, presse og andre som trenger innsyn. Produktet samler publiserte journalopplysninger og dokumentlenker fra mange virksomheter i ett felles innsynspunkt, slik at brukeren slipper å orientere seg i hver enkelt virksomhets løsning. eInnsyn er særlig relevant når målet er å gi samlet tilgang til offentlig informasjon og å effektivisere innsynsarbeid på tvers av virksomheter.
 
 ## Kapabiliteter
-- **Sluttbrukertjenester: Sammenhengende tjenester** gir brukerne ett felles sted å lete etter offentlig informasjon på tvers av mange virksomheter, i stedet for mange separate innsynsløsninger.
 - **Samarbeid: Organisatorisk samhandling** gjør det mulig for mange virksomheter å publisere informasjon gjennom et felles oppsett og et felles brukergrensesnitt for innsyn.
-
-Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot dokumentert funksjon i Digdir Docs, Digdirs produktside og Samarbeidsportalen.
+- **Sluttbrukertjenester: Sammenhengende tjenester** gir brukerne ett felles sted å lete etter offentlig informasjon på tvers av mange virksomheter, i stedet for mange separate innsynsløsninger.
 
 ## Produktmål
 **Primærkilder:** Digdirs produktside for eInnsyn, Digdir Docs og Samarbeidsportalen.

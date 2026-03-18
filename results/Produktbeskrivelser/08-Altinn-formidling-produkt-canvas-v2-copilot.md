@@ -22,15 +22,12 @@ DIGDIR-008
 Altinn formidling (Broker) er en nasjonal formidlingstjeneste for sikker, asynkron datautveksling mellom virksomheter og systemer. Tjenesten er designet for scenarioer hvor data må overføres pålitelig uten tett synkron kobling mellom avsender og mottaker, og tilbyr kømekanismer, leveringssikkerhet og sporbarhet.
 
 ## Kapabiliteter
-- **Datautveksling og integrasjon: Meldingsformidling** – Sikker transport av data via broker
-- **Datautveksling og integrasjon: Dele data med andre** – Avsender legger data i formidlingstjenste
-- **Datautveksling og integrasjon: Bruke data fra andre** – Mottaker henter data fra formidlingstjeneste
-- **Tjenesteutvikling: Integrerbare tjenester** – Standardisert API for integrasjon
-- **Samarbeid: Organisatorisk samhandling** – Enabler samhandling mellom organisasjoner
-- **Informasjonssikkerhet: Sikring av informasjonsflyt** – Kryptering, autentisering, tilgangskontroll
-- **Tillit: Sporbarhet og innsyn** – Logging av all formidling og leveringsstatus
-
-Grunnlag: Kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
+- **Datautveksling og integrasjon: Bruke data fra andre** Mottaker henter data fra formidlingstjeneste.
+- **Datautveksling og integrasjon: Dele data med andre** Avsender legger data i formidlingstjenste.
+- **Datautveksling og integrasjon: Meldingsformidling** Sikker transport av data via broker.
+- **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** Kryptering, autentisering, tilgangskontroll.
+- **Samarbeid: Organisatorisk samhandling** Enabler samhandling mellom organisasjoner.
+- **Tjenesteutvikling: Integrerbare tjenester** Standardisert API for integrasjon.
 
 ## Produktmål
 - Tilby en felles nasjonal tjeneste for robust asynkron dataformidling uten tett kobling

@@ -28,12 +28,8 @@ Altinn Portal er den sentrale brukerinngangen til skjema, tjenester, meldinger o
 - **Sluttbrukertjenester: Sammenhengende tjenester** samler tjenester, meldinger, kvitteringer og tilgangsstyring i én helhetlig arbeidsflate.
 - **Sluttbrukertjenester: Tjenestekjeder** lar brukeren gå fra søk eller varsel til konkret oppfølging i tjeneste uten å bytte kontekst unødig.
 - **Tillit: Representasjon** gjør det mulig å opptre på vegne av virksomhet eller andre når fullmakter og rettigheter er etablert.
-- **Tillit: Tilgangsstyring** gir oversikt over hvem som kan gjøre hva, både for virksomheter og privatpersoner.
 - **Tillit: Sporbarhet og innsyn** understøttes gjennom meldingshistorikk, status og administrasjon av fullmakter og tilganger.
-- **Samarbeid: Tjenesteforvaltning** gir mange tjenesteeiere en felles portalflate i stedet for separate sluttbrukergrensesnitt.
-- **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** er nødvendig fordi portalen eksponerer oppgaver, meldinger og tilganger fra mange underliggende tjenester i samme brukerflate.
-
-Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot dokumentert funksjon på info.altinn.no og tilhørende hjelpesider.
+- **Tillit: Tilgangsstyring** gir oversikt over hvem som kan gjøre hva, både for virksomheter og privatpersoner.
 
 ## Produktmål
 **Primærkilder:** Altinn infosider om nye Altinn, tilgangsstyring og startside.

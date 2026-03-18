@@ -22,13 +22,10 @@ DIGDIR-009
 Digital postkasse er nasjonal felleskomponent for sikker digital utsending av vedtak, informasjon og annen post fra offentlige virksomheter til innbyggere. Løsningen erstatter papirbasert post for mange dokumenttyper og gir innbyggere en samlet digital innboks med sporbar og sikker levering.
 
 ## Kapabiliteter
-- **Datautveksling og integrasjon:** Meldingsformidling – Sikker transport av post fra avsender til innbygger
-- **Datautveksling og integrasjon:** Dele data med andre – Integrering med offentlige fagsystemer
-- **Tillit:** Sporbarhet og innsyn – Loggering av all post og leveringsstatus
-- **Sluttbrukertjenester:** Sammenhengende tjenester – Innbyggers sentrale innboks for offentlig post
-- **Informasjonssikkerhet:** Sikring av informasjonsflyt og datautveksling – Kryptering, autentisering, tilgangskontroll
-
-Grunnlag: Kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
+- **Datautveksling og integrasjon: Dele data med andre** integrering med offentlige fagsystemer.
+- **Datautveksling og integrasjon: Meldingsformidling** sikker transport av post fra avsender til innbygger.
+- **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** kryptering, autentisering og tilgangskontroll.
+- **Sluttbrukertjenester: Sammenhengende tjenester** innbyggers sentrale innboks for offentlig post.
 
 ## Produktmål
 - Muliggjøre sikker, papirløs digital utsending av vedtak og post fra offentlig sektor til innbyggere
