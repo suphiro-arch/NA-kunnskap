@@ -27,6 +27,7 @@ sources:
 - Utvidet produktregisteret med kolonnen `Ressurskategori` og lagt inn flere verifiserte kandidater fra `KS`, `NHN`, `NAV`, `Skatteetaten`, `Kartverket` og relevante EU-byggesteiner.
 - Utvidet produktregisteret videre med `SIKT` som egen eiergruppe og første arbeidsutkast for Feide, FS, opptaksløsninger, Nasjonal vitnemålsdatabase og Vitnemålsportalen som kandidater for tverrsektoriell samhandling.
 - Kvalitetssikret første arbeidsutkast for `SIKT`-ressursene og utvidet registeret med `Nasjonalt utdanningsregister` som egen kandidat for tverrsektoriell samhandling i utdanningssektoren.
+- Kvalitetssikret `BRREG` og `KS` i produktregisteret med strammere kapabilitetstreff og tydeligere skille mellom register, plattform og tilgangstjeneste.
 
 ## Hva gjenstår
 - Velge lisens for dokumentasjonsinnholdet i repoet.
@@ -37,6 +38,7 @@ sources:
 - Følge opp kvaliteten i selve koblingene mellom produkter og kapabiliteter, særlig i eldre produktbeskrivelser der kapabilitetsseksjonen er svakere eller mindre presis.
 - Ta inn de første ressursene fra KS, Helsedirektoratet, NAV og Skatteetaten i produktregisteret med samme ID-prinsipp.
 - Kvalitetssikre de nye arbeidsutkastene for `KS`, `HDIR`, `NAV` og `SKATT`, særlig eierskap, ressurstype og kapabilitetstreff.
+- Ta eksplisitt stilling til om `Peppol eDelivery` fortsatt skal ligge under `BRREG`, eller om den bør få egen eierkode i registeret.
 - Lage første produktbeskrivelser for de mest sentrale `SIKT`-ressursene, særlig Feide og Vitnemålsportalen.
 - Kvalitetssikre de nye arbeidsutkastene for `NHN`, `KART` og `EU`, særlig om de bør stå som egne ressurser i registeret eller omtales som referanseøkosystem rundt norske løsninger.
 
