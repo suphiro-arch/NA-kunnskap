@@ -24,6 +24,7 @@ sources:
 - Lagt om produktregisteret til eierbasert `Ressurs ID`, med ekstra kolonner for ressurstype, kapabilitetstreff og lenke til siste dokumentversjon.
 - Oppdatert siste versjon av produkt `01-24` slik at feltet `Ressurs ID` nå bruker eierbasert identifikator.
 - Lagt inn første arbeidsutkast for ressurser fra `KS`, `HDIR`, `NAV` og `SKATT` i produktregisteret, basert på `sources/links.md`.
+- Utvidet produktregisteret med kolonnen `Ressurskategori` og lagt inn flere verifiserte kandidater fra `KS`, `NHN`, `NAV`, `Skatteetaten`, `Kartverket` og relevante EU-byggesteiner.
 
 ## Hva gjenstår
 - Velge lisens for dokumentasjonsinnholdet i repoet.
@@ -34,6 +35,7 @@ sources:
 - Følge opp kvaliteten i selve koblingene mellom produkter og kapabiliteter, særlig i eldre produktbeskrivelser der kapabilitetsseksjonen er svakere eller mindre presis.
 - Ta inn de første ressursene fra KS, Helsedirektoratet, NAV og Skatteetaten i produktregisteret med samme ID-prinsipp.
 - Kvalitetssikre de nye arbeidsutkastene for `KS`, `HDIR`, `NAV` og `SKATT`, særlig eierskap, ressurstype og kapabilitetstreff.
+- Kvalitetssikre de nye arbeidsutkastene for `NHN`, `KART` og `EU`, særlig om de bør stå som egne ressurser i registeret eller omtales som referanseøkosystem rundt norske løsninger.
 
 ## Blokkere/risiko
 - Repoet har ingen eksplisitt lisens for dokumentasjonsinnholdet.
