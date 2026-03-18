@@ -1,12 +1,10 @@
 # Produkt-canvas: ELMA (Elektronisk mottakeradresseregister)
 
-Målgruppe: Hovedfokus er forretningssiden og strategisk arkitektur.
-
 ## Navn
 ELMA (Elektronisk mottakeradresseregister)
 
 ## Ressurs ID
-BRREG-001
+DIGDIR-023
 
 ## Status/Livsfase
 **Produksjon** – Etablert nasjonal registerkomponent for Peppol/eFaktura-økosystemet

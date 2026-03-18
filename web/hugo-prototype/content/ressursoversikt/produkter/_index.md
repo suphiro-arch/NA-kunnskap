@@ -109,7 +109,7 @@ Digital postkasse er nasjonal felleskomponent for sikker digital utsending av ve
 
 ELMA (Elektronisk mottakeradresseregister) er et nasjonalt register som brukes til å finne hvor og hvordan elektroniske forretningsdokumenter (fakturaer, ordrer, leveringsmeldinger osv.) kan leveres til en virksomhet. Løsningen understøtter korrekt ruting i Peppol-økosystemet og reduserer feil i automatisert...
 
-**Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Oversikt over tjenester](../../kapabiliteter/informasjonsforvaltning/oversikt-over-tjenester/) · [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/)
+**Kapabiliteter:** [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Identifisering](../../kapabiliteter/tillit/identifisering/)
 
 ---
 
@@ -119,7 +119,7 @@ ELMA (Elektronisk mottakeradresseregister) er et nasjonalt register som brukes t
 
 Peppol eDelivery er et internasjonalt standardnettverk og regelverk for sikker og standardisert utveksling av elektroniske forretningsdokumenter (fakturaer, ordrer, leveringsmeldinger) mellom virksomheter over landegrenser. Løsningen er designet for å muliggjøre interoperabilitet, sikkerheit og skalering i B2B- og...
 
-**Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [EU standarder](../../kapabiliteter/standardisering/eu-standarder/) · [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/)
+**Kapabiliteter:** [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/) · [Identifisering](../../kapabiliteter/tillit/identifisering/)
 
 ---
 

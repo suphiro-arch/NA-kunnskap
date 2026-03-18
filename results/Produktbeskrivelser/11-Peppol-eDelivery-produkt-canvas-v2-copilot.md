@@ -1,12 +1,10 @@
 # Produkt-canvas: Peppol eDelivery
 
-Målgruppe: Hovedfokus er forretningssiden og strategisk arkitektur.
-
 ## Navn
 Peppol eDelivery
 
 ## Ressurs ID
-BRREG-002
+OPP-001
 
 ## Status/Livsfase
 **Produksjon** – Etablert internasjonalt rammeverk i aktiv bruk for elektronisk dokumentutveksling

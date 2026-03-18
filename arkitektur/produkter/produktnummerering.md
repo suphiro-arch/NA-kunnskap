@@ -24,6 +24,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | `NAV` | NAV | NAVs fellesløsninger og registre |
 | `SKATT` | Skatteetaten | Fellesløsninger og datatjenester forvaltet av Skatteetaten |
 | `KART` | Kartverket | Nasjonale geodata- og kartressurser |
+| `OPP` | OpenPeppol | Internasjonale fellesressurser og styringsrammeverk for Peppol-økosystemet |
 | `EU` | EU / Europakommisjonen | Relevante europeiske felleskomponenter og byggesteiner |
 
 ## Digdir (`DIGDIR`)
@@ -51,12 +52,11 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | 22 | `DIGDIR-020` | Dialogporten | Fellesløsning | Dialogtjeneste | Datautveksling og integrasjon: Bruke data fra andre<br>Datautveksling og integrasjon: Hendelsesdrevet<br>Sluttbrukertjenester: Sammenhengende tjenester<br>Tillit: Autentisering<br>Tillit: Tilgangskontroll<br>Tjenesteutvikling: Integrerbare tjenester | v4 (codex) | [Åpne](../../results/Produktbeskrivelser/22-Dialogporten-produkt-canvas-v4-codex.md) |
 | 23 | `DIGDIR-021` | Altinn 3 Melding (Correspondence) | Fellesløsning | Meldingstjeneste | Datautveksling og integrasjon: Hendelsesdrevet<br>Datautveksling og integrasjon: Meldingsformidling<br>Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling<br>Tillit: Sporbarhet og innsyn<br>Tillit: Tilgangskontroll<br>Tjenesteutvikling: Integrerbare tjenester | v4 (codex) | [Åpne](../../results/Produktbeskrivelser/23-Altinn-3-Melding-produkt-canvas-v4-codex.md) |
 | 24 | `DIGDIR-022` | Altinn Varslinger | Fellesløsning | Varslingstjeneste | Datadrevet: Sammenstilling av data<br>Datautveksling og integrasjon: Meldingsformidling<br>Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling<br>Sluttbrukertjenester: Proaktive tjenester<br>Tillit: Tilgangskontroll<br>Tjenesteutvikling: Integrerbare tjenester | v4 (codex) | [Åpne](../../results/Produktbeskrivelser/24-Varslinger-produkt-canvas-v4-codex.md) |
+| 10 | `DIGDIR-023` | ELMA (Elektronisk mottakeradresseregister) | Felleskomponent | Adresseregister for Peppol-mottakere | Datautveksling og integrasjon: Meldingsformidling<br>Tillit: Identifisering | v2 (copilot) | [Åpne](../../results/Produktbeskrivelser/10-ELMA-produkt-canvas-v2-copilot.md) |
 
 ## Brønnøysundregistrene (`BRREG`)
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Kapabilitetstreff | Siste versjon | Dokument |
 |---:|---|---|---|---|---|---|---|
-| 10 | `BRREG-001` | ELMA (Elektronisk mottakeradresseregister) | Register | Adresseregister | Datautveksling og integrasjon: Bruke data fra andre<br>Datautveksling og integrasjon: Meldingsformidling<br>Standardisering: Forvaltningsstandarder | v2 (copilot) | [Åpne](../../results/Produktbeskrivelser/10-ELMA-produkt-canvas-v2-copilot.md) |
-| 11 | `BRREG-002` | Peppol eDelivery | Felleskomponent | Meldingsinfrastruktur | Datautveksling og integrasjon: Meldingsformidling<br>Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling<br>Standardisering: EU-standarder<br>Standardisering: Forvaltningsstandarder | v2 (copilot) | [Åpne](../../results/Produktbeskrivelser/11-Peppol-eDelivery-produkt-canvas-v2-copilot.md) |
 | 46 | `BRREG-003` | Enhetsregisteret | Register | Register / grunndata | Datakilder: Grunndata<br>Datautveksling og integrasjon: Dele data med andre | Ikke opprettet ennå | - |
 
 ## KS Digital (`KS`)
@@ -108,6 +108,11 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 |---:|---|---|---|---|---|---|---|
 | 39 | `KART-001` | Matrikkelen | Register | Register / grunndata | Datakilder: Grunndata<br>Datautveksling og integrasjon: Dele data med andre | Ikke opprettet ennå | - |
 | 40 | `KART-002` | Geonorge | Portal | Geodataportal / metadata- og delingsplattform | Informasjonsforvaltning: Oversikt over datasett<br>Datautveksling og integrasjon: Dele data med andre | Ikke opprettet ennå | - |
+
+## OpenPeppol (`OPP`)
+| Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Kapabilitetstreff | Siste versjon | Dokument |
+|---:|---|---|---|---|---|---|---|
+| 11 | `OPP-001` | Peppol eDelivery | Internasjonal fellesressurs | Føderert meldingsøkosystem | Datautveksling og integrasjon: Meldingsformidling<br>Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling<br>Standardisering: Forvaltningsstandarder<br>Tillit: Identifisering | v2 (copilot) | [Åpne](../../results/Produktbeskrivelser/11-Peppol-eDelivery-produkt-canvas-v2-copilot.md) |
 
 ## EU / Europakommisjonen (`EU`)
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Kapabilitetstreff | Siste versjon | Dokument |
