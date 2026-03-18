@@ -24,5 +24,6 @@ sources: []
 | 2026-03-17 | Webpublisering | Hugo-prototypen skal publiseres med GitHub Pages artifact-deploy direkte fra `web/hugo-prototype/` | Fjerner den skjøre synken via `docs/prototype` og gjør publiseringen mer forutsigbar | team |
 | 2026-03-17 | Deploy-trigger | Publiseringsworkflowen skal også trigges ved endringer i `arkitektur/**`, `config/prompts/**` og `config/templates/**` | Innholdsgrunnlag og styrende konfigurasjon påvirker nettsiden og må kunne publiseres uten manuell workflow-kjøring | team |
 | 2026-03-17 | Produkt-kapabilitet-koblinger | Repoet skal ha en eksplisitt, manuelt vedlikeholdt masterfil for koblingen mellom produkter og kapabiliteter i `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml` | Gir én felles sannhetskilde for begge retninger i webprototypen og reduserer avvik mellom produktoverblikk og kapabilitetssider | team |
-
+| 2026-03-18 | Peppol-oversikt | `ELMA` skal behandles som den tydelige norske felleskomponenten i Peppol-økosystemet og føres under Digdir, mens `Peppol eDelivery` skal behandles som en internasjonal fellesressurs eid av OpenPeppol | Skiller den nasjonale komponenten fra det fødererte internasjonale økosystemet og gjør eierskap og ressursnivå mer presist i registeret | team |
+| 2026-03-18 | Produktregister | Standarder, sertifiseringsordninger, implementasjonsguider og onboardingløp skal ikke føres som egne produkter i produktregisteret | Holder registeret på samme ressursnivå som øvrige fellesløsninger og skiller produkter tydelig fra veiledning og standardforvaltning | team |
 
