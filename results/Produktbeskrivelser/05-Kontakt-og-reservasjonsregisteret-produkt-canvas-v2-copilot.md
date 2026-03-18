@@ -191,12 +191,12 @@ Grunnlag: Kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
 
 **Endringer fra originalversjon:**
 
-✅ **Brukersegmenter:** Struktur ut som tabell med konkrete behov og volum
-✅ **Risikomatrise:** 8 konkrete risikokategorier med håndtering
-✅ **Finansiering:** Detaljert kostnadsmodell (estimert 15-25 MNOK årlig)
-✅ **Forvaltning:** Tabell-format med tydelig ansvarsfordeling
-✅ **Veikart:** Konkrete fokusområder (datakvalitet, autentisering, nye kanaler, GDPR)
-✅ **Scope:** Eksplisitt tabell over hva som inngår/ikke inngår
-✅ **Kapabiliteter:** Tilknyttet konkrete behov og bruksscenarier
-✅ **Samfunnsverdi:** Utvidet med innbygger-, virksomhets- og samfunnsnivå
+- **Brukersegmenter:** Struktur ut som tabell med konkrete behov og volum
+- **Risikomatrise:** 8 konkrete risikokategorier med håndtering
+- **Finansiering:** Detaljert kostnadsmodell (estimert 15-25 MNOK årlig)
+- **Forvaltning:** Tabell-format med tydelig ansvarsfordeling
+- **Veikart:** Konkrete fokusområder (datakvalitet, autentisering, nye kanaler, GDPR)
+- **Scope:** Eksplisitt tabell over hva som inngår/ikke inngår
+- **Kapabiliteter:** Tilknyttet konkrete behov og bruksscenarier
+- **Samfunnsverdi:** Utvidet med innbygger-, virksomhets- og samfunnsnivå
 

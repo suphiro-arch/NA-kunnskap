@@ -200,13 +200,13 @@ Grunnlag: Kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
 
 **Endringer fra originalversjon:**
 
-✅ **Brukersegmenter:** Struktur ut som tabell med konkrete behov og estimert volum  
-✅ **Risikomatrise:** 8 konkrete risikokategorier med håndtering
-✅ **Finansiering:** Detaljert kostnadsmodell (estimert 5-15 MNOK årlig)
-✅ **Forvaltning:** Tabell-format med tydelig ansvarsfordeling og styringsforum
-✅ **Veikart:** Konkrete fokusområder (API-sikkerhet, policy-verktøy, representasjonsmodell)
-✅ **Scope:** Eksplisitt tabell over hva som inngår/ikke inngår
-✅ **Kapabiliteter:** Detalj-beskrivelser av hvordan hver kapabilitet realiseres
-✅ **Arkitekturdetal jer:** PDP/PEP-mønstre, XACML 3.0, kontekstberikelse konkretisert
-✅ **Styringsforum:** Koblet til Produktgruppe Tillisstjenester
+- **Brukersegmenter:** Struktur ut som tabell med konkrete behov og estimert volum  
+- **Risikomatrise:** 8 konkrete risikokategorier med håndtering
+- **Finansiering:** Detaljert kostnadsmodell (estimert 5-15 MNOK årlig)
+- **Forvaltning:** Tabell-format med tydelig ansvarsfordeling og styringsforum
+- **Veikart:** Konkrete fokusområder (API-sikkerhet, policy-verktøy, representasjonsmodell)
+- **Scope:** Eksplisitt tabell over hva som inngår/ikke inngår
+- **Kapabiliteter:** Detalj-beskrivelser av hvordan hver kapabilitet realiseres
+- **Arkitekturdetal jer:** PDP/PEP-mønstre, XACML 3.0, kontekstberikelse konkretisert
+- **Styringsforum:** Koblet til Produktgruppe Tillisstjenester
 
