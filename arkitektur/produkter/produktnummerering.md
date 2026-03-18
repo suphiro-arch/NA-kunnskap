@@ -82,20 +82,20 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 ## Helsedirektoratet (`HDIR`)
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Kapabilitetstreff | Siste versjon | Dokument |
 |---:|---|---|---|---|---|---|---|
-| 31 | `HDIR-001` | Helsedata.no | Portal | Datatilgangsportal | Informasjonsforvaltning: Oversikt over datasett<br>Informasjonsforvaltning: Oversikt over tjenester | Ikke opprettet ennå | - |
+| 31 | `HDIR-001` | Helsedata.no | Portal | Datatilgangs- og metadataportal | Informasjonsforvaltning: Oversikt over datasett<br>Informasjonsforvaltning: Datastyring<br>Sluttbrukertjenester: Sammenhengende tjenester | Ikke opprettet ennå | - |
 
 ## Norsk helsenett (`NHN`)
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Kapabilitetstreff | Siste versjon | Dokument |
 |---:|---|---|---|---|---|---|---|
-| 32 | `NHN-001` | Helsenorge | Portal | Innbyggerportal | Sluttbrukertjenester: Sammenhengende tjenester<br>Samarbeid: Organisatorisk samhandling | Ikke opprettet ennå | - |
-| 33 | `NHN-002` | HelseID | Felleskomponent | Tillitstjeneste for helse | Tillit: Autentisering<br>Tillit: Tilgangskontroll<br>Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling | Ikke opprettet ennå | - |
-| 34 | `NHN-003` | Kjernejournal | Fellesløsning | Helseopplysningsdeling | Datautveksling og integrasjon: Bruke data fra andre<br>Samarbeid: Organisatorisk samhandling | Ikke opprettet ennå | - |
-| 35 | `NHN-004` | e-resept | Fellesløsning | Samhandlingsløsning for legemidler | Datautveksling og integrasjon: Meldingsformidling<br>Samarbeid: Organisatorisk samhandling | Ikke opprettet ennå | - |
+| 32 | `NHN-001` | Helsenorge | Portal | Innbyggerportal for helse- og omsorgstjenester | Sluttbrukertjenester: Sammenhengende tjenester<br>Sluttbrukertjenester: Tjenestekjeder | Ikke opprettet ennå | - |
+| 33 | `NHN-002` | HelseID | Felleskomponent | Tillits- og tilgangstjeneste for helse | Datautveksling og integrasjon: Bruke data fra andre<br>Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling<br>Tillit: Autentisering<br>Tillit: Tilgangskontroll | Ikke opprettet ennå | - |
+| 34 | `NHN-003` | Kjernejournal | Fellesløsning | Delingsløsning for helseopplysninger | Datautveksling og integrasjon: Bruke data fra andre<br>Datautveksling og integrasjon: Dele data med andre<br>Samarbeid: Organisatorisk samhandling | Ikke opprettet ennå | - |
+| 35 | `NHN-004` | e-resept | Fellesløsning | Samhandlingsløsning for legemidler | Datautveksling og integrasjon: Bruke data fra andre<br>Datautveksling og integrasjon: Meldingsformidling<br>Samarbeid: Organisatorisk samhandling | Ikke opprettet ennå | - |
 
 ## NAV (`NAV`)
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Kapabilitetstreff | Siste versjon | Dokument |
 |---:|---|---|---|---|---|---|---|
-| 36 | `NAV-001` | Aa-registeret | Register | Register / grunndata | Datakilder: Grunndata<br>Datautveksling og integrasjon: Dele data med andre | Ikke opprettet ennå | - |
+| 36 | `NAV-001` | Aa-registeret | Register | Register / grunndata | Datakilder: Grunndata<br>Datautveksling og integrasjon: Bruke data fra andre<br>Datautveksling og integrasjon: Dele data med andre<br>Sluttbrukertjenester: Sammenhengende tjenester | Ikke opprettet ennå | - |
 
 ## Skatteetaten (`SKATT`)
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Kapabilitetstreff | Siste versjon | Dokument |
