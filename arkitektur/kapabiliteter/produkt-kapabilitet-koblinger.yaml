@@ -273,21 +273,21 @@
           "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
           "capability_name": "Datautveksling og integrasjon",
           "capability_slug": "datautveksling-og-integrasjon",
-          "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
-          "subcapability_name": "Bruke data fra andre",
-          "subcapability_slug": "bruke-data-fra-andre",
-          "mapping_label": "Datautveksling: Bruke data fra andre",
-          "explanation": "Mottak og automatisering av innkommende meldinger"
+          "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+          "subcapability_name": "Dele data med andre",
+          "subcapability_slug": "dele-data-med-andre",
+          "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+          "explanation": "Sikker meldingsutveksling over organisasjonsgrenser."
         },
         {
           "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
           "capability_name": "Datautveksling og integrasjon",
           "capability_slug": "datautveksling-og-integrasjon",
-          "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
-          "subcapability_name": "Dele data med andre",
-          "subcapability_slug": "dele-data-med-andre",
-          "mapping_label": "Datautveksling: Dele data med andre",
-          "explanation": "Sikker meldingsutveksling over organisasjonsgrenser"
+          "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
+          "subcapability_name": "Bruke data fra andre",
+          "subcapability_slug": "bruke-data-fra-andre",
+          "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+          "explanation": "Mottak og automatisering av innkommende meldinger."
         },
         {
           "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
@@ -296,18 +296,8 @@
           "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
           "subcapability_name": "Meldingsformidling",
           "subcapability_slug": "meldingsformidling",
-          "mapping_label": "Datautveksling: Meldingsformidling",
-          "explanation": "Standardisert protokoll for meldingsutveksling"
-        },
-        {
-          "capability_id": "id-48c9873ae59341a49c2dca27379fab55",
-          "capability_name": "Informasjonssikkerhet",
-          "capability_slug": "informasjonssikkerhet",
-          "subcapability_id": "id-34d3d64b3afe4327a29ee6c2f7f74dff",
-          "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
-          "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling",
-          "mapping_label": "Sikring av informasjonsflyt og datautveksling",
-          "explanation": "Kryptering, integritet, ikke-benektelse"
+          "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+          "explanation": "Standardisert protokoll for meldingsutveksling."
         },
         {
           "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
@@ -316,8 +306,18 @@
           "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
           "subcapability_name": "Organisatorisk samhandling",
           "subcapability_slug": "organisatorisk-samhandling",
-          "mapping_label": "Samhandling: Organisatorisk samhandling",
-          "explanation": "Samhändig kommunikasion mellom virksomheter"
+          "mapping_label": "Samarbeid: Organisatorisk samhandling",
+          "explanation": "Standardisert samhandling mellom virksomheter."
+        },
+        {
+          "capability_id": "id-48c9873ae59341a49c2dca27379fab55",
+          "capability_name": "Informasjonssikkerhet",
+          "capability_slug": "informasjonssikkerhet",
+          "subcapability_id": "id-34d3d64b3afe4327a29ee6c2f7f74dff",
+          "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
+          "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling",
+          "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
+          "explanation": "Kryptering, integritet og sporbarhet i meldingsflyten."
         },
         {
           "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
@@ -326,8 +326,8 @@
           "subcapability_id": "id-b99fcd8160d24e5f8ea3c17b15072f7a",
           "subcapability_name": "Forvaltningsstandarder",
           "subcapability_slug": "forvaltningsstandarder",
-          "mapping_label": "Forvaltningsstandarder",
-          "explanation": "Implementering av Peppol og AS4-standarder"
+          "mapping_label": "Standardisering: Forvaltningsstandarder",
+          "explanation": "Implementering av Peppol- og AS4-standarder."
         }
       ]
     },
@@ -970,26 +970,6 @@
       "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md",
       "capabilities": [
         {
-          "capability_id": "id-896e4c1434604caa891b94bcce964720",
-          "capability_name": "Informasjonsforvaltning",
-          "capability_slug": "informasjonsforvaltning",
-          "subcapability_id": "id-d9374751da7d4b36bb0b3be609ff7d28",
-          "subcapability_name": "Oversikt over tjenester",
-          "subcapability_slug": "oversikt-over-tjenester",
-          "mapping_label": "Informasjonsforvaltning: Oversikt over tjenester",
-          "explanation": "Katalog og oppdagelse av offentlige tjenester"
-        },
-        {
-          "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
-          "capability_name": "Samarbeid",
-          "capability_slug": "samarbeid",
-          "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
-          "subcapability_name": "Organisatorisk samhandling",
-          "subcapability_slug": "organisatorisk-samhandling",
-          "mapping_label": "Samarbeid: Organisatorisk samhandling",
-          "explanation": "Tverretatlig samhandling gjennom veiviserfunksjonen"
-        },
-        {
           "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
           "capability_name": "Sluttbrukertjenester",
           "capability_slug": "sluttbrukertjenester",
@@ -997,7 +977,7 @@
           "subcapability_name": "Sammenhengende tjenester",
           "subcapability_slug": "sammenhengende-tjenester",
           "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-          "explanation": "Helhetlig brukerreise på tvers av offentlig sektor"
+          "explanation": "Helhetlig brukerreise på tvers av offentlig sektor."
         },
         {
           "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
@@ -1007,7 +987,27 @@
           "subcapability_name": "Tjenestekjeder",
           "subcapability_slug": "tjenestekjeder",
           "mapping_label": "Sluttbrukertjenester: Tjenestekjeder",
-          "explanation": "Lenking av relaterte tjenester basert på livsbegivenheter"
+          "explanation": "Lenker relaterte tjenester i relevante livshendelser."
+        },
+        {
+          "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
+          "capability_name": "Tjenesteutvikling",
+          "capability_slug": "tjenesteutvikling",
+          "subcapability_id": "id-379e167f7b9c4fbea9c6969425ba7f6c",
+          "subcapability_name": "Tjenestedesign",
+          "subcapability_slug": "tjenestedesign",
+          "mapping_label": "Tjenesteutvikling: Tjenestedesign",
+          "explanation": "Behovsbasert navigasjon og informasjonsstruktur."
+        },
+        {
+          "capability_id": "id-896e4c1434604caa891b94bcce964720",
+          "capability_name": "Informasjonsforvaltning",
+          "capability_slug": "informasjonsforvaltning",
+          "subcapability_id": "id-d9374751da7d4b36bb0b3be609ff7d28",
+          "subcapability_name": "Oversikt over tjenester",
+          "subcapability_slug": "oversikt-over-tjenester",
+          "mapping_label": "Informasjonsforvaltning: Oversikt over tjenester",
+          "explanation": "Katalog og oppdagelse av offentlige tjenester."
         }
       ]
     },
@@ -1429,8 +1429,8 @@
           "author": "copilot",
           "relative_path": "results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md",
           "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Samhandling: Organisatorisk samhandling",
-          "explanation": "Samhändig kommunikasion mellom virksomheter",
+          "mapping_label": "Samarbeid: Organisatorisk samhandling",
+          "explanation": "Standardisert samhandling mellom virksomheter.",
           "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
           "subcapability_name": "Organisatorisk samhandling",
           "subcapability_slug": "organisatorisk-samhandling"
@@ -1444,19 +1444,6 @@
           "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/08-Altinn-formidling-produkt-canvas-v2-copilot.md",
           "mapping_label": "Samarbeid: Organisatorisk samhandling",
           "explanation": "Enabler samhandling mellom organisasjoner",
-          "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
-          "subcapability_name": "Organisatorisk samhandling",
-          "subcapability_slug": "organisatorisk-samhandling"
-        },
-        {
-          "product_id": 18,
-          "product_name": "Norge.no",
-          "version": 2,
-          "author": "copilot",
-          "relative_path": "results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md",
-          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Samarbeid: Organisatorisk samhandling",
-          "explanation": "Tverretatlig samhandling gjennom veiviserfunksjonen",
           "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
           "subcapability_name": "Organisatorisk samhandling",
           "subcapability_slug": "organisatorisk-samhandling"
@@ -1502,8 +1489,8 @@
               "author": "copilot",
               "relative_path": "results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md",
               "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md",
-              "mapping_label": "Samhandling: Organisatorisk samhandling",
-              "explanation": "Samhändig kommunikasion mellom virksomheter",
+              "mapping_label": "Samarbeid: Organisatorisk samhandling",
+              "explanation": "Standardisert samhandling mellom virksomheter.",
               "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
               "subcapability_name": "Organisatorisk samhandling",
               "subcapability_slug": "organisatorisk-samhandling"
@@ -1517,19 +1504,6 @@
               "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/08-Altinn-formidling-produkt-canvas-v2-copilot.md",
               "mapping_label": "Samarbeid: Organisatorisk samhandling",
               "explanation": "Enabler samhandling mellom organisasjoner",
-              "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
-              "subcapability_name": "Organisatorisk samhandling",
-              "subcapability_slug": "organisatorisk-samhandling"
-            },
-            {
-              "product_id": 18,
-              "product_name": "Norge.no",
-              "version": 2,
-              "author": "copilot",
-              "relative_path": "results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md",
-              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md",
-              "mapping_label": "Samarbeid: Organisatorisk samhandling",
-              "explanation": "Tverretatlig samhandling gjennom veiviserfunksjonen",
               "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
               "subcapability_name": "Organisatorisk samhandling",
               "subcapability_slug": "organisatorisk-samhandling"
@@ -1606,7 +1580,7 @@
           "relative_path": "results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md",
           "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md",
           "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-          "explanation": "Helhetlig brukerreise på tvers av offentlig sektor",
+          "explanation": "Helhetlig brukerreise på tvers av offentlig sektor.",
           "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
           "subcapability_name": "Sammenhengende tjenester",
           "subcapability_slug": "sammenhengende-tjenester"
@@ -1619,7 +1593,7 @@
           "relative_path": "results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md",
           "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md",
           "mapping_label": "Sluttbrukertjenester: Tjenestekjeder",
-          "explanation": "Lenking av relaterte tjenester basert på livsbegivenheter",
+          "explanation": "Lenker relaterte tjenester i relevante livshendelser.",
           "subcapability_id": "id-825b1ea1217b4eedb6caae165aeb8e41",
           "subcapability_name": "Tjenestekjeder",
           "subcapability_slug": "tjenestekjeder"
@@ -1718,7 +1692,7 @@
               "relative_path": "results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md",
               "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md",
               "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-              "explanation": "Helhetlig brukerreise på tvers av offentlig sektor",
+              "explanation": "Helhetlig brukerreise på tvers av offentlig sektor.",
               "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
               "subcapability_name": "Sammenhengende tjenester",
               "subcapability_slug": "sammenhengende-tjenester"
@@ -1765,7 +1739,7 @@
               "relative_path": "results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md",
               "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md",
               "mapping_label": "Sluttbrukertjenester: Tjenestekjeder",
-              "explanation": "Lenking av relaterte tjenester basert på livsbegivenheter",
+              "explanation": "Lenker relaterte tjenester i relevante livshendelser.",
               "subcapability_id": "id-825b1ea1217b4eedb6caae165aeb8e41",
               "subcapability_name": "Tjenestekjeder",
               "subcapability_slug": "tjenestekjeder"
@@ -1860,8 +1834,8 @@
           "author": "copilot",
           "relative_path": "results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md",
           "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Datautveksling: Bruke data fra andre",
-          "explanation": "Mottak og automatisering av innkommende meldinger",
+          "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+          "explanation": "Mottak og automatisering av innkommende meldinger.",
           "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
           "subcapability_name": "Bruke data fra andre",
           "subcapability_slug": "bruke-data-fra-andre"
@@ -1873,8 +1847,8 @@
           "author": "copilot",
           "relative_path": "results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md",
           "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Datautveksling: Dele data med andre",
-          "explanation": "Sikker meldingsutveksling over organisasjonsgrenser",
+          "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+          "explanation": "Sikker meldingsutveksling over organisasjonsgrenser.",
           "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
           "subcapability_name": "Dele data med andre",
           "subcapability_slug": "dele-data-med-andre"
@@ -1886,8 +1860,8 @@
           "author": "copilot",
           "relative_path": "results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md",
           "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Datautveksling: Meldingsformidling",
-          "explanation": "Standardisert protokoll for meldingsutveksling",
+          "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+          "explanation": "Standardisert protokoll for meldingsutveksling.",
           "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
           "subcapability_name": "Meldingsformidling",
           "subcapability_slug": "meldingsformidling"
@@ -2193,8 +2167,8 @@
               "author": "copilot",
               "relative_path": "results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md",
               "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md",
-              "mapping_label": "Datautveksling: Dele data med andre",
-              "explanation": "Sikker meldingsutveksling over organisasjonsgrenser",
+              "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+              "explanation": "Sikker meldingsutveksling over organisasjonsgrenser.",
               "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
               "subcapability_name": "Dele data med andre",
               "subcapability_slug": "dele-data-med-andre"
@@ -2305,8 +2279,8 @@
               "author": "copilot",
               "relative_path": "results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md",
               "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md",
-              "mapping_label": "Datautveksling: Bruke data fra andre",
-              "explanation": "Mottak og automatisering av innkommende meldinger",
+              "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+              "explanation": "Mottak og automatisering av innkommende meldinger.",
               "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
               "subcapability_name": "Bruke data fra andre",
               "subcapability_slug": "bruke-data-fra-andre"
@@ -2404,8 +2378,8 @@
               "author": "copilot",
               "relative_path": "results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md",
               "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md",
-              "mapping_label": "Datautveksling: Meldingsformidling",
-              "explanation": "Standardisert protokoll for meldingsutveksling",
+              "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+              "explanation": "Standardisert protokoll for meldingsutveksling.",
               "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
               "subcapability_name": "Meldingsformidling",
               "subcapability_slug": "meldingsformidling"
@@ -3282,8 +3256,8 @@
           "author": "copilot",
           "relative_path": "results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md",
           "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Sikring av informasjonsflyt og datautveksling",
-          "explanation": "Kryptering, integritet, ikke-benektelse",
+          "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
+          "explanation": "Kryptering, integritet og sporbarhet i meldingsflyten.",
           "subcapability_id": "id-34d3d64b3afe4327a29ee6c2f7f74dff",
           "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
           "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling"
@@ -3440,8 +3414,8 @@
               "author": "copilot",
               "relative_path": "results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md",
               "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md",
-              "mapping_label": "Sikring av informasjonsflyt og datautveksling",
-              "explanation": "Kryptering, integritet, ikke-benektelse",
+              "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
+              "explanation": "Kryptering, integritet og sporbarhet i meldingsflyten.",
               "subcapability_id": "id-34d3d64b3afe4327a29ee6c2f7f74dff",
               "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
               "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling"
@@ -3598,6 +3572,19 @@
           "subcapability_id": "id-60827614648541ef8520df87fa25d100",
           "subcapability_name": "Integrerbare tjenester",
           "subcapability_slug": "integrerbare-tjenester"
+        },
+        {
+          "product_id": 18,
+          "product_name": "Norge.no",
+          "version": 2,
+          "author": "copilot",
+          "relative_path": "results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md",
+          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md",
+          "mapping_label": "Tjenesteutvikling: Tjenestedesign",
+          "explanation": "Behovsbasert navigasjon og informasjonsstruktur.",
+          "subcapability_id": "id-379e167f7b9c4fbea9c6969425ba7f6c",
+          "subcapability_name": "Tjenestedesign",
+          "subcapability_slug": "tjenestedesign"
         },
         {
           "product_id": 19,
@@ -3905,6 +3892,19 @@
           "description": "Evne til å sette brukerens behov, livssituasjon og helhetlige reise som utgangspunkt for utvikling av sammenhengende tjenester.",
           "products": [
             {
+              "product_id": 18,
+              "product_name": "Norge.no",
+              "version": 2,
+              "author": "copilot",
+              "relative_path": "results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md",
+              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md",
+              "mapping_label": "Tjenesteutvikling: Tjenestedesign",
+              "explanation": "Behovsbasert navigasjon og informasjonsstruktur.",
+              "subcapability_id": "id-379e167f7b9c4fbea9c6969425ba7f6c",
+              "subcapability_name": "Tjenestedesign",
+              "subcapability_slug": "tjenestedesign"
+            },
+            {
               "product_id": 20,
               "product_name": "Altinn Studio",
               "version": 2,
@@ -4143,7 +4143,7 @@
           "relative_path": "results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md",
           "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md",
           "mapping_label": "Informasjonsforvaltning: Oversikt over tjenester",
-          "explanation": "Katalog og oppdagelse av offentlige tjenester",
+          "explanation": "Katalog og oppdagelse av offentlige tjenester.",
           "subcapability_id": "id-d9374751da7d4b36bb0b3be609ff7d28",
           "subcapability_name": "Oversikt over tjenester",
           "subcapability_slug": "oversikt-over-tjenester"
@@ -4407,7 +4407,7 @@
               "relative_path": "results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md",
               "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md",
               "mapping_label": "Informasjonsforvaltning: Oversikt over tjenester",
-              "explanation": "Katalog og oppdagelse av offentlige tjenester",
+              "explanation": "Katalog og oppdagelse av offentlige tjenester.",
               "subcapability_id": "id-d9374751da7d4b36bb0b3be609ff7d28",
               "subcapability_name": "Oversikt over tjenester",
               "subcapability_slug": "oversikt-over-tjenester"
@@ -4450,8 +4450,8 @@
           "author": "copilot",
           "relative_path": "results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md",
           "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md",
-          "mapping_label": "Forvaltningsstandarder",
-          "explanation": "Implementering av Peppol og AS4-standarder",
+          "mapping_label": "Standardisering: Forvaltningsstandarder",
+          "explanation": "Implementering av Peppol- og AS4-standarder.",
           "subcapability_id": "id-b99fcd8160d24e5f8ea3c17b15072f7a",
           "subcapability_name": "Forvaltningsstandarder",
           "subcapability_slug": "forvaltningsstandarder"
@@ -4596,8 +4596,8 @@
               "author": "copilot",
               "relative_path": "results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md",
               "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md",
-              "mapping_label": "Forvaltningsstandarder",
-              "explanation": "Implementering av Peppol og AS4-standarder",
+              "mapping_label": "Standardisering: Forvaltningsstandarder",
+              "explanation": "Implementering av Peppol- og AS4-standarder.",
               "subcapability_id": "id-b99fcd8160d24e5f8ea3c17b15072f7a",
               "subcapability_name": "Forvaltningsstandarder",
               "subcapability_slug": "forvaltningsstandarder"

@@ -15,7 +15,7 @@ Denne delkapabiliteten er en del av [Standardisering](../).
 
 | Produkt | Produktbeskrivelse | Hvorfor relevant |
 | --- | --- | --- |
-| eFormidling | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md) | Implementering av Peppol og AS4-standarder |
+| eFormidling | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md) | Implementering av Peppol- og AS4-standarder. |
 | ELMA (Elektronisk mottakeradresseregister) | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/10-ELMA-produkt-canvas-v2-copilot.md) | â€“ Peppol-standarder og profiler |
 | Peppol eDelivery | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/11-Peppol-eDelivery-produkt-canvas-v2-copilot.md) | â€“ Internasjonalt rammeverk med nasjonal oppfÃ¸lging |
 | Felles datakatalog | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/13-Felles-datakatalog-produkt-canvas-v2-copilot.md) | â€“ DCAT-AP-NO standarder og metadata-klassifikasjoner |

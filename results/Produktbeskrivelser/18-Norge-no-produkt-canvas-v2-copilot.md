@@ -22,11 +22,10 @@ DIGDIR-016
 Norge.no er en nasjonal informasjons- og veivisertjeneste som hjelper innbyggere Ã¥ finne relevant offentlig informasjon og tjenester. LÃ¸sningen fungerer som bruKerorientert sentral inngang til offentlig sektor, med fokus pÃ¥ tilgjengelighet, forstÃ¥elighet og navigasjon basert pÃ¥ innbyggernes livsituasjoner og behov.
 
 ## Kapabiliteter
-- **Sluttbrukertjenester: Sammenhengende tjenester** â€“ Helhetlig brukerreise pÃ¥ tvers av offentlig sektor
-- **Sluttbrukertjenester: Tjenestekjeder** â€“ Lenking av relaterte tjenester basert pÃ¥ livsbegivenheter
-- **Tjenesteutvikling: Tjenestedesign** â€“ Behovsbasert navigasjon og informasjonstruktur
-- **Informasjonsforvaltning: Oversikt over tjenester** â€“ Katalog og oppdagelse av offentlige tjenester
-- **Samarbeid: Organisatorisk samhandling** â€“ Tverretatlig samhandling gjennom veiviserfunksjonen
+- **Sluttbrukertjenester: Sammenhengende tjenester** - Helhetlig brukerreise på tvers av offentlig sektor.
+- **Sluttbrukertjenester: Tjenestekjeder** - Lenker relaterte tjenester i relevante livshendelser.
+- **Tjenesteutvikling: Tjenestedesign** - Behovsbasert navigasjon og informasjonsstruktur.
+- **Informasjonsforvaltning: Oversikt over tjenester** - Katalog og oppdagelse av offentlige tjenester.
 
 Grunnlag: Kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
 
