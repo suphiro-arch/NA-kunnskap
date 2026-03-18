@@ -15,5 +15,5 @@ Denne delkapabiliteten er en del av [Sluttbrukertjenester](../).
 
 | Produkt | Produktbeskrivelse | Hvorfor relevant |
 | --- | --- | --- |
-| Norge.no | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md) | Lenker relaterte tjenester i relevante livshendelser. |
+| Norge.no | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v3-codex.md) | Lenker relaterte tjenester i relevante livshendelser. |
 | Altinn Portal | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/21-Altinn-Portal-produkt-canvas-v3-codex.md) | lar brukeren gå fra søk eller varsel til konkret oppfølging i tjeneste uten å bytte kontekst unødig |

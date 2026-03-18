@@ -16,5 +16,5 @@ Denne delkapabiliteten er en del av [Samarbeid](../).
 | Produkt | Produktbeskrivelse | Hvorfor relevant |
 | --- | --- | --- |
 | eInnsyn | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/06-eInnsyn-produkt-canvas-v3-codex.md) | gjør det mulig for mange virksomheter å publisere informasjon gjennom et felles oppsett og et felles brukergrensesnitt for innsyn |
-| eFormidling | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md) | Standardisert samhandling mellom virksomheter. |
+| eFormidling | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v3-codex.md) | Standardisert samhandling mellom virksomheter. |
 | Altinn formidling (Broker) | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/08-Altinn-formidling-produkt-canvas-v2-copilot.md) | Enabler samhandling mellom organisasjoner |

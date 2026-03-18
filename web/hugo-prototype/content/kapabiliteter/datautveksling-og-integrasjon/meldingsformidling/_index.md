@@ -15,7 +15,7 @@ Denne delkapabiliteten er en del av [Datautveksling og integrasjon](../).
 
 | Produkt | Produktbeskrivelse | Hvorfor relevant |
 | --- | --- | --- |
-| eFormidling | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md) | Standardisert protokoll for meldingsutveksling. |
+| eFormidling | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v3-codex.md) | Standardisert protokoll for meldingsutveksling. |
 | Altinn formidling (Broker) | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/08-Altinn-formidling-produkt-canvas-v2-copilot.md) | Sikker transport av data via broker |
 | Digital postkasse (felleskomponent) | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/09-Digital-postkasse-produkt-canvas-v2-copilot.md) | sikker transport av post fra avsender til innbygger |
 | Peppol eDelivery | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/11-Peppol-eDelivery-produkt-canvas-v2-copilot.md) | â€“ Standard transport av elektroniske dokumenter |
