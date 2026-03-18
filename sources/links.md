@@ -143,6 +143,8 @@ Sist redigert: 2026-03-18.
 - eDelivery Building Block: https://interoperable-europe.ec.europa.eu/collection/digital-building-blocks/solution/edelivery (lagt til 2026-03-18)
 - eSignature Building Block: https://interoperable-europe.ec.europa.eu/collection/digital-building-blocks/solution/esignature (lagt til 2026-03-18)
 - Once-Only Technical System (OOTS): https://interoperable-europe.ec.europa.eu/collection/digital-building-blocks/solution/once-only-technical-system-oots (lagt til 2026-03-18)
+- Interoperable Europe Solutions: https://interoperable-europe.ec.europa.eu/interoperable_solutions (lagt til 2026-03-18)
+- EU Open Source Solutions Catalogue: https://interoperable-europe.ec.europa.eu/eu-oss-catalogue (lagt til 2026-03-18)
 
 ## Standarder og veiledninger
 
@@ -166,6 +168,13 @@ Sist redigert: 2026-03-18.
 - Aksesspunkter for EHF- og BIS-formater: https://anskaffelser.no/verktoy/veiledere/aksesspunkter-ehf-og-bis-formater (lagt til 2026-03-18)
 - EHF prosessdefinisjoner: https://anskaffelser.no/verktoy/verktoypakker/elektronisk-handelsformat-ehf-prosessdefinisjoner (lagt til 2026-03-18)
 - Bruksvilkår for ELMA: https://samarbeid.digdir.no/elma/bruksvilkar-elma/2072 (lagt til 2026-03-18)
+
+### EU interoperabilitet
+- Interoperable Europe Act: https://interoperable-europe.ec.europa.eu/Interoperable-Europe-Act-Regulation (lagt til 2026-03-18)
+- DIGITAL Building Blocks: https://interoperable-europe.ec.europa.eu/collection/digital-building-blocks (lagt til 2026-03-18)
+- Core Vocabularies: https://interoperable-europe.ec.europa.eu/collection/semic-support-centre/solution/core-vocabularies (lagt til 2026-03-18)
+- Assessment Toolbox: https://interoperable-europe.ec.europa.eu/collection/assessments/assessment-toolbox (lagt til 2026-03-18)
+- Assessment reports repository: https://interoperable-europe.ec.europa.eu/collection/assessments/assessment-reports-repository (lagt til 2026-03-18)
 
 ### Informasjonsforvaltning og styring
 - Rammeverk for informasjonsforvaltning: https://www.digdir.no/digitalisering-og-samordning/rammeverk-informasjonsforvaltning/2419
