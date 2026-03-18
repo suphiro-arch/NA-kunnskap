@@ -6,7 +6,8 @@ Kilde: konvertert fra `sources/Mal - Produkt canvas.docx`.
 Det offisielle navnet paa produktet eller løsningen.
 
 ## Ressurs ID
-Produktnummer fra arkitektur/produkter/produktnummerering.md, uten ekstra parentesforklaringer.
+Kanonisk ressurs-ID fra `arkitektur/produkter/produktnummerering.md`, for eksempel `DIGDIR-001`.
+Ikke bruk bare internt løpenummer i dette feltet.
 
 ## Status/Livsfase
 Planlagt / Under utvikling / Pilot / Produksjon / Utfasing

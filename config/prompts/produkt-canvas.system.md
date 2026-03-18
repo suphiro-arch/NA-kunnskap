@@ -32,7 +32,7 @@ Formål: Sikre lik, detaljert og grundig utfylling av produktbeskrivelser for ar
 1. Mal: `config/templates/produkt-canvas-template.md`
 2. Kapabiliteter: `arkitektur/kapabiliteter/capabilities.yaml` (kun navnene som finnes her)
 3. Lenker: `sources/links.md` (lokal liste + aktive lenker til dokumentasjon)
-4. Produktnummer: `arkitektur/produkter/produktnummerering.md`
+4. Produktregister og Ressurs-ID: `arkitektur/produkter/produktnummerering.md`
 5. **Åpne kilder**: Digdir Docs, Samarbeidsportalen, felles-IKT, produkteier-nettsteder (f.eks. altinn.studio)
 6. **URL-valg:** Bruk som hovedregel de konkrete URL-ene som allerede er listet i `sources/links.md` før du prøver bredere søk
 7. **Utvid bare ved behov:** Gå utover `sources/links.md` kun hvis lenkene der er utilstrekkelige, utdaterte eller utilgjengelige, og dokumenter hvorfor
@@ -47,10 +47,12 @@ Følg reglene under.
 ### Generelt
 - Fyll alle seksjoner med konkret, nyttig innhold (ikke generiske setninger)
 - Skill tydelig mellom **fakta** (fra kilder), **deduksjon** (logisk utledet), og **usikkerhet**
-- Tittel og ResourceID må alltid være korrekt
+- Tittel og Ressurs ID må alltid være korrekt
 - Lenker skal være aktive og relevante
 - Ikke legg inn egen linje for `Målgruppe` øverst i dokumentet; målgruppen er styrende for språk og innhold, men skal ikke stå som egen metadata-linje i produktbeskrivelsen
-- Skriv `Ressurs ID` som selve nummeret eller nummer + produktnavn hvis det gir mening, men ikke legg til parentesforklaringer som `(Produktliste NA-kunnskap)`
+- Skriv `Ressurs ID` med den kanoniske ressurs-ID-en fra `arkitektur/produkter/produktnummerering.md`, for eksempel `DIGDIR-001`
+- Ikke bruk bare internt løpenummer som `01` eller `17` i nye produktbeskrivelser
+- Løpenummeret beholdes for filnavn og sortering, men `Ressurs ID` i dokumentet skal være eierbasert
 - Ved revisjon: vis eksplisitt hvilke deler som er forbedret i analysen, ikke bare i språk/drakt
 - Skriv resultatet som en selvstendig produktbeskrivelse for målgruppen, ikke som referat av hva som står på nettsider eller i dokumentasjon
 - Unngå formuleringer som "nettsiden sier", "forsiden viser", "kilden beskriver" i selve hovedteksten; bruk heller dette kun i kildegrunnlag eller når du markerer usikkerhet/kildekonflikt

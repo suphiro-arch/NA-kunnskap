@@ -21,6 +21,7 @@ sources:
 - Lagt om publiseringsmodellen for Hugo-prototypen til GitHub Pages artifact-deploy direkte fra `web/hugo-prototype/`.
 
 - Kvalitetssjekket masterfila for produkt-kapabilitet-koblinger og strammet inn koblingene til et første manuelt arbeidsutkast basert på direkte og sterke koblinger.
+- Lagt om produktregisteret til eierbasert `Ressurs ID`, med ekstra kolonner for ressurstype, kapabilitetstreff og lenke til siste dokumentversjon.
 
 ## Hva gjenstår
 - Velge lisens for dokumentasjonsinnholdet i repoet.
@@ -29,6 +30,7 @@ sources:
 - Koble enkel chatflate til Hugo-prototypen.
 - Oppdatere de neste produktbeskrivelsene i stigende rekkefølge etter samme metode som for `02-06`.
 - Følge opp kvaliteten i selve koblingene mellom produkter og kapabiliteter, særlig i eldre produktbeskrivelser der kapabilitetsseksjonen er svakere eller mindre presis.
+- Ta inn de første ressursene fra KS, Helsedirektoratet, NAV og Skatteetaten i produktregisteret med samme ID-prinsipp.
 
 ## Blokkere/risiko
 - Repoet har ingen eksplisitt lisens for dokumentasjonsinnholdet.
