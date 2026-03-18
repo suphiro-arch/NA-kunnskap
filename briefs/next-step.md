@@ -43,6 +43,7 @@ sources:
 - Utvidet `maal.md` med de få eksplisitte kapabilitet-til-mål-koblingene som faktisk finnes i XML-kilden, og markerte hvilke som er operative versus generiske.
 - Kjørt avviksjekk mellom siste produktbeskrivelser og gjeldende produkt-kapabilitetsmaster, og dokumentert funnene i en egen rapport i `sources/`.
 - Synket alle siste produktbeskrivelser mot gjeldende produkt-kapabilitetsmaster og oppdatert avviksrapporten slik at den nå viser `0` avvik.
+- Opprettet første `SIKT`-produktbeskrivelser for `Feide` og `Vitnemålsportalen`, og synket produktregister, koblingsfil og genererte weboversikter mot de nye filene.
 
 ## Hva gjenstår
 - Velge lisens for dokumentasjonsinnholdet i repoet.
@@ -61,8 +62,7 @@ sources:
 - Vurdere om weben også bør få en egen målside bygget fra `arkitektur/maal/maal.md`, slik at mål, prinsipper, kapabiliteter og ressurser kan leses i samme struktur.
 - Vurdere om det senere trengs en egen kuratert koblingsfil mellom hovedkapabiliteter og strategiske mål, dersom målsporet skal brukes mer operativt i analyser og veiledning.
 - Vurdere om kapabilitetssidene på web også skal hente prinsippreferanser direkte fra `principles.md`, slik at all prinsipplogikk ligger ett sted.
-- Etter avviksoppryddingen: starte nye produktbeskrivelser for `SIKT`, med `Feide` og `Vitnemålsportalen` først.
-- Lage første produktbeskrivelser for de mest sentrale `SIKT`-ressursene, særlig Feide og Vitnemålsportalen.
+- Fortsette `SIKT`-sektoren med de neste ressursene etter `Feide` og `Vitnemålsportalen`, særlig `Felles studentsystem (FS)` og `Nasjonal vitnemålsdatabase`.
 - Kvalitetssikre de nye arbeidsutkastene for `EU`, særlig om de bør stå som egne ressurser i registeret eller omtales som referanseøkosystem rundt norske løsninger.
 - Vurdere om `Altinn` som paraplyressurs skal beholdes med dagens stramme plattformkoblinger, eller deles tydeligere fra underliggende Digdir-løsninger i registeret.
 

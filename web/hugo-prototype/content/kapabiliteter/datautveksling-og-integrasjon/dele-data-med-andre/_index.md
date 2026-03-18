@@ -2,7 +2,7 @@
 title: "Dele data med andre"
 weight: 1
 description: "Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er, slik at andre aktører med lovlig grunnlag enkelt kan oppdage og gjenbruke dem."
-cardMeta: "7 produkter"
+cardMeta: "9 produkter"
 ---
 
 Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er, slik at andre aktører med lovlig grunnlag enkelt kan oppdage og gjenbruke dem.
@@ -22,3 +22,5 @@ Denne delkapabiliteten er en del av [Datautveksling og integrasjon](../).
 | Digital postkasse (felleskomponent) | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/09-Digital-postkasse-produkt-canvas-v2-copilot.md) | integrering med offentlige fagsystemer |
 | Altinn events (Hendelsestjeneste) | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/12-Altinn-events-produkt-canvas-v2-copilot.md) | – Tjeneste publiserer hendelser |
 | data.altinn.no | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/17-data-altinn-no-produkt-canvas-v3-codex.md) | gir datatilbydere en felles måte å tilgjengeliggjøre data gjennom tjenestebaserte oppslag i stedet for punkt-til-punkt-integrasjoner |
+| Feide | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/47-Feide-produkt-canvas-v1-codex.md) | gjør det mulig å dele nødvendige identitets- og organisasjonsopplysninger fra vertsorganisasjonen til tilknyttede tjenester på en kontrollert måte |
+| Vitnemålsportalen | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/51-Vitnemalsportalen-produkt-canvas-v1-codex.md) | gjør det mulig for brukeren å dele resultater med eksterne mottakere gjennom en kontrollert digital tjeneste i stedet for manuell dokumentutveksling |

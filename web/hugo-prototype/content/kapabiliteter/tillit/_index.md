@@ -2,7 +2,7 @@
 title: "Tillit"
 weight: 5
 description: "Evne å tilby tillitstjenester som muliggjør autentisering og autorisasjon på tvers av tjenestekjeder, og støtte en distribuert arkitektur og føderering mellom ulike domener og tjenester."
-cardMeta: "8 delkapabiliteter / 11 produkter"
+cardMeta: "8 delkapabiliteter / 12 produkter"
 productsMarkdown: |
   ## Relaterte produkter
   
@@ -19,6 +19,7 @@ productsMarkdown: |
   | Dialogporten | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/22-Dialogporten-produkt-canvas-v4-codex.md) | Autentisering, Tilgangskontroll | Støtter flere delkapabiliteter i denne hovedkapabiliteten. |
   | Altinn 3 Melding (Correspondence) | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/23-Altinn-3-Melding-produkt-canvas-v4-codex.md) | Sporbarhet og innsyn, Tilgangskontroll | Støtter flere delkapabiliteter i denne hovedkapabiliteten. |
   | Altinn Varslinger | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/24-Varslinger-produkt-canvas-v4-codex.md) | Tilgangskontroll | bruker autorisasjon for å finne riktige mottakere i organisasjonskontekst |
+  | Feide | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/47-Feide-produkt-canvas-v1-codex.md) | Autentisering, Tilgangskontroll | Støtter flere delkapabiliteter i denne hovedkapabiliteten. |
 ---
 
 Evne å tilby tillitstjenester som muliggjør autentisering og autorisasjon på tvers av tjenestekjeder, og støtte en distribuert arkitektur og føderering mellom ulike domener og tjenester.
