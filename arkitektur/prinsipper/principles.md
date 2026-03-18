@@ -6,6 +6,8 @@ Kildegrunnlag:
 
 Denne fila samler de sju arkitekturprinsippene som faktisk er koblet til kapabilitetsmodellen, og viser hvilke hovedkapabiliteter som realiserer hvert prinsipp.
 
+Denne fila erstatter de tidligere dupliserte blokkene for prinsippnavn, strategiske mål og prinsipp-kapabilitet-begrunnelser som tidligere lå nederst i `arkitektur/kapabiliteter/capabilities.yaml`.
+
 ## Prinsipper
 
 | Prinsipp | Hva det betyr i praksis |

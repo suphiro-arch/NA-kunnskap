@@ -21,7 +21,7 @@ Repoet bruker egne kuraterte arbeidsfiler i `arkitektur/` for det som skal bruke
 Denne fila er den kuraterte arbeidsfila for:
 - hovedkapabiliteter
 - delkapabiliteter
-- kobling mellom hovedkapabiliteter og prinsipper
+- lokal kobling fra hver hovedkapabilitet til relevante prinsipp-ID-er
 
 ### Prinsipper
 - `arkitektur/prinsipper/principles.md`
@@ -30,6 +30,7 @@ Denne fila er den kuraterte arbeidsfila for:
 - operative prinsippnavn
 - kort forklaring av prinsippene
 - kobling mellom prinsipper og hovedkapabiliteter
+- prinsippfaglig forklaring som tidligere lå duplisert i `capabilities.yaml`
 
 ### Mål
 - `arkitektur/maal/maal.md`

@@ -39,6 +39,7 @@ sources:
 - Knyttet `arkitektur/prinsipper/principles.md` direkte inn i videre bruk: som kilde for prinsipper i produktanalyser, som synkgrunnlag for webens prinsippside og som del av repoets dokumenterte arbeidsflyt.
 - Dokumentert råkilder, kuraterte arbeidsfiler og videre prosessering i [struktur-og-bearbeiding.md](c:/Users/HILROS/NA-kunnskap/arkitektur/struktur-og-bearbeiding.md).
 - Kartlagt mål- og ressursrelasjoner i XML-kilden, dokumentert at ressursrelasjonene ikke er på samme nivå som repoets produktmaster, og opprettet [maal.md](c:/Users/HILROS/NA-kunnskap/arkitektur/maal/maal.md) som første kuraterte måloversikt.
+- Ryddet `capabilities.yaml` slik at den nå bare inneholder kapabilitetsstrukturen, mens prinsipptekst og målspor ligger i egne kuraterte filer.
 
 ## Hva gjenstår
 - Velge lisens for dokumentasjonsinnholdet i repoet.
@@ -56,6 +57,7 @@ sources:
 - Vurdere om weben også skal generere kapabilitets- og prinsippsammendrag direkte fra kuraterte filer i `arkitektur/`, slik at man unngår dobbelt vedlikehold av innledningstekster.
 - Vurdere om weben også bør få en egen målside bygget fra `arkitektur/maal/maal.md`, slik at mål, prinsipper, kapabiliteter og ressurser kan leses i samme struktur.
 - Vurdere om det senere trengs en egen kuratert koblingsfil mellom hovedkapabiliteter og strategiske mål, dersom målsporet skal brukes mer operativt i analyser og veiledning.
+- Vurdere om kapabilitetssidene på web også skal hente prinsippreferanser direkte fra `principles.md`, slik at all prinsipplogikk ligger ett sted.
 - Lage første produktbeskrivelser for de mest sentrale `SIKT`-ressursene, særlig Feide og Vitnemålsportalen.
 - Kvalitetssikre de nye arbeidsutkastene for `EU`, særlig om de bør stå som egne ressurser i registeret eller omtales som referanseøkosystem rundt norske løsninger.
 - Vurdere om `Altinn` som paraplyressurs skal beholdes med dagens stramme plattformkoblinger, eller deles tydeligere fra underliggende Digdir-løsninger i registeret.
