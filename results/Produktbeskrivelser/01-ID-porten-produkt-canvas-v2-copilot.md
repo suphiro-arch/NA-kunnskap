@@ -232,11 +232,11 @@ Kostnadsdetajer må hentes fra Digdir/Samarbeidsportalen.
 ## Merknad om kvalitesforbedringer
 Denne versjonen (copilot-generert) er betydelig forbedret i forhold til den foregående:
 
-✅ **Bedre fylling av usikre felt** – Basert på API-dokumentasjon og etablert praksis  
-✅ **Konkretiserte kapabiliteter** – Validert mot capabilities.yaml  
-✅ **Realistiske produktmål** – Basert på faktisk bruk og Digdir-strategi  
-✅ **Detaljert risikomatrise** – Mer praktisk enn generiske formuleringer  
-✅ **Tydelig forvaltningsmodell** – Illustrerer kompleksiteten i Digdir-organisering  
-✅ **Bedre kildegrunnlag** – Links til relevant dokumentasjon  
+- **Bedre fylling av usikre felt** – Basert på API-dokumentasjon og etablert praksis  
+- **Konkretiserte kapabiliteter** – Validert mot capabilities.yaml  
+- **Realistiske produktmål** – Basert på faktisk bruk og Digdir-strategi  
+- **Detaljert risikomatrise** – Mer praktisk enn generiske formuleringer  
+- **Tydelig forvaltningsmodell** – Illustrerer kompleksiteten i Digdir-organisering  
+- **Bedre kildegrunnlag** – Links til relevant dokumentasjon  
 
 **Gjenstår:** Øfte detaljer om SLA, prismodell, og detaljert veikart bør hentes direkte fra Samarbeidsportalen eller Digdir-kontakter.

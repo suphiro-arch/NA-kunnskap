@@ -87,7 +87,7 @@ eFormidling er Digdirs fellesløsning for standardisert og sikker meldingsutveks
 
 **Siste versjon:** v2 (copilot) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/08-Altinn-formidling-produkt-canvas-v2-copilot.md)
 
-Altinn formidling (Broker) er en nasjonal formidlingstjeneste for sikker, asynkron datautveksling mellom virksomheter og systemer. Tjenesten er designet for scenarioer hvor data mÃ¥ overfÃ¸res pÃ¥litelig uten tett synkron kobling mellom avsender og mottaker, og tilbyr kÃ¸mekanismer, leveringssikkerhet og sporbarhet.
+Altinn formidling (Broker) er en nasjonal formidlingstjeneste for sikker, asynkron datautveksling mellom virksomheter og systemer. Tjenesten er designet for scenarioer hvor data må overføres pålitelig uten tett synkron kobling mellom avsender og mottaker, og tilbyr kømekanismer, leveringssikkerhet og sporbarhet.
 
 **Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
 
@@ -97,7 +97,7 @@ Altinn formidling (Broker) er en nasjonal formidlingstjeneste for sikker, asynkr
 
 **Siste versjon:** v2 (copilot) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/09-Digital-postkasse-produkt-canvas-v2-copilot.md)
 
-Digital postkasse er nasjonal felleskomponent for sikker digital utsending av vedtak, informasjon og annen post fra offentlige virksomheter til innbyggere. LÃ¸sningen erstatter papirbasert post for mange dokumenttyper og gir innbyggere en samlet digital innboks med sporbar og sikker levering.
+Digital postkasse er nasjonal felleskomponent for sikker digital utsending av vedtak, informasjon og annen post fra offentlige virksomheter til innbyggere. Løsningen erstatter papirbasert post for mange dokumenttyper og gir innbyggere en samlet digital innboks med sporbar og sikker levering.
 
 **Kapabiliteter:** [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/)
 
@@ -107,7 +107,7 @@ Digital postkasse er nasjonal felleskomponent for sikker digital utsending av ve
 
 **Siste versjon:** v2 (copilot) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/10-ELMA-produkt-canvas-v2-copilot.md)
 
-ELMA (Elektronisk mottakeradresseregister) er et nasjonalt register som brukes til ÃƒÂ¥ finne hvor og hvordan elektroniske forretningsdokumenter (fakturaer, ordrer, leveringsmeldinger osv.) kan leveres til en virksomhet. LÃƒÂ¸sningen understÃƒÂ¸tter korrekt ruting i Peppol-ÃƒÂ¸kosystemet og reduserer feil i...
+ELMA (Elektronisk mottakeradresseregister) er et nasjonalt register som brukes til å finne hvor og hvordan elektroniske forretningsdokumenter (fakturaer, ordrer, leveringsmeldinger osv.) kan leveres til en virksomhet. Løsningen understøtter korrekt ruting i Peppol-økosystemet og reduserer feil i automatisert...
 
 **Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Oversikt over tjenester](../../kapabiliteter/informasjonsforvaltning/oversikt-over-tjenester/) · [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/)
 
@@ -117,7 +117,7 @@ ELMA (Elektronisk mottakeradresseregister) er et nasjonalt register som brukes t
 
 **Siste versjon:** v2 (copilot) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/11-Peppol-eDelivery-produkt-canvas-v2-copilot.md)
 
-Peppol eDelivery er et internasjonalt standardnettverk og regelverk for sikker og standardisert utveksling av elektroniske forretningsdokumenter (fakturaer, ordrer, leveringsmeldinger) mellom virksomheter over landegrenser. LÃƒÂ¸sningen er designet for ÃƒÂ¥ muliggjÃƒÂ¸re interoperabilitet, sikkerheit og skalering i...
+Peppol eDelivery er et internasjonalt standardnettverk og regelverk for sikker og standardisert utveksling av elektroniske forretningsdokumenter (fakturaer, ordrer, leveringsmeldinger) mellom virksomheter over landegrenser. Løsningen er designet for å muliggjøre interoperabilitet, sikkerheit og skalering i B2B- og...
 
 **Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [EU standarder](../../kapabiliteter/standardisering/eu-standarder/) · [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/)
 
@@ -127,7 +127,7 @@ Peppol eDelivery er et internasjonalt standardnettverk og regelverk for sikker o
 
 **Siste versjon:** v2 (copilot) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/12-Altinn-events-produkt-canvas-v2-copilot.md)
 
-Altinn events er en nasjonal hendelsestjeneste som muliggjÃƒÂ¸r publisering og konsum av hendelser pÃƒÂ¥ tvers av tjenester og systemer nÃƒÂ¦r de inntreffer. LÃƒÂ¸sningen understÃƒÂ¸tter hendelsesdrevet arkitektur, der tjenester kan reagere raskt pÃƒÂ¥ tilstandsendringer uten tett synkron avhengighet, og muliggjÃƒÂ¸r...
+Altinn events er en nasjonal hendelsestjeneste som muliggjør publisering og konsum av hendelser på tvers av tjenester og systemer nær de inntreffer. Løsningen understøtter hendelsesdrevet arkitektur, der tjenester kan reagere raskt på tilstandsendringer uten tett synkron avhengighet, og muliggjør proaktive og...
 
 **Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Hendelsesdrevet](../../kapabiliteter/datautveksling-og-integrasjon/hendelsesdrevet/) · [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
 
@@ -137,7 +137,7 @@ Altinn events er en nasjonal hendelsestjeneste som muliggjÃƒÂ¸r publisering 
 
 **Siste versjon:** v2 (copilot) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/13-Felles-datakatalog-produkt-canvas-v2-copilot.md)
 
-Felles datakatalog er en nasjonal lÃƒÂ¸sning for ÃƒÂ¥ beskrive, katalogisere og gjÃƒÂ¸re datasett, API-er, informasjonsmodeller og begreper synlige og synlige og oppdagbare for datadeling i offentlig og privat sektor. Katalogen fungerer som sentral referanse for "hva data finnes, hvem som eier dem, og hvordan de kan...
+Felles datakatalog er en nasjonal løsning for å beskrive, katalogisere og gjøre datasett, API-er, informasjonsmodeller og begreper synlige og synlige og oppdagbare for datadeling i offentlig og privat sektor. Katalogen fungerer som sentral referanse for "hva data finnes, hvem som eier dem, og hvordan de kan brukes",...
 
 **Kapabiliteter:** [Oversikt over API](../../kapabiliteter/informasjonsforvaltning/oversikt-over-api/) · [Oversikt over begreper](../../kapabiliteter/informasjonsforvaltning/oversikt-over-begreper/) · [Oversikt over datasett](../../kapabiliteter/informasjonsforvaltning/oversikt-over-datasett/) · [Oversikt over informasjonsmodeller](../../kapabiliteter/informasjonsforvaltning/oversikt-over-informasjonsmodeller/) · [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/)
 
@@ -147,7 +147,7 @@ Felles datakatalog er en nasjonal lÃƒÂ¸sning for ÃƒÂ¥ beskrive, katalogi
 
 **Siste versjon:** v2 (copilot) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/14-Begrepskatalog-produkt-canvas-v2-copilot.md)
 
-Begrepskatalogen er nasjonalt register for begreper og definisjoner brukt i offentlig sektor. LÃ¸sningen sikrer felles forstÃ¥else av sentrale ord og uttrykk, slik at data og tjenester kan tolkes uniformt pÃ¥ tvers av virksomheter og reduserer semantiske misforstÃ¥elser i datadeling og integrasjon.
+Begrepskatalogen er nasjonalt register for begreper og definisjoner brukt i offentlig sektor. Løsningen sikrer felles forståelse av sentrale ord og uttrykk, slik at data og tjenester kan tolkes uniformt på tvers av virksomheter og reduserer semantiske misforståelser i datadeling og integrasjon.
 
 **Kapabiliteter:** [Datastyring](../../kapabiliteter/informasjonsforvaltning/datastyring/) · [Informasjonsarkitektur](../../kapabiliteter/informasjonsforvaltning/informasjonsarkitektur/) · [Oversikt over begreper](../../kapabiliteter/informasjonsforvaltning/oversikt-over-begreper/) · [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/)
 
@@ -157,7 +157,7 @@ Begrepskatalogen er nasjonalt register for begreper og definisjoner brukt i offe
 
 **Siste versjon:** v2 (copilot) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md)
 
-API-katalogen er nasjonal register for tilgjengelige API-er i offentlig sektor. LÃ¸sningen gjÃ¸r det mulig Ã¥ oppdage, forstÃ¥ og gjenbruke felles API-er i nye tjenester og integrasjoner, og reduserer behov for parallelle/proprietaere grensesnitt.
+API-katalogen er nasjonal register for tilgjengelige API-er i offentlig sektor. Løsningen gjør det mulig å oppdage, forstå og gjenbruke felles API-er i nye tjenester og integrasjoner, og reduserer behov for parallelle/proprietaere grensesnitt.
 
 **Kapabiliteter:** [Informasjonsarkitektur](../../kapabiliteter/informasjonsforvaltning/informasjonsarkitektur/) · [Oversikt over API](../../kapabiliteter/informasjonsforvaltning/oversikt-over-api/) · [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/)
 
@@ -197,7 +197,7 @@ Norge.no er en nasjonal veivisertjeneste som hjelper innbyggere med å finne fra
 
 **Siste versjon:** v2 (copilot) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/19-Altinn-produkt-canvas-v2-copilot.md)
 
-Altinn er Norges nasjonale plattform for digitale tjenester, meldingsutveksling og samhandling mellom offentlige virksomheter, innbyggere og nÃƒÂ¦ringsliv. LÃƒÂ¸sningen tilbyr end-to-end infrastruktur for tjenesteutvikling, -kjÃƒÂ¸ring og -forvaltning, med integrering av felles sikkerhets- og samhandlings-komponenter.
+Altinn er Norges nasjonale plattform for digitale tjenester, meldingsutveksling og samhandling mellom offentlige virksomheter, innbyggere og næringsliv. Løsningen tilbyr end-to-end infrastruktur for tjenesteutvikling, -kjøring og -forvaltning, med integrering av felles sikkerhets- og samhandlings-komponenter.
 
 **Kapabiliteter:** [Tjenesteforvaltning](../../kapabiliteter/samarbeid/tjenesteforvaltning/) · [Gjenbrukbare tjenester](../../kapabiliteter/tjenesteutvikling/gjenbrukbare-tjenester/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
 
@@ -207,7 +207,7 @@ Altinn er Norges nasjonale plattform for digitale tjenester, meldingsutveksling 
 
 **Siste versjon:** v2 (copilot) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md)
 
-Altinn Studio er web-basert IDE og utviklingsplattform for bygging av digitale Altinn-tjenester. LÃƒÂ¸sningen tilbyr low-code/no-code verktÃƒÂ¸y, standardiserte byggeklosser, integrasjonsmÃƒÂ¸nstre og runtime-kapabiliteter som drastisk reduserer tid og kompleksitet fra behovsanalyse til produksjonssetting av digitale...
+Altinn Studio er web-basert IDE og utviklingsplattform for bygging av digitale Altinn-tjenester. Løsningen tilbyr low-code/no-code verktøy, standardiserte byggeklosser, integrasjonsmønstre og runtime-kapabiliteter som drastisk reduserer tid og kompleksitet fra behovsanalyse til produksjonssetting av digitale tjenester.
 
 **Kapabiliteter:** [Gjenbrukbare tjenester](../../kapabiliteter/tjenesteutvikling/gjenbrukbare-tjenester/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/) · [Tjenestedesign](../../kapabiliteter/tjenesteutvikling/tjenestedesign/) · [Utviklings- og kjøretidsmiljø](../../kapabiliteter/tjenesteutvikling/utviklings-og-kjoretidsmiljo/)
 
