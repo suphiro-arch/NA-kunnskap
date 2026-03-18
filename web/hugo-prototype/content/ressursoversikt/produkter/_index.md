@@ -17,7 +17,7 @@ Produktene er presentert som egne oversiktsblokker, slik at kapabilitetene kan l
 
 **Siste versjon:** v3 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/01-ID-porten-produkt-canvas-v3-codex.md)
 
-ID-porten er den nasjonale felleslÃ¸sningen for sikker innlogging til offentlige digitale tjenester. LÃ¸sningen gir innbyggere Ã©n gjenkjennelig inngang til tjenester pÃ¥ tvers av virksomheter, og gir tjenesteeiere en felles autentiseringskomponent i stedet for lokale innloggingslÃ¸sninger. ID-porten er sÃ¦rlig...
+ID-porten er den nasjonale fellesløsningen for sikker innlogging til offentlige digitale tjenester. Løsningen gir innbyggere én gjenkjennelig inngang til tjenester på tvers av virksomheter, og gir tjenesteeiere en felles autentiseringskomponent i stedet for lokale innloggingsløsninger. ID-porten er særlig relevant når...
 
 **Kapabiliteter:** [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [Autentisering](../../kapabiliteter/tillit/autentisering/) · [Identifisering](../../kapabiliteter/tillit/identifisering/) · [Representasjon](../../kapabiliteter/tillit/representasjon/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
 
