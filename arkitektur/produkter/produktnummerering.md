@@ -122,6 +122,9 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | 43 | `EU-003` | eDelivery Building Block | EU-felleskomponent | Byggestein / referanseramme for eDelivery | Datautveksling og integrasjon: Meldingsformidling<br>Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling | Ikke opprettet ennå | - |
 | 44 | `EU-004` | eSignature Building Block | EU-felleskomponent | Signaturkomponent | Tillit: Signering<br>Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling | Ikke opprettet ennå | - |
 | 45 | `EU-005` | Once-Only Technical System (OOTS) | EU-felleskomponent | Grensekryssende datadelingsinfrastruktur | Datautveksling og integrasjon: Dele data med andre<br>Samarbeid: Organisatorisk samhandling | Ikke opprettet ennå | - |
+| 53 | `EU-006` | EU Open Source Solutions Catalogue | Referanseressurs | Åpen kildekode-katalog for offentlig sektor | Tjenesteutvikling: Gjenbrukbare tjenester<br>Tjenesteutvikling: Integrerbare tjenester | Ikke opprettet ennå | - |
+| 54 | `EU-007` | Interoperable Europe Solutions | Referanseressurs | Løsningskatalog for interoperabilitet | Samarbeid: Samarbeidsarenaer og nettverk<br>Standardisering: Forvaltningsstandarder | Ikke opprettet ennå | - |
+| 55 | `EU-008` | Core Vocabularies | Referanseressurs | Semantisk interoperabilitetsressurs | Informasjonsforvaltning: Informasjonsarkitektur<br>Standardisering: Forvaltningsstandarder | Ikke opprettet ennå | - |
 
 ## Ekstra verifiserte kilder brukt i denne utvidelsen
 - KS Digital: https://ksdigital.no/tjenestene/fiks-plattformen/
