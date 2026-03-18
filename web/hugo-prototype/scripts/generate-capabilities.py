@@ -364,6 +364,58 @@ def table_or_message(headers: list[str], rows: list[list[str]], empty_message: s
     return '\n'.join(lines)
 
 
+def simplify_capability_relevance(explanations: list[str], via_names: list[str]) -> str:
+    cleaned = []
+    for explanation in explanations:
+        text = explanation.strip()
+        if text and text not in cleaned:
+            cleaned.append(text)
+
+    if len(via_names) > 1:
+        return 'Støtter flere delkapabiliteter i denne hovedkapabiliteten.'
+    if cleaned:
+        return cleaned[0]
+    return 'Produktet er eksplisitt koblet til denne kapabiliteten.'
+
+
+def aggregate_capability_product_rows(products: list[dict], capability_name: str) -> list[list[str]]:
+    grouped: dict[int, dict] = {}
+
+    for entry in products:
+        product = grouped.setdefault(entry['product_id'], {
+            'product_name': entry['product_name'],
+            'version': entry['version'],
+            'author': entry['author'],
+            'product_url': entry['product_url'],
+            'via_names': [],
+            'explanations': [],
+        })
+
+        via_name = entry['subcap_name'] or capability_name
+        if via_name not in product['via_names']:
+            product['via_names'].append(via_name)
+
+        explanation = (entry.get('explanation') or '').strip()
+        if explanation and explanation not in product['explanations']:
+            product['explanations'].append(explanation)
+
+    rows = []
+    for product_id in sorted(grouped):
+        product = grouped[product_id]
+        version_label = (
+            f"[v{product['version']} ({product['author']})]({product['product_url']})"
+            if product['version'] > 0 else
+            f"[legacy]({product['product_url']})"
+        )
+        rows.append([
+            product['product_name'],
+            version_label,
+            ', '.join(product['via_names']),
+            simplify_capability_relevance(product['explanations'], product['via_names']),
+        ])
+    return rows
+
+
 def write_file(path: Path, content: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(content.strip() + '\n', encoding='utf-8')
@@ -425,15 +477,7 @@ Denne delkapabiliteten er en del av [{capability['navn']}](../).
 """
             write_file(cap_dir / sub_slug / '_index.md', sub_content)
 
-        product_rows = []
-        for entry in products:
-            mapping_name = entry['subcap_name'] or capability['navn']
-            product_rows.append([
-                entry['product_name'],
-                f"[v{entry['version']} ({entry['author']})]({entry['product_url']})" if entry['version'] > 0 else f"[legacy]({entry['product_url']})",
-                mapping_name,
-                entry['explanation'] or 'Produktet er eksplisitt koblet til denne kapabiliteten i produktbeskrivelsen.',
-            ])
+        product_rows = aggregate_capability_product_rows(products, capability['navn'])
 
         products_markdown = (
             "## Relaterte produkter\n\n"
