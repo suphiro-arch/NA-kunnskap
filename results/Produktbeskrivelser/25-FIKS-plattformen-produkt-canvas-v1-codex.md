@@ -21,11 +21,9 @@ KS-001
 FIKS-plattformen er KS Digitals felles plattform for digital samhandling i kommunal sektor. Plattformen gir kommuner, fylkeskommuner og leverandører et felles teknisk rammeverk for å utvikle, integrere, forvalte og bruke digitale tjenester på en mer standardisert måte. Produktet er særlig relevant når kommunal sektor trenger felles byggeklosser, API-er og styring av tilgang på tvers av mange virksomheter, uten at hver kommune må etablere hele plattformgrunnlaget selv.
 
 ## Kapabiliteter
-- **Tjenesteutvikling: Utviklings- og kjøretidsmiljø** gir kommunal sektor en felles plattform for utvikling, drift, test og forvaltning av digitale tjenester i stedet for mange lokale plattformløp.
-- **Tjenesteutvikling: Integrerbare tjenester** tilbyr API-lag, komponenter og integrasjonsmønstre som gjør det mulig å koble kommunale fagsystemer og fellestjenester sammen gjennom standardiserte grensesnitt.
-- **Samarbeid: Organisatorisk samhandling** legger til rette for samhandling mellom kommuner, fylkeskommuner, leverandører og statlige aktører gjennom et felles plattformgrunnlag og felles styringsmønstre.
-
-Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot dokumentert funksjon i KS Digitals kilder brukt i denne arbeidsøkten.
+- **Samarbeid: Organisatorisk samhandling** gir kommunal sektor et felles plattformgrunnlag for samhandling på tvers av kommuner, fylkeskommuner, leverandører og statlige aktører.
+- **Tjenesteutvikling: Integrerbare tjenester** tilbyr felles API-er og integrasjonskomponenter som gjør det lettere å koble systemer og tjenester sammen.
+- **Tjenesteutvikling: Utviklings- og kjøretidsmiljø** gir et felles miljø for utvikling, test, drift og forvaltning av kommunale digitale tjenester.
 
 ## Produktmål
 Dokumenterte mål:

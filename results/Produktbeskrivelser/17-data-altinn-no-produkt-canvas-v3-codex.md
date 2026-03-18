@@ -25,17 +25,15 @@ DIGDIR-015
 data.altinn.no er Altinns fellesløsning for kontrollert datadeling mellom virksomheter. Produktet gjør det mulig å hente informasjon direkte fra autoritative kilder når det finnes lovlig grunnlag, autorisasjon eller samtykke, og gir konsumenter én teknisk modell for å bruke flere ulike datadelingstjenester.
 
 ## Kapabiliteter
-- **Datautveksling og integrasjon: Dele data med andre** gir datatilbydere en felles måte å tilgjengeliggjøre data gjennom tjenestebaserte oppslag i stedet for punkt-til-punkt-integrasjoner.
-- **Datautveksling og integrasjon: Bruke data fra andre** gjør det mulig for konsumenter å hente data direkte fra kilden gjennom en standardisert API-modell.
-- **Tillit: Autentisering** støtter maskin-til-maskin-tilgang gjennom virksomhetssertifikat eller Maskinporten.
-- **Tillit: Tilgangskontroll** håndterer tilgang gjennom tjenestekontekst, rettigheter og definerte datakilder.
-- **Tillit: Samtykke** muliggjør datadeling når bruk av data forutsetter et gyldig samtykke.
-- **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** legger til rette for sikker utveksling også når data ikke er åpne eller inneholder personopplysninger.
 - **Datadrevet: Sammenstilling av data** støtter datapakker som kombinerer informasjon fra én eller flere kilder og samtidig minimerer datamengden som deles.
-- **Tjenesteutvikling: Integrerbare tjenester** bruker samme tekniske mønster på tvers av produkter og gjør nye datadelingstjenester lettere å integrere.
+- **Datautveksling og integrasjon: Bruke data fra andre** gjør det mulig for konsumenter å hente data direkte fra kilden gjennom en standardisert API-modell.
+- **Datautveksling og integrasjon: Dele data med andre** gir datatilbydere en felles måte å tilgjengeliggjøre data gjennom tjenestebaserte oppslag i stedet for punkt-til-punkt-integrasjoner.
+- **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** legger til rette for sikker utveksling også når data ikke er åpne eller inneholder personopplysninger.
 - **Standardisering: Forvaltningsstandarder** gir et felles API- og tilgangsmønster som gjør løsningene mer forutsigbare for både tilbydere og konsumenter.
-
-Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot dokumentert funksjon på data.altinn.no og docs.data.altinn.no.
+- **Tillit: Autentisering** støtter maskin-til-maskin-tilgang gjennom virksomhetssertifikat eller Maskinporten.
+- **Tillit: Samtykke** muliggjør datadeling når bruk av data forutsetter et gyldig samtykke.
+- **Tillit: Tilgangskontroll** håndterer tilgang gjennom tjenestekontekst, rettigheter og definerte datakilder.
+- **Tjenesteutvikling: Integrerbare tjenester** bruker samme tekniske mønster på tvers av produkter og gjør nye datadelingstjenester lettere å integrere.
 
 ## Produktmål
 **Primærkilder:** data.altinn.no, produktsiden og docs.data.altinn.no.

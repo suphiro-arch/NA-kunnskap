@@ -22,15 +22,11 @@ DIGDIR-010
 Altinn events er en nasjonal hendelsestjeneste som muliggjør publisering og konsum av hendelser på tvers av tjenester og systemer nær de inntreffer. Løsningen understøtter hendelsesdrevet arkitektur, der tjenester kan reagere raskt på tilstandsendringer uten tett synkron avhengighet, og muliggjør proaktive og automatiserte prosesser i offentlig sektor.
 
 ## Kapabiliteter
-- **Datautveksling og integrasjon: Hendelsesdrevet** – Publisering og abonnement på hendelser
-- **Datautveksling og integrasjon: Dele data med andre** – Tjeneste publiserer hendelser
-- **Datautveksling og integrasjon: Bruke data fra andre** – Abonnent mottar hendelser
-- **Sluttbrukertjenester: Proaktive tjenester** – Hendelser triggers automatiserte tjenester
-- **Tjenesteutvikling: Integrerbare tjenester** – Standard API for hendelsesintegrasjon
-- **Informasjonsforvaltning: Oversikt over hendelser** – Logging og historikk av alle hendelser
-- **Informasjonssikkerhet: Sikring av informasjonsflyt** – Sikret transport; tilgangskontroll på abonnement
-
-Grunnlag: Kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
+- **Datautveksling og integrasjon: Bruke data fra andre** – Abonnent mottar hendelser.
+- **Datautveksling og integrasjon: Dele data med andre** – Tjeneste publiserer hendelser.
+- **Datautveksling og integrasjon: Hendelsesdrevet** – Publisering og abonnement på hendelser.
+- **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** – Sikret transport; tilgangskontroll på abonnement.
+- **Tjenesteutvikling: Integrerbare tjenester** – Standard API for hendelsesintegrasjon.
 
 ## Produktmål
 - Tilby felles infrastruktur for hendelsesdrevet samhandling i offentlig sektor

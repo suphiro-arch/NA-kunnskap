@@ -24,11 +24,9 @@ DIGDIR-004
 Altinn autorisasjon er komponenten som avgjør hvem som kan gjøre hva i Altinn, og på hvilket grunnlag. Produktet brukes til å styre tilganger til ressurser, handlinger og tjenester gjennom roller, rettigheter, delegering og representasjon. Løsningen er særlig relevant når behovet er å kontrollere tilgang på vegne av person eller virksomhet i Altinn-sammenheng, ikke når behovet primært er autentisering eller ren datadeling.
 
 ## Kapabiliteter
+- **Tillit: Representasjon** gjør det mulig å opptre på vegne av virksomhet eller annen part når dette er definert i Altinns rettighetsmodell.
 - **Tillit: Tilgangskontroll** er kjernefunksjonen og avgjør om en bruker, virksomhet eller system får utføre en bestemt handling eller bruke en bestemt ressurs.
 - **Tillit: Tilgangsstyring** gjør det mulig å forvalte roller, rettigheter og delegeringer som grunnlag for autorisasjonsbeslutninger.
-- **Tillit: Representasjon** gjør det mulig å opptre på vegne av virksomhet eller annen part når dette er definert i Altinns rettighetsmodell.
-
-Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot dokumentert funksjon i Altinn-dokumentasjonen og Samarbeidsportalen.
 
 ## Produktmål
 **Primærkilder:** Altinn-dokumentasjon for autorisasjon og Samarbeidsportalen for Altinn.

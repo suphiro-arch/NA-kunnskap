@@ -25,15 +25,12 @@ DIGDIR-022
 Altinn Varslinger er en fellesløsning for enveis digital varsling til innbyggere og virksomheter. Produktet gjør det mulig å sende varsler via e-post og SMS, slå opp mottakerens navn og kontaktinformasjon fra nasjonale registre, bruke autorisasjon for å finne riktige mottakere i organisasjoner og styre utsending basert på betingelser og kanalpreferanser.
 
 ## Kapabiliteter
-- **Sluttbrukertjenester: Proaktive tjenester** gjør det mulig å varsle mottakere når en hendelse eller tilstand krever oppmerksomhet.
-- **Datautveksling og integrasjon: Meldingsformidling** brukes til programmatisk utsending og leveringsoppfølging av varsler.
-- **Tjenesteutvikling: Integrerbare tjenester** tilbyr API-er for integrasjon med Altinn Apps, Altinn-tjenester og tjenesteeiersystemer.
-- **Tillit: Tilgangskontroll** bruker autorisasjon for å finne riktige mottakere i organisasjonskontekst.
-- **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** er nødvendig fordi kontaktinformasjon og varslingsinnhold behandles gjennom flere kanaler og oppslag.
 - **Datadrevet: Sammenstilling av data** kombinerer kontaktdata, reservasjonsstatus og autorisasjonsinformasjon for å velge riktig mottaker og kanal.
-- **Standardisering: Forvaltningsstandarder** gir tjenesteeiere et felles mønster for kanalvalg, oppslag og status i stedet for lokale varslingsmotorer.
-
-Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot dokumentert funksjon i Altinn Varslinger.
+- **Datautveksling og integrasjon: Meldingsformidling** brukes til programmatisk utsending og leveringsoppfølging av varsler.
+- **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** er nødvendig fordi kontaktinformasjon og varslingsinnhold behandles gjennom flere kanaler og oppslag.
+- **Sluttbrukertjenester: Proaktive tjenester** gjør det mulig å varsle mottakere når en hendelse eller tilstand krever oppmerksomhet.
+- **Tillit: Tilgangskontroll** bruker autorisasjon for å finne riktige mottakere i organisasjonskontekst.
+- **Tjenesteutvikling: Integrerbare tjenester** tilbyr API-er for integrasjon med Altinn Apps, Altinn-tjenester og tjenesteeiersystemer.
 
 ## Produktmål
 **Primærkilder:** Varslinger hovedside, `Om Varslinger`, `Hva får du?` og forklaringssider.

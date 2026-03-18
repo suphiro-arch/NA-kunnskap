@@ -23,12 +23,10 @@ OPP-001
 Peppol eDelivery er et internasjonalt samhandlingsrammeverk for sikker og standardisert utveksling av elektroniske dokumenter mellom virksomheter. Ressursen er relevant når en løsning trenger et felles transport- og adresseringsmønster for dokumentutveksling, særlig i sammenheng med EHF og andre Peppol-baserte dokumentformater. Peppol eDelivery bør forstås som et føderert økosystem med standarder, tillitsmekanismer og leverandørdrevne aksesspunkt, ikke som én norsk fellesløsning eller én sentral driftstjeneste.
 
 ## Kapabiliteter
-- **Datautveksling og integrasjon: Meldingsformidling** er kjernekapabiliteten, fordi Peppol eDelivery gir mønsteret for hvordan dokumenter rutes og leveres mellom avsender og mottaker.
-- **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** er sentral fordi meldingsutvekslingen bygger på sertifikater, tillitsrammeverk og kontrollert transport.
-- **Tillit: Identifisering** er viktig fordi adressering og ruting bygger på entydige deltakeridentifikatorer og oppslag i nettverket.
-- **Standardisering: Forvaltningsstandarder** er direkte relevant fordi ressursen bygger på forvaltede regler, transportspesifikasjoner og samhandlingsavtaler som må følges likt av alle deltakere.
-
-Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot OpenPeppol-dokumentasjon og norske EHF-/Peppol-kilder.
+- **Datautveksling og integrasjon: Meldingsformidling** gir et føderert mønster for standardisert dokumentutveksling mellom virksomheter.
+- **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** bruker sertifikater og tillitsrammeverk for å sikre transport og validering i nettverket.
+- **Standardisering: Forvaltningsstandarder** bygger p? forvaltede samhandlingsregler, meldingsprofiler og transportspesifikasjoner.
+- **Tillit: Identifisering** baserer ruting og adressering på entydige deltakeridentifikatorer.
 
 ## Produktmål
 **Primærkilder:** OpenPeppol dokumentasjon og norske EHF-/Peppol-kilder på anskaffelser.no.

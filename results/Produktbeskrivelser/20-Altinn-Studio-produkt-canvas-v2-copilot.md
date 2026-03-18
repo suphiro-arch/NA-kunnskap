@@ -22,16 +22,10 @@ DIGDIR-018
 Altinn Studio er web-basert IDE og utviklingsplattform for bygging av digitale Altinn-tjenester. Løsningen tilbyr low-code/no-code verktøy, standardiserte byggeklosser, integrasjonsmønstre og runtime-kapabiliteter som drastisk reduserer tid og kompleksitet fra behovsanalyse til produksjonssetting av digitale tjenester.
 
 ## Kapabiliteter
-- **Tjenesteutvikling: Utviklings- og kjøretidsmiljø** – Integrert IDE og runtime for tjenesteutvikling
-- **Tjenesteutvikling: Integrerbare tjenester** – API-er og integrasjonsmønstre mot Altinn og felleskomponenter
-- **Tjenesteutvikling: Gjenbrukbare tjenester** – Komponenter-bibliotek og mønstre for enkel gjenbruk
-- **Tjenesteutvikling: Tjenestedesign** – Low-code UI-modellering for brukergrensesnitt
-- **Sluttbrukertjenester: Sammenhengende tjenester** – Integration med Altinn Portal/Apps for sluttbrukerpresentasjon
-- **Samarbeid: Tjenesteforvaltning** – Verktøy for release-management, versjonering, miljøer
-- **Datautveksling og integrasjon: Bruke data fra andre** – API-integrasjon mot andre systemer
-- **Informasjonssikkerhet: Sikring av informasjonsflyt** – Bygg-inn sikkerheit, autentisering, autorisasjon
-
-Grunnlag: Kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
+- **Tjenesteutvikling: Gjenbrukbare tjenester** – Komponenter-bibliotek og mønstre for enkel gjenbruk.
+- **Tjenesteutvikling: Integrerbare tjenester** – API-er og integrasjonsmønstre mot Altinn og felleskomponenter.
+- **Tjenesteutvikling: Tjenestedesign** – Low-code UI-modellering for brukergrensesnitt.
+- **Tjenesteutvikling: Utviklings- og kjøretidsmiljø** – Integrert IDE og runtime for tjenesteutvikling.
 
 ## Produktmål
 - Senke terskelen for utvikling av digitale offentlige tjenester (low-code enablement)

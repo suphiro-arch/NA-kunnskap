@@ -24,11 +24,9 @@ DIGDIR-003
 eSignering er den nasjonale fellesløsningen for digital innhenting av underskrifter i offentlige prosesser. Produktet gjør det mulig å sende dokumenter til signering, følge status på signeringsoppdrag og motta ferdig signerte dokumenter tilbake i en kontrollert digital flyt. Løsningen er særlig relevant når en virksomhet trenger juridisk og prosessmessig sikker signering uten å bygge hele signeringsløpet selv.
 
 ## Kapabiliteter
-- **Tillit: Signering** er produktets kjernefunksjon og gjør det mulig å gjennomføre elektronisk signering av dokumenter i en nasjonal fellestjeneste.
-- **Tillit: Autentisering** brukes for å sikre at den som signerer identifiserer seg med støttet eID før signeringen gjennomføres.
 - **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** beskytter dokumenter, signeringsoppdrag og statusmeldinger gjennom hele signeringsprosessen.
-
-Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot dokumentert funksjon i Digdir Docs og Samarbeidsportalen.
+- **Tillit: Autentisering** brukes for å sikre at den som signerer identifiserer seg med støttet eID før signeringen gjennomføres.
+- **Tillit: Signering** er produktets kjernefunksjon og gjør det mulig å gjennomføre elektronisk signering av dokumenter i en nasjonal fellestjeneste.
 
 ## Produktmål
 **Primærkilder:** Digdir Docs for eSignering og Samarbeidsportalen for produktområdet.

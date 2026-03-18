@@ -22,14 +22,9 @@ DIGDIR-013
 API-katalogen er nasjonal register for tilgjengelige API-er i offentlig sektor. Løsningen gjør det mulig å oppdage, forstå og gjenbruke felles API-er i nye tjenester og integrasjoner, og reduserer behov for parallelle/proprietaere grensesnitt.
 
 ## Kapabiliteter
-- **Informasjonsforvaltning: Oversikt over API** – Katalogisering og søk av API-ressurser
-- **Informasjonsforvaltning: Informasjonsarkitektur** – Oversikt over integrasjonspunkter
-- **Datautveksling og integrasjon: Dele data med andre** – Publisering av API-metadata
-- **Datautveksling og integrasjon: Bruke data fra andre** – Oppdagelse og gjenbruk av API-er
-- **Tjenesteutvikling: Integrerbare tjenester** – Standard API-katalogisering
-- **Standardisering: Forvaltningsstandarder** – OpenAPI/Swagger standarder
-
-Grunnlag: Kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
+- **Informasjonsforvaltning: Informasjonsarkitektur** Oversikt over integrasjonspunkter.
+- **Informasjonsforvaltning: Oversikt over API** Katalogisering og søk av API-ressurser.
+- **Standardisering: Forvaltningsstandarder** OpenAPI/Swagger standarder.
 
 ## Produktmål
 - Øke oppdagbarheit av offentlige API-er og reduce tid fra integrasjon-behov til faktisk bruk
