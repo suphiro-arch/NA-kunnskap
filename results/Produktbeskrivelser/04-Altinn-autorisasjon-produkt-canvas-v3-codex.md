@@ -1,10 +1,10 @@
-﻿# Produkt-canvas: Altinn autorisasjon
+# Produkt-canvas: Altinn autorisasjon
 
 ## Navn
 Altinn autorisasjon
 
 ## Ressurs ID
-4
+DIGDIR-004
 
 ## Status/Livsfase
 **Produksjon** - etablert autorisasjonskomponent i Altinn for styring av tilganger, roller og representasjon.

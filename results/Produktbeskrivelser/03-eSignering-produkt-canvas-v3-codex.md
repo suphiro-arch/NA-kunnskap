@@ -1,10 +1,10 @@
-﻿# Produkt-canvas: eSignering
+# Produkt-canvas: eSignering
 
 ## Navn
 eSignering
 
 ## Ressurs ID
-3
+DIGDIR-003
 
 ## Status/Livsfase
 **Produksjon** - etablert nasjonal fellesløsning for digital signering i offentlig sektor.

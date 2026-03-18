@@ -1,10 +1,10 @@
-﻿# Produkt-canvas: Maskinporten
+# Produkt-canvas: Maskinporten
 
 ## Navn
 Maskinporten
 
 ## Ressurs ID
-2
+DIGDIR-002
 
 ## Status/Livsfase
 **Produksjon** - etablert nasjonal fellesløsning for sikker maskin-til-maskin-autentisering og tilgang til API-er.

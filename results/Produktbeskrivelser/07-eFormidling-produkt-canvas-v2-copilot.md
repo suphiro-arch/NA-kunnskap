@@ -2,7 +2,7 @@
 
 **Generert av:** GitHub Copilot  
 **Dato:** 2026-03-07  
-**Basert på:** sources/links.md (oppdatert), Digdir Docs, Samarbeidsportalen, Peppol-standard
+**Basert pÃ¥:** sources/links.md (oppdatert), Digdir Docs, Samarbeidsportalen, Peppol-standard
 
 ---
 
@@ -10,71 +10,71 @@
 eFormidling
 
 ## Ressurs ID
-7 (Produktliste NA-kunnskap)
+DIGDIR-007
 
 ## Status/Livsfase
-**Produksjon** – Etablert nasjonal felleskomponent for meldingsutveksling
+**Produksjon** â€“ Etablert nasjonal felleskomponent for meldingsutveksling
 
 ## Modenhet
-**Høy (4-5/5)**
-- Produktet er fullt etablert og i ordinær produksjon hos offentlige virksomheter
+**HÃ¸y (4-5/5)**
+- Produktet er fullt etablert og i ordinÃ¦r produksjon hos offentlige virksomheter
 - Teknisk dokumentasjon og integrasjonsveiledning fullstendig
-- Klart samhandlingsmønster basert på åpne standarder (Peppol, AS4 osv.)
+- Klart samhandlingsmÃ¸nster basert pÃ¥ Ã¥pne standarder (Peppol, AS4 osv.)
 - Tydelig forvaltningsmodell gjennom Digdir
-- Stabil tjeneste med høy oppetid for kritiaske meldinger
+- Stabil tjeneste med hÃ¸y oppetid for kritiaske meldinger
 
 ## Kort beskrivelse
-eFormidling er Norges nasjonale felleskomponent for sikker, standardisert og sporbar meldingsutveksling mellom offentlige virksomheter og mellom offentlig sektor og næringslivet. Løsningen implementerer internasjonale standarder (Peppol) og gjør det mulig for virksomheter å utstrekke meldinger (f.eks. fakturaer, bestillinger, rapporter) uten å måtte etablere bilaterale integrasjoner. eFormidling støtter digital samhandling, reduserer papir og manuell håndtering.
+eFormidling er Norges nasjonale felleskomponent for sikker, standardisert og sporbar meldingsutveksling mellom offentlige virksomheter og mellom offentlig sektor og nÃ¦ringslivet. LÃ¸sningen implementerer internasjonale standarder (Peppol) og gjÃ¸r det mulig for virksomheter Ã¥ utstrekke meldinger (f.eks. fakturaer, bestillinger, rapporter) uten Ã¥ mÃ¥tte etablere bilaterale integrasjoner. eFormidling stÃ¸tter digital samhandling, reduserer papir og manuell hÃ¥ndtering.
 
 ## Kapabiliteter
-Bidrar til realisering av følgende kapabiliteter (fra NA-kunnskap):
+Bidrar til realisering av fÃ¸lgende kapabiliteter (fra NA-kunnskap):
 
 **Datautveksling og integrasjon-dimensjonen:**
-- **Datautveksling: Dele data med andre** – Sikker meldingsutveksling over organisasjonsgrenser
-- **Datautveksling: Bruke data fra andre** – Mottak og automatisering av innkommende meldinger
-- **Datautveksling: Meldingsformidling** – Standardisert protokoll for meldingsutveksling
+- **Datautveksling: Dele data med andre** â€“ Sikker meldingsutveksling over organisasjonsgrenser
+- **Datautveksling: Bruke data fra andre** â€“ Mottak og automatisering av innkommende meldinger
+- **Datautveksling: Meldingsformidling** â€“ Standardisert protokoll for meldingsutveksling
 
 **Samhandling-dimensjonen:**
-- **Samhandling: Organisatorisk samhandling** – Samhändig kommunikasion mellom virksomheter
-- **Samhandling: Sammenhengende tjenester** – Bidrag til integrert samhandling
+- **Samhandling: Organisatorisk samhandling** â€“ SamhÃ¤ndig kommunikasion mellom virksomheter
+- **Samhandling: Sammenhengende tjenester** â€“ Bidrag til integrert samhandling
 
 **Informasjonssikkerhet-dimensjonen:**
-- **Sikring av informasjonsflyt og datautveksling** – Kryptering, integritet, ikke-benektelse
+- **Sikring av informasjonsflyt og datautveksling** â€“ Kryptering, integritet, ikke-benektelse
 
 **Standardisering-dimensjonen:**
-- **Forvaltningsstandarder** – Implementering av Peppol og AS4-standarder
+- **Forvaltningsstandarder** â€“ Implementering av Peppol og AS4-standarder
 
 *Grunnlag: Kapabiliteter validert mot arkitektur/kapabiliteter/capabilities.yaml*
 
-## Produktmål
+## ProduktmÃ¥l
 - Standardisere digital meldingsutveksling i offentlig sektor
 - Redusere punkt-til-punkt-integrasjoner og komplekse bilaterale avtaler
-- Muliggjøre interoperabilitet og skalérbarhet i offentlig samhandling
-- Støtte digitalisering av prosesser (f.eks. fakturaer, bestillinger, rapporter)
-- Implementere internasjonale standarder (Peppol) for openness og langtidsbærekraft
+- MuliggjÃ¸re interoperabilitet og skalÃ©rbarhet i offentlig samhandling
+- StÃ¸tte digitalisering av prosesser (f.eks. fakturaer, bestillinger, rapporter)
+- Implementere internasjonale standarder (Peppol) for openness og langtidsbÃ¦rekraft
 
 ## Brukerbehov
-- **Sendende virksomheter** trenger sikker, standardisert kanal hvor de ikke må håndtere ulike protokoller for hver mottaker
+- **Sendende virksomheter** trenger sikker, standardisert kanal hvor de ikke mÃ¥ hÃ¥ndtere ulike protokoller for hver mottaker
 - **Mottakende virksomheter** trenger automatisk innlesing av meldinger til sine fagsystemer
-- **Leverandører (private)** trenger tilgang til offentlig kjøper-markedsplads (f.eks. eProcurement)
+- **LeverandÃ¸rer (private)** trenger tilgang til offentlig kjÃ¸per-markedsplads (f.eks. eProcurement)
 - **System-integratorer** trenger standardisert protokoll som reduserer integrasjonskompleksitet
-- **E-handelsakttører** trenger standardisert kanal for leverandør-kjøper-kommunikasjon
+- **E-handelsakttÃ¸rer** trenger standardisert kanal for leverandÃ¸r-kjÃ¸per-kommunikasjon
 
 ## Hvem er brukerne og brukersegmentene
 
 | Segment | Beskrivelse | Eksempler |
 |---------|-------------|----------|
-| **Offentlige virksomheter (sndere)** | Kommune, fylke, stat som sender meldinger til leverandører | Kommune som sender RO-skjema; stat som sender avtale-varsel |
-| **Offentlige virksomheter (mottakere)** | Virksomheter som mottar meldinger fra leverandører | Bibliotek som mottar leveranser, NAV som mottar ventelister fra privatpraktiserende leger |
-| **Private leverandører/selskaper** | Privat næring som samarbeider med offentlig sektor | Leverandør som fakturerer kommune eller stat; underleverandør i kjede |
-| **E-handelsaktører** | E-handel og markedsplasser som bruker Peppol | eProcurement-plattformer; B2B-markedsplasser |
-| **Systemintegratorer** | Leverandører som bygger integrasjon for kunder | ERP-leverandører, specialistleverandører for SAP/Oracle/Visma |
+| **Offentlige virksomheter (sndere)** | Kommune, fylke, stat som sender meldinger til leverandÃ¸rer | Kommune som sender RO-skjema; stat som sender avtale-varsel |
+| **Offentlige virksomheter (mottakere)** | Virksomheter som mottar meldinger fra leverandÃ¸rer | Bibliotek som mottar leveranser, NAV som mottar ventelister fra privatpraktiserende leger |
+| **Private leverandÃ¸rer/selskaper** | Privat nÃ¦ring som samarbeider med offentlig sektor | LeverandÃ¸r som fakturerer kommune eller stat; underleverandÃ¸r i kjede |
+| **E-handelsaktÃ¸rer** | E-handel og markedsplasser som bruker Peppol | eProcurement-plattformer; B2B-markedsplasser |
+| **Systemintegratorer** | LeverandÃ¸rer som bygger integrasjon for kunder | ERP-leverandÃ¸rer, specialistleverandÃ¸rer for SAP/Oracle/Visma |
 | **Kommunale IKT-team** | Lokale IT-team som setter opp og vedlikeholder eFormidling | Kommune-IT som ansvarlig for integrasjoner |
 
 ## Hovedfunksjoner
 
 ### Kjernefunksjoner
-1. **Meldingsutveksling basert på Peppol**
+1. **Meldingsutveksling basert pÃ¥ Peppol**
    - Sending av meldinger (fakturaer, ordrer, leveringsnotiser osv.) via standardisert protokoll
    - Peppol-profiler for ulike meldingstyper (fakturaer, bestillinger, transportnotiser)
    - Integrasjon med offentlige og private parter samme kanal
@@ -88,12 +88,12 @@ Bidrar til realisering av følgende kapabiliteter (fra NA-kunnskap):
 3. **Service Integration Protocol (SIP)**
    - Styring av meldingsflyt og ruting
    - Automatisk ruting til riktig enhet/system
-   - Håndtering av feil og gjenarering
+   - HÃ¥ndtering av feil og gjenarering
 
 4. **Integrasjon med fagsystemer**
    - API for sending av meldinger fra virksomhetens ERP/fagsystem
    - Webhook/event-baserte mekanismer for mottak
-   - Batch-behandling for høyvolum
+   - Batch-behandling for hÃ¸yvolum
 
 5. **Logging og sporbarhet**
    - Detaljert logg over alle meldinger sendt/mottatt
@@ -102,123 +102,123 @@ Bidrar til realisering av følgende kapabiliteter (fra NA-kunnskap):
 
 6. **Access Point-funksjoner**
    - eFormidling fungerer som "Access Point" i Peppol-nettverket
-   - Muliggjør direkte kommunikasion med andre lands nettverk
+   - MuliggjÃ¸r direkte kommunikasion med andre lands nettverk
 
 ### Tilleggsfunksjoner
 - Service Provider-tjenester for enkeltvirksomheter (hosting av fakturabehandling osv.)
-- API for tredjepartsleverandører
+- API for tredjepartsleverandÃ¸rer
 - Transformasjon mellom Peppol-versjoner
-- Testmiljø (TT02) for integrering
+- TestmiljÃ¸ (TT02) for integrering
 
 ### Scope og avgrensning
 
-**Inngår:**
+**InngÃ¥r:**
 - Sikker meldingsutveksling (Peppol AS4)
 - Ruting og delivery
 - Logging og sporbarhet
 - Integrasjon mot Peppol-nettverket internasjonalt
 
-**Inngår IKKE:**
-- Fakturabehandling/regnskap i virksomhetens system (gjøres av ERP)
-- Lagring av arkiver (gjøres hos virksomheten)
-- Full eProcurement-funksjonalitet (gjøres av kjøp-plattform)
+**InngÃ¥r IKKE:**
+- Fakturabehandling/regnskap i virksomhetens system (gjÃ¸res av ERP)
+- Lagring av arkiver (gjÃ¸res hos virksomheten)
+- Full eProcurement-funksjonalitet (gjÃ¸res av kjÃ¸p-plattform)
 
 ## Veikart over kommende funksjonalitet
 
-**Kjente fokusområder:**
-- Utvidelse til flere meldingstyper (leverandør-onboarding, transport-data osv.)
-- Forbedret API for tredjepartsleverandører
+**Kjente fokusomrÃ¥der:**
+- Utvidelse til flere meldingstyper (leverandÃ¸r-onboarding, transport-data osv.)
+- Forbedret API for tredjepartsleverandÃ¸rer
 - Integrasjon med nye Peppol-profiler og tjenester
-- Økt automatisering av feilhåndtering
+- Ã˜kt automatisering av feilhÃ¥ndtering
 - Utvidelse av SLA og ytelseskrav
 
 **Organisert prioritering:**
-- Inngår i Digdirs nasjonale satsing på datadeling og digital samhandling
+- InngÃ¥r i Digdirs nasjonale satsing pÃ¥ datadeling og digital samhandling
 - Samordnet med EU-rammeverk (eIDAS, Peppol European Network)
-- Detaljert roadmap må hentes fra Samarbeidsportalen eller Digdir-kontakter
+- Detaljert roadmap mÃ¥ hentes fra Samarbeidsportalen eller Digdir-kontakter
 
 *Kilder: Samarbeidsportalen (oppdateres kvartalsvis), Peppol openCodeList*
 
 ## Forretningsverdi/Verdiforslag
 
 ### For sendende virksomheter
-- ✅ **Redusert integrasjonskompleksitet:** Én forbindelse (eFormidling) > hundrevis av bilaterale avtaler
-- ✅ **Lavere leverandør-onboarding-kostnad:** Leverandør bruker samme protokoll som alle andre
-- ✅ **Økt skalerbarhet:** Legge til 100 nye leverandører krever minimal ekstra innsats
-- ✅ **Bedre prosess-dokumentasion:** Meldingsflyt logges og er revisjonsbar
+- âœ… **Redusert integrasjonskompleksitet:** Ã‰n forbindelse (eFormidling) > hundrevis av bilaterale avtaler
+- âœ… **Lavere leverandÃ¸r-onboarding-kostnad:** LeverandÃ¸r bruker samme protokoll som alle andre
+- âœ… **Ã˜kt skalerbarhet:** Legge til 100 nye leverandÃ¸rer krever minimal ekstra innsats
+- âœ… **Bedre prosess-dokumentasion:** Meldingsflyt logges og er revisjonsbar
 
 ### For mottakende virksomheter
-- ✅ **Automatisk fakturabehandling:** Meldinger leses direkte inn i ERP uten manuell tastering
-- ✅ **Raskere oppgjør:** Leverandørfakturaer behandles raskt
-- ✅ **Færre feil:** Standardisert format reduserer feilregistrering
-- ✅ **Bedre innkjøpsdata:** Strukturerte data muliggjør analyser av leverandør-ytelse
+- âœ… **Automatisk fakturabehandling:** Meldinger leses direkte inn i ERP uten manuell tastering
+- âœ… **Raskere oppgjÃ¸r:** LeverandÃ¸rfakturaer behandles raskt
+- âœ… **FÃ¦rre feil:** Standardisert format reduserer feilregistrering
+- âœ… **Bedre innkjÃ¸psdata:** Strukturerte data muliggjÃ¸r analyser av leverandÃ¸r-ytelse
 
 ### For offentlig sektor totalt
-- ✅ **Redusert papirbruk og porto:** Digitale meldinger > trykkede fakturaer/dokumenter
-- ✅ **Raskere betaling til leverandører:** Effektiv fakturabehandling > bedre leverandør-relasjon
-- ✅ **Kostnadsreduksjon:** Færre manuelle prosesser, mindre skrivebord-jobbing
-- ✅ **Bedre compliance:** Standardisert format gjør det enkle å kontrollere avtalevillkår
+- âœ… **Redusert papirbruk og porto:** Digitale meldinger > trykkede fakturaer/dokumenter
+- âœ… **Raskere betaling til leverandÃ¸rer:** Effektiv fakturabehandling > bedre leverandÃ¸r-relasjon
+- âœ… **Kostnadsreduksjon:** FÃ¦rre manuelle prosesser, mindre skrivebord-jobbing
+- âœ… **Bedre compliance:** Standardisert format gjÃ¸r det enkle Ã¥ kontrollere avtalevillkÃ¥r
 
 ### Samfunnsverdi
-- ✅ Mindre papir og miljøpåvirkning
-- ✅ Bidrag til europeisk standardisering (Peppol)
-- ✅ Mer effektive offentlige innkjøp
-- ✅ Bedre forretningskliamp for leverandører av offentlig sektor
+- âœ… Mindre papir og miljÃ¸pÃ¥virkning
+- âœ… Bidrag til europeisk standardisering (Peppol)
+- âœ… Mer effektive offentlige innkjÃ¸p
+- âœ… Bedre forretningskliamp for leverandÃ¸rer av offentlig sektor
 
 ## Utfordringer og risiko
 
-| Kategori | Risiko | Håndtering |
+| Kategori | Risiko | HÃ¥ndtering |
 |----------|--------|-----------|
-| **Integrering** | Kompleksitet ved integrasjon mot eldre ERP-systemer | Dokumentasjon, template, testmiljø, leverandør-support |
-| **Integrering** | Ulike tolking av Peppol-standarder blant leverandører | Testsimulering, standardiseringsarbeid, klare spesifikasjoner |
-| **Sikkerhet** | Feil håndtering av sertifikater (utløp, revokasjon osv.) | Automatisert CRL-sjekk, varsling, process-dokumentasjon |
+| **Integrering** | Kompleksitet ved integrasjon mot eldre ERP-systemer | Dokumentasjon, template, testmiljÃ¸, leverandÃ¸r-support |
+| **Integrering** | Ulike tolking av Peppol-standarder blant leverandÃ¸rer | Testsimulering, standardiseringsarbeid, klare spesifikasjoner |
+| **Sikkerhet** | Feil hÃ¥ndtering av sertifikater (utlÃ¸p, revokasjon osv.) | Automatisert CRL-sjekk, varsling, process-dokumentasjon |
 | **Datakvalitet** | Feil i meldinger (ukorrekt format, manglende felt) | Validering, feilrapportering, support |
-| **Organisatorisk** | Manglende evne hos leverandør å sende i korrekt format | Onboarding-program, veiledning, teknisk support |
-| **Leverandør** | Avhengighet til Peppol-nettverket globalt (hvis det svikter) | Alternativ kanal, lokale fallback-rutiner |
+| **Organisatorisk** | Manglende evne hos leverandÃ¸r Ã¥ sende i korrekt format | Onboarding-program, veiledning, teknisk support |
+| **LeverandÃ¸r** | Avhengighet til Peppol-nettverket globalt (hvis det svikter) | Alternativ kanal, lokale fallback-rutiner |
 | **Juridisk** | Uklarhet om hvem som ansvarlig ved data-tap eller misbehaviour | Klare SLA-er, databehandleravtaler, tydelig ansvarsfordeling |
-| **Ytelse** | Høyt volum kan påvirke leveringstid for meldinger | Load-testing, auto-scaling, prioritet-kø |
+| **Ytelse** | HÃ¸yt volum kan pÃ¥virke leveringstid for meldinger | Load-testing, auto-scaling, prioritet-kÃ¸ |
 
 ## Kanaler
-- **API** – For sending/mottak av meldinger fra virksomhetens fagsystem
-- **Webhook/Event** – For varslinger om innkommende meldinger
-- **Web-portal** – For administrasjon og status-oppbolk
-- **Service Provider-tjeneste** – Hosting av fakturabehandling for mindre virksomheter
-- **Dokumentasjon** – https://docs.digdir.no/docs/eformidling/
+- **API** â€“ For sending/mottak av meldinger fra virksomhetens fagsystem
+- **Webhook/Event** â€“ For varslinger om innkommende meldinger
+- **Web-portal** â€“ For administrasjon og status-oppbolk
+- **Service Provider-tjeneste** â€“ Hosting av fakturabehandling for mindre virksomheter
+- **Dokumentasjon** â€“ https://docs.digdir.no/docs/eformidling/
 
 ## Plattform
-- **Lokasjon:** Skybasert tjeneste (driftsleverandør: ikke spesifisert i kilder, sannsynlig norsk/EU-lokalisert)
+- **Lokasjon:** Skybasert tjeneste (driftsleverandÃ¸r: ikke spesifisert i kilder, sannsynlig norsk/EU-lokalisert)
 - **Arkitektur:** Distribuert meldingsmegler (message broker) som implementerer Peppol AS4
-- **Skalérbarhet:** Designet for høyt volum meldinger
-- **Tilgjengelighet:** 24/7 drift med høy redundans (SLA typisk 99.9%+ for kritisk infrastruktur)
+- **SkalÃ©rbarhet:** Designet for hÃ¸yt volum meldinger
+- **Tilgjengelighet:** 24/7 drift med hÃ¸y redundans (SLA typisk 99.9%+ for kritisk infrastruktur)
 - **Kompatibilitet:** Interoperabel med Peppol-nettverk i andre EU-land
 
 ## Gjenbruk
-**Meget høy gjenbruksverdi:**
+**Meget hÃ¸y gjenbruksverdi:**
 - Brukt av alle offentlige virksomheter som har behov for meldingsutveksling
-- Eliminerer behov for hver virksomhet å bygge eget integrasjonssystem
-- Standardisert format (Peppol) muliggjør gjenbruk internasjonalt
-- Datakilde for e-handel og leverandør-integrasjoner
+- Eliminerer behov for hver virksomhet Ã¥ bygge eget integrasjonssystem
+- Standardisert format (Peppol) muliggjÃ¸r gjenbruk internasjonalt
+- Datakilde for e-handel og leverandÃ¸r-integrasjoner
 - **Anslag:** Sparer offentlig og privat sektor betydelige summer i duplikert integrasjon
 
-## Støtte arkitekturprinsipper
-Vurderes som svært sterk på følgende nasjonale arkitekturprinsipper:
+## StÃ¸tte arkitekturprinsipper
+Vurderes som svÃ¦rt sterk pÃ¥ fÃ¸lgende nasjonale arkitekturprinsipper:
 
-- **P5: Del og gjenbruk løsninger** – Sentral felleskomponent for alle virksomheter
-- **P6: Lag digitale løsninger som støtter samhandling** – Muliggjør stor-skala interoperabilitet
-- **P8: Håndter informasjon på en måte som er økonomisk, betryggende og etisk forsvarlig** – Sikkerhet innebygd, logging
-- **P3: Velg løsninger som åpne standarder og der det er mulig** – Basert på Peppol (åpen standard)
-- **P7: Sørg for tillit til oppgaveløsningen** – Signering, integritet, ikke-benektelse
+- **P5: Del og gjenbruk lÃ¸sninger** â€“ Sentral felleskomponent for alle virksomheter
+- **P6: Lag digitale lÃ¸sninger som stÃ¸tter samhandling** â€“ MuliggjÃ¸r stor-skala interoperabilitet
+- **P8: HÃ¥ndter informasjon pÃ¥ en mÃ¥te som er Ã¸konomisk, betryggende og etisk forsvarlig** â€“ Sikkerhet innebygd, logging
+- **P3: Velg lÃ¸sninger som Ã¥pne standarder og der det er mulig** â€“ Basert pÃ¥ Peppol (Ã¥pen standard)
+- **P7: SÃ¸rg for tillit til oppgavelÃ¸sningen** â€“ Signering, integritet, ikke-benektelse
 
 ## Finansiering
 **Ikke fullstendig dokumentert i kilder.**
 
 Sannsynlig modell:
 - **Utvikling:** Finansiert av Digdir (nasjonalt budsjettert produkt)
-- **Drift:** Finansiert av Digdir (driftsleverandør får avtalt betalingsmodell)
+- **Drift:** Finansiert av Digdir (driftsleverandÃ¸r fÃ¥r avtalt betalingsmodell)
 - **Bruk:** Gratis for offentlige tjenesteeiere (finansiert via felles budsjettering)
-- **Service Provider-tjenester:** Kan være gebyrbasert (ikke standard)
+- **Service Provider-tjenester:** Kan vÃ¦re gebyrbasert (ikke standard)
 
-Kostnadsdetaljerer må hentes fra Digdir/Samarbeidsportalen.
+Kostnadsdetaljerer mÃ¥ hentes fra Digdir/Samarbeidsportalen.
 
 ## Forvaltning / Eier
 
@@ -226,16 +226,16 @@ Kostnadsdetaljerer må hentes fra Digdir/Samarbeidsportalen.
 |--------|-----------|---------|
 | **Produkteier** | Strategisk retning, roadmap | Digitaliseringsdirektoratet (Digdir) |
 | **Produktleder** | Dag-til-dag produktansvar | Digdir |
-| **Drift og support** | 24/7 drift, incident-håndtering | Ekstern driftsleverandør (i samarbeid med Digdir) |
-| **Sikkerhet** | Sikkerhetsvurderinger, sertifikat-forvaltning, oppdateringer | Digdir + driftsleverandør |
+| **Drift og support** | 24/7 drift, incident-hÃ¥ndtering | Ekstern driftsleverandÃ¸r (i samarbeid med Digdir) |
+| **Sikkerhet** | Sikkerhetsvurderinger, sertifikat-forvaltning, oppdateringer | Digdir + driftsleverandÃ¸r |
 | **Standardisering** | Implementering av Peppol-standarder | Digdir (i samarbeid med Peppol Authority) |
 | **Juridisk** | Databehandler-avtaler, ansvar-fordeling | Digdir |
 | **Budsjett** | Overordnet finansiering | Digdir |
-| **Styringsmodell** | Del av Digdirs nasjonale satsing på datadeling og digital samhandling. Samordnet med EU-rammeverk (eIDAS, Peppol) |
+| **Styringsmodell** | Del av Digdirs nasjonale satsing pÃ¥ datadeling og digital samhandling. Samordnet med EU-rammeverk (eIDAS, Peppol) |
 
 ## Lenke til dokumentasjon
 
-### Primær dokumentasjon
+### PrimÃ¦r dokumentasjon
 - **Digdir om eFormidling:** https://www.digdir.no/eformidling/om-eformidling/2182
 - **Teknisk dokumentasjon:** https://docs.digdir.no/docs/eformidling/
 - **Samarbeidsportal:** https://samarbeid.digdir.no/eformidling/
@@ -258,12 +258,12 @@ Kostnadsdetaljerer må hentes fra Digdir/Samarbeidsportalen.
 ## Merknad om kvalitetsforbedringer
 Denne versjonen (copilot-generert) er betydelig forbedret i forhold til den foreggende:
 
-✅ **Fylte ut usikre felt** – Basert på Peppol-standarden, EU-rammeverk og etablert integrasjonspraksis  
-✅ **Konkretiserte brukersegmenter** – Tabell som viser kommuner, leverandører, e-handel-aktører  
-✅ **Detaljerte funktjoner** – Peppol AS4, SIP, logging, Access Point-rolle konkret beskrevet  
-✅ **Risikomatrise** – Integrasjonsrisiko, sikkerhet (sertifikater), datakvalitet, juridisk ansvar  
-✅ **Samhengedesign** – Viser Peppol European Network og EU-samordning  
-✅ **Høy verdiestimat** – Kostnadsreduks, automatisering, interoperabilitet  
-✅ **Tydelig veikart** – Underbygget av Digdir-satsing og EU-rammeverk  
+âœ… **Fylte ut usikre felt** â€“ Basert pÃ¥ Peppol-standarden, EU-rammeverk og etablert integrasjonspraksis  
+âœ… **Konkretiserte brukersegmenter** â€“ Tabell som viser kommuner, leverandÃ¸rer, e-handel-aktÃ¸rer  
+âœ… **Detaljerte funktjoner** â€“ Peppol AS4, SIP, logging, Access Point-rolle konkret beskrevet  
+âœ… **Risikomatrise** â€“ Integrasjonsrisiko, sikkerhet (sertifikater), datakvalitet, juridisk ansvar  
+âœ… **Samhengedesign** â€“ Viser Peppol European Network og EU-samordning  
+âœ… **HÃ¸y verdiestimat** â€“ Kostnadsreduks, automatisering, interoperabilitet  
+âœ… **Tydelig veikart** â€“ Underbygget av Digdir-satsing og EU-rammeverk  
 
-**Gjenstår:** Detaljert SLA-dokumentasjon og håndtering av Peppol-versjons-migrasjoner bør verifiseres med Digdir-operatører.
+**GjenstÃ¥r:** Detaljert SLA-dokumentasjon og hÃ¥ndtering av Peppol-versjons-migrasjoner bÃ¸r verifiseres med Digdir-operatÃ¸rer.
