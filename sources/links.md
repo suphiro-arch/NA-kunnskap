@@ -1,7 +1,7 @@
 # Nasjonale fellestjenester og felleskomponenter
 
 Formål: Samlet lenkeliste over nasjonale fellesløsninger, sektorkilder og relevante veiledningsressurser.
-Sist redigert: 2026-03-10.
+Sist redigert: 2026-03-18.
 
 ## Digdir (Digitaliseringsdirektoratet)
 
@@ -57,6 +57,8 @@ Sist redigert: 2026-03-10.
 - NAV hovedside: https://www.nav.no/
 - NAV registre/statistikk: https://www.nav.no/no/NAV+og+samfunn/Statistikk/og+fakta/registre/
 - DSOP-dokumentasjon (inkl. NAV-integrasjoner): https://dokumentasjon.dsop.no/
+- Aa-registeret: https://www.nav.no/arbeidsgiver/aa-registeret (lagt til 2026-03-18)
+- Aa-registeret - tilgang for samarbeidspartnere: https://www.nav.no/samarbeidspartner/tilgang-aa-registeret (lagt til 2026-03-18)
 
 ---
 
@@ -68,9 +70,11 @@ Sist redigert: 2026-03-10.
 - FIKS teknisk dokumentasjon (PDF): https://developers.fiks.ks.no/fiks-plattformen.pdf
 - Felles mal for innføring av digitale fellestjenester: https://ksdigital.no/tjenestene/felles-mal-for-innforing-av-digitale-fellestjenester/
 - KS Digital - Felles Tjenesteplattform (Digitaliseringsrådet): https://www.digdir.no/digitaliseringsradet/ks-digital-tiltaket-felles-tjenesteplattform/7556
+- KS Digital - Felles tjenesteplattform: https://ksdigital.no/tjenestene/utviklingsprosjekter/felles-tjenesteplattform/ (lagt til 2026-03-18)
 
 ### Tjenester for fagsystemer
 - https://ksdigital.no/tjenestene/digiorden/
+- Fiks Digiorden - nyhetsside: https://ksdigital.no/2022/06/14/nyheter-om-fiks-digiorden/ (lagt til 2026-03-18)
 - https://ksdigital.no/tjenestene/fiks-digisos/
 - https://ksdigital.no/tjenestene/fiks-melding/
 - https://ksdigital.no/tjenestene/fiks-protokoll/
@@ -96,6 +100,7 @@ Sist redigert: 2026-03-10.
 - Digital plattforminformasjon (DPI): https://www.skatteetaten.no/bedrift-og-organisasjon/rapportering-og-bransjer/tredjepartsopplysninger/andre-bransjer/digital-plattforminformasjon-dpi/veiledning-for-digital-plattforminformasjon-dpi/
 - DSOP - felleskomponenter og integrasjoner: https://dokumentasjon.dsop.no/
 - KS-Skatteetaten segmentsamarbeid: https://ksdigital.no/tjenestene/fiks-register/segmentsamarbeid/
+- Skatteetaten - deling: https://www.skatteetaten.no/deling/ (lagt til 2026-03-18)
 
 ---
 
@@ -112,11 +117,13 @@ Sist redigert: 2026-03-10.
 - Kjernejournal (om tjenesten): https://www.nhn.no/tjenester/kjernejournal/om-tjenesten
 - E-resept: https://www.nhn.no/tjenester/e-resept
 - Helsenorge (innbyggerside): https://www.helsenorge.no/
+- Helsenorge (om tjenesten): https://www.helsenorge.no/om-helsenorge-no/ (lagt til 2026-03-18)
 - Helseopplysninger som deles (Helsenorge): https://www.helsenorge.no/helseopplysninger-som-deles
 - Kjernejournal (Helsenorge): https://www.helsenorge.no/helseopplysninger-som-deles/kjernejournal/
 - Resepter (Helsenorge): https://www.helsenorge.no/legemidler/resepter
 - HelseID (hva er HelseID): https://www.nhn.no/tjenester/helseid/hva-er-helseid
 - HelseID tjenestetilbud: https://www.nhn.no/tjenester/helseid/tjenestetilbud
+- E-resept (om tjenesten): https://www.nhn.no/tjenester/e-resept/om-e-resept (lagt til 2026-03-18)
 
 ### Norsk Helsenett
 - Norsk Helsenett SF: https://www.nhn.no/
@@ -165,8 +172,17 @@ Sist redigert: 2026-03-10.
 - Nasjonale fellesløsninger for geodata: https://www.kartverket.no/geodataarbeid/felleslosningene/nasjonale-felleslosninger-for-geodata
 - Kartverkets fellesløsninger: https://www.kartverket.no/geodataarbeid/felleslosningene
 - Geonorge - felles tjeneste for kartdata: https://www.geonorge.no/Geodataarbeid/geografisk-infrastruktur/teknologisk-rammeverk/for-utviklere-teknologisk-rammeverk/felleslosninger/
+- Geonorge - nasjonal geodatastrategi: https://www.geonorge.no/Geodataarbeid/nasjonal-geodatastrategi/handlingsplanens-arsrapporter/hovedmal-2/ (lagt til 2026-03-18)
 
 ---
+
+## EU / Europa
+
+- European Digital Identity Wallet: https://commission.europa.eu/topics/digital-economy-and-society/european-digital-identity_en (lagt til 2026-03-18)
+- eID Building Block: https://interoperable-europe.ec.europa.eu/collection/digital-building-blocks/solution/eid (lagt til 2026-03-18)
+- eDelivery Building Block: https://interoperable-europe.ec.europa.eu/collection/digital-building-blocks/solution/edelivery (lagt til 2026-03-18)
+- eSignature Building Block: https://interoperable-europe.ec.europa.eu/collection/digital-building-blocks/solution/esignature (lagt til 2026-03-18)
+- Once-Only Technical System (OOTS): https://interoperable-europe.ec.europa.eu/collection/digital-building-blocks/solution/once-only-technical-system-oots (lagt til 2026-03-18)
 
 ## Utdanning
 
