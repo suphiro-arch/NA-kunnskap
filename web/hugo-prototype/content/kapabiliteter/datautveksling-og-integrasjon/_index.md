@@ -2,7 +2,7 @@
 title: "Datautveksling og integrasjon"
 weight: 4
 description: "Evne til å sikkert, effektivt og standardisert utveksle data mellom aktører i økosystemet."
-cardMeta: "4 delkapabiliteter / 17 produkter"
+cardMeta: "4 delkapabiliteter / 19 produkter"
 productsMarkdown: |
   ## Relaterte produkter
   
@@ -25,6 +25,8 @@ productsMarkdown: |
   | FIKS Register | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/28-FIKS-Register-produkt-canvas-v1-codex.md) | Bruke data fra andre | gir fagsystemer og forvaltere et standardisert løp for å hente registerdata fra andre virksomheter. |
   | Feide | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/47-Feide-produkt-canvas-v1-codex.md) | Dele data med andre | gjør det mulig å dele nødvendige identitets- og organisasjonsopplysninger fra vertsorganisasjonen til tilknyttede tjenester på en kontrollert måte |
   | Vitnemålsportalen | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/51-Vitnemalsportalen-produkt-canvas-v1-codex.md) | Dele data med andre | gjør det mulig for brukeren å dele resultater med eksterne mottakere gjennom en kontrollert digital tjeneste i stedet for manuell dokumentutveksling |
+  | SvarInn | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/57-SvarInn-produkt-canvas-v1-codex.md) | Meldingsformidling | henter innkommende forsendelser fra SvarUt og leverer dem videre til mottakersystemene gjennom et standardisert mottaksl?p. |
+  | FIKS Folkeregister | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/67-FIKS-Folkeregister-produkt-canvas-v1-codex.md) | Bruke data fra andre | gir fagsystemer og saksbehandlere et standardisert l?p for ? bruke folkeregisterdata fra Skatteetaten i kommunale prosesser. |
 ---
 
 Evne til å sikkert, effektivt og standardisert utveksle data mellom aktører i økosystemet.

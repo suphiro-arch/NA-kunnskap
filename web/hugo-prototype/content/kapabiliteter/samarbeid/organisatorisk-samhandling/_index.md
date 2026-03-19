@@ -2,7 +2,7 @@
 title: "Organisatorisk samhandling"
 weight: 1
 description: "Evnen til å effektivisere forretningsprosesser og verdikjeder på tvers av organisatoriske grenser."
-cardMeta: "7 produkter"
+cardMeta: "8 produkter"
 ---
 
 Evnen til å effektivisere forretningsprosesser og verdikjeder på tvers av organisatoriske grenser.
@@ -22,3 +22,4 @@ Denne delkapabiliteten er en del av [Samarbeid](../).
 | FIKS Melding | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v1-codex.md) | brukes til kommunikasjon mellom kommuner, innbyggere og andre virksomheter gjennom et felles kanalgrunnlag. |
 | SvarUt | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/27-SvarUt-produkt-canvas-v1-codex.md) | gir kommuner og andre offentlige virksomheter et felles mønster for dokumentutsending. |
 | Felles tjenesteplattform | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/29-Felles-tjenesteplattform-produkt-canvas-v1-codex.md) | skal samordne tjenesteutvikling og deling på tvers av kommunal sektor og andre offentlige aktører. |
+| SvarInn | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/57-SvarInn-produkt-canvas-v1-codex.md) | gir kommuner og andre offentlige virksomheter et felles m?nster for innkommende digital post mellom akt?rer som bruker samme samhandlingsl?p. |

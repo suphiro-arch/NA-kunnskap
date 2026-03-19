@@ -2,7 +2,7 @@
 title: "Samarbeid"
 weight: 2
 description: "Evne til å samarbeid og samhandling på tvers av offentlig og privat forvaltning."
-cardMeta: "3 delkapabiliteter / 8 produkter"
+cardMeta: "3 delkapabiliteter / 9 produkter"
 productsMarkdown: |
   ## Relaterte produkter
   
@@ -16,6 +16,7 @@ productsMarkdown: |
   | FIKS Melding | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v1-codex.md) | Organisatorisk samhandling | brukes til kommunikasjon mellom kommuner, innbyggere og andre virksomheter gjennom et felles kanalgrunnlag. |
   | SvarUt | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/27-SvarUt-produkt-canvas-v1-codex.md) | Organisatorisk samhandling | gir kommuner og andre offentlige virksomheter et felles mønster for dokumentutsending. |
   | Felles tjenesteplattform | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/29-Felles-tjenesteplattform-produkt-canvas-v1-codex.md) | Organisatorisk samhandling | skal samordne tjenesteutvikling og deling på tvers av kommunal sektor og andre offentlige aktører. |
+  | SvarInn | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/57-SvarInn-produkt-canvas-v1-codex.md) | Organisatorisk samhandling | gir kommuner og andre offentlige virksomheter et felles m?nster for innkommende digital post mellom akt?rer som bruker samme samhandlingsl?p. |
 ---
 
 Evne til å samarbeid og samhandling på tvers av offentlig og privat forvaltning.

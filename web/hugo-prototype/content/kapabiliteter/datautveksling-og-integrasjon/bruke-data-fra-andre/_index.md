@@ -2,7 +2,7 @@
 title: "Bruke data fra andre"
 weight: 2
 description: "Evne til å gjenbruke data fra andre i egne tjenester og prosesser."
-cardMeta: "7 produkter"
+cardMeta: "8 produkter"
 ---
 
 Evne til å gjenbruke data fra andre i egne tjenester og prosesser.
@@ -22,3 +22,4 @@ Denne delkapabiliteten er en del av [Datautveksling og integrasjon](../).
 | data.altinn.no | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/17-data-altinn-no-produkt-canvas-v3-codex.md) | gjør det mulig for konsumenter å hente data direkte fra kilden gjennom en standardisert API-modell |
 | Dialogporten | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/22-Dialogporten-produkt-canvas-v4-codex.md) | gir sluttbrukersystemer og portaler tilgang til dialogdata gjennom standardiserte API-er |
 | FIKS Register | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/28-FIKS-Register-produkt-canvas-v1-codex.md) | gir fagsystemer og forvaltere et standardisert løp for å hente registerdata fra andre virksomheter. |
+| FIKS Folkeregister | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/67-FIKS-Folkeregister-produkt-canvas-v1-codex.md) | gir fagsystemer og saksbehandlere et standardisert l?p for ? bruke folkeregisterdata fra Skatteetaten i kommunale prosesser. |

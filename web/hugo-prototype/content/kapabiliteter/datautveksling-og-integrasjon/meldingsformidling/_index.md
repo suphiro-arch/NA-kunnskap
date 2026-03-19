@@ -2,7 +2,7 @@
 title: "Meldingsformidling"
 weight: 3
 description: "Evnen til å garantere levering og meldingsrekkefølge til rett mottaker."
-cardMeta: "9 produkter"
+cardMeta: "10 produkter"
 ---
 
 Evnen til å garantere levering og meldingsrekkefølge til rett mottaker.
@@ -24,3 +24,4 @@ Denne delkapabiliteten er en del av [Datautveksling og integrasjon](../).
 | Altinn Varslinger | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/24-Varslinger-produkt-canvas-v4-codex.md) | brukes til programmatisk utsending og leveringsoppfølging av varsler |
 | FIKS Melding | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v1-codex.md) | gir kommunene en felles tjeneste for å sende meldinger og dokumenter gjennom flere kanaler fra samme løsning. |
 | SvarUt | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/27-SvarUt-produkt-canvas-v1-codex.md) | fordeler dokumenter til flere mottakerkanaler gjennom ett sentralisert utsendingsløp. |
+| SvarInn | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/57-SvarInn-produkt-canvas-v1-codex.md) | henter innkommende forsendelser fra SvarUt og leverer dem videre til mottakersystemene gjennom et standardisert mottaksl?p. |

@@ -44,6 +44,7 @@ sources:
 - Kjørt avviksjekk mellom siste produktbeskrivelser og gjeldende produkt-kapabilitetsmaster, og dokumentert funnene i en egen rapport i `sources/`.
 - Synket alle siste produktbeskrivelser mot gjeldende produkt-kapabilitetsmaster og oppdatert avviksrapporten slik at den nå viser `0` avvik.
 - Opprettet første `SIKT`-produktbeskrivelser for `Feide` og `Vitnemålsportalen`, og synket produktregister, koblingsfil og genererte weboversikter mot de nye filene.
+- Opprettet nye KS-produktbeskrivelser for `SvarInn` og `FIKS Folkeregister`, og synket produktregister, koblingsfil, lenkedokument og genererte weboversikter mot de nye filene.
 
 ## Hva gjenstår
 - Velge lisens for dokumentasjonsinnholdet i repoet.
@@ -94,4 +95,4 @@ sources:
 - Vurdere om en bredere mappe som `ressurser/` senere bør samle produkter, standarder, veiledninger og andre virkemidler.
 
 - Vurdere om `FIKS IO` skal inn som egen ressurs i produktregisteret, eller fortsatt behandles som teknisk komponent under `FIKS Melding` og tilhørende samhandlingsmønstre.
-- Lage produktbeskrivelse for `FIKS Folkeregister` og vurdere om `FIKS Register`-beskrivelsen bør strammes inn som overordnet registerfamilie i FIKS.
+- Vurdere om `FIKS Register`-beskrivelsen bør strammes inn ytterligere som overordnet registerfamilie i FIKS, nå som `FIKS Folkeregister` er opprettet som egen ressurs.
