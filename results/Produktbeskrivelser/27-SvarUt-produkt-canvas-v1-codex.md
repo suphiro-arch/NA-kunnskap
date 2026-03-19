@@ -58,6 +58,7 @@ Operative mål utledet fra kildene:
 - SvarUt tar imot utgående dokumenter fra avsender og sender dem videre til riktig mottakerkanal. Det gjør løsningen relevant når dokumentdistribusjon er viktigere enn bred dialogfunksjonalitet.
 - Tjenesten kan formidle dokumenter til flere etablerte kanaler i offentlig sektor, blant annet Altinn, SvarInn, Digipost og e-Boks, eller videre til fysisk brev. Dette gjør at produktet fungerer som et kanalnøytralt distribusjonsledd.
 - SvarUt er sentralisert. Det er et viktig skille fra lokale utsendingsrutiner, fordi produktet samler distribusjonslogikken i én fellestjeneste.
+- Utviklerdokumentasjonen viser et eksplisitt API- og integrasjonsmønster for hvordan forsendelser opprettes, overføres og kvitteres. Det tydeliggjør at SvarUt er en reell integrasjonstjeneste og ikke bare en overordnet kanalbeskrivelse.
 
 ### Scope og avgrensning
 | Inngår | Inngår ikke |
@@ -115,9 +116,9 @@ SvarUt er en sentralt forvaltet utsendingstjeneste som inngår i KS Digitals tje
 - **P1 Ta utgangspunkt i brukernes behov** - mottakeren kan nås gjennom kanaler som allerede brukes i offentlig sektor, uten at avsender må bygge ulike lokale spesialløsninger.
 
 ## Finansiering
-**Ikke offentlig detaljert dokumentert i brukte kilder:** Jeg fant ikke full finansieringsmodell for SvarUt i denne arbeidsøkten.
+**Fakta:** Prisoversikten for 2026 viser at SvarUt har publiserte priser per kanal og forsendelsestype.
 
-**Deduksjon:** Tjenesten forvaltes som en KS Digital-løsning og er sannsynligvis knyttet til sektorfelles tjenestefinansiering og avtaler, men dette må bekreftes i egne pris- og avtaledokumenter.
+**Ikke offentlig detaljert dokumentert i brukte kilder:** Jeg fant ikke full modell for finansiering av videreutvikling og sentral forvaltning utover publisert prisoversikt.
 
 ## Forvaltning/eier
 | Ansvarsområde | Organisasjon / vurdering | Grunnlag |
@@ -129,11 +130,16 @@ SvarUt er en sentralt forvaltet utsendingstjeneste som inngår i KS Digitals tje
 
 ## Lenke til dokumentasjon
 - https://ksdigital.no/tjenestene/svarut-tjenesten/
+- https://developers.fiks.ks.no/tjenester/svarut/
+- https://ksdigital.no/avtaler-og-priser/prisoversikt-2026/
 - https://status.fiks.ks.no
 
 ## Kildegrunnlag brukt i utfyllingen
 - Lokal fil: `config/templates/produkt-canvas-template.md`
 - Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
+- Lokal fil: `arkitektur/prinsipper/principles.md`
 - Lokal fil: `arkitektur/produkter/produktnummerering.md`
 - Lokal fil: `sources/links.md`
-- Nettkilde: https://ksdigital.no/tjenestene/svarut-tjenesten/ (hentet 2026-03-18)
+- Nettkilde: https://ksdigital.no/tjenestene/svarut-tjenesten/ (hentet 2026-03-19)
+- Nettkilde: https://developers.fiks.ks.no/tjenester/svarut/ (hentet 2026-03-19)
+- Nettkilde: https://ksdigital.no/avtaler-og-priser/prisoversikt-2026/ (hentet 2026-03-19)
