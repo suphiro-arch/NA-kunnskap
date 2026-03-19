@@ -81,6 +81,8 @@ Sist redigert: 2026-03-19.
 - Fiks Register: https://ksdigital.no/tjenestene/fiks-register/
 - Fiks Smittevern: https://ksdigital.no/tjenestene/fiks-smittevern/
 - SvarUt: https://ksdigital.no/tjenestene/svarut-tjenesten/
+- SvarUt - utviklerdokumentasjon: https://developers.fiks.ks.no/tjenester/svarut/ (lagt til 2026-03-19)
+- SvarUt - prisoversikt 2026: https://ksdigital.no/avtaler-og-priser/prisoversikt-2026/ (lagt til 2026-03-19)
 - SvarInn: https://ksdigital.no/tjenester/svarinn/ (lagt til 2026-03-19)
 - SvarInn - detaljert produktside: https://ksdigital.no/tjenestene/svarut-tjenesten/svarinn/ (lagt til 2026-03-19)
 - KS SvarInn - teknisk og funksjonell beskrivelse: https://ksdigital.no/tjenestene/svarut-tjenesten/ks-svarinn/ (lagt til 2026-03-19)
