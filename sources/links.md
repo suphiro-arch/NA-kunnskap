@@ -74,6 +74,8 @@ Sist redigert: 2026-03-19.
 - Fiks Digiorden - nyhetsside: https://ksdigital.no/2022/06/14/nyheter-om-fiks-digiorden/ (lagt til 2026-03-18)
 - Fiks Digisos: https://ksdigital.no/tjenestene/fiks-digisos/
 - Fiks Melding: https://ksdigital.no/tjenestene/fiks-melding/
+- Fiks Melding - prisoversikt 2026: https://ksdigital.no/avtaler-og-priser/prisoversikt-2026/ (lagt til 2026-03-19)
+- Fiks Melding - Fiks SMS: https://developers.fiks.ks.no/tjenester/fiksmelding/fiks-sms/ (lagt til 2026-03-19)
 - Fiks Folkeregister: https://ksdigital.no/tjenester/fiks-folkeregister/ (lagt til 2026-03-19)
 - Fiks Protokoll: https://ksdigital.no/tjenestene/fiks-protokoll/
 - Fiks Register: https://ksdigital.no/tjenestene/fiks-register/
