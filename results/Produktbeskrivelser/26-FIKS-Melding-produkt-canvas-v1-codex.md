@@ -59,6 +59,7 @@ Operative mål utledet fra kildene:
 - Tjenesten kan dele dokumenter og filer på opptil 5 GB med tidsstyrt tilgjengelighet. Det skiller produktet fra en ren meldingstjeneste, fordi det også dekker sikker deling av større dokumentinnhold.
 - E-dialog gir en sikker kanal inn til kommunen eller virksomheten. Denne funksjonen gjør produktet egnet også for innkommende kommunikasjon og ikke bare utsending.
 - Send brev gjør det mulig å håndtere masseutsendelser av samme eller ulike dokumenter til flere mottakere. Produktet dekker dermed både digitale og mer tradisjonelle utsendingsbehov i samme tjenestegrunnlag.
+- Fiks SMS er dokumentert som egen kanal i utviklerdokumentasjonen. Det tydeliggjør at SMS-støtten ikke bare er en generell påstand på produktsiden, men en konkret integrerbar del av tjenesten.
 
 ### Scope og avgrensning
 | Inngår | Inngår ikke |
@@ -120,9 +121,9 @@ FIKS Melding er en sentralt forvaltet fellestjeneste i KS Digital.
 - **P7 Sørg for tillit til oppgaveløsningen** - sikker kommunikasjon og publisert sikkerhetsunderlag er en sentral del av produktets verdi.
 
 ## Finansiering
-**Fakta:** Kommunen må signere tjenestevedlegg i tillegg til hovedavtale for å ta i bruk FIKS Melding, og KS opplyser at brukeren velger kanaler og betaler for faktisk bruk.
+**Fakta:** Kommunen må signere tjenestevedlegg i tillegg til hovedavtale for å ta i bruk FIKS Melding, og prisoversikten for 2026 viser at brukeren betaler per kanal og faktisk bruk.
 
-**Ikke offentlig dokumentert i brukte kilder:** Full finansieringsmodell for videreutvikling og sentral forvaltning.
+**Ikke offentlig dokumentert i brukte kilder:** Full finansieringsmodell for videreutvikling og sentral forvaltning utover publisert prisoversikt.
 
 ## Forvaltning/eier
 | Ansvarsområde | Organisasjon / vurdering | Grunnlag |
@@ -134,11 +135,16 @@ FIKS Melding er en sentralt forvaltet fellestjeneste i KS Digital.
 
 ## Lenke til dokumentasjon
 - https://ksdigital.no/tjenestene/fiks-melding/
+- https://ksdigital.no/avtaler-og-priser/prisoversikt-2026/
+- https://developers.fiks.ks.no/tjenester/fiksmelding/fiks-sms/
 - https://status.fiks.ks.no
 
 ## Kildegrunnlag brukt i utfyllingen
 - Lokal fil: `config/templates/produkt-canvas-template.md`
 - Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
+- Lokal fil: `arkitektur/prinsipper/principles.md`
 - Lokal fil: `arkitektur/produkter/produktnummerering.md`
 - Lokal fil: `sources/links.md`
-- Nettkilde: https://ksdigital.no/tjenestene/fiks-melding/ (hentet 2026-03-18)
+- Nettkilde: https://ksdigital.no/tjenestene/fiks-melding/ (hentet 2026-03-19)
+- Nettkilde: https://ksdigital.no/avtaler-og-priser/prisoversikt-2026/ (hentet 2026-03-19)
+- Nettkilde: https://developers.fiks.ks.no/tjenester/fiksmelding/fiks-sms/ (hentet 2026-03-19)
