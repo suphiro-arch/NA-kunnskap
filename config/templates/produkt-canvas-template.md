@@ -1,4 +1,4 @@
-﻿# Produkt-canvas mal (Markdown)
+# Produkt-canvas mal (Markdown)
 
 Kilde: konvertert fra `sources/Mal - Produkt canvas.docx`.
 
@@ -19,6 +19,7 @@ Vurder teknisk, organisatorisk, markedsmessig og regulatorisk modenhet.
 ## Kort beskrivelse
 Kort om produktet sett fra et forretningsperspektiv.
 Skriv som en selvstendig beskrivelse for målgruppen, ikke som referat av hva en nettside eller kilde sier.
+Bruk eventuell `Merknad` fra `arkitektur/produkter/produktnummerering.md` som en kort standard presisering eller avgrensning tidlig i teksten.
 
 ## Kapabiliteter
 Hvilke kapabiliteter i Nasjonal arkitektur bidrar produktet til å realisere eller forbedre?

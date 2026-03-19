@@ -1,4 +1,4 @@
-﻿---
+---
 date: 2026-03-16
 author: codex
 status: draft
@@ -81,6 +81,8 @@ sources:
 6. Fortsett revisjon av produktbeskrivelser med samme regler for direkte kapabilitetskobling og ryddigere metadata.
 7. Verifiser at GitHub Pages bruker Actions-baserte deployments og ikke gammel `docs/`-publisering.
 8. Kvalitetssikre koblingene i masterfila mot eldre produktbeskrivelser, slik at begge retninger i webprototypen blir faglig konsistente.
+9. Synk navn i eksisterende Altinn-produktbeskrivelser og produkt-kapabilitet-master mot den konsoliderte ressurslista i produktregisteret.
+10. Lag produktbeskrivelser for de nye ressursene som nå er lagt inn i registeret, først `eIDAS-node (Norge)`, `SvarInn`, `NAIS` og `A-ordningen`.
 
 ## Referanser
 - [MVP-skisse for dokumentasjonsassistent](c:/Users/HILROS/NA-kunnskap/briefs/arbeidsstyring-og-handover/2026-03-16-dokumentasjonsassistent-mvp-v1.md)
@@ -91,4 +93,5 @@ sources:
 - Vurdere om `sources/links.md` på sikt bør flyttes nærmere produktområdet.
 - Vurdere om en bredere mappe som `ressurser/` senere bør samle produkter, standarder, veiledninger og andre virkemidler.
 
-
+- Vurdere om `FIKS IO` skal inn som egen ressurs i produktregisteret, eller fortsatt behandles som teknisk komponent under `FIKS Melding` og tilhørende samhandlingsmønstre.
+- Lage produktbeskrivelse for `FIKS Folkeregister` og vurdere om `FIKS Register`-beskrivelsen bør strammes inn som overordnet registerfamilie i FIKS.

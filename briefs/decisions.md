@@ -1,4 +1,4 @@
-﻿---
+---
 date: 2026-03-06
 author: codex
 status: draft
@@ -37,3 +37,5 @@ sources: []
 | 2026-03-18 | Produkt-kapabilitet-master | `produkt-kapabilitet-koblinger.yaml` skal eksplisitt behandles som manuelt kuratert masterfil og ikke som avledning fra rå XML-modellen | XML-kilden har ikke operative koblinger mellom konkrete produkter og kapabiliteter på det nivået repoet bruker videre | team |
 | 2026-03-18 | Synk mellom master og produktbeskrivelser | Ved avvik skal kapabilitetsseksjonen i siste produktbeskrivelse normaliseres til `produkt-kapabilitet-koblinger.yaml` hvis ikke det finnes et bevisst nytt faglig valg som først må inn i masterfila | Holder web, produktregister og produktbeskrivelser på samme kapabilitetsgrunnlag og reduserer drift av parallelle sannhetskilder | team |
 | 2026-03-18 | Prioritering i SIKT-sektoren | `Feide` og `Vitnemålsportalen` skal beskrives før øvrige SIKT-ressurser | De er de tydeligste tverrsektorielle ressursene i SIKT-porteføljen og gir best nytte som første sammenligningsgrunnlag | team |
+| 2026-03-19 | Produktregister | Produktregisteret skal ha en egen kolonne for `Merknad`, og denne skal brukes som standard presisering i nye produktbeskrivelser når den ikke motsier oppdatert kildegrunnlag | Gjør det mulig å bære korte avgrensninger og viktige vurderinger videre fra registeret til genererte beskrivelser uten å lage en ny fri tekstkilde | team |
+| 2026-03-19 | Konsolidert ressursnavn | Det operative produktregisteret skal bruke konsoliderte ressursnavn som `Altinn 3 plattform`, `Altinn Formidling`, `Altinn Melding` og `Altinn Varsling`, mens legacyressurser som `Altinn Portal` holdes utenfor den operative oversikten | Reduserer duplisering og gjør registeret mer konsistent med dagens plattform- og produktstruktur | team |
