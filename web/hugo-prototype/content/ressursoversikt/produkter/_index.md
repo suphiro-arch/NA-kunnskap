@@ -332,3 +332,23 @@ Vitnemålsportalen er en nasjonal delingstjeneste som gjør det mulig for bruker
 **Kapabiliteter:** [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/)
 
 ---
+
+## SvarInn
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/57-SvarInn-produkt-canvas-v1-codex.md)
+
+SvarInn er en API-basert tjeneste og komplement til SvarUt. Løsningen tar imot innkommende post fra andre virksomheter som bruker SvarUt, og gjør den tilgjengelig for sak- og arkivsystemer eller andre fagsystemer i kommunen. Produktet er særlig relevant når virksomheten trenger et standardisert og sentralisert...
+
+**Kapabiliteter:** [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/)
+
+---
+
+## FIKS Folkeregister
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/67-FIKS-Folkeregister-produkt-canvas-v1-codex.md)
+
+FIKS Folkeregister er en viktig integrasjon i kommunal sektor. Løsningen gir kommuner og fylkeskommuner tilgang til folkeregisteropplysninger gjennom FIKS, enten som oppslag i en nettsideløsning eller som maskin-til-maskin-integrasjon mot fagsystemer. Produktet er særlig relevant når kommunal sektor trenger...
+
+**Kapabiliteter:** [Grunndata](../../kapabiliteter/datakilder/grunndata/) · [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/)
+
+---

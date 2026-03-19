@@ -1640,6 +1640,66 @@
           "explanation": "samler innsyn, uthenting og deling av resultater i én brukerrettet arbeidsflate som knytter sammen utdanningssektor og mottakere utenfor sektoren"
         }
       ]
+    },
+    {
+      "product_id": 57,
+      "product_name": "SvarInn",
+      "version": 1,
+      "author": "codex",
+      "relative_path": "results/Produktbeskrivelser/57-SvarInn-produkt-canvas-v1-codex.md",
+      "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/57-SvarInn-produkt-canvas-v1-codex.md",
+      "capabilities": [
+        {
+          "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+          "capability_name": "Datautveksling og integrasjon",
+          "capability_slug": "datautveksling-og-integrasjon",
+          "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
+          "subcapability_name": "Meldingsformidling",
+          "subcapability_slug": "meldingsformidling",
+          "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+          "explanation": "henter innkommende forsendelser fra SvarUt og leverer dem videre til mottakersystemene gjennom et standardisert mottaksl?p."
+        },
+        {
+          "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+          "capability_name": "Samarbeid",
+          "capability_slug": "samarbeid",
+          "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
+          "subcapability_name": "Organisatorisk samhandling",
+          "subcapability_slug": "organisatorisk-samhandling",
+          "mapping_label": "Samarbeid: Organisatorisk samhandling",
+          "explanation": "gir kommuner og andre offentlige virksomheter et felles m?nster for innkommende digital post mellom akt?rer som bruker samme samhandlingsl?p."
+        }
+      ]
+    },
+    {
+      "product_id": 67,
+      "product_name": "FIKS Folkeregister",
+      "version": 1,
+      "author": "codex",
+      "relative_path": "results/Produktbeskrivelser/67-FIKS-Folkeregister-produkt-canvas-v1-codex.md",
+      "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/67-FIKS-Folkeregister-produkt-canvas-v1-codex.md",
+      "capabilities": [
+        {
+          "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+          "capability_name": "Datakilder",
+          "capability_slug": "datakilder",
+          "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+          "subcapability_name": "Grunndata",
+          "subcapability_slug": "grunndata",
+          "mapping_label": "Datakilder: Grunndata",
+          "explanation": "gj?r autoritative folkeregisteropplysninger tilgjengelige for kommunal sektor gjennom et kontrollert tilgangslag i FIKS."
+        },
+        {
+          "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+          "capability_name": "Datautveksling og integrasjon",
+          "capability_slug": "datautveksling-og-integrasjon",
+          "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
+          "subcapability_name": "Bruke data fra andre",
+          "subcapability_slug": "bruke-data-fra-andre",
+          "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+          "explanation": "gir fagsystemer og saksbehandlere et standardisert l?p for ? bruke folkeregisterdata fra Skatteetaten i kommunale prosesser."
+        }
+      ]
     }
   ],
   "capabilities": [
@@ -1782,6 +1842,19 @@
           "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
           "subcapability_name": "Organisatorisk samhandling",
           "subcapability_slug": "organisatorisk-samhandling"
+        },
+        {
+          "product_id": 57,
+          "product_name": "SvarInn",
+          "version": 1,
+          "author": "codex",
+          "relative_path": "results/Produktbeskrivelser/57-SvarInn-produkt-canvas-v1-codex.md",
+          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/57-SvarInn-produkt-canvas-v1-codex.md",
+          "mapping_label": "Samarbeid: Organisatorisk samhandling",
+          "explanation": "gir kommuner og andre offentlige virksomheter et felles m?nster for innkommende digital post mellom akt?rer som bruker samme samhandlingsl?p.",
+          "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
+          "subcapability_name": "Organisatorisk samhandling",
+          "subcapability_slug": "organisatorisk-samhandling"
         }
       ],
       "subcapabilities": [
@@ -1878,6 +1951,19 @@
               "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/29-Felles-tjenesteplattform-produkt-canvas-v1-codex.md",
               "mapping_label": "Samarbeid: Organisatorisk samhandling",
               "explanation": "skal samordne tjenesteutvikling og deling på tvers av kommunal sektor og andre offentlige aktører.",
+              "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
+              "subcapability_name": "Organisatorisk samhandling",
+              "subcapability_slug": "organisatorisk-samhandling"
+            },
+            {
+              "product_id": 57,
+              "product_name": "SvarInn",
+              "version": 1,
+              "author": "codex",
+              "relative_path": "results/Produktbeskrivelser/57-SvarInn-produkt-canvas-v1-codex.md",
+              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/57-SvarInn-produkt-canvas-v1-codex.md",
+              "mapping_label": "Samarbeid: Organisatorisk samhandling",
+              "explanation": "gir kommuner og andre offentlige virksomheter et felles m?nster for innkommende digital post mellom akt?rer som bruker samme samhandlingsl?p.",
               "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
               "subcapability_name": "Organisatorisk samhandling",
               "subcapability_slug": "organisatorisk-samhandling"
@@ -2577,6 +2663,32 @@
           "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
           "subcapability_name": "Dele data med andre",
           "subcapability_slug": "dele-data-med-andre"
+        },
+        {
+          "product_id": 57,
+          "product_name": "SvarInn",
+          "version": 1,
+          "author": "codex",
+          "relative_path": "results/Produktbeskrivelser/57-SvarInn-produkt-canvas-v1-codex.md",
+          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/57-SvarInn-produkt-canvas-v1-codex.md",
+          "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+          "explanation": "henter innkommende forsendelser fra SvarUt og leverer dem videre til mottakersystemene gjennom et standardisert mottaksl?p.",
+          "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
+          "subcapability_name": "Meldingsformidling",
+          "subcapability_slug": "meldingsformidling"
+        },
+        {
+          "product_id": 67,
+          "product_name": "FIKS Folkeregister",
+          "version": 1,
+          "author": "codex",
+          "relative_path": "results/Produktbeskrivelser/67-FIKS-Folkeregister-produkt-canvas-v1-codex.md",
+          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/67-FIKS-Folkeregister-produkt-canvas-v1-codex.md",
+          "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+          "explanation": "gir fagsystemer og saksbehandlere et standardisert l?p for ? bruke folkeregisterdata fra Skatteetaten i kommunale prosesser.",
+          "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
+          "subcapability_name": "Bruke data fra andre",
+          "subcapability_slug": "bruke-data-fra-andre"
         }
       ],
       "subcapabilities": [
@@ -2801,6 +2913,19 @@
               "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
               "subcapability_name": "Bruke data fra andre",
               "subcapability_slug": "bruke-data-fra-andre"
+            },
+            {
+              "product_id": 67,
+              "product_name": "FIKS Folkeregister",
+              "version": 1,
+              "author": "codex",
+              "relative_path": "results/Produktbeskrivelser/67-FIKS-Folkeregister-produkt-canvas-v1-codex.md",
+              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/67-FIKS-Folkeregister-produkt-canvas-v1-codex.md",
+              "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+              "explanation": "gir fagsystemer og saksbehandlere et standardisert l?p for ? bruke folkeregisterdata fra Skatteetaten i kommunale prosesser.",
+              "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
+              "subcapability_name": "Bruke data fra andre",
+              "subcapability_slug": "bruke-data-fra-andre"
             }
           ]
         },
@@ -2923,6 +3048,19 @@
               "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/27-SvarUt-produkt-canvas-v1-codex.md",
               "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
               "explanation": "fordeler dokumenter til flere mottakerkanaler gjennom ett sentralisert utsendingsløp.",
+              "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
+              "subcapability_name": "Meldingsformidling",
+              "subcapability_slug": "meldingsformidling"
+            },
+            {
+              "product_id": 57,
+              "product_name": "SvarInn",
+              "version": 1,
+              "author": "codex",
+              "relative_path": "results/Produktbeskrivelser/57-SvarInn-produkt-canvas-v1-codex.md",
+              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/57-SvarInn-produkt-canvas-v1-codex.md",
+              "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+              "explanation": "henter innkommende forsendelser fra SvarUt og leverer dem videre til mottakersystemene gjennom et standardisert mottaksl?p.",
               "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
               "subcapability_name": "Meldingsformidling",
               "subcapability_slug": "meldingsformidling"
@@ -5481,6 +5619,19 @@
           "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
           "subcapability_name": "Grunndata",
           "subcapability_slug": "grunndata"
+        },
+        {
+          "product_id": 67,
+          "product_name": "FIKS Folkeregister",
+          "version": 1,
+          "author": "codex",
+          "relative_path": "results/Produktbeskrivelser/67-FIKS-Folkeregister-produkt-canvas-v1-codex.md",
+          "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/67-FIKS-Folkeregister-produkt-canvas-v1-codex.md",
+          "mapping_label": "Datakilder: Grunndata",
+          "explanation": "gj?r autoritative folkeregisteropplysninger tilgjengelige for kommunal sektor gjennom et kontrollert tilgangslag i FIKS.",
+          "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+          "subcapability_name": "Grunndata",
+          "subcapability_slug": "grunndata"
         }
       ],
       "subcapabilities": [
@@ -5512,6 +5663,19 @@
               "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/28-FIKS-Register-produkt-canvas-v1-codex.md",
               "mapping_label": "Datakilder: Grunndata",
               "explanation": "gjør nasjonale grunndata og registeropplysninger tilgjengelige for kommunal sektor gjennom et samlet tilgangslag.",
+              "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+              "subcapability_name": "Grunndata",
+              "subcapability_slug": "grunndata"
+            },
+            {
+              "product_id": 67,
+              "product_name": "FIKS Folkeregister",
+              "version": 1,
+              "author": "codex",
+              "relative_path": "results/Produktbeskrivelser/67-FIKS-Folkeregister-produkt-canvas-v1-codex.md",
+              "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/67-FIKS-Folkeregister-produkt-canvas-v1-codex.md",
+              "mapping_label": "Datakilder: Grunndata",
+              "explanation": "gj?r autoritative folkeregisteropplysninger tilgjengelige for kommunal sektor gjennom et kontrollert tilgangslag i FIKS.",
               "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
               "subcapability_name": "Grunndata",
               "subcapability_slug": "grunndata"

@@ -80,6 +80,11 @@ Sist redigert: 2026-03-19.
 - Fiks Smittevern: https://ksdigital.no/tjenestene/fiks-smittevern/
 - SvarUt: https://ksdigital.no/tjenestene/svarut-tjenesten/
 - SvarInn: https://ksdigital.no/tjenester/svarinn/ (lagt til 2026-03-19)
+- SvarInn - detaljert produktside: https://ksdigital.no/tjenestene/svarut-tjenesten/svarinn/ (lagt til 2026-03-19)
+- KS SvarInn - teknisk og funksjonell beskrivelse: https://ksdigital.no/tjenestene/svarut-tjenesten/ks-svarinn/ (lagt til 2026-03-19)
+- Avtaler og priser: https://ksdigital.no/avtaler-og-priser/ (lagt til 2026-03-19)
+- Fiks Register endringslogg: https://ksdigital.no/tjenestene/fiks-register/fiks_register_endringslogg/ (lagt til 2026-03-19)
+- Fiks Folkeregister - produktside: https://ksdigital.no/tjenestene/fiks-register/fiks-folkeregister-2/ (lagt til 2026-03-19)
 - Fiks Vaksine: https://ksdigital.no/tjenestene/fiks-vaksine/
 - KS Bekymringsmelding: https://ksdigital.no/tjenestene/ks-bekymringsmelding/
 - KS Bibliotek: https://ksdigital.no/tjenestene/ks-bibliotek/
