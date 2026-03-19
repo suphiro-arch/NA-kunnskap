@@ -1,7 +1,7 @@
 # Nasjonale fellestjenester og felleskomponenter
 
 Formål: Samlet lenkeliste over nasjonale fellesløsninger, sektorkilder og relevante standarder og veiledningsressurser.
-Sist redigert: 2026-03-18.
+Sist redigert: 2026-03-19.
 
 ## Fellesløsninger
 
@@ -17,6 +17,7 @@ Sist redigert: 2026-03-18.
 - ID-porten dokumentasjon: https://docs.digdir.no/docs/idporten/
 - ID-porten - tillitstjenester: https://samarbeid.digdir.no/id-porten/tillitstenester/2479
 - Maskinporten: https://www.digdir.no/om-tjenesten/maskinporten/1558
+- eIDAS-node (Norge): https://www.digdir.no/digital-identitet/eidas/ (lagt til 2026-03-19)
 - Digital post (felleskomponent): https://www.digdir.no/felleskomponenter/digital-post/1483
 - Digital postkasse - meldingsutveksling: https://samarbeid.digdir.no/digital-postkasse/meldingsutveksling/2483
 - Kontakt- og reservasjonsregisteret (KRR): https://docs.digdir.no/docs/Kontaktregisteret/
@@ -53,7 +54,9 @@ Sist redigert: 2026-03-18.
 
 ### NAV
 - NAV hovedside: https://www.nav.no/
+- NAIS: https://nais.io/ (lagt til 2026-03-19)
 - NAV registre og statistikk: https://www.nav.no/no/NAV+og+samfunn/Statistikk/og+fakta/registre/
+- DSOP: https://www.dsop.no/ (lagt til 2026-03-19)
 - DSOP-dokumentasjon (inkl. NAV-integrasjoner): https://dokumentasjon.dsop.no/
 - Aa-registeret: https://www.nav.no/arbeidsgiver/aa-registeret (lagt til 2026-03-18)
 - Aa-registeret - tilgang for samarbeidspartnere: https://www.nav.no/samarbeidspartner/tilgang-aa-registeret (lagt til 2026-03-18)
@@ -71,10 +74,12 @@ Sist redigert: 2026-03-18.
 - Fiks Digiorden - nyhetsside: https://ksdigital.no/2022/06/14/nyheter-om-fiks-digiorden/ (lagt til 2026-03-18)
 - Fiks Digisos: https://ksdigital.no/tjenestene/fiks-digisos/
 - Fiks Melding: https://ksdigital.no/tjenestene/fiks-melding/
+- Fiks Folkeregister: https://ksdigital.no/tjenester/fiks-folkeregister/ (lagt til 2026-03-19)
 - Fiks Protokoll: https://ksdigital.no/tjenestene/fiks-protokoll/
 - Fiks Register: https://ksdigital.no/tjenestene/fiks-register/
 - Fiks Smittevern: https://ksdigital.no/tjenestene/fiks-smittevern/
 - SvarUt: https://ksdigital.no/tjenestene/svarut-tjenesten/
+- SvarInn: https://ksdigital.no/tjenester/svarinn/ (lagt til 2026-03-19)
 - Fiks Vaksine: https://ksdigital.no/tjenestene/fiks-vaksine/
 - KS Bekymringsmelding: https://ksdigital.no/tjenestene/ks-bekymringsmelding/
 - KS Bibliotek: https://ksdigital.no/tjenestene/ks-bibliotek/
@@ -86,6 +91,7 @@ Sist redigert: 2026-03-18.
 
 ### Skatteetaten
 - Folkeregisteret: https://www.skatteetaten.no/person/folkeregister/
+- A-ordningen: https://www.a-ordningen.no/ (lagt til 2026-03-19)
 - Digital plattforminformasjon (DPI): https://www.skatteetaten.no/bedrift-og-organisasjon/rapportering-og-bransjer/tredjepartsopplysninger/andre-bransjer/digital-plattforminformasjon-dpi/veiledning-for-digital-plattforminformasjon-dpi/
 - DSOP - felleskomponenter og integrasjoner: https://dokumentasjon.dsop.no/
 - KS-Skatteetaten segmentsamarbeid: https://ksdigital.no/tjenestene/fiks-register/segmentsamarbeid/
@@ -107,6 +113,8 @@ Sist redigert: 2026-03-18.
 - Resepter på Helsenorge: https://www.helsenorge.no/legemidler/resepter
 - HelseID (hva er HelseID): https://www.nhn.no/tjenester/helseid/hva-er-helseid
 - HelseID tjenestetilbud: https://www.nhn.no/tjenester/helseid/tjenestetilbud
+- Helsepersonellregisteret (HPR): https://www.helsedirektoratet.no/tema/autorisasjon-og-spesialistutdanning/helsepersonellregisteret (lagt til 2026-03-19)
+- KUHR: https://www.helfo.no/om-helfo/kuhr (lagt til 2026-03-19)
 - Norsk Helsenett SF: https://www.nhn.no/
 - Helsenett infrastruktur: https://www.nhn.no/tjenester/helsenett-infrastruktur/
 - Videokonsultasjon (VIO): https://www.nhn.no/tjenester/videokonsultasjon/
@@ -118,6 +126,11 @@ Sist redigert: 2026-03-18.
 - Geonorge - felles tjeneste for kartdata: https://www.geonorge.no/Geodataarbeid/geografisk-infrastruktur/teknologisk-rammeverk/for-utviklere-teknologisk-rammeverk/felleslosninger/
 - Geonorge - nasjonal geodatastrategi: https://www.geonorge.no/Geodataarbeid/nasjonal-geodatastrategi/handlingsplanens-arsrapporter/hovedmal-2/ (lagt til 2026-03-18)
 
+
+### Statens vegvesen
+- Motorvognregisteret: https://www.vegvesen.no/kjoretoy/kjop-og-salg/kjoretoyopplysninger/ (lagt til 2026-03-19)
+- Nasjonal vegdatabank (NVDB): https://www.vegvesen.no/fag/fokusomrader/nasjonal-vegdatabank/ (lagt til 2026-03-19)
+
 ### Utdanning
 - Samordna opptak: https://www.samordnaopptak.no
 - Utdanning.no: https://utdanning.no/
@@ -127,12 +140,17 @@ Sist redigert: 2026-03-18.
 - Utdanning og administrasjon i Sikt: https://sikt.no/se-hva-vi-kan-tilby/utdanning-og-administrasjon (lagt til 2026-03-18)
 - Feide hos Sikt: https://sikt.no/tjenester/feide (lagt til 2026-03-18)
 - Felles studentsystem (FS): https://sikt.no/tjenester/felles-studentsystem-fs (lagt til 2026-03-18)
+- FS offisiell side: https://www.fs.no/ (lagt til 2026-03-19)
 - Opptaksløsninger: https://sikt.no/tjenester/opptakslosninger (lagt til 2026-03-18)
 - Nasjonal vitnemålsdatabase (NVB): https://sikt.no/nb/tjenester/nasjonal-vitnemalsdatabase (lagt til 2026-03-18)
 - Vitnemålsportalen: https://sikt.no/tjenester/vitnemalsportalen (lagt til 2026-03-18)
 - Nasjonalt utdanningsregister: https://sikt.no/tiltak/nasjonalt-utdanningsregister (lagt til 2026-03-18)
 - Feide videreutvikling: https://sikt.no/tiltak/feide-videreutvikling (lagt til 2026-03-18)
 - Feide teknisk dokumentasjon: https://docs.feide.no/ (lagt til 2026-03-18)
+
+
+### SSB
+- microdata.no: https://www.microdata.no/ (lagt til 2026-03-19)
 
 ### eID tilbydere
 - BankID: https://www.bankid.no
@@ -213,6 +231,7 @@ Sist redigert: 2026-03-18.
 - eArk-standarden: https://www.arkivverket.no/norske-standarder/eark-standard
 - NOARK-standarden: https://www.arkivverket.no/arkivering/noark
 - Digital forvaltning av dokumenter: https://www.arkivverket.no/arkivering/digitalisering
+- Fiks arkiv i Fiks protokoll: https://developers.fiks.ks.no/tjenester/fiksprotokoll/fiksarkiv/ (lagt til 2026-03-19)
 
 ### Juridisk og rettslig infrastruktur
 - Lovdata: https://www.lovdata.no/

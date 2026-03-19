@@ -33,7 +33,7 @@ Formål: Sikre lik, detaljert og grundig utfylling av produktbeskrivelser for ar
 2. Kapabiliteter: `arkitektur/kapabiliteter/capabilities.yaml` (kun navnene som finnes her)
 3. Prinsipper: `arkitektur/prinsipper/principles.md` (bruk prinsippnavn og koblinger som finnes her)
 4. Lenker: `sources/links.md` (lokal liste + aktive lenker til dokumentasjon)
-5. Produktregister og Ressurs-ID: `arkitektur/produkter/produktnummerering.md`
+5. Produktregister, Ressurs-ID og Merknad: `arkitektur/produkter/produktnummerering.md`
 5. **Åpne kilder**: Digdir Docs, Samarbeidsportalen, felles-IKT, produkteier-nettsteder (f.eks. altinn.studio)
 6. **URL-valg:** Bruk som hovedregel de konkrete URL-ene som allerede er listet i `sources/links.md` før du prøver bredere søk
 7. **Utvid bare ved behov:** Gå utover `sources/links.md` kun hvis lenkene der er utilstrekkelige, utdaterte eller utilgjengelige, og dokumenter hvorfor
@@ -54,6 +54,7 @@ Følg reglene under.
 - Skriv `Ressurs ID` med den kanoniske ressurs-ID-en fra `arkitektur/produkter/produktnummerering.md`, for eksempel `DIGDIR-001`
 - Ikke bruk bare internt løpenummer som `01` eller `17` i nye produktbeskrivelser
 - Løpenummeret beholdes for filnavn og sortering, men `Ressurs ID` i dokumentet skal være eierbasert
+- Hvis raden i produktregisteret har en `Merknad`, skal den brukes som en kort standard presisering tidlig i `Kort beskrivelse` eller `Scope og avgrensning`, så lenge den ikke motsier oppdatert kildegrunnlag
 - Ved revisjon: vis eksplisitt hvilke deler som er forbedret i analysen, ikke bare i språk/drakt
 - Skriv resultatet som en selvstendig produktbeskrivelse for målgruppen, ikke som referat av hva som står på nettsider eller i dokumentasjon
 - Unngå formuleringer som "nettsiden sier", "forsiden viser", "kilden beskriver" i selve hovedteksten; bruk heller dette kun i kildegrunnlag eller når du markerer usikkerhet/kildekonflikt
