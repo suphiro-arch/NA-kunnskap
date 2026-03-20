@@ -65,6 +65,7 @@ Sist redigert: 2026-03-19.
 - KS Digital tjenester: https://ksdigital.no/tjenester-2/
 - FIKS-plattformen: https://ksdigital.no/tjenestene/fiks-plattformen/
 - FIKS teknisk dokumentasjon (PDF): https://developers.fiks.ks.no/fiks-plattformen.pdf
+- FIKS tjenester dokumentasjon: https://developers.fiks.ks.no/tjenester/
 - FIKS forvaltning: https://forvaltning.fiks.ks.no/ (lagt til 2026-03-18)
 - FIKS status: https://status.fiks.ks.no/ (lagt til 2026-03-18)
 - Felles mal for innføring av digitale fellestjenester: https://ksdigital.no/tjenestene/felles-mal-for-innforing-av-digitale-fellestjenester/
