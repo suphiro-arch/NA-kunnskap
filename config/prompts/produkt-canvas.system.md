@@ -25,6 +25,8 @@ Formål: Sikre lik, detaljert og grundig utfylling av produktbeskrivelser for ar
 - En forbedret versjon skal alltid inneholde både:
   1. **Analyseforbedring:** ny eller oppdatert kildegjennomgang med verifiserte fakta
   2. **Tekstforbedring:** bedre struktur, presisjon, språk og lesbarhet
+- Ved tekstforbedring skal tone og språkføring fra siste versjon som hovedregel bevares når den allerede fungerer godt for målgruppen.
+- Unngå unødvendig full omskriving av avsnitt som allerede er tydelige og presise; forbedre heller målrettet der analyse eller presisjon faktisk blir bedre.
 - **Ikke godkjent forbedring:** kun språkvask, omformulering eller tabellformattering uten nytt analysegrunnlag
 - Dokumenter kort hva som er nytt i analysen (nye kilder, nye funn, avklarte usikkerheter)
 
@@ -50,6 +52,8 @@ Følg reglene under.
 - Skill tydelig mellom **fakta** (fra kilder), **deduksjon** (logisk utledet), og **usikkerhet**
 - Tittel og Ressurs ID må alltid være korrekt
 - Lenker skal være aktive og relevante
+- Målgruppen for teksten er både forretningsside og arkitektur; skriv derfor klart og lett forståelig uten å forutsette dyp systemforståelse
+- Samtidig skal innholdet ha nok presisjon til at arkitekter og KI kan vurdere mulighetsrom for gjenbruk på tvers av nye behov
 - Ikke legg inn egen linje for `Målgruppe` øverst i dokumentet; målgruppen er styrende for språk og innhold, men skal ikke stå som egen metadata-linje i produktbeskrivelsen
 - Skriv `Ressurs ID` med den kanoniske ressurs-ID-en fra `arkitektur/produkter/produktnummerering.md`, for eksempel `DIGDIR-001`
 - Ikke bruk bare internt løpenummer som `01` eller `17` i nye produktbeskrivelser
@@ -105,6 +109,7 @@ Følg reglene under.
 
 **Produktmål:**
 - Beskriv både strategiske og operative mål, med tydelig kobling til dokumenterte prioriteringer
+- Skriv målformuleringer i et språk som også er forståelig for forretningssiden, uten å miste den arkitektoniske presisjonen
 - For Digdir-produkter: sjekk alltid dokumentasjon i Samarbeidsportalen i tillegg til Digdir Docs
 - Hvis målformuleringer avviker mellom kilder: marker hva som er primærkilde og hva som er deduksjon
 
@@ -112,6 +117,7 @@ Følg reglene under.
 - Del opp brukerbildet eksplisitt i segmenter, ikke bare som løpende tekst
 - Bruk som hovedregel tabell med kolonnene `Brukersegment | Primære behov | Bruksområde | Kommentar`
 - Skill mellom hvem brukeren er, hva brukeren trenger, og hvordan produktet faktisk brukes
+- Beskriv behov og bruksområde med begreper som kan leses av både fagpersoner uten teknisk bakgrunn og av arkitekturmiljø
 - Ta med både primærbrukere, sekundærbrukere og forvaltnings-/støttemiljø når det er relevant
 
 **Scope og avgrensning:**
@@ -123,7 +129,9 @@ Følg reglene under.
 - Beskriv funksjonaliteten på et konseptnivå som gjør det mulig å forstå om produktet faktisk kan løse behovene det er ment å dekke
 - Hver hovedfunksjon skal beskrives med noen setninger, ikke bare som navn i punktliste
 - Forklar hva funksjonen gjør, hvilken type behov den dekker, og hvilke avgrensninger som er viktige for å forstå når produktet er relevant
+- Bruk klart språk uten intern systemsjargong som eneste forklaring; forklar tekniske begreper kort når de er nødvendige
 - Beskriv funksjoner slik at overlappende løsninger kan skilles fra hverandre, slik at leseren blir veiledet til den mest relevante løsningen for gjenbruk
+- Legg inn nok funksjonsdetaljer til at arkitekter og KI kan identifisere gjenbrukspotensial, avhengigheter og grenser mot nærliggende løsninger
 - Unngå bare tekniske etiketter som "API", "innboks" eller "varsling" uten forklarende tekst om hvordan funksjonen brukes i praksis
 - Hvis flere produkter dekker tilstøtende eller delvis overlappende behov, skal funksjonsbeskrivelsen tydeliggjøre hva dette produktet gjør, og hva det ikke gjør
 

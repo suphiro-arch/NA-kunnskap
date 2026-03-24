@@ -34,6 +34,8 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 ## Innhold og språkføring
 - Skriv dokumentasjon for målgruppen for nasjonal arkitektur, med tydelig og direkte språk.
 - Skriv i aktiv form når det er naturlig, ikke i passiv eller distansert referatform.
+- Ved revisjon av eksisterende produktbeskrivelser skal etablert tone og språkføring bevares så langt det er faglig forsvarlig.
+- Behold velfungerende formuleringer fra siste versjon, og unngå unødvendig full omskriving når målet er forbedring.
 - Skriv selvstendige beskrivelser for målgruppen, ikke referat av nettsider eller dokumentasjon.
 - Unngå formuleringer som `nettsiden sier`, `kilden beskriver` og lignende i hovedteksten.
 - Gjenfortell og syntetiser kilder på en egnet måte for målgruppen, og legg heller ved lenker enn å vise til ordlyden andre steder.
