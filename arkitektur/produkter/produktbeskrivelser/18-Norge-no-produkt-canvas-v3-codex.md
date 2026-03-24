@@ -145,7 +145,7 @@ Norge.no er en nasjonal portal- og veiviserløsning for digitale offentlige tjen
 - https://www.norge.no/en/about-norgeno
 
 ## Kildegrunnlag brukt i utfyllingen
-- Lokal fil: `results/Produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md`
+- Lokal fil: `arkitektur/produkter/produktbeskrivelser/18-Norge-no-produkt-canvas-v2-copilot.md`
 - Lokal fil: `config/templates/produkt-canvas-template.md`
 - Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Lokal fil: `arkitektur/produkter/produktnummerering.md`

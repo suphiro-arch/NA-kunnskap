@@ -9,11 +9,11 @@ Repo for arbeid med nasjonal arkitektur, produktbeskrivelser, kapabiliteter, pri
 - bruke AI-assistenter på en sporbar og konsistent måte i analyse- og dokumentasjonsarbeid
 
 ## Viktigste mapper
-- `results/`: leveranser og produktbeskrivelser som brukes videre som kunnskapsgrunnlag
+- `results/`: leveranser, analyser og annet gjenbrukbart sluttinnhold
 - `sources/`: kildegrunnlag, lenker og rånotater
 - `briefs/`: arbeidsstyring, handover og beslutningsstøtte
 - `config/`: prompts, maler og annen styrende konfigurasjon
-- `arkitektur/`: strukturerte oversikter, blant annet kapabiliteter og produktnummerering
+- `arkitektur/`: strukturerte oversikter, blant annet kapabiliteter, produktregister og produktbeskrivelser
 - `arkitektur/maal/`: kuratert målspor for arkitekturmodellen
 - `web/hugo-prototype/`: Hugo-kildekode for dokumentasjonsprototypen
 
@@ -37,8 +37,9 @@ Repo for arbeid med nasjonal arkitektur, produktbeskrivelser, kapabiliteter, pri
 - `arkitektur/kapabiliteter/capabilities.yaml` er den kuraterte arbeidsfila for kapabilitetsstrukturen.
 - `arkitektur/prinsipper/principles.md` er den kuraterte arbeidsfila for prinsipper og deres kobling til hovedkapabiliteter.
 - `arkitektur/maal/maal.md` er den kuraterte arbeidsfila for mål og overordnet målkobling i modellen.
-- `arkitektur/produkter/produktnummerering.md` og `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml` er kuraterte arbeidsfiler for ressurser og koblinger.
-- `results/Produktbeskrivelser/` inneholder analyse- og leveransefiler som bygger på disse arbeidsfilene.
+- `arkitektur/produkter/produktnummerering.md` er operativ master for produktregister, ressurs-ID-er og statusoversikt.
+- `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml` er operativ master for koblingen mellom produkter og kapabiliteter.
+- `arkitektur/produkter/produktbeskrivelser/` inneholder produktbeskrivelser som bygger på disse arbeidsfilene.
 - Hugo-prototypen bruker de kuraterte arbeidsfilene og genererte oversiktene, ikke rå-XML direkte.
 
 ## Webprototype

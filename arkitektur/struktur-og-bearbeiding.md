@@ -46,12 +46,11 @@ Denne fila er den kuraterte arbeidsfila for:
 
 Disse filene brukes videre for ressursoversikt, produktkoblinger og webnavigasjon.
 
-## 3. Leveransefiler
+## 3. Produktbeskrivelser og leveransefiler
 
-Leveranser ligger i `results/`.
+Produktbeskrivelsene ligger i `arkitektur/produkter/produktbeskrivelser/`.
 
-Viktigste leveranseområde:
-- `results/Produktbeskrivelser/`
+Øvrige leveranser ligger fortsatt i `results/`.
 
 Produktbeskrivelsene skal bruke:
 - `capabilities.yaml` for kapabilitetsnavn
@@ -66,7 +65,7 @@ Følgende arbeidsfiler brukes videre mot web:
 - `arkitektur/kapabiliteter/capabilities.yaml`
 - `arkitektur/prinsipper/principles.md`
 - `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml`
-- `results/Produktbeskrivelser/`
+- `arkitektur/produkter/produktbeskrivelser/`
 
 Foreløpig brukes ikke målsporet direkte i weben, men det er nå dokumentert og kuratert i:
 - `arkitektur/maal/maal.md`
@@ -77,10 +76,10 @@ Prinsippsiden i weben synkes fra:
 Kapabilitetssidene genereres fra:
 - `arkitektur/kapabiliteter/capabilities.yaml`
 - `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml`
-- `results/Produktbeskrivelser/`
+- `arkitektur/produkter/produktbeskrivelser/`
 
 Produktsiden genereres fra:
-- `results/Produktbeskrivelser/`
+- `arkitektur/produkter/produktbeskrivelser/`
 - `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml`
 
 ## 5. Praktisk regel

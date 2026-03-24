@@ -15,6 +15,6 @@ Denne delkapabiliteten er en del av [Informasjonsforvaltning](../).
 
 | Produkt | Produktbeskrivelse | Hvorfor relevant |
 | --- | --- | --- |
-| Felles datakatalog | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/13-Felles-datakatalog-produkt-canvas-v2-copilot.md) | – Katalogisering av tilgjengelige API-er |
-| API-katalog | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md) | Katalogisering og søk av API-ressurser |
-| data.norge.no | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/16-data-norge-no-produkt-canvas-v4-codex.md) | synliggjør maskinlesbare grensesnitt i samme katalogstruktur som øvrige dataressurser |
+| Felles datakatalog | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/13-Felles-datakatalog-produkt-canvas-v2-copilot.md) | – Katalogisering av tilgjengelige API-er |
+| API-katalog | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md) | Katalogisering og søk av API-ressurser |
+| data.norge.no | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/16-data-norge-no-produkt-canvas-v4-codex.md) | synliggjør maskinlesbare grensesnitt i samme katalogstruktur som øvrige dataressurser |

@@ -15,6 +15,6 @@ Denne delkapabiliteten er en del av [Tjenesteutvikling](../).
 
 | Produkt | Produktbeskrivelse | Hvorfor relevant |
 | --- | --- | --- |
-| Altinn | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/19-Altinn-produkt-canvas-v2-copilot.md) | – Byggeklosser og mønstre for rask tjenesteutvikling |
-| Altinn Studio | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md) | – Komponenter-bibliotek og mønstre for enkel gjenbruk |
-| Felles tjenesteplattform | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/29-Felles-tjenesteplattform-produkt-canvas-v1-codex.md) | er laget for deling og gjenbruk av komponenter, ressurser og løsninger i kommunal sektor. |
+| Altinn | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/19-Altinn-produkt-canvas-v2-copilot.md) | – Byggeklosser og mønstre for rask tjenesteutvikling |
+| Altinn Studio | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md) | – Komponenter-bibliotek og mønstre for enkel gjenbruk |
+| Felles tjenesteplattform | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/29-Felles-tjenesteplattform-produkt-canvas-v1-codex.md) | er laget for deling og gjenbruk av komponenter, ressurser og løsninger i kommunal sektor. |

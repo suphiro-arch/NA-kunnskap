@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop'
 
-$srcDir = 'results/Produktbeskrivelser'
+$srcDir = 'arkitektur/produkter/produktbeskrivelser'
 $outDir = 'web/hugo-prototype/content/ressursoversikt/produkter'
 $mapFile = 'arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml'
 $repoBlobBase = 'https://github.com/suphiro-arch/NA-kunnskap/blob/main'
@@ -20,7 +20,7 @@ Get-ChildItem $srcDir -File | ForEach-Object {
       Version = [int]$Matches.ver
       Author = $Matches.author
       FileName = $_.Name
-      RelativePath = "results/Produktbeskrivelser/$($_.Name)"
+      RelativePath = "arkitektur/produkter/produktbeskrivelser/$($_.Name)"
       FullPath = $_.FullName
       LastWriteTime = $_.LastWriteTime
       IsLegacy = $false
@@ -33,7 +33,7 @@ Get-ChildItem $srcDir -File | ForEach-Object {
       Version = [int]$Matches.ver
       Author = 'ukjent'
       FileName = $_.Name
-      RelativePath = "results/Produktbeskrivelser/$($_.Name)"
+      RelativePath = "arkitektur/produkter/produktbeskrivelser/$($_.Name)"
       FullPath = $_.FullName
       LastWriteTime = $_.LastWriteTime
       IsLegacy = $false
@@ -46,7 +46,7 @@ Get-ChildItem $srcDir -File | ForEach-Object {
       Version = 0
       Author = $(if ($Matches.author) { $Matches.author } else { 'legacy' })
       FileName = $_.Name
-      RelativePath = "results/Produktbeskrivelser/$($_.Name)"
+      RelativePath = "arkitektur/produkter/produktbeskrivelser/$($_.Name)"
       FullPath = $_.FullName
       LastWriteTime = $_.LastWriteTime
       IsLegacy = $true

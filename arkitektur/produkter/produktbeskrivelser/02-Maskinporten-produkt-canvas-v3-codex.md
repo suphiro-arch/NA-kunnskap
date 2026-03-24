@@ -157,7 +157,7 @@ Maskinporten er en nasjonal plattform for klientautentisering og tokenutstedelse
 - https://samarbeid.digdir.no/maskinporten/kostnadsmodell-maskinporten/64
 
 ## Kildegrunnlag brukt i utfyllingen
-- Lokal fil: `results/Produktbeskrivelser/02-Maskinporten-produkt-canvas-v2-copilot.md`
+- Lokal fil: `arkitektur/produkter/produktbeskrivelser/02-Maskinporten-produkt-canvas-v2-copilot.md`
 - Lokal fil: `config/prompts/produkt-canvas.system.md`
 - Lokal fil: `config/templates/produkt-canvas-template.md`
 - Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`

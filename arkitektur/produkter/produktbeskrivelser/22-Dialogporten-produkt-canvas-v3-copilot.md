@@ -163,7 +163,7 @@ Felles dialoglag i Altinn-porteføljen med API-er, GraphQL, hendelser og integra
 - https://docs.altinn.studio/nb/dialogporten/reference/graphql/
 
 ## Kildegrunnlag brukt i utfyllingen
-- Lokal fil: `results/Produktbeskrivelser/22-Dialogporten-produkt-canvas-v1-codex.md`
+- Lokal fil: `arkitektur/produkter/produktbeskrivelser/22-Dialogporten-produkt-canvas-v2-codex.md`
 - Lokal fil: `config/templates/produkt-canvas-template.md`
 - Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Lokal fil: `arkitektur/produkter/produktnummerering.md`
@@ -187,3 +187,4 @@ Felles dialoglag i Altinn-porteføljen med API-er, GraphQL, hendelser og integra
 - Skrevet om produktet til en tydeligere, selvstendig beskrivelse for målgruppen.
 - Innført full brukersegmentering, tydeligere kapabiliteter og mer presise risikoer.
 - Knyttet verdiforslag og veikart nærmere til dokumentert migrerings- og samhandlingsrolle.
+- Flyttet fakta om pågående migrering og livesynkronisering fra `Status/Livsfase` til `Kort beskrivelse` i tråd med oppdatert instruks.

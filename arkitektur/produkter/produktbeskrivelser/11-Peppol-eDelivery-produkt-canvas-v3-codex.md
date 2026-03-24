@@ -149,7 +149,7 @@ Peppol eDelivery er ikke én sentral plattform, men et føderert meldingsøkosys
 - https://www.anskaffelser.no/verktoy/veiledere/aksesspunkt
 
 ## Kildegrunnlag brukt i utfyllingen
-- Lokal fil: `results/Produktbeskrivelser/11-Peppol-eDelivery-produkt-canvas-v2-copilot.md`
+- Lokal fil: `arkitektur/produkter/produktbeskrivelser/11-Peppol-eDelivery-produkt-canvas-v2-copilot.md`
 - Lokal fil: `config/templates/produkt-canvas-template.md`
 - Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Lokal fil: `arkitektur/produkter/produktnummerering.md`

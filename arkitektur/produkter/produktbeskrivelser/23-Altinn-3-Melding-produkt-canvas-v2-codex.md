@@ -164,7 +164,7 @@ Meldingstjeneste i Altinn-porteføljen med API-er, vedleggshåndtering, statusfl
 - https://docs.altinn.studio/nb/correspondence/reference/solution-architecture/
 
 ## Kildegrunnlag brukt i utfyllingen
-- Lokal fil: `results/Produktbeskrivelser/23-Altinn-3-Melding-produkt-canvas-v1-codex.md`
+- Lokal fil: `arkitektur/produkter/produktbeskrivelser/23-Altinn-3-Melding-produkt-canvas-v1-codex.md`
 - Lokal fil: `config/templates/produkt-canvas-template.md`
 - Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Lokal fil: `arkitektur/produkter/produktnummerering.md`

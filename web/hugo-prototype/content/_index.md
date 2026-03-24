@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Forside"
 weight: 1
 description: "Inngang til dokumentasjonen for nasjonal arkitektur, prinsipper, kapabiliteter og nasjonale fellesressurser."
@@ -51,6 +51,6 @@ Prototypen bygger foreløpig på innhold fra:
 
 - `arkitektur/kapabiliteter/capabilities.yaml`
 - `arkitektur/prinsipper/principles.md`
-- `results/Produktbeskrivelser/`
+- `arkitektur/produkter/produktbeskrivelser/`
 
 Dette er fortsatt en testflate. Målet nå er å gjøre strukturen tydelig og lesbar før innholdet utvides videre.

@@ -10,7 +10,7 @@ TARGETS = [
     Path("briefs"),
     Path("config/prompts"),
     Path("config/templates"),
-    Path("results/Produktbeskrivelser"),
+    Path("arkitektur/produkter/produktbeskrivelser"),
     Path("sources"),
     Path("web/hugo-prototype/content"),
 ]

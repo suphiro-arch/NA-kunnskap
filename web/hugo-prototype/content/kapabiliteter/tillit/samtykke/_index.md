@@ -15,4 +15,4 @@ Denne delkapabiliteten er en del av [Tillit](../).
 
 | Produkt | Produktbeskrivelse | Hvorfor relevant |
 | --- | --- | --- |
-| data.altinn.no | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/17-data-altinn-no-produkt-canvas-v3-codex.md) | muliggjør datadeling når bruk av data forutsetter et gyldig samtykke |
+| data.altinn.no | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/17-data-altinn-no-produkt-canvas-v3-codex.md) | muliggjør datadeling når bruk av data forutsetter et gyldig samtykke |

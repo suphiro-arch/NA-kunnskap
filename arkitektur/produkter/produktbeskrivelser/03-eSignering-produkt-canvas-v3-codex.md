@@ -155,7 +155,7 @@ eSignering er en nasjonal plattform for digital gjennomføring av signeringsoppd
 - https://samarbeid.digdir.no/esignering/statistikk-esignering/3428
 
 ## Kildegrunnlag brukt i utfyllingen
-- Lokal fil: `results/Produktbeskrivelser/03-eSignering-produkt-canvas-v2-copilot.md`
+- Lokal fil: `arkitektur/produkter/produktbeskrivelser/03-eSignering-produkt-canvas-v2-copilot.md`
 - Lokal fil: `config/prompts/produkt-canvas.system.md`
 - Lokal fil: `config/templates/produkt-canvas-template.md`
 - Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`

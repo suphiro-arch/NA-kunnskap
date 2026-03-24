@@ -15,6 +15,6 @@ Denne delkapabiliteten er en del av [Informasjonsforvaltning](../).
 
 | Produkt | Produktbeskrivelse | Hvorfor relevant |
 | --- | --- | --- |
-| Felles datakatalog | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/13-Felles-datakatalog-produkt-canvas-v2-copilot.md) | – Integrasjon med Begrepskatalog for semantisk enighet |
-| Begrepskatalog | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/14-Begrepskatalog-produkt-canvas-v2-copilot.md) | Katalogisering og søk av autoritative begreper |
-| data.norge.no | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/16-data-norge-no-produkt-canvas-v4-codex.md) | gjør definisjoner tilgjengelige og støtter felles forståelse av data |
+| Felles datakatalog | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/13-Felles-datakatalog-produkt-canvas-v2-copilot.md) | – Integrasjon med Begrepskatalog for semantisk enighet |
+| Begrepskatalog | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/14-Begrepskatalog-produkt-canvas-v2-copilot.md) | Katalogisering og søk av autoritative begreper |
+| data.norge.no | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/16-data-norge-no-produkt-canvas-v4-codex.md) | gjør definisjoner tilgjengelige og støtter felles forståelse av data |

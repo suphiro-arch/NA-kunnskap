@@ -15,5 +15,5 @@ Denne delkapabiliteten er en del av [Tillit](../).
 
 | Produkt | Produktbeskrivelse | Hvorfor relevant |
 | --- | --- | --- |
-| Altinn Portal | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/21-Altinn-Portal-produkt-canvas-v3-codex.md) | understøttes gjennom meldingshistorikk, status og administrasjon av fullmakter og tilganger |
-| Altinn 3 Melding (Correspondence) | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/23-Altinn-3-Melding-produkt-canvas-v4-codex.md) | understøttes gjennom omfattende logging av hendelser og prosesser |
+| Altinn Portal | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/21-Altinn-Portal-produkt-canvas-v3-codex.md) | understøttes gjennom meldingshistorikk, status og administrasjon av fullmakter og tilganger |
+| Altinn 3 Melding (Correspondence) | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/23-Altinn-3-Melding-produkt-canvas-v4-codex.md) | understøttes gjennom omfattende logging av hendelser og prosesser |

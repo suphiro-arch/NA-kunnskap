@@ -154,7 +154,7 @@ eFormidling er en formidlingstjeneste med et tydelig teknisk skille mellom virks
 - https://samarbeid.digdir.no/eformidling/statistikk-eformidling/3425
 
 ## Kildegrunnlag brukt i utfyllingen
-- Lokal fil: `results/Produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md`
+- Lokal fil: `arkitektur/produkter/produktbeskrivelser/07-eFormidling-produkt-canvas-v2-copilot.md`
 - Lokal fil: `config/templates/produkt-canvas-template.md`
 - Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Lokal fil: `arkitektur/produkter/produktnummerering.md`

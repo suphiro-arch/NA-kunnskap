@@ -8,8 +8,8 @@ productsMarkdown: |
   
   | Produkt | Produktbeskrivelse | Koblet via | Hvorfor relevant |
   | --- | --- | --- | --- |
-  | data.altinn.no | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/17-data-altinn-no-produkt-canvas-v3-codex.md) | Sammenstilling av data | støtter datapakker som kombinerer informasjon fra én eller flere kilder og samtidig minimerer datamengden som deles |
-  | Altinn Varslinger | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/24-Varslinger-produkt-canvas-v4-codex.md) | Sammenstilling av data | kombinerer kontaktdata, reservasjonsstatus og autorisasjonsinformasjon for å velge riktig mottaker og kanal |
+  | data.altinn.no | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/17-data-altinn-no-produkt-canvas-v3-codex.md) | Sammenstilling av data | støtter datapakker som kombinerer informasjon fra én eller flere kilder og samtidig minimerer datamengden som deles |
+  | Altinn Varslinger | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/24-Varslinger-produkt-canvas-v4-codex.md) | Sammenstilling av data | kombinerer kontaktdata, reservasjonsstatus og autorisasjonsinformasjon for å velge riktig mottaker og kanal |
 ---
 
 Evne til å systematisk bruke data som en strategisk ressurs for å skape innsikt, informere beslutninger og utvikle bedre, mer treffsikre og effektive tjenester.

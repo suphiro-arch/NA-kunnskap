@@ -157,7 +157,7 @@ ID-porten er en nasjonal autentiseringsplattform bygget rundt føderering mot ek
 - https://samarbeid.digdir.no/id-porten/id-portens-prismodell/78
 
 ## Kildegrunnlag brukt i utfyllingen
-- Lokal fil: `results/Produktbeskrivelser/01-ID-porten-produkt-canvas-v2-copilot.md`
+- Lokal fil: `arkitektur/produkter/produktbeskrivelser/01-ID-porten-produkt-canvas-v2-copilot.md`
 - Lokal fil: `config/templates/produkt-canvas-template.md`
 - Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Lokal fil: `arkitektur/produkter/produktnummerering.md`

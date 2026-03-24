@@ -167,8 +167,8 @@ Datadelingsløsning i Altinn-porteføljen basert på en generisk API-modell for 
 - https://docs.altinn.studio/nb/
 
 ## Kildegrunnlag brukt i utfyllingen
-- Lokal fil: `results/Produktbeskrivelser/17-data-altinn-no-produkt-canvas.md`
-- Lokal fil: `results/Produktbeskrivelser/17-data-altinn-no-produkt-canvas-copilot.md`
+- Lokal fil: `arkitektur/produkter/produktbeskrivelser/17-data-altinn-no-produkt-canvas.md`
+- Lokal fil: `arkitektur/produkter/produktbeskrivelser/17-data-altinn-no-produkt-canvas-copilot.md`
 - Lokal fil: `config/templates/produkt-canvas-template.md`
 - Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Lokal fil: `arkitektur/produkter/produktnummerering.md`

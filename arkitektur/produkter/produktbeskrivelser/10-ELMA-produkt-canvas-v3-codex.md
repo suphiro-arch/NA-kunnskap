@@ -145,7 +145,7 @@ ELMA er en norsk oppslagstjeneste i Peppol-sammenheng, og fungerer som nasjonal 
 - https://samarbeid.digdir.no/elma/bruksvilkar-elma/2072
 
 ## Kildegrunnlag brukt i utfyllingen
-- Lokal fil: `results/Produktbeskrivelser/10-ELMA-produkt-canvas-v2-copilot.md`
+- Lokal fil: `arkitektur/produkter/produktbeskrivelser/10-ELMA-produkt-canvas-v2-copilot.md`
 - Lokal fil: `config/templates/produkt-canvas-template.md`
 - Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Lokal fil: `arkitektur/produkter/produktnummerering.md`

@@ -12,7 +12,7 @@ Dette er en isolert prototype for en framtidig nettside om nasjonal arkitektur.
 ## Kilder i repoet
 
 - `arkitektur/kapabiliteter/capabilities.yaml`
-- `results/Produktbeskrivelser/`
+- `arkitektur/produkter/produktbeskrivelser/`
 - `arkitektur/prinsipper/principles.md`
 - `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml`
 

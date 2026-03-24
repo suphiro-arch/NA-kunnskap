@@ -154,7 +154,7 @@ Kontakt- og reservasjonsregisteret er en nasjonal registertjeneste som gir oppsl
 - https://samarbeid.digdir.no/kontaktregisteret/kostnadsmodell-kontaktregisteret/577
 
 ## Kildegrunnlag brukt i utfyllingen
-- Lokal fil: `results/Produktbeskrivelser/05-Kontakt-og-reservasjonsregisteret-produkt-canvas-v2-copilot.md`
+- Lokal fil: `arkitektur/produkter/produktbeskrivelser/05-Kontakt-og-reservasjonsregisteret-produkt-canvas-v2-copilot.md`
 - Lokal fil: `config/prompts/produkt-canvas.system.md`
 - Lokal fil: `config/templates/produkt-canvas-template.md`
 - Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
