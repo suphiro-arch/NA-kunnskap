@@ -9,6 +9,16 @@ sources:
 
 # Neste steg
 
+## Hvordan lese denne fila
+
+**Prioritet nå (uker 1-6):** Les "Hva gjenstår", "Strategiske forbedringer", "Konkrete neste oppgaver" og "Bekjente blokkere".
+
+**Strukturelle forbedringer du kan gjøre parallelt:** Les "Strukturelle forbedringer — Dagens repo".
+
+**Framtidig videreutvikling (når det blir aktuelt):** Les hele "Assistenten på web — Planlegging og MVP" på slutten.
+
+---
+
 ## Hva er gjort
 - Definert målbildet for en åpen dokumentasjonsassistent på nettsiden.
 - Avgrenset MVP til kun offentlig informasjon fra repoet.
@@ -45,54 +55,155 @@ sources:
 - Synket alle siste produktbeskrivelser mot gjeldende produkt-kapabilitetsmaster og oppdatert avviksrapporten slik at den nå viser `0` avvik.
 - Opprettet første `SIKT`-produktbeskrivelser for `Feide` og `Vitnemålsportalen`, og synket produktregister, koblingsfil og genererte weboversikter mot de nye filene.
 - Opprettet nye KS-produktbeskrivelser for `SvarInn` og `FIKS Folkeregister`, og synket produktregister, koblingsfil, lenkedokument og genererte weboversikter mot de nye filene.
+- Opprettet ny versjon `v2-copilot` for `SvarUt` med oppdatert kildegrunnlag fra `sources/links.md` og ny verifisering av produktside, utviklerdokumentasjon, prisoversikt og driftsstatus.
+- Justert språkføring i `SvarUt v2` tettere mot etablert tone i forrige versjon, og oppdatert instruksgrunnlaget slik at fremtidige revisjoner skal bevare velfungerende tone og unngå unødvendig full omskriving.
+- Gjennomført ny sammenligning av `SvarUt v1` og `v2`, og harmonisert flere nøkkelseksjoner i `v2` til v1-tonen der innholdet fortsatt er korrekt.
+- Oppdatert styringsprompten for produkt-canvas med tydelig krav om språk for både forretning og arkitektur: lett å forstå uten systemforståelse, men med nok funksjonsdetaljer for gjenbruksvurdering.
+- Flyttet produktbeskrivelsene til `arkitektur/produkter/produktbeskrivelser/` og avviklet duplikatoversiktene i `results/Produktregister/`, slik at `arkitektur/produkter/produktnummerering.md` nå er eneste operative master for produktregisteret.
 
-## Hva gjenstår
-- Velge lisens for dokumentasjonsinnholdet i repoet.
-- Velge backend-plattform for assistenten.
-- Lage teknisk skjelett for backend og indeksering.
-- Koble enkel chatflate til Hugo-prototypen.
+## Hva gjenstår — Produktgrunnlag utvikling (neste 4-6 uker)
+
+**Kjerneprioriteter — disse skal gjøres først:**
+
 - Oppdatere de neste produktbeskrivelsene i stigende rekkefølge etter samme metode som for `02-06`.
 - Følge opp kvaliteten i selve koblingene mellom produkter og kapabiliteter, særlig i eldre produktbeskrivelser der kapabilitetsseksjonen er svakere eller mindre presis.
 - Ta inn de første ressursene fra KS, Helsedirektoratet, NAV og Skatteetaten i produktregisteret med samme ID-prinsipp.
 - Kvalitetssikre de nye arbeidsutkastene for `KS`, `HDIR`, `NAV` og `SKATT`, særlig eierskap, ressurstype og kapabilitetstreff.
-- Vurdere om flere helse- og NAV-ressurser bør inn i registeret, særlig flere delingstjenester og nasjonale innbyggertjenester.
-- Vurdere om flere EU-byggesteiner bør behandles som referanseressurser i registeret uten at de prioriteres for egne produktbeskrivelser med en gang.
-- Vurdere om noen av EU-referanseressursene bør få korte oversiktsbeskrivelser i weben uten at de blir fullverdige produkt-canvas-filer.
-- Gå gjennom avviksrapporten for XML mot kapabilitets- og prinsippgrunnlaget og avgjøre om flere beskrivelsestekster eller hjelpeelementer skal kurateres videre inn i repoet.
-- Vurdere om weben også skal generere kapabilitets- og prinsippsammendrag direkte fra kuraterte filer i `arkitektur/`, slik at man unngår dobbelt vedlikehold av innledningstekster.
-- Vurdere om weben også bør få en egen målside bygget fra `arkitektur/maal/maal.md`, slik at mål, prinsipper, kapabiliteter og ressurser kan leses i samme struktur.
-- Vurdere om det senere trengs en egen kuratert koblingsfil mellom hovedkapabiliteter og strategiske mål, dersom målsporet skal brukes mer operativt i analyser og veiledning.
-- Vurdere om kapabilitetssidene på web også skal hente prinsippreferanser direkte fra `principles.md`, slik at all prinsipplogikk ligger ett sted.
 - Fortsette `SIKT`-sektoren med de neste ressursene etter `Feide` og `Vitnemålsportalen`, særlig `Felles studentsystem (FS)` og `Nasjonal vitnemålsdatabase`.
-- Kvalitetssikre de nye arbeidsutkastene for `EU`, særlig om de bør stå som egne ressurser i registeret eller omtales som referanseøkosystem rundt norske løsninger.
-- Vurdere om `Altinn` som paraplyressurs skal beholdes med dagens stramme plattformkoblinger, eller deles tydeligere fra underliggende Digdir-løsninger i registeret.
+- Kjøre avviksjekk og synke produktbeskrivelsene kontinuerlig mot masterfila for produkt-kapabilitet-koblinger.
 
-## Blokkere/risiko
-- Repoet har ingen eksplisitt lisens for dokumentasjonsinnholdet.
-- Åpen internettflate krever moderering, rate limiting og tydelig avgrensning av datagrunnlag.
-- Eldre produktbeskrivelser kan gi ujevn retrieval-kvalitet.
-- GitHub Pages-oppsettet må verifiseres i repo-innstillingene slik at artifact-deploy faktisk er valgt som publiseringskilde.
+**Produktregisteret — konkrete valg som trengs:**
 
-## Konkrete neste oppgaver
-1. Avklar lisens for offentlig dokumentasjonsinnhold.
-2. Velg backend-plattform, helst Azure Functions.
-3. Lag første backend-skjelett for `/api/ask`.
-4. Lag første indeksjobb for repo-dokumentasjonen.
-5. Legg inn enkel chat-widget i Hugo-prototypen.
-6. Fortsett revisjon av produktbeskrivelser med samme regler for direkte kapabilitetskobling og ryddigere metadata.
-7. Verifiser at GitHub Pages bruker Actions-baserte deployments og ikke gammel `docs/`-publisering.
-8. Kvalitetssikre koblingene i masterfila mot eldre produktbeskrivelser, slik at begge retninger i webprototypen blir faglig konsistente.
-9. Synk navn i eksisterende Altinn-produktbeskrivelser og produkt-kapabilitet-master mot den konsoliderte ressurslista i produktregisteret.
-10. Lag produktbeskrivelser for de nye ressursene som nå er lagt inn i registeret, først `eIDAS-node (Norge)`, `SvarInn`, `NAIS` og `A-ordningen`.
+- Vurdere og avklare om `FIKS IO` skal inn som egen ressurs i produktregisteret, eller fortsatt behandles som teknisk komponent under `FIKS Melding` og tilhørende samhandlingsmønstre.
+- Vurdere om `FIKS Register`-beskrivelsen bør strammes inn ytterligere som overordnet registerfamilie i FIKS, nå som `FIKS Folkeregister` er opprettet som egen ressurs.
 
-## Referanser
-- [MVP-skisse for dokumentasjonsassistent](c:/Users/HILROS/NA-kunnskap/briefs/arbeidsstyring-og-handover/2026-03-16-dokumentasjonsassistent-mvp-v1.md)
+---
 
-## Strukturforslag som er utsatt
-- Vurdere å samle produktrelatert grunnlag i en tydeligere mappe under `arkitektur/`, for eksempel `arkitektur/produkter/`.
-- Vurdere om produktbeskrivelser på sikt bør flyttes til en egen undermappe for genererte beskrivelser, i stedet for å ligge direkte under `results/Produktbeskrivelser/`.
-- Vurdere om `sources/links.md` på sikt bør flyttes nærmere produktområdet.
+## Strategiske forbedringer — Arbeidsflyt og kvalitetssikring
+
+Disse skal tas inn *parallelt* med produktgrunnlag-arbeidet og vil gjøre det lettere å skalere:
+
+### Modulær struktur for produktbeskrivelser
+
+**Anledning:** Nåværende produktbeskrivelser blander kilder, KI-analyse og publiserbar tekst i ett lag. Dette gjør det uklart hva som er verifisert kilde, hva som er arbeidsgrunnlag, og hva som skal publiseres. Det gjør også vedlikehold vanskeligere når kilder endres.
+
+**Forslag:** Etabler en tre-lags modell:
+1. **Kildegrunnlag og arkitekturnotater** — Strukturerte kilder, API-dokumentasjon, produktregisteret og prinsippmasterdata fra `arkitektur/`. Dette er input som står fast.
+2. **Analyseblokker** — KI-utledet innhold som koblingsvurderinger, risikoanalyse, gjenbruksmuligheter og målkobling. Disse genereres fra laget over og er arbeidsgrunnlag.
+3. **Publiserbar tekst** — Validert tekst for nett og arkitekturveiledning, satt sammen fra analyseblokker med faglig gjennomgang. Dette er sluttresultat.
+
+**Praktisk gjennomføring (uten repo-omstrukturering):**
+- Lag en systematisk annotasjonsstandard i produkt-canvas-prompten: hver analyseblokk merkes med kilde og type (f.eks. `[Analyse]`, `[Kilde]`, `[Utledet fra X]`).
+- Oppdater canvas-template med eksempler på hvordan kildegrunnlag skal presenteres.
+- Legg inn tydelig merking i alle beskrivelser: "**KI-støttet arbeidsgrunnlag** — ikke faglig godkjent" inntil kvalitetssikring etableres.
+- Bruk merkingen konsekvent, slik at værktøy og mennesker kan filtrere etter status.
+
+**Hvorfor det er lurt:**
+- **Transparens:** Alle ser hva som er kilde vs. analyse, og dermed grunnlag for påstander.
+- **Gjenbruk:** Samme kildegrunnlag fôres inn i flere arbeitsflyter (produkt-canvas, web, API, KI-retrieval) uten duplikering.
+- **Vedlikehold:** Når kilder oppdateres (ny API, ny kapabilitetsmapping), rettes bare på ett sted.
+- **Kvalitetskontroll:** Merking muliggjør faglig godkjennelse før innhold publiseres.
+- **KI-verktøy:** Gjør det mulig for later KI-assistenter å støttes av stabile inndata.
+
+**Implementering:**
+- Oppdater `produkt-canvas.system.md` med merking-standarden.
+- Prøv ut på neste produktbeskrivelse (f.eks. `04-Altinn-autorisasjon-v4`).
+- Dokumenter læringa i `briefs/arbeidsstyring-og-handover/`.
+- Etabler senere: status-field (`draft`, `review`, `published`), godkjennelsesprosess, filtrerbar liste.
+
+---
+
+## Konkrete neste oppgaver — Prioritert rekkefølge
+
+1. **Produktgrunnlag (uke 1-4):**
+   - Implementer merkings-standard i `produkt-canvas.system.md`.
+   - Oppdater `04-Altinn-autorisasjon` til `v4` etter ny prompt med modulær merking.
+   - Kvalitetssikre `SIKT`-ressursene (`Feide`, `Vitnemålsportalen`) mot produkt-kapabilitet-master.
+
+2. **Dokumentasjon av ny prosess:**
+   - Lag en kort notat i `briefs/arbeidsstyring-og-handover/` som viser hvordan merking-standarden brukes i praksis.
+
+3. **Produktregisteret (uke 2-4):**
+   - Legg inn første ressurser fra `HDIR` og `NAV` med eierbasert ID-prinsipp.
+   - Kvalitetssikre `KS`-ressurser mot gjeldende masterfil.
+   - Gjør de konkrete FIKS-valgene (IO, Register).
+
+4. **Web-synk:**
+   - Kjør avviksjekk og oppdater genererte oversikter.
+
+5. **Oppfølging (senere):**
+   - Etabler status-felt og godkjennelsesprosess i produktbeskrivelser.
+
+---
+
+## Bekjente blokkere og risiko — For nåværende arbeid
+
+- Eldre produktbeskrivelser kan gi ujevn retrieval-kvalitet (må oppgraderes gradvis).
+- Produktbeskrivelsene mangler tydelig merking av arbeidsgrunnlag vs. godkjent innhold (fikses med modulær struktur).
+
+---
+
+## Strukturelle forbedringer — Dagens repo
+
+Disse kan gjøres *når som helst* parallelt, men er ikke kritisk for produktgrunnlag-arbeidet:
+
+**For organisering av kildegrunnlag og metadata:**
+- Følge opp om `produktnummerering.md` senere bør få et mer presist navn, for eksempel `produktregister.md`, når strukturen ellers er stabil.
+- Vurdere om `sources/links.md` på sikt bør flyttes nærmere produktområdet eller få egen struktur.
+
+**For genererte beskrivelser:**
+- Følge opp om produktbeskrivelser senere bør deles i understrukturer under `arkitektur/produkter/produktbeskrivelser/`, for eksempel etter status, eier eller publiseringsnivå.
+
+**For større omstrukturering (ikke nå):**
 - Vurdere om en bredere mappe som `ressurser/` senere bør samle produkter, standarder, veiledninger og andre virkemidler.
 
-- Vurdere om `FIKS IO` skal inn som egen ressurs i produktregisteret, eller fortsatt behandles som teknisk komponent under `FIKS Melding` og tilhørende samhandlingsmønstre.
-- Vurdere om `FIKS Register`-beskrivelsen bør strammes inn ytterligere som overordnet registerfamilie i FIKS, nå som `FIKS Folkeregister` er opprettet som egen ressurs.
+---
+
+## Assistenten på web — Planlegging og MVP (framtidig videreutvikling)
+
+Denne seksjonen handler om å bygge en åpen web-basert KI-dokumentasjonsassistent som beskrevet i [MVP-skisse](briefs/arbeidsstyring-og-handover/2026-03-16-dokumentasjonsassistent-mvp-v1.md). 
+
+**Status:** Dette er *ide* og *planlegging*, ikke konkrete neste steg. Kun aktuelt hvis beslutning tas om å investere i web-assistenten.
+
+### Backend og infrastruktur (når/hvis prosjekt startes)
+
+- Avklar lisens for dokumentasjonsinnholdet i repoet.
+- Velg backend-plattform (foreslått: Azure Functions).
+- Lag første backend-skjelett for `/api/ask`.
+- Lag første indeksjobb for repo-dokumentasjonen.
+- Legg inn enkel chat-widget i Hugo-prototypen.
+
+### Webgrunnlag — Utvidelse av dagens publisering
+
+- Verifiser at GitHub Pages bruker Actions-baserte deployments (ikke gammel `docs/`-publisering).
+- Vurdere om weben også skal generere kapabilitets- og prinsippsammendrag direkte fra kuraterte filer i `arkitektur/`, slik at man unngår dobbelt vedlikehold av innledningstekster.
+- Vurdere om weben også bør få en egen målside bygget fra `arkitektur/maal/maal.md`, slik at mål, prinsipper, kapabiliteter og ressurser kan leses i samme struktur.
+- Vurdere om kapabilitetssidene på web også skal hente prinsippreferanser direkte fra `principles.md`, slik at all prinsipplogikk ligger ett sted.
+
+### Assistenten — Expanded scope (senere fase)
+
+**Kjernefunksjonalitet (hvis MVP godkjennes):**
+- Chat-interface som svarer spørsmål basert på produktregisteret, kapabiliteter og prinsipper.
+- Retrieval fra repo-dokumentasjonen (produktbeskrivelser, arkitektur, veiledninger).
+- Sporbare kilder — assistenten skal vise hvilke dokumenter den hentet fra.
+
+**Utvidelser som kan vente:**
+- Vurdere om flere helse- og NAV-ressurser bør inn i registeret, særlig flere delingstjenester og nasjonale innbyggertjenester.
+- Vurdere om flere EU-byggesteiner bør behandles som referanseressurser uten prioritering for egne produktbeskrivelser.
+- Vurdere om noen EU-referanseressurser bør få korte oversiktsbeskrivelser i weben uden at de blir fullverdige produkt-canvas-filer.
+- Gå gjennom avviksrapporten for XML mot kapabilitets- og prinsippgrunnlaget og avgjøre om flere beskrivelsestekster skal kurateres videre inn.
+- Vurdere om det senere trengs en egen kuratert koblingsfil mellom hovedkapabiliteter og strategiske mål, dersom målsporet skal brukes operativt.
+- Vurdere om `Altinn` som paraplyressurs skal beholdes eller splittes tydeligere fra underliggende Digdir-løsninger.
+
+### Blokkere for assistenten-prosjektet
+
+- Repoet har ingen eksplisitt lisens for dokumentasjonsinnholdet.
+- Åpen internettflate krever moderering, rate limiting og tydelig avgrensning av datagrunnlag.
+- GitHub Pages-oppsettet må verifiseres før live-publisering.
+- Produktbeskrivelsene må ha høy og konsistent kvalitet før de brukes i retrieval.
+
+---
+
+## Referanser
+
+- [MVP-skisse for dokumentasjonsassistent](briefs/arbeidsstyring-og-handover/2026-03-16-dokumentasjonsassistent-mvp-v1.md) — Hele konseptet og arkitektur-ideen for assistenten.

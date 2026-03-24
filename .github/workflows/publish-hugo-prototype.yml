@@ -5,7 +5,7 @@ on:
     branches: ["main"]
     paths:
       - "web/hugo-prototype/**"
-      - "results/Produktbeskrivelser/**"
+      - "arkitektur/produkter/produktbeskrivelser/**"
       - "arkitektur/**"
       - "config/prompts/**"
       - "config/templates/**"

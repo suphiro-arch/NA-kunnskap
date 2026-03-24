@@ -6,7 +6,7 @@ Denne mappa samler det strukturerte arkitekturgrunnlaget i repoet.
 - `kapabiliteter/`: kapabilitetskart og tilhørende strukturdata
 - `maal/`: kuraterte mål og kobling til arkitekturmodellen
 - `prinsipper/`: arkitekturprinsipper og føringer
-- `produkter/`: produktnummerering og andre strukturer som gjelder produktområdet
+- `produkter/`: produktnummerering, produktbeskrivelser og andre strukturer som gjelder produktområdet
 
 ## Kilde og kuratering
 - `sources/2025-03-18-Nasjonal Arkitektur.xml` er råkilde for kapabilitets- og prinsippmodellen.
@@ -33,5 +33,7 @@ Denne mappa samler det strukturerte arkitekturgrunnlaget i repoet.
   - fra produkter til kapabiliteter i produktoverblikket
   - fra kapabiliteter til produkter i kapabilitetssidene
 
-Mappa brukes som faglig kildeområde. Leveranser og genererte beskrivelser hører fortsatt hjemme i `results/`.
+Mappa brukes som faglig kildeområde. Produktbeskrivelser ligger i `produkter/produktbeskrivelser/`, mens øvrige leveranser fortsatt kan ligge i `results/`.
+
+Innenfor `produkter/` er `produktnummerering.md` den operative masterfila for produktregister, ressurs-ID-er og statusoversikt.
 

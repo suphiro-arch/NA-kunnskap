@@ -161,7 +161,7 @@ Portal- og arbeidsflatekomponent i Altinn-porteføljen, med brukergrensesnitt fo
 - https://www.digdir.no/felleslosninger/nasjonale-felleslosninger/750
 
 ## Kildegrunnlag brukt i utfyllingen
-- Lokal fil: `results/Produktbeskrivelser/21-Altinn-Portal-produkt-canvas-v2-codex.md`
+- Lokal fil: `arkitektur/produkter/produktbeskrivelser/21-Altinn-Portal-produkt-canvas-v2-codex.md`
 - Lokal fil: `config/templates/produkt-canvas-template.md`
 - Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Lokal fil: `arkitektur/produkter/produktnummerering.md`

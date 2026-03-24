@@ -152,7 +152,7 @@ Høy gjenbruksverdi:
 - https://www.digdir.no/felleslosninger/nasjonale-felleslosninger/750
 
 ## Kildegrunnlag brukt i utfyllingen
-- Lokal fil: `results/Produktbeskrivelser/21-Altinn-Portal-produkt-canvas.md`
+- Lokal fil: `arkitektur/produkter/produktbeskrivelser/21-Altinn-Portal-produkt-canvas.md`
 - Lokal fil: `config/templates/produkt-canvas-template.md`
 - Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Lokal fil: `sources/links.md`

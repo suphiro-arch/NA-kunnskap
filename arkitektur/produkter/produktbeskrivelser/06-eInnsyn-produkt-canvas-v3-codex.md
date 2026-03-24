@@ -151,7 +151,7 @@ eInnsyn er en felles publiserings- og innsynsplattform som samhandler med virkso
 - https://samarbeid.digdir.no/einnsyn/einnsyn/997
 
 ## Kildegrunnlag brukt i utfyllingen
-- Lokal fil: `results/Produktbeskrivelser/06-eInnsyn-produkt-canvas-v2-copilot.md`
+- Lokal fil: `arkitektur/produkter/produktbeskrivelser/06-eInnsyn-produkt-canvas-v2-copilot.md`
 - Lokal fil: `config/prompts/produkt-canvas.system.md`
 - Lokal fil: `config/templates/produkt-canvas-template.md`
 - Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`

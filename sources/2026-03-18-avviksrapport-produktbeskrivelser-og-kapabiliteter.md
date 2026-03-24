@@ -5,7 +5,7 @@ Status: Oppdatert etter full synk av produktbeskrivelser mot masterfila.
 Kildegrunnlag:
 - `arkitektur/kapabiliteter/capabilities.yaml`
 - `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml`
-- siste versjon av produktbeskrivelsene i `results/Produktbeskrivelser/`
+- siste versjon av produktbeskrivelsene i `arkitektur/produkter/produktbeskrivelser/`
 
 ## Viktig avklaring
 

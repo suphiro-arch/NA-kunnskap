@@ -7,7 +7,7 @@ sources:
   - web/hugo-prototype/README.md
   - briefs/arbeidsstyring-og-handover/AUTOMATISK-PUSH-SETUP.md
   - arkitektur/kapabiliteter/capabilities.yaml
-  - results/Produktbeskrivelser/
+  - arkitektur/produkter/produktbeskrivelser/
   - https://platform.openai.com/docs/api-reference/responses/tutorials-and-guides
   - https://platform.openai.com/docs/guides/tools-file-search
   - https://openai.com/policies/services-agreement/
@@ -73,7 +73,7 @@ Eksisterende styrker i repoet:
 - GitHub Actions for publisering
 - strukturert dokumentgrunnlag i:
   - `arkitektur/kapabiliteter/capabilities.yaml`
-  - `results/Produktbeskrivelser/`
+  - `arkitektur/produkter/produktbeskrivelser/`
   - `web/hugo-prototype/content/`
 - generering av produktsider og kapabilitetssider
 - lenker mellom produkter, kapabiliteter og prinsipper i nettstedet
@@ -150,7 +150,7 @@ MVP-en skal bruke bare offentlig repo-innhold.
 Første kunnskapskilder:
 
 - `arkitektur/kapabiliteter/capabilities.yaml`
-- `results/Produktbeskrivelser/*.md`
+- `arkitektur/produkter/produktbeskrivelser/*.md`
 - `web/hugo-prototype/content/**/*.md`
 
 Hver chunk bør merkes med metadata:
@@ -173,7 +173,7 @@ Legg til en GitHub Action eller egen deploy-jobb som:
 
 Dette bør trigges ved endringer i:
 
-- `results/Produktbeskrivelser/`
+- `arkitektur/produkter/produktbeskrivelser/`
 - `arkitektur/`
 - `web/hugo-prototype/content/`
 

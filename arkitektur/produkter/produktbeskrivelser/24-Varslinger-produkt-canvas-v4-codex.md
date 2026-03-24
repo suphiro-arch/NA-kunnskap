@@ -6,12 +6,12 @@ Målgruppe: Hovedfokus er forretningssiden og strategisk arkitektur.
 Altinn Varslinger
 
 ## Ressurs ID
-24 (Produktliste NA-kunnskap).
+DIGDIR-022
 
 ## Status/Livsfase
 **Produksjon** - etablert varslingsprodukt med aktiv videreutvikling.
 
-**Fakta:** Tjenesten er i ordinær drift, med løpende videreutvikling og offentlig dokumentasjon av funksjoner, referanser og feilkoder.
+**Fakta:** Altinn Varslinger tilbyr enveis kommunikasjon med innbyggere og virksomheter, og støtter e-post og SMS med programmatisk utsending og leveringsstatus.
 
 ## Modenhet
 **Middels til høy funksjonell modenhet** - produktet er etablert og dokumentert, men utvikles videre:
@@ -24,18 +24,13 @@ Altinn Varslinger
 ## Kort beskrivelse
 Altinn Varslinger er en fellesløsning for enveis digital varsling til innbyggere og virksomheter. Produktet gjør det mulig å sende varsler via e-post og SMS, slå opp mottakerens navn og kontaktinformasjon fra nasjonale registre, bruke autorisasjon for å finne riktige mottakere i organisasjoner og styre utsending basert på betingelser og kanalpreferanser.
 
-Produktet støtter API-basert utsending og programmatisk oppfølging av utsendelser som del av varslingsfunksjonaliteten.
-
 ## Kapabiliteter
-- **Sluttbrukertjenester: Proaktive tjenester** gjør det mulig å varsle mottakere når en hendelse eller tilstand krever oppmerksomhet.
-- **Datautveksling og integrasjon: Meldingsformidling** brukes til programmatisk utsending og leveringsoppfølging av varsler.
-- **Tjenesteutvikling: Integrerbare tjenester** tilbyr API-er for integrasjon med Altinn Apps, Altinn-tjenester og tjenesteeiersystemer.
-- **Tillit: Tilgangskontroll** bruker autorisasjon for å finne riktige mottakere i organisasjonskontekst.
-- **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** er nødvendig fordi kontaktinformasjon og varslingsinnhold behandles gjennom flere kanaler og oppslag.
 - **Datadrevet: Sammenstilling av data** kombinerer kontaktdata, reservasjonsstatus og autorisasjonsinformasjon for å velge riktig mottaker og kanal.
-- **Standardisering: Forvaltningsstandarder** gir tjenesteeiere et felles mønster for kanalvalg, oppslag og status i stedet for lokale varslingsmotorer.
-
-Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot dokumentert funksjon i Altinn Varslinger.
+- **Datautveksling og integrasjon: Meldingsformidling** brukes til programmatisk utsending og leveringsoppfølging av varsler.
+- **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** er nødvendig fordi kontaktinformasjon og varslingsinnhold behandles gjennom flere kanaler og oppslag.
+- **Sluttbrukertjenester: Proaktive tjenester** gjør det mulig å varsle mottakere når en hendelse eller tilstand krever oppmerksomhet.
+- **Tillit: Tilgangskontroll** bruker autorisasjon for å finne riktige mottakere i organisasjonskontekst.
+- **Tjenesteutvikling: Integrerbare tjenester** tilbyr API-er for integrasjon med Altinn Apps, Altinn-tjenester og tjenesteeiersystemer.
 
 ## Produktmål
 **Primærkilder:** Varslinger hovedside, `Om Varslinger`, `Hva får du?` og forklaringssider.
@@ -164,7 +159,7 @@ API-basert varslingsløsning i Altinn-porteføljen med oppslag mot nasjonale reg
 - https://docs.altinn.studio/nb/notifications/reference/
 
 ## Kildegrunnlag brukt i utfyllingen
-- Lokal fil: `results/Produktbeskrivelser/24-Varslinger-produkt-canvas-v2-codex.md`
+- Lokal fil: `arkitektur/produkter/produktbeskrivelser/24-Varslinger-produkt-canvas-v1-codex.md`
 - Lokal fil: `config/templates/produkt-canvas-template.md`
 - Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Lokal fil: `arkitektur/produkter/produktnummerering.md`
@@ -188,4 +183,3 @@ API-basert varslingsløsning i Altinn-porteføljen med oppslag mot nasjonale reg
 - Skrevet om teksten til en mer selvstendig produktbeskrivelse for målgruppen.
 - Strukturert brukersegmenter, scope, risiko og verdiforslag i samme standard som nyere produkter.
 - Strammet inn innholdet til dokumenterte egenskaper og markert usikkerhet tydeligere der offentlig dokumentasjon mangler.
-- Presisert skillet mellom livsfase (statusfelt) og funksjonsbeskrivelse (kort beskrivelse).

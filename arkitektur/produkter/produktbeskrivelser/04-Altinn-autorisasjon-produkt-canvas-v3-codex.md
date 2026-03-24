@@ -150,7 +150,7 @@ Altinn autorisasjon er en felles autorisasjonsplattform i Altinn som brukes av t
 - https://samarbeid.digdir.no/altinn/kostnader/2627
 
 ## Kildegrunnlag brukt i utfyllingen
-- Lokal fil: `results/Produktbeskrivelser/04-Altinn-autorisasjon-produkt-canvas-v2-copilot.md`
+- Lokal fil: `arkitektur/produkter/produktbeskrivelser/04-Altinn-autorisasjon-produkt-canvas-v2-copilot.md`
 - Lokal fil: `config/prompts/produkt-canvas.system.md`
 - Lokal fil: `config/templates/produkt-canvas-template.md`
 - Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`

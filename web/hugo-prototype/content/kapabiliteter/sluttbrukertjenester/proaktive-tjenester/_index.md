@@ -15,4 +15,4 @@ Denne delkapabiliteten er en del av [Sluttbrukertjenester](../).
 
 | Produkt | Produktbeskrivelse | Hvorfor relevant |
 | --- | --- | --- |
-| Altinn Varslinger | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/results/Produktbeskrivelser/24-Varslinger-produkt-canvas-v4-codex.md) | gjør det mulig å varsle mottakere når en hendelse eller tilstand krever oppmerksomhet |
+| Altinn Varslinger | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/24-Varslinger-produkt-canvas-v4-codex.md) | gjør det mulig å varsle mottakere når en hendelse eller tilstand krever oppmerksomhet |

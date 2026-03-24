@@ -11,7 +11,7 @@ Altinn Varslinger
 ## Status/Livsfase
 **Produksjon** - etablert varslingsprodukt med aktiv videreutvikling.
 
-**Fakta:** Altinn Varslinger tilbyr enveis kommunikasjon med innbyggere og virksomheter, og støtter e-post og SMS med programmatisk utsending og leveringsstatus.
+**Fakta:** Tjenesten er i ordinær drift, med løpende videreutvikling og offentlig dokumentasjon av funksjoner, referanser og feilkoder.
 
 ## Modenhet
 **Middels til høy funksjonell modenhet** - produktet er etablert og dokumentert, men utvikles videre:
@@ -23,6 +23,8 @@ Altinn Varslinger
 
 ## Kort beskrivelse
 Altinn Varslinger er en fellesløsning for enveis digital varsling til innbyggere og virksomheter. Produktet gjør det mulig å sende varsler via e-post og SMS, slå opp mottakerens navn og kontaktinformasjon fra nasjonale registre, bruke autorisasjon for å finne riktige mottakere i organisasjoner og styre utsending basert på betingelser og kanalpreferanser.
+
+Produktet støtter API-basert utsending og programmatisk oppfølging av utsendelser som del av varslingsfunksjonaliteten.
 
 ## Kapabiliteter
 - **Sluttbrukertjenester: Proaktive tjenester** gjør det mulig å varsle mottakere når en hendelse eller tilstand krever oppmerksomhet.
@@ -162,7 +164,7 @@ API-basert varslingsløsning i Altinn-porteføljen med oppslag mot nasjonale reg
 - https://docs.altinn.studio/nb/notifications/reference/
 
 ## Kildegrunnlag brukt i utfyllingen
-- Lokal fil: `results/Produktbeskrivelser/24-Varslinger-produkt-canvas-v1-codex.md`
+- Lokal fil: `arkitektur/produkter/produktbeskrivelser/24-Varslinger-produkt-canvas-v2-codex.md`
 - Lokal fil: `config/templates/produkt-canvas-template.md`
 - Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Lokal fil: `arkitektur/produkter/produktnummerering.md`
@@ -186,3 +188,4 @@ API-basert varslingsløsning i Altinn-porteføljen med oppslag mot nasjonale reg
 - Skrevet om teksten til en mer selvstendig produktbeskrivelse for målgruppen.
 - Strukturert brukersegmenter, scope, risiko og verdiforslag i samme standard som nyere produkter.
 - Strammet inn innholdet til dokumenterte egenskaper og markert usikkerhet tydeligere der offentlig dokumentasjon mangler.
+- Presisert skillet mellom livsfase (statusfelt) og funksjonsbeskrivelse (kort beskrivelse).

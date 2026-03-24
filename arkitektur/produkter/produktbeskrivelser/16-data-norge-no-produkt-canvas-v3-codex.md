@@ -167,8 +167,8 @@ Høy gjenbruksverdi:
 - https://samarbeid.digdir.no/felles-datakatalog/datadeling/2480
 
 ## Kildegrunnlag brukt i utfyllingen
-- Lokal fil: `results/Produktbeskrivelser/16-data-norge-no-produkt-canvas.md`
-- Lokal fil: `results/Produktbeskrivelser/16-data-norge-no-produkt-canvas-copilot.md`
+- Lokal fil: `arkitektur/produkter/produktbeskrivelser/16-data-norge-no-produkt-canvas.md`
+- Lokal fil: `arkitektur/produkter/produktbeskrivelser/16-data-norge-no-produkt-canvas-copilot.md`
 - Lokal fil: `config/templates/produkt-canvas-template.md`
 - Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Lokal fil: `arkitektur/produkter/produktnummerering.md`

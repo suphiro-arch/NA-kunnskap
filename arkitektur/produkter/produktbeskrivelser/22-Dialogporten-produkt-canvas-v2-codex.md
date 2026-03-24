@@ -6,7 +6,7 @@ Målgruppe: Hovedfokus er forretningssiden og strategisk arkitektur.
 Dialogporten
 
 ## Ressurs ID
-DIGDIR-020
+22 (Produktliste NA-kunnskap).
 
 ## Status/Livsfase
 **Produksjon** - etablert fellesløsning med aktiv videreutvikling og pågående migrering av historiske data.
@@ -25,12 +25,15 @@ DIGDIR-020
 Dialogporten er Altinns felles representasjons- og samhandlingslag for digitale dialoger. Produktet gjør meldinger og dialoger fra ulike tjenesteplattformer tilgjengelige i et felles format, slik at sluttbrukersystemer, arbeidsflater og portaler kan presentere den samme dialogen på en konsistent måte.
 
 ## Kapabiliteter
+- **Sluttbrukertjenester: Sammenhengende tjenester** gjør dialoger fra flere plattformer tilgjengelige i samme representasjon og brukerreise.
 - **Datautveksling og integrasjon: Bruke data fra andre** gir sluttbrukersystemer og portaler tilgang til dialogdata gjennom standardiserte API-er.
 - **Datautveksling og integrasjon: Hendelsesdrevet** bruker hendelser og abonnementer for å oppdage endringer uten kontinuerlig polling.
-- **Sluttbrukertjenester: Sammenhengende tjenester** gjør dialoger fra flere plattformer tilgjengelige i samme representasjon og brukerreise.
 - **Tillit: Autentisering** støtter sluttbruker- og systemtilgang gjennom ID-porten og Maskinporten.
 - **Tillit: Tilgangskontroll** bygger på Altinn Autorisasjon, autoriserte parter og tjenesteressurser.
 - **Tjenesteutvikling: Integrerbare tjenester** gir tjenesteeiere og plattformer et felles mønster for å eksponere dialoger.
+- **Samarbeid: Tjenesteforvaltning** gjør det mulig å samordne digital dialog på tvers av ulike plattformer og tjenesteeiere.
+
+Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot funksjoner dokumentert i Dialogporten.
 
 ## Produktmål
 **Primærkilder:** Dialogportens hovedside, `Hva får du?` og `Status migrering`.
@@ -160,7 +163,7 @@ Felles dialoglag i Altinn-porteføljen med API-er, GraphQL, hendelser og integra
 - https://docs.altinn.studio/nb/dialogporten/reference/graphql/
 
 ## Kildegrunnlag brukt i utfyllingen
-- Lokal fil: `results/Produktbeskrivelser/22-Dialogporten-produkt-canvas-v1-codex.md`
+- Lokal fil: `arkitektur/produkter/produktbeskrivelser/22-Dialogporten-produkt-canvas-v1-codex.md`
 - Lokal fil: `config/templates/produkt-canvas-template.md`
 - Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Lokal fil: `arkitektur/produkter/produktnummerering.md`

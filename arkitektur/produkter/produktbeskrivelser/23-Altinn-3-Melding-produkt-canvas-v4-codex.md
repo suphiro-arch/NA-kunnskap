@@ -6,7 +6,7 @@ Målgruppe: Hovedfokus er forretningssiden og strategisk arkitektur.
 Altinn 3 Melding (Correspondence)
 
 ## Ressurs ID
-23 (Produktliste NA-kunnskap).
+DIGDIR-021
 
 ## Status/Livsfase
 **Produksjon** - etablert meldingstjeneste med aktiv overgang og migrering fra Altinn 2.
@@ -25,15 +25,12 @@ Altinn 3 Melding (Correspondence)
 Altinn 3 Melding er en nasjonal meldingstjeneste for sikker digital utveksling av korrespondanse mellom offentlige virksomheter og mottakere i offentlig sektor, næringsliv og befolkning. Produktet støtter livssyklus, tilgangsstyring, vedlegg, varsling og hendelser, og gjør meldinger tilgjengelige i arbeidsflate og Dialogporten som del av en mer sammenhengende digital kommunikasjon.
 
 ## Kapabiliteter
-- **Datautveksling og integrasjon: Meldingsformidling** håndterer sikker digital utsending og mottak av meldinger med status og livssyklus.
-- **Tillit: Tilgangskontroll** sørger for at kun autoriserte brukere og systemer får tilgang til meldinger og vedlegg.
-- **Tillit: Sporbarhet og innsyn** understøttes gjennom omfattende logging av hendelser og prosesser.
-- **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** beskytter innhold, vedlegg og overføringer i meldingsflyten.
 - **Datautveksling og integrasjon: Hendelsesdrevet** støtter abonnementer og oppfølging av hendelser knyttet til sendte meldinger.
-- **Sluttbrukertjenester: Sammenhengende tjenester** gjør meldinger tilgjengelige i Altinn Arbeidsflate og som dialoger i Dialogporten.
+- **Datautveksling og integrasjon: Meldingsformidling** håndterer sikker digital utsending og mottak av meldinger med status og livssyklus.
+- **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** beskytter innhold, vedlegg og overføringer i meldingsflyten.
+- **Tillit: Sporbarhet og innsyn** understøttes gjennom omfattende logging av hendelser og prosesser.
+- **Tillit: Tilgangskontroll** sørger for at kun autoriserte brukere og systemer får tilgang til meldinger og vedlegg.
 - **Tjenesteutvikling: Integrerbare tjenester** tilbyr API-er for sending, mottak og automatisert meldingshåndtering.
-
-Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot Altinn Melding-dokumentasjonen.
 
 ## Produktmål
 **Primærkilder:** Altinn Melding hovedside, `Hva får du?`, livssyklus og overgangsdokumentasjon.
@@ -164,7 +161,7 @@ Meldingstjeneste i Altinn-porteføljen med API-er, vedleggshåndtering, statusfl
 - https://docs.altinn.studio/nb/correspondence/reference/solution-architecture/
 
 ## Kildegrunnlag brukt i utfyllingen
-- Lokal fil: `results/Produktbeskrivelser/23-Altinn-3-Melding-produkt-canvas-v2-codex.md`
+- Lokal fil: `arkitektur/produkter/produktbeskrivelser/23-Altinn-3-Melding-produkt-canvas-v1-codex.md`
 - Lokal fil: `config/templates/produkt-canvas-template.md`
 - Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Lokal fil: `arkitektur/produkter/produktnummerering.md`
@@ -188,4 +185,3 @@ Meldingstjeneste i Altinn-porteføljen med API-er, vedleggshåndtering, statusfl
 - Gjort produktteksten mer selvstendig og målgruppetilpasset.
 - Strukturert brukersegmenter, scope og risiko i samme format som nyere canvases.
 - Tydeliggjort forholdet mellom Melding, Dialogporten og arbeidsflate.
-- Flyttet fakta om overgang og migrering fra `Status/Livsfase` til `Kort beskrivelse` i tråd med oppdatert instruks.

@@ -10,7 +10,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[3]
 CAPABILITIES_FILE = REPO_ROOT / 'arkitektur' / 'kapabiliteter' / 'capabilities.yaml'
 MAP_FILE = REPO_ROOT / 'arkitektur' / 'kapabiliteter' / 'produkt-kapabilitet-koblinger.yaml'
-PRODUCTS_DIR = REPO_ROOT / 'results' / 'Produktbeskrivelser'
+PRODUCTS_DIR = REPO_ROOT / 'arkitektur' / 'produkter' / 'produktbeskrivelser'
 OUT_DIR = REPO_ROOT / 'web' / 'hugo-prototype' / 'content' / 'kapabiliteter'
 REPO_BLOB_BASE = 'https://github.com/suphiro-arch/NA-kunnskap/blob/main'
 
