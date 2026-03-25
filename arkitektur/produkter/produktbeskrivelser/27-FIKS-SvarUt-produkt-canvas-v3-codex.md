@@ -21,7 +21,7 @@ KS-003
 **Deduksjon:** Modenheten er høy for standardisert utsending og kanalhåndtering. Samtidig er produktet avhengig av korrekt integrasjon og konfigurasjon i avsendersystemene for å gi full verdi.
 
 ## Kort beskrivelse
-Fiks SvarUt er KS Digitals API-baserte tjeneste for utgående dokumentformidling. Tjenesten gjør det mulig for kommuner og andre offentlige virksomheter å sende dokumenter fra sak-/arkivsystemer og andre fagsystemer gjennom én sentral distribusjonsmekanisme, i stedet for å bygge separate løp mot hver mottakerkanal. Fiks SvarUt håndterer utgående post og formidler den videre til blant annet digital post til innbygger, Altinn, SvarInn eller print, avhengig av mottakertype og kanaltilgjengelighet.
+Fiks SvarUt er KS Digitals sentraliserte utsendingstjeneste for utgående dokumentformidling. Tjenesten gjør det mulig for kommuner og andre offentlige virksomheter å sende dokumenter gjennom én felles distribusjonsmekanisme, i stedet for å bygge separate løp mot hver mottakerkanal. Fiks SvarUt kan brukes både gjennom integrasjon fra sak-/arkivsystemer og andre fagsystemer, og gjennom portalbaserte og manuelle arbeidsmåter. Tjenesten håndterer utgående post og formidler den videre til blant annet digital post til innbygger, Altinn, SvarInn eller print, avhengig av mottakertype og kanaltilgjengelighet.
 
 ## Kapabiliteter
 - **Datautveksling og integrasjon: Meldingsformidling**
@@ -47,29 +47,30 @@ Operative mål utledet fra kildene:
 ## Brukerbehov
 - Offentlige virksomheter trenger én tjeneste for utsending til flere mottakerkanaler.
 - Fagsystemleverandører trenger stabile og dokumenterte API-er for automatisert utsending.
+- Noen virksomheter trenger også å kunne sende manuelt eller halvmanuelt uten full systemintegrasjon.
 - Virksomheter trenger å kunne sende til både privatpersoner, virksomheter og i enkelte tilfeller mottakere i Norsk Helsenett.
 - Drift- og forvaltningsmiljøer trenger tydelig statusinformasjon og versjonsstyrt integrasjonsgrunnlag.
 
 ## Hvem er brukerne og brukersegmentene
 | Brukersegment | Primære behov | Bruksområde | Kommentar |
 |---|---|---|---|
-| Kommuner, fylkeskommuner og andre offentlige virksomheter | Enhetlig og kontrollerbar utsending av dokumenter | Utgående post fra sak-/arkivsystemer og andre fagsystemer | Primærbrukere |
+| Kommuner, fylkeskommuner og andre offentlige virksomheter | Enhetlig og kontrollerbar utsending av dokumenter | Utgående post fra sak-/arkivsystemer, andre fagsystemer og manuelle arbeidsflater | Primærbrukere |
 | Systemleverandører og integrasjonsmiljøer | Dokumenterte API-er, autentisering og versjonsstyring | Integrasjon mot send-, status- og hendelsesgrensesnitt | Teknisk brukergruppe |
 | Innbyggere og virksomheter som mottakere | Mottak i egnet kanal | Digital post, Altinn, SvarInn eller print | Opplever resultatet av tjenesten, ikke nødvendigvis tjenesten direkte |
 | KS Digital forvaltning og drift | Stabil drift, versjonsforvaltning og kanaloppfølging | Tjenesteforvaltning, statusoppfølging og videreutvikling | Sentral produkteier og forvalter |
 
 ## Hovedfunksjoner
 ### Primære funksjoner
-- Fiks SvarUt tar imot utgående dokumenter fra avsendersystemer og fordeler dem videre til riktig mottakerkanal. Dette gjør produktet relevant når behovet er standardisert utsending, ikke full dialog- eller saksbehandlingsstøtte.
+- Fiks SvarUt tar imot utgående dokumenter fra avsendersystemer og manuelle arbeidsflater, og fordeler dem videre til riktig mottakerkanal. Dette gjør produktet relevant når behovet er standardisert utsending, ikke full dialog- eller saksbehandlingsstøtte.
 - Tjenesten håndterer kanalvalg forskjellig for privatpersoner og virksomheter. For privatpersoner brukes prioritert rekkefølge digital post til innbygger, Altinn og print. For virksomheter brukes prioritert rekkefølge SvarInn, Altinn og print.
-- REST-grensesnittene er delt opp i egne funksjonsområder for blant annet sending, status, hendelser, metadata og mottakersystem. Dette gjør det mulig å integrere og følge opp forsendelser mer presist enn i en eldre monolittisk API-modell.
+- REST-grensesnittene er delt opp i egne funksjonsområder for blant annet sending, status, hendelser, metadata og mottakersystem. Dette gjør det mulig å integrere og følge opp forsendelser mer presist enn i en eldre monolittisk API-modell, men er bare én del av tjenesten.
 - Tjenesten støtter ulike mottakertyper. Dokumentasjonen viser egne løp for sending til privatperson, virksomhet og mottaker i Norsk Helsenett.
 
 ### Scope og avgrensning
 | Inngår | Inngår ikke |
 |---|---|
 | Utgående dokumentformidling via sentral tjeneste | Mottak av inngående post, som dekkes av SvarInn |
-| API-basert innsending, statusoppfølging og hendelseshåndtering | Lokal produksjon av dokumentinnhold |
+| API-basert og portalbasert innsending, statusoppfølging og hendelseshåndtering | Lokal produksjon av dokumentinnhold |
 | Ruting til flere mottakerkanaler, inkludert print | Saksbehandling og arbeidsflyt i fagsystemene |
 | Standardisert kanalhåndtering og integrasjonsmønster | Full dialogplattform for alle meldingstyper |
 
@@ -81,6 +82,7 @@ Operative mål utledet fra kildene:
 ## Forretningsverdi/Verdiforslag
 ### For virksomheter
 - Lavere integrasjonskostnad ved ett felles utsendingsgrensesnitt.
+- Mulighet for både integrert og mer manuell bruk av samme tjeneste.
 - Mer forutsigbar kanalhåndtering enn ved separate integrasjoner mot hver kanal.
 
 ### For mottakere
@@ -120,7 +122,7 @@ Fiks SvarUt er en sentralt forvaltet utsendingstjeneste i Fiks-økosystemet.
 
 ## Gjenbruk
 **Høy gjenbruksverdi**
-- Gjenbruksverdien ligger i standardisert utsending, kanalhåndtering og felles API-er.
+- Gjenbruksverdien ligger i standardisert utsending, kanalhåndtering og felles grensesnitt for både integrert og portalbasert bruk.
 - Produktet er særlig relevant for virksomheter som sender mange dokumenter eller trenger et robust felles utsendingsløp.
 - Gjenbruket gjelder infrastrukturen og samhandlingsmønsteret, ikke lokal forretningslogikk i hvert fagsystem.
 
@@ -171,6 +173,7 @@ Fiks SvarUt er en sentralt forvaltet utsendingstjeneste i Fiks-økosystemet.
 - Oppdatert kildegrunnlag med ny kontroll av produktside, utviklerdokumentasjon, API-versjonsoversikt, prisoversikt og driftsstatus 2026-03-25.
 - Presisert at REST felles V1 er planlagt avviklet 31.12.2026, og at nyere REST-endepunkter er stabile.
 - Tydeliggjort mottakertyper og kanalrekkefølge for privatpersoner og virksomheter.
+- Presisert at produktet er en bredere utsendingstjeneste og ikke bare en API-tjeneste, siden KS også beskriver webportal og manuelle løp.
 
 ### Tekstlige forbedringer
 - Strammet inn navnebruk til `Fiks SvarUt` som operativt navn i repoet.

@@ -66,6 +66,7 @@ sources:
 - Harmoniserte KS-produktnavn i berørte produktbeskrivelser og koblingsgrunnlag, og synket weboversiktene slik at `Fiks SvarUt` nå peker til siste versjon `v2 (copilot)`.
 - Opprettet `SvarUt v3 (codex)` med oppdatert KS-kildegrunnlag, tydeligere API- og versjonsbilde, strammere scope og mer presis navnebruk før ekstern kvalitetssjekk hos KS.
 - Standardiserte filnavn for FIKS-relaterte KS-beskrivelser slik at `FIKS` brukes konsekvent med store bokstaver i filnavn, blant annet for `FIKS SvarUt` og `FIKS Digiorden`.
+- Oppdatert styringsprompten for produkt-canvas med eksplisitt kontroll av løsningsbredde, slik at nye beskrivelser må sjekke hele produktets operative rolle og ikke bare beskrive ett grensesnitt som API eller portal.
 
 ## Hva gjenstår — Produktgrunnlag utvikling (neste 4-6 uker)
 
