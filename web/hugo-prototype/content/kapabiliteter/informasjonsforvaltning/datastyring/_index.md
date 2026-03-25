@@ -16,4 +16,4 @@ Denne delkapabiliteten er en del av [Informasjonsforvaltning](../).
 | Produkt | Produktbeskrivelse | Hvorfor relevant |
 | --- | --- | --- |
 | Begrepskatalog | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/14-Begrepskatalog-produkt-canvas-v2-copilot.md) | Forvaltning av begrepskvalitet |
-| Fiks digiorden | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/30-Fiks-Digiorden-produkt-canvas-v1-codex.md) | gir kommunen styringsstøtte og samlet oversikt over applikasjoner, data og sentrale forvaltningsopplysninger. |
+| Fiks digiorden | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/30-FIKS-Digiorden-produkt-canvas-v1-codex.md) | gir kommunen styringsstøtte og samlet oversikt over applikasjoner, data og sentrale forvaltningsopplysninger. |

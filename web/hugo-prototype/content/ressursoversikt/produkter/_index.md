@@ -275,7 +275,7 @@ FIKS Melding er KS Digitals meldingstjeneste for sikker og fleksibel informasjon
 
 ## Fiks SvarUt
 
-**Siste versjon:** v3 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/27-SvarUt-produkt-canvas-v3-codex.md)
+**Siste versjon:** v3 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/27-FIKS-SvarUt-produkt-canvas-v3-codex.md)
 
 Fiks SvarUt er KS Digitals API-baserte tjeneste for utgående dokumentformidling. Tjenesten gjør det mulig for kommuner og andre offentlige virksomheter å sende dokumenter fra sak-/arkivsystemer og andre fagsystemer gjennom én sentral distribusjonsmekanisme, i stedet for å bygge separate løp mot hver mottakerkanal...
 
@@ -295,7 +295,7 @@ FIKS Register er KS Digitals fellestjeneste for oppslag i nasjonale registre fra
 
 ## Fiks digiorden
 
-**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/30-Fiks-Digiorden-produkt-canvas-v1-codex.md)
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/30-FIKS-Digiorden-produkt-canvas-v1-codex.md)
 
 Fiks digiorden er KS Digitals styrings- og oversiktsløsning for kommunal informasjonsforvaltning. Løsningen hjelper kommuner med å få oversikt over applikasjoner, datasett og sentrale styringsopplysninger i eget digitalt landskap, slik at det blir lettere å planlegge prosjekter, vurdere konsekvenser og bruke...
 
