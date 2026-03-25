@@ -64,6 +64,7 @@ sources:
 - Flyttet produktbeskrivelsene til `arkitektur/produkter/produktbeskrivelser/` og avviklet duplikatoversiktene i `results/Produktregister/`, slik at `arkitektur/produkter/produktnummerering.md` nå er eneste operative master for produktregisteret.
 - Ryddet KS-delen i produktregisteret etter KS Digitals nåværende navngivning, fjernet `Felles tjenesteplattform` fra operativ ressursliste og la inn `Fiks skatte- og inntektsopplysninger` og `Fiks kjøretøyregister` som egne kandidater under samme logikk som `Fiks folkeregister`.
 - Harmoniserte KS-produktnavn i berørte produktbeskrivelser og koblingsgrunnlag, og synket weboversiktene slik at `Fiks SvarUt` nå peker til siste versjon `v2 (copilot)`.
+- Opprettet `SvarUt v3 (codex)` med oppdatert KS-kildegrunnlag, tydeligere API- og versjonsbilde, strammere scope og mer presis navnebruk før ekstern kvalitetssjekk hos KS.
 
 ## Hva gjenstår — Produktgrunnlag utvikling (neste 4-6 uker)
 

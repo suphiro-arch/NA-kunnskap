@@ -14,7 +14,7 @@ productsMarkdown: |
   | Altinn Portal | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/21-Altinn-Portal-produkt-canvas-v3-codex.md) | Sammenhengende tjenester, Tjenestekjeder | Støtter flere delkapabiliteter i denne hovedkapabiliteten. |
   | Dialogporten | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/22-Dialogporten-produkt-canvas-v4-codex.md) | Sammenhengende tjenester | gjør dialoger fra flere plattformer tilgjengelige i samme representasjon og brukerreise |
   | Altinn Varslinger | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/24-Varslinger-produkt-canvas-v4-codex.md) | Proaktive tjenester | gjør det mulig å varsle mottakere når en hendelse eller tilstand krever oppmerksomhet |
-  | Fiks SvarUt | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/27-SvarUt-produkt-canvas-v2-copilot.md) | Sammenhengende tjenester | lar mottakeren nås gjennom ulike kanaler via ett samlet utsendingsløp. |
+  | Fiks SvarUt | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/27-SvarUt-produkt-canvas-v3-codex.md) | Sammenhengende tjenester | lar mottakeren nås gjennom ulike kanaler via ett samlet utsendingsløp. |
   | Vitnemålsportalen | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/51-Vitnemalsportalen-produkt-canvas-v1-codex.md) | Sammenhengende tjenester | samler innsyn, uthenting og deling av resultater i én brukerrettet arbeidsflate som knytter sammen utdanningssektor og mottakere utenfor sektoren |
 ---
 
