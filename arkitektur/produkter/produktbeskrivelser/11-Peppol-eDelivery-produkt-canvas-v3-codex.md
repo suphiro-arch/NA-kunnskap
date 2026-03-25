@@ -25,7 +25,7 @@ Peppol eDelivery er et internasjonalt samhandlingsrammeverk for sikker og standa
 ## Kapabiliteter
 - **Datautveksling og integrasjon: Meldingsformidling** gir et føderert mønster for standardisert dokumentutveksling mellom virksomheter.
 - **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** bruker sertifikater og tillitsrammeverk for å sikre transport og validering i nettverket.
-- **Standardisering: Forvaltningsstandarder** bygger p? forvaltede samhandlingsregler, meldingsprofiler og transportspesifikasjoner.
+- **Standardisering: Forvaltningsstandarder** bygger på forvaltede samhandlingsregler, meldingsprofiler og transportspesifikasjoner.
 - **Tillit: Identifisering** baserer ruting og adressering på entydige deltakeridentifikatorer.
 
 ## Produktmål

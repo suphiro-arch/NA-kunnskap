@@ -1,7 +1,7 @@
-# Produkt-canvas: FIKS Melding
+# Produkt-canvas: Fiks melding
 
 ## Navn
-FIKS Melding
+Fiks melding
 
 ## Ressurs ID
 KS-002

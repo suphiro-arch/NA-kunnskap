@@ -30,7 +30,7 @@ Altinn er Norges nasjonale plattform for digitale tjenester, meldingsutveksling 
 - Standardisere og effektivisere digital tjenesteleveranse i offentlig sektor
 - Tilby nøkkelferdige infrastruktur som reduserer tidsbrukt og kostnad fra behov til produksjon
 - Muliggjøre effektiv samhandling mellom innbyggere, virksomheter og offentlig sektor
-- ?ke gjenbruk av felles komponenter og mønstre på tvers av virksomheter
+- Øke gjenbruk av felles komponenter og mønstre på tvers av virksomheter
 - Understøtte brukerorient at og tilgjengelig digital tjenesteutvikling
 
 ## Brukerbehov
@@ -206,4 +206,3 @@ Altinn er Norges nasjonale plattform for digitale tjenester, meldingsutveksling 
 - **Strategisk kontekst:** Eksplisitt kobling til Altinn 3-modernisering og nasjonal strategi
 - **Scale-dimensjon:** Tydelig at dette er landets viktigste plattform for digitale tjenester
 - **Tegn-rettelser:** Korrigert fra "Maalgruppe" → "Målgruppe", "Hoy" → "Høy"
-

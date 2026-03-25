@@ -29,7 +29,7 @@ Felles datakatalog er en nasjonal løsning for å beskrive, katalogisere og gjø
 - **Standardisering: Forvaltningsstandarder** – DCAT-AP-NO standarder og metadata-klassifikasjoner.
 
 ## Produktmål
-- ?ke gjenfinning og gjenbruk av offentlige data gjennom sentralisert katalogisering
+- Øke gjenfinning og gjenbruk av offentlige data gjennom sentralisert katalogisering
 - Forbedre datakvalitet gjennom standardiserte metadata-beskrivelser
 - Støtte raskere etablering av datadrevne og integrasjon-baserte tjenester
 - Redusere «siloing» av data og fremme transparency i offentlig dataeierskap
@@ -204,4 +204,3 @@ Felles datakatalog er en nasjonal løsning for å beskrive, katalogisere og gjø
 - **Kapabiliteter:** Detalj-beskrivelser av hver kapabilitet
 - **Metadata-standard:** DCAT-AP-NO konkretisert
 - **Datadeling-kontekst:** Kobling til nasjonalt datadelingsekosystem
-

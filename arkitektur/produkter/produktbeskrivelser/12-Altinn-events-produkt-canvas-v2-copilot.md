@@ -31,7 +31,7 @@ Altinn events er en nasjonal hendelsestjeneste som muliggjør publisering og kon
 ## Produktmål
 - Tilby felles infrastruktur for hendelsesdrevet samhandling i offentlig sektor
 - Redusere behov for polling-basert integrasjon og tett synkrone API-kall
-- ?ke reaksjonsevne, automatisering og mulige proaktive tjenester
+- Øke reaksjonsevne, automatisering og mulige proaktive tjenester
 - Standardisere mønstre for hendelsesdeling på tvers av tjenester og domener
 - Enabler sanntids-lik eller near-realtime dataflyt uten dedikerte punkt-til-punkt-integrasjoner
 
@@ -138,7 +138,7 @@ Altinn events er en nasjonal hendelsestjeneste som muliggjør publisering og kon
 - Felles hendelseskapabilitet på tvers av mange tjenester
 - Muliggjør standardiserte, løst koblede arkitekturer
 - Reduserer behov for proprietaere event-infrastruktur i hvert prosjekt
-- ?kende nettverkseffekt når flere tjenester publiserer/abonnerer
+- Økende nettverkseffekt når flere tjenester publiserer/abonnerer
 
 ## Støtte arkitekturprinsipper
 
@@ -201,4 +201,3 @@ Altinn events er en nasjonal hendelsestjeneste som muliggjør publisering og kon
 - **Kapabiliteter:** Detalj-beskrivelser av hver kapabilitet
 - **Event-driven arkitektur:** Publish/Subscribe-mønster konkretisert
 - **Styringsforum:** Altinn 3-styre + Datautvekslings-domene
-
