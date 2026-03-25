@@ -61,10 +61,13 @@ Operative mål utledet fra kildene:
 
 ## Hovedfunksjoner
 ### Primære funksjoner
-- Fiks SvarUt tar imot utgående dokumenter fra avsendersystemer og manuelle arbeidsflater, og fordeler dem videre til riktig mottakerkanal. Dette gjør produktet relevant når behovet er standardisert utsending, ikke full dialog- eller saksbehandlingsstøtte.
-- Tjenesten håndterer kanalvalg forskjellig for privatpersoner og virksomheter. For privatpersoner brukes prioritert rekkefølge digital post til innbygger, Altinn og print. For virksomheter brukes prioritert rekkefølge SvarInn, Altinn og print.
-- REST-grensesnittene er delt opp i egne funksjonsområder for blant annet sending, status, hendelser, metadata og mottakersystem. Dette gjør det mulig å integrere og følge opp forsendelser mer presist enn i en eldre monolittisk API-modell, men er bare én del av tjenesten.
-- Tjenesten støtter ulike mottakertyper. Dokumentasjonen viser egne løp for sending til privatperson, virksomhet og mottaker i Norsk Helsenett.
+Fiks SvarUt sin kjernefunksjon er å motta utgående dokumenter og styre dem videre til riktig kanal og mottaker. For virksomheten betyr dette at utsendingen kan samles i én fellestjeneste i stedet for å håndteres som flere separate integrasjoner og rutiner. Produktet er derfor først og fremst en utsendingstjeneste med sentral kanalhåndtering, ikke en dialogplattform eller et saksbehandlingssystem.
+
+Tjenesten støtter både integrert og mer manuell bruk. Dokumentasjonen viser at forsendelser kan sendes fra sak-/arkivsystemer og andre fagsystemer gjennom maskin-til-maskin-grensesnitt, men KS beskriver også webportal og manuelle løp som del av tjenesten. Dette er viktig for å forstå produktet riktig: Fiks SvarUt er ikke bare et API, men en felles tjeneste som kan brukes gjennom flere arbeidsmåter avhengig av modenhet og behov hos virksomheten.
+
+En sentral del av funksjonaliteten er kanalstyring og ruting. For privatpersoner beskrives prioritert kanalrekkefølge som digital post til innbygger, deretter Altinn og til slutt print. For virksomheter beskrives prioritert kanalrekkefølge som SvarInn, deretter Altinn og til slutt print. Denne kanalstyringen er en vesentlig del av verdien i løsningen, fordi avsender slipper å bygge og vedlikeholde egen logikk for hver kanal og mottakertype.
+
+Tjenesten har også et mer detaljert teknisk funksjonssett enn det som kommer fram av den overordnede produktsiden alene. Utviklerdokumentasjonen viser egne REST-grensesnitt for blant annet sending, status, hendelser, metadata og mottakersystem. Det betyr at virksomheter og leverandører ikke bare kan sende dokumenter, men også følge opp leveranse, hendelser og teknisk status i et mer finmasket integrasjonsløp. Dokumentasjonen viser i tillegg egne løp for sending til privatpersoner, virksomheter og mottakere i Norsk Helsenett, samt koblinger til relaterte funksjoner som eDialog og signeringsløp.
 
 ### Scope og avgrensning
 | Inngår | Inngår ikke |
