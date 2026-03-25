@@ -67,6 +67,7 @@ sources:
 - Opprettet `SvarUt v3 (codex)` med oppdatert KS-kildegrunnlag, tydeligere API- og versjonsbilde, strammere scope og mer presis navnebruk før ekstern kvalitetssjekk hos KS.
 - Standardiserte filnavn for FIKS-relaterte KS-beskrivelser slik at `FIKS` brukes konsekvent med store bokstaver i filnavn, blant annet for `FIKS SvarUt` og `FIKS Digiorden`.
 - Oppdatert styringsprompten for produkt-canvas med eksplisitt kontroll av løsningsbredde, slik at nye beskrivelser må sjekke hele produktets operative rolle og ikke bare beskrive ett grensesnitt som API eller portal.
+- Skjerpet prompten videre slik at `Hovedfunksjoner` normalt skal skrives som minst 3-4 forklarende avsnitt når kildene gir grunnlag for det, og oppdatert `FIKS SvarUt v3` i tråd med dette.
 
 ## Hva gjenstår — Produktgrunnlag utvikling (neste 4-6 uker)
 

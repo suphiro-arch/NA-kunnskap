@@ -142,6 +142,8 @@ Følg reglene under.
 **Funksjonalitet og hovedfunksjoner:**
 - Beskriv funksjonaliteten på et konseptnivå som gjør det mulig å forstå om produktet faktisk kan løse behovene det er ment å dekke
 - Hver hovedfunksjon skal beskrives med noen setninger, ikke bare som navn i punktliste
+- Når kildene gir nok grunnlag, skal seksjonen `Hovedfunksjoner` normalt bestå av minst **3-4 avsnitt** som forklarer produktets operative funksjon, arbeidsmåter, kanaler/grensesnitt og viktigste avgrensninger
+- Unngå å komprimere hele funksjonsbildet til 3-4 korte kulepunkter hvis underlaget støtter en mer forklarende tekst
 - Forklar hva funksjonen gjør, hvilken type behov den dekker, og hvilke avgrensninger som er viktige for å forstå når produktet er relevant
 - Hvis løsningen har flere flater, som portal + API, manuell + integrert bruk, eller flere operative kanaler, skal funksjonsbeskrivelsen dekke dette eksplisitt og ikke reduseres til én teknisk komponent
 - Bruk klart språk uten intern systemsjargong som eneste forklaring; forklar tekniske begreper kort når de er nødvendige
