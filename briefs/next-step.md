@@ -65,6 +65,7 @@ sources:
 - Ryddet KS-delen i produktregisteret etter KS Digitals nåværende navngivning, fjernet `Felles tjenesteplattform` fra operativ ressursliste og la inn `Fiks skatte- og inntektsopplysninger` og `Fiks kjøretøyregister` som egne kandidater under samme logikk som `Fiks folkeregister`.
 - Harmoniserte KS-produktnavn i berørte produktbeskrivelser og koblingsgrunnlag, og synket weboversiktene slik at `Fiks SvarUt` nå peker til siste versjon `v2 (copilot)`.
 - Opprettet `SvarUt v3 (codex)` med oppdatert KS-kildegrunnlag, tydeligere API- og versjonsbilde, strammere scope og mer presis navnebruk før ekstern kvalitetssjekk hos KS.
+- Standardiserte filnavn for FIKS-relaterte KS-beskrivelser slik at `FIKS` brukes konsekvent med store bokstaver i filnavn, blant annet for `FIKS SvarUt` og `FIKS Digiorden`.
 
 ## Hva gjenstår — Produktgrunnlag utvikling (neste 4-6 uker)
 
