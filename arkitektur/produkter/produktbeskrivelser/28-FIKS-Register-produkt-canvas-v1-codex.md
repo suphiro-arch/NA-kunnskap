@@ -1,7 +1,7 @@
-# Produkt-canvas: FIKS Register
+# Produkt-canvas: Fiks register
 
 ## Navn
-FIKS Register
+Fiks register
 
 ## Ressurs ID
 KS-004

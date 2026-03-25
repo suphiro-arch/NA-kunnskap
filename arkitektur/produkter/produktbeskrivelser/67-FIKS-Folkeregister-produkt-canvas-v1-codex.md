@@ -1,7 +1,7 @@
-# Produkt-canvas: FIKS Folkeregister
+# Produkt-canvas: Fiks folkeregister
 
 ## Navn
-FIKS Folkeregister
+Fiks folkeregister
 
 ## Ressurs ID
 KS-008
@@ -18,7 +18,7 @@ KS-008
 - Modenheten er høy som tilgangstjeneste, men løsningen er fortsatt avhengig av hjemler og vilkår knyttet til Folkeregisteret som autoritativ kilde.
 
 ## Kort beskrivelse
-FIKS Folkeregister er en viktig integrasjon i kommunal sektor. Løsningen gir kommuner og fylkeskommuner tilgang til folkeregisteropplysninger gjennom FIKS, enten som oppslag i en nettsideløsning eller som maskin-til-maskin-integrasjon mot fagsystemer. Produktet er særlig relevant når kommunal sektor trenger kontrollert tilgang til oppdaterte personopplysninger fra Folkeregisteret i operative arbeidsprosesser, uten å etablere egne separate tilkoblings- og tilgangsløsninger mot Skatteetaten.
+Fiks folkeregister er en viktig integrasjon i kommunal sektor. Løsningen gir kommuner og fylkeskommuner tilgang til folkeregisteropplysninger gjennom Fiks, enten som oppslag i en nettsideløsning eller som maskin-til-maskin-integrasjon mot fagsystemer. Produktet er særlig relevant når kommunal sektor trenger kontrollert tilgang til oppdaterte personopplysninger fra Folkeregisteret i operative arbeidsprosesser, uten å etablere egne separate tilkoblings- og tilgangsløsninger mot Skatteetaten.
 
 ## Kapabiliteter
 - **Datakilder: Grunndata** er direkte relevant fordi løsningen gjør autoritative folkeregisteropplysninger tilgjengelige for kommunal sektor gjennom et kontrollert tilgangslag.
@@ -147,4 +147,3 @@ FIKS Folkeregister er en registertilgangstjeneste i KS Digital og inngår funksj
 - Nettkilde: https://ksdigital.no/avtaler-og-priser/ (hentet 2026-03-19)
 - Nettkilde: https://ksdigital.no/tjenestene/fiks-register/fiks_register_endringslogg/ (hentet 2026-03-19)
 - Nettkilde: https://status.fiks.ks.no/ (hentet 2026-03-19)
-

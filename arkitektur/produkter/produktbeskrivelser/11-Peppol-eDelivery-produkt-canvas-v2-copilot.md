@@ -136,7 +136,7 @@ Grunnlag: Kapabiliteter mappet mot `arkitektur/kapabiliteter/capabilities.yaml`.
 - Samme samhandlingsmønster brukes av alle virksomheter (ikke unik per motpart)
 - Reduserer behov for punkt-til-punkt-løsninger og proprietaere integrasjonsgatewayer
 - Fremmer interoperabilitet og standardisering på tvers av sektorer og grenser
-- ?kende nettverkseffekt when flere virksomheter tilslutter seg
+- Økende nettverkseffekt når flere virksomheter tilslutter seg
 
 ## Støtte arkitekturprinsipper
 

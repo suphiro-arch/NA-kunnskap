@@ -30,7 +30,7 @@ Altinn Studio er web-basert IDE og utviklingsplattform for bygging av digitale A
 ## Produktmål
 - Senke terskelen for utvikling av digitale offentlige tjenester (low-code enablement)
 - Standardisere og akselerere tjenesteutvikling gjennom felles byggeklosser og mønstre
-- ?ke gjenbruk av komponenter og maler på tvers av virksomheter og tjenester
+- Øke gjenbruk av komponenter og maler på tvers av virksomheter og tjenester
 - Muliggjøre raskere iterasjon og feedback-løkker fra tjenesteeiere til sluttbrukere
 - Understøtte høy kvalitet og sikkerheit gjennom bygg-inn best-practices
 
@@ -146,7 +146,7 @@ Altinn Studio er web-basert IDE og utviklingsplattform for bygging av digitale A
 - Samme Studio bruges av alle 50+ fagfetater og 300+ tjenester
 - Komponenter-biblioteket gjenbrukes across tusener av tjenester
 - Mønstre og best-practice templates reduserer dobbeltarbeid
-- ?kende nettverkseffekt når flere tjenesteeiere bidrar med komponenter
+- Økende nettverkseffekt når flere tjenesteeiere bidrar med komponenter
 
 ## Støtte arkitekturprinsipper
 
@@ -208,4 +208,3 @@ Altinn Studio er web-basert IDE og utviklingsplattform for bygging av digitale A
 - **Kapabiliteter:** Detalj-beskrivelser av hver kapabilitet (IDE, low-code, integrasjon, deployment)
 - **Developer-fokus:** Eksplisitt fokus på utvikler-opplevelse og produktivitet
 - **Tegn-rettelser:** Korrigert fra "Maalgruppe" → "Målgruppe", "Hoy" → "Høy", "kjoeretidsmilje" → "kjøretidsmiljø"
-

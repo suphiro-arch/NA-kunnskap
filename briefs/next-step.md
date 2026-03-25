@@ -29,6 +29,8 @@ sources:
 - Strammet inn metodekravet for kapabiliteter: bare direkte og sterke koblinger til produktets egen funksjon skal tas med.
 - Regenerert produktover­sikten i Hugo-prototypen slik at siste versjon for produkt `02-06` nå vises på nettsiden.
 - Lagt om publiseringsmodellen for Hugo-prototypen til GitHub Pages artifact-deploy direkte fra `web/hugo-prototype/`.
+- Standardisert repoet med `.editorconfig` og `.gitattributes` for å redusere risikoen for nye tegnkodings- og linjesluttfeil i tekstfiler.
+- Utvidet encoding-validatoren slik at den også fanger typiske `?`-skader inne i norske ord, ikke bare klassisk mojibake.
 
 - Kvalitetssjekket masterfila for produkt-kapabilitet-koblinger og strammet inn koblingene til et første manuelt arbeidsutkast basert på direkte og sterke koblinger.
 - Lagt om produktregisteret til eierbasert `Ressurs ID`, med ekstra kolonner for ressurstype, kapabilitetstreff og lenke til siste dokumentversjon.
@@ -60,6 +62,8 @@ sources:
 - Gjennomført ny sammenligning av `SvarUt v1` og `v2`, og harmonisert flere nøkkelseksjoner i `v2` til v1-tonen der innholdet fortsatt er korrekt.
 - Oppdatert styringsprompten for produkt-canvas med tydelig krav om språk for både forretning og arkitektur: lett å forstå uten systemforståelse, men med nok funksjonsdetaljer for gjenbruksvurdering.
 - Flyttet produktbeskrivelsene til `arkitektur/produkter/produktbeskrivelser/` og avviklet duplikatoversiktene i `results/Produktregister/`, slik at `arkitektur/produkter/produktnummerering.md` nå er eneste operative master for produktregisteret.
+- Ryddet KS-delen i produktregisteret etter KS Digitals nåværende navngivning, fjernet `Felles tjenesteplattform` fra operativ ressursliste og la inn `Fiks skatte- og inntektsopplysninger` og `Fiks kjøretøyregister` som egne kandidater under samme logikk som `Fiks folkeregister`.
+- Harmoniserte KS-produktnavn i berørte produktbeskrivelser og koblingsgrunnlag, og synket weboversiktene slik at `Fiks SvarUt` nå peker til siste versjon `v2 (copilot)`.
 
 ## Hva gjenstår — Produktgrunnlag utvikling (neste 4-6 uker)
 
@@ -75,7 +79,7 @@ sources:
 **Produktregisteret — konkrete valg som trengs:**
 
 - Vurdere og avklare om `FIKS IO` skal inn som egen ressurs i produktregisteret, eller fortsatt behandles som teknisk komponent under `FIKS Melding` og tilhørende samhandlingsmønstre.
-- Vurdere om `FIKS Register`-beskrivelsen bør strammes inn ytterligere som overordnet registerfamilie i FIKS, nå som `FIKS Folkeregister` er opprettet som egen ressurs.
+- Vurdere om `Fiks register`-beskrivelsen bør strammes inn ytterligere som overordnet registerfamilie i Fiks, nå som `Fiks folkeregister`, `Fiks skatte- og inntektsopplysninger` og `Fiks kjøretøyregister` er ført som egne ressurskandidater.
 
 ---
 

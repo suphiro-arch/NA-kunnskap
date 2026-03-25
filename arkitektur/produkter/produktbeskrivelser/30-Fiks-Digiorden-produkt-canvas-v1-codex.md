@@ -1,7 +1,7 @@
-# Produkt-canvas: Fiks Digiorden
+# Produkt-canvas: Fiks digiorden
 
 ## Navn
-Fiks Digiorden
+Fiks digiorden
 
 ## Ressurs ID
 KS-006
@@ -18,7 +18,7 @@ KS-006
 - Produktet er modent som styrings- og oversiktsløsning, men ikke som full datakatalog eller full sikkerhetsplattform i seg selv.
 
 ## Kort beskrivelse
-Fiks Digiorden er KS Digitals styrings- og oversiktsløsning for kommunal informasjonsforvaltning. Løsningen hjelper kommuner med å få oversikt over applikasjoner, datasett og sentrale styringsopplysninger i eget digitalt landskap, slik at det blir lettere å planlegge prosjekter, vurdere konsekvenser og bruke fellesløsninger mer målrettet. Produktet er særlig relevant når kommunen trenger beslutningsstøtte og systematisk oversikt over hvilke data, systemer og tjenester som allerede finnes.
+Fiks digiorden er KS Digitals styrings- og oversiktsløsning for kommunal informasjonsforvaltning. Løsningen hjelper kommuner med å få oversikt over applikasjoner, datasett og sentrale styringsopplysninger i eget digitalt landskap, slik at det blir lettere å planlegge prosjekter, vurdere konsekvenser og bruke fellesløsninger mer målrettet. Produktet er særlig relevant når kommunen trenger beslutningsstøtte og systematisk oversikt over hvilke data, systemer og tjenester som allerede finnes.
 
 ## Kapabiliteter
 - **Informasjonsforvaltning: Datastyring** er direkte relevant fordi løsningen brukes som styringsverktøy for å holde oversikt over applikasjoner, data og tilhørende forvaltningsinformasjon.

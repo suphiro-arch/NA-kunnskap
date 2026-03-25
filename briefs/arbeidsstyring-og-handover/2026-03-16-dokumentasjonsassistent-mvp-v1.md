@@ -385,7 +385,7 @@ Output:
 - Manglende eksplisitt lisens på dokumentasjonsinnholdet
 - For ujevn kvalitet i eldre produktbeskrivelser gir ujevne svar
 - For lite metadata i retrieval gir svak presisjon
-- ?pen internettflate krever moderering, rate limiting og enkel misbruksbeskyttelse
+- Åpen internettflate krever moderering, rate limiting og enkel misbruksbeskyttelse
 
 ## Anbefalt neste gjennomførbare steg
 

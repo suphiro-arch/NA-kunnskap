@@ -1,7 +1,7 @@
-# Produkt-canvas: SvarUt
+# Produkt-canvas: Fiks SvarUt
 
 ## Navn
-SvarUt
+Fiks SvarUt
 
 ## Ressurs ID
 KS-003
@@ -21,7 +21,7 @@ KS-003
 **Deduksjon:** Modenheten er høy for standardisert utsending, men gevinsten avhenger fortsatt av lokal konfigurasjon i fagsystem og rutiner for kanalvalg.
 
 ## Kort beskrivelse
-SvarUt er KS Digitals sentraliserte løsning for å sende dokumenter fra offentlige virksomheter til riktig mottakerkanal. Tjenesten gjør det mulig å formidle utgående post videre til blant annet Altinn, SvarInn, Digipost, e-Boks eller fysisk brev, uten at avsender må bygge separate distribusjonsløp mot hver kanal. Produktet er særlig relevant når virksomheten trenger kontrollert dokumentutsending til mange mottakergrupper gjennom én felles distribusjonsmekanisme.
+Fiks SvarUt er KS Digitals sentraliserte løsning for å sende dokumenter fra offentlige virksomheter til riktig mottakerkanal. Tjenesten gjør det mulig å formidle utgående post videre til blant annet Altinn, SvarInn, Digipost, e-Boks eller fysisk brev, uten at avsender må bygge separate distribusjonsløp mot hver kanal. Produktet er særlig relevant når virksomheten trenger kontrollert dokumentutsending til mange mottakergrupper gjennom én felles distribusjonsmekanisme.
 
 ## Kapabiliteter
 - **Datautveksling og integrasjon: Meldingsformidling**
