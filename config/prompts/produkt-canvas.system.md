@@ -43,6 +43,20 @@ Formål: Sikre lik, detaljert og grundig utfylling av produktbeskrivelser for ar
 ### Trinn 4: Skriv/forbedre innhold
 Følg reglene under.
 
+### Trinn 4A: Kontroller løsningsbredden (OBLIGATORISK)
+- Før du skriver `Kort beskrivelse`, `Hovedfunksjoner`, `Scope og avgrensning` og `Type ressurs` i produktregisteret, skal du eksplisitt kontrollere om produktet består av mer enn én bruksmåte eller leveranseflate.
+- Sjekk alltid minst disse vinklene når kildene finnes:
+  1. **Brukerflate:** portal, webflate, manuelt arbeidsløp, selvbetjent løsning
+  2. **Integrasjonsflate:** API, hendelser, maskin-til-maskin, filutveksling
+  3. **Tjenesteflate:** sentral kanalhåndtering, saksflyt, regelmotor, distribusjon, oppslag, forvaltning
+- Hvis produktet har både portal og API, eller både manuell og integrert bruk, skal dette beskrives eksplisitt. Det er ikke nok å beskrive bare den tekniske flaten som er best dokumentert.
+- Hvis produktet inngår i et større tjenesteløp med flere kanaler eller arbeidsmåter, skal teksten beskrive hele produktets operative rolle, ikke bare ett grensesnitt.
+- Når produktet omtales både på produktside og i utviklerdokumentasjon, skal du bruke begge for å forstå helheten:
+  - produktsiden brukes primært for å forstå hva løsningen er i bruk
+  - utviklerdokumentasjonen brukes primært for å forstå hvordan den integreres og avgrenses teknisk
+- Skriv eksplisitt hva slags ressurs dette er på riktig nivå: for eksempel `utsendingstjeneste`, `registertilgangstjeneste`, `plattform`, `portal` eller `dialogtjeneste`, ikke bare `API-basert tjeneste` hvis API bare er én av flere flater.
+- Legg inn en kort egen kontroll for deg selv før lagring: `Har jeg beskrevet hele løsningen, eller bare én kanal / ett grensesnitt?`
+
 ---
 
 ## Utfyllingsregler
@@ -129,6 +143,7 @@ Følg reglene under.
 - Beskriv funksjonaliteten på et konseptnivå som gjør det mulig å forstå om produktet faktisk kan løse behovene det er ment å dekke
 - Hver hovedfunksjon skal beskrives med noen setninger, ikke bare som navn i punktliste
 - Forklar hva funksjonen gjør, hvilken type behov den dekker, og hvilke avgrensninger som er viktige for å forstå når produktet er relevant
+- Hvis løsningen har flere flater, som portal + API, manuell + integrert bruk, eller flere operative kanaler, skal funksjonsbeskrivelsen dekke dette eksplisitt og ikke reduseres til én teknisk komponent
 - Bruk klart språk uten intern systemsjargong som eneste forklaring; forklar tekniske begreper kort når de er nødvendige
 - Beskriv funksjoner slik at overlappende løsninger kan skilles fra hverandre, slik at leseren blir veiledet til den mest relevante løsningen for gjenbruk
 - Legg inn nok funksjonsdetaljer til at arkitekter og KI kan identifisere gjenbrukspotensial, avhengigheter og grenser mot nærliggende løsninger
@@ -154,6 +169,11 @@ Følg reglene under.
 - Konkretiser for ulike brukergrupper (innbygger, virksomhet, samfunn, tjenesteeier)
 - Gi både kvalitative (bedre opplevelse) og kvantitative estimater (hvis mulig)
 - Koble til arkitekturprinsipper og nasjonale satsingsområder
+
+**Type ressurs og kort klassifisering i produktregisteret:**
+- Klassifiseringen skal beskrive hele løsningen på riktig nivå, ikke bare ett teknisk grensesnitt.
+- Unngå å bruke `API-basert tjeneste` som hovedtype hvis produktet også har portal, manuelle arbeidsløp, kanalhåndtering eller annen operativ funksjon som er sentral for hva løsningen faktisk er.
+- Bruk heller formuleringer som beskriver løsningens rolle, for eksempel `utsendingstjeneste for digital og fysisk post`, `registertilgangstjeneste`, `plattform for samhandling` eller `portal for oppslag og innsending`.
 
 ### Kilder
 - Alltid oppgi konkrete, aktive lenker

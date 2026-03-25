@@ -277,7 +277,7 @@ FIKS Melding er KS Digitals meldingstjeneste for sikker og fleksibel informasjon
 
 **Siste versjon:** v3 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/27-FIKS-SvarUt-produkt-canvas-v3-codex.md)
 
-Fiks SvarUt er KS Digitals API-baserte tjeneste for utgående dokumentformidling. Tjenesten gjør det mulig for kommuner og andre offentlige virksomheter å sende dokumenter fra sak-/arkivsystemer og andre fagsystemer gjennom én sentral distribusjonsmekanisme, i stedet for å bygge separate løp mot hver mottakerkanal...
+Fiks SvarUt er KS Digitals sentraliserte utsendingstjeneste for utgående dokumentformidling. Tjenesten gjør det mulig for kommuner og andre offentlige virksomheter å sende dokumenter gjennom én felles distribusjonsmekanisme, i stedet for å bygge separate løp mot hver mottakerkanal. Fiks SvarUt kan brukes både gjennom...
 
 **Kapabiliteter:** [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/) · [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/)
 
