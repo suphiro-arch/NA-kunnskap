@@ -45,9 +45,9 @@ eSignering er den nasjonale fellesløsningen for digital innhenting av underskri
 
 ## Altinn autorisasjon
 
-**Siste versjon:** v3 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/04-Altinn-autorisasjon-produkt-canvas-v3-codex.md)
+**Siste versjon:** v4 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/04-Altinn-autorisasjon-produkt-canvas-v4-codex.md)
 
-Altinn autorisasjon er komponenten som avgjør hvem som kan gjøre hva i Altinn, og på hvilket grunnlag. Produktet brukes til å styre tilganger til ressurser, handlinger og tjenester gjennom roller, rettigheter, delegering og representasjon. Løsningen er særlig relevant når behovet er å kontrollere tilgang på vegne av...
+Altinn autorisasjon er Altinns felles produkt for å definere, forvalte og evaluere hvem som kan gjøre hva, på vegne av hvem og under hvilke vilkår. Produktet omfatter både brukerrettet tilgangsforvaltning, representasjon og delegering, og en integrasjonsflate for systemer og tjenester som trenger...
 
 **Kapabiliteter:** [Representasjon](../../kapabiliteter/tillit/representasjon/) · [Tilgangskontroll](../../kapabiliteter/tillit/tilgangskontroll/) · [Tilgangsstyring](../../kapabiliteter/tillit/tilgangsstyring/)
 
@@ -83,11 +83,11 @@ eFormidling er Digdirs fellesløsning for standardisert og sikker meldingsutveks
 
 ---
 
-## Altinn formidling (Broker)
+## Altinn Formidling
 
-**Siste versjon:** v2 (copilot) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/08-Altinn-formidling-produkt-canvas-v2-copilot.md)
+**Siste versjon:** v3 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/08-Altinn-formidling-produkt-canvas-v3-codex.md)
 
-Altinn formidling (Broker) er en nasjonal formidlingstjeneste for sikker, asynkron datautveksling mellom virksomheter og systemer. Tjenesten er designet for scenarioer hvor data må overføres pålitelig uten tett synkron kobling mellom avsender og mottaker, og tilbyr kømekanismer, leveringssikkerhet og sporbarhet.
+Altinn Formidling er Altinns formidlingstjeneste for sikker og styrt overføring av filer mellom avsendere og mottakere. Produktet er laget for situasjoner der store eller viktige payloads må overføres asynkront, spores og kunne hentes av autoriserte mottakere uten at avsender og mottaker trenger å være tett koblet i...
 
 **Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
 
@@ -123,11 +123,11 @@ Peppol eDelivery er et internasjonalt samhandlingsrammeverk for sikker og standa
 
 ---
 
-## Altinn events (Hendelsestjeneste)
+## Altinn Events
 
-**Siste versjon:** v2 (copilot) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/12-Altinn-events-produkt-canvas-v2-copilot.md)
+**Siste versjon:** v3 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/12-Altinn-events-produkt-canvas-v3-codex.md)
 
-Altinn events er en nasjonal hendelsestjeneste som muliggjør publisering og konsum av hendelser på tvers av tjenester og systemer nær de inntreffer. Løsningen understøtter hendelsesdrevet arkitektur, der tjenester kan reagere raskt på tilstandsendringer uten tett synkron avhengighet, og muliggjør proaktive og...
+Altinn Events er Altinns hendelsestjeneste for publisering og abonnement på hendelser på tvers av tjenester og systemer. Produktet gjør det mulig å koble systemer løsere sammen ved at hendelser om tilstandsendringer kan produseres én gang og konsumeres av flere autoriserte mottakere uten polling eller tett synkron...
 
 **Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Hendelsesdrevet](../../kapabiliteter/datautveksling-og-integrasjon/hendelsesdrevet/) · [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
 
@@ -175,9 +175,9 @@ data.norge.no er en nasjonal fellesløsning for å finne, forstå og viderebruke
 
 ## data.altinn.no
 
-**Siste versjon:** v3 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/17-data-altinn-no-produkt-canvas-v3-codex.md)
+**Siste versjon:** v4 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/17-data-altinn-no-produkt-canvas-v4-codex.md)
 
-data.altinn.no er Altinns fellesløsning for kontrollert datadeling mellom virksomheter. Produktet gjør det mulig å hente informasjon direkte fra autoritative kilder når det finnes lovlig grunnlag, autorisasjon eller samtykke, og gir konsumenter én teknisk modell for å bruke flere ulike datadelingstjenester.
+data.altinn.no er Altinns fellesløsning for kontrollert datadeling mellom virksomheter. Produktet gjør det mulig å hente informasjon direkte fra autoritative kilder i en definert tjenestekontekst, med en felles API-modell for forespørsler, tilgangskontroll og uthenting av datasett. Produktet har både en tjenesteflate...
 
 **Kapabiliteter:** [Sammenstilling av data](../../kapabiliteter/datadrevet/sammenstilling-av-data/) · [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/) · [Autentisering](../../kapabiliteter/tillit/autentisering/) · [Samtykke](../../kapabiliteter/tillit/samtykke/) · [Tilgangskontroll](../../kapabiliteter/tillit/tilgangskontroll/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
 
@@ -193,11 +193,11 @@ Norge.no er en nasjonal veivisertjeneste som hjelper innbyggere med å finne fra
 
 ---
 
-## Altinn
+## Altinn 3 plattform
 
-**Siste versjon:** v2 (copilot) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/19-Altinn-produkt-canvas-v2-copilot.md)
+**Siste versjon:** v3 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/19-Altinn-produkt-canvas-v3-codex.md)
 
-Altinn er Norges nasjonale plattform for digitale tjenester, meldingsutveksling og samhandling mellom offentlige virksomheter, innbyggere og næringsliv. Løsningen tilbyr end-to-end infrastruktur for tjenesteutvikling, -kjøring og -forvaltning, med integrering av felles sikkerhets- og samhandlings-komponenter.
+Altinn 3 plattform er den operative plattformen for å utvikle, kjøre og forvalte digitale tjenester i Altinn. Produktet omfatter både utviklingsflaten i Altinn Studio, kjøretidsmiljøet i Altinn Apps og et sett felles plattformtjenester som gir tjenester standardiserte mønstre for autentisering, autorisasjon,...
 
 **Kapabiliteter:** [Tjenesteforvaltning](../../kapabiliteter/samarbeid/tjenesteforvaltning/) · [Gjenbrukbare tjenester](../../kapabiliteter/tjenesteutvikling/gjenbrukbare-tjenester/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
 
@@ -205,9 +205,9 @@ Altinn er Norges nasjonale plattform for digitale tjenester, meldingsutveksling 
 
 ## Altinn Studio
 
-**Siste versjon:** v2 (copilot) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v2-copilot.md)
+**Siste versjon:** v3 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/20-Altinn-Studio-produkt-canvas-v3-codex.md)
 
-Altinn Studio er web-basert IDE og utviklingsplattform for bygging av digitale Altinn-tjenester. Løsningen tilbyr low-code/no-code verktøy, standardiserte byggeklosser, integrasjonsmønstre og runtime-kapabiliteter som drastisk reduserer tid og kompleksitet fra behovsanalyse til produksjonssetting av digitale tjenester.
+Altinn Studio er Altinns utviklingsflate for å bygge digitale tjenester. Produktet gir tjenesteeiere og utviklingsteam et felles miljø for å modellere skjema, data, prosess, validering og integrasjoner, og for å klargjøre tjenester for kjøring i Altinn Apps. Produktet er bredere enn en enkel editor eller et...
 
 **Kapabiliteter:** [Gjenbrukbare tjenester](../../kapabiliteter/tjenesteutvikling/gjenbrukbare-tjenester/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/) · [Tjenestedesign](../../kapabiliteter/tjenesteutvikling/tjenestedesign/) · [Utviklings- og kjøretidsmiljø](../../kapabiliteter/tjenesteutvikling/utviklings-og-kjoretidsmiljo/)
 

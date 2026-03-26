@@ -71,12 +71,13 @@ sources:
 - Standardiserte filnavn for FIKS-relaterte KS-beskrivelser slik at `FIKS` brukes konsekvent med store bokstaver i filnavn, blant annet for `FIKS SvarUt` og `FIKS Digiorden`.
 - Oppdatert styringsprompten for produkt-canvas med eksplisitt kontroll av løsningsbredde, slik at nye beskrivelser må sjekke hele produktets operative rolle og ikke bare beskrive ett grensesnitt som API eller portal.
 - Skjerpet prompten videre slik at `Hovedfunksjoner` normalt skal skrives som minst 3-4 forklarende avsnitt når kildene gir grunnlag for det, og oppdatert `FIKS SvarUt v3` i tråd med dette.
+- Revidert Altinn-produktene `Altinn Autorisasjon`, `Altinn Formidling`, `Altinn Events`, `data.altinn.no`, `Altinn 3 plattform` og `Altinn Studio` til nye codex-versjoner med oppdatert kildegrunnlag, tydeligere løsningsbredde og strammere produktavgrensning.
 
 ## Hva gjenstår — Produktgrunnlag utvikling (neste 4-6 uker)
 
 **Kjerneprioriteter — disse skal gjøres først:**
 
-- Oppdatere de neste produktbeskrivelsene i stigende rekkefølge etter samme metode som for `02-06`.
+- Fortsette revisjon av eldre produktbeskrivelser sektorvis etter samme metode som for KS- og Altinn-rundene.
 - Følge opp kvaliteten i selve koblingene mellom produkter og kapabiliteter, særlig i eldre produktbeskrivelser der kapabilitetsseksjonen er svakere eller mindre presis.
 - Ta inn de første ressursene fra KS, Helsedirektoratet, NAV og Skatteetaten i produktregisteret med samme ID-prinsipp.
 - Kvalitetssikre de nye arbeidsutkastene for `KS`, `HDIR`, `NAV` og `SKATT`, særlig eierskap, ressurstype og kapabilitetstreff.
@@ -119,7 +120,7 @@ Disse skal tas inn *parallelt* med produktgrunnlag-arbeidet og vil gjøre det le
 
 **Implementering:**
 - Oppdater `produkt-canvas.system.md` med merking-standarden.
-- Prøv ut på neste produktbeskrivelse (f.eks. `04-Altinn-autorisasjon-v4`).
+- Vurder om modulær merking skal prøves ut på neste større revisjonsrunde uten å forstyrre dagens canvas-format.
 - Dokumenter læringa i `briefs/arbeidsstyring-og-handover/`.
 - Etabler senere: status-field (`draft`, `review`, `published`), godkjennelsesprosess, filtrerbar liste.
 
@@ -129,7 +130,7 @@ Disse skal tas inn *parallelt* med produktgrunnlag-arbeidet og vil gjøre det le
 
 1. **Produktgrunnlag (uke 1-4):**
    - Implementer merkings-standard i `produkt-canvas.system.md`.
-   - Oppdater `04-Altinn-autorisasjon` til `v4` etter ny prompt med modulær merking.
+   - Velg neste sektor eller produktklynge for samme revisjonsløp etter at KS og Altinn er gjennomgått.
    - Kvalitetssikre `SIKT`-ressursene (`Feide`, `Vitnemålsportalen`) mot produkt-kapabilitet-master.
 
 2. **Dokumentasjon av ny prosess:**
