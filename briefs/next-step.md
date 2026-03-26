@@ -57,6 +57,9 @@ sources:
 - Synket alle siste produktbeskrivelser mot gjeldende produkt-kapabilitetsmaster og oppdatert avviksrapporten slik at den nå viser `0` avvik.
 - Opprettet første `SIKT`-produktbeskrivelser for `Feide` og `Vitnemålsportalen`, og synket produktregister, koblingsfil og genererte weboversikter mot de nye filene.
 - Opprettet nye KS-produktbeskrivelser for `SvarInn` og `FIKS Folkeregister`, og synket produktregister, koblingsfil, lenkedokument og genererte weboversikter mot de nye filene.
+- Opprettet nye KS-produktbeskrivelser for `Fiks skatte- og inntektsopplysninger` og `Fiks kjøretøyregister`, og fullført første gjennomgang av de registrerte KS-/KS Digital-produktene i produktregisteret.
+- Opprettet `Fiks register v2` med oppdatert KS-kildegrunnlag og tydeligere avgrensning mellom den overordnede registerfamilien og undertjenestene under samme produktområde.
+- Opprettet `Fiks melding v2` med oppdatert KS-kildegrunnlag og tydeligere beskrivelse av produktet som kanalplattform med flere undertjenester og bruksmåter.
 - Opprettet ny versjon `v2-copilot` for `SvarUt` med oppdatert kildegrunnlag fra `sources/links.md` og ny verifisering av produktside, utviklerdokumentasjon, prisoversikt og driftsstatus.
 - Justert språkføring i `SvarUt v2` tettere mot etablert tone i forrige versjon, og oppdatert instruksgrunnlaget slik at fremtidige revisjoner skal bevare velfungerende tone og unngå unødvendig full omskriving.
 - Gjennomført ny sammenligning av `SvarUt v1` og `v2`, og harmonisert flere nøkkelseksjoner i `v2` til v1-tonen der innholdet fortsatt er korrekt.
@@ -84,6 +87,7 @@ sources:
 
 - Vurdere og avklare om `FIKS IO` skal inn som egen ressurs i produktregisteret, eller fortsatt behandles som teknisk komponent under `FIKS Melding` og tilhørende samhandlingsmønstre.
 - Vurdere om `Fiks register`-beskrivelsen bør strammes inn ytterligere som overordnet registerfamilie i Fiks, nå som `Fiks folkeregister`, `Fiks skatte- og inntektsopplysninger` og `Fiks kjøretøyregister` er ført som egne ressurskandidater.
+- Vurdere om flere KS Digital-tjenester utenfor dagens operative KS-liste bør inn som egne ressurser i produktregisteret, eller fortsatt behandles som sektorspesifikke løsninger utenfor første prioritet.
 
 ---
 
