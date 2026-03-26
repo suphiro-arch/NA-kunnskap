@@ -225,29 +225,29 @@ Altinn Portal er den sentrale brukerinngangen til skjema, tjenester, meldinger o
 
 ## Dialogporten
 
-**Siste versjon:** v4 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/22-Dialogporten-produkt-canvas-v4-codex.md)
+**Siste versjon:** v5 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/22-Dialogporten-produkt-canvas-v5-codex.md)
 
-Dialogporten er Altinns felles representasjons- og samhandlingslag for digitale dialoger. Produktet gjør meldinger og dialoger fra ulike tjenesteplattformer tilgjengelige i et felles format, slik at sluttbrukersystemer, arbeidsflater og portaler kan presentere den samme dialogen på en konsistent måte.
+Dialogporten er Altinns felles representasjons- og samhandlingslag for digitale dialoger. Produktet gjør meldinger og dialoger fra ulike tjenesteplattformer tilgjengelige i et felles format, slik at sluttbrukersystemer, arbeidsflater og portaler kan presentere den samme dialogen på en konsistent måte. Produktet er mer...
 
 **Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Hendelsesdrevet](../../kapabiliteter/datautveksling-og-integrasjon/hendelsesdrevet/) · [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/) · [Autentisering](../../kapabiliteter/tillit/autentisering/) · [Tilgangskontroll](../../kapabiliteter/tillit/tilgangskontroll/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
 
 ---
 
-## Altinn 3 Melding (Correspondence)
+## Altinn Melding
 
-**Siste versjon:** v4 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/23-Altinn-3-Melding-produkt-canvas-v4-codex.md)
+**Siste versjon:** v5 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/23-Altinn-3-Melding-produkt-canvas-v5-codex.md)
 
-Altinn 3 Melding er en nasjonal meldingstjeneste for sikker digital utveksling av korrespondanse mellom offentlige virksomheter og mottakere i offentlig sektor, næringsliv og befolkning. Produktet støtter livssyklus, tilgangsstyring, vedlegg, varsling og hendelser, og gjør meldinger tilgjengelige i arbeidsflate og...
+Altinn Melding er Altinns meldingstjeneste for sikker digital utveksling av korrespondanse mellom offentlige virksomheter og mottakere i offentlig sektor, næringsliv og befolkning. Produktet støtter livssyklus, tilgangsstyring, innhold og vedlegg, varsling og hendelser, og gjør meldinger tilgjengelige i Arbeidsflate...
 
 **Kapabiliteter:** [Hendelsesdrevet](../../kapabiliteter/datautveksling-og-integrasjon/hendelsesdrevet/) · [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [Sporbarhet og innsyn](../../kapabiliteter/tillit/sporbarhet-og-innsyn/) · [Tilgangskontroll](../../kapabiliteter/tillit/tilgangskontroll/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
 
 ---
 
-## Altinn Varslinger
+## Altinn Varsling
 
-**Siste versjon:** v4 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/24-Varslinger-produkt-canvas-v4-codex.md)
+**Siste versjon:** v5 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/24-Varslinger-produkt-canvas-v5-codex.md)
 
-Altinn Varslinger er en fellesløsning for enveis digital varsling til innbyggere og virksomheter. Produktet gjør det mulig å sende varsler via e-post og SMS, slå opp mottakerens navn og kontaktinformasjon fra nasjonale registre, bruke autorisasjon for å finne riktige mottakere i organisasjoner og styre utsending...
+Altinn Varsling er Altinns fellesløsning for enveis digital varsling til innbyggere og virksomheter. Produktet gjør det mulig å sende varsler via e-post og SMS, slå opp mottakerens navn og kontaktinformasjon fra nasjonale registre, bruke autorisasjon for å finne riktige mottakere i organisasjoner og styre utsending...
 
 **Kapabiliteter:** [Sammenstilling av data](../../kapabiliteter/datadrevet/sammenstilling-av-data/) · [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [Proaktive tjenester](../../kapabiliteter/sluttbrukertjenester/proaktive-tjenester/) · [Tilgangskontroll](../../kapabiliteter/tillit/tilgangskontroll/) · [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
 

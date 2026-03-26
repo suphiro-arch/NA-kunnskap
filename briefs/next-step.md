@@ -72,6 +72,7 @@ sources:
 - Oppdatert styringsprompten for produkt-canvas med eksplisitt kontroll av løsningsbredde, slik at nye beskrivelser må sjekke hele produktets operative rolle og ikke bare beskrive ett grensesnitt som API eller portal.
 - Skjerpet prompten videre slik at `Hovedfunksjoner` normalt skal skrives som minst 3-4 forklarende avsnitt når kildene gir grunnlag for det, og oppdatert `FIKS SvarUt v3` i tråd med dette.
 - Revidert Altinn-produktene `Altinn Autorisasjon`, `Altinn Formidling`, `Altinn Events`, `data.altinn.no`, `Altinn 3 plattform` og `Altinn Studio` til nye codex-versjoner med oppdatert kildegrunnlag, tydeligere løsningsbredde og strammere produktavgrensning.
+- Revidert også `Dialogporten`, `Altinn Melding` og `Altinn Varsling` til nye codex-versjoner, slik at hele den operative Altinn-listen nå følger nyere instruks og oppdatert kildekontroll.
 
 ## Hva gjenstår — Produktgrunnlag utvikling (neste 4-6 uker)
 
