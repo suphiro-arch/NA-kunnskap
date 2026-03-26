@@ -1374,10 +1374,10 @@
                      {
                          "product_id":  26,
                          "product_name":  "Fiks melding",
-                         "version":  1,
-                         "author":  "codex",
-                         "relative_path":  "arkitektur/produkter/produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v1-codex.md",
-                         "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v1-codex.md",
+                        "version":  2,
+                        "author":  "codex",
+                        "relative_path":  "arkitektur/produkter/produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v2-codex.md",
+                        "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v2-codex.md",
                          "capabilities":  [
                                               {
                                                   "capability_id":  "id-ad6f81e892a74590840828b6aabb270d",
@@ -1454,10 +1454,10 @@
                      {
                          "product_id":  28,
                          "product_name":  "Fiks register",
-                         "version":  1,
-                         "author":  "codex",
-                         "relative_path":  "arkitektur/produkter/produktbeskrivelser/28-FIKS-Register-produkt-canvas-v1-codex.md",
-                         "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/28-FIKS-Register-produkt-canvas-v1-codex.md",
+                        "version":  2,
+                        "author":  "codex",
+                        "relative_path":  "arkitektur/produkter/produktbeskrivelser/28-FIKS-Register-produkt-canvas-v2-codex.md",
+                        "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/28-FIKS-Register-produkt-canvas-v2-codex.md",
                          "capabilities":  [
                                               {
                                                   "capability_id":  "id-d7aa97e6319a492d8a1345bcaa8e154a",
@@ -1660,8 +1660,68 @@
                                                   "explanation":  "gir fagsystemer og saksbehandlere et standardisert løp for å bruke folkeregisterdata fra Skatteetaten i kommunale prosesser."
                                               }
                                           ]
+                     },
+                     {
+                         "product_id":  68,
+                         "product_name":  "Fiks skatte- og inntektsopplysninger",
+                         "version":  1,
+                         "author":  "codex",
+                         "relative_path":  "arkitektur/produkter/produktbeskrivelser/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v1-codex.md",
+                         "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v1-codex.md",
+                         "capabilities":  [
+                                              {
+                                                  "capability_id":  "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                                                  "capability_name":  "Datakilder",
+                                                  "capability_slug":  "datakilder",
+                                                  "subcapability_id":  "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                                                  "subcapability_name":  "Grunndata",
+                                                  "subcapability_slug":  "grunndata",
+                                                  "mapping_label":  "Datakilder: Grunndata",
+                                                  "explanation":  "gjør autoritative skatte- og inntektsopplysninger fra Skatteetaten tilgjengelige for kommunal sektor gjennom et kontrollert tilgangslag i Fiks."
+                                              },
+                                              {
+                                                  "capability_id":  "id-ad6f81e892a74590840828b6aabb270d",
+                                                  "capability_name":  "Datautveksling og integrasjon",
+                                                  "capability_slug":  "datautveksling-og-integrasjon",
+                                                  "subcapability_id":  "id-84629318a3b84213ac3a83bdb6a1aad9",
+                                                  "subcapability_name":  "Bruke data fra andre",
+                                                  "subcapability_slug":  "bruke-data-fra-andre",
+                                                  "mapping_label":  "Datautveksling og integrasjon: Bruke data fra andre",
+                                                  "explanation":  "gir kommunale fagsystemer og saksbehandlere et standardisert løp for å bruke skatte- og inntektsopplysninger fra Skatteetaten i egne arbeidsprosesser."
+                                              }
+                                          ]
+                     },
+                     {
+                         "product_id":  69,
+                         "product_name":  "Fiks kjøretøyregister",
+                         "version":  1,
+                         "author":  "codex",
+                         "relative_path":  "arkitektur/produkter/produktbeskrivelser/69-FIKS-Kjoretoyregister-produkt-canvas-v1-codex.md",
+                         "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/69-FIKS-Kjoretoyregister-produkt-canvas-v1-codex.md",
+                         "capabilities":  [
+                                              {
+                                                  "capability_id":  "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                                                  "capability_name":  "Datakilder",
+                                                  "capability_slug":  "datakilder",
+                                                  "subcapability_id":  "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                                                  "subcapability_name":  "Grunndata",
+                                                  "subcapability_slug":  "grunndata",
+                                                  "mapping_label":  "Datakilder: Grunndata",
+                                                  "explanation":  "gjør autoritative kjøretøyopplysninger fra Statens vegvesen tilgjengelige for kommunal sektor gjennom et kontrollert tilgangslag i Fiks."
+                                              },
+                                              {
+                                                  "capability_id":  "id-ad6f81e892a74590840828b6aabb270d",
+                                                  "capability_name":  "Datautveksling og integrasjon",
+                                                  "capability_slug":  "datautveksling-og-integrasjon",
+                                                  "subcapability_id":  "id-84629318a3b84213ac3a83bdb6a1aad9",
+                                                  "subcapability_name":  "Bruke data fra andre",
+                                                  "subcapability_slug":  "bruke-data-fra-andre",
+                                                  "mapping_label":  "Datautveksling og integrasjon: Bruke data fra andre",
+                                                  "explanation":  "gir kommunale fagsystemer et standardisert løp for å bruke kjøretøyopplysninger fra Statens vegvesen i operative prosesser."
+                                              }
+                                          ]
                      }
-                 ],
+                  ],
     "capabilities":  [
                          {
                              "capability_id":  "id-682d96a51e604ed2a00e1f4824023bab",
@@ -1775,10 +1835,10 @@
                                               {
                                                   "product_id":  26,
                                                   "product_name":  "Fiks melding",
-                                                  "version":  1,
+                                                  "version":  2,
                                                   "author":  "codex",
-                                                  "relative_path":  "arkitektur/produkter/produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v1-codex.md",
-                                                  "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v1-codex.md",
+                                                  "relative_path":  "arkitektur/produkter/produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v2-codex.md",
+                                                  "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v2-codex.md",
                                                   "mapping_label":  "Samarbeid: Organisatorisk samhandling",
                                                   "explanation":  "brukes til kommunikasjon mellom kommuner, innbyggere og andre virksomheter gjennom et felles kanalgrunnlag.",
                                                   "subcapability_id":  "id-9ea8fbaeb19243fa971013c57c3e96f9",
@@ -2546,10 +2606,10 @@
                                               {
                                                   "product_id":  26,
                                                   "product_name":  "Fiks melding",
-                                                  "version":  1,
+                                                  "version":  2,
                                                   "author":  "codex",
-                                                  "relative_path":  "arkitektur/produkter/produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v1-codex.md",
-                                                  "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v1-codex.md",
+                                                  "relative_path":  "arkitektur/produkter/produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v2-codex.md",
+                                                  "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v2-codex.md",
                                                   "mapping_label":  "Datautveksling og integrasjon: Meldingsformidling",
                                                   "explanation":  "gir kommunene en felles tjeneste for å sende meldinger og dokumenter gjennom flere kanaler fra samme løsning.",
                                                   "subcapability_id":  "id-b503993b59044b83b3c38fb179fa732c",
@@ -2572,10 +2632,10 @@
                                               {
                                                   "product_id":  28,
                                                   "product_name":  "Fiks register",
-                                                  "version":  1,
+                                                  "version":  2,
                                                   "author":  "codex",
-                                                  "relative_path":  "arkitektur/produkter/produktbeskrivelser/28-FIKS-Register-produkt-canvas-v1-codex.md",
-                                                  "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/28-FIKS-Register-produkt-canvas-v1-codex.md",
+                                                  "relative_path":  "arkitektur/produkter/produktbeskrivelser/28-FIKS-Register-produkt-canvas-v2-codex.md",
+                                                  "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/28-FIKS-Register-produkt-canvas-v2-codex.md",
                                                   "mapping_label":  "Datautveksling og integrasjon: Bruke data fra andre",
                                                   "explanation":  "gir fagsystemer og forvaltere et standardisert løp for å hente registerdata fra andre virksomheter.",
                                                   "subcapability_id":  "id-84629318a3b84213ac3a83bdb6a1aad9",
@@ -2630,6 +2690,32 @@
                                                   "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/67-FIKS-Folkeregister-produkt-canvas-v1-codex.md",
                                                   "mapping_label":  "Datautveksling og integrasjon: Bruke data fra andre",
                                                   "explanation":  "gir fagsystemer og saksbehandlere et standardisert løp for å bruke folkeregisterdata fra Skatteetaten i kommunale prosesser.",
+                                                  "subcapability_id":  "id-84629318a3b84213ac3a83bdb6a1aad9",
+                                                  "subcapability_name":  "Bruke data fra andre",
+                                                  "subcapability_slug":  "bruke-data-fra-andre"
+                                              },
+                                              {
+                                                  "product_id":  68,
+                                                  "product_name":  "Fiks skatte- og inntektsopplysninger",
+                                                  "version":  1,
+                                                  "author":  "codex",
+                                                  "relative_path":  "arkitektur/produkter/produktbeskrivelser/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v1-codex.md",
+                                                  "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v1-codex.md",
+                                                  "mapping_label":  "Datautveksling og integrasjon: Bruke data fra andre",
+                                                  "explanation":  "gir kommunale fagsystemer og saksbehandlere et standardisert løp for å bruke skatte- og inntektsopplysninger fra Skatteetaten i egne arbeidsprosesser.",
+                                                  "subcapability_id":  "id-84629318a3b84213ac3a83bdb6a1aad9",
+                                                  "subcapability_name":  "Bruke data fra andre",
+                                                  "subcapability_slug":  "bruke-data-fra-andre"
+                                              },
+                                              {
+                                                  "product_id":  69,
+                                                  "product_name":  "Fiks kjøretøyregister",
+                                                  "version":  1,
+                                                  "author":  "codex",
+                                                  "relative_path":  "arkitektur/produkter/produktbeskrivelser/69-FIKS-Kjoretoyregister-produkt-canvas-v1-codex.md",
+                                                  "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/69-FIKS-Kjoretoyregister-produkt-canvas-v1-codex.md",
+                                                  "mapping_label":  "Datautveksling og integrasjon: Bruke data fra andre",
+                                                  "explanation":  "gir kommunale fagsystemer et standardisert løp for å bruke kjøretøyopplysninger fra Statens vegvesen i operative prosesser.",
                                                   "subcapability_id":  "id-84629318a3b84213ac3a83bdb6a1aad9",
                                                   "subcapability_name":  "Bruke data fra andre",
                                                   "subcapability_slug":  "bruke-data-fra-andre"
@@ -2848,10 +2934,10 @@
                                                                           {
                                                                               "product_id":  28,
                                                                               "product_name":  "Fiks register",
-                                                                              "version":  1,
+                                                                              "version":  2,
                                                                               "author":  "codex",
-                                                                              "relative_path":  "arkitektur/produkter/produktbeskrivelser/28-FIKS-Register-produkt-canvas-v1-codex.md",
-                                                                              "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/28-FIKS-Register-produkt-canvas-v1-codex.md",
+                                                                              "relative_path":  "arkitektur/produkter/produktbeskrivelser/28-FIKS-Register-produkt-canvas-v2-codex.md",
+                                                                              "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/28-FIKS-Register-produkt-canvas-v2-codex.md",
                                                                               "mapping_label":  "Datautveksling og integrasjon: Bruke data fra andre",
                                                                               "explanation":  "gir fagsystemer og forvaltere et standardisert løp for å hente registerdata fra andre virksomheter.",
                                                                               "subcapability_id":  "id-84629318a3b84213ac3a83bdb6a1aad9",
@@ -2867,6 +2953,32 @@
                                                                               "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/67-FIKS-Folkeregister-produkt-canvas-v1-codex.md",
                                                                               "mapping_label":  "Datautveksling og integrasjon: Bruke data fra andre",
                                                                               "explanation":  "gir fagsystemer og saksbehandlere et standardisert løp for å bruke folkeregisterdata fra Skatteetaten i kommunale prosesser.",
+                                                                              "subcapability_id":  "id-84629318a3b84213ac3a83bdb6a1aad9",
+                                                                              "subcapability_name":  "Bruke data fra andre",
+                                                                              "subcapability_slug":  "bruke-data-fra-andre"
+                                                                          },
+                                                                          {
+                                                                              "product_id":  68,
+                                                                              "product_name":  "Fiks skatte- og inntektsopplysninger",
+                                                                              "version":  1,
+                                                                              "author":  "codex",
+                                                                              "relative_path":  "arkitektur/produkter/produktbeskrivelser/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v1-codex.md",
+                                                                              "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v1-codex.md",
+                                                                              "mapping_label":  "Datautveksling og integrasjon: Bruke data fra andre",
+                                                                              "explanation":  "gir kommunale fagsystemer og saksbehandlere et standardisert løp for å bruke skatte- og inntektsopplysninger fra Skatteetaten i egne arbeidsprosesser.",
+                                                                              "subcapability_id":  "id-84629318a3b84213ac3a83bdb6a1aad9",
+                                                                              "subcapability_name":  "Bruke data fra andre",
+                                                                              "subcapability_slug":  "bruke-data-fra-andre"
+                                                                          },
+                                                                          {
+                                                                              "product_id":  69,
+                                                                              "product_name":  "Fiks kjøretøyregister",
+                                                                              "version":  1,
+                                                                              "author":  "codex",
+                                                                              "relative_path":  "arkitektur/produkter/produktbeskrivelser/69-FIKS-Kjoretoyregister-produkt-canvas-v1-codex.md",
+                                                                              "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/69-FIKS-Kjoretoyregister-produkt-canvas-v1-codex.md",
+                                                                              "mapping_label":  "Datautveksling og integrasjon: Bruke data fra andre",
+                                                                              "explanation":  "gir kommunale fagsystemer et standardisert løp for å bruke kjøretøyopplysninger fra Statens vegvesen i operative prosesser.",
                                                                               "subcapability_id":  "id-84629318a3b84213ac3a83bdb6a1aad9",
                                                                               "subcapability_name":  "Bruke data fra andre",
                                                                               "subcapability_slug":  "bruke-data-fra-andre"
@@ -2973,10 +3085,10 @@
                                                                           {
                                                                               "product_id":  26,
                                                                               "product_name":  "Fiks melding",
-                                                                              "version":  1,
+                                                                              "version":  2,
                                                                               "author":  "codex",
-                                                                              "relative_path":  "arkitektur/produkter/produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v1-codex.md",
-                                                                              "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v1-codex.md",
+                                                                              "relative_path":  "arkitektur/produkter/produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v2-codex.md",
+                                                                              "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v2-codex.md",
                                                                               "mapping_label":  "Datautveksling og integrasjon: Meldingsformidling",
                                                                               "explanation":  "gir kommunene en felles tjeneste for å sende meldinger og dokumenter gjennom flere kanaler fra samme løsning.",
                                                                               "subcapability_id":  "id-b503993b59044b83b3c38fb179fa732c",
@@ -4024,10 +4136,10 @@
                                               {
                                                   "product_id":  26,
                                                   "product_name":  "Fiks melding",
-                                                  "version":  1,
+                                                  "version":  2,
                                                   "author":  "codex",
-                                                  "relative_path":  "arkitektur/produkter/produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v1-codex.md",
-                                                  "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v1-codex.md",
+                                                  "relative_path":  "arkitektur/produkter/produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v2-codex.md",
+                                                  "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v2-codex.md",
                                                   "mapping_label":  "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
                                                   "explanation":  "støtter sikre meldingsløp og publiserer sikkerhetsunderlag for bruk av flere kanaler.",
                                                   "subcapability_id":  "id-34d3d64b3afe4327a29ee6c2f7f74dff",
@@ -4210,10 +4322,10 @@
                                                                           {
                                                                               "product_id":  26,
                                                                               "product_name":  "Fiks melding",
-                                                                              "version":  1,
+                                                                              "version":  2,
                                                                               "author":  "codex",
-                                                                              "relative_path":  "arkitektur/produkter/produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v1-codex.md",
-                                                                              "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v1-codex.md",
+                                                                              "relative_path":  "arkitektur/produkter/produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v2-codex.md",
+                                                                              "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v2-codex.md",
                                                                               "mapping_label":  "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
                                                                               "explanation":  "støtter sikre meldingsløp og publiserer sikkerhetsunderlag for bruk av flere kanaler.",
                                                                               "subcapability_id":  "id-34d3d64b3afe4327a29ee6c2f7f74dff",
@@ -5518,10 +5630,10 @@
                                               {
                                                   "product_id":  28,
                                                   "product_name":  "Fiks register",
-                                                  "version":  1,
+                                                  "version":  2,
                                                   "author":  "codex",
-                                                  "relative_path":  "arkitektur/produkter/produktbeskrivelser/28-FIKS-Register-produkt-canvas-v1-codex.md",
-                                                  "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/28-FIKS-Register-produkt-canvas-v1-codex.md",
+                                                  "relative_path":  "arkitektur/produkter/produktbeskrivelser/28-FIKS-Register-produkt-canvas-v2-codex.md",
+                                                  "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/28-FIKS-Register-produkt-canvas-v2-codex.md",
                                                   "mapping_label":  "Datakilder: Grunndata",
                                                   "explanation":  "gjør nasjonale grunndata og registeropplysninger tilgjengelige for kommunal sektor gjennom et samlet tilgangslag.",
                                                   "subcapability_id":  "id-3dbd3a9115cb4c54876490cbf02b0c58",
@@ -5537,6 +5649,32 @@
                                                   "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/67-FIKS-Folkeregister-produkt-canvas-v1-codex.md",
                                                   "mapping_label":  "Datakilder: Grunndata",
                                                   "explanation":  "gjør autoritative folkeregisteropplysninger tilgjengelige for kommunal sektor gjennom et kontrollert tilgangslag i FIKS.",
+                                                  "subcapability_id":  "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                                                  "subcapability_name":  "Grunndata",
+                                                  "subcapability_slug":  "grunndata"
+                                              },
+                                              {
+                                                  "product_id":  68,
+                                                  "product_name":  "Fiks skatte- og inntektsopplysninger",
+                                                  "version":  1,
+                                                  "author":  "codex",
+                                                  "relative_path":  "arkitektur/produkter/produktbeskrivelser/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v1-codex.md",
+                                                  "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v1-codex.md",
+                                                  "mapping_label":  "Datakilder: Grunndata",
+                                                  "explanation":  "gjør autoritative skatte- og inntektsopplysninger fra Skatteetaten tilgjengelige for kommunal sektor gjennom et kontrollert tilgangslag i Fiks.",
+                                                  "subcapability_id":  "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                                                  "subcapability_name":  "Grunndata",
+                                                  "subcapability_slug":  "grunndata"
+                                              },
+                                              {
+                                                  "product_id":  69,
+                                                  "product_name":  "Fiks kjøretøyregister",
+                                                  "version":  1,
+                                                  "author":  "codex",
+                                                  "relative_path":  "arkitektur/produkter/produktbeskrivelser/69-FIKS-Kjoretoyregister-produkt-canvas-v1-codex.md",
+                                                  "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/69-FIKS-Kjoretoyregister-produkt-canvas-v1-codex.md",
+                                                  "mapping_label":  "Datakilder: Grunndata",
+                                                  "explanation":  "gjør autoritative kjøretøyopplysninger fra Statens vegvesen tilgjengelige for kommunal sektor gjennom et kontrollert tilgangslag i Fiks.",
                                                   "subcapability_id":  "id-3dbd3a9115cb4c54876490cbf02b0c58",
                                                   "subcapability_name":  "Grunndata",
                                                   "subcapability_slug":  "grunndata"
@@ -5565,10 +5703,10 @@
                                                                           {
                                                                               "product_id":  28,
                                                                               "product_name":  "Fiks register",
-                                                                              "version":  1,
+                                                                              "version":  2,
                                                                               "author":  "codex",
-                                                                              "relative_path":  "arkitektur/produkter/produktbeskrivelser/28-FIKS-Register-produkt-canvas-v1-codex.md",
-                                                                              "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/28-FIKS-Register-produkt-canvas-v1-codex.md",
+                                                                              "relative_path":  "arkitektur/produkter/produktbeskrivelser/28-FIKS-Register-produkt-canvas-v2-codex.md",
+                                                                              "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/28-FIKS-Register-produkt-canvas-v2-codex.md",
                                                                               "mapping_label":  "Datakilder: Grunndata",
                                                                               "explanation":  "gjør nasjonale grunndata og registeropplysninger tilgjengelige for kommunal sektor gjennom et samlet tilgangslag.",
                                                                               "subcapability_id":  "id-3dbd3a9115cb4c54876490cbf02b0c58",
@@ -5584,6 +5722,32 @@
                                                                               "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/67-FIKS-Folkeregister-produkt-canvas-v1-codex.md",
                                                                               "mapping_label":  "Datakilder: Grunndata",
                                                                               "explanation":  "gjør autoritative folkeregisteropplysninger tilgjengelige for kommunal sektor gjennom et kontrollert tilgangslag i FIKS.",
+                                                                              "subcapability_id":  "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                                                                              "subcapability_name":  "Grunndata",
+                                                                              "subcapability_slug":  "grunndata"
+                                                                          },
+                                                                          {
+                                                                              "product_id":  68,
+                                                                              "product_name":  "Fiks skatte- og inntektsopplysninger",
+                                                                              "version":  1,
+                                                                              "author":  "codex",
+                                                                              "relative_path":  "arkitektur/produkter/produktbeskrivelser/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v1-codex.md",
+                                                                              "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v1-codex.md",
+                                                                              "mapping_label":  "Datakilder: Grunndata",
+                                                                              "explanation":  "gjør autoritative skatte- og inntektsopplysninger fra Skatteetaten tilgjengelige for kommunal sektor gjennom et kontrollert tilgangslag i Fiks.",
+                                                                              "subcapability_id":  "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                                                                              "subcapability_name":  "Grunndata",
+                                                                              "subcapability_slug":  "grunndata"
+                                                                          },
+                                                                          {
+                                                                              "product_id":  69,
+                                                                              "product_name":  "Fiks kjøretøyregister",
+                                                                              "version":  1,
+                                                                              "author":  "codex",
+                                                                              "relative_path":  "arkitektur/produkter/produktbeskrivelser/69-FIKS-Kjoretoyregister-produkt-canvas-v1-codex.md",
+                                                                              "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/69-FIKS-Kjoretoyregister-produkt-canvas-v1-codex.md",
+                                                                              "mapping_label":  "Datakilder: Grunndata",
+                                                                              "explanation":  "gjør autoritative kjøretøyopplysninger fra Statens vegvesen tilgjengelige for kommunal sektor gjennom et kontrollert tilgangslag i Fiks.",
                                                                               "subcapability_id":  "id-3dbd3a9115cb4c54876490cbf02b0c58",
                                                                               "subcapability_name":  "Grunndata",
                                                                               "subcapability_slug":  "grunndata"

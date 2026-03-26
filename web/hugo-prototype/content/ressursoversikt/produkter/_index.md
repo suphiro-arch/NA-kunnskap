@@ -265,9 +265,9 @@ Fiks-plattformen er KS Digitals felles plattform for digital samhandling i kommu
 
 ## Fiks melding
 
-**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v1-codex.md)
+**Siste versjon:** v2 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v2-codex.md)
 
-FIKS Melding er KS Digitals meldingstjeneste for sikker og fleksibel informasjonsflyt mellom kommuner, innbyggere og andre virksomheter. Løsningen gjør det mulig å sende informasjon gjennom flere kanaler fra samme tjenestegrunnlag, slik at kommunen kan velge utsendingsmåte etter behov og bruke samme løsning til både...
+Fiks melding er KS Digitals kanalplattform for meldingsutveksling og dokumentdeling i kommunal sektor. Løsningen gjør det mulig å sende og motta informasjon gjennom flere ulike kommunikasjonsformer fra samme tjenestegrunnlag, slik at kommunen kan velge kanal etter behov, risiko og brukssituasjon. Produktet dekker både...
 
 **Kapabiliteter:** [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/)
 
@@ -285,9 +285,9 @@ Fiks SvarUt er KS Digitals sentraliserte utsendingstjeneste for utgående dokume
 
 ## Fiks register
 
-**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/28-FIKS-Register-produkt-canvas-v1-codex.md)
+**Siste versjon:** v2 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/28-FIKS-Register-produkt-canvas-v2-codex.md)
 
-FIKS Register er KS Digitals fellestjeneste for oppslag i nasjonale registre fra kommunal sektor. Løsningen gjør det mulig å bruke samme tilgangs- og integrasjonsmønster mot flere datakilder, slik at kommuner og fylkeskommuner kan hente opplysninger i egne arbeidsprosesser uten å etablere separate løsninger for hvert...
+Fiks register er KS Digitals overordnede registertilgangstjeneste for kommunal sektor. Løsningen samler tilgang til flere nasjonale registre i samme tjenesteområde, slik at kommuner og fylkeskommuner kan bruke et felles oppslags- og integrasjonsmønster i stedet for å etablere separate løp mot hver datakilde. Produktet...
 
 **Kapabiliteter:** [Grunndata](../../kapabiliteter/datakilder/grunndata/) · [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/)
 
@@ -338,6 +338,26 @@ SvarInn er en API-basert tjeneste og komplement til SvarUt. Løsningen tar imot 
 **Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/67-FIKS-Folkeregister-produkt-canvas-v1-codex.md)
 
 Fiks folkeregister er en viktig integrasjon i kommunal sektor. Løsningen gir kommuner og fylkeskommuner tilgang til folkeregisteropplysninger gjennom Fiks, enten som oppslag i en nettsideløsning eller som maskin-til-maskin-integrasjon mot fagsystemer. Produktet er særlig relevant når kommunal sektor trenger...
+
+**Kapabiliteter:** [Grunndata](../../kapabiliteter/datakilder/grunndata/) · [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/)
+
+---
+
+## Fiks skatte- og inntektsopplysninger
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v1-codex.md)
+
+Fiks skatte- og inntektsopplysninger er KS Digitals tilgangstjeneste for kommunal bruk av skatte- og inntektsdata fra Skatteetaten gjennom Fiks. Løsningen er laget for konkrete kommunale tjenesteområder der saksbehandlere trenger oppdatert og relevant inntektsgrunnlag som del av vedtak og beregninger. Produktet kan...
+
+**Kapabiliteter:** [Grunndata](../../kapabiliteter/datakilder/grunndata/) · [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/)
+
+---
+
+## Fiks kjøretøyregister
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/69-FIKS-Kjoretoyregister-produkt-canvas-v1-codex.md)
+
+Fiks kjøretøyregister er KS Digitals API-baserte tilgangstjeneste til Statens vegvesens kjøretøyregister via Fiks-plattformen. Produktet gjør det mulig for kommunale fagsystemer å slå opp kjøretøy og eierforhold uten å etablere egne separate tilkoblinger mot Statens vegvesens grensesnitt. Løsningen speiler sentrale...
 
 **Kapabiliteter:** [Grunndata](../../kapabiliteter/datakilder/grunndata/) · [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/)
 
