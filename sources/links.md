@@ -189,6 +189,10 @@ Sist redigert: 2026-03-19.
 
 ### Statens vegvesen
 - Motorvognregisteret: https://www.vegvesen.no/kjoretoy/kjop-og-salg/kjoretoyopplysninger/ (lagt til 2026-03-19)
+- Om utlevering av kjøretøyopplysninger: https://www.vegvesen.no/kjoretoy/kjop-og-salg/kjoretoyopplysninger/om-utlevering-av-kjoretoyopplysninger/ (lagt til 2026-03-27)
+- API for tekniske kjøretøyopplysninger: https://www.vegvesen.no/fag/teknologi/apne-data/et-utvalg-apne-data/api-for-tekniske-kjoretoyopplysninger/ (lagt til 2026-03-27)
+- API for tekniske kjøretøyopplysninger med eierinformasjon: https://www.vegvesen.no/fag/teknologi/apne-data/et-utvalg-apne-data/api-for-tekniske-kjoretoyopplysninger-med-eierinformasjon/ (lagt til 2026-03-27)
+- API for kjøretøyopplysninger: https://www.vegvesen.no/om-oss/om-organisasjonen/apne-data/et-utvalg-apne-data/api-for-kjoretoyopplysninger/ (lagt til 2026-03-27)
 - Nasjonal vegdatabank (NVDB): https://www.vegvesen.no/fag/fokusomrader/nasjonal-vegdatabank/ (lagt til 2026-03-19)
 
 ### Utdanning
@@ -209,6 +213,9 @@ Sist redigert: 2026-03-19.
 - Nasjonal vitnemålsdatabase (NVB): https://sikt.no/nb/tjenester/nasjonal-vitnemalsdatabase (lagt til 2026-03-18)
 - NVB i tjenestekatalogen: https://fs.sikt.no/tjenestekatalog/nvb/ (lagt til 2026-03-27)
 - Tjenestekatalog studieadministrasjon: https://fs.sikt.no/tjenestekatalog/ (lagt til 2026-03-27)
+- Nasjonalt utdanningsregister hos FS: https://fs.sikt.no/tjenester/nasjonale-register/utdanningsregister/ (lagt til 2026-03-27)
+- Nasjonalt utdanningsregister tiltak: https://sikt.no/tiltak/nasjonalt-utdanningsregister (lagt til 2026-03-27)
+- Nasjonalt utdanningsregister utprøving: https://sikt.no/aktuelt/nasjonalt-utdanningsregister-pa-gang (lagt til 2026-03-27)
 - Vitnemålsportalen: https://sikt.no/tjenester/vitnemalsportalen (lagt til 2026-03-18)
 - Nasjonalt utdanningsregister: https://sikt.no/tiltak/nasjonalt-utdanningsregister (lagt til 2026-03-18)
 - Feide videreutvikling: https://sikt.no/tiltak/feide-videreutvikling (lagt til 2026-03-18)
@@ -217,6 +224,9 @@ Sist redigert: 2026-03-19.
 
 ### SSB
 - microdata.no: https://www.microdata.no/ (lagt til 2026-03-19)
+- Om microdata.no: https://www.microdata.no/om-microdata-no/ (lagt til 2026-03-27)
+- Kontakt microdata.no: https://www.microdata.no/kontakt-oss/ (lagt til 2026-03-27)
+- Priser microdata.no: https://www.microdata.no/priser/ (lagt til 2026-03-27)
 
 ### eID tilbydere
 - BankID: https://www.bankid.no

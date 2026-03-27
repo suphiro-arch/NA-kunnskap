@@ -2,7 +2,7 @@
 title: "Dele data med andre"
 weight: 1
 description: "Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er, slik at andre aktører med lovlig grunnlag enkelt kan oppdage og gjenbruke dem."
-cardMeta: "20 produkter"
+cardMeta: "23 produkter"
 ---
 
 Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er, slik at andre aktører med lovlig grunnlag enkelt kan oppdage og gjenbruke dem.
@@ -32,6 +32,9 @@ Denne delkapabiliteten er en del av [Datautveksling og integrasjon](../).
 | Felles studentsystem (FS) | [v1 (codex)](/NA-kunnskap/produkter/48-Felles-studentsystem-produkt-canvas-v1-codex/) | FS tilbyr API-er og integrasjonsflater som gjør student- og studiedata tilgjengelige for andre tjenester og systemer. |
 | Nasjonal vitnemålsdatabase (NVB) | [v1 (codex)](/NA-kunnskap/produkter/50-Nasjonal-vitnemalsdatabase-produkt-canvas-v1-codex/) | NVB gjør vitnemålsdata tilgjengelige for opptaksmiljøer og andre aktører som har grunnlag for å bruke dem. |
 | Vitnemålsportalen | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/51-Vitnemalsportalen-produkt-canvas-v1-codex.md) | gjør det mulig for brukeren å dele resultater med eksterne mottakere gjennom en kontrollert digital tjeneste i stedet for manuell dokumentutveksling |
+| Nasjonalt utdanningsregister | [v1 (codex)](/NA-kunnskap/produkter/52-Nasjonalt-utdanningsregister-produkt-canvas-v1-codex/) | Registeret gjør utdanningsdata tilgjengelige for andre prosesser og virksomheter. |
 | A-ordningen | [v1 (codex)](/NA-kunnskap/produkter/59-A-ordningen-produkt-canvas-v1-codex/) | A-ordningen gjør rapporterte opplysninger tilgjengelige for flere etater og andre aktører med hjemmel eller samtykke. |
+| Motorvognregisteret | [v1 (codex)](/NA-kunnskap/produkter/60-Motorvognregisteret-produkt-canvas-v1-codex/) | Motorvognregisteret gjør kjøretøyopplysninger tilgjengelige gjennom oppslag og API-er under ulike vilkår. |
 | DSOP-tjenester | [v1 (codex)](/NA-kunnskap/produkter/62-DSOP-tjenester-produkt-canvas-v1-codex/) | DSOP-tjenestene muliggjør kontrollert datadeling mellom offentlige virksomheter og finansnæringen. |
 | HPR | [v1 (codex)](/NA-kunnskap/produkter/64-HPR-produkt-canvas-v1-codex/) | HPR gjør registeropplysninger tilgjengelige for virksomheter og brukere som trenger dem. |
+| KUHR | [v1 (codex)](/NA-kunnskap/produkter/65-KUHR-produkt-canvas-v1-codex/) | KUHR gjør oppgjørs- og refusjonsdata tilgjengelige i forvaltningens kontroll- og oppfølgingsløp. |

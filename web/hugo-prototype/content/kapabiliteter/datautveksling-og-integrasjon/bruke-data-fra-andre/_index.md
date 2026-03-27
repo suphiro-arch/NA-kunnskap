@@ -2,7 +2,7 @@
 title: "Bruke data fra andre"
 weight: 2
 description: "Evne til å gjenbruke data fra andre i egne tjenester og prosesser."
-cardMeta: "15 produkter"
+cardMeta: "17 produkter"
 ---
 
 Evne til å gjenbruke data fra andre i egne tjenester og prosesser.
@@ -27,6 +27,8 @@ Denne delkapabiliteten er en del av [Datautveksling og integrasjon](../).
 | e-resept | [v1 (codex)](/NA-kunnskap/produkter/35-e-resept-produkt-canvas-v1-codex/) | e-resept inngår i et samhandlingsløp der flere aktører bruker og oppdaterer relevant informasjon. |
 | Aa-registeret | [v1 (codex)](/NA-kunnskap/produkter/36-Aa-registeret-produkt-canvas-v1-codex/) | Aa-registeret inngår i samspill med rapportering og andre datakilder for å holde arbeidsforholdsdata oppdatert. |
 | Felles studentsystem (FS) | [v1 (codex)](/NA-kunnskap/produkter/48-Felles-studentsystem-produkt-canvas-v1-codex/) | FS inngår i flere samhandlingsløp og mottar opplysninger som del av studieadministrative prosesser. |
+| Opptaksløsninger | [v1 (codex)](/NA-kunnskap/produkter/49-Opptakslosninger-produkt-canvas-v1-codex/) | Opptaksløsningene bruker data fra flere kilder som del av samordnet opptak. |
+| microdata.no | [v1 (codex)](/NA-kunnskap/produkter/63-microdata-no-produkt-canvas-v1-codex/) | microdata.no bygger på bruk av data fra flere registre og kilder som stilles til rådighet i plattformen. |
 | Fiks folkeregister | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/67-FIKS-Folkeregister-produkt-canvas-v1-codex.md) | gir fagsystemer og saksbehandlere et standardisert løp for å bruke folkeregisterdata fra Skatteetaten i kommunale prosesser. |
 | Fiks skatte- og inntektsopplysninger | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v1-codex.md) | gir kommunale fagsystemer og saksbehandlere et standardisert løp for å bruke skatte- og inntektsopplysninger fra Skatteetaten i egne arbeidsprosesser. |
 | Fiks kjøretøyregister | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/69-FIKS-Kjoretoyregister-produkt-canvas-v1-codex.md) | gir kommunale fagsystemer et standardisert løp for å bruke kjøretøyopplysninger fra Statens vegvesen i operative prosesser. |

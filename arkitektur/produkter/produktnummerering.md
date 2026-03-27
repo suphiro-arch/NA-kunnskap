@@ -82,10 +82,10 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 |---:|---|---|---|---|---|---|---|---|
 | 47 | `SIKT-001` | Feide | Felleskomponent | Autentisering | - | Datautveksling og integrasjon: Dele data med andre<br>Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling<br>Tillit: Autentisering<br>Tillit: Tilgangskontroll | v1 (codex) | [Åpne](../../arkitektur/produkter/produktbeskrivelser/47-Feide-produkt-canvas-v1-codex.md) |
 | 48 | `SIKT-002` | Felles studentsystem (FS) | Plattform | Studentdata | Nasjonal studieadministrativ plattform med databaser, brukerflater og integrasjoner | Datautveksling og integrasjon: Bruke data fra andre<br>Datautveksling og integrasjon: Dele data med andre<br>Informasjonsforvaltning: Datastyring<br>Samarbeid: Organisatorisk samhandling | v1 (codex) | [Åpne](../../arkitektur/produkter/produktbeskrivelser/48-Felles-studentsystem-produkt-canvas-v1-codex.md) |
-| 49 | `SIKT-003` | Opptaksløsninger | Fellesløsning | Opptaksløsning | - | Datautveksling og integrasjon: Bruke data fra andre<br>Samarbeid: Organisatorisk samhandling<br>Sluttbrukertjenester: Sammenhengende tjenester | Ikke opprettet ennå | - |
+| 49 | `SIKT-003` | Opptaksløsninger | Fellesløsning | Opptaksløsning | Felles systemstøtte for samordnet opptak i høyere utdanning og fagskoler | Datautveksling og integrasjon: Bruke data fra andre<br>Samarbeid: Organisatorisk samhandling<br>Sluttbrukertjenester: Sammenhengende tjenester | v1 (codex) | [Åpne](../../arkitektur/produkter/produktbeskrivelser/49-Opptakslosninger-produkt-canvas-v1-codex.md) |
 | 50 | `SIKT-004` | Nasjonal vitnemålsdatabase (NVB) | Register | Vitnemål | Nasjonal database- og delingstjeneste for elektroniske vitnemål | Datakilder: Grunndata<br>Datautveksling og integrasjon: Dele data med andre | v1 (codex) | [Åpne](../../arkitektur/produkter/produktbeskrivelser/50-Nasjonal-vitnemalsdatabase-produkt-canvas-v1-codex.md) |
 | 51 | `SIKT-005` | Vitnemålsportalen | Portal | Deling av vitnemål | - | Datautveksling og integrasjon: Dele data med andre<br>Sluttbrukertjenester: Sammenhengende tjenester | v1 (codex) | [Åpne](../../arkitektur/produkter/produktbeskrivelser/51-Vitnemalsportalen-produkt-canvas-v1-codex.md) |
-| 52 | `SIKT-006` | Nasjonalt utdanningsregister | Register | Register over utdanningstilbud og akkreditering | - | Datakilder: Grunndata<br>Datautveksling og integrasjon: Dele data med andre<br>Informasjonsforvaltning: Datastyring | Ikke opprettet ennå | - |
+| 52 | `SIKT-006` | Nasjonalt utdanningsregister | Register | Register over utdanningstilbud og akkreditering | Felles autoritativ kilde for utdanninger og læresteder | Datakilder: Grunndata<br>Datautveksling og integrasjon: Dele data med andre<br>Informasjonsforvaltning: Datastyring | v1 (codex) | [Åpne](../../arkitektur/produkter/produktbeskrivelser/52-Nasjonalt-utdanningsregister-produkt-canvas-v1-codex.md) |
 
 ## Helsedirektoratet (`HDIR`)
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Merknad | Kapabilitetstreff | Siste versjon | Dokument |
@@ -104,7 +104,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 ## HELFO (`HELFO`)
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Merknad | Kapabilitetstreff | Siste versjon | Dokument |
 |---:|---|---|---|---|---|---|---|---|
-| 65 | `HELFO-001` | KUHR | Register | Refusjonsdata | - | Datakilder: Grunndata<br>Datautveksling og integrasjon: Dele data med andre | Ikke opprettet ennå | - |
+| 65 | `HELFO-001` | KUHR | Register | Refusjonsdata | - | Datakilder: Grunndata<br>Datautveksling og integrasjon: Dele data med andre | v1 (codex) | [Åpne](../../arkitektur/produkter/produktbeskrivelser/65-KUHR-produkt-canvas-v1-codex.md) |
 
 ## NAV (`NAV`)
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Merknad | Kapabilitetstreff | Siste versjon | Dokument |
@@ -127,13 +127,13 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 ## Statens vegvesen (`SVV`)
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Merknad | Kapabilitetstreff | Siste versjon | Dokument |
 |---:|---|---|---|---|---|---|---|---|
-| 60 | `SVV-001` | Motorvognregisteret | Register | Kjøretøydata | Viktig sektorregister | Datakilder: Grunndata<br>Datautveksling og integrasjon: Dele data med andre | Ikke opprettet ennå | - |
+| 60 | `SVV-001` | Motorvognregisteret | Register | Kjøretøydata | Viktig sektorregister | Datakilder: Grunndata<br>Datautveksling og integrasjon: Dele data med andre | v1 (codex) | [Åpne](../../arkitektur/produkter/produktbeskrivelser/60-Motorvognregisteret-produkt-canvas-v1-codex.md) |
 | 61 | `SVV-002` | NVDB | Fellesløsning | Vegdata | Dataplattform | Datakilder: Grunndata<br>Informasjonsforvaltning: Oversikt over datasett | Ikke opprettet ennå | - |
 
 ## SSB (`SSB`)
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Merknad | Kapabilitetstreff | Siste versjon | Dokument |
 |---:|---|---|---|---|---|---|---|---|
-| 63 | `SSB-001` | microdata.no | Fellesløsning | Analyseplattform | Forskning | Datadrevet: Sammenstilling av data<br>Datautveksling og integrasjon: Bruke data fra andre | Ikke opprettet ennå | - |
+| 63 | `SSB-001` | microdata.no | Fellesløsning | Analyseplattform | Forskning | Datadrevet: Sammenstilling av data<br>Datautveksling og integrasjon: Bruke data fra andre | v1 (codex) | [Åpne](../../arkitektur/produkter/produktbeskrivelser/63-microdata-no-produkt-canvas-v1-codex.md) |
 
 ## Flere virksomheter (`FLERE`)
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Merknad | Kapabilitetstreff | Siste versjon | Dokument |
