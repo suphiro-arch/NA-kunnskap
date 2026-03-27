@@ -93,13 +93,13 @@ Altinn Formidling er Altinns formidlingstjeneste for sikker og styrt overføring
 
 ---
 
-## Digital postkasse (felleskomponent)
+## Digital postkasse
 
-**Siste versjon:** v2 (copilot) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/09-Digital-postkasse-produkt-canvas-v2-copilot.md)
+**Siste versjon:** v3 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/09-Digital-postkasse-produkt-canvas-v3-codex.md)
 
-Digital postkasse er nasjonal felleskomponent for sikker digital utsending av vedtak, informasjon og annen post fra offentlige virksomheter til innbyggere. Løsningen erstatter papirbasert post for mange dokumenttyper og gir innbyggere en samlet digital innboks med sporbar og sikker levering.
+Digital postkasse er den nasjonale felleskomponenten for å sende post sikkert fra offentlige virksomheter til innbyggere i en valgt digital postkasse. Produktet omfatter ikke bare selve mottakerens innboks, men hele leveranseløpet fra avsendersystem via meldingsformidling og postkasseleverandør til mottaker, med...
 
-**Kapabiliteter:** [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/)
+**Kapabiliteter:** [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/)
 
 ---
 
@@ -135,9 +135,9 @@ Altinn Events er Altinns hendelsestjeneste for publisering og abonnement på hen
 
 ## Felles datakatalog
 
-**Siste versjon:** v2 (copilot) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/13-Felles-datakatalog-produkt-canvas-v2-copilot.md)
+**Siste versjon:** v3 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/13-Felles-datakatalog-produkt-canvas-v3-codex.md)
 
-Felles datakatalog er en nasjonal løsning for å beskrive, katalogisere og gjøre datasett, API-er, informasjonsmodeller og begreper synlige og synlige og oppdagbare for datadeling i offentlig og privat sektor. Katalogen fungerer som sentral referanse for "hva data finnes, hvem som eier dem, og hvordan de kan brukes",...
+Felles datakatalog er den nasjonale fellesløsningen for å beskrive og synliggjøre dataressurser på en standardisert måte. Produktet gjør det mulig å registrere eller høste metadata om datasett, API-er, begreper og informasjonsmodeller, og å gjøre disse ressursene søkbare og forståelige på tvers av virksomheter...
 
 **Kapabiliteter:** [Oversikt over API](../../kapabiliteter/informasjonsforvaltning/oversikt-over-api/) · [Oversikt over begreper](../../kapabiliteter/informasjonsforvaltning/oversikt-over-begreper/) · [Oversikt over datasett](../../kapabiliteter/informasjonsforvaltning/oversikt-over-datasett/) · [Oversikt over informasjonsmodeller](../../kapabiliteter/informasjonsforvaltning/oversikt-over-informasjonsmodeller/) · [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/)
 
@@ -145,9 +145,9 @@ Felles datakatalog er en nasjonal løsning for å beskrive, katalogisere og gjø
 
 ## Begrepskatalog
 
-**Siste versjon:** v2 (copilot) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/14-Begrepskatalog-produkt-canvas-v2-copilot.md)
+**Siste versjon:** v3 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/14-Begrepskatalog-produkt-canvas-v3-codex.md)
 
-Begrepskatalogen er nasjonalt register for begreper og definisjoner brukt i offentlig sektor. Løsningen sikrer felles forståelse av sentrale ord og uttrykk, slik at data og tjenester kan tolkes uniformt på tvers av virksomheter og reduserer semantiske misforståelser i datadeling og integrasjon.
+Begrepskatalog er den nasjonale delkatalogen for å beskrive og synliggjøre begreper som brukes i offentlig sektor. Produktet gjør det mulig å publisere begrepsbeskrivelser etter en felles standard, søke i dem, sammenligne begreper og bruke dem som semantisk grunnlag for datasett, API-er og informasjonsmodeller...
 
 **Kapabiliteter:** [Datastyring](../../kapabiliteter/informasjonsforvaltning/datastyring/) · [Informasjonsarkitektur](../../kapabiliteter/informasjonsforvaltning/informasjonsarkitektur/) · [Oversikt over begreper](../../kapabiliteter/informasjonsforvaltning/oversikt-over-begreper/) · [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/)
 
@@ -155,9 +155,9 @@ Begrepskatalogen er nasjonalt register for begreper og definisjoner brukt i offe
 
 ## API-katalog
 
-**Siste versjon:** v2 (copilot) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md)
+**Siste versjon:** v3 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/15-API-katalog-produkt-canvas-v3-codex.md)
 
-API-katalogen er nasjonal register for tilgjengelige API-er i offentlig sektor. Løsningen gjør det mulig å oppdage, forstå og gjenbruke felles API-er i nye tjenester og integrasjoner, og reduserer behov for parallelle/proprietaere grensesnitt.
+API-katalog er den nasjonale delkatalogen for å beskrive og synliggjøre API-er i offentlig sektor. Produktet gjør det mulig å publisere standardiserte beskrivelser av datatjenester, søke i dem og se hvordan API-er henger sammen med datasett og informasjonsmodeller. Løsningen er en del av Felles datakatalog, men...
 
 **Kapabiliteter:** [Informasjonsarkitektur](../../kapabiliteter/informasjonsforvaltning/informasjonsarkitektur/) · [Oversikt over API](../../kapabiliteter/informasjonsforvaltning/oversikt-over-api/) · [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/)
 

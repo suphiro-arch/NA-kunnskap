@@ -19,6 +19,11 @@ Sist redigert: 2026-03-19.
 - Maskinporten: https://www.digdir.no/om-tjenesten/maskinporten/1558
 - eIDAS-node (Norge): https://www.digdir.no/digital-identitet/eidas/ (lagt til 2026-03-19)
 - Digital post (felleskomponent): https://www.digdir.no/felleskomponenter/digital-post/1483
+- Digital postkasse - oversikt: https://samarbeid.digdir.no/digital-postkasse/dette-er-digital-postkasse/105 (lagt til 2026-03-27)
+- Digital postkasse - ta i bruk: https://samarbeid.digdir.no/digital-postkasse/ta-i-bruk-digital-postkasse-til-innbyggar/107 (lagt til 2026-03-27)
+- Digital postkasse - kostnadsmodell: https://samarbeid.digdir.no/digital-postkasse/kostnadsmodell-digital-postkasse/106 (lagt til 2026-03-27)
+- Digital postkasse - statistikk: https://samarbeid.digdir.no/digital-postkasse/statistikk-digital-postkasse-til-innbyggar/3424 (lagt til 2026-03-27)
+- Digital postkasse dokumentasjon: https://docs.digdir.no/resources/begrep/sikkerDigitalPost/ (lagt til 2026-03-27)
 - Digital postkasse - meldingsutveksling: https://samarbeid.digdir.no/digital-postkasse/meldingsutveksling/2483
 - Kontakt- og reservasjonsregisteret (KRR): https://docs.digdir.no/docs/Kontaktregisteret/
 - KRR overordnet: https://docs.digdir.no/docs/Kontaktregisteret/krr_overordnet
@@ -33,10 +38,16 @@ Sist redigert: 2026-03-19.
 - ELMA: https://www.digdir.no/felleslosninger/elektronisk-mottakerregister-elma/784 (lagt til 2026-03-18)
 - ELMA dokumentasjon: https://docs.digdir.no/docs/ELMA/ (lagt til 2026-03-18)
 - ELMA i Samarbeidsportalen: https://samarbeid.digdir.no/elma/dette-er-elma/108 (lagt til 2026-03-18)
-- Felles datakatalog: https://www.digdir.no/felles-datakatalog/om-felles-datakatalog/2274
+- Felles datakatalog: https://www.digdir.no/felleslosninger/felles-datakatalog/790
 - Felles datakatalog - datadeling: https://samarbeid.digdir.no/felles-datakatalog/datadeling/2480
 - Felles datakatalog - dette er Felles datakatalog: https://samarbeid.digdir.no/felles-datakatalog/dette-er-felles-datakatalog/1616
+- Felles datakatalog - ta i bruk: https://samarbeid.digdir.no/felles-datakatalog/ta-i-bruk-felles-datakatalog/1619 (lagt til 2026-03-27)
+- Felles datakatalog - registrer datasett: https://www.digdir.no/krav-og-anbefalinger/registrer-datasett-i-felles-datakatalog/3088 (lagt til 2026-03-27)
 - data.norge.no: https://data.norge.no/
+- Begrepskatalogen: https://data.norge.no/catalogs/concepts (lagt til 2026-03-27)
+- API-katalogen: https://data.norge.no/catalogs/data-services (lagt til 2026-03-27)
+- data.norge.no teknisk dokumentasjon: https://data.norge.no/nb/technical (lagt til 2026-03-27)
+- data.norge.no teknisk dokumentasjon for API: https://data.norge.no/nb/technical/api (lagt til 2026-03-27)
 - data.norge.no i Samarbeidsportalen: https://samarbeid.digdir.no/felles-datakatalog/datanorgeno/1617
 - data.altinn.no: https://data.altinn.no/
 - data.altinn.no dokumentasjon: https://docs.data.altinn.no/
