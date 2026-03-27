@@ -303,6 +303,116 @@ Fiks digiorden er KS Digitals styrings- og oversiktsløsning for kommunal inform
 
 ---
 
+## Helsedata.no
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/31-Helsedata-no-produkt-canvas-v1-codex.md)
+
+Helsedata.no er den nasjonale portalen for å finne informasjon om helsedata, orientere seg i datakilder og søke om tilgang til data for analyse, forskning og annen lovlig bruk. Produktet er både en oversikts- og veiledningsflate og en inngang til sammenhengende søknads- og tilgangsløp.
+
+**Kapabiliteter:** [Oversikt over datasett](../../kapabiliteter/informasjonsforvaltning/oversikt-over-datasett/) · [Datastyring](../../kapabiliteter/informasjonsforvaltning/datastyring/) · [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/)
+
+---
+
+## Helsenorge
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/32-Helsenorge-produkt-canvas-v1-codex.md)
+
+Helsenorge er den nasjonale portalen der innbyggere finner kvalitetssikret helseinformasjon og får tilgang til digitale selvbetjeningsløsninger i helse- og omsorgssektoren. Produktet samler tjenester fra flere aktører i én felles inngang, slik at brukeren kan orientere seg, logge inn og utføre helseadministrative...
+
+**Kapabiliteter:** [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/) · [Tjenestekjeder](../../kapabiliteter/sluttbrukertjenester/tjenestekjeder/)
+
+---
+
+## HelseID
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/33-HelseID-produkt-canvas-v1-codex.md)
+
+HelseID er den nasjonale felleskomponenten for pålogging, tillit og sikring av digital samhandling i helse- og omsorgssektoren. Produktet gjør det mulig å autentisere helsepersonell, systemer og virksomheter, beskytte API-er og berike identitetsinformasjon med opplysninger fra nasjonale registre som...
+
+**Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [Autentisering](../../kapabiliteter/tillit/autentisering/) · [Tilgangskontroll](../../kapabiliteter/tillit/tilgangskontroll/)
+
+---
+
+## Kjernejournal
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/34-Kjernejournal-produkt-canvas-v1-codex.md)
+
+Kjernejournal er den nasjonale fellesløsningen for å gjøre utvalgte og viktige helseopplysninger tilgjengelige på tvers av behandlingssteder. Produktet støtter tryggere og mer sammenhengende behandling ved at relevante opplysninger kan deles og brukes der pasienten mottar helsehjelp.
+
+**Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/)
+
+---
+
+## e-resept
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/35-e-resept-produkt-canvas-v1-codex.md)
+
+e-resept er den nasjonale løsningen for elektronisk forskrivning og formidling av resepter i Norge. Produktet binder sammen forskriver, apotek, pasient og øvrige relevante aktører i en digital meldings- og samhandlingskjede.
+
+**Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/)
+
+---
+
+## Aa-registeret
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/36-Aa-registeret-produkt-canvas-v1-codex.md)
+
+Aa-registeret er det nasjonale grunndataregisteret over arbeidsforhold i Norge. Produktet forvalter opplysninger om ordinære og maritime arbeidsforhold, frilansoppdrag og andre relevante relasjoner mellom arbeidsgivere og arbeidstakere. Registeret er både en autoritativ datakilde og en delt informasjonsressurs som...
+
+**Kapabiliteter:** [Grunndata](../../kapabiliteter/datakilder/grunndata/) · [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/)
+
+---
+
+## Folkeregisteret
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/37-Folkeregisteret-produkt-canvas-v1-codex.md)
+
+Folkeregisteret er det nasjonale grunndataregisteret for personopplysninger i Norge. Produktet forvalter autoritative opplysninger om identitet, navn, adresse, statsborgerskap, familierelasjoner, sivilstand og andre sentrale forhold som mange offentlige og private aktører bygger sine tjenester på. Folkeregisteret er...
+
+**Kapabiliteter:** [Grunndata](../../kapabiliteter/datakilder/grunndata/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/)
+
+---
+
+## Skatteetatens delingstjenester
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/38-Skatteetatens-delingstjenester-produkt-canvas-v1-codex.md)
+
+Skatteetatens delingstjenester er den samlede produktflaten for kontrollert viderebruk av data fra Skatteetaten. Produktet gjør det mulig for andre virksomheter å hente ut opplysninger gjennom API-er og tilhørende avtale- og tilgangsløp, i stedet for å basere seg på manuelle bestillinger eller punktvise...
+
+**Kapabiliteter:** [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/)
+
+---
+
+## Matrikkelen
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/39-Matrikkelen-produkt-canvas-v1-codex.md)
+
+Matrikkelen er det nasjonale grunndataregisteret for eiendommer, bygninger, adresser og offisielle eiendomsidentifikatorer i Norge. Produktet gjør det mulig å registrere, forvalte og bruke autoritative opplysninger om fast eiendom og tilhørende objekter på tvers av sektorer og forvaltningsnivåer. Matrikkelen er derfor...
+
+**Kapabiliteter:** [Grunndata](../../kapabiliteter/datakilder/grunndata/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/)
+
+---
+
+## Geonorge
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/40-Geonorge-produkt-canvas-v1-codex.md)
+
+Geonorge er den nasjonale fellesløsningen for å finne, beskrive, registrere og distribuere kartdata og annen stedfestet informasjon i Norge. Produktet samler metadata om datasett og tjenester, tilbyr søk og API-er, og støtter flere distribusjonsmåter for geodata fra mange offentlige datatilbydere. Geonorge er derfor...
+
+**Kapabiliteter:** [Oversikt over datasett](../../kapabiliteter/informasjonsforvaltning/oversikt-over-datasett/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/)
+
+---
+
+## Enhetsregisteret
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/46-Enhetsregisteret-produkt-canvas-v1-codex.md)
+
+Enhetsregisteret er det nasjonale grunndataregisteret for virksomheter i Norge. Produktet samler og tilgjengeliggjør basisopplysninger om juridiske enheter og andre virksomheter, og tildeler organisasjonsnummer som felles identifikator. Enhetsregisteret er derfor mer enn en registreringstjeneste: det er den sentrale...
+
+**Kapabiliteter:** [Grunndata](../../kapabiliteter/datakilder/grunndata/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/)
+
+---
+
 ## Feide
 
 **Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/47-Feide-produkt-canvas-v1-codex.md)
@@ -310,6 +420,26 @@ Fiks digiorden er KS Digitals styrings- og oversiktsløsning for kommunal inform
 Feide er den nasjonale fellesløsningen for trygg innlogging og datadeling i utdannings- og forskningssektoren. Produktet gir elever, studenter, forskere, undervisere og ansatte én felles identitet som kan brukes på tvers av mange digitale tjenester. Feide er særlig relevant når sektoren trenger gjenbrukbar...
 
 **Kapabiliteter:** [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) · [Autentisering](../../kapabiliteter/tillit/autentisering/) · [Tilgangskontroll](../../kapabiliteter/tillit/tilgangskontroll/)
+
+---
+
+## Felles studentsystem (FS)
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/48-Felles-studentsystem-produkt-canvas-v1-codex.md)
+
+Felles studentsystem (FS) er den nasjonale plattformen for studieadministrative data og prosesser i høyere utdanning. Produktet forvalter og tilgjengeliggjør informasjon om studenter, studier, opptak, resultater og kvalifikasjoner, og fungerer som informasjonsnav for både interne arbeidsprosesser, studentnære...
+
+**Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Datastyring](../../kapabiliteter/informasjonsforvaltning/datastyring/) · [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/)
+
+---
+
+## Nasjonal vitnemålsdatabase (NVB)
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/50-Nasjonal-vitnemalsdatabase-produkt-canvas-v1-codex.md)
+
+Nasjonal vitnemålsdatabase (NVB) er den nasjonale databasen for elektroniske vitnemål fra videregående opplæring. Produktet lagrer og kvalitetssikrer vitnemål og gjør dem tilgjengelige for opptak, dokumentasjon, statistikk og forskning. NVB er derfor mer enn et arkiv: det er en nasjonal register- og delingsressurs som...
+
+**Kapabiliteter:** [Grunndata](../../kapabiliteter/datakilder/grunndata/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/)
 
 ---
 
@@ -330,6 +460,46 @@ Vitnemålsportalen er en nasjonal delingstjeneste som gjør det mulig for bruker
 SvarInn er en API-basert tjeneste og komplement til SvarUt. Løsningen tar imot innkommende post fra andre virksomheter som bruker SvarUt, og gjør den tilgjengelig for sak- og arkivsystemer eller andre fagsystemer i kommunen. Produktet er særlig relevant når virksomheten trenger et standardisert og sentralisert...
 
 **Kapabiliteter:** [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/)
+
+---
+
+## A-ordningen
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/59-A-ordningen-produkt-canvas-v1-codex.md)
+
+A-ordningen er den samordnede nasjonale ordningen for at arbeidsgivere skal rapportere opplysninger om inntekt, arbeidsforhold, forskuddstrekk, utleggstrekk, arbeidsgiveravgift og finansskatt. Produktet erstatter flere tidligere skjema- og rapporteringsløp med én digital a-melding, og fungerer samtidig som en felles...
+
+**Kapabiliteter:** [Grunndata](../../kapabiliteter/datakilder/grunndata/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/)
+
+---
+
+## DSOP-tjenester
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/62-DSOP-tjenester-produkt-canvas-v1-codex.md)
+
+DSOP-tjenester er den samlede produktflaten for offentlig-private datadelings- og samhandlingsløsninger i DSOP-samarbeidet. Produktet omfatter flere konkrete tjenester, men verdien ligger i den felles samarbeidsmodellen og delingsmekanismene mellom bank og offentlig sektor.
+
+**Kapabiliteter:** [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/)
+
+---
+
+## HPR
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/64-HPR-produkt-canvas-v1-codex.md)
+
+HPR er det nasjonale registeret over helsepersonell og relevante autorisasjons- og godkjenningsopplysninger. Produktet gir et felles grunnlag for å verifisere helsepersonells status og rolle og brukes i forvaltning, tjenesteyting og kontroll.
+
+**Kapabiliteter:** [Grunndata](../../kapabiliteter/datakilder/grunndata/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/)
+
+---
+
+## NAIS
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/66-NAIS-produkt-canvas-v1-codex.md)
+
+NAIS er en plattform for utvikling, kjøring og forvaltning av applikasjoner, laget av Nav og videreført som et åpent plattformmiljø for utviklingsteam i offentlig sektor. Produktet samler funksjoner for utrulling, sikkerhet, observability, konfigurasjon og drift, slik at team kan fokusere mer på applikasjonene sine og...
+
+**Kapabiliteter:** [Gjenbrukbare tjenester](../../kapabiliteter/tjenesteutvikling/gjenbrukbare-tjenester/) · [Utviklings- og kjøretidsmiljø](../../kapabiliteter/tjenesteutvikling/utviklings-og-kjoretidsmiljo/)
 
 ---
 

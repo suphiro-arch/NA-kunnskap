@@ -1512,6 +1512,86 @@
             ]
         },
         {
+            "product_id": 33,
+            "product_name": "HelseID",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/produkter/produktbeskrivelser/33-HelseID-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/33-HelseID-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
+                    "subcapability_name": "Bruke data fra andre",
+                    "subcapability_slug": "bruke-data-fra-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+                    "explanation": "gjør det mulig å bruke sektorfelles API-er og informasjonstjenester gjennom et felles tillits- og autentiseringsmønster"
+                },
+                {
+                    "capability_id": "id-48c9873ae59341a49c2dca27379fab55",
+                    "capability_name": "Informasjonssikkerhet",
+                    "capability_slug": "informasjonssikkerhet",
+                    "subcapability_id": "id-34d3d64b3afe4327a29ee6c2f7f74dff",
+                    "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
+                    "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling",
+                    "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
+                    "explanation": "beskytter innloggingsflyt, tokenbruk og deling av identitets- og tilgangsinformasjon i digital samhandling"
+                },
+                {
+                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
+                    "capability_name": "Tillit",
+                    "capability_slug": "tillit",
+                    "subcapability_id": "id-ec0afaac123d4f9e83889d9022a198c3",
+                    "subcapability_name": "Autentisering",
+                    "subcapability_slug": "autentisering",
+                    "mapping_label": "Tillit: Autentisering",
+                    "explanation": "er en kjernefunksjon ved at HelseID bekrefter identiteten til helsepersonell, systemer og virksomheter"
+                },
+                {
+                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
+                    "capability_name": "Tillit",
+                    "capability_slug": "tillit",
+                    "subcapability_id": "id-a8a1eb0181f04006ba7d3b5ab2fa9ca8",
+                    "subcapability_name": "Tilgangskontroll",
+                    "subcapability_slug": "tilgangskontroll",
+                    "mapping_label": "Tillit: Tilgangskontroll",
+                    "explanation": "gir grunnlag for at tjenestetilbydere kan etablere regler for hvem og hva som får tilgang til beskyttede tjenester og API-er"
+                }
+            ]
+        },
+        {
+            "product_id": 39,
+            "product_name": "Matrikkelen",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/produkter/produktbeskrivelser/39-Matrikkelen-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/39-Matrikkelen-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "er kjernefunksjonen ved at Matrikkelen fungerer som autoritativ kilde for sentrale opplysninger om eiendommer, bygninger og adresser"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "gjør opplysninger fra Matrikkelen tilgjengelige for mange andre virksomheter og tjenester som trenger eiendoms- og adressegrunnlag"
+                }
+            ]
+        },
+        {
             "product_id": 47,
             "product_name": "Feide",
             "version": 1,
@@ -1710,6 +1790,526 @@
                     "explanation": "gir kommunale fagsystemer et standardisert løp for å bruke kjøretøyopplysninger fra Statens vegvesen i operative prosesser."
                 }
             ]
+        },
+        {
+            "product_id": 37,
+            "product_name": "Folkeregisteret",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/produkter/produktbeskrivelser/37-Folkeregisteret-produkt-canvas-v1-codex.md",
+            "product_url": "/NA-kunnskap/produkter/37-Folkeregisteret-produkt-canvas-v1-codex/",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "Folkeregisteret er et nasjonalt grunndataregister og den autoritative kilden for sentrale personopplysninger i Norge.",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Folkeregisteret deler personopplysninger gjennom kontrollerte delingstjenester og oppslag til virksomheter med hjemmel.",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre"
+                }
+            ]
+        },
+        {
+            "product_id": 46,
+            "product_name": "Enhetsregisteret",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/produkter/produktbeskrivelser/46-Enhetsregisteret-produkt-canvas-v1-codex.md",
+            "product_url": "/NA-kunnskap/produkter/46-Enhetsregisteret-produkt-canvas-v1-codex/",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "Enhetsregisteret er den autoritative kilden for basisopplysninger om virksomheter og tildeler organisasjonsnummer som felles identifikator.",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Enhetsregisteret tilgjengeliggjør virksomhetsdata gjennom åpne tjenester, daglige endringer og maskinell tilgang.",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre"
+                }
+            ]
+        },
+        {
+            "product_id": 38,
+            "product_name": "Skatteetatens delingstjenester",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/produkter/produktbeskrivelser/38-Skatteetatens-delingstjenester-produkt-canvas-v1-codex.md",
+            "product_url": "/NA-kunnskap/produkter/38-Skatteetatens-delingstjenester-produkt-canvas-v1-codex/",
+            "capabilities": [
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Skatteetatens delingstjenester tilgjengeliggjør data fra etaten til andre virksomheter gjennom kontrollerte API-er og avtalte tilgangsløp.",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre"
+                }
+            ]
+        },
+        {
+            "product_id": 59,
+            "product_name": "A-ordningen",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/produkter/produktbeskrivelser/59-A-ordningen-produkt-canvas-v1-codex.md",
+            "product_url": "/NA-kunnskap/produkter/59-A-ordningen-produkt-canvas-v1-codex/",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "A-ordningen samler inn og vedlikeholder sentrale opplysninger om inntekt og arbeidsforhold som brukes bredt i offentlig forvaltning.",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "A-ordningen gjør rapporterte opplysninger tilgjengelige for flere etater og andre aktører med hjemmel eller samtykke.",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre"
+                },
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "A-ordningen er en samforvaltet ordning mellom Skatteetaten, NAV og SSB med felles rapporterings- og datagrunnlag.",
+                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
+                    "subcapability_name": "Organisatorisk samhandling",
+                    "subcapability_slug": "organisatorisk-samhandling"
+                }
+            ]
+        },
+        {
+            "product_id": 48,
+            "product_name": "Felles studentsystem (FS)",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/produkter/produktbeskrivelser/48-Felles-studentsystem-produkt-canvas-v1-codex.md",
+            "product_url": "/NA-kunnskap/produkter/48-Felles-studentsystem-produkt-canvas-v1-codex/",
+            "capabilities": [
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+                    "explanation": "FS inngår i flere samhandlingsløp og mottar opplysninger som del av studieadministrative prosesser.",
+                    "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
+                    "subcapability_name": "Bruke data fra andre",
+                    "subcapability_slug": "bruke-data-fra-andre"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "FS tilbyr API-er og integrasjonsflater som gjør student- og studiedata tilgjengelige for andre tjenester og systemer.",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre"
+                },
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "mapping_label": "Informasjonsforvaltning: Datastyring",
+                    "explanation": "FS forvalter og vedlikeholder store mengder studie- og studentdata som må struktureres og kvalitetssikres over tid.",
+                    "subcapability_id": "id-5852d070415849fab42749cb488d984a",
+                    "subcapability_name": "Datastyring",
+                    "subcapability_slug": "datastyring"
+                },
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "FS er en felles sektorløsning som brukes av mange utdanningsinstitusjoner med Sikt som felles forvalter.",
+                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
+                    "subcapability_name": "Organisatorisk samhandling",
+                    "subcapability_slug": "organisatorisk-samhandling"
+                }
+            ]
+        },
+        {
+            "product_id": 50,
+            "product_name": "Nasjonal vitnemålsdatabase (NVB)",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/produkter/produktbeskrivelser/50-Nasjonal-vitnemalsdatabase-produkt-canvas-v1-codex.md",
+            "product_url": "/NA-kunnskap/produkter/50-Nasjonal-vitnemalsdatabase-produkt-canvas-v1-codex/",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "NVB forvalter autoritative vitnemålsopplysninger som brukes i opptak, dokumentasjon, statistikk og forskning.",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "NVB gjør vitnemålsdata tilgjengelige for opptaksmiljøer og andre aktører som har grunnlag for å bruke dem.",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre"
+                }
+            ]
+        },
+        {
+            "product_id": 32,
+            "product_name": "Helsenorge",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/produkter/produktbeskrivelser/32-Helsenorge-produkt-canvas-v1-codex.md",
+            "product_url": "/NA-kunnskap/produkter/32-Helsenorge-produkt-canvas-v1-codex/",
+            "capabilities": [
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                    "explanation": "Helsenorge samler informasjon og digitale helsetjenester i en felles innbyggerflate.",
+                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
+                    "subcapability_name": "Sammenhengende tjenester",
+                    "subcapability_slug": "sammenhengende-tjenester"
+                },
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "mapping_label": "Sluttbrukertjenester: Tjenestekjeder",
+                    "explanation": "Helsenorge lar brukeren bevege seg mellom informasjon, innlogging og flere helserelaterte tjenester i samme produktflate.",
+                    "subcapability_id": "id-825b1ea1217b4eedb6caae165aeb8e41",
+                    "subcapability_name": "Tjenestekjeder",
+                    "subcapability_slug": "tjenestekjeder"
+                }
+            ]
+        },
+        {
+            "product_id": 40,
+            "product_name": "Geonorge",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/produkter/produktbeskrivelser/40-Geonorge-produkt-canvas-v1-codex.md",
+            "product_url": "/NA-kunnskap/produkter/40-Geonorge-produkt-canvas-v1-codex/",
+            "capabilities": [
+                {
+                    "capability_id": "id-e4f1672b38f14f57af2f8e85f34ffa88",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "mapping_label": "Informasjonsforvaltning: Oversikt over datasett",
+                    "explanation": "Geonorge gir nasjonal oversikt over tilgjengelige geodata og metadata fra mange offentlige datatilbydere.",
+                    "subcapability_id": "id-cb3db6f42a0f4ad0bc526d87cfe5b801",
+                    "subcapability_name": "Oversikt over datasett",
+                    "subcapability_slug": "oversikt-over-datasett"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Geonorge tilbyr katalog, distribusjon og API-er som gjør geodata tilgjengelige for videre bruk.",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre"
+                }
+            ]
+        },
+        {
+            "product_id": 31,
+            "product_name": "Helsedata.no",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/produkter/produktbeskrivelser/31-Helsedata-no-produkt-canvas-v1-codex.md",
+            "product_url": "/NA-kunnskap/produkter/31-Helsedata-no-produkt-canvas-v1-codex/",
+            "capabilities": [
+                {
+                    "capability_id": "id-e4f1672b38f14f57af2f8e85f34ffa88",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "mapping_label": "Informasjonsforvaltning: Oversikt over datasett",
+                    "explanation": "Helsedata.no gir oversikt over helsedata og relevante datakilder i én nasjonal inngang.",
+                    "subcapability_id": "id-cb3db6f42a0f4ad0bc526d87cfe5b801",
+                    "subcapability_name": "Oversikt over datasett",
+                    "subcapability_slug": "oversikt-over-datasett"
+                },
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "mapping_label": "Informasjonsforvaltning: Datastyring",
+                    "explanation": "Helsedata.no støtter strukturert forvaltning og tilgjengeliggjøring av informasjon om helsedata og tilgangsløp.",
+                    "subcapability_id": "id-5852d070415849fab42749cb488d984a",
+                    "subcapability_name": "Datastyring",
+                    "subcapability_slug": "datastyring"
+                },
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                    "explanation": "Helsedata.no samler veiledning og tilgangsløp i en sammenhengende nasjonal brukerflate.",
+                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
+                    "subcapability_name": "Sammenhengende tjenester",
+                    "subcapability_slug": "sammenhengende-tjenester"
+                }
+            ]
+        },
+        {
+            "product_id": 34,
+            "product_name": "Kjernejournal",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/produkter/produktbeskrivelser/34-Kjernejournal-produkt-canvas-v1-codex.md",
+            "product_url": "/NA-kunnskap/produkter/34-Kjernejournal-produkt-canvas-v1-codex/",
+            "capabilities": [
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+                    "explanation": "Kjernejournal bruker opplysninger fra flere kilder for å gi helsepersonell relevant informasjon ved behov.",
+                    "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
+                    "subcapability_name": "Bruke data fra andre",
+                    "subcapability_slug": "bruke-data-fra-andre"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Kjernejournal gjør utvalgte helseopplysninger tilgjengelige på tvers av behandlingssteder.",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre"
+                },
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "Kjernejournal støtter samhandling mellom helsevirksomheter gjennom felles tilgang til sentrale opplysninger.",
+                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
+                    "subcapability_name": "Organisatorisk samhandling",
+                    "subcapability_slug": "organisatorisk-samhandling"
+                }
+            ]
+        },
+        {
+            "product_id": 35,
+            "product_name": "e-resept",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/produkter/produktbeskrivelser/35-e-resept-produkt-canvas-v1-codex.md",
+            "product_url": "/NA-kunnskap/produkter/35-e-resept-produkt-canvas-v1-codex/",
+            "capabilities": [
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+                    "explanation": "e-resept inngår i et samhandlingsløp der flere aktører bruker og oppdaterer relevant informasjon.",
+                    "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
+                    "subcapability_name": "Bruke data fra andre",
+                    "subcapability_slug": "bruke-data-fra-andre"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                    "explanation": "e-resept formidler reseptinformasjon digitalt mellom forskriver, apotek og andre relevante aktører.",
+                    "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
+                    "subcapability_name": "Meldingsformidling",
+                    "subcapability_slug": "meldingsformidling"
+                },
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "e-resept er en felles nasjonal samhandlingsløsning for reseptprosesser i helsesektoren.",
+                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
+                    "subcapability_name": "Organisatorisk samhandling",
+                    "subcapability_slug": "organisatorisk-samhandling"
+                }
+            ]
+        },
+        {
+            "product_id": 62,
+            "product_name": "DSOP-tjenester",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/produkter/produktbeskrivelser/62-DSOP-tjenester-produkt-canvas-v1-codex.md",
+            "product_url": "/NA-kunnskap/produkter/62-DSOP-tjenester-produkt-canvas-v1-codex/",
+            "capabilities": [
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "DSOP-tjenestene muliggjør kontrollert datadeling mellom offentlige virksomheter og finansnæringen.",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre"
+                },
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "DSOP bygger på organisert samhandling og felles utvikling mellom offentlig og privat sektor.",
+                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
+                    "subcapability_name": "Organisatorisk samhandling",
+                    "subcapability_slug": "organisatorisk-samhandling"
+                }
+            ]
+        },
+        {
+            "product_id": 64,
+            "product_name": "HPR",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/produkter/produktbeskrivelser/64-HPR-produkt-canvas-v1-codex.md",
+            "product_url": "/NA-kunnskap/produkter/64-HPR-produkt-canvas-v1-codex/",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "HPR er den autoritative kilden for grunnleggende opplysninger om helsepersonell og autorisasjonsstatus.",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "HPR gjør registeropplysninger tilgjengelige for virksomheter og brukere som trenger dem.",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre"
+                }
+            ]
+        },
+        {
+            "product_id": 36,
+            "product_name": "Aa-registeret",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/produkter/produktbeskrivelser/36-Aa-registeret-produkt-canvas-v1-codex.md",
+            "product_url": "/NA-kunnskap/produkter/36-Aa-registeret-produkt-canvas-v1-codex/",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "Aa-registeret er den nasjonale kilden for grunnleggende opplysninger om arbeidsforhold.",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+                    "explanation": "Aa-registeret inngår i samspill med rapportering og andre datakilder for å holde arbeidsforholdsdata oppdatert.",
+                    "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
+                    "subcapability_name": "Bruke data fra andre",
+                    "subcapability_slug": "bruke-data-fra-andre"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Aa-registeret gjør arbeidsforholdsdata tilgjengelige for offentlige etater og andre aktører med hjemmel.",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre"
+                },
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                    "explanation": "Aa-registeret gir arbeidsgivere og arbeidstakere innsyn i egne opplysninger som del av en sammenhengende offentlig tjeneste.",
+                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
+                    "subcapability_name": "Sammenhengende tjenester",
+                    "subcapability_slug": "sammenhengende-tjenester"
+                }
+            ]
+        },
+        {
+            "product_id": 66,
+            "product_name": "NAIS",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/produkter/produktbeskrivelser/66-NAIS-produkt-canvas-v1-codex.md",
+            "product_url": "/NA-kunnskap/produkter/66-NAIS-produkt-canvas-v1-codex/",
+            "capabilities": [
+                {
+                    "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
+                    "capability_name": "Tjenesteutvikling",
+                    "capability_slug": "tjenesteutvikling",
+                    "mapping_label": "Tjenesteutvikling: Gjenbrukbare tjenester",
+                    "explanation": "NAIS tilbyr felles plattformkapabiliteter og byggeklosser som utviklingsteam kan gjenbruke.",
+                    "subcapability_id": "id-f696350f5d844a96854deadb83bc3c81",
+                    "subcapability_name": "Gjenbrukbare tjenester",
+                    "subcapability_slug": "gjenbrukbare-tjenester"
+                },
+                {
+                    "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
+                    "capability_name": "Tjenesteutvikling",
+                    "capability_slug": "tjenesteutvikling",
+                    "mapping_label": "Tjenesteutvikling: Utviklings- og kjøretidsmiljø",
+                    "explanation": "NAIS gir et standardisert miljø for utvikling, utrulling og drift av applikasjoner.",
+                    "subcapability_id": "id-ce84b9b6943f4789bca153c0ed15245a",
+                    "subcapability_name": "Utviklings- og kjøretidsmiljø",
+                    "subcapability_slug": "utviklings-og-kjoretidsmiljo"
+                }
+            ]
         }
     ],
     "capabilities": [
@@ -1852,6 +2452,56 @@
                     "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
                     "subcapability_name": "Organisatorisk samhandling",
                     "subcapability_slug": "organisatorisk-samhandling"
+                },
+                {
+                    "product_id": 59,
+                    "product_name": "A-ordningen",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/59-A-ordningen-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/59-A-ordningen-produkt-canvas-v1-codex/",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "A-ordningen er en samforvaltet ordning mellom Skatteetaten, NAV og SSB med felles rapporterings- og datagrunnlag."
+                },
+                {
+                    "product_id": 48,
+                    "product_name": "Felles studentsystem (FS)",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/48-Felles-studentsystem-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/48-Felles-studentsystem-produkt-canvas-v1-codex/",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "FS er en felles sektorløsning som brukes av mange utdanningsinstitusjoner med Sikt som felles forvalter."
+                },
+                {
+                    "product_id": 34,
+                    "product_name": "Kjernejournal",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/34-Kjernejournal-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/34-Kjernejournal-produkt-canvas-v1-codex/",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "Kjernejournal støtter samhandling mellom helsevirksomheter gjennom felles tilgang til sentrale opplysninger."
+                },
+                {
+                    "product_id": 35,
+                    "product_name": "e-resept",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/35-e-resept-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/35-e-resept-produkt-canvas-v1-codex/",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "e-resept er en felles nasjonal samhandlingsløsning for reseptprosesser i helsesektoren."
+                },
+                {
+                    "product_id": 62,
+                    "product_name": "DSOP-tjenester",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/62-DSOP-tjenester-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/62-DSOP-tjenester-produkt-canvas-v1-codex/",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "DSOP bygger på organisert samhandling og felles utvikling mellom offentlig og privat sektor."
                 }
             ],
             "subcapabilities": [
@@ -1951,6 +2601,56 @@
                             "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
                             "subcapability_name": "Organisatorisk samhandling",
                             "subcapability_slug": "organisatorisk-samhandling"
+                        },
+                        {
+                            "product_id": 59,
+                            "product_name": "A-ordningen",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/59-A-ordningen-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/59-A-ordningen-produkt-canvas-v1-codex/",
+                            "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                            "explanation": "A-ordningen er en samforvaltet ordning mellom Skatteetaten, NAV og SSB med felles rapporterings- og datagrunnlag."
+                        },
+                        {
+                            "product_id": 48,
+                            "product_name": "Felles studentsystem (FS)",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/48-Felles-studentsystem-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/48-Felles-studentsystem-produkt-canvas-v1-codex/",
+                            "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                            "explanation": "FS er en felles sektorløsning som brukes av mange utdanningsinstitusjoner med Sikt som felles forvalter."
+                        },
+                        {
+                            "product_id": 34,
+                            "product_name": "Kjernejournal",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/34-Kjernejournal-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/34-Kjernejournal-produkt-canvas-v1-codex/",
+                            "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                            "explanation": "Kjernejournal støtter samhandling mellom helsevirksomheter gjennom felles tilgang til sentrale opplysninger."
+                        },
+                        {
+                            "product_id": 35,
+                            "product_name": "e-resept",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/35-e-resept-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/35-e-resept-produkt-canvas-v1-codex/",
+                            "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                            "explanation": "e-resept er en felles nasjonal samhandlingsløsning for reseptprosesser i helsesektoren."
+                        },
+                        {
+                            "product_id": 62,
+                            "product_name": "DSOP-tjenester",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/62-DSOP-tjenester-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/62-DSOP-tjenester-produkt-canvas-v1-codex/",
+                            "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                            "explanation": "DSOP bygger på organisert samhandling og felles utvikling mellom offentlig og privat sektor."
                         }
                     ]
                 },
@@ -2119,6 +2819,46 @@
                     "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
                     "subcapability_name": "Sammenhengende tjenester",
                     "subcapability_slug": "sammenhengende-tjenester"
+                },
+                {
+                    "product_id": 32,
+                    "product_name": "Helsenorge",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/32-Helsenorge-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/32-Helsenorge-produkt-canvas-v1-codex/",
+                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                    "explanation": "Helsenorge samler informasjon og digitale helsetjenester i en felles innbyggerflate."
+                },
+                {
+                    "product_id": 32,
+                    "product_name": "Helsenorge",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/32-Helsenorge-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/32-Helsenorge-produkt-canvas-v1-codex/",
+                    "mapping_label": "Sluttbrukertjenester: Tjenestekjeder",
+                    "explanation": "Helsenorge lar brukeren bevege seg mellom informasjon, innlogging og flere helserelaterte tjenester i samme produktflate."
+                },
+                {
+                    "product_id": 31,
+                    "product_name": "Helsedata.no",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/31-Helsedata-no-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/31-Helsedata-no-produkt-canvas-v1-codex/",
+                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                    "explanation": "Helsedata.no samler veiledning og tilgangsløp i en sammenhengende nasjonal brukerflate."
+                },
+                {
+                    "product_id": 36,
+                    "product_name": "Aa-registeret",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/36-Aa-registeret-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/36-Aa-registeret-produkt-canvas-v1-codex/",
+                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                    "explanation": "Aa-registeret gir arbeidsgivere og arbeidstakere innsyn i egne opplysninger som del av en sammenhengende offentlig tjeneste."
                 }
             ],
             "subcapabilities": [
@@ -2218,6 +2958,36 @@
                             "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
                             "subcapability_name": "Sammenhengende tjenester",
                             "subcapability_slug": "sammenhengende-tjenester"
+                        },
+                        {
+                            "product_id": 32,
+                            "product_name": "Helsenorge",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/32-Helsenorge-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/32-Helsenorge-produkt-canvas-v1-codex/",
+                            "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                            "explanation": "Helsenorge samler informasjon og digitale helsetjenester i en felles innbyggerflate."
+                        },
+                        {
+                            "product_id": 31,
+                            "product_name": "Helsedata.no",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/31-Helsedata-no-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/31-Helsedata-no-produkt-canvas-v1-codex/",
+                            "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                            "explanation": "Helsedata.no samler veiledning og tilgangsløp i en sammenhengende nasjonal brukerflate."
+                        },
+                        {
+                            "product_id": 36,
+                            "product_name": "Aa-registeret",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/36-Aa-registeret-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/36-Aa-registeret-produkt-canvas-v1-codex/",
+                            "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                            "explanation": "Aa-registeret gir arbeidsgivere og arbeidstakere innsyn i egne opplysninger som del av en sammenhengende offentlig tjeneste."
                         }
                     ]
                 },
@@ -2252,6 +3022,16 @@
                             "subcapability_id": "id-825b1ea1217b4eedb6caae165aeb8e41",
                             "subcapability_name": "Tjenestekjeder",
                             "subcapability_slug": "tjenestekjeder"
+                        },
+                        {
+                            "product_id": 32,
+                            "product_name": "Helsenorge",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/32-Helsenorge-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/32-Helsenorge-produkt-canvas-v1-codex/",
+                            "mapping_label": "Sluttbrukertjenester: Tjenestekjeder",
+                            "explanation": "Helsenorge lar brukeren bevege seg mellom informasjon, innlogging og flere helserelaterte tjenester i samme produktflate."
                         }
                     ]
                 },
@@ -2610,6 +3390,32 @@
                     "subcapability_slug": "bruke-data-fra-andre"
                 },
                 {
+                    "product_id": 33,
+                    "product_name": "HelseID",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/33-HelseID-produkt-canvas-v1-codex.md",
+                    "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/33-HelseID-produkt-canvas-v1-codex.md",
+                    "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+                    "explanation": "gjør det mulig å bruke sektorfelles API-er og informasjonstjenester gjennom et felles tillits- og autentiseringsmønster",
+                    "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
+                    "subcapability_name": "Bruke data fra andre",
+                    "subcapability_slug": "bruke-data-fra-andre"
+                },
+                {
+                    "product_id": 39,
+                    "product_name": "Matrikkelen",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/39-Matrikkelen-produkt-canvas-v1-codex.md",
+                    "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/39-Matrikkelen-produkt-canvas-v1-codex.md",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "gjør opplysninger fra Matrikkelen tilgjengelige for mange andre virksomheter og tjenester som trenger eiendoms- og adressegrunnlag",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre"
+                },
+                {
                     "product_id": 47,
                     "product_name": "Feide",
                     "version": 1,
@@ -2686,6 +3492,166 @@
                     "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
                     "subcapability_name": "Bruke data fra andre",
                     "subcapability_slug": "bruke-data-fra-andre"
+                },
+                {
+                    "product_id": 37,
+                    "product_name": "Folkeregisteret",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/37-Folkeregisteret-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/37-Folkeregisteret-produkt-canvas-v1-codex/",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Folkeregisteret deler personopplysninger gjennom kontrollerte delingstjenester og oppslag til virksomheter med hjemmel."
+                },
+                {
+                    "product_id": 46,
+                    "product_name": "Enhetsregisteret",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/46-Enhetsregisteret-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/46-Enhetsregisteret-produkt-canvas-v1-codex/",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Enhetsregisteret tilgjengeliggjør virksomhetsdata gjennom åpne tjenester, daglige endringer og maskinell tilgang."
+                },
+                {
+                    "product_id": 38,
+                    "product_name": "Skatteetatens delingstjenester",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/38-Skatteetatens-delingstjenester-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/38-Skatteetatens-delingstjenester-produkt-canvas-v1-codex/",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Skatteetatens delingstjenester tilgjengeliggjør data fra etaten til andre virksomheter gjennom kontrollerte API-er og avtalte tilgangsløp."
+                },
+                {
+                    "product_id": 59,
+                    "product_name": "A-ordningen",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/59-A-ordningen-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/59-A-ordningen-produkt-canvas-v1-codex/",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "A-ordningen gjør rapporterte opplysninger tilgjengelige for flere etater og andre aktører med hjemmel eller samtykke."
+                },
+                {
+                    "product_id": 48,
+                    "product_name": "Felles studentsystem (FS)",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/48-Felles-studentsystem-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/48-Felles-studentsystem-produkt-canvas-v1-codex/",
+                    "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+                    "explanation": "FS inngår i flere samhandlingsløp og mottar opplysninger som del av studieadministrative prosesser."
+                },
+                {
+                    "product_id": 48,
+                    "product_name": "Felles studentsystem (FS)",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/48-Felles-studentsystem-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/48-Felles-studentsystem-produkt-canvas-v1-codex/",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "FS tilbyr API-er og integrasjonsflater som gjør student- og studiedata tilgjengelige for andre tjenester og systemer."
+                },
+                {
+                    "product_id": 50,
+                    "product_name": "Nasjonal vitnemålsdatabase (NVB)",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/50-Nasjonal-vitnemalsdatabase-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/50-Nasjonal-vitnemalsdatabase-produkt-canvas-v1-codex/",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "NVB gjør vitnemålsdata tilgjengelige for opptaksmiljøer og andre aktører som har grunnlag for å bruke dem."
+                },
+                {
+                    "product_id": 40,
+                    "product_name": "Geonorge",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/40-Geonorge-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/40-Geonorge-produkt-canvas-v1-codex/",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Geonorge tilbyr katalog, distribusjon og API-er som gjør geodata tilgjengelige for videre bruk."
+                },
+                {
+                    "product_id": 34,
+                    "product_name": "Kjernejournal",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/34-Kjernejournal-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/34-Kjernejournal-produkt-canvas-v1-codex/",
+                    "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+                    "explanation": "Kjernejournal bruker opplysninger fra flere kilder for å gi helsepersonell relevant informasjon ved behov."
+                },
+                {
+                    "product_id": 34,
+                    "product_name": "Kjernejournal",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/34-Kjernejournal-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/34-Kjernejournal-produkt-canvas-v1-codex/",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Kjernejournal gjør utvalgte helseopplysninger tilgjengelige på tvers av behandlingssteder."
+                },
+                {
+                    "product_id": 35,
+                    "product_name": "e-resept",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/35-e-resept-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/35-e-resept-produkt-canvas-v1-codex/",
+                    "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+                    "explanation": "e-resept inngår i et samhandlingsløp der flere aktører bruker og oppdaterer relevant informasjon."
+                },
+                {
+                    "product_id": 35,
+                    "product_name": "e-resept",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/35-e-resept-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/35-e-resept-produkt-canvas-v1-codex/",
+                    "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                    "explanation": "e-resept formidler reseptinformasjon digitalt mellom forskriver, apotek og andre relevante aktører."
+                },
+                {
+                    "product_id": 62,
+                    "product_name": "DSOP-tjenester",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/62-DSOP-tjenester-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/62-DSOP-tjenester-produkt-canvas-v1-codex/",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "DSOP-tjenestene muliggjør kontrollert datadeling mellom offentlige virksomheter og finansnæringen."
+                },
+                {
+                    "product_id": 64,
+                    "product_name": "HPR",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/64-HPR-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/64-HPR-produkt-canvas-v1-codex/",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "HPR gjør registeropplysninger tilgjengelige for virksomheter og brukere som trenger dem."
+                },
+                {
+                    "product_id": 36,
+                    "product_name": "Aa-registeret",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/36-Aa-registeret-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/36-Aa-registeret-produkt-canvas-v1-codex/",
+                    "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+                    "explanation": "Aa-registeret inngår i samspill med rapportering og andre datakilder for å holde arbeidsforholdsdata oppdatert."
+                },
+                {
+                    "product_id": 36,
+                    "product_name": "Aa-registeret",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/36-Aa-registeret-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/36-Aa-registeret-produkt-canvas-v1-codex/",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Aa-registeret gjør arbeidsforholdsdata tilgjengelige for offentlige etater og andre aktører med hjemmel."
                 }
             ],
             "subcapabilities": [
@@ -2774,6 +3740,19 @@
                             "subcapability_slug": "dele-data-med-andre"
                         },
                         {
+                            "product_id": 39,
+                            "product_name": "Matrikkelen",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/39-Matrikkelen-produkt-canvas-v1-codex.md",
+                            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/39-Matrikkelen-produkt-canvas-v1-codex.md",
+                            "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                            "explanation": "gjør opplysninger fra Matrikkelen tilgjengelige for mange andre virksomheter og tjenester som trenger eiendoms- og adressegrunnlag",
+                            "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                            "subcapability_name": "Dele data med andre",
+                            "subcapability_slug": "dele-data-med-andre"
+                        },
+                        {
                             "product_id": 47,
                             "product_name": "Feide",
                             "version": 1,
@@ -2798,6 +3777,116 @@
                             "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
                             "subcapability_name": "Dele data med andre",
                             "subcapability_slug": "dele-data-med-andre"
+                        },
+                        {
+                            "product_id": 37,
+                            "product_name": "Folkeregisteret",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/37-Folkeregisteret-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/37-Folkeregisteret-produkt-canvas-v1-codex/",
+                            "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                            "explanation": "Folkeregisteret deler personopplysninger gjennom kontrollerte delingstjenester og oppslag til virksomheter med hjemmel."
+                        },
+                        {
+                            "product_id": 46,
+                            "product_name": "Enhetsregisteret",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/46-Enhetsregisteret-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/46-Enhetsregisteret-produkt-canvas-v1-codex/",
+                            "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                            "explanation": "Enhetsregisteret tilgjengeliggjør virksomhetsdata gjennom åpne tjenester, daglige endringer og maskinell tilgang."
+                        },
+                        {
+                            "product_id": 38,
+                            "product_name": "Skatteetatens delingstjenester",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/38-Skatteetatens-delingstjenester-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/38-Skatteetatens-delingstjenester-produkt-canvas-v1-codex/",
+                            "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                            "explanation": "Skatteetatens delingstjenester tilgjengeliggjør data fra etaten til andre virksomheter gjennom kontrollerte API-er og avtalte tilgangsløp."
+                        },
+                        {
+                            "product_id": 59,
+                            "product_name": "A-ordningen",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/59-A-ordningen-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/59-A-ordningen-produkt-canvas-v1-codex/",
+                            "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                            "explanation": "A-ordningen gjør rapporterte opplysninger tilgjengelige for flere etater og andre aktører med hjemmel eller samtykke."
+                        },
+                        {
+                            "product_id": 48,
+                            "product_name": "Felles studentsystem (FS)",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/48-Felles-studentsystem-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/48-Felles-studentsystem-produkt-canvas-v1-codex/",
+                            "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                            "explanation": "FS tilbyr API-er og integrasjonsflater som gjør student- og studiedata tilgjengelige for andre tjenester og systemer."
+                        },
+                        {
+                            "product_id": 50,
+                            "product_name": "Nasjonal vitnemålsdatabase (NVB)",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/50-Nasjonal-vitnemalsdatabase-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/50-Nasjonal-vitnemalsdatabase-produkt-canvas-v1-codex/",
+                            "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                            "explanation": "NVB gjør vitnemålsdata tilgjengelige for opptaksmiljøer og andre aktører som har grunnlag for å bruke dem."
+                        },
+                        {
+                            "product_id": 40,
+                            "product_name": "Geonorge",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/40-Geonorge-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/40-Geonorge-produkt-canvas-v1-codex/",
+                            "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                            "explanation": "Geonorge tilbyr katalog, distribusjon og API-er som gjør geodata tilgjengelige for videre bruk."
+                        },
+                        {
+                            "product_id": 34,
+                            "product_name": "Kjernejournal",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/34-Kjernejournal-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/34-Kjernejournal-produkt-canvas-v1-codex/",
+                            "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                            "explanation": "Kjernejournal gjør utvalgte helseopplysninger tilgjengelige på tvers av behandlingssteder."
+                        },
+                        {
+                            "product_id": 62,
+                            "product_name": "DSOP-tjenester",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/62-DSOP-tjenester-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/62-DSOP-tjenester-produkt-canvas-v1-codex/",
+                            "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                            "explanation": "DSOP-tjenestene muliggjør kontrollert datadeling mellom offentlige virksomheter og finansnæringen."
+                        },
+                        {
+                            "product_id": 64,
+                            "product_name": "HPR",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/64-HPR-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/64-HPR-produkt-canvas-v1-codex/",
+                            "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                            "explanation": "HPR gjør registeropplysninger tilgjengelige for virksomheter og brukere som trenger dem."
+                        },
+                        {
+                            "product_id": 36,
+                            "product_name": "Aa-registeret",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/36-Aa-registeret-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/36-Aa-registeret-produkt-canvas-v1-codex/",
+                            "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                            "explanation": "Aa-registeret gjør arbeidsforholdsdata tilgjengelige for offentlige etater og andre aktører med hjemmel."
                         }
                     ]
                 },
@@ -2899,6 +3988,19 @@
                             "subcapability_slug": "bruke-data-fra-andre"
                         },
                         {
+                            "product_id": 33,
+                            "product_name": "HelseID",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/33-HelseID-produkt-canvas-v1-codex.md",
+                            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/33-HelseID-produkt-canvas-v1-codex.md",
+                            "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+                            "explanation": "gjør det mulig å bruke sektorfelles API-er og informasjonstjenester gjennom et felles tillits- og autentiseringsmønster",
+                            "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
+                            "subcapability_name": "Bruke data fra andre",
+                            "subcapability_slug": "bruke-data-fra-andre"
+                        },
+                        {
                             "product_id": 67,
                             "product_name": "Fiks folkeregister",
                             "version": 1,
@@ -2936,6 +4038,46 @@
                             "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
                             "subcapability_name": "Bruke data fra andre",
                             "subcapability_slug": "bruke-data-fra-andre"
+                        },
+                        {
+                            "product_id": 48,
+                            "product_name": "Felles studentsystem (FS)",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/48-Felles-studentsystem-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/48-Felles-studentsystem-produkt-canvas-v1-codex/",
+                            "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+                            "explanation": "FS inngår i flere samhandlingsløp og mottar opplysninger som del av studieadministrative prosesser."
+                        },
+                        {
+                            "product_id": 34,
+                            "product_name": "Kjernejournal",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/34-Kjernejournal-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/34-Kjernejournal-produkt-canvas-v1-codex/",
+                            "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+                            "explanation": "Kjernejournal bruker opplysninger fra flere kilder for å gi helsepersonell relevant informasjon ved behov."
+                        },
+                        {
+                            "product_id": 35,
+                            "product_name": "e-resept",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/35-e-resept-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/35-e-resept-produkt-canvas-v1-codex/",
+                            "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+                            "explanation": "e-resept inngår i et samhandlingsløp der flere aktører bruker og oppdaterer relevant informasjon."
+                        },
+                        {
+                            "product_id": 36,
+                            "product_name": "Aa-registeret",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/36-Aa-registeret-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/36-Aa-registeret-produkt-canvas-v1-codex/",
+                            "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+                            "explanation": "Aa-registeret inngår i samspill med rapportering og andre datakilder for å holde arbeidsforholdsdata oppdatert."
                         }
                     ]
                 },
@@ -3074,6 +4216,16 @@
                             "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
                             "subcapability_name": "Meldingsformidling",
                             "subcapability_slug": "meldingsformidling"
+                        },
+                        {
+                            "product_id": 35,
+                            "product_name": "e-resept",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/35-e-resept-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/35-e-resept-produkt-canvas-v1-codex/",
+                            "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                            "explanation": "e-resept formidler reseptinformasjon digitalt mellom forskriver, apotek og andre relevante aktører."
                         }
                     ]
                 },
@@ -3432,6 +4584,32 @@
                     "subcapability_slug": "tilgangskontroll"
                 },
                 {
+                    "product_id": 33,
+                    "product_name": "HelseID",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/33-HelseID-produkt-canvas-v1-codex.md",
+                    "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/33-HelseID-produkt-canvas-v1-codex.md",
+                    "mapping_label": "Tillit: Autentisering",
+                    "explanation": "er en kjernefunksjon ved at HelseID bekrefter identiteten til helsepersonell, systemer og virksomheter",
+                    "subcapability_id": "id-ec0afaac123d4f9e83889d9022a198c3",
+                    "subcapability_name": "Autentisering",
+                    "subcapability_slug": "autentisering"
+                },
+                {
+                    "product_id": 33,
+                    "product_name": "HelseID",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/33-HelseID-produkt-canvas-v1-codex.md",
+                    "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/33-HelseID-produkt-canvas-v1-codex.md",
+                    "mapping_label": "Tillit: Tilgangskontroll",
+                    "explanation": "gir grunnlag for at tjenestetilbydere kan etablere regler for hvem og hva som får tilgang til beskyttede tjenester og API-er",
+                    "subcapability_id": "id-a8a1eb0181f04006ba7d3b5ab2fa9ca8",
+                    "subcapability_name": "Tilgangskontroll",
+                    "subcapability_slug": "tilgangskontroll"
+                },
+                {
                     "product_id": 47,
                     "product_name": "Feide",
                     "version": 1,
@@ -3531,6 +4709,19 @@
                             "subcapability_slug": "autentisering"
                         },
                         {
+                            "product_id": 33,
+                            "product_name": "HelseID",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/33-HelseID-produkt-canvas-v1-codex.md",
+                            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/33-HelseID-produkt-canvas-v1-codex.md",
+                            "mapping_label": "Tillit: Autentisering",
+                            "explanation": "er en kjernefunksjon ved at HelseID bekrefter identiteten til helsepersonell, systemer og virksomheter",
+                            "subcapability_id": "id-ec0afaac123d4f9e83889d9022a198c3",
+                            "subcapability_name": "Autentisering",
+                            "subcapability_slug": "autentisering"
+                        },
+                        {
                             "product_id": 47,
                             "product_name": "Feide",
                             "version": 1,
@@ -3625,6 +4816,19 @@
                             "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/24-Varslinger-produkt-canvas-v5-codex.md",
                             "mapping_label": "Tillit: Tilgangskontroll",
                             "explanation": "bruker autorisasjon for å finne riktige mottakere i organisasjonskontekst",
+                            "subcapability_id": "id-a8a1eb0181f04006ba7d3b5ab2fa9ca8",
+                            "subcapability_name": "Tilgangskontroll",
+                            "subcapability_slug": "tilgangskontroll"
+                        },
+                        {
+                            "product_id": 33,
+                            "product_name": "HelseID",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/33-HelseID-produkt-canvas-v1-codex.md",
+                            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/33-HelseID-produkt-canvas-v1-codex.md",
+                            "mapping_label": "Tillit: Tilgangskontroll",
+                            "explanation": "gir grunnlag for at tjenestetilbydere kan etablere regler for hvem og hva som får tilgang til beskyttede tjenester og API-er",
                             "subcapability_id": "id-a8a1eb0181f04006ba7d3b5ab2fa9ca8",
                             "subcapability_name": "Tilgangskontroll",
                             "subcapability_slug": "tilgangskontroll"
@@ -4097,6 +5301,19 @@
                     "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling"
                 },
                 {
+                    "product_id": 33,
+                    "product_name": "HelseID",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/33-HelseID-produkt-canvas-v1-codex.md",
+                    "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/33-HelseID-produkt-canvas-v1-codex.md",
+                    "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
+                    "explanation": "beskytter innloggingsflyt, tokenbruk og deling av identitets- og tilgangsinformasjon i digital samhandling",
+                    "subcapability_id": "id-34d3d64b3afe4327a29ee6c2f7f74dff",
+                    "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
+                    "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling"
+                },
+                {
                     "product_id": 47,
                     "product_name": "Feide",
                     "version": 1,
@@ -4276,6 +5493,19 @@
                             "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v2-codex.md",
                             "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
                             "explanation": "støtter sikre meldingsløp og publiserer sikkerhetsunderlag for bruk av flere kanaler.",
+                            "subcapability_id": "id-34d3d64b3afe4327a29ee6c2f7f74dff",
+                            "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
+                            "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling"
+                        },
+                        {
+                            "product_id": 33,
+                            "product_name": "HelseID",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/33-HelseID-produkt-canvas-v1-codex.md",
+                            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/33-HelseID-produkt-canvas-v1-codex.md",
+                            "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
+                            "explanation": "beskytter innloggingsflyt, tokenbruk og deling av identitets- og tilgangsinformasjon i digital samhandling",
                             "subcapability_id": "id-34d3d64b3afe4327a29ee6c2f7f74dff",
                             "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
                             "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling"
@@ -4510,6 +5740,26 @@
                     "subcapability_id": "id-ce84b9b6943f4789bca153c0ed15245a",
                     "subcapability_name": "Utviklings- og kjøretidsmiljø",
                     "subcapability_slug": "utviklings-og-kjoretidsmiljo"
+                },
+                {
+                    "product_id": 66,
+                    "product_name": "NAIS",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/66-NAIS-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/66-NAIS-produkt-canvas-v1-codex/",
+                    "mapping_label": "Tjenesteutvikling: Gjenbrukbare tjenester",
+                    "explanation": "NAIS tilbyr felles plattformkapabiliteter og byggeklosser som utviklingsteam kan gjenbruke."
+                },
+                {
+                    "product_id": 66,
+                    "product_name": "NAIS",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/66-NAIS-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/66-NAIS-produkt-canvas-v1-codex/",
+                    "mapping_label": "Tjenesteutvikling: Utviklings- og kjøretidsmiljø",
+                    "explanation": "NAIS gir et standardisert miljø for utvikling, utrulling og drift av applikasjoner."
                 }
             ],
             "subcapabilities": [
@@ -4544,6 +5794,16 @@
                             "subcapability_id": "id-ce84b9b6943f4789bca153c0ed15245a",
                             "subcapability_name": "Utviklings- og kjøretidsmiljø",
                             "subcapability_slug": "utviklings-og-kjoretidsmiljo"
+                        },
+                        {
+                            "product_id": 66,
+                            "product_name": "NAIS",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/66-NAIS-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/66-NAIS-produkt-canvas-v1-codex/",
+                            "mapping_label": "Tjenesteutvikling: Utviklings- og kjøretidsmiljø",
+                            "explanation": "NAIS gir et standardisert miljø for utvikling, utrulling og drift av applikasjoner."
                         }
                     ]
                 },
@@ -4716,6 +5976,16 @@
                             "subcapability_id": "id-f696350f5d844a96854deadb83bc3c81",
                             "subcapability_name": "Gjenbrukbare tjenester",
                             "subcapability_slug": "gjenbrukbare-tjenester"
+                        },
+                        {
+                            "product_id": 66,
+                            "product_name": "NAIS",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/66-NAIS-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/66-NAIS-produkt-canvas-v1-codex/",
+                            "mapping_label": "Tjenesteutvikling: Gjenbrukbare tjenester",
+                            "explanation": "NAIS tilbyr felles plattformkapabiliteter og byggeklosser som utviklingsteam kan gjenbruke."
                         }
                     ]
                 },
@@ -5007,6 +6277,26 @@
                     "subcapability_id": "id-d9374751da7d4b36bb0b3be609ff7d28",
                     "subcapability_name": "Oversikt over tjenester",
                     "subcapability_slug": "oversikt-over-tjenester"
+                },
+                {
+                    "product_id": 48,
+                    "product_name": "Felles studentsystem (FS)",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/48-Felles-studentsystem-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/48-Felles-studentsystem-produkt-canvas-v1-codex/",
+                    "mapping_label": "Informasjonsforvaltning: Datastyring",
+                    "explanation": "FS forvalter og vedlikeholder store mengder studie- og studentdata som må struktureres og kvalitetssikres over tid."
+                },
+                {
+                    "product_id": 31,
+                    "product_name": "Helsedata.no",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/31-Helsedata-no-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/31-Helsedata-no-produkt-canvas-v1-codex/",
+                    "mapping_label": "Informasjonsforvaltning: Datastyring",
+                    "explanation": "Helsedata.no støtter strukturert forvaltning og tilgjengeliggjøring av informasjon om helsedata og tilgangsløp."
                 }
             ],
             "subcapabilities": [
@@ -5318,6 +6608,26 @@
                             "subcapability_id": "id-5852d070415849fab42749cb488d984a",
                             "subcapability_name": "Datastyring",
                             "subcapability_slug": "datastyring"
+                        },
+                        {
+                            "product_id": 48,
+                            "product_name": "Felles studentsystem (FS)",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/48-Felles-studentsystem-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/48-Felles-studentsystem-produkt-canvas-v1-codex/",
+                            "mapping_label": "Informasjonsforvaltning: Datastyring",
+                            "explanation": "FS forvalter og vedlikeholder store mengder studie- og studentdata som må struktureres og kvalitetssikres over tid."
+                        },
+                        {
+                            "product_id": 31,
+                            "product_name": "Helsedata.no",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/31-Helsedata-no-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/31-Helsedata-no-produkt-canvas-v1-codex/",
+                            "mapping_label": "Informasjonsforvaltning: Datastyring",
+                            "explanation": "Helsedata.no støtter strukturert forvaltning og tilgjengeliggjøring av informasjon om helsedata og tilgangsløp."
                         }
                     ]
                 }
@@ -5579,6 +6889,19 @@
                     "subcapability_slug": "grunndata"
                 },
                 {
+                    "product_id": 39,
+                    "product_name": "Matrikkelen",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/39-Matrikkelen-produkt-canvas-v1-codex.md",
+                    "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/39-Matrikkelen-produkt-canvas-v1-codex.md",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "er kjernefunksjonen ved at Matrikkelen fungerer som autoritativ kilde for sentrale opplysninger om eiendommer, bygninger og adresser",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata"
+                },
+                {
                     "product_id": 67,
                     "product_name": "Fiks folkeregister",
                     "version": 1,
@@ -5616,6 +6939,66 @@
                     "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
                     "subcapability_name": "Grunndata",
                     "subcapability_slug": "grunndata"
+                },
+                {
+                    "product_id": 37,
+                    "product_name": "Folkeregisteret",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/37-Folkeregisteret-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/37-Folkeregisteret-produkt-canvas-v1-codex/",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "Folkeregisteret er et nasjonalt grunndataregister og den autoritative kilden for sentrale personopplysninger i Norge."
+                },
+                {
+                    "product_id": 46,
+                    "product_name": "Enhetsregisteret",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/46-Enhetsregisteret-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/46-Enhetsregisteret-produkt-canvas-v1-codex/",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "Enhetsregisteret er den autoritative kilden for basisopplysninger om virksomheter og tildeler organisasjonsnummer som felles identifikator."
+                },
+                {
+                    "product_id": 59,
+                    "product_name": "A-ordningen",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/59-A-ordningen-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/59-A-ordningen-produkt-canvas-v1-codex/",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "A-ordningen samler inn og vedlikeholder sentrale opplysninger om inntekt og arbeidsforhold som brukes bredt i offentlig forvaltning."
+                },
+                {
+                    "product_id": 50,
+                    "product_name": "Nasjonal vitnemålsdatabase (NVB)",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/50-Nasjonal-vitnemalsdatabase-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/50-Nasjonal-vitnemalsdatabase-produkt-canvas-v1-codex/",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "NVB forvalter autoritative vitnemålsopplysninger som brukes i opptak, dokumentasjon, statistikk og forskning."
+                },
+                {
+                    "product_id": 64,
+                    "product_name": "HPR",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/64-HPR-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/64-HPR-produkt-canvas-v1-codex/",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "HPR er den autoritative kilden for grunnleggende opplysninger om helsepersonell og autorisasjonsstatus."
+                },
+                {
+                    "product_id": 36,
+                    "product_name": "Aa-registeret",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/36-Aa-registeret-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/36-Aa-registeret-produkt-canvas-v1-codex/",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "Aa-registeret er den nasjonale kilden for grunnleggende opplysninger om arbeidsforhold."
                 }
             ],
             "subcapabilities": [
@@ -5647,6 +7030,19 @@
                             "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/28-FIKS-Register-produkt-canvas-v2-codex.md",
                             "mapping_label": "Datakilder: Grunndata",
                             "explanation": "gjør nasjonale grunndata og registeropplysninger tilgjengelige for kommunal sektor gjennom et samlet tilgangslag.",
+                            "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                            "subcapability_name": "Grunndata",
+                            "subcapability_slug": "grunndata"
+                        },
+                        {
+                            "product_id": 39,
+                            "product_name": "Matrikkelen",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/39-Matrikkelen-produkt-canvas-v1-codex.md",
+                            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/39-Matrikkelen-produkt-canvas-v1-codex.md",
+                            "mapping_label": "Datakilder: Grunndata",
+                            "explanation": "er kjernefunksjonen ved at Matrikkelen fungerer som autoritativ kilde for sentrale opplysninger om eiendommer, bygninger og adresser",
                             "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
                             "subcapability_name": "Grunndata",
                             "subcapability_slug": "grunndata"
@@ -5689,6 +7085,66 @@
                             "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
                             "subcapability_name": "Grunndata",
                             "subcapability_slug": "grunndata"
+                        },
+                        {
+                            "product_id": 37,
+                            "product_name": "Folkeregisteret",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/37-Folkeregisteret-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/37-Folkeregisteret-produkt-canvas-v1-codex/",
+                            "mapping_label": "Datakilder: Grunndata",
+                            "explanation": "Folkeregisteret er et nasjonalt grunndataregister og den autoritative kilden for sentrale personopplysninger i Norge."
+                        },
+                        {
+                            "product_id": 46,
+                            "product_name": "Enhetsregisteret",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/46-Enhetsregisteret-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/46-Enhetsregisteret-produkt-canvas-v1-codex/",
+                            "mapping_label": "Datakilder: Grunndata",
+                            "explanation": "Enhetsregisteret er den autoritative kilden for basisopplysninger om virksomheter og tildeler organisasjonsnummer som felles identifikator."
+                        },
+                        {
+                            "product_id": 59,
+                            "product_name": "A-ordningen",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/59-A-ordningen-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/59-A-ordningen-produkt-canvas-v1-codex/",
+                            "mapping_label": "Datakilder: Grunndata",
+                            "explanation": "A-ordningen samler inn og vedlikeholder sentrale opplysninger om inntekt og arbeidsforhold som brukes bredt i offentlig forvaltning."
+                        },
+                        {
+                            "product_id": 50,
+                            "product_name": "Nasjonal vitnemålsdatabase (NVB)",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/50-Nasjonal-vitnemalsdatabase-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/50-Nasjonal-vitnemalsdatabase-produkt-canvas-v1-codex/",
+                            "mapping_label": "Datakilder: Grunndata",
+                            "explanation": "NVB forvalter autoritative vitnemålsopplysninger som brukes i opptak, dokumentasjon, statistikk og forskning."
+                        },
+                        {
+                            "product_id": 64,
+                            "product_name": "HPR",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/64-HPR-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/64-HPR-produkt-canvas-v1-codex/",
+                            "mapping_label": "Datakilder: Grunndata",
+                            "explanation": "HPR er den autoritative kilden for grunnleggende opplysninger om helsepersonell og autorisasjonsstatus."
+                        },
+                        {
+                            "product_id": 36,
+                            "product_name": "Aa-registeret",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/36-Aa-registeret-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/36-Aa-registeret-produkt-canvas-v1-codex/",
+                            "mapping_label": "Datakilder: Grunndata",
+                            "explanation": "Aa-registeret er den nasjonale kilden for grunnleggende opplysninger om arbeidsforhold."
                         }
                     ]
                 },

@@ -2,7 +2,7 @@
 title: "Tjenesteutvikling"
 weight: 8
 description: "Evne til å utvikle sammenhengende digitale tjenester."
-cardMeta: "4 delkapabiliteter / 11 produkter"
+cardMeta: "4 delkapabiliteter / 12 produkter"
 productsMarkdown: |
   ## Relaterte produkter
   
@@ -19,6 +19,7 @@ productsMarkdown: |
   | Altinn Melding | [v5 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/23-Altinn-3-Melding-produkt-canvas-v5-codex.md) | Integrerbare tjenester | tilbyr API-er for sending, mottak og automatisert meldingshåndtering |
   | Altinn Varsling | [v5 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/24-Varslinger-produkt-canvas-v5-codex.md) | Integrerbare tjenester | tilbyr API-er for integrasjon med Altinn Apps, Altinn-tjenester og tjenesteeiersystemer |
   | Fiks-plattformen | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/25-FIKS-plattformen-produkt-canvas-v1-codex.md) | Integrerbare tjenester, Utviklings- og kjøretidsmiljø | Støtter flere delkapabiliteter i denne hovedkapabiliteten. |
+  | NAIS | [v1 (codex)](/NA-kunnskap/produkter/66-NAIS-produkt-canvas-v1-codex/) | Tjenesteutvikling | NAIS tilbyr felles plattformkapabiliteter og byggeklosser som utviklingsteam kan gjenbruke. |
 ---
 
 Evne til å utvikle sammenhengende digitale tjenester.

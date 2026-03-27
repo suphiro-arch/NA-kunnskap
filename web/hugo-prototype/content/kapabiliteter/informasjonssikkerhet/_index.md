@@ -2,7 +2,7 @@
 title: "Informasjonssikkerhet"
 weight: 7
 description: "Evne til å ha tilstrekkelig sikkerhet i tjenester og løsninger som benyttes i felles økosystem."
-cardMeta: "2 delkapabiliteter / 13 produkter"
+cardMeta: "2 delkapabiliteter / 14 produkter"
 productsMarkdown: |
   ## Relaterte produkter
   
@@ -20,6 +20,7 @@ productsMarkdown: |
   | Altinn Melding | [v5 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/23-Altinn-3-Melding-produkt-canvas-v5-codex.md) | Sikring av informasjonsflyt og datautveksling | beskytter innhold, vedlegg og overføringer i meldingsflyten |
   | Altinn Varsling | [v5 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/24-Varslinger-produkt-canvas-v5-codex.md) | Sikring av informasjonsflyt og datautveksling | er nødvendig fordi kontaktinformasjon og varslingsinnhold behandles gjennom flere kanaler og oppslag |
   | Fiks melding | [v2 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v2-codex.md) | Sikring av informasjonsflyt og datautveksling | støtter sikre meldingsløp og publiserer sikkerhetsunderlag for bruk av flere kanaler. |
+  | HelseID | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/33-HelseID-produkt-canvas-v1-codex.md) | Sikring av informasjonsflyt og datautveksling | beskytter innloggingsflyt, tokenbruk og deling av identitets- og tilgangsinformasjon i digital samhandling |
   | Feide | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/47-Feide-produkt-canvas-v1-codex.md) | Sikring av informasjonsflyt og datautveksling | beskytter påloggingsflyt, tokenutstedelse og overføring av brukeropplysninger mellom vertsorganisasjoner og tjenesteleverandører |
 ---
 

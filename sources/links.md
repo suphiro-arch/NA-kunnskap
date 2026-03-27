@@ -57,6 +57,11 @@ Sist redigert: 2026-03-19.
 ### Brønnøysundregistrene
 - Brønnøysundregistrene: https://www.brreg.no
 - Enhetsregisteret: https://www.brreg.no/enkelt-i-brreg/registre-og-teknologi/enhetsregister/
+- Om Enhetsregisteret: https://www.brreg.no/om-oss/registrene-vare/om-enhetsregisteret/ (lagt til 2026-03-27)
+- Om organisasjonsnummeret: https://www.brreg.no/om-oss/registrene-vare/om-enhetsregisteret/organisasjonsnummeret/ (lagt til 2026-03-27)
+- Full tilgang til Enhetsregisteret: https://www.brreg.no/bruke-data-fra-bronnoysundregistrene/abonnement/full-tilgang-enhetsregisteret/ (lagt til 2026-03-27)
+- Nøkkelopplysninger fra Enhetsregisteret: https://www.brreg.no/registersok/om-nokkelopplysninger-fra-enhetsregisteret/ (lagt til 2026-03-27)
+- Åpne data-varsler for Enhetsregisteret: https://www.brreg.no/varslingskategori/apne-data-enhetsregisteret/ (lagt til 2026-03-27)
 
 ### OpenPeppol
 - OpenPeppol: https://peppol.org/ (lagt til 2026-03-18)
@@ -66,11 +71,17 @@ Sist redigert: 2026-03-19.
 ### NAV
 - NAV hovedside: https://www.nav.no/
 - NAIS: https://nais.io/ (lagt til 2026-03-19)
+- NAV på GitHub: https://github.com/navikt (lagt til 2026-03-27)
+- Nais developer documentation: https://doc.nais.io/ (lagt til 2026-03-27)
+- What is Nais: https://doc.nais.io/explanations/nais/ (lagt til 2026-03-27)
+- Roles and responsibilities in Nais: https://doc.nais.io/legal/roles-responsibilities/ (lagt til 2026-03-27)
 - NAV registre og statistikk: https://www.nav.no/no/NAV+og+samfunn/Statistikk/og+fakta/registre/
 - DSOP: https://www.dsop.no/ (lagt til 2026-03-19)
 - DSOP-dokumentasjon (inkl. NAV-integrasjoner): https://dokumentasjon.dsop.no/
 - Aa-registeret: https://www.nav.no/arbeidsgiver/aa-registeret (lagt til 2026-03-18)
 - Aa-registeret - tilgang for samarbeidspartnere: https://www.nav.no/samarbeidspartner/tilgang-aa-registeret (lagt til 2026-03-18)
+- Aa-registeret - arbeidsforhold: https://www.nav.no/aa-registeret/arbeidsforhold (lagt til 2026-03-27)
+- Aa-registeret - brukerstøtte: https://www.nav.no/samarbeidspartner/brukerstotte-aa-registeret (lagt til 2026-03-27)
 
 ### KS / kommunal sektor
 - KS Digital tjenester: https://ksdigital.no/tjenester-2/
@@ -112,19 +123,31 @@ Sist redigert: 2026-03-19.
 
 ### Skatteetaten
 - Folkeregisteret: https://www.skatteetaten.no/person/folkeregister/
+- Dette er Folkeregisteret: https://www.skatteetaten.no/person/folkeregister/om/om/ (lagt til 2026-03-27)
 - A-ordningen: https://www.a-ordningen.no/ (lagt til 2026-03-19)
+- Om a-ordningen: https://www.skatteetaten.no/bedrift-og-organisasjon/arbeidsgiver/a-meldingen/om-a-ordningen/om-a-ordningen/ (lagt til 2026-03-27)
+- Kontakt a-ordningen: https://www.skatteetaten.no/bedrift-og-organisasjon/arbeidsgiver/a-meldingen/om-a-ordningen/kontakt-a-ordningen/ (lagt til 2026-03-27)
+- A-ordningen informasjonsmøte 12. mars 2026: https://www.skatteetaten.no/samarbeidspartnere/sluttbrukersystemer/sbs-nyheter/a-ordningen---informasjonsmote-12.-mars/ (lagt til 2026-03-27)
 - Digital plattforminformasjon (DPI): https://www.skatteetaten.no/bedrift-og-organisasjon/rapportering-og-bransjer/tredjepartsopplysninger/andre-bransjer/digital-plattforminformasjon-dpi/veiledning-for-digital-plattforminformasjon-dpi/
 - DSOP - felleskomponenter og integrasjoner: https://dokumentasjon.dsop.no/
 - KS-Skatteetaten segmentsamarbeid: https://ksdigital.no/tjenestene/fiks-register/segmentsamarbeid/
 - Skatteetaten - deling: https://www.skatteetaten.no/deling/ (lagt til 2026-03-18)
+- Hvorfor vi deler data: https://www.skatteetaten.no/deling/hvorfor-vi-deler-data/ (lagt til 2026-03-27)
+- Kontakt oss om deling av data: https://www.skatteetaten.no/deling/kontakt/ (lagt til 2026-03-27)
+- Bruksvilkår for delingstjenester om inntekt, skatt og restanser: https://www.skatteetaten.no/deling/bruksvilkar-for-delingstjenester/ (lagt til 2026-03-27)
+- Få tilgang til data fra Folkeregisteret: https://www.skatteetaten.no/nn/deling/folkeregisteret/intro/fa-tilgang/ (lagt til 2026-03-27)
+- Folkeregisterhåndboken - delingstjenester: https://www.skatteetaten.no/en/rettskilder/type/handboker/folkeregisterhandboken/gjeldende/kapittel10-utlevering-av-opplysninger-fra-registeret/ID-10-1.001/ID-10-1.003/ (lagt til 2026-03-27)
+- Folkeregisterhåndboken - om registeret: https://www.skatteetaten.no/rettskilder/type/handboker/folkeregisterhandboken/gjeldende/kapittel1-innledende-bestemmelser/ID-1-1.001/ID-1-1.002/ (lagt til 2026-03-27)
 
 ### Helse
 - Helsedata.no: https://helsedata.no/
+- Helsedata.no kontakt: https://helsedata.no/en/contact/ (lagt til 2026-03-27)
 - FHI - Avdeling helsedata: https://www.fhi.no/om/organisasjon/helsedata/
 - Helsedirektoratet - helseregistre og helsedata: https://www.helsedirektoratet.no/helseregistre-og-helsedata
 - Regjeringen - helsedata: https://www.regjeringen.no/no/tema/helse-og-omsorg/digitalisering-av-helse-og-omsorgstjenestene/innsikt/helsedata/id3019347/
 - Norsk helsenett - tjenesteoversikt: https://www.nhn.no/tjenester/
 - Kjernejournal (om tjenesten): https://www.nhn.no/tjenester/kjernejournal/om-tjenesten
+- Kjernejournal på Helsenorge: https://www.helsenorge.no/helseopplysninger-som-deles/kjernejournal/
 - E-resept: https://www.nhn.no/tjenester/e-resept
 - E-resept (om tjenesten): https://www.nhn.no/tjenester/e-resept/om-e-resept (lagt til 2026-03-18)
 - Helsenorge: https://www.helsenorge.no/
@@ -134,6 +157,11 @@ Sist redigert: 2026-03-19.
 - Resepter på Helsenorge: https://www.helsenorge.no/legemidler/resepter
 - HelseID (hva er HelseID): https://www.nhn.no/tjenester/helseid/hva-er-helseid
 - HelseID tjenestetilbud: https://www.nhn.no/tjenester/helseid/tjenestetilbud
+- Hvorfor bruke HelseID: https://www.nhn.no/tjenester/helseid/hvorfor-bruke-helseid (lagt til 2026-03-27)
+- HelseID spørsmål og svar: https://www.nhn.no/tjenester/helseid/sporsmal-og-svar (lagt til 2026-03-27)
+- HelseID personvern: https://www.nhn.no/tjenester/helseid/personvern-i-helseid (lagt til 2026-03-27)
+- HelseID utbredelse: https://www.nhn.no/tjenester/helseid/tjenestetilbud/utbredelse-av-tjenesten (lagt til 2026-03-27)
+- HelseID utviklerportal: https://utviklerportal.nhn.no/information-services/helseid (lagt til 2026-03-27)
 - Helsepersonellregisteret (HPR): https://www.helsedirektoratet.no/tema/autorisasjon-og-spesialistutdanning/helsepersonellregisteret (lagt til 2026-03-19)
 - KUHR: https://www.helfo.no/om-helfo/kuhr (lagt til 2026-03-19)
 - Norsk Helsenett SF: https://www.nhn.no/
@@ -142,10 +170,21 @@ Sist redigert: 2026-03-19.
 
 ### Kartverket
 - Matrikkelen: https://kartverket.no/enhetsregister/matrikkelen/
+- Om Matrikkelen: https://kartverket.no/eiendom/mine-eiendommer/om-matrikkelen (lagt til 2026-03-27)
+- Tilgang til Matrikkelen: https://www.kartverket.no/eiendom/lokal-matrikkelmyndighet/matrikkelhjelp/tilgang-til-matrikkelen (lagt til 2026-03-27)
+- Adresser i Matrikkelen: https://www.kartverket.no/eiendom/lokal-matrikkelmyndighet/adresser-i-matrikkelen (lagt til 2026-03-27)
+- Bygning i Matrikkelen: https://www.kartverket.no/eiendom/lokal-matrikkelmyndighet/bygning-i-matrikkelen (lagt til 2026-03-27)
+- Matrikkelbrev: https://www.kartverket.no/en/property/mine-eiendommer/matrikkelbrev (lagt til 2026-03-27)
+- Faggruppe matrikkelen: https://www.kartverket.no/eiendom/lokal-matrikkelmyndighet/faggruppe-matrikkelen (lagt til 2026-03-27)
 - Nasjonale fellesløsninger for geodata: https://www.kartverket.no/geodataarbeid/felleslosningene/nasjonale-felleslosninger-for-geodata
 - Kartverkets fellesløsninger: https://www.kartverket.no/geodataarbeid/felleslosningene
 - Geonorge - felles tjeneste for kartdata: https://www.geonorge.no/Geodataarbeid/geografisk-infrastruktur/teknologisk-rammeverk/for-utviklere-teknologisk-rammeverk/felleslosninger/
 - Geonorge - nasjonal geodatastrategi: https://www.geonorge.no/Geodataarbeid/nasjonal-geodatastrategi/handlingsplanens-arsrapporter/hovedmal-2/ (lagt til 2026-03-18)
+- Om Geonorge: https://www.geonorge.no/aktuelt/om-geonorge/ (lagt til 2026-03-27)
+- Geografisk infrastruktur: https://www.geonorge.no/Geodataarbeid/geografisk-infrastruktur/ (lagt til 2026-03-27)
+- Distribuere data gjennom Geonorge: https://www.geonorge.no/aktuelt/om-geonorge/slik-bruker-du-geonorge/distribuere-data-gjennom-geonorge/ (lagt til 2026-03-27)
+- Geonorge API-er: https://www.geonorge.no/en/for-developers/apis/ (lagt til 2026-03-27)
+- API-er for kartkatalogen: https://www.geonorge.no/verktoy/APIer-og-grensesnitt/apier-for-kartkatalogen/ (lagt til 2026-03-27)
 
 
 ### Statens vegvesen
@@ -162,8 +201,14 @@ Sist redigert: 2026-03-19.
 - Feide hos Sikt: https://sikt.no/tjenester/feide (lagt til 2026-03-18)
 - Felles studentsystem (FS): https://sikt.no/tjenester/felles-studentsystem-fs (lagt til 2026-03-18)
 - FS offisiell side: https://www.fs.no/ (lagt til 2026-03-19)
+- Felles studentsystem hos Sikt: https://sikt.no/nb/tjenester/felles-studentsystem (lagt til 2026-03-27)
+- FS.sikt.no: https://fs.sikt.no/ (lagt til 2026-03-27)
+- FS-API: https://docs.sikt.no/docs/datadeling/teknisk-plattform/api/fs/ (lagt til 2026-03-27)
+- API-katalog for studieadministrasjon: https://fs.sikt.no/tjenester/api/ (lagt til 2026-03-27)
 - Opptaksløsninger: https://sikt.no/tjenester/opptakslosninger (lagt til 2026-03-18)
 - Nasjonal vitnemålsdatabase (NVB): https://sikt.no/nb/tjenester/nasjonal-vitnemalsdatabase (lagt til 2026-03-18)
+- NVB i tjenestekatalogen: https://fs.sikt.no/tjenestekatalog/nvb/ (lagt til 2026-03-27)
+- Tjenestekatalog studieadministrasjon: https://fs.sikt.no/tjenestekatalog/ (lagt til 2026-03-27)
 - Vitnemålsportalen: https://sikt.no/tjenester/vitnemalsportalen (lagt til 2026-03-18)
 - Nasjonalt utdanningsregister: https://sikt.no/tiltak/nasjonalt-utdanningsregister (lagt til 2026-03-18)
 - Feide videreutvikling: https://sikt.no/tiltak/feide-videreutvikling (lagt til 2026-03-18)

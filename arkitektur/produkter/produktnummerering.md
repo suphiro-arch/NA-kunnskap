@@ -62,7 +62,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 ## Brønnøysundregistrene (`BRREG`)
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Merknad | Kapabilitetstreff | Siste versjon | Dokument |
 |---:|---|---|---|---|---|---|---|---|
-| 46 | `BRREG-003` | Enhetsregisteret | Register | Virksomhetsregister | Grunndata | Datakilder: Grunndata<br>Datautveksling og integrasjon: Dele data med andre | Ikke opprettet ennå | - |
+| 46 | `BRREG-003` | Enhetsregisteret | Register | Virksomhetsregister | Grunndata | Datakilder: Grunndata<br>Datautveksling og integrasjon: Dele data med andre | v1 (codex) | [Åpne](../../arkitektur/produkter/produktbeskrivelser/46-Enhetsregisteret-produkt-canvas-v1-codex.md) |
 
 ## KS Digital (`KS`)
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Merknad | Kapabilitetstreff | Siste versjon | Dokument |
@@ -81,25 +81,25 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Merknad | Kapabilitetstreff | Siste versjon | Dokument |
 |---:|---|---|---|---|---|---|---|---|
 | 47 | `SIKT-001` | Feide | Felleskomponent | Autentisering | - | Datautveksling og integrasjon: Dele data med andre<br>Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling<br>Tillit: Autentisering<br>Tillit: Tilgangskontroll | v1 (codex) | [Åpne](../../arkitektur/produkter/produktbeskrivelser/47-Feide-produkt-canvas-v1-codex.md) |
-| 48 | `SIKT-002` | Felles studentsystem (FS) | Plattform | Studentdata | - | Datautveksling og integrasjon: Bruke data fra andre<br>Datautveksling og integrasjon: Dele data med andre<br>Informasjonsforvaltning: Datastyring<br>Samarbeid: Organisatorisk samhandling | Ikke opprettet ennå | - |
+| 48 | `SIKT-002` | Felles studentsystem (FS) | Plattform | Studentdata | Nasjonal studieadministrativ plattform med databaser, brukerflater og integrasjoner | Datautveksling og integrasjon: Bruke data fra andre<br>Datautveksling og integrasjon: Dele data med andre<br>Informasjonsforvaltning: Datastyring<br>Samarbeid: Organisatorisk samhandling | v1 (codex) | [Åpne](../../arkitektur/produkter/produktbeskrivelser/48-Felles-studentsystem-produkt-canvas-v1-codex.md) |
 | 49 | `SIKT-003` | Opptaksløsninger | Fellesløsning | Opptaksløsning | - | Datautveksling og integrasjon: Bruke data fra andre<br>Samarbeid: Organisatorisk samhandling<br>Sluttbrukertjenester: Sammenhengende tjenester | Ikke opprettet ennå | - |
-| 50 | `SIKT-004` | Nasjonal vitnemålsdatabase (NVB) | Register | Vitnemål | Backend | Datakilder: Grunndata<br>Datautveksling og integrasjon: Dele data med andre | Ikke opprettet ennå | - |
+| 50 | `SIKT-004` | Nasjonal vitnemålsdatabase (NVB) | Register | Vitnemål | Nasjonal database- og delingstjeneste for elektroniske vitnemål | Datakilder: Grunndata<br>Datautveksling og integrasjon: Dele data med andre | v1 (codex) | [Åpne](../../arkitektur/produkter/produktbeskrivelser/50-Nasjonal-vitnemalsdatabase-produkt-canvas-v1-codex.md) |
 | 51 | `SIKT-005` | Vitnemålsportalen | Portal | Deling av vitnemål | - | Datautveksling og integrasjon: Dele data med andre<br>Sluttbrukertjenester: Sammenhengende tjenester | v1 (codex) | [Åpne](../../arkitektur/produkter/produktbeskrivelser/51-Vitnemalsportalen-produkt-canvas-v1-codex.md) |
 | 52 | `SIKT-006` | Nasjonalt utdanningsregister | Register | Register over utdanningstilbud og akkreditering | - | Datakilder: Grunndata<br>Datautveksling og integrasjon: Dele data med andre<br>Informasjonsforvaltning: Datastyring | Ikke opprettet ennå | - |
 
 ## Helsedirektoratet (`HDIR`)
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Merknad | Kapabilitetstreff | Siste versjon | Dokument |
 |---:|---|---|---|---|---|---|---|---|
-| 31 | `HDIR-001` | Helsedata.no | Portal | Datatilgang | Erstatter HAP | Informasjonsforvaltning: Oversikt over datasett<br>Informasjonsforvaltning: Datastyring<br>Sluttbrukertjenester: Sammenhengende tjenester | Ikke opprettet ennå | - |
-| 64 | `HDIR-002` | HPR | Register | Register over helsepersonell | - | Datakilder: Grunndata<br>Datautveksling og integrasjon: Dele data med andre | Ikke opprettet ennå | - |
+| 31 | `HDIR-001` | Helsedata.no | Portal | Datatilgang | Erstatter HAP | Informasjonsforvaltning: Oversikt over datasett<br>Informasjonsforvaltning: Datastyring<br>Sluttbrukertjenester: Sammenhengende tjenester | v1 (codex) | [Åpne](../../arkitektur/produkter/produktbeskrivelser/31-Helsedata-no-produkt-canvas-v1-codex.md) |
+| 64 | `HDIR-002` | HPR | Register | Register over helsepersonell | - | Datakilder: Grunndata<br>Datautveksling og integrasjon: Dele data med andre | v1 (codex) | [Åpne](../../arkitektur/produkter/produktbeskrivelser/64-HPR-produkt-canvas-v1-codex.md) |
 
 ## Norsk helsenett (`NHN`)
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Merknad | Kapabilitetstreff | Siste versjon | Dokument |
 |---:|---|---|---|---|---|---|---|---|
-| 32 | `NHN-001` | Helsenorge | Portal | Innbyggerportal | - | Sluttbrukertjenester: Sammenhengende tjenester<br>Sluttbrukertjenester: Tjenestekjeder | Ikke opprettet ennå | - |
-| 33 | `NHN-002` | HelseID | Felleskomponent | Autentisering i helse | - | Datautveksling og integrasjon: Bruke data fra andre<br>Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling<br>Tillit: Autentisering<br>Tillit: Tilgangskontroll | Ikke opprettet ennå | - |
-| 34 | `NHN-003` | Kjernejournal | Fellesløsning | Pasientdata | - | Datautveksling og integrasjon: Bruke data fra andre<br>Datautveksling og integrasjon: Dele data med andre<br>Samarbeid: Organisatorisk samhandling | Ikke opprettet ennå | - |
-| 35 | `NHN-004` | e-resept | Fellesløsning | Reseptsystem | - | Datautveksling og integrasjon: Bruke data fra andre<br>Datautveksling og integrasjon: Meldingsformidling<br>Samarbeid: Organisatorisk samhandling | Ikke opprettet ennå | - |
+| 32 | `NHN-001` | Helsenorge | Portal | Innbyggerportal | Nasjonal innbyggerflate for informasjon og digitale helsetjenester | Sluttbrukertjenester: Sammenhengende tjenester<br>Sluttbrukertjenester: Tjenestekjeder | v1 (codex) | [Åpne](../../arkitektur/produkter/produktbeskrivelser/32-Helsenorge-produkt-canvas-v1-codex.md) |
+| 33 | `NHN-002` | HelseID | Felleskomponent | Tillits- og autentiseringskomponent for helse | Nasjonal felleskomponent for pålogging, API-sikring og sektorsamhandling | Datautveksling og integrasjon: Bruke data fra andre<br>Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling<br>Tillit: Autentisering<br>Tillit: Tilgangskontroll | v1 (codex) | [Åpne](../../arkitektur/produkter/produktbeskrivelser/33-HelseID-produkt-canvas-v1-codex.md) |
+| 34 | `NHN-003` | Kjernejournal | Fellesløsning | Pasientdata | Nasjonal løsning for deling av utvalgte helseopplysninger | Datautveksling og integrasjon: Bruke data fra andre<br>Datautveksling og integrasjon: Dele data med andre<br>Samarbeid: Organisatorisk samhandling | v1 (codex) | [Åpne](../../arkitektur/produkter/produktbeskrivelser/34-Kjernejournal-produkt-canvas-v1-codex.md) |
+| 35 | `NHN-004` | e-resept | Fellesløsning | Reseptsystem | Nasjonal løsning for elektronisk forskrivning og reseptformidling | Datautveksling og integrasjon: Bruke data fra andre<br>Datautveksling og integrasjon: Meldingsformidling<br>Samarbeid: Organisatorisk samhandling | v1 (codex) | [Åpne](../../arkitektur/produkter/produktbeskrivelser/35-e-resept-produkt-canvas-v1-codex.md) |
 
 ## HELFO (`HELFO`)
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Merknad | Kapabilitetstreff | Siste versjon | Dokument |
@@ -109,20 +109,20 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 ## NAV (`NAV`)
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Merknad | Kapabilitetstreff | Siste versjon | Dokument |
 |---:|---|---|---|---|---|---|---|---|
-| 36 | `NAV-001` | Aa-registeret | Register | Arbeidsforhold | Del av A-ordningen | Datakilder: Grunndata<br>Datautveksling og integrasjon: Bruke data fra andre<br>Datautveksling og integrasjon: Dele data med andre<br>Sluttbrukertjenester: Sammenhengende tjenester | Ikke opprettet ennå | - |
-| 66 | `NAV-002` | NAIS | Plattform | Plattform for applikasjoner | Kubernetes-basert, gjenbrukbar modell | Tjenesteutvikling: Gjenbrukbare tjenester<br>Tjenesteutvikling: Utviklings- og kjøretidsmiljø | Ikke opprettet ennå | - |
+| 36 | `NAV-001` | Aa-registeret | Register | Arbeidsforhold | Del av A-ordningen | Datakilder: Grunndata<br>Datautveksling og integrasjon: Bruke data fra andre<br>Datautveksling og integrasjon: Dele data med andre<br>Sluttbrukertjenester: Sammenhengende tjenester | v1 (codex) | [Åpne](../../arkitektur/produkter/produktbeskrivelser/36-Aa-registeret-produkt-canvas-v1-codex.md) |
+| 66 | `NAV-002` | NAIS | Plattform | Plattform for applikasjoner | Åpent dokumentert plattformmodell laget av Nav, med potensiell gjenbruk utover én virksomhet | Tjenesteutvikling: Gjenbrukbare tjenester<br>Tjenesteutvikling: Utviklings- og kjøretidsmiljø | v1 (codex) | [Åpne](../../arkitektur/produkter/produktbeskrivelser/66-NAIS-produkt-canvas-v1-codex.md) |
 
 ## Skatteetaten (`SKATT`)
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Merknad | Kapabilitetstreff | Siste versjon | Dokument |
 |---:|---|---|---|---|---|---|---|---|
-| 37 | `SKATT-001` | Folkeregisteret | Register | Persondata | Grunndata | Datakilder: Grunndata<br>Datautveksling og integrasjon: Dele data med andre | Ikke opprettet ennå | - |
-| 38 | `SKATT-002` | Skatteetatens delingstjenester | Fellesløsning | API-basert deling | - | Datautveksling og integrasjon: Dele data med andre | Ikke opprettet ennå | - |
+| 37 | `SKATT-001` | Folkeregisteret | Register | Persondata | Grunndata | Datakilder: Grunndata<br>Datautveksling og integrasjon: Dele data med andre | v1 (codex) | [Åpne](../../arkitektur/produkter/produktbeskrivelser/37-Folkeregisteret-produkt-canvas-v1-codex.md) |
+| 38 | `SKATT-002` | Skatteetatens delingstjenester | Fellesløsning | API-basert deling | Samlet produktflate for kontrollert datadeling fra Skatteetaten | Datautveksling og integrasjon: Dele data med andre | v1 (codex) | [Åpne](../../arkitektur/produkter/produktbeskrivelser/38-Skatteetatens-delingstjenester-produkt-canvas-v1-codex.md) |
 
 ## Kartverket (`KART`)
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Merknad | Kapabilitetstreff | Siste versjon | Dokument |
 |---:|---|---|---|---|---|---|---|---|
-| 39 | `KART-001` | Matrikkelen | Register | Eiendom | Grunndata | Datakilder: Grunndata<br>Datautveksling og integrasjon: Dele data med andre | Ikke opprettet ennå | - |
-| 40 | `KART-002` | Geonorge | Portal | Geodataportal / metadata- og delingsplattform | - | Informasjonsforvaltning: Oversikt over datasett<br>Datautveksling og integrasjon: Dele data med andre | Ikke opprettet ennå | - |
+| 39 | `KART-001` | Matrikkelen | Register | Eiendoms- og adresseregister | Grunndata | Datakilder: Grunndata<br>Datautveksling og integrasjon: Dele data med andre | v1 (codex) | [Åpne](../../arkitektur/produkter/produktbeskrivelser/39-Matrikkelen-produkt-canvas-v1-codex.md) |
+| 40 | `KART-002` | Geonorge | Portal | Geodataportal / metadata- og delingsplattform | Kjerne i den nasjonale geografiske infrastrukturen og sterk tverrsektoriell delingsressurs | Informasjonsforvaltning: Oversikt over datasett<br>Datautveksling og integrasjon: Dele data med andre | v1 (codex) | [Åpne](../../arkitektur/produkter/produktbeskrivelser/40-Geonorge-produkt-canvas-v1-codex.md) |
 
 ## Statens vegvesen (`SVV`)
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Merknad | Kapabilitetstreff | Siste versjon | Dokument |
@@ -138,8 +138,8 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 ## Flere virksomheter (`FLERE`)
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Merknad | Kapabilitetstreff | Siste versjon | Dokument |
 |---:|---|---|---|---|---|---|---|---|
-| 59 | `FLERE-001` | A-ordningen | Fellesløsning | Felles rapportering | Kritisk datakilde | Datakilder: Grunndata<br>Datautveksling og integrasjon: Dele data med andre<br>Samarbeid: Organisatorisk samhandling | Ikke opprettet ennå | - |
-| 62 | `FLERE-002` | DSOP-tjenester | Fellesløsning | Offentlig–privat datadeling | Bank/offentlig samarbeid | Datautveksling og integrasjon: Dele data med andre<br>Samarbeid: Organisatorisk samhandling | Ikke opprettet ennå | - |
+| 59 | `FLERE-001` | A-ordningen | Fellesløsning | Felles rapportering | Samforvaltet rapporterings- og delingsordning mellom Skatteetaten, NAV og SSB | Datakilder: Grunndata<br>Datautveksling og integrasjon: Dele data med andre<br>Samarbeid: Organisatorisk samhandling | v1 (codex) | [Åpne](../../arkitektur/produkter/produktbeskrivelser/59-A-ordningen-produkt-canvas-v1-codex.md) |
+| 62 | `FLERE-002` | DSOP-tjenester | Fellesløsning | Offentlig–privat datadeling | Bank/offentlig samarbeid | Datautveksling og integrasjon: Dele data med andre<br>Samarbeid: Organisatorisk samhandling | v1 (codex) | [Åpne](../../arkitektur/produkter/produktbeskrivelser/62-DSOP-tjenester-produkt-canvas-v1-codex.md) |
 
 ## OpenPeppol (`OPP`)
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Merknad | Kapabilitetstreff | Siste versjon | Dokument |
