@@ -73,12 +73,21 @@ sources:
 - Skjerpet prompten videre slik at `Hovedfunksjoner` normalt skal skrives som minst 3-4 forklarende avsnitt når kildene gir grunnlag for det, og oppdatert `FIKS SvarUt v3` i tråd med dette.
 - Revidert Altinn-produktene `Altinn Autorisasjon`, `Altinn Formidling`, `Altinn Events`, `data.altinn.no`, `Altinn 3 plattform` og `Altinn Studio` til nye codex-versjoner med oppdatert kildegrunnlag, tydeligere løsningsbredde og strammere produktavgrensning.
 - Revidert også `Dialogporten`, `Altinn Melding` og `Altinn Varsling` til nye codex-versjoner, slik at hele den operative Altinn-listen nå følger nyere instruks og oppdatert kildekontroll.
+- Opprettet `Digital postkasse v3` med oppdatert Digdir-kildegrunnlag, tydeligere beskrivelse av hele leveranseløpet og strammere avgrensning mot kontaktregister, avsendersystem og generell meldingsutveksling.
+- Oppdatert `sources/links.md` med flere konkrete Digdir-kilder for Digital postkasse, inkludert oversikt, ta i bruk, kostnadsmodell, statistikk og teknisk dokumentasjon.
+- Opprettet `Felles datakatalog v3` med oppdatert Digdir-kildegrunnlag og tydeligere skille mellom den overordnede metadata- og publiseringsløsningen, `data.norge.no` som portal og delkatalogene under samme produktområde.
+- Oppdatert `sources/links.md` med nyere og mer presise kilder for Felles datakatalog, inkludert ny Digdir-side, ta-i-bruk-løp og kravside for registrering av datasett.
+- Opprettet `Begrepskatalog v3` med oppdatert Digdir-kildegrunnlag og tydeligere avgrensning som semantisk delkatalog under Felles datakatalog, ikke som egen generell ontologi- eller datakatalogplattform.
+- Oppdatert `sources/links.md` med konkrete kilder for Begrepskatalogen, inkludert katalogflaten og teknisk dokumentasjon på data.norge.no.
+- Opprettet `API-katalog v3` med oppdatert Digdir-kildegrunnlag og tydeligere avgrensning som delkatalog for API-beskrivelser, ikke som gateway, runtime-plattform eller generell utviklerportal.
+- Oppdatert `sources/links.md` med konkrete kilder for API-katalogen, inkludert katalogflaten og teknisk API-dokumentasjon på data.norge.no.
 
 ## Hva gjenstår — Produktgrunnlag utvikling (neste 4-6 uker)
 
 **Kjerneprioriteter — disse skal gjøres først:**
 
 - Fortsette revisjon av eldre produktbeskrivelser sektorvis etter samme metode som for KS- og Altinn-rundene.
+- Vurdere om det fortsatt er behov for en ny harmoniseringsrunde på de nylig oppdaterte Digdir-katalogproduktene, eller om neste naturlige steg nå er å gå over til flere nye produkter i neste sektor.
 - Følge opp kvaliteten i selve koblingene mellom produkter og kapabiliteter, særlig i eldre produktbeskrivelser der kapabilitetsseksjonen er svakere eller mindre presis.
 - Ta inn de første ressursene fra KS, Helsedirektoratet, NAV og Skatteetaten i produktregisteret med samme ID-prinsipp.
 - Kvalitetssikre de nye arbeidsutkastene for `KS`, `HDIR`, `NAV` og `SKATT`, særlig eierskap, ressurstype og kapabilitetstreff.

@@ -15,5 +15,5 @@ Denne delkapabiliteten er en del av [Informasjonsforvaltning](../).
 
 | Produkt | Produktbeskrivelse | Hvorfor relevant |
 | --- | --- | --- |
-| Begrepskatalog | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/14-Begrepskatalog-produkt-canvas-v2-copilot.md) | Semantisk grunnlag for datamodeller |
-| API-katalog | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/15-API-katalog-produkt-canvas-v2-copilot.md) | Oversikt over integrasjonspunkter |
+| Begrepskatalog | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/14-Begrepskatalog-produkt-canvas-v3-codex.md) | gir et semantisk grunnlag som kan brukes i modeller, API-er og databeskrivelser |
+| API-katalog | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/15-API-katalog-produkt-canvas-v3-codex.md) | gjør API-er synlige som del av en større struktur av dataressurser, modeller og sammenhenger |

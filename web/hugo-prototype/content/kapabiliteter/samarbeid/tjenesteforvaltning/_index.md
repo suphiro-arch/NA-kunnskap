@@ -15,4 +15,4 @@ Denne delkapabiliteten er en del av [Samarbeid](../).
 
 | Produkt | Produktbeskrivelse | Hvorfor relevant |
 | --- | --- | --- |
-| Altinn | [v2 (copilot)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/19-Altinn-produkt-canvas-v2-copilot.md) | – Verktøy for tjenesteeiere til å administrere tjenester |
+| Altinn 3 plattform | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/19-Altinn-produkt-canvas-v3-codex.md) | – Verktøy for tjenesteeiere til å administrere tjenester |
