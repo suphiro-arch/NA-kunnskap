@@ -2,7 +2,7 @@
 title: "Tjenestekjeder"
 weight: 2
 description: "Evne til å dynamisk sette sammen, koordinere og automatisere flyten av informasjon og prosesser på tvers av uavhengige, integrerbare tjenester for å levere en komplett ende-til-ende-tjeneste for brukeren."
-cardMeta: "2 produkter"
+cardMeta: "3 produkter"
 ---
 
 Evne til å dynamisk sette sammen, koordinere og automatisere flyten av informasjon og prosesser på tvers av uavhengige, integrerbare tjenester for å levere en komplett ende-til-ende-tjeneste for brukeren.
@@ -17,3 +17,4 @@ Denne delkapabiliteten er en del av [Sluttbrukertjenester](../).
 | --- | --- | --- |
 | Norge.no | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/18-Norge-no-produkt-canvas-v3-codex.md) | Lenker relaterte tjenester i relevante livshendelser. |
 | Altinn Portal | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/21-Altinn-Portal-produkt-canvas-v3-codex.md) | lar brukeren gå fra søk eller varsel til konkret oppfølging i tjeneste uten å bytte kontekst unødig |
+| Helsenorge | [v1 (codex)](/NA-kunnskap/produkter/32-Helsenorge-produkt-canvas-v1-codex/) | Helsenorge lar brukeren bevege seg mellom informasjon, innlogging og flere helserelaterte tjenester i samme produktflate. |

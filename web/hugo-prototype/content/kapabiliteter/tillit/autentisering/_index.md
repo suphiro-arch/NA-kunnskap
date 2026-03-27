@@ -2,7 +2,7 @@
 title: "Autentisering"
 weight: 1
 description: "Evne til å på en sikker og entydig måte verifisere den digitale identiteten til brukere og systemer."
-cardMeta: "6 produkter"
+cardMeta: "7 produkter"
 ---
 
 Evne til å på en sikker og entydig måte verifisere den digitale identiteten til brukere og systemer.
@@ -20,4 +20,5 @@ Denne delkapabiliteten er en del av [Tillit](../).
 | eSignering | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/03-eSignering-produkt-canvas-v3-codex.md) | brukes for å sikre at den som signerer identifiserer seg med støttet eID før signeringen gjennomføres |
 | data.altinn.no | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/17-data-altinn-no-produkt-canvas-v4-codex.md) | støtter maskin-til-maskin-tilgang gjennom virksomhetssertifikat eller Maskinporten |
 | Dialogporten | [v5 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/22-Dialogporten-produkt-canvas-v5-codex.md) | støtter sluttbruker- og systemtilgang gjennom ID-porten og Maskinporten |
+| HelseID | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/33-HelseID-produkt-canvas-v1-codex.md) | er en kjernefunksjon ved at HelseID bekrefter identiteten til helsepersonell, systemer og virksomheter |
 | Feide | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/47-Feide-produkt-canvas-v1-codex.md) | er kjernefunksjonen og gjør det mulig å bekrefte identiteten til brukere på tvers av mange tjenester i sektoren |

@@ -2,7 +2,7 @@
 title: "Meldingsformidling"
 weight: 3
 description: "Evnen til å garantere levering og meldingsrekkefølge til rett mottaker."
-cardMeta: "10 produkter"
+cardMeta: "11 produkter"
 ---
 
 Evnen til å garantere levering og meldingsrekkefølge til rett mottaker.
@@ -24,4 +24,5 @@ Denne delkapabiliteten er en del av [Datautveksling og integrasjon](../).
 | Altinn Varsling | [v5 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/24-Varslinger-produkt-canvas-v5-codex.md) | brukes til programmatisk utsending og leveringsoppfølging av varsler |
 | Fiks melding | [v2 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/26-FIKS-Melding-produkt-canvas-v2-codex.md) | gir kommunene en felles tjeneste for å sende meldinger og dokumenter gjennom flere kanaler fra samme løsning. |
 | Fiks SvarUt | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/27-FIKS-SvarUt-produkt-canvas-v3-codex.md) | fordeler dokumenter til flere mottakerkanaler gjennom ett sentralisert utsendingsløp. |
+| e-resept | [v1 (codex)](/NA-kunnskap/produkter/35-e-resept-produkt-canvas-v1-codex/) | e-resept formidler reseptinformasjon digitalt mellom forskriver, apotek og andre relevante aktører. |
 | SvarInn | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/57-SvarInn-produkt-canvas-v1-codex.md) | henter innkommende forsendelser fra SvarUt og leverer dem videre til mottakersystemene gjennom et standardisert mottaksløp. |

@@ -81,6 +81,33 @@ sources:
 - Oppdatert `sources/links.md` med konkrete kilder for Begrepskatalogen, inkludert katalogflaten og teknisk dokumentasjon på data.norge.no.
 - Opprettet `API-katalog v3` med oppdatert Digdir-kildegrunnlag og tydeligere avgrensning som delkatalog for API-beskrivelser, ikke som gateway, runtime-plattform eller generell utviklerportal.
 - Oppdatert `sources/links.md` med konkrete kilder for API-katalogen, inkludert katalogflaten og teknisk API-dokumentasjon på data.norge.no.
+- Opprettet første produktbeskrivelse for `HelseID` med oppdatert NHN-kildegrunnlag og tydelig beskrivelse av produktet som felles tillits- og autentiseringskomponent for helse- og omsorgssektoren.
+- Oppdatert `sources/links.md` med flere konkrete NHN-kilder for HelseID, inkludert hvorfor bruke-løp, spørsmål og svar, personvern, utbredelse og utviklerportal.
+- Opprettet første produktbeskrivelse for `Matrikkelen` med oppdatert Kartverket-kildegrunnlag og tydelig beskrivelse av produktet som nasjonalt grunndataregister og statlig felleskomponent.
+- Oppdatert `sources/links.md` med flere konkrete Kartverket-kilder for Matrikkelen, inkludert om-side, tilgangsløp, føringsområder og faggruppe.
+- Opprettet første produktbeskrivelse for `Folkeregisteret` med oppdatert Skatteetaten-kildegrunnlag og tydelig beskrivelse av produktet som nasjonalt personregister og statlig felleskomponent for persondata.
+- Oppdatert `sources/links.md` med flere konkrete Skatteetaten-kilder for Folkeregisteret, inkludert om-side, tilgangsløp og håndbokssider for delingstjenester.
+- Opprettet første produktbeskrivelse for `Enhetsregisteret` med oppdatert Brønnøysundregistrene-kildegrunnlag og tydelig beskrivelse av produktet som nasjonalt virksomhetsregister og felleskomponent for virksomhetsdata.
+- Oppdatert `sources/links.md` med flere konkrete BRREG-kilder for Enhetsregisteret, inkludert organisasjonsnummer, full maskinell tilgang og åpne data-varsler.
+- Opprettet første produktbeskrivelse for `Skatteetatens delingstjenester` med oppdatert Skatteetaten-kildegrunnlag og tydelig beskrivelse av produktet som samlet delingsflate for API-basert datadeling.
+- Oppdatert `sources/links.md` med flere konkrete Skatteetaten-kilder for delingstjenestene, inkludert hvorfor-siden, kontaktløp og bruksvilkår.
+- Opprettet første produktbeskrivelse for `A-ordningen` med oppdatert kildegrunnlag fra Skatteetaten og a-ordningen.no, og tydelig beskrivelse av produktet som samforvaltet rapporterings- og delingsordning.
+- Oppdatert `sources/links.md` med flere konkrete kilder for A-ordningen, inkludert om-side, kontaktflate og informasjonsmøte 12. mars 2026.
+- Opprettet første produktbeskrivelse for `Felles studentsystem (FS)` med oppdatert Sikt-kildegrunnlag og tydelig beskrivelse av produktet som nasjonal studieadministrativ plattform med databaser, brukerflater og integrasjoner.
+- Oppdatert `sources/links.md` med flere konkrete Sikt-kilder for FS, inkludert `fs.sikt.no`, FS-API og API-katalogen for studieadministrasjon.
+- Opprettet første produktbeskrivelse for `Nasjonal vitnemålsdatabase (NVB)` med oppdatert Sikt-kildegrunnlag og tydelig beskrivelse av produktet som nasjonal database- og delingstjeneste for elektroniske vitnemål.
+- Oppdatert `sources/links.md` med flere konkrete Sikt-kilder for NVB, inkludert tjenestekatalog og moderniseringsretning mot bredere kompetanseregister.
+- Opprettet første produktbeskrivelse for `Helsenorge` med oppdatert NHN-kildegrunnlag og tydelig beskrivelse av produktet som nasjonal innbyggerportal og sammenhengende tjenesteflate i helsesektoren.
+- Vurdert `NVDB` opp mot `Geonorge` og valgt `Geonorge` som sterkere tverrsektoriell kandidat for denne runden.
+- Opprettet første produktbeskrivelse for `Geonorge` med oppdatert Kartverket-/Geonorge-kildegrunnlag og tydelig beskrivelse av produktet som nasjonal metadata-, katalog- og delingsplattform for geodata.
+- Oppdatert `sources/links.md` med flere konkrete kilder for Geonorge, inkludert om-side, API-er og distribusjonsmodell.
+- Opprettet første produktbeskrivelse for `Helsedata.no` som nasjonal portal og tilgangsflate for helsedata.
+- Opprettet første produktbeskrivelse for `HPR` som nasjonalt register over helsepersonell.
+- Opprettet første produktbeskrivelse for `Kjernejournal` som nasjonal samhandlingsløsning for utvalgte helseopplysninger.
+- Opprettet første produktbeskrivelse for `e-resept` som nasjonal løsning for elektronisk forskrivning og reseptformidling.
+- Opprettet første produktbeskrivelse for `DSOP-tjenester` som samlet offentlig-privat delings- og samhandlingsflate.
+- Opprettet første produktbeskrivelse for `Aa-registeret` som nasjonalt grunndataregister over arbeidsforhold.
+- Opprettet første produktbeskrivelse for `NAIS` som åpent dokumentert plattformmodell og gjenbrukbart utviklings- og kjøremiljø, med tydeligere avgrensning enn klassiske nasjonale felleskomponenter.
 
 ## Hva gjenstår — Produktgrunnlag utvikling (neste 4-6 uker)
 
@@ -88,6 +115,7 @@ sources:
 
 - Fortsette revisjon av eldre produktbeskrivelser sektorvis etter samme metode som for KS- og Altinn-rundene.
 - Vurdere om det fortsatt er behov for en ny harmoniseringsrunde på de nylig oppdaterte Digdir-katalogproduktene, eller om neste naturlige steg nå er å gå over til flere nye produkter i neste sektor.
+- Oppsummere og eventuelt pushe den utvidede nyproduktrunden, og deretter vurdere neste restliste med `Opptaksløsninger`, `Nasjonalt utdanningsregister`, `KUHR`, `Motorvognregisteret`, `microdata.no` og eventuelle EU-kandidater.
 - Følge opp kvaliteten i selve koblingene mellom produkter og kapabiliteter, særlig i eldre produktbeskrivelser der kapabilitetsseksjonen er svakere eller mindre presis.
 - Ta inn de første ressursene fra KS, Helsedirektoratet, NAV og Skatteetaten i produktregisteret med samme ID-prinsipp.
 - Kvalitetssikre de nye arbeidsutkastene for `KS`, `HDIR`, `NAV` og `SKATT`, særlig eierskap, ressurstype og kapabilitetstreff.
