@@ -433,6 +433,16 @@ Felles studentsystem (FS) er den nasjonale plattformen for studieadministrative 
 
 ---
 
+## Opptaksløsninger
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/49-Opptakslosninger-produkt-canvas-v1-codex.md)
+
+Opptaksløsninger er den samlede produktflaten for datasystemene som muliggjør samordnet opptak til høyere utdanning og fagskoler i Norge. Produktet støtter både saksbehandling, søkerdialog, dokumenthåndtering, opptakskjøring og publisering av resultater, og fungerer som en felles digital ryggrad for opptaksprosessene.
+
+**Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/) · [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/)
+
+---
+
 ## Nasjonal vitnemålsdatabase (NVB)
 
 **Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/50-Nasjonal-vitnemalsdatabase-produkt-canvas-v1-codex.md)
@@ -450,6 +460,16 @@ Nasjonal vitnemålsdatabase (NVB) er den nasjonale databasen for elektroniske vi
 Vitnemålsportalen er en nasjonal delingstjeneste som gjør det mulig for brukere å hente ut og dele resultater og vitnemål digitalt. Produktet gir den som eier resultatene kontroll over hvem som får innsyn, og gjør det enklere for studiesteder og arbeidsgivere å motta verifiserbare resultater uten manuell håndtering av...
 
 **Kapabiliteter:** [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/)
+
+---
+
+## Nasjonalt utdanningsregister
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/52-Nasjonalt-utdanningsregister-produkt-canvas-v1-codex.md)
+
+Nasjonalt utdanningsregister er den nasjonale registerressursen for informasjon om akkrediterte utdanninger og læresteder i Norge. Produktet samler data som tidligere var fordelt mellom mange kilder og gir utdanninger og læresteder en unik digital identitet som kan brukes på tvers av systemer, prosesser og analyser.
+
+**Kapabiliteter:** [Grunndata](../../kapabiliteter/datakilder/grunndata/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) · [Datastyring](../../kapabiliteter/informasjonsforvaltning/datastyring/)
 
 ---
 

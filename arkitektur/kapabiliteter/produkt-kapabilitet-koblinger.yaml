@@ -2310,6 +2310,176 @@
                     "subcapability_slug": "utviklings-og-kjoretidsmiljo"
                 }
             ]
+        },
+        {
+            "product_id": 49,
+            "product_name": "Opptaksløsninger",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/produkter/produktbeskrivelser/49-Opptakslosninger-produkt-canvas-v1-codex.md",
+            "product_url": "/NA-kunnskap/produkter/49-Opptakslosninger-produkt-canvas-v1-codex/",
+            "capabilities": [
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+                    "explanation": "Opptaksløsningene bruker data fra flere kilder som del av samordnet opptak.",
+                    "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
+                    "subcapability_name": "Bruke data fra andre",
+                    "subcapability_slug": "bruke-data-fra-andre"
+                },
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "Opptaksløsningene støtter samspill mellom Sikt, HK-dir og utdanningsinstitusjonene.",
+                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
+                    "subcapability_name": "Organisatorisk samhandling",
+                    "subcapability_slug": "organisatorisk-samhandling"
+                },
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                    "explanation": "Opptaksløsningene gir søkere en mer samlet og sammenhengende opptaksprosess.",
+                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
+                    "subcapability_name": "Sammenhengende tjenester",
+                    "subcapability_slug": "sammenhengende-tjenester"
+                }
+            ]
+        },
+        {
+            "product_id": 52,
+            "product_name": "Nasjonalt utdanningsregister",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/produkter/produktbeskrivelser/52-Nasjonalt-utdanningsregister-produkt-canvas-v1-codex.md",
+            "product_url": "/NA-kunnskap/produkter/52-Nasjonalt-utdanningsregister-produkt-canvas-v1-codex/",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "Nasjonalt utdanningsregister er en felles autoritativ kilde for utdanninger og læresteder.",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Registeret gjør utdanningsdata tilgjengelige for andre prosesser og virksomheter.",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre"
+                },
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "mapping_label": "Informasjonsforvaltning: Datastyring",
+                    "explanation": "Registeret samler, strukturerer og vedlikeholder utdanningsdata som tidligere var spredt i flere kilder.",
+                    "subcapability_id": "id-5852d070415849fab42749cb488d984a",
+                    "subcapability_name": "Datastyring",
+                    "subcapability_slug": "datastyring"
+                }
+            ]
+        },
+        {
+            "product_id": 60,
+            "product_name": "Motorvognregisteret",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/produkter/produktbeskrivelser/60-Motorvognregisteret-produkt-canvas-v1-codex.md",
+            "product_url": "/NA-kunnskap/produkter/60-Motorvognregisteret-produkt-canvas-v1-codex/",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "Motorvognregisteret er den nasjonale kilden for grunnleggende opplysninger om norske kjøretøy.",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Motorvognregisteret gjør kjøretøyopplysninger tilgjengelige gjennom oppslag og API-er under ulike vilkår.",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre"
+                }
+            ]
+        },
+        {
+            "product_id": 63,
+            "product_name": "microdata.no",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/produkter/produktbeskrivelser/63-microdata-no-produkt-canvas-v1-codex.md",
+            "product_url": "/NA-kunnskap/produkter/63-microdata-no-produkt-canvas-v1-codex/",
+            "capabilities": [
+                {
+                    "capability_id": "id-98df6c2b4df340c7a3a3ad32d99ca37e",
+                    "capability_name": "Datadrevet",
+                    "capability_slug": "datadrevet",
+                    "mapping_label": "Datadrevet: Sammenstilling av data",
+                    "explanation": "microdata.no gjør det mulig å analysere og sammenstille store mengder registerdata i et kontrollert miljø.",
+                    "subcapability_id": "id-7e3d1d3396914d65a177c9d5346d6feb",
+                    "subcapability_name": "Sammenstilling av data",
+                    "subcapability_slug": "sammenstilling-av-data"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+                    "explanation": "microdata.no bygger på bruk av data fra flere registre og kilder som stilles til rådighet i plattformen.",
+                    "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
+                    "subcapability_name": "Bruke data fra andre",
+                    "subcapability_slug": "bruke-data-fra-andre"
+                }
+            ]
+        },
+        {
+            "product_id": 65,
+            "product_name": "KUHR",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/produkter/produktbeskrivelser/65-KUHR-produkt-canvas-v1-codex.md",
+            "product_url": "/NA-kunnskap/produkter/65-KUHR-produkt-canvas-v1-codex/",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "KUHR fungerer som sentralt datagrunnlag for refusjonsforvaltning og oppgjør.",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "KUHR gjør oppgjørs- og refusjonsdata tilgjengelige i forvaltningens kontroll- og oppfølgingsløp.",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre"
+                }
+            ]
         }
     ],
     "capabilities": [
@@ -2502,6 +2672,16 @@
                     "product_url": "/NA-kunnskap/produkter/62-DSOP-tjenester-produkt-canvas-v1-codex/",
                     "mapping_label": "Samarbeid: Organisatorisk samhandling",
                     "explanation": "DSOP bygger på organisert samhandling og felles utvikling mellom offentlig og privat sektor."
+                },
+                {
+                    "product_id": 49,
+                    "product_name": "Opptaksløsninger",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/49-Opptakslosninger-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/49-Opptakslosninger-produkt-canvas-v1-codex/",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "Opptaksløsningene støtter samspill mellom Sikt, HK-dir og utdanningsinstitusjonene."
                 }
             ],
             "subcapabilities": [
@@ -2651,6 +2831,16 @@
                             "product_url": "/NA-kunnskap/produkter/62-DSOP-tjenester-produkt-canvas-v1-codex/",
                             "mapping_label": "Samarbeid: Organisatorisk samhandling",
                             "explanation": "DSOP bygger på organisert samhandling og felles utvikling mellom offentlig og privat sektor."
+                        },
+                        {
+                            "product_id": 49,
+                            "product_name": "Opptaksløsninger",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/49-Opptakslosninger-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/49-Opptakslosninger-produkt-canvas-v1-codex/",
+                            "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                            "explanation": "Opptaksløsningene støtter samspill mellom Sikt, HK-dir og utdanningsinstitusjonene."
                         }
                     ]
                 },
@@ -2859,6 +3049,16 @@
                     "product_url": "/NA-kunnskap/produkter/36-Aa-registeret-produkt-canvas-v1-codex/",
                     "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
                     "explanation": "Aa-registeret gir arbeidsgivere og arbeidstakere innsyn i egne opplysninger som del av en sammenhengende offentlig tjeneste."
+                },
+                {
+                    "product_id": 49,
+                    "product_name": "Opptaksløsninger",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/49-Opptakslosninger-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/49-Opptakslosninger-produkt-canvas-v1-codex/",
+                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                    "explanation": "Opptaksløsningene gir søkere en mer samlet og sammenhengende opptaksprosess."
                 }
             ],
             "subcapabilities": [
@@ -2988,6 +3188,16 @@
                             "product_url": "/NA-kunnskap/produkter/36-Aa-registeret-produkt-canvas-v1-codex/",
                             "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
                             "explanation": "Aa-registeret gir arbeidsgivere og arbeidstakere innsyn i egne opplysninger som del av en sammenhengende offentlig tjeneste."
+                        },
+                        {
+                            "product_id": 49,
+                            "product_name": "Opptaksløsninger",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/49-Opptakslosninger-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/49-Opptakslosninger-produkt-canvas-v1-codex/",
+                            "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                            "explanation": "Opptaksløsningene gir søkere en mer samlet og sammenhengende opptaksprosess."
                         }
                     ]
                 },
@@ -3652,6 +3862,56 @@
                     "product_url": "/NA-kunnskap/produkter/36-Aa-registeret-produkt-canvas-v1-codex/",
                     "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
                     "explanation": "Aa-registeret gjør arbeidsforholdsdata tilgjengelige for offentlige etater og andre aktører med hjemmel."
+                },
+                {
+                    "product_id": 49,
+                    "product_name": "Opptaksløsninger",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/49-Opptakslosninger-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/49-Opptakslosninger-produkt-canvas-v1-codex/",
+                    "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+                    "explanation": "Opptaksløsningene bruker data fra flere kilder som del av samordnet opptak."
+                },
+                {
+                    "product_id": 52,
+                    "product_name": "Nasjonalt utdanningsregister",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/52-Nasjonalt-utdanningsregister-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/52-Nasjonalt-utdanningsregister-produkt-canvas-v1-codex/",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Registeret gjør utdanningsdata tilgjengelige for andre prosesser og virksomheter."
+                },
+                {
+                    "product_id": 60,
+                    "product_name": "Motorvognregisteret",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/60-Motorvognregisteret-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/60-Motorvognregisteret-produkt-canvas-v1-codex/",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Motorvognregisteret gjør kjøretøyopplysninger tilgjengelige gjennom oppslag og API-er under ulike vilkår."
+                },
+                {
+                    "product_id": 63,
+                    "product_name": "microdata.no",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/63-microdata-no-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/63-microdata-no-produkt-canvas-v1-codex/",
+                    "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+                    "explanation": "microdata.no bygger på bruk av data fra flere registre og kilder som stilles til rådighet i plattformen."
+                },
+                {
+                    "product_id": 65,
+                    "product_name": "KUHR",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/65-KUHR-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/65-KUHR-produkt-canvas-v1-codex/",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "KUHR gjør oppgjørs- og refusjonsdata tilgjengelige i forvaltningens kontroll- og oppfølgingsløp."
                 }
             ],
             "subcapabilities": [
@@ -3887,6 +4147,36 @@
                             "product_url": "/NA-kunnskap/produkter/36-Aa-registeret-produkt-canvas-v1-codex/",
                             "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
                             "explanation": "Aa-registeret gjør arbeidsforholdsdata tilgjengelige for offentlige etater og andre aktører med hjemmel."
+                        },
+                        {
+                            "product_id": 52,
+                            "product_name": "Nasjonalt utdanningsregister",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/52-Nasjonalt-utdanningsregister-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/52-Nasjonalt-utdanningsregister-produkt-canvas-v1-codex/",
+                            "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                            "explanation": "Registeret gjør utdanningsdata tilgjengelige for andre prosesser og virksomheter."
+                        },
+                        {
+                            "product_id": 60,
+                            "product_name": "Motorvognregisteret",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/60-Motorvognregisteret-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/60-Motorvognregisteret-produkt-canvas-v1-codex/",
+                            "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                            "explanation": "Motorvognregisteret gjør kjøretøyopplysninger tilgjengelige gjennom oppslag og API-er under ulike vilkår."
+                        },
+                        {
+                            "product_id": 65,
+                            "product_name": "KUHR",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/65-KUHR-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/65-KUHR-produkt-canvas-v1-codex/",
+                            "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "KUHR gjør oppgjørs- og refusjonsdata tilgjengelige i forvaltningens kontroll- og oppfølgingsløp."
                         }
                     ]
                 },
@@ -4078,6 +4368,26 @@
                             "product_url": "/NA-kunnskap/produkter/36-Aa-registeret-produkt-canvas-v1-codex/",
                             "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
                             "explanation": "Aa-registeret inngår i samspill med rapportering og andre datakilder for å holde arbeidsforholdsdata oppdatert."
+                        },
+                        {
+                            "product_id": 49,
+                            "product_name": "Opptaksløsninger",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/49-Opptakslosninger-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/49-Opptakslosninger-produkt-canvas-v1-codex/",
+                            "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+                            "explanation": "Opptaksløsningene bruker data fra flere kilder som del av samordnet opptak."
+                        },
+                        {
+                            "product_id": 63,
+                            "product_name": "microdata.no",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/63-microdata-no-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/63-microdata-no-produkt-canvas-v1-codex/",
+                            "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+                    "explanation": "microdata.no bygger på bruk av data fra flere registre og kilder som stilles til rådighet i plattformen."
                         }
                     ]
                 },
@@ -5085,6 +5395,16 @@
                     "subcapability_id": "id-7e3d1d3396914d65a177c9d5346d6feb",
                     "subcapability_name": "Sammenstilling av data",
                     "subcapability_slug": "sammenstilling-av-data"
+                },
+                {
+                    "product_id": 63,
+                    "product_name": "microdata.no",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/63-microdata-no-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/63-microdata-no-produkt-canvas-v1-codex/",
+                    "mapping_label": "Datadrevet: Sammenstilling av data",
+                    "explanation": "microdata.no gjør det mulig å analysere og sammenstille store mengder registerdata i et kontrollert miljø."
                 }
             ],
             "subcapabilities": [
@@ -5126,6 +5446,16 @@
                             "subcapability_id": "id-7e3d1d3396914d65a177c9d5346d6feb",
                             "subcapability_name": "Sammenstilling av data",
                             "subcapability_slug": "sammenstilling-av-data"
+                        },
+                        {
+                            "product_id": 63,
+                            "product_name": "microdata.no",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/63-microdata-no-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/63-microdata-no-produkt-canvas-v1-codex/",
+                            "mapping_label": "Datadrevet: Sammenstilling av data",
+                    "explanation": "microdata.no gjør det mulig å analysere og sammenstille store mengder registerdata i et kontrollert miljø."
                         }
                     ]
                 },
@@ -6297,6 +6627,16 @@
                     "product_url": "/NA-kunnskap/produkter/31-Helsedata-no-produkt-canvas-v1-codex/",
                     "mapping_label": "Informasjonsforvaltning: Datastyring",
                     "explanation": "Helsedata.no støtter strukturert forvaltning og tilgjengeliggjøring av informasjon om helsedata og tilgangsløp."
+                },
+                {
+                    "product_id": 52,
+                    "product_name": "Nasjonalt utdanningsregister",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/52-Nasjonalt-utdanningsregister-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/52-Nasjonalt-utdanningsregister-produkt-canvas-v1-codex/",
+                    "mapping_label": "Informasjonsforvaltning: Datastyring",
+                    "explanation": "Registeret samler, strukturerer og vedlikeholder utdanningsdata som tidligere var spredt i flere kilder."
                 }
             ],
             "subcapabilities": [
@@ -6628,6 +6968,16 @@
                             "product_url": "/NA-kunnskap/produkter/31-Helsedata-no-produkt-canvas-v1-codex/",
                             "mapping_label": "Informasjonsforvaltning: Datastyring",
                             "explanation": "Helsedata.no støtter strukturert forvaltning og tilgjengeliggjøring av informasjon om helsedata og tilgangsløp."
+                        },
+                        {
+                            "product_id": 52,
+                            "product_name": "Nasjonalt utdanningsregister",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/52-Nasjonalt-utdanningsregister-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/52-Nasjonalt-utdanningsregister-produkt-canvas-v1-codex/",
+                            "mapping_label": "Informasjonsforvaltning: Datastyring",
+                            "explanation": "Registeret samler, strukturerer og vedlikeholder utdanningsdata som tidligere var spredt i flere kilder."
                         }
                     ]
                 }
@@ -6999,6 +7349,36 @@
                     "product_url": "/NA-kunnskap/produkter/36-Aa-registeret-produkt-canvas-v1-codex/",
                     "mapping_label": "Datakilder: Grunndata",
                     "explanation": "Aa-registeret er den nasjonale kilden for grunnleggende opplysninger om arbeidsforhold."
+                },
+                {
+                    "product_id": 52,
+                    "product_name": "Nasjonalt utdanningsregister",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/52-Nasjonalt-utdanningsregister-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/52-Nasjonalt-utdanningsregister-produkt-canvas-v1-codex/",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "Nasjonalt utdanningsregister er en felles autoritativ kilde for utdanninger og læresteder."
+                },
+                {
+                    "product_id": 60,
+                    "product_name": "Motorvognregisteret",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/60-Motorvognregisteret-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/60-Motorvognregisteret-produkt-canvas-v1-codex/",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "Motorvognregisteret er den nasjonale kilden for grunnleggende opplysninger om norske kjøretøy."
+                },
+                {
+                    "product_id": 65,
+                    "product_name": "KUHR",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/produkter/produktbeskrivelser/65-KUHR-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/65-KUHR-produkt-canvas-v1-codex/",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "KUHR fungerer som sentralt datagrunnlag for refusjonsforvaltning og oppgjør."
                 }
             ],
             "subcapabilities": [
@@ -7145,6 +7525,36 @@
                             "product_url": "/NA-kunnskap/produkter/36-Aa-registeret-produkt-canvas-v1-codex/",
                             "mapping_label": "Datakilder: Grunndata",
                             "explanation": "Aa-registeret er den nasjonale kilden for grunnleggende opplysninger om arbeidsforhold."
+                        },
+                        {
+                            "product_id": 52,
+                            "product_name": "Nasjonalt utdanningsregister",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/52-Nasjonalt-utdanningsregister-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/52-Nasjonalt-utdanningsregister-produkt-canvas-v1-codex/",
+                            "mapping_label": "Datakilder: Grunndata",
+                            "explanation": "Nasjonalt utdanningsregister er en felles autoritativ kilde for utdanninger og læresteder."
+                        },
+                        {
+                            "product_id": 60,
+                            "product_name": "Motorvognregisteret",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/60-Motorvognregisteret-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/60-Motorvognregisteret-produkt-canvas-v1-codex/",
+                            "mapping_label": "Datakilder: Grunndata",
+                            "explanation": "Motorvognregisteret er den nasjonale kilden for grunnleggende opplysninger om norske kjøretøy."
+                        },
+                        {
+                            "product_id": 65,
+                            "product_name": "KUHR",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/produkter/produktbeskrivelser/65-KUHR-produkt-canvas-v1-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/65-KUHR-produkt-canvas-v1-codex/",
+                            "mapping_label": "Datakilder: Grunndata",
+                            "explanation": "KUHR fungerer som sentralt datagrunnlag for refusjonsforvaltning og oppgjør."
                         }
                     ]
                 },

@@ -2,7 +2,7 @@
 title: "Sammenhengende tjenester"
 weight: 1
 description: "Evne til å levere en digital brukerorienterte tjenester som fremstår som en logisk og uavbrutt prosess for brukeren, selv når den involverer og koordinerer handlinger og tjenester fra flere, uavhengige virksomheter."
-cardMeta: "10 produkter"
+cardMeta: "11 produkter"
 ---
 
 Evne til å levere en digital brukerorienterte tjenester som fremstår som en logisk og uavbrutt prosess for brukeren, selv når den involverer og koordinerer handlinger og tjenester fra flere, uavhengige virksomheter.
@@ -24,4 +24,5 @@ Denne delkapabiliteten er en del av [Sluttbrukertjenester](../).
 | Helsedata.no | [v1 (codex)](/NA-kunnskap/produkter/31-Helsedata-no-produkt-canvas-v1-codex/) | Helsedata.no samler veiledning og tilgangsløp i en sammenhengende nasjonal brukerflate. |
 | Helsenorge | [v1 (codex)](/NA-kunnskap/produkter/32-Helsenorge-produkt-canvas-v1-codex/) | Helsenorge samler informasjon og digitale helsetjenester i en felles innbyggerflate. |
 | Aa-registeret | [v1 (codex)](/NA-kunnskap/produkter/36-Aa-registeret-produkt-canvas-v1-codex/) | Aa-registeret gir arbeidsgivere og arbeidstakere innsyn i egne opplysninger som del av en sammenhengende offentlig tjeneste. |
+| Opptaksløsninger | [v1 (codex)](/NA-kunnskap/produkter/49-Opptakslosninger-produkt-canvas-v1-codex/) | Opptaksløsningene gir søkere en mer samlet og sammenhengende opptaksprosess. |
 | Vitnemålsportalen | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/51-Vitnemalsportalen-produkt-canvas-v1-codex.md) | samler innsyn, uthenting og deling av resultater i én brukerrettet arbeidsflate som knytter sammen utdanningssektor og mottakere utenfor sektoren |

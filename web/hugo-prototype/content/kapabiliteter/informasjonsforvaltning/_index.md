@@ -2,7 +2,7 @@
 title: "Informasjonsforvaltning"
 weight: 9
 description: "Evne til å ha et felles rammeverk og styringsmodell for informasjonsforvaltning, slik at offentlige virksomheter kan utveksle og dele data og beskrivelser."
-cardMeta: "8 delkapabiliteter / 8 produkter"
+cardMeta: "8 delkapabiliteter / 9 produkter"
 productsMarkdown: |
   ## Relaterte produkter
   
@@ -16,6 +16,7 @@ productsMarkdown: |
   | Fiks digiorden | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/30-FIKS-Digiorden-produkt-canvas-v1-codex.md) | Datastyring, Oversikt over datasett, Oversikt over tjenester | Støtter flere delkapabiliteter i denne hovedkapabiliteten. |
   | Helsedata.no | [v1 (codex)](/NA-kunnskap/produkter/31-Helsedata-no-produkt-canvas-v1-codex/) | Informasjonsforvaltning | Helsedata.no støtter strukturert forvaltning og tilgjengeliggjøring av informasjon om helsedata og tilgangsløp. |
   | Felles studentsystem (FS) | [v1 (codex)](/NA-kunnskap/produkter/48-Felles-studentsystem-produkt-canvas-v1-codex/) | Informasjonsforvaltning | FS forvalter og vedlikeholder store mengder studie- og studentdata som må struktureres og kvalitetssikres over tid. |
+  | Nasjonalt utdanningsregister | [v1 (codex)](/NA-kunnskap/produkter/52-Nasjonalt-utdanningsregister-produkt-canvas-v1-codex/) | Informasjonsforvaltning | Registeret samler, strukturerer og vedlikeholder utdanningsdata som tidligere var spredt i flere kilder. |
 ---
 
 Evne til å ha et felles rammeverk og styringsmodell for informasjonsforvaltning, slik at offentlige virksomheter kan utveksle og dele data og beskrivelser.

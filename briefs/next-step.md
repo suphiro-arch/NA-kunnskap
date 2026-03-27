@@ -108,6 +108,11 @@ sources:
 - Opprettet første produktbeskrivelse for `DSOP-tjenester` som samlet offentlig-privat delings- og samhandlingsflate.
 - Opprettet første produktbeskrivelse for `Aa-registeret` som nasjonalt grunndataregister over arbeidsforhold.
 - Opprettet første produktbeskrivelse for `NAIS` som åpent dokumentert plattformmodell og gjenbrukbart utviklings- og kjøremiljø, med tydeligere avgrensning enn klassiske nasjonale felleskomponenter.
+- Opprettet første produktbeskrivelse for `Opptaksløsninger` som felles systemstøtte for samordnet opptak.
+- Opprettet første produktbeskrivelse for `Nasjonalt utdanningsregister` som felles autoritativ kilde for utdanninger og læresteder.
+- Opprettet første produktbeskrivelse for `KUHR` som sentralt register- og oppgjørssystem for helserefusjoner.
+- Opprettet første produktbeskrivelse for `microdata.no` som nasjonal analyseplattform for kontrollert bruk av registerdata.
+- Opprettet første produktbeskrivelse for `Motorvognregisteret` som nasjonal registerressurs for kjøretøyopplysninger.
 
 ## Hva gjenstår — Produktgrunnlag utvikling (neste 4-6 uker)
 
@@ -115,7 +120,7 @@ sources:
 
 - Fortsette revisjon av eldre produktbeskrivelser sektorvis etter samme metode som for KS- og Altinn-rundene.
 - Vurdere om det fortsatt er behov for en ny harmoniseringsrunde på de nylig oppdaterte Digdir-katalogproduktene, eller om neste naturlige steg nå er å gå over til flere nye produkter i neste sektor.
-- Oppsummere og eventuelt pushe den utvidede nyproduktrunden, og deretter vurdere neste restliste med `Opptaksløsninger`, `Nasjonalt utdanningsregister`, `KUHR`, `Motorvognregisteret`, `microdata.no` og eventuelle EU-kandidater.
+- Fortsette restlista med `KUHR`, `microdata.no` og `Motorvognregisteret`, og deretter ta stilling til om EU-kandidatene skal behandles som egne produktfiler eller fortsatt som referanseressurser.
 - Følge opp kvaliteten i selve koblingene mellom produkter og kapabiliteter, særlig i eldre produktbeskrivelser der kapabilitetsseksjonen er svakere eller mindre presis.
 - Ta inn de første ressursene fra KS, Helsedirektoratet, NAV og Skatteetaten i produktregisteret med samme ID-prinsipp.
 - Kvalitetssikre de nye arbeidsutkastene for `KS`, `HDIR`, `NAV` og `SKATT`, særlig eierskap, ressurstype og kapabilitetstreff.

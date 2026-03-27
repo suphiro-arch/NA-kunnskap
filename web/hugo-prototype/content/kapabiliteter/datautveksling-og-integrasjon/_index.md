@@ -2,7 +2,7 @@
 title: "Datautveksling og integrasjon"
 weight: 4
 description: "Evne til å sikkert, effektivt og standardisert utveksle data mellom aktører i økosystemet."
-cardMeta: "4 delkapabiliteter / 35 produkter"
+cardMeta: "4 delkapabiliteter / 40 produkter"
 productsMarkdown: |
   ## Relaterte produkter
   
@@ -34,12 +34,17 @@ productsMarkdown: |
   | Enhetsregisteret | [v1 (codex)](/NA-kunnskap/produkter/46-Enhetsregisteret-produkt-canvas-v1-codex/) | Datautveksling og integrasjon | Enhetsregisteret tilgjengeliggjør virksomhetsdata gjennom åpne tjenester, daglige endringer og maskinell tilgang. |
   | Feide | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/47-Feide-produkt-canvas-v1-codex.md) | Dele data med andre | gjør det mulig å dele nødvendige identitets- og organisasjonsopplysninger fra vertsorganisasjonen til tilknyttede tjenester på en kontrollert måte |
   | Felles studentsystem (FS) | [v1 (codex)](/NA-kunnskap/produkter/48-Felles-studentsystem-produkt-canvas-v1-codex/) | Datautveksling og integrasjon | FS inngår i flere samhandlingsløp og mottar opplysninger som del av studieadministrative prosesser. |
+  | Opptaksløsninger | [v1 (codex)](/NA-kunnskap/produkter/49-Opptakslosninger-produkt-canvas-v1-codex/) | Datautveksling og integrasjon | Opptaksløsningene bruker data fra flere kilder som del av samordnet opptak. |
   | Nasjonal vitnemålsdatabase (NVB) | [v1 (codex)](/NA-kunnskap/produkter/50-Nasjonal-vitnemalsdatabase-produkt-canvas-v1-codex/) | Datautveksling og integrasjon | NVB gjør vitnemålsdata tilgjengelige for opptaksmiljøer og andre aktører som har grunnlag for å bruke dem. |
   | Vitnemålsportalen | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/51-Vitnemalsportalen-produkt-canvas-v1-codex.md) | Dele data med andre | gjør det mulig for brukeren å dele resultater med eksterne mottakere gjennom en kontrollert digital tjeneste i stedet for manuell dokumentutveksling |
+  | Nasjonalt utdanningsregister | [v1 (codex)](/NA-kunnskap/produkter/52-Nasjonalt-utdanningsregister-produkt-canvas-v1-codex/) | Datautveksling og integrasjon | Registeret gjør utdanningsdata tilgjengelige for andre prosesser og virksomheter. |
   | SvarInn | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/57-SvarInn-produkt-canvas-v1-codex.md) | Meldingsformidling | henter innkommende forsendelser fra SvarUt og leverer dem videre til mottakersystemene gjennom et standardisert mottaksløp. |
   | A-ordningen | [v1 (codex)](/NA-kunnskap/produkter/59-A-ordningen-produkt-canvas-v1-codex/) | Datautveksling og integrasjon | A-ordningen gjør rapporterte opplysninger tilgjengelige for flere etater og andre aktører med hjemmel eller samtykke. |
+  | Motorvognregisteret | [v1 (codex)](/NA-kunnskap/produkter/60-Motorvognregisteret-produkt-canvas-v1-codex/) | Datautveksling og integrasjon | Motorvognregisteret gjør kjøretøyopplysninger tilgjengelige gjennom oppslag og API-er under ulike vilkår. |
   | DSOP-tjenester | [v1 (codex)](/NA-kunnskap/produkter/62-DSOP-tjenester-produkt-canvas-v1-codex/) | Datautveksling og integrasjon | DSOP-tjenestene muliggjør kontrollert datadeling mellom offentlige virksomheter og finansnæringen. |
+  | microdata.no | [v1 (codex)](/NA-kunnskap/produkter/63-microdata-no-produkt-canvas-v1-codex/) | Datautveksling og integrasjon | microdata.no bygger på bruk av data fra flere registre og kilder som stilles til rådighet i plattformen. |
   | HPR | [v1 (codex)](/NA-kunnskap/produkter/64-HPR-produkt-canvas-v1-codex/) | Datautveksling og integrasjon | HPR gjør registeropplysninger tilgjengelige for virksomheter og brukere som trenger dem. |
+  | KUHR | [v1 (codex)](/NA-kunnskap/produkter/65-KUHR-produkt-canvas-v1-codex/) | Datautveksling og integrasjon | KUHR gjør oppgjørs- og refusjonsdata tilgjengelige i forvaltningens kontroll- og oppfølgingsløp. |
   | Fiks folkeregister | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/67-FIKS-Folkeregister-produkt-canvas-v1-codex.md) | Bruke data fra andre | gir fagsystemer og saksbehandlere et standardisert løp for å bruke folkeregisterdata fra Skatteetaten i kommunale prosesser. |
   | Fiks skatte- og inntektsopplysninger | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v1-codex.md) | Bruke data fra andre | gir kommunale fagsystemer og saksbehandlere et standardisert løp for å bruke skatte- og inntektsopplysninger fra Skatteetaten i egne arbeidsprosesser. |
   | Fiks kjøretøyregister | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/69-FIKS-Kjoretoyregister-produkt-canvas-v1-codex.md) | Bruke data fra andre | gir kommunale fagsystemer et standardisert løp for å bruke kjøretøyopplysninger fra Statens vegvesen i operative prosesser. |
