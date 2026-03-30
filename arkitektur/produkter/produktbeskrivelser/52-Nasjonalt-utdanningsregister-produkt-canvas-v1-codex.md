@@ -45,12 +45,13 @@ Nasjonalt utdanningsregister er den nasjonale registerressursen for informasjon 
 | Analyse- og statistikmiljøer | Koblingsbare data | Innsikt og kunnskapsgrunnlag | Viktig sekundærbruk |
 
 ## Hovedfunksjoner
-### Primære funksjoner
-**Autoritativt register over utdanninger og læresteder.** Produktet samler og kvalitetssikrer data i én nasjonal kilde.
+Nasjonalt utdanningsregisters viktigste funksjon er å samle informasjon om utdanninger og læresteder i én autoritativ nasjonal kilde. Produktet skal erstatte et mer fragmentert bilde der opplysninger tidligere har vært fordelt på flere kilder og kontekster, og gir dermed et felles grunnlag som kan brukes på tvers av forvaltning, analyse og digitale tjenester.
 
-**Unik identitet for utdanninger.** Hver utdanning og hvert lærested får en entydig identifikator som kan brukes på tvers av systemer.
+En annen sentral funksjon er å gi utdanninger og læresteder en entydig identitet som kan brukes i andre systemer og prosesser. Det gjør registeret relevant som koblingsressurs, ikke bare som et sted å slå opp informasjon. Når samme utdanning eller samme lærested skal gjenkjennes på tvers av opptak, finansiering, rapportering og analyse, er denne identitetsfunksjonen en viktig del av produktets verdi.
 
-**Langtidsbevaring og gjenbruk.** Registeret skal lagre og bevare grunnleggende informasjon om utdanninger over tid.
+Produktet har også en tydelig datastyringsrolle. Registeret skal ikke bare lagre opplysninger, men bidra til at de er kvalitetssikrede, koblingsbare og bevarte over tid, inkludert historiske utdanningstilbud. Det betyr at løsningen både er et register og et virkemiddel for bedre informasjonsforvaltning i utdanningssektoren.
+
+Samtidig er Nasjonalt utdanningsregister ikke hele studieadministrasjonen eller alle brukerflater i sektoren. Produktet skal være en felles registerressurs og identitetskilde, mens institusjonenes egne systemer, portaler og saksprosesser fortsatt ligger utenfor. Denne avgrensningen er viktig for å plassere løsningen på riktig nivå i porteføljen.
 
 ### Scope og avgrensning
 | Inngår | Inngår ikke |

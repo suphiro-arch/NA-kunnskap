@@ -44,12 +44,13 @@ Opptaksløsninger er den samlede produktflaten for datasystemene som muliggjør 
 | Utdanningsinstitusjoner og fagskoler | Samordnet opptaksstøtte | Opptak og oppfølging | Viktige sektordeltakere |
 
 ## Hovedfunksjoner
-### Primære funksjoner
-**Systemstøtte for samordnet opptak.** Produktet håndterer sentrale data og prosesser bak opptaksløpet.
+Opptaksløsningers viktigste funksjon er å være den samlede systemstøtten for samordnet opptak. Produktet håndterer sentrale data, regelstyrte prosesser og operative steg i opptaksløpet, slik at søknader kan registreres, behandles og omsettes til faktiske opptaksresultater innenfor én felles struktur. Verdien ligger derfor ikke bare i enkeltmoduler, men i at flere deler av opptaksprosessen bindes sammen i samme produktflate.
 
-**Søkerdialog og dokumentflyt.** Løsningen dekker søknader, dokumenter, meldinger og kvitteringer.
+Produktet har også en tydelig bruker- og dialogflate mot søkerne. Søknader, dokumentasjon, meldinger, kvitteringer og resultater inngår i et sammenhengende løp der brukerne skal kunne forholde seg til én samordnet prosess, selv om det i bakgrunnen er mange involverte aktører. Det betyr at løsningen ikke bare er et administrativt fagsystem, men også en sentral del av den faktiske tjenesteopplevelsen i samordnet opptak.
 
-**Samarbeid mellom flere forvaltningsaktører.** Produktet er bygget for samspill mellom Sikt, HK-dir og utdanningsinstitusjonene.
+En annen viktig funksjon er å understøtte samspill mellom flere forvaltningsaktører. Kildene viser at Sikt forvalter systemene, mens HK-dir forvalter selve opptaket. Utdanningsinstitusjoner og fagskoler er samtidig avhengige av samme felles oppsett. Produktet fungerer dermed som en felles samhandlings- og koordineringsmekanisme, ikke bare som en lokal løsning for én virksomhet.
+
+Samtidig er Opptaksløsninger ikke hele studieadministrasjonen i utdanningssektoren. Produktet dekker den definerte opptaksprosessen og tilhørende systemstøtte, men ikke alle øvrige prosesser, systemer og portaler som institusjonene bruker før og etter opptak. Avgrensningen mot bredere studieadministrasjon er derfor viktig for å forstå hva som faktisk inngår i produktet.
 
 ### Scope og avgrensning
 | Inngår | Inngår ikke |

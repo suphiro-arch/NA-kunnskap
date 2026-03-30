@@ -347,7 +347,7 @@ Kjernejournal er den nasjonale fellesløsningen for å gjøre utvalgte og viktig
 
 **Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/35-e-resept-produkt-canvas-v1-codex.md)
 
-e-resept er den nasjonale løsningen for elektronisk forskrivning og formidling av resepter i Norge. Produktet binder sammen forskriver, apotek, pasient og øvrige relevante aktører i en digital meldings- og samhandlingskjede.
+e-resept er den nasjonale løsningen for elektronisk forskrivning, formidling og tilgjengeliggjøring av resepter i Norge. Produktet binder sammen forskriver, apotek, pasient og øvrige relevante aktører i en digital samhandlingskjede, og sørger for at reseptinformasjon kan opprettes, deles og brukes på en tryggere og...
 
 **Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) · [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) · [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/)
 
@@ -493,6 +493,16 @@ A-ordningen er den samordnede nasjonale ordningen for at arbeidsgivere skal rapp
 
 ---
 
+## Motorvognregisteret
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/60-Motorvognregisteret-produkt-canvas-v1-codex.md)
+
+Motorvognregisteret er den nasjonale registerressursen for grunnleggende opplysninger om kjøretøy og tilhørende forhold som Statens vegvesen gjør tilgjengelig gjennom oppslag og datatjenester. Produktet fungerer som en autoritativ kilde for tekniske kjøretøyopplysninger og utvalgte eierrelaterte opplysninger innenfor...
+
+**Kapabiliteter:** [Grunndata](../../kapabiliteter/datakilder/grunndata/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/)
+
+---
+
 ## DSOP-tjenester
 
 **Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/62-DSOP-tjenester-produkt-canvas-v1-codex.md)
@@ -503,11 +513,31 @@ DSOP-tjenester er den samlede produktflaten for offentlig-private datadelings- o
 
 ---
 
+## microdata.no
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/63-microdata-no-produkt-canvas-v1-codex.md)
+
+microdata.no er en nasjonal analysetjeneste som gir forskere og andre godkjente brukere tilgang til å analysere koblede registerdata i et kontrollert og skjermet miljø. Produktet gjør det mulig å utføre statistiske analyser og sammenstillinger på tvers av flere datakilder uten at brukerne får tradisjonell direkte...
+
+**Kapabiliteter:** [Sammenstilling av data](../../kapabiliteter/datadrevet/sammenstilling-av-data/) · [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/)
+
+---
+
 ## HPR
 
 **Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/64-HPR-produkt-canvas-v1-codex.md)
 
-HPR er det nasjonale registeret over helsepersonell og relevante autorisasjons- og godkjenningsopplysninger. Produktet gir et felles grunnlag for å verifisere helsepersonells status og rolle og brukes i forvaltning, tjenesteyting og kontroll.
+HPR er det nasjonale registeret over helsepersonell og sentrale opplysninger om autorisasjon, lisens, spesialistgodkjenning og andre relevante godkjenningsforhold. Produktet fungerer som en felles autoritativ kilde for å verifisere hvem som har rett til å utøve bestemte roller i helse- og omsorgstjenesten, og gir et...
+
+**Kapabiliteter:** [Grunndata](../../kapabiliteter/datakilder/grunndata/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/)
+
+---
+
+## KUHR
+
+**Siste versjon:** v1 (codex) · [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/65-KUHR-produkt-canvas-v1-codex.md)
+
+KUHR er Helfos sentrale system for mottak, kontroll, behandling og oppgjør av refusjonskrav fra helseaktører. Produktet fungerer som en nasjonal behandlings- og datakilde for oppgjørsinformasjon, og brukes til å sikre at krav blir kontrollert mot regler og vilkår før utbetaling, samt til videre oppfølging, kontroll og...
 
 **Kapabiliteter:** [Grunndata](../../kapabiliteter/datakilder/grunndata/) · [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/)
 

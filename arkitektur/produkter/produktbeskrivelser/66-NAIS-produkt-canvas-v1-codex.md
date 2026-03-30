@@ -7,9 +7,11 @@ NAIS
 NAV-002
 
 ## Status/Livsfase
-**Produksjon** - etablert plattform for utvikling og drift av applikasjoner, bygget av Nav og tatt i bruk utover én virksomhet.
+**Produksjon** - etablert plattform for utvikling og drift av applikasjoner, bygget av Nav og dokumentert for bruk utover ett enkelt team- eller virksomhetsmiljø.
 
 **Fakta:** Nais beskriver seg som en plattform laget av Nav for å gi fart og flyt til utviklerne av det offentlige Norge. Dokumentasjonen beskriver plattformen som et sett tjenester og byggeklosser for utvikling, kjøring, observability, sikkerhet og plattformnær drift.
+
+**Presisering:** Produktet har ikke samme dokumenterte status som nasjonal fellesløsning eller formell felleskomponent som de klassiske fellestjenestene i registeret. Det er likevel en relevant og interessant plattform å vurdere for gjenbruk, og ved behov som passer denne typen plattform bør det være aktuelt å gå i dialog med eier om mulig samarbeid og bruk.
 
 ## Modenhet
 **Høy modenhet** - innarbeidet plattform med omfattende dokumentasjon og åpent miljø:

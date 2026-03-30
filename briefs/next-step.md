@@ -113,6 +113,9 @@ sources:
 - Opprettet første produktbeskrivelse for `KUHR` som sentralt register- og oppgjørssystem for helserefusjoner.
 - Opprettet første produktbeskrivelse for `microdata.no` som nasjonal analyseplattform for kontrollert bruk av registerdata.
 - Opprettet første produktbeskrivelse for `Motorvognregisteret` som nasjonal registerressurs for kjøretøyopplysninger.
+- Kvalitetssikret den siste bolken med nye produktbeskrivelser og løftet særlig `HPR`, `e-resept`, `Opptaksløsninger` og `Nasjonalt utdanningsregister` til et mer forklarende nivå i tråd med gjeldende instruks.
+- Oppdaget at filene for `KUHR`, `microdata.no` og `Motorvognregisteret` manglet i produktmappa selv om registeret pekte til dem, og opprettet dem på nytt med fullverdige beskrivelser.
+- Presisert `NAIS` videre som en interessant og gjenbrukbar plattformmodell, men uten samme dokumenterte status som formell nasjonal fellesløsning eller klassisk felleskomponent.
 
 ## Hva gjenstår — Produktgrunnlag utvikling (neste 4-6 uker)
 
@@ -120,7 +123,7 @@ sources:
 
 - Fortsette revisjon av eldre produktbeskrivelser sektorvis etter samme metode som for KS- og Altinn-rundene.
 - Vurdere om det fortsatt er behov for en ny harmoniseringsrunde på de nylig oppdaterte Digdir-katalogproduktene, eller om neste naturlige steg nå er å gå over til flere nye produkter i neste sektor.
-- Fortsette restlista med `KUHR`, `microdata.no` og `Motorvognregisteret`, og deretter ta stilling til om EU-kandidatene skal behandles som egne produktfiler eller fortsatt som referanseressurser.
+- Ta stilling til om EU-kandidatene skal behandles som egne produktfiler eller fortsatt som referanseressurser, nå som den siste nasjonale restlista er fullført og kvalitetssikret.
 - Følge opp kvaliteten i selve koblingene mellom produkter og kapabiliteter, særlig i eldre produktbeskrivelser der kapabilitetsseksjonen er svakere eller mindre presis.
 - Ta inn de første ressursene fra KS, Helsedirektoratet, NAV og Skatteetaten i produktregisteret med samme ID-prinsipp.
 - Kvalitetssikre de nye arbeidsutkastene for `KS`, `HDIR`, `NAV` og `SKATT`, særlig eierskap, ressurstype og kapabilitetstreff.
