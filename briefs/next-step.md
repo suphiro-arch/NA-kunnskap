@@ -130,6 +130,13 @@ sources:
 - Fortsette `SIKT`-sektoren med de neste ressursene etter `Feide` og `Vitnemålsportalen`, særlig `Felles studentsystem (FS)` og `Nasjonal vitnemålsdatabase`.
 - Kjøre avviksjekk og synke produktbeskrivelsene kontinuerlig mot masterfila for produkt-kapabilitet-koblinger.
 
+**Anbefalt liten oppfølgingsrunde før nye store bolker:**
+
+- Ta en lett poleringsrunde på `DSOP-tjenester`, som fortsatt er kortere og mer komprimert enn de sterkere beskrivelsene i den siste nasjonale bolken.
+- Vurdere om `Kjernejournal` bør få en tilsvarende språklig og strukturell utdyping, særlig i `Hovedfunksjoner` og avgrensning mot andre helseløsninger.
+- Vurdere om `Helsedata.no` bør løftes ett hakk for å tydeliggjøre rollen som tilgangsflate, veiledningsflate og del av helsedataforvaltningen.
+- Etter denne korte poleringsrunden: avgjøre om neste steg bør være EU-kandidater, flere nye nasjonale produkter eller ny revisjon av eldre beskrivelser.
+
 **Produktregisteret — konkrete valg som trengs:**
 
 - Vurdere og avklare om `FIKS IO` skal inn som egen ressurs i produktregisteret, eller fortsatt behandles som teknisk komponent under `FIKS Melding` og tilhørende samhandlingsmønstre.
