@@ -58,6 +58,17 @@ Operative mål utledet fra kildene:
 - Plattformen tilbyr komponenter som dokumentlager, Fiks IO, innsynskomponenter og testmiljø. Disse funksjonene gjør det mulig å bygge nye tjenester raskere, og skiller plattformen fra enkeltstående sluttbrukertjenester.
 - Plattformen støtter autentisering og autorisering for personer, forvaltere og integrasjoner. Det gjør at både manuelle brukerflater og maskin-til-maskin-integrasjoner kan bruke samme plattformgrunnlag.
 
+### Typiske brukssituasjoner (generisk)
+- Kommuner og fylkeskommuner trenger et felles integrasjons- og forvaltningslag for mange tjenester samtidig.
+- Flere leverandører skal levere mot samme kommunale målarkitektur og trenger standardiserte grensesnitt.
+- En tjeneste krever både administrativ forvaltning, teknisk integrasjon og sikker tilgangsstyring i samme plattformnære løp.
+- Sektoren trenger raskere innføring av fellestjenester uten at hver virksomhet bygger alt lokalt.
+
+### Når FIKS-plattformen normalt ikke er førstevalg
+- Når behovet er en spesifikk nasjonal felleskomponent med tydelig funksjon, som autentisering, signering eller digital post til innbyggere.
+- Når behovet er rent virksomhetsinternt uten krav om samhandling på tvers av kommuner, fylkeskommuner eller felles sektorløsninger.
+- Når oppgaven primært handler om faglig saksbehandling og ikke om plattform, integrasjon eller felles forvaltningsmønster.
+
 ### Scope og avgrensning
 | Inngår | Inngår ikke |
 |---|---|
@@ -114,6 +125,11 @@ FIKS-plattformen er en felles plattformtjeneste levert for kommunal sektor.
 - Plattformen er laget nettopp for at flere kommuner og leverandører skal bruke samme byggeklosser.
 - API-er, integrasjonsmønstre og felles administrasjon gjør det mulig å bygge nye tjenester på eksisterende grunnlag.
 - Produktet er mer gjenbrukbart som plattformgrunnlag enn som ferdig brukerflate.
+
+**Vanlige kombinasjoner med andre produkter:**
+- FIKS-plattformen + Maskinporten der kommunale tjenester trenger sikker maskin-til-maskin-autentisering mot statlige API-er.
+- FIKS-plattformen + Folkeregisterrelaterte oppslagstjenester der kommunale tjenester trenger autoritative grunndata.
+- FIKS-plattformen + sektorspesifikke fagsystemer der plattformen gir standardisert integrasjons- og forvaltningslag.
 
 ## Støtter arkitekturprinsipper
 - **P5 Del og gjenbruk løsninger** - plattformen samler felles tekniske byggeklosser som kan brukes på tvers av kommunal sektor.
