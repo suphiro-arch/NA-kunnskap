@@ -78,6 +78,17 @@ Produktet er likevel ikke en komplett tillitsplattform alene. Autentisering skje
 | Policy Decision Point for tilgangsevaluering | Full brukerportal utover det som trengs for tilgangsforvaltning |
 | Systembruker og API-er for maskinell bruk | Erstatning for tjenesteeiers ansvar for å modellere riktige regler |
 
+### Typiske brukssituasjoner (generisk)
+- Når en tjeneste må håndtere representasjon, for eksempel at en person handler på vegne av virksomhet eller annen part.
+- Når en tjenesteeier trenger policybasert tilgangsstyring med tydelig ressursmodell i stedet for hardkodede roller.
+- Når flere tjenester trenger samme autorisasjonsmodell på tvers av plattformer.
+- Når maskin-til-maskin-scenarier krever finmasket tilgangsbeslutning i tillegg til autentisering.
+
+### Når Altinn autorisasjon normalt ikke er førstevalg
+- Når behovet kun er innlogging eller identitetsbekreftelse uten representasjon eller policybasert tilgangsstyring.
+- Når behovet primært er meldingsformidling, hendelser eller datadeling som produktområde.
+- Når løsningen ikke har behov for sentral policyforvaltning eller gjenbruk av autorisasjonsmodell.
+
 ## Veikart over kommende funksjonalitet
 **Fakta fra brukte kilder (kontrollert 2026-03-26):**
 - Dokumentasjonen viser moderniseringsløp for Altinn autorisasjon fra Altinn 2 til Altinn 3-plattformen.
@@ -128,6 +139,11 @@ Felles autorisasjonsprodukt i Altinn-porteføljen med brukerflate, API-er og ark
 - Produktet gir en felles modell for tilgangsstyring og autorisasjon på tvers av tjenester.
 - Det er relevant både for brukerrettede og maskinelle scenarier.
 - Gjenbruksverdien er størst når behovet gjelder representasjon, policybasert tilgang og standardisert autorisasjon, ikke når behovet bare er innlogging.
+
+**Vanlige kombinasjoner med andre produkter:**
+- Altinn autorisasjon + ID-porten når brukerinnlogging må kobles til representasjon og tilgangsbeslutning.
+- Altinn autorisasjon + Maskinporten når systemtilgang og policybasert autorisasjon må fungere sammen.
+- Altinn autorisasjon + Dialogporten eller Altinn Melding når dialog- og meldingsflater trenger styrt tilgang på tvers av parter.
 
 ## Støtter arkitekturprinsipper
 - **P5: Del og gjenbruk løsninger** realiseres ved at flere tjenester kan bruke samme autorisasjonsgrunnlag.

@@ -70,6 +70,17 @@ Operative mål utledet fra de samme kildene:
 | Sterk autentisering for relevante tjenester og brukergrupper | Saksbehandling og domeneprosesser i tilknyttede systemer |
 | Standard protokoller og teknisk dokumentasjon for integrasjon | Erstatning for alle lokale identitetskilder og HR-/elevsystemer |
 
+### Typiske brukssituasjoner (generisk)
+- Når flere digitale tjenester i utdannings- og forskningssektoren trenger felles innlogging.
+- Når sektoren trenger single sign-on på tvers av mange leverandører og tjenesteflater.
+- Når tjenester trenger kontrollert deling av identitets- og tilhørighetsdata fra vertsorganisasjoner.
+- Når både sluttbrukere og tjenesteleverandører trenger en standardisert føderert identitetsmodell.
+
+### Når Feide normalt ikke er førstevalg
+- Når behovet er autorisasjon, representasjon eller policybasert tilgangsstyring som egen funksjon.
+- Når behovet primært er meldingsformidling, hendelser eller dokumentdeling.
+- Når konteksten ligger utenfor utdannings- og forskningssektorens fødererte identitetsøkosystem.
+
 ## Veikart over kommende funksjonalitet
 **Fakta:** Feide publiserer et kortsiktig veikart for de neste tolv månedene, og oppgir at dette oppdateres fortløpende når prioriteringer endrer seg. Feide videreutvikles også gjennom egne tiltak i Sikt.
 
@@ -123,6 +134,11 @@ Feide er en nasjonal føderert identitets- og datadelingsløsning for utdannings
 - Feide er laget for å være en felles identitets- og datadelingskomponent som kan brukes av mange tjenester.
 - Standardiserte protokoller og moden dokumentasjon gjør løsningen gjenbrukbar for både nye og eksisterende tjenester.
 - Produktet reduserer behovet for at hver tjeneste utvikler egen autentiserings- og datadelingsmekanisme.
+
+**Vanlige kombinasjoner med andre produkter:**
+- Feide + ID-porten der tjenesteløp trenger samspill mellom sektorspesifikk og nasjonal autentisering.
+- Feide + autorisasjonsløsning når autentisering må suppleres med rolle- og tilgangsstyring.
+- Feide + sektorspesifikke fagsystemer og portaler der identitet og tilhørighet må fungere på tvers av mange tjenester.
 
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** - Feide gjør det mulig å dele nødvendige bruker- og organisasjonsopplysninger kontrollert på tvers av tjenester.

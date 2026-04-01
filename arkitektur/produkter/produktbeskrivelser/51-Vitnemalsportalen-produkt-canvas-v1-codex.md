@@ -67,6 +67,17 @@ Operative mål utledet fra de samme kildene:
 | Digital deling og kontrollert tilgang til resultater | Saksbehandling i rekrutterings- eller opptakssystemene |
 | Digitalt signerte og krypterte delinger | Generell dokumentforvaltning for alle typer utdanningsdokumenter |
 
+### Typiske brukssituasjoner (generisk)
+- Når en bruker må dele verifiserbare utdanningsresultater til arbeidsgiver eller studiested.
+- Når mottaker trenger tillit til at resultater kommer fra autoritativ kilde.
+- Når man vil unngå manuell håndtering av vedlegg, papirdokumenter og lokal verifisering.
+- Når deling skal være brukerinitiert og sporbar.
+
+### Når Vitnemalsportalen normalt ikke er førstevalg
+- Når behovet er produksjon eller forvaltning av resultatgrunnlaget i kildesystemer.
+- Når behovet er bred studieadministrasjon eller opptaksbehandling som helhet.
+- Når behovet gjelder generell dokumentdeling utenfor utdanningsresultater.
+
 ## Veikart over kommende funksjonalitet
 **Fakta:** Jeg fant ikke en offentlig, tidsfestet produktplan for Vitnemålsportalen i denne arbeidsøkten.
 
@@ -114,6 +125,11 @@ Vitnemålsportalen er en nasjonal delingsportal som henter resultater fra etable
 - Vitnemålsportalen gjenbruker et felles delingsmønster for dokumenterte resultater i stedet for at hver institusjon og mottaker bygger egne løsninger.
 - Tjenesten kan brukes i flere sammenhenger, som opptak, rekruttering og annen dokumentasjon av kompetanse.
 - Integrasjon mot mottaksplattformer gjør at delingsmønsteret kan brukes videre i andre prosesser uten å kopiere eller laste opp dokumentasjon manuelt.
+
+**Vanlige kombinasjoner med andre produkter:**
+- Vitnemalsportalen + Nasjonal vitnemålsdatabase når deling bygger på kvalitetssikret resultatinformasjon.
+- Vitnemalsportalen + opptaksløsninger når resultater brukes i videre utdanningsløp.
+- Vitnemalsportalen + ID-porten når sikker brukerinitiert deling krever tydelig identitetsgrunnlag.
 
 ## Støtter arkitekturprinsipper
 - **P1: Ta utgangspunkt i brukernes behov** - tjenesten er bygget rundt brukerens behov for enkel og sikker deling av egne resultater.
