@@ -161,13 +161,13 @@ Dette caset står sterkere enn case 1 på P4 og P5 fordi sentrale nasjonale løs
 
 ## 8. Tiltak prioritert etter effekt
 
-| Tiltak | Type | Effekt | Tidshorisont | Avhengigheter | Kobling |
-|---|---|---|---|---|---|
-| Kartlegg hvilke aktører og formål utenfor opptaksløp som trenger resultatinformasjon | Avklaring | Høy | Kort | Utdanningsdirektorat, SIKT, relevante sektorer | Juridisk samhandling / P3 |
-| Etabler standardisert delingsmønster for resultatinformasjon til oppfølgingstjenester | Gjenbruk + videreutvikling | Høy | Middels | Kartlegging og juridisk avklaring | Datautveksling og integrasjon / P4 / NVB + FIKS + data.altinn.no |
-| Vurder sektorprofil for autorisasjon og representasjon | Videreutvikling | Middels | Middels | Juridisk avklaring | Tillit / P7 / Altinn Autorisasjon |
-| Etabler felles begrepssett for resultater og kompetanse | Nyutvikling (innhold) | Middels | Middels | Sektorfaglig forankring | Informasjonsforvaltning / P4 / Begrepskatalog |
-| Gjør resultatinfrastruktur mer synlig som gjenbrukbar nasjonal byggestein utover opptaksløp | Gjenbruk | Middels | Kort | Samordning mellom SIKT og nasjonale aktører | P5 / NVB, Vitnemålsportalen, Opptaksløsninger |
+| Tiltak | Type | Effekt | Tidshorisont | Avhengigheter | Kobling | Primær gap-type |
+|---|---|---|---|---|---|---|
+| Kartlegg hvilke aktører og formål utenfor opptaksløp som trenger resultatinformasjon | Avklaring | Høy | Kort | Utdanningsdirektorat, SIKT, relevante sektorer | Juridisk samhandling / P3 | Juridisk gap |
+| Etabler standardisert delingsmønster for resultatinformasjon til oppfølgingstjenester | Gjenbruk + videreutvikling | Høy | Middels | Kartlegging og juridisk avklaring | Datautveksling og integrasjon / P4 / NVB + FIKS + data.altinn.no | Samordningsgap |
+| Vurder sektorprofil for autorisasjon og representasjon | Videreutvikling | Middels | Middels | Juridisk avklaring | Tillit / P7 / Altinn Autorisasjon | Produktgap |
+| Etabler felles begrepssett for resultater og kompetanse | Nyutvikling (innhold) | Middels | Middels | Sektorfaglig forankring | Informasjonsforvaltning / P4 / Begrepskatalog | Semantisk gap |
+| Gjør resultatinfrastruktur mer synlig som gjenbrukbar nasjonal byggestein utover opptaksløp | Gjenbruk | Middels | Kort | Samordning mellom SIKT og nasjonale aktører | P5 / NVB, Vitnemålsportalen, Opptaksløsninger | Samordningsgap |
 
 ### Prioritert liste
 

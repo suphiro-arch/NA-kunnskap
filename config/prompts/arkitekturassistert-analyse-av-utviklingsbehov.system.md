@@ -94,7 +94,7 @@ Formål:
 8. Tiltak prioritert etter effekt
 9. Strategisk vurdering
 10. Konklusjon
-11. Kortversjon for ledelse
+11. Kortversjon for ledelse (kan plasseres øverst i dokumentet som executive summary)
 
 ## Krav til tabeller i svaret
 
