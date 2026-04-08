@@ -20,6 +20,9 @@ sources:
 ---
 
 ## Hva er gjort
+- Testet ny mal for arkitekturassistert analyse av utviklingsbehov på to separate case, splittet analysen i egne filer og oppdatert instruks med eksplisitt splittingsregel.
+- Forbedret analysemalen med tidlig avklaring av ett/flere case, fast vurderingsrekkefølge for produktkategorier, gap-type per tiltak og seksjon for sammensatte løsningsmønstre.
+- Oppdatert utvalgte produktbeskrivelser med generell beslutningsstøttefelt: typiske brukssituasjoner, når produktet normalt ikke er førstevalg og vanlige kombinasjoner med andre produkter.
 - Definert målbildet for en åpen dokumentasjonsassistent på nettsiden.
 - Avgrenset MVP til kun offentlig informasjon fra repoet.
 - Beskrevet anbefalt arkitektur med Hugo-frontend, egen backend og OpenAI retrieval.
@@ -148,6 +151,20 @@ sources:
 ## Strategiske forbedringer — Arbeidsflyt og kvalitetssikring
 
 Disse skal tas inn *parallelt* med produktgrunnlag-arbeidet og vil gjøre det lettere å skalere:
+
+### Forbedringsmulighet for analysemal basert på utprøving
+
+**Funn fra utproving:** En samlet analyse med flere problemstillinger ga svakere presisjon i produktvurdering og tiltaksprioritering.
+
+**Tiltak som er innført:**
+- Tidlig sjekk av om innsendt underlag er ett case eller flere.
+- Krav om splitting av analysen ved flere overganger/problemstillinger.
+- Fast vurderingsrekkefølge for produktkategorier.
+- Obligatorisk klassifisering av tiltak etter gap-type (produkt, semantisk, juridisk, samordning).
+- Krav om minst ett sammensatt løsningsmønster for eksisterende produkter før nyutvikling foreslås.
+
+**Neste forbedring som bør vurderes:**
+- Legge inn en enkel evalueringsrubrikk i malen med score 1-5 for sporbarhet, gjenbrukbarhet, styringsrelevans og presisjon i produktvurdering.
 
 ### Modulær struktur for produktbeskrivelser
 
