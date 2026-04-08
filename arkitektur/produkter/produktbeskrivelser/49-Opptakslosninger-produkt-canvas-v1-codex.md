@@ -52,6 +52,18 @@ En annen viktig funksjon er å understøtte samspill mellom flere forvaltningsak
 
 Samtidig er Opptaksløsninger ikke hele studieadministrasjonen i utdanningssektoren. Produktet dekker den definerte opptaksprosessen og tilhørende systemstøtte, men ikke alle øvrige prosesser, systemer og portaler som institusjonene bruker før og etter opptak. Avgrensningen mot bredere studieadministrasjon er derfor viktig for å forstå hva som faktisk inngår i produktet.
 
+### Typiske brukssituasjoner (generisk)
+- Når flere utdanningsinstitusjoner skal bruke én felles løsning for samordnet opptak i stedet for lokale opptaksløp.
+- Når søkere trenger ett samlet løp for søknad, dokumentasjon, kommunikasjon og resultat.
+- Når opptaksforvaltning og systemforvaltning må samordnes på tvers av flere aktører med tydelig rollefordeling.
+- Når opptaksprosessen krever regelstyrte kjøringer, felles datagrunnlag og koordinert publisering av resultater.
+
+### Når Opptaksløsninger normalt ikke er førstevalg
+- Når behovet gjelder generell studieadministrasjon utenfor selve opptaksprosessen.
+- Når behovet gjelder deling av resultater eller vitnemål etter at opptaket er gjennomført.
+- Når konteksten ligger utenfor samordnet opptak til høyere utdanning og fagskoler.
+- Når oppgaven primært handler om registerforvaltning, identitet eller dokumentdeling som kan løses med mer spesialiserte felleskomponenter.
+
 ### Scope og avgrensning
 | Inngår | Inngår ikke |
 |---|---|
@@ -80,6 +92,11 @@ Opptaksløsninger er en sammensatt fellesløsning for opptaksprosesser og tilhø
 
 ## Gjenbruk
 **Høy gjenbruksverdi** i utdanningssektoren som felles opptaksinfrastruktur.
+
+**Vanlige kombinasjoner med andre produkter:**
+- Opptaksløsninger + Nasjonal vitnemålsdatabase når opptak bygger på kvalitetssikrede vitnemålsdata fra videregående opplæring.
+- Opptaksløsninger + Vitnemålsportalen når søkere eller mottakere trenger brukerinitiert deling av verifiserbare resultater i tilgrensende prosesser.
+- Opptaksløsninger + Nasjonalt utdanningsregister når opptaksløp trenger entydige referanser til utdanninger og læresteder.
 
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data**

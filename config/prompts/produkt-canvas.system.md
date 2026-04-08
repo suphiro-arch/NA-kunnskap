@@ -113,6 +113,8 @@ Følg reglene under.
 - Ta bare med kapabiliteter der koblingen er sterk og direkte dokumentert eller klart utledbar fra produktets egen funksjon
 - Ikke ta med kapabiliteter som bare berøres indirekte gjennom andre produkter, plattformer eller avhengigheter
 - Hvis du er i tvil om koblingen er sterk nok, skal kapabiliteten utelates
+- Ikke utled nye kapabiliteter bare fordi seksjoner som `Typiske brukssituasjoner`, `Når produktet normalt ikke er førstevalg` eller `Vanlige kombinasjoner med andre produkter` er lagt til. Disse seksjonene er beslutningsstøtte, ikke funksjonsutvidelse.
+- Hvis `Hovedfunksjoner` endres vesentlig, skal du eksplisitt kontrollere om kapabilitetsmappingen fortsatt er riktig. Endre bare mappingen når produktets faktiske funksjonelle rolle er blitt tydeligere eller dokumentert annerledes.
 - Format: `- **Tillit: Autentisering**` etterfulgt av forklaring i vanlig skrift på neste linje eller i samme punkt
 - Navnet på kapabiliteten skal være i fet skrift; forklaringen skal være i vanlig skrift
 
@@ -151,6 +153,8 @@ Følg reglene under.
 - Legg inn nok funksjonsdetaljer til at arkitekter og KI kan identifisere gjenbrukspotensial, avhengigheter og grenser mot nærliggende løsninger
 - Unngå bare tekniske etiketter som "API", "innboks" eller "varsling" uten forklarende tekst om hvordan funksjonen brukes i praksis
 - Hvis flere produkter dekker tilstøtende eller delvis overlappende behov, skal funksjonsbeskrivelsen tydeliggjøre hva dette produktet gjør, og hva det ikke gjør
+- Når produktet brukes i arkitekturvurderinger, bør `Hovedfunksjoner` normalt suppleres med egne underseksjoner for `Typiske brukssituasjoner (generisk)` og `Når <produktet> normalt ikke er førstevalg`.
+- Legg `Vanlige kombinasjoner med andre produkter` under `Gjenbruk`, ikke under `Hovedfunksjoner`, med mindre det finnes en særskilt grunn til å samle dette annerledes.
 
 **Risiko:**
 - Dekk minst: juridisk, teknisk, sikkerhet, leverandør, bruker-opplevelse
@@ -197,6 +201,8 @@ Følg reglene under.
 | **Tydelig status** | Usikkerhet er marked eksplisitt; gjetninger er unngått |
 | **Konkretisering** | Hver seksjonen inneholder spesifikke eksempler og konkrete detaljer (ikke generic tekst) |
 | **Tabeller** | Komplekse felt (risiko, forvaltning, brukersegmenter) er fremstilt i tabellformat for lesbarhet |
+| **Beslutningsstøtte** | Det er tydelig når produktet bør velges, når det ikke er førstevalg, og hvilke kombinasjoner som er vanlige |
+| **Kapabilitetsdisiplin** | Kapabilitetsmappingen er kontrollert mot faktiske hovedfunksjoner, ikke bare mot beslutningsstøttefeltene |
 
 ---
 
