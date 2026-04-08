@@ -1,7 +1,7 @@
-# Produkt-canvas: Fiks-plattformen
+# Produkt-canvas: FIKS-plattformen
 
 ## Navn
-Fiks-plattformen
+FIKS-plattformen
 
 ## Ressurs ID
 KS-001
@@ -18,7 +18,7 @@ KS-001
 - Modenheten er høy for plattformgrunnlaget, men vil variere i de enkelte tjenestene som bygges på toppen.
 
 ## Kort beskrivelse
-Fiks-plattformen er KS Digitals felles plattform for digital samhandling i kommunal sektor. Plattformen gir kommuner, fylkeskommuner og leverandører et felles teknisk rammeverk for å utvikle, integrere, forvalte og bruke digitale tjenester på en mer standardisert måte. Produktet er særlig relevant når kommunal sektor trenger felles byggeklosser, API-er og styring av tilgang på tvers av mange virksomheter, uten at hver kommune må etablere hele plattformgrunnlaget selv.
+FIKS-plattformen er KS Digitals felles plattform for digital samhandling i kommunal sektor. Plattformen gir kommuner, fylkeskommuner og leverandører et felles teknisk rammeverk for å utvikle, integrere, forvalte og bruke digitale tjenester på en mer standardisert måte. Produktet er særlig relevant når kommunal sektor trenger felles byggeklosser, API-er og styring av tilgang på tvers av mange virksomheter, uten at hver kommune må etablere hele plattformgrunnlaget selv.
 
 ## Kapabiliteter
 - **Samarbeid: Organisatorisk samhandling** gir kommunal sektor et felles plattformgrunnlag for samhandling på tvers av kommuner, fylkeskommuner, leverandører og statlige aktører.
