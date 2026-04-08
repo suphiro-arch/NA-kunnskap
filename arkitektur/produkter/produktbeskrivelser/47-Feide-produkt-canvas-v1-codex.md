@@ -62,14 +62,6 @@ Operative mål utledet fra de samme kildene:
 - Feide tilbyr sterk autentisering for tjenester og brukergrupper som trenger høyere sikkerhetsnivå. Dette skiller Feide fra enklere påloggingsløsninger som bare bekrefter identitet med brukernavn og passord.
 - Feide har kundeportal og administrasjonsfunksjoner for vertsorganisasjoner. Det gjør produktet til mer enn en ren påloggingsmekanisme, fordi organisasjonene også får et felles sted å administrere tjenester, tilganger og innstillinger.
 
-### Scope og avgrensning
-| Inngår | Inngår ikke |
-|---|---|
-| Felles autentisering, single sign-on og datadeling | Lokal faglogikk i de tilknyttede tjenestene |
-| Kundeportal og administrasjon for vertsorganisasjoner | Full lokal brukerkatalogforvaltning utenfor vertsorganisasjonen |
-| Sterk autentisering for relevante tjenester og brukergrupper | Saksbehandling og domeneprosesser i tilknyttede systemer |
-| Standard protokoller og teknisk dokumentasjon for integrasjon | Erstatning for alle lokale identitetskilder og HR-/elevsystemer |
-
 ### Typiske brukssituasjoner (generisk)
 - Når flere digitale tjenester i utdannings- og forskningssektoren trenger felles innlogging.
 - Når sektoren trenger single sign-on på tvers av mange leverandører og tjenesteflater.
@@ -80,6 +72,14 @@ Operative mål utledet fra de samme kildene:
 - Når behovet er autorisasjon, representasjon eller policybasert tilgangsstyring som egen funksjon.
 - Når behovet primært er meldingsformidling, hendelser eller dokumentdeling.
 - Når konteksten ligger utenfor utdannings- og forskningssektorens fødererte identitetsøkosystem.
+
+### Scope og avgrensning
+| Inngår | Inngår ikke |
+|---|---|
+| Felles autentisering, single sign-on og datadeling | Lokal faglogikk i de tilknyttede tjenestene |
+| Kundeportal og administrasjon for vertsorganisasjoner | Full lokal brukerkatalogforvaltning utenfor vertsorganisasjonen |
+| Sterk autentisering for relevante tjenester og brukergrupper | Saksbehandling og domeneprosesser i tilknyttede systemer |
+| Standard protokoller og teknisk dokumentasjon for integrasjon | Erstatning for alle lokale identitetskilder og HR-/elevsystemer |
 
 ## Veikart over kommende funksjonalitet
 **Fakta:** Feide publiserer et kortsiktig veikart for de neste tolv månedene, og oppgir at dette oppdateres fortløpende når prioriteringer endrer seg. Feide videreutvikles også gjennom egne tiltak i Sikt.
