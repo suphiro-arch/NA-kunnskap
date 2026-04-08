@@ -4,8 +4,8 @@ author: copilot
 status: draft
 topic: erfaringsrapport-maltest-arkitekturassistert-analyse
 sources:
-  - briefs/arbeidsstyring-og-handover/2026-03-31-case-overgang-ungdomsskole-videregaende-v2.md
-  - briefs/arbeidsstyring-og-handover/2026-03-31-case-tilgjengeliggjoring-resultater-videregaende-v1.md
+  - Analyser/2026-03-31-case-overgang-ungdomsskole-videregaende-v2.md
+  - Analyser/2026-03-31-case-tilgjengeliggjoring-resultater-videregaende-v1.md
   - config/templates/arkitekturassistert-analyse-av-utviklingsbehov-template.md
   - config/prompts/arkitekturassistert-analyse-av-utviklingsbehov.system.md
   - arkitektur/produkter/produktbeskrivelser/

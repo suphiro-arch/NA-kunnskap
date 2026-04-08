@@ -176,14 +176,14 @@ P4, P5 og P6 er eksplisitt brutt. P3 og P7 er delvis oppfylt men blokkert av uav
 
 ## 8. Tiltak prioritert etter effekt
 
-| Tiltak | Type | Effekt | Tidshorisont | Avhengigheter | Kobling |
-|---|---|---|---|---|---|
-| Avklare juridisk hjemmelsgrunnlag for deling av pedagogisk dokumentasjon | Avklaring | Høy | Kort | Utdanningsdirektorat, KDD, KS | Juridisk samhandling / P3 |
-| Etablere felles begrepssett for oppvekst og utdanning i Begrepskatalogen | Nyutvikling (innhold) | Høy | Middels | Juridisk avklaring, sektoren, Digdir, SIKT | Informasjonsforvaltning: Oversikt over begreper / P4 / Begrepskatalog (DIGDIR-012) |
-| Definere datamodell for overgangsdata | Avklaring + nyutvikling | Høy | Middels | Juridisk avklaring og begrepssett | Informasjonsforvaltning: Informasjonsarkitektur / P4 / Felles datakatalog (DIGDIR-011) |
-| Pilotere hendelsesdrevet overgang med Altinn Events og Dialogporten | Gjenbruk + sammensatt | Høy | Middels | Datamodell og juridisk avklaring | Sluttbrukertjenester: Tjenestekjeder / P6 / Altinn Events + Dialogporten + Maskinporten |
-| Integrere FIKS-plattformen og Maskinporten for elevdatadeling på tvers av forvaltningsnivå | Gjenbruk | Middels | Middels | Datamodell | Datautveksling og integrasjon / P4, P5 / FIKS (KS-001) + Maskinporten (DIGDIR-002) |
-| Etablere sektorprofil for representasjon av barn i Altinn Autorisasjon | Videreutvikling | Middels | Middels | Juridisk avklaring | Tillit: Representasjon og samtykke / P7 / Altinn Autorisasjon (DIGDIR-004) |
+| Tiltak | Type | Effekt | Tidshorisont | Avhengigheter | Kobling | Primær gap-type |
+|---|---|---|---|---|---|---|
+| Avklare juridisk hjemmelsgrunnlag for deling av pedagogisk dokumentasjon | Avklaring | Høy | Kort | Utdanningsdirektorat, KDD, KS | Juridisk samhandling / P3 | Juridisk gap |
+| Etablere felles begrepssett for oppvekst og utdanning i Begrepskatalogen | Nyutvikling (innhold) | Høy | Middels | Juridisk avklaring, sektoren, Digdir, SIKT | Informasjonsforvaltning: Oversikt over begreper / P4 / Begrepskatalog (DIGDIR-012) | Semantisk gap |
+| Definere datamodell for overgangsdata | Avklaring + nyutvikling | Høy | Middels | Juridisk avklaring og begrepssett | Informasjonsforvaltning: Informasjonsarkitektur / P4 / Felles datakatalog (DIGDIR-011) | Semantisk gap |
+| Pilotere hendelsesdrevet overgang med Altinn Events og Dialogporten | Gjenbruk + sammensatt | Høy | Middels | Datamodell og juridisk avklaring | Sluttbrukertjenester: Tjenestekjeder / P6 / Altinn Events + Dialogporten + Maskinporten | Samordningsgap |
+| Integrere FIKS-plattformen og Maskinporten for elevdatadeling på tvers av forvaltningsnivå | Gjenbruk | Middels | Middels | Datamodell | Datautveksling og integrasjon / P4, P5 / FIKS (KS-001) + Maskinporten (DIGDIR-002) | Samordningsgap |
+| Etablere sektorprofil for representasjon av barn i Altinn Autorisasjon | Videreutvikling | Middels | Middels | Juridisk avklaring | Tillit: Representasjon og samtykke / P7 / Altinn Autorisasjon (DIGDIR-004) | Produktgap |
 
 ### Prioritert liste
 
