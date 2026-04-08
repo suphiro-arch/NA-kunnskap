@@ -77,13 +77,9 @@ Dette gjør produktbeskrivelsene mer anvendelige i nye analyser uten case-spesif
 
 - FIKS-plattformen: beslutningsstøttefeltene er nå tydelige og anvendelige (typiske brukssituasjoner, ikke-førstevalg, kombinasjoner). Kun mindre forbedringsbehov gjenstår.
 - Vitnemålsportalen: avgrensningen er nå tydeligere (hva som inngår/ikke inngår, når produktet ikke er førstevalg). Kun mindre forbedringsbehov gjenstår.
-- Opptaksløsninger: klart forbedret på produktfakta, men fortsatt svakere som beslutningsstøtte enn de to andre.
+- Opptaksløsninger: beslutningsstøttefeltene er nå lagt inn, og beskrivelsen er dermed mer konsistent med mønsteret brukt i de sterkeste produktbeskrivelsene.
 
-Konkrete forbedringer som fortsatt anbefales for Opptaksløsninger:
-- legg inn eksplisitt seksjon: typiske brukssituasjoner
-- legg inn eksplisitt seksjon: når produktet normalt ikke er førstevalg
-- legg inn eksplisitt seksjon: vanlige kombinasjoner med andre produkter
-- utvid kildegrunnlag med minst én tilleggskilde utover hovedsiden, slik at avgrensning og styringsforhold blir bedre belyst
+Etter samme gjennomgang ble også Nasjonal vitnemålsdatabase og Nasjonalt utdanningsregister vurdert som kandidater for sterkere beslutningsstøtte. Begge er nå oppdatert med tydeligere brukssituasjoner, ikke-førstevalg og vanlige kombinasjoner med andre produkter.
 
 ## Konklusjon
 
@@ -119,6 +115,7 @@ Skal alltid inneholde:
 - problembilde, avgrensning og berørte aktører
 - vurdering av relevante produkter i fast rekkefølge
 - tydelig begrunnelse for produktvalg og fravalg
+- kapabilitetsmapping for anbefalt løsningsmønster og sentrale produktvalg
 - gap per tiltak (produkt, semantisk, juridisk, samordning)
 - anbefalt løsningsmønster og prioritering
 
@@ -127,6 +124,7 @@ Skal alltid inneholde:
 Skal alltid inneholde:
 - tiltak, ansvarlig, frist, status
 - forventet gevinst og målepunkt
+- berørt kapabilitet eller kapabilitetsgap per tiltak
 - avhengigheter og beslutningspunkt
 - risikoeier for tiltak med høy usikkerhet
 
@@ -135,3 +133,12 @@ Skal alltid inneholde:
 - utarbeid full analyse
 - trekk ut kortversjon for ledelse
 - oppdater tiltakslogg med beslutninger og eierskap
+
+### Kort sjekkliste for kapabilitetsmapping
+
+Brukes sammen med full analyse og tiltakslogg:
+- Hvilke 1-3 kapabiliteter er direkte realisert av anbefalt løsningsmønster?
+- Hvilke kapabiliteter støttes av produktets faktiske hovedfunksjoner, ikke bare av beslutningsstøttefeltene?
+- Er det kapabiliteter som bare er indirekte berørt gjennom kombinasjoner med andre produkter? Hvis ja, skal de normalt ikke mappes til produktet alene.
+- Finnes det et tydelig kapabilitetsgap bak tiltaket, for eksempel manglende datadeling, datastyring, autentisering eller organisatorisk samhandling?
+- Er kapabilitetsmappingen konsistent med begrunnelsen for produktvalg og fravalg?

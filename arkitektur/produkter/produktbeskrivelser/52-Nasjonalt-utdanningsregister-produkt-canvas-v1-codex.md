@@ -22,9 +22,9 @@ SIKT-006
 Nasjonalt utdanningsregister er den nasjonale registerressursen for informasjon om akkrediterte utdanninger og læresteder i Norge. Produktet samler data som tidligere var fordelt mellom mange kilder og gir utdanninger og læresteder en unik digital identitet som kan brukes på tvers av systemer, prosesser og analyser.
 
 ## Kapabiliteter
-- **Datakilder: Grunndata**
-- **Datautveksling og integrasjon: Dele data med andre**
-- **Informasjonsforvaltning: Datastyring**
+- **Datakilder: Grunndata** er relevant fordi registeret skal være autoritativ kilde for utdanninger og læresteder.
+- **Datautveksling og integrasjon: Dele data med andre** er en kjernefunksjon fordi opplysningene skal kunne brukes på tvers av opptak, finansiering, rapportering og analyse.
+- **Informasjonsforvaltning: Datastyring** er sentral fordi produktet skal sikre kvalitet, entydighet og ansvarlig forvaltning av utdanningsdata over tid.
 
 ## Produktmål
 - være en autoritativ kilde for norske utdanninger og læresteder
@@ -52,6 +52,18 @@ En annen sentral funksjon er å gi utdanninger og læresteder en entydig identit
 Produktet har også en tydelig datastyringsrolle. Registeret skal ikke bare lagre opplysninger, men bidra til at de er kvalitetssikrede, koblingsbare og bevarte over tid, inkludert historiske utdanningstilbud. Det betyr at løsningen både er et register og et virkemiddel for bedre informasjonsforvaltning i utdanningssektoren.
 
 Samtidig er Nasjonalt utdanningsregister ikke hele studieadministrasjonen eller alle brukerflater i sektoren. Produktet skal være en felles registerressurs og identitetskilde, mens institusjonenes egne systemer, portaler og saksprosesser fortsatt ligger utenfor. Denne avgrensningen er viktig for å plassere løsningen på riktig nivå i porteføljen.
+
+### Typiske brukssituasjoner (generisk)
+- Når flere virksomheter trenger én autoritativ kilde for utdanninger og læresteder i stedet for lokale oversikter.
+- Når systemer og prosesser trenger entydige identifikatorer for å kunne koble samme utdanning eller lærested på tvers av kontekster.
+- Når forvaltningen trenger bedre datakvalitet, sporbarhet og styring av nasjonale utdanningsdata.
+- Når analyse, finansiering, rapportering eller opptak er avhengige av et felles referansegrunnlag.
+
+### Når Nasjonalt utdanningsregister normalt ikke er førstevalg
+- Når behovet er studieadministrasjon, søknadsbehandling eller annen operativ saksflyt.
+- Når behovet er deling av individuelle resultater, vitnemål eller personrettet dokumentasjon.
+- Når brukeren trenger en sluttbrukerportal med veiledning, innsending eller dialog.
+- Når oppgaven gjelder løpende domeneprosess i lokale fagsystemer, ikke felles registergrunnlag.
 
 ### Scope og avgrensning
 | Inngår | Inngår ikke |
@@ -85,6 +97,11 @@ Nasjonalt utdanningsregister er et nasjonalt register- og datastyringsprodukt fo
 
 ## Gjenbruk
 **Høy gjenbruksverdi** som nasjonal kilde for utdanningsdata på tvers av mange prosesser.
+
+**Vanlige kombinasjoner med andre produkter:**
+- Nasjonalt utdanningsregister + Opptaksløsninger når opptaksprosesser trenger entydige referanser til utdanninger og læresteder.
+- Nasjonalt utdanningsregister + analyse- og statistikkløsninger når utdanningsdata skal kobles og sammenstilles på tvers av kilder.
+- Nasjonalt utdanningsregister + sektorspesifikke fagsystemer når lokale prosesser trenger et felles nasjonalt referansegrunnlag.
 
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data**

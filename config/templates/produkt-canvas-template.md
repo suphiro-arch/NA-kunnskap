@@ -41,6 +41,12 @@ Ta med både primærbrukere, sekundærbrukere og forvaltnings-/støttemiljø nå
 
 ## Hovedfunksjoner
 Viktigste funksjoner og nøkkelfunksjoner.
+Beskriv de operative hovedfunksjonene først.
+For produkter der det er relevant for valg og fravalg i analyser, legg deretter inn egne underseksjoner for:
+- `Typiske brukssituasjoner (generisk)`
+- `Når <produktet> normalt ikke er førstevalg`
+Disse feltene er beslutningsstøtte og skal hjelpe leseren å forstå når produktet bør velges, og når andre produkter eller løsningsmønstre er mer relevante.
+Disse feltene skal ikke i seg selv utvide produktets scope eller føre til nye kapabiliteter uten at dette er forankret i produktets faktiske funksjonelle rolle.
 
 ### Scope og avgrensning
 Hva inngår og hva inngår ikke.
@@ -62,6 +68,7 @@ Sky (lokasjon), on-prem eller hybrid.
 
 ## Gjenbruk
 Vurder gjenbruksvennlighet av API-er, standarder og lisensiering.
+Legg inn `Vanlige kombinasjoner med andre produkter` når dette gjør produktet lettere å bruke i arkitekturvurderinger.
 
 ## Støtter arkitekturprinsipper
 I hvilken grad støttes nasjonale arkitekturprinsipper?

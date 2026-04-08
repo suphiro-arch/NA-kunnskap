@@ -68,6 +68,18 @@ Operative mål utledet fra de samme kildene:
 
 **Modernisering mot bredere kompetanseregister.** Sikts nyere beskrivelser viser at NVB er i ferd med å bli erstattet eller utvidet til et mer generelt register over oppnådd kompetanse. Produktet har dermed både en etablert kjernefunksjon og en tydelig overgang til bredere dokumentasjonsformål.
 
+### Typiske brukssituasjoner (generisk)
+- Når opptaksløp trenger kvalitetssikrede vitnemålsdata fra videregående opplæring som autoritativ kilde.
+- Når flere aktører trenger å bruke samme vitnemålsgrunnlag til dokumentasjon, saksbehandling, statistikk eller forskning.
+- Når man vil redusere manuell kontroll av vitnemål og erstatte lokal dokumenthåndtering med nasjonal registerbruk.
+- Når analyse- og forvaltningsmiljøer trenger et nasjonalt, strukturert datagrunnlag om fullført videregående opplæring.
+
+### Når Nasjonal vitnemålsdatabase normalt ikke er førstevalg
+- Når behovet er en brukerrettet portal for innsyn eller deling av resultater.
+- Når behovet gjelder bred studieadministrasjon eller opptaksbehandling som helhet.
+- Når behovet gjelder utdanningsinformasjon som ikke faller innenfor NVBs faktiske datadekning.
+- Når oppgaven primært handler om identitetsforvaltning, søknadsdialog eller generell dokumentdeling.
+
 ### Scope og avgrensning
 | Inngår | Inngår ikke |
 |---|---|
@@ -122,6 +134,11 @@ NVB er en nasjonal register- og delingsløsning for elektroniske vitnemålsdata.
 - Produktet er laget for at samme vitnemålsopplysninger skal kunne brukes i flere prosesser og av flere aktører.
 - Det er særlig relevant når behovet er nasjonalt kvalitetssikrede vitnemålsdata.
 - Det er mindre relevant utenfor kontekster som faktisk trenger dokumentasjon eller analyse av videregående opplæring.
+
+**Vanlige kombinasjoner med andre produkter:**
+- Nasjonal vitnemålsdatabase + Opptaksløsninger når vitnemålsdata brukes i opptak til høyere utdanning og fagskoler.
+- Nasjonal vitnemålsdatabase + Vitnemålsportalen når kvalitetssikret resultatinformasjon skal kunne deles videre i brukerrettede løp.
+- Nasjonal vitnemålsdatabase + analyse- og statistikkløsninger når samme datagrunnlag brukes til kunnskapsutvikling og beslutningsstøtte.
 
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** realiseres ved at vitnemålsopplysninger kan brukes i flere formål og prosesser.
