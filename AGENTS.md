@@ -53,6 +53,7 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 ## Arbeidsflyt
 - Oppdater `briefs/next-step.md` når arbeid endrer hva som er gjort eller hva som gjenstår.
 - Oppdater `briefs/decisions.md` når det tas varige metode- eller arkitekturvalg.
+- Bruk `briefs/decisions.md` som felles beslutningslogg på tvers av prosesser og arbeidsløp, i stedet for å opprette nye beslutningsdokumenter med mindre det finnes et tydelig særskilt behov.
 - Legg nye arbeidsdokumenter og handover-notater i `briefs/arbeidsstyring-og-handover/` når de ikke hører hjemme i `results/`.
 - Hvis nye generelle regler blir viktige for repoet, legg dem i denne fila heller enn å spre dem tilfeldig i enkeltfiler.
 
