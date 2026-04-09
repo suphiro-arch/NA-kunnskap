@@ -1,4 +1,4 @@
-# Produkt-canvas: Motorvognregisteret
+﻿# Produkt-canvas: Motorvognregisteret
 
 ## Navn
 Motorvognregisteret
@@ -7,78 +7,78 @@ Motorvognregisteret
 SVV-001
 
 ## Status/Livsfase
-**Produksjon** - etablert nasjonalt register for opplysninger om kjøretøy og tilknyttede forhold.
+**Produksjon** - etablert nasjonalt register for opplysninger om kjÃ¸retÃ¸y og tilknyttede forhold.
 
-**Fakta:** Statens vegvesen tilbyr opplysninger om kjøretøy gjennom flere tjenester og API-er, og bruker i offentlig informasjon ofte betegnelsen kjøretøyopplysninger eller kjøretøyregisteret. I produktregisteret brukes her betegnelsen Motorvognregisteret som samlet ressursnavn.
+**Fakta:** Statens vegvesen tilbyr opplysninger om kjÃ¸retÃ¸y gjennom flere tjenester og API-er, og bruker i offentlig informasjon ofte betegnelsen kjÃ¸retÃ¸yopplysninger eller kjÃ¸retÃ¸yregisteret. I produktregisteret brukes her betegnelsen Motorvognregisteret som samlet ressursnavn.
 
 ## Modenhet
-**Høy modenhet** - etablert sektorregister med bred operativ bruk og flere tilgjengeliggjøringsformer.
+**HÃ¸y modenhet** - etablert sektorregister med bred operativ bruk og flere tilgjengeliggjÃ¸ringsformer.
 
-Produktet framstår som modent både som registerressurs og som datakilde for oppslag og deling. Offentlige kilder viser at opplysningene brukes gjennom flere kanaler, blant annet oppslagstjenester og API-er, noe som tilsier at løsningen ikke bare er et internt register, men en innarbeidet nasjonal kilde for kjøretøyinformasjon.
+Produktet framstÃ¥r som modent bÃ¥de som registerressurs og som datakilde for oppslag og deling. Offentlige kilder viser at opplysningene brukes gjennom flere kanaler, blant annet oppslagstjenester og API-er, noe som tilsier at lÃ¸sningen ikke bare er et internt register, men en innarbeidet nasjonal kilde for kjÃ¸retÃ¸yinformasjon.
 
 ## Kort beskrivelse
-Motorvognregisteret er den nasjonale registerressursen for grunnleggende opplysninger om kjøretøy og tilhørende forhold som Statens vegvesen gjør tilgjengelig gjennom oppslag og datatjenester. Produktet fungerer som en autoritativ kilde for tekniske kjøretøyopplysninger og utvalgte eierrelaterte opplysninger innenfor gjeldende vilkår, og brukes som grunnlag for kontroll, forvaltning, oppslag og videre datadeling.
+Motorvognregisteret er den nasjonale registerressursen for grunnleggende opplysninger om kjÃ¸retÃ¸y og tilhÃ¸rende forhold som Statens vegvesen gjÃ¸r tilgjengelig gjennom oppslag og datatjenester. Produktet fungerer som en autoritativ kilde for tekniske kjÃ¸retÃ¸yopplysninger og utvalgte eierrelaterte opplysninger innenfor gjeldende vilkÃ¥r, og brukes som grunnlag for kontroll, forvaltning, oppslag og videre datadeling.
 
 ## Kapabiliteter
 - **Datakilder: Grunndata**
-  Motorvognregisteret fungerer som nasjonal grunndatakilde for sentrale opplysninger om registrerte kjøretøy.
+  Motorvognregisteret fungerer som nasjonal grunndatakilde for sentrale opplysninger om registrerte kjÃ¸retÃ¸y.
 - **Datautveksling og integrasjon: Dele data med andre**
-  Produktet gjør kjøretøyopplysninger tilgjengelige gjennom flere delings- og oppslagsformer for andre brukere og systemer.
+  Produktet gjÃ¸r kjÃ¸retÃ¸yopplysninger tilgjengelige gjennom flere delings- og oppslagsformer for andre brukere og systemer.
 
-## Produktmål
-- være en autoritativ kilde for opplysninger om kjøretøy i Norge
-- gjøre relevante kjøretøyopplysninger tilgjengelige for oppslag, kontroll og datadeling
-- støtte forvaltningsprosesser, innbyggerbehov og maskinell bruk av kjøretøydata
-- bidra til at flere aktører kan bruke samme grunnlag i stedet for lokale kopier og uensartede kilder
+## ProduktmÃ¥l
+- vÃ¦re en autoritativ kilde for opplysninger om kjÃ¸retÃ¸y i Norge
+- gjÃ¸re relevante kjÃ¸retÃ¸yopplysninger tilgjengelige for oppslag, kontroll og datadeling
+- stÃ¸tte forvaltningsprosesser, innbyggerbehov og maskinell bruk av kjÃ¸retÃ¸ydata
+- bidra til at flere aktÃ¸rer kan bruke samme grunnlag i stedet for lokale kopier og uensartede kilder
 
 ## Brukerbehov
-- innbyggere og virksomheter trenger tilgang til korrekte opplysninger om kjøretøy
-- offentlige og private aktører trenger et felles registergrunnlag for kontroll, oppslag og integrasjoner
-- digitale tjenester trenger maskinelt tilgjengelige kjøretøydata for automatiserte prosesser
-- forvaltningen trenger en autoritativ kilde som kan brukes på tvers av ulike arbeidsprosesser
+- innbyggere og virksomheter trenger tilgang til korrekte opplysninger om kjÃ¸retÃ¸y
+- offentlige og private aktÃ¸rer trenger et felles registergrunnlag for kontroll, oppslag og integrasjoner
+- digitale tjenester trenger maskinelt tilgjengelige kjÃ¸retÃ¸ydata for automatiserte prosesser
+- forvaltningen trenger en autoritativ kilde som kan brukes pÃ¥ tvers av ulike arbeidsprosesser
 
 ## Hvem er brukerne og brukersegmentene
-| Brukersegment | Primære behov | Bruksområde | Kommentar |
+| Brukersegment | PrimÃ¦re behov | BruksomrÃ¥de | Kommentar |
 |---|---|---|---|
-| Innbyggere og virksomheter | Oppslag i kjøretøyopplysninger | Kontroll, kjøp, salg og generell informasjon | Tydelig offentlig brukergruppe |
-| Offentlige aktører | Autoritative kjøretøydata | Forvaltning, kontroll og saksbehandling | Viktige gjenbrukere |
-| Private systemleverandører og virksomheter | Maskinell tilgang til data | Integrasjoner, tjenester og automatiserte prosesser | Typiske API-brukere |
-| Statens vegvesen | Registerforvaltning og tilgjengeliggjøring | Drift, kvalitet og videre deling | Produktforvalter |
+| Innbyggere og virksomheter | Oppslag i kjÃ¸retÃ¸yopplysninger | Kontroll, kjÃ¸p, salg og generell informasjon | Tydelig offentlig brukergruppe |
+| Offentlige aktÃ¸rer | Autoritative kjÃ¸retÃ¸ydata | Forvaltning, kontroll og saksbehandling | Viktige gjenbrukere |
+| Private systemleverandÃ¸rer og virksomheter | Maskinell tilgang til data | Integrasjoner, tjenester og automatiserte prosesser | Typiske API-brukere |
+| Statens vegvesen | Registerforvaltning og tilgjengeliggjÃ¸ring | Drift, kvalitet og videre deling | Produktforvalter |
 
 ## Hovedfunksjoner
-Motorvognregisterets viktigste funksjon er å være den autoritative kilden for sentrale opplysninger om kjøretøy. Det omfatter blant annet tekniske opplysninger og andre grunnleggende registerdata som må kunne legges til grunn i oppslag, kontroll og videre bruk. Produktets verdi ligger derfor først og fremst i at mange aktører kan forholde seg til samme registergrunnlag.
+Motorvognregisterets viktigste funksjon er Ã¥ vÃ¦re den autoritative kilden for sentrale opplysninger om kjÃ¸retÃ¸y. Det omfatter blant annet tekniske opplysninger og andre grunnleggende registerdata som mÃ¥ kunne legges til grunn i oppslag, kontroll og videre bruk. Produktets verdi ligger derfor fÃ¸rst og fremst i at mange aktÃ¸rer kan forholde seg til samme registergrunnlag.
 
-Produktet har også en tydelig tilgjengeliggjøringsfunksjon. Statens vegvesen tilbyr opplysninger både gjennom brukerrettede oppslag og gjennom API-er for maskinell bruk. Det betyr at ressursen ikke bare er et internt register, men en registertilgangstjeneste med flere flater, der både manuelle og integrerte bruksmåter er en del av den operative rollen.
+Produktet har ogsÃ¥ en tydelig tilgjengeliggjÃ¸ringsfunksjon. Statens vegvesen tilbyr opplysninger bÃ¥de gjennom brukerrettede oppslag og gjennom API-er for maskinell bruk. Det betyr at ressursen ikke bare er et internt register, men en registertilgangstjeneste med flere flater, der bÃ¥de manuelle og integrerte bruksmÃ¥ter er en del av den operative rollen.
 
-En viktig del av produktbildet er at ulike typer opplysninger gjøres tilgjengelige med ulike vilkår og avgrensninger. Offentlige kilder skiller blant annet mellom tekniske kjøretøyopplysninger og utvidede opplysninger som inkluderer eierinformasjon. Produktet må derfor forstås som en samlet registerressurs der dataeksponeringen varierer etter formål, tilgang og regelverk, ikke som én ensartet åpen datakilde.
+En viktig del av produktbildet er at ulike typer opplysninger gjÃ¸res tilgjengelige med ulike vilkÃ¥r og avgrensninger. Offentlige kilder skiller blant annet mellom tekniske kjÃ¸retÃ¸yopplysninger og utvidede opplysninger som inkluderer eierinformasjon. Produktet mÃ¥ derfor forstÃ¥s som en samlet registerressurs der dataeksponeringen varierer etter formÃ¥l, tilgang og regelverk, ikke som Ã©n ensartet Ã¥pen datakilde.
 
-Samtidig er Motorvognregisteret ikke hele økosystemet av tjenester rundt kjøretøyforvaltning. Lokale fagsystemer, saksbehandlingsløsninger, salgsprosesser og andre tjenester bruker eller bygger på registerdataene, men er ikke del av selve produktet. Registerets rolle er å være den nasjonale kilden og tilgjengeliggjøringsflaten for opplysningene, ikke å dekke alle arbeidsprosessene der kjøretøydata inngår.
+Samtidig er Motorvognregisteret ikke hele Ã¸kosystemet av tjenester rundt kjÃ¸retÃ¸yforvaltning. Lokale fagsystemer, saksbehandlingslÃ¸sninger, salgsprosesser og andre tjenester bruker eller bygger pÃ¥ registerdataene, men er ikke del av selve produktet. Registerets rolle er Ã¥ vÃ¦re den nasjonale kilden og tilgjengeliggjÃ¸ringsflaten for opplysningene, ikke Ã¥ dekke alle arbeidsprosessene der kjÃ¸retÃ¸ydata inngÃ¥r.
 
 ### Scope og avgrensning
-| Inngår | Inngår ikke |
+| InngÃ¥r | InngÃ¥r ikke |
 |---|---|
-| Register over sentrale opplysninger om kjøretøy | Alle øvrige tjenester for kjøretøyforvaltning, salg og saksbehandling |
-| Oppslag og deling av kjøretøydata gjennom tilgjengelige flater | Lokale fagsystemer hos brukervirksomheter |
-| Tekniske kjøretøyopplysninger og utvalgte andre registeropplysninger | Hele tjenesteløpet rundt kjøretøy utenfor register- og delingsrollen |
-| API-er og andre mekanismer for tilgjengeliggjøring av data | Enhver bruk av dataene i eksterne tjenester og applikasjoner |
+| Register over sentrale opplysninger om kjÃ¸retÃ¸y | Alle Ã¸vrige tjenester for kjÃ¸retÃ¸yforvaltning, salg og saksbehandling |
+| Oppslag og deling av kjÃ¸retÃ¸ydata gjennom tilgjengelige flater | Lokale fagsystemer hos brukervirksomheter |
+| Tekniske kjÃ¸retÃ¸yopplysninger og utvalgte andre registeropplysninger | Hele tjenestelÃ¸pet rundt kjÃ¸retÃ¸y utenfor register- og delingsrollen |
+| API-er og andre mekanismer for tilgjengeliggjÃ¸ring av data | Enhver bruk av dataene i eksterne tjenester og applikasjoner |
 
 ## Veikart over kommende funksjonalitet
-Ikke offentlig samlet verifisert i denne arbeidsøkten.
+Ikke offentlig samlet verifisert i denne arbeidsÃ¸kten.
 
 ## Forretningsverdi/Verdiforslag
-- gir én autoritativ kilde for kjøretøyopplysninger som kan brukes på tvers av mange behov og aktører
-- gjør maskinell og manuell bruk av kjøretøydata enklere enn om hver aktør måtte etablere egne datagrunnlag
+- gir Ã©n autoritativ kilde for kjÃ¸retÃ¸yopplysninger som kan brukes pÃ¥ tvers av mange behov og aktÃ¸rer
+- gjÃ¸r maskinell og manuell bruk av kjÃ¸retÃ¸ydata enklere enn om hver aktÃ¸r mÃ¥tte etablere egne datagrunnlag
 - styrker kvalitet og konsistens i kontroll, oppslag og integrasjoner
-- reduserer risiko for ulike versjoner av samme kjøretøyinformasjon i forskjellige løsninger
+- reduserer risiko for ulike versjoner av samme kjÃ¸retÃ¸yinformasjon i forskjellige lÃ¸sninger
 
 ## Utfordringer og risiko
-| Risikokategori | Konkret risiko | Håndtering |
+| Risikokategori | Konkret risiko | HÃ¥ndtering |
 |---|---|---|
-| Datakvalitet | feil i registeropplysninger kan påvirke mange oppslag og integrasjoner samtidig | tydelig registerforvaltning, kvalitetssikring og sporbar retting |
-| Tilgang og regelverk | ulike typer data krever ulike vilkår og tilgangsnivåer | presise tilgangsregler, tydelig dokumentasjon og differensierte grensesnitt |
-| Tilgjengelighet | driftsavvik kan påvirke både oppslagstjenester og maskinelle integrasjoner | robust drift, overvåkning og beredskap |
-| Brukerforståelse | brukere kan misforstå hvilke opplysninger som er åpne, betingede eller begrensede | tydelig forklaring av datatyper, vilkår og avgrensninger |
-| Avhengighet | mange tjenester kan bli sterkt avhengige av samme registerkilde | forutsigbar forvaltning og tydelig håndtering av endringer i grensesnitt og datatilbud |
+| Datakvalitet | feil i registeropplysninger kan pÃ¥virke mange oppslag og integrasjoner samtidig | tydelig registerforvaltning, kvalitetssikring og sporbar retting |
+| Tilgang og regelverk | ulike typer data krever ulike vilkÃ¥r og tilgangsnivÃ¥er | presise tilgangsregler, tydelig dokumentasjon og differensierte grensesnitt |
+| Tilgjengelighet | driftsavvik kan pÃ¥virke bÃ¥de oppslagstjenester og maskinelle integrasjoner | robust drift, overvÃ¥kning og beredskap |
+| BrukerforstÃ¥else | brukere kan misforstÃ¥ hvilke opplysninger som er Ã¥pne, betingede eller begrensede | tydelig forklaring av datatyper, vilkÃ¥r og avgrensninger |
+| Avhengighet | mange tjenester kan bli sterkt avhengige av samme registerkilde | forutsigbar forvaltning og tydelig hÃ¥ndtering av endringer i grensesnitt og datatilbud |
 
 ## Kanaler
 - https://www.vegvesen.no/kjoretoy/kjop-og-salg/kjoretoyopplysninger/om-utlevering-av-kjoretoyopplysninger/
@@ -87,22 +87,22 @@ Ikke offentlig samlet verifisert i denne arbeidsøkten.
 - https://www.vegvesen.no/om-oss/om-organisasjonen/apne-data/et-utvalg-apne-data/api-for-kjoretoyopplysninger/
 
 ## Plattform
-Motorvognregisteret er et nasjonalt register- og delingsprodukt for kjøretøyopplysninger.
+Motorvognregisteret er et nasjonalt register- og delingsprodukt for kjÃ¸retÃ¸yopplysninger.
 
 ## Gjenbruk
-**Høy gjenbruksverdi** som nasjonal kilde for kjøretøydata i oppslag, kontroll og integrasjoner.
+**HÃ¸y gjenbruksverdi** som nasjonal kilde for kjÃ¸retÃ¸ydata i oppslag, kontroll og integrasjoner.
 
-Produktet er særlig relevant når flere aktører trenger samme grunnlag om kjøretøy og det er viktig at opplysningene kommer fra en autoritativ kilde med tydelige delingsformer.
+Produktet er sÃ¦rlig relevant nÃ¥r flere aktÃ¸rer trenger samme grunnlag om kjÃ¸retÃ¸y og det er viktig at opplysningene kommer fra en autoritativ kilde med tydelige delingsformer.
 
-## Støtter arkitekturprinsipper
+## StÃ¸tter arkitekturprinsipper
 - **P4: Del og gjenbruk data**
-- **P7: Sørg for tillit til oppgaveløsningen**
+- **P7: SÃ¸rg for tillit til oppgavelÃ¸sningen**
 
 ## Finansiering
-Ikke offentlig samlet verifisert i denne arbeidsøkten.
+Ikke offentlig samlet verifisert i denne arbeidsÃ¸kten.
 
 ## Forvaltning/eier
-| Ansvarsområde | Organisasjon / vurdering | Grunnlag |
+| AnsvarsomrÃ¥de | Organisasjon / vurdering | Grunnlag |
 |---|---|---|
 | Produktansvar | Statens vegvesen | produktsidene |
 | Registerforvaltning | Statens vegvesen | register- og API-kildene |
@@ -118,7 +118,7 @@ Ikke offentlig samlet verifisert i denne arbeidsøkten.
 - Lokal fil: `config/templates/produkt-canvas-template.md`
 - Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Lokal fil: `arkitektur/prinsipper/principles.md`
-- Lokal fil: `arkitektur/produkter/produktnummerering.md`
+- Lokal fil: `arkitektur/ressurser/produktnummerering.md`
 - Lokal fil: `sources/links.md`
 - Nettkilde: https://www.vegvesen.no/kjoretoy/kjop-og-salg/kjoretoyopplysninger/om-utlevering-av-kjoretoyopplysninger/ (kontrollert 2026-03-27)
 - Nettkilde: https://www.vegvesen.no/fag/teknologi/apne-data/et-utvalg-apne-data/api-for-tekniske-kjoretoyopplysninger/ (kontrollert 2026-03-27)
@@ -126,6 +126,7 @@ Ikke offentlig samlet verifisert i denne arbeidsøkten.
 - Nettkilde: https://www.vegvesen.no/om-oss/om-organisasjonen/apne-data/et-utvalg-apne-data/api-for-kjoretoyopplysninger/ (kontrollert 2026-03-27)
 
 ## Endringer i denne revisjonen
-- Opprettet manglende `v1`-fil for Motorvognregisteret og skrevet den på samme detaljeringsnivå som de sterkere produktbeskrivelsene
-- Tydeliggjort at produktet består av både registerrolle, oppslag og API-basert tilgjengeliggjøring
-- Presisert avgrensning mellom selve registerressursen og øvrige kjøretøytjenester og arbeidsprosesser
+- Opprettet manglende `v1`-fil for Motorvognregisteret og skrevet den pÃ¥ samme detaljeringsnivÃ¥ som de sterkere produktbeskrivelsene
+- Tydeliggjort at produktet bestÃ¥r av bÃ¥de registerrolle, oppslag og API-basert tilgjengeliggjÃ¸ring
+- Presisert avgrensning mellom selve registerressursen og Ã¸vrige kjÃ¸retÃ¸ytjenester og arbeidsprosesser
+

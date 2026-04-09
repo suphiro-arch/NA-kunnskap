@@ -1,4 +1,4 @@
-# Produkt-canvas: Maskinporten
+﻿# Produkt-canvas: Maskinporten
 
 ## Navn
 Maskinporten
@@ -7,107 +7,107 @@ Maskinporten
 DIGDIR-002
 
 ## Status/Livsfase
-**Produksjon** - etablert nasjonal fellesløsning for sikker maskin-til-maskin-autentisering og tilgang til API-er.
+**Produksjon** - etablert nasjonal felleslÃ¸sning for sikker maskin-til-maskin-autentisering og tilgang til API-er.
 
-**Fakta:** Digdir beskriver Maskinporten som fellesløsningen for virksomheters bruk av API-er og annen maskin-til-maskin-kommunikasjon. Dokumentasjonen og Samarbeidsportalen beskriver et etablert løp for å ta løsningen i bruk, og løsningen inngår i Digdirs tillitstjenester.
+**Fakta:** Digdir beskriver Maskinporten som felleslÃ¸sningen for virksomheters bruk av API-er og annen maskin-til-maskin-kommunikasjon. Dokumentasjonen og Samarbeidsportalen beskriver et etablert lÃ¸p for Ã¥ ta lÃ¸sningen i bruk, og lÃ¸sningen inngÃ¥r i Digdirs tillitstjenester.
 
 ## Modenhet
-**Høy modenhet** - innarbeidet felleskomponent med tydelige integrasjonsmønstre og bred praktisk bruk:
+**HÃ¸y modenhet** - innarbeidet felleskomponent med tydelige integrasjonsmÃ¸nstre og bred praktisk bruk:
 - Teknisk dokumentasjon beskriver anbefalte flyter, scopes, tokenbruk og systembruker-scenarier.
 - Samarbeidsportalen beskriver tjenesten som en etablert del av Digdirs felles tillitsinfrastruktur.
-- Det finnes dokumenterte løp for onboarding, test og produksjonssetting.
-- Produktet er modent både som teknisk komponent og som forvaltningsmodell.
+- Det finnes dokumenterte lÃ¸p for onboarding, test og produksjonssetting.
+- Produktet er modent bÃ¥de som teknisk komponent og som forvaltningsmodell.
 
-**Deduksjon:** Modenheten er høy fordi produktet brukes som grunnlag for sikker datadeling på tvers av virksomheter, og fordi mønstrene er standardiserte nok til å være gjenbrukbare på tvers av sektorer.
+**Deduksjon:** Modenheten er hÃ¸y fordi produktet brukes som grunnlag for sikker datadeling pÃ¥ tvers av virksomheter, og fordi mÃ¸nstrene er standardiserte nok til Ã¥ vÃ¦re gjenbrukbare pÃ¥ tvers av sektorer.
 
 ## Kort beskrivelse
-Maskinporten er den nasjonale fellesløsningen for å autentisere systemer og styre tilgang når virksomheter utveksler data eller bruker hverandres API-er. Produktet gjør det mulig å bygge sikre integrasjoner uten at hver datatilbyder og datakonsument må etablere egne autentiserings- og tokenløsninger. Maskinporten er særlig relevant når behovet er kontrollert maskin-til-maskin-kommunikasjon mellom virksomheter, ikke innlogging for sluttbrukere.
+Maskinporten er den nasjonale felleslÃ¸sningen for Ã¥ autentisere systemer og styre tilgang nÃ¥r virksomheter utveksler data eller bruker hverandres API-er. Produktet gjÃ¸r det mulig Ã¥ bygge sikre integrasjoner uten at hver datatilbyder og datakonsument mÃ¥ etablere egne autentiserings- og tokenlÃ¸sninger. Maskinporten er sÃ¦rlig relevant nÃ¥r behovet er kontrollert maskin-til-maskin-kommunikasjon mellom virksomheter, ikke innlogging for sluttbrukere.
 
 ## Kapabiliteter
-- **Datautveksling og integrasjon: Bruke data fra andre** gjør det mulig for datakonsumenter å hente data fra andre virksomheter gjennom samme nasjonale tillitsmønster.
-- **Datautveksling og integrasjon: Dele data med andre** gjør det mulig for datatilbydere å eksponere API-er på en standardisert og sikker måte for andre virksomheter.
-- **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** beskytter tokenutstedelse, klientautentisering og overføring av tilgangsgrunnlag i integrasjonsflyten.
+- **Datautveksling og integrasjon: Bruke data fra andre** gjÃ¸r det mulig for datakonsumenter Ã¥ hente data fra andre virksomheter gjennom samme nasjonale tillitsmÃ¸nster.
+- **Datautveksling og integrasjon: Dele data med andre** gjÃ¸r det mulig for datatilbydere Ã¥ eksponere API-er pÃ¥ en standardisert og sikker mÃ¥te for andre virksomheter.
+- **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** beskytter tokenutstedelse, klientautentisering og overfÃ¸ring av tilgangsgrunnlag i integrasjonsflyten.
 - **Tillit: Autentisering** bekrefter identiteten til virksomheter og systemer som skal bruke API-er eller hente data maskinelt.
-- **Tillit: Tilgangskontroll** gir grunnlag for å slippe inn bare systemer som har riktig token, scope og godkjent tilgang til den aktuelle ressursen.
+- **Tillit: Tilgangskontroll** gir grunnlag for Ã¥ slippe inn bare systemer som har riktig token, scope og godkjent tilgang til den aktuelle ressursen.
 
-## Produktmål
-**Primærkilder:** Digdir Docs for Maskinporten og Samarbeidsportalen for produktområdet.
+## ProduktmÃ¥l
+**PrimÃ¦rkilder:** Digdir Docs for Maskinporten og Samarbeidsportalen for produktomrÃ¥det.
 
-Dokumenterte mål:
-- Gi virksomheter en felles løsning for sikker maskin-til-maskin-kommunikasjon.
-- Forenkle bruk av API-er og datadeling på tvers av virksomheter.
-- Redusere behovet for lokale og bilaterale autentiseringsløsninger.
-- Legge til rette for trygg gjenbruk av API-er og data i offentlig sektor og i samspill med private aktører.
+Dokumenterte mÃ¥l:
+- Gi virksomheter en felles lÃ¸sning for sikker maskin-til-maskin-kommunikasjon.
+- Forenkle bruk av API-er og datadeling pÃ¥ tvers av virksomheter.
+- Redusere behovet for lokale og bilaterale autentiseringslÃ¸sninger.
+- Legge til rette for trygg gjenbruk av API-er og data i offentlig sektor og i samspill med private aktÃ¸rer.
 
-Operative mål utledet fra de samme kildene:
-- Gi datatilbydere et felles mønster for å beskytte API-er.
+Operative mÃ¥l utledet fra de samme kildene:
+- Gi datatilbydere et felles mÃ¸nster for Ã¥ beskytte API-er.
 - Gi datakonsumenter et gjenkjennelig og dokumentert tokenregime.
-- Gjøre onboarding, test og produksjonssetting mer forutsigbar for nye integrasjoner.
+- GjÃ¸re onboarding, test og produksjonssetting mer forutsigbar for nye integrasjoner.
 
 ## Brukerbehov
-- Datatilbydere trenger en felles måte å beskytte API-er og kontrollere hvilke systemer som får tilgang.
-- Datakonsumenter trenger et standardisert oppsett for å hente data fra andre virksomheter.
-- Integrasjonsteam trenger tydelige protokoller, scopes og dokumentasjon for å bygge robuste API-kall.
-- Sikkerhets- og forvaltningsmiljøer trenger en løsning som gjør tilgang til maskinell datautveksling sporbar og styrbar.
-- Virksomheter som opptrer på vegne av andre trenger et mønster som kan kombineres med fullmakter og systembruker der dette er relevant.
+- Datatilbydere trenger en felles mÃ¥te Ã¥ beskytte API-er og kontrollere hvilke systemer som fÃ¥r tilgang.
+- Datakonsumenter trenger et standardisert oppsett for Ã¥ hente data fra andre virksomheter.
+- Integrasjonsteam trenger tydelige protokoller, scopes og dokumentasjon for Ã¥ bygge robuste API-kall.
+- Sikkerhets- og forvaltningsmiljÃ¸er trenger en lÃ¸sning som gjÃ¸r tilgang til maskinell datautveksling sporbar og styrbar.
+- Virksomheter som opptrer pÃ¥ vegne av andre trenger et mÃ¸nster som kan kombineres med fullmakter og systembruker der dette er relevant.
 
 ## Hvem er brukerne og brukersegmentene
-| Brukersegment | Primære behov | Bruksområde | Kommentar |
+| Brukersegment | PrimÃ¦re behov | BruksomrÃ¥de | Kommentar |
 |---|---|---|---|
-| Datatilbydere i offentlig sektor | Beskytte API-er og styre tilgang | Eksponering av data og tjenester til andre virksomheter | Trenger et felles sikkerhetsmønster i stedet for lokale særvarianter |
-| Datakonsumenter i offentlig og privat sektor | Hente data sikkert fra andre | Integrasjon mot offentlige API-er | Møter Maskinporten som del av integrasjonsløpet |
-| Integrasjonsteam og systemleverandører | Standardiserte grensesnitt og testløp | Utvikling av API-klienter og integrasjoner | Er avhengige av tydelige scopes, tokenflyt og dokumentasjon |
-| Sikkerhets- og forvaltningsmiljøer | Kontroll og sporbarhet | Risikooppfølging, avtaler og tilgangsstyring | Trenger forutsigbare mønstre og tydelig ansvarsdeling |
-| Virksomheter med systembrukerbehov | Maskinell bruk på vegne av virksomhet | Automatiserte prosesser og delegerte integrasjoner | Relevante der systemer skal opptre i en virksomhetskontekst |
+| Datatilbydere i offentlig sektor | Beskytte API-er og styre tilgang | Eksponering av data og tjenester til andre virksomheter | Trenger et felles sikkerhetsmÃ¸nster i stedet for lokale sÃ¦rvarianter |
+| Datakonsumenter i offentlig og privat sektor | Hente data sikkert fra andre | Integrasjon mot offentlige API-er | MÃ¸ter Maskinporten som del av integrasjonslÃ¸pet |
+| Integrasjonsteam og systemleverandÃ¸rer | Standardiserte grensesnitt og testlÃ¸p | Utvikling av API-klienter og integrasjoner | Er avhengige av tydelige scopes, tokenflyt og dokumentasjon |
+| Sikkerhets- og forvaltningsmiljÃ¸er | Kontroll og sporbarhet | RisikooppfÃ¸lging, avtaler og tilgangsstyring | Trenger forutsigbare mÃ¸nstre og tydelig ansvarsdeling |
+| Virksomheter med systembrukerbehov | Maskinell bruk pÃ¥ vegne av virksomhet | Automatiserte prosesser og delegerte integrasjoner | Relevante der systemer skal opptre i en virksomhetskontekst |
 
 ## Hovedfunksjoner
-### Primære funksjoner
-- **Utstedelse av tilgangstoken for maskin-til-maskin-bruk.** Maskinporten utsteder token som systemer bruker for å identifisere seg overfor API-er. Dette dekker behovet for en felles og sikker mekanisme for å bekrefte hvem som kaller et API, og hva klienten ber om tilgang til.
-- **Standardisert autentisering av systemer og virksomheter.** Produktet gir et nasjonalt mønster for klientautentisering basert på virksomhetsforankrede oppsett og dokumenterte protokoller. Dette gjør at datatilbydere og datakonsumenter kan samhandle uten å etablere egne proprietære autentiseringsordninger.
-- **Scope-basert tilgang til API-er.** Maskinporten gjør det mulig å styre tilgang på et konseptnivå gjennom scopes som beskriver hvilke API-er eller datatyper en klient skal kunne bruke. Det er relevant når en virksomhet trenger kontrollert og differensiert tilgang, men ikke når behovet egentlig er detaljert faglig autorisasjon inne i mottakersystemet.
-- **Støtte for systembruker og virksomhetskontekst.** Dokumentasjonen beskriver hvordan løsningen kan brukes i scenarier der systemer opptrer på vegne av en virksomhet. Dette er viktig i automatiserte prosesser, men det erstatter ikke egne løsninger for fullmakt og representasjon der den juridiske og faglige konteksten er mer kompleks.
-- **Kontrollert innføring og forvaltning.** Tjenesten tilbyr dokumentasjon, onboarding og etablerte bruksløp som gjør produktet gjenbrukbart organisatorisk, ikke bare teknisk. Det er en sentral del av verdien når mange aktører skal koble seg på samme tillitsinfrastruktur.
+### PrimÃ¦re funksjoner
+- **Utstedelse av tilgangstoken for maskin-til-maskin-bruk.** Maskinporten utsteder token som systemer bruker for Ã¥ identifisere seg overfor API-er. Dette dekker behovet for en felles og sikker mekanisme for Ã¥ bekrefte hvem som kaller et API, og hva klienten ber om tilgang til.
+- **Standardisert autentisering av systemer og virksomheter.** Produktet gir et nasjonalt mÃ¸nster for klientautentisering basert pÃ¥ virksomhetsforankrede oppsett og dokumenterte protokoller. Dette gjÃ¸r at datatilbydere og datakonsumenter kan samhandle uten Ã¥ etablere egne proprietÃ¦re autentiseringsordninger.
+- **Scope-basert tilgang til API-er.** Maskinporten gjÃ¸r det mulig Ã¥ styre tilgang pÃ¥ et konseptnivÃ¥ gjennom scopes som beskriver hvilke API-er eller datatyper en klient skal kunne bruke. Det er relevant nÃ¥r en virksomhet trenger kontrollert og differensiert tilgang, men ikke nÃ¥r behovet egentlig er detaljert faglig autorisasjon inne i mottakersystemet.
+- **StÃ¸tte for systembruker og virksomhetskontekst.** Dokumentasjonen beskriver hvordan lÃ¸sningen kan brukes i scenarier der systemer opptrer pÃ¥ vegne av en virksomhet. Dette er viktig i automatiserte prosesser, men det erstatter ikke egne lÃ¸sninger for fullmakt og representasjon der den juridiske og faglige konteksten er mer kompleks.
+- **Kontrollert innfÃ¸ring og forvaltning.** Tjenesten tilbyr dokumentasjon, onboarding og etablerte brukslÃ¸p som gjÃ¸r produktet gjenbrukbart organisatorisk, ikke bare teknisk. Det er en sentral del av verdien nÃ¥r mange aktÃ¸rer skal koble seg pÃ¥ samme tillitsinfrastruktur.
 
 ### Scope og avgrensning
-| Inngår | Inngår ikke |
+| InngÃ¥r | InngÃ¥r ikke |
 |---|---|
 | Maskin-til-maskin-autentisering for API-bruk | Innlogging for sluttbrukere |
 | Tokenutstedelse og scope-basert tilgangsgrunnlag | Faglig autorisasjon i den enkelte tjeneste |
-| Standardiserte integrasjonsmønstre for API-er | Selve API-ene eller datamodellene som tilbys |
-| Støtte for systembruker-scenarier | Dokument- eller transaksjonssignering |
-| Onboarding, test og produksjonsløp | Full erstatning for fullmakts- og representasjonsløsninger |
+| Standardiserte integrasjonsmÃ¸nstre for API-er | Selve API-ene eller datamodellene som tilbys |
+| StÃ¸tte for systembruker-scenarier | Dokument- eller transaksjonssignering |
+| Onboarding, test og produksjonslÃ¸p | Full erstatning for fullmakts- og representasjonslÃ¸sninger |
 
 ## Veikart over kommende funksjonalitet
 **Fakta fra Samarbeidsportalen og Digdir Docs (hentet 2026-03-17):**
-- Produktområdet arbeider videre med forenklet bruk, tydeligere innføringsløp og videreutvikling av tillitstjenestene som helhet.
-- Dokumentasjonen viser også at systembruker og mer avanserte integrasjonsscenarier er et tydelig utviklingsområde.
+- ProduktomrÃ¥det arbeider videre med forenklet bruk, tydeligere innfÃ¸ringslÃ¸p og videreutvikling av tillitstjenestene som helhet.
+- Dokumentasjonen viser ogsÃ¥ at systembruker og mer avanserte integrasjonsscenarier er et tydelig utviklingsomrÃ¥de.
 
-**Deduksjon:** Veikartet peker mot videre modning av Maskinporten som felles grunnmur for API-sikkerhet, særlig der virksomheter trenger mer standardisert samspill mellom autentisering, tilgang og delegerte integrasjoner.
+**Deduksjon:** Veikartet peker mot videre modning av Maskinporten som felles grunnmur for API-sikkerhet, sÃ¦rlig der virksomheter trenger mer standardisert samspill mellom autentisering, tilgang og delegerte integrasjoner.
 
 ## Forretningsverdi/Verdiforslag
 ### For datatilbydere
-- Reduserer behovet for å bygge og forvalte egne autentiseringsløsninger for API-er.
-- Senker risiko ved at tilgang til API-er bygger på et etablert nasjonalt sikkerhetsmønster.
-- Gjør det enklere å eksponere data til flere aktører uten å etablere unike oppsett per mottaker.
+- Reduserer behovet for Ã¥ bygge og forvalte egne autentiseringslÃ¸sninger for API-er.
+- Senker risiko ved at tilgang til API-er bygger pÃ¥ et etablert nasjonalt sikkerhetsmÃ¸nster.
+- GjÃ¸r det enklere Ã¥ eksponere data til flere aktÃ¸rer uten Ã¥ etablere unike oppsett per mottaker.
 
 ### For datakonsumenter
-- Gir et gjenkjennelig mønster for å bruke data fra mange virksomheter.
+- Gir et gjenkjennelig mÃ¸nster for Ã¥ bruke data fra mange virksomheter.
 - Reduserer integrasjonskostnader ved at samme token- og autentiseringslogikk kan gjenbrukes.
-- Gjør det lettere å etablere nye samarbeid og automatiserte prosesser.
+- GjÃ¸r det lettere Ã¥ etablere nye samarbeid og automatiserte prosesser.
 
-### For offentlig sektor og økosystemet
-- Styrker nasjonal datadeling ved å standardisere hvordan systemer får tilgang til API-er.
-- Bidrar til raskere gjenbruk av data og tjenester på tvers av sektorer.
-- Gjør det enklere å skille mellom når behovet er maskinell autentisering, og når andre produkter må brukes for innlogging, autorisasjon eller fullmakt.
+### For offentlig sektor og Ã¸kosystemet
+- Styrker nasjonal datadeling ved Ã¥ standardisere hvordan systemer fÃ¥r tilgang til API-er.
+- Bidrar til raskere gjenbruk av data og tjenester pÃ¥ tvers av sektorer.
+- GjÃ¸r det enklere Ã¥ skille mellom nÃ¥r behovet er maskinell autentisering, og nÃ¥r andre produkter mÃ¥ brukes for innlogging, autorisasjon eller fullmakt.
 
 ## Utfordringer og risiko
-| Risikokategori | Konkret risiko | Håndtering |
+| Risikokategori | Konkret risiko | HÃ¥ndtering |
 |---|---|---|
 | Juridisk og styringsmessig | Virksomheter kan gi tilgang til API-er uten tydelig hjemmel eller feil avgrensede scopes | Tydeligere tilgangsmodeller, avtaler og gjennomgang av scope-bruk |
-| Teknisk | Feil integrasjon hos klient eller API-tilbyder kan gi utilgjengelige eller usikre API-kall | Testmiljø, dokumenterte mønstre og validering før produksjon |
-| Sikkerhet | Kompromitterte klienthemmeligheter eller feil tokenhåndtering kan gi uautorisert tilgang | Streng nøkkelhåndtering, overvåking og begrensede levetider på token |
-| Avhengigheter | Feil forståelse av samspillet mellom Maskinporten og andre tillitstjenester kan gi feil løsningsvalg | Tydelig avgrensning mellom autentisering, autorisasjon og representasjon |
-| Brukbarhet | Onboarding kan oppleves som krevende for nye integrasjonsteam | Bedre innføringsstøtte, eksempler og forenklede startløp |
+| Teknisk | Feil integrasjon hos klient eller API-tilbyder kan gi utilgjengelige eller usikre API-kall | TestmiljÃ¸, dokumenterte mÃ¸nstre og validering fÃ¸r produksjon |
+| Sikkerhet | Kompromitterte klienthemmeligheter eller feil tokenhÃ¥ndtering kan gi uautorisert tilgang | Streng nÃ¸kkelhÃ¥ndtering, overvÃ¥king og begrensede levetider pÃ¥ token |
+| Avhengigheter | Feil forstÃ¥else av samspillet mellom Maskinporten og andre tillitstjenester kan gi feil lÃ¸sningsvalg | Tydelig avgrensning mellom autentisering, autorisasjon og representasjon |
+| Brukbarhet | Onboarding kan oppleves som krevende for nye integrasjonsteam | Bedre innfÃ¸ringsstÃ¸tte, eksempler og forenklede startlÃ¸p |
 
 ## Kanaler
 - Produktside: https://www.digdir.no/om-tjenesten/maskinporten/1558
@@ -119,31 +119,31 @@ Operative mål utledet fra de samme kildene:
 ## Plattform
 Maskinporten er en nasjonal plattform for klientautentisering og tokenutstedelse i maskinelle integrasjoner.
 
-**Fakta:** Digdir Docs beskriver løsningen gjennom standardiserte protokoller, tokenflyter og bruk av scopes. Dokumentasjonen beskriver også systembruker som et eget funksjonelt område.
+**Fakta:** Digdir Docs beskriver lÃ¸sningen gjennom standardiserte protokoller, tokenflyter og bruk av scopes. Dokumentasjonen beskriver ogsÃ¥ systembruker som et eget funksjonelt omrÃ¥de.
 
 **Ikke offentlig dokumentert i brukte kilder:** Full driftsarkitektur, konkret skylokasjon og detaljert runtime-oppsett.
 
 ## Gjenbruk
-**Høy gjenbruksverdi:**
-- Produktet er laget for gjenbruk i mange integrasjoner på tvers av virksomheter.
-- Det er særlig relevant når behovet er sikker maskinell tilgang til API-er.
+**HÃ¸y gjenbruksverdi:**
+- Produktet er laget for gjenbruk i mange integrasjoner pÃ¥ tvers av virksomheter.
+- Det er sÃ¦rlig relevant nÃ¥r behovet er sikker maskinell tilgang til API-er.
 - Det er mindre relevant dersom behovet egentlig er sluttbrukerinnlogging eller detaljert faglig autorisasjon, der andre produkter treffer bedre.
 
-## Støtter arkitekturprinsipper
-- **P5: Del og gjenbruk løsninger** realiseres ved at autentisering for API-bruk tilbys som felleskomponent.
-- **P6: Lag digitale løsninger som støtter samhandling** styrkes fordi flere virksomheter kan bygge på samme sikkerhetsmønster for datautveksling.
-- **P7: Sørg for tillit til oppgaveløsningen** er sentralt fordi produktet etablerer grunnlaget for sikker maskinell tilgang og kontrollert informasjonsflyt.
+## StÃ¸tter arkitekturprinsipper
+- **P5: Del og gjenbruk lÃ¸sninger** realiseres ved at autentisering for API-bruk tilbys som felleskomponent.
+- **P6: Lag digitale lÃ¸sninger som stÃ¸tter samhandling** styrkes fordi flere virksomheter kan bygge pÃ¥ samme sikkerhetsmÃ¸nster for datautveksling.
+- **P7: SÃ¸rg for tillit til oppgavelÃ¸sningen** er sentralt fordi produktet etablerer grunnlaget for sikker maskinell tilgang og kontrollert informasjonsflyt.
 
 ## Finansiering
 - **Fakta:** Samarbeidsportalen har en egen side for kostnadsmodell for Maskinporten.
 - **Ikke fullt offentlig dokumentert i brukte kilder:** Detaljerte satser og full kostnadsfordeling.
-- **Deduksjon:** Produktet forvaltes som nasjonal fellesløsning, men virksomheter må forholde seg til en dokumentert modell for bruk og innføring.
+- **Deduksjon:** Produktet forvaltes som nasjonal felleslÃ¸sning, men virksomheter mÃ¥ forholde seg til en dokumentert modell for bruk og innfÃ¸ring.
 
 ## Forvaltning/eier
-| Ansvarsområde | Organisasjon / vurdering | Grunnlag |
+| AnsvarsomrÃ¥de | Organisasjon / vurdering | Grunnlag |
 |---|---|---|
 | Produktansvar | Digitaliseringsdirektoratet (Digdir) | Digdirs produktside og Samarbeidsportalen |
-| Driftsansvar | Ikke eksplisitt navngitt i brukte offentlige kilder | Offentlige kilder beskriver ikke detaljert leverandør- eller driftsmodell |
+| Driftsansvar | Ikke eksplisitt navngitt i brukte offentlige kilder | Offentlige kilder beskriver ikke detaljert leverandÃ¸r- eller driftsmodell |
 | Budsjett- og kostnadsmodell | Digdir forvalter produktet, med publisert kostnadsmodell | Samarbeidsportalen |
 | Styringsmodell | Del av Digdirs tillitstjenester | Samarbeidsportalen |
 
@@ -157,11 +157,11 @@ Maskinporten er en nasjonal plattform for klientautentisering og tokenutstedelse
 - https://samarbeid.digdir.no/maskinporten/kostnadsmodell-maskinporten/64
 
 ## Kildegrunnlag brukt i utfyllingen
-- Lokal fil: `arkitektur/produkter/produktbeskrivelser/02-Maskinporten-produkt-canvas-v2-copilot.md`
+- Lokal fil: `arkitektur/ressurser/operative-losninger-og-tjenester/02-Maskinporten-produkt-canvas-v2-copilot.md`
 - Lokal fil: `config/prompts/produkt-canvas.system.md`
 - Lokal fil: `config/templates/produkt-canvas-template.md`
 - Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
-- Lokal fil: `arkitektur/produkter/produktnummerering.md`
+- Lokal fil: `arkitektur/ressurser/produktnummerering.md`
 - Lokal fil: `sources/links.md`
 - Nettkilde: https://www.digdir.no/om-tjenesten/maskinporten/1558 (hentet 2026-03-17)
 - Nettkilde: https://docs.digdir.no/docs/Maskinporten/ (hentet 2026-03-17)
@@ -181,6 +181,7 @@ Maskinporten er en nasjonal plattform for klientautentisering og tokenutstedelse
 - Finansiering og forvaltning er skrevet om slik at publiserte forhold skilles fra det som ikke er offentlig dokumentert.
 
 ### Tekstlige forbedringer
-- Metadata er ryddet slik at dokumentet ikke starter med målgruppelinje, og `Ressurs ID` er skrevet uten parentesforklaring.
-- Hovedfunksjoner og avgrensning er skrevet som en tydeligere veiledning for når Maskinporten er riktig løsning.
+- Metadata er ryddet slik at dokumentet ikke starter med mÃ¥lgruppelinje, og `Ressurs ID` er skrevet uten parentesforklaring.
+- Hovedfunksjoner og avgrensning er skrevet som en tydeligere veiledning for nÃ¥r Maskinporten er riktig lÃ¸sning.
 - Verdibeskrivelse og gjenbruksvurdering skiller klarere mellom Maskinporten og tilgrensende produkter.
+

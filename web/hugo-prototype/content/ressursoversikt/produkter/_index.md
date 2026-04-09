@@ -7,7 +7,7 @@ hideToc: true
 
 # Ressurser (siste versjon)
 
-Denne oversikten viser siste registrerte versjon per ressurs basert paa `arkitektur/produkter/produktnummerering.md`.
+Denne oversikten viser siste registrerte versjon per ressurs basert paa `arkitektur/ressurser/produktnummerering.md`.
 
 Bruk siden for aa finne riktig ressursbeskrivelse raskt, og gaa derfra videre til detaljene i markdownfilen paa GitHub eller via relevante kapabilitetssider.
 
@@ -17,7 +17,7 @@ Ressursene er gruppert etter hovedtype, med egne undersider for operative løsni
 
 Ressurser som brukes direkte i drift, integrasjon eller løsningsdesign.
 
-Antall ressurser: **58**
+Antall ressurser: **59**
 
 ## [Normerende ressurser](./normerende-ressurser/)
 
@@ -30,9 +30,3 @@ Antall ressurser: **13**
 Arenaer for koordinering, prioritering og samordning på tvers av aktører.
 
 Antall ressurser: **3**
-
-## [Andre ressurser](./andre-ressurser/)
-
-Ressurser som foreløpig ikke er plassert i egen ressursmappe med tydelig hovedtype.
-
-Antall ressurser: **1**

@@ -1,6 +1,6 @@
 # Ressursregister og ressurs-ID-er
 
-> Status: Midlertidig arbeidsnotat fra overgangsfasen. Denne fila er ikke operativ master. Nye ressurser og ressurs-ID-er skal nå føres i `arkitektur/produkter/produktnummerering.md`.
+> Status: Midlertidig arbeidsnotat fra overgangsfasen. Denne fila er ikke operativ master. Nye ressurser og ressurs-ID-er skal nå føres i `arkitektur/ressurser/produktnummerering.md`.
 
 Kilde: overgangsregister bygget fra eksisterende produktregister, nye ressursbeskrivelser under `arkitektur/ressurser/`, `sources/links.md` og styringsreglene i `arkitektur/ressurser/styringsregler.md`.
 
@@ -11,8 +11,8 @@ Kilde: overgangsregister bygget fra eksisterende produktregister, nye ressursbes
 
 ## Overgangsstatus
 - dette er et første arbeidsutkast til ny registerstruktur
-- dagens operative produktregister ligger fortsatt i `arkitektur/produkter/produktnummerering.md`
-- nye ressurser skal nå føres i `arkitektur/produkter/produktnummerering.md`
+- dagens operative produktregister ligger i `arkitektur/ressurser/produktnummerering.md`
+- nye ressurser skal nå føres i `arkitektur/ressurser/produktnummerering.md`
 - eksisterende operative ressursrader skal senere migreres inn hit i samlet flytteløp
 
 ## Prinsipp
@@ -56,7 +56,7 @@ Kilde: overgangsregister bygget fra eksisterende produktregister, nye ressursbes
 | 4 | `NOVARI-004` | VIGO | Operative løsninger og tjenester | Sektorløsning | Felles løsning for inntak og administrasjon i videregående opplæring | Bør avgrenses tydelig mot delressurser som VIGO-portalen og Sentralbase når beskrivelsen lages | Ikke kvalitetssikret ennå | Ikke opprettet ennå | - |
 
 ## Merknad
-Denne fila ble laget for å teste en bredere ressursstruktur før endelig avklaring. Etter avklaringen om å beholde én operativ master videreføres registerføringen i `arkitektur/produkter/produktnummerering.md`.
+Denne fila ble laget for å teste en bredere ressursstruktur før endelig avklaring. Etter avklaringen om å beholde én operativ master videreføres registerføringen i `arkitektur/ressurser/produktnummerering.md`.
 
 ## Neste naturlige utvidelser
 - migrere hele Digdir-delen inn i dette registeret som første store operative bolk
@@ -66,7 +66,7 @@ Denne fila ble laget for å teste en bredere ressursstruktur før endelig avklar
 
 ## Nye kandidater lagt inn i masterregisteret (2026-04-09)
 
-Nye forslag fra `sources/links.md` er lagt inn i `arkitektur/produkter/produktnummerering.md` som arbeidsutkast med `Ikke opprettet ennå`.
+Nye forslag fra `sources/links.md` er lagt inn i `arkitektur/ressurser/produktnummerering.md` som arbeidsutkast med `Ikke opprettet ennå`.
 
 Omfang i denne runden:
 - KS: `KS-011` til `KS-015`

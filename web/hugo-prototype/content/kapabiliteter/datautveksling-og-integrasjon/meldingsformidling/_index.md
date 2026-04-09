@@ -1,13 +1,13 @@
----
+﻿---
 title: "Meldingsformidling"
 weight: 3
-description: "Evnen til å garantere levering og meldingsrekkefølge til rett mottaker."
+description: "Evnen til Ã¥ garantere levering og meldingsrekkefÃ¸lge til rett mottaker."
 cardMeta: "11 produkter"
 ---
 
-Evnen til å garantere levering og meldingsrekkefølge til rett mottaker.
+Evnen til Ã¥ garantere levering og meldingsrekkefÃ¸lge til rett mottaker.
 
-## Hører til
+## HÃ¸rer til
 
 Denne delkapabiliteten er en del av [Datautveksling og integrasjon](../).
 
@@ -17,12 +17,13 @@ Denne delkapabiliteten er en del av [Datautveksling og integrasjon](../).
 | --- | --- | --- |
 | eFormidling | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/07-eFormidling-produkt-canvas-v3-codex.md) | Standardisert protokoll for meldingsutveksling. |
 | Altinn Formidling | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/08-Altinn-formidling-produkt-canvas-v3-codex.md) | Sikker transport av data via broker |
-| Digital postkasse | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/09-Digital-postkasse-produkt-canvas-v3-codex.md) | gir en felles og standardisert kanal for å sende post og motta kvitteringer mellom offentlige avsendere, meldingsformidler og postkasseleverandører |
-| ELMA | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/10-ELMA-produkt-canvas-v3-codex.md) | støtter oppslag av mottakeradresse og transportprofil i meldingsutvekslingen |
-| Peppol eDelivery | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/11-Peppol-eDelivery-produkt-canvas-v3-codex.md) | gir et føderert mønster for standardisert dokumentutveksling mellom virksomheter |
-| Altinn Melding | [v5 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/23-Altinn-3-Melding-produkt-canvas-v5-codex.md) | håndterer sikker digital utsending og mottak av meldinger med status og livssyklus |
-| Altinn Varsling | [v5 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/24-Varslinger-produkt-canvas-v5-codex.md) | brukes til programmatisk utsending og leveringsoppfølging av varsler |
-| Fiks melding | [v2 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/26-FIKS-Melding-produkt-canvas-v2-codex.md) | gir kommunene en felles tjeneste for å sende meldinger og dokumenter gjennom flere kanaler fra samme løsning. |
-| Fiks SvarUt | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/27-FIKS-SvarUt-produkt-canvas-v3-codex.md) | fordeler dokumenter til flere mottakerkanaler gjennom ett sentralisert utsendingsløp. |
-| e-resept | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/35-e-resept-produkt-canvas-v1-codex.md) | e-resept formidler reseptinformasjon digitalt mellom forskriver, apotek og andre relevante aktører. |
-| SvarInn | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/57-SvarInn-produkt-canvas-v1-codex.md) | henter innkommende forsendelser fra SvarUt og leverer dem videre til mottakersystemene gjennom et standardisert mottaksløp. |
+| Digital postkasse | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/09-Digital-postkasse-produkt-canvas-v3-codex.md) | gir en felles og standardisert kanal for Ã¥ sende post og motta kvitteringer mellom offentlige avsendere, meldingsformidler og postkasseleverandÃ¸rer |
+| ELMA | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/10-ELMA-produkt-canvas-v3-codex.md) | stÃ¸tter oppslag av mottakeradresse og transportprofil i meldingsutvekslingen |
+| Peppol eDelivery | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/11-Peppol-eDelivery-produkt-canvas-v3-codex.md) | gir et fÃ¸derert mÃ¸nster for standardisert dokumentutveksling mellom virksomheter |
+| Altinn Melding | [v5 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/23-Altinn-3-Melding-produkt-canvas-v5-codex.md) | hÃ¥ndterer sikker digital utsending og mottak av meldinger med status og livssyklus |
+| Altinn Varsling | [v5 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/24-Varslinger-produkt-canvas-v5-codex.md) | brukes til programmatisk utsending og leveringsoppfÃ¸lging av varsler |
+| Fiks melding | [v2 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/26-FIKS-Melding-produkt-canvas-v2-codex.md) | gir kommunene en felles tjeneste for Ã¥ sende meldinger og dokumenter gjennom flere kanaler fra samme lÃ¸sning. |
+| Fiks SvarUt | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/27-FIKS-SvarUt-produkt-canvas-v3-codex.md) | fordeler dokumenter til flere mottakerkanaler gjennom ett sentralisert utsendingslÃ¸p. |
+| e-resept | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/35-e-resept-produkt-canvas-v1-codex.md) | e-resept formidler reseptinformasjon digitalt mellom forskriver, apotek og andre relevante aktÃ¸rer. |
+| SvarInn | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/57-SvarInn-produkt-canvas-v1-codex.md) | henter innkommende forsendelser fra SvarUt og leverer dem videre til mottakersystemene gjennom et standardisert mottakslÃ¸p. |
+

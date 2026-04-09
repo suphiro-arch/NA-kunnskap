@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 $outDir = 'web/hugo-prototype/content/ressursoversikt/produkter'
-$registerFile = 'arkitektur/produkter/produktnummerering.md'
+$registerFile = 'arkitektur/ressurser/produktnummerering.md'
 $mapFile = 'arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml'
 $repoBlobBase = 'https://github.com/suphiro-arch/NA-kunnskap/blob/main'
 $repoRoot = (Resolve-Path '.').Path
@@ -396,7 +396,7 @@ $index = @(
   '',
   '# Ressurser (siste versjon)',
   '',
-  'Denne oversikten viser siste registrerte versjon per ressurs basert paa `arkitektur/produkter/produktnummerering.md`.',
+  'Denne oversikten viser siste registrerte versjon per ressurs basert paa `arkitektur/ressurser/produktnummerering.md`.',
   '',
   'Bruk siden for aa finne riktig ressursbeskrivelse raskt, og gaa derfra videre til detaljene i markdownfilen paa GitHub eller via relevante kapabilitetssider.',
   '',
@@ -561,4 +561,5 @@ Get-ChildItem $outDir -File |
   Remove-Item -Force
 
 Write-Output ("Genererte oversikt for ressurser: {0}" -f $latest.Count)
+
 

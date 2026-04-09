@@ -1,15 +1,15 @@
-# Struktur og bearbeiding av arkitekturgrunnlaget
+﻿# Struktur og bearbeiding av arkitekturgrunnlaget
 
-Denne beskrivelsen forklarer hvordan rådata, kuraterte arbeidsfiler og videre bruk henger sammen i repoet.
+Denne beskrivelsen forklarer hvordan rÃ¥data, kuraterte arbeidsfiler og videre bruk henger sammen i repoet.
 
-## 1. Råkilder
+## 1. RÃ¥kilder
 
-Råkilder ligger i `sources/`.
+RÃ¥kilder ligger i `sources/`.
 
-Viktigste råkilde for kapabiliteter og prinsipper:
+Viktigste rÃ¥kilde for kapabiliteter og prinsipper:
 - `sources/2025-03-18-Nasjonal Arkitektur.xml`
 
-Dette er en modellfil som inneholder mer enn det repoet faktisk skal bruke videre. Den har også hjelpeelementer, generiske objekter og kopier som ikke bør gå rett inn i dokumentasjon og web.
+Dette er en modellfil som inneholder mer enn det repoet faktisk skal bruke videre. Den har ogsÃ¥ hjelpeelementer, generiske objekter og kopier som ikke bÃ¸r gÃ¥ rett inn i dokumentasjon og web.
 
 ## 2. Kuraterte arbeidsfiler
 
@@ -30,27 +30,27 @@ Denne fila er den kuraterte arbeidsfila for:
 - operative prinsippnavn
 - kort forklaring av prinsippene
 - kobling mellom prinsipper og hovedkapabiliteter
-- prinsippfaglig forklaring som tidligere lå duplisert i `capabilities.yaml`
+- prinsippfaglig forklaring som tidligere lÃ¥ duplisert i `capabilities.yaml`
 
-### Mål
+### MÃ¥l
 - `arkitektur/maal/maal.md`
 
 Denne fila er den kuraterte arbeidsfila for:
-- overordnet målspor i arkitekturmodellen
-- strategiske mål som er eksplisitt koblet til nasjonal arkitektur i XML-kilden
-- dokumentasjon av hva som faktisk er modellert, og hva som ikke er kuratert videre ennå
+- overordnet mÃ¥lspor i arkitekturmodellen
+- strategiske mÃ¥l som er eksplisitt koblet til nasjonal arkitektur i XML-kilden
+- dokumentasjon av hva som faktisk er modellert, og hva som ikke er kuratert videre ennÃ¥
 
 ### Produkter og koblinger
-- `arkitektur/produkter/produktnummerering.md`
+- `arkitektur/ressurser/produktnummerering.md`
 - `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml`
 
 Disse filene brukes videre for ressursoversikt, produktkoblinger og webnavigasjon.
 
 ## 3. Produktbeskrivelser og leveransefiler
 
-Produktbeskrivelsene ligger i `arkitektur/produkter/produktbeskrivelser/`.
+Produktbeskrivelsene ligger i `arkitektur/ressurser/operative-losninger-og-tjenester/`.
 
-Øvrige leveranser ligger fortsatt i `results/`.
+Ã˜vrige leveranser ligger fortsatt i `results/`.
 
 Produktbeskrivelsene skal bruke:
 - `capabilities.yaml` for kapabilitetsnavn
@@ -61,13 +61,13 @@ Produktbeskrivelsene skal bruke:
 
 Hugo-prototypen ligger i `web/hugo-prototype/`.
 
-Følgende arbeidsfiler brukes videre mot web:
+FÃ¸lgende arbeidsfiler brukes videre mot web:
 - `arkitektur/kapabiliteter/capabilities.yaml`
 - `arkitektur/prinsipper/principles.md`
 - `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml`
-- `arkitektur/produkter/produktbeskrivelser/`
+- `arkitektur/ressurser/operative-losninger-og-tjenester/`
 
-Foreløpig brukes ikke målsporet direkte i weben, men det er nå dokumentert og kuratert i:
+ForelÃ¸pig brukes ikke mÃ¥lsporet direkte i weben, men det er nÃ¥ dokumentert og kuratert i:
 - `arkitektur/maal/maal.md`
 
 Prinsippsiden i weben synkes fra:
@@ -76,16 +76,17 @@ Prinsippsiden i weben synkes fra:
 Kapabilitetssidene genereres fra:
 - `arkitektur/kapabiliteter/capabilities.yaml`
 - `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml`
-- `arkitektur/produkter/produktbeskrivelser/`
+- `arkitektur/ressurser/operative-losninger-og-tjenester/`
 
 Produktsiden genereres fra:
-- `arkitektur/produkter/produktbeskrivelser/`
+- `arkitektur/ressurser/operative-losninger-og-tjenester/`
 - `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml`
 
 ## 5. Praktisk regel
 
-Når råkilder og kuraterte filer avviker:
+NÃ¥r rÃ¥kilder og kuraterte filer avviker:
 
-1. Råkilden skal ikke brukes direkte som publiseringsgrunnlag.
+1. RÃ¥kilden skal ikke brukes direkte som publiseringsgrunnlag.
 2. Avvik skal vurderes og dokumenteres.
 3. De kuraterte filene i `arkitektur/` er styrende for videre analyser, produktbeskrivelser og web.
+

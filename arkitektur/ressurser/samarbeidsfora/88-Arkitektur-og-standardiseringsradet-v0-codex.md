@@ -27,5 +27,5 @@ Ressursen er opprettet som et kort paabegynt utkast for a kunne kobles i analyse
 
 ## Kildegrunnlag brukt i utfyllingen
 - sources/links.md, kontrollert 2026-04-09
-- arkitektur/produkter/produktnummerering.md, kontrollert 2026-04-09
+- arkitektur/ressurser/produktnummerering.md, kontrollert 2026-04-09
 - https://www.digdir.no/digitalisering-og-samordning/arkitektur-og-standardiseringsradet/3918, kontrollert 2026-04-09

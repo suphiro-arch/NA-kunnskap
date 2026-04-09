@@ -1,113 +1,113 @@
-# Produkt-canvas: Opptaksløsninger
+﻿# Produkt-canvas: OpptakslÃ¸sninger
 
 ## Navn
-Opptaksløsninger
+OpptakslÃ¸sninger
 
 ## Ressurs ID
 SIKT-003
 
 ## Status/Livsfase
-**Produksjon** - etablert fellesløsning for samordnet opptak til høyere utdanning og fagskoler.
+**Produksjon** - etablert felleslÃ¸sning for samordnet opptak til hÃ¸yere utdanning og fagskoler.
 
-**Fakta:** Sikt beskriver opptaksløsningene som datasystemene bak Samordna opptak. Systemforvaltning og opptaksforvaltning skjer i samarbeid mellom Sikt og HK-dir, der Sikt forvalter systemene og HK-dir forvalter opptaket.
+**Fakta:** Sikt beskriver opptakslÃ¸sningene som datasystemene bak Samordna opptak. Systemforvaltning og opptaksforvaltning skjer i samarbeid mellom Sikt og HK-dir, der Sikt forvalter systemene og HK-dir forvalter opptaket.
 
 ## Modenhet
-**Høy modenhet** - etablert og samfunnskritisk opptaksområde:
-- brukes i samordnet opptak til grunnutdanning ved universiteter og høgskoler
-- brukes i samordnet opptak til høyere yrkesfaglig utdanning ved fagskoler
-- består av flere operative systemer med både historikk, saksflyt og søkerkommunikasjon
+**HÃ¸y modenhet** - etablert og samfunnskritisk opptaksomrÃ¥de:
+- brukes i samordnet opptak til grunnutdanning ved universiteter og hÃ¸gskoler
+- brukes i samordnet opptak til hÃ¸yere yrkesfaglig utdanning ved fagskoler
+- bestÃ¥r av flere operative systemer med bÃ¥de historikk, saksflyt og sÃ¸kerkommunikasjon
 
 ## Kort beskrivelse
-Opptaksløsninger er den samlede produktflaten for datasystemene som muliggjør samordnet opptak til høyere utdanning og fagskoler i Norge. Produktet støtter både saksbehandling, søkerdialog, dokumenthåndtering, opptakskjøring og publisering av resultater, og fungerer som en felles digital ryggrad for opptaksprosessene.
+OpptakslÃ¸sninger er den samlede produktflaten for datasystemene som muliggjÃ¸r samordnet opptak til hÃ¸yere utdanning og fagskoler i Norge. Produktet stÃ¸tter bÃ¥de saksbehandling, sÃ¸kerdialog, dokumenthÃ¥ndtering, opptakskjÃ¸ring og publisering av resultater, og fungerer som en felles digital ryggrad for opptaksprosessene.
 
 ## Kapabiliteter
 - **Datautveksling og integrasjon: Bruke data fra andre**
 - **Samarbeid: Organisatorisk samhandling**
 - **Sluttbrukertjenester: Sammenhengende tjenester**
 
-## Produktmål
-- muliggjøre samordnet opptak i høyere utdanning og fagskoler
-- støtte både systemforvaltning og opptaksforvaltning i én sammenhengende løsning
-- gi søkere og forvaltning en mer effektiv og samordnet opptaksprosess
+## ProduktmÃ¥l
+- muliggjÃ¸re samordnet opptak i hÃ¸yere utdanning og fagskoler
+- stÃ¸tte bÃ¥de systemforvaltning og opptaksforvaltning i Ã©n sammenhengende lÃ¸sning
+- gi sÃ¸kere og forvaltning en mer effektiv og samordnet opptaksprosess
 
 ## Brukerbehov
-- søkere trenger én samlet opptaksprosess
-- HK-dir og institusjoner trenger felles systemstøtte for opptak
-- sektoren trenger deling av data og samordning på tvers av mange aktører
+- sÃ¸kere trenger Ã©n samlet opptaksprosess
+- HK-dir og institusjoner trenger felles systemstÃ¸tte for opptak
+- sektoren trenger deling av data og samordning pÃ¥ tvers av mange aktÃ¸rer
 
 ## Hvem er brukerne og brukersegmentene
-| Brukersegment | Primære behov | Bruksområde | Kommentar |
+| Brukersegment | PrimÃ¦re behov | BruksomrÃ¥de | Kommentar |
 |---|---|---|---|
-| Søkere | Samlet søknads- og opptaksprosess | Søknad, dokumentasjon og resultat | Viktigste sluttbrukere |
-| HK-dir / Samordna opptak | Felles opptaksforvaltning | Regelverk, prosess og gjennomføring | Viktig forvalterrolle |
+| SÃ¸kere | Samlet sÃ¸knads- og opptaksprosess | SÃ¸knad, dokumentasjon og resultat | Viktigste sluttbrukere |
+| HK-dir / Samordna opptak | Felles opptaksforvaltning | Regelverk, prosess og gjennomfÃ¸ring | Viktig forvalterrolle |
 | Sikt | Systemforvaltning og utvikling | Drift og videreutvikling | Teknisk hovedforvalter |
-| Utdanningsinstitusjoner og fagskoler | Samordnet opptaksstøtte | Opptak og oppfølging | Viktige sektordeltakere |
+| Utdanningsinstitusjoner og fagskoler | Samordnet opptaksstÃ¸tte | Opptak og oppfÃ¸lging | Viktige sektordeltakere |
 
 ## Hovedfunksjoner
-Opptaksløsningers viktigste funksjon er å være den samlede systemstøtten for samordnet opptak. Produktet håndterer sentrale data, regelstyrte prosesser og operative steg i opptaksløpet, slik at søknader kan registreres, behandles og omsettes til faktiske opptaksresultater innenfor én felles struktur. Verdien ligger derfor ikke bare i enkeltmoduler, men i at flere deler av opptaksprosessen bindes sammen i samme produktflate.
+OpptakslÃ¸sningers viktigste funksjon er Ã¥ vÃ¦re den samlede systemstÃ¸tten for samordnet opptak. Produktet hÃ¥ndterer sentrale data, regelstyrte prosesser og operative steg i opptakslÃ¸pet, slik at sÃ¸knader kan registreres, behandles og omsettes til faktiske opptaksresultater innenfor Ã©n felles struktur. Verdien ligger derfor ikke bare i enkeltmoduler, men i at flere deler av opptaksprosessen bindes sammen i samme produktflate.
 
-Produktet har også en tydelig bruker- og dialogflate mot søkerne. Søknader, dokumentasjon, meldinger, kvitteringer og resultater inngår i et sammenhengende løp der brukerne skal kunne forholde seg til én samordnet prosess, selv om det i bakgrunnen er mange involverte aktører. Det betyr at løsningen ikke bare er et administrativt fagsystem, men også en sentral del av den faktiske tjenesteopplevelsen i samordnet opptak.
+Produktet har ogsÃ¥ en tydelig bruker- og dialogflate mot sÃ¸kerne. SÃ¸knader, dokumentasjon, meldinger, kvitteringer og resultater inngÃ¥r i et sammenhengende lÃ¸p der brukerne skal kunne forholde seg til Ã©n samordnet prosess, selv om det i bakgrunnen er mange involverte aktÃ¸rer. Det betyr at lÃ¸sningen ikke bare er et administrativt fagsystem, men ogsÃ¥ en sentral del av den faktiske tjenesteopplevelsen i samordnet opptak.
 
-En annen viktig funksjon er å understøtte samspill mellom flere forvaltningsaktører. Kildene viser at Sikt forvalter systemene, mens HK-dir forvalter selve opptaket. Utdanningsinstitusjoner og fagskoler er samtidig avhengige av samme felles oppsett. Produktet fungerer dermed som en felles samhandlings- og koordineringsmekanisme, ikke bare som en lokal løsning for én virksomhet.
+En annen viktig funksjon er Ã¥ understÃ¸tte samspill mellom flere forvaltningsaktÃ¸rer. Kildene viser at Sikt forvalter systemene, mens HK-dir forvalter selve opptaket. Utdanningsinstitusjoner og fagskoler er samtidig avhengige av samme felles oppsett. Produktet fungerer dermed som en felles samhandlings- og koordineringsmekanisme, ikke bare som en lokal lÃ¸sning for Ã©n virksomhet.
 
-Samtidig er Opptaksløsninger ikke hele studieadministrasjonen i utdanningssektoren. Produktet dekker den definerte opptaksprosessen og tilhørende systemstøtte, men ikke alle øvrige prosesser, systemer og portaler som institusjonene bruker før og etter opptak. Avgrensningen mot bredere studieadministrasjon er derfor viktig for å forstå hva som faktisk inngår i produktet.
+Samtidig er OpptakslÃ¸sninger ikke hele studieadministrasjonen i utdanningssektoren. Produktet dekker den definerte opptaksprosessen og tilhÃ¸rende systemstÃ¸tte, men ikke alle Ã¸vrige prosesser, systemer og portaler som institusjonene bruker fÃ¸r og etter opptak. Avgrensningen mot bredere studieadministrasjon er derfor viktig for Ã¥ forstÃ¥ hva som faktisk inngÃ¥r i produktet.
 
 ### Typiske brukssituasjoner (generisk)
-- Når flere utdanningsinstitusjoner skal bruke én felles løsning for samordnet opptak i stedet for lokale opptaksløp.
-- Når søkere trenger ett samlet løp for søknad, dokumentasjon, kommunikasjon og resultat.
-- Når opptaksforvaltning og systemforvaltning må samordnes på tvers av flere aktører med tydelig rollefordeling.
-- Når opptaksprosessen krever regelstyrte kjøringer, felles datagrunnlag og koordinert publisering av resultater.
+- NÃ¥r flere utdanningsinstitusjoner skal bruke Ã©n felles lÃ¸sning for samordnet opptak i stedet for lokale opptakslÃ¸p.
+- NÃ¥r sÃ¸kere trenger ett samlet lÃ¸p for sÃ¸knad, dokumentasjon, kommunikasjon og resultat.
+- NÃ¥r opptaksforvaltning og systemforvaltning mÃ¥ samordnes pÃ¥ tvers av flere aktÃ¸rer med tydelig rollefordeling.
+- NÃ¥r opptaksprosessen krever regelstyrte kjÃ¸ringer, felles datagrunnlag og koordinert publisering av resultater.
 
-### Når Opptaksløsninger normalt ikke er førstevalg
-- Når behovet gjelder generell studieadministrasjon utenfor selve opptaksprosessen.
-- Når behovet gjelder deling av resultater eller vitnemål etter at opptaket er gjennomført.
-- Når konteksten ligger utenfor samordnet opptak til høyere utdanning og fagskoler.
-- Når oppgaven primært handler om registerforvaltning, identitet eller dokumentdeling som kan løses med mer spesialiserte felleskomponenter.
+### NÃ¥r OpptakslÃ¸sninger normalt ikke er fÃ¸rstevalg
+- NÃ¥r behovet gjelder generell studieadministrasjon utenfor selve opptaksprosessen.
+- NÃ¥r behovet gjelder deling av resultater eller vitnemÃ¥l etter at opptaket er gjennomfÃ¸rt.
+- NÃ¥r konteksten ligger utenfor samordnet opptak til hÃ¸yere utdanning og fagskoler.
+- NÃ¥r oppgaven primÃ¦rt handler om registerforvaltning, identitet eller dokumentdeling som kan lÃ¸ses med mer spesialiserte felleskomponenter.
 
 ### Scope og avgrensning
-| Inngår | Inngår ikke |
+| InngÃ¥r | InngÃ¥r ikke |
 |---|---|
-| Datasystemene bak samordnet opptak | Hele utdanningssektorens øvrige studieadministrasjon |
-| Søknads- og opptaksprosess for definerte opptak | Alle andre opptaksløp utenfor denne ordningen |
+| Datasystemene bak samordnet opptak | Hele utdanningssektorens Ã¸vrige studieadministrasjon |
+| SÃ¸knads- og opptaksprosess for definerte opptak | Alle andre opptakslÃ¸p utenfor denne ordningen |
 
 ## Veikart over kommende funksjonalitet
-Ikke samlet verifisert i denne arbeidsøkten.
+Ikke samlet verifisert i denne arbeidsÃ¸kten.
 
 ## Forretningsverdi/Verdiforslag
-- gjør samordnet opptak mulig i stor skala
+- gjÃ¸r samordnet opptak mulig i stor skala
 - reduserer fragmentering mellom institusjoner
-- gir søkere en mer sammenhengende prosess
+- gir sÃ¸kere en mer sammenhengende prosess
 
 ## Utfordringer og risiko
-| Risikokategori | Konkret risiko | Håndtering |
+| Risikokategori | Konkret risiko | HÃ¥ndtering |
 |---|---|---|
-| Samordning | mange aktører og regler kan gjøre endringer krevende | tydelig rollefordeling |
-| Kritisk sesongavhengighet | feil i løsningen kan få store følger i opptaksperioder | robust drift og beredskap |
+| Samordning | mange aktÃ¸rer og regler kan gjÃ¸re endringer krevende | tydelig rollefordeling |
+| Kritisk sesongavhengighet | feil i lÃ¸sningen kan fÃ¥ store fÃ¸lger i opptaksperioder | robust drift og beredskap |
 
 ## Kanaler
 - https://sikt.no/tjenester/opptakslosninger
 
 ## Plattform
-Opptaksløsninger er en sammensatt fellesløsning for opptaksprosesser og tilhørende systemstøtte.
+OpptakslÃ¸sninger er en sammensatt felleslÃ¸sning for opptaksprosesser og tilhÃ¸rende systemstÃ¸tte.
 
 ## Gjenbruk
-**Høy gjenbruksverdi** i utdanningssektoren som felles opptaksinfrastruktur.
+**HÃ¸y gjenbruksverdi** i utdanningssektoren som felles opptaksinfrastruktur.
 
 **Vanlige kombinasjoner med andre produkter:**
-- Opptaksløsninger + Nasjonal vitnemålsdatabase når opptak bygger på kvalitetssikrede vitnemålsdata fra videregående opplæring.
-- Opptaksløsninger + Vitnemålsportalen når søkere eller mottakere trenger brukerinitiert deling av verifiserbare resultater i tilgrensende prosesser.
-- Opptaksløsninger + Nasjonalt utdanningsregister når opptaksløp trenger entydige referanser til utdanninger og læresteder.
+- OpptakslÃ¸sninger + Nasjonal vitnemÃ¥lsdatabase nÃ¥r opptak bygger pÃ¥ kvalitetssikrede vitnemÃ¥lsdata fra videregÃ¥ende opplÃ¦ring.
+- OpptakslÃ¸sninger + VitnemÃ¥lsportalen nÃ¥r sÃ¸kere eller mottakere trenger brukerinitiert deling av verifiserbare resultater i tilgrensende prosesser.
+- OpptakslÃ¸sninger + Nasjonalt utdanningsregister nÃ¥r opptakslÃ¸p trenger entydige referanser til utdanninger og lÃ¦resteder.
 
-## Støtter arkitekturprinsipper
+## StÃ¸tter arkitekturprinsipper
 - **P4: Del og gjenbruk data**
-- **P5: Del og gjenbruk løsninger**
-- **P6: Lag digitale løsninger som støtter samhandling**
+- **P5: Del og gjenbruk lÃ¸sninger**
+- **P6: Lag digitale lÃ¸sninger som stÃ¸tter samhandling**
 
 ## Finansiering
-Ikke samlet verifisert i denne arbeidsøkten.
+Ikke samlet verifisert i denne arbeidsÃ¸kten.
 
 ## Forvaltning/eier
-| Ansvarsområde | Organisasjon / vurdering | Grunnlag |
+| AnsvarsomrÃ¥de | Organisasjon / vurdering | Grunnlag |
 |---|---|---|
 | Systemforvaltning | Sikt | produktsiden |
 | Opptaksforvaltning | HK-dir / Samordna opptak | produktsiden |
@@ -120,6 +120,7 @@ Ikke samlet verifisert i denne arbeidsøkten.
 - Lokal fil: `config/templates/produkt-canvas-template.md`
 - Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Lokal fil: `arkitektur/prinsipper/principles.md`
-- Lokal fil: `arkitektur/produkter/produktnummerering.md`
+- Lokal fil: `arkitektur/ressurser/produktnummerering.md`
 - Lokal fil: `sources/links.md`
 - Nettkilde: https://sikt.no/tjenester/opptakslosninger (kontrollert 2026-03-27)
+

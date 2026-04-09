@@ -1,4 +1,4 @@
-# Produkt-canvas: eSignering
+﻿# Produkt-canvas: eSignering
 
 ## Navn
 eSignering
@@ -7,103 +7,103 @@ eSignering
 DIGDIR-003
 
 ## Status/Livsfase
-**Produksjon** - etablert nasjonal fellesløsning for digital signering i offentlig sektor.
+**Produksjon** - etablert nasjonal felleslÃ¸sning for digital signering i offentlig sektor.
 
-**Fakta:** Digdir beskriver eSignering som en felles løsning for elektronisk signering, og dokumentasjonen viser et etablert integrasjonsløp for virksomheter som skal sende dokumenter til signering. Samarbeidsportalen beskriver både innføring, kostnadsmodell og brukstall for tjenesten.
+**Fakta:** Digdir beskriver eSignering som en felles lÃ¸sning for elektronisk signering, og dokumentasjonen viser et etablert integrasjonslÃ¸p for virksomheter som skal sende dokumenter til signering. Samarbeidsportalen beskriver bÃ¥de innfÃ¸ring, kostnadsmodell og brukstall for tjenesten.
 
 ## Modenhet
-**Høy modenhet** - innarbeidet tjeneste med tydelig funksjon og etablert leveransemodell:
-- Produktet har dokumentert API, kom-i-gang-løp og beskrivelse av roller og ansvar.
-- Samarbeidsportalen viser at løsningen er i aktiv bruk og har egen statistikk- og kostnadsmodell.
+**HÃ¸y modenhet** - innarbeidet tjeneste med tydelig funksjon og etablert leveransemodell:
+- Produktet har dokumentert API, kom-i-gang-lÃ¸p og beskrivelse av roller og ansvar.
+- Samarbeidsportalen viser at lÃ¸sningen er i aktiv bruk og har egen statistikk- og kostnadsmodell.
 - Digdir forvalter produktet, mens den tekniske leveransen skjer i samspill med Posten Norge AS.
-- Produktet er modent både som tjeneste for virksomheter og som gjennomføringsmønster for sikre signeringsprosesser.
+- Produktet er modent bÃ¥de som tjeneste for virksomheter og som gjennomfÃ¸ringsmÃ¸nster for sikre signeringsprosesser.
 
-**Deduksjon:** Modenheten er høy fordi løsningen fyller en tydelig nasjonal funksjon og kan gjenbrukes i mange forskjellige prosesser uten at hver virksomhet må etablere egen signeringsinfrastruktur.
+**Deduksjon:** Modenheten er hÃ¸y fordi lÃ¸sningen fyller en tydelig nasjonal funksjon og kan gjenbrukes i mange forskjellige prosesser uten at hver virksomhet mÃ¥ etablere egen signeringsinfrastruktur.
 
 ## Kort beskrivelse
-eSignering er den nasjonale fellesløsningen for digital innhenting av underskrifter i offentlige prosesser. Produktet gjør det mulig å sende dokumenter til signering, følge status på signeringsoppdrag og motta ferdig signerte dokumenter tilbake i en kontrollert digital flyt. Løsningen er særlig relevant når en virksomhet trenger juridisk og prosessmessig sikker signering uten å bygge hele signeringsløpet selv.
+eSignering er den nasjonale felleslÃ¸sningen for digital innhenting av underskrifter i offentlige prosesser. Produktet gjÃ¸r det mulig Ã¥ sende dokumenter til signering, fÃ¸lge status pÃ¥ signeringsoppdrag og motta ferdig signerte dokumenter tilbake i en kontrollert digital flyt. LÃ¸sningen er sÃ¦rlig relevant nÃ¥r en virksomhet trenger juridisk og prosessmessig sikker signering uten Ã¥ bygge hele signeringslÃ¸pet selv.
 
 ## Kapabiliteter
 - **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** beskytter dokumenter, signeringsoppdrag og statusmeldinger gjennom hele signeringsprosessen.
-- **Tillit: Autentisering** brukes for å sikre at den som signerer identifiserer seg med støttet eID før signeringen gjennomføres.
-- **Tillit: Signering** er produktets kjernefunksjon og gjør det mulig å gjennomføre elektronisk signering av dokumenter i en nasjonal fellestjeneste.
+- **Tillit: Autentisering** brukes for Ã¥ sikre at den som signerer identifiserer seg med stÃ¸ttet eID fÃ¸r signeringen gjennomfÃ¸res.
+- **Tillit: Signering** er produktets kjernefunksjon og gjÃ¸r det mulig Ã¥ gjennomfÃ¸re elektronisk signering av dokumenter i en nasjonal fellestjeneste.
 
-## Produktmål
-**Primærkilder:** Digdir Docs for eSignering og Samarbeidsportalen for produktområdet.
+## ProduktmÃ¥l
+**PrimÃ¦rkilder:** Digdir Docs for eSignering og Samarbeidsportalen for produktomrÃ¥det.
 
-Dokumenterte mål:
-- Gi offentlige virksomheter en felles løsning for sikker elektronisk signering.
-- Forenkle digital gjennomføring av signeringsprosesser.
-- Redusere behovet for papir, manuell oppfølging og lokale spesialløsninger.
-- Gjøre det enklere å ta i bruk digital signering i flere typer offentlige prosesser.
+Dokumenterte mÃ¥l:
+- Gi offentlige virksomheter en felles lÃ¸sning for sikker elektronisk signering.
+- Forenkle digital gjennomfÃ¸ring av signeringsprosesser.
+- Redusere behovet for papir, manuell oppfÃ¸lging og lokale spesiallÃ¸sninger.
+- GjÃ¸re det enklere Ã¥ ta i bruk digital signering i flere typer offentlige prosesser.
 
-Operative mål utledet fra de samme kildene:
-- Gi virksomheter en standardisert måte å sende dokumenter til signering og hente dem tilbake.
-- Gjøre det mulig å bygge signering inn i egne saks- og tjenesteforløp gjennom dokumenterte API-er.
-- Sikre at signeringsflyten er tydelig nok til å kunne brukes i store og små prosesser uten mye lokal tilpasning.
+Operative mÃ¥l utledet fra de samme kildene:
+- Gi virksomheter en standardisert mÃ¥te Ã¥ sende dokumenter til signering og hente dem tilbake.
+- GjÃ¸re det mulig Ã¥ bygge signering inn i egne saks- og tjenesteforlÃ¸p gjennom dokumenterte API-er.
+- Sikre at signeringsflyten er tydelig nok til Ã¥ kunne brukes i store og smÃ¥ prosesser uten mye lokal tilpasning.
 
 ## Brukerbehov
-- Offentlige virksomheter trenger en sikker og gjenbrukbar løsning for å hente inn underskrifter digitalt.
-- Fagsystemer og integrasjonsteam trenger API-er og hendelsesløp som gjør det mulig å bygge signering inn i eksisterende prosesser.
-- Sluttbrukere trenger en signeringsopplevelse som er forståelig og trygg, og som bruker kjente eID-er.
-- Forvaltnings- og sikkerhetsmiljøer trenger en løsning som gir kontroll over signeringsoppdrag, status og sporbar dokumentflyt.
+- Offentlige virksomheter trenger en sikker og gjenbrukbar lÃ¸sning for Ã¥ hente inn underskrifter digitalt.
+- Fagsystemer og integrasjonsteam trenger API-er og hendelseslÃ¸p som gjÃ¸r det mulig Ã¥ bygge signering inn i eksisterende prosesser.
+- Sluttbrukere trenger en signeringsopplevelse som er forstÃ¥elig og trygg, og som bruker kjente eID-er.
+- Forvaltnings- og sikkerhetsmiljÃ¸er trenger en lÃ¸sning som gir kontroll over signeringsoppdrag, status og sporbar dokumentflyt.
 
 ## Hvem er brukerne og brukersegmentene
-| Brukersegment | Primære behov | Bruksområde | Kommentar |
+| Brukersegment | PrimÃ¦re behov | BruksomrÃ¥de | Kommentar |
 |---|---|---|---|
-| Offentlige virksomheter som sender til signering | Enkel etablering av sikre signeringsløp | Vedtak, avtaler, erklæringer og samtykker | Bruker eSignering som en felleskomponent i stedet for egen løsning |
-| Integrasjonsteam og systemleverandører | Dokumenterte API-er og testløp | Integrasjon i sakssystemer, portaler og arbeidsflyter | Trenger tydelig modell for oppdrag, status og retur |
-| Personer som skal signere | Trygg og forståelig signeringsprosess | Signering via digital kanal med eID | Møter løsningen som del av virksomhetens tjeneste |
-| Saksbehandlings- og forvaltningsmiljøer | Sporbarhet og kontroll | Oppfølging av utsendte og fullførte signeringsoppdrag | Viktig for prosesskontroll og dokumenthåndtering |
-| Sikkerhets- og driftsmiljøer | Stabil tjeneste og hendelsesoppfølging | Overvåking, feilretting og forvaltning | Avhenger av tydelig rollefordeling mellom Digdir og leverandør |
+| Offentlige virksomheter som sender til signering | Enkel etablering av sikre signeringslÃ¸p | Vedtak, avtaler, erklÃ¦ringer og samtykker | Bruker eSignering som en felleskomponent i stedet for egen lÃ¸sning |
+| Integrasjonsteam og systemleverandÃ¸rer | Dokumenterte API-er og testlÃ¸p | Integrasjon i sakssystemer, portaler og arbeidsflyter | Trenger tydelig modell for oppdrag, status og retur |
+| Personer som skal signere | Trygg og forstÃ¥elig signeringsprosess | Signering via digital kanal med eID | MÃ¸ter lÃ¸sningen som del av virksomhetens tjeneste |
+| Saksbehandlings- og forvaltningsmiljÃ¸er | Sporbarhet og kontroll | OppfÃ¸lging av utsendte og fullfÃ¸rte signeringsoppdrag | Viktig for prosesskontroll og dokumenthÃ¥ndtering |
+| Sikkerhets- og driftsmiljÃ¸er | Stabil tjeneste og hendelsesoppfÃ¸lging | OvervÃ¥king, feilretting og forvaltning | Avhenger av tydelig rollefordeling mellom Digdir og leverandÃ¸r |
 
 ## Hovedfunksjoner
-### Primære funksjoner
-- **Opprettelse og utsending av signeringsoppdrag.** Virksomheten kan sende dokumenter inn til eSignering og opprette et konkret signeringsløp for en eller flere signatarer. Dette dekker behovet for å håndtere hele signeringsoppdraget som en digital prosess, ikke bare selve underskriften.
-- **Sikker signering med eID.** Løsningen kobler signeringen til støttet elektronisk identitet, slik at den som signerer må autentisere seg før oppdraget fullføres. Det gjør produktet relevant når det er behov for tillit til både signeringshandlingen og hvem som gjennomførte den.
-- **Status og oppfølging av signeringsprosess.** eSignering gir virksomheten mulighet til å følge fremdrift, hente status og motta ferdig signert dokument tilbake. Dette er viktig når signering inngår som del av en større saks- eller arbeidsflyt som må kunne styres og spores.
-- **Integrasjon i virksomhetens egne prosesser.** Produktet tilbyr et standardisert integrasjonsmønster som gjør at virksomheten kan bruke samme signeringstjeneste i mange sammenhenger. Det skiller eSignering fra mer manuelle eller enkeltstående signeringsverktøy som ikke er laget for gjenbruk i offentlig forvaltning.
-- **Felles nasjonal leveransemodell.** Samarbeidsportalen beskriver ta-i-bruk-løp, statistikk og kostnadsmodell. Det gjør løsningen relevant også organisatorisk, fordi den gir virksomheten et etablert løp for innføring og videre bruk.
+### PrimÃ¦re funksjoner
+- **Opprettelse og utsending av signeringsoppdrag.** Virksomheten kan sende dokumenter inn til eSignering og opprette et konkret signeringslÃ¸p for en eller flere signatarer. Dette dekker behovet for Ã¥ hÃ¥ndtere hele signeringsoppdraget som en digital prosess, ikke bare selve underskriften.
+- **Sikker signering med eID.** LÃ¸sningen kobler signeringen til stÃ¸ttet elektronisk identitet, slik at den som signerer mÃ¥ autentisere seg fÃ¸r oppdraget fullfÃ¸res. Det gjÃ¸r produktet relevant nÃ¥r det er behov for tillit til bÃ¥de signeringshandlingen og hvem som gjennomfÃ¸rte den.
+- **Status og oppfÃ¸lging av signeringsprosess.** eSignering gir virksomheten mulighet til Ã¥ fÃ¸lge fremdrift, hente status og motta ferdig signert dokument tilbake. Dette er viktig nÃ¥r signering inngÃ¥r som del av en stÃ¸rre saks- eller arbeidsflyt som mÃ¥ kunne styres og spores.
+- **Integrasjon i virksomhetens egne prosesser.** Produktet tilbyr et standardisert integrasjonsmÃ¸nster som gjÃ¸r at virksomheten kan bruke samme signeringstjeneste i mange sammenhenger. Det skiller eSignering fra mer manuelle eller enkeltstÃ¥ende signeringsverktÃ¸y som ikke er laget for gjenbruk i offentlig forvaltning.
+- **Felles nasjonal leveransemodell.** Samarbeidsportalen beskriver ta-i-bruk-lÃ¸p, statistikk og kostnadsmodell. Det gjÃ¸r lÃ¸sningen relevant ogsÃ¥ organisatorisk, fordi den gir virksomheten et etablert lÃ¸p for innfÃ¸ring og videre bruk.
 
 ### Scope og avgrensning
-| Inngår | Inngår ikke |
+| InngÃ¥r | InngÃ¥r ikke |
 |---|---|
-| Utsending, gjennomføring og oppfølging av signeringsoppdrag | Full saksbehandling før og etter signering |
-| Signering med støttet eID | Generell innlogging til offentlige tjenester |
+| Utsending, gjennomfÃ¸ring og oppfÃ¸lging av signeringsoppdrag | Full saksbehandling fÃ¸r og etter signering |
+| Signering med stÃ¸ttet eID | Generell innlogging til offentlige tjenester |
 | Retur av ferdig signert dokument og statusinformasjon | Lokal arkiv- eller dokumentforvaltning hos virksomheten |
 | Integrasjon i virksomhetens egne prosesser | Faglig beslutning om hvem som skal signere og hvorfor |
-| Felles innførings- og forvaltningsløp | Full erstatning for andre tillitstjenester som ID-porten eller Maskinporten |
+| Felles innfÃ¸rings- og forvaltningslÃ¸p | Full erstatning for andre tillitstjenester som ID-porten eller Maskinporten |
 
 ## Veikart over kommende funksjonalitet
 **Fakta fra Samarbeidsportalen og Digdir Docs (hentet 2026-03-17):**
-- Produktområdet videreutvikles innenfor Digdirs tillitstjenester.
-- Samarbeidsportalen viser at løsningen har både statistikkoppfølging og egen kostnadsmodell, noe som tyder på fortsatt aktiv forvaltning og videreutvikling.
+- ProduktomrÃ¥det videreutvikles innenfor Digdirs tillitstjenester.
+- Samarbeidsportalen viser at lÃ¸sningen har bÃ¥de statistikkoppfÃ¸lging og egen kostnadsmodell, noe som tyder pÃ¥ fortsatt aktiv forvaltning og videreutvikling.
 
-**Deduksjon:** Veikartet peker mot videre forbedring av innføring, brukeropplevelse og integrasjonsløp, heller enn at produktet skal skifte rolle. eSignering fremstår som en stabil felleskomponent som gradvis forbedres, ikke som et produkt i omlegging.
+**Deduksjon:** Veikartet peker mot videre forbedring av innfÃ¸ring, brukeropplevelse og integrasjonslÃ¸p, heller enn at produktet skal skifte rolle. eSignering fremstÃ¥r som en stabil felleskomponent som gradvis forbedres, ikke som et produkt i omlegging.
 
 ## Forretningsverdi/Verdiforslag
 ### For virksomheter
-- Reduserer behovet for å bygge og vedlikeholde egne signeringsløsninger.
-- Gjør det enklere å digitalisere prosesser som tidligere krevde papir eller manuell oppfølging.
-- Gir en mer forutsigbar måte å gjennomføre signering på tvers av mange prosesser og systemer.
+- Reduserer behovet for Ã¥ bygge og vedlikeholde egne signeringslÃ¸sninger.
+- GjÃ¸r det enklere Ã¥ digitalisere prosesser som tidligere krevde papir eller manuell oppfÃ¸lging.
+- Gir en mer forutsigbar mÃ¥te Ã¥ gjennomfÃ¸re signering pÃ¥ tvers av mange prosesser og systemer.
 
 ### For sluttbrukere
 - Gir en gjenkjennelig og trygg digital signeringsopplevelse.
-- Reduserer behovet for fysisk oppmøte, utskrift og manuell retur av dokumenter.
+- Reduserer behovet for fysisk oppmÃ¸te, utskrift og manuell retur av dokumenter.
 
 ### For offentlig sektor
-- Øker gjenbruk ved at samme signeringsmønster kan brukes av mange virksomheter.
-- Gjør det lettere å digitalisere dokumenttunge prosesser uten å duplisere funksjonalitet.
-- Tydeliggjør skillet mellom signering som behov og andre tilgrensende behov som innlogging, autorisasjon og varsling.
+- Ã˜ker gjenbruk ved at samme signeringsmÃ¸nster kan brukes av mange virksomheter.
+- GjÃ¸r det lettere Ã¥ digitalisere dokumenttunge prosesser uten Ã¥ duplisere funksjonalitet.
+- TydeliggjÃ¸r skillet mellom signering som behov og andre tilgrensende behov som innlogging, autorisasjon og varsling.
 
 ## Utfordringer og risiko
-| Risikokategori | Konkret risiko | Håndtering |
+| Risikokategori | Konkret risiko | HÃ¥ndtering |
 |---|---|---|
-| Juridisk | Virksomheten kan bruke signering uten å ha avklart riktig juridisk behov eller signaturtype | Tydeligere faglig veiledning og vurdering før innføring |
-| Teknisk | Feil integrasjon kan gi tapte eller hengende signeringsoppdrag | Testløp, dokumentasjon og tydelig statushåndtering |
-| Sikkerhet | Svak håndtering av dokumenter før eller etter signering kan svekke totalprosessen | God ende-til-ende-prosess i virksomheten og tydelig rolleavgrensning |
-| Avhengigheter | Virksomheten kan forveksle eSignering med full dokumentprosess eller arkivløsning | Klare avgrensninger i design og innføringsveiledning |
-| Brukeropplevelse | Signeringsflyten kan oppleves uklar hvis virksomheten bygger dårlig kontekst rundt den | Bedre prosessdesign og tydelig kommunikasjon til signatarer |
+| Juridisk | Virksomheten kan bruke signering uten Ã¥ ha avklart riktig juridisk behov eller signaturtype | Tydeligere faglig veiledning og vurdering fÃ¸r innfÃ¸ring |
+| Teknisk | Feil integrasjon kan gi tapte eller hengende signeringsoppdrag | TestlÃ¸p, dokumentasjon og tydelig statushÃ¥ndtering |
+| Sikkerhet | Svak hÃ¥ndtering av dokumenter fÃ¸r eller etter signering kan svekke totalprosessen | God ende-til-ende-prosess i virksomheten og tydelig rolleavgrensning |
+| Avhengigheter | Virksomheten kan forveksle eSignering med full dokumentprosess eller arkivlÃ¸sning | Klare avgrensninger i design og innfÃ¸ringsveiledning |
+| Brukeropplevelse | Signeringsflyten kan oppleves uklar hvis virksomheten bygger dÃ¥rlig kontekst rundt den | Bedre prosessdesign og tydelig kommunikasjon til signatarer |
 
 ## Kanaler
 - Produktside: https://www.digdir.no/digital-sikkerhet/esignering/1487
@@ -115,30 +115,30 @@ Operative mål utledet fra de samme kildene:
 - Statistikk: https://samarbeid.digdir.no/esignering/statistikk-esignering/3428
 
 ## Plattform
-eSignering er en nasjonal plattform for digital gjennomføring av signeringsoppdrag.
+eSignering er en nasjonal plattform for digital gjennomfÃ¸ring av signeringsoppdrag.
 
-**Fakta:** Digdir forvalter produktet, og dokumentasjonen beskriver en leveransemodell der Posten Norge AS står for den tekniske leveransen av tjenesten. Produktet er dokumentert som API-basert tjeneste for virksomheter som skal integrere signering i egne prosesser.
+**Fakta:** Digdir forvalter produktet, og dokumentasjonen beskriver en leveransemodell der Posten Norge AS stÃ¥r for den tekniske leveransen av tjenesten. Produktet er dokumentert som API-basert tjeneste for virksomheter som skal integrere signering i egne prosesser.
 
 **Ikke offentlig dokumentert i brukte kilder:** Full detalj om driftsplattform, runtime-arkitektur og konkret skylokasjon.
 
 ## Gjenbruk
-**Høy gjenbruksverdi:**
-- Løsningen er laget for å kunne brukes på tvers av mange typer offentlige prosesser.
-- Den er spesielt relevant når behovet er digital signering som del av en arbeidsflyt.
+**HÃ¸y gjenbruksverdi:**
+- LÃ¸sningen er laget for Ã¥ kunne brukes pÃ¥ tvers av mange typer offentlige prosesser.
+- Den er spesielt relevant nÃ¥r behovet er digital signering som del av en arbeidsflyt.
 - Den er mindre relevant dersom behovet egentlig er ren autentisering, varsling eller dokumentforvaltning uten signering.
 
-## Støtter arkitekturprinsipper
-- **P5: Del og gjenbruk løsninger** realiseres ved at signering tilbys som nasjonal fellestjeneste i stedet for lokale særvarianter.
-- **P6: Lag digitale løsninger som støtter samhandling** styrkes fordi virksomheter kan bygge signering inn i tverrgående prosesser på en standardisert måte.
-- **P7: Sørg for tillit til oppgaveløsningen** er sentralt fordi løsningen gir kontrollert gjennomføring av digital signering med identitetsbekreftelse.
+## StÃ¸tter arkitekturprinsipper
+- **P5: Del og gjenbruk lÃ¸sninger** realiseres ved at signering tilbys som nasjonal fellestjeneste i stedet for lokale sÃ¦rvarianter.
+- **P6: Lag digitale lÃ¸sninger som stÃ¸tter samhandling** styrkes fordi virksomheter kan bygge signering inn i tverrgÃ¥ende prosesser pÃ¥ en standardisert mÃ¥te.
+- **P7: SÃ¸rg for tillit til oppgavelÃ¸sningen** er sentralt fordi lÃ¸sningen gir kontrollert gjennomfÃ¸ring av digital signering med identitetsbekreftelse.
 
 ## Finansiering
 - **Fakta:** Samarbeidsportalen beskriver en egen kostnadsmodell for eSignering.
 - **Fakta:** Samarbeidsportalen opplyser at oppstartsavgiften ble fjernet 12. april 2024.
-- **Ikke fullt offentlig dokumentert i brukte kilder:** Full prisstruktur og samlet kostnadsnivå for hele tjenesten.
+- **Ikke fullt offentlig dokumentert i brukte kilder:** Full prisstruktur og samlet kostnadsnivÃ¥ for hele tjenesten.
 
 ## Forvaltning/eier
-| Ansvarsområde | Organisasjon / vurdering | Grunnlag |
+| AnsvarsomrÃ¥de | Organisasjon / vurdering | Grunnlag |
 |---|---|---|
 | Produktansvar | Digitaliseringsdirektoratet (Digdir) | Digdirs produktside og Samarbeidsportalen |
 | Teknisk leveranse | Posten Norge AS | Digdir Docs |
@@ -155,11 +155,11 @@ eSignering er en nasjonal plattform for digital gjennomføring av signeringsoppd
 - https://samarbeid.digdir.no/esignering/statistikk-esignering/3428
 
 ## Kildegrunnlag brukt i utfyllingen
-- Lokal fil: `arkitektur/produkter/produktbeskrivelser/03-eSignering-produkt-canvas-v2-copilot.md`
+- Lokal fil: `arkitektur/ressurser/operative-losninger-og-tjenester/03-eSignering-produkt-canvas-v2-copilot.md`
 - Lokal fil: `config/prompts/produkt-canvas.system.md`
 - Lokal fil: `config/templates/produkt-canvas-template.md`
 - Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
-- Lokal fil: `arkitektur/produkter/produktnummerering.md`
+- Lokal fil: `arkitektur/ressurser/produktnummerering.md`
 - Lokal fil: `sources/links.md`
 - Nettkilde: https://www.digdir.no/digital-sikkerhet/esignering/1487 (hentet 2026-03-17)
 - Nettkilde: https://docs.digdir.no/docs/eSignering/index.html (hentet 2026-03-17)
@@ -175,10 +175,11 @@ eSignering er en nasjonal plattform for digital gjennomføring av signeringsoppd
 
 ### Analyseforbedringer
 - Kapabilitetsvurderingen er strammet inn til de direkte funksjonene eSignering faktisk leverer, og bredere koblinger til identifisering, samtykke og generelle integrasjonskapabiliteter er tatt ut.
-- Plattform- og forvaltningsdelen bygger nå på dokumenterte forhold om Digdir og Posten Norge AS, i stedet for bredere antakelser om drift og kostnadsnivå.
+- Plattform- og forvaltningsdelen bygger nÃ¥ pÃ¥ dokumenterte forhold om Digdir og Posten Norge AS, i stedet for bredere antakelser om drift og kostnadsnivÃ¥.
 - Finansieringsfeltet er oppdatert med det som faktisk er publisert om kostnadsmodell og endring i oppstartsavgift.
 
 ### Tekstlige forbedringer
-- Dokumentet starter ikke lenger med målgruppelinje, og `Ressurs ID` er skrevet uten parentesforklaring.
-- Funksjonsbeskrivelsen er skrevet tydeligere som veiledning for når eSignering er riktig valg.
+- Dokumentet starter ikke lenger med mÃ¥lgruppelinje, og `Ressurs ID` er skrevet uten parentesforklaring.
+- Funksjonsbeskrivelsen er skrevet tydeligere som veiledning for nÃ¥r eSignering er riktig valg.
 - Verdibeskrivelse og avgrensning skiller klarere mellom signering og tilgrensende behov som autentisering, dokumentforvaltning og varsling.
+

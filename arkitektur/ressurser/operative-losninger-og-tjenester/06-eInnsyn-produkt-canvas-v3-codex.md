@@ -1,4 +1,4 @@
-# Produkt-canvas: eInnsyn
+﻿# Produkt-canvas: eInnsyn
 
 ## Navn
 eInnsyn
@@ -7,101 +7,101 @@ eInnsyn
 DIGDIR-006
 
 ## Status/Livsfase
-**Produksjon** - etablert nasjonal fellesløsning for publisering og innsyn i offentlig informasjon.
+**Produksjon** - etablert nasjonal felleslÃ¸sning for publisering og innsyn i offentlig informasjon.
 
-**Fakta:** Digdir beskriver eInnsyn som en felles innsynsløsning og publiseringstjeneste for offentlig sektor. Samarbeidsportalen beskriver både hva løsningen er, hvordan den tas i bruk og hvordan kostnadsmodellen er bygd opp.
+**Fakta:** Digdir beskriver eInnsyn som en felles innsynslÃ¸sning og publiseringstjeneste for offentlig sektor. Samarbeidsportalen beskriver bÃ¥de hva lÃ¸sningen er, hvordan den tas i bruk og hvordan kostnadsmodellen er bygd opp.
 
 ## Modenhet
-**Høy modenhet** - innarbeidet løsning med tydelig funksjon og forankring i offentlig innsynsarbeid:
-- Produktet brukes som felles publiserings- og innsynsløsning på tvers av mange virksomheter.
-- Det finnes dokumentert ta-i-bruk-løp, teknisk dokumentasjon og kostnadsmodell.
-- Samarbeidsportalen viser at løsningen er aktivt forvaltet og inngår i et etablert produktområde.
-- Produktets rolle er tydelig: å tilgjengeliggjøre offentlig informasjon og forenkle innsynsarbeidet, ikke å erstatte virksomhetenes interne saksbehandling.
+**HÃ¸y modenhet** - innarbeidet lÃ¸sning med tydelig funksjon og forankring i offentlig innsynsarbeid:
+- Produktet brukes som felles publiserings- og innsynslÃ¸sning pÃ¥ tvers av mange virksomheter.
+- Det finnes dokumentert ta-i-bruk-lÃ¸p, teknisk dokumentasjon og kostnadsmodell.
+- Samarbeidsportalen viser at lÃ¸sningen er aktivt forvaltet og inngÃ¥r i et etablert produktomrÃ¥de.
+- Produktets rolle er tydelig: Ã¥ tilgjengeliggjÃ¸re offentlig informasjon og forenkle innsynsarbeidet, ikke Ã¥ erstatte virksomhetenes interne saksbehandling.
 
-**Deduksjon:** Modenheten er høy fordi løsningen både er innarbeidet som felles publiseringstjeneste og har et klart samspill med virksomhetenes egne sak- og arkivsystemer.
+**Deduksjon:** Modenheten er hÃ¸y fordi lÃ¸sningen bÃ¥de er innarbeidet som felles publiseringstjeneste og har et klart samspill med virksomhetenes egne sak- og arkivsystemer.
 
 ## Kort beskrivelse
-eInnsyn er den nasjonale fellesløsningen som gjør offentlig informasjon lettere tilgjengelig for innbyggere, presse og andre som trenger innsyn. Produktet samler publiserte journalopplysninger og dokumentlenker fra mange virksomheter i ett felles innsynspunkt, slik at brukeren slipper å orientere seg i hver enkelt virksomhets løsning. eInnsyn er særlig relevant når målet er å gi samlet tilgang til offentlig informasjon og å effektivisere innsynsarbeid på tvers av virksomheter.
+eInnsyn er den nasjonale felleslÃ¸sningen som gjÃ¸r offentlig informasjon lettere tilgjengelig for innbyggere, presse og andre som trenger innsyn. Produktet samler publiserte journalopplysninger og dokumentlenker fra mange virksomheter i ett felles innsynspunkt, slik at brukeren slipper Ã¥ orientere seg i hver enkelt virksomhets lÃ¸sning. eInnsyn er sÃ¦rlig relevant nÃ¥r mÃ¥let er Ã¥ gi samlet tilgang til offentlig informasjon og Ã¥ effektivisere innsynsarbeid pÃ¥ tvers av virksomheter.
 
 ## Kapabiliteter
-- **Samarbeid: Organisatorisk samhandling** gjør det mulig for mange virksomheter å publisere informasjon gjennom et felles oppsett og et felles brukergrensesnitt for innsyn.
-- **Sluttbrukertjenester: Sammenhengende tjenester** gir brukerne ett felles sted å lete etter offentlig informasjon på tvers av mange virksomheter, i stedet for mange separate innsynsløsninger.
+- **Samarbeid: Organisatorisk samhandling** gjÃ¸r det mulig for mange virksomheter Ã¥ publisere informasjon gjennom et felles oppsett og et felles brukergrensesnitt for innsyn.
+- **Sluttbrukertjenester: Sammenhengende tjenester** gir brukerne ett felles sted Ã¥ lete etter offentlig informasjon pÃ¥ tvers av mange virksomheter, i stedet for mange separate innsynslÃ¸sninger.
 
-## Produktmål
-**Primærkilder:** Digdirs produktside for eInnsyn, Digdir Docs og Samarbeidsportalen.
+## ProduktmÃ¥l
+**PrimÃ¦rkilder:** Digdirs produktside for eInnsyn, Digdir Docs og Samarbeidsportalen.
 
-Dokumenterte mål:
-- Gi offentlig sektor en felles løsning for publisering og innsyn.
-- Gjøre det enklere for brukere å finne offentlig informasjon på tvers av virksomheter.
-- Effektivisere innsynsarbeid og publisering gjennom en felles løsning.
+Dokumenterte mÃ¥l:
+- Gi offentlig sektor en felles lÃ¸sning for publisering og innsyn.
+- GjÃ¸re det enklere for brukere Ã¥ finne offentlig informasjon pÃ¥ tvers av virksomheter.
+- Effektivisere innsynsarbeid og publisering gjennom en felles lÃ¸sning.
 
-Operative mål utledet fra de samme kildene:
-- Redusere behovet for at hver virksomhet bygger og forvalter egen offentlig innsynsløsning.
-- Gi virksomheter en standardisert måte å publisere informasjon og møte innsynsbehov på.
-- Gjøre det enklere å søke, finne og be om innsyn i offentlig informasjon gjennom én felles inngang.
+Operative mÃ¥l utledet fra de samme kildene:
+- Redusere behovet for at hver virksomhet bygger og forvalter egen offentlig innsynslÃ¸sning.
+- Gi virksomheter en standardisert mÃ¥te Ã¥ publisere informasjon og mÃ¸te innsynsbehov pÃ¥.
+- GjÃ¸re det enklere Ã¥ sÃ¸ke, finne og be om innsyn i offentlig informasjon gjennom Ã©n felles inngang.
 
 ## Brukerbehov
-- Innbyggere og andre eksterne brukere trenger ett felles sted å finne offentlig informasjon uten å kjenne den interne strukturen i hver virksomhet.
-- Presse og andre profesjonelle brukere trenger en effektiv måte å søke bredt i offentlig informasjon på.
-- Virksomheter trenger en felles publiserings- og innsynsløsning i stedet for å bygge dette hver for seg.
-- Forvaltningsmiljøer trenger et opplegg som gjør innsynsarbeidet mer oversiktlig og mindre manuelt.
+- Innbyggere og andre eksterne brukere trenger ett felles sted Ã¥ finne offentlig informasjon uten Ã¥ kjenne den interne strukturen i hver virksomhet.
+- Presse og andre profesjonelle brukere trenger en effektiv mÃ¥te Ã¥ sÃ¸ke bredt i offentlig informasjon pÃ¥.
+- Virksomheter trenger en felles publiserings- og innsynslÃ¸sning i stedet for Ã¥ bygge dette hver for seg.
+- ForvaltningsmiljÃ¸er trenger et opplegg som gjÃ¸r innsynsarbeidet mer oversiktlig og mindre manuelt.
 
 ## Hvem er brukerne og brukersegmentene
-| Brukersegment | Primære behov | Bruksområde | Kommentar |
+| Brukersegment | PrimÃ¦re behov | BruksomrÃ¥de | Kommentar |
 |---|---|---|---|
-| Innbyggere og andre eksterne brukere | Enkel tilgang til offentlig informasjon | Søk og innsyn på tvers av virksomheter | Møter eInnsyn som felles inngang til publisert informasjon |
-| Presse og profesjonelle innsynsbrukere | Effektiv bredtgående søk | Journalistikk, analyse og oppfølging av offentlig aktivitet | Har nytte av samlet tilgang på tvers av mange kilder |
-| Offentlige virksomheter som publiserer | Felles publiserings- og innsynsløsning | Publisering av journalopplysninger og dokumentlenker | Bruker løsningen som alternativ til lokal særutvikling |
-| Forvaltnings- og innsynsmiljøer | Mer effektiv håndtering av innsyn | Oppfølging av publisering og forespørsler | Trenger tydelig samspill med egne sak- og arkivsystemer |
-| Systemleverandører og integrasjonsteam | Dokumentert tilkobling mot eInnsyn | Integrasjon med sak- og arkivsystemer | Viktig for innføring og stabil publisering |
+| Innbyggere og andre eksterne brukere | Enkel tilgang til offentlig informasjon | SÃ¸k og innsyn pÃ¥ tvers av virksomheter | MÃ¸ter eInnsyn som felles inngang til publisert informasjon |
+| Presse og profesjonelle innsynsbrukere | Effektiv bredtgÃ¥ende sÃ¸k | Journalistikk, analyse og oppfÃ¸lging av offentlig aktivitet | Har nytte av samlet tilgang pÃ¥ tvers av mange kilder |
+| Offentlige virksomheter som publiserer | Felles publiserings- og innsynslÃ¸sning | Publisering av journalopplysninger og dokumentlenker | Bruker lÃ¸sningen som alternativ til lokal sÃ¦rutvikling |
+| Forvaltnings- og innsynsmiljÃ¸er | Mer effektiv hÃ¥ndtering av innsyn | OppfÃ¸lging av publisering og forespÃ¸rsler | Trenger tydelig samspill med egne sak- og arkivsystemer |
+| SystemleverandÃ¸rer og integrasjonsteam | Dokumentert tilkobling mot eInnsyn | Integrasjon med sak- og arkivsystemer | Viktig for innfÃ¸ring og stabil publisering |
 
 ## Hovedfunksjoner
-### Primære funksjoner
-- **Felles publisering av offentlig informasjon.** eInnsyn gir virksomheter en standardisert måte å gjøre offentlig informasjon tilgjengelig på. Dette dekker behovet for en felles publiseringskanal i stedet for at hver virksomhet må utvikle sin egen innsynsflate.
-- **Samlet søk på tvers av virksomheter.** Produktet gjør det mulig for brukere å finne relevant offentlig informasjon gjennom én felles inngang. Det er dette som gjør løsningen til en sammenhengende tjeneste, ikke bare en teknisk publiseringskanal.
-- **Støtte for innsynsarbeid i virksomhetene.** eInnsyn forenkler arbeidet med å tilgjengeliggjøre informasjon og møte innsynsbehov, men erstatter ikke virksomhetenes interne saksbehandling. Dette skillet er viktig når løsningen vurderes opp mot andre produkter.
-- **Samspill med virksomhetenes egne fagsystemer.** Produktet bygger på at informasjon kommer fra lokale sak- og arkivsystemer og publiseres videre gjennom en felles modell. Det gjør løsningen relevant når mange virksomheter skal samhandle om samme type publisering.
-- **Felles tilgangspunkt for offentligheten.** Den største verdien oppstår når brukeren får ett sted å orientere seg. Dette skiller eInnsyn fra interne arkiv- og dokumentløsninger som primært støtter virksomheten selv.
+### PrimÃ¦re funksjoner
+- **Felles publisering av offentlig informasjon.** eInnsyn gir virksomheter en standardisert mÃ¥te Ã¥ gjÃ¸re offentlig informasjon tilgjengelig pÃ¥. Dette dekker behovet for en felles publiseringskanal i stedet for at hver virksomhet mÃ¥ utvikle sin egen innsynsflate.
+- **Samlet sÃ¸k pÃ¥ tvers av virksomheter.** Produktet gjÃ¸r det mulig for brukere Ã¥ finne relevant offentlig informasjon gjennom Ã©n felles inngang. Det er dette som gjÃ¸r lÃ¸sningen til en sammenhengende tjeneste, ikke bare en teknisk publiseringskanal.
+- **StÃ¸tte for innsynsarbeid i virksomhetene.** eInnsyn forenkler arbeidet med Ã¥ tilgjengeliggjÃ¸re informasjon og mÃ¸te innsynsbehov, men erstatter ikke virksomhetenes interne saksbehandling. Dette skillet er viktig nÃ¥r lÃ¸sningen vurderes opp mot andre produkter.
+- **Samspill med virksomhetenes egne fagsystemer.** Produktet bygger pÃ¥ at informasjon kommer fra lokale sak- og arkivsystemer og publiseres videre gjennom en felles modell. Det gjÃ¸r lÃ¸sningen relevant nÃ¥r mange virksomheter skal samhandle om samme type publisering.
+- **Felles tilgangspunkt for offentligheten.** Den stÃ¸rste verdien oppstÃ¥r nÃ¥r brukeren fÃ¥r ett sted Ã¥ orientere seg. Dette skiller eInnsyn fra interne arkiv- og dokumentlÃ¸sninger som primÃ¦rt stÃ¸tter virksomheten selv.
 
 ### Scope og avgrensning
-| Inngår | Inngår ikke |
+| InngÃ¥r | InngÃ¥r ikke |
 |---|---|
 | Felles publisering og innsyn for offentlig informasjon | Intern saksbehandling og arkivforvaltning i virksomheten |
-| Søketilgang på tvers av mange virksomheter | Lokal produksjon av journal og dokumenter |
+| SÃ¸ketilgang pÃ¥ tvers av mange virksomheter | Lokal produksjon av journal og dokumenter |
 | Standardisert samspill mellom virksomheter og fagsystemer | Full erstatning for virksomhetens egne arbeidsprosesser |
 | Felles brukerinngang for innsyn | Generell dokumentforvaltning uten innsynsbehov |
-| Ta-i-bruk-løp og kostnadsmodell for felles løsning | Nasjonal katalog for alle typer data eller API-er |
+| Ta-i-bruk-lÃ¸p og kostnadsmodell for felles lÃ¸sning | Nasjonal katalog for alle typer data eller API-er |
 
 ## Veikart over kommende funksjonalitet
 **Fakta fra Samarbeidsportalen og Digdir Docs (hentet 2026-03-17):**
-- Produktområdet har egne sider for ta i bruk og kostnadsmodell, og beskrives som aktivt forvaltet.
-- Digdir omtaler eInnsyn både som publiseringstjeneste og innsynsløsning, noe som peker mot videreutvikling innenfor den rollen.
+- ProduktomrÃ¥det har egne sider for ta i bruk og kostnadsmodell, og beskrives som aktivt forvaltet.
+- Digdir omtaler eInnsyn bÃ¥de som publiseringstjeneste og innsynslÃ¸sning, noe som peker mot videreutvikling innenfor den rollen.
 
-**Deduksjon:** Veikartet handler trolig om videre forbedring av samspill, innføring og brukeropplevelse, ikke om at eInnsyn skal overta funksjoner som hører hjemme i lokale sak- og arkivsystemer.
+**Deduksjon:** Veikartet handler trolig om videre forbedring av samspill, innfÃ¸ring og brukeropplevelse, ikke om at eInnsyn skal overta funksjoner som hÃ¸rer hjemme i lokale sak- og arkivsystemer.
 
 ## Forretningsverdi/Verdiforslag
 ### For brukere av offentlig informasjon
-- Gjør det lettere å finne offentlig informasjon uten å kjenne hver virksomhets egen løsning.
-- Reduserer tidsbruk og terskel for å be om eller orientere seg i innsyn.
+- GjÃ¸r det lettere Ã¥ finne offentlig informasjon uten Ã¥ kjenne hver virksomhets egen lÃ¸sning.
+- Reduserer tidsbruk og terskel for Ã¥ be om eller orientere seg i innsyn.
 
 ### For virksomheter
-- Reduserer behovet for å bygge og vedlikeholde egne innsynsløsninger.
+- Reduserer behovet for Ã¥ bygge og vedlikeholde egne innsynslÃ¸sninger.
 - Gir et mer standardisert og gjenbrukbart opplegg for publisering.
-- Kan redusere manuelt arbeid ved at mer informasjon gjøres lettere tilgjengelig gjennom en felles løsning.
+- Kan redusere manuelt arbeid ved at mer informasjon gjÃ¸res lettere tilgjengelig gjennom en felles lÃ¸sning.
 
 ### For offentlig sektor
-- Styrker sammenhengen i hvordan offentlig informasjon publiseres og gjøres tilgjengelig.
-- Øker gjenbruk ved at mange virksomheter kan samhandle om samme løsning.
-- Tydeliggjør skillet mellom felles innsynsløsning og lokale sak- og arkivløsninger.
+- Styrker sammenhengen i hvordan offentlig informasjon publiseres og gjÃ¸res tilgjengelig.
+- Ã˜ker gjenbruk ved at mange virksomheter kan samhandle om samme lÃ¸sning.
+- TydeliggjÃ¸r skillet mellom felles innsynslÃ¸sning og lokale sak- og arkivlÃ¸sninger.
 
 ## Utfordringer og risiko
-| Risikokategori | Konkret risiko | Håndtering |
+| Risikokategori | Konkret risiko | HÃ¥ndtering |
 |---|---|---|
-| Juridisk og forvaltningsmessig | Ulik praksis for hva som publiseres kan gi ujevn kvalitet i innsynstilbudet | Tydeligere veiledning og standardisert innføringspraksis |
-| Teknisk | Svak integrasjon mellom lokale systemer og eInnsyn kan gi mangelfull eller forsinket publisering | God innføring, test og tydelige integrasjonskrav |
-| Organisatorisk | Virksomheter kan undervurdere arbeidet som kreves lokalt for å publisere godt | Klare ansvarslinjer mellom lokal forvaltning og fellestjenesten |
-| Brukbarhet | Brukere kan ha høye forventninger til innsyn som ikke samsvarer med hva lokale systemer faktisk publiserer | Bedre brukerforventning og tydeligere informasjon om avgrensninger |
-| Avhengigheter | eInnsyn kan bli vurdert som erstatning for lokale dokument- og arkivløsninger | Tydelig avgrensning mellom publisering, innsyn og intern forvaltning |
+| Juridisk og forvaltningsmessig | Ulik praksis for hva som publiseres kan gi ujevn kvalitet i innsynstilbudet | Tydeligere veiledning og standardisert innfÃ¸ringspraksis |
+| Teknisk | Svak integrasjon mellom lokale systemer og eInnsyn kan gi mangelfull eller forsinket publisering | God innfÃ¸ring, test og tydelige integrasjonskrav |
+| Organisatorisk | Virksomheter kan undervurdere arbeidet som kreves lokalt for Ã¥ publisere godt | Klare ansvarslinjer mellom lokal forvaltning og fellestjenesten |
+| Brukbarhet | Brukere kan ha hÃ¸ye forventninger til innsyn som ikke samsvarer med hva lokale systemer faktisk publiserer | Bedre brukerforventning og tydeligere informasjon om avgrensninger |
+| Avhengigheter | eInnsyn kan bli vurdert som erstatning for lokale dokument- og arkivlÃ¸sninger | Tydelig avgrensning mellom publisering, innsyn og intern forvaltning |
 
 ## Kanaler
 - Produktside: https://www.digdir.no/einnsyn/om-einnsyn/2262
@@ -114,33 +114,33 @@ Operative mål utledet fra de samme kildene:
 ## Plattform
 eInnsyn er en felles publiserings- og innsynsplattform som samhandler med virksomhetenes egne sak- og arkivsystemer.
 
-**Fakta:** Digdir beskriver løsningen som både publiseringstjeneste og innsynsløsning, og dokumentasjonen viser at produktet er laget for å kobles mot lokale systemer som leverer grunnlaget for publisering.
+**Fakta:** Digdir beskriver lÃ¸sningen som bÃ¥de publiseringstjeneste og innsynslÃ¸sning, og dokumentasjonen viser at produktet er laget for Ã¥ kobles mot lokale systemer som leverer grunnlaget for publisering.
 
 **Ikke offentlig dokumentert i brukte kilder:** Full detalj om driftsarkitektur, teknologivalg og konkret infrastruktur.
 
 ## Gjenbruk
-**Høy gjenbruksverdi:**
-- Løsningen er laget for at mange virksomheter skal bruke samme mønster for publisering og innsyn.
-- Den er særlig relevant når behovet er felles tilgang til offentlig informasjon på tvers av virksomheter.
+**HÃ¸y gjenbruksverdi:**
+- LÃ¸sningen er laget for at mange virksomheter skal bruke samme mÃ¸nster for publisering og innsyn.
+- Den er sÃ¦rlig relevant nÃ¥r behovet er felles tilgang til offentlig informasjon pÃ¥ tvers av virksomheter.
 - Den er mindre relevant dersom behovet egentlig er intern dokumentforvaltning, arkivprosess eller katalogisering av andre typer ressurser.
 
-## Støtter arkitekturprinsipper
-- **P5: Del og gjenbruk løsninger** realiseres ved at publisering og innsyn tilbys som en felles løsning i stedet for mange lokale særvarianter.
-- **P6: Lag digitale løsninger som støtter samhandling** styrkes fordi virksomheter kan publisere gjennom et felles opplegg som virker samlet for brukeren.
-- **P7: Sørg for tillit til oppgaveløsningen** styrkes ved at offentlig informasjon blir lettere tilgjengelig og mer samlet presentert.
+## StÃ¸tter arkitekturprinsipper
+- **P5: Del og gjenbruk lÃ¸sninger** realiseres ved at publisering og innsyn tilbys som en felles lÃ¸sning i stedet for mange lokale sÃ¦rvarianter.
+- **P6: Lag digitale lÃ¸sninger som stÃ¸tter samhandling** styrkes fordi virksomheter kan publisere gjennom et felles opplegg som virker samlet for brukeren.
+- **P7: SÃ¸rg for tillit til oppgavelÃ¸sningen** styrkes ved at offentlig informasjon blir lettere tilgjengelig og mer samlet presentert.
 
 ## Finansiering
 - **Fakta:** Samarbeidsportalen har en egen kostnadsmodell for eInnsyn.
 - **Fakta:** Kostnadsmodellen skiller mellom grupper som er sentralt finansiert og grupper som finansierer egen bruk.
-- **Deduksjon:** Finansieringen er derfor delvis sentral og delvis brukerfinansiert, avhengig av hvilken virksomhetstype som tar løsningen i bruk.
+- **Deduksjon:** Finansieringen er derfor delvis sentral og delvis brukerfinansiert, avhengig av hvilken virksomhetstype som tar lÃ¸sningen i bruk.
 
 ## Forvaltning/eier
-| Ansvarsområde | Organisasjon / vurdering | Grunnlag |
+| AnsvarsomrÃ¥de | Organisasjon / vurdering | Grunnlag |
 |---|---|---|
 | Produktansvar | Digitaliseringsdirektoratet (Digdir) | Digdirs produktside og Samarbeidsportalen |
-| Driftsansvar | Ikke eksplisitt navngitt i brukte offentlige kilder | Offentlige kilder beskriver ikke detaljert leverandør- eller driftsmodell |
+| Driftsansvar | Ikke eksplisitt navngitt i brukte offentlige kilder | Offentlige kilder beskriver ikke detaljert leverandÃ¸r- eller driftsmodell |
 | Budsjett- og kostnadsmodell | Digdir forvalter produktet, med publisert kostnadsmodell | Samarbeidsportalen |
-| Styringsmodell | Del av Digdirs portefølje for eInnsyn | Samarbeidsportalen |
+| Styringsmodell | Del av Digdirs portefÃ¸lje for eInnsyn | Samarbeidsportalen |
 
 ## Lenke til dokumentasjon
 - https://www.digdir.no/einnsyn/om-einnsyn/2262
@@ -151,11 +151,11 @@ eInnsyn er en felles publiserings- og innsynsplattform som samhandler med virkso
 - https://samarbeid.digdir.no/einnsyn/einnsyn/997
 
 ## Kildegrunnlag brukt i utfyllingen
-- Lokal fil: `arkitektur/produkter/produktbeskrivelser/06-eInnsyn-produkt-canvas-v2-copilot.md`
+- Lokal fil: `arkitektur/ressurser/operative-losninger-og-tjenester/06-eInnsyn-produkt-canvas-v2-copilot.md`
 - Lokal fil: `config/prompts/produkt-canvas.system.md`
 - Lokal fil: `config/templates/produkt-canvas-template.md`
 - Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
-- Lokal fil: `arkitektur/produkter/produktnummerering.md`
+- Lokal fil: `arkitektur/ressurser/produktnummerering.md`
 - Lokal fil: `sources/links.md`
 - Nettkilde: https://www.digdir.no/einnsyn/om-einnsyn/2262 (hentet 2026-03-17)
 - Nettkilde: https://docs.digdir.no/docs/eInnsyn/index.html (hentet 2026-03-17)
@@ -170,10 +170,11 @@ eInnsyn er en felles publiserings- og innsynsplattform som samhandler med virkso
 
 ### Analyseforbedringer
 - Kapabilitetslisten er redusert til de direkte funksjonene eInnsyn faktisk realiserer, og bredere koblinger til andre typer informasjonsforvaltning er tatt ut.
-- Produktet beskrives tydeligere som felles publiserings- og innsynsløsning, ikke som generell arkiv- eller datakatalogløsning.
-- Finansiering er skrevet om med støtte i publisert kostnadsmodell som skiller mellom sentral og brukerfinansiert bruk.
+- Produktet beskrives tydeligere som felles publiserings- og innsynslÃ¸sning, ikke som generell arkiv- eller datakataloglÃ¸sning.
+- Finansiering er skrevet om med stÃ¸tte i publisert kostnadsmodell som skiller mellom sentral og brukerfinansiert bruk.
 
 ### Tekstlige forbedringer
-- Dokumentet starter ikke lenger med målgruppelinje, og `Ressurs ID` er skrevet uten parentesforklaring.
-- Hovedfunksjoner og avgrensning gjør det tydeligere når eInnsyn er riktig løsning for gjenbruk.
-- Beskrivelsen bruker mer aktiv og målrettet språk for nasjonal arkitektur, og skiller klarere mellom felles løsning og lokale systemer.
+- Dokumentet starter ikke lenger med mÃ¥lgruppelinje, og `Ressurs ID` er skrevet uten parentesforklaring.
+- Hovedfunksjoner og avgrensning gjÃ¸r det tydeligere nÃ¥r eInnsyn er riktig lÃ¸sning for gjenbruk.
+- Beskrivelsen bruker mer aktiv og mÃ¥lrettet sprÃ¥k for nasjonal arkitektur, og skiller klarere mellom felles lÃ¸sning og lokale systemer.
+

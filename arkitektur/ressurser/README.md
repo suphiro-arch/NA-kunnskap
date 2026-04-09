@@ -15,12 +15,12 @@ Denne mappa samler styringsgrunnlag og videre struktur for ressursområdet i rep
 - `samarbeidsfora/`: fora, råd, nettverk og samordningsarenaer som påvirker retning og prioritering
 
 ## Forhold til produktområdet
-- `arkitektur/produkter/` er fortsatt operativt hjem for dagens produktregister og eksisterende produktbeskrivelser.
-- `arkitektur/ressurser/` etablerer den bredere strukturen for ressursområdet når repoet utvides utover klassiske produkter.
-- Inntil videre kan operative løsninger og tjenester fortsatt være registrert i `arkitektur/produkter/` når de følger eksisterende produkt-canvas og versjonering.
+- `arkitektur/ressurser/` er operativt hjem for registerføring og ressursbeskrivelser.
+- `arkitektur/ressurser/produktnummerering.md` er master for ressurs-ID-er og dokumentkoblinger.
+- nye ressursbeskrivelser opprettes direkte i riktig undermappe under `arkitektur/ressurser/`.
 
 ## Praktisk bruk
 - bruk `styringsregler.md` før nye ressurskategorier eller nye ressurser opprettes
-- bruk `arkitektur/produkter/produktnummerering.md` som operativ master for registerføring og ressurs-ID-er inntil annet er besluttet
+- bruk `arkitektur/ressurser/produktnummerering.md` som operativ master for registerføring og ressurs-ID-er
 - velg én primær ressurskategori per ressurs
 - bruk kapabiliteter som kobling og metadata, ikke som primær mappeinndeling

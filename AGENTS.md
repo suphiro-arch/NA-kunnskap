@@ -15,8 +15,8 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
   - `briefs/arbeidsstyring-og-handover/` brukes for større arbeidsnotater, MVP-skisser, handover-dokumenter og lignende som ikke er sluttleveranser.
 - Les `README.md` i aktuell mappe når oppgaven berører den delen av repoet, slik at lokal struktur og arbeidsmåte følges.
 - Ved arbeid med nye ressurskategorier eller ressurser utover klassiske produkter, bruk `arkitektur/ressurser/styringsregler.md` som styrende klassifisering.
-- Ved registerføring av nye ressurser i den brede ressursstrukturen, bruk fortsatt `arkitektur/produkter/produktnummerering.md` som operativ master for ressurs-ID og registerstatus inntil annet er besluttet.
-- Når nye ressursfiler opprettes etter at løpenummer er fastsatt i `arkitektur/produkter/produktnummerering.md`, skal filnavnet følge samme nummererte mønster som øvrige beskrivelser i porteføljen.
+- Ved registerføring av nye ressurser i den brede ressursstrukturen, bruk fortsatt `arkitektur/ressurser/produktnummerering.md` som operativ master for ressurs-ID og registerstatus inntil annet er besluttet.
+- Når nye ressursfiler opprettes etter at løpenummer er fastsatt i `arkitektur/ressurser/produktnummerering.md`, skal filnavnet følge samme nummererte mønster som øvrige beskrivelser i porteføljen.
 
 ## Produktbeskrivelser
 - Bruk alltid høyeste eksisterende versjonsnummer for et produkt som primært utgangspunkt, uavhengig av om siste versjon er laget av `codex`, `copilot` eller en person.
@@ -60,4 +60,5 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Bruk `briefs/decisions.md` som felles beslutningslogg på tvers av prosesser og arbeidsløp, i stedet for å opprette nye beslutningsdokumenter med mindre det finnes et tydelig særskilt behov.
 - Legg nye arbeidsdokumenter og handover-notater i `briefs/arbeidsstyring-og-handover/` når de ikke hører hjemme i `results/`.
 - Hvis nye generelle regler blir viktige for repoet, legg dem i denne fila heller enn å spre dem tilfeldig i enkeltfiler.
+
 

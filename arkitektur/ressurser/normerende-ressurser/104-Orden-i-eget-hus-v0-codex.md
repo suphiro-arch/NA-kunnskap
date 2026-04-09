@@ -27,5 +27,6 @@ Ressursen er opprettet som en kort paabegynt beskrivelse for a kunne testes i we
 
 ## Kildegrunnlag brukt i utfyllingen
 - sources/links.md, kontrollert 2026-04-09
-- arkitektur/produkter/produktnummerering.md, kontrollert 2026-04-09
+- arkitektur/ressurser/produktnummerering.md, kontrollert 2026-04-09
 - https://www.digdir.no/orden-eget-hus/orden-eget-hus/2717, kontrollert 2026-04-09
+

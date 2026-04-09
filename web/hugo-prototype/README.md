@@ -12,8 +12,8 @@ Dette er en isolert prototype for en framtidig nettside om nasjonal arkitektur.
 ## Kilder i repoet
 
 - `arkitektur/kapabiliteter/capabilities.yaml`
-- `arkitektur/produkter/produktnummerering.md` er registermaster for ressurs-ID, status og dokumentlenker
-- `arkitektur/produkter/produktbeskrivelser/` brukes fortsatt for eksisterende produktbeskrivelser
+- `arkitektur/ressurser/produktnummerering.md` er registermaster for ressurs-ID, status og dokumentlenker
+- `arkitektur/ressurser/operative-losninger-og-tjenester/` brukes fortsatt for eksisterende produktbeskrivelser
 - `arkitektur/ressurser/` brukes for nye ressursbeskrivelser og ny struktur
 - `arkitektur/prinsipper/principles.md`
 - `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml`
@@ -57,3 +57,4 @@ hugo --gc --minify
 
 - GitHub Actions bygger prototypen direkte fra `web/hugo-prototype/`.
 - GitHub Pages deployer bygget som artifact.
+
