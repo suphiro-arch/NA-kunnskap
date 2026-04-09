@@ -319,6 +319,110 @@ a:hover {
   color: #f8fbfd;
 }
 
+.resource-listing {
+  margin-top: 1rem;
+}
+
+.resource-filters {
+  border: 1px solid var(--line-subtle);
+  border-radius: var(--radius-md);
+  background: #f7fafc;
+  padding: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.resource-filters__row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  gap: 0.65rem;
+}
+
+.resource-filters label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.28rem;
+  font-size: 0.9rem;
+  color: var(--ink-muted);
+}
+
+.resource-filters input,
+.resource-filters select {
+  width: 100%;
+  padding: 0.5rem 0.55rem;
+  border: 1px solid var(--line-subtle);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--ink-strong);
+}
+
+.resource-filters__result {
+  margin: 0.65rem 0 0;
+  color: var(--ink-muted);
+  font-size: 0.9rem;
+}
+
+.resource-cards {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.resource-card {
+  border: 1px solid var(--line-subtle);
+  border-radius: var(--radius-md);
+  background: #fff;
+  padding: 0.95rem 1rem;
+}
+
+.resource-card__title {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.25;
+}
+
+.resource-card__meta,
+.resource-card__facts,
+.resource-card__description,
+.resource-card__purpose,
+.resource-card__capabilities,
+.resource-card__links {
+  margin: 0.55rem 0 0;
+}
+
+.resource-card__facts,
+.resource-card__meta,
+.resource-card__purpose,
+.resource-card__links {
+  color: var(--ink-body);
+}
+
+.resource-card__description {
+  color: var(--ink-strong);
+}
+
+.capability-chip {
+  display: inline-block;
+  margin: 0.25rem 0.32rem 0 0;
+  padding: 0.14rem 0.45rem;
+  border-radius: 999px;
+  border: 1px solid #cfe0eb;
+  background: #edf5fa;
+  color: var(--brand-deep);
+  font-size: 0.84rem;
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+.capability-chip:hover {
+  background: #dcecf7;
+}
+
+.capability-chip--more,
+.capability-chip--empty {
+  background: #f1f3f5;
+  border-color: #d7dde3;
+  color: #5f6f7c;
+}
+
 .prose pre code {
   padding: 0;
   background: transparent;

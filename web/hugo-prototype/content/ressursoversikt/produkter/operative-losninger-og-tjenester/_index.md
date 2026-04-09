@@ -11,698 +11,682 @@ Ressurser som brukes direkte i drift, integrasjon eller løsningsdesign.
 
 Denne siden viser siste registrerte versjon av ressurser i kategorien **Operative løsninger og tjenester**.
 
-## ID-porten
-
-**Ressurs-ID:** `DIGDIR-001` | **Siste versjon:** v3 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/01-ID-porten-produkt-canvas-v3-codex.md)
-
-**Kategori:** Felleskomponent | **Type:** Autentiseringstjeneste
-
-ID-porten er den nasjonale fellesløsningen for sikker innlogging til offentlige digitale tjenester. Løsningen gir innbyggere én gjenkjennelig inngang til tjenester på tvers av virksomheter, og gir tjenesteeiere en felles autentiseringskomponent i stedet for lokale innloggingsløsninger. ID-porten er særlig relevant når...
-
-**Kapabiliteter:** [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) | [Autentisering](../../kapabiliteter/tillit/autentisering/) | [Identifisering](../../kapabiliteter/tillit/identifisering/) | [Representasjon](../../kapabiliteter/tillit/representasjon/) | [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
-
----
-
-## Maskinporten
-
-**Ressurs-ID:** `DIGDIR-002` | **Siste versjon:** v3 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/02-Maskinporten-produkt-canvas-v3-codex.md)
-
-**Kategori:** Felleskomponent | **Type:** Maskin-til-maskin autentisering
-
-Maskinporten er den nasjonale fellesløsningen for å autentisere systemer og styre tilgang når virksomheter utveksler data eller bruker hverandres API-er. Produktet gjør det mulig å bygge sikre integrasjoner uten at hver datatilbyder og datakonsument må etablere egne autentiserings- og tokenløsninger. Maskinporten er...
-
-**Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) | [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) | [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) | [Autentisering](../../kapabiliteter/tillit/autentisering/) | [Tilgangskontroll](../../kapabiliteter/tillit/tilgangskontroll/)
-
----
-
-## eSignering
-
-**Ressurs-ID:** `DIGDIR-003` | **Siste versjon:** v3 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/03-eSignering-produkt-canvas-v3-codex.md)
-
-**Kategori:** Felleskomponent | **Type:** Digital signering
-
-eSignering er den nasjonale fellesløsningen for digital innhenting av underskrifter i offentlige prosesser. Produktet gjør det mulig å sende dokumenter til signering, følge status på signeringsoppdrag og motta ferdig signerte dokumenter tilbake i en kontrollert digital flyt. Løsningen er særlig relevant når en...
-
-**Kapabiliteter:** [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) | [Autentisering](../../kapabiliteter/tillit/autentisering/) | [Signering](../../kapabiliteter/tillit/signering/)
-
----
-
-## Altinn autorisasjon
-
-**Ressurs-ID:** `DIGDIR-004` | **Siste versjon:** v4 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/04-Altinn-autorisasjon-produkt-canvas-v4-codex.md)
-
-**Kategori:** Felleskomponent | **Type:** Autorisasjonstjeneste for representasjon og tilgang
-
-Altinn autorisasjon er Altinns felles produkt for å definere, forvalte og evaluere hvem som kan gjøre hva, på vegne av hvem og under hvilke vilkår. Produktet omfatter både brukerrettet tilgangsforvaltning, representasjon og delegering, og en integrasjonsflate for systemer og tjenester som trenger...
-
-**Kapabiliteter:** [Representasjon](../../kapabiliteter/tillit/representasjon/) | [Tilgangskontroll](../../kapabiliteter/tillit/tilgangskontroll/) | [Tilgangsstyring](../../kapabiliteter/tillit/tilgangsstyring/)
-
----
-
-## Kontakt- og reservasjonsregisteret
-
-**Ressurs-ID:** `DIGDIR-005` | **Siste versjon:** v3 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/05-Kontakt-og-reservasjonsregisteret-produkt-canvas-v3-codex.md)
-
-**Kategori:** Register | **Type:** Kontaktinformasjon og reservasjon
-
-Kontakt- og reservasjonsregisteret er den nasjonale fellesløsningen for å finne innbyggeres digitale kontaktopplysninger og kontrollere om en innbygger er reservert mot digital kommunikasjon. Produktet gir offentlige virksomheter én felles kilde før de sender digital post, varsler eller annen digital kommunikasjon...
-
-**Kapabiliteter:** [Grunndata](../../kapabiliteter/datakilder/grunndata/) | [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/)
-
----
-
-## eInnsyn
-
-**Ressurs-ID:** `DIGDIR-006` | **Siste versjon:** v3 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/06-eInnsyn-produkt-canvas-v3-codex.md)
-
-**Kategori:** Fellesløsning | **Type:** Innsynsløsning
-
-eInnsyn er den nasjonale fellesløsningen som gjør offentlig informasjon lettere tilgjengelig for innbyggere, presse og andre som trenger innsyn. Produktet samler publiserte journalopplysninger og dokumentlenker fra mange virksomheter i ett felles innsynspunkt, slik at brukeren slipper å orientere seg i hver enkelt...
-
-**Kapabiliteter:** [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/) | [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/)
-
----
-
-## eFormidling
-
-**Ressurs-ID:** `DIGDIR-007` | **Siste versjon:** v3 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/07-eFormidling-produkt-canvas-v3-codex.md)
-
-**Kategori:** Fellesløsning | **Type:** Meldingsutveksling / transportlag
-
-eFormidling er Digdirs fellesløsning for standardisert og sikker meldingsutveksling. Produktet gjør det mulig å sende og motta digitale meldinger uten å bygge egne punkt-til-punkt-integrasjoner for hver mottaker, og skjuler samtidig forskjeller mellom ulike mottakerkanaler. Løsningen er særlig relevant når offentlige...
-
-**Kapabiliteter:** [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) | [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) | [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) | [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/) | [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) | [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/)
-
----
-
-## Altinn Formidling
-
-**Ressurs-ID:** `DIGDIR-008` | **Siste versjon:** v3 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/08-Altinn-formidling-produkt-canvas-v3-codex.md)
-
-**Kategori:** Fellesløsning | **Type:** Formidlingstjeneste for filer
-
-Altinn Formidling er Altinns formidlingstjeneste for sikker og styrt overføring av filer mellom avsendere og mottakere. Produktet er laget for situasjoner der store eller viktige payloads må overføres asynkront, spores og kunne hentes av autoriserte mottakere uten at avsender og mottaker trenger å være tett koblet i...
-
-**Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) | [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) | [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) | [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) | [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/) | [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
-
----
-
-## Digital postkasse
-
-**Ressurs-ID:** `DIGDIR-009` | **Siste versjon:** v3 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/09-Digital-postkasse-produkt-canvas-v3-codex.md)
-
-**Kategori:** Felleskomponent | **Type:** Utsendingstjeneste for digital og fysisk post til innbyggere
-
-Digital postkasse er den nasjonale felleskomponenten for å sende post sikkert fra offentlige virksomheter til innbyggere i en valgt digital postkasse. Produktet omfatter ikke bare selve mottakerens innboks, men hele leveranseløpet fra avsendersystem via meldingsformidling og postkasseleverandør til mottaker, med...
-
-**Kapabiliteter:** [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) | [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) | [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/)
-
----
-
-## ELMA
-
-**Ressurs-ID:** `DIGDIR-023` | **Siste versjon:** v3 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/10-ELMA-produkt-canvas-v3-codex.md)
-
-**Kategori:** Felleskomponent | **Type:** Adresseregister for eFaktura og EHF
-
-ELMA er den norske oppslagstjenesten som gjør det mulig å finne riktig elektronisk mottakeradresse og hvilke dokumenttyper en virksomhet kan motta i EHF- og Peppol-samhandling. Produktet er relevant når en avsender eller et aksesspunkt må avklare hvor et dokument skal sendes og hvilke profiler mottakeren støtter. ELMA...
-
-**Kapabiliteter:** [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) | [Identifisering](../../kapabiliteter/tillit/identifisering/)
-
----
-
-## Altinn Events
-
-**Ressurs-ID:** `DIGDIR-010` | **Siste versjon:** v3 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/12-Altinn-events-produkt-canvas-v3-codex.md)
-
-**Kategori:** Felleskomponent | **Type:** Hendelsestjeneste
-
-Altinn Events er Altinns hendelsestjeneste for publisering og abonnement på hendelser på tvers av tjenester og systemer. Produktet gjør det mulig å koble systemer løsere sammen ved at hendelser om tilstandsendringer kan produseres én gang og konsumeres av flere autoriserte mottakere uten polling eller tett synkron...
-
-**Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) | [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) | [Hendelsesdrevet](../../kapabiliteter/datautveksling-og-integrasjon/hendelsesdrevet/) | [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) | [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
-
----
-
-## Felles datakatalog
-
-**Ressurs-ID:** `DIGDIR-011` | **Siste versjon:** v3 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/13-Felles-datakatalog-produkt-canvas-v3-codex.md)
-
-**Kategori:** Fellesløsning | **Type:** Metadata- og publiseringsløsning for dataressurser
-
-Felles datakatalog er den nasjonale fellesløsningen for å beskrive og synliggjøre dataressurser på en standardisert måte. Produktet gjør det mulig å registrere eller høste metadata om datasett, API-er, begreper og informasjonsmodeller, og å gjøre disse ressursene søkbare og forståelige på tvers av virksomheter...
-
-**Kapabiliteter:** [Oversikt over API](../../kapabiliteter/informasjonsforvaltning/oversikt-over-api/) | [Oversikt over begreper](../../kapabiliteter/informasjonsforvaltning/oversikt-over-begreper/) | [Oversikt over datasett](../../kapabiliteter/informasjonsforvaltning/oversikt-over-datasett/) | [Oversikt over informasjonsmodeller](../../kapabiliteter/informasjonsforvaltning/oversikt-over-informasjonsmodeller/) | [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/)
-
----
-
-## Begrepskatalog
-
-**Ressurs-ID:** `DIGDIR-012` | **Siste versjon:** v3 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/14-Begrepskatalog-produkt-canvas-v3-codex.md)
-
-**Kategori:** Fellesløsning | **Type:** Delkatalog for begrepsbeskrivelser
-
-Begrepskatalog er den nasjonale delkatalogen for å beskrive og synliggjøre begreper som brukes i offentlig sektor. Produktet gjør det mulig å publisere begrepsbeskrivelser etter en felles standard, søke i dem, sammenligne begreper og bruke dem som semantisk grunnlag for datasett, API-er og informasjonsmodeller...
-
-**Kapabiliteter:** [Datastyring](../../kapabiliteter/informasjonsforvaltning/datastyring/) | [Informasjonsarkitektur](../../kapabiliteter/informasjonsforvaltning/informasjonsarkitektur/) | [Oversikt over begreper](../../kapabiliteter/informasjonsforvaltning/oversikt-over-begreper/) | [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/)
-
----
-
-## API-katalog
-
-**Ressurs-ID:** `DIGDIR-013` | **Siste versjon:** v3 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/15-API-katalog-produkt-canvas-v3-codex.md)
-
-**Kategori:** Fellesløsning | **Type:** Delkatalog for API-beskrivelser
-
-API-katalog er den nasjonale delkatalogen for å beskrive og synliggjøre API-er i offentlig sektor. Produktet gjør det mulig å publisere standardiserte beskrivelser av datatjenester, søke i dem og se hvordan API-er henger sammen med datasett og informasjonsmodeller. Løsningen er en del av Felles datakatalog, men...
-
-**Kapabiliteter:** [Informasjonsarkitektur](../../kapabiliteter/informasjonsforvaltning/informasjonsarkitektur/) | [Oversikt over API](../../kapabiliteter/informasjonsforvaltning/oversikt-over-api/) | [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/)
-
----
-
-## data.norge.no
-
-**Ressurs-ID:** `DIGDIR-014` | **Siste versjon:** v4 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/16-data-norge-no-produkt-canvas-v4-codex.md)
-
-**Kategori:** Portal | **Type:** Portal for åpne data
-
-data.norge.no er en nasjonal fellesløsning for å finne, forstå og viderebruke dataressurser. Portalen samler metadata om datasett, API-er, begreper, informasjonsmodeller, tjenester og hendelser, og gjør det enklere å oppdage hvilke data offentlig sektor har og kan dele med andre.
-
-**Kapabiliteter:** [Oversikt over API](../../kapabiliteter/informasjonsforvaltning/oversikt-over-api/) | [Oversikt over begreper](../../kapabiliteter/informasjonsforvaltning/oversikt-over-begreper/) | [Oversikt over datasett](../../kapabiliteter/informasjonsforvaltning/oversikt-over-datasett/) | [Oversikt over hendelser](../../kapabiliteter/informasjonsforvaltning/oversikt-over-hendelser/) | [Oversikt over informasjonsmodeller](../../kapabiliteter/informasjonsforvaltning/oversikt-over-informasjonsmodeller/) | [Oversikt over tjenester](../../kapabiliteter/informasjonsforvaltning/oversikt-over-tjenester/) | [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/)
-
----
-
-## data.altinn.no
-
-**Ressurs-ID:** `DIGDIR-015` | **Siste versjon:** v4 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/17-data-altinn-no-produkt-canvas-v4-codex.md)
-
-**Kategori:** Fellesløsning | **Type:** Kontrollert datadelingstjeneste
-
-data.altinn.no er Altinns fellesløsning for kontrollert datadeling mellom virksomheter. Produktet gjør det mulig å hente informasjon direkte fra autoritative kilder i en definert tjenestekontekst, med en felles API-modell for forespørsler, tilgangskontroll og uthenting av datasett. Produktet har både en tjenesteflate...
-
-**Kapabiliteter:** [Sammenstilling av data](../../kapabiliteter/datadrevet/sammenstilling-av-data/) | [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) | [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) | [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) | [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/) | [Autentisering](../../kapabiliteter/tillit/autentisering/) | [Samtykke](../../kapabiliteter/tillit/samtykke/) | [Tilgangskontroll](../../kapabiliteter/tillit/tilgangskontroll/) | [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
-
----
-
-## Norge.no
-
-**Ressurs-ID:** `DIGDIR-016` | **Siste versjon:** v3 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/18-Norge-no-produkt-canvas-v3-codex.md)
-
-**Kategori:** Portal | **Type:** Innbyggerportal
-
-Norge.no er en nasjonal veivisertjeneste som hjelper innbyggere med å finne fram i digitale offentlige tjenester. Produktet samler tjenester og informasjon fra statlige og kommunale virksomheter i ett brukerrettet inngangspunkt, og gjør det enklere å orientere seg gjennom søk, temaområder og livssituasjoner. Løsningen...
-
-**Kapabiliteter:** [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/) | [Tjenestekjeder](../../kapabiliteter/sluttbrukertjenester/tjenestekjeder/) | [Tjenestedesign](../../kapabiliteter/tjenesteutvikling/tjenestedesign/) | [Oversikt over tjenester](../../kapabiliteter/informasjonsforvaltning/oversikt-over-tjenester/)
-
----
-
-## Altinn 3 plattform
-
-**Ressurs-ID:** `DIGDIR-017` | **Siste versjon:** v3 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/19-Altinn-produkt-canvas-v3-codex.md)
-
-**Kategori:** Plattform | **Type:** Plattform for utvikling, kjøring og samhandling
-
-Altinn 3 plattform er den operative plattformen for å utvikle, kjøre og forvalte digitale tjenester i Altinn. Produktet omfatter både utviklingsflaten i Altinn Studio, kjøretidsmiljøet i Altinn Apps og et sett felles plattformtjenester som gir tjenester standardiserte mønstre for autentisering, autorisasjon,...
-
-**Kapabiliteter:** [Tjenesteforvaltning](../../kapabiliteter/samarbeid/tjenesteforvaltning/) | [Gjenbrukbare tjenester](../../kapabiliteter/tjenesteutvikling/gjenbrukbare-tjenester/) | [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
-
----
-
-## Altinn Studio
-
-**Ressurs-ID:** `DIGDIR-018` | **Siste versjon:** v3 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/20-Altinn-Studio-produkt-canvas-v3-codex.md)
-
-**Kategori:** Plattform | **Type:** Utviklingsflate for tjenester
-
-Altinn Studio er Altinns utviklingsflate for å bygge digitale tjenester. Produktet gir tjenesteeiere og utviklingsteam et felles miljø for å modellere skjema, data, prosess, validering og integrasjoner, og for å klargjøre tjenester for kjøring i Altinn Apps. Produktet er bredere enn en enkel editor eller et...
-
-**Kapabiliteter:** [Gjenbrukbare tjenester](../../kapabiliteter/tjenesteutvikling/gjenbrukbare-tjenester/) | [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/) | [Tjenestedesign](../../kapabiliteter/tjenesteutvikling/tjenestedesign/) | [Utviklings- og kjøretidsmiljø](../../kapabiliteter/tjenesteutvikling/utviklings-og-kjoretidsmiljo/)
-
----
-
-## Dialogporten
-
-**Ressurs-ID:** `DIGDIR-020` | **Siste versjon:** v5 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/22-Dialogporten-produkt-canvas-v5-codex.md)
-
-**Kategori:** Fellesløsning | **Type:** Dialogtjeneste og representasjonslag
-
-Dialogporten er Altinns felles representasjons- og samhandlingslag for digitale dialoger. Produktet gjør meldinger og dialoger fra ulike tjenesteplattformer tilgjengelige i et felles format, slik at sluttbrukersystemer, arbeidsflater og portaler kan presentere den samme dialogen på en konsistent måte. Produktet er mer...
-
-**Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) | [Hendelsesdrevet](../../kapabiliteter/datautveksling-og-integrasjon/hendelsesdrevet/) | [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/) | [Autentisering](../../kapabiliteter/tillit/autentisering/) | [Tilgangskontroll](../../kapabiliteter/tillit/tilgangskontroll/) | [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
-
----
-
-## Altinn Melding
-
-**Ressurs-ID:** `DIGDIR-021` | **Siste versjon:** v5 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/23-Altinn-3-Melding-produkt-canvas-v5-codex.md)
-
-**Kategori:** Fellesløsning | **Type:** Korrespondansetjeneste
-
-Altinn Melding er Altinns meldingstjeneste for sikker digital utveksling av korrespondanse mellom offentlige virksomheter og mottakere i offentlig sektor, næringsliv og befolkning. Produktet støtter livssyklus, tilgangsstyring, innhold og vedlegg, varsling og hendelser, og gjør meldinger tilgjengelige i Arbeidsflate...
-
-**Kapabiliteter:** [Hendelsesdrevet](../../kapabiliteter/datautveksling-og-integrasjon/hendelsesdrevet/) | [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) | [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) | [Sporbarhet og innsyn](../../kapabiliteter/tillit/sporbarhet-og-innsyn/) | [Tilgangskontroll](../../kapabiliteter/tillit/tilgangskontroll/) | [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
-
----
-
-## Altinn Varsling
-
-**Ressurs-ID:** `DIGDIR-022` | **Siste versjon:** v5 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/24-Varslinger-produkt-canvas-v5-codex.md)
-
-**Kategori:** Fellesløsning | **Type:** Varslingstjeneste (SMS/e-post)
-
-Altinn Varsling er Altinns fellesløsning for enveis digital varsling til innbyggere og virksomheter. Produktet gjør det mulig å sende varsler via e-post og SMS, slå opp mottakerens navn og kontaktinformasjon fra nasjonale registre, bruke autorisasjon for å finne riktige mottakere i organisasjoner og styre utsending...
-
-**Kapabiliteter:** [Sammenstilling av data](../../kapabiliteter/datadrevet/sammenstilling-av-data/) | [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) | [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) | [Proaktive tjenester](../../kapabiliteter/sluttbrukertjenester/proaktive-tjenester/) | [Tilgangskontroll](../../kapabiliteter/tillit/tilgangskontroll/) | [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/)
-
----
-
-## FIKS-plattformen
-
-**Ressurs-ID:** `KS-001` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/25-FIKS-plattformen-produkt-canvas-v1-codex.md)
-
-**Kategori:** Plattform | **Type:** Integrasjonsplattform
-
-FIKS-plattformen er KS Digitals felles plattform for digital samhandling i kommunal sektor. Plattformen gir kommuner, fylkeskommuner og leverandører et felles teknisk rammeverk for å utvikle, integrere, forvalte og bruke digitale tjenester på en mer standardisert måte. Produktet er særlig relevant når kommunal sektor...
-
-**Kapabiliteter:** [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/) | [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/) | [Utviklings- og kjøretidsmiljø](../../kapabiliteter/tjenesteutvikling/utviklings-og-kjoretidsmiljo/)
-
----
-
-## Fiks melding
-
-**Ressurs-ID:** `KS-002` | **Siste versjon:** v2 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/26-FIKS-Melding-produkt-canvas-v2-codex.md)
-
-**Kategori:** Fellesløsning | **Type:** Meldingsutveksling
-
-Fiks melding er KS Digitals kanalplattform for meldingsutveksling og dokumentdeling i kommunal sektor. Løsningen gjør det mulig å sende og motta informasjon gjennom flere ulike kommunikasjonsformer fra samme tjenestegrunnlag, slik at kommunen kan velge kanal etter behov, risiko og brukssituasjon. Produktet dekker både...
-
-**Kapabiliteter:** [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) | [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) | [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/)
-
----
-
-## Fiks SvarUt
-
-**Ressurs-ID:** `KS-003` | **Siste versjon:** v3 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/27-FIKS-SvarUt-produkt-canvas-v3-codex.md)
-
-**Kategori:** Fellesløsning | **Type:** Utsendingstjeneste for digital og fysisk post
-
-Fiks SvarUt er KS Digitals sentraliserte utsendingstjeneste for utgående dokumentformidling. Tjenesten gjør det mulig for kommuner og andre offentlige virksomheter å sende dokumenter gjennom én felles distribusjonsmekanisme, i stedet for å bygge separate løp mot hver mottakerkanal. Fiks SvarUt kan brukes både gjennom...
-
-**Kapabiliteter:** [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) | [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/) | [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/)
-
----
-
-## Fiks register
-
-**Ressurs-ID:** `KS-004` | **Siste versjon:** v2 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/28-FIKS-Register-produkt-canvas-v2-codex.md)
-
-**Kategori:** Fellesløsning | **Type:** Registertilgang
-
-Fiks register er KS Digitals overordnede registertilgangstjeneste for kommunal sektor. Løsningen samler tilgang til flere nasjonale registre i samme tjenesteområde, slik at kommuner og fylkeskommuner kan bruke et felles oppslags- og integrasjonsmønster i stedet for å etablere separate løp mot hver datakilde. Produktet...
-
-**Kapabiliteter:** [Grunndata](../../kapabiliteter/datakilder/grunndata/) | [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/)
-
----
-
-## Fiks digiorden
-
-**Ressurs-ID:** `KS-006` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/30-FIKS-Digiorden-produkt-canvas-v1-codex.md)
-
-**Kategori:** Fellesløsning | **Type:** Styrings- og oversiktsløsning
-
-Fiks digiorden er KS Digitals styrings- og oversiktsløsning for kommunal informasjonsforvaltning. Løsningen hjelper kommuner med å få oversikt over applikasjoner, datasett og sentrale styringsopplysninger i eget digitalt landskap, slik at det blir lettere å planlegge prosjekter, vurdere konsekvenser og bruke...
-
-**Kapabiliteter:** [Datastyring](../../kapabiliteter/informasjonsforvaltning/datastyring/) | [Oversikt over datasett](../../kapabiliteter/informasjonsforvaltning/oversikt-over-datasett/) | [Oversikt over tjenester](../../kapabiliteter/informasjonsforvaltning/oversikt-over-tjenester/)
-
----
-
-## Helsedata.no
-
-**Ressurs-ID:** `HDIR-001` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v1-codex.md)
-
-**Kategori:** Portal | **Type:** Datatilgang
-
-Helsedata.no er den nasjonale portalen for å finne informasjon om helsedata, orientere seg i datakilder og søke om tilgang til data for analyse, forskning og annen lovlig bruk. Produktet er både en oversikts- og veiledningsflate og en inngang til sammenhengende søknads- og tilgangsløp.
-
-**Kapabiliteter:** [Oversikt over datasett](../../kapabiliteter/informasjonsforvaltning/oversikt-over-datasett/) | [Datastyring](../../kapabiliteter/informasjonsforvaltning/datastyring/) | [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/)
-
----
-
-## Helsenorge
-
-**Ressurs-ID:** `NHN-001` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/32-Helsenorge-produkt-canvas-v1-codex.md)
-
-**Kategori:** Portal | **Type:** Innbyggerportal
-
-Helsenorge er den nasjonale portalen der innbyggere finner kvalitetssikret helseinformasjon og får tilgang til digitale selvbetjeningsløsninger i helse- og omsorgssektoren. Produktet samler tjenester fra flere aktører i én felles inngang, slik at brukeren kan orientere seg, logge inn og utføre helseadministrative...
-
-**Kapabiliteter:** [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/) | [Tjenestekjeder](../../kapabiliteter/sluttbrukertjenester/tjenestekjeder/)
-
----
-
-## HelseID
-
-**Ressurs-ID:** `NHN-002` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/33-HelseID-produkt-canvas-v1-codex.md)
-
-**Kategori:** Felleskomponent | **Type:** Tillits- og autentiseringskomponent for helse
-
-HelseID er den nasjonale felleskomponenten for pålogging, tillit og sikring av digital samhandling i helse- og omsorgssektoren. Produktet gjør det mulig å autentisere helsepersonell, systemer og virksomheter, beskytte API-er og berike identitetsinformasjon med opplysninger fra nasjonale registre som...
-
-**Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) | [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) | [Autentisering](../../kapabiliteter/tillit/autentisering/) | [Tilgangskontroll](../../kapabiliteter/tillit/tilgangskontroll/)
-
----
-
-## Kjernejournal
-
-**Ressurs-ID:** `NHN-003` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/34-Kjernejournal-produkt-canvas-v1-codex.md)
-
-**Kategori:** Fellesløsning | **Type:** Pasientdata
-
-Kjernejournal er den nasjonale fellesløsningen for å gjøre utvalgte og viktige helseopplysninger tilgjengelige på tvers av behandlingssteder. Produktet støtter tryggere og mer sammenhengende behandling ved at relevante opplysninger kan deles og brukes der pasienten mottar helsehjelp.
-
-**Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) | [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) | [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/)
-
----
-
-## e-resept
-
-**Ressurs-ID:** `NHN-004` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/35-e-resept-produkt-canvas-v1-codex.md)
-
-**Kategori:** Fellesløsning | **Type:** Reseptsystem
-
-e-resept er den nasjonale løsningen for elektronisk forskrivning, formidling og tilgjengeliggjøring av resepter i Norge. Produktet binder sammen forskriver, apotek, pasient og øvrige relevante aktører i en digital samhandlingskjede, og sørger for at reseptinformasjon kan opprettes, deles og brukes på en tryggere og...
-
-**Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) | [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) | [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/)
-
----
-
-## Aa-registeret
-
-**Ressurs-ID:** `NAV-001` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/36-Aa-registeret-produkt-canvas-v1-codex.md)
-
-**Kategori:** Register | **Type:** Arbeidsforhold
-
-Aa-registeret er det nasjonale grunndataregisteret over arbeidsforhold i Norge. Produktet forvalter opplysninger om ordinære og maritime arbeidsforhold, frilansoppdrag og andre relevante relasjoner mellom arbeidsgivere og arbeidstakere. Registeret er både en autoritativ datakilde og en delt informasjonsressurs som...
-
-**Kapabiliteter:** [Grunndata](../../kapabiliteter/datakilder/grunndata/) | [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) | [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) | [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/)
-
----
-
-## Folkeregisteret
-
-**Ressurs-ID:** `SKATT-001` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/37-Folkeregisteret-produkt-canvas-v1-codex.md)
-
-**Kategori:** Register | **Type:** Persondata
-
-Folkeregisteret er det nasjonale grunndataregisteret for personopplysninger i Norge. Produktet forvalter autoritative opplysninger om identitet, navn, adresse, statsborgerskap, familierelasjoner, sivilstand og andre sentrale forhold som mange offentlige og private aktører bygger sine tjenester på. Folkeregisteret er...
-
-**Kapabiliteter:** [Grunndata](../../kapabiliteter/datakilder/grunndata/) | [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/)
-
----
-
-## Skatteetatens delingstjenester
-
-**Ressurs-ID:** `SKATT-002` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/38-Skatteetatens-delingstjenester-produkt-canvas-v1-codex.md)
-
-**Kategori:** Fellesløsning | **Type:** API-basert deling
-
-Skatteetatens delingstjenester er den samlede produktflaten for kontrollert viderebruk av data fra Skatteetaten. Produktet gjør det mulig for andre virksomheter å hente ut opplysninger gjennom API-er og tilhørende avtale- og tilgangsløp, i stedet for å basere seg på manuelle bestillinger eller punktvise...
-
-**Kapabiliteter:** [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/)
-
----
-
-## Matrikkelen
-
-**Ressurs-ID:** `KART-001` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/39-Matrikkelen-produkt-canvas-v1-codex.md)
-
-**Kategori:** Register | **Type:** Eiendoms- og adresseregister
-
-Matrikkelen er det nasjonale grunndataregisteret for eiendommer, bygninger, adresser og offisielle eiendomsidentifikatorer i Norge. Produktet gjør det mulig å registrere, forvalte og bruke autoritative opplysninger om fast eiendom og tilhørende objekter på tvers av sektorer og forvaltningsnivåer. Matrikkelen er derfor...
-
-**Kapabiliteter:** [Grunndata](../../kapabiliteter/datakilder/grunndata/) | [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/)
-
----
-
-## Geonorge
-
-**Ressurs-ID:** `KART-002` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/40-Geonorge-produkt-canvas-v1-codex.md)
-
-**Kategori:** Portal | **Type:** Geodataportal / metadata- og delingsplattform
-
-Geonorge er den nasjonale fellesløsningen for å finne, beskrive, registrere og distribuere kartdata og annen stedfestet informasjon i Norge. Produktet samler metadata om datasett og tjenester, tilbyr søk og API-er, og støtter flere distribusjonsmåter for geodata fra mange offentlige datatilbydere. Geonorge er derfor...
-
-**Kapabiliteter:** [Oversikt over datasett](../../kapabiliteter/informasjonsforvaltning/oversikt-over-datasett/) | [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/)
-
----
-
-## Enhetsregisteret
-
-**Ressurs-ID:** `BRREG-003` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/46-Enhetsregisteret-produkt-canvas-v1-codex.md)
-
-**Kategori:** Register | **Type:** Virksomhetsregister
-
-Enhetsregisteret er det nasjonale grunndataregisteret for virksomheter i Norge. Produktet samler og tilgjengeliggjør basisopplysninger om juridiske enheter og andre virksomheter, og tildeler organisasjonsnummer som felles identifikator. Enhetsregisteret er derfor mer enn en registreringstjeneste: det er den sentrale...
-
-**Kapabiliteter:** [Grunndata](../../kapabiliteter/datakilder/grunndata/) | [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/)
-
----
-
-## Feide
-
-**Ressurs-ID:** `SIKT-001` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/47-Feide-produkt-canvas-v1-codex.md)
-
-**Kategori:** Felleskomponent | **Type:** Autentisering
-
-Feide er den nasjonale fellesløsningen for trygg innlogging og datadeling i utdannings- og forskningssektoren. Produktet gir elever, studenter, forskere, undervisere og ansatte én felles identitet som kan brukes på tvers av mange digitale tjenester. Feide er særlig relevant når sektoren trenger gjenbrukbar...
-
-**Kapabiliteter:** [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) | [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/) | [Autentisering](../../kapabiliteter/tillit/autentisering/) | [Tilgangskontroll](../../kapabiliteter/tillit/tilgangskontroll/)
-
----
-
-## Felles studentsystem (FS)
-
-**Ressurs-ID:** `SIKT-002` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/48-Felles-studentsystem-produkt-canvas-v1-codex.md)
-
-**Kategori:** Plattform | **Type:** Studentdata
-
-Felles studentsystem (FS) er den nasjonale plattformen for studieadministrative data og prosesser i høyere utdanning. Produktet forvalter og tilgjengeliggjør informasjon om studenter, studier, opptak, resultater og kvalifikasjoner, og fungerer som informasjonsnav for både interne arbeidsprosesser, studentnære...
-
-**Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) | [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) | [Datastyring](../../kapabiliteter/informasjonsforvaltning/datastyring/) | [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/)
-
----
-
-## Opptaksløsninger
-
-**Ressurs-ID:** `SIKT-003` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/49-Opptakslosninger-produkt-canvas-v1-codex.md)
-
-**Kategori:** Fellesløsning | **Type:** Opptaksløsning
-
-Opptaksløsninger er den samlede produktflaten for datasystemene som muliggjør samordnet opptak til høyere utdanning og fagskoler i Norge. Produktet støtter både saksbehandling, søkerdialog, dokumenthåndtering, opptakskjøring og publisering av resultater, og fungerer som en felles digital ryggrad for opptaksprosessene.
-
-**Kapabiliteter:** [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) | [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/) | [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/)
-
----
-
-## Nasjonal vitnemålsdatabase (NVB)
-
-**Ressurs-ID:** `SIKT-004` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/50-Nasjonal-vitnemalsdatabase-produkt-canvas-v1-codex.md)
-
-**Kategori:** Register | **Type:** Vitnemål
-
-Nasjonal vitnemålsdatabase (NVB) er den nasjonale databasen for elektroniske vitnemål fra videregående opplæring. Produktet lagrer og kvalitetssikrer vitnemål og gjør dem tilgjengelige for opptak, dokumentasjon, statistikk og forskning. NVB er derfor mer enn et arkiv: det er en nasjonal register- og delingsressurs som...
-
-**Kapabiliteter:** [Grunndata](../../kapabiliteter/datakilder/grunndata/) | [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/)
-
----
-
-## Vitnemålsportalen
-
-**Ressurs-ID:** `SIKT-005` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/51-Vitnemalsportalen-produkt-canvas-v1-codex.md)
-
-**Kategori:** Portal | **Type:** Deling av vitnemål
-
-Vitnemålsportalen er en nasjonal delingstjeneste som gjør det mulig for brukere å hente ut og dele resultater og vitnemål digitalt. Produktet gir den som eier resultatene kontroll over hvem som får innsyn, og gjør det enklere for studiesteder og arbeidsgivere å motta verifiserbare resultater uten manuell håndtering av...
-
-**Kapabiliteter:** [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) | [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/)
-
----
-
-## Nasjonalt utdanningsregister
-
-**Ressurs-ID:** `SIKT-006` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/52-Nasjonalt-utdanningsregister-produkt-canvas-v1-codex.md)
-
-**Kategori:** Register | **Type:** Register over utdanningstilbud og akkreditering
-
-Nasjonalt utdanningsregister er den nasjonale registerressursen for informasjon om akkrediterte utdanninger og læresteder i Norge. Produktet samler data som tidligere var fordelt mellom mange kilder og gir utdanninger og læresteder en unik digital identitet som kan brukes på tvers av systemer, prosesser og analyser.
-
-**Kapabiliteter:** [Grunndata](../../kapabiliteter/datakilder/grunndata/) | [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) | [Datastyring](../../kapabiliteter/informasjonsforvaltning/datastyring/)
-
----
-
-## SvarInn
-
-**Ressurs-ID:** `KS-007` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/57-SvarInn-produkt-canvas-v1-codex.md)
-
-**Kategori:** Fellesløsning | **Type:** Inngående post
-
-SvarInn er en API-basert tjeneste og komplement til SvarUt. Løsningen tar imot innkommende post fra andre virksomheter som bruker SvarUt, og gjør den tilgjengelig for sak- og arkivsystemer eller andre fagsystemer i kommunen. Produktet er særlig relevant når virksomheten trenger et standardisert og sentralisert...
-
-**Kapabiliteter:** [Meldingsformidling](../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/) | [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/)
-
----
-
-## A-ordningen
-
-**Ressurs-ID:** `FLERE-001` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/59-A-ordningen-produkt-canvas-v1-codex.md)
-
-**Kategori:** Fellesløsning | **Type:** Felles rapportering
-
-A-ordningen er den samordnede nasjonale ordningen for at arbeidsgivere skal rapportere opplysninger om inntekt, arbeidsforhold, forskuddstrekk, utleggstrekk, arbeidsgiveravgift og finansskatt. Produktet erstatter flere tidligere skjema- og rapporteringsløp med én digital a-melding, og fungerer samtidig som en felles...
-
-**Kapabiliteter:** [Grunndata](../../kapabiliteter/datakilder/grunndata/) | [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) | [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/)
-
----
-
-## Motorvognregisteret
-
-**Ressurs-ID:** `SVV-001` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/60-Motorvognregisteret-produkt-canvas-v1-codex.md)
-
-**Kategori:** Register | **Type:** Kjøretøydata
-
-Motorvognregisteret er den nasjonale registerressursen for grunnleggende opplysninger om kjøretøy og tilhørende forhold som Statens vegvesen gjør tilgjengelig gjennom oppslag og datatjenester. Produktet fungerer som en autoritativ kilde for tekniske kjøretøyopplysninger og utvalgte eierrelaterte opplysninger innenfor...
-
-**Kapabiliteter:** [Grunndata](../../kapabiliteter/datakilder/grunndata/) | [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/)
-
----
-
-## DSOP-tjenester
-
-**Ressurs-ID:** `FLERE-002` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/62-DSOP-tjenester-produkt-canvas-v1-codex.md)
-
-**Kategori:** Fellesløsning | **Type:** Offentlig–privat datadeling
-
-DSOP-tjenester er den samlede produktflaten for offentlig-private datadelings- og samhandlingsløsninger i DSOP-samarbeidet. Produktet omfatter flere konkrete tjenester, men verdien ligger i den felles samarbeidsmodellen og delingsmekanismene mellom bank og offentlig sektor.
-
-**Kapabiliteter:** [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) | [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/)
-
----
-
-## microdata.no
-
-**Ressurs-ID:** `SSB-001` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/63-microdata-no-produkt-canvas-v1-codex.md)
-
-**Kategori:** Fellesløsning | **Type:** Analyseplattform
-
-microdata.no er en nasjonal analysetjeneste som gir forskere og andre godkjente brukere tilgang til å analysere koblede registerdata i et kontrollert og skjermet miljø. Produktet gjør det mulig å utføre statistiske analyser og sammenstillinger på tvers av flere datakilder uten at brukerne får tradisjonell direkte...
-
-**Kapabiliteter:** [Sammenstilling av data](../../kapabiliteter/datadrevet/sammenstilling-av-data/) | [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/)
-
----
-
-## HPR
-
-**Ressurs-ID:** `HDIR-002` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/64-HPR-produkt-canvas-v1-codex.md)
-
-**Kategori:** Register | **Type:** Register over helsepersonell
-
-HPR er det nasjonale registeret over helsepersonell og sentrale opplysninger om autorisasjon, lisens, spesialistgodkjenning og andre relevante godkjenningsforhold. Produktet fungerer som en felles autoritativ kilde for å verifisere hvem som har rett til å utøve bestemte roller i helse- og omsorgstjenesten, og gir et...
-
-**Kapabiliteter:** [Grunndata](../../kapabiliteter/datakilder/grunndata/) | [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/)
-
----
-
-## KUHR
-
-**Ressurs-ID:** `HELFO-001` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/65-KUHR-produkt-canvas-v1-codex.md)
-
-**Kategori:** Register | **Type:** Refusjonsdata
-
-KUHR er Helfos sentrale system for mottak, kontroll, behandling og oppgjør av refusjonskrav fra helseaktører. Produktet fungerer som en nasjonal behandlings- og datakilde for oppgjørsinformasjon, og brukes til å sikre at krav blir kontrollert mot regler og vilkår før utbetaling, samt til videre oppfølging, kontroll og...
-
-**Kapabiliteter:** [Grunndata](../../kapabiliteter/datakilder/grunndata/) | [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/)
-
----
-
-## NAIS
-
-**Ressurs-ID:** `NAV-002` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/66-NAIS-produkt-canvas-v1-codex.md)
-
-**Kategori:** Plattform | **Type:** Plattform for applikasjoner
-
-NAIS er en plattform for utvikling, kjøring og forvaltning av applikasjoner, laget av Nav og videreført som et åpent plattformmiljø for utviklingsteam i offentlig sektor. Produktet samler funksjoner for utrulling, sikkerhet, observability, konfigurasjon og drift, slik at team kan fokusere mer på applikasjonene sine og...
-
-**Kapabiliteter:** [Gjenbrukbare tjenester](../../kapabiliteter/tjenesteutvikling/gjenbrukbare-tjenester/) | [Utviklings- og kjøretidsmiljø](../../kapabiliteter/tjenesteutvikling/utviklings-og-kjoretidsmiljo/)
-
----
-
-## Fiks folkeregister
-
-**Ressurs-ID:** `KS-008` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/67-FIKS-Folkeregister-produkt-canvas-v1-codex.md)
-
-**Kategori:** Fellesløsning | **Type:** Tilgang til Folkeregisteret via Fiks
-
-Fiks folkeregister er en viktig integrasjon i kommunal sektor. Løsningen gir kommuner og fylkeskommuner tilgang til folkeregisteropplysninger gjennom Fiks, enten som oppslag i en nettsideløsning eller som maskin-til-maskin-integrasjon mot fagsystemer. Produktet er særlig relevant når kommunal sektor trenger...
-
-**Kapabiliteter:** [Grunndata](../../kapabiliteter/datakilder/grunndata/) | [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/)
-
----
-
-## Fiks skatte- og inntektsopplysninger
-
-**Ressurs-ID:** `KS-009` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v1-codex.md)
-
-**Kategori:** Fellesløsning | **Type:** Tilgang til skatte- og inntektsopplysninger via Fiks
-
-Fiks skatte- og inntektsopplysninger er KS Digitals tilgangstjeneste for kommunal bruk av skatte- og inntektsdata fra Skatteetaten gjennom Fiks. Løsningen er laget for konkrete kommunale tjenesteområder der saksbehandlere trenger oppdatert og relevant inntektsgrunnlag som del av vedtak og beregninger. Produktet kan...
-
-**Kapabiliteter:** [Grunndata](../../kapabiliteter/datakilder/grunndata/) | [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/)
-
----
-
-## Fiks kjøretøyregister
-
-**Ressurs-ID:** `KS-010` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/69-FIKS-Kjoretoyregister-produkt-canvas-v1-codex.md)
-
-**Kategori:** Fellesløsning | **Type:** Tilgang til kjøretøyopplysninger via Fiks
-
-Fiks kjøretøyregister er KS Digitals API-baserte tilgangstjeneste til Statens vegvesens kjøretøyregister via Fiks-plattformen. Produktet gjør det mulig for kommunale fagsystemer å slå opp kjøretøy og eierforhold uten å etablere egne separate tilkoblinger mot Statens vegvesens grensesnitt. Løsningen speiler sentrale...
-
-**Kapabiliteter:** [Grunndata](../../kapabiliteter/datakilder/grunndata/) | [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/)
-
----
-
-## FINT Felleskomponent
-
-**Ressurs-ID:** `NOVARI-001` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/70-FINT-Felleskomponent-v1-codex.md)
-
-**Kategori:** Felleskomponent | **Type:** Integrasjons- og datadelingstjeneste
-
-FINT Felleskomponent er den operative felleskomponenten som gjør det mulig for fylkeskommuner å dele og bruke informasjon gjennom standardiserte API-er og en felles informasjonsmodell. Ressursen er kjernen i FINT-økosystemet og fungerer som det operative bindeleddet mellom kildesystemer, integrasjoner, adaptere og...
-
-**Kapabiliteter:** [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) | [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) | [Informasjonsarkitektur](../../kapabiliteter/informasjonsforvaltning/informasjonsarkitektur/) | [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/) | [Gjenbrukbare tjenester](../../kapabiliteter/tjenesteutvikling/gjenbrukbare-tjenester/) | [Sikring av informasjonsflyt og datautveksling](../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/)
-
----
-
-## FINT Arkiv
-
-**Ressurs-ID:** `NOVARI-002` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/71-FINT-Arkiv-v1-codex.md)
-
-**Kategori:** Fellesløsning | **Type:** Arkiv- og integrasjonstjeneste
-
-FINT Arkiv er en operativ fellesløsning som tilgjengeliggjør informasjon i foretrukket sak-/arkivsystem på en standardisert måte. Ressursen gjør arkivinformasjon tilgjengelig gjennom et felles API og en felles informasjonsmodell, slik at fagsystemer og andre tjenester kan utveksle informasjon med arkivsystemene i...
-
-**Kapabiliteter:** [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) | [Bruke data fra andre](../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/) | [Informasjonsarkitektur](../../kapabiliteter/informasjonsforvaltning/informasjonsarkitektur/) | [Integrerbare tjenester](../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/) | [Forvaltningsstandarder](../../kapabiliteter/standardisering/forvaltningsstandarder/)
-
----
-
-## VIGO
-
-**Ressurs-ID:** `NOVARI-004` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v1-codex.md)
-
-**Kategori:** Fellesløsning | **Type:** Felles løsning for inntak og administrasjon i videregående opplæring
-
-VIGO er en fellesbetegnelse for en samlet IT-løsning innen videregående opplæring. Ressursen omfatter flere moduler og delsystemer som håndterer personer, prosesser, kodeverk og data knyttet til videregående opplæring, inntak, fagopplæring og oppfølging. Løsningen er knyttet til VIGO Sentralbase og VIGO Kodeverksbase...
-
-**Kapabiliteter:** [Organisatorisk samhandling](../../kapabiliteter/samarbeid/organisatorisk-samhandling/) | [Sammenhengende tjenester](../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/) | [Dele data med andre](../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/) | [Datastyring](../../kapabiliteter/informasjonsforvaltning/datastyring/) | [Oversikt over tjenester](../../kapabiliteter/informasjonsforvaltning/oversikt-over-tjenester/)
-
----
+<div class="resource-listing" data-section="operative-losninger-og-tjenester">
+  <div class="resource-filters">
+    <div class="resource-filters__row">
+      <label>Sok <input type="search" class="resource-filter" data-filter="search" placeholder="Navn, ID, type, kapabilitet" /></label>
+      <label>Eier <select class="resource-filter" data-filter="owner"><option value="">Alle</option>
+        <option value="BRREG">BRREG</option>
+        <option value="DIGDIR">DIGDIR</option>
+        <option value="FLERE">FLERE</option>
+        <option value="HDIR">HDIR</option>
+        <option value="HELFO">HELFO</option>
+        <option value="KART">KART</option>
+        <option value="KS">KS</option>
+        <option value="NAV">NAV</option>
+        <option value="NHN">NHN</option>
+        <option value="NOVARI">NOVARI</option>
+        <option value="SIKT">SIKT</option>
+        <option value="SKATT">SKATT</option>
+        <option value="SSB">SSB</option>
+        <option value="SVV">SVV</option>
+      </select></label>
+      <label>Status <select class="resource-filter" data-filter="status"><option value="">Alle</option>
+        <option value="Produksjon - etablert autorisasjonsprodukt i Altinn for tilgangsstyring, representasjon og tilgangsbeslutninger, med p&#229;g&#229;ende modernisering fra eldre Altinn-mekanismer til Altinn 3-plattformen.">Produksjon - etablert autorisasjonsprodukt i Altinn for tilgangsstyring, representasjon og tilgangsbeslutninger, med p&#229;g&#229;ende modernisering fra eldre Altinn-mekanismer til Altinn 3-plattformen.</option>
+        <option value="Produksjon - etablert delingsflate for API-basert utlevering av data fra Skatteetaten til offentlige og private virksomheter.">Produksjon - etablert delingsflate for API-basert utlevering av data fra Skatteetaten til offentlige og private virksomheter.</option>
+        <option value="Produksjon - etablert felles plattform for kommunal sektor med aktive fellestjenester, integrasjoner og selvbetjent forvaltning.">Produksjon - etablert felles plattform for kommunal sektor med aktive fellestjenester, integrasjoner og selvbetjent forvaltning.</option>
+        <option value="Produksjon - etablert fellesl&#248;sning for representasjon av dialoger med aktiv videreutvikling og p&#229;g&#229;ende migrering av historiske data.">Produksjon - etablert fellesl&#248;sning for representasjon av dialoger med aktiv videreutvikling og p&#229;g&#229;ende migrering av historiske data.</option>
+        <option value="Produksjon - etablert fellesl&#248;sning for samordnet opptak til h&#248;yere utdanning og fagskoler.">Produksjon - etablert fellesl&#248;sning for samordnet opptak til h&#248;yere utdanning og fagskoler.</option>
+        <option value="Produksjon - etablert fellesl&#248;sning i Altinn for kontrollert datadeling mellom virksomheter gjennom en felles API-modell.">Produksjon - etablert fellesl&#248;sning i Altinn for kontrollert datadeling mellom virksomheter gjennom en felles API-modell.</option>
+        <option value="Produksjon - etablert formidlingstjeneste i Altinn for styrt og sporbar filoverf&#248;ring mellom avsendere og mottakere.">Produksjon - etablert formidlingstjeneste i Altinn for styrt og sporbar filoverf&#248;ring mellom avsendere og mottakere.</option>
+        <option value="Produksjon - etablert hendelsestjeneste i Altinn for publisering, abonnement og asynkron levering av hendelser.">Produksjon - etablert hendelsestjeneste i Altinn for publisering, abonnement og asynkron levering av hendelser.</option>
+        <option value="Produksjon - etablert meldingstjeneste i KS Digital med flere operative kanaler, publisert veiledningsl&#248;p og dokumentert sikkerhetsgrunnlag.">Produksjon - etablert meldingstjeneste i KS Digital med flere operative kanaler, publisert veiledningsl&#248;p og dokumentert sikkerhetsgrunnlag.</option>
+        <option value="Produksjon - etablert meldingstjeneste med aktiv overgang og migrering fra Altinn 2 frem mot avvikling 19. juni 2026.">Produksjon - etablert meldingstjeneste med aktiv overgang og migrering fra Altinn 2 frem mot avvikling 19. juni 2026.</option>
+        <option value="Produksjon - etablert mottakstjeneste i KS Digital for innkommende post fra andre virksomheter som bruker SvarUt.">Produksjon - etablert mottakstjeneste i KS Digital for innkommende post fra andre virksomheter som bruker SvarUt.</option>
+        <option value="Produksjon - etablert nasjonal analysetjeneste for registerdata i et kontrollert milj&#248;.">Produksjon - etablert nasjonal analysetjeneste for registerdata i et kontrollert milj&#248;.</option>
+        <option value="Produksjon - etablert nasjonal database- og delingstjeneste for elektroniske vitnem&#229;l fra videreg&#229;ende oppl&#230;ring.">Produksjon - etablert nasjonal database- og delingstjeneste for elektroniske vitnem&#229;l fra videreg&#229;ende oppl&#230;ring.</option>
+        <option value="Produksjon - etablert nasjonal delingstjeneste for resultater og vitnem&#229;l fra h&#248;yere utdanning.">Produksjon - etablert nasjonal delingstjeneste for resultater og vitnem&#229;l fra h&#248;yere utdanning.</option>
+        <option value="Produksjon - etablert nasjonal delkatalog for publisering, s&#248;k og gjenfinning av API-beskrivelser i offentlig sektor.">Produksjon - etablert nasjonal delkatalog for publisering, s&#248;k og gjenfinning av API-beskrivelser i offentlig sektor.</option>
+        <option value="Produksjon - etablert nasjonal delkatalog for publisering, s&#248;k og sammenligning av begreper i offentlig sektor.">Produksjon - etablert nasjonal delkatalog for publisering, s&#248;k og sammenligning av begreper i offentlig sektor.</option>
+        <option value="Produksjon - etablert nasjonal felleskomponent for p&#229;logging og sikring av digital samhandling i helse- og omsorgssektoren.">Produksjon - etablert nasjonal felleskomponent for p&#229;logging og sikring av digital samhandling i helse- og omsorgssektoren.</option>
+        <option value="Produksjon - etablert nasjonal felleskomponent for sending av digital post fra offentlige virksomheter til innbyggere.">Produksjon - etablert nasjonal felleskomponent for sending av digital post fra offentlige virksomheter til innbyggere.</option>
+        <option value="Produksjon - etablert nasjonal fellesl&#248;sning for deling av utvalgte helseopplysninger.">Produksjon - etablert nasjonal fellesl&#248;sning for deling av utvalgte helseopplysninger.</option>
+        <option value="Produksjon - etablert nasjonal fellesl&#248;sning for digital signering i offentlig sektor.">Produksjon - etablert nasjonal fellesl&#248;sning for digital signering i offentlig sektor.</option>
+        <option value="Produksjon - etablert nasjonal fellesl&#248;sning for elektroniske resepter.">Produksjon - etablert nasjonal fellesl&#248;sning for elektroniske resepter.</option>
+        <option value="Produksjon - etablert nasjonal fellesl&#248;sning for informasjonsforvaltning og styringsst&#248;tte i kommunal sektor.">Produksjon - etablert nasjonal fellesl&#248;sning for informasjonsforvaltning og styringsst&#248;tte i kommunal sektor.</option>
+        <option value="Produksjon - etablert nasjonal fellesl&#248;sning for innlogging og datadeling i utdannings- og forskningssektoren.">Produksjon - etablert nasjonal fellesl&#248;sning for innlogging og datadeling i utdannings- og forskningssektoren.</option>
+        <option value="Produksjon - etablert nasjonal fellesl&#248;sning for innlogging til offentlige digitale tjenester.">Produksjon - etablert nasjonal fellesl&#248;sning for innlogging til offentlige digitale tjenester.</option>
+        <option value="Produksjon - etablert nasjonal fellesl&#248;sning for kontaktopplysninger og reservasjonsstatus ved digital kommunikasjon.">Produksjon - etablert nasjonal fellesl&#248;sning for kontaktopplysninger og reservasjonsstatus ved digital kommunikasjon.</option>
+        <option value="Produksjon - etablert nasjonal fellesl&#248;sning for publisering og innsyn i offentlig informasjon.">Produksjon - etablert nasjonal fellesl&#248;sning for publisering og innsyn i offentlig informasjon.</option>
+        <option value="Produksjon - etablert nasjonal fellesl&#248;sning for sikker maskin-til-maskin-autentisering og tilgang til API-er.">Produksjon - etablert nasjonal fellesl&#248;sning for sikker maskin-til-maskin-autentisering og tilgang til API-er.</option>
+        <option value="Produksjon - etablert nasjonal fellesl&#248;sning for sikker meldingsutveksling mellom virksomheter og innbyggere.">Produksjon - etablert nasjonal fellesl&#248;sning for sikker meldingsutveksling mellom virksomheter og innbyggere.</option>
+        <option value="Produksjon - etablert nasjonal fellesl&#248;sning for &#229; beskrive, publisere, h&#248;ste og synliggj&#248;re metadata om dataressurser.">Produksjon - etablert nasjonal fellesl&#248;sning for &#229; beskrive, publisere, h&#248;ste og synliggj&#248;re metadata om dataressurser.</option>
+        <option value="Produksjon - etablert nasjonal geodataportal og fellesl&#248;sning for metadata, s&#248;k, deling og distribusjon av stedfestet informasjon.">Produksjon - etablert nasjonal geodataportal og fellesl&#248;sning for metadata, s&#248;k, deling og distribusjon av stedfestet informasjon.</option>
+        <option value="Produksjon - etablert nasjonal innbyggerportal for informasjon om og tilgang til digitale helsetjenester.">Produksjon - etablert nasjonal innbyggerportal for informasjon om og tilgang til digitale helsetjenester.</option>
+        <option value="Produksjon - etablert nasjonal komponent for oppslag av elektroniske mottakeradresser og mottakskapasiteter i EHF- og Peppol-&#248;kosystemet.">Produksjon - etablert nasjonal komponent for oppslag av elektroniske mottakeradresser og mottakskapasiteter i EHF- og Peppol-&#248;kosystemet.</option>
+        <option value="Produksjon - etablert nasjonal portal for datadeling og oppdagelse av dataressurser.">Produksjon - etablert nasjonal portal for datadeling og oppdagelse av dataressurser.</option>
+        <option value="Produksjon - etablert nasjonal portal og tilgangsflate for helsedata.">Produksjon - etablert nasjonal portal og tilgangsflate for helsedata.</option>
+        <option value="Produksjon - etablert nasjonal studieadministrativ plattform for universiteter, h&#248;gskoler og fagskoler.">Produksjon - etablert nasjonal studieadministrativ plattform for universiteter, h&#248;gskoler og fagskoler.</option>
+        <option value="Produksjon - etablert nasjonal veiviser og informasjonsportal for digitale offentlige tjenester.">Produksjon - etablert nasjonal veiviser og informasjonsportal for digitale offentlige tjenester.</option>
+        <option value="Produksjon - etablert nasjonalt grunndataregister over arbeidsforhold i Norge.">Produksjon - etablert nasjonalt grunndataregister over arbeidsforhold i Norge.</option>
+        <option value="Produksjon - etablert nasjonalt oppgj&#248;rs- og kontrollsystem for refusjoner i helsesektoren.">Produksjon - etablert nasjonalt oppgj&#248;rs- og kontrollsystem for refusjoner i helsesektoren.</option>
+        <option value="Produksjon - etablert nasjonalt personregister og statlig felleskomponent for grunndata om personer.">Produksjon - etablert nasjonalt personregister og statlig felleskomponent for grunndata om personer.</option>
+        <option value="Produksjon - etablert nasjonalt register for opplysninger om kj&#248;ret&#248;y og tilknyttede forhold.">Produksjon - etablert nasjonalt register for opplysninger om kj&#248;ret&#248;y og tilknyttede forhold.</option>
+        <option value="Produksjon - etablert nasjonalt register og felleskomponent for eiendomsopplysninger, bygninger, adresser og grenser.">Produksjon - etablert nasjonalt register og felleskomponent for eiendomsopplysninger, bygninger, adresser og grenser.</option>
+        <option value="Produksjon - etablert nasjonalt register over helsepersonell.">Produksjon - etablert nasjonalt register over helsepersonell.</option>
+        <option value="Produksjon - etablert nasjonalt virksomhetsregister og felleskomponent for grunndata om virksomheter.">Produksjon - etablert nasjonalt virksomhetsregister og felleskomponent for grunndata om virksomheter.</option>
+        <option value="Produksjon - etablert offentlig-privat samarbeidsomr&#229;de for datadeling mellom finansn&#230;ringen og offentlige virksomheter.">Produksjon - etablert offentlig-privat samarbeidsomr&#229;de for datadeling mellom finansn&#230;ringen og offentlige virksomheter.</option>
+        <option value="Produksjon - etablert plattform for utvikling og drift av applikasjoner, bygget av Nav og dokumentert for bruk utover ett enkelt team- eller virksomhetsmilj&#248;.">Produksjon - etablert plattform for utvikling og drift av applikasjoner, bygget av Nav og dokumentert for bruk utover ett enkelt team- eller virksomhetsmilj&#248;.</option>
+        <option value="Produksjon - etablert plattform for utvikling, kj&#248;ring og samhandling i Altinn-portef&#248;ljen, med aktiv modernisering og videre overgang fra Altinn 2.">Produksjon - etablert plattform for utvikling, kj&#248;ring og samhandling i Altinn-portef&#248;ljen, med aktiv modernisering og videre overgang fra Altinn 2.</option>
+        <option value="Produksjon - etablert registertilgangstjeneste i KS Digital for kommunal bruk av flere nasjonale registre gjennom felles oppslag og integrasjon.">Produksjon - etablert registertilgangstjeneste i KS Digital for kommunal bruk av flere nasjonale registre gjennom felles oppslag og integrasjon.</option>
+        <option value="Produksjon - etablert registertilgangstjeneste i KS Digital for kommunal bruk av skatte- og inntektsopplysninger fra Skatteetaten.">Produksjon - etablert registertilgangstjeneste i KS Digital for kommunal bruk av skatte- og inntektsopplysninger fra Skatteetaten.</option>
+        <option value="Produksjon - etablert registertilgangstjeneste i KS Digital for oppslag i Statens vegvesens kj&#248;ret&#248;yregister fra kommunale fagsystemer.">Produksjon - etablert registertilgangstjeneste i KS Digital for oppslag i Statens vegvesens kj&#248;ret&#248;yregister fra kommunale fagsystemer.</option>
+        <option value="Produksjon - etablert registertilgangstjeneste i KS Digital for oppslag og integrasjon mot Folkeregisteret i kommunal sektor.">Produksjon - etablert registertilgangstjeneste i KS Digital for oppslag og integrasjon mot Folkeregisteret i kommunal sektor.</option>
+        <option value="Produksjon - etablert samordnet nasjonal rapporteringsordning for inntekts- og arbeidsforholdsopplysninger.">Produksjon - etablert samordnet nasjonal rapporteringsordning for inntekts- og arbeidsforholdsopplysninger.</option>
+        <option value="Produksjon - etablert utsendingstjeneste i KS Digital med offentlig driftsstatus og aktiv teknisk videreutvikling.">Produksjon - etablert utsendingstjeneste i KS Digital med offentlig driftsstatus og aktiv teknisk videreutvikling.</option>
+        <option value="Produksjon - etablert utviklingsflate i Altinn med aktiv videreutvikling av verkt&#248;y, maler og utviklerst&#248;tte.">Produksjon - etablert utviklingsflate i Altinn med aktiv videreutvikling av verkt&#248;y, maler og utviklerst&#248;tte.</option>
+        <option value="Produksjon - etablert varslingsprodukt med aktiv videreutvikling av kanalbruk, oppslag og styring av utsending.">Produksjon - etablert varslingsprodukt med aktiv videreutvikling av kanalbruk, oppslag og styring av utsending.</option>
+        <option value="Produksjon - operativ arkivressurs i bruk i flere virksomheter.">Produksjon - operativ arkivressurs i bruk i flere virksomheter.</option>
+        <option value="Produksjon - operativ felleskomponent i bruk i fylkeskommunal sektor.">Produksjon - operativ felleskomponent i bruk i fylkeskommunal sektor.</option>
+        <option value="Produksjon - operativ fellesl&#248;sning i bruk i alle fylkeskommuner og Oslo kommune.">Produksjon - operativ fellesl&#248;sning i bruk i alle fylkeskommuner og Oslo kommune.</option>
+        <option value="Utviklet og innf&#248;rt som nasjonal registerressurs - etablert som autoritativ kilde for utdanninger og l&#230;resteder.">Utviklet og innf&#248;rt som nasjonal registerressurs - etablert som autoritativ kilde for utdanninger og l&#230;resteder.</option>
+      </select></label>
+      <label>Type <select class="resource-filter" data-filter="type"><option value="">Alle</option>
+        <option value="Adresseregister for eFaktura og EHF">Adresseregister for eFaktura og EHF</option>
+        <option value="Analyseplattform">Analyseplattform</option>
+        <option value="API-basert deling">API-basert deling</option>
+        <option value="Arbeidsforhold">Arbeidsforhold</option>
+        <option value="Arkiv- og integrasjonstjeneste">Arkiv- og integrasjonstjeneste</option>
+        <option value="Autentisering">Autentisering</option>
+        <option value="Autentiseringstjeneste">Autentiseringstjeneste</option>
+        <option value="Autorisasjonstjeneste for representasjon og tilgang">Autorisasjonstjeneste for representasjon og tilgang</option>
+        <option value="Datatilgang">Datatilgang</option>
+        <option value="Deling av vitnem&#229;l">Deling av vitnem&#229;l</option>
+        <option value="Delkatalog for API-beskrivelser">Delkatalog for API-beskrivelser</option>
+        <option value="Delkatalog for begrepsbeskrivelser">Delkatalog for begrepsbeskrivelser</option>
+        <option value="Dialogtjeneste og representasjonslag">Dialogtjeneste og representasjonslag</option>
+        <option value="Digital signering">Digital signering</option>
+        <option value="Eiendoms- og adresseregister">Eiendoms- og adresseregister</option>
+        <option value="Felles l&#248;sning for inntak og administrasjon i videreg&#229;ende oppl&#230;ring">Felles l&#248;sning for inntak og administrasjon i videreg&#229;ende oppl&#230;ring</option>
+        <option value="Felles rapportering">Felles rapportering</option>
+        <option value="Formidlingstjeneste for filer">Formidlingstjeneste for filer</option>
+        <option value="Geodataportal / metadata- og delingsplattform">Geodataportal / metadata- og delingsplattform</option>
+        <option value="Hendelsestjeneste">Hendelsestjeneste</option>
+        <option value="Innbyggerportal">Innbyggerportal</option>
+        <option value="Inng&#229;ende post">Inng&#229;ende post</option>
+        <option value="Innsynsl&#248;sning">Innsynsl&#248;sning</option>
+        <option value="Integrasjons- og datadelingstjeneste">Integrasjons- og datadelingstjeneste</option>
+        <option value="Integrasjonsplattform">Integrasjonsplattform</option>
+        <option value="Kj&#248;ret&#248;ydata">Kj&#248;ret&#248;ydata</option>
+        <option value="Kontaktinformasjon og reservasjon">Kontaktinformasjon og reservasjon</option>
+        <option value="Kontrollert datadelingstjeneste">Kontrollert datadelingstjeneste</option>
+        <option value="Korrespondansetjeneste">Korrespondansetjeneste</option>
+        <option value="Maskin-til-maskin autentisering">Maskin-til-maskin autentisering</option>
+        <option value="Meldingsutveksling">Meldingsutveksling</option>
+        <option value="Meldingsutveksling / transportlag">Meldingsutveksling / transportlag</option>
+        <option value="Metadata- og publiseringsl&#248;sning for dataressurser">Metadata- og publiseringsl&#248;sning for dataressurser</option>
+        <option value="Offentlig–privat datadeling">Offentlig–privat datadeling</option>
+        <option value="Opptaksl&#248;sning">Opptaksl&#248;sning</option>
+        <option value="Pasientdata">Pasientdata</option>
+        <option value="Persondata">Persondata</option>
+        <option value="Plattform for applikasjoner">Plattform for applikasjoner</option>
+        <option value="Plattform for utvikling, kj&#248;ring og samhandling">Plattform for utvikling, kj&#248;ring og samhandling</option>
+        <option value="Portal for &#229;pne data">Portal for &#229;pne data</option>
+        <option value="Refusjonsdata">Refusjonsdata</option>
+        <option value="Register over helsepersonell">Register over helsepersonell</option>
+        <option value="Register over utdanningstilbud og akkreditering">Register over utdanningstilbud og akkreditering</option>
+        <option value="Registertilgang">Registertilgang</option>
+        <option value="Reseptsystem">Reseptsystem</option>
+        <option value="Studentdata">Studentdata</option>
+        <option value="Styrings- og oversiktsl&#248;sning">Styrings- og oversiktsl&#248;sning</option>
+        <option value="Tilgang til Folkeregisteret via Fiks">Tilgang til Folkeregisteret via Fiks</option>
+        <option value="Tilgang til kj&#248;ret&#248;yopplysninger via Fiks">Tilgang til kj&#248;ret&#248;yopplysninger via Fiks</option>
+        <option value="Tilgang til skatte- og inntektsopplysninger via Fiks">Tilgang til skatte- og inntektsopplysninger via Fiks</option>
+        <option value="Tillits- og autentiseringskomponent for helse">Tillits- og autentiseringskomponent for helse</option>
+        <option value="Utsendingstjeneste for digital og fysisk post">Utsendingstjeneste for digital og fysisk post</option>
+        <option value="Utsendingstjeneste for digital og fysisk post til innbyggere">Utsendingstjeneste for digital og fysisk post til innbyggere</option>
+        <option value="Utviklingsflate for tjenester">Utviklingsflate for tjenester</option>
+        <option value="Varslingstjeneste (SMS/e-post)">Varslingstjeneste (SMS/e-post)</option>
+        <option value="Virksomhetsregister">Virksomhetsregister</option>
+        <option value="Vitnem&#229;l">Vitnem&#229;l</option>
+      </select></label>
+      <label>Kapabilitet <select class="resource-filter" data-filter="capability"><option value="">Alle</option>
+        <option value="Autentisering">Autentisering</option>
+        <option value="Bruke data fra andre">Bruke data fra andre</option>
+        <option value="Datastyring">Datastyring</option>
+        <option value="Dele data med andre">Dele data med andre</option>
+        <option value="Forvaltningsstandarder">Forvaltningsstandarder</option>
+        <option value="Gjenbrukbare tjenester">Gjenbrukbare tjenester</option>
+        <option value="Grunndata">Grunndata</option>
+        <option value="Hendelsesdrevet">Hendelsesdrevet</option>
+        <option value="Identifisering">Identifisering</option>
+        <option value="Informasjonsarkitektur">Informasjonsarkitektur</option>
+        <option value="Integrerbare tjenester">Integrerbare tjenester</option>
+        <option value="Meldingsformidling">Meldingsformidling</option>
+        <option value="Organisatorisk samhandling">Organisatorisk samhandling</option>
+        <option value="Oversikt over API">Oversikt over API</option>
+        <option value="Oversikt over begreper">Oversikt over begreper</option>
+        <option value="Oversikt over datasett">Oversikt over datasett</option>
+        <option value="Oversikt over hendelser">Oversikt over hendelser</option>
+        <option value="Oversikt over informasjonsmodeller">Oversikt over informasjonsmodeller</option>
+        <option value="Oversikt over tjenester">Oversikt over tjenester</option>
+        <option value="Proaktive tjenester">Proaktive tjenester</option>
+        <option value="Representasjon">Representasjon</option>
+        <option value="Sammenhengende tjenester">Sammenhengende tjenester</option>
+        <option value="Sammenstilling av data">Sammenstilling av data</option>
+        <option value="Samtykke">Samtykke</option>
+        <option value="Signering">Signering</option>
+        <option value="Sikring av informasjonsflyt og datautveksling">Sikring av informasjonsflyt og datautveksling</option>
+        <option value="Sporbarhet og innsyn">Sporbarhet og innsyn</option>
+        <option value="Tilgangskontroll">Tilgangskontroll</option>
+        <option value="Tilgangsstyring">Tilgangsstyring</option>
+        <option value="Tjenestedesign">Tjenestedesign</option>
+        <option value="Tjenesteforvaltning">Tjenesteforvaltning</option>
+        <option value="Tjenestekjeder">Tjenestekjeder</option>
+        <option value="Utviklings- og kj&#248;retidsmilj&#248;">Utviklings- og kj&#248;retidsmilj&#248;</option>
+      </select></label>
+    </div>
+    <p class="resource-filters__result" data-role="count">Viser 58 av 58 ressurser</p>
+  </div>
+  <div class="resource-cards">
+<article class="resource-card" data-owner="DIGDIR" data-status="Produksjon - etablert nasjonal fellesl&#248;sning for innlogging til offentlige digitale tjenester." data-type="Autentiseringstjeneste" data-capabilities="sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester" data-search="id-porten digdir-001 digdir felleskomponent autentiseringstjeneste id-porten er den nasjonale fellesl&#248;sningen for sikker innlogging til offentlige digitale tjenester. l&#248;sningen gir innbyggere &#233;n gjenkjennelig inngang til tjenester p&#229; tvers av virksomheter, og gir tjenesteeiere en felles autentiseringskomponent i stedet for lokale innloggingsl&#248;sninger. id-porten er s&#230;rlig relevant n&#229;r... sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester">
+  <h2 class="resource-card__title">ID-porten</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-001</code> | <strong>Siste versjon:</strong> v3 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/01-ID-porten-produkt-canvas-v3-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Felleskomponent | <strong>Type:</strong> Autentiseringstjeneste</p>
+  <p class="resource-card__description">ID-porten er den nasjonale fellesl&#248;sningen for sikker innlogging til offentlige digitale tjenester. L&#248;sningen gir innbyggere &#233;n gjenkjennelig inngang til tjenester p&#229; tvers av virksomheter, og gir tjenesteeiere en felles autentiseringskomponent i stedet for lokale innloggingsl&#248;sninger. ID-porten er s&#230;rlig relevant n&#229;r...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/">Sikring av informasjonsflyt og datautveksling</a> <a class="capability-chip" href="../../kapabiliteter/tillit/autentisering/">Autentisering</a> <a class="capability-chip" href="../../kapabiliteter/tillit/identifisering/">Identifisering</a> <span class="capability-chip capability-chip--more">+2</span></p>
+  <p class="resource-card__links"><a href="https://www.digdir.no/id-porten/om-id-porten/1507">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-status="Produksjon - etablert nasjonal fellesl&#248;sning for sikker maskin-til-maskin-autentisering og tilgang til API-er." data-type="Maskin-til-maskin autentisering" data-capabilities="bruke data fra andre dele data med andre sikring av informasjonsflyt og datautveksling autentisering tilgangskontroll" data-search="maskinporten digdir-002 digdir felleskomponent maskin-til-maskin autentisering maskinporten er den nasjonale fellesl&#248;sningen for &#229; autentisere systemer og styre tilgang n&#229;r virksomheter utveksler data eller bruker hverandres api-er. produktet gj&#248;r det mulig &#229; bygge sikre integrasjoner uten at hver datatilbyder og datakonsument m&#229; etablere egne autentiserings- og tokenl&#248;sninger. maskinporten er... bruke data fra andre dele data med andre sikring av informasjonsflyt og datautveksling autentisering tilgangskontroll">
+  <h2 class="resource-card__title">Maskinporten</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-002</code> | <strong>Siste versjon:</strong> v3 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/02-Maskinporten-produkt-canvas-v3-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Felleskomponent | <strong>Type:</strong> Maskin-til-maskin autentisering</p>
+  <p class="resource-card__description">Maskinporten er den nasjonale fellesl&#248;sningen for &#229; autentisere systemer og styre tilgang n&#229;r virksomheter utveksler data eller bruker hverandres API-er. Produktet gj&#248;r det mulig &#229; bygge sikre integrasjoner uten at hver datatilbyder og datakonsument m&#229; etablere egne autentiserings- og tokenl&#248;sninger. Maskinporten er...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/">Bruke data fra andre</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a> <a class="capability-chip" href="../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/">Sikring av informasjonsflyt og datautveksling</a> <span class="capability-chip capability-chip--more">+2</span></p>
+  <p class="resource-card__links"><a href="https://www.digdir.no/om-tjenesten/maskinporten/1558">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-status="Produksjon - etablert nasjonal fellesl&#248;sning for digital signering i offentlig sektor." data-type="Digital signering" data-capabilities="sikring av informasjonsflyt og datautveksling autentisering signering" data-search="esignering digdir-003 digdir felleskomponent digital signering esignering er den nasjonale fellesl&#248;sningen for digital innhenting av underskrifter i offentlige prosesser. produktet gj&#248;r det mulig &#229; sende dokumenter til signering, f&#248;lge status p&#229; signeringsoppdrag og motta ferdig signerte dokumenter tilbake i en kontrollert digital flyt. l&#248;sningen er s&#230;rlig relevant n&#229;r en... sikring av informasjonsflyt og datautveksling autentisering signering">
+  <h2 class="resource-card__title">eSignering</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-003</code> | <strong>Siste versjon:</strong> v3 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/03-eSignering-produkt-canvas-v3-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Felleskomponent | <strong>Type:</strong> Digital signering</p>
+  <p class="resource-card__description">eSignering er den nasjonale fellesl&#248;sningen for digital innhenting av underskrifter i offentlige prosesser. Produktet gj&#248;r det mulig &#229; sende dokumenter til signering, f&#248;lge status p&#229; signeringsoppdrag og motta ferdig signerte dokumenter tilbake i en kontrollert digital flyt. L&#248;sningen er s&#230;rlig relevant n&#229;r en...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/">Sikring av informasjonsflyt og datautveksling</a> <a class="capability-chip" href="../../kapabiliteter/tillit/autentisering/">Autentisering</a> <a class="capability-chip" href="../../kapabiliteter/tillit/signering/">Signering</a></p>
+  <p class="resource-card__links"><a href="https://www.digdir.no/digital-sikkerhet/esignering/1487">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-status="Produksjon - etablert autorisasjonsprodukt i Altinn for tilgangsstyring, representasjon og tilgangsbeslutninger, med p&#229;g&#229;ende modernisering fra eldre Altinn-mekanismer til Altinn 3-plattformen." data-type="Autorisasjonstjeneste for representasjon og tilgang" data-capabilities="representasjon tilgangskontroll tilgangsstyring" data-search="altinn autorisasjon digdir-004 digdir felleskomponent autorisasjonstjeneste for representasjon og tilgang altinn autorisasjon er altinns felles produkt for &#229; definere, forvalte og evaluere hvem som kan gj&#248;re hva, p&#229; vegne av hvem og under hvilke vilk&#229;r. produktet omfatter b&#229;de brukerrettet tilgangsforvaltning, representasjon og delegering, og en integrasjonsflate for systemer og tjenester som trenger... representasjon tilgangskontroll tilgangsstyring">
+  <h2 class="resource-card__title">Altinn autorisasjon</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-004</code> | <strong>Siste versjon:</strong> v4 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/04-Altinn-autorisasjon-produkt-canvas-v4-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Felleskomponent | <strong>Type:</strong> Autorisasjonstjeneste for representasjon og tilgang</p>
+  <p class="resource-card__description">Altinn autorisasjon er Altinns felles produkt for &#229; definere, forvalte og evaluere hvem som kan gj&#248;re hva, p&#229; vegne av hvem og under hvilke vilk&#229;r. Produktet omfatter b&#229;de brukerrettet tilgangsforvaltning, representasjon og delegering, og en integrasjonsflate for systemer og tjenester som trenger...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/tillit/representasjon/">Representasjon</a> <a class="capability-chip" href="../../kapabiliteter/tillit/tilgangskontroll/">Tilgangskontroll</a> <a class="capability-chip" href="../../kapabiliteter/tillit/tilgangsstyring/">Tilgangsstyring</a></p>
+  <p class="resource-card__links"><a href="https://docs.altinn.studio/en/authorization/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-status="Produksjon - etablert nasjonal fellesl&#248;sning for kontaktopplysninger og reservasjonsstatus ved digital kommunikasjon." data-type="Kontaktinformasjon og reservasjon" data-capabilities="grunndata dele data med andre" data-search="kontakt- og reservasjonsregisteret digdir-005 digdir register kontaktinformasjon og reservasjon kontakt- og reservasjonsregisteret er den nasjonale fellesl&#248;sningen for &#229; finne innbyggeres digitale kontaktopplysninger og kontrollere om en innbygger er reservert mot digital kommunikasjon. produktet gir offentlige virksomheter &#233;n felles kilde f&#248;r de sender digital post, varsler eller annen digital kommunikasjon... grunndata dele data med andre">
+  <h2 class="resource-card__title">Kontakt- og reservasjonsregisteret</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-005</code> | <strong>Siste versjon:</strong> v3 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/05-Kontakt-og-reservasjonsregisteret-produkt-canvas-v3-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Register | <strong>Type:</strong> Kontaktinformasjon og reservasjon</p>
+  <p class="resource-card__description">Kontakt- og reservasjonsregisteret er den nasjonale fellesl&#248;sningen for &#229; finne innbyggeres digitale kontaktopplysninger og kontrollere om en innbygger er reservert mot digital kommunikasjon. Produktet gir offentlige virksomheter &#233;n felles kilde f&#248;r de sender digital post, varsler eller annen digital kommunikasjon...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datakilder/grunndata/">Grunndata</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a></p>
+  <p class="resource-card__links"><a href="https://docs.digdir.no/docs/Kontaktregisteret/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-status="Produksjon - etablert nasjonal fellesl&#248;sning for publisering og innsyn i offentlig informasjon." data-type="Innsynsl&#248;sning" data-capabilities="organisatorisk samhandling sammenhengende tjenester" data-search="einnsyn digdir-006 digdir fellesl&#248;sning innsynsl&#248;sning einnsyn er den nasjonale fellesl&#248;sningen som gj&#248;r offentlig informasjon lettere tilgjengelig for innbyggere, presse og andre som trenger innsyn. produktet samler publiserte journalopplysninger og dokumentlenker fra mange virksomheter i ett felles innsynspunkt, slik at brukeren slipper &#229; orientere seg i hver enkelt... organisatorisk samhandling sammenhengende tjenester">
+  <h2 class="resource-card__title">eInnsyn</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-006</code> | <strong>Siste versjon:</strong> v3 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/06-eInnsyn-produkt-canvas-v3-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Fellesl&#248;sning | <strong>Type:</strong> Innsynsl&#248;sning</p>
+  <p class="resource-card__description">eInnsyn er den nasjonale fellesl&#248;sningen som gj&#248;r offentlig informasjon lettere tilgjengelig for innbyggere, presse og andre som trenger innsyn. Produktet samler publiserte journalopplysninger og dokumentlenker fra mange virksomheter i ett felles innsynspunkt, slik at brukeren slipper &#229; orientere seg i hver enkelt...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/samarbeid/organisatorisk-samhandling/">Organisatorisk samhandling</a> <a class="capability-chip" href="../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/">Sammenhengende tjenester</a></p>
+  <p class="resource-card__links"><a href="https://www.digdir.no/einnsyn/om-einnsyn/2262">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-status="Produksjon - etablert nasjonal fellesl&#248;sning for sikker meldingsutveksling mellom virksomheter og innbyggere." data-type="Meldingsutveksling / transportlag" data-capabilities="dele data med andre bruke data fra andre meldingsformidling organisatorisk samhandling sikring av informasjonsflyt og datautveksling forvaltningsstandarder" data-search="eformidling digdir-007 digdir fellesl&#248;sning meldingsutveksling / transportlag eformidling er digdirs fellesl&#248;sning for standardisert og sikker meldingsutveksling. produktet gj&#248;r det mulig &#229; sende og motta digitale meldinger uten &#229; bygge egne punkt-til-punkt-integrasjoner for hver mottaker, og skjuler samtidig forskjeller mellom ulike mottakerkanaler. l&#248;sningen er s&#230;rlig relevant n&#229;r offentlige... dele data med andre bruke data fra andre meldingsformidling organisatorisk samhandling sikring av informasjonsflyt og datautveksling forvaltningsstandarder">
+  <h2 class="resource-card__title">eFormidling</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-007</code> | <strong>Siste versjon:</strong> v3 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/07-eFormidling-produkt-canvas-v3-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Fellesl&#248;sning | <strong>Type:</strong> Meldingsutveksling / transportlag</p>
+  <p class="resource-card__description">eFormidling er Digdirs fellesl&#248;sning for standardisert og sikker meldingsutveksling. Produktet gj&#248;r det mulig &#229; sende og motta digitale meldinger uten &#229; bygge egne punkt-til-punkt-integrasjoner for hver mottaker, og skjuler samtidig forskjeller mellom ulike mottakerkanaler. L&#248;sningen er s&#230;rlig relevant n&#229;r offentlige...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/">Bruke data fra andre</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/">Meldingsformidling</a> <span class="capability-chip capability-chip--more">+3</span></p>
+  <p class="resource-card__links"><a href="https://www.digdir.no/eformidling/om-eformidling/2182">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-status="Produksjon - etablert formidlingstjeneste i Altinn for styrt og sporbar filoverf&#248;ring mellom avsendere og mottakere." data-type="Formidlingstjeneste for filer" data-capabilities="bruke data fra andre dele data med andre meldingsformidling sikring av informasjonsflyt og datautveksling organisatorisk samhandling integrerbare tjenester" data-search="altinn formidling digdir-008 digdir fellesl&#248;sning formidlingstjeneste for filer altinn formidling er altinns formidlingstjeneste for sikker og styrt overf&#248;ring av filer mellom avsendere og mottakere. produktet er laget for situasjoner der store eller viktige payloads m&#229; overf&#248;res asynkront, spores og kunne hentes av autoriserte mottakere uten at avsender og mottaker trenger &#229; v&#230;re tett koblet i... bruke data fra andre dele data med andre meldingsformidling sikring av informasjonsflyt og datautveksling organisatorisk samhandling integrerbare tjenester">
+  <h2 class="resource-card__title">Altinn Formidling</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-008</code> | <strong>Siste versjon:</strong> v3 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/08-Altinn-formidling-produkt-canvas-v3-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Fellesl&#248;sning | <strong>Type:</strong> Formidlingstjeneste for filer</p>
+  <p class="resource-card__description">Altinn Formidling er Altinns formidlingstjeneste for sikker og styrt overf&#248;ring av filer mellom avsendere og mottakere. Produktet er laget for situasjoner der store eller viktige payloads m&#229; overf&#248;res asynkront, spores og kunne hentes av autoriserte mottakere uten at avsender og mottaker trenger &#229; v&#230;re tett koblet i...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/">Bruke data fra andre</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/">Meldingsformidling</a> <span class="capability-chip capability-chip--more">+3</span></p>
+  <p class="resource-card__links"><a href="https://docs.altinn.studio/nb/broker/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-status="Produksjon - etablert nasjonal felleskomponent for sending av digital post fra offentlige virksomheter til innbyggere." data-type="Utsendingstjeneste for digital og fysisk post til innbyggere" data-capabilities="meldingsformidling sikring av informasjonsflyt og datautveksling sammenhengende tjenester" data-search="digital postkasse digdir-009 digdir felleskomponent utsendingstjeneste for digital og fysisk post til innbyggere digital postkasse er den nasjonale felleskomponenten for &#229; sende post sikkert fra offentlige virksomheter til innbyggere i en valgt digital postkasse. produktet omfatter ikke bare selve mottakerens innboks, men hele leveransel&#248;pet fra avsendersystem via meldingsformidling og postkasseleverand&#248;r til mottaker, med... meldingsformidling sikring av informasjonsflyt og datautveksling sammenhengende tjenester">
+  <h2 class="resource-card__title">Digital postkasse</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-009</code> | <strong>Siste versjon:</strong> v3 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/09-Digital-postkasse-produkt-canvas-v3-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Felleskomponent | <strong>Type:</strong> Utsendingstjeneste for digital og fysisk post til innbyggere</p>
+  <p class="resource-card__description">Digital postkasse er den nasjonale felleskomponenten for &#229; sende post sikkert fra offentlige virksomheter til innbyggere i en valgt digital postkasse. Produktet omfatter ikke bare selve mottakerens innboks, men hele leveransel&#248;pet fra avsendersystem via meldingsformidling og postkasseleverand&#248;r til mottaker, med...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/">Meldingsformidling</a> <a class="capability-chip" href="../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/">Sikring av informasjonsflyt og datautveksling</a> <a class="capability-chip" href="../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/">Sammenhengende tjenester</a></p>
+  <p class="resource-card__links"><a href="https://www.digdir.no/felleskomponenter/digital-post/1483">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-status="Produksjon - etablert nasjonal komponent for oppslag av elektroniske mottakeradresser og mottakskapasiteter i EHF- og Peppol-&#248;kosystemet." data-type="Adresseregister for eFaktura og EHF" data-capabilities="meldingsformidling identifisering" data-search="elma digdir-023 digdir felleskomponent adresseregister for efaktura og ehf elma er den norske oppslagstjenesten som gj&#248;r det mulig &#229; finne riktig elektronisk mottakeradresse og hvilke dokumenttyper en virksomhet kan motta i ehf- og peppol-samhandling. produktet er relevant n&#229;r en avsender eller et aksesspunkt m&#229; avklare hvor et dokument skal sendes og hvilke profiler mottakeren st&#248;tter. elma... meldingsformidling identifisering">
+  <h2 class="resource-card__title">ELMA</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-023</code> | <strong>Siste versjon:</strong> v3 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/10-ELMA-produkt-canvas-v3-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Felleskomponent | <strong>Type:</strong> Adresseregister for eFaktura og EHF</p>
+  <p class="resource-card__description">ELMA er den norske oppslagstjenesten som gj&#248;r det mulig &#229; finne riktig elektronisk mottakeradresse og hvilke dokumenttyper en virksomhet kan motta i EHF- og Peppol-samhandling. Produktet er relevant n&#229;r en avsender eller et aksesspunkt m&#229; avklare hvor et dokument skal sendes og hvilke profiler mottakeren st&#248;tter. ELMA...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/">Meldingsformidling</a> <a class="capability-chip" href="../../kapabiliteter/tillit/identifisering/">Identifisering</a></p>
+  <p class="resource-card__links"><a href="https://www.digdir.no/felleslosninger/elektronisk-mottakerregister-elma/784">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-status="Produksjon - etablert hendelsestjeneste i Altinn for publisering, abonnement og asynkron levering av hendelser." data-type="Hendelsestjeneste" data-capabilities="bruke data fra andre dele data med andre hendelsesdrevet sikring av informasjonsflyt og datautveksling integrerbare tjenester" data-search="altinn events digdir-010 digdir felleskomponent hendelsestjeneste altinn events er altinns hendelsestjeneste for publisering og abonnement p&#229; hendelser p&#229; tvers av tjenester og systemer. produktet gj&#248;r det mulig &#229; koble systemer l&#248;sere sammen ved at hendelser om tilstandsendringer kan produseres &#233;n gang og konsumeres av flere autoriserte mottakere uten polling eller tett synkron... bruke data fra andre dele data med andre hendelsesdrevet sikring av informasjonsflyt og datautveksling integrerbare tjenester">
+  <h2 class="resource-card__title">Altinn Events</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-010</code> | <strong>Siste versjon:</strong> v3 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/12-Altinn-events-produkt-canvas-v3-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Felleskomponent | <strong>Type:</strong> Hendelsestjeneste</p>
+  <p class="resource-card__description">Altinn Events er Altinns hendelsestjeneste for publisering og abonnement p&#229; hendelser p&#229; tvers av tjenester og systemer. Produktet gj&#248;r det mulig &#229; koble systemer l&#248;sere sammen ved at hendelser om tilstandsendringer kan produseres &#233;n gang og konsumeres av flere autoriserte mottakere uten polling eller tett synkron...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/">Bruke data fra andre</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/hendelsesdrevet/">Hendelsesdrevet</a> <span class="capability-chip capability-chip--more">+2</span></p>
+  <p class="resource-card__links"><a href="https://docs.altinn.studio/en/events/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-status="Produksjon - etablert nasjonal fellesl&#248;sning for &#229; beskrive, publisere, h&#248;ste og synliggj&#248;re metadata om dataressurser." data-type="Metadata- og publiseringsl&#248;sning for dataressurser" data-capabilities="oversikt over api oversikt over begreper oversikt over datasett oversikt over informasjonsmodeller forvaltningsstandarder" data-search="felles datakatalog digdir-011 digdir fellesl&#248;sning metadata- og publiseringsl&#248;sning for dataressurser felles datakatalog er den nasjonale fellesl&#248;sningen for &#229; beskrive og synliggj&#248;re dataressurser p&#229; en standardisert m&#229;te. produktet gj&#248;r det mulig &#229; registrere eller h&#248;ste metadata om datasett, api-er, begreper og informasjonsmodeller, og &#229; gj&#248;re disse ressursene s&#248;kbare og forst&#229;elige p&#229; tvers av virksomheter... oversikt over api oversikt over begreper oversikt over datasett oversikt over informasjonsmodeller forvaltningsstandarder">
+  <h2 class="resource-card__title">Felles datakatalog</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-011</code> | <strong>Siste versjon:</strong> v3 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/13-Felles-datakatalog-produkt-canvas-v3-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Fellesl&#248;sning | <strong>Type:</strong> Metadata- og publiseringsl&#248;sning for dataressurser</p>
+  <p class="resource-card__description">Felles datakatalog er den nasjonale fellesl&#248;sningen for &#229; beskrive og synliggj&#248;re dataressurser p&#229; en standardisert m&#229;te. Produktet gj&#248;r det mulig &#229; registrere eller h&#248;ste metadata om datasett, API-er, begreper og informasjonsmodeller, og &#229; gj&#248;re disse ressursene s&#248;kbare og forst&#229;elige p&#229; tvers av virksomheter...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/informasjonsforvaltning/oversikt-over-api/">Oversikt over API</a> <a class="capability-chip" href="../../kapabiliteter/informasjonsforvaltning/oversikt-over-begreper/">Oversikt over begreper</a> <a class="capability-chip" href="../../kapabiliteter/informasjonsforvaltning/oversikt-over-datasett/">Oversikt over datasett</a> <span class="capability-chip capability-chip--more">+2</span></p>
+  <p class="resource-card__links"><a href="https://www.digdir.no/felleslosninger/felles-datakatalog/790">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-status="Produksjon - etablert nasjonal delkatalog for publisering, s&#248;k og sammenligning av begreper i offentlig sektor." data-type="Delkatalog for begrepsbeskrivelser" data-capabilities="datastyring informasjonsarkitektur oversikt over begreper forvaltningsstandarder" data-search="begrepskatalog digdir-012 digdir fellesl&#248;sning delkatalog for begrepsbeskrivelser begrepskatalog er den nasjonale delkatalogen for &#229; beskrive og synliggj&#248;re begreper som brukes i offentlig sektor. produktet gj&#248;r det mulig &#229; publisere begrepsbeskrivelser etter en felles standard, s&#248;ke i dem, sammenligne begreper og bruke dem som semantisk grunnlag for datasett, api-er og informasjonsmodeller... datastyring informasjonsarkitektur oversikt over begreper forvaltningsstandarder">
+  <h2 class="resource-card__title">Begrepskatalog</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-012</code> | <strong>Siste versjon:</strong> v3 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/14-Begrepskatalog-produkt-canvas-v3-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Fellesl&#248;sning | <strong>Type:</strong> Delkatalog for begrepsbeskrivelser</p>
+  <p class="resource-card__description">Begrepskatalog er den nasjonale delkatalogen for &#229; beskrive og synliggj&#248;re begreper som brukes i offentlig sektor. Produktet gj&#248;r det mulig &#229; publisere begrepsbeskrivelser etter en felles standard, s&#248;ke i dem, sammenligne begreper og bruke dem som semantisk grunnlag for datasett, API-er og informasjonsmodeller...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/informasjonsforvaltning/datastyring/">Datastyring</a> <a class="capability-chip" href="../../kapabiliteter/informasjonsforvaltning/informasjonsarkitektur/">Informasjonsarkitektur</a> <a class="capability-chip" href="../../kapabiliteter/informasjonsforvaltning/oversikt-over-begreper/">Oversikt over begreper</a> <span class="capability-chip capability-chip--more">+1</span></p>
+  <p class="resource-card__links"><a href="https://data.norge.no/catalogs/concepts">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-status="Produksjon - etablert nasjonal delkatalog for publisering, s&#248;k og gjenfinning av API-beskrivelser i offentlig sektor." data-type="Delkatalog for API-beskrivelser" data-capabilities="informasjonsarkitektur oversikt over api forvaltningsstandarder" data-search="api-katalog digdir-013 digdir fellesl&#248;sning delkatalog for api-beskrivelser api-katalog er den nasjonale delkatalogen for &#229; beskrive og synliggj&#248;re api-er i offentlig sektor. produktet gj&#248;r det mulig &#229; publisere standardiserte beskrivelser av datatjenester, s&#248;ke i dem og se hvordan api-er henger sammen med datasett og informasjonsmodeller. l&#248;sningen er en del av felles datakatalog, men... informasjonsarkitektur oversikt over api forvaltningsstandarder">
+  <h2 class="resource-card__title">API-katalog</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-013</code> | <strong>Siste versjon:</strong> v3 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/15-API-katalog-produkt-canvas-v3-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Fellesl&#248;sning | <strong>Type:</strong> Delkatalog for API-beskrivelser</p>
+  <p class="resource-card__description">API-katalog er den nasjonale delkatalogen for &#229; beskrive og synliggj&#248;re API-er i offentlig sektor. Produktet gj&#248;r det mulig &#229; publisere standardiserte beskrivelser av datatjenester, s&#248;ke i dem og se hvordan API-er henger sammen med datasett og informasjonsmodeller. L&#248;sningen er en del av Felles datakatalog, men...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/informasjonsforvaltning/informasjonsarkitektur/">Informasjonsarkitektur</a> <a class="capability-chip" href="../../kapabiliteter/informasjonsforvaltning/oversikt-over-api/">Oversikt over API</a> <a class="capability-chip" href="../../kapabiliteter/standardisering/forvaltningsstandarder/">Forvaltningsstandarder</a></p>
+  <p class="resource-card__links"><a href="https://data.norge.no/catalogs/data-services">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-status="Produksjon - etablert nasjonal portal for datadeling og oppdagelse av dataressurser." data-type="Portal for &#229;pne data" data-capabilities="oversikt over api oversikt over begreper oversikt over datasett oversikt over hendelser oversikt over informasjonsmodeller oversikt over tjenester forvaltningsstandarder" data-search="data.norge.no digdir-014 digdir portal portal for &#229;pne data data.norge.no er en nasjonal fellesl&#248;sning for &#229; finne, forst&#229; og viderebruke dataressurser. portalen samler metadata om datasett, api-er, begreper, informasjonsmodeller, tjenester og hendelser, og gj&#248;r det enklere &#229; oppdage hvilke data offentlig sektor har og kan dele med andre. oversikt over api oversikt over begreper oversikt over datasett oversikt over hendelser oversikt over informasjonsmodeller oversikt over tjenester forvaltningsstandarder">
+  <h2 class="resource-card__title">data.norge.no</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-014</code> | <strong>Siste versjon:</strong> v4 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/16-data-norge-no-produkt-canvas-v4-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Portal | <strong>Type:</strong> Portal for &#229;pne data</p>
+  <p class="resource-card__description">data.norge.no er en nasjonal fellesl&#248;sning for &#229; finne, forst&#229; og viderebruke dataressurser. Portalen samler metadata om datasett, API-er, begreper, informasjonsmodeller, tjenester og hendelser, og gj&#248;r det enklere &#229; oppdage hvilke data offentlig sektor har og kan dele med andre.</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/informasjonsforvaltning/oversikt-over-api/">Oversikt over API</a> <a class="capability-chip" href="../../kapabiliteter/informasjonsforvaltning/oversikt-over-begreper/">Oversikt over begreper</a> <a class="capability-chip" href="../../kapabiliteter/informasjonsforvaltning/oversikt-over-datasett/">Oversikt over datasett</a> <span class="capability-chip capability-chip--more">+4</span></p>
+  <p class="resource-card__links"><a href="https://data.norge.no/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-status="Produksjon - etablert fellesl&#248;sning i Altinn for kontrollert datadeling mellom virksomheter gjennom en felles API-modell." data-type="Kontrollert datadelingstjeneste" data-capabilities="sammenstilling av data bruke data fra andre dele data med andre sikring av informasjonsflyt og datautveksling forvaltningsstandarder autentisering samtykke tilgangskontroll integrerbare tjenester" data-search="data.altinn.no digdir-015 digdir fellesl&#248;sning kontrollert datadelingstjeneste data.altinn.no er altinns fellesl&#248;sning for kontrollert datadeling mellom virksomheter. produktet gj&#248;r det mulig &#229; hente informasjon direkte fra autoritative kilder i en definert tjenestekontekst, med en felles api-modell for foresp&#248;rsler, tilgangskontroll og uthenting av datasett. produktet har b&#229;de en tjenesteflate... sammenstilling av data bruke data fra andre dele data med andre sikring av informasjonsflyt og datautveksling forvaltningsstandarder autentisering samtykke tilgangskontroll integrerbare tjenester">
+  <h2 class="resource-card__title">data.altinn.no</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-015</code> | <strong>Siste versjon:</strong> v4 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/17-data-altinn-no-produkt-canvas-v4-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Fellesl&#248;sning | <strong>Type:</strong> Kontrollert datadelingstjeneste</p>
+  <p class="resource-card__description">data.altinn.no er Altinns fellesl&#248;sning for kontrollert datadeling mellom virksomheter. Produktet gj&#248;r det mulig &#229; hente informasjon direkte fra autoritative kilder i en definert tjenestekontekst, med en felles API-modell for foresp&#248;rsler, tilgangskontroll og uthenting av datasett. Produktet har b&#229;de en tjenesteflate...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datadrevet/sammenstilling-av-data/">Sammenstilling av data</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/">Bruke data fra andre</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a> <span class="capability-chip capability-chip--more">+6</span></p>
+  <p class="resource-card__links"><a href="https://data.altinn.no/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-status="Produksjon - etablert nasjonal veiviser og informasjonsportal for digitale offentlige tjenester." data-type="Innbyggerportal" data-capabilities="sammenhengende tjenester tjenestekjeder tjenestedesign oversikt over tjenester" data-search="norge.no digdir-016 digdir portal innbyggerportal norge.no er en nasjonal veivisertjeneste som hjelper innbyggere med &#229; finne fram i digitale offentlige tjenester. produktet samler tjenester og informasjon fra statlige og kommunale virksomheter i ett brukerrettet inngangspunkt, og gj&#248;r det enklere &#229; orientere seg gjennom s&#248;k, temaomr&#229;der og livssituasjoner. l&#248;sningen... sammenhengende tjenester tjenestekjeder tjenestedesign oversikt over tjenester">
+  <h2 class="resource-card__title">Norge.no</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-016</code> | <strong>Siste versjon:</strong> v3 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/18-Norge-no-produkt-canvas-v3-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Portal | <strong>Type:</strong> Innbyggerportal</p>
+  <p class="resource-card__description">Norge.no er en nasjonal veivisertjeneste som hjelper innbyggere med &#229; finne fram i digitale offentlige tjenester. Produktet samler tjenester og informasjon fra statlige og kommunale virksomheter i ett brukerrettet inngangspunkt, og gj&#248;r det enklere &#229; orientere seg gjennom s&#248;k, temaomr&#229;der og livssituasjoner. L&#248;sningen...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/">Sammenhengende tjenester</a> <a class="capability-chip" href="../../kapabiliteter/sluttbrukertjenester/tjenestekjeder/">Tjenestekjeder</a> <a class="capability-chip" href="../../kapabiliteter/tjenesteutvikling/tjenestedesign/">Tjenestedesign</a> <span class="capability-chip capability-chip--more">+1</span></p>
+  <p class="resource-card__links"><a href="https://www.norge.no/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-status="Produksjon - etablert plattform for utvikling, kj&#248;ring og samhandling i Altinn-portef&#248;ljen, med aktiv modernisering og videre overgang fra Altinn 2." data-type="Plattform for utvikling, kj&#248;ring og samhandling" data-capabilities="tjenesteforvaltning gjenbrukbare tjenester integrerbare tjenester" data-search="altinn 3 plattform digdir-017 digdir plattform plattform for utvikling, kj&#248;ring og samhandling altinn 3 plattform er den operative plattformen for &#229; utvikle, kj&#248;re og forvalte digitale tjenester i altinn. produktet omfatter b&#229;de utviklingsflaten i altinn studio, kj&#248;retidsmilj&#248;et i altinn apps og et sett felles plattformtjenester som gir tjenester standardiserte m&#248;nstre for autentisering, autorisasjon,... tjenesteforvaltning gjenbrukbare tjenester integrerbare tjenester">
+  <h2 class="resource-card__title">Altinn 3 plattform</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-017</code> | <strong>Siste versjon:</strong> v3 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/19-Altinn-produkt-canvas-v3-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Plattform | <strong>Type:</strong> Plattform for utvikling, kj&#248;ring og samhandling</p>
+  <p class="resource-card__description">Altinn 3 plattform er den operative plattformen for &#229; utvikle, kj&#248;re og forvalte digitale tjenester i Altinn. Produktet omfatter b&#229;de utviklingsflaten i Altinn Studio, kj&#248;retidsmilj&#248;et i Altinn Apps og et sett felles plattformtjenester som gir tjenester standardiserte m&#248;nstre for autentisering, autorisasjon,...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/samarbeid/tjenesteforvaltning/">Tjenesteforvaltning</a> <a class="capability-chip" href="../../kapabiliteter/tjenesteutvikling/gjenbrukbare-tjenester/">Gjenbrukbare tjenester</a> <a class="capability-chip" href="../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/">Integrerbare tjenester</a></p>
+  <p class="resource-card__links"><a href="https://docs.altinn.studio/nb/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-status="Produksjon - etablert utviklingsflate i Altinn med aktiv videreutvikling av verkt&#248;y, maler og utviklerst&#248;tte." data-type="Utviklingsflate for tjenester" data-capabilities="gjenbrukbare tjenester integrerbare tjenester tjenestedesign utviklings- og kj&#248;retidsmilj&#248;" data-search="altinn studio digdir-018 digdir plattform utviklingsflate for tjenester altinn studio er altinns utviklingsflate for &#229; bygge digitale tjenester. produktet gir tjenesteeiere og utviklingsteam et felles milj&#248; for &#229; modellere skjema, data, prosess, validering og integrasjoner, og for &#229; klargj&#248;re tjenester for kj&#248;ring i altinn apps. produktet er bredere enn en enkel editor eller et... gjenbrukbare tjenester integrerbare tjenester tjenestedesign utviklings- og kj&#248;retidsmilj&#248;">
+  <h2 class="resource-card__title">Altinn Studio</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-018</code> | <strong>Siste versjon:</strong> v3 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/20-Altinn-Studio-produkt-canvas-v3-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Plattform | <strong>Type:</strong> Utviklingsflate for tjenester</p>
+  <p class="resource-card__description">Altinn Studio er Altinns utviklingsflate for &#229; bygge digitale tjenester. Produktet gir tjenesteeiere og utviklingsteam et felles milj&#248; for &#229; modellere skjema, data, prosess, validering og integrasjoner, og for &#229; klargj&#248;re tjenester for kj&#248;ring i Altinn Apps. Produktet er bredere enn en enkel editor eller et...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/tjenesteutvikling/gjenbrukbare-tjenester/">Gjenbrukbare tjenester</a> <a class="capability-chip" href="../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/">Integrerbare tjenester</a> <a class="capability-chip" href="../../kapabiliteter/tjenesteutvikling/tjenestedesign/">Tjenestedesign</a> <span class="capability-chip capability-chip--more">+1</span></p>
+  <p class="resource-card__links"><a href="https://docs.altinn.studio/nb/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-status="Produksjon - etablert fellesl&#248;sning for representasjon av dialoger med aktiv videreutvikling og p&#229;g&#229;ende migrering av historiske data." data-type="Dialogtjeneste og representasjonslag" data-capabilities="bruke data fra andre hendelsesdrevet sammenhengende tjenester autentisering tilgangskontroll integrerbare tjenester" data-search="dialogporten digdir-020 digdir fellesl&#248;sning dialogtjeneste og representasjonslag dialogporten er altinns felles representasjons- og samhandlingslag for digitale dialoger. produktet gj&#248;r meldinger og dialoger fra ulike tjenesteplattformer tilgjengelige i et felles format, slik at sluttbrukersystemer, arbeidsflater og portaler kan presentere den samme dialogen p&#229; en konsistent m&#229;te. produktet er mer... bruke data fra andre hendelsesdrevet sammenhengende tjenester autentisering tilgangskontroll integrerbare tjenester">
+  <h2 class="resource-card__title">Dialogporten</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-020</code> | <strong>Siste versjon:</strong> v5 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/22-Dialogporten-produkt-canvas-v5-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Fellesl&#248;sning | <strong>Type:</strong> Dialogtjeneste og representasjonslag</p>
+  <p class="resource-card__description">Dialogporten er Altinns felles representasjons- og samhandlingslag for digitale dialoger. Produktet gj&#248;r meldinger og dialoger fra ulike tjenesteplattformer tilgjengelige i et felles format, slik at sluttbrukersystemer, arbeidsflater og portaler kan presentere den samme dialogen p&#229; en konsistent m&#229;te. Produktet er mer...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/">Bruke data fra andre</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/hendelsesdrevet/">Hendelsesdrevet</a> <a class="capability-chip" href="../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/">Sammenhengende tjenester</a> <span class="capability-chip capability-chip--more">+3</span></p>
+  <p class="resource-card__links"><a href="https://docs.altinn.studio/nb/dialogporten/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-status="Produksjon - etablert meldingstjeneste med aktiv overgang og migrering fra Altinn 2 frem mot avvikling 19. juni 2026." data-type="Korrespondansetjeneste" data-capabilities="hendelsesdrevet meldingsformidling sikring av informasjonsflyt og datautveksling sporbarhet og innsyn tilgangskontroll integrerbare tjenester" data-search="altinn melding digdir-021 digdir fellesl&#248;sning korrespondansetjeneste altinn melding er altinns meldingstjeneste for sikker digital utveksling av korrespondanse mellom offentlige virksomheter og mottakere i offentlig sektor, n&#230;ringsliv og befolkning. produktet st&#248;tter livssyklus, tilgangsstyring, innhold og vedlegg, varsling og hendelser, og gj&#248;r meldinger tilgjengelige i arbeidsflate... hendelsesdrevet meldingsformidling sikring av informasjonsflyt og datautveksling sporbarhet og innsyn tilgangskontroll integrerbare tjenester">
+  <h2 class="resource-card__title">Altinn Melding</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-021</code> | <strong>Siste versjon:</strong> v5 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/23-Altinn-3-Melding-produkt-canvas-v5-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Fellesl&#248;sning | <strong>Type:</strong> Korrespondansetjeneste</p>
+  <p class="resource-card__description">Altinn Melding er Altinns meldingstjeneste for sikker digital utveksling av korrespondanse mellom offentlige virksomheter og mottakere i offentlig sektor, n&#230;ringsliv og befolkning. Produktet st&#248;tter livssyklus, tilgangsstyring, innhold og vedlegg, varsling og hendelser, og gj&#248;r meldinger tilgjengelige i Arbeidsflate...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/hendelsesdrevet/">Hendelsesdrevet</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/">Meldingsformidling</a> <a class="capability-chip" href="../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/">Sikring av informasjonsflyt og datautveksling</a> <span class="capability-chip capability-chip--more">+3</span></p>
+  <p class="resource-card__links"><a href="https://docs.altinn.studio/nb/correspondence/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-status="Produksjon - etablert varslingsprodukt med aktiv videreutvikling av kanalbruk, oppslag og styring av utsending." data-type="Varslingstjeneste (SMS/e-post)" data-capabilities="sammenstilling av data meldingsformidling sikring av informasjonsflyt og datautveksling proaktive tjenester tilgangskontroll integrerbare tjenester" data-search="altinn varsling digdir-022 digdir fellesl&#248;sning varslingstjeneste (sms/e-post) altinn varsling er altinns fellesl&#248;sning for enveis digital varsling til innbyggere og virksomheter. produktet gj&#248;r det mulig &#229; sende varsler via e-post og sms, sl&#229; opp mottakerens navn og kontaktinformasjon fra nasjonale registre, bruke autorisasjon for &#229; finne riktige mottakere i organisasjoner og styre utsending... sammenstilling av data meldingsformidling sikring av informasjonsflyt og datautveksling proaktive tjenester tilgangskontroll integrerbare tjenester">
+  <h2 class="resource-card__title">Altinn Varsling</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-022</code> | <strong>Siste versjon:</strong> v5 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/24-Varslinger-produkt-canvas-v5-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Fellesl&#248;sning | <strong>Type:</strong> Varslingstjeneste (SMS/e-post)</p>
+  <p class="resource-card__description">Altinn Varsling er Altinns fellesl&#248;sning for enveis digital varsling til innbyggere og virksomheter. Produktet gj&#248;r det mulig &#229; sende varsler via e-post og SMS, sl&#229; opp mottakerens navn og kontaktinformasjon fra nasjonale registre, bruke autorisasjon for &#229; finne riktige mottakere i organisasjoner og styre utsending...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datadrevet/sammenstilling-av-data/">Sammenstilling av data</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/">Meldingsformidling</a> <a class="capability-chip" href="../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/">Sikring av informasjonsflyt og datautveksling</a> <span class="capability-chip capability-chip--more">+3</span></p>
+  <p class="resource-card__links"><a href="https://docs.altinn.studio/nb/notifications/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="KS" data-status="Produksjon - etablert felles plattform for kommunal sektor med aktive fellestjenester, integrasjoner og selvbetjent forvaltning." data-type="Integrasjonsplattform" data-capabilities="organisatorisk samhandling integrerbare tjenester utviklings- og kj&#248;retidsmilj&#248;" data-search="fiks-plattformen ks-001 ks plattform integrasjonsplattform fiks-plattformen er ks digitals felles plattform for digital samhandling i kommunal sektor. plattformen gir kommuner, fylkeskommuner og leverand&#248;rer et felles teknisk rammeverk for &#229; utvikle, integrere, forvalte og bruke digitale tjenester p&#229; en mer standardisert m&#229;te. produktet er s&#230;rlig relevant n&#229;r kommunal sektor... organisatorisk samhandling integrerbare tjenester utviklings- og kj&#248;retidsmilj&#248;">
+  <h2 class="resource-card__title">FIKS-plattformen</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>KS-001</code> | <strong>Siste versjon:</strong> v1 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/25-FIKS-plattformen-produkt-canvas-v1-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> KS | <strong>Kategori:</strong> Plattform | <strong>Type:</strong> Integrasjonsplattform</p>
+  <p class="resource-card__description">FIKS-plattformen er KS Digitals felles plattform for digital samhandling i kommunal sektor. Plattformen gir kommuner, fylkeskommuner og leverand&#248;rer et felles teknisk rammeverk for &#229; utvikle, integrere, forvalte og bruke digitale tjenester p&#229; en mer standardisert m&#229;te. Produktet er s&#230;rlig relevant n&#229;r kommunal sektor...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/samarbeid/organisatorisk-samhandling/">Organisatorisk samhandling</a> <a class="capability-chip" href="../../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/">Integrerbare tjenester</a> <a class="capability-chip" href="../../kapabiliteter/tjenesteutvikling/utviklings-og-kjoretidsmiljo/">Utviklings- og kj&#248;retidsmilj&#248;</a></p>
+  <p class="resource-card__links"><a href="https://ksdigital.no/tjenestene/fiks-plattformen/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="KS" data-status="Produksjon - etablert meldingstjeneste i KS Digital med flere operative kanaler, publisert veiledningsl&#248;p og dokumentert sikkerhetsgrunnlag." data-type="Meldingsutveksling" data-capabilities="meldingsformidling sikring av informasjonsflyt og datautveksling organisatorisk samhandling" data-search="fiks melding ks-002 ks fellesl&#248;sning meldingsutveksling fiks melding er ks digitals kanalplattform for meldingsutveksling og dokumentdeling i kommunal sektor. l&#248;sningen gj&#248;r det mulig &#229; sende og motta informasjon gjennom flere ulike kommunikasjonsformer fra samme tjenestegrunnlag, slik at kommunen kan velge kanal etter behov, risiko og brukssituasjon. produktet dekker b&#229;de... meldingsformidling sikring av informasjonsflyt og datautveksling organisatorisk samhandling">
+  <h2 class="resource-card__title">Fiks melding</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>KS-002</code> | <strong>Siste versjon:</strong> v2 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/26-FIKS-Melding-produkt-canvas-v2-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> KS | <strong>Kategori:</strong> Fellesl&#248;sning | <strong>Type:</strong> Meldingsutveksling</p>
+  <p class="resource-card__description">Fiks melding er KS Digitals kanalplattform for meldingsutveksling og dokumentdeling i kommunal sektor. L&#248;sningen gj&#248;r det mulig &#229; sende og motta informasjon gjennom flere ulike kommunikasjonsformer fra samme tjenestegrunnlag, slik at kommunen kan velge kanal etter behov, risiko og brukssituasjon. Produktet dekker b&#229;de...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/">Meldingsformidling</a> <a class="capability-chip" href="../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/">Sikring av informasjonsflyt og datautveksling</a> <a class="capability-chip" href="../../kapabiliteter/samarbeid/organisatorisk-samhandling/">Organisatorisk samhandling</a></p>
+  <p class="resource-card__links"><a href="https://ksdigital.no/tjenestene/fiks-melding/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="KS" data-status="Produksjon - etablert utsendingstjeneste i KS Digital med offentlig driftsstatus og aktiv teknisk videreutvikling." data-type="Utsendingstjeneste for digital og fysisk post" data-capabilities="meldingsformidling organisatorisk samhandling sammenhengende tjenester" data-search="fiks svarut ks-003 ks fellesl&#248;sning utsendingstjeneste for digital og fysisk post fiks svarut er ks digitals sentraliserte utsendingstjeneste for utg&#229;ende dokumentformidling. tjenesten gj&#248;r det mulig for kommuner og andre offentlige virksomheter &#229; sende dokumenter gjennom &#233;n felles distribusjonsmekanisme, i stedet for &#229; bygge separate l&#248;p mot hver mottakerkanal. fiks svarut kan brukes b&#229;de gjennom... meldingsformidling organisatorisk samhandling sammenhengende tjenester">
+  <h2 class="resource-card__title">Fiks SvarUt</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>KS-003</code> | <strong>Siste versjon:</strong> v3 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/27-FIKS-SvarUt-produkt-canvas-v3-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> KS | <strong>Kategori:</strong> Fellesl&#248;sning | <strong>Type:</strong> Utsendingstjeneste for digital og fysisk post</p>
+  <p class="resource-card__description">Fiks SvarUt er KS Digitals sentraliserte utsendingstjeneste for utg&#229;ende dokumentformidling. Tjenesten gj&#248;r det mulig for kommuner og andre offentlige virksomheter &#229; sende dokumenter gjennom &#233;n felles distribusjonsmekanisme, i stedet for &#229; bygge separate l&#248;p mot hver mottakerkanal. Fiks SvarUt kan brukes b&#229;de gjennom...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/">Meldingsformidling</a> <a class="capability-chip" href="../../kapabiliteter/samarbeid/organisatorisk-samhandling/">Organisatorisk samhandling</a> <a class="capability-chip" href="../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/">Sammenhengende tjenester</a></p>
+  <p class="resource-card__links"><a href="https://ksdigital.no/tjenestene/svarut-tjenesten/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="KS" data-status="Produksjon - etablert registertilgangstjeneste i KS Digital for kommunal bruk av flere nasjonale registre gjennom felles oppslag og integrasjon." data-type="Registertilgang" data-capabilities="grunndata bruke data fra andre" data-search="fiks register ks-004 ks fellesl&#248;sning registertilgang fiks register er ks digitals overordnede registertilgangstjeneste for kommunal sektor. l&#248;sningen samler tilgang til flere nasjonale registre i samme tjenesteomr&#229;de, slik at kommuner og fylkeskommuner kan bruke et felles oppslags- og integrasjonsm&#248;nster i stedet for &#229; etablere separate l&#248;p mot hver datakilde. produktet... grunndata bruke data fra andre">
+  <h2 class="resource-card__title">Fiks register</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>KS-004</code> | <strong>Siste versjon:</strong> v2 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/28-FIKS-Register-produkt-canvas-v2-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> KS | <strong>Kategori:</strong> Fellesl&#248;sning | <strong>Type:</strong> Registertilgang</p>
+  <p class="resource-card__description">Fiks register er KS Digitals overordnede registertilgangstjeneste for kommunal sektor. L&#248;sningen samler tilgang til flere nasjonale registre i samme tjenesteomr&#229;de, slik at kommuner og fylkeskommuner kan bruke et felles oppslags- og integrasjonsm&#248;nster i stedet for &#229; etablere separate l&#248;p mot hver datakilde. Produktet...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datakilder/grunndata/">Grunndata</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/">Bruke data fra andre</a></p>
+  <p class="resource-card__links"><a href="https://ksdigital.no/tjenestene/fiks-register/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="KS" data-status="Produksjon - etablert nasjonal fellesl&#248;sning for informasjonsforvaltning og styringsst&#248;tte i kommunal sektor." data-type="Styrings- og oversiktsl&#248;sning" data-capabilities="datastyring oversikt over datasett oversikt over tjenester" data-search="fiks digiorden ks-006 ks fellesl&#248;sning styrings- og oversiktsl&#248;sning fiks digiorden er ks digitals styrings- og oversiktsl&#248;sning for kommunal informasjonsforvaltning. l&#248;sningen hjelper kommuner med &#229; f&#229; oversikt over applikasjoner, datasett og sentrale styringsopplysninger i eget digitalt landskap, slik at det blir lettere &#229; planlegge prosjekter, vurdere konsekvenser og bruke... datastyring oversikt over datasett oversikt over tjenester">
+  <h2 class="resource-card__title">Fiks digiorden</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>KS-006</code> | <strong>Siste versjon:</strong> v1 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/30-FIKS-Digiorden-produkt-canvas-v1-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> KS | <strong>Kategori:</strong> Fellesl&#248;sning | <strong>Type:</strong> Styrings- og oversiktsl&#248;sning</p>
+  <p class="resource-card__description">Fiks digiorden er KS Digitals styrings- og oversiktsl&#248;sning for kommunal informasjonsforvaltning. L&#248;sningen hjelper kommuner med &#229; f&#229; oversikt over applikasjoner, datasett og sentrale styringsopplysninger i eget digitalt landskap, slik at det blir lettere &#229; planlegge prosjekter, vurdere konsekvenser og bruke...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/informasjonsforvaltning/datastyring/">Datastyring</a> <a class="capability-chip" href="../../kapabiliteter/informasjonsforvaltning/oversikt-over-datasett/">Oversikt over datasett</a> <a class="capability-chip" href="../../kapabiliteter/informasjonsforvaltning/oversikt-over-tjenester/">Oversikt over tjenester</a></p>
+  <p class="resource-card__links"><a href="https://ksdigital.no/tjenestene/digiorden/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="HDIR" data-status="Produksjon - etablert nasjonal portal og tilgangsflate for helsedata." data-type="Datatilgang" data-capabilities="oversikt over datasett datastyring sammenhengende tjenester" data-search="helsedata.no hdir-001 hdir portal datatilgang helsedata.no er den nasjonale portalen for &#229; finne informasjon om helsedata, orientere seg i datakilder og s&#248;ke om tilgang til data for analyse, forskning og annen lovlig bruk. produktet er b&#229;de en oversikts- og veiledningsflate og en inngang til sammenhengende s&#248;knads- og tilgangsl&#248;p. oversikt over datasett datastyring sammenhengende tjenester">
+  <h2 class="resource-card__title">Helsedata.no</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>HDIR-001</code> | <strong>Siste versjon:</strong> v1 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v1-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> HDIR | <strong>Kategori:</strong> Portal | <strong>Type:</strong> Datatilgang</p>
+  <p class="resource-card__description">Helsedata.no er den nasjonale portalen for &#229; finne informasjon om helsedata, orientere seg i datakilder og s&#248;ke om tilgang til data for analyse, forskning og annen lovlig bruk. Produktet er b&#229;de en oversikts- og veiledningsflate og en inngang til sammenhengende s&#248;knads- og tilgangsl&#248;p.</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/informasjonsforvaltning/oversikt-over-datasett/">Oversikt over datasett</a> <a class="capability-chip" href="../../kapabiliteter/informasjonsforvaltning/datastyring/">Datastyring</a> <a class="capability-chip" href="../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/">Sammenhengende tjenester</a></p>
+  <p class="resource-card__links"><a href="https://helsedata.no/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="NHN" data-status="Produksjon - etablert nasjonal innbyggerportal for informasjon om og tilgang til digitale helsetjenester." data-type="Innbyggerportal" data-capabilities="sammenhengende tjenester tjenestekjeder" data-search="helsenorge nhn-001 nhn portal innbyggerportal helsenorge er den nasjonale portalen der innbyggere finner kvalitetssikret helseinformasjon og f&#229;r tilgang til digitale selvbetjeningsl&#248;sninger i helse- og omsorgssektoren. produktet samler tjenester fra flere akt&#248;rer i &#233;n felles inngang, slik at brukeren kan orientere seg, logge inn og utf&#248;re helseadministrative... sammenhengende tjenester tjenestekjeder">
+  <h2 class="resource-card__title">Helsenorge</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>NHN-001</code> | <strong>Siste versjon:</strong> v1 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/32-Helsenorge-produkt-canvas-v1-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> NHN | <strong>Kategori:</strong> Portal | <strong>Type:</strong> Innbyggerportal</p>
+  <p class="resource-card__description">Helsenorge er den nasjonale portalen der innbyggere finner kvalitetssikret helseinformasjon og f&#229;r tilgang til digitale selvbetjeningsl&#248;sninger i helse- og omsorgssektoren. Produktet samler tjenester fra flere akt&#248;rer i &#233;n felles inngang, slik at brukeren kan orientere seg, logge inn og utf&#248;re helseadministrative...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/">Sammenhengende tjenester</a> <a class="capability-chip" href="../../kapabiliteter/sluttbrukertjenester/tjenestekjeder/">Tjenestekjeder</a></p>
+  <p class="resource-card__links"><a href="https://www.helsenorge.no/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="NHN" data-status="Produksjon - etablert nasjonal felleskomponent for p&#229;logging og sikring av digital samhandling i helse- og omsorgssektoren." data-type="Tillits- og autentiseringskomponent for helse" data-capabilities="bruke data fra andre sikring av informasjonsflyt og datautveksling autentisering tilgangskontroll" data-search="helseid nhn-002 nhn felleskomponent tillits- og autentiseringskomponent for helse helseid er den nasjonale felleskomponenten for p&#229;logging, tillit og sikring av digital samhandling i helse- og omsorgssektoren. produktet gj&#248;r det mulig &#229; autentisere helsepersonell, systemer og virksomheter, beskytte api-er og berike identitetsinformasjon med opplysninger fra nasjonale registre som... bruke data fra andre sikring av informasjonsflyt og datautveksling autentisering tilgangskontroll">
+  <h2 class="resource-card__title">HelseID</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>NHN-002</code> | <strong>Siste versjon:</strong> v1 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/33-HelseID-produkt-canvas-v1-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> NHN | <strong>Kategori:</strong> Felleskomponent | <strong>Type:</strong> Tillits- og autentiseringskomponent for helse</p>
+  <p class="resource-card__description">HelseID er den nasjonale felleskomponenten for p&#229;logging, tillit og sikring av digital samhandling i helse- og omsorgssektoren. Produktet gj&#248;r det mulig &#229; autentisere helsepersonell, systemer og virksomheter, beskytte API-er og berike identitetsinformasjon med opplysninger fra nasjonale registre som...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/">Bruke data fra andre</a> <a class="capability-chip" href="../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/">Sikring av informasjonsflyt og datautveksling</a> <a class="capability-chip" href="../../kapabiliteter/tillit/autentisering/">Autentisering</a> <span class="capability-chip capability-chip--more">+1</span></p>
+  <p class="resource-card__links"><a href="https://www.nhn.no/tjenester/helseid">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="NHN" data-status="Produksjon - etablert nasjonal fellesl&#248;sning for deling av utvalgte helseopplysninger." data-type="Pasientdata" data-capabilities="bruke data fra andre dele data med andre organisatorisk samhandling" data-search="kjernejournal nhn-003 nhn fellesl&#248;sning pasientdata kjernejournal er den nasjonale fellesl&#248;sningen for &#229; gj&#248;re utvalgte og viktige helseopplysninger tilgjengelige p&#229; tvers av behandlingssteder. produktet st&#248;tter tryggere og mer sammenhengende behandling ved at relevante opplysninger kan deles og brukes der pasienten mottar helsehjelp. bruke data fra andre dele data med andre organisatorisk samhandling">
+  <h2 class="resource-card__title">Kjernejournal</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>NHN-003</code> | <strong>Siste versjon:</strong> v1 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/34-Kjernejournal-produkt-canvas-v1-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> NHN | <strong>Kategori:</strong> Fellesl&#248;sning | <strong>Type:</strong> Pasientdata</p>
+  <p class="resource-card__description">Kjernejournal er den nasjonale fellesl&#248;sningen for &#229; gj&#248;re utvalgte og viktige helseopplysninger tilgjengelige p&#229; tvers av behandlingssteder. Produktet st&#248;tter tryggere og mer sammenhengende behandling ved at relevante opplysninger kan deles og brukes der pasienten mottar helsehjelp.</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/">Bruke data fra andre</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a> <a class="capability-chip" href="../../kapabiliteter/samarbeid/organisatorisk-samhandling/">Organisatorisk samhandling</a></p>
+  <p class="resource-card__links"><a href="https://www.nhn.no/tjenester/kjernejournal/om-tjenesten">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="NHN" data-status="Produksjon - etablert nasjonal fellesl&#248;sning for elektroniske resepter." data-type="Reseptsystem" data-capabilities="bruke data fra andre meldingsformidling organisatorisk samhandling" data-search="e-resept nhn-004 nhn fellesl&#248;sning reseptsystem e-resept er den nasjonale l&#248;sningen for elektronisk forskrivning, formidling og tilgjengeliggj&#248;ring av resepter i norge. produktet binder sammen forskriver, apotek, pasient og &#248;vrige relevante akt&#248;rer i en digital samhandlingskjede, og s&#248;rger for at reseptinformasjon kan opprettes, deles og brukes p&#229; en tryggere og... bruke data fra andre meldingsformidling organisatorisk samhandling">
+  <h2 class="resource-card__title">e-resept</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>NHN-004</code> | <strong>Siste versjon:</strong> v1 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/35-e-resept-produkt-canvas-v1-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> NHN | <strong>Kategori:</strong> Fellesl&#248;sning | <strong>Type:</strong> Reseptsystem</p>
+  <p class="resource-card__description">e-resept er den nasjonale l&#248;sningen for elektronisk forskrivning, formidling og tilgjengeliggj&#248;ring av resepter i Norge. Produktet binder sammen forskriver, apotek, pasient og &#248;vrige relevante akt&#248;rer i en digital samhandlingskjede, og s&#248;rger for at reseptinformasjon kan opprettes, deles og brukes p&#229; en tryggere og...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/">Bruke data fra andre</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/">Meldingsformidling</a> <a class="capability-chip" href="../../kapabiliteter/samarbeid/organisatorisk-samhandling/">Organisatorisk samhandling</a></p>
+  <p class="resource-card__links"><a href="https://www.nhn.no/tjenester/e-resept">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="NAV" data-status="Produksjon - etablert nasjonalt grunndataregister over arbeidsforhold i Norge." data-type="Arbeidsforhold" data-capabilities="grunndata bruke data fra andre dele data med andre sammenhengende tjenester" data-search="aa-registeret nav-001 nav register arbeidsforhold aa-registeret er det nasjonale grunndataregisteret over arbeidsforhold i norge. produktet forvalter opplysninger om ordin&#230;re og maritime arbeidsforhold, frilansoppdrag og andre relevante relasjoner mellom arbeidsgivere og arbeidstakere. registeret er b&#229;de en autoritativ datakilde og en delt informasjonsressurs som... grunndata bruke data fra andre dele data med andre sammenhengende tjenester">
+  <h2 class="resource-card__title">Aa-registeret</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>NAV-001</code> | <strong>Siste versjon:</strong> v1 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/36-Aa-registeret-produkt-canvas-v1-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> NAV | <strong>Kategori:</strong> Register | <strong>Type:</strong> Arbeidsforhold</p>
+  <p class="resource-card__description">Aa-registeret er det nasjonale grunndataregisteret over arbeidsforhold i Norge. Produktet forvalter opplysninger om ordin&#230;re og maritime arbeidsforhold, frilansoppdrag og andre relevante relasjoner mellom arbeidsgivere og arbeidstakere. Registeret er b&#229;de en autoritativ datakilde og en delt informasjonsressurs som...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datakilder/grunndata/">Grunndata</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/">Bruke data fra andre</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a> <span class="capability-chip capability-chip--more">+1</span></p>
+  <p class="resource-card__links"><a href="https://www.nav.no/arbeidsgiver/aa-registeret">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="SKATT" data-status="Produksjon - etablert nasjonalt personregister og statlig felleskomponent for grunndata om personer." data-type="Persondata" data-capabilities="grunndata dele data med andre" data-search="folkeregisteret skatt-001 skatt register persondata folkeregisteret er det nasjonale grunndataregisteret for personopplysninger i norge. produktet forvalter autoritative opplysninger om identitet, navn, adresse, statsborgerskap, familierelasjoner, sivilstand og andre sentrale forhold som mange offentlige og private akt&#248;rer bygger sine tjenester p&#229;. folkeregisteret er... grunndata dele data med andre">
+  <h2 class="resource-card__title">Folkeregisteret</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>SKATT-001</code> | <strong>Siste versjon:</strong> v1 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/37-Folkeregisteret-produkt-canvas-v1-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> SKATT | <strong>Kategori:</strong> Register | <strong>Type:</strong> Persondata</p>
+  <p class="resource-card__description">Folkeregisteret er det nasjonale grunndataregisteret for personopplysninger i Norge. Produktet forvalter autoritative opplysninger om identitet, navn, adresse, statsborgerskap, familierelasjoner, sivilstand og andre sentrale forhold som mange offentlige og private akt&#248;rer bygger sine tjenester p&#229;. Folkeregisteret er...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datakilder/grunndata/">Grunndata</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a></p>
+  <p class="resource-card__links"><a href="https://www.skatteetaten.no/person/folkeregister/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="SKATT" data-status="Produksjon - etablert delingsflate for API-basert utlevering av data fra Skatteetaten til offentlige og private virksomheter." data-type="API-basert deling" data-capabilities="dele data med andre" data-search="skatteetatens delingstjenester skatt-002 skatt fellesl&#248;sning api-basert deling skatteetatens delingstjenester er den samlede produktflaten for kontrollert viderebruk av data fra skatteetaten. produktet gj&#248;r det mulig for andre virksomheter &#229; hente ut opplysninger gjennom api-er og tilh&#248;rende avtale- og tilgangsl&#248;p, i stedet for &#229; basere seg p&#229; manuelle bestillinger eller punktvise... dele data med andre">
+  <h2 class="resource-card__title">Skatteetatens delingstjenester</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>SKATT-002</code> | <strong>Siste versjon:</strong> v1 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/38-Skatteetatens-delingstjenester-produkt-canvas-v1-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> SKATT | <strong>Kategori:</strong> Fellesl&#248;sning | <strong>Type:</strong> API-basert deling</p>
+  <p class="resource-card__description">Skatteetatens delingstjenester er den samlede produktflaten for kontrollert viderebruk av data fra Skatteetaten. Produktet gj&#248;r det mulig for andre virksomheter &#229; hente ut opplysninger gjennom API-er og tilh&#248;rende avtale- og tilgangsl&#248;p, i stedet for &#229; basere seg p&#229; manuelle bestillinger eller punktvise...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a></p>
+  <p class="resource-card__links"><a href="https://www.skatteetaten.no/deling/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="KART" data-status="Produksjon - etablert nasjonalt register og felleskomponent for eiendomsopplysninger, bygninger, adresser og grenser." data-type="Eiendoms- og adresseregister" data-capabilities="grunndata dele data med andre" data-search="matrikkelen kart-001 kart register eiendoms- og adresseregister matrikkelen er det nasjonale grunndataregisteret for eiendommer, bygninger, adresser og offisielle eiendomsidentifikatorer i norge. produktet gj&#248;r det mulig &#229; registrere, forvalte og bruke autoritative opplysninger om fast eiendom og tilh&#248;rende objekter p&#229; tvers av sektorer og forvaltningsniv&#229;er. matrikkelen er derfor... grunndata dele data med andre">
+  <h2 class="resource-card__title">Matrikkelen</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>KART-001</code> | <strong>Siste versjon:</strong> v1 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/39-Matrikkelen-produkt-canvas-v1-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> KART | <strong>Kategori:</strong> Register | <strong>Type:</strong> Eiendoms- og adresseregister</p>
+  <p class="resource-card__description">Matrikkelen er det nasjonale grunndataregisteret for eiendommer, bygninger, adresser og offisielle eiendomsidentifikatorer i Norge. Produktet gj&#248;r det mulig &#229; registrere, forvalte og bruke autoritative opplysninger om fast eiendom og tilh&#248;rende objekter p&#229; tvers av sektorer og forvaltningsniv&#229;er. Matrikkelen er derfor...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datakilder/grunndata/">Grunndata</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a></p>
+  <p class="resource-card__links"><a href="https://kartverket.no/eiendom/mine-eiendommer/om-matrikkelen">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="KART" data-status="Produksjon - etablert nasjonal geodataportal og fellesl&#248;sning for metadata, s&#248;k, deling og distribusjon av stedfestet informasjon." data-type="Geodataportal / metadata- og delingsplattform" data-capabilities="oversikt over datasett dele data med andre" data-search="geonorge kart-002 kart portal geodataportal / metadata- og delingsplattform geonorge er den nasjonale fellesl&#248;sningen for &#229; finne, beskrive, registrere og distribuere kartdata og annen stedfestet informasjon i norge. produktet samler metadata om datasett og tjenester, tilbyr s&#248;k og api-er, og st&#248;tter flere distribusjonsm&#229;ter for geodata fra mange offentlige datatilbydere. geonorge er derfor... oversikt over datasett dele data med andre">
+  <h2 class="resource-card__title">Geonorge</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>KART-002</code> | <strong>Siste versjon:</strong> v1 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/40-Geonorge-produkt-canvas-v1-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> KART | <strong>Kategori:</strong> Portal | <strong>Type:</strong> Geodataportal / metadata- og delingsplattform</p>
+  <p class="resource-card__description">Geonorge er den nasjonale fellesl&#248;sningen for &#229; finne, beskrive, registrere og distribuere kartdata og annen stedfestet informasjon i Norge. Produktet samler metadata om datasett og tjenester, tilbyr s&#248;k og API-er, og st&#248;tter flere distribusjonsm&#229;ter for geodata fra mange offentlige datatilbydere. Geonorge er derfor...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/informasjonsforvaltning/oversikt-over-datasett/">Oversikt over datasett</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a></p>
+  <p class="resource-card__links"><a href="https://www.geonorge.no/aktuelt/om-geonorge/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="BRREG" data-status="Produksjon - etablert nasjonalt virksomhetsregister og felleskomponent for grunndata om virksomheter." data-type="Virksomhetsregister" data-capabilities="grunndata dele data med andre" data-search="enhetsregisteret brreg-003 brreg register virksomhetsregister enhetsregisteret er det nasjonale grunndataregisteret for virksomheter i norge. produktet samler og tilgjengeliggj&#248;r basisopplysninger om juridiske enheter og andre virksomheter, og tildeler organisasjonsnummer som felles identifikator. enhetsregisteret er derfor mer enn en registreringstjeneste: det er den sentrale... grunndata dele data med andre">
+  <h2 class="resource-card__title">Enhetsregisteret</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>BRREG-003</code> | <strong>Siste versjon:</strong> v1 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/46-Enhetsregisteret-produkt-canvas-v1-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> BRREG | <strong>Kategori:</strong> Register | <strong>Type:</strong> Virksomhetsregister</p>
+  <p class="resource-card__description">Enhetsregisteret er det nasjonale grunndataregisteret for virksomheter i Norge. Produktet samler og tilgjengeliggj&#248;r basisopplysninger om juridiske enheter og andre virksomheter, og tildeler organisasjonsnummer som felles identifikator. Enhetsregisteret er derfor mer enn en registreringstjeneste: det er den sentrale...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datakilder/grunndata/">Grunndata</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a></p>
+  <p class="resource-card__links"><a href="https://www.brreg.no/om-oss/registrene-vare/om-enhetsregisteret/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="SIKT" data-status="Produksjon - etablert nasjonal fellesl&#248;sning for innlogging og datadeling i utdannings- og forskningssektoren." data-type="Autentisering" data-capabilities="dele data med andre sikring av informasjonsflyt og datautveksling autentisering tilgangskontroll" data-search="feide sikt-001 sikt felleskomponent autentisering feide er den nasjonale fellesl&#248;sningen for trygg innlogging og datadeling i utdannings- og forskningssektoren. produktet gir elever, studenter, forskere, undervisere og ansatte &#233;n felles identitet som kan brukes p&#229; tvers av mange digitale tjenester. feide er s&#230;rlig relevant n&#229;r sektoren trenger gjenbrukbar... dele data med andre sikring av informasjonsflyt og datautveksling autentisering tilgangskontroll">
+  <h2 class="resource-card__title">Feide</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>SIKT-001</code> | <strong>Siste versjon:</strong> v1 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/47-Feide-produkt-canvas-v1-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> SIKT | <strong>Kategori:</strong> Felleskomponent | <strong>Type:</strong> Autentisering</p>
+  <p class="resource-card__description">Feide er den nasjonale fellesl&#248;sningen for trygg innlogging og datadeling i utdannings- og forskningssektoren. Produktet gir elever, studenter, forskere, undervisere og ansatte &#233;n felles identitet som kan brukes p&#229; tvers av mange digitale tjenester. Feide er s&#230;rlig relevant n&#229;r sektoren trenger gjenbrukbar...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a> <a class="capability-chip" href="../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/">Sikring av informasjonsflyt og datautveksling</a> <a class="capability-chip" href="../../kapabiliteter/tillit/autentisering/">Autentisering</a> <span class="capability-chip capability-chip--more">+1</span></p>
+  <p class="resource-card__links"><a href="https://www.feide.no/om-feide">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="SIKT" data-status="Produksjon - etablert nasjonal studieadministrativ plattform for universiteter, h&#248;gskoler og fagskoler." data-type="Studentdata" data-capabilities="bruke data fra andre dele data med andre datastyring organisatorisk samhandling" data-search="felles studentsystem (fs) sikt-002 sikt plattform studentdata felles studentsystem (fs) er den nasjonale plattformen for studieadministrative data og prosesser i h&#248;yere utdanning. produktet forvalter og tilgjengeliggj&#248;r informasjon om studenter, studier, opptak, resultater og kvalifikasjoner, og fungerer som informasjonsnav for b&#229;de interne arbeidsprosesser, studentn&#230;re... bruke data fra andre dele data med andre datastyring organisatorisk samhandling">
+  <h2 class="resource-card__title">Felles studentsystem (FS)</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>SIKT-002</code> | <strong>Siste versjon:</strong> v1 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/48-Felles-studentsystem-produkt-canvas-v1-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> SIKT | <strong>Kategori:</strong> Plattform | <strong>Type:</strong> Studentdata</p>
+  <p class="resource-card__description">Felles studentsystem (FS) er den nasjonale plattformen for studieadministrative data og prosesser i h&#248;yere utdanning. Produktet forvalter og tilgjengeliggj&#248;r informasjon om studenter, studier, opptak, resultater og kvalifikasjoner, og fungerer som informasjonsnav for b&#229;de interne arbeidsprosesser, studentn&#230;re...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/">Bruke data fra andre</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a> <a class="capability-chip" href="../../kapabiliteter/informasjonsforvaltning/datastyring/">Datastyring</a> <span class="capability-chip capability-chip--more">+1</span></p>
+  <p class="resource-card__links"><a href="https://sikt.no/nb/tjenester/felles-studentsystem">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="SIKT" data-status="Produksjon - etablert fellesl&#248;sning for samordnet opptak til h&#248;yere utdanning og fagskoler." data-type="Opptaksl&#248;sning" data-capabilities="bruke data fra andre organisatorisk samhandling sammenhengende tjenester" data-search="opptaksl&#248;sninger sikt-003 sikt fellesl&#248;sning opptaksl&#248;sning opptaksl&#248;sninger er den samlede produktflaten for datasystemene som muliggj&#248;r samordnet opptak til h&#248;yere utdanning og fagskoler i norge. produktet st&#248;tter b&#229;de saksbehandling, s&#248;kerdialog, dokumenth&#229;ndtering, opptakskj&#248;ring og publisering av resultater, og fungerer som en felles digital ryggrad for opptaksprosessene. bruke data fra andre organisatorisk samhandling sammenhengende tjenester">
+  <h2 class="resource-card__title">Opptaksl&#248;sninger</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>SIKT-003</code> | <strong>Siste versjon:</strong> v1 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/49-Opptakslosninger-produkt-canvas-v1-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> SIKT | <strong>Kategori:</strong> Fellesl&#248;sning | <strong>Type:</strong> Opptaksl&#248;sning</p>
+  <p class="resource-card__description">Opptaksl&#248;sninger er den samlede produktflaten for datasystemene som muliggj&#248;r samordnet opptak til h&#248;yere utdanning og fagskoler i Norge. Produktet st&#248;tter b&#229;de saksbehandling, s&#248;kerdialog, dokumenth&#229;ndtering, opptakskj&#248;ring og publisering av resultater, og fungerer som en felles digital ryggrad for opptaksprosessene.</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/">Bruke data fra andre</a> <a class="capability-chip" href="../../kapabiliteter/samarbeid/organisatorisk-samhandling/">Organisatorisk samhandling</a> <a class="capability-chip" href="../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/">Sammenhengende tjenester</a></p>
+  <p class="resource-card__links"><a href="https://sikt.no/tjenester/opptakslosninger">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="SIKT" data-status="Produksjon - etablert nasjonal database- og delingstjeneste for elektroniske vitnem&#229;l fra videreg&#229;ende oppl&#230;ring." data-type="Vitnem&#229;l" data-capabilities="grunndata dele data med andre" data-search="nasjonal vitnem&#229;lsdatabase (nvb) sikt-004 sikt register vitnem&#229;l nasjonal vitnem&#229;lsdatabase (nvb) er den nasjonale databasen for elektroniske vitnem&#229;l fra videreg&#229;ende oppl&#230;ring. produktet lagrer og kvalitetssikrer vitnem&#229;l og gj&#248;r dem tilgjengelige for opptak, dokumentasjon, statistikk og forskning. nvb er derfor mer enn et arkiv: det er en nasjonal register- og delingsressurs som... grunndata dele data med andre">
+  <h2 class="resource-card__title">Nasjonal vitnem&#229;lsdatabase (NVB)</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>SIKT-004</code> | <strong>Siste versjon:</strong> v1 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/50-Nasjonal-vitnemalsdatabase-produkt-canvas-v1-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> SIKT | <strong>Kategori:</strong> Register | <strong>Type:</strong> Vitnem&#229;l</p>
+  <p class="resource-card__description">Nasjonal vitnem&#229;lsdatabase (NVB) er den nasjonale databasen for elektroniske vitnem&#229;l fra videreg&#229;ende oppl&#230;ring. Produktet lagrer og kvalitetssikrer vitnem&#229;l og gj&#248;r dem tilgjengelige for opptak, dokumentasjon, statistikk og forskning. NVB er derfor mer enn et arkiv: det er en nasjonal register- og delingsressurs som...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datakilder/grunndata/">Grunndata</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a></p>
+  <p class="resource-card__links"><a href="https://sikt.no/nb/tjenester/nasjonal-vitnemalsdatabase">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="SIKT" data-status="Produksjon - etablert nasjonal delingstjeneste for resultater og vitnem&#229;l fra h&#248;yere utdanning." data-type="Deling av vitnem&#229;l" data-capabilities="dele data med andre sammenhengende tjenester" data-search="vitnem&#229;lsportalen sikt-005 sikt portal deling av vitnem&#229;l vitnem&#229;lsportalen er en nasjonal delingstjeneste som gj&#248;r det mulig for brukere &#229; hente ut og dele resultater og vitnem&#229;l digitalt. produktet gir den som eier resultatene kontroll over hvem som f&#229;r innsyn, og gj&#248;r det enklere for studiesteder og arbeidsgivere &#229; motta verifiserbare resultater uten manuell h&#229;ndtering av... dele data med andre sammenhengende tjenester">
+  <h2 class="resource-card__title">Vitnem&#229;lsportalen</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>SIKT-005</code> | <strong>Siste versjon:</strong> v1 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/51-Vitnemalsportalen-produkt-canvas-v1-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> SIKT | <strong>Kategori:</strong> Portal | <strong>Type:</strong> Deling av vitnem&#229;l</p>
+  <p class="resource-card__description">Vitnem&#229;lsportalen er en nasjonal delingstjeneste som gj&#248;r det mulig for brukere &#229; hente ut og dele resultater og vitnem&#229;l digitalt. Produktet gir den som eier resultatene kontroll over hvem som f&#229;r innsyn, og gj&#248;r det enklere for studiesteder og arbeidsgivere &#229; motta verifiserbare resultater uten manuell h&#229;ndtering av...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a> <a class="capability-chip" href="../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/">Sammenhengende tjenester</a></p>
+  <p class="resource-card__links"><a href="https://sikt.no/tjenester/vitnemalsportalen">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="SIKT" data-status="Utviklet og innf&#248;rt som nasjonal registerressurs - etablert som autoritativ kilde for utdanninger og l&#230;resteder." data-type="Register over utdanningstilbud og akkreditering" data-capabilities="grunndata dele data med andre datastyring" data-search="nasjonalt utdanningsregister sikt-006 sikt register register over utdanningstilbud og akkreditering nasjonalt utdanningsregister er den nasjonale registerressursen for informasjon om akkrediterte utdanninger og l&#230;resteder i norge. produktet samler data som tidligere var fordelt mellom mange kilder og gir utdanninger og l&#230;resteder en unik digital identitet som kan brukes p&#229; tvers av systemer, prosesser og analyser. grunndata dele data med andre datastyring">
+  <h2 class="resource-card__title">Nasjonalt utdanningsregister</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>SIKT-006</code> | <strong>Siste versjon:</strong> v1 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/52-Nasjonalt-utdanningsregister-produkt-canvas-v1-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> SIKT | <strong>Kategori:</strong> Register | <strong>Type:</strong> Register over utdanningstilbud og akkreditering</p>
+  <p class="resource-card__description">Nasjonalt utdanningsregister er den nasjonale registerressursen for informasjon om akkrediterte utdanninger og l&#230;resteder i Norge. Produktet samler data som tidligere var fordelt mellom mange kilder og gir utdanninger og l&#230;resteder en unik digital identitet som kan brukes p&#229; tvers av systemer, prosesser og analyser.</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datakilder/grunndata/">Grunndata</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a> <a class="capability-chip" href="../../kapabiliteter/informasjonsforvaltning/datastyring/">Datastyring</a></p>
+  <p class="resource-card__links"><a href="https://fs.sikt.no/tjenester/nasjonale-register/utdanningsregister/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="KS" data-status="Produksjon - etablert mottakstjeneste i KS Digital for innkommende post fra andre virksomheter som bruker SvarUt." data-type="Inng&#229;ende post" data-capabilities="meldingsformidling organisatorisk samhandling" data-search="svarinn ks-007 ks fellesl&#248;sning inng&#229;ende post svarinn er en api-basert tjeneste og komplement til svarut. l&#248;sningen tar imot innkommende post fra andre virksomheter som bruker svarut, og gj&#248;r den tilgjengelig for sak- og arkivsystemer eller andre fagsystemer i kommunen. produktet er s&#230;rlig relevant n&#229;r virksomheten trenger et standardisert og sentralisert... meldingsformidling organisatorisk samhandling">
+  <h2 class="resource-card__title">SvarInn</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>KS-007</code> | <strong>Siste versjon:</strong> v1 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/57-SvarInn-produkt-canvas-v1-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> KS | <strong>Kategori:</strong> Fellesl&#248;sning | <strong>Type:</strong> Inng&#229;ende post</p>
+  <p class="resource-card__description">SvarInn er en API-basert tjeneste og komplement til SvarUt. L&#248;sningen tar imot innkommende post fra andre virksomheter som bruker SvarUt, og gj&#248;r den tilgjengelig for sak- og arkivsystemer eller andre fagsystemer i kommunen. Produktet er s&#230;rlig relevant n&#229;r virksomheten trenger et standardisert og sentralisert...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/">Meldingsformidling</a> <a class="capability-chip" href="../../kapabiliteter/samarbeid/organisatorisk-samhandling/">Organisatorisk samhandling</a></p>
+  <p class="resource-card__links"><a href="https://ksdigital.no/tjenestene/svarut-tjenesten/svarinn/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="FLERE" data-status="Produksjon - etablert samordnet nasjonal rapporteringsordning for inntekts- og arbeidsforholdsopplysninger." data-type="Felles rapportering" data-capabilities="grunndata dele data med andre organisatorisk samhandling" data-search="a-ordningen flere-001 flere fellesl&#248;sning felles rapportering a-ordningen er den samordnede nasjonale ordningen for at arbeidsgivere skal rapportere opplysninger om inntekt, arbeidsforhold, forskuddstrekk, utleggstrekk, arbeidsgiveravgift og finansskatt. produktet erstatter flere tidligere skjema- og rapporteringsl&#248;p med &#233;n digital a-melding, og fungerer samtidig som en felles... grunndata dele data med andre organisatorisk samhandling">
+  <h2 class="resource-card__title">A-ordningen</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>FLERE-001</code> | <strong>Siste versjon:</strong> v1 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/59-A-ordningen-produkt-canvas-v1-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> FLERE | <strong>Kategori:</strong> Fellesl&#248;sning | <strong>Type:</strong> Felles rapportering</p>
+  <p class="resource-card__description">A-ordningen er den samordnede nasjonale ordningen for at arbeidsgivere skal rapportere opplysninger om inntekt, arbeidsforhold, forskuddstrekk, utleggstrekk, arbeidsgiveravgift og finansskatt. Produktet erstatter flere tidligere skjema- og rapporteringsl&#248;p med &#233;n digital a-melding, og fungerer samtidig som en felles...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datakilder/grunndata/">Grunndata</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a> <a class="capability-chip" href="../../kapabiliteter/samarbeid/organisatorisk-samhandling/">Organisatorisk samhandling</a></p>
+  <p class="resource-card__links"><a href="https://www.skatteetaten.no/bedrift-og-organisasjon/arbeidsgiver/a-meldingen/om-a-ordningen/om-a-ordningen/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="SVV" data-status="Produksjon - etablert nasjonalt register for opplysninger om kj&#248;ret&#248;y og tilknyttede forhold." data-type="Kj&#248;ret&#248;ydata" data-capabilities="grunndata dele data med andre" data-search="motorvognregisteret svv-001 svv register kj&#248;ret&#248;ydata motorvognregisteret er den nasjonale registerressursen for grunnleggende opplysninger om kj&#248;ret&#248;y og tilh&#248;rende forhold som statens vegvesen gj&#248;r tilgjengelig gjennom oppslag og datatjenester. produktet fungerer som en autoritativ kilde for tekniske kj&#248;ret&#248;yopplysninger og utvalgte eierrelaterte opplysninger innenfor... grunndata dele data med andre">
+  <h2 class="resource-card__title">Motorvognregisteret</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>SVV-001</code> | <strong>Siste versjon:</strong> v1 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/60-Motorvognregisteret-produkt-canvas-v1-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> SVV | <strong>Kategori:</strong> Register | <strong>Type:</strong> Kj&#248;ret&#248;ydata</p>
+  <p class="resource-card__description">Motorvognregisteret er den nasjonale registerressursen for grunnleggende opplysninger om kj&#248;ret&#248;y og tilh&#248;rende forhold som Statens vegvesen gj&#248;r tilgjengelig gjennom oppslag og datatjenester. Produktet fungerer som en autoritativ kilde for tekniske kj&#248;ret&#248;yopplysninger og utvalgte eierrelaterte opplysninger innenfor...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datakilder/grunndata/">Grunndata</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a></p>
+  <p class="resource-card__links"><a href="https://www.vegvesen.no/kjoretoy/kjop-og-salg/kjoretoyopplysninger/om-utlevering-av-kjoretoyopplysninger/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="FLERE" data-status="Produksjon - etablert offentlig-privat samarbeidsomr&#229;de for datadeling mellom finansn&#230;ringen og offentlige virksomheter." data-type="Offentlig–privat datadeling" data-capabilities="dele data med andre organisatorisk samhandling" data-search="dsop-tjenester flere-002 flere fellesl&#248;sning offentlig–privat datadeling dsop-tjenester er den samlede produktflaten for offentlig-private datadelings- og samhandlingsl&#248;sninger i dsop-samarbeidet. produktet omfatter flere konkrete tjenester, men verdien ligger i den felles samarbeidsmodellen og delingsmekanismene mellom bank og offentlig sektor. dele data med andre organisatorisk samhandling">
+  <h2 class="resource-card__title">DSOP-tjenester</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>FLERE-002</code> | <strong>Siste versjon:</strong> v1 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/62-DSOP-tjenester-produkt-canvas-v1-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> FLERE | <strong>Kategori:</strong> Fellesl&#248;sning | <strong>Type:</strong> Offentlig–privat datadeling</p>
+  <p class="resource-card__description">DSOP-tjenester er den samlede produktflaten for offentlig-private datadelings- og samhandlingsl&#248;sninger i DSOP-samarbeidet. Produktet omfatter flere konkrete tjenester, men verdien ligger i den felles samarbeidsmodellen og delingsmekanismene mellom bank og offentlig sektor.</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a> <a class="capability-chip" href="../../kapabiliteter/samarbeid/organisatorisk-samhandling/">Organisatorisk samhandling</a></p>
+  <p class="resource-card__links"><a href="https://www.dsop.no/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="SSB" data-status="Produksjon - etablert nasjonal analysetjeneste for registerdata i et kontrollert milj&#248;." data-type="Analyseplattform" data-capabilities="sammenstilling av data bruke data fra andre" data-search="microdata.no ssb-001 ssb fellesl&#248;sning analyseplattform microdata.no er en nasjonal analysetjeneste som gir forskere og andre godkjente brukere tilgang til &#229; analysere koblede registerdata i et kontrollert og skjermet milj&#248;. produktet gj&#248;r det mulig &#229; utf&#248;re statistiske analyser og sammenstillinger p&#229; tvers av flere datakilder uten at brukerne f&#229;r tradisjonell direkte... sammenstilling av data bruke data fra andre">
+  <h2 class="resource-card__title">microdata.no</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>SSB-001</code> | <strong>Siste versjon:</strong> v1 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/63-microdata-no-produkt-canvas-v1-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> SSB | <strong>Kategori:</strong> Fellesl&#248;sning | <strong>Type:</strong> Analyseplattform</p>
+  <p class="resource-card__description">microdata.no er en nasjonal analysetjeneste som gir forskere og andre godkjente brukere tilgang til &#229; analysere koblede registerdata i et kontrollert og skjermet milj&#248;. Produktet gj&#248;r det mulig &#229; utf&#248;re statistiske analyser og sammenstillinger p&#229; tvers av flere datakilder uten at brukerne f&#229;r tradisjonell direkte...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datadrevet/sammenstilling-av-data/">Sammenstilling av data</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/">Bruke data fra andre</a></p>
+  <p class="resource-card__links"><a href="https://www.microdata.no/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="HDIR" data-status="Produksjon - etablert nasjonalt register over helsepersonell." data-type="Register over helsepersonell" data-capabilities="grunndata dele data med andre" data-search="hpr hdir-002 hdir register register over helsepersonell hpr er det nasjonale registeret over helsepersonell og sentrale opplysninger om autorisasjon, lisens, spesialistgodkjenning og andre relevante godkjenningsforhold. produktet fungerer som en felles autoritativ kilde for &#229; verifisere hvem som har rett til &#229; ut&#248;ve bestemte roller i helse- og omsorgstjenesten, og gir et... grunndata dele data med andre">
+  <h2 class="resource-card__title">HPR</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>HDIR-002</code> | <strong>Siste versjon:</strong> v1 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/64-HPR-produkt-canvas-v1-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> HDIR | <strong>Kategori:</strong> Register | <strong>Type:</strong> Register over helsepersonell</p>
+  <p class="resource-card__description">HPR er det nasjonale registeret over helsepersonell og sentrale opplysninger om autorisasjon, lisens, spesialistgodkjenning og andre relevante godkjenningsforhold. Produktet fungerer som en felles autoritativ kilde for &#229; verifisere hvem som har rett til &#229; ut&#248;ve bestemte roller i helse- og omsorgstjenesten, og gir et...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datakilder/grunndata/">Grunndata</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a></p>
+  <p class="resource-card__links"><a href="https://www.helsedirektoratet.no/tema/autorisasjon-og-spesialistutdanning/helsepersonellregisteret">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="HELFO" data-status="Produksjon - etablert nasjonalt oppgj&#248;rs- og kontrollsystem for refusjoner i helsesektoren." data-type="Refusjonsdata" data-capabilities="grunndata dele data med andre" data-search="kuhr helfo-001 helfo register refusjonsdata kuhr er helfos sentrale system for mottak, kontroll, behandling og oppgj&#248;r av refusjonskrav fra helseakt&#248;rer. produktet fungerer som en nasjonal behandlings- og datakilde for oppgj&#248;rsinformasjon, og brukes til &#229; sikre at krav blir kontrollert mot regler og vilk&#229;r f&#248;r utbetaling, samt til videre oppf&#248;lging, kontroll og... grunndata dele data med andre">
+  <h2 class="resource-card__title">KUHR</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>HELFO-001</code> | <strong>Siste versjon:</strong> v1 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/65-KUHR-produkt-canvas-v1-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> HELFO | <strong>Kategori:</strong> Register | <strong>Type:</strong> Refusjonsdata</p>
+  <p class="resource-card__description">KUHR er Helfos sentrale system for mottak, kontroll, behandling og oppgj&#248;r av refusjonskrav fra helseakt&#248;rer. Produktet fungerer som en nasjonal behandlings- og datakilde for oppgj&#248;rsinformasjon, og brukes til &#229; sikre at krav blir kontrollert mot regler og vilk&#229;r f&#248;r utbetaling, samt til videre oppf&#248;lging, kontroll og...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datakilder/grunndata/">Grunndata</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a></p>
+  <p class="resource-card__links"><a href="https://www.helfo.no/om-helfo/kuhr">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="NAV" data-status="Produksjon - etablert plattform for utvikling og drift av applikasjoner, bygget av Nav og dokumentert for bruk utover ett enkelt team- eller virksomhetsmilj&#248;." data-type="Plattform for applikasjoner" data-capabilities="gjenbrukbare tjenester utviklings- og kj&#248;retidsmilj&#248;" data-search="nais nav-002 nav plattform plattform for applikasjoner nais er en plattform for utvikling, kj&#248;ring og forvaltning av applikasjoner, laget av nav og videref&#248;rt som et &#229;pent plattformmilj&#248; for utviklingsteam i offentlig sektor. produktet samler funksjoner for utrulling, sikkerhet, observability, konfigurasjon og drift, slik at team kan fokusere mer p&#229; applikasjonene sine og... gjenbrukbare tjenester utviklings- og kj&#248;retidsmilj&#248;">
+  <h2 class="resource-card__title">NAIS</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>NAV-002</code> | <strong>Siste versjon:</strong> v1 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/66-NAIS-produkt-canvas-v1-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> NAV | <strong>Kategori:</strong> Plattform | <strong>Type:</strong> Plattform for applikasjoner</p>
+  <p class="resource-card__description">NAIS er en plattform for utvikling, kj&#248;ring og forvaltning av applikasjoner, laget av Nav og videref&#248;rt som et &#229;pent plattformmilj&#248; for utviklingsteam i offentlig sektor. Produktet samler funksjoner for utrulling, sikkerhet, observability, konfigurasjon og drift, slik at team kan fokusere mer p&#229; applikasjonene sine og...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/tjenesteutvikling/gjenbrukbare-tjenester/">Gjenbrukbare tjenester</a> <a class="capability-chip" href="../../kapabiliteter/tjenesteutvikling/utviklings-og-kjoretidsmiljo/">Utviklings- og kj&#248;retidsmilj&#248;</a></p>
+  <p class="resource-card__links"><a href="https://nais.io/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="KS" data-status="Produksjon - etablert registertilgangstjeneste i KS Digital for oppslag og integrasjon mot Folkeregisteret i kommunal sektor." data-type="Tilgang til Folkeregisteret via Fiks" data-capabilities="grunndata bruke data fra andre" data-search="fiks folkeregister ks-008 ks fellesl&#248;sning tilgang til folkeregisteret via fiks fiks folkeregister er en viktig integrasjon i kommunal sektor. l&#248;sningen gir kommuner og fylkeskommuner tilgang til folkeregisteropplysninger gjennom fiks, enten som oppslag i en nettsidel&#248;sning eller som maskin-til-maskin-integrasjon mot fagsystemer. produktet er s&#230;rlig relevant n&#229;r kommunal sektor trenger... grunndata bruke data fra andre">
+  <h2 class="resource-card__title">Fiks folkeregister</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>KS-008</code> | <strong>Siste versjon:</strong> v1 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/67-FIKS-Folkeregister-produkt-canvas-v1-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> KS | <strong>Kategori:</strong> Fellesl&#248;sning | <strong>Type:</strong> Tilgang til Folkeregisteret via Fiks</p>
+  <p class="resource-card__description">Fiks folkeregister er en viktig integrasjon i kommunal sektor. L&#248;sningen gir kommuner og fylkeskommuner tilgang til folkeregisteropplysninger gjennom Fiks, enten som oppslag i en nettsidel&#248;sning eller som maskin-til-maskin-integrasjon mot fagsystemer. Produktet er s&#230;rlig relevant n&#229;r kommunal sektor trenger...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datakilder/grunndata/">Grunndata</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/">Bruke data fra andre</a></p>
+  <p class="resource-card__links"><a href="https://ksdigital.no/tjenestene/fiks-register/fiks-folkeregister-2/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="KS" data-status="Produksjon - etablert registertilgangstjeneste i KS Digital for kommunal bruk av skatte- og inntektsopplysninger fra Skatteetaten." data-type="Tilgang til skatte- og inntektsopplysninger via Fiks" data-capabilities="grunndata bruke data fra andre" data-search="fiks skatte- og inntektsopplysninger ks-009 ks fellesl&#248;sning tilgang til skatte- og inntektsopplysninger via fiks fiks skatte- og inntektsopplysninger er ks digitals tilgangstjeneste for kommunal bruk av skatte- og inntektsdata fra skatteetaten gjennom fiks. l&#248;sningen er laget for konkrete kommunale tjenesteomr&#229;der der saksbehandlere trenger oppdatert og relevant inntektsgrunnlag som del av vedtak og beregninger. produktet kan... grunndata bruke data fra andre">
+  <h2 class="resource-card__title">Fiks skatte- og inntektsopplysninger</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>KS-009</code> | <strong>Siste versjon:</strong> v1 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v1-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> KS | <strong>Kategori:</strong> Fellesl&#248;sning | <strong>Type:</strong> Tilgang til skatte- og inntektsopplysninger via Fiks</p>
+  <p class="resource-card__description">Fiks skatte- og inntektsopplysninger er KS Digitals tilgangstjeneste for kommunal bruk av skatte- og inntektsdata fra Skatteetaten gjennom Fiks. L&#248;sningen er laget for konkrete kommunale tjenesteomr&#229;der der saksbehandlere trenger oppdatert og relevant inntektsgrunnlag som del av vedtak og beregninger. Produktet kan...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datakilder/grunndata/">Grunndata</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/">Bruke data fra andre</a></p>
+  <p class="resource-card__links"><a href="https://ksdigital.no/tjenestene/fiks-register/fiks-skatte-og-inntektsopplysninger/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="KS" data-status="Produksjon - etablert registertilgangstjeneste i KS Digital for oppslag i Statens vegvesens kj&#248;ret&#248;yregister fra kommunale fagsystemer." data-type="Tilgang til kj&#248;ret&#248;yopplysninger via Fiks" data-capabilities="grunndata bruke data fra andre" data-search="fiks kj&#248;ret&#248;yregister ks-010 ks fellesl&#248;sning tilgang til kj&#248;ret&#248;yopplysninger via fiks fiks kj&#248;ret&#248;yregister er ks digitals api-baserte tilgangstjeneste til statens vegvesens kj&#248;ret&#248;yregister via fiks-plattformen. produktet gj&#248;r det mulig for kommunale fagsystemer &#229; sl&#229; opp kj&#248;ret&#248;y og eierforhold uten &#229; etablere egne separate tilkoblinger mot statens vegvesens grensesnitt. l&#248;sningen speiler sentrale... grunndata bruke data fra andre">
+  <h2 class="resource-card__title">Fiks kj&#248;ret&#248;yregister</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>KS-010</code> | <strong>Siste versjon:</strong> v1 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/69-FIKS-Kjoretoyregister-produkt-canvas-v1-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> KS | <strong>Kategori:</strong> Fellesl&#248;sning | <strong>Type:</strong> Tilgang til kj&#248;ret&#248;yopplysninger via Fiks</p>
+  <p class="resource-card__description">Fiks kj&#248;ret&#248;yregister er KS Digitals API-baserte tilgangstjeneste til Statens vegvesens kj&#248;ret&#248;yregister via Fiks-plattformen. Produktet gj&#248;r det mulig for kommunale fagsystemer &#229; sl&#229; opp kj&#248;ret&#248;y og eierforhold uten &#229; etablere egne separate tilkoblinger mot Statens vegvesens grensesnitt. L&#248;sningen speiler sentrale...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datakilder/grunndata/">Grunndata</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/">Bruke data fra andre</a></p>
+  <p class="resource-card__links"><a href="https://ksdigital.no/tjenestene/fiks-kjoretoyregister/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="NOVARI" data-status="Produksjon - operativ felleskomponent i bruk i fylkeskommunal sektor." data-type="Integrasjons- og datadelingstjeneste" data-capabilities="dele data med andre bruke data fra andre informasjonsarkitektur integrerbare tjenester gjenbrukbare tjenester sikring av informasjonsflyt og datautveksling" data-search="fint felleskomponent novari-001 novari felleskomponent integrasjons- og datadelingstjeneste fint felleskomponent er den operative felleskomponenten som gj&#248;r det mulig for fylkeskommuner &#229; dele og bruke informasjon gjennom standardiserte api-er og en felles informasjonsmodell. ressursen er kjernen i fint-&#248;kosystemet og fungerer som det operative bindeleddet mellom kildesystemer, integrasjoner, adaptere og... dele data med andre bruke data fra andre informasjonsarkitektur integrerbare tjenester gjenbrukbare tjenester sikring av informasjonsflyt og datautveksling">
+  <h2 class="resource-card__title">FINT Felleskomponent</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>NOVARI-001</code> | <strong>Siste versjon:</strong> v1 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/70-FINT-Felleskomponent-v1-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> NOVARI | <strong>Kategori:</strong> Felleskomponent | <strong>Type:</strong> Integrasjons- og datadelingstjeneste</p>
+  <p class="resource-card__description">FINT Felleskomponent er den operative felleskomponenten som gj&#248;r det mulig for fylkeskommuner &#229; dele og bruke informasjon gjennom standardiserte API-er og en felles informasjonsmodell. Ressursen er kjernen i FINT-&#248;kosystemet og fungerer som det operative bindeleddet mellom kildesystemer, integrasjoner, adaptere og...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/">Bruke data fra andre</a> <a class="capability-chip" href="../../kapabiliteter/informasjonsforvaltning/informasjonsarkitektur/">Informasjonsarkitektur</a> <span class="capability-chip capability-chip--more">+3</span></p>
+  <p class="resource-card__links"><a href="https://novari.no/tjenester/fint-felleskomponent/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="NOVARI" data-status="Produksjon - operativ arkivressurs i bruk i flere virksomheter." data-type="Arkiv- og integrasjonstjeneste" data-capabilities="dele data med andre bruke data fra andre informasjonsarkitektur integrerbare tjenester forvaltningsstandarder" data-search="fint arkiv novari-002 novari fellesl&#248;sning arkiv- og integrasjonstjeneste fint arkiv er en operativ fellesl&#248;sning som tilgjengeliggj&#248;r informasjon i foretrukket sak-/arkivsystem p&#229; en standardisert m&#229;te. ressursen gj&#248;r arkivinformasjon tilgjengelig gjennom et felles api og en felles informasjonsmodell, slik at fagsystemer og andre tjenester kan utveksle informasjon med arkivsystemene i... dele data med andre bruke data fra andre informasjonsarkitektur integrerbare tjenester forvaltningsstandarder">
+  <h2 class="resource-card__title">FINT Arkiv</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>NOVARI-002</code> | <strong>Siste versjon:</strong> v1 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/71-FINT-Arkiv-v1-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> NOVARI | <strong>Kategori:</strong> Fellesl&#248;sning | <strong>Type:</strong> Arkiv- og integrasjonstjeneste</p>
+  <p class="resource-card__description">FINT Arkiv er en operativ fellesl&#248;sning som tilgjengeliggj&#248;r informasjon i foretrukket sak-/arkivsystem p&#229; en standardisert m&#229;te. Ressursen gj&#248;r arkivinformasjon tilgjengelig gjennom et felles API og en felles informasjonsmodell, slik at fagsystemer og andre tjenester kan utveksle informasjon med arkivsystemene i...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/">Bruke data fra andre</a> <a class="capability-chip" href="../../kapabiliteter/informasjonsforvaltning/informasjonsarkitektur/">Informasjonsarkitektur</a> <span class="capability-chip capability-chip--more">+2</span></p>
+  <p class="resource-card__links"><a href="https://novari.no/tjenester/fint-arkiv/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="NOVARI" data-status="Produksjon - operativ fellesl&#248;sning i bruk i alle fylkeskommuner og Oslo kommune." data-type="Felles l&#248;sning for inntak og administrasjon i videreg&#229;ende oppl&#230;ring" data-capabilities="organisatorisk samhandling sammenhengende tjenester dele data med andre datastyring oversikt over tjenester" data-search="vigo novari-004 novari fellesl&#248;sning felles l&#248;sning for inntak og administrasjon i videreg&#229;ende oppl&#230;ring vigo er en fellesbetegnelse for en samlet it-l&#248;sning innen videreg&#229;ende oppl&#230;ring. ressursen omfatter flere moduler og delsystemer som h&#229;ndterer personer, prosesser, kodeverk og data knyttet til videreg&#229;ende oppl&#230;ring, inntak, fagoppl&#230;ring og oppf&#248;lging. l&#248;sningen er knyttet til vigo sentralbase og vigo kodeverksbase... organisatorisk samhandling sammenhengende tjenester dele data med andre datastyring oversikt over tjenester">
+  <h2 class="resource-card__title">VIGO</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>NOVARI-004</code> | <strong>Siste versjon:</strong> v1 (codex) | <a href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v1-codex.md">Markdown</a></p>
+  <p class="resource-card__facts"><strong>Eier:</strong> NOVARI | <strong>Kategori:</strong> Fellesl&#248;sning | <strong>Type:</strong> Felles l&#248;sning for inntak og administrasjon i videreg&#229;ende oppl&#230;ring</p>
+  <p class="resource-card__description">VIGO er en fellesbetegnelse for en samlet IT-l&#248;sning innen videreg&#229;ende oppl&#230;ring. Ressursen omfatter flere moduler og delsystemer som h&#229;ndterer personer, prosesser, kodeverk og data knyttet til videreg&#229;ende oppl&#230;ring, inntak, fagoppl&#230;ring og oppf&#248;lging. L&#248;sningen er knyttet til VIGO Sentralbase og VIGO Kodeverksbase...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/samarbeid/organisatorisk-samhandling/">Organisatorisk samhandling</a> <a class="capability-chip" href="../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/">Sammenhengende tjenester</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a> <span class="capability-chip capability-chip--more">+2</span></p>
+  <p class="resource-card__links"><a href="https://novari.no/tjenester/vigo/">Offisiell lenke</a></p>
+</article>
+  </div>
+  <script>
+    (function(){
+      var root = document.currentScript.closest(".resource-listing");
+      if (!root) { return; }
+      var cards = Array.prototype.slice.call(root.querySelectorAll(".resource-card"));
+      var count = root.querySelector("[data-role=count]");
+      var search = root.querySelector("[data-filter=search]");
+      var owner = root.querySelector("[data-filter=owner]");
+      var status = root.querySelector("[data-filter=status]");
+      var type = root.querySelector("[data-filter=type]");
+      var capability = root.querySelector("[data-filter=capability]");
+      function norm(v){ return (v || "").toLowerCase(); }
+      function apply(){
+        var q = norm(search && search.value);
+        var o = norm(owner && owner.value);
+        var s = norm(status && status.value);
+        var t = norm(type && type.value);
+        var c = norm(capability && capability.value);
+        var visible = 0;
+        cards.forEach(function(card){
+          var ok = true;
+          if (q && card.dataset.search.indexOf(q) === -1) ok = false;
+          if (o && norm(card.dataset.owner) !== o) ok = false;
+          if (s && norm(card.dataset.status) !== s) ok = false;
+          if (t && norm(card.dataset.type) !== t) ok = false;
+          if (c && norm(card.dataset.capabilities).indexOf(c) === -1) ok = false;
+          card.style.display = ok ? "block" : "none";
+          if (ok) visible += 1;
+        });
+        if (count) { count.textContent = "Viser " + visible + " av " + cards.length + " ressurser"; }
+      }
+      [search, owner, status, type, capability].forEach(function(el){ if (el) { el.addEventListener("input", apply); el.addEventListener("change", apply); } });
+      apply();
+    })();
+  </script>
+</div>

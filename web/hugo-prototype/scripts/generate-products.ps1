@@ -69,11 +69,11 @@ function Get-RegisterEntries {
 
     $entries += [PSCustomObject]@{
       SortOrder = [int]$cells[0]
-      ResourceId = $cells[1]
-      Name = $cells[2]
-      Category = $cells[3]
-      ResourceType = $cells[4]
-      VersionLabel = $cells[7]
+      ResourceId = ($cells[1] -replace '`', '').Trim()
+      Name = ($cells[2] -replace '`', '').Trim()
+      Category = ($cells[3] -replace '`', '').Trim()
+      ResourceType = ($cells[4] -replace '`', '').Trim()
+      VersionLabel = ($cells[7] -replace '`', '').Trim()
       RelativePath = Get-RepoRelativePath -Path $fullPath
       FullPath = $fullPath
     }
@@ -197,69 +197,184 @@ function Extract-DisplayName {
   return (($Fallback -replace '-', ' ').Trim())
 }
 
-function Extract-CapabilitiesFromSection {
+function Html-Encode {
+  param([string]$Text)
+  if ($null -eq $Text) { return '' }
+  return [System.Net.WebUtility]::HtmlEncode($Text)
+}
+
+function Slugify-Value {
+  param([string]$Text)
+
+  if ($null -eq $Text) { $Text = '' }
+  $value = $Text.ToLowerInvariant().Trim()
+  if (-not $value) { return '' }
+
+  $normalized = $value.Normalize([Text.NormalizationForm]::FormD)
+  $sb = New-Object System.Text.StringBuilder
+  foreach ($ch in $normalized.ToCharArray()) {
+    $unicodeCategory = [Globalization.CharUnicodeInfo]::GetUnicodeCategory($ch)
+    if ($unicodeCategory -ne [Globalization.UnicodeCategory]::NonSpacingMark) {
+      [void]$sb.Append($ch)
+    }
+  }
+
+  $clean = $sb.ToString().Normalize([Text.NormalizationForm]::FormC)
+  $clean = $clean -replace '[^a-z0-9]+', '-'
+  $clean = $clean.Trim('-')
+  return $clean
+}
+
+function Extract-OwnerFromResourceId {
+  param([string]$ResourceId)
+
+  if ($ResourceId -match '^([A-Z0-9]+)-') {
+    return $Matches[1]
+  }
+
+  return 'UKJENT'
+}
+
+function Extract-CapabilityItemsFromSection {
   param([string[]]$Lines)
 
   $section = Extract-Section -Lines $Lines -Heading 'Kapabiliteter'
-  $items = New-Object System.Collections.Generic.List[string]
+  $items = New-Object System.Collections.Generic.List[object]
 
   foreach ($line in $section) {
     $trim = $line.Trim()
     if (-not $trim) { continue }
     if (-not $trim.StartsWith('- ')) { continue }
 
-    $clean = $trim.Substring(2).Trim()
-    $clean = $clean -replace '\*\*', ''
+    $clean = $trim.Substring(2).Trim() -replace '\*\*', ''
     if ($clean) {
-      $items.Add($clean)
+      $items.Add([PSCustomObject]@{ Label = $clean; Url = '' })
     }
   }
 
-  if ($items.Count -eq 0) {
-    return 'Ikke koblet til kapabilitetssider ennaa.'
-  }
-
-  return ($items -join ' | ')
+  return $items.ToArray()
 }
 
-function Extract-CapabilityLinks {
+function Get-CapabilityItems {
   param(
     [string]$RelativePath,
     [string[]]$Lines
   )
 
-  $links = New-Object System.Collections.Generic.List[string]
+  $items = New-Object System.Collections.Generic.List[object]
   $seen = @{}
+
   $productEntry = $productCapabilityMap.products |
     Where-Object { $_.relative_path -eq $RelativePath } |
     Select-Object -First 1
 
-  if (-not $productEntry) {
-    return (Extract-CapabilitiesFromSection -Lines $Lines)
-  }
+  if ($productEntry) {
+    foreach ($capability in $productEntry.capabilities) {
+      $label = ''
+      $url = ''
+      $key = ''
 
-  foreach ($capability in $productEntry.capabilities) {
-    if ($capability.subcapability_slug) {
-      $key = "{0}/{1}" -f $capability.capability_slug, $capability.subcapability_slug
-      if (-not $seen.ContainsKey($key)) {
-        $links.Add(("[{0}](../../kapabiliteter/{1}/{2}/)" -f $capability.subcapability_name, $capability.capability_slug, $capability.subcapability_slug))
-        $seen[$key] = $true
+      if ($capability.subcapability_slug) {
+        $label = $capability.subcapability_name
+        $url = "../../kapabiliteter/$($capability.capability_slug)/$($capability.subcapability_slug)/"
+        $key = "$($capability.capability_slug)/$($capability.subcapability_slug)"
+      } else {
+        $label = $capability.capability_name
+        $url = "../../kapabiliteter/$($capability.capability_slug)/"
+        $key = $capability.capability_slug
       }
-      continue
-    }
 
-    $key = $capability.capability_slug
-    if (-not $seen.ContainsKey($key)) {
-      $links.Add(("[{0}](../../kapabiliteter/{1}/)" -f $capability.capability_name, $capability.capability_slug))
+      if (-not $label) { continue }
+      if ($seen.ContainsKey($key)) { continue }
+
+      $items.Add([PSCustomObject]@{ Label = $label; Url = $url })
       $seen[$key] = $true
     }
   }
 
-  if ($links.Count -eq 0) {
-    return (Extract-CapabilitiesFromSection -Lines $Lines)
+  if ($items.Count -gt 0) {
+    return $items.ToArray()
   }
 
-  return ($links -join ' | ')
+  return (Extract-CapabilityItemsFromSection -Lines $Lines)
+}
+
+function Render-CapabilityChips {
+  param(
+    [object[]]$Items,
+    [int]$MaxVisible = 3
+  )
+
+  if (-not $Items -or $Items.Count -eq 0) {
+    return '<span class="capability-chip capability-chip--empty">Ikke koblet</span>'
+  }
+
+  $parts = @()
+  $visibleCount = [Math]::Min($Items.Count, $MaxVisible)
+  for ($i = 0; $i -lt $visibleCount; $i++) {
+    $item = $Items[$i]
+    $label = Html-Encode $item.Label
+    if ($item.Url) {
+      $parts += ("<a class=`"capability-chip`" href=`"{0}`">{1}</a>" -f $item.Url, $label)
+    } else {
+      $parts += ("<span class=`"capability-chip`">{0}</span>" -f $label)
+    }
+  }
+
+  if ($Items.Count -gt $MaxVisible) {
+    $remaining = $Items.Count - $MaxVisible
+    $parts += ("<span class=`"capability-chip capability-chip--more`">+{0}</span>" -f $remaining)
+  }
+
+  return ($parts -join ' ')
+}
+
+function Extract-StatusLabel {
+  param(
+    [string[]]$Lines,
+    [string]$Fallback
+  )
+
+  $section = Extract-Section -Lines $Lines -Heading 'Status/Livsfase'
+  foreach ($line in $section) {
+    $trim = ($line -replace '\*\*', '').Trim()
+    if (-not $trim) { continue }
+    if ($trim.StartsWith('- ')) { continue }
+    return $trim
+  }
+
+  return $Fallback
+}
+
+function Extract-PurposeLine {
+  param([string[]]$Lines)
+
+  $sections = @('Mandat og rolle', 'Formaal og normerende rolle', 'Formål og normerende rolle')
+  foreach ($heading in $sections) {
+    $section = Extract-Section -Lines $Lines -Heading $heading
+    foreach ($line in $section) {
+      $trim = ($line -replace '\*\*', '').Trim()
+      if (-not $trim) { continue }
+      if ($trim.StartsWith('- ')) { continue }
+      return (Shorten-OverviewDescription -Text $trim -MaxLength 200)
+    }
+  }
+
+  return ''
+}
+
+function Extract-PrimaryDocumentationLink {
+  param([string[]]$Lines)
+
+  $section = Extract-Section -Lines $Lines -Heading 'Lenke til dokumentasjon'
+  foreach ($line in $section) {
+    $trim = $line.Trim()
+    if ($trim -match 'https?://\S+') {
+      return $Matches[0].TrimEnd(')', '.', ',')
+    }
+  }
+
+  return ''
 }
 
 $latest = Get-RegisterEntries
@@ -322,28 +437,129 @@ foreach ($typeDef in $resourceTypeDefinitions) {
     ('Denne siden viser siste registrerte versjon av ressurser i kategorien **{0}**.' -f $typeDef.Title)
   )
 
+  $cardLines = New-Object System.Collections.Generic.List[string]
+  $ownerSet = New-Object System.Collections.Generic.HashSet[string]
+  $statusSet = New-Object System.Collections.Generic.HashSet[string]
+  $typeSet = New-Object System.Collections.Generic.HashSet[string]
+  $capabilitySet = New-Object System.Collections.Generic.HashSet[string]
+
   foreach ($p in $typeEntries) {
     $raw = Get-Content -Path $p.FullPath -Encoding utf8
     $displayName = Extract-DisplayName -Lines $raw -Fallback $p.Name
     $descriptionSection = Extract-Section -Lines $raw -Heading 'Kort beskrivelse'
     $shortDescription = Shorten-OverviewDescription -Text (Clean-ShortDescription -Section $descriptionSection)
-    $capabilityLinks = Extract-CapabilityLinks -RelativePath $p.RelativePath -Lines $raw
+    $owner = Extract-OwnerFromResourceId -ResourceId $p.ResourceId
+    $statusLabel = Extract-StatusLabel -Lines $raw -Fallback $p.VersionLabel
+    $purposeLine = Extract-PurposeLine -Lines $raw
+    $primaryDocUrl = Extract-PrimaryDocumentationLink -Lines $raw
+    $capabilityItems = @(Get-CapabilityItems -RelativePath $p.RelativePath -Lines $raw)
+
+    [void]$ownerSet.Add($owner)
+    [void]$statusSet.Add($statusLabel)
+    [void]$typeSet.Add($p.ResourceType)
+    foreach ($capability in $capabilityItems) {
+      if ($capability.Label) {
+        [void]$capabilitySet.Add($capability.Label)
+      }
+    }
 
     $blobUrl = ('{0}/{1}' -f $repoBlobBase, $p.RelativePath)
+    $capabilityHtml = Render-CapabilityChips -Items $capabilityItems -MaxVisible 3
+    $capabilitySearch = ($capabilityItems | ForEach-Object { $_.Label }) -join ' '
+    $searchable = ($displayName + ' ' + $p.ResourceId + ' ' + $owner + ' ' + $p.Category + ' ' + $p.ResourceType + ' ' + $shortDescription + ' ' + $capabilitySearch).ToLowerInvariant()
 
-    $typeIndex += ''
-    $typeIndex += ("## {0}" -f $displayName)
-    $typeIndex += ''
-    $typeIndex += ("**Ressurs-ID:** `{0}` | **Siste versjon:** `{1}` | [Markdown]({2})" -f $p.ResourceId, $p.VersionLabel, $blobUrl)
-    $typeIndex += ''
-    $typeIndex += ("**Kategori:** {0} | **Type:** {1}" -f $p.Category, $p.ResourceType)
-    $typeIndex += ''
-    $typeIndex += $shortDescription
-    $typeIndex += ''
-    $typeIndex += ("**Kapabiliteter:** {0}" -f $capabilityLinks)
-    $typeIndex += ''
-    $typeIndex += '---'
+    $cardLines.Add('<article class="resource-card" ' +
+      ('data-owner="{0}" ' -f (Html-Encode $owner)) +
+      ('data-status="{0}" ' -f (Html-Encode $statusLabel)) +
+      ('data-type="{0}" ' -f (Html-Encode $p.ResourceType)) +
+      ('data-capabilities="{0}" ' -f (Html-Encode ($capabilitySearch.ToLowerInvariant()))) +
+      ('data-search="{0}">' -f (Html-Encode $searchable)))
+    $cardLines.Add(('  <h2 class="resource-card__title">{0}</h2>' -f (Html-Encode $displayName)))
+    $cardLines.Add(('  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>{0}</code> | <strong>Siste versjon:</strong> {1} | <a href="{2}">Markdown</a></p>' -f (Html-Encode $p.ResourceId), (Html-Encode $p.VersionLabel), (Html-Encode $blobUrl)))
+    $cardLines.Add(('  <p class="resource-card__facts"><strong>Eier:</strong> {0} | <strong>Kategori:</strong> {1} | <strong>Type:</strong> {2}</p>' -f (Html-Encode $owner), (Html-Encode $p.Category), (Html-Encode $p.ResourceType)))
+    $cardLines.Add(('  <p class="resource-card__description">{0}</p>' -f (Html-Encode $shortDescription)))
+    if ($purposeLine) {
+      $cardLines.Add(('  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> {0}</p>' -f (Html-Encode $purposeLine)))
+    }
+    $cardLines.Add(('  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> {0}</p>' -f $capabilityHtml))
+    if ($primaryDocUrl) {
+      $cardLines.Add(('  <p class="resource-card__links"><a href="{0}">Offisiell lenke</a></p>' -f (Html-Encode $primaryDocUrl)))
+    }
+    $cardLines.Add('</article>')
   }
+
+  $ownerOptions = @($ownerSet | Sort-Object)
+  $statusOptions = @($statusSet | Sort-Object)
+  $typeOptions = @($typeSet | Sort-Object)
+  $capabilityOptions = @($capabilitySet | Sort-Object)
+
+  $typeIndex += ''
+  $typeIndex += ('<div class="resource-listing" data-section="{0}">' -f (Slugify-Value $typeDef.Slug))
+  $typeIndex += '  <div class="resource-filters">'
+  $typeIndex += '    <div class="resource-filters__row">'
+  $typeIndex += '      <label>Sok <input type="search" class="resource-filter" data-filter="search" placeholder="Navn, ID, type, kapabilitet" /></label>'
+  $typeIndex += '      <label>Eier <select class="resource-filter" data-filter="owner"><option value="">Alle</option>'
+  foreach ($option in $ownerOptions) {
+    $typeIndex += ('        <option value="{0}">{1}</option>' -f (Html-Encode $option), (Html-Encode $option))
+  }
+  $typeIndex += '      </select></label>'
+  $typeIndex += '      <label>Status <select class="resource-filter" data-filter="status"><option value="">Alle</option>'
+  foreach ($option in $statusOptions) {
+    $typeIndex += ('        <option value="{0}">{1}</option>' -f (Html-Encode $option), (Html-Encode $option))
+  }
+  $typeIndex += '      </select></label>'
+  $typeIndex += '      <label>Type <select class="resource-filter" data-filter="type"><option value="">Alle</option>'
+  foreach ($option in $typeOptions) {
+    $typeIndex += ('        <option value="{0}">{1}</option>' -f (Html-Encode $option), (Html-Encode $option))
+  }
+  $typeIndex += '      </select></label>'
+  $typeIndex += '      <label>Kapabilitet <select class="resource-filter" data-filter="capability"><option value="">Alle</option>'
+  foreach ($option in $capabilityOptions) {
+    $typeIndex += ('        <option value="{0}">{1}</option>' -f (Html-Encode $option), (Html-Encode $option))
+  }
+  $typeIndex += '      </select></label>'
+  $typeIndex += '    </div>'
+  $typeIndex += ('    <p class="resource-filters__result" data-role="count">Viser {0} av {0} ressurser</p>' -f $typeEntries.Count)
+  $typeIndex += '  </div>'
+  $typeIndex += '  <div class="resource-cards">'
+  $typeIndex += ($cardLines.ToArray())
+  $typeIndex += '  </div>'
+  $typeIndex += '  <script>'
+  $typeIndex += '    (function(){'
+  $typeIndex += '      var root = document.currentScript.closest(".resource-listing");'
+  $typeIndex += '      if (!root) { return; }'
+  $typeIndex += '      var cards = Array.prototype.slice.call(root.querySelectorAll(".resource-card"));'
+  $typeIndex += '      var count = root.querySelector("[data-role=count]");'
+  $typeIndex += '      var search = root.querySelector("[data-filter=search]");'
+  $typeIndex += '      var owner = root.querySelector("[data-filter=owner]");'
+  $typeIndex += '      var status = root.querySelector("[data-filter=status]");'
+  $typeIndex += '      var type = root.querySelector("[data-filter=type]");'
+  $typeIndex += '      var capability = root.querySelector("[data-filter=capability]");'
+  $typeIndex += '      function norm(v){ return (v || "").toLowerCase(); }'
+  $typeIndex += '      function apply(){'
+  $typeIndex += '        var q = norm(search && search.value);'
+  $typeIndex += '        var o = norm(owner && owner.value);'
+  $typeIndex += '        var s = norm(status && status.value);'
+  $typeIndex += '        var t = norm(type && type.value);'
+  $typeIndex += '        var c = norm(capability && capability.value);'
+  $typeIndex += '        var visible = 0;'
+  $typeIndex += '        cards.forEach(function(card){'
+  $typeIndex += '          var ok = true;'
+  $typeIndex += '          if (q && card.dataset.search.indexOf(q) === -1) ok = false;'
+  $typeIndex += '          if (o && norm(card.dataset.owner) !== o) ok = false;'
+  $typeIndex += '          if (s && norm(card.dataset.status) !== s) ok = false;'
+  $typeIndex += '          if (t && norm(card.dataset.type) !== t) ok = false;'
+  $typeIndex += '          if (c && norm(card.dataset.capabilities).indexOf(c) === -1) ok = false;'
+  $typeIndex += '          card.style.display = ok ? "block" : "none";'
+  $typeIndex += '          if (ok) visible += 1;'
+  $typeIndex += '        });'
+  $typeIndex += '        if (count) { count.textContent = "Viser " + visible + " av " + cards.length + " ressurser"; }'
+  $typeIndex += '      }'
+  $typeIndex += '      [search, owner, status, type, capability].forEach(function(el){ if (el) { el.addEventListener("input", apply); el.addEventListener("change", apply); } });'
+  $typeIndex += '      apply();'
+  $typeIndex += '    })();'
+  $typeIndex += '  </script>'
+  $typeIndex += '</div>'
 
   Set-Content -Path (Join-Path $typeDir '_index.md') -Value $typeIndex -Encoding utf8
 }
@@ -355,3 +571,4 @@ Get-ChildItem $outDir -File |
   Remove-Item -Force
 
 Write-Output ("Genererte oversikt for ressurser: {0}" -f $latest.Count)
+

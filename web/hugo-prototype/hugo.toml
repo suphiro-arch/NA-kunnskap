@@ -10,3 +10,6 @@ title = "Nasjonal arkitektur"
     startLevel = 2
     endLevel = 3
     ordered = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
