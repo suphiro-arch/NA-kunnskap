@@ -34,7 +34,9 @@ Kapabilitetsscriptet bygger:
 - mapping fra kapabiliteter til siste versjon av relevante produktbeskrivelser
 
 Produktscriptet bygger:
-- samlet oversikt over siste registrerte versjon per ressurs, basert på `produktnummerering.md`
+- en inngangsside for ressursoversikten
+- egne undersider for ressursene gruppert etter hovedtype
+- oversikter basert på `produktnummerering.md`
 
 Prinsippscriptet bygger:
 - websidens prinsippinnhold direkte fra `arkitektur/prinsipper/principles.md`
