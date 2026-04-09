@@ -155,14 +155,10 @@ Tillatte gap-typer:
 - Juridisk gap
 - Samordningsgap
 
-| Tiltak | Type (gjenbruk/videreutvikling/nyutvikling/avklaring) | Forventet effekt (høy/middels/lav) | Tidshorisont (kort/middels/lang) | Avhengigheter | Kobling til kapabilitet/prinsipp/produkt |
-|---|---|---|---|---|---|
-| [Tiltak] | [Sett inn] | [Sett inn] | [Sett inn] | [Sett inn] | [Sett inn] |
-| [Tiltak] | [Sett inn] | [Sett inn] | [Sett inn] | [Sett inn] | [Sett inn] |
-
-| Tiltak | Primær gap-type (produkt/semantisk/juridisk/samordning) | Begrunnelse for gap-typen |
-|---|---|---|
-| [Tiltak] | [Sett inn] | [Sett inn] |
+| Tiltak | Type (gjenbruk/videreutvikling/nyutvikling/avklaring) | Forventet effekt (høy/middels/lav) | Tidshorisont (kort/middels/lang) | Avhengigheter | Kobling til kapabilitet/prinsipp/produkt | Primær gap-type |
+|---|---|---|---|---|---|---|
+| [Tiltak] | [Sett inn] | [Sett inn] | [Sett inn] | [Sett inn] | [Sett inn] | [Sett inn] |
+| [Tiltak] | [Sett inn] | [Sett inn] | [Sett inn] | [Sett inn] | [Sett inn] | [Sett inn] |
 
 ### Prioritert liste
 
