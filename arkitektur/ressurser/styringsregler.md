@@ -162,7 +162,8 @@ Når en ny ressurs vurderes:
 
 ## Filnavn og identifikator
 - nye ressursfiler skal følge samme filnavnsmønster som øvrige nummererte beskrivelser i porteføljen
-- bruk løpenummer fra `arkitektur/produkter/produktnummerering.md` først i filnavnet når ressursen er registerført
+- bruk løpenummer fra `arkitektur/ressurser/produktnummerering.md` først i filnavnet når ressursen er registerført
 - anbefalt mønster er `NN-Navn-vX-forfatter.md` for operative og normerende ressurser
 - bruk ASCII i filnavn, men behold normal navngivning med store bokstaver der dette er etablert i produktnavnet, for eksempel `70-FINT-Felleskomponent-v1-codex.md`
 - unngå unummererte særnavn for nye ressursfiler når ressursen allerede har fått fastsatt løpenummer og ressurs-ID
+

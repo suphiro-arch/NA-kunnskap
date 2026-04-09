@@ -10,7 +10,6 @@ REPO_ROOT = Path(__file__).resolve().parents[3]
 CAPABILITIES_FILE = REPO_ROOT / 'arkitektur' / 'kapabiliteter' / 'capabilities.yaml'
 MAP_FILE = REPO_ROOT / 'arkitektur' / 'kapabiliteter' / 'produkt-kapabilitet-koblinger.yaml'
 SOURCE_DIRS = [
-    REPO_ROOT / 'arkitektur' / 'produkter' / 'produktbeskrivelser',
     REPO_ROOT / 'arkitektur' / 'ressurser' / 'operative-losninger-og-tjenester',
     REPO_ROOT / 'arkitektur' / 'ressurser' / 'normerende-ressurser',
     REPO_ROOT / 'arkitektur' / 'ressurser' / 'samarbeidsfora',

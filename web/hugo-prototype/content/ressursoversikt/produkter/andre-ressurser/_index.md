@@ -37,7 +37,7 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Andre re
   <p class="resource-card__facts"><strong>Eier:</strong> OPP | <strong>Kategori:</strong> Internasjonal fellesressurs | <strong>Type:</strong> Internasjonalt samhandlingsrammeverk</p>
   <p class="resource-card__description">Peppol eDelivery er et internasjonalt samhandlingsrammeverk for sikker og standardisert utveksling av elektroniske dokumenter mellom virksomheter. Ressursen er relevant n&#229;r en l&#248;sning trenger et felles transport- og adresseringsm&#248;nster for dokumentutveksling, s&#230;rlig i sammenheng med EHF og andre Peppol-baserte...</p>
   <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/">Meldingsformidling</a> <a class="capability-chip" href="../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/">Sikring av informasjonsflyt og datautveksling</a> <a class="capability-chip" href="../../kapabiliteter/standardisering/forvaltningsstandarder/">Forvaltningsstandarder</a> <span class="capability-chip capability-chip--more">+1</span></p>
-  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/11-Peppol-eDelivery-produkt-canvas-v3-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://peppol.org/">Offisiell lenke</a></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/11-Peppol-eDelivery-produkt-canvas-v3-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://peppol.org/">Offisiell lenke</a></p>
 </article>
   </div>
   <script>
@@ -73,3 +73,4 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Andre re
     })();
   </script>
 </div>
+

@@ -184,7 +184,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 ## OpenPeppol (`OPP`)
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Merknad | Kapabilitetstreff | Siste versjon | Dokument |
 |---:|---|---|---|---|---|---|---|---|
-| 11 | `OPP-001` | Peppol eDelivery | Internasjonal fellesressurs | Internasjonalt samhandlingsrammeverk | Internasjonal standard; Digdir er nasjonal Peppol Authority | Datautveksling og integrasjon: Meldingsformidling<br>Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling<br>Standardisering: Forvaltningsstandarder<br>Tillit: Identifisering | v3 (codex) | [Åpne](../../arkitektur/produkter/produktbeskrivelser/11-Peppol-eDelivery-produkt-canvas-v3-codex.md) |
+| 11 | `OPP-001` | Peppol eDelivery | Internasjonal fellesressurs | Internasjonalt samhandlingsrammeverk | Internasjonal standard; Digdir er nasjonal Peppol Authority | Datautveksling og integrasjon: Meldingsformidling<br>Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling<br>Standardisering: Forvaltningsstandarder<br>Tillit: Identifisering | v3 (codex) | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/11-Peppol-eDelivery-produkt-canvas-v3-codex.md) |
 
 ## EU / Europakommisjonen (`EU`)
 | Løpenr | Ressurs-ID | Navn | Ressurskategori | Type ressurs | Merknad | Kapabilitetstreff | Siste versjon | Dokument |

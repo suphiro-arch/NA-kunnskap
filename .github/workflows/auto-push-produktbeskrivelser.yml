@@ -1,9 +1,9 @@
-name: Auto-push Produktbeskrivelser
+﻿name: Auto-push Produktbeskrivelser
 
 on:
   push:
     paths:
-      - 'arkitektur/produkter/produktbeskrivelser/**'
+      - 'arkitektur/ressurser/operative-losninger-og-tjenester/**'
     branches:
       - main
   workflow_dispatch: # Manuell trigger
@@ -27,7 +27,7 @@ jobs:
       - name: Check for uncommitted changes in produktbeskrivelser
         id: check-changes
         run: |
-          if git status arkitektur/produkter/produktbeskrivelser/ | grep -q "modified:\|new file:"; then
+          if git status arkitektur/ressurser/operative-losninger-og-tjenester/ | grep -q "modified:\|new file:"; then
             echo "has_changes=true" >> $GITHUB_OUTPUT
           else
             echo "has_changes=false" >> $GITHUB_OUTPUT
@@ -36,7 +36,7 @@ jobs:
       - name: Stage and commit changes
         if: steps.check-changes.outputs.has_changes == 'true'
         run: |
-          git add arkitektur/produkter/produktbeskrivelser/
+          git add arkitektur/ressurser/operative-losninger-og-tjenester/
           git commit -m "chore: Auto-push endringer i Produktbeskrivelser
           
           - Automatisk commit fra GitHub Actions
@@ -49,3 +49,4 @@ jobs:
           git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+

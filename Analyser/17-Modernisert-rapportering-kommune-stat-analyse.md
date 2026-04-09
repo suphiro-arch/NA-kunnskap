@@ -520,7 +520,7 @@ Q4 2026:
 **Kilder vurdert i rekkefølge:**
 - ✅ `arkitektur/kapabiliteter/capabilities.yaml` (v.2026-02-27)
 - ✅ `arkitektur/prinsipper/principles.md` (sju prinsipper)
-- ✅ `arkitektur/produkter/produktnummerering.md` (full register)  
+- ✅ `arkitektur/ressurser/produktnummerering.md` (full register)  
 - ✅ Produktbeskrivelser: DIGDIR-002, DIGDIR-007, DIGDIR-008, DIGDIR-010, DIGDIR-011, DIGDIR-012, DIGDIR-013, NOVARI-001, KS-001, KS-002
 
 **Produktvurderinger basert på:**

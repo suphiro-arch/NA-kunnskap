@@ -1,6 +1,6 @@
-# Mal: arkitekturassistert analyse av utviklingsbehov
+﻿# Mal: arkitekturassistert analyse av utviklingsbehov
 
-Formål med malen:
+FormÃ¥l med malen:
 - kunne brukes som rask analyse
 - kunne utvides til beslutningsgrunnlag
 - sikre sporbar kobling mellom case, kapabiliteter, prinsipper og produkter i dette repoet
@@ -8,37 +8,37 @@ Formål med malen:
 Bruk denne malen sammen med:
 - `arkitektur/kapabiliteter/capabilities.yaml`
 - `arkitektur/prinsipper/principles.md`
-- `arkitektur/produkter/produktnummerering.md`
-- `arkitektur/produkter/produktbeskrivelser/`
+- `arkitektur/ressurser/produktnummerering.md`
+- `arkitektur/ressurser/operative-losninger-og-tjenester/`
 
-## 1. Formål
+## 1. FormÃ¥l
 
-Hjelpetekst: Beskriv hvorfor analysen gjennomføres, hvilket beslutningsbehov den skal dekke, og hvilken styring den skal understøtte.
+Hjelpetekst: Beskriv hvorfor analysen gjennomfÃ¸res, hvilket beslutningsbehov den skal dekke, og hvilken styring den skal understÃ¸tte.
 
-- Analyseformål: [Sett inn]
-- Beslutning analysen skal understøtte: [Sett inn]
+- AnalyseformÃ¥l: [Sett inn]
+- Beslutning analysen skal understÃ¸tte: [Sett inn]
 - Avgrensning: [Sett inn]
 
 ## 2. Input / casebeskrivelse
 
-Hjelpetekst: Beskriv caset kort og presist. Hold fokus på behov, ikke løsning.
+Hjelpetekst: Beskriv caset kort og presist. Hold fokus pÃ¥ behov, ikke lÃ¸sning.
 
 - Case-tittel: [Sett inn]
 - Kort casebeskrivelse: [Sett inn]
-- Berørte livshendelser / tjenester / overganger: [Sett inn]
+- BerÃ¸rte livshendelser / tjenester / overganger: [Sett inn]
 - Hovedutfordring i caset: [Sett inn]
 - Kildemateriale brukt: [Sett inn]
 
 ## 2.1 Inputgrunnlag og analysetillit
 
-Hjelpetekst: Vurder hvor solid inputgrunnlaget er, og hvor sikker konklusjonen kan være. Skill mellom usikkerhet i input, produktgrunnlag og juridisk/organisatorisk avklaring.
+Hjelpetekst: Vurder hvor solid inputgrunnlaget er, og hvor sikker konklusjonen kan vÃ¦re. Skill mellom usikkerhet i input, produktgrunnlag og juridisk/organisatorisk avklaring.
 
 | Vurderingspunkt | Vurdering |
 |---|---|
 | Inputgrunnlag | [Sett inn] |
 | Datagrunnlag | [Sett inn] |
 | Produktgrunnlag | [Sett inn] |
-| Samlet analysetillit (høy/middels/lav) | [Sett inn] |
+| Samlet analysetillit (hÃ¸y/middels/lav) | [Sett inn] |
 
 Viktigste usikkerheter (minst 3):
 - [Sett inn]
@@ -47,37 +47,37 @@ Viktigste usikkerheter (minst 3):
 
 ### 2.2 Avklaring: ett case eller flere
 
-Hjelpetekst: Avklar tidlig om innsendt tekst egentlig inneholder flere problemstillinger eller overganger. Hvis ja, splitt analysen før videre arbeid.
+Hjelpetekst: Avklar tidlig om innsendt tekst egentlig inneholder flere problemstillinger eller overganger. Hvis ja, splitt analysen fÃ¸r videre arbeid.
 
 - Er dette ett case eller flere separate case: [Sett inn]
 - Begrunnelse for vurderingen: [Sett inn]
 - Skal analysen splittes: [Ja/nei]
 - Hvis ja, navngi delcasene: [Sett inn]
 
-## 3. Målgruppe og styringsnivå
+## 3. MÃ¥lgruppe og styringsnivÃ¥
 
-Hjelpetekst: Angi hvem analysen skal skape verdi for, og hvilket nivå tiltakene skal styres på.
+Hjelpetekst: Angi hvem analysen skal skape verdi for, og hvilket nivÃ¥ tiltakene skal styres pÃ¥.
 
-- Primær målgruppe: [Sett inn]
-- Sekundær målgruppe: [Sett inn]
-- Styringsnivå (nasjonalt / sektor / virksomhet): [Sett inn]
+- PrimÃ¦r mÃ¥lgruppe: [Sett inn]
+- SekundÃ¦r mÃ¥lgruppe: [Sett inn]
+- StyringsnivÃ¥ (nasjonalt / sektor / virksomhet): [Sett inn]
 - Viktig avgrensning for tiltak: [Sett inn]
 
 ## 4. Problembilde
 
-Hjelpetekst: Oppsummer problemet og konsekvensene før du vurderer tiltak.
+Hjelpetekst: Oppsummer problemet og konsekvensene fÃ¸r du vurderer tiltak.
 
 ### 4.1 Hovedproblem
 
 [Sett inn 3-6 setninger]
 
-### 4.2 Konsekvenser for målgrupper
+### 4.2 Konsekvenser for mÃ¥lgrupper
 
 - [Sett inn]
 - [Sett inn]
 - [Sett inn]
 
-### 4.3 Konsekvenser for forvaltning og tjenesteutøvelse
+### 4.3 Konsekvenser for forvaltning og tjenesteutÃ¸velse
 
 - [Sett inn]
 - [Sett inn]
@@ -85,9 +85,9 @@ Hjelpetekst: Oppsummer problemet og konsekvensene før du vurderer tiltak.
 
 ## 5. Kapabilitetsanalyse
 
-Hjelpetekst: Koble caset direkte til kapabiliteter i `capabilities.yaml`. Vurder både relevans, gap og konsekvens.
+Hjelpetekst: Koble caset direkte til kapabiliteter i `capabilities.yaml`. Vurder bÃ¥de relevans, gap og konsekvens.
 
-| Kapabilitet | Relevans (høy/middels/lav) | Hva finnes i dag | Identifisert gap | Konsekvens for caset |
+| Kapabilitet | Relevans (hÃ¸y/middels/lav) | Hva finnes i dag | Identifisert gap | Konsekvens for caset |
 |---|---|---|---|---|
 | [Kapabilitet] | [Sett inn] | [Sett inn] | [Sett inn] | [Sett inn] |
 | [Kapabilitet] | [Sett inn] | [Sett inn] | [Sett inn] | [Sett inn] |
@@ -100,7 +100,7 @@ Hjelpetekst: Koble caset direkte til kapabiliteter i `capabilities.yaml`. Vurder
 
 ## 6. Prinsippvurdering
 
-Hjelpetekst: Vurder kun prinsipper som finnes i `principles.md`. Beskriv hvordan caset støtter, utfordrer eller bryter prinsippene.
+Hjelpetekst: Vurder kun prinsipper som finnes i `principles.md`. Beskriv hvordan caset stÃ¸tter, utfordrer eller bryter prinsippene.
 
 | Prinsipp | Status (oppfylt/delvis/brutt) | Hva finnes i dag | Hvordan caset utfordrer prinsippet |
 |---|---|---|---|
@@ -115,9 +115,9 @@ Hjelpetekst: Vurder kun prinsipper som finnes i `principles.md`. Beskriv hvordan
 
 Hjelpetekst: Bruk produktkatalogen som fasit for hva som finnes. Vurder relevante produkter systematisk og skill tydelig mellom gjenbruk, videreutvikling, ikke relevant og mangler.
 
-### 7.0 Vurderingsrekkefølge for produktkategorier
+### 7.0 VurderingsrekkefÃ¸lge for produktkategorier
 
-Hjelpetekst: Gå gjennom kategoriene i denne rekkefølgen for å sikre lik metode mellom analyser.
+Hjelpetekst: GÃ¥ gjennom kategoriene i denne rekkefÃ¸lgen for Ã¥ sikre lik metode mellom analyser.
 Viktig: Bruk `produktnummerering.md` som oversikt over hva som finnes, men begrunn produktvalg med innhold fra den konkrete produktbeskrivelsen der den finnes.
 Hvis produktbeskrivelsen mangler eller er for tynn, marker vurderingen som usikker.
 
@@ -127,43 +127,43 @@ Hvis produktbeskrivelsen mangler eller er for tynn, marker vurderingen som usikk
 4. Dialog og brukerflate (for eksempel Dialogporten, portaler)
 5. Register og datagrunnlag (for eksempel Folkeregisteret, NVB, sektorrelevante registre)
 6. Katalog og semantikk (for eksempel Felles datakatalog, Begrepskatalog, API-katalog)
-7. Sektorprodukter og domeneprodukter (for eksempel opptaksløsninger, fagsystemnære fellesløsninger)
+7. Sektorprodukter og domeneprodukter (for eksempel opptakslÃ¸sninger, fagsystemnÃ¦re felleslÃ¸sninger)
 
 ### 7.1 Vurderte produkter fra katalogen
 
-| Produkt (fra produktkatalogen) | Produktkategori | Relevans for caset | Kan brukes direkte | Bør videreutvikles | Ikke relevant | Begrunnelse |
+| Produkt (fra produktkatalogen) | Produktkategori | Relevans for caset | Kan brukes direkte | BÃ¸r videreutvikles | Ikke relevant | Begrunnelse |
 |---|---|---|---|---|---|---|
-| [Produkt] | [Sett inn] | [Høy/middels/lav] | [Ja/nei] | [Ja/nei] | [Ja/nei] | [Sett inn] |
-| [Produkt] | [Sett inn] | [Høy/middels/lav] | [Ja/nei] | [Ja/nei] | [Ja/nei] | [Sett inn] |
+| [Produkt] | [Sett inn] | [HÃ¸y/middels/lav] | [Ja/nei] | [Ja/nei] | [Ja/nei] | [Sett inn] |
+| [Produkt] | [Sett inn] | [HÃ¸y/middels/lav] | [Ja/nei] | [Ja/nei] | [Ja/nei] | [Sett inn] |
 
-### 7.2 Oppsummering: hva finnes, hva kan gjenbrukes, hva må videreutvikles
+### 7.2 Oppsummering: hva finnes, hva kan gjenbrukes, hva mÃ¥ videreutvikles
 
 - Hva finnes: [Sett inn]
 - Hva kan gjenbrukes direkte: [Sett inn]
-- Hva må videreutvikles: [Sett inn]
+- Hva mÃ¥ videreutvikles: [Sett inn]
 - Hva er ikke relevant i dette caset: [Sett inn]
 
-### 7.3 Eksplisitte mangler og behov for nye/sammensatte løsninger
+### 7.3 Eksplisitte mangler og behov for nye/sammensatte lÃ¸sninger
 
-| Identifisert mangel | Hvorfor mangelen oppstår | Konsekvens hvis ikke løst | Forslag til ny/sammensatt løsning | Kan bygge på eksisterende produkter |
+| Identifisert mangel | Hvorfor mangelen oppstÃ¥r | Konsekvens hvis ikke lÃ¸st | Forslag til ny/sammensatt lÃ¸sning | Kan bygge pÃ¥ eksisterende produkter |
 |---|---|---|---|---|
 | [Sett inn] | [Sett inn] | [Sett inn] | [Sett inn] | [Sett inn] |
 
-### 7.4 Sammensatte løsningsmønstre
+### 7.4 Sammensatte lÃ¸sningsmÃ¸nstre
 
-Hjelpetekst: Beskriv kombinasjoner av produkter som samlet kan løse behovet. Dette skal brukes før du foreslår nye produkter.
+Hjelpetekst: Beskriv kombinasjoner av produkter som samlet kan lÃ¸se behovet. Dette skal brukes fÃ¸r du foreslÃ¥r nye produkter.
 
-| Løsningsmønster | Produkter som inngår | Hva mønsteret dekker | Hva som fortsatt mangler |
+| LÃ¸sningsmÃ¸nster | Produkter som inngÃ¥r | Hva mÃ¸nsteret dekker | Hva som fortsatt mangler |
 |---|---|---|---|
 | [Sett inn] | [Sett inn] | [Sett inn] | [Sett inn] |
 
 ## 8. Tiltak prioritert etter effekt
 
-Hjelpetekst: Tiltak skal være sporbare til kapabilitetsgap, prinsippvurdering og produktvurdering.
+Hjelpetekst: Tiltak skal vÃ¦re sporbare til kapabilitetsgap, prinsippvurdering og produktvurdering.
 
 ### 8.0 Gap-type per tiltak
 
-Hjelpetekst: Klassifiser hvert tiltak med primær gap-type for å unngå at alle tiltak blir behandlet som teknisk utvikling.
+Hjelpetekst: Klassifiser hvert tiltak med primÃ¦r gap-type for Ã¥ unngÃ¥ at alle tiltak blir behandlet som teknisk utvikling.
 
 Tillatte gap-typer:
 - Produktgap
@@ -171,7 +171,7 @@ Tillatte gap-typer:
 - Juridisk gap
 - Samordningsgap
 
-| Tiltak | Type (gjenbruk/videreutvikling/nyutvikling/avklaring) | Forventet effekt (høy/middels/lav) | Tidshorisont (kort/middels/lang) | Avhengigheter | Kobling til kapabilitet/prinsipp/produkt | Primær gap-type |
+| Tiltak | Type (gjenbruk/videreutvikling/nyutvikling/avklaring) | Forventet effekt (hÃ¸y/middels/lav) | Tidshorisont (kort/middels/lang) | Avhengigheter | Kobling til kapabilitet/prinsipp/produkt | PrimÃ¦r gap-type |
 |---|---|---|---|---|---|---|
 | [Tiltak] | [Sett inn] | [Sett inn] | [Sett inn] | [Sett inn] | [Sett inn] | [Sett inn] |
 | [Tiltak] | [Sett inn] | [Sett inn] | [Sett inn] | [Sett inn] | [Sett inn] | [Sett inn] |
@@ -184,24 +184,24 @@ Tillatte gap-typer:
 
 ## 9. Strategisk vurdering
 
-Hjelpetekst: Løft analysen til styringsnivå. Beskriv konsekvenser for portefølje, nasjonal retning og samordning.
+Hjelpetekst: LÃ¸ft analysen til styringsnivÃ¥. Beskriv konsekvenser for portefÃ¸lje, nasjonal retning og samordning.
 
-- Betydning for porteføljeprioritering: [Sett inn]
+- Betydning for portefÃ¸ljeprioritering: [Sett inn]
 - Betydning for nasjonal arkitektur/felles retning: [Sett inn]
-- Behov for samordning mellom aktører: [Sett inn]
+- Behov for samordning mellom aktÃ¸rer: [Sett inn]
 
 ## 10. Konklusjon
 
-Hjelpetekst: Oppsummer i 5-8 setninger med tydelig svar på hva som bør gjøres videre.
+Hjelpetekst: Oppsummer i 5-8 setninger med tydelig svar pÃ¥ hva som bÃ¸r gjÃ¸res videre.
 
 [Sett inn]
 
 ## 11. Kortversjon for ledelse
 
-Hjelpetekst: Brukes når analysen skal leses raskt i styringsmøter.
+Hjelpetekst: Brukes nÃ¥r analysen skal leses raskt i styringsmÃ¸ter.
 
 - Case: [Sett inn]
-- Analysetillit: [Høy/middels/lav]
+- Analysetillit: [HÃ¸y/middels/lav]
 - Hovedfunn (1-3 setninger): [Sett inn]
 - Viktigste kapabilitetsgap: [Sett inn]
 - Mest relevante produkter for gjenbruk: [Sett inn]
@@ -211,21 +211,22 @@ Hjelpetekst: Brukes når analysen skal leses raskt i styringsmøter.
   2. [Sett inn]
   3. [Sett inn]
 
-## Bruksnivå (rask analyse og beslutningsgrunnlag)
+## BruksnivÃ¥ (rask analyse og beslutningsgrunnlag)
 
-### Nivå 1 - rask analyse
+### NivÃ¥ 1 - rask analyse
 
 Minimum som fylles ut:
 - problembilde
 - kapabilitetsanalyse
 - prinsippvurdering
-- foreløpig produktvurdering
+- forelÃ¸pig produktvurdering
 - prioriterte tiltak
 
-### Nivå 2 - beslutningsgrunnlag
+### NivÃ¥ 2 - beslutningsgrunnlag
 
 Utvid med:
 - full produktvurdering av relevante produktkategorier
-- eksplisitte mangler og behov for nye/sammensatte løsninger
+- eksplisitte mangler og behov for nye/sammensatte lÃ¸sninger
 - strategisk vurdering
 - kortversjon for ledelse
+

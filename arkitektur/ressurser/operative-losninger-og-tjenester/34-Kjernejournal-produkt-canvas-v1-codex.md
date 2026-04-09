@@ -1,4 +1,4 @@
-# Produkt-canvas: Kjernejournal
+﻿# Produkt-canvas: Kjernejournal
 
 ## Navn
 Kjernejournal
@@ -7,84 +7,84 @@ Kjernejournal
 NHN-003
 
 ## Status/Livsfase
-**Produksjon** - etablert nasjonal fellesløsning for deling av utvalgte helseopplysninger.
+**Produksjon** - etablert nasjonal felleslÃ¸sning for deling av utvalgte helseopplysninger.
 
-**Fakta:** NHN beskriver Kjernejournal som en nasjonal løsning som gir helsepersonell tilgang til sentrale helseopplysninger om pasienten når det er behov for det.
+**Fakta:** NHN beskriver Kjernejournal som en nasjonal lÃ¸sning som gir helsepersonell tilgang til sentrale helseopplysninger om pasienten nÃ¥r det er behov for det.
 
 ## Modenhet
-**Høy modenhet** - etablert nasjonal samhandlingsløsning i helsesektoren.
+**HÃ¸y modenhet** - etablert nasjonal samhandlingslÃ¸sning i helsesektoren.
 
 ## Kort beskrivelse
-Kjernejournal er den nasjonale fellesløsningen for å gjøre utvalgte og viktige helseopplysninger tilgjengelige på tvers av behandlingssteder. Produktet støtter tryggere og mer sammenhengende behandling ved at relevante opplysninger kan deles og brukes der pasienten mottar helsehjelp.
+Kjernejournal er den nasjonale felleslÃ¸sningen for Ã¥ gjÃ¸re utvalgte og viktige helseopplysninger tilgjengelige pÃ¥ tvers av behandlingssteder. Produktet stÃ¸tter tryggere og mer sammenhengende behandling ved at relevante opplysninger kan deles og brukes der pasienten mottar helsehjelp.
 
 ## Kapabiliteter
 - **Datautveksling og integrasjon: Bruke data fra andre**
 - **Datautveksling og integrasjon: Dele data med andre**
 - **Samarbeid: Organisatorisk samhandling**
 
-## Produktmål
-- gjøre kritiske helseopplysninger tilgjengelige ved behov
-- støtte tryggere behandling og bedre samhandling
+## ProduktmÃ¥l
+- gjÃ¸re kritiske helseopplysninger tilgjengelige ved behov
+- stÃ¸tte tryggere behandling og bedre samhandling
 - redusere informasjonsbrudd mellom behandlingssteder
 
 ## Brukerbehov
 - helsepersonell trenger rask tilgang til sentrale opplysninger
 - pasienter trenger tryggere og mer sammenhengende behandling
-- sektoren trenger felles informasjonsdeling på tvers av virksomheter
+- sektoren trenger felles informasjonsdeling pÃ¥ tvers av virksomheter
 
 ## Hvem er brukerne og brukersegmentene
-| Brukersegment | Primære behov | Bruksområde | Kommentar |
+| Brukersegment | PrimÃ¦re behov | BruksomrÃ¥de | Kommentar |
 |---|---|---|---|
-| Helsepersonell | Oppdaterte helseopplysninger | Behandling og oppfølging | Primærbrukere |
+| Helsepersonell | Oppdaterte helseopplysninger | Behandling og oppfÃ¸lging | PrimÃ¦rbrukere |
 | Pasienter | Trygg og sammenhengende behandling | Indirekte nytte og innsyn | Viktig sluttbrukerperspektiv |
 | Helsevirksomheter | Samhandling om pasientdata | Tjenesteyting og beredskap | Viktig sektorbruk |
 
 ## Hovedfunksjoner
-### Primære funksjoner
-**Deling av sentrale helseopplysninger.** Kjernejournal gjør viktige data tilgjengelige på tvers av behandlingssteder.
+### PrimÃ¦re funksjoner
+**Deling av sentrale helseopplysninger.** Kjernejournal gjÃ¸r viktige data tilgjengelige pÃ¥ tvers av behandlingssteder.
 
-**Felles nasjonal samhandlingsflate.** Produktet reduserer behovet for lokale punkt-til-punkt-løsninger for denne typen opplysninger.
+**Felles nasjonal samhandlingsflate.** Produktet reduserer behovet for lokale punkt-til-punkt-lÃ¸sninger for denne typen opplysninger.
 
 ### Scope og avgrensning
-| Inngår | Inngår ikke |
+| InngÃ¥r | InngÃ¥r ikke |
 |---|---|
-| Nasjonal deling av utvalgte helseopplysninger | Alle pasientjournalsystemer som sådan |
+| Nasjonal deling av utvalgte helseopplysninger | Alle pasientjournalsystemer som sÃ¥dan |
 | Samhandlingsflate for behandlingssituasjoner | Hele helsepersonells lokale arbeidsflate |
 
 ## Veikart over kommende funksjonalitet
-Ikke offentlig verifisert i denne arbeidsøkten.
+Ikke offentlig verifisert i denne arbeidsÃ¸kten.
 
 ## Forretningsverdi/Verdiforslag
 - styrker pasientsikkerhet og samhandling
-- gjør relevant informasjon tilgjengelig når det trengs
+- gjÃ¸r relevant informasjon tilgjengelig nÃ¥r det trengs
 - reduserer informasjonsbrudd i helsesektoren
 
 ## Utfordringer og risiko
-| Risikokategori | Konkret risiko | Håndtering |
+| Risikokategori | Konkret risiko | HÃ¥ndtering |
 |---|---|---|
 | Personvern | sensitiv informasjon krever streng kontroll | tilgangsstyring og sporbarhet |
-| Samhandling | ulike aktører og systemer må fungere sammen | nasjonal forvaltning og standardisering |
+| Samhandling | ulike aktÃ¸rer og systemer mÃ¥ fungere sammen | nasjonal forvaltning og standardisering |
 
 ## Kanaler
 - https://www.nhn.no/tjenester/kjernejournal/om-tjenesten
 - https://www.helsenorge.no/helseopplysninger-som-deles/kjernejournal/
 
 ## Plattform
-Kjernejournal er en nasjonal samhandlings- og delingsløsning for utvalgte pasientopplysninger.
+Kjernejournal er en nasjonal samhandlings- og delingslÃ¸sning for utvalgte pasientopplysninger.
 
 ## Gjenbruk
-**Høy gjenbruksverdi** i helsesektoren, men hovedsakelig sektorintern og sensitiv.
+**HÃ¸y gjenbruksverdi** i helsesektoren, men hovedsakelig sektorintern og sensitiv.
 
-## Støtter arkitekturprinsipper
+## StÃ¸tter arkitekturprinsipper
 - **P4: Del og gjenbruk data**
-- **P6: Lag digitale løsninger som støtter samhandling**
-- **P7: Sørg for tillit til oppgaveløsningen**
+- **P6: Lag digitale lÃ¸sninger som stÃ¸tter samhandling**
+- **P7: SÃ¸rg for tillit til oppgavelÃ¸sningen**
 
 ## Finansiering
-Ikke samlet verifisert i denne arbeidsøkten.
+Ikke samlet verifisert i denne arbeidsÃ¸kten.
 
 ## Forvaltning/eier
-| Ansvarsområde | Organisasjon / vurdering | Grunnlag |
+| AnsvarsomrÃ¥de | Organisasjon / vurdering | Grunnlag |
 |---|---|---|
 | Produktansvar | Norsk helsenett | produktsiden |
 
@@ -97,7 +97,8 @@ Ikke samlet verifisert i denne arbeidsøkten.
 - Lokal fil: `config/templates/produkt-canvas-template.md`
 - Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Lokal fil: `arkitektur/prinsipper/principles.md`
-- Lokal fil: `arkitektur/produkter/produktnummerering.md`
+- Lokal fil: `arkitektur/ressurser/produktnummerering.md`
 - Lokal fil: `sources/links.md`
 - Nettkilde: https://www.nhn.no/tjenester/kjernejournal/om-tjenesten (kontrollert 2026-03-27)
 - Nettkilde: https://www.helsenorge.no/helseopplysninger-som-deles/kjernejournal/ (kontrollert 2026-03-27)
+

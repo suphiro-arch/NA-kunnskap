@@ -1,11 +1,11 @@
-name: Publish Hugo Prototype to GitHub Pages
+﻿name: Publish Hugo Prototype to GitHub Pages
 
 on:
   push:
     branches: ["main"]
     paths:
       - "web/hugo-prototype/**"
-      - "arkitektur/produkter/produktbeskrivelser/**"
+      - "arkitektur/ressurser/operative-losninger-og-tjenester/**"
       - "arkitektur/**"
       - "config/prompts/**"
       - "config/templates/**"
@@ -71,3 +71,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
