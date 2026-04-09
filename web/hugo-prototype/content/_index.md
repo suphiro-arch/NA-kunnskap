@@ -31,11 +31,23 @@ Prototypen er særlig relevant for:
 - utviklingsteam som trenger oversikt over tilgjengelige fellesressurser
 - beslutningstakere som vil forstå koblingen mellom mål, prinsipper og virkemidler
 
-## Anbefalt lesevei
+## Hvordan ressursoversikten er generert
 
-1. Start med [Kapabiliteter](kapabiliteter/) for å få oversikt over hvilke evner modellen beskriver.
-2. Les [Prinsipper](prinsipper/) for å se hvilke føringer som bør styre utforming og prioritering.
-3. Gå videre til [Ressursoversikt](ressursoversikt/) for å finne produkter som understøtter kapabilitetene.
+Ressursoversikten i prototypen er delvis generert fra kildedata i repoet.
+
+Prosess i korte trekk:
+
+1. Ressurser registreres med ressurs-ID, type og dokumentlenke i registeret.
+2. Kapabilitetskoblinger hentes fra koblingsfilen og brukes som metadata i visningen.
+3. Genereringsscript bygger oversiktssider med filtrering, kapabilitetsvisning og lenker til detaljerte md-filer.
+
+Verktøy som brukes i dag:
+
+- PowerShell-script for generering av ressurssider.
+- Python-script for sammenstilling av kapabilitetssider og koblinger.
+- Hugo for bygging og visning av nettstedet.
+
+Denne løsningen er under stadig utvikling. Struktur, innhold og presentasjon justeres fortløpende etter hvert som ressursgrunnlaget modnes.
 
 ## Hvordan bruke prototypen
 
@@ -43,7 +55,7 @@ Bruk siden som et oppslagsverk, ikke som en lineær rapport.
 
 - Når du arbeider med en bestemt problemstilling, start i den seksjonen som svarer på behovet ditt.
 - Når du trenger sammenheng, bruk lenkene mellom kapabiliteter, prinsipper og produkter.
-- Når du leter etter konkrete virkemidler, gå til produktsamlingen og åpne siste versjon av relevant produktbeskrivelse.
+- Når du leter etter konkrete virkemidler, bruk [Ressursoversikt](ressursoversikt/) og åpne Full beskrivelse (md-fil) fra ressurskortet.
 
 ## Kildegrunnlag og avgrensning
 
@@ -51,6 +63,8 @@ Prototypen bygger foreløpig på innhold fra:
 
 - `arkitektur/kapabiliteter/capabilities.yaml`
 - `arkitektur/prinsipper/principles.md`
-- `arkitektur/produkter/produktbeskrivelser/`
+- `arkitektur/produkter/produktnummerering.md`
+- `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml`
+- `arkitektur/ressurser/`
 
 Dette er fortsatt en testflate. Målet nå er å gjøre strukturen tydelig og lesbar før innholdet utvides videre.
