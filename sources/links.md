@@ -1,7 +1,7 @@
 # Nasjonale fellestjenester og felleskomponenter
 
 Formål: Samlet lenkeliste over nasjonale fellesløsninger, sektorkilder og relevante standarder og veiledningsressurser.
-Sist redigert: 2026-03-19.
+Sist redigert: 2026-04-09.
 
 ## Fellesløsninger
 
@@ -264,10 +264,16 @@ Sist redigert: 2026-03-19.
 - Nasjonale felleskomponenter (samlet beskrivelse): https://had.no/prosjektveiviseren/Prosjektveiviseren/god-praksis/it-politiske-tema/nasjonale-felleskomponenter.html
 - Nasjonal arkitektur: https://www.digdir.no/samhandling/nasjonal-arkitektur/2150
 - Overordnede arkitekturprinsipper: https://www.digdir.no/samhandling/overordnede-arkitekturprinsipper/1065
+- Sjekkliste for sammenhengende tjenester: https://www.digdir.no/media/1850/download (lagt til 2026-04-09)
 - Rammeverk for digital samhandling: https://www.digdir.no/samhandling/rammeverk-digital-samhandling/2149
 - Referansearkitekturer: https://www.digdir.no/samhandling/referansearkitekturer/2131
+- Referansearkitektur forsendelse (eMelding): https://www.digdir.no/samhandling/referansearkitekturer/2131 (arbeidsutkast, lagt til 2026-04-09)
+- Referansearkitektur forespørsel-svar (eOppslag): https://www.digdir.no/samhandling/referansearkitekturer/2131 (arbeidsutkast, lagt til 2026-04-09)
 - Arkitektur for hendelser: https://www.digdir.no/samhandling/arkitektur-hendelser/4691
 - Kart for tjenestekjeder: https://www.digdir.no/samhandling/kart-tjenestekjeder/4168
+- Nasjonalt veikart: https://www.digdir.no/samhandling/nasjonal-arkitektur/2150 (arbeidsutkast, lagt til 2026-04-09)
+- Skate: https://www.digdir.no/skate/skate/1259 (lagt til 2026-04-09)
+- Skate-saker: https://www.digdir.no/skate/skate-saker/1269 (lagt til 2026-04-09)
 - Referansekatalogen for IT-standarder: https://www.digdir.no/digitalisering-og-samordning/referansekatalogen-it-standarder/1480
 - Arbeidsmetodikk for referansekatalogen: https://www.digdir.no/digitalisering-og-samordning/arbeidsmetodikk-referansekatalogen/5622
 - Arkitektur- og standardiseringsrådet: https://www.digdir.no/digitalisering-og-samordning/arkitektur-og-standardiseringsradet/3918
@@ -283,6 +289,7 @@ Sist redigert: 2026-03-19.
 ### EU interoperabilitet
 - Interoperable Europe Act: https://interoperable-europe.ec.europa.eu/Interoperable-Europe-Act-Regulation (lagt til 2026-03-18)
 - DIGITAL Building Blocks: https://interoperable-europe.ec.europa.eu/collection/digital-building-blocks (lagt til 2026-03-18)
+- Kunnskapsgrunnlag - dataspaces: https://interoperable-europe.ec.europa.eu/collection/digital-building-blocks (arbeidsutkast, lagt til 2026-04-09)
 - Core Vocabularies: https://interoperable-europe.ec.europa.eu/collection/semic-support-centre/solution/core-vocabularies (lagt til 2026-03-18)
 - Assessment Toolbox: https://interoperable-europe.ec.europa.eu/collection/assessments/assessment-toolbox (lagt til 2026-03-18)
 - Assessment reports repository: https://interoperable-europe.ec.europa.eu/collection/assessments/assessment-reports-repository (lagt til 2026-03-18)
@@ -290,6 +297,10 @@ Sist redigert: 2026-03-19.
 ### Informasjonsforvaltning og styring
 - Rammeverk for informasjonsforvaltning: https://www.digdir.no/digitalisering-og-samordning/rammeverk-informasjonsforvaltning/2419
 - Orden i eget hus: https://www.digdir.no/orden-eget-hus/orden-eget-hus/2717
+- Rammeverk - nasjonale grunndata: https://www.digdir.no/datadeling/slik-kommer-du-i-gang-med-bruke-data-fra-andre/2255 (arbeidsutkast, lagt til 2026-04-09)
+- Nasjonal verktøykasse for deling av data: https://www.digdir.no/datadeling/slik-blir-du-en-god-datatilbyder/2248 (arbeidsutkast, lagt til 2026-04-09)
+- Kunnskapsgrunnlag og KPI-er datadeling: https://www.digdir.no/datadeling/slik-kommer-du-i-gang-med-bruke-data-fra-andre/2255 (arbeidsutkast, lagt til 2026-04-09)
+- Kapabilitetskart (planlagt): https://www.digdir.no/samhandling/nasjonal-arkitektur/2150 (arbeidsutkast, lagt til 2026-04-09)
 - Digitaliseringsrundskrivet: https://www.digdir.no/styring-og-organisering/digitaliseringsrundskrivet/1230
 - Bruke data fra andre: https://www.digdir.no/datadeling/slik-kommer-du-i-gang-med-bruke-data-fra-andre/2255
 - Dele data med andre: https://www.digdir.no/datadeling/slik-blir-du-en-god-datatilbyder/2248

@@ -31,6 +31,8 @@ Overgangen er et strukturelt brudd der informasjon om elevens behov, tilretteleg
 - Dialogporten (DIGDIR-020) – dialoglag på tvers av forvaltningsnivå
 - FIKS-plattformen (KS-001) – kommunal integrasjon mot nasjonale komponenter
 - Maskinporten (DIGDIR-002) – sikker maskin-til-maskin-overføring
+- VIGO (NOVARI-004) – sentral sektorløsning for inntak og administrasjon i videregående
+- FINT Felleskomponent (NOVARI-001) – operativt integrasjonsmønster i fylkeskommunal sektor
 
 **Hva mangler:**
 - Felles semantisk modell og overgangsprotokoll for pedagogisk dokumentasjon
@@ -60,6 +62,20 @@ Overgangen er et strukturelt brudd der informasjon om elevens behov, tilretteleg
 - Berørte livshendelser: Avslutning av grunnskole, søknad og opptak til videregående, oppstart og tilrettelegging i nytt skoleslag
 - Hovedutfordring: Pedagogisk dokumentasjon og kunnskap om eleven når ikke frem til rett aktør til rett tid. Årsaken er en kombinasjon av uavklart hjemmelsgrunnlag, manglende felles begreper og usamordnede fagsystemer på tvers av forvaltningsgrensen.
 - Kildemateriale: Innlevert casebeskrivelse og innledende problembeskrivelse fra sektoren
+
+## 2.1 Inputgrunnlag og analysetillit
+
+| Vurderingspunkt | Vurdering |
+|---|---|
+| Inputgrunnlag | Konseptuelt case med tydelig problembeskrivelse, men begrenset dokumentasjon av nåsituasjon per aktør |
+| Datagrunnlag | Begrenset for presis effektmåling; egnet for retningsvalg og identifisering av gap |
+| Produktgrunnlag | Godt; basert på oppdatert produktkatalog og flere relevante sektor- og fellesprodukter |
+| Samlet analysetillit | Middels |
+
+Viktigste usikkerheter:
+- Juridisk hjemmelsgrunnlag for deling av pedagogisk dokumentasjon mellom forvaltningsnivå
+- Ulik modenhet i kommunale og fylkeskommunale systemlandskap
+- Manglende felles begreps- og datamodell for overgangsdata
 
 ## 3. Målgruppe og styringsnivå
 
@@ -146,6 +162,9 @@ P4, P5 og P6 er eksplisitt brutt. P3 og P7 er delvis oppfylt men blokkert av uav
 | Digital postkasse (DIGDIR-009) | Felleskomponent – utsendingstjeneste | Middels | Ja | Nei | Nei | Kommunikasjon av vedtak og dokumentasjon til foresatte |
 | Begrepskatalog (DIGDIR-012) | Fellesløsning – begrepsbeskrivelse | Høy | Nei | Ja | Nei | Plattformen finnes, men innhold for oppvekst og utdanning er ikke etablert |
 | FIKS-plattformen (KS-001) | Plattform – kommunal integrasjon | Høy | Ja | Nei | Nei | Bindeledd mellom kommunale fagsystemer og nasjonale tjenester |
+| VIGO (NOVARI-004) | Fellesløsning – inntak og administrasjon i videregående | Høy | Ja | Nei | Nei | Sentralt sektorsystem i videregående som må inngå i en sammenhengende overgangskjede |
+| FINT Felleskomponent (NOVARI-001) | Felleskomponent – fylkeskommunal integrasjon | Høy | Ja | Nei | Nei | Etablert operativt integrasjonsmønster i fylkeskommunal sektor som kan redusere behovet for punkt-til-punkt |
+| FINT Informasjonsmodell (NOVARI-003) | Referanseressurs – informasjonsmodell | Høy | Nei | Ja | Nei | Gir semantisk grunnlag, men må suppleres med overgangsbegreper for ungdomsskole til videregående |
 | FIKS Melding (KS-002) | Fellesløsning – meldingsutveksling | Middels | Ja | Nei | Nei | Aktuell for utgående meldinger fra kommunale fagsystemer |
 | FIKS Folkeregister (KS-008) | Fellesløsning – registertilgang | Høy | Ja | Nei | Nei | Grunndata om elever og foresatte via kommunal integrasjon |
 | Folkeregisteret (SKATT-001) | Register – persondata | Høy | Ja | Nei | Nei | Autoritativ kilde for grunndata om elever og foresatte |
@@ -160,9 +179,9 @@ P4, P5 og P6 er eksplisitt brutt. P3 og P7 er delvis oppfylt men blokkert av uav
 
 ### 7.2 Oppsummering
 
-- Hva finnes: Autentisering (Feide, ID-porten), hendelsesinfrastruktur (Altinn Events), dialoglag (Dialogporten), meldingsformidling (Altinn Melding, FIKS Melding), kommunal integrasjon (FIKS-plattformen), grunndata (Folkeregisteret, FIKS Folkeregister), begrepskatalogen som plattform
-- Hva kan gjenbrukes direkte: Feide, ID-porten, Maskinporten, Altinn Events, Dialogporten, Altinn Varsling, Altinn Melding, FIKS-plattformen, FIKS Folkeregister, Folkeregisteret, Nasjonalt utdanningsregister
-- Hva må videreutvikles: Altinn Autorisasjon (sektorprofil for representasjon av barn), Begrepskatalog (innhold for oppvekst og utdanning)
+- Hva finnes: Autentisering (Feide, ID-porten), hendelsesinfrastruktur (Altinn Events), dialoglag (Dialogporten), meldingsformidling (Altinn Melding, FIKS Melding), kommunal/fylkeskommunal integrasjon (FIKS-plattformen, FINT Felleskomponent), sentral sektorløsning for videregående (VIGO), grunndata (Folkeregisteret, FIKS Folkeregister), begrepskatalogen som plattform
+- Hva kan gjenbrukes direkte: Feide, ID-porten, Maskinporten, Altinn Events, Dialogporten, Altinn Varsling, Altinn Melding, FIKS-plattformen, FINT Felleskomponent, VIGO, FIKS Folkeregister, Folkeregisteret, Nasjonalt utdanningsregister
+- Hva må videreutvikles: Altinn Autorisasjon (sektorprofil for representasjon av barn), Begrepskatalog (innhold for oppvekst og utdanning), FINT Informasjonsmodell (utvidelser for overgangsdata)
 - Ikke relevant for dette caset: Nasjonal vitnemålsdatabase, Vitnemålsportalen, Opptaksløsninger, Felles studentsystem, eInnsyn, eSignering
 
 ### 7.3 Eksplisitte mangler
@@ -171,7 +190,7 @@ P4, P5 og P6 er eksplisitt brutt. P3 og P7 er delvis oppfylt men blokkert av uav
 |---|---|---|---|---|
 | Nasjonal overgangsprotokoll og semantisk modell for pedagogisk dokumentasjon | Ingen autoritativ kilde eller standardformat for IOP, tilretteleggingshistorikk og overgangsdata. Intet eksisterende produkt dekker dette innholdet | Tilretteleggingsinformasjon når ikke frem til ny skole – økt risiko for frafall | Felles informasjonsmodell og standardisering for overgangsdata, forvaltet som nasjonal ressurs | Begrepskatalog (DIGDIR-012), Felles datakatalog (DIGDIR-011), Maskinporten (DIGDIR-002) |
 | Samtykkehåndtering tilpasset sensitive opplysninger om barn | Altinn Autorisasjon er ikke tilpasset utdanningssektoren, særlig for barn under 18 og forholdet mellom barnets rettigheter og foreldreansvar | Aktørene deler ikke – nødvendig informasjon mangler i overgangen | Sektorprofil for samtykke og representasjon i utdanning | Altinn Autorisasjon (DIGDIR-004), ID-porten (DIGDIR-001), Feide (SIKT-001) |
-| Orkestrert tjenestekjede for hendelsesdrevet overgang | Events og Dialogporten finnes, men ingen sammensatt tjenestekjede for overgangen er etablert | Overgangen forblir manuell | Sammensatt tjenestekjede: Altinn Events som trigger, Dialogporten som dialoglag, Maskinporten for datautveksling | Altinn Events (DIGDIR-010), Dialogporten (DIGDIR-020), Maskinporten (DIGDIR-002) |
+| Orkestrert tjenestekjede for hendelsesdrevet overgang | Events, Dialogporten, VIGO og FINT finnes, men de er ikke koblet i en felles styrt flyt | Overgangen forblir manuell og lokalt ulik | Sammensatt tjenestekjede: Altinn Events som trigger, Dialogporten som dialoglag, Maskinporten for datautveksling, VIGO/FINT som sektornære komponenter | Altinn Events (DIGDIR-010), Dialogporten (DIGDIR-020), Maskinporten (DIGDIR-002), VIGO (NOVARI-004), FINT Felleskomponent (NOVARI-001) |
 | Felles begrepsmodell for oppvekst og utdanning | Begrepskatalogen finnes som plattform, men innholdet for sektoren er ikke etablert | Systemene forstår ikke hverandre – manuell oversettelse vedvarer | Etablering av autoritativt begrepssett for oppvekst og utdanning | Begrepskatalog (DIGDIR-012), Felles datakatalog (DIGDIR-011) |
 
 ## 8. Tiltak prioritert etter effekt
@@ -183,13 +202,14 @@ P4, P5 og P6 er eksplisitt brutt. P3 og P7 er delvis oppfylt men blokkert av uav
 | Definere datamodell for overgangsdata | Avklaring + nyutvikling | Høy | Middels | Juridisk avklaring og begrepssett | Informasjonsforvaltning: Informasjonsarkitektur / P4 / Felles datakatalog (DIGDIR-011) | Semantisk gap |
 | Pilotere hendelsesdrevet overgang med Altinn Events og Dialogporten | Gjenbruk + sammensatt | Høy | Middels | Datamodell og juridisk avklaring | Sluttbrukertjenester: Tjenestekjeder / P6 / Altinn Events + Dialogporten + Maskinporten | Samordningsgap |
 | Integrere FIKS-plattformen og Maskinporten for elevdatadeling på tvers av forvaltningsnivå | Gjenbruk | Middels | Middels | Datamodell | Datautveksling og integrasjon / P4, P5 / FIKS (KS-001) + Maskinporten (DIGDIR-002) | Samordningsgap |
+| Etablere samordnet integrasjonsmønster mellom VIGO, FINT og nasjonale felleskomponenter | Gjenbruk + samordning | Høy | Middels | Datamodell, juridisk avklaring, sektorsamordning | P5, P6 / VIGO (NOVARI-004) + FINT Felleskomponent (NOVARI-001) + Altinn Events (DIGDIR-010) | Samordningsgap |
 | Etablere sektorprofil for representasjon av barn i Altinn Autorisasjon | Videreutvikling | Middels | Middels | Juridisk avklaring | Tillit: Representasjon og samtykke / P7 / Altinn Autorisasjon (DIGDIR-004) | Produktgap |
 
 ### Prioritert liste
 
 1. Juridisk avklaring av hjemmelsgrunnlag – forutsetning for alle tekniske tiltak
 2. Felles begrepssett og datamodell – nødvendig premiss for integrasjon
-3. Pilot på hendelsesdrevet overgang – demonstrerer at orkestrering er mulig med det som allerede finnes
+3. Pilot på hendelsesdrevet overgang med VIGO/FINT i løypa – demonstrerer at sektorløsninger og nasjonale komponenter kan fungere sammen
 
 ## 9. Strategisk vurdering
 
@@ -199,4 +219,4 @@ P4, P5 og P6 er eksplisitt brutt. P3 og P7 er delvis oppfylt men blokkert av uav
 
 ## 10. Konklusjon
 
-Overgangen fra ungdomsskole til videregående er et strukturert informasjonsbrudd som kan adresseres med produkter som allerede finnes i den nasjonale produktkatalogen. Det tekniske potensialet er til stede: Feide, Maskinporten, Altinn Events, Dialogporten og FIKS-plattformen kan tilsammen bygge en sammenhengende og hendelsesdrevet overgangsflyt. Men potensialet er ikke realiserbart før juridisk hjemmelsgrunnlag er avklart og en felles semantisk modell for overgangsdata er etablert. Disse to ikke-tekniske tiltakene er forutsetningen for alt annet. Uten dem vil kommuner og fylkeskommuner fortsette å løse overgangen lokalt, med ulike systemer og begreper, og informasjon om barn med tilretteleggingsbehov vil fortsette å gå tapt i overgangen.
+Overgangen fra ungdomsskole til videregående er et strukturert informasjonsbrudd som kan adresseres med produkter som allerede finnes i den nasjonale produktkatalogen. Det tekniske potensialet er til stede: Feide, Maskinporten, Altinn Events, Dialogporten, FIKS-plattformen, VIGO og FINT Felleskomponent kan tilsammen bygge en sammenhengende og hendelsesdrevet overgangsflyt. Men potensialet er ikke realiserbart før juridisk hjemmelsgrunnlag er avklart og en felles semantisk modell for overgangsdata er etablert. Disse to ikke-tekniske tiltakene er forutsetningen for alt annet. Uten dem vil kommuner og fylkeskommuner fortsette å løse overgangen lokalt, med ulike systemer og begreper, og informasjon om barn med tilretteleggingsbehov vil fortsette å gå tapt i overgangen.

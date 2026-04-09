@@ -29,7 +29,23 @@ Hjelpetekst: Beskriv caset kort og presist. Hold fokus på behov, ikke løsning.
 - Hovedutfordring i caset: [Sett inn]
 - Kildemateriale brukt: [Sett inn]
 
-### 2.1 Avklaring: ett case eller flere
+## 2.1 Inputgrunnlag og analysetillit
+
+Hjelpetekst: Vurder hvor solid inputgrunnlaget er, og hvor sikker konklusjonen kan være. Skill mellom usikkerhet i input, produktgrunnlag og juridisk/organisatorisk avklaring.
+
+| Vurderingspunkt | Vurdering |
+|---|---|
+| Inputgrunnlag | [Sett inn] |
+| Datagrunnlag | [Sett inn] |
+| Produktgrunnlag | [Sett inn] |
+| Samlet analysetillit (høy/middels/lav) | [Sett inn] |
+
+Viktigste usikkerheter (minst 3):
+- [Sett inn]
+- [Sett inn]
+- [Sett inn]
+
+### 2.2 Avklaring: ett case eller flere
 
 Hjelpetekst: Avklar tidlig om innsendt tekst egentlig inneholder flere problemstillinger eller overganger. Hvis ja, splitt analysen før videre arbeid.
 
@@ -185,6 +201,7 @@ Hjelpetekst: Oppsummer i 5-8 setninger med tydelig svar på hva som bør gjøres
 Hjelpetekst: Brukes når analysen skal leses raskt i styringsmøter.
 
 - Case: [Sett inn]
+- Analysetillit: [Høy/middels/lav]
 - Hovedfunn (1-3 setninger): [Sett inn]
 - Viktigste kapabilitetsgap: [Sett inn]
 - Mest relevante produkter for gjenbruk: [Sett inn]
