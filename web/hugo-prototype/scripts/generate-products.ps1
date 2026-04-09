@@ -6,6 +6,32 @@ $mapFile = 'arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml'
 $repoBlobBase = 'https://github.com/suphiro-arch/NA-kunnskap/blob/main'
 $repoRoot = (Resolve-Path '.').Path
 $registerBase = Split-Path -Parent (Join-Path $repoRoot $registerFile)
+$resourceTypeDefinitions = @(
+  [PSCustomObject]@{
+    Slug = 'operative-losninger-og-tjenester'
+    Title = 'Operative løsninger og tjenester'
+    Description = 'Ressurser som brukes direkte i drift, integrasjon eller løsningsdesign.'
+    Weight = 1
+  },
+  [PSCustomObject]@{
+    Slug = 'normerende-ressurser'
+    Title = 'Normerende ressurser'
+    Description = 'Ressurser som primært gir føringer for modeller, standarder, arkitektur og samordning.'
+    Weight = 2
+  },
+  [PSCustomObject]@{
+    Slug = 'samarbeidsfora'
+    Title = 'Samarbeidsfora'
+    Description = 'Arenaer for koordinering, prioritering og samordning på tvers av aktører.'
+    Weight = 3
+  },
+  [PSCustomObject]@{
+    Slug = 'andre-ressurser'
+    Title = 'Andre ressurser'
+    Description = 'Ressurser som foreløpig ikke er plassert i egen ressursmappe med tydelig hovedtype.'
+    Weight = 4
+  }
+)
 
 New-Item -ItemType Directory -Force -Path $outDir | Out-Null
 $productCapabilityMap = Get-Content -Raw $mapFile -Encoding utf8 | ConvertFrom-Json
@@ -54,6 +80,24 @@ function Get-RegisterEntries {
   }
 
   return $entries | Sort-Object SortOrder
+}
+
+function Get-ResourceTypeInfo {
+  param([string]$RelativePath)
+
+  if ($RelativePath -match '^arkitektur/ressurser/operative-losninger-og-tjenester/') {
+    return $resourceTypeDefinitions | Where-Object { $_.Slug -eq 'operative-losninger-og-tjenester' } | Select-Object -First 1
+  }
+
+  if ($RelativePath -match '^arkitektur/ressurser/normerende-ressurser/') {
+    return $resourceTypeDefinitions | Where-Object { $_.Slug -eq 'normerende-ressurser' } | Select-Object -First 1
+  }
+
+  if ($RelativePath -match '^arkitektur/ressurser/samarbeidsfora/') {
+    return $resourceTypeDefinitions | Where-Object { $_.Slug -eq 'samarbeidsfora' } | Select-Object -First 1
+  }
+
+  return $resourceTypeDefinitions | Where-Object { $_.Slug -eq 'andre-ressurser' } | Select-Object -First 1
 }
 
 function Extract-Section {
@@ -220,6 +264,13 @@ function Extract-CapabilityLinks {
 
 $latest = Get-RegisterEntries
 
+foreach ($entry in $latest) {
+  $typeInfo = Get-ResourceTypeInfo -RelativePath $entry.RelativePath
+  Add-Member -InputObject $entry -NotePropertyName ResourceTypeSlug -NotePropertyValue $typeInfo.Slug
+  Add-Member -InputObject $entry -NotePropertyName ResourceTypeTitle -NotePropertyValue $typeInfo.Title
+  Add-Member -InputObject $entry -NotePropertyName ResourceTypeDescription -NotePropertyValue $typeInfo.Description
+}
+
 $index = @(
   '---',
   'title: "Ressurser"',
@@ -234,30 +285,67 @@ $index = @(
   '',
   'Bruk siden for aa finne riktig ressursbeskrivelse raskt, og gaa derfra videre til detaljene i markdownfilen paa GitHub eller via relevante kapabilitetssider.',
   '',
-  'Ressursene er presentert som egne oversiktsblokker, slik at kapabilitetene kan leses som en del av ressursens kontekst i stedet for som en smal tabellkolonne.'
+  'Ressursene er gruppert etter hovedtype, med egne undersider for operative løsninger og tjenester, normerende ressurser og samarbeidsfora.'
 )
 
-foreach ($p in $latest) {
-  $raw = Get-Content -Path $p.FullPath -Encoding utf8
-  $displayName = Extract-DisplayName -Lines $raw -Fallback $p.Name
-  $descriptionSection = Extract-Section -Lines $raw -Heading 'Kort beskrivelse'
-  $shortDescription = Shorten-OverviewDescription -Text (Clean-ShortDescription -Section $descriptionSection)
-  $capabilityLinks = Extract-CapabilityLinks -RelativePath $p.RelativePath -Lines $raw
-
-  $blobUrl = ('{0}/{1}' -f $repoBlobBase, $p.RelativePath)
+foreach ($typeDef in $resourceTypeDefinitions) {
+  $typeEntries = @($latest | Where-Object { $_.ResourceTypeSlug -eq $typeDef.Slug })
+  if ($typeEntries.Count -eq 0) { continue }
 
   $index += ''
-  $index += ("## {0}" -f $displayName)
+  $index += ("## [{0}](./{1}/)" -f $typeDef.Title, $typeDef.Slug)
   $index += ''
-  $index += ("**Ressurs-ID:** `{0}` | **Siste versjon:** `{1}` | [Markdown]({2})" -f $p.ResourceId, $p.VersionLabel, $blobUrl)
+  $index += $typeDef.Description
   $index += ''
-  $index += ("**Kategori:** {0} | **Type:** {1}" -f $p.Category, $p.ResourceType)
-  $index += ''
-  $index += $shortDescription
-  $index += ''
-  $index += ("**Kapabiliteter:** {0}" -f $capabilityLinks)
-  $index += ''
-  $index += '---'
+  $index += ("Antall ressurser: **{0}**" -f $typeEntries.Count)
+}
+
+foreach ($typeDef in $resourceTypeDefinitions) {
+  $typeEntries = @($latest | Where-Object { $_.ResourceTypeSlug -eq $typeDef.Slug })
+  if ($typeEntries.Count -eq 0) { continue }
+
+  $typeDir = Join-Path $outDir $typeDef.Slug
+  New-Item -ItemType Directory -Force -Path $typeDir | Out-Null
+
+  $typeIndex = @(
+    '---',
+    ('title: "{0}"' -f $typeDef.Title),
+    ('weight: {0}' -f $typeDef.Weight),
+    ('description: "{0}"' -f $typeDef.Description),
+    'hideToc: true',
+    '---',
+    '',
+    ('# {0}' -f $typeDef.Title),
+    '',
+    $typeDef.Description,
+    '',
+    ('Denne siden viser siste registrerte versjon av ressurser i kategorien **{0}**.' -f $typeDef.Title)
+  )
+
+  foreach ($p in $typeEntries) {
+    $raw = Get-Content -Path $p.FullPath -Encoding utf8
+    $displayName = Extract-DisplayName -Lines $raw -Fallback $p.Name
+    $descriptionSection = Extract-Section -Lines $raw -Heading 'Kort beskrivelse'
+    $shortDescription = Shorten-OverviewDescription -Text (Clean-ShortDescription -Section $descriptionSection)
+    $capabilityLinks = Extract-CapabilityLinks -RelativePath $p.RelativePath -Lines $raw
+
+    $blobUrl = ('{0}/{1}' -f $repoBlobBase, $p.RelativePath)
+
+    $typeIndex += ''
+    $typeIndex += ("## {0}" -f $displayName)
+    $typeIndex += ''
+    $typeIndex += ("**Ressurs-ID:** `{0}` | **Siste versjon:** `{1}` | [Markdown]({2})" -f $p.ResourceId, $p.VersionLabel, $blobUrl)
+    $typeIndex += ''
+    $typeIndex += ("**Kategori:** {0} | **Type:** {1}" -f $p.Category, $p.ResourceType)
+    $typeIndex += ''
+    $typeIndex += $shortDescription
+    $typeIndex += ''
+    $typeIndex += ("**Kapabiliteter:** {0}" -f $capabilityLinks)
+    $typeIndex += ''
+    $typeIndex += '---'
+  }
+
+  Set-Content -Path (Join-Path $typeDir '_index.md') -Value $typeIndex -Encoding utf8
 }
 
 Set-Content -Path (Join-Path $outDir '_index.md') -Value $index -Encoding utf8
