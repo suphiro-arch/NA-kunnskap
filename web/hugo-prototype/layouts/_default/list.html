@@ -39,7 +39,7 @@
 </section>
 {{ end }}
 
-{{ if and (gt (len $pages) 0) (not $isCapabilitySection) }}
+{{ if and (gt (len $pages) 0) (not $isCapabilitySection) (not .IsHome) }}
 <section class="section-overview">
   <div class="section-overview__header">
     <h2>{{ if .IsHome }}Seksjoner{{ else }}I Denne Seksjonen{{ end }}</h2>
