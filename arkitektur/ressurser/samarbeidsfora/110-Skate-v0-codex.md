@@ -13,7 +13,7 @@ Tverrsektoriell samordningsarena
 **Under utvikling (paabegynt)** - kortutkast for testing av visning pa nett og bruk i analyser.
 
 ## Kort beskrivelse
-Skate er en nasjonal samordningsarena der toppledere i offentlig sektor drÃ¸fter felles utfordringer, prioriteringer og retning for digitalisering.
+Skate er en nasjonal samordningsarena der toppledere i offentlig sektor drøfter felles utfordringer, prioriteringer og retning for digitalisering.
 
 ## Mandat og rolle
 Ressursen er opprettet som et kort paabegynt utkast for a kunne kobles i analyser. Innholdet skal utdypes med mandat, deltakere, arbeidsform og beslutningslinjer i neste iterasjon.
@@ -30,4 +30,5 @@ Ressursen er opprettet som et kort paabegynt utkast for a kunne kobles i analyse
 - sources/links.md, kontrollert 2026-04-09
 - arkitektur/ressurser/produktnummerering.md, kontrollert 2026-04-09
 - https://www.digdir.no/skate/skate/1259, kontrollert 2026-04-09
+
 

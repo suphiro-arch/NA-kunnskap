@@ -2,7 +2,7 @@
 date: 2026-04-09
 author: codex
 status: gjennomfort
-topic: fjerde sektorvise flyttelÃ¸p for helsesektoren
+topic: fjerde sektorvise flytteløp for helsesektoren
 sources:
   - arkitektur/ressurser/produktnummerering.md
   - arkitektur/ressurser/operative-losninger-og-tjenester/
@@ -11,33 +11,33 @@ sources:
   - briefs/arbeidsstyring-og-handover/2026-04-09-sikt-flyttelop-v1.md
 ---
 
-# Fjerde sektorvise flyttelÃ¸p: Helsesektoren
+# Fjerde sektorvise flytteløp: Helsesektoren
 
-Dette notatet samler fÃ¸rste flyttelÃ¸p for helseomrÃ¥det pÃ¥ tvers av flere eiere.
+Dette notatet samler første flytteløp for helseområdet på tvers av flere eiere.
 
 ## Valgt bolk
 
-Fjerde flyttelÃ¸p er en samlet **helsebolk** for:
+Fjerde flytteløp er en samlet **helsebolk** for:
 - Helsedirektoratet (`HDIR`)
 - Norsk helsenett (`NHN`)
 - Helfo (`HELFO`)
 
 Begrunnelse:
 - hver delbolk er liten alene
-- ressursene hÃ¸rer til samme overordnede sektorlandskap
-- samlet flytting gir mer mening enn tre smÃ¥, separate lÃ¸p
+- ressursene hører til samme overordnede sektorlandskap
+- samlet flytting gir mer mening enn tre små, separate løp
 
 ## Arbeidsregler
 
 - bare siste registrerte versjon flyttes
-- eldre versjoner blir stÃ¥ende i `arkitektur/ressurser/operative-losninger-og-tjenester/`
-- filnavn beholdes uendret i dette lÃ¸pet
-- mÃ¥lmappe er `arkitektur/ressurser/operative-losninger-og-tjenester/`
+- eldre versjoner blir stående i `arkitektur/ressurser/operative-losninger-og-tjenester/`
+- filnavn beholdes uendret i dette løpet
+- målmappe er `arkitektur/ressurser/operative-losninger-og-tjenester/`
 - `arkitektur/ressurser/produktnummerering.md` forblir registermaster
 
-## Kandidater i helse-lÃ¸pet
+## Kandidater i helse-løpet
 
-| LÃ¸penr | Ressurs-ID | Navn | NÃ¥vÃ¦rende fil | ForeslÃ¥tt mÃ¥l |
+| Løpenr | Ressurs-ID | Navn | Nåværende fil | Foreslått mål |
 |---:|---|---|---|---|
 | 31 | `HDIR-001` | Helsedata.no | `arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v1-codex.md` | `arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v1-codex.md` |
 | 32 | `NHN-001` | Helsenorge | `arkitektur/ressurser/operative-losninger-og-tjenester/32-Helsenorge-produkt-canvas-v1-codex.md` | `arkitektur/ressurser/operative-losninger-og-tjenester/32-Helsenorge-produkt-canvas-v1-codex.md` |
@@ -49,27 +49,28 @@ Begrunnelse:
 
 Totalt: **7 filer**
 
-## GjennomfÃ¸ringsrekkefÃ¸lge
+## Gjennomføringsrekkefølge
 
 1. Flytt de 7 siste helsefilene til `arkitektur/ressurser/operative-losninger-og-tjenester/`
 2. Oppdater dokumentlenker i `produktnummerering.md`
 3. Oppdater relative stier og GitHub-lenker i `produkt-kapabilitet-koblinger.yaml`
 4. Regenerer ressursoversikt og kapabilitetssider
-5. KjÃ¸r tegnkodingskontroll
+5. Kjør tegnkodingskontroll
 6. Kontroller at relevante webfiler faktisk peker riktig etter generering
 
-## Status etter gjennomfÃ¸ring 2026-04-09
+## Status etter gjennomføring 2026-04-09
 
-Helse-lÃ¸pet er nÃ¥ gjennomfÃ¸rt som fjerde sektorvise migrering.
+Helse-løpet er nå gjennomført som fjerde sektorvise migrering.
 
-GjennomfÃ¸rt:
+Gjennomført:
 - 7 siste helsefiler er flyttet fra `arkitektur/ressurser/operative-losninger-og-tjenester/` til `arkitektur/ressurser/operative-losninger-og-tjenester/`
 - dokumentlenker i `arkitektur/ressurser/produktnummerering.md` er oppdatert
 - relative stier og GitHub-lenker i `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml` er oppdatert
 - webgrunnlaget er regenerert
-- tegnkodingskontroll er kjÃ¸rt uten feil
-- relevante webfiler for helseomrÃ¥det er kontrollert etter generering og peker riktig
+- tegnkodingskontroll er kjørt uten feil
+- relevante webfiler for helseområdet er kontrollert etter generering og peker riktig
 
 Ikke verifisert lokalt:
-- full Hugo-build, fordi `hugo` ikke er installert i dette miljÃ¸et
+- full Hugo-build, fordi `hugo` ikke er installert i dette miljøet
+
 

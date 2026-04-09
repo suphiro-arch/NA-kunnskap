@@ -2,7 +2,7 @@
 date: 2026-04-09
 author: codex
 status: gjennomfort
-topic: femte sektorvise flyttelop for gjenvÃ¦rende operative bolker
+topic: femte sektorvise flyttelop for gjenværende operative bolker
 sources:
   - arkitektur/ressurser/produktnummerering.md
   - arkitektur/ressurser/operative-losninger-og-tjenester/
@@ -12,9 +12,9 @@ sources:
   - briefs/arbeidsstyring-og-handover/2026-04-09-helse-flyttelop-v1.md
 ---
 
-# Femte flyttelop: gjenvÃ¦rende operative bolker
+# Femte flyttelop: gjenværende operative bolker
 
-Dette notatet samler de gjenvÃ¦rende smÃ¥ operative bolkene i ett siste flyttelop.
+Dette notatet samler de gjenværende små operative bolkene i ett siste flyttelop.
 
 ## Valgt bolk
 
@@ -28,20 +28,20 @@ Femte flyttelop samler:
 
 Begrunnelse:
 - hver delbolk er liten alene
-- de resterende operative beskrivelsene er fÃ¥ nok til Ã¥ hÃ¥ndteres samlet
-- dette avslutter fÃ¸rste hovedmigrering av operative beskrivelser
+- de resterende operative beskrivelsene er få nok til å håndteres samlet
+- dette avslutter første hovedmigrering av operative beskrivelser
 
 ## Arbeidsregler
 
 - bare siste registrerte versjon flyttes
-- eldre versjoner blir stÃ¥ende i `arkitektur/ressurser/operative-losninger-og-tjenester/`
-- filnavn beholdes uendret i dette lÃ¸pet
-- mÃ¥lmappe er `arkitektur/ressurser/operative-losninger-og-tjenester/`
+- eldre versjoner blir stående i `arkitektur/ressurser/operative-losninger-og-tjenester/`
+- filnavn beholdes uendret i dette løpet
+- målmappe er `arkitektur/ressurser/operative-losninger-og-tjenester/`
 - `arkitektur/ressurser/produktnummerering.md` forblir registermaster
 
 ## Kandidater i restlopet
 
-| LÃ¸penr | Ressurs-ID | Navn | NÃ¥vÃ¦rende fil | ForeslÃ¥tt mÃ¥l |
+| Løpenr | Ressurs-ID | Navn | Nåværende fil | Foreslått mål |
 |---:|---|---|---|---|
 | 36 | `NAV-001` | Aa-registeret | `arkitektur/ressurser/operative-losninger-og-tjenester/36-Aa-registeret-produkt-canvas-v1-codex.md` | `arkitektur/ressurser/operative-losninger-og-tjenester/36-Aa-registeret-produkt-canvas-v1-codex.md` |
 | 37 | `SKATT-001` | Folkeregisteret | `arkitektur/ressurser/operative-losninger-og-tjenester/37-Folkeregisteret-produkt-canvas-v1-codex.md` | `arkitektur/ressurser/operative-losninger-og-tjenester/37-Folkeregisteret-produkt-canvas-v1-codex.md` |
@@ -63,14 +63,14 @@ Totalt: **11 filer**
 2. Oppdater dokumentlenker i `produktnummerering.md`
 3. Oppdater relative stier og GitHub-lenker i `produkt-kapabilitet-koblinger.yaml`
 4. Regenerer ressursoversikt og kapabilitetssider
-5. KjÃ¸r tegnkodingskontroll
+5. Kjør tegnkodingskontroll
 6. Kontroller at relevante webfiler faktisk peker riktig etter generering
 
 ## Status
 
-FlyttelÃ¸pet er gjennomfÃ¸rt.
+Flytteløpet er gjennomført.
 
-FÃ¸lgende 11 siste operative beskrivelser er flyttet fra `arkitektur/ressurser/operative-losninger-og-tjenester/` til `arkitektur/ressurser/operative-losninger-og-tjenester/`:
+Følgende 11 siste operative beskrivelser er flyttet fra `arkitektur/ressurser/operative-losninger-og-tjenester/` til `arkitektur/ressurser/operative-losninger-og-tjenester/`:
 
 - `36-Aa-registeret-produkt-canvas-v1-codex.md`
 - `37-Folkeregisteret-produkt-canvas-v1-codex.md`
@@ -84,7 +84,7 @@ FÃ¸lgende 11 siste operative beskrivelser er flyttet fra `arkitektur/ressurser
 - `63-microdata-no-produkt-canvas-v1-codex.md`
 - `66-NAIS-produkt-canvas-v1-codex.md`
 
-TilhÃ¸rende pekere er oppdatert i:
+Tilhørende pekere er oppdatert i:
 
 - `arkitektur/ressurser/produktnummerering.md`
 - `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml`
@@ -109,6 +109,7 @@ Resultat:
 
 - ressursene vises i generert ressursoversikt
 - relevante kapabilitetssider peker til ny plassering under `arkitektur/ressurser/operative-losninger-og-tjenester/`
-- ingen gamle pekere for denne restbolken stÃ¥r igjen i register eller mappingfil
-- lokal Hugo-build er fortsatt ikke verifisert fordi `hugo` ikke er installert i miljÃ¸et
+- ingen gamle pekere for denne restbolken står igjen i register eller mappingfil
+- lokal Hugo-build er fortsatt ikke verifisert fordi `hugo` ikke er installert i miljøet
+
 

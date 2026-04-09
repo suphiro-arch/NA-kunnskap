@@ -7,74 +7,74 @@ Feide
 SIKT-001
 
 ## Status/Livsfase
-**Produksjon** - etablert nasjonal felleslÃ¸sning for innlogging og datadeling i utdannings- og forskningssektoren.
+**Produksjon** - etablert nasjonal fellesløsning for innlogging og datadeling i utdannings- og forskningssektoren.
 
-**Fakta:** Feide brukes pÃ¥ tvers av grunnopplÃ¦ring, hÃ¸yere utdanning og forskning. Sikt oppgir at lÃ¸sningen brukes av rundt 1500 aktive digitale tjenester, med litt over Ã©n million innlogginger per hverdag og om lag 200 millioner innlogginger i Ã¥ret.
+**Fakta:** Feide brukes på tvers av grunnopplæring, høyere utdanning og forskning. Sikt oppgir at løsningen brukes av rundt 1500 aktive digitale tjenester, med litt over én million innlogginger per hverdag og om lag 200 millioner innlogginger i året.
 
 ## Modenhet
-**HÃ¸y funksjonell modenhet** - Feide er en innarbeidet nasjonal felleskomponent med bred sektordekning, stor bruk og moden teknisk dokumentasjon.
-- LÃ¸sningen er i ordinÃ¦r drift og har en etablert kundeportal, teknisk dokumentasjon, veikart og tydelige innfÃ¸ringslÃ¸p for vertsorganisasjoner og tjenesteleverandÃ¸rer.
-- Feide stÃ¸tter bÃ¥de ordinÃ¦r innlogging, single sign-on, sterk autentisering og datadeling.
-- Modenheten er hÃ¸y som nasjonal innloggings- og datadelingstjeneste, men nytteverdien for den enkelte virksomhet avhenger av lokal identitetsforvaltning og datakvalitet hos vertsorganisasjonen.
+**Høy funksjonell modenhet** - Feide er en innarbeidet nasjonal felleskomponent med bred sektordekning, stor bruk og moden teknisk dokumentasjon.
+- Løsningen er i ordinær drift og har en etablert kundeportal, teknisk dokumentasjon, veikart og tydelige innføringsløp for vertsorganisasjoner og tjenesteleverandører.
+- Feide støtter både ordinær innlogging, single sign-on, sterk autentisering og datadeling.
+- Modenheten er høy som nasjonal innloggings- og datadelingstjeneste, men nytteverdien for den enkelte virksomhet avhenger av lokal identitetsforvaltning og datakvalitet hos vertsorganisasjonen.
 
 ## Kort beskrivelse
-Feide er den nasjonale felleslÃ¸sningen for trygg innlogging og datadeling i utdannings- og forskningssektoren. Produktet gir elever, studenter, forskere, undervisere og ansatte Ã©n felles identitet som kan brukes pÃ¥ tvers av mange digitale tjenester. Feide er sÃ¦rlig relevant nÃ¥r sektoren trenger gjenbrukbar autentisering og kontrollert deling av brukeropplysninger mellom vertsorganisasjoner og tjenesteleverandÃ¸rer, uten at hver tjeneste mÃ¥ etablere egne lokale innloggingslÃ¸sninger og datamodeller.
+Feide er den nasjonale fellesløsningen for trygg innlogging og datadeling i utdannings- og forskningssektoren. Produktet gir elever, studenter, forskere, undervisere og ansatte én felles identitet som kan brukes på tvers av mange digitale tjenester. Feide er særlig relevant når sektoren trenger gjenbrukbar autentisering og kontrollert deling av brukeropplysninger mellom vertsorganisasjoner og tjenesteleverandører, uten at hver tjeneste må etablere egne lokale innloggingsløsninger og datamodeller.
 
 ## Kapabiliteter
-- **Datautveksling og integrasjon: Dele data med andre** gjÃ¸r det mulig Ã¥ dele nÃ¸dvendige identitets- og organisasjonsopplysninger fra vertsorganisasjonen til tilknyttede tjenester pÃ¥ en kontrollert mÃ¥te.
-- **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** beskytter pÃ¥loggingsflyt, tokenutstedelse og overfÃ¸ring av brukeropplysninger mellom vertsorganisasjoner og tjenesteleverandÃ¸rer.
-- **Tillit: Autentisering** er kjernefunksjonen og gjÃ¸r det mulig Ã¥ bekrefte identiteten til brukere pÃ¥ tvers av mange tjenester i sektoren.
+- **Datautveksling og integrasjon: Dele data med andre** gjør det mulig å dele nødvendige identitets- og organisasjonsopplysninger fra vertsorganisasjonen til tilknyttede tjenester på en kontrollert måte.
+- **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** beskytter påloggingsflyt, tokenutstedelse og overføring av brukeropplysninger mellom vertsorganisasjoner og tjenesteleverandører.
+- **Tillit: Autentisering** er kjernefunksjonen og gjør det mulig å bekrefte identiteten til brukere på tvers av mange tjenester i sektoren.
 - **Tillit: Tilgangskontroll** gir grunnlag for at tjenester kan slippe inn riktige brukere og bare motta de opplysningene de har behov for.
 
-## ProduktmÃ¥l
-**PrimÃ¦rkilder:** Feide `Om Feide`, Sikts tjenesteside for Feide og Feides prisside.
+## Produktmål
+**Primærkilder:** Feide `Om Feide`, Sikts tjenesteside for Feide og Feides prisside.
 
-Dokumenterte mÃ¥l:
-- VÃ¦re den nasjonale lÃ¸sningen for trygg og enkel innlogging i utdanning og forskning.
+Dokumenterte mål:
+- Være den nasjonale løsningen for trygg og enkel innlogging i utdanning og forskning.
 - Tilrettelegge for sikker og enkel datadeling med ivaretatt personvern.
-- Gi sektoren Ã©n felles innloggingslÃ¸sning i stedet for mange separate lokale lÃ¸sninger.
+- Gi sektoren én felles innloggingsløsning i stedet for mange separate lokale løsninger.
 
-Operative mÃ¥l utledet fra de samme kildene:
-- Redusere administrativt arbeid ved at bruker- og tjenesteforvaltning samles i Ã©n felles lÃ¸sning.
-- GjÃ¸re det enklere for tjenesteleverandÃ¸rer Ã¥ tilby sektorlÃ¸sninger med en kjent og etablert innloggingsmekanisme.
-- Heve sikkerhetsnivÃ¥et i tjenester som behandler personopplysninger ved Ã¥ tilby sterk autentisering og bedre kontroll over dataflyten.
+Operative mål utledet fra de samme kildene:
+- Redusere administrativt arbeid ved at bruker- og tjenesteforvaltning samles i én felles løsning.
+- Gjøre det enklere for tjenesteleverandører å tilby sektorløsninger med en kjent og etablert innloggingsmekanisme.
+- Heve sikkerhetsnivået i tjenester som behandler personopplysninger ved å tilby sterk autentisering og bedre kontroll over dataflyten.
 
 ## Brukerbehov
-- Elever, studenter, forskere og ansatte trenger Ã©n trygg og enkel mÃ¥te Ã¥ logge inn pÃ¥ mange digitale tjenester.
-- Vertsorganisasjoner trenger en felles identitets- og tilgangslÃ¸sning som reduserer lokal administrasjon.
-- TjenesteleverandÃ¸rer trenger standardiserte integrasjonsmÃ¸nstre for autentisering og datadeling.
-- Sektoren trenger sterkere kontroll pÃ¥ deling av brukeropplysninger enn det mange separate innloggingslÃ¸sninger gir.
+- Elever, studenter, forskere og ansatte trenger én trygg og enkel måte å logge inn på mange digitale tjenester.
+- Vertsorganisasjoner trenger en felles identitets- og tilgangsløsning som reduserer lokal administrasjon.
+- Tjenesteleverandører trenger standardiserte integrasjonsmønstre for autentisering og datadeling.
+- Sektoren trenger sterkere kontroll på deling av brukeropplysninger enn det mange separate innloggingsløsninger gir.
 
 ## Hvem er brukerne og brukersegmentene
-| Brukersegment | PrimÃ¦re behov | BruksomrÃ¥de | Kommentar |
+| Brukersegment | Primære behov | Bruksområde | Kommentar |
 |---|---|---|---|
-| Elever og studenter | Enkel og trygg innlogging | Tilgang til lÃ¦ringsressurser, prÃ¸ver, opptak og administrative tjenester | StÃ¸rste sluttbrukergruppe |
+| Elever og studenter | Enkel og trygg innlogging | Tilgang til læringsressurser, prøver, opptak og administrative tjenester | Største sluttbrukergruppe |
 | Forskere og ansatte | Stabil innlogging og riktig tilgang | Forskning, undervisning og administrasjon | Har ofte behov for sterk autentisering i enkelte tjenester |
 | Vertsorganisasjoner | Samlet forvaltning av brukere og tjenester | Kundeportal, tilgangsstyring og lokal identitetsforvaltning | Skoler, kommuner, fylkeskommuner, universiteter og forskningsinstitutter |
-| TjenesteleverandÃ¸rer | Standard integrasjon mot sektoridentitet | Tilby digitale tjenester med Feide-innlogging | Trenger teknisk dokumentasjon og stabile protokoller |
+| Tjenesteleverandører | Standard integrasjon mot sektoridentitet | Tilby digitale tjenester med Feide-innlogging | Trenger teknisk dokumentasjon og stabile protokoller |
 | Sikt og samarbeidende forvaltere | Drift, videreutvikling og styring | Forvaltning, sikkerhet, veikart og sektorforankring | Sikt leverer tjenesten og samarbeider med Utdanningsdirektoratet om forvaltningen |
 
 ## Hovedfunksjoner
-### PrimÃ¦re funksjoner
-- Feide tilbyr felles innlogging pÃ¥ tvers av mange digitale tjenester. Det gjÃ¸r lÃ¸sningen relevant nÃ¥r brukeren skal bevege seg mellom flere tjenester i sektoren uten Ã¥ hÃ¥ndtere ulike brukernavn og passord for hver enkelt.
-- Feide stÃ¸tter single sign-on. Denne funksjonen reduserer friksjon i brukerreisen fordi brukeren kan gÃ¥ videre mellom tjenester uten Ã¥ logge inn pÃ¥ nytt sÃ¥ lenge Ã¸kten er gyldig.
-- Feide legger til rette for kontrollert datadeling mellom vertsorganisasjoner og tjenesteleverandÃ¸rer. Det gjÃ¸r at tjenester kan fÃ¥ tilgang til nÃ¸dvendige opplysninger om bruker, tilhÃ¸righet og organisasjon pÃ¥ en mer standardisert mÃ¥te.
-- Feide tilbyr sterk autentisering for tjenester og brukergrupper som trenger hÃ¸yere sikkerhetsnivÃ¥. Dette skiller Feide fra enklere pÃ¥loggingslÃ¸sninger som bare bekrefter identitet med brukernavn og passord.
-- Feide har kundeportal og administrasjonsfunksjoner for vertsorganisasjoner. Det gjÃ¸r produktet til mer enn en ren pÃ¥loggingsmekanisme, fordi organisasjonene ogsÃ¥ fÃ¥r et felles sted Ã¥ administrere tjenester, tilganger og innstillinger.
+### Primære funksjoner
+- Feide tilbyr felles innlogging på tvers av mange digitale tjenester. Det gjør løsningen relevant når brukeren skal bevege seg mellom flere tjenester i sektoren uten å håndtere ulike brukernavn og passord for hver enkelt.
+- Feide støtter single sign-on. Denne funksjonen reduserer friksjon i brukerreisen fordi brukeren kan gå videre mellom tjenester uten å logge inn på nytt så lenge økten er gyldig.
+- Feide legger til rette for kontrollert datadeling mellom vertsorganisasjoner og tjenesteleverandører. Det gjør at tjenester kan få tilgang til nødvendige opplysninger om bruker, tilhørighet og organisasjon på en mer standardisert måte.
+- Feide tilbyr sterk autentisering for tjenester og brukergrupper som trenger høyere sikkerhetsnivå. Dette skiller Feide fra enklere påloggingsløsninger som bare bekrefter identitet med brukernavn og passord.
+- Feide har kundeportal og administrasjonsfunksjoner for vertsorganisasjoner. Det gjør produktet til mer enn en ren påloggingsmekanisme, fordi organisasjonene også får et felles sted å administrere tjenester, tilganger og innstillinger.
 
 ### Typiske brukssituasjoner (generisk)
-- NÃ¥r flere digitale tjenester i utdannings- og forskningssektoren trenger felles innlogging.
-- NÃ¥r sektoren trenger single sign-on pÃ¥ tvers av mange leverandÃ¸rer og tjenesteflater.
-- NÃ¥r tjenester trenger kontrollert deling av identitets- og tilhÃ¸righetsdata fra vertsorganisasjoner.
-- NÃ¥r bÃ¥de sluttbrukere og tjenesteleverandÃ¸rer trenger en standardisert fÃ¸derert identitetsmodell.
+- Når flere digitale tjenester i utdannings- og forskningssektoren trenger felles innlogging.
+- Når sektoren trenger single sign-on på tvers av mange leverandører og tjenesteflater.
+- Når tjenester trenger kontrollert deling av identitets- og tilhørighetsdata fra vertsorganisasjoner.
+- Når både sluttbrukere og tjenesteleverandører trenger en standardisert føderert identitetsmodell.
 
-### NÃ¥r Feide normalt ikke er fÃ¸rstevalg
-- NÃ¥r behovet er autorisasjon, representasjon eller policybasert tilgangsstyring som egen funksjon.
-- NÃ¥r behovet primÃ¦rt er meldingsformidling, hendelser eller dokumentdeling.
-- NÃ¥r konteksten ligger utenfor utdannings- og forskningssektorens fÃ¸dererte identitetsÃ¸kosystem.
+### Når Feide normalt ikke er førstevalg
+- Når behovet er autorisasjon, representasjon eller policybasert tilgangsstyring som egen funksjon.
+- Når behovet primært er meldingsformidling, hendelser eller dokumentdeling.
+- Når konteksten ligger utenfor utdannings- og forskningssektorens fødererte identitetsøkosystem.
 
 ### Scope og avgrensning
-| InngÃ¥r | InngÃ¥r ikke |
+| Inngår | Inngår ikke |
 |---|---|
 | Felles autentisering, single sign-on og datadeling | Lokal faglogikk i de tilknyttede tjenestene |
 | Kundeportal og administrasjon for vertsorganisasjoner | Full lokal brukerkatalogforvaltning utenfor vertsorganisasjonen |
@@ -82,35 +82,35 @@ Operative mÃ¥l utledet fra de samme kildene:
 | Standard protokoller og teknisk dokumentasjon for integrasjon | Erstatning for alle lokale identitetskilder og HR-/elevsystemer |
 
 ## Veikart over kommende funksjonalitet
-**Fakta:** Feide publiserer et kortsiktig veikart for de neste tolv mÃ¥nedene, og oppgir at dette oppdateres fortlÃ¸pende nÃ¥r prioriteringer endrer seg. Feide videreutvikles ogsÃ¥ gjennom egne tiltak i Sikt.
+**Fakta:** Feide publiserer et kortsiktig veikart for de neste tolv månedene, og oppgir at dette oppdateres fortløpende når prioriteringer endrer seg. Feide videreutvikles også gjennom egne tiltak i Sikt.
 
-**Deduksjon:** Videreutviklingen ser ut til Ã¥ vÃ¦re konsentrert om sikkerhet, videreutvikling av datadeling og forbedringer i integrasjons- og administrasjonslÃ¸p, men detaljerte leveranser mÃ¥ hentes fra det publiserte veikartet og tiltaksbeskrivelsene.
+**Deduksjon:** Videreutviklingen ser ut til å være konsentrert om sikkerhet, videreutvikling av datadeling og forbedringer i integrasjons- og administrasjonsløp, men detaljerte leveranser må hentes fra det publiserte veikartet og tiltaksbeskrivelsene.
 
 ## Forretningsverdi/Verdiforslag
 ### For sektoren
-- Reduserer behovet for mange separate innloggingslÃ¸sninger i utdanning og forskning.
-- Gir mer ensartet sikkerhetsnivÃ¥ og bedre styring av identitetsdata.
+- Reduserer behovet for mange separate innloggingsløsninger i utdanning og forskning.
+- Gir mer ensartet sikkerhetsnivå og bedre styring av identitetsdata.
 
 ### For vertsorganisasjoner
-- Samler administrasjon av brukere, tjenester og tilganger i Ã©n lÃ¸sning.
-- Reduserer drifts- og supportkostnader sammenlignet med mange lokale pÃ¥loggingsoppsett.
+- Samler administrasjon av brukere, tjenester og tilganger i én løsning.
+- Reduserer drifts- og supportkostnader sammenlignet med mange lokale påloggingsoppsett.
 
-### For tjenesteleverandÃ¸rer
+### For tjenesteleverandører
 - Gir tilgang til en etablert nasjonal innloggingsmekanisme med moden dokumentasjon.
-- Senker terskelen for Ã¥ tilby tjenester til mange institusjoner i samme sektor.
+- Senker terskelen for å tilby tjenester til mange institusjoner i samme sektor.
 
 ### For sluttbrukere
-- GjÃ¸r det enklere Ã¥ bruke mange tjenester med samme identitet.
-- Reduserer antall innlogginger og behovet for Ã¥ huske flere sett med legitimasjon.
+- Gjør det enklere å bruke mange tjenester med samme identitet.
+- Reduserer antall innlogginger og behovet for å huske flere sett med legitimasjon.
 
 ## Utfordringer og risiko
-| Risikokategori | Konkret risiko | HÃ¥ndtering |
+| Risikokategori | Konkret risiko | Håndtering |
 |---|---|---|
-| Juridisk | Feil deling av personopplysninger kan gi brudd pÃ¥ personvernregelverket | Tydelige datadelingsregler, minste nÃ¸dvendige opplysninger og ansvarlig forvaltning hos vertsorganisasjonene |
-| Teknisk | Feil i felles identitets- eller fÃ¸derasjonsoppsett kan pÃ¥virke mange tjenester samtidig | Standardiserte integrasjoner, testmiljÃ¸, teknisk dokumentasjon og kontrollert endringsforvaltning |
-| Sikkerhet | Uten sterk autentisering kan uvedkommende fÃ¥ tilgang til tjenester med sensitive opplysninger | Aktiv bruk av sterk autentisering, sikker Ã¸kthÃ¥ndtering og lÃ¸pende sikkerhetsforbedringer |
-| LeverandÃ¸r/forvaltning | Sektoren blir avhengig av Ã©n nasjonal lÃ¸sning og gode prioriteringer i forvaltningen | Ã…pen dokumentasjon, publisert veikart og tydelig rollefordeling mellom Sikt og sektoraktÃ¸rene |
-| Brukeropplevelse | Lokal datakvalitet og feil i identitetsgrunnlaget kan gi dÃ¥rlig tilgang og feil brukeropplevelse | Bedre datakvalitet hos vertsorganisasjonene og gode administrative rutiner |
+| Juridisk | Feil deling av personopplysninger kan gi brudd på personvernregelverket | Tydelige datadelingsregler, minste nødvendige opplysninger og ansvarlig forvaltning hos vertsorganisasjonene |
+| Teknisk | Feil i felles identitets- eller føderasjonsoppsett kan påvirke mange tjenester samtidig | Standardiserte integrasjoner, testmiljø, teknisk dokumentasjon og kontrollert endringsforvaltning |
+| Sikkerhet | Uten sterk autentisering kan uvedkommende få tilgang til tjenester med sensitive opplysninger | Aktiv bruk av sterk autentisering, sikker økthåndtering og løpende sikkerhetsforbedringer |
+| Leverandør/forvaltning | Sektoren blir avhengig av én nasjonal løsning og gode prioriteringer i forvaltningen | Åpen dokumentasjon, publisert veikart og tydelig rollefordeling mellom Sikt og sektoraktørene |
+| Brukeropplevelse | Lokal datakvalitet og feil i identitetsgrunnlaget kan gi dårlig tilgang og feil brukeropplevelse | Bedre datakvalitet hos vertsorganisasjonene og gode administrative rutiner |
 
 ## Kanaler
 - Feide: https://www.feide.no/om-feide
@@ -120,42 +120,42 @@ Operative mÃ¥l utledet fra de samme kildene:
 - Driftsmeldinger: https://www.feide.no/driftsmeldinger
 
 ## Plattform
-Feide er en nasjonal fÃ¸derert identitets- og datadelingslÃ¸sning for utdannings- og forskningssektoren.
+Feide er en nasjonal føderert identitets- og datadelingsløsning for utdannings- og forskningssektoren.
 
 **Fakta:**
-- Teknisk dokumentasjon viser stÃ¸tte for SAML 2.0, OpenID Connect og OAuth 2.0.
-- LÃ¸sningen har egne administrative grensesnitt, datadelingsfunksjoner og tekniske referanser for tjenesteleverandÃ¸rer og vertsorganisasjoner.
-- Feide tilbyr ogsÃ¥ sterk autentisering, inkludert tofaktorautentisering og innlogging via ID-porten i relevante lÃ¸p.
+- Teknisk dokumentasjon viser støtte for SAML 2.0, OpenID Connect og OAuth 2.0.
+- Løsningen har egne administrative grensesnitt, datadelingsfunksjoner og tekniske referanser for tjenesteleverandører og vertsorganisasjoner.
+- Feide tilbyr også sterk autentisering, inkludert tofaktorautentisering og innlogging via ID-porten i relevante løp.
 
 **Ikke offentlig dokumentert i brukte kilder:** Full intern driftsarkitektur og detaljert plattformtopologi.
 
 ## Gjenbruk
-**HÃ¸y gjenbruksverdi:**
-- Feide er laget for Ã¥ vÃ¦re en felles identitets- og datadelingskomponent som kan brukes av mange tjenester.
-- Standardiserte protokoller og moden dokumentasjon gjÃ¸r lÃ¸sningen gjenbrukbar for bÃ¥de nye og eksisterende tjenester.
+**Høy gjenbruksverdi:**
+- Feide er laget for å være en felles identitets- og datadelingskomponent som kan brukes av mange tjenester.
+- Standardiserte protokoller og moden dokumentasjon gjør løsningen gjenbrukbar for både nye og eksisterende tjenester.
 - Produktet reduserer behovet for at hver tjeneste utvikler egen autentiserings- og datadelingsmekanisme.
 
 **Vanlige kombinasjoner med andre produkter:**
-- Feide + ID-porten der tjenestelÃ¸p trenger samspill mellom sektorspesifikk og nasjonal autentisering.
-- Feide + autorisasjonslÃ¸sning nÃ¥r autentisering mÃ¥ suppleres med rolle- og tilgangsstyring.
-- Feide + sektorspesifikke fagsystemer og portaler der identitet og tilhÃ¸righet mÃ¥ fungere pÃ¥ tvers av mange tjenester.
+- Feide + ID-porten der tjenesteløp trenger samspill mellom sektorspesifikk og nasjonal autentisering.
+- Feide + autorisasjonsløsning når autentisering må suppleres med rolle- og tilgangsstyring.
+- Feide + sektorspesifikke fagsystemer og portaler der identitet og tilhørighet må fungere på tvers av mange tjenester.
 
-## StÃ¸tter arkitekturprinsipper
-- **P4: Del og gjenbruk data** - Feide gjÃ¸r det mulig Ã¥ dele nÃ¸dvendige bruker- og organisasjonsopplysninger kontrollert pÃ¥ tvers av tjenester.
-- **P6: Lag digitale lÃ¸sninger som stÃ¸tter samhandling** - Feide gir et felles mÃ¸nster for identitet og tilgang pÃ¥ tvers av mange aktÃ¸rer i sektoren.
-- **P7: SÃ¸rg for tillit til oppgavelÃ¸sningen** - sikker autentisering, tilgangskontroll og beskyttet dataflyt er en del av selve lÃ¸sningen.
+## Støtter arkitekturprinsipper
+- **P4: Del og gjenbruk data** - Feide gjør det mulig å dele nødvendige bruker- og organisasjonsopplysninger kontrollert på tvers av tjenester.
+- **P6: Lag digitale løsninger som støtter samhandling** - Feide gir et felles mønster for identitet og tilgang på tvers av mange aktører i sektoren.
+- **P7: Sørg for tillit til oppgaveløsningen** - sikker autentisering, tilgangskontroll og beskyttet dataflyt er en del av selve løsningen.
 
 ## Finansiering
-**Fakta:** Feide har publiserte prismodeller for vertsorganisasjoner i grunnopplÃ¦ringen og for hÃ¸yere utdanning og forskning.
+**Fakta:** Feide har publiserte prismodeller for vertsorganisasjoner i grunnopplæringen og for høyere utdanning og forskning.
 
-**Ikke fullstendig offentlig dokumentert i brukte kilder:** Samlet finansieringsmodell for hele produktomrÃ¥det og hvordan utviklingsmidler fordeles mellom sektorer og tiltak.
+**Ikke fullstendig offentlig dokumentert i brukte kilder:** Samlet finansieringsmodell for hele produktområdet og hvordan utviklingsmidler fordeles mellom sektorer og tiltak.
 
 ## Forvaltning/eier
-| AnsvarsomrÃ¥de | Organisasjon / vurdering | Grunnlag |
+| Ansvarsområde | Organisasjon / vurdering | Grunnlag |
 |---|---|---|
 | Produktansvar | Sikt | Feide og Sikt oppgir at Feide leveres av Sikt |
-| Driftsansvar | Sikt | Feide framstÃ¥r som driftet og forvaltet av Sikt |
-| Budsjettansvar | Sikt, med sektorspesifikke prismodeller; Utdanningsdirektoratet har ansvar for betalingsmodellen i grunnopplÃ¦ringen | Feides prisside |
+| Driftsansvar | Sikt | Feide framstår som driftet og forvaltet av Sikt |
+| Budsjettansvar | Sikt, med sektorspesifikke prismodeller; Utdanningsdirektoratet har ansvar for betalingsmodellen i grunnopplæringen | Feides prisside |
 | Styringsmodell | Sikt i samarbeid med Utdanningsdirektoratet om forvaltningen av tjenesten | Feides om-side |
 
 ## Lenke til dokumentasjon
@@ -176,4 +176,6 @@ Feide er en nasjonal fÃ¸derert identitets- og datadelingslÃ¸sning for utdann
 - Nettkilde: https://docs.feide.no/ (hentet 2026-03-18)
 - Nettkilde: https://www.feide.no/priser-vertsorganisasjoner (hentet 2026-03-18)
 - Nettkilde: https://www.feide.no/sterk-autentisering (hentet 2026-03-18)
+
+
 
