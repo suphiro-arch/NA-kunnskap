@@ -1,7 +1,7 @@
 # VIGO
 
 ## Ressurs ID
-Ikke fastsatt ennå
+NOVARI-004
 
 ## Status/Livsfase
 **Produksjon** - operativ fellesløsning i bruk i alle fylkeskommuner og Oslo kommune.  

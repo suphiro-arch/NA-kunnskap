@@ -16,6 +16,7 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Les `README.md` i aktuell mappe når oppgaven berører den delen av repoet, slik at lokal struktur og arbeidsmåte følges.
 - Ved arbeid med nye ressurskategorier eller ressurser utover klassiske produkter, bruk `arkitektur/ressurser/styringsregler.md` som styrende klassifisering.
 - Ved registerføring av nye ressurser i den brede ressursstrukturen, bruk fortsatt `arkitektur/produkter/produktnummerering.md` som operativ master for ressurs-ID og registerstatus inntil annet er besluttet.
+- Når nye ressursfiler opprettes etter at løpenummer er fastsatt i `arkitektur/produkter/produktnummerering.md`, skal filnavnet følge samme nummererte mønster som øvrige beskrivelser i porteføljen.
 
 ## Produktbeskrivelser
 - Bruk alltid høyeste eksisterende versjonsnummer for et produkt som primært utgangspunkt, uavhengig av om siste versjon er laget av `codex`, `copilot` eller en person.

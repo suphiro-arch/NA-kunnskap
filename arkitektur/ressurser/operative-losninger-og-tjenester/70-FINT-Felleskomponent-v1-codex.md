@@ -1,7 +1,7 @@
 # FINT Felleskomponent
 
 ## Ressurs ID
-Ikke fastsatt ennå
+NOVARI-001
 
 ## Status/Livsfase
 **Produksjon** - operativ felleskomponent i bruk i fylkeskommunal sektor.  
