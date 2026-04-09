@@ -14,7 +14,6 @@ TARGETS = [
     Path("briefs"),
     Path("config/prompts"),
     Path("config/templates"),
-    Path("arkitektur/produkter/produktbeskrivelser"),
     Path("arkitektur/ressurser"),
     Path("sources"),
     Path("web/hugo-prototype/content"),
@@ -44,6 +43,11 @@ def find_suspicious_lines(path: Path):
         if any(ch in line for ch in SUSPICIOUS_CHARS) or has_suspicious_question_mark(line):
             findings.append((lineno, line.strip()))
     return findings
+
+
+def has_utf8_bom(path: Path) -> bool:
+    raw = path.read_bytes()
+    return raw.startswith(b"\xef\xbb\xbf")
 
 
 def has_suspicious_question_mark(line: str) -> bool:
@@ -76,22 +80,31 @@ def has_suspicious_question_mark(line: str) -> bool:
 
 def main():
     failures = []
+    bom_failures = []
     for path in iter_files():
+        if has_utf8_bom(path):
+            bom_failures.append(path)
         findings = find_suspicious_lines(path)
         if findings:
             failures.append((path, findings))
 
-    if not failures:
+    if not failures and not bom_failures:
         print("OK: Ingen tegnkodingsfeil funnet i validerte tekstfiler.")
         return 0
 
-    print("FEIL: Fant mistenkelige tegnkodingssekvenser i tekstfiler:")
-    for path, findings in failures:
-        print(f"- {path}")
-        for lineno, line in findings[:10]:
-            print(f"  Linje {lineno}: {line}")
-        if len(findings) > 10:
-            print(f"  ... og {len(findings) - 10} flere linjer")
+    if bom_failures:
+        print("FEIL: Fant UTF-8 BOM i tekstfiler (ikke tillatt i repoet):")
+        for path in bom_failures:
+            print(f"- {path}")
+
+    if failures:
+        print("FEIL: Fant mistenkelige tegnkodingssekvenser i tekstfiler:")
+        for path, findings in failures:
+            print(f"- {path}")
+            for lineno, line in findings[:10]:
+                print(f"  Linje {lineno}: {line}")
+            if len(findings) > 10:
+                print(f"  ... og {len(findings) - 10} flere linjer")
     return 1
 
 
