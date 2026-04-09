@@ -23,7 +23,13 @@ Antall ressurser: **58**
 
 Ressurser som primært gir føringer for modeller, standarder, arkitektur og samordning.
 
-Antall ressurser: **1**
+Antall ressurser: **13**
+
+## [Samarbeidsfora](./samarbeidsfora/)
+
+Arenaer for koordinering, prioritering og samordning på tvers av aktører.
+
+Antall ressurser: **3**
 
 ## [Andre ressurser](./andre-ressurser/)
 
