@@ -358,6 +358,8 @@ def render_product_link_cards(products: list[dict], capability_name: str, *, inc
             'explanations': [],
         })
 
+        # Keep subcapability linkage in data for correct grouping and relevance text,
+        # even when the UI does not explicitly show "Koblet via".
         via_name = entry['subcap_name'] or capability_name
         if via_name and via_name not in product['via_names']:
             product['via_names'].append(via_name)
