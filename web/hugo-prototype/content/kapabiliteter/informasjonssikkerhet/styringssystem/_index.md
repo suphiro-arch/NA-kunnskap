@@ -13,4 +13,4 @@ Denne delkapabiliteten er en del av [Informasjonssikkerhet](../).
 
 ## Relaterte produkter
 
-Ingen produkter er koblet til denne delkapabiliteten foreløpig.
+<p>Ingen produkter er koblet til denne kapabiliteten forelopig.</p>

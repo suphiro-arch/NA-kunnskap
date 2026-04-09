@@ -467,6 +467,45 @@ a:hover {
   color: #5f6f7c;
 }
 
+.capability-product-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 0.9rem;
+  margin-top: 1rem;
+}
+
+.capability-product-link {
+  border: 1px solid var(--line-subtle);
+  border-radius: var(--radius-md);
+  background: #fff;
+  padding: 0.95rem 1rem;
+}
+
+.capability-product-link__title {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.25;
+}
+
+.capability-product-link__meta,
+.capability-product-link__description {
+  margin: 0.55rem 0 0;
+}
+
+.capability-product-link__meta {
+  color: var(--ink-body);
+  font-size: 0.94rem;
+}
+
+.capability-product-link__description {
+  color: var(--ink-muted);
+  font-size: 0.94rem;
+}
+
+.capability-product-link .resource-card__button {
+  margin-top: 0.7rem;
+}
+
 .prose pre code {
   padding: 0;
   background: transparent;

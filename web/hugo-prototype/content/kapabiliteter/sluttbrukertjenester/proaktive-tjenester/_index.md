@@ -13,6 +13,11 @@ Denne delkapabiliteten er en del av [Sluttbrukertjenester](../).
 
 ## Relaterte produkter
 
-| Produkt | Produktbeskrivelse | Hvorfor relevant |
-| --- | --- | --- |
-| Altinn Varsling | [v5 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/24-Varslinger-produkt-canvas-v5-codex.md) | gjør det mulig å varsle mottakere når en hendelse eller tilstand krever oppmerksomhet |
+<div class="capability-product-links">
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Altinn Varsling</h3>
+    <p class="capability-product-link__meta"><strong>Koblet via:</strong> Proaktive tjenester</p>
+    <p class="capability-product-link__description">gjør det mulig å varsle mottakere når en hendelse eller tilstand krever oppmerksomhet</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/24-Varslinger-produkt-canvas-v5-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+</div>

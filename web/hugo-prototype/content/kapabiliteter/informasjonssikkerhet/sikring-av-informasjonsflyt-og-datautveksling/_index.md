@@ -13,20 +13,95 @@ Denne delkapabiliteten er en del av [Informasjonssikkerhet](../).
 
 ## Relaterte produkter
 
-| Produkt | Produktbeskrivelse | Hvorfor relevant |
-| --- | --- | --- |
-| ID-porten | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/01-ID-porten-produkt-canvas-v3-codex.md) | beskytter innloggingsflyt, tokenutstedelse og overføring av identitetsinformasjon mellom ID-porten og tjenesteeier |
-| Maskinporten | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/02-Maskinporten-produkt-canvas-v3-codex.md) | beskytter tokenutstedelse, klientautentisering og overføring av tilgangsgrunnlag i integrasjonsflyten |
-| eSignering | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/03-eSignering-produkt-canvas-v3-codex.md) | beskytter dokumenter, signeringsoppdrag og statusmeldinger gjennom hele signeringsprosessen |
-| eFormidling | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/07-eFormidling-produkt-canvas-v3-codex.md) | Kryptering, integritet og sporbarhet i meldingsflyten. |
-| Altinn Formidling | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/08-Altinn-formidling-produkt-canvas-v3-codex.md) | Kryptering, autentisering, tilgangskontroll |
-| Digital postkasse | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/09-Digital-postkasse-produkt-canvas-v3-codex.md) | beskytter dokumentpakker, metadata og kvitteringer gjennom krav til signering, kryptering og kontrollert utveksling |
-| Peppol eDelivery | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/11-Peppol-eDelivery-produkt-canvas-v3-codex.md) | bruker sertifikater og tillitsrammeverk for å sikre transport og validering i nettverket |
-| Altinn Events | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/12-Altinn-events-produkt-canvas-v3-codex.md) | – Sikret transport; tilgangskontroll på abonnement |
-| data.altinn.no | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/17-data-altinn-no-produkt-canvas-v4-codex.md) | legger til rette for sikker utveksling også når data ikke er åpne eller inneholder personopplysninger |
-| Altinn Melding | [v5 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/23-Altinn-3-Melding-produkt-canvas-v5-codex.md) | beskytter innhold, vedlegg og overføringer i meldingsflyten |
-| Altinn Varsling | [v5 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/24-Varslinger-produkt-canvas-v5-codex.md) | er nødvendig fordi kontaktinformasjon og varslingsinnhold behandles gjennom flere kanaler og oppslag |
-| Fiks melding | [v2 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/26-FIKS-Melding-produkt-canvas-v2-codex.md) | støtter sikre meldingsløp og publiserer sikkerhetsunderlag for bruk av flere kanaler. |
-| HelseID | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/33-HelseID-produkt-canvas-v1-codex.md) | beskytter innloggingsflyt, tokenbruk og deling av identitets- og tilgangsinformasjon i digital samhandling |
-| Feide | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/47-Feide-produkt-canvas-v1-codex.md) | beskytter påloggingsflyt, tokenutstedelse og overføring av brukeropplysninger mellom vertsorganisasjoner og tjenesteleverandører |
-| FINT Felleskomponent | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/70-FINT-Felleskomponent-v1-codex.md) | understøtter trygg dataflyt, integritet og tilgjengelighet i det fylkeskommunale integrasjonsløpet. |
+<div class="capability-product-links">
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">ID-porten</h3>
+    <p class="capability-product-link__meta"><strong>Koblet via:</strong> Sikring av informasjonsflyt og datautveksling</p>
+    <p class="capability-product-link__description">beskytter innloggingsflyt, tokenutstedelse og overføring av identitetsinformasjon mellom ID-porten og tjenesteeier</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/01-ID-porten-produkt-canvas-v3-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Maskinporten</h3>
+    <p class="capability-product-link__meta"><strong>Koblet via:</strong> Sikring av informasjonsflyt og datautveksling</p>
+    <p class="capability-product-link__description">beskytter tokenutstedelse, klientautentisering og overføring av tilgangsgrunnlag i integrasjonsflyten</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/02-Maskinporten-produkt-canvas-v3-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">eSignering</h3>
+    <p class="capability-product-link__meta"><strong>Koblet via:</strong> Sikring av informasjonsflyt og datautveksling</p>
+    <p class="capability-product-link__description">beskytter dokumenter, signeringsoppdrag og statusmeldinger gjennom hele signeringsprosessen</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/03-eSignering-produkt-canvas-v3-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">eFormidling</h3>
+    <p class="capability-product-link__meta"><strong>Koblet via:</strong> Sikring av informasjonsflyt og datautveksling</p>
+    <p class="capability-product-link__description">Kryptering, integritet og sporbarhet i meldingsflyten.</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/07-eFormidling-produkt-canvas-v3-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Altinn Formidling</h3>
+    <p class="capability-product-link__meta"><strong>Koblet via:</strong> Sikring av informasjonsflyt og datautveksling</p>
+    <p class="capability-product-link__description">Kryptering, autentisering, tilgangskontroll</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/08-Altinn-formidling-produkt-canvas-v3-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Digital postkasse</h3>
+    <p class="capability-product-link__meta"><strong>Koblet via:</strong> Sikring av informasjonsflyt og datautveksling</p>
+    <p class="capability-product-link__description">beskytter dokumentpakker, metadata og kvitteringer gjennom krav til signering, kryptering og kontrollert utveksling</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/09-Digital-postkasse-produkt-canvas-v3-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Peppol eDelivery</h3>
+    <p class="capability-product-link__meta"><strong>Koblet via:</strong> Sikring av informasjonsflyt og datautveksling</p>
+    <p class="capability-product-link__description">bruker sertifikater og tillitsrammeverk for å sikre transport og validering i nettverket</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/11-Peppol-eDelivery-produkt-canvas-v3-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Altinn Events</h3>
+    <p class="capability-product-link__meta"><strong>Koblet via:</strong> Sikring av informasjonsflyt og datautveksling</p>
+    <p class="capability-product-link__description">– Sikret transport; tilgangskontroll på abonnement</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/12-Altinn-events-produkt-canvas-v3-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">data.altinn.no</h3>
+    <p class="capability-product-link__meta"><strong>Koblet via:</strong> Sikring av informasjonsflyt og datautveksling</p>
+    <p class="capability-product-link__description">legger til rette for sikker utveksling også når data ikke er åpne eller inneholder personopplysninger</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/17-data-altinn-no-produkt-canvas-v4-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Altinn Melding</h3>
+    <p class="capability-product-link__meta"><strong>Koblet via:</strong> Sikring av informasjonsflyt og datautveksling</p>
+    <p class="capability-product-link__description">beskytter innhold, vedlegg og overføringer i meldingsflyten</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/23-Altinn-3-Melding-produkt-canvas-v5-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Altinn Varsling</h3>
+    <p class="capability-product-link__meta"><strong>Koblet via:</strong> Sikring av informasjonsflyt og datautveksling</p>
+    <p class="capability-product-link__description">er nødvendig fordi kontaktinformasjon og varslingsinnhold behandles gjennom flere kanaler og oppslag</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/24-Varslinger-produkt-canvas-v5-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Fiks melding</h3>
+    <p class="capability-product-link__meta"><strong>Koblet via:</strong> Sikring av informasjonsflyt og datautveksling</p>
+    <p class="capability-product-link__description">støtter sikre meldingsløp og publiserer sikkerhetsunderlag for bruk av flere kanaler.</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/26-FIKS-Melding-produkt-canvas-v2-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">HelseID</h3>
+    <p class="capability-product-link__meta"><strong>Koblet via:</strong> Sikring av informasjonsflyt og datautveksling</p>
+    <p class="capability-product-link__description">beskytter innloggingsflyt, tokenbruk og deling av identitets- og tilgangsinformasjon i digital samhandling</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/33-HelseID-produkt-canvas-v1-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Feide</h3>
+    <p class="capability-product-link__meta"><strong>Koblet via:</strong> Sikring av informasjonsflyt og datautveksling</p>
+    <p class="capability-product-link__description">beskytter påloggingsflyt, tokenutstedelse og overføring av brukeropplysninger mellom vertsorganisasjoner og tjenesteleverandører</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/47-Feide-produkt-canvas-v1-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">FINT Felleskomponent</h3>
+    <p class="capability-product-link__meta"><strong>Koblet via:</strong> Sikring av informasjonsflyt og datautveksling</p>
+    <p class="capability-product-link__description">understøtter trygg dataflyt, integritet og tilgjengelighet i det fylkeskommunale integrasjonsløpet.</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/70-FINT-Felleskomponent-v1-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+</div>
