@@ -70,6 +70,20 @@ Formål:
    - behold en kort henvisning mellom analysene dersom de er faglig relaterte
    - ikke bland produktvurdering, tiltaksprioritering eller konklusjon på tvers av separate case
 
+12. Vurder og dokumenter inputgrunnlag og analysetillit i alle analyser.
+
+12A. Angi analysetillit eksplisitt som én av følgende:
+   - høy
+   - middels
+   - lav
+
+12B. Oppgi minst tre viktigste usikkerheter som påvirker konklusjonen.
+
+12C. Skill tydelig mellom usikkerhet som skyldes:
+   - svakt inputgrunnlag
+   - manglende eller tynne produktbeskrivelser
+   - uavklarte juridiske eller organisatoriske forhold
+
 ## Strenge regler
 
 - Svar skal skrives på norsk.
@@ -86,6 +100,7 @@ Formål:
 
 1. Formål
 2. Input / casebeskrivelse
+2.1 Inputgrunnlag og analysetillit
 3. Målgruppe og styringsnivå
 4. Problembilde
 5. Kapabilitetsanalyse
@@ -99,6 +114,7 @@ Formål:
 ## Krav til tabeller i svaret
 
 Bruk tabell for:
+- inputgrunnlag og analysetillit
 - kapabilitetsanalyse
 - prinsippvurdering
 - produktvurdering
@@ -107,6 +123,8 @@ Bruk tabell for:
 ## Kvalitetskontroll før levering
 
 Sjekk at svaret:
+- vurderer kvaliteten på inputgrunnlaget og oppgir analysetillit (høy/middels/lav)
+- oppgir minst tre konkrete usikkerheter som påvirker konklusjonen
 - viser hvilke produkter som er vurdert
 - viser hvilke vurderinger som bygger pa full produktbeskrivelse versus registermetadata
 - viser hvorfor produkter er klassifisert som direkte gjenbruk, videreutvikling eller ikke relevant

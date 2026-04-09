@@ -29,6 +29,7 @@ Dette caset har bedre produktdekning enn case 1. Det finnes allerede nasjonale p
 - Nasjonal vitnemålsdatabase (SIKT-004)
 - Vitnemålsportalen (SIKT-005)
 - Opptaksløsninger (SIKT-003)
+- VIGO (NOVARI-004)
 - Feide (SIKT-001)
 - ID-porten (DIGDIR-001)
 - Altinn Autorisasjon (DIGDIR-004)
@@ -60,6 +61,20 @@ Dette caset har bedre produktdekning enn case 1. Det finnes allerede nasjonale p
 - Berørte livshendelser: Avslutning av videregående opplæring, overgang til høyere utdanning, arbeid eller oppfølgingstjenester
 - Hovedutfordring: Resultatinformasjon er spredt på flere systemer og tilgjengelig i ulike formater. Det er ikke alltid tydelig hvem som har tilgang til hvilken informasjon, eller hvordan den kan brukes videre i oppfølging og veiledning.
 - Kildemateriale: Innlevert casebeskrivelse og innledende problembeskrivelse fra sektoren
+
+## 2.1 Inputgrunnlag og analysetillit
+
+| Vurderingspunkt | Vurdering |
+|---|---|
+| Inputgrunnlag | Case med tydelig avgrensning og god kobling til etablerte produktområder |
+| Datagrunnlag | Moderat; tilstrekkelig for strukturell vurdering, men begrenset for presis nytteestimering uten videre kartlegging |
+| Produktgrunnlag | Sterkt; flere modne, operative produkter med høy relevans i domenet |
+| Samlet analysetillit | Middels til høy |
+
+Viktigste usikkerheter:
+- Avgrensning av legitime formål og aktørtilgang utenfor etablerte opptaksløp
+- Samordning mellom nasjonale og sektorspesifikke løsninger for viderebruk
+- Ulik begrepsforståelse for resultater, kompetanse og status på tvers av tjenester
 
 ## 3. Målgruppe og styringsnivå
 
@@ -130,10 +145,12 @@ Dette caset står sterkere enn case 1 på P4 og P5 fordi sentrale nasjonale løs
 | Nasjonal vitnemålsdatabase (SIKT-004) | Register – vitnemål | Høy | Ja | Nei | Nei | Autoritativ nasjonal kilde for resultater fra videregående opplæring |
 | Vitnemålsportalen (SIKT-005) | Portal – deling av vitnemål | Høy | Ja | Nei | Nei | Direkte relevant sluttbrukerflate for deling av dokumentasjon |
 | Opptaksløsninger (SIKT-003) | Fellesløsning – opptak | Høy | Ja | Nei | Nei | Etablert viderebruk av resultater i opptak til høyere utdanning |
+| VIGO (NOVARI-004) | Fellesløsning – inntak og administrasjon i videregående | Høy | Ja | Nei | Nei | Sentralt sektorsystem for videregående med høy relevans for resultatinformasjon og oppfølging |
 | Feide (SIKT-001) | Felleskomponent – autentisering | Middels | Ja | Nei | Nei | Relevante brukergrupper i utdanning kan autentiseres gjennom etablert sektorløsning |
 | ID-porten (DIGDIR-001) | Felleskomponent – autentisering | Middels | Ja | Nei | Nei | Relevante for unge over 18 og foresatte i noen løp |
 | Altinn Autorisasjon (DIGDIR-004) | Felleskomponent – autorisasjon | Middels | Ja | Ja | Nei | Relevant der resultatinformasjon skal brukes av andre på vegne av den unge eller under tydelig tilgangsstyring |
 | Begrepskatalog (DIGDIR-012) | Fellesløsning – begrepsbeskrivelse | Middels | Nei | Ja | Nei | Kan gi semantisk ryddighet i forståelsen av resultater og kompetanse, men innhold må etableres |
+| FINT Informasjonsmodell (NOVARI-003) | Referanseressurs – informasjonsmodell | Middels | Nei | Ja | Nei | Kan bidra til harmonisering av resultatrelaterte begreper, men krever tilpasning for nasjonal viderebruk |
 | Felles datakatalog (DIGDIR-011) | Fellesløsning – metadataplattform | Lav/middels | Ja | Nei | Nei | Kan synliggjøre datasett og beskrivelser, men er ikke i seg selv delingsmotoren |
 | API-katalog (DIGDIR-013) | Fellesløsning – API-oversikt | Lav/middels | Ja | Nei | Nei | Relevant hvis resultattjenester skal eksponeres som standardiserte API-er |
 | data.altinn.no (DIGDIR-015) | Fellesløsning – kontrollert datadeling | Middels | Ja | Nei | Nei | Aktuell som mønster for kontrollert deling til autoriserte aktører utenfor dagens løp |
@@ -146,27 +163,28 @@ Dette caset står sterkere enn case 1 på P4 og P5 fordi sentrale nasjonale løs
 
 ### 7.2 Oppsummering
 
-- Hva finnes: Det finnes allerede en sterk nasjonal kjerne for resultatinformasjon gjennom NVB, Vitnemålsportalen og Opptaksløsninger
-- Hva kan gjenbrukes direkte: NVB, Vitnemålsportalen, Opptaksløsninger, Feide, ID-porten og i noen grad Altinn Autorisasjon og FIKS-plattformen
-- Hva må videreutvikles: Altinn Autorisasjon for enkelte representasjons- og tilgangsscenarier, Begrepskatalog som semantisk grunnlag for resultater og kompetanse
+- Hva finnes: Det finnes allerede en sterk nasjonal kjerne for resultatinformasjon gjennom NVB, Vitnemålsportalen, Opptaksløsninger og VIGO
+- Hva kan gjenbrukes direkte: NVB, Vitnemålsportalen, Opptaksløsninger, VIGO, Feide, ID-porten og i noen grad Altinn Autorisasjon og FIKS-plattformen
+- Hva må videreutvikles: Altinn Autorisasjon for enkelte representasjons- og tilgangsscenarier, Begrepskatalog som semantisk grunnlag for resultater og kompetanse, samt semantisk harmonisering mot FINT Informasjonsmodell
 - Hva er ikke relevant: Dialogporten, eInnsyn, eSignering og i stor grad Altinn Events for dette konkrete caset
 
 ### 7.3 Eksplisitte mangler
 
 | Identifisert mangel | Hvorfor mangelen oppstår | Konsekvens hvis ikke løst | Forslag | Bygger på |
 |---|---|---|---|---|
-| Standardisert delingsmønster til oppfølgingstjenester | Eksisterende resultatinfrastruktur er sterkest mot opptak og dokumentasjon, ikke nødvendigvis mot oppfølging av unge | Oppfølgingstjenester må innhente eller verifisere informasjon manuelt | Etablere standardisert grenseflate og tilgangsmodell for oppfølgingstjenester | NVB (SIKT-004), FIKS-plattformen (KS-001), data.altinn.no (DIGDIR-015) |
+| Standardisert delingsmønster til oppfølgingstjenester | Eksisterende resultatinfrastruktur er sterkest mot opptak og dokumentasjon, ikke nødvendigvis mot oppfølging av unge | Oppfølgingstjenester må innhente eller verifisere informasjon manuelt | Etablere standardisert grenseflate og tilgangsmodell for oppfølgingstjenester | NVB (SIKT-004), VIGO (NOVARI-004), FIKS-plattformen (KS-001), data.altinn.no (DIGDIR-015) |
 | Tydelig formålsstyring for viderebruk av resultater | Samme informasjon brukes til flere formål, men tilgangsgrunnlag er ikke nødvendigvis tydelig nok for alle aktører | Enten underbruk eller for risikofylt deling | Tydelig sektorprofil for tilgang og formål | Altinn Autorisasjon (DIGDIR-004), ID-porten (DIGDIR-001), Feide (SIKT-001) |
-| Felles begrepssett for resultater, kompetanse og status | Resultatbegreper kan tolkes ulikt i ulike tjenester og sektorer | Misforståelser i viderebruk og dårligere datakvalitet | Etablere begrepsarbeid i Begrepskatalogen | Begrepskatalog (DIGDIR-012), Felles datakatalog (DIGDIR-011) |
+| Felles begrepssett for resultater, kompetanse og status | Resultatbegreper kan tolkes ulikt i ulike tjenester og sektorer | Misforståelser i viderebruk og dårligere datakvalitet | Etablere begrepsarbeid i Begrepskatalogen og harmonisere med sektormodeller | Begrepskatalog (DIGDIR-012), Felles datakatalog (DIGDIR-011), FINT Informasjonsmodell (NOVARI-003) |
 
 ## 8. Tiltak prioritert etter effekt
 
 | Tiltak | Type | Effekt | Tidshorisont | Avhengigheter | Kobling | Primær gap-type |
 |---|---|---|---|---|---|---|
 | Kartlegg hvilke aktører og formål utenfor opptaksløp som trenger resultatinformasjon | Avklaring | Høy | Kort | Utdanningsdirektorat, SIKT, relevante sektorer | Juridisk samhandling / P3 | Juridisk gap |
-| Etabler standardisert delingsmønster for resultatinformasjon til oppfølgingstjenester | Gjenbruk + videreutvikling | Høy | Middels | Kartlegging og juridisk avklaring | Datautveksling og integrasjon / P4 / NVB + FIKS + data.altinn.no | Samordningsgap |
+| Etabler standardisert delingsmønster for resultatinformasjon til oppfølgingstjenester | Gjenbruk + videreutvikling | Høy | Middels | Kartlegging og juridisk avklaring | Datautveksling og integrasjon / P4 / NVB + VIGO + FIKS + data.altinn.no | Samordningsgap |
 | Vurder sektorprofil for autorisasjon og representasjon | Videreutvikling | Middels | Middels | Juridisk avklaring | Tillit / P7 / Altinn Autorisasjon | Produktgap |
-| Etabler felles begrepssett for resultater og kompetanse | Nyutvikling (innhold) | Middels | Middels | Sektorfaglig forankring | Informasjonsforvaltning / P4 / Begrepskatalog | Semantisk gap |
+| Etabler felles begrepssett for resultater og kompetanse | Nyutvikling (innhold) | Middels | Middels | Sektorfaglig forankring | Informasjonsforvaltning / P4 / Begrepskatalog + FINT Informasjonsmodell | Semantisk gap |
+| Etabler samordnet forvaltningsløp mellom SIKT- og fylkeskommunale produkter | Gjenbruk + samordning | Middels | Middels | Samordning mellom SIKT, Novari og fylkeskommuner | P5, P6 / NVB + Vitnemålsportalen + VIGO | Samordningsgap |
 | Gjør resultatinfrastruktur mer synlig som gjenbrukbar nasjonal byggestein utover opptaksløp | Gjenbruk | Middels | Kort | Samordning mellom SIKT og nasjonale aktører | P5 / NVB, Vitnemålsportalen, Opptaksløsninger | Samordningsgap |
 
 ### Prioritert liste
@@ -183,4 +201,4 @@ Dette caset står sterkere enn case 1 på P4 og P5 fordi sentrale nasjonale løs
 
 ## 10. Konklusjon
 
-Tilgjengeliggjøring av resultater fra videregående opplæring er et case der den nasjonale produktkatalogen treffer godt. Nasjonal vitnemålsdatabase, Vitnemålsportalen og Opptaksløsninger dekker allerede sentrale behov for kvalitetssikring, deling og viderebruk av resultatinformasjon. Det viktigste forbedringsbehovet er derfor ikke å etablere nye grunnprodukter, men å utvide viderebruken kontrollert til flere legitime formål og aktører. Det krever særlig avklaring av tilgangsgrunnlag, tydeligere formålsstyring og et standardisert mønster for deling til oppfølgingstjenester og andre mottakere utenfor etablerte opptaksløp. Samlet sett viser caset at oppsettet fungerer godt når produktkatalogen faktisk har modne og tydelige produkter i domenet.
+Tilgjengeliggjøring av resultater fra videregående opplæring er et case der den nasjonale produktkatalogen treffer godt. Nasjonal vitnemålsdatabase, Vitnemålsportalen, Opptaksløsninger og VIGO dekker allerede sentrale behov for kvalitetssikring, deling og viderebruk av resultatinformasjon. Det viktigste forbedringsbehovet er derfor ikke å etablere nye grunnprodukter, men å utvide viderebruken kontrollert til flere legitime formål og aktører. Det krever særlig avklaring av tilgangsgrunnlag, tydeligere formålsstyring og et standardisert mønster for deling til oppfølgingstjenester og andre mottakere utenfor etablerte opptaksløp. Samlet sett viser caset at oppsettet fungerer godt når produktkatalogen faktisk har modne og tydelige produkter i domenet, men at samordningen mellom nasjonale og sektorspesifikke løsninger må styrkes.

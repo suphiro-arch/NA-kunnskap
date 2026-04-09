@@ -63,3 +63,14 @@ Denne fila ble laget for å teste en bredere ressursstruktur før endelig avklar
 - opprette første operative beskrivelse for `FINT Arkiv`
 - opprette første operative beskrivelse for `VIGO`
 - vurdere om `VIGO-portalen` og `VIGO Sentralbase` skal være egne ressurser eller delressurser under `VIGO`
+
+## Nye kandidater lagt inn i masterregisteret (2026-04-09)
+
+Nye forslag fra `sources/links.md` er lagt inn i `arkitektur/produkter/produktnummerering.md` som arbeidsutkast med `Ikke opprettet ennå`.
+
+Omfang i denne runden:
+- KS: `KS-011` til `KS-015`
+- NHN: `NHN-005`
+- NOVARI: `NOVARI-005` til `NOVARI-009`
+
+Disse beholdes i masterregisteret inntil videre, i tråd med overgangsregelen for denne fila.
