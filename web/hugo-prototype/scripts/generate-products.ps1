@@ -439,7 +439,6 @@ foreach ($typeDef in $resourceTypeDefinitions) {
 
   $cardLines = New-Object System.Collections.Generic.List[string]
   $ownerSet = New-Object System.Collections.Generic.HashSet[string]
-  $statusSet = New-Object System.Collections.Generic.HashSet[string]
   $typeSet = New-Object System.Collections.Generic.HashSet[string]
   $capabilitySet = New-Object System.Collections.Generic.HashSet[string]
 
@@ -449,13 +448,11 @@ foreach ($typeDef in $resourceTypeDefinitions) {
     $descriptionSection = Extract-Section -Lines $raw -Heading 'Kort beskrivelse'
     $shortDescription = Shorten-OverviewDescription -Text (Clean-ShortDescription -Section $descriptionSection)
     $owner = Extract-OwnerFromResourceId -ResourceId $p.ResourceId
-    $statusLabel = Extract-StatusLabel -Lines $raw -Fallback $p.VersionLabel
     $purposeLine = Extract-PurposeLine -Lines $raw
     $primaryDocUrl = Extract-PrimaryDocumentationLink -Lines $raw
     $capabilityItems = @(Get-CapabilityItems -RelativePath $p.RelativePath -Lines $raw)
 
     [void]$ownerSet.Add($owner)
-    [void]$statusSet.Add($statusLabel)
     [void]$typeSet.Add($p.ResourceType)
     foreach ($capability in $capabilityItems) {
       if ($capability.Label) {
@@ -470,26 +467,27 @@ foreach ($typeDef in $resourceTypeDefinitions) {
 
     $cardLines.Add('<article class="resource-card" ' +
       ('data-owner="{0}" ' -f (Html-Encode $owner)) +
-      ('data-status="{0}" ' -f (Html-Encode $statusLabel)) +
       ('data-type="{0}" ' -f (Html-Encode $p.ResourceType)) +
       ('data-capabilities="{0}" ' -f (Html-Encode ($capabilitySearch.ToLowerInvariant()))) +
       ('data-search="{0}">' -f (Html-Encode $searchable)))
     $cardLines.Add(('  <h2 class="resource-card__title">{0}</h2>' -f (Html-Encode $displayName)))
-    $cardLines.Add(('  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>{0}</code> | <strong>Siste versjon:</strong> {1} | <a href="{2}">Markdown</a></p>' -f (Html-Encode $p.ResourceId), (Html-Encode $p.VersionLabel), (Html-Encode $blobUrl)))
+    $cardLines.Add(('  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>{0}</code> | <strong>Siste versjon:</strong> {1}</p>' -f (Html-Encode $p.ResourceId), (Html-Encode $p.VersionLabel)))
     $cardLines.Add(('  <p class="resource-card__facts"><strong>Eier:</strong> {0} | <strong>Kategori:</strong> {1} | <strong>Type:</strong> {2}</p>' -f (Html-Encode $owner), (Html-Encode $p.Category), (Html-Encode $p.ResourceType)))
     $cardLines.Add(('  <p class="resource-card__description">{0}</p>' -f (Html-Encode $shortDescription)))
     if ($purposeLine) {
       $cardLines.Add(('  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> {0}</p>' -f (Html-Encode $purposeLine)))
     }
     $cardLines.Add(('  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> {0}</p>' -f $capabilityHtml))
+    $actions = New-Object System.Collections.Generic.List[string]
+    $actions.Add(('<a class="resource-card__button resource-card__button--primary" href="{0}">Full beskrivelse (md-fil)</a>' -f (Html-Encode $blobUrl)))
     if ($primaryDocUrl) {
-      $cardLines.Add(('  <p class="resource-card__links"><a href="{0}">Offisiell lenke</a></p>' -f (Html-Encode $primaryDocUrl)))
+      $actions.Add(('<a class="resource-card__button resource-card__button--ghost" href="{0}">Offisiell lenke</a>' -f (Html-Encode $primaryDocUrl)))
     }
+    $cardLines.Add(('  <p class="resource-card__actions">{0}</p>' -f ($actions -join ' ')))
     $cardLines.Add('</article>')
   }
 
   $ownerOptions = @($ownerSet | Sort-Object)
-  $statusOptions = @($statusSet | Sort-Object)
   $typeOptions = @($typeSet | Sort-Object)
   $capabilityOptions = @($capabilitySet | Sort-Object)
 
@@ -500,11 +498,6 @@ foreach ($typeDef in $resourceTypeDefinitions) {
   $typeIndex += '      <label>Sok <input type="search" class="resource-filter" data-filter="search" placeholder="Navn, ID, type, kapabilitet" /></label>'
   $typeIndex += '      <label>Eier <select class="resource-filter" data-filter="owner"><option value="">Alle</option>'
   foreach ($option in $ownerOptions) {
-    $typeIndex += ('        <option value="{0}">{1}</option>' -f (Html-Encode $option), (Html-Encode $option))
-  }
-  $typeIndex += '      </select></label>'
-  $typeIndex += '      <label>Status <select class="resource-filter" data-filter="status"><option value="">Alle</option>'
-  foreach ($option in $statusOptions) {
     $typeIndex += ('        <option value="{0}">{1}</option>' -f (Html-Encode $option), (Html-Encode $option))
   }
   $typeIndex += '      </select></label>'
@@ -532,14 +525,12 @@ foreach ($typeDef in $resourceTypeDefinitions) {
   $typeIndex += '      var count = root.querySelector("[data-role=count]");'
   $typeIndex += '      var search = root.querySelector("[data-filter=search]");'
   $typeIndex += '      var owner = root.querySelector("[data-filter=owner]");'
-  $typeIndex += '      var status = root.querySelector("[data-filter=status]");'
   $typeIndex += '      var type = root.querySelector("[data-filter=type]");'
   $typeIndex += '      var capability = root.querySelector("[data-filter=capability]");'
   $typeIndex += '      function norm(v){ return (v || "").toLowerCase(); }'
   $typeIndex += '      function apply(){'
   $typeIndex += '        var q = norm(search && search.value);'
   $typeIndex += '        var o = norm(owner && owner.value);'
-  $typeIndex += '        var s = norm(status && status.value);'
   $typeIndex += '        var t = norm(type && type.value);'
   $typeIndex += '        var c = norm(capability && capability.value);'
   $typeIndex += '        var visible = 0;'
@@ -547,7 +538,6 @@ foreach ($typeDef in $resourceTypeDefinitions) {
   $typeIndex += '          var ok = true;'
   $typeIndex += '          if (q && card.dataset.search.indexOf(q) === -1) ok = false;'
   $typeIndex += '          if (o && norm(card.dataset.owner) !== o) ok = false;'
-  $typeIndex += '          if (s && norm(card.dataset.status) !== s) ok = false;'
   $typeIndex += '          if (t && norm(card.dataset.type) !== t) ok = false;'
   $typeIndex += '          if (c && norm(card.dataset.capabilities).indexOf(c) === -1) ok = false;'
   $typeIndex += '          card.style.display = ok ? "block" : "none";'
@@ -555,7 +545,7 @@ foreach ($typeDef in $resourceTypeDefinitions) {
   $typeIndex += '        });'
   $typeIndex += '        if (count) { count.textContent = "Viser " + visible + " av " + cards.length + " ressurser"; }'
   $typeIndex += '      }'
-  $typeIndex += '      [search, owner, status, type, capability].forEach(function(el){ if (el) { el.addEventListener("input", apply); el.addEventListener("change", apply); } });'
+  $typeIndex += '      [search, owner, type, capability].forEach(function(el){ if (el) { el.addEventListener("input", apply); el.addEventListener("change", apply); } });'
   $typeIndex += '      apply();'
   $typeIndex += '    })();'
   $typeIndex += '  </script>'
