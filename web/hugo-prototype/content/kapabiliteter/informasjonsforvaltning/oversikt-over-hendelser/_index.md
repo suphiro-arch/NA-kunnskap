@@ -16,7 +16,6 @@ Denne delkapabiliteten er en del av [Informasjonsforvaltning](../).
 <div class="capability-product-links">
   <article class="capability-product-link">
     <h3 class="capability-product-link__title">data.norge.no</h3>
-    <p class="capability-product-link__meta"><strong>Koblet via:</strong> Oversikt over hendelser</p>
     <p class="capability-product-link__description">gjør hendelser synlige som egne ressurser som kan støtte videre digital samhandling</p>
     <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/16-data-norge-no-produkt-canvas-v4-codex.md">Åpne ressursbeskrivelse</a>
   </article>
