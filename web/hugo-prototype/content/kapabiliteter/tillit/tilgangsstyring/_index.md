@@ -15,5 +15,5 @@ Denne delkapabiliteten er en del av [Tillit](../).
 
 | Produkt | Produktbeskrivelse | Hvorfor relevant |
 | --- | --- | --- |
-| Altinn Autorisasjon | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/04-Altinn-autorisasjon-produkt-canvas-v4-codex.md) | gjør det mulig å forvalte roller, rettigheter og delegeringer som grunnlag for autorisasjonsbeslutninger |
+| Altinn Autorisasjon | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/04-Altinn-autorisasjon-produkt-canvas-v4-codex.md) | gjør det mulig å forvalte roller, rettigheter og delegeringer som grunnlag for autorisasjonsbeslutninger |
 | Altinn Portal | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/21-Altinn-Portal-produkt-canvas-v3-codex.md) | gir oversikt over hvem som kan gjøre hva, både for virksomheter og privatpersoner |

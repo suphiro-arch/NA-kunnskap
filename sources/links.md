@@ -121,6 +121,21 @@ Sist redigert: 2026-03-19.
 - MinKommune: https://ksdigital.no/tjenestene/minkommune/
 - Min kommune barnevern: https://ksdigital.no/tjenestene/min-kommune-barnevern/
 
+### Novari / fylkeskommunal sektor
+- Novari tjenester: https://novari.no/tjenester/ (lagt til 2026-04-09)
+- FINT Felleskomponent: https://novari.no/tjenester/fint-felleskomponent/ (lagt til 2026-04-09)
+- FINT Arkiv: https://novari.no/tjenester/fint-arkiv/ (lagt til 2026-04-09)
+- FINT Informasjonsmodell: https://novari.no/tjenester/fint-informasjonsmodell/ (lagt til 2026-04-09)
+- Informasjonsmodell 4.0: https://novari.no/prosjekter/informasjonsmodell-versjon-4-0/ (lagt til 2026-04-09)
+- Arkivintegrasjoner: https://novari.no/tjenester/arkivintegrasjoner/ (lagt til 2026-04-09)
+- VIGO-systemet: https://novari.no/tjenester/vigo/ (lagt til 2026-04-09)
+- VIGO-portalen: https://novari.no/tjenester/vigo-2/ (lagt til 2026-04-09)
+- VIGO Sentralbase: https://novari.no/tjenester/vigo-sentralbase/ (lagt til 2026-04-09)
+- VIGO Kodeverk og kodeverksbase: https://novari.no/tjenester/vigo-kodeverk-og-kodeverkbase/ (lagt til 2026-04-09)
+- vigo.no: https://novari.no/tjenester/vigo-soknad/ (lagt til 2026-04-09)
+- Modernisering av VIGO: https://novari.no/prosjekter/prosjekt-z-2/ (lagt til 2026-04-09)
+- Anskaffelse for modernisering av VIGO-systemet: https://novari.no/nyheter/anskaffelse-for-modernisering-av-vigo-systemet/ (lagt til 2026-04-09)
+
 ### Skatteetaten
 - Folkeregisteret: https://www.skatteetaten.no/person/folkeregister/
 - Dette er Folkeregisteret: https://www.skatteetaten.no/person/folkeregister/om/om/ (lagt til 2026-03-27)

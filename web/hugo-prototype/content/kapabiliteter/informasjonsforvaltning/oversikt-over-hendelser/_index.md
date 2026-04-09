@@ -15,4 +15,4 @@ Denne delkapabiliteten er en del av [Informasjonsforvaltning](../).
 
 | Produkt | Produktbeskrivelse | Hvorfor relevant |
 | --- | --- | --- |
-| data.norge.no | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/16-data-norge-no-produkt-canvas-v4-codex.md) | gjør hendelser synlige som egne ressurser som kan støtte videre digital samhandling |
+| data.norge.no | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/16-data-norge-no-produkt-canvas-v4-codex.md) | gjør hendelser synlige som egne ressurser som kan støtte videre digital samhandling |

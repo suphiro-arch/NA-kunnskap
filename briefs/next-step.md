@@ -119,6 +119,13 @@ sources:
 - Kvalitetssikret den siste bolken med nye produktbeskrivelser og løftet særlig `HPR`, `e-resept`, `Opptaksløsninger` og `Nasjonalt utdanningsregister` til et mer forklarende nivå i tråd med gjeldende instruks.
 - Oppdaget at filene for `KUHR`, `microdata.no` og `Motorvognregisteret` manglet i produktmappa selv om registeret pekte til dem, og opprettet dem på nytt med fullverdige beskrivelser.
 - Presisert `NAIS` videre som en interessant og gjenbrukbar plattformmodell, men uten samme dokumenterte status som formell nasjonal fellesløsning eller klassisk felleskomponent.
+- Etablert første styringsstruktur for et bredere ressursområde under `arkitektur/ressurser/`, med egen styringsfil for `operative løsninger og tjenester`, `normerende ressurser` og `samarbeidsfora`.
+- Oppdatert `sources/links.md` med første Novari-kilder for `FINT Felleskomponent`, `FINT Arkiv`, `FINT Informasjonsmodell` og `VIGO`, og presisert at dagens `produkt-canvas` brukes direkte for operative ressurser men må avledes for normerende ressurser og samarbeidsfora.
+- Opprettet første avledede mal for normerende ressurser i `config/templates/normerende-ressurs-template.md`, som grunnlag for blant annet `FINT Informasjonsmodell`.
+- Opprettet første konkrete normerende ressursbeskrivelse for `FINT Informasjonsmodell` i `arkitektur/ressurser/normerende-ressurser/`, basert på Novari-kilder og ny avledet mal.
+- Opprettet første operative ressursbeskrivelser for `FINT Felleskomponent` og `FINT Arkiv`, og ført `NOVARI`-ressursene inn i `arkitektur/produkter/produktnummerering.md` slik at eksisterende nummerering og registerlogikk beholdes som én operativ master.
+- Opprettet første operative ressursbeskrivelse for `VIGO` og laget en konkret migreringsplan for overgang fra dagens produktstruktur til bredere ressursstruktur i `briefs/arbeidsstyring-og-handover/2026-04-09-migreringsplan-ressursstruktur-v1.md`.
+- Opprettet første operative ressursbeskrivelse for `VIGO` og oppdatert `NOVARI-004` i `produktnummerering.md` med kapabilitetstreff og dokumentlenke.
 
 ## Hva gjenstår — Produktgrunnlag utvikling (neste 4-6 uker)
 
@@ -238,7 +245,24 @@ Disse kan gjøres *når som helst* parallelt, men er ikke kritisk for produktgru
 - Følge opp om produktbeskrivelser senere bør deles i understrukturer under `arkitektur/produkter/produktbeskrivelser/`, for eksempel etter status, eier eller publiseringsnivå.
 
 **For større omstrukturering (ikke nå):**
-- Vurdere om en bredere mappe som `ressurser/` senere bør samle produkter, standarder, veiledninger og andre virkemidler.
+- Vurdere om og når deler av dagens produktområde gradvis bør flyttes eller speiles inn i den bredere ressursstrukturen under `arkitektur/ressurser/`.
+- Lage første konkrete pilotklassifisering og innholdsstruktur for `FINT` og `VIGO` etter de nye styringsreglene under `arkitektur/ressurser/`.
+- Vurdere om delressurser under `VIGO`, som `VIGO Sentralbase` og `VIGO Kodeverk og kodeverksbase`, bør beskrives som egne operative ressurser eller bare omtales under hovedressursen.
+- Verifisere full Hugo-build når `hugo` er tilgjengelig i miljøet.
+- Vurdere neste sektorbolk etter Digdir og KS, eller om det er riktig tidspunkt for et eget navneharmoniseringsløp.
+- Forberede neste sektorvise flytteløp av eksisterende operative beskrivelser, med tydelig regel for hvilke filer som blir stående i gammel struktur gjennom overgangsperioden.
+- Lage første avledede malutkast for `samarbeidsfora`, basert på feltene i dagens `produkt-canvas` som faktisk gir verdi uten å bli kunstige.
+
+Status 2026-04-09:
+- Første konkrete flytteløp er nå spesifisert for Digdir i `briefs/arbeidsstyring-og-handover/2026-04-09-digdir-flyttelop-v1.md`.
+- Digdir-piloten er nå gjennomført: 22 siste Digdir-beskrivelser er flyttet til `arkitektur/ressurser/operative-losninger-og-tjenester/` og tilhørende register- og mappingpekere er oppdatert.
+- KS-løpet er nå gjennomført: 9 siste KS-beskrivelser er flyttet til `arkitektur/ressurser/operative-losninger-og-tjenester/` og tilhørende register- og mappingpekere er oppdatert.
+- SIKT-løpet er nå gjennomført: 6 siste SIKT-beskrivelser er flyttet til `arkitektur/ressurser/operative-losninger-og-tjenester/` og tilhørende register- og mappingpekere er oppdatert.
+- Helse-løpet er nå gjennomført: 7 siste beskrivelser for `HDIR`, `NHN` og `HELFO` er flyttet til `arkitektur/ressurser/operative-losninger-og-tjenester/` og tilhørende register- og mappingpekere er oppdatert.
+- Restbolken er nå gjennomført: 11 siste beskrivelser for `NAV`, `SKATT`, `KART`, `BRREG`, `SVV`, `SSB` og `FLERE` er flyttet til `arkitektur/ressurser/operative-losninger-og-tjenester/` og tilhørende register- og mappingpekere er oppdatert.
+- Webgeneratoren for kapabilitetssider bygger nå lenker fra faktisk `relative_path`, slik at flyttede filer fortsatt peker riktig i generert innhold.
+- Første hovedmigrering av siste operative beskrivelser er dermed i praksis fullført.
+- Lokal Hugo-build er fortsatt ikke verifisert fordi `hugo` ikke er installert i dette miljøet.
 
 ---
 

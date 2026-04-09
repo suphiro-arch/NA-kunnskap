@@ -12,7 +12,9 @@ Dette er en isolert prototype for en framtidig nettside om nasjonal arkitektur.
 ## Kilder i repoet
 
 - `arkitektur/kapabiliteter/capabilities.yaml`
-- `arkitektur/produkter/produktbeskrivelser/`
+- `arkitektur/produkter/produktnummerering.md` er registermaster for ressurs-ID, status og dokumentlenker
+- `arkitektur/produkter/produktbeskrivelser/` brukes fortsatt for eksisterende produktbeskrivelser
+- `arkitektur/ressurser/` brukes for nye ressursbeskrivelser og ny struktur
 - `arkitektur/prinsipper/principles.md`
 - `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml`
 
@@ -32,7 +34,7 @@ Kapabilitetsscriptet bygger:
 - mapping fra kapabiliteter til siste versjon av relevante produktbeskrivelser
 
 Produktscriptet bygger:
-- samlet oversikt over siste versjon per produkt
+- samlet oversikt over siste registrerte versjon per ressurs, basert på `produktnummerering.md`
 
 Prinsippscriptet bygger:
 - websidens prinsippinnhold direkte fra `arkitektur/prinsipper/principles.md`

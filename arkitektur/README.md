@@ -7,6 +7,7 @@ Denne mappa samler det strukturerte arkitekturgrunnlaget i repoet.
 - `maal/`: kuraterte mål og kobling til arkitekturmodellen
 - `prinsipper/`: arkitekturprinsipper og føringer
 - `produkter/`: produktnummerering, produktbeskrivelser og andre strukturer som gjelder produktområdet
+- `ressurser/`: styringsgrunnlag og videre struktur for ressursområdet utover klassiske produktbeskrivelser
 
 ## Kilde og kuratering
 - `sources/2025-03-18-Nasjonal Arkitektur.xml` er råkilde for kapabilitets- og prinsippmodellen.
@@ -19,6 +20,7 @@ Denne mappa samler det strukturerte arkitekturgrunnlaget i repoet.
 - `principles.md` brukes videre som kuratert kilde for prinsippnavn og prinsipp-kapabilitetskoblinger i analyser, produktbeskrivelser og prinsippsiden i weben.
 - `maal/maal.md` brukes videre som kuratert referanse når analyser eller dokumentasjon trenger kobling mellom nasjonal arkitektur og strategiske mål.
 - Webens prinsippside synkes fra `prinsipper/principles.md`, slik at repoet har én styrende fil for prinsippinnholdet.
+- `ressurser/styringsregler.md` brukes som styrende kilde for klassifisering av operative løsninger og tjenester, normerende ressurser og samarbeidsfora.
 
 ## Avgrensning mellom filer
 - `capabilities.yaml` skal beskrive kapabilitetsstrukturen, ikke være en samlefil for mål- og prinsipptekst.
@@ -36,4 +38,6 @@ Denne mappa samler det strukturerte arkitekturgrunnlaget i repoet.
 Mappa brukes som faglig kildeområde. Produktbeskrivelser ligger i `produkter/produktbeskrivelser/`, mens øvrige leveranser fortsatt kan ligge i `results/`.
 
 Innenfor `produkter/` er `produktnummerering.md` den operative masterfila for produktregister, ressurs-ID-er og statusoversikt.
+
+Innenfor `ressurser/` er `styringsregler.md` den styrende fila for hva som skal regnes som operative løsninger og tjenester, normerende ressurser og samarbeidsfora.
 

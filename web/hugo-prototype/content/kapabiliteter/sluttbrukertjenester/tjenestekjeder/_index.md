@@ -15,6 +15,6 @@ Denne delkapabiliteten er en del av [Sluttbrukertjenester](../).
 
 | Produkt | Produktbeskrivelse | Hvorfor relevant |
 | --- | --- | --- |
-| Norge.no | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/18-Norge-no-produkt-canvas-v3-codex.md) | Lenker relaterte tjenester i relevante livshendelser. |
+| Norge.no | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/18-Norge-no-produkt-canvas-v3-codex.md) | Lenker relaterte tjenester i relevante livshendelser. |
 | Altinn Portal | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/21-Altinn-Portal-produkt-canvas-v3-codex.md) | lar brukeren gå fra søk eller varsel til konkret oppfølging i tjeneste uten å bytte kontekst unødig |
-| Helsenorge | [v1 (codex)](/NA-kunnskap/produkter/32-Helsenorge-produkt-canvas-v1-codex/) | Helsenorge lar brukeren bevege seg mellom informasjon, innlogging og flere helserelaterte tjenester i samme produktflate. |
+| Helsenorge | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/32-Helsenorge-produkt-canvas-v1-codex.md) | Helsenorge lar brukeren bevege seg mellom informasjon, innlogging og flere helserelaterte tjenester i samme produktflate. |

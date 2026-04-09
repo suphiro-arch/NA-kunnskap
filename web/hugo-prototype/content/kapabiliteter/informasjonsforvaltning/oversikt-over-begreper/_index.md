@@ -15,6 +15,6 @@ Denne delkapabiliteten er en del av [Informasjonsforvaltning](../).
 
 | Produkt | Produktbeskrivelse | Hvorfor relevant |
 | --- | --- | --- |
-| Felles datakatalog | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/13-Felles-datakatalog-produkt-canvas-v3-codex.md) | kobler dataressurser til begrepsbeskrivelser og styrker felles forståelse av hva data betyr |
-| Begrepskatalog | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/14-Begrepskatalog-produkt-canvas-v3-codex.md) | er produktets kjernefunksjon ved at begreper kan publiseres, søkes opp og sammenlignes |
-| data.norge.no | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/produkter/produktbeskrivelser/16-data-norge-no-produkt-canvas-v4-codex.md) | gjør definisjoner tilgjengelige og støtter felles forståelse av data |
+| Felles datakatalog | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/13-Felles-datakatalog-produkt-canvas-v3-codex.md) | kobler dataressurser til begrepsbeskrivelser og styrker felles forståelse av hva data betyr |
+| Begrepskatalog | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/14-Begrepskatalog-produkt-canvas-v3-codex.md) | er produktets kjernefunksjon ved at begreper kan publiseres, søkes opp og sammenlignes |
+| data.norge.no | [v4 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/16-data-norge-no-produkt-canvas-v4-codex.md) | gjør definisjoner tilgjengelige og støtter felles forståelse av data |
