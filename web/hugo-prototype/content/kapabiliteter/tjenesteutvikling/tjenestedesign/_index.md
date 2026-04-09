@@ -13,7 +13,17 @@ Denne delkapabiliteten er en del av [Tjenesteutvikling](../).
 
 ## Relaterte produkter
 
-| Produkt | Produktbeskrivelse | Hvorfor relevant |
-| --- | --- | --- |
-| Norge.no | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/18-Norge-no-produkt-canvas-v3-codex.md) | Behovsbasert navigasjon og informasjonsstruktur. |
-| Altinn Studio | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/20-Altinn-Studio-produkt-canvas-v3-codex.md) | – Low-code UI-modellering for brukergrensesnitt |
+<div class="capability-product-links">
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Norge.no</h3>
+    <p class="capability-product-link__meta"><strong>Koblet via:</strong> Tjenestedesign</p>
+    <p class="capability-product-link__description">Behovsbasert navigasjon og informasjonsstruktur.</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/18-Norge-no-produkt-canvas-v3-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Altinn Studio</h3>
+    <p class="capability-product-link__meta"><strong>Koblet via:</strong> Tjenestedesign</p>
+    <p class="capability-product-link__description">– Low-code UI-modellering for brukergrensesnitt</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/20-Altinn-Studio-produkt-canvas-v3-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+</div>

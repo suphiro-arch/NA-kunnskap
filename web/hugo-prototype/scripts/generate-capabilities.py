@@ -1,5 +1,6 @@
 ﻿from __future__ import annotations
 
+import html
 import json
 import re
 import unicodedata
@@ -343,6 +344,49 @@ def simplify_capability_relevance(explanations: list[str], via_names: list[str])
     return 'Produktet er eksplisitt koblet til denne kapabiliteten.'
 
 
+def render_product_link_cards(products: list[dict], capability_name: str, *, include_relevance: bool) -> str:
+    if not products:
+        return '<p>Ingen produkter er koblet til denne kapabiliteten forelopig.</p>'
+
+    grouped: dict[int, dict] = {}
+
+    for entry in products:
+        product = grouped.setdefault(entry['product_id'], {
+            'product_name': entry['product_name'],
+            'product_url': entry['product_url'],
+            'via_names': [],
+            'explanations': [],
+        })
+
+        via_name = entry['subcap_name'] or capability_name
+        if via_name and via_name not in product['via_names']:
+            product['via_names'].append(via_name)
+
+        explanation = (entry.get('explanation') or '').strip()
+        if explanation and explanation not in product['explanations']:
+            product['explanations'].append(explanation)
+
+    parts = ['<div class="capability-product-links">']
+    for product_id in sorted(grouped):
+        product = grouped[product_id]
+        title = html.escape(product['product_name'])
+        url = html.escape(product['product_url'])
+        via = ', '.join(product['via_names'])
+        relevance = simplify_capability_relevance(product['explanations'], product['via_names'])
+
+        parts.append('  <article class="capability-product-link">')
+        parts.append(f'    <h3 class="capability-product-link__title">{title}</h3>')
+        if via:
+            parts.append(f'    <p class="capability-product-link__meta"><strong>Koblet via:</strong> {html.escape(via)}</p>')
+        if include_relevance and relevance:
+            parts.append(f'    <p class="capability-product-link__description">{html.escape(relevance)}</p>')
+        parts.append(f'    <a class="resource-card__button resource-card__button--primary" href="{url}">Åpne ressursbeskrivelse</a>')
+        parts.append('  </article>')
+
+    parts.append('</div>')
+    return '\n'.join(parts)
+
+
 def aggregate_capability_product_rows(products: list[dict], capability_name: str) -> list[list[str]]:
     grouped: dict[int, dict] = {}
 
@@ -432,19 +476,13 @@ Denne delkapabiliteten er en del av [{capability['navn']}](../).
 
 ## Relaterte produkter
 
-{table_or_message(['Produkt', 'Produktbeskrivelse', 'Hvorfor relevant'], sub_product_rows, 'Ingen produkter er koblet til denne delkapabiliteten foreløpig.')}
+{render_product_link_cards(sub_products, subcap['navn'], include_relevance=True)}
 """
             write_file(cap_dir / sub_slug / '_index.md', sub_content)
 
-        product_rows = aggregate_capability_product_rows(products, capability['navn'])
-
         products_markdown = (
             "## Relaterte produkter\n\n"
-            + table_or_message(
-                ['Produkt', 'Produktbeskrivelse', 'Koblet via', 'Hvorfor relevant'],
-                product_rows,
-                'Ingen produkter er koblet til denne kapabiliteten foreløpig.',
-            )
+            + render_product_link_cards(products, capability['navn'], include_relevance=False)
         )
 
         capability_content = f"""
@@ -468,11 +506,11 @@ weight: 10
 description: "Oversikt over hovedkapabiliteter, delkapabiliteter og hvilke produkter som støtter dem."
 ---
 
-Kapabilitetene beskriver hvilke evner som må være på plass for å utvikle, forvalte og videreutvikle et nasjonalt økosystem for digital samhandling. I denne prototypen er de organisert som en navigerbar struktur: først hovedkapabiliteter, deretter delkapabiliteter og til slutt koblinger videre til relevante produkter og andre ressurser.
+Kapabilitetene viser hvilke evner som må være på plass for digital samhandling.
 
-- Velg en hovedkapabilitet for å åpne beskrivelse og delkapabiliteter.
-- Gå videre til delkapabiliteter for å se mer avgrensede evner.
-- Bruk ressursoversikten nederst på kapabilitetssidene for å finne relevante fellesløsninger og normerende ressurser.
+- Start med en hovedkapabilitet.
+- Gå videre til delkapabiliteter.
+- Bruk koblede ressurser for konkrete løsninger og virkemidler.
 """
     write_file(OUT_DIR / '_index.md', top_content)
 

@@ -6,7 +6,7 @@ cardMeta: "3 delkapabiliteter / 0 produkter"
 productsMarkdown: |
   ## Relaterte produkter
   
-  Ingen produkter er koblet til denne kapabiliteten foreløpig.
+  <p>Ingen produkter er koblet til denne kapabiliteten forelopig.</p>
 ---
 
 Evnen til å sette retning for nasjonal arkitektur og realisere strategiske mål.

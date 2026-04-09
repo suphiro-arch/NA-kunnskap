@@ -6,7 +6,7 @@ cardMeta: "0 delkapabiliteter / 0 produkter"
 productsMarkdown: |
   ## Relaterte produkter
   
-  Ingen produkter er koblet til denne kapabiliteten foreløpig.
+  <p>Ingen produkter er koblet til denne kapabiliteten forelopig.</p>
 ---
 
 Evne til å etablere, forvalte og formidle et helhetlig juridisk rammeverk som muliggjør og regulerer sikker og effektiv digital samhandling.

@@ -13,8 +13,23 @@ Denne delkapabiliteten er en del av [Sluttbrukertjenester](../).
 
 ## Relaterte produkter
 
-| Produkt | Produktbeskrivelse | Hvorfor relevant |
-| --- | --- | --- |
-| Norge.no | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/18-Norge-no-produkt-canvas-v3-codex.md) | Lenker relaterte tjenester i relevante livshendelser. |
-| Altinn Portal | [v3 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/21-Altinn-Portal-produkt-canvas-v3-codex.md) | lar brukeren gå fra søk eller varsel til konkret oppfølging i tjeneste uten å bytte kontekst unødig |
-| Helsenorge | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/32-Helsenorge-produkt-canvas-v1-codex.md) | Helsenorge lar brukeren bevege seg mellom informasjon, innlogging og flere helserelaterte tjenester i samme produktflate. |
+<div class="capability-product-links">
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Norge.no</h3>
+    <p class="capability-product-link__meta"><strong>Koblet via:</strong> Tjenestekjeder</p>
+    <p class="capability-product-link__description">Lenker relaterte tjenester i relevante livshendelser.</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/18-Norge-no-produkt-canvas-v3-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Altinn Portal</h3>
+    <p class="capability-product-link__meta"><strong>Koblet via:</strong> Tjenestekjeder</p>
+    <p class="capability-product-link__description">lar brukeren gå fra søk eller varsel til konkret oppfølging i tjeneste uten å bytte kontekst unødig</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/21-Altinn-Portal-produkt-canvas-v3-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Helsenorge</h3>
+    <p class="capability-product-link__meta"><strong>Koblet via:</strong> Tjenestekjeder</p>
+    <p class="capability-product-link__description">Helsenorge lar brukeren bevege seg mellom informasjon, innlogging og flere helserelaterte tjenester i samme produktflate.</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/32-Helsenorge-produkt-canvas-v1-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+</div>
