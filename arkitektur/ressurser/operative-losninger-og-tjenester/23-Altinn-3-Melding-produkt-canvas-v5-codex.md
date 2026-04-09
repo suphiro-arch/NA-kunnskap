@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Altinn Melding
+# Produkt-canvas: Altinn Melding
 
 ## Navn
 Altinn Melding

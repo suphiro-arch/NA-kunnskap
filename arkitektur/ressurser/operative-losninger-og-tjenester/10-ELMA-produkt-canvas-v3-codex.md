@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: ELMA
+# Produkt-canvas: ELMA
 
 ## Navn
 ELMA

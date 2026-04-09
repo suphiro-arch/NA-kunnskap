@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Motorvognregisteret
+# Produkt-canvas: Motorvognregisteret
 
 ## Navn
 Motorvognregisteret

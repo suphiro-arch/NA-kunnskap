@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Fiks skatte- og inntektsopplysninger
+# Produkt-canvas: Fiks skatte- og inntektsopplysninger
 
 ## Navn
 Fiks skatte- og inntektsopplysninger

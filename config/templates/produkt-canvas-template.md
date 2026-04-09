@@ -1,4 +1,4 @@
-﻿# Produkt-canvas mal (Markdown)
+# Produkt-canvas mal (Markdown)
 
 Kilde: konvertert fra `sources/Mal - Produkt canvas.docx`.
 

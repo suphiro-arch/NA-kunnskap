@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Fiks register
+# Produkt-canvas: Fiks register
 
 ## Navn
 Fiks register

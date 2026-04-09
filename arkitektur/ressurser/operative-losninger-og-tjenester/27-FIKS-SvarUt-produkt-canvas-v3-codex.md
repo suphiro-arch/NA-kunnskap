@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Fiks SvarUt
+# Produkt-canvas: Fiks SvarUt
 
 ## Navn
 Fiks SvarUt

@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: eSignering
+# Produkt-canvas: eSignering
 
 ## Navn
 eSignering

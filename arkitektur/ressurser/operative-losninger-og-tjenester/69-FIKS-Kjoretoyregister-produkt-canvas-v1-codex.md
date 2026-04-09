@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Fiks kjøretøyregister
+# Produkt-canvas: Fiks kjøretøyregister
 
 ## Navn
 Fiks kjøretøyregister

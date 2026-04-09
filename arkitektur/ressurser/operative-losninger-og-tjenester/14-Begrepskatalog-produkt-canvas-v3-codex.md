@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Begrepskatalog
+# Produkt-canvas: Begrepskatalog
 
 ## Navn
 Begrepskatalog

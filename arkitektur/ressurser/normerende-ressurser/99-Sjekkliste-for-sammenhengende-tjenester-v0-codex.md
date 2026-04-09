@@ -1,4 +1,4 @@
-﻿# Sjekkliste for sammenhengende tjenester
+# Sjekkliste for sammenhengende tjenester
 
 ## Ressurs ID
 DIGDIR-031

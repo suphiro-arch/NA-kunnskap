@@ -1,4 +1,4 @@
-﻿# Kart for tjenestekjeder
+# Kart for tjenestekjeder
 
 ## Ressurs ID
 DIGDIR-032

@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Altinn Events
+# Produkt-canvas: Altinn Events
 
 ## Navn
 Altinn Events

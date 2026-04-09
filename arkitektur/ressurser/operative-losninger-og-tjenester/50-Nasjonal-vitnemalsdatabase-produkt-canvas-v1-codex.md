@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Nasjonal vitnemålsdatabase (NVB)
+# Produkt-canvas: Nasjonal vitnemålsdatabase (NVB)
 
 ## Navn
 Nasjonal vitnemålsdatabase (NVB)

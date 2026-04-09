@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Fiks digiorden
+# Produkt-canvas: Fiks digiorden
 
 ## Navn
 Fiks digiorden

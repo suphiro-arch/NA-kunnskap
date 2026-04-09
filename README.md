@@ -1,4 +1,4 @@
-﻿# NA-kunnskap
+# NA-kunnskap
 
 Repo for arbeid med nasjonal arkitektur, produktbeskrivelser, kapabiliteter, prinsipper og en Hugo-basert dokumentasjonsprototype.
 

@@ -1,4 +1,4 @@
-﻿# Repo-regler for assistenter
+# Repo-regler for assistenter
 
 Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 

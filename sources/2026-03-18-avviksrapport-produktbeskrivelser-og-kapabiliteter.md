@@ -1,4 +1,4 @@
-﻿# Avviksrapport: Produktbeskrivelser mot kapabilitetsmaster
+# Avviksrapport: Produktbeskrivelser mot kapabilitetsmaster
 
 Dato: 2026-03-18  
 Status: Oppdatert etter full synk av produktbeskrivelser mot masterfila.

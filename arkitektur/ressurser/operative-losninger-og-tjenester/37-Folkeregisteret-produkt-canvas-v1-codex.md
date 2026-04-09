@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Folkeregisteret
+# Produkt-canvas: Folkeregisteret
 
 ## Navn
 Folkeregisteret

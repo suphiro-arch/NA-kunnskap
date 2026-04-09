@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: FIKS-plattformen
+# Produkt-canvas: FIKS-plattformen
 
 ## Navn
 FIKS-plattformen

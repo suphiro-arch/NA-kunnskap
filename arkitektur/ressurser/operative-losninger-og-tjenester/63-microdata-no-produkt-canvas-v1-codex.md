@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: microdata.no
+# Produkt-canvas: microdata.no
 
 ## Navn
 microdata.no

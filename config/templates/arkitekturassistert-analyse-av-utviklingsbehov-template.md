@@ -1,4 +1,4 @@
-﻿# Mal: arkitekturassistert analyse av utviklingsbehov
+# Mal: arkitekturassistert analyse av utviklingsbehov
 
 Formål med malen:
 - kunne brukes som rask analyse

@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Norge.no
+# Produkt-canvas: Norge.no
 
 ## Navn
 Norge.no

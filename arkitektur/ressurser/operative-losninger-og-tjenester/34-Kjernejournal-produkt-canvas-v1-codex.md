@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Kjernejournal
+# Produkt-canvas: Kjernejournal
 
 ## Navn
 Kjernejournal

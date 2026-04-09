@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Altinn Portal
+# Produkt-canvas: Altinn Portal
 
 Målgruppe: Hovedfokus er forretningssiden og strategisk arkitektur.
 

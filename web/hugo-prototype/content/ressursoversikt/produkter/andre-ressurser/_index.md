@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Andre ressurser"
 weight: 4
 description: "Ressurser som foreløpig ikke er plassert i egen ressursmappe med tydelig hovedtype."

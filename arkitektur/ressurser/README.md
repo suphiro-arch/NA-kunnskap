@@ -1,4 +1,4 @@
-﻿# Ressurser
+# Ressurser
 
 Denne mappa samler styringsgrunnlag og videre struktur for ressursområdet i repoet.
 

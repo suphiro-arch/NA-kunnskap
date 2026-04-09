@@ -1,4 +1,4 @@
-﻿# Kapabilitetskart (planlagt)
+# Kapabilitetskart (planlagt)
 
 ## Ressurs ID
 DIGDIR-041

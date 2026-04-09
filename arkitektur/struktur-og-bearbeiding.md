@@ -1,4 +1,4 @@
-﻿# Struktur og bearbeiding av arkitekturgrunnlaget
+# Struktur og bearbeiding av arkitekturgrunnlaget
 
 Denne beskrivelsen forklarer hvordan rådata, kuraterte arbeidsfiler og videre bruk henger sammen i repoet.
 

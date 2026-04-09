@@ -1,4 +1,4 @@
-﻿# Standardinstruks: arkitekturassistert analyse av utviklingsbehov
+# Standardinstruks: arkitekturassistert analyse av utviklingsbehov
 
 Formål:
 - sikre en sporbar analyse fra case til kapabiliteter, prinsipper og produkter

@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Fiks folkeregister
+# Produkt-canvas: Fiks folkeregister
 
 ## Navn
 Fiks folkeregister

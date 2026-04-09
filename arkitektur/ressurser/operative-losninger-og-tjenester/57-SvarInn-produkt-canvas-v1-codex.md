@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: SvarInn
+# Produkt-canvas: SvarInn
 
 ## Navn
 SvarInn

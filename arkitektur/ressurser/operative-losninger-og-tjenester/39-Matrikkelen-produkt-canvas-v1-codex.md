@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Matrikkelen
+# Produkt-canvas: Matrikkelen
 
 ## Navn
 Matrikkelen

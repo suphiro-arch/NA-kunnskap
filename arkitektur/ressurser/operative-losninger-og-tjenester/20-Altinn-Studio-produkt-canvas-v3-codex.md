@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Altinn Studio
+# Produkt-canvas: Altinn Studio
 
 ## Navn
 Altinn Studio

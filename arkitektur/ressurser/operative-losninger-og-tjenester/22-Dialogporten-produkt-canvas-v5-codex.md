@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Dialogporten
+# Produkt-canvas: Dialogporten
 
 ## Navn
 Dialogporten

@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Felles datakatalog
+# Produkt-canvas: Felles datakatalog
 
 ## Navn
 Felles datakatalog

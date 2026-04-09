@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Normerende ressurser"
 weight: 2
 description: "Ressurser som primært gir føringer for modeller, standarder, arkitektur og samordning."

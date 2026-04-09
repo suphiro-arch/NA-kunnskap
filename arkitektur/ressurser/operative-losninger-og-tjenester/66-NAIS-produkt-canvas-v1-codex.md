@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: NAIS
+# Produkt-canvas: NAIS
 
 ## Navn
 NAIS

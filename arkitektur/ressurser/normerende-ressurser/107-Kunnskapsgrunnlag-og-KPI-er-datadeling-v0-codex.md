@@ -1,4 +1,4 @@
-﻿# Kunnskapsgrunnlag og KPI-er datadeling
+# Kunnskapsgrunnlag og KPI-er datadeling
 
 ## Ressurs ID
 DIGDIR-039

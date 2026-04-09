@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: HPR
+# Produkt-canvas: HPR
 
 ## Navn
 HPR

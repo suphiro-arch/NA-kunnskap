@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Felles studentsystem (FS)
+# Produkt-canvas: Felles studentsystem (FS)
 
 ## Navn
 Felles studentsystem (FS)

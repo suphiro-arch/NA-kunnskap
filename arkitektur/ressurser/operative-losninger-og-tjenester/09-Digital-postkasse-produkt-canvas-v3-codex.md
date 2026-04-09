@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Digital postkasse
+# Produkt-canvas: Digital postkasse
 
 ## Navn
 Digital postkasse

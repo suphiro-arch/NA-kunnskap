@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Aa-registeret
+# Produkt-canvas: Aa-registeret
 
 ## Navn
 Aa-registeret

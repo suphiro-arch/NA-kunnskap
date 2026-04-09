@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: ID-porten
+# Produkt-canvas: ID-porten
 
 ## Navn
 ID-porten

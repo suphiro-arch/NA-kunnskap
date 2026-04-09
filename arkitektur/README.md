@@ -1,4 +1,4 @@
-﻿# Arkitektur
+# Arkitektur
 
 Denne mappa samler det strukturerte arkitekturgrunnlaget i repoet.
 

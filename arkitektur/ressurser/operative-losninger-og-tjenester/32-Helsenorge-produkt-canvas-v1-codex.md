@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Helsenorge
+# Produkt-canvas: Helsenorge
 
 ## Navn
 Helsenorge

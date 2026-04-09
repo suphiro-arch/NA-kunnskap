@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Samarbeidsfora"
 weight: 3
 description: "Arenaer for koordinering, prioritering og samordning på tvers av aktører."

@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Vitnemålsportalen
+# Produkt-canvas: Vitnemålsportalen
 
 ## Navn
 Vitnemålsportalen

@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Enhetsregisteret
+# Produkt-canvas: Enhetsregisteret
 
 ## Navn
 Enhetsregisteret

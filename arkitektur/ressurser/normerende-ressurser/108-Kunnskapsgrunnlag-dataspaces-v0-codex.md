@@ -1,4 +1,4 @@
-﻿# Kunnskapsgrunnlag - dataspaces
+# Kunnskapsgrunnlag - dataspaces
 
 ## Ressurs ID
 DIGDIR-040

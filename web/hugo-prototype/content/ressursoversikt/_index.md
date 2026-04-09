@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Ressursoversikt"
 weight: 30
 description: "Inngang til produktbeskrivelser og andre felles ressurser som understøtter kapabilitetene i modellen."

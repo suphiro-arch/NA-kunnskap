@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Opptaksløsninger
+# Produkt-canvas: Opptaksløsninger
 
 ## Navn
 Opptaksløsninger

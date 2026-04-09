@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: A-ordningen
+# Produkt-canvas: A-ordningen
 
 ## Navn
 A-ordningen
