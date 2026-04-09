@@ -371,13 +371,10 @@ def render_product_link_cards(products: list[dict], capability_name: str, *, inc
         product = grouped[product_id]
         title = html.escape(product['product_name'])
         url = html.escape(product['product_url'])
-        via = ', '.join(product['via_names'])
         relevance = simplify_capability_relevance(product['explanations'], product['via_names'])
 
         parts.append('  <article class="capability-product-link">')
         parts.append(f'    <h3 class="capability-product-link__title">{title}</h3>')
-        if via:
-            parts.append(f'    <p class="capability-product-link__meta"><strong>Koblet via:</strong> {html.escape(via)}</p>')
         if include_relevance and relevance:
             parts.append(f'    <p class="capability-product-link__description">{html.escape(relevance)}</p>')
         parts.append(f'    <a class="resource-card__button resource-card__button--primary" href="{url}">Åpne ressursbeskrivelse</a>')

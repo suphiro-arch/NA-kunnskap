@@ -16,7 +16,6 @@ Denne delkapabiliteten er en del av [Samarbeid](../).
 <div class="capability-product-links">
   <article class="capability-product-link">
     <h3 class="capability-product-link__title">Altinn 3 plattform</h3>
-    <p class="capability-product-link__meta"><strong>Koblet via:</strong> Tjenesteforvaltning</p>
     <p class="capability-product-link__description">– Verktøy for tjenesteeiere til å administrere tjenester</p>
     <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/19-Altinn-produkt-canvas-v3-codex.md">Åpne ressursbeskrivelse</a>
   </article>
