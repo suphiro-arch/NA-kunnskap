@@ -1,4 +1,4 @@
-﻿---
+---
 date: 2026-04-09
 author: codex
 status: gjennomfort

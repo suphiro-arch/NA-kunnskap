@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Skatteetatens delingstjenester
+# Produkt-canvas: Skatteetatens delingstjenester
 
 ## Navn
 Skatteetatens delingstjenester

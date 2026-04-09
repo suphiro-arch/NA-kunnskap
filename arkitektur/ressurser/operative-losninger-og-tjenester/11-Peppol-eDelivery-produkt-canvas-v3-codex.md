@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Peppol eDelivery
+# Produkt-canvas: Peppol eDelivery
 
 ## Navn
 Peppol eDelivery

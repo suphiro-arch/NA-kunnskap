@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: eInnsyn
+# Produkt-canvas: eInnsyn
 
 ## Navn
 eInnsyn

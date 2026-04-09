@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Altinn 3 plattform
+# Produkt-canvas: Altinn 3 plattform
 
 ## Navn
 Altinn 3 plattform

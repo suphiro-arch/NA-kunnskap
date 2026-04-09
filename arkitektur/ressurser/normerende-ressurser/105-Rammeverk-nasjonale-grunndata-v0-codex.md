@@ -1,4 +1,4 @@
-﻿# Rammeverk - nasjonale grunndata
+# Rammeverk - nasjonale grunndata
 
 ## Ressurs ID
 DIGDIR-037

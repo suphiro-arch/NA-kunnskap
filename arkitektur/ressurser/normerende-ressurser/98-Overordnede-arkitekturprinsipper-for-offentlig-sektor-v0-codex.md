@@ -1,4 +1,4 @@
-﻿# Overordnede arkitekturprinsipper for offentlig sektor
+# Overordnede arkitekturprinsipper for offentlig sektor
 
 ## Ressurs ID
 DIGDIR-030

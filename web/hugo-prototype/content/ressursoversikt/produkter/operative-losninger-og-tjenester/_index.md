@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Operative løsninger og tjenester"
 weight: 1
 description: "Ressurser som brukes direkte i drift, integrasjon eller løsningsdesign."

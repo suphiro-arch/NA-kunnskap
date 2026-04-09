@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Altinn Varsling
+# Produkt-canvas: Altinn Varsling
 
 ## Navn
 Altinn Varsling

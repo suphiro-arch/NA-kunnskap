@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: e-resept
+# Produkt-canvas: e-resept
 
 ## Navn
 e-resept

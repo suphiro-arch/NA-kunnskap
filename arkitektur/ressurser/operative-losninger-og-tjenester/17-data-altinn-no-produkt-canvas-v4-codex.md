@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: data.altinn.no
+# Produkt-canvas: data.altinn.no
 
 ## Navn
 data.altinn.no

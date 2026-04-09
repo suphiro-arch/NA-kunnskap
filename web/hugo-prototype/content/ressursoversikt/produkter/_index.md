@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Ressurser"
 weight: 31
 description: "Samlet oversikt over siste publiserte versjon av hver ressursbeskrivelse."

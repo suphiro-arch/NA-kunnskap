@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Helsedata.no
+# Produkt-canvas: Helsedata.no
 
 ## Navn
 Helsedata.no

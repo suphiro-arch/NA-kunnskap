@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Maskinporten
+# Produkt-canvas: Maskinporten
 
 ## Navn
 Maskinporten

@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: HelseID
+# Produkt-canvas: HelseID
 
 ## Navn
 HelseID

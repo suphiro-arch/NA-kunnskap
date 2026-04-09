@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Fiks melding
+# Produkt-canvas: Fiks melding
 
 ## Navn
 Fiks melding

@@ -1,4 +1,4 @@
-﻿# Referansearkitektur foresporsel-svar (eOppslag)
+# Referansearkitektur foresporsel-svar (eOppslag)
 
 ## Ressurs ID
 DIGDIR-034

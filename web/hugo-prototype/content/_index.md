@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Forside"
 weight: 1
 description: "Inngang til dokumentasjonen for nasjonal arkitektur, prinsipper, kapabiliteter og nasjonale fellesressurser."

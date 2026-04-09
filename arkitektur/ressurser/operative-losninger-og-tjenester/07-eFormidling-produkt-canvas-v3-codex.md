@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: eFormidling
+# Produkt-canvas: eFormidling
 
 ## Navn
 eFormidling

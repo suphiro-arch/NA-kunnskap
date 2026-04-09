@@ -1,4 +1,4 @@
-﻿# Orden i eget hus
+# Orden i eget hus
 
 ## Ressurs ID
 DIGDIR-036

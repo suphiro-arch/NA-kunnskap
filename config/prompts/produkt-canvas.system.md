@@ -1,4 +1,4 @@
-﻿# Standardprompt: Produktbeskrivelser (Produkt-canvas)
+# Standardprompt: Produktbeskrivelser (Produkt-canvas)
 
 Formål: Sikre lik, detaljert og grundig utfylling av produktbeskrivelser for arkitekturvurderinger, analyser og gjenbruk.
 

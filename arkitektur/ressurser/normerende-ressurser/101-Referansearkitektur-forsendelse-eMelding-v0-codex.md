@@ -1,4 +1,4 @@
-﻿# Referansearkitektur forsendelse (eMelding)
+# Referansearkitektur forsendelse (eMelding)
 
 ## Ressurs ID
 DIGDIR-033

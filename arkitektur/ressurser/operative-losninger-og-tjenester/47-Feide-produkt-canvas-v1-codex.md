@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Feide
+# Produkt-canvas: Feide
 
 ## Navn
 Feide

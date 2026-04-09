@@ -1,4 +1,4 @@
-﻿# Styringsregler for ressurser
+# Styringsregler for ressurser
 
 Denne fila definerer hvordan ressursområdet skal struktureres og klassifiseres i repoet.
 

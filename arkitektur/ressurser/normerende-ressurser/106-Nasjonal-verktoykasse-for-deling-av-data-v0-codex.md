@@ -1,4 +1,4 @@
-﻿# Nasjonal verktoykasse for deling av data
+# Nasjonal verktoykasse for deling av data
 
 ## Ressurs ID
 DIGDIR-038

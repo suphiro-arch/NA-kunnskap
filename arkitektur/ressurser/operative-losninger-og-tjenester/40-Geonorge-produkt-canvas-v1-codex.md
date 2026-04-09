@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Geonorge
+# Produkt-canvas: Geonorge
 
 ## Navn
 Geonorge

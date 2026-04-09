@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Nasjonalt utdanningsregister
+# Produkt-canvas: Nasjonalt utdanningsregister
 
 ## Navn
 Nasjonalt utdanningsregister

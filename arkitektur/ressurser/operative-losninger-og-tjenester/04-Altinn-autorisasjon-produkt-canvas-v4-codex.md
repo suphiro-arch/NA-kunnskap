@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Altinn autorisasjon
+# Produkt-canvas: Altinn autorisasjon
 
 ## Navn
 Altinn autorisasjon

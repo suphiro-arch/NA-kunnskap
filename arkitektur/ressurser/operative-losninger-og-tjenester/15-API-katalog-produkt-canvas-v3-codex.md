@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: API-katalog
+# Produkt-canvas: API-katalog
 
 ## Navn
 API-katalog

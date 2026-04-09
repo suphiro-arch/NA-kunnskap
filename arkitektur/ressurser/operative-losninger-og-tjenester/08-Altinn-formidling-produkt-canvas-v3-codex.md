@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Altinn Formidling
+# Produkt-canvas: Altinn Formidling
 
 ## Navn
 Altinn Formidling

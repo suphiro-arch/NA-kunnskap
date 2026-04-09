@@ -1,4 +1,4 @@
-﻿# Nasjonalt veikart
+# Nasjonalt veikart
 
 ## Ressurs ID
 DIGDIR-035

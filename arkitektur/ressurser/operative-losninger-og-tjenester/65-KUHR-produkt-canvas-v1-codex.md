@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: KUHR
+# Produkt-canvas: KUHR
 
 ## Navn
 KUHR

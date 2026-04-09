@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: Kontakt- og reservasjonsregisteret
+# Produkt-canvas: Kontakt- og reservasjonsregisteret
 
 ## Navn
 Kontakt- og reservasjonsregisteret

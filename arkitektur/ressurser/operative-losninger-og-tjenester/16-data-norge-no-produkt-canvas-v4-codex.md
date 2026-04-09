@@ -1,4 +1,4 @@
-﻿# Produkt-canvas: data.norge.no
+# Produkt-canvas: data.norge.no
 
 Målgruppe: Hovedfokus er forretningssiden og strategisk arkitektur.
 
