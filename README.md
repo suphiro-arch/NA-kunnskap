@@ -58,4 +58,20 @@ Repo for arbeid med nasjonal arkitektur, produktbeskrivelser, kapabiliteter, pri
 - oppgi ekstra kilder eksplisitt når arbeidet går bredere enn den lokale lenkelista
 - skill mellom fakta, deduksjon og usikkerhet
 
+## Robust tegnsettingsvern
+- bruk `web/hugo-prototype/scripts/validate-text-encoding.py` for å stoppe mistenkelige tegnkodingsfeil og BOM i validerte tekstfiler
+- bruk `tools/safe_bulk_text_repair.py` ved større oppryddinger i språk/encoding
+
+Anbefalt bruk av sikker reparasjon:
+
+1. Kjor alltid dry-run forst:
+  `python tools/safe_bulk_text_repair.py`
+2. Vurder diff for filene scriptet foreslar.
+3. Kjor apply med backup:
+  `python tools/safe_bulk_text_repair.py --apply`
+4. Valider etterpa:
+  `python web/hugo-prototype/scripts/validate-text-encoding.py`
+
+Scriptet lager automatisk backup under `.backups/encoding/<timestamp>/` ved `--apply`.
+
 
