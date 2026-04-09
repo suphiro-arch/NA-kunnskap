@@ -20,8 +20,8 @@ productsMarkdown: |
   | Altinn Varsling | [v5 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/24-Varslinger-produkt-canvas-v5-codex.md) | Integrerbare tjenester | tilbyr API-er for integrasjon med Altinn Apps, Altinn-tjenester og tjenesteeiersystemer |
   | Fiks-plattformen | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/25-FIKS-plattformen-produkt-canvas-v1-codex.md) | Integrerbare tjenester, Utviklings- og kjøretidsmiljø | Støtter flere delkapabiliteter i denne hovedkapabiliteten. |
   | NAIS | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/66-NAIS-produkt-canvas-v1-codex.md) | Gjenbrukbare tjenester, Utviklings- og kjøretidsmiljø | Støtter flere delkapabiliteter i denne hovedkapabiliteten. |
-  | FINT Felleskomponent | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/fint-felleskomponent-v1-codex.md) | Gjenbrukbare tjenester, Integrerbare tjenester | Støtter flere delkapabiliteter i denne hovedkapabiliteten. |
-  | FINT Arkiv | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/fint-arkiv-v1-codex.md) | Integrerbare tjenester | gjør arkivintegrasjon tilgjengelig som et felles og integrerbart mønster i fylkeskommunal sektor. |
+  | FINT Felleskomponent | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/70-FINT-Felleskomponent-v1-codex.md) | Gjenbrukbare tjenester, Integrerbare tjenester | Støtter flere delkapabiliteter i denne hovedkapabiliteten. |
+  | FINT Arkiv | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/71-FINT-Arkiv-v1-codex.md) | Integrerbare tjenester | gjør arkivintegrasjon tilgjengelig som et felles og integrerbart mønster i fylkeskommunal sektor. |
 ---
 
 Evne til å utvikle sammenhengende digitale tjenester.

@@ -1,7 +1,7 @@
 # FINT Arkiv
 
 ## Ressurs ID
-Ikke fastsatt ennå
+NOVARI-002
 
 ## Status/Livsfase
 **Produksjon** - operativ arkivressurs i bruk i flere virksomheter.  

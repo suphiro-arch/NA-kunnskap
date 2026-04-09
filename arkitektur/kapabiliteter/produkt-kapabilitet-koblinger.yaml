@@ -2486,8 +2486,8 @@
             "product_name": "FINT Felleskomponent",
             "version": 1,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/fint-felleskomponent-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/fint-felleskomponent-v1-codex.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/70-FINT-Felleskomponent-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/70-FINT-Felleskomponent-v1-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
@@ -2556,8 +2556,8 @@
             "product_name": "FINT Arkiv",
             "version": 1,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/fint-arkiv-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/fint-arkiv-v1-codex.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/71-FINT-Arkiv-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/71-FINT-Arkiv-v1-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
@@ -2616,8 +2616,8 @@
             "product_name": "FINT Informasjonsmodell",
             "version": 1,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/fint-informasjonsmodell-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/fint-informasjonsmodell-v1-codex.md",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/72-FINT-Informasjonsmodell-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/72-FINT-Informasjonsmodell-v1-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-896e4c1434604caa891b94bcce964720",
@@ -2656,8 +2656,8 @@
             "product_name": "VIGO",
             "version": 1,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/vigo-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/vigo-v1-codex.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v1-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",

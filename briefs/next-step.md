@@ -261,6 +261,7 @@ Status 2026-04-09:
 - Helse-løpet er nå gjennomført: 7 siste beskrivelser for `HDIR`, `NHN` og `HELFO` er flyttet til `arkitektur/ressurser/operative-losninger-og-tjenester/` og tilhørende register- og mappingpekere er oppdatert.
 - Restbolken er nå gjennomført: 11 siste beskrivelser for `NAV`, `SKATT`, `KART`, `BRREG`, `SVV`, `SSB` og `FLERE` er flyttet til `arkitektur/ressurser/operative-losninger-og-tjenester/` og tilhørende register- og mappingpekere er oppdatert.
 - Webgeneratoren for kapabilitetssider bygger nå lenker fra faktisk `relative_path`, slik at flyttede filer fortsatt peker riktig i generert innhold.
+- De nye `NOVARI`-ressursene er harmonisert til samme nummererte filnavnsmønster som resten av porteføljen, og styringsreglene presiserer nå at nye ressursfiler skal følge dette når løpenummer er fastsatt.
 - Første hovedmigrering av siste operative beskrivelser er dermed i praksis fullført.
 - Lokal Hugo-build er fortsatt ikke verifisert fordi `hugo` ikke er installert i dette miljøet.
 

@@ -687,7 +687,7 @@ Fiks kjøretøyregister er KS Digitals API-baserte tilgangstjeneste til Statens 
 
 ## FINT Felleskomponent
 
-**Ressurs-ID:** `NOVARI-001` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/fint-felleskomponent-v1-codex.md)
+**Ressurs-ID:** `NOVARI-001` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/70-FINT-Felleskomponent-v1-codex.md)
 
 **Kategori:** Felleskomponent | **Type:** Integrasjons- og datadelingstjeneste
 
@@ -699,7 +699,7 @@ FINT Felleskomponent er den operative felleskomponenten som gjør det mulig for 
 
 ## FINT Arkiv
 
-**Ressurs-ID:** `NOVARI-002` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/fint-arkiv-v1-codex.md)
+**Ressurs-ID:** `NOVARI-002` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/71-FINT-Arkiv-v1-codex.md)
 
 **Kategori:** Fellesløsning | **Type:** Arkiv- og integrasjonstjeneste
 
@@ -711,7 +711,7 @@ FINT Arkiv er en operativ fellesløsning som tilgjengeliggjør informasjon i for
 
 ## FINT Informasjonsmodell
 
-**Ressurs-ID:** `NOVARI-003` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/fint-informasjonsmodell-v1-codex.md)
+**Ressurs-ID:** `NOVARI-003` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/72-FINT-Informasjonsmodell-v1-codex.md)
 
 **Kategori:** Referanseressurs | **Type:** Informasjonsmodell
 
@@ -723,7 +723,7 @@ FINT Informasjonsmodell er den felles semantiske og strukturelle modellen som be
 
 ## VIGO
 
-**Ressurs-ID:** `NOVARI-004` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/vigo-v1-codex.md)
+**Ressurs-ID:** `NOVARI-004` | **Siste versjon:** v1 (codex) | [Markdown](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v1-codex.md)
 
 **Kategori:** Fellesløsning | **Type:** Felles løsning for inntak og administrasjon i videregående opplæring
 

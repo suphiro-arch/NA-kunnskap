@@ -20,7 +20,7 @@ productsMarkdown: |
   | Aa-registeret | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/36-Aa-registeret-produkt-canvas-v1-codex.md) | Sammenhengende tjenester | Aa-registeret gir arbeidsgivere og arbeidstakere innsyn i egne opplysninger som del av en sammenhengende offentlig tjeneste. |
   | Opptaksløsninger | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/49-Opptakslosninger-produkt-canvas-v1-codex.md) | Sammenhengende tjenester | Opptaksløsningene gir søkere en mer samlet og sammenhengende opptaksprosess. |
   | Vitnemålsportalen | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/51-Vitnemalsportalen-produkt-canvas-v1-codex.md) | Sammenhengende tjenester | samler innsyn, uthenting og deling av resultater i én brukerrettet arbeidsflate som knytter sammen utdanningssektor og mottakere utenfor sektoren |
-  | VIGO | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/vigo-v1-codex.md) | Sammenhengende tjenester | gir en samlet løsning for prosesser som søking, inntak og administrativ oppfølging i videregående opplæring. |
+  | VIGO | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v1-codex.md) | Sammenhengende tjenester | gir en samlet løsning for prosesser som søking, inntak og administrativ oppfølging i videregående opplæring. |
 ---
 
 Evne til å tilby en sammenhengende digital brukeropplevelse gjennom et økosystem av standardiserte og integrerbare tjenester.

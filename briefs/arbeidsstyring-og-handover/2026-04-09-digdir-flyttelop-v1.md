@@ -66,7 +66,7 @@ Det finnes nå to navnekonvensjoner i repoet:
 
 2. Nye ressursfiler under `arkitektur/ressurser/`
    - format: `<slug>-vX-<forfatter>.md`
-   - brukt for `fint-felleskomponent-v1-codex.md`, `fint-arkiv-v1-codex.md`, `fint-informasjonsmodell-v1-codex.md` og `vigo-v1-codex.md`
+  - brukt for `70-FINT-Felleskomponent-v1-codex.md`, `71-FINT-Arkiv-v1-codex.md`, `72-FINT-Informasjonsmodell-v1-codex.md` og `73-VIGO-v1-codex.md`
 
 ### Vurdering
 

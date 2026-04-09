@@ -1,7 +1,7 @@
 # FINT Informasjonsmodell
 
 ## Ressurs ID
-Ikke fastsatt ennå
+NOVARI-003
 
 ## Ressurskategori
 Normerende ressurs

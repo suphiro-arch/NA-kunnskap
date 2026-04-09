@@ -22,7 +22,7 @@ productsMarkdown: |
   | SvarInn | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/57-SvarInn-produkt-canvas-v1-codex.md) | Organisatorisk samhandling | gir kommuner og andre offentlige virksomheter et felles mønster for innkommende digital post mellom aktører som bruker samme samhandlingsløp. |
   | A-ordningen | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/59-A-ordningen-produkt-canvas-v1-codex.md) | Organisatorisk samhandling | A-ordningen er en samforvaltet ordning mellom Skatteetaten, NAV og SSB med felles rapporterings- og datagrunnlag. |
   | DSOP-tjenester | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/62-DSOP-tjenester-produkt-canvas-v1-codex.md) | Organisatorisk samhandling | DSOP bygger på organisert samhandling og felles utvikling mellom offentlig og privat sektor. |
-  | VIGO | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/vigo-v1-codex.md) | Organisatorisk samhandling | samler flere fylkeskommuner og aktører rundt felles prosesser og dataflyt for inntak og administrasjon i videregående opplæring. |
+  | VIGO | [v1 (codex)](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v1-codex.md) | Organisatorisk samhandling | samler flere fylkeskommuner og aktører rundt felles prosesser og dataflyt for inntak og administrasjon i videregående opplæring. |
 ---
 
 Evne til å samarbeid og samhandling på tvers av offentlig og privat forvaltning.
