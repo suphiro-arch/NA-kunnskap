@@ -2,7 +2,6 @@
 
 import json
 import re
-import shutil
 import unicodedata
 from collections import defaultdict
 from pathlib import Path
@@ -10,7 +9,12 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[3]
 CAPABILITIES_FILE = REPO_ROOT / 'arkitektur' / 'kapabiliteter' / 'capabilities.yaml'
 MAP_FILE = REPO_ROOT / 'arkitektur' / 'kapabiliteter' / 'produkt-kapabilitet-koblinger.yaml'
-PRODUCTS_DIR = REPO_ROOT / 'arkitektur' / 'produkter' / 'produktbeskrivelser'
+SOURCE_DIRS = [
+    REPO_ROOT / 'arkitektur' / 'produkter' / 'produktbeskrivelser',
+    REPO_ROOT / 'arkitektur' / 'ressurser' / 'operative-losninger-og-tjenester',
+    REPO_ROOT / 'arkitektur' / 'ressurser' / 'normerende-ressurser',
+    REPO_ROOT / 'arkitektur' / 'ressurser' / 'samarbeidsfora',
+]
 OUT_DIR = REPO_ROOT / 'web' / 'hugo-prototype' / 'content' / 'kapabiliteter'
 REPO_BLOB_BASE = 'https://github.com/suphiro-arch/NA-kunnskap/blob/main'
 
@@ -199,42 +203,45 @@ def first_nonempty_line(text: str) -> str:
 
 def latest_product_files() -> list[dict]:
     items: list[dict] = []
-    for path in PRODUCTS_DIR.glob('*.md'):
-        match = CURRENT_PATTERN.match(path.name)
-        if match:
-            items.append({
-                'id': int(match.group('id')),
-                'name': match.group('name'),
-                'version': int(match.group('ver')),
-                'author': match.group('author'),
-                'path': path,
-                'relative_path': path.relative_to(REPO_ROOT).as_posix(),
-                'filename': path.name,
-            })
+    for source_dir in SOURCE_DIRS:
+        if not source_dir.exists():
             continue
-        match = NO_AUTHOR_PATTERN.match(path.name)
-        if match:
-            items.append({
-                'id': int(match.group('id')),
-                'name': match.group('name'),
-                'version': int(match.group('ver')),
-                'author': 'ukjent',
-                'path': path,
-                'relative_path': path.relative_to(REPO_ROOT).as_posix(),
-                'filename': path.name,
-            })
-            continue
-        match = LEGACY_PATTERN.match(path.name)
-        if match:
-            items.append({
-                'id': int(match.group('id')),
-                'name': match.group('name'),
-                'version': 0,
-                'author': match.group('author') or 'legacy',
-                'path': path,
-                'relative_path': path.relative_to(REPO_ROOT).as_posix(),
-                'filename': path.name,
-            })
+        for path in source_dir.glob('*.md'):
+            match = CURRENT_PATTERN.match(path.name)
+            if match:
+                items.append({
+                    'id': int(match.group('id')),
+                    'name': match.group('name'),
+                    'version': int(match.group('ver')),
+                    'author': match.group('author'),
+                    'path': path,
+                    'relative_path': path.relative_to(REPO_ROOT).as_posix(),
+                    'filename': path.name,
+                })
+                continue
+            match = NO_AUTHOR_PATTERN.match(path.name)
+            if match:
+                items.append({
+                    'id': int(match.group('id')),
+                    'name': match.group('name'),
+                    'version': int(match.group('ver')),
+                    'author': 'ukjent',
+                    'path': path,
+                    'relative_path': path.relative_to(REPO_ROOT).as_posix(),
+                    'filename': path.name,
+                })
+                continue
+            match = LEGACY_PATTERN.match(path.name)
+            if match:
+                items.append({
+                    'id': int(match.group('id')),
+                    'name': match.group('name'),
+                    'version': 0,
+                    'author': match.group('author') or 'legacy',
+                    'path': path,
+                    'relative_path': path.relative_to(REPO_ROOT).as_posix(),
+                    'filename': path.name,
+                })
 
     latest_by_id: dict[int, dict] = {}
     for item in items:
@@ -259,32 +266,47 @@ def parse_product_capability_mappings(capabilities: list[dict]) -> tuple[dict[st
     capability_products: dict[str, list[dict]] = defaultdict(list)
     subcap_products: dict[str, list[dict]] = defaultdict(list)
 
+    capability_by_slug = {cap['navn'].strip().lower().replace(' ', '-'): cap for cap in capabilities}
+    capability_by_name = {cap['navn']: cap for cap in capabilities}
+    subcap_lookup: dict[tuple[str, str], dict] = {}
+    subcap_name_lookup: dict[tuple[str, str], dict] = {}
+    for cap in capabilities:
+        for subcap in cap.get('delkapabiliteter', []):
+            subcap_slug = slugify(subcap['navn'])
+            subcap_lookup[(cap['id'], subcap_slug)] = subcap
+            subcap_name_lookup[(cap['id'], subcap['navn'])] = subcap
+
     mapping = json.loads(MAP_FILE.read_text(encoding='utf-8'))
-    for capability in mapping['capabilities']:
-        for product in capability.get('products', []):
-            capability_products[capability['capability_id']].append({
+    for product in mapping.get('products', []):
+        for capability in product.get('capabilities', []):
+            capability_slug = capability.get('capability_slug') or slugify(capability.get('capability_name', ''))
+            canonical_capability = capability_by_slug.get(capability_slug) or capability_by_name.get(capability.get('capability_name', ''))
+            if not canonical_capability:
+                continue
+
+            subcap_slug = capability.get('subcapability_slug') or slugify(capability.get('subcapability_name', ''))
+            canonical_subcap = (
+                subcap_lookup.get((canonical_capability['id'], subcap_slug))
+                or subcap_name_lookup.get((canonical_capability['id'], capability.get('subcapability_name', '')))
+            )
+
+            entry = {
                 'product_id': product['product_id'],
                 'product_name': product['product_name'],
                 'version': product['version'],
                 'author': product['author'],
                 'relative_path': product['relative_path'],
-                'product_url': product['product_url'],
-                'mapping_label': product['mapping_label'],
-                'explanation': product['explanation'],
-                'subcap_name': product.get('subcapability_name', ''),
-            })
-        for subcap in capability.get('subcapabilities', []):
-            for product in subcap.get('products', []):
-                subcap_products[subcap['subcapability_id']].append({
-                    'product_id': product['product_id'],
-                    'product_name': product['product_name'],
-                    'version': product['version'],
-                    'author': product['author'],
-                    'relative_path': product['relative_path'],
-                    'product_url': product['product_url'],
-                    'mapping_label': product['mapping_label'],
-                    'explanation': product['explanation'],
-                    'subcap_name': product.get('subcapability_name', ''),
+                'product_url': f"{REPO_BLOB_BASE}/{product['relative_path']}",
+                'mapping_label': capability.get('mapping_label', ''),
+                'explanation': capability.get('explanation', ''),
+                'subcap_name': canonical_subcap['navn'] if canonical_subcap else capability.get('subcapability_name', ''),
+            }
+
+            capability_products[canonical_capability['id']].append(entry)
+            if canonical_subcap:
+                subcap_products[canonical_subcap['id']].append({
+                    **entry,
+                    'subcap_name': canonical_subcap['navn'],
                 })
 
     for entries in capability_products.values():
@@ -373,12 +395,6 @@ def generate() -> None:
     capabilities = parse_capabilities_yaml(CAPABILITIES_FILE)
     capability_products, subcap_products = parse_product_capability_mappings(capabilities)
 
-    if OUT_DIR.exists():
-        for child in OUT_DIR.iterdir():
-            if child.is_dir():
-                shutil.rmtree(child)
-            else:
-                child.unlink()
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
     for index, capability in enumerate(capabilities, start=1):
@@ -452,11 +468,11 @@ weight: 10
 description: "Oversikt over hovedkapabiliteter, delkapabiliteter og hvilke produkter som støtter dem."
 ---
 
-Kapabilitetene beskriver hvilke evner som må være på plass for å utvikle, forvalte og videreutvikle et nasjonalt økosystem for digital samhandling. I denne prototypen er de organisert som en navigerbar struktur: først hovedkapabiliteter, deretter delkapabiliteter og til slutt koblinger videre til relevante produkter.
+Kapabilitetene beskriver hvilke evner som må være på plass for å utvikle, forvalte og videreutvikle et nasjonalt økosystem for digital samhandling. I denne prototypen er de organisert som en navigerbar struktur: først hovedkapabiliteter, deretter delkapabiliteter og til slutt koblinger videre til relevante produkter og andre ressurser.
 
 - Velg en hovedkapabilitet for å åpne beskrivelse og delkapabiliteter.
 - Gå videre til delkapabiliteter for å se mer avgrensede evner.
-- Bruk produktoversikten nederst på kapabilitetssidene for å finne relevante fellesløsninger.
+- Bruk ressursoversikten nederst på kapabilitetssidene for å finne relevante fellesløsninger og normerende ressurser.
 """
     write_file(OUT_DIR / '_index.md', top_content)
 

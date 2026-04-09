@@ -1,67 +1,60 @@
 ﻿$ErrorActionPreference = 'Stop'
 
-$srcDir = 'arkitektur/produkter/produktbeskrivelser'
 $outDir = 'web/hugo-prototype/content/ressursoversikt/produkter'
+$registerFile = 'arkitektur/produkter/produktnummerering.md'
 $mapFile = 'arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml'
 $repoBlobBase = 'https://github.com/suphiro-arch/NA-kunnskap/blob/main'
+$repoRoot = (Resolve-Path '.').Path
+$registerBase = Split-Path -Parent (Join-Path $repoRoot $registerFile)
+
 New-Item -ItemType Directory -Force -Path $outDir | Out-Null
 $productCapabilityMap = Get-Content -Raw $mapFile -Encoding utf8 | ConvertFrom-Json
 
-$patternCurrent = '^(?<id>\d+)-(?<name>.+)-produkt-canvas-v(?<ver>\d+)-(?<author>[^.]+)\.md$'
-$patternNoAuthor = '^(?<id>\d+)-(?<name>.+)-produkt-canvas-v(?<ver>\d+)\.md$'
-$patternLegacy = '^(?<id>\d+)-(?<name>.+)-produkt-canvas(?:-(?<author>[^.]+))?\.md$'
-$items = @()
+function Get-RepoRelativePath {
+  param([string]$Path)
 
-Get-ChildItem $srcDir -File | ForEach-Object {
-  if ($_.Name -match $patternCurrent) {
-    $items += [PSCustomObject]@{
-      Id = [int]$Matches.id
-      Name = $Matches.name
-      Version = [int]$Matches.ver
-      Author = $Matches.author
-      FileName = $_.Name
-      RelativePath = "arkitektur/produkter/produktbeskrivelser/$($_.Name)"
-      FullPath = $_.FullName
-      LastWriteTime = $_.LastWriteTime
-      IsLegacy = $false
-    }
+  $fullPath = [System.IO.Path]::GetFullPath($Path)
+  if ($fullPath.StartsWith($repoRoot, [System.StringComparison]::OrdinalIgnoreCase)) {
+    return $fullPath.Substring($repoRoot.Length + 1).Replace('\', '/')
   }
-  elseif ($_.Name -match $patternNoAuthor) {
-    $items += [PSCustomObject]@{
-      Id = [int]$Matches.id
-      Name = $Matches.name
-      Version = [int]$Matches.ver
-      Author = 'ukjent'
-      FileName = $_.Name
-      RelativePath = "arkitektur/produkter/produktbeskrivelser/$($_.Name)"
-      FullPath = $_.FullName
-      LastWriteTime = $_.LastWriteTime
-      IsLegacy = $false
-    }
-  }
-  elseif ($_.Name -match $patternLegacy) {
-    $items += [PSCustomObject]@{
-      Id = [int]$Matches.id
-      Name = $Matches.name
-      Version = 0
-      Author = $(if ($Matches.author) { $Matches.author } else { 'legacy' })
-      FileName = $_.Name
-      RelativePath = "arkitektur/produkter/produktbeskrivelser/$($_.Name)"
-      FullPath = $_.FullName
-      LastWriteTime = $_.LastWriteTime
-      IsLegacy = $true
-    }
-  }
+
+  return $fullPath.Replace('\', '/')
 }
 
-$latest = $items |
-  Group-Object Id |
-  ForEach-Object {
-    $_.Group |
-      Sort-Object -Property @{ Expression = 'Version'; Descending = $true }, @{ Expression = 'LastWriteTime'; Descending = $true }, @{ Expression = 'FileName'; Descending = $true } |
-      Select-Object -First 1
-  } |
-  Sort-Object Id
+function Get-RegisterEntries {
+  $lines = Get-Content -Path $registerFile -Encoding utf8
+  $entries = @()
+
+  foreach ($line in $lines) {
+    $trimmed = $line.Trim()
+    if (-not $trimmed.StartsWith('|')) { continue }
+    if ($trimmed -match '^\|\s*---') { continue }
+
+    $cells = $trimmed.Trim('|').Split('|') | ForEach-Object { $_.Trim() }
+    if ($cells.Count -lt 9) { continue }
+    if ($cells[0] -notmatch '^\d+$') { continue }
+
+    $documentCell = $cells[8]
+    if (-not $documentCell -or $documentCell -eq '-') { continue }
+    if ($documentCell -notmatch '\((?<path>[^)]+\.md)\)') { continue }
+
+    $fullPath = [System.IO.Path]::GetFullPath((Join-Path $registerBase $Matches.path))
+    if (-not (Test-Path -LiteralPath $fullPath)) { continue }
+
+    $entries += [PSCustomObject]@{
+      SortOrder = [int]$cells[0]
+      ResourceId = $cells[1]
+      Name = $cells[2]
+      Category = $cells[3]
+      ResourceType = $cells[4]
+      VersionLabel = $cells[7]
+      RelativePath = Get-RepoRelativePath -Path $fullPath
+      FullPath = $fullPath
+    }
+  }
+
+  return $entries | Sort-Object SortOrder
+}
 
 function Extract-Section {
   param(
@@ -151,11 +144,45 @@ function Extract-DisplayName {
     }
   }
 
+  foreach ($line in $Lines) {
+    if ($line -match '^#\s+(.+?)\s*$') {
+      return $Matches[1].Trim()
+    }
+  }
+
   return (($Fallback -replace '-', ' ').Trim())
 }
 
+function Extract-CapabilitiesFromSection {
+  param([string[]]$Lines)
+
+  $section = Extract-Section -Lines $Lines -Heading 'Kapabiliteter'
+  $items = New-Object System.Collections.Generic.List[string]
+
+  foreach ($line in $section) {
+    $trim = $line.Trim()
+    if (-not $trim) { continue }
+    if (-not $trim.StartsWith('- ')) { continue }
+
+    $clean = $trim.Substring(2).Trim()
+    $clean = $clean -replace '\*\*', ''
+    if ($clean) {
+      $items.Add($clean)
+    }
+  }
+
+  if ($items.Count -eq 0) {
+    return 'Ikke koblet til kapabilitetssider ennaa.'
+  }
+
+  return ($items -join ' | ')
+}
+
 function Extract-CapabilityLinks {
-  param([string]$RelativePath)
+  param(
+    [string]$RelativePath,
+    [string[]]$Lines
+  )
 
   $links = New-Object System.Collections.Generic.List[string]
   $seen = @{}
@@ -164,7 +191,7 @@ function Extract-CapabilityLinks {
     Select-Object -First 1
 
   if (-not $productEntry) {
-    return 'Ikke koblet til kapabilitetssider ennå.'
+    return (Extract-CapabilitiesFromSection -Lines $Lines)
   }
 
   foreach ($capability in $productEntry.capabilities) {
@@ -185,27 +212,29 @@ function Extract-CapabilityLinks {
   }
 
   if ($links.Count -eq 0) {
-    return 'Ikke koblet til kapabilitetssider ennå.'
+    return (Extract-CapabilitiesFromSection -Lines $Lines)
   }
 
-  return ($links -join ' · ')
+  return ($links -join ' | ')
 }
+
+$latest = Get-RegisterEntries
 
 $index = @(
   '---',
-  'title: "Produkter"',
+  'title: "Ressurser"',
   'weight: 31',
-  'description: "Samlet oversikt over siste publiserte versjon av hver produktbeskrivelse."',
+  'description: "Samlet oversikt over siste publiserte versjon av hver ressursbeskrivelse."',
   'hideToc: true',
   '---',
   '',
-  '# Produkter (siste versjon)',
+  '# Ressurser (siste versjon)',
   '',
-  'Denne oversikten viser siste versjon per produkt basert på høyeste versjonsnummer.',
+  'Denne oversikten viser siste registrerte versjon per ressurs basert paa `arkitektur/produkter/produktnummerering.md`.',
   '',
-  'Bruk siden for å finne riktig produktbeskrivelse raskt, og gå derfra videre til detaljene i markdownfilen på GitHub eller via relevante kapabilitetssider.',
+  'Bruk siden for aa finne riktig ressursbeskrivelse raskt, og gaa derfra videre til detaljene i markdownfilen paa GitHub eller via relevante kapabilitetssider.',
   '',
-  'Produktene er presentert som egne oversiktsblokker, slik at kapabilitetene kan leses som en del av produktets kontekst i stedet for som en smal tabellkolonne.'
+  'Ressursene er presentert som egne oversiktsblokker, slik at kapabilitetene kan leses som en del av ressursens kontekst i stedet for som en smal tabellkolonne.'
 )
 
 foreach ($p in $latest) {
@@ -213,16 +242,16 @@ foreach ($p in $latest) {
   $displayName = Extract-DisplayName -Lines $raw -Fallback $p.Name
   $descriptionSection = Extract-Section -Lines $raw -Heading 'Kort beskrivelse'
   $shortDescription = Shorten-OverviewDescription -Text (Clean-ShortDescription -Section $descriptionSection)
-  $capabilityLinks = Extract-CapabilityLinks -RelativePath $p.RelativePath
+  $capabilityLinks = Extract-CapabilityLinks -RelativePath $p.RelativePath -Lines $raw
 
   $blobUrl = ('{0}/{1}' -f $repoBlobBase, $p.RelativePath)
-  $versionLabel = if ($p.Version -gt 0) { "v$($p.Version)" } else { 'legacy' }
-  $authorLabel = if ($p.Author) { $p.Author } else { 'ukjent' }
 
   $index += ''
   $index += ("## {0}" -f $displayName)
   $index += ''
-  $index += ("**Siste versjon:** `{0} ({1})` · [Markdown]({2})" -f $versionLabel, $authorLabel, $blobUrl)
+  $index += ("**Ressurs-ID:** `{0}` | **Siste versjon:** `{1}` | [Markdown]({2})" -f $p.ResourceId, $p.VersionLabel, $blobUrl)
+  $index += ''
+  $index += ("**Kategori:** {0} | **Type:** {1}" -f $p.Category, $p.ResourceType)
   $index += ''
   $index += $shortDescription
   $index += ''
@@ -237,5 +266,4 @@ Get-ChildItem $outDir -File |
   Where-Object { $_.Name -ne '_index.md' } |
   Remove-Item -Force
 
-Write-Output ("Genererte oversikt for produkter: {0}" -f $latest.Count)
-
+Write-Output ("Genererte oversikt for ressurser: {0}" -f $latest.Count)
