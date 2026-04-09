@@ -2,7 +2,7 @@
 date: 2026-04-09
 author: codex
 status: gjennomfort
-topic: fÃ¸rste sektorvise flyttelÃ¸p for Digdir
+topic: første sektorvise flytteløp for Digdir
 sources:
   - arkitektur/ressurser/produktnummerering.md
   - arkitektur/ressurser/operative-losninger-og-tjenester/
@@ -10,55 +10,55 @@ sources:
   - web/hugo-prototype/scripts/generate-capabilities.py
 ---
 
-# FÃ¸rste sektorvise flyttelÃ¸p: Digdir
+# Første sektorvise flytteløp: Digdir
 
-Dette notatet konkretiserer fÃ¸rste flyttelÃ¸p fra gammel produktstruktur til ny ressursstruktur.
+Dette notatet konkretiserer første flytteløp fra gammel produktstruktur til ny ressursstruktur.
 
-MÃ¥let er Ã¥ flytte fÃ¸rste stÃ¸rre, sammenhengende operative bolk uten Ã¥ bryte:
-- registerfÃ¸ring i `arkitektur/ressurser/produktnummerering.md`
+Målet er å flytte første større, sammenhengende operative bolk uten å bryte:
+- registerføring i `arkitektur/ressurser/produktnummerering.md`
 - webgenerering i `web/hugo-prototype/`
 - tegnkodingskontroll
 - sporbarhet mellom gammel og ny struktur
 
-## Valgt fÃ¸rste bolk
+## Valgt første bolk
 
-FÃ¸rste flyttelÃ¸p bÃ¸r vÃ¦re **Digdir-bolken**.
+Første flytteløp bør være **Digdir-bolken**.
 
 Begrunnelse:
-- Digdir har mange eksisterende beskrivelser pÃ¥ relativt likt modenhetsnivÃ¥.
-- PortefÃ¸ljen dekker flere ressurskategorier innen samme operative hovedtype.
+- Digdir har mange eksisterende beskrivelser på relativt likt modenhetsnivå.
+- Porteføljen dekker flere ressurskategorier innen samme operative hovedtype.
 - Webgrunnlaget er allerede sterkt eksponert mot Digdir-ressursene.
-- Vi fÃ¥r testet overgang for felleskomponenter, plattformer, registre, portaler og felleslÃ¸sninger i samme lÃ¸p.
+- Vi får testet overgang for felleskomponenter, plattformer, registre, portaler og fellesløsninger i samme løp.
 
-## Arbeidsregler for flyttelÃ¸pet
+## Arbeidsregler for flytteløpet
 
 ### Hva som flyttes
 
-- Bare **siste registrerte versjon** av hver ressurs flyttes i fÃ¸rste lÃ¸p.
-- MÃ¥lkatalog for denne bolken er `arkitektur/ressurser/operative-losninger-og-tjenester/`.
+- Bare **siste registrerte versjon** av hver ressurs flyttes i første løp.
+- Målkatalog for denne bolken er `arkitektur/ressurser/operative-losninger-og-tjenester/`.
 - Registermasteren forblir `arkitektur/ressurser/produktnummerering.md`.
 
-### Hva som ikke flyttes i fÃ¸rste lÃ¸p
+### Hva som ikke flyttes i første løp
 
-- Eldre versjoner blir stÃ¥ende i `arkitektur/ressurser/operative-losninger-og-tjenester/` som historisk arkiv.
-- Ressurser som ikke har beskrivelse ennÃ¥, flyttes ikke.
-- `Altinn Portal` inngÃ¥r ikke i dette lÃ¸pet fordi den ikke stÃ¥r i operativt register som aktiv Digdir-ressurs.
-- `Peppol eDelivery` inngÃ¥r ikke i dette lÃ¸pet fordi den er registrert under `OPP`, ikke `DIGDIR`.
+- Eldre versjoner blir stående i `arkitektur/ressurser/operative-losninger-og-tjenester/` som historisk arkiv.
+- Ressurser som ikke har beskrivelse ennå, flyttes ikke.
+- `Altinn Portal` inngår ikke i dette løpet fordi den ikke står i operativt register som aktiv Digdir-ressurs.
+- `Peppol eDelivery` inngår ikke i dette løpet fordi den er registrert under `OPP`, ikke `DIGDIR`.
 
 ### Prinsipp for filnavn
 
-Eksisterende filnavn beholdes i fÃ¸rste migrering, selv om de fortsatt inneholder `produkt-canvas`.
+Eksisterende filnavn beholdes i første migrering, selv om de fortsatt inneholder `produkt-canvas`.
 
 Begrunnelse:
-- minst mulig risiko i fÃ¸rste lÃ¸p
+- minst mulig risiko i første løp
 - enklere oppdatering av register- og webpekere
 - reduserer behov for samtidige navne- og strukturendringer
 
-Et senere lÃ¸p kan rydde i navnekonvensjon hvis vi Ã¸nsker Ã¥ gÃ¥ fra `produkt-canvas` til en bredere ressursnavngivning.
+Et senere løp kan rydde i navnekonvensjon hvis vi ønsker å gå fra `produkt-canvas` til en bredere ressursnavngivning.
 
-## Sanity check: navnekonvensjon fÃ¸r flytting
+## Sanity check: navnekonvensjon før flytting
 
-Det finnes nÃ¥ to navnekonvensjoner i repoet:
+Det finnes nå to navnekonvensjoner i repoet:
 
 1. Eldre og etablerte produktfiler under `arkitektur/ressurser/operative-losninger-og-tjenester/`
    - format: `NN-<navn>-produkt-canvas-vX-<forfatter>.md`
@@ -70,26 +70,26 @@ Det finnes nÃ¥ to navnekonvensjoner i repoet:
 
 ### Vurdering
 
-Det ville vÃ¦rt ryddigst Ã¥ ha Ã©n samlet navnekonvensjon pÃ¥ sikt, men det er **ikke** klokt Ã¥ innfÃ¸re det samtidig med fÃ¸rste store filflytting.
+Det ville vært ryddigst å ha én samlet navnekonvensjon på sikt, men det er **ikke** klokt å innføre det samtidig med første store filflytting.
 
-Hvis vi bÃ¥de:
+Hvis vi både:
 - flytter 22 filer
 - endrer registerlenker
 - oppdaterer webgrunnlaget
 - og samtidig bytter filnavn
 
-sÃ¥ Ã¸ker vi risikoen unÃ¸dvendig for:
+så øker vi risikoen unødvendig for:
 - brutte lenker
 - feil i mapping og generatorer
-- unÃ¸dvendig vanskelig diff og feilsÃ¸king
+- unødvendig vanskelig diff og feilsøking
 
-### Anbefalt beslutning fÃ¸r Digdir-flytting
+### Anbefalt beslutning før Digdir-flytting
 
-For **fÃ¸rste Digdir-lÃ¸p** bÃ¸r vi holde fast ved denne arbeidsregelen:
+For **første Digdir-løp** bør vi holde fast ved denne arbeidsregelen:
 
 - Migrerte Digdir-filer **beholder eksisterende filnavn uendret**
 - Nye ressursfiler som opprettes direkte i `arkitektur/ressurser/` **beholder dagens enklere slug-baserte navngivning**
-- Navneharmonisering behandles som **eget senere oppryddingslÃ¸p**, ikke som del av fÃ¸rste migrering
+- Navneharmonisering behandles som **eget senere oppryddingsløp**, ikke som del av første migrering
 
 ### Praktisk konsekvens
 
@@ -98,38 +98,38 @@ Det betyr at vi aksepterer en midlertidig, bevisst asymmetri:
 - migrerte legacy-produkter kan ligge i ressursstruktur med `produkt-canvas` i filnavnet
 - nye ressurser kan ligge i samme struktur uten `produkt-canvas` i filnavnet
 
-Dette er faglig litt ujevnt, men operasjonelt tryggere enn Ã¥ rydde alt i samme steg.
+Dette er faglig litt ujevnt, men operasjonelt tryggere enn å rydde alt i samme steg.
 
-### ForeslÃ¥tt senere harmonisering
+### Foreslått senere harmonisering
 
-NÃ¥r fÃ¸rste migrering er gjennomfÃ¸rt og stabilisert, bÃ¸r vi ta en separat beslutning om langsiktig navnekonvensjon. Da bÃ¸r vi velge mellom to hovedspor:
+Når første migrering er gjennomført og stabilisert, bør vi ta en separat beslutning om langsiktig navnekonvensjon. Da bør vi velge mellom to hovedspor:
 
-1. ViderefÃ¸re dagens etablerte produktnavnlogikk ogsÃ¥ i ressursomrÃ¥det
+1. Videreføre dagens etablerte produktnavnlogikk også i ressursområdet
    - fordel: tett kobling til historikk og eksisterende prompt
    - ulempe: `produkt-canvas` blir for smalt for normerende ressurser og samarbeidsfora
 
-2. GÃ¥ over til en bredere ressurslogikk for nye filer og eventuelt senere omdÃ¸ping av gamle
+2. Gå over til en bredere ressurslogikk for nye filer og eventuelt senere omdøping av gamle
    - eksempel: `<slug>-vX-<forfatter>.md`
    - fordel: passer bedre med ny ressursmodell
-   - ulempe: krever et eget omdÃ¸pings- og oppdateringslÃ¸p for eldre filer hvis alt skal harmoniseres
+   - ulempe: krever et eget omdøpings- og oppdateringsløp for eldre filer hvis alt skal harmoniseres
 
 ### Anbefaling
 
-Min anbefaling er Ã¥ **ikke** rÃ¸re filnavnene i fÃ¸rste Digdir-flytting.
+Min anbefaling er å **ikke** røre filnavnene i første Digdir-flytting.
 
-Det riktige nÃ¥ er:
+Det riktige nå er:
 - flytte plassering
 - beholde navn
 - oppdatere pekere
 - verifisere web
 
-Deretter kan vi ta en roligere og mer bevisst navneopprydding nÃ¥r vi vet at ny struktur faktisk fungerer stabilt.
+Deretter kan vi ta en roligere og mer bevisst navneopprydding når vi vet at ny struktur faktisk fungerer stabilt.
 
-## Kandidater i fÃ¸rste Digdir-lÃ¸p
+## Kandidater i første Digdir-løp
 
-FÃ¸lgende siste versjoner er kandidater for flytting:
+Følgende siste versjoner er kandidater for flytting:
 
-| LÃ¸penr | Ressurs-ID | Navn | NÃ¥vÃ¦rende fil | ForeslÃ¥tt mÃ¥l |
+| Løpenr | Ressurs-ID | Navn | Nåværende fil | Foreslått mål |
 |---:|---|---|---|---|
 | 1 | `DIGDIR-001` | ID-porten | `arkitektur/ressurser/operative-losninger-og-tjenester/01-ID-porten-produkt-canvas-v3-codex.md` | `arkitektur/ressurser/operative-losninger-og-tjenester/01-ID-porten-produkt-canvas-v3-codex.md` |
 | 2 | `DIGDIR-002` | Maskinporten | `arkitektur/ressurser/operative-losninger-og-tjenester/02-Maskinporten-produkt-canvas-v3-codex.md` | `arkitektur/ressurser/operative-losninger-og-tjenester/02-Maskinporten-produkt-canvas-v3-codex.md` |
@@ -156,23 +156,23 @@ FÃ¸lgende siste versjoner er kandidater for flytting:
 
 Totalt: **22 filer**
 
-Ikke med i dette lÃ¸pet:
-- `DIGDIR-024 eIDAS-node (Norge)` fordi ressursbeskrivelse ikke finnes ennÃ¥
+Ikke med i dette løpet:
+- `DIGDIR-024 eIDAS-node (Norge)` fordi ressursbeskrivelse ikke finnes ennå
 
-## Tekniske forberedelser som allerede er pÃ¥ plass
+## Tekniske forberedelser som allerede er på plass
 
-FÃ¸lgende overgangsstÃ¸tte er nÃ¥ etablert:
+Følgende overgangsstøtte er nå etablert:
 - `generate-products.ps1` bygger ressursoversikten fra `produktnummerering.md`
-- `generate-capabilities.py` tÃ¥ler ny ressursstruktur
-- `validate-text-encoding.py` validerer ogsÃ¥ `arkitektur/ressurser/`
+- `generate-capabilities.py` tåler ny ressursstruktur
+- `validate-text-encoding.py` validerer også `arkitektur/ressurser/`
 - Novari-ressursene er lagt inn i kapabilitetsmappingen
 
-Det betyr at Digdir-flytting nÃ¥ primÃ¦rt handler om:
+Det betyr at Digdir-flytting nå primært handler om:
 - filflytting
 - oppdatering av dokumentlenker i registeret
 - eventuell kontroll av relative pekere i innhold
 
-## ForeslÃ¥tt gjennomfÃ¸ringsrekkefÃ¸lge for selve flyttingen
+## Foreslått gjennomføringsrekkefølge for selve flyttingen
 
 1. Flytt de 22 siste Digdir-filene til `arkitektur/ressurser/operative-losninger-og-tjenester/`.
 2. Oppdater dokumentlenkene for de 22 radene i `produktnummerering.md`.
@@ -180,33 +180,34 @@ Det betyr at Digdir-flytting nÃ¥ primÃ¦rt handler om:
 4. Regenerer:
    - `web/hugo-prototype/scripts/generate-products.ps1`
    - `web/hugo-prototype/scripts/generate-capabilities.py`
-5. KjÃ¸r tegnkodingskontroll.
-6. KjÃ¸r Hugo-build nÃ¥r verktÃ¸yet er tilgjengelig.
+5. Kjør tegnkodingskontroll.
+6. Kjør Hugo-build når verktøyet er tilgjengelig.
 
-## Risikoer i selve flyttelÃ¸pet
+## Risikoer i selve flytteløpet
 
 - Enkelte manuelle lenker i repoet kan fortsatt peke til gammel Digdir-plassering.
 - Filnavnene bruker fortsatt `produkt-canvas`, noe som er semantisk smalere enn ny struktur.
-- Eldre versjoner blir liggende i gammel mappe, sÃ¥ det mÃ¥ vÃ¦re tydelig at bare siste versjon er migrert.
+- Eldre versjoner blir liggende i gammel mappe, så det må være tydelig at bare siste versjon er migrert.
 
 ## Anbefaling
 
-NÃ¥r vi er klare til faktisk flytting, bÃ¸r Digdir-lÃ¸pet gjennomfÃ¸res som **Ã©n samlet endring**, ikke stykkevis. Da blir det lettere Ã¥:
+Når vi er klare til faktisk flytting, bør Digdir-løpet gjennomføres som **én samlet endring**, ikke stykkevis. Da blir det lettere å:
 - holde register og web synkronisert
-- se reelle avvik med Ã©n gang
-- unngÃ¥ at repoet havner i en halvmigrert mellomtilstand
+- se reelle avvik med én gang
+- unngå at repoet havner i en halvmigrert mellomtilstand
 
-## Status etter gjennomfÃ¸ring 2026-04-09
+## Status etter gjennomføring 2026-04-09
 
-FÃ¸rste Digdir-lÃ¸p er nÃ¥ gjennomfÃ¸rt som pilot.
+Første Digdir-løp er nå gjennomført som pilot.
 
-GjennomfÃ¸rt:
+Gjennomført:
 - 22 siste Digdir-filer er flyttet fra `arkitektur/ressurser/operative-losninger-og-tjenester/` til `arkitektur/ressurser/operative-losninger-og-tjenester/`
 - dokumentlenker i `arkitektur/ressurser/produktnummerering.md` er oppdatert
 - relative stier og GitHub-lenker i `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml` er oppdatert
 - webgrunnlaget er regenerert
-- tegnkodingskontroll er kjÃ¸rt uten feil
+- tegnkodingskontroll er kjørt uten feil
 
 Ikke verifisert lokalt:
-- full Hugo-build, fordi `hugo` ikke er installert i dette miljÃ¸et
+- full Hugo-build, fordi `hugo` ikke er installert i dette miljøet
+
 

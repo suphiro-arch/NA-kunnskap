@@ -1,15 +1,15 @@
 ﻿# Struktur og bearbeiding av arkitekturgrunnlaget
 
-Denne beskrivelsen forklarer hvordan rÃ¥data, kuraterte arbeidsfiler og videre bruk henger sammen i repoet.
+Denne beskrivelsen forklarer hvordan rådata, kuraterte arbeidsfiler og videre bruk henger sammen i repoet.
 
-## 1. RÃ¥kilder
+## 1. Råkilder
 
-RÃ¥kilder ligger i `sources/`.
+Råkilder ligger i `sources/`.
 
-Viktigste rÃ¥kilde for kapabiliteter og prinsipper:
+Viktigste råkilde for kapabiliteter og prinsipper:
 - `sources/2025-03-18-Nasjonal Arkitektur.xml`
 
-Dette er en modellfil som inneholder mer enn det repoet faktisk skal bruke videre. Den har ogsÃ¥ hjelpeelementer, generiske objekter og kopier som ikke bÃ¸r gÃ¥ rett inn i dokumentasjon og web.
+Dette er en modellfil som inneholder mer enn det repoet faktisk skal bruke videre. Den har også hjelpeelementer, generiske objekter og kopier som ikke bør gå rett inn i dokumentasjon og web.
 
 ## 2. Kuraterte arbeidsfiler
 
@@ -30,15 +30,15 @@ Denne fila er den kuraterte arbeidsfila for:
 - operative prinsippnavn
 - kort forklaring av prinsippene
 - kobling mellom prinsipper og hovedkapabiliteter
-- prinsippfaglig forklaring som tidligere lÃ¥ duplisert i `capabilities.yaml`
+- prinsippfaglig forklaring som tidligere lå duplisert i `capabilities.yaml`
 
-### MÃ¥l
+### Mål
 - `arkitektur/maal/maal.md`
 
 Denne fila er den kuraterte arbeidsfila for:
-- overordnet mÃ¥lspor i arkitekturmodellen
-- strategiske mÃ¥l som er eksplisitt koblet til nasjonal arkitektur i XML-kilden
-- dokumentasjon av hva som faktisk er modellert, og hva som ikke er kuratert videre ennÃ¥
+- overordnet målspor i arkitekturmodellen
+- strategiske mål som er eksplisitt koblet til nasjonal arkitektur i XML-kilden
+- dokumentasjon av hva som faktisk er modellert, og hva som ikke er kuratert videre ennå
 
 ### Produkter og koblinger
 - `arkitektur/ressurser/produktnummerering.md`
@@ -50,7 +50,7 @@ Disse filene brukes videre for ressursoversikt, produktkoblinger og webnavigasjo
 
 Produktbeskrivelsene ligger i `arkitektur/ressurser/operative-losninger-og-tjenester/`.
 
-Ã˜vrige leveranser ligger fortsatt i `results/`.
+Øvrige leveranser ligger fortsatt i `results/`.
 
 Produktbeskrivelsene skal bruke:
 - `capabilities.yaml` for kapabilitetsnavn
@@ -61,13 +61,13 @@ Produktbeskrivelsene skal bruke:
 
 Hugo-prototypen ligger i `web/hugo-prototype/`.
 
-FÃ¸lgende arbeidsfiler brukes videre mot web:
+Følgende arbeidsfiler brukes videre mot web:
 - `arkitektur/kapabiliteter/capabilities.yaml`
 - `arkitektur/prinsipper/principles.md`
 - `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml`
 - `arkitektur/ressurser/operative-losninger-og-tjenester/`
 
-ForelÃ¸pig brukes ikke mÃ¥lsporet direkte i weben, men det er nÃ¥ dokumentert og kuratert i:
+Foreløpig brukes ikke målsporet direkte i weben, men det er nå dokumentert og kuratert i:
 - `arkitektur/maal/maal.md`
 
 Prinsippsiden i weben synkes fra:
@@ -84,9 +84,11 @@ Produktsiden genereres fra:
 
 ## 5. Praktisk regel
 
-NÃ¥r rÃ¥kilder og kuraterte filer avviker:
+Når råkilder og kuraterte filer avviker:
 
-1. RÃ¥kilden skal ikke brukes direkte som publiseringsgrunnlag.
+1. Råkilden skal ikke brukes direkte som publiseringsgrunnlag.
 2. Avvik skal vurderes og dokumenteres.
 3. De kuraterte filene i `arkitektur/` er styrende for videre analyser, produktbeskrivelser og web.
+
+
 

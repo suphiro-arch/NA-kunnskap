@@ -7,68 +7,68 @@ Kontakt- og reservasjonsregisteret
 DIGDIR-005
 
 ## Status/Livsfase
-**Produksjon** - etablert nasjonal felleslÃ¸sning for kontaktopplysninger og reservasjonsstatus ved digital kommunikasjon.
+**Produksjon** - etablert nasjonal fellesløsning for kontaktopplysninger og reservasjonsstatus ved digital kommunikasjon.
 
-**Fakta:** Digdir beskriver Kontakt- og reservasjonsregisteret som den felles lÃ¸sningen offentlige virksomheter bruker for Ã¥ hente kontaktopplysninger og reservasjonsstatus for innbyggere. Dokumentasjonen beskriver bÃ¥de overordnet bruk, tilgangsregler og retningslinjer for bruk av registeret.
+**Fakta:** Digdir beskriver Kontakt- og reservasjonsregisteret som den felles løsningen offentlige virksomheter bruker for å hente kontaktopplysninger og reservasjonsstatus for innbyggere. Dokumentasjonen beskriver både overordnet bruk, tilgangsregler og retningslinjer for bruk av registeret.
 
 ## Modenhet
-**HÃ¸y modenhet** - tydelig innarbeidet registertjeneste med sterk regelverksforankring:
+**Høy modenhet** - tydelig innarbeidet registertjeneste med sterk regelverksforankring:
 - Produktet er dokumentert som en sentral del av offentlig sektors digitale kommunikasjon med innbyggere.
 - Det finnes egne sider for ta i bruk, retningslinjer og kostnadsmodell.
 - Registeret brukes som felles grunnlag i mange virksomheter og prosesser.
 - Produktets funksjon er stabil og tydelig avgrenset: oppdatert kontaktinformasjon og reservasjon som felles kilde.
 
-**Deduksjon:** Modenheten er hÃ¸y bÃ¥de fordi registeret er innarbeidet i offentlig sektor, og fordi bruksomrÃ¥det er sÃ¥ klart avgrenset at det kan gjenbrukes i svÃ¦rt mange kommunikasjonssituasjoner.
+**Deduksjon:** Modenheten er høy både fordi registeret er innarbeidet i offentlig sektor, og fordi bruksområdet er så klart avgrenset at det kan gjenbrukes i svært mange kommunikasjonssituasjoner.
 
 ## Kort beskrivelse
-Kontakt- og reservasjonsregisteret er den nasjonale felleslÃ¸sningen for Ã¥ finne innbyggeres digitale kontaktopplysninger og kontrollere om en innbygger er reservert mot digital kommunikasjon. Produktet gir offentlige virksomheter Ã©n felles kilde fÃ¸r de sender digital post, varsler eller annen digital kommunikasjon. LÃ¸sningen er sÃ¦rlig relevant nÃ¥r en virksomhet trenger pÃ¥litelig grunnlag for kanalvalg, men den erstatter ikke selve utsendings- eller varslingslÃ¸sningen.
+Kontakt- og reservasjonsregisteret er den nasjonale fellesløsningen for å finne innbyggeres digitale kontaktopplysninger og kontrollere om en innbygger er reservert mot digital kommunikasjon. Produktet gir offentlige virksomheter én felles kilde før de sender digital post, varsler eller annen digital kommunikasjon. Løsningen er særlig relevant når en virksomhet trenger pålitelig grunnlag for kanalvalg, men den erstatter ikke selve utsendings- eller varslingsløsningen.
 
 ## Kapabiliteter
-- **Datakilder: Grunndata** fungerer som en felles autoritativ kilde for kontaktopplysninger og reservasjonsstatus som andre offentlige lÃ¸sninger kan bygge pÃ¥.
-- **Datautveksling og integrasjon: Dele data med andre** gjÃ¸r grunndata tilgjengelig for offentlige virksomheter gjennom et standardisert oppslag og brukslÃ¸p.
+- **Datakilder: Grunndata** fungerer som en felles autoritativ kilde for kontaktopplysninger og reservasjonsstatus som andre offentlige løsninger kan bygge på.
+- **Datautveksling og integrasjon: Dele data med andre** gjør grunndata tilgjengelig for offentlige virksomheter gjennom et standardisert oppslag og bruksløp.
 
 Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot dokumentert funksjon i Digdir Docs og Samarbeidsportalen.
 
-## ProduktmÃ¥l
-**PrimÃ¦rkilder:** Digdir Docs for Kontaktregisteret og Samarbeidsportalen for produktomrÃ¥det.
+## Produktmål
+**Primærkilder:** Digdir Docs for Kontaktregisteret og Samarbeidsportalen for produktområdet.
 
-Dokumenterte mÃ¥l:
+Dokumenterte mål:
 - Gi offentlige virksomheter tilgang til oppdaterte digitale kontaktopplysninger.
-- GjÃ¸re det mulig Ã¥ kontrollere reservasjonsstatus fÃ¸r digital kommunikasjon sendes.
-- UnderstÃ¸tte digital kommunikasjon pÃ¥ en mÃ¥te som fÃ¸lger gjeldende regler og retningslinjer.
+- Gjøre det mulig å kontrollere reservasjonsstatus før digital kommunikasjon sendes.
+- Understøtte digital kommunikasjon på en måte som følger gjeldende regler og retningslinjer.
 
-Operative mÃ¥l utledet fra de samme kildene:
+Operative mål utledet fra de samme kildene:
 - Redusere behovet for lokale kopier og manuell oppdatering av kontaktopplysninger.
-- Gi virksomheter et felles grunnlag for kanalvalg fÃ¸r de sender meldinger eller dokumenter.
-- Sikre at reservasjon hÃ¥ndteres likt pÃ¥ tvers av virksomheter.
+- Gi virksomheter et felles grunnlag for kanalvalg før de sender meldinger eller dokumenter.
+- Sikre at reservasjon håndteres likt på tvers av virksomheter.
 
 ## Brukerbehov
-- Offentlige virksomheter trenger oppdaterte kontaktopplysninger og reservasjonsstatus fÃ¸r de kommuniserer digitalt med innbyggere.
+- Offentlige virksomheter trenger oppdaterte kontaktopplysninger og reservasjonsstatus før de kommuniserer digitalt med innbyggere.
 - Integrasjonsteam trenger et forutsigbart oppslag som kan bygges inn i egne arbeidsflyter og fagsystemer.
-- Innbyggere trenger at kontaktopplysninger og reservasjon brukes konsistent og pÃ¥ en mÃ¥te som gir tillit til digital kommunikasjon.
-- ForvaltningsmiljÃ¸er trenger en felles lÃ¸sning som gjÃ¸r det enklere Ã¥ fÃ¸lge regler for digital kontakt med innbyggere.
+- Innbyggere trenger at kontaktopplysninger og reservasjon brukes konsistent og på en måte som gir tillit til digital kommunikasjon.
+- Forvaltningsmiljøer trenger en felles løsning som gjør det enklere å følge regler for digital kontakt med innbyggere.
 
 ## Hvem er brukerne og brukersegmentene
-| Brukersegment | PrimÃ¦re behov | BruksomrÃ¥de | Kommentar |
+| Brukersegment | Primære behov | Bruksområde | Kommentar |
 |---|---|---|---|
-| Offentlige virksomheter som sender digital kommunikasjon | Oppdaterte kontaktopplysninger og reservasjonsstatus | Utsending av vedtak, meldinger og varsler | Bruker registeret som oppslag fÃ¸r kanalvalg |
-| Integrasjonsteam og systemleverandÃ¸rer | Standardisert oppslag og tydelige regler for bruk | Integrasjon i sakssystemer, post- og varslingsflyter | Trenger Ã¥ forstÃ¥ bÃ¥de teknisk bruk og regelverk |
-| Innbyggere | Kontroll over kontaktopplysninger og reservasjon | Oppdatering av egne data og forventning om korrekt bruk | MÃ¸ter produktet indirekte gjennom digital kommunikasjon |
-| Forvaltnings- og sikkerhetsmiljÃ¸er | Sporbar og regelmessig bruk av registeret | Etterlevelse, tilgangsstyring og revisjon | Trenger tydelig avgrensning mellom register og utsending |
+| Offentlige virksomheter som sender digital kommunikasjon | Oppdaterte kontaktopplysninger og reservasjonsstatus | Utsending av vedtak, meldinger og varsler | Bruker registeret som oppslag før kanalvalg |
+| Integrasjonsteam og systemleverandører | Standardisert oppslag og tydelige regler for bruk | Integrasjon i sakssystemer, post- og varslingsflyter | Trenger å forstå både teknisk bruk og regelverk |
+| Innbyggere | Kontroll over kontaktopplysninger og reservasjon | Oppdatering av egne data og forventning om korrekt bruk | Møter produktet indirekte gjennom digital kommunikasjon |
+| Forvaltnings- og sikkerhetsmiljøer | Sporbar og regelmessig bruk av registeret | Etterlevelse, tilgangsstyring og revisjon | Trenger tydelig avgrensning mellom register og utsending |
 | Tjenesteeiere for kommunikasjonstjenester | Felles datagrunnlag for kanalvalg | Samspill med digital post, varsling og andre kanaler | Avhengige av at registeret er oppdatert og forutsigbart |
 
 ## Hovedfunksjoner
-### PrimÃ¦re funksjoner
-- **Oppslag av kontaktopplysninger.** Produktet gir virksomheter tilgang til innbyggeres registrerte digitale kontaktopplysninger nÃ¥r de trenger Ã¥ kommunisere digitalt. Dette dekker behovet for ett felles grunnlag i stedet for at hver virksomhet mÃ¥ samle og vedlikeholde egne kontaktdata.
-- **Kontroll av reservasjonsstatus.** Registeret gjÃ¸r det mulig Ã¥ kontrollere om en innbygger har reservert seg mot digital kommunikasjon. Det er en avgjÃ¸rende funksjon nÃ¥r virksomheten skal velge kanal og sikre at kommunikasjonen fÃ¸lger gjeldende regler.
-- **Felles datagrunnlag for kanalvalg.** Kontakt- og reservasjonsregisteret brukes som beslutningsgrunnlag fÃ¸r meldinger eller dokumenter sendes. Dette gjÃ¸r produktet relevant i mange prosesser, men det er ikke selve lÃ¸sningen for utsending, postkasse eller varsling.
-- **Selvbetjent oppdatering og forvaltning for innbyggere.** Produktet omfatter ogsÃ¥ et lÃ¸p der innbygger kan oppdatere egne kontaktopplysninger og reservasjon. Det gjÃ¸r registeret til mer enn bare en intern datakilde for virksomheter.
-- **Regelstyrt og dokumentert bruk.** Produktet har egne retningslinjer og innfÃ¸ringslÃ¸p. Det er viktig fordi verdien ikke bare ligger i dataene, men ogsÃ¥ i at bruken er normert og forutsigbar pÃ¥ tvers av offentlig sektor.
+### Primære funksjoner
+- **Oppslag av kontaktopplysninger.** Produktet gir virksomheter tilgang til innbyggeres registrerte digitale kontaktopplysninger når de trenger å kommunisere digitalt. Dette dekker behovet for ett felles grunnlag i stedet for at hver virksomhet må samle og vedlikeholde egne kontaktdata.
+- **Kontroll av reservasjonsstatus.** Registeret gjør det mulig å kontrollere om en innbygger har reservert seg mot digital kommunikasjon. Det er en avgjørende funksjon når virksomheten skal velge kanal og sikre at kommunikasjonen følger gjeldende regler.
+- **Felles datagrunnlag for kanalvalg.** Kontakt- og reservasjonsregisteret brukes som beslutningsgrunnlag før meldinger eller dokumenter sendes. Dette gjør produktet relevant i mange prosesser, men det er ikke selve løsningen for utsending, postkasse eller varsling.
+- **Selvbetjent oppdatering og forvaltning for innbyggere.** Produktet omfatter også et løp der innbygger kan oppdatere egne kontaktopplysninger og reservasjon. Det gjør registeret til mer enn bare en intern datakilde for virksomheter.
+- **Regelstyrt og dokumentert bruk.** Produktet har egne retningslinjer og innføringsløp. Det er viktig fordi verdien ikke bare ligger i dataene, men også i at bruken er normert og forutsigbar på tvers av offentlig sektor.
 
 ### Scope og avgrensning
-| InngÃ¥r | InngÃ¥r ikke |
+| Inngår | Inngår ikke |
 |---|---|
-| Kontaktopplysninger og reservasjonsstatus som felles oppslag | Selve utsendingslÃ¸sningen for meldinger eller dokumenter |
+| Kontaktopplysninger og reservasjonsstatus som felles oppslag | Selve utsendingsløsningen for meldinger eller dokumenter |
 | Oppslag og regelstyrt bruk av registerdata | Innlogging for brukere eller systemer |
 | Grunnlag for kanalvalg | Digital postkasse, varsling eller meldingsinnhold |
 | Innbyggers forvaltning av egne kontaktdata og reservasjon | Lokal CRM- eller sakshistorikk i virksomheten |
@@ -76,35 +76,35 @@ Operative mÃ¥l utledet fra de samme kildene:
 
 ## Veikart over kommende funksjonalitet
 **Fakta fra Samarbeidsportalen og Digdir Docs (hentet 2026-03-17):**
-- ProduktomrÃ¥det har egne sider for ta i bruk, retningslinjer og kostnadsmodell, noe som viser at lÃ¸sningen er i aktiv forvaltning.
-- Dokumentasjonen peker pÃ¥ registeret som stabilt grunnlag for digital kommunikasjon, ikke som et produkt i grunnleggende omlegging.
+- Produktområdet har egne sider for ta i bruk, retningslinjer og kostnadsmodell, noe som viser at løsningen er i aktiv forvaltning.
+- Dokumentasjonen peker på registeret som stabilt grunnlag for digital kommunikasjon, ikke som et produkt i grunnleggende omlegging.
 
-**Deduksjon:** Veikartet handler trolig mer om datakvalitet, innfÃ¸ringsstÃ¸tte og regelverksnÃ¦r videreutvikling enn om store funksjonelle skifter. Rollen som felles grunndatakilde ser stabil ut.
+**Deduksjon:** Veikartet handler trolig mer om datakvalitet, innføringsstøtte og regelverksnær videreutvikling enn om store funksjonelle skifter. Rollen som felles grunndatakilde ser stabil ut.
 
 ## Forretningsverdi/Verdiforslag
 ### For virksomheter
-- Reduserer behovet for Ã¥ vedlikeholde egne kopier av kontaktopplysninger.
-- GjÃ¸r kanalvalg mer forutsigbart og regelmessig.
-- Senker risiko for Ã¥ sende digital kommunikasjon pÃ¥ feil grunnlag.
+- Reduserer behovet for å vedlikeholde egne kopier av kontaktopplysninger.
+- Gjør kanalvalg mer forutsigbart og regelmessig.
+- Senker risiko for å sende digital kommunikasjon på feil grunnlag.
 
 ### For innbyggere
-- Gir bedre forutsetning for Ã¥ bli kontaktet i riktig kanal.
-- GjÃ¸r det mulig Ã¥ reservere seg og forvente at reservasjonen blir respektert pÃ¥ tvers av virksomheter.
-- Bidrar til stÃ¸rre tillit til digital kommunikasjon fra offentlig sektor.
+- Gir bedre forutsetning for å bli kontaktet i riktig kanal.
+- Gjør det mulig å reservere seg og forvente at reservasjonen blir respektert på tvers av virksomheter.
+- Bidrar til større tillit til digital kommunikasjon fra offentlig sektor.
 
 ### For offentlig sektor
-- Styrker gjenbruk ved at mange kommunikasjonstjenester bygger pÃ¥ samme kontaktgrunnlag.
-- TydeliggjÃ¸r skillet mellom grunndata, kanalvalg og selve meldings- eller varslingslÃ¸sningen.
+- Styrker gjenbruk ved at mange kommunikasjonstjenester bygger på samme kontaktgrunnlag.
+- Tydeliggjør skillet mellom grunndata, kanalvalg og selve meldings- eller varslingsløsningen.
 - Gir et mer ensartet og styrbart grunnlag for digital kommunikasjon med innbyggere.
 
 ## Utfordringer og risiko
-| Risikokategori | Konkret risiko | HÃ¥ndtering |
+| Risikokategori | Konkret risiko | Håndtering |
 |---|---|---|
-| Juridisk og regelverk | Feil bruk av reservasjon eller kontaktopplysninger kan gi brudd pÃ¥ regelverk og tillit | Tydelige retningslinjer, tilgangsstyring og revisjon |
-| Datakvalitet | Utdaterte eller mangelfulle kontaktopplysninger kan gi feil kanalvalg | LÃ¸pende vedlikehold og gode mekanismer for oppdatering |
-| Teknisk | Feil integrasjon kan gjÃ¸re at virksomheten hopper over registeroppslag eller bruker gamle data | Integrasjonstesting og tydelig innfÃ¸ringsveiledning |
-| Avhengigheter | Produktet kan bli forvekslet med varslings- eller utsendingslÃ¸sninger | Klare avgrensninger i arkitektur og dokumentasjon |
-| Brukeropplevelse | Innbyggere kan miste tillit dersom kontaktdata eller reservasjon ikke hÃ¥ndteres konsekvent | Bedre informasjon og korrekt etterlevelse hos virksomhetene |
+| Juridisk og regelverk | Feil bruk av reservasjon eller kontaktopplysninger kan gi brudd på regelverk og tillit | Tydelige retningslinjer, tilgangsstyring og revisjon |
+| Datakvalitet | Utdaterte eller mangelfulle kontaktopplysninger kan gi feil kanalvalg | Løpende vedlikehold og gode mekanismer for oppdatering |
+| Teknisk | Feil integrasjon kan gjøre at virksomheten hopper over registeroppslag eller bruker gamle data | Integrasjonstesting og tydelig innføringsveiledning |
+| Avhengigheter | Produktet kan bli forvekslet med varslings- eller utsendingsløsninger | Klare avgrensninger i arkitektur og dokumentasjon |
+| Brukeropplevelse | Innbyggere kan miste tillit dersom kontaktdata eller reservasjon ikke håndteres konsekvent | Bedre informasjon og korrekt etterlevelse hos virksomhetene |
 
 ## Kanaler
 - Produktside: https://docs.digdir.no/docs/Kontaktregisteret/
@@ -117,33 +117,33 @@ Operative mÃ¥l utledet fra de samme kildene:
 ## Plattform
 Kontakt- og reservasjonsregisteret er en nasjonal registertjeneste som gir oppslag mot et felles datagrunnlag for kontaktinformasjon og reservasjon.
 
-**Fakta:** Digdir Docs beskriver bÃ¥de teknisk bruk og overordnet funksjon, og Samarbeidsportalen beskriver ta-i-bruk-lÃ¸p, retningslinjer og kostnadsmodell.
+**Fakta:** Digdir Docs beskriver både teknisk bruk og overordnet funksjon, og Samarbeidsportalen beskriver ta-i-bruk-løp, retningslinjer og kostnadsmodell.
 
-**Ikke offentlig dokumentert i brukte kilder:** Full runtime-arkitektur, detaljert driftsoppsett og konkret infrastrukturnivÃ¥.
+**Ikke offentlig dokumentert i brukte kilder:** Full runtime-arkitektur, detaljert driftsoppsett og konkret infrastrukturnivå.
 
 ## Gjenbruk
-**HÃ¸y gjenbruksverdi:**
-- Produktet er laget for Ã¥ vÃ¦re en felles kilde som mange andre lÃ¸sninger bygger pÃ¥.
-- Det er sÃ¦rlig relevant nÃ¥r behovet er korrekt kontaktgrunnlag og reservasjonskontroll fÃ¸r digital kommunikasjon.
+**Høy gjenbruksverdi:**
+- Produktet er laget for å være en felles kilde som mange andre løsninger bygger på.
+- Det er særlig relevant når behovet er korrekt kontaktgrunnlag og reservasjonskontroll før digital kommunikasjon.
 - Det er mindre relevant dersom behovet egentlig er selve utsendingen, postkassen eller varslingskanalen.
 
-## StÃ¸tter arkitekturprinsipper
+## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** realiseres ved at kontaktopplysninger og reservasjonsstatus tilbys som felles grunnlag for mange virksomheter.
-- **P5: Del og gjenbruk lÃ¸sninger** styrkes fordi offentlig sektor kan bygge pÃ¥ samme register i stedet for lokale kopier og sÃ¦rordninger.
-- **P7: SÃ¸rg for tillit til oppgavelÃ¸sningen** stÃ¸ttes ved at reservasjon og kontaktdata hÃ¥ndteres mer konsistent og forutsigbart.
+- **P5: Del og gjenbruk løsninger** styrkes fordi offentlig sektor kan bygge på samme register i stedet for lokale kopier og særordninger.
+- **P7: Sørg for tillit til oppgaveløsningen** støttes ved at reservasjon og kontaktdata håndteres mer konsistent og forutsigbart.
 
 ## Finansiering
 - **Fakta:** Samarbeidsportalen har en egen kostnadsmodell for Kontakt- og reservasjonsregisteret.
-- **Fakta:** Samarbeidsportalen beskriver at bruk av registeret er kostnadsfritt, mens virksomhetene dekker egne kostnader til integrasjon og innfÃ¸ring.
-- **Deduksjon:** Finansieringsmodellen er derfor rettet mot felles nasjonal forvaltning av registeret, kombinert med lokale innfÃ¸ringskostnader hos brukerne.
+- **Fakta:** Samarbeidsportalen beskriver at bruk av registeret er kostnadsfritt, mens virksomhetene dekker egne kostnader til integrasjon og innføring.
+- **Deduksjon:** Finansieringsmodellen er derfor rettet mot felles nasjonal forvaltning av registeret, kombinert med lokale innføringskostnader hos brukerne.
 
 ## Forvaltning/eier
-| AnsvarsomrÃ¥de | Organisasjon / vurdering | Grunnlag |
+| Ansvarsområde | Organisasjon / vurdering | Grunnlag |
 |---|---|---|
 | Produktansvar | Digitaliseringsdirektoratet (Digdir) | Digdir Docs og Samarbeidsportalen |
-| Driftsansvar | Ikke eksplisitt navngitt i brukte offentlige kilder | Offentlige kilder beskriver ikke detaljert leverandÃ¸r- eller driftsmodell |
+| Driftsansvar | Ikke eksplisitt navngitt i brukte offentlige kilder | Offentlige kilder beskriver ikke detaljert leverandør- eller driftsmodell |
 | Budsjett- og kostnadsmodell | Digdir forvalter registeret, med publisert kostnadsmodell | Samarbeidsportalen |
-| Styringsmodell | Del av Digdirs portefÃ¸lje for digital kommunikasjon | Samarbeidsportalen |
+| Styringsmodell | Del av Digdirs portefølje for digital kommunikasjon | Samarbeidsportalen |
 
 ## Lenke til dokumentasjon
 - https://docs.digdir.no/docs/Kontaktregisteret/
@@ -172,12 +172,13 @@ Kontakt- og reservasjonsregisteret er en nasjonal registertjeneste som gir oppsl
 ## Endringer fra forrige versjon
 
 ### Analyseforbedringer
-- Kapabilitetslisten er redusert til de direkte funksjonene registeret faktisk leverer, og indirekte koblinger til varsling, identifisering og andre lÃ¸sninger er tatt ut.
-- Produktet beskrives tydeligere som grunndatakilde og beslutningsgrunnlag for kanalvalg, ikke som selve kommunikasjonslÃ¸sningen.
-- Finansieringsfeltet bygger nÃ¥ pÃ¥ publisert kostnadsmodell og avklaringen om at bruk er kostnadsfri, mens integrasjon mÃ¥ dekkes lokalt.
+- Kapabilitetslisten er redusert til de direkte funksjonene registeret faktisk leverer, og indirekte koblinger til varsling, identifisering og andre løsninger er tatt ut.
+- Produktet beskrives tydeligere som grunndatakilde og beslutningsgrunnlag for kanalvalg, ikke som selve kommunikasjonsløsningen.
+- Finansieringsfeltet bygger nå på publisert kostnadsmodell og avklaringen om at bruk er kostnadsfri, mens integrasjon må dekkes lokalt.
 
 ### Tekstlige forbedringer
-- Dokumentet starter ikke lenger med mÃ¥lgruppelinje, og `Ressurs ID` er skrevet uten parentesforklaring.
-- Hovedfunksjoner og avgrensning gjÃ¸r det tydeligere nÃ¥r Kontakt- og reservasjonsregisteret er riktig produkt for gjenbruk.
-- Beskrivelsen bruker mer aktiv og mÃ¥lrettet sprÃ¥k for nasjonal arkitektur, i stedet for Ã¥ liste opp tilgrensende produkter og funksjoner.
+- Dokumentet starter ikke lenger med målgruppelinje, og `Ressurs ID` er skrevet uten parentesforklaring.
+- Hovedfunksjoner og avgrensning gjør det tydeligere når Kontakt- og reservasjonsregisteret er riktig produkt for gjenbruk.
+- Beskrivelsen bruker mer aktiv og målrettet språk for nasjonal arkitektur, i stedet for å liste opp tilgrensende produkter og funksjoner.
+
 

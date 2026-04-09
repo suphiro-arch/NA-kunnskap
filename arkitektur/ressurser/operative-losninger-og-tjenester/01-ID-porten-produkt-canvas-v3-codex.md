@@ -7,108 +7,108 @@ ID-porten
 DIGDIR-001
 
 ## Status/Livsfase
-**Produksjon** - etablert nasjonal felleslÃ¸sning for innlogging til offentlige digitale tjenester.
+**Produksjon** - etablert nasjonal fellesløsning for innlogging til offentlige digitale tjenester.
 
-**Fakta:** Digdir beskriver ID-porten som den nasjonale felleslÃ¸sningen for innlogging til offentlige tjenester. LÃ¸sningen brukes av over 4,6 millioner brukere og mer enn 1700 offentlige tjenester, og statlige virksomheter skal som hovedregel bruke ID-porten nÃ¥r de trenger innlogging for brukere.
+**Fakta:** Digdir beskriver ID-porten som den nasjonale fellesløsningen for innlogging til offentlige tjenester. Løsningen brukes av over 4,6 millioner brukere og mer enn 1700 offentlige tjenester, og statlige virksomheter skal som hovedregel bruke ID-porten når de trenger innlogging for brukere.
 
 ## Modenhet
-**HÃ¸y modenhet** - innarbeidet felleskomponent med stor utbredelse og tydelig forvaltningsregime:
+**Høy modenhet** - innarbeidet felleskomponent med stor utbredelse og tydelig forvaltningsregime:
 - ID-porten er en etablert del av den nasjonale tillitsinfrastrukturen og brukes bredt i offentlig sektor.
-- LÃ¸sningen har oppdatert teknisk dokumentasjon for OpenID Connect, OAuth 2.0-baserte API-er og eldre SAML-integrasjoner.
-- Det finnes tydelige lÃ¸p for avtale, test, produksjonssetting og brukerstÃ¸tte for tjenesteeiere.
-- Samarbeidsportalen beskriver et eget produktomrÃ¥de med mÃ¥l, fokusomrÃ¥der og prismodell.
+- Løsningen har oppdatert teknisk dokumentasjon for OpenID Connect, OAuth 2.0-baserte API-er og eldre SAML-integrasjoner.
+- Det finnes tydelige løp for avtale, test, produksjonssetting og brukerstøtte for tjenesteeiere.
+- Samarbeidsportalen beskriver et eget produktområde med mål, fokusområder og prismodell.
 
-**Deduksjon:** Modenheten er hÃ¸y bÃ¥de funksjonelt og organisatorisk. Samtidig er produktet i lÃ¸pende utvikling, sÃ¦rlig for standardisering, brukeropplevelse og bedre stÃ¸tte for API-er i bruker-kontekst.
+**Deduksjon:** Modenheten er høy både funksjonelt og organisatorisk. Samtidig er produktet i løpende utvikling, særlig for standardisering, brukeropplevelse og bedre støtte for API-er i bruker-kontekst.
 
 ## Kort beskrivelse
-ID-porten er den nasjonale felleslÃ¸sningen for sikker innlogging til offentlige digitale tjenester. LÃ¸sningen gir innbyggere Ã©n gjenkjennelig inngang til tjenester pÃ¥ tvers av virksomheter, og gir tjenesteeiere en felles autentiseringskomponent i stedet for lokale innloggingslÃ¸sninger. ID-porten er sÃ¦rlig relevant nÃ¥r en tjeneste trenger sikker identitetsbekreftelse av en bruker, og nÃ¥r samme innloggingsmÃ¸nster skal gjenbrukes pÃ¥ tvers av mange offentlige tjenester.
+ID-porten er den nasjonale fellesløsningen for sikker innlogging til offentlige digitale tjenester. Løsningen gir innbyggere én gjenkjennelig inngang til tjenester på tvers av virksomheter, og gir tjenesteeiere en felles autentiseringskomponent i stedet for lokale innloggingsløsninger. ID-porten er særlig relevant når en tjeneste trenger sikker identitetsbekreftelse av en bruker, og når samme innloggingsmønster skal gjenbrukes på tvers av mange offentlige tjenester.
 
 ## Kapabiliteter
-- **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** beskytter innloggingsflyt, tokenutstedelse og overfÃ¸ring av identitetsinformasjon mellom ID-porten og tjenesteeier.
-- **Tillit: Autentisering** verifiserer brukerens identitet gjennom godkjente eID-er og gir et felles sikkerhetsnivÃ¥ pÃ¥ tvers av offentlige tjenester.
+- **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** beskytter innloggingsflyt, tokenutstedelse og overføring av identitetsinformasjon mellom ID-porten og tjenesteeier.
+- **Tillit: Autentisering** verifiserer brukerens identitet gjennom godkjente eID-er og gir et felles sikkerhetsnivå på tvers av offentlige tjenester.
 - **Tillit: Identifisering** kobler innloggingen til en entydig digital identitet som tjenesteeier kan bruke videre i sin saks- og tjenestelogikk.
-- **Tillit: Representasjon** stÃ¸tter innlogging i bruker-kontekst ogsÃ¥ nÃ¥r en innbygger handler med valgt virksomhet eller i delegert kontekst, i samspill med andre tillitstjenester og representasjonsgrunnlag.
-- **Tjenesteutvikling: Integrerbare tjenester** gjÃ¸r autentisering gjenbrukbar gjennom standardiserte grensesnitt og dokumenterte integrasjonsmÃ¸nstre.
+- **Tillit: Representasjon** støtter innlogging i bruker-kontekst også når en innbygger handler med valgt virksomhet eller i delegert kontekst, i samspill med andre tillitstjenester og representasjonsgrunnlag.
+- **Tjenesteutvikling: Integrerbare tjenester** gjør autentisering gjenbrukbar gjennom standardiserte grensesnitt og dokumenterte integrasjonsmønstre.
 
-## ProduktmÃ¥l
-**PrimÃ¦rkilder:** Digdirs produktside for ID-porten og Samarbeidsportalen for tillitstjenester.
+## Produktmål
+**Primærkilder:** Digdirs produktside for ID-porten og Samarbeidsportalen for tillitstjenester.
 
-Dokumenterte mÃ¥l:
-- Sikre identifisering og autentisering for digitale tjenester for bÃ¥de virksomheter og innbyggere.
-- Tilby en nasjonal innloggingslÃ¸sning som kan gjenbrukes pÃ¥ tvers av offentlig sektor.
-- Gi sikker og enkel bruk av offentlige tjenester gjennom stÃ¸tte for anerkjente eID-er.
-- Videreutvikle lÃ¸sningen slik at den blir sikker som standard, enklere Ã¥ bruke og bedre tilpasset moderne API-behov.
+Dokumenterte mål:
+- Sikre identifisering og autentisering for digitale tjenester for både virksomheter og innbyggere.
+- Tilby en nasjonal innloggingsløsning som kan gjenbrukes på tvers av offentlig sektor.
+- Gi sikker og enkel bruk av offentlige tjenester gjennom støtte for anerkjente eID-er.
+- Videreutvikle løsningen slik at den blir sikker som standard, enklere å bruke og bedre tilpasset moderne API-behov.
 
-Operative mÃ¥l utledet fra de samme kildene:
-- Redusere behovet for lokale autentiseringslÃ¸sninger hos tjenesteeiere.
-- Gi tjenesteeiere tydelige integrasjonslÃ¸p for test, produksjon og videre forvaltning.
-- Sikre at brukerinnlogging og identitetsinformasjon kan brukes i bÃ¥de nettjenester og API-er i bruker-kontekst.
+Operative mål utledet fra de samme kildene:
+- Redusere behovet for lokale autentiseringsløsninger hos tjenesteeiere.
+- Gi tjenesteeiere tydelige integrasjonsløp for test, produksjon og videre forvaltning.
+- Sikre at brukerinnlogging og identitetsinformasjon kan brukes i både nettjenester og API-er i bruker-kontekst.
 
-**Deduksjon:** Produktet har ogsÃ¥ en viktig styringsrolle som normerende lÃ¸sning for brukervendt autentisering i staten, fordi bruk av ID-porten er hovedregelen nÃ¥r statlige tjenester trenger innlogging.
+**Deduksjon:** Produktet har også en viktig styringsrolle som normerende løsning for brukervendt autentisering i staten, fordi bruk av ID-porten er hovedregelen når statlige tjenester trenger innlogging.
 
 ## Brukerbehov
-- Innbyggere trenger en trygg og gjenkjennelig mÃ¥te Ã¥ logge inn pÃ¥ offentlige tjenester uten Ã¥ mÃ¸te ulike lokale autentiseringslÃ¸sninger.
+- Innbyggere trenger en trygg og gjenkjennelig måte å logge inn på offentlige tjenester uten å møte ulike lokale autentiseringsløsninger.
 - Tjenesteeiere trenger en felles innloggingskomponent som er juridisk, sikkerhetsmessig og teknisk innarbeidet.
-- Integrasjonsteam trenger standardiserte protokoller og tydelig dokumentasjon for Ã¥ koble egne tjenester til nasjonal autentisering.
+- Integrasjonsteam trenger standardiserte protokoller og tydelig dokumentasjon for å koble egne tjenester til nasjonal autentisering.
 - Tjenester med bruker-kontekst i API-er trenger tilgangstoken og identitetsinformasjon som kan brukes videre i egne tjenester.
-- Tjenester der brukeren opptrer i en virksomhetskontekst trenger stÃ¸tte for innlogging med valgt virksomhet eller delegert sammenheng.
+- Tjenester der brukeren opptrer i en virksomhetskontekst trenger støtte for innlogging med valgt virksomhet eller delegert sammenheng.
 
 ## Hvem er brukerne og brukersegmentene
-| Brukersegment | PrimÃ¦re behov | BruksomrÃ¥de | Kommentar |
+| Brukersegment | Primære behov | Bruksområde | Kommentar |
 |---|---|---|---|
-| Innbyggere | Enkel og sikker innlogging | Tilgang til offentlige nettjenester | MÃ¸ter ID-porten som del av tjenestens innloggingsflyt |
-| Tjenesteeiere i offentlig sektor | Felles autentiseringskomponent | Innlogging i egne tjenester og portaler | Statlige virksomheter skal som hovedregel bruke ID-porten nÃ¥r innlogging trengs |
-| Integrasjonsteam og systemleverandÃ¸rer | Standardiserte grensesnitt og testlÃ¸p | Integrasjon via OpenID Connect, OAuth 2.0 og eventuelt SAML | Trenger dokumentasjon, testmiljÃ¸ og avtaleprosess |
-| API- og plattformteam | Bruker-kontekst i API-er | Tokenutstedelse og validering i egne lÃ¸sninger | Relevante der autentisert bruker skal brukes videre i API-kall |
-| Forvaltnings- og sikkerhetsmiljÃ¸er | Sporbar og styrbar autentiseringslÃ¸sning | RisikooppfÃ¸lging, tilgangsregimer og livssyklus | Avhenger av tydelig rollefordeling og leverandÃ¸rsamspill |
+| Innbyggere | Enkel og sikker innlogging | Tilgang til offentlige nettjenester | Møter ID-porten som del av tjenestens innloggingsflyt |
+| Tjenesteeiere i offentlig sektor | Felles autentiseringskomponent | Innlogging i egne tjenester og portaler | Statlige virksomheter skal som hovedregel bruke ID-porten når innlogging trengs |
+| Integrasjonsteam og systemleverandører | Standardiserte grensesnitt og testløp | Integrasjon via OpenID Connect, OAuth 2.0 og eventuelt SAML | Trenger dokumentasjon, testmiljø og avtaleprosess |
+| API- og plattformteam | Bruker-kontekst i API-er | Tokenutstedelse og validering i egne løsninger | Relevante der autentisert bruker skal brukes videre i API-kall |
+| Forvaltnings- og sikkerhetsmiljøer | Sporbar og styrbar autentiseringsløsning | Risikooppfølging, tilgangsregimer og livssyklus | Avhenger av tydelig rollefordeling og leverandørsamspill |
 
 ## Hovedfunksjoner
-### PrimÃ¦re funksjoner
-- **Sikker innlogging for innbyggere til offentlige tjenester.** ID-porten hÃ¥ndterer selve autentiseringen og lar brukeren logge inn med stÃ¸ttede eID-er som BankID, Buypass og Commfides. Dette dekker behovet for en felles, nasjonal innloggingsmekanisme nÃ¥r en offentlig tjeneste trenger Ã¥ vite hvem brukeren er.
-- **Standardisert integrasjon for tjenesteeiere.** Produktet tilbyr dokumenterte integrasjonsmÃ¸nstre med OpenID Connect som anbefalt lÃ¸sning, og stÃ¸tter ogsÃ¥ SAML for eldre eller eksisterende integrasjoner. Dette gjÃ¸r at tjenesteeiere kan gjenbruke etablerte sikkerhetsmÃ¸nstre i stedet for Ã¥ bygge autentisering selv.
-- **Token- og identitetsgrunnlag for videre bruk i tjenestelogikk.** ID-porten utsteder grunnlaget tjenesteeier trenger for Ã¥ kjenne igjen brukeren i egne lÃ¸sninger og, ved behov, for Ã¥ bruke autentisert bruker-kontekst videre i API-er. Dette er viktig for tjenester som ikke bare trenger en innloggingsknapp, men ogsÃ¥ sikker videre bruk av identiteten i egne prosesser.
-- **StÃ¸tte for bruker-kontekst i virksomhetssammenheng.** Dokumentasjonen viser at ID-porten kan brukes i scenarier der en innbygger opptrer med valgt virksomhet. Dette gjÃ¸r lÃ¸sningen relevant i grenseflaten mellom personinnlogging og handling pÃ¥ vegne av virksomhet, men ikke som full erstatning for egne autorisasjons- og representasjonslÃ¸sninger.
-- **Kontrollert innfÃ¸ring og forvaltning.** Tjenesteeiere fÃ¥r stÃ¸tte gjennom avtale, testmiljÃ¸ og produksjonssetting. Det gjÃ¸r produktet egnet som nasjonal felleskomponent ogsÃ¥ organisatorisk, ikke bare teknisk.
+### Primære funksjoner
+- **Sikker innlogging for innbyggere til offentlige tjenester.** ID-porten håndterer selve autentiseringen og lar brukeren logge inn med støttede eID-er som BankID, Buypass og Commfides. Dette dekker behovet for en felles, nasjonal innloggingsmekanisme når en offentlig tjeneste trenger å vite hvem brukeren er.
+- **Standardisert integrasjon for tjenesteeiere.** Produktet tilbyr dokumenterte integrasjonsmønstre med OpenID Connect som anbefalt løsning, og støtter også SAML for eldre eller eksisterende integrasjoner. Dette gjør at tjenesteeiere kan gjenbruke etablerte sikkerhetsmønstre i stedet for å bygge autentisering selv.
+- **Token- og identitetsgrunnlag for videre bruk i tjenestelogikk.** ID-porten utsteder grunnlaget tjenesteeier trenger for å kjenne igjen brukeren i egne løsninger og, ved behov, for å bruke autentisert bruker-kontekst videre i API-er. Dette er viktig for tjenester som ikke bare trenger en innloggingsknapp, men også sikker videre bruk av identiteten i egne prosesser.
+- **Støtte for bruker-kontekst i virksomhetssammenheng.** Dokumentasjonen viser at ID-porten kan brukes i scenarier der en innbygger opptrer med valgt virksomhet. Dette gjør løsningen relevant i grenseflaten mellom personinnlogging og handling på vegne av virksomhet, men ikke som full erstatning for egne autorisasjons- og representasjonsløsninger.
+- **Kontrollert innføring og forvaltning.** Tjenesteeiere får støtte gjennom avtale, testmiljø og produksjonssetting. Det gjør produktet egnet som nasjonal felleskomponent også organisatorisk, ikke bare teknisk.
 
 ### Scope og avgrensning
-| InngÃ¥r | InngÃ¥r ikke |
+| Inngår | Inngår ikke |
 |---|---|
 | Autentisering av brukere mot offentlige tjenester | Full autorisasjon til faglige ressurser i hver enkelt tjeneste |
 | Standardiserte integrasjoner for innlogging | Maskin-til-maskin-autentisering uten bruker-kontekst |
 | Token- og identitetsgrunnlag for videre bruk hos tjenesteeier | Signering av dokumenter eller transaksjoner |
-| StÃ¸tte for bruker-kontekst i enkelte virksomhetsscenarier | Fagspesifikk tilgangsstyring og vedtak om rettigheter |
-| Test, avtale og produksjonslÃ¸p for tilkobling | Erstatning for alle andre tillitstjenester i Digdir-portefÃ¸ljen |
+| Støtte for bruker-kontekst i enkelte virksomhetsscenarier | Fagspesifikk tilgangsstyring og vedtak om rettigheter |
+| Test, avtale og produksjonsløp for tilkobling | Erstatning for alle andre tillitstjenester i Digdir-porteføljen |
 
 ## Veikart over kommende funksjonalitet
 **Fakta fra Samarbeidsportalen og Digdir Docs (hentet 2026-03-17):**
-- Viktige fokusomrÃ¥der for de kommende Ã¥rene er bedre stÃ¸tte for alle typer API-er med bruker-kontekst, tett samarbeid med leverandÃ¸rmarkedet, sikkerhet som standard og sÃ¸mlÃ¸s brukeropplevelse.
-- Digdir peker ogsÃ¥ pÃ¥ behov for enklere og mer fleksibel integrasjon for tjenesteeiere.
+- Viktige fokusområder for de kommende årene er bedre støtte for alle typer API-er med bruker-kontekst, tett samarbeid med leverandørmarkedet, sikkerhet som standard og sømløs brukeropplevelse.
+- Digdir peker også på behov for enklere og mer fleksibel integrasjon for tjenesteeiere.
 
-**Deduksjon:** Veikartet peker mot videre modernisering av ID-porten som plattform for brukerautentisering i API-drevne tjenester, ikke bare klassiske nettbaserte innloggingslÃ¸p.
+**Deduksjon:** Veikartet peker mot videre modernisering av ID-porten som plattform for brukerautentisering i API-drevne tjenester, ikke bare klassiske nettbaserte innloggingsløp.
 
 ## Forretningsverdi/Verdiforslag
 ### For innbyggere
-- Gir en gjenkjennelig og trygg innloggingsopplevelse pÃ¥ tvers av offentlige tjenester.
-- Reduserer friksjon ved at brukeren kan forholde seg til kjente eID-er i stedet for ulike lokale lÃ¸sninger.
+- Gir en gjenkjennelig og trygg innloggingsopplevelse på tvers av offentlige tjenester.
+- Reduserer friksjon ved at brukeren kan forholde seg til kjente eID-er i stedet for ulike lokale løsninger.
 
 ### For tjenesteeiere
-- Reduserer behovet for Ã¥ etablere og forvalte egen autentiseringslÃ¸sning.
-- Gir raskere vei til sikker produksjonssetting gjennom etablerte protokoller, testmiljÃ¸ og felles forvaltning.
-- Senker risiko ved at autentisering hÃ¥ndteres av en nasjonal felleslÃ¸sning med tydelig sikkerhets- og styringsregime.
+- Reduserer behovet for å etablere og forvalte egen autentiseringsløsning.
+- Gir raskere vei til sikker produksjonssetting gjennom etablerte protokoller, testmiljø og felles forvaltning.
+- Senker risiko ved at autentisering håndteres av en nasjonal fellesløsning med tydelig sikkerhets- og styringsregime.
 
-### For offentlig sektor og Ã¸kosystemet
-- Styrker gjenbruk ved at mange tjenester kan bygge pÃ¥ samme autentiseringsmÃ¸nster.
-- Bidrar til mer konsistent brukeropplevelse og mindre fragmentert identitetsforvaltning pÃ¥ tvers av sektorer.
-- UnderstÃ¸tter nasjonal styring av tillitstjenester og samhandling.
+### For offentlig sektor og økosystemet
+- Styrker gjenbruk ved at mange tjenester kan bygge på samme autentiseringsmønster.
+- Bidrar til mer konsistent brukeropplevelse og mindre fragmentert identitetsforvaltning på tvers av sektorer.
+- Understøtter nasjonal styring av tillitstjenester og samhandling.
 
 ## Utfordringer og risiko
-| Risikokategori | Konkret risiko | HÃ¥ndtering |
+| Risikokategori | Konkret risiko | Håndtering |
 |---|---|---|
-| Juridisk | Feil bruk av autentiseringsnivÃ¥ eller identitetsgrunnlag i tjenesteeiers egen lÃ¸sning | Tydelig veiledning, krav til tjenesteeier og riktig valg av sikkerhetsnivÃ¥ |
-| Teknisk | Feil i integrasjon hos tjenesteeier kan gi avbrutt innlogging eller feil hÃ¥ndtering av token | TestmiljÃ¸, dokumenterte integrasjonsmÃ¸nstre og validering fÃ¸r produksjon |
-| Sikkerhet | Phishing, feilkonfigurasjon eller svak implementasjon i klientlÃ¸sningen kan svekke sikkerheten i hele brukerreisen | Sikkerhet som standard, anbefalte protokoller og tydelig leverandÃ¸rveiledning |
-| LeverandÃ¸r og Ã¸kosystem | Avhengighet til eID-leverandÃ¸rer og tilpasning hos markedet kan pÃ¥virke brukeropplevelse og fremdrift | Samarbeid med leverandÃ¸rmarkedet og flere stÃ¸ttede eID-er |
-| Brukeropplevelse | Innloggingsopplevelsen kan oppleves som tung hvis tjenesteeier velger feil flyt eller dÃ¥rlig kontekstskifte | Mer sÃ¸mlÃ¸se integrasjoner og tydeligere mÃ¸nstre for tjenestedesign |
+| Juridisk | Feil bruk av autentiseringsnivå eller identitetsgrunnlag i tjenesteeiers egen løsning | Tydelig veiledning, krav til tjenesteeier og riktig valg av sikkerhetsnivå |
+| Teknisk | Feil i integrasjon hos tjenesteeier kan gi avbrutt innlogging eller feil håndtering av token | Testmiljø, dokumenterte integrasjonsmønstre og validering før produksjon |
+| Sikkerhet | Phishing, feilkonfigurasjon eller svak implementasjon i klientløsningen kan svekke sikkerheten i hele brukerreisen | Sikkerhet som standard, anbefalte protokoller og tydelig leverandørveiledning |
+| Leverandør og økosystem | Avhengighet til eID-leverandører og tilpasning hos markedet kan påvirke brukeropplevelse og fremdrift | Samarbeid med leverandørmarkedet og flere støttede eID-er |
+| Brukeropplevelse | Innloggingsopplevelsen kan oppleves som tung hvis tjenesteeier velger feil flyt eller dårlig kontekstskifte | Mer sømløse integrasjoner og tydeligere mønstre for tjenestedesign |
 
 ## Kanaler
 - Produktside: https://www.digdir.no/id-porten/om-id-porten/1507
@@ -118,36 +118,36 @@ Operative mÃ¥l utledet fra de samme kildene:
 - Prismodell: https://samarbeid.digdir.no/id-porten/id-portens-prismodell/78
 
 ## Plattform
-ID-porten er en nasjonal autentiseringsplattform bygget rundt fÃ¸derering mot eksterne eID-er og standardiserte integrasjonsgrensesnitt mot tjenesteeiere.
+ID-porten er en nasjonal autentiseringsplattform bygget rundt føderering mot eksterne eID-er og standardiserte integrasjonsgrensesnitt mot tjenesteeiere.
 
-**Fakta:** Digdir anbefaler OpenID Connect for nye integrasjoner, stÃ¸tter SAML for eksisterende bruk, og tilbyr API-stÃ¸tte for bruk av ID-porten i bruker-kontekst.
+**Fakta:** Digdir anbefaler OpenID Connect for nye integrasjoner, støtter SAML for eksisterende bruk, og tilbyr API-støtte for bruk av ID-porten i bruker-kontekst.
 
 **Ikke offentlig dokumentert i brukte kilder:** Full runtime-arkitektur, detaljert driftsplattform og konkret skylokasjon.
 
 ## Gjenbruk
-**HÃ¸y gjenbruksverdi:**
-- Produktet er laget nettopp for Ã¥ vÃ¦re en felles innloggingskomponent pÃ¥ tvers av mange tjenester.
-- Gjenbruket er organisatorisk sÃ¥ vel som teknisk, fordi bÃ¥de avtaleprosess, testlÃ¸p og dokumentasjon er standardisert.
-- ID-porten er sÃ¦rlig relevant nÃ¥r behovet er brukervendt autentisering. Den er mindre relevant dersom behovet egentlig er maskin-til-maskin-autentisering eller fagspesifikk autorisasjon, der andre produkter er mer treffende.
+**Høy gjenbruksverdi:**
+- Produktet er laget nettopp for å være en felles innloggingskomponent på tvers av mange tjenester.
+- Gjenbruket er organisatorisk så vel som teknisk, fordi både avtaleprosess, testløp og dokumentasjon er standardisert.
+- ID-porten er særlig relevant når behovet er brukervendt autentisering. Den er mindre relevant dersom behovet egentlig er maskin-til-maskin-autentisering eller fagspesifikk autorisasjon, der andre produkter er mer treffende.
 
-## StÃ¸tter arkitekturprinsipper
-- **P1: Ta utgangspunkt i brukernes behov** gir en gjenkjennelig innloggingsopplevelse pÃ¥ tvers av tjenester.
-- **P5: Del og gjenbruk lÃ¸sninger** er en kjerneegenskap, fordi autentisering tilbys som nasjonal felleskomponent i stedet for lokale sÃ¦rvarianter.
-- **P6: Lag digitale lÃ¸sninger som stÃ¸tter samhandling** gjÃ¸r det mulig for mange virksomheter Ã¥ samhandle om samme identitetsgrunnlag og integrasjonsmÃ¸nster.
-- **P7: SÃ¸rg for tillit til oppgavelÃ¸sningen** er sentralt fordi produktet etablerer grunnlaget for sikker identifisering og innlogging.
+## Støtter arkitekturprinsipper
+- **P1: Ta utgangspunkt i brukernes behov** gir en gjenkjennelig innloggingsopplevelse på tvers av tjenester.
+- **P5: Del og gjenbruk løsninger** er en kjerneegenskap, fordi autentisering tilbys som nasjonal felleskomponent i stedet for lokale særvarianter.
+- **P6: Lag digitale løsninger som støtter samhandling** gjør det mulig for mange virksomheter å samhandle om samme identitetsgrunnlag og integrasjonsmønster.
+- **P7: Sørg for tillit til oppgaveløsningen** er sentralt fordi produktet etablerer grunnlaget for sikker identifisering og innlogging.
 
 ## Finansiering
-- **Fakta:** Samarbeidsportalen beskriver en prismodell med Ã¥rlig fastavgift for bruk av ID-porten.
+- **Fakta:** Samarbeidsportalen beskriver en prismodell med årlig fastavgift for bruk av ID-porten.
 - **Fakta:** Enkelte kostnadselementer, som bruk av utenlandske eID-er, belastes den enkelte tjenesteeier.
 - **Deduksjon:** Finansieringsmodellen er derfor ikke ren sentral gratisbruk for alle, men en kombinasjon av nasjonal forvaltning og kostnader knyttet til bruk og integrasjon.
 
 ## Forvaltning/eier
-| AnsvarsomrÃ¥de | Organisasjon / vurdering | Grunnlag |
+| Ansvarsområde | Organisasjon / vurdering | Grunnlag |
 |---|---|---|
 | Produktansvar | Digitaliseringsdirektoratet (Digdir) | Digdirs produktside og Samarbeidsportalen |
-| Driftsansvar | Ikke eksplisitt navngitt i brukte offentlige kilder | Offentlige kilder bekrefter ikke detaljert leverandÃ¸r- eller driftsmodell |
+| Driftsansvar | Ikke eksplisitt navngitt i brukte offentlige kilder | Offentlige kilder bekrefter ikke detaljert leverandør- eller driftsmodell |
 | Budsjett- og prismodell | Digdir forvalter produktet, med dokumentert prismodell for bruk | Samarbeidsportalen |
-| Styringsmodell | Del av produktomrÃ¥det for tillitstjenester | Samarbeidsportalen |
+| Styringsmodell | Del av produktområdet for tillitstjenester | Samarbeidsportalen |
 
 ## Lenke til dokumentasjon
 - https://www.digdir.no/id-porten/om-id-porten/1507
@@ -176,13 +176,14 @@ ID-porten er en nasjonal autentiseringsplattform bygget rundt fÃ¸derering mot 
 ## Endringer fra forrige versjon
 
 ### Analyseforbedringer
-- Finansiering er korrigert fra antatt gratis bruk til dokumentert prismodell med Ã¥rlig fastavgift og enkelte brukeravhengige kostnader.
-- Funksjonsbeskrivelsen er strammet inn slik at ID-porten beskrives som autentiserings- og tokenlÃ¸sning, ikke som generell autorisasjonskomponent.
-- Veikartet er oppdatert med dokumenterte fokusomrÃ¥der fra Samarbeidsportalen i stedet for antatte fremtidstemaer.
-- Forvaltning og drift er skilt tydeligere, og ikke-offentlig dokumenterte forhold er markert som slike i stedet for Ã¥ bli fylt med antakelser.
+- Finansiering er korrigert fra antatt gratis bruk til dokumentert prismodell med årlig fastavgift og enkelte brukeravhengige kostnader.
+- Funksjonsbeskrivelsen er strammet inn slik at ID-porten beskrives som autentiserings- og tokenløsning, ikke som generell autorisasjonskomponent.
+- Veikartet er oppdatert med dokumenterte fokusområder fra Samarbeidsportalen i stedet for antatte fremtidstemaer.
+- Forvaltning og drift er skilt tydeligere, og ikke-offentlig dokumenterte forhold er markert som slike i stedet for å bli fylt med antakelser.
 
 ### Tekstlige forbedringer
-- Brukersegmenter, hovedfunksjoner og avgrensning er skrevet om til en mer selvstendig produktbeskrivelse for mÃ¥lgruppen.
+- Brukersegmenter, hovedfunksjoner og avgrensning er skrevet om til en mer selvstendig produktbeskrivelse for målgruppen.
 - Kapabiliteter er redusert til de som er best dokumentert og forklart med tydeligere sammenheng til produktets faktiske rolle.
-- Gjenbruksvurderingen skiller tydeligere mellom nÃ¥r ID-porten er riktig lÃ¸sning, og nÃ¥r andre tillitstjenester er mer relevante.
+- Gjenbruksvurderingen skiller tydeligere mellom når ID-porten er riktig løsning, og når andre tillitstjenester er mer relevante.
+
 

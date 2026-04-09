@@ -15,79 +15,79 @@ sources:
 
 ## Bakgrunn
 
-Malen og instruksen ble testet pÃ¥ to relaterte problemstillinger:
-- overgang fra ungdomsskole til videregÃ¥ende opplÃ¦ring
-- tilgjengeliggjÃ¸ring av resultater fra videregÃ¥ende opplÃ¦ring
+Malen og instruksen ble testet på to relaterte problemstillinger:
+- overgang fra ungdomsskole til videregående opplæring
+- tilgjengeliggjøring av resultater fra videregående opplæring
 
 ## Hva fungerte godt
 
 - Malen ga en tydelig struktur fra problembilde til tiltak.
 - Koblingen mellom kapabiliteter, prinsipper og produkter ble konkret og sporbar.
-- Kravet om Ã¥ bruke produktkatalogen som fasit reduserte risiko for generiske eller uforankrede forslag.
+- Kravet om å bruke produktkatalogen som fasit reduserte risiko for generiske eller uforankrede forslag.
 - Kortversjon for ledelse fungerte godt for styringsdialog.
 
-## Hva fungerte mindre godt i fÃ¸rste runde
+## Hva fungerte mindre godt i første runde
 
-- Ã‰n samlet analyse med to problemstillinger gjorde produktvurderingen mindre presis.
+- ån samlet analyse med to problemstillinger gjorde produktvurderingen mindre presis.
 - Tiltaksprioriteringen ble delvis blandet mellom to ulike overganger.
-- Noen produktbeskrivelser var gode pÃ¥ produktfakta, men svake pÃ¥ beslutningsstÃ¸tte (nÃ¥r velges produktet, nÃ¥r velges det ikke).
+- Noen produktbeskrivelser var gode på produktfakta, men svake på beslutningsstøtte (når velges produktet, når velges det ikke).
 
-## Tiltak som ble innfÃ¸rt etter test
+## Tiltak som ble innført etter test
 
 - Case ble splittet i separate analyser per problemstilling.
-- Instruksen fikk eksplisitt regel for nÃ¥r analyse skal splittes.
+- Instruksen fikk eksplisitt regel for når analyse skal splittes.
 - Malen ble utvidet med tidlig avklaring av om input er ett eller flere case.
 - Mal og instruks ble utvidet med:
-  - fast vurderingsrekkefÃ¸lge for produktkategorier
+  - fast vurderingsrekkefølge for produktkategorier
   - eksplisitt gap-type per tiltak (produkt, semantisk, juridisk, samordning)
-  - krav om sammensatt lÃ¸sningsmÃ¸nster fÃ¸r nyutvikling foreslÃ¥s
+  - krav om sammensatt løsningsmønster før nyutvikling foreslås
 
 ## Vurdering av produktbeskrivelsene i testen
 
-### SÃ¦rlig sterke beskrivelser
+### Særlig sterke beskrivelser
 
 - Feide
 - Altinn autorisasjon
 - Altinn Events
 - Dialogporten
-- Nasjonal vitnemÃ¥lsdatabase
+- Nasjonal vitnemålsdatabase
 - Begrepskatalog
 
 Kjennetegn:
 - tydelig scope/avgrensning
 - god forklaring av produktets operative rolle
-- lettere Ã¥ bruke som beslutningsstÃ¸tte i analyser
+- lettere å bruke som beslutningsstøtte i analyser
 
-### Beskrivelser med stÃ¸rst forbedringsbehov
+### Beskrivelser med størst forbedringsbehov
 
-- OpptakslÃ¸sninger (hadde kort og smalt fÃ¸rsteutkast, fortsatt behov for tydeligere beslutningsstÃ¸tte)
-- FIKS-plattformen (hadde behov for tydeligere beslutningsstÃ¸ttefelt i fÃ¸rste versjon)
-- VitnemÃ¥lsportalen (hadde behov for tydeligere avgrensning i bruk i fÃ¸rste versjon)
+- Opptaksløsninger (hadde kort og smalt førsteutkast, fortsatt behov for tydeligere beslutningsstøtte)
+- FIKS-plattformen (hadde behov for tydeligere beslutningsstøttefelt i første versjon)
+- Vitnemålsportalen (hadde behov for tydeligere avgrensning i bruk i første versjon)
 
 ## Oppdatert vurdering etter forbedringer
 
-Det er nÃ¥ lagt inn standard beslutningsstÃ¸ttefelt i utvalgte produktbeskrivelser:
+Det er nå lagt inn standard beslutningsstøttefelt i utvalgte produktbeskrivelser:
 - typiske brukssituasjoner
-- nÃ¥r produktet normalt ikke er fÃ¸rstevalg
+- når produktet normalt ikke er førstevalg
 - vanlige kombinasjoner med andre produkter
 
-Dette gjÃ¸r produktbeskrivelsene mer anvendelige i nye analyser uten case-spesifikk tilpasning.
+Dette gjør produktbeskrivelsene mer anvendelige i nye analyser uten case-spesifikk tilpasning.
 
 ### Status etter ny sjekk av de tre beskrivelsene
 
-- FIKS-plattformen: beslutningsstÃ¸ttefeltene er nÃ¥ tydelige og anvendelige (typiske brukssituasjoner, ikke-fÃ¸rstevalg, kombinasjoner). Kun mindre forbedringsbehov gjenstÃ¥r.
-- VitnemÃ¥lsportalen: avgrensningen er nÃ¥ tydeligere (hva som inngÃ¥r/ikke inngÃ¥r, nÃ¥r produktet ikke er fÃ¸rstevalg). Kun mindre forbedringsbehov gjenstÃ¥r.
-- OpptakslÃ¸sninger: beslutningsstÃ¸ttefeltene er nÃ¥ lagt inn, og beskrivelsen er dermed mer konsistent med mÃ¸nsteret brukt i de sterkeste produktbeskrivelsene.
+- FIKS-plattformen: beslutningsstøttefeltene er nå tydelige og anvendelige (typiske brukssituasjoner, ikke-førstevalg, kombinasjoner). Kun mindre forbedringsbehov gjenstår.
+- Vitnemålsportalen: avgrensningen er nå tydeligere (hva som inngår/ikke inngår, når produktet ikke er førstevalg). Kun mindre forbedringsbehov gjenstår.
+- Opptaksløsninger: beslutningsstøttefeltene er nå lagt inn, og beskrivelsen er dermed mer konsistent med mønsteret brukt i de sterkeste produktbeskrivelsene.
 
-Etter samme gjennomgang ble ogsÃ¥ Nasjonal vitnemÃ¥lsdatabase og Nasjonalt utdanningsregister vurdert som kandidater for sterkere beslutningsstÃ¸tte. Begge er nÃ¥ oppdatert med tydeligere brukssituasjoner, ikke-fÃ¸rstevalg og vanlige kombinasjoner med andre produkter.
+Etter samme gjennomgang ble også Nasjonal vitnemålsdatabase og Nasjonalt utdanningsregister vurdert som kandidater for sterkere beslutningsstøtte. Begge er nå oppdatert med tydeligere brukssituasjoner, ikke-førstevalg og vanlige kombinasjoner med andre produkter.
 
 ## Konklusjon
 
-UtprÃ¸vingen bekrefter at oppsettet fungerer bÃ¥de som rask analyse og beslutningsgrunnlag, sÃ¥ lenge flere problemstillinger splittes tidlig og produktvurderingen fÃ¸lger fast metode.
+Utprøvingen bekrefter at oppsettet fungerer både som rask analyse og beslutningsgrunnlag, så lenge flere problemstillinger splittes tidlig og produktvurderingen følger fast metode.
 
-StÃ¸rste gevinst i testen:
+Største gevinst i testen:
 - bedre sporbarhet mellom problembilde og tiltak
-- mer presis bruk av eksisterende produkter fÃ¸r nyutvikling foreslÃ¥s
+- mer presis bruk av eksisterende produkter før nyutvikling foreslås
 - tydeligere skille mellom tekniske, juridiske, semantiske og samordningsmessige gap
 
 ## Anbefalt neste forbedring
@@ -103,32 +103,32 @@ Legg inn en enkel evalueringsrubrikk i malen (score 1-5) for:
 ### 1) Kortversjon for ledelse (1 side)
 
 Skal alltid inneholde:
-- problem og Ã¸nsket effekt (kort)
-- anbefalt retning (gjenbruk, sammensatt lÃ¸sning eller nyutvikling)
+- problem og ønsket effekt (kort)
+- anbefalt retning (gjenbruk, sammensatt løsning eller nyutvikling)
 - topp 3 tiltak med forventet effekt
 - viktigste risikoer og avhengigheter
-- beslutning som trengs nÃ¥
+- beslutning som trengs nå
 
 ### 2) Full analyse (arbeidsdokument)
 
 Skal alltid inneholde:
-- problembilde, avgrensning og berÃ¸rte aktÃ¸rer
-- vurdering av relevante produkter i fast rekkefÃ¸lge
+- problembilde, avgrensning og berørte aktører
+- vurdering av relevante produkter i fast rekkefølge
 - tydelig begrunnelse for produktvalg og fravalg
-- kapabilitetsmapping for anbefalt lÃ¸sningsmÃ¸nster og sentrale produktvalg
+- kapabilitetsmapping for anbefalt løsningsmønster og sentrale produktvalg
 - gap per tiltak (produkt, semantisk, juridisk, samordning)
-- anbefalt lÃ¸sningsmÃ¸nster og prioritering
+- anbefalt løsningsmønster og prioritering
 
 ### 3) Tiltakslogg for styring og oppfolging
 
 Skal alltid inneholde:
 - tiltak, ansvarlig, frist, status
-- forventet gevinst og mÃ¥lepunkt
-- berÃ¸rt kapabilitet eller kapabilitetsgap per tiltak
+- forventet gevinst og målepunkt
+- berørt kapabilitet eller kapabilitetsgap per tiltak
 - avhengigheter og beslutningspunkt
-- risikoeier for tiltak med hÃ¸y usikkerhet
+- risikoeier for tiltak med høy usikkerhet
 
-### ForeslÃ¥tt arbeidsflyt
+### Foreslått arbeidsflyt
 
 - utarbeid full analyse
 - trekk ut kortversjon for ledelse
@@ -137,9 +137,11 @@ Skal alltid inneholde:
 ### Kort sjekkliste for kapabilitetsmapping
 
 Brukes sammen med full analyse og tiltakslogg:
-- Hvilke 1-3 kapabiliteter er direkte realisert av anbefalt lÃ¸sningsmÃ¸nster?
-- Hvilke kapabiliteter stÃ¸ttes av produktets faktiske hovedfunksjoner, ikke bare av beslutningsstÃ¸ttefeltene?
-- Er det kapabiliteter som bare er indirekte berÃ¸rt gjennom kombinasjoner med andre produkter? Hvis ja, skal de normalt ikke mappes til produktet alene.
+- Hvilke 1-3 kapabiliteter er direkte realisert av anbefalt løsningsmønster?
+- Hvilke kapabiliteter støttes av produktets faktiske hovedfunksjoner, ikke bare av beslutningsstøttefeltene?
+- Er det kapabiliteter som bare er indirekte berørt gjennom kombinasjoner med andre produkter? Hvis ja, skal de normalt ikke mappes til produktet alene.
 - Finnes det et tydelig kapabilitetsgap bak tiltaket, for eksempel manglende datadeling, datastyring, autentisering eller organisatorisk samhandling?
 - Er kapabilitetsmappingen konsistent med begrunnelsen for produktvalg og fravalg?
+
+
 

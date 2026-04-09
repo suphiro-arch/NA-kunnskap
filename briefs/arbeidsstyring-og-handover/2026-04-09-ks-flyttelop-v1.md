@@ -2,38 +2,38 @@
 date: 2026-04-09
 author: codex
 status: gjennomfort
-topic: andre sektorvise flyttelÃ¸p for KS Digital
+topic: andre sektorvise flytteløp for KS Digital
 sources:
   - arkitektur/ressurser/produktnummerering.md
   - arkitektur/ressurser/operative-losninger-og-tjenester/
   - briefs/arbeidsstyring-og-handover/2026-04-09-digdir-flyttelop-v1.md
 ---
 
-# Andre sektorvise flyttelÃ¸p: KS Digital
+# Andre sektorvise flytteløp: KS Digital
 
-Dette notatet fÃ¸lger samme mÃ¸nster som Digdir-piloten, men for KS Digital.
+Dette notatet følger samme mønster som Digdir-piloten, men for KS Digital.
 
 ## Valgt bolk
 
-Andre flyttelÃ¸p bÃ¸r vÃ¦re **KS Digital-bolken**.
+Andre flytteløp bør være **KS Digital-bolken**.
 
 Begrunnelse:
 - bolken er avgrenset og fullt operativ
-- ressursene er tydelig registrert i samme eieromrÃ¥de
-- den inneholder bÃ¥de plattform, meldingsressurser, registertilgang og oversiktsressurser
-- den lar oss teste at migreringsmÃ¸nsteret ogsÃ¥ fungerer godt for en annen sektor enn Digdir
+- ressursene er tydelig registrert i samme eierområde
+- den inneholder både plattform, meldingsressurser, registertilgang og oversiktsressurser
+- den lar oss teste at migreringsmønsteret også fungerer godt for en annen sektor enn Digdir
 
 ## Arbeidsregler
 
 - bare siste registrerte versjon flyttes
-- eldre versjoner blir stÃ¥ende i `arkitektur/ressurser/operative-losninger-og-tjenester/`
-- filnavn beholdes uendret i dette lÃ¸pet
-- mÃ¥lmappe er `arkitektur/ressurser/operative-losninger-og-tjenester/`
+- eldre versjoner blir stående i `arkitektur/ressurser/operative-losninger-og-tjenester/`
+- filnavn beholdes uendret i dette løpet
+- målmappe er `arkitektur/ressurser/operative-losninger-og-tjenester/`
 - `arkitektur/ressurser/produktnummerering.md` forblir registermaster
 
-## Kandidater i KS-lÃ¸pet
+## Kandidater i KS-løpet
 
-| LÃ¸penr | Ressurs-ID | Navn | NÃ¥vÃ¦rende fil | ForeslÃ¥tt mÃ¥l |
+| Løpenr | Ressurs-ID | Navn | Nåværende fil | Foreslått mål |
 |---:|---|---|---|---|
 | 25 | `KS-001` | Fiks-plattformen | `arkitektur/ressurser/operative-losninger-og-tjenester/25-FIKS-plattformen-produkt-canvas-v1-codex.md` | `arkitektur/ressurser/operative-losninger-og-tjenester/25-FIKS-plattformen-produkt-canvas-v1-codex.md` |
 | 26 | `KS-002` | Fiks melding | `arkitektur/ressurser/operative-losninger-og-tjenester/26-FIKS-Melding-produkt-canvas-v2-codex.md` | `arkitektur/ressurser/operative-losninger-og-tjenester/26-FIKS-Melding-produkt-canvas-v2-codex.md` |
@@ -43,29 +43,30 @@ Begrunnelse:
 | 57 | `KS-007` | SvarInn | `arkitektur/ressurser/operative-losninger-og-tjenester/57-SvarInn-produkt-canvas-v1-codex.md` | `arkitektur/ressurser/operative-losninger-og-tjenester/57-SvarInn-produkt-canvas-v1-codex.md` |
 | 67 | `KS-008` | Fiks folkeregister | `arkitektur/ressurser/operative-losninger-og-tjenester/67-FIKS-Folkeregister-produkt-canvas-v1-codex.md` | `arkitektur/ressurser/operative-losninger-og-tjenester/67-FIKS-Folkeregister-produkt-canvas-v1-codex.md` |
 | 68 | `KS-009` | Fiks skatte- og inntektsopplysninger | `arkitektur/ressurser/operative-losninger-og-tjenester/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v1-codex.md` | `arkitektur/ressurser/operative-losninger-og-tjenester/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v1-codex.md` |
-| 69 | `KS-010` | Fiks kjÃ¸retÃ¸yregister | `arkitektur/ressurser/operative-losninger-og-tjenester/69-FIKS-Kjoretoyregister-produkt-canvas-v1-codex.md` | `arkitektur/ressurser/operative-losninger-og-tjenester/69-FIKS-Kjoretoyregister-produkt-canvas-v1-codex.md` |
+| 69 | `KS-010` | Fiks kjøretøyregister | `arkitektur/ressurser/operative-losninger-og-tjenester/69-FIKS-Kjoretoyregister-produkt-canvas-v1-codex.md` | `arkitektur/ressurser/operative-losninger-og-tjenester/69-FIKS-Kjoretoyregister-produkt-canvas-v1-codex.md` |
 
 Totalt: **9 filer**
 
-## GjennomfÃ¸ringsrekkefÃ¸lge
+## Gjennomføringsrekkefølge
 
 1. Flytt de 9 siste KS-filene til `arkitektur/ressurser/operative-losninger-og-tjenester/`
 2. Oppdater dokumentlenker i `produktnummerering.md`
 3. Oppdater relative stier og GitHub-lenker i `produkt-kapabilitet-koblinger.yaml`
 4. Regenerer ressursoversikt og kapabilitetssider
-5. KjÃ¸r tegnkodingskontroll
+5. Kjør tegnkodingskontroll
 
-## Status etter gjennomfÃ¸ring 2026-04-09
+## Status etter gjennomføring 2026-04-09
 
-KS-lÃ¸pet er nÃ¥ gjennomfÃ¸rt som andre sektorvise migrering.
+KS-løpet er nå gjennomført som andre sektorvise migrering.
 
-GjennomfÃ¸rt:
+Gjennomført:
 - 9 siste KS-filer er flyttet fra `arkitektur/ressurser/operative-losninger-og-tjenester/` til `arkitektur/ressurser/operative-losninger-og-tjenester/`
 - dokumentlenker i `arkitektur/ressurser/produktnummerering.md` er oppdatert
 - relative stier og GitHub-lenker i `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml` er oppdatert
 - webgrunnlaget er regenerert
-- tegnkodingskontroll er kjÃ¸rt uten feil
+- tegnkodingskontroll er kjørt uten feil
 
 Ikke verifisert lokalt:
-- full Hugo-build, fordi `hugo` ikke er installert i dette miljÃ¸et
+- full Hugo-build, fordi `hugo` ikke er installert i dette miljøet
+
 

@@ -7,104 +7,104 @@ Geonorge
 KART-002
 
 ## Status/Livsfase
-**Produksjon** - etablert nasjonal geodataportal og felleslÃ¸sning for metadata, sÃ¸k, deling og distribusjon av stedfestet informasjon.
+**Produksjon** - etablert nasjonal geodataportal og fellesløsning for metadata, søk, deling og distribusjon av stedfestet informasjon.
 
-**Fakta:** Kartverket beskriver Geonorge som det nasjonale nettstedet for kartdata og annen stedfestet informasjon i Norge. Geonorge er en del av Norge digitalt, utvikles og driftes av Kartverket pÃ¥ vegne av partene, og beskrives som kjernen i den nasjonale geografiske infrastrukturen.
+**Fakta:** Kartverket beskriver Geonorge som det nasjonale nettstedet for kartdata og annen stedfestet informasjon i Norge. Geonorge er en del av Norge digitalt, utvikles og driftes av Kartverket på vegne av partene, og beskrives som kjernen i den nasjonale geografiske infrastrukturen.
 
 ## Modenhet
-**HÃ¸y modenhet** - etablert nasjonal felleslÃ¸sning for geodata:
-- Geonorge brukes som felles katalog og tilgangspunkt for kartdata og andre geodata fra mange offentlige aktÃ¸rer.
-- Produktet tilbyr bÃ¥de metadata, datasettoversikter, distribusjonslÃ¸sninger og API-er.
+**Høy modenhet** - etablert nasjonal fellesløsning for geodata:
+- Geonorge brukes som felles katalog og tilgangspunkt for kartdata og andre geodata fra mange offentlige aktører.
+- Produktet tilbyr både metadata, datasettoversikter, distribusjonsløsninger og API-er.
 - Geonorge er integrert i den nasjonale geografiske infrastrukturen og Norge digitalt-samarbeidet.
-- Metadata hÃ¸stes videre til Felles kartkatalog pÃ¥ data.norge.no.
+- Metadata høstes videre til Felles kartkatalog på data.norge.no.
 
-**Deduksjon:** Modenheten er hÃ¸y fordi Geonorge er mer enn en portalvisning. Produktet er en nasjonal delings- og samordningslÃ¸sning med etablert rolle i bÃ¥de forvaltning, utvikling og gjenbruk av geodata pÃ¥ tvers av sektorer.
+**Deduksjon:** Modenheten er høy fordi Geonorge er mer enn en portalvisning. Produktet er en nasjonal delings- og samordningsløsning med etablert rolle i både forvaltning, utvikling og gjenbruk av geodata på tvers av sektorer.
 
 ## Kort beskrivelse
-Geonorge er den nasjonale felleslÃ¸sningen for Ã¥ finne, beskrive, registrere og distribuere kartdata og annen stedfestet informasjon i Norge. Produktet samler metadata om datasett og tjenester, tilbyr sÃ¸k og API-er, og stÃ¸tter flere distribusjonsmÃ¥ter for geodata fra mange offentlige datatilbydere. Geonorge er derfor bÃ¥de en portal, en metadata- og kataloglÃ¸sning og en delingsinfrastruktur for geodata pÃ¥ tvers av sektorer.
+Geonorge er den nasjonale fellesløsningen for å finne, beskrive, registrere og distribuere kartdata og annen stedfestet informasjon i Norge. Produktet samler metadata om datasett og tjenester, tilbyr søk og API-er, og støtter flere distribusjonsmåter for geodata fra mange offentlige datatilbydere. Geonorge er derfor både en portal, en metadata- og katalogløsning og en delingsinfrastruktur for geodata på tvers av sektorer.
 
 ## Kapabiliteter
 - **Informasjonsforvaltning: Oversikt over datasett** er kjernefunksjon ved at Geonorge gir nasjonal oversikt over tilgjengelige geodata og metadata.
-- **Datautveksling og integrasjon: Dele data med andre** er relevant fordi Geonorge stÃ¸tter distribusjon, API-er og tilgjengeliggjÃ¸ring av geodata fra mange aktÃ¸rer.
+- **Datautveksling og integrasjon: Dele data med andre** er relevant fordi Geonorge støtter distribusjon, API-er og tilgjengeliggjøring av geodata fra mange aktører.
 
 Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot Kartverkets og Geonorges beskrivelser av katalog, API-er og distribusjon.
 
-## ProduktmÃ¥l
-**PrimÃ¦rkilder:** Sidene `Om Geonorge`, `Geografisk infrastruktur`, `Distribuere data gjennom Geonorge` og utviklersidene for API-er.
+## Produktmål
+**Primærkilder:** Sidene `Om Geonorge`, `Geografisk infrastruktur`, `Distribuere data gjennom Geonorge` og utviklersidene for API-er.
 
-Dokumenterte mÃ¥l:
-- Gi brukere av kartdata mulighet til Ã¥ sÃ¸ke etter og fÃ¥ tilgang til tilgjengelig stedfestet informasjon.
-- StÃ¸tte registrering av metadata og distribusjon av geodata i den nasjonale geografiske infrastrukturen.
-- VÃ¦re en del av Norge digitalt og den nasjonale samordningen av geodata.
+Dokumenterte mål:
+- Gi brukere av kartdata mulighet til å søke etter og få tilgang til tilgjengelig stedfestet informasjon.
+- Støtte registrering av metadata og distribusjon av geodata i den nasjonale geografiske infrastrukturen.
+- Være en del av Norge digitalt og den nasjonale samordningen av geodata.
 
-Operative mÃ¥l utledet fra de samme kildene:
-- GjÃ¸re geodata lettere Ã¥ oppdage, forstÃ¥ og gjenbruke pÃ¥ tvers av sektorer.
+Operative mål utledet fra de samme kildene:
+- Gjøre geodata lettere å oppdage, forstå og gjenbruke på tvers av sektorer.
 - Gi datatilbydere en felles nasjonal kanal for metadata og distribusjon.
-- UnderstÃ¸tte standardisert og mer effektiv deling av geodata gjennom katalog, API-er og nedlastingslÃ¸sninger.
+- Understøtte standardisert og mer effektiv deling av geodata gjennom katalog, API-er og nedlastingsløsninger.
 
 ## Brukerbehov
 - Offentlige virksomheter trenger en felles nasjonal oversikt over tilgjengelige geodata.
-- Datatilbydere trenger en felles lÃ¸sning for Ã¥ registrere metadata og gjÃ¸re data synlige og distribuerbare.
-- Utviklere trenger API-er og standardiserte metadata- og sÃ¸kegrensesnitt.
+- Datatilbydere trenger en felles løsning for å registrere metadata og gjøre data synlige og distribuerbare.
+- Utviklere trenger API-er og standardiserte metadata- og søkegrensesnitt.
 - Analytikere, planleggere og andre brukere trenger enkel tilgang til geodata fra mange sektorer.
 
 ## Hvem er brukerne og brukersegmentene
-| Brukersegment | PrimÃ¦re behov | BruksomrÃ¥de | Kommentar |
+| Brukersegment | Primære behov | Bruksområde | Kommentar |
 |---|---|---|---|
 | Offentlige virksomheter | Oversikt og tilgang til geodata | Planlegging, analyse, samhandling og tjenesteutvikling | Viktigste tverrsektorielle brukergruppe |
-| Datatilbydere i Norge digitalt | Metadataregistrering og distribusjon | SynliggjÃ¸ring og deling av datasett og tjenester | Viktig kildeside inn i produktet |
-| Utviklere og integratÃ¸rer | API-er og metadata-tilgang | SÃ¸k, nedlasting, validering og integrasjon | Tydelig teknisk brukergruppe |
-| Kart- og geodatabrukere | Enkel oppdagelse og tilgang | Analyse, karttjenester og saksstÃ¸tte | Bred brukergruppe pÃ¥ tvers av sektorer |
+| Datatilbydere i Norge digitalt | Metadataregistrering og distribusjon | Synliggjøring og deling av datasett og tjenester | Viktig kildeside inn i produktet |
+| Utviklere og integratører | API-er og metadata-tilgang | Søk, nedlasting, validering og integrasjon | Tydelig teknisk brukergruppe |
+| Kart- og geodatabrukere | Enkel oppdagelse og tilgang | Analyse, karttjenester og saksstøtte | Bred brukergruppe på tvers av sektorer |
 | Kartverket | Drift, utvikling og samordning | Nasjonal forvaltning av geodatainfrastruktur | Operativ hovedforvalter |
 
 ## Hovedfunksjoner
-### PrimÃ¦re funksjoner
+### Primære funksjoner
 **Nasjonal katalog over geodata og tjenester.** Geonorge gir brukerne en samlet oversikt over datasett, tjenester og metadata om kartdata og annen stedfestet informasjon. Dette er produktets mest sentrale funksjon.
 
-**Felles metadata- og registreringslÃ¸sning.** Produktet gjÃ¸r det mulig for offentlige virksomheter Ã¥ registrere og forvalte metadata om geodata i en felles nasjonal struktur. Geonorge er dermed en viktig informasjonsforvaltningsressurs, ikke bare en sÃ¸keside.
+**Felles metadata- og registreringsløsning.** Produktet gjør det mulig for offentlige virksomheter å registrere og forvalte metadata om geodata i en felles nasjonal struktur. Geonorge er dermed en viktig informasjonsforvaltningsressurs, ikke bare en søkeside.
 
-**Distribusjon og tilgjengeliggjÃ¸ring av geodata.** Geonorge stÃ¸tter flere modeller for distribusjon av data, fra lenking til eksterne nedlastingslÃ¸sninger til integrert distribusjon gjennom egne API-er og nedlastingslÃ¸sninger.
+**Distribusjon og tilgjengeliggjøring av geodata.** Geonorge støtter flere modeller for distribusjon av data, fra lenking til eksterne nedlastingsløsninger til integrert distribusjon gjennom egne API-er og nedlastingsløsninger.
 
 **API-er og tekniske grensesnitt for viderebruk.** Geonorge tilbyr API-er for metadata, katalog, registre og validering. Produktet har dermed tydelig verdi som teknisk byggekloss og ikke bare som brukerrettet portal.
 
 ### Scope og avgrensning
-| InngÃ¥r | InngÃ¥r ikke |
+| Inngår | Inngår ikke |
 |---|---|
-| Nasjonal geodataportal og metadata-katalog | Alle underliggende primÃ¦rregistre og originale fagsystemer |
-| Registrering, sÃ¸k og oversikt over geodata og tjenester | Full erstatning for hver enkelt dataeiers egne fagsider |
-| API-er, metadata-tilgang og distribusjonsstÃ¸tte | Alle spesialiserte geodataprodukter som leveres utenfor Geonorge |
-| Del av den nasjonale geografiske infrastrukturen | Hele Kartverkets Ã¸vrige portefÃ¸lje utenfor dette produktomrÃ¥det |
+| Nasjonal geodataportal og metadata-katalog | Alle underliggende primærregistre og originale fagsystemer |
+| Registrering, søk og oversikt over geodata og tjenester | Full erstatning for hver enkelt dataeiers egne fagsider |
+| API-er, metadata-tilgang og distribusjonsstøtte | Alle spesialiserte geodataprodukter som leveres utenfor Geonorge |
+| Del av den nasjonale geografiske infrastrukturen | Hele Kartverkets øvrige portefølje utenfor dette produktområdet |
 
 ## Veikart over kommende funksjonalitet
 **Fakta fra kildene (kontrollert 2026-03-27):**
-- Geonorge publiserer lÃ¸pende API-er og utviklergrensesnitt for metadata, katalog og registre.
-- Produktet framstÃ¥r som en videreutviklet og levende del av den nasjonale geodatainfrastrukturen.
+- Geonorge publiserer løpende API-er og utviklergrensesnitt for metadata, katalog og registre.
+- Produktet framstår som en videreutviklet og levende del av den nasjonale geodatainfrastrukturen.
 
-**Ikke offentlig verifisert i denne arbeidsÃ¸kten:** Et samlet, tidsfestet veikart for hele Geonorge er ikke hentet ut.
+**Ikke offentlig verifisert i denne arbeidsøkten:** Et samlet, tidsfestet veikart for hele Geonorge er ikke hentet ut.
 
-**Deduksjon:** Videreutviklingen ser ut til Ã¥ dreie seg om bedre metadatahÃ¥ndtering, videre API-utvikling, distribusjonsstÃ¸tte og samspill med nasjonale kataloger og standarder.
+**Deduksjon:** Videreutviklingen ser ut til å dreie seg om bedre metadatahåndtering, videre API-utvikling, distribusjonsstøtte og samspill med nasjonale kataloger og standarder.
 
 ## Forretningsverdi/Verdiforslag
 ### For offentlig sektor
-- Gir Ã©n felles nasjonal inngang til geodata pÃ¥ tvers av mange sektorer.
-- GjÃ¸r det enklere Ã¥ finne, forstÃ¥ og bruke stedfestet informasjon i planlegging, analyse og tjenesteutvikling.
+- Gir én felles nasjonal inngang til geodata på tvers av mange sektorer.
+- Gjør det enklere å finne, forstå og bruke stedfestet informasjon i planlegging, analyse og tjenesteutvikling.
 
 ### For datatilbydere
-- Gir en felles kanal for Ã¥ synliggjÃ¸re og distribuere geodata.
-- Reduserer behovet for Ã¥ bygge hele oppdagelses- og katalogfunksjonen alene.
+- Gir en felles kanal for å synliggjøre og distribuere geodata.
+- Reduserer behovet for å bygge hele oppdagelses- og katalogfunksjonen alene.
 
 ### For utviklere og brukere
-- GjÃ¸r geodata mer tilgjengelige gjennom metadata, sÃ¸k og API-er.
+- Gjør geodata mer tilgjengelige gjennom metadata, søk og API-er.
 - Styrker grunnlaget for videre gjenbruk i digitale tjenester og analyser.
 
 ## Utfordringer og risiko
-| Risikokategori | Konkret risiko | HÃ¥ndtering |
+| Risikokategori | Konkret risiko | Håndtering |
 |---|---|---|
 | Datakvalitet og metadata | Svake eller ufullstendige metadata reduserer gjenbruksverdien | Tydelige krav, standarder og validering |
 | Samordning | Mange datatilbydere og sektorer kan gi ulik praksis og kvalitet | Felles forvaltning og nasjonale standarder |
-| Teknisk kompleksitet | API-er, distribusjon og katalogtjenester mÃ¥ fungere stabilt for mange brukere | Robust drift og tydelig dokumentasjon |
-| Scope-forstÃ¥else | Brukere kan tro at Geonorge er kilden til alle data, ikke katalog- og delingslaget | Tydelig produktbeskrivelse og sporbarhet til dataeier |
-| Avhengighet | Mange tjenester kan bli avhengige av Geonorge som oppdagelses- og tilgangspunkt | HÃ¸y prioritet pÃ¥ tilgjengelighet og endringsforvaltning |
+| Teknisk kompleksitet | API-er, distribusjon og katalogtjenester må fungere stabilt for mange brukere | Robust drift og tydelig dokumentasjon |
+| Scope-forståelse | Brukere kan tro at Geonorge er kilden til alle data, ikke katalog- og delingslaget | Tydelig produktbeskrivelse og sporbarhet til dataeier |
+| Avhengighet | Mange tjenester kan bli avhengige av Geonorge som oppdagelses- og tilgangspunkt | Høy prioritet på tilgjengelighet og endringsforvaltning |
 
 ## Kanaler
 - Om Geonorge: https://www.geonorge.no/aktuelt/om-geonorge/
@@ -121,23 +121,23 @@ Geonorge er en nasjonal katalog-, metadata- og delingsplattform for geodata.
 **Ikke offentlig dokumentert i brukte kilder:** Full intern plattformarkitektur, samlet komponentkart og detaljert teknologistakk utover det som beskrives i API- og infrastruktursidene.
 
 ## Gjenbruk
-**HÃ¸y gjenbruksverdi:**
-- Produktet er laget for Ã¥ stÃ¸tte oppdagelse og deling av geodata pÃ¥ tvers av mange sektorer.
-- Det er sÃ¦rlig relevant nÃ¥r behovet er oversikt over datasett, metadata og tilgang til stedfestet informasjon.
+**Høy gjenbruksverdi:**
+- Produktet er laget for å støtte oppdagelse og deling av geodata på tvers av mange sektorer.
+- Det er særlig relevant når behovet er oversikt over datasett, metadata og tilgang til stedfestet informasjon.
 - Det er klart mer tverrsektorielt som fellesressurs enn smalere, sektorspesifikke vegdatatjenester.
 
-## StÃ¸tter arkitekturprinsipper
-- **P4: Del og gjenbruk data** realiseres ved at Geonorge gjÃ¸r geodata oppdagbare og delbare pÃ¥ tvers av virksomheter.
-- **P5: Del og gjenbruk lÃ¸sninger** styrkes ved at mange datatilbydere bruker samme nasjonale katalog- og delingslÃ¸sning.
-- **P6: Lag digitale lÃ¸sninger som stÃ¸tter samhandling** stÃ¸ttes fordi Geonorge kobler dataeiere, utviklere og brukere gjennom felles metadata- og API-mÃ¸nstre.
-- **P7: SÃ¸rg for tillit til oppgavelÃ¸sningen** er sentralt fordi standarder, metadata og validering er avgjÃ¸rende for at geodata skal kunne gjenbrukes korrekt.
+## Støtter arkitekturprinsipper
+- **P4: Del og gjenbruk data** realiseres ved at Geonorge gjør geodata oppdagbare og delbare på tvers av virksomheter.
+- **P5: Del og gjenbruk løsninger** styrkes ved at mange datatilbydere bruker samme nasjonale katalog- og delingsløsning.
+- **P6: Lag digitale løsninger som støtter samhandling** støttes fordi Geonorge kobler dataeiere, utviklere og brukere gjennom felles metadata- og API-mønstre.
+- **P7: Sørg for tillit til oppgaveløsningen** er sentralt fordi standarder, metadata og validering er avgjørende for at geodata skal kunne gjenbrukes korrekt.
 
 ## Finansiering
-- **Fakta:** Kildene beskriver Geonorge som del av Norge digitalt og Kartverkets nasjonale felleslÃ¸sninger, men gir ikke en samlet offentlig finansieringsmodell i denne arbeidsÃ¸kten.
-- **Deduksjon:** Geonorge finansieres som nasjonal felleslÃ¸sning i geodatainfrastrukturen, med Kartverket som hovedforvalter pÃ¥ vegne av samarbeidspartene.
+- **Fakta:** Kildene beskriver Geonorge som del av Norge digitalt og Kartverkets nasjonale fellesløsninger, men gir ikke en samlet offentlig finansieringsmodell i denne arbeidsøkten.
+- **Deduksjon:** Geonorge finansieres som nasjonal fellesløsning i geodatainfrastrukturen, med Kartverket som hovedforvalter på vegne av samarbeidspartene.
 
 ## Forvaltning/eier
-| AnsvarsomrÃ¥de | Organisasjon / vurdering | Grunnlag |
+| Ansvarsområde | Organisasjon / vurdering | Grunnlag |
 |---|---|---|
 | Produktansvar | Kartverket | Om-siden for Geonorge |
 | Drift og utvikling | Kartverket | Om-siden beskriver dette eksplisitt |
@@ -163,4 +163,5 @@ Geonorge er en nasjonal katalog-, metadata- og delingsplattform for geodata.
 - Nettkilde: https://www.geonorge.no/aktuelt/om-geonorge/slik-bruker-du-geonorge/distribuere-data-gjennom-geonorge/ (kontrollert 2026-03-27)
 - Nettkilde: https://www.geonorge.no/en/for-developers/apis/ (kontrollert 2026-03-27)
 - Nettkilde: https://www.geonorge.no/verktoy/APIer-og-grensesnitt/apier-for-kartkatalogen/ (kontrollert 2026-03-27)
+
 

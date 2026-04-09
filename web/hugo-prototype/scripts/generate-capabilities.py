@@ -25,7 +25,8 @@ BOLD_BULLET_PATTERN = re.compile(r'^-\s+\*\*(.+?)\*\*(?:\s*(?:[–-]\s*)?(.+))?$
 
 
 def read_text(path: Path) -> str:
-    text = path.read_text(encoding='utf-8')
+    # Use utf-8-sig to transparently handle files saved with UTF-8 BOM.
+    text = path.read_text(encoding='utf-8-sig')
     suspicious = text.count('Ã') + text.count('â') + text.count('�')
     if suspicious:
         try:
@@ -275,7 +276,7 @@ def parse_product_capability_mappings(capabilities: list[dict]) -> tuple[dict[st
             subcap_lookup[(cap['id'], subcap_slug)] = subcap
             subcap_name_lookup[(cap['id'], subcap['navn'])] = subcap
 
-    mapping = json.loads(MAP_FILE.read_text(encoding='utf-8'))
+    mapping = json.loads(MAP_FILE.read_text(encoding='utf-8-sig'))
     for product in mapping.get('products', []):
         for capability in product.get('capabilities', []):
             capability_slug = capability.get('capability_slug') or slugify(capability.get('capability_name', ''))
