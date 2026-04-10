@@ -8,14 +8,6 @@
     {{ $styles := resources.Get "css/main.css" | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" />
   </head>
-  {{ $currentSection := "" }}
-  {{ if .IsHome }}
-    {{ $currentSection = "" }}
-  {{ else if .IsSection }}
-    {{ $currentSection = .Section }}
-  {{ else if .CurrentSection }}
-    {{ $currentSection = .CurrentSection.Section }}
-  {{ end }}
   <body class="no-toc">
     <a class="skip-link" href="#main-content">Hopp til innhold</a>
 
@@ -39,9 +31,10 @@
             </li>
             {{ range .Site.Sections.ByWeight }}
             {{ $section := . }}
-            <li class="site-nav__item {{ if eq $section.Section $currentSection }}is-active{{ end }}">
+            {{ $isInSectionBranch := or (eq $section.RelPermalink $.RelPermalink) ($section.IsAncestor $) }}
+            <li class="site-nav__item {{ if $isInSectionBranch }}is-active{{ end }}">
               <a href="{{ $section.RelPermalink }}">{{ $section.Title }}</a>
-              {{ if eq $section.Section $currentSection }}
+              {{ if $isInSectionBranch }}
                 {{ $children := $section.Sections.ByWeight }}
                 {{ if gt (len $children) 0 }}
                 <ul class="site-nav__sublist">
