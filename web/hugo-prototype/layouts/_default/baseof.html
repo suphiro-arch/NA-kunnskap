@@ -66,6 +66,16 @@
                     {{ end }}
                   </li>
                   {{ end }}
+                  {{ else if .IsSection }}
+                  {{ $flattenedChildren := .Pages.ByWeight }}
+                  {{ range $flattenedChildren }}
+                  {{ if not .Params.hideInNav }}
+                  {{ $isCurrentBranch := or (eq .RelPermalink $.RelPermalink) (.IsAncestor $) }}
+                  <li>
+                    <a class="{{ if $isCurrentBranch }}is-current{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                  </li>
+                  {{ end }}
+                  {{ end }}
                   {{ end }}
                 </ul>
                 {{ end }}
