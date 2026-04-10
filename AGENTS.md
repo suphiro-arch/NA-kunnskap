@@ -17,6 +17,7 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Ved arbeid med nye ressurskategorier eller ressurser utover klassiske produkter, bruk `arkitektur/ressurser/styringsregler.md` som styrende klassifisering.
 - Ved registerføring av nye ressurser i den brede ressursstrukturen, bruk fortsatt `arkitektur/ressurser/produktnummerering.md` som operativ master for ressurs-ID og registerstatus inntil annet er besluttet.
 - Når nye ressursfiler opprettes etter at løpenummer er fastsatt i `arkitektur/ressurser/produktnummerering.md`, skal filnavnet følge samme nummererte mønster som øvrige beskrivelser i porteføljen.
+- Ved opprettelse eller revisjon av `normerende ressurser` og `samarbeidsfora`, bruk `config/prompts/ressursbeskrivelser.system.md` sammen med riktig mal i `config/templates/`.
 
 ## Produktbeskrivelser
 - Bruk alltid høyeste eksisterende versjonsnummer for et produkt som primært utgangspunkt, uavhengig av om siste versjon er laget av `codex`, `copilot` eller en person.
@@ -30,6 +31,7 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Lokal pre-commit hook for encoding-kontroll skal være aktiv (`tools/setup-git-hooks.ps1`) slik at commits stoppes automatisk ved mojibake.
 - I normerende ressursbeskrivelser skal `Status/Livsfase` beskrive status på selve ressursen, ikke status på dokumentutkastet eller ressursbeskrivelsen.
 - Tidlige versjoner av normerende ressursbeskrivelser skal som hovedregel beholde hele malstrukturen, og uferdige felt skal merkes eksplisitt i teksten i stedet for å utelates.
+- I beskrivelser av samarbeidsfora skal det være eksplisitt om forumet er rådgivende, koordinerende eller besluttende, hvilke ressurser det påvirker, og når det bør involveres i analyse- eller utviklingsløp.
 
 ## Kilder og analyse
 - Bruk `sources/links.md` som førstevalg for eksterne kilder.
@@ -39,6 +41,7 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Hvis en påstand ikke kan bekreftes i tilgjengelige kilder, skal dette sies tydelig i teksten.
 
 ## Innhold og språkføring
+- Bruk `config/regler/sprakforing.md` som felles språkgrunnlag for dokumentinnhold, analyser og nye promptfiler.
 - Skriv dokumentasjon for målgruppen for nasjonal arkitektur, med tydelig og direkte språk.
 - Skriv i aktiv form når det er naturlig, ikke i passiv eller distansert referatform.
 - Ved revisjon av eksisterende produktbeskrivelser skal etablert tone og språkføring bevares så langt det er faglig forsvarlig.
