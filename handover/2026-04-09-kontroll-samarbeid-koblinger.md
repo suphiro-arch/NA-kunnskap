@@ -53,7 +53,7 @@ Tabellen under viser alle produkter som i dag er mappet til Samarbeid i masterfi
 | 34 | Kjernejournal | Organisatorisk samhandling | Nei | Nei (kuratert) |
 | 35 | e-resept | Organisatorisk samhandling | Nei | Nei (kuratert) |
 | 48 | Felles studentsystem (FS) | Organisatorisk samhandling | Nei | Nei (kuratert) |
-| 49 | OpptakslÃ¸sninger | Organisatorisk samhandling | Nei | Nei (kuratert) |
+| 49 | Opptaksløsninger | Organisatorisk samhandling | Nei | Nei (kuratert) |
 | 57 | SvarInn | Organisatorisk samhandling | Nei | Nei (kuratert) |
 | 59 | A-ordningen | Organisatorisk samhandling | Nei | Nei (kuratert) |
 | 62 | DSOP-tjenester | Organisatorisk samhandling | Nei | Nei (kuratert) |
