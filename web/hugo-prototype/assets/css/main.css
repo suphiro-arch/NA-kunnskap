@@ -569,7 +569,8 @@ a:hover {
 
 .prose th:nth-child(7),
 .prose td:nth-child(7) {
-  min-width: 38rem;
+  width: 44rem;
+  min-width: 44rem;
 }
 
 .prose th:nth-child(8),

@@ -51,7 +51,7 @@
                   <li>
                     <a class="{{ if $isCurrentBranch }}is-current{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a>
                     {{ if and $isCurrentBranch .IsSection }}
-                      {{ $grandchildren := .Pages.ByWeight }}
+                      {{ $grandchildren := .Sections.ByWeight }}
                       {{ if gt (len $grandchildren) 0 }}
                       <ul class="site-nav__sublist">
                         {{ range $grandchildren }}
@@ -67,7 +67,7 @@
                   </li>
                   {{ end }}
                   {{ else if .IsSection }}
-                  {{ $flattenedChildren := .Pages.ByWeight }}
+                  {{ $flattenedChildren := .Sections.ByWeight }}
                   {{ range $flattenedChildren }}
                   {{ if not .Params.hideInNav }}
                   {{ $isCurrentBranch := or (eq .RelPermalink $.RelPermalink) (.IsAncestor $) }}
