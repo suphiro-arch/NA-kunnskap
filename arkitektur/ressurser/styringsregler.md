@@ -131,19 +131,21 @@ En ressurs bør normalt bare opprettes som egen enhet når den:
 - `Gjenbruk` bør tolkes som faglig anvendelse og innarbeiding, ikke teknisk gjenbruk
 
 ### Felt som normalt bør tilpasses for samarbeidsfora
-- `Hovedfunksjoner` bør ofte erstattes eller suppleres med `Mandat`, `Deltakere`, `Arbeidsform` og `Påvirkningsområde`
+- `Hovedfunksjoner` bør ofte erstattes eller suppleres med `Mandat`, `Beslutningsmyndighet`, `Deltakere`, `Arbeidsform` og `Hvilke ressurser forumet påvirker`
 - `Plattform`, `Kanaler` og deler av `Gjenbruk` er ofte lite relevante i sin nåværende form
 - `Forvaltning/eier` bør utvides med sekretariat, medlemskap eller styringslinje når dette finnes
+- `Når forumet bør involveres` og `Typiske saker og leveranser` er viktige felt for senere analysebruk
 
 ### Foreløpig arbeidsregel
 - bruk dagens `produkt-canvas` direkte for operative løsninger og tjenester
-- bruk dagens mal bare som inspirasjon for normerende ressurser og samarbeidsfora
-- lag egne avledede maler når de første konkrete ressursbeskrivelsene utenfor det operative sporet skal skrives
+- bruk egne avledede maler for normerende ressurser og samarbeidsfora
+- bruk egen prompt for ikke-operative ressursbeskrivelser når slike ressurser skal opprettes eller revideres
 
 ### Tilgjengelige maler
 - `config/templates/produkt-canvas-template.md` brukes direkte for operative løsninger og tjenester
 - `config/templates/normerende-ressurs-template.md` brukes for normerende ressurser
-- samarbeidsfora har foreløpig ikke egen mal og bør beskrives først når en enkel avledet mal er etablert
+- `config/templates/samarbeidsforum-template.md` brukes for samarbeidsfora
+- `config/prompts/ressursbeskrivelser.system.md` brukes som styrende prompt for normerende ressurser og samarbeidsfora
 
 ## Første arbeidsklassifisering av omtalte ressurser
 | Ressurs | Primærkategori | Kommentar |

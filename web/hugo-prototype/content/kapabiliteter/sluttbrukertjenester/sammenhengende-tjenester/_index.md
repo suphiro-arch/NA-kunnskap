@@ -2,7 +2,7 @@
 title: "Sammenhengende tjenester"
 weight: 1
 description: "Evne til å levere en digital brukerorienterte tjenester som fremstår som en logisk og uavbrutt prosess for brukeren, selv når den involverer og koordinerer handlinger og tjenester fra flere, uavhengige virksomheter."
-cardMeta: "12 produkter"
+cardMeta: "14 produkter"
 ---
 
 Evne til å levere en digital brukerorienterte tjenester som fremstår som en logisk og uavbrutt prosess for brukeren, selv når den involverer og koordinerer handlinger og tjenester fra flere, uavhengige virksomheter.
@@ -73,5 +73,15 @@ Denne delkapabiliteten er en del av [Sluttbrukertjenester](../).
     <h3 class="capability-product-link__title">VIGO</h3>
     <p class="capability-product-link__description">gir en samlet løsning for prosesser som søking, inntak og administrativ oppfølging i videregående opplæring.</p>
     <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v1-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Klart språk</h3>
+    <p class="capability-product-link__description">styrker forståelige og sammenhengende brukerreiser ved å gjøre språk og kommunikasjon lettere å forstå.</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v0-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Felles designsystem</h3>
+    <p class="capability-product-link__description">bidrar til mer helhetlige og gjenkjennelige brukeropplevelser på tvers av digitale tjenester.</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/118-Felles-designsystem-v1-codex.md">Åpne ressursbeskrivelse</a>
   </article>
 </div>

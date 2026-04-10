@@ -2,7 +2,7 @@
 title: "Forvaltningsstandarder"
 weight: 2
 description: "Evne til å implementere og ta i bruk nasjonale standarder."
-cardMeta: "9 produkter"
+cardMeta: "11 produkter"
 ---
 
 Evne til å implementere og ta i bruk nasjonale standarder.
@@ -58,5 +58,15 @@ Denne delkapabiliteten er en del av [Standardisering](../).
     <h3 class="capability-product-link__title">FINT Informasjonsmodell</h3>
     <p class="capability-product-link__description">fungerer som et omforent normerende grunnlag for hvordan informasjon skal representeres og utveksles i FINT.</p>
     <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/72-FINT-Informasjonsmodell-v1-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Digitaliseringsrundskrivet</h3>
+    <p class="capability-product-link__description">gir føringer som standardiserer forventninger til hvordan statlige virksomheter skal arbeide med digitalisering.</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/112-Digitaliseringsrundskrivet-v0-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Digitaliseringsvennlig regelverk</h3>
+    <p class="capability-product-link__description">gir anbefalinger og sjekklister for hvordan regelverk kan utformes og vurderes mer digitaliseringsvennlig.</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v0-codex.md">Åpne ressursbeskrivelse</a>
   </article>
 </div>

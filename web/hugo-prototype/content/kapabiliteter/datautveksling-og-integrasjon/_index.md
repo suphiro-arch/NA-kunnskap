@@ -2,7 +2,7 @@
 title: "Datautveksling og integrasjon"
 weight: 4
 description: "Evne til å sikkert, effektivt og standardisert utveksle data mellom aktører i økosystemet."
-cardMeta: "4 delkapabiliteter / 43 produkter"
+cardMeta: "4 delkapabiliteter / 44 produkter"
 productsMarkdown: |
   ## Relaterte produkter
   
@@ -178,6 +178,10 @@ productsMarkdown: |
     <article class="capability-product-link">
       <h3 class="capability-product-link__title">VIGO</h3>
       <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v1-codex.md">Åpne ressursbeskrivelse</a>
+    </article>
+    <article class="capability-product-link">
+      <h3 class="capability-product-link__title">DSOP-samarbeidet</h3>
+      <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/123-DSOP-samarbeidet-v0-codex.md">Åpne ressursbeskrivelse</a>
     </article>
   </div>
 ---

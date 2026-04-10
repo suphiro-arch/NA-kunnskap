@@ -2,7 +2,7 @@
 title: "Samordning"
 weight: 3
 description: "Evnen til å harmonisere og koordinere strategisk retning, beslutninger og ressursbruk på tvers av virksomheter, for å realisere felles samfunnsmål og sammenhengende tjenester."
-cardMeta: "0 produkter"
+cardMeta: "5 produkter"
 ---
 
 Evnen til å harmonisere og koordinere strategisk retning, beslutninger og ressursbruk på tvers av virksomheter, for å realisere felles samfunnsmål og sammenhengende tjenester.
@@ -13,4 +13,30 @@ Denne delkapabiliteten er en del av [Strategisk styring](../).
 
 ## Relaterte produkter
 
-<p>Ingen produkter er koblet til denne kapabiliteten forelopig.</p>
+<div class="capability-product-links">
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Digitaliseringsrundskrivet</h3>
+    <p class="capability-product-link__description">samler nasjonale krav og anbefalinger for digitalisering i staten i ett felles styringsgrunnlag.</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/112-Digitaliseringsrundskrivet-v0-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Prosjektveiviseren</h3>
+    <p class="capability-product-link__description">gir et felles metodegrunnlag for planlegging, styring og beslutningspunkter i offentlige prosjekter.</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v0-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Rammeverk for innovasjon i offentlig sektor</h3>
+    <p class="capability-product-link__description">skal støtte mer systematisk innovasjonsarbeid og et mer felles språk for utvikling og forbedring i offentlig sektor.</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/116-Rammeverk-for-innovasjon-i-offentlig-sektor-v0-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Kompetansemodell for digital transformasjon</h3>
+    <p class="capability-product-link__description">gir et felles bilde av hvilke kompetanser virksomheter trenger for å lykkes med digital transformasjon.</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/117-Kompetansemodell-for-digital-transformasjon-v0-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Styringsrådet for fellesløsningene</h3>
+    <p class="capability-product-link__description">bidrar til prioritering og styring av Digdirs nasjonale fellesløsninger på tvers av brukere og tjenesteeiere.</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v0-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+</div>

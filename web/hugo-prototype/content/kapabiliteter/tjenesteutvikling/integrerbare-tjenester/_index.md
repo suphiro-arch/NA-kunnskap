@@ -2,7 +2,7 @@
 title: "Integrerbare tjenester"
 weight: 2
 description: "Evne til å designe, utvikle og eksponere data og funksjonalitet som selvstendige, standardiserte og maskinlesbare tjenester (API-er), slik at de enkelt kan oppdages, forstås og integreres i nye, tverrgående prosesser og løsninger."
-cardMeta: "12 produkter"
+cardMeta: "13 produkter"
 ---
 
 Evne til å designe, utvikle og eksponere data og funksjonalitet som selvstendige, standardiserte og maskinlesbare tjenester (API-er), slik at de enkelt kan oppdages, forstås og integreres i nye, tverrgående prosesser og løsninger.
@@ -73,5 +73,10 @@ Denne delkapabiliteten er en del av [Tjenesteutvikling](../).
     <h3 class="capability-product-link__title">FINT Arkiv</h3>
     <p class="capability-product-link__description">gjør arkivintegrasjon tilgjengelig som et felles og integrerbart mønster i fylkeskommunal sektor.</p>
     <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/71-FINT-Arkiv-v1-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Ansattporten</h3>
+    <p class="capability-product-link__description">tilbyr standardiserte metadata og integrasjonspunkter som andre løsninger kan koble seg til.</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/119-Ansattporten-v1-codex.md">Åpne ressursbeskrivelse</a>
   </article>
 </div>

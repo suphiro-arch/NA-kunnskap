@@ -2,7 +2,7 @@
 title: "Sikring av informasjonsflyt og datautveksling"
 weight: 2
 description: "Kapabiliteten omfatter de tekniske og organisatoriske tiltakene som sikrer at informasjon som utveksles mellom virksomheter er beskyttet mot innsyn og manipulering, og at dataflyten er kontrollert."
-cardMeta: "15 produkter"
+cardMeta: "17 produkter"
 ---
 
 Kapabiliteten omfatter de tekniske og organisatoriske tiltakene som sikrer at informasjon som utveksles mellom virksomheter er beskyttet mot innsyn og manipulering, og at dataflyten er kontrollert.
@@ -88,5 +88,15 @@ Denne delkapabiliteten er en del av [Informasjonssikkerhet](../).
     <h3 class="capability-product-link__title">FINT Felleskomponent</h3>
     <p class="capability-product-link__description">understøtter trygg dataflyt, integritet og tilgjengelighet i det fylkeskommunale integrasjonsløpet.</p>
     <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/70-FINT-Felleskomponent-v1-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Ansattporten</h3>
+    <p class="capability-product-link__description">beskytter metadatautveksling og påloggingsflyt i ansattkontekst.</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/119-Ansattporten-v1-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">NIFS</h3>
+    <p class="capability-product-link__description">gir faglig deling og oppdatering om informasjonssikkerhet på et område som er avgjørende for trygg samhandling.</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/122-NIFS-v0-codex.md">Åpne ressursbeskrivelse</a>
   </article>
 </div>

@@ -2,7 +2,7 @@
 title: "Arkitekturstyring"
 weight: 2
 description: "Evne til å etablere, forvalte og styre en helhetlig nasjonal digital arkitektur som et felles, forpliktende rammeverk, for å sikre samhandling, gjenbruk og strategisk retning i et nasjonalt digitalt økosystem."
-cardMeta: "0 produkter"
+cardMeta: "1 produkter"
 ---
 
 Evne til å etablere, forvalte og styre en helhetlig nasjonal digital arkitektur som et felles, forpliktende rammeverk, for å sikre samhandling, gjenbruk og strategisk retning i et nasjonalt digitalt økosystem.
@@ -13,4 +13,10 @@ Denne delkapabiliteten er en del av [Strategisk styring](../).
 
 ## Relaterte produkter
 
-<p>Ingen produkter er koblet til denne kapabiliteten forelopig.</p>
+<div class="capability-product-links">
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Digitaliseringsvennlig regelverk</h3>
+    <p class="capability-product-link__description">gjør juridiske forutsetninger til en tydelig del av tidlig løsningsvurdering og styring.</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v0-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+</div>

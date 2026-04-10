@@ -20,6 +20,18 @@ sources:
 ---
 
 ## Hva er gjort
+- Sjekket om mal og prompt for normerende ressurser og samarbeidsfora er gode nok for senere analysebruk, og strammet inn oppsettet for ikke-operative ressursbeskrivelser.
+- Opprettet egen prompt for ikke-operative ressursbeskrivelser i [ressursbeskrivelser.system.md](/c:/Users/HILROS/NA-kunnskap/config/prompts/ressursbeskrivelser.system.md) og egen mal for samarbeidsfora i [samarbeidsforum-template.md](/c:/Users/HILROS/NA-kunnskap/config/templates/samarbeidsforum-template.md).
+- Utvidet [normerende-ressurs-template.md](/c:/Users/HILROS/NA-kunnskap/config/templates/normerende-ressurs-template.md) med feltene `Forpliktelsesnivå og etterlevelse`, `Typiske analyse- og beslutningssituasjoner` og `Konsekvens ved manglende bruk eller avvik`.
+- Presisert i prompt, maler og styringsfiler både riktig lagringssted for nye ikke-operative ressurser og hva som forventes før en beskrivelse kan kalles `v1`.
+- Presisert at seksjonen `Støtter arkitekturprinsipper` også skal fange opp tydelige svakheter eller spenninger mot viktige prinsipper når dette er relevant for vurdering av bruk.
+- Lagt inn kapabilitetsmapping for `DIGDIR-044` til `DIGDIR-055` i [produkt-kapabilitet-koblinger.yaml](/c:/Users/HILROS/NA-kunnskap/arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml) og regenerert kapabilitetssidene i webgrunnlaget.
+- Kjørt tegnkodingsvalidering på nytt med grønt resultat etter oppdateringene i Digdir-bolken og webgrunnlaget.
+- Utvidet Digdir-delen i [produktnummerering.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/produktnummerering.md) med tolv nye kandidater fra virkemiddeloversikten: `DIGDIR-044` til `DIGDIR-055`.
+- Opprettet første ressursbeskrivelser for disse kandidatene fordelt på normerende ressurser, operative løsninger og samarbeidsfora.
+- Oppdatert [sources/links.md](/c:/Users/HILROS/NA-kunnskap/sources/links.md) med nye Digdir-lenker og råkilden fra virkemiddeloversikten.
+- Regenerert ressursoversikten på web fra registeret, slik at de nye ressursene kommer med i oversikten.
+- Lagret lesbar råkilde fra `Forankringsrunde Digdirs virkemiddeloversikt.pptx` i [2026-04-10-digdir-virkemiddeloversikt-raw.md](/c:/Users/HILROS/NA-kunnskap/sources/2026-04-10-digdir-virkemiddeloversikt-raw.md) for videre vurdering av nye ressurskandidater.
 - Testet ny mal for arkitekturassistert analyse av utviklingsbehov på to separate case, splittet analysen i egne filer og oppdatert instruks med eksplisitt splittingsregel.
 - Forbedret analysemalen med tidlig avklaring av ett/flere case, fast vurderingsrekkefølge for produktkategorier, gap-type per tiltak og seksjon for sammensatte løsningsmønstre.
 - Oppdatert utvalgte produktbeskrivelser med generell beslutningsstøttefelt: typiske brukssituasjoner, når produktet normalt ikke er førstevalg og vanlige kombinasjoner med andre produkter.
@@ -204,6 +216,11 @@ Disse skal tas inn *parallelt* med produktgrunnlag-arbeidet og vil gjøre det le
 ---
 
 ## Konkrete neste oppgaver –" Prioritert rekkefølge
+
+- Oppdatere de første opprettede samarbeidsforaene til den nye malen, særlig `DIGDIR-052` til `DIGDIR-055`, slik at de blir tydeligere på beslutningsmyndighet, påvirkningsområde og når de bør involveres.
+- Vurdere om de første normerende Digdir-ressursene bør få utfylt de nye analysefeltene før neste større bolk legges inn.
+- Kvalitetssikre om `DIGDIR-048 Rammeverk for innovasjon i offentlig sektor` skal stå som egen normerende ressurs, eller om den bør avgrenses tydeligere mot Digdirs åpne innovasjonsinnhold før videre utfylling.
+- Vurdere om flere Digdir-virkemidler fra rålista bør inn som egne ressurser, eller om noen av dem heller bør holdes som underlag og kontekst.
 
 1. **Produktgrunnlag (uke 1-4):**
    - Implementer merkings-standard i `produkt-canvas.system.md`.
