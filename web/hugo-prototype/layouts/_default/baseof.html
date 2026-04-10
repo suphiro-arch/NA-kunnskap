@@ -37,18 +37,10 @@
               {{ if $isInSectionBranch }}
                 {{ if eq $section.Section "ressursoversikt" }}
                 <ul class="site-nav__sublist">
-                  {{ with $.Site.GetPage "/ressursoversikt/produkter/operative-losninger-og-tjenester" }}
-                  <li><a class="{{ if or (eq .RelPermalink $.RelPermalink) (.IsAncestor $) }}is-current{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-                  {{ end }}
-                  {{ with $.Site.GetPage "/ressursoversikt/produkter/normerende-ressurser" }}
-                  <li><a class="{{ if or (eq .RelPermalink $.RelPermalink) (.IsAncestor $) }}is-current{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-                  {{ end }}
-                  {{ with $.Site.GetPage "/ressursoversikt/produkter/samarbeidsfora" }}
-                  <li><a class="{{ if or (eq .RelPermalink $.RelPermalink) (.IsAncestor $) }}is-current{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-                  {{ end }}
-                  {{ with $.Site.GetPage "/ressursoversikt/produkter/andre-ressurser" }}
-                  <li><a class="{{ if or (eq .RelPermalink $.RelPermalink) (.IsAncestor $) }}is-current{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-                  {{ end }}
+                  <li><a href="{{ "/ressursoversikt/produkter/operative-losninger-og-tjenester/" | relURL }}">Operative løsninger og tjenester</a></li>
+                  <li><a href="{{ "/ressursoversikt/produkter/normerende-ressurser/" | relURL }}">Normerende ressurser</a></li>
+                  <li><a href="{{ "/ressursoversikt/produkter/samarbeidsfora/" | relURL }}">Samarbeidsfora</a></li>
+                  <li><a href="{{ "/ressursoversikt/produkter/andre-ressurser/" | relURL }}">Andre ressurser</a></li>
                 </ul>
                 {{ else }}
                   {{ $children := $section.Sections.ByWeight }}
