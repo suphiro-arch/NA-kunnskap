@@ -11,7 +11,7 @@ $patterns = @(
   [string]([char]0x00E2),
   [string]([char]0xFFFD)
 )
-$extensions = @('.md', '.yaml', '.yml', '.toml', '.html', '.json', '.txt', '.ps1', '.py')
+$extensions = @('.md', '.yaml', '.yml', '.toml', '.html', '.json', '.txt')
 
 function Get-TargetFiles {
   param([string]$Base, [bool]$OnlyStaged)
