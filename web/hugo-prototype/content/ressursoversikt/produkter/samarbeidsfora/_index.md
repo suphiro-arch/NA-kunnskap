@@ -21,11 +21,13 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Samarbei
       <label>Type <select class="resource-filter" data-filter="type"><option value="">Alle</option>
         <option value="Arkitekturr&#229;d">Arkitekturr&#229;d</option>
         <option value="Faglig forum">Faglig forum</option>
+        <option value="Nasjonal arena for kunstig intelligens">Nasjonal arena for kunstig intelligens</option>
         <option value="Nettverk for informasjonssikkerhet">Nettverk for informasjonssikkerhet</option>
         <option value="Offentlig-privat samhandlingsarena">Offentlig-privat samhandlingsarena</option>
         <option value="Radgivende arena">Radgivende arena</option>
         <option value="Styringsr&#229;d">Styringsr&#229;d</option>
         <option value="Tverrsektoriell samordningsarena">Tverrsektoriell samordningsarena</option>
+        <option value="Tverrsektorielt sikkerhetssamarbeid">Tverrsektorielt sikkerhetssamarbeid</option>
       </select></label>
       <label>Kapabilitet <select class="resource-filter" data-filter="capability"><option value="">Alle</option>
         <option value="Datastyring">Datastyring</option>
@@ -39,7 +41,7 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Samarbei
         <option value="Strategisk styring: Samordning">Strategisk styring: Samordning</option>
       </select></label>
     </div>
-    <p class="resource-filters__result" data-role="count">Viser 7 av 7 ressurser</p>
+    <p class="resource-filters__result" data-role="count">Viser 9 av 9 ressurser</p>
   </div>
   <div class="resource-cards">
 <article class="resource-card" data-owner="DIGDIR" data-type="Arkitekturr&#229;d" data-capabilities="samarbeid: samarbeidsarenaer og nettverk standardisering: forvaltningsstandarder" data-search="arkitektur- og standardiseringsradet digdir-028 digdir samarbeidsforum arkitekturr&#229;d arkitektur- og standardiseringsradet er en samordningsarena som gir rad og anbefalinger om arkitektur og standardisering i offentlig sektor. samarbeid: samarbeidsarenaer og nettverk standardisering: forvaltningsstandarder">
@@ -104,6 +106,24 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Samarbei
   <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> DSOP b&#248;r forst&#229;s som en arena for &#229; utvikle og koordinere digital samhandling mellom offentlig sektor og finansn&#230;ringen. Rollen er &#229; samle akt&#248;rer rundt felles utfordringer og mulige...</p>
   <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a> <a class="capability-chip" href="../../kapabiliteter/samarbeid/samarbeidsarenaer-og-nettverk/">Samarbeidsarenaer og nettverk</a></p>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/123-DSOP-samarbeidet-v0-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.dsop.no/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="Tverrsektorielt sikkerhetssamarbeid" data-capabilities="sikring av informasjonsflyt og datautveksling samarbeidsarenaer og nettverk samordning" data-search="felles sikkerhet i forvaltningen digdir-056 digdir samarbeidsforum tverrsektorielt sikkerhetssamarbeid felles sikkerhet i forvaltningen er et digdir-initiativ for &#229; samle sentrale akt&#248;rer om en felles retning for arbeidet med informasjonssikkerhet i offentlig forvaltning. ressursen er viktig i analysearbeid fordi den kobler sammen samordning, veiledning, modenhetsl&#248;ft og mulig utvikling av en felles referanseramme p&#229;... sikring av informasjonsflyt og datautveksling samarbeidsarenaer og nettverk samordning">
+  <h2 class="resource-card__title">Felles sikkerhet i forvaltningen</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-056</code> | <strong>Siste versjon:</strong> v0 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Samarbeidsforum | <strong>Type:</strong> Tverrsektorielt sikkerhetssamarbeid</p>
+  <p class="resource-card__description">Felles sikkerhet i forvaltningen er et Digdir-initiativ for &#229; samle sentrale akt&#248;rer om en felles retning for arbeidet med informasjonssikkerhet i offentlig forvaltning. Ressursen er viktig i analysearbeid fordi den kobler sammen samordning, veiledning, modenhetsl&#248;ft og mulig utvikling av en felles referanseramme p&#229;...</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Ressursen skal bidra til et nasjonalt l&#248;ft for informasjonssikkerhet og digital sikkerhet i offentlig forvaltning. Digdir beskriver initiativet som et tverrsektorielt samarbeid for &#229; gi felles...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/">Sikring av informasjonsflyt og datautveksling</a> <a class="capability-chip" href="../../kapabiliteter/samarbeid/samarbeidsarenaer-og-nettverk/">Samarbeidsarenaer og nettverk</a> <a class="capability-chip" href="../../kapabiliteter/strategisk-styring/samordning/">Samordning</a></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v0-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/informasjonssikkerhet/felles-sikkerhet-i-forvaltningen/4115">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="Nasjonal arena for kunstig intelligens" data-capabilities="samarbeidsarenaer og nettverk samordning" data-search="ki norge digdir-057 digdir samarbeidsforum nasjonal arena for kunstig intelligens ki norge er en nasjonal arena under oppbygging for &#229; styrke ansvarlig utvikling og bruk av kunstig intelligens i offentlig sektor. ressursen er viktig i analysearbeid fordi den ser ut til &#229; kombinere samordning, deling av erfaringer, veiledning og kobling mellom offentlige virksomheter, fagmilj&#248;er og... samarbeidsarenaer og nettverk samordning">
+  <h2 class="resource-card__title">KI Norge</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-057</code> | <strong>Siste versjon:</strong> v0 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Samarbeidsforum | <strong>Type:</strong> Nasjonal arena for kunstig intelligens</p>
+  <p class="resource-card__description">KI Norge er en nasjonal arena under oppbygging for &#229; styrke ansvarlig utvikling og bruk av kunstig intelligens i offentlig sektor. Ressursen er viktig i analysearbeid fordi den ser ut til &#229; kombinere samordning, deling av erfaringer, veiledning og kobling mellom offentlige virksomheter, fagmilj&#248;er og...</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Rollen er &#229; v&#230;re en nasjonal m&#248;teplass og et samlende virkemiddel rundt kunstig intelligens i offentlig sektor. Kildene peker p&#229; at Digdir bygger opp arenaen som del av arbeidet med &#229; gjennomf&#248;re...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/samarbeid/samarbeidsarenaer-og-nettverk/">Samarbeidsarenaer og nettverk</a> <a class="capability-chip" href="../../kapabiliteter/strategisk-styring/samordning/">Samordning</a></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/125-KI-Norge-v0-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/kunstig-intelligens/digdir-etablerer-ki-norge/7412">Offisiell lenke</a></p>
 </article>
   </div>
   <script>

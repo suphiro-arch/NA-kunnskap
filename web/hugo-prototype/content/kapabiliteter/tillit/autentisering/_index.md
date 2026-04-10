@@ -2,7 +2,7 @@
 title: "Autentisering"
 weight: 1
 description: "Evne til å på en sikker og entydig måte verifisere den digitale identiteten til brukere og systemer."
-cardMeta: "8 produkter"
+cardMeta: "9 produkter"
 ---
 
 Evne til å på en sikker og entydig måte verifisere den digitale identiteten til brukere og systemer.
@@ -53,5 +53,10 @@ Denne delkapabiliteten er en del av [Tillit](../).
     <h3 class="capability-product-link__title">Ansattporten</h3>
     <p class="capability-product-link__description">er kjernefunksjonen ved at Ansattporten verifiserer identitet for ansatte i offentlig sektor.</p>
     <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/119-Ansattporten-v1-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Nasjonal sandkasse for digital lommebok</h3>
+    <p class="capability-product-link__description">gir et felles testmiljø for å prøve ut innlogging og identitetsbekreftelse med digital lommebok</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/126-Nasjonal-sandkasse-for-digital-lommebok-produkt-canvas-v1-codex.md">Åpne ressursbeskrivelse</a>
   </article>
 </div>

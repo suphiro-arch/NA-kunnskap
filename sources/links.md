@@ -9,6 +9,7 @@ Sist redigert: 2026-04-09.
 - Nasjonale fellesløsninger: https://www.digdir.no/felleslosninger/nasjonale-felleslosninger/750
 - Samlet teknisk dokumentasjon: https://docs.digdir.no/
 - Samarbeidsportalen: https://samarbeid.digdir.no/
+- Om Samarbeidsportalen: https://samarbeid.digdir.no/digital-postkasse/om-samarbeidsportalen/82 (lagt til 2026-04-10)
 - Digdirs virkemiddeloversikt (råkilde i repo): /c:/Users/HILROS/NA-kunnskap/sources/2026-04-10-digdir-virkemiddeloversikt-raw.md (lagt til 2026-04-10)
 - Altinn: https://www.altinn.no
 - Altinn dokumentasjon: https://docs.altinn.studio/nb/ (mest oppdatert for Altinn)
@@ -355,6 +356,9 @@ Sist redigert: 2026-04-09.
 - Råd for ansvarlig utvikling og bruk av kunstig intelligens i offentlig sektor: https://www.digdir.no/kunstig-intelligens/rad-ansvarlig-utvikling-og-bruk-av-kunstig-intelligens-i-offentlig-sektor/4272 (lagt til 2026-03-18)
 - Ansvarlig anskaffelse og bruk av generativ kunstig intelligens i offentlig sektor: https://www.digdir.no/kunstig-intelligens/bruk-av-generativ-kunstig-intelligens-i-offentlig-sektor/4670 (lagt til 2026-03-18)
 - Digdir etablerer KI Norge: https://www.digdir.no/kunstig-intelligens/digdir-etablerer-ki-norge/7412 (lagt til 2026-03-18)
+- Samarbeidsfora for digital lommebok: https://samarbeid.digdir.no/digital-lommebok/samarbeidsfora-digital-lommebok/2902 (lagt til 2026-04-10)
+- Bruksvilkår for eIDAS-sandkassen: https://samarbeid.digdir.no/digital-lommebok/bruksvilkar-eidas-sandkassen/3292 (lagt til 2026-04-10)
+- Kostnadsmodell for nasjonal sandkasse for lommebok: https://samarbeid.digdir.no/digital-lommebok/kostnadsmodell-nasjonal-sandkasse-lommebok/3286 (lagt til 2026-04-10)
 - Utnytte mulighetene i kunstig intelligens: https://www.digdir.no/digitalisering-og-samordning/utnytte-mulighetene-i-kunstig-intelligens/7097 (lagt til 2026-03-18)
 - Datatilsynets regulatoriske sandkasse for kunstig intelligens: https://www.datatilsynet.no/regelverk-og-verktoy/sandkasse-for-kunstig-intelligens/ (lagt til 2026-03-18)
 - Å lykkes med åpenhet ved bruk av kunstig intelligens: https://www.datatilsynet.no/regelverk-og-verktoy/sandkasse-for-kunstig-intelligens/ferdige-prosjekter-og-rapporter/a-lykkes-med-apenhet-hvordan-informere-om-bruk-av-kunstig-intelligens/ (lagt til 2026-03-18)

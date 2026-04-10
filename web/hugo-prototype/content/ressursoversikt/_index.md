@@ -86,6 +86,7 @@ Bruk filtrene for aa finne riktige ressurser raskt paa tvers av typer, eiere og 
         <option value="Metadata- og publiseringsl&#248;sning for dataressurser">Metadata- og publiseringsl&#248;sning for dataressurser</option>
         <option value="Metodeverkt&#248;y">Metodeverkt&#248;y</option>
         <option value="Metodikk">Metodikk</option>
+        <option value="Nasjonal arena for kunstig intelligens">Nasjonal arena for kunstig intelligens</option>
         <option value="Nettverk for informasjonssikkerhet">Nettverk for informasjonssikkerhet</option>
         <option value="Offentlig–privat datadeling">Offentlig–privat datadeling</option>
         <option value="Offentlig-privat samhandlingsarena">Offentlig-privat samhandlingsarena</option>
@@ -94,6 +95,7 @@ Bruk filtrene for aa finne riktige ressurser raskt paa tvers av typer, eiere og 
         <option value="Persondata">Persondata</option>
         <option value="Plattform for applikasjoner">Plattform for applikasjoner</option>
         <option value="Plattform for utvikling, kj&#248;ring og samhandling">Plattform for utvikling, kj&#248;ring og samhandling</option>
+        <option value="Portal for forvaltning, informasjon og ta-i-bruk av fellesl&#248;sninger">Portal for forvaltning, informasjon og ta-i-bruk av fellesl&#248;sninger</option>
         <option value="Portal for &#229;pne data">Portal for &#229;pne data</option>
         <option value="Prinsipper">Prinsipper</option>
         <option value="Prosjektmetodikk">Prosjektmetodikk</option>
@@ -106,6 +108,7 @@ Bruk filtrene for aa finne riktige ressurser raskt paa tvers av typer, eiere og 
         <option value="Registertilgang">Registertilgang</option>
         <option value="Reseptsystem">Reseptsystem</option>
         <option value="Rundskriv">Rundskriv</option>
+        <option value="Sandkasse og testmilj&#248; for digital lommebok">Sandkasse og testmilj&#248; for digital lommebok</option>
         <option value="Studentdata">Studentdata</option>
         <option value="Styrings- og oversiktsl&#248;sning">Styrings- og oversiktsl&#248;sning</option>
         <option value="Styringsr&#229;d">Styringsr&#229;d</option>
@@ -114,6 +117,7 @@ Bruk filtrene for aa finne riktige ressurser raskt paa tvers av typer, eiere og 
         <option value="Tilgang til skatte- og inntektsopplysninger via Fiks">Tilgang til skatte- og inntektsopplysninger via Fiks</option>
         <option value="Tillits- og autentiseringskomponent for helse">Tillits- og autentiseringskomponent for helse</option>
         <option value="Tverrsektoriell samordningsarena">Tverrsektoriell samordningsarena</option>
+        <option value="Tverrsektorielt sikkerhetssamarbeid">Tverrsektorielt sikkerhetssamarbeid</option>
         <option value="Utsendingstjeneste for digital og fysisk post">Utsendingstjeneste for digital og fysisk post</option>
         <option value="Utsendingstjeneste for digital og fysisk post til innbyggere">Utsendingstjeneste for digital og fysisk post til innbyggere</option>
         <option value="Utviklingsflate for tjenester">Utviklingsflate for tjenester</option>
@@ -176,7 +180,7 @@ Bruk filtrene for aa finne riktige ressurser raskt paa tvers av typer, eiere og 
         <option value="Utviklings- og kj&#248;retidsmilj&#248;">Utviklings- og kj&#248;retidsmilj&#248;</option>
       </select></label>
     </div>
-    <p class="resource-filters__result" data-role="count">Viser 87 av 87 ressurser</p>
+    <p class="resource-filters__result" data-role="count">Viser 91 av 91 ressurser</p>
   </div>
   <div class="resource-cards">
 <article class="resource-card" data-owner="DIGDIR" data-type="Autentiseringstjeneste" data-capabilities="sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester" data-search="id-porten digdir-001 digdir felleskomponent autentiseringstjeneste id-porten er den nasjonale fellesl&#248;sningen for sikker innlogging til offentlige digitale tjenester. l&#248;sningen gir innbyggere &#233;n gjenkjennelig inngang til tjenester p&#229; tvers av virksomheter, og gir tjenesteeiere en felles autentiseringskomponent i stedet for lokale innloggingsl&#248;sninger. id-porten er s&#230;rlig relevant n&#229;r... sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester">
@@ -900,6 +904,40 @@ Bruk filtrene for aa finne riktige ressurser raskt paa tvers av typer, eiere og 
   <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> DSOP b&#248;r forst&#229;s som en arena for &#229; utvikle og koordinere digital samhandling mellom offentlig sektor og finansn&#230;ringen. Rollen er &#229; samle akt&#248;rer rundt felles utfordringer og mulige...</p>
   <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a> <a class="capability-chip" href="../../kapabiliteter/samarbeid/samarbeidsarenaer-og-nettverk/">Samarbeidsarenaer og nettverk</a></p>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/123-DSOP-samarbeidet-v0-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.dsop.no/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="Tverrsektorielt sikkerhetssamarbeid" data-capabilities="sikring av informasjonsflyt og datautveksling samarbeidsarenaer og nettverk samordning" data-search="felles sikkerhet i forvaltningen digdir-056 digdir samarbeidsforum tverrsektorielt sikkerhetssamarbeid felles sikkerhet i forvaltningen er et digdir-initiativ for &#229; samle sentrale akt&#248;rer om en felles retning for arbeidet med informasjonssikkerhet i offentlig forvaltning. ressursen er viktig i analysearbeid fordi den kobler sammen samordning, veiledning, modenhetsl&#248;ft og mulig utvikling av en felles referanseramme p&#229;... sikring av informasjonsflyt og datautveksling samarbeidsarenaer og nettverk samordning">
+  <h2 class="resource-card__title">Felles sikkerhet i forvaltningen</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-056</code> | <strong>Siste versjon:</strong> v0 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Samarbeidsforum | <strong>Type:</strong> Tverrsektorielt sikkerhetssamarbeid</p>
+  <p class="resource-card__description">Felles sikkerhet i forvaltningen er et Digdir-initiativ for &#229; samle sentrale akt&#248;rer om en felles retning for arbeidet med informasjonssikkerhet i offentlig forvaltning. Ressursen er viktig i analysearbeid fordi den kobler sammen samordning, veiledning, modenhetsl&#248;ft og mulig utvikling av en felles referanseramme p&#229;...</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Ressursen skal bidra til et nasjonalt l&#248;ft for informasjonssikkerhet og digital sikkerhet i offentlig forvaltning. Digdir beskriver initiativet som et tverrsektorielt samarbeid for &#229; gi felles...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/">Sikring av informasjonsflyt og datautveksling</a> <a class="capability-chip" href="../../kapabiliteter/samarbeid/samarbeidsarenaer-og-nettverk/">Samarbeidsarenaer og nettverk</a> <a class="capability-chip" href="../../kapabiliteter/strategisk-styring/samordning/">Samordning</a></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v0-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/informasjonssikkerhet/felles-sikkerhet-i-forvaltningen/4115">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="Nasjonal arena for kunstig intelligens" data-capabilities="samarbeidsarenaer og nettverk samordning" data-search="ki norge digdir-057 digdir samarbeidsforum nasjonal arena for kunstig intelligens ki norge er en nasjonal arena under oppbygging for &#229; styrke ansvarlig utvikling og bruk av kunstig intelligens i offentlig sektor. ressursen er viktig i analysearbeid fordi den ser ut til &#229; kombinere samordning, deling av erfaringer, veiledning og kobling mellom offentlige virksomheter, fagmilj&#248;er og... samarbeidsarenaer og nettverk samordning">
+  <h2 class="resource-card__title">KI Norge</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-057</code> | <strong>Siste versjon:</strong> v0 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Samarbeidsforum | <strong>Type:</strong> Nasjonal arena for kunstig intelligens</p>
+  <p class="resource-card__description">KI Norge er en nasjonal arena under oppbygging for &#229; styrke ansvarlig utvikling og bruk av kunstig intelligens i offentlig sektor. Ressursen er viktig i analysearbeid fordi den ser ut til &#229; kombinere samordning, deling av erfaringer, veiledning og kobling mellom offentlige virksomheter, fagmilj&#248;er og...</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Rollen er &#229; v&#230;re en nasjonal m&#248;teplass og et samlende virkemiddel rundt kunstig intelligens i offentlig sektor. Kildene peker p&#229; at Digdir bygger opp arenaen som del av arbeidet med &#229; gjennomf&#248;re...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/samarbeid/samarbeidsarenaer-og-nettverk/">Samarbeidsarenaer og nettverk</a> <a class="capability-chip" href="../../kapabiliteter/strategisk-styring/samordning/">Samordning</a></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/125-KI-Norge-v0-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/kunstig-intelligens/digdir-etablerer-ki-norge/7412">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="Sandkasse og testmilj&#248; for digital lommebok" data-capabilities="autentisering signering utviklings- og kj&#248;retidsmilj&#248; integrerbare tjenester" data-search="nasjonal sandkasse for digital lommebok digdir-058 digdir fellesl&#248;sning sandkasse og testmilj&#248; for digital lommebok nasjonal sandkasse for digital lommebok er en operativ utpr&#248;vings- og testressurs for akt&#248;rer som vil utforske og eksperimentere med bruk av digital lommebok i norge. ressursen er viktig fordi den gir et isolert og trygt testmilj&#248; for innlogging, bevis og signering knyttet til eidas 2.0 og nasjonal innf&#248;ring av... autentisering signering utviklings- og kj&#248;retidsmilj&#248; integrerbare tjenester">
+  <h2 class="resource-card__title">Nasjonal sandkasse for digital lommebok</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-058</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Fellesl&#248;sning | <strong>Type:</strong> Sandkasse og testmilj&#248; for digital lommebok</p>
+  <p class="resource-card__description">Nasjonal sandkasse for digital lommebok er en operativ utpr&#248;vings- og testressurs for akt&#248;rer som vil utforske og eksperimentere med bruk av digital lommebok i Norge. Ressursen er viktig fordi den gir et isolert og trygt testmilj&#248; for innlogging, bevis og signering knyttet til eIDAS 2.0 og nasjonal innf&#248;ring av...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/tillit/autentisering/">Autentisering</a> <a class="capability-chip" href="../../kapabiliteter/tillit/signering/">Signering</a> <a class="capability-chip" href="../../kapabiliteter/tjenesteutvikling/utviklings-og-kjoretidsmiljo/">Utviklings- og kj&#248;retidsmilj&#248;</a> <span class="capability-chip capability-chip--more">+1</span></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/126-Nasjonal-sandkasse-for-digital-lommebok-produkt-canvas-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://samarbeid.digdir.no/digital-lommebok/samarbeidsfora-digital-lommebok/2902">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="Portal for forvaltning, informasjon og ta-i-bruk av fellesl&#248;sninger" data-capabilities="oversikt over tjenester tjenesteforvaltning samarbeidsarenaer og nettverk" data-search="samarbeidsportalen digdir-059 digdir portal portal for forvaltning, informasjon og ta-i-bruk av fellesl&#248;sninger samarbeidsportalen er digdirs operative portal for informasjon, forvaltningsdialog og ta-i-bruk-l&#248;p rundt nasjonale fellesl&#248;sninger og utvalgte prosjekter. ressursen er viktig fordi den samler praktisk og l&#248;pende informasjon om l&#248;sninger som ellers ville v&#230;rt spredt mellom flere nettsteder, dokumentasjonsmilj&#248;er og... oversikt over tjenester tjenesteforvaltning samarbeidsarenaer og nettverk">
+  <h2 class="resource-card__title">Samarbeidsportalen</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-059</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Portal | <strong>Type:</strong> Portal for forvaltning, informasjon og ta-i-bruk av fellesl&#248;sninger</p>
+  <p class="resource-card__description">Samarbeidsportalen er Digdirs operative portal for informasjon, forvaltningsdialog og ta-i-bruk-l&#248;p rundt nasjonale fellesl&#248;sninger og utvalgte prosjekter. Ressursen er viktig fordi den samler praktisk og l&#248;pende informasjon om l&#248;sninger som ellers ville v&#230;rt spredt mellom flere nettsteder, dokumentasjonsmilj&#248;er og...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/informasjonsforvaltning/oversikt-over-tjenester/">Oversikt over tjenester</a> <a class="capability-chip" href="../../kapabiliteter/samarbeid/tjenesteforvaltning/">Tjenesteforvaltning</a> <a class="capability-chip" href="../../kapabiliteter/samarbeid/samarbeidsarenaer-og-nettverk/">Samarbeidsarenaer og nettverk</a></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/127-Samarbeidsportalen-produkt-canvas-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://samarbeid.digdir.no/">Offisiell lenke</a></p>
 </article>
   </div>
   <script>

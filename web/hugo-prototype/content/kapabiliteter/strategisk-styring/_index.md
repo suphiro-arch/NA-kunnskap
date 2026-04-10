@@ -2,7 +2,7 @@
 title: "Strategisk styring"
 weight: 1
 description: "Evnen til å sette retning for nasjonal arkitektur og realisere strategiske mål."
-cardMeta: "3 delkapabiliteter / 7 produkter"
+cardMeta: "3 delkapabiliteter / 8 produkter"
 productsMarkdown: |
   ## Relaterte produkter
   
@@ -34,6 +34,10 @@ productsMarkdown: |
     <article class="capability-product-link">
       <h3 class="capability-product-link__title">Felles sikkerhet i forvaltningen</h3>
       <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v0-codex.md">Åpne ressursbeskrivelse</a>
+    </article>
+    <article class="capability-product-link">
+      <h3 class="capability-product-link__title">KI Norge</h3>
+      <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/125-KI-Norge-v0-codex.md">Åpne ressursbeskrivelse</a>
     </article>
   </div>
 ---
