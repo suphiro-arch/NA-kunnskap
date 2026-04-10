@@ -84,6 +84,8 @@ Formål:
    - manglende eller tynne produktbeskrivelser
    - uavklarte juridiske eller organisatoriske forhold
 
+13. Skriv analysen ut iht. `config/templates/arkitekturassistert-analyse-av-utviklingsbehov-template.md`
+
 ## Strenge regler
 
 - Svar skal skrives på norsk.
