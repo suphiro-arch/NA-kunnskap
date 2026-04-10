@@ -8,7 +8,47 @@
                          "author":  "codex",
                          "relative_path":  "arkitektur/ressurser/operative-losninger-og-tjenester/01-ID-porten-produkt-canvas-v3-codex.md",
                          "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/01-ID-porten-produkt-canvas-v3-codex.md",
+                                              ,
+                     {
+                         "product_id":  124,
+                         "product_name":  "Felles sikkerhet i forvaltningen",
+                         "version":  0,
+                         "author":  "codex",
+                         "relative_path":  "arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v0-codex.md",
+                         "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v0-codex.md",
                          "capabilities":  [
+                                              {
+                                                  "capability_id":  "id-48c9873ae59341a49c2dca27379fab55",
+                                                  "capability_name":  "Informasjonssikkerhet",
+                                                  "capability_slug":  "informasjonssikkerhet",
+                                                  "subcapability_id":  "id-34d3d64b3afe4327a29ee6c2f7f74dff",
+                                                  "subcapability_name":  "Sikring av informasjonsflyt og datautveksling",
+                                                  "subcapability_slug":  "sikring-av-informasjonsflyt-og-datautveksling",
+                                                  "mapping_label":  "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
+                                                  "explanation":  "bidrar til mer samordnet retning, veiledning og rammebetingelser for informasjonssikkerhet i offentlig forvaltning"
+                                              },
+                                              {
+                                                  "capability_id":  "id-498c1bffdb8b4cd18d934f87f783eb82",
+                                                  "capability_name":  "Samarbeid",
+                                                  "capability_slug":  "samarbeid",
+                                                  "subcapability_id":  "id-d0804f92991c4a2ab24187fbb7af4660",
+                                                  "subcapability_name":  "Samarbeidsarenaer og nettverk",
+                                                  "subcapability_slug":  "samarbeidsarenaer-og-nettverk",
+                                                  "mapping_label":  "Samarbeid: Samarbeidsarenaer og nettverk",
+                                                  "explanation":  "samler fagmyndigheter og andre sentrale aktører om en felles retning for informasjonssikkerhet"
+                                              },
+                                              {
+                                                  "capability_id":  "id-a6c7c8370d7746c8a0d8d4d0f1fed59a",
+                                                  "capability_name":  "Strategisk styring",
+                                                  "capability_slug":  "strategisk-styring",
+                                                  "subcapability_id":  "id-b1c646be0b4c44a89f1b1f8d8437f607",
+                                                  "subcapability_name":  "Samordning",
+                                                  "subcapability_slug":  "samordning",
+                                                  "mapping_label":  "Strategisk styring: Samordning",
+                                                  "explanation":  "har som formål å skape felles retning og mer samordnet oppfølging på tvers av offentlig forvaltning"
+                                              }
+                                          ]
+                     }"capabilities":  [
                                               {
                                                   "capability_id":  "id-48c9873ae59341a49c2dca27379fab55",
                                                   "capability_name":  "Informasjonssikkerhet",
