@@ -16,29 +16,15 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Andre re
     <div class="resource-filters__row">
       <label>Sok <input type="search" class="resource-filter" data-filter="search" placeholder="Navn, ID, type, kapabilitet" /></label>
       <label>Eier <select class="resource-filter" data-filter="owner"><option value="">Alle</option>
-        <option value="OPP">OPP</option>
       </select></label>
       <label>Type <select class="resource-filter" data-filter="type"><option value="">Alle</option>
-        <option value="Internasjonalt samhandlingsrammeverk">Internasjonalt samhandlingsrammeverk</option>
       </select></label>
       <label>Kapabilitet <select class="resource-filter" data-filter="capability"><option value="">Alle</option>
-        <option value="Forvaltningsstandarder">Forvaltningsstandarder</option>
-        <option value="Identifisering">Identifisering</option>
-        <option value="Meldingsformidling">Meldingsformidling</option>
-        <option value="Sikring av informasjonsflyt og datautveksling">Sikring av informasjonsflyt og datautveksling</option>
       </select></label>
     </div>
-    <p class="resource-filters__result" data-role="count">Viser 1 av 1 ressurser</p>
+    <p class="resource-filters__result" data-role="count">Viser 0 av 0 ressurser</p>
   </div>
   <div class="resource-cards">
-<article class="resource-card" data-owner="OPP" data-type="Internasjonalt samhandlingsrammeverk" data-capabilities="meldingsformidling sikring av informasjonsflyt og datautveksling forvaltningsstandarder identifisering" data-search="peppol edelivery opp-001 opp internasjonal fellesressurs internasjonalt samhandlingsrammeverk peppol edelivery er et internasjonalt samhandlingsrammeverk for sikker og standardisert utveksling av elektroniske dokumenter mellom virksomheter. ressursen er relevant n&#229;r en l&#248;sning trenger et felles transport- og adresseringsm&#248;nster for dokumentutveksling, s&#230;rlig i sammenheng med ehf og andre peppol-baserte... meldingsformidling sikring av informasjonsflyt og datautveksling forvaltningsstandarder identifisering">
-  <h2 class="resource-card__title">Peppol eDelivery</h2>
-  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>OPP-001</code> | <strong>Siste versjon:</strong> v3 (codex)</p>
-  <p class="resource-card__facts"><strong>Eier:</strong> OPP | <strong>Kategori:</strong> Internasjonal fellesressurs | <strong>Type:</strong> Internasjonalt samhandlingsrammeverk</p>
-  <p class="resource-card__description">Peppol eDelivery er et internasjonalt samhandlingsrammeverk for sikker og standardisert utveksling av elektroniske dokumenter mellom virksomheter. Ressursen er relevant n&#229;r en l&#248;sning trenger et felles transport- og adresseringsm&#248;nster for dokumentutveksling, s&#230;rlig i sammenheng med EHF og andre Peppol-baserte...</p>
-  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/meldingsformidling/">Meldingsformidling</a> <a class="capability-chip" href="../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/">Sikring av informasjonsflyt og datautveksling</a> <a class="capability-chip" href="../../kapabiliteter/standardisering/forvaltningsstandarder/">Forvaltningsstandarder</a> <span class="capability-chip capability-chip--more">+1</span></p>
-  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/11-Peppol-eDelivery-produkt-canvas-v3-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://peppol.org/">Offisiell lenke</a></p>
-</article>
   </div>
   <script>
     (function(){
@@ -73,4 +59,3 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Andre re
     })();
   </script>
 </div>
-

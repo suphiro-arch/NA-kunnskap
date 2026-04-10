@@ -61,23 +61,61 @@ function Get-RegisterEntries {
     if ($trimmed -match '^\|\s*---') { continue }
 
     $cells = $trimmed.Trim('|').Split('|') | ForEach-Object { $_.Trim() }
-    if ($cells.Count -lt 9) { continue }
+    if ($cells.Count -lt 6) { continue }
     if ($cells[0] -notmatch '^\d+$') { continue }
 
-    $documentCell = $cells[8]
+    $documentCell = $null
+    for ($idx = $cells.Count - 1; $idx -ge 0; $idx--) {
+      if ($cells[$idx] -match '\((?<path>[^)]+\.md)\)') {
+        $documentCell = $cells[$idx]
+        break
+      }
+    }
     if (-not $documentCell -or $documentCell -eq '-') { continue }
     if ($documentCell -notmatch '\((?<path>[^)]+\.md)\)') { continue }
 
-    $fullPath = [System.IO.Path]::GetFullPath((Join-Path $registerBase $Matches.path))
+    $docRelativePath = [Uri]::UnescapeDataString($Matches.path)
+    $fullPath = [System.IO.Path]::GetFullPath((Join-Path $registerBase $docRelativePath))
     if (-not (Test-Path -LiteralPath $fullPath)) { continue }
+
+    $resourceId = ''
+    $name = ''
+    $category = 'Ikke oppgitt'
+    $resourceType = ''
+    $versionLabel = ''
+
+    if ($cells.Count -ge 9) {
+      # Legacy table format.
+      $resourceId = ($cells[1] -replace '`', '').Trim()
+      $name = ($cells[2] -replace '`', '').Trim()
+      $category = ($cells[3] -replace '`', '').Trim()
+      $resourceType = ($cells[4] -replace '`', '').Trim()
+      $versionLabel = ($cells[7] -replace '`', '').Trim()
+    } else {
+      # Current table format: Løpenr | Ressurs-ID | Navn | Type | Kapabiliteter | Dokument
+      $resourceId = ($cells[1] -replace '`', '').Trim()
+      $name = ($cells[2] -replace '`', '').Trim()
+      $resourceType = ($cells[3] -replace '`', '').Trim()
+    }
+
+    if (-not $versionLabel) {
+      $fileName = [System.IO.Path]::GetFileName($fullPath)
+      if ($fileName -match '-(v\d+)-([a-z0-9]+)\.md$') {
+        $versionLabel = "$($Matches[1]) ($($Matches[2]))"
+      } elseif ($fileName -match '-(v\d+)\.md$') {
+        $versionLabel = $Matches[1]
+      } else {
+        $versionLabel = 'Ukjent'
+      }
+    }
 
     $entries += [PSCustomObject]@{
       SortOrder = [int]$cells[0]
-      ResourceId = ($cells[1] -replace '`', '').Trim()
-      Name = ($cells[2] -replace '`', '').Trim()
-      Category = ($cells[3] -replace '`', '').Trim()
-      ResourceType = ($cells[4] -replace '`', '').Trim()
-      VersionLabel = ($cells[7] -replace '`', '').Trim()
+      ResourceId = $resourceId
+      Name = $name
+      Category = $category
+      ResourceType = $resourceType
+      VersionLabel = $versionLabel
       RelativePath = Get-RepoRelativePath -Path $fullPath
       FullPath = $fullPath
     }
@@ -272,7 +310,8 @@ function Extract-CapabilityItemsFromSection {
 function Get-CapabilityItems {
   param(
     [string]$RelativePath,
-    [string[]]$Lines
+    [string[]]$Lines,
+    [string]$CapabilityLinkPrefix = '../../../'
   )
 
   $items = New-Object System.Collections.Generic.List[object]
@@ -290,11 +329,11 @@ function Get-CapabilityItems {
 
       if ($capability.subcapability_slug) {
         $label = $capability.subcapability_name
-        $url = "../../kapabiliteter/$($capability.capability_slug)/$($capability.subcapability_slug)/"
+        $url = "$($CapabilityLinkPrefix)kapabiliteter/$($capability.capability_slug)/$($capability.subcapability_slug)/"
         $key = "$($capability.capability_slug)/$($capability.subcapability_slug)"
       } else {
         $label = $capability.capability_name
-        $url = "../../kapabiliteter/$($capability.capability_slug)/"
+        $url = "$($CapabilityLinkPrefix)kapabiliteter/$($capability.capability_slug)/"
         $key = $capability.capability_slug
       }
 
@@ -394,7 +433,8 @@ function Extract-PrimaryDocumentationLink {
 function New-ResourceListingBlock {
   param(
     [object[]]$Entries,
-    [string]$SectionSlug
+    [string]$SectionSlug,
+    [string]$CapabilityLinkPrefix = '../../../'
   )
 
   $cardLines = New-Object System.Collections.Generic.List[string]
@@ -410,7 +450,7 @@ function New-ResourceListingBlock {
     $owner = Extract-OwnerFromResourceId -ResourceId $p.ResourceId
     $purposeLine = Extract-PurposeLine -Lines $raw
     $primaryDocUrl = Extract-PrimaryDocumentationLink -Lines $raw
-    $capabilityItems = @(Get-CapabilityItems -RelativePath $p.RelativePath -Lines $raw)
+    $capabilityItems = @(Get-CapabilityItems -RelativePath $p.RelativePath -Lines $raw -CapabilityLinkPrefix $CapabilityLinkPrefix)
 
     [void]$ownerSet.Add($owner)
     [void]$typeSet.Add($p.ResourceType)
@@ -543,8 +583,6 @@ $index = @(
 
 foreach ($typeDef in $resourceTypeDefinitions) {
   $typeEntries = @($latest | Where-Object { $_.ResourceTypeSlug -eq $typeDef.Slug })
-  if ($typeEntries.Count -eq 0) { continue }
-
   $index += ''
   $index += ("## [{0}](./{1}/)" -f $typeDef.Title, $typeDef.Slug)
   $index += ''
@@ -555,8 +593,6 @@ foreach ($typeDef in $resourceTypeDefinitions) {
 
 foreach ($typeDef in $resourceTypeDefinitions) {
   $typeEntries = @($latest | Where-Object { $_.ResourceTypeSlug -eq $typeDef.Slug })
-  if ($typeEntries.Count -eq 0) { continue }
-
   $typeDir = Join-Path $outDir $typeDef.Slug
   New-Item -ItemType Directory -Force -Path $typeDir | Out-Null
 
@@ -576,7 +612,7 @@ foreach ($typeDef in $resourceTypeDefinitions) {
   )
 
   $typeIndex += ''
-  $typeIndex += (New-ResourceListingBlock -Entries $typeEntries -SectionSlug $typeDef.Slug)
+  $typeIndex += (New-ResourceListingBlock -Entries $typeEntries -SectionSlug $typeDef.Slug -CapabilityLinkPrefix '../../../')
 
   Write-Utf8NoBomFile -Path (Join-Path $typeDir '_index.md') -Lines $typeIndex
 }
@@ -608,7 +644,7 @@ $allResourcesIndex = @(
   '## Ressurser (siste versjon)',
   ''
 )
-$allResourcesIndex += (New-ResourceListingBlock -Entries @($latest) -SectionSlug 'alle-ressurser')
+$allResourcesIndex += (New-ResourceListingBlock -Entries @($latest) -SectionSlug 'alle-ressurser' -CapabilityLinkPrefix '../')
 Write-Utf8NoBomFile -Path $topLevelOverviewFile -Lines $allResourcesIndex
 
 Get-ChildItem $outDir -File |
