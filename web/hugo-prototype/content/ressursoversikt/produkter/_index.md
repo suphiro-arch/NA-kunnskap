@@ -18,7 +18,7 @@ Ressursene er gruppert etter hovedtype, med egne undersider for operative løsni
 
 Ressurser som brukes direkte i drift, integrasjon eller løsningsdesign.
 
-Antall ressurser: **61**
+Antall ressurser: **63**
 
 ## [Normerende ressurser](./normerende-ressurser/)
 
@@ -30,4 +30,4 @@ Antall ressurser: **19**
 
 Arenaer for koordinering, prioritering og samordning på tvers av aktører.
 
-Antall ressurser: **7**
+Antall ressurser: **9**

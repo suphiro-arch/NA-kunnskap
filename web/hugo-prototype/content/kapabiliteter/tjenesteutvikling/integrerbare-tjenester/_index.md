@@ -2,7 +2,7 @@
 title: "Integrerbare tjenester"
 weight: 2
 description: "Evne til å designe, utvikle og eksponere data og funksjonalitet som selvstendige, standardiserte og maskinlesbare tjenester (API-er), slik at de enkelt kan oppdages, forstås og integreres i nye, tverrgående prosesser og løsninger."
-cardMeta: "13 produkter"
+cardMeta: "14 produkter"
 ---
 
 Evne til å designe, utvikle og eksponere data og funksjonalitet som selvstendige, standardiserte og maskinlesbare tjenester (API-er), slik at de enkelt kan oppdages, forstås og integreres i nye, tverrgående prosesser og løsninger.
@@ -78,5 +78,10 @@ Denne delkapabiliteten er en del av [Tjenesteutvikling](../).
     <h3 class="capability-product-link__title">Ansattporten</h3>
     <p class="capability-product-link__description">tilbyr standardiserte metadata og integrasjonspunkter som andre løsninger kan koble seg til.</p>
     <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/119-Ansattporten-v1-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Nasjonal sandkasse for digital lommebok</h3>
+    <p class="capability-product-link__description">har et konkret ta-i-bruk-løp for brukersteder og andre aktører som skal koble seg til sandkassen</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/126-Nasjonal-sandkasse-for-digital-lommebok-produkt-canvas-v1-codex.md">Åpne ressursbeskrivelse</a>
   </article>
 </div>

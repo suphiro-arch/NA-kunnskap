@@ -2,7 +2,7 @@
 title: "Tjenesteutvikling"
 weight: 8
 description: "Evne til å utvikle sammenhengende digitale tjenester."
-cardMeta: "4 delkapabiliteter / 20 produkter"
+cardMeta: "4 delkapabiliteter / 21 produkter"
 productsMarkdown: |
   ## Relaterte produkter
   
@@ -86,6 +86,10 @@ productsMarkdown: |
     <article class="capability-product-link">
       <h3 class="capability-product-link__title">Ansattporten</h3>
       <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/119-Ansattporten-v1-codex.md">Åpne ressursbeskrivelse</a>
+    </article>
+    <article class="capability-product-link">
+      <h3 class="capability-product-link__title">Nasjonal sandkasse for digital lommebok</h3>
+      <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/126-Nasjonal-sandkasse-for-digital-lommebok-produkt-canvas-v1-codex.md">Åpne ressursbeskrivelse</a>
     </article>
   </div>
 ---

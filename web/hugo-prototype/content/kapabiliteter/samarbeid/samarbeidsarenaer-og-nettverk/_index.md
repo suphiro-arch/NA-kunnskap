@@ -2,7 +2,7 @@
 title: "Samarbeidsarenaer og nettverk"
 weight: 2
 description: "Evne til å effektivisere, etablere, forvalte og fasilitere arenaer, nettverk og prosesser som fremmer kunnskapsdeling, dialog og samordning på tvers av virksomheter i økosystemet."
-cardMeta: "5 produkter"
+cardMeta: "7 produkter"
 ---
 
 Evne til å effektivisere, etablere, forvalte og fasilitere arenaer, nettverk og prosesser som fremmer kunnskapsdeling, dialog og samordning på tvers av virksomheter i økosystemet.
@@ -38,5 +38,15 @@ Denne delkapabiliteten er en del av [Samarbeid](../).
     <h3 class="capability-product-link__title">Felles sikkerhet i forvaltningen</h3>
     <p class="capability-product-link__description">samler fagmyndigheter og andre sentrale aktører om en felles retning for informasjonssikkerhet</p>
     <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v0-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">KI Norge</h3>
+    <p class="capability-product-link__description">samler aktører som trenger erfaringsdeling, dialog og samordning om ansvarlig bruk av kunstig intelligens i offentlig sektor</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/125-KI-Norge-v0-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Samarbeidsportalen</h3>
+    <p class="capability-product-link__description">knytter sammen informasjon, prosjekter og kontaktflater rundt Digdirs fellesløsninger og samarbeidsløp</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/127-Samarbeidsportalen-produkt-canvas-v1-codex.md">Åpne ressursbeskrivelse</a>
   </article>
 </div>
