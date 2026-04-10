@@ -63,6 +63,7 @@ Repo for arbeid med nasjonal arkitektur, produktbeskrivelser, kapabiliteter, pri
 - bruk `tools/safe_bulk_text_repair.py` ved større oppryddinger i språk/encoding
 - aktiver lokal pre-commit guard én gang per klone:
   `powershell -ExecutionPolicy Bypass -File tools/setup-git-hooks.ps1`
+- setup-scriptet aktiverer både `pre-commit` (staged sjekk) og `pre-push` (full sjekk)
 - lokal guard kan kjøres manuelt ved behov:
   `powershell -ExecutionPolicy Bypass -File tools/check-mojibake.ps1 -Root .`
 

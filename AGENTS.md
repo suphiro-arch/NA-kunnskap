@@ -18,6 +18,7 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Ved registerføring av nye ressurser i den brede ressursstrukturen, bruk fortsatt `arkitektur/ressurser/produktnummerering.md` som operativ master for ressurs-ID og registerstatus inntil annet er besluttet.
 - Når nye ressursfiler opprettes etter at løpenummer er fastsatt i `arkitektur/ressurser/produktnummerering.md`, skal filnavnet følge samme nummererte mønster som øvrige beskrivelser i porteføljen.
 - Ved opprettelse eller revisjon av `normerende ressurser` og `samarbeidsfora`, bruk `config/prompts/ressursbeskrivelser.system.md` sammen med riktig mal i `config/templates/`.
+- Nye `normerende ressurser` skal lagres i `arkitektur/ressurser/normerende-ressurser/`, og nye `samarbeidsfora` skal lagres i `arkitektur/ressurser/samarbeidsfora/`.
 
 ## Produktbeskrivelser
 - Bruk alltid høyeste eksisterende versjonsnummer for et produkt som primært utgangspunkt, uavhengig av om siste versjon er laget av `codex`, `copilot` eller en person.
@@ -28,10 +29,12 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Nye eller oppdaterte produktbeskrivelser skal lagres som ren `UTF-8`.
 - Etter opprettelse eller endring av produktbeskrivelser skal det gjøres en eksplisitt kontroll for tegnkodingsfeil, ikke bare en visuell sjekk i terminalen.
 - Hvis tekst viser typiske tegnkodingsfeil med doble bokstavsekvenser eller ødelagte typografitegn, skal fila rettes før commit og før genererte oversikter oppdateres.
-- Lokal pre-commit hook for encoding-kontroll skal være aktiv (`tools/setup-git-hooks.ps1`) slik at commits stoppes automatisk ved mojibake.
+- Lokale hooks for encoding-kontroll skal være aktive (`tools/setup-git-hooks.ps1`) slik at både commit og push stoppes automatisk ved mojibake.
 - I normerende ressursbeskrivelser skal `Status/Livsfase` beskrive status på selve ressursen, ikke status på dokumentutkastet eller ressursbeskrivelsen.
 - Tidlige versjoner av normerende ressursbeskrivelser skal som hovedregel beholde hele malstrukturen, og uferdige felt skal merkes eksplisitt i teksten i stedet for å utelates.
+- `v1` for normerende ressurser og samarbeidsfora skal bare brukes når dokumentet er godt nok til å fungere som direkte analysegrunnlag, ikke bare som arbeidsutkast.
 - I beskrivelser av samarbeidsfora skal det være eksplisitt om forumet er rådgivende, koordinerende eller besluttende, hvilke ressurser det påvirker, og når det bør involveres i analyse- eller utviklingsløp.
+- I seksjonen `Støtter arkitekturprinsipper` skal beskrivelser også vurdere tydelige svakheter, spenninger eller begrensninger mot viktige prinsipper når dette er relevant for mulig bruk.
 
 ## Kilder og analyse
 - Bruk `sources/links.md` som førstevalg for eksterne kilder.

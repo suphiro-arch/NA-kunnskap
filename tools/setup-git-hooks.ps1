@@ -12,12 +12,15 @@ if (-not (Test-Path $hookPath)) {
   New-Item -ItemType Directory -Path $hookPath | Out-Null
 }
 
-# Ensure pre-commit exists.
-$preCommit = Join-Path $hookPath 'pre-commit'
-if (-not (Test-Path $preCommit)) {
-  throw "Mangler hook-fil: $preCommit"
+# Ensure required hook files exist.
+$requiredHooks = @('pre-commit', 'pre-push')
+foreach ($hookName in $requiredHooks) {
+  $hookFile = Join-Path $hookPath $hookName
+  if (-not (Test-Path $hookFile)) {
+    throw "Mangler hook-fil: $hookFile"
+  }
 }
 
 git config core.hooksPath $hookPath
 Write-Host "Git hooksPath satt til: $hookPath"
-Write-Host "Pre-commit hook aktivert."
+Write-Host "Pre-commit og pre-push hooks aktivert."
