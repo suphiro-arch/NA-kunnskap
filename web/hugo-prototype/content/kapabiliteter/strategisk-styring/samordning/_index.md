@@ -2,7 +2,7 @@
 title: "Samordning"
 weight: 3
 description: "Evnen til å harmonisere og koordinere strategisk retning, beslutninger og ressursbruk på tvers av virksomheter, for å realisere felles samfunnsmål og sammenhengende tjenester."
-cardMeta: "5 produkter"
+cardMeta: "6 produkter"
 ---
 
 Evnen til å harmonisere og koordinere strategisk retning, beslutninger og ressursbruk på tvers av virksomheter, for å realisere felles samfunnsmål og sammenhengende tjenester.
@@ -38,5 +38,10 @@ Denne delkapabiliteten er en del av [Strategisk styring](../).
     <h3 class="capability-product-link__title">Styringsrådet for fellesløsningene</h3>
     <p class="capability-product-link__description">bidrar til prioritering og styring av Digdirs nasjonale fellesløsninger på tvers av brukere og tjenesteeiere.</p>
     <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v0-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Felles sikkerhet i forvaltningen</h3>
+    <p class="capability-product-link__description">har som formål å skape felles retning og mer samordnet oppfølging på tvers av offentlig forvaltning</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v0-codex.md">Åpne ressursbeskrivelse</a>
   </article>
 </div>

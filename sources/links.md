@@ -75,6 +75,8 @@ Sist redigert: 2026-04-09.
 - Hva er innovasjon i offentlig sektor: https://www.digdir.no/innovasjon/hva-er-innovasjon-i-offentlig-sektor/3073 (lagt til 2026-04-10)
 - Faglig arena for informasjonsforvaltning og deling av data: https://www.digdir.no/informasjonsforvaltning/faglig-arena-informasjonsforvaltning-og-deling-av-data/3543 (lagt til 2026-04-10)
 - NIFS - eksempel på møteside med nettverksbeskrivelse: https://www.digdir.no/informasjonssikkerhet/nifs-mote-informasjonssikkerheit-gjennom-10-ar/4984 (lagt til 2026-04-10)
+- Felles sikkerhet i forvaltningen - omtaleside: https://www.digdir.no/informasjonssikkerhet/felles-sikkerhet-i-forvaltningen/4115 (lagt til 2026-04-10)
+- Felles sikkerhet i forvaltningen - Digdir-notat: https://www.digdir.no/informasjonssikkerhet/felles-sikkerhet-i-forvaltningen/4106 (lagt til 2026-04-10)
 - DSOP: https://www.dsop.no/ (lagt til 2026-04-10)
 - Designsystemet: https://designsystemet.no/ (lagt til 2026-04-10)
 - Designsystemet - React: https://designsystemet.no/no/fundamentals/code/react (lagt til 2026-04-10)
@@ -118,6 +120,9 @@ Sist redigert: 2026-04-09.
 - FIKS status: https://status.fiks.ks.no/ (lagt til 2026-03-18)
 - Felles mal for innføring av digitale fellestjenester: https://ksdigital.no/tjenestene/felles-mal-for-innforing-av-digitale-fellestjenester/
 - KS Digital - Felles tjenesteplattform (Digitaliseringsrådet): https://www.digdir.no/digitaliseringsradet/ks-digital-tiltaket-felles-tjenesteplattform/7556
+- Digitaliseringsrådet - Om: https://www.digdir.no/digitaliseringsradet/om-digitaliseringsradet/7589
+- Digitaliseringsrådet - Mandat: https://www.digdir.no/digitaliseringsradet/digitaliseringsradets-mandat/1878
+- Digitaliseringsrådet - Arbeid: https://www.digdir.no/digitaliseringsradet/digitaliseringsradets-arbeid/1875
 - KS Digital - Felles tjenesteplattform: https://ksdigital.no/tjenestene/utviklingsprosjekter/felles-tjenesteplattform/ (lagt til 2026-03-18)
 - Digiorden: https://ksdigital.no/tjenestene/digiorden/
 - Fiks Digiorden - nyhetsside: https://ksdigital.no/2022/06/14/nyheter-om-fiks-digiorden/ (lagt til 2026-03-18)

@@ -2,7 +2,7 @@
 title: "Samarbeidsarenaer og nettverk"
 weight: 2
 description: "Evne til å effektivisere, etablere, forvalte og fasilitere arenaer, nettverk og prosesser som fremmer kunnskapsdeling, dialog og samordning på tvers av virksomheter i økosystemet."
-cardMeta: "4 produkter"
+cardMeta: "5 produkter"
 ---
 
 Evne til å effektivisere, etablere, forvalte og fasilitere arenaer, nettverk og prosesser som fremmer kunnskapsdeling, dialog og samordning på tvers av virksomheter i økosystemet.
@@ -33,5 +33,10 @@ Denne delkapabiliteten er en del av [Samarbeid](../).
     <h3 class="capability-product-link__title">DSOP-samarbeidet</h3>
     <p class="capability-product-link__description">er en offentlig-privat samhandlingsarena der flere virksomheter koordinerer felles løsninger og tiltak.</p>
     <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/123-DSOP-samarbeidet-v0-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Felles sikkerhet i forvaltningen</h3>
+    <p class="capability-product-link__description">samler fagmyndigheter og andre sentrale aktører om en felles retning for informasjonssikkerhet</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v0-codex.md">Åpne ressursbeskrivelse</a>
   </article>
 </div>

@@ -2,7 +2,7 @@
 title: "Sikring av informasjonsflyt og datautveksling"
 weight: 2
 description: "Kapabiliteten omfatter de tekniske og organisatoriske tiltakene som sikrer at informasjon som utveksles mellom virksomheter er beskyttet mot innsyn og manipulering, og at dataflyten er kontrollert."
-cardMeta: "17 produkter"
+cardMeta: "18 produkter"
 ---
 
 Kapabiliteten omfatter de tekniske og organisatoriske tiltakene som sikrer at informasjon som utveksles mellom virksomheter er beskyttet mot innsyn og manipulering, og at dataflyten er kontrollert.
@@ -98,5 +98,10 @@ Denne delkapabiliteten er en del av [Informasjonssikkerhet](../).
     <h3 class="capability-product-link__title">NIFS</h3>
     <p class="capability-product-link__description">gir faglig deling og oppdatering om informasjonssikkerhet på et område som er avgjørende for trygg samhandling.</p>
     <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/122-NIFS-v0-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Felles sikkerhet i forvaltningen</h3>
+    <p class="capability-product-link__description">bidrar til mer samordnet retning, veiledning og rammebetingelser for informasjonssikkerhet i offentlig forvaltning</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v0-codex.md">Åpne ressursbeskrivelse</a>
   </article>
 </div>
