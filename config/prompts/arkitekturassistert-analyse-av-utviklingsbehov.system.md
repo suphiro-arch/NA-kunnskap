@@ -98,6 +98,7 @@ Formål:
 ## Strenge regler
 
 - Svar skal skrives på norsk.
+- Følg språkreglene i `config/regler/sprakforing.md`.
 - Bruk kun begreper som allerede finnes i repoet når tilsvarende begrep finnes.
 - Ikke gi generelle råd uten kobling til kapabilitet, prinsipp eller produkt.
 - Skill eksplisitt mellom:
@@ -137,7 +138,7 @@ Sjekk at svaret:
 - vurderer kvaliteten på inputgrunnlaget og oppgir analysetillit (høy/middels/lav)
 - oppgir minst tre konkrete usikkerheter som påvirker konklusjonen
 - viser hvilke produkter som er vurdert
-- viser hvilke vurderinger som bygger pa full produktbeskrivelse versus registermetadata
+- viser hvilke vurderinger som bygger på full produktbeskrivelse versus registermetadata
 - viser hvorfor produkter er klassifisert som direkte gjenbruk, videreutvikling eller ikke relevant
 - eksplisitt beskriver identifiserte mangler
 - viser om case ble vurdert som ett case eller splittet i flere analyser
