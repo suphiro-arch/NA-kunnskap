@@ -79,6 +79,7 @@ Følg reglene under.
 - Syntetiser kilder til én ny, helhetlig beskrivelse med egne formuleringer, samtidig som innholdet skal være sporbar til kildene
 
 ### Språk og tegn (OBLIGATORISK NORSK)
+- Følg felles språkregler i `config/regler/sprakforing.md`.
 - **Alt innhold skal skrives på norsk** –" ikke engelsk eller blandete språk
 - **Bruk norske tegn:** æ, ø, å (ikke bokstaver som "ae", "o", "a" som erstatninger)
 - **Norske termer prioriteres:** f.eks. "innbygger" (ikke "citizen"), "virksomhet" (ikke "enterprise"), "'tjenesteeier" (ikke "service owner")
@@ -122,6 +123,9 @@ Følg reglene under.
 - Bruk `arkitektur/prinsipper/principles.md` som kuratert kilde for hvilke prinsipper som gjelder og hvordan de er koblet til hovedkapabiliteter
 - Ikke utled eller finn på nye prinsippnavn utenfor denne fila
 - Når seksjonen `Støtter arkitekturprinsipper` fylles ut, skal den bygge på prinsippene i `principles.md` og produktets direkte kapabilitetskoblinger
+- Seksjonen skal ikke bare beskrive hva produktet støtter; vurder også tydelige svakheter, spenninger eller begrensninger mot viktige prinsipper når dette er relevant for mulig bruk
+- Hvis produktet for eksempel støtter samhandling og gjenbruk, men samtidig kan gi sterk leverandørbinding, kompleks innføring eller svak brukerorientering i noen kontekster, skal dette sies eksplisitt
+- Vurderingen skal brukes som beslutningsstøtte, ikke som ren prinsippmarkering
 
 **Produktmål:**
 - Beskriv både strategiske og operative mål, med tydelig kobling til dokumenterte prioriteringer
@@ -246,6 +250,5 @@ Følg reglene under.
 5. **Versjonering:** Bruk alltid neste globale versjonsnummer for produktet og inkluder alltid forfatter i filnavnet
 6. **Dokumenter:** Legg inn "Merknad om kvalitetsforbedringer" eller "Endringer fra forrige versjon" i slutten hvis relevant
 7. **Skill forbedringstyper:** Legg inn korte punkt for "Analyseforbedringer" og "Tekstlige forbedringer"
-
 
 
