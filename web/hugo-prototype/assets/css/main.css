@@ -513,7 +513,8 @@ a:hover {
 }
 
 .prose table {
-  width: 100%;
+  width: max-content;
+  min-width: 100%;
   display: block;
   overflow-x: auto;
   border-collapse: collapse;
@@ -528,7 +529,7 @@ a:hover {
   text-align: left;
   vertical-align: top;
   white-space: normal;
-  overflow-wrap: anywhere;
+  overflow-wrap: break-word;
   word-break: normal;
 }
 
@@ -553,7 +554,37 @@ a:hover {
 
 .prose th:nth-child(4),
 .prose td:nth-child(4) {
-  min-width: 7rem;
+  min-width: 10rem;
+}
+
+.prose th:nth-child(5),
+.prose td:nth-child(5) {
+  min-width: 12rem;
+}
+
+.prose th:nth-child(6),
+.prose td:nth-child(6) {
+  min-width: 16rem;
+}
+
+.prose th:nth-child(7),
+.prose td:nth-child(7) {
+  min-width: 26rem;
+}
+
+.prose th:nth-child(8),
+.prose td:nth-child(8) {
+  min-width: 9rem;
+}
+
+.prose th:nth-child(9),
+.prose td:nth-child(9) {
+  min-width: 8rem;
+}
+
+.prose td:nth-child(2) code,
+.prose td:nth-child(8) code {
+  white-space: nowrap;
 }
 
 .prose blockquote {
