@@ -13,6 +13,12 @@ Se også:
 - `arkitektur/ressurser/styringsregler.md`
 - `sources/links.md`
 
+## Arbeidsregel for v0.1
+- behold hele malstrukturen også i tidlige versjoner
+- fyll ut det som kan bekreftes
+- skriv `Foreløpig ikke fylt ut i v0.1.` i felt som ennå ikke er gode nok
+- bruk `Status/Livsfase` bare for status på selve ressursen, ikke for status på dokumentet eller beskrivelsen
+
 ## Navn
 Det offisielle navnet på den normerende ressursen.
 
@@ -32,7 +38,14 @@ For eksempel:
 - referansearkitektur
 
 ## Status/Livsfase
-Planlagt / Under utvikling / Aktiv / Under revisjon / Utfasing
+Beskriv status på ressursen, for eksempel:
+- planlagt
+- under utvikling
+- aktiv
+- under revisjon
+- under utfasing
+
+Ikke bruk dette feltet til å beskrive modenhet eller dokumentstatus.
 
 ## Kort beskrivelse
 Kort og selvstendig beskrivelse av hva ressursen er, hva den brukes til, og hvorfor den er viktig i arkitektur- og analysearbeid.

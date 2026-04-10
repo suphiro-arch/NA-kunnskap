@@ -1,11 +1,15 @@
 ﻿$ErrorActionPreference = 'Stop'
 
-$outDir = 'web/hugo-prototype/content/ressursoversikt/produkter'
-$registerFile = 'arkitektur/ressurser/produktnummerering.md'
-$mapFile = 'arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml'
+$outDirRel = 'web/hugo-prototype/content/ressursoversikt/produkter'
+$registerFileRel = 'arkitektur/ressurser/produktnummerering.md'
+$mapFileRel = 'arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml'
 $repoBlobBase = 'https://github.com/suphiro-arch/NA-kunnskap/blob/main'
-$repoRoot = (Resolve-Path '.').Path
-$registerBase = Split-Path -Parent (Join-Path $repoRoot $registerFile)
+$repoRoot = (Resolve-Path (Join-Path $PSScriptRoot '..\..\..')).Path
+$outDir = Join-Path $repoRoot $outDirRel
+$registerFile = Join-Path $repoRoot $registerFileRel
+$mapFile = Join-Path $repoRoot $mapFileRel
+$registerBase = Split-Path -Parent $registerFile
+$utf8NoBom = New-Object System.Text.UTF8Encoding($false)
 $resourceTypeDefinitions = @(
   [PSCustomObject]@{
     Slug = 'operative-losninger-og-tjenester'
@@ -80,6 +84,16 @@ function Get-RegisterEntries {
   }
 
   return $entries | Sort-Object SortOrder
+}
+
+function Write-Utf8NoBomFile {
+  param(
+    [string]$Path,
+    [string[]]$Lines
+  )
+
+  $content = [string]::Join([Environment]::NewLine, $Lines)
+  [System.IO.File]::WriteAllText($Path, $content, $utf8NoBom)
 }
 
 function Get-ResourceTypeInfo {
@@ -551,10 +565,10 @@ foreach ($typeDef in $resourceTypeDefinitions) {
   $typeIndex += '  </script>'
   $typeIndex += '</div>'
 
-  Set-Content -Path (Join-Path $typeDir '_index.md') -Value $typeIndex -Encoding utf8
+  Write-Utf8NoBomFile -Path (Join-Path $typeDir '_index.md') -Lines $typeIndex
 }
 
-Set-Content -Path (Join-Path $outDir '_index.md') -Value $index -Encoding utf8
+Write-Utf8NoBomFile -Path (Join-Path $outDir '_index.md') -Lines $index
 
 Get-ChildItem $outDir -File |
   Where-Object { $_.Name -ne '_index.md' } |
