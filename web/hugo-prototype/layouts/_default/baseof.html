@@ -37,16 +37,16 @@
               {{ if $isInSectionBranch }}
                 {{ if eq $section.Section "ressursoversikt" }}
                 <ul class="site-nav__sublist">
-                  {{ with site.GetPage "/ressursoversikt/produkter/operative-losninger-og-tjenester" }}
+                  {{ with $.Site.GetPage "/ressursoversikt/produkter/operative-losninger-og-tjenester" }}
                   <li><a class="{{ if or (eq .RelPermalink $.RelPermalink) (.IsAncestor $) }}is-current{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
                   {{ end }}
-                  {{ with site.GetPage "/ressursoversikt/produkter/normerende-ressurser" }}
+                  {{ with $.Site.GetPage "/ressursoversikt/produkter/normerende-ressurser" }}
                   <li><a class="{{ if or (eq .RelPermalink $.RelPermalink) (.IsAncestor $) }}is-current{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
                   {{ end }}
-                  {{ with site.GetPage "/ressursoversikt/produkter/samarbeidsfora" }}
+                  {{ with $.Site.GetPage "/ressursoversikt/produkter/samarbeidsfora" }}
                   <li><a class="{{ if or (eq .RelPermalink $.RelPermalink) (.IsAncestor $) }}is-current{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
                   {{ end }}
-                  {{ with site.GetPage "/ressursoversikt/produkter/andre-ressurser" }}
+                  {{ with $.Site.GetPage "/ressursoversikt/produkter/andre-ressurser" }}
                   <li><a class="{{ if or (eq .RelPermalink $.RelPermalink) (.IsAncestor $) }}is-current{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
                   {{ end }}
                 </ul>
