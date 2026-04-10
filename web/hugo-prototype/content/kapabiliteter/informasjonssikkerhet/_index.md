@@ -2,7 +2,7 @@
 title: "Informasjonssikkerhet"
 weight: 7
 description: "Evne til å ha tilstrekkelig sikkerhet i tjenester og løsninger som benyttes i felles økosystem."
-cardMeta: "2 delkapabiliteter / 15 produkter"
+cardMeta: "2 delkapabiliteter / 17 produkter"
 productsMarkdown: |
   ## Relaterte produkter
   
@@ -66,6 +66,14 @@ productsMarkdown: |
     <article class="capability-product-link">
       <h3 class="capability-product-link__title">FINT Felleskomponent</h3>
       <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/70-FINT-Felleskomponent-v1-codex.md">Åpne ressursbeskrivelse</a>
+    </article>
+    <article class="capability-product-link">
+      <h3 class="capability-product-link__title">Ansattporten</h3>
+      <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/119-Ansattporten-v1-codex.md">Åpne ressursbeskrivelse</a>
+    </article>
+    <article class="capability-product-link">
+      <h3 class="capability-product-link__title">NIFS</h3>
+      <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/122-NIFS-v0-codex.md">Åpne ressursbeskrivelse</a>
     </article>
   </div>
 ---

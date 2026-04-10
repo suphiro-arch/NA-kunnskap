@@ -18,9 +18,13 @@ Denne mappa samler styringsgrunnlag og videre struktur for ressursområdet i rep
 - `arkitektur/ressurser/` er operativt hjem for registerføring og ressursbeskrivelser.
 - `arkitektur/ressurser/produktnummerering.md` er master for ressurs-ID-er og dokumentkoblinger.
 - nye ressursbeskrivelser opprettes direkte i riktig undermappe under `arkitektur/ressurser/`.
+- `normerende ressurser` lagres i `arkitektur/ressurser/normerende-ressurser/` og bruker `config/templates/normerende-ressurs-template.md`.
+- `samarbeidsfora` lagres i `arkitektur/ressurser/samarbeidsfora/` og bruker `config/templates/samarbeidsforum-template.md`.
+- `operative løsninger og tjenester` lagres i `arkitektur/ressurser/operative-losninger-og-tjenester/` og bruker `config/templates/produkt-canvas-template.md`.
 
 ## Praktisk bruk
 - bruk `styringsregler.md` før nye ressurskategorier eller nye ressurser opprettes
 - bruk `arkitektur/ressurser/produktnummerering.md` som operativ master for registerføring og ressurs-ID-er
 - velg én primær ressurskategori per ressurs
 - bruk kapabiliteter som kobling og metadata, ikke som primær mappeinndeling
+- bruk `config/prompts/ressursbeskrivelser.system.md` for normerende ressurser og samarbeidsfora

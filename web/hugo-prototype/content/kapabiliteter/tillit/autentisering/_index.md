@@ -2,7 +2,7 @@
 title: "Autentisering"
 weight: 1
 description: "Evne til å på en sikker og entydig måte verifisere den digitale identiteten til brukere og systemer."
-cardMeta: "7 produkter"
+cardMeta: "8 produkter"
 ---
 
 Evne til å på en sikker og entydig måte verifisere den digitale identiteten til brukere og systemer.
@@ -48,5 +48,10 @@ Denne delkapabiliteten er en del av [Tillit](../).
     <h3 class="capability-product-link__title">Feide</h3>
     <p class="capability-product-link__description">er kjernefunksjonen og gjør det mulig å bekrefte identiteten til brukere på tvers av mange tjenester i sektoren</p>
     <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/47-Feide-produkt-canvas-v1-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Ansattporten</h3>
+    <p class="capability-product-link__description">er kjernefunksjonen ved at Ansattporten verifiserer identitet for ansatte i offentlig sektor.</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/119-Ansattporten-v1-codex.md">Åpne ressursbeskrivelse</a>
   </article>
 </div>

@@ -2,7 +2,7 @@
 title: "Tjenesteutvikling"
 weight: 8
 description: "Evne til å utvikle sammenhengende digitale tjenester."
-cardMeta: "4 delkapabiliteter / 14 produkter"
+cardMeta: "4 delkapabiliteter / 20 produkter"
 productsMarkdown: |
   ## Relaterte produkter
   
@@ -62,6 +62,30 @@ productsMarkdown: |
     <article class="capability-product-link">
       <h3 class="capability-product-link__title">FINT Arkiv</h3>
       <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/71-FINT-Arkiv-v1-codex.md">Åpne ressursbeskrivelse</a>
+    </article>
+    <article class="capability-product-link">
+      <h3 class="capability-product-link__title">Prosjektveiviseren</h3>
+      <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v0-codex.md">Åpne ressursbeskrivelse</a>
+    </article>
+    <article class="capability-product-link">
+      <h3 class="capability-product-link__title">Klart språk</h3>
+      <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v0-codex.md">Åpne ressursbeskrivelse</a>
+    </article>
+    <article class="capability-product-link">
+      <h3 class="capability-product-link__title">Rammeverk for innovasjon i offentlig sektor</h3>
+      <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/116-Rammeverk-for-innovasjon-i-offentlig-sektor-v0-codex.md">Åpne ressursbeskrivelse</a>
+    </article>
+    <article class="capability-product-link">
+      <h3 class="capability-product-link__title">Kompetansemodell for digital transformasjon</h3>
+      <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/117-Kompetansemodell-for-digital-transformasjon-v0-codex.md">Åpne ressursbeskrivelse</a>
+    </article>
+    <article class="capability-product-link">
+      <h3 class="capability-product-link__title">Felles designsystem</h3>
+      <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/118-Felles-designsystem-v1-codex.md">Åpne ressursbeskrivelse</a>
+    </article>
+    <article class="capability-product-link">
+      <h3 class="capability-product-link__title">Ansattporten</h3>
+      <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/119-Ansattporten-v1-codex.md">Åpne ressursbeskrivelse</a>
     </article>
   </div>
 ---

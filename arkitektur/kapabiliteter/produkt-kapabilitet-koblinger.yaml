@@ -2710,6 +2710,386 @@
                                                   "explanation":  "samler flere moduler og delsystemer i en overordnet sektorressurs som kan vurderes samlet i caseanalyser."
                                               }
                                           ]
+                     },
+                     {
+                         "product_id":  112,
+                         "product_name":  "Digitaliseringsrundskrivet",
+                         "version":  0,
+                         "author":  "codex",
+                         "relative_path":  "arkitektur/ressurser/normerende-ressurser/112-Digitaliseringsrundskrivet-v0-codex.md",
+                         "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/112-Digitaliseringsrundskrivet-v0-codex.md",
+                         "capabilities":  [
+                                              {
+                                                  "capability_id":  "id-682d96a51e604ed2a00e1f4824023bab",
+                                                  "capability_name":  "Strategisk styring",
+                                                  "capability_slug":  "strategisk-styring",
+                                                  "subcapability_id":  "id-034543e002414306a8fbecc8c9d8e496",
+                                                  "subcapability_name":  "Samordning",
+                                                  "subcapability_slug":  "samordning",
+                                                  "mapping_label":  "Strategisk styring: Samordning",
+                                                  "explanation":  "samler nasjonale krav og anbefalinger for digitalisering i staten i ett felles styringsgrunnlag."
+                                              },
+                                              {
+                                                  "capability_id":  "id-fda201f20edd40c6aef8712b1c22b0a5",
+                                                  "capability_name":  "Standardisering",
+                                                  "capability_slug":  "standardisering",
+                                                  "subcapability_id":  "id-89699ccd5c3848cabbfc3575601cfa31",
+                                                  "subcapability_name":  "Forvaltningsstandarder",
+                                                  "subcapability_slug":  "forvaltningsstandarder",
+                                                  "mapping_label":  "Standardisering: Forvaltningsstandarder",
+                                                  "explanation":  "gir føringer som standardiserer forventninger til hvordan statlige virksomheter skal arbeide med digitalisering."
+                                              }
+                                          ]
+                     },
+                     {
+                         "product_id":  113,
+                         "product_name":  "Prosjektveiviseren",
+                         "version":  0,
+                         "author":  "codex",
+                         "relative_path":  "arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v0-codex.md",
+                         "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v0-codex.md",
+                         "capabilities":  [
+                                              {
+                                                  "capability_id":  "id-682d96a51e604ed2a00e1f4824023bab",
+                                                  "capability_name":  "Strategisk styring",
+                                                  "capability_slug":  "strategisk-styring",
+                                                  "subcapability_id":  "id-034543e002414306a8fbecc8c9d8e496",
+                                                  "subcapability_name":  "Samordning",
+                                                  "subcapability_slug":  "samordning",
+                                                  "mapping_label":  "Strategisk styring: Samordning",
+                                                  "explanation":  "gir et felles metodegrunnlag for planlegging, styring og beslutningspunkter i offentlige prosjekter."
+                                              },
+                                              {
+                                                  "capability_id":  "id-cd3b6a8989a448a2b4dfbf430a41bad4",
+                                                  "capability_name":  "Tjenesteutvikling",
+                                                  "capability_slug":  "tjenesteutvikling",
+                                                  "subcapability_id":  "id-379e167f7b9c4fbea9c6969425ba7f6c",
+                                                  "subcapability_name":  "Tjenestedesign",
+                                                  "subcapability_slug":  "tjenestedesign",
+                                                  "mapping_label":  "Tjenesteutvikling: Tjenestedesign",
+                                                  "explanation":  "støtter utviklingsløp der brukerbehov, leveranser og helhetlig tjenesteutforming må håndteres strukturert."
+                                              }
+                                          ]
+                     },
+                     {
+                         "product_id":  114,
+                         "product_name":  "Klart språk",
+                         "version":  0,
+                         "author":  "codex",
+                         "relative_path":  "arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v0-codex.md",
+                         "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v0-codex.md",
+                         "capabilities":  [
+                                              {
+                                                  "capability_id":  "id-1be148b57796458993c3f7f5f24815ca",
+                                                  "capability_name":  "Sluttbrukertjenester",
+                                                  "capability_slug":  "sluttbrukertjenester",
+                                                  "subcapability_id":  "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
+                                                  "subcapability_name":  "Sammenhengende tjenester",
+                                                  "subcapability_slug":  "sammenhengende-tjenester",
+                                                  "mapping_label":  "Sluttbrukertjenester: Sammenhengende tjenester",
+                                                  "explanation":  "styrker forståelige og sammenhengende brukerreiser ved å gjøre språk og kommunikasjon lettere å forstå."
+                                              },
+                                              {
+                                                  "capability_id":  "id-cd3b6a8989a448a2b4dfbf430a41bad4",
+                                                  "capability_name":  "Tjenesteutvikling",
+                                                  "capability_slug":  "tjenesteutvikling",
+                                                  "subcapability_id":  "id-379e167f7b9c4fbea9c6969425ba7f6c",
+                                                  "subcapability_name":  "Tjenestedesign",
+                                                  "subcapability_slug":  "tjenestedesign",
+                                                  "mapping_label":  "Tjenesteutvikling: Tjenestedesign",
+                                                  "explanation":  "behandler språk som en integrert del av utforming av digitale tjenester, ikke bare som etterredigering."
+                                              }
+                                          ]
+                     },
+                     {
+                         "product_id":  115,
+                         "product_name":  "Digitaliseringsvennlig regelverk",
+                         "version":  0,
+                         "author":  "codex",
+                         "relative_path":  "arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v0-codex.md",
+                         "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v0-codex.md",
+                         "capabilities":  [
+                                              {
+                                                  "capability_id":  "id-fda201f20edd40c6aef8712b1c22b0a5",
+                                                  "capability_name":  "Standardisering",
+                                                  "capability_slug":  "standardisering",
+                                                  "subcapability_id":  "id-89699ccd5c3848cabbfc3575601cfa31",
+                                                  "subcapability_name":  "Forvaltningsstandarder",
+                                                  "subcapability_slug":  "forvaltningsstandarder",
+                                                  "mapping_label":  "Standardisering: Forvaltningsstandarder",
+                                                  "explanation":  "gir anbefalinger og sjekklister for hvordan regelverk kan utformes og vurderes mer digitaliseringsvennlig."
+                                              },
+                                              {
+                                                  "capability_id":  "id-682d96a51e604ed2a00e1f4824023bab",
+                                                  "capability_name":  "Strategisk styring",
+                                                  "capability_slug":  "strategisk-styring",
+                                                  "subcapability_id":  "id-dabf94e621f644ffa53ebb44dcc9ff79",
+                                                  "subcapability_name":  "Arkitekturstyring",
+                                                  "subcapability_slug":  "arkitekturstyring",
+                                                  "mapping_label":  "Strategisk styring: Arkitekturstyring",
+                                                  "explanation":  "gjør juridiske forutsetninger til en tydelig del av tidlig løsningsvurdering og styring."
+                                              }
+                                          ]
+                     },
+                     {
+                         "product_id":  116,
+                         "product_name":  "Rammeverk for innovasjon i offentlig sektor",
+                         "version":  0,
+                         "author":  "codex",
+                         "relative_path":  "arkitektur/ressurser/normerende-ressurser/116-Rammeverk-for-innovasjon-i-offentlig-sektor-v0-codex.md",
+                         "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/116-Rammeverk-for-innovasjon-i-offentlig-sektor-v0-codex.md",
+                         "capabilities":  [
+                                              {
+                                                  "capability_id":  "id-682d96a51e604ed2a00e1f4824023bab",
+                                                  "capability_name":  "Strategisk styring",
+                                                  "capability_slug":  "strategisk-styring",
+                                                  "subcapability_id":  "id-034543e002414306a8fbecc8c9d8e496",
+                                                  "subcapability_name":  "Samordning",
+                                                  "subcapability_slug":  "samordning",
+                                                  "mapping_label":  "Strategisk styring: Samordning",
+                                                  "explanation":  "skal støtte mer systematisk innovasjonsarbeid og et mer felles språk for utvikling og forbedring i offentlig sektor."
+                                              },
+                                              {
+                                                  "capability_id":  "id-cd3b6a8989a448a2b4dfbf430a41bad4",
+                                                  "capability_name":  "Tjenesteutvikling",
+                                                  "capability_slug":  "tjenesteutvikling",
+                                                  "subcapability_id":  "id-379e167f7b9c4fbea9c6969425ba7f6c",
+                                                  "subcapability_name":  "Tjenestedesign",
+                                                  "subcapability_slug":  "tjenestedesign",
+                                                  "mapping_label":  "Tjenesteutvikling: Tjenestedesign",
+                                                  "explanation":  "knytter innovasjonsarbeid til utforskning, brukerbehov og utvikling av nye eller forbedrede tjenester."
+                                              }
+                                          ]
+                     },
+                     {
+                         "product_id":  117,
+                         "product_name":  "Kompetansemodell for digital transformasjon",
+                         "version":  0,
+                         "author":  "codex",
+                         "relative_path":  "arkitektur/ressurser/normerende-ressurser/117-Kompetansemodell-for-digital-transformasjon-v0-codex.md",
+                         "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/117-Kompetansemodell-for-digital-transformasjon-v0-codex.md",
+                         "capabilities":  [
+                                              {
+                                                  "capability_id":  "id-682d96a51e604ed2a00e1f4824023bab",
+                                                  "capability_name":  "Strategisk styring",
+                                                  "capability_slug":  "strategisk-styring",
+                                                  "subcapability_id":  "id-034543e002414306a8fbecc8c9d8e496",
+                                                  "subcapability_name":  "Samordning",
+                                                  "subcapability_slug":  "samordning",
+                                                  "mapping_label":  "Strategisk styring: Samordning",
+                                                  "explanation":  "gir et felles bilde av hvilke kompetanser virksomheter trenger for å lykkes med digital transformasjon."
+                                              },
+                                              {
+                                                  "capability_id":  "id-cd3b6a8989a448a2b4dfbf430a41bad4",
+                                                  "capability_name":  "Tjenesteutvikling",
+                                                  "capability_slug":  "tjenesteutvikling",
+                                                  "subcapability_id":  "id-379e167f7b9c4fbea9c6969425ba7f6c",
+                                                  "subcapability_name":  "Tjenestedesign",
+                                                  "subcapability_slug":  "tjenestedesign",
+                                                  "mapping_label":  "Tjenesteutvikling: Tjenestedesign",
+                                                  "explanation":  "støtter utvikling av kompetanse som trengs for å lede og gjennomføre digital transformasjon og tjenesteutvikling."
+                                              }
+                                          ]
+                     },
+                     {
+                         "product_id":  118,
+                         "product_name":  "Felles designsystem",
+                         "version":  1,
+                         "author":  "codex",
+                         "relative_path":  "arkitektur/ressurser/operative-losninger-og-tjenester/118-Felles-designsystem-v1-codex.md",
+                         "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/118-Felles-designsystem-v1-codex.md",
+                         "capabilities":  [
+                                              {
+                                                  "capability_id":  "id-1be148b57796458993c3f7f5f24815ca",
+                                                  "capability_name":  "Sluttbrukertjenester",
+                                                  "capability_slug":  "sluttbrukertjenester",
+                                                  "subcapability_id":  "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
+                                                  "subcapability_name":  "Sammenhengende tjenester",
+                                                  "subcapability_slug":  "sammenhengende-tjenester",
+                                                  "mapping_label":  "Sluttbrukertjenester: Sammenhengende tjenester",
+                                                  "explanation":  "bidrar til mer helhetlige og gjenkjennelige brukeropplevelser på tvers av digitale tjenester."
+                                              },
+                                              {
+                                                  "capability_id":  "id-cd3b6a8989a448a2b4dfbf430a41bad4",
+                                                  "capability_name":  "Tjenesteutvikling",
+                                                  "capability_slug":  "tjenesteutvikling",
+                                                  "subcapability_id":  "id-f696350f5d844a96854deadb83bc3c81",
+                                                  "subcapability_name":  "Gjenbrukbare tjenester",
+                                                  "subcapability_slug":  "gjenbrukbare-tjenester",
+                                                  "mapping_label":  "Tjenesteutvikling: Gjenbrukbare tjenester",
+                                                  "explanation":  "gjør designkomponenter og mønstre gjenbrukbare i flere løsninger og virksomheter."
+                                              },
+                                              {
+                                                  "capability_id":  "id-cd3b6a8989a448a2b4dfbf430a41bad4",
+                                                  "capability_name":  "Tjenesteutvikling",
+                                                  "capability_slug":  "tjenesteutvikling",
+                                                  "subcapability_id":  "id-379e167f7b9c4fbea9c6969425ba7f6c",
+                                                  "subcapability_name":  "Tjenestedesign",
+                                                  "subcapability_slug":  "tjenestedesign",
+                                                  "mapping_label":  "Tjenesteutvikling: Tjenestedesign",
+                                                  "explanation":  "gir konkrete byggeklosser som brukes direkte i utforming og implementasjon av digitale tjenester."
+                                              }
+                                          ]
+                     },
+                     {
+                         "product_id":  119,
+                         "product_name":  "Ansattporten",
+                         "version":  1,
+                         "author":  "codex",
+                         "relative_path":  "arkitektur/ressurser/operative-losninger-og-tjenester/119-Ansattporten-v1-codex.md",
+                         "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/119-Ansattporten-v1-codex.md",
+                         "capabilities":  [
+                                              {
+                                                  "capability_id":  "id-48c9873ae59341a49c2dca27379fab55",
+                                                  "capability_name":  "Informasjonssikkerhet",
+                                                  "capability_slug":  "informasjonssikkerhet",
+                                                  "subcapability_id":  "id-34d3d64b3afe4327a29ee6c2f7f74dff",
+                                                  "subcapability_name":  "Sikring av informasjonsflyt og datautveksling",
+                                                  "subcapability_slug":  "sikring-av-informasjonsflyt-og-datautveksling",
+                                                  "mapping_label":  "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
+                                                  "explanation":  "beskytter metadatautveksling og påloggingsflyt i ansattkontekst."
+                                              },
+                                              {
+                                                  "capability_id":  "id-d503cf06faa1417b8acd4b26a5c0741e",
+                                                  "capability_name":  "Tillit",
+                                                  "capability_slug":  "tillit",
+                                                  "subcapability_id":  "id-ec0afaac123d4f9e83889d9022a198c3",
+                                                  "subcapability_name":  "Autentisering",
+                                                  "subcapability_slug":  "autentisering",
+                                                  "mapping_label":  "Tillit: Autentisering",
+                                                  "explanation":  "er kjernefunksjonen ved at Ansattporten verifiserer identitet for ansatte i offentlig sektor."
+                                              },
+                                              {
+                                                  "capability_id":  "id-cd3b6a8989a448a2b4dfbf430a41bad4",
+                                                  "capability_name":  "Tjenesteutvikling",
+                                                  "capability_slug":  "tjenesteutvikling",
+                                                  "subcapability_id":  "id-60827614648541ef8520df87fa25d100",
+                                                  "subcapability_name":  "Integrerbare tjenester",
+                                                  "subcapability_slug":  "integrerbare-tjenester",
+                                                  "mapping_label":  "Tjenesteutvikling: Integrerbare tjenester",
+                                                  "explanation":  "tilbyr standardiserte metadata og integrasjonspunkter som andre løsninger kan koble seg til."
+                                              }
+                                          ]
+                     },
+                     {
+                         "product_id":  120,
+                         "product_name":  "Styringsrådet for fellesløsningene",
+                         "version":  0,
+                         "author":  "codex",
+                         "relative_path":  "arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v0-codex.md",
+                         "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v0-codex.md",
+                         "capabilities":  [
+                                              {
+                                                  "capability_id":  "id-e67a4f2983ce40f9823ec34ba460055a",
+                                                  "capability_name":  "Samarbeid",
+                                                  "capability_slug":  "samarbeid",
+                                                  "subcapability_id":  "id-b4a86e2e430c472b9f74bedb7f66fd74",
+                                                  "subcapability_name":  "Samarbeidsarenaer og nettverk",
+                                                  "subcapability_slug":  "samarbeidsarenaer-og-nettverk",
+                                                  "mapping_label":  "Samarbeid: Samarbeidsarenaer og nettverk",
+                                                  "explanation":  "er en fast arena for brukermedvirkning, dialog og samordning rundt Digdirs fellesløsninger."
+                                              },
+                                              {
+                                                  "capability_id":  "id-682d96a51e604ed2a00e1f4824023bab",
+                                                  "capability_name":  "Strategisk styring",
+                                                  "capability_slug":  "strategisk-styring",
+                                                  "subcapability_id":  "id-034543e002414306a8fbecc8c9d8e496",
+                                                  "subcapability_name":  "Samordning",
+                                                  "subcapability_slug":  "samordning",
+                                                  "mapping_label":  "Strategisk styring: Samordning",
+                                                  "explanation":  "bidrar til prioritering og styring av Digdirs nasjonale fellesløsninger på tvers av brukere og tjenesteeiere."
+                                              }
+                                          ]
+                     },
+                     {
+                         "product_id":  121,
+                         "product_name":  "Faglig arena for informasjonsforvaltning og deling av data",
+                         "version":  0,
+                         "author":  "codex",
+                         "relative_path":  "arkitektur/ressurser/samarbeidsfora/121-Faglig-arena-for-informasjonsforvaltning-og-deling-av-data-v0-codex.md",
+                         "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/121-Faglig-arena-for-informasjonsforvaltning-og-deling-av-data-v0-codex.md",
+                         "capabilities":  [
+                                              {
+                                                  "capability_id":  "id-896e4c1434604caa891b94bcce964720",
+                                                  "capability_name":  "Informasjonsforvaltning",
+                                                  "capability_slug":  "informasjonsforvaltning",
+                                                  "subcapability_id":  "id-5852d070415849fab42749cb488d984a",
+                                                  "subcapability_name":  "Datastyring",
+                                                  "subcapability_slug":  "datastyring",
+                                                  "mapping_label":  "Informasjonsforvaltning: Datastyring",
+                                                  "explanation":  "støtter erfaringsdeling og faglig samordning om hvordan informasjon og data bør forvaltes."
+                                              },
+                                              {
+                                                  "capability_id":  "id-e67a4f2983ce40f9823ec34ba460055a",
+                                                  "capability_name":  "Samarbeid",
+                                                  "capability_slug":  "samarbeid",
+                                                  "subcapability_id":  "id-b4a86e2e430c472b9f74bedb7f66fd74",
+                                                  "subcapability_name":  "Samarbeidsarenaer og nettverk",
+                                                  "subcapability_slug":  "samarbeidsarenaer-og-nettverk",
+                                                  "mapping_label":  "Samarbeid: Samarbeidsarenaer og nettverk",
+                                                  "explanation":  "fungerer som en åpen møteplass for dialog, innspill og koordinering på tvers av virksomheter."
+                                              }
+                                          ]
+                     },
+                     {
+                         "product_id":  122,
+                         "product_name":  "NIFS",
+                         "version":  0,
+                         "author":  "codex",
+                         "relative_path":  "arkitektur/ressurser/samarbeidsfora/122-NIFS-v0-codex.md",
+                         "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/122-NIFS-v0-codex.md",
+                         "capabilities":  [
+                                              {
+                                                  "capability_id":  "id-48c9873ae59341a49c2dca27379fab55",
+                                                  "capability_name":  "Informasjonssikkerhet",
+                                                  "capability_slug":  "informasjonssikkerhet",
+                                                  "subcapability_id":  "id-34d3d64b3afe4327a29ee6c2f7f74dff",
+                                                  "subcapability_name":  "Sikring av informasjonsflyt og datautveksling",
+                                                  "subcapability_slug":  "sikring-av-informasjonsflyt-og-datautveksling",
+                                                  "mapping_label":  "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
+                                                  "explanation":  "gir faglig deling og oppdatering om informasjonssikkerhet på et område som er avgjørende for trygg samhandling."
+                                              },
+                                              {
+                                                  "capability_id":  "id-e67a4f2983ce40f9823ec34ba460055a",
+                                                  "capability_name":  "Samarbeid",
+                                                  "capability_slug":  "samarbeid",
+                                                  "subcapability_id":  "id-b4a86e2e430c472b9f74bedb7f66fd74",
+                                                  "subcapability_name":  "Samarbeidsarenaer og nettverk",
+                                                  "subcapability_slug":  "samarbeidsarenaer-og-nettverk",
+                                                  "mapping_label":  "Samarbeid: Samarbeidsarenaer og nettverk",
+                                                  "explanation":  "er en fast møteplass for ansatte som arbeider med informasjonssikkerhet i offentlig sektor."
+                                              }
+                                          ]
+                     },
+                     {
+                         "product_id":  123,
+                         "product_name":  "DSOP-samarbeidet",
+                         "version":  0,
+                         "author":  "codex",
+                         "relative_path":  "arkitektur/ressurser/samarbeidsfora/123-DSOP-samarbeidet-v0-codex.md",
+                         "product_url":  "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/123-DSOP-samarbeidet-v0-codex.md",
+                         "capabilities":  [
+                                              {
+                                                  "capability_id":  "id-ad6f81e892a74590840828b6aabb270d",
+                                                  "capability_name":  "Datautveksling og integrasjon",
+                                                  "capability_slug":  "datautveksling-og-integrasjon",
+                                                  "subcapability_id":  "id-efe1a2676c124eeab946802af96a1ab7",
+                                                  "subcapability_name":  "Dele data med andre",
+                                                  "subcapability_slug":  "dele-data-med-andre",
+                                                  "mapping_label":  "Datautveksling og integrasjon: Dele data med andre",
+                                                  "explanation":  "samler aktører som utvikler offentlig-privat datadeling og samhandling på tvers av sektorgrenser."
+                                              },
+                                              {
+                                                  "capability_id":  "id-e67a4f2983ce40f9823ec34ba460055a",
+                                                  "capability_name":  "Samarbeid",
+                                                  "capability_slug":  "samarbeid",
+                                                  "subcapability_id":  "id-b4a86e2e430c472b9f74bedb7f66fd74",
+                                                  "subcapability_name":  "Samarbeidsarenaer og nettverk",
+                                                  "subcapability_slug":  "samarbeidsarenaer-og-nettverk",
+                                                  "mapping_label":  "Samarbeid: Samarbeidsarenaer og nettverk",
+                                                  "explanation":  "er en offentlig-privat samhandlingsarena der flere virksomheter koordinerer felles løsninger og tiltak."
+                                              }
+                                          ]
                      }
                  ],
     "capabilities":  [

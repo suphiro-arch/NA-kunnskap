@@ -2,7 +2,7 @@
 title: "Gjenbrukbare tjenester"
 weight: 3
 description: "Evne til å utvikle og benytte tjenester som kan brukes i nye sammenhenger på tvers av offentlig forvaltning og næringsliv."
-cardMeta: "4 produkter"
+cardMeta: "5 produkter"
 ---
 
 Evne til å utvikle og benytte tjenester som kan brukes i nye sammenhenger på tvers av offentlig forvaltning og næringsliv.
@@ -33,5 +33,10 @@ Denne delkapabiliteten er en del av [Tjenesteutvikling](../).
     <h3 class="capability-product-link__title">FINT Felleskomponent</h3>
     <p class="capability-product-link__description">gir fylkeskommunene et felles integrasjonsgrunnlag som kan gjenbrukes på tvers av leverandører og løsninger.</p>
     <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/70-FINT-Felleskomponent-v1-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Felles designsystem</h3>
+    <p class="capability-product-link__description">gjør designkomponenter og mønstre gjenbrukbare i flere løsninger og virksomheter.</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/118-Felles-designsystem-v1-codex.md">Åpne ressursbeskrivelse</a>
   </article>
 </div>

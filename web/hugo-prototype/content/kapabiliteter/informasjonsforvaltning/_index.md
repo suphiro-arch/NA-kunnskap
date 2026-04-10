@@ -2,7 +2,7 @@
 title: "Informasjonsforvaltning"
 weight: 9
 description: "Evne til å ha et felles rammeverk og styringsmodell for informasjonsforvaltning, slik at offentlige virksomheter kan utveksle og dele data og beskrivelser."
-cardMeta: "8 delkapabiliteter / 14 produkter"
+cardMeta: "8 delkapabiliteter / 15 produkter"
 productsMarkdown: |
   ## Relaterte produkter
   
@@ -62,6 +62,10 @@ productsMarkdown: |
     <article class="capability-product-link">
       <h3 class="capability-product-link__title">VIGO</h3>
       <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v1-codex.md">Åpne ressursbeskrivelse</a>
+    </article>
+    <article class="capability-product-link">
+      <h3 class="capability-product-link__title">Faglig arena for informasjonsforvaltning og deling av data</h3>
+      <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/121-Faglig-arena-for-informasjonsforvaltning-og-deling-av-data-v0-codex.md">Åpne ressursbeskrivelse</a>
     </article>
   </div>
 ---

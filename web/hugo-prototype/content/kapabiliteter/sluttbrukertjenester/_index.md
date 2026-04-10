@@ -2,7 +2,7 @@
 title: "Sluttbrukertjenester"
 weight: 3
 description: "Evne til å tilby en sammenhengende digital brukeropplevelse gjennom et økosystem av standardiserte og integrerbare tjenester."
-cardMeta: "3 delkapabiliteter / 13 produkter"
+cardMeta: "3 delkapabiliteter / 15 produkter"
 productsMarkdown: |
   ## Relaterte produkter
   
@@ -58,6 +58,14 @@ productsMarkdown: |
     <article class="capability-product-link">
       <h3 class="capability-product-link__title">VIGO</h3>
       <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v1-codex.md">Åpne ressursbeskrivelse</a>
+    </article>
+    <article class="capability-product-link">
+      <h3 class="capability-product-link__title">Klart språk</h3>
+      <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v0-codex.md">Åpne ressursbeskrivelse</a>
+    </article>
+    <article class="capability-product-link">
+      <h3 class="capability-product-link__title">Felles designsystem</h3>
+      <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/118-Felles-designsystem-v1-codex.md">Åpne ressursbeskrivelse</a>
     </article>
   </div>
 ---

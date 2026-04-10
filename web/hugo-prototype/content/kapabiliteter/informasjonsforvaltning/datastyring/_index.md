@@ -2,7 +2,7 @@
 title: "Datastyring"
 weight: 8
 description: "Evne til å sikre enhetlig og ansvarlig forvaltning av nasjonale dataressurser gjennom felles rammeverk, klar ansvarsplassering og systematisk kvalitetsarbeid."
-cardMeta: "6 produkter"
+cardMeta: "7 produkter"
 ---
 
 Evne til å sikre enhetlig og ansvarlig forvaltning av nasjonale dataressurser gjennom felles rammeverk, klar ansvarsplassering og systematisk kvalitetsarbeid.
@@ -43,5 +43,10 @@ Denne delkapabiliteten er en del av [Informasjonsforvaltning](../).
     <h3 class="capability-product-link__title">VIGO</h3>
     <p class="capability-product-link__description">forvalter store mengder strukturerte data om søkere, opplæring, kodeverk og administrasjon i et felles sektoroppsett.</p>
     <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v1-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Faglig arena for informasjonsforvaltning og deling av data</h3>
+    <p class="capability-product-link__description">støtter erfaringsdeling og faglig samordning om hvordan informasjon og data bør forvaltes.</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/121-Faglig-arena-for-informasjonsforvaltning-og-deling-av-data-v0-codex.md">Åpne ressursbeskrivelse</a>
   </article>
 </div>

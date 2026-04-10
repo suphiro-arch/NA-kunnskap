@@ -2,7 +2,7 @@
 title: "Samarbeidsarenaer og nettverk"
 weight: 2
 description: "Evne til å effektivisere, etablere, forvalte og fasilitere arenaer, nettverk og prosesser som fremmer kunnskapsdeling, dialog og samordning på tvers av virksomheter i økosystemet."
-cardMeta: "0 produkter"
+cardMeta: "4 produkter"
 ---
 
 Evne til å effektivisere, etablere, forvalte og fasilitere arenaer, nettverk og prosesser som fremmer kunnskapsdeling, dialog og samordning på tvers av virksomheter i økosystemet.
@@ -13,4 +13,25 @@ Denne delkapabiliteten er en del av [Samarbeid](../).
 
 ## Relaterte produkter
 
-<p>Ingen produkter er koblet til denne kapabiliteten forelopig.</p>
+<div class="capability-product-links">
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Styringsrådet for fellesløsningene</h3>
+    <p class="capability-product-link__description">er en fast arena for brukermedvirkning, dialog og samordning rundt Digdirs fellesløsninger.</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v0-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">Faglig arena for informasjonsforvaltning og deling av data</h3>
+    <p class="capability-product-link__description">fungerer som en åpen møteplass for dialog, innspill og koordinering på tvers av virksomheter.</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/121-Faglig-arena-for-informasjonsforvaltning-og-deling-av-data-v0-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">NIFS</h3>
+    <p class="capability-product-link__description">er en fast møteplass for ansatte som arbeider med informasjonssikkerhet i offentlig sektor.</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/122-NIFS-v0-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link">
+    <h3 class="capability-product-link__title">DSOP-samarbeidet</h3>
+    <p class="capability-product-link__description">er en offentlig-privat samhandlingsarena der flere virksomheter koordinerer felles løsninger og tiltak.</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/123-DSOP-samarbeidet-v0-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+</div>

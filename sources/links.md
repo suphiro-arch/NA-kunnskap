@@ -9,6 +9,7 @@ Sist redigert: 2026-04-09.
 - Nasjonale fellesløsninger: https://www.digdir.no/felleslosninger/nasjonale-felleslosninger/750
 - Samlet teknisk dokumentasjon: https://docs.digdir.no/
 - Samarbeidsportalen: https://samarbeid.digdir.no/
+- Digdirs virkemiddeloversikt (råkilde i repo): /c:/Users/HILROS/NA-kunnskap/sources/2026-04-10-digdir-virkemiddeloversikt-raw.md (lagt til 2026-04-10)
 - Altinn: https://www.altinn.no
 - Altinn dokumentasjon: https://docs.altinn.studio/nb/ (mest oppdatert for Altinn)
 - Altinn - tjenesteutvikling: https://samarbeid.digdir.no/altinn/tjenesteutvikling/2634
@@ -53,6 +54,31 @@ Sist redigert: 2026-04-09.
 - data.altinn.no dokumentasjon: https://docs.data.altinn.no/
 - Norge.no: https://www.norge.no/
 - Om tjenestene på Norge.no: https://www.norge.no/om-norge-no
+- Ansattporten dokumentasjon: https://docs.digdir.no/docs/ansattporten/ansattporten_wellknown.html (lagt til 2026-04-10)
+- Ansattporten protokoll: https://docs.digdir.no/docs/ansattporten/ansattporten_protocol.html (lagt til 2026-04-10)
+- Digitaliseringsrundskrivet: https://www.regjeringen.no/no/dokumenter/digitaliseringsrundskrivet/id3103320/ (lagt til 2026-04-10)
+- Digdir om prinsipp for digitaliseringstiltak: https://www.digdir.no/krav-og-anbefalinger/folg-prinsipp-digitaliseringstiltak/3101 (lagt til 2026-04-10)
+- Prosjektveiviseren: https://prosjektveiviseren.digdir.no/ (lagt til 2026-04-10)
+- Prosjektveiviseren - modellen: https://prosjektveiviseren.digdir.no/dokumentasjon/modellen/148 (lagt til 2026-04-10)
+- Prosjektveiviseren - anskaffelser i Prosjektveiviseren: https://prosjektveiviseren.digdir.no/prosjekttyper/anskaffelser-i-prosjektveiviseren/74 (lagt til 2026-04-10)
+- Klart språk for å forme sluttproduktet: https://www.digdir.no/klart-sprak/klart-sprak-forme-sluttproduktet/3567 (lagt til 2026-04-10)
+- Klart språk - ny veileder om klart språk i utvikling av digitale tjenester: https://www.digdir.no/klart-sprak/ny-veileder-om-klart-sprak-i-utvikling-av-digitale-tjenester/3603 (lagt til 2026-04-10)
+- Digitaliseringsvennlig regelverk - prinsipp og veiledning: https://www.digdir.no/digital-samhandling/prinsipp-3-bidra-til-digitaliseringsvennlige-regelverk/1057 (lagt til 2026-04-10)
+- Digitaliseringsvennlig regelverk - hva hvorfor og hvordan: https://www.digdir.no/datadeling/hva-hvorfor-og-hvordan/2870 (lagt til 2026-04-10)
+- Digitaliseringsvennlig regelverk - generelle anbefalinger: https://www.digdir.no/datadeling/generelle-anbefalinger-lage-digitaliseringsvennlig-regelverk/2868 (lagt til 2026-04-10)
+- Digitaliseringsvennlig regelverk - sjekkliste: https://www.digdir.no/datadeling/sjekkliste-digitaliseringsvennlig-regelverk/2898 (lagt til 2026-04-10)
+- Kompetansemodell for digital transformasjon - politikk og overordnede føringer: https://www.digdir.no/digitalisering-og-samordning/politikk-og-overordnede-foringer/3294 (lagt til 2026-04-10)
+- Kompetansemodell for digital transformasjon: https://www.digdir.no/digitalisering-og-samordning/kompetansemodell-digital-transformasjon/3293 (lagt til 2026-04-10)
+- Hva er digital transformasjon: https://www.digdir.no/innovasjon/hva-er-digital-transformasjon/1589 (lagt til 2026-04-10)
+- Ny kompetansemodell for digital transformasjon: https://www.digdir.no/digitalisering-og-samordning/ny-kompetansemodell-digital-transformasjon/3374 (lagt til 2026-04-10)
+- Innovasjon i offentlig sektor: https://www.digdir.no/innovasjon/innovasjon-i-offentlig-sektor/881 (lagt til 2026-04-10)
+- Hva er innovasjon i offentlig sektor: https://www.digdir.no/innovasjon/hva-er-innovasjon-i-offentlig-sektor/3073 (lagt til 2026-04-10)
+- Faglig arena for informasjonsforvaltning og deling av data: https://www.digdir.no/informasjonsforvaltning/faglig-arena-informasjonsforvaltning-og-deling-av-data/3543 (lagt til 2026-04-10)
+- NIFS - eksempel på møteside med nettverksbeskrivelse: https://www.digdir.no/informasjonssikkerhet/nifs-mote-informasjonssikkerheit-gjennom-10-ar/4984 (lagt til 2026-04-10)
+- DSOP: https://www.dsop.no/ (lagt til 2026-04-10)
+- Designsystemet: https://designsystemet.no/ (lagt til 2026-04-10)
+- Designsystemet - React: https://designsystemet.no/no/fundamentals/code/react (lagt til 2026-04-10)
+- Mandat for styringsråd for Digdirs fellesløsninger: https://www.digdir.no/media/1977/download (lagt til 2026-04-10)
 
 ### Brønnøysundregistrene
 - Brønnøysundregistrene: https://www.brreg.no

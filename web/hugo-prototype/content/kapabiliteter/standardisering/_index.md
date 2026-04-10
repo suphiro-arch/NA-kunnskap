@@ -2,7 +2,7 @@
 title: "Standardisering"
 weight: 10
 description: "Evne til å identifisere, vedta, forvalte og fremme bruk av omforente standarder og spesifikasjoner som sikrer interoperabilitet og gjenbruk på tvers av sektorer og landegrenser."
-cardMeta: "2 delkapabiliteter / 9 produkter"
+cardMeta: "2 delkapabiliteter / 11 produkter"
 productsMarkdown: |
   ## Relaterte produkter
   
@@ -42,6 +42,14 @@ productsMarkdown: |
     <article class="capability-product-link">
       <h3 class="capability-product-link__title">FINT Informasjonsmodell</h3>
       <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/72-FINT-Informasjonsmodell-v1-codex.md">Åpne ressursbeskrivelse</a>
+    </article>
+    <article class="capability-product-link">
+      <h3 class="capability-product-link__title">Digitaliseringsrundskrivet</h3>
+      <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/112-Digitaliseringsrundskrivet-v0-codex.md">Åpne ressursbeskrivelse</a>
+    </article>
+    <article class="capability-product-link">
+      <h3 class="capability-product-link__title">Digitaliseringsvennlig regelverk</h3>
+      <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v0-codex.md">Åpne ressursbeskrivelse</a>
     </article>
   </div>
 ---
