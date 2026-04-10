@@ -91,6 +91,48 @@ En ressurs bør normalt bare opprettes som egen enhet når den:
 - har dokumentert relevans for arkitektur-, gjenbruks- eller caseanalyser
 - kan beskrives selvstendig, ikke bare som et løst delbegrep i en annen ressurs
 
+## Opptakskrav for å bli del av NA-oversikten
+NA-oversikten skal være kuratert. Den skal ikke være en generell lenkesamling eller fullstendig katalog over alt som finnes i økosystemet.
+
+En ressurs bør normalt bare tas inn i NA-oversikten når den oppfyller alle disse kravene:
+- har tydelig og varig rolle i nasjonal eller tverrsektoriell digital samhandling, informasjonsforvaltning, tillit eller samordning
+- kan påvirke arkitekturvalg, prioritering, gjenbruksvurdering eller anbefalinger i caseanalyser
+- er tilstrekkelig avgrenset til å kunne stå som egen ressurs, ikke bare som underside, kanal, funksjon eller detalj i en større ressurs
+- har identifiserbar eier, forvalter eller ansvarlig arena som gjør ressursen sporbar og forvaltningsmessig forståelig
+- har et kildegrunnlag som er stabilt nok til at ressursen kan beskrives uten omfattende gjetting
+
+For sektorspesifikke ressurser gjelder i tillegg en høyere terskel:
+- ressursen bør normalt bare tas inn når den også har tydelig betydning for samhandling på tvers av sektorer eller mellom forvaltningsnivåer
+- det er ikke tilstrekkelig at ressursen er viktig, stor eller mye brukt innen egen sektor alene
+
+## Vurderingskriterier utover minstekravene
+Når minstekravene er oppfylt, bør disse kriteriene brukes for å vurdere om ressursen faktisk bør prioriteres inn:
+- brukes eller påvirker flere virksomheter, sektorer eller forvaltningsnivåer
+- har tydelig kobling til en eller flere kapabiliteter i nasjonal arkitektur
+- er relevant som gjenbrukbar byggestein, felles føring, felles informasjonsgrunnlag eller samordningsarena
+- går igjen i case, analyser, arkitekturdiskusjoner eller behovsvurderinger
+- representerer en viktig avhengighet, muliggjører eller begrensning i samhandlingslandskapet
+- har tilstrekkelig modenhet eller varighet til å være nyttig også utover et kort tidsvindu
+
+## Ressurser som normalt ikke skal inn
+Følgende skal normalt ikke inn som egne ressurser i NA-oversikten:
+- enkeltarrangementer, konferanser og kampanjer
+- nyhetssaker, kunngjøringer og tidsavgrensede lanseringer
+- generelle temaområder uten tydelig ressursavgrensning
+- rene informasjonssider uten selvstendig ressursrolle
+- interne arbeidsformer, programmer eller satsinger uten tydelig leveranse eller varig ressursform
+- små delkomponenter som beskrives bedre som del av en større ressurs
+
+## Praktisk beslutningstest ved nye kandidater
+Bruk disse fem spørsmålene før en ny kandidat tas inn:
+1. Er dette en tydelig ressurs, ikke bare et tema, tiltak eller en kommunikasjonsside?
+2. Har ressursen en varig rolle i samhandlingslandskapet?
+3. Kan ressursen påvirke vurderinger eller anbefalinger i et case?
+4. Er ressursen viktig nok til å stå som egen oppføring, og ikke bare som del av en annen ressurs?
+5. Har vi godt nok kildegrunnlag til å beskrive ressursen saklig?
+
+Hvis svaret ikke er tydelig ja på minst fire av fem spørsmål, bør ressursen normalt ikke tas inn ennå.
+
 ## Forholdet til kapabiliteter
 - kapabiliteter skal brukes som faglig kobling, ikke som primær mappeinndeling
 - en ressurs kan ha én primærkapabilitet og flere sekundære kapabiliteter
