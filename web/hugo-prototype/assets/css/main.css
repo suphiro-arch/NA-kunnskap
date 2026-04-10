@@ -583,7 +583,6 @@ a:hover {
   min-width: 8rem;
 }
 
-.prose td:nth-child(2) code,
 .prose td:nth-child(8) code {
   white-space: nowrap;
 }
