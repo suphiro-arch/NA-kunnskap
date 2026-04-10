@@ -20,6 +20,10 @@ sources:
 ---
 
 ## Hva er gjort
+- Opprettet [124-Felles-sikkerhet-i-forvaltningen-v0-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v0-codex.md), lagt inn `DIGDIR-056` i [produktnummerering.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/produktnummerering.md), oppdatert [sources/links.md](/c:/Users/HILROS/NA-kunnskap/sources/links.md) med Digdir-kilder og koblet ressursen inn i [produkt-kapabilitet-koblinger.yaml](/c:/Users/HILROS/NA-kunnskap/arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml).
+- Reparert en feilinnsetting i [produkt-kapabilitet-koblinger.yaml](/c:/Users/HILROS/NA-kunnskap/arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml), regenerert ressurs- og kapabilitetsoversiktene og bekreftet grønt resultat i tegnkodingsvalidatoren etter retting.
+- Løftet [111-Digitaliseringsradet-v0-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v0-codex.md) til full samarbeidsforum-mal og styrket kildegrunnlaget i [sources/links.md](/c:/Users/HILROS/NA-kunnskap/sources/links.md) med generelle Digdir-lenker for rådet.
+- Oppdatert `DIGDIR-052` til `DIGDIR-055` til full samarbeidsforum-mal, med tydeligere beskrivelse av mandat, beslutningsmyndighet, påvirkningsområde, involveringstidspunkt og prinsippspenninger.
 - Sjekket om mal og prompt for normerende ressurser og samarbeidsfora er gode nok for senere analysebruk, og strammet inn oppsettet for ikke-operative ressursbeskrivelser.
 - Opprettet egen prompt for ikke-operative ressursbeskrivelser i [ressursbeskrivelser.system.md](/c:/Users/HILROS/NA-kunnskap/config/prompts/ressursbeskrivelser.system.md) og egen mal for samarbeidsfora i [samarbeidsforum-template.md](/c:/Users/HILROS/NA-kunnskap/config/templates/samarbeidsforum-template.md).
 - Utvidet [normerende-ressurs-template.md](/c:/Users/HILROS/NA-kunnskap/config/templates/normerende-ressurs-template.md) med feltene `Forpliktelsesnivå og etterlevelse`, `Typiske analyse- og beslutningssituasjoner` og `Konsekvens ved manglende bruk eller avvik`.
@@ -217,8 +221,8 @@ Disse skal tas inn *parallelt* med produktgrunnlag-arbeidet og vil gjøre det le
 
 ## Konkrete neste oppgaver –" Prioritert rekkefølge
 
-- Oppdatere de første opprettede samarbeidsforaene til den nye malen, særlig `DIGDIR-052` til `DIGDIR-055`, slik at de blir tydeligere på beslutningsmyndighet, påvirkningsområde og når de bør involveres.
 - Vurdere om de første normerende Digdir-ressursene bør få utfylt de nye analysefeltene før neste større bolk legges inn.
+- Vurdere neste Digdir-bolk fra rålista, med særlig blikk på `FSiF`, `Regulatorisk sandkasse for KI`, `Nasjonal sandkasse for digital lommebok` og `Samarbeidsportalen`.
 - Kvalitetssikre om `DIGDIR-048 Rammeverk for innovasjon i offentlig sektor` skal stå som egen normerende ressurs, eller om den bør avgrenses tydeligere mot Digdirs åpne innovasjonsinnhold før videre utfylling.
 - Vurdere om flere Digdir-virkemidler fra rålista bør inn som egne ressurser, eller om noen av dem heller bør holdes som underlag og kontekst.
 

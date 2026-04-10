@@ -2,7 +2,7 @@
 title: "Informasjonssikkerhet"
 weight: 7
 description: "Evne til å ha tilstrekkelig sikkerhet i tjenester og løsninger som benyttes i felles økosystem."
-cardMeta: "2 delkapabiliteter / 17 produkter"
+cardMeta: "2 delkapabiliteter / 18 produkter"
 productsMarkdown: |
   ## Relaterte produkter
   
@@ -74,6 +74,10 @@ productsMarkdown: |
     <article class="capability-product-link">
       <h3 class="capability-product-link__title">NIFS</h3>
       <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/122-NIFS-v0-codex.md">Åpne ressursbeskrivelse</a>
+    </article>
+    <article class="capability-product-link">
+      <h3 class="capability-product-link__title">Felles sikkerhet i forvaltningen</h3>
+      <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v0-codex.md">Åpne ressursbeskrivelse</a>
     </article>
   </div>
 ---
