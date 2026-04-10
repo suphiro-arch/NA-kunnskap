@@ -27,6 +27,7 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Nye eller oppdaterte produktbeskrivelser skal lagres som ren `UTF-8`.
 - Etter opprettelse eller endring av produktbeskrivelser skal det gjøres en eksplisitt kontroll for tegnkodingsfeil, ikke bare en visuell sjekk i terminalen.
 - Hvis tekst viser typiske tegnkodingsfeil med doble bokstavsekvenser eller ødelagte typografitegn, skal fila rettes før commit og før genererte oversikter oppdateres.
+- Lokal pre-commit hook for encoding-kontroll skal være aktiv (`tools/setup-git-hooks.ps1`) slik at commits stoppes automatisk ved mojibake.
 - I normerende ressursbeskrivelser skal `Status/Livsfase` beskrive status på selve ressursen, ikke status på dokumentutkastet eller ressursbeskrivelsen.
 - Tidlige versjoner av normerende ressursbeskrivelser skal som hovedregel beholde hele malstrukturen, og uferdige felt skal merkes eksplisitt i teksten i stedet for å utelates.
 

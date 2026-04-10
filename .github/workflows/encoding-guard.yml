@@ -1,0 +1,43 @@
+name: Encoding Guard
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "arkitektur/**"
+      - "web/hugo-prototype/content/**"
+      - "sources/**"
+      - "briefs/**"
+      - "config/**"
+      - "AGENTS.md"
+      - "README.md"
+      - "tools/check-mojibake.ps1"
+      - ".github/workflows/encoding-guard.yml"
+  pull_request:
+    paths:
+      - "arkitektur/**"
+      - "web/hugo-prototype/content/**"
+      - "sources/**"
+      - "briefs/**"
+      - "config/**"
+      - "AGENTS.md"
+      - "README.md"
+      - "tools/check-mojibake.ps1"
+      - ".github/workflows/encoding-guard.yml"
+
+jobs:
+  check-encoding:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run mojibake guard (PowerShell)
+        shell: pwsh
+        run: |
+          ./tools/check-mojibake.ps1 -Root .
+
+      - name: Run existing text encoding validator
+        run: |
+          python web/hugo-prototype/scripts/validate-text-encoding.py
