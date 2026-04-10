@@ -35,42 +35,59 @@
             <li class="site-nav__item {{ if $isInSectionBranch }}is-active{{ end }}">
               <a href="{{ $section.RelPermalink }}">{{ $section.Title }}</a>
               {{ if $isInSectionBranch }}
-                {{ $children := $section.Sections.ByWeight }}
-                {{ if gt (len $children) 0 }}
+                {{ if eq $section.Section "ressursoversikt" }}
                 <ul class="site-nav__sublist">
-                  {{ range $children }}
-                  {{ if not .Params.hideInNav }}
-                  {{ $isCurrentBranch := or (eq .RelPermalink $.RelPermalink) (.IsAncestor $) }}
-                  <li>
-                    <a class="{{ if $isCurrentBranch }}is-current{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a>
-                    {{ if and $isCurrentBranch .IsSection }}
-                      {{ $grandchildren := .Sections.ByWeight }}
-                      {{ if gt (len $grandchildren) 0 }}
-                      <ul class="site-nav__sublist">
-                        {{ range $grandchildren }}
-                        {{ if not .Params.hideInNav }}
-                        <li>
-                          <a class="{{ if eq .RelPermalink $.RelPermalink }}is-current{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a>
-                        </li>
-                        {{ end }}
-                        {{ end }}
-                      </ul>
-                      {{ end }}
-                    {{ end }}
-                  </li>
+                  {{ with site.GetPage "/ressursoversikt/produkter/operative-losninger-og-tjenester" }}
+                  <li><a class="{{ if or (eq .RelPermalink $.RelPermalink) (.IsAncestor $) }}is-current{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
                   {{ end }}
-                  {{ else if .IsSection }}
-                  {{ $flattenedChildren := .Sections.ByWeight }}
-                  {{ range $flattenedChildren }}
-                  {{ if not .Params.hideInNav }}
-                  {{ $isCurrentBranch := or (eq .RelPermalink $.RelPermalink) (.IsAncestor $) }}
-                  <li>
-                    <a class="{{ if $isCurrentBranch }}is-current{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a>
-                  </li>
+                  {{ with site.GetPage "/ressursoversikt/produkter/normerende-ressurser" }}
+                  <li><a class="{{ if or (eq .RelPermalink $.RelPermalink) (.IsAncestor $) }}is-current{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
                   {{ end }}
+                  {{ with site.GetPage "/ressursoversikt/produkter/samarbeidsfora" }}
+                  <li><a class="{{ if or (eq .RelPermalink $.RelPermalink) (.IsAncestor $) }}is-current{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
                   {{ end }}
+                  {{ with site.GetPage "/ressursoversikt/produkter/andre-ressurser" }}
+                  <li><a class="{{ if or (eq .RelPermalink $.RelPermalink) (.IsAncestor $) }}is-current{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
                   {{ end }}
                 </ul>
+                {{ else }}
+                  {{ $children := $section.Sections.ByWeight }}
+                  {{ if gt (len $children) 0 }}
+                  <ul class="site-nav__sublist">
+                    {{ range $children }}
+                    {{ if not .Params.hideInNav }}
+                    {{ $isCurrentBranch := or (eq .RelPermalink $.RelPermalink) (.IsAncestor $) }}
+                    <li>
+                      <a class="{{ if $isCurrentBranch }}is-current{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                      {{ if and $isCurrentBranch .IsSection }}
+                        {{ $grandchildren := .Sections.ByWeight }}
+                        {{ if gt (len $grandchildren) 0 }}
+                        <ul class="site-nav__sublist">
+                          {{ range $grandchildren }}
+                          {{ if not .Params.hideInNav }}
+                          <li>
+                            <a class="{{ if eq .RelPermalink $.RelPermalink }}is-current{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                          </li>
+                          {{ end }}
+                          {{ end }}
+                        </ul>
+                        {{ end }}
+                      {{ end }}
+                    </li>
+                    {{ end }}
+                    {{ else if .IsSection }}
+                    {{ $flattenedChildren := .Sections.ByWeight }}
+                    {{ range $flattenedChildren }}
+                    {{ if not .Params.hideInNav }}
+                    {{ $isCurrentBranch := or (eq .RelPermalink $.RelPermalink) (.IsAncestor $) }}
+                    <li>
+                      <a class="{{ if $isCurrentBranch }}is-current{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    </li>
+                    {{ end }}
+                    {{ end }}
+                    {{ end }}
+                  </ul>
+                  {{ end }}
                 {{ end }}
               {{ end }}
             </li>
