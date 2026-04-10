@@ -263,6 +263,7 @@ Status 2026-04-09:
 - Webgeneratoren for kapabilitetssider bygger nå lenker fra faktisk `relative_path`, slik at flyttede filer fortsatt peker riktig i generert innhold.
 - De nye `NOVARI`-ressursene er harmonisert til samme nummererte filnavnsmønster som resten av porteføljen, og styringsreglene presiserer nå at nye ressursfiler skal følge dette når løpenummer er fastsatt.
 - Webgeneratoren for ressursoversikten bygger nå egne undersider for ressursenes hovedtyper, slik at operative løsninger og tjenester, normerende ressurser og andre resterende ressurser kan navigeres separat i weben.
+- De normerende ressursene som ble opprettet 2026-04-09 er gjennomgått og normalisert: `Status/Livsfase` beskriver nå ressursstatus, hele malstrukturen er beholdt i v0.x-filene, og språk/tegnsett er ryddet opp før ny generering av ressursoversikten.
 - Første hovedmigrering av siste operative beskrivelser er dermed i praksis fullført.
 - Lokal Hugo-build er fortsatt ikke verifisert fordi `hugo` ikke er installert i dette miljøet.
 
