@@ -11,6 +11,13 @@ Formål:
    - `arkitektur/prinsipper/principles.md`
    - `arkitektur/ressurser/produktnummerering.md`
    - `arkitektur/ressurser/operative-losninger-og-tjenester/`
+   - `arkitektur/ressurser/normerende-ressurser/`
+   - `arkitektur/ressurser/samarbeidsfora/`
+
+1A. Bruk ressursmappene i ulike faser av analysen:
+   - `operative-losninger-og-tjenester/` brukes i produktvurderingen (punkt 5)
+   - `normerende-ressurser/` brukes i prinsippvurderingen og ved vurdering av standarder og retningslinjer (punkt 6)
+   - `samarbeidsfora/` brukes i strategisk vurdering og ved identifisering av samordningsarenaer (punkt 9)
 
 2. Bruk produktkatalogen som fasit for hva som finnes.
 
@@ -18,7 +25,7 @@ Formål:
 
 2B. Ikke bruk metadatafelter i produktregisteret alene (for eksempel kapabilitetstreff eller merknad) som grunnlag for produktvalg.
 
-2C. Produktvalg og klassifisering skal begrunnes med innhold fra selve produktbeskrivelsen i `arkitektur/ressurser/operative-losninger-og-tjenester/` når den finnes.
+2C. Produktvalg og klassifisering skal begrunnes med innhold fra selve produktbeskrivelsen i `arkitektur/ressurser/operative-losninger-og-tjenester/` når den finnes. Normerende ressurser fra `arkitektur/ressurser/normerende-ressurser/` brukes som støtte ved prinsippvurdering, ikke som produktkilde.
 
 2D. Hvis produktbeskrivelse mangler eller er for tynn, marker vurderingen eksplisitt som usikker og oppgi at klassifiseringen har lavere tillit.
 
@@ -85,6 +92,8 @@ Formål:
    - uavklarte juridiske eller organisatoriske forhold
 
 13. Skriv analysen ut iht. `config/templates/arkitekturassistert-analyse-av-utviklingsbehov-template.md`
+
+14. Lagre analysen i `analyser/` med filnavn på formen `<løpenummer>-<kort-beskrivende-tittel>-analyse.md`
 
 ## Strenge regler
 
