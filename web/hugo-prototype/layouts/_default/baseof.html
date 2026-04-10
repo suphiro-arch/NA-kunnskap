@@ -42,7 +42,7 @@
             <li class="site-nav__item {{ if eq $section.Section $currentSection }}is-active{{ end }}">
               <a href="{{ $section.RelPermalink }}">{{ $section.Title }}</a>
               {{ if eq $section.Section $currentSection }}
-                {{ $children := $section.Pages.ByWeight }}
+                {{ $children := $section.Sections.ByWeight }}
                 {{ if gt (len $children) 0 }}
                 <ul class="site-nav__sublist">
                   {{ range $children }}
