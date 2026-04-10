@@ -7,7 +7,7 @@
 
 ---
 
-## Kortversjon for ledelse (Executive Summary)
+## Kortversjon for ledelse
 
 Vertskaptet har et modent og fokusert problemrom: **overgangen fra manuell årlig rapportering kommune-stat til kontinuerlig hendelsesdrevet datadeling.** Casen har høy strategisk relevans fordi den knytter til tre arkitekturprinsipper (P4, P6, P7) og adresserer både administrative besparelser og datakvalitet.
 
@@ -15,7 +15,7 @@ Vertskaptet har et modent og fokusert problemrom: **overgangen fra manuell årli
 
 | Rolle | Produkt | Argument |
 |---|---|---|
-| **Hendelsespublisering** | Altinn Events (DIGDIR-010) | Notification-first-mønster; 90-dagers lagring; pub/subscribe |
+| **Hendelsespublisering** | Altinn Events (DIGDIR-010) | Notifikasjon-først-mønster; 90-dagers lagring; publisering og abonnement |
 | **Maskin-autentisering** | Maskinporten (DIGDIR-002) | Kjerne for sikre API-oppslag mellom systemer |
 | **Overgangsløsning** | Altinn Formidling (DIGDIR-008) | For områder der API ikke er klar; automatisk pakking av data |
 | **Metadataforvaltning** | Felles datakatalog + Begrepskatalog + API-katalog | Semantisk grunnlag og oversikt over dataressurser |
@@ -23,8 +23,8 @@ Vertskaptet har et modent og fokusert problemrom: **overgangen fra manuell årli
 **Primærfordeler:**
 - Eliminerer manuelle rapporteringstopper; rapportering blir kontinuerlig
 - Validering ved kilden reduserer etterarbeid og datakvalitet
-- Notification-first-mønster minimerer datafluks av sensitive detaljer
-- Kommunal innovasjon enableres ved sanntidstilgang til strukturert data
+- Notifikasjon-først-mønster minimerer dataflyt av sensitive detaljer
+- Kommunal innovasjon muliggjøres ved sanntidstilgang til strukturert data
 
 **Kritiske forutsetninger:**
 - SSB må være villig til å gå fra filmottak til API-oppslag
@@ -137,7 +137,7 @@ Viktigste usikkerheter:
 |---|---|---|---|
 | **P1: Ta utgangspunkt i brukernes behov** | Saksbehandler skal oppleve enkel registrering uten ekstra rapporteri; Kommune skal få tilgang til egne data; Stat skal få pålitelig datakilde | Hendelsesdrevet modell pilotter validering ved source; innebygd i fagsystemet | OK |
 | **P2: Ta arkitekturbeslutninger på rett nivå** | Valg av hendelsestjeneste og API-modell er nasjonalt; imple lokalt | DIGDIR fastsetter standarder via Altinn Events + Maskinporten; Kommuner velger implementering | OK |
-| **P4: Del og gjenbruk data** | **Kjerne:** Data skal deles kontinuerlig, ikke årlig; samme data for statsreportering OG kommunal analyse | Notification-first-mønster gjør data tilgjengelig for flere formål | **Sterk støtte** |
+| **P4: Del og gjenbruk data** | **Kjerne:** Data skal deles kontinuerlig, ikke årlig; samme data for statsrapportering OG kommunal analyse | Notifikasjon-først-mønster gjør data tilgjengelig for flere formål | **Sterk støtte** |
 | **P5: Del og gjenbruk løsninger** | Felleskomponenter (Altinn Events, Maskinporten, kataloger) skal brukes i stedet for kommune-spesifikke løsninger | Anbefaling går på gjenbruk av eksisterende produkter | **Sterk støtte** |
 | **P6: Lag digitale løsninger som støtter samhandling** | Hendelsesdrevet arkitektur muliggjør at andre autorisertin aktører kan abonnere på samme hendelser | Pub/subscribe-modell i Altinn Events tillater fleksibel ekspansjon av mottakere | **Sterk støtte** |
 | **P7: Sørg for tillit til oppgaveløsningen** | Sikkerhet må være innebygd; sporbarhet på validering og levering; kvittering på rapporteringsplikten oppfylt | Maskinporten sikrer maskinell tilgang; Altinn Events logger; Altinn Autorisasjon kontrollerer tilgang | **Sterk støtte** |

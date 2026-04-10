@@ -1,4 +1,4 @@
-﻿---
+---
 date: 2026-03-31
 author: copilot
 status: "TEST av mal"
@@ -81,7 +81,7 @@ Viktigste usikkerheter:
 - Primær målgruppe: Unge som avslutter eller er i ferd med å avslutte videregående opplæring
 - Sekundær målgruppe: Foresatte der relevant, ansatte i tjenester som veileder og følger opp unge, fagsystemleverandører
 - Styringsnivå: Nasjonalt og sektornivå
-- Viktig avgrensning: Tiltakene skal rette seg mot gjenbruk, standardisering og styring av nasjonal resultatinfrastruktur –" ikke lokale fagsystemanskaffelser
+- Viktig avgrensning: Tiltakene skal rette seg mot gjenbruk, standardisering og styring av nasjonal resultatinfrastruktur – ikke lokale fagsystemanskaffelser
 
 ## 4. Problembilde
 
@@ -142,24 +142,24 @@ Dette caset står sterkere enn case 1 på P4 og P5 fordi sentrale nasjonale løs
 
 | Produkt | Produktkategori | Relevans | Kan brukes direkte | Bør videreutvikles | Ikke relevant | Begrunnelse |
 |---|---|---|---|---|---|---|
-| Nasjonal vitnemålsdatabase (SIKT-004) | Register –" vitnemål | Høy | Ja | Nei | Nei | Autoritativ nasjonal kilde for resultater fra videregående opplæring |
-| Vitnemålsportalen (SIKT-005) | Portal –" deling av vitnemål | Høy | Ja | Nei | Nei | Direkte relevant sluttbrukerflate for deling av dokumentasjon |
-| Opptaksløsninger (SIKT-003) | Fellesløsning –" opptak | Høy | Ja | Nei | Nei | Etablert viderebruk av resultater i opptak til høyere utdanning |
-| VIGO (NOVARI-004) | Fellesløsning –" inntak og administrasjon i videregående | Høy | Ja | Nei | Nei | Sentralt sektorsystem for videregående med høy relevans for resultatinformasjon og oppfølging |
-| Feide (SIKT-001) | Felleskomponent –" autentisering | Middels | Ja | Nei | Nei | Relevante brukergrupper i utdanning kan autentiseres gjennom etablert sektorløsning |
-| ID-porten (DIGDIR-001) | Felleskomponent –" autentisering | Middels | Ja | Nei | Nei | Relevante for unge over 18 og foresatte i noen løp |
-| Altinn Autorisasjon (DIGDIR-004) | Felleskomponent –" autorisasjon | Middels | Ja | Ja | Nei | Relevant der resultatinformasjon skal brukes av andre på vegne av den unge eller under tydelig tilgangsstyring |
-| Begrepskatalog (DIGDIR-012) | Fellesløsning –" begrepsbeskrivelse | Middels | Nei | Ja | Nei | Kan gi semantisk ryddighet i forståelsen av resultater og kompetanse, men innhold må etableres |
-| FINT Informasjonsmodell (NOVARI-003) | Referanseressurs –" informasjonsmodell | Middels | Nei | Ja | Nei | Kan bidra til harmonisering av resultatrelaterte begreper, men krever tilpasning for nasjonal viderebruk |
-| Felles datakatalog (DIGDIR-011) | Fellesløsning –" metadataplattform | Lav/middels | Ja | Nei | Nei | Kan synliggjøre datasett og beskrivelser, men er ikke i seg selv delingsmotoren |
-| API-katalog (DIGDIR-013) | Fellesløsning –" API-oversikt | Lav/middels | Ja | Nei | Nei | Relevant hvis resultattjenester skal eksponeres som standardiserte API-er |
-| data.altinn.no (DIGDIR-015) | Fellesløsning –" kontrollert datadeling | Middels | Ja | Nei | Nei | Aktuell som mønster for kontrollert deling til autoriserte aktører utenfor dagens løp |
-| Dialogporten (DIGDIR-020) | Fellesløsning –" dialogtjeneste | Lav | Nei | Nei | Ja | Ikke kjerneprodukt for resultatinformasjon, som primært er register- og dokumentasjonsbasert |
-| Altinn Events (DIGDIR-010) | Felleskomponent –" hendelsestjeneste | Lav/middels | Nei | Nei | Ja | Kan være nyttig som supplerende mønster, men er ikke sentralt for selve resultatinformasjonen |
-| FIKS-plattformen (KS-001) | Plattform –" kommunal integrasjon | Middels | Ja | Nei | Nei | Relevant hvis kommunale oppfølgingstjenester skal bruke resultatinformasjon gjennom standardiserte integrasjoner |
-| Felles studentsystem (SIKT-002) | Plattform –" studentdata | Lav | Nei | Nei | Ja | Relevant først etter overgang til høyere utdanning, ikke for selve resultatinformasjonen fra videregående |
-| eInnsyn (DIGDIR-006) | Fellesløsning –" innsynsløsning | Lav | Nei | Nei | Ja | Ikke relevant for primærbehovet |
-| eSignering (DIGDIR-003) | Felleskomponent –" signering | Lav | Nei | Nei | Ja | Ikke sentral for dette caset |
+| Nasjonal vitnemålsdatabase (SIKT-004) | Register – vitnemål | Høy | Ja | Nei | Nei | Autoritativ nasjonal kilde for resultater fra videregående opplæring |
+| Vitnemålsportalen (SIKT-005) | Portal – deling av vitnemål | Høy | Ja | Nei | Nei | Direkte relevant sluttbrukerflate for deling av dokumentasjon |
+| Opptaksløsninger (SIKT-003) | Fellesløsning – opptak | Høy | Ja | Nei | Nei | Etablert viderebruk av resultater i opptak til høyere utdanning |
+| VIGO (NOVARI-004) | Fellesløsning – inntak og administrasjon i videregående | Høy | Ja | Nei | Nei | Sentralt sektorsystem for videregående med høy relevans for resultatinformasjon og oppfølging |
+| Feide (SIKT-001) | Felleskomponent – autentisering | Middels | Ja | Nei | Nei | Relevante brukergrupper i utdanning kan autentiseres gjennom etablert sektorløsning |
+| ID-porten (DIGDIR-001) | Felleskomponent – autentisering | Middels | Ja | Nei | Nei | Relevante for unge over 18 og foresatte i noen løp |
+| Altinn Autorisasjon (DIGDIR-004) | Felleskomponent – autorisasjon | Middels | Ja | Ja | Nei | Relevant der resultatinformasjon skal brukes av andre på vegne av den unge eller under tydelig tilgangsstyring |
+| Begrepskatalog (DIGDIR-012) | Fellesløsning – begrepsbeskrivelse | Middels | Nei | Ja | Nei | Kan gi semantisk ryddighet i forståelsen av resultater og kompetanse, men innhold må etableres |
+| FINT Informasjonsmodell (NOVARI-003) | Referanseressurs – informasjonsmodell | Middels | Nei | Ja | Nei | Kan bidra til harmonisering av resultatrelaterte begreper, men krever tilpasning for nasjonal viderebruk |
+| Felles datakatalog (DIGDIR-011) | Fellesløsning – metadataplattform | Lav/middels | Ja | Nei | Nei | Kan synliggjøre datasett og beskrivelser, men er ikke i seg selv delingsmotoren |
+| API-katalog (DIGDIR-013) | Fellesløsning – API-oversikt | Lav/middels | Ja | Nei | Nei | Relevant hvis resultattjenester skal eksponeres som standardiserte API-er |
+| data.altinn.no (DIGDIR-015) | Fellesløsning – kontrollert datadeling | Middels | Ja | Nei | Nei | Aktuell som mønster for kontrollert deling til autoriserte aktører utenfor dagens løp |
+| Dialogporten (DIGDIR-020) | Fellesløsning – dialogtjeneste | Lav | Nei | Nei | Ja | Ikke kjerneprodukt for resultatinformasjon, som primært er register- og dokumentasjonsbasert |
+| Altinn Events (DIGDIR-010) | Felleskomponent – hendelsestjeneste | Lav/middels | Nei | Nei | Ja | Kan være nyttig som supplerende mønster, men er ikke sentralt for selve resultatinformasjonen |
+| FIKS-plattformen (KS-001) | Plattform – kommunal integrasjon | Middels | Ja | Nei | Nei | Relevant hvis kommunale oppfølgingstjenester skal bruke resultatinformasjon gjennom standardiserte integrasjoner |
+| Felles studentsystem (SIKT-002) | Plattform – studentdata | Lav | Nei | Nei | Ja | Relevant først etter overgang til høyere utdanning, ikke for selve resultatinformasjonen fra videregående |
+| eInnsyn (DIGDIR-006) | Fellesløsning – innsynsløsning | Lav | Nei | Nei | Ja | Ikke relevant for primærbehovet |
+| eSignering (DIGDIR-003) | Felleskomponent – signering | Lav | Nei | Nei | Ja | Ikke sentral for dette caset |
 
 ### 7.2 Oppsummering
 
