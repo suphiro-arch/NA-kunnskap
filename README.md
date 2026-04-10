@@ -61,6 +61,10 @@ Repo for arbeid med nasjonal arkitektur, produktbeskrivelser, kapabiliteter, pri
 ## Robust tegnsettingsvern
 - bruk `web/hugo-prototype/scripts/validate-text-encoding.py` for å stoppe mistenkelige tegnkodingsfeil og BOM i validerte tekstfiler
 - bruk `tools/safe_bulk_text_repair.py` ved større oppryddinger i språk/encoding
+- aktiver lokal pre-commit guard én gang per klone:
+  `powershell -ExecutionPolicy Bypass -File tools/setup-git-hooks.ps1`
+- lokal guard kan kjøres manuelt ved behov:
+  `powershell -ExecutionPolicy Bypass -File tools/check-mojibake.ps1 -Root .`
 
 Anbefalt bruk av sikker reparasjon:
 
