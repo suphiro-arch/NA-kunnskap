@@ -391,64 +391,10 @@ function Extract-PrimaryDocumentationLink {
   return ''
 }
 
-$latest = Get-RegisterEntries
-
-foreach ($entry in $latest) {
-  $typeInfo = Get-ResourceTypeInfo -RelativePath $entry.RelativePath
-  Add-Member -InputObject $entry -NotePropertyName ResourceTypeSlug -NotePropertyValue $typeInfo.Slug
-  Add-Member -InputObject $entry -NotePropertyName ResourceTypeTitle -NotePropertyValue $typeInfo.Title
-  Add-Member -InputObject $entry -NotePropertyName ResourceTypeDescription -NotePropertyValue $typeInfo.Description
-}
-
-$index = @(
-  '---',
-  'title: "Ressurser"',
-  'weight: 31',
-  'description: "Samlet oversikt over siste publiserte versjon av hver ressursbeskrivelse."',
-  'hideToc: true',
-  '---',
-  '',
-  '# Ressurser (siste versjon)',
-  '',
-  'Denne oversikten viser siste registrerte versjon per ressurs basert paa `arkitektur/ressurser/produktnummerering.md`.',
-  '',
-  'Bruk siden for aa finne riktig ressursbeskrivelse raskt, og gaa derfra videre til detaljene i markdownfilen paa GitHub eller via relevante kapabilitetssider.',
-  '',
-  'Ressursene er gruppert etter hovedtype, med egne undersider for operative løsninger og tjenester, normerende ressurser og samarbeidsfora.'
-)
-
-foreach ($typeDef in $resourceTypeDefinitions) {
-  $typeEntries = @($latest | Where-Object { $_.ResourceTypeSlug -eq $typeDef.Slug })
-  if ($typeEntries.Count -eq 0) { continue }
-
-  $index += ''
-  $index += ("## [{0}](./{1}/)" -f $typeDef.Title, $typeDef.Slug)
-  $index += ''
-  $index += $typeDef.Description
-  $index += ''
-  $index += ("Antall ressurser: **{0}**" -f $typeEntries.Count)
-}
-
-foreach ($typeDef in $resourceTypeDefinitions) {
-  $typeEntries = @($latest | Where-Object { $_.ResourceTypeSlug -eq $typeDef.Slug })
-  if ($typeEntries.Count -eq 0) { continue }
-
-  $typeDir = Join-Path $outDir $typeDef.Slug
-  New-Item -ItemType Directory -Force -Path $typeDir | Out-Null
-
-  $typeIndex = @(
-    '---',
-    ('title: "{0}"' -f $typeDef.Title),
-    ('weight: {0}' -f $typeDef.Weight),
-    ('description: "{0}"' -f $typeDef.Description),
-    'hideToc: true',
-    '---',
-    '',
-    ('# {0}' -f $typeDef.Title),
-    '',
-    $typeDef.Description,
-    '',
-    ('Denne siden viser siste registrerte versjon av ressurser i kategorien **{0}**.' -f $typeDef.Title)
+function New-ResourceListingBlock {
+  param(
+    [object[]]$Entries,
+    [string]$SectionSlug
   )
 
   $cardLines = New-Object System.Collections.Generic.List[string]
@@ -456,7 +402,7 @@ foreach ($typeDef in $resourceTypeDefinitions) {
   $typeSet = New-Object System.Collections.Generic.HashSet[string]
   $capabilitySet = New-Object System.Collections.Generic.HashSet[string]
 
-  foreach ($p in $typeEntries) {
+  foreach ($p in $Entries) {
     $raw = Get-Content -Path $p.FullPath -Encoding utf8
     $displayName = Extract-DisplayName -Lines $raw -Fallback $p.Name
     $descriptionSection = Extract-Section -Lines $raw -Heading 'Kort beskrivelse'
@@ -505,70 +451,159 @@ foreach ($typeDef in $resourceTypeDefinitions) {
   $typeOptions = @($typeSet | Sort-Object)
   $capabilityOptions = @($capabilitySet | Sort-Object)
 
-  $typeIndex += ''
-  $typeIndex += ('<div class="resource-listing" data-section="{0}">' -f (Slugify-Value $typeDef.Slug))
-  $typeIndex += '  <div class="resource-filters">'
-  $typeIndex += '    <div class="resource-filters__row">'
-  $typeIndex += '      <label>Sok <input type="search" class="resource-filter" data-filter="search" placeholder="Navn, ID, type, kapabilitet" /></label>'
-  $typeIndex += '      <label>Eier <select class="resource-filter" data-filter="owner"><option value="">Alle</option>'
+  $lines = New-Object System.Collections.Generic.List[string]
+  $lines.Add(('<div class="resource-listing" data-section="{0}">' -f (Slugify-Value $SectionSlug)))
+  $lines.Add('  <div class="resource-filters">')
+  $lines.Add('    <div class="resource-filters__row">')
+  $lines.Add('      <label>Sok <input type="search" class="resource-filter" data-filter="search" placeholder="Navn, ID, type, kapabilitet" /></label>')
+  $lines.Add('      <label>Eier <select class="resource-filter" data-filter="owner"><option value="">Alle</option>')
   foreach ($option in $ownerOptions) {
-    $typeIndex += ('        <option value="{0}">{1}</option>' -f (Html-Encode $option), (Html-Encode $option))
+    $lines.Add(('        <option value="{0}">{1}</option>' -f (Html-Encode $option), (Html-Encode $option)))
   }
-  $typeIndex += '      </select></label>'
-  $typeIndex += '      <label>Type <select class="resource-filter" data-filter="type"><option value="">Alle</option>'
+  $lines.Add('      </select></label>')
+  $lines.Add('      <label>Type <select class="resource-filter" data-filter="type"><option value="">Alle</option>')
   foreach ($option in $typeOptions) {
-    $typeIndex += ('        <option value="{0}">{1}</option>' -f (Html-Encode $option), (Html-Encode $option))
+    $lines.Add(('        <option value="{0}">{1}</option>' -f (Html-Encode $option), (Html-Encode $option)))
   }
-  $typeIndex += '      </select></label>'
-  $typeIndex += '      <label>Kapabilitet <select class="resource-filter" data-filter="capability"><option value="">Alle</option>'
+  $lines.Add('      </select></label>')
+  $lines.Add('      <label>Kapabilitet <select class="resource-filter" data-filter="capability"><option value="">Alle</option>')
   foreach ($option in $capabilityOptions) {
-    $typeIndex += ('        <option value="{0}">{1}</option>' -f (Html-Encode $option), (Html-Encode $option))
+    $lines.Add(('        <option value="{0}">{1}</option>' -f (Html-Encode $option), (Html-Encode $option)))
   }
-  $typeIndex += '      </select></label>'
-  $typeIndex += '    </div>'
-  $typeIndex += ('    <p class="resource-filters__result" data-role="count">Viser {0} av {0} ressurser</p>' -f $typeEntries.Count)
-  $typeIndex += '  </div>'
-  $typeIndex += '  <div class="resource-cards">'
-  $typeIndex += ($cardLines.ToArray())
-  $typeIndex += '  </div>'
-  $typeIndex += '  <script>'
-  $typeIndex += '    (function(){'
-  $typeIndex += '      var root = document.currentScript.closest(".resource-listing");'
-  $typeIndex += '      if (!root) { return; }'
-  $typeIndex += '      var cards = Array.prototype.slice.call(root.querySelectorAll(".resource-card"));'
-  $typeIndex += '      var count = root.querySelector("[data-role=count]");'
-  $typeIndex += '      var search = root.querySelector("[data-filter=search]");'
-  $typeIndex += '      var owner = root.querySelector("[data-filter=owner]");'
-  $typeIndex += '      var type = root.querySelector("[data-filter=type]");'
-  $typeIndex += '      var capability = root.querySelector("[data-filter=capability]");'
-  $typeIndex += '      function norm(v){ return (v || "").toLowerCase(); }'
-  $typeIndex += '      function apply(){'
-  $typeIndex += '        var q = norm(search && search.value);'
-  $typeIndex += '        var o = norm(owner && owner.value);'
-  $typeIndex += '        var t = norm(type && type.value);'
-  $typeIndex += '        var c = norm(capability && capability.value);'
-  $typeIndex += '        var visible = 0;'
-  $typeIndex += '        cards.forEach(function(card){'
-  $typeIndex += '          var ok = true;'
-  $typeIndex += '          if (q && card.dataset.search.indexOf(q) === -1) ok = false;'
-  $typeIndex += '          if (o && norm(card.dataset.owner) !== o) ok = false;'
-  $typeIndex += '          if (t && norm(card.dataset.type) !== t) ok = false;'
-  $typeIndex += '          if (c && norm(card.dataset.capabilities).indexOf(c) === -1) ok = false;'
-  $typeIndex += '          card.style.display = ok ? "block" : "none";'
-  $typeIndex += '          if (ok) visible += 1;'
-  $typeIndex += '        });'
-  $typeIndex += '        if (count) { count.textContent = "Viser " + visible + " av " + cards.length + " ressurser"; }'
-  $typeIndex += '      }'
-  $typeIndex += '      [search, owner, type, capability].forEach(function(el){ if (el) { el.addEventListener("input", apply); el.addEventListener("change", apply); } });'
-  $typeIndex += '      apply();'
-  $typeIndex += '    })();'
-  $typeIndex += '  </script>'
-  $typeIndex += '</div>'
+  $lines.Add('      </select></label>')
+  $lines.Add('    </div>')
+  $lines.Add(('    <p class="resource-filters__result" data-role="count">Viser {0} av {0} ressurser</p>' -f $Entries.Count))
+  $lines.Add('  </div>')
+  $lines.Add('  <div class="resource-cards">')
+  foreach ($line in $cardLines) { $lines.Add($line) }
+  $lines.Add('  </div>')
+  $lines.Add('  <script>')
+  $lines.Add('    (function(){')
+  $lines.Add('      var root = document.currentScript.closest(".resource-listing");')
+  $lines.Add('      if (!root) { return; }')
+  $lines.Add('      var cards = Array.prototype.slice.call(root.querySelectorAll(".resource-card"));')
+  $lines.Add('      var count = root.querySelector("[data-role=count]");')
+  $lines.Add('      var search = root.querySelector("[data-filter=search]");')
+  $lines.Add('      var owner = root.querySelector("[data-filter=owner]");')
+  $lines.Add('      var type = root.querySelector("[data-filter=type]");')
+  $lines.Add('      var capability = root.querySelector("[data-filter=capability]");')
+  $lines.Add('      function norm(v){ return (v || "").toLowerCase(); }')
+  $lines.Add('      function apply(){')
+  $lines.Add('        var q = norm(search && search.value);')
+  $lines.Add('        var o = norm(owner && owner.value);')
+  $lines.Add('        var t = norm(type && type.value);')
+  $lines.Add('        var c = norm(capability && capability.value);')
+  $lines.Add('        var visible = 0;')
+  $lines.Add('        cards.forEach(function(card){')
+  $lines.Add('          var ok = true;')
+  $lines.Add('          if (q && card.dataset.search.indexOf(q) === -1) ok = false;')
+  $lines.Add('          if (o && norm(card.dataset.owner) !== o) ok = false;')
+  $lines.Add('          if (t && norm(card.dataset.type) !== t) ok = false;')
+  $lines.Add('          if (c && norm(card.dataset.capabilities).indexOf(c) === -1) ok = false;')
+  $lines.Add('          card.style.display = ok ? "block" : "none";')
+  $lines.Add('          if (ok) visible += 1;')
+  $lines.Add('        });')
+  $lines.Add('        if (count) { count.textContent = "Viser " + visible + " av " + cards.length + " ressurser"; }')
+  $lines.Add('      }')
+  $lines.Add('      [search, owner, type, capability].forEach(function(el){ if (el) { el.addEventListener("input", apply); el.addEventListener("change", apply); } });')
+  $lines.Add('      apply();')
+  $lines.Add('    })();')
+  $lines.Add('  </script>')
+  $lines.Add('</div>')
+
+  return $lines.ToArray()
+}
+
+$latest = Get-RegisterEntries
+
+foreach ($entry in $latest) {
+  $typeInfo = Get-ResourceTypeInfo -RelativePath $entry.RelativePath
+  Add-Member -InputObject $entry -NotePropertyName ResourceTypeSlug -NotePropertyValue $typeInfo.Slug
+  Add-Member -InputObject $entry -NotePropertyName ResourceTypeTitle -NotePropertyValue $typeInfo.Title
+  Add-Member -InputObject $entry -NotePropertyName ResourceTypeDescription -NotePropertyValue $typeInfo.Description
+}
+
+$index = @(
+  '---',
+  'title: "Ressurser"',
+  'weight: 31',
+  'description: "Samlet oversikt over siste publiserte versjon av hver ressursbeskrivelse."',
+  'hideInNav: true',
+  'hideToc: true',
+  '---',
+  '',
+  '# Ressurser (siste versjon)',
+  '',
+  'Denne oversikten viser siste registrerte versjon per ressurs basert paa `arkitektur/ressurser/produktnummerering.md`.',
+  '',
+  'Bruk siden for aa finne riktig ressursbeskrivelse raskt, og gaa derfra videre til detaljene i markdownfilen paa GitHub eller via relevante kapabilitetssider.',
+  '',
+  'Ressursene er gruppert etter hovedtype, med egne undersider for operative løsninger og tjenester, normerende ressurser og samarbeidsfora.'
+)
+
+foreach ($typeDef in $resourceTypeDefinitions) {
+  $typeEntries = @($latest | Where-Object { $_.ResourceTypeSlug -eq $typeDef.Slug })
+  if ($typeEntries.Count -eq 0) { continue }
+
+  $index += ''
+  $index += ("## [{0}](./{1}/)" -f $typeDef.Title, $typeDef.Slug)
+  $index += ''
+  $index += $typeDef.Description
+  $index += ''
+  $index += ("Antall ressurser: **{0}**" -f $typeEntries.Count)
+}
+
+foreach ($typeDef in $resourceTypeDefinitions) {
+  $typeEntries = @($latest | Where-Object { $_.ResourceTypeSlug -eq $typeDef.Slug })
+  if ($typeEntries.Count -eq 0) { continue }
+
+  $typeDir = Join-Path $outDir $typeDef.Slug
+  New-Item -ItemType Directory -Force -Path $typeDir | Out-Null
+
+  $typeIndex = @(
+    '---',
+    ('title: "{0}"' -f $typeDef.Title),
+    ('weight: {0}' -f $typeDef.Weight),
+    ('description: "{0}"' -f $typeDef.Description),
+    'hideToc: true',
+    '---',
+    '',
+    ('# {0}' -f $typeDef.Title),
+    '',
+    $typeDef.Description,
+    '',
+    ('Denne siden viser siste registrerte versjon av ressurser i kategorien **{0}**.' -f $typeDef.Title)
+  )
+
+  $typeIndex += ''
+  $typeIndex += (New-ResourceListingBlock -Entries $typeEntries -SectionSlug $typeDef.Slug)
 
   Write-Utf8NoBomFile -Path (Join-Path $typeDir '_index.md') -Lines $typeIndex
 }
 
 Write-Utf8NoBomFile -Path (Join-Path $outDir '_index.md') -Lines $index
+
+$topLevelOverviewFile = Join-Path $repoRoot 'web/hugo-prototype/content/ressursoversikt/_index.md'
+$allResourcesIndex = @(
+  '---',
+  'title: "Ressursoversikt"',
+  'weight: 30',
+  'description: "Inngang til produktbeskrivelser og andre felles ressurser som understøtter kapabilitetene i modellen."',
+  'hideToc: true',
+  'hideSectionOverview: true',
+  '---',
+  '',
+  '# Ressursoversikt',
+  '',
+  'Denne siden viser samlet oversikt over siste registrerte versjon per ressurs basert paa `arkitektur/ressurser/produktnummerering.md`.',
+  '',
+  'Bruk filtrene for aa finne riktige ressurser raskt paa tvers av typer, eiere og kapabiliteter.',
+  '',
+  '## Ressurser (siste versjon)',
+  ''
+)
+$allResourcesIndex += (New-ResourceListingBlock -Entries @($latest) -SectionSlug 'alle-ressurser')
+Write-Utf8NoBomFile -Path $topLevelOverviewFile -Lines $allResourcesIndex
 
 Get-ChildItem $outDir -File |
   Where-Object { $_.Name -ne '_index.md' } |
