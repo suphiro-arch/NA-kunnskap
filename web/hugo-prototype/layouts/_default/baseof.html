@@ -37,10 +37,10 @@
               {{ if $isInSectionBranch }}
                 {{ if eq $section.Section "ressursoversikt" }}
                 <ul class="site-nav__sublist">
-                  <li><a href="{{ "ressursoversikt/produkter/operative-losninger-og-tjenester/" | relURL }}">Operative løsninger og tjenester</a></li>
-                  <li><a href="{{ "ressursoversikt/produkter/normerende-ressurser/" | relURL }}">Normerende ressurser</a></li>
-                  <li><a href="{{ "ressursoversikt/produkter/samarbeidsfora/" | relURL }}">Samarbeidsfora</a></li>
-                  <li><a href="{{ "ressursoversikt/produkter/andre-ressurser/" | relURL }}">Andre ressurser</a></li>
+                  <li><a href="{{ .Site.BaseURL }}ressursoversikt/produkter/operative-losninger-og-tjenester/">Operative løsninger og tjenester</a></li>
+                  <li><a href="{{ .Site.BaseURL }}ressursoversikt/produkter/normerende-ressurser/">Normerende ressurser</a></li>
+                  <li><a href="{{ .Site.BaseURL }}ressursoversikt/produkter/samarbeidsfora/">Samarbeidsfora</a></li>
+                  <li><a href="{{ .Site.BaseURL }}ressursoversikt/produkter/andre-ressurser/">Andre ressurser</a></li>
                 </ul>
                 {{ else }}
                   {{ $children := $section.Sections.ByWeight }}
