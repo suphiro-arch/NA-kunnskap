@@ -40,11 +40,13 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Operativ
         <option value="Arkiv- og integrasjonstjeneste">Arkiv- og integrasjonstjeneste</option>
         <option value="Autentisering">Autentisering</option>
         <option value="Autentiseringstjeneste">Autentiseringstjeneste</option>
+        <option value="Autentiseringstjeneste for ansatte">Autentiseringstjeneste for ansatte</option>
         <option value="Autorisasjonstjeneste for representasjon og tilgang">Autorisasjonstjeneste for representasjon og tilgang</option>
         <option value="Datatilgang">Datatilgang</option>
         <option value="Deling av vitnem&#229;l">Deling av vitnem&#229;l</option>
         <option value="Delkatalog for API-beskrivelser">Delkatalog for API-beskrivelser</option>
         <option value="Delkatalog for begrepsbeskrivelser">Delkatalog for begrepsbeskrivelser</option>
+        <option value="Designsystem">Designsystem</option>
         <option value="Dialogtjeneste og representasjonslag">Dialogtjeneste og representasjonslag</option>
         <option value="Digital signering">Digital signering</option>
         <option value="Eiendoms- og adresseregister">Eiendoms- og adresseregister</option>
@@ -103,6 +105,7 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Operativ
         <option value="Hendelsesdrevet">Hendelsesdrevet</option>
         <option value="Identifisering">Identifisering</option>
         <option value="Informasjonsarkitektur">Informasjonsarkitektur</option>
+        <option value="Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling">Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling</option>
         <option value="Integrerbare tjenester">Integrerbare tjenester</option>
         <option value="Meldingsformidling">Meldingsformidling</option>
         <option value="Organisatorisk samhandling">Organisatorisk samhandling</option>
@@ -119,16 +122,21 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Operativ
         <option value="Samtykke">Samtykke</option>
         <option value="Signering">Signering</option>
         <option value="Sikring av informasjonsflyt og datautveksling">Sikring av informasjonsflyt og datautveksling</option>
+        <option value="Sluttbrukertjenester: Sammenhengende tjenester">Sluttbrukertjenester: Sammenhengende tjenester</option>
         <option value="Sporbarhet og innsyn">Sporbarhet og innsyn</option>
         <option value="Tilgangskontroll">Tilgangskontroll</option>
         <option value="Tilgangsstyring">Tilgangsstyring</option>
+        <option value="Tillit: Autentisering">Tillit: Autentisering</option>
         <option value="Tjenestedesign">Tjenestedesign</option>
         <option value="Tjenesteforvaltning">Tjenesteforvaltning</option>
         <option value="Tjenestekjeder">Tjenestekjeder</option>
+        <option value="Tjenesteutvikling: Gjenbrukbare tjenester">Tjenesteutvikling: Gjenbrukbare tjenester</option>
+        <option value="Tjenesteutvikling: Integrerbare tjenester">Tjenesteutvikling: Integrerbare tjenester</option>
+        <option value="Tjenesteutvikling: Tjenestedesign">Tjenesteutvikling: Tjenestedesign</option>
         <option value="Utviklings- og kj&#248;retidsmilj&#248;">Utviklings- og kj&#248;retidsmilj&#248;</option>
       </select></label>
     </div>
-    <p class="resource-filters__result" data-role="count">Viser 59 av 59 ressurser</p>
+    <p class="resource-filters__result" data-role="count">Viser 61 av 61 ressurser</p>
   </div>
   <div class="resource-cards">
 <article class="resource-card" data-owner="DIGDIR" data-type="Autentiseringstjeneste" data-capabilities="sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester" data-search="id-porten digdir-001 digdir felleskomponent autentiseringstjeneste id-porten er den nasjonale fellesl&#248;sningen for sikker innlogging til offentlige digitale tjenester. l&#248;sningen gir innbyggere &#233;n gjenkjennelig inngang til tjenester p&#229; tvers av virksomheter, og gir tjenesteeiere en felles autentiseringskomponent i stedet for lokale innloggingsl&#248;sninger. id-porten er s&#230;rlig relevant n&#229;r... sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester">
@@ -602,6 +610,22 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Operativ
   <p class="resource-card__description">VIGO er en fellesbetegnelse for en samlet IT-l&#248;sning innen videreg&#229;ende oppl&#230;ring. Ressursen omfatter flere moduler og delsystemer som h&#229;ndterer personer, prosesser, kodeverk og data knyttet til videreg&#229;ende oppl&#230;ring, inntak, fagoppl&#230;ring og oppf&#248;lging. L&#248;sningen er knyttet til VIGO Sentralbase og VIGO Kodeverksbase...</p>
   <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../kapabiliteter/samarbeid/organisatorisk-samhandling/">Organisatorisk samhandling</a> <a class="capability-chip" href="../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/">Sammenhengende tjenester</a> <a class="capability-chip" href="../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a> <span class="capability-chip capability-chip--more">+2</span></p>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://novari.no/tjenester/vigo/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="Designsystem" data-capabilities="sluttbrukertjenester: sammenhengende tjenester tjenesteutvikling: gjenbrukbare tjenester tjenesteutvikling: tjenestedesign" data-search="felles designsystem digdir-050 digdir felleskomponent designsystem felles designsystem er en operativ ressurs som gir virksomheter en felles verkt&#248;ykasse med designelementer, ui-komponenter og m&#248;nstre for utvikling av digitale tjenester. ressursen er viktig fordi den gj&#248;r det lettere &#229; bygge helhetlige, gjenkjennelige og mer brukervennlige l&#248;sninger p&#229; tvers av offentlig sektor. sluttbrukertjenester: sammenhengende tjenester tjenesteutvikling: gjenbrukbare tjenester tjenesteutvikling: tjenestedesign">
+  <h2 class="resource-card__title">Felles designsystem</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-050</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Felleskomponent | <strong>Type:</strong> Designsystem</p>
+  <p class="resource-card__description">Felles designsystem er en operativ ressurs som gir virksomheter en felles verkt&#248;ykasse med designelementer, UI-komponenter og m&#248;nstre for utvikling av digitale tjenester. Ressursen er viktig fordi den gj&#248;r det lettere &#229; bygge helhetlige, gjenkjennelige og mer brukervennlige l&#248;sninger p&#229; tvers av offentlig sektor.</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <span class="capability-chip">Sluttbrukertjenester: Sammenhengende tjenester</span> <span class="capability-chip">Tjenesteutvikling: Gjenbrukbare tjenester</span> <span class="capability-chip">Tjenesteutvikling: Tjenestedesign</span></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/118-Felles-designsystem-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/datadeling/begrepskatalog-gir-godt-samarbeid-pa-tvers/5836">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="Autentiseringstjeneste for ansatte" data-capabilities="informasjonssikkerhet: sikring av informasjonsflyt og datautveksling tillit: autentisering tjenesteutvikling: integrerbare tjenester" data-search="ansattporten digdir-051 digdir felleskomponent autentiseringstjeneste for ansatte ansattporten er en operativ autentiseringstjeneste for ansatte i offentlig sektor. ressursen er viktig fordi den gir et felles tillitsm&#248;nster for p&#229;logging i ansattkontekst, og dermed kan redusere behovet for at hver virksomhet etablerer egne l&#248;sninger for samme form&#229;l. informasjonssikkerhet: sikring av informasjonsflyt og datautveksling tillit: autentisering tjenesteutvikling: integrerbare tjenester">
+  <h2 class="resource-card__title">Ansattporten</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-051</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Felleskomponent | <strong>Type:</strong> Autentiseringstjeneste for ansatte</p>
+  <p class="resource-card__description">Ansattporten er en operativ autentiseringstjeneste for ansatte i offentlig sektor. Ressursen er viktig fordi den gir et felles tillitsm&#248;nster for p&#229;logging i ansattkontekst, og dermed kan redusere behovet for at hver virksomhet etablerer egne l&#248;sninger for samme form&#229;l.</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <span class="capability-chip">Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling</span> <span class="capability-chip">Tillit: Autentisering</span> <span class="capability-chip">Tjenesteutvikling: Integrerbare tjenester</span></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/119-Ansattporten-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://docs.digdir.no/docs/ansattporten/ansattporten_wellknown.html">Offisiell lenke</a></p>
 </article>
   </div>
   <script>
