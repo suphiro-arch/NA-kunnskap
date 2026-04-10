@@ -599,6 +599,12 @@ $allResourcesIndex = @(
   '',
   'Bruk filtrene for aa finne riktige ressurser raskt paa tvers av typer, eiere og kapabiliteter.',
   '',
+  '## Undersider',
+  '',
+  '- [Operative løsninger og tjenester](produkter/operative-losninger-og-tjenester/)',
+  '- [Normerende ressurser](produkter/normerende-ressurser/)',
+  '- [Samarbeidsfora](produkter/samarbeidsfora/)',
+  '',
   '## Ressurser (siste versjon)',
   ''
 )

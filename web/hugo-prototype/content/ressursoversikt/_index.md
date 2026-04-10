@@ -12,6 +12,12 @@ Denne siden viser samlet oversikt over siste registrerte versjon per ressurs bas
 
 Bruk filtrene for aa finne riktige ressurser raskt paa tvers av typer, eiere og kapabiliteter.
 
+## Undersider
+
+- [Operative løsninger og tjenester](produkter/operative-losninger-og-tjenester/)
+- [Normerende ressurser](produkter/normerende-ressurser/)
+- [Samarbeidsfora](produkter/samarbeidsfora/)
+
 ## Ressurser (siste versjon)
 
 <div class="resource-listing" data-section="alle-ressurser">
@@ -780,14 +786,14 @@ Bruk filtrene for aa finne riktige ressurser raskt paa tvers av typer, eiere og 
   <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <span class="capability-chip">Samarbeid: Samarbeidsarenaer og nettverk</span> <span class="capability-chip">Strategisk styring: Samordning</span></p>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/110-Skate-v0-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/skate/skate/1259">Offisiell lenke</a></p>
 </article>
-<article class="resource-card" data-owner="DIGDIR" data-type="Radgivende arena" data-capabilities="samarbeid: samarbeidsarenaer og nettverk strategisk styring: arkitekturstyring" data-search="digitaliseringsradet digdir-043 digdir samarbeidsforum radgivende arena digitaliseringsradet er en radgivende arena som skal bidra til bedre gjennomforingsevne, gevinstrealisering og kvalitet i digitaliseringsprosjekter. samarbeid: samarbeidsarenaer og nettverk strategisk styring: arkitekturstyring">
-  <h2 class="resource-card__title">Digitaliseringsradet</h2>
+<article class="resource-card" data-owner="DIGDIR" data-type="Radgivende arena" data-capabilities="samarbeid: samarbeidsarenaer og nettverk strategisk styring: arkitekturstyring" data-search="digitaliseringsr&#229;det digdir-043 digdir samarbeidsforum radgivende arena digitaliseringsr&#229;det er en r&#229;dgivende arena som skal hjelpe statlige virksomheter med &#229; lykkes bedre i endringsprosesser der digitalisering er en viktig del. forumet er viktig i analysearbeid fordi det kombinerer strategisk r&#229;dgivning, erfaringsbasert vurdering og l&#230;ring p&#229; tvers av virksomheter. samarbeid: samarbeidsarenaer og nettverk strategisk styring: arkitekturstyring">
+  <h2 class="resource-card__title">Digitaliseringsr&#229;det</h2>
   <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-043</code> | <strong>Siste versjon:</strong> v0 (paabegynt)</p>
   <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Samarbeidsforum | <strong>Type:</strong> Radgivende arena</p>
-  <p class="resource-card__description">Digitaliseringsradet er en radgivende arena som skal bidra til bedre gjennomforingsevne, gevinstrealisering og kvalitet i digitaliseringsprosjekter.</p>
-  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Ressursen er opprettet som et kort paabegynt utkast for a kunne kobles i analyser. Innholdet skal utdypes med tydelig mandat, malgruppe, arbeidsform og avgrensning mot andre fora i neste iterasjon.</p>
+  <p class="resource-card__description">Digitaliseringsr&#229;det er en r&#229;dgivende arena som skal hjelpe statlige virksomheter med &#229; lykkes bedre i endringsprosesser der digitalisering er en viktig del. Forumet er viktig i analysearbeid fordi det kombinerer strategisk r&#229;dgivning, erfaringsbasert vurdering og l&#230;ring p&#229; tvers av virksomheter.</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Digitaliseringsr&#229;det skal bidra til at sm&#229; og store statlige virksomheter lykkes med endringsprosesser der digitalisering utgj&#248;r en viktig del. Mandatet peker s&#230;rlig p&#229; l&#230;ring p&#229; tvers, brukerrettede...</p>
   <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <span class="capability-chip">Samarbeid: Samarbeidsarenaer og nettverk</span> <span class="capability-chip">Strategisk styring: Arkitekturstyring</span></p>
-  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v0-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/digitaliseringsradet/ks-digital-tiltaket-felles-tjenesteplattform/7556">Offisiell lenke</a></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v0-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/digitaliseringsradet/om-digitaliseringsradet/7589">Offisiell lenke</a></p>
 </article>
 <article class="resource-card" data-owner="DIGDIR" data-type="Rundskriv" data-capabilities="samordning forvaltningsstandarder" data-search="digitaliseringsrundskrivet digdir-044 digdir referanseressurs rundskriv digitaliseringsrundskrivet samler krav, anbefalinger og veiledning om digitalisering i staten. ressursen er viktig fordi den gir et felles styringsgrunnlag for hvordan statlige virksomheter skal planlegge, prioritere og gjennomf&#248;re digitaliseringstiltak. samordning forvaltningsstandarder">
   <h2 class="resource-card__title">Digitaliseringsrundskrivet</h2>
