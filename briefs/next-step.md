@@ -356,6 +356,7 @@ Denne seksjonen handler om å bygge en åpen web-basert KI-dokumentasjonsassiste
 - Oppdatert [produktnummerering.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/produktnummerering.md) slik at registeret nå peker til de nye `v1`-versjonene.
 - Rettet `AGENTS.md` til å peke på faktisk promptoppsett for normerende ressurser og samarbeidsfora, i stedet for den utdaterte samlefila.
 - Strammet inn prompt og mal for både normerende ressurser og samarbeidsfora med tydeligere skille mellom fakta, deduksjon og usikkerhet, strengere `v1`-sjekk og krav om rene kapabilitetsnavn.
+- Brukt det skjerpede samarbeidsforum-oppsettet som kontrolltest på [110-Skate-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/samarbeidsfora/110-Skate-v1-codex.md), med mindre spekulative påstander, tydeligere avgrensning av beslutningsmyndighet og renere kapabilitetsseksjon.
 
 ## Referanser
 
