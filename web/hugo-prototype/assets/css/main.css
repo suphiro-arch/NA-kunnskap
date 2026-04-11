@@ -448,23 +448,26 @@ a:hover {
   font-weight: 600;
 }
 
-.principles-grid {
+.principles-stack {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   gap: 1rem;
   margin: 1rem 0 1.2rem;
 }
 
-.principle-card {
-  padding: 1rem 1rem 1.05rem;
+.principle-panel {
+  padding: 1.15rem 1.2rem;
   border: 1px solid var(--line-subtle);
   border-radius: var(--radius-lg);
   background: #fff;
   box-shadow: var(--shadow-soft);
 }
 
-.principle-card__code {
-  margin: 0;
+.principle-panel__header {
+  margin-bottom: 0.85rem;
+}
+
+.principle-panel__code {
+  margin: 0 0 0.28rem;
   font-size: 0.78rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -472,27 +475,44 @@ a:hover {
   font-weight: 700;
 }
 
-.principle-card h3 {
-  margin: 0.45rem 0 0.6rem;
-  font-size: 1.08rem;
-  line-height: 1.25;
+.principle-panel h3 {
+  margin: 0;
+  font-size: 1.22rem;
+  line-height: 1.2;
+  max-width: 34rem;
 }
 
-.principle-card p {
+.principle-panel__body {
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(16rem, 1fr);
+  gap: 1.1rem 1.4rem;
+  align-items: start;
+}
+
+.principle-panel__summary {
   margin: 0;
   color: var(--ink-body);
+  font-size: 1rem;
+  line-height: 1.75;
 }
 
-.principle-card__label {
-  margin-top: 0.9rem;
-  font-size: 0.82rem;
-  letter-spacing: 0.06em;
+.principle-panel__capabilities {
+  padding: 0.9rem 1rem;
+  border: 1px solid #d7e1d9;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #fbfcfa, #f4f8f4);
+}
+
+.principle-panel__label {
+  margin: 0;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--ink-muted);
 }
 
-.principle-card__chips {
-  margin-top: 0.55rem;
+.principle-panel__chips {
+  margin: 0.55rem 0 0;
 }
 
 .resource-filters {
@@ -1062,6 +1082,10 @@ a:hover {
 
   .section-grid--three {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .principle-panel__body {
+    grid-template-columns: 1fr;
   }
 }
 
