@@ -47,6 +47,14 @@ Dette betyr at teksten må svare tydelig på:
 - Når forumet bør involveres i utviklingsløp
 - Hva slags saker og leveranser forumet typisk utløser
 
+### Trinn 6: Merk hva som er sikkert og hva som er tolket
+- Skill aktivt mellom:
+  - **Fakta**: bekreftet i åpne kilder eller tydelige repo-kilder
+  - **Deduksjon**: rimelig tolkning basert på kjent kontekst
+  - **Usikkerhet**: forhold som ikke kan bekreftes godt nok
+- Hvis mandat, beslutningsmyndighet, medlemskap eller innmeldingsløp ikke kan bekreftes i åpne kilder, skriv det eksplisitt.
+- Ikke presenter sannsynlige antakelser som om de er bekreftede styringsforhold.
+
 ---
 
 ## Særregler for samarbeidsfora
@@ -57,6 +65,7 @@ Dette betyr at teksten må svare tydelig på:
   - **Anbefaler** (gir innspill til andre som beslutter)
   - **Fasiliterer** (legger til rette for dialog)
   - **Informerer** (deler kunnskap og status)
+- Hvis åpne kilder ikke er tydelige nok, si at beslutningsmyndighet er uavklart eller delvis uklar.
 
 ### Grensesnitt mot andre fora
 - Beskriv **eksplisitt** hvordan dette forumet skiller seg fra og utfyller andre fora med lignende tematikk.
@@ -69,6 +78,7 @@ Dette betyr at teksten må svare tydelig på:
 - Beskriv hvilken type saker forumet tar imot og hvilke det sender videre.
 - Beskriv hva som bør følge med en innmelding, og hva som skjer etterpå.
 - Hvis inngangen ikke er kjent fra åpne kilder, skriv hva som er sannsynlig basert på type forum og sekretariatets eier.
+- Marker tydelig når dette er deduksjon og ikke bekreftet praksis.
 
 ### Påvirkning på ressurser
 - Beskriv **eksplisitt** hvilke ressurser forumet faktisk påvirker, og **på hvilken måte**.
@@ -81,6 +91,11 @@ Dette betyr at teksten må svare tydelig på:
 ### Representasjon og deltakelse
 - Beskriv hvem som deltar og hvilken rolle de har.
 - Beskriv om representasjonen er stabil eller endrer seg, og hvorfor.
+
+### Kapabiliteter skal være rene nok for videre bruk
+- Bruk bare kanoniske kapabilitetsnavn i selve kapabilitetslisten.
+- Legg forklaring, begrunnelse og nyanser i egen tekst rundt listen, ikke inne i navnelabelen.
+- Unngå formuleringer som gjør kapabilitetsseksjonen vanskelig å gjenbruke i web, filtrering eller senere analyser.
 
 ---
 
@@ -120,3 +135,10 @@ En `v1` skal være mer enn et arbeidsutkast og skal kunne brukes direkte i analy
 
 **Anbefaling:**
 - Hvis kildegrunnlaget ikke er godt nok til dette nivået, bruk heller `v0.x` enn å kalle dokumentet `v1`.
+
+### Sjekk før du bruker `v1`
+- Er mandat, rolle og beslutningsmyndighet tydelige nok til at forumet kan brukes som analysegrunnlag?
+- Er påvirkning på ressurser, involveringstidspunkt og typiske saker beskrevet konkret nok?
+- Er viktige påstander forankret i åpne kilder eller tydelig merket som deduksjon/usikkerhet?
+- Er grensesnittet mot andre fora avklart uten generelle fraser eller skjult overlapp?
+- Er kapabilitetsnavnene rene og kanoniske, uten forklaringer bygget inn i labelen?

@@ -40,6 +40,13 @@ Se også:
   - `Kildegrunnlag brukt i utfyllingen`
 - Hvis forumets rolle, påvirkning, grensesnitt mot andre fora og involveringstidspunkt fortsatt er for uklart, bør dokumentet normalt beholdes som `v0.x`.
 
+## Kort v1-sjekkliste
+- Er mandat, rolle og beslutningsmyndighet tydelig nok til direkte analysebruk?
+- Er påvirkning på ressurser, involveringstidspunkt og saksbildet konkret beskrevet?
+- Er viktige påstander forankret i kilder, eller tydelig merket som deduksjon/usikkerhet?
+- Er grensesnitt mot andre fora tydelig nok til å unngå feil bruk av forumet?
+- Er kapabilitetslisten skrevet med rene, kanoniske kapabilitetsnavn?
+
 ## Navn
 Det offisielle navnet på samarbeidsforumet.
 
@@ -86,6 +93,7 @@ Beskriv eksplisitt:
 ## Kapabiliteter
 Hvilke kapabiliteter i Nasjonal arkitektur støtter forumet direkte?
 Bruk bare kapabiliteter med tydelig og sterk kobling.
+Bruk bare rene kapabilitetsnavn i listen. Legg forklaring i tilhørende tekst, ikke i selve navnelabelen.
 
 ## Deltakere og målgruppe
 Beskriv deltakerbildet eksplisitt i segmenter.

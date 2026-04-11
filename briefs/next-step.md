@@ -354,6 +354,8 @@ Denne seksjonen handler om å bygge en åpen web-basert KI-dokumentasjonsassiste
 - Løftet `DIGDIR-044 Digitaliseringsrundskrivet` til [112-Digitaliseringsrundskrivet-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/normerende-ressurser/112-Digitaliseringsrundskrivet-v1-codex.md).
 - Løftet `DIGDIR-045 Prosjektveiviseren` til [113-Prosjektveiviseren-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v1-codex.md).
 - Oppdatert [produktnummerering.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/produktnummerering.md) slik at registeret nå peker til de nye `v1`-versjonene.
+- Rettet `AGENTS.md` til å peke på faktisk promptoppsett for normerende ressurser og samarbeidsfora, i stedet for den utdaterte samlefila.
+- Strammet inn prompt og mal for både normerende ressurser og samarbeidsfora med tydeligere skille mellom fakta, deduksjon og usikkerhet, strengere `v1`-sjekk og krav om rene kapabilitetsnavn.
 
 ## Referanser
 
