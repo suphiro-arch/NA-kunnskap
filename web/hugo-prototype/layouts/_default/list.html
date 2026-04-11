@@ -2,6 +2,9 @@
 {{ $pages := .Pages.ByWeight }}
 {{ $isCapabilitySection := eq .Section "kapabiliteter" }}
 {{ $sections := .Site.Sections.ByWeight }}
+{{ $resourcePages := where .Site.Pages "Section" "ressursoversikt" }}
+{{ $capabilityPages := where .Site.Pages "Section" "kapabiliteter" }}
+{{ $principlePages := where .Site.Pages "Section" "prinsipper" }}
 
 {{ if .IsHome }}
 <section class="home-hero">
@@ -32,15 +35,15 @@
 
       <div class="home-metrics" aria-label="Nøkkeltall">
         <article class="home-metrics__item">
-          <strong>{{ len (where .Site.RegularPages "Section" "ressursoversikt") }}</strong>
+          <strong>{{ len $resourcePages }}</strong>
           <span>ressurssider i webgrunnlaget</span>
         </article>
         <article class="home-metrics__item">
-          <strong>{{ len (where .Site.RegularPages "Section" "kapabiliteter") }}</strong>
+          <strong>{{ len $capabilityPages }}</strong>
           <span>kapabilitetssider</span>
         </article>
         <article class="home-metrics__item">
-          <strong>{{ len (where .Site.RegularPages "Section" "prinsipper") }}</strong>
+          <strong>{{ len $principlePages }}</strong>
           <span>prinsippsider</span>
         </article>
       </div>
