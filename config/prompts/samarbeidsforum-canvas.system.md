@@ -58,6 +58,18 @@ Dette betyr at teksten må svare tydelig på:
   - **Fasiliterer** (legger til rette for dialog)
   - **Informerer** (deler kunnskap og status)
 
+### Grensesnitt mot andre fora
+- Beskriv **eksplisitt** hvordan dette forumet skiller seg fra og utfyller andre fora med lignende tematikk.
+- Bruk tabell: `Forum | Rolle-fordeling | Når dette forumet, når det andre | Typisk samspill`
+- Unngå generelle formuleringer som «ses i sammenheng med». Beskriv konkret hva som går hit og hva som går dit.
+- Ta stilling til hva som skjer i skjæringsflaten mellom to fora med overlappende mandat.
+
+### Saksinnmelding må være praktisk beskrevet
+- Beskriv hvem som kan melde inn saker og gjennom hvilken kanal.
+- Beskriv hvilken type saker forumet tar imot og hvilke det sender videre.
+- Beskriv hva som bør følge med en innmelding, og hva som skjer etterpå.
+- Hvis inngangen ikke er kjent fra åpne kilder, skriv hva som er sannsynlig basert på type forum og sekretariatets eier.
+
 ### Påvirkning på ressurser
 - Beskriv **eksplisitt** hvilke ressurser forumet faktisk påvirker, og **på hvilken måte**.
 - Beskriv også hvilke andre fora forumet må samordne med.
@@ -93,6 +105,7 @@ En `v1` skal være mer enn et arbeidsutkast og skal kunne brukes direkte i analy
 - Deltakere / hvem som er med
 - Bruksområde / når det bør involveres
 - Scope og avgrensning
+- Grensesnitt mot andre fora
 - Relasjon til andre ressurser og fora
 - Forretningsverdi og arkitekturverdi
 - Lenker og kildegrunnlag
@@ -102,6 +115,8 @@ En `v1` skal være mer enn et arbeidsutkast og skal kunne brukes direkte i analy
 - `Hvilke ressurser forumet påvirker`
 - `Når forumet bør involveres`
 - `Typiske saker og leveranser`
+- `Grensesnitt mot andre fora`
+- `Slik melder du inn en sak`
 
 **Anbefaling:**
 - Hvis kildegrunnlaget ikke er godt nok til dette nivået, bruk heller `v0.x` enn å kalle dokumentet `v1`.

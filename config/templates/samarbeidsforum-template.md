@@ -29,14 +29,16 @@ Se også:
   - `Deltakere og målgruppe`
   - `Hvilke ressurser forumet påvirker`
   - `Arbeidsform og møtearena`
+  - `Slik melder du inn en sak`
   - `Typiske saker og leveranser`
   - `Når forumet bør involveres`
   - `Scope og avgrensning`
+  - `Grensesnitt mot andre fora`
   - `Relasjon til andre ressurser`
   - `Forretningsverdi og arkitekturverdi`
   - `Lenke til dokumentasjon`
   - `Kildegrunnlag brukt i utfyllingen`
-- Hvis forumets rolle, påvirkning og involveringstidspunkt fortsatt er for uklart, bør dokumentet normalt beholdes som `v0.x`.
+- Hvis forumets rolle, påvirkning, grensesnitt mot andre fora og involveringstidspunkt fortsatt er for uklart, bør dokumentet normalt beholdes som `v0.x`.
 
 ## Navn
 Det offisielle navnet på samarbeidsforumet.
@@ -109,6 +111,17 @@ Aktuelle vinkler:
 - høringer eller innspill
 - forankring mellom møtene
 
+## Slik melder du inn en sak
+Beskriv den praktiske inngangen for den som ønsker å bringe noe til forumet.
+
+Aktuelle vinkler:
+- hvem kan melde inn saker (åpen for alle, bare deltakere, bare sekretariat, bare spesifikke virksomheter)
+- hvilken kanal brukes (e-post, skjema, kontakt med sekretariat, gjennom representant, på møte)
+- hvilken type saker tas imot (faglige spørsmål, prioriteringsinnspill, konfliktsaker, samordningsbehov)
+- hva bør en innmelding inneholde for å behandles effektivt
+- hva skjer etter innmelding (hvem besvarer, tidslinje, mulig utfall)
+- om det finnes alternativ rute for hastesaker eller lavterskelspørsmål
+
 ## Typiske saker og leveranser
 Beskriv hva forumet typisk behandler eller utløser.
 
@@ -140,6 +153,18 @@ Fordel på:
 - sekretariat
 - deltakelse eller medlemskap
 - publiserings- eller beslutningsarena
+
+## Grensesnitt mot andre fora
+Beskriv eksplisitt hvordan dette forumet skiller seg fra og utfyller andre fora det er naturlig å forveksle eller kombinere med.
+
+Bruk tabell med:
+`Forum | Rolle-fordekling | Når dette forumet, når det andre | Typisk samspill`
+
+Aktuelle vinkler:
+- hvilke fora adresserer lignende tematikk, men på ulikt nivå (strategisk vs. faglig, tverrsektoriell vs. sektoriell)
+- hvilke fora bør involveres i sekvens (f.eks. fagforum først, råd deretter)
+- hvilke fora kan ta over en sak hvis dette forumet ikke er riktig inngang
+- hva skjer i skjæringspunktet mellom to fora med overlappende mandat
 
 ## Relasjon til andre ressurser
 Beskriv relevante koblinger til:
