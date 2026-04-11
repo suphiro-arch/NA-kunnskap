@@ -6,6 +6,16 @@ eyebrow: "Prinsipper"
 headerTitle: "Prinsipper for nasjonal arkitektur"
 ---
 
+# Prinsipper for nasjonal arkitektur
+
+Kildegrunnlag:
+- `sources/2025-03-18-Nasjonal Arkitektur.xml`
+- `arkitektur/kapabiliteter/capabilities.yaml`
+
+Denne fila samler de sju arkitekturprinsippene som faktisk er koblet til kapabilitetsmodellen, og viser hvilke hovedkapabiliteter som realiserer hvert prinsipp.
+
+Denne fila erstatter de tidligere dupliserte blokkene for prinsippnavn, strategiske mål og prinsipp-kapabilitet-begrunnelser som tidligere lå nederst i `arkitektur/kapabiliteter/capabilities.yaml`.
+
 <div class="principles-intro">
   <p class="principles-intro__lead">De sju prinsippene gir retning for hvordan løsninger bør formes når målet er samhandling, gjenbruk og tillit på tvers av virksomheter.</p>
   <p>På denne siden er prinsippene koblet direkte til hovedkapabilitetene i modellen, slik at det blir lettere å se hvilke evner som faktisk realiserer føringene.</p>

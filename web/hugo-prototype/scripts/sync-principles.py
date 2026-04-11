@@ -11,6 +11,8 @@ FRONT_MATTER = """---
 title: "Prinsipper"
 weight: 20
 description: "Arkitekturprinsipper som gir retning for samhandling, gjenbruk, tillit og styring i nasjonal arkitektur."
+eyebrow: "Prinsipper"
+headerTitle: "Prinsipper for nasjonal arkitektur"
 ---
 
 """
