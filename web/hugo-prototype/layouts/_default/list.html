@@ -2,9 +2,18 @@
 {{ $pages := .Pages.ByWeight }}
 {{ $isCapabilitySection := eq .Section "kapabiliteter" }}
 {{ $sections := .Site.Sections.ByWeight }}
-{{ $resourcePages := where .Site.Pages "Section" "ressursoversikt" }}
+{{ $resourceOverviewPage := .Site.GetPage "/ressursoversikt" }}
+{{ $resourceCount := 0 }}
+{{ with $resourceOverviewPage }}
+  {{ $resourceCount = len (findRE `class="resource-card"` .RawContent) }}
+{{ end }}
 {{ $capabilityPages := where .Site.Pages "Section" "kapabiliteter" }}
-{{ $principlePages := where .Site.Pages "Section" "prinsipper" }}
+{{ $capabilityCount := sub (len $capabilityPages) 1 }}
+{{ $principlesPage := .Site.GetPage "/prinsipper" }}
+{{ $principleCount := 0 }}
+{{ with $principlesPage }}
+  {{ $principleCount = len (uniq (findRE `\*\*P[0-9]+:` .RawContent)) }}
+{{ end }}
 
 {{ if .IsHome }}
 <section class="home-hero">
@@ -35,16 +44,16 @@
 
       <div class="home-metrics" aria-label="Nøkkeltall">
         <article class="home-metrics__item">
-          <strong>{{ len $resourcePages }}</strong>
-          <span>ressurssider i webgrunnlaget</span>
+          <strong>{{ $resourceCount }}</strong>
+          <span>ressurser i oversikten</span>
         </article>
         <article class="home-metrics__item">
-          <strong>{{ len $capabilityPages }}</strong>
-          <span>kapabilitetssider</span>
+          <strong>{{ $capabilityCount }}</strong>
+          <span>kapabiliteter i modellen</span>
         </article>
         <article class="home-metrics__item">
-          <strong>{{ len $principlePages }}</strong>
-          <span>prinsippsider</span>
+          <strong>{{ $principleCount }}</strong>
+          <span>prinsipper i grunnlaget</span>
         </article>
       </div>
     </div>
