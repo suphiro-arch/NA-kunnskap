@@ -349,6 +349,12 @@ Denne seksjonen handler om å bygge en åpen web-basert KI-dokumentasjonsassiste
 
 ---
 
+## Nytt siste steg
+
+- Løftet `DIGDIR-044 Digitaliseringsrundskrivet` til [112-Digitaliseringsrundskrivet-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/normerende-ressurser/112-Digitaliseringsrundskrivet-v1-codex.md).
+- Løftet `DIGDIR-045 Prosjektveiviseren` til [113-Prosjektveiviseren-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v1-codex.md).
+- Oppdatert [produktnummerering.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/produktnummerering.md) slik at registeret nå peker til de nye `v1`-versjonene.
+
 ## Referanser
 
 - [MVP-skisse for dokumentasjonsassistent](briefs/arbeidsstyring-og-handover/2026-03-16-dokumentasjonsassistent-mvp-v1.md) –" Hele konseptet og arkitektur-ideen for assistenten.
