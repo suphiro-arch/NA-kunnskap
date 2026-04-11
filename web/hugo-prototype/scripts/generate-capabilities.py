@@ -90,12 +90,28 @@ def parse_scalar(lines: list[str], index: int, field_indent: int) -> tuple[str, 
     return value.strip(), index + 1
 
 
-def parse_capabilities_yaml(path: Path) -> list[dict]:
+def parse_capabilities_yaml(path: Path) -> dict:
     lines = read_text(path).splitlines()
+
+    model = {
+        'id': '',
+        'navn': '',
+        'beskrivelse': '',
+        'kapabiliteter': [],
+    }
 
     capabilities: list[dict] = []
     i = 0
     while i < len(lines):
+        if lines[i].startswith('  id:') and not model['id']:
+            model['id'], i = parse_scalar(lines, i, 2)
+            continue
+        if lines[i].startswith('  navn:') and not model['navn']:
+            model['navn'], i = parse_scalar(lines, i, 2)
+            continue
+        if lines[i].startswith('  beskrivelse:') and not model['beskrivelse']:
+            model['beskrivelse'], i = parse_scalar(lines, i, 2)
+            continue
         if lines[i].strip() == 'kapabiliteter:' and lines[i].startswith('  '):
             i += 1
             while i < len(lines):
@@ -174,7 +190,8 @@ def parse_capabilities_yaml(path: Path) -> list[dict]:
                 i += 1
         i += 1
 
-    return capabilities
+    model['kapabiliteter'] = capabilities
+    return model
 
 
 def extract_section(markdown: str, heading: str) -> str:
@@ -435,7 +452,8 @@ def indent_block(text: str, spaces: int = 2) -> str:
 
 
 def generate() -> None:
-    capabilities = parse_capabilities_yaml(CAPABILITIES_FILE)
+    model = parse_capabilities_yaml(CAPABILITIES_FILE)
+    capabilities = model['kapabiliteter']
     capability_products, subcap_products = parse_product_capability_mappings(capabilities)
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -500,11 +518,13 @@ productsMarkdown: |
     top_content = f"""
 ---
 title: "Kapabiliteter"
+eyebrow: "Kapabilitetsmodell"
+headerTitle: "{model['navn']}"
 weight: 10
 description: "Oversikt over hovedkapabiliteter, delkapabiliteter og hvilke produkter som støtter dem."
 ---
 
-Kapabilitetene viser hvilke evner som må være på plass for digital samhandling.
+{model['beskrivelse']}
 
 - Start med en hovedkapabilitet.
 - Gå videre til delkapabiliteter.
