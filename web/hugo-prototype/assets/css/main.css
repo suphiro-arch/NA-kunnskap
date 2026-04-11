@@ -715,15 +715,15 @@ a:hover {
 }
 
 .capability-product-link .resource-card__button--primary {
-  background: #edf4ef;
-  border-color: #c9d8cd;
-  color: #245c48;
+  background: #f2f4f5;
+  border-color: #d6dde1;
+  color: #42505b;
 }
 
 .capability-product-link .resource-card__button--primary:hover {
-  background: #e1ece4;
-  border-color: #bccfc1;
-  color: #1f4c3c;
+  background: #e8ecef;
+  border-color: #c8d0d6;
+  color: #33414c;
 }
 
 .capability-product-link.resource-type--operative {
