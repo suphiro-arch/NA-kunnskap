@@ -1,13 +1,13 @@
 ---
 title: "Samtykke"
+headerTitle: "Tillit - Samtykke"
+eyebrow: "Kapabilitet"
 weight: 7
 description: "Evne til å akseptere, godkjenne eller gi tillatelse på vegne av seg selv eller andre, der det foreligger et representasjonsforhold."
 cardMeta: "1 produkter"
 ---
 
 Evne til å akseptere, godkjenne eller gi tillatelse på vegne av seg selv eller andre, der det foreligger et representasjonsforhold.
-
-**Sti:** [Kapabiliteter](../../) / [Tillit](../)
 
 ## Relaterte produkter
 

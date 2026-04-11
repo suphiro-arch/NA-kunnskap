@@ -1,13 +1,13 @@
 ---
 title: "Oversikt over datasett"
+headerTitle: "Informasjonsforvaltning - Oversikt over datasett"
+eyebrow: "Kapabilitet"
 weight: 3
 description: "Evne til å systematisk oppdage, vurdere og gjenbruke data på tvers av offentlig sektor gjennom en sentral, standardisert oversikt over tilgjengelige datasett."
 cardMeta: "5 produkter"
 ---
 
 Evne til å systematisk oppdage, vurdere og gjenbruke data på tvers av offentlig sektor gjennom en sentral, standardisert oversikt over tilgjengelige datasett.
-
-**Sti:** [Kapabiliteter](../../) / [Informasjonsforvaltning](../)
 
 ## Relaterte produkter
 

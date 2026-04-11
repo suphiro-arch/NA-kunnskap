@@ -1,13 +1,13 @@
 ---
 title: "Tjenesteforvaltning"
+headerTitle: "Samarbeid - Tjenesteforvaltning"
+eyebrow: "Kapabilitet"
 weight: 3
 description: "Evne til å formalisere samarbeid gjennom tydelig definerte roller, ansvar og avtaler for å sikre forutsigbar og effektiv felles styring mellom samhandlende virksomheter."
 cardMeta: "2 produkter"
 ---
 
 Evne til å formalisere samarbeid gjennom tydelig definerte roller, ansvar og avtaler for å sikre forutsigbar og effektiv felles styring mellom samhandlende virksomheter.
-
-**Sti:** [Kapabiliteter](../../) / [Samarbeid](../)
 
 ## Relaterte produkter
 

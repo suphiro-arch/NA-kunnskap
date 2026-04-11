@@ -1,13 +1,13 @@
 ---
 title: "Samarbeidsarenaer og nettverk"
+headerTitle: "Samarbeid - Samarbeidsarenaer og nettverk"
+eyebrow: "Kapabilitet"
 weight: 2
 description: "Evne til å effektivisere, etablere, forvalte og fasilitere arenaer, nettverk og prosesser som fremmer kunnskapsdeling, dialog og samordning på tvers av virksomheter i økosystemet."
 cardMeta: "7 produkter"
 ---
 
 Evne til å effektivisere, etablere, forvalte og fasilitere arenaer, nettverk og prosesser som fremmer kunnskapsdeling, dialog og samordning på tvers av virksomheter i økosystemet.
-
-**Sti:** [Kapabiliteter](../../) / [Samarbeid](../)
 
 ## Relaterte produkter
 

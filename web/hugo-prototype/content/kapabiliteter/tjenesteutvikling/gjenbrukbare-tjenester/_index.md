@@ -1,13 +1,13 @@
 ---
 title: "Gjenbrukbare tjenester"
+headerTitle: "Tjenesteutvikling - Gjenbrukbare tjenester"
+eyebrow: "Kapabilitet"
 weight: 3
 description: "Evne til å utvikle og benytte tjenester som kan brukes i nye sammenhenger på tvers av offentlig forvaltning og næringsliv."
 cardMeta: "5 produkter"
 ---
 
 Evne til å utvikle og benytte tjenester som kan brukes i nye sammenhenger på tvers av offentlig forvaltning og næringsliv.
-
-**Sti:** [Kapabiliteter](../../) / [Tjenesteutvikling](../)
 
 ## Relaterte produkter
 

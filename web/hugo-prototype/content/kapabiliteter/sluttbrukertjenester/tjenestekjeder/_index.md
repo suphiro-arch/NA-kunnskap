@@ -1,13 +1,13 @@
 ---
 title: "Tjenestekjeder"
+headerTitle: "Sluttbrukertjenester - Tjenestekjeder"
+eyebrow: "Kapabilitet"
 weight: 2
 description: "Evne til å dynamisk sette sammen, koordinere og automatisere flyten av informasjon og prosesser på tvers av uavhengige, integrerbare tjenester for å levere en komplett ende-til-ende-tjeneste for brukeren."
 cardMeta: "3 produkter"
 ---
 
 Evne til å dynamisk sette sammen, koordinere og automatisere flyten av informasjon og prosesser på tvers av uavhengige, integrerbare tjenester for å levere en komplett ende-til-ende-tjeneste for brukeren.
-
-**Sti:** [Kapabiliteter](../../) / [Sluttbrukertjenester](../)
 
 ## Relaterte produkter
 

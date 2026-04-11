@@ -1,13 +1,13 @@
 ---
 title: "Arkitekturstyring"
+headerTitle: "Strategisk styring - Arkitekturstyring"
+eyebrow: "Kapabilitet"
 weight: 2
 description: "Evne til å etablere, forvalte og styre en helhetlig nasjonal digital arkitektur som et felles, forpliktende rammeverk, for å sikre samhandling, gjenbruk og strategisk retning i et nasjonalt digitalt økosystem."
 cardMeta: "1 produkter"
 ---
 
 Evne til å etablere, forvalte og styre en helhetlig nasjonal digital arkitektur som et felles, forpliktende rammeverk, for å sikre samhandling, gjenbruk og strategisk retning i et nasjonalt digitalt økosystem.
-
-**Sti:** [Kapabiliteter](../../) / [Strategisk styring](../)
 
 ## Relaterte produkter
 

@@ -1,13 +1,13 @@
 ---
 title: "Sammenhengende tjenester"
+headerTitle: "Sluttbrukertjenester - Sammenhengende tjenester"
+eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å levere en digital brukerorienterte tjenester som fremstår som en logisk og uavbrutt prosess for brukeren, selv når den involverer og koordinerer handlinger og tjenester fra flere, uavhengige virksomheter."
 cardMeta: "14 produkter"
 ---
 
 Evne til å levere en digital brukerorienterte tjenester som fremstår som en logisk og uavbrutt prosess for brukeren, selv når den involverer og koordinerer handlinger og tjenester fra flere, uavhengige virksomheter.
-
-**Sti:** [Kapabiliteter](../../) / [Sluttbrukertjenester](../)
 
 ## Relaterte produkter
 

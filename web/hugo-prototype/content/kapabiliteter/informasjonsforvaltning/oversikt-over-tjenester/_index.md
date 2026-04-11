@@ -1,13 +1,13 @@
 ---
 title: "Oversikt over tjenester"
+headerTitle: "Informasjonsforvaltning - Oversikt over tjenester"
+eyebrow: "Kapabilitet"
 weight: 7
 description: "Evne til å gi oversikt over og oppdage tjenester som tilbys av eller på vegne av offentlig sektor."
 cardMeta: "5 produkter"
 ---
 
 Evne til å gi oversikt over og oppdage tjenester som tilbys av eller på vegne av offentlig sektor.
-
-**Sti:** [Kapabiliteter](../../) / [Informasjonsforvaltning](../)
 
 ## Relaterte produkter
 

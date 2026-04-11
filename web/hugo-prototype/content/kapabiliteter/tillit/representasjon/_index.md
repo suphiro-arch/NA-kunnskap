@@ -1,13 +1,13 @@
 ---
 title: "Representasjon"
+headerTitle: "Tillit - Representasjon"
+eyebrow: "Kapabilitet"
 weight: 4
 description: "Evne til til å kunne opptre eller utføre handlinger digitalt på vegne av andre."
 cardMeta: "3 produkter"
 ---
 
 Evne til til å kunne opptre eller utføre handlinger digitalt på vegne av andre.
-
-**Sti:** [Kapabiliteter](../../) / [Tillit](../)
 
 ## Relaterte produkter
 

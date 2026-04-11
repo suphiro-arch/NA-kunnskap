@@ -1,13 +1,13 @@
 ---
 title: "Tjenestedesign"
+headerTitle: "Tjenesteutvikling - Tjenestedesign"
+eyebrow: "Kapabilitet"
 weight: 4
 description: "Evne til å sette brukerens behov, livssituasjon og helhetlige reise som utgangspunkt for utvikling av sammenhengende tjenester."
 cardMeta: "7 produkter"
 ---
 
 Evne til å sette brukerens behov, livssituasjon og helhetlige reise som utgangspunkt for utvikling av sammenhengende tjenester.
-
-**Sti:** [Kapabiliteter](../../) / [Tjenesteutvikling](../)
 
 ## Relaterte produkter
 

@@ -1,13 +1,13 @@
 ---
 title: "Datastyring"
+headerTitle: "Informasjonsforvaltning - Datastyring"
+eyebrow: "Kapabilitet"
 weight: 8
 description: "Evne til å sikre enhetlig og ansvarlig forvaltning av nasjonale dataressurser gjennom felles rammeverk, klar ansvarsplassering og systematisk kvalitetsarbeid."
 cardMeta: "7 produkter"
 ---
 
 Evne til å sikre enhetlig og ansvarlig forvaltning av nasjonale dataressurser gjennom felles rammeverk, klar ansvarsplassering og systematisk kvalitetsarbeid.
-
-**Sti:** [Kapabiliteter](../../) / [Informasjonsforvaltning](../)
 
 ## Relaterte produkter
 

@@ -1,13 +1,13 @@
 ---
 title: "Proaktive tjenester"
+headerTitle: "Sluttbrukertjenester - Proaktive tjenester"
+eyebrow: "Kapabilitet"
 weight: 3
 description: "Evne til å, basert på registrerte hendelser og delte data, automatisk identifisere en brukers behov for offentlige tjenester og proaktivt tilby relevant informasjon, veiledning eller starte en tjenesteprosess på vegne av brukeren."
 cardMeta: "1 produkter"
 ---
 
 Evne til å, basert på registrerte hendelser og delte data, automatisk identifisere en brukers behov for offentlige tjenester og proaktivt tilby relevant informasjon, veiledning eller starte en tjenesteprosess på vegne av brukeren.
-
-**Sti:** [Kapabiliteter](../../) / [Sluttbrukertjenester](../)
 
 ## Relaterte produkter
 
