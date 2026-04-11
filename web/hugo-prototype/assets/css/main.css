@@ -365,14 +365,14 @@ a:hover {
 }
 
 .resource-overview-intro {
-  padding: 1rem 1.05rem;
+  padding: 0.9rem 1rem;
   border: 1px solid var(--line-subtle);
   border-radius: var(--radius-md);
   background: linear-gradient(180deg, #fbfcfa, #f6f9f6);
 }
 
 .resource-overview-intro__lead {
-  margin: 0 0 0.45rem;
+  margin: 0;
   color: var(--ink-strong);
   font-size: 1.02rem;
   font-weight: 600;
@@ -382,18 +382,18 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   gap: 1rem;
-  margin: 1rem 0 1.2rem;
+  margin: 0.65rem 0 0.35rem;
 }
 
 .resource-type-card {
-  padding: 1rem 1rem 1.05rem;
+  padding: 1rem;
   border: 1px solid var(--line-subtle);
   border-radius: var(--radius-lg);
   background: #fff;
   box-shadow: var(--shadow-soft);
   display: flex;
   flex-direction: column;
-  gap: 0.65rem;
+  gap: 0.45rem;
 }
 
 .resource-type-card:hover {
@@ -421,14 +421,8 @@ a:hover {
   color: var(--ink-body);
 }
 
-.resource-type-card__meta {
-  font-size: 0.78rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--ink-muted);
-}
-
 .resource-type-card__count {
+  margin-top: 0.2rem;
   color: var(--brand-deep);
   font-weight: 700;
 }
