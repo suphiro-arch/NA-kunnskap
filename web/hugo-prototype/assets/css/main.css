@@ -715,15 +715,32 @@ a:hover {
 }
 
 .capability-product-link .resource-card__button--primary {
-  background: #f2f4f5;
-  border-color: #d6dde1;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
   color: #42505b;
+  font-weight: 700;
+  line-height: 1.4;
+  text-decoration: none;
+  position: relative;
+}
+
+.capability-product-link .resource-card__button--primary::after {
+  content: " \2192";
 }
 
 .capability-product-link .resource-card__button--primary:hover {
-  background: #e8ecef;
-  border-color: #c8d0d6;
   color: #33414c;
+  text-decoration: underline;
+  text-underline-offset: 0.14em;
+}
+
+.capability-product-link .resource-card__button--primary:focus-visible {
+  outline: 2px solid #6f879c;
+  outline-offset: 3px;
+  text-decoration: underline;
+  text-underline-offset: 0.14em;
 }
 
 .capability-product-link.resource-type--operative {
