@@ -31,7 +31,7 @@ Formål: Sikre lik, detaljert og grundig utfylling av ressursbeskrivelser for op
 - Dokumenter kort hva som er nytt i analysen (nye kilder, nye funn, avklarte usikkerheter)
 
 ### Trinn 3: Hent kilder (samme hver gang)
-1. Mal: `config/templates/produkt-canvas-template.md`
+1. Mal: `config/templates/operative-ressurs-template.md`
 2. Kapabiliteter: `arkitektur/kapabiliteter/capabilities.yaml` (kun navnene som finnes her)
 3. Prinsipper: `arkitektur/prinsipper/principles.md` (bruk prinsippnavn og koblinger som finnes her)
 4. Lenker: `sources/links.md` (lokal liste + aktive lenker til dokumentasjon)
@@ -213,7 +213,7 @@ Følg reglene under.
 ## Navngiving av filer
 
 ### Obligatorisk format for alle filer
-`NN-<Ressursnavn>-produkt-canvas-vX-<forfatter>.md`
+`NN-<Ressursnavn>-operative-ressurs-canvas-vX-<forfatter>.md`
 
 - `NN` = løpenummer (to siffer)
 - `<Ressursnavn>` = kebab-case-navn
@@ -221,9 +221,9 @@ Følg reglene under.
 - `<forfatter>` = hvem som opprettet filen (f.eks. `copilot`, `codex`, `hilros`, `manuel`)
 
 **Eksempler:**
-- `01-ID-porten-produkt-canvas-v1-copilot.md`
-- `01-ID-porten-produkt-canvas-v2-codex.md`
-- `21-Altinn-Portal-produkt-canvas-v3-manuel.md`
+- `01-ID-porten-operative-ressurs-canvas-v1-copilot.md`
+- `01-ID-porten-operative-ressurs-canvas-v2-codex.md`
+- `21-Altinn-Portal-operative-ressurs-canvas-v3-manuel.md`
 
 **Regler:**
 - Versjonsnummer og forfatter er **alltid obligatorisk** i filnavnet
