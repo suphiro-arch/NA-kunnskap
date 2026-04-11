@@ -40,7 +40,7 @@ Denne mappa samler styringsgrunnlag, registerføring og ressursbeskrivelser for 
    NN-Ressursnavn-ressurs-type-v1-format.md
    ```
    Eksempler:
-   - Operative: `01-ID-porten-produkt-canvas-v1-codex.md`
+   - Operative: `01-ID-porten-operative-ressurs-canvas-v1-copilot.md`
    - Normering: `72-FINT-Informasjonsmodell-v1-codex.md`
    - Samarbeid: `88-Arkitektur-og-standardiseringsradet-v0-codex.md`
 
@@ -50,7 +50,7 @@ Denne mappa samler styringsgrunnlag, registerføring og ressursbeskrivelser for 
    - `codex`, `produktkort` osv. = format/type (valgfritt)
 
 4. **Bruk riktig mal**:
-   - Operative: `config/templates/produkt-canvas-template.md`
+   - Operative: `config/templates/operative-ressurs-template.md`
    - Normering: `config/templates/normerende-ressurs-template.md`
    - Samarbeid: `config/templates/samarbeidsforum-template.md`
 
@@ -70,8 +70,8 @@ Denne mappa samler styringsgrunnlag, registerføring og ressursbeskrivelser for 
 
 1. **Kopier den gamle filen** og gi den nytt versjonsnummer:
    ```
-   Gammel: 01-ID-porten-produkt-canvas-v3-codex.md
-   Ny:     01-ID-porten-produkt-canvas-v4-codex.md
+   Gammel: 01-ID-porten-operative-ressurs-canvas-v3-codex.md
+   Ny:     01-ID-porten-operative-ressurs-canvas-v4-codex.md
    ```
    (Lopenummeret `NN` blir det samme.)
 
@@ -85,7 +85,7 @@ Denne mappa samler styringsgrunnlag, registerføring og ressursbeskrivelser for 
 4. **Valgfritt: Rydd gammel versjon**:
    - Hvis du vil holde repoet rent, kan du slette den gamle filen:
      ```bash
-     git rm arkitektur/ressurser/operative-losninger-og-tjenester/01-ID-porten-produkt-canvas-v3-codex.md
+     git rm arkitektur/ressurser/operative-losninger-og-tjenester/01-ID-porten-operative-ressurs-canvas-v3-codex.md
      ```
    - Kommitter med melding som "Update ID-porten to v4" eller "Deprecate ID-porten v3".
 
