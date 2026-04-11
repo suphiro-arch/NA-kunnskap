@@ -118,3 +118,21 @@ A: Endre den i både filnavn og `produktnummerering.md`. ID-en er kanonisk ident
 
 **Q: Kan jeg ha kapabiliteter som hovedinndeling i stedet for ressurstype?**  
 A: Nei – ressurstype-mappene er primær struktur. Bruk kapabiliteter som filter og metadata på nettstedet.
+
+**Q: Hva med gamle versjoner — skal jeg slette dem?**  
+A: Nei – du kan beholde dem i Git for historiebakgrunn. Generator-scriptet viser **kun den versjonen som registeret peker til**. Gamle filer blir ignorert. Du kan:
+- Beholde dem i samme mappe som arkiv
+- Slette dem hvis du ønsker å rydde (Bruk `git rm`)
+- Navngi arkiverte filer med suffikser som `-deprecated` eller slå dem i en `_archive/` undermappe
+
+---
+
+## Teknisk detalj: Versjonskontroll
+
+Generator-scriptet (`web/hugo-prototype/scripts/generate-products.ps1`) fungerer slik:
+1. Les `produktnummerering.md` og plukk ut ressurs-IDer og dokumentlenker
+2. For hver ressurs: les **kun** filen som registeret peker til
+3. Generer nettsidesidene bare for disse filene
+4. Alle andre filer i mappen (gamle versjoner) blir ignorert
+
+**Sikkerhet:** Hvis du glemmer å oppdatere registeret etter å ha opprettet v4, vil nettsiden fortsatt vise v3. Generator warning ikke – du får bare ikke oppdatering. Så sørg for å alltid oppdatere `produktnummerering.md` når du lager ny versjon!
