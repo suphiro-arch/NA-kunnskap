@@ -7,9 +7,7 @@ cardMeta: "14 produkter"
 
 Evne til å levere en digital brukerorienterte tjenester som fremstår som en logisk og uavbrutt prosess for brukeren, selv når den involverer og koordinerer handlinger og tjenester fra flere, uavhengige virksomheter.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Sluttbrukertjenester](../).
+**Sti:** [Kapabiliteter](../../) / [Sluttbrukertjenester](../)
 
 ## Relaterte produkter
 

@@ -7,9 +7,7 @@ cardMeta: "0 produkter"
 
 Evne til å tilgjengeliggjøre og forvalte data som ikke er påført en forhåndsdefinert struktur.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Datakilder](../).
+**Sti:** [Kapabiliteter](../../) / [Datakilder](../)
 
 ## Relaterte produkter
 

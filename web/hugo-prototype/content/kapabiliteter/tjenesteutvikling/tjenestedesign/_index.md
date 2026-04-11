@@ -7,9 +7,7 @@ cardMeta: "7 produkter"
 
 Evne til å sette brukerens behov, livssituasjon og helhetlige reise som utgangspunkt for utvikling av sammenhengende tjenester.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Tjenesteutvikling](../).
+**Sti:** [Kapabiliteter](../../) / [Tjenesteutvikling](../)
 
 ## Relaterte produkter
 

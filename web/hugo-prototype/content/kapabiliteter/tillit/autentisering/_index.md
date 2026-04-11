@@ -7,9 +7,7 @@ cardMeta: "9 produkter"
 
 Evne til å på en sikker og entydig måte verifisere den digitale identiteten til brukere og systemer.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Tillit](../).
+**Sti:** [Kapabiliteter](../../) / [Tillit](../)
 
 ## Relaterte produkter
 

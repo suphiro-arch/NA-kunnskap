@@ -7,9 +7,7 @@ cardMeta: "3 produkter"
 
 Evne til å dynamisk sette sammen, koordinere og automatisere flyten av informasjon og prosesser på tvers av uavhengige, integrerbare tjenester for å levere en komplett ende-til-ende-tjeneste for brukeren.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Sluttbrukertjenester](../).
+**Sti:** [Kapabiliteter](../../) / [Sluttbrukertjenester](../)
 
 ## Relaterte produkter
 

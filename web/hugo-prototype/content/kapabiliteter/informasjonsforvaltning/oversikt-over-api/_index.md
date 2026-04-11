@@ -7,9 +7,7 @@ cardMeta: "3 produkter"
 
 Evne til å datadeling og tjenesteintegrasjon ved å oppdage, forstå og koble seg til tilgjengelige data via en standardisert oversikt over maskinlesbare grensesnitt (API-er).
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Informasjonsforvaltning](../).
+**Sti:** [Kapabiliteter](../../) / [Informasjonsforvaltning](../)
 
 ## Relaterte produkter
 

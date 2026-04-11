@@ -7,9 +7,7 @@ cardMeta: "5 produkter"
 
 Evne til å utvikle og benytte tjenester som kan brukes i nye sammenhenger på tvers av offentlig forvaltning og næringsliv.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Tjenesteutvikling](../).
+**Sti:** [Kapabiliteter](../../) / [Tjenesteutvikling](../)
 
 ## Relaterte produkter
 

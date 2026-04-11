@@ -7,9 +7,7 @@ cardMeta: "7 produkter"
 
 Evnen til å harmonisere og koordinere strategisk retning, beslutninger og ressursbruk på tvers av virksomheter, for å realisere felles samfunnsmål og sammenhengende tjenester.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Strategisk styring](../).
+**Sti:** [Kapabiliteter](../../) / [Strategisk styring](../)
 
 ## Relaterte produkter
 

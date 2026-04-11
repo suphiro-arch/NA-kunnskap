@@ -7,9 +7,7 @@ cardMeta: "0 produkter"
 
 Evne til å tilgjengeliggjøre åpne data slik at den kan leses og tolkes av både maskiner og mennesker, og som alle kan få tilgang til, bruke og dele.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Datakilder](../).
+**Sti:** [Kapabiliteter](../../) / [Datakilder](../)
 
 ## Relaterte produkter
 

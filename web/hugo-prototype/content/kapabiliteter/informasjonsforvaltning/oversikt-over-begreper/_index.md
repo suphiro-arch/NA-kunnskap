@@ -7,9 +7,7 @@ cardMeta: "3 produkter"
 
 Evne til å etablere en omforent begrepsforståelse ved å definere, dele og gjenbruke begreper på tvers av virksomheter, for å sikre entydig kommunikasjon og semantisk samhandlingsevne.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Informasjonsforvaltning](../).
+**Sti:** [Kapabiliteter](../../) / [Informasjonsforvaltning](../)
 
 ## Relaterte produkter
 

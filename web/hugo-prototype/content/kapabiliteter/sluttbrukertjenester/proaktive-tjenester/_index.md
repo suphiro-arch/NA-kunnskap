@@ -7,9 +7,7 @@ cardMeta: "1 produkter"
 
 Evne til å, basert på registrerte hendelser og delte data, automatisk identifisere en brukers behov for offentlige tjenester og proaktivt tilby relevant informasjon, veiledning eller starte en tjenesteprosess på vegne av brukeren.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Sluttbrukertjenester](../).
+**Sti:** [Kapabiliteter](../../) / [Sluttbrukertjenester](../)
 
 ## Relaterte produkter
 

@@ -7,9 +7,7 @@ cardMeta: "3 produkter"
 
 Evne til entydig å fastslå og registrere identiteter (personer, virksomheter eller systemer) gjennom pålitelige metoder og kilder.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Tillit](../).
+**Sti:** [Kapabiliteter](../../) / [Tillit](../)
 
 ## Relaterte produkter
 

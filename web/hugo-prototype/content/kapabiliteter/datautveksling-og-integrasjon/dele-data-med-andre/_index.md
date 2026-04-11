@@ -7,9 +7,7 @@ cardMeta: "27 produkter"
 
 Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er, slik at andre aktører med lovlig grunnlag enkelt kan oppdage og gjenbruke dem.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Datautveksling og integrasjon](../).
+**Sti:** [Kapabiliteter](../../) / [Datautveksling og integrasjon](../)
 
 ## Relaterte produkter
 

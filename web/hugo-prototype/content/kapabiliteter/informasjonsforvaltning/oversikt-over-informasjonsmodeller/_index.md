@@ -7,9 +7,7 @@ cardMeta: "3 produkter"
 
 Evne til å gi oversikt over informasjonsmodeller for å kunne gi en felles forståelse av datastrukturer, slik at data kan tolkes korrekt og meningsfullt.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Informasjonsforvaltning](../).
+**Sti:** [Kapabiliteter](../../) / [Informasjonsforvaltning](../)
 
 ## Relaterte produkter
 

@@ -7,9 +7,7 @@ cardMeta: "19 produkter"
 
 Evne til å gjenbruke data fra andre i egne tjenester og prosesser.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Datautveksling og integrasjon](../).
+**Sti:** [Kapabiliteter](../../) / [Datautveksling og integrasjon](../)
 
 ## Relaterte produkter
 

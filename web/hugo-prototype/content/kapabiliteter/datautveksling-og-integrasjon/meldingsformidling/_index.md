@@ -7,9 +7,7 @@ cardMeta: "11 produkter"
 
 Evnen til å garantere levering og meldingsrekkefølge til rett mottaker.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Datautveksling og integrasjon](../).
+**Sti:** [Kapabiliteter](../../) / [Datautveksling og integrasjon](../)
 
 ## Relaterte produkter
 

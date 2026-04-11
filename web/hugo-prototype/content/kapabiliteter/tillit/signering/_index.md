@@ -7,9 +7,7 @@ cardMeta: "2 produkter"
 
 Evne til juridisk bindende signering av dokumenter eller transaksjoner.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Tillit](../).
+**Sti:** [Kapabiliteter](../../) / [Tillit](../)
 
 ## Relaterte produkter
 
