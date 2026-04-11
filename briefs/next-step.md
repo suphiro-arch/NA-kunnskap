@@ -240,13 +240,29 @@ Disse skal tas inn *parallelt* med produktgrunnlag-arbeidet og vil gjøre det le
    - oppfyller kravene for hovedfunksjoner, beslutningsstøtte, kapabilitetsforklaring, målgruppebasert verdibeskrivelse og kombinasjoner under gjenbruk
 - **Bestått v1-gate:** [31-Helsedata-no-produkt-canvas-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v1-codex.md)
    - løftet til samme nivå som sterkere v1-filer, med tydelig rolleavgrensning og bedre beslutningsstøtte
-- **Bør styrkes før v1-gate anses bestått:** [32-Helsenorge-produkt-canvas-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/operative-losninger-og-tjenester/32-Helsenorge-produkt-canvas-v1-codex.md)
-   - mangler eksplisitte underseksjoner for `Typiske brukssituasjoner (generisk)` og `Når <produktet> normalt ikke er førstevalg`
-   - bør få `Vanlige kombinasjoner med andre produkter` under `Gjenbruk`
+- **Bestått v1-gate:** [32-Helsenorge-produkt-canvas-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/operative-losninger-og-tjenester/32-Helsenorge-produkt-canvas-v1-codex.md)
+   - oppdatert med `Typiske brukssituasjoner (generisk)`, `Når Helsenorge normalt ikke er førstevalg` og `Vanlige kombinasjoner med andre produkter`
 
 **Anbefalt neste mikro-løp (1 arbeidsøkt):**
-- Oppdatere `32-Helsenorge` etter samme mønster som `31-Helsedata.no` og `63-microdata.no`.
-- Deretter kjøre en ny mini-sjekk på 3-5 operative v1-filer for å kalibrere om v1-gaten fungerer jevnt i praksis.
+- Kjør en ny mini-sjekk på 3-5 operative v1-filer for å kalibrere om v1-gaten fungerer jevnt i praksis.
+
+### Opptaksvurdering –" FHI-relaterte registre (første prioritering)
+
+Status nå:
+- `Helsedata.no` og `microdata.no` er beskrevet.
+- Følgende kandidater er ikke registrert som egne operative ressurser per nå: `Dødsårsaksregisteret`, `MSIS`, `SYSVAK`, `Reseptregisteret/NorPD`.
+
+Foreløpig prioritering etter styringsreglene:
+- **Bør vurderes først (høyest sannsynlighet for opptak):**
+   - `SYSVAK` (tydelig nasjonal rolle, stor samhandlingsbetydning)
+   - `MSIS` (tydelig nasjonal rolle og bred bruk i beredskap/samhandling)
+- **Bør vurderes i neste bølge:**
+   - `Dødsårsaksregisteret`
+   - `Reseptregisteret/NorPD`
+
+Anbefalt konkret neste steg:
+- Gjennomføre en kort 5-spørsmålstest per kandidat mot `arkitektur/ressurser/styringsregler.md`.
+- Hvis minst fire av fem er tydelig ja: opprett kandidat som egen operativ ressurs i registeret.
 
 - Vurdere om de første normerende Digdir-ressursene bør få utfylt de nye analysefeltene før neste større bolk legges inn.
 - Vurdere neste Digdir-bolk fra rålista, med særlig blikk på `FSiF`, `Regulatorisk sandkasse for KI`, `Nasjonal sandkasse for digital lommebok` og `Samarbeidsportalen`.
@@ -373,9 +389,9 @@ Denne seksjonen handler om å bygge en åpen web-basert KI-dokumentasjonsassiste
 - Brukt det skjerpede samarbeidsforum-oppsettet som kontrolltest på [110-Skate-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/samarbeidsfora/110-Skate-v1-codex.md), med mindre spekulative påstander, tydeligere avgrensning av beslutningsmyndighet og renere kapabilitetsseksjon.
 - Løftet [111-Digitaliseringsradet-v0-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v0-codex.md) til [111-Digitaliseringsradet-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v1-codex.md), med tydeligere grensesnitt mot andre fora, ren kapabilitetsseksjon og skarpere skille mellom rådgivning, styring og samordning.
 - Forbedret kapabilitetssidene visuelt ved å gi koblede ressurskort en liten typebrikke og diskret farget toppkant per ressurskategori: grønn for operative løsninger, blå for normerende ressurser og svak varm rødtone for samarbeidsfora.
+- Justerte kapabilitetssidene videre slik at selve evne-beskrivelsen får mer visuell tyngde, ressurskortene får litt mer luft, og knappene i ressursdelen er tonet ned for å la faginnholdet komme tydeligere først.
 
 ## Referanser
 
 - [MVP-skisse for dokumentasjonsassistent](briefs/arbeidsstyring-og-handover/2026-03-16-dokumentasjonsassistent-mvp-v1.md) –" Hele konseptet og arkitektur-ideen for assistenten.
-
 

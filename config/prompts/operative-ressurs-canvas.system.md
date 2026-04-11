@@ -30,6 +30,16 @@ Formål: Sikre lik, detaljert og grundig utfylling av ressursbeskrivelser for op
 - **Ikke godkjent forbedring:** kun språkvask, omformulering eller tabellformattering uten nytt analysegrunnlag
 - Dokumenter kort hva som er nytt i analysen (nye kilder, nye funn, avklarte usikkerheter)
 
+### Trinn 2C: v1-minstekrav (KVALITETSGATE)
+En ressursbeskrivelse skal normalt ikke merkes som `v1` hvis ett eller flere av punktene under mangler:
+1. `Hovedfunksjoner` har minst 3-4 forklarende avsnitt (ikke bare korte punkt).
+2. `Hovedfunksjoner` inneholder både `Typiske brukssituasjoner (generisk)` og `Når <produktet> normalt ikke er førstevalg` når produktet brukes i analyser.
+3. `Kapabiliteter` inneholder forklaring på *hvordan* produktet bidrar per kapabilitet, ikke bare opplisting av navn.
+4. `Forretningsverdi/Verdiforslag` er delt i minst 3 målgruppe- eller interessentperspektiver.
+5. `Gjenbruk` inkluderer `Vanlige kombinasjoner med andre produkter` når dette er relevant for arkitekturvurdering.
+
+Hvis kildegrunnlaget ikke støtter dette nivået, behold dokumentet som `v0.x` til videre analyse er gjort.
+
 ### Trinn 3: Hent kilder (samme hver gang)
 1. Mal: `config/templates/operative-ressurs-template.md`
 2. Kapabiliteter: `arkitektur/kapabiliteter/capabilities.yaml` (kun navnene som finnes her)
@@ -207,6 +217,7 @@ Følg reglene under.
 | **Tabeller** | Komplekse felt (risiko, forvaltning, brukersegmenter) er fremstilt i tabellformat for lesbarhet |
 | **Beslutningsstøtte** | Det er tydelig når produktet bør velges, når det ikke er førstevalg, og hvilke kombinasjoner som er vanlige |
 | **Kapabilitetsdisiplin** | Kapabilitetsmappingen er kontrollert mot faktiske hovedfunksjoner, ikke bare mot beslutningsstøttefeltene |
+| **v1-gate** | Alle fem v1-minstekrav i `Trinn 2C` er oppfylt, eller dokumentet er beholdt som `v0.x` |
 
 ---
 

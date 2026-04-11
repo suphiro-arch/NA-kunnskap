@@ -1,4 +1,4 @@
-# Produkt-canvas: Helsedata.no
+# Helsedata.no
 
 ## Navn
 Helsedata.no
@@ -18,12 +18,19 @@ HDIR-001
 - utvikles i samspill mellom flere sentrale helseaktører
 
 ## Kort beskrivelse
-Helsedata.no er den nasjonale portalen for å finne informasjon om helsedata, orientere seg i datakilder og søke om tilgang til data for analyse, forskning og annen lovlig bruk. Produktet er både en oversikts- og veiledningsflate og en inngang til sammenhengende søknads- og tilgangsløp.
+Helsedata.no er den nasjonale portalen for å finne, forstå og søke tilgang til helsedata for forskning, analyse og annen lovlig bruk. Løsningen kombinerer oversikt over datakilder, veiledning i tilgangsprosesser og en operativ inngang til søknadsløp gjennom Helsedataservice og tilknyttede forvaltningsmiljøer.
+
+Produktet er viktig i arkitekturvurderinger fordi det fungerer som felles orienterings- og tilgangsflate på tvers av mange dataeiere og registre i helsesektoren. Ressursen er derfor ikke bare en informasjonsportal, men en sentral del av sektorenes sammenhengende tilgangsløp til helsedata.
 
 ## Kapabiliteter
 - **Informasjonsforvaltning: Oversikt over datasett**
+	Helsedata.no gir brukere en samlet inngang til å oppdage og vurdere relevante helsedatakilder før søknad.
+
 - **Informasjonsforvaltning: Datastyring**
+	Løsningen støtter datastyring ved å strukturere tilgangsinformasjon, roller og prosesser på tvers av flere dataforvaltere.
+
 - **Sluttbrukertjenester: Sammenhengende tjenester**
+	Portalen binder sammen orientering, veiledning og søknadsløp i en helhetlig brukerreise.
 
 ## Produktmål
 - gjøre helsedata lettere å finne og forstå
@@ -43,12 +50,25 @@ Helsedata.no er den nasjonale portalen for å finne informasjon om helsedata, or
 | Helsedataservice og forvaltere | Felles kanal og saksflyt | Veiledning og søknadsbehandling | Operativ funksjon |
 
 ## Hovedfunksjoner
-### Primære funksjoner
-**Oversikt over helsedata og registre.** Helsedata.no hjelper brukerne å finne fram i hvilke datakilder som finnes og hva de kan brukes til.
+Helsedata.no gir en samlet oversikt over helsedatakilder, registre og tilgangsmuligheter. Dette reduserer behovet for at brukere må orientere seg i mange separate nettsteder og forvaltningsmiljøer før de kan avklare om en datakilde er relevant for sitt formål.
 
-**Sammenhengende tilgangsløp.** Produktet samler veiledning, søknad og støttefunksjoner rundt tilgang til helsedata.
+En sentral funksjon er å koble informasjon og prosess i samme løp: brukeren kan både få veiledning om regler, datainnhold og roller, og gå videre til søknadsløp for tilgang. Denne koblingen gjør løsningen operativ i praksis, ikke bare informativ.
 
-**Felles nasjonal inngang.** Løsningen reduserer behovet for å navigere mellom mange separate helseaktører for å forstå og be om tilgang til data.
+Produktet fungerer også som samordningsflate mellom ulike aktører i helsedatainfrastrukturen. Når mange dataforvaltere, registre og tjenesteeiere inngår i samme tilgangslandskap, bidrar Helsedata.no til mer konsistent inngang, begrepsbruk og forventningsstyring.
+
+Samtidig er løsningen avgrenset: Helsedata.no er ikke et register i seg selv, og er ikke plattformen der selve analysen gjennomføres. Rollen er å støtte oppdagelse, veiledning og tilgangsprosess, mens underliggende registre og analysemiljø håndterer data og bruk.
+
+### Typiske brukssituasjoner (generisk)
+- når forsknings- eller analysemiljø skal finne relevante helsedatakilder og avklare tilgang før prosjektstart
+- når en virksomhet trenger veiledning i hvordan et helsedatabehov kan konkretiseres og kanaliseres inn i riktig søknadsløp
+- når et prosjekt involverer flere helsedatakilder og trenger en felles inngang til informasjon om roller, vilkår og prosess
+- når en analyse krever tidlig avklaring av om data kan tilgjengeliggjøres innenfor gjeldende rammer
+
+### Når Helsedata.no normalt ikke er førstevalg
+- når behovet gjelder direkte teknisk integrasjon mot et spesifikt register eller fagsystem
+- når brukeren allerede har data i godkjent analysemiljø og trenger analyseverktøy, ikke tilgangsveiledning
+- når formålet er publisering av åpne data eller generell datakatalog uten helsedata-spesifikt tilgangsløp
+- når saken gjelder styringsvedtak eller prioritering på overordnet nivå, som hører hjemme i styringsfora
 
 ### Scope og avgrensning
 | Inngår | Inngår ikke |
@@ -57,14 +77,15 @@ Helsedata.no er den nasjonale portalen for å finne informasjon om helsedata, or
 | Veiledning og sammenhengende tilgangsløp | All behandling og bruk av data etter utlevering |
 
 ## Veikart over kommende funksjonalitet
-**Ikke offentlig verifisert i denne arbeidsøkten:** Et samlet veikart er ikke hentet ut.
+**Ikke offentlig verifisert i denne arbeidsøkten:** Et samlet og tidsfestet veikart for hele Helsedata.no er ikke hentet ut.
 
-**Deduksjon:** Produktet utvikles videre i retning av bedre oversikt, mer sammenhengende tilgang og samordning med Helsedataservice.
+**Deduksjon:** Videreutviklingen ser ut til å gå i retning av bedre sammenheng i tilgangsløp, tydeligere brukerorientering i søknadsprosessene og sterkere samordning mellom Helsedata.no, Helsedataservice og underliggende dataforvaltere.
 
 ## Forretningsverdi/Verdiforslag
-- gjør helsedata lettere tilgjengelige som nasjonal ressurs
-- reduserer friksjon i søknads- og orienteringsløp
-- støtter bedre gjenbruk av helsedata på tvers av aktører
+- For forsknings- og analysemiljøer: kortere vei fra behov til kvalifisert søknad om data, fordi relevant informasjon er samlet i én nasjonal inngang.
+- For dataforvaltere: bedre forventningsstyring og mer strukturert dialog med søkere når prosess og veiledning er standardisert.
+- For offentlig sektor: redusert fragmentering i tilgangslandskapet for helsedata, som gir mer sammenlignbare og forutsigbare tilgangsløp.
+- For beslutningstakere: bedre grunnlag for å vurdere om eksisterende data kan brukes før nye datainnsamlinger etableres.
 
 ## Utfordringer og risiko
 | Risikokategori | Konkret risiko | Håndtering |
@@ -83,6 +104,12 @@ Helsedata.no er en nasjonal portal- og tilgangsflate for helsedata.
 
 ## Gjenbruk
 **Høy gjenbruksverdi** som nasjonal inngang til helsedata, men mindre som teknisk byggekloss enn som felles tilgangs- og oversiktsløsning.
+
+### Vanlige kombinasjoner med andre produkter
+- `Helsedataservice`
+- `Helsedataregistere hos FHI og andre dataforvaltere`
+- `microdata.no` der behovet er analyse i kontrollert miljø etter tilgangsavklaring
+- sektorspesifikke analysemiljøer og forskningsinfrastruktur
 
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data**

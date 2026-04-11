@@ -663,8 +663,8 @@ a:hover {
 .capability-product-links {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-  gap: 0.9rem;
-  margin-top: 1rem;
+  gap: 1.05rem;
+  margin-top: 1.35rem;
 }
 
 .capability-product-link {
@@ -714,6 +714,18 @@ a:hover {
   align-self: flex-start;
 }
 
+.capability-product-link .resource-card__button--primary {
+  background: #edf4ef;
+  border-color: #c9d8cd;
+  color: #245c48;
+}
+
+.capability-product-link .resource-card__button--primary:hover {
+  background: #e1ece4;
+  border-color: #bccfc1;
+  color: #1f4c3c;
+}
+
 .capability-product-link.resource-type--operative {
   border-top-color: #2f7a5f;
 }
@@ -752,6 +764,27 @@ a:hover {
   background: #f0f3f1;
   border: 1px solid #d9e0db;
   color: #5f6f65;
+}
+
+.content-card--capability-intro .prose > p:first-child {
+  margin: 0;
+  display: inline-block;
+  max-width: 58rem;
+  padding: 0.7rem 0.95rem;
+  border-radius: 0.9rem;
+  background: #eef4ef;
+  color: var(--ink-strong);
+  font-weight: 700;
+  line-height: 1.65;
+}
+
+.content-card--capability-intro + .section-overview {
+  margin-top: 1.2rem;
+}
+
+.section-overview--capabilities + .content-card--secondary,
+.content-card--capability-intro + .content-card--secondary {
+  margin-top: 1.5rem;
 }
 
 .prose pre code {

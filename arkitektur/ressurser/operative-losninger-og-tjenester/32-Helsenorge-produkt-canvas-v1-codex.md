@@ -66,6 +66,18 @@ Operative mål utledet fra de samme kildene:
 
 **Sammenkobling av tjenester fra flere aktører.** Produktet samler bidrag fra flere virksomheter i helsesektoren i en felles brukerflate. Dette gjør Helsenorge til en sammenhengende tjenesteflate heller enn en enkeltstående applikasjon.
 
+### Typiske brukssituasjoner (generisk)
+- når innbyggere trenger én samlet inngang til informasjon, innlogging og selvbetjening i helsesektoren
+- når virksomheter skal vurdere hvordan flere helsetjenester kan presenteres i en sammenhengende innbyggerreise
+- når analyser trenger å vurdere om et behov allerede dekkes av eksisterende nasjonal innbyggerflate, før ny kanal etableres
+- når det er behov for en felles kanal som kombinerer kvalitetssikret informasjon med tilgang til underliggende digitale tjenester
+
+### Når Helsenorge normalt ikke er førstevalg
+- når behovet gjelder teknisk datadeling eller API-integrasjon mellom systemer uten innbyggerflate
+- når oppgaven er intern arbeidsstøtte for helsepersonell, ikke innbyggerrettede tjenester
+- når man trenger direkte funksjonalitet i et underliggende fagsystem, ikke presentasjons- og tilgangslaget
+- når saken primært gjelder overordnet styring eller prioriteringsbeslutninger som hører hjemme i styringsfora
+
 ### Scope og avgrensning
 | Inngår | Inngår ikke |
 |---|---|
@@ -122,6 +134,12 @@ Helsenorge er en nasjonal portal- og tjenesteflate for innbyggere i helsesektore
 - Produktet har høy verdi som felles innbyggerflate i helsesektoren.
 - Det er særlig relevant når behovet er sammenhengende brukeropplevelse og felles kanal mot innbyggere.
 - Det er mindre relevant som generell teknisk byggekloss for andre sektorer, fordi hovedverdien ligger i sluttbrukerflaten.
+
+### Vanlige kombinasjoner med andre produkter
+- `Kjernejournal`
+- `e-resept`
+- `HelseID`
+- `Helsedata.no` (når innbyggerrettet tjenesteflate og datatilgangsløp må ses i sammenheng)
 
 ## Støtter arkitekturprinsipper
 - **P5: Del og gjenbruk løsninger** styrkes ved at flere helseaktører bruker samme innbyggerflate.
