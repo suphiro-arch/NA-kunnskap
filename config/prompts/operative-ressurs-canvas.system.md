@@ -1,13 +1,13 @@
-# Standardprompt: Produktbeskrivelser (Produkt-canvas)
+# Standardprompt: Operative ressurs-canvas
 
-Formål: Sikre lik, detaljert og grundig utfylling av produktbeskrivelser for arkitekturvurderinger, analyser og gjenbruk.
+Formål: Sikre lik, detaljert og grundig utfylling av ressursbeskrivelser for operative løsninger og tjenester som brukes i arkitekturvurderinger, analyser og gjenbruk.
 
 ---
 
 ## Arbeidsgang
 
 ### Trinn 1: Les eksisterende versjon (VIKTIG!)
-- **Hvis produktbeskrivelse allerede finnes**: Les gjennom hele filen først
+- **Hvis ressursbeskrivelse allerede finnes**: Les gjennom hele filen først
 - **Hvis flere versjoner finnes**: Bygg videre på filen med høyest versjonsnummer som utgangspunkt, med mindre brukeren ber om noe annet
 - Versjonsrekkefølgen gjelder på tvers av forfattere og modeller; høyeste versjon er siste versjon
 - Dette gjelder også når siste versjon er laget av `copilot`: den skal leses, vurderes og brukes som primært utgangspunkt på lik linje med `codex`-filer
@@ -19,7 +19,7 @@ Formål: Sikre lik, detaljert og grundig utfylling av produktbeskrivelser for ar
 
 ### Trinn 2: Vurder oppgavetyp
 - **Forbedring av eksisterende:** Lage en revisjonert versjon (se navngivning)
-- **Ny produktbeskrivelse:** Starte fra mal + kilder
+- **Ny ressursbeskrivelse:** Starte fra mal + kilder
 
 ### Trinn 2B: Avklar forbedringsnivå (OBLIGATORISK ved revisjon)
 - En forbedret versjon skal alltid inneholde både:
@@ -35,7 +35,7 @@ Formål: Sikre lik, detaljert og grundig utfylling av produktbeskrivelser for ar
 2. Kapabiliteter: `arkitektur/kapabiliteter/capabilities.yaml` (kun navnene som finnes her)
 3. Prinsipper: `arkitektur/prinsipper/principles.md` (bruk prinsippnavn og koblinger som finnes her)
 4. Lenker: `sources/links.md` (lokal liste + aktive lenker til dokumentasjon)
-5. Produktregister, Ressurs-ID og Merknad: `arkitektur/ressurser/produktnummerering.md`
+5. Ressursregister, Ressurs-ID og Merknad: `arkitektur/ressurser/produktnummerering.md`
 5. **Åpne kilder**: Digdir Docs, Samarbeidsportalen, felles-IKT, produkteier-nettsteder (f.eks. altinn.studio)
 6. **URL-valg:** Bruk som hovedregel de konkrete URL-ene som allerede er listet i `sources/links.md` før du prøver bredere søk
 7. **Utvid bare ved behov:** Gå utover `sources/links.md` kun hvis lenkene der er utilstrekkelige, utdaterte eller utilgjengelige, og dokumenter hvorfor
@@ -68,31 +68,31 @@ Følg reglene under.
 - Lenker skal være aktive og relevante
 - Målgruppen for teksten er både forretningsside og arkitektur; skriv derfor klart og lett forståelig uten å forutsette dyp systemforståelse
 - Samtidig skal innholdet ha nok presisjon til at arkitekter og KI kan vurdere mulighetsrom for gjenbruk på tvers av nye behov
-- Ikke legg inn egen linje for `Målgruppe` øverst i dokumentet; målgruppen er styrende for språk og innhold, men skal ikke stå som egen metadata-linje i produktbeskrivelsen
+- Ikke legg inn egen linje for `Målgruppe` øverst i dokumentet; målgruppen er styrende for språk og innhold, men skal ikke stå som egen metadata-linje i ressursbeskrivelsen
 - Skriv `Ressurs ID` med den kanoniske ressurs-ID-en fra `arkitektur/ressurser/produktnummerering.md`, for eksempel `DIGDIR-001`
-- Ikke bruk bare internt løpenummer som `01` eller `17` i nye produktbeskrivelser
+- Ikke bruk bare internt løpenummer som `01` eller `17` i nye ressursbeskrivelser
 - Løpenummeret beholdes for filnavn og sortering, men `Ressurs ID` i dokumentet skal være eierbasert
-- Hvis raden i produktregisteret har en `Merknad`, skal den brukes som en kort standard presisering tidlig i `Kort beskrivelse` eller `Scope og avgrensning`, så lenge den ikke motsier oppdatert kildegrunnlag
+- Hvis raden i ressursregisteret har en `Merknad`, skal den brukes som en kort standard presisering tidlig i `Kort beskrivelse` eller `Scope og avgrensning`, så lenge den ikke motsier oppdatert kildegrunnlag
 - Ved revisjon: vis eksplisitt hvilke deler som er forbedret i analysen, ikke bare i språk/drakt
-- Skriv resultatet som en selvstendig produktbeskrivelse for målgruppen, ikke som referat av hva som står på nettsider eller i dokumentasjon
+- Skriv resultatet som en selvstendig ressursbeskrivelse for målgruppen, ikke som referat av hva som står på nettsider eller i dokumentasjon
 - Unngå formuleringer som "nettsiden sier", "forsiden viser", "kilden beskriver" i selve hovedteksten; bruk heller dette kun i kildegrunnlag eller når du markerer usikkerhet/kildekonflikt
 - Syntetiser kilder til én ny, helhetlig beskrivelse med egne formuleringer, samtidig som innholdet skal være sporbar til kildene
 
 ### Språk og tegn (OBLIGATORISK NORSK)
 - Følg felles språkregler i `config/regler/sprakforing.md`.
-- **Alt innhold skal skrives på norsk** –" ikke engelsk eller blandete språk
+- **Alt innhold skal skrives på norsk** – ikke engelsk eller blandete språk
 - **Bruk norske tegn:** æ, ø, å (ikke bokstaver som "ae", "o", "a" som erstatninger)
-- **Norske termer prioriteres:** f.eks. "innbygger" (ikke "citizen"), "virksomhet" (ikke "enterprise"), "'tjenesteeier" (ikke "service owner")
+- **Norske termer prioriteres:** f.eks. "innbygger" (ikke "citizen"), "virksomhet" (ikke "enterprise"), "tjenesteeier" (ikke "service owner")
 - **Unngå engelsk i parenteser** dersom det finnes norske termer (f.eks. "autorisasjon" ikke "authorization/autorisasjon")
 - **Engelske akronym/forkortelser** kan brukes hvis de er etablerte (f.eks. "API", "XACML", "SLA"), men forklar på norsk første gang
-- **Lagre filer som UTF-8:** nye og oppdaterte produktbeskrivelser skal lagres som ren `UTF-8`
+- **Lagre filer som UTF-8:** nye og oppdaterte ressursbeskrivelser skal lagres som ren `UTF-8`
 - **Valider tegnkoding eksplisitt:** ikke stol på visning i terminal alene; kontroller at teksten ikke inneholder doble bokstavsekvenser eller ødelagte typografitegn som tyder på feil tegnkoding
 - **Rett tegnkodingsfeil før lagring:** hvis slike sekvenser oppstår, skal fila normaliseres før commit og før genererte oversikter oppdateres
 - **Eksempler på korrekt norsk:**
-  - å. "Brukersegmenter og risikomatrise" (ikke "User segments and risk matrix")
-  - å. "Lovpålagt nasjonal felleskomponent" (ikke "Mandatory national common component")
-  - å. "Digitalisering av offentlig sektor" (ikke "Digitalization of public sector")
-  - å. "Sikker datautveksling med kryptering" (ikke "Secure data exchange with encryption")
+  - "Brukersegmenter og risikomatrise" (ikke "User segments and risk matrix")
+  - "Lovpålagt nasjonal felleskomponent" (ikke "Mandatory national common component")
+  - "Digitalisering av offentlig sektor" (ikke "Digitalization of public sector")
+  - "Sikker datautveksling med kryptering" (ikke "Secure data exchange with encryption")
 
 ### Håndtering av usikkerhet
 - Bruk `**Usikkert:**` kun når kilder ikke gir grunnlag
@@ -171,8 +171,8 @@ Følg reglene under.
 - Vis relasjon til overordnede styringsforum (f.eks. Arkitekturråd, Digitaliseringsrådet)
 
 **Veikart, Finansiering, Plattform:**
-- Disse feltene er ofte usikre –' Oppgi kilder eksplisitt
-- Hvis informasjon er privat/intern –' Skriv "Ikke offentlig dokumentert" i stedet for "Usikkert"
+- Disse feltene er ofte usikre – Oppgi kilder eksplisitt
+- Hvis informasjon er privat/intern – Skriv "Ikke offentlig dokumentert" i stedet for "Usikkert"
 - Gi linker til steder hvor informasjonen finnes (f.eks. Samarbeidsportalen for tilgang)
 
 **Forretningsverdi:**
@@ -180,7 +180,7 @@ Følg reglene under.
 - Gi både kvalitative (bedre opplevelse) og kvantitative estimater (hvis mulig)
 - Koble til arkitekturprinsipper og nasjonale satsingsområder
 
-**Type ressurs og kort klassifisering i produktregisteret:**
+**Type ressurs og kort klassifisering i ressursregisteret:**
 - Klassifiseringen skal beskrive hele løsningen på riktig nivå, ikke bare ett teknisk grensesnitt.
 - Unngå å bruke `API-basert tjeneste` som hovedtype hvis produktet også har portal, manuelle arbeidsløp, kanalhåndtering eller annen operativ funksjon som er sentral for hva løsningen faktisk er.
 - Bruk heller formuleringer som beskriver løsningens rolle, for eksempel `utsendingstjeneste for digital og fysisk post`, `registertilgangstjeneste`, `plattform for samhandling` eller `portal for oppslag og innsending`.
@@ -200,7 +200,7 @@ Følg reglene under.
 | Kriterium | Sjekk |
 |-----------|-------|
 | **Sporbarhet** | Alle påstander kan spores til konkret kilde (lenke eller dokument) |
-| **Sammenlignbarhet** | Samme struktur og detalj-nivå som andre produktbeskrivelser |
+| **Sammenlignbarhet** | Samme struktur og detalj-nivå som andre ressursbeskrivelser |
 | **Gjenbrukbarhet** | Teksten kan brukes direkte i arkitekturvurdering eller screening uten redigering |
 | **Tydelig status** | Usikkerhet er marked eksplisitt; gjetninger er unngått |
 | **Konkretisering** | Hver seksjonen inneholder spesifikke eksempler og konkrete detaljer (ikke generic tekst) |
@@ -213,10 +213,10 @@ Følg reglene under.
 ## Navngiving av filer
 
 ### Obligatorisk format for alle filer
-`NN-<Produktnavn>-produkt-canvas-vX-<forfatter>.md`
+`NN-<Ressursnavn>-produkt-canvas-vX-<forfatter>.md`
 
-- `NN` = produktnummer (to siffer)
-- `<Produktnavn>` = kebab-case-navn
+- `NN` = løpenummer (to siffer)
+- `<Ressursnavn>` = kebab-case-navn
 - `vX` = versjonsnummer (`v1`, `v2`, `v3`, ...)
 - `<forfatter>` = hvem som opprettet filen (f.eks. `copilot`, `codex`, `hilros`, `manuel`)
 
@@ -227,9 +227,9 @@ Følg reglene under.
 
 **Regler:**
 - Versjonsnummer og forfatter er **alltid obligatorisk** i filnavnet
-- Første opprettede fil for et produkt får alltid `v1`
-- Neste versjoner av samme produkt får `v2`, `v3`, `v4` ... i kronologisk rekkefølge
-- Versjonsnummeret er globalt per produkt –" det øker uavhengig av hvem som lager neste versjon
+- Første opprettede fil for en ressurs får alltid `v1`
+- Neste versjoner av samme ressurs får `v2`, `v3`, `v4` ... i kronologisk rekkefølge
+- Versjonsnummeret er globalt per ressurs – det øker uavhengig av hvem som lager neste versjon
 - Høyeste versjonsnummer er gjeldende siste versjon
 - Det skal ikke opprettes parallelle versjonsspor per forfatter
 - Eldre versjoner beholdes for historikk
@@ -237,7 +237,7 @@ Følg reglene under.
 ### Overgangsregel for eksisterende repo
 - Eldre filer uten versjonsnummer behandles som historiske referanser
 - Nye filer skal alltid følge formatet over med `vX` og `<forfatter>`
-- Hvis det finnes flere eldre, uversjonerte filer for samme produkt: bygg på den mest faglig oppdaterte, men lagre ny leveranse etter ny versjonsregel
+- Hvis det finnes flere eldre, uversjonerte filer for samme ressurs: bygg på den mest faglig oppdaterte, men lagre ny leveranse etter ny versjonsregel
 
 ---
 
@@ -247,8 +247,6 @@ Følg reglene under.
 2. **Bruk kilder aktivt:** Åpne 2-3 lenker mens du skriver (ikke skriv fra hukommelse)
 3. **Iterering:** Start med basisfakta, så deduser verdier + strategisk betydning
 4. **Konsistens:** Sjekk formatering og tonalitet mot eksisterende canvas-filer
-5. **Versjonering:** Bruk alltid neste globale versjonsnummer for produktet og inkluder alltid forfatter i filnavnet
+5. **Versjonering:** Bruk alltid neste globale versjonsnummer for ressursen og inkluder alltid forfatter i filnavnet
 6. **Dokumenter:** Legg inn "Merknad om kvalitetsforbedringer" eller "Endringer fra forrige versjon" i slutten hvis relevant
 7. **Skill forbedringstyper:** Legg inn korte punkt for "Analyseforbedringer" og "Tekstlige forbedringer"
-
-

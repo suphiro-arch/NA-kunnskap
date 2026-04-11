@@ -8,7 +8,7 @@ Formål: Sikre lik, analysevennlig og beslutningsrelevant utfylling av ressursbe
 
 ### Trinn 1: Fastslå ressurskategori
 - Bruk `arkitektur/ressurser/styringsregler.md` til å avgjøre hvis ressursen er en **normerende ressurs**.
-- Hvis ressursen i praksis er en operativ løsning eller tjeneste, bruk ikke denne prompten. Da gjelder `config/prompts/produkt-canvas.system.md`.
+- Hvis ressursen i praksis er en operativ løsning eller tjeneste, bruk ikke denne prompten. Da gjelder `config/prompts/operative-ressurs-canvas.system.md`.
 - Hvis ressursen er et samarbeidsforum, bruk `config/prompts/samarbeidsforum-canvas.system.md`.
 
 ### Trinn 2: Velg mal og lagringssted
