@@ -433,6 +433,68 @@ a:hover {
   font-weight: 700;
 }
 
+.principles-intro,
+.principles-note {
+  padding: 1rem 1.05rem;
+  border: 1px solid var(--line-subtle);
+  border-radius: var(--radius-md);
+  background: linear-gradient(180deg, #fbfcfa, #f6f9f6);
+}
+
+.principles-intro__lead {
+  margin: 0 0 0.45rem;
+  color: var(--ink-strong);
+  font-size: 1.02rem;
+  font-weight: 600;
+}
+
+.principles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 1.2rem;
+}
+
+.principle-card {
+  padding: 1rem 1rem 1.05rem;
+  border: 1px solid var(--line-subtle);
+  border-radius: var(--radius-lg);
+  background: #fff;
+  box-shadow: var(--shadow-soft);
+}
+
+.principle-card__code {
+  margin: 0;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--brand-mid);
+  font-weight: 700;
+}
+
+.principle-card h3 {
+  margin: 0.45rem 0 0.6rem;
+  font-size: 1.08rem;
+  line-height: 1.25;
+}
+
+.principle-card p {
+  margin: 0;
+  color: var(--ink-body);
+}
+
+.principle-card__label {
+  margin-top: 0.9rem;
+  font-size: 0.82rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+
+.principle-card__chips {
+  margin-top: 0.55rem;
+}
+
 .resource-filters {
   border: 1px solid var(--line-subtle);
   border-radius: var(--radius-md);
