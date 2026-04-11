@@ -17,7 +17,8 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Ved arbeid med nye ressurskategorier eller ressurser utover klassiske produkter, bruk `arkitektur/ressurser/styringsregler.md` som styrende klassifisering.
 - Ved registerføring av nye ressurser i den brede ressursstrukturen, bruk fortsatt `arkitektur/ressurser/produktnummerering.md` som operativ master for ressurs-ID og registerstatus inntil annet er besluttet.
 - Når nye ressursfiler opprettes etter at løpenummer er fastsatt i `arkitektur/ressurser/produktnummerering.md`, skal filnavnet følge samme nummererte mønster som øvrige beskrivelser i porteføljen.
-- Ved opprettelse eller revisjon av `normerende ressurser` og `samarbeidsfora`, bruk `config/prompts/ressursbeskrivelser.system.md` sammen med riktig mal i `config/templates/`.
+- Ved opprettelse eller revisjon av `normerende ressurser`, bruk `config/prompts/normerende-ressurs-canvas.system.md` sammen med `config/templates/normerende-ressurs-template.md`.
+- Ved opprettelse eller revisjon av `samarbeidsfora`, bruk `config/prompts/samarbeidsforum-canvas.system.md` sammen med `config/templates/samarbeidsforum-template.md`.
 - Nye `normerende ressurser` skal lagres i `arkitektur/ressurser/normerende-ressurser/`, og nye `samarbeidsfora` skal lagres i `arkitektur/ressurser/samarbeidsfora/`.
 
 ## Produktbeskrivelser
@@ -33,8 +34,10 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - I normerende ressursbeskrivelser skal `Status/Livsfase` beskrive status på selve ressursen, ikke status på dokumentutkastet eller ressursbeskrivelsen.
 - Tidlige versjoner av normerende ressursbeskrivelser skal som hovedregel beholde hele malstrukturen, og uferdige felt skal merkes eksplisitt i teksten i stedet for å utelates.
 - `v1` for normerende ressurser og samarbeidsfora skal bare brukes når dokumentet er godt nok til å fungere som direkte analysegrunnlag, ikke bare som arbeidsutkast.
+- `v1` for normerende ressurser og samarbeidsfora krever at analysekritiske felt er substansielt utfylt, at påstander med høy betydning er kildeforankret, og at tydelig usikkerhet er markert der åpne kilder ikke er nok.
 - I beskrivelser av samarbeidsfora skal det være eksplisitt om forumet er rådgivende, koordinerende eller besluttende, hvilke ressurser det påvirker, og når det bør involveres i analyse- eller utviklingsløp.
 - I seksjonen `Støtter arkitekturprinsipper` skal beskrivelser også vurdere tydelige svakheter, spenninger eller begrensninger mot viktige prinsipper når dette er relevant for mulig bruk.
+- Kapabilitetsseksjoner i ressursbeskrivelser skal bruke rene, kanoniske kapabilitetsnavn. Utfyllende forklaring skal ligge i brødtekst, ikke bygges inn i selve navnelabelen.
 
 ## Kilder og analyse
 - Bruk `sources/links.md` som førstevalg for eksterne kilder.

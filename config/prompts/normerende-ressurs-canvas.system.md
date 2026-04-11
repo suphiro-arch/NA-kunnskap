@@ -46,6 +46,14 @@ Dette betyr at teksten må svare tydelig på:
 - Hvor bindende eller styrende den er
 - Hva som må suppleres for å få effekt
 
+### Trinn 6: Merk hva som er sikkert og hva som er tolket
+- Skill aktivt mellom:
+  - **Fakta**: bekreftet i åpne kilder eller tydelige repo-kilder
+  - **Deduksjon**: rimelig tolkning basert på kjent kontekst
+  - **Usikkerhet**: forhold som ikke kan bekreftes godt nok
+- Hvis en viktig påstand ikke kan bekreftes, skriv det eksplisitt i teksten i stedet for å glatte over usikkerheten.
+- Ikke gi inntrykk av høyere forpliktelsesnivå enn kildene faktisk underbygger.
+
 ---
 
 ## Særregler for normerende ressurser
@@ -68,6 +76,11 @@ Dette betyr at teksten må svare tydelig på:
 ### Scope og gjenbruk
 - Beskriv eksplisitt scope og avgrensning.
 - Beskriv hvilke andre ressurser som naturlig kobles til denne.
+
+### Kapabiliteter skal være rene nok for videre bruk
+- Bruk bare kanoniske kapabilitetsnavn i selve kapabilitetslisten.
+- Legg forklaring, begrunnelse og nyanser i egen tekst rundt listen, ikke inne i navnelabelen.
+- Unngå formuleringer som gjør kapabilitetsseksjonen vanskelig å gjenbruke i web, filtrering eller senere analyser.
 
 ---
 
@@ -104,3 +117,10 @@ En `v1` skal være mer enn et arbeidsutkast og skal kunne brukes direkte i analy
 
 **Anbefaling:**
 - Hvis kildegrunnlaget ikke er godt nok til dette nivået, bruk heller `v0.x` enn å kalle dokumentet `v1`.
+
+### Sjekk før du bruker `v1`
+- Er ressursens rolle, scope og forpliktelsesnivå tydelig nok til å brukes direkte i analyse?
+- Er viktige påstander forankret i åpne kilder eller tydelig merket som deduksjon/usikkerhet?
+- Er naboresurser, avgrensning og behov for supplement beskrevet konkret nok?
+- Er kapabilitetsnavnene rene og kanoniske, uten forklaringer bygget inn i labelen?
+- Er dokumentet sterkt nok til å fungere som arbeidsgrunnlag også for andre enn den som skrev det?

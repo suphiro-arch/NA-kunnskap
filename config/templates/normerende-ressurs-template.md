@@ -37,6 +37,12 @@ Se også:
   - `Kildegrunnlag brukt i utfyllingen`
 - Hvis flere av disse feltene fortsatt er for svake eller tomme, bør dokumentet normalt beholdes som `v0.x`.
 
+## Kort v1-sjekkliste
+- Er ressursens rolle, forpliktelsesnivå og scope tydelig nok til direkte analysebruk?
+- Er viktige påstander forankret i kilder, eller tydelig merket som deduksjon/usikkerhet?
+- Er forholdet til naboresurser, supplement og avvik konkret nok beskrevet?
+- Er kapabilitetslisten skrevet med rene, kanoniske kapabilitetsnavn?
+
 ## Navn
 Det offisielle navnet på den normerende ressursen.
 
@@ -84,6 +90,7 @@ Beskriv eksplisitt:
 ## Kapabiliteter
 Hvilke kapabiliteter i Nasjonal arkitektur støtter ressursen direkte?
 Bruk bare kapabiliteter med tydelig og sterk kobling.
+Bruk bare rene kapabilitetsnavn i listen. Legg forklaring i tilhørende tekst, ikke i selve navnelabelen.
 
 ## Målgruppe og brukere
 Beskriv brukerbildet eksplisitt i segmenter.
