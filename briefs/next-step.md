@@ -20,6 +20,7 @@ sources:
 ---
 
 ## Hva er gjort
+- Testet en første visuell stramming av Hugo-prototypen mot et mer Digdir-nært uttrykk: roligere toppfelt, tydeligere hovednavigasjon, mer oppgaveorientert forside og lettere komponentstil i [baseof.html](/c:/Users/HILROS/NA-kunnskap/web/hugo-prototype/layouts/_default/baseof.html), [list.html](/c:/Users/HILROS/NA-kunnskap/web/hugo-prototype/layouts/_default/list.html), [main.css](/c:/Users/HILROS/NA-kunnskap/web/hugo-prototype/assets/css/main.css) og [content/_index.md](/c:/Users/HILROS/NA-kunnskap/web/hugo-prototype/content/_index.md).
 - Laget vurderingsnotat for nye kandidater i [2026-04-11-vurdering-av-nye-ressurskandidater-v1.md](/c:/Users/HILROS/NA-kunnskap/briefs/arbeidsstyring-og-handover/2026-04-11-vurdering-av-nye-ressurskandidater-v1.md), og brukt de oppdaterte opptakskravene til å skille mellom `bør inn`, `bør vurderes nærmere` og `bør ikke inn nå`.
 - Presisert i [styringsregler.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/styringsregler.md) at sektorspesifikke ressurser normalt bare skal inn i NA-oversikten når de også har tydelig betydning for samhandling på tvers av sektorer eller forvaltningsnivåer.
 - Strammet inn opptakskravene i [styringsregler.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/styringsregler.md) med egne må-krav, vurderingskriterier, eksplisitte avgrensninger og en praktisk femspørsmålstest for om nye kandidater skal inn i NA-oversikten.
@@ -256,6 +257,7 @@ Disse skal tas inn *parallelt* med produktgrunnlag-arbeidet og vil gjøre det le
 
 - Eldre produktbeskrivelser kan gi ujevn retrieval-kvalitet (må oppgraderes gradvis).
 - Produktbeskrivelsene mangler tydelig merking av arbeidsgrunnlag vs. godkjent innhold (fikses med modulær struktur).
+- Den nye visuelle retningen i Hugo-prototypen er oppdatert i kode, men kan ikke fullt verifiseres i dette miljøet før `hugo` er tilgjengelig og siden kan sjekkes i nettleser.
 
 ---
 
