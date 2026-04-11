@@ -7,9 +7,7 @@ cardMeta: "5 produkter"
 
 Evne til å gi oversikt over og oppdage tjenester som tilbys av eller på vegne av offentlig sektor.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Informasjonsforvaltning](../).
+**Sti:** [Kapabiliteter](../../) / [Informasjonsforvaltning](../)
 
 ## Relaterte produkter
 

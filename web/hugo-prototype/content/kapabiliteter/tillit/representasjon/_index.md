@@ -7,9 +7,7 @@ cardMeta: "3 produkter"
 
 Evne til til å kunne opptre eller utføre handlinger digitalt på vegne av andre.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Tillit](../).
+**Sti:** [Kapabiliteter](../../) / [Tillit](../)
 
 ## Relaterte produkter
 

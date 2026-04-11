@@ -7,9 +7,7 @@ cardMeta: "2 produkter"
 
 Dokumentasjon og logging av opplysninger for bruk i innsyn, forvaltning og kontroll av tillitstjenester.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Tillit](../).
+**Sti:** [Kapabiliteter](../../) / [Tillit](../)
 
 ## Relaterte produkter
 

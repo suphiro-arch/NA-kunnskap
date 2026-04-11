@@ -7,9 +7,7 @@ cardMeta: "5 produkter"
 
 Evne til å systematisk oppdage, vurdere og gjenbruke data på tvers av offentlig sektor gjennom en sentral, standardisert oversikt over tilgjengelige datasett.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Informasjonsforvaltning](../).
+**Sti:** [Kapabiliteter](../../) / [Informasjonsforvaltning](../)
 
 ## Relaterte produkter
 

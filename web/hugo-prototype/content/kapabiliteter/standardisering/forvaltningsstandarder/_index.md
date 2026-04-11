@@ -7,9 +7,7 @@ cardMeta: "11 produkter"
 
 Evne til å implementere og ta i bruk nasjonale standarder.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Standardisering](../).
+**Sti:** [Kapabiliteter](../../) / [Standardisering](../)
 
 ## Relaterte produkter
 

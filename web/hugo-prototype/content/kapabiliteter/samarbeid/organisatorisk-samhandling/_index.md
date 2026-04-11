@@ -7,9 +7,7 @@ cardMeta: "14 produkter"
 
 Evnen til å effektivisere forretningsprosesser og verdikjeder på tvers av organisatoriske grenser.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Samarbeid](../).
+**Sti:** [Kapabiliteter](../../) / [Samarbeid](../)
 
 ## Relaterte produkter
 

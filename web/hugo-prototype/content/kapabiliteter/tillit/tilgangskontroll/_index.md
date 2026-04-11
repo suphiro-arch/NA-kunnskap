@@ -7,9 +7,7 @@ cardMeta: "8 produkter"
 
 Evne til å kontrollere at en bruker har rettighet til å benytte angitt ressurs eller tjeneste på vegne av andre eller seg selv.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Tillit](../).
+**Sti:** [Kapabiliteter](../../) / [Tillit](../)
 
 ## Relaterte produkter
 

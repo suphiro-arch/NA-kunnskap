@@ -7,9 +7,7 @@ cardMeta: "0 produkter"
 
 Evne til å utforme, anvende og forvalte finansielle virkemidler for å styre digitalisering i økosystemets i tråd med nasjonale mål.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Strategisk styring](../).
+**Sti:** [Kapabiliteter](../../) / [Strategisk styring](../)
 
 ## Relaterte produkter
 

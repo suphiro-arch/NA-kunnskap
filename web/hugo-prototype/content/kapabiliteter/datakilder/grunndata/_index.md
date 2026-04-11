@@ -7,9 +7,7 @@ cardMeta: "15 produkter"
 
 Evne til å identifisere og formelt anerkjenne autoritative datakilder basert på en systematisk vurdering av deres verdi.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Datakilder](../).
+**Sti:** [Kapabiliteter](../../) / [Datakilder](../)
 
 ## Relaterte produkter
 

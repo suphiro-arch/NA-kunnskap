@@ -7,9 +7,7 @@ cardMeta: "0 produkter"
 
 Evnen til å transformere rådata til meningsfull innsikt og bygge prediktive modeller.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Datadrevet](../).
+**Sti:** [Kapabiliteter](../../) / [Datadrevet](../)
 
 ## Relaterte produkter
 

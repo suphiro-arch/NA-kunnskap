@@ -7,9 +7,7 @@ cardMeta: "2 produkter"
 
 Evne til å formalisere samarbeid gjennom tydelig definerte roller, ansvar og avtaler for å sikre forutsigbar og effektiv felles styring mellom samhandlende virksomheter.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Samarbeid](../).
+**Sti:** [Kapabiliteter](../../) / [Samarbeid](../)
 
 ## Relaterte produkter
 

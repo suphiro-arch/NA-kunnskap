@@ -7,9 +7,7 @@ cardMeta: "0 produkter"
 
 Evnen til at EU standardene forstås og tas i bruk.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Standardisering](../).
+**Sti:** [Kapabiliteter](../../) / [Standardisering](../)
 
 ## Relaterte produkter
 

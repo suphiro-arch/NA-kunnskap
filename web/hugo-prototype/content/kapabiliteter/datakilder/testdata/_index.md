@@ -7,9 +7,7 @@ cardMeta: "0 produkter"
 
 Evne til å generere og tilgjengeliggjøre representative og personvernsikre datasett.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Datakilder](../).
+**Sti:** [Kapabiliteter](../../) / [Datakilder](../)
 
 ## Relaterte produkter
 

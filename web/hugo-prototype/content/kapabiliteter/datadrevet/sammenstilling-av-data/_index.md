@@ -7,9 +7,7 @@ cardMeta: "3 produkter"
 
 Evne til å hente, kombinere og foredle data fra ulike kilder for å skape ny innsikt, et helhetlig beslutningsgrunnlag, eller sammenhengende tjenester for brukeren.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Datadrevet](../).
+**Sti:** [Kapabiliteter](../../) / [Datadrevet](../)
 
 ## Relaterte produkter
 

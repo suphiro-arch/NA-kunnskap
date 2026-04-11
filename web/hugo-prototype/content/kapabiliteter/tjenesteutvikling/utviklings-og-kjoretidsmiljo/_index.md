@@ -7,9 +7,7 @@ cardMeta: "4 produkter"
 
 Evne til å tilby og forvalte en felles, skalerbar teknisk plattform og en tilhørende verktøykasse med standardiserte byggeklosser, verktøy og utviklingsmiljøer som forenkler og akselererer utviklingen av digitale tjenester.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Tjenesteutvikling](../).
+**Sti:** [Kapabiliteter](../../) / [Tjenesteutvikling](../)
 
 ## Relaterte produkter
 

@@ -7,9 +7,7 @@ cardMeta: "0 produkter"
 
 Evne til å sikkert prosessere og distribuere kontinuerlige datastrømmer for å muliggjøre sanntidsinnsikt, automatisering og umiddelbar respons.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Datakilder](../).
+**Sti:** [Kapabiliteter](../../) / [Datakilder](../)
 
 ## Relaterte produkter
 

@@ -469,9 +469,7 @@ cardMeta: "{len({entry['product_id'] for entry in sub_products})} produkter"
 
 {subcap['beskrivelse']}
 
-## Hører til
-
-Denne delkapabiliteten er en del av [{capability['navn']}](../).
+**Sti:** [Kapabiliteter](../../) / [{capability['navn']}](../)
 
 ## Relaterte produkter
 

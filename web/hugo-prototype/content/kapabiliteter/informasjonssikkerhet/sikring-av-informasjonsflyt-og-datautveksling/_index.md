@@ -7,9 +7,7 @@ cardMeta: "18 produkter"
 
 Kapabiliteten omfatter de tekniske og organisatoriske tiltakene som sikrer at informasjon som utveksles mellom virksomheter er beskyttet mot innsyn og manipulering, og at dataflyten er kontrollert.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Informasjonssikkerhet](../).
+**Sti:** [Kapabiliteter](../../) / [Informasjonssikkerhet](../)
 
 ## Relaterte produkter
 

@@ -7,9 +7,7 @@ cardMeta: "0 produkter"
 
 Evne til å evaluere, forbedre, fornye styringssystem for informasjonssikkerhet.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Informasjonssikkerhet](../).
+**Sti:** [Kapabiliteter](../../) / [Informasjonssikkerhet](../)
 
 ## Relaterte produkter
 

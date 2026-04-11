@@ -7,9 +7,7 @@ cardMeta: "1 produkter"
 
 Evne til å få oversikt over hvilke hendelser som utløser eller utløses av en tjeneste.
 
-## Hører til
-
-Denne delkapabiliteten er en del av [Informasjonsforvaltning](../).
+**Sti:** [Kapabiliteter](../../) / [Informasjonsforvaltning](../)
 
 ## Relaterte produkter
 
