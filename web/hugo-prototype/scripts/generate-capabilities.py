@@ -524,7 +524,7 @@ weight: 10
 description: "Oversikt over hovedkapabiliteter, delkapabiliteter og hvilke produkter som støtter dem."
 ---
 
-{model['beskrivelse']}
+{model['beskrivelse'].replace('\n', ' ')}
 
 - Start med en hovedkapabilitet.
 - Gå videre til delkapabiliteter.
