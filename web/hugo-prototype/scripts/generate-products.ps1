@@ -51,6 +51,43 @@ function Get-RepoRelativePath {
   return $fullPath.Replace('\', '/')
 }
 
+# Resolves to the highest-versioned file in the same directory when the registered
+# path follows the naming pattern: NN-Name-vX-format.md.
+# This means produktnummerering.md can point to any version; the script will always
+# use the latest one automatically when a newer file exists.
+function Resolve-HighestVersion {
+  param([string]$Path)
+
+  $dir  = Split-Path -Parent $Path
+  $file = [System.IO.Path]::GetFileName($Path)
+  $nameNoExt = [System.IO.Path]::GetFileNameWithoutExtension($file)
+  $ext  = [System.IO.Path]::GetExtension($file)
+
+  if ($nameNoExt -notmatch '^(.*)-v(\d+)-(.+)$') { return $Path }
+
+  $prefix  = $Matches[1]
+  $current = [int]$Matches[2]
+  $suffix  = $Matches[3]
+
+  $escapedPrefix = [regex]::Escape($prefix)
+  $escapedSuffix = [regex]::Escape($suffix)
+
+  $best = Get-ChildItem -Path $dir -Filter "$prefix-v*-$suffix$ext" -File -ErrorAction SilentlyContinue |
+    Where-Object { $_.BaseName -match "^$escapedPrefix-v(\d+)-$escapedSuffix$" } |
+    ForEach-Object {
+      $null = $_.BaseName -match "-v(\d+)-"
+      [PSCustomObject]@{ File = $_; Version = [int]$Matches[1] }
+    } |
+    Sort-Object Version -Descending |
+    Select-Object -First 1
+
+  if ($best -and $best.Version -gt $current) {
+    return $best.File.FullName
+  }
+
+  return $Path
+}
+
 function Get-RegisterEntries {
   $lines = Get-Content -Path $registerFile -Encoding utf8
   $entries = @()
@@ -77,6 +114,7 @@ function Get-RegisterEntries {
     $docRelativePath = [Uri]::UnescapeDataString($Matches.path)
     $fullPath = [System.IO.Path]::GetFullPath((Join-Path $registerBase $docRelativePath))
     if (-not (Test-Path -LiteralPath $fullPath)) { continue }
+    $fullPath = Resolve-HighestVersion -Path $fullPath
 
     $resourceId = ''
     $name = ''
