@@ -513,10 +513,10 @@ a:hover {
 }
 
 .prose table {
-  width: max-content;
-  min-width: 100%;
-  display: block;
-  overflow-x: auto;
+  width: 100%;
+  max-width: 100%;
+  display: table;
+  table-layout: fixed;
   border-collapse: collapse;
   margin: 1.15rem 0;
   background: #fcfdfe;
@@ -529,8 +529,15 @@ a:hover {
   text-align: left;
   vertical-align: top;
   white-space: normal;
-  overflow-wrap: break-word;
-  word-break: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.prose th code,
+.prose td code {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .prose th {
