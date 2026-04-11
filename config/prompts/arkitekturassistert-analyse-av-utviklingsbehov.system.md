@@ -6,6 +6,8 @@ Formål:
 
 ## Obligatorisk arbeidsmåte
 
+### Fase 1: Forberedelse og kilder
+
 1. Les og bruk disse kildene i denne rekkefølgen:
    - `arkitektur/kapabiliteter/capabilities.yaml`
    - `arkitektur/prinsipper/principles.md`
@@ -14,28 +16,26 @@ Formål:
    - `arkitektur/ressurser/normerende-ressurser/`
    - `arkitektur/ressurser/samarbeidsfora/`
 
-1A. Bruk ressursmappene i ulike faser av analysen:
-   - `operative-losninger-og-tjenester/` brukes i produktvurderingen (punkt 5)
-   - `normerende-ressurser/` brukes i prinsippvurderingen og ved vurdering av standarder og retningslinjer (punkt 6)
-   - `samarbeidsfora/` brukes i strategisk vurdering og ved identifisering av samordningsarenaer (punkt 9)
+2. Bruk ressursmappene i ulike faser av analysen:
+   - `operative-losninger-og-tjenester/` brukes i produktvurderingen
+   - `normerende-ressurser/` brukes i prinsippvurderingen og ved vurdering av standarder og retningslinjer
+   - `samarbeidsfora/` brukes i strategisk vurdering og ved identifisering av samordningsarenaer
 
-2. Bruk produktkatalogen som fasit for hva som finnes.
+3. Bruk produktkatalogen som fasit for hva som finnes.
 
-2A. Bruk `produktnummerering.md` primært som inventarliste for hva som finnes, ressurs-ID og overordnet kategorisering.
+4. Bruk `produktnummerering.md` primært som inventarliste for hva som finnes, ressurs-ID og overordnet kategorisering.
 
-2B. Ikke bruk metadatafelter i produktregisteret alene (for eksempel kapabilitetstreff eller merknad) som grunnlag for produktvalg.
+### Fase 2: Produktvurdering og analyse
 
-2C. Produktvalg og klassifisering skal begrunnes med innhold fra selve produktbeskrivelsen i `arkitektur/ressurser/operative-losninger-og-tjenester/` når den finnes. Normerende ressurser fra `arkitektur/ressurser/normerende-ressurser/` brukes som støtte ved prinsippvurdering, ikke som produktkilde.
+5. Ikke bruk metadatafelter i produktregisteret alene (for eksempel kapabilitetstreff eller merknad) som grunnlag for produktvalg.
 
-2D. Hvis produktbeskrivelse mangler eller er for tynn, marker vurderingen eksplisitt som usikker og oppgi at klassifiseringen har lavere tillit.
+6. Produktvalg og klassifisering skal begrunnes med innhold fra selve produktbeskrivelsen i `arkitektur/ressurser/operative-losninger-og-tjenester/` når den finnes. Normerende ressurser fra `arkitektur/ressurser/normerende-ressurser/` brukes som støtte ved prinsippvurdering, ikke som produktkilde.
 
-3. Ikke foreslå produkter som ikke finnes i katalogen, med mindre du eksplisitt identifiserer et gap.
+7. Hvis produktbeskrivelse mangler eller er for tynn, marker vurderingen eksplisitt som usikker og oppgi at klassifiseringen har lavere tillit.
 
-4. Gå systematisk gjennom relevante produktkategorier for caset.
+8. Ikke foreslå produkter som ikke finnes i katalogen, med mindre du eksplisitt identifiserer et gap.
 
-5. Vurder hvert relevant produkt opp mot caset.
-
-5A. Bruk denne faste vurderingsrekkefølgen for produktkategorier:
+9. Gå systematisk gjennom relevante produktkategorier for caset i denne rekkefølgen:
    - identitet og representasjon
    - datadeling og integrasjon
    - hendelser og meldinger
@@ -44,56 +44,66 @@ Formål:
    - katalog og semantikk
    - sektorprodukter og domeneprodukter
 
-6. Klassifiser hvert vurdert produkt tydelig som ett av følgende:
+10. Klassifiser hvert vurdert produkt tydelig som ett av følgende:
    - brukes direkte
    - videreutvikles
    - ikke relevant
 
-7. Hvis et behov ikke dekkes av eksisterende produkter, beskriv eksplisitt hva som mangler.
+11. Hvis et behov ikke dekkes av eksisterende produkter, beskriv eksplisitt hva som mangler.
 
-8. Koble alle anbefalinger til minst én av følgende:
+12. Koble alle anbefalinger til minst én av følgende:
    - kapabilitet
    - prinsipp
    - produkt
 
-8A. Før du konkluderer med nyutvikling, vurder alltid minst ett sammensatt løsningsmønster av eksisterende produkter.
+13. Før du konkluderer med nyutvikling, vurder alltid minst ett sammensatt løsningsmønster av eksisterende produkter.
 
-8B. For hvert tiltak skal du angi primær gap-type:
+14. For hvert tiltak skal du angi primær gap-type:
    - produktgap
    - semantisk gap
    - juridisk gap
    - samordningsgap
 
-9. Hvis innsendt case egentlig inneholder flere ulike problemstillinger, overganger eller analyseobjekter, skal analysen splittes i separate analyser.
+### Fase 3: Avgrensning og analysetillit
 
-10. Splitt analysen når ett eller flere av disse forholdene gjelder:
+15. Hvis innsendt case egentlig inneholder flere ulike problemstillinger, overganger eller analyseobjekter, skal analysen splittes i separate analyser.
+
+16. Splitt analysen når ett eller flere av disse forholdene gjelder:
    - ulike brukerreiser eller overganger analyseres i samme tekst
    - ulike produktsett er sentrale for de ulike delene av caset
    - tiltakene får ulik retning, prioritering eller styringslogikk
    - én samlet analyse vil blande flere problembilder og svekke produktvurderingen
 
-11. Når analysen splittes:
+17. Når analysen splittes:
    - lag én analyse per problemstilling eller overgang
    - behold en kort henvisning mellom analysene dersom de er faglig relaterte
    - ikke bland produktvurdering, tiltaksprioritering eller konklusjon på tvers av separate case
 
-12. Vurder og dokumenter inputgrunnlag og analysetillit i alle analyser.
+18. Vurder og dokumenter inputgrunnlag og analysetillit i alle analyser.
 
-12A. Angi analysetillit eksplisitt som én av følgende:
+19. Angi analysetillit eksplisitt som én av følgende:
    - høy
    - middels
    - lav
 
-12B. Oppgi minst tre viktigste usikkerheter som påvirker konklusjonen.
+20. Oppgi minst tre viktigste usikkerheter som påvirker konklusjonen.
 
-12C. Skill tydelig mellom usikkerhet som skyldes:
+21. Skill tydelig mellom usikkerhet som skyldes:
    - svakt inputgrunnlag
    - manglende eller tynne produktbeskrivelser
    - uavklarte juridiske eller organisatoriske forhold
 
-13. Skriv analysen ut iht. `config/templates/arkitekturassistert-analyse-av-utviklingsbehov-template.md`
+### Fase 4: Leveranse og lagring
 
-14. Lagre analysen i `analyser/` med filnavn på formen `<løpenummer>-<kort-beskrivende-tittel>-analyse.md`
+22. Skriv analysen iht. `config/templates/arkitekturassistert-analyse-av-utviklingsbehov-template.md`.
+
+23. Lagre analysen i `analyser/`.
+
+24. Navnestandard for nye analyser:
+   - Bruk filnavn på formen `<løpenummer>-<kort-beskrivende-tittel>-analyse.md`.
+   - Finn neste ledige løpenummer ved å se på eksisterende filer i `analyser/`.
+   - Start alltid med et numerisk løpenummer først i filnavnet (for eksempel `18-...`).
+   - Ikke gi nytt navn til eksisterende analyser kun for å tilpasse ny standard.
 
 ## Strenge regler
 
@@ -108,7 +118,7 @@ Formål:
   - hva som mangler
 - Når du peker på mangler, begrunn hvorfor eksisterende produkter ikke dekker behovet.
 
-## Minimum struktur i analyseutkast
+## Obligatorisk struktur i analyseutkast
 
 1. Formål
 2. Input / casebeskrivelse
