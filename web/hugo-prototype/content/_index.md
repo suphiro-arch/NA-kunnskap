@@ -4,9 +4,9 @@ weight: 1
 description: "Inngang til dokumentasjonen for nasjonal arkitektur, prinsipper, kapabiliteter og nasjonale fellesressurser."
 ---
 
-# Nasjonal arkitektur for samhandling
+# Om denne dokumentasjonen
 
-Denne prototypen er en dokumentasjonsside for nasjonal arkitektur. Den skal gjøre det enklere å forstå sammenhengen mellom kapabiliteter, prinsipper og felles produkter som støtter samhandling på tvers av virksomheter.
+Denne prototypen samler arbeidsgrunnlag for nasjonal arkitektur i én lesbar dokumentasjonsflate. Målet er å gjøre det enklere å se sammenhengen mellom kapabiliteter, prinsipper og felles ressurser som støtter samhandling på tvers av virksomheter.
 
 ## Hva finner du her?
 
@@ -22,7 +22,7 @@ Svarene ligger i hver sin hovedseksjon:
 - [Prinsipper](prinsipper/) forklarer hvilke arkitekturfaglige føringer som bør styre utviklingen.
 - [Ressursoversikt](ressursoversikt/) samler konkrete produkter og fellesløsninger.
 
-## Hvem er dokumentasjonen for?
+## Hvem er den for?
 
 Prototypen er særlig relevant for:
 
@@ -31,7 +31,7 @@ Prototypen er særlig relevant for:
 - utviklingsteam som trenger oversikt over tilgjengelige fellesressurser
 - beslutningstakere som vil forstå koblingen mellom mål, prinsipper og virkemidler
 
-## Hvordan ressursoversikten er generert
+## Hvordan ressursoversikten bygges
 
 Ressursoversikten og ressursbeskrivelsene er bygget fra kildedata i repoet, lenkesjekkede kilder og KI-assistert utforming.
 
@@ -49,9 +49,4 @@ Verktøy som brukes i dag:
 - Python-script for sammenstilling av kapabilitetssider og koblinger.
 - Hugo for bygging og visning av nettstedet.
 
-Denne løsningen er under stadig utvikling. Struktur, innhold og presentasjon justeres fortløpende etter hvert som ressursgrunnlaget modnes.
-
-Dette er en testflate i kontinuerlig forbedring.
-
-
-
+Løsningen er fortsatt en testflate. Struktur, innhold og presentasjon justeres fortløpende etter hvert som ressursgrunnlaget modnes.

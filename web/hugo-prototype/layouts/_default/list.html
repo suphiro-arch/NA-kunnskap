@@ -1,11 +1,75 @@
 {{ define "main" }}
 {{ $pages := .Pages.ByWeight }}
 {{ $isCapabilitySection := eq .Section "kapabiliteter" }}
+{{ $sections := .Site.Sections.ByWeight }}
+
+{{ if .IsHome }}
+<section class="home-hero">
+  <div class="home-hero__content content-card">
+    <div class="content-card__header content-card__header--home">
+      <p class="content-card__eyebrow">Nasjonal arkitektur</p>
+      <h1>{{ .Title }}</h1>
+      <p class="home-hero__lead">Få oversikt over kapabiliteter, prinsipper og felles ressurser for digital samhandling på tvers av virksomheter.</p>
+    </div>
+    <div class="content-card__body">
+      <div class="home-actions">
+        <a class="home-actions__card" href="{{ "ressursoversikt/" | relURL }}">
+          <span class="home-actions__label">Finn ressurs</span>
+          <strong>Gå til ressursoversikten</strong>
+          <p>Filtrer på eier, type og kapabilitet for å finne aktuelle ressurser raskt.</p>
+        </a>
+        <a class="home-actions__card" href="{{ "kapabiliteter/" | relURL }}">
+          <span class="home-actions__label">Utforsk struktur</span>
+          <strong>Se kapabilitetene</strong>
+          <p>Start i modellen og gå videre til delkapabiliteter og relevante ressurser.</p>
+        </a>
+        <a class="home-actions__card" href="{{ "prinsipper/" | relURL }}">
+          <span class="home-actions__label">Les føringer</span>
+          <strong>Gå til prinsippene</strong>
+          <p>Bruk prinsippene som styrende grunnlag i analyse, prioritering og utforming.</p>
+        </a>
+      </div>
+
+      <div class="home-metrics" aria-label="Nøkkeltall">
+        <article class="home-metrics__item">
+          <strong>{{ len (where .Site.RegularPages "Section" "ressursoversikt") }}</strong>
+          <span>ressurssider i webgrunnlaget</span>
+        </article>
+        <article class="home-metrics__item">
+          <strong>{{ len (where .Site.RegularPages "Section" "kapabiliteter") }}</strong>
+          <span>kapabilitetssider</span>
+        </article>
+        <article class="home-metrics__item">
+          <strong>{{ len (where .Site.RegularPages "Section" "prinsipper") }}</strong>
+          <span>prinsippsider</span>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="home-sections">
+  <div class="section-overview__header">
+    <h2>Hovedinnganger</h2>
+    <p>Start i den delen som passer best til oppgaven du jobber med.</p>
+  </div>
+  <div class="section-grid section-grid--three">
+    {{ range $sections }}
+    <article class="section-card section-card--home">
+      <p class="section-card__meta">Hovedseksjon</p>
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      <p>{{ with .Description }}{{ . }}{{ else }}{{ .LinkTitle }} er en del av dokumentasjonen.{{ end }}</p>
+      <a class="section-card__link" href="{{ .RelPermalink }}">Åpne seksjon</a>
+    </article>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
 
 <article class="content-card">
   <header class="content-card__header">
     {{ if .IsHome }}
-    <p class="content-card__eyebrow">Dokumentasjon</p>
+    <p class="content-card__eyebrow">Om innholdet</p>
     {{ else }}
     <p class="content-card__eyebrow">Seksjon</p>
     {{ end }}
@@ -42,7 +106,7 @@
 {{ if and (gt (len $pages) 0) (not $isCapabilitySection) (not .IsHome) (not .Params.hideSectionOverview) }}
 <section class="section-overview">
   <div class="section-overview__header">
-    <h2>{{ if .IsHome }}Seksjoner{{ else }}I Denne Seksjonen{{ end }}</h2>
+    <h2>{{ if .IsHome }}Seksjoner{{ else }}I denne seksjonen{{ end }}</h2>
     <p>{{ if .IsHome }}Innganger til hoveddelene av dokumentasjonen.{{ else }}Undersider og innhold som hører til denne seksjonen.{{ end }}</p>
   </div>
 

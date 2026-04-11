@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="nb">
   <head>
     <meta charset="utf-8" />
@@ -8,21 +8,30 @@
     {{ $styles := resources.Get "css/main.css" | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" />
   </head>
-  <body class="no-toc">
+  <body class="no-toc{{ if .IsHome }} page-home{{ end }}{{ if .Section }} section-{{ .Section }}{{ end }}">
     <a class="skip-link" href="#main-content">Hopp til innhold</a>
 
     <header class="site-header">
       <div class="site-header__inner">
-        <p class="site-header__kicker">NA-kunnskap</p>
-        <div class="site-header__heading">
-          <h1><a href="{{ "" | relURL }}">{{ .Site.Title }}</a></h1>
-          <p class="site-header__lead">{{ .Site.Params.siteDescription }}</p>
+        <div class="site-header__brand">
+          <p class="site-header__kicker">NA-kunnskap</p>
+          <div class="site-header__heading">
+            <h1><a href="{{ "" | relURL }}">{{ .Site.Title }}</a></h1>
+            <p class="site-header__lead">{{ .Site.Params.siteDescription }}</p>
+          </div>
         </div>
+
+        <nav class="site-header__nav" aria-label="Hovednavigasjon">
+          <a class="{{ if .IsHome }}is-current{{ end }}" href="{{ "" | relURL }}">Forside</a>
+          {{ range .Site.Sections.ByWeight }}
+          <a class="{{ if or (eq .RelPermalink $.RelPermalink) (.IsAncestor $) }}is-current{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a>
+          {{ end }}
+        </nav>
       </div>
     </header>
 
     <div class="site-shell">
-      <aside class="site-nav">
+      <aside class="site-nav{{ if .IsHome }} site-nav--home{{ end }}">
         <div class="site-nav__inner">
           <h2>Navigasjon</h2>
           <ul class="site-nav__list">
