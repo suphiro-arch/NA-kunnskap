@@ -22,6 +22,20 @@ Denne mappa samler styringsgrunnlag, registerføring og ressursbeskrivelser for 
 
 ---
 
+## Verktøy for å lage ressursbeskrivelser
+
+Bruk disse systemprompter og maler når du skal lage eller oppdatere innhold:
+
+| Ressurstype | Systempromt (AI-instruks) | Mal |
+|---|---|---|
+| Operative løsninger og tjenester | `config/prompts/operative-ressurs-canvas.system.md` | `config/templates/operative-ressurs-template.md` |
+| Normerende ressurser | `config/prompts/normerende-ressurs-canvas.system.md` | `config/templates/normerende-ressurs-template.md` |
+| Samarbeidsfora | `config/prompts/samarbeidsforum-canvas.system.md` | `config/templates/samarbeidsforum-template.md` |
+
+Last systemprompten i din AI-assistent **før** du begynner på innholdet, slik at navneregler, kildehenting og feltstruktur følges riktig.
+
+---
+
 ## Hvordan arbeide med ressurser
 
 ### Opprett ny ressurs
