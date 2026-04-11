@@ -1,5 +1,6 @@
 ---
 title: "Informasjonsforvaltning"
+eyebrow: "Kapabilitet"
 weight: 9
 description: "Evne til å ha et felles rammeverk og styringsmodell for informasjonsforvaltning, slik at offentlige virksomheter kan utveksle og dele data og beskrivelser."
 cardMeta: "8 delkapabiliteter / 16 produkter"

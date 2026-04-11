@@ -1,5 +1,6 @@
 ---
 title: "Strategisk styring"
+eyebrow: "Kapabilitet"
 weight: 1
 description: "Evnen til å sette retning for nasjonal arkitektur og realisere strategiske mål."
 cardMeta: "3 delkapabiliteter / 8 produkter"

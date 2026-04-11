@@ -1,5 +1,6 @@
 ---
 title: "Samarbeid"
+eyebrow: "Kapabilitet"
 weight: 2
 description: "Evne til å samarbeid og samhandling på tvers av offentlig og privat forvaltning."
 cardMeta: "3 delkapabiliteter / 22 produkter"

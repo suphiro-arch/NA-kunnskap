@@ -1,5 +1,6 @@
 ---
 title: "Standardisering"
+eyebrow: "Kapabilitet"
 weight: 10
 description: "Evne til å identifisere, vedta, forvalte og fremme bruk av omforente standarder og spesifikasjoner som sikrer interoperabilitet og gjenbruk på tvers av sektorer og landegrenser."
 cardMeta: "2 delkapabiliteter / 11 produkter"

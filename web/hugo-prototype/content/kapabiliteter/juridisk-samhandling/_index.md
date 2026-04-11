@@ -1,5 +1,6 @@
 ---
 title: "Juridisk samhandling"
+eyebrow: "Kapabilitet"
 weight: 11
 description: "Evne til å etablere, forvalte og formidle et helhetlig juridisk rammeverk som muliggjør og regulerer sikker og effektiv digital samhandling."
 cardMeta: "0 delkapabiliteter / 0 produkter"

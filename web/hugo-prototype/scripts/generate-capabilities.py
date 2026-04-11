@@ -485,6 +485,7 @@ cardMeta: "{len({entry['product_id'] for entry in sub_products})} produkter"
         capability_content = f"""
 ---
 title: "{capability['navn']}"
+eyebrow: "Kapabilitet"
 weight: {index}
 description: "{capability['beskrivelse']}"
 cardMeta: "{card_meta}"
