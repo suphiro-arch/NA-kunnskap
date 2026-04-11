@@ -625,11 +625,9 @@ $resourceTypeCardLines.Add('<div class="resource-type-grid">')
 foreach ($typeDef in $resourceTypeDefinitions) {
   $typeEntries = @($latest | Where-Object { $_.ResourceTypeSlug -eq $typeDef.Slug })
   $resourceTypeCardLines.Add('  <article class="resource-type-card">')
-  $resourceTypeCardLines.Add(('    <p class="resource-type-card__meta">Typevisning</p>'))
   $resourceTypeCardLines.Add(('    <h3><a href="produkter/{0}/">{1}</a></h3>' -f $typeDef.Slug, $typeDef.Title))
   $resourceTypeCardLines.Add(('    <p>{0}</p>' -f $typeDef.Description))
   $resourceTypeCardLines.Add(('    <p class="resource-type-card__count">{0} ressurser</p>' -f $typeEntries.Count))
-  $resourceTypeCardLines.Add(('    <a class="section-card__link" href="produkter/{0}/">Åpne typevisning</a>' -f $typeDef.Slug))
   $resourceTypeCardLines.Add('  </article>')
 }
 $resourceTypeCardLines.Add('</div>')
@@ -645,17 +643,11 @@ $allResourcesIndex = @(
   '',
   '# Ressursoversikt',
   '',
-  ('<div class="resource-overview-intro"><p class="resource-overview-intro__lead">Dette er totaloversikten over siste registrerte versjon per ressurs, på tvers av typer, eiere og kapabiliteter.</p><p>Grunnlaget hentes fra <code>arkitektur/ressurser/produktnummerering.md</code>. Bruk filtrene nedenfor når du vil søke bredt, og bruk typevisningene når du heller vil lese ressursene gruppert etter hovedtype.</p></div>'),
+  ('<div class="resource-overview-intro"><p class="resource-overview-intro__lead">Dette er totaloversikten over siste registrerte versjon per ressurs, på tvers av typer, eiere og kapabiliteter.</p></div>'),
   '',
   '## Utforsk etter type',
   '',
-  'Disse undersidene viser de samme ressursene sortert etter hovedtype, for når du vil lese mer kuratert og mindre på tvers.',
-  '',
   ($resourceTypeCardLines -join [Environment]::NewLine),
-  '',
-  '## Totaloversikt',
-  '',
-  ('Oversikten under viser **{0} ressurser** samlet, uavhengig av type.' -f $latest.Count),
   '',
   '## Ressurser (siste versjon)',
   ''
@@ -668,4 +660,3 @@ Get-ChildItem $outDir -File |
   Remove-Item -Force
 
 Write-Output ("Genererte oversikt for ressurser: {0}" -f $latest.Count)
-
