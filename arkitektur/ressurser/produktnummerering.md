@@ -37,6 +37,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | `KS` | KS Digital | Kommunale fellesløsninger og KS-plattformtjenester |
 | `SIKT` | Sikt | Nasjonale fellesløsninger for utdanning og forskning |
 | `HDIR` | Helsedirektoratet | Helsedirektoratets nasjonale ressurser og registre |
+| `FHI` | Folkehelseinstituttet | Nasjonale helseregistre og smittevernrelaterte dataressurser |
 | `NHN` | Norsk helsenett | Nasjonale e-helseløsninger og helseinfrastruktur |
 | `HELFO` | Helfo | Refusjons- og oppgjørstjenester i helsesektoren |
 | `NAV` | NAV | NAVs fellesløsninger, registre og plattformer |
@@ -163,6 +164,15 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 |---:|---|---|---|---|---|
 | 31 | `HDIR-001` | Helsedata.no | Datatilgang | Oversikt over datasett<br>Datastyring<br>Sammenhengende tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v1-codex.md) |
 | 64 | `HDIR-002` | HPR | Register over helsepersonell | Grunndata<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/64-HPR-produkt-canvas-v1-codex.md) |
+
+
+
+## Folkehelseinstituttet (`FHI`)
+
+| Løpenr | Ressurs-ID | Navn | Type | Kapabiliteter | Dokument |
+|---:|---|---|---|---|---|
+| 128 | `FHI-001` | SYSVAK | Vaksinasjonsregister | Grunndata<br>Dele data med andre<br>Sammenhengende tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/128-SYSVAK-produkt-canvas-v0-codex.md) |
+| 129 | `FHI-002` | MSIS | Meldingssystem for smittsomme sykdommer | Grunndata<br>Dele data med andre<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/129-MSIS-produkt-canvas-v0-codex.md) |
 
 
 

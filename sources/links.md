@@ -190,6 +190,8 @@ Sist redigert: 2026-04-09.
 - Helsedata.no: https://helsedata.no/
 - Helsedata.no kontakt: https://helsedata.no/en/contact/ (lagt til 2026-03-27)
 - FHI - Avdeling helsedata: https://www.fhi.no/om/organisasjon/helsedata/
+- SYSVAK (FHI): https://www.fhi.no/hn/helseregistre-og-registre/sysvak/ (lagt til 2026-04-11)
+- MSIS (FHI): https://www.fhi.no/sv/smittsomme-sykdommer/msis/ (lagt til 2026-04-11)
 - Helsedirektoratet - helseregistre og helsedata: https://www.helsedirektoratet.no/helseregistre-og-helsedata
 - Regjeringen - helsedata: https://www.regjeringen.no/no/tema/helse-og-omsorg/digitalisering-av-helse-og-omsorgstjenestene/innsikt/helsedata/id3019347/
 - Norsk helsenett - tjenesteoversikt: https://www.nhn.no/tjenester/

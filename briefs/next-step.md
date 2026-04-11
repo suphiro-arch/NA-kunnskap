@@ -250,13 +250,11 @@ Disse skal tas inn *parallelt* med produktgrunnlag-arbeidet og vil gjøre det le
 
 Status nå:
 - `Helsedata.no` og `microdata.no` er beskrevet.
-- Følgende kandidater er ikke registrert som egne operative ressurser per nå: `Dødsårsaksregisteret`, `MSIS`, `SYSVAK`, `Reseptregisteret/NorPD`.
+- `SYSVAK` (`FHI-001`) og `MSIS` (`FHI-002`) er nå lagt inn som egne operative `v0`-ressurser.
+- Følgende kandidater er fortsatt ikke registrert som egne operative ressurser: `Dødsårsaksregisteret` og `Reseptregisteret/NorPD`.
 
 Foreløpig prioritering etter styringsreglene:
-- **Bør vurderes først (høyest sannsynlighet for opptak):**
-   - `SYSVAK` (tydelig nasjonal rolle, stor samhandlingsbetydning)
-   - `MSIS` (tydelig nasjonal rolle og bred bruk i beredskap/samhandling)
-- **Bør vurderes i neste bølge:**
+- **Neste bølge (anbefalt):**
    - `Dødsårsaksregisteret`
    - `Reseptregisteret/NorPD`
 
