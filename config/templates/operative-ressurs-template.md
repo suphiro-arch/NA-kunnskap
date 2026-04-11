@@ -2,6 +2,17 @@
 
 Kilde: konvertert fra `sources/Mal - Produkt canvas.docx`.
 
+## Minstekrav for v1
+- `Hovedfunksjoner` bør normalt ha minst 3-4 forklarende avsnitt.
+- `Hovedfunksjoner` bør inkludere:
+	- `Typiske brukssituasjoner (generisk)`
+	- `Når <produktet> normalt ikke er førstevalg`
+- `Kapabiliteter` bør forklares med hvordan produktet bidrar per kapabilitet (ikke bare opplisting).
+- `Forretningsverdi/Verdiforslag` bør beskrive verdi for minst 3 målgrupper/interessenter.
+- `Gjenbruk` bør inkludere `Vanlige kombinasjoner med andre produkter` når relevant.
+
+Hvis kildegrunnlaget ikke er godt nok for dette nivået, behold dokumentet som `v0.x`.
+
 ## Navn
 Det offisielle navnet paa produktet eller løsningen.
 

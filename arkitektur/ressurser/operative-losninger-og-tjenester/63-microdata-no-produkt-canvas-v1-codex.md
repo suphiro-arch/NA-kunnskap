@@ -1,4 +1,4 @@
-# Produkt-canvas: microdata.no
+# microdata.no
 
 ## Navn
 microdata.no
@@ -17,7 +17,9 @@ SSB-001
 Produktet framstår som modent i sin operative bruk og forvaltningsform, men er samtidig en spesialisert analysetjeneste med tydelige begrensninger, vilkår og metodiske rammer. Modenheten ligger derfor særlig i at tjenesten er innarbeidet som kontrollert analyseplattform, ikke i at den er en generell datadelings- eller sluttbrukertjeneste for alle målgrupper.
 
 ## Kort beskrivelse
-microdata.no er en nasjonal analysetjeneste som gir forskere og andre godkjente brukere tilgang til å analysere koblede registerdata i et kontrollert og skjermet miljø. Produktet gjør det mulig å utføre statistiske analyser og sammenstillinger på tvers av flere datakilder uten at brukerne får tradisjonell direkte utlevering av persondata, og kombinerer dermed datatilgang, analysekapasitet og personvernmessige kontrollmekanismer i én samlet tjeneste.
+microdata.no er en nasjonal analysetjeneste som gjør det mulig for godkjente brukere å analysere koblede registerdata i et kontrollert miljø, uten tradisjonell utlevering av individdata. Løsningen kombinerer datatilgang, analysefunksjonalitet og personvernkontroller i samme arbeidsflate, og reduserer behovet for at hver virksomhet etablerer egne sikre analysemiljøer for samme formål.
+
+Ressursen er særlig viktig i analyser der behovet er innsikt fra sensitive eller detaljerte registerdata, men der risiko og personvern gjør direkte datautlevering lite egnet. microdata.no bør derfor forstås som en operativ analysetjeneste med tydelige bruksrammer, ikke som en generell delingsplattform for fri datatilgang.
 
 ## Kapabiliteter
 - **Datadrevet: Sammenstilling av data**
@@ -54,6 +56,18 @@ Produktet har også en tydelig styrings- og kontrollfunksjon. Tjenesten kombiner
 
 Samtidig er microdata.no ikke en generell portal for åpne data, og heller ikke en fri dataplattform der brukere kan hente ut eller bruke data utenfor de rammene tjenesten setter. Produktets rolle er å tilby et kontrollert analysemiljø for bestemte brukergrupper og formål. Det er denne kombinasjonen av analysetilgang, datakobling og begrenset eksponering som gjør løsningen særpreget.
 
+### Typiske brukssituasjoner (generisk)
+- når forsknings- eller analysemiljøer trenger å sammenstille og analysere data fra flere registre uten direkte utlevering av individdata
+- når et utredningsløp krever repeterbar analyse i et kontrollert miljø med tydelig personvernramme
+- når dataeier og analysemiljø trenger en felles modell som reduserer risiko sammenlignet med filbasert utlevering
+- når behovet er statistisk innsikt på tvers av datakilder, men ikke behov for å drifte egen sikker analyseinfrastruktur
+
+### Når microdata.no normalt ikke er førstevalg
+- når formålet er offentlig deling eller publisering av åpne data
+- når brukssituasjonen krever fri eksport av rådata til lokale analysemiljøer
+- når behovet gjelder operativ saksbehandling eller innbyggerrettede tjenester, ikke analyse av registerdata
+- når prosjektet trenger sanntidsintegrasjon i operative tjenesteløp fremfor kontrollert analyse i avgrenset miljø
+
 ### Scope og avgrensning
 | Inngår | Inngår ikke |
 |---|---|
@@ -66,10 +80,10 @@ Samtidig er microdata.no ikke en generell portal for åpne data, og heller ikke 
 Ikke offentlig samlet verifisert i denne arbeidsøkten.
 
 ## Forretningsverdi/Verdiforslag
-- gjør avansert analyse av registerdata mulig uten tradisjonell datautlevering i hvert enkelt tilfelle
-- reduserer juridisk, teknisk og praktisk terskel for arbeid med koblede data
-- styrker personvern og kontroll ved at analyse skjer i et avgrenset og forvaltet miljø
-- gir forsknings- og analysemiljøer en mer standardisert og effektiv arbeidsform
+- For forsknings- og analysemiljøer: raskere vei fra behov til analyse fordi datakobling og analyseflate er forhåndsetablert i en felles tjeneste.
+- For dataeiere og forvaltning: lavere risiko enn tradisjonell datautlevering, gjennom kontrollert tilgangsmodell og tydelige bruksrammer.
+- For offentlig sektor samlet: mer sammenlignbare analyser på tvers av miljøer fordi flere bruker samme tjenestemodell og metodiske rammer.
+- For beslutningstakere: bedre grunnlag for kunnskapsbaserte prioriteringer når analyser kan gjennomføres mer forutsigbart og med dokumenterbar kontroll.
 
 ## Utfordringer og risiko
 | Risikokategori | Konkret risiko | Håndtering |
@@ -125,9 +139,5 @@ Pris- og tilgangsmodellen er omtalt offentlig, men samlet finansieringsmodell er
 - Nettkilde: https://www.microdata.no/kontakt-oss/ (kontrollert 2026-03-27)
 - Nettkilde: https://www.microdata.no/priser/ (kontrollert 2026-03-27)
 
-## Endringer i denne revisjonen
-- Opprettet manglende `v1`-fil for microdata.no og skrevet den på samme detaljeringsnivå som de sterkere produktbeskrivelsene
-- Tydeliggjort at produktet kombinerer analysetilgang, datakobling og personvernmessig kontroll i én tjeneste
-- Presisert avgrensning mot fri datautlevering, åpne dataportaler og generelle analyseplattformer
 
 

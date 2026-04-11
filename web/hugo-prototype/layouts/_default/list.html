@@ -78,7 +78,7 @@
 </section>
 {{ end }}
 
-<article class="content-card">
+<article class="content-card{{ if and $isCapabilitySection (not .IsHome) }} content-card--capability-intro{{ end }}">
   <header class="content-card__header">
     {{ if .IsHome }}
     <p class="content-card__eyebrow">Om innholdet</p>
