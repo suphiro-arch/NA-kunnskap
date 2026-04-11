@@ -1,5 +1,6 @@
 ---
 title: "Informasjonssikkerhet"
+eyebrow: "Kapabilitet"
 weight: 7
 description: "Evne til å ha tilstrekkelig sikkerhet i tjenester og løsninger som benyttes i felles økosystem."
 cardMeta: "2 delkapabiliteter / 18 produkter"

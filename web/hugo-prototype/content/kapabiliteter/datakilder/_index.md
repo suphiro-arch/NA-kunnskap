@@ -1,5 +1,6 @@
 ---
 title: "Datakilder"
+eyebrow: "Kapabilitet"
 weight: 13
 description: "Evne til å tilgjengeliggjøre og forvalte data som en nasjonal fellesressurs, slik at de kan oppdages, forstås og gjenbrukes på en sikker og standardisert måte."
 cardMeta: "5 delkapabiliteter / 15 produkter"

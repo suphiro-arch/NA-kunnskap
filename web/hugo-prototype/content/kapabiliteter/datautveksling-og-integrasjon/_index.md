@@ -1,5 +1,6 @@
 ---
 title: "Datautveksling og integrasjon"
+eyebrow: "Kapabilitet"
 weight: 4
 description: "Evne til å sikkert, effektivt og standardisert utveksle data mellom aktører i økosystemet."
 cardMeta: "4 delkapabiliteter / 44 produkter"

@@ -1,5 +1,6 @@
 ---
 title: "Datadrevet"
+eyebrow: "Kapabilitet"
 weight: 6
 description: "Evne til å systematisk bruke data som en strategisk ressurs for å skape innsikt, informere beslutninger og utvikle bedre, mer treffsikre og effektive tjenester."
 cardMeta: "3 delkapabiliteter / 3 produkter"

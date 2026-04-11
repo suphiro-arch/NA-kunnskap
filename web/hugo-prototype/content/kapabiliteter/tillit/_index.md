@@ -1,5 +1,6 @@
 ---
 title: "Tillit"
+eyebrow: "Kapabilitet"
 weight: 5
 description: "Evne å tilby tillitstjenester som muliggjør autentisering og autorisasjon på tvers av tjenestekjeder, og støtte en distribuert arkitektur og føderering mellom ulike domener og tjenester."
 cardMeta: "8 delkapabiliteter / 15 produkter"

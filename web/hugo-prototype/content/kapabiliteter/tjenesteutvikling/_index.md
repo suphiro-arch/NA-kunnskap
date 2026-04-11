@@ -1,5 +1,6 @@
 ---
 title: "Tjenesteutvikling"
+eyebrow: "Kapabilitet"
 weight: 8
 description: "Evne til å utvikle sammenhengende digitale tjenester."
 cardMeta: "4 delkapabiliteter / 21 produkter"
