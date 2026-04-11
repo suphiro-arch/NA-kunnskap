@@ -12,7 +12,7 @@
 {{ $principlesPage := .Site.GetPage "/prinsipper" }}
 {{ $principleCount := 0 }}
 {{ with $principlesPage }}
-  {{ $principleCount = len (uniq (findRE `\*\*P[0-9]+:` .RawContent)) }}
+  {{ $principleCount = len (uniq (findRE `class="principle-panel__code">P[0-9]+<` .RawContent)) }}
 {{ end }}
 
 {{ if .IsHome }}
