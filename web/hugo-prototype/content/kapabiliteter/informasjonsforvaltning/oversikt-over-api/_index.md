@@ -1,13 +1,13 @@
 ---
 title: "Oversikt over API"
+headerTitle: "Informasjonsforvaltning - Oversikt over API"
+eyebrow: "Kapabilitet"
 weight: 5
 description: "Evne til å datadeling og tjenesteintegrasjon ved å oppdage, forstå og koble seg til tilgjengelige data via en standardisert oversikt over maskinlesbare grensesnitt (API-er)."
 cardMeta: "3 produkter"
 ---
 
 Evne til å datadeling og tjenesteintegrasjon ved å oppdage, forstå og koble seg til tilgjengelige data via en standardisert oversikt over maskinlesbare grensesnitt (API-er).
-
-**Sti:** [Kapabiliteter](../../) / [Informasjonsforvaltning](../)
 
 ## Relaterte produkter
 

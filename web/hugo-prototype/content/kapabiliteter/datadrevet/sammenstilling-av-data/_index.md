@@ -1,13 +1,13 @@
 ---
 title: "Sammenstilling av data"
+headerTitle: "Datadrevet - Sammenstilling av data"
+eyebrow: "Kapabilitet"
 weight: 2
 description: "Evne til å hente, kombinere og foredle data fra ulike kilder for å skape ny innsikt, et helhetlig beslutningsgrunnlag, eller sammenhengende tjenester for brukeren."
 cardMeta: "3 produkter"
 ---
 
 Evne til å hente, kombinere og foredle data fra ulike kilder for å skape ny innsikt, et helhetlig beslutningsgrunnlag, eller sammenhengende tjenester for brukeren.
-
-**Sti:** [Kapabiliteter](../../) / [Datadrevet](../)
 
 ## Relaterte produkter
 

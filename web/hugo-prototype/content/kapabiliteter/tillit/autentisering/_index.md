@@ -1,13 +1,13 @@
 ---
 title: "Autentisering"
+headerTitle: "Tillit - Autentisering"
+eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å på en sikker og entydig måte verifisere den digitale identiteten til brukere og systemer."
 cardMeta: "9 produkter"
 ---
 
 Evne til å på en sikker og entydig måte verifisere den digitale identiteten til brukere og systemer.
-
-**Sti:** [Kapabiliteter](../../) / [Tillit](../)
 
 ## Relaterte produkter
 

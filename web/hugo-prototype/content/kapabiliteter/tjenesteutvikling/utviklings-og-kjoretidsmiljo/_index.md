@@ -1,13 +1,13 @@
 ---
 title: "Utviklings- og kjøretidsmiljø"
+headerTitle: "Tjenesteutvikling - Utviklings- og kjøretidsmiljø"
+eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å tilby og forvalte en felles, skalerbar teknisk plattform og en tilhørende verktøykasse med standardiserte byggeklosser, verktøy og utviklingsmiljøer som forenkler og akselererer utviklingen av digitale tjenester."
 cardMeta: "4 produkter"
 ---
 
 Evne til å tilby og forvalte en felles, skalerbar teknisk plattform og en tilhørende verktøykasse med standardiserte byggeklosser, verktøy og utviklingsmiljøer som forenkler og akselererer utviklingen av digitale tjenester.
-
-**Sti:** [Kapabiliteter](../../) / [Tjenesteutvikling](../)
 
 ## Relaterte produkter
 

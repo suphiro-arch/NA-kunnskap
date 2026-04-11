@@ -1,13 +1,13 @@
 ---
 title: "Tilgangskontroll"
+headerTitle: "Tillit - Tilgangskontroll"
+eyebrow: "Kapabilitet"
 weight: 2
 description: "Evne til å kontrollere at en bruker har rettighet til å benytte angitt ressurs eller tjeneste på vegne av andre eller seg selv."
 cardMeta: "8 produkter"
 ---
 
 Evne til å kontrollere at en bruker har rettighet til å benytte angitt ressurs eller tjeneste på vegne av andre eller seg selv.
-
-**Sti:** [Kapabiliteter](../../) / [Tillit](../)
 
 ## Relaterte produkter
 

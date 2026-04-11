@@ -1,13 +1,13 @@
 ---
 title: "Signering"
+headerTitle: "Tillit - Signering"
+eyebrow: "Kapabilitet"
 weight: 6
 description: "Evne til juridisk bindende signering av dokumenter eller transaksjoner."
 cardMeta: "2 produkter"
 ---
 
 Evne til juridisk bindende signering av dokumenter eller transaksjoner.
-
-**Sti:** [Kapabiliteter](../../) / [Tillit](../)
 
 ## Relaterte produkter
 

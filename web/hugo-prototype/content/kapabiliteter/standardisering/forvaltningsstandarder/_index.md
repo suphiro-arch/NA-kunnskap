@@ -1,13 +1,13 @@
 ---
 title: "Forvaltningsstandarder"
+headerTitle: "Standardisering - Forvaltningsstandarder"
+eyebrow: "Kapabilitet"
 weight: 2
 description: "Evne til å implementere og ta i bruk nasjonale standarder."
 cardMeta: "11 produkter"
 ---
 
 Evne til å implementere og ta i bruk nasjonale standarder.
-
-**Sti:** [Kapabiliteter](../../) / [Standardisering](../)
 
 ## Relaterte produkter
 

@@ -1,13 +1,13 @@
 ---
 title: "Bruke data fra andre"
+headerTitle: "Datautveksling og integrasjon - Bruke data fra andre"
+eyebrow: "Kapabilitet"
 weight: 2
 description: "Evne til å gjenbruke data fra andre i egne tjenester og prosesser."
 cardMeta: "19 produkter"
 ---
 
 Evne til å gjenbruke data fra andre i egne tjenester og prosesser.
-
-**Sti:** [Kapabiliteter](../../) / [Datautveksling og integrasjon](../)
 
 ## Relaterte produkter
 

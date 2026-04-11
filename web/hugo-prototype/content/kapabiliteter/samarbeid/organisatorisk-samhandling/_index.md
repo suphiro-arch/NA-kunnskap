@@ -1,13 +1,13 @@
 ---
 title: "Organisatorisk samhandling"
+headerTitle: "Samarbeid - Organisatorisk samhandling"
+eyebrow: "Kapabilitet"
 weight: 1
 description: "Evnen til å effektivisere forretningsprosesser og verdikjeder på tvers av organisatoriske grenser."
 cardMeta: "14 produkter"
 ---
 
 Evnen til å effektivisere forretningsprosesser og verdikjeder på tvers av organisatoriske grenser.
-
-**Sti:** [Kapabiliteter](../../) / [Samarbeid](../)
 
 ## Relaterte produkter
 

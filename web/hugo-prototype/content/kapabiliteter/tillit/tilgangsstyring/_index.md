@@ -1,13 +1,13 @@
 ---
 title: "Tilgangsstyring"
+headerTitle: "Tillit - Tilgangsstyring"
+eyebrow: "Kapabilitet"
 weight: 3
 description: "Evne til å styre og gi tilgang til hvem som har rettighet til å benytte en ressurs (tjeneste, system, API, opplysning) på vegne av seg selv, andre personer eller virksomheter."
 cardMeta: "2 produkter"
 ---
 
 Evne til å styre og gi tilgang til hvem som har rettighet til å benytte en ressurs (tjeneste, system, API, opplysning) på vegne av seg selv, andre personer eller virksomheter.
-
-**Sti:** [Kapabiliteter](../../) / [Tillit](../)
 
 ## Relaterte produkter
 

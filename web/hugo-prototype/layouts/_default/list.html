@@ -74,9 +74,9 @@
     {{ if .IsHome }}
     <p class="content-card__eyebrow">Om innholdet</p>
     {{ else }}
-    <p class="content-card__eyebrow">Seksjon</p>
+    <p class="content-card__eyebrow">{{ with .Params.eyebrow }}{{ . }}{{ else }}Seksjon{{ end }}</p>
     {{ end }}
-    <h1>{{ .Title }}</h1>
+    <h1>{{ with .Params.headerTitle }}{{ . }}{{ else }}{{ .Title }}{{ end }}</h1>
   </header>
 
   <div class="content-card__body">

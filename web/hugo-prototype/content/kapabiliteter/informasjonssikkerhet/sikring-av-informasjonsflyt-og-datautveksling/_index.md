@@ -1,13 +1,13 @@
 ---
 title: "Sikring av informasjonsflyt og datautveksling"
+headerTitle: "Informasjonssikkerhet - Sikring av informasjonsflyt og datautveksling"
+eyebrow: "Kapabilitet"
 weight: 2
 description: "Kapabiliteten omfatter de tekniske og organisatoriske tiltakene som sikrer at informasjon som utveksles mellom virksomheter er beskyttet mot innsyn og manipulering, og at dataflyten er kontrollert."
 cardMeta: "18 produkter"
 ---
 
 Kapabiliteten omfatter de tekniske og organisatoriske tiltakene som sikrer at informasjon som utveksles mellom virksomheter er beskyttet mot innsyn og manipulering, og at dataflyten er kontrollert.
-
-**Sti:** [Kapabiliteter](../../) / [Informasjonssikkerhet](../)
 
 ## Relaterte produkter
 

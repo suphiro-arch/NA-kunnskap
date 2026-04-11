@@ -1,13 +1,13 @@
 ---
 title: "Meldingsformidling"
+headerTitle: "Datautveksling og integrasjon - Meldingsformidling"
+eyebrow: "Kapabilitet"
 weight: 3
 description: "Evnen til å garantere levering og meldingsrekkefølge til rett mottaker."
 cardMeta: "11 produkter"
 ---
 
 Evnen til å garantere levering og meldingsrekkefølge til rett mottaker.
-
-**Sti:** [Kapabiliteter](../../) / [Datautveksling og integrasjon](../)
 
 ## Relaterte produkter
 

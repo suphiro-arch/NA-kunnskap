@@ -1,13 +1,13 @@
 ---
 title: "Sporbarhet og innsyn"
+headerTitle: "Tillit - Sporbarhet og innsyn"
+eyebrow: "Kapabilitet"
 weight: 5
 description: "Dokumentasjon og logging av opplysninger for bruk i innsyn, forvaltning og kontroll av tillitstjenester."
 cardMeta: "2 produkter"
 ---
 
 Dokumentasjon og logging av opplysninger for bruk i innsyn, forvaltning og kontroll av tillitstjenester.
-
-**Sti:** [Kapabiliteter](../../) / [Tillit](../)
 
 ## Relaterte produkter
 

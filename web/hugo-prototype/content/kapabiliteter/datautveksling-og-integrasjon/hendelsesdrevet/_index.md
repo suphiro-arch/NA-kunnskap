@@ -1,13 +1,13 @@
 ---
 title: "Hendelsesdrevet"
+headerTitle: "Datautveksling og integrasjon - Hendelsesdrevet"
+eyebrow: "Kapabilitet"
 weight: 4
 description: "Evne til å publisere og reagere på digitale hendelser og kontinuerlige datastrømmer når de inntreffer."
 cardMeta: "3 produkter"
 ---
 
 Evne til å publisere og reagere på digitale hendelser og kontinuerlige datastrømmer når de inntreffer.
-
-**Sti:** [Kapabiliteter](../../) / [Datautveksling og integrasjon](../)
 
 ## Relaterte produkter
 

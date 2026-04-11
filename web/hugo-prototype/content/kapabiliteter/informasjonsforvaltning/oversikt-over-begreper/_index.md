@@ -1,13 +1,13 @@
 ---
 title: "Oversikt over begreper"
+headerTitle: "Informasjonsforvaltning - Oversikt over begreper"
+eyebrow: "Kapabilitet"
 weight: 6
 description: "Evne til å etablere en omforent begrepsforståelse ved å definere, dele og gjenbruke begreper på tvers av virksomheter, for å sikre entydig kommunikasjon og semantisk samhandlingsevne."
 cardMeta: "3 produkter"
 ---
 
 Evne til å etablere en omforent begrepsforståelse ved å definere, dele og gjenbruke begreper på tvers av virksomheter, for å sikre entydig kommunikasjon og semantisk samhandlingsevne.
-
-**Sti:** [Kapabiliteter](../../) / [Informasjonsforvaltning](../)
 
 ## Relaterte produkter
 

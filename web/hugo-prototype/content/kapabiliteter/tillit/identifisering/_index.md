@@ -1,13 +1,13 @@
 ---
 title: "Identifisering"
+headerTitle: "Tillit - Identifisering"
+eyebrow: "Kapabilitet"
 weight: 8
 description: "Evne til entydig å fastslå og registrere identiteter (personer, virksomheter eller systemer) gjennom pålitelige metoder og kilder."
 cardMeta: "3 produkter"
 ---
 
 Evne til entydig å fastslå og registrere identiteter (personer, virksomheter eller systemer) gjennom pålitelige metoder og kilder.
-
-**Sti:** [Kapabiliteter](../../) / [Tillit](../)
 
 ## Relaterte produkter
 

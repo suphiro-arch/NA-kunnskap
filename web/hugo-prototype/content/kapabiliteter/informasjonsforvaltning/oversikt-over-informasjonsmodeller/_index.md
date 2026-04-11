@@ -1,13 +1,13 @@
 ---
 title: "Oversikt over informasjonsmodeller"
+headerTitle: "Informasjonsforvaltning - Oversikt over informasjonsmodeller"
+eyebrow: "Kapabilitet"
 weight: 2
 description: "Evne til å gi oversikt over informasjonsmodeller for å kunne gi en felles forståelse av datastrukturer, slik at data kan tolkes korrekt og meningsfullt."
 cardMeta: "3 produkter"
 ---
 
 Evne til å gi oversikt over informasjonsmodeller for å kunne gi en felles forståelse av datastrukturer, slik at data kan tolkes korrekt og meningsfullt.
-
-**Sti:** [Kapabiliteter](../../) / [Informasjonsforvaltning](../)
 
 ## Relaterte produkter
 

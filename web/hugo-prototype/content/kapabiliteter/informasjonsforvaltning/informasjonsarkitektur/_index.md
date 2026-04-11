@@ -1,13 +1,13 @@
 ---
 title: "Informasjonsarkitektur"
+headerTitle: "Informasjonsforvaltning - Informasjonsarkitektur"
+eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å strukturere og modellere informasjon på en standardisert måte, slik at data og innhold blir finnbart, forståelig og gjenbrukbart for både mennesker og maskiner på tvers av hele økosystemet."
 cardMeta: "5 produkter"
 ---
 
 Evne til å strukturere og modellere informasjon på en standardisert måte, slik at data og innhold blir finnbart, forståelig og gjenbrukbart for både mennesker og maskiner på tvers av hele økosystemet.
-
-**Sti:** [Kapabiliteter](../../) / [Informasjonsforvaltning](../)
 
 ## Relaterte produkter
 

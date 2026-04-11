@@ -462,14 +462,14 @@ def generate() -> None:
             sub_content = f"""
 ---
 title: "{subcap['navn']}"
+headerTitle: "{capability['navn']} - {subcap['navn']}"
+eyebrow: "Kapabilitet"
 weight: {sub_index}
 description: "{subcap['beskrivelse']}"
 cardMeta: "{len({entry['product_id'] for entry in sub_products})} produkter"
 ---
 
 {subcap['beskrivelse']}
-
-**Sti:** [Kapabiliteter](../../) / [{capability['navn']}](../)
 
 ## Relaterte produkter
 

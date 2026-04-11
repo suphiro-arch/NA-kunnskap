@@ -1,13 +1,13 @@
 ---
 title: "Oversikt over hendelser"
+headerTitle: "Informasjonsforvaltning - Oversikt over hendelser"
+eyebrow: "Kapabilitet"
 weight: 4
 description: "Evne til å få oversikt over hvilke hendelser som utløser eller utløses av en tjeneste."
 cardMeta: "1 produkter"
 ---
 
 Evne til å få oversikt over hvilke hendelser som utløser eller utløses av en tjeneste.
-
-**Sti:** [Kapabiliteter](../../) / [Informasjonsforvaltning](../)
 
 ## Relaterte produkter
 

@@ -1,13 +1,13 @@
 ---
 title: "Grunndata"
+headerTitle: "Datakilder - Grunndata"
+eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å identifisere og formelt anerkjenne autoritative datakilder basert på en systematisk vurdering av deres verdi."
 cardMeta: "15 produkter"
 ---
 
 Evne til å identifisere og formelt anerkjenne autoritative datakilder basert på en systematisk vurdering av deres verdi.
-
-**Sti:** [Kapabiliteter](../../) / [Datakilder](../)
 
 ## Relaterte produkter
 
