@@ -372,10 +372,10 @@ Denne seksjonen handler om å bygge en åpen web-basert KI-dokumentasjonsassiste
 - Strammet inn prompt og mal for både normerende ressurser og samarbeidsfora med tydeligere skille mellom fakta, deduksjon og usikkerhet, strengere `v1`-sjekk og krav om rene kapabilitetsnavn.
 - Brukt det skjerpede samarbeidsforum-oppsettet som kontrolltest på [110-Skate-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/samarbeidsfora/110-Skate-v1-codex.md), med mindre spekulative påstander, tydeligere avgrensning av beslutningsmyndighet og renere kapabilitetsseksjon.
 - Løftet [111-Digitaliseringsradet-v0-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v0-codex.md) til [111-Digitaliseringsradet-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v1-codex.md), med tydeligere grensesnitt mot andre fora, ren kapabilitetsseksjon og skarpere skille mellom rådgivning, styring og samordning.
+- Forbedret kapabilitetssidene visuelt ved å gi koblede ressurskort en liten typebrikke og diskret farget toppkant per ressurskategori: grønn for operative løsninger, blå for normerende ressurser og svak varm rødtone for samarbeidsfora.
 
 ## Referanser
 
 - [MVP-skisse for dokumentasjonsassistent](briefs/arbeidsstyring-og-handover/2026-03-16-dokumentasjonsassistent-mvp-v1.md) –" Hele konseptet og arkitektur-ideen for assistenten.
-
 
 

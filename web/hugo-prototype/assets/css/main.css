@@ -674,6 +674,18 @@ a:hover {
   padding: 0.95rem 1rem;
   display: flex;
   flex-direction: column;
+  border-top-width: 4px;
+}
+
+.capability-product-link__type {
+  margin: 0 0 0.55rem;
+  align-self: flex-start;
+  padding: 0.18rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.73rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 .capability-product-link__title {
@@ -700,6 +712,46 @@ a:hover {
 .capability-product-link .resource-card__button {
   margin-top: auto;
   align-self: flex-start;
+}
+
+.capability-product-link.resource-type--operative {
+  border-top-color: #2f7a5f;
+}
+
+.capability-product-link.resource-type--operative .capability-product-link__type {
+  background: #e8f4ee;
+  border: 1px solid #c7dece;
+  color: #245c48;
+}
+
+.capability-product-link.resource-type--normative {
+  border-top-color: #4f7396;
+}
+
+.capability-product-link.resource-type--normative .capability-product-link__type {
+  background: #ebf1f8;
+  border: 1px solid #cfdbe8;
+  color: #385675;
+}
+
+.capability-product-link.resource-type--forum {
+  border-top-color: #b96a63;
+}
+
+.capability-product-link.resource-type--forum .capability-product-link__type {
+  background: #f8ecea;
+  border: 1px solid #ebd0cb;
+  color: #8f514b;
+}
+
+.capability-product-link.resource-type--other {
+  border-top-color: #8b9b8f;
+}
+
+.capability-product-link.resource-type--other .capability-product-link__type {
+  background: #f0f3f1;
+  border: 1px solid #d9e0db;
+  color: #5f6f65;
 }
 
 .prose pre code {

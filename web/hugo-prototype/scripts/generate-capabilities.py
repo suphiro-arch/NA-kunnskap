@@ -361,6 +361,17 @@ def simplify_capability_relevance(explanations: list[str], via_names: list[str])
     return 'Produktet er eksplisitt koblet til denne kapabiliteten.'
 
 
+def classify_resource(relative_path: str) -> tuple[str, str]:
+    normalized = relative_path.replace('\\', '/')
+    if '/operative-losninger-og-tjenester/' in normalized:
+        return 'resource-type--operative', 'Operativ løsning'
+    if '/normerende-ressurser/' in normalized:
+        return 'resource-type--normative', 'Normerende ressurs'
+    if '/samarbeidsfora/' in normalized:
+        return 'resource-type--forum', 'Samarbeidsforum'
+    return 'resource-type--other', 'Annen ressurs'
+
+
 def render_product_link_cards(products: list[dict], capability_name: str, *, include_relevance: bool) -> str:
     if not products:
         return '<p>Ingen produkter er koblet til denne kapabiliteten forelopig.</p>'
@@ -391,8 +402,10 @@ def render_product_link_cards(products: list[dict], capability_name: str, *, inc
         title = html.escape(product['product_name'])
         url = html.escape(product['product_url'])
         relevance = simplify_capability_relevance(product['explanations'], product['via_names'])
+        resource_class, resource_label = classify_resource(product['product_url'].replace(f'{REPO_BLOB_BASE}/', ''))
 
-        parts.append('  <article class="capability-product-link">')
+        parts.append(f'  <article class="capability-product-link {resource_class}">')
+        parts.append(f'    <p class="capability-product-link__type">{html.escape(resource_label)}</p>')
         parts.append(f'    <h3 class="capability-product-link__title">{title}</h3>')
         if include_relevance and relevance:
             parts.append(f'    <p class="capability-product-link__description">{html.escape(relevance)}</p>')
