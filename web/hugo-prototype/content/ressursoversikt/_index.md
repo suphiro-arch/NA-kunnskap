@@ -8,15 +8,46 @@ hideSectionOverview: true
 
 # Ressursoversikt
 
-Denne siden viser samlet oversikt over siste registrerte versjon per ressurs basert paa `arkitektur/ressurser/produktnummerering.md`.
+<div class="resource-overview-intro"><p class="resource-overview-intro__lead">Dette er totaloversikten over siste registrerte versjon per ressurs, på tvers av typer, eiere og kapabiliteter.</p><p>Grunnlaget hentes fra <code>arkitektur/ressurser/produktnummerering.md</code>. Bruk filtrene nedenfor når du vil søke bredt, og bruk typevisningene når du heller vil lese ressursene gruppert etter hovedtype.</p></div>
 
-Bruk filtrene for aa finne riktige ressurser raskt paa tvers av typer, eiere og kapabiliteter.
+## Utforsk etter type
 
-## Undersider
+Disse undersidene viser de samme ressursene sortert etter hovedtype, for når du vil lese mer kuratert og mindre på tvers.
 
-- [Operative løsninger og tjenester](produkter/operative-losninger-og-tjenester/)
-- [Normerende ressurser](produkter/normerende-ressurser/)
-- [Samarbeidsfora](produkter/samarbeidsfora/)
+<div class="resource-type-grid">
+  <article class="resource-type-card">
+    <p class="resource-type-card__meta">Typevisning</p>
+    <h3><a href="produkter/operative-losninger-og-tjenester/">Operative løsninger og tjenester</a></h3>
+    <p>Ressurser som brukes direkte i drift, integrasjon eller løsningsdesign.</p>
+    <p class="resource-type-card__count">63 ressurser</p>
+    <a class="section-card__link" href="produkter/operative-losninger-og-tjenester/">Åpne typevisning</a>
+  </article>
+  <article class="resource-type-card">
+    <p class="resource-type-card__meta">Typevisning</p>
+    <h3><a href="produkter/normerende-ressurser/">Normerende ressurser</a></h3>
+    <p>Ressurser som primært gir føringer for modeller, standarder, arkitektur og samordning.</p>
+    <p class="resource-type-card__count">19 ressurser</p>
+    <a class="section-card__link" href="produkter/normerende-ressurser/">Åpne typevisning</a>
+  </article>
+  <article class="resource-type-card">
+    <p class="resource-type-card__meta">Typevisning</p>
+    <h3><a href="produkter/samarbeidsfora/">Samarbeidsfora</a></h3>
+    <p>Arenaer for koordinering, prioritering og samordning på tvers av aktører.</p>
+    <p class="resource-type-card__count">9 ressurser</p>
+    <a class="section-card__link" href="produkter/samarbeidsfora/">Åpne typevisning</a>
+  </article>
+  <article class="resource-type-card">
+    <p class="resource-type-card__meta">Typevisning</p>
+    <h3><a href="produkter/andre-ressurser/">Andre ressurser</a></h3>
+    <p>Ressurser som foreløpig ikke er plassert i egen ressursmappe med tydelig hovedtype.</p>
+    <p class="resource-type-card__count">0 ressurser</p>
+    <a class="section-card__link" href="produkter/andre-ressurser/">Åpne typevisning</a>
+  </article>
+</div>
+
+## Totaloversikt
+
+Oversikten under viser **91 ressurser** samlet, uavhengig av type.
 
 ## Ressurser (siste versjon)
 
