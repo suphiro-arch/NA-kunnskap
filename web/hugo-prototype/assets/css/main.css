@@ -720,10 +720,11 @@ a:hover {
   border-radius: 0;
   background: transparent;
   color: #42505b;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.4;
   text-decoration: none;
   position: relative;
+  margin-top: 0.85rem;
 }
 
 .capability-product-link .resource-card__button--primary::after {
