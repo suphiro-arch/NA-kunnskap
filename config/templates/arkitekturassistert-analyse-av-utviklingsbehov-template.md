@@ -10,6 +10,13 @@ Bruk denne malen sammen med:
 - `arkitektur/prinsipper/principles.md`
 - `arkitektur/ressurser/produktnummerering.md`
 - `arkitektur/ressurser/operative-losninger-og-tjenester/`
+- `arkitektur/ressurser/normerende-ressurser/` (kun når standarder/retningslinjer faktisk påvirker tiltaket)
+- `arkitektur/ressurser/samarbeidsfora/` (kun når koordinering mellom aktører er en tydelig forutsetning)
+
+Viktig avgrensning:
+- Velg et spisset utvalg av de mest relevante ressursene for caset.
+- Ikke list opp alt som kan være interessant.
+- Begrunn kort hvorfor hver valgt ressurs er tatt med.
 
 ## 1. Formål
 
@@ -131,10 +138,10 @@ Hvis produktbeskrivelsen mangler eller er for tynn, marker vurderingen som usikk
 
 ### 7.1 Vurderte produkter fra katalogen
 
-| Produkt (fra produktkatalogen) | Produktkategori | Relevans for caset | Kan brukes direkte | Bør videreutvikles | Ikke relevant | Begrunnelse |
-|---|---|---|---|---|---|---|
-| [Produkt] | [Sett inn] | [Høy/middels/lav] | [Ja/nei] | [Ja/nei] | [Ja/nei] | [Sett inn] |
-| [Produkt] | [Sett inn] | [Høy/middels/lav] | [Ja/nei] | [Ja/nei] | [Ja/nei] | [Sett inn] |
+| Produkt (fra produktkatalogen) | Produktkategori | Relevans for caset | Klassifisering (brukes direkte/videreutvikles/ikke relevant) | Begrunnelse |
+|---|---|---|---|---|
+| [Produkt] | [Sett inn] | [Høy/middels/lav] | [Sett inn] | [Sett inn] |
+| [Produkt] | [Sett inn] | [Høy/middels/lav] | [Sett inn] | [Sett inn] |
 
 ### 7.2 Oppsummering: hva finnes, hva kan gjenbrukes, hva må videreutvikles
 
@@ -196,6 +203,14 @@ Hjelpetekst: Oppsummer i 5-8 setninger med tydelig svar på hva som bør gjøres
 
 [Sett inn]
 
+### 10.1 Spørsmål til videre diskusjon
+
+Hjelpetekst: List opp 3-7 konkrete spørsmål som hjelper beslutningstakere med å avklare retning, ansvar, avhengigheter og prioritering.
+
+1. [Sett inn]
+2. [Sett inn]
+3. [Sett inn]
+
 ## 11. Kortversjon for ledelse
 
 Hjelpetekst: Brukes når analysen skal leses raskt i styringsmøter.
@@ -216,10 +231,12 @@ Hjelpetekst: Brukes når analysen skal leses raskt i styringsmøter.
 ### Nivå 1 - rask analyse
 
 Minimum som fylles ut:
+- inputgrunnlag og analysetillit (inkludert minst tre konkrete usikkerheter)
 - problembilde
 - kapabilitetsanalyse
 - prinsippvurdering
 - foreløpig produktvurdering
+- minst ett sammensatt løsningsmønster (eller tydelig begrunnelse for hvorfor dette ikke er mulig nå)
 - prioriterte tiltak
 
 ### Nivå 2 - beslutningsgrunnlag
