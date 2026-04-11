@@ -2792,6 +2792,36 @@
             ]
         },
         {
+            "product_id": 111,
+            "product_name": "Digitaliseringsradet",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "subcapability_id": "id-b4a86e2e430c472b9f74bedb7f66fd74",
+                    "subcapability_name": "Samarbeidsarenaer og nettverk",
+                    "subcapability_slug": "samarbeidsarenaer-og-nettverk",
+                    "mapping_label": "Samarbeid: Samarbeidsarenaer og nettverk",
+                    "explanation": "er en rådgivende arena der virksomheter får erfaringsbasert læring og sparring på tvers."
+                },
+                {
+                    "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
+                    "capability_name": "Strategisk styring",
+                    "capability_slug": "strategisk-styring",
+                    "subcapability_id": "id-dabf94e621f644ffa53ebb44dcc9ff79",
+                    "subcapability_name": "Arkitekturstyring",
+                    "subcapability_slug": "arkitekturstyring",
+                    "mapping_label": "Strategisk styring: Arkitekturstyring",
+                    "explanation": "styrker kvaliteten i strategiske veivalg og gjennomføring av krevende digitaliseringstiltak."
+                }
+            ]
+        },
+        {
             "product_id": 112,
             "product_name": "Digitaliseringsrundskrivet",
             "version": 1,

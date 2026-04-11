@@ -96,7 +96,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | 108 | `DIGDIR-040` | Kunnskapsgrunnlag - dataspaces | Kunnskapsgrunnlag | Samarbeidsarenaer og nettverk<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/normerende-ressurser/108-Kunnskapsgrunnlag-dataspaces-v0-codex.md) |
 | 109 | `DIGDIR-041` | Kapabilitetskart (planlagt) | Kapabilitetsmodell | Arkitekturstyring<br>Datastyring | [Åpne](../../arkitektur/ressurser/normerende-ressurser/109-Kapabilitetskart-planlagt-v0-codex.md) |
 | 110 | `DIGDIR-042` | Skate | Tverrsektoriell samordningsarena | Samarbeidsarenaer og nettverk<br>Samordning | [Åpne](../../arkitektur/ressurser/samarbeidsfora/110-Skate-v1-codex.md) |
-| 111 | `DIGDIR-043` | Digitaliseringsradet | Radgivende arena | Samarbeidsarenaer og nettverk<br>Arkitekturstyring | [Åpne](../../arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v0-codex.md) |
+| 111 | `DIGDIR-043` | Digitaliseringsradet | Radgivende arena | Samarbeidsarenaer og nettverk<br>Arkitekturstyring | [Åpne](../../arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v1-codex.md) |
 | 112 | `DIGDIR-044` | Digitaliseringsrundskrivet | Rundskriv | Samordning<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/normerende-ressurser/112-Digitaliseringsrundskrivet-v1-codex.md) |
 | 113 | `DIGDIR-045` | Prosjektveiviseren | Prosjektmetodikk | Samordning<br>Tjenestedesign | [Åpne](../../arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v1-codex.md) |
 | 114 | `DIGDIR-046` | Klart språk | Veileder | Sammenhengende tjenester<br>Tjenestedesign | [Åpne](../../arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v0-codex.md) |

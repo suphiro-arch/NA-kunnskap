@@ -234,6 +234,20 @@ Disse skal tas inn *parallelt* med produktgrunnlag-arbeidet og vil gjøre det le
 
 ## Konkrete neste oppgaver –" Prioritert rekkefølge
 
+### v1-gate sjekk (operative ressurser) –" status etter siste forbedringsrunde
+
+- **Bestått v1-gate:** [63-microdata-no-produkt-canvas-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/operative-losninger-og-tjenester/63-microdata-no-produkt-canvas-v1-codex.md)
+   - oppfyller kravene for hovedfunksjoner, beslutningsstøtte, kapabilitetsforklaring, målgruppebasert verdibeskrivelse og kombinasjoner under gjenbruk
+- **Bestått v1-gate:** [31-Helsedata-no-produkt-canvas-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v1-codex.md)
+   - løftet til samme nivå som sterkere v1-filer, med tydelig rolleavgrensning og bedre beslutningsstøtte
+- **Bør styrkes før v1-gate anses bestått:** [32-Helsenorge-produkt-canvas-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/operative-losninger-og-tjenester/32-Helsenorge-produkt-canvas-v1-codex.md)
+   - mangler eksplisitte underseksjoner for `Typiske brukssituasjoner (generisk)` og `Når <produktet> normalt ikke er førstevalg`
+   - bør få `Vanlige kombinasjoner med andre produkter` under `Gjenbruk`
+
+**Anbefalt neste mikro-løp (1 arbeidsøkt):**
+- Oppdatere `32-Helsenorge` etter samme mønster som `31-Helsedata.no` og `63-microdata.no`.
+- Deretter kjøre en ny mini-sjekk på 3-5 operative v1-filer for å kalibrere om v1-gaten fungerer jevnt i praksis.
+
 - Vurdere om de første normerende Digdir-ressursene bør få utfylt de nye analysefeltene før neste større bolk legges inn.
 - Vurdere neste Digdir-bolk fra rålista, med særlig blikk på `FSiF`, `Regulatorisk sandkasse for KI`, `Nasjonal sandkasse for digital lommebok` og `Samarbeidsportalen`.
 - Kvalitetssikre om `DIGDIR-048 Rammeverk for innovasjon i offentlig sektor` skal stå som egen normerende ressurs, eller om den bør avgrenses tydeligere mot Digdirs åpne innovasjonsinnhold før videre utfylling.
@@ -357,6 +371,7 @@ Denne seksjonen handler om å bygge en åpen web-basert KI-dokumentasjonsassiste
 - Rettet `AGENTS.md` til å peke på faktisk promptoppsett for normerende ressurser og samarbeidsfora, i stedet for den utdaterte samlefila.
 - Strammet inn prompt og mal for både normerende ressurser og samarbeidsfora med tydeligere skille mellom fakta, deduksjon og usikkerhet, strengere `v1`-sjekk og krav om rene kapabilitetsnavn.
 - Brukt det skjerpede samarbeidsforum-oppsettet som kontrolltest på [110-Skate-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/samarbeidsfora/110-Skate-v1-codex.md), med mindre spekulative påstander, tydeligere avgrensning av beslutningsmyndighet og renere kapabilitetsseksjon.
+- Løftet [111-Digitaliseringsradet-v0-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v0-codex.md) til [111-Digitaliseringsradet-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v1-codex.md), med tydeligere grensesnitt mot andre fora, ren kapabilitetsseksjon og skarpere skille mellom rådgivning, styring og samordning.
 
 ## Referanser
 

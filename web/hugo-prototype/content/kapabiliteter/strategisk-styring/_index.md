@@ -3,18 +3,30 @@ title: "Strategisk styring"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evnen til å sette retning for nasjonal arkitektur og realisere strategiske mål."
-cardMeta: "3 delkapabiliteter / 8 produkter"
+cardMeta: "3 delkapabiliteter / 11 produkter"
 productsMarkdown: |
   ## Relaterte produkter
   
   <div class="capability-product-links">
     <article class="capability-product-link">
+      <h3 class="capability-product-link__title">Arkitektur- og standardiseringsrådet</h3>
+      <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/88-Arkitektur-og-standardiseringsradet-v1-codex.md">Åpne ressursbeskrivelse</a>
+    </article>
+    <article class="capability-product-link">
+      <h3 class="capability-product-link__title">Skate</h3>
+      <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/110-Skate-v1-codex.md">Åpne ressursbeskrivelse</a>
+    </article>
+    <article class="capability-product-link">
+      <h3 class="capability-product-link__title">Digitaliseringsradet</h3>
+      <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v1-codex.md">Åpne ressursbeskrivelse</a>
+    </article>
+    <article class="capability-product-link">
       <h3 class="capability-product-link__title">Digitaliseringsrundskrivet</h3>
-      <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/112-Digitaliseringsrundskrivet-v0-codex.md">Åpne ressursbeskrivelse</a>
+      <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/112-Digitaliseringsrundskrivet-v1-codex.md">Åpne ressursbeskrivelse</a>
     </article>
     <article class="capability-product-link">
       <h3 class="capability-product-link__title">Prosjektveiviseren</h3>
-      <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v0-codex.md">Åpne ressursbeskrivelse</a>
+      <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v1-codex.md">Åpne ressursbeskrivelse</a>
     </article>
     <article class="capability-product-link">
       <h3 class="capability-product-link__title">Digitaliseringsvennlig regelverk</h3>
@@ -30,7 +42,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link">
       <h3 class="capability-product-link__title">Styringsrådet for fellesløsningene</h3>
-      <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v0-codex.md">Åpne ressursbeskrivelse</a>
+      <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v1-codex.md">Åpne ressursbeskrivelse</a>
     </article>
     <article class="capability-product-link">
       <h3 class="capability-product-link__title">Felles sikkerhet i forvaltningen</h3>
