@@ -22,6 +22,19 @@ sources:
 
 # 17v2 Modernisert rapportering mellom kommune og stat
 
+## Kortversjon for ledelse
+
+Rapportering mellom kommune og stat kan moderniseres uten å starte med en helt ny nasjonal løsning. Det finnes allerede sterke byggesteiner i den nasjonale porteføljen, særlig for hendelser, sikker maskin-til-maskin tilgang, overgangsvis formidling og semantisk standardisering.
+
+Det viktigste først er ikke ny teknologi, men å etablere et felles samhandlingsmønster og et felles semantisk grunnlag. Anbefalt retning er derfor:
+
+- bruk eksisterende Digdir-komponenter som kjerne
+- standardiser begreper og API-er tidlig
+- pilotér ett til to rapporteringsløp
+- bruk filbasert formidling kun som definert overgangsmønster
+
+Dette gir høyere gjenbruk, mindre fragmentering og bedre grunnlag for gradvis overgang til mer løpende og standardisert rapportering.
+
 ## 1. Formål
 
 Denne analysen vurderer hvordan rapportering mellom kommune og stat kan moderniseres fra periodisk og filbasert innsending til en mer hendelsesdrevet, sporbar og integrert samhandlingsmodell. Målet er å identifisere hvilke deler av behovet som kan dekkes med eksisterende nasjonale ressurser, hvilke gap som gjenstår, og hvilke tiltak som gir størst effekt først.
@@ -267,16 +280,3 @@ De største hindringene ligger i semantikk, autorisasjon og samordning, ikke i f
 3. Hvilke begreper og informasjonsobjekter må standardiseres først for å få effekt på tvers av flere løp?
 4. Når er Altinn Formidling en riktig overgangsløsning, og når vil den bare forlenge et filbasert mønster?
 5. Hvem bør eie og forvalte et nasjonalt referansemønster for denne typen rapportering?
-
-## 11. Kortversjon for ledelse
-
-Rapportering mellom kommune og stat kan moderniseres uten å starte med en helt ny nasjonal løsning. Det finnes allerede sterke byggesteiner i den nasjonale porteføljen, særlig for hendelser, sikker maskin-til-maskin tilgang, overgangsvis formidling og semantisk standardisering.
-
-Det viktigste først er ikke ny teknologi, men å etablere et felles samhandlingsmønster og et felles semantisk grunnlag. Anbefalt retning er derfor:
-
-- bruk eksisterende Digdir-komponenter som kjerne
-- standardiser begreper og API-er tidlig
-- pilotér ett til to rapporteringsløp
-- bruk filbasert formidling kun som definert overgangsmønster
-
-Dette gir høyere gjenbruk, mindre fragmentering og bedre grunnlag for gradvis overgang til mer løpende og standardisert rapportering.
