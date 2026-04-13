@@ -251,15 +251,14 @@ Disse skal tas inn *parallelt* med produktgrunnlag-arbeidet og vil gjøre det le
 Status nå:
 - `Helsedata.no` og `microdata.no` er beskrevet.
 - `SYSVAK` (`FHI-001`) og `MSIS` (`FHI-002`) er nå løftet til egne operative `v1`-ressurser.
-- `Dødsårsaksregisteret` (`FHI-003`) og `Reseptregisteret/NorPD` (`FHI-004`) er lagt inn som operative `v0`-ressurser.
+- `Dødsårsaksregisteret` (`FHI-003`) og `Reseptregisteret/NorPD` (`FHI-004`) er nå løftet til egne operative `v1`-ressurser.
 
 Foreløpig prioritering etter styringsreglene:
-- **Neste bølge (anbefalt):**
-   - Løfte `FHI-003` og `FHI-004` fra `v0` til `v1` basert på samme kvalitetsgate.
+- **Alle fire FHI-registre (FHI-001 til FHI-004) er nå på v1.**
 
 Anbefalt konkret neste steg:
-- Kvalitetssikre `FHI-003` og `FHI-004` med 5-spørsmålstesten og v1-gate-kravene.
-- Løft `Dødsårsaksregisteret` og `Reseptregisteret/NorPD` til `v1` i neste arbeidsøkt.
+- Vurdere om FHI-registrene bør knyttes sterkere til produkt-kapabilitet-koblinger.yaml.
+- Vurdere om FHI-sektoren skal utvides med flere kandidater, f.eks. Norsk pasientregister (NPR) eller Kreftregisteret.
 
 - Vurdere om de første normerende Digdir-ressursene bør få utfylt de nye analysefeltene før neste større bolk legges inn.
 - Vurdere neste Digdir-bolk fra rålista, med særlig blikk på `FSiF`, `Regulatorisk sandkasse for KI`, `Nasjonal sandkasse for digital lommebok` og `Samarbeidsportalen`.
