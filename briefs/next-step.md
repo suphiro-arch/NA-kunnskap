@@ -386,8 +386,8 @@ Denne seksjonen handler om å bygge en åpen web-basert KI-dokumentasjonsassiste
 - Løftet [111-Digitaliseringsradet-v0-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v0-codex.md) til [111-Digitaliseringsradet-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v1-codex.md), med tydeligere grensesnitt mot andre fora, ren kapabilitetsseksjon og skarpere skille mellom rådgivning, styring og samordning.
 - Forbedret kapabilitetssidene visuelt ved å gi koblede ressurskort en liten typebrikke og diskret farget toppkant per ressurskategori: grønn for operative løsninger, blå for normerende ressurser og svak varm rødtone for samarbeidsfora.
 - Justerte kapabilitetssidene videre slik at selve evne-beskrivelsen får mer visuell tyngde, ressurskortene får litt mer luft, og knappene i ressursdelen er tonet ned for å la faginnholdet komme tydeligere først.
+- Opprettet [17v2-Modernisert-rapportering-kommune-stat-analyse.md](/c:/Users/HILROS/NA-kunnskap/Analyser/17v2-Modernisert-rapportering-kommune-stat-analyse.md) som ny versjon av analysen for modernisert rapportering mellom kommune og stat, skrevet etter oppdatert mal for arkitekturassistert analyse av utviklingsbehov med tydeligere caseavklaring, produktrekkefølge, gap-klassifisering og sammensatte løsningsmønstre.
 
 ## Referanser
 
 - [MVP-skisse for dokumentasjonsassistent](briefs/arbeidsstyring-og-handover/2026-03-16-dokumentasjonsassistent-mvp-v1.md) –" Hele konseptet og arkitektur-ideen for assistenten.
-
