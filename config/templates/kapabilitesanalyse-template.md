@@ -14,6 +14,8 @@
 |---|---|---|
 | ... | ... | ... |
 
+Merk: Kapabiliteter uten delkapabiliteter vurderes som fullverdige på lik linje med øvrige kapabiliteter.
+
 ## 3. Mulige gjenbrukbare ressurser
 | Ressurs-ID | Ressursnavn | Relevans (høy/middels/lav) | Hvordan kan den gjenbrukes | Merknad/usikkerhet |
 |---|---|---|---|---|
