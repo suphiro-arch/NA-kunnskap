@@ -12,7 +12,8 @@ Evne til å, basert på registrerte hendelser og delte data, automatisk identifi
 ## Relaterte produkter
 
 <div class="capability-product-links">
-  <article class="capability-product-link">
+  <article class="capability-product-link resource-type--operative">
+    <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title">Altinn Varsling</h3>
     <p class="capability-product-link__description">gjør det mulig å varsle mottakere når en hendelse eller tilstand krever oppmerksomhet</p>
     <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/24-Varslinger-produkt-canvas-v5-codex.md">Åpne ressursbeskrivelse</a>
