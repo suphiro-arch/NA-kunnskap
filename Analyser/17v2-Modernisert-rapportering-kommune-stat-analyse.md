@@ -112,6 +112,7 @@ Dagens rapportering mellom kommune og stat er preget av ulike integrasjonsformer
 | Informasjonsarkitektur | Svært høy | Felles begreper, informasjonsmodeller og API-beskrivelser er en forutsetning for gjenbruk. |
 | Datastyring | Høy | Ansvar for datakvalitet, definisjoner og livsløp må tydeliggjøres. |
 | Organisatorisk samhandling | Høy | Caset avhenger av samordning mellom kommuner, leverandører, statlige mottakere og nasjonale virkemidler. |
+| Juridisk samhandling | Høy | Deling mellom forvaltningsnivåer krever tydelig hjemmel, formålsavklaring og ansvarslinjer for å ta løsningen i bruk. |
 | Forvaltningsstandarder | Høy | Et felles mønster må kunne forankres som anbefalt eller styrende praksis over tid. |
 
 **Oppsummering av kapabilitetsanalyse**
