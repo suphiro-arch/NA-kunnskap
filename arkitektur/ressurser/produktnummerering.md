@@ -171,8 +171,8 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 
 | Løpenr | Ressurs-ID | Navn | Type | Kapabiliteter | Dokument |
 |---:|---|---|---|---|---|
-| 128 | `FHI-001` | SYSVAK | Vaksinasjonsregister | Grunndata<br>Dele data med andre<br>Sammenhengende tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/128-SYSVAK-produkt-canvas-v0-codex.md) |
-| 129 | `FHI-002` | MSIS | Meldingssystem for smittsomme sykdommer | Grunndata<br>Dele data med andre<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/129-MSIS-produkt-canvas-v0-codex.md) |
+| 128 | `FHI-001` | SYSVAK | Vaksinasjonsregister | Grunndata<br>Dele data med andre<br>Sammenhengende tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/128-SYSVAK-produkt-canvas-v1-codex.md) |
+| 129 | `FHI-002` | MSIS | Meldingssystem for smittsomme sykdommer | Grunndata<br>Dele data med andre<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/129-MSIS-produkt-canvas-v1-codex.md) |
 | 130 | `FHI-003` | Dødsårsaksregisteret | Dødsårsaksregister | Grunndata<br>Dele data med andre<br>Datastyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/130-Dodsarsaksregisteret-produkt-canvas-v0-codex.md) |
 | 131 | `FHI-004` | Reseptregisteret (NorPD) | Legemiddelregister | Grunndata<br>Dele data med andre<br>Datastyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/131-Reseptregisteret-NorPD-produkt-canvas-v0-codex.md) |
 
