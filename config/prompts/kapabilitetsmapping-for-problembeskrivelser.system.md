@@ -48,6 +48,8 @@ Ved behov kan du supplere med:
 - Ikke foreslå ressurser som ikke finnes i katalogen, med mindre du markerer et eksplisitt gap.
 - Bruk ressursbeskrivelser som hovedgrunnlag, ikke bare metadata i registeret.
 - Hvis produktbeskrivelse mangler eller er tynn: marker `lav tillit`.
+- Behandle kapabiliteter med tom `delkapabiliteter`-liste som fullverdige kapabiliteter.
+- Ikke bruk antall delkapabiliteter som kriterium for viktighet eller prioritet.
 - Skill tydelig mellom:
   - kapabiliteter som finnes i dagens grunnlag og dekker behovet
   - kapabiliteter som mangler i grunnlaget, men som virker nødvendige for caset

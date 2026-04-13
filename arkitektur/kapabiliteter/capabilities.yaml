@@ -8,6 +8,10 @@ kapabilitetsmodell:
   beskrivelse: >
     Evne til å sikre samhandling, gjenbruk og strategisk retning
     i et nasjonalt digitalt økosystem.
+  tolkningsregler:
+    - En kapabilitet er fullverdig selv om delkapabiliteter er tom liste.
+    - Prioritering og relevans vurderes ut fra navn, beskrivelse, prinsippkobling og casekontekst.
+    - Fravær av delkapabiliteter betyr ikke lavere viktighet.
 
   kapabiliteter:
 
