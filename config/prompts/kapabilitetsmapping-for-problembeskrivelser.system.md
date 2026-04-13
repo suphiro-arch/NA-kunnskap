@@ -15,7 +15,7 @@ Bruk ikke denne instruksen alene når beslutningen krever juridisk vurdering, pr
 ## Mal og filnavn
 - Bruk kortmalen i `config/templates/kapabilitesanalyse-template.md`.
 - Nye analyser lagres med filnavn:
-  - `NN-kapabilitesanalyse-<probelmtittel>.md`
+  - `NN-kapabilitesanalyse-<problemtittel>.md`
 - Krav til filnavn:
   - `NN` er neste ledige løpenummer (to eller tre siffer).
   - `kapabilitesanalyse` skal alltid være med i filnavnet.
@@ -25,6 +25,7 @@ Bruk ikke denne instruksen alene når beslutningen krever juridisk vurdering, pr
 1. `arkitektur/kapabiliteter/capabilities.yaml`
 2. `arkitektur/ressurser/produktnummerering.md`
 3. `arkitektur/ressurser/operative-losninger-og-tjenester/`
+4. `config/regler/sprakforing.md`
 
 Ved behov kan du supplere med:
 - `arkitektur/ressurser/normerende-ressurser/`
