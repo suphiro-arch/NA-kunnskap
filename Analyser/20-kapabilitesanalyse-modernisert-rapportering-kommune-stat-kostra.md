@@ -34,9 +34,17 @@ Behovet er å erstatte manuelle uttrekk og tunge rapporteringsperioder med en l�
 | DIGDIR-012 | Begrepskatalog | høy | Felles begreper for hendelser, indikatorer og rapporteringsobjekter. | Krever aktiv tverrsektoriell begrepsforvaltning. |
 | DIGDIR-013 | API-katalog | middels | Standardisert synliggjøring av API-grensesnitt og kontrakter for datahenting. | Avhenger av moden API-praksis hos leverandører. |
 | DIGDIR-015 | data.altinn.no | middels | Kan brukes for kontrollert deling i løp som krever standardisert tilgangslag. | Relevans må avklares mot valgt målarkitektur og volumkrav. |
+| KS-001 | Fiks-plattformen | middels | Kan fungere som kommunal integrasjonsnær plattform i innføring der kommuner trenger et felles operativt lag. | Rollen må avklares mot nasjonale felleskomponenter i målbildet. |
+| KS-002 | Fiks melding | middels | Kan støtte overgangsløp for meldingsutveksling der API-modenhet varierer mellom kommuner og leverandører. | Bør brukes kontrollert for å unngå varig parallellarkitektur. |
+| FLERE-001 | A-ordningen | middels | Gir et etablert referansemønster for standardisert rapportering på tvers av mange aktører. | Er et mønstergrunnlag, ikke en direkte komponent i denne løsningen. |
+
+Vurderingskommentar ved funksjonelt overlapp:
+- Dersom både Altinn Formidling og Fiks melding dekker samme overgangsbehov, velg primærløsning etter mottakers modenhet, volumkrav og behov for nasjonal skalerbarhet.
+- Dersom både Fiks-plattformen og nasjonale felleskomponenter kan dekke integrasjonsbehovet, bruk Fiks som innføringslag, men forankre målbilde og grensesnitt i nasjonale standarder.
+- Bruk A-ordningen som referanse for styrings- og forvaltningsmodell, ikke som direkte teknisk komponent i dette caset.
 
 ## 4. Foreløpig konklusjon
-- mest lovende ressurser: Altinn Events, Maskinporten og Altinn Autorisasjon gir en robust kjerne for spor A+B, mens Altinn Formidling kan brukes i spor C der API ikke er klart.
+- mest lovende ressurser: Altinn Events, Maskinporten og Altinn Autorisasjon gir en robust kjerne for spor A+B, mens Altinn Formidling, Fiks-plattformen og Fiks melding er relevante i kontrollert overgang og kommunal innføring.
 - viktigste usikkerheter: modenhet hos statlige mottakere for API-basert uthenting, semantisk harmonisering på tvers av tjenesteområder og faktisk leverandørstøtte for standardiserte API.
 - viktige avklaringer å ta stilling til: kriterier for når spor C er akseptabelt, standard for kvittering og avviksmeldinger tilbake til kildesystem, og tydelig styring av begreper og kodeverk.
 - eksplisitt vurdering av behov utover dagens grunnlag: det trengs mer forpliktende samordning av innføring mellom kommune og stat, samt pilotering med SSB/direktorat for å dokumentere effekt i tidsbruk og kvalitet.

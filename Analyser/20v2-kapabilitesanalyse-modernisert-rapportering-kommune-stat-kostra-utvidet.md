@@ -37,6 +37,10 @@ Målet er å gi statlige myndigheter nødvendige styringsdata fra kommunesektore
 | DIGDIR-012 | Begrepskatalog | høy | Felles begreper for hendelser, vedtak, status og rapporteringsobjekter. | Krever aktiv tverrsektoriell begrepsforvaltning. |
 | DIGDIR-013 | API-katalog | middels | Synliggjør og standardiserer API-kontrakter for datahenting i spor B. | Avhenger av moden API-praksis i leverandørmarkedet. |
 | DIGDIR-015 | data.altinn.no | middels | Kan støtte kontrollert datadeling i løp med behov for et standardisert delingslag. | Bør vurderes opp mot faktisk volum, latency og styringsbehov. |
+| KS-001 | Fiks-plattformen | middels | Kan brukes som kommunal innføringsplattform for integrasjon og operativ samhandling i overgang til spor A+B. | Krever tydelig avgrensning mot nasjonale felleskomponenter i målarkitekturen. |
+| KS-002 | Fiks melding | middels | Kan støtte trygg meldingsutveksling i spor C der API-modenhet er ujevn i sektoren. | Bør håndteres som overgang for å unngå permanent dobbeltspor. |
+| NOVARI-003 | FINT Informasjonsmodell | middels | Kan bidra til harmonisering av begreper og informasjonsstrukturer i kommunal leverandørkontekst. | Må samordnes med nasjonale begreps- og API-standarder. |
+| FLERE-001 | A-ordningen | middels | Relevant som referanse for hvordan tverrgående rapportering kan standardiseres og forvaltes i stor skala. | Gir erfaringsgrunnlag, men er ikke direkte løsningskomponent i caset. |
 
 | Ressurs-ID | Ressursnavn | Relevans (høy/middels/lav) | Hvordan kan den gjenbrukes | Merknad/usikkerhet |
 |---|---|---|---|---|
@@ -45,8 +49,14 @@ Målet er å gi statlige myndigheter nødvendige styringsdata fra kommunesektore
 | DIGDIR-038 | Nasjonal verktøykasse for deling av data | middels | Gir metode for ansvar, datastyring og kvalitet i delingsløp. | Nytten avhenger av faktisk bruk i innføringsarbeidet. |
 | DIGDIR-047 | Digitaliseringsvennlig regelverk | middels | Understøtter juridisk avklaring av hjemmel, formål og avgrensning av deling. | Krever juridisk oppfølging utover teknisk prosjektleveranse. |
 
+Vurderingskommentar ved funksjonelt overlapp:
+- Ved overlapp mellom Altinn Formidling og Fiks melding i spor C bør valg baseres på mottakerarkitektur, volum, sporbarhetskrav og behov for nasjonal harmonisering.
+- Ved overlapp mellom Fiks-plattformen og nasjonale delingskomponenter bør kommunal innføringsstøtte skilles tydelig fra langsiktig målbilde for å unngå permanent dobbeltspor.
+- Ved semantisk overlapp mellom FINT Informasjonsmodell og nasjonale begrepsressurser bør begrepsforvaltning samordnes, med en autoritativ definisjon per sentralt begrep.
+- Når flere løsninger dekker deler av samme behov, prioriter kombinasjoner som minimerer leverandørlåsning og gir gradvis overgang fra spor C til spor A+B.
+
 ## 4. Foreløpig konklusjon
-- mest lovende ressurser: Altinn Events, Maskinporten og Altinn Autorisasjon dekker kjernen i spor A+B, mens Altinn Formidling gir et realistisk og skalerbart overgangsløp i spor C.
+- mest lovende ressurser: Altinn Events, Maskinporten og Altinn Autorisasjon dekker kjernen i spor A+B, mens Altinn Formidling, Fiks-plattformen og Fiks melding gir et realistisk overgangsløp i kommunal innføring.
 - viktigste usikkerheter: statlig mottaksmodenhet for API-henting i flere sektorløp, enhetlig semantikk for hendelser og indikatorer, og hastighet i leverandørenes API-standardisering.
 - viktige avklaringer å ta stilling til: felles kriterier for når spor C kan brukes, standard for kvittering på oppfylt rapporteringsplikt, og standardisert avviksmelding tilbake til kildesystem.
 - eksplisitt vurdering av behov utover dagens grunnlag: tydeligere nasjonal samordning av innføring, forpliktende dialog med SSB/direktorat om veikart fra filmottak til API-oppslag, og pilotering i avgrenset fagområde for dokumentert gevinst.
