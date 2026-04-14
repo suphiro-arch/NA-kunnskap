@@ -4,17 +4,23 @@
 - Løpenummer: <NN>
 - Filnavn: <NN>-kapabilitesanalyse-<problemtittel>.md
 - Dato: <YYYY-MM-DD>
+- Utarbeidet av / språkmodell: <verktøy> / <modell>
 - Kilde/case: <kort referanse>
 
 ## 1. Kort problembilde
 <2-4 setninger om behovet>
 
 ## 2. Kapabilitetsmapping
-| Kapabilitet | Hvorfor relevant for problemet | Relevans (høy/middels) |
-|---|---|---|
-| ... | ... | ... |
+| Kapabilitet | Rolle i helheten (kjerne/støtte) | Hvorfor relevant for problemet | Relevans (høy/middels) |
+|---|---|---|---|
+| ... | ... | ... | ... |
 
-Merk: Kapabiliteter uten delkapabiliteter vurderes som fullverdige på lik linje med øvrige kapabiliteter.
+Retningslinje:
+- 3-6 kjernekapabiliteter med høy relevans.
+- 1-3 støttekapabiliteter med middels relevans.
+- Kapabiliteter uten delkapabiliteter vurderes som fullverdige på lik linje med øvrige kapabiliteter.
+- Kritiske kapabiliteter skal ikke utelates kun for å treffe antall.
+
 
 ## 3. Mulige gjenbrukbare ressurser
 | Ressurs-ID | Ressursnavn | Relevans (høy/middels/lav) | Hvordan kan den gjenbrukes | Merknad/usikkerhet |
@@ -26,10 +32,4 @@ Merk: Kapabiliteter uten delkapabiliteter vurderes som fullverdige på lik linje
 - viktigste usikkerheter:
 - viktige avklaringer å ta stilling til:
 
-## 5. Behov for andre kapabiliteter enn dagens grunnlag
-| Foreslått kapabilitet | Hvorfor den trengs i caset | Finnes i dagens grunnlag (ja/nei/delvis) | Konsekvens hvis den mangler |
-|---|---|---|---|
-| ... | ... | ... | ... |
 
-
-Hvis ingen ekstra kapabiliteter er identifisert, skriv: Ingen tydelige nye kapabilitetsbehov utover dagens grunnlag.

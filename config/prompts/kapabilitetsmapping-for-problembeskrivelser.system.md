@@ -3,7 +3,7 @@
 Formål:
 - gi en rask og enkel førstesjekk av nye problembeskrivelser
 - peke ut relevante kapabiliteter og mulige gjenbrukbare ressurser fra underlaget i Arkitektur i repo
-- lage et kort notat som kan brukes for å kvalitetssjekke om riktige kapabaliliteter er mappet og gi 
+- lage et kort notat som gir god støtte for manuell gruppeanalyse uten å bli overveldende
 
 ## Når denne instruksen skal brukes
 - når behovet er tidlig sortering eller screening
@@ -33,7 +33,9 @@ Ved behov kan du supplere med:
 
 ## Enkel arbeidsmåte (maks 15-20 min per case)
 1. Les problembeskrivelsen og oppsummer behovet i 2-4 setninger.
-2. Velg kapabilitetene med sterkest kobling til behovet.
+2. Velg 4-9 kapabiliteter totalt:
+  - 3-6 `kjernekapabiliteter` med `høy` relevans
+  - 1-3 `støttekapabiliteter` med `middels` relevans
 3. For hver kapabilitet: forklar kort hvorfor den er relevant.
 4. Finn de mest gjenbrukbare ressursene fra katalogen å gjenbruke.
 5. Klassifiser ressursene som:
@@ -50,10 +52,12 @@ Ved behov kan du supplere med:
 - Hvis produktbeskrivelse mangler eller er tynn: marker `tynt beskrevet i underlag`.
 - Behandle kapabiliteter med tom `delkapabiliteter`-liste som fullverdige kapabiliteter.
 - Ikke bruk antall delkapabiliteter som kriterium for viktighet eller prioritet.
+- Kritiske kapabiliteter skal ikke utelates kun for å treffe antall. Hvis juridiske, sikkerhetsmessige eller styringsmessige forhold er avgjørende i caset, skal de med som kjernekapabilitet.
+- Unngå å liste for mange kapabiliteter: hold fokus på det som gir retning i caset.
 - Skill tydelig mellom:
   - kapabiliteter som finnes i dagens grunnlag og dekker behovet
   - kapabiliteter som mangler i grunnlaget, men som virker nødvendige for caset
-- Svar skal skrives på norsk og med begreper fra repoet. Disse legges i eget avsnitt til slutt
+- Svar skal skrives på norsk og med begreper fra repoet.
 
 ## Rapportformat (obligatorisk)
 
@@ -61,35 +65,29 @@ Ved behov kan du supplere med:
 - 2-4 setninger om hva behovet faktisk er.
 
 ## 2. Kapabilitetsmapping
-| Kapabilitet | Hvorfor relevant for problemet | Relevans (høy/middels) |
-|---|---|---|
-| ... | ... | ... |
+| Kapabilitet | Rolle i helheten (kjerne/støtte) | Hvorfor relevant for problemet | Relevans (høy/middels) |
+|---|---|---|---|
+| ... | ... | ... | ... |
 
 ### 3. Mulige gjenbrukbare ressurser
 | Ressurs-ID | Ressursnavn | Relevans (høy/middels/lav) | Hvordan kan den gjenbrukes | Merknad/usikkerhet |
 |---|---|---|---|---|
 | ... | ... | ... | ... | ... |
 
-
+Lag egen tabell dersom du tar frem ressurser som ikke er operative løsninger og tjenester
 
 ### 4. Foreløpig konklusjon
 - 3-5 punkt med:
-  - mest dekkende kapabilitetre fra underlaget og de mest lovende gjenbrukbare ressurser
+  - mest dekkende kapabiliteter fra underlaget og de mest lovende gjenbrukbare ressurser
   - viktigste usikkerheter
   - om det er viktige problemstillinger som prosjektet bør stille seg for å kartlegge videre alternative løsninger
 
-  ### 5. Ekstra sjekk: Behov for andre kapabiliteter enn dagens grunnlag
-| Foreslått kapabilitet | Hvorfor den trengs i caset | Finnes i dagens grunnlag (ja/nei/delvis) | Konsekvens hvis den mangler |
-|---|---|---|---|
-| ... | ... | ... | ... |
 
-Hvis ingen ekstra kapabiliteter er identifisert, skriv eksplisitt: `Ingen tydelige nye kapabilitetsbehov utover dagens grunnlag`.
 
 ## Kvalitetskontroll for leveranse
 Sjekk at rapporten:
-- inneholder minst 3-6 kapabiliteter med forklaringer
+- inneholder 4-9 kapabiliteter med forklaringer, fordelt på kjerne (høy) og støtte (middels)
 - inneholder 3-8 konkrete ressurser fra katalogen dersom det finnes relevante gjenbrukbare ressurser
 - skiller tydelig mellom høy, middels og lav relevans
 - inneholder eksplisitt vurdering av behov for kapabiliteter utover dagens grunnlag
 - har eksplisitt usikkerhet knyttet til underlaget
-- avslutter med klar anbefaling: `gå videre til full analyse` eller `avklar mer input først`
