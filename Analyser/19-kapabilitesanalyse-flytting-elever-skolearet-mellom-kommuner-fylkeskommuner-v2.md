@@ -28,12 +28,6 @@ Behovet er å sikre at elevinformasjon følger eleven digitalt ved flytting i sk
 | Forvaltningsstandarder | støtte | Felles standard for elevmappe, API-er og meldingsformater må forankres og forvaltes over tid. | middels |
 | Samordning | støtte | Nasjonal innføring krever koordinering mellom kommuner, fylker, leverandører og statlige aktører. | middels |
 
-Retningslinje:
-- 3-6 kjernekapabiliteter med høy relevans.
-- 1-3 støttekapabiliteter med middels relevans.
-- Kapabiliteter uten delkapabiliteter vurderes som fullverdige på lik linje med øvrige kapabiliteter.
-- Kritiske kapabiliteter skal ikke utelates kun for å treffe antall.
-
 ## 3. Mulige gjenbrukbare ressurser
 | Ressurs-ID | Ressursnavn | Relevans (høy/middels/lav) | Hvordan kan den gjenbrukes | Merknad/usikkerhet |
 |---|---|---|---|---|
