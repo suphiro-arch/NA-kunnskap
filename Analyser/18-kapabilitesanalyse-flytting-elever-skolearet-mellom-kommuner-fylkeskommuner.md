@@ -4,6 +4,8 @@
 - Løpenummer: 18
 - Filnavn: 18-kapabilitesanalyse-flytting-elever-skolearet-mellom-kommuner-fylkeskommuner.md
 - Dato: 2026-04-14
+- Utarbeidet av: Copilot
+- Språkmodell: GPT-5.3-Codex
 - Kilde/case: Brukerinnspill i chat om flytting av elever mellom kommuner/fylkeskommuner i skoleåret
 
 ## 1. Kort problembilde
@@ -17,13 +19,15 @@ Behovet er å sikre at elevinformasjon følger eleven raskt, sikkert og standard
 | Bruke data fra andre | kjerne | Tilflyttingskommune må kunne hente og bruke grunnpakke og eventuelt utvidet pakke i eget fagsystem. | høy |
 | Tilgangskontroll | kjerne | Deling av taushetsbelagte opplysninger krever presis kontroll av hvem som kan få tilgang til hva og til hvilket formål. | høy |
 | Informasjonsarkitektur | kjerne | Standardisert elevmappe, felles begreper og semantikk er avgjørende for at data kan tolkes likt på tvers av systemer. | høy |
+| Juridisk samhandling | kjerne | Deling av elevopplysninger mellom forvaltningsnivåer krever tydelig hjemmel, formål og ansvarslinjer for å kunne brukes i praksis. | høy |
 | Meldingsformidling | støtte | Overgangssporet for kommuner uten API-støtte trenger sikker og sporbar fil- eller meldingsutveksling. | middels |
 | Organisatorisk samhandling | støtte | Kommuner, fylkeskommuner, leverandører og nasjonale aktører må samordne prosess, ansvar og implementeringstakt. | middels |
 
 Retningslinje:
-- 3-5 kjernekapabiliteter med høy relevans.
+- 3-6 kjernekapabiliteter med høy relevans.
 - 1-3 støttekapabiliteter med middels relevans.
 - Kapabiliteter uten delkapabiliteter vurderes som fullverdige på lik linje med øvrige kapabiliteter.
+- Kritiske kapabiliteter skal ikke utelates kun for å treffe antall.
 
 ## 3. Mulige gjenbrukbare ressurser
 | Ressurs-ID | Ressursnavn | Relevans (høy/middels/lav) | Hvordan kan den gjenbrukes | Merknad/usikkerhet |
@@ -38,18 +42,7 @@ Retningslinje:
 | `NOVARI-003` | FINT Informasjonsmodell | middels | Kan brukes som grunnlag for semantisk harmonisering av elevdata på tvers av leverandører. | Relevans må vurderes opp mot SIKT/KS-standarder i videre arbeid. |
 
 ## 4. Foreløpig konklusjon
-- mest dekkende kapabiliteter fra underlaget og de mest lovende gjenbrukbare ressurser: Hendelsesdrevet, Dele/Bruke data, Tilgangskontroll og Informasjonsarkitektur støttet av `SKATT-001`, `DIGDIR-010`, `DIGDIR-002` og `DIGDIR-004`.
+- mest dekkende kapabiliteter fra underlaget og de mest lovende gjenbrukbare ressurser: Hendelsesdrevet, Dele/Bruke data, Tilgangskontroll, Informasjonsarkitektur og Juridisk samhandling støttet av `SKATT-001`, `DIGDIR-010`, `DIGDIR-002` og `DIGDIR-004`.
 - viktigste usikkerheter: juridisk hjemmelsavklaring, samtykkegrenser for sensitive opplysninger og modenhet for API-støtte i alle kommuner/fylkeskommuner.
 - viktige avklaringer å ta stilling til: standard for elevmappeinnhold, nasjonal samordning av leverandørkrav, og tydelig overgangsmønster der API ikke er klart.
 - eksplisitt vurdering av behov utover dagens grunnlag: `Datakvalitet ved kilden` og sterkere tverrsektoriell samordning vurderes som delvis dekket og bør avklares i full analyse.
-- anbefaling: gå videre til full analyse.
-
-## Begreper fra repo brukt i mapping
-- Hendelsesdrevet
-- Dele data med andre
-- Bruke data fra andre
-- Tilgangskontroll
-- Informasjonsarkitektur
-- Juridisk samhandling
-- Meldingsformidling
-- Datastyring
