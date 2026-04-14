@@ -10,7 +10,7 @@
 <2-4 setninger om behovet>
 
 ## 2. Kapabilitetsmapping
-| Kapabilitet | Hvorfor relevant for problemet | Tillit (høy/middels/lav) |
+| Kapabilitet | Hvorfor relevant for problemet | Relevans (høy/middels) |
 |---|---|---|
 | ... | ... | ... |
 
@@ -21,14 +21,15 @@ Merk: Kapabiliteter uten delkapabiliteter vurderes som fullverdige på lik linje
 |---|---|---|---|---|
 | ... | ... | ... | ... | ... |
 
-## 4. Behov for andre kapabiliteter enn dagens grunnlag
+## 4. Foreløpig konklusjon
+- mest lovende ressurser:
+- viktigste usikkerheter:
+- viktige avklaringer å ta stilling til:
+
+## 5. Behov for andre kapabiliteter enn dagens grunnlag
 | Foreslått kapabilitet | Hvorfor den trengs i caset | Finnes i dagens grunnlag (ja/nei/delvis) | Konsekvens hvis den mangler |
 |---|---|---|---|
 | ... | ... | ... | ... |
 
-Hvis ingen ekstra kapabiliteter er identifisert, skriv: Ingen tydelige nye kapabilitetsbehov utover dagens grunnlag.
 
-## 5. Foreløpig konklusjon
-- mest lovende ressurser:
-- viktigste usikkerheter:
-- anbefaling: gå videre til full analyse / avklar mer input først
+Hvis ingen ekstra kapabiliteter er identifisert, skriv: Ingen tydelige nye kapabilitetsbehov utover dagens grunnlag.
