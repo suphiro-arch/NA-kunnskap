@@ -4,24 +4,23 @@
 - Løpenummer: 18
 - Filnavn: 18-kapabilitesanalyse-flytting-elever-skolearet-mellom-kommuner-fylkeskommuner.md
 - Dato: 2026-04-14
-- Utarbeidet av: Copilot
-- Språkmodell: GPT-5.3-Codex
+- Utarbeidet av / språkmodell: GitHub Copilot / GPT-5.3-Codex
 - Kilde/case: Brukerinnspill i chat om flytting av elever mellom kommuner/fylkeskommuner i skoleåret
 
 ## 1. Kort problembilde
-Behovet er å sikre at elevinformasjon følger eleven raskt, sikkert og standardisert ved flytting i skoleåret, slik at ny skole kan gi riktig oppfølging fra første dag. Caset krever en hendelsesdrevet modell med autorisert datahenting, der sensitive opplysninger bare deles ved dokumentert behov og hjemmel. Samtidig må løsningen håndtere både et ønsket målbildespor (notifikasjon og API) og et overgangsspor der enkelte kommuner fortsatt trenger sikker filformidling.
+Behovet er å sikre at elevinformasjon følger eleven digitalt og automatisk ved flytting i skoleåret, slik at ny skole raskt kan gi et riktig og tilrettelagt tilbud. Caset bygger på et hovedmønster der flyttehendelse utløser varsling og rettighetsstyrt datahenting, men krever også et overgangsspor for kommuner som ennå ikke har API-støtte. For å lykkes må både hjemmel, semantikk og teknisk samhandling være tydelig avklart.
 
 ## 2. Kapabilitetsmapping
 | Kapabilitet | Rolle i helheten (kjerne/støtte) | Hvorfor relevant for problemet | Relevans (høy/middels) |
 |---|---|---|---|
-| Hendelsesdrevet | kjerne | Flyttehendelse i Folkeregisteret eller skoleinntak må trigge varsling og videre dataflyt uten manuell oppfølging. | høy |
-| Dele data med andre | kjerne | Fraflyttingskommune må kunne dele elevopplysninger kontrollert til mottakende kommune/fylkeskommune. | høy |
-| Bruke data fra andre | kjerne | Tilflyttingskommune må kunne hente og bruke grunnpakke og eventuelt utvidet pakke i eget fagsystem. | høy |
-| Tilgangskontroll | kjerne | Deling av taushetsbelagte opplysninger krever presis kontroll av hvem som kan få tilgang til hva og til hvilket formål. | høy |
-| Informasjonsarkitektur | kjerne | Standardisert elevmappe, felles begreper og semantikk er avgjørende for at data kan tolkes likt på tvers av systemer. | høy |
-| Juridisk samhandling | kjerne | Deling av elevopplysninger mellom forvaltningsnivåer krever tydelig hjemmel, formål og ansvarslinjer for å kunne brukes i praksis. | høy |
-| Meldingsformidling | støtte | Overgangssporet for kommuner uten API-støtte trenger sikker og sporbar fil- eller meldingsutveksling. | middels |
-| Organisatorisk samhandling | støtte | Kommuner, fylkeskommuner, leverandører og nasjonale aktører må samordne prosess, ansvar og implementeringstakt. | middels |
+| Hendelsesdrevet | kjerne | Flyttehendelse fra Folkeregisteret eller skoleinntak må starte flyten uten manuell koordinering. | høy |
+| Dele data med andre | kjerne | Fraflyttingskommune må kunne dele elevopplysninger kontrollert med ny skoleeier. | høy |
+| Bruke data fra andre | kjerne | Tilflyttingskommune må kunne hente og bruke grunnpakke og utvidet pakke i egne fagsystem. | høy |
+| Tilgangskontroll | kjerne | Sensitive elevopplysninger krever presis kontroll av roller, formål og tilgangsnivå. | høy |
+| Informasjonsarkitektur | kjerne | Standardisert elevmappe og felles begreper er nødvendig for at data tolkes likt mellom systemer. | høy |
+| Juridisk samhandling | kjerne | Deling mellom forvaltningsnivåer krever tydelig hjemmel, samtykkelogikk og ansvarslinjer. | høy |
+| Meldingsformidling | støtte | Spor C for manglende API-støtte krever sikker og sporbar fil- eller meldingsutveksling. | middels |
+| Organisatorisk samhandling | støtte | Kommuner, fylkeskommuner og leverandører må samordne prosess og innføring. | middels |
 
 Retningslinje:
 - 3-6 kjernekapabiliteter med høy relevans.
@@ -32,17 +31,17 @@ Retningslinje:
 ## 3. Mulige gjenbrukbare ressurser
 | Ressurs-ID | Ressursnavn | Relevans (høy/middels/lav) | Hvordan kan den gjenbrukes | Merknad/usikkerhet |
 |---|---|---|---|---|
-| `SKATT-001` | Folkeregisteret | høy | Kilde for flyttehendelse og identifikasjon av adresseendring som starter prosessen. | Krever avklaring av hvilke hendelser som skal trigge skoleflyt direkte. |
-| `DIGDIR-010` | Altinn Events | høy | Hendelsesnotifikasjon mellom aktører i notification-first-mønster. | Krever felles hendelsestyper og livssyklus for elevflytting. |
-| `DIGDIR-002` | Maskinporten | høy | Sikker maskin-til-maskin-autentisering ved API-oppslag av elevdata. | Må kombineres med tydelig tilgangs- og formålsstyring. |
-| `DIGDIR-004` | Altinn Autorisasjon | høy | Håndtere rettigheter og representasjon der tilgang avhenger av rolle og mandat. | Behov for sektorprofil for skolekontekst må avklares. |
-| `DIGDIR-008` | Altinn Formidling | middels | Overgangsspor for standardisert og sikker filutveksling når API-støtte mangler. | Bør brukes som overgangsmekanisme, ikke varig målarkitektur. |
-| `DIGDIR-011` | Felles datakatalog | middels | Synliggjøre datasett, informasjonsmodeller og API-er som inngår i elevflyten. | Nytten avhenger av faktisk publisering og vedlikehold fra dataeiere. |
-| `DIGDIR-012` | Begrepskatalog | høy | Standardisere sentrale begreper i elevmappe og flytteprosess. | Krever sektorforankring for felles definisjoner. |
-| `NOVARI-003` | FINT Informasjonsmodell | middels | Kan brukes som grunnlag for semantisk harmonisering av elevdata på tvers av leverandører. | Relevans må vurderes opp mot SIKT/KS-standarder i videre arbeid. |
+| `KS-008` | Fiks folkeregister | høy | Kan brukes som kommunalt tilgangslag til Folkeregisteret for å oppdage og bruke flyttehendelser. | Må avklares hvordan hendelser og oppslag faktisk brukes i flytteløpet. |
+| `KS-001` | FIKS-plattformen | høy | Kan være felles kommunal kjerne for integrasjon, tilgangsstyring og samhandling mellom aktørene. | Rollen må avklares mot nasjonale felleskomponenter i målbildet. |
+| `DIGDIR-010` | Altinn Events | høy | Kan brukes til notification-first der mottaker varsles om at elevdata kan hentes. | Krever felles hendelsestyper og livssyklusregler. |
+| `DIGDIR-002` | Maskinporten | høy | Sikrer maskin-til-maskin autentisering ved API-henting mellom systemer. | Avhenger av presis tilgangsstyring og hjemmel. |
+| `DIGDIR-004` | Altinn Autorisasjon | høy | Kan håndtere rettigheter og representasjon der tilgang avhenger av rolle og mandat. | Krever sektorprofil for skoleområdet. |
+| `KS-002` | Fiks melding | høy | Dekker Spor C for sikker og standardisert fil- eller meldingsutveksling når API ikke er tilgjengelig. | Bør være overgangsmekanisme, ikke varig målbilde. |
+| `DIGDIR-012` | Begrepskatalog | middels | Støtter felles begrepsforvaltning for innholdet i elevmappen. | Krever sektorforankring og aktiv forvaltning. |
+| `NOVARI-003` | FINT Informasjonsmodell | middels | Kan gi et semantisk utgangspunkt mellom leverandører og skolefagsystemer. | Må harmoniseres med SIKT- og KS-standarder i videre arbeid. |
 
 ## 4. Foreløpig konklusjon
-- mest dekkende kapabiliteter fra underlaget og de mest lovende gjenbrukbare ressurser: Hendelsesdrevet, Dele/Bruke data, Tilgangskontroll, Informasjonsarkitektur og Juridisk samhandling støttet av `SKATT-001`, `DIGDIR-010`, `DIGDIR-002` og `DIGDIR-004`.
-- viktigste usikkerheter: juridisk hjemmelsavklaring, samtykkegrenser for sensitive opplysninger og modenhet for API-støtte i alle kommuner/fylkeskommuner.
-- viktige avklaringer å ta stilling til: standard for elevmappeinnhold, nasjonal samordning av leverandørkrav, og tydelig overgangsmønster der API ikke er klart.
-- eksplisitt vurdering av behov utover dagens grunnlag: `Datakvalitet ved kilden` og sterkere tverrsektoriell samordning vurderes som delvis dekket og bør avklares i full analyse.
+- mest lovende ressurser: et hovedmønster med `KS-008`, `KS-001`, `DIGDIR-010`, `DIGDIR-002` og `DIGDIR-004` dekker Spor A+B, mens `KS-002` er en sterk kandidat for Spor C.
+- viktigste usikkerheter: juridisk hjemmelsavklaring, samtykkegrenser, og hvor moden API-støtten faktisk er hos kommuner og leverandører.
+- viktige avklaringer å ta stilling til: standard for innhold i elevmappe, tydelig rollefordeling mellom kommunal kjerne og nasjonale felleskomponenter, og hvordan samtykkesporet skal løses digitalt.
+- eksplisitt vurdering av behov utover dagens grunnlag: datakvalitet ved kilden og sterkere tverrsektoriell samordning rundt barn med sammensatte behov fremstår som delvis dekket og må konkretiseres videre.
