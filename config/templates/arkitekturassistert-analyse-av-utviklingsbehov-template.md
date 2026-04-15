@@ -18,7 +18,22 @@ Viktig avgrensning:
 - Ikke list opp alt som kan være interessant.
 - Begrunn kort hvorfor hver valgt ressurs er tatt med.
 
-## 1. Formål
+## 1. Kort oppsummering
+
+Hjelpetekst: Oppsummer analysen kort for rask lesing i styringsmøter.
+
+- Case: [Sett inn]
+- Analysetillit: [Høy/middels/lav]
+- Hovedfunn (1-3 setninger): [Sett inn]
+- Viktigste kapabilitetsgap: [Sett inn]
+- Mest relevante produkter for gjenbruk: [Sett inn]
+- Hva mangler: [Sett inn]
+- Anbefalt prioritering:
+  1. [Sett inn]
+  2. [Sett inn]
+  3. [Sett inn]
+
+## 2. Formål
 
 Hjelpetekst: Beskriv hvorfor analysen gjennomføres, hvilket beslutningsbehov den skal dekke, og hvilken styring den skal understøtte.
 
@@ -26,7 +41,7 @@ Hjelpetekst: Beskriv hvorfor analysen gjennomføres, hvilket beslutningsbehov de
 - Beslutning analysen skal understøtte: [Sett inn]
 - Avgrensning: [Sett inn]
 
-## 2. Input / casebeskrivelse
+## 3. Input / casebeskrivelse
 
 Hjelpetekst: Beskriv caset kort og presist. Hold fokus på behov, ikke løsning.
 
@@ -36,7 +51,7 @@ Hjelpetekst: Beskriv caset kort og presist. Hold fokus på behov, ikke løsning.
 - Hovedutfordring i caset: [Sett inn]
 - Kildemateriale brukt: [Sett inn]
 
-## 2.1 Inputgrunnlag og analysetillit
+## 3.1 Inputgrunnlag og analysetillit
 
 Hjelpetekst: Vurder hvor solid inputgrunnlaget er, og hvor sikker konklusjonen kan være. Skill mellom usikkerhet i input, produktgrunnlag og juridisk/organisatorisk avklaring.
 
@@ -51,24 +66,6 @@ Viktigste usikkerheter (minst 3):
 - [Sett inn]
 - [Sett inn]
 - [Sett inn]
-
-### 2.2 Avklaring: ett case eller flere
-
-Hjelpetekst: Avklar tidlig om innsendt tekst egentlig inneholder flere problemstillinger eller overganger. Hvis ja, splitt analysen før videre arbeid.
-
-- Er dette ett case eller flere separate case: [Sett inn]
-- Begrunnelse for vurderingen: [Sett inn]
-- Skal analysen splittes: [Ja/nei]
-- Hvis ja, navngi delcasene: [Sett inn]
-
-## 3. Målgruppe og styringsnivå
-
-Hjelpetekst: Angi hvem analysen skal skape verdi for, og hvilket nivå tiltakene skal styres på.
-
-- Primær målgruppe: [Sett inn]
-- Sekundær målgruppe: [Sett inn]
-- Styringsnivå (nasjonalt / sektor / virksomhet): [Sett inn]
-- Viktig avgrensning for tiltak: [Sett inn]
 
 ## 4. Problembilde
 
@@ -211,21 +208,6 @@ Hjelpetekst: List opp 3-7 konkrete spørsmål som hjelper beslutningstakere med 
 2. [Sett inn]
 3. [Sett inn]
 
-## 11. Kortversjon for ledelse
-
-Hjelpetekst: Brukes når analysen skal leses raskt i styringsmøter.
-
-- Case: [Sett inn]
-- Analysetillit: [Høy/middels/lav]
-- Hovedfunn (1-3 setninger): [Sett inn]
-- Viktigste kapabilitetsgap: [Sett inn]
-- Mest relevante produkter for gjenbruk: [Sett inn]
-- Hva mangler: [Sett inn]
-- Anbefalt prioritering:
-  1. [Sett inn]
-  2. [Sett inn]
-  3. [Sett inn]
-
 ## Bruksnivå (rask analyse og beslutningsgrunnlag)
 
 ### Nivå 1 - rask analyse
@@ -245,6 +227,6 @@ Utvid med:
 - full produktvurdering av relevante produktkategorier
 - eksplisitte mangler og behov for nye/sammensatte løsninger
 - strategisk vurdering
-- kortversjon for ledelse
+- kort oppsummering
 
 

@@ -1,4 +1,4 @@
-# 11. Kortversjon for ledelse
+# 1. Kort oppsummering
 
 - Case: Modernisert rapportering kommune-stat
 - Analysetillit: Middels
@@ -11,13 +11,13 @@
   2. Pilotér spor A+B med tydelig avviksflyt mot kildesystem.
   3. Definer styrt utfasing av spor C per tjenesteområde.
 
-## 1. Formål
+## 2. Formål
 
 - Analyseformål: Vurdere hvordan caset "Modernisert rapportering kommune-stat" kan realiseres med gjenbruk av eksisterende nasjonale og kommunale ressurser.
 - Beslutning analysen skal understøtte: Prioritering av løsningsmønster (spor A+B som mål, spor C som overgang) og hvilke tiltak som må settes først.
 - Avgrensning: Analysen dekker arkitektur, kapabiliteter, prinsipper, produkter og styringsbehov. Den går ikke inn i detaljert løsningsdesign per domene.
 
-## 2. Input / casebeskrivelse
+## 3. Input / casebeskrivelse
 
 - Case-tittel: Modernisert rapportering kommune-stat
 - Kort casebeskrivelse: Caset beskriver overgang fra manuelle uttrekk og periodisk rapportering til løpende datadeling mellom kommunalt fagsystem og statlig mottaker. Hovedløpet er hendelsespublisering (spor A) og autorisert API-oppslag (spor B), med automatisert innsending (spor C) som overgang der API-beredskap mangler.
@@ -25,7 +25,7 @@
 - Hovedutfordring i caset: Få til skalerbar og trygg overgang fra fil- og periodedrevet rapportering til hendelsesdrevet og API-basert deling uten å øke administrativ byrde.
 - Kildemateriale brukt: Inndata fra bruker, kapabilitetsmodell, prinsipper, produktregister og spisset utvalg operative produkter samt normerende ressurser og samarbeidsforum.
 
-## 2.1 Inputgrunnlag og analysetillit
+## 3.1 Inputgrunnlag og analysetillit
 
 | Vurderingspunkt | Vurdering |
 |---|---|
@@ -39,20 +39,6 @@ Viktigste usikkerheter (minst 3):
 - Semantisk harmonisering av hendelser, indikatorer og kvalitetsregler er ikke avklart i caset.
 - Kriterier for når spor C er akseptabelt, og når det må fases ut, er ikke definert.
 - Juridisk avgrensning av formål, hjemmel og ansvar i avviksløp er ikke tilstrekkelig konkret.
-
-### 2.2 Avklaring: ett case eller flere
-
-- Er dette ett case eller flere separate case: Ett hovedcase.
-- Begrunnelse for vurderingen: Teksten beskriver samme mål og samme kjerneflyt med ett målbildeløp (A+B) og ett overgangsløp (C).
-- Skal analysen splittes: Nei.
-- Hvis ja, navngi delcasene: Ikke aktuelt.
-
-## 3. Målgruppe og styringsnivå
-
-- Primær målgruppe: Arkitektur- og digitaliseringsmiljø i kommune, stat og fellesforvaltning.
-- Sekundær målgruppe: Leverandørmiljøer og styringsfora som skal prioritere innføring.
-- Styringsnivå (nasjonalt / sektor / virksomhet): Nasjonalt og sektor, med virksomhetsnær gjennomføring.
-- Viktig avgrensning for tiltak: Tiltak må støtte både rask overgang og langsiktig standardisering uten permanent dobbeltspor.
 
 ## 4. Problembilde
 
