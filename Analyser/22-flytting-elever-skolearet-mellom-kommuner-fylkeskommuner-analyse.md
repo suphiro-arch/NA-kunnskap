@@ -1,4 +1,4 @@
-# 11. Kortversjon for ledelse
+# 1. Kort oppsummering
 
 - Case: Flytting av elever i skoleåret mellom kommuner/fylkeskommuner
 - Analysetillit: Middels
@@ -11,13 +11,13 @@
   2. Definer juridisk/teknisk kontrollpunkt for hjemmel og samtykke.
   3. Pilotér spor A+B med leverandørforpliktelse og målbar utfasing av spor C.
 
-## 1. Formål
+## 2. Formål
 
 - Analyseformål: Vurdere hvordan elevinformasjon kan følge eleven digitalt ved flytting i skoleåret, med minst mulig manuelt arbeid og høy trygghet.
 - Beslutning analysen skal understøtte: Valg av nasjonalt løsningsmønster og prioriterte tiltak for innføring.
 - Avgrensning: Caset dekker overføring av elevinformasjon mellom skoleeierne ved flytting, inkludert samtykkeløp og overgangsløp ved manglende API-støtte.
 
-## 2. Input / casebeskrivelse
+## 3. Input / casebeskrivelse
 
 - Case-tittel: Flytting av elever i skoleåret mellom kommuner/fylkeskommuner
 - Kort casebeskrivelse: En flyttehendelse fra Folkeregisteret eller søknad om skoleplass i ny kommune/fylke skal utløse digital og rettighetsstyrt overføring av elevinformasjon. Målbildet er notification-first med API-henting av grunnpakke og eventuelt utvidet pakke, med samtykke ved behov og standardisert eksport i overgangsløp.
@@ -25,7 +25,7 @@
 - Hovedutfordring i caset: Etablere rask, trygg og semantisk konsistent deling på tvers av forvaltningsnivåer og leverandører.
 - Kildemateriale brukt: Brukerens casebeskrivelse, kapabiliteter, prinsipper, produktregister, operative produkter, normerende ressurser og samarbeidsfora.
 
-## 2.1 Inputgrunnlag og analysetillit
+## 3.1 Inputgrunnlag og analysetillit
 
 | Vurderingspunkt | Vurdering |
 |---|---|
@@ -39,20 +39,6 @@ Viktigste usikkerheter (minst 3):
 - Juridiske grenser mellom hjemmelsbasert deling og samtykkebasert deling er ikke operasjonalisert i en felles prosessmodell.
 - Leverandørenes faktiske API-modenhet og støtte for felles standarder varierer betydelig.
 - Samhandling med PPT/barnevern i samme flyttehendelse er faglig ønsket, men ikke avklart i ansvar og omfang.
-
-### 2.2 Avklaring: ett case eller flere
-
-- Er dette ett case eller flere separate case: Ett hovedcase.
-- Begrunnelse for vurderingen: Alle delene beskriver samme overgang (elevflytting) med ett målbilde og ett overgangsløp.
-- Skal analysen splittes: Nei.
-- Hvis ja, navngi delcasene: Ikke aktuelt.
-
-## 3. Målgruppe og styringsnivå
-
-- Primær målgruppe: Nasjonale og sektorvise arkitekturmiljø i skoleområdet samt kommunale/fylkeskommunale digitaliseringsmiljø.
-- Sekundær målgruppe: Leverandører av skolefagsystem, juridiske fagmiljø og styringsfora.
-- Styringsnivå (nasjonalt / sektor / virksomhet): Nasjonalt og sektor for standarder/styring, virksomhet for innføring.
-- Viktig avgrensning for tiltak: Tiltak må støtte barnets beste og rask oppstart i ny skole uten å svekke personvern og tilgangskontroll.
 
 ## 4. Problembilde
 

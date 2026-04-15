@@ -77,38 +77,40 @@ Formål:
 
 17. Hvis innsendt case egentlig inneholder flere ulike problemstillinger, overganger eller analyseobjekter, skal analysen splittes i separate analyser.
 
-18. Splitt analysen når ett eller flere av disse forholdene gjelder:
+18. Vurdering av om caset skal splittes er en intern sjekk før rapporten skrives, og skal normalt ikke være en egen seksjon i rapporten.
+
+19. Splitt analysen når ett eller flere av disse forholdene gjelder:
    - ulike brukerreiser eller overganger analyseres i samme tekst
    - ulike produktsett er sentrale for de ulike delene av caset
    - tiltakene får ulik retning, prioritering eller styringslogikk
    - én samlet analyse vil blande flere problembilder og svekke produktvurderingen
 
-19. Når analysen splittes:
+20. Når analysen splittes:
    - lag én analyse per problemstilling eller overgang
    - behold en kort henvisning mellom analysene dersom de er faglig relaterte
    - ikke bland produktvurdering, tiltaksprioritering eller konklusjon på tvers av separate case
 
-20. Vurder og dokumenter inputgrunnlag og analysetillit i alle analyser.
+21. Vurder og dokumenter inputgrunnlag og analysetillit i alle analyser.
 
-21. Angi analysetillit eksplisitt som én av følgende:
+22. Angi analysetillit eksplisitt som én av følgende:
    - høy
    - middels
    - lav
 
-22. Oppgi minst tre viktigste usikkerheter som påvirker konklusjonen.
+23. Oppgi minst tre viktigste usikkerheter som påvirker konklusjonen.
 
-23. Skill tydelig mellom usikkerhet som skyldes:
+24. Skill tydelig mellom usikkerhet som skyldes:
    - svakt inputgrunnlag
    - manglende eller tynne produktbeskrivelser
    - uavklarte juridiske eller organisatoriske forhold
 
 ### Fase 4: Leveranse og lagring
 
-24. Skriv analysen iht. `config/templates/arkitekturassistert-analyse-av-utviklingsbehov-template.md`.
+25. Skriv analysen iht. `config/templates/arkitekturassistert-analyse-av-utviklingsbehov-template.md`.
 
-25. Lagre analysen i `analyser/`.
+26. Lagre analysen i `analyser/`.
 
-26. Navnestandard for nye analyser:
+27. Navnestandard for nye analyser:
    - Bruk filnavn på formen `<løpenummer>-<kort-beskrivende-tittel>-analyse.md`.
    - Finn neste ledige løpenummer ved å se på eksisterende filer i `analyser/`.
    - Start alltid med et numerisk løpenummer først i filnavnet (for eksempel `18-...`).
@@ -129,10 +131,10 @@ Formål:
 
 ## Obligatorisk struktur i analyseutkast
 
-1. Formål
-2. Input / casebeskrivelse
-2.1 Inputgrunnlag og analysetillit
-3. Målgruppe og styringsnivå
+1. Kort oppsummering
+2. Formål
+3. Input / casebeskrivelse
+3.1 Inputgrunnlag og analysetillit
 4. Problembilde
 5. Kapabilitetsanalyse
 6. Prinsippvurdering
@@ -140,7 +142,6 @@ Formål:
 8. Tiltak prioritert etter effekt
 9. Strategisk vurdering
 10. Konklusjon
-11. Kortversjon for ledelse (kan plasseres øverst i dokumentet som executive summary)
 
 ## Krav til tabeller i svaret
 
@@ -160,7 +161,7 @@ Sjekk at svaret:
 - viser hvilke vurderinger som bygger på full produktbeskrivelse versus registermetadata
 - viser hvorfor produkter er klassifisert som direkte gjenbruk, videreutvikling eller ikke relevant
 - eksplisitt beskriver identifiserte mangler
-- viser om case ble vurdert som ett case eller splittet i flere analyser
+- viser at eventuell splitting av case er vurdert internt før rapportskriving
 - viser minst ett sammensatt løsningsmønster basert på eksisterende produkter
 - klassifiserer tiltak med primær gap-type
 - peker på tydelige prioriterte tiltak med effektvurdering
