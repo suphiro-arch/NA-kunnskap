@@ -17,6 +17,8 @@ HDIR-002
 Registeret inngår i en lenge innarbeidet forvaltningsmodell og brukes både i offentlig forvaltning, i helse- og omsorgstjenesten og i åpne oppslag mot innbyggere. Produktet framstår derfor som modent både teknisk, organisatorisk og bruksmessig, selv om enkeltprosesser rundt innrapportering, vedtak og oppdatering skjer i andre løsninger.
 
 ## Kort beskrivelse
+Presisering for NA-vurdering: HPR har verdi på tvers først og fremst fordi mange virksomheter og forvaltningsnivåer må kunne bruke samme autoritative grunnlag for autorisasjon og status for helsepersonell. Ressursen er samtidig smalere enn de brede nasjonale grunndataregistrene, fordi den primære verdien ligger innen helse- og omsorgsdomenet.
+
 HPR er det nasjonale registeret over helsepersonell og sentrale opplysninger om autorisasjon, lisens, spesialistgodkjenning og andre relevante godkjenningsforhold. Produktet fungerer som en felles autoritativ kilde for å verifisere hvem som har rett til å utøve bestemte roller i helse- og omsorgstjenesten, og gir et felles grunnlag for oppslag, kontroll, samhandling og tillit på tvers av virksomheter og brukerflater.
 
 ## Kapabiliteter
@@ -87,6 +89,8 @@ Ikke offentlig verifisert i denne arbeidsøkten.
 HPR er et nasjonalt register- og oppslagssystem for helsepersonellopplysninger.
 
 ## Gjenbruk
+Når vi prioriterer ressurser i NA-oversikten, bør HPR derfor vurderes som en sterk sektorfelles ressurs med tydelig verdi mellom virksomheter og nivåer, men ikke automatisk som en bred tverrsektoriell grunnlagsressurs på linje med Folkeregisteret, Matrikkelen eller Enhetsregisteret.
+
 **Høy gjenbruksverdi** som felles register over helsepersonell.
 
 Produktet er særlig relevant som autoritativ kilde i oppslag, kontroll, tilgangsstyring og andre prosesser der korrekt informasjon om helsepersonells status må deles og legges til grunn på tvers av virksomheter.
@@ -96,6 +100,8 @@ Produktet er særlig relevant som autoritativ kilde i oppslag, kontroll, tilgang
 - **P7: Sørg for tillit til oppgaveløsningen**
 
 ## Finansiering
+Svakhet og vurderingspunkt: HPR er svært relevant der behovet gjelder kontroll av helsepersonells status, men mindre relevant dersom caset ikke har klar kobling til helsepersonell, autorisasjon eller samhandling i helse- og omsorgstjenesten.
+
 Ikke samlet verifisert i denne arbeidsøkten.
 
 ## Forvaltning/eier

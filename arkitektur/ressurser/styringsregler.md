@@ -104,6 +104,7 @@ En ressurs bør normalt bare tas inn i NA-oversikten når den oppfyller alle dis
 For sektorspesifikke ressurser gjelder i tillegg en høyere terskel:
 - ressursen bør normalt bare tas inn når den også har tydelig betydning for samhandling på tvers av sektorer eller mellom forvaltningsnivåer
 - det er ikke tilstrekkelig at ressursen er viktig, stor eller mye brukt innen egen sektor alene
+- når ressursen primært er et register, datagrunnlag eller en delingstjeneste, bør det også være tydelig at dataene kan være viktige på tvers, for eksempel i styring, beredskap, sikkerhet, planlegging, bærekraft eller samordnet tjenesteutvikling
 
 ## Vurderingskriterier utover minstekravene
 Når minstekravene er oppfylt, bør disse kriteriene brukes for å vurdere om ressursen faktisk bør prioriteres inn:
