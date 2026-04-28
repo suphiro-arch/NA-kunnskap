@@ -393,6 +393,9 @@ Denne seksjonen handler om å bygge en åpen web-basert KI-dokumentasjonsassiste
 - [MVP-skisse for dokumentasjonsassistent](briefs/arbeidsstyring-og-handover/2026-03-16-dokumentasjonsassistent-mvp-v1.md) –" Hele konseptet og arkitektur-ideen for assistenten.
 - Opprettet første produktbeskrivelse for `NVDB` som tydelig tverrgående datagrunnlag for blant annet beredskap, sikkerhet, bærekraft og samordning mellom forvaltningsnivåer.
 - Oppdatert `Enhetsregisteret` slik at API-er, åpne oppslag, nøkkelopplysninger og annen maskinell tilgang beskrives tydelig som del av den eksisterende ressursen.
+- Kvalitetssikret `Matrikkelen` og `Folkeregisteret` mot de skjerpede opptakskravene og vurdert at begge allerede beskriver tverrgående verdi godt nok.
+- Strammet inn `Helsedata.no` slik at ressursen tydeligere beskrives som samordnet tilgangsflate på tvers av flere helseaktører, men med klar avgrensning mot generelle tverrsektorielle datadelingsressurser.
+- Strammet inn `HPR` slik at ressursen tydeligere beskrives som sterk sektorfelles registerressurs på tvers av virksomheter og nivåer i helse- og omsorgsdomenet, men ikke som bred tverrsektoriell grunndataressurs.
 
 ## Foreslått neste prioritering
 
@@ -402,3 +405,21 @@ Denne seksjonen handler om å bygge en åpen web-basert KI-dokumentasjonsassiste
 - `HPR` kan være aktuell når behovet gjelder autoritative opplysninger om helsepersonell på tvers av virksomheter og nivåer, men bør vurderes strengere enn de tre over.
 - `Motorvognregisteret` er fortsatt relevant, men noe smalere enn `NVDB` som tverrgående datagrunnlag og kan derfor ligge ett hakk lavere i prioriteringen.
 - `Videokonsultasjon`, `Kjernejournal` og `e-resept` bør foreløpig ikke prioriteres opp som nye kandidater for NA-oversikten uten tydeligere verdi på tvers av sektorer.
+
+## Mulige tidligere oversette kandidater
+
+### Høy prioritet for ny vurdering
+
+- `Grunnboken` bør vurderes som egen ressurs eller som tydeligere tvillingressurs til `Matrikkelen`, fordi kombinasjonen av eiendomsdata og tinglyste rettigheter har klar verdi på tvers i blant annet beredskap, sikkerhet, planlegging, kontroll og offentlig saksbehandling.
+- `Register over reelle rettighetshavere` bør vurderes som ny kandidat fordi det gir et nasjonalt datagrunnlag om faktisk kontroll over virksomheter, med mulig verdi på tvers i kontroll, tilsyn, anskaffelser, økonomisk kriminalitet og samordnet offentlig oppfølging.
+
+### Middels prioritet for ny vurdering
+
+- `Norsk pasientregister (NPR)` bør vurderes videre, men med streng terskel. Registeret er viktig og nasjonalt, men tverrgående verdi må begrunnes tydelig utover helsesektoren alene.
+- `Kommunalt pasient- og brukerregister (KPR)` bør vurderes videre av samme grunn. Det kan være relevant for styring og samordning mellom nivåer, men er ikke automatisk en NA-ressurs uten klarere tverrgående analyseverdi.
+- `Sentralt stedsnavnregister` kan vurderes som mulig støttekandidat dersom vi senere ønsker å løfte flere geodataressurser som brukes bredt på tvers, men det ligger foreløpig bak `Geonorge`, `Matrikkelen`, `Grunnboken` og `NVDB`.
+
+### Lav prioritet akkurat nå
+
+- Flere helseinterne registre bør foreløpig ikke løftes videre bare fordi de er store eller viktige i egen sektor.
+- Flere sektorinterne tjenester med svak eller indirekte dataverdi på tvers bør holdes utenfor listen inntil vi ser tydeligere casebehov.

@@ -91,6 +91,8 @@ Sist redigert: 2026-04-09.
 - Full tilgang til Enhetsregisteret: https://www.brreg.no/bruke-data-fra-bronnoysundregistrene/abonnement/full-tilgang-enhetsregisteret/ (lagt til 2026-03-27)
 - Nøkkelopplysninger fra Enhetsregisteret: https://www.brreg.no/registersok/om-nokkelopplysninger-fra-enhetsregisteret/ (lagt til 2026-03-27)
 - Åpne data-varsler for Enhetsregisteret: https://www.brreg.no/varslingskategori/apne-data-enhetsregisteret/ (lagt til 2026-03-27)
+- Reelle rettighetshavere: https://www.brreg.no/reelle-rettighetshavere/ (lagt til 2026-04-28)
+- Data om reelle rettighetshavere: https://www.brreg.no/bruke-data-fra-bronnoysundregistrene/datasett-og-api/data-om-reelle-rettighetshavere/ (lagt til 2026-04-28)
 
 ### OpenPeppol
 - OpenPeppol: https://peppol.org/ (lagt til 2026-03-18)
@@ -190,6 +192,10 @@ Sist redigert: 2026-04-09.
 - Helsedata.no: https://helsedata.no/
 - Helsedata.no kontakt: https://helsedata.no/en/contact/ (lagt til 2026-03-27)
 - FHI - Avdeling helsedata: https://www.fhi.no/om/organisasjon/helsedata/
+- Helse i Norge - registeroversikt: https://www.fhi.no/he/ (lagt til 2026-04-28)
+- Norsk pasientregister (NPR): https://www.fhi.no/he/npr/ (lagt til 2026-04-28)
+- Kommunalt pasient- og brukerregister (KPR): https://www.fhi.no/he/kpr/ (lagt til 2026-04-28)
+- Søk om data fra KPR: https://www.fhi.no/he/kpr/sok-om-data-fra-kpr/ (lagt til 2026-04-28)
 - SYSVAK (FHI): https://www.fhi.no/hn/helseregistre-og-registre/sysvak/ (lagt til 2026-04-11)
 - MSIS (FHI): https://www.fhi.no/sv/smittsomme-sykdommer/msis/ (lagt til 2026-04-11)
 - Dødsårsaksregisteret (FHI): https://www.fhi.no/hn/helseregistre-og-registre/dodsarsaksregisteret/ (lagt til 2026-04-11)
@@ -227,6 +233,9 @@ Sist redigert: 2026-04-09.
 - Bygning i Matrikkelen: https://www.kartverket.no/eiendom/lokal-matrikkelmyndighet/bygning-i-matrikkelen (lagt til 2026-03-27)
 - Matrikkelbrev: https://www.kartverket.no/en/property/mine-eiendommer/matrikkelbrev (lagt til 2026-03-27)
 - Faggruppe matrikkelen: https://www.kartverket.no/eiendom/lokal-matrikkelmyndighet/faggruppe-matrikkelen (lagt til 2026-03-27)
+- Eiendomsdata hos Kartverket: https://www.kartverket.no/api-og-data/eiendomsdata (lagt til 2026-04-28)
+- Om grunnboken: https://www.kartverket.no/en/property/bestille-fra-grunnboken/hva-er-grunnboken (lagt til 2026-04-28)
+- Tilgang til åpne eiendomsdata: https://www.kartverket.no/api-og-data/eiendomsdata/tilgang-til-apne-eiendomsdata (lagt til 2026-04-28)
 - Nasjonale fellesløsninger for geodata: https://www.kartverket.no/geodataarbeid/felleslosningene/nasjonale-felleslosninger-for-geodata
 - Kartverkets fellesløsninger: https://www.kartverket.no/geodataarbeid/felleslosningene
 - Geonorge - felles tjeneste for kartdata: https://www.geonorge.no/Geodataarbeid/geografisk-infrastruktur/teknologisk-rammeverk/for-utviklere-teknologisk-rammeverk/felleslosninger/
@@ -236,6 +245,7 @@ Sist redigert: 2026-04-09.
 - Distribuere data gjennom Geonorge: https://www.geonorge.no/aktuelt/om-geonorge/slik-bruker-du-geonorge/distribuere-data-gjennom-geonorge/ (lagt til 2026-03-27)
 - Geonorge API-er: https://www.geonorge.no/en/for-developers/apis/ (lagt til 2026-03-27)
 - API-er for kartkatalogen: https://www.geonorge.no/verktoy/APIer-og-grensesnitt/apier-for-kartkatalogen/ (lagt til 2026-03-27)
+- Stedsnavndata / Sentralt stedsnavnregister: https://www.kartverket.no/api-og-data/stedsnavndata (lagt til 2026-04-28)
 
 
 ### Statens vegvesen

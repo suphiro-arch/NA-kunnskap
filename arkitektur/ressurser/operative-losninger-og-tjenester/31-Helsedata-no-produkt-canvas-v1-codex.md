@@ -18,6 +18,8 @@ HDIR-001
 - utvikles i samspill mellom flere sentrale helseaktører
 
 ## Kort beskrivelse
+Samtidig er den tverrgående verdien mer avgrenset enn for de brede nasjonale grunndataregistrene. Helsedata.no er særlig relevant når behovet gjelder samordning mellom flere dataforvaltere, registre og tilgangsprosesser i helsedataøkosystemet, ikke som generell inngang til datadeling på tvers av alle sektorer.
+
 Helsedata.no er den nasjonale portalen for å finne, forstå og søke tilgang til helsedata for forskning, analyse og annen lovlig bruk. Løsningen kombinerer oversikt over datakilder, veiledning i tilgangsprosesser og en operativ inngang til søknadsløp gjennom Helsedataservice og tilknyttede forvaltningsmiljøer.
 
 Produktet er viktig i arkitekturvurderinger fordi det fungerer som felles orienterings- og tilgangsflate på tvers av mange dataeiere og registre i helsesektoren. Ressursen er derfor ikke bare en informasjonsportal, men en sentral del av sektorenes sammenhengende tilgangsløp til helsedata.
@@ -82,6 +84,8 @@ Samtidig er løsningen avgrenset: Helsedata.no er ikke et register i seg selv, o
 **Deduksjon:** Videreutviklingen ser ut til å gå i retning av bedre sammenheng i tilgangsløp, tydeligere brukerorientering i søknadsprosessene og sterkere samordning mellom Helsedata.no, Helsedataservice og underliggende dataforvaltere.
 
 ## Forretningsverdi/Verdiforslag
+Presisering for NA-vurdering: Verdien ligger først og fremst i at ressursen samordner tilgang til data på tvers av flere helseaktører og forvaltningsmiljøer. Den bør derfor brukes i analyser der samordning, tilgang og oversikt er det sentrale, ikke som erstatning for underliggende registre eller generelle tverrsektorielle datakataloger.
+
 - For forsknings- og analysemiljøer: kortere vei fra behov til kvalifisert søknad om data, fordi relevant informasjon er samlet i én nasjonal inngang.
 - For dataforvaltere: bedre forventningsstyring og mer strukturert dialog med søkere når prosess og veiledning er standardisert.
 - For offentlig sektor: redusert fragmentering i tilgangslandskapet for helsedata, som gir mer sammenlignbare og forutsigbare tilgangsløp.
@@ -103,6 +107,8 @@ Samtidig er løsningen avgrenset: Helsedata.no er ikke et register i seg selv, o
 Helsedata.no er en nasjonal portal- og tilgangsflate for helsedata.
 
 ## Gjenbruk
+Ressursen har særlig verdi når flere helsedatakilder, roller og søknadsprosesser må sees i sammenheng. Den er mindre relevant når behovet gjelder direkte teknisk integrasjon mot ett bestemt register, eller når saken gjelder datadeling utenfor helsedomene og helsedataforvaltning.
+
 **Høy gjenbruksverdi** som nasjonal inngang til helsedata, men mindre som teknisk byggekloss enn som felles tilgangs- og oversiktsløsning.
 
 ### Vanlige kombinasjoner med andre produkter
@@ -115,6 +121,8 @@ Helsedata.no er en nasjonal portal- og tilgangsflate for helsedata.
 - **P4: Del og gjenbruk data**
 - **P5: Del og gjenbruk løsninger**
 - **P6: Lag digitale løsninger som støtter samhandling**
+
+Svakhet og vurderingspunkt: Helsedata.no støtter samordning og sammenheng i tilgangsløp, men er ikke i seg selv et autoritativt register eller en generell tverrsektoriell delingsplattform. Ved mulig bruk er det derfor viktig å vurdere om behovet egentlig gjelder oversikt og samordnet tilgang til flere helsedatakilder, eller om det heller bør løses direkte mot underliggende registre eller andre nasjonale datadelingsressurser.
 
 ## Finansiering
 Ikke samlet verifisert i denne arbeidsøkten. Produktet framstår som offentlig finansiert fellestjeneste i helsedatainfrastrukturen.
@@ -140,5 +148,4 @@ Ikke samlet verifisert i denne arbeidsøkten. Produktet framstår som offentlig 
 - Nettkilde: https://helsedata.no/ (kontrollert 2026-03-27)
 - Nettkilde: https://helsedata.no/en/contact/ (kontrollert 2026-03-27)
 - Nettkilde: https://www.fhi.no/om/organisasjon/helsedata/ (kontrollert 2026-03-27)
-
 

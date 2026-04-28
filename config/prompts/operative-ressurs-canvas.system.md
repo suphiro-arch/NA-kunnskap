@@ -170,6 +170,14 @@ Følg reglene under.
 - Når produktet brukes i arkitekturvurderinger, bør `Hovedfunksjoner` normalt suppleres med egne underseksjoner for `Typiske brukssituasjoner (generisk)` og `Når <produktet> normalt ikke er førstevalg`.
 - Legg `Vanlige kombinasjoner med andre produkter` under `Gjenbruk`, ikke under `Hovedfunksjoner`, med mindre det finnes en særskilt grunn til å samle dette annerledes.
 
+**Gjenbruk og kildekode:**
+- Legg alltid inn et eget underpunkt `**Kildekode:**` i `Gjenbruk`-seksjonen
+- Bruk én av disse verdiene: `Åpen kildekode`, `Proprietær`, `Ikke offentlig dokumentert`
+- Hvis åpen kildekode: oppgi lisens (f.eks. MIT, Apache 2.0, EUPL) og lenke til repositorium (f.eks. GitHub)
+- Hvis proprietær eller ukjent: skriv `Ikke offentlig dokumentert` – ikke gjett
+- Åpen kildekode er relevant for vurdering av leverandøravhengighet, lokal tilpasning og gjenbruk i andre virksomheter
+- Legg kildekodeinformasjonen som siste underpunkt i `Gjenbruk`, etter `Vanlige kombinasjoner med andre produkter` hvis den seksjonen finnes
+
 **Risiko:**
 - Dekk minst: juridisk, teknisk, sikkerhet, leverandør, bruker-opplevelse
 - Bruk tabell med kategori + konkret risiko + håndtering

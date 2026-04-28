@@ -81,6 +81,9 @@ Sky (lokasjon), on-prem eller hybrid.
 Vurder gjenbruksvennlighet av API-er, standarder og lisensiering.
 Legg inn `Vanlige kombinasjoner med andre produkter` når dette gjør produktet lettere å bruke i arkitekturvurderinger.
 
+**Kildekode:** Åpen kildekode / Proprietær / Ikke offentlig dokumentert.
+Oppgi lisens og lenke til kildekode-repositorium hvis tilgjengelig.
+
 ## Støtter arkitekturprinsipper
 I hvilken grad støttes nasjonale arkitekturprinsipper?
 Bruk `arkitektur/prinsipper/principles.md` som kilde for prinsippnavn og koblinger.
