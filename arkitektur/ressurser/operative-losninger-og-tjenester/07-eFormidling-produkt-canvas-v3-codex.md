@@ -74,6 +74,17 @@ Operative mål utledet fra de samme kildene:
 | Ruting til mottakerens foretrukne kanal | Langtidsarkivering av innhold |
 | Mottak og levering av meldinger | Forretningslogikk i hver enkelt tjeneste |
 | Dokumenterte prosesser, dokumenttyper og integrasjonsmønstre | Full erstatning for lokale sak-/arkiv- eller fagsystemer |
+### Typiske brukssituasjoner (generisk)
+- Offentlig virksomhet sender saksrelaterte meldinger til en annen offentlig virksomhet og trenger et felles formidlingsledd.
+- Fagsystem trenger å sende og motta meldinger uten å håndtere kanalvalg og mottakeroppslag selv.
+- Saksbehandlingsflyt krever digital kommunikasjon mellom etater med dokumentert levering.
+- Virksomhet sender til eInnsyn som en del av journalføringen.
+
+### Når eFormidling normalt ikke er førstevalg
+- Når behovet er kommunikasjon med innbygger via postkasse – da er Digital postkasse mer relevant.
+- Når behovet er interaktiv dialog med innbygger – da er Altinn Melding og Dialogporten mer relevant.
+- Når behovet er stor filoverføring mellom systemer – da er Altinn Formidling mer relevant.
+- Når behovet er hendelsesdrevet varsling uten meldingsinnhold – da er Altinn Events mer relevant.
 
 ## Veikart over kommende funksjonalitet
 **Fakta:** Samarbeidsportalen viser statistikk, oppetid og kundetall, men jeg fant ikke en offentlig tidsfestet utviklingsplan i kildene brukt i denne arbeidsøkten.
@@ -127,6 +138,15 @@ eFormidling er en formidlingstjeneste med et tydelig teknisk skille mellom virks
 - Samme formidlingsmønster kan brukes av mange virksomheter og prosesser.
 - Standardene og dokumenttypene gjør det lettere å koble nye bruksscenarier til samme grunnløsning.
 - Produktet reduserer behovet for å bygge egne meldingsløyper for hver samhandlingsrelasjon.
+
+
+### Vanlige kombinasjoner med andre produkter
+- **eInnsyn** – eFormidling brukes for å sende journalposter og dokumenter til eInnsyn.
+- **FIKS SvarUt/SvarInn** – mange kommuner og statlige virksomheter bruker disse i samme meldingsflyt, med eFormidling på statssiden.
+- **Digital postkasse** – eFormidling kan formidle post til innbyggers digitale postkasse som del av avsenderens kanalvalg.
+- **Kontakt- og reservasjonsregisteret** – brukes for å avklare om mottakeren kan nås digitalt.
+
+**Kildekode:** Åpen kildekode. Lisens: MIT/EUPL. Kildekode: [github.com/felleslosninger/efm-integrasjonspunkt](https://github.com/felleslosninger/efm-integrasjonspunkt).
 
 ## Støtter arkitekturprinsipper
 - **P5 Del og gjenbruk løsninger** - eFormidling er en felles formidlingstjeneste som kan brukes av mange virksomheter.

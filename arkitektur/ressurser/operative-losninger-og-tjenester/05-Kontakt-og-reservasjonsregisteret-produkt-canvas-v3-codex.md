@@ -73,6 +73,17 @@ Operative mål utledet fra de samme kildene:
 | Grunnlag for kanalvalg | Digital postkasse, varsling eller meldingsinnhold |
 | Innbyggers forvaltning av egne kontaktdata og reservasjon | Lokal CRM- eller sakshistorikk i virksomheten |
 | Felles retningslinjer for bruk av dataene | Full erstatning for andre produkter i digital kommunikasjon |
+### Typiske brukssituasjoner (generisk)
+- Virksomhet skal sende digital kommunikasjon og trenger å kontrollere om mottaker kan kontaktes digitalt.
+- System skal velge riktig kanal basert på innbyggerens reservasjonsstatus og registrerte kontaktopplysninger.
+- Tjeneste trenger oppdatert e-postadresse eller mobilnummer for å sende varsling til en innbygger.
+- Avsender bruker kontaktdata som input til kanalvalg før post eller varsling sendes.
+
+### Når Kontakt- og reservasjonsregisteret normalt ikke er førstevalg
+- Når behovet er selve utsendingen av posten – da er Digital postkasse eller eFormidling mer relevant.
+- Når behovet er direkte varsling etter innlogging – da er Altinn Varsling mer relevant.
+- Når kontaktinformasjonen stammer fra en lokal virksomhetssamtykkebasert relasjon og ikke fra et nasjonalt register.
+- Når behovet gjelder virksomhetskontakt, ikke innbyggerkontakt.
 
 ## Veikart over kommende funksjonalitet
 **Fakta fra Samarbeidsportalen og Digdir Docs (hentet 2026-03-17):**
@@ -126,6 +137,15 @@ Kontakt- og reservasjonsregisteret er en nasjonal registertjeneste som gir oppsl
 - Produktet er laget for å være en felles kilde som mange andre løsninger bygger på.
 - Det er særlig relevant når behovet er korrekt kontaktgrunnlag og reservasjonskontroll før digital kommunikasjon.
 - Det er mindre relevant dersom behovet egentlig er selve utsendingen, postkassen eller varslingskanalen.
+
+
+### Vanlige kombinasjoner med andre produkter
+- **Digital postkasse** – Kontakt- og reservasjonsregisteret gir kanalvalgsgrunnlaget som bestemmer om post skal gå digitalt eller til papirfallback.
+- **Altinn Varsling** – varslingsflyten bruker kontaktopplysninger fra KRR for å finne riktig kanal.
+- **eFormidling** – bruker KRR som del av kanalavklaringen i formidlingsløpet.
+- **Norge.no** – innbygger oppdaterer egne KRR-data gjennom Minprofil som er tilgjengelig herfra.
+
+**Kildekode:** Ikke offentlig dokumentert.
 
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** realiseres ved at kontaktopplysninger og reservasjonsstatus tilbys som felles grunnlag for mange virksomheter.

@@ -76,6 +76,17 @@ Operative mål utledet fra de samme kildene:
 | Standardiserte integrasjonsmønstre for API-er | Selve API-ene eller datamodellene som tilbys |
 | Støtte for systembruker-scenarier | Dokument- eller transaksjonssignering |
 | Onboarding, test og produksjonsløp | Full erstatning for fullmakts- og representasjonsløsninger |
+### Typiske brukssituasjoner (generisk)
+- Virksomhet skal integrere maskinelt mot offentlige API-er og trenger en standardisert tokenbasert autentiseringsmekanisme.
+- Datatilbyder vil beskytte API-et sitt og styre hvilke virksomheter og systemer som får tilgang.
+- System skal hente data automatisk fra et register eller en delingstjeneste uten brukerinteraksjon.
+- Leverandør skal gi et system tilgang til tjenester på vegne av en kundvirksomhet.
+
+### Når Maskinporten normalt ikke er førstevalg
+- Når behovet er innlogging for sluttbrukere – da er ID-porten mer relevant.
+- Når behovet er digital signering av dokumenter.
+- Når tilgangen i tillegg krever fullmakts- eller representasjonsgrunnlag fra en person eller virksomhet – da bør Altinn Autorisasjon vurderes i kombinasjon.
+- Når behovet er meldingsformidling mellom systemer – da er eFormidling eller Altinn Melding mer relevant.
 
 ## Veikart over kommende funksjonalitet
 **Fakta fra Samarbeidsportalen og Digdir Docs (hentet 2026-03-17):**
@@ -128,6 +139,15 @@ Maskinporten er en nasjonal plattform for klientautentisering og tokenutstedelse
 - Produktet er laget for gjenbruk i mange integrasjoner på tvers av virksomheter.
 - Det er særlig relevant når behovet er sikker maskinell tilgang til API-er.
 - Det er mindre relevant dersom behovet egentlig er sluttbrukerinnlogging eller detaljert faglig autorisasjon, der andre produkter treffer bedre.
+
+
+### Vanlige kombinasjoner med andre produkter
+- **data.altinn.no** – Maskinporten er autentiseringsmekanismen for kontrollert datadeling via data.altinn.no.
+- **Altinn Autorisasjon** – brukes i kombinasjon der systemet opptrer på vegne av virksomhet og trenger delegering eller systembruker.
+- **Altinn Events** – abonnementer på hendelsesstrømmer autentiseres typisk med Maskinporten.
+- **Folkeregisteret, Enhetsregisteret, Skatteetatens delingstjenester** – disse API-ene er vanligvis beskyttet av Maskinporten, og integrasjon mot dem forutsetter at Maskinporten er på plass.
+
+**Kildekode:** Ikke offentlig dokumentert.
 
 ## Støtter arkitekturprinsipper
 - **P5: Del og gjenbruk løsninger** realiseres ved at autentisering for API-bruk tilbys som felleskomponent.

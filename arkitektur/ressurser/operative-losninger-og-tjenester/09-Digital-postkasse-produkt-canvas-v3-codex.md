@@ -76,6 +76,17 @@ Operative mål utledet fra de samme kildene:
 | Varsling, kvitteringer og sporbarhet i leveranseløpet | Full saksbehandling eller arkivering hos avsender |
 | Utskrift og fysisk forsendelse som del av produktområdet | Kontaktregisteret som egen grunndatakilde |
 | Innføringsløp, kostnadsmodell og forvaltningsstøtte | Generisk filutveksling eller datadeling utenfor postområdet |
+### Typiske brukssituasjoner (generisk)
+- Offentlig virksomhet sender brev, vedtak eller informasjon til innbyggers digitale postkasse med sporbar levering.
+- Prosess krever kvittering på at innbygger har mottatt dokumentet.
+- Avsender trenger automatisk papirfallback for innbyggere uten digital postkasse.
+- Virksomhet skal erstatte fysisk brevutsending med digital levering som del av et større tjenesteutviklingsløp.
+
+### Når Digital postkasse normalt ikke er førstevalg
+- Når behovet er kommunikasjon mellom offentlige virksomheter – da er eFormidling mer relevant.
+- Når behovet er varsling og oppmerksomgjøring via e-post eller SMS – da er Altinn Varsling mer relevant.
+- Når behovet er interaktiv dialog med svar og handlinger – da er Altinn Melding og Dialogporten mer relevant.
+- Når innholdet ikke er en postsending til en navngitt mottaker, men en generell meldingsformidling.
 
 ## Veikart over kommende funksjonalitet
 **Fakta fra Samarbeidsportalen og Digdir Docs (hentet 2026-03-27):**
@@ -131,6 +142,15 @@ Digital postkasse er en nasjonal distribusjonsløsning som kombinerer avsenderin
 - Produktet er laget for felles bruk på tvers av offentlig sektor.
 - Det er særlig relevant når behovet er sikker utsending av post til innbyggere med sporbar levering og kanalvalg.
 - Det er mindre relevant dersom behovet egentlig er generell meldingsutveksling mellom virksomheter eller ren datadeling uten postkasse som mottaksflate.
+
+
+### Vanlige kombinasjoner med andre produkter
+- **Kontakt- og reservasjonsregisteret** – brukes for kanalvalg: om innbygger kan kontaktes digitalt og om hun har reservert seg.
+- **Altinn Varsling** – brukes parallelt for å gjøre mottaker oppmerksom på at ny post er tilgjengelig.
+- **eFormidling** – kobler offentlig meldingsinfrastruktur til Digital postkasse i saksflyter mellom etat og innbygger.
+- **ID-porten** – brukes av innbygger for å logge inn og hente posten i sin digitale postkasse.
+
+**Kildekode:** Ikke offentlig dokumentert.
 
 ## Støtter arkitekturprinsipper
 - **P1: Ta utgangspunkt i brukernes behov** støttes ved at innbygger får én samlet mottaksflate for offentlig post, mens virksomheten får ett felles utsendingsløp.

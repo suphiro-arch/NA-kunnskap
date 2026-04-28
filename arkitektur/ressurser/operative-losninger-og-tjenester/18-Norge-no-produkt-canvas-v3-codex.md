@@ -71,6 +71,15 @@ Operative mål utledet fra de samme kildene:
 | Søkbart og behovsbasert tjenesteinnhold | Saksbehandling hos ansvarlige virksomheter |
 | Informasjon om digital postkasse, kontaktregister og digital kommunikasjon | Felles innlogging for alle tjenester |
 | Livssituasjoner, tema og lenking til andre tjenester | Full eierskap til innholdet hos alle underliggende tjenesteeiere |
+### Typiske brukssituasjoner (generisk)
+- Innbygger vet ikke hvilken etat som har ansvar for en tjeneste og trenger én felles inngang til offentlige digitale tjenester.
+- Virksomhet vil øke synligheten for sine tjenester i en nasjonal kontekst.
+- Bruker trenger veiledning om digital kommunikasjon med det offentlige, for eksempel om digital postkasse eller kontaktinformasjon.
+
+### Når Norge.no normalt ikke er førstevalg
+- Når behovet er selve utførelsen av en tjeneste – da er den aktuelle tjenesteportalen mer relevant.
+- Når behovet er innlogging og autentisering – da er ID-porten mer relevant.
+- Når behovet er databasert søk og oppdagelse av datasett – da er data.norge.no mer relevant.
 
 ## Veikart over kommende funksjonalitet
 **Fakta:** Jeg fant ikke en offentlig tidsfestet utviklingsplan i kildene brukt i denne arbeidsøkten.
@@ -121,6 +130,14 @@ Norge.no er en nasjonal portal- og veiviserløsning for digitale offentlige tjen
 - Norge.no gjenbruker tjenesteinformasjon i en felles nasjonal inngang i stedet for at brukeren må starte hos hver enkelt virksomhet.
 - Livssituasjoner og tematisk navigasjon gir et gjenbrukbart mønster for hvordan tjenester kan presenteres brukerrettet.
 - Portalen gir også gjenbruk av felles veiledning om digital kommunikasjon og kontaktinformasjon.
+
+
+### Vanlige kombinasjoner med andre produkter
+- **Kontakt- og reservasjonsregisteret og Digital postkasse** – Norge.no er inngangen til informasjon om disse og Minprofil.
+- **ID-porten** – innlogging etter å ha navigert fra Norge.no til en konkret tjeneste.
+- **Altinn Portal** – mange tjenester Norge.no lenker til finnes i Altinn.
+
+**Kildekode:** Ikke offentlig dokumentert.
 
 ## Støtter arkitekturprinsipper
 - **P1 Ta utgangspunkt i brukernes behov** - løsningen er bygget som en brukerrettet veiviser til tjenester.

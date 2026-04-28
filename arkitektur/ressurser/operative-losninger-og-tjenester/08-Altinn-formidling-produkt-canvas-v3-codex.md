@@ -80,6 +80,17 @@ Produktet har dessuten en forvaltningsflate gjennom oversikt over eget forbruk o
 | Logging, varsling og hendelsesabonnementer knyttet til leveranser | Sluttbrukerdialog eller meldingsboks for innbyggere og virksomheter |
 | Tilgangsstyring for filoverføringer | Full prosessmotor eller saksbehandlingssystem |
 | Støtte for store payloads og ulike filformater | Datakatalog eller åpen delingsportal |
+### Typiske brukssituasjoner (generisk)
+- Leverandør eller rapporteringspliktig part skal levere store datafiler til en offentlig virksomhet på en kontrollert og sporbar måte.
+- Myndighet samler inn data fra mange parter og trenger et felles mønster for filbasert leveranse.
+- Virksomhet trenger asynkron overføring av store payloads der sanntids API-kall ikke er egnet.
+- System trenger kvittering og hendelsesoppfølging for å vite om leveransen er kommet frem.
+
+### Når Altinn Formidling normalt ikke er førstevalg
+- Når behovet er hendelsesdrevet kommunikasjon uten payload – da er Altinn Events mer relevant.
+- Når behovet er korrespondanse eller vedtak til innbygger – da er Altinn Melding eller Digital postkasse mer relevant.
+- Når behovet er skjemainnsending – da er Altinn Apps via Altinn Studio mer relevant.
+- Når dataene er små nok for vanlige API-kall og det ikke er behov for asynkron, sporbar leveranse.
 
 ## Veikart over kommende funksjonalitet
 **Fakta fra brukte kilder (kontrollert 26. mars 2026):**
@@ -130,6 +141,14 @@ Formidlingstjeneste i Altinn-porteføljen med API-er, hendelsesabonnementer og k
 - Produktet kan brukes av mange virksomheter som trenger samme grunnmønster for sikker filoverføring.
 - Det reduserer behovet for lokale spesialløsninger for store og asynkrone leveranser.
 - Gjenbruksverdien er særlig høy når behovet er robust transport av payloads, ikke når behovet er hendelsesdeling eller sluttbrukerkommunikasjon.
+
+
+### Vanlige kombinasjoner med andre produkter
+- **Maskinporten** – brukes for autentisering av partene i filoverføringen.
+- **Altinn Events** – brukes parallelt for hendelsesvarsling knyttet til leveranser og statusendringer.
+- **Altinn Autorisasjon** – brukes for tilgangskontroll til hvem som kan sende og hente leveranser.
+
+**Kildekode:** Åpen kildekode. Lisens: MIT. Kildekode: [github.com/Altinn/altinn-broker](https://github.com/Altinn/altinn-broker).
 
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** støttes ved at data kan deles gjennom en felles, kontrollert overføringsmekanisme.

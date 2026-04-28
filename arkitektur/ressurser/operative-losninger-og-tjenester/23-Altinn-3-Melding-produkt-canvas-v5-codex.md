@@ -81,6 +81,17 @@ Produktet omfatter likevel ikke hele tjenesteforløpet hos avsender. Faglig innh
 | Varsling, vedlegg og tilgangsstyring i meldingsløpet | Selvstendig brukerportal utenfor Altinns Arbeidsflate |
 | Integrasjon mot Dialogporten og Arbeidsflate | Komplett autorisasjonsforvaltning utenfor Altinn-mekanismene |
 | Overgangs- og migreringsstøtte fra Altinn 2 | Full harmonisering av alle historiske forskjeller mellom Altinn 2 og 3 i første steg |
+### Typiske brukssituasjoner (generisk)
+- Offentlig virksomhet sender vedtak, bekreftelser eller informasjon til innbygger eller virksomhet med behov for sporbar levering og bekreftelse.
+- Tjenesteeier trenger toveis digital korrespondanse der mottaker kan bekrefte mottak eller ha tilgang til historikk.
+- System trenger å sende meldinger med vedlegg og følge statusendringer i livssyklusen.
+- Virksomhet migrerer fra Altinn 2-meldingstjenester til ny plattform.
+
+### Når Altinn Melding normalt ikke er førstevalg
+- Når behovet er overføring av store filer mellom systemer uten korrespondanseformat – da er Altinn Formidling mer relevant.
+- Når behovet er enkel varsling via e-post eller SMS uten meldingsinnhold – da er Altinn Varsling mer relevant.
+- Når behovet er innsending av skjema med prosessflyt – da er Altinn Apps mer relevant.
+- Når behovet er kommunikasjon mellom offentlige virksomheter i saksflyt – da er eFormidling mer relevant.
 
 ## Veikart over kommende funksjonalitet
 **Fakta fra brukte kilder (kontrollert 2026-03-26):**
@@ -133,6 +144,15 @@ Meldingstjeneste i Altinn-porteføljen med API-er, vedleggshåndtering, statusfl
 - Samme meldingstjeneste kan brukes av mange offentlige virksomheter.
 - Felles mønster for logging, status og vedlegg reduserer duplisering.
 - Integrasjon med Dialogporten og Arbeidsflate gjør produktet gjenbrukbart i flere brukerflater.
+
+
+### Vanlige kombinasjoner med andre produkter
+- **Dialogporten** – alle meldinger i Altinn Melding representeres automatisk som dialoger i Dialogporten.
+- **Altinn Varsling** – brukes parallelt for å gjøre mottaker oppmerksom på at en ny melding er tilgjengelig.
+- **Altinn Autorisasjon** – styrer tilgang til meldinger for representanter og delegater.
+- **ID-porten** – brukes av innbygger for å logge inn og lese meldingen i Altinn Portal eller Arbeidsflate.
+
+**Kildekode:** Åpen kildekode. Lisens: MIT. Kildekode: [github.com/Altinn/altinn-correspondence](https://github.com/Altinn/altinn-correspondence).
 
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** gjør meldingsstatus og hendelser tilgjengelige for videre bruk i prosesser.

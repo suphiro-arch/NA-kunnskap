@@ -78,6 +78,15 @@ Operative mål utledet fra de samme kildene:
 | Synliggjøring av metadata gjennom felles katalogflater | Full intern datastyring i hver virksomhet |
 | Standardisert publisering og beskrivelse av dataressurser | Lokal faglig kvalitetssikring av hvert enkelt datasett |
 | Overordnet produktområde som data.norge.no bygger på | data.norge.no som egen portalressurs |
+### Typiske brukssituasjoner (generisk)
+- Virksomhet vil registrere sine dataressurser og gjøre dem oppdagbare for datakonsumenter på tvers av offentlig sektor.
+- Prosjekt eller sektorsatsing skal dokumentere og publisere datadelingstilbud som del av åpenhetskrav eller digitaliseringsarbeid.
+- Datakonsument vil søke på tvers av datasett, API-er og begreper for å finne om relevant informasjon allerede er tilgjengelig.
+
+### Når Felles datakatalog normalt ikke er førstevalg
+- Når behovet er selve datadelingsmekanismen og tilgangsstyringen – da er Maskinporten eller data.altinn.no mer relevant.
+- Når behovet er intern datastyring og forvaltning uten publiseringsplikt.
+- Når behovet er å finne og bruke API-er direkte, ikke bare oppdage dem – da er API-ets eget grensesnitt mer relevant.
 
 ## Veikart over kommende funksjonalitet
 **Fakta fra Digdir og Samarbeidsportalen (kontrollert 2026-03-27):**
@@ -133,6 +142,15 @@ Felles datakatalog er en nasjonal metadata- og publiseringsløsning for dataress
 - Produktet er laget for å være en felles nasjonal løsning som mange virksomheter publiserer inn i og mange brukere finner innhold gjennom.
 - Det er særlig relevant når behovet er å gjøre dataressurser synlige og forståelige, ikke å levere selve datatilgangen.
 - Det har høy verdi som overordnet fellesløsning fordi det binder sammen flere delkataloger i samme produktområde.
+
+
+### Vanlige kombinasjoner med andre produkter
+- **data.norge.no** – er portalen som synliggjør innholdet i Felles datakatalog for søk og oppdagelse.
+- **Begrepskatalog og API-katalog** – er spesialiserte delkataloger under Felles datakatalog.
+- **Maskinporten** – API-er som er beskrevet i katalogen er gjerne beskyttet av Maskinporten.
+- **data.altinn.no** – tilbyr kontrollert datadeling for de dataressursene som er dokumentert i katalogen.
+
+**Kildekode:** Åpen kildekode. Lisens: Apache-2.0. Kildekode: [github.com/Informasjonsforvaltning](https://github.com/Informasjonsforvaltning).
 
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** realiseres ved at dataressurser blir synlige og vurderbare for viderebruk.

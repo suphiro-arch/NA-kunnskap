@@ -84,6 +84,16 @@ Operative mål utledet fra de samme kildene:
 | Veiledning, dokumentasjon og fellesskapsarena | Selve tilgangsbehandlingen til hvert datasett |
 | Informasjon om tilgjengelighet, datakvalitet og relasjoner mellom ressurser | Garantier for faktisk datakvalitet i kildesystemene |
 | Etterspørsel og dialog gjennom Datalandsbyen | Full intern datastyring i publiserende virksomheter |
+### Typiske brukssituasjoner (generisk)
+- Datakonsument søker etter offentlige dataressurser på tvers av virksomheter og trenger ett sted å starte.
+- Analytiker vil forstå tilgjengelighet, datakvalitet og omfang av datasett før videre forespørsel.
+- Arkitekt eller prosjekt kartlegger hvilke dataressurser som finnes i et domene for vurdering av gjenbruk.
+- Innbygger eller virksomhet ønsker å stille etterspørsel om manglende data via Datalandsbyen.
+
+### Når data.norge.no normalt ikke er førstevalg
+- Når behovet er selve datatilgangen – da er Maskinporten eller data.altinn.no mer relevant.
+- Når behovet er intern datastyring og katalogisering uten nasjonal publisering.
+- Når behovet er å integrere mot et spesifikt API – da er API-ets eget grensesnitt det primære utgangspunktet.
 
 ## Veikart over kommende funksjonalitet
 **Fakta:**
@@ -138,6 +148,15 @@ Nasjonal webportal for oppdagelse, metadataforvaltning, veiledning og fellesskap
 - Metadata om samme ressurs kan brukes av mange ulike datakonsumenter.
 - Koblingen mellom datasett, API-er, begreper, informasjonsmodeller, tjenester og hendelser styrker gjenbruk på tvers av kontekster.
 - Datalandsbyen bidrar til gjenbruk av erfaringer og kunnskap, ikke bare data.
+
+
+### Vanlige kombinasjoner med andre produkter
+- **Felles datakatalog** – data.norge.no er portalen som synliggjør innholdet i Felles datakatalog.
+- **Begrepskatalog og API-katalog** – deler av innholdet på data.norge.no stammer fra disse.
+- **Maskinporten** – etter å ha funnet et API på data.norge.no er Maskinporten neste steg for å skaffe tilgang.
+- **data.altinn.no** – noen datasett dokumentert her er tilgjengelige for deling via data.altinn.no.
+
+**Kildekode:** Åpen kildekode. Lisens: Apache-2.0. Kildekode: [github.com/Informasjonsforvaltning/fdk-portal](https://github.com/Informasjonsforvaltning/fdk-portal).
 
 ## Støtter arkitekturprinsipper
 - **P4 Del og gjenbruk data** - Portalen er direkte innrettet mot oppdagelse og viderebruk av data.
