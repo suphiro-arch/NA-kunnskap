@@ -21,6 +21,8 @@ BRREG-003
 **Deduksjon:** Modenheten er svært høy fordi Enhetsregisteret fungerer som en felles nøkkelressurs for identifisering og basisopplysninger om virksomheter, og fordi organisasjonsnummeret er en sentral identifikator i mange tjenester.
 
 ## Kort beskrivelse
+Ressursen må i praksis forstås bredere enn selve registerkjernen. For analyse- og samhandlingsformål inngår også de viktigste delingsflatene rundt Enhetsregisteret, som åpne oppslag, nøkkelopplysninger, daglige endringer og maskinell tilgang.
+
 Enhetsregisteret er det nasjonale grunndataregisteret for virksomheter i Norge. Produktet samler og tilgjengeliggjør basisopplysninger om juridiske enheter og andre virksomheter, og tildeler organisasjonsnummer som felles identifikator. Enhetsregisteret er derfor mer enn en registreringstjeneste: det er den sentrale virksomhetsressursen som mange andre registre, tjenester og integrasjoner bygger på når de trenger autoritative opplysninger om organisasjoner.
 
 ## Kapabiliteter
@@ -68,6 +70,8 @@ Operative mål utledet fra de samme kildene:
 **Grunnlag for videre registrering og samordning.** Registrering i Enhetsregisteret er et vilkår for registrering i mange andre registre. Produktet er derfor ikke bare en informasjonskilde, men også en sentral inngang til andre offentlige register- og samhandlingsløp.
 
 ### Scope og avgrensning
+For analyseformål bør API-er, åpne oppslag, nøkkelopplysninger og annen maskinell tilgjengeliggjøring forstås som del av samme ressurs. De er ikke bare tekniske detaljer rundt registeret, men sentrale mekanismer for hvordan Enhetsregisteret faktisk brukes i digital samhandling.
+
 | Inngår | Inngår ikke |
 |---|---|
 | Nasjonalt register over basisopplysninger om virksomheter | Fagspesifikke opplysninger som hører hjemme i andre registre |
@@ -77,6 +81,8 @@ Operative mål utledet fra de samme kildene:
 | Registrering som inngang til andre registerløp | Alle regulatoriske vurderinger som gjøres i andre registre |
 
 ## Veikart over kommende funksjonalitet
+Presisering: Delingsflatene for Enhetsregisteret bør normalt beskrives som en del av denne ressursen, ikke som egne separate ressurser, med mindre det senere oppstår en tydelig selvstendig nasjonal ressurs med eget formål, egen styring og egen analyseverdi.
+
 **Fakta fra Brønnøysundregistrenes kilder (kontrollert 2026-03-27):**
 - Brønnøysundregistrene publiserer løpende endringer i API-er, åpne data og tilgangstjenester for Enhetsregisteret.
 - Det finnes egne sider for full maskinell tilgang, statistikk og åpne data-varsler.
@@ -123,6 +129,8 @@ Enhetsregisteret er et nasjonalt register- og delingssystem for basisopplysninge
 **Ikke offentlig dokumentert i brukte kilder:** Full intern systemarkitektur, detaljert teknologistakk og full driftsmodell for plattformen.
 
 ## Gjenbruk
+Produktet er også relevant når behovet gjelder maskinell bruk av virksomhetsdata gjennom oppslag, nøkkelopplysninger, endringsflyt og andre delingsflater som er del av samme ressurs.
+
 **Høy gjenbruksverdi:**
 - Produktet er laget for å være felles virksomhetsgrunnlag i samfunnet.
 - Det er særlig relevant når behovet er autoritative basisopplysninger om virksomheter og en felles identifikator.

@@ -3,7 +3,7 @@ title: "Datautveksling og integrasjon"
 eyebrow: "Kapabilitet"
 weight: 4
 description: "Evne til å sikkert, effektivt og standardisert utveksle data mellom aktører i økosystemet."
-cardMeta: "4 delkapabiliteter / 44 produkter"
+cardMeta: "4 delkapabiliteter / 45 produkter"
 productsMarkdown: |
   ## Relaterte produkter
   
@@ -172,6 +172,11 @@ productsMarkdown: |
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title">Motorvognregisteret</h3>
       <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/60-Motorvognregisteret-produkt-canvas-v1-codex.md">Åpne ressursbeskrivelse</a>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title">NVDB</h3>
+      <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/61-NVDB-produkt-canvas-v1-codex.md">Åpne ressursbeskrivelse</a>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>

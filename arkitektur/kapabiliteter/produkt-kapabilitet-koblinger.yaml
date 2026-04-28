@@ -2422,6 +2422,46 @@
             ]
         },
         {
+            "product_id": 61,
+            "product_name": "NVDB",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/61-NVDB-produkt-canvas-v1-codex.md",
+            "product_url": "/NA-kunnskap/produkter/61-NVDB-produkt-canvas-v1-codex/",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "NVDB er en nasjonal og autoritativ datakilde for vegnett og vegrelaterte objekter som mange aktører bygger videre på.",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata"
+                },
+                {
+                    "capability_id": "id-e4f1672b38f14f57af2f8e85f34ffa88",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "mapping_label": "Informasjonsforvaltning: Oversikt over datasett",
+                    "explanation": "NVDB gir et felles og forståelig informasjonsgrunnlag om vegnett og vegrelaterte objekter som kan brukes i flere sammenhenger.",
+                    "subcapability_id": "id-cb3db6f42a0f4ad0bc526d87cfe5b801",
+                    "subcapability_name": "Oversikt over datasett",
+                    "subcapability_slug": "oversikt-over-datasett"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "NVDB har verdi som delt nasjonalt vegdatagrunnlag fordi opplysningene kan brukes videre av mange aktører i analyse, planlegging og samhandling.",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre"
+                }
+            ]
+        },
+        {
             "product_id": 63,
             "product_name": "microdata.no",
             "version": 1,
@@ -4602,6 +4642,16 @@
                     "product_url": "/NA-kunnskap/produkter/46-Enhetsregisteret-produkt-canvas-v1-codex/",
                     "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
                     "explanation": "Enhetsregisteret tilgjengeliggjør virksomhetsdata gjennom åpne tjenester, daglige endringer og maskinell tilgang."
+                },
+                {
+                    "product_id": 61,
+                    "product_name": "NVDB",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/61-NVDB-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/61-NVDB-produkt-canvas-v1-codex/",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "NVDB har verdi som delt nasjonalt vegdatagrunnlag fordi opplysningene kan brukes videre av mange aktører i analyse, planlegging og samhandling."
                 },
                 {
                     "product_id": 38,
@@ -8189,6 +8239,16 @@
                     "product_url": "/NA-kunnskap/produkter/46-Enhetsregisteret-produkt-canvas-v1-codex/",
                     "mapping_label": "Datakilder: Grunndata",
                     "explanation": "Enhetsregisteret er den autoritative kilden for basisopplysninger om virksomheter og tildeler organisasjonsnummer som felles identifikator."
+                },
+                {
+                    "product_id": 61,
+                    "product_name": "NVDB",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/61-NVDB-produkt-canvas-v1-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/61-NVDB-produkt-canvas-v1-codex/",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "NVDB er en nasjonal og autoritativ datakilde for vegnett og vegrelaterte objekter som mange aktører bygger videre på."
                 },
                 {
                     "product_id": 59,

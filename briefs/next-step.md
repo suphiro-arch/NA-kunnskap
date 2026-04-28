@@ -391,3 +391,14 @@ Denne seksjonen handler om å bygge en åpen web-basert KI-dokumentasjonsassiste
 ## Referanser
 
 - [MVP-skisse for dokumentasjonsassistent](briefs/arbeidsstyring-og-handover/2026-03-16-dokumentasjonsassistent-mvp-v1.md) –" Hele konseptet og arkitektur-ideen for assistenten.
+- Opprettet første produktbeskrivelse for `NVDB` som tydelig tverrgående datagrunnlag for blant annet beredskap, sikkerhet, bærekraft og samordning mellom forvaltningsnivåer.
+- Oppdatert `Enhetsregisteret` slik at API-er, åpne oppslag, nøkkelopplysninger og annen maskinell tilgang beskrives tydelig som del av den eksisterende ressursen.
+
+## Foreslått neste prioritering
+
+- `Matrikkelen` bør prioriteres videre som tverrgående grunnlagsressurs for eiendom, adresser og bygninger, med tydelig verdi for planlegging, beredskap og samordning mellom nivåer.
+- `Folkeregisteret` bør holdes høyt som sentral grunndataressurs med bred verdi i samhandling på tvers av sektorer og forvaltningsnivåer.
+- `Helsedata.no` kan prioriteres videre som tverrgående tilgangs- og oversiktsflate for data, men med bevisst skille mot rent sektorinterne helseløsninger.
+- `HPR` kan være aktuell når behovet gjelder autoritative opplysninger om helsepersonell på tvers av virksomheter og nivåer, men bør vurderes strengere enn de tre over.
+- `Motorvognregisteret` er fortsatt relevant, men noe smalere enn `NVDB` som tverrgående datagrunnlag og kan derfor ligge ett hakk lavere i prioriteringen.
+- `Videokonsultasjon`, `Kjernejournal` og `e-resept` bør foreløpig ikke prioriteres opp som nye kandidater for NA-oversikten uten tydeligere verdi på tvers av sektorer.
