@@ -71,6 +71,17 @@ Operative mål utledet fra de samme kildene:
 | Regler og tekniske spesifikasjoner for deltakelse i nettverket | ELMA som egen nasjonal oppslagstjeneste |
 | Føderert bruk av aksesspunkt, identifikatorer og oppslag | EHF som nasjonal innholdsstandard i seg selv |
 | Internasjonalt økosystem for dokumentutveksling | Ett sentralt nasjonalt driftssystem eid av én norsk aktør |
+### Typiske brukssituasjoner (generisk)
+- Offentlig virksomhet krever elektronisk fakturering fra leverandører og trenger et standardisert grunnlag for dette.
+- Leverandør eller virksomhet vil delta i EHF/Peppol-nettverket for dokumentutveksling.
+- Arkitekt eller systemintegratør trenger å forstå samhandlingsmønsteret for elektronisk dokumentutveksling mellom virksomheter.
+- Norsk aktør trenger interoperabilitet med europeiske parter i anskaffelser.
+
+### Når Peppol eDelivery normalt ikke er førstevalg
+- Når behovet er sakskorrespondanse mellom offentlige virksomheter – da er eFormidling mer relevant.
+- Når behovet er post til innbygger – da er Digital postkasse mer relevant.
+- Når behovet gjelder kommunikasjon innenfor Altinn-plattformen – da er Altinn Melding eller Altinn Formidling mer relevant.
+- Utenfor dokumentutvekslingskontekst mellom virksomheter.
 
 ## Veikart over kommende funksjonalitet
 **Fakta:** OpenPeppol og de norske kildene viser løpende dokumentasjons- og regelverksforvaltning, men jeg fant ikke ett samlet offentlig roadmap-dokument for Peppol eDelivery i denne arbeidsøkten.
@@ -123,6 +134,14 @@ Peppol eDelivery er ikke én sentral plattform, men et føderert meldingsøkosys
 - Mange løsninger kan bruke samme transport- og adresseringsmønster.
 - Ressursen reduserer behovet for bilaterale tilpasninger mellom hver avsender og mottaker.
 - Gjenbruksverdien ligger i felles regelsett og interoperabilitet, ikke i at én aktør tilbyr én sentral tjeneste til alle.
+
+
+### Vanlige kombinasjoner med andre produkter
+- **ELMA** – oppslagstjeneste i Peppol-nettverket, alltid relevant i sammenheng med Peppol eDelivery.
+- **eFormidling** – bruker Peppol-infrastruktur for deler av formidlingen mellom offentlige virksomheter.
+- **EHF-standarder** – innholdet i dokumentene som sendes via Peppol eDelivery følger EHF-profiler.
+
+**Kildekode:** Åpen kildekode (infrastrukturdelen). Sentrale komponenter: [github.com/OpenPeppol](https://github.com/OpenPeppol) og [github.com/phax/phase4](https://github.com/phax/phase4).
 
 ## Støtter arkitekturprinsipper
 - **P5 Del og gjenbruk løsninger** - Peppol eDelivery gir et felles mønster som mange aktører kan bruke i stedet for lokale spesialløsninger.

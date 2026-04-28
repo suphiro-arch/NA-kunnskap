@@ -81,6 +81,17 @@ Produktet er likevel avgrenset til varsling og oppmerksomgjøring. Det erstatter
 | Kanalstyring, fallback, planlagt og betinget sending | Full saksbehandlingsflyt i avsendersystemet |
 | Status, feilkoder og programmatisk oppfølging | Selvstendig identitetsforvaltning utenfor Altinn og tilknyttede registre |
 | Integrasjon med Altinn Apps, Altinn-tjenester og tjenesteeiersystemer | Alle fremtidige kanaler som ennå ikke er lansert |
+### Typiske brukssituasjoner (generisk)
+- Tjeneste eller app skal gjøre mottaker oppmerksom på en ny melding, et vedtak eller et handlingspunkt som venter.
+- Offentlig virksomhet sender SMS eller e-post som del av et automatisert digitalt arbeidsløp med frister eller bekreftelseskrav.
+- System trenger betingede eller planlagte varsler knyttet til hendelser i eget fagsystem.
+- Tjeneste trenger påminnelser dersom mottaker ikke har reagert innen en gitt frist.
+
+### Når Altinn Varsling normalt ikke er førstevalg
+- Når behovet er toveis dialog og korrespondanse med meldingsinnhold og vedlegg – da er Altinn Melding mer relevant.
+- Når behovet er å sende hele dokumenter eller vedtak – da er Digital postkasse mer relevant.
+- Når behovet er innlogging eller identitetsbekreftelse.
+- Når behovet er formidling av store filer mellom systemer.
 
 ## Veikart over kommende funksjonalitet
 **Fakta fra brukte kilder (kontrollert 2026-03-26):**
@@ -130,6 +141,15 @@ API-basert varslingsløsning i Altinn-porteføljen med oppslag mot nasjonale reg
 - ån felles varslingsmotor kan brukes av mange tjenester.
 - Felles mønster for oppslag, kanalvalg og status reduserer dobbeltarbeid.
 - Integrasjon via API gjør produktet lett å gjenbruke både i Altinn Apps og andre tjenesteeiersystemer.
+
+
+### Vanlige kombinasjoner med andre produkter
+- **Altinn Melding** – varsling brukes som supplement: melding leveres i postkassen, varsel gjør mottaker oppmerksom.
+- **Altinn Apps** – apper sender varsler via Altinn Varsling som del av arbeidsflyt og frister.
+- **Kontakt- og reservasjonsregisteret** – kontaktopplysninger og reservasjonsstatus hentes for å finne riktig kanal.
+- **Dialogporten** – varsel sendes når ny dialog opprettes eller oppdateres med handlingsbehov.
+
+**Kildekode:** Åpen kildekode. Lisens: MIT. Kildekode: [github.com/Altinn/altinn-notifications](https://github.com/Altinn/altinn-notifications).
 
 ## Støtter arkitekturprinsipper
 - **P1: Ta utgangspunkt i brukernes behov** støtter rettidig varsling i kanalene brukerne faktisk bruker.

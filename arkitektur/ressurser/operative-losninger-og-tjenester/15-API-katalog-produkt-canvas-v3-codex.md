@@ -76,6 +76,15 @@ Operative mål utledet fra de samme kildene:
 | Kobling mellom API-er, datasett og informasjonsmodeller | Autorisasjon, autentisering eller tilgangskontroll i API-et |
 | Delkatalog for API-er innenfor Felles datakatalog | Hele Felles datakatalog som overordnet produktområde |
 | Standardisert beskrivelse av API-er som dataressurser | Full utviklerportal med testmiljø, supportløp og driftsovervåking |
+### Typiske brukssituasjoner (generisk)
+- Virksomhet vil publisere sine API-er og gjøre dem oppdagbare for utviklere og arkitekter i offentlig sektor.
+- Prosjekt eller arkitekt søker etter eksisterende API-er for å vurdere gjenbruk i stedet for nyutvikling.
+- Tverrsektoriell analyse trenger oversikt over hvilke datatjenester som er tilgjengelige på tvers av virksomheter.
+
+### Når API-katalog normalt ikke er førstevalg
+- Når behovet er å drifte, sikre eller overvåke API-et i kjøretid – da er API-ets eget grensesnitt og gateway mer relevant.
+- Når behovet er intern API-katalog uten publiseringsplikt eller deling med andre.
+- Når behovet er tilgang til selve dataene – da er Maskinporten eller data.altinn.no mer relevant.
 
 ## Veikart over kommende funksjonalitet
 **Fakta fra brukte kilder (kontrollert 2026-03-27):**
@@ -130,6 +139,15 @@ API-katalog er en spesialisert delkatalog for publisering og oppdagelse av API-b
 - Produktet kan brukes av mange virksomheter som felles oversikt over publiserte API-er.
 - Det er særlig relevant når behovet er å finne og forstå eksisterende API-er, ikke å drifte eller sikre dem.
 - Verdien øker når API-beskrivelser kobles til øvrige dataressurser i Felles datakatalog.
+
+
+### Vanlige kombinasjoner med andre produkter
+- **Felles datakatalog** – API-katalog er en spesialisert delkatalog innenfor dette produktområdet.
+- **data.norge.no** – portal der API-er publiseres og søkes frem.
+- **Maskinporten** – API-er beskrevet i katalogen er gjerne beskyttet av Maskinporten.
+- **Begrepskatalog** – begrepsgrunnlaget for dataene i API-et kan kobles til beskrivelsen i katalogen.
+
+**Kildekode:** Åpen kildekode. Lisens: Apache-2.0. Kildekode: [github.com/Informasjonsforvaltning](https://github.com/Informasjonsforvaltning).
 
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** støttes ved at API-er synliggjøres som kanal for gjenbruk av data.

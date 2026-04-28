@@ -69,6 +69,16 @@ Operative mål utledet fra de samme kildene:
 | Registrering og vedlikehold av mottaksinformasjon | Utstedelse av sertifikater og tillitsrammeverk |
 | Norsk SMP-rolle i Peppol-sammenheng | Forvaltning av EHF-standarden eller OpenPeppol-regelverket |
 | Oppslag som støtter EHF- og Peppol-ruting | Saksbehandling, bestilling, fakturering eller annen forretningslogikk |
+### Typiske brukssituasjoner (generisk)
+- Avsender trenger å kontrollere om en mottaker er registrert og kan motta EHF-/Peppol-dokumenter elektronisk.
+- Aksesspunkt trenger å slå opp mottakers adresse og dokumenttyper for riktig ruting.
+- Virksomhet skal registrere seg for å motta elektronisk faktura fra leverandører.
+- Systemintegratør kontrollerer mottakerkapasitet som del av et automatisert fakturaløp.
+
+### Når ELMA normalt ikke er førstevalg
+- Utenfor EHF- og Peppol-kontekst, for eksempel ved offentlig meldingsformidling mellom etater – da er eFormidling mer relevant.
+- Når behovet er selve transporten av dokumentet – da er et aksesspunkt i Peppol-nettverket mer relevant.
+- Når behovet er innholdsstandarden (EHF-format) – da er ikke ELMA i seg selv det rette produktet.
 
 ## Veikart over kommende funksjonalitet
 **Fakta:** Jeg fant ikke et offentlig, tidsfestet veikart for ELMA i kildene brukt i denne arbeidsøkten.
@@ -120,6 +130,14 @@ ELMA er en norsk oppslagstjeneste i Peppol-sammenheng, og fungerer som nasjonal 
 - Mange avsendere, leverandører og aksesspunktaktører kan bruke samme nasjonale oppslagstjeneste.
 - ELMA gjør det unødvendig å bygge egne mottakerregistre for hver løsning.
 - Gjenbruksverdien er høy i EHF- og Peppol-sammenheng, men lav utenfor dette økosystemet.
+
+
+### Vanlige kombinasjoner med andre produkter
+- **Peppol eDelivery** – ELMA er oppslagstjeneste i Peppol-nettverket og brukes alltid i sammenheng med Peppol-basert transport.
+- **eFormidling** – bruker ELMA for å avklare om mottaker kan nås via Peppol som del av kanalvalget i formidlingsinfrastrukturen.
+- **Aksesspunkter fra private leverandører** – bruker ELMA for ruting av dokumenter.
+
+**Kildekode:** Ikke offentlig dokumentert.
 
 ## Støtter arkitekturprinsipper
 - **P5 Del og gjenbruk løsninger** - ELMA er en nasjonal komponent som kan brukes av mange aktører i samme samhandlingsmønster.

@@ -81,6 +81,17 @@ Dialogporten har også en tydelig rolle i Altinns modernisering av arbeidsflate 
 | Samspill med arbeidsflate og sluttbrukersystemer | Lokal saksbehandling i avsenders fagsystem |
 | Migrering og livesynkronisering av dialogrelaterte metadata | Full erstatning for alle meldings- eller appprodukter |
 | Tillits- og autorisasjonskoblinger for korrekt tilgang | Selvstendig identitets- og autorisasjonsforvaltning utenfor Altinn |
+### Typiske brukssituasjoner (generisk)
+- Sluttbrukersystem eller arbeidsflate trenger felles tilgang til dialoger fra mange tjenesteplattformer uten separate integrasjoner mot hver.
+- Tjenesteeier vil gjøre sin tjeneste synlig i innbyggerens eller virksomhetens arbeidsflate.
+- Integrasjon mellom tjenesteplattform og sluttbrukersystem trenger en standardisert dialogmodell med hendelser og API.
+- System trenger å abonnere på statusendringer i dialoger på tvers av tjenester.
+
+### Når Dialogporten normalt ikke er førstevalg
+- Når behovet kun er enkel varsling via e-post eller SMS – da er Altinn Varsling mer relevant.
+- Når behovet er overføring av store filer – da er Altinn Formidling mer relevant.
+- Når behovet er å produsere meldingsinnhold og skrive til dialoger – da er Altinn Melding eller Altinn Apps mer relevant, siden Dialogporten er skrivebeskyttet for sluttbrukere.
+- Når tjenesteplattformen ikke er koblet til Dialogporten og det ikke er planer om det.
 
 ## Veikart over kommende funksjonalitet
 **Fakta fra brukte kilder (kontrollert 2026-03-26):**
@@ -133,6 +144,15 @@ Felles dialoglag i Altinn-porteføljen med API-er, GraphQL, hendelser og integra
 - Felles dialogformat reduserer behovet for proprietære integrasjoner.
 - Samme dialog kan eksponeres i flere arbeidsflater uten å redefinere modellen.
 - Hendelser og standardiserte API-er gjør løsningen gjenbrukbar både for nye og eksisterende tjenester.
+
+
+### Vanlige kombinasjoner med andre produkter
+- **Altinn Melding** – alle meldinger i Altinn Melding representeres automatisk som dialoger i Dialogporten.
+- **Altinn Apps** – apper eksponeres via Dialogporten slik at brukerne ser dem i sin arbeidsflate.
+- **Altinn Varsling** – varsler sendes parallelt med at dialog opprettes eller oppdateres.
+- **Altinn Autorisasjon** – styrer hvem som har tilgang til å se og behandle dialoger.
+
+**Kildekode:** Åpen kildekode. Lisens: MIT. Kildekode: [github.com/Altinn/dialogporten](https://github.com/Altinn/dialogporten).
 
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** gjør dialogmetadata tilgjengelig på tvers av løsninger.

@@ -83,6 +83,15 @@ data.altinn.no er derfor riktig produkt når vurderingen gjelder kontrollert dat
 | Maskinporten- og API-nøkkelbasert integrasjon | Sluttbrukerportal for innbyggere som hovedflate |
 | Flere domenetjenester bygget på samme mønster | Generell metadataforvaltning som eget hovedformål |
 | Henting av data direkte fra kilden | Erstatning for juridiske vurderinger hos tjenesteeier og datatilbyder |
+### Typiske brukssituasjoner (generisk)
+- Offentlig virksomhet eller privat aktør trenger kontrollert maskinell tilgang til spesifikke offentlige data for å fatte vedtak eller gjennomføre vurderinger.
+- Finansinstitusjon, advokat eller revisor trenger å verifisere virksomhetsopplysninger direkte fra kilden.
+- Offentlig etat trenger tilgang til kontrolldata for saksbehandling uten å lagre kopier lokalt.
+
+### Når data.altinn.no normalt ikke er førstevalg
+- Når behovet er åpen publisering og oppdagelse av datasett – da er data.norge.no og Felles datakatalog mer relevant.
+- Når behovet er innbyggers egne oppslag uten maskinelt tilgangsregime.
+- Når tilgangen til kildedataene håndteres direkte med kilderegistrets eget API uten behov for den generiske delingsmodellen.
 
 ## Veikart over kommende funksjonalitet
 **Fakta fra brukte kilder (kontrollert 2026-03-26):**
@@ -133,6 +142,14 @@ Felles datadelingsløsning i Altinn-porteføljen med generisk API-modell, tjenes
 - Samme delingsmodell kan brukes på flere ulike forretningsområder.
 - Produktet reduserer behovet for lokale særintegrasjoner for kontrollert datadeling.
 - Gjenbruksverdien er størst når behovet gjelder sikker og styrt datadeling direkte fra kilden, ikke åpen publisering eller metadataoversikt.
+
+
+### Vanlige kombinasjoner med andre produkter
+- **Maskinporten** – er autentiseringsmekanismen for tilgang via data.altinn.no.
+- **Altinn Autorisasjon** – brukes for delegering og tilgangsstyring i tjenestekonteksten.
+- **Enhetsregisteret, Folkeregisteret, Skatteetatens delingstjenester** – er eksempler på kilderegistre som deles via data.altinn.no.
+
+**Kildekode:** Åpen kildekode. Lisens: MIT. Kildekode: [github.com/Altinn/altinn-accessmanagement](https://github.com/Altinn/altinn-accessmanagement).
 
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** er direkte relevant fordi produktet er laget for å hente og gjenbruke data fra kilden.

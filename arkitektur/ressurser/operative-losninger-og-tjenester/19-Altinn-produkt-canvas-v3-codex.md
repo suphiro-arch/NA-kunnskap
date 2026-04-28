@@ -76,6 +76,15 @@ Produktet omfatter samtidig ikke alle Altinn-funksjoner som egne innebygde delpr
 | Standardiserte plattformtjenester og integrasjonsmønstre | Altinn 2 som separat produktbetegnelse |
 | Grunnlag for innsending, prosess, data og integrasjon i tjenester | Full brukerportalbeskrivelse som egen ressurs |
 | Moderniserings- og standardiseringsgrunnlag for nye Altinn-tjenester | Alle sektorinterne systemer som kobles til plattformen |
+### Typiske brukssituasjoner (generisk)
+- Offentlig virksomhet vil etablere en ny digital tjeneste med skjema, prosessflyt og datautveksling på Altinn-plattformen.
+- Eksisterende tjeneste migreres fra Altinn 2 til ny plattform og trenger det nye kjøretids- og utviklingsrammeverket.
+- Tjeneste trenger tilgang til felles infrastruktur for innlogging, autorisasjon, melding og varsling som plattformtjenester.
+
+### Når Altinn (plattform) normalt ikke er førstevalg
+- Når behovet kun gjelder ett spesialisert produkt som Altinn Melding, Dialogporten eller Altinn Autorisasjon – da er det aktuelle enkeltproduktet mer treffende.
+- Når tjenesten ikke skal bygge i Altinn, men i en annen tjenesteplattform.
+- Når behovet er generell applikasjonsutvikling utenfor Altinn-rammeverket.
 
 ## Veikart over kommende funksjonalitet
 **Fakta fra brukte kilder (kontrollert 26. mars 2026):**
@@ -126,6 +135,15 @@ Altinn 3 plattform er selv plattformlaget i denne produktbeskrivelsen, og omfatt
 - Plattformen gir et felles grunnmønster som kan brukes av mange offentlige tjenester.
 - Samme utviklings- og kjøretidsmodell kan gjenbrukes på tvers av sektorer og tjenestetyper.
 - Produktet er særlig relevant når behovet gjelder etablering av nye Altinn-baserte tjenester, ikke når behovet gjelder én spesialisert funksjon som varsling eller meldingsboks.
+
+
+### Vanlige kombinasjoner med andre produkter
+- **Altinn Studio** – er utviklingsflaten som brukes til å bygge tjenester som kjøres på plattformen.
+- **Altinn Autorisasjon** – integreres tett med tjenester som trenger representasjon og tilgangsstyring.
+- **Altinn Melding og Dialogporten** – brukes for korrespondanse og dialogeksponering fra apper på plattformen.
+- **ID-porten** – brukes for innlogging i tjenester som er deployet på Altinn.
+
+**Kildekode:** Åpen kildekode. Lisens: MIT. Kildekode: [github.com/Altinn](https://github.com/Altinn) (flere repositorier).
 
 ## Støtter arkitekturprinsipper
 - **P5: Del og gjenbruk løsninger** realiseres ved at flere tjenester kan bygge på samme plattformgrunnlag.

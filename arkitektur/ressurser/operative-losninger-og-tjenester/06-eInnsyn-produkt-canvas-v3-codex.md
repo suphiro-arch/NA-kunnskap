@@ -71,6 +71,17 @@ Operative mål utledet fra de samme kildene:
 | Standardisert samspill mellom virksomheter og fagsystemer | Full erstatning for virksomhetens egne arbeidsprosesser |
 | Felles brukerinngang for innsyn | Generell dokumentforvaltning uten innsynsbehov |
 | Ta-i-bruk-løp og kostnadsmodell for felles løsning | Nasjonal katalog for alle typer data eller API-er |
+### Typiske brukssituasjoner (generisk)
+- Offentlig virksomhet skal gjøre journal, postliste og offentlige dokumenter tilgjengelig for innsyn.
+- Innbygger, journalist eller forsker søker etter saker og dokumenter på tvers av etater på ett sted.
+- Saksbehandlingssystem sender postliste og saksdokumenter videre til eInnsyn for eksponering.
+- Virksomhet oppfyller plikt om åpenhetsregistrering gjennom en felles nasjonal innsynsportal.
+
+### Når eInnsyn normalt ikke er førstevalg
+- Når behovet er intern arkivforvaltning og saksbehandling – da er egne fagsystemer mer relevante.
+- Når behovet er formidling av post eller vedtak til innbygger – da er Digital postkasse eller Altinn Melding mer relevant.
+- Når behovet er datadeling eller API-tilgang til strukturerte registerdata – da er Maskinporten eller data.altinn.no mer relevant.
+- Når innsynsbehovet gjelder ikke-journalføringspliktige interne dokumenter.
 
 ## Veikart over kommende funksjonalitet
 **Fakta fra Samarbeidsportalen og Digdir Docs (hentet 2026-03-17):**
@@ -123,6 +134,14 @@ eInnsyn er en felles publiserings- og innsynsplattform som samhandler med virkso
 - Løsningen er laget for at mange virksomheter skal bruke samme mønster for publisering og innsyn.
 - Den er særlig relevant når behovet er felles tilgang til offentlig informasjon på tvers av virksomheter.
 - Den er mindre relevant dersom behovet egentlig er intern dokumentforvaltning, arkivprosess eller katalogisering av andre typer ressurser.
+
+
+### Vanlige kombinasjoner med andre produkter
+- **eFormidling** – mange fagsystemer bruker eFormidling til å sende innhold til eInnsyn.
+- **FIKS SvarUt** – brukes av kommunale fagsystemer som alternativ til eFormidling for å publisere til eInnsyn.
+- **Lokale sak- og arkivsystemer** – produserer journalpostene som publiseres gjennom eInnsyn.
+
+**Kildekode:** Åpen kildekode. Lisens: EUPL-1.2. Kildekode: [github.com/felleslosninger/einnsyn-klient](https://github.com/felleslosninger/einnsyn-klient).
 
 ## Støtter arkitekturprinsipper
 - **P5: Del og gjenbruk løsninger** realiseres ved at publisering og innsyn tilbys som en felles løsning i stedet for mange lokale særvarianter.

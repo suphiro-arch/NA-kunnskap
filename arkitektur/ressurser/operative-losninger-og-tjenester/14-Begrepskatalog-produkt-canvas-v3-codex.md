@@ -77,6 +77,15 @@ Operative mål utledet fra de samme kildene:
 | Bruk av forvaltningsstandard for begrepsbeskrivelser | Automatisk harmonisering av terminologi på tvers uten faglig arbeid |
 | Delkatalog for begreper innenfor Felles datakatalog | Felles datakatalog som overordnet produktområde |
 | Semantisk grunnlag for andre kataloger og beskrivelser | Juridisk autorisasjon eller styring av datatilgang |
+### Typiske brukssituasjoner (generisk)
+- Virksomhet publiserer og forvalter begrepsbeskrivelser som grunnlag for felles forståelse på tvers av sektorer.
+- Prosjekt trenger referanse til kanoniske definisjoner i informasjonsmodelleringsarbeid eller datasett-beskrivelse.
+- Analyser og arkitekturvurderinger trenger å avklare om sentrale termer brukes med samme mening i ulike sammenhenger.
+
+### Når Begrepskatalog normalt ikke er førstevalg
+- Når behovet er katalog over datasett, API-er eller informasjonsmodeller – da er bredere deler av Felles datakatalog mer relevant.
+- Når begrepsforvaltningen er fullt intern og det ikke er planer om å publisere for felles bruk.
+- Når begrepsarbeidet ikke følger forvaltningsstandard for begreper og ikke er ment for maskinlesbar gjenbruk.
 
 ## Veikart over kommende funksjonalitet
 **Fakta fra brukte kilder (kontrollert 2026-03-27):**
@@ -131,6 +140,14 @@ Begrepskatalog er en spesialisert delkatalog for standardisert publisering og op
 - Produktet kan brukes av mange virksomheter som felles semantisk referanse.
 - Det er særlig relevant når behovet er å forklare og sammenligne begreper, ikke bare å finne datasett eller API-er.
 - Verdien øker når begreper kobles til andre dataressurser i Felles datakatalog.
+
+
+### Vanlige kombinasjoner med andre produkter
+- **Felles datakatalog** – Begrepskatalog er en spesialisert delkatalog innenfor dette produktområdet.
+- **data.norge.no** – portal der begreper publiseres og søkes frem.
+- **API-katalog og informasjonsmodellkatalog** – begreper brukes gjerne som semantisk grunnlag for informasjonsmodeller og API-beskrivelser.
+
+**Kildekode:** Åpen kildekode. Lisens: Apache-2.0. Kildekode: [github.com/Informasjonsforvaltning](https://github.com/Informasjonsforvaltning).
 
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** støttes ved at data kan forstås bedre når begrepene er beskrevet og delbare.

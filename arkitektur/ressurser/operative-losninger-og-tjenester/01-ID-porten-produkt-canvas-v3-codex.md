@@ -78,6 +78,18 @@ Operative mål utledet fra de samme kildene:
 | Token- og identitetsgrunnlag for videre bruk hos tjenesteeier | Signering av dokumenter eller transaksjoner |
 | Støtte for bruker-kontekst i enkelte virksomhetsscenarier | Fagspesifikk tilgangsstyring og vedtak om rettigheter |
 | Test, avtale og produksjonsløp for tilkobling | Erstatning for alle andre tillitstjenester i Digdir-porteføljen |
+### Typiske brukssituasjoner (generisk)
+- Ny offentlig tjeneste trenger brukerautentisering og skal ikke bygge lokalt innloggingssystem.
+- Eksisterende tjeneste vil erstatte lokal innloggingsløsning med en nasjonal felleskomponent.
+- Tjeneste trenger autentisert bruker-kontekst i API-kall, for eksempel der brukeren henter egne data fra et register.
+- Innbygger skal handle i en tjeneste i eget navn eller i kontekst av en valgt virksomhet.
+- Statlig tjeneste som er forpliktet til å bruke ID-porten som standard innloggingsløsning.
+
+### Når ID-porten normalt ikke er førstevalg
+- Når behovet er maskin-til-maskin-autentisering uten bruker i flyten – da er Maskinporten mer relevant.
+- Når behovet primært er signering av dokumenter – da er eSignering mer relevant.
+- Når behovet er detaljert autorisasjon, delegering og representasjon – da suppleres ID-porten med Altinn Autorisasjon.
+- Når tjenesten bare brukes internt i virksomheten og ikke trenger nasjonal eID.
 
 ## Veikart over kommende funksjonalitet
 **Fakta fra Samarbeidsportalen og Digdir Docs (hentet 2026-03-17):**
@@ -129,6 +141,15 @@ ID-porten er en nasjonal autentiseringsplattform bygget rundt føderering mot ek
 - Produktet er laget nettopp for å være en felles innloggingskomponent på tvers av mange tjenester.
 - Gjenbruket er organisatorisk så vel som teknisk, fordi både avtaleprosess, testløp og dokumentasjon er standardisert.
 - ID-porten er særlig relevant når behovet er brukervendt autentisering. Den er mindre relevant dersom behovet egentlig er maskin-til-maskin-autentisering eller fagspesifikk autorisasjon, der andre produkter er mer treffende.
+
+
+### Vanlige kombinasjoner med andre produkter
+- **Altinn Autorisasjon** – brukes sammen med ID-porten der tjenesten i tillegg trenger representasjon, delegering eller policybasert tilgangsstyring.
+- **Maskinporten** – supplerer ID-porten når samme løsning både har brukerrettet innlogging og maskinell API-tilgang.
+- **Kontakt- og reservasjonsregisteret** – brukes etter innlogging for å hente kontaktopplysninger til videre kommunikasjon.
+- **Altinn Varsling** – varsler brukere om handlingspunkter i tjenester der ID-porten brukes for innlogging.
+
+**Kildekode:** Ikke offentlig dokumentert.
 
 ## Støtter arkitekturprinsipper
 - **P1: Ta utgangspunkt i brukernes behov** gir en gjenkjennelig innloggingsopplevelse på tvers av tjenester.

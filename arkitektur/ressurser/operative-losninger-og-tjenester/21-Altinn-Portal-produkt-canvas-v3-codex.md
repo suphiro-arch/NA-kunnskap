@@ -81,6 +81,16 @@ Operative mål utledet fra de samme kildene:
 | Fullmakts- og tilgangsstyring i portalnær kontekst | All lokal autorisasjonsforvaltning utenfor Altinn |
 | Samlet inngang til skjema og tjenester | Erstatning for alle sektorspesifikke domeneportaler |
 | Overgang mellom gammel og ny arbeidsflate | Full harmonisering av alle historiske data i første fase av ny løsning |
+### Typiske brukssituasjoner (generisk)
+- Innbygger eller virksomhetsbruker trenger tilgang til meldinger, vedtak og oppgaver fra offentlige virksomheter samlet på ett sted.
+- Bruker skal gi, endre eller trekke tilbake fullmakter og tilganger til andre.
+- Virksomhet administrerer rettigheter for ansatte og representerer virksomheten i offentlige tjenester.
+- Tjenesteeier vil at sluttbrukerne kan nå tjenesten gjennom en nasjonal arbeidsflate uten å bygge egen portal.
+
+### Når Altinn Portal normalt ikke er førstevalg
+- Når behovet er en sektorspesifikk portal med egne arbeidsprosesser som skiller seg vesentlig fra Altinn-modellen.
+- Når sluttbrukerflyten er fullt integrert i en annen kanal og brukeren aldri skal innom Altinn selv.
+- Når behovet er ren API-integrasjon uten brukergrensesnitt i Altinn.
 
 ## Veikart over kommende funksjonalitet
 **Fakta fra kilder (2026-03-10):**
@@ -134,6 +144,15 @@ Portal- og arbeidsflatekomponent i Altinn-porteføljen, med brukergrensesnitt fo
 - ån felles portalflate reduserer behovet for parallelle sluttbrukerinnganger.
 - Felles mønstre for innboks, fullmakt og tilgangsstyring kan brukes på tvers av mange tjenester.
 - Tjenesteeiere får gjenbruk av en etablert nasjonal arbeidsflate i stedet for å bygge egne tilsvarende løsninger.
+
+
+### Vanlige kombinasjoner med andre produkter
+- **ID-porten** – brukes for innlogging i Altinn Portal.
+- **Altinn Autorisasjon** – fullmakter, tilgangspakker og representasjon forvaltes i portalen.
+- **Altinn Melding og Dialogporten** – innboksen i portalen viser meldinger og dialoger fra tjenesteeiere.
+- **Altinn Varsling** – varsler brukere om at noe venter i portalen.
+
+**Kildekode:** Ikke offentlig dokumentert.
 
 ## Støtter arkitekturprinsipper
 - **P1: Ta utgangspunkt i brukernes behov** samler søk, meldinger og tilganger i mer sammenhengende brukerreiser.

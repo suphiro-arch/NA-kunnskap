@@ -78,6 +78,16 @@ Samtidig dekker ikke Altinn Studio alt som trengs for å levere en komplett tjen
 | Standardkomponenter og mønstre for tjenesteutvikling | Full separat beskrivelse av øvrige Altinn-produkter |
 | Integrasjon med eksterne datakilder og lokal utvikling | Drift og forvaltning av alle produksjonsmiljøer som egen funksjon |
 | Klargjøring for deploy til Altinn Apps | Alle typer applikasjonsutvikling utenfor Altinn-rammeverket |
+### Typiske brukssituasjoner (generisk)
+- Tjenesteeier vil bygge en ny skjema- eller saksflyt-tjeneste i Altinn og trenger et visuelt utviklingsverktøy.
+- Utvikler trenger å modellere datamodell, prosessflyt og valideringsregler for en Altinn-app.
+- Eksisterende tjeneste skal oppdateres med nye skjemakomponenter eller endret prosessflyt.
+- Tjeneste trenger kombinasjon av skjema- og API-basert innsending over samme datamodell.
+
+### Når Altinn Studio normalt ikke er førstevalg
+- Når behovet er generell applikasjonsutvikling utenfor Altinn-rammeverket.
+- Når behovet kun er kjøretidsmiljøet uten utvikling av nye tjenester.
+- Når tjenesten er en integrasjon mot eksisterende Altinn-produkter uten behov for å bygge en ny app.
 
 ## Veikart over kommende funksjonalitet
 **Fakta fra brukte kilder (kontrollert 2026-03-26):**
@@ -128,6 +138,15 @@ Utviklingsflate i Altinn-porteføljen som leder videre til deploy og kjøring i 
 - Studio gjør det mulig å gjenbruke standardkomponenter og mønstre på tvers av mange tjenester.
 - Samme utviklingsgrunnlag kan brukes av flere virksomheter i Altinn.
 - Gjenbruksverdien er størst når behovet er å bygge tjenester innenfor Altinns modell, ikke når behovet gjelder generell applikasjonsutvikling utenfor Altinn.
+
+
+### Vanlige kombinasjoner med andre produkter
+- **Altinn (plattform) / Altinn Apps** – Studio produserer apper som kjøres i Altinn Apps.
+- **Altinn Autorisasjon** – brukes for tilgangsstyring av apper utviklet i Studio.
+- **Maskinporten** – API-er fra apper er typisk sikret med Maskinporten.
+- **Altinn Events** – apper publiserer hendelser som andre systemer kan abonnere på.
+
+**Kildekode:** Åpen kildekode. Lisens: MIT. Kildekode: [github.com/Altinn/altinn-studio](https://github.com/Altinn/altinn-studio).
 
 ## Støtter arkitekturprinsipper
 - **P1: Ta utgangspunkt i brukernes behov** støttes gjennom vekt på tilgjengelige og brukervennlige tjenester.

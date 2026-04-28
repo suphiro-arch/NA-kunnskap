@@ -79,6 +79,17 @@ Produktet er også tett koblet til Altinns autorisasjonsmodell. Dokumentasjonen 
 | Webhook-basert levering med retry-logikk | Sluttbrukerkommunikasjon via meldingsboks eller varsling |
 | Filtrering, autorisasjon og tilgang til hendelseskilder | Langtidslagring av hendelser utover dokumentert retensjonsperiode |
 | Støtte for CloudEvents-basert standardisering | Erstatning for fagspesifikk forretningslogikk |
+### Typiske brukssituasjoner (generisk)
+- System trenger å reagere på hendelser i en annen tjeneste uten å polle API-et kontinuerlig.
+- Tjeneste skal abonnere på statusendringer fra en Altinn-app og iverksette tiltak automatisk.
+- Integrasjon mellom systemer der push-varsling er mer effektivt og robust enn polling.
+- Løsning trenger å motta hendelser fra Altinn Melding for videre prosessering i eget fagsystem.
+
+### Når Altinn Events normalt ikke er førstevalg
+- Når behovet er overføring av store filer eller dokumenter – da er Altinn Formidling mer relevant.
+- Når behovet er korrespondanse og meldingsinnhold til innbygger – da er Altinn Melding mer relevant.
+- Når behovet er varsling til innbygger via e-post eller SMS – da er Altinn Varsling mer relevant.
+- Når systemet klarer seg med enkel polling og lavt volum av statussjekker.
 
 ## Veikart over kommende funksjonalitet
 **Fakta fra brukte kilder (kontrollert 2026-03-26):**
@@ -129,6 +140,15 @@ Felles hendelsesplattform i Altinn-porteføljen med publish/subscribe-mønster, 
 - Samme hendelsestjeneste kan brukes av mange ulike produkter og tjenester.
 - Produktet gir et felles mønster for løs kobling mellom utgivere og mottakere.
 - Gjenbruksverdien er størst når behovet er hendelsesdrevet samhandling, ikke filoverføring eller sluttbrukerdialog.
+
+
+### Vanlige kombinasjoner med andre produkter
+- **Altinn Apps** – apper produserer hendelser som andre systemer kan abonnere på via Altinn Events.
+- **Altinn Melding** – nye meldinger genererer hendelser som kan fanges opp av abonnenter.
+- **Maskinporten** – brukes for autentisering av systemer som skal abonnere på hendelsesstrømmer.
+- **Altinn Autorisasjon** – styrer tilgangen til hvilke hendelseskilder en klient kan abonnere på.
+
+**Kildekode:** Åpen kildekode. Lisens: MIT. Kildekode: [github.com/Altinn/altinn-events](https://github.com/Altinn/altinn-events).
 
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** støttes ved at hendelser kan deles mellom autoriserte parter.

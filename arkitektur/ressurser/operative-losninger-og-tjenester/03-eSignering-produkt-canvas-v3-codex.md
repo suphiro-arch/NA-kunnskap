@@ -73,6 +73,17 @@ Operative mål utledet fra de samme kildene:
 | Retur av ferdig signert dokument og statusinformasjon | Lokal arkiv- eller dokumentforvaltning hos virksomheten |
 | Integrasjon i virksomhetens egne prosesser | Faglig beslutning om hvem som skal signere og hvorfor |
 | Felles innførings- og forvaltningsløp | Full erstatning for andre tillitstjenester som ID-porten eller Maskinporten |
+### Typiske brukssituasjoner (generisk)
+- Offentlig prosess krever at innbygger eller annen part signerer et dokument digitalt, for eksempel en søknad, avtale eller erklæring.
+- Saksgang der signering inngår som et obligatorisk trinn som fagsystemet ikke håndterer på egenhånd.
+- Tjeneste med behov for signering fra flere parter som kan signere uavhengig av hverandre.
+- Virksomhet ønsker å erstatte papirbasert signering med en digital fellesløsning.
+
+### Når eSignering normalt ikke er førstevalg
+- Når behovet er innlogging eller identitetsbekreftelse uten signering – da er ID-porten mer relevant.
+- Når behovet er å sende det ferdige dokumentet til mottaker – da suppleres med Digital postkasse eller eFormidling.
+- Når signeringen skjer internt i virksomheten uten behov for ekstern eID-basert signatur.
+- Når dokumentet ikke krever formell elektronisk signatur, men bare en enkel bekreftelse.
 
 ## Veikart over kommende funksjonalitet
 **Fakta fra Samarbeidsportalen og Digdir Docs (hentet 2026-03-17):**
@@ -126,6 +137,15 @@ eSignering er en nasjonal plattform for digital gjennomføring av signeringsoppd
 - Løsningen er laget for å kunne brukes på tvers av mange typer offentlige prosesser.
 - Den er spesielt relevant når behovet er digital signering som del av en arbeidsflyt.
 - Den er mindre relevant dersom behovet egentlig er ren autentisering, varsling eller dokumentforvaltning uten signering.
+
+
+### Vanlige kombinasjoner med andre produkter
+- **ID-porten** – brukes for autentisering av signataren under signeringsoppdraget.
+- **Digital postkasse** – leverer det signerte dokumentet til mottakers postkasse etter at signeringen er gjennomført.
+- **eFormidling** – kan brukes til å formidle signerte dokumenter videre i et meldingsløp mellom virksomheter.
+- **Kontakt- og reservasjonsregisteret** – kan brukes for å finne riktig kanal for varsling til signataren.
+
+**Kildekode:** Ikke offentlig dokumentert.
 
 ## Støtter arkitekturprinsipper
 - **P5: Del og gjenbruk løsninger** realiseres ved at signering tilbys som nasjonal fellestjeneste i stedet for lokale særvarianter.

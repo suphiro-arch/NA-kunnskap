@@ -141,9 +141,8 @@ Felles autorisasjonsprodukt i Altinn-porteføljen med brukerflate, API-er og ark
 - Gjenbruksverdien er størst når behovet gjelder representasjon, policybasert tilgang og standardisert autorisasjon, ikke når behovet bare er innlogging.
 
 **Vanlige kombinasjoner med andre produkter:**
-- Altinn autorisasjon + ID-porten når brukerinnlogging må kobles til representasjon og tilgangsbeslutning.
-- Altinn autorisasjon + Maskinporten når systemtilgang og policybasert autorisasjon må fungere sammen.
-- Altinn autorisasjon + Dialogporten eller Altinn Melding når dialog- og meldingsflater trenger styrt tilgang på tvers av parter.
+
+**Kildekode:** Åpen kildekode. Lisens: MIT. Kildekode: [github.com/Altinn/altinn-access-management](https://github.com/Altinn/altinn-access-management).
 
 ## Støtter arkitekturprinsipper
 - **P5: Del og gjenbruk løsninger** realiseres ved at flere tjenester kan bruke samme autorisasjonsgrunnlag.
