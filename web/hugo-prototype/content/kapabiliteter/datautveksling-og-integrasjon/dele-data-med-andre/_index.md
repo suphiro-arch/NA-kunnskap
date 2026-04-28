@@ -4,7 +4,7 @@ headerTitle: "Datautveksling og integrasjon - Dele data med andre"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er, slik at andre aktører med lovlig grunnlag enkelt kan oppdage og gjenbruke dem."
-cardMeta: "27 produkter"
+cardMeta: "28 produkter"
 ---
 
 Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er, slik at andre aktører med lovlig grunnlag enkelt kan oppdage og gjenbruke dem.
@@ -131,6 +131,12 @@ Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er, sl
     <h3 class="capability-product-link__title">Motorvognregisteret</h3>
     <p class="capability-product-link__description">Motorvognregisteret gjør kjøretøyopplysninger tilgjengelige gjennom oppslag og API-er under ulike vilkår.</p>
     <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/60-Motorvognregisteret-produkt-canvas-v1-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link resource-type--operative">
+    <p class="capability-product-link__type">Operativ løsning</p>
+    <h3 class="capability-product-link__title">NVDB</h3>
+    <p class="capability-product-link__description">NVDB har verdi som delt nasjonalt vegdatagrunnlag fordi opplysningene kan brukes videre av mange aktører i analyse, planlegging og samhandling.</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/61-NVDB-produkt-canvas-v1-codex.md">Åpne ressursbeskrivelse</a>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>

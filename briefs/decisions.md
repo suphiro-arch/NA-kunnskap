@@ -72,3 +72,5 @@ sources: []
 | 2026-04-11 | Kvalitetsport for ikke-operative ressurser | Prompt og mal for normerende ressurser og samarbeidsfora skal eksplisitt skille mellom fakta, deduksjon og usikkerhet, bruke strengere `v1`-sjekk og holde kapabilitetsnavn rene og kanoniske | Gjør beskrivelsene bedre egnet som direkte analysegrunnlag, reduserer spekulative `v1`-løft og hindrer at forklarende fritekst forurenser videre bruk i web og filtrering | team |
 
 
+| 2026-04-28 | Tverrgående datagrunnlag | `NVDB` skal prioriteres inn som ressurs fordi vegdata har tydelig verdi på tvers, blant annet for beredskap, sikkerhet, bærekraft og samordning mellom forvaltningsnivåer | Presiserer at sektorspesifikke datakilder kan tas inn når de samtidig har sterk tverrgående analyseverdi | team |
+| 2026-04-28 | Enhetsregisteret delingsflater | API-er, åpne oppslag, nøkkelopplysninger og maskinell tilgang for Enhetsregisteret skal beskrives tydeligere i eksisterende ressurs, ikke opprettes som egen separat ressurs | Holder ressursnivået ryddig og beskriver de viktigste delingsflatene som del av selve Enhetsregisteret | team |

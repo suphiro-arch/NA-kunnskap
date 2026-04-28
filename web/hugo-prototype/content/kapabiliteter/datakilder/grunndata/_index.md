@@ -4,7 +4,7 @@ headerTitle: "Datakilder - Grunndata"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å identifisere og formelt anerkjenne autoritative datakilder basert på en systematisk vurdering av deres verdi."
-cardMeta: "15 produkter"
+cardMeta: "16 produkter"
 ---
 
 Evne til å identifisere og formelt anerkjenne autoritative datakilder basert på en systematisk vurdering av deres verdi.
@@ -71,6 +71,12 @@ Evne til å identifisere og formelt anerkjenne autoritative datakilder basert p�
     <h3 class="capability-product-link__title">Motorvognregisteret</h3>
     <p class="capability-product-link__description">Motorvognregisteret er den nasjonale kilden for grunnleggende opplysninger om norske kjøretøy.</p>
     <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/60-Motorvognregisteret-produkt-canvas-v1-codex.md">Åpne ressursbeskrivelse</a>
+  </article>
+  <article class="capability-product-link resource-type--operative">
+    <p class="capability-product-link__type">Operativ løsning</p>
+    <h3 class="capability-product-link__title">NVDB</h3>
+    <p class="capability-product-link__description">NVDB er en nasjonal og autoritativ datakilde for vegnett og vegrelaterte objekter som mange aktører bygger videre på.</p>
+    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/61-NVDB-produkt-canvas-v1-codex.md">Åpne ressursbeskrivelse</a>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>

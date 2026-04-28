@@ -230,7 +230,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | Løpenr | Ressurs-ID | Navn | Type | Kapabiliteter | Dokument |
 |---:|---|---|---|---|---|
 | 60 | `SVV-001` | Motorvognregisteret | Kjøretøydata | Grunndata<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/60-Motorvognregisteret-produkt-canvas-v1-codex.md) |
-| 61 | `SVV-002` | NVDB | Vegdata | Grunndata<br>Oversikt over datasett | - |
+| 61 | `SVV-002` | NVDB | Vegdata | Grunndata<br>Oversikt over datasett<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/61-NVDB-produkt-canvas-v1-codex.md) |
 
 
 

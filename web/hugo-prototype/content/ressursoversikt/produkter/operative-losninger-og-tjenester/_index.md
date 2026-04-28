@@ -18,6 +18,7 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Operativ
       <label>Eier <select class="resource-filter" data-filter="owner"><option value="">Alle</option>
         <option value="BRREG">BRREG</option>
         <option value="DIGDIR">DIGDIR</option>
+        <option value="FHI">FHI</option>
         <option value="FLERE">FLERE</option>
         <option value="HDIR">HDIR</option>
         <option value="HELFO">HELFO</option>
@@ -49,6 +50,7 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Operativ
         <option value="Designsystem">Designsystem</option>
         <option value="Dialogtjeneste og representasjonslag">Dialogtjeneste og representasjonslag</option>
         <option value="Digital signering">Digital signering</option>
+        <option value="D&#248;ds&#229;rsaksregister">D&#248;ds&#229;rsaksregister</option>
         <option value="Eiendoms- og adresseregister">Eiendoms- og adresseregister</option>
         <option value="Felles l&#248;sning for inntak og administrasjon i videreg&#229;ende oppl&#230;ring">Felles l&#248;sning for inntak og administrasjon i videreg&#229;ende oppl&#230;ring</option>
         <option value="Felles rapportering">Felles rapportering</option>
@@ -65,7 +67,9 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Operativ
         <option value="Kontaktinformasjon og reservasjon">Kontaktinformasjon og reservasjon</option>
         <option value="Kontrollert datadelingstjeneste">Kontrollert datadelingstjeneste</option>
         <option value="Korrespondansetjeneste">Korrespondansetjeneste</option>
+        <option value="Legemiddelregister">Legemiddelregister</option>
         <option value="Maskin-til-maskin autentisering">Maskin-til-maskin autentisering</option>
+        <option value="Meldingssystem for smittsomme sykdommer">Meldingssystem for smittsomme sykdommer</option>
         <option value="Meldingsutveksling">Meldingsutveksling</option>
         <option value="Meldingsutveksling / transportlag">Meldingsutveksling / transportlag</option>
         <option value="Metadata- og publiseringsl&#248;sning for dataressurser">Metadata- og publiseringsl&#248;sning for dataressurser</option>
@@ -92,14 +96,18 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Operativ
         <option value="Utsendingstjeneste for digital og fysisk post">Utsendingstjeneste for digital og fysisk post</option>
         <option value="Utsendingstjeneste for digital og fysisk post til innbyggere">Utsendingstjeneste for digital og fysisk post til innbyggere</option>
         <option value="Utviklingsflate for tjenester">Utviklingsflate for tjenester</option>
+        <option value="Vaksinasjonsregister">Vaksinasjonsregister</option>
         <option value="Varslingstjeneste (SMS/e-post)">Varslingstjeneste (SMS/e-post)</option>
+        <option value="Vegdata">Vegdata</option>
         <option value="Virksomhetsregister">Virksomhetsregister</option>
         <option value="Vitnem&#229;l">Vitnem&#229;l</option>
       </select></label>
       <label>Kapabilitet <select class="resource-filter" data-filter="capability"><option value="">Alle</option>
         <option value="Autentisering">Autentisering</option>
         <option value="Bruke data fra andre">Bruke data fra andre</option>
+        <option value="Datakilder: Grunndata">Datakilder: Grunndata</option>
         <option value="Datastyring">Datastyring</option>
+        <option value="Datautveksling og integrasjon: Dele data med andre">Datautveksling og integrasjon: Dele data med andre</option>
         <option value="Dele data med andre">Dele data med andre</option>
         <option value="Forvaltningsstandarder">Forvaltningsstandarder</option>
         <option value="Gjenbrukbare tjenester">Gjenbrukbare tjenester</option>
@@ -107,6 +115,7 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Operativ
         <option value="Hendelsesdrevet">Hendelsesdrevet</option>
         <option value="Identifisering">Identifisering</option>
         <option value="Informasjonsarkitektur">Informasjonsarkitektur</option>
+        <option value="Informasjonsforvaltning: Datastyring">Informasjonsforvaltning: Datastyring</option>
         <option value="Integrerbare tjenester">Integrerbare tjenester</option>
         <option value="Meldingsformidling">Meldingsformidling</option>
         <option value="Organisatorisk samhandling">Organisatorisk samhandling</option>
@@ -118,12 +127,14 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Operativ
         <option value="Oversikt over tjenester">Oversikt over tjenester</option>
         <option value="Proaktive tjenester">Proaktive tjenester</option>
         <option value="Representasjon">Representasjon</option>
+        <option value="Samarbeid: Organisatorisk samhandling">Samarbeid: Organisatorisk samhandling</option>
         <option value="Samarbeidsarenaer og nettverk">Samarbeidsarenaer og nettverk</option>
         <option value="Sammenhengende tjenester">Sammenhengende tjenester</option>
         <option value="Sammenstilling av data">Sammenstilling av data</option>
         <option value="Samtykke">Samtykke</option>
         <option value="Signering">Signering</option>
         <option value="Sikring av informasjonsflyt og datautveksling">Sikring av informasjonsflyt og datautveksling</option>
+        <option value="Sluttbrukertjenester: Sammenhengende tjenester">Sluttbrukertjenester: Sammenhengende tjenester</option>
         <option value="Sporbarhet og innsyn">Sporbarhet og innsyn</option>
         <option value="Tilgangskontroll">Tilgangskontroll</option>
         <option value="Tilgangsstyring">Tilgangsstyring</option>
@@ -133,7 +144,7 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Operativ
         <option value="Utviklings- og kj&#248;retidsmilj&#248;">Utviklings- og kj&#248;retidsmilj&#248;</option>
       </select></label>
     </div>
-    <p class="resource-filters__result" data-role="count">Viser 63 av 63 ressurser</p>
+    <p class="resource-filters__result" data-role="count">Viser 68 av 68 ressurser</p>
   </div>
   <div class="resource-cards">
 <article class="resource-card" data-owner="DIGDIR" data-type="Autentiseringstjeneste" data-capabilities="sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester" data-search="id-porten digdir-001 digdir ikke oppgitt autentiseringstjeneste id-porten er den nasjonale fellesl&#248;sningen for sikker innlogging til offentlige digitale tjenester. l&#248;sningen gir innbyggere &#233;n gjenkjennelig inngang til tjenester p&#229; tvers av virksomheter, og gir tjenesteeiere en felles autentiseringskomponent i stedet for lokale innloggingsl&#248;sninger. id-porten er s&#230;rlig relevant n&#229;r... sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester">
@@ -360,11 +371,11 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Operativ
   <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/informasjonsforvaltning/datastyring/">Datastyring</a> <a class="capability-chip" href="../../../kapabiliteter/informasjonsforvaltning/oversikt-over-datasett/">Oversikt over datasett</a> <a class="capability-chip" href="../../../kapabiliteter/informasjonsforvaltning/oversikt-over-tjenester/">Oversikt over tjenester</a></p>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/30-FIKS-Digiorden-produkt-canvas-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://ksdigital.no/tjenestene/digiorden/">Offisiell lenke</a></p>
 </article>
-<article class="resource-card" data-owner="HDIR" data-type="Datatilgang" data-capabilities="oversikt over datasett datastyring sammenhengende tjenester" data-search="helsedata.no hdir-001 hdir ikke oppgitt datatilgang helsedata.no er den nasjonale portalen for &#229; finne informasjon om helsedata, orientere seg i datakilder og s&#248;ke om tilgang til data for analyse, forskning og annen lovlig bruk. produktet er b&#229;de en oversikts- og veiledningsflate og en inngang til sammenhengende s&#248;knads- og tilgangsl&#248;p. oversikt over datasett datastyring sammenhengende tjenester">
+<article class="resource-card" data-owner="HDIR" data-type="Datatilgang" data-capabilities="oversikt over datasett datastyring sammenhengende tjenester" data-search="helsedata.no hdir-001 hdir ikke oppgitt datatilgang helsedata.no er den nasjonale portalen for &#229; finne, forst&#229; og s&#248;ke tilgang til helsedata for forskning, analyse og annen lovlig bruk. l&#248;sningen kombinerer oversikt over datakilder, veiledning i tilgangsprosesser og en operativ inngang til s&#248;knadsl&#248;p gjennom helsedataservice og tilknyttede forvaltningsmilj&#248;er... oversikt over datasett datastyring sammenhengende tjenester">
   <h2 class="resource-card__title">Helsedata.no</h2>
   <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>HDIR-001</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
   <p class="resource-card__facts"><strong>Eier:</strong> HDIR | <strong>Kategori:</strong> Ikke oppgitt | <strong>Type:</strong> Datatilgang</p>
-  <p class="resource-card__description">Helsedata.no er den nasjonale portalen for &#229; finne informasjon om helsedata, orientere seg i datakilder og s&#248;ke om tilgang til data for analyse, forskning og annen lovlig bruk. Produktet er b&#229;de en oversikts- og veiledningsflate og en inngang til sammenhengende s&#248;knads- og tilgangsl&#248;p.</p>
+  <p class="resource-card__description">Helsedata.no er den nasjonale portalen for &#229; finne, forst&#229; og s&#248;ke tilgang til helsedata for forskning, analyse og annen lovlig bruk. L&#248;sningen kombinerer oversikt over datakilder, veiledning i tilgangsprosesser og en operativ inngang til s&#248;knadsl&#248;p gjennom Helsedataservice og tilknyttede forvaltningsmilj&#248;er...</p>
   <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/informasjonsforvaltning/oversikt-over-datasett/">Oversikt over datasett</a> <a class="capability-chip" href="../../../kapabiliteter/informasjonsforvaltning/datastyring/">Datastyring</a> <a class="capability-chip" href="../../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/">Sammenhengende tjenester</a></p>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://helsedata.no/">Offisiell lenke</a></p>
 </article>
@@ -440,11 +451,11 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Operativ
   <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/informasjonsforvaltning/oversikt-over-datasett/">Oversikt over datasett</a> <a class="capability-chip" href="../../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a></p>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/40-Geonorge-produkt-canvas-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.geonorge.no/aktuelt/om-geonorge/">Offisiell lenke</a></p>
 </article>
-<article class="resource-card" data-owner="BRREG" data-type="Virksomhetsregister" data-capabilities="grunndata dele data med andre" data-search="enhetsregisteret brreg-003 brreg ikke oppgitt virksomhetsregister enhetsregisteret er det nasjonale grunndataregisteret for virksomheter i norge. produktet samler og tilgjengeliggj&#248;r basisopplysninger om juridiske enheter og andre virksomheter, og tildeler organisasjonsnummer som felles identifikator. enhetsregisteret er derfor mer enn en registreringstjeneste: det er den sentrale... grunndata dele data med andre">
+<article class="resource-card" data-owner="BRREG" data-type="Virksomhetsregister" data-capabilities="grunndata dele data med andre" data-search="enhetsregisteret brreg-003 brreg ikke oppgitt virksomhetsregister ressursen m&#229; i praksis forst&#229;s bredere enn selve registerkjernen. for analyse- og samhandlingsform&#229;l inng&#229;r ogs&#229; de viktigste delingsflatene rundt enhetsregisteret, som &#229;pne oppslag, n&#248;kkelopplysninger, daglige endringer og maskinell tilgang. enhetsregisteret er det nasjonale grunndataregisteret for virksomheter i... grunndata dele data med andre">
   <h2 class="resource-card__title">Enhetsregisteret</h2>
   <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>BRREG-003</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
   <p class="resource-card__facts"><strong>Eier:</strong> BRREG | <strong>Kategori:</strong> Ikke oppgitt | <strong>Type:</strong> Virksomhetsregister</p>
-  <p class="resource-card__description">Enhetsregisteret er det nasjonale grunndataregisteret for virksomheter i Norge. Produktet samler og tilgjengeliggj&#248;r basisopplysninger om juridiske enheter og andre virksomheter, og tildeler organisasjonsnummer som felles identifikator. Enhetsregisteret er derfor mer enn en registreringstjeneste: det er den sentrale...</p>
+  <p class="resource-card__description">Ressursen m&#229; i praksis forst&#229;s bredere enn selve registerkjernen. For analyse- og samhandlingsform&#229;l inng&#229;r ogs&#229; de viktigste delingsflatene rundt Enhetsregisteret, som &#229;pne oppslag, n&#248;kkelopplysninger, daglige endringer og maskinell tilgang. Enhetsregisteret er det nasjonale grunndataregisteret for virksomheter i...</p>
   <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/datakilder/grunndata/">Grunndata</a> <a class="capability-chip" href="../../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a></p>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/46-Enhetsregisteret-produkt-canvas-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.brreg.no/om-oss/registrene-vare/om-enhetsregisteret/">Offisiell lenke</a></p>
 </article>
@@ -520,6 +531,14 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Operativ
   <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/datakilder/grunndata/">Grunndata</a> <a class="capability-chip" href="../../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a></p>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/60-Motorvognregisteret-produkt-canvas-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.vegvesen.no/kjoretoy/kjop-og-salg/kjoretoyopplysninger/om-utlevering-av-kjoretoyopplysninger/">Offisiell lenke</a></p>
 </article>
+<article class="resource-card" data-owner="SVV" data-type="Vegdata" data-capabilities="grunndata oversikt over datasett dele data med andre" data-search="nvdb svv-002 svv ikke oppgitt vegdata nvdb er den nasjonale datakilden for informasjon om vegnettet og en lang rekke vegrelaterte objekter i norge. ressursen samler, forvalter og tilgjengeliggj&#248;r vegdata som brukes i forvaltning, analyse, planlegging og digital samhandling. nvdb er derfor ikke bare et fagregister for samferdsel, men et nasjonalt... grunndata oversikt over datasett dele data med andre">
+  <h2 class="resource-card__title">NVDB</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>SVV-002</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> SVV | <strong>Kategori:</strong> Ikke oppgitt | <strong>Type:</strong> Vegdata</p>
+  <p class="resource-card__description">NVDB er den nasjonale datakilden for informasjon om vegnettet og en lang rekke vegrelaterte objekter i Norge. Ressursen samler, forvalter og tilgjengeliggj&#248;r vegdata som brukes i forvaltning, analyse, planlegging og digital samhandling. NVDB er derfor ikke bare et fagregister for samferdsel, men et nasjonalt...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/datakilder/grunndata/">Grunndata</a> <a class="capability-chip" href="../../../kapabiliteter/informasjonsforvaltning/oversikt-over-datasett/">Oversikt over datasett</a> <a class="capability-chip" href="../../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/61-NVDB-produkt-canvas-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.vegvesen.no/fag/fokusomrader/nasjonal-vegdatabank/">Offisiell lenke</a></p>
+</article>
 <article class="resource-card" data-owner="FLERE" data-type="Offentlig–privat datadeling" data-capabilities="dele data med andre organisatorisk samhandling" data-search="dsop-tjenester flere-002 flere ikke oppgitt offentlig–privat datadeling dsop-tjenester er den samlede produktflaten for offentlig-private datadelings- og samhandlingsl&#248;sninger i dsop-samarbeidet. produktet omfatter flere konkrete tjenester, men verdien ligger i den felles samarbeidsmodellen og delingsmekanismene mellom bank og offentlig sektor. dele data med andre organisatorisk samhandling">
   <h2 class="resource-card__title">DSOP-tjenester</h2>
   <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>FLERE-002</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
@@ -528,11 +547,11 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Operativ
   <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a> <a class="capability-chip" href="../../../kapabiliteter/samarbeid/organisatorisk-samhandling/">Organisatorisk samhandling</a></p>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/62-DSOP-tjenester-produkt-canvas-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.dsop.no/">Offisiell lenke</a></p>
 </article>
-<article class="resource-card" data-owner="SSB" data-type="Analyseplattform" data-capabilities="sammenstilling av data bruke data fra andre" data-search="microdata.no ssb-001 ssb ikke oppgitt analyseplattform microdata.no er en nasjonal analysetjeneste som gir forskere og andre godkjente brukere tilgang til &#229; analysere koblede registerdata i et kontrollert og skjermet milj&#248;. produktet gj&#248;r det mulig &#229; utf&#248;re statistiske analyser og sammenstillinger p&#229; tvers av flere datakilder uten at brukerne f&#229;r tradisjonell direkte... sammenstilling av data bruke data fra andre">
+<article class="resource-card" data-owner="SSB" data-type="Analyseplattform" data-capabilities="sammenstilling av data bruke data fra andre" data-search="microdata.no ssb-001 ssb ikke oppgitt analyseplattform microdata.no er en nasjonal analysetjeneste som gj&#248;r det mulig for godkjente brukere &#229; analysere koblede registerdata i et kontrollert milj&#248;, uten tradisjonell utlevering av individdata. l&#248;sningen kombinerer datatilgang, analysefunksjonalitet og personvernkontroller i samme arbeidsflate, og reduserer behovet for at... sammenstilling av data bruke data fra andre">
   <h2 class="resource-card__title">microdata.no</h2>
   <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>SSB-001</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
   <p class="resource-card__facts"><strong>Eier:</strong> SSB | <strong>Kategori:</strong> Ikke oppgitt | <strong>Type:</strong> Analyseplattform</p>
-  <p class="resource-card__description">microdata.no er en nasjonal analysetjeneste som gir forskere og andre godkjente brukere tilgang til &#229; analysere koblede registerdata i et kontrollert og skjermet milj&#248;. Produktet gj&#248;r det mulig &#229; utf&#248;re statistiske analyser og sammenstillinger p&#229; tvers av flere datakilder uten at brukerne f&#229;r tradisjonell direkte...</p>
+  <p class="resource-card__description">microdata.no er en nasjonal analysetjeneste som gj&#248;r det mulig for godkjente brukere &#229; analysere koblede registerdata i et kontrollert milj&#248;, uten tradisjonell utlevering av individdata. L&#248;sningen kombinerer datatilgang, analysefunksjonalitet og personvernkontroller i samme arbeidsflate, og reduserer behovet for at...</p>
   <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/datadrevet/sammenstilling-av-data/">Sammenstilling av data</a> <a class="capability-chip" href="../../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/">Bruke data fra andre</a></p>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/63-microdata-no-produkt-canvas-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.microdata.no/">Offisiell lenke</a></p>
 </article>
@@ -639,6 +658,38 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Operativ
   <p class="resource-card__description">Samarbeidsportalen er Digdirs operative portal for informasjon, forvaltningsdialog og ta-i-bruk-l&#248;p rundt nasjonale fellesl&#248;sninger og utvalgte prosjekter. Ressursen er viktig fordi den samler praktisk og l&#248;pende informasjon om l&#248;sninger som ellers ville v&#230;rt spredt mellom flere nettsteder, dokumentasjonsmilj&#248;er og...</p>
   <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/informasjonsforvaltning/oversikt-over-tjenester/">Oversikt over tjenester</a> <a class="capability-chip" href="../../../kapabiliteter/samarbeid/tjenesteforvaltning/">Tjenesteforvaltning</a> <a class="capability-chip" href="../../../kapabiliteter/samarbeid/samarbeidsarenaer-og-nettverk/">Samarbeidsarenaer og nettverk</a></p>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/127-Samarbeidsportalen-produkt-canvas-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://samarbeid.digdir.no/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="FHI" data-type="Vaksinasjonsregister" data-capabilities="datakilder: grunndata datautveksling og integrasjon: dele data med andre sluttbrukertjenester: sammenhengende tjenester" data-search="sysvak fhi-001 fhi ikke oppgitt vaksinasjonsregister sysvak er nasjonalt register for vaksinasjonsopplysninger og brukes som autoritativ kilde for registrering, oppf&#248;lging og dokumentasjon av vaksinasjon. registeret underst&#248;tter b&#229;de innbyggerrettede og profesjonsrettede tjenester ved at samme grunnlag kan brukes p&#229; tvers av akt&#248;rer. ressursen bidrar til at... datakilder: grunndata datautveksling og integrasjon: dele data med andre sluttbrukertjenester: sammenhengende tjenester">
+  <h2 class="resource-card__title">SYSVAK</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>FHI-001</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> FHI | <strong>Kategori:</strong> Ikke oppgitt | <strong>Type:</strong> Vaksinasjonsregister</p>
+  <p class="resource-card__description">SYSVAK er nasjonalt register for vaksinasjonsopplysninger og brukes som autoritativ kilde for registrering, oppf&#248;lging og dokumentasjon av vaksinasjon. Registeret underst&#248;tter b&#229;de innbyggerrettede og profesjonsrettede tjenester ved at samme grunnlag kan brukes p&#229; tvers av akt&#248;rer. Ressursen bidrar til at...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <span class="capability-chip">Datakilder: Grunndata</span> <span class="capability-chip">Datautveksling og integrasjon: Dele data med andre</span> <span class="capability-chip">Sluttbrukertjenester: Sammenhengende tjenester</span></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/128-SYSVAK-produkt-canvas-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.fhi.no/hn/helseregistre-og-registre/sysvak/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="FHI" data-type="Meldingssystem for smittsomme sykdommer" data-capabilities="datakilder: grunndata datautveksling og integrasjon: dele data med andre samarbeid: organisatorisk samhandling" data-search="msis fhi-002 fhi ikke oppgitt meldingssystem for smittsomme sykdommer msis er nasjonalt meldings- og registergrunnlag for smittsomme sykdommer og brukes til overv&#229;king, oppf&#248;lging og beredskapsst&#248;tte. ressursen gir et strukturert og sammenlignbart datagrunnlag for vurdering av smittesituasjon. l&#248;sningen bidrar til samhandling mellom helsetjeneste, fagmilj&#248; og myndigheter ved at... datakilder: grunndata datautveksling og integrasjon: dele data med andre samarbeid: organisatorisk samhandling">
+  <h2 class="resource-card__title">MSIS</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>FHI-002</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> FHI | <strong>Kategori:</strong> Ikke oppgitt | <strong>Type:</strong> Meldingssystem for smittsomme sykdommer</p>
+  <p class="resource-card__description">MSIS er nasjonalt meldings- og registergrunnlag for smittsomme sykdommer og brukes til overv&#229;king, oppf&#248;lging og beredskapsst&#248;tte. Ressursen gir et strukturert og sammenlignbart datagrunnlag for vurdering av smittesituasjon. L&#248;sningen bidrar til samhandling mellom helsetjeneste, fagmilj&#248; og myndigheter ved at...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <span class="capability-chip">Datakilder: Grunndata</span> <span class="capability-chip">Datautveksling og integrasjon: Dele data med andre</span> <span class="capability-chip">Samarbeid: Organisatorisk samhandling</span></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/129-MSIS-produkt-canvas-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.fhi.no/sv/smittsomme-sykdommer/msis/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="FHI" data-type="D&#248;ds&#229;rsaksregister" data-capabilities="datakilder: grunndata datautveksling og integrasjon: dele data med andre informasjonsforvaltning: datastyring" data-search="d&#248;ds&#229;rsaksregisteret fhi-003 fhi ikke oppgitt d&#248;ds&#229;rsaksregister d&#248;ds&#229;rsaksregisteret er det nasjonale registeret for informasjon om d&#248;dsfall og d&#248;ds&#229;rsaker i norge. registeret gir et konsistent og sammenlignbart datagrunnlag for overv&#229;king av d&#248;delighet, sykdomsbyrde og utvikling over tid. ressursen er sentral for helseanalyse, folkehelsearbeid og styringsinformasjon fordi den... datakilder: grunndata datautveksling og integrasjon: dele data med andre informasjonsforvaltning: datastyring">
+  <h2 class="resource-card__title">D&#248;ds&#229;rsaksregisteret</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>FHI-003</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> FHI | <strong>Kategori:</strong> Ikke oppgitt | <strong>Type:</strong> D&#248;ds&#229;rsaksregister</p>
+  <p class="resource-card__description">D&#248;ds&#229;rsaksregisteret er det nasjonale registeret for informasjon om d&#248;dsfall og d&#248;ds&#229;rsaker i Norge. Registeret gir et konsistent og sammenlignbart datagrunnlag for overv&#229;king av d&#248;delighet, sykdomsbyrde og utvikling over tid. Ressursen er sentral for helseanalyse, folkehelsearbeid og styringsinformasjon fordi den...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <span class="capability-chip">Datakilder: Grunndata</span> <span class="capability-chip">Datautveksling og integrasjon: Dele data med andre</span> <span class="capability-chip">Informasjonsforvaltning: Datastyring</span></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/130-Dodsarsaksregisteret-produkt-canvas-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.fhi.no/hn/helseregistre-og-registre/dodsarsaksregisteret/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="FHI" data-type="Legemiddelregister" data-capabilities="datakilder: grunndata datautveksling og integrasjon: dele data med andre informasjonsforvaltning: datastyring" data-search="reseptregisteret (norpd) fhi-004 fhi ikke oppgitt legemiddelregister reseptregisteret (norpd – norwegian prescription database) er det nasjonale registeret for reseptutskrivning og legemiddelutlevering i norge. registeret gir et konsistent og historisk datagrunnlag for &#229; f&#248;lge legemiddelbruk, bruksm&#248;nster og utvikling over tid. ressursen er sentral for farmakoepidemologi,... datakilder: grunndata datautveksling og integrasjon: dele data med andre informasjonsforvaltning: datastyring">
+  <h2 class="resource-card__title">Reseptregisteret (NorPD)</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>FHI-004</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> FHI | <strong>Kategori:</strong> Ikke oppgitt | <strong>Type:</strong> Legemiddelregister</p>
+  <p class="resource-card__description">Reseptregisteret (NorPD – Norwegian Prescription Database) er det nasjonale registeret for reseptutskrivning og legemiddelutlevering i Norge. Registeret gir et konsistent og historisk datagrunnlag for &#229; f&#248;lge legemiddelbruk, bruksm&#248;nster og utvikling over tid. Ressursen er sentral for farmakoepidemologi,...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <span class="capability-chip">Datakilder: Grunndata</span> <span class="capability-chip">Datautveksling og integrasjon: Dele data med andre</span> <span class="capability-chip">Informasjonsforvaltning: Datastyring</span></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/131-Reseptregisteret-NorPD-produkt-canvas-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.fhi.no/hn/helseregistre-og-registre/reseptregisteret/">Offisiell lenke</a></p>
 </article>
   </div>
   <script>
