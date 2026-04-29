@@ -5,7 +5,7 @@ weight: 8
 description: "Evne til å utvikle sammenhengende digitale tjenester."
 cardMeta: "4 delkapabiliteter / 21 produkter"
 productsMarkdown: |
-  ## Relaterte produkter
+  ## Relaterte ressurser
   
   <div class="capability-product-links">
     <article class="capability-product-link resource-type--operative">

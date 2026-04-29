@@ -9,6 +9,6 @@ cardMeta: "0 produkter"
 
 Evne til å tilgjengeliggjøre åpne data slik at den kan leses og tolkes av både maskiner og mennesker, og som alle kan få tilgang til, bruke og dele.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <p>Ingen produkter er koblet til denne kapabiliteten forelopig.</p>

@@ -9,7 +9,7 @@ cardMeta: "2 produkter"
 
 Evne til å formalisere samarbeid gjennom tydelig definerte roller, ansvar og avtaler for å sikre forutsigbar og effektiv felles styring mellom samhandlende virksomheter.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--operative">

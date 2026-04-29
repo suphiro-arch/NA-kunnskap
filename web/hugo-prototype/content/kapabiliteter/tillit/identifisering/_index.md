@@ -9,7 +9,7 @@ cardMeta: "3 produkter"
 
 Evne til entydig å fastslå og registrere identiteter (personer, virksomheter eller systemer) gjennom pålitelige metoder og kilder.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--operative">

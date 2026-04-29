@@ -9,7 +9,7 @@ cardMeta: "3 produkter"
 
 Evne til å hente, kombinere og foredle data fra ulike kilder for å skape ny innsikt, et helhetlig beslutningsgrunnlag, eller sammenhengende tjenester for brukeren.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--operative">

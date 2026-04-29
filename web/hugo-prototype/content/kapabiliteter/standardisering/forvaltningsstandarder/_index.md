@@ -9,7 +9,7 @@ cardMeta: "12 produkter"
 
 Evne til å implementere og ta i bruk nasjonale standarder.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--operative">

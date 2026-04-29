@@ -5,7 +5,7 @@ weight: 2
 description: "Evne til å samarbeid og samhandling på tvers av offentlig og privat forvaltning."
 cardMeta: "3 delkapabiliteter / 25 produkter"
 productsMarkdown: |
-  ## Relaterte produkter
+  ## Relaterte ressurser
   
   <div class="capability-product-links">
     <article class="capability-product-link resource-type--operative">

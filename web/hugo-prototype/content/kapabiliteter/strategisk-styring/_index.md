@@ -5,7 +5,7 @@ weight: 1
 description: "Evnen til å sette retning for nasjonal arkitektur og realisere strategiske mål."
 cardMeta: "3 delkapabiliteter / 11 produkter"
 productsMarkdown: |
-  ## Relaterte produkter
+  ## Relaterte ressurser
   
   <div class="capability-product-links">
     <article class="capability-product-link resource-type--forum">

@@ -9,7 +9,7 @@ cardMeta: "2 produkter"
 
 Dokumentasjon og logging av opplysninger for bruk i innsyn, forvaltning og kontroll av tillitstjenester.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--operative">

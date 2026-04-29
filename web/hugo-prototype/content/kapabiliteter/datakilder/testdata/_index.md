@@ -9,6 +9,6 @@ cardMeta: "0 produkter"
 
 Evne til å generere og tilgjengeliggjøre representative og personvernsikre datasett.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <p>Ingen produkter er koblet til denne kapabiliteten forelopig.</p>

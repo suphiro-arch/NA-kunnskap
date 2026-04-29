@@ -9,7 +9,7 @@ cardMeta: "4 produkter"
 
 Evne til å etablere, forvalte og styre en helhetlig nasjonal digital arkitektur som et felles, forpliktende rammeverk, for å sikre samhandling, gjenbruk og strategisk retning i et nasjonalt digitalt økosystem.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--forum">

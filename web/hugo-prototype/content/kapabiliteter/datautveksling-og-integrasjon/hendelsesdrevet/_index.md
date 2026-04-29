@@ -9,7 +9,7 @@ cardMeta: "3 produkter"
 
 Evne til å publisere og reagere på digitale hendelser og kontinuerlige datastrømmer når de inntreffer.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--operative">

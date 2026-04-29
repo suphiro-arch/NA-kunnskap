@@ -9,7 +9,7 @@ cardMeta: "3 produkter"
 
 Evne til å etablere en omforent begrepsforståelse ved å definere, dele og gjenbruke begreper på tvers av virksomheter, for å sikre entydig kommunikasjon og semantisk samhandlingsevne.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--operative">

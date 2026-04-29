@@ -9,6 +9,6 @@ cardMeta: "0 produkter"
 
 Evne til å sikkert prosessere og distribuere kontinuerlige datastrømmer for å muliggjøre sanntidsinnsikt, automatisering og umiddelbar respons.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <p>Ingen produkter er koblet til denne kapabiliteten forelopig.</p>

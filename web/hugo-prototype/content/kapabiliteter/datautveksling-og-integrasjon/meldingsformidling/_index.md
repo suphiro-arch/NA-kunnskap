@@ -9,7 +9,7 @@ cardMeta: "11 produkter"
 
 Evnen til å garantere levering og meldingsrekkefølge til rett mottaker.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--operative">

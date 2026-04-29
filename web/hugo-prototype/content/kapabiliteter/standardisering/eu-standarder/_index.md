@@ -9,6 +9,6 @@ cardMeta: "0 produkter"
 
 Evnen til at EU standardene forstås og tas i bruk.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <p>Ingen produkter er koblet til denne kapabiliteten forelopig.</p>

@@ -5,7 +5,7 @@ weight: 4
 description: "Evne til å sikkert, effektivt og standardisert utveksle data mellom aktører i økosystemet."
 cardMeta: "4 delkapabiliteter / 45 produkter"
 productsMarkdown: |
-  ## Relaterte produkter
+  ## Relaterte ressurser
   
   <div class="capability-product-links">
     <article class="capability-product-link resource-type--operative">

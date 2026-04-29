@@ -9,6 +9,6 @@ cardMeta: "0 produkter"
 
 Evne til å evaluere, forbedre, fornye styringssystem for informasjonssikkerhet.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <p>Ingen produkter er koblet til denne kapabiliteten forelopig.</p>

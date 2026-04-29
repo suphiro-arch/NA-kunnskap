@@ -9,7 +9,7 @@ cardMeta: "8 produkter"
 
 Evne til å kontrollere at en bruker har rettighet til å benytte angitt ressurs eller tjeneste på vegne av andre eller seg selv.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--operative">

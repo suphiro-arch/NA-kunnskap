@@ -9,7 +9,7 @@ cardMeta: "1 produkter"
 
 Evne til å, basert på registrerte hendelser og delte data, automatisk identifisere en brukers behov for offentlige tjenester og proaktivt tilby relevant informasjon, veiledning eller starte en tjenesteprosess på vegne av brukeren.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--operative">

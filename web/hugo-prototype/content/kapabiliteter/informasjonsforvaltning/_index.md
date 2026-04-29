@@ -5,7 +5,7 @@ weight: 9
 description: "Evne til å ha et felles rammeverk og styringsmodell for informasjonsforvaltning, slik at offentlige virksomheter kan utveksle og dele data og beskrivelser."
 cardMeta: "8 delkapabiliteter / 17 produkter"
 productsMarkdown: |
-  ## Relaterte produkter
+  ## Relaterte ressurser
   
   <div class="capability-product-links">
     <article class="capability-product-link resource-type--operative">

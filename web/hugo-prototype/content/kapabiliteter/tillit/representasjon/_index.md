@@ -9,7 +9,7 @@ cardMeta: "3 produkter"
 
 Evne til til å kunne opptre eller utføre handlinger digitalt på vegne av andre.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--operative">

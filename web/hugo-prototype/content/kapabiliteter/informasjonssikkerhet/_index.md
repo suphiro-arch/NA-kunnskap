@@ -5,7 +5,7 @@ weight: 7
 description: "Evne til å ha tilstrekkelig sikkerhet i tjenester og løsninger som benyttes i felles økosystem."
 cardMeta: "2 delkapabiliteter / 18 produkter"
 productsMarkdown: |
-  ## Relaterte produkter
+  ## Relaterte ressurser
   
   <div class="capability-product-links">
     <article class="capability-product-link resource-type--operative">

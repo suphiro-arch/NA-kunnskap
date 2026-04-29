@@ -9,7 +9,7 @@ cardMeta: "5 produkter"
 
 Evne til å strukturere og modellere informasjon på en standardisert måte, slik at data og innhold blir finnbart, forståelig og gjenbrukbart for både mennesker og maskiner på tvers av hele økosystemet.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--operative">

@@ -9,7 +9,7 @@ cardMeta: "2 produkter"
 
 Evne til juridisk bindende signering av dokumenter eller transaksjoner.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--operative">

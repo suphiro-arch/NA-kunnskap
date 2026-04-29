@@ -9,7 +9,7 @@ cardMeta: "3 produkter"
 
 Evne til å gi oversikt over informasjonsmodeller for å kunne gi en felles forståelse av datastrukturer, slik at data kan tolkes korrekt og meningsfullt.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--operative">

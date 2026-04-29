@@ -9,7 +9,7 @@ cardMeta: "1 produkter"
 
 Evne til å få oversikt over hvilke hendelser som utløser eller utløses av en tjeneste.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--operative">

@@ -9,7 +9,7 @@ cardMeta: "9 produkter"
 
 Evne til å på en sikker og entydig måte verifisere den digitale identiteten til brukere og systemer.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--operative">

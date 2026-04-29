@@ -9,5 +9,4 @@ description: "Oversikt over hovedkapabiliteter, delkapabiliteter og hvilke produ
 Evne til å sikre samhandling, gjenbruk og strategisk retning i et nasjonalt digitalt økosystem.
 
 - Start med en hovedkapabilitet.
-- Gå videre til delkapabiliteter.
-- Bruk koblede ressurser for konkrete løsninger og virkemidler.
+- Gå videre til delkapabiliteter og se hvilke ressurser som er relatert til kapabilitetene.

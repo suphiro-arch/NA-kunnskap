@@ -9,7 +9,7 @@ cardMeta: "14 produkter"
 
 Evnen til å effektivisere forretningsprosesser og verdikjeder på tvers av organisatoriske grenser.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--operative">

@@ -9,7 +9,7 @@ cardMeta: "19 produkter"
 
 Evne til å gjenbruke data fra andre i egne tjenester og prosesser.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--operative">

@@ -502,14 +502,14 @@ cardMeta: "{len({entry['product_id'] for entry in sub_products})} produkter"
 
 {subcap['beskrivelse']}
 
-## Relaterte produkter
+## Relaterte ressurser
 
 {render_product_link_cards(sub_products, subcap['navn'], include_relevance=True)}
 """
             write_file(cap_dir / sub_slug / '_index.md', sub_content)
 
         products_markdown = (
-            "## Relaterte produkter\n\n"
+            "## Relaterte ressurser\n\n"
             + render_product_link_cards(products, capability['navn'], include_relevance=False)
         )
 
@@ -540,8 +540,7 @@ description: "Oversikt over hovedkapabiliteter, delkapabiliteter og hvilke produ
 {model['beskrivelse'].replace('\n', ' ')}
 
 - Start med en hovedkapabilitet.
-- Gå videre til delkapabiliteter.
-- Bruk koblede ressurser for konkrete løsninger og virkemidler.
+- Gå videre til delkapabiliteter og se hvilke ressurser som er relatert til kapabilitetene.
 """
     write_file(OUT_DIR / '_index.md', top_content)
 

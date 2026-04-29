@@ -9,6 +9,6 @@ cardMeta: "0 produkter"
 
 Evne til å utforme, anvende og forvalte finansielle virkemidler for å styre digitalisering i økosystemets i tråd med nasjonale mål.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <p>Ingen produkter er koblet til denne kapabiliteten forelopig.</p>

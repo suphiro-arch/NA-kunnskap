@@ -9,7 +9,7 @@ cardMeta: "7 produkter"
 
 Evne til å sikre enhetlig og ansvarlig forvaltning av nasjonale dataressurser gjennom felles rammeverk, klar ansvarsplassering og systematisk kvalitetsarbeid.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--operative">

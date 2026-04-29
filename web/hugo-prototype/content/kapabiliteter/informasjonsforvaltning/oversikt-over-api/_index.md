@@ -9,7 +9,7 @@ cardMeta: "3 produkter"
 
 Evne til å datadeling og tjenesteintegrasjon ved å oppdage, forstå og koble seg til tilgjengelige data via en standardisert oversikt over maskinlesbare grensesnitt (API-er).
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--operative">

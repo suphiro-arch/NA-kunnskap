@@ -9,7 +9,7 @@ cardMeta: "1 produkter"
 
 Evne til å akseptere, godkjenne eller gi tillatelse på vegne av seg selv eller andre, der det foreligger et representasjonsforhold.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--operative">

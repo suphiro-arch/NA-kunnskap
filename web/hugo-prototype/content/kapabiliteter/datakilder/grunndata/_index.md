@@ -9,7 +9,7 @@ cardMeta: "16 produkter"
 
 Evne til å identifisere og formelt anerkjenne autoritative datakilder basert på en systematisk vurdering av deres verdi.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--operative">

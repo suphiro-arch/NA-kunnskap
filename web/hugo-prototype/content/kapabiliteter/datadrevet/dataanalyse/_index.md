@@ -9,6 +9,6 @@ cardMeta: "0 produkter"
 
 Evnen til å transformere rådata til meningsfull innsikt og bygge prediktive modeller.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <p>Ingen produkter er koblet til denne kapabiliteten forelopig.</p>

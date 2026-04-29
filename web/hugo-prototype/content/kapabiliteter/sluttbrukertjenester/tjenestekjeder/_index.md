@@ -9,7 +9,7 @@ cardMeta: "3 produkter"
 
 Evne til å dynamisk sette sammen, koordinere og automatisere flyten av informasjon og prosesser på tvers av uavhengige, integrerbare tjenester for å levere en komplett ende-til-ende-tjeneste for brukeren.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--operative">

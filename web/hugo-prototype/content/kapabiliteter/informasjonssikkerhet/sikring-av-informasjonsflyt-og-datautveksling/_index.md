@@ -9,7 +9,7 @@ cardMeta: "18 produkter"
 
 Kapabiliteten omfatter de tekniske og organisatoriske tiltakene som sikrer at informasjon som utveksles mellom virksomheter er beskyttet mot innsyn og manipulering, og at dataflyten er kontrollert.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--operative">

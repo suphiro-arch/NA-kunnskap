@@ -9,7 +9,7 @@ cardMeta: "4 produkter"
 
 Evne til å tilby og forvalte en felles, skalerbar teknisk plattform og en tilhørende verktøykasse med standardiserte byggeklosser, verktøy og utviklingsmiljøer som forenkler og akselererer utviklingen av digitale tjenester.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--operative">

@@ -9,7 +9,7 @@ cardMeta: "6 produkter"
 
 Evne til å systematisk oppdage, vurdere og gjenbruke data på tvers av offentlig sektor gjennom en sentral, standardisert oversikt over tilgjengelige datasett.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--operative">

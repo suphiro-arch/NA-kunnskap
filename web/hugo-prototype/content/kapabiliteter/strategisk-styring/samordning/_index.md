@@ -9,7 +9,7 @@ cardMeta: "8 produkter"
 
 Evnen til å harmonisere og koordinere strategisk retning, beslutninger og ressursbruk på tvers av virksomheter, for å realisere felles samfunnsmål og sammenhengende tjenester.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--forum">

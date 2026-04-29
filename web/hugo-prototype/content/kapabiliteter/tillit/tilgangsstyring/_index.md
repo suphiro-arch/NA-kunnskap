@@ -9,7 +9,7 @@ cardMeta: "2 produkter"
 
 Evne til å styre og gi tilgang til hvem som har rettighet til å benytte en ressurs (tjeneste, system, API, opplysning) på vegne av seg selv, andre personer eller virksomheter.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--operative">

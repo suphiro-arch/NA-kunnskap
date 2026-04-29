@@ -9,7 +9,7 @@ cardMeta: "14 produkter"
 
 Evne til å designe, utvikle og eksponere data og funksjonalitet som selvstendige, standardiserte og maskinlesbare tjenester (API-er), slik at de enkelt kan oppdages, forstås og integreres i nye, tverrgående prosesser og løsninger.
 
-## Relaterte produkter
+## Relaterte ressurser
 
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--operative">
