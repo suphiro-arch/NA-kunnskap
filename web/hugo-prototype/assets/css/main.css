@@ -777,6 +777,7 @@ a:hover {
   background: #eef4ef;
   color: var(--ink-strong);
   font-weight: 700;
+  font-size: 1.08rem;
   line-height: 1.65;
 }
 
