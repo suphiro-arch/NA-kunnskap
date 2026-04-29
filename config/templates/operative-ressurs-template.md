@@ -99,5 +99,3 @@ Hoveddokumentasjon, kom i gang, vilkår/pris (om relevant), status/drift.
 
 ## Kildegrunnlag brukt i utfyllingen
 Oppgi konkrete URL-er og lokale filer.
-
-
