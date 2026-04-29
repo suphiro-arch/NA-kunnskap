@@ -406,10 +406,9 @@ def render_product_link_cards(products: list[dict], capability_name: str, *, inc
 
         parts.append(f'  <article class="capability-product-link {resource_class}">')
         parts.append(f'    <p class="capability-product-link__type">{html.escape(resource_label)}</p>')
-        parts.append(f'    <h3 class="capability-product-link__title">{title}</h3>')
+        parts.append(f'    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="{url}">{title}</a></h3>')
         if include_relevance and relevance:
             parts.append(f'    <p class="capability-product-link__description">{html.escape(relevance)}</p>')
-        parts.append(f'    <a class="resource-card__button resource-card__button--primary" href="{url}">Åpne ressursbeskrivelse</a>')
         parts.append('  </article>')
 
     parts.append('</div>')

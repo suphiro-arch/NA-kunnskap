@@ -14,8 +14,7 @@ Evne til å få oversikt over hvilke hendelser som utløser eller utløses av en
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title">data.norge.no</h3>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/16-data-norge-no-produkt-canvas-v4-codex.md">data.norge.no</a></h3>
     <p class="capability-product-link__description">gjør hendelser synlige som egne ressurser som kan støtte videre digital samhandling</p>
-    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/16-data-norge-no-produkt-canvas-v4-codex.md">Åpne ressursbeskrivelse</a>
   </article>
 </div>

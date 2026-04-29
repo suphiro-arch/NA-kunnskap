@@ -694,6 +694,25 @@ a:hover {
   line-height: 1.25;
 }
 
+.capability-product-link__title-link {
+  color: var(--ink-strong);
+  text-decoration: none;
+}
+
+.capability-product-link__title-link:hover {
+  color: var(--brand-mid);
+  text-decoration: underline;
+  text-underline-offset: 0.14em;
+}
+
+.capability-product-link__title-link:focus-visible {
+  outline: 2px solid #6f879c;
+  outline-offset: 3px;
+  border-radius: 4px;
+  text-decoration: underline;
+  text-underline-offset: 0.14em;
+}
+
 .capability-product-link__meta,
 .capability-product-link__description {
   margin: 0.55rem 0 0;
@@ -707,41 +726,6 @@ a:hover {
 .capability-product-link__description {
   color: var(--ink-muted);
   font-size: 0.94rem;
-}
-
-.capability-product-link .resource-card__button {
-  margin-top: auto;
-  align-self: flex-start;
-}
-
-.capability-product-link .resource-card__button--primary {
-  padding: 0;
-  border: 0;
-  border-radius: 0;
-  background: transparent;
-  color: #42505b;
-  font-weight: 600;
-  line-height: 1.4;
-  text-decoration: none;
-  position: relative;
-  margin-top: 0.85rem;
-}
-
-.capability-product-link .resource-card__button--primary::after {
-  content: " \2192";
-}
-
-.capability-product-link .resource-card__button--primary:hover {
-  color: #33414c;
-  text-decoration: underline;
-  text-underline-offset: 0.14em;
-}
-
-.capability-product-link .resource-card__button--primary:focus-visible {
-  outline: 2px solid #6f879c;
-  outline-offset: 3px;
-  text-decoration: underline;
-  text-underline-offset: 0.14em;
 }
 
 .capability-product-link.resource-type--operative {

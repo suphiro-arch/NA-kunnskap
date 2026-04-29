@@ -14,8 +14,7 @@ Evne til å akseptere, godkjenne eller gi tillatelse på vegne av seg selv eller
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title">data.altinn.no</h3>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/17-data-altinn-no-produkt-canvas-v4-codex.md">data.altinn.no</a></h3>
     <p class="capability-product-link__description">muliggjør datadeling når bruk av data forutsetter et gyldig samtykke</p>
-    <a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/17-data-altinn-no-produkt-canvas-v4-codex.md">Åpne ressursbeskrivelse</a>
   </article>
 </div>
