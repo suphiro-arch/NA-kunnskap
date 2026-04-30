@@ -82,6 +82,7 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Operativ
         <option value="Portal for forvaltning, informasjon og ta-i-bruk av fellesl&#248;sninger">Portal for forvaltning, informasjon og ta-i-bruk av fellesl&#248;sninger</option>
         <option value="Portal for &#229;pne data">Portal for &#229;pne data</option>
         <option value="Refusjonsdata">Refusjonsdata</option>
+        <option value="Register for offisielle stedsnavn">Register for offisielle stedsnavn</option>
         <option value="Register over faktisk eierskap og kontroll">Register over faktisk eierskap og kontroll</option>
         <option value="Register over helsepersonell">Register over helsepersonell</option>
         <option value="Register over utdanningstilbud og akkreditering">Register over utdanningstilbud og akkreditering</option>
@@ -146,7 +147,7 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Operativ
         <option value="Utviklings- og kj&#248;retidsmilj&#248;">Utviklings- og kj&#248;retidsmilj&#248;</option>
       </select></label>
     </div>
-    <p class="resource-filters__result" data-role="count">Viser 70 av 70 ressurser</p>
+    <p class="resource-filters__result" data-role="count">Viser 71 av 71 ressurser</p>
   </div>
   <div class="resource-cards">
 <article class="resource-card" data-owner="DIGDIR" data-type="Autentiseringstjeneste" data-capabilities="sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester" data-search="id-porten digdir-001 digdir ikke oppgitt autentiseringstjeneste id-porten er den nasjonale fellesl&#248;sningen for sikker innlogging til offentlige digitale tjenester. l&#248;sningen gir innbyggere &#233;n gjenkjennelig inngang til tjenester p&#229; tvers av virksomheter, og gir tjenesteeiere en felles autentiseringskomponent i stedet for lokale innloggingsl&#248;sninger. id-porten er s&#230;rlig relevant n&#229;r... sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester">
@@ -708,6 +709,14 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Operativ
   <p class="resource-card__description">Register over reelle rettighetshavere er den nasjonale ressursen for opplysninger om hvilke fysiske personer som i siste instans eier eller kontrollerer en registreringspliktig virksomhet. Produktet gj&#248;r det mulig &#229; avdekke faktisk kontroll bak juridiske enheter og er derfor s&#230;rlig relevant i analyser og samhandling...</p>
   <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/datakilder/grunndata/">Grunndata</a> <a class="capability-chip" href="../../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a></p>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/133-Register-over-reelle-rettighetshavere-produkt-canvas-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.brreg.no/reelle-rettighetshavere/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="KART" data-type="Register for offisielle stedsnavn" data-capabilities="grunndata dele data med andre" data-search="sentralt stedsnavnregister kart-004 kart ikke oppgitt register for offisielle stedsnavn sentralt stedsnavnregister er den nasjonale ressursen for offisielle stedsnavn og godkjente navneformer i norge. produktet gj&#248;r det mulig &#229; bruke et felles og autoritativt navnegrunnlag i kart, saksbehandling, beredskap, analyse, kommunikasjon og digitale tjenester. i nasjonal arkitektur er ressursen s&#230;rlig relevant... grunndata dele data med andre">
+  <h2 class="resource-card__title">Sentralt stedsnavnregister</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>KART-004</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> KART | <strong>Kategori:</strong> Ikke oppgitt | <strong>Type:</strong> Register for offisielle stedsnavn</p>
+  <p class="resource-card__description">Sentralt stedsnavnregister er den nasjonale ressursen for offisielle stedsnavn og godkjente navneformer i Norge. Produktet gj&#248;r det mulig &#229; bruke et felles og autoritativt navnegrunnlag i kart, saksbehandling, beredskap, analyse, kommunikasjon og digitale tjenester. I nasjonal arkitektur er ressursen s&#230;rlig relevant...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/datakilder/grunndata/">Grunndata</a> <a class="capability-chip" href="../../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/134-Sentralt-stedsnavnregister-produkt-canvas-v1-codex.md">Full beskrivelse (md-fil)</a></p>
 </article>
   </div>
   <script>

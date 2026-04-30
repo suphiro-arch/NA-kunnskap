@@ -3460,6 +3460,36 @@
                     "explanation": "Registeret har kontrollert API-tilgang for offentlige myndigheter og andre brukergrupper med hjemmel som trenger data om faktisk eierskap og kontroll."
                 }
             ]
+        },
+        {
+            "product_id": 134,
+            "product_name": "Sentralt stedsnavnregister",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/134-Sentralt-stedsnavnregister-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/134-Sentralt-stedsnavnregister-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "Sentralt stedsnavnregister er den autoritative kilden for offisielle stedsnavn og navneformer som mange aktører må bruke likt."
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Stedsnavndata må kunne brukes videre i kart, geodatatjenester, beredskapssystemer og andre digitale løsninger på tvers av sektorer og nivåer."
+                }
+            ]
         }
     ],
     "capabilities": [

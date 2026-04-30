@@ -16,7 +16,7 @@ hideSectionOverview: true
   <article class="resource-type-card">
     <h3><a href="produkter/operative-losninger-og-tjenester/">Operative løsninger og tjenester</a></h3>
     <p>Ressurser som brukes direkte i drift, integrasjon eller løsningsdesign.</p>
-    <p class="resource-type-card__count">70 ressurser</p>
+    <p class="resource-type-card__count">71 ressurser</p>
   </article>
   <article class="resource-type-card">
     <h3><a href="produkter/normerende-ressurser/">Normerende ressurser</a></h3>
@@ -124,6 +124,7 @@ hideSectionOverview: true
         <option value="Rammeverk">Rammeverk</option>
         <option value="Referansearkitektur">Referansearkitektur</option>
         <option value="Refusjonsdata">Refusjonsdata</option>
+        <option value="Register for offisielle stedsnavn">Register for offisielle stedsnavn</option>
         <option value="Register over faktisk eierskap og kontroll">Register over faktisk eierskap og kontroll</option>
         <option value="Register over helsepersonell">Register over helsepersonell</option>
         <option value="Register over utdanningstilbud og akkreditering">Register over utdanningstilbud og akkreditering</option>
@@ -159,9 +160,7 @@ hideSectionOverview: true
         <option value="Bruke data fra andre">Bruke data fra andre</option>
         <option value="Datakilder: Grunndata">Datakilder: Grunndata</option>
         <option value="Datastyring">Datastyring</option>
-        <option value="Datautveksling og integrasjon: Bruke data fra andre">Datautveksling og integrasjon: Bruke data fra andre</option>
         <option value="Datautveksling og integrasjon: Dele data med andre">Datautveksling og integrasjon: Dele data med andre</option>
-        <option value="Datautveksling og integrasjon: Meldingsformidling">Datautveksling og integrasjon: Meldingsformidling</option>
         <option value="Dele data med andre">Dele data med andre</option>
         <option value="Forvaltningsstandarder">Forvaltningsstandarder</option>
         <option value="Gjenbrukbare tjenester">Gjenbrukbare tjenester</option>
@@ -170,7 +169,6 @@ hideSectionOverview: true
         <option value="Identifisering">Identifisering</option>
         <option value="Informasjonsarkitektur">Informasjonsarkitektur</option>
         <option value="Informasjonsforvaltning: Datastyring">Informasjonsforvaltning: Datastyring</option>
-        <option value="Informasjonsforvaltning: Oversikt over datasett">Informasjonsforvaltning: Oversikt over datasett</option>
         <option value="Integrerbare tjenester">Integrerbare tjenester</option>
         <option value="Meldingsformidling">Meldingsformidling</option>
         <option value="Organisatorisk samhandling">Organisatorisk samhandling</option>
@@ -191,7 +189,6 @@ hideSectionOverview: true
         <option value="Signering">Signering</option>
         <option value="Sikring av informasjonsflyt og datautveksling">Sikring av informasjonsflyt og datautveksling</option>
         <option value="Sluttbrukertjenester: Sammenhengende tjenester">Sluttbrukertjenester: Sammenhengende tjenester</option>
-        <option value="Sluttbrukertjenester: Tjenestekjeder">Sluttbrukertjenester: Tjenestekjeder</option>
         <option value="Sporbarhet og innsyn">Sporbarhet og innsyn</option>
         <option value="Standardisering: Forvaltningsstandarder">Standardisering: Forvaltningsstandarder</option>
         <option value="Tilgangskontroll">Tilgangskontroll</option>
@@ -199,11 +196,10 @@ hideSectionOverview: true
         <option value="Tjenestedesign">Tjenestedesign</option>
         <option value="Tjenesteforvaltning">Tjenesteforvaltning</option>
         <option value="Tjenestekjeder">Tjenestekjeder</option>
-        <option value="Tjenesteutvikling: Tjenestedesign">Tjenesteutvikling: Tjenestedesign</option>
         <option value="Utviklings- og kj&#248;retidsmilj&#248;">Utviklings- og kj&#248;retidsmilj&#248;</option>
       </select></label>
     </div>
-    <p class="resource-filters__result" data-role="count">Viser 102 av 102 ressurser</p>
+    <p class="resource-filters__result" data-role="count">Viser 103 av 103 ressurser</p>
   </div>
   <div class="resource-cards">
 <article class="resource-card" data-owner="DIGDIR" data-type="Autentiseringstjeneste" data-capabilities="sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester" data-search="id-porten digdir-001 digdir ikke oppgitt autentiseringstjeneste id-porten er den nasjonale fellesl&#248;sningen for sikker innlogging til offentlige digitale tjenester. l&#248;sningen gir innbyggere &#233;n gjenkjennelig inngang til tjenester p&#229; tvers av virksomheter, og gir tjenesteeiere en felles autentiseringskomponent i stedet for lokale innloggingsl&#248;sninger. id-porten er s&#230;rlig relevant n&#229;r... sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester">
@@ -740,50 +736,50 @@ hideSectionOverview: true
   <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <span class="capability-chip">Datastyring</span> <span class="capability-chip">Informasjonsarkitektur</span> <span class="capability-chip">Forvaltningsstandarder</span></p>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/89-Rammeverk-for-informasjonsforvaltning-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/digitalisering-og-samordning/rammeverk-informasjonsforvaltning/2419">Offisiell lenke</a></p>
 </article>
-<article class="resource-card" data-owner="DIGDIR" data-type="Prinsipper" data-capabilities="standardisering: forvaltningsstandarder samarbeid: organisatorisk samhandling" data-search="overordnede arkitekturprinsipper for offentlig sektor digdir-030 digdir ikke oppgitt prinsipper normerende prinsippgrunnlag for hvordan offentlig sektor b&#248;r utforme, styre og vurdere digitale l&#248;sninger. standardisering: forvaltningsstandarder samarbeid: organisatorisk samhandling">
+<article class="resource-card" data-owner="DIGDIR" data-type="Prinsipper" data-capabilities="arkitekturstyring forvaltningsstandarder organisatorisk samhandling" data-search="overordnede arkitekturprinsipper for offentlig sektor digdir-030 digdir ikke oppgitt prinsipper overordnede arkitekturprinsipper for offentlig sektor er et normerende prinsippsett som gir retning for hvordan digitale l&#248;sninger b&#248;r planlegges, styres og utvikles p&#229; tvers av virksomheter. ressursen er sentral fordi den etablerer felles vurderingskriterier for samhandling, gjenbruk og tillit. arkitekturstyring forvaltningsstandarder organisatorisk samhandling">
   <h2 class="resource-card__title">Overordnede arkitekturprinsipper for offentlig sektor</h2>
-  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-030</code> | <strong>Siste versjon:</strong> v0 (codex)</p>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-030</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
   <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Ikke oppgitt | <strong>Type:</strong> Prinsipper</p>
-  <p class="resource-card__description">Normerende prinsippgrunnlag for hvordan offentlig sektor b&#248;r utforme, styre og vurdere digitale l&#248;sninger.</p>
-  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Ressursen skal gi et felles sett med arkitekturprinsipper som kan brukes i styring, prioritering, analyse og utforming av l&#248;sninger p&#229; tvers av sektorer.</p>
-  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <span class="capability-chip">Standardisering: Forvaltningsstandarder</span> <span class="capability-chip">Samarbeid: Organisatorisk samhandling</span></p>
-  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/98-Overordnede-arkitekturprinsipper-for-offentlig-sektor-v0-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/samhandling/overordnede-arkitekturprinsipper/1065">Offisiell lenke</a></p>
+  <p class="resource-card__description">Overordnede arkitekturprinsipper for offentlig sektor er et normerende prinsippsett som gir retning for hvordan digitale l&#248;sninger b&#248;r planlegges, styres og utvikles p&#229; tvers av virksomheter. Ressursen er sentral fordi den etablerer felles vurderingskriterier for samhandling, gjenbruk og tillit.</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let er &#229; sikre at arkitekturbeslutninger ikke tas isolert i enkeltvirksomheter, men med hensyn til helheten i offentlig sektor. Prinsippene skal st&#248;tte langsiktige valg som gir bedre...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <span class="capability-chip">Arkitekturstyring</span> <span class="capability-chip">Forvaltningsstandarder</span> <span class="capability-chip">Organisatorisk samhandling</span></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/98-Overordnede-arkitekturprinsipper-for-offentlig-sektor-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/samhandling/overordnede-arkitekturprinsipper/1065">Offisiell lenke</a></p>
 </article>
-<article class="resource-card" data-owner="DIGDIR" data-type="Veileder" data-capabilities="sluttbrukertjenester: sammenhengende tjenester tjenesteutvikling: tjenestedesign" data-search="sjekkliste for sammenhengende tjenester digdir-031 digdir ikke oppgitt veileder praktisk sjekkliste for &#229; kvalitetssikre sammenhengende tjenester p&#229; tvers av virksomheter og brukerreiser. sluttbrukertjenester: sammenhengende tjenester tjenesteutvikling: tjenestedesign">
+<article class="resource-card" data-owner="DIGDIR" data-type="Veileder" data-capabilities="sammenhengende tjenester tjenestedesign" data-search="sjekkliste for sammenhengende tjenester digdir-031 digdir ikke oppgitt veileder sjekkliste for sammenhengende tjenester er en normerende veileder som hjelper virksomheter med &#229; vurdere om tjenesteforl&#248;p faktisk oppleves sammenhengende for brukeren. ressursen er viktig fordi den gj&#248;r helhetlig tjenestekvalitet mer konkret og etterpr&#248;vbar. sammenhengende tjenester tjenestedesign">
   <h2 class="resource-card__title">Sjekkliste for sammenhengende tjenester</h2>
-  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-031</code> | <strong>Siste versjon:</strong> v0 (codex)</p>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-031</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
   <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Ikke oppgitt | <strong>Type:</strong> Veileder</p>
-  <p class="resource-card__description">Praktisk sjekkliste for &#229; kvalitetssikre sammenhengende tjenester p&#229; tvers av virksomheter og brukerreiser.</p>
-  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Ressursen skal hjelpe team og virksomheter med &#229; vurdere om tjenesteforl&#248;p er tilstrekkelig sammenhengende, forst&#229;elige og koordinerte for brukerne.</p>
-  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <span class="capability-chip">Sluttbrukertjenester: Sammenhengende tjenester</span> <span class="capability-chip">Tjenesteutvikling: Tjenestedesign</span></p>
-  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/99-Sjekkliste-for-sammenhengende-tjenester-v0-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/media/1850/download">Offisiell lenke</a></p>
+  <p class="resource-card__description">Sjekkliste for sammenhengende tjenester er en normerende veileder som hjelper virksomheter med &#229; vurdere om tjenesteforl&#248;p faktisk oppleves sammenhengende for brukeren. Ressursen er viktig fordi den gj&#248;r helhetlig tjenestekvalitet mer konkret og etterpr&#248;vbar.</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let er &#229; gi en enkel, felles sjekkstruktur som gj&#248;r det lettere &#229; avdekke brudd i brukerreise, samhandling, ansvar og informasjonsflyt mellom akt&#248;rer.</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <span class="capability-chip">Sammenhengende tjenester</span> <span class="capability-chip">Tjenestedesign</span></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/99-Sjekkliste-for-sammenhengende-tjenester-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/media/1850/download">Offisiell lenke</a></p>
 </article>
-<article class="resource-card" data-owner="DIGDIR" data-type="Metodeverkt&#248;y" data-capabilities="sluttbrukertjenester: tjenestekjeder samarbeid: organisatorisk samhandling" data-search="kart for tjenestekjeder digdir-032 digdir ikke oppgitt metodeverkt&#248;y metoderessurs for &#229; kartlegge verdikjeder, avhengigheter og samhandlingsflater p&#229; tvers av virksomheter. sluttbrukertjenester: tjenestekjeder samarbeid: organisatorisk samhandling">
+<article class="resource-card" data-owner="DIGDIR" data-type="Metodeverkt&#248;y" data-capabilities="tjenestekjeder organisatorisk samhandling samordning" data-search="kart for tjenestekjeder digdir-032 digdir ikke oppgitt metodeverkt&#248;y kart for tjenestekjeder er et normerende metodeverkt&#248;y for &#229; synliggj&#248;re sammenhenger, avhengigheter og overgangspunkter i tverrvirksomhetlige tjenesteforl&#248;p. ressursen er viktig fordi den gj&#248;r kompleks samhandling mer forst&#229;elig og beslutningsbar. tjenestekjeder organisatorisk samhandling samordning">
   <h2 class="resource-card__title">Kart for tjenestekjeder</h2>
-  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-032</code> | <strong>Siste versjon:</strong> v0 (codex)</p>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-032</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
   <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Ikke oppgitt | <strong>Type:</strong> Metodeverkt&#248;y</p>
-  <p class="resource-card__description">Metoderessurs for &#229; kartlegge verdikjeder, avhengigheter og samhandlingsflater p&#229; tvers av virksomheter.</p>
-  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Ressursen skal gi et felles grep for &#229; forst&#229; sammenhenger mellom tjenester, akt&#248;rer og informasjonsflyt i st&#248;rre tjenestekjeder.</p>
-  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <span class="capability-chip">Sluttbrukertjenester: Tjenestekjeder</span> <span class="capability-chip">Samarbeid: Organisatorisk samhandling</span></p>
-  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/100-Kart-for-tjenestekjeder-v0-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/samhandling/kart-tjenestekjeder/4168">Offisiell lenke</a></p>
+  <p class="resource-card__description">Kart for tjenestekjeder er et normerende metodeverkt&#248;y for &#229; synliggj&#248;re sammenhenger, avhengigheter og overgangspunkter i tverrvirksomhetlige tjenesteforl&#248;p. Ressursen er viktig fordi den gj&#248;r kompleks samhandling mer forst&#229;elig og beslutningsbar.</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let er &#229; gi virksomheter et felles grep for &#229; kartlegge hvordan tjenester henger sammen, hvor friksjon oppst&#229;r, og hvilke avklaringer som trengs for &#229; forbedre helheten.</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <span class="capability-chip">Tjenestekjeder</span> <span class="capability-chip">Organisatorisk samhandling</span> <span class="capability-chip">Samordning</span></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/100-Kart-for-tjenestekjeder-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/samhandling/kart-tjenestekjeder/4168">Offisiell lenke</a></p>
 </article>
-<article class="resource-card" data-owner="DIGDIR" data-type="Referansearkitektur" data-capabilities="datautveksling og integrasjon: meldingsformidling standardisering: forvaltningsstandarder" data-search="referansearkitektur forsendelse (emelding) digdir-033 digdir ikke oppgitt referansearkitektur referansearkitektur for meldingsbasert forsendelse mellom avsender og mottaker i digital samhandling. datautveksling og integrasjon: meldingsformidling standardisering: forvaltningsstandarder">
+<article class="resource-card" data-owner="DIGDIR" data-type="Referansearkitektur" data-capabilities="meldingsformidling forvaltningsstandarder" data-search="referansearkitektur forsendelse (emelding) digdir-033 digdir ikke oppgitt referansearkitektur referansearkitektur forsendelse (emelding) er en normerende ressurs for meldingsbasert forsendelse mellom avsender og mottaker i offentlig samhandling. ressursen gir et felles m&#248;nster for hvordan meldingsflyt kan utformes mer forutsigbart p&#229; tvers av virksomheter. meldingsformidling forvaltningsstandarder">
   <h2 class="resource-card__title">Referansearkitektur forsendelse (eMelding)</h2>
-  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-033</code> | <strong>Siste versjon:</strong> v0 (codex)</p>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-033</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
   <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Ikke oppgitt | <strong>Type:</strong> Referansearkitektur</p>
-  <p class="resource-card__description">Referansearkitektur for meldingsbasert forsendelse mellom avsender og mottaker i digital samhandling.</p>
-  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Ressursen skal gi et felles m&#248;nster for hvordan forsendelse og meldingsflyt kan utformes p&#229; en standardisert og forst&#229;elig m&#229;te.</p>
-  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <span class="capability-chip">Datautveksling og integrasjon: Meldingsformidling</span> <span class="capability-chip">Standardisering: Forvaltningsstandarder</span></p>
-  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/101-Referansearkitektur-forsendelse-eMelding-v0-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/samhandling/referansearkitekturer/2131">Offisiell lenke</a></p>
+  <p class="resource-card__description">Referansearkitektur forsendelse (eMelding) er en normerende ressurs for meldingsbasert forsendelse mellom avsender og mottaker i offentlig samhandling. Ressursen gir et felles m&#248;nster for hvordan meldingsflyt kan utformes mer forutsigbart p&#229; tvers av virksomheter.</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let er &#229; etablere en felles arkitekturforst&#229;else for forsendelsesm&#248;nstre, slik at akt&#248;rer kan beskrive og vurdere meldingsflyt med lavere tolkningsrom.</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <span class="capability-chip">Meldingsformidling</span> <span class="capability-chip">Forvaltningsstandarder</span></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/101-Referansearkitektur-forsendelse-eMelding-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/samhandling/referansearkitekturer/2131">Offisiell lenke</a></p>
 </article>
-<article class="resource-card" data-owner="DIGDIR" data-type="Referansearkitektur" data-capabilities="datautveksling og integrasjon: bruke data fra andre standardisering: forvaltningsstandarder" data-search="referansearkitektur foresp&#248;rsel-svar (eoppslag) digdir-034 digdir ikke oppgitt referansearkitektur referansearkitektur for foresp&#248;rsel-svar-m&#248;nster i datadeling og oppslag mellom virksomheter. datautveksling og integrasjon: bruke data fra andre standardisering: forvaltningsstandarder">
+<article class="resource-card" data-owner="DIGDIR" data-type="Referansearkitektur" data-capabilities="bruke data fra andre forvaltningsstandarder" data-search="referansearkitektur foresp&#248;rsel-svar (eoppslag) digdir-034 digdir ikke oppgitt referansearkitektur referansearkitektur foresp&#248;rsel-svar (eoppslag) er en normerende ressurs for synkront oppslag mellom datakonsument og datatilbyder. ressursen er viktig fordi den gir et felles m&#248;nster for n&#229;r og hvordan oppslag b&#248;r brukes i tverrvirksomhetlig datadeling. bruke data fra andre forvaltningsstandarder">
   <h2 class="resource-card__title">Referansearkitektur foresp&#248;rsel-svar (eOppslag)</h2>
-  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-034</code> | <strong>Siste versjon:</strong> v0 (codex)</p>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-034</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
   <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Ikke oppgitt | <strong>Type:</strong> Referansearkitektur</p>
-  <p class="resource-card__description">Referansearkitektur for foresp&#248;rsel-svar-m&#248;nster i datadeling og oppslag mellom virksomheter.</p>
-  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Ressursen skal gi et felles arkitekturm&#248;nster for hvordan oppslag og svar kan struktureres n&#229;r l&#248;sninger bruker data fra andre.</p>
-  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <span class="capability-chip">Datautveksling og integrasjon: Bruke data fra andre</span> <span class="capability-chip">Standardisering: Forvaltningsstandarder</span></p>
-  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/102-Referansearkitektur-foresporsel-svar-eOppslag-v0-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/samhandling/referansearkitekturer/2131">Offisiell lenke</a></p>
+  <p class="resource-card__description">Referansearkitektur foresp&#248;rsel-svar (eOppslag) er en normerende ressurs for synkront oppslag mellom datakonsument og datatilbyder. Ressursen er viktig fordi den gir et felles m&#248;nster for n&#229;r og hvordan oppslag b&#248;r brukes i tverrvirksomhetlig datadeling.</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let er &#229; standardisere vurdering og utforming av foresp&#248;rsel-svar-flyt slik at virksomheter lettere kan etablere samhandling med tydelig rollefordeling og forventet svartid.</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <span class="capability-chip">Bruke data fra andre</span> <span class="capability-chip">Forvaltningsstandarder</span></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/102-Referansearkitektur-foresporsel-svar-eOppslag-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/samhandling/referansearkitekturer/2131">Offisiell lenke</a></p>
 </article>
 <article class="resource-card" data-owner="DIGDIR" data-type="Veikart" data-capabilities="samarbeid: organisatorisk samhandling standardisering: forvaltningsstandarder" data-search="nasjonalt veikart digdir-035 digdir ikke oppgitt veikart strategisk oversikt over prioriterte retninger, tiltak og rekkef&#248;lge i videre utvikling av nasjonal arkitektur. samarbeid: organisatorisk samhandling standardisering: forvaltningsstandarder">
   <h2 class="resource-card__title">Nasjonalt veikart</h2>
@@ -794,14 +790,14 @@ hideSectionOverview: true
   <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <span class="capability-chip">Samarbeid: Organisatorisk samhandling</span> <span class="capability-chip">Standardisering: Forvaltningsstandarder</span></p>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/103-Nasjonalt-veikart-v0-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/samhandling/nasjonal-arkitektur/2150">Offisiell lenke</a></p>
 </article>
-<article class="resource-card" data-owner="DIGDIR" data-type="Metodikk" data-capabilities="informasjonsforvaltning: datastyring informasjonsforvaltning: oversikt over datasett" data-search="orden i eget hus digdir-036 digdir ikke oppgitt metodikk metodisk st&#248;tte for intern oversikt, ansvar, kvalitet og prioritering i informasjonsforvaltning. informasjonsforvaltning: datastyring informasjonsforvaltning: oversikt over datasett">
+<article class="resource-card" data-owner="DIGDIR" data-type="Metodikk" data-capabilities="datastyring oversikt over datasett informasjonsarkitektur" data-search="orden i eget hus digdir-036 digdir ikke oppgitt metodikk orden i eget hus er en normerende metodikk for &#229; etablere bedre intern oversikt, ansvar og kvalitet i virksomheters informasjonsforvaltning. ressursen er viktig fordi den gj&#248;r grunnleggende datastyring mer praktisk og gjennomf&#248;rbar. datastyring oversikt over datasett informasjonsarkitektur">
   <h2 class="resource-card__title">Orden i eget hus</h2>
-  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-036</code> | <strong>Siste versjon:</strong> v0 (codex)</p>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-036</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
   <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Ikke oppgitt | <strong>Type:</strong> Metodikk</p>
-  <p class="resource-card__description">Metodisk st&#248;tte for intern oversikt, ansvar, kvalitet og prioritering i informasjonsforvaltning.</p>
-  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Ressursen skal hjelpe virksomheter med &#229; etablere bedre struktur og styring over egne data, begreper, roller og informasjonsressurser.</p>
-  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <span class="capability-chip">Informasjonsforvaltning: Datastyring</span> <span class="capability-chip">Informasjonsforvaltning: Oversikt over datasett</span></p>
-  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/104-Orden-i-eget-hus-v0-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/orden-eget-hus/orden-eget-hus/2717">Offisiell lenke</a></p>
+  <p class="resource-card__description">Orden i eget hus er en normerende metodikk for &#229; etablere bedre intern oversikt, ansvar og kvalitet i virksomheters informasjonsforvaltning. Ressursen er viktig fordi den gj&#248;r grunnleggende datastyring mer praktisk og gjennomf&#248;rbar.</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let er &#229; hjelpe virksomheter med &#229; f&#229; kontroll p&#229; egne dataressurser, avklare roller og etablere et bedre grunnlag for deling, gjenbruk og prioritering.</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <span class="capability-chip">Datastyring</span> <span class="capability-chip">Oversikt over datasett</span> <span class="capability-chip">Informasjonsarkitektur</span></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/104-Orden-i-eget-hus-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/orden-eget-hus/orden-eget-hus/2717">Offisiell lenke</a></p>
 </article>
 <article class="resource-card" data-owner="DIGDIR" data-type="Rammeverk" data-capabilities="datakilder: grunndata informasjonsforvaltning: datastyring" data-search="rammeverk nasjonale grunndata digdir-037 digdir ikke oppgitt rammeverk rammeverk for hvordan nasjonale grunndata b&#248;r forst&#229;s, forvaltes og brukes i samhandling. datakilder: grunndata informasjonsforvaltning: datastyring">
   <h2 class="resource-card__title">Rammeverk nasjonale grunndata</h2>
@@ -1053,6 +1049,14 @@ hideSectionOverview: true
   <p class="resource-card__description">Register over reelle rettighetshavere er den nasjonale ressursen for opplysninger om hvilke fysiske personer som i siste instans eier eller kontrollerer en registreringspliktig virksomhet. Produktet gj&#248;r det mulig &#229; avdekke faktisk kontroll bak juridiske enheter og er derfor s&#230;rlig relevant i analyser og samhandling...</p>
   <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/datakilder/grunndata/">Grunndata</a> <a class="capability-chip" href="../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a></p>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/133-Register-over-reelle-rettighetshavere-produkt-canvas-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.brreg.no/reelle-rettighetshavere/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="KART" data-type="Register for offisielle stedsnavn" data-capabilities="grunndata dele data med andre" data-search="sentralt stedsnavnregister kart-004 kart ikke oppgitt register for offisielle stedsnavn sentralt stedsnavnregister er den nasjonale ressursen for offisielle stedsnavn og godkjente navneformer i norge. produktet gj&#248;r det mulig &#229; bruke et felles og autoritativt navnegrunnlag i kart, saksbehandling, beredskap, analyse, kommunikasjon og digitale tjenester. i nasjonal arkitektur er ressursen s&#230;rlig relevant... grunndata dele data med andre">
+  <h2 class="resource-card__title">Sentralt stedsnavnregister</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>KART-004</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> KART | <strong>Kategori:</strong> Ikke oppgitt | <strong>Type:</strong> Register for offisielle stedsnavn</p>
+  <p class="resource-card__description">Sentralt stedsnavnregister er den nasjonale ressursen for offisielle stedsnavn og godkjente navneformer i Norge. Produktet gj&#248;r det mulig &#229; bruke et felles og autoritativt navnegrunnlag i kart, saksbehandling, beredskap, analyse, kommunikasjon og digitale tjenester. I nasjonal arkitektur er ressursen s&#230;rlig relevant...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/datakilder/grunndata/">Grunndata</a> <a class="capability-chip" href="../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/134-Sentralt-stedsnavnregister-produkt-canvas-v1-codex.md">Full beskrivelse (md-fil)</a></p>
 </article>
   </div>
   <script>
