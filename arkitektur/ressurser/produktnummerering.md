@@ -84,13 +84,13 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | 87 | `DIGDIR-027` | Arkitektur for hendelser | Referansearkitektur | Hendelsesdrevet<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/normerende-ressurser/87-Arkitektur-for-hendelser-v1-codex.md) |
 | 88 | `DIGDIR-028` | Arkitektur- og standardiseringsrådet | Arkitekturråd | Samarbeidsarenaer og nettverk<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/samarbeidsfora/88-Arkitektur-og-standardiseringsradet-v1-codex.md) |
 | 89 | `DIGDIR-029` | Rammeverk for informasjonsforvaltning | Rammeverk | Datastyring<br>Informasjonsarkitektur<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/normerende-ressurser/89-Rammeverk-for-informasjonsforvaltning-v1-codex.md) |
-| 98 | `DIGDIR-030` | Overordnede arkitekturprinsipper for offentlig sektor | Prinsipper | Forvaltningsstandarder<br>Arkitekturstyring | [Åpne](../../arkitektur/ressurser/normerende-ressurser/98-Overordnede-arkitekturprinsipper-for-offentlig-sektor-v0-codex.md) |
-| 99 | `DIGDIR-031` | Sjekkliste for sammenhengende tjenester | Veileder | Sammenhengende tjenester<br>Tjenestedesign | [Åpne](../../arkitektur/ressurser/normerende-ressurser/99-Sjekkliste-for-sammenhengende-tjenester-v0-codex.md) |
-| 100 | `DIGDIR-032` | Kart for tjenestekjeder | Metodeverktøy | Tjenestekjeder<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/normerende-ressurser/100-Kart-for-tjenestekjeder-v0-codex.md) |
-| 101 | `DIGDIR-033` | Referansearkitektur forsendelse (eMelding) | Referansearkitektur | Meldingsformidling<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/normerende-ressurser/101-Referansearkitektur-forsendelse-eMelding-v0-codex.md) |
-| 102 | `DIGDIR-034` | Referansearkitektur forespørsel-svar (eOppslag) | Referansearkitektur | Bruke data fra andre<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/normerende-ressurser/102-Referansearkitektur-foresporsel-svar-eOppslag-v0-codex.md) |
+| 98 | `DIGDIR-030` | Overordnede arkitekturprinsipper for offentlig sektor | Prinsipper | Forvaltningsstandarder<br>Arkitekturstyring | [Åpne](../../arkitektur/ressurser/normerende-ressurser/98-Overordnede-arkitekturprinsipper-for-offentlig-sektor-v1-codex.md) |
+| 99 | `DIGDIR-031` | Sjekkliste for sammenhengende tjenester | Veileder | Sammenhengende tjenester<br>Tjenestedesign | [Åpne](../../arkitektur/ressurser/normerende-ressurser/99-Sjekkliste-for-sammenhengende-tjenester-v1-codex.md) |
+| 100 | `DIGDIR-032` | Kart for tjenestekjeder | Metodeverktøy | Tjenestekjeder<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/normerende-ressurser/100-Kart-for-tjenestekjeder-v1-codex.md) |
+| 101 | `DIGDIR-033` | Referansearkitektur forsendelse (eMelding) | Referansearkitektur | Meldingsformidling<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/normerende-ressurser/101-Referansearkitektur-forsendelse-eMelding-v1-codex.md) |
+| 102 | `DIGDIR-034` | Referansearkitektur forespørsel-svar (eOppslag) | Referansearkitektur | Bruke data fra andre<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/normerende-ressurser/102-Referansearkitektur-foresporsel-svar-eOppslag-v1-codex.md) |
 | 103 | `DIGDIR-035` | Nasjonalt veikart | Veikart | Samordning<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/normerende-ressurser/103-Nasjonalt-veikart-v0-codex.md) |
-| 104 | `DIGDIR-036` | Orden i eget hus | Metodikk | Datastyring<br>Oversikt over datasett | [Åpne](../../arkitektur/ressurser/normerende-ressurser/104-Orden-i-eget-hus-v0-codex.md) |
+| 104 | `DIGDIR-036` | Orden i eget hus | Metodikk | Datastyring<br>Oversikt over datasett | [Åpne](../../arkitektur/ressurser/normerende-ressurser/104-Orden-i-eget-hus-v1-codex.md) |
 | 105 | `DIGDIR-037` | Rammeverk - nasjonale grunndata | Rammeverk | Grunndata<br>Samordning | [Åpne](../../arkitektur/ressurser/normerende-ressurser/105-Rammeverk-nasjonale-grunndata-v0-codex.md) |
 | 106 | `DIGDIR-038` | Nasjonal verktøykasse for deling av data | Veileder | Dele data med andre<br>Datastyring | [Åpne](../../arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v0-codex.md) |
 | 107 | `DIGDIR-039` | Kunnskapsgrunnlag og KPI-er datadeling | Kunnskapsgrunnlag | Samordning<br>Datastyring | [Åpne](../../arkitektur/ressurser/normerende-ressurser/107-Kunnskapsgrunnlag-og-KPI-er-datadeling-v0-codex.md) |
@@ -224,6 +224,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | 39 | `KART-001` | Matrikkelen | Eiendoms- og adresseregister | Grunndata<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/39-Matrikkelen-produkt-canvas-v1-codex.md) |
 | 40 | `KART-002` | Geonorge | Geodataportal / metadata- og delingsplattform | Oversikt over datasett<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/40-Geonorge-produkt-canvas-v1-codex.md) |
 | 132 | `KART-003` | Grunnboken | Rettighetsregister for fast eiendom | Grunndata<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/132-Grunnboken-produkt-canvas-v1-codex.md) |
+| 134 | `KART-004` | Sentralt stedsnavnregister | Register for offisielle stedsnavn | Grunndata<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/134-Sentralt-stedsnavnregister-produkt-canvas-v1-codex.md) |
 
 
 

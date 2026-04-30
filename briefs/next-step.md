@@ -9,10 +9,15 @@ topic: neste-steg
 
 ## Nytt siste steg
 
+- Opprettet [134-Sentralt-stedsnavnregister-produkt-canvas-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/operative-losninger-og-tjenester/134-Sentralt-stedsnavnregister-produkt-canvas-v1-codex.md) som ny operativ ressurs under `KART-004`.
+- Oppdatert [produktnummerering.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/produktnummerering.md) slik at `KART-004` er registerført.
+
 - Opprettet [85-Rammeverk-for-digital-samhandling-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v1-codex.md) som normerende ressurs for `DIGDIR-025`.
 - Opprettet [86-Referansekatalogen-for-IT-standarder-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/normerende-ressurser/86-Referansekatalogen-for-IT-standarder-v1-codex.md) som normerende ressurs for `DIGDIR-026`.
 - Opprettet [89-Rammeverk-for-informasjonsforvaltning-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/normerende-ressurser/89-Rammeverk-for-informasjonsforvaltning-v1-codex.md) som normerende ressurs for `DIGDIR-029`.
 - Opprettet [87-Arkitektur-for-hendelser-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/normerende-ressurser/87-Arkitektur-for-hendelser-v1-codex.md) som normerende ressurs for `DIGDIR-027`.
+- Opprettet [98-Overordnede-arkitekturprinsipper-for-offentlig-sektor-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/normerende-ressurser/98-Overordnede-arkitekturprinsipper-for-offentlig-sektor-v1-codex.md), [99-Sjekkliste-for-sammenhengende-tjenester-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/normerende-ressurser/99-Sjekkliste-for-sammenhengende-tjenester-v1-codex.md) og [100-Kart-for-tjenestekjeder-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/normerende-ressurser/100-Kart-for-tjenestekjeder-v1-codex.md) som oppgraderinger fra v0 til v1.
+- Opprettet [101-Referansearkitektur-forsendelse-eMelding-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/normerende-ressurser/101-Referansearkitektur-forsendelse-eMelding-v1-codex.md), [102-Referansearkitektur-foresporsel-svar-eOppslag-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/normerende-ressurser/102-Referansearkitektur-foresporsel-svar-eOppslag-v1-codex.md) og [104-Orden-i-eget-hus-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/normerende-ressurser/104-Orden-i-eget-hus-v1-codex.md) som oppgraderinger fra v0 til v1.
 - Oppdatert [produktnummerering.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/produktnummerering.md) med dokumentlenker for `DIGDIR-025`, `DIGDIR-026`, `DIGDIR-027` og `DIGDIR-029`.
 
 - Opprettet [132-Grunnboken-produkt-canvas-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/operative-losninger-og-tjenester/132-Grunnboken-produkt-canvas-v1-codex.md) som ny operativ ressurs under `KART-003`.
