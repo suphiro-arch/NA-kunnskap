@@ -16,12 +16,12 @@ hideSectionOverview: true
   <article class="resource-type-card">
     <h3><a href="produkter/operative-losninger-og-tjenester/">Operative løsninger og tjenester</a></h3>
     <p>Ressurser som brukes direkte i drift, integrasjon eller løsningsdesign.</p>
-    <p class="resource-type-card__count">68 ressurser</p>
+    <p class="resource-type-card__count">70 ressurser</p>
   </article>
   <article class="resource-type-card">
     <h3><a href="produkter/normerende-ressurser/">Normerende ressurser</a></h3>
     <p>Ressurser som primært gir føringer for modeller, standarder, arkitektur og samordning.</p>
-    <p class="resource-type-card__count">19 ressurser</p>
+    <p class="resource-type-card__count">23 ressurser</p>
   </article>
   <article class="resource-type-card">
     <h3><a href="produkter/samarbeidsfora/">Samarbeidsfora</a></h3>
@@ -124,12 +124,15 @@ hideSectionOverview: true
         <option value="Rammeverk">Rammeverk</option>
         <option value="Referansearkitektur">Referansearkitektur</option>
         <option value="Refusjonsdata">Refusjonsdata</option>
+        <option value="Register over faktisk eierskap og kontroll">Register over faktisk eierskap og kontroll</option>
         <option value="Register over helsepersonell">Register over helsepersonell</option>
         <option value="Register over utdanningstilbud og akkreditering">Register over utdanningstilbud og akkreditering</option>
         <option value="Registertilgang">Registertilgang</option>
         <option value="Reseptsystem">Reseptsystem</option>
+        <option value="Rettighetsregister for fast eiendom">Rettighetsregister for fast eiendom</option>
         <option value="Rundskriv">Rundskriv</option>
         <option value="Sandkasse og testmilj&#248; for digital lommebok">Sandkasse og testmilj&#248; for digital lommebok</option>
+        <option value="Standardkatalog">Standardkatalog</option>
         <option value="Studentdata">Studentdata</option>
         <option value="Styrings- og oversiktsl&#248;sning">Styrings- og oversiktsl&#248;sning</option>
         <option value="Styringsr&#229;d">Styringsr&#229;d</option>
@@ -200,7 +203,7 @@ hideSectionOverview: true
         <option value="Utviklings- og kj&#248;retidsmilj&#248;">Utviklings- og kj&#248;retidsmilj&#248;</option>
       </select></label>
     </div>
-    <p class="resource-filters__result" data-role="count">Viser 96 av 96 ressurser</p>
+    <p class="resource-filters__result" data-role="count">Viser 102 av 102 ressurser</p>
   </div>
   <div class="resource-cards">
 <article class="resource-card" data-owner="DIGDIR" data-type="Autentiseringstjeneste" data-capabilities="sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester" data-search="id-porten digdir-001 digdir ikke oppgitt autentiseringstjeneste id-porten er den nasjonale fellesl&#248;sningen for sikker innlogging til offentlige digitale tjenester. l&#248;sningen gir innbyggere &#233;n gjenkjennelig inngang til tjenester p&#229; tvers av virksomheter, og gir tjenesteeiere en felles autentiseringskomponent i stedet for lokale innloggingsl&#248;sninger. id-porten er s&#230;rlig relevant n&#229;r... sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester">
@@ -692,6 +695,33 @@ hideSectionOverview: true
   <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/samarbeid/organisatorisk-samhandling/">Organisatorisk samhandling</a> <a class="capability-chip" href="../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/">Sammenhengende tjenester</a> <a class="capability-chip" href="../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a> <span class="capability-chip capability-chip--more">+2</span></p>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://novari.no/tjenester/vigo/">Offisiell lenke</a></p>
 </article>
+<article class="resource-card" data-owner="DIGDIR" data-type="Rammeverk" data-capabilities="samordning forvaltningsstandarder organisatorisk samhandling" data-search="rammeverk for digital samhandling digdir-025 digdir ikke oppgitt rammeverk rammeverk for digital samhandling er en normerende ressurs som samler prinsipper, sammenhenger og praktiske f&#248;ringer for hvordan offentlige virksomheter kan utvikle og samhandle mer helhetlig. ressursen er viktig fordi den knytter sammen arkitekturprinsipper, kapabiliteter og veiledning slik at samhandling kan... samordning forvaltningsstandarder organisatorisk samhandling">
+  <h2 class="resource-card__title">Rammeverk for digital samhandling</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-025</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Ikke oppgitt | <strong>Type:</strong> Rammeverk</p>
+  <p class="resource-card__description">Rammeverk for digital samhandling er en normerende ressurs som samler prinsipper, sammenhenger og praktiske f&#248;ringer for hvordan offentlige virksomheter kan utvikle og samhandle mer helhetlig. Ressursen er viktig fordi den knytter sammen arkitekturprinsipper, kapabiliteter og veiledning slik at samhandling kan...</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let er &#229; gi et felles strukturgrunnlag for digital samhandling p&#229; tvers av virksomheter og forvaltningsniv&#229;er. Rammeverket skal redusere fragmentering ved &#229; gi et tydeligere spr&#229;k for vurdering...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <span class="capability-chip">Samordning</span> <span class="capability-chip">Forvaltningsstandarder</span> <span class="capability-chip">Organisatorisk samhandling</span></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/samhandling/rammeverk-digital-samhandling/2149">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="Standardkatalog" data-capabilities="forvaltningsstandarder informasjonsarkitektur arkitekturstyring" data-search="referansekatalogen for it-standarder digdir-026 digdir ikke oppgitt standardkatalog referansekatalogen for it-standarder er en normerende ressurs som samler standarder offentlig sektor skal eller b&#248;r bruke for &#229; sikre interoperabilitet og samhandling. ressursen er sentral fordi den gj&#248;r standardvalg mer enhetlige og sporbare p&#229; tvers av virksomheter. forvaltningsstandarder informasjonsarkitektur arkitekturstyring">
+  <h2 class="resource-card__title">Referansekatalogen for IT-standarder</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-026</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Ikke oppgitt | <strong>Type:</strong> Standardkatalog</p>
+  <p class="resource-card__description">Referansekatalogen for IT-standarder er en normerende ressurs som samler standarder offentlig sektor skal eller b&#248;r bruke for &#229; sikre interoperabilitet og samhandling. Ressursen er sentral fordi den gj&#248;r standardvalg mer enhetlige og sporbare p&#229; tvers av virksomheter.</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let er &#229; gi et felles standardgrunnlag som reduserer un&#248;dvendig variasjon i tekniske og semantiske valg. Katalogen st&#248;tter sammenhengende tjenester ved &#229; synliggj&#248;re hvilke standarder som er...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <span class="capability-chip">Forvaltningsstandarder</span> <span class="capability-chip">Informasjonsarkitektur</span> <span class="capability-chip">Arkitekturstyring</span></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/86-Referansekatalogen-for-IT-standarder-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/digitalisering-og-samordning/referansekatalogen-it-standarder/1480">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="Referansearkitektur" data-capabilities="hendelsesdrevet forvaltningsstandarder" data-search="arkitektur for hendelser digdir-027 digdir ikke oppgitt referansearkitektur arkitektur for hendelser er en normerende ressurs som beskriver m&#248;nstre og f&#248;ringer for hendelsesdrevet samhandling i offentlig sektor. ressursen er viktig fordi den gir et felles grunnlag for hvordan hendelser kan publiseres, oppdages og brukes p&#229; tvers av virksomheter. hendelsesdrevet forvaltningsstandarder">
+  <h2 class="resource-card__title">Arkitektur for hendelser</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-027</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Ikke oppgitt | <strong>Type:</strong> Referansearkitektur</p>
+  <p class="resource-card__description">Arkitektur for hendelser er en normerende ressurs som beskriver m&#248;nstre og f&#248;ringer for hendelsesdrevet samhandling i offentlig sektor. Ressursen er viktig fordi den gir et felles grunnlag for hvordan hendelser kan publiseres, oppdages og brukes p&#229; tvers av virksomheter.</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let er &#229; redusere ulik praksis i hendelsesbasert integrasjon og gi virksomheter en tydeligere struktur for valg av m&#248;nstre, ansvar og samspill.</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <span class="capability-chip">Hendelsesdrevet</span> <span class="capability-chip">Forvaltningsstandarder</span></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/87-Arkitektur-for-hendelser-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/samhandling/arkitektur-hendelser/4691">Offisiell lenke</a></p>
+</article>
 <article class="resource-card" data-owner="DIGDIR" data-type="Arkitekturr&#229;d" data-capabilities="samarbeidsarenaer og nettverk forvaltningsstandarder arkitekturstyring" data-search="arkitektur- og standardiseringsr&#229;det digdir-028 digdir ikke oppgitt arkitekturr&#229;d arkitektur- og standardiseringsr&#229;det er en nasjonal samordningsarena der representanter fra digdir, sektordepartement, kommuner, fylkeskommuner og andre virksomheter dr&#248;fter felles arkitektur- og standardiseringssp&#248;rsm&#229;l for digital samhandling i offentlig sektor. r&#229;det sin rolle er &#229; gi anbefalinger, prioritere... samarbeidsarenaer og nettverk forvaltningsstandarder arkitekturstyring">
   <h2 class="resource-card__title">Arkitektur- og standardiseringsr&#229;det</h2>
   <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-028</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
@@ -700,6 +730,15 @@ hideSectionOverview: true
   <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> R&#229;det skal:</p>
   <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/samarbeid/samarbeidsarenaer-og-nettverk/">Samarbeidsarenaer og nettverk</a> <a class="capability-chip" href="../kapabiliteter/standardisering/forvaltningsstandarder/">Forvaltningsstandarder</a> <a class="capability-chip" href="../kapabiliteter/strategisk-styring/arkitekturstyring/">Arkitekturstyring</a></p>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/88-Arkitektur-og-standardiseringsradet-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/digitalisering-og-samordning/arkitektur-og-standardiseringsradet/3918">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="Rammeverk" data-capabilities="datastyring informasjonsarkitektur forvaltningsstandarder" data-search="rammeverk for informasjonsforvaltning digdir-029 digdir ikke oppgitt rammeverk rammeverk for informasjonsforvaltning er en normerende ressurs som beskriver hvordan virksomheter b&#248;r arbeide strukturert med data og informasjon som en felles ressurs. ressursen er viktig fordi den kobler styring, begrepsarbeid, metadata og deling til bedre samhandling og mer gjenbruk. datastyring informasjonsarkitektur forvaltningsstandarder">
+  <h2 class="resource-card__title">Rammeverk for informasjonsforvaltning</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-029</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Ikke oppgitt | <strong>Type:</strong> Rammeverk</p>
+  <p class="resource-card__description">Rammeverk for informasjonsforvaltning er en normerende ressurs som beskriver hvordan virksomheter b&#248;r arbeide strukturert med data og informasjon som en felles ressurs. Ressursen er viktig fordi den kobler styring, begrepsarbeid, metadata og deling til bedre samhandling og mer gjenbruk.</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let er &#229; gi en felles tiln&#230;rming til informasjonsforvaltning slik at virksomheter lettere kan etablere oversikt, kvalitet og ansvar for egne data, og samtidig legge til rette for deling og...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <span class="capability-chip">Datastyring</span> <span class="capability-chip">Informasjonsarkitektur</span> <span class="capability-chip">Forvaltningsstandarder</span></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/89-Rammeverk-for-informasjonsforvaltning-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/digitalisering-og-samordning/rammeverk-informasjonsforvaltning/2419">Offisiell lenke</a></p>
 </article>
 <article class="resource-card" data-owner="DIGDIR" data-type="Prinsipper" data-capabilities="standardisering: forvaltningsstandarder samarbeid: organisatorisk samhandling" data-search="overordnede arkitekturprinsipper for offentlig sektor digdir-030 digdir ikke oppgitt prinsipper normerende prinsippgrunnlag for hvordan offentlig sektor b&#248;r utforme, styre og vurdere digitale l&#248;sninger. standardisering: forvaltningsstandarder samarbeid: organisatorisk samhandling">
   <h2 class="resource-card__title">Overordnede arkitekturprinsipper for offentlig sektor</h2>
@@ -998,6 +1037,22 @@ hideSectionOverview: true
   <p class="resource-card__description">Reseptregisteret (NorPD – Norwegian Prescription Database) er det nasjonale registeret for reseptutskrivning og legemiddelutlevering i Norge. Registeret gir et konsistent og historisk datagrunnlag for &#229; f&#248;lge legemiddelbruk, bruksm&#248;nster og utvikling over tid. Ressursen er sentral for farmakoepidemologi,...</p>
   <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <span class="capability-chip">Datakilder: Grunndata</span> <span class="capability-chip">Datautveksling og integrasjon: Dele data med andre</span> <span class="capability-chip">Informasjonsforvaltning: Datastyring</span></p>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/131-Reseptregisteret-NorPD-produkt-canvas-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.fhi.no/hn/helseregistre-og-registre/reseptregisteret/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="KART" data-type="Rettighetsregister for fast eiendom" data-capabilities="grunndata dele data med andre" data-search="grunnboken kart-003 kart ikke oppgitt rettighetsregister for fast eiendom grunnboken er det nasjonale registeret for tinglyste rettigheter, hjemmelsopplysninger og heftelser knyttet til fast eiendom og borettslagsandeler. produktet gj&#248;r det mulig &#229; kontrollere hvem som er registrert som tinglyst eier, hvilke rettigheter som er heftet p&#229; en eiendom, og hvilke dokumenterte forpliktelser som... grunndata dele data med andre">
+  <h2 class="resource-card__title">Grunnboken</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>KART-003</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> KART | <strong>Kategori:</strong> Ikke oppgitt | <strong>Type:</strong> Rettighetsregister for fast eiendom</p>
+  <p class="resource-card__description">Grunnboken er det nasjonale registeret for tinglyste rettigheter, hjemmelsopplysninger og heftelser knyttet til fast eiendom og borettslagsandeler. Produktet gj&#248;r det mulig &#229; kontrollere hvem som er registrert som tinglyst eier, hvilke rettigheter som er heftet p&#229; en eiendom, og hvilke dokumenterte forpliktelser som...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/datakilder/grunndata/">Grunndata</a> <a class="capability-chip" href="../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/132-Grunnboken-produkt-canvas-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.kartverket.no/en/property/bestille-fra-grunnboken/hva-er-grunnboken">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="BRREG" data-type="Register over faktisk eierskap og kontroll" data-capabilities="grunndata dele data med andre" data-search="register over reelle rettighetshavere brreg-004 brreg ikke oppgitt register over faktisk eierskap og kontroll register over reelle rettighetshavere er den nasjonale ressursen for opplysninger om hvilke fysiske personer som i siste instans eier eller kontrollerer en registreringspliktig virksomhet. produktet gj&#248;r det mulig &#229; avdekke faktisk kontroll bak juridiske enheter og er derfor s&#230;rlig relevant i analyser og samhandling... grunndata dele data med andre">
+  <h2 class="resource-card__title">Register over reelle rettighetshavere</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>BRREG-004</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> BRREG | <strong>Kategori:</strong> Ikke oppgitt | <strong>Type:</strong> Register over faktisk eierskap og kontroll</p>
+  <p class="resource-card__description">Register over reelle rettighetshavere er den nasjonale ressursen for opplysninger om hvilke fysiske personer som i siste instans eier eller kontrollerer en registreringspliktig virksomhet. Produktet gj&#248;r det mulig &#229; avdekke faktisk kontroll bak juridiske enheter og er derfor s&#230;rlig relevant i analyser og samhandling...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/datakilder/grunndata/">Grunndata</a> <a class="capability-chip" href="../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/133-Register-over-reelle-rettighetshavere-produkt-canvas-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.brreg.no/reelle-rettighetshavere/">Offisiell lenke</a></p>
 </article>
   </div>
   <script>

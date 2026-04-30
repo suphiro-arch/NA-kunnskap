@@ -79,11 +79,11 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | 23 | `DIGDIR-021` | Altinn Melding | Korrespondansetjeneste | Hendelsesdrevet<br>Meldingsformidling<br>Sikring av informasjonsflyt og datautveksling<br>Sporbarhet og innsyn<br>Tilgangskontroll<br>Integrerbare tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/23-Altinn-3-Melding-produkt-canvas-v5-codex.md) |
 | 24 | `DIGDIR-022` | Altinn Varsling | Varslingstjeneste (SMS/e-post) | Sammenstilling av data<br>Meldingsformidling<br>Sikring av informasjonsflyt og datautveksling<br>Proaktive tjenester<br>Tilgangskontroll<br>Integrerbare tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/24-Varslinger-produkt-canvas-v5-codex.md) |
 | 56 | `DIGDIR-024` | eIDAS-node (Norge) | Grensekryssende eID | Bruke data fra andre<br>Autentisering<br>Identifisering | - |
-| 85 | `DIGDIR-025` | Rammeverk for digital samhandling | Rammeverk | Forvaltningsstandarder<br>Dele data med andre<br>Organisatorisk samhandling | - |
-| 86 | `DIGDIR-026` | Referansekatalogen for IT-standarder | Standardkatalog | Forvaltningsstandarder<br>Informasjonsarkitektur | - |
-| 87 | `DIGDIR-027` | Arkitektur for hendelser | Referansearkitektur | Hendelsesdrevet<br>Forvaltningsstandarder | - |
+| 85 | `DIGDIR-025` | Rammeverk for digital samhandling | Rammeverk | Forvaltningsstandarder<br>Dele data med andre<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v1-codex.md) |
+| 86 | `DIGDIR-026` | Referansekatalogen for IT-standarder | Standardkatalog | Forvaltningsstandarder<br>Informasjonsarkitektur | [Åpne](../../arkitektur/ressurser/normerende-ressurser/86-Referansekatalogen-for-IT-standarder-v1-codex.md) |
+| 87 | `DIGDIR-027` | Arkitektur for hendelser | Referansearkitektur | Hendelsesdrevet<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/normerende-ressurser/87-Arkitektur-for-hendelser-v1-codex.md) |
 | 88 | `DIGDIR-028` | Arkitektur- og standardiseringsrådet | Arkitekturråd | Samarbeidsarenaer og nettverk<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/samarbeidsfora/88-Arkitektur-og-standardiseringsradet-v1-codex.md) |
-| 89 | `DIGDIR-029` | Rammeverk for informasjonsforvaltning | Rammeverk | Datastyring<br>Informasjonsarkitektur<br>Forvaltningsstandarder | - |
+| 89 | `DIGDIR-029` | Rammeverk for informasjonsforvaltning | Rammeverk | Datastyring<br>Informasjonsarkitektur<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/normerende-ressurser/89-Rammeverk-for-informasjonsforvaltning-v1-codex.md) |
 | 98 | `DIGDIR-030` | Overordnede arkitekturprinsipper for offentlig sektor | Prinsipper | Forvaltningsstandarder<br>Arkitekturstyring | [Åpne](../../arkitektur/ressurser/normerende-ressurser/98-Overordnede-arkitekturprinsipper-for-offentlig-sektor-v0-codex.md) |
 | 99 | `DIGDIR-031` | Sjekkliste for sammenhengende tjenester | Veileder | Sammenhengende tjenester<br>Tjenestedesign | [Åpne](../../arkitektur/ressurser/normerende-ressurser/99-Sjekkliste-for-sammenhengende-tjenester-v0-codex.md) |
 | 100 | `DIGDIR-032` | Kart for tjenestekjeder | Metodeverktøy | Tjenestekjeder<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/normerende-ressurser/100-Kart-for-tjenestekjeder-v0-codex.md) |
@@ -120,6 +120,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | Løpenr | Ressurs-ID | Navn | Type | Kapabiliteter | Dokument |
 |---:|---|---|---|---|---|
 | 46 | `BRREG-003` | Enhetsregisteret | Virksomhetsregister | Grunndata<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/46-Enhetsregisteret-produkt-canvas-v1-codex.md) |
+| 133 | `BRREG-004` | Register over reelle rettighetshavere | Register over faktisk eierskap og kontroll | Grunndata<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/133-Register-over-reelle-rettighetshavere-produkt-canvas-v1-codex.md) |
 
 
 
@@ -222,6 +223,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 |---:|---|---|---|---|---|
 | 39 | `KART-001` | Matrikkelen | Eiendoms- og adresseregister | Grunndata<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/39-Matrikkelen-produkt-canvas-v1-codex.md) |
 | 40 | `KART-002` | Geonorge | Geodataportal / metadata- og delingsplattform | Oversikt over datasett<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/40-Geonorge-produkt-canvas-v1-codex.md) |
+| 132 | `KART-003` | Grunnboken | Rettighetsregister for fast eiendom | Grunndata<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/132-Grunnboken-produkt-canvas-v1-codex.md) |
 
 
 

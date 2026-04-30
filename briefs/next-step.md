@@ -7,6 +7,18 @@ topic: neste-steg
 
 # Neste steg
 
+## Nytt siste steg
+
+- Opprettet [85-Rammeverk-for-digital-samhandling-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v1-codex.md) som normerende ressurs for `DIGDIR-025`.
+- Opprettet [86-Referansekatalogen-for-IT-standarder-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/normerende-ressurser/86-Referansekatalogen-for-IT-standarder-v1-codex.md) som normerende ressurs for `DIGDIR-026`.
+- Opprettet [89-Rammeverk-for-informasjonsforvaltning-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/normerende-ressurser/89-Rammeverk-for-informasjonsforvaltning-v1-codex.md) som normerende ressurs for `DIGDIR-029`.
+- Opprettet [87-Arkitektur-for-hendelser-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/normerende-ressurser/87-Arkitektur-for-hendelser-v1-codex.md) som normerende ressurs for `DIGDIR-027`.
+- Oppdatert [produktnummerering.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/produktnummerering.md) med dokumentlenker for `DIGDIR-025`, `DIGDIR-026`, `DIGDIR-027` og `DIGDIR-029`.
+
+- Opprettet [132-Grunnboken-produkt-canvas-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/operative-losninger-og-tjenester/132-Grunnboken-produkt-canvas-v1-codex.md) som ny operativ ressurs under `KART-003`.
+- Opprettet [133-Register-over-reelle-rettighetshavere-produkt-canvas-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/operative-losninger-og-tjenester/133-Register-over-reelle-rettighetshavere-produkt-canvas-v1-codex.md) som ny operativ ressurs under `BRREG-004`.
+- Oppdatert [produktnummerering.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/produktnummerering.md) slik at begge ressursene nå er registerført.
+
 ## Foreslått neste prioritering
 
 - `Matrikkelen` bør prioriteres videre som tversgående grunnlagsressurs for eiendom, adresser og bygninger, med tydelig verdi for planlegging, beredskap og samordning mellom nivåer.
@@ -20,13 +32,11 @@ topic: neste-steg
 
 ### Høy prioritet for ny vurdering
 
-- `Grunnboken` bør vurderes som egen ressurs eller som tydeligere tvillingressurs til `Matrikkelen`, fordi kombinasjonen av eiendomsdata og tinglyste rettigheter har klar verdi på tvers i blant annet beredskap, sikkerhet, planlegging, kontroll og offentlig saksbehandling.
-- `Register over reelle rettighetshavere` bør vurderes som ny kandidat fordi det gir et nasjonalt datagrunnlag om faktisk kontroll over virksomheter, med mulig verdi på tvers i kontroll, tilsyn, anskaffelser, økonomisk kriminalitet og samordnet offentlig oppfølging.
+- `Norsk pasientregister (NPR)` bør vurderes videre, men med streng terskel. Registeret er viktig og nasjonalt, men tversgående verdi må begrunnes tydelig utover helsesektoren alene.
+- `Kommunalt pasient- og brukerregister (KPR)` bør vurderes videre av samme grunn. Det kan være relevant for styring og samordning mellom nivåer, men er ikke automatisk en NA-ressurs uten klarere tversgående analyseverdi.
 
 ### Middels prioritet for ny vurdering
 
-- `Norsk pasientregister (NPR)` bør vurderes videre, men med streng terskel. Registeret er viktig og nasjonalt, men tversgående verdi må begrunnes tydelig utover helsesektoren alene.
-- `Kommunalt pasient- og brukerregister (KPR)` bør vurderes videre av samme grunn. Det kan være relevant for styring og samordning mellom nivåer, men er ikke automatisk en NA-ressurs uten klarere tversgående analyseverdi.
 - `Sentralt stedsnavnregister` kan vurderes som mulig støttekandidat dersom vi senere ønsker å løfte flere geodataressurser som brukes bredt på tvers, men det ligger foreløpig bak `Geonorge`, `Matrikkelen`, `Grunnboken` og `NVDB`.
 
 ### Lav prioritet akkurat nå

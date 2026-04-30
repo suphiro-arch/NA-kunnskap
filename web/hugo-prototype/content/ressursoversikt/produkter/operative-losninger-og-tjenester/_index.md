@@ -82,10 +82,12 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Operativ
         <option value="Portal for forvaltning, informasjon og ta-i-bruk av fellesl&#248;sninger">Portal for forvaltning, informasjon og ta-i-bruk av fellesl&#248;sninger</option>
         <option value="Portal for &#229;pne data">Portal for &#229;pne data</option>
         <option value="Refusjonsdata">Refusjonsdata</option>
+        <option value="Register over faktisk eierskap og kontroll">Register over faktisk eierskap og kontroll</option>
         <option value="Register over helsepersonell">Register over helsepersonell</option>
         <option value="Register over utdanningstilbud og akkreditering">Register over utdanningstilbud og akkreditering</option>
         <option value="Registertilgang">Registertilgang</option>
         <option value="Reseptsystem">Reseptsystem</option>
+        <option value="Rettighetsregister for fast eiendom">Rettighetsregister for fast eiendom</option>
         <option value="Sandkasse og testmilj&#248; for digital lommebok">Sandkasse og testmilj&#248; for digital lommebok</option>
         <option value="Studentdata">Studentdata</option>
         <option value="Styrings- og oversiktsl&#248;sning">Styrings- og oversiktsl&#248;sning</option>
@@ -144,7 +146,7 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Operativ
         <option value="Utviklings- og kj&#248;retidsmilj&#248;">Utviklings- og kj&#248;retidsmilj&#248;</option>
       </select></label>
     </div>
-    <p class="resource-filters__result" data-role="count">Viser 68 av 68 ressurser</p>
+    <p class="resource-filters__result" data-role="count">Viser 70 av 70 ressurser</p>
   </div>
   <div class="resource-cards">
 <article class="resource-card" data-owner="DIGDIR" data-type="Autentiseringstjeneste" data-capabilities="sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester" data-search="id-porten digdir-001 digdir ikke oppgitt autentiseringstjeneste id-porten er den nasjonale fellesl&#248;sningen for sikker innlogging til offentlige digitale tjenester. l&#248;sningen gir innbyggere &#233;n gjenkjennelig inngang til tjenester p&#229; tvers av virksomheter, og gir tjenesteeiere en felles autentiseringskomponent i stedet for lokale innloggingsl&#248;sninger. id-porten er s&#230;rlig relevant n&#229;r... sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester">
@@ -690,6 +692,22 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Operativ
   <p class="resource-card__description">Reseptregisteret (NorPD – Norwegian Prescription Database) er det nasjonale registeret for reseptutskrivning og legemiddelutlevering i Norge. Registeret gir et konsistent og historisk datagrunnlag for &#229; f&#248;lge legemiddelbruk, bruksm&#248;nster og utvikling over tid. Ressursen er sentral for farmakoepidemologi,...</p>
   <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <span class="capability-chip">Datakilder: Grunndata</span> <span class="capability-chip">Datautveksling og integrasjon: Dele data med andre</span> <span class="capability-chip">Informasjonsforvaltning: Datastyring</span></p>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/131-Reseptregisteret-NorPD-produkt-canvas-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.fhi.no/hn/helseregistre-og-registre/reseptregisteret/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="KART" data-type="Rettighetsregister for fast eiendom" data-capabilities="grunndata dele data med andre" data-search="grunnboken kart-003 kart ikke oppgitt rettighetsregister for fast eiendom grunnboken er det nasjonale registeret for tinglyste rettigheter, hjemmelsopplysninger og heftelser knyttet til fast eiendom og borettslagsandeler. produktet gj&#248;r det mulig &#229; kontrollere hvem som er registrert som tinglyst eier, hvilke rettigheter som er heftet p&#229; en eiendom, og hvilke dokumenterte forpliktelser som... grunndata dele data med andre">
+  <h2 class="resource-card__title">Grunnboken</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>KART-003</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> KART | <strong>Kategori:</strong> Ikke oppgitt | <strong>Type:</strong> Rettighetsregister for fast eiendom</p>
+  <p class="resource-card__description">Grunnboken er det nasjonale registeret for tinglyste rettigheter, hjemmelsopplysninger og heftelser knyttet til fast eiendom og borettslagsandeler. Produktet gj&#248;r det mulig &#229; kontrollere hvem som er registrert som tinglyst eier, hvilke rettigheter som er heftet p&#229; en eiendom, og hvilke dokumenterte forpliktelser som...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/datakilder/grunndata/">Grunndata</a> <a class="capability-chip" href="../../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/132-Grunnboken-produkt-canvas-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.kartverket.no/en/property/bestille-fra-grunnboken/hva-er-grunnboken">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="BRREG" data-type="Register over faktisk eierskap og kontroll" data-capabilities="grunndata dele data med andre" data-search="register over reelle rettighetshavere brreg-004 brreg ikke oppgitt register over faktisk eierskap og kontroll register over reelle rettighetshavere er den nasjonale ressursen for opplysninger om hvilke fysiske personer som i siste instans eier eller kontrollerer en registreringspliktig virksomhet. produktet gj&#248;r det mulig &#229; avdekke faktisk kontroll bak juridiske enheter og er derfor s&#230;rlig relevant i analyser og samhandling... grunndata dele data med andre">
+  <h2 class="resource-card__title">Register over reelle rettighetshavere</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>BRREG-004</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> BRREG | <strong>Kategori:</strong> Ikke oppgitt | <strong>Type:</strong> Register over faktisk eierskap og kontroll</p>
+  <p class="resource-card__description">Register over reelle rettighetshavere er den nasjonale ressursen for opplysninger om hvilke fysiske personer som i siste instans eier eller kontrollerer en registreringspliktig virksomhet. Produktet gj&#248;r det mulig &#229; avdekke faktisk kontroll bak juridiske enheter og er derfor s&#230;rlig relevant i analyser og samhandling...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/datakilder/grunndata/">Grunndata</a> <a class="capability-chip" href="../../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/133-Register-over-reelle-rettighetshavere-produkt-canvas-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.brreg.no/reelle-rettighetshavere/">Offisiell lenke</a></p>
 </article>
   </div>
   <script>

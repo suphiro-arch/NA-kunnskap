@@ -3,7 +3,7 @@ title: "Datautveksling og integrasjon"
 eyebrow: "Kapabilitet"
 weight: 4
 description: "Evne til å sikkert, effektivt og standardisert utveksle data mellom aktører i økosystemet."
-cardMeta: "4 delkapabiliteter / 45 produkter"
+cardMeta: "4 delkapabiliteter / 47 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -187,6 +187,14 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/123-DSOP-samarbeidet-v0-codex.md">DSOP-samarbeidet</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/132-Grunnboken-produkt-canvas-v1-codex.md">Grunnboken</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/133-Register-over-reelle-rettighetshavere-produkt-canvas-v1-codex.md">Register over reelle rettighetshavere</a></h3>
     </article>
   </div>
 ---

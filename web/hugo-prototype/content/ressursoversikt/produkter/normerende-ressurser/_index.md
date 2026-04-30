@@ -31,19 +31,23 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Normeren
         <option value="Rammeverk">Rammeverk</option>
         <option value="Referansearkitektur">Referansearkitektur</option>
         <option value="Rundskriv">Rundskriv</option>
+        <option value="Standardkatalog">Standardkatalog</option>
         <option value="Veikart">Veikart</option>
         <option value="Veileder">Veileder</option>
       </select></label>
       <label>Kapabilitet <select class="resource-filter" data-filter="capability"><option value="">Alle</option>
         <option value="Arkitekturstyring">Arkitekturstyring</option>
         <option value="Datakilder: Grunndata">Datakilder: Grunndata</option>
+        <option value="Datastyring">Datastyring</option>
         <option value="Datautveksling og integrasjon: Bruke data fra andre">Datautveksling og integrasjon: Bruke data fra andre</option>
         <option value="Datautveksling og integrasjon: Dele data med andre">Datautveksling og integrasjon: Dele data med andre</option>
         <option value="Datautveksling og integrasjon: Meldingsformidling">Datautveksling og integrasjon: Meldingsformidling</option>
         <option value="Forvaltningsstandarder">Forvaltningsstandarder</option>
+        <option value="Hendelsesdrevet">Hendelsesdrevet</option>
         <option value="Informasjonsarkitektur">Informasjonsarkitektur</option>
         <option value="Informasjonsforvaltning: Datastyring">Informasjonsforvaltning: Datastyring</option>
         <option value="Informasjonsforvaltning: Oversikt over datasett">Informasjonsforvaltning: Oversikt over datasett</option>
+        <option value="Organisatorisk samhandling">Organisatorisk samhandling</option>
         <option value="Oversikt over informasjonsmodeller">Oversikt over informasjonsmodeller</option>
         <option value="Samarbeid: Organisatorisk samhandling">Samarbeid: Organisatorisk samhandling</option>
         <option value="Sammenhengende tjenester">Sammenhengende tjenester</option>
@@ -55,7 +59,7 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Normeren
         <option value="Tjenesteutvikling: Tjenestedesign">Tjenesteutvikling: Tjenestedesign</option>
       </select></label>
     </div>
-    <p class="resource-filters__result" data-role="count">Viser 19 av 19 ressurser</p>
+    <p class="resource-filters__result" data-role="count">Viser 23 av 23 ressurser</p>
   </div>
   <div class="resource-cards">
 <article class="resource-card" data-owner="NOVARI" data-type="Informasjonsmodell" data-capabilities="informasjonsarkitektur oversikt over informasjonsmodeller forvaltningsstandarder" data-search="fint informasjonsmodell novari-003 novari ikke oppgitt informasjonsmodell fint informasjonsmodell er den felles semantiske og strukturelle modellen som beskriver hvilken informasjon fylkeskommunene kan utveksle gjennom fint-&#248;kosystemet. modellen gir et felles spr&#229;k for data p&#229; tvers av fylkeskommuner, fagsystemer og leverand&#248;rer, og er en sentral forutsetning for at fint felleskomponent,... informasjonsarkitektur oversikt over informasjonsmodeller forvaltningsstandarder">
@@ -66,6 +70,42 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Normeren
   <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let med ressursen er &#229; etablere en omforent informasjonsstruktur for fylkeskommunal datadeling. Den normerende rollen ligger f&#248;rst og fremst i at modellen definerer hvilke objekter, relasjoner...</p>
   <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/informasjonsforvaltning/informasjonsarkitektur/">Informasjonsarkitektur</a> <a class="capability-chip" href="../../../kapabiliteter/informasjonsforvaltning/oversikt-over-informasjonsmodeller/">Oversikt over informasjonsmodeller</a> <a class="capability-chip" href="../../../kapabiliteter/standardisering/forvaltningsstandarder/">Forvaltningsstandarder</a></p>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/72-FINT-Informasjonsmodell-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://novari.no/tjenester/fint-informasjonsmodell/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="Rammeverk" data-capabilities="samordning forvaltningsstandarder organisatorisk samhandling" data-search="rammeverk for digital samhandling digdir-025 digdir ikke oppgitt rammeverk rammeverk for digital samhandling er en normerende ressurs som samler prinsipper, sammenhenger og praktiske f&#248;ringer for hvordan offentlige virksomheter kan utvikle og samhandle mer helhetlig. ressursen er viktig fordi den knytter sammen arkitekturprinsipper, kapabiliteter og veiledning slik at samhandling kan... samordning forvaltningsstandarder organisatorisk samhandling">
+  <h2 class="resource-card__title">Rammeverk for digital samhandling</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-025</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Ikke oppgitt | <strong>Type:</strong> Rammeverk</p>
+  <p class="resource-card__description">Rammeverk for digital samhandling er en normerende ressurs som samler prinsipper, sammenhenger og praktiske f&#248;ringer for hvordan offentlige virksomheter kan utvikle og samhandle mer helhetlig. Ressursen er viktig fordi den knytter sammen arkitekturprinsipper, kapabiliteter og veiledning slik at samhandling kan...</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let er &#229; gi et felles strukturgrunnlag for digital samhandling p&#229; tvers av virksomheter og forvaltningsniv&#229;er. Rammeverket skal redusere fragmentering ved &#229; gi et tydeligere spr&#229;k for vurdering...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <span class="capability-chip">Samordning</span> <span class="capability-chip">Forvaltningsstandarder</span> <span class="capability-chip">Organisatorisk samhandling</span></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/samhandling/rammeverk-digital-samhandling/2149">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="Standardkatalog" data-capabilities="forvaltningsstandarder informasjonsarkitektur arkitekturstyring" data-search="referansekatalogen for it-standarder digdir-026 digdir ikke oppgitt standardkatalog referansekatalogen for it-standarder er en normerende ressurs som samler standarder offentlig sektor skal eller b&#248;r bruke for &#229; sikre interoperabilitet og samhandling. ressursen er sentral fordi den gj&#248;r standardvalg mer enhetlige og sporbare p&#229; tvers av virksomheter. forvaltningsstandarder informasjonsarkitektur arkitekturstyring">
+  <h2 class="resource-card__title">Referansekatalogen for IT-standarder</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-026</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Ikke oppgitt | <strong>Type:</strong> Standardkatalog</p>
+  <p class="resource-card__description">Referansekatalogen for IT-standarder er en normerende ressurs som samler standarder offentlig sektor skal eller b&#248;r bruke for &#229; sikre interoperabilitet og samhandling. Ressursen er sentral fordi den gj&#248;r standardvalg mer enhetlige og sporbare p&#229; tvers av virksomheter.</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let er &#229; gi et felles standardgrunnlag som reduserer un&#248;dvendig variasjon i tekniske og semantiske valg. Katalogen st&#248;tter sammenhengende tjenester ved &#229; synliggj&#248;re hvilke standarder som er...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <span class="capability-chip">Forvaltningsstandarder</span> <span class="capability-chip">Informasjonsarkitektur</span> <span class="capability-chip">Arkitekturstyring</span></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/86-Referansekatalogen-for-IT-standarder-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/digitalisering-og-samordning/referansekatalogen-it-standarder/1480">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="Referansearkitektur" data-capabilities="hendelsesdrevet forvaltningsstandarder" data-search="arkitektur for hendelser digdir-027 digdir ikke oppgitt referansearkitektur arkitektur for hendelser er en normerende ressurs som beskriver m&#248;nstre og f&#248;ringer for hendelsesdrevet samhandling i offentlig sektor. ressursen er viktig fordi den gir et felles grunnlag for hvordan hendelser kan publiseres, oppdages og brukes p&#229; tvers av virksomheter. hendelsesdrevet forvaltningsstandarder">
+  <h2 class="resource-card__title">Arkitektur for hendelser</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-027</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Ikke oppgitt | <strong>Type:</strong> Referansearkitektur</p>
+  <p class="resource-card__description">Arkitektur for hendelser er en normerende ressurs som beskriver m&#248;nstre og f&#248;ringer for hendelsesdrevet samhandling i offentlig sektor. Ressursen er viktig fordi den gir et felles grunnlag for hvordan hendelser kan publiseres, oppdages og brukes p&#229; tvers av virksomheter.</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let er &#229; redusere ulik praksis i hendelsesbasert integrasjon og gi virksomheter en tydeligere struktur for valg av m&#248;nstre, ansvar og samspill.</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <span class="capability-chip">Hendelsesdrevet</span> <span class="capability-chip">Forvaltningsstandarder</span></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/87-Arkitektur-for-hendelser-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/samhandling/arkitektur-hendelser/4691">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="Rammeverk" data-capabilities="datastyring informasjonsarkitektur forvaltningsstandarder" data-search="rammeverk for informasjonsforvaltning digdir-029 digdir ikke oppgitt rammeverk rammeverk for informasjonsforvaltning er en normerende ressurs som beskriver hvordan virksomheter b&#248;r arbeide strukturert med data og informasjon som en felles ressurs. ressursen er viktig fordi den kobler styring, begrepsarbeid, metadata og deling til bedre samhandling og mer gjenbruk. datastyring informasjonsarkitektur forvaltningsstandarder">
+  <h2 class="resource-card__title">Rammeverk for informasjonsforvaltning</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-029</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DIGDIR | <strong>Kategori:</strong> Ikke oppgitt | <strong>Type:</strong> Rammeverk</p>
+  <p class="resource-card__description">Rammeverk for informasjonsforvaltning er en normerende ressurs som beskriver hvordan virksomheter b&#248;r arbeide strukturert med data og informasjon som en felles ressurs. Ressursen er viktig fordi den kobler styring, begrepsarbeid, metadata og deling til bedre samhandling og mer gjenbruk.</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let er &#229; gi en felles tiln&#230;rming til informasjonsforvaltning slik at virksomheter lettere kan etablere oversikt, kvalitet og ansvar for egne data, og samtidig legge til rette for deling og...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <span class="capability-chip">Datastyring</span> <span class="capability-chip">Informasjonsarkitektur</span> <span class="capability-chip">Forvaltningsstandarder</span></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/89-Rammeverk-for-informasjonsforvaltning-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/digitalisering-og-samordning/rammeverk-informasjonsforvaltning/2419">Offisiell lenke</a></p>
 </article>
 <article class="resource-card" data-owner="DIGDIR" data-type="Prinsipper" data-capabilities="standardisering: forvaltningsstandarder samarbeid: organisatorisk samhandling" data-search="overordnede arkitekturprinsipper for offentlig sektor digdir-030 digdir ikke oppgitt prinsipper normerende prinsippgrunnlag for hvordan offentlig sektor b&#248;r utforme, styre og vurdere digitale l&#248;sninger. standardisering: forvaltningsstandarder samarbeid: organisatorisk samhandling">
   <h2 class="resource-card__title">Overordnede arkitekturprinsipper for offentlig sektor</h2>

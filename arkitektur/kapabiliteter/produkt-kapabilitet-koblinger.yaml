@@ -3400,6 +3400,66 @@
                     "explanation": "knytter sammen informasjon, prosjekter og kontaktflater rundt Digdirs fellesløsninger og samarbeidsløp"
                 }
             ]
+        },
+        {
+            "product_id": 132,
+            "product_name": "Grunnboken",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/132-Grunnboken-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/132-Grunnboken-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "Grunnboken er den autoritative kilden for tinglyste rettigheter, hjemmelsopplysninger og heftelser knyttet til fast eiendom og borettslagsandeler."
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Grunnboken deler autoritative rettighetsopplysninger som brukes i eiendomshandel, kredittvurdering, offentlig kontroll og annen saksbehandling på tvers av sektorer og nivåer."
+                }
+            ]
+        },
+        {
+            "product_id": 133,
+            "product_name": "Register over reelle rettighetshavere",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/133-Register-over-reelle-rettighetshavere-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/133-Register-over-reelle-rettighetshavere-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "Registeret gir autoritative opplysninger om hvilke fysiske personer som i siste instans eier eller kontrollerer en registreringspliktig virksomhet."
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Registeret har kontrollert API-tilgang for offentlige myndigheter og andre brukergrupper med hjemmel som trenger data om faktisk eierskap og kontroll."
+                }
+            ]
         }
     ],
     "capabilities": [

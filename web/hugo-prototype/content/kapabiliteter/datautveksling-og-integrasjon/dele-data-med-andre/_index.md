@@ -4,7 +4,7 @@ headerTitle: "Datautveksling og integrasjon - Dele data med andre"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er, slik at andre aktører med lovlig grunnlag enkelt kan oppdage og gjenbruke dem."
-cardMeta: "28 produkter"
+cardMeta: "30 produkter"
 ---
 
 Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er, slik at andre aktører med lovlig grunnlag enkelt kan oppdage og gjenbruke dem.
@@ -151,5 +151,15 @@ Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er, sl
     <p class="capability-product-link__type">Samarbeidsforum</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/123-DSOP-samarbeidet-v0-codex.md">DSOP-samarbeidet</a></h3>
     <p class="capability-product-link__description">samler aktører som utvikler offentlig-privat datadeling og samhandling på tvers av sektorgrenser.</p>
+  </article>
+  <article class="capability-product-link resource-type--operative">
+    <p class="capability-product-link__type">Operativ løsning</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/132-Grunnboken-produkt-canvas-v1-codex.md">Grunnboken</a></h3>
+    <p class="capability-product-link__description">Grunnboken deler autoritative rettighetsopplysninger som brukes i eiendomshandel, kredittvurdering, offentlig kontroll og annen saksbehandling på tvers av sektorer og nivåer.</p>
+  </article>
+  <article class="capability-product-link resource-type--operative">
+    <p class="capability-product-link__type">Operativ løsning</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/133-Register-over-reelle-rettighetshavere-produkt-canvas-v1-codex.md">Register over reelle rettighetshavere</a></h3>
+    <p class="capability-product-link__description">Registeret har kontrollert API-tilgang for offentlige myndigheter og andre brukergrupper med hjemmel som trenger data om faktisk eierskap og kontroll.</p>
   </article>
 </div>
