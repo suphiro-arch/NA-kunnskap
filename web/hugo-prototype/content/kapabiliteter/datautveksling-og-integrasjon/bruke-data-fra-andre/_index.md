@@ -4,7 +4,7 @@ headerTitle: "Datautveksling og integrasjon - Bruke data fra andre"
 eyebrow: "Kapabilitet"
 weight: 2
 description: "Evne til å gjenbruke data fra andre i egne tjenester og prosesser."
-cardMeta: "19 produkter"
+cardMeta: "20 produkter"
 ---
 
 Evne til å gjenbruke data fra andre i egne tjenester og prosesser.
@@ -106,5 +106,10 @@ Evne til å gjenbruke data fra andre i egne tjenester og prosesser.
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/71-FINT-Arkiv-v1-codex.md">FINT Arkiv</a></h3>
     <p class="capability-product-link__description">gir fagsystemer og andre tjenester et standardisert løp for å bruke data fra foretrukket sak- og arkivsystem.</p>
+  </article>
+  <article class="capability-product-link resource-type--normative">
+    <p class="capability-product-link__type">Normerende ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/102-Referansearkitektur-foresporsel-svar-eOppslag-v1-codex.md">Referansearkitektur forespørsel-svar (eOppslag)</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Referansearkitektur forespørsel-svar (eOppslag) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
   </article>
 </div>

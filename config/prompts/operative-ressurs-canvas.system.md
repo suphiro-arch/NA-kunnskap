@@ -46,9 +46,10 @@ Hvis kildegrunnlaget ikke støtter dette nivået, behold dokumentet som `v0.x` t
 3. Prinsipper: `arkitektur/prinsipper/principles.md` (bruk prinsippnavn og koblinger som finnes her)
 4. Lenker: `sources/links.md` (lokal liste + aktive lenker til dokumentasjon)
 5. Ressursregister, Ressurs-ID og Merknad: `arkitektur/ressurser/produktnummerering.md`
-5. **Åpne kilder**: Digdir Docs, Samarbeidsportalen, felles-IKT, produkteier-nettsteder (f.eks. altinn.studio)
-6. **URL-valg:** Bruk som hovedregel de konkrete URL-ene som allerede er listet i `sources/links.md` før du prøver bredere søk
-7. **Utvid bare ved behov:** Gå utover `sources/links.md` kun hvis lenkene der er utilstrekkelige, utdaterte eller utilgjengelige, og dokumenter hvorfor
+6. Kapabilitetsmapping ved eksisterende ressurs: `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml`
+7. **Åpne kilder**: Digdir Docs, Samarbeidsportalen, felles-IKT, produkteier-nettsteder (f.eks. altinn.studio)
+8. **URL-valg:** Bruk som hovedregel de konkrete URL-ene som allerede er listet i `sources/links.md` før du prøver bredere søk
+9. **Utvid bare ved behov:** Gå utover `sources/links.md` kun hvis lenkene der er utilstrekkelige, utdaterte eller utilgjengelige, og dokumenter hvorfor
 
 ### Trinn 4: Skriv/forbedre innhold
 Følg reglene under.
@@ -84,6 +85,9 @@ Følg reglene under.
 - Løpenummeret beholdes for filnavn og sortering, men `Ressurs ID` i dokumentet skal være eierbasert
 - Hvis raden i ressursregisteret har en `Merknad`, skal den brukes som en kort standard presisering tidlig i `Kort beskrivelse` eller `Scope og avgrensning`, så lenge den ikke motsier oppdatert kildegrunnlag
 - Ved revisjon: vis eksplisitt hvilke deler som er forbedret i analysen, ikke bare i språk/drakt
+- Ved ny versjon av en eksisterende ressurs: oppdater også dokumentlenken i `arkitektur/ressurser/produktnummerering.md`.
+- Hvis ressursen finnes i `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml`, oppdater `version`, `author`, `relative_path` og `product_url` til den nye filen.
+- Ved nye eller endrede kapabilitetskoblinger kan `python tools/sync-resource-metadata.py --apply` brukes for å synkronisere metadata og opprette førsteutkast, men koblingene må fortsatt vurderes faglig.
 - Skriv resultatet som en selvstendig ressursbeskrivelse for målgruppen, ikke som referat av hva som står på nettsider eller i dokumentasjon
 - Unngå formuleringer som "nettsiden sier", "forsiden viser", "kilden beskriver" i selve hovedteksten; bruk heller dette kun i kildegrunnlag eller når du markerer usikkerhet/kildekonflikt
 - Syntetiser kilder til én ny, helhetlig beskrivelse med egne formuleringer, samtidig som innholdet skal være sporbar til kildene

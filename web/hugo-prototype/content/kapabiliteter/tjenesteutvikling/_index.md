@@ -3,7 +3,7 @@ title: "Tjenesteutvikling"
 eyebrow: "Kapabilitet"
 weight: 8
 description: "Evne til å utvikle sammenhengende digitale tjenester."
-cardMeta: "4 delkapabiliteter / 21 produkter"
+cardMeta: "4 delkapabiliteter / 22 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -63,6 +63,10 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/71-FINT-Arkiv-v1-codex.md">FINT Arkiv</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/99-Sjekkliste-for-sammenhengende-tjenester-v1-codex.md">Sjekkliste for sammenhengende tjenester</a></h3>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>

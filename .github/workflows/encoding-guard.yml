@@ -41,3 +41,7 @@ jobs:
       - name: Run existing text encoding validator
         run: |
           python web/hugo-prototype/scripts/validate-text-encoding.py
+
+      - name: Validate resource version references
+        run: |
+          python tools/check-resource-version-sync.py

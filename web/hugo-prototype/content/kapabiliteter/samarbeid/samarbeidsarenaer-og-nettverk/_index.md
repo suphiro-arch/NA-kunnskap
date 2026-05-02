@@ -4,7 +4,7 @@ headerTitle: "Samarbeid - Samarbeidsarenaer og nettverk"
 eyebrow: "Kapabilitet"
 weight: 2
 description: "Evne til å effektivisere, etablere, forvalte og fasilitere arenaer, nettverk og prosesser som fremmer kunnskapsdeling, dialog og samordning på tvers av virksomheter i økosystemet."
-cardMeta: "10 produkter"
+cardMeta: "11 produkter"
 ---
 
 Evne til å effektivisere, etablere, forvalte og fasilitere arenaer, nettverk og prosesser som fremmer kunnskapsdeling, dialog og samordning på tvers av virksomheter i økosystemet.
@@ -16,6 +16,11 @@ Evne til å effektivisere, etablere, forvalte og fasilitere arenaer, nettverk og
     <p class="capability-product-link__type">Samarbeidsforum</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/88-Arkitektur-og-standardiseringsradet-v1-codex.md">Arkitektur- og standardiseringsrådet</a></h3>
     <p class="capability-product-link__description">er en fast arena for samordning av arkitektur- og standardiseringsspørsmål på tvers av offentlig sektor.</p>
+  </article>
+  <article class="capability-product-link resource-type--normative">
+    <p class="capability-product-link__type">Normerende ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/108-Kunnskapsgrunnlag-dataspaces-v0-codex.md">Kunnskapsgrunnlag - dataspaces</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Kunnskapsgrunnlag - dataspaces basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
   </article>
   <article class="capability-product-link resource-type--forum">
     <p class="capability-product-link__type">Samarbeidsforum</p>

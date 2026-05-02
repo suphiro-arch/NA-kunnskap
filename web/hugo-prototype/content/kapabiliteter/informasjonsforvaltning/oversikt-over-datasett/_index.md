@@ -4,7 +4,7 @@ headerTitle: "Informasjonsforvaltning - Oversikt over datasett"
 eyebrow: "Kapabilitet"
 weight: 3
 description: "Evne til å systematisk oppdage, vurdere og gjenbruke data på tvers av offentlig sektor gjennom en sentral, standardisert oversikt over tilgjengelige datasett."
-cardMeta: "6 produkter"
+cardMeta: "7 produkter"
 ---
 
 Evne til å systematisk oppdage, vurdere og gjenbruke data på tvers av offentlig sektor gjennom en sentral, standardisert oversikt over tilgjengelige datasett.
@@ -41,5 +41,10 @@ Evne til å systematisk oppdage, vurdere og gjenbruke data på tvers av offentli
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/61-NVDB-produkt-canvas-v1-codex.md">NVDB</a></h3>
     <p class="capability-product-link__description">NVDB gir et felles og forståelig informasjonsgrunnlag om vegnett og vegrelaterte objekter som kan brukes i flere sammenhenger.</p>
+  </article>
+  <article class="capability-product-link resource-type--normative">
+    <p class="capability-product-link__type">Normerende ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/104-Orden-i-eget-hus-v1-codex.md">Orden i eget hus</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Orden i eget hus basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
   </article>
 </div>

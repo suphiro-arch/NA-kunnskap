@@ -10,3 +10,5 @@ else
   echo "ERROR: Neither pwsh nor powershell was found. Cannot run encoding check." >&2
   exit 1
 fi
+
+python tools/check-resource-version-sync.py

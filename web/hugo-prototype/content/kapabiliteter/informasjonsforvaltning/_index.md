@@ -3,7 +3,7 @@ title: "Informasjonsforvaltning"
 eyebrow: "Kapabilitet"
 weight: 9
 description: "Evne til å ha et felles rammeverk og styringsmodell for informasjonsforvaltning, slik at offentlige virksomheter kan utveksle og dele data og beskrivelser."
-cardMeta: "8 delkapabiliteter / 17 produkter"
+cardMeta: "8 delkapabiliteter / 27 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -68,6 +68,30 @@ productsMarkdown: |
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v1-codex.md">VIGO</a></h3>
     </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/86-Referansekatalogen-for-IT-standarder-v1-codex.md">Referansekatalogen for IT-standarder</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/89-Rammeverk-for-informasjonsforvaltning-v1-codex.md">Rammeverk for informasjonsforvaltning</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/104-Orden-i-eget-hus-v1-codex.md">Orden i eget hus</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v0-codex.md">Nasjonal verktøykasse for deling av data</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/107-Kunnskapsgrunnlag-og-KPI-er-datadeling-v0-codex.md">Kunnskapsgrunnlag og KPI-er datadeling</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/109-Kapabilitetskart-planlagt-v0-codex.md">Kapabilitetskart (planlagt)</a></h3>
+    </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/121-Faglig-arena-for-informasjonsforvaltning-og-deling-av-data-v1-codex.md">Faglig arena for informasjonsforvaltning og deling av data</a></h3>
@@ -75,6 +99,22 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/127-Samarbeidsportalen-produkt-canvas-v1-codex.md">Samarbeidsportalen</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/130-Dodsarsaksregisteret-produkt-canvas-v1-codex.md">Dødsårsaksregisteret</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/131-Reseptregisteret-NorPD-produkt-canvas-v1-codex.md">Reseptregisteret (NorPD)</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v1-codex.md">Norsk pasientregister (NPR)</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v1-codex.md">Kommunalt pasient- og brukerregister (KPR)</a></h3>
     </article>
   </div>
 ---

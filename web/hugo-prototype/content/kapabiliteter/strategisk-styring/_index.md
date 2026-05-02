@@ -3,7 +3,7 @@ title: "Strategisk styring"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evnen til å sette retning for nasjonal arkitektur og realisere strategiske mål."
-cardMeta: "3 delkapabiliteter / 11 produkter"
+cardMeta: "3 delkapabiliteter / 16 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -11,6 +11,26 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/88-Arkitektur-og-standardiseringsradet-v1-codex.md">Arkitektur- og standardiseringsrådet</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/98-Overordnede-arkitekturprinsipper-for-offentlig-sektor-v1-codex.md">Overordnede arkitekturprinsipper for offentlig sektor</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/103-Nasjonalt-veikart-v0-codex.md">Nasjonalt veikart</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/105-Rammeverk-nasjonale-grunndata-v0-codex.md">Rammeverk - nasjonale grunndata</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/107-Kunnskapsgrunnlag-og-KPI-er-datadeling-v0-codex.md">Kunnskapsgrunnlag og KPI-er datadeling</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/109-Kapabilitetskart-planlagt-v0-codex.md">Kapabilitetskart (planlagt)</a></h3>
     </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>

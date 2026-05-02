@@ -4,7 +4,7 @@ headerTitle: "Standardisering - Forvaltningsstandarder"
 eyebrow: "Kapabilitet"
 weight: 2
 description: "Evne til å implementere og ta i bruk nasjonale standarder."
-cardMeta: "12 produkter"
+cardMeta: "19 produkter"
 ---
 
 Evne til å implementere og ta i bruk nasjonale standarder.
@@ -57,10 +57,45 @@ Evne til å implementere og ta i bruk nasjonale standarder.
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/72-FINT-Informasjonsmodell-v1-codex.md">FINT Informasjonsmodell</a></h3>
     <p class="capability-product-link__description">fungerer som et omforent normerende grunnlag for hvordan informasjon skal representeres og utveksles i FINT.</p>
   </article>
+  <article class="capability-product-link resource-type--normative">
+    <p class="capability-product-link__type">Normerende ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v1-codex.md">Rammeverk for digital samhandling</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Rammeverk for digital samhandling basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+  </article>
+  <article class="capability-product-link resource-type--normative">
+    <p class="capability-product-link__type">Normerende ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/86-Referansekatalogen-for-IT-standarder-v1-codex.md">Referansekatalogen for IT-standarder</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Referansekatalogen for IT-standarder basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+  </article>
+  <article class="capability-product-link resource-type--normative">
+    <p class="capability-product-link__type">Normerende ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/87-Arkitektur-for-hendelser-v1-codex.md">Arkitektur for hendelser</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Arkitektur for hendelser basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+  </article>
   <article class="capability-product-link resource-type--forum">
     <p class="capability-product-link__type">Samarbeidsforum</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/88-Arkitektur-og-standardiseringsradet-v1-codex.md">Arkitektur- og standardiseringsrådet</a></h3>
     <p class="capability-product-link__description">vurderer og anbefaler standarder og arkitekturmønstre som påvirker digital samhandling.</p>
+  </article>
+  <article class="capability-product-link resource-type--normative">
+    <p class="capability-product-link__type">Normerende ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/89-Rammeverk-for-informasjonsforvaltning-v1-codex.md">Rammeverk for informasjonsforvaltning</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Rammeverk for informasjonsforvaltning basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+  </article>
+  <article class="capability-product-link resource-type--normative">
+    <p class="capability-product-link__type">Normerende ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/98-Overordnede-arkitekturprinsipper-for-offentlig-sektor-v1-codex.md">Overordnede arkitekturprinsipper for offentlig sektor</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Overordnede arkitekturprinsipper for offentlig sektor basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+  </article>
+  <article class="capability-product-link resource-type--normative">
+    <p class="capability-product-link__type">Normerende ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/101-Referansearkitektur-forsendelse-eMelding-v1-codex.md">Referansearkitektur forsendelse (eMelding)</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Referansearkitektur forsendelse (eMelding) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+  </article>
+  <article class="capability-product-link resource-type--normative">
+    <p class="capability-product-link__type">Normerende ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/102-Referansearkitektur-foresporsel-svar-eOppslag-v1-codex.md">Referansearkitektur forespørsel-svar (eOppslag)</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Referansearkitektur forespørsel-svar (eOppslag) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>

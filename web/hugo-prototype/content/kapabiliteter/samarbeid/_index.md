@@ -3,7 +3,7 @@ title: "Samarbeid"
 eyebrow: "Kapabilitet"
 weight: 2
 description: "Evne til å samarbeid og samhandling på tvers av offentlig og privat forvaltning."
-cardMeta: "3 delkapabiliteter / 25 produkter"
+cardMeta: "3 delkapabiliteter / 31 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -68,9 +68,29 @@ productsMarkdown: |
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v1-codex.md">VIGO</a></h3>
     </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v1-codex.md">Rammeverk for digital samhandling</a></h3>
+    </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/88-Arkitektur-og-standardiseringsradet-v1-codex.md">Arkitektur- og standardiseringsrådet</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/93-Fiks-Digisos-produkt-canvas-v1-codex.md">Fiks Digisos</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/100-Kart-for-tjenestekjeder-v1-codex.md">Kart for tjenestekjeder</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/103-Nasjonalt-veikart-v0-codex.md">Nasjonalt veikart</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/108-Kunnskapsgrunnlag-dataspaces-v0-codex.md">Kunnskapsgrunnlag - dataspaces</a></h3>
     </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
@@ -107,6 +127,10 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/127-Samarbeidsportalen-produkt-canvas-v1-codex.md">Samarbeidsportalen</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/129-MSIS-produkt-canvas-v1-codex.md">MSIS</a></h3>
     </article>
   </div>
 ---

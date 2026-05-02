@@ -77,6 +77,7 @@ Last systemprompten i din AI-assistent **før** du begynner på innholdet, slik 
      | NN | `EIER-NR` | Ressursnavn | Type | Kapabiliteter (komma-separert) | [Åpne](path/til/fil.md) |
      ```
    - Generatoren plukker automatisk denne og bygger nettsiden.
+   - Hvis ressursen også finnes i `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml`, skal den legges inn eller oppdateres der samtidig.
 
 ---
 
@@ -93,10 +94,14 @@ Last systemprompten i din AI-assistent **før** du begynner på innholdet, slik 
 
 3. **Oppdater `produktnummerering.md`**:
    - Finn raden med ressursen.
-   - Endre `Siste versjon` fra `v3 (codex)` til `v4 (codex)`.
    - Endre dokumentlenken til å peke på den nye filen.
 
-4. **Valgfritt: Rydd gammel versjon**:
+4. **Oppdater `produkt-kapabilitet-koblinger.yaml` ved behov**:
+   - Hvis ressursen finnes i `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml`, skal `version`, `author`, `relative_path` og `product_url` oppdateres til den nye filen.
+   - Hvis hovedfunksjonene er endret vesentlig, skal også selve kapabilitetskoblingene vurderes på nytt.
+   - Du kan bruke `python tools/sync-resource-metadata.py --apply` for å synkronisere metadata og opprette manglende mappingoppføringer som førsteutkast.
+
+5. **Valgfritt: Rydd gammel versjon**:
    - Hvis du vil holde repoet rent, kan du slette den gamle filen:
      ```bash
      git rm arkitektur/ressurser/operative-losninger-og-tjenester/01-ID-porten-operative-ressurs-canvas-v3-codex.md
@@ -108,8 +113,10 @@ Last systemprompten i din AI-assistent **før** du begynner på innholdet, slik 
 ## Hva som skjer automatisk
 
 - **Nettside**: Generator-scriptet (`web/hugo-prototype/scripts/generate-products.ps1`) leser `produktnummerering.md` og bygger ressursovesiktssidene og filtrert oversikt med alle registrerte ressurser.
-- **Visning**: Nettsiden viser alltid **siste versjon** av hver ressurs (basert på det som registeret peker til).
+- **Visning**: Nettsiden viser alltid **siste versjon som register og kapabilitetsmapping peker til**.
 - **Søk og filtrering**: Besøkende kan filtrere etter kategori, eier og kapabilitet.
+- **Kvalitetsport**: Lokale hooks og GitHub Actions stopper commit, push eller publisering hvis `produktnummerering.md` eller `produkt-kapabilitet-koblinger.yaml` peker til eldre versjoner.
+- **Førsteutkast til mapping**: `tools/sync-resource-metadata.py --apply` kan fylle inn manglende mappingoppføringer og oppdatere metadata, men kapabilitetskoblingene må fortsatt kvalitetssikres faglig.
 
 ---
 
@@ -134,7 +141,7 @@ A: Endre den i både filnavn og `produktnummerering.md`. ID-en er kanonisk ident
 A: Nei – ressurstype-mappene er primær struktur. Bruk kapabiliteter som filter og metadata på nettstedet.
 
 **Q: Hva med gamle versjoner — skal jeg slette dem?**  
-A: Nei – du kan beholde dem i Git for historiebakgrunn. Generator-scriptet viser **kun den versjonen som registeret peker til**. Gamle filer blir ignorert. Du kan:
+A: Nei – du kan beholde dem i Git for historiebakgrunn. Generator-scriptet viser **kun den versjonen som registeret peker til**, og kapabilitetssidene bruker versjonen i `produkt-kapabilitet-koblinger.yaml`. Gamle filer blir ignorert så lenge begge pekerne er oppdatert. Du kan:
 - Beholde dem i samme mappe som arkiv
 - Slette dem hvis du ønsker å rydde (Bruk `git rm`)
 - Navngi arkiverte filer med suffikser som `-deprecated` eller slå dem i en `_archive/` undermappe
@@ -149,4 +156,4 @@ Generator-scriptet (`web/hugo-prototype/scripts/generate-products.ps1`) fungerer
 3. Generer nettsidesidene bare for disse filene
 4. Alle andre filer i mappen (gamle versjoner) blir ignorert
 
-**Sikkerhet:** Hvis du glemmer å oppdatere registeret etter å ha opprettet v4, vil nettsiden fortsatt vise v3. Generator warning ikke – du får bare ikke oppdatering. Så sørg for å alltid oppdatere `produktnummerering.md` når du lager ny versjon!
+**Sikkerhet:** Hvis du glemmer å oppdatere registeret eller kapabilitetsmappingen etter å ha opprettet ny versjon, skal lokale hooks og GitHub Actions stoppe endringen før publisering.

@@ -3,7 +3,7 @@ title: "Datakilder"
 eyebrow: "Kapabilitet"
 weight: 13
 description: "Evne til å tilgjengeliggjøre og forvalte data som en nasjonal fellesressurs, slik at de kan oppdages, forstås og gjenbrukes på en sikker og standardisert måte."
-cardMeta: "5 delkapabiliteter / 19 produkter"
+cardMeta: "5 delkapabiliteter / 26 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -72,6 +72,26 @@ productsMarkdown: |
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/69-FIKS-Kjoretoyregister-produkt-canvas-v1-codex.md">Fiks kjøretøyregister</a></h3>
     </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/105-Rammeverk-nasjonale-grunndata-v0-codex.md">Rammeverk - nasjonale grunndata</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/128-SYSVAK-produkt-canvas-v1-codex.md">SYSVAK</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/129-MSIS-produkt-canvas-v1-codex.md">MSIS</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/130-Dodsarsaksregisteret-produkt-canvas-v1-codex.md">Dødsårsaksregisteret</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/131-Reseptregisteret-NorPD-produkt-canvas-v1-codex.md">Reseptregisteret (NorPD)</a></h3>
+    </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/132-Grunnboken-produkt-canvas-v1-codex.md">Grunnboken</a></h3>
@@ -83,6 +103,14 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/134-Sentralt-stedsnavnregister-produkt-canvas-v1-codex.md">Sentralt stedsnavnregister</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v1-codex.md">Norsk pasientregister (NPR)</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v1-codex.md">Kommunalt pasient- og brukerregister (KPR)</a></h3>
     </article>
   </div>
 ---

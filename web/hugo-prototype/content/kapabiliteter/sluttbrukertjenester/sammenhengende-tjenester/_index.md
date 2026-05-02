@@ -4,7 +4,7 @@ headerTitle: "Sluttbrukertjenester - Sammenhengende tjenester"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å levere en digital brukerorienterte tjenester som fremstår som en logisk og uavbrutt prosess for brukeren, selv når den involverer og koordinerer handlinger og tjenester fra flere, uavhengige virksomheter."
-cardMeta: "14 produkter"
+cardMeta: "18 produkter"
 ---
 
 Evne til å levere en digital brukerorienterte tjenester som fremstår som en logisk og uavbrutt prosess for brukeren, selv når den involverer og koordinerer handlinger og tjenester fra flere, uavhengige virksomheter.
@@ -72,6 +72,21 @@ Evne til å levere en digital brukerorienterte tjenester som fremstår som en lo
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v1-codex.md">VIGO</a></h3>
     <p class="capability-product-link__description">gir en samlet løsning for prosesser som søking, inntak og administrativ oppfølging i videregående opplæring.</p>
   </article>
+  <article class="capability-product-link resource-type--operative">
+    <p class="capability-product-link__type">Operativ løsning</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/93-Fiks-Digisos-produkt-canvas-v1-codex.md">Fiks Digisos</a></h3>
+    <p class="capability-product-link__description">Soker kan sende soknad, ettersende dokumentasjon og folge saken i en sammenhengende digital brukerreise.</p>
+  </article>
+  <article class="capability-product-link resource-type--operative">
+    <p class="capability-product-link__type">Operativ løsning</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/97-MinKommune-produkt-canvas-v1-codex.md">MinKommune</a></h3>
+    <p class="capability-product-link__description">MinKommune samler post, faktura, eiendom, byggesaker og oppgaver i en felles innbyggerflate.</p>
+  </article>
+  <article class="capability-product-link resource-type--normative">
+    <p class="capability-product-link__type">Normerende ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/99-Sjekkliste-for-sammenhengende-tjenester-v1-codex.md">Sjekkliste for sammenhengende tjenester</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Sjekkliste for sammenhengende tjenester basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+  </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v0-codex.md">Klart språk</a></h3>
@@ -81,5 +96,10 @@ Evne til å levere en digital brukerorienterte tjenester som fremstår som en lo
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/118-Felles-designsystem-v1-codex.md">Felles designsystem</a></h3>
     <p class="capability-product-link__description">bidrar til mer helhetlige og gjenkjennelige brukeropplevelser på tvers av digitale tjenester.</p>
+  </article>
+  <article class="capability-product-link resource-type--operative">
+    <p class="capability-product-link__type">Operativ løsning</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/128-SYSVAK-produkt-canvas-v1-codex.md">SYSVAK</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for SYSVAK basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
   </article>
 </div>

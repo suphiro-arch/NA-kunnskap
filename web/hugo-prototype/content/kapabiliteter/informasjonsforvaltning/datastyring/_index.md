@@ -4,7 +4,7 @@ headerTitle: "Informasjonsforvaltning - Datastyring"
 eyebrow: "Kapabilitet"
 weight: 8
 description: "Evne til å sikre enhetlig og ansvarlig forvaltning av nasjonale dataressurser gjennom felles rammeverk, klar ansvarsplassering og systematisk kvalitetsarbeid."
-cardMeta: "7 produkter"
+cardMeta: "16 produkter"
 ---
 
 Evne til å sikre enhetlig og ansvarlig forvaltning av nasjonale dataressurser gjennom felles rammeverk, klar ansvarsplassering og systematisk kvalitetsarbeid.
@@ -42,9 +42,54 @@ Evne til å sikre enhetlig og ansvarlig forvaltning av nasjonale dataressurser g
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v1-codex.md">VIGO</a></h3>
     <p class="capability-product-link__description">forvalter store mengder strukturerte data om søkere, opplæring, kodeverk og administrasjon i et felles sektoroppsett.</p>
   </article>
+  <article class="capability-product-link resource-type--normative">
+    <p class="capability-product-link__type">Normerende ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/89-Rammeverk-for-informasjonsforvaltning-v1-codex.md">Rammeverk for informasjonsforvaltning</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Rammeverk for informasjonsforvaltning basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+  </article>
+  <article class="capability-product-link resource-type--normative">
+    <p class="capability-product-link__type">Normerende ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/104-Orden-i-eget-hus-v1-codex.md">Orden i eget hus</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Orden i eget hus basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+  </article>
+  <article class="capability-product-link resource-type--normative">
+    <p class="capability-product-link__type">Normerende ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v0-codex.md">Nasjonal verktøykasse for deling av data</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Nasjonal verktøykasse for deling av data basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+  </article>
+  <article class="capability-product-link resource-type--normative">
+    <p class="capability-product-link__type">Normerende ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/107-Kunnskapsgrunnlag-og-KPI-er-datadeling-v0-codex.md">Kunnskapsgrunnlag og KPI-er datadeling</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Kunnskapsgrunnlag og KPI-er datadeling basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+  </article>
+  <article class="capability-product-link resource-type--normative">
+    <p class="capability-product-link__type">Normerende ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/109-Kapabilitetskart-planlagt-v0-codex.md">Kapabilitetskart (planlagt)</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Kapabilitetskart (planlagt) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+  </article>
   <article class="capability-product-link resource-type--forum">
     <p class="capability-product-link__type">Samarbeidsforum</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/121-Faglig-arena-for-informasjonsforvaltning-og-deling-av-data-v1-codex.md">Faglig arena for informasjonsforvaltning og deling av data</a></h3>
     <p class="capability-product-link__description">støtter erfaringsdeling og faglig samordning om hvordan informasjon og data bør forvaltes.</p>
+  </article>
+  <article class="capability-product-link resource-type--operative">
+    <p class="capability-product-link__type">Operativ løsning</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/130-Dodsarsaksregisteret-produkt-canvas-v1-codex.md">Dødsårsaksregisteret</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Dødsårsaksregisteret basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+  </article>
+  <article class="capability-product-link resource-type--operative">
+    <p class="capability-product-link__type">Operativ løsning</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/131-Reseptregisteret-NorPD-produkt-canvas-v1-codex.md">Reseptregisteret (NorPD)</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Reseptregisteret (NorPD) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+  </article>
+  <article class="capability-product-link resource-type--operative">
+    <p class="capability-product-link__type">Operativ løsning</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v1-codex.md">Norsk pasientregister (NPR)</a></h3>
+    <p class="capability-product-link__description">NPR understotter nasjonal styring og finansiering av spesialisthelsetjenesten med systematisk aktivitetsdata.</p>
+  </article>
+  <article class="capability-product-link resource-type--operative">
+    <p class="capability-product-link__type">Operativ løsning</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v1-codex.md">Kommunalt pasient- og brukerregister (KPR)</a></h3>
+    <p class="capability-product-link__description">KPR understotter datastyring for planlegging, finansiering og evaluering av kommunale helse- og omsorgstjenester.</p>
   </article>
 </div>

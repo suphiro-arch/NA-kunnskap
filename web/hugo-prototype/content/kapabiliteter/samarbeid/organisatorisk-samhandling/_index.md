@@ -4,7 +4,7 @@ headerTitle: "Samarbeid - Organisatorisk samhandling"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evnen til å effektivisere forretningsprosesser og verdikjeder på tvers av organisatoriske grenser."
-cardMeta: "14 produkter"
+cardMeta: "19 produkter"
 ---
 
 Evnen til å effektivisere forretningsprosesser og verdikjeder på tvers av organisatoriske grenser.
@@ -81,5 +81,30 @@ Evnen til å effektivisere forretningsprosesser og verdikjeder på tvers av orga
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v1-codex.md">VIGO</a></h3>
     <p class="capability-product-link__description">samler flere fylkeskommuner og aktører rundt felles prosesser og dataflyt for inntak og administrasjon i videregående opplæring.</p>
+  </article>
+  <article class="capability-product-link resource-type--normative">
+    <p class="capability-product-link__type">Normerende ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v1-codex.md">Rammeverk for digital samhandling</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Rammeverk for digital samhandling basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+  </article>
+  <article class="capability-product-link resource-type--operative">
+    <p class="capability-product-link__type">Operativ løsning</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/93-Fiks-Digisos-produkt-canvas-v1-codex.md">Fiks Digisos</a></h3>
+    <p class="capability-product-link__description">Fiks Digisos kobler NAV, kommuner og kommunale fagsystem i et felles samhandlingslop for sosialhjelp.</p>
+  </article>
+  <article class="capability-product-link resource-type--normative">
+    <p class="capability-product-link__type">Normerende ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/100-Kart-for-tjenestekjeder-v1-codex.md">Kart for tjenestekjeder</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Kart for tjenestekjeder basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+  </article>
+  <article class="capability-product-link resource-type--normative">
+    <p class="capability-product-link__type">Normerende ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/103-Nasjonalt-veikart-v0-codex.md">Nasjonalt veikart</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Nasjonalt veikart basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+  </article>
+  <article class="capability-product-link resource-type--operative">
+    <p class="capability-product-link__type">Operativ løsning</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/129-MSIS-produkt-canvas-v1-codex.md">MSIS</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for MSIS basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
   </article>
 </div>

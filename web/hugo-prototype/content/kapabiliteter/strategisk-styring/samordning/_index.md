@@ -4,7 +4,7 @@ headerTitle: "Strategisk styring - Samordning"
 eyebrow: "Kapabilitet"
 weight: 3
 description: "Evnen til å harmonisere og koordinere strategisk retning, beslutninger og ressursbruk på tvers av virksomheter, for å realisere felles samfunnsmål og sammenhengende tjenester."
-cardMeta: "8 produkter"
+cardMeta: "11 produkter"
 ---
 
 Evnen til å harmonisere og koordinere strategisk retning, beslutninger og ressursbruk på tvers av virksomheter, for å realisere felles samfunnsmål og sammenhengende tjenester.
@@ -12,6 +12,21 @@ Evnen til å harmonisere og koordinere strategisk retning, beslutninger og ressu
 ## Relaterte ressurser
 
 <div class="capability-product-links">
+  <article class="capability-product-link resource-type--normative">
+    <p class="capability-product-link__type">Normerende ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/103-Nasjonalt-veikart-v0-codex.md">Nasjonalt veikart</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Nasjonalt veikart basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+  </article>
+  <article class="capability-product-link resource-type--normative">
+    <p class="capability-product-link__type">Normerende ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/105-Rammeverk-nasjonale-grunndata-v0-codex.md">Rammeverk - nasjonale grunndata</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Rammeverk - nasjonale grunndata basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+  </article>
+  <article class="capability-product-link resource-type--normative">
+    <p class="capability-product-link__type">Normerende ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/107-Kunnskapsgrunnlag-og-KPI-er-datadeling-v0-codex.md">Kunnskapsgrunnlag og KPI-er datadeling</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Kunnskapsgrunnlag og KPI-er datadeling basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+  </article>
   <article class="capability-product-link resource-type--forum">
     <p class="capability-product-link__type">Samarbeidsforum</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/110-Skate-v1-codex.md">Skate</a></h3>

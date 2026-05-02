@@ -4,7 +4,7 @@ headerTitle: "Informasjonsforvaltning - Informasjonsarkitektur"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å strukturere og modellere informasjon på en standardisert måte, slik at data og innhold blir finnbart, forståelig og gjenbrukbart for både mennesker og maskiner på tvers av hele økosystemet."
-cardMeta: "5 produkter"
+cardMeta: "7 produkter"
 ---
 
 Evne til å strukturere og modellere informasjon på en standardisert måte, slik at data og innhold blir finnbart, forståelig og gjenbrukbart for både mennesker og maskiner på tvers av hele økosystemet.
@@ -36,5 +36,15 @@ Evne til å strukturere og modellere informasjon på en standardisert måte, sli
     <p class="capability-product-link__type">Normerende ressurs</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/72-FINT-Informasjonsmodell-v1-codex.md">FINT Informasjonsmodell</a></h3>
     <p class="capability-product-link__description">gir en felles semantisk struktur for data på tvers av fylkeskommuner, systemer og leverandører.</p>
+  </article>
+  <article class="capability-product-link resource-type--normative">
+    <p class="capability-product-link__type">Normerende ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/86-Referansekatalogen-for-IT-standarder-v1-codex.md">Referansekatalogen for IT-standarder</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Referansekatalogen for IT-standarder basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+  </article>
+  <article class="capability-product-link resource-type--normative">
+    <p class="capability-product-link__type">Normerende ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/89-Rammeverk-for-informasjonsforvaltning-v1-codex.md">Rammeverk for informasjonsforvaltning</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Rammeverk for informasjonsforvaltning basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
   </article>
 </div>

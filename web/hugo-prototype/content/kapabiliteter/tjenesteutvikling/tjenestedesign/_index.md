@@ -4,7 +4,7 @@ headerTitle: "Tjenesteutvikling - Tjenestedesign"
 eyebrow: "Kapabilitet"
 weight: 4
 description: "Evne til å sette brukerens behov, livssituasjon og helhetlige reise som utgangspunkt for utvikling av sammenhengende tjenester."
-cardMeta: "7 produkter"
+cardMeta: "8 produkter"
 ---
 
 Evne til å sette brukerens behov, livssituasjon og helhetlige reise som utgangspunkt for utvikling av sammenhengende tjenester.
@@ -21,6 +21,11 @@ Evne til å sette brukerens behov, livssituasjon og helhetlige reise som utgangs
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/20-Altinn-Studio-produkt-canvas-v3-codex.md">Altinn Studio</a></h3>
     <p class="capability-product-link__description">– Low-code UI-modellering for brukergrensesnitt</p>
+  </article>
+  <article class="capability-product-link resource-type--normative">
+    <p class="capability-product-link__type">Normerende ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/99-Sjekkliste-for-sammenhengende-tjenester-v1-codex.md">Sjekkliste for sammenhengende tjenester</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Sjekkliste for sammenhengende tjenester basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>

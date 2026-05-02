@@ -1512,6 +1512,76 @@
             ]
         },
         {
+            "product_id": 31,
+            "product_name": "Helsedata.no",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-e4f1672b38f14f57af2f8e85f34ffa88",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "mapping_label": "Informasjonsforvaltning: Oversikt over datasett",
+                    "explanation": "Helsedata.no gir oversikt over helsedata og relevante datakilder i én nasjonal inngang.",
+                    "subcapability_id": "id-cb3db6f42a0f4ad0bc526d87cfe5b801",
+                    "subcapability_name": "Oversikt over datasett",
+                    "subcapability_slug": "oversikt-over-datasett"
+                },
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "mapping_label": "Informasjonsforvaltning: Datastyring",
+                    "explanation": "Helsedata.no støtter strukturert forvaltning og tilgjengeliggjøring av informasjon om helsedata og tilgangsløp.",
+                    "subcapability_id": "id-5852d070415849fab42749cb488d984a",
+                    "subcapability_name": "Datastyring",
+                    "subcapability_slug": "datastyring"
+                },
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                    "explanation": "Helsedata.no samler veiledning og tilgangsløp i en sammenhengende nasjonal brukerflate.",
+                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
+                    "subcapability_name": "Sammenhengende tjenester",
+                    "subcapability_slug": "sammenhengende-tjenester"
+                }
+            ]
+        },
+        {
+            "product_id": 32,
+            "product_name": "Helsenorge",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/32-Helsenorge-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/32-Helsenorge-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                    "explanation": "Helsenorge samler informasjon og digitale helsetjenester i en felles innbyggerflate.",
+                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
+                    "subcapability_name": "Sammenhengende tjenester",
+                    "subcapability_slug": "sammenhengende-tjenester"
+                },
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "mapping_label": "Sluttbrukertjenester: Tjenestekjeder",
+                    "explanation": "Helsenorge lar brukeren bevege seg mellom informasjon, innlogging og flere helserelaterte tjenester i samme produktflate.",
+                    "subcapability_id": "id-825b1ea1217b4eedb6caae165aeb8e41",
+                    "subcapability_name": "Tjenestekjeder",
+                    "subcapability_slug": "tjenestekjeder"
+                }
+            ]
+        },
+        {
             "product_id": 33,
             "product_name": "HelseID",
             "version": 1,
@@ -1562,6 +1632,186 @@
             ]
         },
         {
+            "product_id": 34,
+            "product_name": "Kjernejournal",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/34-Kjernejournal-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/34-Kjernejournal-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+                    "explanation": "Kjernejournal bruker opplysninger fra flere kilder for å gi helsepersonell relevant informasjon ved behov.",
+                    "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
+                    "subcapability_name": "Bruke data fra andre",
+                    "subcapability_slug": "bruke-data-fra-andre"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Kjernejournal gjør utvalgte helseopplysninger tilgjengelige på tvers av behandlingssteder.",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre"
+                },
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "Kjernejournal støtter samhandling mellom helsevirksomheter gjennom felles tilgang til sentrale opplysninger.",
+                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
+                    "subcapability_name": "Organisatorisk samhandling",
+                    "subcapability_slug": "organisatorisk-samhandling"
+                }
+            ]
+        },
+        {
+            "product_id": 35,
+            "product_name": "e-resept",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/35-e-resept-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/35-e-resept-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+                    "explanation": "e-resept inngår i et samhandlingsløp der flere aktører bruker og oppdaterer relevant informasjon.",
+                    "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
+                    "subcapability_name": "Bruke data fra andre",
+                    "subcapability_slug": "bruke-data-fra-andre"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                    "explanation": "e-resept formidler reseptinformasjon digitalt mellom forskriver, apotek og andre relevante aktører.",
+                    "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
+                    "subcapability_name": "Meldingsformidling",
+                    "subcapability_slug": "meldingsformidling"
+                },
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "e-resept er en felles nasjonal samhandlingsløsning for reseptprosesser i helsesektoren.",
+                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
+                    "subcapability_name": "Organisatorisk samhandling",
+                    "subcapability_slug": "organisatorisk-samhandling"
+                }
+            ]
+        },
+        {
+            "product_id": 36,
+            "product_name": "Aa-registeret",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/36-Aa-registeret-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/36-Aa-registeret-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "Aa-registeret er den nasjonale kilden for grunnleggende opplysninger om arbeidsforhold.",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+                    "explanation": "Aa-registeret inngår i samspill med rapportering og andre datakilder for å holde arbeidsforholdsdata oppdatert.",
+                    "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
+                    "subcapability_name": "Bruke data fra andre",
+                    "subcapability_slug": "bruke-data-fra-andre"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Aa-registeret gjør arbeidsforholdsdata tilgjengelige for offentlige etater og andre aktører med hjemmel.",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre"
+                },
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                    "explanation": "Aa-registeret gir arbeidsgivere og arbeidstakere innsyn i egne opplysninger som del av en sammenhengende offentlig tjeneste.",
+                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
+                    "subcapability_name": "Sammenhengende tjenester",
+                    "subcapability_slug": "sammenhengende-tjenester"
+                }
+            ]
+        },
+        {
+            "product_id": 37,
+            "product_name": "Folkeregisteret",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/37-Folkeregisteret-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/37-Folkeregisteret-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "Folkeregisteret er et nasjonalt grunndataregister og den autoritative kilden for sentrale personopplysninger i Norge.",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Folkeregisteret deler personopplysninger gjennom kontrollerte delingstjenester og oppslag til virksomheter med hjemmel.",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre"
+                }
+            ]
+        },
+        {
+            "product_id": 38,
+            "product_name": "Skatteetatens delingstjenester",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/38-Skatteetatens-delingstjenester-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/38-Skatteetatens-delingstjenester-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Skatteetatens delingstjenester tilgjengeliggjør data fra etaten til andre virksomheter gjennom kontrollerte API-er og avtalte tilgangsløp.",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre"
+                }
+            ]
+        },
+        {
             "product_id": 39,
             "product_name": "Matrikkelen",
             "version": 1,
@@ -1588,6 +1838,66 @@
                     "subcapability_slug": "dele-data-med-andre",
                     "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
                     "explanation": "gjør opplysninger fra Matrikkelen tilgjengelige for mange andre virksomheter og tjenester som trenger eiendoms- og adressegrunnlag"
+                }
+            ]
+        },
+        {
+            "product_id": 40,
+            "product_name": "Geonorge",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/40-Geonorge-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/40-Geonorge-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-e4f1672b38f14f57af2f8e85f34ffa88",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "mapping_label": "Informasjonsforvaltning: Oversikt over datasett",
+                    "explanation": "Geonorge gir nasjonal oversikt over tilgjengelige geodata og metadata fra mange offentlige datatilbydere.",
+                    "subcapability_id": "id-cb3db6f42a0f4ad0bc526d87cfe5b801",
+                    "subcapability_name": "Oversikt over datasett",
+                    "subcapability_slug": "oversikt-over-datasett"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Geonorge tilbyr katalog, distribusjon og API-er som gjør geodata tilgjengelige for videre bruk.",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre"
+                }
+            ]
+        },
+        {
+            "product_id": 46,
+            "product_name": "Enhetsregisteret",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/46-Enhetsregisteret-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/46-Enhetsregisteret-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "Enhetsregisteret er den autoritative kilden for basisopplysninger om virksomheter og tildeler organisasjonsnummer som felles identifikator.",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Enhetsregisteret tilgjengeliggjør virksomhetsdata gjennom åpne tjenester, daglige endringer og maskinell tilgang.",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre"
                 }
             ]
         },
@@ -1642,6 +1952,126 @@
             ]
         },
         {
+            "product_id": 48,
+            "product_name": "Felles studentsystem (FS)",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/48-Felles-studentsystem-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/48-Felles-studentsystem-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+                    "explanation": "FS inngår i flere samhandlingsløp og mottar opplysninger som del av studieadministrative prosesser.",
+                    "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
+                    "subcapability_name": "Bruke data fra andre",
+                    "subcapability_slug": "bruke-data-fra-andre"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "FS tilbyr API-er og integrasjonsflater som gjør student- og studiedata tilgjengelige for andre tjenester og systemer.",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre"
+                },
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "mapping_label": "Informasjonsforvaltning: Datastyring",
+                    "explanation": "FS forvalter og vedlikeholder store mengder studie- og studentdata som må struktureres og kvalitetssikres over tid.",
+                    "subcapability_id": "id-5852d070415849fab42749cb488d984a",
+                    "subcapability_name": "Datastyring",
+                    "subcapability_slug": "datastyring"
+                },
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "FS er en felles sektorløsning som brukes av mange utdanningsinstitusjoner med Sikt som felles forvalter.",
+                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
+                    "subcapability_name": "Organisatorisk samhandling",
+                    "subcapability_slug": "organisatorisk-samhandling"
+                }
+            ]
+        },
+        {
+            "product_id": 49,
+            "product_name": "Opptaksløsninger",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/49-Opptakslosninger-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/49-Opptakslosninger-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+                    "explanation": "Opptaksløsningene bruker data fra flere kilder som del av samordnet opptak.",
+                    "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
+                    "subcapability_name": "Bruke data fra andre",
+                    "subcapability_slug": "bruke-data-fra-andre"
+                },
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "Opptaksløsningene støtter samspill mellom Sikt, HK-dir og utdanningsinstitusjonene.",
+                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
+                    "subcapability_name": "Organisatorisk samhandling",
+                    "subcapability_slug": "organisatorisk-samhandling"
+                },
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                    "explanation": "Opptaksløsningene gir søkere en mer samlet og sammenhengende opptaksprosess.",
+                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
+                    "subcapability_name": "Sammenhengende tjenester",
+                    "subcapability_slug": "sammenhengende-tjenester"
+                }
+            ]
+        },
+        {
+            "product_id": 50,
+            "product_name": "Nasjonal vitnemålsdatabase (NVB)",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/50-Nasjonal-vitnemalsdatabase-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/50-Nasjonal-vitnemalsdatabase-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "NVB forvalter autoritative vitnemålsopplysninger som brukes i opptak, dokumentasjon, statistikk og forskning.",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "NVB gjør vitnemålsdata tilgjengelige for opptaksmiljøer og andre aktører som har grunnlag for å bruke dem.",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre"
+                }
+            ]
+        },
+        {
             "product_id": 51,
             "product_name": "Vitnemålsportalen",
             "version": 1,
@@ -1672,6 +2102,46 @@
             ]
         },
         {
+            "product_id": 52,
+            "product_name": "Nasjonalt utdanningsregister",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/52-Nasjonalt-utdanningsregister-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/52-Nasjonalt-utdanningsregister-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "Nasjonalt utdanningsregister er en felles autoritativ kilde for utdanninger og læresteder.",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Registeret gjør utdanningsdata tilgjengelige for andre prosesser og virksomheter.",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre"
+                },
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "mapping_label": "Informasjonsforvaltning: Datastyring",
+                    "explanation": "Registeret samler, strukturerer og vedlikeholder utdanningsdata som tidligere var spredt i flere kilder.",
+                    "subcapability_id": "id-5852d070415849fab42749cb488d984a",
+                    "subcapability_name": "Datastyring",
+                    "subcapability_slug": "datastyring"
+                }
+            ]
+        },
+        {
             "product_id": 57,
             "product_name": "SvarInn",
             "version": 1,
@@ -1698,6 +2168,266 @@
                     "subcapability_slug": "organisatorisk-samhandling",
                     "mapping_label": "Samarbeid: Organisatorisk samhandling",
                     "explanation": "gir kommuner og andre offentlige virksomheter et felles mønster for innkommende digital post mellom aktører som bruker samme samhandlingsløp."
+                }
+            ]
+        },
+        {
+            "product_id": 59,
+            "product_name": "A-ordningen",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/59-A-ordningen-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/59-A-ordningen-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "A-ordningen samler inn og vedlikeholder sentrale opplysninger om inntekt og arbeidsforhold som brukes bredt i offentlig forvaltning.",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "A-ordningen gjør rapporterte opplysninger tilgjengelige for flere etater og andre aktører med hjemmel eller samtykke.",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre"
+                },
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "A-ordningen er en samforvaltet ordning mellom Skatteetaten, NAV og SSB med felles rapporterings- og datagrunnlag.",
+                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
+                    "subcapability_name": "Organisatorisk samhandling",
+                    "subcapability_slug": "organisatorisk-samhandling"
+                }
+            ]
+        },
+        {
+            "product_id": 60,
+            "product_name": "Motorvognregisteret",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/60-Motorvognregisteret-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/60-Motorvognregisteret-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "Motorvognregisteret er den nasjonale kilden for grunnleggende opplysninger om norske kjøretøy.",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Motorvognregisteret gjør kjøretøyopplysninger tilgjengelige gjennom oppslag og API-er under ulike vilkår.",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre"
+                }
+            ]
+        },
+        {
+            "product_id": 61,
+            "product_name": "NVDB",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/61-NVDB-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/61-NVDB-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "NVDB er en nasjonal og autoritativ datakilde for vegnett og vegrelaterte objekter som mange aktører bygger videre på.",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata"
+                },
+                {
+                    "capability_id": "id-e4f1672b38f14f57af2f8e85f34ffa88",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "mapping_label": "Informasjonsforvaltning: Oversikt over datasett",
+                    "explanation": "NVDB gir et felles og forståelig informasjonsgrunnlag om vegnett og vegrelaterte objekter som kan brukes i flere sammenhenger.",
+                    "subcapability_id": "id-cb3db6f42a0f4ad0bc526d87cfe5b801",
+                    "subcapability_name": "Oversikt over datasett",
+                    "subcapability_slug": "oversikt-over-datasett"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "NVDB har verdi som delt nasjonalt vegdatagrunnlag fordi opplysningene kan brukes videre av mange aktører i analyse, planlegging og samhandling.",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre"
+                }
+            ]
+        },
+        {
+            "product_id": 62,
+            "product_name": "DSOP-tjenester",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/62-DSOP-tjenester-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/62-DSOP-tjenester-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "DSOP-tjenestene muliggjør kontrollert datadeling mellom offentlige virksomheter og finansnæringen.",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre"
+                },
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "DSOP bygger på organisert samhandling og felles utvikling mellom offentlig og privat sektor.",
+                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
+                    "subcapability_name": "Organisatorisk samhandling",
+                    "subcapability_slug": "organisatorisk-samhandling"
+                }
+            ]
+        },
+        {
+            "product_id": 63,
+            "product_name": "microdata.no",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/63-microdata-no-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/63-microdata-no-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-98df6c2b4df340c7a3a3ad32d99ca37e",
+                    "capability_name": "Datadrevet",
+                    "capability_slug": "datadrevet",
+                    "mapping_label": "Datadrevet: Sammenstilling av data",
+                    "explanation": "microdata.no gjør det mulig å analysere og sammenstille store mengder registerdata i et kontrollert miljø.",
+                    "subcapability_id": "id-7e3d1d3396914d65a177c9d5346d6feb",
+                    "subcapability_name": "Sammenstilling av data",
+                    "subcapability_slug": "sammenstilling-av-data"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+                    "explanation": "microdata.no bygger på bruk av data fra flere registre og kilder som stilles til rådighet i plattformen.",
+                    "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
+                    "subcapability_name": "Bruke data fra andre",
+                    "subcapability_slug": "bruke-data-fra-andre"
+                }
+            ]
+        },
+        {
+            "product_id": 64,
+            "product_name": "HPR",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/64-HPR-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/64-HPR-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "HPR er den autoritative kilden for grunnleggende opplysninger om helsepersonell og autorisasjonsstatus.",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "HPR gjør registeropplysninger tilgjengelige for virksomheter og brukere som trenger dem.",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre"
+                }
+            ]
+        },
+        {
+            "product_id": 65,
+            "product_name": "KUHR",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/65-KUHR-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/65-KUHR-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "KUHR fungerer som sentralt datagrunnlag for refusjonsforvaltning og oppgjør.",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "KUHR gjør oppgjørs- og refusjonsdata tilgjengelige i forvaltningens kontroll- og oppfølgingsløp.",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre"
+                }
+            ]
+        },
+        {
+            "product_id": 66,
+            "product_name": "NAIS",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/66-NAIS-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/66-NAIS-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
+                    "capability_name": "Tjenesteutvikling",
+                    "capability_slug": "tjenesteutvikling",
+                    "mapping_label": "Tjenesteutvikling: Gjenbrukbare tjenester",
+                    "explanation": "NAIS tilbyr felles plattformkapabiliteter og byggeklosser som utviklingsteam kan gjenbruke.",
+                    "subcapability_id": "id-f696350f5d844a96854deadb83bc3c81",
+                    "subcapability_name": "Gjenbrukbare tjenester",
+                    "subcapability_slug": "gjenbrukbare-tjenester"
+                },
+                {
+                    "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
+                    "capability_name": "Tjenesteutvikling",
+                    "capability_slug": "tjenesteutvikling",
+                    "mapping_label": "Tjenesteutvikling: Utviklings- og kjøretidsmiljø",
+                    "explanation": "NAIS gir et standardisert miljø for utvikling, utrulling og drift av applikasjoner.",
+                    "subcapability_id": "id-ce84b9b6943f4789bca153c0ed15245a",
+                    "subcapability_name": "Utviklings- og kjøretidsmiljø",
+                    "subcapability_slug": "utviklings-og-kjoretidsmiljo"
                 }
             ]
         },
@@ -1788,736 +2518,6 @@
                     "subcapability_slug": "bruke-data-fra-andre",
                     "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
                     "explanation": "gir kommunale fagsystemer et standardisert løp for å bruke kjøretøyopplysninger fra Statens vegvesen i operative prosesser."
-                }
-            ]
-        },
-        {
-            "product_id": 37,
-            "product_name": "Folkeregisteret",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/37-Folkeregisteret-produkt-canvas-v1-codex.md",
-            "product_url": "/NA-kunnskap/produkter/37-Folkeregisteret-produkt-canvas-v1-codex/",
-            "capabilities": [
-                {
-                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
-                    "capability_name": "Datakilder",
-                    "capability_slug": "datakilder",
-                    "mapping_label": "Datakilder: Grunndata",
-                    "explanation": "Folkeregisteret er et nasjonalt grunndataregister og den autoritative kilden for sentrale personopplysninger i Norge.",
-                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
-                    "subcapability_name": "Grunndata",
-                    "subcapability_slug": "grunndata"
-                },
-                {
-                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-                    "capability_name": "Datautveksling og integrasjon",
-                    "capability_slug": "datautveksling-og-integrasjon",
-                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "Folkeregisteret deler personopplysninger gjennom kontrollerte delingstjenester og oppslag til virksomheter med hjemmel.",
-                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
-                    "subcapability_name": "Dele data med andre",
-                    "subcapability_slug": "dele-data-med-andre"
-                }
-            ]
-        },
-        {
-            "product_id": 46,
-            "product_name": "Enhetsregisteret",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/46-Enhetsregisteret-produkt-canvas-v1-codex.md",
-            "product_url": "/NA-kunnskap/produkter/46-Enhetsregisteret-produkt-canvas-v1-codex/",
-            "capabilities": [
-                {
-                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
-                    "capability_name": "Datakilder",
-                    "capability_slug": "datakilder",
-                    "mapping_label": "Datakilder: Grunndata",
-                    "explanation": "Enhetsregisteret er den autoritative kilden for basisopplysninger om virksomheter og tildeler organisasjonsnummer som felles identifikator.",
-                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
-                    "subcapability_name": "Grunndata",
-                    "subcapability_slug": "grunndata"
-                },
-                {
-                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-                    "capability_name": "Datautveksling og integrasjon",
-                    "capability_slug": "datautveksling-og-integrasjon",
-                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "Enhetsregisteret tilgjengeliggjør virksomhetsdata gjennom åpne tjenester, daglige endringer og maskinell tilgang.",
-                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
-                    "subcapability_name": "Dele data med andre",
-                    "subcapability_slug": "dele-data-med-andre"
-                }
-            ]
-        },
-        {
-            "product_id": 38,
-            "product_name": "Skatteetatens delingstjenester",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/38-Skatteetatens-delingstjenester-produkt-canvas-v1-codex.md",
-            "product_url": "/NA-kunnskap/produkter/38-Skatteetatens-delingstjenester-produkt-canvas-v1-codex/",
-            "capabilities": [
-                {
-                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-                    "capability_name": "Datautveksling og integrasjon",
-                    "capability_slug": "datautveksling-og-integrasjon",
-                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "Skatteetatens delingstjenester tilgjengeliggjør data fra etaten til andre virksomheter gjennom kontrollerte API-er og avtalte tilgangsløp.",
-                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
-                    "subcapability_name": "Dele data med andre",
-                    "subcapability_slug": "dele-data-med-andre"
-                }
-            ]
-        },
-        {
-            "product_id": 59,
-            "product_name": "A-ordningen",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/59-A-ordningen-produkt-canvas-v1-codex.md",
-            "product_url": "/NA-kunnskap/produkter/59-A-ordningen-produkt-canvas-v1-codex/",
-            "capabilities": [
-                {
-                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
-                    "capability_name": "Datakilder",
-                    "capability_slug": "datakilder",
-                    "mapping_label": "Datakilder: Grunndata",
-                    "explanation": "A-ordningen samler inn og vedlikeholder sentrale opplysninger om inntekt og arbeidsforhold som brukes bredt i offentlig forvaltning.",
-                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
-                    "subcapability_name": "Grunndata",
-                    "subcapability_slug": "grunndata"
-                },
-                {
-                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-                    "capability_name": "Datautveksling og integrasjon",
-                    "capability_slug": "datautveksling-og-integrasjon",
-                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "A-ordningen gjør rapporterte opplysninger tilgjengelige for flere etater og andre aktører med hjemmel eller samtykke.",
-                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
-                    "subcapability_name": "Dele data med andre",
-                    "subcapability_slug": "dele-data-med-andre"
-                },
-                {
-                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
-                    "capability_name": "Samarbeid",
-                    "capability_slug": "samarbeid",
-                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "A-ordningen er en samforvaltet ordning mellom Skatteetaten, NAV og SSB med felles rapporterings- og datagrunnlag.",
-                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
-                    "subcapability_name": "Organisatorisk samhandling",
-                    "subcapability_slug": "organisatorisk-samhandling"
-                }
-            ]
-        },
-        {
-            "product_id": 48,
-            "product_name": "Felles studentsystem (FS)",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/48-Felles-studentsystem-produkt-canvas-v1-codex.md",
-            "product_url": "/NA-kunnskap/produkter/48-Felles-studentsystem-produkt-canvas-v1-codex/",
-            "capabilities": [
-                {
-                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-                    "capability_name": "Datautveksling og integrasjon",
-                    "capability_slug": "datautveksling-og-integrasjon",
-                    "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
-                    "explanation": "FS inngår i flere samhandlingsløp og mottar opplysninger som del av studieadministrative prosesser.",
-                    "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
-                    "subcapability_name": "Bruke data fra andre",
-                    "subcapability_slug": "bruke-data-fra-andre"
-                },
-                {
-                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-                    "capability_name": "Datautveksling og integrasjon",
-                    "capability_slug": "datautveksling-og-integrasjon",
-                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "FS tilbyr API-er og integrasjonsflater som gjør student- og studiedata tilgjengelige for andre tjenester og systemer.",
-                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
-                    "subcapability_name": "Dele data med andre",
-                    "subcapability_slug": "dele-data-med-andre"
-                },
-                {
-                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
-                    "capability_name": "Informasjonsforvaltning",
-                    "capability_slug": "informasjonsforvaltning",
-                    "mapping_label": "Informasjonsforvaltning: Datastyring",
-                    "explanation": "FS forvalter og vedlikeholder store mengder studie- og studentdata som må struktureres og kvalitetssikres over tid.",
-                    "subcapability_id": "id-5852d070415849fab42749cb488d984a",
-                    "subcapability_name": "Datastyring",
-                    "subcapability_slug": "datastyring"
-                },
-                {
-                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
-                    "capability_name": "Samarbeid",
-                    "capability_slug": "samarbeid",
-                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "FS er en felles sektorløsning som brukes av mange utdanningsinstitusjoner med Sikt som felles forvalter.",
-                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
-                    "subcapability_name": "Organisatorisk samhandling",
-                    "subcapability_slug": "organisatorisk-samhandling"
-                }
-            ]
-        },
-        {
-            "product_id": 50,
-            "product_name": "Nasjonal vitnemålsdatabase (NVB)",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/50-Nasjonal-vitnemalsdatabase-produkt-canvas-v1-codex.md",
-            "product_url": "/NA-kunnskap/produkter/50-Nasjonal-vitnemalsdatabase-produkt-canvas-v1-codex/",
-            "capabilities": [
-                {
-                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
-                    "capability_name": "Datakilder",
-                    "capability_slug": "datakilder",
-                    "mapping_label": "Datakilder: Grunndata",
-                    "explanation": "NVB forvalter autoritative vitnemålsopplysninger som brukes i opptak, dokumentasjon, statistikk og forskning.",
-                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
-                    "subcapability_name": "Grunndata",
-                    "subcapability_slug": "grunndata"
-                },
-                {
-                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-                    "capability_name": "Datautveksling og integrasjon",
-                    "capability_slug": "datautveksling-og-integrasjon",
-                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "NVB gjør vitnemålsdata tilgjengelige for opptaksmiljøer og andre aktører som har grunnlag for å bruke dem.",
-                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
-                    "subcapability_name": "Dele data med andre",
-                    "subcapability_slug": "dele-data-med-andre"
-                }
-            ]
-        },
-        {
-            "product_id": 32,
-            "product_name": "Helsenorge",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/32-Helsenorge-produkt-canvas-v1-codex.md",
-            "product_url": "/NA-kunnskap/produkter/32-Helsenorge-produkt-canvas-v1-codex/",
-            "capabilities": [
-                {
-                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
-                    "capability_name": "Sluttbrukertjenester",
-                    "capability_slug": "sluttbrukertjenester",
-                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-                    "explanation": "Helsenorge samler informasjon og digitale helsetjenester i en felles innbyggerflate.",
-                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
-                    "subcapability_name": "Sammenhengende tjenester",
-                    "subcapability_slug": "sammenhengende-tjenester"
-                },
-                {
-                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
-                    "capability_name": "Sluttbrukertjenester",
-                    "capability_slug": "sluttbrukertjenester",
-                    "mapping_label": "Sluttbrukertjenester: Tjenestekjeder",
-                    "explanation": "Helsenorge lar brukeren bevege seg mellom informasjon, innlogging og flere helserelaterte tjenester i samme produktflate.",
-                    "subcapability_id": "id-825b1ea1217b4eedb6caae165aeb8e41",
-                    "subcapability_name": "Tjenestekjeder",
-                    "subcapability_slug": "tjenestekjeder"
-                }
-            ]
-        },
-        {
-            "product_id": 40,
-            "product_name": "Geonorge",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/40-Geonorge-produkt-canvas-v1-codex.md",
-            "product_url": "/NA-kunnskap/produkter/40-Geonorge-produkt-canvas-v1-codex/",
-            "capabilities": [
-                {
-                    "capability_id": "id-e4f1672b38f14f57af2f8e85f34ffa88",
-                    "capability_name": "Informasjonsforvaltning",
-                    "capability_slug": "informasjonsforvaltning",
-                    "mapping_label": "Informasjonsforvaltning: Oversikt over datasett",
-                    "explanation": "Geonorge gir nasjonal oversikt over tilgjengelige geodata og metadata fra mange offentlige datatilbydere.",
-                    "subcapability_id": "id-cb3db6f42a0f4ad0bc526d87cfe5b801",
-                    "subcapability_name": "Oversikt over datasett",
-                    "subcapability_slug": "oversikt-over-datasett"
-                },
-                {
-                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-                    "capability_name": "Datautveksling og integrasjon",
-                    "capability_slug": "datautveksling-og-integrasjon",
-                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "Geonorge tilbyr katalog, distribusjon og API-er som gjør geodata tilgjengelige for videre bruk.",
-                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
-                    "subcapability_name": "Dele data med andre",
-                    "subcapability_slug": "dele-data-med-andre"
-                }
-            ]
-        },
-        {
-            "product_id": 31,
-            "product_name": "Helsedata.no",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v1-codex.md",
-            "product_url": "/NA-kunnskap/produkter/31-Helsedata-no-produkt-canvas-v1-codex/",
-            "capabilities": [
-                {
-                    "capability_id": "id-e4f1672b38f14f57af2f8e85f34ffa88",
-                    "capability_name": "Informasjonsforvaltning",
-                    "capability_slug": "informasjonsforvaltning",
-                    "mapping_label": "Informasjonsforvaltning: Oversikt over datasett",
-                    "explanation": "Helsedata.no gir oversikt over helsedata og relevante datakilder i én nasjonal inngang.",
-                    "subcapability_id": "id-cb3db6f42a0f4ad0bc526d87cfe5b801",
-                    "subcapability_name": "Oversikt over datasett",
-                    "subcapability_slug": "oversikt-over-datasett"
-                },
-                {
-                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
-                    "capability_name": "Informasjonsforvaltning",
-                    "capability_slug": "informasjonsforvaltning",
-                    "mapping_label": "Informasjonsforvaltning: Datastyring",
-                    "explanation": "Helsedata.no støtter strukturert forvaltning og tilgjengeliggjøring av informasjon om helsedata og tilgangsløp.",
-                    "subcapability_id": "id-5852d070415849fab42749cb488d984a",
-                    "subcapability_name": "Datastyring",
-                    "subcapability_slug": "datastyring"
-                },
-                {
-                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
-                    "capability_name": "Sluttbrukertjenester",
-                    "capability_slug": "sluttbrukertjenester",
-                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-                    "explanation": "Helsedata.no samler veiledning og tilgangsløp i en sammenhengende nasjonal brukerflate.",
-                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
-                    "subcapability_name": "Sammenhengende tjenester",
-                    "subcapability_slug": "sammenhengende-tjenester"
-                }
-            ]
-        },
-        {
-            "product_id": 34,
-            "product_name": "Kjernejournal",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/34-Kjernejournal-produkt-canvas-v1-codex.md",
-            "product_url": "/NA-kunnskap/produkter/34-Kjernejournal-produkt-canvas-v1-codex/",
-            "capabilities": [
-                {
-                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-                    "capability_name": "Datautveksling og integrasjon",
-                    "capability_slug": "datautveksling-og-integrasjon",
-                    "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
-                    "explanation": "Kjernejournal bruker opplysninger fra flere kilder for å gi helsepersonell relevant informasjon ved behov.",
-                    "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
-                    "subcapability_name": "Bruke data fra andre",
-                    "subcapability_slug": "bruke-data-fra-andre"
-                },
-                {
-                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-                    "capability_name": "Datautveksling og integrasjon",
-                    "capability_slug": "datautveksling-og-integrasjon",
-                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "Kjernejournal gjør utvalgte helseopplysninger tilgjengelige på tvers av behandlingssteder.",
-                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
-                    "subcapability_name": "Dele data med andre",
-                    "subcapability_slug": "dele-data-med-andre"
-                },
-                {
-                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
-                    "capability_name": "Samarbeid",
-                    "capability_slug": "samarbeid",
-                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "Kjernejournal støtter samhandling mellom helsevirksomheter gjennom felles tilgang til sentrale opplysninger.",
-                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
-                    "subcapability_name": "Organisatorisk samhandling",
-                    "subcapability_slug": "organisatorisk-samhandling"
-                }
-            ]
-        },
-        {
-            "product_id": 35,
-            "product_name": "e-resept",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/35-e-resept-produkt-canvas-v1-codex.md",
-            "product_url": "/NA-kunnskap/produkter/35-e-resept-produkt-canvas-v1-codex/",
-            "capabilities": [
-                {
-                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-                    "capability_name": "Datautveksling og integrasjon",
-                    "capability_slug": "datautveksling-og-integrasjon",
-                    "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
-                    "explanation": "e-resept inngår i et samhandlingsløp der flere aktører bruker og oppdaterer relevant informasjon.",
-                    "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
-                    "subcapability_name": "Bruke data fra andre",
-                    "subcapability_slug": "bruke-data-fra-andre"
-                },
-                {
-                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-                    "capability_name": "Datautveksling og integrasjon",
-                    "capability_slug": "datautveksling-og-integrasjon",
-                    "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
-                    "explanation": "e-resept formidler reseptinformasjon digitalt mellom forskriver, apotek og andre relevante aktører.",
-                    "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                    "subcapability_name": "Meldingsformidling",
-                    "subcapability_slug": "meldingsformidling"
-                },
-                {
-                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
-                    "capability_name": "Samarbeid",
-                    "capability_slug": "samarbeid",
-                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "e-resept er en felles nasjonal samhandlingsløsning for reseptprosesser i helsesektoren.",
-                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
-                    "subcapability_name": "Organisatorisk samhandling",
-                    "subcapability_slug": "organisatorisk-samhandling"
-                }
-            ]
-        },
-        {
-            "product_id": 62,
-            "product_name": "DSOP-tjenester",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/62-DSOP-tjenester-produkt-canvas-v1-codex.md",
-            "product_url": "/NA-kunnskap/produkter/62-DSOP-tjenester-produkt-canvas-v1-codex/",
-            "capabilities": [
-                {
-                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-                    "capability_name": "Datautveksling og integrasjon",
-                    "capability_slug": "datautveksling-og-integrasjon",
-                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "DSOP-tjenestene muliggjør kontrollert datadeling mellom offentlige virksomheter og finansnæringen.",
-                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
-                    "subcapability_name": "Dele data med andre",
-                    "subcapability_slug": "dele-data-med-andre"
-                },
-                {
-                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
-                    "capability_name": "Samarbeid",
-                    "capability_slug": "samarbeid",
-                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "DSOP bygger på organisert samhandling og felles utvikling mellom offentlig og privat sektor.",
-                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
-                    "subcapability_name": "Organisatorisk samhandling",
-                    "subcapability_slug": "organisatorisk-samhandling"
-                }
-            ]
-        },
-        {
-            "product_id": 64,
-            "product_name": "HPR",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/64-HPR-produkt-canvas-v1-codex.md",
-            "product_url": "/NA-kunnskap/produkter/64-HPR-produkt-canvas-v1-codex/",
-            "capabilities": [
-                {
-                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
-                    "capability_name": "Datakilder",
-                    "capability_slug": "datakilder",
-                    "mapping_label": "Datakilder: Grunndata",
-                    "explanation": "HPR er den autoritative kilden for grunnleggende opplysninger om helsepersonell og autorisasjonsstatus.",
-                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
-                    "subcapability_name": "Grunndata",
-                    "subcapability_slug": "grunndata"
-                },
-                {
-                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-                    "capability_name": "Datautveksling og integrasjon",
-                    "capability_slug": "datautveksling-og-integrasjon",
-                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "HPR gjør registeropplysninger tilgjengelige for virksomheter og brukere som trenger dem.",
-                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
-                    "subcapability_name": "Dele data med andre",
-                    "subcapability_slug": "dele-data-med-andre"
-                }
-            ]
-        },
-        {
-            "product_id": 36,
-            "product_name": "Aa-registeret",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/36-Aa-registeret-produkt-canvas-v1-codex.md",
-            "product_url": "/NA-kunnskap/produkter/36-Aa-registeret-produkt-canvas-v1-codex/",
-            "capabilities": [
-                {
-                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
-                    "capability_name": "Datakilder",
-                    "capability_slug": "datakilder",
-                    "mapping_label": "Datakilder: Grunndata",
-                    "explanation": "Aa-registeret er den nasjonale kilden for grunnleggende opplysninger om arbeidsforhold.",
-                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
-                    "subcapability_name": "Grunndata",
-                    "subcapability_slug": "grunndata"
-                },
-                {
-                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-                    "capability_name": "Datautveksling og integrasjon",
-                    "capability_slug": "datautveksling-og-integrasjon",
-                    "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
-                    "explanation": "Aa-registeret inngår i samspill med rapportering og andre datakilder for å holde arbeidsforholdsdata oppdatert.",
-                    "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
-                    "subcapability_name": "Bruke data fra andre",
-                    "subcapability_slug": "bruke-data-fra-andre"
-                },
-                {
-                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-                    "capability_name": "Datautveksling og integrasjon",
-                    "capability_slug": "datautveksling-og-integrasjon",
-                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "Aa-registeret gjør arbeidsforholdsdata tilgjengelige for offentlige etater og andre aktører med hjemmel.",
-                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
-                    "subcapability_name": "Dele data med andre",
-                    "subcapability_slug": "dele-data-med-andre"
-                },
-                {
-                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
-                    "capability_name": "Sluttbrukertjenester",
-                    "capability_slug": "sluttbrukertjenester",
-                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-                    "explanation": "Aa-registeret gir arbeidsgivere og arbeidstakere innsyn i egne opplysninger som del av en sammenhengende offentlig tjeneste.",
-                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
-                    "subcapability_name": "Sammenhengende tjenester",
-                    "subcapability_slug": "sammenhengende-tjenester"
-                }
-            ]
-        },
-        {
-            "product_id": 66,
-            "product_name": "NAIS",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/66-NAIS-produkt-canvas-v1-codex.md",
-            "product_url": "/NA-kunnskap/produkter/66-NAIS-produkt-canvas-v1-codex/",
-            "capabilities": [
-                {
-                    "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
-                    "capability_name": "Tjenesteutvikling",
-                    "capability_slug": "tjenesteutvikling",
-                    "mapping_label": "Tjenesteutvikling: Gjenbrukbare tjenester",
-                    "explanation": "NAIS tilbyr felles plattformkapabiliteter og byggeklosser som utviklingsteam kan gjenbruke.",
-                    "subcapability_id": "id-f696350f5d844a96854deadb83bc3c81",
-                    "subcapability_name": "Gjenbrukbare tjenester",
-                    "subcapability_slug": "gjenbrukbare-tjenester"
-                },
-                {
-                    "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
-                    "capability_name": "Tjenesteutvikling",
-                    "capability_slug": "tjenesteutvikling",
-                    "mapping_label": "Tjenesteutvikling: Utviklings- og kjøretidsmiljø",
-                    "explanation": "NAIS gir et standardisert miljø for utvikling, utrulling og drift av applikasjoner.",
-                    "subcapability_id": "id-ce84b9b6943f4789bca153c0ed15245a",
-                    "subcapability_name": "Utviklings- og kjøretidsmiljø",
-                    "subcapability_slug": "utviklings-og-kjoretidsmiljo"
-                }
-            ]
-        },
-        {
-            "product_id": 49,
-            "product_name": "Opptaksløsninger",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/49-Opptakslosninger-produkt-canvas-v1-codex.md",
-            "product_url": "/NA-kunnskap/produkter/49-Opptakslosninger-produkt-canvas-v1-codex/",
-            "capabilities": [
-                {
-                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-                    "capability_name": "Datautveksling og integrasjon",
-                    "capability_slug": "datautveksling-og-integrasjon",
-                    "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
-                    "explanation": "Opptaksløsningene bruker data fra flere kilder som del av samordnet opptak.",
-                    "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
-                    "subcapability_name": "Bruke data fra andre",
-                    "subcapability_slug": "bruke-data-fra-andre"
-                },
-                {
-                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
-                    "capability_name": "Samarbeid",
-                    "capability_slug": "samarbeid",
-                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "Opptaksløsningene støtter samspill mellom Sikt, HK-dir og utdanningsinstitusjonene.",
-                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
-                    "subcapability_name": "Organisatorisk samhandling",
-                    "subcapability_slug": "organisatorisk-samhandling"
-                },
-                {
-                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
-                    "capability_name": "Sluttbrukertjenester",
-                    "capability_slug": "sluttbrukertjenester",
-                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-                    "explanation": "Opptaksløsningene gir søkere en mer samlet og sammenhengende opptaksprosess.",
-                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
-                    "subcapability_name": "Sammenhengende tjenester",
-                    "subcapability_slug": "sammenhengende-tjenester"
-                }
-            ]
-        },
-        {
-            "product_id": 52,
-            "product_name": "Nasjonalt utdanningsregister",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/52-Nasjonalt-utdanningsregister-produkt-canvas-v1-codex.md",
-            "product_url": "/NA-kunnskap/produkter/52-Nasjonalt-utdanningsregister-produkt-canvas-v1-codex/",
-            "capabilities": [
-                {
-                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
-                    "capability_name": "Datakilder",
-                    "capability_slug": "datakilder",
-                    "mapping_label": "Datakilder: Grunndata",
-                    "explanation": "Nasjonalt utdanningsregister er en felles autoritativ kilde for utdanninger og læresteder.",
-                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
-                    "subcapability_name": "Grunndata",
-                    "subcapability_slug": "grunndata"
-                },
-                {
-                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-                    "capability_name": "Datautveksling og integrasjon",
-                    "capability_slug": "datautveksling-og-integrasjon",
-                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "Registeret gjør utdanningsdata tilgjengelige for andre prosesser og virksomheter.",
-                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
-                    "subcapability_name": "Dele data med andre",
-                    "subcapability_slug": "dele-data-med-andre"
-                },
-                {
-                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
-                    "capability_name": "Informasjonsforvaltning",
-                    "capability_slug": "informasjonsforvaltning",
-                    "mapping_label": "Informasjonsforvaltning: Datastyring",
-                    "explanation": "Registeret samler, strukturerer og vedlikeholder utdanningsdata som tidligere var spredt i flere kilder.",
-                    "subcapability_id": "id-5852d070415849fab42749cb488d984a",
-                    "subcapability_name": "Datastyring",
-                    "subcapability_slug": "datastyring"
-                }
-            ]
-        },
-        {
-            "product_id": 60,
-            "product_name": "Motorvognregisteret",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/60-Motorvognregisteret-produkt-canvas-v1-codex.md",
-            "product_url": "/NA-kunnskap/produkter/60-Motorvognregisteret-produkt-canvas-v1-codex/",
-            "capabilities": [
-                {
-                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
-                    "capability_name": "Datakilder",
-                    "capability_slug": "datakilder",
-                    "mapping_label": "Datakilder: Grunndata",
-                    "explanation": "Motorvognregisteret er den nasjonale kilden for grunnleggende opplysninger om norske kjøretøy.",
-                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
-                    "subcapability_name": "Grunndata",
-                    "subcapability_slug": "grunndata"
-                },
-                {
-                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-                    "capability_name": "Datautveksling og integrasjon",
-                    "capability_slug": "datautveksling-og-integrasjon",
-                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "Motorvognregisteret gjør kjøretøyopplysninger tilgjengelige gjennom oppslag og API-er under ulike vilkår.",
-                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
-                    "subcapability_name": "Dele data med andre",
-                    "subcapability_slug": "dele-data-med-andre"
-                }
-            ]
-        },
-        {
-            "product_id": 61,
-            "product_name": "NVDB",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/61-NVDB-produkt-canvas-v1-codex.md",
-            "product_url": "/NA-kunnskap/produkter/61-NVDB-produkt-canvas-v1-codex/",
-            "capabilities": [
-                {
-                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
-                    "capability_name": "Datakilder",
-                    "capability_slug": "datakilder",
-                    "mapping_label": "Datakilder: Grunndata",
-                    "explanation": "NVDB er en nasjonal og autoritativ datakilde for vegnett og vegrelaterte objekter som mange aktører bygger videre på.",
-                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
-                    "subcapability_name": "Grunndata",
-                    "subcapability_slug": "grunndata"
-                },
-                {
-                    "capability_id": "id-e4f1672b38f14f57af2f8e85f34ffa88",
-                    "capability_name": "Informasjonsforvaltning",
-                    "capability_slug": "informasjonsforvaltning",
-                    "mapping_label": "Informasjonsforvaltning: Oversikt over datasett",
-                    "explanation": "NVDB gir et felles og forståelig informasjonsgrunnlag om vegnett og vegrelaterte objekter som kan brukes i flere sammenhenger.",
-                    "subcapability_id": "id-cb3db6f42a0f4ad0bc526d87cfe5b801",
-                    "subcapability_name": "Oversikt over datasett",
-                    "subcapability_slug": "oversikt-over-datasett"
-                },
-                {
-                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-                    "capability_name": "Datautveksling og integrasjon",
-                    "capability_slug": "datautveksling-og-integrasjon",
-                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "NVDB har verdi som delt nasjonalt vegdatagrunnlag fordi opplysningene kan brukes videre av mange aktører i analyse, planlegging og samhandling.",
-                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
-                    "subcapability_name": "Dele data med andre",
-                    "subcapability_slug": "dele-data-med-andre"
-                }
-            ]
-        },
-        {
-            "product_id": 63,
-            "product_name": "microdata.no",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/63-microdata-no-produkt-canvas-v1-codex.md",
-            "product_url": "/NA-kunnskap/produkter/63-microdata-no-produkt-canvas-v1-codex/",
-            "capabilities": [
-                {
-                    "capability_id": "id-98df6c2b4df340c7a3a3ad32d99ca37e",
-                    "capability_name": "Datadrevet",
-                    "capability_slug": "datadrevet",
-                    "mapping_label": "Datadrevet: Sammenstilling av data",
-                    "explanation": "microdata.no gjør det mulig å analysere og sammenstille store mengder registerdata i et kontrollert miljø.",
-                    "subcapability_id": "id-7e3d1d3396914d65a177c9d5346d6feb",
-                    "subcapability_name": "Sammenstilling av data",
-                    "subcapability_slug": "sammenstilling-av-data"
-                },
-                {
-                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-                    "capability_name": "Datautveksling og integrasjon",
-                    "capability_slug": "datautveksling-og-integrasjon",
-                    "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
-                    "explanation": "microdata.no bygger på bruk av data fra flere registre og kilder som stilles til rådighet i plattformen.",
-                    "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
-                    "subcapability_name": "Bruke data fra andre",
-                    "subcapability_slug": "bruke-data-fra-andre"
-                }
-            ]
-        },
-        {
-            "product_id": 65,
-            "product_name": "KUHR",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/65-KUHR-produkt-canvas-v1-codex.md",
-            "product_url": "/NA-kunnskap/produkter/65-KUHR-produkt-canvas-v1-codex/",
-            "capabilities": [
-                {
-                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
-                    "capability_name": "Datakilder",
-                    "capability_slug": "datakilder",
-                    "mapping_label": "Datakilder: Grunndata",
-                    "explanation": "KUHR fungerer som sentralt datagrunnlag for refusjonsforvaltning og oppgjør.",
-                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
-                    "subcapability_name": "Grunndata",
-                    "subcapability_slug": "grunndata"
-                },
-                {
-                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-                    "capability_name": "Datautveksling og integrasjon",
-                    "capability_slug": "datautveksling-og-integrasjon",
-                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "KUHR gjør oppgjørs- og refusjonsdata tilgjengelige i forvaltningens kontroll- og oppfølgingsløp.",
-                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
-                    "subcapability_name": "Dele data med andre",
-                    "subcapability_slug": "dele-data-med-andre"
                 }
             ]
         },
@@ -2752,6 +2752,106 @@
             ]
         },
         {
+            "product_id": 85,
+            "product_name": "Rammeverk for digital samhandling",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
+                    "capability_name": "Standardisering",
+                    "capability_slug": "standardisering",
+                    "subcapability_id": "id-b99fcd8160d24e5f8ea3c17b15072f7a",
+                    "subcapability_name": "Forvaltningsstandarder",
+                    "subcapability_slug": "forvaltningsstandarder",
+                    "mapping_label": "Standardisering: Forvaltningsstandarder",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Rammeverk for digital samhandling basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Rammeverk for digital samhandling basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                },
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
+                    "subcapability_name": "Organisatorisk samhandling",
+                    "subcapability_slug": "organisatorisk-samhandling",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Rammeverk for digital samhandling basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                }
+            ]
+        },
+        {
+            "product_id": 86,
+            "product_name": "Referansekatalogen for IT-standarder",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/86-Referansekatalogen-for-IT-standarder-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/86-Referansekatalogen-for-IT-standarder-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
+                    "capability_name": "Standardisering",
+                    "capability_slug": "standardisering",
+                    "subcapability_id": "id-b99fcd8160d24e5f8ea3c17b15072f7a",
+                    "subcapability_name": "Forvaltningsstandarder",
+                    "subcapability_slug": "forvaltningsstandarder",
+                    "mapping_label": "Standardisering: Forvaltningsstandarder",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Referansekatalogen for IT-standarder basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                },
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-5c6c20d50b6a4b168524901372f0ca6e",
+                    "subcapability_name": "Informasjonsarkitektur",
+                    "subcapability_slug": "informasjonsarkitektur",
+                    "mapping_label": "Informasjonsforvaltning: Informasjonsarkitektur",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Referansekatalogen for IT-standarder basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                }
+            ]
+        },
+        {
+            "product_id": 87,
+            "product_name": "Arkitektur for hendelser",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/87-Arkitektur-for-hendelser-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/87-Arkitektur-for-hendelser-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-64811e71d98647e5a678a0a2e79ae617",
+                    "subcapability_name": "Hendelsesdrevet",
+                    "subcapability_slug": "hendelsesdrevet",
+                    "mapping_label": "Datautveksling og integrasjon: Hendelsesdrevet",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Arkitektur for hendelser basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                },
+                {
+                    "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
+                    "capability_name": "Standardisering",
+                    "capability_slug": "standardisering",
+                    "subcapability_id": "id-b99fcd8160d24e5f8ea3c17b15072f7a",
+                    "subcapability_name": "Forvaltningsstandarder",
+                    "subcapability_slug": "forvaltningsstandarder",
+                    "mapping_label": "Standardisering: Forvaltningsstandarder",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Arkitektur for hendelser basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                }
+            ]
+        },
+        {
             "product_id": 88,
             "product_name": "Arkitektur- og standardiseringsrådet",
             "version": 1,
@@ -2788,6 +2888,406 @@
                     "subcapability_slug": "arkitekturstyring",
                     "mapping_label": "Strategisk styring: Arkitekturstyring",
                     "explanation": "gir råd og anbefalinger som brukes i overordnet arkitekturstyring og modenhetsvurdering."
+                }
+            ]
+        },
+        {
+            "product_id": 89,
+            "product_name": "Rammeverk for informasjonsforvaltning",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/89-Rammeverk-for-informasjonsforvaltning-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/89-Rammeverk-for-informasjonsforvaltning-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-5852d070415849fab42749cb488d984a",
+                    "subcapability_name": "Datastyring",
+                    "subcapability_slug": "datastyring",
+                    "mapping_label": "Informasjonsforvaltning: Datastyring",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Rammeverk for informasjonsforvaltning basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                },
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-5c6c20d50b6a4b168524901372f0ca6e",
+                    "subcapability_name": "Informasjonsarkitektur",
+                    "subcapability_slug": "informasjonsarkitektur",
+                    "mapping_label": "Informasjonsforvaltning: Informasjonsarkitektur",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Rammeverk for informasjonsforvaltning basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                },
+                {
+                    "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
+                    "capability_name": "Standardisering",
+                    "capability_slug": "standardisering",
+                    "subcapability_id": "id-b99fcd8160d24e5f8ea3c17b15072f7a",
+                    "subcapability_name": "Forvaltningsstandarder",
+                    "subcapability_slug": "forvaltningsstandarder",
+                    "mapping_label": "Standardisering: Forvaltningsstandarder",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Rammeverk for informasjonsforvaltning basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                }
+            ]
+        },
+        {
+            "product_id": 98,
+            "product_name": "Overordnede arkitekturprinsipper for offentlig sektor",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/98-Overordnede-arkitekturprinsipper-for-offentlig-sektor-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/98-Overordnede-arkitekturprinsipper-for-offentlig-sektor-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
+                    "capability_name": "Standardisering",
+                    "capability_slug": "standardisering",
+                    "subcapability_id": "id-b99fcd8160d24e5f8ea3c17b15072f7a",
+                    "subcapability_name": "Forvaltningsstandarder",
+                    "subcapability_slug": "forvaltningsstandarder",
+                    "mapping_label": "Standardisering: Forvaltningsstandarder",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Overordnede arkitekturprinsipper for offentlig sektor basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                },
+                {
+                    "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
+                    "capability_name": "Strategisk styring",
+                    "capability_slug": "strategisk-styring",
+                    "subcapability_id": "id-dabf94e621f644ffa53ebb44dcc9ff79",
+                    "subcapability_name": "Arkitekturstyring",
+                    "subcapability_slug": "arkitekturstyring",
+                    "mapping_label": "Strategisk styring: Arkitekturstyring",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Overordnede arkitekturprinsipper for offentlig sektor basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                }
+            ]
+        },
+        {
+            "product_id": 99,
+            "product_name": "Sjekkliste for sammenhengende tjenester",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/99-Sjekkliste-for-sammenhengende-tjenester-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/99-Sjekkliste-for-sammenhengende-tjenester-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
+                    "subcapability_name": "Sammenhengende tjenester",
+                    "subcapability_slug": "sammenhengende-tjenester",
+                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Sjekkliste for sammenhengende tjenester basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                },
+                {
+                    "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
+                    "capability_name": "Tjenesteutvikling",
+                    "capability_slug": "tjenesteutvikling",
+                    "subcapability_id": "id-379e167f7b9c4fbea9c6969425ba7f6c",
+                    "subcapability_name": "Tjenestedesign",
+                    "subcapability_slug": "tjenestedesign",
+                    "mapping_label": "Tjenesteutvikling: Tjenestedesign",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Sjekkliste for sammenhengende tjenester basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                }
+            ]
+        },
+        {
+            "product_id": 100,
+            "product_name": "Kart for tjenestekjeder",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/100-Kart-for-tjenestekjeder-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/100-Kart-for-tjenestekjeder-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "subcapability_id": "id-825b1ea1217b4eedb6caae165aeb8e41",
+                    "subcapability_name": "Tjenestekjeder",
+                    "subcapability_slug": "tjenestekjeder",
+                    "mapping_label": "Sluttbrukertjenester: Tjenestekjeder",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Kart for tjenestekjeder basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                },
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
+                    "subcapability_name": "Organisatorisk samhandling",
+                    "subcapability_slug": "organisatorisk-samhandling",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Kart for tjenestekjeder basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                }
+            ]
+        },
+        {
+            "product_id": 101,
+            "product_name": "Referansearkitektur forsendelse (eMelding)",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/101-Referansearkitektur-forsendelse-eMelding-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/101-Referansearkitektur-forsendelse-eMelding-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
+                    "subcapability_name": "Meldingsformidling",
+                    "subcapability_slug": "meldingsformidling",
+                    "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Referansearkitektur forsendelse (eMelding) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                },
+                {
+                    "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
+                    "capability_name": "Standardisering",
+                    "capability_slug": "standardisering",
+                    "subcapability_id": "id-b99fcd8160d24e5f8ea3c17b15072f7a",
+                    "subcapability_name": "Forvaltningsstandarder",
+                    "subcapability_slug": "forvaltningsstandarder",
+                    "mapping_label": "Standardisering: Forvaltningsstandarder",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Referansearkitektur forsendelse (eMelding) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                }
+            ]
+        },
+        {
+            "product_id": 102,
+            "product_name": "Referansearkitektur forespørsel-svar (eOppslag)",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/102-Referansearkitektur-foresporsel-svar-eOppslag-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/102-Referansearkitektur-foresporsel-svar-eOppslag-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
+                    "subcapability_name": "Bruke data fra andre",
+                    "subcapability_slug": "bruke-data-fra-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Referansearkitektur forespørsel-svar (eOppslag) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                },
+                {
+                    "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
+                    "capability_name": "Standardisering",
+                    "capability_slug": "standardisering",
+                    "subcapability_id": "id-b99fcd8160d24e5f8ea3c17b15072f7a",
+                    "subcapability_name": "Forvaltningsstandarder",
+                    "subcapability_slug": "forvaltningsstandarder",
+                    "mapping_label": "Standardisering: Forvaltningsstandarder",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Referansearkitektur forespørsel-svar (eOppslag) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                }
+            ]
+        },
+        {
+            "product_id": 103,
+            "product_name": "Nasjonalt veikart",
+            "version": 0,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/103-Nasjonalt-veikart-v0-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/103-Nasjonalt-veikart-v0-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
+                    "capability_name": "Strategisk styring",
+                    "capability_slug": "strategisk-styring",
+                    "subcapability_id": "id-034543e002414306a8fbecc8c9d8e496",
+                    "subcapability_name": "Samordning",
+                    "subcapability_slug": "samordning",
+                    "mapping_label": "Strategisk styring: Samordning",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Nasjonalt veikart basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                },
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
+                    "subcapability_name": "Organisatorisk samhandling",
+                    "subcapability_slug": "organisatorisk-samhandling",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Nasjonalt veikart basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                }
+            ]
+        },
+        {
+            "product_id": 104,
+            "product_name": "Orden i eget hus",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/104-Orden-i-eget-hus-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/104-Orden-i-eget-hus-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-5852d070415849fab42749cb488d984a",
+                    "subcapability_name": "Datastyring",
+                    "subcapability_slug": "datastyring",
+                    "mapping_label": "Informasjonsforvaltning: Datastyring",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Orden i eget hus basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                },
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-3c6f94ba791a4aa298809ef3f46bdc87",
+                    "subcapability_name": "Oversikt over datasett",
+                    "subcapability_slug": "oversikt-over-datasett",
+                    "mapping_label": "Informasjonsforvaltning: Oversikt over datasett",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Orden i eget hus basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                }
+            ]
+        },
+        {
+            "product_id": 105,
+            "product_name": "Rammeverk - nasjonale grunndata",
+            "version": 0,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/105-Rammeverk-nasjonale-grunndata-v0-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/105-Rammeverk-nasjonale-grunndata-v0-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Rammeverk - nasjonale grunndata basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                },
+                {
+                    "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
+                    "capability_name": "Strategisk styring",
+                    "capability_slug": "strategisk-styring",
+                    "subcapability_id": "id-034543e002414306a8fbecc8c9d8e496",
+                    "subcapability_name": "Samordning",
+                    "subcapability_slug": "samordning",
+                    "mapping_label": "Strategisk styring: Samordning",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Rammeverk - nasjonale grunndata basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                }
+            ]
+        },
+        {
+            "product_id": 106,
+            "product_name": "Nasjonal verktøykasse for deling av data",
+            "version": 0,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v0-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v0-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Nasjonal verktøykasse for deling av data basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                },
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-5852d070415849fab42749cb488d984a",
+                    "subcapability_name": "Datastyring",
+                    "subcapability_slug": "datastyring",
+                    "mapping_label": "Informasjonsforvaltning: Datastyring",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Nasjonal verktøykasse for deling av data basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                }
+            ]
+        },
+        {
+            "product_id": 107,
+            "product_name": "Kunnskapsgrunnlag og KPI-er datadeling",
+            "version": 0,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/107-Kunnskapsgrunnlag-og-KPI-er-datadeling-v0-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/107-Kunnskapsgrunnlag-og-KPI-er-datadeling-v0-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
+                    "capability_name": "Strategisk styring",
+                    "capability_slug": "strategisk-styring",
+                    "subcapability_id": "id-034543e002414306a8fbecc8c9d8e496",
+                    "subcapability_name": "Samordning",
+                    "subcapability_slug": "samordning",
+                    "mapping_label": "Strategisk styring: Samordning",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Kunnskapsgrunnlag og KPI-er datadeling basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                },
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-5852d070415849fab42749cb488d984a",
+                    "subcapability_name": "Datastyring",
+                    "subcapability_slug": "datastyring",
+                    "mapping_label": "Informasjonsforvaltning: Datastyring",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Kunnskapsgrunnlag og KPI-er datadeling basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                }
+            ]
+        },
+        {
+            "product_id": 108,
+            "product_name": "Kunnskapsgrunnlag - dataspaces",
+            "version": 0,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/108-Kunnskapsgrunnlag-dataspaces-v0-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/108-Kunnskapsgrunnlag-dataspaces-v0-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "subcapability_id": "id-b4a86e2e430c472b9f74bedb7f66fd74",
+                    "subcapability_name": "Samarbeidsarenaer og nettverk",
+                    "subcapability_slug": "samarbeidsarenaer-og-nettverk",
+                    "mapping_label": "Samarbeid: Samarbeidsarenaer og nettverk",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Kunnskapsgrunnlag - dataspaces basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Kunnskapsgrunnlag - dataspaces basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                }
+            ]
+        },
+        {
+            "product_id": 109,
+            "product_name": "Kapabilitetskart (planlagt)",
+            "version": 0,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/109-Kapabilitetskart-planlagt-v0-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/109-Kapabilitetskart-planlagt-v0-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
+                    "capability_name": "Strategisk styring",
+                    "capability_slug": "strategisk-styring",
+                    "subcapability_id": "id-dabf94e621f644ffa53ebb44dcc9ff79",
+                    "subcapability_name": "Arkitekturstyring",
+                    "subcapability_slug": "arkitekturstyring",
+                    "mapping_label": "Strategisk styring: Arkitekturstyring",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Kapabilitetskart (planlagt) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                },
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-5852d070415849fab42749cb488d984a",
+                    "subcapability_name": "Datastyring",
+                    "subcapability_slug": "datastyring",
+                    "mapping_label": "Informasjonsforvaltning: Datastyring",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Kapabilitetskart (planlagt) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
                 }
             ]
         },
@@ -3402,6 +3902,166 @@
             ]
         },
         {
+            "product_id": 128,
+            "product_name": "SYSVAK",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/128-SYSVAK-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/128-SYSVAK-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "Foreløpig automatisk opprettet kobling for SYSVAK basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Foreløpig automatisk opprettet kobling for SYSVAK basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                },
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
+                    "subcapability_name": "Sammenhengende tjenester",
+                    "subcapability_slug": "sammenhengende-tjenester",
+                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                    "explanation": "Foreløpig automatisk opprettet kobling for SYSVAK basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                }
+            ]
+        },
+        {
+            "product_id": 129,
+            "product_name": "MSIS",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/129-MSIS-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/129-MSIS-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "Foreløpig automatisk opprettet kobling for MSIS basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Foreløpig automatisk opprettet kobling for MSIS basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                },
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
+                    "subcapability_name": "Organisatorisk samhandling",
+                    "subcapability_slug": "organisatorisk-samhandling",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "Foreløpig automatisk opprettet kobling for MSIS basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                }
+            ]
+        },
+        {
+            "product_id": 130,
+            "product_name": "Dødsårsaksregisteret",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/130-Dodsarsaksregisteret-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/130-Dodsarsaksregisteret-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Dødsårsaksregisteret basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Dødsårsaksregisteret basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                },
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-5852d070415849fab42749cb488d984a",
+                    "subcapability_name": "Datastyring",
+                    "subcapability_slug": "datastyring",
+                    "mapping_label": "Informasjonsforvaltning: Datastyring",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Dødsårsaksregisteret basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                }
+            ]
+        },
+        {
+            "product_id": 131,
+            "product_name": "Reseptregisteret (NorPD)",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/131-Reseptregisteret-NorPD-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/131-Reseptregisteret-NorPD-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Reseptregisteret (NorPD) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Reseptregisteret (NorPD) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                },
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-5852d070415849fab42749cb488d984a",
+                    "subcapability_name": "Datastyring",
+                    "subcapability_slug": "datastyring",
+                    "mapping_label": "Informasjonsforvaltning: Datastyring",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Reseptregisteret (NorPD) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                }
+            ]
+        },
+        {
             "product_id": 132,
             "product_name": "Grunnboken",
             "version": 1,
@@ -3488,6 +4148,236 @@
                     "subcapability_slug": "dele-data-med-andre",
                     "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
                     "explanation": "Stedsnavndata må kunne brukes videre i kart, geodatatjenester, beredskapssystemer og andre digitale løsninger på tvers av sektorer og nivåer."
+                }
+            ]
+        },
+        {
+            "product_id": 93,
+            "product_name": "Fiks Digisos",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/93-Fiks-Digisos-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/93-Fiks-Digisos-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
+                    "subcapability_name": "Organisatorisk samhandling",
+                    "subcapability_slug": "organisatorisk-samhandling",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "Fiks Digisos kobler NAV, kommuner og kommunale fagsystem i et felles samhandlingslop for sosialhjelp."
+                },
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
+                    "subcapability_name": "Sammenhengende tjenester",
+                    "subcapability_slug": "sammenhengende-tjenester",
+                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                    "explanation": "Soker kan sende soknad, ettersende dokumentasjon og folge saken i en sammenhengende digital brukerreise."
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Tjenesten deler og overforer soknads- og saksdata kontrollert mellom NAV, Fiks og kommunale fagsystemer."
+                }
+            ]
+        },
+        {
+            "product_id": 97,
+            "product_name": "MinKommune",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/97-MinKommune-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/97-MinKommune-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
+                    "subcapability_name": "Sammenhengende tjenester",
+                    "subcapability_slug": "sammenhengende-tjenester",
+                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                    "explanation": "MinKommune samler post, faktura, eiendom, byggesaker og oppgaver i en felles innbyggerflate."
+                },
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "subcapability_id": "id-825b1ea1217b4eedb6caae165aeb8e41",
+                    "subcapability_name": "Tjenestekjeder",
+                    "subcapability_slug": "tjenestekjeder",
+                    "mapping_label": "Sluttbrukertjenester: Tjenestekjeder",
+                    "explanation": "Portalen binder sammen flere kommunale og nasjonale kontaktpunkter i samme tjenestekjede for innbygger."
+                }
+            ]
+        },
+        {
+            "product_id": 135,
+            "product_name": "Norsk pasientregister (NPR)",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "NPR er nasjonal autoritativ datakilde for aktivitet og pasientforlop i spesialisthelsetjenesten."
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "NPR-data deles kontrollert for styring, kvalitetssikring og forskning gjennom etablerte tilgangsprosesser."
+                },
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-5852d070415849fab42749cb488d984a",
+                    "subcapability_name": "Datastyring",
+                    "subcapability_slug": "datastyring",
+                    "mapping_label": "Informasjonsforvaltning: Datastyring",
+                    "explanation": "NPR understotter nasjonal styring og finansiering av spesialisthelsetjenesten med systematisk aktivitetsdata."
+                }
+            ]
+        },
+        {
+            "product_id": 136,
+            "product_name": "Kommunalt pasient- og brukerregister (KPR)",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "KPR er nasjonal autoritativ datakilde for aktivitet og tjenestebruk i kommunale helse- og omsorgstjenester."
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "KPR-data deles kontrollert for styring, evaluering og forskning pa tvers av kommunal og statlig helseforvaltning."
+                },
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-5852d070415849fab42749cb488d984a",
+                    "subcapability_name": "Datastyring",
+                    "subcapability_slug": "datastyring",
+                    "mapping_label": "Informasjonsforvaltning: Datastyring",
+                    "explanation": "KPR understotter datastyring for planlegging, finansiering og evaluering av kommunale helse- og omsorgstjenester."
+                }
+            ]
+        },
+        {
+            "product_id": 135,
+            "product_name": "Norsk pasientregister (NPR)",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Norsk pasientregister (NPR) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Norsk pasientregister (NPR) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                },
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-5852d070415849fab42749cb488d984a",
+                    "subcapability_name": "Datastyring",
+                    "subcapability_slug": "datastyring",
+                    "mapping_label": "Informasjonsforvaltning: Datastyring",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Norsk pasientregister (NPR) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                }
+            ]
+        },
+        {
+            "product_id": 136,
+            "product_name": "Kommunalt pasient- og brukerregister (KPR)",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Kommunalt pasient- og brukerregister (KPR) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Kommunalt pasient- og brukerregister (KPR) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                },
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-5852d070415849fab42749cb488d984a",
+                    "subcapability_name": "Datastyring",
+                    "subcapability_slug": "datastyring",
+                    "mapping_label": "Informasjonsforvaltning: Datastyring",
+                    "explanation": "Foreløpig automatisk opprettet kobling for Kommunalt pasient- og brukerregister (KPR) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
                 }
             ]
         }

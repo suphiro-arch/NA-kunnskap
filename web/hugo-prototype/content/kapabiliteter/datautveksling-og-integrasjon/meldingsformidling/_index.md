@@ -4,7 +4,7 @@ headerTitle: "Datautveksling og integrasjon - Meldingsformidling"
 eyebrow: "Kapabilitet"
 weight: 3
 description: "Evnen til å garantere levering og meldingsrekkefølge til rett mottaker."
-cardMeta: "11 produkter"
+cardMeta: "12 produkter"
 ---
 
 Evnen til å garantere levering og meldingsrekkefølge til rett mottaker.
@@ -66,5 +66,10 @@ Evnen til å garantere levering og meldingsrekkefølge til rett mottaker.
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/57-SvarInn-produkt-canvas-v1-codex.md">SvarInn</a></h3>
     <p class="capability-product-link__description">henter innkommende forsendelser fra SvarUt og leverer dem videre til mottakersystemene gjennom et standardisert mottaksløp.</p>
+  </article>
+  <article class="capability-product-link resource-type--normative">
+    <p class="capability-product-link__type">Normerende ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/101-Referansearkitektur-forsendelse-eMelding-v1-codex.md">Referansearkitektur forsendelse (eMelding)</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Referansearkitektur forsendelse (eMelding) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
   </article>
 </div>

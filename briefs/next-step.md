@@ -1,5 +1,5 @@
 ---
-date: 2026-04-28
+date: 2026-05-03
 author: copilot
 status: aktiv
 topic: neste-steg
@@ -8,6 +8,21 @@ topic: neste-steg
 # Neste steg
 
 ## Nytt siste steg
+
+- Opprettet [93-Fiks-Digisos-produkt-canvas-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/operative-losninger-og-tjenester/93-Fiks-Digisos-produkt-canvas-v1-codex.md) som ny operativ ressursbeskrivelse for `KS-012`.
+- Opprettet [97-MinKommune-produkt-canvas-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/operative-losninger-og-tjenester/97-MinKommune-produkt-canvas-v1-codex.md) som ny operativ ressursbeskrivelse for `KS-016`.
+- Oppdatert [produktnummerering.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/produktnummerering.md) med dokumentlenker for `KS-012` og `KS-016`.
+- Oppdatert [produkt-kapabilitet-koblinger.yaml](/c:/Users/HILROS/NA-kunnskap/arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml) med koblinger for `FHI-005`, `FHI-006`, `KS-012` og `KS-016`.
+
+- Opprettet [135-Norsk-pasientregister-produkt-canvas-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v1-codex.md) som ny operativ ressurs under `FHI-005`.
+- Opprettet [136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/operative-losninger-og-tjenester/136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v1-codex.md) som ny operativ ressurs under `FHI-006`.
+- Oppdatert [produktnummerering.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/produktnummerering.md) slik at `FHI-005` og `FHI-006` er registerført.
+
+- Ryddet bort gammel auto-push-dokumentasjon og ubrukt GitHub-workflow for automatisk push.
+- Lagt til [check-resource-version-sync.py](/c:/Users/HILROS/NA-kunnskap/tools/check-resource-version-sync.py) som stopper commit, push og GitHub-publisering hvis `produktnummerering.md` eller `produkt-kapabilitet-koblinger.yaml` peker til eldre ressursversjoner.
+- Lagt til [sync-resource-metadata.py](/c:/Users/HILROS/NA-kunnskap/tools/sync-resource-metadata.py) og brukt den til å fylle inn manglende oppføringer i `produkt-kapabilitet-koblinger.yaml` og synkronisere metadata mot siste ressursversjoner.
+- Strammet inn [generate-products.ps1](/c:/Users/HILROS/NA-kunnskap/web/hugo-prototype/scripts/generate-products.ps1) slik at webgeneratoren bruker den versjonen registeret faktisk peker til, i stedet for å hoppe til nyere filer automatisk.
+- Oppdatert styrende dokumentasjon i [AGENTS.md](/c:/Users/HILROS/NA-kunnskap/AGENTS.md), [README.md](/c:/Users/HILROS/NA-kunnskap/README.md), [arkitektur/ressurser/README.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/README.md) og [operative-ressurs-canvas.system.md](/c:/Users/HILROS/NA-kunnskap/config/prompts/operative-ressurs-canvas.system.md) slik at register og mapping alltid skal oppdateres til siste versjon.
 
 - Opprettet [134-Sentralt-stedsnavnregister-produkt-canvas-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/operative-losninger-og-tjenester/134-Sentralt-stedsnavnregister-produkt-canvas-v1-codex.md) som ny operativ ressurs under `KART-004`.
 - Oppdatert [produktnummerering.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/produktnummerering.md) slik at `KART-004` er registerført.
@@ -26,28 +41,19 @@ topic: neste-steg
 
 ## Foreslått neste prioritering
 
-- `Matrikkelen` bør prioriteres videre som tversgående grunnlagsressurs for eiendom, adresser og bygninger, med tydelig verdi for planlegging, beredskap og samordning mellom nivåer.
-- `Folkeregisteret` bør holdes høyt som sentral grunndataressurs med bred verdi i samhandling på tvers av sektorer og forvaltningsnivåer.
-- `Helsedata.no` kan prioriteres videre som tversgående tilgangs- og oversiktsflate for data, men med bevisst skille mot rent sektorinterne helselsøsninger.
-- `HPR` kan være aktuell når behovet gjelder autoritative opplysninger om helsepersonell på tvers av virksomheter og nivåer, men bør vurderes strengere enn de tre over.
-- `Motorvognregisteret` er fortsatt relevant, men noe smalere enn `NVDB` som tversgående datagrunnlag og kan derfor ligge ett hakk lavere i prioriteringen.
-- `Videokonsultasjon`, `Kjernejournal` og `e-resept` bør foreløpig ikke prioriteres opp som nye kandidater for NA-oversikten uten tydeligere verdi på tvers av sektorer.
+**Tredje pulje – gjennomfort (2026-05-03):**
+- `MinKommune` (`KS-016`) ✓
+- `Fiks Digisos` (`KS-012`) ✓
+- Koblinger i `produkt-kapabilitet-koblinger.yaml` oppdatert for `KS-012`, `KS-016`, `FHI-005` og `FHI-006` ✓
 
-## Mulige tidligere oversette kandidater
+**Neste steg – foreslatte kandidater (pulje 4):**
+- `KS-015` Bekymringsmelding (kan ha tversgaende verdi mellom kommune, skole/barnehage og barnevern).
+- `NOVARI-005` VIGO-portalen og `NOVARI-006` VIGO Sentralbase (mulig verdi pa tvers av fylkeskommuner og statlig samhandling i utdanningslop).
+- Alternativt: ta en samlet avklaring pa EU-byggeklossene (`EU-001` til `EU-011`) om de skal inn som egne produktfiler eller holdes som referanseressurser.
 
-### Høy prioritet for ny vurdering
-
-- `Norsk pasientregister (NPR)` bør vurderes videre, men med streng terskel. Registeret er viktig og nasjonalt, men tversgående verdi må begrunnes tydelig utover helsesektoren alene.
-- `Kommunalt pasient- og brukerregister (KPR)` bør vurderes videre av samme grunn. Det kan være relevant for styring og samordning mellom nivåer, men er ikke automatisk en NA-ressurs uten klarere tversgående analyseverdi.
-
-### Middels prioritet for ny vurdering
-
-- `Sentralt stedsnavnregister` kan vurderes som mulig støttekandidat dersom vi senere ønsker å løfte flere geodataressurser som brukes bredt på tvers, men det ligger foreløpig bak `Geonorge`, `Matrikkelen`, `Grunnboken` og `NVDB`.
-
-### Lav prioritet akkurat nå
-
-- Flere helseinterne registre bør foreløpig ikke løftes videre bare fordi de er store eller viktige i egen sektor.
-- Flere sektorinterne tjenester med svak eller indirekte dataverdi på tvers bør holdes utenfor listen inntil vi ser tydeligere casebehov.
+**Utsatt – lav NA-prioritet akkurat nå:**
+- `Kreftregisteret` – primærverdi er klinisk forskning; holdes utenfor uten tydeligere casebehov.
+- `KS-011`, `KS-013`, `KS-014`, `KS-015` – sektorinterne eller innføringsveiledere uten tydelig tversgående verdi.
 
 ---
 

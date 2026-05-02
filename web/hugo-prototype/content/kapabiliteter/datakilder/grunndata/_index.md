@@ -4,7 +4,7 @@ headerTitle: "Datakilder - Grunndata"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å identifisere og formelt anerkjenne autoritative datakilder basert på en systematisk vurdering av deres verdi."
-cardMeta: "19 produkter"
+cardMeta: "26 produkter"
 ---
 
 Evne til å identifisere og formelt anerkjenne autoritative datakilder basert på en systematisk vurdering av deres verdi.
@@ -92,6 +92,31 @@ Evne til å identifisere og formelt anerkjenne autoritative datakilder basert p�
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/69-FIKS-Kjoretoyregister-produkt-canvas-v1-codex.md">Fiks kjøretøyregister</a></h3>
     <p class="capability-product-link__description">gjør autoritative kjøretøyopplysninger fra Statens vegvesen tilgjengelige for kommunal sektor gjennom et kontrollert tilgangslag i Fiks.</p>
   </article>
+  <article class="capability-product-link resource-type--normative">
+    <p class="capability-product-link__type">Normerende ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/105-Rammeverk-nasjonale-grunndata-v0-codex.md">Rammeverk - nasjonale grunndata</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Rammeverk - nasjonale grunndata basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+  </article>
+  <article class="capability-product-link resource-type--operative">
+    <p class="capability-product-link__type">Operativ løsning</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/128-SYSVAK-produkt-canvas-v1-codex.md">SYSVAK</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for SYSVAK basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+  </article>
+  <article class="capability-product-link resource-type--operative">
+    <p class="capability-product-link__type">Operativ løsning</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/129-MSIS-produkt-canvas-v1-codex.md">MSIS</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for MSIS basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+  </article>
+  <article class="capability-product-link resource-type--operative">
+    <p class="capability-product-link__type">Operativ løsning</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/130-Dodsarsaksregisteret-produkt-canvas-v1-codex.md">Dødsårsaksregisteret</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Dødsårsaksregisteret basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+  </article>
+  <article class="capability-product-link resource-type--operative">
+    <p class="capability-product-link__type">Operativ løsning</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/131-Reseptregisteret-NorPD-produkt-canvas-v1-codex.md">Reseptregisteret (NorPD)</a></h3>
+    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Reseptregisteret (NorPD) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+  </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/132-Grunnboken-produkt-canvas-v1-codex.md">Grunnboken</a></h3>
@@ -106,5 +131,15 @@ Evne til å identifisere og formelt anerkjenne autoritative datakilder basert p�
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/134-Sentralt-stedsnavnregister-produkt-canvas-v1-codex.md">Sentralt stedsnavnregister</a></h3>
     <p class="capability-product-link__description">Sentralt stedsnavnregister er den autoritative kilden for offisielle stedsnavn og navneformer som mange aktører må bruke likt.</p>
+  </article>
+  <article class="capability-product-link resource-type--operative">
+    <p class="capability-product-link__type">Operativ løsning</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v1-codex.md">Norsk pasientregister (NPR)</a></h3>
+    <p class="capability-product-link__description">NPR er nasjonal autoritativ datakilde for aktivitet og pasientforlop i spesialisthelsetjenesten.</p>
+  </article>
+  <article class="capability-product-link resource-type--operative">
+    <p class="capability-product-link__type">Operativ løsning</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v1-codex.md">Kommunalt pasient- og brukerregister (KPR)</a></h3>
+    <p class="capability-product-link__description">KPR er nasjonal autoritativ datakilde for aktivitet og tjenestebruk i kommunale helse- og omsorgstjenester.</p>
   </article>
 </div>

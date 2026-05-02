@@ -138,11 +138,11 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | 68 | `KS-009` | Fiks skatte- og inntektsopplysninger | Tilgang til skatte- og inntektsopplysninger via Fiks | Grunndata<br>Bruke data fra andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v1-codex.md) |
 | 69 | `KS-010` | Fiks kjøretøyregister | Tilgang til kjøretøyopplysninger via Fiks | Grunndata<br>Bruke data fra andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/69-FIKS-Kjoretoyregister-produkt-canvas-v1-codex.md) |
 | 74 | `KS-011` | Felles mal for innforing av digitale fellestjenester | Innforingsveileder | Organisatorisk samhandling<br>Forvaltningsstandarder | - |
-| 93 | `KS-012` | Fiks Digisos | Tjeneste for digital sosialhjelp | Organisatorisk samhandling<br>Sammenhengende tjenester<br>Dele data med andre | - |
+| 93 | `KS-012` | Fiks Digisos | Tjeneste for digital sosialhjelp | Organisatorisk samhandling<br>Sammenhengende tjenester<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/93-Fiks-Digisos-produkt-canvas-v1-codex.md) |
 | 94 | `KS-013` | Fiks Protokoll | Saks- og motestotte for politiske organer | Organisatorisk samhandling<br>Datastyring | - |
 | 95 | `KS-014` | Fiks Vaksine | Kommunal vaksineforvaltning | Sammenhengende tjenester<br>Dele data med andre | - |
 | 96 | `KS-015` | KS Bekymringsmelding | Digital meldingstjeneste for bekymringsmeldinger | Meldingsformidling<br>Organisatorisk samhandling<br>Sammenhengende tjenester | - |
-| 97 | `KS-016` | MinKommune | Innbyggerportal for kommunale tjenester | Sammenhengende tjenester<br>Tjenestekjeder | - |
+| 97 | `KS-016` | MinKommune | Innbyggerportal for kommunale tjenester | Sammenhengende tjenester<br>Tjenestekjeder | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/97-MinKommune-produkt-canvas-v1-codex.md) |
 
 
 
@@ -176,6 +176,8 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | 129 | `FHI-002` | MSIS | Meldingssystem for smittsomme sykdommer | Grunndata<br>Dele data med andre<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/129-MSIS-produkt-canvas-v1-codex.md) |
 | 130 | `FHI-003` | Dødsårsaksregisteret | Dødsårsaksregister | Grunndata<br>Dele data med andre<br>Datastyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/130-Dodsarsaksregisteret-produkt-canvas-v1-codex.md) |
 | 131 | `FHI-004` | Reseptregisteret (NorPD) | Legemiddelregister | Grunndata<br>Dele data med andre<br>Datastyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/131-Reseptregisteret-NorPD-produkt-canvas-v1-codex.md) |
+| 135 | `FHI-005` | Norsk pasientregister (NPR) | Nasjonalt helseregister for spesialisthelsetjenesten | Grunndata<br>Dele data med andre<br>Datastyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v1-codex.md) |
+| 136 | `FHI-006` | Kommunalt pasient- og brukerregister (KPR) | Nasjonalt helseregister for kommunale helse- og omsorgstjenester | Grunndata<br>Dele data med andre<br>Datastyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v1-codex.md) |
 
 
 
