@@ -1417,7 +1417,7 @@
                     "subcapability_name": "Meldingsformidling",
                     "subcapability_slug": "meldingsformidling",
                     "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
-                    "explanation": "fordeler dokumenter til flere mottakerkanaler gjennom ett sentralisert utsendingsløp."
+                    "explanation": "Fiks SvarUt sin kjernefunksjon er å motta, rute og levere dokumentforsendelser til riktig kanal og mottaker."
                 },
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
@@ -1427,7 +1427,7 @@
                     "subcapability_name": "Organisatorisk samhandling",
                     "subcapability_slug": "organisatorisk-samhandling",
                     "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "gir kommuner og andre offentlige virksomheter et felles mønster for dokumentutsending."
+                    "explanation": "Løsningen muliggjør et felles utsendingsløp mellom kommuner, andre offentlige virksomheter og sentrale mottakerkanaler."
                 },
                 {
                     "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
@@ -1437,7 +1437,7 @@
                     "subcapability_name": "Sammenhengende tjenester",
                     "subcapability_slug": "sammenhengende-tjenester",
                     "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-                    "explanation": "lar mottakeren nås gjennom ulike kanaler via ett samlet utsendingsløp."
+                    "explanation": "Fiks SvarUt bidrar til en mer sammenhengende mottakeropplevelse ved at samme forsendelse kan nå fram gjennom riktig kanal uten at avsender bygger ulike løsninger per kanal. Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot dokumentert funksjon i KS Digitals produkt- og utviklerdokumentasjon kontrollert 2026-03-25."
                 }
             ]
         },
@@ -1524,7 +1524,7 @@
                     "capability_name": "Informasjonsforvaltning",
                     "capability_slug": "informasjonsforvaltning",
                     "mapping_label": "Informasjonsforvaltning: Oversikt over datasett",
-                    "explanation": "Helsedata.no gir oversikt over helsedata og relevante datakilder i én nasjonal inngang.",
+                    "explanation": "Helsedata.no gir brukere en samlet inngang til å oppdage og vurdere relevante helsedatakilder før søknad.",
                     "subcapability_id": "id-cb3db6f42a0f4ad0bc526d87cfe5b801",
                     "subcapability_name": "Oversikt over datasett",
                     "subcapability_slug": "oversikt-over-datasett"
@@ -1534,7 +1534,7 @@
                     "capability_name": "Informasjonsforvaltning",
                     "capability_slug": "informasjonsforvaltning",
                     "mapping_label": "Informasjonsforvaltning: Datastyring",
-                    "explanation": "Helsedata.no støtter strukturert forvaltning og tilgjengeliggjøring av informasjon om helsedata og tilgangsløp.",
+                    "explanation": "Løsningen støtter datastyring ved å strukturere tilgangsinformasjon, roller og prosesser på tvers av flere dataforvaltere.",
                     "subcapability_id": "id-5852d070415849fab42749cb488d984a",
                     "subcapability_name": "Datastyring",
                     "subcapability_slug": "datastyring"
@@ -1544,7 +1544,7 @@
                     "capability_name": "Sluttbrukertjenester",
                     "capability_slug": "sluttbrukertjenester",
                     "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-                    "explanation": "Helsedata.no samler veiledning og tilgangsløp i en sammenhengende nasjonal brukerflate.",
+                    "explanation": "Portalen binder sammen orientering, veiledning og søknadsløp i en helhetlig brukerreise.",
                     "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
                     "subcapability_name": "Sammenhengende tjenester",
                     "subcapability_slug": "sammenhengende-tjenester"
@@ -1684,7 +1684,7 @@
                     "capability_name": "Datautveksling og integrasjon",
                     "capability_slug": "datautveksling-og-integrasjon",
                     "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
-                    "explanation": "e-resept inngår i et samhandlingsløp der flere aktører bruker og oppdaterer relevant informasjon.",
+                    "explanation": "e-resept inngår i et samspill der flere aktører og systemer bruker og oppdaterer reseptinformasjon på tvers av etablerte grensesnitt.",
                     "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
                     "subcapability_name": "Bruke data fra andre",
                     "subcapability_slug": "bruke-data-fra-andre"
@@ -1694,7 +1694,7 @@
                     "capability_name": "Datautveksling og integrasjon",
                     "capability_slug": "datautveksling-og-integrasjon",
                     "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
-                    "explanation": "e-resept formidler reseptinformasjon digitalt mellom forskriver, apotek og andre relevante aktører.",
+                    "explanation": "Produktets kjerne er sikker formidling av reseptrelatert informasjon mellom forskrivere, apotek og andre berørte aktører.",
                     "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
                     "subcapability_name": "Meldingsformidling",
                     "subcapability_slug": "meldingsformidling"
@@ -1704,7 +1704,7 @@
                     "capability_name": "Samarbeid",
                     "capability_slug": "samarbeid",
                     "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "e-resept er en felles nasjonal samhandlingsløsning for reseptprosesser i helsesektoren.",
+                    "explanation": "e-resept muliggjør en koordinert arbeidsdeling mellom flere virksomheter i helsesektoren rundt samme reseptløp.",
                     "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
                     "subcapability_name": "Organisatorisk samhandling",
                     "subcapability_slug": "organisatorisk-samhandling"
@@ -2224,7 +2224,7 @@
                     "capability_name": "Datakilder",
                     "capability_slug": "datakilder",
                     "mapping_label": "Datakilder: Grunndata",
-                    "explanation": "Motorvognregisteret er den nasjonale kilden for grunnleggende opplysninger om norske kjøretøy.",
+                    "explanation": "Motorvognregisteret fungerer som nasjonal grunndatakilde for sentrale opplysninger om registrerte kjøretøy.",
                     "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
                     "subcapability_name": "Grunndata",
                     "subcapability_slug": "grunndata"
@@ -2234,7 +2234,7 @@
                     "capability_name": "Datautveksling og integrasjon",
                     "capability_slug": "datautveksling-og-integrasjon",
                     "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "Motorvognregisteret gjør kjøretøyopplysninger tilgjengelige gjennom oppslag og API-er under ulike vilkår.",
+                    "explanation": "Produktet gjør kjøretøyopplysninger tilgjengelige gjennom flere delings- og oppslagsformer for andre brukere og systemer.",
                     "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
                     "subcapability_name": "Dele data med andre",
                     "subcapability_slug": "dele-data-med-andre"
@@ -2324,7 +2324,7 @@
                     "capability_name": "Datadrevet",
                     "capability_slug": "datadrevet",
                     "mapping_label": "Datadrevet: Sammenstilling av data",
-                    "explanation": "microdata.no gjør det mulig å analysere og sammenstille store mengder registerdata i et kontrollert miljø.",
+                    "explanation": "microdata.no er laget for analyse av koblede registerdata og gjør det mulig å sammenstille og arbeide med data fra flere kilder i samme analyseflate.",
                     "subcapability_id": "id-7e3d1d3396914d65a177c9d5346d6feb",
                     "subcapability_name": "Sammenstilling av data",
                     "subcapability_slug": "sammenstilling-av-data"
@@ -2334,7 +2334,7 @@
                     "capability_name": "Datautveksling og integrasjon",
                     "capability_slug": "datautveksling-og-integrasjon",
                     "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
-                    "explanation": "microdata.no bygger på bruk av data fra flere registre og kilder som stilles til rådighet i plattformen.",
+                    "explanation": "Tjenesten bygger på at data fra ulike registre og kilder gjøres tilgjengelige i en kontrollert modell for videre analyse.",
                     "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
                     "subcapability_name": "Bruke data fra andre",
                     "subcapability_slug": "bruke-data-fra-andre"
@@ -2354,7 +2354,7 @@
                     "capability_name": "Datakilder",
                     "capability_slug": "datakilder",
                     "mapping_label": "Datakilder: Grunndata",
-                    "explanation": "HPR er den autoritative kilden for grunnleggende opplysninger om helsepersonell og autorisasjonsstatus.",
+                    "explanation": "HPR fungerer som en nasjonal grunndatakilde for opplysninger om helsepersonell, autorisasjon og tilknyttede godkjenninger.",
                     "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
                     "subcapability_name": "Grunndata",
                     "subcapability_slug": "grunndata"
@@ -2364,7 +2364,7 @@
                     "capability_name": "Datautveksling og integrasjon",
                     "capability_slug": "datautveksling-og-integrasjon",
                     "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "HPR gjør registeropplysninger tilgjengelige for virksomheter og brukere som trenger dem.",
+                    "explanation": "Registeret gjør sentrale opplysninger tilgjengelige for andre aktører som trenger dem til oppslag, kontroll, tilgangsstyring og saksbehandling.",
                     "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
                     "subcapability_name": "Dele data med andre",
                     "subcapability_slug": "dele-data-med-andre"
@@ -2384,7 +2384,7 @@
                     "capability_name": "Datakilder",
                     "capability_slug": "datakilder",
                     "mapping_label": "Datakilder: Grunndata",
-                    "explanation": "KUHR fungerer som sentralt datagrunnlag for refusjonsforvaltning og oppgjør.",
+                    "explanation": "KUHR fungerer som en sentral kilde for oppgjørs- og refusjonsdata som brukes i forvaltning, kontroll og oppfølging.",
                     "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
                     "subcapability_name": "Grunndata",
                     "subcapability_slug": "grunndata"
@@ -2394,7 +2394,7 @@
                     "capability_name": "Datautveksling og integrasjon",
                     "capability_slug": "datautveksling-og-integrasjon",
                     "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "KUHR gjør oppgjørs- og refusjonsdata tilgjengelige i forvaltningens kontroll- og oppfølgingsløp.",
+                    "explanation": "Produktet gjør oppgjørsdata tilgjengelige som grunnlag for videre behandling og kontroll i Helfo og tilgrensende forvaltningsprosesser.",
                     "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
                     "subcapability_name": "Dele data med andre",
                     "subcapability_slug": "dele-data-med-andre"
@@ -2537,7 +2537,7 @@
                     "subcapability_name": "Dele data med andre",
                     "subcapability_slug": "dele-data-med-andre",
                     "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "eksponerer fylkeskommunale data gjennom standardiserte API-er som kan deles på tvers av systemer og organisasjoner."
+                    "explanation": "Felleskomponenten eksponerer informasjon gjennom åpne og standardiserte grensesnitt som gjør det mulig å tilgjengeliggjøre data på tvers av systemer og organisasjoner."
                 },
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
@@ -2547,7 +2547,7 @@
                     "subcapability_name": "Bruke data fra andre",
                     "subcapability_slug": "bruke-data-fra-andre",
                     "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
-                    "explanation": "gir konsumenter et felles løp for å hente og bruke data fra fylkeskommunale kildesystemer."
+                    "explanation": "Ressursen gir konsumenter et felles grunnlag for å hente og bruke data fra fylkeskommunale kildesystemer uten å forholde seg til hvert enkelt system på proprietært vis."
                 },
                 {
                     "capability_id": "id-896e4c1434604caa891b94bcce964720",
@@ -2557,7 +2557,7 @@
                     "subcapability_name": "Informasjonsarkitektur",
                     "subcapability_slug": "informasjonsarkitektur",
                     "mapping_label": "Informasjonsforvaltning: Informasjonsarkitektur",
-                    "explanation": "gjør den felles informasjonsmodellen operativ i faktisk datadeling og integrasjon."
+                    "explanation": "Felleskomponenten bygger direkte på en standardisert informasjonsmodell og gjør semantikken operativ i faktisk integrasjon og datadeling."
                 },
                 {
                     "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
@@ -2567,7 +2567,7 @@
                     "subcapability_name": "Integrerbare tjenester",
                     "subcapability_slug": "integrerbare-tjenester",
                     "mapping_label": "Tjenesteutvikling: Integrerbare tjenester",
-                    "explanation": "tilbyr programmerbare grensesnitt og et felles integrasjonsmønster som kan brukes i nye og eksisterende tjenester."
+                    "explanation": "Ressursen tilbyr programmerbare grensesnitt og et operativt integrasjonsmønster som kan brukes i nye og eksisterende tjenester."
                 },
                 {
                     "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
@@ -2577,7 +2577,7 @@
                     "subcapability_name": "Gjenbrukbare tjenester",
                     "subcapability_slug": "gjenbrukbare-tjenester",
                     "mapping_label": "Tjenesteutvikling: Gjenbrukbare tjenester",
-                    "explanation": "gir fylkeskommunene et felles integrasjonsgrunnlag som kan gjenbrukes på tvers av leverandører og løsninger."
+                    "explanation": "Felleskomponenten gjør det mulig å etablere et felles integrasjonsgrunnlag som kan brukes på tvers av fylkeskommuner og leverandører."
                 },
                 {
                     "capability_id": "id-48c9873ae59341a49c2dca27379fab55",
@@ -2587,7 +2587,7 @@
                     "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
                     "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling",
                     "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
-                    "explanation": "understøtter trygg dataflyt, integritet og tilgjengelighet i det fylkeskommunale integrasjonsløpet."
+                    "explanation": "Novari fremhever informasjonssikkerhet som en sentral del av løsningen, med vekt på trygg dataflyt, integritet og tilgjengelighet."
                 }
             ]
         },
@@ -2607,7 +2607,7 @@
                     "subcapability_name": "Dele data med andre",
                     "subcapability_slug": "dele-data-med-andre",
                     "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "gjør arkivinformasjon tilgjengelig gjennom et standardisert API og et felles utvekslingsmønster."
+                    "explanation": "Ressursen tilgjengeliggjør arkivinformasjon gjennom et standardisert API som andre systemer og tjenester kan bruke."
                 },
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
@@ -2617,7 +2617,7 @@
                     "subcapability_name": "Bruke data fra andre",
                     "subcapability_slug": "bruke-data-fra-andre",
                     "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
-                    "explanation": "gir fagsystemer og andre tjenester et standardisert løp for å bruke data fra foretrukket sak- og arkivsystem."
+                    "explanation": "Fagsystemer og integrasjoner kan hente og bruke arkivinformasjon via en felles og standardisert flate, i stedet for å bygge proprietære koblinger mot hvert arkivsystem."
                 },
                 {
                     "capability_id": "id-896e4c1434604caa891b94bcce964720",
@@ -2627,7 +2627,7 @@
                     "subcapability_name": "Informasjonsarkitektur",
                     "subcapability_slug": "informasjonsarkitektur",
                     "mapping_label": "Informasjonsforvaltning: Informasjonsarkitektur",
-                    "explanation": "bruker den felles FINT-modellen for å strukturere og utveksle arkivinformasjon på en konsistent måte."
+                    "explanation": "Løsningen gjør den felles FINT-informasjonsmodellen operativ for arkivområdet og sørger for at arkivinformasjon representeres på en standardisert måte."
                 },
                 {
                     "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
@@ -2637,7 +2637,7 @@
                     "subcapability_name": "Integrerbare tjenester",
                     "subcapability_slug": "integrerbare-tjenester",
                     "mapping_label": "Tjenesteutvikling: Integrerbare tjenester",
-                    "explanation": "gjør arkivintegrasjon tilgjengelig som et felles og integrerbart mønster i fylkeskommunal sektor."
+                    "explanation": "FINT Arkiv tilbyr en operativ integrasjonsflate som kan brukes direkte i arkivintegrasjoner og tilknyttede tjenester."
                 },
                 {
                     "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
@@ -2647,7 +2647,7 @@
                     "subcapability_name": "Forvaltningsstandarder",
                     "subcapability_slug": "forvaltningsstandarder",
                     "mapping_label": "Standardisering: Forvaltningsstandarder",
-                    "explanation": "bygger på et standardisert informasjons- og integrasjonsmønster som reduserer lokale særvarianter i arkivløp."
+                    "explanation": "Løsningen bidrar til standardisert utveksling av arkivinformasjon på tvers av ulike sak-/arkivsystemer og leverandører."
                 }
             ]
         },
@@ -2667,7 +2667,7 @@
                     "subcapability_name": "Informasjonsarkitektur",
                     "subcapability_slug": "informasjonsarkitektur",
                     "mapping_label": "Informasjonsforvaltning: Informasjonsarkitektur",
-                    "explanation": "gir en felles semantisk struktur for data på tvers av fylkeskommuner, systemer og leverandører."
+                    "explanation": "Ressursen strukturerer og modellerer informasjon på en standardisert måte, slik at data kan forstås og brukes likt på tvers av fylkeskommuner og systemleverandører."
                 },
                 {
                     "capability_id": "id-896e4c1434604caa891b94bcce964720",
@@ -2677,7 +2677,7 @@
                     "subcapability_name": "Oversikt over informasjonsmodeller",
                     "subcapability_slug": "oversikt-over-informasjonsmodeller",
                     "mapping_label": "Informasjonsforvaltning: Oversikt over informasjonsmodeller",
-                    "explanation": "er selv en sentral informasjonsmodell som synliggjør struktur og sammenheng i FINT-økosystemet."
+                    "explanation": "Ressursen er selv en sentral informasjonsmodell og gjør det mulig å etablere en felles forståelse av datastrukturer i FINT-økosystemet."
                 },
                 {
                     "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
@@ -2687,7 +2687,7 @@
                     "subcapability_name": "Forvaltningsstandarder",
                     "subcapability_slug": "forvaltningsstandarder",
                     "mapping_label": "Standardisering: Forvaltningsstandarder",
-                    "explanation": "fungerer som et omforent normerende grunnlag for hvordan informasjon skal representeres og utveksles i FINT."
+                    "explanation": "Ressursen fungerer som et omforent normerende grunnlag for hvordan informasjon skal representeres og utveksles innenfor de delene av fylkeskommunal samhandling som FINT dekker."
                 }
             ]
         },
@@ -2707,7 +2707,7 @@
                     "subcapability_name": "Organisatorisk samhandling",
                     "subcapability_slug": "organisatorisk-samhandling",
                     "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "samler flere fylkeskommuner og aktører rundt felles prosesser og dataflyt for inntak og administrasjon i videregående opplæring."
+                    "explanation": "VIGO er en felles løsning eid og finansiert i fellesskap av fylkeskommunene og Oslo kommune, og brukes i samhandling mellom flere aktører i utdanningssektoren."
                 },
                 {
                     "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
@@ -2717,7 +2717,7 @@
                     "subcapability_name": "Sammenhengende tjenester",
                     "subcapability_slug": "sammenhengende-tjenester",
                     "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-                    "explanation": "gir en samlet løsning for prosesser som søking, inntak og administrativ oppfølging i videregående opplæring."
+                    "explanation": "Ressursen knytter sammen søknad, inntak, fagopplæring, oppfølging og flere andre arbeidsprosesser i et samlet sektorløp."
                 },
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
@@ -2727,7 +2727,7 @@
                     "subcapability_name": "Dele data med andre",
                     "subcapability_slug": "dele-data-med-andre",
                     "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "gjør utdannings- og administrasjonsdata tilgjengelige mellom delsystemer og aktører i samme økosystem."
+                    "explanation": "VIGO leverer data til internt og eksternt bruk og er kilde for leveranser til blant annet Utdanningsdirektoratet og Statistisk sentralbyrå."
                 },
                 {
                     "capability_id": "id-896e4c1434604caa891b94bcce964720",
@@ -2737,7 +2737,7 @@
                     "subcapability_name": "Datastyring",
                     "subcapability_slug": "datastyring",
                     "mapping_label": "Informasjonsforvaltning: Datastyring",
-                    "explanation": "forvalter store mengder strukturerte data om søkere, opplæring, kodeverk og administrasjon i et felles sektoroppsett."
+                    "explanation": "VIGO Sentralbase og VIGO Kodeverksbase viser at løsningen forvalter og strukturerer sentrale data- og kodeverksressurser for videregående opplæring."
                 },
                 {
                     "capability_id": "id-896e4c1434604caa891b94bcce964720",
@@ -2747,7 +2747,77 @@
                     "subcapability_name": "Oversikt over tjenester",
                     "subcapability_slug": "oversikt-over-tjenester",
                     "mapping_label": "Informasjonsforvaltning: Oversikt over tjenester",
-                    "explanation": "samler flere moduler og delsystemer i en overordnet sektorressurs som kan vurderes samlet i caseanalyser."
+                    "explanation": "VIGO består av flere moduler og tjenester som samlet dekker et bredt funksjonsområde innen videregående opplæring."
+                }
+            ]
+        },
+        {
+            "product_id": 80,
+            "product_name": "VIGO-portalen",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/80-VIGO-portalen-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/80-VIGO-portalen-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
+                    "subcapability_name": "Sammenhengende tjenester",
+                    "subcapability_slug": "sammenhengende-tjenester",
+                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                    "explanation": "VIGO-portalen samler flere VIGO-tjenester i én inngang og reduserer fragmentering i brukerreisen."
+                },
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "subcapability_id": "id-825b1ea1217b4eedb6caae165aeb8e41",
+                    "subcapability_name": "Tjenestekjeder",
+                    "subcapability_slug": "tjenestekjeder",
+                    "mapping_label": "Sluttbrukertjenester: Tjenestekjeder",
+                    "explanation": "Portalen knytter sammen flere moduler i utdanningsløpet, slik at brukere kan bevege seg mellom relaterte funksjoner i samme økosystem."
+                }
+            ]
+        },
+        {
+            "product_id": 81,
+            "product_name": "VIGO Sentralbase",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/81-VIGO-Sentralbase-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/81-VIGO-Sentralbase-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "VIGO Sentralbase fungerer som autoritativ felles datakilde for sentrale opplysninger i videregående opplæring."
+                },
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-5852d070415849fab42749cb488d984a",
+                    "subcapability_name": "Datastyring",
+                    "subcapability_slug": "datastyring",
+                    "mapping_label": "Informasjonsforvaltning: Datastyring",
+                    "explanation": "Ressursen legger grunnlag for strukturert forvaltning av data, historikk og leveranser på tvers av fylkeskommuner."
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Sentralbasen muliggjør felles datautlevering og statistikkleveranser til nasjonale myndigheter og andre aktører med hjemmel."
                 }
             ]
         },
@@ -2928,6 +2998,116 @@
                     "subcapability_slug": "forvaltningsstandarder",
                     "mapping_label": "Standardisering: Forvaltningsstandarder",
                     "explanation": "Foreløpig automatisk opprettet kobling for Rammeverk for informasjonsforvaltning basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                }
+            ]
+        },
+        {
+            "product_id": 93,
+            "product_name": "Fiks Digisos",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/93-Fiks-Digisos-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/93-Fiks-Digisos-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
+                    "subcapability_name": "Organisatorisk samhandling",
+                    "subcapability_slug": "organisatorisk-samhandling",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "Fiks Digisos kobler NAV, kommuner, KS Digital og fagsystemleverandorer i et felles operativt samhandlingslop for sosialhjelp."
+                },
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
+                    "subcapability_name": "Sammenhengende tjenester",
+                    "subcapability_slug": "sammenhengende-tjenester",
+                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                    "explanation": "Soker kan sende soknad, ettersende dokumentasjon og folge saksgang i en sammenhengende brukerreise pa nav.no."
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Tjenesten deler og overforer soknads- og saksdata kontrollert mellom statlige og kommunale systemer gjennom Fiks API-er og meldingskanaler."
+                }
+            ]
+        },
+        {
+            "product_id": 96,
+            "product_name": "KS Bekymringsmelding",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/96-KS-Bekymringsmelding-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/96-KS-Bekymringsmelding-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
+                    "subcapability_name": "Meldingsformidling",
+                    "subcapability_slug": "meldingsformidling",
+                    "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                    "explanation": "Produktets kjerne er trygg transport og levering av bekymringsmeldinger mellom avsender og riktig mottak i kommunen."
+                },
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
+                    "subcapability_name": "Organisatorisk samhandling",
+                    "subcapability_slug": "organisatorisk-samhandling",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "Løsningen støtter samhandling mellom innbyggere, offentlige meldere, barnevern og systemleverandører i samme prosess."
+                },
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
+                    "subcapability_name": "Sammenhengende tjenester",
+                    "subcapability_slug": "sammenhengende-tjenester",
+                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                    "explanation": "Tjenesten gir én digital inngang for innsending, veiledning og mottak, med fallback til alternative kanaler ved behov."
+                }
+            ]
+        },
+        {
+            "product_id": 97,
+            "product_name": "MinKommune",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/97-MinKommune-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/97-MinKommune-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
+                    "subcapability_name": "Sammenhengende tjenester",
+                    "subcapability_slug": "sammenhengende-tjenester",
+                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                    "explanation": "MinKommune samler flere kommunale tjenester i en felles innbyggerreise fremfor separate innlogginger og grensesnitt."
+                },
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "subcapability_id": "id-825b1ea1217b4eedb6caae165aeb8e41",
+                    "subcapability_name": "Tjenestekjeder",
+                    "subcapability_slug": "tjenestekjeder",
+                    "mapping_label": "Sluttbrukertjenester: Tjenestekjeder",
+                    "explanation": "Portalen kobler sammen post, faktura, eiendom, byggesak og skjema i kjeder som understotter oppgave- og saksoppfolging over tid."
                 }
             ]
         },
@@ -3327,7 +3507,7 @@
                     "subcapability_name": "Arkitekturstyring",
                     "subcapability_slug": "arkitekturstyring",
                     "mapping_label": "Strategisk styring: Arkitekturstyring",
-                    "explanation": "gir overordnede råd og retning som påvirker arkitekturvalg og felles utviklingsløp."
+                    "explanation": "Skate støtter særlig kapabiliteter knyttet til samordning, strategisk retning og faste arenaer for samarbeid på tvers av virksomheter."
                 }
             ]
         },
@@ -3357,7 +3537,7 @@
                     "subcapability_name": "Arkitekturstyring",
                     "subcapability_slug": "arkitekturstyring",
                     "mapping_label": "Strategisk styring: Arkitekturstyring",
-                    "explanation": "styrker kvaliteten i strategiske veivalg og gjennomføring av krevende digitaliseringstiltak."
+                    "explanation": "Digitaliseringsrådet støtter særlig kapabiliteter knyttet til læring på tvers, rådgivende samspill og bedre strategisk styring av krevende digitaliseringstiltak."
                 }
             ]
         },
@@ -3377,7 +3557,7 @@
                     "subcapability_name": "Samordning",
                     "subcapability_slug": "samordning",
                     "mapping_label": "Strategisk styring: Samordning",
-                    "explanation": "samler nasjonale krav og anbefalinger for digitalisering i staten i ett felles styringsgrunnlag."
+                    "explanation": "Ressursen setter felles retning for hvordan digitalisering skal styres og samordnes på tvers av statlige virksomheter."
                 },
                 {
                     "capability_id": "id-fda201f20edd40c6aef8712b1c22b0a5",
@@ -3387,7 +3567,7 @@
                     "subcapability_name": "Forvaltningsstandarder",
                     "subcapability_slug": "forvaltningsstandarder",
                     "mapping_label": "Standardisering: Forvaltningsstandarder",
-                    "explanation": "gir føringer som standardiserer forventninger til hvordan statlige virksomheter skal arbeide med digitalisering."
+                    "explanation": "Rundskrivet peker på krav og forventninger som gjør at virksomheter må forholde seg mer systematisk til standarder, arkitektur og felles praksis."
                 }
             ]
         },
@@ -3407,7 +3587,7 @@
                     "subcapability_name": "Samordning",
                     "subcapability_slug": "samordning",
                     "mapping_label": "Strategisk styring: Samordning",
-                    "explanation": "gir et felles metodegrunnlag for planlegging, styring og beslutningspunkter i offentlige prosjekter."
+                    "explanation": "Ressursen støtter samordnet styring gjennom felles faser, beslutningspunkter og tydeligere ansvar mellom ledelse, linje og prosjekt."
                 },
                 {
                     "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
@@ -3417,7 +3597,7 @@
                     "subcapability_name": "Tjenestedesign",
                     "subcapability_slug": "tjenestedesign",
                     "mapping_label": "Tjenesteutvikling: Tjenestedesign",
-                    "explanation": "støtter utviklingsløp der brukerbehov, leveranser og helhetlig tjenesteutforming må håndteres strukturert."
+                    "explanation": "Modellen er relevant i tidligfase og konseptarbeid, der behov skal avklares og tiltak skal utformes før gjennomføring."
                 }
             ]
         },
@@ -3557,7 +3737,7 @@
                     "subcapability_name": "Sammenhengende tjenester",
                     "subcapability_slug": "sammenhengende-tjenester",
                     "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-                    "explanation": "bidrar til mer helhetlige og gjenkjennelige brukeropplevelser på tvers av digitale tjenester."
+                    "explanation": "Designspråk og gjenbrukbare komponenter bidrar til mer helhetlige brukeropplevelser på tvers av tjenester."
                 },
                 {
                     "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
@@ -3567,7 +3747,7 @@
                     "subcapability_name": "Gjenbrukbare tjenester",
                     "subcapability_slug": "gjenbrukbare-tjenester",
                     "mapping_label": "Tjenesteutvikling: Gjenbrukbare tjenester",
-                    "explanation": "gjør designkomponenter og mønstre gjenbrukbare i flere løsninger og virksomheter."
+                    "explanation": "Ressursen gjør det mulig å gjenbruke komponenter og mønstre i flere løsninger."
                 },
                 {
                     "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
@@ -3577,7 +3757,7 @@
                     "subcapability_name": "Tjenestedesign",
                     "subcapability_slug": "tjenestedesign",
                     "mapping_label": "Tjenesteutvikling: Tjenestedesign",
-                    "explanation": "gir konkrete byggeklosser som brukes direkte i utforming og implementasjon av digitale tjenester."
+                    "explanation": "Felles designsystem gir konkrete byggeklosser som støtter utforming av digitale tjenester."
                 }
             ]
         },
@@ -3597,7 +3777,7 @@
                     "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
                     "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling",
                     "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
-                    "explanation": "beskytter metadatautveksling og påloggingsflyt i ansattkontekst."
+                    "explanation": "Ressursen beskytter innloggingsflyt og metadatautveksling i ansattpålogging."
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
@@ -3607,7 +3787,7 @@
                     "subcapability_name": "Autentisering",
                     "subcapability_slug": "autentisering",
                     "mapping_label": "Tillit: Autentisering",
-                    "explanation": "er kjernefunksjonen ved at Ansattporten verifiserer identitet for ansatte i offentlig sektor."
+                    "explanation": "Ansattporten verifiserer identitet i ansattkontekst og er kjernefunksjonen i ressursen."
                 },
                 {
                     "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
@@ -3617,7 +3797,7 @@
                     "subcapability_name": "Integrerbare tjenester",
                     "subcapability_slug": "integrerbare-tjenester",
                     "mapping_label": "Tjenesteutvikling: Integrerbare tjenester",
-                    "explanation": "tilbyr standardiserte metadata og integrasjonspunkter som andre løsninger kan koble seg til."
+                    "explanation": "Tjenesten tilbyr standardiserte metadata og integrasjonspunkter som andre løsninger kan koble seg til."
                 }
             ]
         },
@@ -3697,7 +3877,7 @@
                     "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
                     "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling",
                     "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
-                    "explanation": "gir faglig deling og oppdatering om informasjonssikkerhet på et område som er avgjørende for trygg samhandling."
+                    "explanation": "Forumet støtter kompetansedeling og felles forståelse på et sentralt område for sikker samhandling."
                 },
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
@@ -3707,7 +3887,7 @@
                     "subcapability_name": "Samarbeidsarenaer og nettverk",
                     "subcapability_slug": "samarbeidsarenaer-og-nettverk",
                     "mapping_label": "Samarbeid: Samarbeidsarenaer og nettverk",
-                    "explanation": "er en fast møteplass for ansatte som arbeider med informasjonssikkerhet i offentlig sektor."
+                    "explanation": "Forumet er en møteplass som binder sammen fagmiljøer på tvers av offentlig sektor."
                 }
             ]
         },
@@ -3727,7 +3907,7 @@
                     "subcapability_name": "Dele data med andre",
                     "subcapability_slug": "dele-data-med-andre",
                     "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "samler aktører som utvikler offentlig-privat datadeling og samhandling på tvers av sektorgrenser."
+                    "explanation": "Forumet er tett knyttet til offentlig-privat datadeling og utvikling av samhandlingsløsninger."
                 },
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
@@ -3737,7 +3917,7 @@
                     "subcapability_name": "Samarbeidsarenaer og nettverk",
                     "subcapability_slug": "samarbeidsarenaer-og-nettverk",
                     "mapping_label": "Samarbeid: Samarbeidsarenaer og nettverk",
-                    "explanation": "er en offentlig-privat samhandlingsarena der flere virksomheter koordinerer felles løsninger og tiltak."
+                    "explanation": "Forumet samler aktører på tvers av sektorer og legger til rette for samordnet utvikling."
                 }
             ]
         },
@@ -3757,7 +3937,7 @@
                     "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
                     "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling",
                     "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
-                    "explanation": "bidrar til mer samordnet retning, veiledning og rammebetingelser for informasjonssikkerhet i offentlig forvaltning"
+                    "explanation": "Initiativet retter seg direkte mot bedre styring, samordning og praksis for informasjonssikkerhet i offentlig forvaltning."
                 },
                 {
                     "capability_id": "id-498c1bffdb8b4cd18d934f87f783eb82",
@@ -3767,7 +3947,7 @@
                     "subcapability_name": "Samarbeidsarenaer og nettverk",
                     "subcapability_slug": "samarbeidsarenaer-og-nettverk",
                     "mapping_label": "Samarbeid: Samarbeidsarenaer og nettverk",
-                    "explanation": "samler fagmyndigheter og andre sentrale aktører om en felles retning for informasjonssikkerhet"
+                    "explanation": "Ressursen bygger på tverrsektorielt samarbeid mellom aktører som veileder eller påvirker virksomhetene i offentlig sektor."
                 },
                 {
                     "capability_id": "id-a6c7c8370d7746c8a0d8d4d0f1fed59a",
@@ -3777,7 +3957,7 @@
                     "subcapability_name": "Samordning",
                     "subcapability_slug": "samordning",
                     "mapping_label": "Strategisk styring: Samordning",
-                    "explanation": "har som formål å skape felles retning og mer samordnet oppfølging på tvers av offentlig forvaltning"
+                    "explanation": "Initiativet har som mål å skape felles retning, bedre rammebetingelser og mer samordnet veiledning på tvers av forvaltningen."
                 }
             ]
         },
@@ -3797,7 +3977,7 @@
                     "subcapability_name": "Samarbeidsarenaer og nettverk",
                     "subcapability_slug": "samarbeidsarenaer-og-nettverk",
                     "mapping_label": "Samarbeid: Samarbeidsarenaer og nettverk",
-                    "explanation": "samler aktører som trenger erfaringsdeling, dialog og samordning om ansvarlig bruk av kunstig intelligens i offentlig sektor"
+                    "explanation": "KI Norge er relevant som nasjonal arena for erfaringsdeling, dialog og koordinering mellom aktører som arbeider med kunstig intelligens."
                 },
                 {
                     "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
@@ -3807,7 +3987,7 @@
                     "subcapability_name": "Samordning",
                     "subcapability_slug": "samordning",
                     "mapping_label": "Strategisk styring: Samordning",
-                    "explanation": "skal bidra til mer felles retning og koordinering i den nasjonale satsingen på kunstig intelligens"
+                    "explanation": "Ressursen støtter samordning fordi den inngår i en nasjonal satsing der det er behov for mer felles retning og koordinering på tvers av virksomheter."
                 }
             ]
         },
@@ -3827,7 +4007,7 @@
                     "subcapability_name": "Autentisering",
                     "subcapability_slug": "autentisering",
                     "mapping_label": "Tillit: Autentisering",
-                    "explanation": "gir et felles testmiljø for å prøve ut innlogging og identitetsbekreftelse med digital lommebok"
+                    "explanation": "Sandkassen brukes til å prøve ut innlogging og identitetsbekreftelse med digital lommebok."
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
@@ -3837,7 +4017,7 @@
                     "subcapability_name": "Signering",
                     "subcapability_slug": "signering",
                     "mapping_label": "Tillit: Signering",
-                    "explanation": "brukes til å utforske og teste signering og andre lommebokbaserte tillitsmønstre"
+                    "explanation": "Ressursen er relevant for utprøving av signeringsbruk knyttet til digital lommebok."
                 },
                 {
                     "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
@@ -3847,7 +4027,7 @@
                     "subcapability_name": "Utviklings- og kjøretidsmiljø",
                     "subcapability_slug": "utviklings-og-kjoretidsmiljo",
                     "mapping_label": "Tjenesteutvikling: Utviklings- og kjøretidsmiljø",
-                    "explanation": "tilbyr et isolert og trygt nasjonalt testmiljø for utprøving før bredere innføring"
+                    "explanation": "Sandkassen tilbyr et felles testmiljø som gjør det mulig å bygge erfaring og gjennomføre teknisk utprøving."
                 },
                 {
                     "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
@@ -3857,7 +4037,7 @@
                     "subcapability_name": "Integrerbare tjenester",
                     "subcapability_slug": "integrerbare-tjenester",
                     "mapping_label": "Tjenesteutvikling: Integrerbare tjenester",
-                    "explanation": "har et konkret ta-i-bruk-løp for brukersteder og andre aktører som skal koble seg til sandkassen"
+                    "explanation": "Ressursen er laget for at brukersteder og andre aktører skal kunne integrere og teste sine løsninger mot felles oppsett."
                 }
             ]
         },
@@ -3877,7 +4057,7 @@
                     "subcapability_name": "Oversikt over tjenester",
                     "subcapability_slug": "oversikt-over-tjenester",
                     "mapping_label": "Informasjonsforvaltning: Oversikt over tjenester",
-                    "explanation": "samler oversikt over Digdirs fellesløsninger, prosjekter og videre innganger til dokumentasjon og bruk"
+                    "explanation": "Portalen gir en samlet oversikt over Digdirs fellesløsninger, prosjekter og tilknyttede innholdstyper."
                 },
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
@@ -3887,7 +4067,7 @@
                     "subcapability_name": "Tjenesteforvaltning",
                     "subcapability_slug": "tjenesteforvaltning",
                     "mapping_label": "Samarbeid: Tjenesteforvaltning",
-                    "explanation": "støtter løpende forvaltning ved å samle status, statistikk, driftsmeldinger og ta-i-bruk-informasjon"
+                    "explanation": "Ressursen støtter forvaltning ved å samle praktisk informasjon og oppfølging knyttet til bruk av fellesløsningene."
                 },
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
@@ -3897,7 +4077,7 @@
                     "subcapability_name": "Samarbeidsarenaer og nettverk",
                     "subcapability_slug": "samarbeidsarenaer-og-nettverk",
                     "mapping_label": "Samarbeid: Samarbeidsarenaer og nettverk",
-                    "explanation": "knytter sammen informasjon, prosjekter og kontaktflater rundt Digdirs fellesløsninger og samarbeidsløp"
+                    "explanation": "Portalen fungerer også som felles kontakt- og informasjonsflate rundt samarbeidsarenaer, prosjekter og deltakelse."
                 }
             ]
         },
@@ -3917,7 +4097,7 @@
                     "subcapability_name": "Grunndata",
                     "subcapability_slug": "grunndata",
                     "mapping_label": "Datakilder: Grunndata",
-                    "explanation": "Foreløpig automatisk opprettet kobling for SYSVAK basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "SYSVAK fungerer som nasjonal grunndatakilde for vaksinasjonsopplysninger og gir et felles, autoritativt datagrunnlag."
                 },
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
@@ -3927,7 +4107,7 @@
                     "subcapability_name": "Dele data med andre",
                     "subcapability_slug": "dele-data-med-andre",
                     "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "Foreløpig automatisk opprettet kobling for SYSVAK basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Registeret muliggjør deling og bruk av vaksinasjonsdata i relevante tjenester og arbeidsprosesser på tvers av virksomheter."
                 },
                 {
                     "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
@@ -3937,7 +4117,7 @@
                     "subcapability_name": "Sammenhengende tjenester",
                     "subcapability_slug": "sammenhengende-tjenester",
                     "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-                    "explanation": "Foreløpig automatisk opprettet kobling for SYSVAK basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "SYSVAK-data inngår i sammenhengende tjenesteforløp der innbygger og helsepersonell møter samme oppdaterte vaksinasjonsgrunnlag."
                 }
             ]
         },
@@ -3957,7 +4137,7 @@
                     "subcapability_name": "Grunndata",
                     "subcapability_slug": "grunndata",
                     "mapping_label": "Datakilder: Grunndata",
-                    "explanation": "Foreløpig automatisk opprettet kobling for MSIS basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "MSIS forvalter sentrale nasjonale data om meldingspliktige smittsomme sykdommer."
                 },
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
@@ -3967,7 +4147,7 @@
                     "subcapability_name": "Dele data med andre",
                     "subcapability_slug": "dele-data-med-andre",
                     "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "Foreløpig automatisk opprettet kobling for MSIS basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Registergrunnlaget muliggjør deling og koordinert bruk av sykdomsdata i relevante analyser og oppfølgingsløp."
                 },
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
@@ -3977,7 +4157,7 @@
                     "subcapability_name": "Organisatorisk samhandling",
                     "subcapability_slug": "organisatorisk-samhandling",
                     "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "Foreløpig automatisk opprettet kobling for MSIS basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "MSIS understøtter koordinering mellom helsemyndigheter, smittevernmiljø og tjenesteaktører i beredskapsarbeid."
                 }
             ]
         },
@@ -3997,7 +4177,7 @@
                     "subcapability_name": "Grunndata",
                     "subcapability_slug": "grunndata",
                     "mapping_label": "Datakilder: Grunndata",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Dødsårsaksregisteret basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Registeret er nasjonal autoritativ kilde for opplysninger om dødsfall og dødsårsaker, og gir et konsistent grunnlag for videre bruk på tvers av virksomheter."
                 },
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
@@ -4007,7 +4187,7 @@
                     "subcapability_name": "Dele data med andre",
                     "subcapability_slug": "dele-data-med-andre",
                     "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Dødsårsaksregisteret basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Data fra registeret gjøres tilgjengelig for analyse og statistikk gjennom etablerte helsedatakanaler og etter søknad om datatilgang."
                 },
                 {
                     "capability_id": "id-896e4c1434604caa891b94bcce964720",
@@ -4017,7 +4197,7 @@
                     "subcapability_name": "Datastyring",
                     "subcapability_slug": "datastyring",
                     "mapping_label": "Informasjonsforvaltning: Datastyring",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Dødsårsaksregisteret basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Registeret understøtter nasjonal styring av et kritisk folkehelsedomene ved å tilby standardiserte, dokumenterte og kvalitetssikrede data."
                 }
             ]
         },
@@ -4037,7 +4217,7 @@
                     "subcapability_name": "Grunndata",
                     "subcapability_slug": "grunndata",
                     "mapping_label": "Datakilder: Grunndata",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Reseptregisteret (NorPD) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Registeret er nasjonal autoritativ kilde for data om reseptutskriving og legemiddelutlevering, og gir et konsistent grunnlag for tverrsektoriell bruk."
                 },
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
@@ -4047,7 +4227,7 @@
                     "subcapability_name": "Dele data med andre",
                     "subcapability_slug": "dele-data-med-andre",
                     "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Reseptregisteret (NorPD) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Data fra registeret gjøres tilgjengelig for forskning og analyse gjennom etablerte tilgangskanaler, etter søknad og godkjenning."
                 },
                 {
                     "capability_id": "id-896e4c1434604caa891b94bcce964720",
@@ -4057,7 +4237,7 @@
                     "subcapability_name": "Datastyring",
                     "subcapability_slug": "datastyring",
                     "mapping_label": "Informasjonsforvaltning: Datastyring",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Reseptregisteret (NorPD) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Registeret understøtter nasjonal styring av legemiddeldomenet ved å tilby standardiserte, dokumenterte og kvalitetssikrede data."
                 }
             ]
         },
@@ -4152,76 +4332,6 @@
             ]
         },
         {
-            "product_id": 93,
-            "product_name": "Fiks Digisos",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/93-Fiks-Digisos-produkt-canvas-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/93-Fiks-Digisos-produkt-canvas-v1-codex.md",
-            "capabilities": [
-                {
-                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
-                    "capability_name": "Samarbeid",
-                    "capability_slug": "samarbeid",
-                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
-                    "subcapability_name": "Organisatorisk samhandling",
-                    "subcapability_slug": "organisatorisk-samhandling",
-                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "Fiks Digisos kobler NAV, kommuner og kommunale fagsystem i et felles samhandlingslop for sosialhjelp."
-                },
-                {
-                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
-                    "capability_name": "Sluttbrukertjenester",
-                    "capability_slug": "sluttbrukertjenester",
-                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
-                    "subcapability_name": "Sammenhengende tjenester",
-                    "subcapability_slug": "sammenhengende-tjenester",
-                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-                    "explanation": "Soker kan sende soknad, ettersende dokumentasjon og folge saken i en sammenhengende digital brukerreise."
-                },
-                {
-                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-                    "capability_name": "Datautveksling og integrasjon",
-                    "capability_slug": "datautveksling-og-integrasjon",
-                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
-                    "subcapability_name": "Dele data med andre",
-                    "subcapability_slug": "dele-data-med-andre",
-                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "Tjenesten deler og overforer soknads- og saksdata kontrollert mellom NAV, Fiks og kommunale fagsystemer."
-                }
-            ]
-        },
-        {
-            "product_id": 97,
-            "product_name": "MinKommune",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/97-MinKommune-produkt-canvas-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/97-MinKommune-produkt-canvas-v1-codex.md",
-            "capabilities": [
-                {
-                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
-                    "capability_name": "Sluttbrukertjenester",
-                    "capability_slug": "sluttbrukertjenester",
-                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
-                    "subcapability_name": "Sammenhengende tjenester",
-                    "subcapability_slug": "sammenhengende-tjenester",
-                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-                    "explanation": "MinKommune samler post, faktura, eiendom, byggesaker og oppgaver i en felles innbyggerflate."
-                },
-                {
-                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
-                    "capability_name": "Sluttbrukertjenester",
-                    "capability_slug": "sluttbrukertjenester",
-                    "subcapability_id": "id-825b1ea1217b4eedb6caae165aeb8e41",
-                    "subcapability_name": "Tjenestekjeder",
-                    "subcapability_slug": "tjenestekjeder",
-                    "mapping_label": "Sluttbrukertjenester: Tjenestekjeder",
-                    "explanation": "Portalen binder sammen flere kommunale og nasjonale kontaktpunkter i samme tjenestekjede for innbygger."
-                }
-            ]
-        },
-        {
             "product_id": 135,
             "product_name": "Norsk pasientregister (NPR)",
             "version": 1,
@@ -4258,6 +4368,46 @@
                     "subcapability_slug": "datastyring",
                     "mapping_label": "Informasjonsforvaltning: Datastyring",
                     "explanation": "NPR understotter nasjonal styring og finansiering av spesialisthelsetjenesten med systematisk aktivitetsdata."
+                }
+            ]
+        },
+        {
+            "product_id": 135,
+            "product_name": "Norsk pasientregister (NPR)",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "NPR er den autoritative nasjonale datakilden for opplysninger om aktivitet og pasienter i spesialisthelsetjenesten."
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Registeret gjør opplysninger tilgjengelige for forskning, analyse og styring gjennom kontrollerte tilgangskanaler."
+                },
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-5852d070415849fab42749cb488d984a",
+                    "subcapability_name": "Datastyring",
+                    "subcapability_slug": "datastyring",
+                    "mapping_label": "Informasjonsforvaltning: Datastyring",
+                    "explanation": "NPR understøtter nasjonal styring og finansiering av spesialisthelsetjenesten gjennom systematisk innsamling og forvaltning av aktivitetsdata."
                 }
             ]
         },
@@ -4302,46 +4452,6 @@
             ]
         },
         {
-            "product_id": 135,
-            "product_name": "Norsk pasientregister (NPR)",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v1-codex.md",
-            "capabilities": [
-                {
-                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
-                    "capability_name": "Datakilder",
-                    "capability_slug": "datakilder",
-                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
-                    "subcapability_name": "Grunndata",
-                    "subcapability_slug": "grunndata",
-                    "mapping_label": "Datakilder: Grunndata",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Norsk pasientregister (NPR) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
-                },
-                {
-                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-                    "capability_name": "Datautveksling og integrasjon",
-                    "capability_slug": "datautveksling-og-integrasjon",
-                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
-                    "subcapability_name": "Dele data med andre",
-                    "subcapability_slug": "dele-data-med-andre",
-                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Norsk pasientregister (NPR) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
-                },
-                {
-                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
-                    "capability_name": "Informasjonsforvaltning",
-                    "capability_slug": "informasjonsforvaltning",
-                    "subcapability_id": "id-5852d070415849fab42749cb488d984a",
-                    "subcapability_name": "Datastyring",
-                    "subcapability_slug": "datastyring",
-                    "mapping_label": "Informasjonsforvaltning: Datastyring",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Norsk pasientregister (NPR) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
-                }
-            ]
-        },
-        {
             "product_id": 136,
             "product_name": "Kommunalt pasient- og brukerregister (KPR)",
             "version": 1,
@@ -4357,7 +4467,7 @@
                     "subcapability_name": "Grunndata",
                     "subcapability_slug": "grunndata",
                     "mapping_label": "Datakilder: Grunndata",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Kommunalt pasient- og brukerregister (KPR) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "KPR er den autoritative nasjonale datakilden for aktivitet og tjenestebruk i kommunale helse- og omsorgstjenester."
                 },
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
@@ -4367,7 +4477,7 @@
                     "subcapability_name": "Dele data med andre",
                     "subcapability_slug": "dele-data-med-andre",
                     "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Kommunalt pasient- og brukerregister (KPR) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Registeret gjør opplysninger tilgjengelige for forskning, analyse og styring gjennom kontrollerte tilgangskanaler."
                 },
                 {
                     "capability_id": "id-896e4c1434604caa891b94bcce964720",
@@ -4377,7 +4487,7 @@
                     "subcapability_name": "Datastyring",
                     "subcapability_slug": "datastyring",
                     "mapping_label": "Informasjonsforvaltning: Datastyring",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Kommunalt pasient- og brukerregister (KPR) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "KPR understøtter nasjonal styring og finansiering av kommunale helse- og omsorgstjenester gjennom systematisk dataforvaltning."
                 }
             ]
         }

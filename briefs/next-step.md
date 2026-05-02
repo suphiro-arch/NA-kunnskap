@@ -9,6 +9,12 @@ topic: neste-steg
 
 ## Nytt siste steg
 
+- Opprettet [96-KS-Bekymringsmelding-produkt-canvas-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/operative-losninger-og-tjenester/96-KS-Bekymringsmelding-produkt-canvas-v1-codex.md) som ny operativ ressursbeskrivelse for `KS-015`.
+- Opprettet [80-VIGO-portalen-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/operative-losninger-og-tjenester/80-VIGO-portalen-v1-codex.md) som ny operativ ressursbeskrivelse for `NOVARI-005`.
+- Opprettet [81-VIGO-Sentralbase-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/operative-losninger-og-tjenester/81-VIGO-Sentralbase-v1-codex.md) som ny operativ ressursbeskrivelse for `NOVARI-006`.
+- Oppdatert [produktnummerering.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/produktnummerering.md) med dokumentlenker for `KS-015`, `NOVARI-005` og `NOVARI-006`.
+- Synkronisert [produkt-kapabilitet-koblinger.yaml](/c:/Users/HILROS/NA-kunnskap/arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml) med `sync-resource-metadata.py`, inkludert nye oppføringer for produkt-id `96`, `80` og `81`.
+
 - Opprettet [93-Fiks-Digisos-produkt-canvas-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/operative-losninger-og-tjenester/93-Fiks-Digisos-produkt-canvas-v1-codex.md) som ny operativ ressursbeskrivelse for `KS-012`.
 - Opprettet [97-MinKommune-produkt-canvas-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/operative-losninger-og-tjenester/97-MinKommune-produkt-canvas-v1-codex.md) som ny operativ ressursbeskrivelse for `KS-016`.
 - Oppdatert [produktnummerering.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/produktnummerering.md) med dokumentlenker for `KS-012` og `KS-016`.
@@ -46,14 +52,19 @@ topic: neste-steg
 - `Fiks Digisos` (`KS-012`) ✓
 - Koblinger i `produkt-kapabilitet-koblinger.yaml` oppdatert for `KS-012`, `KS-016`, `FHI-005` og `FHI-006` ✓
 
-**Neste steg – foreslatte kandidater (pulje 4):**
-- `KS-015` Bekymringsmelding (kan ha tversgaende verdi mellom kommune, skole/barnehage og barnevern).
-- `NOVARI-005` VIGO-portalen og `NOVARI-006` VIGO Sentralbase (mulig verdi pa tvers av fylkeskommuner og statlig samhandling i utdanningslop).
-- Alternativt: ta en samlet avklaring pa EU-byggeklossene (`EU-001` til `EU-011`) om de skal inn som egne produktfiler eller holdes som referanseressurser.
+**Fjerde pulje – gjennomfort (2026-05-03):**
+- `KS-015` Bekymringsmelding ✓
+- `NOVARI-005` VIGO-portalen ✓
+- `NOVARI-006` VIGO Sentralbase ✓
+- Register og kapabilitetskoblinger oppdatert for alle tre ✓
+
+**Neste steg – foreslatte kandidater (pulje 5):**
+- Ta samlet avklaring pa EU-byggeklossene (`EU-001` til `EU-011`) om de skal inn som egne produktfiler eller holdes som referanseressurser.
+- Vurdere `KS-011`, `KS-013` og `KS-014` pa nytt med samme kriterier for tversgaende NA-verdi som i pulje 3 og 4.
 
 **Utsatt – lav NA-prioritet akkurat nå:**
 - `Kreftregisteret` – primærverdi er klinisk forskning; holdes utenfor uten tydeligere casebehov.
-- `KS-011`, `KS-013`, `KS-014`, `KS-015` – sektorinterne eller innføringsveiledere uten tydelig tversgående verdi.
+- `KS-011`, `KS-013`, `KS-014` – sektorinterne eller innføringsveiledere uten tydelig tversgående verdi.
 
 ---
 

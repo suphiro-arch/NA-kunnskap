@@ -141,7 +141,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | 93 | `KS-012` | Fiks Digisos | Tjeneste for digital sosialhjelp | Organisatorisk samhandling<br>Sammenhengende tjenester<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/93-Fiks-Digisos-produkt-canvas-v1-codex.md) |
 | 94 | `KS-013` | Fiks Protokoll | Saks- og motestotte for politiske organer | Organisatorisk samhandling<br>Datastyring | - |
 | 95 | `KS-014` | Fiks Vaksine | Kommunal vaksineforvaltning | Sammenhengende tjenester<br>Dele data med andre | - |
-| 96 | `KS-015` | KS Bekymringsmelding | Digital meldingstjeneste for bekymringsmeldinger | Meldingsformidling<br>Organisatorisk samhandling<br>Sammenhengende tjenester | - |
+| 96 | `KS-015` | KS Bekymringsmelding | Digital meldingstjeneste for bekymringsmeldinger | Meldingsformidling<br>Organisatorisk samhandling<br>Sammenhengende tjenester | [96-KS-Bekymringsmelding-produkt-canvas-v1-codex.md](operative-losninger-og-tjenester/96-KS-Bekymringsmelding-produkt-canvas-v1-codex.md) |
 | 97 | `KS-016` | MinKommune | Innbyggerportal for kommunale tjenester | Sammenhengende tjenester<br>Tjenestekjeder | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/97-MinKommune-produkt-canvas-v1-codex.md) |
 
 
@@ -264,8 +264,8 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | 71 | `NOVARI-002` | FINT Arkiv | Arkiv- og integrasjonstjeneste | Dele data med andre<br>Bruke data fra andre<br>Informasjonsarkitektur<br>Integrerbare tjenester<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/71-FINT-Arkiv-v1-codex.md) |
 | 72 | `NOVARI-003` | FINT Informasjonsmodell | Informasjonsmodell | Informasjonsarkitektur<br>Oversikt over informasjonsmodeller<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/normerende-ressurser/72-FINT-Informasjonsmodell-v1-codex.md) |
 | 73 | `NOVARI-004` | VIGO | Felles løsning for inntak og administrasjon i videregående opplæring | Organisatorisk samhandling<br>Sammenhengende tjenester<br>Dele data med andre<br>Datastyring<br>Oversikt over tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v1-codex.md) |
-| 80 | `NOVARI-005` | VIGO-portalen | Brukerflate for VIGO-tjenester | Sammenhengende tjenester<br>Tjenestekjeder | - |
-| 81 | `NOVARI-006` | VIGO Sentralbase | Felles datagrunnlag for VIGO | Grunndata<br>Datastyring<br>Dele data med andre | - |
+| 80 | `NOVARI-005` | VIGO-portalen | Brukerflate for VIGO-tjenester | Sammenhengende tjenester<br>Tjenestekjeder | [80-VIGO-portalen-v1-codex.md](operative-losninger-og-tjenester/80-VIGO-portalen-v1-codex.md) |
+| 81 | `NOVARI-006` | VIGO Sentralbase | Felles datagrunnlag for VIGO | Grunndata<br>Datastyring<br>Dele data med andre | [81-VIGO-Sentralbase-v1-codex.md](operative-losninger-og-tjenester/81-VIGO-Sentralbase-v1-codex.md) |
 | 82 | `NOVARI-007` | VIGO Kodeverk og kodeverksbase | Kodeverk | Informasjonsarkitektur<br>Forvaltningsstandarder | - |
 | 83 | `NOVARI-008` | Arkivintegrasjoner | Integrasjonstjeneste for arkivflyt | Dele data med andre<br>Bruke data fra andre<br>Organisatorisk samhandling | - |
 | 84 | `NOVARI-009` | vigo.no | Soknads- og informasjonstjeneste for videregaende opplaering | Sammenhengende tjenester<br>Tjenestekjeder | - |
