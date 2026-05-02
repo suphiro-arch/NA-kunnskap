@@ -3264,10 +3264,10 @@
         {
             "product_id": 103,
             "product_name": "Nasjonalt veikart",
-            "version": 0,
+            "version": 1,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/103-Nasjonalt-veikart-v0-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/103-Nasjonalt-veikart-v0-codex.md",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/103-Nasjonalt-veikart-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/103-Nasjonalt-veikart-v1-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
@@ -3324,10 +3324,10 @@
         {
             "product_id": 105,
             "product_name": "Rammeverk - nasjonale grunndata",
-            "version": 0,
+            "version": 1,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/105-Rammeverk-nasjonale-grunndata-v0-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/105-Rammeverk-nasjonale-grunndata-v0-codex.md",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/105-Rammeverk-nasjonale-grunndata-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/105-Rammeverk-nasjonale-grunndata-v1-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
@@ -3354,10 +3354,10 @@
         {
             "product_id": 106,
             "product_name": "Nasjonal verktøykasse for deling av data",
-            "version": 0,
+            "version": 1,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v0-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v0-codex.md",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v1-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",

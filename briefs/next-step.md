@@ -9,6 +9,10 @@ topic: neste-steg
 
 ## Nytt siste steg
 
+- Opprettet [103-Nasjonalt-veikart-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/normerende-ressurser/103-Nasjonalt-veikart-v1-codex.md), [105-Rammeverk-nasjonale-grunndata-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/normerende-ressurser/105-Rammeverk-nasjonale-grunndata-v1-codex.md) og [106-Nasjonal-verktoykasse-for-deling-av-data-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v1-codex.md) som oppgraderinger fra v0 til v1.
+- Oppdatert [produktnummerering.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/produktnummerering.md) slik at `DIGDIR-035`, `DIGDIR-037` og `DIGDIR-038` peker til v1-filer.
+- Synkronisert [produkt-kapabilitet-koblinger.yaml](/c:/Users/HILROS/NA-kunnskap/arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml) med oppdatert versjon/sti for produkt-id `103`, `105` og `106`.
+
 - Opprettet [114-Klart-sprak-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v1-codex.md), [115-Digitaliseringsvennlig-regelverk-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v1-codex.md) og [116-Rammeverk-for-innovasjon-i-offentlig-sektor-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/normerende-ressurser/116-Rammeverk-for-innovasjon-i-offentlig-sektor-v1-codex.md) som oppgraderinger fra v0 til v1.
 - Oppdatert [produktnummerering.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/produktnummerering.md) slik at `DIGDIR-046`, `DIGDIR-047` og `DIGDIR-048` peker til v1-filer.
 - Synkronisert [produkt-kapabilitet-koblinger.yaml](/c:/Users/HILROS/NA-kunnskap/arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml) med oppdatert versjon/sti for produkt-id `114`, `115` og `116`.
@@ -74,7 +78,11 @@ topic: neste-steg
 - Oppgradert `DIGDIR-046`, `DIGDIR-047` og `DIGDIR-048` fra v0 til v1 ✓
 - Register og kapabilitetskoblinger oppdatert for alle tre ✓
 
-**Neste steg – foreslatte kandidater (pulje 7):**
+**Sjuende pulje – gjennomfort (2026-05-03):**
+- Oppgradert `DIGDIR-035`, `DIGDIR-037` og `DIGDIR-038` fra v0 til v1 ✓
+- Register og kapabilitetskoblinger oppdatert for alle tre ✓
+
+**Neste steg – foreslatte kandidater (pulje 8):**
 - Vurdere `KS-011`, `KS-013` og `KS-014` pa nytt med samme kriterier for tversgaende NA-verdi som i pulje 3 og 4.
 - Ta en rask statuskontroll av `NOVARI-007`, `NOVARI-008` og `NOVARI-009` for om en av dem bor prioriteres foran KS-kandidatene i neste bolk.
 
