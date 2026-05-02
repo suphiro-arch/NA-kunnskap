@@ -15,7 +15,6 @@ Denne mappa samler styringsgrunnlag, registerføring og ressursbeskrivelser for 
 |---|---|
 | `produktnummerering.md` | **Master for ressurs-ID-er og dokumentkoblinger** — hver ressurs får ett register-entry her |
 | `styringsregler.md` | Definisjoner, opptakskriterier og klassifiseringsregler |
-| `ressursregister.md` | Midlertidig arbeidsnotat fra overgangsfase (ikke i bruk nå) |
 | `operative-losninger-og-tjenester/` | Operative løsninger, tjenester, plattformer, registre i bruk |
 | `normerende-ressurser/` | Standarder, veiledere, referansearkitektur, modeller som gir føringer |
 | `samarbeidsfora/` | Fora, råd, nettverk, samordningsarenaer |
@@ -82,6 +81,8 @@ Last systemprompten i din AI-assistent **før** du begynner på innholdet, slik 
 ---
 
 ### Opprett ny versjon av eksisterende ressurs
+
+En oppdatering av en ressursbeskrivelse er ikke ferdig før også `produktnummerering.md` og relevant kapabilitetsmapping er oppdatert.
 
 1. **Kopier den gamle filen** og gi den nytt versjonsnummer:
    ```
