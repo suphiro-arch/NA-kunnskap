@@ -9,6 +9,9 @@ topic: neste-steg
 
 ## Nytt siste steg
 
+- Avklart pulje 5 for EU-sporet: `EU-001` til `EU-011` beholdes i registeret som referanseressurser uten egne produktfiler i denne runden.
+- Oppdatert [decisions.md](/c:/Users/HILROS/NA-kunnskap/briefs/decisions.md) med varig beslutning om EU-avgrensning og prioritering.
+
 - Opprettet [96-KS-Bekymringsmelding-produkt-canvas-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/operative-losninger-og-tjenester/96-KS-Bekymringsmelding-produkt-canvas-v1-codex.md) som ny operativ ressursbeskrivelse for `KS-015`.
 - Opprettet [80-VIGO-portalen-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/operative-losninger-og-tjenester/80-VIGO-portalen-v1-codex.md) som ny operativ ressursbeskrivelse for `NOVARI-005`.
 - Opprettet [81-VIGO-Sentralbase-v1-codex.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/operative-losninger-og-tjenester/81-VIGO-Sentralbase-v1-codex.md) som ny operativ ressursbeskrivelse for `NOVARI-006`.
@@ -58,9 +61,13 @@ topic: neste-steg
 - `NOVARI-006` VIGO Sentralbase ✓
 - Register og kapabilitetskoblinger oppdatert for alle tre ✓
 
-**Neste steg – foreslatte kandidater (pulje 5):**
-- Ta samlet avklaring pa EU-byggeklossene (`EU-001` til `EU-011`) om de skal inn som egne produktfiler eller holdes som referanseressurser.
+**Femte pulje – gjennomfort (2026-05-03):**
+- EU-avklaring fullfort: `EU-001` til `EU-011` holdes som referanseressurser i registeret ✓
+- Beslutning forankret i `briefs/decisions.md` ✓
+
+**Neste steg – foreslatte kandidater (pulje 6):**
 - Vurdere `KS-011`, `KS-013` og `KS-014` pa nytt med samme kriterier for tversgaende NA-verdi som i pulje 3 og 4.
+- Ta en rask statuskontroll av `NOVARI-007`, `NOVARI-008` og `NOVARI-009` for om en av dem bor prioriteres foran KS-kandidatene i neste bolk.
 
 **Utsatt – lav NA-prioritet akkurat nå:**
 - `Kreftregisteret` – primærverdi er klinisk forskning; holdes utenfor uten tydeligere casebehov.
@@ -73,7 +80,6 @@ topic: neste-steg
 **Kjerneprioriteter:**
 
 - Fortsette revisjon av eldre produktbeskrivelser sektorvis etter samme metode som for KS- og Altinn-rundene.
-- Ta stilling til om EU-kandidatene skal behandles som egne produktfiler eller fortsatt som referanseressurser.
 - Følge opp kvaliteten i koblingene mellom produkter og kapabiliteter, særlig i eldre produktbeskrivelser der kapabilitetsseksjonen er svakere.
 - Vurdere om de normerende Digdir-ressursene som fortsatt er på `v0` bør få utfylt analysefeltene (`Forpliktelsesnivå og etterlevelse`, `Typiske analyse- og beslutningssituasjoner`, `Konsekvens ved manglende bruk`) før neste større bolk legges inn.
 - Vurdere om FHI-sektoren skal utvides med flere kandidater, f.eks. Norsk pasientregister (NPR) eller Kreftregisteret.
