@@ -3604,10 +3604,10 @@
         {
             "product_id": 114,
             "product_name": "Klart språk",
-            "version": 0,
+            "version": 1,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v0-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v0-codex.md",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v1-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
@@ -3634,10 +3634,10 @@
         {
             "product_id": 115,
             "product_name": "Digitaliseringsvennlig regelverk",
-            "version": 0,
+            "version": 1,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v0-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v0-codex.md",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v1-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-fda201f20edd40c6aef8712b1c22b0a5",
@@ -3664,10 +3664,10 @@
         {
             "product_id": 116,
             "product_name": "Rammeverk for innovasjon i offentlig sektor",
-            "version": 0,
+            "version": 1,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/116-Rammeverk-for-innovasjon-i-offentlig-sektor-v0-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/116-Rammeverk-for-innovasjon-i-offentlig-sektor-v0-codex.md",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/116-Rammeverk-for-innovasjon-i-offentlig-sektor-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/116-Rammeverk-for-innovasjon-i-offentlig-sektor-v1-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
