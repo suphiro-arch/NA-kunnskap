@@ -18,13 +18,13 @@ Repo for arbeid med nasjonal arkitektur, produktbeskrivelser, kapabiliteter, pri
 - `web/hugo-prototype/`: Hugo-kildekode for dokumentasjonsprototypen
 
 ## Styrende filer
-- [AGENTS.md](/c:/Users/HILROS/NA-kunnskap/AGENTS.md): generelle repo-regler for assistenter
-- [styringsregler.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/styringsregler.md): avgjør hvilken ressurstype en kandidat tilhører (operativ, normerende eller samarbeidsforum) – les denne først
-- [operative-ressurs-canvas.system.md](/c:/Users/HILROS/NA-kunnskap/config/prompts/operative-ressurs-canvas.system.md): metode for operative ressursbeskrivelser og forbedringsarbeid
-- [normerende-ressurs-canvas.system.md](/c:/Users/HILROS/NA-kunnskap/config/prompts/normerende-ressurs-canvas.system.md): metode for normerende ressursbeskrivelser (standarder, veiledere, rammeverk)
-- [samarbeidsforum-canvas.system.md](/c:/Users/HILROS/NA-kunnskap/config/prompts/samarbeidsforum-canvas.system.md): metode for beskrivelser av samarbeidsfora og koordineringsarenaer
-- [briefs/README.md](/c:/Users/HILROS/NA-kunnskap/briefs/README.md): hvordan `briefs/` brukes til arbeidsstyring og handover
-- [struktur-og-bearbeiding.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/struktur-og-bearbeiding.md): hvordan råkilder, kuraterte arbeidsfiler og videre bruk henger sammen i repoet
+- [AGENTS.md](AGENTS.md): generelle repo-regler for assistenter
+- [styringsregler.md](arkitektur/ressurser/styringsregler.md): avgjør hvilken ressurstype en kandidat tilhører (operativ, normerende eller samarbeidsforum) – les denne først
+- [operative-ressurs-canvas.system.md](config/prompts/operative-ressurs-canvas.system.md): metode for operative ressursbeskrivelser og forbedringsarbeid
+- [normerende-ressurs-canvas.system.md](config/prompts/normerende-ressurs-canvas.system.md): metode for normerende ressursbeskrivelser (standarder, veiledere, rammeverk)
+- [samarbeidsforum-canvas.system.md](config/prompts/samarbeidsforum-canvas.system.md): metode for beskrivelser av samarbeidsfora og koordineringsarenaer
+- [briefs/README.md](briefs/README.md): hvordan `briefs/` brukes til arbeidsstyring og handover
+- [struktur-og-bearbeiding.md](arkitektur/struktur-og-bearbeiding.md): hvordan råkilder, kuraterte arbeidsfiler og videre bruk henger sammen i repoet
 
 ## Arbeidsflyt
 
