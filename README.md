@@ -19,6 +19,7 @@ Repo for arbeid med nasjonal arkitektur, produktbeskrivelser, kapabiliteter, pri
 
 ## Styrende filer
 - [AGENTS.md](/c:/Users/HILROS/NA-kunnskap/AGENTS.md): generelle repo-regler for assistenter
+- [styringsregler.md](/c:/Users/HILROS/NA-kunnskap/arkitektur/ressurser/styringsregler.md): avgjør hvilken ressurstype en kandidat tilhører (operativ, normerende eller samarbeidsforum) – les denne først
 - [operative-ressurs-canvas.system.md](/c:/Users/HILROS/NA-kunnskap/config/prompts/operative-ressurs-canvas.system.md): metode for operative ressursbeskrivelser og forbedringsarbeid
 - [normerende-ressurs-canvas.system.md](/c:/Users/HILROS/NA-kunnskap/config/prompts/normerende-ressurs-canvas.system.md): metode for normerende ressursbeskrivelser (standarder, veiledere, rammeverk)
 - [samarbeidsforum-canvas.system.md](/c:/Users/HILROS/NA-kunnskap/config/prompts/samarbeidsforum-canvas.system.md): metode for beskrivelser av samarbeidsfora og koordineringsarenaer
@@ -29,7 +30,7 @@ Repo for arbeid med nasjonal arkitektur, produktbeskrivelser, kapabiliteter, pri
 
 ### Ressursbeskrivelser
 1. Samle og verifiser kilder i `sources/` og offisielle dokumentasjonskilder.
-2. Last riktig systempromt (operativ, normerende eller samarbeidsforum) og lag eller oppdater ressursbeskrivelsen.
+2. Bruk `arkitektur/ressurser/styringsregler.md` til å avgjøre ressurstype, last deretter riktig systempromt (operativ, normerende eller samarbeidsforum) og lag eller oppdater ressursbeskrivelsen.
 3. Oppdater `arkitektur/ressurser/produktnummerering.md` med ny versjonspeker.
 4. Kjør `python tools/sync-resource-metadata.py --apply` og `python tools/check-resource-version-sync.py` for å verifisere register og kapabilitetsmapping.
 5. Logg status i `briefs/next-step.md` og varige valg i `briefs/decisions.md`.
