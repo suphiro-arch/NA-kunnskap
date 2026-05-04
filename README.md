@@ -9,11 +9,11 @@ Repo for arbeid med nasjonal arkitektur, produktbeskrivelser, kapabiliteter, pri
 - bruke AI-assistenter på en sporbar og konsistent måte i analyse- og dokumentasjonsarbeid
 
 ## Viktigste mapper
-- `results/`: leveranser, analyser og annet gjenbrukbart sluttinnhold
+- `analyser/`: kapabilitetsanalyser, case-analyser og gjenbrukbare faglige leveranser
 - `sources/`: kildegrunnlag, lenker og rånotater
 - `briefs/`: arbeidsstyring, handover og beslutningsstøtte
 - `config/`: prompts, maler og annen styrende konfigurasjon
-- `arkitektur/`: strukturerte oversikter, blant annet kapabiliteter, produktregister og produktbeskrivelser
+- `arkitektur/`: strukturerte oversikter, blant annet kapabiliteter, produktregister og ressursbeskrivelser
 - `arkitektur/maal/`: kuratert målspor for arkitekturmodellen
 - `web/hugo-prototype/`: Hugo-kildekode for dokumentasjonsprototypen
 
@@ -26,7 +26,7 @@ Repo for arbeid med nasjonal arkitektur, produktbeskrivelser, kapabiliteter, pri
 ## Arbeidsflyt i korte trekk
 1. Samle og verifiser kilder i `sources/` og offisielle dokumentasjonskilder.
 2. Kurater råmodeller og strukturdata i `arkitektur/`, der `capabilities.yaml` og `principles.md` er arbeidsfilene som brukes videre.
-3. Oppdater eller lag innhold i `results/` etter gjeldende metode og versjonering.
+3. Oppdater eller lag analyser og faglige leveranser i `analyser/` etter gjeldende metode og versjonering.
 4. Oppdater eventuelle genererte oversikter i Hugo-prototypen når innholdet mater nettsiden.
 5. Logg status i `briefs/next-step.md` og varige valg i `briefs/decisions.md`.
 
