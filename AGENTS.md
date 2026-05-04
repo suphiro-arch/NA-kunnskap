@@ -24,8 +24,8 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 ## Produktbeskrivelser
 - Bruk alltid høyeste eksisterende versjonsnummer for et produkt som primært utgangspunkt, uavhengig av om siste versjon er laget av `codex`, `copilot` eller en person.
 - Eldre versjoner skal bare brukes som supplement for historikk, sammenligning eller endringsforståelse.
-- Følg metoden i [config/prompts/operative-ressurs-canvas.system.md](/c:/Users/HILROS/NA-kunnskap/config/prompts/operative-ressurs-canvas.system.md) ved arbeid med operative ressursbeskrivelser.
-- Ved opprettelse av nye operative ressursbeskrivelser skal [config/prompts/operative-ressurs-canvas.system.md](/c:/Users/HILROS/NA-kunnskap/config/prompts/operative-ressurs-canvas.system.md) alltid brukes som styrende instruks.
+- Følg metoden i [config/prompts/operative-ressurs-canvas.system.md](config/prompts/operative-ressurs-canvas.system.md) ved arbeid med operative ressursbeskrivelser.
+- Ved opprettelse av nye operative ressursbeskrivelser skal [config/prompts/operative-ressurs-canvas.system.md](config/prompts/operative-ressurs-canvas.system.md) alltid brukes som styrende instruks.
 - Nye produktfiler skal følge gjeldende versjoneringsregel i promptfila.
 - Når ny versjon av en ressurs opprettes, skal både `arkitektur/ressurser/produktnummerering.md` og `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml` oppdateres hvis de peker til ressursen.
 - Register og kapabilitetsmapping skal peke til siste versjon eksplisitt; ikke stol på at generatorer eller webskript retter dette automatisk.
