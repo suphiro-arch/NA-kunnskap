@@ -47,14 +47,13 @@ Repo for arbeid med nasjonal arkitektur, produktbeskrivelser, kapabiliteter, pri
 
 ## Rådata og bearbeiding
 - `sources/` inneholder råkilder, lenkelister og sammenligningsgrunnlag.
-- `sources/2025-03-18-Nasjonal Arkitektur.xml` er råmodellen for kapabiliteter og prinsipper.
-- `sources/2025-03-18-Nasjonal Arkitektur.xml` er også råkilde for modellens målspor.
+- `sources/2025-03-18-Nasjonal Arkitektur.xml` er råmodellen for kapabiliteter, prinsipper og modellens målspor.
 - `arkitektur/kapabiliteter/capabilities.yaml` er den kuraterte arbeidsfila for kapabilitetsstrukturen.
 - `arkitektur/prinsipper/principles.md` er den kuraterte arbeidsfila for prinsipper og deres kobling til hovedkapabiliteter.
 - `arkitektur/maal/maal.md` er den kuraterte arbeidsfila for mål og overordnet målkobling i modellen.
 - `arkitektur/ressurser/produktnummerering.md` er operativ master for produktregister, ressurs-ID-er og statusoversikt.
 - `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml` er operativ master for koblingen mellom produkter og kapabiliteter.
-- `arkitektur/ressurser/operative-losninger-og-tjenester/` inneholder produktbeskrivelser som bygger på disse arbeidsfilene.
+- `arkitektur/ressurser/` inneholder alle ressursbeskrivelser: operative løsninger og tjenester, normerende ressurser og samarbeidsfora.
 - Hugo-prototypen bruker de kuraterte arbeidsfilene og genererte oversiktene, ikke rå-XML direkte.
 
 ## Webprototype
