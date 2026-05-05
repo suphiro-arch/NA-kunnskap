@@ -317,5 +317,86 @@ def search_ssb_statistics(query: str, limit: int = 5) -> str:
         return f"Feil ved oppslag mot SSB: {e}"
 
 
+# ---------------------------------------------------------------------------
+# Eurostat
+# ---------------------------------------------------------------------------
+
+_EUROSTAT_ALLOWED_DATASETS = frozenset({
+    "isoc_ciegi_ac",  # E-forvaltning: individers bruk av offentlige nettsider
+    "isoc_ciweb",     # Bruk av nettskytjenester, offentlig sektor
+    "desi_4b1",       # DESI – digital offentlig sektor
+})
+
+
+@mcp.tool()
+def get_eurostat_statistics(dataset: str, since_year: int = 2024) -> str:
+    """
+    Hent statistikk fra Eurostat for sammenligning av norsk digital modenhet mot EU27.
+    Filtrerer automatisk på Norge (NO) og EU27 (EU27_2020), enhet: % av individer.
+
+    Tilgjengelige datasett:
+    - isoc_ciegi_ac: E-forvaltning – individers bruk av offentlige nettsider
+    - isoc_ciweb:    Nettskytjenester i offentlig sektor
+    - desi_4b1:      DESI – digital offentlig sektor
+
+    Args:
+        dataset:    Eurostat datasett-kode (se liste over)
+        since_year: Vis data fra og med dette året (standard 2024)
+    """
+    if dataset not in _EUROSTAT_ALLOWED_DATASETS:
+        allowed = ", ".join(sorted(_EUROSTAT_ALLOWED_DATASETS))
+        return f"Ikke tillatt datasett. Tillatte koder: {allowed}"
+    if not isinstance(since_year, int) or since_year < 2000 or since_year > 2035:
+        return "Ugyldig årstall."
+    url = (
+        f"https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/"
+        f"{dataset}?format=JSON&lang=en&sinceTimePeriod={since_year}&unit=PC_IND&ind_type=IND_TOTAL"
+    )
+    try:
+        resp = httpx.get(url, timeout=20)
+        resp.raise_for_status()
+        data = resp.json()
+        dims = data.get("dimension", {})
+        ind_labels = dims.get("indic_is", {}).get("category", {}).get("label", {})
+        ind_idx    = dims.get("indic_is", {}).get("category", {}).get("index", {})
+        geo_idx    = dims.get("geo",      {}).get("category", {}).get("index", {})
+        time_idx   = dims.get("time",     {}).get("category", {}).get("index", {})
+        values     = data.get("value", {})
+        n_ind = len(ind_idx)
+        n_geo = len(geo_idx)
+        n_time = len(time_idx)
+        label = data.get("label", dataset)
+        TARGET = {"NO", "EU27_2020"}
+        time_keys = list(time_idx.keys())
+        header_cols = "  ".join(
+            f"{g.replace('EU27_2020', 'EU27')} {t}" for g in ["NO", "EU27_2020"] for t in time_keys
+        )
+        lines = [
+            f"**{label}** (Eurostat: {dataset}, enhet: % av individer)",
+            f"{'Indikator':<60}  {header_cols}",
+        ]
+        for ind_code, i_ind in ind_idx.items():
+            lbl = ind_labels.get(ind_code, ind_code)[:58]
+            row = {}
+            for geo_code, i_geo in geo_idx.items():
+                if geo_code not in TARGET:
+                    continue
+                for t_code, i_time in time_idx.items():
+                    key = str(i_ind * n_geo * n_time + i_geo * n_time + i_time)
+                    row[f"{geo_code}_{t_code}"] = values.get(key)
+            vals = []
+            for geo in ["NO", "EU27_2020"]:
+                for t in time_keys:
+                    v = row.get(f"{geo}_{t}")
+                    vals.append(f"{v:>7.1f}" if v is not None else "      -")
+            lines.append(f"{lbl:<60}  {'  '.join(vals)}")
+            if len(lines) > 42:  # Begrens output til ~40 indikatorer
+                lines.append(f"... ({len(ind_idx) - 40} flere indikatorer utelatt)")
+                break
+        return "\n".join(lines)
+    except Exception as e:
+        return f"Feil ved oppslag mot Eurostat: {e}"
+
+
 if __name__ == "__main__":
     mcp.run(transport="stdio")

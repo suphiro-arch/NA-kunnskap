@@ -60,6 +60,21 @@ Kilde: [Samarbeidsportalen – Statistikk](https://samarbeid.digdir.no/statistik
 - **eFormidling/eInnsyn:** Bredt tatt i bruk i statlig sektor, men innholdsog kvalitets-aspekter varierer. Se [årsrapport eFormidling 2025](https://samarbeid.digdir.no/eformidling/eformidling-2025/3513) og [eInnsyn 2025](https://samarbeid.digdir.no/einnsyn/einnsyn-2025/3518).
 - **Ansattporten:** Relativt ny, fortsatt i tidlig adopsjonsfase. Se [Ansattporten statistikk](https://samarbeid.digdir.no/ansattporten/statistikk-ansattporten/3430).
 
+### Eurostat: E-forvaltning hos individer, 2024–2025
+Kilde: Eurostat tabell `isoc_ciegi_ac` – individers bruk av offentlige nettsteder/apper, andel av alle individer (16–74 år). Data hentet via Eurostat Statistics API.
+
+| Indikator | NO 2024 | EU27 2024 | NO 2025 | EU27 2025 |
+|---|---|---|---|---|
+| Mottar offisiell kommunikasjon/dokumenter digitalt | **91,4 %** | 36,2 % | **90,3 %** | 36,6 % |
+| Leverer selvangivelse digitalt | **91,7 %** | 37,2 % | **91,6 %** | 38,2 % |
+| Tilgang til personlig informasjon hos offentlig myndighet | **82,9 %** | 40,0 % | **83,8 %** | 41,3 % |
+| Henter informasjon om tjenester, rettigheter, åpningstider | **73,5 %** | 44,1 % | **74,3 %** | 44,2 % |
+| Laster ned/skriver ut skjemaer | 43,5 % | 38,1 % | 45,2 % | 36,8 % |
+| Tilgang til offentlige databaser eller registre | **41,6 %** | 19,9 % | **43,9 %** | 20,7 % |
+| Timebestilling eller reservasjon | 34,7 % | 34,9 % | 39,3 % | 38,1 % |
+
+Tolkning: Norge ligger vesentlig over EU27-snittet på de fleste indikatorer for digital samhandling med offentlig sektor. Sterkest er mottak av offisielle dokumenter og selvangivelse – begge over 90 %, mot EU27 rundt 37 %. Dette indikerer at **Tillit → Autentisering** og **Datautveksling → Meldingsformidling** er modne på innbyggerrettede flater. EU-sammenligningen nyanserer det interne bildet: der SSB viser hindringer på baksiden (integrasjon, finansiering, juridisk), er den synlige sluttbrukeropplevelsen allerede sterk.
+
 ---
 
 ## Vurdering per kapabilitet
@@ -185,6 +200,23 @@ Følgende kapabiliteter vurderes som **lav modenhet** basert på datagrunnlaget:
 
 ---
 
+## EU-sammenligning: Norsk styrke sett utenfra
+
+Eurostat-dataene (2024–2025) gir et komplementært bilde til SSB-hindringene. Der SSB dokumenterer svakheter internt (finansiering, integrasjon, juridisk), viser Eurostat at Norge allerede leverer langt over EU-snittet på de fleste innbyggerrettede e-forvaltningsindikatorer.
+
+| Kapabilitet | Vurdering internt (SSB) | Posisjon mot EU27 (Eurostat) | Tolkning |
+|---|---|---|---|
+| Tillit → Autentisering | 🟢 Høy | +55 pp over EU27 på mottak av offisielle dokumenter | Sterk på begge akser |
+| Datautveksling → Meldingsformidling | 🟢 Høy | +55 pp over EU27 på digital kommunikasjon | Sterk på begge akser |
+| Sluttbrukertjenester → Sammenhengende tjenester | 🔴 Lav | +29 pp over EU27 på informasjonsinnhenting | Svak bakside, men god sluttbrukeropplevelse |
+| Tillit → Representasjon/Samtykke | 🔴 Lav | Ikke direkte målbart i Eurostat | Intern svakhet, usikkert EU-bilde |
+| Strategisk styring → Finansiering | 🔴 Lav | Ikke direkte målbart i Eurostat | Intern systemsvakhet |
+| Datautveksling → Bruke data fra andre | 🔴 Lav | +22 pp over EU27 på registertilgang | Infrastruktur svak, men brukertilgang god |
+
+Dette mønsteret – god sluttbrukerflate, svak bakside – er karakteristisk for norsk digital forvaltning og bør reflekteres i prioritering: tiltak som styrker baksiden (datastyring, integrasjon, juridisk ramme) vil utnytte den gode posisjonen på sluttbrukersiden.
+
+---
+
 ## Begrensninger og forbehold
 
 - SSB-dataene måler **statlige virksomheter**, ikke kommuner eller fylkeskommuner direkte.
@@ -218,3 +250,5 @@ Følgende kapabiliteter vurderes som **lav modenhet** basert på datagrunnlaget:
 | Kapabilitetsmodell NA-kunnskap | /arkitektur/kapabiliteter/capabilities.yaml |
 | SSB API | https://data.ssb.no/api/v0/no/table/ |
 | Felles datakatalog (data.norge.no) | https://data.norge.no/ |
+| Eurostat – E-forvaltning individer (isoc_ciegi_ac) | https://ec.europa.eu/eurostat/databrowser/product/view/ISOC_CIEGI_AC |
+| Eurostat Statistics API | https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ |
