@@ -1,7 +1,7 @@
 # Nasjonale fellestjenester og felleskomponenter
 
 Formål: Samlet lenkeliste over nasjonale fellesløsninger, sektorkilder og relevante standarder og veiledningsressurser.
-Sist redigert: 2026-04-09.
+Sist redigert: 2026-05-05.
 
 ## Fellesløsninger
 
@@ -18,7 +18,11 @@ Sist redigert: 2026-04-09.
 - ID-porten: https://www.digdir.no/id-porten/om-id-porten/1507
 - ID-porten dokumentasjon: https://docs.digdir.no/docs/idporten/
 - ID-porten - tillitstjenester: https://samarbeid.digdir.no/id-porten/tillitstenester/2479
+- ID-porten - statistikk: https://samarbeid.digdir.no/id-porten/statistikk-id-porten/3419 (lagt til 2026-05-05)
+- ID-porten - årsrapport 2025: https://samarbeid.digdir.no/id-porten/id-porten-2025/3524 (lagt til 2026-05-05)
 - Maskinporten: https://www.digdir.no/om-tjenesten/maskinporten/1558
+- Maskinporten - statistikk: https://samarbeid.digdir.no/maskinporten/statistikk-maskinporten/3423 (lagt til 2026-05-05)
+- Maskinporten - årsrapport 2025: https://samarbeid.digdir.no/maskinporten/maskinporten-2025/3526 (lagt til 2026-05-05)
 - eIDAS-node (Norge): https://www.digdir.no/digital-identitet/eidas/ (lagt til 2026-03-19)
 - Digital post (felleskomponent): https://www.digdir.no/felleskomponenter/digital-post/1483
 - Digital postkasse - oversikt: https://samarbeid.digdir.no/digital-postkasse/dette-er-digital-postkasse/105 (lagt til 2026-03-27)
@@ -58,7 +62,12 @@ Sist redigert: 2026-04-09.
 - Ansattporten dokumentasjon: https://docs.digdir.no/docs/ansattporten/ansattporten_wellknown.html (lagt til 2026-04-10)
 - Ansattporten protokoll: https://docs.digdir.no/docs/ansattporten/ansattporten_protocol.html (lagt til 2026-04-10)
 - Digitaliseringsrundskrivet: https://www.regjeringen.no/no/dokumenter/digitaliseringsrundskrivet/id3103320/ (lagt til 2026-04-10)
+- Forskrift om IT-standarder i offentlig forvaltning (Lovdata): https://lovdata.no/forskrift/2013-04-05-959 (lagt til 2026-05-03)
+- Evaluering av forskrift om IT-standarder i offentlig forvaltning: https://www.digdir.no/standarder/evaluering-av-forskrift-om-it-standarder-i-offentlig-forvaltning/3365 (lagt til 2026-05-03)
 - Digdir om prinsipp for digitaliseringstiltak: https://www.digdir.no/krav-og-anbefalinger/folg-prinsipp-digitaliseringstiltak/3101 (lagt til 2026-04-10)
+- Veileder for virksomhetsautentisering: https://www.digdir.no/datadeling/veileder-virksomhetsautentisering/2435 (lagt til 2026-05-03)
+- Juridiske vurderinger relevante for virksomhetsautentisering: https://www.digdir.no/datadeling/juridiske-vurderinger-relevante-virksomhetsautentisering/2488 (lagt til 2026-05-03)
+- Veiledere og hjelpemidler for eID: https://www.digdir.no/digital-identitet/veiledere-og-hjelpemidler/7311 (lagt til 2026-05-05)
 - Prosjektveiviseren: https://prosjektveiviseren.digdir.no/ (lagt til 2026-04-10)
 - Prosjektveiviseren - modellen: https://prosjektveiviseren.digdir.no/dokumentasjon/modellen/148 (lagt til 2026-04-10)
 - Prosjektveiviseren - anskaffelser i Prosjektveiviseren: https://prosjektveiviseren.digdir.no/prosjekttyper/anskaffelser-i-prosjektveiviseren/74 (lagt til 2026-04-10)
@@ -82,6 +91,11 @@ Sist redigert: 2026-04-09.
 - Designsystemet: https://designsystemet.no/ (lagt til 2026-04-10)
 - Designsystemet - React: https://designsystemet.no/no/fundamentals/code/react (lagt til 2026-04-10)
 - Mandat for styringsråd for Digdirs fellesløsninger: https://www.digdir.no/media/1977/download (lagt til 2026-04-10)
+- Statistikk for fellesløsningene (samlet): https://samarbeid.digdir.no/statistikk/statistikk/15 (lagt til 2026-05-05)
+- Årsrapport 2025 for fellesløsningene: https://samarbeid.digdir.no/felleslosninger/arsrapport-2025/3523 (lagt til 2026-05-05)
+- eFormidling - årsrapport 2025: https://samarbeid.digdir.no/eformidling/eformidling-2025/3513 (lagt til 2026-05-05)
+- eInnsyn - årsrapport 2025: https://samarbeid.digdir.no/einnsyn/einnsyn-2025/3518 (lagt til 2026-05-05)
+- Ansattporten - statistikk: https://samarbeid.digdir.no/ansattporten/statistikk-ansattporten/3430 (lagt til 2026-05-05)
 
 ### Brønnøysundregistrene
 - Brønnøysundregistrene: https://www.brreg.no
@@ -288,6 +302,10 @@ Sist redigert: 2026-04-09.
 - Om microdata.no: https://www.microdata.no/om-microdata-no/ (lagt til 2026-03-27)
 - Kontakt microdata.no: https://www.microdata.no/kontakt-oss/ (lagt til 2026-03-27)
 - Priser microdata.no: https://www.microdata.no/priser/ (lagt til 2026-03-27)
+- SSB tabell 10611 – Hindringer for utvikling av digitale tjenester i statlige virksomheter: https://www.ssb.no/statbank/table/10611 (lagt til 2026-05-05)
+- SSB tabell 10609 – Nettskytjenester i statlige virksomheter: https://www.ssb.no/statbank/table/10609 (lagt til 2026-05-05)
+- SSB tabell 12031 – Ivaretakelse av IKT-funksjoner i offentlig sektor: https://www.ssb.no/statbank/table/12031 (lagt til 2026-05-05)
+- SSB API for statistikktabeller: https://data.ssb.no/api/v0/no/table/ (lagt til 2026-05-05)
 
 ### eID tilbydere
 - BankID: https://www.bankid.no
@@ -317,11 +335,12 @@ Sist redigert: 2026-04-09.
 - Referansearkitektur forespørsel-svar (eOppslag): https://www.digdir.no/samhandling/referansearkitekturer/2131 (arbeidsutkast, lagt til 2026-04-09)
 - Arkitektur for hendelser: https://www.digdir.no/samhandling/arkitektur-hendelser/4691
 - Kart for tjenestekjeder: https://www.digdir.no/samhandling/kart-tjenestekjeder/4168
-- Nasjonalt veikart: https://www.digdir.no/samhandling/nasjonal-arkitektur/2150 (arbeidsutkast, lagt til 2026-04-09)
+- Nasjonalt veikart: https://www.digdir.no/digitalisering-og-samordning/nasjonalt-veikart/7022 (oppdatert 2026-05-04)
+- Erfaringene fra de syv prioriterte livshendelsene inngår nå i nasjonalt veikart: https://www.digdir.no/digitalisering-og-samordning/erfaringene-fra-de-syv-prioriterte-livshendelsene-inngar-na-i-nasjonalt-veikart/7937 (lagt til 2026-05-04)
 - Skate: https://www.digdir.no/skate/skate/1259 (lagt til 2026-04-09)
 - Skate-saker: https://www.digdir.no/skate/skate-saker/1269 (lagt til 2026-04-09)
-- Referansekatalogen for IT-standarder: https://www.digdir.no/digitalisering-og-samordning/referansekatalogen-it-standarder/1480
-- Arbeidsmetodikk for referansekatalogen: https://www.digdir.no/digitalisering-og-samordning/arbeidsmetodikk-referansekatalogen/5622
+- Referansekatalogen for IT-standarder: https://www.digdir.no/standarder/referansekatalogen-it-standardar/1480 (oppdatert 2026-05-04)
+- Arbeidsmetodikk for referansekatalogen: https://www.digdir.no/standarder/arbeidsmetodikk-referansekatalogen/5622 (oppdatert 2026-05-04)
 - Arkitektur- og standardiseringsrådet: https://www.digdir.no/digitalisering-og-samordning/arkitektur-og-standardiseringsradet/3918
 
 ### EHF og Peppol
