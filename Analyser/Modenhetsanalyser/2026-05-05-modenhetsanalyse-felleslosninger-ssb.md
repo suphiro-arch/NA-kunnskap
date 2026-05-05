@@ -60,20 +60,26 @@ Kilde: [Samarbeidsportalen – Statistikk](https://samarbeid.digdir.no/statistik
 - **eFormidling/eInnsyn:** Bredt tatt i bruk i statlig sektor, men innholdsog kvalitets-aspekter varierer. Se [årsrapport eFormidling 2025](https://samarbeid.digdir.no/eformidling/eformidling-2025/3513) og [eInnsyn 2025](https://samarbeid.digdir.no/einnsyn/einnsyn-2025/3518).
 - **Ansattporten:** Relativt ny, fortsatt i tidlig adopsjonsfase. Se [Ansattporten statistikk](https://samarbeid.digdir.no/ansattporten/statistikk-ansattporten/3430).
 
-### Eurostat: E-forvaltning hos individer, 2024–2025
-Kilde: Eurostat tabell `isoc_ciegi_ac` – individers bruk av offentlige nettsteder/apper, andel av alle individer (16–74 år). Data hentet via Eurostat Statistics API.
+### Eurostat: E-forvaltning hos individer, 2023–2025
+Kilde: Eurostat tabell `isoc_ciegi_ac` – individers bruk av offentlige nettsteder/apper, andel av alle individer (16–74 år). Data hentet via Eurostat Statistics API (`get_eurostat_statistics`, 2026-05-05).
 
-| Indikator | NO 2024 | EU27 2024 | NO 2025 | EU27 2025 |
-|---|---|---|---|---|
-| Mottar offisiell kommunikasjon/dokumenter digitalt | **91,4 %** | 36,2 % | **90,3 %** | 36,6 % |
-| Leverer selvangivelse digitalt | **91,7 %** | 37,2 % | **91,6 %** | 38,2 % |
-| Tilgang til personlig informasjon hos offentlig myndighet | **82,9 %** | 40,0 % | **83,8 %** | 41,3 % |
-| Henter informasjon om tjenester, rettigheter, åpningstider | **73,5 %** | 44,1 % | **74,3 %** | 44,2 % |
-| Laster ned/skriver ut skjemaer | 43,5 % | 38,1 % | 45,2 % | 36,8 % |
-| Tilgang til offentlige databaser eller registre | **41,6 %** | 19,9 % | **43,9 %** | 20,7 % |
-| Timebestilling eller reservasjon | 34,7 % | 34,9 % | 39,3 % | 38,1 % |
+| Indikator | NO 2023 | EU27 2023 | NO 2024 | EU27 2024 | NO 2025 | EU27 2025 |
+|---|---|---|---|---|---|---|
+| Bruker offentlige nettsider/apper (ett eller flere formål) | **97,7 %** | 69,3 % | **98,5 %** | 70,0 % | **97,8 %** | 71,9 % |
+| Generell samhandling med offentlige myndigheter | **91,7 %** | 54,3 % | **90,4 %** | 56,2 % | **90,8 %** | 57,6 % |
+| Tilgang til personlig informasjon hos offentlig myndighet | **86,2 %** | 39,1 % | **82,9 %** | 40,0 % | **83,8 %** | 41,3 % |
+| Mottar offisiell kommunikasjon/dokumenter digitalt | 57,6 % | 36,6 % | **91,4 %** | 36,2 % | **90,3 %** | 36,6 % |
+| Leverer selvangivelse digitalt | — | — | **91,7 %** | 37,2 % | **91,6 %** | 38,2 % |
+| Henter informasjon om tjenester, rettigheter, åpningstider | **72,6 %** | 41,6 % | **73,5 %** | 44,1 % | **74,2 %** | 44,2 % |
+| Ber om ytelser eller trygderettigheter digitalt | 34,2 % | 17,5 % | **36,1 %** | 17,6 % | **36,4 %** | 18,1 % |
+| Tilgang til offentlige databaser eller registre | **38,3 %** | 19,0 % | **41,6 %** | 19,9 % | **43,9 %** | 20,7 % |
+| Laster ned/skriver ut skjemaer | 45,2 % | 39,9 % | 43,5 % | 38,1 % | 45,2 % | 36,8 % |
+| Timebestilling eller reservasjon | 33,3 % | 37,4 % | 34,7 % | 34,9 % | 39,3 % | 38,1 % |
+| Brukte nettsider, men fikk ikke det de trengte¹ | **8,1 %** | 38,0 % | **8,8 %** | 37,5 % | **8,1 %** | 36,6 % |
 
-Tolkning: Norge ligger vesentlig over EU27-snittet på de fleste indikatorer for digital samhandling med offentlig sektor. Sterkest er mottak av offisielle dokumenter og selvangivelse – begge over 90 %, mot EU27 rundt 37 %. Dette indikerer at **Tillit → Autentisering** og **Datautveksling → Meldingsformidling** er modne på innbyggerrettede flater. EU-sammenligningen nyanserer det interne bildet: der SSB viser hindringer på baksiden (integrasjon, finansiering, juridisk), er den synlige sluttbrukeropplevelsen allerede sterk.
+¹ Lav prosentandel er positivt — viser at brukerne finner det de leter etter.
+
+Tolkning: Norge har nær universell bruk av offentlige digitale tjenester (98,5 % i 2024), og kun 8 % av brukerne forlater uten å ha funnet det de trengte, mot 38 % i EU27. Mottak av offisielle dokumenter digitalt doblet seg fra 57,6 % (2023) til 91,4 % (2024), trolig drevet av sterk vekst i digital post. EU-dataene bekrefter at **Tillit → Autentisering**, **Datautveksling → Meldingsformidling** og **Sluttbrukertjenester → Sammenhengende tjenester** fungerer godt på innbyggerrettede flater, selv der SSB-dataene viser svakheter på produksjons- og infrastruktursiden.
 
 ---
 
@@ -99,8 +105,8 @@ Tolkning: Norge ligger vesentlig over EU27-snittet på de fleste indikatorer for
 ### Sluttbrukertjenester
 | Delkapabilitet | Modenhet | Begrunnelse |
 |---|---|---|
-| Sammenhengende tjenester | 🔴 Lav | 37 % opplever mangel på felles offentlige løsninger og infrastruktur som hindring. Infrastrukturen for livshendelsesorienterte tjenestekjeder er ikke tilstrekkelig på plass. |
-| Tjenestekjeder | 🔴 Lav | Ingen nasjonale standardiserte mekanismer for dynamisk tjenestekomposisjon. Avhengig av punkt-til-punkt integrasjoner. |
+| Sammenhengende tjenester | 🟡 Middels | 37 % opplever mangel på felles infrastruktur som hindring (SSB) — dette gjelder produksjonssiden. Eurostat viser at sluttbrukersiden er sterk: 91 % har generell samhandling med offentlige myndigheter (+33pp over EU27), og 36 % ber om ytelser digitalt (EU27: 18 %). Infrastruktur for livshendelsesorienterte kjeder mangler fortsatt, men eksisterende tjenester fungerer godt i praksis. |
+| Tjenestekjeder | 🔴 Lav | Ingen nasjonale standardiserte mekanismer for dynamisk tjenestekomposisjon. Avhengig av punkt-til-punkt integrasjoner. Høy generell samhandlingsrate (NO 91 % vs EU27 57 %) viser at kjeder fungerer i praksis, men uten formell arkitektur. |
 | Proaktive tjenester | 🔴 Lav | Svært tidlig fase. Krever moden datadeling og hendelsesdrevet arkitektur som begge er i lav adopsjon. |
 
 ### Datautveksling og integrasjon
@@ -108,14 +114,14 @@ Tolkning: Norge ligger vesentlig over EU27-snittet på de fleste indikatorer for
 |---|---|---|
 | Dele data med andre | 🟡 Middels | 24 % opplever manglende standarder som hindring. Maskinporten vokser, men utbredelsen er fortsatt begrenset sammenlignet med potensialet. |
 | Bruke data fra andre | 🔴 Lav | 32 % sliter med systemintegrasjon. Fragmentert fagsystemlandskap gjør gjenbruk av andres data krevende. |
-| Meldingsformidling | 🟢 Høy | eFormidling er bredt tatt i bruk i statlig sektor for sikkert meldingsutveksling. |
+| Meldingsformidling | 🟢 Høy | eFormidling er bredt tatt i bruk i statlig sektor. Eurostat: mottak av offisielle dokumenter digitalt økte fra 57,6 % (2023) til 91,4 % (2024) — +55pp over EU27. En av Norges sterkeste posisjoner i europeisk sammenligning. |
 | Hendelsesdrevet | 🔴 Lav | Svært begrenset adopsjon av hendelsesorienterte mønstre i offentlig sektor per i dag. |
 
 ### Tillit
 | Delkapabilitet | Modenhet | Begrunnelse |
 |---|---|---|
-| Autentisering | 🟢 Høy | ID-porten er bredt og stabilt i bruk. eID-adopsjon er høy i de fleste aldersgrupper. |
-| Tilgangskontroll | 🟡 Middels | Teknisk er dette på plass via ID-porten/Maskinporten, men implementeringspraksis varierer. |
+| Autentisering | 🟢 Høy | ID-porten er bredt og stabilt i bruk. eID-adopsjon er høy. Eurostat bekrefter: 84 % av norske individer har tilgang til personlig informasjon hos offentlige myndigheter (EU27: 41 %). |
+| Tilgangskontroll | 🟡 Middels | Teknisk er dette på plass via ID-porten/Maskinporten, men implementeringspraksis varierer. Eurostat: kun 8 % av brukerne mislykkes med å finne det de trenger (EU27: 38 %), som indikerer at tilgangskontroll fungerer i praksis. |
 | Tilgangsstyring | 🟡 Middels | Maskinporten gir maskin-til-maskin tilgangsstyring, men er fortsatt i vekstfase. |
 | Representasjon | 🔴 Lav | Aktivt under utvikling (Altinn Autorisasjon, fullmaktsfunksjonalitet). Produkteier ID-porten identifiserer dette som prioritert utviklingsområde for 2025+. |
 | Sporbarhet og innsyn | 🟡 Middels | eInnsyn dekker journalinnsyn, men helhetlig logging på tvers av tjenestekjeder mangler. |
@@ -149,7 +155,7 @@ Tolkning: Norge ligger vesentlig over EU27-snittet på de fleste indikatorer for
 |---|---|---|
 | Informasjonsarkitektur | 🟡 Middels | Felles datakatalog og begrepskatalog finnes, men dekningsgraden er lav. |
 | Oversikt over informasjonsmodeller | 🔴 Lav | Lite koordinert nasjonalt. Informasjonsmodeller eksisterer i siloer. |
-| Oversikt over datasett | 🟡 Middels | data.norge.no gir oversikt, men registreringen er frivillig og ufullstendig. |
+| Oversikt over datasett | 🟡 Middels | data.norge.no gir oversikt, men registreringen er frivillig og ufullstendig. Eurostat: 44 % av norske individer bruker offentlige databaser/registre (EU27: 21 %) — brukertilgangen er god, men registerkvaliteten varierer. |
 | Oversikt over hendelser | 🔴 Lav | Ingen nasjonal oversikt. Hendelsesorientert integrasjon er tidlig fase. |
 | Oversikt over API | 🟡 Middels | API-katalogen på data.norge.no er etablert, men mange APIer er ikke registrert. |
 | Oversikt over begreper | 🟡 Middels | Begrepskatalog finnes (data.norge.no/concepts), men dekningen er fragmentert og virksomhetsavhengig. |
@@ -192,7 +198,7 @@ Følgende kapabiliteter vurderes som **lav modenhet** basert på datagrunnlaget:
 | 🔴 1 | Strategisk styring → **Finansiering** | 62 % ressurshindring, 54 % kostnadshindring (SSB 2025) |
 | 🔴 2 | Samarbeid → **Tjenesteforvaltning** | 54 % avhengig av andre aktørers utvikling (SSB 2025) |
 | 🔴 3 | **Juridisk samhandling** | 37 % lovgivningshindring; digitaliseringsvennlig regelverk ikke operativt (SSB 2025) |
-| 🔴 4 | Sluttbrukertjenester → **Sammenhengende tjenester + Tjenestekjeder** | 37 % mangel på felles infrastruktur (SSB 2025) |
+| 🟡 4 | Sluttbrukertjenester → **Sammenhengende tjenester** | Svak produksjonside (37 % SSB), men sterk brukerside (NO 91 % samhandling, +33pp over EU27) |
 | 🔴 5 | Datautveksling → **Bruke data fra andre** | 32 % systemintegrasjonshindring (SSB 2025) |
 | 🔴 6 | Tillit → **Representasjon + Samtykke** | Under utvikling; juridisk og teknisk umodent |
 | 🔴 7 | Informasjonsforvaltning → **Datastyring + Oversikt over hendelser + Tjenester** | Ingen nasjonale løsninger operativt |
@@ -206,12 +212,14 @@ Eurostat-dataene (2024–2025) gir et komplementært bilde til SSB-hindringene. 
 
 | Kapabilitet | Vurdering internt (SSB) | Posisjon mot EU27 (Eurostat) | Tolkning |
 |---|---|---|---|
-| Tillit → Autentisering | 🟢 Høy | +55 pp over EU27 på mottak av offisielle dokumenter | Sterk på begge akser |
-| Datautveksling → Meldingsformidling | 🟢 Høy | +55 pp over EU27 på digital kommunikasjon | Sterk på begge akser |
-| Sluttbrukertjenester → Sammenhengende tjenester | 🔴 Lav | +29 pp over EU27 på informasjonsinnhenting | Svak bakside, men god sluttbrukeropplevelse |
+| Tillit → Autentisering | 🟢 Høy | +43 pp på personlig informasjonstilgang; 98,5 % bruker offentlige tjenester | Sterk på begge akser |
+| Datautveksling → Meldingsformidling | 🟢 Høy | +55 pp på mottak av offisielle dokumenter; sterk vekst 2023→2024 | Sterk på begge akser |
+| Sluttbrukertjenester → Sammenhengende tjenester | 🟡 Middels | +33 pp på generell samhandling; +18 pp på ytelsesforespørsler | Svak produksjonside, sterk brukerside — oppgradert til 🟡 |
+| Tillit → Tilgangskontroll | 🟡 Middels | Kun 8 % av brukerne mislykkes (EU27: 38 %) | Teknisk fungerer, praksis varierer |
+| Informasjonsforvaltning → Datasett | 🟡 Middels | +23 pp på databasetilgang | Brukertilgang god, register-kvalitet ujevn |
 | Tillit → Representasjon/Samtykke | 🔴 Lav | Ikke direkte målbart i Eurostat | Intern svakhet, usikkert EU-bilde |
 | Strategisk styring → Finansiering | 🔴 Lav | Ikke direkte målbart i Eurostat | Intern systemsvakhet |
-| Datautveksling → Bruke data fra andre | 🔴 Lav | +22 pp over EU27 på registertilgang | Infrastruktur svak, men brukertilgang god |
+| Datautveksling → Bruke data fra andre | 🔴 Lav | +22 pp på registertilgang fra brukersiden | Infrastruktur svak, men brukertilgang god |
 
 Dette mønsteret – god sluttbrukerflate, svak bakside – er karakteristisk for norsk digital forvaltning og bør reflekteres i prioritering: tiltak som styrker baksiden (datastyring, integrasjon, juridisk ramme) vil utnytte den gode posisjonen på sluttbrukersiden.
 
