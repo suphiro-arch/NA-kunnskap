@@ -1,5 +1,5 @@
 """
-NA-kunnskap MCP-server
+arkifix-mcp server
 Eksponerer nasjonal arkitektur-kunnskapsbase og offentlige API-er til Copilot.
 Kjøres lokalt via stdio – ingen porter åpne, ingen data forlater maskinen unødvendig.
 """
@@ -13,7 +13,7 @@ from mcp.server.fastmcp import FastMCP
 
 REPO_ROOT = Path(__file__).parent.parent
 
-mcp = FastMCP("NA-kunnskap")
+mcp = FastMCP("arkifix-mcp")
 
 
 # ---------------------------------------------------------------------------
@@ -110,8 +110,15 @@ def get_resource(filename: str) -> str:
     Args:
         filename: Filnavn, f.eks. "01-ID-porten-produkt-canvas-v3-codex.md"
     """
+    # Avvis filnavn med path-separatorer for å hindre path traversal
+    if "/" in filename or "\\" in filename or filename.startswith("."):
+        return "Ugyldig filnavn."
     for subdir in ["operative-losninger-og-tjenester", "normerende-ressurser", "samarbeidsfora"]:
-        path = REPO_ROOT / "arkitektur" / "ressurser" / subdir / filename
+        base = REPO_ROOT / "arkitektur" / "ressurser" / subdir
+        path = (base / filename).resolve()
+        # Bekreft at den løste stien fortsatt er innenfor forventet mappe
+        if not str(path).startswith(str(base.resolve())):
+            return "Ugyldig filnavn."
         if path.exists():
             return path.read_text(encoding="utf-8")
     return f"Fant ikke ressursfilen: {filename}"
