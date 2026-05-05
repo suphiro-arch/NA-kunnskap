@@ -3,7 +3,7 @@ title: "Tillit"
 eyebrow: "Kapabilitet"
 weight: 5
 description: "Evne å tilby tillitstjenester som muliggjør autentisering og autorisasjon på tvers av tjenestekjeder, og støtte en distribuert arkitektur og føderering mellom ulike domener og tjenester."
-cardMeta: "8 delkapabiliteter / 15 produkter"
+cardMeta: "8 delkapabiliteter / 16 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -67,6 +67,10 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/126-Nasjonal-sandkasse-for-digital-lommebok-produkt-canvas-v1-codex.md">Nasjonal sandkasse for digital lommebok</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/138-Veileder-for-virksomhetsautentisering-v1-codex.md">Veileder for virksomhetsautentisering</a></h3>
     </article>
   </div>
 ---

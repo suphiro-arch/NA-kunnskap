@@ -4,7 +4,7 @@ headerTitle: "Datakilder - Grunndata"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å identifisere og formelt anerkjenne autoritative datakilder basert på en systematisk vurdering av deres verdi."
-cardMeta: "26 produkter"
+cardMeta: "27 produkter"
 ---
 
 Evne til å identifisere og formelt anerkjenne autoritative datakilder basert på en systematisk vurdering av deres verdi.
@@ -60,7 +60,7 @@ Evne til å identifisere og formelt anerkjenne autoritative datakilder basert p�
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/60-Motorvognregisteret-produkt-canvas-v1-codex.md">Motorvognregisteret</a></h3>
-    <p class="capability-product-link__description">Motorvognregisteret er den nasjonale kilden for grunnleggende opplysninger om norske kjøretøy.</p>
+    <p class="capability-product-link__description">Motorvognregisteret fungerer som nasjonal grunndatakilde for sentrale opplysninger om registrerte kjøretøy.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
@@ -70,12 +70,12 @@ Evne til å identifisere og formelt anerkjenne autoritative datakilder basert p�
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/64-HPR-produkt-canvas-v1-codex.md">HPR</a></h3>
-    <p class="capability-product-link__description">HPR er den autoritative kilden for grunnleggende opplysninger om helsepersonell og autorisasjonsstatus.</p>
+    <p class="capability-product-link__description">HPR fungerer som en nasjonal grunndatakilde for opplysninger om helsepersonell, autorisasjon og tilknyttede godkjenninger.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/65-KUHR-produkt-canvas-v1-codex.md">KUHR</a></h3>
-    <p class="capability-product-link__description">KUHR fungerer som sentralt datagrunnlag for refusjonsforvaltning og oppgjør.</p>
+    <p class="capability-product-link__description">KUHR fungerer som en sentral kilde for oppgjørs- og refusjonsdata som brukes i forvaltning, kontroll og oppfølging.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
@@ -92,30 +92,35 @@ Evne til å identifisere og formelt anerkjenne autoritative datakilder basert p�
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/69-FIKS-Kjoretoyregister-produkt-canvas-v1-codex.md">Fiks kjøretøyregister</a></h3>
     <p class="capability-product-link__description">gjør autoritative kjøretøyopplysninger fra Statens vegvesen tilgjengelige for kommunal sektor gjennom et kontrollert tilgangslag i Fiks.</p>
   </article>
+  <article class="capability-product-link resource-type--operative">
+    <p class="capability-product-link__type">Operativ løsning</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/81-VIGO-Sentralbase-v1-codex.md">VIGO Sentralbase</a></h3>
+    <p class="capability-product-link__description">VIGO Sentralbase fungerer som autoritativ felles datakilde for sentrale opplysninger i videregående opplæring.</p>
+  </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/105-Rammeverk-nasjonale-grunndata-v0-codex.md">Rammeverk - nasjonale grunndata</a></h3>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/105-Rammeverk-nasjonale-grunndata-v1-codex.md">Rammeverk - nasjonale grunndata</a></h3>
     <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Rammeverk - nasjonale grunndata basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/128-SYSVAK-produkt-canvas-v1-codex.md">SYSVAK</a></h3>
-    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for SYSVAK basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+    <p class="capability-product-link__description">SYSVAK fungerer som nasjonal grunndatakilde for vaksinasjonsopplysninger og gir et felles, autoritativt datagrunnlag.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/129-MSIS-produkt-canvas-v1-codex.md">MSIS</a></h3>
-    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for MSIS basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+    <p class="capability-product-link__description">MSIS forvalter sentrale nasjonale data om meldingspliktige smittsomme sykdommer.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/130-Dodsarsaksregisteret-produkt-canvas-v1-codex.md">Dødsårsaksregisteret</a></h3>
-    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Dødsårsaksregisteret basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+    <p class="capability-product-link__description">Registeret er nasjonal autoritativ kilde for opplysninger om dødsfall og dødsårsaker, og gir et konsistent grunnlag for videre bruk på tvers av virksomheter.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/131-Reseptregisteret-NorPD-produkt-canvas-v1-codex.md">Reseptregisteret (NorPD)</a></h3>
-    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Reseptregisteret (NorPD) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+    <p class="capability-product-link__description">Registeret er nasjonal autoritativ kilde for data om reseptutskriving og legemiddelutlevering, og gir et konsistent grunnlag for tverrsektoriell bruk.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>

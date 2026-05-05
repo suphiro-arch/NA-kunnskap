@@ -89,7 +89,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | 100 | `DIGDIR-032` | Kart for tjenestekjeder | Metodeverktøy | Tjenestekjeder<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/normerende-ressurser/100-Kart-for-tjenestekjeder-v1-codex.md) |
 | 101 | `DIGDIR-033` | Referansearkitektur forsendelse (eMelding) | Referansearkitektur | Meldingsformidling<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/normerende-ressurser/101-Referansearkitektur-forsendelse-eMelding-v1-codex.md) |
 | 102 | `DIGDIR-034` | Referansearkitektur forespørsel-svar (eOppslag) | Referansearkitektur | Bruke data fra andre<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/normerende-ressurser/102-Referansearkitektur-foresporsel-svar-eOppslag-v1-codex.md) |
-| 103 | `DIGDIR-035` | Nasjonalt veikart | Veikart | Samordning<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/normerende-ressurser/103-Nasjonalt-veikart-v1-codex.md) |
+| 103 | `DIGDIR-035` | Nasjonalt veikart | Veikart | Samordning<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/normerende-ressurser/103-Nasjonalt-veikart-v2-codex.md) |
 | 104 | `DIGDIR-036` | Orden i eget hus | Metodikk | Datastyring<br>Oversikt over datasett | [Åpne](../../arkitektur/ressurser/normerende-ressurser/104-Orden-i-eget-hus-v1-codex.md) |
 | 105 | `DIGDIR-037` | Rammeverk - nasjonale grunndata | Rammeverk | Grunndata<br>Samordning | [Åpne](../../arkitektur/ressurser/normerende-ressurser/105-Rammeverk-nasjonale-grunndata-v1-codex.md) |
 | 106 | `DIGDIR-038` | Nasjonal verktøykasse for deling av data | Veileder | Dele data med andre<br>Datastyring | [Åpne](../../arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v1-codex.md) |
@@ -114,6 +114,8 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | 125 | `DIGDIR-057` | KI Norge | Nasjonal arena for kunstig intelligens | Samarbeidsarenaer og nettverk<br>Samordning | [Åpne](../../arkitektur/ressurser/samarbeidsfora/125-KI-Norge-v0-codex.md) |
 | 126 | `DIGDIR-058` | Nasjonal sandkasse for digital lommebok | Sandkasse og testmiljø for digital lommebok | Autentisering<br>Signering<br>Utviklings- og kjøretidsmiljø<br>Integrerbare tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/126-Nasjonal-sandkasse-for-digital-lommebok-produkt-canvas-v1-codex.md) |
 | 127 | `DIGDIR-059` | Samarbeidsportalen | Portal for forvaltning, informasjon og ta-i-bruk av fellesløsninger | Oversikt over tjenester<br>Tjenesteforvaltning<br>Samarbeidsarenaer og nettverk | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/127-Samarbeidsportalen-produkt-canvas-v1-codex.md) |
+| 137 | `DIGDIR-060` | Forskrift om IT-standarder i offentlig forvaltning | Forskrift | Forvaltningsstandarder<br>Arkitekturstyring | [Åpne](../../arkitektur/ressurser/normerende-ressurser/137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v1-codex.md) |
+| 138 | `DIGDIR-061` | Veileder for virksomhetsautentisering | Veileder | Autentisering<br>Sikring av informasjonsflyt og datautveksling | [Åpne](../../arkitektur/ressurser/normerende-ressurser/138-Veileder-for-virksomhetsautentisering-v1-codex.md) |
 
 ## Brønnøysundregistrene (`BRREG`)
 

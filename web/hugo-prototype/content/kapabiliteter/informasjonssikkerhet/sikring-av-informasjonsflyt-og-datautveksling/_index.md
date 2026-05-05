@@ -4,7 +4,7 @@ headerTitle: "Informasjonssikkerhet - Sikring av informasjonsflyt og datautveksl
 eyebrow: "Kapabilitet"
 weight: 2
 description: "Kapabiliteten omfatter de tekniske og organisatoriske tiltakene som sikrer at informasjon som utveksles mellom virksomheter er beskyttet mot innsyn og manipulering, og at dataflyten er kontrollert."
-cardMeta: "18 produkter"
+cardMeta: "19 produkter"
 ---
 
 Kapabiliteten omfatter de tekniske og organisatoriske tiltakene som sikrer at informasjon som utveksles mellom virksomheter er beskyttet mot innsyn og manipulering, og at dataflyten er kontrollert.
@@ -85,21 +85,26 @@ Kapabiliteten omfatter de tekniske og organisatoriske tiltakene som sikrer at in
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/70-FINT-Felleskomponent-v1-codex.md">FINT Felleskomponent</a></h3>
-    <p class="capability-product-link__description">understøtter trygg dataflyt, integritet og tilgjengelighet i det fylkeskommunale integrasjonsløpet.</p>
+    <p class="capability-product-link__description">Novari fremhever informasjonssikkerhet som en sentral del av løsningen, med vekt på trygg dataflyt, integritet og tilgjengelighet.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/119-Ansattporten-v1-codex.md">Ansattporten</a></h3>
-    <p class="capability-product-link__description">beskytter metadatautveksling og påloggingsflyt i ansattkontekst.</p>
+    <p class="capability-product-link__description">Ressursen beskytter innloggingsflyt og metadatautveksling i ansattpålogging.</p>
   </article>
   <article class="capability-product-link resource-type--forum">
     <p class="capability-product-link__type">Samarbeidsforum</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/122-NIFS-v0-codex.md">NIFS</a></h3>
-    <p class="capability-product-link__description">gir faglig deling og oppdatering om informasjonssikkerhet på et område som er avgjørende for trygg samhandling.</p>
+    <p class="capability-product-link__description">Forumet støtter kompetansedeling og felles forståelse på et sentralt område for sikker samhandling.</p>
   </article>
   <article class="capability-product-link resource-type--forum">
     <p class="capability-product-link__type">Samarbeidsforum</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v0-codex.md">Felles sikkerhet i forvaltningen</a></h3>
-    <p class="capability-product-link__description">bidrar til mer samordnet retning, veiledning og rammebetingelser for informasjonssikkerhet i offentlig forvaltning</p>
+    <p class="capability-product-link__description">Initiativet retter seg direkte mot bedre styring, samordning og praksis for informasjonssikkerhet i offentlig forvaltning.</p>
+  </article>
+  <article class="capability-product-link resource-type--normative">
+    <p class="capability-product-link__type">Normerende ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/138-Veileder-for-virksomhetsautentisering-v1-codex.md">Veileder for virksomhetsautentisering</a></h3>
+    <p class="capability-product-link__description">Veilederen støtter `Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling` ved å knytte identifisering, adressering, sertifikatbehandling, logging og sporing til trygg praktisk gjennomføring av datadeling.</p>
   </article>
 </div>

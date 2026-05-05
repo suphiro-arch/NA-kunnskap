@@ -25,6 +25,6 @@ Evne til å hente, kombinere og foredle data fra ulike kilder for å skape ny in
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/63-microdata-no-produkt-canvas-v1-codex.md">microdata.no</a></h3>
-    <p class="capability-product-link__description">microdata.no gjør det mulig å analysere og sammenstille store mengder registerdata i et kontrollert miljø.</p>
+    <p class="capability-product-link__description">microdata.no er laget for analyse av koblede registerdata og gjør det mulig å sammenstille og arbeide med data fra flere kilder i samme analyseflate.</p>
   </article>
 </div>

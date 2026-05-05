@@ -4,7 +4,7 @@ headerTitle: "Informasjonsforvaltning - Datastyring"
 eyebrow: "Kapabilitet"
 weight: 8
 description: "Evne til å sikre enhetlig og ansvarlig forvaltning av nasjonale dataressurser gjennom felles rammeverk, klar ansvarsplassering og systematisk kvalitetsarbeid."
-cardMeta: "16 produkter"
+cardMeta: "17 produkter"
 ---
 
 Evne til å sikre enhetlig og ansvarlig forvaltning av nasjonale dataressurser gjennom felles rammeverk, klar ansvarsplassering og systematisk kvalitetsarbeid.
@@ -25,7 +25,7 @@ Evne til å sikre enhetlig og ansvarlig forvaltning av nasjonale dataressurser g
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v1-codex.md">Helsedata.no</a></h3>
-    <p class="capability-product-link__description">Helsedata.no støtter strukturert forvaltning og tilgjengeliggjøring av informasjon om helsedata og tilgangsløp.</p>
+    <p class="capability-product-link__description">Løsningen støtter datastyring ved å strukturere tilgangsinformasjon, roller og prosesser på tvers av flere dataforvaltere.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
@@ -40,7 +40,12 @@ Evne til å sikre enhetlig og ansvarlig forvaltning av nasjonale dataressurser g
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v1-codex.md">VIGO</a></h3>
-    <p class="capability-product-link__description">forvalter store mengder strukturerte data om søkere, opplæring, kodeverk og administrasjon i et felles sektoroppsett.</p>
+    <p class="capability-product-link__description">VIGO Sentralbase og VIGO Kodeverksbase viser at løsningen forvalter og strukturerer sentrale data- og kodeverksressurser for videregående opplæring.</p>
+  </article>
+  <article class="capability-product-link resource-type--operative">
+    <p class="capability-product-link__type">Operativ løsning</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/81-VIGO-Sentralbase-v1-codex.md">VIGO Sentralbase</a></h3>
+    <p class="capability-product-link__description">Ressursen legger grunnlag for strukturert forvaltning av data, historikk og leveranser på tvers av fylkeskommuner.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
@@ -54,7 +59,7 @@ Evne til å sikre enhetlig og ansvarlig forvaltning av nasjonale dataressurser g
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v0-codex.md">Nasjonal verktøykasse for deling av data</a></h3>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v1-codex.md">Nasjonal verktøykasse for deling av data</a></h3>
     <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Nasjonal verktøykasse for deling av data basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
@@ -75,12 +80,12 @@ Evne til å sikre enhetlig og ansvarlig forvaltning av nasjonale dataressurser g
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/130-Dodsarsaksregisteret-produkt-canvas-v1-codex.md">Dødsårsaksregisteret</a></h3>
-    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Dødsårsaksregisteret basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+    <p class="capability-product-link__description">Registeret understøtter nasjonal styring av et kritisk folkehelsedomene ved å tilby standardiserte, dokumenterte og kvalitetssikrede data.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/131-Reseptregisteret-NorPD-produkt-canvas-v1-codex.md">Reseptregisteret (NorPD)</a></h3>
-    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Reseptregisteret (NorPD) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+    <p class="capability-product-link__description">Registeret understøtter nasjonal styring av legemiddeldomenet ved å tilby standardiserte, dokumenterte og kvalitetssikrede data.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>

@@ -20,6 +20,6 @@ Evne til å formalisere samarbeid gjennom tydelig definerte roller, ansvar og av
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/127-Samarbeidsportalen-produkt-canvas-v1-codex.md">Samarbeidsportalen</a></h3>
-    <p class="capability-product-link__description">støtter løpende forvaltning ved å samle status, statistikk, driftsmeldinger og ta-i-bruk-informasjon</p>
+    <p class="capability-product-link__description">Ressursen støtter forvaltning ved å samle praktisk informasjon og oppfølging knyttet til bruk av fellesløsningene.</p>
   </article>
 </div>

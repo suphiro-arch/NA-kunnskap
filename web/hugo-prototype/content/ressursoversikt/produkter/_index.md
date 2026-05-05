@@ -18,13 +18,13 @@ Ressursene er gruppert etter hovedtype, med egne undersider for operative løsni
 
 Ressurser som brukes direkte i drift, integrasjon eller løsningsdesign.
 
-Antall ressurser: **71**
+Antall ressurser: **78**
 
 ## [Normerende ressurser](./normerende-ressurser/)
 
 Ressurser som primært gir føringer for modeller, standarder, arkitektur og samordning.
 
-Antall ressurser: **23**
+Antall ressurser: **25**
 
 ## [Samarbeidsfora](./samarbeidsfora/)
 

@@ -10,7 +10,7 @@ Normerende ressurs
 Veikart
 
 ## Status/Livsfase
-Aktiv. Ressursen brukes som del av Digdirs åpne arbeid med nasjonal arkitektur, standarder og informasjonsforvaltning.
+Aktiv. Ressursen brukes som del av Digdirs åpne arbeid med prioritering og samordning av tverrgående digitaliseringstiltak.
 
 ## Kort beskrivelse
 Nasjonalt veikart er en normerende ressurs som peker ut retning og prioritering i videreutvikling av nasjonal arkitektur. Ressursen skal bidra til mer koordinert utvikling av føringer, metoder og samhandlingspraksis på tvers av virksomheter.
@@ -65,8 +65,8 @@ Inngår ikke:
 | Ansvarsområde | Beskrivelse |
 |---|---|
 | Faglig ansvar | Digitaliseringsdirektoratet |
-| Forvaltningsansvar | Digdir forvalter innholdet i NA-sporet på digdir.no |
-| Endringsprosess | Oppdateres løpende som del av Digdirs arbeid med nasjonal arkitektur |
+| Forvaltningsansvar | Digdir forvalter innholdet i veikartarbeidet på digdir.no |
+| Endringsprosess | Oppdateres løpende som del av Digdirs arbeid med tverrgående prioritering, samordning og gjennomføring |
 | Publiserings- og beslutningsarena | Digdir.no |
 
 ## Relasjon til andre ressurser
@@ -90,7 +90,7 @@ Arkitekturverdien ligger i felles retning for samhandling og i bedre kobling mel
 Tiltak kan bli mindre samordnet, med økt risiko for overlappende investeringer og svakere sammenheng i tverrgående tjenesteløp.
 
 ## Publiseringsform og tilgjengelighet
-Ressursen publiseres i Digdirs åpne område for nasjonal arkitektur.
+Ressursen publiseres i Digdirs åpne område for nasjonalt veikart og samordning av digitaliseringsstrategien.
 
 ## Støtter arkitekturprinsipper
 - **P5: Del og gjenbruk løsninger**  
@@ -102,9 +102,13 @@ Ressursen publiseres i Digdirs åpne område for nasjonal arkitektur.
 Veikart alene gir begrenset effekt uten lokal prioriteringskraft, finansiering og forankring i gjennomføringslinjen.
 
 ## Lenke til dokumentasjon
-- https://www.digdir.no/samhandling/nasjonal-arkitektur/2150
+- https://www.digdir.no/digitalisering-og-samordning/nasjonalt-veikart/7022
+- https://www.digdir.no/digitalisering-og-samordning/erfaringene-fra-de-syv-prioriterte-livshendelsene-inngar-na-i-nasjonalt-veikart/7937
+- https://www.digdir.no/digital-samhandling/felles-struktur-og-arkitektur-samhandling/2150
 
 ## Kildegrunnlag brukt i utfyllingen
-- sources/links.md, kontrollert 2026-05-03
+- sources/links.md, kontrollert 2026-05-04
 - arkitektur/ressurser/produktnummerering.md, kontrollert 2026-05-03
-- https://www.digdir.no/samhandling/nasjonal-arkitektur/2150, kontrollert 2026-05-03
+- https://www.digdir.no/digitalisering-og-samordning/nasjonalt-veikart/7022, kontrollert 2026-05-04
+- https://www.digdir.no/digitalisering-og-samordning/erfaringene-fra-de-syv-prioriterte-livshendelsene-inngar-na-i-nasjonalt-veikart/7937, kontrollert 2026-05-04
+- https://www.digdir.no/digital-samhandling/felles-struktur-og-arkitektur-samhandling/2150, kontrollert 2026-05-04

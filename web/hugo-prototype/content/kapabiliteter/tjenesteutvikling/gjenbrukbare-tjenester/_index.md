@@ -30,11 +30,11 @@ Evne til å utvikle og benytte tjenester som kan brukes i nye sammenhenger på t
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/70-FINT-Felleskomponent-v1-codex.md">FINT Felleskomponent</a></h3>
-    <p class="capability-product-link__description">gir fylkeskommunene et felles integrasjonsgrunnlag som kan gjenbrukes på tvers av leverandører og løsninger.</p>
+    <p class="capability-product-link__description">Felleskomponenten gjør det mulig å etablere et felles integrasjonsgrunnlag som kan brukes på tvers av fylkeskommuner og leverandører.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/118-Felles-designsystem-v1-codex.md">Felles designsystem</a></h3>
-    <p class="capability-product-link__description">gjør designkomponenter og mønstre gjenbrukbare i flere løsninger og virksomheter.</p>
+    <p class="capability-product-link__description">Ressursen gjør det mulig å gjenbruke komponenter og mønstre i flere løsninger.</p>
   </article>
 </div>

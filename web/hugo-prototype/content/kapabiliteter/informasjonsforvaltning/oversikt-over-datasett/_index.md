@@ -30,7 +30,7 @@ Evne til å systematisk oppdage, vurdere og gjenbruke data på tvers av offentli
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v1-codex.md">Helsedata.no</a></h3>
-    <p class="capability-product-link__description">Helsedata.no gir oversikt over helsedata og relevante datakilder i én nasjonal inngang.</p>
+    <p class="capability-product-link__description">Helsedata.no gir brukere en samlet inngang til å oppdage og vurdere relevante helsedatakilder før søknad.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>

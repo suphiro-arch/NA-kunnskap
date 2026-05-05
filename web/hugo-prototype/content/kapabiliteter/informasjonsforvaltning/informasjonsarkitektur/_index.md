@@ -25,17 +25,17 @@ Evne til å strukturere og modellere informasjon på en standardisert måte, sli
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/70-FINT-Felleskomponent-v1-codex.md">FINT Felleskomponent</a></h3>
-    <p class="capability-product-link__description">gjør den felles informasjonsmodellen operativ i faktisk datadeling og integrasjon.</p>
+    <p class="capability-product-link__description">Felleskomponenten bygger direkte på en standardisert informasjonsmodell og gjør semantikken operativ i faktisk integrasjon og datadeling.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/71-FINT-Arkiv-v1-codex.md">FINT Arkiv</a></h3>
-    <p class="capability-product-link__description">bruker den felles FINT-modellen for å strukturere og utveksle arkivinformasjon på en konsistent måte.</p>
+    <p class="capability-product-link__description">Løsningen gjør den felles FINT-informasjonsmodellen operativ for arkivområdet og sørger for at arkivinformasjon representeres på en standardisert måte.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/72-FINT-Informasjonsmodell-v1-codex.md">FINT Informasjonsmodell</a></h3>
-    <p class="capability-product-link__description">gir en felles semantisk struktur for data på tvers av fylkeskommuner, systemer og leverandører.</p>
+    <p class="capability-product-link__description">Ressursen strukturerer og modellerer informasjon på en standardisert måte, slik at data kan forstås og brukes likt på tvers av fylkeskommuner og systemleverandører.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>

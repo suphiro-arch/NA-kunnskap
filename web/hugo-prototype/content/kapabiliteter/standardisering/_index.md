@@ -3,7 +3,7 @@ title: "Standardisering"
 eyebrow: "Kapabilitet"
 weight: 10
 description: "Evne til å identifisere, vedta, forvalte og fremme bruk av omforente standarder og spesifikasjoner som sikrer interoperabilitet og gjenbruk på tvers av sektorer og landegrenser."
-cardMeta: "2 delkapabiliteter / 19 produkter"
+cardMeta: "2 delkapabiliteter / 20 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -82,7 +82,11 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v0-codex.md">Digitaliseringsvennlig regelverk</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v1-codex.md">Digitaliseringsvennlig regelverk</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v1-codex.md">Forskrift om IT-standarder i offentlig forvaltning</a></h3>
     </article>
   </div>
 ---

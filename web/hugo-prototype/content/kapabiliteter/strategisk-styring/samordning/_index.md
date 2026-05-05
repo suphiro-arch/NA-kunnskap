@@ -14,12 +14,12 @@ Evnen til å harmonisere og koordinere strategisk retning, beslutninger og ressu
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/103-Nasjonalt-veikart-v0-codex.md">Nasjonalt veikart</a></h3>
-    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Nasjonalt veikart basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/103-Nasjonalt-veikart-v2-codex.md">Nasjonalt veikart</a></h3>
+    <p class="capability-product-link__description">Veikartet støtter `Strategisk styring: Samordning` ved å samle kunnskapsgrunnlag, prioritering og oppfølging av tiltak som må ses i sammenheng på tvers av virksomheter og sektorer.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/105-Rammeverk-nasjonale-grunndata-v0-codex.md">Rammeverk - nasjonale grunndata</a></h3>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/105-Rammeverk-nasjonale-grunndata-v1-codex.md">Rammeverk - nasjonale grunndata</a></h3>
     <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Rammeverk - nasjonale grunndata basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
@@ -35,16 +35,16 @@ Evnen til å harmonisere og koordinere strategisk retning, beslutninger og ressu
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/112-Digitaliseringsrundskrivet-v1-codex.md">Digitaliseringsrundskrivet</a></h3>
-    <p class="capability-product-link__description">samler nasjonale krav og anbefalinger for digitalisering i staten i ett felles styringsgrunnlag.</p>
+    <p class="capability-product-link__description">Ressursen setter felles retning for hvordan digitalisering skal styres og samordnes på tvers av statlige virksomheter.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v1-codex.md">Prosjektveiviseren</a></h3>
-    <p class="capability-product-link__description">gir et felles metodegrunnlag for planlegging, styring og beslutningspunkter i offentlige prosjekter.</p>
+    <p class="capability-product-link__description">Ressursen støtter samordnet styring gjennom felles faser, beslutningspunkter og tydeligere ansvar mellom ledelse, linje og prosjekt.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/116-Rammeverk-for-innovasjon-i-offentlig-sektor-v0-codex.md">Rammeverk for innovasjon i offentlig sektor</a></h3>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/116-Rammeverk-for-innovasjon-i-offentlig-sektor-v1-codex.md">Rammeverk for innovasjon i offentlig sektor</a></h3>
     <p class="capability-product-link__description">skal støtte mer systematisk innovasjonsarbeid og et mer felles språk for utvikling og forbedring i offentlig sektor.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
@@ -60,11 +60,11 @@ Evnen til å harmonisere og koordinere strategisk retning, beslutninger og ressu
   <article class="capability-product-link resource-type--forum">
     <p class="capability-product-link__type">Samarbeidsforum</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v0-codex.md">Felles sikkerhet i forvaltningen</a></h3>
-    <p class="capability-product-link__description">har som formål å skape felles retning og mer samordnet oppfølging på tvers av offentlig forvaltning</p>
+    <p class="capability-product-link__description">Initiativet har som mål å skape felles retning, bedre rammebetingelser og mer samordnet veiledning på tvers av forvaltningen.</p>
   </article>
   <article class="capability-product-link resource-type--forum">
     <p class="capability-product-link__type">Samarbeidsforum</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/125-KI-Norge-v0-codex.md">KI Norge</a></h3>
-    <p class="capability-product-link__description">skal bidra til mer felles retning og koordinering i den nasjonale satsingen på kunstig intelligens</p>
+    <p class="capability-product-link__description">Ressursen støtter samordning fordi den inngår i en nasjonal satsing der det er behov for mer felles retning og koordinering på tvers av virksomheter.</p>
   </article>
 </div>

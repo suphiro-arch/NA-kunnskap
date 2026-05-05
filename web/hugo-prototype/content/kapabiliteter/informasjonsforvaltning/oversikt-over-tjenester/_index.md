@@ -30,11 +30,11 @@ Evne til å gi oversikt over og oppdage tjenester som tilbys av eller på vegne 
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v1-codex.md">VIGO</a></h3>
-    <p class="capability-product-link__description">samler flere moduler og delsystemer i en overordnet sektorressurs som kan vurderes samlet i caseanalyser.</p>
+    <p class="capability-product-link__description">VIGO består av flere moduler og tjenester som samlet dekker et bredt funksjonsområde innen videregående opplæring.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/127-Samarbeidsportalen-produkt-canvas-v1-codex.md">Samarbeidsportalen</a></h3>
-    <p class="capability-product-link__description">samler oversikt over Digdirs fellesløsninger, prosjekter og videre innganger til dokumentasjon og bruk</p>
+    <p class="capability-product-link__description">Portalen gir en samlet oversikt over Digdirs fellesløsninger, prosjekter og tilknyttede innholdstyper.</p>
   </article>
 </div>

@@ -4,7 +4,7 @@ headerTitle: "Datautveksling og integrasjon - Dele data med andre"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er, slik at andre aktører med lovlig grunnlag enkelt kan oppdage og gjenbruke dem."
-cardMeta: "41 produkter"
+cardMeta: "42 produkter"
 ---
 
 Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er, slik at andre aktører med lovlig grunnlag enkelt kan oppdage og gjenbruke dem.
@@ -110,7 +110,7 @@ Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er, sl
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/60-Motorvognregisteret-produkt-canvas-v1-codex.md">Motorvognregisteret</a></h3>
-    <p class="capability-product-link__description">Motorvognregisteret gjør kjøretøyopplysninger tilgjengelige gjennom oppslag og API-er under ulike vilkår.</p>
+    <p class="capability-product-link__description">Produktet gjør kjøretøyopplysninger tilgjengelige gjennom flere delings- og oppslagsformer for andre brukere og systemer.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
@@ -125,27 +125,32 @@ Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er, sl
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/64-HPR-produkt-canvas-v1-codex.md">HPR</a></h3>
-    <p class="capability-product-link__description">HPR gjør registeropplysninger tilgjengelige for virksomheter og brukere som trenger dem.</p>
+    <p class="capability-product-link__description">Registeret gjør sentrale opplysninger tilgjengelige for andre aktører som trenger dem til oppslag, kontroll, tilgangsstyring og saksbehandling.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/65-KUHR-produkt-canvas-v1-codex.md">KUHR</a></h3>
-    <p class="capability-product-link__description">KUHR gjør oppgjørs- og refusjonsdata tilgjengelige i forvaltningens kontroll- og oppfølgingsløp.</p>
+    <p class="capability-product-link__description">Produktet gjør oppgjørsdata tilgjengelige som grunnlag for videre behandling og kontroll i Helfo og tilgrensende forvaltningsprosesser.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/70-FINT-Felleskomponent-v1-codex.md">FINT Felleskomponent</a></h3>
-    <p class="capability-product-link__description">eksponerer fylkeskommunale data gjennom standardiserte API-er som kan deles på tvers av systemer og organisasjoner.</p>
+    <p class="capability-product-link__description">Felleskomponenten eksponerer informasjon gjennom åpne og standardiserte grensesnitt som gjør det mulig å tilgjengeliggjøre data på tvers av systemer og organisasjoner.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/71-FINT-Arkiv-v1-codex.md">FINT Arkiv</a></h3>
-    <p class="capability-product-link__description">gjør arkivinformasjon tilgjengelig gjennom et standardisert API og et felles utvekslingsmønster.</p>
+    <p class="capability-product-link__description">Ressursen tilgjengeliggjør arkivinformasjon gjennom et standardisert API som andre systemer og tjenester kan bruke.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v1-codex.md">VIGO</a></h3>
-    <p class="capability-product-link__description">gjør utdannings- og administrasjonsdata tilgjengelige mellom delsystemer og aktører i samme økosystem.</p>
+    <p class="capability-product-link__description">VIGO leverer data til internt og eksternt bruk og er kilde for leveranser til blant annet Utdanningsdirektoratet og Statistisk sentralbyrå.</p>
+  </article>
+  <article class="capability-product-link resource-type--operative">
+    <p class="capability-product-link__type">Operativ løsning</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/81-VIGO-Sentralbase-v1-codex.md">VIGO Sentralbase</a></h3>
+    <p class="capability-product-link__description">Sentralbasen muliggjør felles datautlevering og statistikkleveranser til nasjonale myndigheter og andre aktører med hjemmel.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
@@ -155,11 +160,11 @@ Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er, sl
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/93-Fiks-Digisos-produkt-canvas-v1-codex.md">Fiks Digisos</a></h3>
-    <p class="capability-product-link__description">Tjenesten deler og overforer soknads- og saksdata kontrollert mellom NAV, Fiks og kommunale fagsystemer.</p>
+    <p class="capability-product-link__description">Tjenesten deler og overforer soknads- og saksdata kontrollert mellom statlige og kommunale systemer gjennom Fiks API-er og meldingskanaler.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v0-codex.md">Nasjonal verktøykasse for deling av data</a></h3>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v1-codex.md">Nasjonal verktøykasse for deling av data</a></h3>
     <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Nasjonal verktøykasse for deling av data basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
@@ -170,27 +175,27 @@ Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er, sl
   <article class="capability-product-link resource-type--forum">
     <p class="capability-product-link__type">Samarbeidsforum</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/123-DSOP-samarbeidet-v0-codex.md">DSOP-samarbeidet</a></h3>
-    <p class="capability-product-link__description">samler aktører som utvikler offentlig-privat datadeling og samhandling på tvers av sektorgrenser.</p>
+    <p class="capability-product-link__description">Forumet er tett knyttet til offentlig-privat datadeling og utvikling av samhandlingsløsninger.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/128-SYSVAK-produkt-canvas-v1-codex.md">SYSVAK</a></h3>
-    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for SYSVAK basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+    <p class="capability-product-link__description">Registeret muliggjør deling og bruk av vaksinasjonsdata i relevante tjenester og arbeidsprosesser på tvers av virksomheter.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/129-MSIS-produkt-canvas-v1-codex.md">MSIS</a></h3>
-    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for MSIS basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+    <p class="capability-product-link__description">Registergrunnlaget muliggjør deling og koordinert bruk av sykdomsdata i relevante analyser og oppfølgingsløp.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/130-Dodsarsaksregisteret-produkt-canvas-v1-codex.md">Dødsårsaksregisteret</a></h3>
-    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Dødsårsaksregisteret basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+    <p class="capability-product-link__description">Data fra registeret gjøres tilgjengelig for analyse og statistikk gjennom etablerte helsedatakanaler og etter søknad om datatilgang.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/131-Reseptregisteret-NorPD-produkt-canvas-v1-codex.md">Reseptregisteret (NorPD)</a></h3>
-    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Reseptregisteret (NorPD) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+    <p class="capability-product-link__description">Data fra registeret gjøres tilgjengelig for forskning og analyse gjennom etablerte tilgangskanaler, etter søknad og godkjenning.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>

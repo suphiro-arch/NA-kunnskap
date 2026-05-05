@@ -9,6 +9,16 @@ topic: neste-steg
 
 ## Nytt siste steg
 
+- Opprettet [138-Veileder-for-virksomhetsautentisering-v1-codex.md](../arkitektur/ressurser/normerende-ressurser/138-Veileder-for-virksomhetsautentisering-v1-codex.md) som ny normerende ressurs for `DIGDIR-061`.
+- Oppdatert [produktnummerering.md](../arkitektur/ressurser/produktnummerering.md) med registerføring for `DIGDIR-061`.
+- Lagt til lenke i [sources/links.md](../sources/links.md) til Digdirs oversikt over veiledere og hjelpemidler for eID.
+- Opprettet [137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v1-codex.md](../arkitektur/ressurser/normerende-ressurser/137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v1-codex.md) som ny normerende ressurs for `DIGDIR-060`.
+- Oppdatert [produktnummerering.md](../arkitektur/ressurser/produktnummerering.md) med registerføring for `DIGDIR-060`.
+- Oppdatert lenker i [sources/links.md](../sources/links.md) til gjeldende Digdir-adresser for `Referansekatalogen for IT-standarder` og `Arbeidsmetodikk for referansekatalogen`.
+- Opprettet [103-Nasjonalt-veikart-v2-codex.md](../arkitektur/ressurser/normerende-ressurser/103-Nasjonalt-veikart-v2-codex.md) som ny versjon av `DIGDIR-035`, med tydeligere beskrivelse av at ressursen er under utvikling og fungerer som Digdirs samordnings- og prioriteringsmekanisme for tverrgående digitaliseringstiltak.
+- Oppdatert [produktnummerering.md](../arkitektur/ressurser/produktnummerering.md) og [produkt-kapabilitet-koblinger.yaml](../arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml) slik at `DIGDIR-035` peker til v2.
+- Oppdatert [103-Nasjonalt-veikart-v1-codex.md](../arkitektur/ressurser/normerende-ressurser/103-Nasjonalt-veikart-v1-codex.md) med mer presis hovedlenke til Digdirs egen veikartside og nyere støttelenke om hvordan livshendelsesarbeidet inngår i veikartet.
+
 - Opprettet [103-Nasjonalt-veikart-v1-codex.md](../arkitektur/ressurser/normerende-ressurser/103-Nasjonalt-veikart-v1-codex.md), [105-Rammeverk-nasjonale-grunndata-v1-codex.md](../arkitektur/ressurser/normerende-ressurser/105-Rammeverk-nasjonale-grunndata-v1-codex.md) og [106-Nasjonal-verktoykasse-for-deling-av-data-v1-codex.md](../arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v1-codex.md) som oppgraderinger fra v0 til v1.
 - Oppdatert [produktnummerering.md](../arkitektur/ressurser/produktnummerering.md) slik at `DIGDIR-035`, `DIGDIR-037` og `DIGDIR-038` peker til v1-filer.
 - Synkronisert [produkt-kapabilitet-koblinger.yaml](../arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml) med oppdatert versjon/sti for produkt-id `103`, `105` og `106`.

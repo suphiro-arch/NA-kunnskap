@@ -65,21 +65,21 @@ Evne til å designe, utvikle og eksponere data og funksjonalitet som selvstendig
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/70-FINT-Felleskomponent-v1-codex.md">FINT Felleskomponent</a></h3>
-    <p class="capability-product-link__description">tilbyr programmerbare grensesnitt og et felles integrasjonsmønster som kan brukes i nye og eksisterende tjenester.</p>
+    <p class="capability-product-link__description">Ressursen tilbyr programmerbare grensesnitt og et operativt integrasjonsmønster som kan brukes i nye og eksisterende tjenester.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/71-FINT-Arkiv-v1-codex.md">FINT Arkiv</a></h3>
-    <p class="capability-product-link__description">gjør arkivintegrasjon tilgjengelig som et felles og integrerbart mønster i fylkeskommunal sektor.</p>
+    <p class="capability-product-link__description">FINT Arkiv tilbyr en operativ integrasjonsflate som kan brukes direkte i arkivintegrasjoner og tilknyttede tjenester.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/119-Ansattporten-v1-codex.md">Ansattporten</a></h3>
-    <p class="capability-product-link__description">tilbyr standardiserte metadata og integrasjonspunkter som andre løsninger kan koble seg til.</p>
+    <p class="capability-product-link__description">Tjenesten tilbyr standardiserte metadata og integrasjonspunkter som andre løsninger kan koble seg til.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/126-Nasjonal-sandkasse-for-digital-lommebok-produkt-canvas-v1-codex.md">Nasjonal sandkasse for digital lommebok</a></h3>
-    <p class="capability-product-link__description">har et konkret ta-i-bruk-løp for brukersteder og andre aktører som skal koble seg til sandkassen</p>
+    <p class="capability-product-link__description">Ressursen er laget for at brukersteder og andre aktører skal kunne integrere og teste sine løsninger mot felles oppsett.</p>
   </article>
 </div>

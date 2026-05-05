@@ -4,7 +4,7 @@ headerTitle: "Datautveksling og integrasjon - Meldingsformidling"
 eyebrow: "Kapabilitet"
 weight: 3
 description: "Evnen til å garantere levering og meldingsrekkefølge til rett mottaker."
-cardMeta: "12 produkter"
+cardMeta: "13 produkter"
 ---
 
 Evnen til å garantere levering og meldingsrekkefølge til rett mottaker.
@@ -55,17 +55,22 @@ Evnen til å garantere levering og meldingsrekkefølge til rett mottaker.
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/27-FIKS-SvarUt-produkt-canvas-v3-codex.md">Fiks SvarUt</a></h3>
-    <p class="capability-product-link__description">fordeler dokumenter til flere mottakerkanaler gjennom ett sentralisert utsendingsløp.</p>
+    <p class="capability-product-link__description">Fiks SvarUt sin kjernefunksjon er å motta, rute og levere dokumentforsendelser til riktig kanal og mottaker.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/35-e-resept-produkt-canvas-v1-codex.md">e-resept</a></h3>
-    <p class="capability-product-link__description">e-resept formidler reseptinformasjon digitalt mellom forskriver, apotek og andre relevante aktører.</p>
+    <p class="capability-product-link__description">Produktets kjerne er sikker formidling av reseptrelatert informasjon mellom forskrivere, apotek og andre berørte aktører.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/57-SvarInn-produkt-canvas-v1-codex.md">SvarInn</a></h3>
     <p class="capability-product-link__description">henter innkommende forsendelser fra SvarUt og leverer dem videre til mottakersystemene gjennom et standardisert mottaksløp.</p>
+  </article>
+  <article class="capability-product-link resource-type--operative">
+    <p class="capability-product-link__type">Operativ løsning</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/96-KS-Bekymringsmelding-produkt-canvas-v1-codex.md">KS Bekymringsmelding</a></h3>
+    <p class="capability-product-link__description">Produktets kjerne er trygg transport og levering av bekymringsmeldinger mellom avsender og riktig mottak i kommunen.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>

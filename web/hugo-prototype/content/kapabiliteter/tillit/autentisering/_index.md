@@ -4,7 +4,7 @@ headerTitle: "Tillit - Autentisering"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å på en sikker og entydig måte verifisere den digitale identiteten til brukere og systemer."
-cardMeta: "9 produkter"
+cardMeta: "10 produkter"
 ---
 
 Evne til å på en sikker og entydig måte verifisere den digitale identiteten til brukere og systemer.
@@ -50,11 +50,16 @@ Evne til å på en sikker og entydig måte verifisere den digitale identiteten t
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/119-Ansattporten-v1-codex.md">Ansattporten</a></h3>
-    <p class="capability-product-link__description">er kjernefunksjonen ved at Ansattporten verifiserer identitet for ansatte i offentlig sektor.</p>
+    <p class="capability-product-link__description">Ansattporten verifiserer identitet i ansattkontekst og er kjernefunksjonen i ressursen.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/126-Nasjonal-sandkasse-for-digital-lommebok-produkt-canvas-v1-codex.md">Nasjonal sandkasse for digital lommebok</a></h3>
-    <p class="capability-product-link__description">gir et felles testmiljø for å prøve ut innlogging og identitetsbekreftelse med digital lommebok</p>
+    <p class="capability-product-link__description">Sandkassen brukes til å prøve ut innlogging og identitetsbekreftelse med digital lommebok.</p>
+  </article>
+  <article class="capability-product-link resource-type--normative">
+    <p class="capability-product-link__type">Normerende ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/138-Veileder-for-virksomhetsautentisering-v1-codex.md">Veileder for virksomhetsautentisering</a></h3>
+    <p class="capability-product-link__description">Veilederen støtter `Tillit: Autentisering` ved å beskrive hvordan mottakerens identitet kan fastslås mer presist enn på virksomhetsnivå alene, særlig når standard virksomhetssertifikat ikke er tilstrekkelig.</p>
   </article>
 </div>

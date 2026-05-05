@@ -4,7 +4,7 @@ headerTitle: "Standardisering - Forvaltningsstandarder"
 eyebrow: "Kapabilitet"
 weight: 2
 description: "Evne til å implementere og ta i bruk nasjonale standarder."
-cardMeta: "19 produkter"
+cardMeta: "20 produkter"
 ---
 
 Evne til å implementere og ta i bruk nasjonale standarder.
@@ -50,12 +50,12 @@ Evne til å implementere og ta i bruk nasjonale standarder.
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/71-FINT-Arkiv-v1-codex.md">FINT Arkiv</a></h3>
-    <p class="capability-product-link__description">bygger på et standardisert informasjons- og integrasjonsmønster som reduserer lokale særvarianter i arkivløp.</p>
+    <p class="capability-product-link__description">Løsningen bidrar til standardisert utveksling av arkivinformasjon på tvers av ulike sak-/arkivsystemer og leverandører.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/72-FINT-Informasjonsmodell-v1-codex.md">FINT Informasjonsmodell</a></h3>
-    <p class="capability-product-link__description">fungerer som et omforent normerende grunnlag for hvordan informasjon skal representeres og utveksles i FINT.</p>
+    <p class="capability-product-link__description">Ressursen fungerer som et omforent normerende grunnlag for hvordan informasjon skal representeres og utveksles innenfor de delene av fylkeskommunal samhandling som FINT dekker.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
@@ -100,11 +100,16 @@ Evne til å implementere og ta i bruk nasjonale standarder.
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/112-Digitaliseringsrundskrivet-v1-codex.md">Digitaliseringsrundskrivet</a></h3>
-    <p class="capability-product-link__description">gir føringer som standardiserer forventninger til hvordan statlige virksomheter skal arbeide med digitalisering.</p>
+    <p class="capability-product-link__description">Rundskrivet peker på krav og forventninger som gjør at virksomheter må forholde seg mer systematisk til standarder, arkitektur og felles praksis.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v0-codex.md">Digitaliseringsvennlig regelverk</a></h3>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v1-codex.md">Digitaliseringsvennlig regelverk</a></h3>
     <p class="capability-product-link__description">gir anbefalinger og sjekklister for hvordan regelverk kan utformes og vurderes mer digitaliseringsvennlig.</p>
+  </article>
+  <article class="capability-product-link resource-type--normative">
+    <p class="capability-product-link__type">Normerende ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v1-codex.md">Forskrift om IT-standarder i offentlig forvaltning</a></h3>
+    <p class="capability-product-link__description">Forskriften støtter `Standardisering: Forvaltningsstandarder` ved å fastsette hvilke standarder som er obligatoriske eller må vurderes i offentlig forvaltning, og dermed gi et bindende felles grunnlag for standardvalg.</p>
   </article>
 </div>

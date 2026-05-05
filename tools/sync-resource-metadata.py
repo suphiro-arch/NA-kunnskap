@@ -140,35 +140,53 @@ def parse_register() -> dict[int, dict]:
     return rows
 
 
-def extract_capabilities_from_markdown(path: Path) -> list[str]:
-    labels: list[str] = []
+def extract_capabilities_from_markdown(path: Path) -> list[dict]:
+    items: list[dict] = []
     lines = path.read_text(encoding="utf-8-sig").splitlines()
     in_section = False
+    pending: dict | None = None
     for raw in lines:
         line = raw.rstrip()
         if CAP_SECTION_PATTERN.match(line):
             in_section = True
             continue
         if in_section and line.startswith("## "):
+            if pending:
+                items.append(pending)
             break
         if not in_section:
             continue
         match = BULLET_PATTERN.match(line.strip())
-        if not match:
+        if match:
+            if pending:
+                items.append(pending)
+            label = match.group("label").strip()
+            pending = {"label": label, "explanation": ""}
             continue
-        label = match.group("label").strip()
-        if ":" in label:
-            _, sub = label.split(":", 1)
-            label = sub.strip()
-        labels.append(label)
-    return labels
+        if pending and line.strip():
+            text = line.strip()
+            pending["explanation"] = f"{pending['explanation']} {text}".strip()
+    if pending:
+        items.append(pending)
+
+    normalized: list[dict] = []
+    for item in items:
+        label = item["label"].replace("**", "").strip()
+        explanation = item["explanation"].strip()
+        if not label:
+            continue
+        lookup_label = label.split(":", 1)[1].strip() if ":" in label else label
+        normalized.append({"label": lookup_label, "mapping_label": label, "explanation": explanation})
+    return normalized
 
 
-def build_capability_entries(product_name: str, labels: list[str], main_lookup: dict[str, dict], sub_lookup: dict[str, dict]) -> list[dict]:
+def build_capability_entries(product_name: str, labels: list[dict], main_lookup: dict[str, dict], sub_lookup: dict[str, dict]) -> list[dict]:
     entries: list[dict] = []
     seen: set[tuple[str, str]] = set()
 
-    for label in labels:
+    for item in labels:
+        label = item["label"]
+        source_explanation = item.get("explanation", "").strip()
         if label in sub_lookup:
             sub = sub_lookup[label]
             key = (sub["parent_name"], sub["name"])
@@ -184,7 +202,7 @@ def build_capability_entries(product_name: str, labels: list[str], main_lookup: 
                     "subcapability_name": sub["name"],
                     "subcapability_slug": sub["slug"],
                     "mapping_label": f"{sub['parent_name']}: {sub['name']}",
-                    "explanation": f"Foreløpig automatisk opprettet kobling for {product_name} basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.",
+                    "explanation": source_explanation or f"Foreløpig automatisk opprettet kobling for {product_name} basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.",
                 }
             )
             continue
@@ -204,7 +222,7 @@ def build_capability_entries(product_name: str, labels: list[str], main_lookup: 
                     "subcapability_name": "",
                     "subcapability_slug": "",
                     "mapping_label": main["name"],
-                    "explanation": f"Foreløpig automatisk opprettet hovedkapabilitet for {product_name} basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.",
+                    "explanation": source_explanation or f"Foreløpig automatisk opprettet hovedkapabilitet for {product_name} basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.",
                 }
             )
 
@@ -226,6 +244,13 @@ def sync(apply_changes: bool) -> int:
         if register_entry is None:
             continue
 
+        markdown_labels = extract_capabilities_from_markdown(latest_entry["path"])
+        label_explanations = {}
+        for item in markdown_labels:
+            label_explanations[item["mapping_label"]] = item.get("explanation", "").strip()
+            if ":" in item["mapping_label"]:
+                label_explanations[item["mapping_label"].split(":", 1)[1].strip()] = item.get("explanation", "").strip()
+
         existing = by_id.get(product_id)
         if existing:
             if existing.get("product_name") != register_entry["product_name"]:
@@ -244,11 +269,22 @@ def sync(apply_changes: bool) -> int:
             if existing.get("product_url") != product_url:
                 existing["product_url"] = product_url
                 changes.append(f"Oppdaterte product_url for {product_id}")
+
+            updated_any = False
+            for cap in existing.get("capabilities", []):
+                label = cap.get("mapping_label") or cap.get("subcapability_name") or cap.get("capability_name")
+                better = label_explanations.get(label, "").strip()
+                current = (cap.get("explanation") or "").strip()
+                if better and current != better:
+                    cap["explanation"] = better
+                    updated_any = True
+            if updated_any:
+                changes.append(f"Oppdaterte forklaringer i mapping for {product_id}")
             continue
 
-        labels = register_entry["capability_labels"]
-        if not labels:
-            labels = extract_capabilities_from_markdown(latest_entry["path"])
+        labels = [{"label": label, "mapping_label": label, "explanation": ""} for label in register_entry["capability_labels"]]
+        if markdown_labels:
+            labels = markdown_labels
 
         capabilities = build_capability_entries(register_entry["product_name"], labels, main_lookup, sub_lookup)
         products.append(

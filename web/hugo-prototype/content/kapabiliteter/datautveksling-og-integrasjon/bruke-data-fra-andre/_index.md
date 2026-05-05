@@ -60,7 +60,7 @@ Evne til å gjenbruke data fra andre i egne tjenester og prosesser.
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/35-e-resept-produkt-canvas-v1-codex.md">e-resept</a></h3>
-    <p class="capability-product-link__description">e-resept inngår i et samhandlingsløp der flere aktører bruker og oppdaterer relevant informasjon.</p>
+    <p class="capability-product-link__description">e-resept inngår i et samspill der flere aktører og systemer bruker og oppdaterer reseptinformasjon på tvers av etablerte grensesnitt.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
@@ -80,7 +80,7 @@ Evne til å gjenbruke data fra andre i egne tjenester og prosesser.
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/63-microdata-no-produkt-canvas-v1-codex.md">microdata.no</a></h3>
-    <p class="capability-product-link__description">microdata.no bygger på bruk av data fra flere registre og kilder som stilles til rådighet i plattformen.</p>
+    <p class="capability-product-link__description">Tjenesten bygger på at data fra ulike registre og kilder gjøres tilgjengelige i en kontrollert modell for videre analyse.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
@@ -100,12 +100,12 @@ Evne til å gjenbruke data fra andre i egne tjenester og prosesser.
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/70-FINT-Felleskomponent-v1-codex.md">FINT Felleskomponent</a></h3>
-    <p class="capability-product-link__description">gir konsumenter et felles løp for å hente og bruke data fra fylkeskommunale kildesystemer.</p>
+    <p class="capability-product-link__description">Ressursen gir konsumenter et felles grunnlag for å hente og bruke data fra fylkeskommunale kildesystemer uten å forholde seg til hvert enkelt system på proprietært vis.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/71-FINT-Arkiv-v1-codex.md">FINT Arkiv</a></h3>
-    <p class="capability-product-link__description">gir fagsystemer og andre tjenester et standardisert løp for å bruke data fra foretrukket sak- og arkivsystem.</p>
+    <p class="capability-product-link__description">Fagsystemer og integrasjoner kan hente og bruke arkivinformasjon via en felles og standardisert flate, i stedet for å bygge proprietære koblinger mot hvert arkivsystem.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>

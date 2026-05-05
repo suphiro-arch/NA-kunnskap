@@ -3,7 +3,7 @@ title: "Informasjonssikkerhet"
 eyebrow: "Kapabilitet"
 weight: 7
 description: "Evne til å ha tilstrekkelig sikkerhet i tjenester og løsninger som benyttes i felles økosystem."
-cardMeta: "2 delkapabiliteter / 18 produkter"
+cardMeta: "2 delkapabiliteter / 19 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -79,6 +79,10 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v0-codex.md">Felles sikkerhet i forvaltningen</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/138-Veileder-for-virksomhetsautentisering-v1-codex.md">Veileder for virksomhetsautentisering</a></h3>
     </article>
   </div>
 ---

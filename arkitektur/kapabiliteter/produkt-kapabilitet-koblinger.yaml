@@ -3264,10 +3264,10 @@
         {
             "product_id": 103,
             "product_name": "Nasjonalt veikart",
-            "version": 1,
+            "version": 2,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/103-Nasjonalt-veikart-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/103-Nasjonalt-veikart-v1-codex.md",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/103-Nasjonalt-veikart-v2-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/103-Nasjonalt-veikart-v2-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
@@ -3277,7 +3277,7 @@
                     "subcapability_name": "Samordning",
                     "subcapability_slug": "samordning",
                     "mapping_label": "Strategisk styring: Samordning",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Nasjonalt veikart basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Veikartet støtter `Strategisk styring: Samordning` ved å samle kunnskapsgrunnlag, prioritering og oppfølging av tiltak som må ses i sammenheng på tvers av virksomheter og sektorer."
                 },
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
@@ -3287,7 +3287,7 @@
                     "subcapability_name": "Organisatorisk samhandling",
                     "subcapability_slug": "organisatorisk-samhandling",
                     "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Nasjonalt veikart basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Veikartet støtter `Strategisk styring: Samordning` ved å samle vurderinger av hvilke tiltak som bør prioriteres og ses i sammenheng på tvers av virksomheter. Det støtter `Samarbeid: Organisatorisk samhandling` ved at virksomheter, KS, Skate, Digdir og departementer får tydeligere roller i å melde inn behov, løfte tiltak og følge dem opp i felles strukturer."
                 }
             ]
         },
@@ -4488,6 +4488,66 @@
                     "subcapability_slug": "datastyring",
                     "mapping_label": "Informasjonsforvaltning: Datastyring",
                     "explanation": "KPR understøtter nasjonal styring og finansiering av kommunale helse- og omsorgstjenester gjennom systematisk dataforvaltning."
+                }
+            ]
+        },
+        {
+            "product_id": 137,
+            "product_name": "Forskrift om IT-standarder i offentlig forvaltning",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
+                    "capability_name": "Standardisering",
+                    "capability_slug": "standardisering",
+                    "subcapability_id": "id-b99fcd8160d24e5f8ea3c17b15072f7a",
+                    "subcapability_name": "Forvaltningsstandarder",
+                    "subcapability_slug": "forvaltningsstandarder",
+                    "mapping_label": "Standardisering: Forvaltningsstandarder",
+                    "explanation": "Forskriften støtter `Standardisering: Forvaltningsstandarder` ved å fastsette hvilke standarder som er obligatoriske eller må vurderes i offentlig forvaltning, og dermed gi et bindende felles grunnlag for standardvalg."
+                },
+                {
+                    "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
+                    "capability_name": "Strategisk styring",
+                    "capability_slug": "strategisk-styring",
+                    "subcapability_id": "id-dabf94e621f644ffa53ebb44dcc9ff79",
+                    "subcapability_name": "Arkitekturstyring",
+                    "subcapability_slug": "arkitekturstyring",
+                    "mapping_label": "Strategisk styring: Arkitekturstyring",
+                    "explanation": "Forskriften støtter `Standardisering: Forvaltningsstandarder` ved å fastsette hvilke standarder som er obligatoriske eller må vurderes i offentlig forvaltning. Den støtter `Strategisk styring: Arkitekturstyring` ved å gi et rettslig premiss for hvordan virksomheter bør forankre standardvalg i styring, krav og arkitekturbeslutninger."
+                }
+            ]
+        },
+        {
+            "product_id": 138,
+            "product_name": "Veileder for virksomhetsautentisering",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/138-Veileder-for-virksomhetsautentisering-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/138-Veileder-for-virksomhetsautentisering-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
+                    "capability_name": "Tillit",
+                    "capability_slug": "tillit",
+                    "subcapability_id": "id-ec0afaac123d4f9e83889d9022a198c3",
+                    "subcapability_name": "Autentisering",
+                    "subcapability_slug": "autentisering",
+                    "mapping_label": "Tillit: Autentisering",
+                    "explanation": "Veilederen støtter `Tillit: Autentisering` ved å beskrive hvordan mottakerens identitet kan fastslås mer presist enn på virksomhetsnivå alene, særlig når standard virksomhetssertifikat ikke er tilstrekkelig."
+                },
+                {
+                    "capability_id": "id-48c9873ae59341a49c2dca27379fab55",
+                    "capability_name": "Informasjonssikkerhet",
+                    "capability_slug": "informasjonssikkerhet",
+                    "subcapability_id": "id-34d3d64b3afe4327a29ee6c2f7f74dff",
+                    "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
+                    "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling",
+                    "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
+                    "explanation": "Veilederen støtter `Tillit: Autentisering` ved å beskrive hvordan mottakerens identitet kan fastslås mer presist enn på virksomhetsnivå alene. Den støtter `Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling` ved å knytte identifisering, adressering, sertifikatbehandling, logging og sporing til trygg praktisk gjennomføring av datadeling."
                 }
             ]
         }

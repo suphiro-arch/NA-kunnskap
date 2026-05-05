@@ -87,6 +87,7 @@ Følg reglene under.
 - Ved revisjon: vis eksplisitt hvilke deler som er forbedret i analysen, ikke bare i språk/drakt
 - Ved ny versjon av en eksisterende ressurs: oppdater også dokumentlenken i `arkitektur/ressurser/produktnummerering.md`.
 - Hvis ressursen finnes i `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml`, oppdater `version`, `author`, `relative_path` og `product_url` til den nye filen.
+- En oppdatering av en ressursbeskrivelse er ikke ferdig før også `produktnummerering.md` og relevant kapabilitetsmapping er oppdatert.
 - Ved nye eller endrede kapabilitetskoblinger kan `python tools/sync-resource-metadata.py --apply` brukes for å synkronisere metadata og opprette førsteutkast, men koblingene må fortsatt vurderes faglig.
 - Skriv resultatet som en selvstendig ressursbeskrivelse for målgruppen, ikke som referat av hva som står på nettsider eller i dokumentasjon
 - Unngå formuleringer som "nettsiden sier", "forsiden viser", "kilden beskriver" i selve hovedteksten; bruk heller dette kun i kildegrunnlag eller når du markerer usikkerhet/kildekonflikt

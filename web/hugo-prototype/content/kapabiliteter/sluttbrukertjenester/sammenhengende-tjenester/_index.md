@@ -4,7 +4,7 @@ headerTitle: "Sluttbrukertjenester - Sammenhengende tjenester"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å levere en digital brukerorienterte tjenester som fremstår som en logisk og uavbrutt prosess for brukeren, selv når den involverer og koordinerer handlinger og tjenester fra flere, uavhengige virksomheter."
-cardMeta: "18 produkter"
+cardMeta: "20 produkter"
 ---
 
 Evne til å levere en digital brukerorienterte tjenester som fremstår som en logisk og uavbrutt prosess for brukeren, selv når den involverer og koordinerer handlinger og tjenester fra flere, uavhengige virksomheter.
@@ -40,12 +40,12 @@ Evne til å levere en digital brukerorienterte tjenester som fremstår som en lo
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/27-FIKS-SvarUt-produkt-canvas-v3-codex.md">Fiks SvarUt</a></h3>
-    <p class="capability-product-link__description">lar mottakeren nås gjennom ulike kanaler via ett samlet utsendingsløp.</p>
+    <p class="capability-product-link__description">Fiks SvarUt bidrar til en mer sammenhengende mottakeropplevelse ved at samme forsendelse kan nå fram gjennom riktig kanal uten at avsender bygger ulike løsninger per kanal. Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot dokumentert funksjon i KS Digitals produkt- og utviklerdokumentasjon kontrollert 2026-03-25.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v1-codex.md">Helsedata.no</a></h3>
-    <p class="capability-product-link__description">Helsedata.no samler veiledning og tilgangsløp i en sammenhengende nasjonal brukerflate.</p>
+    <p class="capability-product-link__description">Portalen binder sammen orientering, veiledning og søknadsløp i en helhetlig brukerreise.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
@@ -70,17 +70,27 @@ Evne til å levere en digital brukerorienterte tjenester som fremstår som en lo
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v1-codex.md">VIGO</a></h3>
-    <p class="capability-product-link__description">gir en samlet løsning for prosesser som søking, inntak og administrativ oppfølging i videregående opplæring.</p>
+    <p class="capability-product-link__description">Ressursen knytter sammen søknad, inntak, fagopplæring, oppfølging og flere andre arbeidsprosesser i et samlet sektorløp.</p>
+  </article>
+  <article class="capability-product-link resource-type--operative">
+    <p class="capability-product-link__type">Operativ løsning</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/80-VIGO-portalen-v1-codex.md">VIGO-portalen</a></h3>
+    <p class="capability-product-link__description">VIGO-portalen samler flere VIGO-tjenester i én inngang og reduserer fragmentering i brukerreisen.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/93-Fiks-Digisos-produkt-canvas-v1-codex.md">Fiks Digisos</a></h3>
-    <p class="capability-product-link__description">Soker kan sende soknad, ettersende dokumentasjon og folge saken i en sammenhengende digital brukerreise.</p>
+    <p class="capability-product-link__description">Soker kan sende soknad, ettersende dokumentasjon og folge saksgang i en sammenhengende brukerreise pa nav.no.</p>
+  </article>
+  <article class="capability-product-link resource-type--operative">
+    <p class="capability-product-link__type">Operativ løsning</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/96-KS-Bekymringsmelding-produkt-canvas-v1-codex.md">KS Bekymringsmelding</a></h3>
+    <p class="capability-product-link__description">Tjenesten gir én digital inngang for innsending, veiledning og mottak, med fallback til alternative kanaler ved behov.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/97-MinKommune-produkt-canvas-v1-codex.md">MinKommune</a></h3>
-    <p class="capability-product-link__description">MinKommune samler post, faktura, eiendom, byggesaker og oppgaver i en felles innbyggerflate.</p>
+    <p class="capability-product-link__description">MinKommune samler flere kommunale tjenester i en felles innbyggerreise fremfor separate innlogginger og grensesnitt.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
@@ -89,17 +99,17 @@ Evne til å levere en digital brukerorienterte tjenester som fremstår som en lo
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v0-codex.md">Klart språk</a></h3>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v1-codex.md">Klart språk</a></h3>
     <p class="capability-product-link__description">styrker forståelige og sammenhengende brukerreiser ved å gjøre språk og kommunikasjon lettere å forstå.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/118-Felles-designsystem-v1-codex.md">Felles designsystem</a></h3>
-    <p class="capability-product-link__description">bidrar til mer helhetlige og gjenkjennelige brukeropplevelser på tvers av digitale tjenester.</p>
+    <p class="capability-product-link__description">Designspråk og gjenbrukbare komponenter bidrar til mer helhetlige brukeropplevelser på tvers av tjenester.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/128-SYSVAK-produkt-canvas-v1-codex.md">SYSVAK</a></h3>
-    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for SYSVAK basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+    <p class="capability-product-link__description">SYSVAK-data inngår i sammenhengende tjenesteforløp der innbygger og helsepersonell møter samme oppdaterte vaksinasjonsgrunnlag.</p>
   </article>
 </div>

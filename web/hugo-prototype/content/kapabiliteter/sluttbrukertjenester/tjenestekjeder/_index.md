@@ -4,7 +4,7 @@ headerTitle: "Sluttbrukertjenester - Tjenestekjeder"
 eyebrow: "Kapabilitet"
 weight: 2
 description: "Evne til å dynamisk sette sammen, koordinere og automatisere flyten av informasjon og prosesser på tvers av uavhengige, integrerbare tjenester for å levere en komplett ende-til-ende-tjeneste for brukeren."
-cardMeta: "5 produkter"
+cardMeta: "6 produkter"
 ---
 
 Evne til å dynamisk sette sammen, koordinere og automatisere flyten av informasjon og prosesser på tvers av uavhengige, integrerbare tjenester for å levere en komplett ende-til-ende-tjeneste for brukeren.
@@ -29,8 +29,13 @@ Evne til å dynamisk sette sammen, koordinere og automatisere flyten av informas
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/80-VIGO-portalen-v1-codex.md">VIGO-portalen</a></h3>
+    <p class="capability-product-link__description">Portalen knytter sammen flere moduler i utdanningsløpet, slik at brukere kan bevege seg mellom relaterte funksjoner i samme økosystem.</p>
+  </article>
+  <article class="capability-product-link resource-type--operative">
+    <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/97-MinKommune-produkt-canvas-v1-codex.md">MinKommune</a></h3>
-    <p class="capability-product-link__description">Portalen binder sammen flere kommunale og nasjonale kontaktpunkter i samme tjenestekjede for innbygger.</p>
+    <p class="capability-product-link__description">Portalen kobler sammen post, faktura, eiendom, byggesak og skjema i kjeder som understotter oppgave- og saksoppfolging over tid.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>

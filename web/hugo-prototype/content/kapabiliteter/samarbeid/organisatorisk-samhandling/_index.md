@@ -4,7 +4,7 @@ headerTitle: "Samarbeid - Organisatorisk samhandling"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evnen til å effektivisere forretningsprosesser og verdikjeder på tvers av organisatoriske grenser."
-cardMeta: "19 produkter"
+cardMeta: "20 produkter"
 ---
 
 Evnen til å effektivisere forretningsprosesser og verdikjeder på tvers av organisatoriske grenser.
@@ -40,7 +40,7 @@ Evnen til å effektivisere forretningsprosesser og verdikjeder på tvers av orga
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/27-FIKS-SvarUt-produkt-canvas-v3-codex.md">Fiks SvarUt</a></h3>
-    <p class="capability-product-link__description">gir kommuner og andre offentlige virksomheter et felles mønster for dokumentutsending.</p>
+    <p class="capability-product-link__description">Løsningen muliggjør et felles utsendingsløp mellom kommuner, andre offentlige virksomheter og sentrale mottakerkanaler.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
@@ -50,7 +50,7 @@ Evnen til å effektivisere forretningsprosesser og verdikjeder på tvers av orga
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/35-e-resept-produkt-canvas-v1-codex.md">e-resept</a></h3>
-    <p class="capability-product-link__description">e-resept er en felles nasjonal samhandlingsløsning for reseptprosesser i helsesektoren.</p>
+    <p class="capability-product-link__description">e-resept muliggjør en koordinert arbeidsdeling mellom flere virksomheter i helsesektoren rundt samme reseptløp.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
@@ -80,7 +80,7 @@ Evnen til å effektivisere forretningsprosesser og verdikjeder på tvers av orga
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v1-codex.md">VIGO</a></h3>
-    <p class="capability-product-link__description">samler flere fylkeskommuner og aktører rundt felles prosesser og dataflyt for inntak og administrasjon i videregående opplæring.</p>
+    <p class="capability-product-link__description">VIGO er en felles løsning eid og finansiert i fellesskap av fylkeskommunene og Oslo kommune, og brukes i samhandling mellom flere aktører i utdanningssektoren.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
@@ -90,7 +90,12 @@ Evnen til å effektivisere forretningsprosesser og verdikjeder på tvers av orga
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/93-Fiks-Digisos-produkt-canvas-v1-codex.md">Fiks Digisos</a></h3>
-    <p class="capability-product-link__description">Fiks Digisos kobler NAV, kommuner og kommunale fagsystem i et felles samhandlingslop for sosialhjelp.</p>
+    <p class="capability-product-link__description">Fiks Digisos kobler NAV, kommuner, KS Digital og fagsystemleverandorer i et felles operativt samhandlingslop for sosialhjelp.</p>
+  </article>
+  <article class="capability-product-link resource-type--operative">
+    <p class="capability-product-link__type">Operativ løsning</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/96-KS-Bekymringsmelding-produkt-canvas-v1-codex.md">KS Bekymringsmelding</a></h3>
+    <p class="capability-product-link__description">Løsningen støtter samhandling mellom innbyggere, offentlige meldere, barnevern og systemleverandører i samme prosess.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
@@ -99,12 +104,12 @@ Evnen til å effektivisere forretningsprosesser og verdikjeder på tvers av orga
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/103-Nasjonalt-veikart-v0-codex.md">Nasjonalt veikart</a></h3>
-    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Nasjonalt veikart basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/103-Nasjonalt-veikart-v2-codex.md">Nasjonalt veikart</a></h3>
+    <p class="capability-product-link__description">Veikartet støtter `Strategisk styring: Samordning` ved å samle vurderinger av hvilke tiltak som bør prioriteres og ses i sammenheng på tvers av virksomheter. Det støtter `Samarbeid: Organisatorisk samhandling` ved at virksomheter, KS, Skate, Digdir og departementer får tydeligere roller i å melde inn behov, løfte tiltak og følge dem opp i felles strukturer.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/129-MSIS-produkt-canvas-v1-codex.md">MSIS</a></h3>
-    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for MSIS basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+    <p class="capability-product-link__description">MSIS understøtter koordinering mellom helsemyndigheter, smittevernmiljø og tjenesteaktører i beredskapsarbeid.</p>
   </article>
 </div>
