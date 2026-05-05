@@ -318,6 +318,204 @@ def search_ssb_statistics(query: str, limit: int = 5) -> str:
 
 
 # ---------------------------------------------------------------------------
+# Kvalitetssjekk av ressursbeskrivelser
+# ---------------------------------------------------------------------------
+
+# Felt som må være substansielt utfylt per mal-type (v1-krav)
+_REQUIRED_FIELDS_OPERATIVE = [
+    "## Navn",
+    "## Ressurs ID",
+    "## Status/Livsfase",
+    "## Modenhet",
+    "## Kort beskrivelse",
+    "## Kapabiliteter",
+    "## Produktmål",
+    "## Brukerbehov",
+    "## Hvem er brukerne",
+    "## Hovedfunksjoner",
+]
+
+_REQUIRED_FIELDS_NORMERENDE = [
+    "## Navn",
+    "## Ressurs ID",
+    "## Status/Livsfase",
+    "## Kort beskrivelse",
+    "## Formål og normerende rolle",
+    "## Forpliktelsesnivå",
+    "## Kapabiliteter",
+    "## Målgruppe",
+    "## Normerende innhold",
+    "## Bruksområde",
+    "## Scope og avgrensning",
+    "## Relasjon til andre ressurser",
+    "## Lenke til dokumentasjon",
+]
+
+_REQUIRED_FIELDS_SAMARBEIDSFORUM = [
+    "## Navn",
+    "## Ressurs ID",
+    "## Status/Livsfase",
+    "## Kort beskrivelse",
+    "## Formål",
+    "## Kapabiliteter",
+    "## Medlemmer",
+    "## Mandat",
+    "## Møtestruktur",
+]
+
+# Markører for ufullstendige felt
+_INCOMPLETE_MARKERS = [
+    "foreløpig ikke fylt ut",
+    "tbd",
+    "todo",
+    "ikke fastsatt ennå",
+    "under utarbeidelse",
+    "[fyll inn",
+    "ikke utfylt",
+]
+
+# Kanoniske kapabilitetsnavn (hentes dynamisk fra capabilities.yaml)
+def _load_canonical_capability_names() -> set:
+    path = REPO_ROOT / "arkitektur" / "kapabiliteter" / "capabilities.yaml"
+    try:
+        data = yaml.safe_load(path.read_text(encoding="utf-8"))
+        names = set()
+        for kap in data.get("kapabilitetsmodell", {}).get("kapabiliteter", []):
+            names.add(kap["navn"])
+            for del_kap in kap.get("delkapabiliteter", []):
+                names.add(del_kap["navn"])
+        return names
+    except Exception:
+        return set()
+
+
+@mcp.tool()
+def check_resource_completeness(filename: str) -> str:
+    """
+    Sjekk kvaliteten og fullstendigheten av en ressursbeskrivelse.
+    Kontrollerer at obligatoriske felt er til stede og substansielt utfylt,
+    at kapabiliteter bruker kanoniske navn, og at ingen felt inneholder
+    ufullstendige plassholdere.
+
+    Støtter operative ressurser, normerende ressurser og samarbeidsfora.
+    Kapabiliteter merket med selvstendig: true i capabilities.yaml er gyldige
+    operative enheter på lik linje med delkapabiliteter.
+
+    Args:
+        filename: Filnavn, f.eks. "01-ID-porten-produkt-canvas-v3-codex.md"
+    """
+    if "/" in filename or "\\" in filename or filename.startswith("."):
+        return "Ugyldig filnavn."
+
+    content = None
+    for subdir in ["operative-losninger-og-tjenester", "normerende-ressurser", "samarbeidsfora"]:
+        base = REPO_ROOT / "arkitektur" / "ressurser" / subdir
+        path = (base / filename).resolve()
+        if not str(path).startswith(str(base.resolve())):
+            return "Ugyldig filnavn."
+        if path.exists():
+            content = path.read_text(encoding="utf-8")
+            resource_type = subdir
+            break
+
+    if content is None:
+        return f"Fant ikke ressursfilen: {filename}"
+
+    # Velg riktig sjekkliste basert på type
+    if resource_type == "operative-losninger-og-tjenester":
+        required = _REQUIRED_FIELDS_OPERATIVE
+        type_label = "Operativ ressurs"
+    elif resource_type == "normerende-ressurser":
+        required = _REQUIRED_FIELDS_NORMERENDE
+        type_label = "Normerende ressurs"
+    else:
+        required = _REQUIRED_FIELDS_SAMARBEIDSFORUM
+        type_label = "Samarbeidsforum"
+
+    issues = []
+    warnings = []
+    content_lower = content.lower()
+
+    # 1. Sjekk at obligatoriske seksjoner finnes
+    for field in required:
+        if field.lower() not in content_lower:
+            issues.append(f"Mangler seksjon: `{field}`")
+
+    # 2. Sjekk at felt ikke er tomme eller inneholder plassholdere
+    lines = content.split("\n")
+    current_heading = None
+    heading_content: dict[str, list] = {}
+    for line in lines:
+        if line.startswith("## "):
+            current_heading = line.strip()
+            heading_content[current_heading] = []
+        elif current_heading:
+            heading_content[current_heading].append(line)
+
+    # Felt der én linje med verdi er tilstrekkelig
+    _SHORT_OK = {"## navn", "## ressurs id", "## ressurskategori",
+                 "## status/livsfase", "## type normerende ressurs", "## modenhet"}
+
+    for heading, body_lines in heading_content.items():
+        body = " ".join(body_lines).strip()
+        min_len = 2 if heading.lower() in _SHORT_OK else 20
+        if len(body) < min_len:
+            issues.append(f"Feltinnhold for kort (muligens tomt): `{heading}`")
+        else:
+            for marker in _INCOMPLETE_MARKERS:
+                if marker in body.lower():
+                    warnings.append(f"Mulig plassholder i `{heading}`: inneholder «{marker}»")
+                    break
+
+    # 3. Sjekk kapabilitetsnavn mot kanonisk liste
+    canonical = _load_canonical_capability_names()
+    if canonical:
+        kap_section = heading_content.get("## Kapabiliteter", [])
+        kap_text = "\n".join(kap_section)
+        # Finn bold-markerte kapabilitetsnavn: **Navn**
+        mentioned = re.findall(r"\*\*([^*]+)\*\*", kap_text)
+        # Filtrer bort → (arrownotasjon brukes for delkapabiliteter)
+        mentioned_names = [m.split("→")[-1].strip() for m in mentioned]
+        non_canonical = [n for n in mentioned_names if n and n not in canonical]
+        if non_canonical:
+            warnings.append(
+                f"Mulige ikke-kanoniske kapabilitetsnavn i Kapabiliteter-seksjonen: "
+                + ", ".join(f"«{n}»" for n in non_canonical[:8])
+            )
+
+    # 4. Versjon
+    version_match = re.search(r"v(\d+)\.?(\d*)", filename)
+    if version_match:
+        major = int(version_match.group(1))
+        if major >= 1 and issues:
+            warnings.insert(0, f"⚠️ Filen er merket som v{major}, men har {len(issues)} manglende felt.")
+
+    # Bygg rapport
+    title = lines[0].lstrip("#").strip() if lines else filename
+    result = [f"## Kvalitetssjekk: {title}", f"Type: {type_label} | Fil: {filename}", ""]
+
+    if not issues and not warnings:
+        result.append("✅ Ingen problemer funnet. Ressursen ser fullstendig ut.")
+    else:
+        if issues:
+            result.append(f"### ❌ Mangler ({len(issues)})")
+            for i in issues:
+                result.append(f"- {i}")
+            result.append("")
+        if warnings:
+            result.append(f"### ⚠️ Advarsler ({len(warnings)})")
+            for w in warnings:
+                result.append(f"- {w}")
+
+    result.append("")
+    result.append(
+        f"Totalt: {len(issues)} mangler, {len(warnings)} advarsler. "
+        f"Sjekket mot mal for «{type_label}»."
+    )
+    return "\n".join(result)
+
+
+# ---------------------------------------------------------------------------
 # Eurostat
 # ---------------------------------------------------------------------------
 

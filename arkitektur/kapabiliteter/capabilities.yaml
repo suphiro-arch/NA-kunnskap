@@ -12,6 +12,8 @@ kapabilitetsmodell:
     - En kapabilitet er fullverdig selv om delkapabiliteter er tom liste.
     - Prioritering og relevans vurderes ut fra navn, beskrivelse, prinsippkobling og casekontekst.
     - Fravær av delkapabiliteter betyr ikke lavere viktighet.
+    - Kapabiliteter merket med selvstendig: true har ingen delkapabiliteter og behandles som
+      sin egen operative enhet i analyser, på lik linje med en delkapabilitet i andre kapabiliteter.
 
   kapabiliteter:
 
@@ -327,6 +329,7 @@ kapabilitetsmodell:
     - id: id-299fc063873a4f278a1d3c0ac9480467
       navn: Juridisk samhandling
       ikon: scale
+      selvstendig: true
       beskrivelse: >
         Evne til å etablere, forvalte og formidle et helhetlig juridisk rammeverk som
         muliggjør og regulerer sikker og effektiv digital samhandling.
@@ -338,6 +341,7 @@ kapabilitetsmodell:
     - id: id-c0547226c598467a942dced879d0c18b
       navn: Veiledning
       ikon: book-open
+      selvstendig: true
       beskrivelse: >
         Evne til at veiledninger for digital samhandling utarbeides og benyttes i
         felles økosystem.
