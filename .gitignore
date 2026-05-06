@@ -1,0 +1,7 @@
+.venv/
+**/__pycache__/
+*.pyc
+.vscode/mcp.json
+print/
+print/presentasjoner/*.pptx
+print/presentasjoner/*.png

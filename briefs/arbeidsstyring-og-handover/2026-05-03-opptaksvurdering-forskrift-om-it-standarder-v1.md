@@ -1,4 +1,4 @@
----
+﻿---
 date: 2026-05-03
 author: codex
 status: aktiv
@@ -61,11 +61,14 @@ Det kan også være grunnlag for sekundær kobling til kapabiliteter som berøre
 
 Opprett en første ressursbeskrivelse i `arkitektur/ressurser/normerende-ressurser/` med utgangspunkt i:
 
-- [normerende-ressurs-canvas.system.md](/c:/Users/HILROS/NA-kunnskap/config/prompts/normerende-ressurs-canvas.system.md)
-- [normerende-ressurs-template.md](/c:/Users/HILROS/NA-kunnskap/config/templates/normerende-ressurs-template.md)
+- [normerende-ressurs-canvas.system.md](/config/prompts/normerende-ressurs-canvas.system.md)
+- [normerende-ressurs-template.md](/config/templates/normerende-ressurs-template.md)
 
 Beskrivelsen bør være streng på:
 
 - forskjellen mellom forskrift og referansekatalog
 - hva som er plikt, anbefaling og forvaltningspraksis
 - hvilke typer analyse- og beslutningssituasjoner ressursen faktisk er nyttig i
+
+
+

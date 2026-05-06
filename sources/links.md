@@ -1,4 +1,4 @@
-# Nasjonale fellestjenester og felleskomponenter
+﻿# Nasjonale fellestjenester og felleskomponenter
 
 Formål: Samlet lenkeliste over nasjonale fellesløsninger, sektorkilder og relevante standarder og veiledningsressurser.
 Sist redigert: 2026-05-05.
@@ -10,7 +10,7 @@ Sist redigert: 2026-05-05.
 - Samlet teknisk dokumentasjon: https://docs.digdir.no/
 - Samarbeidsportalen: https://samarbeid.digdir.no/
 - Om Samarbeidsportalen: https://samarbeid.digdir.no/digital-postkasse/om-samarbeidsportalen/82 (lagt til 2026-04-10)
-- Digdirs virkemiddeloversikt (råkilde i repo): /c:/Users/HILROS/NA-kunnskap/sources/2026-04-10-digdir-virkemiddeloversikt-raw.md (lagt til 2026-04-10)
+- Digdirs virkemiddeloversikt (råkilde i repo): /sources/2026-04-10-digdir-virkemiddeloversikt-raw.md (lagt til 2026-04-10)
 - Altinn: https://www.altinn.no
 - Altinn dokumentasjon: https://docs.altinn.studio/nb/ (mest oppdatert for Altinn)
 - Altinn - tjenesteutvikling: https://samarbeid.digdir.no/altinn/tjenesteutvikling/2634
@@ -409,3 +409,6 @@ Sist redigert: 2026-05-05.
 - Riksadvokaten: https://www.riksadvokaten.no/
 - Påtaleinstitusjonene: https://www.domstolverket.no/organisation/prosecuting-authority/
 - Politiet: https://www.politiet.no/
+
+
+

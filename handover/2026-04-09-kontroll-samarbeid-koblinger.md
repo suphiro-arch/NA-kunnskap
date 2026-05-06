@@ -17,7 +17,7 @@ Det er derfor ikke mulig å verifisere 1:1 fra råfilen at alle løsningene unde
 
 ## Kontroll av ny XML-eksport (2025-04-09)
 
-En fullstendig analyse av [2025-04-09-Nasjonal Arkitektur.xml](C:/Users/HILROS/OneDrive%20-%20Digitaliseringsdirektoratet/Prosjekt_Regvil%2041%20Nasjonal%20Arkitektur%20-%20General/05.%20Arbeidsdokumenter/Kapabilitetsarbeid/Archi-modell/Eksport/2025-04-09-Nasjonal%20Arkitektur.xml) over alle 54 kapabiliteter bekrefter:
+En fullstendig analyse av `Nasjonal Arkitektur.xml` (lokal eksport fra 2025-04-09, ikke sjekket inn i repo) over alle 54 kapabiliteter bekrefter:
 
 - **Ingen kapabiliteter** har direkte relasjoner til navngitte løsninger/produkter (elementtype `Resource`).
 - To kapabiliteter (`Domenekapabilitet`, `Strategisk kapabilitet (overordnet)`) peker til generiske ressursplassholdere uten produktnavn.

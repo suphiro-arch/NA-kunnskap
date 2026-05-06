@@ -1,9 +1,0 @@
-{
-  "servers": {
-    "arkifix-mcp": {
-      "type": "stdio",
-      "command": "c:\\Users\\HILROS\\NA-kunnskap\\.venv\\Scripts\\python.exe",
-      "args": ["c:\\Users\\HILROS\\NA-kunnskap\\tools\\mcp_server.py"]
-    }
-  }
-}

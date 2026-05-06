@@ -1,4 +1,4 @@
-# Avviksrapport: XML mot kapabilitets- og prinsippgrunnlag
+﻿# Avviksrapport: XML mot kapabilitets- og prinsippgrunnlag
 
 Dato: 2026-03-18  
 Kildegrunnlag:
@@ -53,9 +53,9 @@ XML-modellen kobler `Datautveksling og integrasjon` til:
 I `capabilities.yaml` var bare `P4` med. `P6` manglet.
 
 Status:
-- Rettet i [capabilities.yaml](c:/Users/HILROS/NA-kunnskap/arkitektur/kapabiliteter/capabilities.yaml)
-- Synket i [principles.md](c:/Users/HILROS/NA-kunnskap/arkitektur/prinsipper/principles.md)
-- Synket i [prinsipper/_index.md](c:/Users/HILROS/NA-kunnskap/web/hugo-prototype/content/prinsipper/_index.md)
+- Rettet i [capabilities.yaml](arkitektur/kapabiliteter/capabilities.yaml)
+- Synket i [principles.md](arkitektur/prinsipper/principles.md)
+- Synket i [prinsipper/_index.md](web/hugo-prototype/content/prinsipper/_index.md)
 
 ## Bevisste avgrensninger i YAML
 
@@ -89,7 +89,7 @@ Konsekvens:
 - det bør ikke blandes inn i `capabilities.yaml` uten videre
 
 Status:
-- opprettet [maal.md](c:/Users/HILROS/NA-kunnskap/arkitektur/maal/maal.md) som første kuraterte måloversikt
+- opprettet [maal.md](arkitektur/maal/maal.md) som første kuraterte måloversikt
 
 ## Ressurskoblinger i XML
 
@@ -103,7 +103,7 @@ Eksplisitte koblinger i XML:
 Dette er modelltekniske eller generiske relasjoner, ikke operative koblinger mellom konkrete produkter og kapabiliteter.
 
 Konsekvens:
-- XML-kilden kan ikke brukes som erstatning for [produkt-kapabilitet-koblinger.yaml](c:/Users/HILROS/NA-kunnskap/arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml)
+- XML-kilden kan ikke brukes som erstatning for [produkt-kapabilitet-koblinger.yaml](arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml)
 - repoets eksisterende masterfil for produkter og kapabiliteter må fortsatt være autoritativ for denne koblingen
 
 ## Utførte endringer i denne runden
@@ -118,3 +118,6 @@ Konsekvens:
 1. Bruk `capabilities.yaml` som kuratert master for kapabilitetsstrukturen.
 2. Bruk `principles.md` som tilsvarende kildefil for prinsippene.
 3. Behold XML-fila som råkilde og dokumenter avvik eksplisitt når modellen blir videre kuratert.
+
+
+
