@@ -44,23 +44,23 @@ Evne til å effektivisere, etablere, forvalte og fasilitere arenaer, nettverk og
   </article>
   <article class="capability-product-link resource-type--forum">
     <p class="capability-product-link__type">Samarbeidsforum</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/122-NIFS-v0-codex.md">NIFS</a></h3>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/122-NIFS-v1-codex.md">NIFS</a></h3>
     <p class="capability-product-link__description">Forumet er en møteplass som binder sammen fagmiljøer på tvers av offentlig sektor.</p>
   </article>
   <article class="capability-product-link resource-type--forum">
     <p class="capability-product-link__type">Samarbeidsforum</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/123-DSOP-samarbeidet-v0-codex.md">DSOP-samarbeidet</a></h3>
-    <p class="capability-product-link__description">Forumet samler aktører på tvers av sektorer og legger til rette for samordnet utvikling.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/123-DSOP-samarbeidet-v1-codex.md">DSOP-samarbeidet</a></h3>
+    <p class="capability-product-link__description">DSOP er en varig samarbeidsstruktur som kobler offentlige virksomheter, finansnæringen og prosjektmiljø rundt felles initiativer.</p>
   </article>
   <article class="capability-product-link resource-type--forum">
     <p class="capability-product-link__type">Samarbeidsforum</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v0-codex.md">Felles sikkerhet i forvaltningen</a></h3>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v1-codex.md">Felles sikkerhet i forvaltningen</a></h3>
     <p class="capability-product-link__description">Ressursen bygger på tverrsektorielt samarbeid mellom aktører som veileder eller påvirker virksomhetene i offentlig sektor.</p>
   </article>
   <article class="capability-product-link resource-type--forum">
     <p class="capability-product-link__type">Samarbeidsforum</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/125-KI-Norge-v0-codex.md">KI Norge</a></h3>
-    <p class="capability-product-link__description">KI Norge er relevant som nasjonal arena for erfaringsdeling, dialog og koordinering mellom aktører som arbeider med kunstig intelligens.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/125-KI-Norge-v1-codex.md">KI Norge</a></h3>
+    <p class="capability-product-link__description">KI Norge samler offentlige virksomheter, regulatoriske aktører og økosystempartnere i en felles arena for erfaring, veiledning og samarbeid om KI.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>

@@ -4,7 +4,7 @@ headerTitle: "Strategisk styring - Samordning"
 eyebrow: "Kapabilitet"
 weight: 3
 description: "Evnen til å harmonisere og koordinere strategisk retning, beslutninger og ressursbruk på tvers av virksomheter, for å realisere felles samfunnsmål og sammenhengende tjenester."
-cardMeta: "11 produkter"
+cardMeta: "12 produkter"
 ---
 
 Evnen til å harmonisere og koordinere strategisk retning, beslutninger og ressursbruk på tvers av virksomheter, for å realisere felles samfunnsmål og sammenhengende tjenester.
@@ -49,7 +49,7 @@ Evnen til å harmonisere og koordinere strategisk retning, beslutninger og ressu
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/117-Kompetansemodell-for-digital-transformasjon-v0-codex.md">Kompetansemodell for digital transformasjon</a></h3>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/117-Kompetansemodell-for-digital-transformasjon-v1-codex.md">Kompetansemodell for digital transformasjon</a></h3>
     <p class="capability-product-link__description">gir et felles bilde av hvilke kompetanser virksomheter trenger for å lykkes med digital transformasjon.</p>
   </article>
   <article class="capability-product-link resource-type--forum">
@@ -59,12 +59,17 @@ Evnen til å harmonisere og koordinere strategisk retning, beslutninger og ressu
   </article>
   <article class="capability-product-link resource-type--forum">
     <p class="capability-product-link__type">Samarbeidsforum</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v0-codex.md">Felles sikkerhet i forvaltningen</a></h3>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/123-DSOP-samarbeidet-v1-codex.md">DSOP-samarbeidet</a></h3>
+    <p class="capability-product-link__description">DSOP balanserer gevinster, prioriteringer og ressursbruk på tvers av aktører som ikke deler samme styringslinje.</p>
+  </article>
+  <article class="capability-product-link resource-type--forum">
+    <p class="capability-product-link__type">Samarbeidsforum</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v1-codex.md">Felles sikkerhet i forvaltningen</a></h3>
     <p class="capability-product-link__description">Initiativet har som mål å skape felles retning, bedre rammebetingelser og mer samordnet veiledning på tvers av forvaltningen.</p>
   </article>
   <article class="capability-product-link resource-type--forum">
     <p class="capability-product-link__type">Samarbeidsforum</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/125-KI-Norge-v0-codex.md">KI Norge</a></h3>
-    <p class="capability-product-link__description">Ressursen støtter samordning fordi den inngår i en nasjonal satsing der det er behov for mer felles retning og koordinering på tvers av virksomheter.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/125-KI-Norge-v1-codex.md">KI Norge</a></h3>
+    <p class="capability-product-link__description">KI Norge skal være bindeledd mellom initiativer og gi mer samlet retning for ansvarlig utvikling og bruk av kunstig intelligens.</p>
   </article>
 </div>

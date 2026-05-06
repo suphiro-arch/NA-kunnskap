@@ -374,6 +374,12 @@ _INCOMPLETE_MARKERS = [
     "ikke utfylt",
 ]
 
+_RESOURCE_SUBDIRS = [
+    "operative-losninger-og-tjenester",
+    "normerende-ressurser",
+    "samarbeidsfora",
+]
+
 # Kanoniske kapabilitetsnavn (hentes dynamisk fra capabilities.yaml)
 def _load_canonical_capability_names() -> set:
     path = REPO_ROOT / "arkitektur" / "kapabiliteter" / "capabilities.yaml"
@@ -387,6 +393,60 @@ def _load_canonical_capability_names() -> set:
         return names
     except Exception:
         return set()
+
+
+def _extract_resource_id_and_version(filename: str) -> tuple[str | None, int]:
+    """Hent ressurs-ID (løpenummer) og major-versjon fra filnavn."""
+    id_match = re.match(r"^(\d+)-", filename)
+    version_match = re.search(r"-v(\d+)(?:[.-]|$)", filename, re.IGNORECASE)
+    resource_id = id_match.group(1) if id_match else None
+    version = int(version_match.group(1)) if version_match else 0
+    return resource_id, version
+
+
+def _collect_resource_files(latest_only: bool) -> list[tuple[str, str]]:
+    """Samle filer på tvers av ressurskategorier.
+
+    Returnerer liste med (subdir, filename).
+    """
+    if not latest_only:
+        all_files: list[tuple[str, str]] = []
+        for subdir in _RESOURCE_SUBDIRS:
+            base = REPO_ROOT / "arkitektur" / "ressurser" / subdir
+            if not base.exists():
+                continue
+            for path in sorted(base.glob("*.md")):
+                if not re.match(r"^\d+-.*\.md$", path.name):
+                    continue
+                all_files.append((subdir, path.name))
+        return all_files
+
+    # Velg én siste versjon per ressurs-ID innen hver ressurskategori.
+    latest: dict[tuple[str, str], tuple[int, str]] = {}
+    for subdir in _RESOURCE_SUBDIRS:
+        base = REPO_ROOT / "arkitektur" / "ressurser" / subdir
+        if not base.exists():
+            continue
+        for path in sorted(base.glob("*.md")):
+            if not re.match(r"^\d+-.*\.md$", path.name):
+                continue
+            resource_id, version = _extract_resource_id_and_version(path.name)
+            if resource_id is None:
+                # Fallback for filer uten nummerering i navnet.
+                key = (subdir, path.name)
+            else:
+                key = (subdir, resource_id)
+            current = latest.get(key)
+            if current is None or version > current[0] or (version == current[0] and path.name > current[1]):
+                latest[key] = (version, path.name)
+
+    selected: list[tuple[str, str]] = []
+    for key, value in latest.items():
+        subdir = key[0]
+        filename = value[1]
+        selected.append((subdir, filename))
+    selected.sort(key=lambda item: (item[0], item[1]))
+    return selected
 
 
 @mcp.tool()
@@ -408,7 +468,7 @@ def check_resource_completeness(filename: str) -> str:
         return "Ugyldig filnavn."
 
     content = None
-    for subdir in ["operative-losninger-og-tjenester", "normerende-ressurser", "samarbeidsfora"]:
+    for subdir in _RESOURCE_SUBDIRS:
         base = REPO_ROOT / "arkitektur" / "ressurser" / subdir
         path = (base / filename).resolve()
         if not str(path).startswith(str(base.resolve())):
@@ -513,6 +573,60 @@ def check_resource_completeness(filename: str) -> str:
         f"Sjekket mot mal for «{type_label}»."
     )
     return "\n".join(result)
+
+
+@mcp.tool()
+def check_all_resources_completeness(latest_only: bool = True) -> str:
+    """
+    Sjekk fullstendighet for alle ressursbeskrivelser.
+
+    Som standard sjekkes kun siste versjon per ressurs-ID i hver kategori.
+
+    Args:
+        latest_only: Hvis true, sjekk kun siste versjon per ressurs-ID.
+    """
+    files = _collect_resource_files(latest_only=latest_only)
+    if not files:
+        return "Fant ingen ressursfiler å sjekke."
+
+    summary_lines = [
+        "## Porteføljeanalyse: Fullstendighet av ressursbeskrivelser",
+        f"Totalt vurderte filer: {len(files)}",
+        f"Modus: {'Siste versjon per ressurs-ID' if latest_only else 'Alle versjoner'}",
+        "",
+    ]
+
+    total_missing = 0
+    total_warnings = 0
+    with_missing: list[tuple[str, int, int]] = []
+
+    for _, filename in files:
+        report = check_resource_completeness(filename)
+        match = re.search(r"Totalt:\s*(\d+) mangler,\s*(\d+) advarsler", report)
+        if not match:
+            continue
+        missing = int(match.group(1))
+        warnings = int(match.group(2))
+        total_missing += missing
+        total_warnings += warnings
+        if missing > 0 or warnings > 0:
+            with_missing.append((filename, missing, warnings))
+
+    summary_lines.append(f"Sum mangler: {total_missing}")
+    summary_lines.append(f"Sum advarsler: {total_warnings}")
+    summary_lines.append(f"Filer med funn: {len(with_missing)}")
+    summary_lines.append("")
+
+    if not with_missing:
+        summary_lines.append("✅ Ingen mangler eller advarsler funnet i valgt utvalg.")
+        return "\n".join(summary_lines)
+
+    with_missing.sort(key=lambda item: (-(item[1] + item[2]), item[0]))
+    summary_lines.append("### Filer med funn")
+    for filename, missing, warnings in with_missing:
+        summary_lines.append(f"- {filename}: {missing} mangler, {warnings} advarsler")
+
+    return "\n".join(summary_lines)
 
 
 # ---------------------------------------------------------------------------

@@ -9,6 +9,22 @@ topic: neste-steg
 
 ## Nytt siste steg
 
+- Forankret i [decisions.md](../briefs/decisions.md) at videre etablering av nye ressurser skal bruke analysen av ressursdekning og modenhet som eksplisitt prioriteringssignal, særlig for `bruke data fra andre`, `sammenhengende tjenester`, `datastyring`, `finansiering`, `juridisk samhandling`, `sanntidsdata` og `testdata`.
+
+- Opprettet [123-DSOP-samarbeidet-v1-codex.md](../arkitektur/ressurser/samarbeidsfora/123-DSOP-samarbeidet-v1-codex.md) og [125-KI-Norge-v1-codex.md](../arkitektur/ressurser/samarbeidsfora/125-KI-Norge-v1-codex.md) som oppgraderinger fra `v0` til `v1` i ukentlig ressursbatch 2026-05-06.
+- Oppdatert [produktnummerering.md](../arkitektur/ressurser/produktnummerering.md) og [produkt-kapabilitet-koblinger.yaml](../arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml) slik at `DIGDIR-055` og `DIGDIR-057` peker til v1-filer, og la til `Samordning` som eksplisitt kapabilitetskobling for `DIGDIR-055`.
+- Lagt inn batchrapport i [2026-05-06-ukentlig-ressursbatch-v1.md](./arbeidsstyring-og-handover/automatiske-rapporter/2026-05-06-ukentlig-ressursbatch-v1.md) med vurderte kandidater, faktiske endringer og forslag til neste pulje.
+
+- Opprettet [2026-05-05-ressursoversikt-og-gapanalyse.pptx](../print/presentasjoner/2026-05-05-ressursoversikt-og-gapanalyse.pptx) som oppsummerer ressursoversikten, kapabilitetsdekningen og de viktigste gapene i porteføljen.
+- Lagt inn [generate_resource_overview_presentation.ps1](../tools/generate_resource_overview_presentation.ps1) som gjenbrukbart script for å bygge eller oppdatere denne presentasjonen fra repoet.
+
+- Opprettet [117-Kompetansemodell-for-digital-transformasjon-v1-codex.md](../arkitektur/ressurser/normerende-ressurser/117-Kompetansemodell-for-digital-transformasjon-v1-codex.md), [122-NIFS-v1-codex.md](../arkitektur/ressurser/samarbeidsfora/122-NIFS-v1-codex.md) og [124-Felles-sikkerhet-i-forvaltningen-v1-codex.md](../arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v1-codex.md) som oppgraderinger fra v0 til v1 i ukentlig ressursbatch.
+- Oppdatert [produktnummerering.md](../arkitektur/ressurser/produktnummerering.md) og [produkt-kapabilitet-koblinger.yaml](../arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml) slik at `DIGDIR-049`, `DIGDIR-054` og `DIGDIR-056` peker til v1-filer.
+- Regenerert relevante oversikter i [web/hugo-prototype/content/ressursoversikt/_index.md](../web/hugo-prototype/content/ressursoversikt/_index.md) og berørte kapabilitetssider under `web/hugo-prototype/content/kapabiliteter/`.
+- Lagt inn batchrapport i [2026-05-05-ukentlig-ressursbatch-v1.md](./arbeidsstyring-og-handover/automatiske-rapporter/2026-05-05-ukentlig-ressursbatch-v1.md) med vurderte kandidater, faktiske endringer og forslag til neste pulje.
+
+- Opprettet [automatiske-rapporter/README.md](./arbeidsstyring-og-handover/automatiske-rapporter/README.md) som fast plassering for rapporter fra automatiske Codex-kjøringer mot repoet.
+- Opprettet [2026-05-05-prioritering-av-kapabiliteter-basert-pa-modenhet-og-ressursdekning.md](../analyser/Modenhetsanalyser/2026-05-05-prioritering-av-kapabiliteter-basert-pa-modenhet-og-ressursdekning.md) som kobler modenhetsanalyse mot ressursdekning fra `arkifix-mcp` og foreslår prioriterte kapabiliteter for videre innsats.
 - Opprettet [138-Veileder-for-virksomhetsautentisering-v1-codex.md](../arkitektur/ressurser/normerende-ressurser/138-Veileder-for-virksomhetsautentisering-v1-codex.md) som ny normerende ressurs for `DIGDIR-061`.
 - Oppdatert [produktnummerering.md](../arkitektur/ressurser/produktnummerering.md) med registerføring for `DIGDIR-061`.
 - Lagt til lenke i [sources/links.md](../sources/links.md) til Digdirs oversikt over veiledere og hjelpemidler for eID.
@@ -92,9 +108,15 @@ topic: neste-steg
 - Oppgradert `DIGDIR-035`, `DIGDIR-037` og `DIGDIR-038` fra v0 til v1 ✓
 - Register og kapabilitetskoblinger oppdatert for alle tre ✓
 
-**Neste steg – foreslatte kandidater (pulje 8):**
-- Vurdere `KS-011`, `KS-013` og `KS-014` pa nytt med samme kriterier for tversgaende NA-verdi som i pulje 3 og 4.
-- Ta en rask statuskontroll av `NOVARI-007`, `NOVARI-008` og `NOVARI-009` for om en av dem bor prioriteres foran KS-kandidatene i neste bolk.
+**Åttende pulje – gjennomført (2026-05-06):**
+- Oppgradert `DIGDIR-055` DSOP-samarbeidet fra `v0` til `v1` ✓
+- Oppgradert `DIGDIR-057` KI Norge fra `v0` til `v1` ✓
+- Register og kapabilitetskoblinger oppdatert for begge ✓
+
+**Neste steg – foreslåtte kandidater (pulje 9):**
+- Vurdere `DIGDIR-041` Kapabilitetskart (planlagt) på nytt mot nyere Digdir-kilder om nasjonal arkitektur og kapabilitetsoversikt.
+- Vurdere `DIGDIR-040` Kunnskapsgrunnlag - dataspaces på nytt bare hvis ressursidentiteten kan forankres tydeligere enn dagens generelle temaspor.
+- Ta en rask statuskontroll av `KS-011`, `KS-013` og `KS-014` mot dagens terskel for tverrgående NA-verdi før eventuelle nye sektorinterne løft.
 
 **Utsatt – lav NA-prioritet akkurat nå:**
 - `Kreftregisteret` – primærverdi er klinisk forskning; holdes utenfor uten tydeligere casebehov.
@@ -108,7 +130,7 @@ topic: neste-steg
 
 - Fortsette revisjon av eldre produktbeskrivelser sektorvis etter samme metode som for KS- og Altinn-rundene.
 - Følge opp kvaliteten i koblingene mellom produkter og kapabiliteter, særlig i eldre produktbeskrivelser der kapabilitetsseksjonen er svakere.
-- Vurdere om de normerende Digdir-ressursene som fortsatt er på `v0` bør få utfylt analysefeltene (`Forpliktelsesnivå og etterlevelse`, `Typiske analyse- og beslutningssituasjoner`, `Konsekvens ved manglende bruk`) før neste større bolk legges inn.
+- Vurdere om de siste normerende Digdir-ressursene som fortsatt er på `v0` (`DIGDIR-040` og `DIGDIR-041`) bør få utfylt analysefeltene (`Forpliktelsesnivå og etterlevelse`, `Typiske analyse- og beslutningssituasjoner`, `Konsekvens ved manglende bruk`) før neste større bolk legges inn.
 - Vurdere om FHI-sektoren skal utvides med flere kandidater, f.eks. Norsk pasientregister (NPR) eller Kreftregisteret.
 
 **Produktregisteret – konkrete valg som trengs:**

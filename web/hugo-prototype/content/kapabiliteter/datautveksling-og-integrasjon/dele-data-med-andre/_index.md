@@ -174,8 +174,8 @@ Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er, sl
   </article>
   <article class="capability-product-link resource-type--forum">
     <p class="capability-product-link__type">Samarbeidsforum</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/123-DSOP-samarbeidet-v0-codex.md">DSOP-samarbeidet</a></h3>
-    <p class="capability-product-link__description">Forumet er tett knyttet til offentlig-privat datadeling og utvikling av samhandlingsløsninger.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/123-DSOP-samarbeidet-v1-codex.md">DSOP-samarbeidet</a></h3>
+    <p class="capability-product-link__description">DSOP prioriterer og realiserer samhandlingsløp der offentlige virksomheter og finansnæringen deler data i standardiserte prosesser.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>

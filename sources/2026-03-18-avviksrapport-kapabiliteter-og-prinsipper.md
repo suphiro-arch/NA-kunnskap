@@ -1,4 +1,4 @@
-﻿# Avviksrapport: XML mot kapabilitets- og prinsippgrunnlag
+# Avviksrapport: XML mot kapabilitets- og prinsippgrunnlag
 
 Dato: 2026-03-18  
 Kildegrunnlag:

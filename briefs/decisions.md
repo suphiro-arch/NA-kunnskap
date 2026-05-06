@@ -10,6 +10,7 @@ sources: []
 
 | Dato | Tema | Beslutning | Begrunnelse | Eier |
 |---|---|---|---|---|
+| 2026-05-06 | Prioritering av nye ressurser | Videre vurdering av nye ressurskandidater skal bruke analysen av ressursdekning og modenhet som eksplisitt prioriteringssignal. Kandidater som styrker `bruke data fra andre`, `sammenhengende tjenester` og `datastyring`, eller som bygger opp blinde flekker som `finansiering`, `juridisk samhandling`, `sanntidsdata` og `testdata`, skal normalt vurderes først | Knytter etablering av nye ressurser tettere til porteføljens faktiske gap og gjør prioriteringene mer styrte enn ren sektorpuljing eller opportunistisk kandidatplukk | team |
 | 2026-03-06 | Struktur | Opprettet standardmaler | Bedre handoff mellom assistenter | team |
 | 2026-03-16 | Dokumentasjonsassistent | Første versjon skal være en åpen dokumentasjonsassistent på internett | Tydelig avgrenset MVP med lavere risiko enn full agent | team |
 | 2026-03-16 | Datagrunnlag | MVP skal bare bruke offentlig informasjon fra repoet | Reduserer lisens- og personvernrisiko | team |

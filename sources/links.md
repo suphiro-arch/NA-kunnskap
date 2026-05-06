@@ -1,4 +1,4 @@
-﻿# Nasjonale fellestjenester og felleskomponenter
+# Nasjonale fellestjenester og felleskomponenter
 
 Formål: Samlet lenkeliste over nasjonale fellesløsninger, sektorkilder og relevante standarder og veiledningsressurser.
 Sist redigert: 2026-05-05.
