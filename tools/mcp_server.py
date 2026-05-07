@@ -180,9 +180,22 @@ def search_norge_datasets(query: str, limit: int = 5) -> str:
             title = title_raw.get("nb", title_raw.get("no", title_raw.get("en", "Ukjent tittel")))
             desc_raw = h.get("description", {})
             desc = desc_raw.get("nb", desc_raw.get("no", desc_raw.get("en", "")))[:200]
-            publisher = h.get("publisher", {}).get("name", "Ukjent utgiver")
-            uri = h.get("id", "")
-            lines.append(f"**{title}**\nUtgiver: {publisher}\n{desc}\nURL: https://data.norge.no/datasets/{uri}\n")
+            org = h.get("organization", {})
+            publisher = org.get("name", h.get("publisher", {}).get("name", "Ukjent utgiver"))
+            publisher_uri = org.get("uri", h.get("publisher", {}).get("uri", "Ukjent"))
+            source_uri = h.get("uri", "Ukjent")
+            dataset_id = h.get("id", "")
+            catalog_url = f"https://data.norge.no/datasets/{dataset_id}" if dataset_id else "Ukjent"
+            modified = h.get("metadata", {}).get("modified", "Ukjent")
+            lines.append(
+                f"**{title}**\n"
+                f"Forvalter: {publisher}\n"
+                f"Forvalter-URI: {publisher_uri}\n"
+                f"Kilde-URI: {source_uri}\n"
+                f"Sist oppdatert: {modified}\n"
+                f"Katalog-URL: {catalog_url}\n"
+                f"{desc}\n"
+            )
         return "\n".join(lines)
     except Exception as e:
         return f"Feil ved oppslag mot data.norge.no: {e}"
@@ -213,8 +226,19 @@ def search_norge_concepts(query: str, limit: int = 5) -> str:
             term = title_raw.get("nb", title_raw.get("nn", title_raw.get("en", "Ukjent")))
             desc_raw = h.get("description", {})
             defn = desc_raw.get("nb", desc_raw.get("nn", desc_raw.get("en", "Ingen definisjon")))[:300]
-            publisher = h.get("organization", {}).get("name", "Ukjent")
-            lines.append(f"**{term}** ({publisher})\n{defn}\n")
+            org = h.get("organization", {})
+            publisher = org.get("name", "Ukjent")
+            publisher_uri = org.get("uri", "Ukjent")
+            source_uri = h.get("uri", "Ukjent")
+            modified = h.get("metadata", {}).get("modified", "Ukjent")
+            lines.append(
+                f"**{term}**\n"
+                f"Forvalter: {publisher}\n"
+                f"Forvalter-URI: {publisher_uri}\n"
+                f"Kilde-URI: {source_uri}\n"
+                f"Sist oppdatert: {modified}\n"
+                f"{defn}\n"
+            )
         return "\n".join(lines)
     except Exception as e:
         return f"Feil ved oppslag mot begrepskatalogen: {e}"
