@@ -45,6 +45,108 @@ Repo for arbeid med nasjonal arkitektur, produktbeskrivelser, kapabiliteter, pri
 2. Bruk `web/hugo-prototype/scripts/validate-text-encoding.py` for å validere encoding før build.
 3. GitHub Actions bygger og publiserer automatisk ved push til main.
 
+## Slik bruke innholdet med KI (utkast)
+
+Dette er en enkel oppskrift du kan bruke for å kombinere innholdet i repoet med din egen problemstilling, uten egen backend eller ekstra infrastruktur.
+
+Kort forklart: du beskriver problemet ditt, gir KI-en tilgang til relevant innhold, og ber den koble problemet til kapabiliteter og mulig gjenbruk i eksisterende løsninger.
+
+### Mål
+- gjøre repoet lett å bruke som åpen kunnskapskilde i vanlige KI-verktøy
+- sikre sporbarhet til konkrete filer i repoet
+- kombinere repoets innhold med annen relevant informasjon på en kontrollert måte
+
+### Hvem dette er for
+- deg som jobber med utviklingsbehov, prioritering eller arkitekturvalg
+- deg som ikke nødvendigvis bruker GitHub til daglig
+- deg som vil bruke KI til rask orientering før mer formell vurdering
+
+### Hva du gjør i praksis
+1. Skriv problemstillingen din så konkret du kan.
+2. Legg ved relevant innhold fra repoet på én av disse måtene:
+  - lim inn tekstutdrag direkte i KI-verktøyet
+  - legg ved lenke til nettsiden (Hugo-prototypen)
+  - legg ved lenke til fil i GitHub hvis du har den
+  - start gjerne med registerfila arkitektur/ressurser/produktnummerering.md for oversikt over ressurser og gjeldende versjoner
+3. Be KI-en peke ut hvilke kapabiliteter som er nødvendige for å løse behovet.
+4. Be KI-en foreslå hvilke eksisterende ressurser/løsninger som kan gjenbrukes.
+5. Be KI-en vise hva som mangler (gap), og hva du bør gjøre først med lav terskel og lav kost.
+
+### Lavterskel oppskrift (uten særlige kostnader)
+1. Beskriv behovet ditt så detaljert som mulig: mål, kontekst, aktører, dagens løsning, begrensninger, avhengigheter, risiko og hva du ønsker å beslutte.
+2. Be KI-en bruke repoet som hovedkilde, og bare supplere med annen informasjon når dette merkes tydelig.
+3. Be KI-en eksplisitt koble problemstillingen til hvilke kapabiliteter som må styrkes eller etableres.
+4. Be KI-en foreslå hvilke eksisterende ressurser/løsninger som kan gjenbrukes for hver nødvendig kapabilitet.
+5. Be KI-en vise gap mellom nødvendig kapabilitet og dagens ressursdekning, med forslag til lavterskel neste steg.
+
+### Anbefalt prompt-mal
+
+```text
+Du er faglig rådgiver for [sett inn virksomhet, sektor eller problemområde].
+Du henvender deg direkte til meg som bruker.
+
+Bruk innhold fra dette repoet som hovedgrunnlag:
+- arkitektur/ressurser/
+- arkitektur/ressurser/produktnummerering.md
+- arkitektur/kapabiliteter/capabilities.yaml
+- arkitektur/prinsipper/principles.md
+- arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml
+
+Oppgave:
+[Lim inn problemstilling, målgruppe og ønsket beslutning]
+
+Innhold du skal bruke:
+[Lim inn tekstutdrag, nettsidelenker eller fil-lenker her]
+
+Svarformat:
+1. Kort oppsummering av behov
+2. Nødvendige kapabiliteter for å løse behovet (med begrunnelse)
+3. Mulig gjenbruk: hvilke eksisterende ressurser/løsninger støtter hver kapabilitet
+4. Foreslåtte kombinasjoner av løsninger og hvorfor de henger sammen
+5. Gap og avklaringer før beslutning
+6. Konkrete neste steg (lav terskel, lav kost)
+
+Krav:
+- Skill mellom fakta, deduksjon og usikkerhet.
+- Henvis til konkrete filstier i repoet.
+- Forklar alltid hvordan kildene henger sammen med repoet (for eksempel registermaster -> ressursfil -> kapabilitetskobling).
+- Når det er nyttig for deling utenfor repoet, bruk full URL til fil (for eksempel https://github.com/<org>/<repo>/blob/main/<sti>) i tillegg til filsti.
+- Hvis du bruker ekstern informasjon, merk den eksplisitt som ekstern.
+```
+
+### Lenker og sporbarhet
+- Primærinngang for KI-bruk: https://github.com/suphiro-arch/NA-kunnskap/tree/main
+- Sekundær inngang for lesing og oversikt: https://suphiro-arch.github.io/NA-kunnskap/
+- Mange KI-verktøy forstår relative filstier godt når de har repoet tilgjengelig i samme kontekst.
+- Når svaret skal deles utenfor repo-kontekst, bruk fullstendige URL-er i tillegg til filstier.
+- Anbefaling: oppgi alltid begge deler når mottaker er ukjent:
+  - filsti i repo (for eksempel arkitektur/ressurser/produktnummerering.md)
+  - full URL til samme fil i GitHub
+
+Hvis du ikke bruker GitHub selv:
+- bruk nettsiden som enkel inngang for å finne tema og begreper
+- lim deretter inn GitHub-lenken over i KI-verktøyet og be verktøyet bruke repoet som hovedkilde
+- be KI-en oppgi hvilke filer og lenker den faktisk bygger rådene på
+
+For minst mulig manuell jobb:
+- start med én felles lenke til repoet (tree/main)
+- legg bare ved ekstra tekst hvis KI-svaret blir for generelt eller treffer dårlig
+
+### Minimumskrav for kvalitet
+- Ikke gi råd uten kildepeker til repoet.
+- Unngå generiske svar: anbefalinger skal forankres i konkret kobling mellom problemstilling -> kapabilitet -> mulig gjenbruk i løsninger.
+- Beskriv alltid hva som mangler for å kunne gi et tryggere svar.
+
+### Når denne metoden passer best
+- tidlig fase av problemavklaring
+- vurdering av gjenbruk før man lager nye tiltak
+- behov for rask oversikt med sporbare kilder
+
+### Når den ikke er nok alene
+- formelle juridiske vurderinger
+- anskaffelser eller styringsvedtak som krever kvalitetssikret beslutningsgrunnlag
+- saker med sensitivt eller ikke-offentlig datagrunnlag
+
 ## Rådata og bearbeiding
 - `sources/` inneholder råkilder, lenkelister og sammenligningsgrunnlag.
 - `sources/2025-03-18-Nasjonal Arkitektur.xml` er råmodellen for kapabiliteter, prinsipper og modellens målspor.
