@@ -10,6 +10,7 @@ sources: []
 
 | Dato | Tema | Beslutning | Begrunnelse | Eier |
 |---|---|---|---|---|
+| 2026-05-08 | Automatiske kjøringer | Automatiske Codex-kjøringer som oppretter eller endrer markdownfiler skal eksplisitt kjøre encoding-kontroll og rette eventuelle tegnkodingsfeil i samme kjøring, særlig når filer kan mates videre inn i ressursoversikten eller publiseringsflyten | Gjør kvalitetsporten tydelig og operativ og reduserer risikoen for at feil i arbeidslogger eller ressursnære tekstfiler sprer seg videre til generert innhold | team |
 | 2026-05-06 | Prioritering av nye ressurser | Videre vurdering av nye ressurskandidater skal bruke analysen av ressursdekning og modenhet som eksplisitt prioriteringssignal. Kandidater som styrker `bruke data fra andre`, `sammenhengende tjenester` og `datastyring`, eller som bygger opp blinde flekker som `finansiering`, `juridisk samhandling`, `sanntidsdata` og `testdata`, skal normalt vurderes først | Knytter etablering av nye ressurser tettere til porteføljens faktiske gap og gjør prioriteringene mer styrte enn ren sektorpuljing eller opportunistisk kandidatplukk | team |
 | 2026-03-06 | Struktur | Opprettet standardmaler | Bedre handoff mellom assistenter | team |
 | 2026-03-16 | Dokumentasjonsassistent (statusjustering) | Tidligere MVP-forslag flyttes fra beslutning til åpent vurderingsspor; ingen beslutning om realisering er tatt | Unngår å signalisere vedtak før prioritering, finansiering og eierskap er avklart | team |

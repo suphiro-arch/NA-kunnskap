@@ -73,6 +73,11 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Oppdater `briefs/decisions.md` når det tas varige metode- eller arkitekturvalg.
 - Bruk `briefs/decisions.md` som felles beslutningslogg på tvers av prosesser og arbeidsløp, i stedet for å opprette nye beslutningsdokumenter med mindre det finnes et tydelig særskilt behov.
 - Legg nye arbeidsdokumenter og handover-notater i `briefs/arbeidsstyring-og-handover/` når de ikke hører hjemme i `results/`.
+- Når `arkitektur/ressurser/produktnummerering.md` eller `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml` oppdateres til å peke på en ny eller høyere ressursversjon, skal den aktuelle ressursfila være opprettet og sporet av Git i samme endringssett.
+- Det skal ikke innføres pekere fra register eller kapabilitetsmapping til ressursfiler som fortsatt er `untracked`.
 - Hvis nye generelle regler blir viktige for repoet, legg dem i denne fila heller enn å spre dem tilfeldig i enkeltfiler.
 
-
+## Automatiske kjøringer
+- Automatiske kjøringer som oppretter eller endrer markdownfiler skal eksplisitt kjøre encoding-kontroll før de avsluttes, ikke bare stole på visuell sjekk eller at hooks eventuelt fanger feil senere.
+- Hvis en automatisk kjøring endrer ressursbeskrivelser, `briefs/`, webgrunnlag eller andre tekstfiler som kan mates videre inn i ressursoversikten eller publiseringsflyten, skal mojibake rettes i samme kjøring før handover gis.
+- Hvis en automatisk kjøring oppretter nye ressursfiler eller andre filer som register, mapping eller publiseringsgrunnlag peker til, skal filene legges til i Git i samme kjøring før handover gis.

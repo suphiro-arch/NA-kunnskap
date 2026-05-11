@@ -24,8 +24,8 @@ Evnen til å harmonisere og koordinere strategisk retning, beslutninger og ressu
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/107-Kunnskapsgrunnlag-og-KPI-er-datadeling-v0-codex.md">Kunnskapsgrunnlag og KPI-er datadeling</a></h3>
-    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Kunnskapsgrunnlag og KPI-er datadeling basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/107-Kunnskapsgrunnlag-og-KPI-er-datadeling-v1-codex.md">Kunnskapsgrunnlag og KPI-er datadeling</a></h3>
+    <p class="capability-product-link__description">Gir et felles grunnlag for å sammenligne status, effekt og prioriteringsbehov i datadelingsarbeid på tvers av tiltak og virksomheter.</p>
   </article>
   <article class="capability-product-link resource-type--forum">
     <p class="capability-product-link__type">Samarbeidsforum</p>
@@ -50,26 +50,26 @@ Evnen til å harmonisere og koordinere strategisk retning, beslutninger og ressu
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/117-Kompetansemodell-for-digital-transformasjon-v1-codex.md">Kompetansemodell for digital transformasjon</a></h3>
-    <p class="capability-product-link__description">gir et felles bilde av hvilke kompetanser virksomheter trenger for å lykkes med digital transformasjon.</p>
+    <p class="capability-product-link__description">Modellen gir et felles språk for hvordan ledelse, styring og kompetansebygging kan samordnes rundt digital transformasjon i hele virksomheten.</p>
   </article>
   <article class="capability-product-link resource-type--forum">
     <p class="capability-product-link__type">Samarbeidsforum</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v1-codex.md">Styringsrådet for fellesløsningene</a></h3>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v2-codex.md">Styringsrådet for fellesløsningene</a></h3>
     <p class="capability-product-link__description">bidrar til prioritering og styring av Digdirs nasjonale fellesløsninger på tvers av brukere og tjenesteeiere.</p>
   </article>
   <article class="capability-product-link resource-type--forum">
     <p class="capability-product-link__type">Samarbeidsforum</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/123-DSOP-samarbeidet-v1-codex.md">DSOP-samarbeidet</a></h3>
-    <p class="capability-product-link__description">DSOP balanserer gevinster, prioriteringer og ressursbruk på tvers av aktører som ikke deler samme styringslinje.</p>
+    <p class="capability-product-link__description">DSOP prioriterer initiativer og balanserer gevinst og innsats på tvers av aktører som ellers ikke har én felles styringslinje.</p>
   </article>
   <article class="capability-product-link resource-type--forum">
     <p class="capability-product-link__type">Samarbeidsforum</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v1-codex.md">Felles sikkerhet i forvaltningen</a></h3>
-    <p class="capability-product-link__description">Initiativet har som mål å skape felles retning, bedre rammebetingelser og mer samordnet veiledning på tvers av forvaltningen.</p>
+    <p class="capability-product-link__description">FSIF arbeider eksplisitt med å samordne anbefalinger, veiledning og tiltak på et område der fragmentering ellers gir svakere effekt.</p>
   </article>
   <article class="capability-product-link resource-type--forum">
     <p class="capability-product-link__type">Samarbeidsforum</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/125-KI-Norge-v1-codex.md">KI Norge</a></h3>
-    <p class="capability-product-link__description">KI Norge skal være bindeledd mellom initiativer og gi mer samlet retning for ansvarlig utvikling og bruk av kunstig intelligens.</p>
+    <p class="capability-product-link__description">Arenaen skal være bindeledd mellom initiativer og bidra til mer samlet retning i hvordan KI tas i bruk på tvers av sektorer.</p>
   </article>
 </div>

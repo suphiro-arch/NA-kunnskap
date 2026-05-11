@@ -93,9 +93,9 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | 104 | `DIGDIR-036` | Orden i eget hus | Metodikk | Datastyring<br>Oversikt over datasett | [Åpne](../../arkitektur/ressurser/normerende-ressurser/104-Orden-i-eget-hus-v1-codex.md) |
 | 105 | `DIGDIR-037` | Rammeverk - nasjonale grunndata | Rammeverk | Grunndata<br>Samordning | [Åpne](../../arkitektur/ressurser/normerende-ressurser/105-Rammeverk-nasjonale-grunndata-v1-codex.md) |
 | 106 | `DIGDIR-038` | Nasjonal verktøykasse for deling av data | Veileder | Dele data med andre<br>Datastyring | [Åpne](../../arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v1-codex.md) |
-| 107 | `DIGDIR-039` | Kunnskapsgrunnlag og KPI-er datadeling | Kunnskapsgrunnlag | Samordning<br>Datastyring | [Åpne](../../arkitektur/ressurser/normerende-ressurser/107-Kunnskapsgrunnlag-og-KPI-er-datadeling-v0-codex.md) |
-| 108 | `DIGDIR-040` | Kunnskapsgrunnlag - dataspaces | Kunnskapsgrunnlag | Samarbeidsarenaer og nettverk<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/normerende-ressurser/108-Kunnskapsgrunnlag-dataspaces-v0-codex.md) |
-| 109 | `DIGDIR-041` | Kapabilitetskart (planlagt) | Kapabilitetsmodell | Arkitekturstyring<br>Datastyring | [Åpne](../../arkitektur/ressurser/normerende-ressurser/109-Kapabilitetskart-planlagt-v0-codex.md) |
+| 107 | `DIGDIR-039` | Kunnskapsgrunnlag og KPI-er datadeling | Kunnskapsgrunnlag | Samordning<br>Datastyring | [Åpne](../../arkitektur/ressurser/normerende-ressurser/107-Kunnskapsgrunnlag-og-KPI-er-datadeling-v1-codex.md) |
+| 108 | `DIGDIR-040` | Kunnskapsgrunnlag - dataspaces | Kunnskapsgrunnlag | Forvaltningsstandarder<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/normerende-ressurser/108-Kunnskapsgrunnlag-dataspaces-v1-codex.md) |
+| 109 | `DIGDIR-041` | Kapabilitetskart (planlagt) | Kapabilitetsmodell | Arkitekturstyring<br>Datastyring | [Åpne](../../arkitektur/ressurser/normerende-ressurser/109-Kapabilitetskart-planlagt-v1-codex.md) |
 | 110 | `DIGDIR-042` | Skate | Tverrsektoriell samordningsarena | Samarbeidsarenaer og nettverk<br>Samordning | [Åpne](../../arkitektur/ressurser/samarbeidsfora/110-Skate-v1-codex.md) |
 | 111 | `DIGDIR-043` | Digitaliseringsradet | Radgivende arena | Samarbeidsarenaer og nettverk<br>Arkitekturstyring | [Åpne](../../arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v1-codex.md) |
 | 112 | `DIGDIR-044` | Digitaliseringsrundskrivet | Rundskriv | Samordning<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/normerende-ressurser/112-Digitaliseringsrundskrivet-v1-codex.md) |
@@ -106,14 +106,14 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | 117 | `DIGDIR-049` | Kompetansemodell for digital transformasjon | Kompetansemodell | Samordning<br>Tjenestedesign | [Åpne](../../arkitektur/ressurser/normerende-ressurser/117-Kompetansemodell-for-digital-transformasjon-v1-codex.md) |
 | 118 | `DIGDIR-050` | Felles designsystem | Designsystem | Sammenhengende tjenester<br>Gjenbrukbare tjenester<br>Tjenestedesign | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/118-Felles-designsystem-v1-codex.md) |
 | 119 | `DIGDIR-051` | Ansattporten | Autentiseringstjeneste for ansatte | Sikring av informasjonsflyt og datautveksling<br>Autentisering<br>Integrerbare tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/119-Ansattporten-v1-codex.md) |
-| 120 | `DIGDIR-052` | Styringsrådet for fellesløsningene | Styringsråd | Samarbeidsarenaer og nettverk<br>Samordning | [Åpne](../../arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v1-codex.md) |
+| 120 | `DIGDIR-052` | Styringsrådet for fellesløsningene | Styringsråd | Samarbeidsarenaer og nettverk<br>Samordning | [Åpne](../../arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v2-codex.md) |
 | 121 | `DIGDIR-053` | Faglig arena for informasjonsforvaltning og deling av data | Faglig forum | Datastyring<br>Samarbeidsarenaer og nettverk | [Åpne](../../arkitektur/ressurser/samarbeidsfora/121-Faglig-arena-for-informasjonsforvaltning-og-deling-av-data-v1-codex.md) |
 | 122 | `DIGDIR-054` | NIFS | Nettverk for informasjonssikkerhet | Sikring av informasjonsflyt og datautveksling<br>Samarbeidsarenaer og nettverk | [Åpne](../../arkitektur/ressurser/samarbeidsfora/122-NIFS-v1-codex.md) |
 | 123 | `DIGDIR-055` | DSOP-samarbeidet | Offentlig-privat samhandlingsarena | Dele data med andre<br>Samarbeidsarenaer og nettverk<br>Samordning | [Åpne](../../arkitektur/ressurser/samarbeidsfora/123-DSOP-samarbeidet-v1-codex.md) |
 | 124 | `DIGDIR-056` | Felles sikkerhet i forvaltningen | Tverrsektorielt sikkerhetssamarbeid | Sikring av informasjonsflyt og datautveksling<br>Samarbeidsarenaer og nettverk<br>Samordning | [Åpne](../../arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v1-codex.md) |
 | 125 | `DIGDIR-057` | KI Norge | Nasjonal arena for kunstig intelligens | Samarbeidsarenaer og nettverk<br>Samordning | [Åpne](../../arkitektur/ressurser/samarbeidsfora/125-KI-Norge-v1-codex.md) |
 | 126 | `DIGDIR-058` | Nasjonal sandkasse for digital lommebok | Sandkasse og testmiljø for digital lommebok | Autentisering<br>Signering<br>Utviklings- og kjøretidsmiljø<br>Integrerbare tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/126-Nasjonal-sandkasse-for-digital-lommebok-produkt-canvas-v1-codex.md) |
-| 127 | `DIGDIR-059` | Samarbeidsportalen | Portal for forvaltning, informasjon og ta-i-bruk av fellesløsninger | Oversikt over tjenester<br>Tjenesteforvaltning<br>Samarbeidsarenaer og nettverk | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/127-Samarbeidsportalen-produkt-canvas-v1-codex.md) |
+| 127 | `DIGDIR-059` | Samarbeidsportalen | Portal for forvaltning, informasjon og ta-i-bruk av fellesløsninger | Oversikt over tjenester<br>Tjenesteforvaltning<br>Samarbeidsarenaer og nettverk | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/127-Samarbeidsportalen-produkt-canvas-v2-codex.md) |
 | 137 | `DIGDIR-060` | Forskrift om IT-standarder i offentlig forvaltning | Forskrift | Forvaltningsstandarder<br>Arkitekturstyring | [Åpne](../../arkitektur/ressurser/normerende-ressurser/137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v1-codex.md) |
 | 138 | `DIGDIR-061` | Veileder for virksomhetsautentisering | Veileder | Autentisering<br>Sikring av informasjonsflyt og datautveksling | [Åpne](../../arkitektur/ressurser/normerende-ressurser/138-Veileder-for-virksomhetsautentisering-v1-codex.md) |
 
@@ -177,7 +177,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | 128 | `FHI-001` | SYSVAK | Vaksinasjonsregister | Grunndata<br>Dele data med andre<br>Sammenhengende tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/128-SYSVAK-produkt-canvas-v1-codex.md) |
 | 129 | `FHI-002` | MSIS | Meldingssystem for smittsomme sykdommer | Grunndata<br>Dele data med andre<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/129-MSIS-produkt-canvas-v1-codex.md) |
 | 130 | `FHI-003` | Dødsårsaksregisteret | Dødsårsaksregister | Grunndata<br>Dele data med andre<br>Datastyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/130-Dodsarsaksregisteret-produkt-canvas-v1-codex.md) |
-| 131 | `FHI-004` | Reseptregisteret (NorPD) | Legemiddelregister | Grunndata<br>Dele data med andre<br>Datastyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/131-Reseptregisteret-NorPD-produkt-canvas-v1-codex.md) |
+| 131 | `FHI-004` | Reseptregisteret (NorPD) | Historisk legemiddelregister (2004-2021) | Grunndata<br>Dele data med andre<br>Datastyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/131-Reseptregisteret-NorPD-produkt-canvas-v2-codex.md) |
 | 135 | `FHI-005` | Norsk pasientregister (NPR) | Nasjonalt helseregister for spesialisthelsetjenesten | Grunndata<br>Dele data med andre<br>Datastyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v1-codex.md) |
 | 136 | `FHI-006` | Kommunalt pasient- og brukerregister (KPR) | Nasjonalt helseregister for kommunale helse- og omsorgstjenester | Grunndata<br>Dele data med andre<br>Datastyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v1-codex.md) |
 
@@ -189,7 +189,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 |---:|---|---|---|---|---|
 | 32 | `NHN-001` | Helsenorge | Innbyggerportal | Sammenhengende tjenester<br>Tjenestekjeder | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/32-Helsenorge-produkt-canvas-v1-codex.md) |
 | 33 | `NHN-002` | HelseID | Tillits- og autentiseringskomponent for helse | Bruke data fra andre<br>Sikring av informasjonsflyt og datautveksling<br>Autentisering<br>Tilgangskontroll | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/33-HelseID-produkt-canvas-v1-codex.md) |
-| 34 | `NHN-003` | Kjernejournal | Pasientdata | Bruke data fra andre<br>Dele data med andre<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/34-Kjernejournal-produkt-canvas-v1-codex.md) |
+| 34 | `NHN-003` | Kjernejournal | Pasientdata | Bruke data fra andre<br>Dele data med andre<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/34-Kjernejournal-produkt-canvas-v2-codex.md) |
 | 35 | `NHN-004` | e-resept | Reseptsystem | Bruke data fra andre<br>Meldingsformidling<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/35-e-resept-produkt-canvas-v1-codex.md) |
 | 79 | `NHN-005` | Videokonsultasjon (VIO) | Digital konsultasjonstjeneste | Sammenhengende tjenester<br>Dele data med andre | - |
 
@@ -207,7 +207,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 
 | Løpenr | Ressurs-ID | Navn | Type | Kapabiliteter | Dokument |
 |---:|---|---|---|---|---|
-| 36 | `NAV-001` | Aa-registeret | Arbeidsforhold | Grunndata<br>Bruke data fra andre<br>Dele data med andre<br>Sammenhengende tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/36-Aa-registeret-produkt-canvas-v1-codex.md) |
+| 36 | `NAV-001` | Aa-registeret | Arbeidsforholdsregister og delingstjeneste | Grunndata<br>Bruke data fra andre<br>Dele data med andre<br>Sammenhengende tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/36-Aa-registeret-produkt-canvas-v2-codex.md) |
 | 66 | `NAV-002` | NAIS | Plattform for applikasjoner | Gjenbrukbare tjenester<br>Utviklings- og kjøretidsmiljø | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/66-NAIS-produkt-canvas-v1-codex.md) |
 
 
@@ -254,7 +254,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | Løpenr | Ressurs-ID | Navn | Type | Kapabiliteter | Dokument |
 |---:|---|---|---|---|---|
 | 59 | `FLERE-001` | A-ordningen | Felles rapportering | Grunndata<br>Dele data med andre<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/59-A-ordningen-produkt-canvas-v1-codex.md) |
-| 62 | `FLERE-002` | DSOP-tjenester | Offentlig–privat datadeling | Dele data med andre<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/62-DSOP-tjenester-produkt-canvas-v1-codex.md) |
+| 62 | `FLERE-002` | DSOP-tjenester | Offentlig–privat datadeling | Dele data med andre<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/62-DSOP-tjenester-produkt-canvas-v2-codex.md) |
 
 
 

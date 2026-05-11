@@ -45,7 +45,7 @@ Evne til å sette brukerens behov, livssituasjon og helhetlige reise som utgangs
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/117-Kompetansemodell-for-digital-transformasjon-v1-codex.md">Kompetansemodell for digital transformasjon</a></h3>
-    <p class="capability-product-link__description">støtter utvikling av kompetanse som trengs for å lede og gjennomføre digital transformasjon og tjenesteutvikling.</p>
+    <p class="capability-product-link__description">Modellen understøtter tjenesteutvikling ved å løfte fram brukerorientering, tverrfaglighet og evnen til å utvikle bedre tjenester som del av transformasjonen.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>

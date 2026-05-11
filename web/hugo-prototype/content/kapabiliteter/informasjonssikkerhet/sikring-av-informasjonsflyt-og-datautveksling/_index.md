@@ -95,12 +95,12 @@ Kapabiliteten omfatter de tekniske og organisatoriske tiltakene som sikrer at in
   <article class="capability-product-link resource-type--forum">
     <p class="capability-product-link__type">Samarbeidsforum</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/122-NIFS-v1-codex.md">NIFS</a></h3>
-    <p class="capability-product-link__description">Forumet støtter kompetansedeling og felles forståelse på et sentralt område for sikker samhandling.</p>
+    <p class="capability-product-link__description">Nettverket støtter bedre praksis rundt sikker samhandling ved å dele erfaringer om hvordan offentlig sektor arbeider med informasjonssikkerhet i tjenester, leverandørstyring, kultur og etterlevelse.</p>
   </article>
   <article class="capability-product-link resource-type--forum">
     <p class="capability-product-link__type">Samarbeidsforum</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v1-codex.md">Felles sikkerhet i forvaltningen</a></h3>
-    <p class="capability-product-link__description">Initiativet retter seg direkte mot bedre styring, samordning og praksis for informasjonssikkerhet i offentlig forvaltning.</p>
+    <p class="capability-product-link__description">FSIF retter seg direkte mot bedre felles forutsetninger for sikker samhandling, deling av data og styring av risiko i sammenhengende tjenester.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>

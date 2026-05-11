@@ -44,13 +44,13 @@ Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er, sl
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/34-Kjernejournal-produkt-canvas-v1-codex.md">Kjernejournal</a></h3>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/34-Kjernejournal-produkt-canvas-v2-codex.md">Kjernejournal</a></h3>
     <p class="capability-product-link__description">Kjernejournal gjør utvalgte helseopplysninger tilgjengelige på tvers av behandlingssteder.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/36-Aa-registeret-produkt-canvas-v1-codex.md">Aa-registeret</a></h3>
-    <p class="capability-product-link__description">Aa-registeret gjør arbeidsforholdsdata tilgjengelige for offentlige etater og andre aktører med hjemmel.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/36-Aa-registeret-produkt-canvas-v2-codex.md">Aa-registeret</a></h3>
+    <p class="capability-product-link__description">Ressursen gjør arbeidsforholdsdata tilgjengelige gjennom standardiserte API-er, web-oppslag og uttrekk for virksomheter som har hjemmel og tjenstlig behov.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
@@ -119,7 +119,7 @@ Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er, sl
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/62-DSOP-tjenester-produkt-canvas-v1-codex.md">DSOP-tjenester</a></h3>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/62-DSOP-tjenester-produkt-canvas-v2-codex.md">DSOP-tjenester</a></h3>
     <p class="capability-product-link__description">DSOP-tjenestene muliggjør kontrollert datadeling mellom offentlige virksomheter og finansnæringen.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
@@ -169,13 +169,13 @@ Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er, sl
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/108-Kunnskapsgrunnlag-dataspaces-v0-codex.md">Kunnskapsgrunnlag - dataspaces</a></h3>
-    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Kunnskapsgrunnlag - dataspaces basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/108-Kunnskapsgrunnlag-dataspaces-v1-codex.md">Kunnskapsgrunnlag - dataspaces</a></h3>
+    <p class="capability-product-link__description">Er relevant fordi dataspaces i praksis handler om hvordan data kan tilgjengeliggjøres, deles og brukes på tvers av aktører med tydeligere felles rammer.</p>
   </article>
   <article class="capability-product-link resource-type--forum">
     <p class="capability-product-link__type">Samarbeidsforum</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/123-DSOP-samarbeidet-v1-codex.md">DSOP-samarbeidet</a></h3>
-    <p class="capability-product-link__description">DSOP prioriterer og realiserer samhandlingsløp der offentlige virksomheter og finansnæringen deler data i standardiserte prosesser.</p>
+    <p class="capability-product-link__description">DSOP er direkte knyttet til etablering av samhandlingsløsninger der offentlige virksomheter og finansnæringen deler data i standardiserte løp.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
@@ -194,8 +194,8 @@ Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er, sl
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/131-Reseptregisteret-NorPD-produkt-canvas-v1-codex.md">Reseptregisteret (NorPD)</a></h3>
-    <p class="capability-product-link__description">Data fra registeret gjøres tilgjengelig for forskning og analyse gjennom etablerte tilgangskanaler, etter søknad og godkjenning.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/131-Reseptregisteret-NorPD-produkt-canvas-v2-codex.md">Reseptregisteret (NorPD)</a></h3>
+    <p class="capability-product-link__description">Ressursen har ikke lenger et eget nytt søknadsløp, men data og variabelforståelse deles videre gjennom overgangen til Legemiddelregisteret og via historiske variabel- og dokumentasjonsspor.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>

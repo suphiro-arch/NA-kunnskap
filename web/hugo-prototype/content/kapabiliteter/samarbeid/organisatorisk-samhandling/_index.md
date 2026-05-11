@@ -44,7 +44,7 @@ Evnen til å effektivisere forretningsprosesser og verdikjeder på tvers av orga
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/34-Kjernejournal-produkt-canvas-v1-codex.md">Kjernejournal</a></h3>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/34-Kjernejournal-produkt-canvas-v2-codex.md">Kjernejournal</a></h3>
     <p class="capability-product-link__description">Kjernejournal støtter samhandling mellom helsevirksomheter gjennom felles tilgang til sentrale opplysninger.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
@@ -74,7 +74,7 @@ Evnen til å effektivisere forretningsprosesser og verdikjeder på tvers av orga
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/62-DSOP-tjenester-produkt-canvas-v1-codex.md">DSOP-tjenester</a></h3>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/62-DSOP-tjenester-produkt-canvas-v2-codex.md">DSOP-tjenester</a></h3>
     <p class="capability-product-link__description">DSOP bygger på organisert samhandling og felles utvikling mellom offentlig og privat sektor.</p>
   </article>
   <article class="capability-product-link resource-type--operative">

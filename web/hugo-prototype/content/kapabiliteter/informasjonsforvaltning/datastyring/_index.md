@@ -64,13 +64,13 @@ Evne til å sikre enhetlig og ansvarlig forvaltning av nasjonale dataressurser g
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/107-Kunnskapsgrunnlag-og-KPI-er-datadeling-v0-codex.md">Kunnskapsgrunnlag og KPI-er datadeling</a></h3>
-    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Kunnskapsgrunnlag og KPI-er datadeling basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/107-Kunnskapsgrunnlag-og-KPI-er-datadeling-v1-codex.md">Kunnskapsgrunnlag og KPI-er datadeling</a></h3>
+    <p class="capability-product-link__description">Gjør det lettere å strukturere hva som faktisk bør måles og følges opp når virksomheter arbeider mer systematisk med deling, bruk og styring av data.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/109-Kapabilitetskart-planlagt-v0-codex.md">Kapabilitetskart (planlagt)</a></h3>
-    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Kapabilitetskart (planlagt) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/109-Kapabilitetskart-planlagt-v1-codex.md">Kapabilitetskart (planlagt)</a></h3>
+    <p class="capability-product-link__description">Kan koble datadelingsbehov og informasjonsforvaltning til mer presise utviklings- og styringsbehov.</p>
   </article>
   <article class="capability-product-link resource-type--forum">
     <p class="capability-product-link__type">Samarbeidsforum</p>
@@ -84,8 +84,8 @@ Evne til å sikre enhetlig og ansvarlig forvaltning av nasjonale dataressurser g
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/131-Reseptregisteret-NorPD-produkt-canvas-v1-codex.md">Reseptregisteret (NorPD)</a></h3>
-    <p class="capability-product-link__description">Registeret understøtter nasjonal styring av legemiddeldomenet ved å tilby standardiserte, dokumenterte og kvalitetssikrede data.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/131-Reseptregisteret-NorPD-produkt-canvas-v2-codex.md">Reseptregisteret (NorPD)</a></h3>
+    <p class="capability-product-link__description">Overgangen til Legemiddelregisteret gjør Reseptregisteret relevant som eksempel på styrt videreføring av datadefinisjoner, variabler og tilgangsmodell over tid.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>

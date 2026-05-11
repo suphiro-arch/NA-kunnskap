@@ -24,8 +24,8 @@ Evne til å identifisere og formelt anerkjenne autoritative datakilder basert p�
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/36-Aa-registeret-produkt-canvas-v1-codex.md">Aa-registeret</a></h3>
-    <p class="capability-product-link__description">Aa-registeret er den nasjonale kilden for grunnleggende opplysninger om arbeidsforhold.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/36-Aa-registeret-produkt-canvas-v2-codex.md">Aa-registeret</a></h3>
+    <p class="capability-product-link__description">Aa-registeret er nasjonal kilde for grunnleggende opplysninger om arbeidsforhold og gir et felles referansegrunnlag som mange andre tjenester og vurderinger bygger på.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
@@ -119,8 +119,8 @@ Evne til å identifisere og formelt anerkjenne autoritative datakilder basert p�
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/131-Reseptregisteret-NorPD-produkt-canvas-v1-codex.md">Reseptregisteret (NorPD)</a></h3>
-    <p class="capability-product-link__description">Registeret er nasjonal autoritativ kilde for data om reseptutskriving og legemiddelutlevering, og gir et konsistent grunnlag for tverrsektoriell bruk.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/131-Reseptregisteret-NorPD-produkt-canvas-v2-codex.md">Reseptregisteret (NorPD)</a></h3>
+    <p class="capability-product-link__description">Reseptregisteret utgjør fortsatt det historiske nasjonale grunnlaget for reseptbaserte legemiddeldata for perioden 2004-2021, og denne perioden inngår nå i Legemiddelregisteret.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>

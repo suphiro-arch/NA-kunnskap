@@ -54,8 +54,8 @@ Evne til å levere en digital brukerorienterte tjenester som fremstår som en lo
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/36-Aa-registeret-produkt-canvas-v1-codex.md">Aa-registeret</a></h3>
-    <p class="capability-product-link__description">Aa-registeret gir arbeidsgivere og arbeidstakere innsyn i egne opplysninger som del av en sammenhengende offentlig tjeneste.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/36-Aa-registeret-produkt-canvas-v2-codex.md">Aa-registeret</a></h3>
+    <p class="capability-product-link__description">Arbeidsgivere og arbeidstakere får innsyn i egne opplysninger, og registeret inngår dermed også i sammenhengende bruker- og saksløp, ikke bare i maskinell deling.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>

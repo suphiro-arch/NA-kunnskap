@@ -1634,10 +1634,10 @@
         {
             "product_id": 34,
             "product_name": "Kjernejournal",
-            "version": 1,
+            "version": 2,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/34-Kjernejournal-produkt-canvas-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/34-Kjernejournal-produkt-canvas-v1-codex.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/34-Kjernejournal-produkt-canvas-v2-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/34-Kjernejournal-produkt-canvas-v2-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
@@ -1714,17 +1714,17 @@
         {
             "product_id": 36,
             "product_name": "Aa-registeret",
-            "version": 1,
+            "version": 2,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/36-Aa-registeret-produkt-canvas-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/36-Aa-registeret-produkt-canvas-v1-codex.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/36-Aa-registeret-produkt-canvas-v2-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/36-Aa-registeret-produkt-canvas-v2-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
                     "capability_name": "Datakilder",
                     "capability_slug": "datakilder",
                     "mapping_label": "Datakilder: Grunndata",
-                    "explanation": "Aa-registeret er den nasjonale kilden for grunnleggende opplysninger om arbeidsforhold.",
+                    "explanation": "Aa-registeret er nasjonal kilde for grunnleggende opplysninger om arbeidsforhold og gir et felles referansegrunnlag som mange andre tjenester og vurderinger bygger på.",
                     "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
                     "subcapability_name": "Grunndata",
                     "subcapability_slug": "grunndata"
@@ -1734,7 +1734,7 @@
                     "capability_name": "Datautveksling og integrasjon",
                     "capability_slug": "datautveksling-og-integrasjon",
                     "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
-                    "explanation": "Aa-registeret inngår i samspill med rapportering og andre datakilder for å holde arbeidsforholdsdata oppdatert.",
+                    "explanation": "Registeret bygger på løpende rapportering fra arbeidsgivere gjennom a-ordningen og bruker dette som oppdateringsgrunnlag for de delingstjenestene Nav tilbyr videre.",
                     "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
                     "subcapability_name": "Bruke data fra andre",
                     "subcapability_slug": "bruke-data-fra-andre"
@@ -1744,7 +1744,7 @@
                     "capability_name": "Datautveksling og integrasjon",
                     "capability_slug": "datautveksling-og-integrasjon",
                     "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "Aa-registeret gjør arbeidsforholdsdata tilgjengelige for offentlige etater og andre aktører med hjemmel.",
+                    "explanation": "Ressursen gjør arbeidsforholdsdata tilgjengelige gjennom standardiserte API-er, web-oppslag og uttrekk for virksomheter som har hjemmel og tjenstlig behov.",
                     "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
                     "subcapability_name": "Dele data med andre",
                     "subcapability_slug": "dele-data-med-andre"
@@ -1754,7 +1754,7 @@
                     "capability_name": "Sluttbrukertjenester",
                     "capability_slug": "sluttbrukertjenester",
                     "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-                    "explanation": "Aa-registeret gir arbeidsgivere og arbeidstakere innsyn i egne opplysninger som del av en sammenhengende offentlig tjeneste.",
+                    "explanation": "Arbeidsgivere og arbeidstakere får innsyn i egne opplysninger, og registeret inngår dermed også i sammenhengende bruker- og saksløp, ikke bare i maskinell deling.",
                     "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
                     "subcapability_name": "Sammenhengende tjenester",
                     "subcapability_slug": "sammenhengende-tjenester"
@@ -2284,10 +2284,10 @@
         {
             "product_id": 62,
             "product_name": "DSOP-tjenester",
-            "version": 1,
+            "version": 2,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/62-DSOP-tjenester-produkt-canvas-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/62-DSOP-tjenester-produkt-canvas-v1-codex.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/62-DSOP-tjenester-produkt-canvas-v2-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/62-DSOP-tjenester-produkt-canvas-v2-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
@@ -3384,10 +3384,10 @@
         {
             "product_id": 107,
             "product_name": "Kunnskapsgrunnlag og KPI-er datadeling",
-            "version": 0,
+            "version": 1,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/107-Kunnskapsgrunnlag-og-KPI-er-datadeling-v0-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/107-Kunnskapsgrunnlag-og-KPI-er-datadeling-v0-codex.md",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/107-Kunnskapsgrunnlag-og-KPI-er-datadeling-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/107-Kunnskapsgrunnlag-og-KPI-er-datadeling-v1-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
@@ -3397,7 +3397,7 @@
                     "subcapability_name": "Samordning",
                     "subcapability_slug": "samordning",
                     "mapping_label": "Strategisk styring: Samordning",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Kunnskapsgrunnlag og KPI-er datadeling basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Gir et felles grunnlag for å sammenligne status, effekt og prioriteringsbehov i datadelingsarbeid på tvers av tiltak og virksomheter."
                 },
                 {
                     "capability_id": "id-896e4c1434604caa891b94bcce964720",
@@ -3407,27 +3407,27 @@
                     "subcapability_name": "Datastyring",
                     "subcapability_slug": "datastyring",
                     "mapping_label": "Informasjonsforvaltning: Datastyring",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Kunnskapsgrunnlag og KPI-er datadeling basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Gjør det lettere å strukturere hva som faktisk bør måles og følges opp når virksomheter arbeider mer systematisk med deling, bruk og styring av data."
                 }
             ]
         },
         {
             "product_id": 108,
             "product_name": "Kunnskapsgrunnlag - dataspaces",
-            "version": 0,
+            "version": 1,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/108-Kunnskapsgrunnlag-dataspaces-v0-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/108-Kunnskapsgrunnlag-dataspaces-v0-codex.md",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/108-Kunnskapsgrunnlag-dataspaces-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/108-Kunnskapsgrunnlag-dataspaces-v1-codex.md",
             "capabilities": [
                 {
-                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
-                    "capability_name": "Samarbeid",
-                    "capability_slug": "samarbeid",
-                    "subcapability_id": "id-b4a86e2e430c472b9f74bedb7f66fd74",
-                    "subcapability_name": "Samarbeidsarenaer og nettverk",
-                    "subcapability_slug": "samarbeidsarenaer-og-nettverk",
-                    "mapping_label": "Samarbeid: Samarbeidsarenaer og nettverk",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Kunnskapsgrunnlag - dataspaces basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-b99fcd8160d24e5f8ea3c17b15072f7a",
+                    "subcapability_name": "Forvaltningsstandarder",
+                    "subcapability_slug": "forvaltningsstandarder",
+                    "mapping_label": "Informasjonsforvaltning: Forvaltningsstandarder",
+                    "explanation": "Peker mot felles referansearkitekturer, standarder og styringsmønstre som bør vurderes når dataspaces diskuteres i norsk kontekst."
                 },
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
@@ -3437,17 +3437,17 @@
                     "subcapability_name": "Dele data med andre",
                     "subcapability_slug": "dele-data-med-andre",
                     "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Kunnskapsgrunnlag - dataspaces basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Er relevant fordi dataspaces i praksis handler om hvordan data kan tilgjengeliggjøres, deles og brukes på tvers av aktører med tydeligere felles rammer."
                 }
             ]
         },
         {
             "product_id": 109,
             "product_name": "Kapabilitetskart (planlagt)",
-            "version": 0,
+            "version": 1,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/109-Kapabilitetskart-planlagt-v0-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/109-Kapabilitetskart-planlagt-v0-codex.md",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/109-Kapabilitetskart-planlagt-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/109-Kapabilitetskart-planlagt-v1-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
@@ -3457,7 +3457,7 @@
                     "subcapability_name": "Arkitekturstyring",
                     "subcapability_slug": "arkitekturstyring",
                     "mapping_label": "Strategisk styring: Arkitekturstyring",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Kapabilitetskart (planlagt) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Kan gjøre det lettere å strukturere prioriteringer, avhengigheter og styringsbehov i nasjonal arkitektur."
                 },
                 {
                     "capability_id": "id-896e4c1434604caa891b94bcce964720",
@@ -3467,7 +3467,7 @@
                     "subcapability_name": "Datastyring",
                     "subcapability_slug": "datastyring",
                     "mapping_label": "Informasjonsforvaltning: Datastyring",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Kapabilitetskart (planlagt) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Kan koble datadelingsbehov og informasjonsforvaltning til mer presise utviklings- og styringsbehov."
                 }
             ]
         },
@@ -3707,7 +3707,7 @@
                     "subcapability_name": "Samordning",
                     "subcapability_slug": "samordning",
                     "mapping_label": "Strategisk styring: Samordning",
-                    "explanation": "gir et felles bilde av hvilke kompetanser virksomheter trenger for å lykkes med digital transformasjon."
+                    "explanation": "Modellen gir et felles språk for hvordan ledelse, styring og kompetansebygging kan samordnes rundt digital transformasjon i hele virksomheten."
                 },
                 {
                     "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
@@ -3717,7 +3717,7 @@
                     "subcapability_name": "Tjenestedesign",
                     "subcapability_slug": "tjenestedesign",
                     "mapping_label": "Tjenesteutvikling: Tjenestedesign",
-                    "explanation": "støtter utvikling av kompetanse som trengs for å lede og gjennomføre digital transformasjon og tjenesteutvikling."
+                    "explanation": "Modellen understøtter tjenesteutvikling ved å løfte fram brukerorientering, tverrfaglighet og evnen til å utvikle bedre tjenester som del av transformasjonen."
                 }
             ]
         },
@@ -3804,10 +3804,10 @@
         {
             "product_id": 120,
             "product_name": "Styringsrådet for fellesløsningene",
-            "version": 1,
+            "version": 2,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v1-codex.md",
+            "relative_path": "arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v2-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v2-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
@@ -3877,7 +3877,7 @@
                     "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
                     "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling",
                     "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
-                    "explanation": "Forumet støtter kompetansedeling og felles forståelse på et sentralt område for sikker samhandling."
+                    "explanation": "Nettverket støtter bedre praksis rundt sikker samhandling ved å dele erfaringer om hvordan offentlig sektor arbeider med informasjonssikkerhet i tjenester, leverandørstyring, kultur og etterlevelse."
                 },
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
@@ -3887,7 +3887,7 @@
                     "subcapability_name": "Samarbeidsarenaer og nettverk",
                     "subcapability_slug": "samarbeidsarenaer-og-nettverk",
                     "mapping_label": "Samarbeid: Samarbeidsarenaer og nettverk",
-                    "explanation": "Forumet er en møteplass som binder sammen fagmiljøer på tvers av offentlig sektor."
+                    "explanation": "NIFS er i seg selv en tverrvirksomhetlig arena som kobler sammen fagmiljø og gjør det lettere å bygge relasjoner og felles forståelse på tvers."
                 }
             ]
         },
@@ -3907,7 +3907,7 @@
                     "subcapability_name": "Dele data med andre",
                     "subcapability_slug": "dele-data-med-andre",
                     "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "DSOP prioriterer og realiserer samhandlingsløp der offentlige virksomheter og finansnæringen deler data i standardiserte prosesser."
+                    "explanation": "DSOP er direkte knyttet til etablering av samhandlingsløsninger der offentlige virksomheter og finansnæringen deler data i standardiserte løp."
                 },
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
@@ -3917,7 +3917,7 @@
                     "subcapability_name": "Samarbeidsarenaer og nettverk",
                     "subcapability_slug": "samarbeidsarenaer-og-nettverk",
                     "mapping_label": "Samarbeid: Samarbeidsarenaer og nettverk",
-                    "explanation": "DSOP er en varig samarbeidsstruktur som kobler offentlige virksomheter, finansnæringen og prosjektmiljø rundt felles initiativer."
+                    "explanation": "Forumet samler offentlige aktører, finansnæringen og tilhørende prosjekt- og fagmiljø i en varig samarbeidsstruktur."
                 },
                 {
                     "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
@@ -3927,7 +3927,7 @@
                     "subcapability_name": "Samordning",
                     "subcapability_slug": "samordning",
                     "mapping_label": "Strategisk styring: Samordning",
-                    "explanation": "DSOP balanserer gevinster, prioriteringer og ressursbruk på tvers av aktører som ikke deler samme styringslinje."
+                    "explanation": "DSOP prioriterer initiativer og balanserer gevinst og innsats på tvers av aktører som ellers ikke har én felles styringslinje."
                 }
             ]
         },
@@ -3947,7 +3947,7 @@
                     "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
                     "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling",
                     "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
-                    "explanation": "Initiativet retter seg direkte mot bedre styring, samordning og praksis for informasjonssikkerhet i offentlig forvaltning."
+                    "explanation": "FSIF retter seg direkte mot bedre felles forutsetninger for sikker samhandling, deling av data og styring av risiko i sammenhengende tjenester."
                 },
                 {
                     "capability_id": "id-498c1bffdb8b4cd18d934f87f783eb82",
@@ -3957,7 +3957,7 @@
                     "subcapability_name": "Samarbeidsarenaer og nettverk",
                     "subcapability_slug": "samarbeidsarenaer-og-nettverk",
                     "mapping_label": "Samarbeid: Samarbeidsarenaer og nettverk",
-                    "explanation": "Ressursen bygger på tverrsektorielt samarbeid mellom aktører som veileder eller påvirker virksomhetene i offentlig sektor."
+                    "explanation": "Samarbeidet samler sentrale aktører fra stat og kommune for å utvikle felles retning og koordinert oppfølging."
                 },
                 {
                     "capability_id": "id-a6c7c8370d7746c8a0d8d4d0f1fed59a",
@@ -3967,7 +3967,7 @@
                     "subcapability_name": "Samordning",
                     "subcapability_slug": "samordning",
                     "mapping_label": "Strategisk styring: Samordning",
-                    "explanation": "Initiativet har som mål å skape felles retning, bedre rammebetingelser og mer samordnet veiledning på tvers av forvaltningen."
+                    "explanation": "FSIF arbeider eksplisitt med å samordne anbefalinger, veiledning og tiltak på et område der fragmentering ellers gir svakere effekt."
                 }
             ]
         },
@@ -3987,7 +3987,7 @@
                     "subcapability_name": "Samarbeidsarenaer og nettverk",
                     "subcapability_slug": "samarbeidsarenaer-og-nettverk",
                     "mapping_label": "Samarbeid: Samarbeidsarenaer og nettverk",
-                    "explanation": "KI Norge samler offentlige virksomheter, regulatoriske aktører og økosystempartnere i en felles arena for erfaring, veiledning og samarbeid om KI."
+                    "explanation": "KI Norge samler virksomheter, fagmiljøer, regulatoriske aktører og økosystempartnere i en felles arena for erfaring, retning og samspill."
                 },
                 {
                     "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
@@ -3997,7 +3997,7 @@
                     "subcapability_name": "Samordning",
                     "subcapability_slug": "samordning",
                     "mapping_label": "Strategisk styring: Samordning",
-                    "explanation": "KI Norge skal være bindeledd mellom initiativer og gi mer samlet retning for ansvarlig utvikling og bruk av kunstig intelligens."
+                    "explanation": "Arenaen skal være bindeledd mellom initiativer og bidra til mer samlet retning i hvordan KI tas i bruk på tvers av sektorer."
                 }
             ]
         },
@@ -4054,10 +4054,10 @@
         {
             "product_id": 127,
             "product_name": "Samarbeidsportalen",
-            "version": 1,
+            "version": 2,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/127-Samarbeidsportalen-produkt-canvas-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/127-Samarbeidsportalen-produkt-canvas-v1-codex.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/127-Samarbeidsportalen-produkt-canvas-v2-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/127-Samarbeidsportalen-produkt-canvas-v2-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-896e4c1434604caa891b94bcce964720",
@@ -4067,7 +4067,7 @@
                     "subcapability_name": "Oversikt over tjenester",
                     "subcapability_slug": "oversikt-over-tjenester",
                     "mapping_label": "Informasjonsforvaltning: Oversikt over tjenester",
-                    "explanation": "Portalen gir en samlet oversikt over Digdirs fellesløsninger, prosjekter og tilknyttede innholdstyper."
+                    "explanation": "Samarbeidsportalen gjør Digdirs fellesløsninger, prosjekter og støtteinnhold søkbare og sammenlignbare i én samlet inngang, i stedet for å spre orienteringen mellom mange separate nettsteder."
                 },
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
@@ -4077,7 +4077,7 @@
                     "subcapability_name": "Tjenesteforvaltning",
                     "subcapability_slug": "tjenesteforvaltning",
                     "mapping_label": "Samarbeid: Tjenesteforvaltning",
-                    "explanation": "Ressursen støtter forvaltning ved å samle praktisk informasjon og oppfølging knyttet til bruk av fellesløsningene."
+                    "explanation": "Portalen støtter forvaltning ved å koble bruksvilkår, kontaktpunkter, kundesaker, kostnadsinformasjon, driftsvarsler og ta-i-bruk-steg til de enkelte løsningene."
                 },
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
@@ -4087,7 +4087,7 @@
                     "subcapability_name": "Samarbeidsarenaer og nettverk",
                     "subcapability_slug": "samarbeidsarenaer-og-nettverk",
                     "mapping_label": "Samarbeid: Samarbeidsarenaer og nettverk",
-                    "explanation": "Portalen fungerer også som felles kontakt- og informasjonsflate rundt samarbeidsarenaer, prosjekter og deltakelse."
+                    "explanation": "Ressursen bidrar også til samhandling på tvers ved å synliggjøre prosjekter, arrangementer, nyheter og kundedialog rundt fellesløsningene."
                 }
             ]
         },
@@ -4214,10 +4214,10 @@
         {
             "product_id": 131,
             "product_name": "Reseptregisteret (NorPD)",
-            "version": 1,
+            "version": 2,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/131-Reseptregisteret-NorPD-produkt-canvas-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/131-Reseptregisteret-NorPD-produkt-canvas-v1-codex.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/131-Reseptregisteret-NorPD-produkt-canvas-v2-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/131-Reseptregisteret-NorPD-produkt-canvas-v2-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
@@ -4227,7 +4227,7 @@
                     "subcapability_name": "Grunndata",
                     "subcapability_slug": "grunndata",
                     "mapping_label": "Datakilder: Grunndata",
-                    "explanation": "Registeret er nasjonal autoritativ kilde for data om reseptutskriving og legemiddelutlevering, og gir et konsistent grunnlag for tverrsektoriell bruk."
+                    "explanation": "Reseptregisteret utgjør fortsatt det historiske nasjonale grunnlaget for reseptbaserte legemiddeldata for perioden 2004-2021, og denne perioden inngår nå i Legemiddelregisteret."
                 },
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
@@ -4237,7 +4237,7 @@
                     "subcapability_name": "Dele data med andre",
                     "subcapability_slug": "dele-data-med-andre",
                     "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "Data fra registeret gjøres tilgjengelig for forskning og analyse gjennom etablerte tilgangskanaler, etter søknad og godkjenning."
+                    "explanation": "Ressursen har ikke lenger et eget nytt søknadsløp, men data og variabelforståelse deles videre gjennom overgangen til Legemiddelregisteret og via historiske variabel- og dokumentasjonsspor."
                 },
                 {
                     "capability_id": "id-896e4c1434604caa891b94bcce964720",
@@ -4247,7 +4247,7 @@
                     "subcapability_name": "Datastyring",
                     "subcapability_slug": "datastyring",
                     "mapping_label": "Informasjonsforvaltning: Datastyring",
-                    "explanation": "Registeret understøtter nasjonal styring av legemiddeldomenet ved å tilby standardiserte, dokumenterte og kvalitetssikrede data."
+                    "explanation": "Overgangen til Legemiddelregisteret gjør Reseptregisteret relevant som eksempel på styrt videreføring av datadefinisjoner, variabler og tilgangsmodell over tid."
                 }
             ]
         },
