@@ -23,6 +23,7 @@ Repo for arbeid med nasjonal arkitektur, produktbeskrivelser, kapabiliteter, pri
 - [operative-ressurs-canvas.system.md](config/prompts/operative-ressurs-canvas.system.md): metode for operative ressursbeskrivelser og forbedringsarbeid
 - [normerende-ressurs-canvas.system.md](config/prompts/normerende-ressurs-canvas.system.md): metode for normerende ressursbeskrivelser (standarder, veiledere, rammeverk)
 - [samarbeidsforum-canvas.system.md](config/prompts/samarbeidsforum-canvas.system.md): metode for beskrivelser av samarbeidsfora og koordineringsarenaer
+- [designprofil-rapporter-og-presentasjoner.system.md](config/prompts/designprofil-rapporter-og-presentasjoner.system.md): felles designprofil for rapporter, presentasjoner og figurer
 - [briefs/README.md](briefs/README.md): hvordan `briefs/` brukes til arbeidsstyring og handover
 - [struktur-og-bearbeiding.md](arkitektur/struktur-og-bearbeiding.md): hvordan råkilder, kuraterte arbeidsfiler og videre bruk henger sammen i repoet
 

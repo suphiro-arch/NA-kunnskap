@@ -120,6 +120,7 @@ Formål:
 
 - Svar skal skrives på norsk.
 - Følg språkreglene i `config/regler/sprakforing.md`.
+- Følg designprofilen i `config/prompts/designprofil-rapporter-og-presentasjoner.system.md` når leveransen brukes som rapportgrunnlag eller skal videreføres til presentasjon.
 - Bruk kun begreper som allerede finnes i repoet når tilsvarende begrep finnes.
 - Ikke gi generelle råd uten kobling til kapabilitet, prinsipp eller produkt.
 - Skill eksplisitt mellom:

@@ -3803,11 +3803,11 @@
         },
         {
             "product_id": 120,
-            "product_name": "Styringsrådet for fellesløsningene",
-            "version": 2,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v2-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v2-codex.md",
+            "product_name": "Styringsråd forDigitaliseringsdirektoratets fellesløsninger",
+            "version": 3,
+            "author": "copilot",
+            "relative_path": "arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v3-copilot.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v3-copilot.md",
             "capabilities": [
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",

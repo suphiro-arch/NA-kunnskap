@@ -118,7 +118,7 @@ Rådet bør **ikke** involveres i operativ gjennomføring eller daglige priorite
 | Forum | Rolle-fordeling | Når dette forumet, når det andre | Typisk samspill |
 |---|---|---|---|
 | **Skate** | Skate gir nasjonal politisk og strategisk retning. AS-rådet gir faglig arkitektur- og standardiseringsvurdering. | AS-rådet når temaet er faglig arkitektur, standarder eller interoperabilitet. Skate når det krever politisk forankring eller prioritering på toppledernivå. | AS-rådet gir faglige innspill som Skate kan løfte til strategisk prioritering. Skate kan bestille utredninger fra AS-rådet. |
-| **Styringsrådet for fellesløsningene** | Styringsrådet prioriterer videreutvikling av operative fellesløsninger. AS-rådet vurderer arkitekturfaglige rammer. | AS-rådet for normerende arkitekturkrav og standarder. Styringsrådet for konkrete produktprioriteringer innenfor disse rammene. | AS-rådet setter arkitekturkrav; Styringsrådet prioriterer innenfor dem. Konflikt løftes til Digdir-ledelse. |
+| **Styringsråd forDigitaliseringsdirektoratets fellesløsninger** | Styringsrådet prioriterer videreutvikling av operative fellesløsninger. AS-rådet vurderer arkitekturfaglige rammer. | AS-rådet for normerende arkitekturkrav og standarder. Styringsrådet for konkrete produktprioriteringer innenfor disse rammene. | AS-rådet setter arkitekturkrav; Styringsrådet prioriterer innenfor dem. Konflikt løftes til Digdir-ledelse. |
 | **Faglig arena for informasjonsforvaltning** | Faglig arena er åpent læringsnettverk uten formell myndighet. AS-rådet er formelt rådgivningsorgan med mandat. | Faglig arena for lavterskel erfaringsdeling og faglig modning. AS-rådet for formelle anbefalinger. | Faglig arena kan identifisere praktiske problemer som bør løftes som offisiell sak til AS-rådet. |
 | **NIFS** | NIFS er sikkerhets-spesifikt fagnettverk. AS-rådet er overordnet arkitekturforum der sikkerhet inngår. | NIFS for informasjonssikkerhet spesifikt. AS-rådet for arkitekturavgjørelser der sikkerhet er én av flere dimensjoner. | NIFS-innsikt bør informere AS-rådets behandling av saker med sikkerhetskomponent. |
 
@@ -126,7 +126,7 @@ Rådet bør **ikke** involveres i operativ gjennomføring eller daglige priorite
 - **Digitaliseringsrådet** — overordnet politisk rådgivning; Arkitektur- og standardiseringsrådet gir faglig innsikt
 - **Faglig arena for informasjonsforvaltning og deling av data** — fokuserer på datadeling-spesifikke spørsmål; samordner med S&S-rådet
 - **NIFS (nettverk for informasjonssikkerhet)** — sikkerhet-spesifikk forum; samordner sikkerhets-relevante arkitektur-endringer
-- **Styringsrådet for fellesløsningene** — operativ prioritering av fellesløsninger; Arkitektur- og standardiseringsrådet gir arkitektur-inndata
+- **Styringsråd forDigitaliseringsdirektoratets fellesløsninger** — operativ prioritering av fellesløsninger; Arkitektur- og standardiseringsrådet gir arkitektur-inndata
 - **Sektorale arkitektur-fora** — lokale arkitektur-diskusjoner; Arkitektur- og standardiseringsrådet sikrer overordnet samordning
 - **Prinsippråd** — årlige gjennomganger av arkitekturprinsipper; Arkitektur- og standardiseringsrådet gir innspill
 

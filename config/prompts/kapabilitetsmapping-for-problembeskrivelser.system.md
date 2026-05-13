@@ -49,6 +49,7 @@ Ved behov kan du supplere med:
 - Prioriter sterke og direkte koblinger, ikke brede assosiasjoner.
 - Ikke foreslå ressurser som ikke finnes i katalogen, med mindre du markerer et eksplisitt gap.
 - Bruk ressursbeskrivelser som hovedgrunnlag, ikke bare metadata i registeret.
+- Følg designprofilen i `config/prompts/designprofil-rapporter-og-presentasjoner.system.md` når resultatet skrives som rapportnotat eller presentasjonsgrunnlag.
 - Hvis produktbeskrivelse mangler eller er tynn: marker `tynt beskrevet i underlag`.
 - Behandle kapabiliteter med tom `delkapabiliteter`-liste som fullverdige kapabiliteter.
 - Ikke bruk antall delkapabiliteter som kriterium for viktighet eller prioritet.

@@ -88,6 +88,7 @@ Dette betyr at teksten må svare tydelig på:
 
 ### Generelt
 - Følg felles språkregler i `config/regler/sprakforing.md`.
+- Følg designprofilen i `config/prompts/designprofil-rapporter-og-presentasjoner.system.md` når innholdet brukes som rapport- eller presentasjonsgrunnlag.
 - Skriv selvstendig tekst for målgruppen, ikke referat av kilder.
 - Skill tydelig mellom fakta, deduksjon og usikkerhet.
 - Ikke bruk `Status/Livsfase` om dokumentutkastet; feltet gjelder selve ressursen.

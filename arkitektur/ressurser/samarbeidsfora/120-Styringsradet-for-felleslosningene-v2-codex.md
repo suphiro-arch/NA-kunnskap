@@ -17,7 +17,7 @@ Aktiv.
 ## Kort beskrivelse
 Styringsrådet for fellesløsningene er en samordnings- og prioriteringsarena rundt Digdirs nasjonale fellesløsninger. Forumet er viktig i analysearbeid fordi det representerer grenseflaten mellom forvalterens porteføljestyring og brukervirksomhetenes behov for retning, prioritering og forankring.
 
-Rådet bør ikke beskrives som et selvstendig besluttende organ for hele porteføljen dersom åpne kilder ikke bærer det. Den tryggeste tolkningen er at forumet gir prioriteringssignaler, brukernær forankring og innspill til videreutvikling, mens formelle beslutninger fortsatt ligger i Digdirs linje- og porteføljestyring.
+Mandatet beskriver rådet som «et rådgivende organ som bistår Digdir i styringen av de fellesløsninger som Digdir har ansvar for». Det betyr at forumet gir prioriteringssignaler, brukernær forankring og innspill til videreutvikling, mens formelle beslutninger fortsatt ligger i Digdirs linje- og porteføljestyring.
 
 ## Mandat og rolle
 Mandatet i repoets lenkegrunnlag peker mot at rådet skal være et forum for dialog, prioritering og brukerforankring rundt Digdirs fellesløsninger. Rollen er derfor først og fremst rådgivende og samordnende: rådet skal løfte behov, gi innspill til retning og bidra til at videreutvikling av fellesløsningene skjer med bedre samlet forståelse av brukerbehov og porteføljekonsekvenser.
@@ -148,8 +148,9 @@ Vurdering av svakheter og spenninger:
 - Hvis for mange saker løftes hit som egentlig hører hjemme i produktlinjen, kan rådet også trekke beslutninger bort fra riktig operativt nivå i stedet for å hjelpe dem.
 
 ## Lenke til dokumentasjon
-- https://www.digdir.no/media/1977/download
-- https://www.digdir.no/felleslosninger/nasjonale-felleslosninger/750
+- https://samarbeid.digdir.no/digital-postkasse/mandat-styringsradet/128
+- https://samarbeid.digdir.no/digital-postkasse/styringsradets-medlemmer/655
+- https://www.digdir.no/skate/forholdet-mellom-skate-og-styringsrad-digdirs-felleslosninger/3529
 - https://samarbeid.digdir.no/
 
 ## Kildegrunnlag brukt i utfyllingen
@@ -162,10 +163,12 @@ Vurdering av svakheter og spenninger:
 - Lokal fil: `arkitektur/ressurser/samarbeidsfora/121-Faglig-arena-for-informasjonsforvaltning-og-deling-av-data-v1-codex.md`
 - Lokal fil: `briefs/arbeidsstyring-og-handover/automatiske-rapporter/2026-05-08-kvalitetsrapport-ressursbeskrivelser-v1.md`
 - Lokal fil: `sources/links.md`
-- Nettkilde fra repoets lenkegrunnlag: https://www.digdir.no/media/1977/download (ikke rekontrollert direkte i denne arbeidsøkten)
-- Nettkilde fra repoets lenkegrunnlag: https://www.digdir.no/felleslosninger/nasjonale-felleslosninger/750 (ikke rekontrollert direkte i denne arbeidsøkten)
-- Nettkilde fra repoets lenkegrunnlag: https://samarbeid.digdir.no/ (ikke rekontrollert direkte i denne arbeidsøkten)
+- Nettkilde: https://samarbeid.digdir.no/digital-postkasse/mandat-styringsradet/128 (mandatet – rekontrollert direkte i denne arbeidsøkten)
+- Nettkilde: https://samarbeid.digdir.no/digital-postkasse/styringsradets-medlemmer/655 (medlemmer – rekontrollert direkte i denne arbeidsøkten)
+- Nettkilde: https://www.digdir.no/skate/forholdet-mellom-skate-og-styringsrad-digdirs-felleslosninger/3529 (relasjon til Skate – rekontrollert direkte i denne arbeidsøkten)
+- Nettkilde: https://samarbeid.digdir.no/ (samarbeidsportalen – ikke rekontrollert direkte i denne arbeidsøkten)
 
 ## Endringer fra forrige versjon
 - Analyseforbedringer: strammet inn påstander om beslutningsmakt, tydeliggjort grensesnitt mot andre fora og skilt klarere mellom åpne fakta, deduksjon og usikkerhet.
 - Tekstlige forbedringer: gjort kapabilitetsseksjonen konsistent med register og mapping, forbedret avgrensning og skrevet forumet mer nøkternt som beslutningsnær påvirkningsarena.
+- Oppdatert 2026-05-11: Brukt mandatet direkte til å fjerne usikker formulering om beslutningsmakt. Oppgradert lenker til mer relevante kilder basert på mandatet, blant annet direkte link til mandatet, medlemmer og relasjon til Skate. Fjernet brutt lenke til fellesløsninger-oversikt.

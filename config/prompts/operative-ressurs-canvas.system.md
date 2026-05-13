@@ -77,6 +77,7 @@ Følg reglene under.
 - Skill tydelig mellom **fakta** (fra kilder), **deduksjon** (logisk utledet), og **usikkerhet**
 - Tittel og Ressurs ID må alltid være korrekt
 - Lenker skal være aktive og relevante
+- Følg designprofilen i `config/prompts/designprofil-rapporter-og-presentasjoner.system.md` når innholdet brukes som rapport- eller presentasjonsgrunnlag.
 - Målgruppen for teksten er både forretningsside og arkitektur; skriv derfor klart og lett forståelig uten å forutsette dyp systemforståelse
 - Samtidig skal innholdet ha nok presisjon til at arkitekter og KI kan vurdere mulighetsrom for gjenbruk på tvers av nye behov
 - Ikke legg inn egen linje for `Målgruppe` øverst i dokumentet; målgruppen er styrende for språk og innhold, men skal ikke stå som egen metadata-linje i ressursbeskrivelsen

@@ -6,6 +6,7 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Skriv på norsk i dokumentinnhold, forklaringer og nye markdownfiler.
 - Bruk vanlig norsk tegnsett i dokumentinnhold: `æ`, `ø` og `å`.
 - Bruk ASCII bare der tekniske begrensninger krever det, for eksempel i filnavn, slugger, kode eller enkelte lokale git-hooker.
+- Committer fra dette repoet skal bruke en eksplisitt Git-identitet med ønsket brukernavn og en `noreply`-adresse, ikke personlig jobbmail eller privatmail som eksponeres i commit-metadata.
 - Bevar etablert struktur i repoet: `arkitektur/` for faglig arkitekturgrunnlag, `config/` for regler og maler, `results/` for leveranser, `web/` for Hugo-prototypen, `sources/` for kildegrunnlag og `briefs/` for arbeidsstyring og handover.
 - Tolking av mapper:
   - `arkitektur/` brukes for strukturert arkitekturgrunnlag, som kapabiliteter, mål, prinsipper og produktnummerering.
@@ -22,8 +23,12 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Nye `normerende ressurser` skal lagres i `arkitektur/ressurser/normerende-ressurser/`, og nye `samarbeidsfora` skal lagres i `arkitektur/ressurser/samarbeidsfora/`.
 
 ## Produktbeskrivelser
-- Bruk alltid høyeste eksisterende versjonsnummer for et produkt som primært utgangspunkt, uavhengig av om siste versjon er laget av `codex`, `copilot` eller en person.
+- Bruk alltid høyeste eksisterende versjonsnummer for et produkt som primært utgangspunkt, uavhengig av om siste versjon er laget av `copilot`, `chatgpt`, `claude`, eller annet verktøy.
 - Eldre versjoner skal bare brukes som supplement for historikk, sammenligning eller endringsforståelse.
+- Filnavn skal reflektere hvilket verktøy som har opprettet filen: `-copilot` for GitHub Copilot, `-codex` for ChatGPT-genererte filer (historisk navnekonvensjon i dette repoet), `-claude` for Claude, `-manual` for manuell opprettelse osv. Sjekk alltid eksisterende filnavn i samme kategori før du oppretter nye filer for å bekrefte konvensjonen.
+- Ved tvil om suffix skal assistenten stoppe og velge suffix ut fra **utførende verktøy i den aktuelle kjøringen**, ikke ut fra suffix i forrige versjon.
+- Før handover eller commit er det obligatorisk å verifisere at nytt filnavn, `produktnummerering.md` og `produkt-kapabilitet-koblinger.yaml` peker til samme versjon og samme suffix.
+- Hvis suffix er feil, skal assistenten rette filnavn og alle pekere i samme endringssett. Det er ikke tillatt å avslutte kjøringen med inkonsistent suffix mellom fil og register/mapping.
 - Følg metoden i [config/prompts/operative-ressurs-canvas.system.md](config/prompts/operative-ressurs-canvas.system.md) ved arbeid med operative ressursbeskrivelser.
 - Ved opprettelse av nye operative ressursbeskrivelser skal [config/prompts/operative-ressurs-canvas.system.md](config/prompts/operative-ressurs-canvas.system.md) alltid brukes som styrende instruks.
 - Nye produktfiler skal følge gjeldende versjoneringsregel i promptfila.
