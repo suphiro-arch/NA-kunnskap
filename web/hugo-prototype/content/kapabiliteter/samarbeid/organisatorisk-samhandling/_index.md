@@ -109,7 +109,7 @@ Evnen til å effektivisere forretningsprosesser og verdikjeder på tvers av orga
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/129-MSIS-produkt-canvas-v1-codex.md">MSIS</a></h3>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/129-MSIS-produkt-canvas-v2-codex.md">MSIS</a></h3>
     <p class="capability-product-link__description">MSIS understøtter koordinering mellom helsemyndigheter, smittevernmiljø og tjenesteaktører i beredskapsarbeid.</p>
   </article>
 </div>

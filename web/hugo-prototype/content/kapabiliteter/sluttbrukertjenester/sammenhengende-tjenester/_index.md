@@ -4,7 +4,7 @@ headerTitle: "Sluttbrukertjenester - Sammenhengende tjenester"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å levere en digital brukerorienterte tjenester som fremstår som en logisk og uavbrutt prosess for brukeren, selv når den involverer og koordinerer handlinger og tjenester fra flere, uavhengige virksomheter."
-cardMeta: "20 produkter"
+cardMeta: "19 produkter"
 ---
 
 Evne til å levere en digital brukerorienterte tjenester som fremstår som en logisk og uavbrutt prosess for brukeren, selv når den involverer og koordinerer handlinger og tjenester fra flere, uavhengige virksomheter.
@@ -26,11 +26,6 @@ Evne til å levere en digital brukerorienterte tjenester som fremstår som en lo
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/18-Norge-no-produkt-canvas-v3-codex.md">Norge.no</a></h3>
     <p class="capability-product-link__description">Helhetlig brukerreise på tvers av offentlig sektor.</p>
-  </article>
-  <article class="capability-product-link resource-type--operative">
-    <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/21-Altinn-Portal-produkt-canvas-v3-codex.md">Altinn Portal</a></h3>
-    <p class="capability-product-link__description">samler tjenester, meldinger, kvitteringer og tilgangsstyring i én helhetlig arbeidsflate</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
@@ -109,7 +104,7 @@ Evne til å levere en digital brukerorienterte tjenester som fremstår som en lo
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/128-SYSVAK-produkt-canvas-v1-codex.md">SYSVAK</a></h3>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/128-SYSVAK-produkt-canvas-v2-codex.md">SYSVAK</a></h3>
     <p class="capability-product-link__description">SYSVAK-data inngår i sammenhengende tjenesteforløp der innbygger og helsepersonell møter samme oppdaterte vaksinasjonsgrunnlag.</p>
   </article>
 </div>

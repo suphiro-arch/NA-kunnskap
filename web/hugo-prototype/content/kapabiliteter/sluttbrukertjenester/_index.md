@@ -3,7 +3,7 @@ title: "Sluttbrukertjenester"
 eyebrow: "Kapabilitet"
 weight: 3
 description: "Evne til å tilby en sammenhengende digital brukeropplevelse gjennom et økosystem av standardiserte og integrerbare tjenester."
-cardMeta: "3 delkapabiliteter / 22 produkter"
+cardMeta: "3 delkapabiliteter / 21 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -19,10 +19,6 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/18-Norge-no-produkt-canvas-v3-codex.md">Norge.no</a></h3>
-    </article>
-    <article class="capability-product-link resource-type--operative">
-      <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/21-Altinn-Portal-produkt-canvas-v3-codex.md">Altinn Portal</a></h3>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -94,7 +90,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/128-SYSVAK-produkt-canvas-v1-codex.md">SYSVAK</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/128-SYSVAK-produkt-canvas-v2-codex.md">SYSVAK</a></h3>
     </article>
   </div>
 ---

@@ -3,7 +3,7 @@ title: "Tillit"
 eyebrow: "Kapabilitet"
 weight: 5
 description: "Evne å tilby tillitstjenester som muliggjør autentisering og autorisasjon på tvers av tjenestekjeder, og støtte en distribuert arkitektur og føderering mellom ulike domener og tjenester."
-cardMeta: "8 delkapabiliteter / 16 produkter"
+cardMeta: "8 delkapabiliteter / 15 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -35,10 +35,6 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/17-data-altinn-no-produkt-canvas-v4-codex.md">data.altinn.no</a></h3>
-    </article>
-    <article class="capability-product-link resource-type--operative">
-      <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/21-Altinn-Portal-produkt-canvas-v3-codex.md">Altinn Portal</a></h3>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
