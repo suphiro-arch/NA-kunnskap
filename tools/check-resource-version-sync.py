@@ -19,6 +19,9 @@ CURRENT_PATTERN = re.compile(r"^(?P<id>\d+)-(?P<name>.+)-v(?P<ver>\d+)-(?P<autho
 PRODUCT_PATTERN = re.compile(r"^(?P<id>\d+)-(?P<name>.+)-produkt-canvas-v(?P<ver>\d+)-(?P<author>[^.]+)\.md$")
 NO_AUTHOR_PATTERN = re.compile(r"^(?P<id>\d+)-(?P<name>.+)-produkt-canvas-v(?P<ver>\d+)\.md$")
 LINK_PATTERN = re.compile(r"\((?P<path>[^)]+\.md)\)")
+# Legacyressurser som bevisst holdes utenfor operativ oversikt og derfor ikke
+# skal kreve aktiv register- eller mappingoppføring i kvalitetsporten.
+EXCLUDED_PRODUCT_IDS = {21}
 
 
 def parse_versioned_file(path: Path) -> dict | None:
@@ -91,6 +94,8 @@ def check_capability_map(latest: dict[int, dict]) -> list[str]:
     mapped_ids = set()
     for index, product in enumerate(data.get("products", []), start=1):
         product_id = product.get("product_id")
+        if product_id in EXCLUDED_PRODUCT_IDS:
+            continue
         mapped_ids.add(product_id)
         latest_entry = latest.get(product_id)
         if not latest_entry:
@@ -117,6 +122,8 @@ def check_capability_map(latest: dict[int, dict]) -> list[str]:
             )
 
     for product_id in sorted(latest):
+        if product_id in EXCLUDED_PRODUCT_IDS:
+            continue
         if product_id not in mapped_ids:
             findings.append(
                 f"{MAP_FILE.relative_to(REPO_ROOT)}: mangler mappingoppføring for produkt {product_id} "
