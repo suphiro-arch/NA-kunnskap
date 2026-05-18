@@ -2,7 +2,7 @@
 
 
 
-Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjoner i repoet, `sources/links.md`, kuraterte eier- og navnevurderinger og ekstra offisielle kilder verifisert i denne arbeidsøkten.
+Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjoner i repoet, `sources/links.md`, kuraterte eier- og navnevurderinger, oppslag i Enhetsregisteret og ekstra offisielle kilder verifisert i denne arbeidsøkten.
 
 
 
@@ -30,25 +30,25 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 
 ## Eierkoder
 
-| Eierkode | Eier | Bruk |
-|---|---|---|
-| `DIGDIR` | Digdir | Digitale fellesløsninger og Altinn-relaterte løsninger som forvaltes i Digdir-regi |
-| `BRREG` | Brønnøysundregistrene | Register- og samhandlingsløsninger som forvaltes av Brønnøysundregistrene |
-| `KS` | KS Digital | Kommunale fellesløsninger og KS-plattformtjenester |
-| `SIKT` | Sikt | Nasjonale fellesløsninger for utdanning og forskning |
-| `HDIR` | Helsedirektoratet | Helsedirektoratets nasjonale ressurser og registre |
-| `FHI` | Folkehelseinstituttet | Nasjonale helseregistre og smittevernrelaterte dataressurser |
-| `NHN` | Norsk helsenett | Nasjonale e-helseløsninger og helseinfrastruktur |
-| `HELFO` | Helfo | Refusjons- og oppgjørstjenester i helsesektoren |
-| `NAV` | NAV | NAVs fellesløsninger, registre og plattformer |
-| `SKATT` | Skatteetaten | Fellesløsninger og datatjenester forvaltet av Skatteetaten |
-| `KART` | Kartverket | Nasjonale geodata- og kartressurser |
-| `SVV` | Statens vegvesen | Nasjonale veg- og kjøretøyregistre og tilhørende dataplattformer |
-| `SSB` | Statistisk sentralbyrå | Felles datatjenester og analyseplattformer for statistikk og forskning |
-| `FLERE` | Flere virksomheter | Samforvaltede eller tverrsektorielle løsninger med flere eiere |
-| `NOVARI` | Novari IKS | Fylkeskommunale fellesressurser og løsninger forvaltet av Novari |
-| `OPP` | OpenPeppol | Internasjonale fellesressurser og styringsrammeverk for Peppol-økosystemet |
-| `EU` | EU / Europakommisjonen | Relevante europeiske felleskomponenter og byggesteiner |
+| Eierkode | Visningsnavn | Registrert navn (Enhetsregisteret) | Bruk |
+|---|---|---|---|
+| `DIGDIR` | Digdir | Digitaliseringsdirektoratet | Digitale fellesløsninger og Altinn-relaterte løsninger som forvaltes i Digdir-regi |
+| `BRREG` | Brønnøysundregistrene | Registerenheten i Brønnøysund | Register- og samhandlingsløsninger som forvaltes av Brønnøysundregistrene |
+| `KS` | KS Digital | KS-Digitale Fellestjenester AS | Kommunale fellesløsninger og KS-plattformtjenester |
+| `SIKT` | Sikt | SIKT - Kunnskapssektorens tjenesteleverandør | Nasjonale fellesløsninger for utdanning og forskning |
+| `HDIR` | Helsedirektoratet | Helsedirektoratet | Helsedirektoratets nasjonale ressurser og registre |
+| `FHI` | Folkehelseinstituttet | Folkehelseinstituttet | Nasjonale helseregistre og smittevernrelaterte dataressurser |
+| `NHN` | Norsk helsenett | Norsk helsenett SF | Nasjonale e-helseløsninger og helseinfrastruktur |
+| `HELFO` | Helfo | Helfo | Refusjons- og oppgjørstjenester i helsesektoren |
+| `NAV` | NAV | Arbeids- og velferdsetaten | NAVs fellesløsninger, registre og plattformer |
+| `SKATT` | Skatteetaten | Skatteetaten | Fellesløsninger og datatjenester forvaltet av Skatteetaten |
+| `KART` | Kartverket | Statens kartverk | Nasjonale geodata- og kartressurser |
+| `SVV` | Statens vegvesen | Statens vegvesen | Nasjonale veg- og kjøretøyregistre og tilhørende dataplattformer |
+| `SSB` | Statistisk sentralbyrå | Statistisk sentralbyrå | Felles datatjenester og analyseplattformer for statistikk og forskning |
+| `FLERE` | Flere virksomheter | Ikke relevant | Samforvaltede eller tverrsektorielle løsninger med flere eiere |
+| `NOVARI` | Novari IKS | Novari IKS | Fylkeskommunale fellesressurser og løsninger forvaltet av Novari |
+| `OPP` | OpenPeppol | Ikke relevant | Internasjonale fellesressurser og styringsrammeverk for Peppol-økosystemet |
+| `EU` | EU / Europakommisjonen | Ikke relevant | Relevante europeiske felleskomponenter og byggesteiner |
 
 
 
@@ -104,8 +104,8 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | 115 | `DIGDIR-047` | Digitaliseringsvennlig regelverk | Veileder | Forvaltningsstandarder<br>Arkitekturstyring | [Åpne](../../arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v1-codex.md) |
 | 116 | `DIGDIR-048` | Rammeverk for innovasjon i offentlig sektor | Rammeverk | Samordning<br>Tjenestedesign | [Åpne](../../arkitektur/ressurser/normerende-ressurser/116-Rammeverk-for-innovasjon-i-offentlig-sektor-v1-codex.md) |
 | 117 | `DIGDIR-049` | Kompetansemodell for digital transformasjon | Kompetansemodell | Samordning<br>Tjenestedesign | [Åpne](../../arkitektur/ressurser/normerende-ressurser/117-Kompetansemodell-for-digital-transformasjon-v1-codex.md) |
-| 118 | `DIGDIR-050` | Felles designsystem | Designsystem | Sammenhengende tjenester<br>Gjenbrukbare tjenester<br>Tjenestedesign | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/118-Felles-designsystem-v1-codex.md) |
-| 119 | `DIGDIR-051` | Ansattporten | Autentiseringstjeneste for ansatte | Sikring av informasjonsflyt og datautveksling<br>Autentisering<br>Integrerbare tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/119-Ansattporten-v1-codex.md) |
+| 118 | `DIGDIR-050` | Felles designsystem | Designsystem | Sammenhengende tjenester<br>Gjenbrukbare tjenester<br>Tjenestedesign | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/118-Felles-designsystem-v2-codex.md) |
+| 119 | `DIGDIR-051` | Ansattporten | Autentiseringstjeneste for ansatte | Sikring av informasjonsflyt og datautveksling<br>Autentisering<br>Integrerbare tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/119-Ansattporten-v2-codex.md) |
 | 120 | `DIGDIR-052` | Styringsråd forDigitaliseringsdirektoratets fellesløsninger | Styringsråd | Samarbeidsarenaer og nettverk<br>Samordning | [Åpne](../../arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v3-copilot.md) |
 | 121 | `DIGDIR-053` | Faglig arena for informasjonsforvaltning og deling av data | Faglig forum | Datastyring<br>Samarbeidsarenaer og nettverk | [Åpne](../../arkitektur/ressurser/samarbeidsfora/121-Faglig-arena-for-informasjonsforvaltning-og-deling-av-data-v1-codex.md) |
 | 122 | `DIGDIR-054` | NIFS | Nettverk for informasjonssikkerhet | Sikring av informasjonsflyt og datautveksling<br>Samarbeidsarenaer og nettverk | [Åpne](../../arkitektur/ressurser/samarbeidsfora/122-NIFS-v1-codex.md) |
@@ -174,9 +174,9 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 
 | Løpenr | Ressurs-ID | Navn | Type | Kapabiliteter | Dokument |
 |---:|---|---|---|---|---|
-| 128 | `FHI-001` | SYSVAK | Vaksinasjonsregister | Grunndata<br>Dele data med andre<br>Sammenhengende tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/128-SYSVAK-produkt-canvas-v1-codex.md) |
-| 129 | `FHI-002` | MSIS | Meldingssystem for smittsomme sykdommer | Grunndata<br>Dele data med andre<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/129-MSIS-produkt-canvas-v1-codex.md) |
-| 130 | `FHI-003` | Dødsårsaksregisteret | Dødsårsaksregister | Grunndata<br>Dele data med andre<br>Datastyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/130-Dodsarsaksregisteret-produkt-canvas-v1-codex.md) |
+| 128 | `FHI-001` | SYSVAK | Vaksinasjonsregister | Grunndata<br>Dele data med andre<br>Sammenhengende tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/128-SYSVAK-produkt-canvas-v2-codex.md) |
+| 129 | `FHI-002` | MSIS | Meldingssystem for smittsomme sykdommer | Grunndata<br>Dele data med andre<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/129-MSIS-produkt-canvas-v2-codex.md) |
+| 130 | `FHI-003` | Dødsårsaksregisteret | Dødsårsaksregister | Grunndata<br>Dele data med andre<br>Datastyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/130-Dodsarsaksregisteret-produkt-canvas-v2-codex.md) |
 | 131 | `FHI-004` | Reseptregisteret (NorPD) | Historisk legemiddelregister (2004-2021) | Grunndata<br>Dele data med andre<br>Datastyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/131-Reseptregisteret-NorPD-produkt-canvas-v2-codex.md) |
 | 135 | `FHI-005` | Norsk pasientregister (NPR) | Nasjonalt helseregister for spesialisthelsetjenesten | Grunndata<br>Dele data med andre<br>Datastyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v1-codex.md) |
 | 136 | `FHI-006` | Kommunalt pasient- og brukerregister (KPR) | Nasjonalt helseregister for kommunale helse- og omsorgstjenester | Grunndata<br>Dele data med andre<br>Datastyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v1-codex.md) |
@@ -323,4 +323,3 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 - FS: https://www.fs.no/
 
 - Vitnemålsportalen: https://www.vitnemalsportalen.no/
-
