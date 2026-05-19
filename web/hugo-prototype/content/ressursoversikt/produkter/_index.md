@@ -18,7 +18,7 @@ Ressursene er gruppert etter hovedtype, med egne undersider for operative løsni
 
 Ressurser som brukes direkte i drift, integrasjon eller løsningsdesign.
 
-Antall ressurser: **78**
+Antall ressurser: **77**
 
 ## [Normerende ressurser](./normerende-ressurser/)
 

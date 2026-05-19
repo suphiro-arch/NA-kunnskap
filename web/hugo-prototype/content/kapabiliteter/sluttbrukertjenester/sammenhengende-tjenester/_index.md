@@ -99,7 +99,7 @@ Evne til å levere en digital brukerorienterte tjenester som fremstår som en lo
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/118-Felles-designsystem-v1-codex.md">Felles designsystem</a></h3>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/118-Felles-designsystem-v2-codex.md">Felles designsystem</a></h3>
     <p class="capability-product-link__description">Designspråk og gjenbrukbare komponenter bidrar til mer helhetlige brukeropplevelser på tvers av tjenester.</p>
   </article>
   <article class="capability-product-link resource-type--operative">

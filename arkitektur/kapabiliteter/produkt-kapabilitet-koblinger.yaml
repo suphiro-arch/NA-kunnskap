@@ -2798,6 +2798,13 @@
                     "subcapability_slug": "organisatorisk-samhandling",
                     "mapping_label": "Samarbeid: Organisatorisk samhandling",
                     "explanation": "Foreløpig automatisk opprettet kobling for Rammeverk for digital samhandling basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                },
+                {
+                    "capability_id": "id-299fc063873a4f278a1d3c0ac9480467",
+                    "capability_name": "Juridisk samhandling",
+                    "capability_slug": "juridisk-samhandling",
+                    "mapping_label": "Juridisk samhandling",
+                    "explanation": "Rammeverket er bygget på EIF (European Interoperability Framework), som har juridisk samhandling som ett av fire eksplisitte samhandlingslag. Ressursen gir strukturgrunnlaget for å vurdere og adressere det juridiske laget i tverrgående digitaliseringstiltak."
                 }
             ]
         },
@@ -3598,6 +3605,13 @@
                     "subcapability_slug": "arkitekturstyring",
                     "mapping_label": "Strategisk styring: Arkitekturstyring",
                     "explanation": "gjør juridiske forutsetninger til en tydelig del av tidlig løsningsvurdering og styring."
+                },
+                {
+                    "capability_id": "id-299fc063873a4f278a1d3c0ac9480467",
+                    "capability_name": "Juridisk samhandling",
+                    "capability_slug": "juridisk-samhandling",
+                    "mapping_label": "Juridisk samhandling",
+                    "explanation": "Ressursen beskriver metode for å vurdere juridisk handlingsrom og identifisere behov for regelverksendring i digitaliseringstiltak. Den er direkte støtte for den juridiske samhandlingsdimensjonen i nasjonal arkitektur."
                 }
             ]
         },
@@ -9095,7 +9109,28 @@
             "capability_name": "Juridisk samhandling",
             "capability_slug": "juridisk-samhandling",
             "description": "Evne til å etablere, forvalte og formidle et helhetlig juridisk rammeverk som muliggjør og regulerer sikker og effektiv digital samhandling.",
-            "products": [],
+            "products": [
+                {
+                    "product_id": 85,
+                    "product_name": "Rammeverk for digital samhandling",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v1-codex.md",
+                    "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v1-codex.md",
+                    "mapping_label": "Juridisk samhandling",
+                    "explanation": "Rammeverket er bygget på EIF (European Interoperability Framework), som har juridisk samhandling som ett av fire eksplisitte samhandlingslag. Ressursen gir strukturgrunnlaget for å vurdere og adressere det juridiske laget i tverrgående digitaliseringstiltak."
+                },
+                {
+                    "product_id": 115,
+                    "product_name": "Digitaliseringsvennlig regelverk",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v1-codex.md",
+                    "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v1-codex.md",
+                    "mapping_label": "Juridisk samhandling",
+                    "explanation": "Ressursen beskriver metode for å vurdere juridisk handlingsrom og identifisere behov for regelverksendring i digitaliseringstiltak. Den er direkte støtte for den juridiske samhandlingsdimensjonen i nasjonal arkitektur."
+                }
+            ],
             "subcapabilities": []
         },
         {

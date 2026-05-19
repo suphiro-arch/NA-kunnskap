@@ -29,6 +29,7 @@ Etterlevelse skjer normalt gjennom virksomhetsarkitektur, porteføljestyring, ko
 - Samordning
 - Forvaltningsstandarder
 - Organisatorisk samhandling
+- Juridisk samhandling
 
 ## Målgruppe og brukere
 | Brukersegment | Primært behov | Bruksområde | Kommentar |

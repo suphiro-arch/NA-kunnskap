@@ -74,7 +74,7 @@ Evne til å designe, utvikle og eksponere data og funksjonalitet som selvstendig
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/119-Ansattporten-v1-codex.md">Ansattporten</a></h3>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/119-Ansattporten-v2-codex.md">Ansattporten</a></h3>
     <p class="capability-product-link__description">Tjenesten tilbyr standardiserte metadata og integrasjonspunkter som andre løsninger kan koble seg til.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
