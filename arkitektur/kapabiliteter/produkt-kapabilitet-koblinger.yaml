@@ -3115,6 +3115,13 @@
                     "subcapability_slug": "tjenestedesign",
                     "mapping_label": "Tjenesteutvikling: Tjenestedesign",
                     "explanation": "Foreløpig automatisk opprettet kobling for Sjekkliste for sammenhengende tjenester basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                },
+                {
+                    "capability_id": "id-c0547226c598467a942dced879d0c18b",
+                    "capability_name": "Veiledning",
+                    "capability_slug": "veiledning",
+                    "mapping_label": "Veiledning",
+                    "explanation": "Ressursen er en praktisk sjekkliste og veileder for hvordan virksomheter kan vurdere og forbedre sammenhengende tjenester i samspill med andre aktører."
                 }
             ]
         },
@@ -3325,6 +3332,13 @@
                     "subcapability_slug": "datastyring",
                     "mapping_label": "Informasjonsforvaltning: Datastyring",
                     "explanation": "Foreløpig automatisk opprettet kobling for Nasjonal verktøykasse for deling av data basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                },
+                {
+                    "capability_id": "id-c0547226c598467a942dced879d0c18b",
+                    "capability_name": "Veiledning",
+                    "capability_slug": "veiledning",
+                    "mapping_label": "Veiledning",
+                    "explanation": "Ressursen er en praktisk veileder for virksomheter som skal etablere, beskrive og forvalte datadeling på en mer standardisert og samhandlingsorientert måte."
                 }
             ]
         },
@@ -3545,6 +3559,13 @@
                     "subcapability_slug": "tjenestedesign",
                     "mapping_label": "Tjenesteutvikling: Tjenestedesign",
                     "explanation": "Modellen er relevant i tidligfase og konseptarbeid, der behov skal avklares og tiltak skal utformes før gjennomføring."
+                },
+                {
+                    "capability_id": "id-c0547226c598467a942dced879d0c18b",
+                    "capability_name": "Veiledning",
+                    "capability_slug": "veiledning",
+                    "mapping_label": "Veiledning",
+                    "explanation": "Ressursen er en generell metode- og veiledningsressurs som hjelper virksomheter å strukturere analyse, beslutninger og gjennomføring i samhandlingsnære digitaliseringstiltak."
                 }
             ]
         },
@@ -3575,6 +3596,13 @@
                     "subcapability_slug": "tjenestedesign",
                     "mapping_label": "Tjenesteutvikling: Tjenestedesign",
                     "explanation": "behandler språk som en integrert del av utforming av digitale tjenester, ikke bare som etterredigering."
+                },
+                {
+                    "capability_id": "id-c0547226c598467a942dced879d0c18b",
+                    "capability_name": "Veiledning",
+                    "capability_slug": "veiledning",
+                    "mapping_label": "Veiledning",
+                    "explanation": "Ressursen er en veiledningsressurs som hjelper virksomheter å utforme tydeligere og mer forståelige tekster og tjenester i samhandling med brukere."
                 }
             ]
         },
@@ -3612,6 +3640,13 @@
                     "capability_slug": "juridisk-samhandling",
                     "mapping_label": "Juridisk samhandling",
                     "explanation": "Ressursen beskriver metode for å vurdere juridisk handlingsrom og identifisere behov for regelverksendring i digitaliseringstiltak. Den er direkte støtte for den juridiske samhandlingsdimensjonen i nasjonal arkitektur."
+                },
+                {
+                    "capability_id": "id-c0547226c598467a942dced879d0c18b",
+                    "capability_name": "Veiledning",
+                    "capability_slug": "veiledning",
+                    "mapping_label": "Veiledning",
+                    "explanation": "Ressursen er en veileder for hvordan virksomheter kan vurdere juridisk handlingsrom og regelverksbehov i digitaliseringstiltak som krever samhandling."
                 }
             ]
         },
@@ -4482,6 +4517,13 @@
                     "subcapability_slug": "arkitekturstyring",
                     "mapping_label": "Strategisk styring: Arkitekturstyring",
                     "explanation": "Forskriften støtter `Standardisering: Forvaltningsstandarder` ved å fastsette hvilke standarder som er obligatoriske eller må vurderes i offentlig forvaltning. Den støtter `Strategisk styring: Arkitekturstyring` ved å gi et rettslig premiss for hvordan virksomheter bør forankre standardvalg i styring, krav og arkitekturbeslutninger."
+                },
+                {
+                    "capability_id": "id-299fc063873a4f278a1d3c0ac9480467",
+                    "capability_name": "Juridisk samhandling",
+                    "capability_slug": "juridisk-samhandling",
+                    "mapping_label": "Juridisk samhandling",
+                    "explanation": "Forskriften gir juridisk bindende rammer for standardvalg i offentlig sektor og gjør samhandling til et rettslig og styringsmessig spørsmål, ikke bare et teknisk valg."
                 }
             ]
         },
@@ -4512,6 +4554,13 @@
                     "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling",
                     "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
                     "explanation": "Veilederen støtter `Tillit: Autentisering` ved å beskrive hvordan mottakerens identitet kan fastslås mer presist enn på virksomhetsnivå alene. Den støtter `Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling` ved å knytte identifisering, adressering, sertifikatbehandling, logging og sporing til trygg praktisk gjennomføring av datadeling."
+                },
+                {
+                    "capability_id": "id-c0547226c598467a942dced879d0c18b",
+                    "capability_name": "Veiledning",
+                    "capability_slug": "veiledning",
+                    "mapping_label": "Veiledning",
+                    "explanation": "Ressursen er en konkret veileder for hvordan virksomheter kan arbeide med identifisering, adressering og trygg mottakerhåndtering i datadeling på tvers av virksomheter og sektorer."
                 }
             ]
         }
@@ -9129,6 +9178,16 @@
                     "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v1-codex.md",
                     "mapping_label": "Juridisk samhandling",
                     "explanation": "Ressursen beskriver metode for å vurdere juridisk handlingsrom og identifisere behov for regelverksendring i digitaliseringstiltak. Den er direkte støtte for den juridiske samhandlingsdimensjonen i nasjonal arkitektur."
+                },
+                {
+                    "product_id": 137,
+                    "product_name": "Forskrift om IT-standarder i offentlig forvaltning",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/ressurser/normerende-ressurser/137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v1-codex.md",
+                    "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v1-codex.md",
+                    "mapping_label": "Juridisk samhandling",
+                    "explanation": "Forskriften gir juridisk bindende rammer for standardvalg i offentlig sektor og gjør samhandling til et rettslig og styringsmessig spørsmål, ikke bare et teknisk valg."
                 }
             ],
             "subcapabilities": []
@@ -9138,7 +9197,68 @@
             "capability_name": "Veiledning",
             "capability_slug": "veiledning",
             "description": "Evne til at veiledninger for digital samhandling utarbeides og benyttes i felles økosystem.",
-            "products": [],
+            "products": [
+                {
+                    "product_id": 99,
+                    "product_name": "Sjekkliste for sammenhengende tjenester",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/ressurser/normerende-ressurser/99-Sjekkliste-for-sammenhengende-tjenester-v1-codex.md",
+                    "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/99-Sjekkliste-for-sammenhengende-tjenester-v1-codex.md",
+                    "mapping_label": "Veiledning",
+                    "explanation": "Ressursen er en praktisk sjekkliste og veileder for hvordan virksomheter kan vurdere og forbedre sammenhengende tjenester i samspill med andre aktører."
+                },
+                {
+                    "product_id": 106,
+                    "product_name": "Nasjonal verktøykasse for deling av data",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v1-codex.md",
+                    "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v1-codex.md",
+                    "mapping_label": "Veiledning",
+                    "explanation": "Ressursen er en praktisk veileder for virksomheter som skal etablere, beskrive og forvalte datadeling på en mer standardisert og samhandlingsorientert måte."
+                },
+                {
+                    "product_id": 113,
+                    "product_name": "Prosjektveiviseren",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v1-codex.md",
+                    "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v1-codex.md",
+                    "mapping_label": "Veiledning",
+                    "explanation": "Ressursen er en generell metode- og veiledningsressurs som hjelper virksomheter å strukturere analyse, beslutninger og gjennomføring i samhandlingsnære digitaliseringstiltak."
+                },
+                {
+                    "product_id": 114,
+                    "product_name": "Klart språk",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v1-codex.md",
+                    "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v1-codex.md",
+                    "mapping_label": "Veiledning",
+                    "explanation": "Ressursen er en veiledningsressurs som hjelper virksomheter å utforme tydeligere og mer forståelige tekster og tjenester i samhandling med brukere."
+                },
+                {
+                    "product_id": 115,
+                    "product_name": "Digitaliseringsvennlig regelverk",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v1-codex.md",
+                    "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v1-codex.md",
+                    "mapping_label": "Veiledning",
+                    "explanation": "Ressursen er en veileder for hvordan virksomheter kan vurdere juridisk handlingsrom og regelverksbehov i digitaliseringstiltak som krever samhandling."
+                },
+                {
+                    "product_id": 138,
+                    "product_name": "Veileder for virksomhetsautentisering",
+                    "version": 1,
+                    "author": "codex",
+                    "relative_path": "arkitektur/ressurser/normerende-ressurser/138-Veileder-for-virksomhetsautentisering-v1-codex.md",
+                    "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/138-Veileder-for-virksomhetsautentisering-v1-codex.md",
+                    "mapping_label": "Veiledning",
+                    "explanation": "Ressursen er en konkret veileder for hvordan virksomheter kan arbeide med identifisering, adressering og trygg mottakerhåndtering i datadeling på tvers av virksomheter og sektorer."
+                }
+            ],
             "subcapabilities": []
         },
         {

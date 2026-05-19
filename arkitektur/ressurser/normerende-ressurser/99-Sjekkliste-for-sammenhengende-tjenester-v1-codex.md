@@ -28,6 +28,7 @@ Etterlevelse skjer normalt gjennom tjenestedesign, konseptarbeid, prosjektgjenno
 ## Kapabiliteter
 - Sammenhengende tjenester
 - Tjenestedesign
+- Veiledning
 
 ## Målgruppe og brukere
 | Brukersegment | Primært behov | Bruksområde | Kommentar |

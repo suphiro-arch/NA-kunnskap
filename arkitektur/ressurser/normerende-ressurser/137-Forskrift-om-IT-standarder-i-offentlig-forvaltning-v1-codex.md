@@ -30,6 +30,7 @@ Etterlevelse skjer ikke bare gjennom juridisk kontroll, men også gjennom styrin
 ## Kapabiliteter
 - Standardisering: Forvaltningsstandarder
 - Strategisk styring: Arkitekturstyring
+- Juridisk samhandling
 
 Forskriften støtter `Standardisering: Forvaltningsstandarder` ved å fastsette hvilke standarder som er obligatoriske eller må vurderes i offentlig forvaltning. Den støtter `Strategisk styring: Arkitekturstyring` ved å gi et rettslig premiss for hvordan virksomheter bør forankre standardvalg i styring, krav og arkitekturbeslutninger.
 

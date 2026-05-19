@@ -36,6 +36,9 @@ Avvik fra modellen trenger ikke godkjennes sentralt, men bør kunne begrunnes fa
 - **Tjenesteutvikling: Tjenestedesign**  
   Modellen er relevant i tidligfase og konseptarbeid, der behov skal avklares og tiltak skal utformes før gjennomføring.
 
+- **Veiledning**  
+  Ressursen er en generell metode- og veiledningsressurs som brukes for å strukturere analyse, planlegging og gjennomføring av samhandlingsnære digitaliseringstiltak.
+
 ## Målgruppe og brukere
 | Brukersegment | Primært behov | Bruksområde | Kommentar |
 |---|---|---|---|

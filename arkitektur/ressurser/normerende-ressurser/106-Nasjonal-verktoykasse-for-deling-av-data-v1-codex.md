@@ -25,6 +25,7 @@ Ressursen er normerende ved at den anbefaler standarder, minimumsbeskrivelser, t
 ## Kapabiliteter
 - Datautveksling og integrasjon: Dele data med andre
 - Standardisering: Forvaltningsstandarder
+- Veiledning
 
 ## Målgruppe og brukere
 | Brukersegment | Primært behov | Bruksområde | Kommentar |

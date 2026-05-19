@@ -30,6 +30,7 @@ Etterlevelse skjer normalt gjennom arkitekturarbeid, design av datadelingstjenes
 ## Kapabiliteter
 - Tillit: Autentisering
 - Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling
+- Veiledning
 
 Veilederen støtter `Tillit: Autentisering` ved å beskrive hvordan mottakerens identitet kan fastslås mer presist enn på virksomhetsnivå alene. Den støtter `Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling` ved å knytte identifisering, adressering, sertifikatbehandling, logging og sporing til trygg praktisk gjennomføring av datadeling.
 

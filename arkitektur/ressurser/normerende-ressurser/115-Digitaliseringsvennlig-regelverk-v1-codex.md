@@ -26,6 +26,7 @@ Ressursen er normerende ved at den gir anbefalinger for hvordan jurister, fagmil
 - Standardisering: Forvaltningsstandarder
 - Strategisk styring: Arkitekturstyring
 - Juridisk samhandling
+- Veiledning
 
 ## Målgruppe og brukere
 | Brukersegment | Primært behov | Bruksområde | Kommentar |

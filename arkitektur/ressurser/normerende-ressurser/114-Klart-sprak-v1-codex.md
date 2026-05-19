@@ -25,6 +25,7 @@ Ressursen er normerende ved at den gir anbefalte arbeidsmåter, vurderingspunkte
 ## Kapabiliteter
 - Sluttbrukertjenester: Sammenhengende tjenester
 - Tjenesteutvikling: Tjenestedesign
+- Veiledning
 
 ## Målgruppe og brukere
 | Brukersegment | Primært behov | Bruksområde | Kommentar |
