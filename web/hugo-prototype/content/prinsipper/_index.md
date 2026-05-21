@@ -109,6 +109,7 @@ headerTitle: "Prinsipper for nasjonal arkitektur"
       <div class="principle-panel__capabilities">
         <p class="principle-panel__label">Særlig relevant for</p>
         <p class="principle-panel__chips">
+          <a class="capability-chip" href="../kapabiliteter/sluttbrukertjenester/">Sluttbrukertjenester</a>
           <a class="capability-chip" href="../kapabiliteter/samarbeid/">Samarbeid</a>
           <a class="capability-chip" href="../kapabiliteter/datautveksling-og-integrasjon/">Datautveksling og integrasjon</a>
           <a class="capability-chip" href="../kapabiliteter/informasjonsforvaltning/">Informasjonsforvaltning</a>

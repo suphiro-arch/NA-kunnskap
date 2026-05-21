@@ -7,7 +7,7 @@ Denne beskrivelsen forklarer hvordan rådata, kuraterte arbeidsfiler og videre b
 Råkilder ligger i `sources/`.
 
 Viktigste råkilde for kapabiliteter og prinsipper:
-- `sources/2025-03-18-Nasjonal Arkitektur.xml`
+- `sources/Nasjonal Arkitektur kapabilitetsmodell-2026-05-20.archimate`
 
 Dette er en modellfil som inneholder mer enn det repoet faktisk skal bruke videre. Den har også hjelpeelementer, generiske objekter og kopier som ikke bør gå rett inn i dokumentasjon og web.
 

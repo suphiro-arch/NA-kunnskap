@@ -150,7 +150,7 @@ For minst mulig manuell jobb:
 
 ## Rådata og bearbeiding
 - `sources/` inneholder råkilder, lenkelister og sammenligningsgrunnlag.
-- `sources/2025-03-18-Nasjonal Arkitektur.xml` er råmodellen for kapabiliteter, prinsipper og modellens målspor.
+- `sources/Nasjonal Arkitektur kapabilitetsmodell-2026-05-20.archimate` er råmodellen for kapabiliteter, prinsipper og modellens målspor.
 - `arkitektur/kapabiliteter/capabilities.yaml` er den kuraterte arbeidsfila for kapabilitetsstrukturen.
 - `arkitektur/prinsipper/principles.md` er den kuraterte arbeidsfila for prinsipper og deres kobling til hovedkapabiliteter.
 - `arkitektur/maal/maal.md` er den kuraterte arbeidsfila for mål og overordnet målkobling i modellen.

@@ -1,6 +1,6 @@
 # Nasjonal Arkitektur Kapabilitetsmodell
-# Kilde: ArchiMate modell v.2026-02-27
-# Eksportert fra: 2026-03-02-Kapabilitetsoversikt.html
+# Kilde: sources/Nasjonal Arkitektur kapabilitetsmodell-2026-05-20.archimate
+# Oppdatert: 2026-05-21
 
 kapabilitetsmodell:
   id: id-ba60560a9ed64b4d87b2fd4fa6b32937
@@ -79,6 +79,7 @@ kapabilitetsmodell:
       prinsipper:
         - id-94f7473fb4184e3b94bb92c35186b88f  # P1
         - id-d0918d8701a4408b93a9ab278ecbb85e  # P5
+        - id-0007ec16e9a1406d9f6aabd1f975d993  # P6
       delkapabiliteter:
         - id: id-0aa7eced8c5c460f8bc64b77bd6a16c4
           navn: Sammenhengende tjenester
@@ -329,25 +330,40 @@ kapabilitetsmodell:
     - id: id-299fc063873a4f278a1d3c0ac9480467
       navn: Juridisk samhandling
       ikon: scale
-      selvstendig: true
       beskrivelse: >
         Evne til å etablere, forvalte og formidle et helhetlig juridisk rammeverk som
         muliggjør og regulerer sikker og effektiv digital samhandling.
       prinsipper:
         - id-7d62a886cdc14d20a5b361cf68da5754  # P3
         - id-5b6ec861e2d246ce90c99ea282d35610  # P7
-      delkapabiliteter: []
+      delkapabiliteter:
+        - id: id-0119029984674da59dbbfdc3a8ca3e95
+          navn: Regelverksutvikling
+          beskrivelse: >
+            Evne til å foreslå og koordinere endringer i regelverket for å tilpasse det
+            til teknologisk utvikling og nye behov.
+        - id: id-0209483504444508a40415aa6e3fc39c
+          navn: Regelverkstolkning
+          beskrivelse: >
+            Evne til å tilby felles, autoritative tolkninger av relevant regelverk.
 
     - id: id-c0547226c598467a942dced879d0c18b
       navn: Veiledning
       ikon: book-open
-      selvstendig: true
       beskrivelse: >
         Evne til at veiledninger for digital samhandling utarbeides og benyttes i
         felles økosystem.
       prinsipper:
         - id-0007ec16e9a1406d9f6aabd1f975d993  # P6
-      delkapabiliteter: []
+      delkapabiliteter:
+        - id: id-0bfa29018e7144578b2184e70414b7e8
+          navn: Utvikling og formidling av veiledning
+          beskrivelse: >
+            Evne til å utarbeide, kvalitetssikre og tilgjengeliggjøre veiledning.
+        - id: id-a601bb3d7b11478185903149965f7842
+          navn: Anvendelse av veiledning
+          beskrivelse: >
+            Evne til å tolke og benytte veiledere i prosjekter og tiltak.
 
     - id: id-d7aa97e6319a492d8a1345bcaa8e154a
       navn: Datakilder

@@ -1,19 +1,19 @@
 # Mål for nasjonal arkitektur
 
 Kildegrunnlag:
-- `sources/2025-03-18-Nasjonal Arkitektur.xml`
+- `sources/Nasjonal Arkitektur kapabilitetsmodell-2026-05-20.archimate`
 
-Denne fila samler de operative målene som faktisk er modellert i XML-kilden, og beskriver hvordan de er koblet til den overordnede arkitekturmodellen.
+Denne fila samler de operative målene som faktisk er modellert i ArchiMate-kilden, og beskriver hvordan de er koblet til den overordnede arkitekturmodellen.
 
-## Eksplisitte koblinger til kapabiliteter i XML
+## Eksplisitte koblinger til kapabiliteter i modellen
 
-XML-kilden har få direkte koblinger mellom kapabiliteter og mål. De som faktisk finnes, er:
+Kilden har få direkte koblinger mellom kapabiliteter og mål. De som faktisk finnes, er:
 
 | Kapabilitet | Relasjon | Mål / utfall | Kommentar |
 |---|---|---|---|
 | `Nasjonal arkitektur for samhandling` | Realiserer | `Et velfungerende felles digitalt økosystem for samhandling og tjenesteutvikling i offentlig sektor` | Dette er den tydeligste operative koblingen i modellen. |
-| `Strategisk kapabilitet (overordnet)` | Realiserer | `Behov` | Generisk kobling i modellen. Ikke brukt videre som operativ kapabilitet i repoet. |
-| `Strategisk kapabilitet (overordnet)` | Realiserer / assosieres med | `Effektmål fremtid` | Generisk kobling i modellen. Ikke brukt videre som operativ kapabilitet i repoet. |
+| `Domenekapabilitet` | Realiserer | `Effektmål` | Generisk kobling i modellen. Ikke brukt videre som operativ kapabilitet i repoet. |
+| `Strategisk kapabilitet (overordnet)` | Assosieres med / realiserer | `Effektmål` | Generisk kobling i modellen. Ikke brukt videre som operativ kapabilitet i repoet. |
 
 ## Hovedmål i modellen
 
@@ -21,7 +21,7 @@ XML-kilden har få direkte koblinger mellom kapabiliteter og mål. De som faktis
 
 | Mål | Beskrivelse |
 |---|---|
-| **Et velfungerende felles digitalt økosystem for samhandling og tjenesteutvikling i offentlig sektor** | Overordnet mål for den nasjonale arkitekturmodellen. Dette er målet som `Nasjonal arkitektur for samhandling` realiserer i XML-modellen. |
+| **Et velfungerende felles digitalt økosystem for samhandling og tjenesteutvikling i offentlig sektor** | Overordnet mål for den nasjonale arkitekturmodellen. Dette er målet som `Nasjonal arkitektur for samhandling` realiserer i modellen. |
 
 ### Strategiske mål som påvirkes
 
@@ -38,15 +38,15 @@ XML-kilden har få direkte koblinger mellom kapabiliteter og mål. De som faktis
 
 ## Kobling mellom arkitektur og mål
 
-XML-modellen viser disse eksplisitte koblingene:
+ArchiMate-modellen viser disse eksplisitte koblingene:
 
 1. `Nasjonal arkitektur for samhandling` realiserer målet `Et velfungerende felles digitalt økosystem for samhandling og tjenesteutvikling i offentlig sektor`.
 2. Dette overordnede målet påvirker de åtte strategiske målene listet over.
-3. XML-en har i tillegg generiske koblinger fra `Strategisk kapabilitet (overordnet)` til `Behov` og `Effektmål fremtid`, men disse er ikke del av repoets kuraterte operative kapabilitetsstruktur.
+3. Modellen har i tillegg generiske koblinger fra `Strategisk kapabilitet (overordnet)` og `Domenekapabilitet` til `Effektmål`, men disse er ikke del av repoets kuraterte operative kapabilitetsstruktur.
 
 ## Viktig avgrensning
 
-XML-kilden viser ikke en full operativ kobling fra hver hovedkapabilitet til hvert strategiske mål.
+Kilden viser ikke en full operativ kobling fra hver hovedkapabilitet til hvert strategiske mål.
 
 Det betyr:
 - modellen kan brukes som grunnlag for et eget målspor i repoet
@@ -56,4 +56,4 @@ Det betyr:
 
 - Bruk denne fila som kuratert oversikt over målsporet i arkitekturmodellen.
 - Behold `capabilities.yaml` som kuratert kapabilitetsmaster.
-- Hvis repoet senere trenger eksplisitt kobling mellom kapabiliteter og mål, bør det opprettes en egen kuratert fil for dette, ikke bygges direkte fra rå XML.
+- Hvis repoet senere trenger eksplisitt kobling mellom kapabiliteter og mål, bør det opprettes en egen kuratert fil for dette, ikke bygges direkte fra råmodellen.
