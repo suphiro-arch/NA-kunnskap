@@ -1,5 +1,8 @@
 # Kompetansemodell for digital transformasjon
 
+## Navn
+Kompetansemodell for digital transformasjon
+
 ## Ressurs ID
 DIGDIR-049
 
