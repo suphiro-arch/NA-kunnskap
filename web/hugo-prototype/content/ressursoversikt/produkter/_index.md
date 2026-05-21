@@ -6,8 +6,6 @@ hideInNav: true
 hideToc: true
 ---
 
-# Ressurser (siste versjon)
-
 Denne oversikten viser siste registrerte versjon per ressurs basert paa `arkitektur/ressurser/produktnummerering.md`.
 
 Bruk siden for aa finne riktig ressursbeskrivelse raskt, og gaa derfra videre til detaljene i markdownfilen paa GitHub eller via relevante kapabilitetssider.

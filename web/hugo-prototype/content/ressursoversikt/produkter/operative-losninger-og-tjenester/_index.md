@@ -5,8 +5,6 @@ description: "Ressurser som brukes direkte i drift, integrasjon eller løsningsd
 hideToc: true
 ---
 
-# Operative løsninger og tjenester
-
 Ressurser som brukes direkte i drift, integrasjon eller løsningsdesign.
 
 Denne siden viser siste registrerte versjon av ressurser i kategorien **Operative løsninger og tjenester**.

@@ -5,8 +5,6 @@ description: "Arenaer for koordinering, prioritering og samordning på tvers av 
 hideToc: true
 ---
 
-# Samarbeidsfora
-
 Arenaer for koordinering, prioritering og samordning på tvers av aktører.
 
 Denne siden viser siste registrerte versjon av ressurser i kategorien **Samarbeidsfora**.

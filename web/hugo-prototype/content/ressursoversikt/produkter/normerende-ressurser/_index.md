@@ -5,8 +5,6 @@ description: "Ressurser som primært gir føringer for modeller, standarder, ark
 hideToc: true
 ---
 
-# Normerende ressurser
-
 Ressurser som primært gir føringer for modeller, standarder, arkitektur og samordning.
 
 Denne siden viser siste registrerte versjon av ressurser i kategorien **Normerende ressurser**.

@@ -5,8 +5,6 @@ description: "Ressurser som foreløpig ikke er plassert i egen ressursmappe med 
 hideToc: true
 ---
 
-# Andre ressurser
-
 Ressurser som foreløpig ikke er plassert i egen ressursmappe med tydelig hovedtype.
 
 Denne siden viser siste registrerte versjon av ressurser i kategorien **Andre ressurser**.
