@@ -1,5 +1,8 @@
 # Rammeverk for informasjonsforvaltning
 
+## Navn
+Rammeverk for informasjonsforvaltning
+
 ## Ressurs ID
 DIGDIR-029
 

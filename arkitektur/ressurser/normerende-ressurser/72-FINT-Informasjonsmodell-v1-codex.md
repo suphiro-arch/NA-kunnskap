@@ -1,5 +1,8 @@
 # FINT Informasjonsmodell
 
+## Navn
+FINT Informasjonsmodell
+
 ## Ressurs ID
 NOVARI-003
 
@@ -8,6 +11,9 @@ Normerende ressurs
 
 ## Type normerende ressurs
 Informasjonsmodell
+
+## Forpliktelsesnivå
+Anbefalt innenfor FINT-økosystemet. For virksomheter som bruker FINT i fylkeskommunal sektor fungerer modellen i praksis som et styrende normgrunnlag for semantikk, datastruktur og integrasjonsdesign.
 
 ## Status/Livsfase
 **Under revisjon** - normerende ressurs i aktiv bruk.  
