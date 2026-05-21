@@ -11,4 +11,4 @@ Evne til å evaluere, forbedre, fornye styringssystem for informasjonssikkerhet.
 
 ## Relaterte ressurser
 
-<p>Ingen produkter er koblet til denne kapabiliteten forelopig.</p>
+<p>Ingen produkter er koblet til denne kapabiliteten foreløpig.</p>

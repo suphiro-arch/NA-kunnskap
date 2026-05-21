@@ -11,4 +11,4 @@ Evne til å tilgjengeliggjøre og forvalte data som ikke er påført en forhånd
 
 ## Relaterte ressurser
 
-<p>Ingen produkter er koblet til denne kapabiliteten forelopig.</p>
+<p>Ingen produkter er koblet til denne kapabiliteten foreløpig.</p>

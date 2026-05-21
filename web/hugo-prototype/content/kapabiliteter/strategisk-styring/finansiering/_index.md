@@ -11,4 +11,4 @@ Evne til å utforme, anvende og forvalte finansielle virkemidler for å styre di
 
 ## Relaterte ressurser
 
-<p>Ingen produkter er koblet til denne kapabiliteten forelopig.</p>
+<p>Ingen produkter er koblet til denne kapabiliteten foreløpig.</p>

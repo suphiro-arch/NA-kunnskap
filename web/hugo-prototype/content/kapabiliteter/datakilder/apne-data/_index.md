@@ -11,4 +11,4 @@ Evne til å tilgjengeliggjøre åpne data slik at den kan leses og tolkes av bå
 
 ## Relaterte ressurser
 
-<p>Ingen produkter er koblet til denne kapabiliteten forelopig.</p>
+<p>Ingen produkter er koblet til denne kapabiliteten foreløpig.</p>

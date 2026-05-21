@@ -11,4 +11,4 @@ Evne til å utarbeide, kvalitetssikre og tilgjengeliggjøre veiledning.
 
 ## Relaterte ressurser
 
-<p>Ingen produkter er koblet til denne kapabiliteten forelopig.</p>
+<p>Ingen produkter er koblet til denne kapabiliteten foreløpig.</p>

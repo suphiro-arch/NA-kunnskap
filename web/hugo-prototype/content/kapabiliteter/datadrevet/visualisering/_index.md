@@ -11,4 +11,4 @@ Evne til å omforme komplekse data til visuelle fremstillinger som gjør innsikt
 
 ## Relaterte ressurser
 
-<p>Ingen produkter er koblet til denne kapabiliteten forelopig.</p>
+<p>Ingen produkter er koblet til denne kapabiliteten foreløpig.</p>

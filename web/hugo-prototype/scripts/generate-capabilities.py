@@ -374,7 +374,7 @@ def classify_resource(relative_path: str) -> tuple[str, str]:
 
 def render_product_link_cards(products: list[dict], capability_name: str, *, include_relevance: bool) -> str:
     if not products:
-        return '<p>Ingen produkter er koblet til denne kapabiliteten forelopig.</p>'
+        return '<p>Ingen produkter er koblet til denne kapabiliteten foreløpig.</p>'
 
     grouped: dict[int, dict] = {}
 

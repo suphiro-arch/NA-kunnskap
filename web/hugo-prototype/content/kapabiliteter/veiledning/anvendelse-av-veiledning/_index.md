@@ -11,4 +11,4 @@ Evne til å tolke og benytte veiledere i prosjekter og tiltak.
 
 ## Relaterte ressurser
 
-<p>Ingen produkter er koblet til denne kapabiliteten forelopig.</p>
+<p>Ingen produkter er koblet til denne kapabiliteten foreløpig.</p>

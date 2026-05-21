@@ -11,4 +11,4 @@ Evne til å generere og tilgjengeliggjøre representative og personvernsikre dat
 
 ## Relaterte ressurser
 
-<p>Ingen produkter er koblet til denne kapabiliteten forelopig.</p>
+<p>Ingen produkter er koblet til denne kapabiliteten foreløpig.</p>

@@ -11,4 +11,4 @@ Evne til å foreslå og koordinere endringer i regelverket for å tilpasse det t
 
 ## Relaterte ressurser
 
-<p>Ingen produkter er koblet til denne kapabiliteten forelopig.</p>
+<p>Ingen produkter er koblet til denne kapabiliteten foreløpig.</p>

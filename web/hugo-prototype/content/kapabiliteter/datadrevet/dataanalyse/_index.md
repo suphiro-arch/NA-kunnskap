@@ -11,4 +11,4 @@ Evnen til å transformere rådata til meningsfull innsikt og bygge prediktive mo
 
 ## Relaterte ressurser
 
-<p>Ingen produkter er koblet til denne kapabiliteten forelopig.</p>
+<p>Ingen produkter er koblet til denne kapabiliteten foreløpig.</p>
