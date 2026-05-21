@@ -641,8 +641,6 @@ $allResourcesIndex = @(
   'hideSectionOverview: true',
   '---',
   '',
-  '# Ressursoversikt',
-  '',
   ('<div class="resource-overview-intro"><p class="resource-overview-intro__lead">Dette er totaloversikten over siste registrerte versjon per ressurs, på tvers av typer, eiere og kapabiliteter.</p></div>'),
   '',
   '## Utforsk etter type',

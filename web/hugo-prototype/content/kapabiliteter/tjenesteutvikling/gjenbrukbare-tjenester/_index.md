@@ -35,6 +35,6 @@ Evne til å utvikle og benytte tjenester som kan brukes i nye sammenhenger på t
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/118-Felles-designsystem-v2-codex.md">Felles designsystem</a></h3>
-    <p class="capability-product-link__description">Ressursen gjør det mulig å gjenbruke komponenter og mønstre i flere løsninger.</p>
+    <p class="capability-product-link__description">Ressursen gjør frontend-byggesteiner gjenbrukbare gjennom felles kodepakker, komponenter og mønstre som kan brukes i mange ulike tjenester i stedet for å lages på nytt lokalt.</p>
   </article>
 </div>

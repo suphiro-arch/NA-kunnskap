@@ -1,5 +1,8 @@
 # Nasjonal verktøykasse for deling av data
 
+## Navn
+Nasjonal verktøykasse for deling av data
+
 ## Ressurs ID
 DIGDIR-038
 
@@ -26,6 +29,8 @@ Ressursen er normerende ved at den anbefaler standarder, minimumsbeskrivelser, t
 - Datautveksling og integrasjon: Dele data med andre
 - Standardisering: Forvaltningsstandarder
 - Veiledning
+
+Ressursen dekker delkapabiliteten Utvikling og formidling av veiledning ved å samle og tilgjengeliggjøre praktiske veiledere for datadeling.
 
 ## Målgruppe og brukere
 | Brukersegment | Primært behov | Bruksområde | Kommentar |

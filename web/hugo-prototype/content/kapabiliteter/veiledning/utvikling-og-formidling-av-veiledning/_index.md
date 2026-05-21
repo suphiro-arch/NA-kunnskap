@@ -4,11 +4,22 @@ headerTitle: "Veiledning - Utvikling og formidling av veiledning"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å utarbeide, kvalitetssikre og tilgjengeliggjøre veiledning."
-cardMeta: "0 produkter"
+cardMeta: "2 produkter"
 ---
 
 Evne til å utarbeide, kvalitetssikre og tilgjengeliggjøre veiledning.
 
 ## Relaterte ressurser
 
-<p>Ingen produkter er koblet til denne kapabiliteten foreløpig.</p>
+<div class="capability-product-links">
+  <article class="capability-product-link resource-type--normative">
+    <p class="capability-product-link__type">Normerende ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v1-codex.md">Nasjonal verktøykasse for deling av data</a></h3>
+    <p class="capability-product-link__description">Ressursen samler og formidler praktiske veiledere for virksomheter som skal etablere, beskrive og forvalte datadeling på en mer standardisert og samhandlingsorientert måte.</p>
+  </article>
+  <article class="capability-product-link resource-type--normative">
+    <p class="capability-product-link__type">Normerende ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v1-codex.md">Digitaliseringsvennlig regelverk</a></h3>
+    <p class="capability-product-link__description">Ressursen er en veileder som utvikles og formidles for å støtte virksomheter i vurdering av juridisk handlingsrom og regelverksbehov i samhandlingsnære digitaliseringstiltak.</p>
+  </article>
+</div>

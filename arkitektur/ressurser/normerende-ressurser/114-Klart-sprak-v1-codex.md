@@ -1,5 +1,8 @@
 # Klart språk
 
+## Navn
+Klart språk
+
 ## Ressurs ID
 DIGDIR-046
 
@@ -26,6 +29,8 @@ Ressursen er normerende ved at den gir anbefalte arbeidsmåter, vurderingspunkte
 - Sluttbrukertjenester: Sammenhengende tjenester
 - Tjenesteutvikling: Tjenestedesign
 - Veiledning
+
+Ressursen dekker særlig delkapabiliteten Anvendelse av veiledning ved at rådene brukes direkte i tjenesteutvikling og brukerkommunikasjon.
 
 ## Målgruppe og brukere
 | Brukersegment | Primært behov | Bruksområde | Kommentar |

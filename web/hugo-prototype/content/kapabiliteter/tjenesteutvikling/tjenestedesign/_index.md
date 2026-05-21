@@ -50,6 +50,6 @@ Evne til å sette brukerens behov, livssituasjon og helhetlige reise som utgangs
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/118-Felles-designsystem-v2-codex.md">Felles designsystem</a></h3>
-    <p class="capability-product-link__description">Felles designsystem gir konkrete byggeklosser som støtter utforming av digitale tjenester.</p>
+    <p class="capability-product-link__description">Designsystemet støtter tjenestedesign ved å koble brukeropplevelse, universell utforming og utviklingspraksis i ett felles fundament som team kan bygge videre på.</p>
   </article>
 </div>

@@ -1,5 +1,8 @@
 # Kart for tjenestekjeder
 
+## Navn
+Kart for tjenestekjeder
+
 ## Ressurs ID
 DIGDIR-032
 
@@ -29,6 +32,8 @@ Etterlevelse skjer gjennom tjenestedesign, arkitekturanalyse, konseptutredning o
 - Tjenestekjeder
 - Organisatorisk samhandling
 - Samordning
+
+Ressursen er særlig relevant for Sluttbrukertjenester gjennom analyse av tjenestekjeder som grunnlag for mer sammenhengende brukerreiser.
 
 ## Målgruppe og brukere
 | Brukersegment | Primært behov | Bruksområde | Kommentar |

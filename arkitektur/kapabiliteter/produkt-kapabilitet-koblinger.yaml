@@ -3343,8 +3343,11 @@
                     "capability_id": "id-c0547226c598467a942dced879d0c18b",
                     "capability_name": "Veiledning",
                     "capability_slug": "veiledning",
-                    "mapping_label": "Veiledning",
-                    "explanation": "Ressursen er en praktisk veileder for virksomheter som skal etablere, beskrive og forvalte datadeling på en mer standardisert og samhandlingsorientert måte."
+                    "subcapability_id": "id-0bfa29018e7144578b2184e70414b7e8",
+                    "subcapability_name": "Utvikling og formidling av veiledning",
+                    "subcapability_slug": "utvikling-og-formidling-av-veiledning",
+                    "mapping_label": "Veiledning: Utvikling og formidling av veiledning",
+                    "explanation": "Ressursen samler og formidler praktiske veiledere for virksomheter som skal etablere, beskrive og forvalte datadeling på en mer standardisert og samhandlingsorientert måte."
                 }
             ]
         },
@@ -3570,8 +3573,11 @@
                     "capability_id": "id-c0547226c598467a942dced879d0c18b",
                     "capability_name": "Veiledning",
                     "capability_slug": "veiledning",
-                    "mapping_label": "Veiledning",
-                    "explanation": "Ressursen er en generell metode- og veiledningsressurs som hjelper virksomheter å strukturere analyse, beslutninger og gjennomføring i samhandlingsnære digitaliseringstiltak."
+                    "subcapability_id": "id-a601bb3d7b11478185903149965f7842",
+                    "subcapability_name": "Anvendelse av veiledning",
+                    "subcapability_slug": "anvendelse-av-veiledning",
+                    "mapping_label": "Veiledning: Anvendelse av veiledning",
+                    "explanation": "Ressursen er en generell metode- og veiledningsressurs som brukes for å strukturere analyse, planlegging og gjennomføring av samhandlingsnære digitaliseringstiltak."
                 }
             ]
         },
@@ -3607,8 +3613,11 @@
                     "capability_id": "id-c0547226c598467a942dced879d0c18b",
                     "capability_name": "Veiledning",
                     "capability_slug": "veiledning",
-                    "mapping_label": "Veiledning",
-                    "explanation": "Ressursen er en veiledningsressurs som hjelper virksomheter å utforme tydeligere og mer forståelige tekster og tjenester i samhandling med brukere."
+                    "subcapability_id": "id-a601bb3d7b11478185903149965f7842",
+                    "subcapability_name": "Anvendelse av veiledning",
+                    "subcapability_slug": "anvendelse-av-veiledning",
+                    "mapping_label": "Veiledning: Anvendelse av veiledning",
+                    "explanation": "Ressursen er en veiledningsressurs som brukes direkte for å utforme tydeligere og mer forståelige tekster og tjenester i samhandling med brukere."
                 }
             ]
         },
@@ -3738,7 +3747,7 @@
                     "subcapability_name": "Sammenhengende tjenester",
                     "subcapability_slug": "sammenhengende-tjenester",
                     "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-                    "explanation": "Designspråk og gjenbrukbare komponenter bidrar til mer helhetlige brukeropplevelser på tvers av tjenester."
+                    "explanation": "Felles designsystem bidrar til mer sammenhengende tjenester ved å gjøre komponenter og interaksjonsmønstre mer gjenkjennelige på tvers av virksomheter, også når den visuelle profilen varierer."
                 },
                 {
                     "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
@@ -3748,7 +3757,7 @@
                     "subcapability_name": "Gjenbrukbare tjenester",
                     "subcapability_slug": "gjenbrukbare-tjenester",
                     "mapping_label": "Tjenesteutvikling: Gjenbrukbare tjenester",
-                    "explanation": "Ressursen gjør det mulig å gjenbruke komponenter og mønstre i flere løsninger."
+                    "explanation": "Ressursen gjør frontend-byggesteiner gjenbrukbare gjennom felles kodepakker, komponenter og mønstre som kan brukes i mange ulike tjenester i stedet for å lages på nytt lokalt."
                 },
                 {
                     "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
@@ -3758,7 +3767,7 @@
                     "subcapability_name": "Tjenestedesign",
                     "subcapability_slug": "tjenestedesign",
                     "mapping_label": "Tjenesteutvikling: Tjenestedesign",
-                    "explanation": "Felles designsystem gir konkrete byggeklosser som støtter utforming av digitale tjenester."
+                    "explanation": "Designsystemet støtter tjenestedesign ved å koble brukeropplevelse, universell utforming og utviklingspraksis i ett felles fundament som team kan bygge videre på."
                 }
             ]
         },
@@ -3778,7 +3787,7 @@
                     "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
                     "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling",
                     "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
-                    "explanation": "Ressursen beskytter innloggingsflyt og metadatautveksling i ansattpålogging."
+                    "explanation": "Ansattporten beskytter innloggingsflyt, tokenutstedelse og metadatautveksling i løsninger der ansatte eller virksomhetsrepresentanter skal få sikker tilgang."
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
@@ -3788,7 +3797,7 @@
                     "subcapability_name": "Autentisering",
                     "subcapability_slug": "autentisering",
                     "mapping_label": "Tillit: Autentisering",
-                    "explanation": "Ansattporten verifiserer identitet i ansattkontekst og er kjernefunksjonen i ressursen."
+                    "explanation": "Ressursen verifiserer identiteten til sluttbrukeren i ansattkontekst og tilbyr et felles nasjonalt mønster for sikker innlogging i slike tjenester."
                 },
                 {
                     "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
@@ -3798,7 +3807,7 @@
                     "subcapability_name": "Integrerbare tjenester",
                     "subcapability_slug": "integrerbare-tjenester",
                     "mapping_label": "Tjenesteutvikling: Integrerbare tjenester",
-                    "explanation": "Tjenesten tilbyr standardiserte metadata og integrasjonspunkter som andre løsninger kan koble seg til."
+                    "explanation": "Ansattporten gjør innlogging og representasjonsnær autentisering gjenbrukbar gjennom standardiserte protokoller, metadata og selvbetjeningsoppsett som andre løsninger kan integrere mot."
                 }
             ]
         },
@@ -9301,8 +9310,11 @@
                     "author": "codex",
                     "relative_path": "arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v1-codex.md",
                     "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v1-codex.md",
-                    "mapping_label": "Veiledning",
-                    "explanation": "Ressursen er en praktisk veileder for virksomheter som skal etablere, beskrive og forvalte datadeling på en mer standardisert og samhandlingsorientert måte."
+                    "mapping_label": "Veiledning: Utvikling og formidling av veiledning",
+                    "explanation": "Ressursen samler og formidler praktiske veiledere for virksomheter som skal etablere, beskrive og forvalte datadeling på en mer standardisert og samhandlingsorientert måte.",
+                    "subcapability_id": "id-0bfa29018e7144578b2184e70414b7e8",
+                    "subcapability_name": "Utvikling og formidling av veiledning",
+                    "subcapability_slug": "utvikling-og-formidling-av-veiledning"
                 },
                 {
                     "product_id": 113,
@@ -9311,8 +9323,11 @@
                     "author": "codex",
                     "relative_path": "arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v1-codex.md",
                     "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v1-codex.md",
-                    "mapping_label": "Veiledning",
-                    "explanation": "Ressursen er en generell metode- og veiledningsressurs som hjelper virksomheter å strukturere analyse, beslutninger og gjennomføring i samhandlingsnære digitaliseringstiltak."
+                    "mapping_label": "Veiledning: Anvendelse av veiledning",
+                    "explanation": "Ressursen er en generell metode- og veiledningsressurs som brukes for å strukturere analyse, planlegging og gjennomføring av samhandlingsnære digitaliseringstiltak.",
+                    "subcapability_id": "id-a601bb3d7b11478185903149965f7842",
+                    "subcapability_name": "Anvendelse av veiledning",
+                    "subcapability_slug": "anvendelse-av-veiledning"
                 },
                 {
                     "product_id": 114,
@@ -9321,8 +9336,11 @@
                     "author": "codex",
                     "relative_path": "arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v1-codex.md",
                     "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v1-codex.md",
-                    "mapping_label": "Veiledning",
-                    "explanation": "Ressursen er en veiledningsressurs som hjelper virksomheter å utforme tydeligere og mer forståelige tekster og tjenester i samhandling med brukere."
+                    "mapping_label": "Veiledning: Anvendelse av veiledning",
+                    "explanation": "Ressursen er en veiledningsressurs som brukes direkte for å utforme tydeligere og mer forståelige tekster og tjenester i samhandling med brukere.",
+                    "subcapability_id": "id-a601bb3d7b11478185903149965f7842",
+                    "subcapability_name": "Anvendelse av veiledning",
+                    "subcapability_slug": "anvendelse-av-veiledning"
                 },
                 {
                     "product_id": 115,
@@ -9370,6 +9388,19 @@
                             "subcapability_id": "id-0bfa29018e7144578b2184e70414b7e8",
                             "subcapability_name": "Utvikling og formidling av veiledning",
                             "subcapability_slug": "utvikling-og-formidling-av-veiledning"
+                        },
+                        {
+                            "product_id": 106,
+                            "product_name": "Nasjonal verktøykasse for deling av data",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v1-codex.md",
+                            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v1-codex.md",
+                            "mapping_label": "Veiledning: Utvikling og formidling av veiledning",
+                            "explanation": "Ressursen samler og formidler praktiske veiledere for virksomheter som skal etablere, beskrive og forvalte datadeling på en mer standardisert og samhandlingsorientert måte.",
+                            "subcapability_id": "id-0bfa29018e7144578b2184e70414b7e8",
+                            "subcapability_name": "Utvikling og formidling av veiledning",
+                            "subcapability_slug": "utvikling-og-formidling-av-veiledning"
                         }
                     ]
                 },
@@ -9401,6 +9432,32 @@
                             "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/138-Veileder-for-virksomhetsautentisering-v1-codex.md",
                             "mapping_label": "Veiledning: Anvendelse av veiledning",
                             "explanation": "Ressursen er en konkret veileder som anvendes direkte i virksomheters arbeid med identifisering, adressering og trygg mottakerhåndtering ved datadeling.",
+                            "subcapability_id": "id-a601bb3d7b11478185903149965f7842",
+                            "subcapability_name": "Anvendelse av veiledning",
+                            "subcapability_slug": "anvendelse-av-veiledning"
+                        },
+                        {
+                            "product_id": 113,
+                            "product_name": "Prosjektveiviseren",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v1-codex.md",
+                            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v1-codex.md",
+                            "mapping_label": "Veiledning: Anvendelse av veiledning",
+                            "explanation": "Ressursen er en generell metode- og veiledningsressurs som brukes for å strukturere analyse, planlegging og gjennomføring av samhandlingsnære digitaliseringstiltak.",
+                            "subcapability_id": "id-a601bb3d7b11478185903149965f7842",
+                            "subcapability_name": "Anvendelse av veiledning",
+                            "subcapability_slug": "anvendelse-av-veiledning"
+                        },
+                        {
+                            "product_id": 114,
+                            "product_name": "Klart språk",
+                            "version": 1,
+                            "author": "codex",
+                            "relative_path": "arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v1-codex.md",
+                            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v1-codex.md",
+                            "mapping_label": "Veiledning: Anvendelse av veiledning",
+                            "explanation": "Ressursen er en veiledningsressurs som brukes direkte for å utforme tydeligere og mer forståelige tekster og tjenester i samhandling med brukere.",
                             "subcapability_id": "id-a601bb3d7b11478185903149965f7842",
                             "subcapability_name": "Anvendelse av veiledning",
                             "subcapability_slug": "anvendelse-av-veiledning"
