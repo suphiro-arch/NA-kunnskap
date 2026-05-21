@@ -1,5 +1,8 @@
 # Referansearkitektur forespørsel-svar (eOppslag)
 
+## Navn
+Referansearkitektur forespørsel-svar (eOppslag)
+
 ## Ressurs ID
 DIGDIR-034
 
