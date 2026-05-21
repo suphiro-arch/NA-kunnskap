@@ -1,5 +1,8 @@
 # Sjekkliste for sammenhengende tjenester
 
+## Navn
+Sjekkliste for sammenhengende tjenester
+
 ## Ressurs ID
 DIGDIR-031
 
@@ -29,6 +32,8 @@ Etterlevelse skjer normalt gjennom tjenestedesign, konseptarbeid, prosjektgjenno
 - Sammenhengende tjenester
 - Tjenestedesign
 - Veiledning
+
+Ressursen er særlig relevant for delkapabiliteten Anvendelse av veiledning ved at den brukes direkte i prosjekter og forbedringstiltak.
 
 ## Målgruppe og brukere
 | Brukersegment | Primært behov | Bruksområde | Kommentar |

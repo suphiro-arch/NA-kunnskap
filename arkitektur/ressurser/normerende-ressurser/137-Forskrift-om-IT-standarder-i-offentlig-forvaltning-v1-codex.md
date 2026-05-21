@@ -1,5 +1,8 @@
 # Forskrift om IT-standarder i offentlig forvaltning
 
+## Navn
+Forskrift om IT-standarder i offentlig forvaltning
+
 ## Ressurs ID
 DIGDIR-060
 
@@ -31,6 +34,8 @@ Etterlevelse skjer ikke bare gjennom juridisk kontroll, men også gjennom styrin
 - Standardisering: Forvaltningsstandarder
 - Strategisk styring: Arkitekturstyring
 - Juridisk samhandling
+
+Ressursen er særlig relevant for delkapabilitetene Regelverksutvikling og Regelverkstolkning fordi den fastsetter rettslige krav og gir premisser for juridiske avklaringer i samhandling.
 
 Forskriften støtter `Standardisering: Forvaltningsstandarder` ved å fastsette hvilke standarder som er obligatoriske eller må vurderes i offentlig forvaltning. Den støtter `Strategisk styring: Arkitekturstyring` ved å gi et rettslig premiss for hvordan virksomheter bør forankre standardvalg i styring, krav og arkitekturbeslutninger.
 

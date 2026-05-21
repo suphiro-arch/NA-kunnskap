@@ -1,5 +1,8 @@
 # Veileder for virksomhetsautentisering
 
+## Navn
+Veileder for virksomhetsautentisering
+
 ## Ressurs ID
 DIGDIR-061
 
@@ -31,6 +34,8 @@ Etterlevelse skjer normalt gjennom arkitekturarbeid, design av datadelingstjenes
 - Tillit: Autentisering
 - Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling
 - Veiledning
+
+Ressursen dekker særlig delkapabilitetene Utvikling og formidling av veiledning og Anvendelse av veiledning gjennom konkrete anbefalinger som både utvikles sentralt og brukes direkte i virksomhetenes tiltak.
 
 Veilederen støtter `Tillit: Autentisering` ved å beskrive hvordan mottakerens identitet kan fastslås mer presist enn på virksomhetsnivå alene. Den støtter `Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling` ved å knytte identifisering, adressering, sertifikatbehandling, logging og sporing til trygg praktisk gjennomføring av datadeling.
 

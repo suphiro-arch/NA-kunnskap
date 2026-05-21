@@ -1,5 +1,8 @@
 # Rammeverk for digital samhandling
 
+## Navn
+Rammeverk for digital samhandling
+
 ## Ressurs ID
 DIGDIR-025
 
@@ -30,6 +33,8 @@ Etterlevelse skjer normalt gjennom virksomhetsarkitektur, porteføljestyring, ko
 - Forvaltningsstandarder
 - Organisatorisk samhandling
 - Juridisk samhandling
+
+Ressursen er særlig relevant for delkapabiliteten Regelverkstolkning gjennom felles tolkningsramme for juridiske forutsetninger i tverrvirksomhetlig samhandling.
 
 ## Målgruppe og brukere
 | Brukersegment | Primært behov | Bruksområde | Kommentar |

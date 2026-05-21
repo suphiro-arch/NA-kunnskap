@@ -1,5 +1,8 @@
 # Digitaliseringsvennlig regelverk
 
+## Navn
+Digitaliseringsvennlig regelverk
+
 ## Ressurs ID
 DIGDIR-047
 
@@ -27,6 +30,8 @@ Ressursen er normerende ved at den gir anbefalinger for hvordan jurister, fagmil
 - Strategisk styring: Arkitekturstyring
 - Juridisk samhandling
 - Veiledning
+
+Ressursen dekker delkapabilitetene Regelverksutvikling og Regelverkstolkning gjennom metode for å avklare handlingsrom og behov for endring. Ressursen dekker også delkapabilitetene Utvikling og formidling av veiledning og Anvendelse av veiledning.
 
 ## Målgruppe og brukere
 | Brukersegment | Primært behov | Bruksområde | Kommentar |
