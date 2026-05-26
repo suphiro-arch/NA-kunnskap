@@ -25,7 +25,7 @@ Evne til å sette brukerens behov, livssituasjon og helhetlige reise som utgangs
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/99-Sjekkliste-for-sammenhengende-tjenester-v1-codex.md">Sjekkliste for sammenhengende tjenester</a></h3>
-    <p class="capability-product-link__description">Ressursen oversetter overordnede prinsipper til konkrete kontrollsporsmal som brukes i tjenestedesign og konseptutforming av tverrgaende forlop.</p>
+    <p class="capability-product-link__description">Ressursen oversetter overordnede prinsipper til konkrete kontrollspørsmål som brukes i tjenestedesign og konseptutforming av tverrgående forløp.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>

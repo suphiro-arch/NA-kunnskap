@@ -25,6 +25,6 @@ Evne til å utarbeide, kvalitetssikre og tilgjengeliggjøre veiledning.
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/138-Veileder-for-virksomhetsautentisering-v1-codex.md">Veileder for virksomhetsautentisering</a></h3>
-    <p class="capability-product-link__description">Veilederen er utviklet og publisert som felles normerende stotte for virksomhetsautentisering, og inngar i Digdirs samlede veiledningsarbeid for trygg datadeling.</p>
+    <p class="capability-product-link__description">Veilederen er utviklet og publisert som felles normerende støtte for virksomhetsautentisering, og inngår i Digdirs samlede veiledningsarbeid for trygg datadeling.</p>
   </article>
 </div>

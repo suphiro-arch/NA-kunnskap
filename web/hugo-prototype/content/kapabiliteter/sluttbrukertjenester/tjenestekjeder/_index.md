@@ -35,6 +35,6 @@ Evne til å dynamisk sette sammen, koordinere og automatisere flyten av informas
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/100-Kart-for-tjenestekjeder-v1-codex.md">Kart for tjenestekjeder</a></h3>
-    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Kart for tjenestekjeder basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+    <p class="capability-product-link__description">Ressursen gir en felles metode for å kartlegge tverrvirksomhetlige forløp, avhengigheter og overgangspunkter, og styrker derfor arbeidet med tjenestekjeder som sammenhengende helheter.</p>
   </article>
 </div>

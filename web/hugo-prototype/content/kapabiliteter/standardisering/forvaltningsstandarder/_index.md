@@ -60,7 +60,7 @@ Evne til å implementere og ta i bruk nasjonale standarder.
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v1-codex.md">Rammeverk for digital samhandling</a></h3>
-    <p class="capability-product-link__description">Rammeverket gir et felles strukturgrunnlag for samhandling og peker til standardspor som virksomheter skal bruke for a redusere saerutvikling og sikre sammenlignbar praksis.</p>
+    <p class="capability-product-link__description">Rammeverket gir et felles strukturgrunnlag for samhandling og peker til standardspor som virksomheter skal bruke for å redusere særutvikling og sikre sammenlignbar praksis.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>

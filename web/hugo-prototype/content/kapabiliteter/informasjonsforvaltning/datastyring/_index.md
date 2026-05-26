@@ -60,7 +60,7 @@ Evne til å sikre enhetlig og ansvarlig forvaltning av nasjonale dataressurser g
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v1-codex.md">Nasjonal verktøykasse for deling av data</a></h3>
-    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Nasjonal verktøykasse for deling av data basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+    <p class="capability-product-link__description">Ressursen vektlegger dataoversikt, metadata, tilgangsnivåer og forvaltningsrutiner, og bidrar dermed til mer systematisk datastyring i virksomheter som tilbyr data.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>

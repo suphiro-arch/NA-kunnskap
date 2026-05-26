@@ -3147,7 +3147,7 @@
                     "subcapability_name": "Tjenestekjeder",
                     "subcapability_slug": "tjenestekjeder",
                     "mapping_label": "Sluttbrukertjenester: Tjenestekjeder",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Kart for tjenestekjeder basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Ressursen gir en felles metode for å kartlegge tverrvirksomhetlige forløp, avhengigheter og overgangspunkter, og styrker derfor arbeidet med tjenestekjeder som sammenhengende helheter."
                 },
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
@@ -3157,7 +3157,7 @@
                     "subcapability_name": "Organisatorisk samhandling",
                     "subcapability_slug": "organisatorisk-samhandling",
                     "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Kart for tjenestekjeder basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Kartleggingen synliggjør ansvarsoverganger mellom aktører og brukes som grunnlag for samordning av tiltak på tvers av virksomheter, noe som understøtter organisatorisk samhandling."
                 }
             ]
         },
@@ -3327,7 +3327,7 @@
                     "subcapability_name": "Dele data med andre",
                     "subcapability_slug": "dele-data-med-andre",
                     "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Nasjonal verktøykasse for deling av data basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Verktøykassen gir konkrete steg og anbefalinger for å etablere datadeling som en varig praksis, og støtter derfor virksomheter som skal dele data med andre aktører."
                 },
                 {
                     "capability_id": "id-896e4c1434604caa891b94bcce964720",
@@ -3337,7 +3337,7 @@
                     "subcapability_name": "Datastyring",
                     "subcapability_slug": "datastyring",
                     "mapping_label": "Informasjonsforvaltning: Datastyring",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Nasjonal verktøykasse for deling av data basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Ressursen vektlegger dataoversikt, metadata, tilgangsnivåer og forvaltningsrutiner, og bidrar dermed til mer systematisk datastyring i virksomheter som tilbyr data."
                 },
                 {
                     "capability_id": "id-c0547226c598467a942dced879d0c18b",

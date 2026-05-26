@@ -85,7 +85,7 @@ Evnen til å effektivisere forretningsprosesser og verdikjeder på tvers av orga
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v1-codex.md">Rammeverk for digital samhandling</a></h3>
-    <p class="capability-product-link__description">Rammeverket etablerer et felles begreps- og vurderingsgrunnlag for samhandling mellom virksomheter, og styrker koordinering i tverrgaende tiltak.</p>
+    <p class="capability-product-link__description">Rammeverket etablerer et felles begreps- og vurderingsgrunnlag for samhandling mellom virksomheter, og styrker koordinering i tverrgående tiltak.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
@@ -100,7 +100,7 @@ Evnen til å effektivisere forretningsprosesser og verdikjeder på tvers av orga
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/100-Kart-for-tjenestekjeder-v1-codex.md">Kart for tjenestekjeder</a></h3>
-    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Kart for tjenestekjeder basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+    <p class="capability-product-link__description">Kartleggingen synliggjør ansvarsoverganger mellom aktører og brukes som grunnlag for samordning av tiltak på tvers av virksomheter, noe som understøtter organisatorisk samhandling.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>

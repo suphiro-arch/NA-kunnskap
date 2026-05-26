@@ -1,7 +1,7 @@
 ---
 date: 2026-05-21
 author: copilot
-status: forslag
+status: paagaaende
 topic: plan-analyse-kobling-nye-kapabiliteter
 ---
 
@@ -118,38 +118,71 @@ Etter hver batch:
 
 | Ressurs-ID | Ny kobling? | Foreslått kapabilitet | Begrunnelse | Kildestatus |
 |---|---|---|---|---|
-| DIGDIR-047 | Ja/Nei | Regelverksutvikling / Regelverkstolkning / ... | Kort faglig begrunnelse | Fakta / Deduksjon / Usikker |
+| DIGDIR-047 | Ja | Juridisk samhandling: Regelverkstolkning | Ressursen brukes for avklaring av juridisk handlingsrom i eksisterende regelverk på tvers av fag og virksomheter. | Fakta + deduksjon |
+| DIGDIR-047 | Ja | Veiledning: Anvendelse av veiledning | Veilederen brukes direkte i analyse- og utviklingsløp for vurdering av juridiske barrierer og tidlig beslutningsstøtte. | Fakta + deduksjon |
+| DIGDIR-025 | Nei (ny delkapabilitet) | Juridisk samhandling: Regelverkstolkning (beholdt) | Regelverkstolkning er fortsatt presis, men foreløpige forklaringer i øvrige koblinger er erstattet med faglig tekst. | Fakta + deduksjon |
+| DIGDIR-060 | Nei | Juridisk samhandling: Regelverksutvikling | Forskriften er primart rettslig normering og tolkingsgrunnlag i bruk; ingen ny kobling lagt til for regelverksutvikling i denne runden. | Deduksjon |
+| DIGDIR-061 | Ja | Veiledning: Utvikling og formidling av veiledning | Ressursen er utviklet og publisert som felles normerende veileder for virksomhetsautentisering. | Fakta |
+| DIGDIR-031 | Nei (ny delkapabilitet) | Sluttbrukertjenester og Tjenestedesign (beholdt) | Ingen ny delkapabilitet lagt til, men foreløpige forklaringer er erstattet med faglig begrunnelse og tydeligere P6-nær effekt. | Fakta + deduksjon |
 
 2. Oppdatert mapping og ressursfiler for godkjente koblinger.
 3. Oppdatert next-step med hva som er gjort og hva som gjenstar.
 
-## 5. Observasjon fra kvalitetskjoring
+## 5. Statusoppdatering per 2026-05-26
 
-Portefoljesjekk (latest_only) viser at mange filer fortsatt har mangler/advarsler. Dette styrker behovet for trinnvis oppdatering med hoy-prioritert start i normerende ressurser som berorer juridisk samhandling og veiledning.
+Ferdigstilt siden planen ble opprettet:
 
-Filvis sjekk av hoy-prioritert femmer gir forelopig samme minimumsavvik i alle fem filer:
+1. Hoy-prioritert femmer er gjennomgaatt med faglig beslutning per kandidat
+- DIGDIR-047: lagt til `Juridisk samhandling: Regelverkstolkning` og `Veiledning: Anvendelse av veiledning`.
+- DIGDIR-025: beholdt juridisk delkapabilitet, og erstattet foreløpige forklaringer for standardisering/datautveksling/samarbeid.
+- DIGDIR-060: beholdt `Juridisk samhandling: Regelverkstolkning`; ikke lagt til `Regelverksutvikling` i denne runden.
+- DIGDIR-061: lagt til `Veiledning: Utvikling og formidling av veiledning`.
+- DIGDIR-031: beholdt kapabilitetssett, og erstattet foreløpige forklaringer for sluttbrukertjenester og tjenestedesign.
 
-| Ressurs | Resultat |
-|---|---|
-| DIGDIR-047 | 1 mangel, 1 advarsel (mangler `## Navn`) |
-| DIGDIR-025 | 1 mangel, 1 advarsel (mangler `## Navn`) |
-| DIGDIR-060 | 1 mangel, 1 advarsel (mangler `## Navn`) |
-| DIGDIR-061 | 1 mangel, 1 advarsel (mangler `## Navn`) |
-| DIGDIR-031 | 1 mangel, 1 advarsel (mangler `## Navn`) |
+2. Kvalitetsport er kjort for kandidatene
+- Filvis kompletthetssjekk viser `0 mangler / 0 advarsler` for alle fem kandidatfiler.
 
-Tolkning:
-- Dette avviket er strukturelt og likt pa tvers av kandidatene, og bor handteres samtidig med eventuell kapabilitetsoppdatering i samme endringssett.
+3. Porteføljesjekk er kjørt som referanse
+- `check_all_resources_completeness(latest_only=true)` viser fortsatt mangler i andre deler av porteføljen, men dette stopper ikke høy-prioritert koblingsrunde.
 
-## 6. Anbefalt neste arbeidsokt
+4. Middels-prioritert batch er nå oppdatert i mapping
+- DIGDIR-032: erstattet foreløpige koblingstekster med faglig begrunnelse for `Tjenestekjeder` og `Organisatorisk samhandling`.
+- DIGDIR-038: erstattet foreløpige koblingstekster med faglig begrunnelse for `Dele data med andre` og `Datastyring`.
+- DIGDIR-045 og DIGDIR-046: beholdt gjeldende delkapabilitetskoblinger i veiledningssporet (`Anvendelse av veiledning`) uten nye delkapabiliteter i denne runden.
 
-Start med hoy-prioritert femmer:
-- DIGDIR-047
-- DIGDIR-025
-- DIGDIR-060
-- DIGDIR-061
-- DIGDIR-031
+## 6. Hva som star igjen (hovedmaal neste okt)
 
-Mål for okten:
-- ferdig beslutningstabell
-- oppdatert kobling for de ressursene som får Ja
-- grønn kvalitetskontroll etter batch 1
+Fokus flyttes nå fra struktur til faglig kvalitet i koblingene.
+
+1. Konsistens og regenerering etter batch 2
+- Kjør `tools/sync-resource-metadata.py --apply` og verifiser at ingen uventede metadataendringer oppstår.
+- Kjør `tools/check-resource-version-sync.py` og `web/hugo-prototype/scripts/validate-text-encoding.py`.
+- Regenerer berørte websider dersom mappingoppdateringene slår ut i webgrunnlaget.
+
+2. Eventuell tekstmessig finjustering i ressursfiler
+- Vurdere om `DIGDIR-060` bor presiseres i ressursfilen slik at omtalen av delkapabiliteter matcher vedtatt mappingbeslutning.
+- Vurdere om P6-omtale bor skjerpes ytterligere i kandidatfiler der sammenhengen fortsatt er indirekte.
+
+3. Handover
+- Oppdatere handover-notat med beslutningstabell, valideringsresultater og eventuelle avgrensninger.
+
+## 7. Konkret oppstart for neste gang
+
+Anbefalt rekkefolge:
+
+1. Kjør valideringsbatch for oppdatert middels-prioritert runde
+- Bekreft grønn synk mellom register, mapping og ressursfiler.
+- Bekreft grønn encoding-kontroll.
+
+2. Avklar om `DIGDIR-060` skal presiseres tekstlig i ressursfil
+- Enten beholde bred omtale av begge juridiske delkapabiliteter i ressursfilen.
+- Eller presisere at `Regelverkstolkning` er primær kobling i mapping i dagens versjon.
+
+3. Oppdater handover med endelig status for høy- og middels-prioritert batch
+- Bruk beslutningstabellen i denne planen som grunnlag.
+- Ta med valideringsresultater og avgrensninger.
+
+Forventet resultat neste okt:
+- verifisert konsistens og encoding etter batch 2
+- avklart tekstlig linje for DIGDIR-060
+- oppdatert statusdokumentasjon og handover
