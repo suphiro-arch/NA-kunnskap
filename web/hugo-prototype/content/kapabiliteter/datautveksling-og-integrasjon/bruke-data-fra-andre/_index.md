@@ -44,7 +44,7 @@ Evne til å gjenbruke data fra andre i egne tjenester og prosesser.
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/28-FIKS-Register-produkt-canvas-v2-codex.md">Fiks register</a></h3>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/28-FIKS-Register-produkt-canvas-v3-codex.md">Fiks register</a></h3>
     <p class="capability-product-link__description">gir fagsystemer og forvaltere et standardisert løp for å hente registerdata fra andre virksomheter.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
@@ -84,12 +84,12 @@ Evne til å gjenbruke data fra andre i egne tjenester og prosesser.
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/67-FIKS-Folkeregister-produkt-canvas-v1-codex.md">Fiks folkeregister</a></h3>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/67-FIKS-Folkeregister-produkt-canvas-v2-codex.md">Fiks folkeregister</a></h3>
     <p class="capability-product-link__description">gir fagsystemer og saksbehandlere et standardisert løp for å bruke folkeregisterdata fra Skatteetaten i kommunale prosesser.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v1-codex.md">Fiks skatte- og inntektsopplysninger</a></h3>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v2-codex.md">Fiks skatte- og inntektsopplysninger</a></h3>
     <p class="capability-product-link__description">gir kommunale fagsystemer og saksbehandlere et standardisert løp for å bruke skatte- og inntektsopplysninger fra Skatteetaten i egne arbeidsprosesser.</p>
   </article>
   <article class="capability-product-link resource-type--operative">

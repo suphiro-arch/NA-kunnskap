@@ -4,7 +4,7 @@ headerTitle: "Veiledning - Utvikling og formidling av veiledning"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å utarbeide, kvalitetssikre og tilgjengeliggjøre veiledning."
-cardMeta: "2 produkter"
+cardMeta: "3 produkter"
 ---
 
 Evne til å utarbeide, kvalitetssikre og tilgjengeliggjøre veiledning.
@@ -21,5 +21,10 @@ Evne til å utarbeide, kvalitetssikre og tilgjengeliggjøre veiledning.
     <p class="capability-product-link__type">Normerende ressurs</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v1-codex.md">Digitaliseringsvennlig regelverk</a></h3>
     <p class="capability-product-link__description">Ressursen er en veileder som utvikles og formidles for å støtte virksomheter i vurdering av juridisk handlingsrom og regelverksbehov i samhandlingsnære digitaliseringstiltak.</p>
+  </article>
+  <article class="capability-product-link resource-type--normative">
+    <p class="capability-product-link__type">Normerende ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/138-Veileder-for-virksomhetsautentisering-v1-codex.md">Veileder for virksomhetsautentisering</a></h3>
+    <p class="capability-product-link__description">Veilederen er utviklet og publisert som felles normerende stotte for virksomhetsautentisering, og inngar i Digdirs samlede veiledningsarbeid for trygg datadeling.</p>
   </article>
 </div>

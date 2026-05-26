@@ -90,7 +90,7 @@ Evne til å levere en digital brukerorienterte tjenester som fremstår som en lo
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/99-Sjekkliste-for-sammenhengende-tjenester-v1-codex.md">Sjekkliste for sammenhengende tjenester</a></h3>
-    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Sjekkliste for sammenhengende tjenester basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+    <p class="capability-product-link__description">Sjekklisten brukes for a avdekke brudd i brukerreiser pa tvers av virksomheter og styrker derfor arbeidet med sammenhengende tjenester fra sluttbrukerperspektiv.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>

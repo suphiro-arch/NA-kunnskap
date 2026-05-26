@@ -155,7 +155,7 @@ Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er, sl
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v1-codex.md">Rammeverk for digital samhandling</a></h3>
-    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Rammeverk for digital samhandling basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+    <p class="capability-product-link__description">Rammeverket brukes i tidligfase for a avklare samhandlingsbehov og avhengigheter mellom aktorer, og gir dermed retning for hvordan data skal deles pa tvers av virksomheter.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>

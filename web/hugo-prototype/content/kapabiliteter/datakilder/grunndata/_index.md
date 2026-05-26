@@ -19,7 +19,7 @@ Evne til å identifisere og formelt anerkjenne autoritative datakilder basert p�
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/28-FIKS-Register-produkt-canvas-v2-codex.md">Fiks register</a></h3>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/28-FIKS-Register-produkt-canvas-v3-codex.md">Fiks register</a></h3>
     <p class="capability-product-link__description">gjør nasjonale grunndata og registeropplysninger tilgjengelige for kommunal sektor gjennom et samlet tilgangslag.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
@@ -79,12 +79,12 @@ Evne til å identifisere og formelt anerkjenne autoritative datakilder basert p�
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/67-FIKS-Folkeregister-produkt-canvas-v1-codex.md">Fiks folkeregister</a></h3>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/67-FIKS-Folkeregister-produkt-canvas-v2-codex.md">Fiks folkeregister</a></h3>
     <p class="capability-product-link__description">gjør autoritative folkeregisteropplysninger tilgjengelige for kommunal sektor gjennom et kontrollert tilgangslag i FIKS.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v1-codex.md">Fiks skatte- og inntektsopplysninger</a></h3>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v2-codex.md">Fiks skatte- og inntektsopplysninger</a></h3>
     <p class="capability-product-link__description">gjør autoritative skatte- og inntektsopplysninger fra Skatteetaten tilgjengelige for kommunal sektor gjennom et kontrollert tilgangslag i Fiks.</p>
   </article>
   <article class="capability-product-link resource-type--operative">

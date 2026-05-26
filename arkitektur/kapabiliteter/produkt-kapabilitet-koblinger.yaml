@@ -1384,10 +1384,10 @@
         {
             "product_id": 28,
             "product_name": "Fiks register",
-            "version": 2,
+            "version": 3,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/28-FIKS-Register-produkt-canvas-v2-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/28-FIKS-Register-produkt-canvas-v2-codex.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/28-FIKS-Register-produkt-canvas-v3-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/28-FIKS-Register-produkt-canvas-v3-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
@@ -2374,10 +2374,10 @@
         {
             "product_id": 67,
             "product_name": "Fiks folkeregister",
-            "version": 1,
+            "version": 2,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/67-FIKS-Folkeregister-produkt-canvas-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/67-FIKS-Folkeregister-produkt-canvas-v1-codex.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/67-FIKS-Folkeregister-produkt-canvas-v2-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/67-FIKS-Folkeregister-produkt-canvas-v2-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
@@ -2404,10 +2404,10 @@
         {
             "product_id": 68,
             "product_name": "Fiks skatte- og inntektsopplysninger",
-            "version": 1,
+            "version": 2,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v1-codex.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v2-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v2-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
@@ -2777,7 +2777,7 @@
                     "subcapability_name": "Forvaltningsstandarder",
                     "subcapability_slug": "forvaltningsstandarder",
                     "mapping_label": "Standardisering: Forvaltningsstandarder",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Rammeverk for digital samhandling basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Rammeverket gir et felles strukturgrunnlag for samhandling og peker til standardspor som virksomheter skal bruke for å redusere særutvikling og sikre sammenlignbar praksis."
                 },
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
@@ -2787,7 +2787,7 @@
                     "subcapability_name": "Dele data med andre",
                     "subcapability_slug": "dele-data-med-andre",
                     "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Rammeverk for digital samhandling basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Rammeverket brukes i tidligfase for å avklare samhandlingsbehov og avhengigheter mellom aktører, og gir dermed retning for hvordan data skal deles på tvers av virksomheter."
                 },
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
@@ -2797,7 +2797,7 @@
                     "subcapability_name": "Organisatorisk samhandling",
                     "subcapability_slug": "organisatorisk-samhandling",
                     "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Rammeverk for digital samhandling basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Rammeverket etablerer et felles begreps- og vurderingsgrunnlag for samhandling mellom virksomheter, og styrker koordinering i tverrgående tiltak."
                 },
                 {
                     "capability_id": "id-299fc063873a4f278a1d3c0ac9480467",
@@ -3107,7 +3107,7 @@
                     "subcapability_name": "Sammenhengende tjenester",
                     "subcapability_slug": "sammenhengende-tjenester",
                     "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Sjekkliste for sammenhengende tjenester basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Sjekklisten brukes for å avdekke brudd i brukerreiser på tvers av virksomheter og styrker derfor arbeidet med sammenhengende tjenester fra sluttbrukerperspektiv."
                 },
                 {
                     "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
@@ -3117,7 +3117,7 @@
                     "subcapability_name": "Tjenestedesign",
                     "subcapability_slug": "tjenestedesign",
                     "mapping_label": "Tjenesteutvikling: Tjenestedesign",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Sjekkliste for sammenhengende tjenester basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Ressursen oversetter overordnede prinsipper til konkrete kontrollspørsmål som brukes i tjenestedesign og konseptutforming av tverrgående forløp."
                 },
                 {
                     "capability_id": "id-c0547226c598467a942dced879d0c18b",
@@ -3660,6 +3660,16 @@
                     "explanation": "Ressursen beskriver metode for å identifisere behov for regelverksendring og støtter derfor regelverksutvikling i digitaliseringstiltak som krever samhandling."
                 },
                 {
+                    "capability_id": "id-299fc063873a4f278a1d3c0ac9480467",
+                    "capability_name": "Juridisk samhandling",
+                    "capability_slug": "juridisk-samhandling",
+                    "subcapability_id": "id-0209483504444508a40415aa6e3fc39c",
+                    "subcapability_name": "Regelverkstolkning",
+                    "subcapability_slug": "regelverkstolkning",
+                    "mapping_label": "Juridisk samhandling: Regelverkstolkning",
+                    "explanation": "Ressursen brukes til å avklare juridisk handlingsrom i eksisterende regelverk og gir et felles grunnlag for tolkning på tvers av fag og virksomheter."
+                },
+                {
                     "capability_id": "id-c0547226c598467a942dced879d0c18b",
                     "capability_name": "Veiledning",
                     "capability_slug": "veiledning",
@@ -3668,6 +3678,16 @@
                     "subcapability_slug": "utvikling-og-formidling-av-veiledning",
                     "mapping_label": "Veiledning: Utvikling og formidling av veiledning",
                     "explanation": "Ressursen er en veileder som utvikles og formidles for å støtte virksomheter i vurdering av juridisk handlingsrom og regelverksbehov i samhandlingsnære digitaliseringstiltak."
+                },
+                {
+                    "capability_id": "id-c0547226c598467a942dced879d0c18b",
+                    "capability_name": "Veiledning",
+                    "capability_slug": "veiledning",
+                    "subcapability_id": "id-a601bb3d7b11478185903149965f7842",
+                    "subcapability_name": "Anvendelse av veiledning",
+                    "subcapability_slug": "anvendelse-av-veiledning",
+                    "mapping_label": "Veiledning: Anvendelse av veiledning",
+                    "explanation": "Ressursen brukes direkte i analyse- og utviklingsløp for å vurdere juridiske barrierer og forbedre beslutningsgrunnlaget tidlig i tiltaksgjennomføring."
                 }
             ]
         },
@@ -4588,6 +4608,16 @@
                     "subcapability_slug": "anvendelse-av-veiledning",
                     "mapping_label": "Veiledning: Anvendelse av veiledning",
                     "explanation": "Ressursen er en konkret veileder som anvendes direkte i virksomheters arbeid med identifisering, adressering og trygg mottakerhåndtering ved datadeling."
+                },
+                {
+                    "capability_id": "id-c0547226c598467a942dced879d0c18b",
+                    "capability_name": "Veiledning",
+                    "capability_slug": "veiledning",
+                    "subcapability_id": "id-0bfa29018e7144578b2184e70414b7e8",
+                    "subcapability_name": "Utvikling og formidling av veiledning",
+                    "subcapability_slug": "utvikling-og-formidling-av-veiledning",
+                    "mapping_label": "Veiledning: Utvikling og formidling av veiledning",
+                    "explanation": "Veilederen er utviklet og publisert som felles normerende støtte for virksomhetsautentisering, og inngår i Digdirs samlede veiledningsarbeid for trygg datadeling."
                 }
             ]
         }
