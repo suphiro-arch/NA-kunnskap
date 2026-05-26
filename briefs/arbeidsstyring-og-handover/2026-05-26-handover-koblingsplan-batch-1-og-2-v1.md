@@ -2,14 +2,19 @@
 date: 2026-05-26
 author: codex
 status: ferdig
-topic: handover-koblingsplan-batch-1-og-2
+topic: handover-koblingsplan-batch-1-2-og-lavprioritet
 sources:
   - arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml
   - arkitektur/ressurser/normerende-ressurser/137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v1-codex.md
   - briefs/arbeidsstyring-og-handover/2026-05-21-plan-analyse-kobling-nye-kapabiliteter-v1.md
+  - arkitektur/ressurser/normerende-ressurser/101-Referansearkitektur-forsendelse-eMelding-v1-codex.md
+  - arkitektur/ressurser/normerende-ressurser/102-Referansearkitektur-foresporsel-svar-eOppslag-v1-codex.md
+  - arkitektur/ressurser/normerende-ressurser/103-Nasjonalt-veikart-v2-codex.md
+  - arkitektur/ressurser/normerende-ressurser/104-Orden-i-eget-hus-v1-codex.md
+  - arkitektur/ressurser/normerende-ressurser/112-Digitaliseringsrundskrivet-v1-codex.md
 ---
 
-# Handover: koblingsplan batch 1 og 2
+# Handover: koblingsplan batch 1, 2 og lavprioritet
 
 ## Kort oppsummering
 
@@ -53,12 +58,26 @@ Resultat:
 
 ## Avgrensninger
 
-- Lavprioriterte kandidater er ikke behandlet i denne runden.
-- Handover dekker kun koblingsplanen for høy- og middels-prioritet, samt tekstpresisering for DIGDIR-060.
+- Lavprioriterte kandidater er vurdert, men uten nye anbefalte koblinger i mapping.
+- Handover dekker koblingsplanen for høy-, middels- og lavprioritet, samt tekstpresisering for DIGDIR-060.
 - Videre revisjoner bør følge samme prinsipp: ny kobling bare når ressursens funksjon tydelig støtter kapabiliteten operativt.
+
+## Lavprioritetsvurdering (sluttført)
+
+| Ressurs-ID | Beslutning | Kort begrunnelse |
+|---|---|---|
+| DIGDIR-033 | Ingen ny kobling nå | Referansearkitektur for meldingsmønster; ingen tydelig ny kobling mot delkapabiliteter i juridisk/veiledningssporet. |
+| DIGDIR-034 | Ingen ny kobling nå | Referansearkitektur for oppslagsmønster; tematisk nærhet, men ikke tydelig normerende virkemiddelrolle for nye delkapabiliteter i denne runden. |
+| DIGDIR-035 | Vurder senere | Samordningsressurs med styringsverdi, men bør vurderes i egen styrings-/normeringsrunde framfor i denne delkapabilitetsbatchen. |
+| DIGDIR-036 | Ingen ny kobling nå | Metodikk for informasjonsforvaltning; ingen tydelig direkte støtte for nye juridisk/veiledning-delkapabiliteter utover eksisterende spor. |
+| DIGDIR-044 | Vurder senere | Sentralt rundskriv med styringsrolle, men koblingsendring bør håndteres i egen normeringsrunde. |
+
+Konklusjon:
+- Ingen nye mappingkoblinger anbefales fra lavprioritetsrunden nå.
+- `DIGDIR-035` og `DIGDIR-044` tas med som mulige kandidater i senere styrings-/normeringsarbeid.
 
 ## Neste anbefalte steg
 
 1. Bruk denne tabellen som referanse ved senere revisjoner av de samme ressursene.
-2. Ta lavprioritert kandidatliste i egen batch ved behov.
+2. Ta `DIGDIR-035` og `DIGDIR-044` i egen styrings-/normeringsbatch ved behov.
 3. Behold samme valideringsløp før hver commit/push i koblingsarbeid.

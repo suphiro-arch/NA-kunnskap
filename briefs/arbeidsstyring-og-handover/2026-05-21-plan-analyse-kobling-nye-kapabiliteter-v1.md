@@ -1,7 +1,7 @@
 ---
 date: 2026-05-21
 author: copilot
-status: paagaaende
+status: ferdig
 topic: plan-analyse-kobling-nye-kapabiliteter
 ---
 
@@ -173,3 +173,27 @@ Anbefalt rekkefolge for videre arbeid etter denne planen:
 1. Bruk beslutningene fra høy- og middels-prioritert batch som referanse ved senere revisjoner av normerende ressurser.
 2. Følg opp lavprioriterte kandidater i egen runde dersom nye analyser avdekker tydelig koblingsgap.
 3. Knytt eventuelle nye koblingsforslag til konkrete ressursendringer, med samme valideringsløp som i denne planen.
+
+## 8. Lavprioritetsvurdering 2026-05-26
+
+Lavprioritet er vurdert i en avgrenset runde med fokus på ressurser som kan se tematisk relevante ut, men som ikke har tydelig nok normerende rolle mot nye delkapabiliteter i denne runden.
+
+| Ressurs-ID | Fil | Beslutning | Vurdering |
+|---|---|---|---|
+| DIGDIR-033 | `arkitektur/ressurser/normerende-ressurser/101-Referansearkitektur-forsendelse-eMelding-v1-codex.md` | Ingen ny kobling nå | Referansearkitektur for meldingsmønster. Berører ikke direkte de nye delkapabilitetene i juridisk/veiledningssporet, og P6-relevans er allerede indirekte dekket via eksisterende samhandlingskapabiliteter. |
+| DIGDIR-034 | `arkitektur/ressurser/normerende-ressurser/102-Referansearkitektur-foresporsel-svar-eOppslag-v1-codex.md` | Ingen ny kobling nå | Referansearkitektur for oppslagsmønster. Faglig nærhet til samhandling, men ikke tydelig grunnlag for nye delkapabiliteter i denne prosessen. |
+| DIGDIR-035 | `arkitektur/ressurser/normerende-ressurser/103-Nasjonalt-veikart-v2-codex.md` | Vurder senere | Har samordnings- og styringsrolle, men er ikke primært en normerende veiledningsressurs i forstand av nye delkapabiliteter. Følges opp ved neste strategiske styringsrunde. |
+| DIGDIR-036 | `arkitektur/ressurser/normerende-ressurser/104-Orden-i-eget-hus-v1-codex.md` | Ingen ny kobling nå | Metodikk for informasjonsforvaltning. Ingen tydelig operativ støtte for nye juridisk/veiledning-delkapabiliteter utover eksisterende informasjonsforvaltningsspor. |
+| DIGDIR-044 | `arkitektur/ressurser/normerende-ressurser/112-Digitaliseringsrundskrivet-v1-codex.md` | Vurder senere | Sterk styringsressurs, men koblingsendring her bør eventuelt tas i egen normeringsrunde for juridisk samhandling og ikke i denne delkapabilitetsbatchen. |
+
+Konklusjon:
+- Lavprioritetsrunden ga ingen anbefalte nye koblinger i mapping nå.
+- To ressurser (`DIGDIR-035`, `DIGDIR-044`) markeres for eventuell senere vurdering i en egen styrings-/normeringsrunde.
+
+## 9. Opprydding i handover-dokumenter for prosessen
+
+Opprydding er gjennomført slik:
+
+1. Dette plannotatet er markert `ferdig` og inneholder nå full sporbarhet for høy, middels og lav prioritet.
+2. Handover-notatet for koblingsplanen er oppdatert med lavprioritetsstatus, slik at ett dokument fungerer som endelig overlevering.
+3. `briefs/next-step.md` er oppdatert med sluttstatus for denne prosessen.
