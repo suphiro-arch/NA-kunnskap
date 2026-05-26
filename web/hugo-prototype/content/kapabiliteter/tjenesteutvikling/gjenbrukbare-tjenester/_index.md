@@ -24,8 +24,8 @@ Evne til å utvikle og benytte tjenester som kan brukes i nye sammenhenger på t
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/66-NAIS-produkt-canvas-v1-codex.md">NAIS</a></h3>
-    <p class="capability-product-link__description">NAIS tilbyr felles plattformkapabiliteter og byggeklosser som utviklingsteam kan gjenbruke.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/66-NAIS-produkt-canvas-v2-codex.md">NAIS</a></h3>
+    <p class="capability-product-link__description">NAIS tilbyr felles plattformkapabiliteter og byggeklosser som reduserer behovet for lokale særvarianter i teamenes applikasjonsløp.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>

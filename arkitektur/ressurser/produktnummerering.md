@@ -153,7 +153,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 |---:|---|---|---|---|---|
 | 47 | `SIKT-001` | Feide | Autentisering | Dele data med andre<br>Sikring av informasjonsflyt og datautveksling<br>Autentisering<br>Tilgangskontroll | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/47-Feide-produkt-canvas-v1-codex.md) |
 | 48 | `SIKT-002` | Felles studentsystem (FS) | Studentdata | Bruke data fra andre<br>Dele data med andre<br>Datastyring<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/48-Felles-studentsystem-produkt-canvas-v1-codex.md) |
-| 49 | `SIKT-003` | Opptaksløsninger | Opptaksløsning | Bruke data fra andre<br>Organisatorisk samhandling<br>Sammenhengende tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/49-Opptakslosninger-produkt-canvas-v1-codex.md) |
+| 49 | `SIKT-003` | Opptaksløsninger | Opptaksløsning | Bruke data fra andre<br>Organisatorisk samhandling<br>Sammenhengende tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/49-Opptakslosninger-produkt-canvas-v2-codex.md) |
 | 50 | `SIKT-004` | Nasjonal vitnemålsdatabase (NVB) | Vitnemål | Grunndata<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/50-Nasjonal-vitnemalsdatabase-produkt-canvas-v1-codex.md) |
 | 51 | `SIKT-005` | Vitnemålsportalen | Deling av vitnemål | Dele data med andre<br>Sammenhengende tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/51-Vitnemalsportalen-produkt-canvas-v1-codex.md) |
 | 52 | `SIKT-006` | Nasjonalt utdanningsregister | Register over utdanningstilbud og akkreditering | Grunndata<br>Dele data med andre<br>Datastyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/52-Nasjonalt-utdanningsregister-produkt-canvas-v1-codex.md) |
@@ -207,7 +207,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | Løpenr | Ressurs-ID | Navn | Type | Kapabiliteter | Dokument |
 |---:|---|---|---|---|---|
 | 36 | `NAV-001` | Aa-registeret | Arbeidsforholdsregister og delingstjeneste | Grunndata<br>Bruke data fra andre<br>Dele data med andre<br>Sammenhengende tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/36-Aa-registeret-produkt-canvas-v2-codex.md) |
-| 66 | `NAV-002` | NAIS | Plattform for applikasjoner | Gjenbrukbare tjenester<br>Utviklings- og kjøretidsmiljø | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/66-NAIS-produkt-canvas-v1-codex.md) |
+| 66 | `NAV-002` | NAIS | Plattform for applikasjoner | Gjenbrukbare tjenester<br>Utviklings- og kjøretidsmiljø | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/66-NAIS-produkt-canvas-v2-codex.md) |
 
 
 

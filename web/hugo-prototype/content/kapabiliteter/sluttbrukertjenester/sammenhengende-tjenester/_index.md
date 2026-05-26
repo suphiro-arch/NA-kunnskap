@@ -54,8 +54,8 @@ Evne til å levere en digital brukerorienterte tjenester som fremstår som en lo
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/49-Opptakslosninger-produkt-canvas-v1-codex.md">Opptaksløsninger</a></h3>
-    <p class="capability-product-link__description">Opptaksløsningene gir søkere en mer samlet og sammenhengende opptaksprosess.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/49-Opptakslosninger-produkt-canvas-v2-codex.md">Opptaksløsninger</a></h3>
+    <p class="capability-product-link__description">Søkerne møter et samlet opptaksløp der sentrale steg i prosessen henger sammen på tvers av flere aktører og ansvarsområder.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>

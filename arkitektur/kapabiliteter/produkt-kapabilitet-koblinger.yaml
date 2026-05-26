@@ -1944,17 +1944,17 @@
         {
             "product_id": 49,
             "product_name": "Opptaksløsninger",
-            "version": 1,
+            "version": 2,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/49-Opptakslosninger-produkt-canvas-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/49-Opptakslosninger-produkt-canvas-v1-codex.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/49-Opptakslosninger-produkt-canvas-v2-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/49-Opptakslosninger-produkt-canvas-v2-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
                     "capability_name": "Datautveksling og integrasjon",
                     "capability_slug": "datautveksling-og-integrasjon",
                     "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
-                    "explanation": "Opptaksløsningene bruker data fra flere kilder som del av samordnet opptak.",
+                    "explanation": "Løsningen bruker data fra flere kilder i opptaksprosessen, blant annet grunnlagsdata og dokumentasjonsdata som må samordnes for korrekt behandling.",
                     "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
                     "subcapability_name": "Bruke data fra andre",
                     "subcapability_slug": "bruke-data-fra-andre"
@@ -1964,7 +1964,7 @@
                     "capability_name": "Samarbeid",
                     "capability_slug": "samarbeid",
                     "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "Opptaksløsningene støtter samspill mellom Sikt, HK-dir og utdanningsinstitusjonene.",
+                    "explanation": "Ressursen muliggjør koordinert opptaksarbeid mellom Sikt, HK-dir og utdanningsinstitusjoner gjennom felles prosess- og systemgrunnlag.",
                     "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
                     "subcapability_name": "Organisatorisk samhandling",
                     "subcapability_slug": "organisatorisk-samhandling"
@@ -1974,7 +1974,7 @@
                     "capability_name": "Sluttbrukertjenester",
                     "capability_slug": "sluttbrukertjenester",
                     "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-                    "explanation": "Opptaksløsningene gir søkere en mer samlet og sammenhengende opptaksprosess.",
+                    "explanation": "Søkerne møter et samlet opptaksløp der sentrale steg i prosessen henger sammen på tvers av flere aktører og ansvarsområder.",
                     "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
                     "subcapability_name": "Sammenhengende tjenester",
                     "subcapability_slug": "sammenhengende-tjenester"
@@ -2344,17 +2344,17 @@
         {
             "product_id": 66,
             "product_name": "NAIS",
-            "version": 1,
+            "version": 2,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/66-NAIS-produkt-canvas-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/66-NAIS-produkt-canvas-v1-codex.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/66-NAIS-produkt-canvas-v2-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/66-NAIS-produkt-canvas-v2-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
                     "capability_name": "Tjenesteutvikling",
                     "capability_slug": "tjenesteutvikling",
                     "mapping_label": "Tjenesteutvikling: Gjenbrukbare tjenester",
-                    "explanation": "NAIS tilbyr felles plattformkapabiliteter og byggeklosser som utviklingsteam kan gjenbruke.",
+                    "explanation": "NAIS tilbyr felles plattformkapabiliteter og byggeklosser som reduserer behovet for lokale særvarianter i teamenes applikasjonsløp.",
                     "subcapability_id": "id-f696350f5d844a96854deadb83bc3c81",
                     "subcapability_name": "Gjenbrukbare tjenester",
                     "subcapability_slug": "gjenbrukbare-tjenester"
@@ -2364,7 +2364,7 @@
                     "capability_name": "Tjenesteutvikling",
                     "capability_slug": "tjenesteutvikling",
                     "mapping_label": "Tjenesteutvikling: Utviklings- og kjøretidsmiljø",
-                    "explanation": "NAIS gir et standardisert miljø for utvikling, utrulling og drift av applikasjoner.",
+                    "explanation": "Ressursen gir et standardisert miljø for utvikling, utrulling og drift av applikasjoner, med støtte for gjennomgående livsløp i teamenes leveranser.",
                     "subcapability_id": "id-ce84b9b6943f4789bca153c0ed15245a",
                     "subcapability_name": "Utviklings- og kjøretidsmiljø",
                     "subcapability_slug": "utviklings-og-kjoretidsmiljo"

@@ -74,8 +74,8 @@ Evne til å gjenbruke data fra andre i egne tjenester og prosesser.
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/49-Opptakslosninger-produkt-canvas-v1-codex.md">Opptaksløsninger</a></h3>
-    <p class="capability-product-link__description">Opptaksløsningene bruker data fra flere kilder som del av samordnet opptak.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/49-Opptakslosninger-produkt-canvas-v2-codex.md">Opptaksløsninger</a></h3>
+    <p class="capability-product-link__description">Løsningen bruker data fra flere kilder i opptaksprosessen, blant annet grunnlagsdata og dokumentasjonsdata som må samordnes for korrekt behandling.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
