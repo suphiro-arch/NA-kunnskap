@@ -121,7 +121,7 @@ Etter hver batch:
 | DIGDIR-047 | Ja | Juridisk samhandling: Regelverkstolkning | Ressursen brukes for avklaring av juridisk handlingsrom i eksisterende regelverk på tvers av fag og virksomheter. | Fakta + deduksjon |
 | DIGDIR-047 | Ja | Veiledning: Anvendelse av veiledning | Veilederen brukes direkte i analyse- og utviklingsløp for vurdering av juridiske barrierer og tidlig beslutningsstøtte. | Fakta + deduksjon |
 | DIGDIR-025 | Nei (ny delkapabilitet) | Juridisk samhandling: Regelverkstolkning (beholdt) | Regelverkstolkning er fortsatt presis, men foreløpige forklaringer i øvrige koblinger er erstattet med faglig tekst. | Fakta + deduksjon |
-| DIGDIR-060 | Nei | Juridisk samhandling: Regelverksutvikling | Forskriften er primart rettslig normering og tolkingsgrunnlag i bruk; ingen ny kobling lagt til for regelverksutvikling i denne runden. | Deduksjon |
+| DIGDIR-060 | Nei | Juridisk samhandling: Regelverkstolkning (beholdt) | Forskriften brukes primært som rettslig tolkningsgrunnlag i praksis. Regelverksutvikling er vurdert, men ikke lagt inn som egen delkapabilitetskobling i denne runden. | Fakta + deduksjon |
 | DIGDIR-061 | Ja | Veiledning: Utvikling og formidling av veiledning | Ressursen er utviklet og publisert som felles normerende veileder for virksomhetsautentisering. | Fakta |
 | DIGDIR-031 | Nei (ny delkapabilitet) | Sluttbrukertjenester og Tjenestedesign (beholdt) | Ingen ny delkapabilitet lagt til, men foreløpige forklaringer er erstattet med faglig begrunnelse og tydeligere P6-nær effekt. | Fakta + deduksjon |
 
@@ -150,39 +150,26 @@ Ferdigstilt siden planen ble opprettet:
 - DIGDIR-038: erstattet foreløpige koblingstekster med faglig begrunnelse for `Dele data med andre` og `Datastyring`.
 - DIGDIR-045 og DIGDIR-046: beholdt gjeldende delkapabilitetskoblinger i veiledningssporet (`Anvendelse av veiledning`) uten nye delkapabiliteter i denne runden.
 
-## 6. Hva som star igjen (hovedmaal neste okt)
+## 6. Status etter sluttforing 2026-05-26
 
-Fokus flyttes nå fra struktur til faglig kvalitet i koblingene.
+Fokus for denne runden er nå gjennomfort, inkludert validering og handover.
 
-1. Konsistens og regenerering etter batch 2
-- Kjør `tools/sync-resource-metadata.py --apply` og verifiser at ingen uventede metadataendringer oppstår.
-- Kjør `tools/check-resource-version-sync.py` og `web/hugo-prototype/scripts/validate-text-encoding.py`.
-- Regenerer berørte websider dersom mappingoppdateringene slår ut i webgrunnlaget.
+1. Konsistens og regenerering
+- `tools/sync-resource-metadata.py --apply`: ingen uventede metadataendringer.
+- `tools/check-resource-version-sync.py`: grønn.
+- `web/hugo-prototype/scripts/generate-capabilities.py`: kjørt.
+- `web/hugo-prototype/scripts/validate-text-encoding.py`: grønn.
 
-2. Eventuell tekstmessig finjustering i ressursfiler
-- Vurdere om `DIGDIR-060` bor presiseres i ressursfilen slik at omtalen av delkapabiliteter matcher vedtatt mappingbeslutning.
-- Vurdere om P6-omtale bor skjerpes ytterligere i kandidatfiler der sammenhengen fortsatt er indirekte.
+2. Tekstmessig presisering i ressursfiler
+- `DIGDIR-060` er presisert tekstlig slik at `Regelverkstolkning` fremgår som primær kobling i tråd med vedtatt mapping.
 
 3. Handover
-- Oppdatere handover-notat med beslutningstabell, valideringsresultater og eventuelle avgrensninger.
+- Handover-notat er oppdatert med beslutningstabell, valideringsresultater og avgrensninger for høy- og middels-prioritert batch.
 
-## 7. Konkret oppstart for neste gang
+## 7. Neste naturlige oppstart
 
-Anbefalt rekkefolge:
+Anbefalt rekkefolge for videre arbeid etter denne planen:
 
-1. Kjør valideringsbatch for oppdatert middels-prioritert runde
-- Bekreft grønn synk mellom register, mapping og ressursfiler.
-- Bekreft grønn encoding-kontroll.
-
-2. Avklar om `DIGDIR-060` skal presiseres tekstlig i ressursfil
-- Enten beholde bred omtale av begge juridiske delkapabiliteter i ressursfilen.
-- Eller presisere at `Regelverkstolkning` er primær kobling i mapping i dagens versjon.
-
-3. Oppdater handover med endelig status for høy- og middels-prioritert batch
-- Bruk beslutningstabellen i denne planen som grunnlag.
-- Ta med valideringsresultater og avgrensninger.
-
-Forventet resultat neste okt:
-- verifisert konsistens og encoding etter batch 2
-- avklart tekstlig linje for DIGDIR-060
-- oppdatert statusdokumentasjon og handover
+1. Bruk beslutningene fra høy- og middels-prioritert batch som referanse ved senere revisjoner av normerende ressurser.
+2. Følg opp lavprioriterte kandidater i egen runde dersom nye analyser avdekker tydelig koblingsgap.
+3. Knytt eventuelle nye koblingsforslag til konkrete ressursendringer, med samme valideringsløp som i denne planen.

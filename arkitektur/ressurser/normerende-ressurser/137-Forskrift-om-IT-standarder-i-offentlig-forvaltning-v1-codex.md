@@ -35,7 +35,9 @@ Etterlevelse skjer ikke bare gjennom juridisk kontroll, men også gjennom styrin
 - Strategisk styring: Arkitekturstyring
 - Juridisk samhandling
 
-Ressursen er særlig relevant for delkapabilitetene Regelverksutvikling og Regelverkstolkning fordi den fastsetter rettslige krav og gir premisser for juridiske avklaringer i samhandling.
+Ressursen er i denne mappingrunden primært koblet til delkapabiliteten Regelverkstolkning fordi den brukes som rettslig tolkningsgrunnlag i anskaffelser, standardvalg og samhandlingsavklaringer.
+
+Ressursen kan også gi indirekte støtte til regelverksutvikling over tid, men dette er ikke lagt inn som egen delkapabilitetskobling i gjeldende mapping.
 
 Forskriften støtter `Standardisering: Forvaltningsstandarder` ved å fastsette hvilke standarder som er obligatoriske eller må vurderes i offentlig forvaltning. Den støtter `Strategisk styring: Arkitekturstyring` ved å gi et rettslig premiss for hvordan virksomheter bør forankre standardvalg i styring, krav og arkitekturbeslutninger.
 
