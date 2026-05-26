@@ -24,8 +24,8 @@ Evne til å dynamisk sette sammen, koordinere og automatisere flyten av informas
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/80-VIGO-portalen-v1-codex.md">VIGO-portalen</a></h3>
-    <p class="capability-product-link__description">Portalen knytter sammen flere moduler i utdanningsløpet, slik at brukere kan bevege seg mellom relaterte funksjoner i samme økosystem.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/80-VIGO-portalen-v2-codex.md">VIGO-portalen</a></h3>
+    <p class="capability-product-link__description">Portalen kobler sammen moduler i utdanningsløpet, slik at brukere kan bevege seg mellom relaterte funksjoner i samme økosystem.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>

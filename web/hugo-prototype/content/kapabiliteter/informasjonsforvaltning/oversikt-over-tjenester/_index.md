@@ -29,8 +29,8 @@ Evne til å gi oversikt over og oppdage tjenester som tilbys av eller på vegne 
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v1-codex.md">VIGO</a></h3>
-    <p class="capability-product-link__description">VIGO består av flere moduler og tjenester som samlet dekker et bredt funksjonsområde innen videregående opplæring.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v2-codex.md">VIGO</a></h3>
+    <p class="capability-product-link__description">VIGO består av flere moduler og tjenester som samlet dekker et bredt funksjonsområde i videregående opplæring.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>

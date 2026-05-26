@@ -2634,10 +2634,10 @@
         {
             "product_id": 73,
             "product_name": "VIGO",
-            "version": 1,
+            "version": 2,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v1-codex.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v2-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v2-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
@@ -2647,7 +2647,7 @@
                     "subcapability_name": "Organisatorisk samhandling",
                     "subcapability_slug": "organisatorisk-samhandling",
                     "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "VIGO er en felles løsning eid og finansiert i fellesskap av fylkeskommunene og Oslo kommune, og brukes i samhandling mellom flere aktører i utdanningssektoren."
+                    "explanation": "VIGO er felles eid og finansiert av fylkeskommunene og Oslo kommune, og understøtter samhandling mellom flere aktører i utdanningssektoren."
                 },
                 {
                     "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
@@ -2657,7 +2657,7 @@
                     "subcapability_name": "Sammenhengende tjenester",
                     "subcapability_slug": "sammenhengende-tjenester",
                     "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-                    "explanation": "Ressursen knytter sammen søknad, inntak, fagopplæring, oppfølging og flere andre arbeidsprosesser i et samlet sektorløp."
+                    "explanation": "Løsningen kobler sammen søknad, inntak, fagopplæring og oppfølging i et samlet sektorløp."
                 },
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
@@ -2667,7 +2667,7 @@
                     "subcapability_name": "Dele data med andre",
                     "subcapability_slug": "dele-data-med-andre",
                     "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "VIGO leverer data til internt og eksternt bruk og er kilde for leveranser til blant annet Utdanningsdirektoratet og Statistisk sentralbyrå."
+                    "explanation": "VIGO leverer data til internt og eksternt bruk, blant annet til Utdanningsdirektoratet og Statistisk sentralbyrå."
                 },
                 {
                     "capability_id": "id-896e4c1434604caa891b94bcce964720",
@@ -2677,7 +2677,7 @@
                     "subcapability_name": "Datastyring",
                     "subcapability_slug": "datastyring",
                     "mapping_label": "Informasjonsforvaltning: Datastyring",
-                    "explanation": "VIGO Sentralbase og VIGO Kodeverksbase viser at løsningen forvalter og strukturerer sentrale data- og kodeverksressurser for videregående opplæring."
+                    "explanation": "VIGO Sentralbase og VIGO Kodeverksbase viser at løsningen forvalter sentrale data- og kodeverksressurser strukturert på tvers av fylkeskommunene."
                 },
                 {
                     "capability_id": "id-896e4c1434604caa891b94bcce964720",
@@ -2687,17 +2687,17 @@
                     "subcapability_name": "Oversikt over tjenester",
                     "subcapability_slug": "oversikt-over-tjenester",
                     "mapping_label": "Informasjonsforvaltning: Oversikt over tjenester",
-                    "explanation": "VIGO består av flere moduler og tjenester som samlet dekker et bredt funksjonsområde innen videregående opplæring."
+                    "explanation": "VIGO består av flere moduler og tjenester som samlet dekker et bredt funksjonsområde i videregående opplæring."
                 }
             ]
         },
         {
             "product_id": 80,
             "product_name": "VIGO-portalen",
-            "version": 1,
+            "version": 2,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/80-VIGO-portalen-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/80-VIGO-portalen-v1-codex.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/80-VIGO-portalen-v2-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/80-VIGO-portalen-v2-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
@@ -2717,7 +2717,7 @@
                     "subcapability_name": "Tjenestekjeder",
                     "subcapability_slug": "tjenestekjeder",
                     "mapping_label": "Sluttbrukertjenester: Tjenestekjeder",
-                    "explanation": "Portalen knytter sammen flere moduler i utdanningsløpet, slik at brukere kan bevege seg mellom relaterte funksjoner i samme økosystem."
+                    "explanation": "Portalen kobler sammen moduler i utdanningsløpet, slik at brukere kan bevege seg mellom relaterte funksjoner i samme økosystem."
                 }
             ]
         },

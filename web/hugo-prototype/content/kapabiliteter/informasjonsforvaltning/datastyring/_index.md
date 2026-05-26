@@ -39,8 +39,8 @@ Evne til å sikre enhetlig og ansvarlig forvaltning av nasjonale dataressurser g
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v1-codex.md">VIGO</a></h3>
-    <p class="capability-product-link__description">VIGO Sentralbase og VIGO Kodeverksbase viser at løsningen forvalter og strukturerer sentrale data- og kodeverksressurser for videregående opplæring.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v2-codex.md">VIGO</a></h3>
+    <p class="capability-product-link__description">VIGO Sentralbase og VIGO Kodeverksbase viser at løsningen forvalter sentrale data- og kodeverksressurser strukturert på tvers av fylkeskommunene.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>

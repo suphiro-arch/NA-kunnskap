@@ -144,8 +144,8 @@ Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er, sl
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v1-codex.md">VIGO</a></h3>
-    <p class="capability-product-link__description">VIGO leverer data til internt og eksternt bruk og er kilde for leveranser til blant annet Utdanningsdirektoratet og Statistisk sentralbyrå.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v2-codex.md">VIGO</a></h3>
+    <p class="capability-product-link__description">VIGO leverer data til internt og eksternt bruk, blant annet til Utdanningsdirektoratet og Statistisk sentralbyrå.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
