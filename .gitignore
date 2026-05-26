@@ -11,3 +11,4 @@ print/presentasjoner/*.png
 briefs/arbeidsstyring-og-handover/automatiske-rapporter/*.md
 !briefs/arbeidsstyring-og-handover/automatiske-rapporter/README.md
 briefs/next-step.md
+tmp-overordnet-malbilde/
