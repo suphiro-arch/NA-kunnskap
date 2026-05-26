@@ -4034,10 +4034,10 @@
         {
             "product_id": 126,
             "product_name": "Nasjonal sandkasse for digital lommebok",
-            "version": 1,
+            "version": 2,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/126-Nasjonal-sandkasse-for-digital-lommebok-produkt-canvas-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/126-Nasjonal-sandkasse-for-digital-lommebok-produkt-canvas-v1-codex.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/126-Nasjonal-sandkasse-for-digital-lommebok-produkt-canvas-v2-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/126-Nasjonal-sandkasse-for-digital-lommebok-produkt-canvas-v2-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
@@ -4047,7 +4047,7 @@
                     "subcapability_name": "Autentisering",
                     "subcapability_slug": "autentisering",
                     "mapping_label": "Tillit: Autentisering",
-                    "explanation": "Sandkassen brukes til å prøve ut innlogging og identitetsbekreftelse med digital lommebok."
+                    "explanation": "Sandkassen brukes til å teste innlogging og identitetsbekreftelse med digital lommebok før eventuell produksjonsinnføring."
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
@@ -4057,7 +4057,7 @@
                     "subcapability_name": "Signering",
                     "subcapability_slug": "signering",
                     "mapping_label": "Tillit: Signering",
-                    "explanation": "Ressursen er relevant for utprøving av signeringsbruk knyttet til digital lommebok."
+                    "explanation": "Ressursen brukes til å prøve ut signeringsscenarier med lommebokbaserte mekanismer i kontrollerte omgivelser."
                 },
                 {
                     "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
@@ -4067,7 +4067,7 @@
                     "subcapability_name": "Utviklings- og kjøretidsmiljø",
                     "subcapability_slug": "utviklings-og-kjoretidsmiljo",
                     "mapping_label": "Tjenesteutvikling: Utviklings- og kjøretidsmiljø",
-                    "explanation": "Sandkassen tilbyr et felles testmiljø som gjør det mulig å bygge erfaring og gjennomføre teknisk utprøving."
+                    "explanation": "Sandkassen tilbyr et felles testmiljø for teknisk utprøving, læring og tidlig verifisering av løsningsvalg."
                 },
                 {
                     "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
@@ -4077,7 +4077,7 @@
                     "subcapability_name": "Integrerbare tjenester",
                     "subcapability_slug": "integrerbare-tjenester",
                     "mapping_label": "Tjenesteutvikling: Integrerbare tjenester",
-                    "explanation": "Ressursen er laget for at brukersteder og andre aktører skal kunne integrere og teste sine løsninger mot felles oppsett."
+                    "explanation": "Aktører kan koble egne testoppsett mot felles miljø for å verifisere integrasjonsmønstre og samspill."
                 }
             ]
         },

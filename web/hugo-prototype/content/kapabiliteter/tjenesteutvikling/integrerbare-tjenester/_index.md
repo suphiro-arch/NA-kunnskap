@@ -79,7 +79,7 @@ Evne til å designe, utvikle og eksponere data og funksjonalitet som selvstendig
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/126-Nasjonal-sandkasse-for-digital-lommebok-produkt-canvas-v1-codex.md">Nasjonal sandkasse for digital lommebok</a></h3>
-    <p class="capability-product-link__description">Ressursen er laget for at brukersteder og andre aktører skal kunne integrere og teste sine løsninger mot felles oppsett.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/126-Nasjonal-sandkasse-for-digital-lommebok-produkt-canvas-v2-codex.md">Nasjonal sandkasse for digital lommebok</a></h3>
+    <p class="capability-product-link__description">Aktører kan koble egne testoppsett mot felles miljø for å verifisere integrasjonsmønstre og samspill.</p>
   </article>
 </div>

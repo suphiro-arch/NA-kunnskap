@@ -29,7 +29,7 @@ Evne til å tilby og forvalte en felles, skalerbar teknisk plattform og en tilh�
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/126-Nasjonal-sandkasse-for-digital-lommebok-produkt-canvas-v1-codex.md">Nasjonal sandkasse for digital lommebok</a></h3>
-    <p class="capability-product-link__description">Sandkassen tilbyr et felles testmiljø som gjør det mulig å bygge erfaring og gjennomføre teknisk utprøving.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/126-Nasjonal-sandkasse-for-digital-lommebok-produkt-canvas-v2-codex.md">Nasjonal sandkasse for digital lommebok</a></h3>
+    <p class="capability-product-link__description">Sandkassen tilbyr et felles testmiljø for teknisk utprøving, læring og tidlig verifisering av løsningsvalg.</p>
   </article>
 </div>
