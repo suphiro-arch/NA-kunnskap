@@ -151,22 +151,23 @@ Altinn 3 plattform er selv plattformlaget i denne produktbeskrivelsen, og omfatt
 - **P7: Sørg for tillit til oppgaveløsningen** støttes indirekte gjennom felles sikkerhets- og plattformkapabiliteter som tjenester kan bygge på.
 
 ## Finansiering
-- **Ikke offentlig dokumentert i brukte kilder:** Separat finansieringsmodell for Altinn 3 plattform isolert fra øvrig Altinn-portefølje.
-- **Deduksjon:** Plattformen må forstås som del av den samlede Altinn-forvaltningen og porteføljeøkonomien, ikke som et helt separat finansiert sluttbrukerprodukt.
+- Finansiering for bruk av Altinn reguleres i bruksvilkårene (kap. 1.7), der kostnadsfordeling inntil videre er knyttet til samarbeidsavtalen mellom Digdir og tjenesteeier.
+- Ny finansieringsmodell er omtalt som pågående arbeid, og er ikke endelig publisert som separat offentlig modell per produkt.
 
 ## Forvaltning/eier
 | Ansvarsområde | Organisasjon / vurdering | Grunnlag |
 |---|---|---|
 | Produktansvar | Digdir / Altinn-forvaltningen | Offisiell Altinn-dokumentasjon |
 | Driftsansvar | Altinns forvaltnings- og driftsmiljø | Altinn Apps og plattformdokumentasjon beskriver felles kjøretids- og plattformmodell |
-| Budsjettansvar | Del av Altinn-porteføljen | Offentlige kilder beskriver porteføljeforvaltning, men ikke separat kostnadsmodell for denne ressursen |
-| Styringsmodell | Produkt- og porteføljeforvaltning i Altinn | Fremgår indirekte av produktstrukturen og dokumentasjonen |
+| Budsjettansvar | Del av Altinn-porteføljen | Bruksvilkår kap. 1.7 viser at kostnadsfordeling reguleres samlet gjennom avtaleverk |
+| Styringsmodell | Produkt- og porteføljeforvaltning i Altinn | Bruksvilkår beskriver styringsråd, produktråd og samarbeid mellom Digdir og tjenesteeiere |
 
 ## Lenke til dokumentasjon
 - https://docs.altinn.studio/nb/
 - https://docs.altinn.studio/nb/altinn-studio/v8/what-do-you-get/
 - https://docs.altinn.studio/en/technology/architecture/capabilities/runtime/appdeploy/
 - https://www.altinn.no/
+- https://samarbeid.digdir.no/altinn/bruksvilkar-altinn/3639
 
 ## Kildegrunnlag brukt i utfyllingen
 - Lokal fil: `arkitektur/ressurser/operative-losninger-og-tjenester/19-Altinn-produkt-canvas-v2-copilot.md`
@@ -180,6 +181,7 @@ Altinn 3 plattform er selv plattformlaget i denne produktbeskrivelsen, og omfatt
 - Nettkilde: https://docs.altinn.studio/nb/altinn-studio/v8/what-do-you-get/ (kontrollert 2026-03-26)
 - Nettkilde: https://docs.altinn.studio/en/technology/architecture/capabilities/runtime/appdeploy/ (kontrollert 2026-03-26)
 - Nettkilde: https://www.altinn.no/ (kontrollert 2026-03-26)
+- Nettkilde: https://samarbeid.digdir.no/altinn/bruksvilkar-altinn/3639 (kontrollert 2026-05-27)
 
 ---
 

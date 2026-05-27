@@ -155,22 +155,23 @@ Utviklingsflate i Altinn-porteføljen som leder videre til deploy og kjøring i 
 - **P7: Sørg for tillit til oppgaveløsningen** støttes indirekte gjennom standardiserte utviklingsmønstre og kobling til øvrige sikkerhetsmekanismer i Altinn.
 
 ## Finansiering
-- **Ikke offentlig dokumentert i brukte kilder:** Separat finansieringsmodell eller kostnadsnivå for Altinn Studio isolert fra den øvrige Altinn-porteføljen.
-- **Deduksjon:** Produktet må forstås som del av Altinns samlede plattformforvaltning og finansiering.
+- Finansiering for bruk av Altinn reguleres i bruksvilkårene (kap. 1.7), der kostnadsfordeling inntil videre er knyttet til samarbeidsavtalen mellom Digdir og tjenesteeier.
+- Ny finansieringsmodell er omtalt som pågående arbeid, og er ikke endelig publisert som separat offentlig modell per produkt.
 
 ## Forvaltning/eier
 | Ansvarsområde | Organisasjon / vurdering | Grunnlag |
 |---|---|---|
 | Produktansvar | Digdir / Altinn-forvaltningen | Offisiell Altinn-dokumentasjon |
 | Driftsansvar | Altinns forvaltnings- og driftsmiljø | Studio og Altinn Apps er dokumentert som del av samme portefølje |
-| Budsjettansvar | Del av Altinn-porteføljen | Ingen separat offentlig kostnadsmodell verifisert |
-| Styringsmodell | Produktforvaltning i Altinn | Fremgår av dokumentasjon og produktstruktur |
+| Budsjettansvar | Del av Altinn-porteføljen | Bruksvilkår kap. 1.7 viser at kostnadsfordeling reguleres samlet gjennom avtaleverk |
+| Styringsmodell | Produktforvaltning i Altinn | Bruksvilkår beskriver styringsråd, produktråd og samarbeid mellom Digdir og tjenesteeiere |
 
 ## Lenke til dokumentasjon
 - https://docs.altinn.studio/nb/
 - https://docs.altinn.studio/nb/altinn-studio/v8/what-do-you-get/
 - https://docs.altinn.studio/en/altinn-studio/v8/getting-started/
 - https://docs.altinn.studio/nb/altinn-studio/guides/development/setup/developer-guides/local-test/
+- https://samarbeid.digdir.no/altinn/bruksvilkar-altinn/3639
 
 ## Kildegrunnlag brukt i utfyllingen
 - Lokal fil: `arkitektur/ressurser/operative-losninger-og-tjenester/20-Altinn-Studio-produkt-canvas-v2-copilot.md`
@@ -184,6 +185,7 @@ Utviklingsflate i Altinn-porteføljen som leder videre til deploy og kjøring i 
 - Nettkilde: https://docs.altinn.studio/nb/altinn-studio/v8/what-do-you-get/ (kontrollert 2026-03-26)
 - Nettkilde: https://docs.altinn.studio/en/altinn-studio/v8/getting-started/ (kontrollert 2026-03-26)
 - Nettkilde: https://docs.altinn.studio/nb/altinn-studio/guides/development/setup/developer-guides/local-test/ (kontrollert 2026-03-26)
+- Nettkilde: https://samarbeid.digdir.no/altinn/bruksvilkar-altinn/3639 (kontrollert 2026-05-27)
 
 ---
 

@@ -162,15 +162,16 @@ Meldingstjeneste i Altinn-porteføljen med API-er, vedleggshåndtering, statusfl
 
 ## Finansiering
 - Altinn Melding fremstår som del av Altinn-porteføljen under Digdir.
-- **Ikke offentlig dokumentert:** Separat finansieringsmodell eller kostnadsallokering for produktet alene.
+- Kostnadsfordeling for bruk av Altinn er regulert i bruksvilkårene (kap. 1.7) gjennom samarbeidsavtale mellom Digdir og tjenesteeier.
+- Ny finansieringsmodell omtales som under arbeid, og er ikke endelig publisert som separat offentlig modell per produkt.
 
 ## Forvaltning/eier
 | Ansvarsområde | Organisasjon / vurdering | Grunnlag |
 |---|---|---|
 | Produktansvar | Altinn-forvaltningen i Digdir | Offisiell produktdokumentasjon på Altinn Docs |
 | Driftsansvar | Altinns drifts- og forvaltningsmiljø | Dokumentert som del av Altinn-porteføljen |
-| Budsjettansvar | Ikke offentlig spesifisert i detalj | Ingen offentlig kostnadsmodell i brukte kilder |
-| Styringsmodell | Produktforvaltning i Altinn med egen overgangs- og migreringsstyring | Egen overgangsdokumentasjon og referanseløp |
+| Budsjettansvar | Del av Altinn-porteføljen | Bruksvilkår kap. 1.7 viser at kostnadsfordeling reguleres samlet gjennom avtaleverk |
+| Styringsmodell | Produktforvaltning i Altinn med egen overgangs- og migreringsstyring | Bruksvilkår beskriver styringsråd, produktråd og samarbeid mellom Digdir og tjenesteeiere |
 
 ## Lenke til dokumentasjon
 - https://docs.altinn.studio/nb/correspondence/
@@ -179,6 +180,7 @@ Meldingstjeneste i Altinn-porteføljen med API-er, vedleggshåndtering, statusfl
 - https://docs.altinn.studio/correspondence/explanation/status-lifecycle/
 - https://docs.altinn.studio/nb/correspondence/transition/service-migration/
 - https://docs.altinn.studio/nb/correspondence/reference/solution-architecture/
+- https://samarbeid.digdir.no/altinn/bruksvilkar-altinn/3639
 
 ## Kildegrunnlag brukt i utfyllingen
 - Lokal fil: `arkitektur/ressurser/operative-losninger-og-tjenester/23-Altinn-3-Melding-produkt-canvas-v4-codex.md`
@@ -194,6 +196,7 @@ Meldingstjeneste i Altinn-porteføljen med API-er, vedleggshåndtering, statusfl
 - Nettkilde: https://docs.altinn.studio/correspondence/explanation/status-lifecycle/ (kontrollert 2026-03-26)
 - Nettkilde: https://docs.altinn.studio/nb/correspondence/transition/service-migration/ (kontrollert 2026-03-26)
 - Nettkilde: https://docs.altinn.studio/nb/correspondence/reference/solution-architecture/ (kontrollert 2026-03-26)
+- Nettkilde: https://samarbeid.digdir.no/altinn/bruksvilkar-altinn/3639 (kontrollert 2026-05-27)
 
 ---
 

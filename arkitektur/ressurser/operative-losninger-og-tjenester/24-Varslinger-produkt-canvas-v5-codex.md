@@ -159,15 +159,16 @@ API-basert varslingsløsning i Altinn-porteføljen med oppslag mot nasjonale reg
 
 ## Finansiering
 - Altinn Varsling fremstår som del av Altinn-porteføljen under Digdir.
-- **Ikke offentlig dokumentert:** Egen finansieringsmodell eller separat kostnadsfordeling for produktet.
+- Kostnadsfordeling for bruk av Altinn er regulert i bruksvilkårene (kap. 1.7) gjennom samarbeidsavtale mellom Digdir og tjenesteeier.
+- Ny finansieringsmodell omtales som under arbeid, og er ikke endelig publisert som separat offentlig modell per produkt.
 
 ## Forvaltning/eier
 | Ansvarsområde | Organisasjon / vurdering | Grunnlag |
 |---|---|---|
 | Produktansvar | Altinn-forvaltningen i Digdir | Offisiell Altinn-dokumentasjon |
 | Driftsansvar | Altinns forvaltnings- og driftsmiljø | Dokumentert som del av Altinns produktsider |
-| Budsjettansvar | Ikke offentlig spesifisert i detalj | Ingen offentlig kostnadsmodell i brukte kilder |
-| Styringsmodell | Produktforvaltning i Altinn-porteføljen med kobling til flere interne og eksterne integrasjoner | Dokumentert integrasjonsflate og brukerkretser |
+| Budsjettansvar | Del av Altinn-porteføljen | Bruksvilkår kap. 1.7 viser at kostnadsfordeling reguleres samlet gjennom avtaleverk |
+| Styringsmodell | Produktforvaltning i Altinn-porteføljen med kobling til flere interne og eksterne integrasjoner | Bruksvilkår beskriver styringsråd, produktråd og samarbeid mellom Digdir og tjenesteeiere |
 
 ## Lenke til dokumentasjon
 - https://docs.altinn.studio/nb/notifications/
@@ -175,6 +176,7 @@ API-basert varslingsløsning i Altinn-porteføljen med oppslag mot nasjonale reg
 - https://docs.altinn.studio/en/notifications/what-do-you-get/
 - https://docs.altinn.studio/nb/notifications/explanation/recipient-lookup/
 - https://docs.altinn.studio/nb/notifications/reference/
+- https://samarbeid.digdir.no/altinn/bruksvilkar-altinn/3639
 
 ## Kildegrunnlag brukt i utfyllingen
 - Lokal fil: `arkitektur/ressurser/operative-losninger-og-tjenester/24-Varslinger-produkt-canvas-v4-codex.md`
@@ -189,6 +191,7 @@ API-basert varslingsløsning i Altinn-porteføljen med oppslag mot nasjonale reg
 - Nettkilde: https://docs.altinn.studio/en/notifications/what-do-you-get/ (kontrollert 2026-03-26)
 - Nettkilde: https://docs.altinn.studio/nb/notifications/explanation/recipient-lookup/ (kontrollert 2026-03-26)
 - Nettkilde: https://docs.altinn.studio/nb/notifications/reference/ (kontrollert 2026-03-26)
+- Nettkilde: https://samarbeid.digdir.no/altinn/bruksvilkar-altinn/3639 (kontrollert 2026-05-27)
 
 ---
 

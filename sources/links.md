@@ -15,6 +15,7 @@ Sist redigert: 2026-05-05.
 - Altinn dokumentasjon: https://docs.altinn.studio/nb/ (mest oppdatert for Altinn)
 - Altinn - tjenesteutvikling: https://samarbeid.digdir.no/altinn/tjenesteutvikling/2634
 - Altinn - portaler og brukeroppleving: https://samarbeid.digdir.no/altinn/portalar-og-brukaroppleving/2485
+- Altinn - bruksvilkår: https://samarbeid.digdir.no/altinn/bruksvilkar-altinn/3639 (lagt til 2026-05-27)
 - ID-porten: https://www.digdir.no/id-porten/om-id-porten/1507
 - ID-porten dokumentasjon: https://docs.digdir.no/docs/idporten/
 - ID-porten - tillitstjenester: https://samarbeid.digdir.no/id-porten/tillitstenester/2479
