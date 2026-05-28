@@ -291,6 +291,39 @@ function Extract-OwnerFromResourceId {
   return 'UKJENT'
 }
 
+function Get-OwnerDisplayName {
+  param([string]$OwnerCode)
+
+  $ownerMap = @{
+    'DIGDIR' = 'Digdir'
+    'KS'     = 'KS Digital'
+    'NHN'    = 'Norsk helsenett'
+    'NAV'    = 'NAV'
+    'SKATT'  = 'Skatteetaten'
+    'KART'   = 'Kartverket'
+    'BRREG'  = 'Brønnøysundregistrene'
+    'SIKT'   = 'Sikt'
+    'HDIR'   = 'Helsedirektoratet'
+    'HELFO'  = 'Helfo'
+    'SSB'    = 'SSB'
+    'SVV'    = 'Statens vegvesen'
+    'NOVARI' = 'Novari'
+    'FHI'    = 'FHI'
+    'OPP'    = 'OpenPeppol'
+    'FLERE'  = 'Flere virksomheter'
+  }
+
+  if ([string]::IsNullOrWhiteSpace($OwnerCode)) {
+    return ''
+  }
+
+  if ($ownerMap.ContainsKey($OwnerCode)) {
+    return $ownerMap[$OwnerCode]
+  }
+
+  return $OwnerCode
+}
+
 function Extract-CapabilityItemsFromSection {
   param([string[]]$Lines)
 
@@ -452,6 +485,7 @@ function New-ResourceListingBlock {
     $descriptionSection = Extract-Section -Lines $raw -Heading 'Kort beskrivelse'
     $shortDescription = Shorten-OverviewDescription -Text (Clean-ShortDescription -Section $descriptionSection)
     $owner = Extract-OwnerFromResourceId -ResourceId $p.ResourceId
+    $ownerDisplay = Get-OwnerDisplayName -OwnerCode $owner
     $purposeLine = Extract-PurposeLine -Lines $raw
     $primaryDocUrl = Extract-PrimaryDocumentationLink -Lines $raw
     $capabilityItems = @(Get-CapabilityItems -RelativePath $p.RelativePath -Lines $raw -CapabilityLinkPrefix $CapabilityLinkPrefix)
@@ -467,7 +501,7 @@ function New-ResourceListingBlock {
     $blobUrl = ('{0}/{1}' -f $repoBlobBase, $p.RelativePath)
     $capabilityHtml = Render-CapabilityChips -Items $capabilityItems -MaxVisible 3
     $capabilitySearch = ($capabilityItems | ForEach-Object { $_.Label }) -join ' '
-    $searchable = ($displayName + ' ' + $p.ResourceId + ' ' + $owner + ' ' + $p.Category + ' ' + $p.ResourceType + ' ' + $shortDescription + ' ' + $capabilitySearch).ToLowerInvariant()
+    $searchable = ($displayName + ' ' + $p.ResourceId + ' ' + $owner + ' ' + $ownerDisplay + ' ' + $p.Category + ' ' + $p.ResourceType + ' ' + $shortDescription + ' ' + $capabilitySearch).ToLowerInvariant()
 
     $cardLines.Add('<article class="resource-card" ' +
       ('data-owner="{0}" ' -f (Html-Encode $owner)) +
@@ -476,7 +510,7 @@ function New-ResourceListingBlock {
       ('data-search="{0}">' -f (Html-Encode $searchable)))
     $cardLines.Add(('  <h2 class="resource-card__title">{0}</h2>' -f (Html-Encode $displayName)))
     $cardLines.Add(('  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>{0}</code> | <strong>Siste versjon:</strong> {1}</p>' -f (Html-Encode $p.ResourceId), (Html-Encode $p.VersionLabel)))
-    $cardLines.Add(('  <p class="resource-card__facts"><strong>Eier:</strong> {0} | <strong>Kategori:</strong> {1} | <strong>Type:</strong> {2}</p>' -f (Html-Encode $owner), (Html-Encode $p.Category), (Html-Encode $p.ResourceType)))
+    $cardLines.Add(('  <p class="resource-card__facts"><strong>Eier:</strong> {0} | <strong>Kategori:</strong> {1} | <strong>Type:</strong> {2}</p>' -f (Html-Encode $ownerDisplay), (Html-Encode $p.Category), (Html-Encode $p.ResourceType)))
     $cardLines.Add(('  <p class="resource-card__description">{0}</p>' -f (Html-Encode $shortDescription)))
     if ($purposeLine) {
       $cardLines.Add(('  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> {0}</p>' -f (Html-Encode $purposeLine)))
@@ -502,7 +536,7 @@ function New-ResourceListingBlock {
   $lines.Add('      <label>Søk <input type="search" class="resource-filter" data-filter="search" placeholder="Navn, ID, emne, kapabilitet" /></label>')
   $lines.Add('      <label>Eier <select class="resource-filter" data-filter="owner"><option value="">Alle</option>')
   foreach ($option in $ownerOptions) {
-    $lines.Add(('        <option value="{0}">{1}</option>' -f (Html-Encode $option), (Html-Encode $option)))
+    $lines.Add(('        <option value="{0}">{1}</option>' -f (Html-Encode $option), (Html-Encode (Get-OwnerDisplayName -OwnerCode $option))))
   }
   $lines.Add('      </select></label>')
   $lines.Add('      <label>Emne <select class="resource-filter" data-filter="type"><option value="">Alle</option>')
