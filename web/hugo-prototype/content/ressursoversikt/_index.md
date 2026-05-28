@@ -6,9 +6,7 @@ hideToc: true
 hideSectionOverview: true
 ---
 
-<div class="resource-overview-intro"><p class="resource-overview-intro__lead">Dette er totaloversikten over siste registrerte versjon per ressurs, på tvers av typer, eiere og kapabiliteter.</p></div>
-
-## Utforsk etter rammeverkskategori
+## Utforsk per ressurstype
 
 <div class="resource-type-grid">
   <article class="resource-type-card">
@@ -33,7 +31,7 @@ hideSectionOverview: true
   </article>
 </div>
 
-## Ressurser (siste versjon)
+## Ressursliste
 
 <div class="resource-listing" data-section="alle-ressurser">
   <div class="resource-filters">

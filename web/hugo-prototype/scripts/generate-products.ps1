@@ -669,13 +669,11 @@ $allResourcesIndex = @(
   'hideSectionOverview: true',
   '---',
   '',
-  ('<div class="resource-overview-intro"><p class="resource-overview-intro__lead">Dette er totaloversikten over siste registrerte versjon per ressurs, på tvers av typer, eiere og kapabiliteter.</p></div>'),
-  '',
-  '## Utforsk etter rammeverkskategori',
+  '## Utforsk per ressurstype',
   '',
   ($resourceTypeCardLines -join [Environment]::NewLine),
   '',
-  '## Ressurser (siste versjon)',
+  '## Ressursliste',
   ''
 )
 $allResourcesIndex += (New-ResourceListingBlock -Entries @($latest) -SectionSlug 'alle-ressurser' -CapabilityLinkPrefix '../')
