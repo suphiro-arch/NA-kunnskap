@@ -1,6 +1,6 @@
-# Mal for normerende ressurs (Markdown)
+# Mal for standarder og veiledning (Markdown)
 
-Bruk denne malen for ressurser som primært gir føringer for hvordan løsninger skal forstås, beskrives, utformes eller samordnes.
+Bruk denne malen for ressurser som primært gir føringer, anbefalinger eller metodegrunnlag for hvordan løsninger skal forstås, beskrives, utformes eller samordnes.
 
 Eksempler:
 - informasjonsmodeller
@@ -44,7 +44,7 @@ Se også:
 - Er kapabilitetslisten skrevet med rene, kanoniske kapabilitetsnavn?
 
 ## Navn
-Det offisielle navnet på den normerende ressursen.
+Det offisielle navnet på ressursen innen standarder og veiledning.
 
 ## Ressurs ID
 Kanonisk ressurs-ID når dette er etablert.
@@ -53,7 +53,7 @@ Hvis egen ID ikke er etablert ennå, skriv `Ikke fastsatt ennå`.
 ## Ressurskategori
 Normerende ressurs
 
-## Type normerende ressurs
+## Type standard eller veiledning
 For eksempel:
 - informasjonsmodell
 - begrepsmodell
@@ -125,7 +125,7 @@ Aktuelle vinkler:
 - vurdering av om eksisterende løsninger og data kan gjenbrukes
 
 ## Når ressursen normalt ikke er tilstrekkelig alene
-Beskriv når ressursen må suppleres av andre styrende eller operative ressurser.
+Beskriv når ressursen må suppleres av andre styrende ressurser eller gjenbrukbare løsninger.
 
 ## Scope og avgrensning
 Beskriv konkret:
@@ -142,9 +142,10 @@ Fordel på:
 
 ## Relasjon til andre ressurser
 Beskriv relevante koblinger til:
-- operative løsninger og tjenester
-- andre normerende ressurser
-- samarbeidsfora
+- gjenbrukbare løsninger
+- andre standarder og veiledninger
+- samhandlingsarenaer og organisering
+- økonomiske og juridiske rammer og virkemidler
 
 ## Forretningsverdi og arkitekturverdi
 Beskriv hvilken verdi ressursen gir for:
@@ -173,7 +174,7 @@ Aktuelle kategorier:
 - semantisk kvalitet
 - endringsstyring
 - adopsjon
-- sammenheng med operative løsninger
+- sammenheng med gjenbrukbare løsninger
 
 ## Publiseringsform og tilgjengelighet
 Beskriv hvordan ressursen publiseres og brukes.

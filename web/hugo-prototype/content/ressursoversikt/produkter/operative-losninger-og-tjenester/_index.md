@@ -1,18 +1,18 @@
 ---
-title: "Operative løsninger og tjenester"
+title: "Gjenbrukbare løsninger"
 weight: 1
-description: "Ressurser som brukes direkte i drift, integrasjon eller løsningsdesign."
+description: "Løsninger, tjenester, plattformer, registre og felleskomponenter som kan brukes direkte i samhandling eller løsningsutvikling."
 hideToc: true
 ---
 
-Ressurser som brukes direkte i drift, integrasjon eller løsningsdesign.
+Løsninger, tjenester, plattformer, registre og felleskomponenter som kan brukes direkte i samhandling eller løsningsutvikling.
 
-Denne siden viser siste registrerte versjon av ressurser i kategorien **Operative løsninger og tjenester**.
+Denne siden viser siste registrerte versjon av ressurser i kategorien **Gjenbrukbare løsninger**.
 
 <div class="resource-listing" data-section="operative-losninger-og-tjenester">
   <div class="resource-filters">
     <div class="resource-filters__row">
-      <label>Sok <input type="search" class="resource-filter" data-filter="search" placeholder="Navn, ID, type, kapabilitet" /></label>
+      <label>Søk <input type="search" class="resource-filter" data-filter="search" placeholder="Navn, ID, emne, kapabilitet" /></label>
       <label>Eier <select class="resource-filter" data-filter="owner"><option value="">Alle</option>
         <option value="BRREG">BRREG</option>
         <option value="DIGDIR">DIGDIR</option>
@@ -31,7 +31,7 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Operativ
         <option value="SSB">SSB</option>
         <option value="SVV">SVV</option>
       </select></label>
-      <label>Type <select class="resource-filter" data-filter="type"><option value="">Alle</option>
+      <label>Emne <select class="resource-filter" data-filter="type"><option value="">Alle</option>
         <option value="Adresseregister for eFaktura og EHF">Adresseregister for eFaktura og EHF</option>
         <option value="Analyseplattform">Analyseplattform</option>
         <option value="API-basert deling">API-basert deling</option>

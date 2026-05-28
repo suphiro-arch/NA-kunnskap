@@ -9,9 +9,10 @@ Bruk denne malen sammen med:
 - `arkitektur/kapabiliteter/capabilities.yaml`
 - `arkitektur/prinsipper/principles.md`
 - `arkitektur/ressurser/produktnummerering.md`
-- `arkitektur/ressurser/operative-losninger-og-tjenester/`
-- `arkitektur/ressurser/normerende-ressurser/` (kun når standarder/retningslinjer faktisk påvirker tiltaket)
-- `arkitektur/ressurser/samarbeidsfora/` (kun når koordinering mellom aktører er en tydelig forutsetning)
+- `arkitektur/ressurser/operative-losninger-og-tjenester/` (gjenbrukbare løsninger)
+- `arkitektur/ressurser/normerende-ressurser/` (standarder og veiledning, kun når føringer faktisk påvirker tiltaket)
+- `arkitektur/ressurser/samarbeidsfora/` (samhandlingsarenaer og organisering, kun når koordinering mellom aktører er en tydelig forutsetning)
+- `arkitektur/ressurser/rammer-og-virkemidler/` (økonomiske og juridiske rammer og virkemidler)
 
 Viktig avgrensning:
 - Velg et spisset utvalg av de mest relevante ressursene for caset.

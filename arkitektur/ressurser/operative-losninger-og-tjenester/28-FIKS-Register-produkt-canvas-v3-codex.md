@@ -53,7 +53,7 @@ Operative mål utledet fra kildene:
 | Saksbehandlere | Effektiv oppslagsfunksjon med riktig avgrensede data | Bruk i Fiks forvaltning i operative arbeidsprosesser | Bruker webflaten direkte |
 | Fagsystemer og leverandører | Standardisert maskin-til-maskin-tilgang | Integrasjon i kommunale arbeidsprosesser og tjenesteløsninger | Teknisk brukergruppe |
 | Fiks-administratorer og forvaltere | Rolle-, tilgangs- og tjenesteområdestyring | Oppsett, lokal forvaltning og etterlevelse | Kritisk for kontroll |
-| KS og KS Digital | Samordne kilder, avtaler og tjenesteutvikling | Strategisk segmentansvar, produktforvaltning og teknisk drift | Sentral forvaltningsrolle |
+| KS Digital | Samordne kilder, avtaler og tjenesteutvikling | Produktforvaltning, teknisk drift og koordinering mot kilder | Sentral forvaltningsrolle |
 
 ## Hovedfunksjoner
 ### Primære funksjoner
@@ -154,8 +154,8 @@ Fiks register er en fellestjeneste på KS Digitals Fiks-plattform og fungerer so
 |---|---|---|
 | Produktansvar | KS Digital | Produktsiden, tjenesteplasseringen og prisinformasjonen ligger hos KS Digital. |
 | Driftsansvar | KS Digital | Tjenesten leveres på Fiks-plattformen, men full intern driftsmodell er ikke offentlig detaljert dokumentert. |
-| Budsjettansvar | KS og KS Digital, delvis offentlig dokumentert | Grunnfinansiering og prismodell er omtalt, men full budsjettstyring er ikke publisert. |
-| Styringsmodell | KS har strategisk segmentansvar, mens KS Digital har operativt og teknisk ansvar for løsningene i segmentet | Fremgår av siden om segmentsamarbeid og produktforvaltning av Fiks register. |
+| Budsjettansvar | KS Digital, delvis offentlig dokumentert | Grunnfinansiering og prismodell er omtalt, men full budsjettstyring er ikke publisert. |
+| Styringsmodell | KS Digital forvalter og drifter løsningen, med strategisk forankring i KS | Fremgår av produktsidene og siden om segmentsamarbeid. |
 
 ## Lenke til dokumentasjon
 - https://ksdigital.no/tjenestene/fiks-register/
@@ -180,7 +180,7 @@ Fiks register er en fellestjeneste på KS Digitals Fiks-plattform og fungerer so
 ### Analyseforbedringer
 - Oppdatert kildegrunnlaget med ny kontroll av produktside, prismodell og segmentsamarbeid 2026-05-26.
 - Presisert at Fiks register må forstås som overordnet registerfamilie med felles tilgangsstyring, ikke som ett enkelt register.
-- Tydeliggjort det strategiske og operative skillet mellom KS og KS Digital i forvaltningen av segmentet mot Skatteetaten.
+- Tydeliggjort KS Digital som operativ eier, forvalter og driftsansvarlig for løsningen.
 
 ### Tekstlige forbedringer
 - Utvidet beslutningsstøtten med typiske brukssituasjoner og når produktet normalt ikke er førstevalg.

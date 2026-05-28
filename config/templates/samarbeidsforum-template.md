@@ -1,6 +1,6 @@
-# Mal for samarbeidsforum (Markdown)
+# Mal for samhandlingsarenaer og organisering (Markdown)
 
-Bruk denne malen for ressurser som primært er arenaer for samordning, prioritering, forankring eller strategisk retning.
+Bruk denne malen for ressurser som primært er arenaer, roller eller organiseringsformer for samordning, prioritering, forankring eller strategisk retning.
 
 Eksempler:
 - råd
@@ -48,7 +48,7 @@ Se også:
 - Er kapabilitetslisten skrevet med rene, kanoniske kapabilitetsnavn?
 
 ## Navn
-Det offisielle navnet på samarbeidsforumet.
+Det offisielle navnet på samhandlingsarenaen, forumet eller organiseringsressursen.
 
 ## Ressurs ID
 Kanonisk ressurs-ID når dette er etablert.
@@ -104,8 +104,9 @@ Bruk gjerne tabell med:
 Beskriv hvilke typer ressurser forumet typisk påvirker eller samordner.
 
 Aktuelle vinkler:
-- operative løsninger og tjenester
-- normerende ressurser
+- gjenbrukbare løsninger
+- standarder og veiledning
+- økonomiske og juridiske rammer og virkemidler
 - prioriteringer, veikart eller investeringer
 - tverrsektorielle samhandlingsløp
 
@@ -176,9 +177,10 @@ Aktuelle vinkler:
 
 ## Relasjon til andre ressurser
 Beskriv relevante koblinger til:
-- operative løsninger og tjenester
-- normerende ressurser
-- andre samarbeidsfora
+- gjenbrukbare løsninger
+- standarder og veiledning
+- andre samhandlingsarenaer og organiseringsressurser
+- økonomiske og juridiske rammer og virkemidler
 
 ## Forretningsverdi og arkitekturverdi
 Beskriv hvilken verdi forumet gir for:

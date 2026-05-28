@@ -9,7 +9,7 @@ KS-009
 ## Status/Livsfase
 **Produksjon** - etablert registertilgangstjeneste i KS Digital for kommunal bruk av skatte- og inntektsopplysninger fra Skatteetaten.
 
-**Fakta:** KS Digital beskriver tjenesten som en operativ løsning som kan brukes både via Fiks forvaltning og som integrasjon i kommunens egne fagsystemer. Produktsiden beskriver konkrete tjenesteområder i bruk, og KS Digitals utviklerdokumentasjon viser egne API-er og overbygg på Fiks-plattformen. KS opplyser samtidig at segmentansvaret mot Skatteetaten ble fastsatt i 2020 og formalisert videre mellom KS og KS Digital i 2024.
+**Fakta:** KS Digital beskriver tjenesten som en operativ løsning som kan brukes både via Fiks forvaltning og som integrasjon i kommunens egne fagsystemer. Produktsiden beskriver konkrete tjenesteområder i bruk, og KS Digitals utviklerdokumentasjon viser egne API-er og overbygg på Fiks-plattformen. KS omtaler segmentsamarbeidet mot Skatteetaten, mens den operative forvaltningen er lagt til KS Digital.
 
 ## Modenhet
 **Høy funksjonell modenhet** - løsningen har tydelige tjenesteområder, publisert teknisk dokumentasjon, etablert segmentstyring og løpende håndtering av årsrevisjoner i Skatteetatens API-er.
@@ -53,7 +53,7 @@ Operative mål utledet fra kildene:
 | Saksbehandlere | Enkelt oppslag med riktig avgrensede data | Bruk i Fiks forvaltning ved behandling av enkeltsaker | Bruker webgrensesnitt og beregningsstøtte |
 | Fagsystemer og leverandører | Maskinell tilgang til data og beregningsnære API-er | Integrasjon mot søknadsløsninger og kommunale fagsystemer | Teknisk brukergruppe |
 | Forvaltere og Fiks-administratorer | Rolleoppsett, dataminimering og endringsoppfølging | Oppsett av tjenesteområder og kontroll av bruk | Viktig for etterlevelse |
-| KS og KS Digital | Segmentansvar, veiledning og teknisk forvaltning | Koordinering mot Skatteetaten, endringshåndtering og tjenesteutvikling | Sentral forvaltningsrolle |
+| KS Digital | Segmentkoordinering, veiledning og teknisk forvaltning | Koordinering mot Skatteetaten, endringshåndtering og tjenesteutvikling | Sentral forvaltningsrolle |
 
 ## Hovedfunksjoner
 ### Primære funksjoner
@@ -63,7 +63,7 @@ Løsningen har to operative flater som må forstås samlet. Den ene er en nettsi
 
 Tjenesten er tett koblet til tjenesteområder og hjemler. KS Digital beskriver blant annet redusert foreldrebetaling i barnehage og SFO, praktisk bistand og opplæring og egenandel ved langtidsopphold i institusjon. I praksis betyr dette at produktet ikke bare videreformidler rådata, men tilpasser tilgang og visning til kommunale arbeidsprosesser som er definert i segmentet.
 
-En sentral del av funksjonen er endrings- og forvaltningsarbeidet rundt Skatteetatens delingstjenester. KS og KS Digital har segmentansvar overfor Skatteetaten, og siden om segmentsamarbeid viser hvordan de behandler årsrevisjoner, endringer i poster og konsekvenser for leverandører og kommuner. Produktets operative rolle omfatter derfor både teknisk tilgang, beregningsnær tilrettelegging og koordinert forvaltning av et endringsutsatt kildegrunnlag.
+En sentral del av funksjonen er endrings- og forvaltningsarbeidet rundt Skatteetatens delingstjenester. KS Digital ivaretar dette i praksis gjennom koordinering mot Skatteetaten, og siden om segmentsamarbeid viser hvordan årsrevisjoner, endringer i poster og konsekvenser håndteres for leverandører og kommuner. Produktets operative rolle omfatter derfor både teknisk tilgang, beregningsnær tilrettelegging og koordinert forvaltning av et endringsutsatt kildegrunnlag.
 
 ### Typiske brukssituasjoner (generisk)
 - Når kommunen skal beregne redusert foreldrebetaling eller andre egenandeler basert på oppdatert inntektsgrunnlag.
@@ -156,7 +156,7 @@ Fiks skatte- og inntektsopplysninger er en registertilgangstjeneste i KS Digital
 | Produktansvar | KS Digital | Produktside, utviklerdokumentasjon og veiledningsmateriell ligger hos KS Digital. |
 | Driftsansvar | KS Digital | Tjenesten forvaltes på Fiks-plattformen, men full intern driftsmodell er ikke offentlig detaljert dokumentert. |
 | Budsjettansvar | Ikke offentlig detaljert dokumentert i brukte kilder | Prismodell og avtalespor er synlige, men ikke full budsjettstyring. |
-| Styringsmodell | KS har strategisk segmentansvar, mens KS Digital ivaretar administrativt, operativt og teknisk ansvar i praksis | Fremgår av siden om segmentsamarbeid og produktets ta-i-bruk- og utviklerspor. |
+| Styringsmodell | KS Digital forvalter og drifter løsningen, med strategisk forankring i KS | Fremgår av siden om segmentsamarbeid og produktets ta-i-bruk- og utviklerspor. |
 
 ## Lenke til dokumentasjon
 - https://ksdigital.no/tjenestene/fiks-register/fiks-skatte-og-inntektsopplysninger/

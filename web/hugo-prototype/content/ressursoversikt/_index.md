@@ -1,34 +1,34 @@
 ---
 title: "Ressursoversikt"
 weight: 30
-description: "Inngang til produktbeskrivelser og andre felles ressurser som understøtter kapabilitetene i modellen."
+description: "Inngang til ressursbeskrivelser som understøtter kapabilitetene i modellen."
 hideToc: true
 hideSectionOverview: true
 ---
 
 <div class="resource-overview-intro"><p class="resource-overview-intro__lead">Dette er totaloversikten over siste registrerte versjon per ressurs, på tvers av typer, eiere og kapabiliteter.</p></div>
 
-## Utforsk etter type
+## Utforsk etter rammeverkskategori
 
 <div class="resource-type-grid">
   <article class="resource-type-card">
-    <h3><a href="produkter/operative-losninger-og-tjenester/">Operative løsninger og tjenester</a></h3>
-    <p>Ressurser som brukes direkte i drift, integrasjon eller løsningsdesign.</p>
+    <h3><a href="produkter/operative-losninger-og-tjenester/">Gjenbrukbare løsninger</a></h3>
+    <p>Løsninger, tjenester, plattformer, registre og felleskomponenter som kan brukes direkte i samhandling eller løsningsutvikling.</p>
     <p class="resource-type-card__count">77 ressurser</p>
   </article>
   <article class="resource-type-card">
-    <h3><a href="produkter/normerende-ressurser/">Normerende ressurser</a></h3>
-    <p>Ressurser som primært gir føringer for modeller, standarder, arkitektur og samordning.</p>
+    <h3><a href="produkter/normerende-ressurser/">Standarder og veiledning</a></h3>
+    <p>Standarder, veiledere, referansearkitektur, modeller og rammeverk som gir føringer for utforming, vurdering og samordning.</p>
     <p class="resource-type-card__count">25 ressurser</p>
   </article>
   <article class="resource-type-card">
-    <h3><a href="produkter/samarbeidsfora/">Samarbeidsfora</a></h3>
-    <p>Arenaer for koordinering, prioritering og samordning på tvers av aktører.</p>
+    <h3><a href="produkter/samarbeidsfora/">Samhandlingsarenaer og organisering</a></h3>
+    <p>Arenaer, råd, nettverk, roller og organiseringsformer som støtter koordinering, forankring og prioritering på tvers.</p>
     <p class="resource-type-card__count">9 ressurser</p>
   </article>
   <article class="resource-type-card">
-    <h3><a href="produkter/andre-ressurser/">Andre ressurser</a></h3>
-    <p>Ressurser som foreløpig ikke er plassert i egen ressursmappe med tydelig hovedtype.</p>
+    <h3><a href="produkter/rammer-og-virkemidler/">Økonomiske og juridiske rammer og virkemidler</a></h3>
+    <p>Rammer, regelverk, finansieringsordninger og andre virkemidler som påvirker handlingsrom, prioritering og gjennomføring.</p>
     <p class="resource-type-card__count">0 ressurser</p>
   </article>
 </div>
@@ -38,7 +38,7 @@ hideSectionOverview: true
 <div class="resource-listing" data-section="alle-ressurser">
   <div class="resource-filters">
     <div class="resource-filters__row">
-      <label>Sok <input type="search" class="resource-filter" data-filter="search" placeholder="Navn, ID, type, kapabilitet" /></label>
+      <label>Søk <input type="search" class="resource-filter" data-filter="search" placeholder="Navn, ID, emne, kapabilitet" /></label>
       <label>Eier <select class="resource-filter" data-filter="owner"><option value="">Alle</option>
         <option value="BRREG">BRREG</option>
         <option value="DIGDIR">DIGDIR</option>
@@ -57,7 +57,7 @@ hideSectionOverview: true
         <option value="SSB">SSB</option>
         <option value="SVV">SVV</option>
       </select></label>
-      <label>Type <select class="resource-filter" data-filter="type"><option value="">Alle</option>
+      <label>Emne <select class="resource-filter" data-filter="type"><option value="">Alle</option>
         <option value="Adresseregister for eFaktura og EHF">Adresseregister for eFaktura og EHF</option>
         <option value="Analyseplattform">Analyseplattform</option>
         <option value="API-basert deling">API-basert deling</option>

@@ -4,18 +4,18 @@ Denne fila definerer hvordan ressursområdet skal struktureres og klassifiseres 
 
 ## Formål
 - gi tydelige kriterier for hva som skal inn i ressursområdet
-- skille mellom ressurser som brukes operativt, ressurser som gir føringer, og arenaer for samordning
+- skille mellom gjenbrukbare løsninger, standarder og veiledning, samhandlingsarenaer og organisering, og økonomiske eller juridiske rammer og virkemidler
 - gjøre klassifisering mer forutsigbar når nye ressurser legges inn i analyser, register eller webstruktur
 
 ## Hovedkategorier
 
-### 1. Operative løsninger og tjenester
-Brukes for ressurser som har en tydelig operativ rolle i bruk, integrasjon eller forvaltning.
+### 1. Gjenbrukbare løsninger
+Brukes for ressurser som har en tydelig operativ rolle i bruk, integrasjon, samhandling eller forvaltning.
 
 Kjennetegn:
 - tilbyr funksjonalitet som kan brukes direkte i et løsnings- eller samhandlingslandskap
 - er noe man kan koble seg til, ta i bruk, bygge rundt eller være avhengig av i praksis
-- kan være tekniske eller funksjonelle løsninger, men skal ha en tydelig operativ rolle utover ren veiledning eller styring
+- kan være tekniske eller funksjonelle løsninger, men skal ha en tydelig operativ rolle utover ren veiledning, styring eller finansiering
 
 Typiske eksempler:
 - felleskomponenter
@@ -30,13 +30,13 @@ Eksempler i denne logikken:
 - `FINT Felleskomponent`
 - `VIGO`
 
-### 2. Normerende ressurser
-Brukes for ressurser som primært gir føringer for hvordan løsninger skal forstås, beskrives, utformes eller samordnes.
+### 2. Standarder og veiledning
+Brukes for ressurser som primært gir føringer, anbefalinger eller metodegrunnlag for hvordan løsninger skal forstås, beskrives, utformes eller samordnes.
 
 Kjennetegn:
 - brukes som grunnlag for utforming, vurdering, standardisering eller semantisk samordning
 - er ikke primært en løsning i drift eller en operativ tjeneste
-- beskriver begreper, modeller, standarder, mønstre, krav eller anbefalinger
+- beskriver begreper, modeller, standarder, mønstre, krav, anbefalinger eller veiledet praksis
 
 Typiske eksempler:
 - standarder
@@ -50,12 +50,12 @@ Eksempler i denne logikken:
 - semantiske modeller og referansemodeller
 - nasjonale eller europeiske standarder som brukes som styrende grunnlag
 
-### 3. Samarbeidsfora
-Brukes for arenaer som først og fremst støtter samordning, prioritering, forankring eller strategisk retning.
+### 3. Samhandlingsarenaer og organisering
+Brukes for arenaer, roller og organiseringsformer som først og fremst støtter samordning, prioritering, forankring eller strategisk retning.
 
 Kjennetegn:
-- er ikke primært en løsning eller et normerende dokument
-- samler aktører for koordinering, beslutningsstøtte eller forankring
+- er ikke primært en løsning, standard, veileder eller juridisk/økonomisk virkemiddel
+- samler eller organiserer aktører for koordinering, beslutningsstøtte eller forankring
 - påvirker prioriteringer, veikart, retning eller samhandling på tvers
 
 Typiske eksempler:
@@ -69,19 +69,41 @@ Eksempler i denne logikken:
 - arkitekturråd
 - sektorvise samordningsfora
 
+### 4. Økonomiske og juridiske rammer og virkemidler
+Brukes for ressurser som primært setter handlingsrom, plikter, rettigheter, finansieringsmuligheter eller andre rammebetingelser for digital samhandling.
+
+Kjennetegn:
+- er ikke primært en løsning som kan kobles til eller tas i bruk teknisk
+- virker gjennom regelverk, finansiering, styring, krav, rettigheter, plikter eller økonomiske insentiver
+- påvirker arkitekturvalg, prioritering, gjennomføringsevne eller forvaltningsmessig handlingsrom
+
+Typiske eksempler:
+- forskrifter og rundskriv
+- finansieringsordninger
+- juridiske rammer for digital samhandling
+- økonomiske virkemidler og styringsmekanismer
+
+Foreløpig arbeidsregel:
+- de fleste eksisterende normerende ressurser blir liggende under `Standarder og veiledning`
+- flytting til denne kategorien skal vurderes konkret og begrunnes i register- eller arbeidsnotat
+- `Andre ressurser` skal ikke brukes som publisert restkategori
+
 ## Beslutningsregler for klassifisering
 Bruk disse spørsmålene i rekkefølge:
 
 1. Er dette noe man bruker direkte i drift, integrasjon eller løsningsdesign?
-Da er det som hovedregel en `operativ løsning eller tjeneste`.
+Da er det som hovedregel en `gjenbrukbar løsning`.
 
 2. Er dette primært noe som gir føringer for begreper, struktur, design, standardisering eller vurdering?
-Da er det som hovedregel en `normerende ressurs`.
+Da er det som hovedregel `standarder og veiledning`.
 
 3. Er dette primært en arena for koordinering, forankring eller prioritering?
-Da er det som hovedregel et `samarbeidsforum`.
+Da er det som hovedregel `samhandlingsarenaer og organisering`.
 
-4. Hvis ressursen treffer flere kategorier:
+4. Er dette primært et juridisk eller økonomisk rammeverk, virkemiddel eller handlingsrom?
+Da er det som hovedregel `økonomiske og juridiske rammer og virkemidler`.
+
+5. Hvis ressursen treffer flere kategorier:
 Velg én primærkategori og beskriv øvrige trekk i metadata eller tekst, ikke ved dobbeltplassering.
 
 ## Minstekrav for å opprette en egen ressurs
@@ -141,12 +163,12 @@ Hvis svaret ikke er tydelig ja på minst fire av fem spørsmål, bør ressursen 
 - kapabiliteter egner seg godt til filtrering, webnavigasjon og analyse på tvers
 
 ## Forholdet til produkt-canvas
-- dagens `produkt-canvas` passer fortsatt godt for operative løsninger og tjenester som beskrives som produkter, plattformer, registre eller felleskomponenter
-- normerende ressurser og samarbeidsfora skal ikke presses inn i produkt-canvas uten bevisst tilpasning
-- når repoet utvides videre, bør det vurderes egne maler for normerende ressurser og samarbeidsfora
+- dagens `produkt-canvas` passer fortsatt godt for gjenbrukbare løsninger som beskrives som produkter, plattformer, registre eller felleskomponenter
+- standarder og veiledning, samhandlingsarenaer og organisering, og økonomiske eller juridiske rammer skal ikke presses inn i produkt-canvas uten bevisst tilpasning
+- når repoet utvides videre, bør det vurderes egne eller tydelig navngitte maler for de fire rammeverkskategoriene
 
 ## Vurdering av dagens mal som utgangspunkt
-`config/templates/produkt-canvas-template.md` er et godt utgangspunkt for `operative løsninger og tjenester`, men ikke en ferdig universell mal for alle ressurstyper.
+`config/templates/produkt-canvas-template.md` er et godt utgangspunkt for `gjenbrukbare løsninger`, men ikke en ferdig universell mal for alle ressurstyper.
 
 ### Det som kan gjenbrukes bredt
 - navn og identifikator
@@ -158,7 +180,7 @@ Hvis svaret ikke er tydelig ja på minst fire av fem spørsmål, bør ressursen 
 - forvaltning/eier
 - lenker og kildegrunnlag
 
-### Felt som passer best for operative løsninger og tjenester
+### Felt som passer best for gjenbrukbare løsninger
 - status/livsfase
 - modenhet
 - hovedfunksjoner
@@ -168,36 +190,37 @@ Hvis svaret ikke er tydelig ja på minst fire av fem spørsmål, bør ressursen 
 - gjenbruk
 - finansiering
 
-### Felt som normalt bør tilpasses for normerende ressurser
+### Felt som normalt bør tilpasses for standarder og veiledning
 - `Hovedfunksjoner` bør ofte erstattes eller suppleres med `Normerende innhold`, `Bruksområde` og `Når ressursen bør brukes`
 - `Kanaler` og `Plattform` er ofte mindre relevante eller bør erstattes med `Publiseringsform` og `Forvaltningsarena`
 - `Gjenbruk` bør tolkes som faglig anvendelse og innarbeiding, ikke teknisk gjenbruk
 
-### Felt som normalt bør tilpasses for samarbeidsfora
+### Felt som normalt bør tilpasses for samhandlingsarenaer og organisering
 - `Hovedfunksjoner` bør ofte erstattes eller suppleres med `Mandat`, `Beslutningsmyndighet`, `Deltakere`, `Arbeidsform` og `Hvilke ressurser forumet påvirker`
 - `Plattform`, `Kanaler` og deler av `Gjenbruk` er ofte lite relevante i sin nåværende form
 - `Forvaltning/eier` bør utvides med sekretariat, medlemskap eller styringslinje når dette finnes
 - `Når forumet bør involveres` og `Typiske saker og leveranser` er viktige felt for senere analysebruk
 
 ### Foreløpig arbeidsregel
-- bruk dagens `produkt-canvas` direkte for operative løsninger og tjenester
-- bruk egne avledede maler for normerende ressurser og samarbeidsfora
+- bruk dagens `produkt-canvas` direkte for gjenbrukbare løsninger
+- bruk egne avledede maler for standarder og veiledning og for samhandlingsarenaer og organisering
+- vurder egen mal for økonomiske og juridiske rammer og virkemidler når kategorien får konkrete ressursbeskrivelser
 - bruk egen prompt for ikke-operative ressursbeskrivelser når slike ressurser skal opprettes eller revideres
 
 ### Tilgjengelige maler
-- `config/templates/produkt-canvas-template.md` brukes direkte for operative løsninger og tjenester
-- `config/templates/normerende-ressurs-template.md` brukes for normerende ressurser
-- `config/templates/samarbeidsforum-template.md` brukes for samarbeidsfora
-- `config/prompts/ressursbeskrivelser.system.md` brukes som styrende prompt for normerende ressurser og samarbeidsfora
+- `config/templates/operative-ressurs-template.md` brukes direkte for gjenbrukbare løsninger
+- `config/templates/normerende-ressurs-template.md` brukes foreløpig for standarder og veiledning
+- `config/templates/samarbeidsforum-template.md` brukes foreløpig for samhandlingsarenaer og organisering
+- egen mal for økonomiske og juridiske rammer og virkemidler er ikke etablert ennå
 
 ## Første arbeidsklassifisering av omtalte ressurser
 | Ressurs | Primærkategori | Kommentar |
 |---|---|---|
-| FINT Arkiv | Operative løsninger og tjenester | Operativ løsnings- og integrasjonsressurs |
-| FINT Felleskomponent | Operative løsninger og tjenester | Operativ komponent i løsningslandskapet |
-| FINT Informasjonsmodell | Normerende ressurs | Styrende modellgrunnlag, ikke primært løsning i drift |
-| VIGO | Operative løsninger og tjenester | Operativ sektorressurs med funksjonell rolle i bruk |
-| Skate | Samarbeidsforum | Samordnings- og prioriteringsarena |
+| FINT Arkiv | Gjenbrukbare løsninger | Operativ løsnings- og integrasjonsressurs |
+| FINT Felleskomponent | Gjenbrukbare løsninger | Operativ komponent i løsningslandskapet |
+| FINT Informasjonsmodell | Standarder og veiledning | Styrende modellgrunnlag, ikke primært løsning i drift |
+| VIGO | Gjenbrukbare løsninger | Operativ sektorressurs med funksjonell rolle i bruk |
+| Skate | Samhandlingsarenaer og organisering | Samordnings- og prioriteringsarena |
 
 ## Praktisk styringsregel
 Når en ny ressurs vurderes:
@@ -208,7 +231,7 @@ Når en ny ressurs vurderes:
 ## Filnavn og identifikator
 - nye ressursfiler skal følge samme filnavnsmønster som øvrige nummererte beskrivelser i porteføljen
 - bruk løpenummer fra `arkitektur/ressurser/produktnummerering.md` først i filnavnet når ressursen er registerført
-- anbefalt mønster er `NN-Navn-vX-forfatter.md` for operative og normerende ressurser
+- anbefalt mønster er `NN-Navn-vX-forfatter.md` for nye ressursfiler
 - bruk ASCII i filnavn, men behold normal navngivning med store bokstaver der dette er etablert i produktnavnet, for eksempel `70-FINT-Felleskomponent-v1-codex.md`
 - unngå unummererte særnavn for nye ressursfiler når ressursen allerede har fått fastsatt løpenummer og ressurs-ID
 

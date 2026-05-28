@@ -1,15 +1,16 @@
-# Standardprompt: Normerende ressurs-canvas
+# Standardprompt: Standarder og veiledning-canvas
 
-Formål: Sikre lik, analysevennlig og beslutningsrelevant utfylling av ressursbeskrivelser for normerende ressurser (standarder, veiledere, referansearkitektur, informasjonsmodeller, osv.).
+Formål: Sikre lik, analysevennlig og beslutningsrelevant utfylling av ressursbeskrivelser for standarder og veiledning (standarder, veiledere, referansearkitektur, informasjonsmodeller, rammeverk, osv.).
 
 ---
 
 ## Arbeidsgang
 
 ### Trinn 1: Fastslå ressurskategori
-- Bruk `arkitektur/ressurser/styringsregler.md` til å avgjøre hvis ressursen er en **normerende ressurs**.
-- Hvis ressursen i praksis er en operativ løsning eller tjeneste, bruk ikke denne prompten. Da gjelder `config/prompts/operative-ressurs-canvas.system.md`.
-- Hvis ressursen er et samarbeidsforum, bruk `config/prompts/samarbeidsforum-canvas.system.md`.
+- Bruk `arkitektur/ressurser/styringsregler.md` til å avgjøre om ressursen hører til **standarder og veiledning**.
+- Hvis ressursen i praksis er en gjenbrukbar løsning, bruk ikke denne prompten. Da gjelder `config/prompts/operative-ressurs-canvas.system.md`.
+- Hvis ressursen er en samhandlingsarena eller gjelder organisering, bruk `config/prompts/samarbeidsforum-canvas.system.md`.
+- Hvis ressursen primært er en økonomisk eller juridisk ramme eller et virkemiddel, vurder om egen kategori `rammer-og-virkemidler` skal brukes.
 
 ### Trinn 2: Velg mal og lagringssted
 - Bruk `config/templates/normerende-ressurs-template.md`.
@@ -56,7 +57,7 @@ Dette betyr at teksten må svare tydelig på:
 
 ---
 
-## Særregler for normerende ressurser
+## Særregler for standarder og veiledning
 
 ### Forpliktelsesnivå må være eksplisitt
 - Beskriv forpliktelsesnivå tydelig. Det er ikke nok å skrive at ressursen er "viktig".

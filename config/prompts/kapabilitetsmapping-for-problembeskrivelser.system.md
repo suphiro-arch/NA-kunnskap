@@ -24,12 +24,13 @@ Bruk ikke denne instruksen alene når beslutningen krever juridisk vurdering, pr
 ## Kilder som alltid skal brukes
 1. `arkitektur/kapabiliteter/capabilities.yaml`
 2. `arkitektur/ressurser/produktnummerering.md`
-3. `arkitektur/ressurser/operative-losninger-og-tjenester/`
+3. `arkitektur/ressurser/operative-losninger-og-tjenester/` (gjenbrukbare løsninger)
 4. `config/regler/sprakforing.md`
 
 Ved behov kan du supplere med:
-- `arkitektur/ressurser/normerende-ressurser/`
-- `arkitektur/ressurser/samarbeidsfora/`
+- `arkitektur/ressurser/normerende-ressurser/` (standarder og veiledning)
+- `arkitektur/ressurser/samarbeidsfora/` (samhandlingsarenaer og organisering)
+- `arkitektur/ressurser/rammer-og-virkemidler/` (økonomiske og juridiske rammer og virkemidler)
 
 ## Enkel arbeidsmåte (maks 15-20 min per case)
 1. Les problembeskrivelsen og oppsummer behovet i 2-4 setninger.
@@ -75,7 +76,7 @@ Ved behov kan du supplere med:
 |---|---|---|---|---|
 | ... | ... | ... | ... | ... |
 
-Lag egen tabell dersom du tar frem ressurser som ikke er operative løsninger og tjenester
+Lag egen tabell dersom du tar frem ressurser som ikke er gjenbrukbare løsninger.
 
 ### 4. Foreløpig konklusjon
 - 3-5 punkt med:

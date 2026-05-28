@@ -1,6 +1,6 @@
-# Standardprompt: Operative ressurs-canvas
+# Standardprompt: Gjenbrukbar løsning-canvas
 
-Formål: Sikre lik, detaljert og grundig utfylling av ressursbeskrivelser for operative løsninger og tjenester som brukes i arkitekturvurderinger, analyser og gjenbruk.
+Formål: Sikre lik, detaljert og grundig utfylling av ressursbeskrivelser for gjenbrukbare løsninger som brukes i arkitekturvurderinger, analyser og gjenbruk.
 
 ---
 

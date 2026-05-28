@@ -56,7 +56,7 @@ Operative mal utledet fra kildene:
 | Kommunale sosialtjenester | Effektiv og trygg saksbehandling | Mottak, behandling og oppdatering av saker | Primar virksomhetsbruker |
 | NAV kontaktsenter | Innsyn i sentrale stonadsopplysninger | Veiledning i forstelinje | Avhenger av kommunal aktivering |
 | Fagsystemleverandorer | Stabil integrasjon mot Fiks Digisos | API-integrasjoner og meldingsflyt | Teknisk brukergruppe |
-| KS Digital og NAV/Arbeids- og velferdsdirektoratet | Forvaltning og videreutvikling | Drift, sikkerhet, samhandling og utrulling | Delte roller i okosystemet |
+| KS Digital og NAV/Arbeids- og velferdsdirektoratet | Forvaltning, videreutvikling og samhandling | KS Digital har tjenesteforvaltning; NAV har statlig fag- og kanalansvar | Delte roller i okosystemet |
 
 ## Hovedfunksjoner
 Fiks Digisos sin kjernefunksjon er a motta digitale soknader om okonomisk sosialhjelp fra nav.no og levere disse trygt til kommunens fagsystem for videre behandling. LOsningen fungerer som et sammenbindende lag mellom statlig brukerflate og kommunal tjenesteutovelse.

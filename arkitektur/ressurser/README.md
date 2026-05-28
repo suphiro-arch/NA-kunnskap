@@ -3,8 +3,8 @@
 Denne mappa samler styringsgrunnlag, registerføring og ressursbeskrivelser for hele ressursområdet.
 
 ## Formål
-- Gi én felles inngang til ressurser (operative løsninger, normerende ressurser, samarbeidsfora).
-- Skille tydelig mellom løsning, styring og normering.
+- Gi én felles inngang til ressurser etter rammeverkskategoriene.
+- Skille tydelig mellom gjenbrukbare løsninger, standarder og veiledning, samhandlingsarenaer og organisering, og økonomiske eller juridiske rammer og virkemidler.
 - Gjøre det lett å registrere og finne ressurser på nettsiden.
 
 ---
@@ -15,9 +15,10 @@ Denne mappa samler styringsgrunnlag, registerføring og ressursbeskrivelser for 
 |---|---|
 | `produktnummerering.md` | **Master for ressurs-ID-er og dokumentkoblinger** — hver ressurs får ett register-entry her |
 | `styringsregler.md` | Definisjoner, opptakskriterier og klassifiseringsregler |
-| `operative-losninger-og-tjenester/` | Operative løsninger, tjenester, plattformer, registre i bruk |
-| `normerende-ressurser/` | Standarder, veiledere, referansearkitektur, modeller som gir føringer |
-| `samarbeidsfora/` | Fora, råd, nettverk, samordningsarenaer |
+| `operative-losninger-og-tjenester/` | Teknisk mappe for gjenbrukbare løsninger: tjenester, plattformer, registre og felleskomponenter i bruk |
+| `normerende-ressurser/` | Teknisk mappe for standarder og veiledning: veiledere, referansearkitektur, modeller og rammeverk som gir føringer |
+| `samarbeidsfora/` | Teknisk mappe for samhandlingsarenaer og organisering: fora, råd, nettverk og samordningsarenaer |
+| `rammer-og-virkemidler/` | Teknisk mappe for økonomiske og juridiske rammer og virkemidler når slike ressurser etableres |
 
 ---
 
@@ -25,11 +26,12 @@ Denne mappa samler styringsgrunnlag, registerføring og ressursbeskrivelser for 
 
 Bruk disse systemprompter og maler når du skal lage eller oppdatere innhold:
 
-| Ressurstype | Systempromt (AI-instruks) | Mal |
+| Rammeverkskategori | Systempromt (AI-instruks) | Mal |
 |---|---|---|
-| Operative løsninger og tjenester | `config/prompts/operative-ressurs-canvas.system.md` | `config/templates/operative-ressurs-template.md` |
-| Normerende ressurser | `config/prompts/normerende-ressurs-canvas.system.md` | `config/templates/normerende-ressurs-template.md` |
-| Samarbeidsfora | `config/prompts/samarbeidsforum-canvas.system.md` | `config/templates/samarbeidsforum-template.md` |
+| Gjenbrukbare løsninger | `config/prompts/operative-ressurs-canvas.system.md` | `config/templates/operative-ressurs-template.md` |
+| Standarder og veiledning | `config/prompts/normerende-ressurs-canvas.system.md` | `config/templates/normerende-ressurs-template.md` |
+| Samhandlingsarenaer og organisering | `config/prompts/samarbeidsforum-canvas.system.md` | `config/templates/samarbeidsforum-template.md` |
+| Økonomiske og juridiske rammer og virkemidler | Ikke etablert som egen prompt ennå | Ikke etablert som egen mal ennå |
 
 Last systemprompten i din AI-assistent **før** du begynner på innholdet, slik at navneregler, kildehenting og feltstruktur følges riktig.
 
@@ -40,9 +42,10 @@ Last systemprompten i din AI-assistent **før** du begynner på innholdet, slik 
 ### Opprett ny ressurs
 
 1. **Velg ressurstype** og mappe:
-   - Operative løsninger → `operative-losninger-og-tjenester/`
-   - Normering/standarder → `normerende-ressurser/`
-   - Fora/samordning → `samarbeidsfora/`
+   - Gjenbrukbare løsninger → `operative-losninger-og-tjenester/`
+   - Standarder og veiledning → `normerende-ressurser/`
+   - Samhandlingsarenaer og organisering → `samarbeidsfora/`
+   - Økonomiske og juridiske rammer og virkemidler → `rammer-og-virkemidler/`
 
 2. **Tildel ressurs-ID**:
    - Åpne `produktnummerering.md` og finn neste ledige ID hos riktig eier (f.eks. `KS-016` hvis `KS-015` er siste).
@@ -53,9 +56,9 @@ Last systemprompten i din AI-assistent **før** du begynner på innholdet, slik 
    NN-Ressursnavn-ressurs-type-v1-format.md
    ```
    Eksempler:
-   - Operative: `01-ID-porten-operative-ressurs-canvas-v1-copilot.md`
-   - Normering: `72-FINT-Informasjonsmodell-v1-codex.md`
-   - Samarbeid: `88-Arkitektur-og-standardiseringsradet-v0-codex.md`
+   - Gjenbrukbar løsning: `01-ID-porten-operative-ressurs-canvas-v1-copilot.md`
+   - Standarder og veiledning: `72-FINT-Informasjonsmodell-v1-codex.md`
+   - Samhandlingsarena: `88-Arkitektur-og-standardiseringsradet-v0-codex.md`
 
    **Konvensjoner:**
    - `NN` = løpenummer (stabil sortering)
@@ -63,9 +66,10 @@ Last systemprompten i din AI-assistent **før** du begynner på innholdet, slik 
    - `codex`, `produktkort` osv. = format/type (valgfritt)
 
 4. **Bruk riktig mal**:
-   - Operative: `config/templates/operative-ressurs-template.md`
-   - Normering: `config/templates/normerende-ressurs-template.md`
-   - Samarbeid: `config/templates/samarbeidsforum-template.md`
+   - Gjenbrukbare løsninger: `config/templates/operative-ressurs-template.md`
+   - Standarder og veiledning: `config/templates/normerende-ressurs-template.md`
+   - Samhandlingsarenaer og organisering: `config/templates/samarbeidsforum-template.md`
+   - Økonomiske og juridiske rammer og virkemidler: bruk nærmeste mal etter konkret vurdering inntil egen mal finnes
 
 5. **Legg inn ressurs-ID i dokumentet**:
    - Fyll inn feltet "Ressurs ID" med den ressurs-IDen du tildelte i steg 2 (f.eks. `KS-016`).
@@ -125,7 +129,7 @@ En oppdatering av en ressursbeskrivelse er ikke ferdig før også `produktnummer
 
 Når du legger inn en ressurs og kan nå finne den på:
 - **Toppnivå**: `https://suphiro-arch.github.io/NA-kunnskap/ressursoversikt/` (alle ressurser)
-- **Kategori**: `/ressursoversikt/produkter/operative-losninger-og-tjenester/` osv.
+- **Kategori**: `/ressursoversikt/produkter/operative-losninger-og-tjenester/`, `/normerende-ressurser/`, `/samarbeidsfora/` og `/rammer-og-virkemidler/`
 - **Søk og filtrering**: Direkte på oversiktssiden med valgbare filter.
 
 ---

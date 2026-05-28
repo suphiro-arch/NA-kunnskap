@@ -15,11 +15,13 @@ Formål:
    - `arkitektur/ressurser/operative-losninger-og-tjenester/`
    - `arkitektur/ressurser/normerende-ressurser/`
    - `arkitektur/ressurser/samarbeidsfora/`
+   - `arkitektur/ressurser/rammer-og-virkemidler/`
 
 2. Bruk ressursmappene i ulike faser av analysen:
-   - `operative-losninger-og-tjenester/` brukes i produktvurderingen
-   - `normerende-ressurser/` brukes i prinsippvurderingen når standarder/retningslinjer faktisk påvirker tiltaket
-   - `samarbeidsfora/` brukes i strategisk vurdering når koordinering mellom aktører er en tydelig forutsetning
+   - `operative-losninger-og-tjenester/` brukes for gjenbrukbare løsninger i produktvurderingen
+   - `normerende-ressurser/` brukes for standarder og veiledning når føringer faktisk påvirker tiltaket
+   - `samarbeidsfora/` brukes for samhandlingsarenaer og organisering når koordinering mellom aktører er en tydelig forutsetning
+   - `rammer-og-virkemidler/` brukes når økonomiske eller juridiske rammer påvirker handlingsrom, prioritering eller gjennomføring
 
 3. Bruk produktkatalogen som fasit for hva som finnes.
 
@@ -34,7 +36,7 @@ Formål:
 
 6. Ikke bruk metadatafelter i produktregisteret alene (for eksempel kapabilitetstreff eller merknad) som grunnlag for produktvalg.
 
-7. Produktvalg og klassifisering skal begrunnes med innhold fra selve produktbeskrivelsen i `arkitektur/ressurser/operative-losninger-og-tjenester/` når den finnes. Normerende ressurser fra `arkitektur/ressurser/normerende-ressurser/` brukes som støtte ved prinsippvurdering, ikke som produktkilde.
+7. Produktvalg og klassifisering skal begrunnes med innhold fra selve ressursbeskrivelsen i `arkitektur/ressurser/operative-losninger-og-tjenester/` når den finnes. Standarder og veiledning fra `arkitektur/ressurser/normerende-ressurser/` brukes som støtte ved prinsippvurdering, ikke som produktkilde.
 
 8. Hvis produktbeskrivelse mangler eller er for tynn, marker vurderingen eksplisitt som usikker og oppgi at klassifiseringen har lavere tillit.
 
@@ -168,5 +170,4 @@ Sjekk at svaret:
 - peker på tydelige prioriterte tiltak med effektvurdering
 - inneholder 3-7 konkrete spørsmål som bør avklares i videre diskusjon
 - kan brukes både som rask analyse og som beslutningsgrunnlag
-
 

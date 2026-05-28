@@ -56,7 +56,7 @@ Operative mål utledet fra kildene:
 | Offentlige ansatte (meldepliktige) | Strukturert innsending med veiledning | Innsending via skjema eller API | Viktig meldergruppe |
 | Kommunale barnevernstjenester | Raskt og korrekt mottak | Mottak i fagsystem, manuell nedlasting eller brev | Primær virksomhetsbruker |
 | Fagsystemleverandører | Stabil integrasjon mot Fiks | Produksjon og konsum av meldinger | Teknisk brukergruppe |
-| KS Digital/Bufdir | Forvaltning og videreutvikling | Produktstyring, sikkerhet og kvalitet | Felles forvaltningsansvar |
+| KS Digital og Bufdir | Forvaltning og videreutvikling | KS Digital har produktforvaltning; Bufdir er faglig samarbeidspartner | Felles forvaltningsansvar |
 
 ## Hovedfunksjoner
 KS Bekymringsmelding tilbyr to hovedinnganger for innsending: ett skjema for privatpersoner og ett for offentlige ansatte. Begge løpene er utviklet for å gi mer komplett informasjon og bedre kvalitet i meldingene.

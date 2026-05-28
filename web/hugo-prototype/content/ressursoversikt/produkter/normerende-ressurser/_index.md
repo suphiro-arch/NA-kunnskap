@@ -1,23 +1,23 @@
 ---
-title: "Normerende ressurser"
+title: "Standarder og veiledning"
 weight: 2
-description: "Ressurser som primært gir føringer for modeller, standarder, arkitektur og samordning."
+description: "Standarder, veiledere, referansearkitektur, modeller og rammeverk som gir føringer for utforming, vurdering og samordning."
 hideToc: true
 ---
 
-Ressurser som primært gir føringer for modeller, standarder, arkitektur og samordning.
+Standarder, veiledere, referansearkitektur, modeller og rammeverk som gir føringer for utforming, vurdering og samordning.
 
-Denne siden viser siste registrerte versjon av ressurser i kategorien **Normerende ressurser**.
+Denne siden viser siste registrerte versjon av ressurser i kategorien **Standarder og veiledning**.
 
 <div class="resource-listing" data-section="normerende-ressurser">
   <div class="resource-filters">
     <div class="resource-filters__row">
-      <label>Sok <input type="search" class="resource-filter" data-filter="search" placeholder="Navn, ID, type, kapabilitet" /></label>
+      <label>Søk <input type="search" class="resource-filter" data-filter="search" placeholder="Navn, ID, emne, kapabilitet" /></label>
       <label>Eier <select class="resource-filter" data-filter="owner"><option value="">Alle</option>
         <option value="DIGDIR">DIGDIR</option>
         <option value="NOVARI">NOVARI</option>
       </select></label>
-      <label>Type <select class="resource-filter" data-filter="type"><option value="">Alle</option>
+      <label>Emne <select class="resource-filter" data-filter="type"><option value="">Alle</option>
         <option value="Forskrift">Forskrift</option>
         <option value="Informasjonsmodell">Informasjonsmodell</option>
         <option value="Kapabilitetsmodell">Kapabilitetsmodell</option>

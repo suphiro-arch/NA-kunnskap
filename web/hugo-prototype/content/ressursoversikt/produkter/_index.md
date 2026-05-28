@@ -6,32 +6,32 @@ hideInNav: true
 hideToc: true
 ---
 
-Denne oversikten viser siste registrerte versjon per ressurs basert paa `arkitektur/ressurser/produktnummerering.md`.
+Denne oversikten viser siste registrerte versjon per ressurs basert på `arkitektur/ressurser/produktnummerering.md`.
 
-Bruk siden for aa finne riktig ressursbeskrivelse raskt, og gaa derfra videre til detaljene i markdownfilen paa GitHub eller via relevante kapabilitetssider.
+Bruk siden for å finne riktig ressursbeskrivelse raskt, og gå derfra videre til detaljene i markdownfilen på GitHub eller via relevante kapabilitetssider.
 
-Ressursene er gruppert etter hovedtype, med egne undersider for operative løsninger og tjenester, normerende ressurser og samarbeidsfora.
+Ressursene er gruppert etter rammeverkskategori, med egne undersider for gjenbrukbare løsninger, standarder og veiledning, samhandlingsarenaer og organisering, og økonomiske og juridiske rammer og virkemidler.
 
-## [Operative løsninger og tjenester](./operative-losninger-og-tjenester/)
+## [Gjenbrukbare løsninger](./operative-losninger-og-tjenester/)
 
-Ressurser som brukes direkte i drift, integrasjon eller løsningsdesign.
+Løsninger, tjenester, plattformer, registre og felleskomponenter som kan brukes direkte i samhandling eller løsningsutvikling.
 
 Antall ressurser: **77**
 
-## [Normerende ressurser](./normerende-ressurser/)
+## [Standarder og veiledning](./normerende-ressurser/)
 
-Ressurser som primært gir føringer for modeller, standarder, arkitektur og samordning.
+Standarder, veiledere, referansearkitektur, modeller og rammeverk som gir føringer for utforming, vurdering og samordning.
 
 Antall ressurser: **25**
 
-## [Samarbeidsfora](./samarbeidsfora/)
+## [Samhandlingsarenaer og organisering](./samarbeidsfora/)
 
-Arenaer for koordinering, prioritering og samordning på tvers av aktører.
+Arenaer, råd, nettverk, roller og organiseringsformer som støtter koordinering, forankring og prioritering på tvers.
 
 Antall ressurser: **9**
 
-## [Andre ressurser](./andre-ressurser/)
+## [Økonomiske og juridiske rammer og virkemidler](./rammer-og-virkemidler/)
 
-Ressurser som foreløpig ikke er plassert i egen ressursmappe med tydelig hovedtype.
+Rammer, regelverk, finansieringsordninger og andre virkemidler som påvirker handlingsrom, prioritering og gjennomføring.
 
 Antall ressurser: **0**

@@ -1,21 +1,21 @@
 ---
-title: "Andre ressurser"
+title: "Økonomiske og juridiske rammer og virkemidler"
 weight: 4
-description: "Ressurser som foreløpig ikke er plassert i egen ressursmappe med tydelig hovedtype."
+description: "Rammer, regelverk, finansieringsordninger og andre virkemidler som påvirker handlingsrom, prioritering og gjennomføring."
 hideToc: true
 ---
 
-Ressurser som foreløpig ikke er plassert i egen ressursmappe med tydelig hovedtype.
+Rammer, regelverk, finansieringsordninger og andre virkemidler som påvirker handlingsrom, prioritering og gjennomføring.
 
-Denne siden viser siste registrerte versjon av ressurser i kategorien **Andre ressurser**.
+Denne siden viser siste registrerte versjon av ressurser i kategorien **Økonomiske og juridiske rammer og virkemidler**.
 
-<div class="resource-listing" data-section="andre-ressurser">
+<div class="resource-listing" data-section="rammer-og-virkemidler">
   <div class="resource-filters">
     <div class="resource-filters__row">
-      <label>Sok <input type="search" class="resource-filter" data-filter="search" placeholder="Navn, ID, type, kapabilitet" /></label>
+      <label>Søk <input type="search" class="resource-filter" data-filter="search" placeholder="Navn, ID, emne, kapabilitet" /></label>
       <label>Eier <select class="resource-filter" data-filter="owner"><option value="">Alle</option>
       </select></label>
-      <label>Type <select class="resource-filter" data-filter="type"><option value="">Alle</option>
+      <label>Emne <select class="resource-filter" data-filter="type"><option value="">Alle</option>
       </select></label>
       <label>Kapabilitet <select class="resource-filter" data-filter="capability"><option value="">Alle</option>
       </select></label>

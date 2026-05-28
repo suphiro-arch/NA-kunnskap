@@ -18,9 +18,10 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Ved arbeid med nye ressurskategorier eller ressurser utover klassiske produkter, bruk `arkitektur/ressurser/styringsregler.md` som styrende klassifisering.
 - Ved registerføring av nye ressurser i den brede ressursstrukturen, bruk fortsatt `arkitektur/ressurser/produktnummerering.md` som operativ master for ressurs-ID og registerstatus inntil annet er besluttet.
 - Når nye ressursfiler opprettes etter at løpenummer er fastsatt i `arkitektur/ressurser/produktnummerering.md`, skal filnavnet følge samme nummererte mønster som øvrige beskrivelser i porteføljen.
-- Ved opprettelse eller revisjon av `normerende ressurser`, bruk `config/prompts/normerende-ressurs-canvas.system.md` sammen med `config/templates/normerende-ressurs-template.md`.
-- Ved opprettelse eller revisjon av `samarbeidsfora`, bruk `config/prompts/samarbeidsforum-canvas.system.md` sammen med `config/templates/samarbeidsforum-template.md`.
-- Nye `normerende ressurser` skal lagres i `arkitektur/ressurser/normerende-ressurser/`, og nye `samarbeidsfora` skal lagres i `arkitektur/ressurser/samarbeidsfora/`.
+- Ved opprettelse eller revisjon av `standarder og veiledning`, bruk `config/prompts/normerende-ressurs-canvas.system.md` sammen med `config/templates/normerende-ressurs-template.md`.
+- Ved opprettelse eller revisjon av `samhandlingsarenaer og organisering`, bruk `config/prompts/samarbeidsforum-canvas.system.md` sammen med `config/templates/samarbeidsforum-template.md`.
+- Nye ressurser innen `standarder og veiledning` skal lagres i `arkitektur/ressurser/normerende-ressurser/`, og nye ressurser innen `samhandlingsarenaer og organisering` skal lagres i `arkitektur/ressurser/samarbeidsfora/`.
+- Nye ressurser innen `økonomiske og juridiske rammer og virkemidler` skal lagres i `arkitektur/ressurser/rammer-og-virkemidler/` når klassifiseringen er vurdert mot styringsreglene.
 
 ## Produktbeskrivelser
 - Bruk alltid høyeste eksisterende versjonsnummer for et produkt som primært utgangspunkt, uavhengig av om siste versjon er laget av `copilot`, `chatgpt`, `claude`, eller annet verktøy.
@@ -29,8 +30,8 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Ved tvil om suffix skal assistenten stoppe og velge suffix ut fra **utførende verktøy i den aktuelle kjøringen**, ikke ut fra suffix i forrige versjon.
 - Før handover eller commit er det obligatorisk å verifisere at nytt filnavn, `produktnummerering.md` og `produkt-kapabilitet-koblinger.yaml` peker til samme versjon og samme suffix.
 - Hvis suffix er feil, skal assistenten rette filnavn og alle pekere i samme endringssett. Det er ikke tillatt å avslutte kjøringen med inkonsistent suffix mellom fil og register/mapping.
-- Følg metoden i [config/prompts/operative-ressurs-canvas.system.md](config/prompts/operative-ressurs-canvas.system.md) ved arbeid med operative ressursbeskrivelser.
-- Ved opprettelse av nye operative ressursbeskrivelser skal [config/prompts/operative-ressurs-canvas.system.md](config/prompts/operative-ressurs-canvas.system.md) alltid brukes som styrende instruks.
+- Følg metoden i [config/prompts/operative-ressurs-canvas.system.md](config/prompts/operative-ressurs-canvas.system.md) ved arbeid med gjenbrukbare løsninger.
+- Ved opprettelse av nye beskrivelser av gjenbrukbare løsninger skal [config/prompts/operative-ressurs-canvas.system.md](config/prompts/operative-ressurs-canvas.system.md) alltid brukes som styrende instruks.
 - Nye produktfiler skal følge gjeldende versjoneringsregel i promptfila.
 - Når ny versjon av en ressurs opprettes, skal både `arkitektur/ressurser/produktnummerering.md` og `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml` oppdateres hvis de peker til ressursen.
 - Register og kapabilitetsmapping skal peke til siste versjon eksplisitt; ikke stol på at generatorer eller webskript retter dette automatisk.
@@ -38,11 +39,11 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Etter opprettelse eller endring av produktbeskrivelser skal det gjøres en eksplisitt kontroll for tegnkodingsfeil, ikke bare en visuell sjekk i terminalen.
 - Hvis tekst viser typiske tegnkodingsfeil med doble bokstavsekvenser eller ødelagte typografitegn, skal fila rettes før commit og før genererte oversikter oppdateres.
 - Lokale hooks for encoding-kontroll skal være aktive (`tools/setup-git-hooks.ps1`) slik at både commit og push stoppes automatisk ved mojibake.
-- I normerende ressursbeskrivelser skal `Status/Livsfase` beskrive status på selve ressursen, ikke status på dokumentutkastet eller ressursbeskrivelsen.
-- Tidlige versjoner av normerende ressursbeskrivelser skal som hovedregel beholde hele malstrukturen, og uferdige felt skal merkes eksplisitt i teksten i stedet for å utelates.
-- `v1` for normerende ressurser og samarbeidsfora skal bare brukes når dokumentet er godt nok til å fungere som direkte analysegrunnlag, ikke bare som arbeidsutkast.
-- `v1` for normerende ressurser og samarbeidsfora krever at analysekritiske felt er substansielt utfylt, at påstander med høy betydning er kildeforankret, og at tydelig usikkerhet er markert der åpne kilder ikke er nok.
-- I beskrivelser av samarbeidsfora skal det være eksplisitt om forumet er rådgivende, koordinerende eller besluttende, hvilke ressurser det påvirker, og når det bør involveres i analyse- eller utviklingsløp.
+- I beskrivelser av standarder og veiledning skal `Status/Livsfase` beskrive status på selve ressursen, ikke status på dokumentutkastet eller ressursbeskrivelsen.
+- Tidlige versjoner av beskrivelser for standarder og veiledning skal som hovedregel beholde hele malstrukturen, og uferdige felt skal merkes eksplisitt i teksten i stedet for å utelates.
+- `v1` for standarder og veiledning, samhandlingsarenaer og organisering, og økonomiske eller juridiske rammer og virkemidler skal bare brukes når dokumentet er godt nok til å fungere som direkte analysegrunnlag, ikke bare som arbeidsutkast.
+- `v1` for disse ikke-operative kategoriene krever at analysekritiske felt er substansielt utfylt, at påstander med høy betydning er kildeforankret, og at tydelig usikkerhet er markert der åpne kilder ikke er nok.
+- I beskrivelser av samhandlingsarenaer og organisering skal det være eksplisitt om arenaen er rådgivende, koordinerende eller besluttende, hvilke ressurser den påvirker, og når den bør involveres i analyse- eller utviklingsløp.
 - I seksjonen `Støtter arkitekturprinsipper` skal beskrivelser også vurdere tydelige svakheter, spenninger eller begrensninger mot viktige prinsipper når dette er relevant for mulig bruk.
 - Kapabilitetsseksjoner i ressursbeskrivelser skal bruke rene, kanoniske kapabilitetsnavn. Utfyllende forklaring skal ligge i brødtekst, ikke bygges inn i selve navnelabelen.
 

@@ -1,22 +1,22 @@
 ---
-title: "Samarbeidsfora"
+title: "Samhandlingsarenaer og organisering"
 weight: 3
-description: "Arenaer for koordinering, prioritering og samordning på tvers av aktører."
+description: "Arenaer, råd, nettverk, roller og organiseringsformer som støtter koordinering, forankring og prioritering på tvers."
 hideToc: true
 ---
 
-Arenaer for koordinering, prioritering og samordning på tvers av aktører.
+Arenaer, råd, nettverk, roller og organiseringsformer som støtter koordinering, forankring og prioritering på tvers.
 
-Denne siden viser siste registrerte versjon av ressurser i kategorien **Samarbeidsfora**.
+Denne siden viser siste registrerte versjon av ressurser i kategorien **Samhandlingsarenaer og organisering**.
 
 <div class="resource-listing" data-section="samarbeidsfora">
   <div class="resource-filters">
     <div class="resource-filters__row">
-      <label>Sok <input type="search" class="resource-filter" data-filter="search" placeholder="Navn, ID, type, kapabilitet" /></label>
+      <label>Søk <input type="search" class="resource-filter" data-filter="search" placeholder="Navn, ID, emne, kapabilitet" /></label>
       <label>Eier <select class="resource-filter" data-filter="owner"><option value="">Alle</option>
         <option value="DIGDIR">DIGDIR</option>
       </select></label>
-      <label>Type <select class="resource-filter" data-filter="type"><option value="">Alle</option>
+      <label>Emne <select class="resource-filter" data-filter="type"><option value="">Alle</option>
         <option value="Arkitekturr&#229;d">Arkitekturr&#229;d</option>
         <option value="Faglig forum">Faglig forum</option>
         <option value="Nasjonal arena for kunstig intelligens">Nasjonal arena for kunstig intelligens</option>

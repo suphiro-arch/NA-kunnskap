@@ -13,8 +13,11 @@ Dette er en isolert prototype for en framtidig nettside om nasjonal arkitektur.
 
 - `arkitektur/kapabiliteter/capabilities.yaml`
 - `arkitektur/ressurser/produktnummerering.md` er registermaster for ressurs-ID, status og dokumentlenker
-- `arkitektur/ressurser/operative-losninger-og-tjenester/` brukes fortsatt for eksisterende produktbeskrivelser
-- `arkitektur/ressurser/` brukes for nye ressursbeskrivelser og ny struktur
+- `arkitektur/ressurser/` brukes for ressursbeskrivelser etter rammeverkskategoriene
+- `arkitektur/ressurser/operative-losninger-og-tjenester/` er teknisk mappe for gjenbrukbare løsninger
+- `arkitektur/ressurser/normerende-ressurser/` er teknisk mappe for standarder og veiledning
+- `arkitektur/ressurser/samarbeidsfora/` er teknisk mappe for samhandlingsarenaer og organisering
+- `arkitektur/ressurser/rammer-og-virkemidler/` er teknisk mappe for økonomiske og juridiske rammer og virkemidler
 - `arkitektur/prinsipper/principles.md`
 - `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml`
 
@@ -33,9 +36,9 @@ Kapabilitetsscriptet bygger:
 - delkapabiliteter
 - mapping fra kapabiliteter til siste versjon av relevante produktbeskrivelser
 
-Produktscriptet bygger:
+Ressursscriptet bygger:
 - en inngangsside for ressursoversikten
-- egne undersider for ressursene gruppert etter hovedtype
+- egne undersider for ressursene gruppert etter rammeverkskategori
 - oversikter basert på `produktnummerering.md`
 
 Prinsippscriptet bygger:

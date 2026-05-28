@@ -13,26 +13,26 @@ $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
 $resourceTypeDefinitions = @(
   [PSCustomObject]@{
     Slug = 'operative-losninger-og-tjenester'
-    Title = 'Operative løsninger og tjenester'
-    Description = 'Ressurser som brukes direkte i drift, integrasjon eller løsningsdesign.'
+    Title = 'Gjenbrukbare løsninger'
+    Description = 'Løsninger, tjenester, plattformer, registre og felleskomponenter som kan brukes direkte i samhandling eller løsningsutvikling.'
     Weight = 1
   },
   [PSCustomObject]@{
     Slug = 'normerende-ressurser'
-    Title = 'Normerende ressurser'
-    Description = 'Ressurser som primært gir føringer for modeller, standarder, arkitektur og samordning.'
+    Title = 'Standarder og veiledning'
+    Description = 'Standarder, veiledere, referansearkitektur, modeller og rammeverk som gir føringer for utforming, vurdering og samordning.'
     Weight = 2
   },
   [PSCustomObject]@{
     Slug = 'samarbeidsfora'
-    Title = 'Samarbeidsfora'
-    Description = 'Arenaer for koordinering, prioritering og samordning på tvers av aktører.'
+    Title = 'Samhandlingsarenaer og organisering'
+    Description = 'Arenaer, råd, nettverk, roller og organiseringsformer som støtter koordinering, forankring og prioritering på tvers.'
     Weight = 3
   },
   [PSCustomObject]@{
-    Slug = 'andre-ressurser'
-    Title = 'Andre ressurser'
-    Description = 'Ressurser som foreløpig ikke er plassert i egen ressursmappe med tydelig hovedtype.'
+    Slug = 'rammer-og-virkemidler'
+    Title = 'Økonomiske og juridiske rammer og virkemidler'
+    Description = 'Rammer, regelverk, finansieringsordninger og andre virkemidler som påvirker handlingsrom, prioritering og gjennomføring.'
     Weight = 4
   }
 )
@@ -149,7 +149,11 @@ function Get-ResourceTypeInfo {
     return $resourceTypeDefinitions | Where-Object { $_.Slug -eq 'samarbeidsfora' } | Select-Object -First 1
   }
 
-  return $resourceTypeDefinitions | Where-Object { $_.Slug -eq 'andre-ressurser' } | Select-Object -First 1
+  if ($RelativePath -match '^arkitektur/ressurser/rammer-og-virkemidler/') {
+    return $resourceTypeDefinitions | Where-Object { $_.Slug -eq 'rammer-og-virkemidler' } | Select-Object -First 1
+  }
+
+  throw "Uklassifisert ressurssti uten rammeverkskategori: $RelativePath"
 }
 
 function Extract-Section {
@@ -495,13 +499,13 @@ function New-ResourceListingBlock {
   $lines.Add(('<div class="resource-listing" data-section="{0}">' -f (Slugify-Value $SectionSlug)))
   $lines.Add('  <div class="resource-filters">')
   $lines.Add('    <div class="resource-filters__row">')
-  $lines.Add('      <label>Sok <input type="search" class="resource-filter" data-filter="search" placeholder="Navn, ID, type, kapabilitet" /></label>')
+  $lines.Add('      <label>Søk <input type="search" class="resource-filter" data-filter="search" placeholder="Navn, ID, emne, kapabilitet" /></label>')
   $lines.Add('      <label>Eier <select class="resource-filter" data-filter="owner"><option value="">Alle</option>')
   foreach ($option in $ownerOptions) {
     $lines.Add(('        <option value="{0}">{1}</option>' -f (Html-Encode $option), (Html-Encode $option)))
   }
   $lines.Add('      </select></label>')
-  $lines.Add('      <label>Type <select class="resource-filter" data-filter="type"><option value="">Alle</option>')
+  $lines.Add('      <label>Emne <select class="resource-filter" data-filter="type"><option value="">Alle</option>')
   foreach ($option in $typeOptions) {
     $lines.Add(('        <option value="{0}">{1}</option>' -f (Html-Encode $option), (Html-Encode $option)))
   }
@@ -572,11 +576,11 @@ $index = @(
   'hideToc: true',
   '---',
   '',
-  'Denne oversikten viser siste registrerte versjon per ressurs basert paa `arkitektur/ressurser/produktnummerering.md`.',
+  'Denne oversikten viser siste registrerte versjon per ressurs basert på `arkitektur/ressurser/produktnummerering.md`.',
   '',
-  'Bruk siden for aa finne riktig ressursbeskrivelse raskt, og gaa derfra videre til detaljene i markdownfilen paa GitHub eller via relevante kapabilitetssider.',
+  'Bruk siden for å finne riktig ressursbeskrivelse raskt, og gå derfra videre til detaljene i markdownfilen på GitHub eller via relevante kapabilitetssider.',
   '',
-  'Ressursene er gruppert etter hovedtype, med egne undersider for operative løsninger og tjenester, normerende ressurser og samarbeidsfora.'
+  'Ressursene er gruppert etter rammeverkskategori, med egne undersider for gjenbrukbare løsninger, standarder og veiledning, samhandlingsarenaer og organisering, og økonomiske og juridiske rammer og virkemidler.'
 )
 
 foreach ($typeDef in $resourceTypeDefinitions) {
@@ -632,14 +636,14 @@ $allResourcesIndex = @(
   '---',
   'title: "Ressursoversikt"',
   'weight: 30',
-  'description: "Inngang til produktbeskrivelser og andre felles ressurser som understøtter kapabilitetene i modellen."',
+  'description: "Inngang til ressursbeskrivelser som understøtter kapabilitetene i modellen."',
   'hideToc: true',
   'hideSectionOverview: true',
   '---',
   '',
   ('<div class="resource-overview-intro"><p class="resource-overview-intro__lead">Dette er totaloversikten over siste registrerte versjon per ressurs, på tvers av typer, eiere og kapabiliteter.</p></div>'),
   '',
-  '## Utforsk etter type',
+  '## Utforsk etter rammeverkskategori',
   '',
   ($resourceTypeCardLines -join [Environment]::NewLine),
   '',
@@ -648,6 +652,11 @@ $allResourcesIndex = @(
 )
 $allResourcesIndex += (New-ResourceListingBlock -Entries @($latest) -SectionSlug 'alle-ressurser' -CapabilityLinkPrefix '../')
 Write-Utf8NoBomFile -Path $topLevelOverviewFile -Lines $allResourcesIndex
+
+$validTypeSlugs = @($resourceTypeDefinitions | ForEach-Object { $_.Slug })
+Get-ChildItem $outDir -Directory |
+  Where-Object { $validTypeSlugs -notcontains $_.Name } |
+  Remove-Item -Recurse -Force
 
 Get-ChildItem $outDir -File |
   Where-Object { $_.Name -ne '_index.md' } |

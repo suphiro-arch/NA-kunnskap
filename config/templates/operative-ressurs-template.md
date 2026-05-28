@@ -1,4 +1,4 @@
-# Produkt-canvas mal (Markdown)
+# Gjenbrukbar løsning-canvas mal (Markdown)
 
 Kilde: konvertert fra `sources/Mal - Produkt canvas.docx`.
 
@@ -14,7 +14,7 @@ Kilde: konvertert fra `sources/Mal - Produkt canvas.docx`.
 Hvis kildegrunnlaget ikke er godt nok for dette nivået, behold dokumentet som `v0.x`.
 
 ## Navn
-Det offisielle navnet paa produktet eller løsningen.
+Det offisielle navnet på produktet eller løsningen.
 
 ## Ressurs ID
 Kanonisk ressurs-ID fra `arkitektur/ressurser/produktnummerering.md`, for eksempel `DIGDIR-001`.

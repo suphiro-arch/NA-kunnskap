@@ -1,15 +1,16 @@
-# Standardprompt: Samarbeidsforum-canvas
+# Standardprompt: Samhandlingsarena og organisering-canvas
 
-Formål: Sikre lik, analysevennlig og beslutningsrelevant utfylling av ressursbeskrivelser for samarbeidsfora (råd, nettverk, samordningsarenaer, fora, osv.).
+Formål: Sikre lik, analysevennlig og beslutningsrelevant utfylling av ressursbeskrivelser for samhandlingsarenaer og organisering (råd, nettverk, samordningsarenaer, fora, roller og styringsarenaer, osv.).
 
 ---
 
 ## Arbeidsgang
 
 ### Trinn 1: Fastslå ressurskategori
-- Bruk `arkitektur/ressurser/styringsregler.md` til å avgjøre hvis ressursen er et **samarbeidsforum**.
-- Hvis ressursen i praksis er en operativ løsning eller tjeneste, bruk ikke denne prompten. Da gjelder `config/prompts/operative-ressurs-canvas.system.md`.
-- Hvis ressursen er en normering eller standard, bruk `config/prompts/normerende-ressurs-canvas.system.md`.
+- Bruk `arkitektur/ressurser/styringsregler.md` til å avgjøre om ressursen hører til **samhandlingsarenaer og organisering**.
+- Hvis ressursen i praksis er en gjenbrukbar løsning, bruk ikke denne prompten. Da gjelder `config/prompts/operative-ressurs-canvas.system.md`.
+- Hvis ressursen er standarder og veiledning, bruk `config/prompts/normerende-ressurs-canvas.system.md`.
+- Hvis ressursen primært er en økonomisk eller juridisk ramme eller et virkemiddel, vurder om egen kategori `rammer-og-virkemidler` skal brukes.
 
 ### Trinn 2: Velg mal og lagringssted
 - Bruk `config/templates/samarbeidsforum-template.md`.
@@ -57,7 +58,7 @@ Dette betyr at teksten må svare tydelig på:
 
 ---
 
-## Særregler for samarbeidsfora
+## Særregler for samhandlingsarenaer og organisering
 
 ### Beslutningsmyndighet må være eksplisitt
 - Beskriv beslutningsmyndighet tydelig. Ikke la det være uklart om forumet:

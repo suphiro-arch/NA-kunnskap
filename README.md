@@ -19,10 +19,10 @@ Repo for arbeid med nasjonal arkitektur, produktbeskrivelser, kapabiliteter, pri
 
 ## Styrende filer
 - [AGENTS.md](AGENTS.md): generelle repo-regler for assistenter
-- [styringsregler.md](arkitektur/ressurser/styringsregler.md): avgjør hvilken ressurstype en kandidat tilhører (operativ, normerende eller samarbeidsforum) – les denne først
-- [operative-ressurs-canvas.system.md](config/prompts/operative-ressurs-canvas.system.md): metode for operative ressursbeskrivelser og forbedringsarbeid
-- [normerende-ressurs-canvas.system.md](config/prompts/normerende-ressurs-canvas.system.md): metode for normerende ressursbeskrivelser (standarder, veiledere, rammeverk)
-- [samarbeidsforum-canvas.system.md](config/prompts/samarbeidsforum-canvas.system.md): metode for beskrivelser av samarbeidsfora og koordineringsarenaer
+- [styringsregler.md](arkitektur/ressurser/styringsregler.md): avgjør hvilken rammeverkskategori en kandidat tilhører – les denne først
+- [operative-ressurs-canvas.system.md](config/prompts/operative-ressurs-canvas.system.md): metode for gjenbrukbare løsninger og forbedringsarbeid
+- [normerende-ressurs-canvas.system.md](config/prompts/normerende-ressurs-canvas.system.md): metode for standarder og veiledning
+- [samarbeidsforum-canvas.system.md](config/prompts/samarbeidsforum-canvas.system.md): metode for samhandlingsarenaer og organisering
 - [designprofil-rapporter-og-presentasjoner.system.md](config/prompts/designprofil-rapporter-og-presentasjoner.system.md): felles designprofil for rapporter, presentasjoner og figurer
 - [briefs/README.md](briefs/README.md): hvordan `briefs/` brukes til arbeidsstyring og handover
 - [struktur-og-bearbeiding.md](arkitektur/struktur-og-bearbeiding.md): hvordan råkilder, kuraterte arbeidsfiler og videre bruk henger sammen i repoet
@@ -31,7 +31,7 @@ Repo for arbeid med nasjonal arkitektur, produktbeskrivelser, kapabiliteter, pri
 
 ### Ressursbeskrivelser
 1. Samle og verifiser kilder i `sources/` og offisielle dokumentasjonskilder.
-2. Bruk `arkitektur/ressurser/styringsregler.md` til å avgjøre ressurstype, last deretter riktig systempromt (operativ, normerende eller samarbeidsforum) og lag eller oppdater ressursbeskrivelsen.
+2. Bruk `arkitektur/ressurser/styringsregler.md` til å avgjøre rammeverkskategori, last deretter riktig systempromt og lag eller oppdater ressursbeskrivelsen.
 3. Oppdater `arkitektur/ressurser/produktnummerering.md` med ny versjonspeker.
 4. Kjør `python tools/sync-resource-metadata.py --apply` og `python tools/check-resource-version-sync.py` for å verifisere register og kapabilitetsmapping.
 5. Logg status i `briefs/next-step.md` og varige valg i `briefs/decisions.md`.
@@ -156,7 +156,7 @@ For minst mulig manuell jobb:
 - `arkitektur/maal/maal.md` er den kuraterte arbeidsfila for mål og overordnet målkobling i modellen.
 - `arkitektur/ressurser/produktnummerering.md` er operativ master for produktregister, ressurs-ID-er og statusoversikt.
 - `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml` er operativ master for koblingen mellom produkter og kapabiliteter.
-- `arkitektur/ressurser/` inneholder alle ressursbeskrivelser: operative løsninger og tjenester, normerende ressurser og samarbeidsfora.
+- `arkitektur/ressurser/` inneholder alle ressursbeskrivelser etter rammeverkskategoriene: gjenbrukbare løsninger, standarder og veiledning, samhandlingsarenaer og organisering, og økonomiske eller juridiske rammer og virkemidler.
 - Hugo-prototypen bruker de kuraterte arbeidsfilene og genererte oversiktene, ikke rå-XML direkte.
 
 ## Webprototype
