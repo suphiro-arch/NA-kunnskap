@@ -75,7 +75,7 @@ Evne til å levere en digital brukerorienterte tjenester som fremstår som en lo
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/93-Fiks-Digisos-produkt-canvas-v1-codex.md">Fiks Digisos</a></h3>
-    <p class="capability-product-link__description">Soker kan sende soknad, ettersende dokumentasjon og folge saksgang i en sammenhengende brukerreise pa nav.no.</p>
+    <p class="capability-product-link__description">Søker kan sende søknad, ettersende dokumentasjon og følge saksgang i en sammenhengende brukerreise på nav.no.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>

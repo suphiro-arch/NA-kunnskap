@@ -2977,7 +2977,7 @@
                     "subcapability_name": "Sammenhengende tjenester",
                     "subcapability_slug": "sammenhengende-tjenester",
                     "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-                    "explanation": "Soker kan sende soknad, ettersende dokumentasjon og folge saksgang i en sammenhengende brukerreise pa nav.no."
+                    "explanation": "Søker kan sende søknad, ettersende dokumentasjon og følge saksgang i en sammenhengende brukerreise på nav.no."
                 },
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
@@ -2987,7 +2987,7 @@
                     "subcapability_name": "Dele data med andre",
                     "subcapability_slug": "dele-data-med-andre",
                     "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "Tjenesten deler og overforer soknads- og saksdata kontrollert mellom statlige og kommunale systemer gjennom Fiks API-er og meldingskanaler."
+                    "explanation": "Tjenesten deler og overfører søknads- og saksdata kontrollert mellom statlige og kommunale systemer gjennom Fiks API-er og meldingskanaler."
                 }
             ]
         },

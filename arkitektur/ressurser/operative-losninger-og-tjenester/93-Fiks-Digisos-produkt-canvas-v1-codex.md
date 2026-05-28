@@ -9,7 +9,7 @@ KS-012
 ## Status/Livsfase
 **Produksjon** - etablert tjeneste i drift i kommunesektoren, med høy utbredelse i Norge.
 
-**Fakta:** KS Digital beskriver Fiks Digisos som en tjeneste for kommunal behandling av sosialsoknader via nav.no. NAV beskriver Digisos som et samarbeid mellom KS Digital, kommunene og Arbeids- og velferdsdirektoratet, med losninger for digital soknad, innsyn for soker og innsynsflate for NAV kontaktsenter.
+**Fakta:** KS Digital beskriver Fiks Digisos som en tjeneste for kommunal behandling av sosialsøknader via nav.no. NAV beskriver Digisos som et samarbeid mellom KS Digital, kommunene og Arbeids- og velferdsdirektoratet, med løsninger for digital søknad, innsyn for søker og innsynsflate for NAV kontaktsenter.
 
 ## Modenhet
 **Hoy modenhet** - bred innforing og etablert samhandlingsmodell mellom kommune og stat:
@@ -17,20 +17,20 @@ KS-012
 - Tjenesten har etablert teknisk dokumentasjon, API-spesifikasjoner og tydelig konfigurasjonslop i Fiks.
 - Drifts- og sikkerhetsmodellen er beskrevet med kryptering, autentisering og fallback-mekanismer.
 
-**Deduksjon:** Fiks Digisos er moden som samhandlingslosning i et avgrenset domene (okonomisk sosialhjelp), men verdien er tett knyttet til integrasjonskvalitet i kommunale fagsystemer og gode avtaler mellom aktorene.
+**Deduksjon:** Fiks Digisos er moden som samhandlingsløsning i et avgrenset domene (økonomisk sosialhjelp), men verdien er tett knyttet til integrasjonskvalitet i kommunale fagsystemer og gode avtaler mellom aktørene.
 
 ## Kort beskrivelse
-Fiks Digisos er en nasjonal samhandlings- og integrasjonstjeneste for digital behandling av soknader om okonomisk sosialhjelp. Losningen kobler innbyggersoknad pa nav.no med kommunale fagsystemer gjennom Fiks-plattformen, slik at soknader, ettersendelser og saksoppdateringer kan flyte sikkert mellom NAV, kommune og innbygger.
+Fiks Digisos er en nasjonal samhandlings- og integrasjonstjeneste for digital behandling av søknader om økonomisk sosialhjelp. Løsningen kobler innbyggersøknad på nav.no med kommunale fagsystemer gjennom Fiks-plattformen, slik at søknader, ettersendelser og saksoppdateringer kan flyte sikkert mellom NAV, kommune og innbygger.
 
-Produktet skaper verdi ved at innbygger far et mer sammenhengende soknads- og oppfolgingslop, mens kommunene far bedre kvalitet i soknader og mer effektiv saksbehandling. I NA-sammenheng er Fiks Digisos interessant fordi det representerer en konkret tversnivalosning mellom statlig kanal (nav.no) og kommunal tjenesteutovelse.
+Produktet skaper verdi ved at innbygger får et mer sammenhengende søknads- og oppfølgingsløp, mens kommunene får bedre kvalitet i søknader og mer effektiv saksbehandling. I NA-sammenheng er Fiks Digisos interessant fordi det representerer en konkret tversnivåløsning mellom statlig kanal (nav.no) og kommunal tjenesteutøvelse.
 
 ## Kapabiliteter
 - **Samarbeid: Organisatorisk samhandling**
-  Fiks Digisos kobler NAV, kommuner, KS Digital og fagsystemleverandorer i et felles operativt samhandlingslop for sosialhjelp.
+  Fiks Digisos kobler NAV, kommuner, KS Digital og fagsystemleverandører i et felles operativt samhandlingsløp for sosialhjelp.
 - **Sluttbrukertjenester: Sammenhengende tjenester**
-  Soker kan sende soknad, ettersende dokumentasjon og folge saksgang i en sammenhengende brukerreise pa nav.no.
+  Søker kan sende søknad, ettersende dokumentasjon og følge saksgang i en sammenhengende brukerreise på nav.no.
 - **Datautveksling og integrasjon: Dele data med andre**
-  Tjenesten deler og overforer soknads- og saksdata kontrollert mellom statlige og kommunale systemer gjennom Fiks API-er og meldingskanaler.
+  Tjenesten deler og overfører søknads- og saksdata kontrollert mellom statlige og kommunale systemer gjennom Fiks API-er og meldingskanaler.
 
 ## Produktmal
 Dokumenterte mal:
@@ -124,7 +124,7 @@ Fiks Digisos har hoy gjenbruksverdi for kommuner som skal digitalisere sosialhje
 
 ## Stotter arkitekturprinsipper
 - **P4: Del og gjenbruk data**
-  Losningen muligjor kontrollert deling av soknads- og saksdata mellom statlig og kommunal sektor.
+  Losningen muligjor kontrollert deling av søknads- og saksdata mellom statlig og kommunal sektor.
 - **P6: Lag digitale losninger som stotter samhandling**
   Produktet er bygget for samhandling pa tvers av forvaltningsniva, med tydelig arbeidsdeling mellom NAV og kommune.
 
