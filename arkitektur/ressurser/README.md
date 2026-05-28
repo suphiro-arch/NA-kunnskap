@@ -7,6 +7,12 @@ Denne mappa samler styringsgrunnlag, registerføring og ressursbeskrivelser for 
 - Skille tydelig mellom gjenbrukbare løsninger, standarder og veiledning, samhandlingsarenaer og organisering, og økonomiske eller juridiske rammer og virkemidler.
 - Gjøre det lett å registrere og finne ressurser på nettsiden.
 
+## Kategoriavgrensning (kortversjon)
+- `Gjenbrukbare løsninger`: tekniske komponenter, applikasjoner og tjenester som leverer funksjonalitet eller dataprodukter som kan brukes av flere.
+- `Standarder og veiledning`: ressurser som setter regler eller gir retning, som standarder, veiledere, referansearkitekturer og metodikk.
+- `Samhandlingsarenaer og organisering`: organiserte nettverk og styringsorganer for dialog, strategisk samarbeid og samordning.
+- `Økonomiske og juridiske rammer og virkemidler`: finansielle og regulative virkemidler som muliggjør gjennomføring og setter handlingsrom.
+
 ---
 
 ## Filstruktur
@@ -31,7 +37,7 @@ Bruk disse systemprompter og maler når du skal lage eller oppdatere innhold:
 | Gjenbrukbare løsninger | `config/prompts/operative-ressurs-canvas.system.md` | `config/templates/operative-ressurs-template.md` |
 | Standarder og veiledning | `config/prompts/normerende-ressurs-canvas.system.md` | `config/templates/normerende-ressurs-template.md` |
 | Samhandlingsarenaer og organisering | `config/prompts/samarbeidsforum-canvas.system.md` | `config/templates/samarbeidsforum-template.md` |
-| Økonomiske og juridiske rammer og virkemidler | Ikke etablert som egen prompt ennå | Ikke etablert som egen mal ennå |
+| Økonomiske og juridiske rammer og virkemidler | `config/prompts/rammer-og-virkemidler-canvas.system.md` | `config/templates/rammer-og-virkemidler-template.md` |
 
 Last systemprompten i din AI-assistent **før** du begynner på innholdet, slik at navneregler, kildehenting og feltstruktur følges riktig.
 
@@ -69,7 +75,7 @@ Last systemprompten i din AI-assistent **før** du begynner på innholdet, slik 
    - Gjenbrukbare løsninger: `config/templates/operative-ressurs-template.md`
    - Standarder og veiledning: `config/templates/normerende-ressurs-template.md`
    - Samhandlingsarenaer og organisering: `config/templates/samarbeidsforum-template.md`
-   - Økonomiske og juridiske rammer og virkemidler: bruk nærmeste mal etter konkret vurdering inntil egen mal finnes
+   - Økonomiske og juridiske rammer og virkemidler: `config/templates/rammer-og-virkemidler-template.md`
 
 5. **Legg inn ressurs-ID i dokumentet**:
    - Fyll inn feltet "Ressurs ID" med den ressurs-IDen du tildelte i steg 2 (f.eks. `KS-016`).

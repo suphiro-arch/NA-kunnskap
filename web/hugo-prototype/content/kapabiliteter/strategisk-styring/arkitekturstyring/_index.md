@@ -42,9 +42,9 @@ Evne til å etablere, forvalte og styre en helhetlig nasjonal digital arkitektur
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v1-codex.md">Digitaliseringsvennlig regelverk</a></h3>
     <p class="capability-product-link__description">gjør juridiske forutsetninger til en tydelig del av tidlig løsningsvurdering og styring.</p>
   </article>
-  <article class="capability-product-link resource-type--normative">
-    <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v1-codex.md">Forskrift om IT-standarder i offentlig forvaltning</a></h3>
-    <p class="capability-product-link__description">Forskriften støtter `Standardisering: Forvaltningsstandarder` ved å fastsette hvilke standarder som er obligatoriske eller må vurderes i offentlig forvaltning. Den støtter `Strategisk styring: Arkitekturstyring` ved å gi et rettslig premiss for hvordan virksomheter bør forankre standardvalg i styring, krav og arkitekturbeslutninger.</p>
+  <article class="capability-product-link resource-type--other">
+    <p class="capability-product-link__type">Annen ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v2-copilot.md">Forskrift om IT-standarder i offentlig forvaltning</a></h3>
+    <p class="capability-product-link__description">Forskriften setter rettslige premisser for styring av standardvalg og arkitekturbeslutninger.</p>
   </article>
 </div>

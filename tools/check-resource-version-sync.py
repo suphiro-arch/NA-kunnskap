@@ -13,6 +13,7 @@ SOURCE_DIRS = [
     REPO_ROOT / "arkitektur" / "ressurser" / "operative-losninger-og-tjenester",
     REPO_ROOT / "arkitektur" / "ressurser" / "normerende-ressurser",
     REPO_ROOT / "arkitektur" / "ressurser" / "samarbeidsfora",
+    REPO_ROOT / "arkitektur" / "ressurser" / "rammer-og-virkemidler",
 ]
 
 CURRENT_PATTERN = re.compile(r"^(?P<id>\d+)-(?P<name>.+)-v(?P<ver>\d+)-(?P<author>[^.]+)\.md$")

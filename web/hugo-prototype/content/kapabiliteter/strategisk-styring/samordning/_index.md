@@ -32,10 +32,10 @@ Evnen til å harmonisere og koordinere strategisk retning, beslutninger og ressu
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/110-Skate-v1-codex.md">Skate</a></h3>
     <p class="capability-product-link__description">bidrar til felles retning og prioritering i nasjonal digitalisering på tvers av sektorer.</p>
   </article>
-  <article class="capability-product-link resource-type--normative">
-    <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/112-Digitaliseringsrundskrivet-v1-codex.md">Digitaliseringsrundskrivet</a></h3>
-    <p class="capability-product-link__description">Ressursen setter felles retning for hvordan digitalisering skal styres og samordnes på tvers av statlige virksomheter.</p>
+  <article class="capability-product-link resource-type--other">
+    <p class="capability-product-link__type">Annen ressurs</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/112-Digitaliseringsrundskrivet-v2-copilot.md">Digitaliseringsrundskrivet</a></h3>
+    <p class="capability-product-link__description">Rundskrivet setter felles retning for hvordan digitalisering skal samordnes på tvers av statlige virksomheter.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>

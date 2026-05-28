@@ -1,11 +1,9 @@
 ---
 title: "Gjenbrukbare løsninger"
 weight: 1
-description: "Løsninger, tjenester, plattformer, registre og felleskomponenter som kan brukes direkte i samhandling eller løsningsutvikling."
+description: "Tekniske komponenter, applikasjoner og tjenester som leverer funksjonalitet eller dataprodukter som kan brukes av flere."
 hideToc: true
 ---
-
-Løsninger, tjenester, plattformer, registre og felleskomponenter som kan brukes direkte i samhandling eller løsningsutvikling.
 
 Denne siden viser siste registrerte versjon av ressurser i kategorien **Gjenbrukbare løsninger**.
 

@@ -1,11 +1,9 @@
 ---
 title: "Samhandlingsarenaer og organisering"
 weight: 3
-description: "Arenaer, råd, nettverk, roller og organiseringsformer som støtter koordinering, forankring og prioritering på tvers."
+description: "Organiserte nettverk og styringsorganer for dialog, strategisk samarbeid og samordning."
 hideToc: true
 ---
-
-Arenaer, råd, nettverk, roller og organiseringsformer som støtter koordinering, forankring og prioritering på tvers.
 
 Denne siden viser siste registrerte versjon av ressurser i kategorien **Samhandlingsarenaer og organisering**.
 

@@ -14,25 +14,25 @@ $resourceTypeDefinitions = @(
   [PSCustomObject]@{
     Slug = 'operative-losninger-og-tjenester'
     Title = 'Gjenbrukbare løsninger'
-    Description = 'Løsninger, tjenester, plattformer, registre og felleskomponenter som kan brukes direkte i samhandling eller løsningsutvikling.'
+    Description = 'Tekniske komponenter, applikasjoner og tjenester som leverer funksjonalitet eller dataprodukter som kan brukes av flere.'
     Weight = 1
   },
   [PSCustomObject]@{
     Slug = 'normerende-ressurser'
     Title = 'Standarder og veiledning'
-    Description = 'Standarder, veiledere, referansearkitektur, modeller og rammeverk som gir føringer for utforming, vurdering og samordning.'
+    Description = 'Ressurser som setter regler eller gir retning, som standarder, veiledere, referansearkitekturer og metodikk.'
     Weight = 2
   },
   [PSCustomObject]@{
     Slug = 'samarbeidsfora'
     Title = 'Samhandlingsarenaer og organisering'
-    Description = 'Arenaer, råd, nettverk, roller og organiseringsformer som støtter koordinering, forankring og prioritering på tvers.'
+    Description = 'Organiserte nettverk og styringsorganer for dialog, strategisk samarbeid og samordning.'
     Weight = 3
   },
   [PSCustomObject]@{
     Slug = 'rammer-og-virkemidler'
     Title = 'Økonomiske og juridiske rammer og virkemidler'
-    Description = 'Rammer, regelverk, finansieringsordninger og andre virkemidler som påvirker handlingsrom, prioritering og gjennomføring.'
+    Description = 'Finansielle og regulative virkemidler som muliggjør gjennomføring og setter handlingsrom.'
     Weight = 4
   }
 )
@@ -610,11 +610,7 @@ $index = @(
   'hideToc: true',
   '---',
   '',
-  'Denne oversikten viser siste registrerte versjon per ressurs basert på `arkitektur/ressurser/produktnummerering.md`.',
-  '',
-  'Bruk siden for å finne riktig ressursbeskrivelse raskt, og gå derfra videre til detaljene i markdownfilen på GitHub eller via relevante kapabilitetssider.',
-  '',
-  'Ressursene er gruppert etter rammeverkskategori, med egne undersider for gjenbrukbare løsninger, standarder og veiledning, samhandlingsarenaer og organisering, og økonomiske og juridiske rammer og virkemidler.'
+  'Denne oversikten viser siste registrerte versjon per ressurs, gruppert etter rammeverkskategori.'
 )
 
 foreach ($typeDef in $resourceTypeDefinitions) {
@@ -639,8 +635,6 @@ foreach ($typeDef in $resourceTypeDefinitions) {
     ('description: "{0}"' -f $typeDef.Description),
     'hideToc: true',
     '---',
-    '',
-    $typeDef.Description,
     '',
     ('Denne siden viser siste registrerte versjon av ressurser i kategorien **{0}**.' -f $typeDef.Title)
   )

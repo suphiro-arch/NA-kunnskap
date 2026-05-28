@@ -6,32 +6,28 @@ hideInNav: true
 hideToc: true
 ---
 
-Denne oversikten viser siste registrerte versjon per ressurs basert på `arkitektur/ressurser/produktnummerering.md`.
-
-Bruk siden for å finne riktig ressursbeskrivelse raskt, og gå derfra videre til detaljene i markdownfilen på GitHub eller via relevante kapabilitetssider.
-
-Ressursene er gruppert etter rammeverkskategori, med egne undersider for gjenbrukbare løsninger, standarder og veiledning, samhandlingsarenaer og organisering, og økonomiske og juridiske rammer og virkemidler.
+Denne oversikten viser siste registrerte versjon per ressurs, gruppert etter rammeverkskategori.
 
 ## [Gjenbrukbare løsninger](./operative-losninger-og-tjenester/)
 
-Løsninger, tjenester, plattformer, registre og felleskomponenter som kan brukes direkte i samhandling eller løsningsutvikling.
+Tekniske komponenter, applikasjoner og tjenester som leverer funksjonalitet eller dataprodukter som kan brukes av flere.
 
 Antall ressurser: **77**
 
 ## [Standarder og veiledning](./normerende-ressurser/)
 
-Standarder, veiledere, referansearkitektur, modeller og rammeverk som gir føringer for utforming, vurdering og samordning.
+Ressurser som setter regler eller gir retning, som standarder, veiledere, referansearkitekturer og metodikk.
 
-Antall ressurser: **25**
+Antall ressurser: **23**
 
 ## [Samhandlingsarenaer og organisering](./samarbeidsfora/)
 
-Arenaer, råd, nettverk, roller og organiseringsformer som støtter koordinering, forankring og prioritering på tvers.
+Organiserte nettverk og styringsorganer for dialog, strategisk samarbeid og samordning.
 
 Antall ressurser: **9**
 
 ## [Økonomiske og juridiske rammer og virkemidler](./rammer-og-virkemidler/)
 
-Rammer, regelverk, finansieringsordninger og andre virkemidler som påvirker handlingsrom, prioritering og gjennomføring.
+Finansielle og regulative virkemidler som muliggjør gjennomføring og setter handlingsrom.
 
-Antall ressurser: **0**
+Antall ressurser: **2**

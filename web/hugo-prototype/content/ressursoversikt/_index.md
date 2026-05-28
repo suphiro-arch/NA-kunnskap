@@ -13,23 +13,23 @@ hideSectionOverview: true
 <div class="resource-type-grid">
   <article class="resource-type-card">
     <h3><a href="produkter/operative-losninger-og-tjenester/">Gjenbrukbare løsninger</a></h3>
-    <p>Løsninger, tjenester, plattformer, registre og felleskomponenter som kan brukes direkte i samhandling eller løsningsutvikling.</p>
+    <p>Tekniske komponenter, applikasjoner og tjenester som leverer funksjonalitet eller dataprodukter som kan brukes av flere.</p>
     <p class="resource-type-card__count">77 ressurser</p>
   </article>
   <article class="resource-type-card">
     <h3><a href="produkter/normerende-ressurser/">Standarder og veiledning</a></h3>
-    <p>Standarder, veiledere, referansearkitektur, modeller og rammeverk som gir føringer for utforming, vurdering og samordning.</p>
-    <p class="resource-type-card__count">25 ressurser</p>
+    <p>Ressurser som setter regler eller gir retning, som standarder, veiledere, referansearkitekturer og metodikk.</p>
+    <p class="resource-type-card__count">23 ressurser</p>
   </article>
   <article class="resource-type-card">
     <h3><a href="produkter/samarbeidsfora/">Samhandlingsarenaer og organisering</a></h3>
-    <p>Arenaer, råd, nettverk, roller og organiseringsformer som støtter koordinering, forankring og prioritering på tvers.</p>
+    <p>Organiserte nettverk og styringsorganer for dialog, strategisk samarbeid og samordning.</p>
     <p class="resource-type-card__count">9 ressurser</p>
   </article>
   <article class="resource-type-card">
     <h3><a href="produkter/rammer-og-virkemidler/">Økonomiske og juridiske rammer og virkemidler</a></h3>
-    <p>Rammer, regelverk, finansieringsordninger og andre virkemidler som påvirker handlingsrom, prioritering og gjennomføring.</p>
-    <p class="resource-type-card__count">0 ressurser</p>
+    <p>Finansielle og regulative virkemidler som muliggjør gjennomføring og setter handlingsrom.</p>
+    <p class="resource-type-card__count">2 ressurser</p>
   </article>
 </div>
 
@@ -897,14 +897,13 @@ hideSectionOverview: true
   <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/samarbeid/samarbeidsarenaer-og-nettverk/">Samarbeidsarenaer og nettverk</a> <a class="capability-chip" href="../kapabiliteter/strategisk-styring/arkitekturstyring/">Arkitekturstyring</a></p>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/digitaliseringsradet/om-digitaliseringsradet/7589">Offisiell lenke</a></p>
 </article>
-<article class="resource-card" data-owner="DIGDIR" data-type="Rundskriv" data-capabilities="samordning forvaltningsstandarder" data-search="digitaliseringsrundskrivet digdir-044 digdir digdir ikke oppgitt rundskriv digitaliseringsrundskrivet er statens samlede rundskriv for p&#229;legg, anbefalinger og veiledning om digitalisering. ressursen er viktig fordi den gj&#248;r nasjonale f&#248;ringer operative for departementer og statlige virksomheter, og fordi den gir et felles styringsgrunnlag for hvordan tiltak skal planlegges, prioriteres og... samordning forvaltningsstandarder">
+<article class="resource-card" data-owner="DIGDIR" data-type="Rundskriv" data-capabilities="samordning forvaltningsstandarder" data-search="digitaliseringsrundskrivet digdir-044 digdir digdir ikke oppgitt rundskriv digitaliseringsrundskrivet er statens samlede virkemiddel for krav, anbefalinger og veiledning om digitalisering i statlig sektor. ressursen gir et felles styringsgrunnlag for hvordan virksomheter skal prioritere, planlegge og gjennomf&#248;re digitaliseringstiltak. samordning forvaltningsstandarder">
   <h2 class="resource-card__title">Digitaliseringsrundskrivet</h2>
-  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-044</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-044</code> | <strong>Siste versjon:</strong> v2 (copilot)</p>
   <p class="resource-card__facts"><strong>Eier:</strong> Digdir | <strong>Kategori:</strong> Ikke oppgitt | <strong>Type:</strong> Rundskriv</p>
-  <p class="resource-card__description">Digitaliseringsrundskrivet er statens samlede rundskriv for p&#229;legg, anbefalinger og veiledning om digitalisering. Ressursen er viktig fordi den gj&#248;r nasjonale f&#248;ringer operative for departementer og statlige virksomheter, og fordi den gir et felles styringsgrunnlag for hvordan tiltak skal planlegges, prioriteres og...</p>
-  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let med rundskrivet er &#229; samle sentrale digitaliseringskrav og anbefalinger i &#233;n styringsressurs som kan brukes i b&#229;de ledelse, portef&#248;ljestyring og konkret tiltaksarbeid. Det gj&#248;r det enklere &#229;...</p>
+  <p class="resource-card__description">Digitaliseringsrundskrivet er statens samlede virkemiddel for krav, anbefalinger og veiledning om digitalisering i statlig sektor. Ressursen gir et felles styringsgrunnlag for hvordan virksomheter skal prioritere, planlegge og gjennomf&#248;re digitaliseringstiltak.</p>
   <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/strategisk-styring/samordning/">Samordning</a> <a class="capability-chip" href="../kapabiliteter/standardisering/forvaltningsstandarder/">Forvaltningsstandarder</a></p>
-  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/112-Digitaliseringsrundskrivet-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.regjeringen.no/no/dokumenter/digitaliseringsrundskrivet/id3103320/">Offisiell lenke</a></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/112-Digitaliseringsrundskrivet-v2-copilot.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.regjeringen.no/no/dokumenter/digitaliseringsrundskrivet/id3103320/">Offisiell lenke</a></p>
 </article>
 <article class="resource-card" data-owner="DIGDIR" data-type="Prosjektmetodikk" data-capabilities="samordning tjenestedesign anvendelse av veiledning" data-search="prosjektveiviseren digdir-045 digdir digdir ikke oppgitt prosjektmetodikk prosjektveiviseren er digdirs anbefalte prosjektmodell for planlegging, styring og oppf&#248;lging av prosjekter i offentlig sektor. ressursen er viktig fordi den gir en felles struktur for faser, beslutningspunkter, roller og styringsdokumentasjon gjennom hele prosjektl&#248;pet. samordning tjenestedesign anvendelse av veiledning">
   <h2 class="resource-card__title">Prosjektveiviseren</h2>
@@ -1109,14 +1108,13 @@ hideSectionOverview: true
   <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/datakilder/grunndata/">Grunndata</a> <a class="capability-chip" href="../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a> <a class="capability-chip" href="../kapabiliteter/informasjonsforvaltning/datastyring/">Datastyring</a></p>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.fhi.no/he/kpr/">Offisiell lenke</a></p>
 </article>
-<article class="resource-card" data-owner="DIGDIR" data-type="Forskrift" data-capabilities="forvaltningsstandarder arkitekturstyring regelverkstolkning" data-search="forskrift om it-standarder i offentlig forvaltning digdir-060 digdir digdir ikke oppgitt forskrift forskrift om it-standarder i offentlig forvaltning er en normerende ressurs som gir offentlig sektor rettslig bindende krav til utvalgte it-standarder og et generelt krav om &#229; vurdere bruk av &#229;pne standarder. ressursen er viktig i nasjonal arkitektur fordi den gir et formelt hjemmelsgrunnlag for standardisering p&#229;... forvaltningsstandarder arkitekturstyring regelverkstolkning">
+<article class="resource-card" data-owner="DIGDIR" data-type="Forskrift" data-capabilities="forvaltningsstandarder arkitekturstyring regelverkstolkning" data-search="forskrift om it-standarder i offentlig forvaltning digdir-060 digdir digdir ikke oppgitt forskrift forskrift om it-standarder i offentlig forvaltning er et juridisk bindende virkemiddel som fastsetter krav til utvalgte it-standarder og p&#229;legger vurdering av &#229;pne standarder. ressursen gir et nasjonalt rettslig grunnlag for standardisering p&#229; tvers av offentlig sektor. forvaltningsstandarder arkitekturstyring regelverkstolkning">
   <h2 class="resource-card__title">Forskrift om IT-standarder i offentlig forvaltning</h2>
-  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-060</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-060</code> | <strong>Siste versjon:</strong> v2 (copilot)</p>
   <p class="resource-card__facts"><strong>Eier:</strong> Digdir | <strong>Kategori:</strong> Ikke oppgitt | <strong>Type:</strong> Forskrift</p>
-  <p class="resource-card__description">Forskrift om IT-standarder i offentlig forvaltning er en normerende ressurs som gir offentlig sektor rettslig bindende krav til utvalgte IT-standarder og et generelt krav om &#229; vurdere bruk av &#229;pne standarder. Ressursen er viktig i nasjonal arkitektur fordi den gir et formelt hjemmelsgrunnlag for standardisering p&#229;...</p>
-  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let er &#229; redusere u&#248;nsket variasjon i standardvalg og sikre bedre interoperabilitet, samhandling og forutsigbarhet i offentlig sektor.</p>
+  <p class="resource-card__description">Forskrift om IT-standarder i offentlig forvaltning er et juridisk bindende virkemiddel som fastsetter krav til utvalgte IT-standarder og p&#229;legger vurdering av &#229;pne standarder. Ressursen gir et nasjonalt rettslig grunnlag for standardisering p&#229; tvers av offentlig sektor.</p>
   <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/standardisering/forvaltningsstandarder/">Forvaltningsstandarder</a> <a class="capability-chip" href="../kapabiliteter/strategisk-styring/arkitekturstyring/">Arkitekturstyring</a> <a class="capability-chip" href="../kapabiliteter/juridisk-samhandling/regelverkstolkning/">Regelverkstolkning</a></p>
-  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://lovdata.no/dokument/SF/forskrift/2013-04-05-959">Offisiell lenke</a></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v2-copilot.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://lovdata.no/dokument/SF/forskrift/2013-04-05-959">Offisiell lenke</a></p>
 </article>
 <article class="resource-card" data-owner="DIGDIR" data-type="Veileder" data-capabilities="autentisering sikring av informasjonsflyt og datautveksling anvendelse av veiledning utvikling og formidling av veiledning" data-search="veileder for virksomhetsautentisering digdir-061 digdir digdir ikke oppgitt veileder veileder for virksomhetsautentisering er en normerende ressurs som beskriver hvordan virksomheter kan identifisere og adressere rett mottaker n&#229;r data skal deles p&#229; tvers av virksomheter og sektorer. ressursen er s&#230;rlig viktig der virksomhetssertifikat alene ikke gir tilstrekkelig presisjon, for eksempel n&#229;r... autentisering sikring av informasjonsflyt og datautveksling anvendelse av veiledning utvikling og formidling av veiledning">
   <h2 class="resource-card__title">Veileder for virksomhetsautentisering</h2>

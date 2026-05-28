@@ -10,7 +10,7 @@ Denne fila definerer hvordan ressursområdet skal struktureres og klassifiseres 
 ## Hovedkategorier
 
 ### 1. Gjenbrukbare løsninger
-Brukes for ressurser som har en tydelig operativ rolle i bruk, integrasjon, samhandling eller forvaltning.
+Brukes for tekniske komponenter, applikasjoner og tjenester som leverer funksjonalitet eller dataprodukter, og som kan brukes av flere aktører på tvers av eller innenfor sektorer og forvaltningsnivå.
 
 Kjennetegn:
 - tilbyr funksjonalitet som kan brukes direkte i et løsnings- eller samhandlingslandskap
@@ -25,13 +25,16 @@ Typiske eksempler:
 - API-er og datadelingstjenester
 - sektorløsninger med varig og gjenbrukbar rolle i samhandling
 
+Presisering:
+- skille mellom teknisk løsning og tjeneste skal beskrives i teksten når det er relevant, men begge kan klassifiseres her når de har tydelig operativ og gjenbrukbar verdi
+
 Eksempler i denne logikken:
 - `FINT Arkiv`
 - `FINT Felleskomponent`
 - `VIGO`
 
 ### 2. Standarder og veiledning
-Brukes for ressurser som primært gir føringer, anbefalinger eller metodegrunnlag for hvordan løsninger skal forstås, beskrives, utformes eller samordnes.
+Brukes for ressurser som setter regler eller gir retning for hvordan løsninger skal forstås, beskrives, utformes eller samordnes.
 
 Kjennetegn:
 - brukes som grunnlag for utforming, vurdering, standardisering eller semantisk samordning
@@ -44,6 +47,10 @@ Typiske eksempler:
 - referansearkitektur
 - informasjonsmodeller
 - begrepsmodeller
+- metodikk
+
+Presisering:
+- normeringsgrad kan variere fra anbefalt praksis til bindende krav, men primærfunksjonen skal være normerende eller retningsgivende
 
 Eksempler i denne logikken:
 - `FINT Informasjonsmodell`
@@ -51,7 +58,7 @@ Eksempler i denne logikken:
 - nasjonale eller europeiske standarder som brukes som styrende grunnlag
 
 ### 3. Samhandlingsarenaer og organisering
-Brukes for arenaer, roller og organiseringsformer som først og fremst støtter samordning, prioritering, forankring eller strategisk retning.
+Brukes for organiserte nettverk og styringsorganer for dialog, strategisk samarbeid og samordning.
 
 Kjennetegn:
 - er ikke primært en løsning, standard, veileder eller juridisk/økonomisk virkemiddel
@@ -64,13 +71,16 @@ Typiske eksempler:
 - samordningsarenaer
 - faste tverrsektorielle samarbeidsfora
 
+Presisering:
+- kategorien omfatter både rådgivende, koordinerende og besluttende arenaer når hovedbidraget er organisering og samhandling, ikke drift av en løsning
+
 Eksempler i denne logikken:
 - `Skate`
 - arkitekturråd
 - sektorvise samordningsfora
 
 ### 4. Økonomiske og juridiske rammer og virkemidler
-Brukes for ressurser som primært setter handlingsrom, plikter, rettigheter, finansieringsmuligheter eller andre rammebetingelser for digital samhandling.
+Brukes for økonomiske og juridiske virkemidler som muliggjør gjennomføring og setter handlingsrom, plikter, rettigheter eller finansieringsmuligheter.
 
 Kjennetegn:
 - er ikke primært en løsning som kan kobles til eller tas i bruk teknisk
@@ -82,6 +92,9 @@ Typiske eksempler:
 - finansieringsordninger
 - juridiske rammer for digital samhandling
 - økonomiske virkemidler og styringsmekanismer
+
+Presisering:
+- denne kategorien kan inkludere både finansielle og regulative virkemidler
 
 Foreløpig arbeidsregel:
 - de fleste eksisterende normerende ressurser blir liggende under `Standarder og veiledning`
@@ -204,14 +217,14 @@ Hvis svaret ikke er tydelig ja på minst fire av fem spørsmål, bør ressursen 
 ### Foreløpig arbeidsregel
 - bruk dagens `produkt-canvas` direkte for gjenbrukbare løsninger
 - bruk egne avledede maler for standarder og veiledning og for samhandlingsarenaer og organisering
-- vurder egen mal for økonomiske og juridiske rammer og virkemidler når kategorien får konkrete ressursbeskrivelser
+- bruk egen mal for økonomiske og juridiske rammer og virkemidler
 - bruk egen prompt for ikke-operative ressursbeskrivelser når slike ressurser skal opprettes eller revideres
 
 ### Tilgjengelige maler
 - `config/templates/operative-ressurs-template.md` brukes direkte for gjenbrukbare løsninger
 - `config/templates/normerende-ressurs-template.md` brukes foreløpig for standarder og veiledning
 - `config/templates/samarbeidsforum-template.md` brukes foreløpig for samhandlingsarenaer og organisering
-- egen mal for økonomiske og juridiske rammer og virkemidler er ikke etablert ennå
+- `config/templates/rammer-og-virkemidler-template.md` brukes for økonomiske og juridiske rammer og virkemidler
 
 ## Første arbeidsklassifisering av omtalte ressurser
 | Ressurs | Primærkategori | Kommentar |

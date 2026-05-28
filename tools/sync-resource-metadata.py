@@ -15,6 +15,7 @@ SOURCE_DIRS = [
     REPO_ROOT / "arkitektur" / "ressurser" / "operative-losninger-og-tjenester",
     REPO_ROOT / "arkitektur" / "ressurser" / "normerende-ressurser",
     REPO_ROOT / "arkitektur" / "ressurser" / "samarbeidsfora",
+    REPO_ROOT / "arkitektur" / "ressurser" / "rammer-og-virkemidler",
 ]
 REPO_BLOB_BASE = "https://github.com/suphiro-arch/NA-kunnskap/blob/main"
 

@@ -2967,7 +2967,7 @@
                     "subcapability_name": "Organisatorisk samhandling",
                     "subcapability_slug": "organisatorisk-samhandling",
                     "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "Fiks Digisos kobler NAV, kommuner, KS Digital og fagsystemleverandorer i et felles operativt samhandlingslop for sosialhjelp."
+                    "explanation": "Fiks Digisos kobler NAV, kommuner, KS Digital og fagsystemleverandører i et felles operativt samhandlingsløp for sosialhjelp."
                 },
                 {
                     "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
@@ -3514,10 +3514,10 @@
         {
             "product_id": 112,
             "product_name": "Digitaliseringsrundskrivet",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/112-Digitaliseringsrundskrivet-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/112-Digitaliseringsrundskrivet-v1-codex.md",
+            "version": 2,
+            "author": "copilot",
+            "relative_path": "arkitektur/ressurser/rammer-og-virkemidler/112-Digitaliseringsrundskrivet-v2-copilot.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/112-Digitaliseringsrundskrivet-v2-copilot.md",
             "capabilities": [
                 {
                     "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
@@ -3527,7 +3527,7 @@
                     "subcapability_name": "Samordning",
                     "subcapability_slug": "samordning",
                     "mapping_label": "Strategisk styring: Samordning",
-                    "explanation": "Ressursen setter felles retning for hvordan digitalisering skal styres og samordnes på tvers av statlige virksomheter."
+                    "explanation": "Rundskrivet setter felles retning for hvordan digitalisering skal samordnes på tvers av statlige virksomheter."
                 },
                 {
                     "capability_id": "id-fda201f20edd40c6aef8712b1c22b0a5",
@@ -3537,7 +3537,7 @@
                     "subcapability_name": "Forvaltningsstandarder",
                     "subcapability_slug": "forvaltningsstandarder",
                     "mapping_label": "Standardisering: Forvaltningsstandarder",
-                    "explanation": "Rundskrivet peker på krav og forventninger som gjør at virksomheter må forholde seg mer systematisk til standarder, arkitektur og felles praksis."
+                    "explanation": "Rundskrivet gir styringsmessige forventninger som gjør standarder, arkitektur og felles praksis til operative premisser."
                 }
             ]
         },
@@ -4534,10 +4534,10 @@
         {
             "product_id": 137,
             "product_name": "Forskrift om IT-standarder i offentlig forvaltning",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v1-codex.md",
+            "version": 2,
+            "author": "copilot",
+            "relative_path": "arkitektur/ressurser/rammer-og-virkemidler/137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v2-copilot.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v2-copilot.md",
             "capabilities": [
                 {
                     "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
@@ -4547,7 +4547,7 @@
                     "subcapability_name": "Forvaltningsstandarder",
                     "subcapability_slug": "forvaltningsstandarder",
                     "mapping_label": "Standardisering: Forvaltningsstandarder",
-                    "explanation": "Forskriften støtter `Standardisering: Forvaltningsstandarder` ved å fastsette hvilke standarder som er obligatoriske eller må vurderes i offentlig forvaltning, og dermed gi et bindende felles grunnlag for standardvalg."
+                    "explanation": "Forskriften gir et bindende grunnlag for hvilke standarder som skal brukes eller vurderes i offentlig sektor."
                 },
                 {
                     "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
@@ -4557,7 +4557,7 @@
                     "subcapability_name": "Arkitekturstyring",
                     "subcapability_slug": "arkitekturstyring",
                     "mapping_label": "Strategisk styring: Arkitekturstyring",
-                    "explanation": "Forskriften støtter `Standardisering: Forvaltningsstandarder` ved å fastsette hvilke standarder som er obligatoriske eller må vurderes i offentlig forvaltning. Den støtter `Strategisk styring: Arkitekturstyring` ved å gi et rettslig premiss for hvordan virksomheter bør forankre standardvalg i styring, krav og arkitekturbeslutninger."
+                    "explanation": "Forskriften setter rettslige premisser for styring av standardvalg og arkitekturbeslutninger."
                 },
                 {
                     "capability_id": "id-299fc063873a4f278a1d3c0ac9480467",
@@ -4567,7 +4567,7 @@
                     "subcapability_name": "Regelverkstolkning",
                     "subcapability_slug": "regelverkstolkning",
                     "mapping_label": "Juridisk samhandling: Regelverkstolkning",
-                    "explanation": "Forskriften gir juridisk bindende rammer for standardvalg og krever felles regelverkstolkning i offentlig samhandling, ikke bare tekniske avklaringer."
+                    "explanation": "Forskriften krever felles regelverkstolkning i samhandlingssituasjoner der standardvalg får rettslige og praktiske konsekvenser."
                 }
             ]
         },
