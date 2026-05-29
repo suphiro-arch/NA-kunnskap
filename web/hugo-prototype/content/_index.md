@@ -40,7 +40,7 @@ Prosess i korte trekk:
 1. Ressurser registreres med ressurs-ID, type og dokumentlenke i registeret.
 2. Relevante eksterne lenker brukes som kildegrunnlag ved utfylling av korte beskrivelser.
 3. KI brukes til førsteutkast og strukturering, deretter justeres innholdet manuelt.
-4. Kapabilitetskoblinger hentes fra koblingsfilen og brukes som metadata i visningen.
+4. Kapabilitetskoblinger er hentet fra rammeverket. Delkapabiliteter og konkrete koblinger mellom ressurser og kapabiliteter er utarbeidet med KI-støtte og bør kvalitetssikres faglig.
 5. Genereringsscript bygger oversiktssider med filtrering, kapabilitetsvisning og lenker til detaljerte md-filer.
 
 Verktøy som brukes i dag:
