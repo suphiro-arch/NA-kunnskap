@@ -55,6 +55,8 @@ Sist redigert: 2026-05-05.
 - API-katalogen: https://data.norge.no/catalogs/data-services (lagt til 2026-03-27)
 - data.norge.no teknisk dokumentasjon: https://data.norge.no/nb/technical (lagt til 2026-03-27)
 - data.norge.no teknisk dokumentasjon for API: https://data.norge.no/nb/technical/api (lagt til 2026-03-27)
+- Datalandsbyen: https://data.norge.no/nb/docs/community (lagt til 2026-05-29)
+- Datalandsbyen forum: https://datalandsbyen.norge.no/ (lagt til 2026-05-29)
 - data.norge.no i Samarbeidsportalen: https://samarbeid.digdir.no/felles-datakatalog/datanorgeno/1617
 - data.altinn.no: https://data.altinn.no/
 - data.altinn.no dokumentasjon: https://docs.data.altinn.no/
@@ -410,6 +412,5 @@ Sist redigert: 2026-05-05.
 - Riksadvokaten: https://www.riksadvokaten.no/
 - Påtaleinstitusjonene: https://www.domstolverket.no/organisation/prosecuting-authority/
 - Politiet: https://www.politiet.no/
-
 
 

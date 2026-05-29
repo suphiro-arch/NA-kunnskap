@@ -3,7 +3,7 @@ title: "Datautveksling og integrasjon"
 eyebrow: "Kapabilitet"
 weight: 4
 description: "Evne til å sikkert, effektivt og standardisert utveksle data mellom aktører i økosystemet."
-cardMeta: "4 delkapabiliteter / 63 produkter"
+cardMeta: "4 delkapabiliteter / 64 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -259,6 +259,10 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v1-codex.md">Kommunalt pasient- og brukerregister (KPR)</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--forum">
+      <p class="capability-product-link__type">Samarbeidsforum</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/139-Datalandsbyen-v1-codex.md">Datalandsbyen</a></h3>
     </article>
   </div>
 ---

@@ -4,7 +4,7 @@ headerTitle: "Samarbeid - Samarbeidsarenaer og nettverk"
 eyebrow: "Kapabilitet"
 weight: 2
 description: "Evne til å effektivisere, etablere, forvalte og fasilitere arenaer, nettverk og prosesser som fremmer kunnskapsdeling, dialog og samordning på tvers av virksomheter i økosystemet."
-cardMeta: "10 produkter"
+cardMeta: "11 produkter"
 ---
 
 Evne til å effektivisere, etablere, forvalte og fasilitere arenaer, nettverk og prosesser som fremmer kunnskapsdeling, dialog og samordning på tvers av virksomheter i økosystemet.
@@ -61,5 +61,10 @@ Evne til å effektivisere, etablere, forvalte og fasilitere arenaer, nettverk og
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/127-Samarbeidsportalen-produkt-canvas-v2-codex.md">Samarbeidsportalen</a></h3>
     <p class="capability-product-link__description">Ressursen bidrar også til samhandling på tvers ved å synliggjøre prosjekter, arrangementer, nyheter og kundedialog rundt fellesløsningene.</p>
+  </article>
+  <article class="capability-product-link resource-type--forum">
+    <p class="capability-product-link__type">Samarbeidsforum</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/139-Datalandsbyen-v1-codex.md">Datalandsbyen</a></h3>
+    <p class="capability-product-link__description">Datalandsbyen er en åpen digital arena for spørsmål, erfaringsdeling, kontakt og samarbeid på tvers av virksomheter og sektorer.</p>
   </article>
 </div>

@@ -22,7 +22,7 @@ hideSectionOverview: true
   <article class="resource-type-card">
     <h3><a href="produkter/samarbeidsfora/">Samhandlingsarenaer og organisering</a></h3>
     <p>Organiserte nettverk og styringsorganer for dialog, strategisk samarbeid og samordning.</p>
-    <p class="resource-type-card__count">9 ressurser</p>
+    <p class="resource-type-card__count">10 ressurser</p>
   </article>
   <article class="resource-type-card">
     <h3><a href="produkter/rammer-og-virkemidler/">Økonomiske og juridiske rammer og virkemidler</a></h3>
@@ -156,6 +156,7 @@ hideSectionOverview: true
         <option value="Veileder">Veileder</option>
         <option value="Virksomhetsregister">Virksomhetsregister</option>
         <option value="Vitnem&#229;l">Vitnem&#229;l</option>
+        <option value="&#197;pen digital samhandlingsarena">&#197;pen digital samhandlingsarena</option>
       </select></label>
       <label>Kapabilitet <select class="resource-filter" data-filter="capability"><option value="">Alle</option>
         <option value="Anvendelse av veiledning">Anvendelse av veiledning</option>
@@ -200,7 +201,7 @@ hideSectionOverview: true
         <option value="Utviklings- og kj&#248;retidsmilj&#248;">Utviklings- og kj&#248;retidsmilj&#248;</option>
       </select></label>
     </div>
-    <p class="resource-filters__result" data-role="count">Viser 111 av 111 ressurser</p>
+    <p class="resource-filters__result" data-role="count">Viser 112 av 112 ressurser</p>
   </div>
   <div class="resource-cards">
 <article class="resource-card" data-owner="DIGDIR" data-type="Autentiseringstjeneste" data-capabilities="sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester" data-search="id-porten digdir-001 digdir digdir ikke oppgitt autentiseringstjeneste id-porten er den nasjonale fellesl&#248;sningen for sikker innlogging til offentlige digitale tjenester. l&#248;sningen gir innbyggere &#233;n gjenkjennelig inngang til tjenester p&#229; tvers av virksomheter, og gir tjenesteeiere en felles autentiseringskomponent i stedet for lokale innloggingsl&#248;sninger. id-porten er s&#230;rlig relevant n&#229;r... sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester">
@@ -1122,6 +1123,15 @@ hideSectionOverview: true
   <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let er &#229; bidra til gode og forutsigbare prosesser for identifisering, adressering, sertifikatbehandling, logging, sporing og autentisering ved deling av data.</p>
   <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/tillit/autentisering/">Autentisering</a> <a class="capability-chip" href="../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/">Sikring av informasjonsflyt og datautveksling</a> <a class="capability-chip" href="../kapabiliteter/veiledning/anvendelse-av-veiledning/">Anvendelse av veiledning</a> <span class="capability-chip capability-chip--more">+1</span></p>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/138-Veileder-for-virksomhetsautentisering-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/datadeling/veileder-virksomhetsautentisering/2435">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="&#197;pen digital samhandlingsarena" data-capabilities="samarbeidsarenaer og nettverk dele data med andre bruke data fra andre datastyring" data-search="datalandsbyen digdir-062 digdir digdir ikke oppgitt &#229;pen digital samhandlingsarena datalandsbyen er et &#229;pent nettforum for datadeling og informasjonsforvaltning. arenaen gj&#248;r det mulig for datatilbydere, datakonsumenter, fagpersoner og andre interesserte &#229; stille sp&#248;rsm&#229;l, ettersp&#248;rre datasett og api-er, dele erfaringer og gi tilbakemeldinger p&#229; data.norge.no og relaterte katalogressurser. ressursen... samarbeidsarenaer og nettverk dele data med andre bruke data fra andre datastyring">
+  <h2 class="resource-card__title">Datalandsbyen</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-062</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> Digdir | <strong>Kategori:</strong> Ikke oppgitt | <strong>Type:</strong> &#197;pen digital samhandlingsarena</p>
+  <p class="resource-card__description">Datalandsbyen er et &#229;pent nettforum for datadeling og informasjonsforvaltning. Arenaen gj&#248;r det mulig for datatilbydere, datakonsumenter, fagpersoner og andre interesserte &#229; stille sp&#248;rsm&#229;l, ettersp&#248;rre datasett og API-er, dele erfaringer og gi tilbakemeldinger p&#229; data.norge.no og relaterte katalogressurser. Ressursen...</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Datalandsbyen har rolle som &#229;pen dialog- og erfaringsarena. Kildene beskriver arenaen som et sted der brukere kan m&#248;te andre som arbeider med data og datadeling i offentlig og privat sektor, dele...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/samarbeid/samarbeidsarenaer-og-nettverk/">Samarbeidsarenaer og nettverk</a> <a class="capability-chip" href="../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a> <a class="capability-chip" href="../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/">Bruke data fra andre</a> <span class="capability-chip capability-chip--more">+1</span></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/139-Datalandsbyen-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://data.norge.no/nb/docs/community">Offisiell lenke</a></p>
 </article>
   </div>
   <script>

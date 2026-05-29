@@ -4620,6 +4620,56 @@
                     "explanation": "Veilederen er utviklet og publisert som felles normerende støtte for virksomhetsautentisering, og inngår i Digdirs samlede veiledningsarbeid for trygg datadeling."
                 }
             ]
+        },
+        {
+            "product_id": 139,
+            "product_name": "Datalandsbyen",
+            "version": 1,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/samarbeidsfora/139-Datalandsbyen-v1-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/139-Datalandsbyen-v1-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "subcapability_id": "id-b4a86e2e430c472b9f74bedb7f66fd74",
+                    "subcapability_name": "Samarbeidsarenaer og nettverk",
+                    "subcapability_slug": "samarbeidsarenaer-og-nettverk",
+                    "mapping_label": "Samarbeid: Samarbeidsarenaer og nettverk",
+                    "explanation": "Datalandsbyen er en åpen digital arena for spørsmål, erfaringsdeling, kontakt og samarbeid på tvers av virksomheter og sektorer."
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Arenaen støtter deling ved at tilbydere og brukere kan diskutere behov, beskrivelser, datakvalitet, tilgang og videre publisering."
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
+                    "subcapability_name": "Bruke data fra andre",
+                    "subcapability_slug": "bruke-data-fra-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+                    "explanation": "Arenaen gir datakonsumenter en praktisk kanal for å etterspørre datasett og API-er, få hjelp til å finne data og diskutere bruksbehov."
+                },
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-5852d070415849fab42749cb488d984a",
+                    "subcapability_name": "Datastyring",
+                    "subcapability_slug": "datastyring",
+                    "mapping_label": "Informasjonsforvaltning: Datastyring",
+                    "explanation": "Datalandsbyen kan synliggjøre utfordringer med metadata, beskrivelser, ansvar og kvalitet, og dermed gi praksisnær innsikt til informasjonsforvaltning."
+                }
+            ]
         }
     ],
     "capabilities": [

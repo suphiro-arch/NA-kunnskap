@@ -24,9 +24,11 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Samhandl
         <option value="Styringsr&#229;d">Styringsr&#229;d</option>
         <option value="Tverrsektoriell samordningsarena">Tverrsektoriell samordningsarena</option>
         <option value="Tverrsektorielt sikkerhetssamarbeid">Tverrsektorielt sikkerhetssamarbeid</option>
+        <option value="&#197;pen digital samhandlingsarena">&#197;pen digital samhandlingsarena</option>
       </select></label>
       <label>Kapabilitet <select class="resource-filter" data-filter="capability"><option value="">Alle</option>
         <option value="Arkitekturstyring">Arkitekturstyring</option>
+        <option value="Bruke data fra andre">Bruke data fra andre</option>
         <option value="Datastyring">Datastyring</option>
         <option value="Dele data med andre">Dele data med andre</option>
         <option value="Forvaltningsstandarder">Forvaltningsstandarder</option>
@@ -35,7 +37,7 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Samhandl
         <option value="Sikring av informasjonsflyt og datautveksling">Sikring av informasjonsflyt og datautveksling</option>
       </select></label>
     </div>
-    <p class="resource-filters__result" data-role="count">Viser 9 av 9 ressurser</p>
+    <p class="resource-filters__result" data-role="count">Viser 10 av 10 ressurser</p>
   </div>
   <div class="resource-cards">
 <article class="resource-card" data-owner="DIGDIR" data-type="Arkitekturr&#229;d" data-capabilities="samarbeidsarenaer og nettverk forvaltningsstandarder arkitekturstyring" data-search="arkitektur- og standardiseringsr&#229;det digdir-028 digdir digdir ikke oppgitt arkitekturr&#229;d arkitektur- og standardiseringsr&#229;det er en nasjonal samordningsarena der representanter fra digdir, sektordepartement, kommuner, fylkeskommuner og andre virksomheter dr&#248;fter felles arkitektur- og standardiseringssp&#248;rsm&#229;l for digital samhandling i offentlig sektor. r&#229;det sin rolle er &#229; gi anbefalinger, prioritere... samarbeidsarenaer og nettverk forvaltningsstandarder arkitekturstyring">
@@ -118,6 +120,15 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Samhandl
   <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Digdir beskriver KI Norge som en nasjonal arena og en hub for KI i Norge. Rollen er &#229; legge til rette for innovativ og ansvarlig utvikling og bruk av kunstig intelligens, med Digdir som vert og med...</p>
   <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/samarbeid/samarbeidsarenaer-og-nettverk/">Samarbeidsarenaer og nettverk</a> <a class="capability-chip" href="../../../kapabiliteter/strategisk-styring/samordning/">Samordning</a></p>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/125-KI-Norge-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/digdir/far-nasjonal-arena-kunstig-intelligens/6885">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="&#197;pen digital samhandlingsarena" data-capabilities="samarbeidsarenaer og nettverk dele data med andre bruke data fra andre datastyring" data-search="datalandsbyen digdir-062 digdir digdir ikke oppgitt &#229;pen digital samhandlingsarena datalandsbyen er et &#229;pent nettforum for datadeling og informasjonsforvaltning. arenaen gj&#248;r det mulig for datatilbydere, datakonsumenter, fagpersoner og andre interesserte &#229; stille sp&#248;rsm&#229;l, ettersp&#248;rre datasett og api-er, dele erfaringer og gi tilbakemeldinger p&#229; data.norge.no og relaterte katalogressurser. ressursen... samarbeidsarenaer og nettverk dele data med andre bruke data fra andre datastyring">
+  <h2 class="resource-card__title">Datalandsbyen</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-062</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> Digdir | <strong>Kategori:</strong> Ikke oppgitt | <strong>Type:</strong> &#197;pen digital samhandlingsarena</p>
+  <p class="resource-card__description">Datalandsbyen er et &#229;pent nettforum for datadeling og informasjonsforvaltning. Arenaen gj&#248;r det mulig for datatilbydere, datakonsumenter, fagpersoner og andre interesserte &#229; stille sp&#248;rsm&#229;l, ettersp&#248;rre datasett og API-er, dele erfaringer og gi tilbakemeldinger p&#229; data.norge.no og relaterte katalogressurser. Ressursen...</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Datalandsbyen har rolle som &#229;pen dialog- og erfaringsarena. Kildene beskriver arenaen som et sted der brukere kan m&#248;te andre som arbeider med data og datadeling i offentlig og privat sektor, dele...</p>
+  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/samarbeid/samarbeidsarenaer-og-nettverk/">Samarbeidsarenaer og nettverk</a> <a class="capability-chip" href="../../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a> <a class="capability-chip" href="../../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/">Bruke data fra andre</a> <span class="capability-chip capability-chip--more">+1</span></p>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/139-Datalandsbyen-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://data.norge.no/nb/docs/community">Offisiell lenke</a></p>
 </article>
   </div>
   <script>

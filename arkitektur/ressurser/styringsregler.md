@@ -68,11 +68,14 @@ Kjennetegn:
 Typiske eksempler:
 - råd
 - nettverk
+- åpne digitale samhandlingsarenaer
+- nettfora
 - samordningsarenaer
 - faste tverrsektorielle samarbeidsfora
 
 Presisering:
 - kategorien omfatter både rådgivende, koordinerende og besluttende arenaer når hovedbidraget er organisering og samhandling, ikke drift av en løsning
+- åpne nettfora kan tas inn når de har en varig rolle som samhandlingsressurs, har tydelig eier eller forvalter, og gir selvstendig analyseverdi utover å være en hjelpeside for en løsning
 
 Eksempler i denne logikken:
 - `Skate`
@@ -247,4 +250,3 @@ Når en ny ressurs vurderes:
 - anbefalt mønster er `NN-Navn-vX-forfatter.md` for nye ressursfiler
 - bruk ASCII i filnavn, men behold normal navngivning med store bokstaver der dette er etablert i produktnavnet, for eksempel `70-FINT-Felleskomponent-v1-codex.md`
 - unngå unummererte særnavn for nye ressursfiler når ressursen allerede har fått fastsatt løpenummer og ressurs-ID
-

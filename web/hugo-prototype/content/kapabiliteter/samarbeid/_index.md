@@ -3,7 +3,7 @@ title: "Samarbeid"
 eyebrow: "Kapabilitet"
 weight: 2
 description: "Evne til å samarbeid og samhandling på tvers av offentlig og privat forvaltning."
-cardMeta: "3 delkapabiliteter / 31 produkter"
+cardMeta: "3 delkapabiliteter / 32 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -131,6 +131,10 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/129-MSIS-produkt-canvas-v2-codex.md">MSIS</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--forum">
+      <p class="capability-product-link__type">Samarbeidsforum</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/139-Datalandsbyen-v1-codex.md">Datalandsbyen</a></h3>
     </article>
   </div>
 ---

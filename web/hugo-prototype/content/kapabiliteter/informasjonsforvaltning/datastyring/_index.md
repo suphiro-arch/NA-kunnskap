@@ -4,7 +4,7 @@ headerTitle: "Informasjonsforvaltning - Datastyring"
 eyebrow: "Kapabilitet"
 weight: 8
 description: "Evne til å sikre enhetlig og ansvarlig forvaltning av nasjonale dataressurser gjennom felles rammeverk, klar ansvarsplassering og systematisk kvalitetsarbeid."
-cardMeta: "17 produkter"
+cardMeta: "18 produkter"
 ---
 
 Evne til å sikre enhetlig og ansvarlig forvaltning av nasjonale dataressurser gjennom felles rammeverk, klar ansvarsplassering og systematisk kvalitetsarbeid.
@@ -96,5 +96,10 @@ Evne til å sikre enhetlig og ansvarlig forvaltning av nasjonale dataressurser g
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v1-codex.md">Kommunalt pasient- og brukerregister (KPR)</a></h3>
     <p class="capability-product-link__description">KPR understotter datastyring for planlegging, finansiering og evaluering av kommunale helse- og omsorgstjenester.</p>
+  </article>
+  <article class="capability-product-link resource-type--forum">
+    <p class="capability-product-link__type">Samarbeidsforum</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/139-Datalandsbyen-v1-codex.md">Datalandsbyen</a></h3>
+    <p class="capability-product-link__description">Datalandsbyen kan synliggjøre utfordringer med metadata, beskrivelser, ansvar og kvalitet, og dermed gi praksisnær innsikt til informasjonsforvaltning.</p>
   </article>
 </div>

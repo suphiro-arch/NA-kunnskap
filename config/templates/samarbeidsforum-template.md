@@ -1,10 +1,12 @@
 # Mal for samhandlingsarenaer og organisering (Markdown)
 
-Bruk denne malen for ressurser som primært er arenaer, roller eller organiseringsformer for samordning, prioritering, forankring eller strategisk retning.
+Bruk denne malen for ressurser som primært er arenaer, roller eller organiseringsformer for samordning, prioritering, forankring, faglig dialog eller strategisk retning.
 
 Eksempler:
 - råd
 - nettverk
+- åpne digitale samhandlingsarenaer
+- nettfora
 - faste fagfora
 - styringsfora
 - samordningsarenaer
@@ -14,9 +16,10 @@ Se også:
 - `sources/links.md`
 
 ## Arbeidsregel for v0.1
-- behold hele malstrukturen også i tidlige versjoner
+- behold hovedstrukturen også i tidlige versjoner
 - fyll ut det som kan bekreftes
 - skriv `Foreløpig ikke fylt ut i v0.1.` i felt som ennå ikke er gode nok
+- skriv `Ikke relevant` når feltet ikke passer for ressurstypen, for eksempel formell saksinnmelding i et åpent nettforum
 - bruk `Status/Livsfase` bare for status på selve forumet, ikke for status på dokumentet eller beskrivelsen
 
 ## Forventning til v1
@@ -55,13 +58,16 @@ Kanonisk ressurs-ID når dette er etablert.
 Hvis egen ID ikke er etablert ennå, skriv `Ikke fastsatt ennå`.
 
 ## Ressurskategori
-Samarbeidsforum
+Samhandlingsarenaer og organisering
 
-## Type forum
+## Type arena eller forum
 For eksempel:
 - styringsråd
 - faglig forum
 - nettverk
+- åpen digital samhandlingsarena
+- nettforum
+- fagfellesskap
 - samordningsarena
 - råd
 

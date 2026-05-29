@@ -4,7 +4,7 @@ headerTitle: "Datautveksling og integrasjon - Dele data med andre"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er, slik at andre aktører med lovlig grunnlag enkelt kan oppdage og gjenbruke dem."
-cardMeta: "42 produkter"
+cardMeta: "43 produkter"
 ---
 
 Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er, slik at andre aktører med lovlig grunnlag enkelt kan oppdage og gjenbruke dem.
@@ -221,5 +221,10 @@ Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er, sl
     <p class="capability-product-link__type">Operativ løsning</p>
     <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v1-codex.md">Kommunalt pasient- og brukerregister (KPR)</a></h3>
     <p class="capability-product-link__description">KPR-data deles kontrollert for styring, evaluering og forskning pa tvers av kommunal og statlig helseforvaltning.</p>
+  </article>
+  <article class="capability-product-link resource-type--forum">
+    <p class="capability-product-link__type">Samarbeidsforum</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/139-Datalandsbyen-v1-codex.md">Datalandsbyen</a></h3>
+    <p class="capability-product-link__description">Arenaen støtter deling ved at tilbydere og brukere kan diskutere behov, beskrivelser, datakvalitet, tilgang og videre publisering.</p>
   </article>
 </div>

@@ -24,7 +24,7 @@ Antall ressurser: **23**
 
 Organiserte nettverk og styringsorganer for dialog, strategisk samarbeid og samordning.
 
-Antall ressurser: **9**
+Antall ressurser: **10**
 
 ## [Økonomiske og juridiske rammer og virkemidler](./rammer-og-virkemidler/)
 

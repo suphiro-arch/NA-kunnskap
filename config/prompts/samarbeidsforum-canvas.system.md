@@ -1,6 +1,6 @@
 # Standardprompt: Samhandlingsarena og organisering-canvas
 
-Formål: Sikre lik, analysevennlig og beslutningsrelevant utfylling av ressursbeskrivelser for samhandlingsarenaer og organisering (råd, nettverk, samordningsarenaer, fora, roller og styringsarenaer, osv.).
+Formål: Sikre lik, analysevennlig og beslutningsrelevant utfylling av ressursbeskrivelser for samhandlingsarenaer og organisering (råd, nettverk, åpne digitale samhandlingsarenaer, nettfora, samordningsarenaer, roller og styringsarenaer, osv.).
 
 ---
 
@@ -110,6 +110,8 @@ Dette betyr at teksten må svare tydelig på:
 - Ikke bruk `Status/Livsfase` om dokumentutkastet; feltet gjelder selve forumet.
 - Behold hele malstrukturen også i v0.x-versjoner.
 - Hvis et felt ikke kan fylles godt nok ennå, skriv `Foreløpig ikke fylt ut i v0.1.`
+- Hvis et felt ikke passer for ressurstypen, skriv `Ikke relevant` og forklar kort hvorfor når det er nyttig for analyse.
+- For åpne nettfora og lavterskelarenaer skal formelle forumfelt tolkes fleksibelt: beskriv faktisk rolle, deltakelse, kanal og påvirkning, men ikke konstruer mandat, beslutningsmyndighet eller saksbehandling der kildene viser en åpen dialogarena.
 
 ### Forventet nivå i v1
 

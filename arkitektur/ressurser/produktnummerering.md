@@ -116,6 +116,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | 127 | `DIGDIR-059` | Samarbeidsportalen | Portal for forvaltning, informasjon og ta-i-bruk av fellesløsninger | Oversikt over tjenester<br>Tjenesteforvaltning<br>Samarbeidsarenaer og nettverk | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/127-Samarbeidsportalen-produkt-canvas-v2-codex.md) |
 | 137 | `DIGDIR-060` | Forskrift om IT-standarder i offentlig forvaltning | Forskrift | Forvaltningsstandarder<br>Arkitekturstyring<br>Juridisk samhandling | [Åpne](../../arkitektur/ressurser/rammer-og-virkemidler/137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v2-copilot.md) |
 | 138 | `DIGDIR-061` | Veileder for virksomhetsautentisering | Veileder | Autentisering<br>Sikring av informasjonsflyt og datautveksling<br>Veiledning | [Åpne](../../arkitektur/ressurser/normerende-ressurser/138-Veileder-for-virksomhetsautentisering-v1-codex.md) |
+| 139 | `DIGDIR-062` | Datalandsbyen | Åpen digital samhandlingsarena | Samarbeidsarenaer og nettverk<br>Dele data med andre<br>Bruke data fra andre<br>Datastyring | [Åpne](../../arkitektur/ressurser/samarbeidsfora/139-Datalandsbyen-v1-codex.md) |
 
 ## Brønnøysundregistrene (`BRREG`)
 
