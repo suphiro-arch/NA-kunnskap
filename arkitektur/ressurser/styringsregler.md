@@ -227,7 +227,7 @@ Hvis svaret ikke er tydelig ja på minst fire av fem spørsmål, bør ressursen 
 - `config/templates/operative-ressurs-template.md` brukes direkte for gjenbrukbare løsninger
 - `config/templates/normerende-ressurs-template.md` brukes foreløpig for standarder og veiledning
 - `config/templates/samarbeidsforum-template.md` brukes foreløpig for samhandlingsarenaer og organisering
-- `config/templates/rammer-og-virkemidler-template.md` brukes for økonomiske og juridiske rammer og virkemidler
+- `config/templates/okonomiske-og-juridiske-rammer-og-virkemidler-template.md` brukes for økonomiske og juridiske rammer og virkemidler
 
 ## Første arbeidsklassifisering av omtalte ressurser
 | Ressurs | Primærkategori | Kommentar |

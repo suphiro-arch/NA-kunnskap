@@ -13,7 +13,7 @@ Formål: Sikre lik, analysevennlig og beslutningsrelevant utfylling av ressursbe
 - Hvis ressursen primært er en samhandlingsarena, bruk `config/prompts/samarbeidsforum-canvas.system.md`.
 
 ### Trinn 2: Velg mal og lagringssted
-- Bruk `config/templates/rammer-og-virkemidler-template.md`.
+- Bruk `config/templates/okonomiske-og-juridiske-rammer-og-virkemidler-template.md`.
 - Lagres i `arkitektur/ressurser/rammer-og-virkemidler/`.
 - Bruk løpenummer fra `arkitektur/ressurser/produktnummerering.md` først i filnavnet.
 - Bruk gjeldende filnavnmønster: `NN-Ressursnavn-vX-format.md` (f.eks. `137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v2-copilot.md`).
@@ -25,7 +25,7 @@ Formål: Sikre lik, analysevennlig og beslutningsrelevant utfylling av ressursbe
 
 ### Trinn 4: Hent grunnlag
 1. `arkitektur/ressurser/styringsregler.md`
-2. `config/templates/rammer-og-virkemidler-template.md`
+2. `config/templates/okonomiske-og-juridiske-rammer-og-virkemidler-template.md`
 3. `arkitektur/kapabiliteter/capabilities.yaml`
 4. `arkitektur/prinsipper/principles.md`
 5. `arkitektur/ressurser/produktnummerering.md`
