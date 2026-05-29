@@ -501,7 +501,7 @@ function New-ResourceListingBlock {
     $blobUrl = ('{0}/{1}' -f $repoBlobBase, $p.RelativePath)
     $capabilityHtml = Render-CapabilityChips -Items $capabilityItems -MaxVisible 3
     $capabilitySearch = ($capabilityItems | ForEach-Object { $_.Label }) -join ' '
-    $searchable = ($displayName + ' ' + $p.ResourceId + ' ' + $owner + ' ' + $ownerDisplay + ' ' + $p.Category + ' ' + $p.ResourceType + ' ' + $shortDescription + ' ' + $capabilitySearch).ToLowerInvariant()
+    $searchable = ($displayName + ' ' + $p.ResourceId + ' ' + $owner + ' ' + $ownerDisplay + ' ' + $p.ResourceTypeTitle + ' ' + $p.ResourceType + ' ' + $shortDescription + ' ' + $capabilitySearch).ToLowerInvariant()
 
     $cardLines.Add('<article class="resource-card" ' +
       ('data-owner="{0}" ' -f (Html-Encode $owner)) +
@@ -510,7 +510,7 @@ function New-ResourceListingBlock {
       ('data-search="{0}">' -f (Html-Encode $searchable)))
     $cardLines.Add(('  <h2 class="resource-card__title">{0}</h2>' -f (Html-Encode $displayName)))
     $cardLines.Add(('  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>{0}</code> | <strong>Siste versjon:</strong> {1}</p>' -f (Html-Encode $p.ResourceId), (Html-Encode $p.VersionLabel)))
-    $cardLines.Add(('  <p class="resource-card__facts"><strong>Eier:</strong> {0} | <strong>Kategori:</strong> {1} | <strong>Type:</strong> {2}</p>' -f (Html-Encode $ownerDisplay), (Html-Encode $p.Category), (Html-Encode $p.ResourceType)))
+    $cardLines.Add(('  <p class="resource-card__facts"><strong>Eier:</strong> {0} | <strong>Type:</strong> {1} | <strong>Emne:</strong> {2}</p>' -f (Html-Encode $ownerDisplay), (Html-Encode $p.ResourceTypeTitle), (Html-Encode $p.ResourceType)))
     $cardLines.Add(('  <p class="resource-card__description">{0}</p>' -f (Html-Encode $shortDescription)))
     if ($purposeLine) {
       $cardLines.Add(('  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> {0}</p>' -f (Html-Encode $purposeLine)))
@@ -670,7 +670,7 @@ $allResourcesIndex = @(
   'hideSectionOverview: true',
   '---',
   '',
-  '## Utforsk per ressurstype',
+  '## Utforsk per type',
   '',
   ($resourceTypeCardLines -join [Environment]::NewLine),
   '',
