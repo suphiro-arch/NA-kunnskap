@@ -2,6 +2,7 @@
 title: "Ressursoversikt"
 weight: 30
 description: "Inngang til ressursbeskrivelser som understøtter kapabilitetene i modellen."
+eyebrow: "Under arbeid"
 hideToc: true
 hideSectionOverview: true
 ---
