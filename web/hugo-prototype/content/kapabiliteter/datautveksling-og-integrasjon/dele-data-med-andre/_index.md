@@ -99,8 +99,8 @@ Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er, sl
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/52-Nasjonalt-utdanningsregister-produkt-canvas-v1-codex.md">Nasjonalt utdanningsregister</a></h3>
-    <p class="capability-product-link__description">Registeret gjør utdanningsdata tilgjengelige for andre prosesser og virksomheter.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/52-Nasjonalt-utdanningsregister-produkt-canvas-v2-codex.md">Nasjonalt utdanningsregister</a></h3>
+    <p class="capability-product-link__description">Registeret er laget for at utdanningsdata skal kunne brukes av andre virksomheter og tjenester, ikke bare internt i ett studieadministrativt system.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>

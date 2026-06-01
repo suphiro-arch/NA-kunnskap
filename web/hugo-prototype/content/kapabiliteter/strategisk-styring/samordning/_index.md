@@ -19,8 +19,8 @@ Evnen til å harmonisere og koordinere strategisk retning, beslutninger og ressu
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/105-Rammeverk-nasjonale-grunndata-v1-codex.md">Rammeverk - nasjonale grunndata</a></h3>
-    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Rammeverk - nasjonale grunndata basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/105-Rammeverk-for-Nasjonale-grunndata-v2-codex.md">Rammeverk for Nasjonale grunndata</a></h3>
+    <p class="capability-product-link__description">Rammeverket beskriver styrende organ, grunndatakoordinator, grunndataforvaltere og prioriteringsprosesser som skal samordne utvikling og forvaltning av data med høy nasjonal verdi.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
@@ -44,8 +44,8 @@ Evnen til å harmonisere og koordinere strategisk retning, beslutninger og ressu
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/116-Rammeverk-for-innovasjon-i-offentlig-sektor-v1-codex.md">Rammeverk for innovasjon i offentlig sektor</a></h3>
-    <p class="capability-product-link__description">skal støtte mer systematisk innovasjonsarbeid og et mer felles språk for utvikling og forbedring i offentlig sektor.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/116-Rammeverk-for-innovasjon-i-offentlig-sektor-v2-codex.md">Rammeverk for innovasjon i offentlig sektor</a></h3>
+    <p class="capability-product-link__description">Rammeverket gir et felles språk for hvordan innovasjonsarbeid bør forankres, prioriteres og samordnes når utfordringer går på tvers av virksomheter og forvaltningsnivåer.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>

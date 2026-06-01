@@ -13,10 +13,12 @@ Normerende ressurs
 Kapabilitetsmodell
 
 ## Status/Livsfase
-Planlagt. Ressursen er registrert som et planlagt normerende artefakt i arbeidet med nasjonal arkitektur, ikke som et ferdig og formelt innført kapabilitetskart i offentlig bruk.
+Under etablering. Ressursen er registrert som et foreløpig normerende artefakt i arbeidet med nasjonal arkitektur, men er ennå ikke et ferdig og formelt innført kapabilitetskart i offentlig bruk.
 
 ## Kort beskrivelse
-Kapabilitetskart (planlagt) er et normerende modellspor for å beskrive hvilke evner som må være på plass for å realisere mål innen samhandling, datadeling og nasjonal arkitektur. Ressursen er viktig fordi den kan gi et mer strukturert grunnlag for å koble mål, tiltak, ressurser og gap, i stedet for å vurdere hvert tiltak isolert.
+Kapabilitetskart (planlagt) er et foreløpig utkast til et normerende modellspor for å beskrive hvilke evner som må være på plass for å realisere mål innen samhandling, datadeling og nasjonal arkitektur. Ressursen er viktig fordi den kan gi et mer strukturert grunnlag for å koble mål, tiltak, ressurser og gap, i stedet for å vurdere hvert tiltak isolert.
+
+Beskrivelsen må leses som et arbeidsgrunnlag i etableringsfasen. Oppdateringer er forventet i løpet av 2026, og bør gjøres manuelt når styringsforankring, arbeidsform og faktisk bruk er mer moden.
 
 ## Formål og normerende rolle
 Formålet er å gjøre kapabilitetsvurderinger mer eksplisitte og sammenlignbare i nasjonalt arkitekturarbeid. Ressursen skal hjelpe fagmiljø med å se hvilke evner som faktisk må styrkes, hvilke ressurser som allerede bidrar, og hvor det fortsatt mangler kapasitet, styring eller samordning.
@@ -24,7 +26,7 @@ Formålet er å gjøre kapabilitetsvurderinger mer eksplisitte og sammenlignbare
 Den normerende rollen ligger i at et kapabilitetskart kan påvirke hvordan en analyserer behov, prioriterer innsats og begrunner arkitekturvalg. Det er ikke et operativt produkt i drift, men et mulig felles referansegrunnlag for hvordan problemrom og utviklingsbehov skal struktureres.
 
 ## Forpliktelsesnivå og etterlevelse
-Siden ressursen er planlagt og ikke framstår som formelt innført, bør den foreløpig forstås som veiledende og forberedende. Den er ikke bindende i seg selv, men kan bli styrende hvis den tas i bruk som del av nasjonal arkitekturstyring, analyse eller prioritering.
+Siden ressursen er under etablering og ikke framstår som formelt innført, bør den foreløpig forstås som veiledende og forberedende. Den er ikke bindende i seg selv, men kan bli styrende hvis den tas i bruk som del av nasjonal arkitekturstyring, analyse eller prioritering.
 
 Etterlevelse i dagens fase handler derfor mest om å bruke samme logikk og begreper i analysearbeid, ikke om formell rapportering. Usikkerhet: åpne kilder i repoet beskriver ikke en egen offentlig beslutning som fastsetter ressursen som obligatorisk referanse.
 
@@ -43,9 +45,9 @@ Etterlevelse i dagens fase handler derfor mest om å bruke samme logikk og begre
 | Produkt- og programmiljø | Tydeligere kobling mellom behov og ressurser | Konseptvalg og utviklingsretning | Relevansen øker når tiltak berører flere ressurser |
 
 ## Normerende innhold
-Ressursen bør forstås som et planlagt modellgrunnlag for hvilke kapabiliteter som finnes, hvordan de henger sammen, og hvordan de kan brukes til å vurdere modenhet, behov og mangler i nasjonal arkitektur. Det normerende ligger i modelleringen og vurderingsrammen, ikke i teknisk drift.
+Ressursen bør forstås som et modellgrunnlag under etablering for hvilke kapabiliteter som finnes, hvordan de henger sammen, og hvordan de kan brukes til å vurdere modenhet, behov og mangler i nasjonal arkitektur. Det normerende ligger i modelleringen og vurderingsrammen, ikke i teknisk drift.
 
-Fakta: `sources/2025-03-18-Nasjonal Arkitektur.xml` og `arkitektur/kapabiliteter/capabilities.yaml` viser at kapabilitetsmodellen allerede brukes som struktur i repoet. Deduksjon: et planlagt kapabilitetskart som egen ressurs er derfor først og fremst verdifullt hvis det gjør denne modellen tydeligere operativ i analyse og styring, ikke bare hvis det dupliserer eksisterende struktur.
+Fakta: `sources/2025-03-18-Nasjonal Arkitektur.xml` og `arkitektur/kapabiliteter/capabilities.yaml` viser at kapabilitetsmodellen allerede brukes som struktur i repoet. Deduksjon: et kapabilitetskart som egen ressurs er derfor først og fremst verdifullt hvis det gjør denne modellen tydeligere operativ i analyse og styring, ikke bare hvis det dupliserer eksisterende struktur.
 
 ## Bruksområde
 Ressursen bør brukes når en trenger å forstå hvilke evner som må være på plass for å realisere mål eller forbedre samhandling, og når en vil knytte konkrete ressurser og tiltak til et mer helhetlig kapabilitetsbilde.
@@ -53,7 +55,7 @@ Ressursen bør brukes når en trenger å forstå hvilke evner som må være på 
 Den er særlig nyttig i tidligfase, i gap-analyser, ved vurdering av modenhet, og når flere ressurskandidater må sammenlignes som svar på samme overordnede behov.
 
 ## Typiske analyse- og beslutningssituasjoner
-- når en skal identifisere gap mellom ønsket målbildet og dagens ressursdekning
+- når en skal identifisere gap mellom ønsket målbilde og dagens ressursdekning
 - når flere tiltak må prioriteres ut fra hvilken kapabilitet de faktisk styrker
 - når en vil bruke nasjonal arkitektur mer eksplisitt i konseptvalg og samordning
 - når en trenger å skille mellom ressursmangel, styringsmangel og modenhetsmangel
@@ -79,7 +81,7 @@ Inngår ikke:
 |---|---|
 | Faglig ansvar | Åpne kilder peker mot Digdirs arbeid med nasjonal arkitektur som nærmeste faglige hjem |
 | Forvaltningsansvar | Usikkerhet: repoets åpne kilder beskriver ikke en egen offentlig forvaltningsmodell for ressursen som separat artefakt |
-| Endringsprosess | Deduksjon: bør utvikles i takt med kuratering av kapabilitetsmodellen, målsporet og ressursoversikten |
+| Endringsprosess | Deduksjon: bør utvikles i takt med kuratering av kapabilitetsmodellen, målsporet og ressursoversikten, og oppdateres manuelt i løpet av 2026 når arbeidsformen er mer moden |
 | Publiserings- og beslutningsarena | Digdir.no og interne/kuraterte arbeidsfiler framstår som nærmeste grunnlag, men det er ikke bekreftet en egen ekstern arena for et ferdig kapabilitetskart |
 
 ## Relasjon til andre ressurser
@@ -108,10 +110,10 @@ Hvis ressursen brukes for sent, kan porteføljer og veikart allerede være etabl
 | Abstraksjonsnivå | Ressursen blir for teoretisk | Lav praktisk verdi | Koble modellen tydelig til faktiske ressurser, gap og prioriteringer |
 | Duplisering | Kartet gjentar bare eksisterende kapabilitetsstruktur uten ny analyseverdi | Lite styringsutbytte | Avklare hva ressursen skal tilføre utover `capabilities.yaml` |
 | Forankring | Ulike miljøer bruker ulike begreper videre | Svak sammenlignbarhet | Bruke kartet aktivt i analyser og veikartarbeid |
-| Modenhet | Ressursen løftes som styrende før den er godt nok operasjonalisert | Feil forventninger | Være tydelig på at status er planlagt og at bruk må trappes opp gradvis |
+| Modenhet | Ressursen løftes som styrende før den er godt nok operasjonalisert | Feil forventninger | Være tydelig på at status er under etablering og at bruk må trappes opp gradvis |
 
 ## Publiseringsform og tilgjengelighet
-Ressursen framstår foreløpig som et planlagt normerende artefakt forankret i Digdirs arbeid med nasjonal arkitektur og i repoets kuraterte kapabilitetsmodell, ikke som en ferdig ekstern publisering med stabil sluttform.
+Ressursen framstår foreløpig som et normerende artefakt under etablering, forankret i Digdirs arbeid med nasjonal arkitektur og i repoets kuraterte kapabilitetsmodell, ikke som en ferdig ekstern publisering med stabil sluttform.
 
 ## Støtter arkitekturprinsipper
 - **P2: Ta arkitekturbeslutninger på rett nivå**  
@@ -123,7 +125,7 @@ Ressursen framstår foreløpig som et planlagt normerende artefakt forankret i D
 - **P6: Lag digitale løsninger som støtter samhandling**  
   Ressursen kan styrke samhandling indirekte ved å vise hvilke evner som må utvikles samlet for at løsninger skal fungere på tvers.
 
-Begrensning: prinsippstøtten realiseres bare hvis kartet brukes operativt i analyse og prioritering. Et planlagt kapabilitetskart uten tydelig bruksløp vil ha begrenset effekt.
+Begrensning: prinsippstøtten realiseres bare hvis kartet brukes operativt i analyse og prioritering. Et kapabilitetskart under etablering uten tydelig bruksløp vil ha begrenset effekt.
 
 ## Lenke til dokumentasjon
 - https://www.digdir.no/samhandling/nasjonal-arkitektur/2150

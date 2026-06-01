@@ -34,8 +34,8 @@ Evne til å sikre enhetlig og ansvarlig forvaltning av nasjonale dataressurser g
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/52-Nasjonalt-utdanningsregister-produkt-canvas-v1-codex.md">Nasjonalt utdanningsregister</a></h3>
-    <p class="capability-product-link__description">Registeret samler, strukturerer og vedlikeholder utdanningsdata som tidligere var spredt i flere kilder.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/52-Nasjonalt-utdanningsregister-produkt-canvas-v2-codex.md">Nasjonalt utdanningsregister</a></h3>
+    <p class="capability-product-link__description">Registeret samler, kvalitetssikrer og bevarer sentrale utdanningsdata over tid, inkludert historiske tilbud, slik at opplysningene kan forvaltes mer helhetlig.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>

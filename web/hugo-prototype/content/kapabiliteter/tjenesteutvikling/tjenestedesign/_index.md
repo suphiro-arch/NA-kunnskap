@@ -39,8 +39,8 @@ Evne til å sette brukerens behov, livssituasjon og helhetlige reise som utgangs
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/116-Rammeverk-for-innovasjon-i-offentlig-sektor-v1-codex.md">Rammeverk for innovasjon i offentlig sektor</a></h3>
-    <p class="capability-product-link__description">knytter innovasjonsarbeid til utforskning, brukerbehov og utvikling av nye eller forbedrede tjenester.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/116-Rammeverk-for-innovasjon-i-offentlig-sektor-v2-codex.md">Rammeverk for innovasjon i offentlig sektor</a></h3>
+    <p class="capability-product-link__description">Rammeverket kobler innovasjon til behovsdrevet utforskning, designmetoder og eksperimentering før løsning velges eller skaleres.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>

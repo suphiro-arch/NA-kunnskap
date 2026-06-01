@@ -2044,17 +2044,17 @@
         {
             "product_id": 52,
             "product_name": "Nasjonalt utdanningsregister",
-            "version": 1,
+            "version": 2,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/52-Nasjonalt-utdanningsregister-produkt-canvas-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/52-Nasjonalt-utdanningsregister-produkt-canvas-v1-codex.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/52-Nasjonalt-utdanningsregister-produkt-canvas-v2-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/52-Nasjonalt-utdanningsregister-produkt-canvas-v2-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
                     "capability_name": "Datakilder",
                     "capability_slug": "datakilder",
                     "mapping_label": "Datakilder: Grunndata",
-                    "explanation": "Nasjonalt utdanningsregister er en felles autoritativ kilde for utdanninger og læresteder.",
+                    "explanation": "Registeret fungerer som autoritativ kilde for utdanningstilbud og læresteder, med entydige identifikatorer som kan brukes i flere systemer og prosesser.",
                     "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
                     "subcapability_name": "Grunndata",
                     "subcapability_slug": "grunndata"
@@ -2064,7 +2064,7 @@
                     "capability_name": "Datautveksling og integrasjon",
                     "capability_slug": "datautveksling-og-integrasjon",
                     "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "Registeret gjør utdanningsdata tilgjengelige for andre prosesser og virksomheter.",
+                    "explanation": "Registeret er laget for at utdanningsdata skal kunne brukes av andre virksomheter og tjenester, ikke bare internt i ett studieadministrativt system.",
                     "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
                     "subcapability_name": "Dele data med andre",
                     "subcapability_slug": "dele-data-med-andre"
@@ -2074,7 +2074,7 @@
                     "capability_name": "Informasjonsforvaltning",
                     "capability_slug": "informasjonsforvaltning",
                     "mapping_label": "Informasjonsforvaltning: Datastyring",
-                    "explanation": "Registeret samler, strukturerer og vedlikeholder utdanningsdata som tidligere var spredt i flere kilder.",
+                    "explanation": "Registeret samler, kvalitetssikrer og bevarer sentrale utdanningsdata over tid, inkludert historiske tilbud, slik at opplysningene kan forvaltes mer helhetlig.",
                     "subcapability_id": "id-5852d070415849fab42749cb488d984a",
                     "subcapability_name": "Datastyring",
                     "subcapability_slug": "datastyring"
@@ -3283,11 +3283,11 @@
         },
         {
             "product_id": 105,
-            "product_name": "Rammeverk - nasjonale grunndata",
-            "version": 1,
+            "product_name": "Rammeverk for Nasjonale grunndata",
+            "version": 2,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/105-Rammeverk-nasjonale-grunndata-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/105-Rammeverk-nasjonale-grunndata-v1-codex.md",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/105-Rammeverk-for-Nasjonale-grunndata-v2-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/105-Rammeverk-for-Nasjonale-grunndata-v2-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
@@ -3297,7 +3297,7 @@
                     "subcapability_name": "Grunndata",
                     "subcapability_slug": "grunndata",
                     "mapping_label": "Datakilder: Grunndata",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Rammeverk - nasjonale grunndata basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Rammeverket definerer hvilke data som bør behandles som nasjonale grunndata, og hvilke kriterier som må være oppfylt for at autoritative data skal kunne forvaltes helhetlig på tvers av sektorer."
                 },
                 {
                     "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
@@ -3307,7 +3307,7 @@
                     "subcapability_name": "Samordning",
                     "subcapability_slug": "samordning",
                     "mapping_label": "Strategisk styring: Samordning",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Rammeverk - nasjonale grunndata basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Rammeverket beskriver styrende organ, grunndatakoordinator, grunndataforvaltere og prioriteringsprosesser som skal samordne utvikling og forvaltning av data med høy nasjonal verdi."
                 }
             ]
         },
@@ -3694,10 +3694,10 @@
         {
             "product_id": 116,
             "product_name": "Rammeverk for innovasjon i offentlig sektor",
-            "version": 1,
+            "version": 2,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/116-Rammeverk-for-innovasjon-i-offentlig-sektor-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/116-Rammeverk-for-innovasjon-i-offentlig-sektor-v1-codex.md",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/116-Rammeverk-for-innovasjon-i-offentlig-sektor-v2-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/116-Rammeverk-for-innovasjon-i-offentlig-sektor-v2-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
@@ -3707,7 +3707,7 @@
                     "subcapability_name": "Samordning",
                     "subcapability_slug": "samordning",
                     "mapping_label": "Strategisk styring: Samordning",
-                    "explanation": "skal støtte mer systematisk innovasjonsarbeid og et mer felles språk for utvikling og forbedring i offentlig sektor."
+                    "explanation": "Rammeverket gir et felles språk for hvordan innovasjonsarbeid bør forankres, prioriteres og samordnes når utfordringer går på tvers av virksomheter og forvaltningsnivåer."
                 },
                 {
                     "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
@@ -3717,7 +3717,7 @@
                     "subcapability_name": "Tjenestedesign",
                     "subcapability_slug": "tjenestedesign",
                     "mapping_label": "Tjenesteutvikling: Tjenestedesign",
-                    "explanation": "knytter innovasjonsarbeid til utforskning, brukerbehov og utvikling av nye eller forbedrede tjenester."
+                    "explanation": "Rammeverket kobler innovasjon til behovsdrevet utforskning, designmetoder og eksperimentering før løsning velges eller skaleres."
                 }
             ]
         },

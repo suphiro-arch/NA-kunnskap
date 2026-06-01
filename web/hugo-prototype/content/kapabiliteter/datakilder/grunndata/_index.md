@@ -49,8 +49,8 @@ Evne til å identifisere og formelt anerkjenne autoritative datakilder basert p�
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/52-Nasjonalt-utdanningsregister-produkt-canvas-v1-codex.md">Nasjonalt utdanningsregister</a></h3>
-    <p class="capability-product-link__description">Nasjonalt utdanningsregister er en felles autoritativ kilde for utdanninger og læresteder.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/52-Nasjonalt-utdanningsregister-produkt-canvas-v2-codex.md">Nasjonalt utdanningsregister</a></h3>
+    <p class="capability-product-link__description">Registeret fungerer som autoritativ kilde for utdanningstilbud og læresteder, med entydige identifikatorer som kan brukes i flere systemer og prosesser.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
@@ -99,8 +99,8 @@ Evne til å identifisere og formelt anerkjenne autoritative datakilder basert p�
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/105-Rammeverk-nasjonale-grunndata-v1-codex.md">Rammeverk - nasjonale grunndata</a></h3>
-    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Rammeverk - nasjonale grunndata basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/105-Rammeverk-for-Nasjonale-grunndata-v2-codex.md">Rammeverk for Nasjonale grunndata</a></h3>
+    <p class="capability-product-link__description">Rammeverket definerer hvilke data som bør behandles som nasjonale grunndata, og hvilke kriterier som må være oppfylt for at autoritative data skal kunne forvaltes helhetlig på tvers av sektorer.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>

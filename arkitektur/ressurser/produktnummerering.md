@@ -1,4 +1,4 @@
-﻿# Produktregister og ressurs-ID-er
+# Produktregister og ressurs-ID-er
 
 
 
@@ -89,7 +89,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | 102 | `DIGDIR-034` | Referansearkitektur forespørsel-svar (eOppslag) | Standarder og veiledning | Referansearkitektur | Bruke data fra andre<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/normerende-ressurser/102-Referansearkitektur-foresporsel-svar-eOppslag-v1-codex.md) |
 | 103 | `DIGDIR-035` | Nasjonalt veikart | Standarder og veiledning | Veikart | Samordning<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/normerende-ressurser/103-Nasjonalt-veikart-v2-codex.md) |
 | 104 | `DIGDIR-036` | Orden i eget hus | Standarder og veiledning | Metodikk | Datastyring<br>Oversikt over datasett | [Åpne](../../arkitektur/ressurser/normerende-ressurser/104-Orden-i-eget-hus-v1-codex.md) |
-| 105 | `DIGDIR-037` | Rammeverk - nasjonale grunndata | Standarder og veiledning | Rammeverk | Grunndata<br>Samordning | [Åpne](../../arkitektur/ressurser/normerende-ressurser/105-Rammeverk-nasjonale-grunndata-v1-codex.md) |
+| 105 | `DIGDIR-037` | Rammeverk for Nasjonale grunndata | Standarder og veiledning | Rammeverk | Grunndata<br>Samordning | [Åpne](../../arkitektur/ressurser/normerende-ressurser/105-Rammeverk-for-Nasjonale-grunndata-v2-codex.md) |
 | 106 | `DIGDIR-038` | Nasjonal verktøykasse for deling av data | Standarder og veiledning | Veileder | Dele data med andre<br>Datastyring<br>Veiledning | [Åpne](../../arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v1-codex.md) |
 | 107 | `DIGDIR-039` | Kunnskapsgrunnlag og KPI-er datadeling | Standarder og veiledning | Kunnskapsgrunnlag | Samordning<br>Datastyring | [Åpne](../../arkitektur/ressurser/normerende-ressurser/107-Kunnskapsgrunnlag-og-KPI-er-datadeling-v1-codex.md) |
 | 108 | `DIGDIR-040` | Kunnskapsgrunnlag - dataspaces | Standarder og veiledning | Kunnskapsgrunnlag | Forvaltningsstandarder<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/normerende-ressurser/108-Kunnskapsgrunnlag-dataspaces-v1-codex.md) |
@@ -100,7 +100,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | 113 | `DIGDIR-045` | Prosjektveiviseren | Standarder og veiledning | Prosjektmetodikk | Samordning<br>Tjenestedesign<br>Veiledning | [Åpne](../../arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v1-codex.md) |
 | 114 | `DIGDIR-046` | Klart språk | Standarder og veiledning | Veileder | Sammenhengende tjenester<br>Tjenestedesign<br>Veiledning | [Åpne](../../arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v1-codex.md) |
 | 115 | `DIGDIR-047` | Digitaliseringsvennlig regelverk | Standarder og veiledning | Veileder | Forvaltningsstandarder<br>Arkitekturstyring<br>Juridisk samhandling<br>Veiledning | [Åpne](../../arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v1-codex.md) |
-| 116 | `DIGDIR-048` | Rammeverk for innovasjon i offentlig sektor | Standarder og veiledning | Rammeverk | Samordning<br>Tjenestedesign | [Åpne](../../arkitektur/ressurser/normerende-ressurser/116-Rammeverk-for-innovasjon-i-offentlig-sektor-v1-codex.md) |
+| 116 | `DIGDIR-048` | Rammeverk for innovasjon i offentlig sektor | Standarder og veiledning | Rammeverk | Samordning<br>Tjenestedesign | [Åpne](../../arkitektur/ressurser/normerende-ressurser/116-Rammeverk-for-innovasjon-i-offentlig-sektor-v2-codex.md) |
 | 117 | `DIGDIR-049` | Kompetansemodell for digital transformasjon | Standarder og veiledning | Kompetansemodell | Samordning<br>Tjenestedesign | [Åpne](../../arkitektur/ressurser/normerende-ressurser/117-Kompetansemodell-for-digital-transformasjon-v1-codex.md) |
 | 118 | `DIGDIR-050` | Felles designsystem | Gjenbrukbare løsninger | Designsystem | Sammenhengende tjenester<br>Gjenbrukbare tjenester<br>Tjenestedesign | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/118-Felles-designsystem-v2-codex.md) |
 | 119 | `DIGDIR-051` | Ansattporten | Gjenbrukbare løsninger | Autentiseringstjeneste for ansatte | Sikring av informasjonsflyt og datautveksling<br>Autentisering<br>Integrerbare tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/119-Ansattporten-v2-codex.md) |
@@ -155,7 +155,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | 49 | `SIKT-003` | Opptaksløsninger | Gjenbrukbare løsninger | Opptaksløsning | Bruke data fra andre<br>Organisatorisk samhandling<br>Sammenhengende tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/49-Opptakslosninger-produkt-canvas-v2-codex.md) |
 | 50 | `SIKT-004` | Nasjonal vitnemålsdatabase (NVB) | Gjenbrukbare løsninger | Vitnemål | Grunndata<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/50-Nasjonal-vitnemalsdatabase-produkt-canvas-v1-codex.md) |
 | 51 | `SIKT-005` | Vitnemålsportalen | Gjenbrukbare løsninger | Deling av vitnemål | Dele data med andre<br>Sammenhengende tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/51-Vitnemalsportalen-produkt-canvas-v1-codex.md) |
-| 52 | `SIKT-006` | Nasjonalt utdanningsregister | Gjenbrukbare løsninger | Register over utdanningstilbud og akkreditering | Grunndata<br>Dele data med andre<br>Datastyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/52-Nasjonalt-utdanningsregister-produkt-canvas-v1-codex.md) |
+| 52 | `SIKT-006` | Nasjonalt utdanningsregister | Gjenbrukbare løsninger | Register over utdanningstilbud og akkreditering | Grunndata<br>Dele data med andre<br>Datastyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/52-Nasjonalt-utdanningsregister-produkt-canvas-v2-codex.md) |
 
 
 
