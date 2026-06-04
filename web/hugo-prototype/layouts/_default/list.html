@@ -25,11 +25,6 @@
     </div>
     <div class="content-card__body">
       <div class="home-actions">
-        <a class="home-actions__card" href="{{ "ressursoversikt/" | relURL }}">
-          <span class="home-actions__label">Finn ressurs</span>
-          <strong>Gå til ressursoversikten</strong>
-          <p>{{ with $resourceOverviewPage }}{{ .Description }}{{ else }}Inngang til ressursbeskrivelser som understøtter kapabilitetene i modellen.{{ end }}</p>
-        </a>
         <a class="home-actions__card" href="{{ "kapabiliteter/" | relURL }}">
           <span class="home-actions__label">Utforsk struktur</span>
           <strong>Se kapabilitetene</strong>
@@ -39,6 +34,11 @@
           <span class="home-actions__label">Les føringer</span>
           <strong>Gå til prinsippene</strong>
           <p>{{ with $principlesPage }}{{ .Description }}{{ else }}Arkitekturprinsipper som gir retning for samhandling, gjenbruk, tillit og styring i nasjonal arkitektur.{{ end }}</p>
+        </a>
+        <a class="home-actions__card" href="{{ "ressursoversikt/" | relURL }}">
+          <span class="home-actions__label">Finn ressurs</span>
+          <strong>Gå til ressursoversikten</strong>
+          <p>{{ with $resourceOverviewPage }}{{ .Description }}{{ else }}Inngang til ressursbeskrivelser som understøtter kapabilitetene i modellen.{{ end }}</p>
         </a>
       </div>
 
