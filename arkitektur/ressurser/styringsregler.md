@@ -7,6 +7,18 @@ Denne fila definerer hvordan ressursområdet skal struktureres og klassifiseres 
 - skille mellom gjenbrukbare løsninger, standarder og veiledning, samhandlingsarenaer og organisering, og økonomiske eller juridiske rammer og virkemidler
 - gjøre klassifisering mer forutsigbar når nye ressurser legges inn i analyser, register eller webstruktur
 
+## Kilde for kategoriene
+De fire hovedkategoriene er hentet fra rammeverket for nasjonal arkitektur og brukes i repoet som praktisk inndeling av ressurser som kan støtte samhandling, tjenesteutvikling, styring og gjenbruk.
+
+Repoet bruker kategoriene som en operativ klassifisering i `arkitektur/ressurser/`, `produktnummerering.md`, maler, promptfiler og weboversikten. Kategoriene er derfor ikke lokale ad hoc-mapper, men repoets implementering av rammeverkets ressursinndeling.
+
+Intern forankring:
+- beslutningen `2026-05-28 | Ressurskategorier i rammeverket` i `briefs/decisions.md`
+- overgangsnotatet `briefs/arbeidsstyring-og-handover/2026-05-27-overgang-til-rammeverkskategorier-v1.md`
+
+Ekstern rammeverkskilde:
+- Rammeverk for nasjonal arkitektur: https://digdir.github.io/nasjonal-arkitektur/
+
 ## Hovedkategorier
 
 ### 1. Gjenbrukbare løsninger

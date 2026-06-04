@@ -7,6 +7,12 @@ Denne mappa samler styringsgrunnlag, registerføring og ressursbeskrivelser for 
 - Skille tydelig mellom gjenbrukbare løsninger, standarder og veiledning, samhandlingsarenaer og organisering, og økonomiske eller juridiske rammer og virkemidler.
 - Gjøre det lett å registrere og finne ressurser på nettsiden.
 
+## Hvor kategoriene kommer fra
+
+Kategoriene i denne mappa kommer fra rammeverket for nasjonal arkitektur. Repoet bruker dem som operativ inndeling for ressursbeskrivelser, register, maler, promptfiler og weboversikt.
+
+Styrende detaljer ligger i [styringsregler.md](styringsregler.md). Intern beslutning er logget i [briefs/decisions.md](../../briefs/decisions.md), og ekstern rammeverkskilde er [rammeverket for nasjonal arkitektur](https://digdir.github.io/nasjonal-arkitektur/).
+
 ## Kategoriavgrensning (kortversjon)
 - `Gjenbrukbare løsninger`: tekniske komponenter, applikasjoner og tjenester som leverer funksjonalitet eller dataprodukter som kan brukes av flere.
 - `Standarder og veiledning`: ressurser som setter regler eller gir retning, som standarder, veiledere, referansearkitekturer og metodikk.

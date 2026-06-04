@@ -330,6 +330,7 @@ Sist redigert: 2026-05-05.
 - Strategiske prinsipper for felleskomponenter: https://www.digdir.no/media/395/download
 - Nasjonale felleskomponenter (samlet beskrivelse): https://had.no/prosjektveiviseren/Prosjektveiviseren/god-praksis/it-politiske-tema/nasjonale-felleskomponenter.html
 - Nasjonal arkitektur: https://www.digdir.no/samhandling/nasjonal-arkitektur/2150
+- Rammeverk for nasjonal arkitektur: https://digdir.github.io/nasjonal-arkitektur/ (lagt til 2026-06-04)
 - Overordnede arkitekturprinsipper: https://www.digdir.no/samhandling/overordnede-arkitekturprinsipper/1065
 - Sjekkliste for sammenhengende tjenester: https://www.digdir.no/media/1850/download (lagt til 2026-04-09)
 - Rammeverk for digital samhandling: https://www.digdir.no/samhandling/rammeverk-digital-samhandling/2149
@@ -412,5 +413,4 @@ Sist redigert: 2026-05-05.
 - Riksadvokaten: https://www.riksadvokaten.no/
 - Påtaleinstitusjonene: https://www.domstolverket.no/organisation/prosecuting-authority/
 - Politiet: https://www.politiet.no/
-
 
