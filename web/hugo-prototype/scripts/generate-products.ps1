@@ -413,7 +413,19 @@ function Render-CapabilityChips {
 
   if ($Items.Count -gt $MaxVisible) {
     $remaining = $Items.Count - $MaxVisible
-    $parts += ("<span class=`"capability-chip capability-chip--more`">+{0}</span>" -f $remaining)
+
+    $hiddenParts = @()
+    for ($i = $MaxVisible; $i -lt $Items.Count; $i++) {
+      $item = $Items[$i]
+      $label = Html-Encode $item.Label
+      if ($item.Url) {
+        $hiddenParts += ("<a class=`"capability-chip`" href=`"{0}`">{1}</a>" -f $item.Url, $label)
+      } else {
+        $hiddenParts += ("<span class=`"capability-chip`">{0}</span>" -f $label)
+      }
+    }
+
+    $parts += ("<details class=`"capability-chip-disclosure`"><summary class=`"capability-chip capability-chip--more`" title=`"Vis/skjul flere kapabiliteter`">+{0}</summary><span class=`"capability-chip-disclosure__items`"> {1}</span></details>" -f $remaining, ($hiddenParts -join ' '))
   }
 
   return ($parts -join ' ')
@@ -515,7 +527,7 @@ function New-ResourceListingBlock {
     if ($purposeLine) {
       $cardLines.Add(('  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> {0}</p>' -f (Html-Encode $purposeLine)))
     }
-    $cardLines.Add(('  <p class="resource-card__capabilities"><strong>Kapabiliteter:</strong> {0}</p>' -f $capabilityHtml))
+    $cardLines.Add(('  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> {0}</div>' -f $capabilityHtml))
     $actions = New-Object System.Collections.Generic.List[string]
     $actions.Add(('<a class="resource-card__button resource-card__button--primary" href="{0}">Full beskrivelse (md-fil)</a>' -f (Html-Encode $blobUrl)))
     if ($primaryDocUrl) {

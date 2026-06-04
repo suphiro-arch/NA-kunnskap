@@ -660,6 +660,24 @@ a:hover {
   color: #5f6f7c;
 }
 
+.capability-chip-disclosure {
+  display: inline;
+}
+
+.capability-chip-disclosure > summary {
+  display: inline-block;
+  cursor: pointer;
+  list-style: none;
+}
+
+.capability-chip-disclosure > summary::-webkit-details-marker {
+  display: none;
+}
+
+.capability-chip-disclosure__items {
+  display: inline;
+}
+
 .capability-product-links {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));

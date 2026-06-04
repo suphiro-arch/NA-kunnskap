@@ -21,7 +21,7 @@
     <div class="content-card__header content-card__header--home">
       <p class="content-card__eyebrow">Nasjonal arkitektur</p>
       <h1>{{ .Title }}</h1>
-      <p class="home-hero__lead">Få oversikt over kapabiliteter, prinsipper og felles ressurser for digital samhandling på tvers av virksomheter.</p>
+      <p class="home-hero__lead">Denne prototypen samler arbeidsgrunnlag for nasjonal arkitektur i en lesbar dokumentasjonsflate. Start i kapabiliteter, prinsipper eller ressursoversikt, og bruk dashboardet for rask status.</p>
     </div>
     <div class="content-card__body">
       <div class="home-actions">
@@ -59,32 +59,12 @@
     </div>
   </div>
 </section>
-
-<section class="home-sections">
-  <div class="section-overview__header">
-    <h2>Hovedinnganger</h2>
-    <p>Start i den delen som passer best til oppgaven du jobber med.</p>
-  </div>
-  <div class="section-grid section-grid--three">
-    {{ range $sections }}
-    <article class="section-card section-card--home">
-      <p class="section-card__meta">Hovedseksjon</p>
-      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-      <p>{{ with .Description }}{{ . }}{{ else }}{{ .LinkTitle }} er en del av dokumentasjonen.{{ end }}</p>
-      <a class="section-card__link" href="{{ .RelPermalink }}">Åpne seksjon</a>
-    </article>
-    {{ end }}
-  </div>
-</section>
 {{ end }}
 
+{{ if not .IsHome }}
 <article class="content-card{{ if and $isCapabilitySection (not .IsHome) }} content-card--capability-intro{{ end }}">
   <header class="content-card__header">
-    {{ if .IsHome }}
-    <p class="content-card__eyebrow">Om innholdet</p>
-    {{ else }}
     <p class="content-card__eyebrow">{{ with .Params.eyebrow }}{{ . }}{{ else }}Seksjon{{ end }}</p>
-    {{ end }}
     <h1>{{ with .Params.headerTitle }}{{ . }}{{ else }}{{ .Title }}{{ end }}</h1>
   </header>
 
@@ -94,6 +74,7 @@
     </div>
   </div>
 </article>
+{{ end }}
 
 {{ if and (gt (len $pages) 0) $isCapabilitySection }}
 <section class="section-overview section-overview--capabilities">

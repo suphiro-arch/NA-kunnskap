@@ -1,4 +1,4 @@
-﻿# Hugo prototype
+# Hugo prototype
 
 Dette er en isolert prototype for en framtidig nettside om nasjonal arkitektur.
 
