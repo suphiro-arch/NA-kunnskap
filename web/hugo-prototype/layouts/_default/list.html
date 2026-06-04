@@ -25,24 +25,21 @@
       <p class="home-hero__sublead">Utfyllende ressursbeskrivelser er koblet til kapabilitetene. Vi ønsker tilbakemeldinger på innhold, mangler og nye ønsker.</p>
       <p class="home-feedback">
         <button class="home-feedback__button" type="button" data-mail-user="nasjonalarkitektur" data-mail-domain="digdir.no">Send tilbakemelding på e-post</button>
-        <span class="home-feedback__address" data-mail-address aria-live="polite"></span>
       </p>
       <script>
       (function () {
         const button = document.querySelector(".home-feedback__button");
-        const addressLabel = document.querySelector("[data-mail-address]");
-        if (!button || !addressLabel) {
+        if (!button) {
           return;
         }
 
         const user = button.getAttribute("data-mail-user") || "";
         const domain = button.getAttribute("data-mail-domain") || "";
         const address = `${user}@${domain}`;
-        addressLabel.textContent = `E-post: ${address}`;
 
         button.addEventListener("click", function () {
-          const subject = encodeURIComponent("Tilbakemelding pa Nasjonal arkitektur");
-          const body = encodeURIComponent("Hei,%0D%0A%0D%0AJeg har tilbakemelding pa innholdet:%0D%0A");
+          const subject = encodeURIComponent("Tilbakemelding på prototype for kapabiliteter og ressurser");
+          const body = encodeURIComponent("Hei,\r\n\r\nJeg har tilbakemelding på innholdet:\r\n");
           const mailtoUrl = `mailto:${address}?subject=${subject}&body=${body}`;
           const popup = window.open(mailtoUrl, "_blank", "noopener,noreferrer");
           if (!popup) {
