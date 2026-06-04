@@ -3,13 +3,14 @@
 {{ $isCapabilitySection := eq .Section "kapabiliteter" }}
 {{ $sections := .Site.Sections.ByWeight }}
 {{ $resourceOverviewPage := .Site.GetPage "/ressursoversikt" }}
+{{ $capabilitiesPage := .Site.GetPage "/kapabiliteter" }}
+{{ $principlesPage := .Site.GetPage "/prinsipper" }}
 {{ $resourceCount := 0 }}
 {{ with $resourceOverviewPage }}
   {{ $resourceCount = len (findRE `class="resource-card"` .RawContent) }}
 {{ end }}
 {{ $capabilityPages := where .Site.Pages "Section" "kapabiliteter" }}
 {{ $capabilityCount := sub (len $capabilityPages) 1 }}
-{{ $principlesPage := .Site.GetPage "/prinsipper" }}
 {{ $principleCount := 0 }}
 {{ with $principlesPage }}
   {{ $principleCount = len (uniq (findRE `class="principle-panel__code">P[0-9]+<` .RawContent)) }}
@@ -20,7 +21,6 @@
   <div class="home-hero__content content-card">
     <div class="content-card__header content-card__header--home">
       <p class="content-card__eyebrow">Nasjonal arkitektur</p>
-      <h1>{{ .Title }}</h1>
       <p class="home-hero__lead">Denne prototypen samler arbeidsgrunnlag for nasjonal arkitektur i en lesbar dokumentasjonsflate. Start i kapabiliteter, prinsipper eller ressursoversikt, og bruk dashboardet for rask status.</p>
     </div>
     <div class="content-card__body">
@@ -28,17 +28,17 @@
         <a class="home-actions__card" href="{{ "ressursoversikt/" | relURL }}">
           <span class="home-actions__label">Finn ressurs</span>
           <strong>Gå til ressursoversikten</strong>
-          <p>Filtrer på eier, type og kapabilitet for å finne aktuelle ressurser raskt.</p>
+          <p>{{ with $resourceOverviewPage }}{{ .Description }}{{ else }}Inngang til ressursbeskrivelser som understøtter kapabilitetene i modellen.{{ end }}</p>
         </a>
         <a class="home-actions__card" href="{{ "kapabiliteter/" | relURL }}">
           <span class="home-actions__label">Utforsk struktur</span>
           <strong>Se kapabilitetene</strong>
-          <p>Start i modellen og gå videre til delkapabiliteter og relevante ressurser.</p>
+          <p>{{ with $capabilitiesPage }}{{ .Description }}{{ else }}Oversikt over hovedkapabiliteter, delkapabiliteter og hvilke produkter som støtter dem.{{ end }}</p>
         </a>
         <a class="home-actions__card" href="{{ "prinsipper/" | relURL }}">
           <span class="home-actions__label">Les føringer</span>
           <strong>Gå til prinsippene</strong>
-          <p>Bruk prinsippene som styrende grunnlag i analyse, prioritering og utforming.</p>
+          <p>{{ with $principlesPage }}{{ .Description }}{{ else }}Arkitekturprinsipper som gir retning for samhandling, gjenbruk, tillit og styring i nasjonal arkitektur.{{ end }}</p>
         </a>
       </div>
 
@@ -61,11 +61,14 @@
 </section>
 {{ end }}
 
-{{ if not .IsHome }}
 <article class="content-card{{ if and $isCapabilitySection (not .IsHome) }} content-card--capability-intro{{ end }}">
   <header class="content-card__header">
+    {{ if .IsHome }}
+    <p class="content-card__eyebrow">Om innholdet</p>
+    {{ else }}
     <p class="content-card__eyebrow">{{ with .Params.eyebrow }}{{ . }}{{ else }}Seksjon{{ end }}</p>
     <h1>{{ with .Params.headerTitle }}{{ . }}{{ else }}{{ .Title }}{{ end }}</h1>
+    {{ end }}
   </header>
 
   <div class="content-card__body">
@@ -74,7 +77,6 @@
     </div>
   </div>
 </article>
-{{ end }}
 
 {{ if and (gt (len $pages) 0) $isCapabilitySection }}
 <section class="section-overview section-overview--capabilities">
