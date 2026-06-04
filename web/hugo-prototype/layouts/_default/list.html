@@ -21,7 +21,36 @@
   <div class="home-hero__content content-card">
     <div class="content-card__header content-card__header--home">
       <p class="content-card__eyebrow">Nasjonal arkitektur</p>
-      <p class="home-hero__lead">Denne prototypen samler arbeidsgrunnlag for nasjonal arkitektur i en lesbar dokumentasjonsflate. Start i kapabiliteter, prinsipper eller ressursoversikt, og bruk dashboardet for rask status.</p>
+      <p class="home-hero__lead">Her vises innholdet fra Nasjonal arkitekturs nye kapabilitetsmodell for digital samhandling i offentlig sektor.</p>
+      <p class="home-hero__sublead">Utfyllende ressursbeskrivelser er koblet til kapabilitetene. Vi ønsker tilbakemeldinger på innhold, mangler og nye ønsker.</p>
+      <p class="home-feedback">
+        <button class="home-feedback__button" type="button" data-mail-user="nasjonalarkitektur" data-mail-domain="digdir.no">Send tilbakemelding på e-post</button>
+        <span class="home-feedback__address" data-mail-address aria-live="polite"></span>
+      </p>
+      <script>
+      (function () {
+        const button = document.querySelector(".home-feedback__button");
+        const addressLabel = document.querySelector("[data-mail-address]");
+        if (!button || !addressLabel) {
+          return;
+        }
+
+        const user = button.getAttribute("data-mail-user") || "";
+        const domain = button.getAttribute("data-mail-domain") || "";
+        const address = `${user}@${domain}`;
+        addressLabel.textContent = `E-post: ${address}`;
+
+        button.addEventListener("click", function () {
+          const subject = encodeURIComponent("Tilbakemelding pa Nasjonal arkitektur");
+          const body = encodeURIComponent("Hei,%0D%0A%0D%0AJeg har tilbakemelding pa innholdet:%0D%0A");
+          const mailtoUrl = `mailto:${address}?subject=${subject}&body=${body}`;
+          const popup = window.open(mailtoUrl, "_blank", "noopener,noreferrer");
+          if (!popup) {
+            window.location.href = mailtoUrl;
+          }
+        });
+      })();
+      </script>
     </div>
     <div class="content-card__body">
       <div class="home-actions">

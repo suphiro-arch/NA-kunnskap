@@ -1085,9 +1085,43 @@ a:hover {
 
 .home-hero__lead {
   margin: 0.7rem 0 0;
-  max-width: 44rem;
+  max-width: 72rem;
   color: var(--ink-body);
   font-size: 1.05rem;
+}
+
+.home-hero__sublead {
+  margin: 0.5rem 0 0;
+  max-width: 72rem;
+  color: var(--ink-body);
+}
+
+.home-feedback {
+  margin: 0.65rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem 0.8rem;
+  align-items: center;
+}
+
+.home-feedback__button {
+  border: 1px solid #b8cbbb;
+  border-radius: 999px;
+  padding: 0.35rem 0.75rem;
+  background: #eef5ef;
+  color: var(--brand-deep);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.home-feedback__button:hover {
+  background: #e2efe5;
+}
+
+.home-feedback__address {
+  color: var(--ink-muted);
+  font-size: 0.92rem;
 }
 
 .home-actions {
