@@ -2284,17 +2284,17 @@
         {
             "product_id": 64,
             "product_name": "HPR",
-            "version": 1,
+            "version": 2,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/64-HPR-produkt-canvas-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/64-HPR-produkt-canvas-v1-codex.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/64-HPR-produkt-canvas-v2-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/64-HPR-produkt-canvas-v2-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
                     "capability_name": "Datakilder",
                     "capability_slug": "datakilder",
                     "mapping_label": "Datakilder: Grunndata",
-                    "explanation": "HPR fungerer som en nasjonal grunndatakilde for opplysninger om helsepersonell, autorisasjon og tilknyttede godkjenninger.",
+                    "explanation": "HPR er den autoritative kilden for grunnleggende opplysninger om helsepersonell og offentlig godkjenningsstatus som andre aktører legger til grunn.",
                     "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
                     "subcapability_name": "Grunndata",
                     "subcapability_slug": "grunndata"
@@ -2304,7 +2304,7 @@
                     "capability_name": "Datautveksling og integrasjon",
                     "capability_slug": "datautveksling-og-integrasjon",
                     "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "Registeret gjør sentrale opplysninger tilgjengelige for andre aktører som trenger dem til oppslag, kontroll, tilgangsstyring og saksbehandling.",
+                    "explanation": "Registeret deler statusopplysninger gjennom offentlig søk og kontrollert datatilgang for aktører som har rettslig grunnlag for oppslag og videre bruk.",
                     "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
                     "subcapability_name": "Dele data med andre",
                     "subcapability_slug": "dele-data-med-andre"
@@ -2914,10 +2914,10 @@
         {
             "product_id": 89,
             "product_name": "Rammeverk for informasjonsforvaltning",
-            "version": 1,
+            "version": 2,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/89-Rammeverk-for-informasjonsforvaltning-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/89-Rammeverk-for-informasjonsforvaltning-v1-codex.md",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/89-Rammeverk-for-informasjonsforvaltning-v2-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/89-Rammeverk-for-informasjonsforvaltning-v2-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-896e4c1434604caa891b94bcce964720",
@@ -2927,7 +2927,7 @@
                     "subcapability_name": "Datastyring",
                     "subcapability_slug": "datastyring",
                     "mapping_label": "Informasjonsforvaltning: Datastyring",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Rammeverk for informasjonsforvaltning basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Rammeverket gjør datastyring til et styrt virksomhetsområde ved å koble ansvar, metadata, orden i eget hus og delingsbehov til samme arbeidslogikk."
                 },
                 {
                     "capability_id": "id-896e4c1434604caa891b94bcce964720",
@@ -2937,7 +2937,7 @@
                     "subcapability_name": "Informasjonsarkitektur",
                     "subcapability_slug": "informasjonsarkitektur",
                     "mapping_label": "Informasjonsforvaltning: Informasjonsarkitektur",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Rammeverk for informasjonsforvaltning basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Rammeverket gir retning for begrepsarbeid, informasjonsmodeller og sammenheng mellom beskrivelser av data på tvers av virksomheter."
                 },
                 {
                     "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
@@ -2947,7 +2947,7 @@
                     "subcapability_name": "Forvaltningsstandarder",
                     "subcapability_slug": "forvaltningsstandarder",
                     "mapping_label": "Standardisering: Forvaltningsstandarder",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Rammeverk for informasjonsforvaltning basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Rammeverket peker virksomheter inn mot felles standarder, spesifikasjoner og beskrivelser som må brukes samlet for å få mer konsistent informasjonsforvaltning."
                 }
             ]
         },
@@ -3414,10 +3414,10 @@
         {
             "product_id": 109,
             "product_name": "Kapabilitetskart (planlagt)",
-            "version": 1,
+            "version": 2,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/109-Kapabilitetskart-planlagt-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/109-Kapabilitetskart-planlagt-v1-codex.md",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/109-Kapabilitetskart-planlagt-v2-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/109-Kapabilitetskart-planlagt-v2-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
@@ -3427,7 +3427,7 @@
                     "subcapability_name": "Arkitekturstyring",
                     "subcapability_slug": "arkitekturstyring",
                     "mapping_label": "Strategisk styring: Arkitekturstyring",
-                    "explanation": "Kan gjøre det lettere å strukturere prioriteringer, avhengigheter og styringsbehov i nasjonal arkitektur."
+                    "explanation": "Kapabilitetsoversikten gir et felles språk for å prioritere tiltak, identifisere gap og løfte arkitekturbeslutninger til riktig nivå i nasjonal arkitektur."
                 },
                 {
                     "capability_id": "id-896e4c1434604caa891b94bcce964720",
@@ -3437,7 +3437,7 @@
                     "subcapability_name": "Datastyring",
                     "subcapability_slug": "datastyring",
                     "mapping_label": "Informasjonsforvaltning: Datastyring",
-                    "explanation": "Kan koble datadelingsbehov og informasjonsforvaltning til mer presise utviklings- og styringsbehov."
+                    "explanation": "Kapabilitetskartet gjør det lettere å koble informasjonsbehov, datadeling og ressursvalg til mer presise utviklings- og styringsbehov."
                 }
             ]
         },

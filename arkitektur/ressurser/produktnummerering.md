@@ -81,7 +81,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | 86 | `DIGDIR-026` | Referansekatalogen for IT-standarder | Standarder og veiledning | Standardkatalog | Forvaltningsstandarder<br>Informasjonsarkitektur | [Åpne](../../arkitektur/ressurser/normerende-ressurser/86-Referansekatalogen-for-IT-standarder-v1-codex.md) |
 | 87 | `DIGDIR-027` | Arkitektur for hendelser | Standarder og veiledning | Referansearkitektur | Hendelsesdrevet<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/normerende-ressurser/87-Arkitektur-for-hendelser-v1-codex.md) |
 | 88 | `DIGDIR-028` | Arkitektur- og standardiseringsrådet | Samhandlingsarenaer og organisering | Arkitekturråd | Samarbeidsarenaer og nettverk<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/samarbeidsfora/88-Arkitektur-og-standardiseringsradet-v1-codex.md) |
-| 89 | `DIGDIR-029` | Rammeverk for informasjonsforvaltning | Standarder og veiledning | Rammeverk | Datastyring<br>Informasjonsarkitektur<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/normerende-ressurser/89-Rammeverk-for-informasjonsforvaltning-v1-codex.md) |
+| 89 | `DIGDIR-029` | Rammeverk for informasjonsforvaltning | Standarder og veiledning | Rammeverk | Datastyring<br>Informasjonsarkitektur<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/normerende-ressurser/89-Rammeverk-for-informasjonsforvaltning-v2-codex.md) |
 | 98 | `DIGDIR-030` | Overordnede arkitekturprinsipper for offentlig sektor | Standarder og veiledning | Prinsipper | Forvaltningsstandarder<br>Arkitekturstyring | [Åpne](../../arkitektur/ressurser/normerende-ressurser/98-Overordnede-arkitekturprinsipper-for-offentlig-sektor-v1-codex.md) |
 | 99 | `DIGDIR-031` | Sjekkliste for sammenhengende tjenester | Standarder og veiledning | Veileder | Sammenhengende tjenester<br>Tjenestedesign<br>Veiledning | [Åpne](../../arkitektur/ressurser/normerende-ressurser/99-Sjekkliste-for-sammenhengende-tjenester-v1-codex.md) |
 | 100 | `DIGDIR-032` | Kart for tjenestekjeder | Standarder og veiledning | Metodeverktøy | Tjenestekjeder<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/normerende-ressurser/100-Kart-for-tjenestekjeder-v1-codex.md) |
@@ -93,7 +93,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | 106 | `DIGDIR-038` | Nasjonal verktøykasse for deling av data | Standarder og veiledning | Veileder | Dele data med andre<br>Datastyring<br>Veiledning | [Åpne](../../arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v1-codex.md) |
 | 107 | `DIGDIR-039` | Kunnskapsgrunnlag og KPI-er datadeling | Standarder og veiledning | Kunnskapsgrunnlag | Samordning<br>Datastyring | [Åpne](../../arkitektur/ressurser/normerende-ressurser/107-Kunnskapsgrunnlag-og-KPI-er-datadeling-v1-codex.md) |
 | 108 | `DIGDIR-040` | Kunnskapsgrunnlag - dataspaces | Standarder og veiledning | Kunnskapsgrunnlag | Forvaltningsstandarder<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/normerende-ressurser/108-Kunnskapsgrunnlag-dataspaces-v1-codex.md) |
-| 109 | `DIGDIR-041` | Kapabilitetskart (planlagt) | Standarder og veiledning | Kapabilitetsmodell | Arkitekturstyring<br>Datastyring | [Åpne](../../arkitektur/ressurser/normerende-ressurser/109-Kapabilitetskart-planlagt-v1-codex.md) |
+| 109 | `DIGDIR-041` | Kapabilitetskart (planlagt) | Standarder og veiledning | Kapabilitetsmodell | Arkitekturstyring<br>Datastyring | [Åpne](../../arkitektur/ressurser/normerende-ressurser/109-Kapabilitetskart-planlagt-v2-codex.md) |
 | 110 | `DIGDIR-042` | Skate | Samhandlingsarenaer og organisering | Tverrsektoriell samordningsarena | Samarbeidsarenaer og nettverk<br>Samordning | [Åpne](../../arkitektur/ressurser/samarbeidsfora/110-Skate-v1-codex.md) |
 | 111 | `DIGDIR-043` | Digitaliseringsradet | Samhandlingsarenaer og organisering | Radgivende arena | Samarbeidsarenaer og nettverk<br>Arkitekturstyring | [Åpne](../../arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v1-codex.md) |
 | 112 | `DIGDIR-044` | Digitaliseringsrundskrivet | Økonomiske og juridiske rammer og virkemidler | Rundskriv | Samordning<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/rammer-og-virkemidler/112-Digitaliseringsrundskrivet-v2-copilot.md) |
@@ -164,7 +164,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
 |---:|---|---|---|---|---|---|
 | 31 | `HDIR-001` | Helsedata.no | Gjenbrukbare løsninger | Datatilgang | Oversikt over datasett<br>Datastyring<br>Sammenhengende tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v1-codex.md) |
-| 64 | `HDIR-002` | HPR | Gjenbrukbare løsninger | Register over helsepersonell | Grunndata<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/64-HPR-produkt-canvas-v1-codex.md) |
+| 64 | `HDIR-002` | HPR | Gjenbrukbare løsninger | Register over helsepersonell | Grunndata<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/64-HPR-produkt-canvas-v2-codex.md) |
 
 
 

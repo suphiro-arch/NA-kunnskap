@@ -51,6 +51,7 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Bruk `sources/links.md` som førstevalg for eksterne kilder.
 - Gå bredere enn lenkene i `sources/links.md` bare når de er utilstrekkelige, utdaterte eller utilgjengelige.
 - Hvis arbeidet bruker bredere søk enn `sources/links.md`, skal de ekstra kildene nevnes eksplisitt i dokumentasjonen eller leveransen.
+- Hvis arbeidet bruker nye stabile eksterne URL-er som er relevante for videre ressursarbeid, skal `sources/links.md` oppdateres i samme kjøring så lenge lenkene ikke bare er engangskilder uten gjenbruksverdi.
 - Skill tydelig mellom fakta, deduksjon og usikkerhet.
 - Hvis en påstand ikke kan bekreftes i tilgjengelige kilder, skal dette sies tydelig i teksten.
 
@@ -87,3 +88,4 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Automatiske kjøringer som oppretter eller endrer markdownfiler skal eksplisitt kjøre encoding-kontroll før de avsluttes, ikke bare stole på visuell sjekk eller at hooks eventuelt fanger feil senere.
 - Hvis en automatisk kjøring endrer ressursbeskrivelser, `briefs/`, webgrunnlag eller andre tekstfiler som kan mates videre inn i ressursoversikten eller publiseringsflyten, skal mojibake rettes i samme kjøring før handover gis.
 - Hvis en automatisk kjøring oppretter nye ressursfiler eller andre filer som register, mapping eller publiseringsgrunnlag peker til, skal filene legges til i Git i samme kjøring før handover gis.
+- Hvis en automatisk kjøring bruker nye eksterne lenker som ikke allerede finnes i `sources/links.md`, skal kjøringen vurdere dem for opptak og normalt oppdatere `sources/links.md` i samme runde når lenkene er stabile, offisielle og relevante for senere ressursarbeid.

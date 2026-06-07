@@ -50,6 +50,7 @@ Hvis kildegrunnlaget ikke støtter dette nivået, behold dokumentet som `v0.x` t
 7. **Åpne kilder**: Digdir Docs, Samarbeidsportalen, felles-IKT, produkteier-nettsteder (f.eks. altinn.studio)
 8. **URL-valg:** Bruk som hovedregel de konkrete URL-ene som allerede er listet i `sources/links.md` før du prøver bredere søk
 9. **Utvid bare ved behov:** Gå utover `sources/links.md` kun hvis lenkene der er utilstrekkelige, utdaterte eller utilgjengelige, og dokumenter hvorfor
+10. **Vedlikehold lenkelista:** Hvis du i arbeidet bruker nye stabile og relevante eksterne URL-er som mangler i `sources/links.md`, skal `sources/links.md` normalt oppdateres i samme kjøring før du avslutter arbeidet
 
 ### Trinn 4: Skriv/forbedre innhold
 Følg reglene under.
@@ -216,6 +217,7 @@ Følg reglene under.
 - Bruk både offisielle kilder og praktisk erfaring / dokumentererte use cases
 - For revisjoner: oppgi minst 2 oppdaterte eksterne kilder kontrollert i aktuell arbeidsøkt
 - Prioriter direkte oppslag i URL-er fra `sources/links.md` fremfor brede nettsøk
+- Hvis du ender med å bruke eksterne URL-er som mangler i `sources/links.md`, skal du normalt legge dem inn der i samme endringssett når de har varig kildeverdi for repoet
 
 ---
 

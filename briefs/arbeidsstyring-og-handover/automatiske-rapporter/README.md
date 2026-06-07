@@ -29,6 +29,7 @@ Minimumskrav før kjøringen avsluttes:
 - legg nye filer til i Git når rapport, register, mapping eller annet publiseringsgrunnlag peker til dem
 - oppgi i rapporten hvilke filer som faktisk ble endret
 - oppgi om kjøringen bare vurderte innhold, eller også oppdaterte kilder, register, webgrunnlag eller andre avledede filer
+- oppdatere `sources/links.md` i samme kjøring hvis rapporten eller ressursarbeidet tar i bruk nye stabile eksterne lenker som mangler i lenkelista
 
 Når en automatisk kjøring endrer tekstfiler som kan påvirke publisert innhold eller videre generering, skal den normalt kjøre minst disse kontrollene:
 

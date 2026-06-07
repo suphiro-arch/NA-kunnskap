@@ -31,6 +31,7 @@ Formål: Sikre lik, analysevennlig og beslutningsrelevant utfylling av ressursbe
 5. `arkitektur/ressurser/produktnummerering.md`
 6. `sources/links.md`
 7. Åpne kilder som bekrefter hjemmel, forvalter, virkeområde, binding og praktisk bruk
+8. Hvis du bruker nye stabile og relevante eksterne URL-er som mangler i `sources/links.md`, skal `sources/links.md` normalt oppdateres i samme kjøring
 
 ### Trinn 5: Skriv for analysebruk
 Beskriv ressursen slik at den kan brukes senere i:
@@ -99,6 +100,7 @@ Dette betyr at teksten må svare tydelig på:
 - Ikke bruk `Status/Livsfase` om dokumentutkastet; feltet gjelder selve ressursen.
 - Behold hele malstrukturen også i v0.x-versjoner.
 - Hvis et felt ikke kan fylles godt nok ennå, skriv `Foreløpig ikke fylt ut i v0.1.`
+- Hvis nye eksterne kilder tas i bruk fordi `sources/links.md` ikke var tilstrekkelig, skal disse normalt legges inn i `sources/links.md` når de er stabile og relevante for senere arbeid
 
 ### Forventet nivå i v1
 

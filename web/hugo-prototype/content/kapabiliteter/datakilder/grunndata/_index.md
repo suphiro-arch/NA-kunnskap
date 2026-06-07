@@ -69,8 +69,8 @@ Evne til å identifisere og formelt anerkjenne autoritative datakilder basert p�
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/64-HPR-produkt-canvas-v1-codex.md">HPR</a></h3>
-    <p class="capability-product-link__description">HPR fungerer som en nasjonal grunndatakilde for opplysninger om helsepersonell, autorisasjon og tilknyttede godkjenninger.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/64-HPR-produkt-canvas-v2-codex.md">HPR</a></h3>
+    <p class="capability-product-link__description">HPR er den autoritative kilden for grunnleggende opplysninger om helsepersonell og offentlig godkjenningsstatus som andre aktører legger til grunn.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>

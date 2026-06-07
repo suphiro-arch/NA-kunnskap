@@ -31,6 +31,7 @@ Formål: Sikre lik, analysevennlig og beslutningsrelevant utfylling av ressursbe
 5. `arkitektur/ressurser/produktnummerering.md`
 6. `sources/links.md`
 7. Åpne kilder som bekrefter mandat, deltakere, forvalter og scope
+8. Hvis du bruker nye stabile og relevante eksterne URL-er som mangler i `sources/links.md`, skal `sources/links.md` normalt oppdateres i samme kjøring
 
 ### Trinn 5: Skriv for analysebruk
 Beskriv forumet slik at det kan brukes senere i:
@@ -112,6 +113,7 @@ Dette betyr at teksten må svare tydelig på:
 - Hvis et felt ikke kan fylles godt nok ennå, skriv `Foreløpig ikke fylt ut i v0.1.`
 - Hvis et felt ikke passer for ressurstypen, skriv `Ikke relevant` og forklar kort hvorfor når det er nyttig for analyse.
 - For åpne nettfora og lavterskelarenaer skal formelle forumfelt tolkes fleksibelt: beskriv faktisk rolle, deltakelse, kanal og påvirkning, men ikke konstruer mandat, beslutningsmyndighet eller saksbehandling der kildene viser en åpen dialogarena.
+- Hvis nye eksterne kilder tas i bruk fordi `sources/links.md` ikke var tilstrekkelig, skal disse normalt legges inn i `sources/links.md` når de er stabile og relevante for senere arbeid
 
 ### Forventet nivå i v1
 

@@ -24,8 +24,8 @@ Evne til å etablere, forvalte og styre en helhetlig nasjonal digital arkitektur
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/109-Kapabilitetskart-planlagt-v1-codex.md">Kapabilitetskart (planlagt)</a></h3>
-    <p class="capability-product-link__description">Kan gjøre det lettere å strukturere prioriteringer, avhengigheter og styringsbehov i nasjonal arkitektur.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/109-Kapabilitetskart-planlagt-v2-codex.md">Kapabilitetskart (planlagt)</a></h3>
+    <p class="capability-product-link__description">Kapabilitetsoversikten gir et felles språk for å prioritere tiltak, identifisere gap og løfte arkitekturbeslutninger til riktig nivå i nasjonal arkitektur.</p>
   </article>
   <article class="capability-product-link resource-type--forum">
     <p class="capability-product-link__type">Samarbeidsforum</p>
