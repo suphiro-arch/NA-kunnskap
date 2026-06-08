@@ -30,6 +30,28 @@ Minimumskrav før kjøringen avsluttes:
 - oppgi i rapporten hvilke filer som faktisk ble endret
 - oppgi om kjøringen bare vurderte innhold, eller også oppdaterte kilder, register, webgrunnlag eller andre avledede filer
 - oppdatere `sources/links.md` i samme kjøring hvis rapporten eller ressursarbeidet tar i bruk nye stabile eksterne lenker som mangler i lenkelista
+- bruke minst mulig eskalering når Git-steg krever skriving til `.git`
+
+## Smal Git-prosedyre for automatiske kjøringer
+
+Når automasjonen kjører i et miljø der vanlige repo-filer er skrivbare, men `.git` er låst uten eskalering, skal denne rekkefølgen brukes:
+
+1. Gjør alt innholdsarbeid uten eskalering:
+   - oppdater ressursfiler, register, mapping, rapporter, `sources/links.md` og eventuelt generert webgrunnlag
+2. Kjør alle faglige og tekniske kontroller uten eskalering:
+   - versjonssynk
+   - encoding-kontroll
+   - mojibake-sjekk
+   - relevante generatorer og eventuelle repo-spesifikke verifikasjoner
+3. Eskaler først når resultatet er klart for publisering:
+   - `git add -A`
+   - `git commit -m "<presis melding>"`
+   - `git push origin main`
+
+Prinsipp:
+- Ikke eskaler skript, søk, lesing, skriving av vanlige repo-filer eller validering hvis de kan kjøres utenfor `.git`.
+- Eskaler bare de Git-kommandoene som faktisk trenger å oppdatere indeks eller refs.
+- Hvis validering feiler, stopp før Git-eskalering og rett innholdet først.
 
 Når en automatisk kjøring endrer tekstfiler som kan påvirke publisert innhold eller videre generering, skal den normalt kjøre minst disse kontrollene:
 
