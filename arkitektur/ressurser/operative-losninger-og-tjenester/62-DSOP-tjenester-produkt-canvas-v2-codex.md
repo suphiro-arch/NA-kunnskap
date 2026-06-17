@@ -159,7 +159,6 @@ Vurdering av svakheter og spenninger:
 - Lokal fil: `arkitektur/prinsipper/principles.md`
 - Lokal fil: `arkitektur/ressurser/produktnummerering.md`
 - Lokal fil: `arkitektur/ressurser/samarbeidsfora/123-DSOP-samarbeidet-v1-codex.md`
-- Lokal fil: `briefs/arbeidsstyring-og-handover/automatiske-rapporter/2026-05-08-kvalitetsrapport-ressursbeskrivelser-v1.md`
 - Lokal fil: `sources/links.md`
 - Nettkilde fra repoets lenkegrunnlag: https://www.dsop.no/ (ikke rekontrollert direkte i denne arbeidsøkten)
 - Nettkilde fra repoets lenkegrunnlag: https://dokumentasjon.dsop.no/ (ikke rekontrollert direkte i denne arbeidsøkten)

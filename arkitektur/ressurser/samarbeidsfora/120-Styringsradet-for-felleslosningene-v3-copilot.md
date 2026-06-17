@@ -220,7 +220,6 @@ Vurdering av svakheter og spenninger:
 - Lokal fil: `arkitektur/ressurser/produktnummerering.md`
 - Lokal fil: `arkitektur/ressurser/samarbeidsfora/88-Arkitektur-og-standardiseringsradet-v1-codex.md`
 - Lokal fil: `arkitektur/ressurser/samarbeidsfora/121-Faglig-arena-for-informasjonsforvaltning-og-deling-av-data-v1-codex.md`
-- Lokal fil: `briefs/arbeidsstyring-og-handover/automatiske-rapporter/2026-05-08-kvalitetsrapport-ressursbeskrivelser-v1.md`
 - Lokal fil: `sources/links.md`
 - Nettkilde: https://samarbeid.digdir.no/digital-postkasse/mandat-styringsradet/128 (mandatet – rekontrollert direkte, v3)
 - Nettkilde: https://samarbeid.digdir.no/digital-postkasse/styringsradets-medlemmer/655 (medlemmer – rekontrollert direkte, v3)

@@ -162,7 +162,6 @@ Vurdering av svakheter og spenninger:
 - Lokal fil: `arkitektur/ressurser/operative-losninger-og-tjenester/32-Helsenorge-produkt-canvas-v1-codex.md`
 - Lokal fil: `arkitektur/ressurser/operative-losninger-og-tjenester/33-HelseID-produkt-canvas-v1-codex.md`
 - Lokal fil: `arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v1-codex.md`
-- Lokal fil: `briefs/arbeidsstyring-og-handover/automatiske-rapporter/2026-05-08-kvalitetsrapport-ressursbeskrivelser-v1.md`
 - Lokal fil: `sources/links.md`
 - Nettkilde fra repoets lenkegrunnlag: https://www.nhn.no/tjenester/kjernejournal/om-tjenesten (ikke rekontrollert direkte i denne arbeidsøkten)
 - Nettkilde fra repoets lenkegrunnlag: https://www.helsenorge.no/helseopplysninger-som-deles/kjernejournal/ (ikke rekontrollert direkte i denne arbeidsøkten)
