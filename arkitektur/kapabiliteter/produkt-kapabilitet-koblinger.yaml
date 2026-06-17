@@ -293,10 +293,10 @@
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
                     "capability_name": "Datautveksling og integrasjon",
                     "capability_slug": "datautveksling-og-integrasjon",
-                    "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                    "subcapability_name": "Meldingsformidling",
-                    "subcapability_slug": "meldingsformidling",
-                    "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                    "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                    "subcapability_name": "Meldingsutveksling",
+                    "subcapability_slug": "meldingsutveksling",
+                    "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                     "explanation": "Standardisert protokoll for meldingsutveksling."
                 },
                 {
@@ -363,10 +363,10 @@
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
                     "capability_name": "Datautveksling og integrasjon",
                     "capability_slug": "datautveksling-og-integrasjon",
-                    "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                    "subcapability_name": "Meldingsformidling",
-                    "subcapability_slug": "meldingsformidling",
-                    "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                    "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                    "subcapability_name": "Meldingsutveksling",
+                    "subcapability_slug": "meldingsutveksling",
+                    "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                     "explanation": "Sikker transport av data via broker"
                 },
                 {
@@ -413,10 +413,10 @@
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
                     "capability_name": "Datautveksling og integrasjon",
                     "capability_slug": "datautveksling-og-integrasjon",
-                    "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                    "subcapability_name": "Meldingsformidling",
-                    "subcapability_slug": "meldingsformidling",
-                    "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                    "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                    "subcapability_name": "Meldingsutveksling",
+                    "subcapability_slug": "meldingsutveksling",
+                    "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                     "explanation": "gir en felles og standardisert kanal for å sende post og motta kvitteringer mellom offentlige avsendere, meldingsformidler og postkasseleverandører"
                 },
                 {
@@ -453,10 +453,10 @@
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
                     "capability_name": "Datautveksling og integrasjon",
                     "capability_slug": "datautveksling-og-integrasjon",
-                    "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                    "subcapability_name": "Meldingsformidling",
-                    "subcapability_slug": "meldingsformidling",
-                    "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                    "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                    "subcapability_name": "Meldingsutveksling",
+                    "subcapability_slug": "meldingsutveksling",
+                    "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                     "explanation": "støtter oppslag av mottakeradresse og transportprofil i meldingsutvekslingen"
                 },
                 {
@@ -483,10 +483,10 @@
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
                     "capability_name": "Datautveksling og integrasjon",
                     "capability_slug": "datautveksling-og-integrasjon",
-                    "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                    "subcapability_name": "Meldingsformidling",
-                    "subcapability_slug": "meldingsformidling",
-                    "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                    "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                    "subcapability_name": "Meldingsutveksling",
+                    "subcapability_slug": "meldingsutveksling",
+                    "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                     "explanation": "gir et føderert mønster for standardisert dokumentutveksling mellom virksomheter"
                 },
                 {
@@ -1143,10 +1143,10 @@
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
                     "capability_name": "Datautveksling og integrasjon",
                     "capability_slug": "datautveksling-og-integrasjon",
-                    "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                    "subcapability_name": "Meldingsformidling",
-                    "subcapability_slug": "meldingsformidling",
-                    "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                    "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                    "subcapability_name": "Meldingsutveksling",
+                    "subcapability_slug": "meldingsutveksling",
+                    "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                     "explanation": "håndterer sikker digital utsending og mottak av meldinger med status og livssyklus"
                 },
                 {
@@ -1213,10 +1213,10 @@
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
                     "capability_name": "Datautveksling og integrasjon",
                     "capability_slug": "datautveksling-og-integrasjon",
-                    "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                    "subcapability_name": "Meldingsformidling",
-                    "subcapability_slug": "meldingsformidling",
-                    "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                    "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                    "subcapability_name": "Meldingsutveksling",
+                    "subcapability_slug": "meldingsutveksling",
+                    "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                     "explanation": "brukes til programmatisk utsending og leveringsoppfølging av varsler"
                 },
                 {
@@ -1313,10 +1313,10 @@
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
                     "capability_name": "Datautveksling og integrasjon",
                     "capability_slug": "datautveksling-og-integrasjon",
-                    "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                    "subcapability_name": "Meldingsformidling",
-                    "subcapability_slug": "meldingsformidling",
-                    "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                    "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                    "subcapability_name": "Meldingsutveksling",
+                    "subcapability_slug": "meldingsutveksling",
+                    "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                     "explanation": "gir kommunene en felles tjeneste for å sende meldinger og dokumenter gjennom flere kanaler fra samme løsning."
                 },
                 {
@@ -1353,10 +1353,10 @@
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
                     "capability_name": "Datautveksling og integrasjon",
                     "capability_slug": "datautveksling-og-integrasjon",
-                    "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                    "subcapability_name": "Meldingsformidling",
-                    "subcapability_slug": "meldingsformidling",
-                    "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                    "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                    "subcapability_name": "Meldingsutveksling",
+                    "subcapability_slug": "meldingsutveksling",
+                    "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                     "explanation": "Fiks SvarUt sin kjernefunksjon er å motta, rute og levere dokumentforsendelser til riktig kanal og mottaker."
                 },
                 {
@@ -1633,11 +1633,11 @@
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
                     "capability_name": "Datautveksling og integrasjon",
                     "capability_slug": "datautveksling-og-integrasjon",
-                    "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                    "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                     "explanation": "Produktets kjerne er sikker formidling av reseptrelatert informasjon mellom forskrivere, apotek og andre berørte aktører.",
-                    "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                    "subcapability_name": "Meldingsformidling",
-                    "subcapability_slug": "meldingsformidling"
+                    "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                    "subcapability_name": "Meldingsutveksling",
+                    "subcapability_slug": "meldingsutveksling"
                 },
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
@@ -2093,10 +2093,10 @@
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
                     "capability_name": "Datautveksling og integrasjon",
                     "capability_slug": "datautveksling-og-integrasjon",
-                    "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                    "subcapability_name": "Meldingsformidling",
-                    "subcapability_slug": "meldingsformidling",
-                    "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                    "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                    "subcapability_name": "Meldingsutveksling",
+                    "subcapability_slug": "meldingsutveksling",
+                    "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                     "explanation": "henter innkommende forsendelser fra SvarUt og leverer dem videre til mottakersystemene gjennom et standardisert mottaksløp."
                 },
                 {
@@ -3003,10 +3003,10 @@
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
                     "capability_name": "Datautveksling og integrasjon",
                     "capability_slug": "datautveksling-og-integrasjon",
-                    "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                    "subcapability_name": "Meldingsformidling",
-                    "subcapability_slug": "meldingsformidling",
-                    "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                    "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                    "subcapability_name": "Meldingsutveksling",
+                    "subcapability_slug": "meldingsutveksling",
+                    "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                     "explanation": "Produktets kjerne er trygg transport og levering av bekymringsmeldinger mellom avsender og riktig mottak i kommunen."
                 },
                 {
@@ -3173,10 +3173,10 @@
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
                     "capability_name": "Datautveksling og integrasjon",
                     "capability_slug": "datautveksling-og-integrasjon",
-                    "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                    "subcapability_name": "Meldingsformidling",
-                    "subcapability_slug": "meldingsformidling",
-                    "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                    "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                    "subcapability_name": "Meldingsutveksling",
+                    "subcapability_slug": "meldingsutveksling",
+                    "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                     "explanation": "Foreløpig automatisk opprettet kobling for Referansearkitektur forsendelse (eMelding) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
                 },
                 {
@@ -5404,11 +5404,11 @@
                     "author": "codex",
                     "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/07-eFormidling-produkt-canvas-v3-codex.md",
                     "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/07-eFormidling-produkt-canvas-v3-codex.md",
-                    "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                    "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                     "explanation": "Standardisert protokoll for meldingsutveksling.",
-                    "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                    "subcapability_name": "Meldingsformidling",
-                    "subcapability_slug": "meldingsformidling"
+                    "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                    "subcapability_name": "Meldingsutveksling",
+                    "subcapability_slug": "meldingsutveksling"
                 },
                 {
                     "product_id": 8,
@@ -5443,11 +5443,11 @@
                     "author": "codex",
                     "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/08-Altinn-formidling-produkt-canvas-v3-codex.md",
                     "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/08-Altinn-formidling-produkt-canvas-v3-codex.md",
-                    "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                    "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                     "explanation": "Sikker transport av data via broker",
-                    "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                    "subcapability_name": "Meldingsformidling",
-                    "subcapability_slug": "meldingsformidling"
+                    "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                    "subcapability_name": "Meldingsutveksling",
+                    "subcapability_slug": "meldingsutveksling"
                 },
                 {
                     "product_id": 9,
@@ -5456,11 +5456,11 @@
                     "author": "codex",
                     "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/09-Digital-postkasse-produkt-canvas-v3-codex.md",
                     "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/09-Digital-postkasse-produkt-canvas-v3-codex.md",
-                    "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                    "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                     "explanation": "gir en felles og standardisert kanal for å sende post og motta kvitteringer mellom offentlige avsendere, meldingsformidler og postkasseleverandører",
-                    "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                    "subcapability_name": "Meldingsformidling",
-                    "subcapability_slug": "meldingsformidling"
+                    "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                    "subcapability_name": "Meldingsutveksling",
+                    "subcapability_slug": "meldingsutveksling"
                 },
                 {
                     "product_id": 10,
@@ -5469,11 +5469,11 @@
                     "author": "codex",
                     "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/10-ELMA-produkt-canvas-v3-codex.md",
                     "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/10-ELMA-produkt-canvas-v3-codex.md",
-                    "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                    "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                     "explanation": "støtter oppslag av mottakeradresse og transportprofil i meldingsutvekslingen",
-                    "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                    "subcapability_name": "Meldingsformidling",
-                    "subcapability_slug": "meldingsformidling"
+                    "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                    "subcapability_name": "Meldingsutveksling",
+                    "subcapability_slug": "meldingsutveksling"
                 },
                 {
                     "product_id": 11,
@@ -5482,11 +5482,11 @@
                     "author": "codex",
                     "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/11-Peppol-eDelivery-produkt-canvas-v3-codex.md",
                     "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/11-Peppol-eDelivery-produkt-canvas-v3-codex.md",
-                    "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                    "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                     "explanation": "gir et føderert mønster for standardisert dokumentutveksling mellom virksomheter",
-                    "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                    "subcapability_name": "Meldingsformidling",
-                    "subcapability_slug": "meldingsformidling"
+                    "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                    "subcapability_name": "Meldingsutveksling",
+                    "subcapability_slug": "meldingsutveksling"
                 },
                 {
                     "product_id": 12,
@@ -5599,11 +5599,11 @@
                     "author": "codex",
                     "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/23-Altinn-3-Melding-produkt-canvas-v5-codex.md",
                     "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/23-Altinn-3-Melding-produkt-canvas-v5-codex.md",
-                    "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                    "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                     "explanation": "håndterer sikker digital utsending og mottak av meldinger med status og livssyklus",
-                    "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                    "subcapability_name": "Meldingsformidling",
-                    "subcapability_slug": "meldingsformidling"
+                    "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                    "subcapability_name": "Meldingsutveksling",
+                    "subcapability_slug": "meldingsutveksling"
                 },
                 {
                     "product_id": 24,
@@ -5612,11 +5612,11 @@
                     "author": "codex",
                     "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/24-Varslinger-produkt-canvas-v5-codex.md",
                     "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/24-Varslinger-produkt-canvas-v5-codex.md",
-                    "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                    "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                     "explanation": "brukes til programmatisk utsending og leveringsoppfølging av varsler",
-                    "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                    "subcapability_name": "Meldingsformidling",
-                    "subcapability_slug": "meldingsformidling"
+                    "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                    "subcapability_name": "Meldingsutveksling",
+                    "subcapability_slug": "meldingsutveksling"
                 },
                 {
                     "product_id": 26,
@@ -5625,11 +5625,11 @@
                     "author": "codex",
                     "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/26-FIKS-Melding-produkt-canvas-v2-codex.md",
                     "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/26-FIKS-Melding-produkt-canvas-v2-codex.md",
-                    "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                    "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                     "explanation": "gir kommunene en felles tjeneste for å sende meldinger og dokumenter gjennom flere kanaler fra samme løsning.",
-                    "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                    "subcapability_name": "Meldingsformidling",
-                    "subcapability_slug": "meldingsformidling"
+                    "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                    "subcapability_name": "Meldingsutveksling",
+                    "subcapability_slug": "meldingsutveksling"
                 },
                 {
                     "product_id": 27,
@@ -5638,11 +5638,11 @@
                     "author": "codex",
                     "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/27-FIKS-SvarUt-produkt-canvas-v3-codex.md",
                     "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/27-FIKS-SvarUt-produkt-canvas-v3-codex.md",
-                    "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                    "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                     "explanation": "fordeler dokumenter til flere mottakerkanaler gjennom ett sentralisert utsendingsløp.",
-                    "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                    "subcapability_name": "Meldingsformidling",
-                    "subcapability_slug": "meldingsformidling"
+                    "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                    "subcapability_name": "Meldingsutveksling",
+                    "subcapability_slug": "meldingsutveksling"
                 },
                 {
                     "product_id": 28,
@@ -5716,11 +5716,11 @@
                     "author": "codex",
                     "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/57-SvarInn-produkt-canvas-v1-codex.md",
                     "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/57-SvarInn-produkt-canvas-v1-codex.md",
-                    "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                    "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                     "explanation": "henter innkommende forsendelser fra SvarUt og leverer dem videre til mottakersystemene gjennom et standardisert mottaksløp.",
-                    "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                    "subcapability_name": "Meldingsformidling",
-                    "subcapability_slug": "meldingsformidling"
+                    "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                    "subcapability_name": "Meldingsutveksling",
+                    "subcapability_slug": "meldingsutveksling"
                 },
                 {
                     "product_id": 67,
@@ -5888,7 +5888,7 @@
                     "author": "codex",
                     "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/35-e-resept-produkt-canvas-v1-codex.md",
                     "product_url": "/NA-kunnskap/produkter/35-e-resept-produkt-canvas-v1-codex/",
-                    "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                    "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                     "explanation": "e-resept formidler reseptinformasjon digitalt mellom forskriver, apotek og andre relevante aktører."
                 },
                 {
@@ -6460,9 +6460,9 @@
                     ]
                 },
                 {
-                    "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                    "subcapability_name": "Meldingsformidling",
-                    "subcapability_slug": "meldingsformidling",
+                    "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                    "subcapability_name": "Meldingsutveksling",
+                    "subcapability_slug": "meldingsutveksling",
                     "description": "Evnen til å garantere levering og meldingsrekkefølge til rett mottaker.",
                     "products": [
                         {
@@ -6472,11 +6472,11 @@
                             "author": "codex",
                             "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/07-eFormidling-produkt-canvas-v3-codex.md",
                             "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/07-eFormidling-produkt-canvas-v3-codex.md",
-                            "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                            "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                             "explanation": "Standardisert protokoll for meldingsutveksling.",
-                            "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                            "subcapability_name": "Meldingsformidling",
-                            "subcapability_slug": "meldingsformidling"
+                            "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                            "subcapability_name": "Meldingsutveksling",
+                            "subcapability_slug": "meldingsutveksling"
                         },
                         {
                             "product_id": 8,
@@ -6485,11 +6485,11 @@
                             "author": "codex",
                             "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/08-Altinn-formidling-produkt-canvas-v3-codex.md",
                             "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/08-Altinn-formidling-produkt-canvas-v3-codex.md",
-                            "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                            "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                             "explanation": "Sikker transport av data via broker",
-                            "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                            "subcapability_name": "Meldingsformidling",
-                            "subcapability_slug": "meldingsformidling"
+                            "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                            "subcapability_name": "Meldingsutveksling",
+                            "subcapability_slug": "meldingsutveksling"
                         },
                         {
                             "product_id": 9,
@@ -6498,11 +6498,11 @@
                             "author": "codex",
                             "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/09-Digital-postkasse-produkt-canvas-v3-codex.md",
                             "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/09-Digital-postkasse-produkt-canvas-v3-codex.md",
-                            "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                            "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                             "explanation": "gir en felles og standardisert kanal for å sende post og motta kvitteringer mellom offentlige avsendere, meldingsformidler og postkasseleverandører",
-                            "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                            "subcapability_name": "Meldingsformidling",
-                            "subcapability_slug": "meldingsformidling"
+                            "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                            "subcapability_name": "Meldingsutveksling",
+                            "subcapability_slug": "meldingsutveksling"
                         },
                         {
                             "product_id": 10,
@@ -6511,11 +6511,11 @@
                             "author": "codex",
                             "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/10-ELMA-produkt-canvas-v3-codex.md",
                             "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/10-ELMA-produkt-canvas-v3-codex.md",
-                            "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                            "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                             "explanation": "støtter oppslag av mottakeradresse og transportprofil i meldingsutvekslingen",
-                            "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                            "subcapability_name": "Meldingsformidling",
-                            "subcapability_slug": "meldingsformidling"
+                            "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                            "subcapability_name": "Meldingsutveksling",
+                            "subcapability_slug": "meldingsutveksling"
                         },
                         {
                             "product_id": 11,
@@ -6524,11 +6524,11 @@
                             "author": "codex",
                             "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/11-Peppol-eDelivery-produkt-canvas-v3-codex.md",
                             "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/11-Peppol-eDelivery-produkt-canvas-v3-codex.md",
-                            "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                            "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                             "explanation": "gir et føderert mønster for standardisert dokumentutveksling mellom virksomheter",
-                            "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                            "subcapability_name": "Meldingsformidling",
-                            "subcapability_slug": "meldingsformidling"
+                            "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                            "subcapability_name": "Meldingsutveksling",
+                            "subcapability_slug": "meldingsutveksling"
                         },
                         {
                             "product_id": 23,
@@ -6537,11 +6537,11 @@
                             "author": "codex",
                             "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/23-Altinn-3-Melding-produkt-canvas-v5-codex.md",
                             "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/23-Altinn-3-Melding-produkt-canvas-v5-codex.md",
-                            "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                            "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                             "explanation": "håndterer sikker digital utsending og mottak av meldinger med status og livssyklus",
-                            "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                            "subcapability_name": "Meldingsformidling",
-                            "subcapability_slug": "meldingsformidling"
+                            "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                            "subcapability_name": "Meldingsutveksling",
+                            "subcapability_slug": "meldingsutveksling"
                         },
                         {
                             "product_id": 24,
@@ -6550,11 +6550,11 @@
                             "author": "codex",
                             "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/24-Varslinger-produkt-canvas-v5-codex.md",
                             "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/24-Varslinger-produkt-canvas-v5-codex.md",
-                            "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                            "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                             "explanation": "brukes til programmatisk utsending og leveringsoppfølging av varsler",
-                            "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                            "subcapability_name": "Meldingsformidling",
-                            "subcapability_slug": "meldingsformidling"
+                            "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                            "subcapability_name": "Meldingsutveksling",
+                            "subcapability_slug": "meldingsutveksling"
                         },
                         {
                             "product_id": 26,
@@ -6563,11 +6563,11 @@
                             "author": "codex",
                             "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/26-FIKS-Melding-produkt-canvas-v2-codex.md",
                             "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/26-FIKS-Melding-produkt-canvas-v2-codex.md",
-                            "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                            "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                             "explanation": "gir kommunene en felles tjeneste for å sende meldinger og dokumenter gjennom flere kanaler fra samme løsning.",
-                            "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                            "subcapability_name": "Meldingsformidling",
-                            "subcapability_slug": "meldingsformidling"
+                            "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                            "subcapability_name": "Meldingsutveksling",
+                            "subcapability_slug": "meldingsutveksling"
                         },
                         {
                             "product_id": 27,
@@ -6576,11 +6576,11 @@
                             "author": "codex",
                             "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/27-FIKS-SvarUt-produkt-canvas-v3-codex.md",
                             "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/27-FIKS-SvarUt-produkt-canvas-v3-codex.md",
-                            "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                            "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                             "explanation": "fordeler dokumenter til flere mottakerkanaler gjennom ett sentralisert utsendingsløp.",
-                            "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                            "subcapability_name": "Meldingsformidling",
-                            "subcapability_slug": "meldingsformidling"
+                            "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                            "subcapability_name": "Meldingsutveksling",
+                            "subcapability_slug": "meldingsutveksling"
                         },
                         {
                             "product_id": 57,
@@ -6589,11 +6589,11 @@
                             "author": "codex",
                             "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/57-SvarInn-produkt-canvas-v1-codex.md",
                             "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/57-SvarInn-produkt-canvas-v1-codex.md",
-                            "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                            "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                             "explanation": "henter innkommende forsendelser fra SvarUt og leverer dem videre til mottakersystemene gjennom et standardisert mottaksløp.",
-                            "subcapability_id": "id-b503993b59044b83b3c38fb179fa732c",
-                            "subcapability_name": "Meldingsformidling",
-                            "subcapability_slug": "meldingsformidling"
+                            "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                            "subcapability_name": "Meldingsutveksling",
+                            "subcapability_slug": "meldingsutveksling"
                         },
                         {
                             "product_id": 35,
@@ -6602,7 +6602,7 @@
                             "author": "codex",
                             "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/35-e-resept-produkt-canvas-v1-codex.md",
                             "product_url": "/NA-kunnskap/produkter/35-e-resept-produkt-canvas-v1-codex/",
-                            "mapping_label": "Datautveksling og integrasjon: Meldingsformidling",
+                            "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                             "explanation": "e-resept formidler reseptinformasjon digitalt mellom forskriver, apotek og andre relevante aktører."
                         }
                     ]
@@ -9860,3 +9860,4 @@
         }
     ]
 }
+

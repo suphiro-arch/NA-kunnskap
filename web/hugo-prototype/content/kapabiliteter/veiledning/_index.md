@@ -2,7 +2,7 @@
 title: "Veiledning"
 eyebrow: "Kapabilitet"
 weight: 12
-description: "Evne til at veiledninger for digital samhandling utarbeides og benyttes i felles økosystem."
+description: "Evne til å sikre at veiledninger for digital samhandling utarbeides, formidles og benyttes. Dette innebærer: * Beskrivelser av beste praksis * Omforente prinsipper, mønstre og standarder for hvordan løsninger skal bygges for å fungere optimalt, sikkert og sammenhengende i det nasjonale økosystemet. * Referansearkitekturer * hva som er god faglig praksis * hvordan relevant regelverk skal tolkes * hvilke prioriteringer som er i samsvar med vedtatt politikk Veiledere kan ha ulik grad av styrke: * Bør benyttes: en sterk anbefaling/råd som vil gjelde de aller fleste. Denne er så klart faglig forankret at det sjelden er forsvarlig ikke å gjøre som anbefalt * Kan eller foreslår: en svak anbefaling/råd der ulike valg kan være riktig."
 cardMeta: "2 delkapabiliteter / 6 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
@@ -35,4 +35,4 @@ productsMarkdown: |
   </div>
 ---
 
-Evne til at veiledninger for digital samhandling utarbeides og benyttes i felles økosystem.
+Evne til å sikre at veiledninger for digital samhandling utarbeides, formidles og benyttes. Dette innebærer: * Beskrivelser av beste praksis * Omforente prinsipper, mønstre og standarder for hvordan løsninger skal bygges for å fungere optimalt, sikkert og sammenhengende i det nasjonale økosystemet. * Referansearkitekturer * hva som er god faglig praksis * hvordan relevant regelverk skal tolkes * hvilke prioriteringer som er i samsvar med vedtatt politikk Veiledere kan ha ulik grad av styrke: * Bør benyttes: en sterk anbefaling/råd som vil gjelde de aller fleste. Denne er så klart faglig forankret at det sjelden er forsvarlig ikke å gjøre som anbefalt * Kan eller foreslår: en svak anbefaling/råd der ulike valg kan være riktig.

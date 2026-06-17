@@ -2,7 +2,7 @@
 title: "Samarbeid"
 eyebrow: "Kapabilitet"
 weight: 2
-description: "Evne til å samarbeid og samhandling på tvers av offentlig og privat forvaltning."
+description: "Evne til å samarbeid og samhandling på tvers av offentlig og privat forvaltning. ### Begrunnelse (Hvorfor) Sammenhengende tjenester kan ikke bygges i isolasjon. Aktørene i økosystemet må fungere som ett lag for å løse felles utfordringer, unngå dobbeltarbeid og bryte ned silotenking. Denne overordnede pilaren eksisterer for å sikre helhetlig samfunnsverdi og felles strategisk retning. Den løser problemet med at virksomheter prioriterer interne oppgaver fremfor tverrgående brukerreiser. ### Hva det innebærer (Omfang) - **Organisatorisk (Svært høy vekt):** Overordnede styringsmodeller, samstyring og finansiering koordinerer samhandlingsmodeller og avtaler for å tilpasse tjenestekjeder og prosesser. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten bygger bro mellom organisatoriske siloer og sikrer overordnet strategisk koordinering. Når man er enige om prioriteringer, økonomi og spilleregler på forhånd, sikres et tydelig mandat for samarbeid. Dette gir de operative teamene fundamentet de trenger for å binde tjenester sammen til en uavbrutt og guidet reise, slik at sluttbrukeren opplever forvaltningen som én samordnet aktør."
 cardMeta: "3 delkapabiliteter / 32 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
@@ -139,4 +139,4 @@ productsMarkdown: |
   </div>
 ---
 
-Evne til å samarbeid og samhandling på tvers av offentlig og privat forvaltning.
+Evne til å samarbeid og samhandling på tvers av offentlig og privat forvaltning. ### Begrunnelse (Hvorfor) Sammenhengende tjenester kan ikke bygges i isolasjon. Aktørene i økosystemet må fungere som ett lag for å løse felles utfordringer, unngå dobbeltarbeid og bryte ned silotenking. Denne overordnede pilaren eksisterer for å sikre helhetlig samfunnsverdi og felles strategisk retning. Den løser problemet med at virksomheter prioriterer interne oppgaver fremfor tverrgående brukerreiser. ### Hva det innebærer (Omfang) - **Organisatorisk (Svært høy vekt):** Overordnede styringsmodeller, samstyring og finansiering koordinerer samhandlingsmodeller og avtaler for å tilpasse tjenestekjeder og prosesser. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten bygger bro mellom organisatoriske siloer og sikrer overordnet strategisk koordinering. Når man er enige om prioriteringer, økonomi og spilleregler på forhånd, sikres et tydelig mandat for samarbeid. Dette gir de operative teamene fundamentet de trenger for å binde tjenester sammen til en uavbrutt og guidet reise, slik at sluttbrukeren opplever forvaltningen som én samordnet aktør.
