@@ -1454,10 +1454,10 @@
         {
             "product_id": 31,
             "product_name": "Helsedata.no",
-            "version": 1,
+            "version": 2,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v1-codex.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v2-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v2-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-e4f1672b38f14f57af2f8e85f34ffa88",
@@ -4374,50 +4374,10 @@
         {
             "product_id": 135,
             "product_name": "Norsk pasientregister (NPR)",
-            "version": 1,
+            "version": 2,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v1-codex.md",
-            "capabilities": [
-                {
-                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
-                    "capability_name": "Datakilder",
-                    "capability_slug": "datakilder",
-                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
-                    "subcapability_name": "Grunndata",
-                    "subcapability_slug": "grunndata",
-                    "mapping_label": "Datakilder: Grunndata",
-                    "explanation": "NPR er nasjonal autoritativ datakilde for aktivitet og pasientforlop i spesialisthelsetjenesten."
-                },
-                {
-                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-                    "capability_name": "Datautveksling og integrasjon",
-                    "capability_slug": "datautveksling-og-integrasjon",
-                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
-                    "subcapability_name": "Dele data med andre",
-                    "subcapability_slug": "dele-data-med-andre",
-                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "NPR-data deles kontrollert for styring, kvalitetssikring og forskning gjennom etablerte tilgangsprosesser."
-                },
-                {
-                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
-                    "capability_name": "Informasjonsforvaltning",
-                    "capability_slug": "informasjonsforvaltning",
-                    "subcapability_id": "id-5852d070415849fab42749cb488d984a",
-                    "subcapability_name": "Datastyring",
-                    "subcapability_slug": "datastyring",
-                    "mapping_label": "Informasjonsforvaltning: Datastyring",
-                    "explanation": "NPR understotter nasjonal styring og finansiering av spesialisthelsetjenesten med systematisk aktivitetsdata."
-                }
-            ]
-        },
-        {
-            "product_id": 135,
-            "product_name": "Norsk pasientregister (NPR)",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v1-codex.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v2-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v2-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
@@ -4454,50 +4414,10 @@
         {
             "product_id": 136,
             "product_name": "Kommunalt pasient- og brukerregister (KPR)",
-            "version": 1,
+            "version": 2,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v1-codex.md",
-            "capabilities": [
-                {
-                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
-                    "capability_name": "Datakilder",
-                    "capability_slug": "datakilder",
-                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
-                    "subcapability_name": "Grunndata",
-                    "subcapability_slug": "grunndata",
-                    "mapping_label": "Datakilder: Grunndata",
-                    "explanation": "KPR er nasjonal autoritativ datakilde for aktivitet og tjenestebruk i kommunale helse- og omsorgstjenester."
-                },
-                {
-                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-                    "capability_name": "Datautveksling og integrasjon",
-                    "capability_slug": "datautveksling-og-integrasjon",
-                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
-                    "subcapability_name": "Dele data med andre",
-                    "subcapability_slug": "dele-data-med-andre",
-                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "KPR-data deles kontrollert for styring, evaluering og forskning pa tvers av kommunal og statlig helseforvaltning."
-                },
-                {
-                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
-                    "capability_name": "Informasjonsforvaltning",
-                    "capability_slug": "informasjonsforvaltning",
-                    "subcapability_id": "id-5852d070415849fab42749cb488d984a",
-                    "subcapability_name": "Datastyring",
-                    "subcapability_slug": "datastyring",
-                    "mapping_label": "Informasjonsforvaltning: Datastyring",
-                    "explanation": "KPR understotter datastyring for planlegging, finansiering og evaluering av kommunale helse- og omsorgstjenester."
-                }
-            ]
-        },
-        {
-            "product_id": 136,
-            "product_name": "Kommunalt pasient- og brukerregister (KPR)",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v1-codex.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v2-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v2-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
@@ -5199,8 +5119,8 @@
                     "product_name": "Helsedata.no",
                     "version": 1,
                     "author": "codex",
-                    "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v1-codex.md",
-                    "product_url": "/NA-kunnskap/produkter/31-Helsedata-no-produkt-canvas-v1-codex/",
+                    "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v2-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/31-Helsedata-no-produkt-canvas-v2-codex/",
                     "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
                     "explanation": "Helsedata.no samler veiledning og tilgangsløp i en sammenhengende nasjonal brukerflate."
                 },
@@ -5325,8 +5245,8 @@
                             "product_name": "Helsedata.no",
                             "version": 1,
                             "author": "codex",
-                            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v1-codex.md",
-                            "product_url": "/NA-kunnskap/produkter/31-Helsedata-no-produkt-canvas-v1-codex/",
+                            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v2-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/31-Helsedata-no-produkt-canvas-v2-codex/",
                             "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
                             "explanation": "Helsedata.no samler veiledning og tilgangsløp i en sammenhengende nasjonal brukerflate."
                         },
@@ -8693,8 +8613,8 @@
                     "product_name": "Helsedata.no",
                     "version": 1,
                     "author": "codex",
-                    "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v1-codex.md",
-                    "product_url": "/NA-kunnskap/produkter/31-Helsedata-no-produkt-canvas-v1-codex/",
+                    "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v2-codex.md",
+                    "product_url": "/NA-kunnskap/produkter/31-Helsedata-no-produkt-canvas-v2-codex/",
                     "mapping_label": "Informasjonsforvaltning: Datastyring",
                     "explanation": "Helsedata.no støtter strukturert forvaltning og tilgjengeliggjøring av informasjon om helsedata og tilgangsløp."
                 },
@@ -9034,8 +8954,8 @@
                             "product_name": "Helsedata.no",
                             "version": 1,
                             "author": "codex",
-                            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v1-codex.md",
-                            "product_url": "/NA-kunnskap/produkter/31-Helsedata-no-produkt-canvas-v1-codex/",
+                            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v2-codex.md",
+                            "product_url": "/NA-kunnskap/produkter/31-Helsedata-no-produkt-canvas-v2-codex/",
                             "mapping_label": "Informasjonsforvaltning: Datastyring",
                             "explanation": "Helsedata.no støtter strukturert forvaltning og tilgjengeliggjøring av informasjon om helsedata og tilgangsløp."
                         },

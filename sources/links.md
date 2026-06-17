@@ -1,7 +1,7 @@
 # Nasjonale fellestjenester og felleskomponenter
 
 Formål: Samlet lenkeliste over nasjonale fellesløsninger, sektorkilder og relevante standarder og veiledningsressurser.
-Sist redigert: 2026-06-07.
+Sist redigert: 2026-06-17.
 
 ## Fellesløsninger
 
@@ -218,10 +218,14 @@ Sist redigert: 2026-06-07.
 ### Helse
 - Helsedata.no: https://helsedata.no/
 - Helsedata.no kontakt: https://helsedata.no/en/contact/ (lagt til 2026-03-27)
+- Helsedataservice: https://helsedata.no/no/helsedataservice/ (lagt til 2026-06-17)
 - FHI - Avdeling helsedata: https://www.fhi.no/om/organisasjon/helsedata/
 - Helse i Norge - registeroversikt: https://www.fhi.no/he/ (lagt til 2026-04-28)
 - Norsk pasientregister (NPR): https://www.fhi.no/he/npr/ (lagt til 2026-04-28)
+- Om NPR: https://www.fhi.no/he/npr/innhold-i-norsk-pasientregister/ (lagt til 2026-06-17)
+- Søk om data fra NPR: https://www.fhi.no/he/npr/sok-om-data-fra-npr/ (lagt til 2026-06-17)
 - Kommunalt pasient- og brukerregister (KPR): https://www.fhi.no/he/kpr/ (lagt til 2026-04-28)
+- Om KPR: https://www.fhi.no/he/kpr/om-kpr/ (lagt til 2026-06-17)
 - Søk om data fra KPR: https://www.fhi.no/he/kpr/sok-om-data-fra-kpr/ (lagt til 2026-04-28)
 - SYSVAK (FHI): https://www.fhi.no/hn/helseregistre-og-registre/sysvak/ (lagt til 2026-04-11)
 - SYSVAK (FHI) - oppdatert URL: https://www.fhi.no/helseregistre/sysvak (lagt til 2026-06-07)

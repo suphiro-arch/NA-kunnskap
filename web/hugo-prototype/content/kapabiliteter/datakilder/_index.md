@@ -110,11 +110,11 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v1-codex.md">Norsk pasientregister (NPR)</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v2-codex.md">Norsk pasientregister (NPR)</a></h3>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v1-codex.md">Kommunalt pasient- og brukerregister (KPR)</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v2-codex.md">Kommunalt pasient- og brukerregister (KPR)</a></h3>
     </article>
   </div>
 ---

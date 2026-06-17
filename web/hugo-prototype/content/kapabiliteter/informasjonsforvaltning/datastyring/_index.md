@@ -24,7 +24,7 @@ Evne til å sikre enhetlig og ansvarlig forvaltning av nasjonale dataressurser g
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v1-codex.md">Helsedata.no</a></h3>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v2-codex.md">Helsedata.no</a></h3>
     <p class="capability-product-link__description">Løsningen støtter datastyring ved å strukturere tilgangsinformasjon, roller og prosesser på tvers av flere dataforvaltere.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
@@ -89,13 +89,13 @@ Evne til å sikre enhetlig og ansvarlig forvaltning av nasjonale dataressurser g
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v1-codex.md">Norsk pasientregister (NPR)</a></h3>
-    <p class="capability-product-link__description">NPR understotter nasjonal styring og finansiering av spesialisthelsetjenesten med systematisk aktivitetsdata.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v2-codex.md">Norsk pasientregister (NPR)</a></h3>
+    <p class="capability-product-link__description">NPR understøtter nasjonal styring og finansiering av spesialisthelsetjenesten gjennom systematisk innsamling og forvaltning av aktivitetsdata.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v1-codex.md">Kommunalt pasient- og brukerregister (KPR)</a></h3>
-    <p class="capability-product-link__description">KPR understotter datastyring for planlegging, finansiering og evaluering av kommunale helse- og omsorgstjenester.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v2-codex.md">Kommunalt pasient- og brukerregister (KPR)</a></h3>
+    <p class="capability-product-link__description">KPR understøtter nasjonal styring og finansiering av kommunale helse- og omsorgstjenester gjennom systematisk dataforvaltning.</p>
   </article>
   <article class="capability-product-link resource-type--forum">
     <p class="capability-product-link__type">Samarbeidsforum</p>

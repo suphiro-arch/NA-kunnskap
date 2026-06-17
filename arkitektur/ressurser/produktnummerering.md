@@ -163,7 +163,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 
 | Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
 |---:|---|---|---|---|---|---|
-| 31 | `HDIR-001` | Helsedata.no | Gjenbrukbare løsninger | Datatilgang | Oversikt over datasett<br>Datastyring<br>Sammenhengende tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v1-codex.md) |
+| 31 | `HDIR-001` | Helsedata.no | Gjenbrukbare løsninger | Datatilgang | Oversikt over datasett<br>Datastyring<br>Sammenhengende tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v2-codex.md) |
 | 64 | `HDIR-002` | HPR | Gjenbrukbare løsninger | Register over helsepersonell | Grunndata<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/64-HPR-produkt-canvas-v2-codex.md) |
 
 
@@ -176,8 +176,8 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | 129 | `FHI-002` | MSIS | Gjenbrukbare løsninger | Meldingssystem for smittsomme sykdommer | Grunndata<br>Dele data med andre<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/129-MSIS-produkt-canvas-v2-codex.md) |
 | 130 | `FHI-003` | Dødsårsaksregisteret | Gjenbrukbare løsninger | Dødsårsaksregister | Grunndata<br>Dele data med andre<br>Datastyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/130-Dodsarsaksregisteret-produkt-canvas-v2-codex.md) |
 | 131 | `FHI-004` | Reseptregisteret (NorPD) | Gjenbrukbare løsninger | Historisk legemiddelregister (2004-2021) | Grunndata<br>Dele data med andre<br>Datastyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/131-Reseptregisteret-NorPD-produkt-canvas-v2-codex.md) |
-| 135 | `FHI-005` | Norsk pasientregister (NPR) | Gjenbrukbare løsninger | Nasjonalt helseregister for spesialisthelsetjenesten | Grunndata<br>Dele data med andre<br>Datastyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v1-codex.md) |
-| 136 | `FHI-006` | Kommunalt pasient- og brukerregister (KPR) | Gjenbrukbare løsninger | Nasjonalt helseregister for kommunale helse- og omsorgstjenester | Grunndata<br>Dele data med andre<br>Datastyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v1-codex.md) |
+| 135 | `FHI-005` | Norsk pasientregister (NPR) | Gjenbrukbare løsninger | Nasjonalt helseregister for spesialisthelsetjenesten | Grunndata<br>Dele data med andre<br>Datastyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v2-codex.md) |
+| 136 | `FHI-006` | Kommunalt pasient- og brukerregister (KPR) | Gjenbrukbare løsninger | Nasjonalt helseregister for kommunale helse- og omsorgstjenester | Grunndata<br>Dele data med andre<br>Datastyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v2-codex.md) |
 
 
 

@@ -214,13 +214,13 @@ Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er, sl
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v1-codex.md">Norsk pasientregister (NPR)</a></h3>
-    <p class="capability-product-link__description">NPR-data deles kontrollert for styring, kvalitetssikring og forskning gjennom etablerte tilgangsprosesser.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v2-codex.md">Norsk pasientregister (NPR)</a></h3>
+    <p class="capability-product-link__description">Registeret gjør opplysninger tilgjengelige for forskning, analyse og styring gjennom kontrollerte tilgangskanaler.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v1-codex.md">Kommunalt pasient- og brukerregister (KPR)</a></h3>
-    <p class="capability-product-link__description">KPR-data deles kontrollert for styring, evaluering og forskning pa tvers av kommunal og statlig helseforvaltning.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v2-codex.md">Kommunalt pasient- og brukerregister (KPR)</a></h3>
+    <p class="capability-product-link__description">Registeret gjør opplysninger tilgjengelige for forskning, analyse og styring gjennom kontrollerte tilgangskanaler.</p>
   </article>
   <article class="capability-product-link resource-type--forum">
     <p class="capability-product-link__type">Samarbeidsforum</p>
