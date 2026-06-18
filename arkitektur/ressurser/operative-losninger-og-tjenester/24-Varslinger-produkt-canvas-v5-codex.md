@@ -26,7 +26,7 @@ Produktet har både en tjenesteflate og en integrasjonsflate. Tjenesteflaten bes
 
 ## Kapabiliteter
 - **Datadrevet: Sammenstilling av data** kombinerer kontaktdata, reservasjonsstatus og autorisasjonsinformasjon for å velge riktig mottaker og kanal.
-- **Datautveksling og integrasjon: Meldingsformidling** brukes til programmatisk utsending og leveringsoppfølging av varsler.
+- **Datautveksling og integrasjon: Meldingsutveksling** brukes til programmatisk utsending og leveringsoppfølging av varsler.
 - **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** er nødvendig fordi kontaktinformasjon og varslingsinnhold behandles gjennom flere kanaler og oppslag.
 - **Sluttbrukertjenester: Proaktive tjenester** gjør det mulig å varsle mottakere når en hendelse eller tilstand krever oppmerksomhet.
 - **Tillit: Tilgangskontroll** bruker autorisasjon for å finne riktige mottakere i organisasjonskontekst.

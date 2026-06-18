@@ -23,7 +23,7 @@ OPP-001
 Peppol eDelivery er et internasjonalt samhandlingsrammeverk for sikker og standardisert utveksling av elektroniske dokumenter mellom virksomheter. Ressursen er relevant når en løsning trenger et felles transport- og adresseringsmønster for dokumentutveksling, særlig i sammenheng med EHF og andre Peppol-baserte dokumentformater. Peppol eDelivery bør forstås som et føderert økosystem med standarder, tillitsmekanismer og leverandørdrevne aksesspunkt, ikke som én norsk fellesløsning eller én sentral driftstjeneste.
 
 ## Kapabiliteter
-- **Datautveksling og integrasjon: Meldingsformidling** gir et føderert mønster for standardisert dokumentutveksling mellom virksomheter.
+- **Datautveksling og integrasjon: Meldingsutveksling** gir et føderert mønster for standardisert dokumentutveksling mellom virksomheter.
 - **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** bruker sertifikater og tillitsrammeverk for å sikre transport og validering i nettverket.
 - **Standardisering: Forvaltningsstandarder** bygger på forvaltede samhandlingsregler, meldingsprofiler og transportspesifikasjoner.
 - **Tillit: Identifisering** baserer ruting og adressering på entydige deltakeridentifikatorer.

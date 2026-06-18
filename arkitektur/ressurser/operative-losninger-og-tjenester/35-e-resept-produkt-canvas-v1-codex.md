@@ -22,7 +22,7 @@ e-resept er den nasjonale løsningen for elektronisk forskrivning, formidling og
 ## Kapabiliteter
 - **Datautveksling og integrasjon: Bruke data fra andre**
   e-resept inngår i et samspill der flere aktører og systemer bruker og oppdaterer reseptinformasjon på tvers av etablerte grensesnitt.
-- **Datautveksling og integrasjon: Meldingsformidling**
+- **Datautveksling og integrasjon: Meldingsutveksling**
   Produktets kjerne er sikker formidling av reseptrelatert informasjon mellom forskrivere, apotek og andre berørte aktører.
 - **Samarbeid: Organisatorisk samhandling**
   e-resept muliggjør en koordinert arbeidsdeling mellom flere virksomheter i helsesektoren rundt samme reseptløp.

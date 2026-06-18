@@ -21,7 +21,7 @@ KS-007
 SvarInn er en API-basert tjeneste og komplement til SvarUt. Løsningen tar imot innkommende post fra andre virksomheter som bruker SvarUt, og gjør den tilgjengelig for sak- og arkivsystemer eller andre fagsystemer i kommunen. Produktet er særlig relevant når virksomheten trenger et standardisert og sentralisert mottaksløp for digital post mellom offentlige aktører, uten å etablere egne kanalspesifikke mottaksintegrasjoner.
 
 ## Kapabiliteter
-- **Datautveksling og integrasjon: Meldingsformidling** er kjernefunksjonen fordi SvarInn henter, dekrypterer og leverer forsendelser videre til mottakersystemene i kommunen.
+- **Datautveksling og integrasjon: Meldingsutveksling** er kjernefunksjonen fordi SvarInn henter, dekrypterer og leverer forsendelser videre til mottakersystemene i kommunen.
 - **Samarbeid: Organisatorisk samhandling** er direkte relevant fordi løsningen gir et felles mønster for innkommende post mellom kommuner og andre offentlige virksomheter som bruker samme samhandlingsløp.
 
 Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot dokumentert funksjon i KS Digitals kilder brukt i denne arbeidsøkten.

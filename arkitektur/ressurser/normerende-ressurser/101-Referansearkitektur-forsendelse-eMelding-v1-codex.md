@@ -29,7 +29,7 @@ Forpliktelsesnivået er anbefalt/styrende. Virksomheter forventes å bruke møns
 Etterlevelse skjer typisk gjennom arkitekturarbeid, anskaffelser og design av integrasjoner. Avvik bør dokumenteres og begrunnes når de påvirker interoperabilitet og samhandlingsevne.
 
 ## Kapabiliteter
-- Meldingsformidling
+- Meldingsutveksling
 - Forvaltningsstandarder
 
 ## Målgruppe og brukere

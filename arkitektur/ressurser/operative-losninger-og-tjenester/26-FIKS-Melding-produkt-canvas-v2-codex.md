@@ -24,7 +24,7 @@ KS-002
 Fiks melding er KS Digitals kanalplattform for meldingsutveksling og dokumentdeling i kommunal sektor. Løsningen gjør det mulig å sende og motta informasjon gjennom flere ulike kommunikasjonsformer fra samme tjenestegrunnlag, slik at kommunen kan velge kanal etter behov, risiko og brukssituasjon. Produktet dekker både utgående og inngående kommunikasjon, og kan brukes til alt fra enkel varsling og deling av dokumenter til sikker innsending og masseutsendelser. I praksis er Fiks melding derfor ikke bare en enkelt meldingstjeneste, men et samlet kommunikasjonsområde med flere operative undertjenester og arbeidsmåter.
 
 ## Kapabiliteter
-- **Datautveksling og integrasjon: Meldingsformidling** er produktets kjernefunksjon fordi løsningen pakker, sender, mottar og leverer meldinger og dokumenter gjennom flere valgbare kanaler fra samme tjenestegrunnlag.
+- **Datautveksling og integrasjon: Meldingsutveksling** er produktets kjernefunksjon fordi løsningen pakker, sender, mottar og leverer meldinger og dokumenter gjennom flere valgbare kanaler fra samme tjenestegrunnlag.
 - **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** er direkte relevant fordi produktet brukes til sikker kommunikasjon og KS Digital publiserer eget sikkerhetsunderlag for ROS og DPIA for deler av funksjonssettet.
 - **Samarbeid: Organisatorisk samhandling** er direkte relevant fordi løsningen gir kommuner, innbyggere og andre virksomheter et felles kanalgrunnlag for digital kommunikasjon.
 

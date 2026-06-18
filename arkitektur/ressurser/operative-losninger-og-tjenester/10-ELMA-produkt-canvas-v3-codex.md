@@ -23,7 +23,7 @@ DIGDIR-023
 ELMA er den norske oppslagstjenesten som gjør det mulig å finne riktig elektronisk mottakeradresse og hvilke dokumenttyper en virksomhet kan motta i EHF- og Peppol-samhandling. Produktet er relevant når en avsender eller et aksesspunkt må avklare hvor et dokument skal sendes og hvilke profiler mottakeren støtter. ELMA er derfor en sentral norsk felleskomponent i Peppol-sammenheng, men ikke selve transportnettet eller standardforvaltningen rundt det.
 
 ## Kapabiliteter
-- **Datautveksling og integrasjon: Meldingsformidling** støtter ruting av meldinger ved å gi nødvendig oppslagsgrunnlag før dokumentet sendes til riktig mottaker og aksesspunkt.
+- **Datautveksling og integrasjon: Meldingsutveksling** støtter ruting av meldinger ved å gi nødvendig oppslagsgrunnlag før dokumentet sendes til riktig mottaker og aksesspunkt.
 - **Tillit: Identifisering** knytter virksomheter og deltakere til entydige identifikatorer som kan brukes i adressering og oppslag i meldingsøkosystemet.
 
 Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot Digdirs produkt- og dokumentasjonssider for ELMA og mot rollen ELMA har i norsk Peppol-infrastruktur.

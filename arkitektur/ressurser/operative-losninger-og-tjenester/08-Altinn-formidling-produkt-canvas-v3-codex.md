@@ -27,7 +27,7 @@ Produktet har både en tjenesteflate og en integrasjonsflate. Tjenesteflaten bes
 ## Kapabiliteter
 - **Datautveksling og integrasjon: Bruke data fra andre** gjør det mulig for mottakere å hente formidlede filer gjennom en kontrollert tjeneste.
 - **Datautveksling og integrasjon: Dele data med andre** gjør det mulig for avsendere å levere filer til andre virksomheter gjennom en felles kanal.
-- **Datautveksling og integrasjon: Meldingsformidling** er kjernefunksjonen og dekker sikker, asynkron overføring og oppfølging av leveranser.
+- **Datautveksling og integrasjon: Meldingsutveksling** er kjernefunksjonen og dekker sikker, asynkron overføring og oppfølging av leveranser.
 - **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** støttes gjennom tilgangskontroll, logging og sikker håndtering av innhold.
 - **Samarbeid: Organisatorisk samhandling** gjør det mulig å etablere standardiserte leveranseløp mellom virksomheter.
 - **Tjenesteutvikling: Integrerbare tjenester** tilbyr API-er og integrasjonsmønstre som kan brukes av fagsystemer og integrasjonsmiljøer.

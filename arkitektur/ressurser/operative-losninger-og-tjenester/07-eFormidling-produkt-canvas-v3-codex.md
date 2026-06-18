@@ -25,7 +25,7 @@ eFormidling er Digdirs fellesløsning for standardisert og sikker meldingsutveks
 ## Kapabiliteter
 - **Datautveksling og integrasjon: Dele data med andre** gjør det mulig å sende digitale meldinger og dokumenter sikkert til andre virksomheter og mottakere gjennom et felles formidlingsmønster.
 - **Datautveksling og integrasjon: Bruke data fra andre** gjør det mulig å motta innkommende meldinger i ønsket kanal og integrere dem videre i egne arbeidsprosesser og fagsystemer.
-- **Datautveksling og integrasjon: Meldingsformidling** er selve kjernefunksjonen i produktet, fordi løsningen pakker, ruter og leverer meldinger mellom avsender og mottaker.
+- **Datautveksling og integrasjon: Meldingsutveksling** er selve kjernefunksjonen i produktet, fordi løsningen pakker, ruter og leverer meldinger mellom avsender og mottaker.
 - **Samarbeid: Organisatorisk samhandling** støtter samhandling mellom virksomheter ved at samme løsning kan brukes på tvers av organisatoriske grenser og ulike mottakergrupper.
 - **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** ivaretar krav til sikker, sporbar og kontrollert meldingsutveksling.
 - **Standardisering: Forvaltningsstandarder** bygger på standardiserte dokument- og meldingsmønstre, blant annet Peppol og AS4.
