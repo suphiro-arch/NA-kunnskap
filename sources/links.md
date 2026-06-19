@@ -362,10 +362,11 @@ Sist redigert: 2026-06-17.
 - Overordnede arkitekturprinsipper: https://www.digdir.no/samhandling/overordnede-arkitekturprinsipper/1065
 - Sjekkliste for sammenhengende tjenester: https://www.digdir.no/media/1850/download (lagt til 2026-04-09)
 - Rammeverk for digital samhandling: https://www.digdir.no/samhandling/rammeverk-digital-samhandling/2149
-- Referansearkitekturer: https://www.digdir.no/samhandling/referansearkitekturer/2131
-- Referansearkitektur forsendelse (eMelding): https://www.digdir.no/samhandling/referansearkitekturer/2131 (arbeidsutkast, lagt til 2026-04-09)
-- Referansearkitektur forespørsel-svar (eOppslag): https://www.digdir.no/samhandling/referansearkitekturer/2131 (arbeidsutkast, lagt til 2026-04-09)
-- Arkitektur for hendelser: https://www.digdir.no/samhandling/arkitektur-hendelser/4691
+- Referansearkitekturer: https://www.digdir.no/digital-samhandling/referansearkitekturer/2131
+- Referansearkitektur forsendelse (eMelding): https://www.digdir.no/digital-samhandling/referansearkitekturer/2131 (arbeidsutkast, lagt til 2026-04-09, kanonisk URL oppdatert 2026-06-19)
+- Referansearkitektur forespørsel-svar (eOppslag): https://www.digdir.no/digital-samhandling/referansearkitekturer/2131 (arbeidsutkast, lagt til 2026-04-09, kanonisk URL oppdatert 2026-06-19)
+- Arkitektur for hendelser: https://www.digdir.no/digital-samhandling/innledning/4169 (kanonisk URL oppdatert 2026-06-19)
+- Arkitektur for hendelser - eldre kortlenke: https://www.digdir.no/samhandling/arkitektur-hendelser/4691
 - Kart for tjenestekjeder: https://www.digdir.no/samhandling/kart-tjenestekjeder/4168
 - Nasjonalt veikart: https://www.digdir.no/digitalisering-og-samordning/nasjonalt-veikart/7022 (oppdatert 2026-05-04)
 - Erfaringene fra de syv prioriterte livshendelsene inngår nå i nasjonalt veikart: https://www.digdir.no/digitalisering-og-samordning/erfaringene-fra-de-syv-prioriterte-livshendelsene-inngar-na-i-nasjonalt-veikart/7937 (lagt til 2026-05-04)

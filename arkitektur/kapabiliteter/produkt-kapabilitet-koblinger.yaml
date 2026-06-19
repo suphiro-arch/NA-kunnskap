@@ -2844,10 +2844,10 @@
         {
             "product_id": 87,
             "product_name": "Arkitektur for hendelser",
-            "version": 1,
+            "version": 2,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/87-Arkitektur-for-hendelser-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/87-Arkitektur-for-hendelser-v1-codex.md",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/87-Arkitektur-for-hendelser-v2-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/87-Arkitektur-for-hendelser-v2-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
@@ -2857,7 +2857,7 @@
                     "subcapability_name": "Hendelsesdrevet",
                     "subcapability_slug": "hendelsesdrevet",
                     "mapping_label": "Datautveksling og integrasjon: Hendelsesdrevet",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Arkitektur for hendelser basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Ressursen gir et felles mønster for hendelsesdrevet samhandling, med vekt på hendelseseierskap, publisering, abonnement, metadata, tilgang og robust konsumenthåndtering."
                 },
                 {
                     "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
@@ -2867,7 +2867,7 @@
                     "subcapability_name": "Forvaltningsstandarder",
                     "subcapability_slug": "forvaltningsstandarder",
                     "mapping_label": "Standardisering: Forvaltningsstandarder",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Arkitektur for hendelser basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Ressursen fungerer som normerende mønstergrunnlag for kravstilling, arkitekturvurdering og harmonisering av hendelsesbaserte løsninger."
                 }
             ]
         },
@@ -3194,10 +3194,10 @@
         {
             "product_id": 102,
             "product_name": "Referansearkitektur forespørsel-svar (eOppslag)",
-            "version": 1,
+            "version": 2,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/102-Referansearkitektur-foresporsel-svar-eOppslag-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/102-Referansearkitektur-foresporsel-svar-eOppslag-v1-codex.md",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/102-Referansearkitektur-foresporsel-svar-eOppslag-v2-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/102-Referansearkitektur-foresporsel-svar-eOppslag-v2-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
@@ -3207,7 +3207,7 @@
                     "subcapability_name": "Bruke data fra andre",
                     "subcapability_slug": "bruke-data-fra-andre",
                     "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Referansearkitektur forespørsel-svar (eOppslag) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Ressursen gir et felles mønster for oppslagsbasert bruk av data fra datatilbyder, med vekt på formål, tilgang, ansvar, datakvalitet, sporbarhet og teknisk robusthet."
                 },
                 {
                     "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
@@ -3217,7 +3217,7 @@
                     "subcapability_name": "Forvaltningsstandarder",
                     "subcapability_slug": "forvaltningsstandarder",
                     "mapping_label": "Standardisering: Forvaltningsstandarder",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Referansearkitektur forespørsel-svar (eOppslag) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Ressursen fungerer som normerende mønstergrunnlag for kravstilling, arkitekturvurdering og harmonisering av forespørsel-svar-baserte løsninger."
                 }
             ]
         },

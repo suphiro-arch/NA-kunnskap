@@ -54,7 +54,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/87-Arkitektur-for-hendelser-v1-codex.md">Arkitektur for hendelser</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/87-Arkitektur-for-hendelser-v2-codex.md">Arkitektur for hendelser</a></h3>
     </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
@@ -74,7 +74,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/102-Referansearkitektur-foresporsel-svar-eOppslag-v1-codex.md">Referansearkitektur forespørsel-svar (eOppslag)</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/102-Referansearkitektur-foresporsel-svar-eOppslag-v2-codex.md">Referansearkitektur forespørsel-svar (eOppslag)</a></h3>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>

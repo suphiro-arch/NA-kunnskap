@@ -35,8 +35,8 @@ Maskinell differanse mot forrige lokale modellversjon viser at flere kapabilitet
 Maskinell sjekk av aktive ressursfiler viste særlig tynne kapabilitetsseksjoner i flere `v1`-beskrivelser. Første revisjonskø bør være:
 
 1. `DIGDIR-033` Referansearkitektur forsendelse (eMelding) - gjennomført som `v2` i denne runden.
-2. `DIGDIR-034` Referansearkitektur forespørsel-svar (eOppslag) - bør løftes tilsvarende for å skille oppslag tydelig fra meldingsutveksling og hendelser.
-3. `DIGDIR-035` Arkitektur for hendelser - bør løftes fordi `Hendelsesdrevet` har fått tydeligere semantisk innhold.
+2. `DIGDIR-034` Referansearkitektur forespørsel-svar (eOppslag) - gjennomført som `v2` 2026-06-19 for å skille oppslag tydelig fra meldingsutveksling og hendelser.
+3. `DIGDIR-027` Arkitektur for hendelser - gjennomført som `v2` 2026-06-19 fordi `Hendelsesdrevet` har fått tydeligere semantisk innhold.
 4. `DIGDIR-025` Rammeverk for digital samhandling - bør vurderes mot juridisk, organisatorisk, semantisk og teknisk samhandling samlet.
 5. `DIGDIR-030` Overordnede arkitekturprinsipper og `DIGDIR-041` Kapabilitetskart - bør vurderes mot ny `Arkitekturstyring`-beskrivelse.
 6. `DIGDIR-031` Sjekkliste for sammenhengende tjenester og `DIGDIR-032` Kart for tjenestekjeder - bør vurderes mot ny `Sammenhengende tjenester`-beskrivelse.
@@ -56,6 +56,18 @@ Viktigste forbedringer:
 - Forpliktelsesnivå, bruksområde, analyse- og beslutningssituasjoner og avgrensning mot eOppslag/hendelser er tydeligere.
 - Risiko og prinsippvurdering er oppdatert slik at ressursen kan brukes mer direkte i analyser.
 
+## Andre målrettede canvasløft
+
+Opprettet nye versjoner 2026-06-19:
+- `arkitektur/ressurser/normerende-ressurser/102-Referansearkitektur-foresporsel-svar-eOppslag-v2-codex.md`
+- `arkitektur/ressurser/normerende-ressurser/87-Arkitektur-for-hendelser-v2-codex.md`
+
+Viktigste forbedringer:
+- eOppslag er tydeliggjort som oppslagsmønster for bruk av data fra datatilbyder, med sterkere vurdering av formål, tilgang, ansvar, datakvalitet, sporbarhet og teknisk robusthet.
+- Arkitektur for hendelser er tydeliggjort som hendelsesdrevet samhandlingsmønster, med sterkere skille mellom hendelser, kommandoer, oppslag og meldingsforsendelse.
+- Begge beskrivelsene har fått tydeligere avgrensning mot eMelding og mot hverandre, slik at de kan brukes bedre i mønstervalg og tidligfaseanalyse.
+- Register, kapabilitetsmapping, kildeliste og webgrunnlag er oppdatert til å peke på de nye `v2`-filene.
+
 ## Kontroll- og vedlikeholdstiltak
 
 `tools/check-resource-version-sync.py` er utvidet slik at kontrollen nå også sjekker:
@@ -67,7 +79,8 @@ Dette skal fange samme type restfeil som oppsto da `meldingsformidling` fortsatt
 
 ## Videre plan
 
-1. Løft `DIGDIR-034` Referansearkitektur forespørsel-svar (eOppslag) og `DIGDIR-035` Arkitektur for hendelser i samme stil som eMelding.
-2. Kjør en liten operativ batch for meldingsressursene, men bare der kapabilitetsseksjonen ikke allerede forklarer roller, ansvar, kvittering, avvik og sikkerhet godt nok.
-3. Lag en fast rapportfunksjon for "tynne kapabilitetsseksjoner" hvis denne analysen skal gjentas ukentlig.
-4. Vurder om `produkt-kapabilitet-koblinger.yaml` bør deles i én manuell masterdel og én generert avledet del, slik at metadata ikke kan drive fra hverandre.
+1. Kjør en liten operativ batch for meldings-, oppslags- og hendelsesressursene, men bare der kapabilitetsseksjonen ikke allerede forklarer roller, ansvar, tilgang, kvittering, avvik, sikkerhet og robusthet godt nok.
+2. Løft `DIGDIR-025` Rammeverk for digital samhandling mot juridisk, organisatorisk, semantisk og teknisk samhandling samlet.
+3. Løft `DIGDIR-030` Overordnede arkitekturprinsipper og `DIGDIR-041` Kapabilitetskart mot ny `Arkitekturstyring`-beskrivelse.
+4. Lag en fast rapportfunksjon for "tynne kapabilitetsseksjoner" hvis denne analysen skal gjentas ukentlig.
+5. Vurder om `produkt-kapabilitet-koblinger.yaml` bør deles i én manuell masterdel og én generert avledet del, slik at metadata ikke kan drive fra hverandre.

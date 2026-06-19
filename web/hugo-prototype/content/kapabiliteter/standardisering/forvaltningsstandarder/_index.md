@@ -69,8 +69,8 @@ Evne til å implementere og ta i bruk nasjonale standarder. ### Begrunnelse (Hvo
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/87-Arkitektur-for-hendelser-v1-codex.md">Arkitektur for hendelser</a></h3>
-    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Arkitektur for hendelser basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/87-Arkitektur-for-hendelser-v2-codex.md">Arkitektur for hendelser</a></h3>
+    <p class="capability-product-link__description">Ressursen fungerer som normerende mønstergrunnlag for kravstilling, arkitekturvurdering og harmonisering av hendelsesbaserte løsninger.</p>
   </article>
   <article class="capability-product-link resource-type--forum">
     <p class="capability-product-link__type">Samarbeidsforum</p>
@@ -94,8 +94,8 @@ Evne til å implementere og ta i bruk nasjonale standarder. ### Begrunnelse (Hvo
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/102-Referansearkitektur-foresporsel-svar-eOppslag-v1-codex.md">Referansearkitektur forespørsel-svar (eOppslag)</a></h3>
-    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Referansearkitektur forespørsel-svar (eOppslag) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/102-Referansearkitektur-foresporsel-svar-eOppslag-v2-codex.md">Referansearkitektur forespørsel-svar (eOppslag)</a></h3>
+    <p class="capability-product-link__description">Ressursen fungerer som normerende mønstergrunnlag for kravstilling, arkitekturvurdering og harmonisering av forespørsel-svar-baserte løsninger.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
