@@ -2764,10 +2764,10 @@
         {
             "product_id": 85,
             "product_name": "Rammeverk for digital samhandling",
-            "version": 1,
+            "version": 2,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v1-codex.md",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v2-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v2-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
@@ -2777,7 +2777,11 @@
                     "subcapability_name": "Forvaltningsstandarder",
                     "subcapability_slug": "forvaltningsstandarder",
                     "mapping_label": "Standardisering: Forvaltningsstandarder",
-                    "explanation": "Rammeverket gir et felles strukturgrunnlag for samhandling og peker til standardspor som virksomheter skal bruke for å redusere særutvikling og sikre sammenlignbar praksis."
+                    "explanation": "Rammeverket gir overordnet grunnlag for når standarder, referansearkitekturer og felles krav bør brukes i samhandlingsløp.",
+                    "version": 2,
+                    "author": "codex",
+                    "relative_path": "arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v2-codex.md",
+                    "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v2-codex.md"
                 },
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
@@ -2787,7 +2791,11 @@
                     "subcapability_name": "Dele data med andre",
                     "subcapability_slug": "dele-data-med-andre",
                     "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "Rammeverket brukes i tidligfase for å avklare samhandlingsbehov og avhengigheter mellom aktører, og gir dermed retning for hvordan data skal deles på tvers av virksomheter."
+                    "explanation": "Rammeverket viser hvordan datadeling må vurderes sammen med formål, tilgang, datakvalitet, begreper, standarder og tekniske mønstre.",
+                    "version": 2,
+                    "author": "codex",
+                    "relative_path": "arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v2-codex.md",
+                    "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v2-codex.md"
                 },
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
@@ -2797,7 +2805,11 @@
                     "subcapability_name": "Organisatorisk samhandling",
                     "subcapability_slug": "organisatorisk-samhandling",
                     "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "Rammeverket etablerer et felles begreps- og vurderingsgrunnlag for samhandling mellom virksomheter, og styrker koordinering i tverrgående tiltak."
+                    "explanation": "Rammeverket gir felles struktur for roller, ansvar, styring og forvaltning når flere aktører skal samhandle digitalt.",
+                    "version": 2,
+                    "author": "codex",
+                    "relative_path": "arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v2-codex.md",
+                    "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v2-codex.md"
                 },
                 {
                     "capability_id": "id-299fc063873a4f278a1d3c0ac9480467",
@@ -2807,7 +2819,11 @@
                     "subcapability_name": "Regelverkstolkning",
                     "subcapability_slug": "regelverkstolkning",
                     "mapping_label": "Juridisk samhandling: Regelverkstolkning",
-                    "explanation": "Rammeverket er bygget på EIF (European Interoperability Framework), som har juridisk samhandling som ett av fire eksplisitte samhandlingslag. Ressursen gir strukturgrunnlaget for felles regelverkstolkning i tverrgående digitaliseringstiltak."
+                    "explanation": "Rammeverket gjør juridiske rammer, hjemmel, ansvar, avtaler og regelverkstolkning til en del av samhandlingsanalysen.",
+                    "version": 2,
+                    "author": "codex",
+                    "relative_path": "arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v2-codex.md",
+                    "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v2-codex.md"
                 }
             ]
         },
@@ -3064,10 +3080,10 @@
         {
             "product_id": 98,
             "product_name": "Overordnede arkitekturprinsipper for offentlig sektor",
-            "version": 1,
+            "version": 2,
             "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/98-Overordnede-arkitekturprinsipper-for-offentlig-sektor-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/98-Overordnede-arkitekturprinsipper-for-offentlig-sektor-v1-codex.md",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/98-Overordnede-arkitekturprinsipper-for-offentlig-sektor-v2-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/98-Overordnede-arkitekturprinsipper-for-offentlig-sektor-v2-codex.md",
             "capabilities": [
                 {
                     "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
@@ -3077,7 +3093,11 @@
                     "subcapability_name": "Forvaltningsstandarder",
                     "subcapability_slug": "forvaltningsstandarder",
                     "mapping_label": "Standardisering: Forvaltningsstandarder",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Overordnede arkitekturprinsipper for offentlig sektor basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Prinsippene gir retning for når standarder, referansearkitekturer og felles krav bør brukes for samhandling, gjenbruk og tillit.",
+                    "version": 2,
+                    "author": "codex",
+                    "relative_path": "arkitektur/ressurser/normerende-ressurser/98-Overordnede-arkitekturprinsipper-for-offentlig-sektor-v2-codex.md",
+                    "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/98-Overordnede-arkitekturprinsipper-for-offentlig-sektor-v2-codex.md"
                 },
                 {
                     "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
@@ -3087,7 +3107,11 @@
                     "subcapability_name": "Arkitekturstyring",
                     "subcapability_slug": "arkitekturstyring",
                     "mapping_label": "Strategisk styring: Arkitekturstyring",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Overordnede arkitekturprinsipper for offentlig sektor basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Prinsippene gir felles styringsgrunnlag for arkitekturvalg, porteføljeprioritering, avviksbegrunnelse og oppfølging av nasjonale byggeklosser.",
+                    "version": 2,
+                    "author": "codex",
+                    "relative_path": "arkitektur/ressurser/normerende-ressurser/98-Overordnede-arkitekturprinsipper-for-offentlig-sektor-v2-codex.md",
+                    "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/98-Overordnede-arkitekturprinsipper-for-offentlig-sektor-v2-codex.md"
                 }
             ]
         },
@@ -10135,12 +10159,12 @@
                 {
                     "product_id": 85,
                     "product_name": "Rammeverk for digital samhandling",
-                    "version": 1,
+                    "version": 2,
                     "author": "codex",
-                    "relative_path": "arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v1-codex.md",
-                    "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v1-codex.md",
+                    "relative_path": "arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v2-codex.md",
+                    "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v2-codex.md",
                     "mapping_label": "Juridisk samhandling: Regelverkstolkning",
-                    "explanation": "Rammeverket er bygget på EIF (European Interoperability Framework), som har juridisk samhandling som ett av fire eksplisitte samhandlingslag. Ressursen gir strukturgrunnlaget for felles regelverkstolkning i tverrgående digitaliseringstiltak.",
+                    "explanation": "Rammeverket gjør juridiske rammer, hjemmel, ansvar, avtaler og regelverkstolkning til en del av samhandlingsanalysen.",
                     "subcapability_id": "id-0209483504444508a40415aa6e3fc39c",
                     "subcapability_name": "Regelverkstolkning",
                     "subcapability_slug": "regelverkstolkning",
@@ -10219,12 +10243,12 @@
                         {
                             "product_id": 85,
                             "product_name": "Rammeverk for digital samhandling",
-                            "version": 1,
+                            "version": 2,
                             "author": "codex",
-                            "relative_path": "arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v1-codex.md",
-                            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v1-codex.md",
+                            "relative_path": "arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v2-codex.md",
+                            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v2-codex.md",
                             "mapping_label": "Juridisk samhandling: Regelverkstolkning",
-                            "explanation": "Rammeverket er bygget på EIF (European Interoperability Framework), som har juridisk samhandling som ett av fire eksplisitte samhandlingslag. Ressursen gir strukturgrunnlaget for felles regelverkstolkning i tverrgående digitaliseringstiltak.",
+                            "explanation": "Rammeverket gjør juridiske rammer, hjemmel, ansvar, avtaler og regelverkstolkning til en del av samhandlingsanalysen.",
                             "subcapability_id": "id-0209483504444508a40415aa6e3fc39c",
                             "subcapability_name": "Regelverkstolkning",
                             "subcapability_slug": "regelverkstolkning",

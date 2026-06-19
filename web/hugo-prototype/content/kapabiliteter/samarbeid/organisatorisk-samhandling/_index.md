@@ -84,8 +84,8 @@ Evne til å effektivisere forretningsprosesser og verdikjeder på tvers av organ
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v1-codex.md">Rammeverk for digital samhandling</a></h3>
-    <p class="capability-product-link__description">Rammeverket etablerer et felles begreps- og vurderingsgrunnlag for samhandling mellom virksomheter, og styrker koordinering i tverrgående tiltak.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v2-codex.md">Rammeverk for digital samhandling</a></h3>
+    <p class="capability-product-link__description">Rammeverket gir felles struktur for roller, ansvar, styring og forvaltning når flere aktører skal samhandle digitalt.</p>
   </article>
   <article class="capability-product-link resource-type--operative">
     <p class="capability-product-link__type">Operativ løsning</p>

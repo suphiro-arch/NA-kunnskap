@@ -354,14 +354,14 @@ Sist redigert: 2026-06-17.
 ### Digdir - arkitektur og standardisering
 - Strategiske prinsipper for felleskomponenter: https://www.digdir.no/media/395/download
 - Nasjonale felleskomponenter (samlet beskrivelse): https://had.no/prosjektveiviseren/Prosjektveiviseren/god-praksis/it-politiske-tema/nasjonale-felleskomponenter.html
-- Nasjonal arkitektur: https://www.digdir.no/samhandling/nasjonal-arkitektur/2150
+- Nasjonal arkitektur: https://www.digdir.no/digital-samhandling/nasjonal-arkitektur/2150
 - Nasjonal arkitektur (oppdatert URL): https://www.digdir.no/digital-samhandling/nasjonal-arkitektur-standarder-og-informasjonsforvaltning/2150 (lagt til 2026-06-07)
 - En mer praksisnær nasjonal arkitektur: https://www.digdir.no/digitalisering-og-samordning/en-mer-praksisnaer-nasjonal-arkitektur/8163 (lagt til 2026-06-07)
 - Digdir om nasjonal arkitektur, samhandling og tjenesteutvikling: https://www.digdir.no/digitaliseringsradet/digdir-nasjonal-arkitektur-samhandling-og-tjenesteutvikling-i-offentlig-sektor/8079 (lagt til 2026-06-07)
 - Rammeverk for nasjonal arkitektur: https://digdir.github.io/nasjonal-arkitektur/ (lagt til 2026-06-04)
-- Overordnede arkitekturprinsipper: https://www.digdir.no/samhandling/overordnede-arkitekturprinsipper/1065
+- Overordnede arkitekturprinsipper: https://www.digdir.no/digital-samhandling/overordnede-arkitekturprinsipper/1065 (kanonisk URL oppdatert 2026-06-19)
 - Sjekkliste for sammenhengende tjenester: https://www.digdir.no/media/1850/download (lagt til 2026-04-09)
-- Rammeverk for digital samhandling: https://www.digdir.no/samhandling/rammeverk-digital-samhandling/2149
+- Rammeverk for digital samhandling: https://www.digdir.no/digital-samhandling/rammeverk-digital-samhandling/2149 (kanonisk URL oppdatert 2026-06-19)
 - Referansearkitekturer: https://www.digdir.no/digital-samhandling/referansearkitekturer/2131
 - Referansearkitektur forsendelse (eMelding): https://www.digdir.no/digital-samhandling/referansearkitekturer/2131 (arbeidsutkast, lagt til 2026-04-09, kanonisk URL oppdatert 2026-06-19)
 - Referansearkitektur forespørsel-svar (eOppslag): https://www.digdir.no/digital-samhandling/referansearkitekturer/2131 (arbeidsutkast, lagt til 2026-04-09, kanonisk URL oppdatert 2026-06-19)
@@ -404,7 +404,7 @@ Sist redigert: 2026-06-17.
 - Nasjonale grunndata - statusrapport 2025: https://www.digdir.no/datadeling/nasjonale-grunndata-statusrapport-2025/7528 (lagt til 2026-06-07)
 - Nasjonal verktøykasse for deling av data: https://www.digdir.no/datadeling/slik-blir-du-en-god-datatilbyder/2248 (arbeidsutkast, lagt til 2026-04-09)
 - Kunnskapsgrunnlag og KPI-er datadeling: https://www.digdir.no/datadeling/slik-kommer-du-i-gang-med-bruke-data-fra-andre/2255 (arbeidsutkast, lagt til 2026-04-09)
-- Kapabilitetskart (planlagt): https://www.digdir.no/samhandling/nasjonal-arkitektur/2150 (arbeidsutkast, lagt til 2026-04-09)
+- Kapabilitetskart (planlagt): https://www.digdir.no/digital-samhandling/nasjonal-arkitektur/2150 (arbeidsutkast, lagt til 2026-04-09, kanonisk URL oppdatert 2026-06-19)
 - Digitaliseringsrundskrivet: https://www.digdir.no/styring-og-organisering/digitaliseringsrundskrivet/1230
 - Bruke data fra andre: https://www.digdir.no/datadeling/slik-kommer-du-i-gang-med-bruke-data-fra-andre/2255
 - Dele data med andre: https://www.digdir.no/datadeling/slik-blir-du-en-god-datatilbyder/2248

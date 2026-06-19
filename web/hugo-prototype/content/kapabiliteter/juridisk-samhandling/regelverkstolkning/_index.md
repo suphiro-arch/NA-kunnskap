@@ -14,8 +14,8 @@ Evne til å tilby felles, autoritative tolkninger av relevant regelverk. ### Beg
 <div class="capability-product-links">
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v1-codex.md">Rammeverk for digital samhandling</a></h3>
-    <p class="capability-product-link__description">Rammeverket er bygget på EIF (European Interoperability Framework), som har juridisk samhandling som ett av fire eksplisitte samhandlingslag. Ressursen gir strukturgrunnlaget for felles regelverkstolkning i tverrgående digitaliseringstiltak.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v2-codex.md">Rammeverk for digital samhandling</a></h3>
+    <p class="capability-product-link__description">Rammeverket gjør juridiske rammer, hjemmel, ansvar, avtaler og regelverkstolkning til en del av samhandlingsanalysen.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>

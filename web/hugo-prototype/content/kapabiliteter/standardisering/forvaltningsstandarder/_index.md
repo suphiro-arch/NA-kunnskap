@@ -59,8 +59,8 @@ Evne til å implementere og ta i bruk nasjonale standarder. ### Begrunnelse (Hvo
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v1-codex.md">Rammeverk for digital samhandling</a></h3>
-    <p class="capability-product-link__description">Rammeverket gir et felles strukturgrunnlag for samhandling og peker til standardspor som virksomheter skal bruke for å redusere særutvikling og sikre sammenlignbar praksis.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v2-codex.md">Rammeverk for digital samhandling</a></h3>
+    <p class="capability-product-link__description">Rammeverket gir overordnet grunnlag for når standarder, referansearkitekturer og felles krav bør brukes i samhandlingsløp.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
@@ -84,8 +84,8 @@ Evne til å implementere og ta i bruk nasjonale standarder. ### Begrunnelse (Hvo
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/98-Overordnede-arkitekturprinsipper-for-offentlig-sektor-v1-codex.md">Overordnede arkitekturprinsipper for offentlig sektor</a></h3>
-    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Overordnede arkitekturprinsipper for offentlig sektor basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/98-Overordnede-arkitekturprinsipper-for-offentlig-sektor-v2-codex.md">Overordnede arkitekturprinsipper for offentlig sektor</a></h3>
+    <p class="capability-product-link__description">Prinsippene gir retning for når standarder, referansearkitekturer og felles krav bør brukes for samhandling, gjenbruk og tillit.</p>
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>

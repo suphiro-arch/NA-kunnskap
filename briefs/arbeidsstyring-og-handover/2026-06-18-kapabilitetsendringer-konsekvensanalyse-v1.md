@@ -37,8 +37,8 @@ Maskinell sjekk av aktive ressursfiler viste særlig tynne kapabilitetsseksjoner
 1. `DIGDIR-033` Referansearkitektur forsendelse (eMelding) - gjennomført som `v2` i denne runden.
 2. `DIGDIR-034` Referansearkitektur forespørsel-svar (eOppslag) - gjennomført som `v2` 2026-06-19 for å skille oppslag tydelig fra meldingsutveksling og hendelser.
 3. `DIGDIR-027` Arkitektur for hendelser - gjennomført som `v2` 2026-06-19 fordi `Hendelsesdrevet` har fått tydeligere semantisk innhold.
-4. `DIGDIR-025` Rammeverk for digital samhandling - bør vurderes mot juridisk, organisatorisk, semantisk og teknisk samhandling samlet.
-5. `DIGDIR-030` Overordnede arkitekturprinsipper og `DIGDIR-041` Kapabilitetskart - bør vurderes mot ny `Arkitekturstyring`-beskrivelse.
+4. `DIGDIR-025` Rammeverk for digital samhandling - gjennomført som `v2` 2026-06-19, med sterkere vurdering av juridisk, organisatorisk, semantisk og teknisk samhandling samlet.
+5. `DIGDIR-030` Overordnede arkitekturprinsipper - gjennomført som `v2` 2026-06-19, med sterkere kobling til `Arkitekturstyring`.
 6. `DIGDIR-031` Sjekkliste for sammenhengende tjenester og `DIGDIR-032` Kart for tjenestekjeder - bør vurderes mot ny `Sammenhengende tjenester`-beskrivelse.
 
 Operative ressurser som bør inn i senere batch:
@@ -68,6 +68,18 @@ Viktigste forbedringer:
 - Begge beskrivelsene har fått tydeligere avgrensning mot eMelding og mot hverandre, slik at de kan brukes bedre i mønstervalg og tidligfaseanalyse.
 - Register, kapabilitetsmapping, kildeliste og webgrunnlag er oppdatert til å peke på de nye `v2`-filene.
 
+## Tredje målrettede canvasløft
+
+Opprettet nye versjoner 2026-06-19:
+- `arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v2-codex.md`
+- `arkitektur/ressurser/normerende-ressurser/98-Overordnede-arkitekturprinsipper-for-offentlig-sektor-v2-codex.md`
+
+Viktigste forbedringer:
+- Rammeverk for digital samhandling er tydeliggjort som helhetlig samhandlingsgrunnlag der juridiske, organisatoriske, semantiske og tekniske vurderinger må ses samlet.
+- Overordnede arkitekturprinsipper er tydeliggjort som aktivt styringsgrunnlag for arkitekturvalg, porteføljeprioritering, avviksbegrunnelse og oppfølging av nasjonale byggeklosser.
+- Begge beskrivelsene er oppdatert med mer direkte beslutningssituasjoner, risiko, avgrensning og kobling til kapabiliteter.
+- Register, kapabilitetsmapping, kildeliste og webgrunnlag er oppdatert til å peke på de nye `v2`-filene.
+
 ## Kontroll- og vedlikeholdstiltak
 
 `tools/check-resource-version-sync.py` er utvidet slik at kontrollen nå også sjekker:
@@ -80,7 +92,7 @@ Dette skal fange samme type restfeil som oppsto da `meldingsformidling` fortsatt
 ## Videre plan
 
 1. Kjør en liten operativ batch for meldings-, oppslags- og hendelsesressursene, men bare der kapabilitetsseksjonen ikke allerede forklarer roller, ansvar, tilgang, kvittering, avvik, sikkerhet og robusthet godt nok.
-2. Løft `DIGDIR-025` Rammeverk for digital samhandling mot juridisk, organisatorisk, semantisk og teknisk samhandling samlet.
-3. Løft `DIGDIR-030` Overordnede arkitekturprinsipper og `DIGDIR-041` Kapabilitetskart mot ny `Arkitekturstyring`-beskrivelse.
+2. Løft `DIGDIR-031` Sjekkliste for sammenhengende tjenester og `DIGDIR-032` Kart for tjenestekjeder mot ny `Sammenhengende tjenester`-beskrivelse.
+3. Vurder om `DIGDIR-041` Kapabilitetskart trenger et mindre justeringsløft mot ny `Arkitekturstyring`, selv om registeret allerede peker til `v2`.
 4. Lag en fast rapportfunksjon for "tynne kapabilitetsseksjoner" hvis denne analysen skal gjentas ukentlig.
 5. Vurder om `produkt-kapabilitet-koblinger.yaml` bør deles i én manuell masterdel og én generert avledet del, slik at metadata ikke kan drive fra hverandre.
