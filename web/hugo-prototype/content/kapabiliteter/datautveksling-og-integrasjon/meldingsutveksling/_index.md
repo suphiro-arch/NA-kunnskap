@@ -74,7 +74,7 @@ Evne til å utveksle strukturert informasjon som meldinger mellom aktører, base
   </article>
   <article class="capability-product-link resource-type--normative">
     <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/101-Referansearkitektur-forsendelse-eMelding-v1-codex.md">Referansearkitektur forsendelse (eMelding)</a></h3>
-    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Referansearkitektur forsendelse (eMelding) basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/101-Referansearkitektur-forsendelse-eMelding-v2-codex.md">Referansearkitektur forsendelse (eMelding)</a></h3>
+    <p class="capability-product-link__description">Referansearkitekturen gir et felles mønster for meldingsbasert forsendelse fra avsender til kjent mottaker, med vekt på roller, ansvar, meldingsflyt og krav til strukturert meldingsutveksling.</p>
   </article>
 </div>

@@ -3,7 +3,7 @@ title: "Informasjonsforvaltning"
 eyebrow: "Kapabilitet"
 weight: 9
 description: "Evne til å ha et felles rammeverk og styringsmodell for informasjonsforvaltning, slik at offentlige virksomheter kan utveksle og dele data og beskrivelser. ### Begrunnelse (Hvorfor) Kapabiliteten sikrer at offentlige virksomheter kan utveksle og dele data og beskrivelser innenfor et felles rammeverk og en felles styringsmodell. Den løser behovet for enhetlig praksis for hvordan informasjon beskrives, forvaltes, kvalitetssikres og gjøres tilgjengelig på tvers av virksomheter. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Informasjonsforvaltningen må støtte etterlevelse av krav til personvern, taushetsplikt, arkivering, innsyn, behandlingsgrunnlag og lovlig deling av data. - **Organisatorisk (Svært høy vekt):** Etablere felles rammeverk, styringsmodell, roller, ansvar og prosesser for forvaltning av data, begreper, informasjonsmodeller og metadata. - **Semantisk (Svært høy vekt):** Sikre felles beskrivelser, begreper, metadata, informasjonsmodeller og kvalitetskrav, slik at data og beskrivelser kan forstås og gjenbrukes på tvers. - **Teknisk (Høy vekt):** Bruke kataloger, modellverktøy, dataplattformer, API-beskrivelser og maskinlesbare metadata som gjør informasjon finnbart, delbart og teknisk tilgjengelig. ### Bidrag til sammenhengende tjenester og felles økosystem Informasjonsforvaltning gir grunnlaget for at virksomheter kan dele og bruke data med felles forståelse av innhold, kvalitet og ansvar. Når data, begreper og beskrivelser forvaltes etter felles rammer, blir det enklere å bygge tjenester som henger sammen på tvers av virksomheter. Kapabiliteten styrker det felles økosystemet ved å gjøre informasjon mer finnbart, forståelig, pålitelig og gjenbrukbart. For sluttbrukeren betyr dette mindre behov for å oppgi samme informasjon flere ganger, færre feil og mer helhetlige digitale tjenester."
-cardMeta: "8 delkapabiliteter / 30 produkter"
+cardMeta: "8 delkapabiliteter / 29 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -91,10 +91,6 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/107-Kunnskapsgrunnlag-og-KPI-er-datadeling-v1-codex.md">Kunnskapsgrunnlag og KPI-er datadeling</a></h3>
-    </article>
-    <article class="capability-product-link resource-type--normative">
-      <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/108-Kunnskapsgrunnlag-dataspaces-v1-codex.md">Kunnskapsgrunnlag - dataspaces</a></h3>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
