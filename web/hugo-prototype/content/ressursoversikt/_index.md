@@ -13,7 +13,7 @@ hideSectionOverview: true
   <article class="resource-type-card">
     <h3><a href="produkter/operative-losninger-og-tjenester/">Gjenbrukbare løsninger</a></h3>
     <p>Tekniske komponenter, applikasjoner og tjenester som leverer funksjonalitet eller dataprodukter som kan brukes av flere.</p>
-    <p class="resource-type-card__count">77 ressurser</p>
+    <p class="resource-type-card__count">78 ressurser</p>
   </article>
   <article class="resource-type-card">
     <h3><a href="produkter/normerende-ressurser/">Standarder og veiledning</a></h3>
@@ -105,7 +105,7 @@ hideSectionOverview: true
         <option value="Utviklings- og kj&#248;retidsmilj&#248;">Utviklings- og kj&#248;retidsmilj&#248;</option>
       </select></label>
     </div>
-    <p class="resource-filters__result" data-role="count">Viser 112 av 112 ressurser</p>
+    <p class="resource-filters__result" data-role="count">Viser 113 av 113 ressurser</p>
   </div>
   <div class="resource-cards">
 <article class="resource-card" data-owner="DIGDIR" data-type="Gjenbrukbare l&#248;sninger" data-capabilities="sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester" data-search="id-porten digdir-001 digdir digdir gjenbrukbare l&#248;sninger gjenbrukbare l&#248;sninger id-porten er den nasjonale fellesl&#248;sningen for sikker innlogging til offentlige digitale tjenester. l&#248;sningen gir innbyggere &#233;n gjenkjennelig inngang til tjenester p&#229; tvers av virksomheter, og gir tjenesteeiere en felles autentiseringskomponent i stedet for lokale innloggingsl&#248;sninger. id-porten er s&#230;rlig relevant n&#229;r... sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester">
@@ -1036,6 +1036,14 @@ hideSectionOverview: true
   <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Datalandsbyen har rolle som &#229;pen dialog- og erfaringsarena. Kildene beskriver arenaen som et sted der brukere kan m&#248;te andre som arbeider med data og datadeling i offentlig og privat sektor, dele...</p>
   <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/samarbeid/samarbeidsarenaer-og-nettverk/">Samarbeidsarenaer og nettverk</a> <a class="capability-chip" href="../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a> <a class="capability-chip" href="../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/">Bruke data fra andre</a> <details class="capability-chip-disclosure"><summary class="capability-chip capability-chip--more" title="Vis/skjul flere kapabiliteter">+1</summary><span class="capability-chip-disclosure__items"> <a class="capability-chip" href="../kapabiliteter/informasjonsforvaltning/datastyring/">Datastyring</a></span></details></div>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/139-Datalandsbyen-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://data.norge.no/nb/docs/community">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="Gjenbrukbare l&#248;sninger" data-capabilities="autentisering identifisering sikring av informasjonsflyt og datautveksling" data-search="minid digdir-063 digdir digdir gjenbrukbare l&#248;sninger gjenbrukbare l&#248;sninger minid er en personlig elektronisk id som gir innbyggere tilgang til offentlige tjenester p&#229; betydelig sikkerhetsniv&#229;. ressursen har en selvstendig rolle i tillitslandskapet fordi den gir en offentlig eid som kan brukes av personer som skal identifisere og autentisere seg digitalt mot offentlige tjenester. minid b&#248;r... autentisering identifisering sikring av informasjonsflyt og datautveksling">
+  <h2 class="resource-card__title">MinID</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-063</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> Digdir | <strong>Type:</strong> Gjenbrukbare l&#248;sninger | <strong>Emne:</strong> Gjenbrukbare l&#248;sninger</p>
+  <p class="resource-card__description">MinID er en personlig elektronisk ID som gir innbyggere tilgang til offentlige tjenester p&#229; betydelig sikkerhetsniv&#229;. Ressursen har en selvstendig rolle i tillitslandskapet fordi den gir en offentlig eID som kan brukes av personer som skal identifisere og autentisere seg digitalt mot offentlige tjenester. MinID b&#248;r...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/tillit/autentisering/">Autentisering</a> <a class="capability-chip" href="../kapabiliteter/tillit/identifisering/">Identifisering</a> <a class="capability-chip" href="../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/">Sikring av informasjonsflyt og datautveksling</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/140-MinID-produkt-canvas-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://samarbeid.digdir.no/minid/minid/3634">Offisiell lenke</a></p>
 </article>
   </div>
   <script>

@@ -21,6 +21,7 @@ Sist redigert: 2026-06-17.
 - ID-porten - tillitstjenester: https://samarbeid.digdir.no/id-porten/tillitstenester/2479
 - ID-porten - statistikk: https://samarbeid.digdir.no/id-porten/statistikk-id-porten/3419 (lagt til 2026-05-05)
 - ID-porten - årsrapport 2025: https://samarbeid.digdir.no/id-porten/id-porten-2025/3524 (lagt til 2026-05-05)
+- MinID: https://samarbeid.digdir.no/minid/minid/3634 (lagt til 2026-06-22)
 - Maskinporten: https://www.digdir.no/om-tjenesten/maskinporten/1558
 - Maskinporten - statistikk: https://samarbeid.digdir.no/maskinporten/statistikk-maskinporten/3423 (lagt til 2026-05-05)
 - Maskinporten - årsrapport 2025: https://samarbeid.digdir.no/maskinporten/maskinporten-2025/3526 (lagt til 2026-05-05)
