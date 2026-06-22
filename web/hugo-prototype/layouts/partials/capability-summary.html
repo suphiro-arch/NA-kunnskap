@@ -1,0 +1,24 @@
+{{- $source := "" -}}
+{{- with .Params.description -}}
+  {{- $source = . -}}
+{{- else -}}
+  {{- with .Summary -}}
+    {{- $source = . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $text := $source | plainify -}}
+{{- $text = replaceRE `\[([^\]]+)\]\([^)]+\)` "$1" $text -}}
+{{- $text = replaceRE "[#*_`>]" "" $text -}}
+{{- $text = replaceRE `(^|\s)-\s+` " " $text -}}
+{{- $text = replaceRE `\s+` " " $text -}}
+{{- $text = strings.TrimSpace $text -}}
+
+{{- $sentences := findRE `[^.!?]+[.!?]` $text 1 -}}
+{{- if gt (len $sentences) 0 -}}
+  {{- index $sentences 0 | strings.TrimSpace -}}
+{{- else if $text -}}
+  {{- $text | truncate 180 -}}
+{{- else -}}
+  {{- "Se siden for kort orientering, full beskrivelse og relaterte ressurser." -}}
+{{- end -}}

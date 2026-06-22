@@ -113,11 +113,7 @@
     {{ range $pages }}
     <article class="section-card section-card--capability">
       <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-      {{ with .Description }}
-      <p class="section-card__description">{{ . }}</p>
-      {{ else }}
-      <p class="section-card__description">Åpne siden for beskrivelse, delkapabiliteter og relaterte produkter.</p>
-      {{ end }}
+      <p class="section-card__description">{{ partial "capability-summary.html" . }}</p>
     </article>
     {{ end }}
   </div>
