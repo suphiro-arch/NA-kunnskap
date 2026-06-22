@@ -99,7 +99,11 @@
 
   <div class="content-card__body">
     <div class="prose">
+      {{ if and $isCapabilitySection (not .IsHome) }}
+      {{ partial "capability-detail.html" . }}
+      {{ else }}
       {{ .Content }}
+      {{ end }}
     </div>
   </div>
 </article>

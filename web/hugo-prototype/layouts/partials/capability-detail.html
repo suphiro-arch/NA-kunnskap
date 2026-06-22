@@ -1,0 +1,9 @@
+{{- $source := .Params.description | default .Description -}}
+{{- $text := $source -}}
+{{- $text = replaceRE "\\s+###\\s+" "\n\n### " $text -}}
+{{- $text = replaceRE "\\s+##\\s+" "\n\n## " $text -}}
+{{- $text = replaceRE "\\s+-\\s+\\*\\*" "\n- **" $text -}}
+{{- $text = replace $text "\r\n" "\n" -}}
+{{- $text = replaceRE "[ \t]+" " " $text -}}
+{{- $text = replaceRE "\n[ ]+" "\n" $text -}}
+{{- $text | markdownify -}}
