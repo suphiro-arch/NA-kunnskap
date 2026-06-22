@@ -63,6 +63,10 @@ jobs:
         run: |
           python web/hugo-prototype/scripts/validate-text-encoding.py
 
+      - name: Validate Hugo front matter
+        run: |
+          python web/hugo-prototype/scripts/validate-hugo-frontmatter.py
+
       - name: Build prototype
         run: |
           hugo --source web/hugo-prototype --destination public --gc --minify

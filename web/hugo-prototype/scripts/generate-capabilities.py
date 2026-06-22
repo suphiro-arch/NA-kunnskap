@@ -67,6 +67,11 @@ def markdown_escape(text: str) -> str:
     return text.replace('|', '\\|').replace('\n', ' ').strip()
 
 
+def frontmatter_string(text: str) -> str:
+    """Return a YAML-safe quoted scalar by using JSON string escaping."""
+    return json.dumps(text, ensure_ascii=False)
+
+
 def parse_scalar(lines: list[str], index: int, field_indent: int) -> tuple[str, int]:
     line = lines[index]
     _, raw_value = line.split(':', 1)
@@ -491,12 +496,12 @@ def generate() -> None:
 
             sub_content = f"""
 ---
-title: "{subcap['navn']}"
-headerTitle: "{capability['navn']} - {subcap['navn']}"
-eyebrow: "Kapabilitet"
+title: {frontmatter_string(subcap['navn'])}
+headerTitle: {frontmatter_string(f"{capability['navn']} - {subcap['navn']}")}
+eyebrow: {frontmatter_string("Kapabilitet")}
 weight: {sub_index}
-description: "{subcap['beskrivelse']}"
-cardMeta: "{len({entry['product_id'] for entry in sub_products})} produkter"
+description: {frontmatter_string(subcap['beskrivelse'])}
+cardMeta: {frontmatter_string(f"{len({entry['product_id'] for entry in sub_products})} produkter")}
 ---
 
 {subcap['beskrivelse']}
@@ -514,11 +519,11 @@ cardMeta: "{len({entry['product_id'] for entry in sub_products})} produkter"
 
         capability_content = f"""
 ---
-title: "{capability['navn']}"
-eyebrow: "Kapabilitet"
+title: {frontmatter_string(capability['navn'])}
+eyebrow: {frontmatter_string("Kapabilitet")}
 weight: {index}
-description: "{capability['beskrivelse']}"
-cardMeta: "{card_meta}"
+description: {frontmatter_string(capability['beskrivelse'])}
+cardMeta: {frontmatter_string(card_meta)}
 productsMarkdown: |
 {indent_block(products_markdown.strip(), 2)}
 ---
@@ -529,11 +534,11 @@ productsMarkdown: |
 
     top_content = f"""
 ---
-title: "Kapabiliteter"
-eyebrow: "Kapabilitetsmodell"
-headerTitle: "{model['navn']}"
+title: {frontmatter_string("Kapabiliteter")}
+eyebrow: {frontmatter_string("Kapabilitetsmodell")}
+headerTitle: {frontmatter_string(model['navn'])}
 weight: 10
-description: "Oversikt over hovedkapabiliteter, delkapabiliteter og hvilke produkter som støtter dem."
+description: {frontmatter_string("Oversikt over hovedkapabiliteter, delkapabiliteter og hvilke produkter som støtter dem.")}
 ---
 
 {model['beskrivelse'].replace('\n', ' ')}
