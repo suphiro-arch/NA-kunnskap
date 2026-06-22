@@ -1,22 +1,18 @@
-{{- $source := "" -}}
-{{- with .Params.description -}}
-  {{- $source = . -}}
-{{- else -}}
-  {{- with .Summary -}}
-    {{- $source = . -}}
-  {{- end -}}
-{{- end -}}
-
+{{- $source := .Description | default .Summary -}}
 {{- $text := $source | plainify -}}
-{{- $text = replaceRE `\[([^\]]+)\]\([^)]+\)` "$1" $text -}}
-{{- $text = replaceRE "[#*_`>]" "" $text -}}
-{{- $text = replaceRE `(^|\s)-\s+` " " $text -}}
-{{- $text = replaceRE `\s+` " " $text -}}
-{{- $text = strings.TrimSpace $text -}}
+{{- $text = replaceRE "\\[[^\\]]+\\]\\([^)]+\\)" "" $text -}}
+{{- $text = replace $text "###" "" -}}
+{{- $text = replace $text "##" "" -}}
+{{- $text = replace $text "**" "" -}}
+{{- $text = replace $text "*" "" -}}
+{{- $text = replace $text "`" "" -}}
+{{- $text = replaceRE "(^|\\s)-\\s+" " " $text -}}
+{{- $text = replaceRE "\\s+" " " $text -}}
+{{- $text = trim $text " \n\r\t" -}}
 
-{{- $sentences := findRE `[^.!?]+[.!?]` $text 1 -}}
+{{- $sentences := findRE "[^.!?]+[.!?]" $text 1 -}}
 {{- if gt (len $sentences) 0 -}}
-  {{- index $sentences 0 | strings.TrimSpace -}}
+  {{- index $sentences 0 | trim " \n\r\t" -}}
 {{- else if $text -}}
   {{- $text | truncate 180 -}}
 {{- else -}}
