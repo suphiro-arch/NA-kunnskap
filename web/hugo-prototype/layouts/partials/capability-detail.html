@@ -13,18 +13,18 @@
 {{- $text = replace $text "`" "" -}}
 {{- $text = replaceRE "(?m)^-\\s+" "" $text -}}
 {{- $text = replaceRE "\\s+" " " $text -}}
-{{- $text = trim $text " \n\r\t" -}}
-{{- $sentence := replaceRE "^\\s*([^.!?]+[.!?]).*$" "$1" $text | trim " \n\r\t" -}}
-{{- if $sentence -}}
-  {{- $text = $sentence -}}
+{{- $text = strings.TrimSpace $text -}}
+{{- $sentences := findRE `[^.!?]+[.!?]` $text 1 -}}
+{{- if gt (len $sentences) 0 -}}
+  {{- $text = index $sentences 0 | strings.TrimSpace -}}
 {{- end -}}
 
 {{- if not $text -}}
   {{- $fallback := or .Params.description .Description .Summary "" -}}
-  {{- $fallback = $fallback | plainify | replaceRE "\\s+" " " | trim " \n\r\t" -}}
-  {{- $sentence := replaceRE "^\\s*([^.!?]+[.!?]).*$" "$1" $fallback | trim " \n\r\t" -}}
-  {{- if $sentence -}}
-    {{- $text = $sentence -}}
+  {{- $fallback = $fallback | plainify | replaceRE "\\s+" " " | strings.TrimSpace -}}
+  {{- $sentences = findRE `[^.!?]+[.!?]` $fallback 1 -}}
+  {{- if gt (len $sentences) 0 -}}
+    {{- $text = index $sentences 0 | strings.TrimSpace -}}
   {{- else -}}
     {{- $text = $fallback | truncate 220 -}}
   {{- end -}}

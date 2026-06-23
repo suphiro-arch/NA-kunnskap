@@ -7,11 +7,11 @@
 {{- $text = replace $text "`" "" -}}
 {{- $text = replaceRE "(?m)^-\\s+" "" $text -}}
 {{- $text = replaceRE "\\s+" " " $text -}}
-{{- $text = trim $text " \n\r\t" -}}
-{{- $sentence := replaceRE "^\\s*([^.!?]+[.!?]).*$" "$1" $text | trim " \n\r\t" -}}
+{{- $text = strings.TrimSpace $text -}}
+{{- $sentences := findRE `[^.!?]+[.!?]` $text 1 -}}
 
-{{- if $sentence -}}
-  {{- $sentence -}}
+{{- if gt (len $sentences) 0 -}}
+  {{- index $sentences 0 | strings.TrimSpace -}}
 {{- else if $text -}}
   {{- $text | truncate 180 -}}
 {{- else -}}
