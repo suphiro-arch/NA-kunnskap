@@ -1,7 +1,4 @@
-{{- $source := .Params.description | default .Description | default .Summary -}}
-{{- if eq .Params.headerTitle "Nasjonal arkitektur for samhandling" -}}
-  {{- $source = .Content -}}
-{{- end -}}
+{{- $source := .RawContent | default .Params.description | default .Description | default .Summary -}}
 {{- $text := $source | plainify -}}
 {{- $text = replaceRE "\\[[^\\]]+\\]\\([^)]+\\)" "" $text -}}
 {{- $text = replace $text "###" "" -}}

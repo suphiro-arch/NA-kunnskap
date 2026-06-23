@@ -1,4 +1,4 @@
-{{- $source := .Params.description | default .Description | default .Summary -}}
+{{- $source := .RawContent | default .Params.description | default .Description | default .Summary -}}
 {{- $text := $source | plainify -}}
 {{- $text = replaceRE "\\[[^\\]]+\\]\\([^)]+\\)" "" $text -}}
 {{- $text = replace $text "###" "" -}}
