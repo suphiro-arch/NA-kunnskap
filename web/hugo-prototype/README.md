@@ -54,6 +54,7 @@ hugo server
 
 ```bash
 hugo --gc --minify
+python scripts/validate-built-prototype.py
 ```
 
 ## Publisering

@@ -5,16 +5,16 @@ eyebrow: "Kapabilitet"
 weight: 4
 description: "Evne til å få oversikt over hvilke hendelser som utløser eller utløses av en tjeneste. ### Begrunnelse (Hvorfor) Kapabiliteten gjør det mulig å forstå hvilke digitale hendelser som påvirker en tjeneste, og hvilke hendelser tjenesten selv produserer. Den løser problemet med manglende oversikt over avhengigheter, triggere og konsekvenser i hendelsesdrevne tjenestekjeder. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Avklare om hendelser inneholder personopplysninger eller annen beskyttet informasjon, og synliggjøre relevante krav til behandlingsgrunnlag, tilgang, ansvar og formål. - **Organisatorisk (Høy vekt):** Etablere rutiner for å registrere, beskrive, forvalte og vedlikeholde oversikt over hendelser, med tydelig ansvar hos tjenesteeier og hendelsestilbyder. - **Semantisk (Svært høy vekt):** Beskrive hendelsestyper, hendelsesnavn, triggere, tilstander, metadata, begreper og relasjoner til tjenester på en standardisert måte. - **Teknisk (Høy vekt):** Tilgjengeliggjøre hendelsesoversikter i kataloger, grensesnitt eller meldingsinfrastruktur slik at systemer kan oppdage, abonnere på og reagere på relevante hendelser. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten bidrar til sammenhengende tjenester ved å gjøre det tydelig hvilke hendelser som kan starte, endre eller avslutte en tjenesteprosess. Når aktørene har oversikt over hendelser og avhengigheter, blir det enklere å bygge proaktive og hendelsesdrevne tjenestekjeder på tvers av virksomheter. For det felles økosystemet gir kapabiliteten bedre gjenbruk av hendelser, færre skjulte avhengigheter og mer forutsigbar samhandling. Dette gjør det mulig å reagere raskere på endringer og utvikle tjenester som oppleves mer sømløse for sluttbrukeren."
 cardMeta: "1 produkter"
+productsMarkdown: |
+  ## Relaterte ressurser
+  
+  <div class="capability-product-links">
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/16-data-norge-no-produkt-canvas-v4-codex.md">data.norge.no</a></h3>
+      <p class="capability-product-link__description">gjør hendelser synlige som egne ressurser som kan støtte videre digital samhandling</p>
+    </article>
+  </div>
 ---
 
 Evne til å få oversikt over hvilke hendelser som utløser eller utløses av en tjeneste. ### Begrunnelse (Hvorfor) Kapabiliteten gjør det mulig å forstå hvilke digitale hendelser som påvirker en tjeneste, og hvilke hendelser tjenesten selv produserer. Den løser problemet med manglende oversikt over avhengigheter, triggere og konsekvenser i hendelsesdrevne tjenestekjeder. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Avklare om hendelser inneholder personopplysninger eller annen beskyttet informasjon, og synliggjøre relevante krav til behandlingsgrunnlag, tilgang, ansvar og formål. - **Organisatorisk (Høy vekt):** Etablere rutiner for å registrere, beskrive, forvalte og vedlikeholde oversikt over hendelser, med tydelig ansvar hos tjenesteeier og hendelsestilbyder. - **Semantisk (Svært høy vekt):** Beskrive hendelsestyper, hendelsesnavn, triggere, tilstander, metadata, begreper og relasjoner til tjenester på en standardisert måte. - **Teknisk (Høy vekt):** Tilgjengeliggjøre hendelsesoversikter i kataloger, grensesnitt eller meldingsinfrastruktur slik at systemer kan oppdage, abonnere på og reagere på relevante hendelser. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten bidrar til sammenhengende tjenester ved å gjøre det tydelig hvilke hendelser som kan starte, endre eller avslutte en tjenesteprosess. Når aktørene har oversikt over hendelser og avhengigheter, blir det enklere å bygge proaktive og hendelsesdrevne tjenestekjeder på tvers av virksomheter. For det felles økosystemet gir kapabiliteten bedre gjenbruk av hendelser, færre skjulte avhengigheter og mer forutsigbar samhandling. Dette gjør det mulig å reagere raskere på endringer og utvikle tjenester som oppleves mer sømløse for sluttbrukeren.
-
-## Relaterte ressurser
-
-<div class="capability-product-links">
-  <article class="capability-product-link resource-type--operative">
-    <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/16-data-norge-no-produkt-canvas-v4-codex.md">data.norge.no</a></h3>
-    <p class="capability-product-link__description">gjør hendelser synlige som egne ressurser som kan støtte videre digital samhandling</p>
-  </article>
-</div>

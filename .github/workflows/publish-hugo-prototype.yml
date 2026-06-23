@@ -71,6 +71,10 @@ jobs:
         run: |
           hugo --source web/hugo-prototype --destination public --gc --minify
 
+      - name: Validate built prototype output
+        run: |
+          python web/hugo-prototype/scripts/validate-built-prototype.py
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

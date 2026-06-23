@@ -485,14 +485,10 @@ def generate() -> None:
         for sub_index, subcap in enumerate(subcaps, start=1):
             sub_slug = slugify(subcap['navn'])
             sub_products = subcap_products.get(subcap['id'], [])
-
-            sub_product_rows = []
-            for entry in sub_products:
-                sub_product_rows.append([
-                    entry['product_name'],
-                    f"[v{entry['version']} ({entry['author']})]({entry['product_url']})" if entry['version'] > 0 else f"[legacy]({entry['product_url']})",
-                    entry['explanation'] or 'Produktet er eksplisitt koblet til denne delkapabiliteten i produktbeskrivelsen.',
-                ])
+            sub_products_markdown = (
+                "## Relaterte ressurser\n\n"
+                + render_product_link_cards(sub_products, subcap['navn'], include_relevance=True)
+            )
 
             sub_content = f"""
 ---
@@ -502,13 +498,11 @@ eyebrow: {frontmatter_string("Kapabilitet")}
 weight: {sub_index}
 description: {frontmatter_string(subcap['beskrivelse'])}
 cardMeta: {frontmatter_string(f"{len({entry['product_id'] for entry in sub_products})} produkter")}
+productsMarkdown: |
+{indent_block(sub_products_markdown.strip(), 2)}
 ---
 
 {subcap['beskrivelse']}
-
-## Relaterte ressurser
-
-{render_product_link_cards(sub_products, subcap['navn'], include_relevance=True)}
 """
             write_file(cap_dir / sub_slug / '_index.md', sub_content)
 

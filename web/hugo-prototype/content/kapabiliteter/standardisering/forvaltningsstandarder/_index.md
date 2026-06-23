@@ -5,116 +5,116 @@ eyebrow: "Kapabilitet"
 weight: 2
 description: "Evne til å implementere og ta i bruk nasjonale standarder. ### Begrunnelse (Hvorfor) Kapabiliteten sikrer at virksomheter faktisk implementerer og tar i bruk nasjonale standarder i tjenester, løsninger, anskaffelser og samhandlingsprosesser. Den løser behovet for felles praksis som gjør at data, tjenester og tekniske grensesnitt fungerer sammen på tvers av offentlig sektor. Kapabiliteten inkluderer også EU-harmoniserte standarder som er vedtatt i norsk forvaltning. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Etterleve krav og føringer knyttet til nasjonale forvaltningsstandarder og EU-harmoniserte standarder som er vedtatt i norsk forvaltning. - **Organisatorisk (Høy vekt):** Etablere rutiner for å vurdere, innføre, følge opp og dokumentere bruk av relevante standarder i prosjekter, anskaffelser og forvaltning. - **Semantisk (Høy vekt):** Bruke standardiserte begreper, metadata, informasjonsmodeller og beskrivelser som sikrer lik forståelse av data og tjenester på tvers av virksomheter. - **Teknisk (Høy vekt):** Implementere standardiserte formater, protokoller, API-spesifikasjoner, sikkerhetsmekanismer og tekniske grensesnitt som gjør løsninger interoperable og gjenbrukbare. ### Bidrag til sammenhengende tjenester og felles økosystem Forvaltningsstandarder gjør det mulig å bygge tjenester og løsninger som følger samme regler, formater og samhandlingsmønstre. Når virksomheter implementerer og bruker de samme standardene, blir det enklere å dele data, koble systemer sammen og gjenbruke løsninger på tvers av sektorer og forvaltningsnivåer. Kapabiliteten styrker det felles økosystemet ved å redusere lokale avvik, særtilpasninger og kostbare integrasjoner. For sluttbrukeren betyr dette mer stabile og sammenhengende tjenester, der digitale løsninger fungerer bedre sammen uavhengig av hvilken virksomhet som leverer dem."
 cardMeta: "21 produkter"
+productsMarkdown: |
+  ## Relaterte ressurser
+  
+  <div class="capability-product-links">
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/07-eFormidling-produkt-canvas-v3-codex.md">eFormidling</a></h3>
+      <p class="capability-product-link__description">Implementering av Peppol- og AS4-standarder.</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/11-Peppol-eDelivery-produkt-canvas-v3-codex.md">Peppol eDelivery</a></h3>
+      <p class="capability-product-link__description">bygger på forvaltede samhandlingsregler, meldingsprofiler og transportspesifikasjoner</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/13-Felles-datakatalog-produkt-canvas-v3-codex.md">Felles datakatalog</a></h3>
+      <p class="capability-product-link__description">bygger på standardiserte metadataformater og felles publiseringspraksis som gjør innholdet sammenlignbart og høstbart</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/14-Begrepskatalog-produkt-canvas-v3-codex.md">Begrepskatalog</a></h3>
+      <p class="capability-product-link__description">bygger på felles standard for begrepsbeskrivelser og gjør innholdet mer sammenlignbart og gjenbrukbart</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/15-API-katalog-produkt-canvas-v3-codex.md">API-katalog</a></h3>
+      <p class="capability-product-link__description">bygger på standardisert beskrivelse av datatjenester og gjør API-metadata mer sammenlignbare og gjenbrukbare</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/16-data-norge-no-produkt-canvas-v4-codex.md">data.norge.no</a></h3>
+      <p class="capability-product-link__description">bygger på standardisert metadataforvaltning som gir sammenlignbarhet og bedre gjenfinning</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/17-data-altinn-no-produkt-canvas-v4-codex.md">data.altinn.no</a></h3>
+      <p class="capability-product-link__description">gir et felles API- og tilgangsmønster som gjør løsningene mer forutsigbare for både tilbydere og konsumenter</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/71-FINT-Arkiv-v1-codex.md">FINT Arkiv</a></h3>
+      <p class="capability-product-link__description">Løsningen bidrar til standardisert utveksling av arkivinformasjon på tvers av ulike sak-/arkivsystemer og leverandører.</p>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/72-FINT-Informasjonsmodell-v1-codex.md">FINT Informasjonsmodell</a></h3>
+      <p class="capability-product-link__description">Ressursen fungerer som et omforent normerende grunnlag for hvordan informasjon skal representeres og utveksles innenfor de delene av fylkeskommunal samhandling som FINT dekker.</p>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v2-codex.md">Rammeverk for digital samhandling</a></h3>
+      <p class="capability-product-link__description">Rammeverket gir overordnet grunnlag for når standarder, referansearkitekturer og felles krav bør brukes i samhandlingsløp.</p>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/86-Referansekatalogen-for-IT-standarder-v1-codex.md">Referansekatalogen for IT-standarder</a></h3>
+      <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Referansekatalogen for IT-standarder basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/87-Arkitektur-for-hendelser-v2-codex.md">Arkitektur for hendelser</a></h3>
+      <p class="capability-product-link__description">Ressursen fungerer som normerende mønstergrunnlag for kravstilling, arkitekturvurdering og harmonisering av hendelsesbaserte løsninger.</p>
+    </article>
+    <article class="capability-product-link resource-type--forum">
+      <p class="capability-product-link__type">Samarbeidsforum</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/88-Arkitektur-og-standardiseringsradet-v1-codex.md">Arkitektur- og standardiseringsrådet</a></h3>
+      <p class="capability-product-link__description">vurderer og anbefaler standarder og arkitekturmønstre som påvirker digital samhandling.</p>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/89-Rammeverk-for-informasjonsforvaltning-v2-codex.md">Rammeverk for informasjonsforvaltning</a></h3>
+      <p class="capability-product-link__description">Rammeverket peker virksomheter inn mot felles standarder, spesifikasjoner og beskrivelser som må brukes samlet for å få mer konsistent informasjonsforvaltning.</p>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/98-Overordnede-arkitekturprinsipper-for-offentlig-sektor-v2-codex.md">Overordnede arkitekturprinsipper for offentlig sektor</a></h3>
+      <p class="capability-product-link__description">Prinsippene gir retning for når standarder, referansearkitekturer og felles krav bør brukes for samhandling, gjenbruk og tillit.</p>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/101-Referansearkitektur-forsendelse-eMelding-v2-codex.md">Referansearkitektur forsendelse (eMelding)</a></h3>
+      <p class="capability-product-link__description">Referansearkitekturen fungerer som normerende mønstergrunnlag for kravstilling, arkitekturvurdering og harmonisering av meldingsbaserte løsninger.</p>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/102-Referansearkitektur-foresporsel-svar-eOppslag-v2-codex.md">Referansearkitektur forespørsel-svar (eOppslag)</a></h3>
+      <p class="capability-product-link__description">Ressursen fungerer som normerende mønstergrunnlag for kravstilling, arkitekturvurdering og harmonisering av forespørsel-svar-baserte løsninger.</p>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/108-Kunnskapsgrunnlag-dataspaces-v1-codex.md">Kunnskapsgrunnlag - dataspaces</a></h3>
+      <p class="capability-product-link__description">Peker mot felles referansearkitekturer, standarder og styringsmønstre som bør vurderes når dataspaces diskuteres i norsk kontekst.</p>
+    </article>
+    <article class="capability-product-link resource-type--other">
+      <p class="capability-product-link__type">Annen ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/112-Digitaliseringsrundskrivet-v2-copilot.md">Digitaliseringsrundskrivet</a></h3>
+      <p class="capability-product-link__description">Rundskrivet gir styringsmessige forventninger som gjør standarder, arkitektur og felles praksis til operative premisser.</p>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v1-codex.md">Digitaliseringsvennlig regelverk</a></h3>
+      <p class="capability-product-link__description">gir anbefalinger og sjekklister for hvordan regelverk kan utformes og vurderes mer digitaliseringsvennlig.</p>
+    </article>
+    <article class="capability-product-link resource-type--other">
+      <p class="capability-product-link__type">Annen ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v2-copilot.md">Forskrift om IT-standarder i offentlig forvaltning</a></h3>
+      <p class="capability-product-link__description">Forskriften gir et bindende grunnlag for hvilke standarder som skal brukes eller vurderes i offentlig sektor.</p>
+    </article>
+  </div>
 ---
 
 Evne til å implementere og ta i bruk nasjonale standarder. ### Begrunnelse (Hvorfor) Kapabiliteten sikrer at virksomheter faktisk implementerer og tar i bruk nasjonale standarder i tjenester, løsninger, anskaffelser og samhandlingsprosesser. Den løser behovet for felles praksis som gjør at data, tjenester og tekniske grensesnitt fungerer sammen på tvers av offentlig sektor. Kapabiliteten inkluderer også EU-harmoniserte standarder som er vedtatt i norsk forvaltning. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Etterleve krav og føringer knyttet til nasjonale forvaltningsstandarder og EU-harmoniserte standarder som er vedtatt i norsk forvaltning. - **Organisatorisk (Høy vekt):** Etablere rutiner for å vurdere, innføre, følge opp og dokumentere bruk av relevante standarder i prosjekter, anskaffelser og forvaltning. - **Semantisk (Høy vekt):** Bruke standardiserte begreper, metadata, informasjonsmodeller og beskrivelser som sikrer lik forståelse av data og tjenester på tvers av virksomheter. - **Teknisk (Høy vekt):** Implementere standardiserte formater, protokoller, API-spesifikasjoner, sikkerhetsmekanismer og tekniske grensesnitt som gjør løsninger interoperable og gjenbrukbare. ### Bidrag til sammenhengende tjenester og felles økosystem Forvaltningsstandarder gjør det mulig å bygge tjenester og løsninger som følger samme regler, formater og samhandlingsmønstre. Når virksomheter implementerer og bruker de samme standardene, blir det enklere å dele data, koble systemer sammen og gjenbruke løsninger på tvers av sektorer og forvaltningsnivåer. Kapabiliteten styrker det felles økosystemet ved å redusere lokale avvik, særtilpasninger og kostbare integrasjoner. For sluttbrukeren betyr dette mer stabile og sammenhengende tjenester, der digitale løsninger fungerer bedre sammen uavhengig av hvilken virksomhet som leverer dem.
-
-## Relaterte ressurser
-
-<div class="capability-product-links">
-  <article class="capability-product-link resource-type--operative">
-    <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/07-eFormidling-produkt-canvas-v3-codex.md">eFormidling</a></h3>
-    <p class="capability-product-link__description">Implementering av Peppol- og AS4-standarder.</p>
-  </article>
-  <article class="capability-product-link resource-type--operative">
-    <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/11-Peppol-eDelivery-produkt-canvas-v3-codex.md">Peppol eDelivery</a></h3>
-    <p class="capability-product-link__description">bygger på forvaltede samhandlingsregler, meldingsprofiler og transportspesifikasjoner</p>
-  </article>
-  <article class="capability-product-link resource-type--operative">
-    <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/13-Felles-datakatalog-produkt-canvas-v3-codex.md">Felles datakatalog</a></h3>
-    <p class="capability-product-link__description">bygger på standardiserte metadataformater og felles publiseringspraksis som gjør innholdet sammenlignbart og høstbart</p>
-  </article>
-  <article class="capability-product-link resource-type--operative">
-    <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/14-Begrepskatalog-produkt-canvas-v3-codex.md">Begrepskatalog</a></h3>
-    <p class="capability-product-link__description">bygger på felles standard for begrepsbeskrivelser og gjør innholdet mer sammenlignbart og gjenbrukbart</p>
-  </article>
-  <article class="capability-product-link resource-type--operative">
-    <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/15-API-katalog-produkt-canvas-v3-codex.md">API-katalog</a></h3>
-    <p class="capability-product-link__description">bygger på standardisert beskrivelse av datatjenester og gjør API-metadata mer sammenlignbare og gjenbrukbare</p>
-  </article>
-  <article class="capability-product-link resource-type--operative">
-    <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/16-data-norge-no-produkt-canvas-v4-codex.md">data.norge.no</a></h3>
-    <p class="capability-product-link__description">bygger på standardisert metadataforvaltning som gir sammenlignbarhet og bedre gjenfinning</p>
-  </article>
-  <article class="capability-product-link resource-type--operative">
-    <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/17-data-altinn-no-produkt-canvas-v4-codex.md">data.altinn.no</a></h3>
-    <p class="capability-product-link__description">gir et felles API- og tilgangsmønster som gjør løsningene mer forutsigbare for både tilbydere og konsumenter</p>
-  </article>
-  <article class="capability-product-link resource-type--operative">
-    <p class="capability-product-link__type">Operativ løsning</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/71-FINT-Arkiv-v1-codex.md">FINT Arkiv</a></h3>
-    <p class="capability-product-link__description">Løsningen bidrar til standardisert utveksling av arkivinformasjon på tvers av ulike sak-/arkivsystemer og leverandører.</p>
-  </article>
-  <article class="capability-product-link resource-type--normative">
-    <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/72-FINT-Informasjonsmodell-v1-codex.md">FINT Informasjonsmodell</a></h3>
-    <p class="capability-product-link__description">Ressursen fungerer som et omforent normerende grunnlag for hvordan informasjon skal representeres og utveksles innenfor de delene av fylkeskommunal samhandling som FINT dekker.</p>
-  </article>
-  <article class="capability-product-link resource-type--normative">
-    <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v2-codex.md">Rammeverk for digital samhandling</a></h3>
-    <p class="capability-product-link__description">Rammeverket gir overordnet grunnlag for når standarder, referansearkitekturer og felles krav bør brukes i samhandlingsløp.</p>
-  </article>
-  <article class="capability-product-link resource-type--normative">
-    <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/86-Referansekatalogen-for-IT-standarder-v1-codex.md">Referansekatalogen for IT-standarder</a></h3>
-    <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Referansekatalogen for IT-standarder basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
-  </article>
-  <article class="capability-product-link resource-type--normative">
-    <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/87-Arkitektur-for-hendelser-v2-codex.md">Arkitektur for hendelser</a></h3>
-    <p class="capability-product-link__description">Ressursen fungerer som normerende mønstergrunnlag for kravstilling, arkitekturvurdering og harmonisering av hendelsesbaserte løsninger.</p>
-  </article>
-  <article class="capability-product-link resource-type--forum">
-    <p class="capability-product-link__type">Samarbeidsforum</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/88-Arkitektur-og-standardiseringsradet-v1-codex.md">Arkitektur- og standardiseringsrådet</a></h3>
-    <p class="capability-product-link__description">vurderer og anbefaler standarder og arkitekturmønstre som påvirker digital samhandling.</p>
-  </article>
-  <article class="capability-product-link resource-type--normative">
-    <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/89-Rammeverk-for-informasjonsforvaltning-v2-codex.md">Rammeverk for informasjonsforvaltning</a></h3>
-    <p class="capability-product-link__description">Rammeverket peker virksomheter inn mot felles standarder, spesifikasjoner og beskrivelser som må brukes samlet for å få mer konsistent informasjonsforvaltning.</p>
-  </article>
-  <article class="capability-product-link resource-type--normative">
-    <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/98-Overordnede-arkitekturprinsipper-for-offentlig-sektor-v2-codex.md">Overordnede arkitekturprinsipper for offentlig sektor</a></h3>
-    <p class="capability-product-link__description">Prinsippene gir retning for når standarder, referansearkitekturer og felles krav bør brukes for samhandling, gjenbruk og tillit.</p>
-  </article>
-  <article class="capability-product-link resource-type--normative">
-    <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/101-Referansearkitektur-forsendelse-eMelding-v2-codex.md">Referansearkitektur forsendelse (eMelding)</a></h3>
-    <p class="capability-product-link__description">Referansearkitekturen fungerer som normerende mønstergrunnlag for kravstilling, arkitekturvurdering og harmonisering av meldingsbaserte løsninger.</p>
-  </article>
-  <article class="capability-product-link resource-type--normative">
-    <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/102-Referansearkitektur-foresporsel-svar-eOppslag-v2-codex.md">Referansearkitektur forespørsel-svar (eOppslag)</a></h3>
-    <p class="capability-product-link__description">Ressursen fungerer som normerende mønstergrunnlag for kravstilling, arkitekturvurdering og harmonisering av forespørsel-svar-baserte løsninger.</p>
-  </article>
-  <article class="capability-product-link resource-type--normative">
-    <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/108-Kunnskapsgrunnlag-dataspaces-v1-codex.md">Kunnskapsgrunnlag - dataspaces</a></h3>
-    <p class="capability-product-link__description">Peker mot felles referansearkitekturer, standarder og styringsmønstre som bør vurderes når dataspaces diskuteres i norsk kontekst.</p>
-  </article>
-  <article class="capability-product-link resource-type--other">
-    <p class="capability-product-link__type">Annen ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/112-Digitaliseringsrundskrivet-v2-copilot.md">Digitaliseringsrundskrivet</a></h3>
-    <p class="capability-product-link__description">Rundskrivet gir styringsmessige forventninger som gjør standarder, arkitektur og felles praksis til operative premisser.</p>
-  </article>
-  <article class="capability-product-link resource-type--normative">
-    <p class="capability-product-link__type">Normerende ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v1-codex.md">Digitaliseringsvennlig regelverk</a></h3>
-    <p class="capability-product-link__description">gir anbefalinger og sjekklister for hvordan regelverk kan utformes og vurderes mer digitaliseringsvennlig.</p>
-  </article>
-  <article class="capability-product-link resource-type--other">
-    <p class="capability-product-link__type">Annen ressurs</p>
-    <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v2-copilot.md">Forskrift om IT-standarder i offentlig forvaltning</a></h3>
-    <p class="capability-product-link__description">Forskriften gir et bindende grunnlag for hvilke standarder som skal brukes eller vurderes i offentlig sektor.</p>
-  </article>
-</div>
