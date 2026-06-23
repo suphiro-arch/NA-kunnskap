@@ -1,4 +1,5 @@
-{{- $source := or .Params.description .Description .Summary "" -}}
+{{- $source := .source | default "" -}}
+{{- $fallback := .fallback | default "Se siden for kort orientering, full beskrivelse og relaterte ressurser." -}}
 {{- $parts := split $source "###" -}}
 {{- $text := index $parts 0 | plainify -}}
 {{- $text = replaceRE "\\[[^\\]]+\\]\\([^)]+\\)" "" $text -}}
@@ -13,7 +14,7 @@
 {{- if gt (len $sentences) 0 -}}
   {{- index $sentences 0 | strings.TrimSpace -}}
 {{- else if $text -}}
-  {{- $text | truncate 180 -}}
+  {{- $text | truncate 220 -}}
 {{- else -}}
-  {{- "Se siden for kort orientering, full beskrivelse og relaterte ressurser." -}}
+  {{- $fallback -}}
 {{- end -}}

@@ -103,7 +103,13 @@
   <div class="content-card__body">
     <div class="prose">
       {{ if and $isCapabilitySection (not .IsHome) }}
-      {{ partial "capability-detail.html" . }}
+      {{- $capabilitySource := "" -}}
+      {{- if eq .Params.headerTitle "Nasjonal arkitektur for samhandling" -}}
+        {{- $capabilitySource = .RawContent -}}
+      {{- else -}}
+        {{- $capabilitySource = or .Params.description .Description .Summary "" -}}
+      {{- end -}}
+      <p>{{ partial "capability-text.html" (dict "source" $capabilitySource "fallback" "Rammeverket er beskrevet mer detaljert hos Digdir.") }}</p>
       {{ else }}
       {{ .Content }}
       {{ end }}
@@ -120,7 +126,8 @@
     {{ range $pages }}
     <article class="section-card section-card--capability">
       <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-      <p class="section-card__description">{{ partial "capability-summary.html" . }}</p>
+      {{- $capabilitySource := or .Params.description .Description .Summary "" -}}
+      <p class="section-card__description">{{ partial "capability-text.html" (dict "source" $capabilitySource "fallback" "Se siden for kort orientering, full beskrivelse og relaterte ressurser.") }}</p>
     </article>
     {{ end }}
   </div>
