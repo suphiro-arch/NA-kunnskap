@@ -1,36 +1,28 @@
 {{- $source := "" -}}
 {{- if eq .Params.headerTitle "Nasjonal arkitektur for samhandling" -}}
-  {{- $source = .Content -}}
+  {{- $source = .RawContent -}}
 {{- else -}}
-  {{- with .Description -}}
-    {{- $source = . -}}
-  {{- else -}}
-    {{- with .Params.description -}}
-      {{- $source = . -}}
-    {{- else -}}
-      {{- with .Summary -}}
-        {{- $source = . -}}
-      {{- end -}}
-    {{- end -}}
-  {{- end -}}
+  {{- $source = or .Params.description .Description .Summary "" -}}
 {{- end -}}
-{{- $text := $source | plainify -}}
+
+{{- $parts := split $source "###" -}}
+{{- $text := index $parts 0 | plainify -}}
 {{- $text = replaceRE "\\[[^\\]]+\\]\\([^)]+\\)" "" $text -}}
-{{- $text = replace $text "###" "" -}}
-{{- $text = replace $text "##" "" -}}
 {{- $text = replace $text "**" "" -}}
 {{- $text = replace $text "*" "" -}}
 {{- $text = replace $text "`" "" -}}
-{{- $text = replaceRE "(^|\\s)-\\s+" " " $text -}}
+{{- $text = replaceRE "(?m)^-\\s+" "" $text -}}
 {{- $text = replaceRE "\\s+" " " $text -}}
 {{- $text = trim $text " \n\r\t" -}}
-{{- $summary := replaceRE "^\\s*([^.!?]+[.!?]).*$" "$1" $text | trim " \n\r\t" -}}
-{{- if not $summary -}}
-  {{- if $text -}}
-    {{- $summary = $text | truncate 220 -}}
-  {{- else -}}
-    {{- $summary = "Se Digdirs rammeverk for detaljert beskrivelse av kapabiliteten." -}}
-  {{- end -}}
+
+{{- if not $text -}}
+  {{- $fallback := or .Params.description .Description .Summary "" -}}
+  {{- $fallback = $fallback | plainify | replaceRE "\\s+" " " | trim " \n\r\t" -}}
+  {{- $text = $fallback | truncate 220 -}}
 {{- end -}}
 
-<p>{{ $summary }}</p>
+{{- if $text -}}
+<p>{{ $text }}</p>
+{{- else -}}
+<p>Rammeverket er beskrevet mer detaljert hos Digdir.</p>
+{{- end -}}

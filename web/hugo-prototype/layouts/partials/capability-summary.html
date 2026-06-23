@@ -1,31 +1,16 @@
-{{- $source := "" -}}
-{{- with .Description -}}
-  {{- $source = . -}}
-{{- else -}}
-  {{- with .Params.description -}}
-    {{- $source = . -}}
-  {{- else -}}
-    {{- with .Summary -}}
-      {{- $source = . -}}
-    {{- end -}}
-  {{- end -}}
-{{- end -}}
-{{- $text := $source | plainify -}}
+{{- $source := or .Params.description .Description .Summary "" -}}
+{{- $parts := split $source "###" -}}
+{{- $text := index $parts 0 | plainify -}}
 {{- $text = replaceRE "\\[[^\\]]+\\]\\([^)]+\\)" "" $text -}}
-{{- $text = replace $text "###" "" -}}
-{{- $text = replace $text "##" "" -}}
 {{- $text = replace $text "**" "" -}}
 {{- $text = replace $text "*" "" -}}
 {{- $text = replace $text "`" "" -}}
-{{- $text = replaceRE "(^|\\s)-\\s+" " " $text -}}
+{{- $text = replaceRE "(?m)^-\\s+" "" $text -}}
 {{- $text = replaceRE "\\s+" " " $text -}}
 {{- $text = trim $text " \n\r\t" -}}
 
-{{- $summary := replaceRE "^\\s*([^.!?]+[.!?]).*$" "$1" $text | trim " \n\r\t" -}}
-{{- if $summary -}}
-  {{- $summary -}}
-{{- else if $text -}}
-  {{- $text | truncate 180 -}}
+{{- if $text -}}
+  {{- $text -}}
 {{- else -}}
   {{- "Se siden for kort orientering, full beskrivelse og relaterte ressurser." -}}
 {{- end -}}
