@@ -374,6 +374,8 @@ def classify_resource(relative_path: str) -> tuple[str, str]:
         return 'resource-type--normative', 'Normerende ressurs'
     if '/samarbeidsfora/' in normalized:
         return 'resource-type--forum', 'Samarbeidsforum'
+    if '/rammer-og-virkemidler/' in normalized:
+        return 'resource-type--policy', 'Rammer og virkemidler'
     return 'resource-type--other', 'Annen ressurs'
 
 

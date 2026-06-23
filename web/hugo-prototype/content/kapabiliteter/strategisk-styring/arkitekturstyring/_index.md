@@ -39,8 +39,8 @@ productsMarkdown: |
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v1-codex.md">Digitaliseringsvennlig regelverk</a></h3>
       <p class="capability-product-link__description">gjør juridiske forutsetninger til en tydelig del av tidlig løsningsvurdering og styring.</p>
     </article>
-    <article class="capability-product-link resource-type--other">
-      <p class="capability-product-link__type">Annen ressurs</p>
+    <article class="capability-product-link resource-type--policy">
+      <p class="capability-product-link__type">Rammer og virkemidler</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v2-copilot.md">Forskrift om IT-standarder i offentlig forvaltning</a></h3>
       <p class="capability-product-link__description">Forskriften setter rettslige premisser for styring av standardvalg og arkitekturbeslutninger.</p>
     </article>

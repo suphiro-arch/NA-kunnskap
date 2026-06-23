@@ -786,6 +786,16 @@ a:hover {
   color: #8f514b;
 }
 
+.capability-product-link.resource-type--policy {
+  border-top-color: #9a7a34;
+}
+
+.capability-product-link.resource-type--policy .capability-product-link__type {
+  background: #f6f0df;
+  border: 1px solid #e5d8b2;
+  color: #71581f;
+}
+
 .capability-product-link.resource-type--other {
   border-top-color: #8b9b8f;
 }
