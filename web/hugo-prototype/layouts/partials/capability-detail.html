@@ -1,4 +1,7 @@
-{{- $source := .Description | default .Summary -}}
+{{- $source := .Params.description | default .Description | default .Summary -}}
+{{- if eq .Params.headerTitle "Nasjonal arkitektur for samhandling" -}}
+  {{- $source = .Content -}}
+{{- end -}}
 {{- $text := $source | plainify -}}
 {{- $text = replaceRE "\\[[^\\]]+\\]\\([^)]+\\)" "" $text -}}
 {{- $text = replace $text "###" "" -}}
@@ -20,4 +23,3 @@
 {{- end -}}
 
 <p>{{ $summary }}</p>
-<p>Rammeverket er beskrevet mer detaljert hos <a href="https://digdir.github.io/nasjonal-arkitektur/">Digdir</a>.</p>

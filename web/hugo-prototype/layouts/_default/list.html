@@ -94,6 +94,9 @@
     {{ else }}
     <p class="content-card__eyebrow">{{ with .Params.eyebrow }}{{ . }}{{ else }}Seksjon{{ end }}</p>
     <h1>{{ with .Params.headerTitle }}{{ . }}{{ else }}{{ .Title }}{{ end }}</h1>
+    {{ if and $isCapabilitySection (eq .Params.headerTitle "Nasjonal arkitektur for samhandling") }}
+    <p class="content-card__header-note">Rammeverket er beskrevet mer detaljert hos <a href="https://digdir.github.io/nasjonal-arkitektur/">Digdir</a>.</p>
+    {{ end }}
     {{ end }}
   </header>
 

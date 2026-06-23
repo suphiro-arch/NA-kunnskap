@@ -267,6 +267,16 @@ a:hover {
   line-height: 1.15;
 }
 
+.content-card__header-note {
+  margin: 0.65rem 0 0;
+  color: var(--ink-muted);
+  font-size: 0.98rem;
+}
+
+.content-card__header-note a {
+  color: inherit;
+}
+
 .breadcrumbs {
   display: flex;
   flex-wrap: wrap;
