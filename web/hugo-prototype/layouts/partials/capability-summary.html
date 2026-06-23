@@ -1,4 +1,4 @@
-{{- $source := .RawContent | default .Params.description | default .Description | default .Summary -}}
+{{- $source := partial "capability-source.html" . -}}
 {{- $text := $source | plainify -}}
 {{- $text = replaceRE "\\[[^\\]]+\\]\\([^)]+\\)" "" $text -}}
 {{- $text = replace $text "###" "" -}}
