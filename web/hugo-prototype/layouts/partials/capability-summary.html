@@ -1,5 +1,4 @@
-{{- $source := .source | default "" -}}
-{{- $fallback := .fallback | default "Se siden for kort orientering, full beskrivelse og relaterte ressurser." -}}
+{{- $source := or .Params.description .Description .Summary "" -}}
 {{- $parts := split $source "###" -}}
 {{- $text := index $parts 0 | plainify -}}
 {{- $text = replaceRE "\\[[^\\]]+\\]\\([^)]+\\)" "" $text -}}
@@ -8,13 +7,13 @@
 {{- $text = replace $text "`" "" -}}
 {{- $text = replaceRE "(?m)^-\\s+" "" $text -}}
 {{- $text = replaceRE "\\s+" " " $text -}}
-{{- $text = strings.TrimSpace $text -}}
+{{- $text = trim $text " \n\r\t" -}}
 {{- $sentences := findRE `[^.!?]+[.!?]` $text 1 -}}
 
 {{- if gt (len $sentences) 0 -}}
-  {{- index $sentences 0 | strings.TrimSpace -}}
+  {{- index $sentences 0 | trim " \n\r\t" -}}
 {{- else if $text -}}
-  {{- $text | truncate 220 -}}
+  {{- $text | truncate 180 -}}
 {{- else -}}
-  {{- $fallback -}}
+  {{- "Se siden for kort orientering, full beskrivelse og relaterte ressurser." -}}
 {{- end -}}
