@@ -1,4 +1,19 @@
-{{- $source := partial "capability-source.html" . -}}
+{{- $source := "" -}}
+{{- if eq .Params.headerTitle "Nasjonal arkitektur for samhandling" -}}
+  {{- $source = .Content -}}
+{{- else -}}
+  {{- with .Description -}}
+    {{- $source = . -}}
+  {{- else -}}
+    {{- with .Params.description -}}
+      {{- $source = . -}}
+    {{- else -}}
+      {{- with .Summary -}}
+        {{- $source = . -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
 {{- $text := $source | plainify -}}
 {{- $text = replaceRE "\\[[^\\]]+\\]\\([^)]+\\)" "" $text -}}
 {{- $text = replace $text "###" "" -}}
@@ -9,14 +24,13 @@
 {{- $text = replaceRE "(^|\\s)-\\s+" " " $text -}}
 {{- $text = replaceRE "\\s+" " " $text -}}
 {{- $text = trim $text " \n\r\t" -}}
-{{- $sentences := findRE "[^.!?]+[.!?]" $text 1 -}}
-{{- $summary := "" -}}
-{{- if gt (len $sentences) 0 -}}
-  {{- $summary = index $sentences 0 | trim " \n\r\t" -}}
-{{- else if $text -}}
-  {{- $summary = $text | truncate 220 -}}
-{{- else -}}
-  {{- $summary = "Se Digdirs rammeverk for detaljert beskrivelse av kapabiliteten." -}}
+{{- $summary := replaceRE "^\\s*([^.!?]+[.!?]).*$" "$1" $text | trim " \n\r\t" -}}
+{{- if not $summary -}}
+  {{- if $text -}}
+    {{- $summary = $text | truncate 220 -}}
+  {{- else -}}
+    {{- $summary = "Se Digdirs rammeverk for detaljert beskrivelse av kapabiliteten." -}}
+  {{- end -}}
 {{- end -}}
 
 <p>{{ $summary }}</p>

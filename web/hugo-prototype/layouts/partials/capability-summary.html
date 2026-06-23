@@ -1,4 +1,15 @@
-{{- $source := partial "capability-source.html" . -}}
+{{- $source := "" -}}
+{{- with .Description -}}
+  {{- $source = . -}}
+{{- else -}}
+  {{- with .Params.description -}}
+    {{- $source = . -}}
+  {{- else -}}
+    {{- with .Summary -}}
+      {{- $source = . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
 {{- $text := $source | plainify -}}
 {{- $text = replaceRE "\\[[^\\]]+\\]\\([^)]+\\)" "" $text -}}
 {{- $text = replace $text "###" "" -}}
@@ -10,9 +21,9 @@
 {{- $text = replaceRE "\\s+" " " $text -}}
 {{- $text = trim $text " \n\r\t" -}}
 
-{{- $sentences := findRE "[^.!?]+[.!?]" $text 1 -}}
-{{- if gt (len $sentences) 0 -}}
-  {{- index $sentences 0 | trim " \n\r\t" -}}
+{{- $summary := replaceRE "^\\s*([^.!?]+[.!?]).*$" "$1" $text | trim " \n\r\t" -}}
+{{- if $summary -}}
+  {{- $summary -}}
 {{- else if $text -}}
   {{- $text | truncate 180 -}}
 {{- else -}}
