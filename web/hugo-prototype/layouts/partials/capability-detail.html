@@ -14,11 +14,20 @@
 {{- $text = replaceRE "(?m)^-\\s+" "" $text -}}
 {{- $text = replaceRE "\\s+" " " $text -}}
 {{- $text = trim $text " \n\r\t" -}}
+{{- $sentence := replaceRE "^\\s*([^.!?]+[.!?]).*$" "$1" $text | trim " \n\r\t" -}}
+{{- if $sentence -}}
+  {{- $text = $sentence -}}
+{{- end -}}
 
 {{- if not $text -}}
   {{- $fallback := or .Params.description .Description .Summary "" -}}
   {{- $fallback = $fallback | plainify | replaceRE "\\s+" " " | trim " \n\r\t" -}}
-  {{- $text = $fallback | truncate 220 -}}
+  {{- $sentence := replaceRE "^\\s*([^.!?]+[.!?]).*$" "$1" $fallback | trim " \n\r\t" -}}
+  {{- if $sentence -}}
+    {{- $text = $sentence -}}
+  {{- else -}}
+    {{- $text = $fallback | truncate 220 -}}
+  {{- end -}}
 {{- end -}}
 
 {{- if $text -}}

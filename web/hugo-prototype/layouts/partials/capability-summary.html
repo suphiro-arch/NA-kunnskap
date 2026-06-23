@@ -8,9 +8,12 @@
 {{- $text = replaceRE "(?m)^-\\s+" "" $text -}}
 {{- $text = replaceRE "\\s+" " " $text -}}
 {{- $text = trim $text " \n\r\t" -}}
+{{- $sentence := replaceRE "^\\s*([^.!?]+[.!?]).*$" "$1" $text | trim " \n\r\t" -}}
 
-{{- if $text -}}
-  {{- $text -}}
+{{- if $sentence -}}
+  {{- $sentence -}}
+{{- else if $text -}}
+  {{- $text | truncate 180 -}}
 {{- else -}}
   {{- "Se siden for kort orientering, full beskrivelse og relaterte ressurser." -}}
 {{- end -}}
