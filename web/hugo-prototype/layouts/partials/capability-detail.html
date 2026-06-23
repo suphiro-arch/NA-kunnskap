@@ -16,7 +16,7 @@
 {{- $text = trim $text " \n\r\t" -}}
 {{- $sentences := findRE `[^.!?]+[.!?]` $text 1 -}}
 {{- if gt (len $sentences) 0 -}}
-  {{- $text = index $sentences 0 | trim " \n\r\t" -}}
+  {{- $text = trim (index $sentences 0) " \n\r\t" -}}
 {{- end -}}
 
 {{- if not $text -}}
@@ -24,7 +24,7 @@
   {{- $fallback = $fallback | plainify | replaceRE "\\s+" " " | trim " \n\r\t" -}}
   {{- $sentences = findRE `[^.!?]+[.!?]` $fallback 1 -}}
   {{- if gt (len $sentences) 0 -}}
-    {{- $text = index $sentences 0 | trim " \n\r\t" -}}
+    {{- $text = trim (index $sentences 0) " \n\r\t" -}}
   {{- else -}}
     {{- $text = $fallback | truncate 220 -}}
   {{- end -}}

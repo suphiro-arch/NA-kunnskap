@@ -11,7 +11,7 @@
 {{- $sentences := findRE `[^.!?]+[.!?]` $text 1 -}}
 
 {{- if gt (len $sentences) 0 -}}
-  {{- index $sentences 0 | trim " \n\r\t" -}}
+  {{- trim (index $sentences 0) " \n\r\t" -}}
 {{- else if $text -}}
   {{- $text | truncate 180 -}}
 {{- else -}}
