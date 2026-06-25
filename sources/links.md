@@ -23,6 +23,9 @@ Sist redigert: 2026-06-17.
 - ID-porten - årsrapport 2025: https://samarbeid.digdir.no/id-porten/id-porten-2025/3524 (lagt til 2026-05-05)
 - MinID: https://samarbeid.digdir.no/minid/minid/3634 (lagt til 2026-06-22)
 - Maskinporten: https://www.digdir.no/om-tjenesten/maskinporten/1558
+- Maskinporten - delegering i Maskinporten: https://docs.digdir.no/docs/Maskinporten/maskinporten_func_delegering.html (lagt til 2026-06-25)
+- Maskinporten - systembruker for virksomheter: https://docs.digdir.no/docs/Maskinporten/maskinporten_func_systembruker.html (lagt til 2026-06-25)
+- Maskinporten - samtykketoken i Maskinporten: https://docs.digdir.no/docs/Maskinporten/maskinporten_func_samtykke.html (lagt til 2026-06-25)
 - Maskinporten - statistikk: https://samarbeid.digdir.no/maskinporten/statistikk-maskinporten/3423 (lagt til 2026-05-05)
 - Maskinporten - årsrapport 2025: https://samarbeid.digdir.no/maskinporten/maskinporten-2025/3526 (lagt til 2026-05-05)
 - eIDAS-node (Norge): https://www.digdir.no/digital-identitet/eidas/ (lagt til 2026-03-19)

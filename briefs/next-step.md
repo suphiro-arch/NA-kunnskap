@@ -9,6 +9,14 @@ topic: neste-steg
 
 ## Siste oppdateringer
 
+### Tillegg 2026-06-25 (Maskinporten spisset med nye kilder)
+
+- Opprettet [02-Maskinporten-produkt-canvas-v4-codex.md](../arkitektur/ressurser/operative-losninger-og-tjenester/02-Maskinporten-produkt-canvas-v4-codex.md) som ny aktiv versjon for `DIGDIR-002`.
+- Spisset beskrivelsen fra generell API-sikkerhet til fire tydelige mønstre: vanlig scope-basert tilgang, API-delegering, systembruker og samtykketoken.
+- Brukt nye Digdir-kilder for delegering, systembruker og samtykke, og lagt dem inn i [sources/links.md](../sources/links.md) for videre gjenbruk.
+- Tydeliggjort at Maskinporten alene dekker virksomhetsautentisering og tokenutstedelse, mens Altinn Autorisasjon tilfører delegasjon, finmasket rettighetskontroll eller samtykkegrunnlag avhengig av scenario.
+- Gjenstående oppfølging i denne runden: synke register, kapabilitetsmapping og generert webgrunnlag til `v4`, og verifisere grønn kvalitetsport etter regenerering.
+
 ### Tillegg 2026-06-23 (stabilisering av kapabilitetspublisering)
 
 - Rettet publiseringslogikken for kapabilitetssider slik at korte evnebeskrivelser fortsatt vises i Hugo-oversikter uten at de blir tomme ved feil i template-behandling.
