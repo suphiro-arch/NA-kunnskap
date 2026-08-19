@@ -116,6 +116,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | 138 | `DIGDIR-061` | Veileder for virksomhetsautentisering | Standarder og veiledning | Veileder | Autentisering<br>Sikring av informasjonsflyt og datautveksling<br>Veiledning | [Åpne](../../arkitektur/ressurser/normerende-ressurser/138-Veileder-for-virksomhetsautentisering-v1-codex.md) |
 | 139 | `DIGDIR-062` | Datalandsbyen | Samhandlingsarenaer og organisering | Åpen digital samhandlingsarena | Samarbeidsarenaer og nettverk<br>Dele data med andre<br>Bruke data fra andre<br>Datastyring | [Åpne](../../arkitektur/ressurser/samarbeidsfora/139-Datalandsbyen-v1-codex.md) |
 | 140 | `DIGDIR-063` | MinID | Gjenbrukbare løsninger | Personlig eID og autentiseringstjeneste | Sikring av informasjonsflyt og datautveksling<br>Autentisering<br>Identifisering | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/140-MinID-produkt-canvas-v1-codex.md) |
+| 141 | `FLERE-003` | Stimulab | Økonomiske og juridiske rammer og virkemidler | Stimuleringsordning / tilskudds- og utviklingsvirkemiddel | Innovasjon<br>Samordning<br>Tjenestedesign | [Åpne](../../arkitektur/ressurser/rammer-og-virkemidler/141-Stimulab-v1-copilot.md) |
 
 ## Brønnøysundregistrene (`BRREG`)
 

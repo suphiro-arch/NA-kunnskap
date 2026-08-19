@@ -9,6 +9,46 @@ topic: neste-steg
 
 ## Siste oppdateringer
 
+### Tillegg 2026-08-19 (virkemiddel- og internasjonalt spor)
+
+- Gjennomgang av dagens `Neste steg` opp mot det nye oppdraget viser at planen allerede har et delspor for flytting til `økonomiske og juridiske rammer og virkemidler`, men at den ikke ennå dekker hele gap-analysen for nasjonale virkemidler, samhandlingsarenaer og internasjonale ressurser.
+- Instruksen peker nå på en kuratert ressursoversikt som skal favne forvaltede, felles, planlagte og internasjonale ressurser med tydelig betydning for nasjonal arkitektur. Det betyr at `FELLES` må vurderes eksplisitt der styringen er delt, og at ressursunder etablering kan registreres når status og plan er dokumentert.
+- Første vurdering av oppdraget tilsier at `PPP(P)` bør behandles som høyprioritert kandidat i samhandlingssporet, og at de økonomiske kandidatene `Medfinansieringsordningen`, `Stimulab` og ordningen for digital inkludering/digital kompetanse bør håndteres som første batch for nasjonal virkemiddelgjennomgang.
+- Det nye internasjonale vurderingssporet må være separat og eksplisitt, med fokus på ressurser og arenaer der Norge eller Digdir deltar og som faktisk påvirker arkitektur, styring, finansiering, standardisering eller implementering.
+
+Første batch skal derfor avklare fire konkrete kandidater først:
+1. `Medfinansieringsordningen`: kontrollere kanonisk navn, status, forvaltning og om ressursen skal opprettes som `DIGDIR` eller `FELLES`.
+2. `Stimulab`: kontrollere om dagens ressursdekning allerede er tilstrekkelig gjennom innovasjonsrammeverket, eller om ordningen trenger egen ressurs med tydelig virkemiddelprofil.
+3. Tilskuddsordning for digital inkludering / digital kompetanse: avklare om det er én ressurs eller flere nært beslektede virkemidler, og om status bør være aktiv, under etablering eller avgrenset som del av en annen ressurs.
+4. `PPP(P)`-nettverket: kontrollere om nettverket allerede er dekket av eksisterende samarbeidsfora, og ellers beskrive det som en egen samhandlingsressurs med hovednettverk og eventuelle undernettverk som del av samme ressurs.
+
+Foreløpig status etter første kildesjekk:
+- `Stimulab` er allerede tydelig beskrevet på Digdir-siden som en aktiv stimuleringsordning for innovasjon og tjenestedesign, og den er også faglig dekket indirekte i `Rammeverk for innovasjon i offentlig sektor`. Den ser derfor ut som en kandidat for `DEL_AV_EKSISTERENDE_RESSURS` eller eventuelt en egen oppføring bare hvis vi trenger et tydelig virkemiddelspor.
+- `Medfinansieringsordningen` er fortsatt ikke fanget opp i dagens ressursoversikt, og må behandles som en åpen kandidat med høy prioritet.
+- `PPP(P)`-nettverket er eksplisitt navngitt i virkemiddeloversikten, men finnes ikke som egen ressurs i registeret; dette peker mot egen samhandlingsressurs dersom status og varighet kan dokumenteres.
+- Tilskuddsordningen for digital inkludering / digital kompetanse er foreløpig bare identifisert i rålista og må avklares nærmere før vi bestemmer om det er én eller flere kandidater.
+- Opprettet første nye ressurs i batch 1: `Stimulab` som `FLERE-003` i [141-Stimulab-v1-copilot.md](../arkitektur/ressurser/rammer-og-virkemidler/141-Stimulab-v1-copilot.md), og oppdaterte [produktnummerering.md](../arkitektur/ressurser/produktnummerering.md) og [sources/links.md](../sources/links.md).
+
+Arbeidsrekkefølge for batch 1:
+1. Kontrollere åpne kilder og avklare dagens status for hver kandidat.
+2. Avgøre om kandidatene er `NY_KANDIDAT_HOY`, `NY_KANDIDAT_MIDDELS`, `DEL_AV_EKSISTERENDE_RESSURS` eller `GENERISK_VIRKEMIDDELTYPE`.
+3. Hvis kandidaten holder: opprette eller oppdatere canvas i riktig kategori, med korrekt eiermodell og status.
+4. Oppdatere `produktnummerering.md`, `produkt-kapabilitet-koblinger.yaml`, relevante kilder og webgrunnlag før neste batch vurderes.
+
+Plan for videre arbeid:
+1. Oppdatere ressursgrunnlaget mot oppdraget ved å bruke Digdirs virkemiddeloversikt, [produktnummerering.md](../arkitektur/ressurser/produktnummerering.md), eksisterende ressursfiler, styringsregler og oppdaterte kilder som felles kontrollgrunnlag.
+2. Gjennomføre en første kuratert gap-analyse og klassifisere kandidater med en av kodene `ALLEREDE_REGISTRERT`, `NY_KANDIDAT_HOY`, `NY_KANDIDAT_MIDDELS`, `UNDER_ETABLERING_KANDIDAT`, `DEL_AV_EKSISTERENDE_RESSURS`, `GENERISK_VIRKEMIDDELTYPE`, `IKKE_TILSTREKKELIG_RELEVANT` eller `MÅ_AVKLARES`.
+3. Kjør batch 1 med åpenbare nasjonale gap: `Medfinansieringsordningen`, `Stimulab`, tilskuddsordning for digital inkludering/digital kompetanse og `PPP(P)`-nettverket.
+4. Kjør batch 2 med rammer og ressurser under etablering: `eForvaltningsforskriften`, kunnskapsgrunnlag om digitaliseringstiltak, nasjonal portefølje, regulatorisk sandkasse for KI og nasjonal indeks for digital inkludering.
+5. Kjør batch 3 med internasjonal arkitekturpåvirkning: `Digital Europe Programme`, `NOBID`, `European Digital Identity Cooperation Group`, `OECD OPSI` og konkrete nordisk-baltiske samarbeidsmekanismer, samt et eget vurderingsspor for `eIDAS 2.0`, `Single Digital Gateway`, `OOTS`, `Interoperable Europe Act` og `European Digital Identity Wallet`.
+6. Etter hver batch: oppdatere canvas der det trengs, synke register og kapabilitetsmapping, oppdatere kilder og regenerere webgrunnlaget før neste batch vurderes.
+
+Åpne vurderinger:
+- Om `PPP(P)` skal eies av `DIGDIR` eller `FELLES` må avklares mot faktisk styringsmodell.
+- Om `Digital Europe Programme` og `OECD OPSI` skal registreres som egne ressurser, eller kun som del av en bredere økonomisk/juridisk eller samhandlingsressurs, må avgjøres på grunnlag av konkret relevans.
+- Om `NOBID` er en selvstendig ressurs eller først og fremst et prosjekt-/programspor må vurderes mot dagens status og koblingen til europeisk digital identitetslommebok.
+- For regelverk og infrastruktur på EU-nivå må det skilles tydelig mellom juridisk ramme, felles internasjonal infrastruktur, norsk implementering og norsk løsning, slik at registeret ikke får duplikater.
+
 ### Tillegg 2026-06-25 (Maskinporten spisset med nye kilder)
 
 - Opprettet [02-Maskinporten-produkt-canvas-v4-codex.md](../arkitektur/ressurser/operative-losninger-og-tjenester/02-Maskinporten-produkt-canvas-v4-codex.md) som ny aktiv versjon for `DIGDIR-002`.

@@ -72,6 +72,11 @@ Last systemprompten i din AI-assistent **før** du begynner på innholdet, slik 
    - Standarder og veiledning: `72-FINT-Informasjonsmodell-v1-codex.md`
    - Samhandlingsarena: `88-Arkitektur-og-standardiseringsradet-v0-codex.md`
 
+   **Velg suffix slik at det er lett å følge regelen:**
+   - bruk `-copilot` når denne kjøringen oppretter filen
+   - bruk `-codex` når en Codex-kjørt fil opprettes eller oppdateres videre i den eksisterende suffixlinjen
+   - bruk samme suffix som den aktive kjøringen faktisk skriver med, ikke samme suffix som den forrige versjonen bare fordi den finnes fra før
+
    **Konvensjoner:**
    - `NN` = løpenummer (stabil sortering)
    - `v1` = versjon (starter på v1 for ny ressurs)
@@ -117,6 +122,11 @@ En oppdatering av en ressursbeskrivelse er ikke ferdig før også `produktnummer
    - Hvis ressursen finnes i `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml`, skal `version`, `author`, `relative_path` og `product_url` oppdateres til den nye filen.
    - Hvis hovedfunksjonene er endret vesentlig, skal også selve kapabilitetskoblingene vurderes på nytt.
    - Du kan bruke `python tools/sync-resource-metadata.py --apply` for å synkronisere metadata og opprette manglende mappingoppføringer som førsteutkast.
+
+   **Kontroll før du avslutter:**
+   - bekreft at filnavn, `produktnummerering.md` og kapabilitetsmapping peker til samme versjon
+   - bekreft at suffix i filnavnet matcher kjøringen som opprettet fila
+   - hvis en ny ressurs opprettes av Copilot i denne kjøringen, skal filnavnet også bruke `-copilot`
 
 5. **Valgfritt: Rydd gammel versjon**:
    - Hvis du vil holde repoet rent, kan du slette den gamle filen:

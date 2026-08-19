@@ -4654,6 +4654,46 @@
                     "explanation": "beskytter innloggingsflyt, tofaktorautentisering og overføring av identitetsgrunnlag på betydelig sikkerhetsnivå"
                 }
             ]
+        },
+        {
+            "product_id": 141,
+            "product_name": "Stimulab",
+            "version": 1,
+            "author": "copilot",
+            "relative_path": "arkitektur/ressurser/rammer-og-virkemidler/141-Stimulab-v1-copilot.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/141-Stimulab-v1-copilot.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
+                    "capability_name": "Strategisk styring",
+                    "capability_slug": "strategisk-styring",
+                    "subcapability_id": "id-ecdde89168314bfb94b6a6ac70a55bc7",
+                    "subcapability_name": "Finansiering",
+                    "subcapability_slug": "finansiering",
+                    "mapping_label": "Strategisk styring: Finansiering",
+                    "explanation": "ordningen bruker økonomiske midler som styringsvirkemiddel for å få fram prioriterte innovasjonsprosjekter"
+                },
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
+                    "subcapability_name": "Organisatorisk samhandling",
+                    "subcapability_slug": "organisatorisk-samhandling",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "Stimulab støtter tverrsektorielle prosjekter og samler læring mellom virksomheter, Digdir og DOGA"
+                },
+                {
+                    "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
+                    "capability_name": "Tjenesteutvikling",
+                    "capability_slug": "tjenesteutvikling",
+                    "subcapability_id": "id-379e167f7b9c4fbea9c6969425ba7f6c",
+                    "subcapability_name": "Tjenestedesign",
+                    "subcapability_slug": "tjenestedesign",
+                    "mapping_label": "Tjenesteutvikling: Tjenestedesign",
+                    "explanation": "ordningen krever brukerorientert og designdrevet arbeid i prosjektene som får støtte"
+                }
+            ]
         }
     ],
     "capabilities": [
