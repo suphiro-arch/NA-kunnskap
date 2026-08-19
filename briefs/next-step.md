@@ -28,6 +28,7 @@ Foreløpig status etter første kildesjekk:
 - `PPP(P)`-nettverket er eksplisitt navngitt i virkemiddeloversikten, men finnes ikke som egen ressurs i registeret; dette peker mot egen samhandlingsressurs dersom status og varighet kan dokumenteres.
 - Tilskuddsordningen for digital inkludering / digital kompetanse er foreløpig bare identifisert i rålista og må avklares nærmere før vi bestemmer om det er én eller flere kandidater.
 - Opprettet første nye ressurs i batch 1: `Stimulab` som `FLERE-003` i [141-Stimulab-v1-copilot.md](../arkitektur/ressurser/rammer-og-virkemidler/141-Stimulab-v1-copilot.md), og oppdaterte [produktnummerering.md](../arkitektur/ressurser/produktnummerering.md) og [sources/links.md](../sources/links.md).
+- Opprettet også `Medfinansieringsordningen` som `DIGDIR-064` i [142-Medfinansieringsordningen-v1-copilot.md](../arkitektur/ressurser/rammer-og-virkemidler/142-Medfinansieringsordningen-v1-copilot.md), og synket register og kapabilitetsmapping for den nye virkemiddelressursen.
 
 Arbeidsrekkefølge for batch 1:
 1. Kontrollere åpne kilder og avklare dagens status for hver kandidat.

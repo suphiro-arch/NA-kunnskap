@@ -30,4 +30,4 @@ Antall ressurser: **10**
 
 Finansielle og regulative virkemidler som muliggjør gjennomføring og setter handlingsrom.
 
-Antall ressurser: **3**
+Antall ressurser: **4**

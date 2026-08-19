@@ -28,7 +28,7 @@ hideSectionOverview: true
   <article class="resource-type-card">
     <h3><a href="ressurser/rammer-og-virkemidler/">Økonomiske og juridiske rammer og virkemidler</a></h3>
     <p>Finansielle og regulative virkemidler som muliggjør gjennomføring og setter handlingsrom.</p>
-    <p class="resource-type-card__count">3 ressurser</p>
+    <p class="resource-type-card__count">4 ressurser</p>
   </article>
 </div>
 
@@ -106,7 +106,7 @@ hideSectionOverview: true
         <option value="Utviklings- og kj&#248;retidsmilj&#248;">Utviklings- og kj&#248;retidsmilj&#248;</option>
       </select></label>
     </div>
-    <p class="resource-filters__result" data-role="count">Viser 114 av 114 ressurser</p>
+    <p class="resource-filters__result" data-role="count">Viser 115 av 115 ressurser</p>
   </div>
   <div class="resource-cards">
 <article class="resource-card" data-owner="DIGDIR" data-type="Gjenbrukbare l&#248;sninger" data-capabilities="sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester" data-search="id-porten digdir-001 digdir digdir gjenbrukbare l&#248;sninger gjenbrukbare l&#248;sninger id-porten er den nasjonale fellesl&#248;sningen for sikker innlogging til offentlige digitale tjenester. l&#248;sningen gir innbyggere &#233;n gjenkjennelig inngang til tjenester p&#229; tvers av virksomheter, og gir tjenesteeiere en felles autentiseringskomponent i stedet for lokale innloggingsl&#248;sninger. id-porten er s&#230;rlig relevant n&#229;r... sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester">
@@ -1053,6 +1053,14 @@ hideSectionOverview: true
   <p class="resource-card__description">Stimulab er en stimuleringsordning for innovasjon og tjenestedesign i offentlig sektor. Ordningen gir tverrfaglig veiledning og &#248;konomiske midler til utviklingsprosjekter som skal utforske brukern&#230;re og ofte tverrsektorielle problemer.</p>
   <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/strategisk-styring/finansiering/">Finansiering</a> <a class="capability-chip" href="../kapabiliteter/samarbeid/organisatorisk-samhandling/">Organisatorisk samhandling</a> <a class="capability-chip" href="../kapabiliteter/tjenesteutvikling/tjenestedesign/">Tjenestedesign</a></div>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/141-Stimulab-v1-copilot.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/innovasjon/stimulab/1706">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="&#216;konomiske og juridiske rammer og virkemidler" data-capabilities="finansiering samordning tjenestedesign" data-search="medfinansieringsordningen digdir-064 digdir digdir &#248;konomiske og juridiske rammer og virkemidler &#248;konomiske og juridiske rammer og virkemidler medfinansieringsordningen er en finansieringsordning som skal st&#248;tte digitale utviklings- og omstillingsprosjekter i offentlig sektor. ordningen er relevant n&#229;r virksomheter trenger &#248;konomisk medvirkning for &#229; realisere tiltak som gir bedre tjenester, h&#248;yere effektivitet eller tydelig arkitekturverdi. finansiering samordning tjenestedesign">
+  <h2 class="resource-card__title">Medfinansieringsordningen</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-064</code> | <strong>Siste versjon:</strong> v1 (copilot)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> Digdir | <strong>Type:</strong> &#216;konomiske og juridiske rammer og virkemidler | <strong>Emne:</strong> &#216;konomiske og juridiske rammer og virkemidler</p>
+  <p class="resource-card__description">Medfinansieringsordningen er en finansieringsordning som skal st&#248;tte digitale utviklings- og omstillingsprosjekter i offentlig sektor. Ordningen er relevant n&#229;r virksomheter trenger &#248;konomisk medvirkning for &#229; realisere tiltak som gir bedre tjenester, h&#248;yere effektivitet eller tydelig arkitekturverdi.</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/strategisk-styring/finansiering/">Finansiering</a> <a class="capability-chip" href="../kapabiliteter/strategisk-styring/samordning/">Samordning</a> <a class="capability-chip" href="../kapabiliteter/tjenesteutvikling/tjenestedesign/">Tjenestedesign</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/142-Medfinansieringsordningen-v1-copilot.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/innovasjon/innovasjon-i-offentlig-sektor/881">Offisiell lenke</a></p>
 </article>
   </div>
   <script>

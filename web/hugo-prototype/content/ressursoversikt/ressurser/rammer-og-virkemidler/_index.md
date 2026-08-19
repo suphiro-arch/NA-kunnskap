@@ -28,7 +28,7 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Økonomi
         <option value="Tjenestedesign">Tjenestedesign</option>
       </select></label>
     </div>
-    <p class="resource-filters__result" data-role="count">Viser 3 av 3 ressurser</p>
+    <p class="resource-filters__result" data-role="count">Viser 4 av 4 ressurser</p>
   </div>
   <div class="resource-cards">
 <article class="resource-card" data-owner="DIGDIR" data-type="&#216;konomiske og juridiske rammer og virkemidler" data-capabilities="samordning forvaltningsstandarder" data-search="digitaliseringsrundskrivet digdir-044 digdir digdir &#248;konomiske og juridiske rammer og virkemidler &#248;konomiske og juridiske rammer og virkemidler digitaliseringsrundskrivet er statens samlede virkemiddel for krav, anbefalinger og veiledning om digitalisering i statlig sektor. ressursen gir et felles styringsgrunnlag for hvordan virksomheter skal prioritere, planlegge og gjennomf&#248;re digitaliseringstiltak. samordning forvaltningsstandarder">
@@ -54,6 +54,14 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Økonomi
   <p class="resource-card__description">Stimulab er en stimuleringsordning for innovasjon og tjenestedesign i offentlig sektor. Ordningen gir tverrfaglig veiledning og &#248;konomiske midler til utviklingsprosjekter som skal utforske brukern&#230;re og ofte tverrsektorielle problemer.</p>
   <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/strategisk-styring/finansiering/">Finansiering</a> <a class="capability-chip" href="../../../kapabiliteter/samarbeid/organisatorisk-samhandling/">Organisatorisk samhandling</a> <a class="capability-chip" href="../../../kapabiliteter/tjenesteutvikling/tjenestedesign/">Tjenestedesign</a></div>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/141-Stimulab-v1-copilot.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/innovasjon/stimulab/1706">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="&#216;konomiske og juridiske rammer og virkemidler" data-capabilities="finansiering samordning tjenestedesign" data-search="medfinansieringsordningen digdir-064 digdir digdir &#248;konomiske og juridiske rammer og virkemidler &#248;konomiske og juridiske rammer og virkemidler medfinansieringsordningen er en finansieringsordning som skal st&#248;tte digitale utviklings- og omstillingsprosjekter i offentlig sektor. ordningen er relevant n&#229;r virksomheter trenger &#248;konomisk medvirkning for &#229; realisere tiltak som gir bedre tjenester, h&#248;yere effektivitet eller tydelig arkitekturverdi. finansiering samordning tjenestedesign">
+  <h2 class="resource-card__title">Medfinansieringsordningen</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-064</code> | <strong>Siste versjon:</strong> v1 (copilot)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> Digdir | <strong>Type:</strong> &#216;konomiske og juridiske rammer og virkemidler | <strong>Emne:</strong> &#216;konomiske og juridiske rammer og virkemidler</p>
+  <p class="resource-card__description">Medfinansieringsordningen er en finansieringsordning som skal st&#248;tte digitale utviklings- og omstillingsprosjekter i offentlig sektor. Ordningen er relevant n&#229;r virksomheter trenger &#248;konomisk medvirkning for &#229; realisere tiltak som gir bedre tjenester, h&#248;yere effektivitet eller tydelig arkitekturverdi.</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/strategisk-styring/finansiering/">Finansiering</a> <a class="capability-chip" href="../../../kapabiliteter/strategisk-styring/samordning/">Samordning</a> <a class="capability-chip" href="../../../kapabiliteter/tjenesteutvikling/tjenestedesign/">Tjenestedesign</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/142-Medfinansieringsordningen-v1-copilot.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/innovasjon/innovasjon-i-offentlig-sektor/881">Offisiell lenke</a></p>
 </article>
   </div>
   <script>
