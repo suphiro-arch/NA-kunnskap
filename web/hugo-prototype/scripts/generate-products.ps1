@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop'
 
-$outDirRel = 'web/hugo-prototype/content/ressursoversikt/produkter'
+$outDirRel = 'web/hugo-prototype/content/ressursoversikt/ressurser'
 $registerFileRel = 'arkitektur/ressurser/produktnummerering.md'
 $mapFileRel = 'arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml'
 $repoBlobBase = 'https://github.com/suphiro-arch/NA-kunnskap/blob/main'
@@ -665,7 +665,7 @@ $resourceTypeCardLines.Add('<div class="resource-type-grid">')
 foreach ($typeDef in $resourceTypeDefinitions) {
   $typeEntries = @($latest | Where-Object { $_.ResourceTypeSlug -eq $typeDef.Slug })
   $resourceTypeCardLines.Add('  <article class="resource-type-card">')
-  $resourceTypeCardLines.Add(('    <h3><a href="produkter/{0}/">{1}</a></h3>' -f $typeDef.Slug, $typeDef.Title))
+  $resourceTypeCardLines.Add(('    <h3><a href="ressurser/{0}/">{1}</a></h3>' -f $typeDef.Slug, $typeDef.Title))
   $resourceTypeCardLines.Add(('    <p>{0}</p>' -f $typeDef.Description))
   $resourceTypeCardLines.Add(('    <p class="resource-type-card__count">{0} ressurser</p>' -f $typeEntries.Count))
   $resourceTypeCardLines.Add('  </article>')

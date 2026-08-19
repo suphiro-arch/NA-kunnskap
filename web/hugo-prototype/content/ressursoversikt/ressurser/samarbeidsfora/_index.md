@@ -1,0 +1,157 @@
+---
+title: "Samhandlingsarenaer og organisering"
+weight: 3
+description: "Organiserte nettverk og styringsorganer for dialog, strategisk samarbeid og samordning."
+hideToc: true
+---
+
+Denne siden viser siste registrerte versjon av ressurser i kategorien **Samhandlingsarenaer og organisering**.
+
+<div class="resource-listing" data-section="samarbeidsfora">
+  <div class="resource-filters">
+    <div class="resource-filters__row">
+      <label>Søk <input type="search" class="resource-filter" data-filter="search" placeholder="Navn, ID, emne, kapabilitet" /></label>
+      <label>Eier <select class="resource-filter" data-filter="owner"><option value="">Alle</option>
+        <option value="DIGDIR">Digdir</option>
+      </select></label>
+      <label>Emne <select class="resource-filter" data-filter="type"><option value="">Alle</option>
+        <option value="Samhandlingsarenaer og organisering">Samhandlingsarenaer og organisering</option>
+      </select></label>
+      <label>Kapabilitet <select class="resource-filter" data-filter="capability"><option value="">Alle</option>
+        <option value="Arkitekturstyring">Arkitekturstyring</option>
+        <option value="Bruke data fra andre">Bruke data fra andre</option>
+        <option value="Datastyring">Datastyring</option>
+        <option value="Dele data med andre">Dele data med andre</option>
+        <option value="Forvaltningsstandarder">Forvaltningsstandarder</option>
+        <option value="Samarbeidsarenaer og nettverk">Samarbeidsarenaer og nettverk</option>
+        <option value="Samordning">Samordning</option>
+        <option value="Sikring av informasjonsflyt og datautveksling">Sikring av informasjonsflyt og datautveksling</option>
+      </select></label>
+    </div>
+    <p class="resource-filters__result" data-role="count">Viser 10 av 10 ressurser</p>
+  </div>
+  <div class="resource-cards">
+<article class="resource-card" data-owner="DIGDIR" data-type="Samhandlingsarenaer og organisering" data-capabilities="samarbeidsarenaer og nettverk forvaltningsstandarder arkitekturstyring" data-search="arkitektur- og standardiseringsr&#229;det digdir-028 digdir digdir samhandlingsarenaer og organisering samhandlingsarenaer og organisering arkitektur- og standardiseringsr&#229;det er en nasjonal samordningsarena der representanter fra digdir, sektordepartement, kommuner, fylkeskommuner og andre virksomheter dr&#248;fter felles arkitektur- og standardiseringssp&#248;rsm&#229;l for digital samhandling i offentlig sektor. r&#229;det sin rolle er &#229; gi anbefalinger, prioritere... samarbeidsarenaer og nettverk forvaltningsstandarder arkitekturstyring">
+  <h2 class="resource-card__title">Arkitektur- og standardiseringsr&#229;det</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-028</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> Digdir | <strong>Type:</strong> Samhandlingsarenaer og organisering | <strong>Emne:</strong> Samhandlingsarenaer og organisering</p>
+  <p class="resource-card__description">Arkitektur- og standardiseringsr&#229;det er en nasjonal samordningsarena der representanter fra Digdir, sektordepartement, kommuner, fylkeskommuner og andre virksomheter dr&#248;fter felles arkitektur- og standardiseringssp&#248;rsm&#229;l for digital samhandling i offentlig sektor. R&#229;det sin rolle er &#229; gi anbefalinger, prioritere...</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> R&#229;det skal:</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/samarbeid/samarbeidsarenaer-og-nettverk/">Samarbeidsarenaer og nettverk</a> <a class="capability-chip" href="../../../kapabiliteter/standardisering/forvaltningsstandarder/">Forvaltningsstandarder</a> <a class="capability-chip" href="../../../kapabiliteter/strategisk-styring/arkitekturstyring/">Arkitekturstyring</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/88-Arkitektur-og-standardiseringsradet-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/digitalisering-og-samordning/arkitektur-og-standardiseringsradet/3918">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="Samhandlingsarenaer og organisering" data-capabilities="samarbeidsarenaer og nettverk samordning arkitekturstyring" data-search="skate digdir-042 digdir digdir samhandlingsarenaer og organisering samhandlingsarenaer og organisering skate er digdirs strategiske samarbeidsr&#229;d for digitalisering i offentlig sektor. forumet samler toppledere fra sentrale statlige og kommunale akt&#248;rer for &#229; dr&#248;fte felles utfordringer, retning og prioriteringer i digitaliseringsarbeidet p&#229; tvers av virksomheter. i analysearbeid er skate viktig fordi forumet kan brukes... samarbeidsarenaer og nettverk samordning arkitekturstyring">
+  <h2 class="resource-card__title">Skate</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-042</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> Digdir | <strong>Type:</strong> Samhandlingsarenaer og organisering | <strong>Emne:</strong> Samhandlingsarenaer og organisering</p>
+  <p class="resource-card__description">Skate er Digdirs strategiske samarbeidsr&#229;d for digitalisering i offentlig sektor. Forumet samler toppledere fra sentrale statlige og kommunale akt&#248;rer for &#229; dr&#248;fte felles utfordringer, retning og prioriteringer i digitaliseringsarbeidet p&#229; tvers av virksomheter. I analysearbeid er Skate viktig fordi forumet kan brukes...</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Skate er en strategisk samordningsarena, ikke et prosjektforum og ikke et operativt styringsorgan for enkelttiltak. Den viktigste rollen ser ut til &#229; v&#230;re &#229; l&#248;fte tverrg&#229;ende problemstillinger,...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/samarbeid/samarbeidsarenaer-og-nettverk/">Samarbeidsarenaer og nettverk</a> <a class="capability-chip" href="../../../kapabiliteter/strategisk-styring/samordning/">Samordning</a> <a class="capability-chip" href="../../../kapabiliteter/strategisk-styring/arkitekturstyring/">Arkitekturstyring</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/110-Skate-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/skate/skate/1259">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="Samhandlingsarenaer og organisering" data-capabilities="samarbeidsarenaer og nettverk arkitekturstyring" data-search="digitaliseringsr&#229;det digdir-043 digdir digdir samhandlingsarenaer og organisering samhandlingsarenaer og organisering digitaliseringsr&#229;det er en r&#229;dgivende arena som skal hjelpe statlige virksomheter med &#229; lykkes bedre i endringsprosesser der digitalisering er en viktig del. forumet er viktig i analysearbeid fordi det kombinerer erfaringsbasert r&#229;dgivning, gjennomf&#248;ringsst&#248;tte og l&#230;ring p&#229; tvers av virksomheter. r&#229;det skiller seg fra... samarbeidsarenaer og nettverk arkitekturstyring">
+  <h2 class="resource-card__title">Digitaliseringsr&#229;det</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-043</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> Digdir | <strong>Type:</strong> Samhandlingsarenaer og organisering | <strong>Emne:</strong> Samhandlingsarenaer og organisering</p>
+  <p class="resource-card__description">Digitaliseringsr&#229;det er en r&#229;dgivende arena som skal hjelpe statlige virksomheter med &#229; lykkes bedre i endringsprosesser der digitalisering er en viktig del. Forumet er viktig i analysearbeid fordi det kombinerer erfaringsbasert r&#229;dgivning, gjennomf&#248;ringsst&#248;tte og l&#230;ring p&#229; tvers av virksomheter. R&#229;det skiller seg fra...</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Digitaliseringsr&#229;det skal bidra til at statlige virksomheter lykkes bedre med digitalisering som del av endringsarbeid. &#197;pne kilder peker s&#230;rlig p&#229; l&#230;ring p&#229; tvers, bedre gjennomf&#248;ring, brukerretting...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/samarbeid/samarbeidsarenaer-og-nettverk/">Samarbeidsarenaer og nettverk</a> <a class="capability-chip" href="../../../kapabiliteter/strategisk-styring/arkitekturstyring/">Arkitekturstyring</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/digitaliseringsradet/om-digitaliseringsradet/7589">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="Samhandlingsarenaer og organisering" data-capabilities="samarbeidsarenaer og nettverk samordning" data-search="styringsr&#229;d fordigitaliseringsdirektoratets fellesl&#248;sninger digdir-052 digdir digdir samhandlingsarenaer og organisering samhandlingsarenaer og organisering styringsr&#229;d fordigitaliseringsdirektoratets fellesl&#248;sninger er digdirs r&#229;dgivende organ for styring av nasjonale fellesl&#248;sninger. mandatet beskriver r&#229;det som et forum for &#171;forpliktende samarbeid og dialog&#187; mellom digdir og representanter fra tjenesteeierne, med form&#229;l &#229; sikre at l&#248;sningene utvikles i tr&#229;d med brukers... samarbeidsarenaer og nettverk samordning">
+  <h2 class="resource-card__title">Styringsr&#229;d forDigitaliseringsdirektoratets fellesl&#248;sninger</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-052</code> | <strong>Siste versjon:</strong> v3 (copilot)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> Digdir | <strong>Type:</strong> Samhandlingsarenaer og organisering | <strong>Emne:</strong> Samhandlingsarenaer og organisering</p>
+  <p class="resource-card__description">Styringsr&#229;d forDigitaliseringsdirektoratets fellesl&#248;sninger er Digdirs r&#229;dgivende organ for styring av nasjonale fellesl&#248;sninger. Mandatet beskriver r&#229;det som et forum for &#171;forpliktende samarbeid og dialog&#187; mellom Digdir og representanter fra tjenesteeierne, med form&#229;l &#229; sikre at l&#248;sningene utvikles i tr&#229;d med brukers...</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Mandatet gir r&#229;det et tydelig form&#229;l: &#229; bist&#229; Digdir i styringen av fellesl&#248;sningene ved at tjenesteeiernes medvirkning er reell og at de deltar aktivt i fastsettelsen av retningslinjer for drift,...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/samarbeid/samarbeidsarenaer-og-nettverk/">Samarbeidsarenaer og nettverk</a> <a class="capability-chip" href="../../../kapabiliteter/strategisk-styring/samordning/">Samordning</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v3-copilot.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://samarbeid.digdir.no/digital-postkasse/mandat-styringsradet/128">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="Samhandlingsarenaer og organisering" data-capabilities="datastyring samarbeidsarenaer og nettverk" data-search="faglig arena for informasjonsforvaltning og deling av data digdir-053 digdir digdir samhandlingsarenaer og organisering samhandlingsarenaer og organisering faglig arena for informasjonsforvaltning og deling av data er et &#229;pent faglig nettverk som samler mennesker fra hele offentlig sektor som arbeider med informasjonsforvaltning, datakvalitet og datadeling. forumet er en m&#248;teplass for erfaringsutveksling, faglig modning og samordning av praksis innen feltene. det er... datastyring samarbeidsarenaer og nettverk">
+  <h2 class="resource-card__title">Faglig arena for informasjonsforvaltning og deling av data</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-053</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> Digdir | <strong>Type:</strong> Samhandlingsarenaer og organisering | <strong>Emne:</strong> Samhandlingsarenaer og organisering</p>
+  <p class="resource-card__description">Faglig arena for informasjonsforvaltning og deling av data er et &#229;pent faglig nettverk som samler mennesker fra hele offentlig sektor som arbeider med informasjonsforvaltning, datakvalitet og datadeling. Forumet er en m&#248;teplass for erfaringsutveksling, faglig modning og samordning av praksis innen feltene. Det er...</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Det faglige nettverket skal:</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/informasjonsforvaltning/datastyring/">Datastyring</a> <a class="capability-chip" href="../../../kapabiliteter/samarbeid/samarbeidsarenaer-og-nettverk/">Samarbeidsarenaer og nettverk</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/121-Faglig-arena-for-informasjonsforvaltning-og-deling-av-data-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/informasjonsforvaltning/faglig-arena-informasjonsforvaltning-og-deling-av-data/3543">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="Samhandlingsarenaer og organisering" data-capabilities="sikring av informasjonsflyt og datautveksling samarbeidsarenaer og nettverk" data-search="nifs digdir-054 digdir digdir samhandlingsarenaer og organisering samhandlingsarenaer og organisering nifs er digdirs nettverk for informasjonssikkerhet for offentlige ansatte. forumet er viktig i analysearbeid fordi det fungerer som en praktisk arena for kompetansedeling, erfaringsutveksling og faglig samordning p&#229; tvers av virksomheter som arbeider med informasjonssikkerhet. sikring av informasjonsflyt og datautveksling samarbeidsarenaer og nettverk">
+  <h2 class="resource-card__title">NIFS</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-054</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> Digdir | <strong>Type:</strong> Samhandlingsarenaer og organisering | <strong>Emne:</strong> Samhandlingsarenaer og organisering</p>
+  <p class="resource-card__description">NIFS er Digdirs nettverk for informasjonssikkerhet for offentlige ansatte. Forumet er viktig i analysearbeid fordi det fungerer som en praktisk arena for kompetansedeling, erfaringsutveksling og faglig samordning p&#229; tvers av virksomheter som arbeider med informasjonssikkerhet.</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Nettverkets uttalte m&#229;l er &#229; dele erfaringer om arbeid med informasjonssikkerhet p&#229; tvers av offentlige virksomheter. Rollen er derfor prim&#230;rt faglig og samordnende, ikke styrende. NIFS skal bidra...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/">Sikring av informasjonsflyt og datautveksling</a> <a class="capability-chip" href="../../../kapabiliteter/samarbeid/samarbeidsarenaer-og-nettverk/">Samarbeidsarenaer og nettverk</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/122-NIFS-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/informasjonssikkerhet/nettverk-informasjonssikkerhet-nifs/2186">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="Samhandlingsarenaer og organisering" data-capabilities="dele data med andre samarbeidsarenaer og nettverk samordning" data-search="dsop-samarbeidet digdir-055 digdir digdir samhandlingsarenaer og organisering samhandlingsarenaer og organisering dsop-samarbeidet er et offentlig-privat program for digital samhandling mellom offentlige virksomheter og finansn&#230;ringen. forumet er viktig i analysearbeid fordi det kombinerer portef&#248;ljestyring, felles prioritering og konkret realisering av datadelings- og samhandlingsl&#248;sninger p&#229; tvers av sektorgrenser. dsop skiller... dele data med andre samarbeidsarenaer og nettverk samordning">
+  <h2 class="resource-card__title">DSOP-samarbeidet</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-055</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> Digdir | <strong>Type:</strong> Samhandlingsarenaer og organisering | <strong>Emne:</strong> Samhandlingsarenaer og organisering</p>
+  <p class="resource-card__description">DSOP-samarbeidet er et offentlig-privat program for digital samhandling mellom offentlige virksomheter og finansn&#230;ringen. Forumet er viktig i analysearbeid fordi det kombinerer portef&#248;ljestyring, felles prioritering og konkret realisering av datadelings- og samhandlingsl&#248;sninger p&#229; tvers av sektorgrenser. DSOP skiller...</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> DSOPs uttalte form&#229;l er &#229; regulere samarbeidet mellom partene i DSOP-programmet og bidra til effektiv samhandling mellom privat n&#230;ringsliv og offentlig sektor. Samarbeidet er organisert som en...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a> <a class="capability-chip" href="../../../kapabiliteter/samarbeid/samarbeidsarenaer-og-nettverk/">Samarbeidsarenaer og nettverk</a> <a class="capability-chip" href="../../../kapabiliteter/strategisk-styring/samordning/">Samordning</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/123-DSOP-samarbeidet-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://bits.no/project/dsop/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="Samhandlingsarenaer og organisering" data-capabilities="sikring av informasjonsflyt og datautveksling samarbeidsarenaer og nettverk samordning" data-search="felles sikkerhet i forvaltningen digdir-056 digdir digdir samhandlingsarenaer og organisering samhandlingsarenaer og organisering felles sikkerhet i forvaltningen (fsif) er et tverrsektorielt samarbeid som skal bidra til et nasjonalt l&#248;ft for informasjonssikkerhet og personopplysningsvern i offentlige virksomheter. ressursen er viktig i analysearbeid fordi den samler sentrale akt&#248;rer rundt felles retning, mer samordnet veiledning og tiltak som... sikring av informasjonsflyt og datautveksling samarbeidsarenaer og nettverk samordning">
+  <h2 class="resource-card__title">Felles sikkerhet i forvaltningen</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-056</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> Digdir | <strong>Type:</strong> Samhandlingsarenaer og organisering | <strong>Emne:</strong> Samhandlingsarenaer og organisering</p>
+  <p class="resource-card__description">Felles sikkerhet i forvaltningen (FSIF) er et tverrsektorielt samarbeid som skal bidra til et nasjonalt l&#248;ft for informasjonssikkerhet og personopplysningsvern i offentlige virksomheter. Ressursen er viktig i analysearbeid fordi den samler sentrale akt&#248;rer rundt felles retning, mer samordnet veiledning og tiltak som...</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> FSIF skal bidra til &#229; styrke offentlig sektors evne til &#229; arbeide mer helhetlig med informasjonssikkerhet og personopplysningsvern. Digdirs &#229;pne omtale beskriver samarbeidet som en felles plattform...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/">Sikring av informasjonsflyt og datautveksling</a> <a class="capability-chip" href="../../../kapabiliteter/samarbeid/samarbeidsarenaer-og-nettverk/">Samarbeidsarenaer og nettverk</a> <a class="capability-chip" href="../../../kapabiliteter/strategisk-styring/samordning/">Samordning</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/informasjonssikkerhet/felles-sikkerhet-i-forvaltningen/5957">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="Samhandlingsarenaer og organisering" data-capabilities="samarbeidsarenaer og nettverk samordning" data-search="ki norge digdir-057 digdir digdir samhandlingsarenaer og organisering samhandlingsarenaer og organisering ki norge er digdirs nasjonale arena for innovativ og ansvarlig utvikling og bruk av kunstig intelligens. ressursen er viktig i analysearbeid fordi den kombinerer samordning, veiledning, kunnskapsgrunnlag og kobling mellom offentlige virksomheter, regulatoriske milj&#248;er, n&#230;ringsliv og forskningsakt&#248;rer. ki norge er ikke... samarbeidsarenaer og nettverk samordning">
+  <h2 class="resource-card__title">KI Norge</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-057</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> Digdir | <strong>Type:</strong> Samhandlingsarenaer og organisering | <strong>Emne:</strong> Samhandlingsarenaer og organisering</p>
+  <p class="resource-card__description">KI Norge er Digdirs nasjonale arena for innovativ og ansvarlig utvikling og bruk av kunstig intelligens. Ressursen er viktig i analysearbeid fordi den kombinerer samordning, veiledning, kunnskapsgrunnlag og kobling mellom offentlige virksomheter, regulatoriske milj&#248;er, n&#230;ringsliv og forskningsakt&#248;rer. KI Norge er ikke...</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Digdir beskriver KI Norge som en nasjonal arena og en hub for KI i Norge. Rollen er &#229; legge til rette for innovativ og ansvarlig utvikling og bruk av kunstig intelligens, med Digdir som vert og med...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/samarbeid/samarbeidsarenaer-og-nettverk/">Samarbeidsarenaer og nettverk</a> <a class="capability-chip" href="../../../kapabiliteter/strategisk-styring/samordning/">Samordning</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/125-KI-Norge-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/digdir/far-nasjonal-arena-kunstig-intelligens/6885">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="Samhandlingsarenaer og organisering" data-capabilities="samarbeidsarenaer og nettverk dele data med andre bruke data fra andre datastyring" data-search="datalandsbyen digdir-062 digdir digdir samhandlingsarenaer og organisering samhandlingsarenaer og organisering datalandsbyen er et &#229;pent nettforum for datadeling og informasjonsforvaltning. arenaen gj&#248;r det mulig for datatilbydere, datakonsumenter, fagpersoner og andre interesserte &#229; stille sp&#248;rsm&#229;l, ettersp&#248;rre datasett og api-er, dele erfaringer og gi tilbakemeldinger p&#229; data.norge.no og relaterte katalogressurser. ressursen... samarbeidsarenaer og nettverk dele data med andre bruke data fra andre datastyring">
+  <h2 class="resource-card__title">Datalandsbyen</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-062</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> Digdir | <strong>Type:</strong> Samhandlingsarenaer og organisering | <strong>Emne:</strong> Samhandlingsarenaer og organisering</p>
+  <p class="resource-card__description">Datalandsbyen er et &#229;pent nettforum for datadeling og informasjonsforvaltning. Arenaen gj&#248;r det mulig for datatilbydere, datakonsumenter, fagpersoner og andre interesserte &#229; stille sp&#248;rsm&#229;l, ettersp&#248;rre datasett og API-er, dele erfaringer og gi tilbakemeldinger p&#229; data.norge.no og relaterte katalogressurser. Ressursen...</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Datalandsbyen har rolle som &#229;pen dialog- og erfaringsarena. Kildene beskriver arenaen som et sted der brukere kan m&#248;te andre som arbeider med data og datadeling i offentlig og privat sektor, dele...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/samarbeid/samarbeidsarenaer-og-nettverk/">Samarbeidsarenaer og nettverk</a> <a class="capability-chip" href="../../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a> <a class="capability-chip" href="../../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/">Bruke data fra andre</a> <details class="capability-chip-disclosure"><summary class="capability-chip capability-chip--more" title="Vis/skjul flere kapabiliteter">+1</summary><span class="capability-chip-disclosure__items"> <a class="capability-chip" href="../../../kapabiliteter/informasjonsforvaltning/datastyring/">Datastyring</a></span></details></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/139-Datalandsbyen-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://data.norge.no/nb/docs/community">Offisiell lenke</a></p>
+</article>
+  </div>
+  <script>
+    (function(){
+      var root = document.currentScript.closest(".resource-listing");
+      if (!root) { return; }
+      var cards = Array.prototype.slice.call(root.querySelectorAll(".resource-card"));
+      var count = root.querySelector("[data-role=count]");
+      var search = root.querySelector("[data-filter=search]");
+      var owner = root.querySelector("[data-filter=owner]");
+      var type = root.querySelector("[data-filter=type]");
+      var capability = root.querySelector("[data-filter=capability]");
+      function norm(v){ return (v || "").toLowerCase(); }
+      function apply(){
+        var q = norm(search && search.value);
+        var o = norm(owner && owner.value);
+        var t = norm(type && type.value);
+        var c = norm(capability && capability.value);
+        var visible = 0;
+        cards.forEach(function(card){
+          var ok = true;
+          if (q && card.dataset.search.indexOf(q) === -1) ok = false;
+          if (o && norm(card.dataset.owner) !== o) ok = false;
+          if (t && norm(card.dataset.type) !== t) ok = false;
+          if (c && norm(card.dataset.capabilities).indexOf(c) === -1) ok = false;
+          card.style.display = ok ? "block" : "none";
+          if (ok) visible += 1;
+        });
+        if (count) { count.textContent = "Viser " + visible + " av " + cards.length + " ressurser"; }
+      }
+      [search, owner, type, capability].forEach(function(el){ if (el) { el.addEventListener("input", apply); el.addEventListener("change", apply); } });
+      apply();
+    })();
+  </script>
+</div>
