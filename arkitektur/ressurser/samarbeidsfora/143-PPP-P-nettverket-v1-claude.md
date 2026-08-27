@@ -43,13 +43,13 @@ Ingen av kildene beskriver vedtaksmyndighet, bindende føringer eller prioriteri
 Dette er en viktig avgrensning i analysesammenheng: nettverket kan forklare hvorfor en praksis sprer seg, men det kan ikke brukes som forankringspunkt for et tiltak. Et tiltak som trenger tverrsektoriell forpliktelse må gå til Skate eller Styringsrådet for fellesløsningene, ikke hit.
 
 ## Kapabiliteter
+Nettverket har to tydelige kapabilitetskoblinger. Andre ble vurdert og valgt bort: `Tjenesteforvaltning` handler om formaliserte roller og avtaler mellom samhandlende virksomheter, mens nettverket primært styrker styring internt i hver virksomhet, og `Arkitekturstyring` ligger hos Arkitektur- og standardiseringsrådet.
+
 - **Samarbeid: Samarbeidsarenaer og nettverk**
   Nettverket er i seg selv en etablert, forvaltet og fasilitert arena for kunnskapsdeling på tvers av virksomheter og forvaltningsnivåer. Dette er den primære koblingen.
 
 - **Strategisk styring: Samordning**
   Nettverket harmoniserer praksis for styring og ressursbruk på tvers av uavhengige virksomheter. Koblingen er reell, men indirekte: samordningen skjer gjennom frivillig praksisspredning, ikke gjennom mandat eller forpliktelse.
-
-Andre kapabiliteter ble vurdert og valgt bort. `Tjenesteforvaltning` handler om formaliserte roller og avtaler mellom samhandlende virksomheter, mens nettverket primært styrker styring internt i hver virksomhet. `Arkitekturstyring` ligger hos Arkitektur- og standardiseringsrådet, ikke her.
 
 ## Deltakere og målgruppe
 | Deltakersegment | Primært behov | Rolle i forumet | Kommentar |

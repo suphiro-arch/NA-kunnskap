@@ -9,13 +9,29 @@ topic: neste-steg
 
 ## Siste oppdateringer
 
+### Tillegg 2026-08-27 (PPP(P)-nettverket opprettet, batch 1)
+
+- Opprettet `DIGDIR-065` PPP(P)-nettverket som løpenr 143 i [143-PPP-P-nettverket-v1-claude.md](../arkitektur/ressurser/samarbeidsfora/143-PPP-P-nettverket-v1-claude.md). Første ressursfil i repoet med suffix `-claude`.
+- Avklart det åpne eierskapsspørsmålet: eierkode `DIGDIR`, fordi sekretariat, påmelding og publiseringsflate forvaltes i Digdir-regi. Den brukerdrevne arbeidsformen og de eksternt ledede delnettverkene er et trekk ved arbeidsformen, ikke et delt forvaltningsansvar som ville tilsagt `FLERE`.
+- Kontrollert mot eksisterende samarbeidsfora: nettverket er ikke dekket av Skate, Digitaliseringsrådet, Arkitektur- og standardiseringsrådet eller Styringsrådet for fellesløsningene. Grensesnittet mot de fire er beskrevet eksplisitt i canvaset.
+- Kapabiliteter satt til `Samarbeidsarenaer og nettverk` og `Samordning`. `Tjenesteforvaltning` og `Arkitekturstyring` ble vurdert og valgt bort som for svake koblinger.
+- Oppdatert [produktnummerering.md](../arkitektur/ressurser/produktnummerering.md), [produkt-kapabilitet-koblinger.yaml](../arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml) og [sources/links.md](../sources/links.md) med tre nye stabile Digdir-lenker i samme endringssett.
+- Bekreftet grønn `check-resource-version-sync.py`, grønn `check-mojibake.ps1` og grønn `validate-text-encoding.py`.
+- Gjenstår i denne runden: regenerere ressursoversikten i `web/hugo-prototype/content/ressursoversikt/` slik at den nye ressursen vises. Regenerering ble utsatt fordi arbeidskopien samtidig har uferdige endringer i `generate-products.ps1` og genererte ressurssider fra et annet arbeidsløp (fjerning av `Emne` fra ressurskort og filtre).
+
+To funn som bør følges opp separat:
+- `FLERE-003` Stimulab står i Digdir-seksjonen i `produktnummerering.md` i stedet for under `## Flere virksomheter (FLERE)`. Kontrollskriptene fanger ikke seksjonsplassering, bare versjons- og stikonsistens.
+- `sync-resource-metadata.py` trekker all tekst etter siste kapabilitetskulepunkt inn i forklaringen for den siste kapabiliteten. Avsluttende avsnitt i seksjonen `Kapabiliteter` må derfor stå før kulelista, ikke etter. Dette bør inn som en regel i canvas-promptene.
+
 ### Tillegg 2026-08-27 (opprydding i repo-regler og struktur)
 
 - Oppdatert [AGENTS.md](../AGENTS.md) og de sentrale README-filene slik at de beskriver dagens struktur uten `results/` som aktiv leveransemappe.
 - Presisert at leveranser nå rutes etter type til `analyser/`, `arkitektur/ressurser/`, `briefs/`, `sources/`, `web/` og `print/`, og at `handover/` er en reststruktur som ikke skal brukes for nye filer.
 - Flyttet eksisterende handover-notat til `briefs/arbeidsstyring-og-handover/` og logget at `results/` er avviklet som aktiv struktur.
 - Latt `briefs/next-step.md` bli stående i `.gitignore`, men gjort det eksplisitt at fila brukes som sporet lokal arbeidsflate likevel.
-- Gjenstår: full kontroll av om alle eldre stier nå er konsistente i README-filer og at encoding-/versionsjekkene fortsatt går grønt etter oppryddingen.
+- Fullført kontroll av eldre stier: `results/` og `produkter/produktbeskrivelser/` finnes ikke lenger som aktive stier i regler eller README-filer, bare som historikk i [decisions.md](./decisions.md). Siste aktive referanse ble rettet i `AGENTS.md`, slik at arbeidsdokumenter nå avgrenses mot `analyser/` og `arkitektur/`.
+- Bekreftet grønn `check-mojibake.ps1` og grønn `check-resource-version-sync.py` etter oppryddingen. Restpunktet fra denne runden er dermed lukket.
+- Opprettet [CLAUDE.md](../CLAUDE.md) som peker til `AGENTS.md` som autoritativ regelfil og legger til det som er Claude-spesifikt: suffix `-claude`, PowerShell-kommandoer for encoding- og registerkontroll, og kjente fallgruver i repoet.
 
 ### Tillegg 2026-08-19 (virkemiddel- og internasjonalt spor)
 
@@ -57,17 +73,17 @@ Plan for videre arbeid:
 Første operativ kandidatliste fra råfila, sortert etter sannsynlig behov for nye ressursfiler:
 1. `PPP(P)`-nettverket: sannsynlig ny samhandlingsressurs hvis status, varighet og eier kan dokumenteres.
 2. `eForvaltningsforskriften`: tydelig regulativ kandidat som bør vurderes som egen ressurs dersom vi finner tilstrekkelig kildeforankring.
-3. `Forskrift om IT-standarder`: tydelig regulativ kandidat som bør vurderes som egen ressurs dersom den fortsatt er aktiv og relevant i dagens styring.
-4. `Tilskudd til digital inkludering`: må avklares om dette er én samlet ordning eller flere nært beslektede virkemidler.
-5. `Konkurranseevnefondet (EKF)`: foreløpig lavere prioritet, men bør vurderes om ordningen har tydelig NA-verdi og stabil forankring.
-6. `Nasjonal portefølje`: må avklares om dette er en konkret ressurs eller primært et styringsprinsipp/arbeidsform.
-7. `Regulatorisk sandkasse for KI`: mulig samhandlingsressurs, men krever særlig avklaring av varighet og avgrensning.
-8. `Nasjonal indeks for digital inkludering`: mulig ny ressurs hvis den har en tydelig og varig rolle i styring eller analyse.
+3. `Tilskudd til digital inkludering`: må avklares om dette er én samlet ordning eller flere nært beslektede virkemidler.
+4. `Konkurranseevnefondet (EKF)`: foreløpig lavere prioritet, men bør vurderes om ordningen har tydelig NA-verdi og stabil forankring.
+5. `Nasjonal portefølje`: må avklares om dette er en konkret ressurs eller primært et styringsprinsipp/arbeidsform.
+6. `Regulatorisk sandkasse for KI`: mulig samhandlingsressurs, men krever særlig avklaring av varighet og avgrensning.
+7. `Nasjonal indeks for digital inkludering`: mulig ny ressurs hvis den har en tydelig og varig rolle i styring eller analyse.
 
 Allerede registrerte eller delvis dekkede kandidater som ikke skal behandles som nye førstegangskandidater:
 1. `Stimulab`: allerede registrert som egen virkemiddelressurs.
 2. `Medfinansieringsordningen`: allerede registrert som egen virkemiddelressurs.
 3. `Rammeverk for innovasjon i offentlig sektor`: dekker deler av virkemiddel- og innovasjonssporet og må vurderes som alternativ eller komplement til flere av de pedagogiske og økonomiske kandidatene.
+4. `Forskrift om IT-standarder i offentlig forvaltning`: allerede registrert som `DIGDIR-060` i [137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v2-copilot.md](../arkitektur/ressurser/rammer-og-virkemidler/137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v2-copilot.md). Sto feilaktig oppført som ny kandidat; eventuell videre innsats er revisjon av eksisterende beskrivelse, ikke opprettelse.
 
 Åpne vurderinger:
 - Om `PPP(P)` skal eies av `DIGDIR` eller `FELLES` må avklares mot faktisk styringsmodell.

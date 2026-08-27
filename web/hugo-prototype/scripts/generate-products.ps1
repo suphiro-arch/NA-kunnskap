@@ -522,7 +522,7 @@ function New-ResourceListingBlock {
       ('data-search="{0}">' -f (Html-Encode $searchable)))
     $cardLines.Add(('  <h2 class="resource-card__title">{0}</h2>' -f (Html-Encode $displayName)))
     $cardLines.Add(('  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>{0}</code> | <strong>Siste versjon:</strong> {1}</p>' -f (Html-Encode $p.ResourceId), (Html-Encode $p.VersionLabel)))
-    $cardLines.Add(('  <p class="resource-card__facts"><strong>Eier:</strong> {0} | <strong>Type:</strong> {1} | <strong>Emne:</strong> {2}</p>' -f (Html-Encode $ownerDisplay), (Html-Encode $p.ResourceTypeTitle), (Html-Encode $p.ResourceType)))
+    $cardLines.Add(('  <p class="resource-card__facts"><strong>Eier:</strong> {0} | <strong>Type:</strong> {1}</p>' -f (Html-Encode $ownerDisplay), (Html-Encode $p.ResourceTypeTitle)))
     $cardLines.Add(('  <p class="resource-card__description">{0}</p>' -f (Html-Encode $shortDescription)))
     if ($purposeLine) {
       $cardLines.Add(('  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> {0}</p>' -f (Html-Encode $purposeLine)))
@@ -545,13 +545,13 @@ function New-ResourceListingBlock {
   $lines.Add(('<div class="resource-listing" data-section="{0}">' -f (Slugify-Value $SectionSlug)))
   $lines.Add('  <div class="resource-filters">')
   $lines.Add('    <div class="resource-filters__row">')
-  $lines.Add('      <label>Søk <input type="search" class="resource-filter" data-filter="search" placeholder="Navn, ID, emne, kapabilitet" /></label>')
+  $lines.Add('      <label>Søk <input type="search" class="resource-filter" data-filter="search" placeholder="Navn, ID, kapabilitet" /></label>')
   $lines.Add('      <label>Eier <select class="resource-filter" data-filter="owner"><option value="">Alle</option>')
   foreach ($option in $ownerOptions) {
     $lines.Add(('        <option value="{0}">{1}</option>' -f (Html-Encode $option), (Html-Encode (Get-OwnerDisplayName -OwnerCode $option))))
   }
   $lines.Add('      </select></label>')
-  $lines.Add('      <label>Emne <select class="resource-filter" data-filter="type"><option value="">Alle</option>')
+  $lines.Add('      <label>Type <select class="resource-filter" data-filter="type"><option value="">Alle</option>')
   foreach ($option in $typeOptions) {
     $lines.Add(('        <option value="{0}">{1}</option>' -f (Html-Encode $option), (Html-Encode $option)))
   }

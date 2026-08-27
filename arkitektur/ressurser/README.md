@@ -96,7 +96,7 @@ Last systemprompten i din AI-assistent **før** du begynner på innholdet, slik 
 6. **Registrer i produktnummerering.md**:
    - Legg til ny rad i riktig eierseksjon:
      ```
-   | NN | `EIER-NR` | Ressursnavn | Emne | Kapabiliteter (komma-separert) | [Åpne](path/til/fil.md) |
+   | NN | `EIER-NR` | Ressursnavn | Type | Kapabiliteter (komma-separert) | [Åpne](path/til/fil.md) |
      ```
    - Generatoren plukker automatisk denne og bygger nettsiden.
    - Hvis ressursen også finnes i `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml`, skal den legges inn eller oppdateres der samtidig.

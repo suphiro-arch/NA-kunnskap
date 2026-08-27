@@ -16,15 +16,13 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 
 - `Ressurskategori` skiller mellom hovedtyper ressurser, som felleskomponent, fellesløsning, register, portal, plattform, internasjonal fellesressurs og referanseressurs.
 
-- `Emne` beskriver ressursen mer presist på neste nivå.
-
 - `Merknad` brukes til korte avgrensninger, presiseringer eller viktige vurderinger som skal følge ressursen videre i analyse og produktbeskrivelse.
 
 - Nye produkter skal få neste ledige nummer innenfor sin eierkode. Eksisterende `Ressurs-ID` skal ikke endres uten bevisst omnummerering.
 
 - Rader uten egen produktbeskrivelse ennå er arbeidsutkast. Der står `Siste versjon` som `Ikke opprettet ennå` og dokumentfeltet er tomt.
 
-- Eier, ressurskategori, emne, merknad og kapabilitetstreff for nye ressurser er første arbeidsutkast og må kvalitetssikres når produktbeskrivelsene opprettes.
+- Eier, ressurskategori, merknad og kapabilitetstreff for nye ressurser er første arbeidsutkast og må kvalitetssikres når produktbeskrivelsene opprettes.
 
 ## Eierkoder
 
@@ -52,7 +50,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 
 ## Digdir (`DIGDIR`)
 
-| Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
+| Løpenr | Ressurs-ID | Navn | Type | Kapabiliteter | Dokument |
 |---:|---|---|---|---|---|---|
 | 1 | `DIGDIR-001` | ID-porten | Gjenbrukbare løsninger | Autentiseringstjeneste | Sikring av informasjonsflyt og datautveksling<br>Autentisering<br>Identifisering<br>Representasjon<br>Integrerbare tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/01-ID-porten-produkt-canvas-v3-codex.md) |
 | 2 | `DIGDIR-002` | Maskinporten | Gjenbrukbare løsninger | Maskin-til-maskin autentisering | Bruke data fra andre<br>Dele data med andre<br>Sikring av informasjonsflyt og datautveksling<br>Autentisering<br>Tilgangskontroll | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/02-Maskinporten-produkt-canvas-v4-codex.md) |
@@ -118,6 +116,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | 140 | `DIGDIR-063` | MinID | Gjenbrukbare løsninger | Personlig eID og autentiseringstjeneste | Sikring av informasjonsflyt og datautveksling<br>Autentisering<br>Identifisering | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/140-MinID-produkt-canvas-v1-codex.md) |
 | 141 | `FLERE-003` | Stimulab | Økonomiske og juridiske rammer og virkemidler | Stimuleringsordning / tilskudds- og utviklingsvirkemiddel | Innovasjon<br>Samordning<br>Tjenestedesign | [Åpne](../../arkitektur/ressurser/rammer-og-virkemidler/141-Stimulab-v1-copilot.md) |
 | 142 | `DIGDIR-064` | Medfinansieringsordningen | Økonomiske og juridiske rammer og virkemidler | Finansieringsordning / tilskuddsvirkemiddel | Finansiering<br>Samordning<br>Tjenestedesign | [Åpne](../../arkitektur/ressurser/rammer-og-virkemidler/142-Medfinansieringsordningen-v1-copilot.md) |
+| 143 | `DIGDIR-065` | PPP(P)-nettverket | Samhandlingsarenaer og organisering | Fagnettverk for prosjekt-, program-, produkt- og porteføljestyring | Samarbeidsarenaer og nettverk<br>Samordning | [Åpne](../../arkitektur/ressurser/samarbeidsfora/143-PPP-P-nettverket-v1-claude.md) |
 
 ## Brønnøysundregistrene (`BRREG`)
 

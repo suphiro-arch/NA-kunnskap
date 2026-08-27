@@ -4631,7 +4631,7 @@
                     "subcapability_name": "Autentisering",
                     "subcapability_slug": "autentisering",
                     "mapping_label": "Tillit: Autentisering",
-                    "explanation": "bekrefter at brukeren kontrollerer en personlig offentlig eID før tilgang til offentlige tjenester gis"
+                    "explanation": "MinID er direkte knyttet til autentisering av personer. Den gjør det mulig å bekrefte at brukeren kontrollerer en personlig eID før tilgang til en offentlig digital tjeneste gis."
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
@@ -4641,7 +4641,7 @@
                     "subcapability_name": "Identifisering",
                     "subcapability_slug": "identifisering",
                     "mapping_label": "Tillit: Identifisering",
-                    "explanation": "knytter innloggingen til en identifisert person slik at tjenesteeier kan vite hvem brukeren er"
+                    "explanation": "MinID knytter innloggingen til en identifisert person og gir offentlige tjenester et felles grunnlag for å vite hvem brukeren er. Dette er særlig viktig i tjenester der virksomheten må skille mellom anonyme besøk og tjenester som krever kjent bruker."
                 },
                 {
                     "capability_id": "id-48c9873ae59341a49c2dca27379fab55",
@@ -4651,7 +4651,7 @@
                     "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
                     "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling",
                     "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
-                    "explanation": "beskytter innloggingsflyt, tofaktorautentisering og overføring av identitetsgrunnlag på betydelig sikkerhetsnivå"
+                    "explanation": "MinID bidrar til å beskytte innloggingsflyten gjennom kontrollert autentisering, tofaktorautentisering og et dokumentert sikkerhetsnivå. Dette reduserer risikoen for at offentlige tjenester baserer seg på svake eller uensartede innloggingsmekanismer."
                 }
             ]
         },
@@ -4711,7 +4711,7 @@
                     "subcapability_name": "Finansiering",
                     "subcapability_slug": "finansiering",
                     "mapping_label": "Strategisk styring: Finansiering",
-                    "explanation": "ordningen gir økonomisk medvirkning som styringsvirkemiddel for prioriterte digitaliseringsprosjekter"
+                    "explanation": "Ordningen er et direkte finansielt virkemiddel og påvirker prioritering og gjennomføringsevne."
                 },
                 {
                     "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
@@ -4721,7 +4721,7 @@
                     "subcapability_name": "Samordning",
                     "subcapability_slug": "samordning",
                     "mapping_label": "Strategisk styring: Samordning",
-                    "explanation": "ordningen brukes ofte der flere virksomheter må samordne behov, gevinst og gjennomføring"
+                    "explanation": "Medfinansiering brukes ofte for tiltak som må forankres på tvers av virksomheter eller nivåer."
                 },
                 {
                     "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
@@ -4731,7 +4731,37 @@
                     "subcapability_name": "Tjenestedesign",
                     "subcapability_slug": "tjenestedesign",
                     "mapping_label": "Tjenesteutvikling: Tjenestedesign",
-                    "explanation": "ordningen støtter utviklingsløp der tiltak formes rundt dokumentert behov og nytte"
+                    "explanation": "Ordningen passer særlig for utviklingsløp der løsningen må formes rundt dokumentert behov og nytte."
+                }
+            ]
+        },
+        {
+            "product_id": 143,
+            "product_name": "PPP(P)-nettverket",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/samarbeidsfora/143-PPP-P-nettverket-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/143-PPP-P-nettverket-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "subcapability_id": "id-b4a86e2e430c472b9f74bedb7f66fd74",
+                    "subcapability_name": "Samarbeidsarenaer og nettverk",
+                    "subcapability_slug": "samarbeidsarenaer-og-nettverk",
+                    "mapping_label": "Samarbeid: Samarbeidsarenaer og nettverk",
+                    "explanation": "Nettverket er i seg selv en etablert, forvaltet og fasilitert arena for kunnskapsdeling på tvers av virksomheter og forvaltningsnivåer. Dette er den primære koblingen."
+                },
+                {
+                    "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
+                    "capability_name": "Strategisk styring",
+                    "capability_slug": "strategisk-styring",
+                    "subcapability_id": "id-034543e002414306a8fbecc8c9d8e496",
+                    "subcapability_name": "Samordning",
+                    "subcapability_slug": "samordning",
+                    "mapping_label": "Strategisk styring: Samordning",
+                    "explanation": "Nettverket harmoniserer praksis for styring og ressursbruk på tvers av uavhengige virksomheter. Koblingen er reell, men indirekte: samordningen skjer gjennom frivillig praksisspredning, ikke gjennom mandat eller forpliktelse."
                 }
             ]
         }
