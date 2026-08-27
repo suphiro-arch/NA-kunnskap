@@ -12,8 +12,8 @@ kapabilitetsmodell:
     - En kapabilitet er fullverdig selv om delkapabiliteter er tom liste.
     - Prioritering og relevans vurderes ut fra navn, beskrivelse, prinsippkobling og casekontekst.
     - Fravær av delkapabiliteter betyr ikke lavere viktighet.
-    - Kapabiliteter merket med selvstendig: true har ingen delkapabiliteter og behandles som
-      sin egen operative enhet i analyser, på lik linje med en delkapabilitet i andre kapabiliteter.
+    - "Kapabiliteter merket med selvstendig: true har ingen delkapabiliteter og behandles som
+      sin egen operative enhet i analyser, på lik linje med en delkapabilitet i andre kapabiliteter."
 
   kapabiliteter:
 

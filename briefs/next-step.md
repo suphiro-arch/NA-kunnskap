@@ -9,12 +9,21 @@ topic: neste-steg
 
 ## Siste oppdateringer
 
+### Tillegg 2026-08-27 (opprydding i repo-regler og struktur)
+
+- Oppdatert [AGENTS.md](../AGENTS.md) og de sentrale README-filene slik at de beskriver dagens struktur uten `results/` som aktiv leveransemappe.
+- Presisert at leveranser nå rutes etter type til `analyser/`, `arkitektur/ressurser/`, `briefs/`, `sources/`, `web/` og `print/`, og at `handover/` er en reststruktur som ikke skal brukes for nye filer.
+- Flyttet eksisterende handover-notat til `briefs/arbeidsstyring-og-handover/` og logget at `results/` er avviklet som aktiv struktur.
+- Latt `briefs/next-step.md` bli stående i `.gitignore`, men gjort det eksplisitt at fila brukes som sporet lokal arbeidsflate likevel.
+- Gjenstår: full kontroll av om alle eldre stier nå er konsistente i README-filer og at encoding-/versionsjekkene fortsatt går grønt etter oppryddingen.
+
 ### Tillegg 2026-08-19 (virkemiddel- og internasjonalt spor)
 
 - Gjennomgang av dagens `Neste steg` opp mot det nye oppdraget viser at planen allerede har et delspor for flytting til `økonomiske og juridiske rammer og virkemidler`, men at den ikke ennå dekker hele gap-analysen for nasjonale virkemidler, samhandlingsarenaer og internasjonale ressurser.
 - Instruksen peker nå på en kuratert ressursoversikt som skal favne forvaltede, felles, planlagte og internasjonale ressurser med tydelig betydning for nasjonal arkitektur. Det betyr at `FELLES` må vurderes eksplisitt der styringen er delt, og at ressursunder etablering kan registreres når status og plan er dokumentert.
 - Første vurdering av oppdraget tilsier at `PPP(P)` bør behandles som høyprioritert kandidat i samhandlingssporet, og at de økonomiske kandidatene `Medfinansieringsordningen`, `Stimulab` og ordningen for digital inkludering/digital kompetanse bør håndteres som første batch for nasjonal virkemiddelgjennomgang.
 - Det nye internasjonale vurderingssporet må være separat og eksplisitt, med fokus på ressurser og arenaer der Norge eller Digdir deltar og som faktisk påvirker arkitektur, styring, finansiering, standardisering eller implementering.
+- Kapabilitetsgjennomgangen skal kjøres på nytt mot hele `produkt-kapabilitet-koblinger.yaml` etter sommerens oppdaterte rammeverksbeskrivelser og det nye ressursgrunnlaget, slik at vi kan verifisere både manglende dekning og koblinger som nå bør justeres.
 
 Første batch skal derfor avklare fire konkrete kandidater først:
 1. `Medfinansieringsordningen`: kontrollere kanonisk navn, status, forvaltning og om ressursen skal opprettes som `DIGDIR` eller `FELLES`.
@@ -37,12 +46,28 @@ Arbeidsrekkefølge for batch 1:
 4. Oppdatere `produktnummerering.md`, `produkt-kapabilitet-koblinger.yaml`, relevante kilder og webgrunnlag før neste batch vurderes.
 
 Plan for videre arbeid:
-1. Oppdatere ressursgrunnlaget mot oppdraget ved å bruke Digdirs virkemiddeloversikt, [produktnummerering.md](../arkitektur/ressurser/produktnummerering.md), eksisterende ressursfiler, styringsregler og oppdaterte kilder som felles kontrollgrunnlag.
+1. Oppdatere ressursgrunnlaget mot oppdraget ved å bruke Digdirs virkemiddeloversikt, [produktnummerering.md](../arkitektur/ressurser/produktnummerering.md), eksisterende ressursfiler, styringsregler og oppdaterte kilder som felles kontrollgrunnlag. Råfila i [sources/2026-04-10-digdir-virkemiddeloversikt-raw.md](../sources/2026-04-10-digdir-virkemiddeloversikt-raw.md) skal behandles som den vedtatte og faglig forankrede grunnlista for virkemidler, og brukes som hovedutgangspunkt når vi lager listen over nye ressurser.
 2. Gjennomføre en første kuratert gap-analyse og klassifisere kandidater med en av kodene `ALLEREDE_REGISTRERT`, `NY_KANDIDAT_HOY`, `NY_KANDIDAT_MIDDELS`, `UNDER_ETABLERING_KANDIDAT`, `DEL_AV_EKSISTERENDE_RESSURS`, `GENERISK_VIRKEMIDDELTYPE`, `IKKE_TILSTREKKELIG_RELEVANT` eller `MÅ_AVKLARES`.
-3. Kjør batch 1 med åpenbare nasjonale gap: `Medfinansieringsordningen`, `Stimulab`, tilskuddsordning for digital inkludering/digital kompetanse og `PPP(P)`-nettverket.
+3. Kjør batch 1 med åpenbare nasjonale gap: `Medfinansieringsordningen`, `Stimulab`, tilskuddsordning for digital inkludering/digital kompetanse og `PPP(P)`-nettverket, samtidig som kapabilitetskoblingene revalideres mot oppdatert modell.
 4. Kjør batch 2 med rammer og ressurser under etablering: `eForvaltningsforskriften`, kunnskapsgrunnlag om digitaliseringstiltak, nasjonal portefølje, regulatorisk sandkasse for KI og nasjonal indeks for digital inkludering.
 5. Kjør batch 3 med internasjonal arkitekturpåvirkning: `Digital Europe Programme`, `NOBID`, `European Digital Identity Cooperation Group`, `OECD OPSI` og konkrete nordisk-baltiske samarbeidsmekanismer, samt et eget vurderingsspor for `eIDAS 2.0`, `Single Digital Gateway`, `OOTS`, `Interoperable Europe Act` og `European Digital Identity Wallet`.
 6. Etter hver batch: oppdatere canvas der det trengs, synke register og kapabilitetsmapping, oppdatere kilder og regenerere webgrunnlaget før neste batch vurderes.
+7. Gjøre en avsluttende manuell kontroll av om noen av de identifiserte kapabilitetssvakhetene fortsatt mangler ressurs, og om noen tidligere operative koblinger nå bør flyttes til normerende dekning.
+
+Første operativ kandidatliste fra råfila, sortert etter sannsynlig behov for nye ressursfiler:
+1. `PPP(P)`-nettverket: sannsynlig ny samhandlingsressurs hvis status, varighet og eier kan dokumenteres.
+2. `eForvaltningsforskriften`: tydelig regulativ kandidat som bør vurderes som egen ressurs dersom vi finner tilstrekkelig kildeforankring.
+3. `Forskrift om IT-standarder`: tydelig regulativ kandidat som bør vurderes som egen ressurs dersom den fortsatt er aktiv og relevant i dagens styring.
+4. `Tilskudd til digital inkludering`: må avklares om dette er én samlet ordning eller flere nært beslektede virkemidler.
+5. `Konkurranseevnefondet (EKF)`: foreløpig lavere prioritet, men bør vurderes om ordningen har tydelig NA-verdi og stabil forankring.
+6. `Nasjonal portefølje`: må avklares om dette er en konkret ressurs eller primært et styringsprinsipp/arbeidsform.
+7. `Regulatorisk sandkasse for KI`: mulig samhandlingsressurs, men krever særlig avklaring av varighet og avgrensning.
+8. `Nasjonal indeks for digital inkludering`: mulig ny ressurs hvis den har en tydelig og varig rolle i styring eller analyse.
+
+Allerede registrerte eller delvis dekkede kandidater som ikke skal behandles som nye førstegangskandidater:
+1. `Stimulab`: allerede registrert som egen virkemiddelressurs.
+2. `Medfinansieringsordningen`: allerede registrert som egen virkemiddelressurs.
+3. `Rammeverk for innovasjon i offentlig sektor`: dekker deler av virkemiddel- og innovasjonssporet og må vurderes som alternativ eller komplement til flere av de pedagogiske og økonomiske kandidatene.
 
 Åpne vurderinger:
 - Om `PPP(P)` skal eies av `DIGDIR` eller `FELLES` må avklares mot faktisk styringsmodell.

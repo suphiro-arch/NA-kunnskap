@@ -40,17 +40,17 @@ Denne fila er den kuraterte arbeidsfila for:
 - strategiske mål som er eksplisitt koblet til nasjonal arkitektur i XML-kilden
 - dokumentasjon av hva som faktisk er modellert, og hva som ikke er kuratert videre ennå
 
-### Produkter og koblinger
+### Ressurser og koblinger
 - `arkitektur/ressurser/produktnummerering.md`
 - `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml`
 
-Disse filene brukes videre for ressursoversikt, produktkoblinger og webnavigasjon.
+Disse filene brukes videre for ressursoversikt, ressurskoblinger og webnavigasjon.
 
 ## 3. Produktbeskrivelser og leveransefiler
 
 Produktbeskrivelsene ligger i `arkitektur/ressurser/operative-losninger-og-tjenester/`.
 
-Øvrige leveranser ligger fortsatt i `results/`.
+Øvrige leveranser ligger i `analyser/`, `briefs/`, `sources/`, `web/` og `print/` etter type.
 
 Produktbeskrivelsene skal bruke:
 - `capabilities.yaml` for kapabilitetsnavn

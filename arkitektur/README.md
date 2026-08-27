@@ -6,7 +6,6 @@ Denne mappa samler det strukturerte arkitekturgrunnlaget i repoet.
 - `kapabiliteter/`: kapabilitetskart og tilhørende strukturdata
 - `maal/`: kuraterte mål og kobling til arkitekturmodellen
 - `prinsipper/`: arkitekturprinsipper og føringer
-- `produkter/`: produktnummerering, produktbeskrivelser og andre strukturer som gjelder produktområdet
 - `ressurser/`: styringsgrunnlag og videre struktur for ressursområdet etter rammeverkskategoriene
 
 ## Kilde og kuratering
@@ -30,13 +29,13 @@ Denne mappa samler det strukturerte arkitekturgrunnlaget i repoet.
 ## Koblinger mellom produkter og kapabiliteter
 - `kapabiliteter/produkt-kapabilitet-koblinger.yaml` er masterfila for koblingen mellom produkter og kapabiliteter.
 - Fila vedlikeholdes manuelt i repoet og er autoritativ kilde for koblingen mellom produkter og kapabiliteter.
-- Fila ligger foreløpig i JSON-kompatibel YAML for å kunne leses uten ekstra parseravhengigheter i generatorene.
+- Fila ligger foreløpig i JSON-kompatibel YAML med JSON-struktur for å kunne leses uten ekstra parseravhengigheter i generatorene, selv om navnet fortsatt ender på `.yaml`.
 - Hugo-generatorene skal bruke denne fila som felles grunnlag begge veier:
   - fra produkter til kapabiliteter i produktoverblikket
   - fra kapabiliteter til produkter i kapabilitetssidene
 
-Mappa brukes som faglig kildeområde. Produktbeskrivelser ligger i `produkter/produktbeskrivelser/`, mens øvrige leveranser fortsatt kan ligge i `results/`.
+Mappa brukes som faglig kildeområde. Produktbeskrivelser ligger i `arkitektur/ressurser/operative-losninger-og-tjenester/`, mens øvrige leveranser skal rutes etter type til `analyser/`, `briefs/`, `sources/`, `web/` eller `print/`.
 
-Innenfor `produkter/` er `produktnummerering.md` den operative masterfila for produktregister, ressurs-ID-er og statusoversikt.
+Produktbeskrivelser ligger nå i `arkitektur/ressurser/operative-losninger-og-tjenester/`, mens `arkitektur/ressurser/produktnummerering.md` er den operative masterfila for produktregister, ressurs-ID-er og statusoversikt.
 
 Innenfor `ressurser/` er `styringsregler.md` den styrende fila for hva som skal regnes som gjenbrukbare løsninger, standarder og veiledning, samhandlingsarenaer og organisering, og økonomiske eller juridiske rammer og virkemidler.

@@ -7,19 +7,26 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Bruk vanlig norsk tegnsett i dokumentinnhold: `æ`, `ø` og `å`.
 - Bruk ASCII bare der tekniske begrensninger krever det, for eksempel i filnavn, slugger, kode eller enkelte lokale git-hooker.
 - Committer fra dette repoet skal bruke en eksplisitt Git-identitet med ønsket brukernavn og en `noreply`-adresse, ikke personlig jobbmail eller privatmail som eksponeres i commit-metadata.
-- Bevar etablert struktur i repoet: `arkitektur/` for faglig arkitekturgrunnlag, `config/` for regler og maler, `results/` for leveranser, `web/` for Hugo-prototypen, `sources/` for kildegrunnlag og `briefs/` for arbeidsstyring og handover.
+- Bevar etablert struktur i repoet: `arkitektur/` for faglig arkitekturgrunnlag, `config/` for regler og maler, `web/` for Hugo-prototypen, `sources/` for kildegrunnlag, `analyser/` for analyser og `briefs/` for arbeidsstyring og handover.
 - Tolking av mapper:
   - `arkitektur/` brukes for strukturert arkitekturgrunnlag, som kapabiliteter, mål, prinsipper og produktnummerering.
   - `arkitektur/ressurser/` brukes for styringsregler og struktur for ressursområdet utover klassiske produktbeskrivelser.
-  - `results/` brukes for leveranser og innhold som skal kunne gjenbrukes direkte.
+  - `analyser/` brukes for kapabilitetsanalyser, case-analyser og andre faglige leveranser som skal kunne gjenbrukes direkte.
   - `briefs/` brukes for arbeidsstyring, handover, beslutninger og mellomdokumenter.
   - `briefs/arbeidsstyring-og-handover/` brukes for større arbeidsnotater, MVP-skisser, handover-dokumenter og lignende som ikke er sluttleveranser.
+  - `print/` brukes som lokal og gitignorert plass for presentasjoner og figurer.
+  - `tmp-overordnet-malbilde/` brukes som lokal og gitignorert arbeidsflate for overordnet målbildeflyt.
+  - `handover/` skal ikke brukes som egen varig struktur; filer derfra skal ligge i `briefs/arbeidsstyring-og-handover/`.
 - Les `README.md` i aktuell mappe når oppgaven berører den delen av repoet, slik at lokal struktur og arbeidsmåte følges.
 - Ved arbeid med nye ressurskategorier eller ressurser utover klassiske produkter, bruk `arkitektur/ressurser/styringsregler.md` som styrende klassifisering.
 - Ved registerføring av nye ressurser i den brede ressursstrukturen, bruk fortsatt `arkitektur/ressurser/produktnummerering.md` som operativ master for ressurs-ID og registerstatus inntil annet er besluttet.
 - Når nye ressursfiler opprettes etter at løpenummer er fastsatt i `arkitektur/ressurser/produktnummerering.md`, skal filnavnet følge samme nummererte mønster som øvrige beskrivelser i porteføljen.
+- Før en ny ressursfil opprettes skal assistenten først sjekke eksisterende filnavn i samme kategori og bekrefte hvilket suffix som faktisk skal brukes i denne kjøringen.
+- Hvis det er tvil om suffix, skal assistenten avklare det før filopprettelse og bruke suffixet som samsvarer med utførende verktøy i denne kjøringen, ikke suffixet som tilfeldigvis finnes på forrige versjon.
+- Når en ny fil er opprettet, skal register, kapabilitetsmapping og eventuelle weblenker oppdateres i samme endringssett slik at filnavn, metadata og pekerne aldri blir stående midlertidig inkonsistente.
 - Ved opprettelse eller revisjon av `standarder og veiledning`, bruk `config/prompts/normerende-ressurs-canvas.system.md` sammen med `config/templates/normerende-ressurs-template.md`.
 - Ved opprettelse eller revisjon av `samhandlingsarenaer og organisering`, bruk `config/prompts/samarbeidsforum-canvas.system.md` sammen med `config/templates/samarbeidsforum-template.md`.
+- Ved opprettelse eller revisjon av `økonomiske og juridiske rammer og virkemidler`, bruk `config/prompts/okonomiske-og-juridiske-rammer-og-virkemidler-canvas.system.md` sammen med `config/templates/okonomiske-og-juridiske-rammer-og-virkemidler-template.md`.
 - Nye ressurser innen `standarder og veiledning` skal lagres i `arkitektur/ressurser/normerende-ressurser/`, og nye ressurser innen `samhandlingsarenaer og organisering` skal lagres i `arkitektur/ressurser/samarbeidsfora/`.
 - Nye ressurser innen `økonomiske og juridiske rammer og virkemidler` skal lagres i `arkitektur/ressurser/rammer-og-virkemidler/` når klassifiseringen er vurdert mot styringsreglene.
 
@@ -28,6 +35,7 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Eldre versjoner skal bare brukes som supplement for historikk, sammenligning eller endringsforståelse.
 - Filnavn skal reflektere hvilket verktøy som har opprettet filen: `-copilot` for GitHub Copilot, `-codex` for ChatGPT-genererte filer (historisk navnekonvensjon i dette repoet), `-claude` for Claude, `-manual` for manuell opprettelse osv. Sjekk alltid eksisterende filnavn i samme kategori før du oppretter nye filer for å bekrefte konvensjonen.
 - Ved tvil om suffix skal assistenten stoppe og velge suffix ut fra **utførende verktøy i den aktuelle kjøringen**, ikke ut fra suffix i forrige versjon.
+- `tools/check-resource-version-sync.py` håndhever suffix-regelen mekanisk ved å validere mønsteret `^(\d+)-(.+)-v(\d+)-(forfatter)\.md$` mot register og mapping.
 - Før handover eller commit er det obligatorisk å verifisere at nytt filnavn, `produktnummerering.md` og `produkt-kapabilitet-koblinger.yaml` peker til samme versjon og samme suffix.
 - Hvis suffix er feil, skal assistenten rette filnavn og alle pekere i samme endringssett. Det er ikke tillatt å avslutte kjøringen med inkonsistent suffix mellom fil og register/mapping.
 - Følg metoden i [config/prompts/operative-ressurs-canvas.system.md](config/prompts/operative-ressurs-canvas.system.md) ved arbeid med gjenbrukbare løsninger.
@@ -83,6 +91,7 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Når `arkitektur/ressurser/produktnummerering.md` eller `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml` oppdateres til å peke på en ny eller høyere ressursversjon, skal den aktuelle ressursfila være opprettet og sporet av Git i samme endringssett.
 - Det skal ikke innføres pekere fra register eller kapabilitetsmapping til ressursfiler som fortsatt er `untracked`.
 - Hvis nye generelle regler blir viktige for repoet, legg dem i denne fila heller enn å spre dem tilfeldig i enkeltfiler.
+- `briefs/next-step.md` skal holdes i `.gitignore`, men brukes likevel som sporet arbeidsnotat i repoet fordi fila allerede er etablert som lokal statusflate og ikke skal publiseres.
 
 ## Automatiske kjøringer
 - Automatiske kjøringer som oppretter eller endrer markdownfiler skal eksplisitt kjøre encoding-kontroll før de avsluttes, ikke bare stole på visuell sjekk eller at hooks eventuelt fanger feil senere.

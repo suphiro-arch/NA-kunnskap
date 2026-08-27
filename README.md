@@ -10,12 +10,16 @@ Repo for arbeid med nasjonal arkitektur, produktbeskrivelser, kapabiliteter, pri
 
 ## Viktigste mapper
 - `analyser/`: kapabilitetsanalyser, case-analyser og gjenbrukbare faglige leveranser
+- `analyser/Modenhetsanalyser/`: modenhetsanalyser og prioriteringsnotater
 - `sources/`: kildegrunnlag, lenker og rånotater
 - `briefs/`: arbeidsstyring, handover og beslutningsstøtte
 - `config/`: prompts, maler og annen styrende konfigurasjon
 - `arkitektur/`: strukturerte oversikter, blant annet kapabiliteter, produktregister og ressursbeskrivelser
 - `arkitektur/maal/`: kuratert målspor for arkitekturmodellen
 - `web/hugo-prototype/`: Hugo-kildekode for dokumentasjonsprototypen
+- `print/`: lokal og gitignorert arbeidsflate for presentasjoner og figurer
+- `tmp-overordnet-malbilde/`: lokal og gitignorert arbeidsflate for overordnet målbildeflyt
+- `handover/`: gammel reststruktur som ikke skal brukes for nye filer; flytt til `briefs/arbeidsstyring-og-handover/`
 
 ## Styrende filer
 - [AGENTS.md](AGENTS.md): generelle repo-regler for assistenter
@@ -26,6 +30,7 @@ Repo for arbeid med nasjonal arkitektur, produktbeskrivelser, kapabiliteter, pri
 - [designprofil-rapporter-og-presentasjoner.system.md](config/prompts/designprofil-rapporter-og-presentasjoner.system.md): felles designprofil for rapporter, presentasjoner og figurer
 - [briefs/README.md](briefs/README.md): hvordan `briefs/` brukes til arbeidsstyring og handover
 - [struktur-og-bearbeiding.md](arkitektur/struktur-og-bearbeiding.md): hvordan råkilder, kuraterte arbeidsfiler og videre bruk henger sammen i repoet
+- [AGENTS.md](AGENTS.md): beskriver også at `briefs/next-step.md` er sporet selv om fila står i `.gitignore`
 
 ## Arbeidsflyt
 
@@ -34,7 +39,8 @@ Repo for arbeid med nasjonal arkitektur, produktbeskrivelser, kapabiliteter, pri
 2. Bruk `arkitektur/ressurser/styringsregler.md` til å avgjøre rammeverkskategori, last deretter riktig systempromt og lag eller oppdater ressursbeskrivelsen.
 3. Oppdater `arkitektur/ressurser/produktnummerering.md` med ny versjonspeker.
 4. Kjør `python tools/sync-resource-metadata.py --apply` og `python tools/check-resource-version-sync.py` for å verifisere register og kapabilitetsmapping.
-5. Logg status i `briefs/next-step.md` og varige valg i `briefs/decisions.md`.
+5. Kjør `powershell -ExecutionPolicy Bypass -File tools/check-mojibake.ps1 -Root .` og `python web/hugo-prototype/scripts/validate-text-encoding.py` når tekstfiler er endret.
+6. Logg status i `briefs/next-step.md` og varige valg i `briefs/decisions.md`.
 
 ### Analyser
 1. Bruk ressursbeskrivelser, `capabilities.yaml` og `principles.md` som grunnlag.

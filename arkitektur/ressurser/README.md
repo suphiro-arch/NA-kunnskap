@@ -72,10 +72,12 @@ Last systemprompten i din AI-assistent **før** du begynner på innholdet, slik 
    - Standarder og veiledning: `72-FINT-Informasjonsmodell-v1-codex.md`
    - Samhandlingsarena: `88-Arkitektur-og-standardiseringsradet-v0-codex.md`
 
-   **Velg suffix slik at det er lett å følge regelen:**
-   - bruk `-copilot` når denne kjøringen oppretter filen
-   - bruk `-codex` når en Codex-kjørt fil opprettes eller oppdateres videre i den eksisterende suffixlinjen
-   - bruk samme suffix som den aktive kjøringen faktisk skriver med, ikke samme suffix som den forrige versjonen bare fordi den finnes fra før
+   **Velg suffix før du oppretter fila:**
+   - sjekk først hva siste versjon heter i samme kategori
+   - bruk `-copilot` når denne kjøringen oppretter filen med Copilot
+   - bruk `-codex` når denne kjøringen faktisk er en Codex-kjøring
+   - ikke gjenbruk suffix fra forrige versjon uten å bekrefte at det matcher verktøyet som skriver nå
+   - hvis suffix virker uklart, stopp og avklar før du oppretter fila
 
    **Konvensjoner:**
    - `NN` = løpenummer (stabil sortering)
