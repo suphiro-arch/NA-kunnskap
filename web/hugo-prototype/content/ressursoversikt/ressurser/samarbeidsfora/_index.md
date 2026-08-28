@@ -27,19 +27,6 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Samhandl
         <option value="Samordning">Samordning</option>
         <option value="Sikring av informasjonsflyt og datautveksling">Sikring av informasjonsflyt og datautveksling</option>
       </select></label>
-      <label>Emne <select class="resource-filter" data-filter="emne"><option value="">Alle</option>
-        <option value="Arkitekturr&#229;d">Arkitekturr&#229;d</option>
-        <option value="Faglig forum">Faglig forum</option>
-        <option value="Fagnettverk for prosjekt-, program-, produkt- og portef&#248;ljestyring">Fagnettverk for prosjekt-, program-, produkt- og portef&#248;ljestyring</option>
-        <option value="Nasjonal arena for kunstig intelligens">Nasjonal arena for kunstig intelligens</option>
-        <option value="Nettverk for informasjonssikkerhet">Nettverk for informasjonssikkerhet</option>
-        <option value="Offentlig-privat samhandlingsarena">Offentlig-privat samhandlingsarena</option>
-        <option value="Radgivende arena">Radgivende arena</option>
-        <option value="Styringsr&#229;d">Styringsr&#229;d</option>
-        <option value="Tverrsektoriell samordningsarena">Tverrsektoriell samordningsarena</option>
-        <option value="Tverrsektorielt sikkerhetssamarbeid">Tverrsektorielt sikkerhetssamarbeid</option>
-        <option value="&#197;pen digital samhandlingsarena">&#197;pen digital samhandlingsarena</option>
-      </select></label>
     </div>
     <p class="resource-filters__result" data-role="count">Viser 11 av 11 ressurser</p>
   </div>
@@ -154,14 +141,12 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Samhandl
       var owner = root.querySelector("[data-filter=owner]");
       var type = root.querySelector("[data-filter=type]");
       var capability = root.querySelector("[data-filter=capability]");
-      var emne = root.querySelector("[data-filter=emne]");
       function norm(v){ return (v || "").toLowerCase(); }
       function apply(){
         var q = norm(search && search.value);
         var o = norm(owner && owner.value);
         var t = norm(type && type.value);
         var c = norm(capability && capability.value);
-        var e = norm(emne && emne.value);
         var visible = 0;
         cards.forEach(function(card){
           var ok = true;
@@ -169,13 +154,12 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Samhandl
           if (o && norm(card.dataset.owner) !== o) ok = false;
           if (t && norm(card.dataset.type) !== t) ok = false;
           if (c && norm(card.dataset.capabilities).indexOf(c) === -1) ok = false;
-          if (e && norm(card.dataset.emne) !== e) ok = false;
           card.style.display = ok ? "block" : "none";
           if (ok) visible += 1;
         });
         if (count) { count.textContent = "Viser " + visible + " av " + cards.length + " ressurser"; }
       }
-      [search, owner, type, capability, emne].forEach(function(el){ if (el) { el.addEventListener("input", apply); el.addEventListener("change", apply); } });
+      [search, owner, type, capability].forEach(function(el){ if (el) { el.addEventListener("input", apply); el.addEventListener("change", apply); } });
       apply();
     })();
   </script>

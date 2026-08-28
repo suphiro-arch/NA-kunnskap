@@ -9,6 +9,15 @@ topic: neste-steg
 
 ## Siste oppdateringer
 
+### Tillegg 2026-08-28 (justering av filterrad og kontaktknapper)
+
+- Emnefilteret er fjernet igjen etter vurdering av nytteverdien. 122 ressurser fordelte seg på 111 emneverdier, og over 90 av dem traff nøyaktig én ressurs. Filteret avgrenset i praksis ingenting.
+- Emneverdien er beholdt som `data-emne` på hvert kort og som del av fritekstsøket, slik at søk på emneord fortsatt treffer. Filterboksen kan settes inn igjen uten nytt arbeid hvis emnevokabularet senere konsolideres til et titalls grupper.
+- Søk, Eier, Type og Kapabilitet ligger nå på én rad, med søkefeltet bredest. Under 60rem brytes raden fortsatt, siden fire felt ikke får plass på smale skjermer.
+- Kontakt- og kildelenkene er gjort om fra understrekede tekstlenker til knapper med gjennomsiktig bakgrunn og tynn farget ramme, etter tilbakemelding om at knappene fungerte bedre.
+- Knappeteksten er endret fra «Kontakt oss» til «Send mail til oss», slik at det går fram at lenken åpner e-post og ikke et skjema eller en annen løsning.
+- Knappene ligger nå øverst til høyre i overskriftsboksen på alle sider, forsiden inkludert. Tidligere lå de under ingressen på forsiden.
+
 ### Tillegg 2026-08-28 (byggefeil i mal-JS, ny syntakskontroll)
 
 - Hugo-byggingen feilet på alle sider etter commit `d0b5670`. Escape-sekvensene i e-postteksten i [baseof.html](../web/hugo-prototype/layouts/_default/baseof.html) ble til faktiske linjeskift da fila ble skrevet, slik at strengliteralen var uterminert. Skriptet ligger i den delte malen, derfor slo én feil ut på hver eneste side.

@@ -28,13 +28,6 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Økonomi
         <option value="Sikring av informasjonsflyt og datautveksling">Sikring av informasjonsflyt og datautveksling</option>
         <option value="Tjenestedesign">Tjenestedesign</option>
       </select></label>
-      <label>Emne <select class="resource-filter" data-filter="emne"><option value="">Alle</option>
-        <option value="Finansieringsordning / tilskuddsvirkemiddel">Finansieringsordning / tilskuddsvirkemiddel</option>
-        <option value="Forskrift">Forskrift</option>
-        <option value="Rundskriv">Rundskriv</option>
-        <option value="Stimuleringsordning / tilskudds- og utviklingsvirkemiddel">Stimuleringsordning / tilskudds- og utviklingsvirkemiddel</option>
-        <option value="Tilskuddsordning">Tilskuddsordning</option>
-      </select></label>
     </div>
     <p class="resource-filters__result" data-role="count">Viser 6 av 6 ressurser</p>
   </div>
@@ -98,14 +91,12 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Økonomi
       var owner = root.querySelector("[data-filter=owner]");
       var type = root.querySelector("[data-filter=type]");
       var capability = root.querySelector("[data-filter=capability]");
-      var emne = root.querySelector("[data-filter=emne]");
       function norm(v){ return (v || "").toLowerCase(); }
       function apply(){
         var q = norm(search && search.value);
         var o = norm(owner && owner.value);
         var t = norm(type && type.value);
         var c = norm(capability && capability.value);
-        var e = norm(emne && emne.value);
         var visible = 0;
         cards.forEach(function(card){
           var ok = true;
@@ -113,13 +104,12 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Økonomi
           if (o && norm(card.dataset.owner) !== o) ok = false;
           if (t && norm(card.dataset.type) !== t) ok = false;
           if (c && norm(card.dataset.capabilities).indexOf(c) === -1) ok = false;
-          if (e && norm(card.dataset.emne) !== e) ok = false;
           card.style.display = ok ? "block" : "none";
           if (ok) visible += 1;
         });
         if (count) { count.textContent = "Viser " + visible + " av " + cards.length + " ressurser"; }
       }
-      [search, owner, type, capability, emne].forEach(function(el){ if (el) { el.addEventListener("input", apply); el.addEventListener("change", apply); } });
+      [search, owner, type, capability].forEach(function(el){ if (el) { el.addEventListener("input", apply); el.addEventListener("change", apply); } });
       apply();
     })();
   </script>

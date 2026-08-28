@@ -107,119 +107,6 @@ hideSectionOverview: true
         <option value="Utvikling og formidling av veiledning">Utvikling og formidling av veiledning</option>
         <option value="Utviklings- og kj&#248;retidsmilj&#248;">Utviklings- og kj&#248;retidsmilj&#248;</option>
       </select></label>
-      <label>Emne <select class="resource-filter" data-filter="emne"><option value="">Alle</option>
-        <option value="Analyseplattform">Analyseplattform</option>
-        <option value="API-basert deling">API-basert deling</option>
-        <option value="API-katalog">API-katalog</option>
-        <option value="Arbeidsforholdsregister og delingstjeneste">Arbeidsforholdsregister og delingstjeneste</option>
-        <option value="Arkitekturr&#229;d">Arkitekturr&#229;d</option>
-        <option value="Arkiv- og integrasjonstjeneste">Arkiv- og integrasjonstjeneste</option>
-        <option value="Autentisering">Autentisering</option>
-        <option value="Autentiseringstjeneste for ansatte">Autentiseringstjeneste for ansatte</option>
-        <option value="Autorisasjon og delegering">Autorisasjon og delegering</option>
-        <option value="Begreper">Begreper</option>
-        <option value="Brukerflate for VIGO-tjenester">Brukerflate for VIGO-tjenester</option>
-        <option value="Brukerinngang og meldinger">Brukerinngang og meldinger</option>
-        <option value="Datatilgang">Datatilgang</option>
-        <option value="Deling av vitnem&#229;l">Deling av vitnem&#229;l</option>
-        <option value="Designsystem">Designsystem</option>
-        <option value="Dialog og representasjon">Dialog og representasjon</option>
-        <option value="Digital meldingstjeneste for bekymringsmeldinger">Digital meldingstjeneste for bekymringsmeldinger</option>
-        <option value="D&#248;ds&#229;rsaksregister">D&#248;ds&#229;rsaksregister</option>
-        <option value="Eiendoms- og adresseregister">Eiendoms- og adresseregister</option>
-        <option value="Faglig forum">Faglig forum</option>
-        <option value="Fagnettverk for prosjekt-, program-, produkt- og portef&#248;ljestyring">Fagnettverk for prosjekt-, program-, produkt- og portef&#248;ljestyring</option>
-        <option value="Felles datagrunnlag for VIGO">Felles datagrunnlag for VIGO</option>
-        <option value="Felles l&#248;sning for inntak og administrasjon i videreg&#229;ende oppl&#230;ring">Felles l&#248;sning for inntak og administrasjon i videreg&#229;ende oppl&#230;ring</option>
-        <option value="Felles rapportering">Felles rapportering</option>
-        <option value="Filformidling">Filformidling</option>
-        <option value="Finansieringsordning / tilskuddsvirkemiddel">Finansieringsordning / tilskuddsvirkemiddel</option>
-        <option value="Forskrift">Forskrift</option>
-        <option value="Geodataportal / metadata- og delingsplattform">Geodataportal / metadata- og delingsplattform</option>
-        <option value="Hendelser og abonnement">Hendelser og abonnement</option>
-        <option value="Historisk legemiddelregister (2004-2021)">Historisk legemiddelregister (2004-2021)</option>
-        <option value="Informasjonsmodell">Informasjonsmodell</option>
-        <option value="Innbyggerinformasjon">Innbyggerinformasjon</option>
-        <option value="Innbyggerportal">Innbyggerportal</option>
-        <option value="Innbyggerportal for kommunale tjenester">Innbyggerportal for kommunale tjenester</option>
-        <option value="Inng&#229;ende post">Inng&#229;ende post</option>
-        <option value="Innlogging og identitet">Innlogging og identitet</option>
-        <option value="Innsyn og offentlighet">Innsyn og offentlighet</option>
-        <option value="Integrasjons- og datadelingstjeneste">Integrasjons- og datadelingstjeneste</option>
-        <option value="Integrasjonsplattform">Integrasjonsplattform</option>
-        <option value="Internasjonalt samhandlingsrammeverk">Internasjonalt samhandlingsrammeverk</option>
-        <option value="Kapabilitetsmodell">Kapabilitetsmodell</option>
-        <option value="Kj&#248;ret&#248;ydata">Kj&#248;ret&#248;ydata</option>
-        <option value="Kompetansemodell">Kompetansemodell</option>
-        <option value="Kontaktopplysninger og reservasjon">Kontaktopplysninger og reservasjon</option>
-        <option value="Kontrollert datadeling">Kontrollert datadeling</option>
-        <option value="Korrespondanse og innsyn">Korrespondanse og innsyn</option>
-        <option value="Kunnskapsgrunnlag">Kunnskapsgrunnlag</option>
-        <option value="Maskinell tilgang">Maskinell tilgang</option>
-        <option value="Meldingsflyt">Meldingsflyt</option>
-        <option value="Meldingsmottak og adresseregister">Meldingsmottak og adresseregister</option>
-        <option value="Meldingssystem for smittsomme sykdommer">Meldingssystem for smittsomme sykdommer</option>
-        <option value="Meldingsutveksling">Meldingsutveksling</option>
-        <option value="Metadata og kataloger">Metadata og kataloger</option>
-        <option value="Metodeverkt&#248;y">Metodeverkt&#248;y</option>
-        <option value="Metodikk">Metodikk</option>
-        <option value="M&#229;leverkt&#248;y og kunnskapsgrunnlag">M&#229;leverkt&#248;y og kunnskapsgrunnlag</option>
-        <option value="Nasjonal arena for kunstig intelligens">Nasjonal arena for kunstig intelligens</option>
-        <option value="Nasjonalt helseregister for kommunale helse- og omsorgstjenester">Nasjonalt helseregister for kommunale helse- og omsorgstjenester</option>
-        <option value="Nasjonalt helseregister for spesialisthelsetjenesten">Nasjonalt helseregister for spesialisthelsetjenesten</option>
-        <option value="Nettverk for informasjonssikkerhet">Nettverk for informasjonssikkerhet</option>
-        <option value="Offentlig–privat datadeling">Offentlig–privat datadeling</option>
-        <option value="Offentlig-privat samhandlingsarena">Offentlig-privat samhandlingsarena</option>
-        <option value="Opptaksl&#248;sning">Opptaksl&#248;sning</option>
-        <option value="Pasientdata">Pasientdata</option>
-        <option value="Persondata">Persondata</option>
-        <option value="Personlig eID og autentiseringstjeneste">Personlig eID og autentiseringstjeneste</option>
-        <option value="Plattform for applikasjoner">Plattform for applikasjoner</option>
-        <option value="Portal for forvaltning, informasjon og ta-i-bruk av fellesl&#248;sninger">Portal for forvaltning, informasjon og ta-i-bruk av fellesl&#248;sninger</option>
-        <option value="Prinsipper">Prinsipper</option>
-        <option value="Prosjektmetodikk">Prosjektmetodikk</option>
-        <option value="Radgivende arena">Radgivende arena</option>
-        <option value="Rammeverk">Rammeverk</option>
-        <option value="Referansearkitektur">Referansearkitektur</option>
-        <option value="Refusjonsdata">Refusjonsdata</option>
-        <option value="Register for offisielle stedsnavn">Register for offisielle stedsnavn</option>
-        <option value="Register over faktisk eierskap og kontroll">Register over faktisk eierskap og kontroll</option>
-        <option value="Register over helsepersonell">Register over helsepersonell</option>
-        <option value="Register over utdanningstilbud og akkreditering">Register over utdanningstilbud og akkreditering</option>
-        <option value="Registerfamilie og tilgangslag">Registerfamilie og tilgangslag</option>
-        <option value="Reseptsystem">Reseptsystem</option>
-        <option value="Rettighetsregister for fast eiendom">Rettighetsregister for fast eiendom</option>
-        <option value="Rundskriv">Rundskriv</option>
-        <option value="Sandkasse og testmilj&#248; for digital lommebok">Sandkasse og testmilj&#248; for digital lommebok</option>
-        <option value="Signering">Signering</option>
-        <option value="Standardkatalog">Standardkatalog</option>
-        <option value="Stimuleringsordning / tilskudds- og utviklingsvirkemiddel">Stimuleringsordning / tilskudds- og utviklingsvirkemiddel</option>
-        <option value="Studentdata">Studentdata</option>
-        <option value="Styrings- og oversiktsl&#248;sning">Styrings- og oversiktsl&#248;sning</option>
-        <option value="Styringsr&#229;d">Styringsr&#229;d</option>
-        <option value="Tilgang til Folkeregisteret via Fiks">Tilgang til Folkeregisteret via Fiks</option>
-        <option value="Tilgang til kj&#248;ret&#248;yopplysninger via Fiks">Tilgang til kj&#248;ret&#248;yopplysninger via Fiks</option>
-        <option value="Tilgang til skatte- og inntektsopplysninger via Fiks">Tilgang til skatte- og inntektsopplysninger via Fiks</option>
-        <option value="Tillits- og autentiseringskomponent for helse">Tillits- og autentiseringskomponent for helse</option>
-        <option value="Tilskuddsordning">Tilskuddsordning</option>
-        <option value="Tjeneste for digital sosialhjelp">Tjeneste for digital sosialhjelp</option>
-        <option value="Tjenesteplattform">Tjenesteplattform</option>
-        <option value="Tjenesteutvikling">Tjenesteutvikling</option>
-        <option value="Tverrsektoriell samordningsarena">Tverrsektoriell samordningsarena</option>
-        <option value="Tverrsektorielt sikkerhetssamarbeid">Tverrsektorielt sikkerhetssamarbeid</option>
-        <option value="Utsending av post">Utsending av post</option>
-        <option value="Utsendingstjeneste for digital og fysisk post">Utsendingstjeneste for digital og fysisk post</option>
-        <option value="Vaksinasjonsregister">Vaksinasjonsregister</option>
-        <option value="Varsling">Varsling</option>
-        <option value="Vegdata">Vegdata</option>
-        <option value="Veikart">Veikart</option>
-        <option value="Veileder">Veileder</option>
-        <option value="Veiledning om personvern i KI">Veiledning om personvern i KI</option>
-        <option value="Virksomhetsregister">Virksomhetsregister</option>
-        <option value="Vitnem&#229;l">Vitnem&#229;l</option>
-        <option value="&#197;pen digital samhandlingsarena">&#197;pen digital samhandlingsarena</option>
-        <option value="&#197;pne data">&#197;pne data</option>
-      </select></label>
     </div>
     <p class="resource-filters__result" data-role="count">Viser 122 av 122 ressurser</p>
   </div>
@@ -1247,14 +1134,12 @@ hideSectionOverview: true
       var owner = root.querySelector("[data-filter=owner]");
       var type = root.querySelector("[data-filter=type]");
       var capability = root.querySelector("[data-filter=capability]");
-      var emne = root.querySelector("[data-filter=emne]");
       function norm(v){ return (v || "").toLowerCase(); }
       function apply(){
         var q = norm(search && search.value);
         var o = norm(owner && owner.value);
         var t = norm(type && type.value);
         var c = norm(capability && capability.value);
-        var e = norm(emne && emne.value);
         var visible = 0;
         cards.forEach(function(card){
           var ok = true;
@@ -1262,13 +1147,12 @@ hideSectionOverview: true
           if (o && norm(card.dataset.owner) !== o) ok = false;
           if (t && norm(card.dataset.type) !== t) ok = false;
           if (c && norm(card.dataset.capabilities).indexOf(c) === -1) ok = false;
-          if (e && norm(card.dataset.emne) !== e) ok = false;
           card.style.display = ok ? "block" : "none";
           if (ok) visible += 1;
         });
         if (count) { count.textContent = "Viser " + visible + " av " + cards.length + " ressurser"; }
       }
-      [search, owner, type, capability, emne].forEach(function(el){ if (el) { el.addEventListener("input", apply); el.addEventListener("change", apply); } });
+      [search, owner, type, capability].forEach(function(el){ if (el) { el.addEventListener("input", apply); el.addEventListener("change", apply); } });
       apply();
     })();
   </script>

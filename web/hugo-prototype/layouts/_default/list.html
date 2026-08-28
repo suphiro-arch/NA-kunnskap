@@ -20,12 +20,16 @@
 <section class="home-hero">
   <div class="home-hero__content content-card">
     <div class="content-card__header content-card__header--home">
-      <p class="content-card__eyebrow">Nasjonal arkitektur</p>
-      <p class="home-hero__lead">Her vises innholdet fra Nasjonal arkitekturs nye kapabilitetsmodell for digital samhandling i offentlig sektor.</p>
-      <p class="home-hero__sublead">Utfyllende ressursbeskrivelser er koblet til kapabilitetene. Vi ønsker tilbakemeldinger på innhold, mangler og nye ønsker.</p>
-      {{ if or .Site.Params.feedbackEmail .Site.Params.githubRepoURL }}
-      <p class="home-hero__feedback">{{ partial "feedback-links.html" . }}</p>
-      {{ end }}
+      <div class="content-card__header-row">
+        <div class="content-card__header-main">
+          <p class="content-card__eyebrow">Nasjonal arkitektur</p>
+          <p class="home-hero__lead">Her vises innholdet fra Nasjonal arkitekturs nye kapabilitetsmodell for digital samhandling i offentlig sektor.</p>
+          <p class="home-hero__sublead">Utfyllende ressursbeskrivelser er koblet til kapabilitetene. Vi ønsker tilbakemeldinger på innhold, mangler og nye ønsker.</p>
+        </div>
+        {{ if or .Site.Params.feedbackEmail .Site.Params.githubRepoURL }}
+        <p class="content-card__header-actions">{{ partial "feedback-links.html" . }}</p>
+        {{ end }}
+      </div>
     </div>
     <div class="content-card__body">
       <div class="home-actions">

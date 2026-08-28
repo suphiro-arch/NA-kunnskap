@@ -3,7 +3,7 @@
 {{- with .Site.Params.feedbackEmail -}}
 {{- $user := index (split . "@") 0 -}}
 {{- $domain := index (split . "@") 1 -}}
-<button class="feedback-link js-contact-link" type="button" data-mail-user="{{ $user }}" data-mail-domain="{{ $domain }}">Kontakt oss</button>
+<button class="feedback-link js-contact-link" type="button" data-mail-user="{{ $user }}" data-mail-domain="{{ $domain }}">Send mail til oss</button>
 {{- end -}}
 {{- with .Site.Params.githubRepoURL -}}
 <a class="feedback-link" href="{{ . }}" target="_blank" rel="noreferrer noopener">Se kildekoden på GitHub</a>

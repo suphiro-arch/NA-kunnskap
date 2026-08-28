@@ -45,23 +45,6 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Standard
         <option value="Tjenestekjeder">Tjenestekjeder</option>
         <option value="Utvikling og formidling av veiledning">Utvikling og formidling av veiledning</option>
       </select></label>
-      <label>Emne <select class="resource-filter" data-filter="emne"><option value="">Alle</option>
-        <option value="Informasjonsmodell">Informasjonsmodell</option>
-        <option value="Kapabilitetsmodell">Kapabilitetsmodell</option>
-        <option value="Kompetansemodell">Kompetansemodell</option>
-        <option value="Kunnskapsgrunnlag">Kunnskapsgrunnlag</option>
-        <option value="Metodeverkt&#248;y">Metodeverkt&#248;y</option>
-        <option value="Metodikk">Metodikk</option>
-        <option value="M&#229;leverkt&#248;y og kunnskapsgrunnlag">M&#229;leverkt&#248;y og kunnskapsgrunnlag</option>
-        <option value="Prinsipper">Prinsipper</option>
-        <option value="Prosjektmetodikk">Prosjektmetodikk</option>
-        <option value="Rammeverk">Rammeverk</option>
-        <option value="Referansearkitektur">Referansearkitektur</option>
-        <option value="Standardkatalog">Standardkatalog</option>
-        <option value="Veikart">Veikart</option>
-        <option value="Veileder">Veileder</option>
-        <option value="Veiledning om personvern i KI">Veiledning om personvern i KI</option>
-      </select></label>
     </div>
     <p class="resource-filters__result" data-role="count">Viser 25 av 25 ressurser</p>
   </div>
@@ -302,14 +285,12 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Standard
       var owner = root.querySelector("[data-filter=owner]");
       var type = root.querySelector("[data-filter=type]");
       var capability = root.querySelector("[data-filter=capability]");
-      var emne = root.querySelector("[data-filter=emne]");
       function norm(v){ return (v || "").toLowerCase(); }
       function apply(){
         var q = norm(search && search.value);
         var o = norm(owner && owner.value);
         var t = norm(type && type.value);
         var c = norm(capability && capability.value);
-        var e = norm(emne && emne.value);
         var visible = 0;
         cards.forEach(function(card){
           var ok = true;
@@ -317,13 +298,12 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Standard
           if (o && norm(card.dataset.owner) !== o) ok = false;
           if (t && norm(card.dataset.type) !== t) ok = false;
           if (c && norm(card.dataset.capabilities).indexOf(c) === -1) ok = false;
-          if (e && norm(card.dataset.emne) !== e) ok = false;
           card.style.display = ok ? "block" : "none";
           if (ok) visible += 1;
         });
         if (count) { count.textContent = "Viser " + visible + " av " + cards.length + " ressurser"; }
       }
-      [search, owner, type, capability, emne].forEach(function(el){ if (el) { el.addEventListener("input", apply); el.addEventListener("change", apply); } });
+      [search, owner, type, capability].forEach(function(el){ if (el) { el.addEventListener("input", apply); el.addEventListener("change", apply); } });
       apply();
     })();
   </script>
