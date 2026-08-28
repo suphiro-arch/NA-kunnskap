@@ -16,8 +16,6 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 
 - `Ressurskategori` skiller mellom hovedtyper ressurser, som felleskomponent, fellesløsning, register, portal, plattform, internasjonal fellesressurs og referanseressurs.
 
-- `Merknad` brukes til korte avgrensninger, presiseringer eller viktige vurderinger som skal følge ressursen videre i analyse og produktbeskrivelse.
-
 - Nye produkter skal få neste ledige nummer innenfor sin eierkode. Eksisterende `Ressurs-ID` skal ikke endres uten bevisst omnummerering.
 
 - Rader uten egen produktbeskrivelse ennå er arbeidsutkast. Der står `Siste versjon` som `Ikke opprettet ennå` og dokumentfeltet er tomt.
@@ -50,7 +48,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 
 ## Digdir (`DIGDIR`)
 
-| Løpenr | Ressurs-ID | Navn | Type | Kapabiliteter | Dokument |
+| Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
 |---:|---|---|---|---|---|---|
 | 1 | `DIGDIR-001` | ID-porten | Gjenbrukbare løsninger | Autentiseringstjeneste | Sikring av informasjonsflyt og datautveksling<br>Autentisering<br>Identifisering<br>Representasjon<br>Integrerbare tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/01-ID-porten-produkt-canvas-v3-codex.md) |
 | 2 | `DIGDIR-002` | Maskinporten | Gjenbrukbare løsninger | Maskin-til-maskin autentisering | Bruke data fra andre<br>Dele data med andre<br>Sikring av informasjonsflyt og datautveksling<br>Autentisering<br>Tilgangskontroll | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/02-Maskinporten-produkt-canvas-v4-codex.md) |

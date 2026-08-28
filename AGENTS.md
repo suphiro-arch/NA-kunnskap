@@ -54,6 +54,13 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - I beskrivelser av samhandlingsarenaer og organisering skal det være eksplisitt om arenaen er rådgivende, koordinerende eller besluttende, hvilke ressurser den påvirker, og når den bør involveres i analyse- eller utviklingsløp.
 - I seksjonen `Støtter arkitekturprinsipper` skal beskrivelser også vurdere tydelige svakheter, spenninger eller begrensninger mot viktige prinsipper når dette er relevant for mulig bruk.
 - Kapabilitetsseksjoner i ressursbeskrivelser skal bruke rene, kanoniske kapabilitetsnavn. Utfyllende forklaring skal ligge i brødtekst, ikke bygges inn i selve navnelabelen.
+- En ressursbeskrivelse skal beskrive ressursen, ikke arbeidsprosessen bak beskrivelsen. Ikke skriv om hvilke alternativer som ble vurdert og forkastet, hvordan kilder ble veid, eller at et felt bygger på antakelser.
+- Faglig begrunnelse for koblingene som faktisk er valgt, skal derimot stå i ressursfila. Forklaringen under hvert kapabilitetspunkt er påkrevd og hentes videre til `explanation` i `produkt-kapabilitet-koblinger.yaml` av `tools/sync-resource-metadata.py`.
+- Klassifiseringsbeslutninger som ikke er egenskaper ved ressursen selv, som valg av eierkode eller rammeverkskategori når saken har vært tvilsom, logges i `briefs/next-step.md` sammen med resten av batchen, ikke som brødtekst i ressursfila.
+- Felt skal ikke fylles med det som er vanlig eller sannsynlig for ressurstypen. Hvis åpne kilder ikke beskriver et forhold, skal feltet være kort og si at kildene ikke beskriver det, i stedet for å fylles med generisk eller konstruert innhold.
+- Deduksjon skal brukes sparsomt og bare når slutningen er nødvendig for å forstå ressursen. Foretrekk å utelate framfor å dedusere, og merk tydelig når deduksjon likevel er nødvendig.
+- Kortere er bedre enn utfylt med usikkert innhold. En kort, kildeforankret beskrivelse er mer verdt enn en fullstendig beskrivelse med svakt underbygde påstander.
+- Avsluttende brødtekst i seksjonen `Kapabiliteter` skal stå før kulelista, ikke etter. `tools/sync-resource-metadata.py` trekker all tekst etter siste kulepunkt inn i forklaringen for den siste kapabiliteten i `produkt-kapabilitet-koblinger.yaml`.
 
 ## Kilder og analyse
 - Bruk `sources/links.md` som førstevalg for eksterne kilder.

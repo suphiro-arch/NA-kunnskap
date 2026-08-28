@@ -4751,7 +4751,7 @@
                     "subcapability_name": "Samarbeidsarenaer og nettverk",
                     "subcapability_slug": "samarbeidsarenaer-og-nettverk",
                     "mapping_label": "Samarbeid: Samarbeidsarenaer og nettverk",
-                    "explanation": "Nettverket er i seg selv en etablert, forvaltet og fasilitert arena for kunnskapsdeling på tvers av virksomheter og forvaltningsnivåer. Dette er den primære koblingen."
+                    "explanation": "Nettverket er en etablert, forvaltet og fasilitert arena for kunnskapsdeling på tvers av virksomheter og forvaltningsnivåer."
                 },
                 {
                     "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
@@ -4761,7 +4761,7 @@
                     "subcapability_name": "Samordning",
                     "subcapability_slug": "samordning",
                     "mapping_label": "Strategisk styring: Samordning",
-                    "explanation": "Nettverket harmoniserer praksis for styring og ressursbruk på tvers av uavhengige virksomheter. Koblingen er reell, men indirekte: samordningen skjer gjennom frivillig praksisspredning, ikke gjennom mandat eller forpliktelse."
+                    "explanation": "Nettverket harmoniserer praksis for styring og ressursbruk på tvers av uavhengige virksomheter, gjennom frivillig erfaringsdeling framfor mandat."
                 }
             ]
         }

@@ -19,9 +19,15 @@ topic: neste-steg
 - Bekreftet grønn `check-resource-version-sync.py`, grønn `check-mojibake.ps1` og grønn `validate-text-encoding.py`.
 - Gjenstår i denne runden: regenerere ressursoversikten i `web/hugo-prototype/content/ressursoversikt/` slik at den nye ressursen vises. Regenerering ble utsatt fordi arbeidskopien samtidig har uferdige endringer i `generate-products.ps1` og genererte ressurssider fra et annet arbeidsløp (fjerning av `Emne` fra ressurskort og filtre).
 
-To funn som bør følges opp separat:
+- Revidert beskrivelsen etter tilbakemelding: fjernet vurderinger fra arbeidsprosessen (hvilke kapabiliteter som ble valgt bort, begrunnelse for eierkode), fjernet innhold som var utledet fra hva som er vanlig for denne typen nettverk, og kuttet deduksjoner. Felt der åpne kilder ikke strekker til, sier nå kort at kildene ikke beskriver forholdet.
+- Skjerpet [AGENTS.md](../AGENTS.md) med nye regler for ressursbeskrivelser som følge av dette: beskrivelsen skal handle om ressursen og ikke om arbeidsprosessen bak den, faglig begrunnelse for koblingene som faktisk er valgt skal likevel stå i ressursfila fordi kapabilitetsforklaringene hentes videre til mappingen, klassifiseringsbeslutninger som eierkodevalg logges her i `next-step.md` i stedet, felt skal ikke fylles med det som er sannsynlig for ressurstypen, deduksjon skal brukes sparsomt, kort er bedre enn utfylt med usikkert innhold, og avsluttende brødtekst i `Kapabiliteter` skal stå før kulelista fordi `sync-resource-metadata.py` ellers trekker den inn i siste kapabilitetsforklaring.
+- Malfølging kontrollert: overskriftene i ressursfila er diffet mot `config/templates/samarbeidsforum-template.md` og stemmer på alle 26 seksjoner, i samme rekkefølge og med malens egen ordlyd.
+
+- Rettet to feil i [produktnummerering.md](../arkitektur/ressurser/produktnummerering.md): Digdir-tabellen manglet kolonneoverskriften `Emne`, slik at alle 65 rader hadde ett felt mer enn overskriften og siste kolonne falt bort ved markdown-visning. Fjernet også beskrivelsen av en `Merknad`-kolonne som ikke fantes i noen av de 17 tabellene. Alle 135 registerrader har nå riktig feltantall.
+- Besluttet å ikke innføre egen kolonne for klassifiseringsbeslutninger. Klassifiseringen er selvforklarende fra `Type` og ressurskategori for de aller fleste ressursene, og en kolonne som står tom på nesten alle rader gir vedlikeholdsgjeld uten gevinst. Batchloggen her i `next-step.md` beholdes som sporet for de tilfellene der valget faktisk var tvilsomt.
+
+Ett funn som bør følges opp separat:
 - `FLERE-003` Stimulab står i Digdir-seksjonen i `produktnummerering.md` i stedet for under `## Flere virksomheter (FLERE)`. Kontrollskriptene fanger ikke seksjonsplassering, bare versjons- og stikonsistens.
-- `sync-resource-metadata.py` trekker all tekst etter siste kapabilitetskulepunkt inn i forklaringen for den siste kapabiliteten. Avsluttende avsnitt i seksjonen `Kapabiliteter` må derfor stå før kulelista, ikke etter. Dette bør inn som en regel i canvas-promptene.
 
 ### Tillegg 2026-08-27 (opprydding i repo-regler og struktur)
 
