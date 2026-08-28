@@ -9,6 +9,8 @@ hideSectionOverview: true
 
 ## Utforsk per type
 
+{{< feedback-cta >}}
+
 <div class="resource-type-grid">
   <article class="resource-type-card">
     <h3><a href="ressurser/operative-losninger-og-tjenester/">Gjenbrukbare løsninger</a></h3>

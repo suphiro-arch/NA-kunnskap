@@ -4,6 +4,9 @@ title = "Nasjonal arkitektur"
 
 [params]
   siteDescription = "Testflate for innhold om nasjonal arkitektur, prinsipper, kapabiliteter og ressursoversikt."
+  feedbackEmail = "nasjonalarkitektur@digdir.no"
+  githubRepoURL = "https://github.com/suphiro-arch/NA-kunnskap"
+  githubIssuesURL = "https://github.com/suphiro-arch/NA-kunnskap/issues/new"
 
 [markup]
   [markup.tableOfContents]

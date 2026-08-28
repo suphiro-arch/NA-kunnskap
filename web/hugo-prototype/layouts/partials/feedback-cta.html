@@ -1,0 +1,29 @@
+{{- $feedbackEmail := .Site.Params.feedbackEmail -}}
+{{- $githubRepoURL := .Site.Params.githubRepoURL -}}
+{{- $githubIssuesURL := .Site.Params.githubIssuesURL -}}
+
+{{- if or $feedbackEmail $githubRepoURL -}}
+<section class="content-card content-card--feedback" aria-label="Tilbakemelding og kildepeker">
+  <div class="content-card__body">
+    <div class="feedback-cta">
+      <div class="feedback-cta__text">
+        <p class="content-card__eyebrow">Tilbakemelding</p>
+        <h2>Si fra om innhold eller utforming</h2>
+        <p>Bruk e-post for raske kommentarer, forslag til innhold eller innspill til design. GitHub-lenken går direkte til repoet og gjør det lett å se kilden.</p>
+      </div>
+      <div class="feedback-cta__actions">
+        {{- with $feedbackEmail -}}
+        {{- $feedbackSubject := urlquery "Tilbakemelding på NA-kunnskap" -}}
+        {{- $feedbackBody := urlquery "Hei,\r\n\r\nJeg vil gjerne gi tilbakemelding på innhold, utforming eller feil i prototypen." -}}
+        <a class="resource-card__button resource-card__button--primary" href="mailto:{{ . }}?subject={{ $feedbackSubject }}&body={{ $feedbackBody }}">Send e-post</a>
+        {{- end -}}
+        {{- with $githubIssuesURL -}}
+        <a class="resource-card__button resource-card__button--ghost" href="{{ . }}" target="_blank" rel="noreferrer noopener">Gi tilbakemelding på GitHub</a>
+        {{- else if $githubRepoURL -}}
+        <a class="resource-card__button resource-card__button--ghost" href="{{ $githubRepoURL }}" target="_blank" rel="noreferrer noopener">Åpne GitHub-repoet</a>
+        {{- end -}}
+      </div>
+    </div>
+  </div>
+</section>
+{{- end -}}
