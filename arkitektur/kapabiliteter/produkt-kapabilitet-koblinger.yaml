@@ -4828,10 +4828,10 @@
         {
             "product_id": 144,
             "product_name": "eForvaltningsforskriften",
-            "version": 1,
-            "author": "claude",
-            "relative_path": "arkitektur/ressurser/rammer-og-virkemidler/144-eForvaltningsforskriften-v1-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/144-eForvaltningsforskriften-v1-claude.md",
+            "version": 2,
+            "author": "copilot",
+            "relative_path": "arkitektur/ressurser/rammer-og-virkemidler/144-eForvaltningsforskriften-v2-copilot.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/144-eForvaltningsforskriften-v2-copilot.md",
             "capabilities": [
                 {
                     "capability_id": "id-299fc063873a4f278a1d3c0ac9480467",

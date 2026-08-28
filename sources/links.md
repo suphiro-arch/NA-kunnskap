@@ -538,6 +538,10 @@ Sist redigert: 2026-06-17.
 ### Juridisk og rettslig infrastruktur
 - Forvaltningsloven (LOV-1967-02-10), oppheves av lov 20. juni 2025 nr. 81: https://lovdata.no/dokument/NL/lov/1967-02-10 (lagt til 2026-08-28)
 - eForvaltningsforskriften (FOR-2004-06-25-988): https://lovdata.no/dokument/SF/forskrift/2004-06-25-988 (lagt til 2026-08-28)
+- Lov om saksbehandlingen i offentlig forvaltning (LOV-2025-06-20-81): https://lovdata.no/dokument/NL/lov/2025-06-20-81 (lagt til 2026-08-28)
+- Lov om dokumentasjon og arkiv (arkivlova) (LOV-2025-06-20-96): https://lovdata.no/dokument/NL/lov/2025-06-20-96 (lagt til 2026-08-28)
+- Ny arkivlov trer i kraft 1. januar 2026: https://www.regjeringen.no/no/aktuelt/ny-arkivlov-trer-i-kraft-1.-januar-2026/id3110253/ (lagt til 2026-08-28)
+- Lov om dokumentasjon og arkiv (arkivlova), Nasjonalarkivet: https://www.nasjonalarkivet.no/offentlig-forvaltning/regelverk-og-standarder/lover-og-forskrifter/lov-om-dokumentasjon-og-arkiv-arkivlova/ (lagt til 2026-08-28)
 - Forskrift om IT-standarder i offentlig forvaltning (FOR-2013-04-05-959): https://lovdata.no/dokument/SF/forskrift/2013-04-05-959 (lagt til 2026-08-28)
 - Forskrift om IT-standarder i offentlig forvaltning, kort URL-form: https://lovdata.no/forskrift/2013-04-05-959 (lagt til 2026-08-28)
 - Norsk pasientregister, forskrift (FOR-2007-12-07-1389): https://lovdata.no/forskrift/2007-12-07-1389 (lagt til 2026-08-28)
