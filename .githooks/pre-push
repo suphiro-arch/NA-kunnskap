@@ -13,3 +13,4 @@ fi
 
 python tools/check-resource-version-sync.py
 python tools/check-resource-structure.py --strict
+python tools/check-inline-js.py --strict

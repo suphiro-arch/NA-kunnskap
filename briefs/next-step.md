@@ -9,6 +9,17 @@ topic: neste-steg
 
 ## Siste oppdateringer
 
+### Tillegg 2026-08-28 (byggefeil i mal-JS, ny syntakskontroll)
+
+- Hugo-byggingen feilet på alle sider etter commit `d0b5670`. Escape-sekvensene i e-postteksten i [baseof.html](../web/hugo-prototype/layouts/_default/baseof.html) ble til faktiske linjeskift da fila ble skrevet, slik at strengliteralen var uterminert. Skriptet ligger i den delte malen, derfor slo én feil ut på hver eneste side.
+- Rettet i `0ac3f52` ved å skrive teksten ferdig prosentkodet i stedet. Malfila trenger da ingen escape-sekvenser i det hele tatt, og feilklassen kan ikke oppstå på nytt samme sted.
+- Opprettet [check-inline-js.py](../tools/check-inline-js.py). Kontrollen henter ut hver `<script>`-blokk i `layouts/` og `content/` og lar `node --check` parse den. Ingenting kjøres, bare syntaksen valideres.
+- Verifisert mot den faktiske byggefeilen: kontrollen kjørt mot `baseof.html` fra `d0b5670` gir `SyntaxError: Invalid or unexpected token` og feilkode 1. Gjeldende versjon er grønn med 10 blokker kontrollert.
+- Blokker med Hugo-syntaks kan ikke parses som ren JavaScript og hoppes over. Antallet rapporteres eksplisitt, slik at det ikke ser ut som full dekning når noe er utelatt. I dag hoppes ingen blokker over.
+- Koblet inn i begge git-hooks og begge CI-arbeidsflyter, rett før byggesteget.
+- Lærdom notert i [AGENTS.md](../AGENTS.md): unngå escape-sekvenser i innebygd JavaScript når teksten kan skrives ferdig prosentkodet. De overlever dårlig gjennom verktøy som skriver malfilene.
+- Verdt å merke: alle åtte kontrollene før byggesteget var grønne da feilen ble pusht. Tegnkoding, versjonssynk, strukturkontroll, kildelenker og frontmatter ser ingen av dem på om JavaScript i malene er gyldig.
+
 ### Tillegg 2026-08-28 (plassering av kontaktlenker, emnefilter, søkefelt)
 
 - Kontakt- og kildelenkene er flyttet ut av toppheaderen og inn dit de hører hjemme faglig: på forsiden rett under setningen om at vi ønsker tilbakemeldinger, og øverst til høyre i overskriftsboksen på seksjons- og detaljsider. Ny partial [feedback-links.html](../web/hugo-prototype/layouts/partials/feedback-links.html) brukes begge steder, slik at markupen finnes ett sted.

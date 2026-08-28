@@ -53,3 +53,7 @@ jobs:
       - name: Validate resource structure
         run: |
           python tools/check-resource-structure.py --strict
+
+      - name: Validate inline JavaScript
+        run: |
+          python tools/check-inline-js.py --strict

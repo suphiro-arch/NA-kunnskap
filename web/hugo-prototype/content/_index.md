@@ -47,7 +47,7 @@ Verktøy som brukes i dag:
 
 - PowerShell-script for generering av ressurssider.
 - Python-script for sammenstilling av kapabilitetssider og koblinger.
-- Kontrollskript som stopper publisering ved tegnkodingsfeil, versjonsavvik mellom register og kapabilitetsmapping, ressursbeskrivelser som mangler seksjoner malen krever, og kildelenker som ikke er registrert.
+- Kontrollskript som stopper publisering ved tegnkodingsfeil, versjonsavvik mellom register og kapabilitetsmapping, ressursbeskrivelser som mangler seksjoner malen krever, syntaksfeil i innebygd JavaScript, og kildelenker som ikke er registrert.
 - Hugo for bygging og visning av nettstedet.
 
 Vil du se hvordan dette henger sammen, ligger både kildefilene og skriptene åpent i [repoet](https://github.com/suphiro-arch/NA-kunnskap).

@@ -50,6 +50,10 @@ jobs:
         run: |
           python tools/check-resource-structure.py --strict
 
+      - name: Validate inline JavaScript
+        run: |
+          python tools/check-inline-js.py --strict
+
       - name: Regenerate capability pages
         run: |
           python web/hugo-prototype/scripts/generate-capabilities.py

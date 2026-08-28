@@ -42,6 +42,9 @@ python tools/check-resource-version-sync.py
 # strukturkontroll av ressursbeskrivelser mot malen
 python tools/check-resource-structure.py --strict
 
+# syntakskontroll av innebygd JavaScript i Hugo-maler (krever node)
+python tools/check-inline-js.py --strict
+
 # encoding-validering før Hugo-build
 python web/hugo-prototype/scripts/validate-text-encoding.py
 ```

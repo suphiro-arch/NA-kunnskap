@@ -64,6 +64,8 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Avsluttende brødtekst i seksjonen `Kapabiliteter` skal stå før kulelista, ikke etter. `tools/sync-resource-metadata.py` trekker all tekst etter siste kulepunkt inn i forklaringen for den siste kapabiliteten i `produkt-kapabilitet-koblinger.yaml`.
 - Seksjonsstrukturen i malen skal beholdes i sin helhet, også i tidlige versjoner. Et felt som ennå ikke kan fylles ut, skal stå igjen med en kort merknad om det, ikke fjernes.
 - Kjør `python tools/check-resource-structure.py --strict` før commit av ressursarbeid. Kontrollen sammenligner seksjonene i ressursfila med malen for kategorien, og stopper filer som mangler kjernestruktur. Bruk `--new-only` for å begrense til filer som er endret i kjøringen, og `--advarsler` for å se ufullstendige maler og overskrifter som avviker fra malen.
+- Kjør `python tools/check-inline-js.py --strict` etter endringer i Hugo-maler eller genererende skript. Kontrollen syntakssjekker innebygd JavaScript med Node. En ødelagt skriptblokk i en delt mal stopper hele Hugo-byggingen, og ingen av de øvrige kontrollene fanger det.
+- Unngå escape-sekvenser i innebygd JavaScript når teksten kan skrives ferdig prosentkodet i stedet. Escape-sekvenser overlever dårlig gjennom verktøy som skriver malfilene.
 - Hvis en ressursfil mister innhold ved et uhell under redigering, skal det tapte hentes tilbake fra Git med `git show <commit>:<sti>`, ikke skrives på nytt fra hukommelsen. En omskrevet seksjon er ikke den samme kildeforankrede teksten som ble gjennomgått og godkjent.
 
 ## Kilder og analyse

@@ -186,6 +186,7 @@ For minst mulig manuell jobb:
 - bruk `web/hugo-prototype/scripts/validate-text-encoding.py` for å stoppe mistenkelige tegnkodingsfeil og BOM i validerte tekstfiler
 - bruk `tools/check-resource-version-sync.py` for å stoppe utdaterte register- og kapabilitetslenker til eldre ressursversjoner
 - bruk `tools/check-resource-structure.py` for å stoppe ressursbeskrivelser som mangler seksjoner malen krever, for eksempel etter en utilsiktet sletting under redigering
+- bruk `tools/check-inline-js.py` for å stoppe syntaksfeil i innebygd JavaScript før de brekker Hugo-byggingen
 - bruk `tools/sync-resource-metadata.py --apply` for å oppdatere mapping-metadata og opprette manglende mappingoppføringer som førsteutkast
 - bruk `tools/safe_bulk_text_repair.py` ved større oppryddinger i språk/encoding
 - aktiver lokal pre-commit guard én gang per klone:
@@ -195,6 +196,7 @@ For minst mulig manuell jobb:
   `powershell -ExecutionPolicy Bypass -File tools/check-mojibake.ps1 -Root .`
   `python tools/check-resource-version-sync.py`
   `python tools/check-resource-structure.py`
+  `python tools/check-inline-js.py`
   `python tools/sync-resource-metadata.py --apply`
 
 Anbefalt bruk av sikker reparasjon:
