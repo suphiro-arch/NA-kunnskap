@@ -6,8 +6,6 @@ description: "Inngang til dokumentasjonen for nasjonal arkitektur, prinsipper, k
 
 # Om denne dokumentasjonen
 
-{{< feedback-cta >}}
-
 Denne prototypen samler arbeidsgrunnlag for nasjonal arkitektur i én lesbar dokumentasjonsflate. Målet er å gjøre det enklere å se sammenhengen mellom kapabiliteter, prinsipper og felles ressurser som støtter samhandling på tvers av virksomheter.
 
 ## Hva finner du her?

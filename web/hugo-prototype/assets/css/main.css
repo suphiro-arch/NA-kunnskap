@@ -135,6 +135,39 @@ a:hover {
   font-weight: 700;
 }
 
+/* Verktoeylenker: kontakt og kildekode. Holdt visuelt adskilt fra
+   hovednavigasjonen, som bare skal peke til seksjoner i dokumentasjonen. */
+.site-header__end {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.35rem;
+}
+
+.site-header__utility {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.25rem 0.9rem;
+  font-size: 0.9rem;
+}
+
+.site-header__utility-link {
+  padding: 0.15rem 0;
+  border: 0;
+  background: none;
+  color: var(--ink-muted);
+  font: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+  cursor: pointer;
+}
+
+.site-header__utility-link:hover {
+  color: var(--brand-deep);
+}
+
 .site-shell {
   max-width: 94rem;
   margin: 1.2rem auto 2.2rem;
@@ -1174,17 +1207,6 @@ a:hover {
 
 .home-feedback__button:hover {
   background: #e2efe5;
-}
-
-/* Repo-lenken skal se ut som knappen ved siden av, men er en vanlig lenke. */
-.home-feedback__button--link {
-  display: inline-block;
-  text-decoration: none;
-}
-
-.home-feedback__button--link:hover {
-  background: #e2efe5;
-  text-decoration: none;
 }
 
 .home-feedback__address {

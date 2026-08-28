@@ -1,6 +1,36 @@
 # eForvaltningsforskriften
 
-ne
+## Navn
+Forskrift om elektronisk kommunikasjon med og i forvaltningen (eForvaltningsforskriften)
+
+## Ressurs ID
+DIGDIR-066
+
+## Ressurskategori
+Økonomiske og juridiske rammer og virkemidler
+
+## Type virkemiddel
+Forskrift
+
+## Status/Livsfase
+Aktiv, men med varslet endring i hjemmelsgrunnlaget. Forskriften trådte i kraft 1. juli 2004 og er fortsatt i kraft. Siste endring er FOR-2022-12-20-2304 av 20. desember 2022. Hjemmelsgrunnlaget ble utvidet med arkivlova § 24, tilføyd ved lov 2025-06-20-96.
+
+Forvaltningsloven av 10. februar 1967, som forskriften er hjemlet i gjennom § 15a, blir opphevet av lov 20. juni 2025 nr. 81 om saksbehandlingen i offentlig forvaltning. Ikrafttredelsen fastsettes av Kongen og er ikke bestemt. Forvaltningsloven av 1967 ble sist endret ved LOV-2025-04-25-12, med virkning fra 1. januar 2026.
+
+## Kort beskrivelse
+eForvaltningsforskriften (FOR-2004-06-25-988) regulerer elektronisk kommunikasjon med forvaltningen og elektronisk saksbehandling og kommunikasjon i forvaltningen. Forskriften er det juridiske grunnlaget for at forvaltningsorganer kan kommunisere digitalt med innbyggere og virksomheter, og den setter krav til hvordan dette skal skje.
+
+Forskriften forvaltes av Digitaliserings- og forvaltningsdepartementet og er gitt med hjemmel i forvaltningsloven § 15a, lov om elektronisk signatur § 5, arkivloven § 12, lov om elektroniske tillitstjenester § 10 og arkivlova § 24.
+
+## Formål og virkemiddelrolle
+Forskriften skal gjøre digital kommunikasjon til hovedregelen i forvaltningen, og samtidig sikre at kommunikasjonen skjer på en måte som ivaretar informasjonssikkerhet, sporbarhet og den enkeltes rettigheter.
+
+Hovedrollen er juridisk. Forskriften fastsetter plikter og rammer, ikke finansiering eller anbefalt praksis.
+
+## Forpliktelsesnivå og etterlevelse
+Forskriften er juridisk bindende. Den gjelder for forvaltningsorganer og regulerer deres elektroniske kommunikasjon og saksbehandling, med mindre annet er bestemt i lov eller i medhold av lov.
+
+Åpne kilder på Lovdata gjengir forskriftsteksten, men beskriver ikke en egen tilsyns- eller sanksjonsordning knyttet til forskriften.
 
 ## Kapabiliteter
 - **Juridisk samhandling: Regelverkstolkning**

@@ -21,12 +21,27 @@
           </div>
         </div>
 
-        <nav class="site-header__nav" aria-label="Hovednavigasjon">
-          <a class="{{ if .IsHome }}is-current{{ end }}" href="{{ "" | relURL }}">Forside</a>
-          {{ range .Site.Sections.ByWeight }}
-          <a class="{{ if or (eq .RelPermalink $.RelPermalink) (.IsAncestor $) }}is-current{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <div class="site-header__end">
+          <nav class="site-header__nav" aria-label="Hovednavigasjon">
+            <a class="{{ if .IsHome }}is-current{{ end }}" href="{{ "" | relURL }}">Forside</a>
+            {{ range .Site.Sections.ByWeight }}
+            <a class="{{ if or (eq .RelPermalink $.RelPermalink) (.IsAncestor $) }}is-current{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a>
+            {{ end }}
+          </nav>
+
+          {{ if or .Site.Params.feedbackEmail .Site.Params.githubRepoURL }}
+          <p class="site-header__utility">
+            {{ with .Site.Params.feedbackEmail }}
+            {{ $user := index (split . "@") 0 }}
+            {{ $domain := index (split . "@") 1 }}
+            <button class="site-header__utility-link js-contact-link" type="button" data-mail-user="{{ $user }}" data-mail-domain="{{ $domain }}">Kontakt oss</button>
+            {{ end }}
+            {{ with .Site.Params.githubRepoURL }}
+            <a class="site-header__utility-link" href="{{ . }}" target="_blank" rel="noreferrer noopener">Se kildekoden på GitHub</a>
+            {{ end }}
+          </p>
           {{ end }}
-        </nav>
+        </div>
       </div>
     </header>
 
@@ -99,8 +114,26 @@
 
       <main class="site-main" id="main-content">
         {{ block "main" . }}{{ end }}
-        {{ partial "feedback-cta.html" . }}
       </main>
     </div>
+
+    <script>
+    // E-postadressen settes sammen i nettleseren slik at den ikke ligger som
+    // mailto-lenke i kildekoden og hoestes av crawlere.
+    (function () {
+      document.querySelectorAll(".js-contact-link").forEach(function (button) {
+        var user = button.getAttribute("data-mail-user") || "";
+        var domain = button.getAttribute("data-mail-domain") || "";
+        if (!user || !domain) {
+          return;
+        }
+        button.addEventListener("click", function () {
+          var subject = encodeURIComponent("Tilbakemelding på NA-kunnskap");
+          var body = encodeURIComponent("Hei,\r\n\r\nJeg har tilbakemelding på innholdet:\r\n");
+          window.location.href = "mailto:" + user + "@" + domain + "?subject=" + subject + "&body=" + body;
+        });
+      });
+    })();
+    </script>
   </body>
 </html>

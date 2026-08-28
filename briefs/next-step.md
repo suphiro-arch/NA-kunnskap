@@ -9,6 +9,19 @@ topic: neste-steg
 
 ## Siste oppdateringer
 
+### Tillegg 2026-08-28 (kontakt- og kildelenker i header, gjenoppretting av skadet ressursfil)
+
+- Flyttet tilbakemeldings- og kildelenkene til headeren som verktøylenker: `Kontakt oss` og `Se kildekoden på GitHub` ligger nå under hovedmenyen, synlig på alle sider. Begrunnelse for plassering: hovedmenyen skal være ren innholdsnavigasjon mellom seksjoner, og venstremenyen er kontekstuell navigasjon nedover i innholdstreet. Verktøylenker hører hjemme i headeren, der de er synlige uten å konkurrere med navigasjonen.
+- Fjernet de tre tidligere plasseringene: knappen i helten på forsiden med tilhørende skript i `list.html`, shortcoden `{{< feedback-cta >}}` i `content/_index.md`, og det ubetingede partial-kallet i `baseof.html`. Sistnevnte ga tilbakemeldingskortet på alle sider, i tillegg til shortcoden på forsiden.
+- E-postadressen settes fortsatt sammen i nettleseren framfor å ligge som `mailto:` i kildekoden, men leses nå fra `feedbackEmail` i `hugo.toml` i stedet for å være hardkodet i malen.
+- La inn lenke til repoet i brødteksten under `Hvordan ressursoversikten bygges`, og tok med kontrollskriptene i verktøylista der.
+- `feedback-cta.html` i `layouts/partials/` og `layouts/shortcodes/`, samt CSS-reglene `.feedback-cta*` og `.home-feedback*`, er nå ubrukt. Ikke fjernet.
+
+Gjenoppretting etter utilsiktet sletting:
+- [144-eForvaltningsforskriften-v1-claude.md](../arkitektur/ressurser/rammer-og-virkemidler/144-eForvaltningsforskriften-v1-claude.md) mistet åtte seksjoner i arbeidskopien, blant annet `Navn`, `Ressurs ID`, `Status/Livsfase` og `Kort beskrivelse`, erstattet av tegnene `ne`. Den skadede versjonen rakk å bli committet og pushet i `befadcd`. Fila er gjenopprettet fra `ba13e93` og kontrollert mot malen: alle 26 seksjoner er tilbake.
+- Følgeskade i webgrunnlaget: ressurskortet for `DIGDIR-066` fikk tittelen `eForvaltningsforskriften` og teksten `Kort beskrivelse er ikke oppgitt`, fordi generatoren ble kjørt mens fila var ødelagt. Rettet ved å kjøre `generate-products.ps1` på nytt etter gjenopprettingen.
+- Ingen av kontrollskriptene fanget dette. Encoding-, versjons- og lenkekontrollene ser ikke at en ressursfil mangler obligatoriske seksjoner. En strukturkontroll mot malene ville fanget det, og bør vurderes.
+
 ### Tillegg 2026-08-28 (restpunkter fra batch 1 og 2 lukket)
 
 - Opprettet `DTIL-001` Regulatorisk sandkasse for kunstig intelligens som løpenr 147 i [147-Regulatorisk-sandkasse-for-kunstig-intelligens-v1-claude.md](../arkitektur/ressurser/normerende-ressurser/147-Regulatorisk-sandkasse-for-kunstig-intelligens-v1-claude.md), etter at eierkoden `DTIL` var på plass. Klassifisert som `standarder og veiledning` framfor samhandlingsarena: sandkassen er en veiledningstjeneste som publiserer sluttrapporter, ikke en arena for koordinering mellom aktører. Nye søk mot Datatilsynets egne sider ga tilstrekkelig grunnlag for `v1`, i motsetning til første forsøk der treffene i hovedsak gjaldt den danske sandkassen.
