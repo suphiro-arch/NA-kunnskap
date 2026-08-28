@@ -669,6 +669,14 @@ Plan for gjennomføring:
 - Oppdatert status 2026-06-17: `HDIR-001`, `FHI-005` og `FHI-006` er nå løftet til `v2`; neste naturlige kandidater er `DIGDIR-039`, `DIGDIR-040` og deretter `HELFO-001` KUHR eller en egen avklaring av eier-/forvaltningslinjen for `HDIR-001`.
 - Følge opp `DIGDIR-039`, `DIGDIR-040` og `DIGDIR-041` med vanlig kvalitetsrevisjon hvis de viser svak kildeforankring, for tynn kapabilitetskobling eller ujevn beslutningsstøtte.
 
+### Arbeidsform og kvalitetsporter (nytt 2026-08-28)
+
+- Avklare hvordan to assistentkjøringer skal jobbe i samme arbeidsmappe. To hendelser samme dag: en kjøring committet en annen kjørings staged endringer under sin egen commit-melding, og to kjøringer gjorde motsatte endringer på de samme webfilene samtidig. Begge er arbeidsformproblemer, ikke verktøyproblemer. Enkleste tiltak er å kjøre én av gangen; alternativet er separate git worktrees per kjøring. Bør avgjøres før neste parallelle økt.
+- Ta stilling til de 72 strukturadvarslene fra [check-resource-structure.py](../tools/check-resource-structure.py). Hovedtyngden er `v0`-filer som mangler `Navn`, `Forpliktelsesnivå og etterlevelse`, `Typiske analyse- og beslutningssituasjoner` og `Konsekvens ved manglende bruk eller avvik`. Enten fylles de ut, eller så aksepteres gapet bevisst. Når gjelden er nede, kan kjernefeltene i kontrollen strammes inn mot full malstruktur.
+- Installere `hugo` lokalt. Ingen kjøring i dette miljøet har kunnet bygge eller se prototypen før push. Byggefeilen 2026-08-28 ble derfor først oppdaget i CI, etter at feilen var publisert til `main`.
+- Bekrefte at alle som jobber i repoet har kjørt `tools/setup-git-hooks.ps1`. De nye kontrollene i `pre-commit` og `pre-push` virker bare for kloner der `core.hooksPath` faktisk peker på `.githooks`. CI fanger det uansett, men da først etter push.
+- Vurdere konsolidering av emnevokabularet i [produktnummerering.md](../arkitektur/ressurser/produktnummerering.md). 122 ressurser fordeler seg på 111 emneverdier, og over 90 er unike for én ressurs. Emnefilteret ble derfor tatt ut igjen. Blir vokabularet gruppert til et titalls emner, kan filterboksen settes rett inn: `data-emne` ligger allerede på hvert kort.
+
 ### Produktregister og avgrensning
 
 - Legge inn kontroll for foreldede kapabilitetsnavn og slugger i generert webinnhold, slik at gamle sider som `meldingsformidling` ikke blir liggende etter modellendringer.
@@ -691,7 +699,8 @@ Plan for gjennomføring:
 
 - Eldre ressursbeskrivelser kan fortsatt gi ujevn retrieval-kvalitet og må forbedres gradvis.
 - Produktbeskrivelsene mangler fortsatt helt tydelig skille mellom arbeidsgrunnlag og godkjent innhold flere steder.
-- Lokal Hugo-build er ikke verifisert i dette miljøet fordi `hugo` ikke er installert.
+- Lokal Hugo-build er ikke verifisert i dette miljøet fordi `hugo` ikke er installert. Konsekvensen ble konkret 2026-08-28: en syntaksfeil i mal-JavaScript passerte alle lokale kontroller og stoppet først i CI. [check-inline-js.py](../tools/check-inline-js.py) dekker nå den feilklassen, men ikke bygging generelt.
+- Flere assistentkjøringer i samme arbeidsmappe har vist seg å kunne committe hverandres staged endringer og overskrive hverandres arbeid på samme filer.
 
 ## Åpent vurderingsspor for KI-bruk av repoet
 
