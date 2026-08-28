@@ -39,6 +39,9 @@ pwsh tools/check-mojibake.ps1
 python tools/sync-resource-metadata.py --apply
 python tools/check-resource-version-sync.py
 
+# strukturkontroll av ressursbeskrivelser mot malen
+python tools/check-resource-structure.py --strict
+
 # encoding-validering før Hugo-build
 python web/hugo-prototype/scripts/validate-text-encoding.py
 ```

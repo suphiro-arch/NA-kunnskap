@@ -46,6 +46,10 @@ jobs:
         run: |
           python tools/check-resource-version-sync.py
 
+      - name: Validate resource structure
+        run: |
+          python tools/check-resource-structure.py --strict
+
       - name: Regenerate capability pages
         run: |
           python web/hugo-prototype/scripts/generate-capabilities.py

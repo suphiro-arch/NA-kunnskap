@@ -1,0 +1,10 @@
+{{- /* Kontakt- og kildelenker. Kalles med sidekonteksten som argument.
+     E-postadressen settes sammen i nettleseren, derfor knapp og ikke mailto-lenke. */ -}}
+{{- with .Site.Params.feedbackEmail -}}
+{{- $user := index (split . "@") 0 -}}
+{{- $domain := index (split . "@") 1 -}}
+<button class="feedback-link js-contact-link" type="button" data-mail-user="{{ $user }}" data-mail-domain="{{ $domain }}">Kontakt oss</button>
+{{- end -}}
+{{- with .Site.Params.githubRepoURL -}}
+<a class="feedback-link" href="{{ . }}" target="_blank" rel="noreferrer noopener">Se kildekoden på GitHub</a>
+{{- end -}}

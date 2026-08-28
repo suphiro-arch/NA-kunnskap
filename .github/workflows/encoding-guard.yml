@@ -49,3 +49,7 @@ jobs:
       - name: Validate resource version references
         run: |
           python tools/check-resource-version-sync.py
+
+      - name: Validate resource structure
+        run: |
+          python tools/check-resource-structure.py --strict

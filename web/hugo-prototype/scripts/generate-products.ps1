@@ -491,6 +491,7 @@ function New-ResourceListingBlock {
   $ownerSet = New-Object System.Collections.Generic.HashSet[string]
   $typeSet = New-Object System.Collections.Generic.HashSet[string]
   $capabilitySet = New-Object System.Collections.Generic.HashSet[string]
+  $topicSet = New-Object System.Collections.Generic.HashSet[string]
 
   foreach ($p in $Entries) {
     $raw = Get-Content -Path $p.FullPath -Encoding utf8
@@ -505,6 +506,9 @@ function New-ResourceListingBlock {
 
     [void]$ownerSet.Add($owner)
     [void]$typeSet.Add($p.ResourceType)
+    $topic = ''
+    if ($p.Category) { $topic = ([string]$p.Category).Trim() }
+    if ($topic) { [void]$topicSet.Add($topic) }
     foreach ($capability in $capabilityItems) {
       if ($capability.Label) {
         [void]$capabilitySet.Add($capability.Label)
@@ -514,12 +518,13 @@ function New-ResourceListingBlock {
     $blobUrl = ('{0}/{1}' -f $repoBlobBase, $p.RelativePath)
     $capabilityHtml = Render-CapabilityChips -Items $capabilityItems -MaxVisible 3
     $capabilitySearch = ($capabilityItems | ForEach-Object { $_.Label }) -join ' '
-    $searchable = ($displayName + ' ' + $p.ResourceId + ' ' + $owner + ' ' + $ownerDisplay + ' ' + $p.ResourceTypeTitle + ' ' + $p.ResourceType + ' ' + $shortDescription + ' ' + $capabilitySearch).ToLowerInvariant()
+    $searchable = ($displayName + ' ' + $p.ResourceId + ' ' + $owner + ' ' + $ownerDisplay + ' ' + $p.ResourceTypeTitle + ' ' + $p.ResourceType + ' ' + $shortDescription + ' ' + $capabilitySearch + ' ' + $topic).ToLowerInvariant()
 
     $cardLines.Add('<article class="resource-card" ' +
       ('data-owner="{0}" ' -f (Html-Encode $owner)) +
       ('data-type="{0}" ' -f (Html-Encode $p.ResourceType)) +
       ('data-capabilities="{0}" ' -f (Html-Encode ($capabilitySearch.ToLowerInvariant()))) +
+      ('data-emne="{0}" ' -f (Html-Encode $topic)) +
       ('data-search="{0}">' -f (Html-Encode $searchable)))
     $cardLines.Add(('  <h2 class="resource-card__title">{0}</h2>' -f (Html-Encode $displayName)))
     $cardLines.Add(('  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>{0}</code> | <strong>Siste versjon:</strong> {1}</p>' -f (Html-Encode $p.ResourceId), (Html-Encode $p.VersionLabel)))
@@ -541,6 +546,7 @@ function New-ResourceListingBlock {
   $ownerOptions = @($ownerSet | Sort-Object)
   $typeOptions = @($typeSet | Sort-Object)
   $capabilityOptions = @($capabilitySet | Sort-Object)
+  $topicOptions = @($topicSet | Sort-Object)
 
   $lines = New-Object System.Collections.Generic.List[string]
   $lines.Add(('<div class="resource-listing" data-section="{0}">' -f (Slugify-Value $SectionSlug)))
@@ -562,6 +568,13 @@ function New-ResourceListingBlock {
     $lines.Add(('        <option value="{0}">{1}</option>' -f (Html-Encode $option), (Html-Encode $option)))
   }
   $lines.Add('      </select></label>')
+  if ($topicOptions.Count -gt 0) {
+    $lines.Add('      <label>Emne <select class="resource-filter" data-filter="emne"><option value="">Alle</option>')
+    foreach ($option in $topicOptions) {
+      $lines.Add(('        <option value="{0}">{1}</option>' -f (Html-Encode $option), (Html-Encode $option)))
+    }
+    $lines.Add('      </select></label>')
+  }
   $lines.Add('    </div>')
   $lines.Add(('    <p class="resource-filters__result" data-role="count">Viser {0} av {0} ressurser</p>' -f $Entries.Count))
   $lines.Add('  </div>')
@@ -578,12 +591,14 @@ function New-ResourceListingBlock {
   $lines.Add('      var owner = root.querySelector("[data-filter=owner]");')
   $lines.Add('      var type = root.querySelector("[data-filter=type]");')
   $lines.Add('      var capability = root.querySelector("[data-filter=capability]");')
+  $lines.Add('      var emne = root.querySelector("[data-filter=emne]");')
   $lines.Add('      function norm(v){ return (v || "").toLowerCase(); }')
   $lines.Add('      function apply(){')
   $lines.Add('        var q = norm(search && search.value);')
   $lines.Add('        var o = norm(owner && owner.value);')
   $lines.Add('        var t = norm(type && type.value);')
   $lines.Add('        var c = norm(capability && capability.value);')
+  $lines.Add('        var e = norm(emne && emne.value);')
   $lines.Add('        var visible = 0;')
   $lines.Add('        cards.forEach(function(card){')
   $lines.Add('          var ok = true;')
@@ -591,12 +606,13 @@ function New-ResourceListingBlock {
   $lines.Add('          if (o && norm(card.dataset.owner) !== o) ok = false;')
   $lines.Add('          if (t && norm(card.dataset.type) !== t) ok = false;')
   $lines.Add('          if (c && norm(card.dataset.capabilities).indexOf(c) === -1) ok = false;')
+  $lines.Add('          if (e && norm(card.dataset.emne) !== e) ok = false;')
   $lines.Add('          card.style.display = ok ? "block" : "none";')
   $lines.Add('          if (ok) visible += 1;')
   $lines.Add('        });')
   $lines.Add('        if (count) { count.textContent = "Viser " + visible + " av " + cards.length + " ressurser"; }')
   $lines.Add('      }')
-  $lines.Add('      [search, owner, type, capability].forEach(function(el){ if (el) { el.addEventListener("input", apply); el.addEventListener("change", apply); } });')
+  $lines.Add('      [search, owner, type, capability, emne].forEach(function(el){ if (el) { el.addEventListener("input", apply); el.addEventListener("change", apply); } });')
   $lines.Add('      apply();')
   $lines.Add('    })();')
   $lines.Add('  </script>')

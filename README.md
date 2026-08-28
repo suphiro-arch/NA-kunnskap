@@ -39,8 +39,9 @@ Repo for arbeid med nasjonal arkitektur, produktbeskrivelser, kapabiliteter, pri
 2. Bruk `arkitektur/ressurser/styringsregler.md` til å avgjøre rammeverkskategori, last deretter riktig systempromt og lag eller oppdater ressursbeskrivelsen.
 3. Oppdater `arkitektur/ressurser/produktnummerering.md` med ny versjonspeker.
 4. Kjør `python tools/sync-resource-metadata.py --apply` og `python tools/check-resource-version-sync.py` for å verifisere register og kapabilitetsmapping.
-5. Kjør `powershell -ExecutionPolicy Bypass -File tools/check-mojibake.ps1 -Root .` og `python web/hugo-prototype/scripts/validate-text-encoding.py` når tekstfiler er endret.
-6. Logg status i `briefs/next-step.md` og varige valg i `briefs/decisions.md`.
+5. Kjør `python tools/check-resource-structure.py --strict` for å verifisere at beskrivelsen har seksjonene malen krever.
+6. Kjør `powershell -ExecutionPolicy Bypass -File tools/check-mojibake.ps1 -Root .` og `python web/hugo-prototype/scripts/validate-text-encoding.py` når tekstfiler er endret.
+7. Logg status i `briefs/next-step.md` og varige valg i `briefs/decisions.md`.
 
 ### Analyser
 1. Bruk ressursbeskrivelser, `capabilities.yaml` og `principles.md` som grunnlag.
@@ -184,6 +185,7 @@ For minst mulig manuell jobb:
 ## Robust tegnsettingsvern
 - bruk `web/hugo-prototype/scripts/validate-text-encoding.py` for å stoppe mistenkelige tegnkodingsfeil og BOM i validerte tekstfiler
 - bruk `tools/check-resource-version-sync.py` for å stoppe utdaterte register- og kapabilitetslenker til eldre ressursversjoner
+- bruk `tools/check-resource-structure.py` for å stoppe ressursbeskrivelser som mangler seksjoner malen krever, for eksempel etter en utilsiktet sletting under redigering
 - bruk `tools/sync-resource-metadata.py --apply` for å oppdatere mapping-metadata og opprette manglende mappingoppføringer som førsteutkast
 - bruk `tools/safe_bulk_text_repair.py` ved større oppryddinger i språk/encoding
 - aktiver lokal pre-commit guard én gang per klone:
@@ -192,6 +194,7 @@ For minst mulig manuell jobb:
 - lokal guard kan kjøres manuelt ved behov:
   `powershell -ExecutionPolicy Bypass -File tools/check-mojibake.ps1 -Root .`
   `python tools/check-resource-version-sync.py`
+  `python tools/check-resource-structure.py`
   `python tools/sync-resource-metadata.py --apply`
 
 Anbefalt bruk av sikker reparasjon:

@@ -9,6 +9,29 @@ topic: neste-steg
 
 ## Siste oppdateringer
 
+### Tillegg 2026-08-28 (plassering av kontaktlenker, emnefilter, søkefelt)
+
+- Kontakt- og kildelenkene er flyttet ut av toppheaderen og inn dit de hører hjemme faglig: på forsiden rett under setningen om at vi ønsker tilbakemeldinger, og øverst til høyre i overskriftsboksen på seksjons- og detaljsider. Ny partial [feedback-links.html](../web/hugo-prototype/layouts/partials/feedback-links.html) brukes begge steder, slik at markupen finnes ett sted.
+- Fjernet CTA-boksene som var lagt inn i forsideinnholdet og i den genererte ressursoversikten. Ressursoversikten er generert, så en håndredigert boks der ville uansett blitt overskrevet ved neste generering.
+- Emnefilteret manglet fordi det aldri har vært generert. `Emne` leses fra registeret inn i feltet `Category` i [generate-products.ps1](../web/hugo-prototype/scripts/generate-products.ps1), men ble ikke skrevet ut som dataattributt eller filterboks. Commit `befadcd` med meldingen «Forbedre emnefilter i ressursoversikt» endret emneverdier i registeret og regenererte oversikten, men la aldri inn et filter.
+- Lagt inn `Emne` som siste filterboks, med `data-emne` på hvert ressurskort og emneverdien med i fritekstsøket.
+- Verdt å merke: 122 ressurser fordeler seg på 111 ulike emneverdier. Over 90 av dem treffer nøyaktig én ressurs. Filteret fungerer derfor som oppslag, ikke som avgrensning. En konsolidering av emnevokabularet til et titalls grupper vil gi vesentlig mer nytte enn filteret gir i dag.
+- Søkefeltet er gitt egen farge, ramme og fokusmarkering slik at det skiller seg fra de fire nedtrekkslistene.
+- Ikke gjort: ingen visuell verifisering. `hugo` er ikke installert i dette miljøet.
+
+### Tillegg 2026-08-28 (strukturkontroll av ressursbeskrivelser, opprydding i død webkode)
+
+- Opprettet [check-resource-structure.py](../tools/check-resource-structure.py). Kontrollen sammenligner seksjonene i hver ressursfil med malen for kategorien og lukker hullet som lot en halv ressursfil bli committet, publisert og generert videre uten at noen kontroll reagerte.
+- Kontrollen skiller mellom feil og advarsel. Feil er manglende h1-tittel, manglende kjernefelt eller tom seksjon, og gir feilkode med `--strict`. Advarsel er malseksjoner som mangler og overskrifter utenfor malen, og stopper ikke arbeidet.
+- Kjernefeltene er utledet mekanisk, ikke skjønnsmessig: for hver kategori er de snittet av overskriftene i samtlige eksisterende ressursfiler. Det gjør at kontrollen er grønn på dagens portefølje samtidig som den slår ut umiddelbart når en fil faller under nivået alt annet ligger på. Settet kan strammes inn når eldre `v0`-filer fylles ut.
+- Verifisert mot den faktiske skaden: den ødelagte versjonen av [144-eForvaltningsforskriften-v1-claude.md](../arkitektur/ressurser/rammer-og-virkemidler/144-eForvaltningsforskriften-v1-claude.md) fra commit `befadcd` gir feilkode 1 med alle åtte tapte seksjoner listet. Gjeldende versjon er grønn.
+- Status på dagens portefølje: 191 ressursfiler grønne på kjernestruktur, 72 advarsler i 60 filer. Advarslene er reell gjeld, hovedsakelig `v0`-filer uten `Navn`, `Forpliktelsesnivå og etterlevelse`, `Typiske analyse- og beslutningssituasjoner` og `Konsekvens ved manglende bruk eller avvik`, samt noen få filer med overskrifter som avviker fra malen.
+- Koblet kontrollen inn i begge git-hookene ([pre-commit](../.githooks/pre-commit) med `--new-only`, [pre-push](../.githooks/pre-push) full), begge CI-arbeidsflytene ([encoding-guard.yml](../.github/workflows/encoding-guard.yml), [publish-hugo-prototype.yml](../.github/workflows/publish-hugo-prototype.yml)) og dokumentasjonen i [AGENTS.md](../AGENTS.md), [CLAUDE.md](../CLAUDE.md) og [README.md](../README.md).
+- Lagt inn to nye regler i [AGENTS.md](../AGENTS.md): malstrukturen skal beholdes i sin helhet også i tidlige versjoner, og tapt innhold skal hentes tilbake med `git show <commit>:<sti>` framfor å skrives på nytt fra hukommelsen.
+- Fjernet død kode etter at tilbakemeldingsboksen ble erstattet av verktøylenker i headeren: `layouts/partials/feedback-cta.html`, `layouts/shortcodes/feedback-cta.html` og reglene `.content-card--feedback`, `.feedback-cta*` og `.home-feedback*` i [main.css](../web/hugo-prototype/assets/css/main.css). Parameteren `feedbackEmail` i `hugo.toml` er beholdt fordi headeren fortsatt bruker den.
+- Mappa `layouts/shortcodes/` er nå tom og fjernet. Ingen innholdsfiler kalte shortcodes.
+- Ikke gjort: den nye headeren er fortsatt ikke visuelt verifisert, fordi `hugo` ikke er installert i dette miljøet.
+
 ### Tillegg 2026-08-28 (kontakt- og kildelenker i header, gjenoppretting av skadet ressursfil)
 
 - Flyttet tilbakemeldings- og kildelenkene til headeren som verktøylenker: `Kontakt oss` og `Se kildekoden på GitHub` ligger nå under hovedmenyen, synlig på alle sider. Begrunnelse for plassering: hovedmenyen skal være ren innholdsnavigasjon mellom seksjoner, og venstremenyen er kontekstuell navigasjon nedover i innholdstreet. Verktøylenker hører hjemme i headeren, der de er synlige uten å konkurrere med navigasjonen.

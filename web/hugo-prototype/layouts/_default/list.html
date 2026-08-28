@@ -23,6 +23,9 @@
       <p class="content-card__eyebrow">Nasjonal arkitektur</p>
       <p class="home-hero__lead">Her vises innholdet fra Nasjonal arkitekturs nye kapabilitetsmodell for digital samhandling i offentlig sektor.</p>
       <p class="home-hero__sublead">Utfyllende ressursbeskrivelser er koblet til kapabilitetene. Vi ønsker tilbakemeldinger på innhold, mangler og nye ønsker.</p>
+      {{ if or .Site.Params.feedbackEmail .Site.Params.githubRepoURL }}
+      <p class="home-hero__feedback">{{ partial "feedback-links.html" . }}</p>
+      {{ end }}
     </div>
     <div class="content-card__body">
       <div class="home-actions">
@@ -67,8 +70,15 @@
     {{ if .IsHome }}
     <p class="content-card__eyebrow">Om innholdet</p>
     {{ else }}
-    <p class="content-card__eyebrow">{{ with .Params.eyebrow }}{{ . }}{{ else }}Seksjon{{ end }}</p>
-    <h1>{{ with .Params.headerTitle }}{{ . }}{{ else }}{{ .Title }}{{ end }}</h1>
+    <div class="content-card__header-row">
+      <div class="content-card__header-main">
+        <p class="content-card__eyebrow">{{ with .Params.eyebrow }}{{ . }}{{ else }}Seksjon{{ end }}</p>
+        <h1>{{ with .Params.headerTitle }}{{ . }}{{ else }}{{ .Title }}{{ end }}</h1>
+      </div>
+      {{ if or .Site.Params.feedbackEmail .Site.Params.githubRepoURL }}
+      <p class="content-card__header-actions">{{ partial "feedback-links.html" . }}</p>
+      {{ end }}
+    </div>
     {{ if and $isCapabilitySection (eq .Params.headerTitle "Nasjonal arkitektur for samhandling") }}
     <p class="content-card__header-note">Rammeverket er beskrevet mer detaljert hos <a href="https://digdir.github.io/nasjonal-arkitektur/">Digdir</a>.</p>
     {{ end }}

@@ -62,6 +62,9 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Deduksjon skal brukes sparsomt og bare når slutningen er nødvendig for å forstå ressursen. Foretrekk å utelate framfor å dedusere, og merk tydelig når deduksjon likevel er nødvendig.
 - Kortere er bedre enn utfylt med usikkert innhold. En kort, kildeforankret beskrivelse er mer verdt enn en fullstendig beskrivelse med svakt underbygde påstander.
 - Avsluttende brødtekst i seksjonen `Kapabiliteter` skal stå før kulelista, ikke etter. `tools/sync-resource-metadata.py` trekker all tekst etter siste kulepunkt inn i forklaringen for den siste kapabiliteten i `produkt-kapabilitet-koblinger.yaml`.
+- Seksjonsstrukturen i malen skal beholdes i sin helhet, også i tidlige versjoner. Et felt som ennå ikke kan fylles ut, skal stå igjen med en kort merknad om det, ikke fjernes.
+- Kjør `python tools/check-resource-structure.py --strict` før commit av ressursarbeid. Kontrollen sammenligner seksjonene i ressursfila med malen for kategorien, og stopper filer som mangler kjernestruktur. Bruk `--new-only` for å begrense til filer som er endret i kjøringen, og `--advarsler` for å se ufullstendige maler og overskrifter som avviker fra malen.
+- Hvis en ressursfil mister innhold ved et uhell under redigering, skal det tapte hentes tilbake fra Git med `git show <commit>:<sti>`, ikke skrives på nytt fra hukommelsen. En omskrevet seksjon er ikke den samme kildeforankrede teksten som ble gjennomgått og godkjent.
 
 ## Kilder og analyse
 - Bruk `sources/links.md` som førstevalg for eksterne kilder.

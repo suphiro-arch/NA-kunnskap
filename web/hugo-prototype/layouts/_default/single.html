@@ -12,10 +12,17 @@
       <span>/</span>
       <span aria-current="page">{{ .Title }}</span>
     </nav>
-    {{ with .CurrentSection }}
-    <p class="content-card__eyebrow">{{ .Title }}</p>
-    {{ end }}
-    <h1>{{ .Title }}</h1>
+    <div class="content-card__header-row">
+      <div class="content-card__header-main">
+        {{ with .CurrentSection }}
+        <p class="content-card__eyebrow">{{ .Title }}</p>
+        {{ end }}
+        <h1>{{ .Title }}</h1>
+      </div>
+      {{ if or .Site.Params.feedbackEmail .Site.Params.githubRepoURL }}
+      <p class="content-card__header-actions">{{ partial "feedback-links.html" . }}</p>
+      {{ end }}
+    </div>
   </header>
 
   <div class="content-card__body">

@@ -12,3 +12,4 @@ else
 fi
 
 python tools/check-resource-version-sync.py
+python tools/check-resource-structure.py --strict
