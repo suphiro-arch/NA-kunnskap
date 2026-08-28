@@ -117,10 +117,9 @@
         }
         button.addEventListener("click", function () {
           var subject = encodeURIComponent("Tilbakemelding på NA-kunnskap");
-          var body = encodeURIComponent("Hei,
-
-Jeg har tilbakemelding på innholdet:
-");
+          // Ferdig prosentkodet, slik at teksten ikke trenger escape-sekvenser
+          // i malfila. %0D%0A er linjeskift.
+          var body = "Hei%2C%0D%0A%0D%0AJeg%20har%20tilbakemelding%20p%C3%A5%20innholdet%3A%0D%0A";
           window.location.href = "mailto:" + user + "@" + domain + "?subject=" + subject + "&body=" + body;
         });
       });
