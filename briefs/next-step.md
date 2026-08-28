@@ -9,6 +9,53 @@ topic: neste-steg
 
 ## Siste oppdateringer
 
+### Tillegg 2026-08-28 (restpunkter fra batch 1 og 2 lukket)
+
+- Opprettet `DTIL-001` Regulatorisk sandkasse for kunstig intelligens som løpenr 147 i [147-Regulatorisk-sandkasse-for-kunstig-intelligens-v1-claude.md](../arkitektur/ressurser/normerende-ressurser/147-Regulatorisk-sandkasse-for-kunstig-intelligens-v1-claude.md), etter at eierkoden `DTIL` var på plass. Klassifisert som `standarder og veiledning` framfor samhandlingsarena: sandkassen er en veiledningstjeneste som publiserer sluttrapporter, ikke en arena for koordinering mellom aktører. Nye søk mot Datatilsynets egne sider ga tilstrekkelig grunnlag for `v1`, i motsetning til første forsøk der treffene i hovedsak gjaldt den danske sandkassen.
+- Registerført `DIGDIR-019` Altinn Portal som løpenr 21 og `KS-010` Fiks kjøretøyregister som løpenr 69. Begge hadde ressursfil, men manglet rad i registeret, og registeret hoppet fra 20 til 22 og fra 68 til 74. Altinn Portal manglet også oppføring i kapabilitetsmappingen, og er lagt inn der med de fem kapabilitetene fra canvaset.
+- Flyttet `FLERE-003` Stimulab fra Digdir-seksjonen til `## Flere virksomheter (FLERE)` der den hører hjemme.
+- Konsoliderte de ti dupliserte lenkene i `sources/links.md` til én oppføring per URL med dekkende etikett. De fleste var samme URL registrert flere ganger fordi ulike ressurser siterte den. Fila har nå null duplikater.
+- Bekreftet at ressursoversikten på web allerede inneholder `DIGDIR-065` til `DIGDIR-067` og `FLERE-004`. Generatoren er kjørt av et annet arbeidsløp etter at ressursene kom inn, så webpunktet fra forrige runde er dekket. `DTIL-001` må med i neste regenerering.
+
+Restpunkt fra denne runden:
+- **Registerendringene er gjort i arbeidskopien, men ikke committet.** `produktnummerering.md` inneholdt samtidig en pågående `Emne`-omskriving fra et annet arbeidsløp, og fila ble derfor holdt utenfor denne commiten for ikke å committe andres uferdige arbeid. Det betyr at `DTIL-001`, `DIGDIR-019`, `KS-010`, eierkoden `DTIL`, regelen for nye eierkoder og flyttingen av `FLERE-003` ligger usporet inntil registerfila committes. Kapabilitetsmappingen og ressursfilene peker allerede til dem.
+- `check-resource-version-sync.py` går grønt også uten disse registerradene. Kontrollen sammenligner register mot mapping og web, men fanger ikke mapping-oppføringer som mangler rad i registeret. Dette er samme blindsone som gjorde at løpenr 21 og 69 kunne mangle uoppdaget, og bør utvides.
+- `sources/links.md` bør regenereres eller kontrolleres på nytt etter at `Emne`-omskrivingen i registeret er ferdig, siden etikettene på de 99 tilførte lenkene er hentet fra registerets navnekolonne.
+
+### Tillegg 2026-08-28 (batch 2: rammer og kunnskapsgrunnlag)
+
+Tre nye ressurser opprettet, én kandidat stoppet:
+
+- `DIGDIR-066` eForvaltningsforskriften som løpenr 144 i [144-eForvaltningsforskriften-v1-claude.md](../arkitektur/ressurser/rammer-og-virkemidler/144-eForvaltningsforskriften-v1-claude.md). FOR-2004-06-25-988, i kraft siden 2004, forvaltet av Digitaliserings- og forvaltningsdepartementet. Kapittel 7 er det rettslige grunnlaget for Kontakt- og reservasjonsregisteret (`DIGDIR-005`).
+- `DIGDIR-067` Tilskudd til etablering av kommunale opplæringstilbud i digital kompetanse til innbyggerne som løpenr 145 i [145-Tilskudd-til-kommunale-opplaeringstilbud-i-digital-kompetanse-v1-claude.md](../arkitektur/ressurser/rammer-og-virkemidler/145-Tilskudd-til-kommunale-opplaeringstilbud-i-digital-kompetanse-v1-claude.md). Dette avklarer den åpne vurderingen om `Tilskudd til digital inkludering`: det er én navngitt ordning forvaltet av Digdir, ikke flere beslektede virkemidler.
+- `FLERE-004` Nasjonal indeks for digital inkludering som løpenr 146 i [146-Nasjonal-indeks-for-digital-inkludering-v1-claude.md](../arkitektur/ressurser/normerende-ressurser/146-Nasjonal-indeks-for-digital-inkludering-v1-claude.md). Klassifisert som `standarder og veiledning` etter samme logikk som `DIGDIR-039` Kunnskapsgrunnlag og KPI-er for datadeling. Eierkode `FLERE` fordi indeksen forvaltes i samarbeid mellom Uu-tilsynet og Nkom.
+- `Regulatorisk sandkasse for KI` ble ikke opprettet. To hindre: ordningen eies av Datatilsynet, som ikke har eierkode i registeret, og åpne kilder ga for tynt grunnlag på flere `v1`-kritiske felt. Krever avklaring av ny eierkode før den kan tas inn.
+
+- Oppdatert [produktnummerering.md](../arkitektur/ressurser/produktnummerering.md), [produkt-kapabilitet-koblinger.yaml](../arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml) og [sources/links.md](../sources/links.md) med fem nye stabile lenker i samme endringssett.
+- Malfølging kontrollert maskinelt for alle tre filene mot henholdsvis `okonomiske-og-juridiske-rammer-og-virkemidler-template.md` og `normerende-ressurs-template.md`. Alle overskrifter og rekkefølge stemmer.
+- `sync-resource-metadata.py` foreslo ingen endringer, altså samsvarer kapabilitetsforklaringene i canvasene med mappingen.
+- Bekreftet grønn `check-resource-version-sync.py`, `check-mojibake.ps1` og `validate-text-encoding.py`.
+
+Lenkegjeld ryddet og kontroll etablert:
+- Kontrollerte alle eksterne lenker i de 194 ressursfilene mot `sources/links.md` og fant 160 unike URL-er som ikke var registrert. Dette var eldre gjeld fra tidligere kjøringer, ikke fra denne batchen.
+- Delte gjelden i to: 99 stabile offisielle sider og landingssider, og 61 tekniske dyplenker til API-dokumentasjon og kodebaser. De 99 er lagt inn i `sources/links.md`, og de 61 er bevisst holdt utenfor siden `AGENTS.md` sier at engangskilder uten gjenbruksverdi ikke skal registreres.
+- Lenkene er fordelt på filas etablerte seksjonsstruktur i stedet for å samles i én ny liste: eierseksjonene under `Fellesløsninger` for ressurskilder, `Juridisk og rettslig infrastruktur` for alle Lovdata-kilder, og ny seksjon `Digital inkludering` under `Standarder og veiledninger` for inkluderingssporet.
+- Kontrollert at ingen av tilleggene ble duplikater. Fila har ti URL-er som forekommer flere ganger fra før, alle fra tidligere kjøringer. Ikke ryddet i denne runden.
+- Opprettet [check-source-links.py](../tools/check-source-links.py) som kontrollerer at eksterne lenker i ressursbeskrivelser er registrert. Skriptet har `--new-only` for å begrense til endrede filer og `--strict` for feilkode, og unntar de samme tekniske dokumentasjonsdomenene som ryddingen. Kontrollen er nå grønn på alle 1361 lenkeforekomster.
+- Presisert i `AGENTS.md` hvor skillet går mellom lenker som skal registreres og lenker som bare hører hjemme i ressursfilas eget kildegrunnlag, og lagt inn henvisning til den nye kontrollen.
+
+Statuskontroll av hjemmelsgrunnlaget for `DIGDIR-066`:
+- Forvaltningsloven av 10. februar 1967, som eForvaltningsforskriften er hjemlet i gjennom § 15a, blir opphevet av lov 20. juni 2025 nr. 81 om saksbehandlingen i offentlig forvaltning. Ikrafttredelsen fastsettes av Kongen og er ikke bestemt. Loven av 1967 ble sist endret ved LOV-2025-04-25-12 med virkning fra 1. januar 2026.
+- Oppdatert ressursbeskrivelsen med dette i `Status/Livsfase`, `Forvaltningsmodell` og som egen rad i risikotabellen. Forskriften er fortsatt i kraft, så `v1` og statusen `aktiv` står, men hjemmelsgrunnlaget må kontrolleres på nytt når ny forvaltningslov settes i kraft.
+
+Eierkoder:
+- Registeret hadde ingen regel for hvordan nye eierkoder lages, bare en liste over de 17 eksisterende. La inn seksjonen `Slik lages en ny eierkode` i [produktnummerering.md](../arkitektur/ressurser/produktnummerering.md), utledet av mønsteret i kodene som allerede er i bruk: etablert forkortelse når den finnes, ellers tre til seks store bokstaver fra kjerneordet i navnet, `FLERE` ved delt forvaltning, og ingen endring av koden etter at den er tatt i bruk.
+- Opprettet `DTIL` for Datatilsynet, som manglet og blokkerte `Regulatorisk sandkasse for KI`.
+- Lagt inn regel i `AGENTS.md` om at manglende eierkode skal opprettes i samme endringssett som ressursen, og ikke er grunn til å utsette ressursen eller plassere den på feil eier.
+
+Nytt funn under lenkeryddingen:
+- Løpenr 21 `Altinn Portal` og løpenr 69 `Fiks Kjøretøyregister` har ressursfiler, men ingen rad i [produktnummerering.md](../arkitektur/ressurser/produktnummerering.md). `check-resource-version-sync.py` fanger ikke dette, fordi den validerer at pekere fra registeret stemmer, ikke at alle ressursfiler er registerført. Bør følges opp: enten registerføres, eller avklares om filene er utdaterte.
+
 ### Tillegg 2026-08-27 (PPP(P)-nettverket opprettet, batch 1)
 
 - Opprettet `DIGDIR-065` PPP(P)-nettverket som løpenr 143 i [143-PPP-P-nettverket-v1-claude.md](../arkitektur/ressurser/samarbeidsfora/143-PPP-P-nettverket-v1-claude.md). Første ressursfil i repoet med suffix `-claude`.

@@ -20,6 +20,7 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Les `README.md` i aktuell mappe når oppgaven berører den delen av repoet, slik at lokal struktur og arbeidsmåte følges.
 - Ved arbeid med nye ressurskategorier eller ressurser utover klassiske produkter, bruk `arkitektur/ressurser/styringsregler.md` som styrende klassifisering.
 - Ved registerføring av nye ressurser i den brede ressursstrukturen, bruk fortsatt `arkitektur/ressurser/produktnummerering.md` som operativ master for ressurs-ID og registerstatus inntil annet er besluttet.
+- Hvis en ny ressurs har en eier som mangler eierkode i `arkitektur/ressurser/produktnummerering.md`, skal ny eierkode opprettes etter regelen i seksjonen `Slik lages en ny eierkode`, i samme endringssett som ressursen. Manglende eierkode er ikke grunn til å utsette ressursen eller til å plassere den på feil eier.
 - Når nye ressursfiler opprettes etter at løpenummer er fastsatt i `arkitektur/ressurser/produktnummerering.md`, skal filnavnet følge samme nummererte mønster som øvrige beskrivelser i porteføljen.
 - Før en ny ressursfil opprettes skal assistenten først sjekke eksisterende filnavn i samme kategori og bekrefte hvilket suffix som faktisk skal brukes i denne kjøringen.
 - Hvis det er tvil om suffix, skal assistenten avklare det før filopprettelse og bruke suffixet som samsvarer med utførende verktøy i denne kjøringen, ikke suffixet som tilfeldigvis finnes på forrige versjon.
@@ -67,6 +68,8 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Gå bredere enn lenkene i `sources/links.md` bare når de er utilstrekkelige, utdaterte eller utilgjengelige.
 - Hvis arbeidet bruker bredere søk enn `sources/links.md`, skal de ekstra kildene nevnes eksplisitt i dokumentasjonen eller leveransen.
 - Hvis arbeidet bruker nye stabile eksterne URL-er som er relevante for videre ressursarbeid, skal `sources/links.md` oppdateres i samme kjøring så lenge lenkene ikke bare er engangskilder uten gjenbruksverdi.
+- Skillet mellom hva som skal inn i `sources/links.md` og hva som bare skal stå i ressursfilas eget kildegrunnlag: offisielle nettsider, regelverkskilder, tjenestesider og landingssider skal registreres, mens teknisk dybdedokumentasjon som API-referanser og dyplenker inn i kodebaser normalt ikke skal det.
+- Kjør `python tools/check-source-links.py` etter arbeid med ressursbeskrivelser. Kontrollen finner eksterne lenker som er brukt uten å være registrert i `sources/links.md`. Bruk `--new-only` for å begrense til filer som er endret i kjøringen, og `--strict` når kontrollen skal gi feilkode.
 - Skill tydelig mellom fakta, deduksjon og usikkerhet.
 - Hvis en påstand ikke kan bekreftes i tilgjengelige kilder, skal dette sies tydelig i teksten.
 
@@ -98,6 +101,8 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Når `arkitektur/ressurser/produktnummerering.md` eller `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml` oppdateres til å peke på en ny eller høyere ressursversjon, skal den aktuelle ressursfila være opprettet og sporet av Git i samme endringssett.
 - Det skal ikke innføres pekere fra register eller kapabilitetsmapping til ressursfiler som fortsatt er `untracked`.
 - Hvis nye generelle regler blir viktige for repoet, legg dem i denne fila heller enn å spre dem tilfeldig i enkeltfiler.
+- Ved slutten av en kjøring skal assistenten oppsummere hvilke filer som er opprettet eller endret, med relativ lenke til hver fil og én linje om hva som er gjort i den. Oppsummeringen skal gjøre det mulig å kontrollere arbeidet uten å lese diffen, og skal skille tydelig mellom nye filer og endrede filer.
+- Oppsummeringen skal også si hva som ikke ble gjort når noe i oppgaven ble stoppet, utsatt eller avgrenset, slik at gjenstående arbeid ikke blir usynlig.
 - `briefs/next-step.md` skal holdes i `.gitignore`, men brukes likevel som sporet arbeidsnotat i repoet fordi fila allerede er etablert som lokal statusflate og ikke skal publiseres.
 
 ## Automatiske kjøringer

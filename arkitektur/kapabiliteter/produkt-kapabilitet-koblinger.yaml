@@ -1052,6 +1052,66 @@
             ]
         },
         {
+            "product_id": 21,
+            "product_name": "Altinn Portal",
+            "version": 3,
+            "author": "codex",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/21-Altinn-Portal-produkt-canvas-v3-codex.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/21-Altinn-Portal-produkt-canvas-v3-codex.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
+                    "subcapability_name": "Sammenhengende tjenester",
+                    "subcapability_slug": "sammenhengende-tjenester",
+                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                    "explanation": "samler tjenester, meldinger, kvitteringer og tilgangsstyring i én helhetlig arbeidsflate."
+                },
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "subcapability_id": "id-825b1ea1217b4eedb6caae165aeb8e41",
+                    "subcapability_name": "Tjenestekjeder",
+                    "subcapability_slug": "tjenestekjeder",
+                    "mapping_label": "Sluttbrukertjenester: Tjenestekjeder",
+                    "explanation": "lar brukeren gå fra søk eller varsel til konkret oppfølging i tjeneste uten å bytte kontekst unødig."
+                },
+                {
+                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
+                    "capability_name": "Tillit",
+                    "capability_slug": "tillit",
+                    "subcapability_id": "id-b2aafe1f4c534db6b92c40b1eef605f2",
+                    "subcapability_name": "Representasjon",
+                    "subcapability_slug": "representasjon",
+                    "mapping_label": "Tillit: Representasjon",
+                    "explanation": "gjør det mulig å opptre på vegne av virksomhet eller andre når fullmakter og rettigheter er etablert."
+                },
+                {
+                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
+                    "capability_name": "Tillit",
+                    "capability_slug": "tillit",
+                    "subcapability_id": "id-2dfe07b3eae740b9a292e0a4a42d22db",
+                    "subcapability_name": "Sporbarhet og innsyn",
+                    "subcapability_slug": "sporbarhet-og-innsyn",
+                    "mapping_label": "Tillit: Sporbarhet og innsyn",
+                    "explanation": "understøttes gjennom meldingshistorikk, status og administrasjon av fullmakter og tilganger."
+                },
+                {
+                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
+                    "capability_name": "Tillit",
+                    "capability_slug": "tillit",
+                    "subcapability_id": "id-b440252bc3de42dea8468be54e54b1fa",
+                    "subcapability_name": "Tilgangsstyring",
+                    "subcapability_slug": "tilgangsstyring",
+                    "mapping_label": "Tillit: Tilgangsstyring",
+                    "explanation": "gir oversikt over hvem som kan gjøre hva, både for virksomheter og privatpersoner."
+                }
+            ]
+        },
+        {
             "product_id": 22,
             "product_name": "Dialogporten",
             "version": 5,
@@ -4762,6 +4822,116 @@
                     "subcapability_slug": "samordning",
                     "mapping_label": "Strategisk styring: Samordning",
                     "explanation": "Nettverket harmoniserer praksis for styring og ressursbruk på tvers av uavhengige virksomheter, gjennom frivillig erfaringsdeling framfor mandat."
+                }
+            ]
+        },
+        {
+            "product_id": 144,
+            "product_name": "eForvaltningsforskriften",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/rammer-og-virkemidler/144-eForvaltningsforskriften-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/144-eForvaltningsforskriften-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-299fc063873a4f278a1d3c0ac9480467",
+                    "capability_name": "Juridisk samhandling",
+                    "capability_slug": "juridisk-samhandling",
+                    "subcapability_id": "id-0209483504444508a40415aa6e3fc39c",
+                    "subcapability_name": "Regelverkstolkning",
+                    "subcapability_slug": "regelverkstolkning",
+                    "mapping_label": "Juridisk samhandling: Regelverkstolkning",
+                    "explanation": "Forskriften er et sentralt regelverk som virksomheter må tolke og anvende når de utformer digitale kommunikasjons- og saksbehandlingsløsninger."
+                },
+                {
+                    "capability_id": "id-48c9873ae59341a49c2dca27379fab55",
+                    "capability_name": "Informasjonssikkerhet",
+                    "capability_slug": "informasjonssikkerhet",
+                    "subcapability_id": "id-34d3d64b3afe4327a29ee6c2f7f74dff",
+                    "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
+                    "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling",
+                    "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
+                    "explanation": "Kapittel 3 stiller krav til styring og kontroll med informasjonssikkerheten, og kapittel 4 til 6 regulerer sikkerhetstjenester, beskyttelse av signaturnøkler og behandling av krypterte og signerte meldinger."
+                }
+            ]
+        },
+        {
+            "product_id": 145,
+            "product_name": "Tilskudd til etablering av kommunale opplæringstilbud i digital kompetanse til innbyggerne",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/rammer-og-virkemidler/145-Tilskudd-til-kommunale-opplaeringstilbud-i-digital-kompetanse-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/145-Tilskudd-til-kommunale-opplaeringstilbud-i-digital-kompetanse-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
+                    "capability_name": "Strategisk styring",
+                    "capability_slug": "strategisk-styring",
+                    "subcapability_id": "id-ecdde89168314bfb94b6a6ac70a55bc7",
+                    "subcapability_name": "Finansiering",
+                    "subcapability_slug": "finansiering",
+                    "mapping_label": "Strategisk styring: Finansiering",
+                    "explanation": "Ordningen er et direkte finansielt virkemiddel som påvirker hvilke kommuner som etablerer veiledningstilbud i digital kompetanse."
+                }
+            ]
+        },
+        {
+            "product_id": 146,
+            "product_name": "Nasjonal indeks for digital inkludering",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/146-Nasjonal-indeks-for-digital-inkludering-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/146-Nasjonal-indeks-for-digital-inkludering-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-98df6c2b4df340c7a3a3ad32d99ca37e",
+                    "capability_name": "Datadrevet",
+                    "capability_slug": "datadrevet",
+                    "subcapability_id": "id-fa54a429cbd84db09da1b2b2165fc352",
+                    "subcapability_name": "Dataanalyse",
+                    "subcapability_slug": "dataanalyse",
+                    "mapping_label": "Datadrevet: Dataanalyse",
+                    "explanation": "Indeksen er et statistisk måleverktøy som sammenstiller 71 indikatorer til et samlet bilde av digital inkludering, og gjør utviklingen målbar over tid."
+                },
+                {
+                    "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
+                    "capability_name": "Strategisk styring",
+                    "capability_slug": "strategisk-styring",
+                    "subcapability_id": "id-034543e002414306a8fbecc8c9d8e496",
+                    "subcapability_name": "Samordning",
+                    "subcapability_slug": "samordning",
+                    "mapping_label": "Strategisk styring: Samordning",
+                    "explanation": "Indeksen er utviklet i samarbeid mellom to myndigheter og gir et felles kunnskapsgrunnlag som flere aktører kan prioritere ut fra."
+                }
+            ]
+        },
+        {
+            "product_id": 147,
+            "product_name": "Regulatorisk sandkasse for kunstig intelligens",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/147-Regulatorisk-sandkasse-for-kunstig-intelligens-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/147-Regulatorisk-sandkasse-for-kunstig-intelligens-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-c0547226c598467a942dced879d0c18b",
+                    "capability_name": "Veiledning",
+                    "capability_slug": "veiledning",
+                    "subcapability_id": "id-0bfa29018e7144578b2184e70414b7e8",
+                    "subcapability_name": "Utvikling og formidling av veiledning",
+                    "subcapability_slug": "utvikling-og-formidling-av-veiledning",
+                    "mapping_label": "Veiledning: Utvikling og formidling av veiledning",
+                    "explanation": "Sandkassen utvikler og publiserer veiledningsmateriale om personvern i KI-løsninger gjennom sluttrapporter fra hvert prosjekt."
+                },
+                {
+                    "capability_id": "id-299fc063873a4f278a1d3c0ac9480467",
+                    "capability_name": "Juridisk samhandling",
+                    "capability_slug": "juridisk-samhandling",
+                    "subcapability_id": "id-0209483504444508a40415aa6e3fc39c",
+                    "subcapability_name": "Regelverkstolkning",
+                    "subcapability_slug": "regelverkstolkning",
+                    "mapping_label": "Juridisk samhandling: Regelverkstolkning",
+                    "explanation": "Kjernen i tjenesten er å tolke personvernregelverket for konkrete KI-anvendelser, og gjøre tolkningen tilgjengelig for andre."
                 }
             ]
         }
