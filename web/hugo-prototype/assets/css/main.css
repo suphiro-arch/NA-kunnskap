@@ -1176,6 +1176,17 @@ a:hover {
   background: #e2efe5;
 }
 
+/* Repo-lenken skal se ut som knappen ved siden av, men er en vanlig lenke. */
+.home-feedback__button--link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.home-feedback__button--link:hover {
+  background: #e2efe5;
+  text-decoration: none;
+}
+
 .home-feedback__address {
   color: var(--ink-muted);
   font-size: 0.92rem;

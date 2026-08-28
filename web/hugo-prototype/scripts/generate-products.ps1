@@ -92,10 +92,11 @@ function Get-RegisterEntries {
       $resourceType = ($cells[4] -replace '`', '').Trim()
       $versionLabel = ($cells[7] -replace '`', '').Trim()
     } else {
-      # Current table format: Løpenr | Ressurs-ID | Navn | Type | Kapabiliteter | Dokument
+      # Current table format: Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument
       $resourceId = ($cells[1] -replace '`', '').Trim()
       $name = ($cells[2] -replace '`', '').Trim()
       $resourceType = ($cells[3] -replace '`', '').Trim()
+      $category = ($cells[4] -replace '`', '').Trim()
     }
 
     if (-not $versionLabel) {

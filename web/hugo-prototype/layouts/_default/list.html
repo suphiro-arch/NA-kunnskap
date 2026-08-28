@@ -25,6 +25,9 @@
       <p class="home-hero__sublead">Utfyllende ressursbeskrivelser er koblet til kapabilitetene. Vi ønsker tilbakemeldinger på innhold, mangler og nye ønsker.</p>
       <p class="home-feedback">
         <button class="home-feedback__button" type="button" data-mail-user="nasjonalarkitektur" data-mail-domain="digdir.no">Send tilbakemelding på e-post</button>
+        {{ with .Site.Params.githubRepoURL }}
+        <a class="home-feedback__button home-feedback__button--link" href="{{ . }}" target="_blank" rel="noreferrer noopener">Se kildekoden på GitHub</a>
+        {{ end }}
       </p>
       <script>
       (function () {

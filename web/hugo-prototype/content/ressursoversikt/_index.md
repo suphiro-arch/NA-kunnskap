@@ -9,28 +9,26 @@ hideSectionOverview: true
 
 ## Utforsk per type
 
-{{< feedback-cta >}}
-
 <div class="resource-type-grid">
   <article class="resource-type-card">
     <h3><a href="ressurser/operative-losninger-og-tjenester/">Gjenbrukbare løsninger</a></h3>
     <p>Tekniske komponenter, applikasjoner og tjenester som leverer funksjonalitet eller dataprodukter som kan brukes av flere.</p>
-    <p class="resource-type-card__count">78 ressurser</p>
+    <p class="resource-type-card__count">80 ressurser</p>
   </article>
   <article class="resource-type-card">
     <h3><a href="ressurser/normerende-ressurser/">Standarder og veiledning</a></h3>
     <p>Ressurser som setter regler eller gir retning, som standarder, veiledere, referansearkitekturer og metodikk.</p>
-    <p class="resource-type-card__count">23 ressurser</p>
+    <p class="resource-type-card__count">25 ressurser</p>
   </article>
   <article class="resource-type-card">
     <h3><a href="ressurser/samarbeidsfora/">Samhandlingsarenaer og organisering</a></h3>
     <p>Organiserte nettverk og styringsorganer for dialog, strategisk samarbeid og samordning.</p>
-    <p class="resource-type-card__count">10 ressurser</p>
+    <p class="resource-type-card__count">11 ressurser</p>
   </article>
   <article class="resource-type-card">
     <h3><a href="ressurser/rammer-og-virkemidler/">Økonomiske og juridiske rammer og virkemidler</a></h3>
     <p>Finansielle og regulative virkemidler som muliggjør gjennomføring og setter handlingsrom.</p>
-    <p class="resource-type-card__count">4 ressurser</p>
+    <p class="resource-type-card__count">6 ressurser</p>
   </article>
 </div>
 
@@ -43,6 +41,7 @@ hideSectionOverview: true
       <label>Eier <select class="resource-filter" data-filter="owner"><option value="">Alle</option>
         <option value="BRREG">Br&#248;nn&#248;ysundregistrene</option>
         <option value="DIGDIR">Digdir</option>
+        <option value="DTIL">DTIL</option>
         <option value="FHI">FHI</option>
         <option value="FLERE">Flere virksomheter</option>
         <option value="HDIR">Helsedirektoratet</option>
@@ -70,6 +69,7 @@ hideSectionOverview: true
         <option value="Autentisering">Autentisering</option>
         <option value="Bruke data fra andre">Bruke data fra andre</option>
         <option value="Datastyring">Datastyring</option>
+        <option value="Dataanalyse">Dataanalyse</option>
         <option value="Dele data med andre">Dele data med andre</option>
         <option value="Finansiering">Finansiering</option>
         <option value="Forvaltningsstandarder">Forvaltningsstandarder</option>
@@ -108,7 +108,7 @@ hideSectionOverview: true
         <option value="Utviklings- og kj&#248;retidsmilj&#248;">Utviklings- og kj&#248;retidsmilj&#248;</option>
       </select></label>
     </div>
-    <p class="resource-filters__result" data-role="count">Viser 115 av 115 ressurser</p>
+    <p class="resource-filters__result" data-role="count">Viser 122 av 122 ressurser</p>
   </div>
   <div class="resource-cards">
 <article class="resource-card" data-owner="DIGDIR" data-type="Gjenbrukbare l&#248;sninger" data-capabilities="sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester" data-search="id-porten digdir-001 digdir digdir gjenbrukbare l&#248;sninger gjenbrukbare l&#248;sninger id-porten er den nasjonale fellesl&#248;sningen for sikker innlogging til offentlige digitale tjenester. l&#248;sningen gir innbyggere &#233;n gjenkjennelig inngang til tjenester p&#229; tvers av virksomheter, og gir tjenesteeiere en felles autentiseringskomponent i stedet for lokale innloggingsl&#248;sninger. id-porten er s&#230;rlig relevant n&#229;r... sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester">
@@ -270,6 +270,14 @@ hideSectionOverview: true
   <p class="resource-card__description">Altinn Studio er Altinns utviklingsflate for &#229; bygge digitale tjenester. Produktet gir tjenesteeiere og utviklingsteam et felles milj&#248; for &#229; modellere skjema, data, prosess, validering og integrasjoner, og for &#229; klargj&#248;re tjenester for kj&#248;ring i Altinn Apps. Produktet er bredere enn en enkel editor eller et...</p>
   <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/tjenesteutvikling/gjenbrukbare-tjenester/">Gjenbrukbare tjenester</a> <a class="capability-chip" href="../kapabiliteter/tjenesteutvikling/integrerbare-tjenester/">Integrerbare tjenester</a> <a class="capability-chip" href="../kapabiliteter/tjenesteutvikling/tjenestedesign/">Tjenestedesign</a> <details class="capability-chip-disclosure"><summary class="capability-chip capability-chip--more" title="Vis/skjul flere kapabiliteter">+1</summary><span class="capability-chip-disclosure__items"> <a class="capability-chip" href="../kapabiliteter/tjenesteutvikling/utviklings-og-kjoretidsmiljo/">Utviklings- og kj&#248;retidsmilj&#248;</a></span></details></div>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/20-Altinn-Studio-produkt-canvas-v3-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://docs.altinn.studio/nb/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="Gjenbrukbare l&#248;sninger" data-capabilities="sammenhengende tjenester tjenestekjeder representasjon sporbarhet og innsyn tilgangsstyring" data-search="altinn portal digdir-019 digdir digdir gjenbrukbare l&#248;sninger gjenbrukbare l&#248;sninger altinn portal er den sentrale brukerinngangen til skjema, tjenester, meldinger og tilgangsstyring i altinn. portalen samler oppgaver og kommunikasjon fra mange offentlige akt&#248;rer i &#233;n arbeidsflate, og gj&#248;r det mulig for b&#229;de privatpersoner og virksomheter &#229; finne tjenester, f&#248;lge opp meldinger og handle p&#229; egne eller... sammenhengende tjenester tjenestekjeder representasjon sporbarhet og innsyn tilgangsstyring">
+  <h2 class="resource-card__title">Altinn Portal</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-019</code> | <strong>Siste versjon:</strong> v3 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> Digdir | <strong>Type:</strong> Gjenbrukbare l&#248;sninger</p>
+  <p class="resource-card__description">Altinn Portal er den sentrale brukerinngangen til skjema, tjenester, meldinger og tilgangsstyring i Altinn. Portalen samler oppgaver og kommunikasjon fra mange offentlige akt&#248;rer i &#233;n arbeidsflate, og gj&#248;r det mulig for b&#229;de privatpersoner og virksomheter &#229; finne tjenester, f&#248;lge opp meldinger og handle p&#229; egne eller...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/">Sammenhengende tjenester</a> <a class="capability-chip" href="../kapabiliteter/sluttbrukertjenester/tjenestekjeder/">Tjenestekjeder</a> <a class="capability-chip" href="../kapabiliteter/tillit/representasjon/">Representasjon</a> <details class="capability-chip-disclosure"><summary class="capability-chip capability-chip--more" title="Vis/skjul flere kapabiliteter">+2</summary><span class="capability-chip-disclosure__items"> <a class="capability-chip" href="../kapabiliteter/tillit/sporbarhet-og-innsyn/">Sporbarhet og innsyn</a> <a class="capability-chip" href="../kapabiliteter/tillit/tilgangsstyring/">Tilgangsstyring</a></span></details></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/21-Altinn-Portal-produkt-canvas-v3-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://info.altinn.no/">Offisiell lenke</a></p>
 </article>
 <article class="resource-card" data-owner="DIGDIR" data-type="Gjenbrukbare l&#248;sninger" data-capabilities="bruke data fra andre hendelsesdrevet sammenhengende tjenester autentisering tilgangskontroll integrerbare tjenester" data-search="dialogporten digdir-020 digdir digdir gjenbrukbare l&#248;sninger gjenbrukbare l&#248;sninger dialogporten er altinns felles representasjons- og samhandlingslag for digitale dialoger. produktet gj&#248;r meldinger og dialoger fra ulike tjenesteplattformer tilgjengelige i et felles format, slik at sluttbrukersystemer, arbeidsflater og portaler kan presentere den samme dialogen p&#229; en konsistent m&#229;te. produktet er mer... bruke data fra andre hendelsesdrevet sammenhengende tjenester autentisering tilgangskontroll integrerbare tjenester">
   <h2 class="resource-card__title">Dialogporten</h2>
@@ -558,6 +566,14 @@ hideSectionOverview: true
   <p class="resource-card__description">Fiks skatte- og inntektsopplysninger er KS Digitals tilgangstjeneste for kommunal bruk av skatte- og inntektsdata fra Skatteetaten gjennom Fiks. L&#248;sningen er laget for konkrete kommunale tjenesteomr&#229;der der saksbehandlere trenger oppdatert og relevant inntektsgrunnlag som del av vedtak og beregninger. Produktet kan...</p>
   <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/datakilder/grunndata/">Grunndata</a> <a class="capability-chip" href="../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/">Bruke data fra andre</a></div>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v2-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://ksdigital.no/tjenestene/fiks-register/fiks-skatte-og-inntektsopplysninger/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="KS" data-type="Gjenbrukbare l&#248;sninger" data-capabilities="grunndata bruke data fra andre" data-search="fiks kj&#248;ret&#248;yregister ks-010 ks ks digital gjenbrukbare l&#248;sninger gjenbrukbare l&#248;sninger fiks kj&#248;ret&#248;yregister er ks digitals api-baserte tilgangstjeneste til statens vegvesens kj&#248;ret&#248;yregister via fiks-plattformen. produktet gj&#248;r det mulig for kommunale fagsystemer &#229; sl&#229; opp kj&#248;ret&#248;y og eierforhold uten &#229; etablere egne separate tilkoblinger mot statens vegvesens grensesnitt. l&#248;sningen speiler sentrale... grunndata bruke data fra andre">
+  <h2 class="resource-card__title">Fiks kj&#248;ret&#248;yregister</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>KS-010</code> | <strong>Siste versjon:</strong> v1 (codex)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> KS Digital | <strong>Type:</strong> Gjenbrukbare l&#248;sninger</p>
+  <p class="resource-card__description">Fiks kj&#248;ret&#248;yregister er KS Digitals API-baserte tilgangstjeneste til Statens vegvesens kj&#248;ret&#248;yregister via Fiks-plattformen. Produktet gj&#248;r det mulig for kommunale fagsystemer &#229; sl&#229; opp kj&#248;ret&#248;y og eierforhold uten &#229; etablere egne separate tilkoblinger mot Statens vegvesens grensesnitt. L&#248;sningen speiler sentrale...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/datakilder/grunndata/">Grunndata</a> <a class="capability-chip" href="../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/">Bruke data fra andre</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/69-FIKS-Kjoretoyregister-produkt-canvas-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://ksdigital.no/tjenestene/fiks-kjoretoyregister/">Offisiell lenke</a></p>
 </article>
 <article class="resource-card" data-owner="NOVARI" data-type="Gjenbrukbare l&#248;sninger" data-capabilities="dele data med andre bruke data fra andre informasjonsarkitektur integrerbare tjenester gjenbrukbare tjenester sikring av informasjonsflyt og datautveksling" data-search="fint felleskomponent novari-001 novari novari gjenbrukbare l&#248;sninger gjenbrukbare l&#248;sninger fint felleskomponent er den operative felleskomponenten som gj&#248;r det mulig for fylkeskommuner &#229; dele og bruke informasjon gjennom standardiserte api-er og en felles informasjonsmodell. ressursen er kjernen i fint-&#248;kosystemet og fungerer som det operative bindeleddet mellom kildesystemer, integrasjoner, adaptere og... dele data med andre bruke data fra andre informasjonsarkitektur integrerbare tjenester gjenbrukbare tjenester sikring av informasjonsflyt og datautveksling">
   <h2 class="resource-card__title">FINT Felleskomponent</h2>
@@ -1063,6 +1079,49 @@ hideSectionOverview: true
   <p class="resource-card__description">Medfinansieringsordningen er en finansieringsordning som skal st&#248;tte digitale utviklings- og omstillingsprosjekter i offentlig sektor. Ordningen er relevant n&#229;r virksomheter trenger &#248;konomisk medvirkning for &#229; realisere tiltak som gir bedre tjenester, h&#248;yere effektivitet eller tydelig arkitekturverdi.</p>
   <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/strategisk-styring/finansiering/">Finansiering</a> <a class="capability-chip" href="../kapabiliteter/strategisk-styring/samordning/">Samordning</a> <a class="capability-chip" href="../kapabiliteter/tjenesteutvikling/tjenestedesign/">Tjenestedesign</a></div>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/142-Medfinansieringsordningen-v1-copilot.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/innovasjon/innovasjon-i-offentlig-sektor/881">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="Samhandlingsarenaer og organisering" data-capabilities="samarbeidsarenaer og nettverk samordning" data-search="ppp(p)-nettverket (nettverk for prosjekt-, program-, produkt- og portef&#248;ljestyring) digdir-065 digdir digdir samhandlingsarenaer og organisering samhandlingsarenaer og organisering ppp(p)-nettverket er en tverrsektoriell erfaringsarena for offentlige virksomheter som arbeider med prosjekt-, program-, produkt- og portef&#248;ljestyring. nettverket samler over 130 virksomheter fra stat, kommune, fylkeskommune, helseforetak og forsknings- og utdanningssektoren, og drives som et brukerdrevet samarbeid... samarbeidsarenaer og nettverk samordning">
+  <h2 class="resource-card__title">PPP(P)-nettverket (Nettverk for prosjekt-, program-, produkt- og portef&#248;ljestyring)</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-065</code> | <strong>Siste versjon:</strong> v1 (claude)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> Digdir | <strong>Type:</strong> Samhandlingsarenaer og organisering</p>
+  <p class="resource-card__description">PPP(P)-nettverket er en tverrsektoriell erfaringsarena for offentlige virksomheter som arbeider med prosjekt-, program-, produkt- og portef&#248;ljestyring. Nettverket samler over 130 virksomheter fra stat, kommune, fylkeskommune, helseforetak og forsknings- og utdanningssektoren, og drives som et brukerdrevet samarbeid...</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Kildene beskriver nettverket som et brukerdrevet samarbeid for erfaringsutveksling og gjensidig st&#248;tte til modenhetsutvikling innenfor PPP(P)-omr&#229;det.</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/samarbeid/samarbeidsarenaer-og-nettverk/">Samarbeidsarenaer og nettverk</a> <a class="capability-chip" href="../kapabiliteter/strategisk-styring/samordning/">Samordning</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/143-PPP-P-nettverket-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/prosjektstyring/nettverk-prosjekt-program-og-portefoljestyring/1428">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="&#216;konomiske og juridiske rammer og virkemidler" data-capabilities="regelverkstolkning sikring av informasjonsflyt og datautveksling" data-search="forskrift om elektronisk kommunikasjon med og i forvaltningen (eforvaltningsforskriften) digdir-066 digdir digdir &#248;konomiske og juridiske rammer og virkemidler &#248;konomiske og juridiske rammer og virkemidler eforvaltningsforskriften (for-2004-06-25-988) regulerer elektronisk kommunikasjon med forvaltningen og elektronisk saksbehandling og kommunikasjon i forvaltningen. forskriften er det juridiske grunnlaget for at forvaltningsorganer kan kommunisere digitalt med innbyggere og virksomheter, og den setter krav til hvordan... regelverkstolkning sikring av informasjonsflyt og datautveksling">
+  <h2 class="resource-card__title">Forskrift om elektronisk kommunikasjon med og i forvaltningen (eForvaltningsforskriften)</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-066</code> | <strong>Siste versjon:</strong> v1 (claude)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> Digdir | <strong>Type:</strong> &#216;konomiske og juridiske rammer og virkemidler</p>
+  <p class="resource-card__description">eForvaltningsforskriften (FOR-2004-06-25-988) regulerer elektronisk kommunikasjon med forvaltningen og elektronisk saksbehandling og kommunikasjon i forvaltningen. Forskriften er det juridiske grunnlaget for at forvaltningsorganer kan kommunisere digitalt med innbyggere og virksomheter, og den setter krav til hvordan...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/juridisk-samhandling/regelverkstolkning/">Regelverkstolkning</a> <a class="capability-chip" href="../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/">Sikring av informasjonsflyt og datautveksling</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/144-eForvaltningsforskriften-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://lovdata.no/dokument/SF/forskrift/2004-06-25-988">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="&#216;konomiske og juridiske rammer og virkemidler" data-capabilities="finansiering" data-search="tilskudd til etablering av kommunale oppl&#230;ringstilbud i digital kompetanse til innbyggerne digdir-067 digdir digdir &#248;konomiske og juridiske rammer og virkemidler &#248;konomiske og juridiske rammer og virkemidler tilskuddsordningen skal legge til rette for at kommuner etablerer et lavterskel veiledningstilbud for innbyggere med liten eller ingen digital kompetanse. form&#229;let er at innbyggerne skal kunne tilegne seg de grunnleggende digitale ferdighetene som trengs for &#229; ta i bruk digitale verkt&#248;y og digitale offentlige... finansiering">
+  <h2 class="resource-card__title">Tilskudd til etablering av kommunale oppl&#230;ringstilbud i digital kompetanse til innbyggerne</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-067</code> | <strong>Siste versjon:</strong> v1 (claude)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> Digdir | <strong>Type:</strong> &#216;konomiske og juridiske rammer og virkemidler</p>
+  <p class="resource-card__description">Tilskuddsordningen skal legge til rette for at kommuner etablerer et lavterskel veiledningstilbud for innbyggere med liten eller ingen digital kompetanse. Form&#229;let er at innbyggerne skal kunne tilegne seg de grunnleggende digitale ferdighetene som trengs for &#229; ta i bruk digitale verkt&#248;y og digitale offentlige...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/strategisk-styring/finansiering/">Finansiering</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/145-Tilskudd-til-kommunale-opplaeringstilbud-i-digital-kompetanse-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/finansiering/tilskudd-til-etablering-av-kommunale-opplaeringstilbud-i-digital-kompetanse-til-innbyggerne/5728">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="FLERE" data-type="Standarder og veiledning" data-capabilities="dataanalyse samordning" data-search="nasjonal indeks for digital inkludering (di-indeks) flere-004 flere flere virksomheter standarder og veiledning standarder og veiledning nasjonal indeks for digital inkludering er et statistisk m&#229;l for &#229; f&#248;lge utviklingen i digital inkludering i norge over tid. indeksen best&#229;r av 71 indikatorer fordelt p&#229; fem omr&#229;der, og gir et samlet bilde av hvor langt samfunnet er kommet og hvor innsatsen m&#229; styrkes. indeksen er utviklet i samarbeid mellom tilsynet... dataanalyse samordning">
+  <h2 class="resource-card__title">Nasjonal indeks for digital inkludering (DI-indeks)</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>FLERE-004</code> | <strong>Siste versjon:</strong> v1 (claude)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> Flere virksomheter | <strong>Type:</strong> Standarder og veiledning</p>
+  <p class="resource-card__description">Nasjonal indeks for digital inkludering er et statistisk m&#229;l for &#229; f&#248;lge utviklingen i digital inkludering i Norge over tid. Indeksen best&#229;r av 71 indikatorer fordelt p&#229; fem omr&#229;der, og gir et samlet bilde av hvor langt samfunnet er kommet og hvor innsatsen m&#229; styrkes. Indeksen er utviklet i samarbeid mellom Tilsynet...</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Indeksen skal gi et felles kunnskapsgrunnlag for &#229; m&#229;le utviklingen i digital inkludering, slik at innsats kan rettes dit behovet er st&#248;rst. Den kombinerer individuelle forutsetninger med systemiske...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/datadrevet/dataanalyse/">Dataanalyse</a> <a class="capability-chip" href="../kapabiliteter/strategisk-styring/samordning/">Samordning</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/146-Nasjonal-indeks-for-digital-inkludering-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.uutilsynet.no/innsikt-og-analyse/nasjonal-indeks-digital-inkludering-di-indeks/2897">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DTIL" data-type="Standarder og veiledning" data-capabilities="utvikling og formidling av veiledning regelverkstolkning" data-search="datatilsynets regulatoriske sandkasse for kunstig intelligens dtil-001 dtil dtil standarder og veiledning standarder og veiledning den regulatoriske sandkassen er en veiledningstjeneste der virksomheter som utvikler l&#248;sninger med kunstig intelligens f&#229;r hjelp av datatilsynet til &#229; forst&#229; hvilke personvernkrav som gjelder for den konkrete l&#248;sningen. deltakelsen skjer gjennom s&#248;knadsrunder, og hvert prosjekt avsluttes med en offentlig sluttrapport... utvikling og formidling av veiledning regelverkstolkning">
+  <h2 class="resource-card__title">Datatilsynets regulatoriske sandkasse for kunstig intelligens</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DTIL-001</code> | <strong>Siste versjon:</strong> v1 (claude)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DTIL | <strong>Type:</strong> Standarder og veiledning</p>
+  <p class="resource-card__description">Den regulatoriske sandkassen er en veiledningstjeneste der virksomheter som utvikler l&#248;sninger med kunstig intelligens f&#229;r hjelp av Datatilsynet til &#229; forst&#229; hvilke personvernkrav som gjelder for den konkrete l&#248;sningen. Deltakelsen skjer gjennom s&#248;knadsrunder, og hvert prosjekt avsluttes med en offentlig sluttrapport...</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let er &#229; stimulere personvernvennlig innovasjon og digitalisering. Sandkassen skal gj&#248;re det lettere &#229; utvikle KI-l&#248;sninger som etterlever personvernregelverket, og &#229; avdekke svakheter tidlig...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/veiledning/utvikling-og-formidling-av-veiledning/">Utvikling og formidling av veiledning</a> <a class="capability-chip" href="../kapabiliteter/juridisk-samhandling/regelverkstolkning/">Regelverkstolkning</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/147-Regulatorisk-sandkasse-for-kunstig-intelligens-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.datatilsynet.no/regelverk-og-verktoy/sandkasse-for-kunstig-intelligens/">Offisiell lenke</a></p>
 </article>
   </div>
   <script>

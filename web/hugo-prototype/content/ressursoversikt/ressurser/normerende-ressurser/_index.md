@@ -13,6 +13,8 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Standard
       <label>Søk <input type="search" class="resource-filter" data-filter="search" placeholder="Navn, ID, kapabilitet" /></label>
       <label>Eier <select class="resource-filter" data-filter="owner"><option value="">Alle</option>
         <option value="DIGDIR">Digdir</option>
+        <option value="DTIL">DTIL</option>
+        <option value="FLERE">Flere virksomheter</option>
         <option value="NOVARI">Novari</option>
       </select></label>
       <label>Type <select class="resource-filter" data-filter="type"><option value="">Alle</option>
@@ -24,6 +26,7 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Standard
         <option value="Autentisering">Autentisering</option>
         <option value="Bruke data fra andre">Bruke data fra andre</option>
         <option value="Datastyring">Datastyring</option>
+        <option value="Dataanalyse">Dataanalyse</option>
         <option value="Dele data med andre">Dele data med andre</option>
         <option value="Forvaltningsstandarder">Forvaltningsstandarder</option>
         <option value="Grunndata">Grunndata</option>
@@ -43,7 +46,7 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Standard
         <option value="Utvikling og formidling av veiledning">Utvikling og formidling av veiledning</option>
       </select></label>
     </div>
-    <p class="resource-filters__result" data-role="count">Viser 23 av 23 ressurser</p>
+    <p class="resource-filters__result" data-role="count">Viser 25 av 25 ressurser</p>
   </div>
   <div class="resource-cards">
 <article class="resource-card" data-owner="NOVARI" data-type="Standarder og veiledning" data-capabilities="informasjonsarkitektur oversikt over informasjonsmodeller forvaltningsstandarder" data-search="fint informasjonsmodell novari-003 novari novari standarder og veiledning standarder og veiledning fint informasjonsmodell er den felles semantiske og strukturelle modellen som beskriver hvilken informasjon fylkeskommunene kan utveksle gjennom fint-&#248;kosystemet. modellen gir et felles spr&#229;k for data p&#229; tvers av fylkeskommuner, fagsystemer og leverand&#248;rer, og er en sentral forutsetning for at fint felleskomponent,... informasjonsarkitektur oversikt over informasjonsmodeller forvaltningsstandarder">
@@ -252,6 +255,24 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Standard
   <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let er &#229; bidra til gode og forutsigbare prosesser for identifisering, adressering, sertifikatbehandling, logging, sporing og autentisering ved deling av data.</p>
   <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/tillit/autentisering/">Autentisering</a> <a class="capability-chip" href="../../../kapabiliteter/informasjonssikkerhet/sikring-av-informasjonsflyt-og-datautveksling/">Sikring av informasjonsflyt og datautveksling</a> <a class="capability-chip" href="../../../kapabiliteter/veiledning/anvendelse-av-veiledning/">Anvendelse av veiledning</a> <details class="capability-chip-disclosure"><summary class="capability-chip capability-chip--more" title="Vis/skjul flere kapabiliteter">+1</summary><span class="capability-chip-disclosure__items"> <a class="capability-chip" href="../../../kapabiliteter/veiledning/utvikling-og-formidling-av-veiledning/">Utvikling og formidling av veiledning</a></span></details></div>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/138-Veileder-for-virksomhetsautentisering-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/datadeling/veileder-virksomhetsautentisering/2435">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="FLERE" data-type="Standarder og veiledning" data-capabilities="dataanalyse samordning" data-search="nasjonal indeks for digital inkludering (di-indeks) flere-004 flere flere virksomheter standarder og veiledning standarder og veiledning nasjonal indeks for digital inkludering er et statistisk m&#229;l for &#229; f&#248;lge utviklingen i digital inkludering i norge over tid. indeksen best&#229;r av 71 indikatorer fordelt p&#229; fem omr&#229;der, og gir et samlet bilde av hvor langt samfunnet er kommet og hvor innsatsen m&#229; styrkes. indeksen er utviklet i samarbeid mellom tilsynet... dataanalyse samordning">
+  <h2 class="resource-card__title">Nasjonal indeks for digital inkludering (DI-indeks)</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>FLERE-004</code> | <strong>Siste versjon:</strong> v1 (claude)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> Flere virksomheter | <strong>Type:</strong> Standarder og veiledning</p>
+  <p class="resource-card__description">Nasjonal indeks for digital inkludering er et statistisk m&#229;l for &#229; f&#248;lge utviklingen i digital inkludering i Norge over tid. Indeksen best&#229;r av 71 indikatorer fordelt p&#229; fem omr&#229;der, og gir et samlet bilde av hvor langt samfunnet er kommet og hvor innsatsen m&#229; styrkes. Indeksen er utviklet i samarbeid mellom Tilsynet...</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Indeksen skal gi et felles kunnskapsgrunnlag for &#229; m&#229;le utviklingen i digital inkludering, slik at innsats kan rettes dit behovet er st&#248;rst. Den kombinerer individuelle forutsetninger med systemiske...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/datadrevet/dataanalyse/">Dataanalyse</a> <a class="capability-chip" href="../../../kapabiliteter/strategisk-styring/samordning/">Samordning</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/146-Nasjonal-indeks-for-digital-inkludering-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.uutilsynet.no/innsikt-og-analyse/nasjonal-indeks-digital-inkludering-di-indeks/2897">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DTIL" data-type="Standarder og veiledning" data-capabilities="utvikling og formidling av veiledning regelverkstolkning" data-search="datatilsynets regulatoriske sandkasse for kunstig intelligens dtil-001 dtil dtil standarder og veiledning standarder og veiledning den regulatoriske sandkassen er en veiledningstjeneste der virksomheter som utvikler l&#248;sninger med kunstig intelligens f&#229;r hjelp av datatilsynet til &#229; forst&#229; hvilke personvernkrav som gjelder for den konkrete l&#248;sningen. deltakelsen skjer gjennom s&#248;knadsrunder, og hvert prosjekt avsluttes med en offentlig sluttrapport... utvikling og formidling av veiledning regelverkstolkning">
+  <h2 class="resource-card__title">Datatilsynets regulatoriske sandkasse for kunstig intelligens</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DTIL-001</code> | <strong>Siste versjon:</strong> v1 (claude)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DTIL | <strong>Type:</strong> Standarder og veiledning</p>
+  <p class="resource-card__description">Den regulatoriske sandkassen er en veiledningstjeneste der virksomheter som utvikler l&#248;sninger med kunstig intelligens f&#229;r hjelp av Datatilsynet til &#229; forst&#229; hvilke personvernkrav som gjelder for den konkrete l&#248;sningen. Deltakelsen skjer gjennom s&#248;knadsrunder, og hvert prosjekt avsluttes med en offentlig sluttrapport...</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let er &#229; stimulere personvernvennlig innovasjon og digitalisering. Sandkassen skal gj&#248;re det lettere &#229; utvikle KI-l&#248;sninger som etterlever personvernregelverket, og &#229; avdekke svakheter tidlig...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/veiledning/utvikling-og-formidling-av-veiledning/">Utvikling og formidling av veiledning</a> <a class="capability-chip" href="../../../kapabiliteter/juridisk-samhandling/regelverkstolkning/">Regelverkstolkning</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/147-Regulatorisk-sandkasse-for-kunstig-intelligens-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.datatilsynet.no/regelverk-og-verktoy/sandkasse-for-kunstig-intelligens/">Offisiell lenke</a></p>
 </article>
   </div>
   <script>

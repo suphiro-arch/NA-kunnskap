@@ -35,7 +35,7 @@ Prototypen er særlig relevant for:
 
 ## Hvordan ressursoversikten bygges
 
-Ressursoversikten og ressursbeskrivelsene er bygget fra kildedata i repoet, lenkesjekkede kilder og KI-assistert utforming.
+Ressursoversikten og ressursbeskrivelsene er bygget fra kildedata i repoet, lenkesjekkede kilder og KI-assistert utforming. Alt arbeidsgrunnlaget er åpent: registeret, ressursbeskrivelsene, kapabilitetskoblingene og genereringsskriptene ligger i [NA-kunnskap på GitHub](https://github.com/suphiro-arch/NA-kunnskap).
 
 Prosess i korte trekk:
 
@@ -49,6 +49,9 @@ Verktøy som brukes i dag:
 
 - PowerShell-script for generering av ressurssider.
 - Python-script for sammenstilling av kapabilitetssider og koblinger.
+- Kontrollskript som stopper publisering ved tegnkodingsfeil, versjonsavvik mellom register og kapabilitetsmapping, og kildelenker som ikke er registrert.
 - Hugo for bygging og visning av nettstedet.
+
+Vil du se hvordan dette henger sammen, ligger både kildefilene og skriptene åpent i [repoet](https://github.com/suphiro-arch/NA-kunnskap).
 
 Løsningen er fortsatt en testflate. Struktur, innhold og presentasjon justeres fortløpende etter hvert som ressursgrunnlaget modnes.
