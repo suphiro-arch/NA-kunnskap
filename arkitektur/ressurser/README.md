@@ -153,7 +153,7 @@ En oppdatering av en ressursbeskrivelse er ikke ferdig før også `produktnummer
 
 Når du legger inn en ressurs og kan nå finne den på:
 - **Toppnivå**: `https://suphiro-arch.github.io/NA-kunnskap/ressursoversikt/` (alle ressurser)
-- **Kategori**: `/ressursoversikt/produkter/operative-losninger-og-tjenester/`, `/normerende-ressurser/`, `/samarbeidsfora/` og `/rammer-og-virkemidler/`
+- **Kategori**: `/ressursoversikt/ressurser/operative-losninger-og-tjenester/`, `/normerende-ressurser/`, `/samarbeidsfora/` og `/rammer-og-virkemidler/`
 - **Søk og filtrering**: Direkte på oversiktssiden med valgbare filter.
 
 ---

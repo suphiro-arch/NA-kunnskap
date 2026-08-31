@@ -49,10 +49,10 @@
               {{ if $isInSectionBranch }}
                 {{ if eq $section.Section "ressursoversikt" }}
                 <ul class="site-nav__sublist">
-                  <li><a href="{{ .Site.BaseURL }}ressursoversikt/produkter/operative-losninger-og-tjenester/">Gjenbrukbare løsninger</a></li>
-                  <li><a href="{{ .Site.BaseURL }}ressursoversikt/produkter/normerende-ressurser/">Standarder og veiledning</a></li>
-                  <li><a href="{{ .Site.BaseURL }}ressursoversikt/produkter/samarbeidsfora/">Samhandlingsarenaer og organisering</a></li>
-                  <li><a href="{{ .Site.BaseURL }}ressursoversikt/produkter/rammer-og-virkemidler/">Økonomiske og juridiske rammer og virkemidler</a></li>
+                  <li><a href="{{ .Site.BaseURL }}ressursoversikt/ressurser/operative-losninger-og-tjenester/">Gjenbrukbare løsninger</a></li>
+                  <li><a href="{{ .Site.BaseURL }}ressursoversikt/ressurser/normerende-ressurser/">Standarder og veiledning</a></li>
+                  <li><a href="{{ .Site.BaseURL }}ressursoversikt/ressurser/samarbeidsfora/">Samhandlingsarenaer og organisering</a></li>
+                  <li><a href="{{ .Site.BaseURL }}ressursoversikt/ressurser/rammer-og-virkemidler/">Økonomiske og juridiske rammer og virkemidler</a></li>
                 </ul>
                 {{ else }}
                   {{ $children := $section.Sections.ByWeight }}
