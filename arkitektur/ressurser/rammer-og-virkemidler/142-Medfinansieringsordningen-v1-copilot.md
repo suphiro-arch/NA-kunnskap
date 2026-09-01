@@ -127,7 +127,7 @@ Svakhet: En finansieringsordning kan trekke mot prosjektlogikk og kortsiktige le
 - https://www.digdir.no/innovasjon/innovasjon-i-offentlig-sektor/881
 
 ## Kildegrunnlag brukt i utfyllingen
-- `sources/2026-04-10-digdir-virkemiddeloversikt-raw.md`, kontrollert 2026-08-19
+- `Digdirs virkemiddeloversikt (intern presentasjon, mars 2026)`, kontrollert 2026-08-19
 - https://www.digdir.no/innovasjon/innovasjon-i-offentlig-sektor/881, kontrollert 2026-08-19
 - `arkitektur/prinsipper/principles.md`, kontrollert 2026-08-19
 - `arkitektur/kapabiliteter/capabilities.yaml`, kontrollert 2026-08-19

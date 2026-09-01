@@ -111,7 +111,8 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Hvis nye generelle regler blir viktige for repoet, legg dem i denne fila heller enn å spre dem tilfeldig i enkeltfiler.
 - Ved slutten av en kjøring skal assistenten oppsummere hvilke filer som er opprettet eller endret, med relativ lenke til hver fil og én linje om hva som er gjort i den. Oppsummeringen skal gjøre det mulig å kontrollere arbeidet uten å lese diffen, og skal skille tydelig mellom nye filer og endrede filer.
 - Oppsummeringen skal også si hva som ikke ble gjort når noe i oppgaven ble stoppet, utsatt eller avgrenset, slik at gjenstående arbeid ikke blir usynlig.
-- `briefs/next-step.md` skal holdes i `.gitignore`, men brukes likevel som sporet arbeidsnotat i repoet fordi fila allerede er etablert som lokal statusflate og ikke skal publiseres.
+- `briefs/next-step.md` er sporet i Git og dermed offentlig, selv om fila står i `.gitignore`. Oppføringen har ingen virkning fordi fila var sporet før den ble lagt inn. Dette er bevisst: fila brukes som felles statusflate mellom kjøringer, og innholdet skal skrives med samme åpenhetsvurdering som resten av repoet.
+- `briefs/next-step.md` er et planleggingsverktøy, ikke en logg. Den viser hva som er åpent nå. Ferdige punkter fjernes i stedet for å bli stående, og planer som ikke er fulgt opp og heller ikke besluttet, flyttes til seksjonen `Løse ideer`. Hva som er gjort, ligger i Git-historikken; varige valg ligger i `briefs/decisions.md`.
 
 ## Assistentkjøringer
 - Assistentkjøringer som oppretter eller endrer markdownfiler skal eksplisitt kjøre encoding-kontroll før de avsluttes, ikke bare stole på visuell sjekk eller at hooks eventuelt fanger feil senere.

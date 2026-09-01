@@ -152,7 +152,7 @@ Svakhet: Ressursen er overordnet og må alltid suppleres med mer operative metod
 
 ## Kildegrunnlag brukt i utfyllingen
 - `sources/links.md`, kontrollert 2026-05-28
-- `sources/2026-04-10-digdir-virkemiddeloversikt-raw.md`, kontrollert 2026-05-28
+- `Digdirs virkemiddeloversikt (intern presentasjon, mars 2026)`, kontrollert 2026-05-28
 - https://www.regjeringen.no/no/dokumenter/digitaliseringsrundskrivet/id3103320/, kontrollert 2026-05-28
 - https://www.digdir.no/styring-og-organisering/digitaliseringsrundskrivet/1230, kontrollert 2026-05-28
 - https://www.digdir.no/krav-og-anbefalinger/folg-prinsipp-digitaliseringstiltak/3101, kontrollert 2026-05-28

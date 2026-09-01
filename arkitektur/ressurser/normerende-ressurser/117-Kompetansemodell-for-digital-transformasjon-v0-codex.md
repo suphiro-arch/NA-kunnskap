@@ -98,6 +98,6 @@ Ressursen publiseres som nettbasert innhold på digdir.no.
 
 ## Kildegrunnlag brukt i utfyllingen
 - `sources/links.md`, kontrollert 2026-04-10
-- `sources/2026-04-10-digdir-virkemiddeloversikt-raw.md`, kontrollert 2026-04-10
+- `Digdirs virkemiddeloversikt (intern presentasjon, mars 2026)`, kontrollert 2026-04-10
 - https://www.digdir.no/digitalisering-og-samordning/politikk-og-overordnede-foringer/3294 , kontrollert 2026-04-10
 - https://www.digdir.no/innovasjon/hva-er-digital-transformasjon/1589 , kontrollert 2026-04-10

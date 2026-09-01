@@ -126,6 +126,6 @@ Foreløpig ikke offentlig detaljert i denne v1-beskrivelsen.
 
 ## Kildegrunnlag brukt i utfyllingen
 - `sources/links.md`, kontrollert 2026-04-10
-- `sources/2026-04-10-digdir-virkemiddeloversikt-raw.md`, kontrollert 2026-04-10
+- `Digdirs virkemiddeloversikt (intern presentasjon, mars 2026)`, kontrollert 2026-04-10
 - https://samarbeid.digdir.no/, kontrollert 2026-04-10
 - https://samarbeid.digdir.no/digital-postkasse/om-samarbeidsportalen/82, kontrollert 2026-04-10

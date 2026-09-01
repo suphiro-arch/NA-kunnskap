@@ -134,7 +134,7 @@ Begrensning: indeksen har ingen forpliktende virkemidler. Den gjør et problem m
 ## Kildegrunnlag brukt i utfyllingen
 - https://www.uutilsynet.no/innsikt-og-analyse/nasjonal-indeks-digital-inkludering-di-indeks/2897, kontrollert 2026-08-28
 - https://www.uutilsynet.no/innsikt-og-analyse/ny-nasjonal-indeks-digital-inkludering/2947, kontrollert 2026-08-28
-- `sources/2026-04-10-digdir-virkemiddeloversikt-raw.md`, kontrollert 2026-08-28
+- `Digdirs virkemiddeloversikt (intern presentasjon, mars 2026)`, kontrollert 2026-08-28
 - `arkitektur/kapabiliteter/capabilities.yaml`, kontrollert 2026-08-28
 - `arkitektur/prinsipper/principles.md`, kontrollert 2026-08-28
 - `arkitektur/ressurser/styringsregler.md`, kontrollert 2026-08-28

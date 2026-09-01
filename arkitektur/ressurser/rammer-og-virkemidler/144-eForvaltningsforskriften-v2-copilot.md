@@ -147,7 +147,7 @@ Begrensning: forskriften er teknologinær på enkelte områder, blant annet i ka
 - https://lovdata.no/dokument/NL/lov/2025-06-20-96, kontrollert 2026-08-28
 - https://www.regjeringen.no/no/aktuelt/ny-arkivlov-trer-i-kraft-1.-januar-2026/id3110253/, kontrollert 2026-08-28
 - https://www.nasjonalarkivet.no/offentlig-forvaltning/regelverk-og-standarder/lover-og-forskrifter/lov-om-dokumentasjon-og-arkiv-arkivlova/, kontrollert 2026-08-28
-- `sources/2026-04-10-digdir-virkemiddeloversikt-raw.md`, kontrollert 2026-08-28
+- `Digdirs virkemiddeloversikt (intern presentasjon, mars 2026)`, kontrollert 2026-08-28
 - `arkitektur/kapabiliteter/capabilities.yaml`, kontrollert 2026-08-28
 - `arkitektur/prinsipper/principles.md`, kontrollert 2026-08-28
 - `arkitektur/ressurser/styringsregler.md`, kontrollert 2026-08-28

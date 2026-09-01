@@ -119,6 +119,6 @@ DSOP støtter samhandling og datadeling, men kan også innebære høy koordinasj
 
 ## Kildegrunnlag brukt i utfyllingen
 - `sources/links.md`, kontrollert 2026-04-10
-- `sources/2026-04-10-digdir-virkemiddeloversikt-raw.md`, kontrollert 2026-04-10
+- `Digdirs virkemiddeloversikt (intern presentasjon, mars 2026)`, kontrollert 2026-04-10
 - https://www.dsop.no/ , kontrollert 2026-04-10
 - https://www.digdir.no/digitale-felleslosninger/altinn-gir-rekordinnsparing-naeringslivet/1912 , kontrollert 2026-04-10

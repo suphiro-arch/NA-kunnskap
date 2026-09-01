@@ -143,7 +143,7 @@ Begrensningen er at prinsippstøtten er indirekte. Hvis deltakelsen er smal elle
 
 ## Kildegrunnlag brukt i utfyllingen
 - `sources/links.md`, kontrollert 2026-05-05
-- `sources/2026-04-10-digdir-virkemiddeloversikt-raw.md`, kontrollert 2026-05-05
+- `Digdirs virkemiddeloversikt (intern presentasjon, mars 2026)`, kontrollert 2026-05-05
 - `arkitektur/kapabiliteter/capabilities.yaml`, kontrollert 2026-05-05
 - `arkitektur/prinsipper/principles.md`, kontrollert 2026-05-05
 - https://www.digdir.no/informasjonssikkerhet/nettverk-informasjonssikkerhet-nifs/2186, kontrollert 2026-05-05

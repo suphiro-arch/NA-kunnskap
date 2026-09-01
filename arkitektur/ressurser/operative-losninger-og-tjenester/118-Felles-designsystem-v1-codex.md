@@ -115,6 +115,6 @@ Foreløpig ikke fylt ut i detalj i denne v1-beskrivelsen.
 
 ## Kildegrunnlag brukt i utfyllingen
 - `sources/links.md`, kontrollert 2026-04-10
-- `sources/2026-04-10-digdir-virkemiddeloversikt-raw.md`, kontrollert 2026-04-10
+- `Digdirs virkemiddeloversikt (intern presentasjon, mars 2026)`, kontrollert 2026-04-10
 - https://designsystemet.no/ , kontrollert 2026-04-10
 - https://designsystemet.no/no/fundamentals/code/react , kontrollert 2026-04-10

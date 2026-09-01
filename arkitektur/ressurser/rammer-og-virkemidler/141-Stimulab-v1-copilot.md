@@ -147,7 +147,7 @@ Svakhet: Ordningen er prosjektbasert og kan gi mindre varig effekt dersom erfari
 
 ## Kildegrunnlag brukt i utfyllingen
 - `sources/links.md`, kontrollert 2026-08-19
-- `sources/2026-04-10-digdir-virkemiddeloversikt-raw.md`, kontrollert 2026-08-19
+- `Digdirs virkemiddeloversikt (intern presentasjon, mars 2026)`, kontrollert 2026-08-19
 - https://www.digdir.no/innovasjon/stimulab/1706, kontrollert 2026-08-19
 - https://www.digdir.no/stimulab/dette-er-stimulab/786, kontrollert 2026-08-19
 - https://www.digdir.no/stimulab/prosjektportefolje-stimulab/866, kontrollert 2026-08-19

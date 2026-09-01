@@ -167,7 +167,7 @@ Vurdering av svakheter og spenninger:
 
 ## Kildegrunnlag brukt i utfyllingen
 - Lokal fil: `sources/links.md`
-- Lokal fil: `sources/2026-04-10-digdir-virkemiddeloversikt-raw.md`
+- Lokal fil: `Digdirs virkemiddeloversikt (intern presentasjon, mars 2026)`
 - Nettkilde: https://designsystemet.no/no (kontrollert 2026-05-18)
 - Nettkilde: https://designsystemet.no/no/intro/about-the-design-system (kontrollert 2026-05-18)
 - Nettkilde: https://designsystemet.no/no/blog/cba (kontrollert 2026-05-18)

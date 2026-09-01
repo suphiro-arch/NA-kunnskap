@@ -127,7 +127,7 @@ Begrensning: ordningen virker på mottakersiden. Den kompenserer for at digitale
 ## Kildegrunnlag brukt i utfyllingen
 - https://www.digdir.no/finansiering/tilskudd-til-etablering-av-kommunale-opplaeringstilbud-i-digital-kompetanse-til-innbyggerne/5728, kontrollert 2026-08-28
 - https://www.digdir.no/digital-inkludering/digital-inkludering/5760, kontrollert 2026-08-28
-- `sources/2026-04-10-digdir-virkemiddeloversikt-raw.md`, kontrollert 2026-08-28
+- `Digdirs virkemiddeloversikt (intern presentasjon, mars 2026)`, kontrollert 2026-08-28
 - `arkitektur/kapabiliteter/capabilities.yaml`, kontrollert 2026-08-28
 - `arkitektur/prinsipper/principles.md`, kontrollert 2026-08-28
 - `arkitektur/ressurser/styringsregler.md`, kontrollert 2026-08-28

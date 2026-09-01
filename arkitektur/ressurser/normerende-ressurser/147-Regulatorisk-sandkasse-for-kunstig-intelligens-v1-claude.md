@@ -137,7 +137,7 @@ Begrensning: sandkassen dekker bare personvern. En KI-løsning som er avklart he
 - https://www.datatilsynet.no/regelverk-og-verktoy/sandkasse-for-kunstig-intelligens/, kontrollert 2026-08-28
 - https://www.datatilsynet.no/regelverk-og-verktoy/sporsmal-svar/sandkasse-for-kunstig-intelligens/, kontrollert 2026-08-28
 - https://www.datatilsynet.no/en/regulations-and-tools/sandbox-for-artificial-intelligence/, kontrollert 2026-08-28
-- `sources/2026-04-10-digdir-virkemiddeloversikt-raw.md`, kontrollert 2026-08-28
+- `Digdirs virkemiddeloversikt (intern presentasjon, mars 2026)`, kontrollert 2026-08-28
 - `arkitektur/kapabiliteter/capabilities.yaml`, kontrollert 2026-08-28
 - `arkitektur/prinsipper/principles.md`, kontrollert 2026-08-28
 - `arkitektur/ressurser/styringsregler.md`, kontrollert 2026-08-28

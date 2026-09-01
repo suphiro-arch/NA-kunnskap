@@ -118,5 +118,5 @@ Forumet støtter prinsipper om samordning og gjenbruk, men effekten avhenger av 
 
 ## Kildegrunnlag brukt i utfyllingen
 - `sources/links.md`, kontrollert 2026-04-10
-- `sources/2026-04-10-digdir-virkemiddeloversikt-raw.md`, kontrollert 2026-04-10
+- `Digdirs virkemiddeloversikt (intern presentasjon, mars 2026)`, kontrollert 2026-04-10
 - https://www.digdir.no/media/1977/download , kontrollert 2026-04-10

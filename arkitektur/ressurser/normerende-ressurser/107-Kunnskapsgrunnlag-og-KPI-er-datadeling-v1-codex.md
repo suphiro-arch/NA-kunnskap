@@ -134,7 +134,7 @@ Begrensning: prinsippstøtten er indirekte. Ressursen gir først verdi når den 
 ## Kildegrunnlag brukt i utfyllingen
 - `sources/links.md`, kontrollert 2026-05-08
 - `sources/2025-03-18-Nasjonal Arkitektur.xml`, kontrollert 2026-05-08
-- `sources/2026-04-10-digdir-virkemiddeloversikt-raw.md`, kontrollert 2026-05-08
+- `Digdirs virkemiddeloversikt (intern presentasjon, mars 2026)`, kontrollert 2026-05-08
 - `arkitektur/ressurser/produktnummerering.md`, kontrollert 2026-05-08
 - https://www.digdir.no/datadeling/slik-kommer-du-i-gang-med-bruke-data-fra-andre/2255, registrert i repoets lenkegrunnlag
 - https://www.digdir.no/samhandling/nasjonal-arkitektur/2150, registrert i repoets lenkegrunnlag

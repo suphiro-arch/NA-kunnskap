@@ -4,7 +4,7 @@ author: codex
 status: draft
 topic: vurdering-av-flere-ressurstyper-fra-digdir-virkemiddeloversikt
 sources:
-  - sources/2026-04-10-digdir-virkemiddeloversikt-raw.md
+  - Digdirs virkemiddeloversikt (intern presentasjon, mars 2026)
   - arkitektur/ressurser/styringsregler.md
   - briefs/decisions.md
 ---

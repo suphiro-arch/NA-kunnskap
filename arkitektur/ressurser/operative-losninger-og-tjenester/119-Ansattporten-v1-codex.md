@@ -114,6 +114,6 @@ Foreløpig ikke fylt ut i detalj i denne v1-beskrivelsen.
 
 ## Kildegrunnlag brukt i utfyllingen
 - `sources/links.md`, kontrollert 2026-04-10
-- `sources/2026-04-10-digdir-virkemiddeloversikt-raw.md`, kontrollert 2026-04-10
+- `Digdirs virkemiddeloversikt (intern presentasjon, mars 2026)`, kontrollert 2026-04-10
 - https://docs.digdir.no/docs/ansattporten/ansattporten_wellknown.html , kontrollert 2026-04-10
 - https://docs.digdir.no/docs/ansattporten/ansattporten_protocol.html , kontrollert 2026-04-10

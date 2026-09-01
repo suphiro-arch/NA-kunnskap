@@ -169,7 +169,7 @@ Vurdering av svakheter og spenninger:
 
 ## Kildegrunnlag brukt i utfyllingen
 - Lokal fil: `sources/links.md`
-- Lokal fil: `sources/2026-04-10-digdir-virkemiddeloversikt-raw.md`
+- Lokal fil: `Digdirs virkemiddeloversikt (intern presentasjon, mars 2026)`
 - Nettkilde: https://docs.digdir.no/docs/ansattporten/ansattporten_om.html (kontrollert 2026-05-18)
 - Nettkilde: https://docs.digdir.no/docs/ansattporten/ansattporten_wellknown.html (kontrollert 2026-05-18)
 - Nettkilde: https://docs.digdir.no/docs/ansattporten/ansattporten_protocol.html (kontrollert 2026-05-18)

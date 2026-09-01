@@ -149,7 +149,7 @@ DSOP støtter samhandling og gjenbruk, men gjør også avhengigheter og kompromi
 
 ## Kildegrunnlag brukt i utfyllingen
 - `sources/links.md`, kontrollert 2026-05-06
-- `sources/2026-04-10-digdir-virkemiddeloversikt-raw.md`, kontrollert 2026-05-06
+- `Digdirs virkemiddeloversikt (intern presentasjon, mars 2026)`, kontrollert 2026-05-06
 - `arkitektur/kapabiliteter/capabilities.yaml`, kontrollert 2026-05-06
 - `arkitektur/prinsipper/principles.md`, kontrollert 2026-05-06
 - https://bits.no/project/dsop/, kontrollert 2026-05-06

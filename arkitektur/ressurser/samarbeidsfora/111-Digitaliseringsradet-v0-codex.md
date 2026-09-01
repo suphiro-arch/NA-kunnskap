@@ -125,7 +125,7 @@ Digitaliseringsrådet støtter viktige prinsipper om brukerorientering, samhandl
 
 ## Kildegrunnlag brukt i utfyllingen
 - `sources/links.md`, kontrollert 2026-04-10
-- `sources/2026-04-10-digdir-virkemiddeloversikt-raw.md`, kontrollert 2026-04-10
+- `Digdirs virkemiddeloversikt (intern presentasjon, mars 2026)`, kontrollert 2026-04-10
 - https://www.digdir.no/digitaliseringsradet/om-digitaliseringsradet/7589 , kontrollert 2026-04-10
 - https://www.digdir.no/digitaliseringsradet/digitaliseringsradets-mandat/1878 , kontrollert 2026-04-10
 - https://www.digdir.no/digitaliseringsradet/digitaliseringsradets-arbeid/1875 , kontrollert 2026-04-10

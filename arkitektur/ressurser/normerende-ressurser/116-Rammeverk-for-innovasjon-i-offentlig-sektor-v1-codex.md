@@ -118,6 +118,6 @@ Rammeverket gir begrenset effekt hvis virksomheter ikke kobler innovasjonsarbeid
 
 ## Kildegrunnlag brukt i utfyllingen
 - sources/links.md, kontrollert 2026-05-03
-- sources/2026-04-10-digdir-virkemiddeloversikt-raw.md, kontrollert 2026-05-03
+- Digdirs virkemiddeloversikt (intern presentasjon, mars 2026), kontrollert 2026-05-03
 - https://www.digdir.no/innovasjon/innovasjon-i-offentlig-sektor/881, kontrollert 2026-05-03
 - https://www.digdir.no/innovasjon/hva-er-innovasjon-i-offentlig-sektor/3073, kontrollert 2026-05-03

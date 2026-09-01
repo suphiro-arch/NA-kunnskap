@@ -95,12 +95,12 @@ Foreløpig ikke fylt ut i detalj i v0.
   Ressursen kan bidra til mer systematisk læring og gjenbruk av arbeidsmåter og erfaringer.
 
 ## Lenke til dokumentasjon
-- `sources/2026-04-10-digdir-virkemiddeloversikt-raw.md`
+- `Digdirs virkemiddeloversikt (intern presentasjon, mars 2026)`
 - https://www.digdir.no/innovasjon/innovasjon-i-offentlig-sektor/881
 - https://www.digdir.no/innovasjon/hva-er-innovasjon-i-offentlig-sektor/3073
 
 ## Kildegrunnlag brukt i utfyllingen
 - `sources/links.md`, kontrollert 2026-04-10
-- `sources/2026-04-10-digdir-virkemiddeloversikt-raw.md`, kontrollert 2026-04-10
+- `Digdirs virkemiddeloversikt (intern presentasjon, mars 2026)`, kontrollert 2026-04-10
 - https://www.digdir.no/innovasjon/innovasjon-i-offentlig-sektor/881 , kontrollert 2026-04-10
 - https://www.digdir.no/innovasjon/hva-er-innovasjon-i-offentlig-sektor/3073 , kontrollert 2026-04-10

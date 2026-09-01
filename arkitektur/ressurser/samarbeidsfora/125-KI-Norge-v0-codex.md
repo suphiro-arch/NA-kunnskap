@@ -111,6 +111,6 @@ Det finnes også en tydelig svakhet i denne tidlige fasen: så lenge rolle og ar
 
 ## Kildegrunnlag brukt i utfyllingen
 - `sources/links.md`, kontrollert 2026-04-10
-- `sources/2026-04-10-digdir-virkemiddeloversikt-raw.md`, kontrollert 2026-04-10
+- `Digdirs virkemiddeloversikt (intern presentasjon, mars 2026)`, kontrollert 2026-04-10
 - https://www.digdir.no/kunstig-intelligens/digdir-etablerer-ki-norge/7412, kontrollert 2026-04-10
 - https://www.digdir.no/kunstig-intelligens/veiledning-ki-i-offentlig-sektor/4132, kontrollert 2026-04-10

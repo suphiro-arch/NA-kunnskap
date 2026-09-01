@@ -145,7 +145,7 @@ Begrensningen er at FSIF ikke alene kan sikre etterlevelse. Dersom anbefalinger 
 
 ## Kildegrunnlag brukt i utfyllingen
 - `sources/links.md`, kontrollert 2026-05-05
-- `sources/2026-04-10-digdir-virkemiddeloversikt-raw.md`, kontrollert 2026-05-05
+- `Digdirs virkemiddeloversikt (intern presentasjon, mars 2026)`, kontrollert 2026-05-05
 - `arkitektur/kapabiliteter/capabilities.yaml`, kontrollert 2026-05-05
 - `arkitektur/prinsipper/principles.md`, kontrollert 2026-05-05
 - https://www.digdir.no/informasjonssikkerhet/felles-sikkerhet-i-forvaltningen/5957, kontrollert 2026-05-05

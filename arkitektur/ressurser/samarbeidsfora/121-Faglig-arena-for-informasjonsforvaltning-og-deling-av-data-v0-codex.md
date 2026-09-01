@@ -118,5 +118,5 @@ Forumet støtter viktige prinsipper om samhandling og datadeling, men hovedsakel
 
 ## Kildegrunnlag brukt i utfyllingen
 - `sources/links.md`, kontrollert 2026-04-10
-- `sources/2026-04-10-digdir-virkemiddeloversikt-raw.md`, kontrollert 2026-04-10
+- `Digdirs virkemiddeloversikt (intern presentasjon, mars 2026)`, kontrollert 2026-04-10
 - https://www.digdir.no/informasjonsforvaltning/faglig-arena-informasjonsforvaltning-og-deling-av-data/3543 , kontrollert 2026-04-10

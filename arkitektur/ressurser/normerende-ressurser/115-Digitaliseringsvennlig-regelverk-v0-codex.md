@@ -102,7 +102,7 @@ Ressursen publiseres som veiledningsinnhold på digdir.no.
 
 ## Kildegrunnlag brukt i utfyllingen
 - `sources/links.md`, kontrollert 2026-04-10
-- `sources/2026-04-10-digdir-virkemiddeloversikt-raw.md`, kontrollert 2026-04-10
+- `Digdirs virkemiddeloversikt (intern presentasjon, mars 2026)`, kontrollert 2026-04-10
 - https://www.digdir.no/digital-samhandling/prinsipp-3-bidra-til-digitaliseringsvennlige-regelverk/1057 , kontrollert 2026-04-10
 - https://www.digdir.no/datadeling/hva-hvorfor-og-hvordan/2870 , kontrollert 2026-04-10
 - https://www.digdir.no/datadeling/generelle-anbefalinger-lage-digitaliseringsvennlig-regelverk/2868 , kontrollert 2026-04-10

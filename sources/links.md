@@ -12,7 +12,6 @@ Sist redigert: 2026-06-17.
 - Samlet teknisk dokumentasjon: https://docs.digdir.no/
 - Samarbeidsportalen: https://samarbeid.digdir.no/
 - Om Samarbeidsportalen: https://samarbeid.digdir.no/digital-postkasse/om-samarbeidsportalen/82 (lagt til 2026-04-10)
-- Digdirs virkemiddeloversikt (råkilde i repo): /sources/2026-04-10-digdir-virkemiddeloversikt-raw.md (lagt til 2026-04-10)
 - Altinn: https://www.altinn.no
 - Altinn dokumentasjon: https://docs.altinn.studio/nb/ (mest oppdatert for Altinn)
 - Altinn - tjenesteutvikling: https://samarbeid.digdir.no/altinn/tjenesteutvikling/2634

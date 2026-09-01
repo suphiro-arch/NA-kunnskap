@@ -118,6 +118,6 @@ Ressursen gir ikke alene effekt hvis virksomheten mangler styringsforankring, de
 
 ## Kildegrunnlag brukt i utfyllingen
 - sources/links.md, kontrollert 2026-05-03
-- sources/2026-04-10-digdir-virkemiddeloversikt-raw.md, kontrollert 2026-05-03
+- Digdirs virkemiddeloversikt (intern presentasjon, mars 2026), kontrollert 2026-05-03
 - https://www.digdir.no/klart-sprak/ny-veileder-om-klart-sprak-i-utvikling-av-digitale-tjenester/3603, kontrollert 2026-05-03
 - https://www.digdir.no/klart-sprak/klart-sprak-forme-sluttproduktet/3567, kontrollert 2026-05-03

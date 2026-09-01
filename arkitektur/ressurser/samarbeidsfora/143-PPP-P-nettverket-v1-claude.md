@@ -170,6 +170,6 @@ Begrensning: nettverket har ingen forpliktende virkemidler. Det påvirker praksi
 - https://www.digdir.no/prosjektstyring/nettverk-prosjekt-program-og-portefoljestyring/1428, kontrollert 2026-08-27
 - https://prosjektveiviseren.digdir.no/godt-vite/nettverket-prosjekt-program-og-portefoljestyring/96, kontrollert 2026-08-27
 - https://www.digdir.no/digitalisering-og-samordning/nettverksmote-prosjekt-program-og-portefoljestyring-ppp-nettverk/7270, kontrollert 2026-08-27
-- `sources/2026-04-10-digdir-virkemiddeloversikt-raw.md`, kontrollert 2026-08-27
+- `Digdirs virkemiddeloversikt (intern presentasjon, mars 2026)`, kontrollert 2026-08-27
 - `arkitektur/kapabiliteter/capabilities.yaml`, kontrollert 2026-08-27
 - `arkitektur/prinsipper/principles.md`, kontrollert 2026-08-27

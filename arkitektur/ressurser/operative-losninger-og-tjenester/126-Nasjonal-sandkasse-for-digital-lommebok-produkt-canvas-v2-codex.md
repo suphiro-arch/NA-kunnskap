@@ -135,7 +135,7 @@ Publisert kostnadsmodell peker på at testing i sandkassen er kostnadsfri for de
 
 ## Kildegrunnlag brukt i utfyllingen
 - `sources/links.md`, kontrollert 2026-05-26
-- `sources/2026-04-10-digdir-virkemiddeloversikt-raw.md`, kontrollert 2026-05-26
+- `Digdirs virkemiddeloversikt (intern presentasjon, mars 2026)`, kontrollert 2026-05-26
 - https://samarbeid.digdir.no/digital-lommebok/samarbeidsfora-digital-lommebok/2902, kontrollert 2026-05-26
 - https://samarbeid.digdir.no/digital-lommebok/kostnadsmodell-nasjonal-sandkasse-lommebok/3286, kontrollert 2026-05-26
 - https://samarbeid.digdir.no/digital-lommebok/bruksvilkar-eidas-sandkassen/3292, kontrollert 2026-05-26

@@ -157,7 +157,7 @@ En tydelig begrensning er at prinsippstøtten blir svakere hvis modellen brukes 
 
 ## Kildegrunnlag brukt i utfyllingen
 - `sources/links.md`, kontrollert 2026-04-11
-- `sources/2026-04-10-digdir-virkemiddeloversikt-raw.md`, kontrollert 2026-04-11
+- `Digdirs virkemiddeloversikt (intern presentasjon, mars 2026)`, kontrollert 2026-04-11
 - https://prosjektveiviseren.digdir.no/ , kontrollert 2026-04-11
 - https://prosjektveiviseren.digdir.no/dokumentasjon/modellen/148 , kontrollert 2026-04-11
 - https://prosjektveiviseren.digdir.no/prosjekttyper/anskaffelser-i-prosjektveiviseren/74 , kontrollert 2026-04-11
