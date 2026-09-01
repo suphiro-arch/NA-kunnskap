@@ -121,3 +121,24 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Hvis en assistentkjøring bruker nye eksterne lenker som ikke allerede finnes i `sources/links.md`, skal kjøringen vurdere dem for opptak og normalt oppdatere `sources/links.md` i samme runde når lenkene er stabile, offisielle og relevante for senere ressursarbeid.
 - Endringer skal stages med eksplisitt filsti, for eksempel `git add sti/til/fil.md`. `git add -A` og `git add .` skal ikke brukes. Kommandoene tar med alt som ligger endret i arbeidsmappa, også arbeid fra andre kjøringer eller fra brukeren selv, og det har ført til at en kjøring har committet en annen kjørings endringer under sin egen commit-melding. Kjør `git status` før commit og bekreft at det som stages er ditt eget arbeid.
 - Hvis kjøringsmiljøet ikke har direkte skrivetilgang til `.git`, skal assistentkjøringer bruke minst mulig eskalering: gjør alt vanlig innholdsarbeid, alle valideringer og eventuell webgenerering uten eskalering først, og eskaler bare de nødvendige Git-stegene `git add`, `git commit` og `git push` helt til slutt når resultatet allerede er verifisert.
+
+## Kontroller før commit
+- Kontrollene i `tools/` er ikke automatiske. De skal kjøres eksplisitt i det arbeidet som endrer noe, uavhengig av verktøy, og før commit. Det finnes ingen planlagte kjøringer som gjør det etterpå.
+- Register og kapabilitetsmapping etter ressursarbeid:
+  `python tools/sync-resource-metadata.py --apply`
+  `python tools/check-resource-version-sync.py`
+- Seksjonsstruktur mot malen for kategorien:
+  `python tools/check-resource-structure.py --strict`
+- Eksterne lenker som er brukt uten å være registrert i `sources/links.md`:
+  `python tools/check-source-links.py`
+- Innebygd JavaScript i Hugo-maler og genererende skript:
+  `python tools/check-inline-js.py --strict`
+- Tegnkoding i endrede tekstfiler, og validering før Hugo-build:
+  `powershell -ExecutionPolicy Bypass -File tools/check-mojibake.ps1 -Root .`
+  `python web/hugo-prototype/scripts/validate-text-encoding.py`
+- Aktiver lokale git-hooks én gang per klone slik at både commit og push stoppes ved tegnkodingsfeil:
+  `powershell -ExecutionPolicy Bypass -File tools/setup-git-hooks.ps1`
+
+## Større tegnsettingsopprydding
+- Ved bredere opprydding i språk eller tegnkoding brukes `tools/safe_bulk_text_repair.py`. Kjør alltid dry-run først (`python tools/safe_bulk_text_repair.py`), vurder de foreslåtte diffene, kjør deretter `--apply`, og valider til slutt med `python web/hugo-prototype/scripts/validate-text-encoding.py`.
+- `--apply` lager automatisk backup under `.backups/encoding/<timestamp>/`. Backupen er lokal og skal ikke committes.

@@ -9,6 +9,8 @@ Råkilder ligger i `sources/`.
 Viktigste råkilde for kapabiliteter og prinsipper:
 - `sources/Nasjonal Arkitektur kapabilitetsmodell-2026-05-20.archimate`
 
+Masterkilde for videre oppdatering av modellen er Digdirs rammeverk for nasjonal arkitektur: https://digdir.github.io/nasjonal-arkitektur/. Modellfila over er den versjonen arbeidet så langt bygger på, og ved avvik mellom de to er rammeverket autoritativt.
+
 Dette er en modellfil som inneholder mer enn det repoet faktisk skal bruke videre. Den har også hjelpeelementer, generiske objekter og kopier som ikke bør gå rett inn i dokumentasjon og web.
 
 ## 2. Kuraterte arbeidsfiler

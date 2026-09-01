@@ -1,104 +1,144 @@
 # NA-kunnskap
 
-Repo for arbeid med nasjonal arkitektur, produktbeskrivelser, kapabiliteter, prinsipper og en Hugo-basert dokumentasjonsprototype.
+Åpent arbeidsrepo for nasjonal arkitektur: ressursbeskrivelser, kapabiliteter, prinsipper, mål og
+analyser, publisert som en lettlest dokumentasjonsprototype.
 
-## Formål
-- samle og videreutvikle produktbeskrivelser som grunnlag for arkitekturvurderinger
-- strukturere kapabiliteter, prinsipper og ressursoversikter
-- publisere en lettlest prototype på web med innhold fra repoet
-- bruke AI-assistenter på en sporbar og konsistent måte i analyse- og dokumentasjonsarbeid
+- Nettsted: <https://suphiro-arch.github.io/NA-kunnskap/>
+- Repo: <https://github.com/suphiro-arch/NA-kunnskap>
 
-## Viktigste mapper
-- `analyser/`: kapabilitetsanalyser, case-analyser og gjenbrukbare faglige leveranser
-- `analyser/Modenhetsanalyser/`: modenhetsanalyser og prioriteringsnotater
-- `sources/`: kildegrunnlag, lenker og rånotater
-- `briefs/`: arbeidsstyring, handover og beslutningsstøtte
-- `config/`: prompts, maler og annen styrende konfigurasjon
-- `arkitektur/`: strukturerte oversikter, blant annet kapabiliteter, produktregister og ressursbeskrivelser
-- `arkitektur/maal/`: kuratert målspor for arkitekturmodellen
-- `web/hugo-prototype/`: Hugo-kildekode for dokumentasjonsprototypen
-- `print/`: lokal og gitignorert arbeidsflate for presentasjoner og figurer
-- `tmp-overordnet-malbilde/`: lokal og gitignorert arbeidsflate for overordnet målbildeflyt
-- `handover/`: gammel reststruktur som ikke skal brukes for nye filer; flytt til `briefs/arbeidsstyring-og-handover/`
+Innholdet er arbeidsmateriale bygget på åpne kilder, ikke vedtatt styringsdokumentasjon. Det egner
+seg til tidlig problemavklaring og til å finne mulig gjenbruk før nye tiltak settes i gang. Det er
+ikke tilstrekkelig alene som grunnlag for juridiske vurderinger, anskaffelser eller styringsvedtak.
 
-## Styrende filer
-- [AGENTS.md](AGENTS.md): generelle repo-regler for assistenter
-- [styringsregler.md](arkitektur/ressurser/styringsregler.md): avgjør hvilken rammeverkskategori en kandidat tilhører – les denne først
-- [operative-ressurs-canvas.system.md](config/prompts/operative-ressurs-canvas.system.md): metode for gjenbrukbare løsninger og forbedringsarbeid
-- [normerende-ressurs-canvas.system.md](config/prompts/normerende-ressurs-canvas.system.md): metode for standarder og veiledning
-- [samarbeidsforum-canvas.system.md](config/prompts/samarbeidsforum-canvas.system.md): metode for samhandlingsarenaer og organisering
-- [designprofil-rapporter-og-presentasjoner.system.md](config/prompts/designprofil-rapporter-og-presentasjoner.system.md): felles designprofil for rapporter, presentasjoner og figurer
-- [briefs/README.md](briefs/README.md): hvordan `briefs/` brukes til arbeidsstyring og handover
-- [struktur-og-bearbeiding.md](arkitektur/struktur-og-bearbeiding.md): hvordan råkilder, kuraterte arbeidsfiler og videre bruk henger sammen i repoet
-- [AGENTS.md](AGENTS.md): beskriver også at `briefs/next-step.md` er sporet selv om fila står i `.gitignore`
+Beskrivelsene skiller mellom fakta, deduksjon og usikkerhet. Der åpne kilder ikke dekker et forhold,
+skal det stå i teksten framfor å fylles med sannsynlige antakelser.
 
-## Arbeidsflyt
+Vil du bruke innholdet mot din egen problemstilling i et KI-verktøy, står oppskriften i
+[Bruke innholdet med KI](#bruke-innholdet-med-ki) nederst.
 
-### Ressursbeskrivelser
-1. Samle og verifiser kilder i `sources/` og offisielle dokumentasjonskilder.
-2. Bruk `arkitektur/ressurser/styringsregler.md` til å avgjøre rammeverkskategori, last deretter riktig systempromt og lag eller oppdater ressursbeskrivelsen.
-3. Oppdater `arkitektur/ressurser/produktnummerering.md` med ny versjonspeker.
-4. Kjør `python tools/sync-resource-metadata.py --apply` og `python tools/check-resource-version-sync.py` for å verifisere register og kapabilitetsmapping.
-5. Kjør `python tools/check-resource-structure.py --strict` for å verifisere at beskrivelsen har seksjonene malen krever.
-6. Kjør `powershell -ExecutionPolicy Bypass -File tools/check-mojibake.ps1 -Root .` og `python web/hugo-prototype/scripts/validate-text-encoding.py` når tekstfiler er endret.
-7. Logg status i `briefs/next-step.md` og varige valg i `briefs/decisions.md`.
+## Hva du finner her
 
-### Analyser
-1. Bruk ressursbeskrivelser, `capabilities.yaml` og `principles.md` som grunnlag.
-2. Lag analyse i `analyser/` med versjonert filnavn etter gjeldende navnekonvensjon.
-3. Logg funn eller metodiske valg i `briefs/` ved behov.
+| Mappe | Innhold |
+| --- | --- |
+| `arkitektur/ressurser/` | ressursbeskrivelser, fordelt på gjenbrukbare løsninger, standarder og veiledning, samhandlingsarenaer og organisering, og økonomiske eller juridiske rammer og virkemidler |
+| `arkitektur/kapabiliteter/` | kapabilitetsstrukturen og koblingen mellom ressurser og kapabiliteter |
+| `arkitektur/prinsipper/` | arkitekturprinsipper og hvordan de henger på hovedkapabilitetene |
+| `arkitektur/maal/` | kuratert målspor for arkitekturmodellen |
+| `analyser/` | kapabilitetsanalyser, case-analyser og modenhetsanalyser |
+| `sources/` | råkilder og lenkelister, blant annet kapabilitetsmodellen i ArchiMate-format |
+| `briefs/` | arbeidsstyring, beslutningslogg og handover |
+| `config/` | systempromter, maler og språkregler som styrer innholdsarbeidet |
+| `web/hugo-prototype/` | Hugo-kildekoden bak nettstedet |
 
-### Webprototype
-1. Oppdater relevante genererte oversikter i `web/hugo-prototype/content/` når ressursbeskrivelser eller kapabilitetsmapping endres.
-2. Bruk `web/hugo-prototype/scripts/validate-text-encoding.py` for å validere encoding før build.
-3. GitHub Actions bygger og publiserer automatisk ved push til main.
+## Mastergrunnlag
 
-## Slik bruke innholdet med KI (utkast)
+Fire filer er operativ master. Endres noe annet, skal disse følge etter i samme endringssett.
 
-Dette er en enkel oppskrift du kan bruke for å kombinere innholdet i repoet med din egen problemstilling, uten egen backend eller ekstra infrastruktur.
+- [produktnummerering.md](arkitektur/ressurser/produktnummerering.md): register over ressurser,
+  ressurs-ID-er, eierkoder og gjeldende versjon. Start her for å få oversikt.
+- [capabilities.yaml](arkitektur/kapabiliteter/capabilities.yaml): kuratert kapabilitetsstruktur.
+- [produkt-kapabilitet-koblinger.yaml](arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml):
+  koblingen mellom ressurser og kapabiliteter, med faglig begrunnelse per kobling.
+- [principles.md](arkitektur/prinsipper/principles.md): prinsipper og kobling til hovedkapabiliteter.
 
-Kort forklart: du beskriver problemet ditt, gir KI-en tilgang til relevant innhold, og ber den koble problemet til kapabiliteter og mulig gjenbruk i eksisterende løsninger.
+Kapabiliteter, prinsipper og målspor er kuratert fra
+`sources/Nasjonal Arkitektur kapabilitetsmodell-2026-05-20.archimate`, som er modellversjonen
+arbeidet så langt bygger på. Masterkilde for videre oppdatering av modellen er Digdirs rammeverk for
+nasjonal arkitektur: <https://digdir.github.io/nasjonal-arkitektur/>. Ved avvik er rammeverket
+autoritativt, og de kuraterte filene her skal justeres etter det.
 
-### Mål
-- gjøre repoet lett å bruke som åpen kunnskapskilde i vanlige KI-verktøy
-- sikre sporbarhet til konkrete filer i repoet
-- kombinere repoets innhold med annen relevant informasjon på en kontrollert måte
+[struktur-og-bearbeiding.md](arkitektur/struktur-og-bearbeiding.md) forklarer hvordan råkilder,
+kuraterte arbeidsfiler og generert webinnhold henger sammen.
+[styringsregler.md](arkitektur/ressurser/styringsregler.md) avgjør hvilken rammeverkskategori en
+kandidat tilhører.
 
-### Hvem dette er for
-- deg som jobber med utviklingsbehov, prioritering eller arkitekturvalg
-- deg som ikke nødvendigvis bruker GitHub til daglig
-- deg som vil bruke KI til rask orientering før mer formell vurdering
+## Arbeide i repoet
 
-### Hva du gjør i praksis
-1. Skriv problemstillingen din så konkret du kan.
-2. Legg ved relevant innhold fra repoet på én av disse måtene:
-  - lim inn tekstutdrag direkte i KI-verktøyet
-  - legg ved lenke til nettsiden (Hugo-prototypen)
-  - legg ved lenke til fil i GitHub hvis du har den
-  - start gjerne med registerfila arkitektur/ressurser/produktnummerering.md for oversikt over ressurser og gjeldende versjoner
-3. Be KI-en peke ut hvilke kapabiliteter som er nødvendige for å løse behovet.
-4. Be KI-en foreslå hvilke eksisterende ressurser/løsninger som kan gjenbrukes.
-5. Be KI-en vise hva som mangler (gap), og hva du bør gjøre først med lav terskel og lav kost.
+[AGENTS.md](AGENTS.md) er den autoritative regelfila for alt arbeid her, uansett om det gjøres
+manuelt eller med KI-assistent. Den inneholder også kontrollene som skal kjøres før commit.
+[briefs/README.md](briefs/README.md) forklarer arbeidsstyringen. Verktøyspesifikke tillegg ligger i
+egne filer, som `CLAUDE.md` for Claude på Windows. De utvider AGENTS.md og erstatter den ikke.
 
-### Lavterskel oppskrift (uten særlige kostnader)
-1. Beskriv behovet ditt så detaljert som mulig: mål, kontekst, aktører, dagens løsning, begrensninger, avhengigheter, risiko og hva du ønsker å beslutte.
-2. Be KI-en bruke repoet som hovedkilde, og bare supplere med annen informasjon når dette merkes tydelig.
-3. Be KI-en eksplisitt koble problemstillingen til hvilke kapabiliteter som må styrkes eller etableres.
-4. Be KI-en foreslå hvilke eksisterende ressurser/løsninger som kan gjenbrukes for hver nødvendig kapabilitet.
-5. Be KI-en vise gap mellom nødvendig kapabilitet og dagens ressursdekning, med forslag til lavterskel neste steg.
+Innholdsarbeidet startes manuelt. Det finnes ingen planlagte kjøringer som oppdaterer register,
+ressursbeskrivelser eller webinnhold av seg selv.
 
-### Anbefalt prompt-mal
+Kontrollene i `tools/` kjøres eksplisitt i det arbeidet som endrer noe: tegnkoding, versjonssynk
+mellom register og mapping, seksjonsstruktur mot malen, kildelenker og innebygd JavaScript i
+Hugo-malene. Lokale git-hooks (`tools/setup-git-hooks.ps1`) stopper commit og push ved
+tegnkodingsfeil.
+
+To workflows kjører automatisk ved push til `main`: `encoding-guard` validerer tegnkoding, og
+`publish-hugo-prototype` bygger nettstedet og publiserer det til GitHub Pages som artifact-deploy.
+Bygget HTML committes ikke tilbake til repoet, og genererte oversikter under
+`web/hugo-prototype/content/` skal oppdateres fra kildene i `arkitektur/`, ikke håndredigeres.
+
+## Språk og form
+
+- dokumentinnhold skrives på norsk, med `æ`, `ø` og `å`
+- ASCII bare der teknikken krever det: filnavn, slugger og kode
+- skriv selvstendig og i aktiv form for målgruppen for nasjonal arkitektur, ikke som referat av andre
+  dokumenter
+- legg ved lenke til kilden framfor å skrive hovedteksten som henvisning
+- [sources/links.md](sources/links.md) er førstevalget for eksterne kilder, og oppdateres når nye
+  stabile lenker med gjenbruksverdi tas i bruk
+
+## Bruke innholdet med KI
+
+Du kan kombinere innholdet her med din egen problemstilling i et vanlig KI-verktøy, uten backend
+eller ekstra oppsett. Poenget er å finne ut hva som allerede finnes før du beskriver noe nytt:
+hvilke eksisterende ressurser dekker behovet helt eller delvis, hva står igjen når de er tatt i
+bruk, og hva er det da som faktisk mangler.
+
+Kapabilitetsmodellen kan brukes som en veileder inn til gjenbrukbare ressurser. Når du finner hvilke
+kapabiliteter behovet ditt handler om, får du samtidig beskrevet behovet i et felles språk som andre
+kjenner igjen, og du kan bruke `produkt-kapabilitet-koblinger.yaml` til å gå fra kapabilitet til
+ressurser som allerede dekker den. Det gir både et mulighetsrom for gjenbruk, og en struktur
+du kan planlegge videre etter: hvilke kapabiliteter du trenger, hvilke ressurser som kan støtte opp
+om dem, og hva som mangler i dag.
+
+1. Beskriv behovet konkret: mål, kontekst, aktører, dagens løsning, begrensninger, avhengigheter,
+   risiko og hva du ønsker å beslutte.
+2. Gi verktøyet tilgang til innholdet — lim inn lenken <https://github.com/suphiro-arch/NA-kunnskap>,
+   pek på enkeltfiler, eller lim inn tekstutdrag fra nettstedet.
+3. Be det bruke repoet som hovedkilde og merke all annen informasjon eksplisitt som ekstern.
+4. Be det finne kandidater til gjenbruk på to måter: via kapabilitetene behovet berører, og ved å
+   søke direkte i registeret. Deretter gap, og til slutt lavterskel neste steg.
+5. Be det oppgi hvilke filer og versjoner rådene bygger på. Uten kildepeker til repoet er svaret
+   ikke etterprøvbart.
+
+### Slik får du en analyse som holder
+
+Forskjellen mellom et generisk og et brukbart svar ligger som regel i disse grepene:
+
+- **Krev at gjenbruk vurderes før nye tiltak.** Uten den rekkefølgen foreslår verktøyet gjerne noe
+  nytt som allerede finnes under et annet navn.
+- **Krev at ressursbeskrivelsen leses, ikke bare registerlinja.** Registeret sier at en ressurs
+  finnes; beskrivelsen sier hva den dekker, hvem som eier den og hvor moden den er.
+- **Be om avgrensning i tillegg til treff.** En ressurs som dekker halve behovet er nyttig først når
+  det står hva den ikke dekker.
+- **Spør etter alle ressurstypene, ikke bare tekniske løsninger.** En løsning er bare én av fire
+  kategorier her. Standarder og veiledning, samhandlingsarenaer og organisering, og økonomiske eller
+  juridiske rammer og virkemidler er også ressurser som kan dekke behovet, helt eller delvis. Ofte er
+  svaret på et behov en standard som allerede finnes eller en arena som allerede har mandatet, ikke
+  noe som skal bygges.
+- **Be verktøyet si hva det ikke fant.** Registeret er ikke komplett. At en ressurs mangler her,
+  betyr ikke at den ikke finnes, og forskjellen mellom «finnes ikke» og «ikke beskrevet her» må stå
+  i svaret.
+- **Ikke be om beslutningen.** Be om hva som må avklares før du kan beslutte, og hvem som må
+  involveres.
+
+### Prompt-mal
 
 ```text
 Du er faglig rådgiver for [sett inn virksomhet, sektor eller problemområde].
 Du henvender deg direkte til meg som bruker.
 
 Bruk innhold fra dette repoet som hovedgrunnlag:
-- arkitektur/ressurser/
-- arkitektur/ressurser/produktnummerering.md
+- arkitektur/ressurser/produktnummerering.md (register: start her)
+- arkitektur/ressurser/ (ressursbeskrivelsene selv)
+- arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml
 - arkitektur/kapabiliteter/capabilities.yaml
 - arkitektur/prinsipper/principles.md
-- arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml
 
 Oppgave:
 [Lim inn problemstilling, målgruppe og ønsket beslutning]
@@ -107,106 +147,24 @@ Innhold du skal bruke:
 [Lim inn tekstutdrag, nettsidelenker eller fil-lenker her]
 
 Svarformat:
-1. Kort oppsummering av behov
-2. Nødvendige kapabiliteter for å løse behovet (med begrunnelse)
-3. Mulig gjenbruk: hvilke eksisterende ressurser/løsninger støtter hver kapabilitet
-4. Foreslåtte kombinasjoner av løsninger og hvorfor de henger sammen
-5. Gap og avklaringer før beslutning
-6. Konkrete neste steg (lav terskel, lav kost)
+1. Kort oppsummering av behovet slik du forstår det
+2. Mulig gjenbruk: eksisterende ressurser som dekker behovet helt eller delvis, med hva hver av dem
+   dekker og hva den ikke dekker
+3. Restbehov etter gjenbruk, uttrykt som kapabiliteter som må styrkes eller etableres
+4. Prinsipper som er relevante for retningen, og hva de krever av løsningen
+5. Relevante ressurser i de øvrige kategoriene: standarder og veiledning, samhandlingsarenaer og
+   organisering, og økonomiske eller juridiske rammer og virkemidler
+6. Gap og avklaringer før beslutning, inkludert hva du ikke fant grunnlag for i repoet
+7. Konkrete neste steg med lav terskel og lav kost
 
 Krav:
+- Vurder gjenbruk før du foreslår noe nytt.
+- Les ressursbeskrivelsen, ikke bare registerlinja, før du vurderer en ressurs som treff.
 - Skill mellom fakta, deduksjon og usikkerhet.
-- Henvis til konkrete filstier i repoet.
-- Forklar alltid hvordan kildene henger sammen med repoet (for eksempel registermaster -> ressursfil -> kapabilitetskobling).
-- Når det er nyttig for deling utenfor repoet, bruk full URL til fil (for eksempel https://github.com/<org>/<repo>/blob/main/<sti>) i tillegg til filsti.
-- Hvis du bruker ekstern informasjon, merk den eksplisitt som ekstern.
+- Henvis til konkrete filstier og versjoner i repoet.
+- Forklar hvordan kildene henger sammen (register -> ressursfil -> kapabilitetskobling).
+- Si eksplisitt hva du ikke fant, og skill "finnes ikke" fra "ikke beskrevet i repoet".
+- Bruk full URL i tillegg til filsti når svaret skal deles utenfor repo-kontekst.
+- Merk ekstern informasjon eksplisitt som ekstern.
+- Ikke konkluder på min beslutning. Vis hva som må avklares før den kan tas.
 ```
-
-### Lenker og sporbarhet
-- Primærinngang for KI-bruk: https://github.com/suphiro-arch/NA-kunnskap/tree/main
-- Sekundær inngang for lesing og oversikt: https://suphiro-arch.github.io/NA-kunnskap/
-- Mange KI-verktøy forstår relative filstier godt når de har repoet tilgjengelig i samme kontekst.
-- Når svaret skal deles utenfor repo-kontekst, bruk fullstendige URL-er i tillegg til filstier.
-- Anbefaling: oppgi alltid begge deler når mottaker er ukjent:
-  - filsti i repo (for eksempel arkitektur/ressurser/produktnummerering.md)
-  - full URL til samme fil i GitHub
-
-Hvis du ikke bruker GitHub selv:
-- bruk nettsiden som enkel inngang for å finne tema og begreper
-- lim deretter inn GitHub-lenken over i KI-verktøyet og be verktøyet bruke repoet som hovedkilde
-- be KI-en oppgi hvilke filer og lenker den faktisk bygger rådene på
-
-For minst mulig manuell jobb:
-- start med én felles lenke til repoet (tree/main)
-- legg bare ved ekstra tekst hvis KI-svaret blir for generelt eller treffer dårlig
-
-### Minimumskrav for kvalitet
-- Ikke gi råd uten kildepeker til repoet.
-- Unngå generiske svar: anbefalinger skal forankres i konkret kobling mellom problemstilling -> kapabilitet -> mulig gjenbruk i løsninger.
-- Beskriv alltid hva som mangler for å kunne gi et tryggere svar.
-
-### Når denne metoden passer best
-- tidlig fase av problemavklaring
-- vurdering av gjenbruk før man lager nye tiltak
-- behov for rask oversikt med sporbare kilder
-
-### Når den ikke er nok alene
-- formelle juridiske vurderinger
-- anskaffelser eller styringsvedtak som krever kvalitetssikret beslutningsgrunnlag
-- saker med sensitivt eller ikke-offentlig datagrunnlag
-
-## Rådata og bearbeiding
-- `sources/` inneholder råkilder, lenkelister og sammenligningsgrunnlag.
-- `sources/Nasjonal Arkitektur kapabilitetsmodell-2026-05-20.archimate` er råmodellen for kapabiliteter, prinsipper og modellens målspor.
-- `arkitektur/kapabiliteter/capabilities.yaml` er den kuraterte arbeidsfila for kapabilitetsstrukturen.
-- `arkitektur/prinsipper/principles.md` er den kuraterte arbeidsfila for prinsipper og deres kobling til hovedkapabiliteter.
-- `arkitektur/maal/maal.md` er den kuraterte arbeidsfila for mål og overordnet målkobling i modellen.
-- `arkitektur/ressurser/produktnummerering.md` er operativ master for produktregister, ressurs-ID-er og statusoversikt.
-- `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml` er operativ master for koblingen mellom produkter og kapabiliteter.
-- `arkitektur/ressurser/` inneholder alle ressursbeskrivelser etter rammeverkskategoriene: gjenbrukbare løsninger, standarder og veiledning, samhandlingsarenaer og organisering, og økonomiske eller juridiske rammer og virkemidler.
-- Hugo-prototypen bruker de kuraterte arbeidsfilene og genererte oversiktene, ikke rå-XML direkte.
-
-## Webprototype
-- Hugo-prototypen bygges fra `web/hugo-prototype/`.
-- Publisert base-URL er konfigurert til:
-  - `https://suphiro-arch.github.io/NA-kunnskap/`
-- GitHub Pages publiserer bygget direkte fra GitHub Actions som artifact-deploy.
-
-## Prinsipper for innhold
-- skriv på norsk i dokumentinnhold
-- bruk `æ`, `ø` og `å` i vanlig tekst
-- skriv for målgruppen for nasjonal arkitektur i aktiv form
-- gjenfortell og syntetiser innholdet med egne formuleringer i stedet for å referere til hva andre kilder sier
-- legg ved lenker til kildene i stedet for å skrive hovedteksten som henvisning til andre dokumenter
-- bruk `sources/links.md` som førstevalg for eksterne kilder
-- oppgi ekstra kilder eksplisitt når arbeidet går bredere enn den lokale lenkelista
-- skill mellom fakta, deduksjon og usikkerhet
-
-## Robust tegnsettingsvern
-- bruk `web/hugo-prototype/scripts/validate-text-encoding.py` for å stoppe mistenkelige tegnkodingsfeil og BOM i validerte tekstfiler
-- bruk `tools/check-resource-version-sync.py` for å stoppe utdaterte register- og kapabilitetslenker til eldre ressursversjoner
-- bruk `tools/check-resource-structure.py` for å stoppe ressursbeskrivelser som mangler seksjoner malen krever, for eksempel etter en utilsiktet sletting under redigering
-- bruk `tools/check-inline-js.py` for å stoppe syntaksfeil i innebygd JavaScript før de brekker Hugo-byggingen
-- bruk `tools/sync-resource-metadata.py --apply` for å oppdatere mapping-metadata og opprette manglende mappingoppføringer som førsteutkast
-- bruk `tools/safe_bulk_text_repair.py` ved større oppryddinger i språk/encoding
-- aktiver lokal pre-commit guard én gang per klone:
-  `powershell -ExecutionPolicy Bypass -File tools/setup-git-hooks.ps1`
-- setup-scriptet aktiverer både `pre-commit` (staged sjekk) og `pre-push` (full sjekk)
-- lokal guard kan kjøres manuelt ved behov:
-  `powershell -ExecutionPolicy Bypass -File tools/check-mojibake.ps1 -Root .`
-  `python tools/check-resource-version-sync.py`
-  `python tools/check-resource-structure.py`
-  `python tools/check-inline-js.py`
-  `python tools/sync-resource-metadata.py --apply`
-
-Anbefalt bruk av sikker reparasjon:
-
-1. Kjor alltid dry-run forst:
-  `python tools/safe_bulk_text_repair.py`
-2. Vurder diff for filene scriptet foreslar.
-3. Kjor apply med backup:
-  `python tools/safe_bulk_text_repair.py --apply`
-4. Valider etterpa:
-  `python web/hugo-prototype/scripts/validate-text-encoding.py`
-
-Scriptet lager automatisk backup under `.backups/encoding/<timestamp>/` ved `--apply`.
