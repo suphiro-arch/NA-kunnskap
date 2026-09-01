@@ -3,6 +3,9 @@
 Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 
 ## Generelt
+- Repoet er offentlig. Alt som committes er publisert til alle i samme øyeblikk, og Git-historikken er permanent: en fil som slettes i en senere commit er fortsatt lesbar med `git show <sha>:<sti>`. Sletting er derfor ikke en måte å ta noe tilbake på.
+- Vurder sikkerhet før du committer, ikke etterpå. Konkret: ingen personopplysninger utover det som allerede er offentlig kjent i rollesammenheng, ingen interne dokumenter eller sitater fra dem som ikke er publisert fra før, ingen tilgangsdetaljer, tokens, interne URL-er, servernavn eller filstier fra interne systemer. Er du i tvil om noe tåler å være offentlig, ta det ikke med, og si fra i oppsummeringen i stedet.
+- Konsekvensen av dette gjelder også lokale hjelpefiler: `print/` og `tmp-overordnet-malbilde/` er gitignorert nettopp fordi innholdet ikke skal publiseres. Merk at `.gitignore` bare hindrer at nye filer blir sporet — en fil som allerede er sporet, publiseres videre uansett hva som står i `.gitignore`.
 - Skriv på norsk i dokumentinnhold, forklaringer og nye markdownfiler.
 - Bruk vanlig norsk tegnsett i dokumentinnhold: `æ`, `ø` og `å`.
 - Bruk ASCII bare der tekniske begrensninger krever det, for eksempel i filnavn, slugger, kode eller enkelte lokale git-hooker.
