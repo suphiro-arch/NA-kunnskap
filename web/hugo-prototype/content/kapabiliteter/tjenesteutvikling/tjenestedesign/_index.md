@@ -4,7 +4,7 @@ headerTitle: "Tjenesteutvikling - Tjenestedesign"
 eyebrow: "Kapabilitet"
 weight: 4
 description: "Evne til å sette brukerens behov, livssituasjon og helhetlige reise som utgangspunkt for utvikling av sammenhengende tjenester. ### Begrunnelse (Hvorfor) Digitale tjenester utvikles ofte basert på den enkelte virksomhets interne struktur og systemer fremfor brukernes faktiske hverdag. Dette skaper fragmenterte opplevelser der brukeren selv må koordinere kontakten med ulike offentlige etater. Kapabiliteten løser problemet med digitalt utenforskap og silobaserte tjenester ved å sikre at innsikt om brukerens adferd og utfordringer styrer utviklingen. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Sikring av rettighetene til sårbare grupper i tråd med Likestillings- og diskrimineringsloven. Etterlevelse av forskrift om universell utforming av IKT-løsninger (WCAG-standarden) for å hindre diskriminering. - **Organisatorisk (Svært høy vekt):** Systematisk innhenting av brukerinnsikt for å kartlegge tverrsektorielle brukerreiser som dekker hele behovet fra start til slutt. Etablering av samarbeidsrutiner på tvers av forvaltningsnivåer for å fjerne manuelle steg i brukerreisen og motvirke digitalt utenforskap. - **Semantisk (Middels vekt):** Harmonisering av brukernes naturlige språk og terminologi med forvaltningens interne fagbegreper. Sikring av at tjenestebeskrivelser, skjemaer og veiledninger utformes slik at innholdet er umiddelbart forståelig for innbyggere og næringsliv. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten gjør at komplekse prosesser bak fasaden skjules for brukeren, slik at opplevelsen fremstår som én uavbrutt og guidet reise. Ved å designe tjenester på tvers av organisatoriske grenser slipper innbyggeren å oppgi samme informasjon flere ganger eller strande i \"døde ender\". Sluttbrukeren opplever i stedet en helhetlig offentlig sektor som proaktivt støtter dem i deres gitte livssituasjon."
-cardMeta: "8 produkter"
+cardMeta: "12 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -48,6 +48,26 @@ productsMarkdown: |
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/118-Felles-designsystem-v2-codex.md">Felles designsystem</a></h3>
       <p class="capability-product-link__description">Designsystemet støtter tjenestedesign ved å koble brukeropplevelse, universell utforming og utviklingspraksis i ett felles fundament som team kan bygge videre på.</p>
+    </article>
+    <article class="capability-product-link resource-type--policy">
+      <p class="capability-product-link__type">Rammer og virkemidler</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/141-Stimulab-v1-copilot.md">Stimulab</a></h3>
+      <p class="capability-product-link__description">ordningen krever brukerorientert og designdrevet arbeid i prosjektene som får støtte</p>
+    </article>
+    <article class="capability-product-link resource-type--policy">
+      <p class="capability-product-link__type">Rammer og virkemidler</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/142-Medfinansieringsordningen-v1-copilot.md">Medfinansieringsordningen</a></h3>
+      <p class="capability-product-link__description">Ordningen passer særlig for utviklingsløp der løsningen må formes rundt dokumentert behov og nytte.</p>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/148-Fremsyn-v1-claude.md">Fremsyn</a></h3>
+      <p class="capability-product-link__description">Metodene tar utgangspunkt i brukerens framtidige situasjon, blant annet gjennom framtidspersonas, og brukes i tidligfase av tjenesteutvikling.</p>
+    </article>
+    <article class="capability-product-link resource-type--policy">
+      <p class="capability-product-link__type">Rammer og virkemidler</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/150-Tilsyn-og-kontroll-universell-utforming-av-ikt-v1-claude.md">Tilsyn og kontroll med regelverk for universell utforming av ikt</a></h3>
+      <p class="capability-product-link__description">Kravene setter minimumsrammen for utforming av brukergrensesnitt i offentlige tjenester, og etterlevelse forutsetter at universell utforming ligger inne i utviklingsarbeidet framfor å rettes i ettertid.</p>
     </article>
   </div>
 ---

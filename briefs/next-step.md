@@ -57,18 +57,8 @@ Restkandidater fra Digdirs virkemiddeloversikt, gjennomgått 2026-09-01. Lista n
 virkemidler, og alle unntatt disse er registrert. Vurderingene under er foreløpige og bygger på
 navnet i oversikten, ikke på egen kildesjekk.
 
-Veiledere, prioritert først fordi veiledersporet skal være komplett:
-
-- `Fremsyn`. Foreløpig vurdering: skal inn. Femten av sytten navngitte veiledere er allerede
-  registrert, og det er ingen kjent grunn til at denne skal stå utenfor.
-- `Felles informasjonsmodeller`. Foreløpig vurdering: skal inn. Samme begrunnelse. Avgrensningen mot
-  `Standarder innenfor informasjonsforvaltning og datadeling` bør sjekkes, siden temaene grenser tett.
-
-Juridisk virkemiddel:
-
-- `Tilsyn og kontroll med regelverk for universell utforming av IKT`. Foreløpig vurdering: sterk
-  kandidat. Det eneste juridiske virkemiddelet i oversikten som ikke er registrert, med tydelig
-  forvalter i Uu-tilsynet.
+Veiledersporet fra denne lista er nå komplett, og det eneste uregistrerte juridiske virkemiddelet er
+tatt inn. Det som gjenstår er de organisatoriske og økonomiske ordningene under.
 
 Organisatoriske ordninger som krever avklaring før de kan vurderes mot opptakskravene:
 
@@ -103,6 +93,12 @@ med her slik at neste gjennomgang slipper å gjøre vurderingen på nytt:
   ressursfiler og mapping-oppføringer uten rad i registeret fanges. Kontrollen validerer i dag at
   pekere fra registeret stemmer, ikke at alt som finnes er registerført. Denne blindsonen gjorde at
   løpenr 21 og 69 lå uregistrert uoppdaget.
+- Fange opp at genererte kapabilitetssider viser utdatert forklaringstekst. Kontrollen sammenligner
+  versjoner og stier, ikke selve teksten, og melder `synkronisert` selv når en side viser en eldre
+  variant av `explanation` enn den som står i kapabilitetsmappingen. Konkret tilfelle: MinID fikk ny
+  forklaringstekst i mappingen 2026-08-28, men kapabilitetssidene var sist regenerert 2026-06-25, så
+  nettstedet viste den gamle teksten i over to måneder uten at noen kontroll sa fra. Enten bør
+  kontrollen sammenligne teksten, eller den bør varsle når en generert side er eldre enn kilden sin.
 - Rydde eller regenerere de avledede produktlistene i
   [produkt-kapabilitet-koblinger.yaml](../arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml).
   Toppnivået er korrekt, men listene under kapabilitetsseksjonene har eldre versjonsmetadata for

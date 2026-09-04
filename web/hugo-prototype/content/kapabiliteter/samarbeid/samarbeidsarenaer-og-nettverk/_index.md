@@ -4,7 +4,7 @@ headerTitle: "Samarbeid - Samarbeidsarenaer og nettverk"
 eyebrow: "Kapabilitet"
 weight: 2
 description: "Evne til å effektivisere, etablere, forvalte og fasilitere arenaer, nettverk og prosesser som fremmer kunnskapsdeling, dialog og samordning på tvers av virksomheter i økosystemet. ### Begrunnelse (Hvorfor) Sammenhengende tjenester kan ikke bygges i isolasjon. Aktørene i økosystemet må møtes for å dele erfaringer, løse felles utfordringer og samordne planer. Denne kapabiliteten sikrer velfungerende møteplasser som reduserer dobbeltarbeid, motvirker silotenking og gjør det mulig å koordinere utvikling på tvers av virksomheter. ### Hva det innebærer (Omfang) - **Organisatorisk (Svært høy vekt):** Sette opp og drifte konkrete nettverk, faggrupper og forum. Avklare roller, mandater og spilleregler for deltakelse, samt sikre at arbeidet er forankret hos ledelsen i virksomhetene. - **Semantisk (Middels vekt):** Bruke arenaene til å bygge felles kultur, terminologi og forståelse mellom arkitekter, jurister, utviklere og fagmiljøer fra ulike sektorer. ### Bidrag til sammenhengende tjenester og felles økosystem Når fagfolk møtes på tvers av organisasjoner, blir det lettere å oppdage hvor tjenester berører hverandre. Arenaene bidrar til å identifisere nye tverrgående brukerreiser, dele erfaringer og koordinere endringer i økosystemet. Dette gir bedre grunnlag for sammenhengende tjenester og gjør at virksomhetene kan utvikle løsninger som henger bedre sammen for sluttbrukeren."
-cardMeta: "11 produkter"
+cardMeta: "12 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -63,6 +63,11 @@ productsMarkdown: |
       <p class="capability-product-link__type">Samarbeidsforum</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/139-Datalandsbyen-v1-codex.md">Datalandsbyen</a></h3>
       <p class="capability-product-link__description">Datalandsbyen er en åpen digital arena for spørsmål, erfaringsdeling, kontakt og samarbeid på tvers av virksomheter og sektorer.</p>
+    </article>
+    <article class="capability-product-link resource-type--forum">
+      <p class="capability-product-link__type">Samarbeidsforum</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/143-PPP-P-nettverket-v1-claude.md">PPP(P)-nettverket</a></h3>
+      <p class="capability-product-link__description">Nettverket er en etablert, forvaltet og fasilitert arena for kunnskapsdeling på tvers av virksomheter og forvaltningsnivåer.</p>
     </article>
   </div>
 ---

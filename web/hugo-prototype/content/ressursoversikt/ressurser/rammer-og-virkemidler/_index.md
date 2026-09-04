@@ -27,9 +27,10 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Økonomi
         <option value="Samordning">Samordning</option>
         <option value="Sikring av informasjonsflyt og datautveksling">Sikring av informasjonsflyt og datautveksling</option>
         <option value="Tjenestedesign">Tjenestedesign</option>
+        <option value="Utvikling og formidling av veiledning">Utvikling og formidling av veiledning</option>
       </select></label>
     </div>
-    <p class="resource-filters__result" data-role="count">Viser 6 av 6 ressurser</p>
+    <p class="resource-filters__result" data-role="count">Viser 7 av 7 ressurser</p>
   </div>
   <div class="resource-cards">
 <article class="resource-card" data-owner="DIGDIR" data-type="&#216;konomiske og juridiske rammer og virkemidler" data-capabilities="samordning forvaltningsstandarder" data-emne="Rundskriv" data-search="digitaliseringsrundskrivet digdir-044 digdir digdir &#248;konomiske og juridiske rammer og virkemidler &#248;konomiske og juridiske rammer og virkemidler digitaliseringsrundskrivet er statens samlede virkemiddel for krav, anbefalinger og veiledning om digitalisering i statlig sektor. ressursen gir et felles styringsgrunnlag for hvordan virksomheter skal prioritere, planlegge og gjennomf&#248;re digitaliseringstiltak. samordning forvaltningsstandarder rundskriv">
@@ -79,6 +80,14 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Økonomi
   <p class="resource-card__description">Tilskuddsordningen skal legge til rette for at kommuner etablerer et lavterskel veiledningstilbud for innbyggere med liten eller ingen digital kompetanse. Form&#229;let er at innbyggerne skal kunne tilegne seg de grunnleggende digitale ferdighetene som trengs for &#229; ta i bruk digitale verkt&#248;y og digitale offentlige...</p>
   <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/strategisk-styring/finansiering/">Finansiering</a></div>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/145-Tilskudd-til-kommunale-opplaeringstilbud-i-digital-kompetanse-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/finansiering/tilskudd-til-etablering-av-kommunale-opplaeringstilbud-i-digital-kompetanse-til-innbyggerne/5728">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="&#216;konomiske og juridiske rammer og virkemidler" data-capabilities="regelverkstolkning utvikling og formidling av veiledning tjenestedesign" data-emne="Tilsyns- og kontrollvirkemiddel" data-search="tilsyn og kontroll med regelverk for universell utforming av ikt digdir-070 digdir digdir &#248;konomiske og juridiske rammer og virkemidler &#248;konomiske og juridiske rammer og virkemidler tilsynet for universell utforming av ikt f&#248;rer tilsyn med at ikt-l&#248;sninger rettet mot brukere i norge er universelt utformet. tilsynet er organisert under digdir og arbeider for et samfunn uten digitale barrierer, med b&#229;de veiledning og myndighetsut&#248;velse som virkemidler. dette er det juridiske virkemiddelet som gj&#248;r... regelverkstolkning utvikling og formidling av veiledning tjenestedesign tilsyns- og kontrollvirkemiddel">
+  <h2 class="resource-card__title">Tilsyn og kontroll med regelverk for universell utforming av ikt</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-070</code> | <strong>Siste versjon:</strong> v1 (claude)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> Digdir | <strong>Type:</strong> &#216;konomiske og juridiske rammer og virkemidler</p>
+  <p class="resource-card__description">Tilsynet for universell utforming av ikt f&#248;rer tilsyn med at ikt-l&#248;sninger rettet mot brukere i Norge er universelt utformet. Tilsynet er organisert under Digdir og arbeider for et samfunn uten digitale barrierer, med b&#229;de veiledning og myndighetsut&#248;velse som virkemidler. Dette er det juridiske virkemiddelet som gj&#248;r...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/juridisk-samhandling/regelverkstolkning/">Regelverkstolkning</a> <a class="capability-chip" href="../../../kapabiliteter/veiledning/utvikling-og-formidling-av-veiledning/">Utvikling og formidling av veiledning</a> <a class="capability-chip" href="../../../kapabiliteter/tjenesteutvikling/tjenestedesign/">Tjenestedesign</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/150-Tilsyn-og-kontroll-universell-utforming-av-ikt-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.uutilsynet.no/">Offisiell lenke</a></p>
 </article>
   </div>
   <script>

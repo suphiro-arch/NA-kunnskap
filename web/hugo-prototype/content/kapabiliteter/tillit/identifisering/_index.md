@@ -27,7 +27,7 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/140-MinID-produkt-canvas-v1-codex.md">MinID</a></h3>
-      <p class="capability-product-link__description">knytter innloggingen til en identifisert person slik at tjenesteeier kan vite hvem brukeren er</p>
+      <p class="capability-product-link__description">MinID knytter innloggingen til en identifisert person og gir offentlige tjenester et felles grunnlag for å vite hvem brukeren er. Dette er særlig viktig i tjenester der virksomheten må skille mellom anonyme besøk og tjenester som krever kjent bruker.</p>
     </article>
   </div>
 ---

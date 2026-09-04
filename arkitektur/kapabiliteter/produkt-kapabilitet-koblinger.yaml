@@ -4934,6 +4934,126 @@
                     "explanation": "Kjernen i tjenesten er å tolke personvernregelverket for konkrete KI-anvendelser, og gjøre tolkningen tilgjengelig for andre."
                 }
             ]
+        },
+        {
+            "product_id": 148,
+            "product_name": "Fremsyn",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/148-Fremsyn-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/148-Fremsyn-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-c0547226c598467a942dced879d0c18b",
+                    "capability_name": "Veiledning",
+                    "capability_slug": "veiledning",
+                    "subcapability_id": "id-0bfa29018e7144578b2184e70414b7e8",
+                    "subcapability_name": "Utvikling og formidling av veiledning",
+                    "subcapability_slug": "utvikling-og-formidling-av-veiledning",
+                    "mapping_label": "Veiledning: Utvikling og formidling av veiledning",
+                    "explanation": "Digdir utvikler og publiserer selve metodegrunnlaget: hva fremsyn er, en anbefalt arbeidsgang og fire metodebeskrivelser som virksomheter kan bruke direkte."
+                },
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
+                    "subcapability_name": "Sammenhengende tjenester",
+                    "subcapability_slug": "sammenhengende-tjenester",
+                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                    "explanation": "Fremsyn brukes eksplisitt i arbeidet med livshendelser og sammenhengende tjenester, og Digdir prioriterer rådgivning som støtter dette arbeidet."
+                },
+                {
+                    "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
+                    "capability_name": "Tjenesteutvikling",
+                    "capability_slug": "tjenesteutvikling",
+                    "subcapability_id": "id-379e167f7b9c4fbea9c6969425ba7f6c",
+                    "subcapability_name": "Tjenestedesign",
+                    "subcapability_slug": "tjenestedesign",
+                    "mapping_label": "Tjenesteutvikling: Tjenestedesign",
+                    "explanation": "Metodene tar utgangspunkt i brukerens framtidige situasjon, blant annet gjennom framtidspersonas, og brukes i tidligfase av tjenesteutvikling."
+                }
+            ]
+        },
+        {
+            "product_id": 149,
+            "product_name": "Felles informasjonsmodeller",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/149-Felles-informasjonsmodeller-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/149-Felles-informasjonsmodeller-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-5c6c20d50b6a4b168524901372f0ca6e",
+                    "subcapability_name": "Informasjonsarkitektur",
+                    "subcapability_slug": "informasjonsarkitektur",
+                    "mapping_label": "Informasjonsforvaltning: Informasjonsarkitektur",
+                    "explanation": "Ressursen er selve føringsgrunnlaget for hvordan informasjon struktureres og modelleres på en standardisert måte, slik at data blir forståelige og gjenbrukbare på tvers av virksomheter."
+                },
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-a40bf39259434db48f358cc543428c8a",
+                    "subcapability_name": "Oversikt over informasjonsmodeller",
+                    "subcapability_slug": "oversikt-over-informasjonsmodeller",
+                    "mapping_label": "Informasjonsforvaltning: Oversikt over informasjonsmodeller",
+                    "explanation": "Reglene krever at modeller dokumenteres, dateres, ansvarsplasseres og publiseres maskinlesbart i Felles datakatalog, som er det som gjør modellene mulige å finne og forstå på tvers."
+                },
+                {
+                    "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
+                    "capability_name": "Standardisering",
+                    "capability_slug": "standardisering",
+                    "subcapability_id": "id-b99fcd8160d24e5f8ea3c17b15072f7a",
+                    "subcapability_name": "Forvaltningsstandarder",
+                    "subcapability_slug": "forvaltningsstandarder",
+                    "mapping_label": "Standardisering: Forvaltningsstandarder",
+                    "explanation": "Ressursen operasjonaliserer nasjonale standarder for modellbeskrivelse, blant annet ModellDCAT-AP-NO og standardiserte datatyper fra XSD, RDFS og ISO/TC 211."
+                }
+            ]
+        },
+        {
+            "product_id": 150,
+            "product_name": "Tilsyn og kontroll med regelverk for universell utforming av ikt",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/rammer-og-virkemidler/150-Tilsyn-og-kontroll-universell-utforming-av-ikt-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/150-Tilsyn-og-kontroll-universell-utforming-av-ikt-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-299fc063873a4f278a1d3c0ac9480467",
+                    "capability_name": "Juridisk samhandling",
+                    "capability_slug": "juridisk-samhandling",
+                    "subcapability_id": "id-0209483504444508a40415aa6e3fc39c",
+                    "subcapability_name": "Regelverkstolkning",
+                    "subcapability_slug": "regelverkstolkning",
+                    "mapping_label": "Juridisk samhandling: Regelverkstolkning",
+                    "explanation": "Tilsynet gir felles, autoritativ tolkning av hva kravene betyr i praksis, blant annet gjennom publiserte testprosedyrer for nettsteder og apper og gjennom tilsynsrapporter som viser hvordan enkeltkrav vurderes."
+                },
+                {
+                    "capability_id": "id-c0547226c598467a942dced879d0c18b",
+                    "capability_name": "Veiledning",
+                    "capability_slug": "veiledning",
+                    "subcapability_id": "id-0bfa29018e7144578b2184e70414b7e8",
+                    "subcapability_name": "Utvikling og formidling av veiledning",
+                    "subcapability_slug": "utvikling-og-formidling-av-veiledning",
+                    "mapping_label": "Veiledning: Utvikling og formidling av veiledning",
+                    "explanation": "Tilsynet utvikler og publiserer veiledning om universell utforming, kartlegginger og statusmålinger som virksomheter kan bruke uten selv å være under tilsyn."
+                },
+                {
+                    "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
+                    "capability_name": "Tjenesteutvikling",
+                    "capability_slug": "tjenesteutvikling",
+                    "subcapability_id": "id-379e167f7b9c4fbea9c6969425ba7f6c",
+                    "subcapability_name": "Tjenestedesign",
+                    "subcapability_slug": "tjenestedesign",
+                    "mapping_label": "Tjenesteutvikling: Tjenestedesign",
+                    "explanation": "Kravene setter minimumsrammen for utforming av brukergrensesnitt i offentlige tjenester, og etterlevelse forutsetter at universell utforming ligger inne i utviklingsarbeidet framfor å rettes i ettertid."
+                }
+            ]
         }
     ],
     "capabilities": [

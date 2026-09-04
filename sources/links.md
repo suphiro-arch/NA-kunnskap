@@ -495,6 +495,19 @@ Sist redigert: 2026-06-17.
 - Valgt tilnærming for nasjonale grunndata: https://www.digdir.no/datadeling/valgt-tilnaerming/7554 (lagt til 2026-06-07)
 - Nasjonale grunndata - statusrapport 2025: https://www.digdir.no/datadeling/nasjonale-grunndata-statusrapport-2025/7528 (lagt til 2026-06-07)
 - Digitaliseringsrundskrivet: https://www.digdir.no/styring-og-organisering/digitaliseringsrundskrivet/1230
+- Prinsipper for informasjonsmodeller: https://www.digdir.no/informasjonsforvaltning/prinsipper-informasjonsmodeller/3030 (lagt til 2026-09-04)
+- Felles modelleringsregler for offentlig forvaltning: https://www.digdir.no/informasjonsforvaltning/felles-modelleringsregler-offentlig-forvaltning/3029 (lagt til 2026-09-04)
+- Veileder for beskrivelse av informasjonsmodeller (ModellDCAT-AP-NO): https://data.norge.no/guide/veileder-modelldcat-ap-no (lagt til 2026-09-04)
+- Referansemodeller innen informasjonsforvaltning: https://www.digdir.no/informasjonsforvaltning/referansemodeller-innen-informasjonsforvaltning/2156 (lagt til 2026-09-04)
+
+### Fremsyn og innovasjon
+- Fremsyn i politikk, strategi og innovasjon: https://www.digdir.no/innovasjon/fremsyn-i-politikk-strategi-og-innovasjon/3632 (lagt til 2026-09-04)
+- Dette er fremsyn: https://www.digdir.no/innovasjon/dette-er-fremsyn-utforske-fremtiden-og-handle-na/3537 (lagt til 2026-09-04)
+- Slik jobber du med fremsyn: https://www.digdir.no/innovasjon/slik-jobber-du-med-fremsyn/3635 (lagt til 2026-09-04)
+- Drivkraftanalyse: https://www.digdir.no/innovasjon/drivkraftanalyse/3628 (lagt til 2026-09-04)
+- Blindsonemetoden: https://www.digdir.no/innovasjon/blindsonemetoden/3583 (lagt til 2026-09-04)
+- Dette kan Digdir bidra med i fremsynsarbeid: https://www.digdir.no/innovasjon/dette-kan-vi-bidra-med-i-ditt-fremsynsarbeid/3629 (lagt til 2026-09-04)
+- Fremsyn i livshendelsene: https://www.digdir.no/innovasjon/fremsyn-i-livshendelsene/3793 (lagt til 2026-09-04)
 
 ### Informasjonssikkerhet og personvern
 - Sikkert.no: https://www.sikkert.no/ (lagt til 2026-03-18)
@@ -556,3 +569,13 @@ Sist redigert: 2026-06-17.
 - Tilskudd til etablering av kommunale opplæringstilbud i digital kompetanse: https://www.digdir.no/finansiering/tilskudd-til-etablering-av-kommunale-opplaeringstilbud-i-digital-kompetanse-til-innbyggerne/5728 (lagt til 2026-08-28)
 - Nasjonal indeks for digital inkludering (DI-indeks): https://www.uutilsynet.no/innsikt-og-analyse/nasjonal-indeks-digital-inkludering-di-indeks/2897 (lagt til 2026-08-28)
 - Ny nasjonal indeks for digital inkludering: https://www.uutilsynet.no/innsikt-og-analyse/ny-nasjonal-indeks-digital-inkludering/2947 (lagt til 2026-08-28)
+
+### Universell utforming av ikt
+- Tilsynet for universell utforming av ikt: https://www.uutilsynet.no/ (lagt til 2026-09-04)
+- Regelverk og krav: https://www.uutilsynet.no/regelverk/regelverk-og-krav/746 (lagt til 2026-09-04)
+- Kva seier forskrifta: https://www.uutilsynet.no/regelverk/kva-seier-forskrifta/153 (lagt til 2026-09-04)
+- Unntakene fra universell utforming av ikt: https://www.uutilsynet.no/regelverk/unntakene-fra-universell-utforming-av-ikt/2248 (lagt til 2026-09-04)
+- Tilsyn og kontroll: https://www.uutilsynet.no/tilsyn/tilsyn-og-kontroll/250 (lagt til 2026-09-04)
+- Slik fører tilsynet tilsyn med nettsteder og apper: https://www.uutilsynet.no/tilsyn/slik-forer-vi-tilsyn-med-nettsteder-og-apper/84 (lagt til 2026-09-04)
+- Testprosedyrer for nettsteder og apper: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader-og-appar/709 (lagt til 2026-09-04)
+- EUs webdirektiv (WAD): https://www.uutilsynet.no/webdirektivet-wad/eus-webdirektiv-wad/265 (lagt til 2026-09-04)

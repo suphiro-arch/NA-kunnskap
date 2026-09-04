@@ -4,7 +4,7 @@ headerTitle: "Sluttbrukertjenester - Sammenhengende tjenester"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å levere en digital brukerorienterte tjenester som fremstår som en logisk og uavbrutt prosess for brukeren, selv når den involverer og koordinerer handlinger og tjenester fra flere, uavhengige virksomheter. ### Begrunnelse (Hvorfor) Når digitale tjenester er splittet opp mellom ulike uavhengige etater, blir brukeren ofte stående som en manuell budbringer av egne data mellom systemene. Denne underkapabiliteten løser det funksjonelle problemet med fragmenterte brukeropplevelser, brutte digitale reiser og silobaserte prosesser. Den sikrer at den bakenforliggende kompleksiteten i forvaltningen skjules helt, slik at brukeren opplever en helhetlig offentlig sektor. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Harmoniserte avklaringsprosesser under forvaltningsloven og personopplysningsloven sikrer det rettslige fundamentet for tverretatlig datadeling. - **Organisatorisk (Svært høy vekt):** Utforming av tverrgående arbeidsprosesser understøtter en uavbrutt og guidet reise der brukeren ledes steg-for-steg uten å måtte forholde seg til statlige eller kommunale grenser. - **Semantisk (Middels vekt):** Operasjonalisering av \"kun én gang\"-prinsippet sikrer at oppgitte data gjenbrukes via felles informasjonsmodeller. - **Teknisk (Høy vekt):** Teknisk integrasjon via standardiserte grensesnitt (API-er) og fellesløsninger sikrer at data deles og gjenbrukes. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten er selve nøkkelen til at innbyggere og næringsliv skal oppleve forvaltningen som én samordnet aktør. Ved å binde uavhengige tjenester sammen til flytende kjeder, elimineres behovet for at brukeren må gjenta informasjon eller lete etter neste saksbehandlingssteg. Dette reduserer tidsbruk og feil, noe som gir et vesentlig mer ressurseffektivt felles økosystem."
-cardMeta: "19 produkter"
+cardMeta: "21 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -23,6 +23,11 @@ productsMarkdown: |
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/18-Norge-no-produkt-canvas-v3-codex.md">Norge.no</a></h3>
       <p class="capability-product-link__description">Helhetlig brukerreise på tvers av offentlig sektor.</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/21-Altinn-Portal-produkt-canvas-v3-codex.md">Altinn Portal</a></h3>
+      <p class="capability-product-link__description">samler tjenester, meldinger, kvitteringer og tilgangsstyring i én helhetlig arbeidsflate.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -103,6 +108,11 @@ productsMarkdown: |
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/128-SYSVAK-produkt-canvas-v2-codex.md">SYSVAK</a></h3>
       <p class="capability-product-link__description">SYSVAK-data inngår i sammenhengende tjenesteforløp der innbygger og helsepersonell møter samme oppdaterte vaksinasjonsgrunnlag.</p>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/148-Fremsyn-v1-claude.md">Fremsyn</a></h3>
+      <p class="capability-product-link__description">Fremsyn brukes eksplisitt i arbeidet med livshendelser og sammenhengende tjenester, og Digdir prioriterer rådgivning som støtter dette arbeidet.</p>
     </article>
   </div>
 ---

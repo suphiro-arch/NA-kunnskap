@@ -4,11 +4,16 @@ headerTitle: "Tillit - Sporbarhet og innsyn"
 eyebrow: "Kapabilitet"
 weight: 5
 description: "Evne til dokumentasjon og logging av oppysninger for bruk i innsyn, forvaltning og kontroll av tillitstjenester. ### Begrunnelse (Hvorfor) Kapabiliteten sikrer at opplysninger, digitale hendelser og transaksjoner kan dokumenteres, logges og etterprøves for å støtte innsyn, kontroll og juridisk etterredelighet. Den løser behovet for at innbyggere, virksomheter og kontrollorganer kan se hvem som gjorde hva, når det skjedde, og at tillitstjenestene ble brukt på riktig måte. ### Hva det innebærer (Omfang) - **Juridisk (Høy vekt):** Sikre juridisk etterprøvbarhet, innsyn, dokumentasjon og kontroll i tråd med krav til personvern, arkivering, sporbarhet, bevisverdi og ansvarlig bruk av tillitstjenester. - **Organisatorisk (Høy vekt):** Etablere rutiner for logging, kontroll, revisjon, innsynshåndtering og oppfølging av avvik i bruk av opplysninger, digitale hendelser og transaksjoner. - **Semantisk (Middels vekt):** Sikre felles forståelse av logghendelser, transaksjoner, oppslag, aktører, tidspunkt, formål og behandlingskontekst, slik at sporbarheten kan tolkes korrekt. - **Teknisk (Svært høy vekt):** Etablere uforanderlige transaksjonslogger der alle hendelser, oppslag og transaksjoner loggføres automatisk på en måte som hindrer sletting eller manipulering i ettertid. ### Bidrag til sammenhengende tjenester og felles økosystem Sporbarhet og innsyn gir tillit til at data, rettigheter og tillitstjenester brukes korrekt på tvers av virksomheter. Når bruk av opplysninger og digitale handlinger kan dokumenteres og etterprøves, blir det tryggere å koble tjenester sammen i felles tjenestekjeder. Kapabiliteten styrker det felles økosystemet ved å gjøre samhandling mer transparent, kontrollerbar og etterrettelig. For sluttbrukeren betyr dette bedre innsyn i egne data og handlinger, og større trygghet for at digitale tjenester brukes i tråd med regelverk, formål og forventninger."
-cardMeta: "1 produkter"
+cardMeta: "2 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
   <div class="capability-product-links">
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/21-Altinn-Portal-produkt-canvas-v3-codex.md">Altinn Portal</a></h3>
+      <p class="capability-product-link__description">understøttes gjennom meldingshistorikk, status og administrasjon av fullmakter og tilganger.</p>
+    </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/23-Altinn-3-Melding-produkt-canvas-v5-codex.md">Altinn Melding</a></h3>

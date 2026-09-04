@@ -3,7 +3,7 @@ title: "Veiledning"
 eyebrow: "Kapabilitet"
 weight: 12
 description: "Evne til å sikre at veiledninger for digital samhandling utarbeides, formidles og benyttes. Dette innebærer: * Beskrivelser av beste praksis * Omforente prinsipper, mønstre og standarder for hvordan løsninger skal bygges for å fungere optimalt, sikkert og sammenhengende i det nasjonale økosystemet. * Referansearkitekturer * hva som er god faglig praksis * hvordan relevant regelverk skal tolkes * hvilke prioriteringer som er i samsvar med vedtatt politikk Veiledere kan ha ulik grad av styrke: * Bør benyttes: en sterk anbefaling/råd som vil gjelde de aller fleste. Denne er så klart faglig forankret at det sjelden er forsvarlig ikke å gjøre som anbefalt * Kan eller foreslår: en svak anbefaling/råd der ulike valg kan være riktig."
-cardMeta: "2 delkapabiliteter / 6 produkter"
+cardMeta: "2 delkapabiliteter / 9 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -31,6 +31,18 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/138-Veileder-for-virksomhetsautentisering-v1-codex.md">Veileder for virksomhetsautentisering</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/147-Regulatorisk-sandkasse-for-kunstig-intelligens-v1-claude.md">Regulatorisk sandkasse for kunstig intelligens</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/148-Fremsyn-v1-claude.md">Fremsyn</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--policy">
+      <p class="capability-product-link__type">Rammer og virkemidler</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/150-Tilsyn-og-kontroll-universell-utforming-av-ikt-v1-claude.md">Tilsyn og kontroll med regelverk for universell utforming av ikt</a></h3>
     </article>
   </div>
 ---

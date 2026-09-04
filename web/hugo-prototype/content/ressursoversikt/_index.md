@@ -18,7 +18,7 @@ hideSectionOverview: true
   <article class="resource-type-card">
     <h3><a href="ressurser/normerende-ressurser/">Standarder og veiledning</a></h3>
     <p>Ressurser som setter regler eller gir retning, som standarder, veiledere, referansearkitekturer og metodikk.</p>
-    <p class="resource-type-card__count">25 ressurser</p>
+    <p class="resource-type-card__count">27 ressurser</p>
   </article>
   <article class="resource-type-card">
     <h3><a href="ressurser/samarbeidsfora/">Samhandlingsarenaer og organisering</a></h3>
@@ -28,7 +28,7 @@ hideSectionOverview: true
   <article class="resource-type-card">
     <h3><a href="ressurser/rammer-og-virkemidler/">Økonomiske og juridiske rammer og virkemidler</a></h3>
     <p>Finansielle og regulative virkemidler som muliggjør gjennomføring og setter handlingsrom.</p>
-    <p class="resource-type-card__count">6 ressurser</p>
+    <p class="resource-type-card__count">7 ressurser</p>
   </article>
 </div>
 
@@ -108,7 +108,7 @@ hideSectionOverview: true
         <option value="Utviklings- og kj&#248;retidsmilj&#248;">Utviklings- og kj&#248;retidsmilj&#248;</option>
       </select></label>
     </div>
-    <p class="resource-filters__result" data-role="count">Viser 122 av 122 ressurser</p>
+    <p class="resource-filters__result" data-role="count">Viser 125 av 125 ressurser</p>
   </div>
   <div class="resource-cards">
 <article class="resource-card" data-owner="DIGDIR" data-type="Gjenbrukbare l&#248;sninger" data-capabilities="sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester" data-emne="Innlogging og identitet" data-search="id-porten digdir-001 digdir digdir gjenbrukbare l&#248;sninger gjenbrukbare l&#248;sninger id-porten er den nasjonale fellesl&#248;sningen for sikker innlogging til offentlige digitale tjenester. l&#248;sningen gir innbyggere &#233;n gjenkjennelig inngang til tjenester p&#229; tvers av virksomheter, og gir tjenesteeiere en felles autentiseringskomponent i stedet for lokale innloggingsl&#248;sninger. id-porten er s&#230;rlig relevant n&#229;r... sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester innlogging og identitet">
@@ -1122,6 +1122,32 @@ hideSectionOverview: true
   <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let er &#229; stimulere personvernvennlig innovasjon og digitalisering. Sandkassen skal gj&#248;re det lettere &#229; utvikle KI-l&#248;sninger som etterlever personvernregelverket, og &#229; avdekke svakheter tidlig...</p>
   <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/veiledning/utvikling-og-formidling-av-veiledning/">Utvikling og formidling av veiledning</a> <a class="capability-chip" href="../kapabiliteter/juridisk-samhandling/regelverkstolkning/">Regelverkstolkning</a></div>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/147-Regulatorisk-sandkasse-for-kunstig-intelligens-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.datatilsynet.no/regelverk-og-verktoy/sandkasse-for-kunstig-intelligens/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="Standarder og veiledning" data-capabilities="utvikling og formidling av veiledning sammenhengende tjenester tjenestedesign" data-emne="Metode- og veiledningsressurs for strategisk fremsyn" data-search="fremsyn digdir-068 digdir digdir standarder og veiledning standarder og veiledning fremsyn er digdirs metodegrunnlag for &#229; arbeide systematisk med langsiktig usikkerhet. strategisk fremsyn kombinerer analyse av langsiktige utviklingstrekk med tverrfaglig samarbeid om alternative framtidsbilder, og skal gi bedre beslutninger i dag framfor mest mulig presise sp&#229;dommer om i morgen. ressursen har to... utvikling og formidling av veiledning sammenhengende tjenester tjenestedesign metode- og veiledningsressurs for strategisk fremsyn">
+  <h2 class="resource-card__title">Fremsyn</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-068</code> | <strong>Siste versjon:</strong> v1 (claude)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> Digdir | <strong>Type:</strong> Standarder og veiledning</p>
+  <p class="resource-card__description">Fremsyn er Digdirs metodegrunnlag for &#229; arbeide systematisk med langsiktig usikkerhet. Strategisk fremsyn kombinerer analyse av langsiktige utviklingstrekk med tverrfaglig samarbeid om alternative framtidsbilder, og skal gi bedre beslutninger i dag framfor mest mulig presise sp&#229;dommer om i morgen. Ressursen har to...</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let er &#229; bygge endringskapasitet og gj&#248;re offentlige virksomheter i stand til &#229; h&#229;ndtere usikkerhet p&#229; en strukturert m&#229;te. Digdir er tydelig p&#229; at fremsyn ikke er prognoser eller...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/veiledning/utvikling-og-formidling-av-veiledning/">Utvikling og formidling av veiledning</a> <a class="capability-chip" href="../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/">Sammenhengende tjenester</a> <a class="capability-chip" href="../kapabiliteter/tjenesteutvikling/tjenestedesign/">Tjenestedesign</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/148-Fremsyn-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/innovasjon/fremsyn-i-politikk-strategi-og-innovasjon/3632">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="Standarder og veiledning" data-capabilities="informasjonsarkitektur oversikt over informasjonsmodeller forvaltningsstandarder" data-emne="Prinsipper og modelleringsregler for informasjonsmodellering" data-search="felles informasjonsmodeller digdir-069 digdir digdir standarder og veiledning standarder og veiledning felles informasjonsmodeller er digdirs f&#248;ringer for hvordan informasjonsmodeller i offentlig forvaltning b&#248;r utformes, dokumenteres og gj&#248;res tilgjengelige. modellene skal v&#230;re uavhengige av et bestemt it-verkt&#248;y, deles i gjenbrukbare moduler og publiseres p&#229; standardformater, slik at de kan brukes videre av andre enn... informasjonsarkitektur oversikt over informasjonsmodeller forvaltningsstandarder prinsipper og modelleringsregler for informasjonsmodellering">
+  <h2 class="resource-card__title">Felles informasjonsmodeller</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-069</code> | <strong>Siste versjon:</strong> v1 (claude)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> Digdir | <strong>Type:</strong> Standarder og veiledning</p>
+  <p class="resource-card__description">Felles informasjonsmodeller er Digdirs f&#248;ringer for hvordan informasjonsmodeller i offentlig forvaltning b&#248;r utformes, dokumenteres og gj&#248;res tilgjengelige. Modellene skal v&#230;re uavhengige av et bestemt IT-verkt&#248;y, deles i gjenbrukbare moduler og publiseres p&#229; standardformater, slik at de kan brukes videre av andre enn...</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let er &#229; etablere felles designgrunnlag for informasjonsmodeller som skal deles p&#229; tvers av offentlige virksomheter. De etablerte fellesmodellene er kjernemodeller: en overordnet modell for...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/informasjonsforvaltning/informasjonsarkitektur/">Informasjonsarkitektur</a> <a class="capability-chip" href="../kapabiliteter/informasjonsforvaltning/oversikt-over-informasjonsmodeller/">Oversikt over informasjonsmodeller</a> <a class="capability-chip" href="../kapabiliteter/standardisering/forvaltningsstandarder/">Forvaltningsstandarder</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/149-Felles-informasjonsmodeller-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/informasjonsforvaltning/prinsipper-informasjonsmodeller/3030">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DIGDIR" data-type="&#216;konomiske og juridiske rammer og virkemidler" data-capabilities="regelverkstolkning utvikling og formidling av veiledning tjenestedesign" data-emne="Tilsyns- og kontrollvirkemiddel" data-search="tilsyn og kontroll med regelverk for universell utforming av ikt digdir-070 digdir digdir &#248;konomiske og juridiske rammer og virkemidler &#248;konomiske og juridiske rammer og virkemidler tilsynet for universell utforming av ikt f&#248;rer tilsyn med at ikt-l&#248;sninger rettet mot brukere i norge er universelt utformet. tilsynet er organisert under digdir og arbeider for et samfunn uten digitale barrierer, med b&#229;de veiledning og myndighetsut&#248;velse som virkemidler. dette er det juridiske virkemiddelet som gj&#248;r... regelverkstolkning utvikling og formidling av veiledning tjenestedesign tilsyns- og kontrollvirkemiddel">
+  <h2 class="resource-card__title">Tilsyn og kontroll med regelverk for universell utforming av ikt</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DIGDIR-070</code> | <strong>Siste versjon:</strong> v1 (claude)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> Digdir | <strong>Type:</strong> &#216;konomiske og juridiske rammer og virkemidler</p>
+  <p class="resource-card__description">Tilsynet for universell utforming av ikt f&#248;rer tilsyn med at ikt-l&#248;sninger rettet mot brukere i Norge er universelt utformet. Tilsynet er organisert under Digdir og arbeider for et samfunn uten digitale barrierer, med b&#229;de veiledning og myndighetsut&#248;velse som virkemidler. Dette er det juridiske virkemiddelet som gj&#248;r...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/juridisk-samhandling/regelverkstolkning/">Regelverkstolkning</a> <a class="capability-chip" href="../kapabiliteter/veiledning/utvikling-og-formidling-av-veiledning/">Utvikling og formidling av veiledning</a> <a class="capability-chip" href="../kapabiliteter/tjenesteutvikling/tjenestedesign/">Tjenestedesign</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/150-Tilsyn-og-kontroll-universell-utforming-av-ikt-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.uutilsynet.no/">Offisiell lenke</a></p>
 </article>
   </div>
   <script>

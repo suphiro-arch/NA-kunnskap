@@ -62,7 +62,7 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/140-MinID-produkt-canvas-v1-codex.md">MinID</a></h3>
-      <p class="capability-product-link__description">bekrefter at brukeren kontrollerer en personlig offentlig eID før tilgang til offentlige tjenester gis</p>
+      <p class="capability-product-link__description">MinID er direkte knyttet til autentisering av personer. Den gjør det mulig å bekrefte at brukeren kontrollerer en personlig eID før tilgang til en offentlig digital tjeneste gis.</p>
     </article>
   </div>
 ---

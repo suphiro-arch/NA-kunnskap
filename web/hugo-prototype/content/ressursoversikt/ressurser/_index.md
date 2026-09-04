@@ -18,7 +18,7 @@ Antall ressurser: **80**
 
 Ressurser som setter regler eller gir retning, som standarder, veiledere, referansearkitekturer og metodikk.
 
-Antall ressurser: **25**
+Antall ressurser: **27**
 
 ## [Samhandlingsarenaer og organisering](./samarbeidsfora/)
 
@@ -30,4 +30,4 @@ Antall ressurser: **11**
 
 Finansielle og regulative virkemidler som muliggjør gjennomføring og setter handlingsrom.
 
-Antall ressurser: **6**
+Antall ressurser: **7**

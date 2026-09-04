@@ -3,7 +3,7 @@ title: "Strategisk styring"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å sette retning for nasjonal arkitektur og realisere strategiske mål. ### Begrunnelse (Hvorfor) Digitalisering på tvers av sektorer krever felles koordinering og en overordnet retning. Uten strategisk styring blir offentlige tiltak fragmenterte, silobaserte og suboptimalt koordinert. Denne hovedkapabiliteten fungerer som en felles paraply for finansiering, samordning og nasjonal arkitekturstyring. Den sikrer sterkere styring for å realisere nasjonale mål. Den løser problemet med at uavhengige virksomheter optimaliserer for seg selv fremfor tverrgående helhet. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Overordnede regulatoriske rammeverk, nasjonale digitaliseringsstrategier og føringer som forplikter aktører til samhandling. - **Organisatorisk (Svært høy vekt):** Etablering av overordnede nasjonale styringsmodeller (governance), samstyringsstrukturer, finansieringsordninger og tverrgående porteføljestyring. - **Semantisk (Middels vekt):** Harmonisering av strategiske mål, felles prinsipper og nasjonale referansemodeller for en omforent forståelse i økosystemet. - **Teknisk (Middels vekt):** Overordnet plattformstrategi og nasjonale veikart som sikrer en produktstrategisk retning for felles teknologisk infrastruktur. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten samordner strategiske beslutninger og ressursbruk på tvers av uavhengige virksomheter og forvaltningsnivåer. Den sikrer at nasjonale fellesløsninger, standarder og investeringer trekker i samme retning. Dette gir det nødvendige mandatet for å utvikle og binde sammen digitale tjenestekjeder. For sluttbrukeren betyr dette en koordinert offentlig sektor som tilbyr en helhetlig og sømløs brukeropplevelse."
-cardMeta: "3 delkapabiliteter / 18 produkter"
+cardMeta: "3 delkapabiliteter / 23 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -79,6 +79,26 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--policy">
       <p class="capability-product-link__type">Rammer og virkemidler</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v2-copilot.md">Forskrift om IT-standarder i offentlig forvaltning</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--policy">
+      <p class="capability-product-link__type">Rammer og virkemidler</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/141-Stimulab-v1-copilot.md">Stimulab</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--policy">
+      <p class="capability-product-link__type">Rammer og virkemidler</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/142-Medfinansieringsordningen-v1-copilot.md">Medfinansieringsordningen</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--forum">
+      <p class="capability-product-link__type">Samarbeidsforum</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/143-PPP-P-nettverket-v1-claude.md">PPP(P)-nettverket</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--policy">
+      <p class="capability-product-link__type">Rammer og virkemidler</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/145-Tilskudd-til-kommunale-opplaeringstilbud-i-digital-kompetanse-v1-claude.md">Tilskudd til etablering av kommunale opplæringstilbud i digital kompetanse til innbyggerne</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/146-Nasjonal-indeks-for-digital-inkludering-v1-claude.md">Nasjonal indeks for digital inkludering</a></h3>
     </article>
   </div>
 ---

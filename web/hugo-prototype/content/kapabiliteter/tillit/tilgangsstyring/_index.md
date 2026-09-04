@@ -4,7 +4,7 @@ headerTitle: "Tillit - Tilgangsstyring"
 eyebrow: "Kapabilitet"
 weight: 3
 description: "Evne til å styre og gi tilgang til hvem som har rettighet til å benytte en ressurs (tjeneste, system, API, opplysning) på vegne av seg selv, andre personer eller virksomheter. ### Begrunnelse (Hvorfor) Kapabiliteten omfatter hele livssyklusen til en rettighet. Den sikrer at personer, virksomheter og systemer får riktig tilgang til riktige ressurser, og at tilgangene kan defineres, delegeres, forvaltes, kontrolleres og trekkes tilbake. Tilgangsstyring er autorisering. Den er forutsetningen for god tilgangskontroll og gjør det mulig å styre hvem som har rett til å benytte en ressurs, tjeneste, system, API eller opplysning på vegne av seg selv, andre personer eller virksomheter. ### Hva det innebærer (Omfang) - **Juridisk (Høy vekt):** Sikre at rettigheter, roller, fullmakter, representasjon og tilgangsgrunnlag følger regelverk, avtaler, behandlingsgrunnlag og krav til personvern og taushetsplikt. - **Organisatorisk (Høy vekt):** Etablere prosesser for å definere roller, delegere tilgang, forvalte representasjon, opprettholde oversikt, revidere tilganger og trekke dem tilbake ved behov. - **Semantisk (Middels vekt):** Sikre felles forståelse av roller, rettigheter, delegasjon, representasjon, kontekst og tilgang til ressurser på individnivå, virksomhetsnivå og systemnivå. - **Teknisk (Svært høy vekt):** Omfatte styring og kontroll av tilganger basert på roller, rettigheter og kontekst, for eksempel om bruker opptrer som privatperson eller ansatt. Dette dekker også system-til-system-samhandling gjennom nasjonale fellesmekanismer for API-sikring og tokenforvaltning, for eksempel Maskinporten. ### Bidrag til sammenhengende tjenester og felles økosystem Tilgangsstyring gjør det mulig å dele data, tjenester og API-er på tvers av virksomheter uten å miste kontroll over hvem som har rett til hva. Når roller, rettigheter og representasjon kan styres på en felles og etterprøvbar måte, kan flere aktører samhandle tryggere i samme tjenestekjede. Kapabiliteten styrker det felles økosystemet ved å gi felles mekanismer for autorisering på tvers av personer, virksomheter og systemer. For sluttbrukeren betyr dette at tjenester kan fungere sømløst på tvers av virksomheter, samtidig som tilganger er korrekte, sporbare og mulige å trekke tilbake."
-cardMeta: "1 produkter"
+cardMeta: "2 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -13,6 +13,11 @@ productsMarkdown: |
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/04-Altinn-autorisasjon-produkt-canvas-v4-codex.md">Altinn Autorisasjon</a></h3>
       <p class="capability-product-link__description">gjør det mulig å forvalte roller, rettigheter og delegeringer som grunnlag for autorisasjonsbeslutninger</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/21-Altinn-Portal-produkt-canvas-v3-codex.md">Altinn Portal</a></h3>
+      <p class="capability-product-link__description">gir oversikt over hvem som kan gjøre hva, både for virksomheter og privatpersoner.</p>
     </article>
   </div>
 ---
