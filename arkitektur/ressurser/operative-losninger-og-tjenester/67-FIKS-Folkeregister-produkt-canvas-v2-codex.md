@@ -136,7 +136,7 @@ Fiks folkeregister er en registertilgangstjeneste i KS Digital og inngår funksj
 - Kommunens identitetsstyringssystem når sentralisert brukerstyring tas i bruk.
 - Kommunale fagsystemer og skjemaløsninger som trenger personopplysninger i operative prosesser.
 
-**Kildekode:** Ikke offentlig dokumentert.
+**Kildekode:** Ikke offentlig dokumentert for selve tjenesten. KS Digital publiserer klientbibliotek og SDK-er for Fiks-plattformen på [github.com/ks-no](https://github.com/ks-no), flere av dem under MIT-lisens.
 
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** - løsningen gjør autoritative folkeregisterdata tilgjengelige for gjenbruk i kommunale arbeidsprosesser.

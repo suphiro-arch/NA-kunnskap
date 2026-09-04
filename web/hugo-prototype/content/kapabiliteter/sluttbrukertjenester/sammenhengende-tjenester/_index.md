@@ -36,7 +36,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/27-FIKS-SvarUt-produkt-canvas-v3-codex.md">Fiks SvarUt</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/27-FIKS-SvarUt-produkt-canvas-v4-claude.md">Fiks SvarUt</a></h3>
       <p class="capability-product-link__description">Fiks SvarUt bidrar til en mer sammenhengende mottakeropplevelse ved at samme forsendelse kan nå fram gjennom riktig kanal uten at avsender bygger ulike løsninger per kanal. Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot dokumentert funksjon i KS Digitals produkt- og utviklerdokumentasjon kontrollert 2026-03-25.</p>
     </article>
     <article class="capability-product-link resource-type--operative">

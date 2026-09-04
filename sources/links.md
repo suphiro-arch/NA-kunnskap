@@ -220,6 +220,7 @@ Sist redigert: 2026-06-17.
 
 ### KS / kommunal sektor
 - KS Digital tjenesteoversikt: https://ksdigital.no/tjenester-2/ (lagt til 2026-09-04)
+- KS Digital kildekode, klientbibliotek og SDK-er for Fiks: https://github.com/ks-no (lagt til 2026-09-05)
 - KS Digital avviklede tjenester: https://ksdigital.no/avviklet-tjeneste/ (lagt til 2026-09-04)
 - Fiks register: https://ksdigital.no/tjenestene/fiks-register/ (lagt til 2026-09-04)
 - Fiks smittevern: https://ksdigital.no/tjenestene/fiks-smittevern/ (lagt til 2026-09-04)

@@ -131,6 +131,8 @@ FIKS-plattformen er en felles plattformtjeneste levert for kommunal sektor.
 - FIKS-plattformen + Folkeregisterrelaterte oppslagstjenester der kommunale tjenester trenger autoritative grunndata.
 - FIKS-plattformen + sektorspesifikke fagsystemer der plattformen gir standardisert integrasjons- og forvaltningslag.
 
+**Kildekode:** Ikke offentlig dokumentert for selve tjenesten. KS Digital publiserer klientbibliotek og SDK-er for Fiks-plattformen på [github.com/ks-no](https://github.com/ks-no), flere av dem under MIT-lisens.
+
 ## Støtter arkitekturprinsipper
 - **P5 Del og gjenbruk løsninger** - plattformen samler felles tekniske byggeklosser som kan brukes på tvers av kommunal sektor.
 - **P6 Lag digitale løsninger som støtter samhandling** - plattformen er laget for å koble tjenester, aktører og data sammen gjennom felles grensesnitt og forvaltningsmønstre.

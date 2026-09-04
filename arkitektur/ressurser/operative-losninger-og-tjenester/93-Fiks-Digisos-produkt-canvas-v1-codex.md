@@ -122,6 +122,8 @@ Fiks Digisos har høy gjenbruksverdi for kommuner som skal digitalisere sosialhj
 - `ID-porten` (for innbyggers autentisering)
 - NAVs løsninger på nav.no
 
+**Kildekode:** Ikke offentlig dokumentert for selve tjenesten. KS Digital publiserer klientbibliotek og SDK-er for Fiks-plattformen på [github.com/ks-no](https://github.com/ks-no), flere av dem under MIT-lisens.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data**
   Losningen muligjor kontrollert deling av søknads- og saksdata mellom statlig og kommunal sektor.

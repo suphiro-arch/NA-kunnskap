@@ -86,7 +86,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/69-FIKS-Kjoretoyregister-produkt-canvas-v1-codex.md">Fiks kjøretøyregister</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/69-FIKS-Kjoretoyregister-produkt-canvas-v2-claude.md">Fiks kjøretøyregister</a></h3>
       <p class="capability-product-link__description">gjør autoritative kjøretøyopplysninger fra Statens vegvesen tilgjengelige for kommunal sektor gjennom et kontrollert tilgangslag i Fiks.</p>
     </article>
     <article class="capability-product-link resource-type--operative">

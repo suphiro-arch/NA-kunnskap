@@ -60,11 +60,9 @@ Kandidater som er identifisert, men ikke vurdert ferdig:
 - `SIMPL` (Smart Middleware Platform), med avklaring av norsk anvendbarhet.
 - `Kreftregisteret`, hvis det kommer tydeligere casebehov.
 - `FIKS IO`: egen ressurs, eller fortsatt teknisk komponent under `FIKS Melding`?
-- Ni KS Digital-tjenester som ikke er vurdert mot opptakskravene: `Fiks eiendomsavtaler`,
-  `Fiks konsesjon`, `Fiks kjøreregister`, `Fiks smittevern`, `KS Bibliotek`,
-  `KS Digitalt ledsagerbevis`, `KS Hjelpemiddel`, `KS Kunnskap` og `KS Min kommune – barnevern`.
-  Avklar samtidig om `KS-010` Fiks kjøretøyregister og KS-tjenesten `Fiks kjøreregister` er samme
-  tjeneste.
+- Åtte KS Digital-tjenester som ikke er vurdert mot opptakskravene: `Fiks eiendomsavtaler`,
+  `Fiks konsesjon`, `Fiks smittevern`, `KS Bibliotek`, `KS Digitalt ledsagerbevis`,
+  `KS Hjelpemiddel`, `KS Kunnskap` og `KS Min kommune – barnevern`.
 
 Restkandidater fra Digdirs virkemiddeloversikt, gjennomgått 2026-09-01. Lista navngav rundt seksti
 virkemidler, og alle unntatt disse er registrert.
@@ -107,10 +105,11 @@ med her slik at neste gjennomgang slipper å gjøre vurderingen på nytt:
   forklaringstekst i mappingen 2026-08-28, men kapabilitetssidene var sist regenerert 2026-06-25, så
   nettstedet viste den gamle teksten i over to måneder uten at noen kontroll sa fra. Enten bør
   kontrollen sammenligne teksten, eller den bør varsle når en generert side er eldre enn kilden sin.
-- Rydde eller regenerere de avledede produktlistene i
-  [produkt-kapabilitet-koblinger.yaml](../arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml).
-  Toppnivået er korrekt, men listene under kapabilitetsseksjonene har eldre versjonsmetadata for
-  tolv ressurser. Ingen kontroll fanger intern inkonsistens i fila.
+- Få `sync-resource-metadata.py` til å oppdatere de avledede produktlistene under
+  kapabilitetsseksjonene i
+  [produkt-kapabilitet-koblinger.yaml](../arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml),
+  ikke bare toppnivået. Listene er ryddet manuelt 2026-09-05, men verktøyet etterlater dem fortsatt
+  utdaterte ved neste versjonsløft, og da stopper `check-resource-version-sync.py` arbeidet.
 - Planlegge trinnvis innføring av feltet `Type` i ressursbeskrivelser, med samme kategorier som i
   registeret, slik at koblingen mellom register og enkeltbeskrivelser blir entydig.
 - Vurdere om `DIGDIR-048` Rammeverk for innovasjon i offentlig sektor bør stå som normerende
