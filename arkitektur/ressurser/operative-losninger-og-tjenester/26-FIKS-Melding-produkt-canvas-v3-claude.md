@@ -142,7 +142,7 @@ Fiks melding er en sentralt forvaltet fellestjeneste i KS Digital og et eget kom
 - `Kontakt- og reservasjonsregisteret` (`DIGDIR-005`) for kontaktopplysninger og reservasjon før utsending.
 - Kommunale sak- og arkivsystemer, som er de vanligste avsender- og mottakssystemene.
 
-**Kildekode:** Ikke offentlig dokumentert for selve tjenesten. KS Digital publiserer klientbibliotek og SDK-er for Fiks-plattformen på [github.com/ks-no](https://github.com/ks-no), flere av dem under MIT-lisens.
+**Kildekode:** Ikke offentlig dokumentert. Selve tjenesten er ikke publisert som åpen kildekode, men klientbibliotek og SDK-er for Fiks-plattformen er tilgjengelige på [github.com/ks-no](https://github.com/ks-no), flere av dem under MIT-lisens.
 
 ## Støtter arkitekturprinsipper
 - **P6: Lag digitale løsninger som støtter samhandling** - produktet er laget for strukturert kommunikasjon og meldingsutveksling mellom kommuner, innbyggere og andre virksomheter gjennom et felles kanalgrunnlag.

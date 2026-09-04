@@ -110,6 +110,16 @@ med her slik at neste gjennomgang slipper å gjøre vurderingen på nytt:
   [produkt-kapabilitet-koblinger.yaml](../arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml),
   ikke bare toppnivået. Listene er ryddet manuelt 2026-09-05, men verktøyet etterlater dem fortsatt
   utdaterte ved neste versjonsløft, og da stopper `check-resource-version-sync.py` arbeidet.
+- Fylle ut `**Kildekode:**` i de 25 gjeldende operative ressursbeskrivelsene som mangler feltet.
+  Kravet står i [operative-ressurs-template.md](../config/templates/operative-ressurs-template.md) og
+  utfyllende i [operative-ressurs-canvas.system.md](../config/prompts/operative-ressurs-canvas.system.md),
+  og gjelder alle operative ressurser. KS-settet er komplett etter gjennomgangen 2026-09-05, men
+  gjelden ligger igjen i BRREG-, helse-, Kartverket-, Sikt-, NAV-, SSB-, SVV-, Novari- og
+  VIGO-radene. Hver enkelt krever kildesjekk av om koden faktisk er publisert, så feltet ikke fylles
+  med gjetning.
+- Oppgi lisens for de to ressursene som er merket `Åpen kildekode` uten lisensnavn: `OPP-001`
+  Peppol eDelivery og `NAV-002` NAIS. Prompten krever lisens og repositoriumslenke ved åpen
+  kildekode.
 - Planlegge trinnvis innføring av feltet `Type` i ressursbeskrivelser, med samme kategorier som i
   registeret, slik at koblingen mellom register og enkeltbeskrivelser blir entydig.
 - Vurdere om `DIGDIR-048` Rammeverk for innovasjon i offentlig sektor bør stå som normerende

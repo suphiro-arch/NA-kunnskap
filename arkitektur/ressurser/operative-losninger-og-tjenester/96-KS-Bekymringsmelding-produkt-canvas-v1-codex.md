@@ -120,7 +120,7 @@ Produktet har høy gjenbruksverdi i barneverndomenet på tvers av kommuner, ford
 - kommunale barnevernsfagsystemer
 - relaterte Fiks-meldings- og dokumenttjenester
 
-**Kildekode:** Ikke offentlig dokumentert for selve tjenesten. KS Digital publiserer klientbibliotek og SDK-er for Fiks-plattformen på [github.com/ks-no](https://github.com/ks-no), flere av dem under MIT-lisens.
+**Kildekode:** Ikke offentlig dokumentert. Selve tjenesten er ikke publisert som åpen kildekode, men klientbibliotek og SDK-er for Fiks-plattformen er tilgjengelige på [github.com/ks-no](https://github.com/ks-no), flere av dem under MIT-lisens.
 
 ## Støtter arkitekturprinsipper
 - **P6: Lag digitale løsninger som støtter samhandling**

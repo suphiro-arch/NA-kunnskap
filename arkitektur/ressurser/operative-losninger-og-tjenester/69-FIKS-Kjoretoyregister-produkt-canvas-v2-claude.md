@@ -139,7 +139,7 @@ Fiks kjøretøyregister er en registertilgangstjeneste på KS Digitals Fiks-plat
 - `Fiks-plattformen` (`KS-001`) for felles identitets-, integrasjons- og forvaltningsmønster.
 - `Kjøretøyopplysninger` fra Statens vegvesen er den autoritative kilden bak tjenesten.
 
-**Kildekode:** Ikke offentlig dokumentert for selve tjenesten. KS Digital publiserer klientbibliotek og SDK-er for Fiks-plattformen på [github.com/ks-no](https://github.com/ks-no), flere av dem under MIT-lisens.
+**Kildekode:** Ikke offentlig dokumentert. Selve tjenesten er ikke publisert som åpen kildekode, men klientbibliotek og SDK-er for Fiks-plattformen er tilgjengelige på [github.com/ks-no](https://github.com/ks-no), flere av dem under MIT-lisens.
 
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** - løsningen gjør autoritative kjøretøyopplysninger tilgjengelige for gjenbruk i kommunale systemer gjennom et felles tilgangslag.

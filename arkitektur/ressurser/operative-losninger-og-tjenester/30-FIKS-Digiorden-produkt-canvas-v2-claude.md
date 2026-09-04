@@ -130,7 +130,7 @@ Fiks Digiorden er en fellestjeneste i KS Digital og er flyttet til FIKS-plattfor
 - `Fiks-plattformen` (`KS-001`) for felles identitet, integrasjon og forvaltning.
 - `Rammeverk for informasjonsforvaltning` (`DIGDIR-029`) som styrende faggrunnlag for arbeidet oversikten skal understøtte.
 
-**Kildekode:** Ikke offentlig dokumentert for selve tjenesten. KS Digital publiserer klientbibliotek og SDK-er for Fiks-plattformen på [github.com/ks-no](https://github.com/ks-no), flere av dem under MIT-lisens.
+**Kildekode:** Ikke offentlig dokumentert. Selve tjenesten er ikke publisert som åpen kildekode, men klientbibliotek og SDK-er for Fiks-plattformen er tilgjengelige på [github.com/ks-no](https://github.com/ks-no), flere av dem under MIT-lisens.
 
 ## Støtter arkitekturprinsipper
 - **P4 Del og gjenbruk data** - bedre oversikt over data og datasett er en forutsetning for å dele og gjenbruke dem på en kontrollert måte.
