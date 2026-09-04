@@ -131,6 +131,8 @@ Vitnemålsportalen er en nasjonal delingsportal som henter resultater fra etable
 - Vitnemalsportalen + opptaksløsninger når resultater brukes i videre utdanningsløp.
 - Vitnemalsportalen + ID-porten når sikker brukerinitiert deling krever tydelig identitetsgrunnlag.
 
+**Kildekode:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P1: Ta utgangspunkt i brukernes behov** - tjenesten er bygget rundt brukerens behov for enkel og sikker deling av egne resultater.
 - **P4: Del og gjenbruk data** - løsningen gjør det mulig å dele resultater digitalt i stedet for å gjenprodusere og sende dokumentasjon manuelt.

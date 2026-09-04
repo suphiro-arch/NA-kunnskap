@@ -140,6 +140,8 @@ Feide er en nasjonal føderert identitets- og datadelingsløsning for utdannings
 - Feide + autorisasjonsløsning når autentisering må suppleres med rolle- og tilgangsstyring.
 - Feide + sektorspesifikke fagsystemer og portaler der identitet og tilhørighet må fungere på tvers av mange tjenester.
 
+**Kildekode:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** - Feide gjør det mulig å dele nødvendige bruker- og organisasjonsopplysninger kontrollert på tvers av tjenester.
 - **P6: Lag digitale løsninger som støtter samhandling** - Feide gir et felles mønster for identitet og tilgang på tvers av mange aktører i sektoren.

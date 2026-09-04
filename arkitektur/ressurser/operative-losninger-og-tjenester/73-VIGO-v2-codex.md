@@ -114,6 +114,8 @@ VIGO har høy gjenbruksverdi innen videregående opplæring, fordi løsningen al
 - `VIGO-portalen` som administrativ inngang til moduler
 - `vigo.no` og andre sluttbrukerflater for søkere og lærlinger
 
+**Kildekode:** Ikke offentlig dokumentert. Kjernesystemet er ikke publisert samlet. Novari publiserer flere VIGO-relaterte komponenter på [github.com/FINTLabs](https://github.com/FINTLabs), blant annet `vigoskole` under MIT-lisens og `vigobas`-modulene under MIT og AGPL-3.0.
+
 ## Støtter arkitekturprinsipper
 - **P2: Ta arkitekturbeslutninger på rett nivå**
   Ressursen er felles eid og finansiert, og beslutninger kan tas på sektorielt nivå der gevinster og konsekvenser faktisk oppstår.

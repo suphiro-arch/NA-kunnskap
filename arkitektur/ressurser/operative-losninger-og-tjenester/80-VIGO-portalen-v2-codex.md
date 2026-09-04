@@ -102,6 +102,8 @@ Ressursen har høy gjenbruksverdi innen fylkeskommunal utdanningsforvaltning som
 - `VIGO Sentralbase`
 - `vigo.no`
 
+**Kildekode:** Ikke offentlig dokumentert. Portalen er ikke publisert som samlet løsning. Enkelte VIGO-komponenter er publisert på [github.com/FINTLabs](https://github.com/FINTLabs), med varierende lisens per repositorium.
+
 ## Støtter arkitekturprinsipper
 - **P6: Lag digitale løsninger som støtter samhandling**
   Portalen gjør samhandling enklere på tvers av moduler og roller i samme sektorøkosystem.

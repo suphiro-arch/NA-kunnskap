@@ -140,6 +140,8 @@ NVB er en nasjonal register- og delingsløsning for elektroniske vitnemålsdata.
 - Nasjonal vitnemålsdatabase + Vitnemålsportalen når kvalitetssikret resultatinformasjon skal kunne deles videre i brukerrettede løp.
 - Nasjonal vitnemålsdatabase + analyse- og statistikkløsninger når samme datagrunnlag brukes til kunnskapsutvikling og beslutningsstøtte.
 
+**Kildekode:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** realiseres ved at vitnemålsopplysninger kan brukes i flere formål og prosesser.
 - **P5: Del og gjenbruk løsninger** styrkes ved at sektoren kan bygge på én felles database i stedet for mange lokale varianter.

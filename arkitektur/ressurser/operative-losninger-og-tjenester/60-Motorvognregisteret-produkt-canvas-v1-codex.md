@@ -94,6 +94,8 @@ Motorvognregisteret er et nasjonalt register- og delingsprodukt for kjøretøyop
 
 Produktet er særlig relevant når flere aktører trenger samme grunnlag om kjøretøy og det er viktig at opplysningene kommer fra en autoritativ kilde med tydelige delingsformer.
 
+**Kildekode:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data**
 - **P7: Sørg for tillit til oppgaveløsningen**

@@ -141,6 +141,8 @@ Helsenorge er en nasjonal portal- og tjenesteflate for innbyggere i helsesektore
 - `HelseID`
 - `Helsedata.no` (når innbyggerrettet tjenesteflate og datatilgangsløp må ses i sammenheng)
 
+**Kildekode:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P5: Del og gjenbruk løsninger** styrkes ved at flere helseaktører bruker samme innbyggerflate.
 - **P6: Lag digitale løsninger som støtter samhandling** støttes fordi Helsenorge binder sammen tjenester fra flere aktører i én brukerreise.

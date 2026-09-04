@@ -186,6 +186,7 @@ Sist redigert: 2026-06-17.
 - Mandat for brukerrådet for Digdirs digitale fellesløsninger: https://samarbeid.digdir.no/digital-postkasse/mandat-brukerradet-digdirs-digitale-felleslosninger/129 (lagt til 2026-09-04)
 
 ### Brønnøysundregistrene
+- Brønnøysundregistrene på GitHub, API-spesifikasjoner: https://github.com/brreg (lagt til 2026-09-05)
 - Brønnøysundregistrene: https://www.brreg.no
 - Enhetsregisteret: https://www.brreg.no/enkelt-i-brreg/registre-og-teknologi/enhetsregister/
 - Om Enhetsregisteret: https://www.brreg.no/om-oss/registrene-vare/om-enhetsregisteret/ (lagt til 2026-03-27)
@@ -205,6 +206,7 @@ Sist redigert: 2026-06-17.
 - Peppol eDelivery: https://github.com/phax/phase4 (lagt til 2026-08-28)
 
 ### NAV
+- NAIS-plattformen på GitHub: https://github.com/nais (lagt til 2026-09-05)
 - NAV hovedside: https://www.nav.no/
 - NAIS: https://nais.io/ (lagt til 2026-03-19)
 - NAV på GitHub: https://github.com/navikt (lagt til 2026-03-27)
@@ -272,6 +274,7 @@ Sist redigert: 2026-06-17.
 - MinKommune: https://min.kommune.no/ (lagt til 2026-08-28)
 
 ### Novari / fylkeskommunal sektor
+- FINTLabs på GitHub, kildekode for FINT og VIGO-komponenter: https://github.com/FINTLabs (lagt til 2026-09-05)
 - Novari tjenester: https://novari.no/tjenester/ (lagt til 2026-04-09)
 - FINT Felleskomponent: https://novari.no/tjenester/fint-felleskomponent/ (lagt til 2026-04-09)
 - FINT Arkiv: https://novari.no/tjenester/fint-arkiv/ (lagt til 2026-04-09)
@@ -289,6 +292,7 @@ Sist redigert: 2026-06-17.
 - VIGO-portalen: https://www.vigo.no/nyvigo/portalen/portalen.html (lagt til 2026-08-28)
 
 ### Skatteetaten
+- Skatteetaten på GitHub, API-dokumentasjon og spesifikasjoner: https://github.com/Skatteetaten (lagt til 2026-09-05)
 - Folkeregisteret: https://www.skatteetaten.no/person/folkeregister/
 - Dette er Folkeregisteret: https://www.skatteetaten.no/person/folkeregister/om/om/ (lagt til 2026-03-27)
 - A-ordningen: https://www.a-ordningen.no/ (lagt til 2026-03-19)
@@ -307,6 +311,7 @@ Sist redigert: 2026-06-17.
 - Folkeregisteret: https://www.skatteetaten.no/nn/skjema/opplysninger-i-folkeregisteret/ (lagt til 2026-08-28)
 
 ### Helse
+- Norsk helsenett på GitHub, klientbibliotek og eksempelkode: https://github.com/NorskHelsenett (lagt til 2026-09-05)
 - Kjernejournal på Helsenorge: https://www.helsenorge.no/helseopplysninger-som-deles/kjernejournal/
 - Helsedata.no: https://helsedata.no/
 - Helsedata.no kontakt: https://helsedata.no/en/contact/ (lagt til 2026-03-27)
@@ -364,6 +369,7 @@ Sist redigert: 2026-06-17.
 - Reseptregisteret (NorPD): https://www.fhi.no/he/reseptregisteret/ (lagt til 2026-08-28)
 
 ### Kartverket
+- Kartverket på GitHub, blant annet Geonorge-komponenter: https://github.com/kartverket (lagt til 2026-09-05)
 - Matrikkelen: https://kartverket.no/enhetsregister/matrikkelen/
 - Om Matrikkelen: https://kartverket.no/eiendom/mine-eiendommer/om-matrikkelen (lagt til 2026-03-27)
 - Tilgang til Matrikkelen: https://www.kartverket.no/eiendom/lokal-matrikkelmyndighet/matrikkelhjelp/tilgang-til-matrikkelen (lagt til 2026-03-27)
@@ -388,6 +394,7 @@ Sist redigert: 2026-06-17.
 - Matrikkelen: https://kartverket.no/en/about-kartverket/nyheter/eiendom/2023/august/en-moderne-matrikkel (lagt til 2026-08-28)
 
 ### Statens vegvesen
+- Statens vegvesen på GitHub: https://github.com/vegvesen (lagt til 2026-09-05)
 - Motorvognregisteret: https://www.vegvesen.no/kjoretoy/kjop-og-salg/kjoretoyopplysninger/ (lagt til 2026-03-19)
 - Om utlevering av kjøretøyopplysninger: https://www.vegvesen.no/kjoretoy/kjop-og-salg/kjoretoyopplysninger/om-utlevering-av-kjoretoyopplysninger/ (lagt til 2026-03-27)
 - API for tekniske kjøretøyopplysninger: https://www.vegvesen.no/fag/teknologi/apne-data/et-utvalg-apne-data/api-for-tekniske-kjoretoyopplysninger/ (lagt til 2026-03-27)
@@ -430,6 +437,7 @@ Sist redigert: 2026-06-17.
 - Vitnemålsportalen: https://www.vitnemalsportalen.no (lagt til 2026-08-28)
 
 ### SSB
+- Statistisk sentralbyrå på GitHub: https://github.com/statisticsnorway (lagt til 2026-09-05)
 - microdata.no: https://www.microdata.no/ (lagt til 2026-03-19)
 - Om microdata.no: https://www.microdata.no/om-microdata-no/ (lagt til 2026-03-27)
 - Kontakt microdata.no: https://www.microdata.no/kontakt-oss/ (lagt til 2026-03-27)

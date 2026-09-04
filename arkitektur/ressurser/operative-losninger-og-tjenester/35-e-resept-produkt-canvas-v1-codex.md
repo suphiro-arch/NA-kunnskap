@@ -95,6 +95,8 @@ e-resept er en nasjonal meldings- og samhandlingsløsning for reseptinformasjon.
 
 Produktet er særlig relevant der flere aktører må dele og bruke reseptinformasjon på en felles, sikker og standardisert måte, men mindre relevant som isolert brukerflate utenfor denne samhandlingskjeden.
 
+**Kildekode:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data**
 - **P6: Lag digitale løsninger som støtter samhandling**

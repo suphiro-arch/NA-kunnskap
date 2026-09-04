@@ -119,6 +119,8 @@ Ressursen har høy gjenbruksverdi fordi den er laget nettopp for å være et fel
 - `FINT Flyt` når det er behov for dataomforming og oppsett av integrasjonsløp
 - fylkeskommunale fagsystemer og adaptere som eksponerer eller konsumerer data gjennom FINT
 
+**Kildekode:** Åpen kildekode. Felleskomponenten er publisert på [github.com/FINTLabs](https://github.com/FINTLabs) i `fint-core`-repositoriene, i hovedsak under MIT-lisens.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data**  
   Felleskomponenten er laget for å tilgjengeliggjøre og gjenbruke data på tvers av fylkeskommunale systemer.

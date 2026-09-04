@@ -127,7 +127,7 @@ NAIS er selv en plattformressurs for applikasjonsutvikling og drift, basert på 
 - NAIS + ID-porten/Ansattporten når plattformbaserte tjenester trenger standardisert innlogging
 - NAIS + Altinn-økosystemet i løsninger som kombinerer plattformdrift med nasjonale samhandlingskomponenter
 
-**Kildekode:** Åpen kildekode (se åpne repositorier under `navikt` på GitHub).
+**Kildekode:** Åpen kildekode. Plattformen er publisert på [github.com/nais](https://github.com/nais), blant annet `naiserator`, `wonderwall` og `tokendings`, i hovedsak under MIT-lisens. Applikasjoner som kjører på plattformen ligger under [github.com/navikt](https://github.com/navikt).
 
 ## Støtter arkitekturprinsipper
 - **P5: Del og gjenbruk løsninger** ved å tilby delte plattformkapabiliteter som kan gjenbrukes på tvers av team.

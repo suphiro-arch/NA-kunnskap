@@ -136,6 +136,8 @@ Produktet er også relevant når behovet gjelder maskinell bruk av virksomhetsda
 - Det er særlig relevant når behovet er autoritative basisopplysninger om virksomheter og en felles identifikator.
 - Det er mindre relevant dersom behovet gjelder fagspesifikke forhold som må hentes fra andre registre.
 
+**Kildekode:** Ikke offentlig dokumentert. Registerløsningen er ikke publisert. Brønnøysundregistrene publiserer API-spesifikasjoner på [github.com/brreg](https://github.com/brreg) i repositoriet `openAPI`.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** realiseres ved at Enhetsregisteret tilbyr felles virksomhetsgrunndata som kan brukes på tvers av sektorer.
 - **P5: Del og gjenbruk løsninger** styrkes ved at samfunnet kan bygge på ett virksomhetsregister i stedet for parallelle varianter.

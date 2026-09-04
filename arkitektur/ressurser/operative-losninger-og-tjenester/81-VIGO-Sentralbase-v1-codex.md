@@ -109,6 +109,8 @@ Ressursen har svært høy gjenbruksverdi i fylkeskommunal utdanningsforvaltning,
 - `VIGO Kodeverk og kodeverksbase`
 - `vigo.no`
 
+**Kildekode:** Ikke offentlig dokumentert. Sentralbasen er ikke publisert. Enkelte VIGO-relaterte komponenter er publisert på [github.com/FINTLabs](https://github.com/FINTLabs).
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data**
   Sentralbasen muliggjør felles datadeling og gjenbruk på tvers av fylkeskommuner og myndigheter.

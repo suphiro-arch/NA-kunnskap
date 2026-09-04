@@ -129,6 +129,8 @@ Folkeregisteret er et nasjonalt register- og delingssystem for personopplysninge
 - Det er særlig relevant når behovet er autoritative personopplysninger og kontrollert datadeling.
 - Det er mindre relevant dersom behovet gjelder fagspesifikke vurderinger som bygger videre på folkeregisterdata, men som må løses i andre tjenester.
 
+**Kildekode:** Ikke offentlig dokumentert. Selve registeret er ikke publisert som kildekode. Skatteetaten publiserer API-dokumentasjon på [github.com/Skatteetaten](https://github.com/Skatteetaten), blant annet `folkeregisteret-api-dokumentasjon`.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** realiseres ved at Folkeregisteret tilbyr autoritative persondata som kan brukes på tvers av sektorer.
 - **P5: Del og gjenbruk løsninger** styrkes ved at samfunnet bygger på samme register i stedet for parallelle personregistre.

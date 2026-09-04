@@ -137,6 +137,8 @@ Grunnboken er et nasjonalt register- og dokumentasjonssystem for tinglyste retti
 - **Matrikkelen** når eiendomsrettigheter må ses sammen med adresser, bygninger og eiendomsidentifikasjon.
 - **Geonorge** når grunnlagsdata også skal oppdages, dokumenteres eller distribueres i en bredere geodatakontekst.
 
+**Kildekode:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** realiseres ved at Grunnboken gir et felles nasjonalt rettighetsgrunnlag om eiendommer.
 - **P5: Del og gjenbruk løsninger** styrkes ved at mange aktører kan bygge på samme autoritative register framfor egne parallelle kontrollgrunnlag.

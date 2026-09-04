@@ -92,6 +92,8 @@ KUHR er et nasjonalt oppgjørs- og kontrollsystem for refusjonskrav i helsesekto
 
 Produktet er først og fremst relevant der det er behov for et felles, regelstyrt oppgjørsløp og et konsistent datagrunnlag for kontroll og oppfølging, ikke som en generell sluttbrukertjeneste utenfor denne konteksten.
 
+**Kildekode:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data**
 - **P7: Sørg for tillit til oppgaveløsningen**

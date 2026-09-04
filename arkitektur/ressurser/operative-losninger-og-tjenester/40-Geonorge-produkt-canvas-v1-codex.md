@@ -126,6 +126,8 @@ Geonorge er en nasjonal katalog-, metadata- og delingsplattform for geodata.
 - Det er særlig relevant når behovet er oversikt over datasett, metadata og tilgang til stedfestet informasjon.
 - Det er klart mer tverrsektorielt som fellesressurs enn smalere, sektorspesifikke vegdatatjenester.
 
+**Kildekode:** Åpen kildekode. Sentrale Geonorge-komponenter er publisert på [github.com/kartverket](https://github.com/kartverket), blant annet `Geonorge.Register` og `GeoNorgeAPI` under MIT-lisens og `Geonorge.NedlastingKlient` under AGPL-3.0. Lisensene varierer mellom komponentene, så lisens må kontrolleres per repositorium.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** realiseres ved at Geonorge gjør geodata oppdagbare og delbare på tvers av virksomheter.
 - **P5: Del og gjenbruk løsninger** styrkes ved at mange datatilbydere bruker samme nasjonale katalog- og delingsløsning.

@@ -126,6 +126,8 @@ Skatteetatens delingstjenester er en felles delings- og integrasjonsflate for da
 - Det er særlig relevant når behovet er kontrollert og autoritativ datadeling fra Skatteetaten.
 - Det er mindre relevant som selvstendig sluttbrukertjeneste, siden hovedverdien ligger i integrasjon og viderebruk.
 
+**Kildekode:** Ikke offentlig dokumentert. Tjenestene er ikke publisert som kildekode. Skatteetaten publiserer API-dokumentasjon og spesifikasjoner på [github.com/Skatteetaten](https://github.com/Skatteetaten), blant annet `api-dokumentasjon` og `skattemeldingen` under Apache-2.0.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** realiseres direkte ved at produktet er bygget for å dele data fra Skatteetaten med andre.
 - **P5: Del og gjenbruk løsninger** styrkes ved at datadeling skjer gjennom en felles modell framfor mange bilaterale opplegg.

@@ -131,6 +131,8 @@ Sentralt stedsnavnregister er en nasjonal register- og datadelingsressurs for of
 - Det er relevant på tvers av geodata, beredskap, analyse, kommunikasjon og stedfestede tjenester.
 - Det kompletterer andre KART-ressurser ved å dekke navnegrunnlaget, ikke bare geometri, metadata eller eiendomsforhold.
 
+**Kildekode:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** støttes ved at offisielle stedsnavn kan brukes som felles datagrunnlag på tvers av virksomheter.
 - **P5: Del og gjenbruk løsninger** styrkes indirekte når flere tjenester bygger på samme navnegrunnlag i stedet for lokale varianter.

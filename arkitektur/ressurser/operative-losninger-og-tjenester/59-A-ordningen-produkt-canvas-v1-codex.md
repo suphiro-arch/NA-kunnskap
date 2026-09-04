@@ -127,6 +127,8 @@ A-ordningen er en samordnet rapporterings- og datadelingsordning som fungerer p�
 - Det er særlig relevant når behovet er samordnet rapportering og videre bruk av inntekts- og arbeidsforholdsdata.
 - Det er mindre relevant som isolert sluttbrukertjeneste, siden hovedverdien ligger i datagrunnlaget og samordningen mellom aktører.
 
+**Kildekode:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** realiseres ved at rapporterte opplysninger brukes videre av flere etater og andre aktører.
 - **P5: Del og gjenbruk løsninger** styrkes ved at flere rapporteringsløp er samlet i én felles ordning.

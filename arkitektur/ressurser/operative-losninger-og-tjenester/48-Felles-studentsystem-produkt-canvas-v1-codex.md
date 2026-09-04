@@ -126,6 +126,8 @@ FS er en nasjonal studieadministrativ plattform med databaser, integrasjoner, AP
 - Det er særlig relevant når behovet er deling og forvaltning av studieadministrative data og prosesser.
 - Det er mindre relevant utenfor kontekster som faktisk trenger data og prosesser fra høyere utdanning, men innen sektoren er gjenbruksverdien svært høy.
 
+**Kildekode:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** realiseres ved at studie- og studentdata kan brukes i flere tjenester og prosesser.
 - **P5: Del og gjenbruk løsninger** styrkes ved at sektoren bruker en felles plattform i stedet for mange lokale varianter.
