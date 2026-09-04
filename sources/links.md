@@ -219,6 +219,10 @@ Sist redigert: 2026-06-17.
 - Aa-registeret: https://www.nav.no/samarbeidspartner/web-oppslag (lagt til 2026-08-28)
 
 ### KS / kommunal sektor
+- KS Digital tjenesteoversikt: https://ksdigital.no/tjenester-2/ (lagt til 2026-09-04)
+- KS Digital avviklede tjenester: https://ksdigital.no/avviklet-tjeneste/ (lagt til 2026-09-04)
+- Fiks register: https://ksdigital.no/tjenestene/fiks-register/ (lagt til 2026-09-04)
+- Fiks smittevern: https://ksdigital.no/tjenestene/fiks-smittevern/ (lagt til 2026-09-04)
 - KS Digital - prisoversikt 2026, gjelder blant annet Fiks Melding og SvarUt: https://ksdigital.no/avtaler-og-priser/prisoversikt-2026/
 - KS Digital tjenester: https://ksdigital.no/tjenester-2/
 - FIKS-plattformen: https://ksdigital.no/tjenestene/fiks-plattformen/

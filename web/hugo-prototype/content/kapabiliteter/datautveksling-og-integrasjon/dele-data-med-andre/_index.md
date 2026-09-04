@@ -156,7 +156,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/93-Fiks-Digisos-produkt-canvas-v1-codex.md">Fiks Digisos</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/93-Fiks-Digisos-produkt-canvas-v1-codex.md">Fiks digisos</a></h3>
       <p class="capability-product-link__description">Tjenesten deler og overfører søknads- og saksdata kontrollert mellom statlige og kommunale systemer gjennom Fiks API-er og meldingskanaler.</p>
     </article>
     <article class="capability-product-link resource-type--normative">

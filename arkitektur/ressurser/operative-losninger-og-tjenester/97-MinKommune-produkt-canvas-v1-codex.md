@@ -1,7 +1,7 @@
-# Produkt-canvas: MinKommune
+# Produkt-canvas: KS Min kommune
 
 ## Navn
-MinKommune
+KS Min kommune
 
 ## Ressurs ID
 KS-016
@@ -20,7 +20,7 @@ KS-016
 **Deduksjon:** Modenheten er høy for kjernefunksjoner knyttet til innsyn og kommunikasjon med kommunen. Omfang og brukeropplevelse vil samtidig variere etter hvilke delfunksjoner den enkelte kommune aktiverer.
 
 ## Kort beskrivelse
-MinKommune er en innbyggerportal som samler kommunale digitale tjenester i en felles brukerflate på min.kommune.no. Tjenesten gir innbyggere ett sted å finne og følge post, faktura, eiendommer, byggesaker, skjema og andre kommunale oppgaver, med autentisering via ID-porten og kobling til flere datakilder og kommunale fagsystem.
+KS Min kommune, tidligere omtalt som MinKommune, er en innbyggerportal som samler kommunale digitale tjenester i en felles brukerflate på min.kommune.no. Tjenesten gir innbyggere ett sted å finne og følge post, faktura, eiendommer, byggesaker, skjema og andre kommunale oppgaver, med autentisering via ID-porten og kobling til flere datakilder og kommunale fagsystem.
 
 I NA-sammenheng er MinKommune relevant fordi den representerer et kommunalt innbyggergrensesnitt bygget på gjenbruk av nasjonale og kommunale felleskomponenter. Tjenesten kan sees som en kommunal portalmotpart til statlige innbyggertjenester der målet er sammenhengende brukerreiser på tvers av virksomheter og forvaltningsnivå.
 

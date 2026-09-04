@@ -121,6 +121,11 @@ Fiks kjøretøyregister er en registertilgangstjeneste på KS Digitals Fiks-plat
 - Gjenbruksverdien ligger i felles autentiserings- og integrasjonsmønster, ikke i at KS Digital eier de underliggende dataene.
 - Løsningen er særlig relevant når flere kommuner eller leverandører trenger samme type oppslag uten å bygge egne tilkoblinger mot kilden.
 
+**Vanlige kombinasjoner med andre produkter:**
+- `Fiks register` (`KS-004`) er den overordnede tjenesten. KS Digital beskriver kjøretøyopplysninger som én av fire datakilder i Fiks register, sammen med Folkeregisteret, skatte- og inntektsopplysninger og Kontaktregisteret. Denne beskrivelsen dekker den kjøretøyspesifikke flaten, mens felles tilgangsstyring, roller og forvaltning ligger i `KS-004`.
+- `Fiks-plattformen` (`KS-001`) for felles identitets-, integrasjons- og forvaltningsmønster.
+- `Kjøretøyopplysninger` fra Statens vegvesen er den autoritative kilden bak tjenesten.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** - løsningen gjør autoritative kjøretøyopplysninger tilgjengelige for gjenbruk i kommunale systemer gjennom et felles tilgangslag.
 - **P7: Sørg for tillit til oppgaveløsningen** - produktet bygger på standard autentisering fra Maskinporten og kontrollert oppsett i Fiks-plattformen før data kan brukes.

@@ -170,8 +170,8 @@ Fiks register er en fellestjeneste på KS Digitals Fiks-plattform og fungerer so
 - Lokal fil: `arkitektur/ressurser/produktnummerering.md`
 - Lokal fil: `sources/links.md`
 - Lokal fil: `arkitektur/ressurser/operative-losninger-og-tjenester/28-FIKS-Register-produkt-canvas-v2-codex.md`
-- Lokal fil: `arkitektur/ressurser/operative-losninger-og-tjenester/67-FIKS-Folkeregister-produkt-canvas-v1-codex.md`
-- Lokal fil: `arkitektur/ressurser/operative-losninger-og-tjenester/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v1-codex.md`
+- Lokal fil: `arkitektur/ressurser/operative-losninger-og-tjenester/67-FIKS-Folkeregister-produkt-canvas-v2-codex.md`
+- Lokal fil: `arkitektur/ressurser/operative-losninger-og-tjenester/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v2-codex.md`
 - Nettkilde: https://ksdigital.no/tjenestene/fiks-register/ (hentet 2026-05-26)
 - Nettkilde: https://ksdigital.no/avtaler-og-priser/fakturalinjer/ (hentet 2026-05-26)
 - Nettkilde: https://ksdigital.no/tjenestene/segmentsamarbeid/ (hentet 2026-05-26)

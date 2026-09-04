@@ -113,6 +113,11 @@ SvarInn er en sentralt forvaltet mottakstjeneste i KS Digital og inngår i samme
 - Tjenesten kan brukes av mange kommuner og andre offentlige virksomheter med samme behov for standardisert mottak av digital post.
 - Gjenbruksverdien ligger i felles mottakslogikk og integrasjonsmønster, ikke i lokal forretningslogikk eller saksbehandling.
 
+**Vanlige kombinasjoner med andre produkter:**
+- `Fiks SvarUt` (`KS-003`) er motstykket og den overordnede tjenesten. KS Digital dokumenterer SvarInn som mottaksside under SvarUt, og lister den ikke som egen tjeneste i tjenesteoversikten. SvarUt sender, SvarInn mottar, og de forutsetter hverandre i en fullstendig forsendelseskjede.
+- `Fiks-plattformen` (`KS-001`) for felles identitet, integrasjon og forvaltning.
+- Kommunale sak- og arkivsystemer, som er de vanligste mottakssystemene bak SvarInn.
+
 ## Støtter arkitekturprinsipper
 - **P6 Lag digitale løsninger som støtter samhandling** - SvarInn standardiserer mottak av innkommende post mellom offentlige virksomheter og gjør samhandlingsmønsteret mer forutsigbart.
 - **P7 Sørg for tillit til oppgaveløsningen** - sertifikatbruk, dekryptering og kontroll av sensitive forsendelser er sentrale deler av løsningen.

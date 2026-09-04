@@ -117,7 +117,7 @@ Skatteetatens tilgangssider viser at løsningen samtidig inngår i et bredere de
 - https://www.skatteetaten.no/nn/deling/folkeregisteret/intro/fa-tilgang/
 
 ## Plattform
-Fiks folkeregister er en registertilgangstjeneste i KS Digital og inngår funksjonelt i Fiks register-familien.
+Fiks folkeregister er en registertilgangstjeneste i KS Digital og inngår funksjonelt i Fiks register-familien (`KS-004`), der KS Digital beskriver Folkeregisteret som én av fire datakilder.
 
 **Fakta:**
 - Tjenesten tilbys både som nettsideløsning og maskin-til-maskin-integrasjon.

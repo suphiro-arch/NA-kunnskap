@@ -157,11 +157,10 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 | 68 | `KS-009` | Fiks skatte- og inntektsopplysninger | Gjenbrukbare løsninger | Tilgang til skatte- og inntektsopplysninger via Fiks | Grunndata<br>Bruke data fra andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v2-codex.md) |
 | 69 | `KS-010` | Fiks kjøretøyregister | Gjenbrukbare løsninger | Tilgang til kjøretøyopplysninger via Fiks | Grunndata<br>Bruke data fra andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/69-FIKS-Kjoretoyregister-produkt-canvas-v1-codex.md) |
 | 74 | `KS-011` | Felles mal for innføring av digitale fellestjenester | Standarder og veiledning | Innføringsveileder | Organisatorisk samhandling<br>Forvaltningsstandarder | - |
-| 93 | `KS-012` | Fiks Digisos | Gjenbrukbare løsninger | Tjeneste for digital sosialhjelp | Organisatorisk samhandling<br>Sammenhengende tjenester<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/93-Fiks-Digisos-produkt-canvas-v1-codex.md) |
-| 94 | `KS-013` | Fiks Protokoll | Gjenbrukbare løsninger | Saks- og motestotte for politiske organer | Organisatorisk samhandling<br>Datastyring | - |
-| 95 | `KS-014` | Fiks Vaksine | Gjenbrukbare løsninger | Kommunal vaksineforvaltning | Sammenhengende tjenester<br>Dele data med andre | - |
-| 96 | `KS-015` | KS Bekymringsmelding | Gjenbrukbare løsninger | Digital meldingstjeneste for bekymringsmeldinger | Meldingsutveksling<br>Organisatorisk samhandling<br>Sammenhengende tjenester | [96-KS-Bekymringsmelding-produkt-canvas-v1-codex.md](operative-losninger-og-tjenester/96-KS-Bekymringsmelding-produkt-canvas-v1-codex.md) |
-| 97 | `KS-016` | MinKommune | Gjenbrukbare løsninger | Innbyggerportal for kommunale tjenester | Sammenhengende tjenester<br>Tjenestekjeder | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/97-MinKommune-produkt-canvas-v1-codex.md) |
+| 93 | `KS-012` | Fiks digisos | Gjenbrukbare løsninger | Tjeneste for digital sosialhjelp | Organisatorisk samhandling<br>Sammenhengende tjenester<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/93-Fiks-Digisos-produkt-canvas-v1-codex.md) |
+| 94 | `KS-013` | Fiks protokoll | Gjenbrukbare løsninger | Saks- og møtestøtte for politiske organer | Organisatorisk samhandling<br>Datastyring | - |
+| 96 | `KS-015` | KS Bekymringsmelding | Gjenbrukbare løsninger | Digital meldingstjeneste for bekymringsmeldinger | Meldingsutveksling<br>Organisatorisk samhandling<br>Sammenhengende tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/96-KS-Bekymringsmelding-produkt-canvas-v1-codex.md) |
+| 97 | `KS-016` | KS Min kommune | Gjenbrukbare løsninger | Innbyggerportal for kommunale tjenester | Sammenhengende tjenester<br>Tjenestekjeder | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/97-MinKommune-produkt-canvas-v1-codex.md) |
 
 
 

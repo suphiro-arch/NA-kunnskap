@@ -118,7 +118,7 @@ En sentral del av funksjonen er endrings- og forvaltningsarbeidet rundt Skatteet
 - https://www.skatteetaten.no/deling/bruksvilkar-for-delingstjenester/
 
 ## Plattform
-Fiks skatte- og inntektsopplysninger er en registertilgangstjeneste i KS Digital og en undertjeneste under Fiks register.
+Fiks skatte- og inntektsopplysninger er en registertilgangstjeneste i KS Digital og en undertjeneste under Fiks register (`KS-004`), der KS Digital beskriver skatte- og inntektsopplysninger som én av fire datakilder.
 
 **Fakta:**
 - Tjenesten tilbys både som nettsideløsning og maskin-til-maskin-integrasjon.

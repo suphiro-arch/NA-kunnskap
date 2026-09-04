@@ -1,7 +1,7 @@
-# Produkt-canvas: Fiks Digisos
+# Produkt-canvas: Fiks digisos
 
 ## Navn
-Fiks Digisos
+Fiks digisos
 
 ## Ressurs ID
 KS-012

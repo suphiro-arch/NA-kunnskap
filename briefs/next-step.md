@@ -60,6 +60,11 @@ Kandidater som er identifisert, men ikke vurdert ferdig:
 - `SIMPL` (Smart Middleware Platform), med avklaring av norsk anvendbarhet.
 - `Kreftregisteret`, hvis det kommer tydeligere casebehov.
 - `FIKS IO`: egen ressurs, eller fortsatt teknisk komponent under `FIKS Melding`?
+- Ni KS Digital-tjenester som ikke er vurdert mot opptakskravene: `Fiks eiendomsavtaler`,
+  `Fiks konsesjon`, `Fiks kjøreregister`, `Fiks smittevern`, `KS Bibliotek`,
+  `KS Digitalt ledsagerbevis`, `KS Hjelpemiddel`, `KS Kunnskap` og `KS Min kommune – barnevern`.
+  Avklar samtidig om `KS-010` Fiks kjøretøyregister og KS-tjenesten `Fiks kjøreregister` er samme
+  tjeneste.
 
 Restkandidater fra Digdirs virkemiddeloversikt, gjennomgått 2026-09-01. Lista navngav rundt seksti
 virkemidler, og alle unntatt disse er registrert.
@@ -108,8 +113,6 @@ med her slik at neste gjennomgang slipper å gjøre vurderingen på nytt:
   tolv ressurser. Ingen kontroll fanger intern inkonsistens i fila.
 - Planlegge trinnvis innføring av feltet `Type` i ressursbeskrivelser, med samme kategorier som i
   registeret, slik at koblingen mellom register og enkeltbeskrivelser blir entydig.
-- Vurdere om KS-sporet trenger egen struktur for overordnet registerfamilie mot underliggende
-  undertjenester, nå som `Fiks register` er strammet inn som tilgangslag.
 - Vurdere om `DIGDIR-048` Rammeverk for innovasjon i offentlig sektor bør stå som normerende
   ressurs eller avgrenses tydeligere.
 
