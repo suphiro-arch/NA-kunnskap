@@ -95,7 +95,7 @@ Arkitekturverdien er økt interoperabilitet gjennom mer standardisert beskrivels
 | Dokumentasjon | Mangelfulle metadata og API-beskrivelser | Lav oppdagbarhet og feil bruk | Bruke anbefalte minimumsbeskrivelser |
 | Forvaltning | Rutiner for endring og drift er uklare | Ustabil datadeling | Etablere SLA, ansvar og vedlikeholdsrutiner |
 
-## Konsekvens ved manglende bruk
+## Konsekvens ved manglende bruk eller avvik
 Datadeling kan bli uforutsigbar og lite skalerbar, med svak kvalitet i beskrivelser, tilgangsstyring og forvaltning over tid.
 
 ## Publiseringsform og tilgjengelighet

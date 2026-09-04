@@ -114,7 +114,7 @@ Arkitekturverdien ligger i at veikartet gir en felles struktur for å koble stra
 | Avgrensning | Veikartet forveksles med porteføljestyring eller detaljplan | Feil bruk og urealistiske forventninger | Presisere at veikartet er en samordnings- og prioriteringsmekanisme |
 | Endringstakt | Innhold og roller kan endre seg raskt mens modellen bygges | Beskrivelsen blir fort utdatert | Revidere ressursen oftere enn mer stabile normerende ressurser |
 
-## Konsekvens ved manglende bruk
+## Konsekvens ved manglende bruk eller avvik
 Tverrgående tiltak kan bli dårligere samordnet, viktige avhengigheter kan oppdages for sent, og prioriteringer kan i større grad skje sektorvis uten tilstrekkelig helhetsperspektiv.
 
 ## Publiseringsform og tilgjengelighet

@@ -183,6 +183,7 @@ Sist redigert: 2026-06-17.
 - Styringsråd forDigitaliseringsdirektoratets fellesløsninger: https://samarbeid.digdir.no/digital-postkasse/mandat-styringsradet/128 (lagt til 2026-08-28)
 - Styringsråd forDigitaliseringsdirektoratets fellesløsninger: https://samarbeid.digdir.no/digital-postkasse/styringsradets-medlemmer/655 (lagt til 2026-08-28)
 - Styringsråd forDigitaliseringsdirektoratets fellesløsninger: https://www.digdir.no/skate/forholdet-mellom-skate-og-styringsrad-digdirs-felleslosninger/3529 (lagt til 2026-08-28)
+- Mandat for brukerrådet for Digdirs digitale fellesløsninger: https://samarbeid.digdir.no/digital-postkasse/mandat-brukerradet-digdirs-digitale-felleslosninger/129 (lagt til 2026-09-04)
 
 ### Brønnøysundregistrene
 - Brønnøysundregistrene: https://www.brreg.no
@@ -442,6 +443,7 @@ Sist redigert: 2026-06-17.
 - European Digital Identity Wallet: https://commission.europa.eu/topics/digital-economy-and-society/european-digital-identity_en (lagt til 2026-03-18)
 - Interoperable Europe Solutions: https://interoperable-europe.ec.europa.eu/interoperable_solutions (lagt til 2026-03-18)
 - EU Open Source Solutions Catalogue: https://interoperable-europe.ec.europa.eu/eu-oss-catalogue (lagt til 2026-03-18)
+- European Competitiveness Fund: https://single-market-economy.ec.europa.eu/access-finance/european-competitiveness-fund_en (lagt til 2026-09-04)
 
 ## Standarder og veiledninger
 

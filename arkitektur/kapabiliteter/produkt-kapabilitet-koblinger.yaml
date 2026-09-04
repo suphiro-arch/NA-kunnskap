@@ -2654,10 +2654,10 @@
         {
             "product_id": 72,
             "product_name": "FINT Informasjonsmodell",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/72-FINT-Informasjonsmodell-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/72-FINT-Informasjonsmodell-v1-codex.md",
+            "version": 2,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/72-FINT-Informasjonsmodell-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/72-FINT-Informasjonsmodell-v2-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-896e4c1434604caa891b94bcce964720",
@@ -3133,7 +3133,7 @@
                     "subcapability_name": "Tjenestekjeder",
                     "subcapability_slug": "tjenestekjeder",
                     "mapping_label": "Sluttbrukertjenester: Tjenestekjeder",
-                    "explanation": "Portalen kobler sammen post, faktura, eiendom, byggesak og skjema i kjeder som understotter oppgave- og saksoppfolging over tid."
+                    "explanation": "Portalen kobler sammen post, faktura, eiendom, byggesak og skjema i kjeder som understøtter oppgave- og saksoppfølging over tid."
                 }
             ]
         },
@@ -3567,7 +3567,7 @@
         },
         {
             "product_id": 111,
-            "product_name": "Digitaliseringsradet",
+            "product_name": "Digitaliseringsrådet",
             "version": 1,
             "author": "codex",
             "relative_path": "arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v1-codex.md",
@@ -3917,11 +3917,11 @@
         },
         {
             "product_id": 120,
-            "product_name": "Styringsråd forDigitaliseringsdirektoratets fellesløsninger",
-            "version": 3,
-            "author": "copilot",
-            "relative_path": "arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v3-copilot.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v3-copilot.md",
+            "product_name": "Styringsråd for Digitaliseringsdirektoratets fellesløsninger",
+            "version": 4,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v4-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v4-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",

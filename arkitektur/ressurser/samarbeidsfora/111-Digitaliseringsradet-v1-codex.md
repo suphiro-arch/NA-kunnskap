@@ -1,5 +1,8 @@
 # Digitaliseringsrådet
 
+## Navn
+Digitaliseringsrådet
+
 ## Ressurs ID
 DIGDIR-043
 

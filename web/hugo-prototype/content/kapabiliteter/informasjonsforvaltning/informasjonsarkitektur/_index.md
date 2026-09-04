@@ -31,7 +31,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/72-FINT-Informasjonsmodell-v1-codex.md">FINT Informasjonsmodell</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/72-FINT-Informasjonsmodell-v2-claude.md">FINT Informasjonsmodell</a></h3>
       <p class="capability-product-link__description">Ressursen strukturerer og modellerer informasjon på en standardisert måte, slik at data kan forstås og brukes likt på tvers av fylkeskommuner og systemleverandører.</p>
     </article>
     <article class="capability-product-link resource-type--normative">

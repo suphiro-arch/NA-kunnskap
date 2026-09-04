@@ -152,7 +152,15 @@ Tydelige svakheter og spenninger:
 | Datatilgjengeliggjøring | Kartverket | Kildesidene viser Kartverket som utgiver av stedsnavndata |
 | Bruk på tvers av sektorer | Mange offentlige og private bruksmiljøer | Utledet av ressursens rolle som felles stedsnavngrunnlag |
 
-## Kilder
-- Kartverket: Stedsnavndata / Sentralt stedsnavnregister - https://www.kartverket.no/api-og-data/stedsnavndata
-- Kartverket: Kartverkets fellesløsninger - https://www.kartverket.no/geodataarbeid/felleslosningene
-- Kartverket: Nasjonale fellesløsninger for geodata - https://www.kartverket.no/geodataarbeid/felleslosningene/nasjonale-felleslosninger-for-geodata
+## Lenke til dokumentasjon
+- https://www.kartverket.no/api-og-data/stedsnavndata
+- https://www.kartverket.no/geodataarbeid/felleslosningene
+- https://www.kartverket.no/geodataarbeid/felleslosningene/nasjonale-felleslosninger-for-geodata
+
+## Kildegrunnlag brukt i utfyllingen
+- Nettkilde: https://www.kartverket.no/api-og-data/stedsnavndata (Kartverkets sider for stedsnavndata og Sentralt stedsnavnregister)
+- Nettkilde: https://www.kartverket.no/geodataarbeid/felleslosningene (Kartverkets fellesløsninger)
+- Nettkilde: https://www.kartverket.no/geodataarbeid/felleslosningene/nasjonale-felleslosninger-for-geodata (nasjonale fellesløsninger for geodata)
+- Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
+- Lokal fil: `arkitektur/prinsipper/principles.md`
+- Lokal fil: `arkitektur/ressurser/produktnummerering.md`

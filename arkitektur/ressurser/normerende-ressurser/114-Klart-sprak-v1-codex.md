@@ -97,7 +97,7 @@ Arkitekturverdien ligger i at språk blir en integrert del av tjenesteutforming 
 | Forankring | Språk vurderes som sekundært | Svak brukerorientering | Knytte språk tydelig til kvalitet og inkludering |
 | Samspill | Klarspråk og juridiske krav oppfattes som motsetninger | Uklare tekster | Arbeide tverrfaglig mellom fag, språk og jus |
 
-## Konsekvens ved manglende bruk
+## Konsekvens ved manglende bruk eller avvik
 Tjenester kan bli vanskeligere å forstå, med mer feilbruk, økt behov for veiledning og svakere opplevd kvalitet for brukerne.
 
 ## Publiseringsform og tilgjengelighet

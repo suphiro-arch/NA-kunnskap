@@ -96,7 +96,7 @@ Arkitekturverdien er at juridiske premisser blir en integrert del av løsningsvu
 | Forankring | Regelverksbehov løftes for sent | Forsinkelser og redusert gevinst | Gjøre juridisk vurdering tidlig |
 | Avgrensning | Ressursen forveksles med full juridisk rådgivning | Feil forventninger | Tydeliggjøre veiledende rolle |
 
-## Konsekvens ved manglende bruk
+## Konsekvens ved manglende bruk eller avvik
 Virksomheter kan velge tiltak som ikke lar seg gjennomføre innenfor gjeldende regelverk, eller komme sent i gang med nødvendige endringer.
 
 ## Publiseringsform og tilgjengelighet

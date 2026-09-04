@@ -1,5 +1,8 @@
 # Faglig arena for informasjonsforvaltning og deling av data
 
+## Navn
+Faglig arena for informasjonsforvaltning og deling av data
+
 ## Ressurs ID
 DIGDIR-053
 

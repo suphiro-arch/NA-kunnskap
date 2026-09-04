@@ -38,7 +38,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v1-codex.md">Digitaliseringsradet</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v1-codex.md">Digitaliseringsrådet</a></h3>
     </article>
     <article class="capability-product-link resource-type--policy">
       <p class="capability-product-link__type">Rammer og virkemidler</p>
@@ -62,7 +62,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v3-copilot.md">Styringsråd forDigitaliseringsdirektoratets fellesløsninger</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v4-claude.md">Styringsråd for Digitaliseringsdirektoratets fellesløsninger</a></h3>
     </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>

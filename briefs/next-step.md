@@ -40,10 +40,18 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
 - Følge opp `DIGDIR-039`, `DIGDIR-040` og `DIGDIR-041` med vanlig kvalitetsrevisjon hvis de viser
   svak kildeforankring, tynn kapabilitetskobling eller ujevn beslutningsstøtte.
 - Vurdere `HELFO-001` KUHR, eller en egen avklaring av eier- og forvaltningslinjen for `HDIR-001`.
-- Gå gjennom `v0`-beskrivelsene og løfte dem til `v1`. De mangler typisk `Navn`,
-  `Forpliktelsesnivå og etterlevelse`, `Typiske analyse- og beslutningssituasjoner` og
-  `Konsekvens ved manglende bruk eller avvik`. [check-resource-structure.py](../tools/check-resource-structure.py)
-  lister dem med `--advarsler`. Når gjelden er nede, kan kjernefeltene i kontrollen strammes inn.
+- Utvide tegnkodingskontrollene til å fange tegn som er strippet til ASCII, ikke bare mojibake i
+  form av doble tegnsekvenser. Bakgrunnen er logget i [decisions.md](./decisions.md) 2026-09-04:
+  to ressursfiler var systematisk strippet for `æ`, `ø` og `å` uten at
+  [check-mojibake.ps1](../tools/check-mojibake.ps1) eller
+  [safe_bulk_text_repair.py](../tools/safe_bulk_text_repair.py) reagerte. Filene er rettet, men
+  kontrollen som skulle fanget dem finnes fortsatt ikke. En mulig tilnærming er en ordliste over
+  vanlige strippede former, eller en test på om en norsk tekstfil har mistenkelig få norske tegn
+  i forhold til lengden.
+- Harmonisere `Ressurskategori` og overskriften `Type ...` i eldre `samarbeidsfora`-filer. Ni filer
+  bruker fortsatt `Samarbeidsforum` og `Type forum`, mens nyere filer og malen bruker
+  rammeverkskategorien `Samhandlingsarenaer og organisering` og `Type arena eller forum`. Bør tas
+  for hele kategorien i én runde, ikke fil for fil.
 
 Kandidater som er identifisert, men ikke vurdert ferdig:
 
@@ -54,29 +62,24 @@ Kandidater som er identifisert, men ikke vurdert ferdig:
 - `FIKS IO`: egen ressurs, eller fortsatt teknisk komponent under `FIKS Melding`?
 
 Restkandidater fra Digdirs virkemiddeloversikt, gjennomgått 2026-09-01. Lista navngav rundt seksti
-virkemidler, og alle unntatt disse er registrert. Vurderingene under er foreløpige og bygger på
-navnet i oversikten, ikke på egen kildesjekk.
+virkemidler, og alle unntatt disse er registrert.
 
-Veiledersporet fra denne lista er nå komplett, og det eneste uregistrerte juridiske virkemiddelet er
-tatt inn. Det som gjenstår er de organisatoriske og økonomiske ordningene under.
+Veiledersporet fra denne lista er komplett, og det eneste uregistrerte juridiske virkemiddelet er
+tatt inn. `Brukerrådet` og `Konkurranseevnefondet` er kildesjekket og avgjort, se
+[decisions.md](./decisions.md).
 
-Organisatoriske ordninger som krever avklaring før de kan vurderes mot opptakskravene:
+Parkert. Ikke opprett ressursbeskrivelse for disse nå. De er ikke avvist, men ingen av dem er
+avklart godt nok til at en beskrivelse ville blitt annet enn gjetning. Vurderingene under bygger på
+navnet i Digdirs virkemiddeloversikt, ikke på egen kildesjekk, og en ny runde må starte med
+kildesjekk:
 
-- `Nasjonal portefølje`. Foreløpig vurdering: usikker. Må avklares om dette er en konkret ressurs
-  eller primært et styringsprinsipp og en arbeidsform.
-- `KI-laben`. Foreløpig vurdering: sannsynligvis del av `DIGDIR-057` KI Norge, ikke egen ressurs.
-  Avgrensningen må sjekkes mot hvordan KI Norge er beskrevet.
-- `Dynamisk kunnskapsgrunnlag`. Foreløpig vurdering: uklart hva ordningen konkret er. Krever
-  kildesjekk før den kan vurderes.
-- `Partnerskap med KS`. Foreløpig vurdering: kan være dekket av DSOP-samarbeidet og Skate. Vurderes
-  mot eksisterende dekning før det eventuelt beskrives som egen samhandlingsressurs.
-- `Brukerrådet`. Foreløpig vurdering: bør vurderes som råd, ikke som konferanse. Står under
-  `Konferanser` i kildelista, men navnet tyder på et fast organ. Sjekk mandat og møtefrekvens.
-
-Økonomisk virkemiddel:
-
-- `Konkurranseevnefondet (EKF)`. Foreløpig vurdering: lavere prioritet, men bør vurderes for NA-verdi
-  og forankring.
+- `Nasjonal portefølje`. Må avklares om dette er en konkret ressurs eller primært et
+  styringsprinsipp og en arbeidsform.
+- `KI-laben`. Sannsynligvis del av `DIGDIR-057` KI Norge, ikke egen ressurs. Avgrensningen må
+  sjekkes mot hvordan KI Norge er beskrevet.
+- `Dynamisk kunnskapsgrunnlag`. Uklart hva ordningen konkret er.
+- `Partnerskap med KS`. Kan være dekket av DSOP-samarbeidet og Skate. Vurderes mot eksisterende
+  dekning før det eventuelt beskrives som egen samhandlingsressurs.
 
 Møteplasser og arrangementer. Foreløpig vurdering: faller utenfor opptakskravene i
 [decisions.md](./decisions.md), som holder arrangementer og små møteplasser utenfor oversikten. Tatt

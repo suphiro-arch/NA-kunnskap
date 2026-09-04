@@ -1,5 +1,8 @@
 # FINT Felleskomponent
 
+## Navn
+FINT Felleskomponent
+
 ## Ressurs ID
 NOVARI-001
 
