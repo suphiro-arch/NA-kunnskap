@@ -16,7 +16,7 @@ Nasjonal arena for kunstig intelligens
 Under etablering. Digdir beskriver at KI Norge bygges opp som nasjonal arena, at etableringsprosjektet er i gang på tvers av flere fokusområder, og at arenaen etter planen åpner i august 2026.
 
 ## Kort beskrivelse
-KI Norge er Digdirs nasjonale arena for innovativ og ansvarlig utvikling og bruk av kunstig intelligens. Ressursen er viktig i analysearbeid fordi den kombinerer samordning, veiledning, kunnskapsgrunnlag og kobling mellom offentlige virksomheter, regulatoriske miljøer, næringsliv og forskningsaktører.
+KI Norge er Digdirs nasjonale arena for innovativ og ansvarlig utvikling og bruk av kunstig intelligens. Arenaen kombinerer samordning, veiledning, kunnskapsgrunnlag og kobling mellom offentlige virksomheter, regulatoriske miljøer, næringsliv og forskningsaktører.
 
 KI Norge er ikke bare en møteplass, men et virkemiddel under oppbygging. Kildene peker på at arenaen skal fungere både som samlende nav, pådriver og hjem for en regulatorisk sandkasse. Det gjør ressursen særlig relevant når et tiltak trenger nasjonal retning eller ansvarlig KI-støtte som går utover én virksomhets eget løp.
 

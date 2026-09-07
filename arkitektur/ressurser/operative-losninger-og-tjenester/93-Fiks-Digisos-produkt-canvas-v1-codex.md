@@ -22,7 +22,7 @@ KS-012
 ## Kort beskrivelse
 Fiks Digisos er en nasjonal samhandlings- og integrasjonstjeneste for digital behandling av søknader om økonomisk sosialhjelp. Løsningen kobler innbyggersøknad på nav.no med kommunale fagsystemer gjennom Fiks-plattformen, slik at søknader, ettersendelser og saksoppdateringer kan flyte sikkert mellom NAV, kommune og innbygger.
 
-Produktet skaper verdi ved at innbygger får et mer sammenhengende søknads- og oppfølgingsløp, mens kommunene får bedre kvalitet i søknader og mer effektiv saksbehandling. I NA-sammenheng er Fiks Digisos interessant fordi det representerer en konkret tversnivåløsning mellom statlig kanal (nav.no) og kommunal tjenesteutøvelse.
+Produktet skaper verdi ved at innbygger får et mer sammenhengende søknads- og oppfølgingsløp, mens kommunene får bedre kvalitet i søknader og mer effektiv saksbehandling. Fiks digisos er en tversnivåløsning mellom statlig kanal (nav.no) og kommunal tjenesteutøvelse.
 
 ## Kapabiliteter
 - **Samarbeid: Organisatorisk samhandling**

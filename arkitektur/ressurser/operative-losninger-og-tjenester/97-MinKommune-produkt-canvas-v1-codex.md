@@ -22,7 +22,7 @@ KS-016
 ## Kort beskrivelse
 KS Min kommune, tidligere omtalt som MinKommune, er en innbyggerportal som samler kommunale digitale tjenester i en felles brukerflate på min.kommune.no. Tjenesten gir innbyggere ett sted å finne og følge post, faktura, eiendommer, byggesaker, skjema og andre kommunale oppgaver, med autentisering via ID-porten og kobling til flere datakilder og kommunale fagsystem.
 
-I NA-sammenheng er MinKommune relevant fordi den representerer et kommunalt innbyggergrensesnitt bygget på gjenbruk av nasjonale og kommunale felleskomponenter. Tjenesten kan sees som en kommunal portalmotpart til statlige innbyggertjenester der målet er sammenhengende brukerreiser på tvers av virksomheter og forvaltningsnivå.
+KS Min kommune er et kommunalt innbyggergrensesnitt bygget på gjenbruk av nasjonale og kommunale felleskomponenter. Tjenesten kan sees som en kommunal portalmotpart til statlige innbyggertjenester der målet er sammenhengende brukerreiser på tvers av virksomheter og forvaltningsnivå.
 
 ## Kapabiliteter
 - **Sluttbrukertjenester: Sammenhengende tjenester**

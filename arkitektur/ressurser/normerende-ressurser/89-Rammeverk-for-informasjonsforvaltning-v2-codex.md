@@ -18,7 +18,7 @@ Aktiv. Rammeverket er publisert som et åpent og løpende faglig grunnlag for in
 ## Kort beskrivelse
 Rammeverk for informasjonsforvaltning er Digdirs overordnede struktur for hvordan offentlige virksomheter bør arbeide systematisk med data og beskrivelser av data. Ressursen setter informasjonsforvaltning inn i en større sammenheng der ansvar, metadata, begrepsarbeid, standardisering, deling og gjenbruk må henge sammen hvis offentlig sektor skal få bedre samhandling og mindre dobbeltarbeid.
 
-Rammeverket er viktig i nasjonal arkitektur fordi det oversetter brede mål om deling og gjenbruk til et mer konkret arbeidsgrunnlag for virksomheter. Det gjør informasjonsforvaltning til et styrings- og utviklingsspørsmål, ikke bare et teknisk metadataarbeid. Samtidig er ressursen bred nok til å fungere som felles referanse på tvers av sektorer, og smal nok til å gi retning for hvordan virksomheter bør strukturere egne forbedringsløp.
+Rammeverket oversetter brede mål om deling og gjenbruk til et mer konkret arbeidsgrunnlag for virksomheter. Det gjør informasjonsforvaltning til et styrings- og utviklingsspørsmål, ikke bare et teknisk metadataarbeid. Samtidig er ressursen bred nok til å fungere som felles referanse på tvers av sektorer, og smal nok til å gi retning for hvordan virksomheter bør strukturere egne forbedringsløp.
 
 ## Formål og normerende rolle
 Formålet er å gi offentlige virksomheter tilstrekkelige føringer og støtte til å utveksle og dele data og beskrivelser av data, også maskinelt. Rammeverket skal hjelpe virksomheter å skape orden i eget hus, arbeide mer systematisk med begreper, metadata og informasjonsmodeller, og gjøre det enklere å bruke felles standarder og publiseringsflater.

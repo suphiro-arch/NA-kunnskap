@@ -19,7 +19,7 @@ Modenheten er samtidig avhengig av kvaliteten i underliggende moduler og pågåe
 ## Kort beskrivelse
 VIGO-portalen er en felles brukerflate som samler VIGO-nettapplikasjoner på ett sted for fylkeskommuner og andre autoriserte brukere i videregående opplæring. Portalen gir oversikt over tilgjengelige moduler og fungerer som administrativ inngang til flere tjenester i VIGO-familien.
 
-I nasjonal arkitektur er verdien først og fremst at portalen gjør et komplekst tjenestelandskap mer navigerbart. Ressursen er ikke et eget register eller en separat saksbehandlingsmotor, men et strukturerende grensesnitt som styrker sammenheng i bruk.
+Portalens viktigste funksjon er å gjøre et komplekst tjenestelandskap mer navigerbart. Ressursen er ikke et eget register eller en separat saksbehandlingsmotor, men et strukturerende grensesnitt som styrker sammenheng i bruk.
 
 ## Kapabiliteter
 - **Sluttbrukertjenester: Sammenhengende tjenester**

@@ -16,7 +16,7 @@ Nettverk for informasjonssikkerhet
 Aktiv. Digdirs åpne sider viser planlagte møter og publiserte presentasjoner også i 2026, noe som tilsier at nettverket er løpende i drift.
 
 ## Kort beskrivelse
-NIFS er Digdirs nettverk for informasjonssikkerhet for offentlige ansatte. Forumet er viktig i analysearbeid fordi det fungerer som en praktisk arena for kompetansedeling, erfaringsutveksling og faglig samordning på tvers av virksomheter som arbeider med informasjonssikkerhet.
+NIFS er Digdirs nettverk for informasjonssikkerhet for offentlige ansatte. Forumet er en praktisk arena for kompetansedeling, erfaringsutveksling og faglig samordning på tvers av virksomheter som arbeider med informasjonssikkerhet.
 
 ## Mandat og rolle
 Nettverkets uttalte mål er å dele erfaringer om arbeid med informasjonssikkerhet på tvers av offentlige virksomheter. Rollen er derfor primært faglig og samordnende, ikke styrende. NIFS skal bidra til at deltakere lærer av hverandre, ser likhetstrekk i utfordringsbildet og bygger relasjoner som kan senke terskelen for videre samarbeid.

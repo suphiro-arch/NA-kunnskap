@@ -18,7 +18,7 @@ Aktiv. Ressursen brukes som veiledning i arbeid med lov- og regelverksutforming 
 ## Kort beskrivelse
 Digitaliseringsvennlig regelverk er en normerende ressurs som hjelper virksomheter med å identifisere og håndtere juridiske barrierer for digitalisering, datadeling og samhandling.
 
-Ressursen er viktig i nasjonal arkitektur fordi juridiske rammer ofte avgjør om sammenhengende tjenester og automatisering kan realiseres i praksis.
+Ressursen retter seg mot juridiske rammer, som ofte avgjør om sammenhengende tjenester og automatisering kan realiseres i praksis.
 
 ## Formål og normerende rolle
 Formålet er å bidra til at regelverk i større grad støtter digital oppgaveløsning, samhandling og sammenhengende tjenester.

@@ -16,7 +16,7 @@ Offentlig-privat samhandlingsarena
 Aktiv. Åpne kilder viser at DSOP fortsatt drives som et etablert program med oppdatert samarbeidserklæring, løpende dokumentasjon, aktive prosjektspor og kontaktpunkt for nye forslag i 2026.
 
 ## Kort beskrivelse
-DSOP-samarbeidet er et offentlig-privat program for digital samhandling mellom offentlige virksomheter og finansnæringen. Forumet er viktig i analysearbeid fordi det kombinerer porteføljestyring, felles prioritering og konkret realisering av datadelings- og samhandlingsløsninger på tvers av sektorgrenser.
+DSOP-samarbeidet er et offentlig-privat program for digital samhandling mellom offentlige virksomheter og finansnæringen. Forumet kombinerer porteføljestyring, felles prioritering og konkret realisering av datadelings- og samhandlingsløsninger på tvers av sektorgrenser.
 
 DSOP skiller seg fra mer generelle samordningsfora ved at samarbeidet er tett koblet til konkrete initiativer, styringsfaser og forvaltningsrutiner. Det gjør forumet særlig relevant når gevinster, risiko og gjennomføringsevne er fordelt mellom flere offentlige aktører og finansnæringen.
 

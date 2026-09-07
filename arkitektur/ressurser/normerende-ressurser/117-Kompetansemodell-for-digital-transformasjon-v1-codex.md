@@ -16,7 +16,7 @@ Kompetansemodell
 Aktiv. Kompetansemodellen er publisert av Digdir og hadde sist registrert oppdatering 20. august 2025.
 
 ## Kort beskrivelse
-Kompetansemodell for digital transformasjon er en normerende ressurs som beskriver hvilken samlet kompetanse offentlige virksomheter trenger for å lykkes med digital transformasjon. Ressursen er viktig i analysearbeid fordi den kobler politiske føringer, lederansvar og fagkompetanse til ett samlet rammeverk som kan brukes i styring, kompetanseutvikling og omstillingsarbeid.
+Kompetansemodell for digital transformasjon er en normerende ressurs som beskriver hvilken samlet kompetanse offentlige virksomheter trenger for å lykkes med digital transformasjon. Ressursen kobler politiske føringer, lederansvar og fagkompetanse til ett samlet rammeverk som kan brukes i styring, kompetanseutvikling og omstillingsarbeid.
 
 ## Formål og normerende rolle
 Formålet er å gi virksomheter et felles språk for hvilke kompetanser som må være til stede når teknologi, organisasjon og tjenesteutvikling skal endres samtidig. Modellen skal ikke bare støtte opplæring, men hjelpe virksomheter med å forstå hvilke evner som må bygges i ledelse, styring og fagmiljø for å få faktisk transformasjon.

@@ -18,7 +18,7 @@ Under etablering. Rammeverket er publisert som versjon 1.0 og brukes aktivt som 
 ## Kort beskrivelse
 Rammeverk for Nasjonale grunndata beskriver hvordan offentlig sektor kan identifisere, prioritere, forvalte og videreutvikle data som har særlig høy verdi på tvers av virksomheter og sektorer. Ressursen setter en felles struktur for hvilke kriterier som skal gjelde, hvilke roller som må på plass, og hvordan utvikling og samordning bør skje når målet er tryggere gjenbruk av autoritative data.
 
-Ressursen har høy verdi i nasjonal arkitektur fordi den flytter diskusjonen om grunndata fra enkeltregistre og lokale behov til et helhetlig styrings- og samordningsperspektiv. Den er derfor mer enn generell datadelingsveiledning: den er et konkret arbeidsgrunnlag for å avgjøre hvilke data som bør behandles som nasjonale grunndata, og hvordan slike data bør styres over tid.
+Rammeverket flytter diskusjonen om grunndata fra enkeltregistre og lokale behov til et helhetlig styrings- og samordningsperspektiv. Den er derfor mer enn generell datadelingsveiledning: den er et konkret arbeidsgrunnlag for å avgjøre hvilke data som bør behandles som nasjonale grunndata, og hvordan slike data bør styres over tid.
 
 ## Formål og normerende rolle
 Formålet er å gi offentlig sektor et felles grunnlag for å realisere prinsippet om «kun én gang» for data som brukes bredt og har stor samfunnsverdi. Rammeverket skal redusere uklare ansvarsforhold, lokale kopier, parallelle vurderinger og svake mekanismer for prioritering på tvers.

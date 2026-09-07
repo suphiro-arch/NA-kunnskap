@@ -19,7 +19,7 @@ Samtidig er den tekniske modenheten indirekte knyttet til overordnet moderniseri
 ## Kort beskrivelse
 VIGO Sentralbase er den felles databaseressursen for videregående opplæring i Norge, forvaltet i Novari-samarbeidet. Ressursen samler historiske og løpende data og fungerer som kildelag for webapplikasjoner og sentrale leveranser i VIGO-økosystemet.
 
-Ressursen er viktig i nasjonal arkitektur fordi den gir et standardisert og felles datagrunnlag for fylkeskommunenes forvaltning av videregående opplæring. Den bidrar til likere praksis, enklere tilgang til opplysninger på tvers av geografi og mer konsistente leveranser til nasjonale myndigheter.
+Ressursen gir et standardisert og felles datagrunnlag for fylkeskommunenes forvaltning av videregående opplæring. Den bidrar til likere praksis, enklere tilgang til opplysninger på tvers av geografi og mer konsistente leveranser til nasjonale myndigheter.
 
 ## Kapabiliteter
 - **Datakilder: Grunndata**

@@ -15,7 +15,7 @@ Høy modenhet som nasjonal registerressurs, men fortsatt voksende modenhet i øk
 ## Kort beskrivelse
 Nasjonalt utdanningsregister er en felles autoritativ kilde for informasjon om akkrediterte utdanninger og læresteder i Norge. Registeret samler opplysninger som tidligere var spredt på flere systemer og organisasjoner, og gir hver utdanning og hvert lærested en stabil digital identitet som kan brukes på tvers av opptak, finansiering, rapportering, analyse og verifisering.
 
-Ressursen er ikke et generelt studieadministrativt system og heller ikke en sluttbrukerportal. Dens viktigste rolle i nasjonal arkitektur er å være et felles referansegrunnlag som reduserer dobbeltregistrering, svak datakvalitet og ulike lokale tolkninger av hva en utdanning faktisk er.
+Ressursen er ikke et generelt studieadministrativt system og heller ikke en sluttbrukerportal. Dens viktigste rolle er å være et felles referansegrunnlag som reduserer dobbeltregistrering, svak datakvalitet og ulike lokale tolkninger av hva en utdanning faktisk er.
 
 ## Kapabiliteter
 - **Datakilder: Grunndata**  

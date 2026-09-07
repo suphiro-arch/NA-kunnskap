@@ -16,7 +16,7 @@ Rådgivende arena
 Aktiv
 
 ## Kort beskrivelse
-Digitaliseringsrådet er en rådgivende arena som skal hjelpe statlige virksomheter med å lykkes bedre i endringsprosesser der digitalisering er en viktig del. Forumet er viktig i analysearbeid fordi det kombinerer erfaringsbasert rådgivning, gjennomføringsstøtte og læring på tvers av virksomheter.
+Digitaliseringsrådet er en rådgivende arena som skal hjelpe statlige virksomheter med å lykkes bedre i endringsprosesser der digitalisering er en viktig del. Forumet kombinerer erfaringsbasert rådgivning, gjennomføringsstøtte og læring på tvers av virksomheter.
 
 Rådet skiller seg fra strategiske samordningsfora ved at det først og fremst støtter den enkelte virksomheten i å forstå og forbedre eget tiltak, ikke å samordne retning mellom flere aktører på toppledernivå.
 

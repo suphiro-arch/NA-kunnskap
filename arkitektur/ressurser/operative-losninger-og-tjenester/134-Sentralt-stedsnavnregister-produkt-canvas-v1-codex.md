@@ -21,7 +21,7 @@ KART-004
 **Deduksjon:** Modenheten er høy fordi stedsnavn ikke bare er hjelpetekst i kart, men en del av felles referansegrunnlag for stedfesting, beredskap, forvaltning og samhandling. Verdien er særlig stor når mange aktører må bruke samme navn om samme sted i operative eller offentlige sammenhenger.
 
 ## Kort beskrivelse
-Sentralt stedsnavnregister er den nasjonale ressursen for offisielle stedsnavn og godkjente navneformer i Norge. Produktet gjør det mulig å bruke et felles og autoritativt navnegrunnlag i kart, saksbehandling, beredskap, analyse, kommunikasjon og digitale tjenester. I nasjonal arkitektur er ressursen særlig relevant fordi konsistente stedsnavn er viktige når data, hendelser og tjenester skal kobles til samme geografiske virkelighet på tvers av sektorer og forvaltningsnivåer.
+Sentralt stedsnavnregister er den nasjonale ressursen for offisielle stedsnavn og godkjente navneformer i Norge. Produktet gjør det mulig å bruke et felles og autoritativt navnegrunnlag i kart, saksbehandling, beredskap, analyse, kommunikasjon og digitale tjenester. Konsistente stedsnavn er en forutsetning når data, hendelser og tjenester skal kobles til samme geografiske virkelighet på tvers av sektorer og forvaltningsnivåer.
 
 ## Kapabiliteter
 - **Datakilder: Grunndata** er kjernefunksjonen ved at registeret gir autoritative opplysninger om offisielle stedsnavn og navneformer.

@@ -18,7 +18,7 @@ Aktiv. Ressursen er publisert og brukes som veiledning i utvikling av digitale t
 ## Kort beskrivelse
 Klart språk er en normerende veiledningsressurs som skal hjelpe virksomheter med å utvikle tekster og tjenester som er lettere å forstå og bruke. Ressursen er viktig fordi språkvalg påvirker brukeropplevelse, tilgjengelighet og kvaliteten i sammenhengende tjenester.
 
-Ressursen har høy NA-relevans fordi den kobler innholdsarbeid med tjenestedesign, og gjør språk til en del av arkitektur- og utviklingsarbeidet, ikke bare en sluttredigering.
+Ressursen kobler innholdsarbeid med tjenestedesign, og gjør språk til en del av arkitektur- og utviklingsarbeidet framfor en sluttredigering.
 
 ## Formål og normerende rolle
 Formålet er å gi virksomheter et felles grunnlag for å bruke språk som støtter forståelse, inkludering og bedre samhandling med brukerne.

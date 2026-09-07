@@ -16,7 +16,7 @@ Tverrsektorielt sikkerhetssamarbeid
 Aktiv. FSIF er publisert som pågående samarbeid, og Digdirs åpne side oppgir at samarbeidet ble etablert som program i juni 2025.
 
 ## Kort beskrivelse
-Felles sikkerhet i forvaltningen (FSIF) er et tverrsektorielt samarbeid som skal bidra til et nasjonalt løft for informasjonssikkerhet og personopplysningsvern i offentlige virksomheter. Ressursen er viktig i analysearbeid fordi den samler sentrale aktører rundt felles retning, mer samordnet veiledning og tiltak som skal gjøre det lettere å lykkes med sikkerhet på tvers av virksomheter og tjenestekjeder.
+Felles sikkerhet i forvaltningen (FSIF) er et tverrsektorielt samarbeid som skal bidra til et nasjonalt løft for informasjonssikkerhet og personopplysningsvern i offentlige virksomheter. Samarbeidet samler sentrale aktører rundt felles retning, mer samordnet veiledning og tiltak som skal gjøre det lettere å lykkes med sikkerhet på tvers av virksomheter og tjenestekjeder.
 
 ## Mandat og rolle
 FSIF skal bidra til å styrke offentlig sektors evne til å arbeide mer helhetlig med informasjonssikkerhet og personopplysningsvern. Digdirs åpne omtale beskriver samarbeidet som en felles plattform for samordnet innsats, og peker på at virksomhetene trenger tydeligere anbefalinger, mer brukerorientert veiledning og bedre støtte til å håndtere sitt eget ansvar.

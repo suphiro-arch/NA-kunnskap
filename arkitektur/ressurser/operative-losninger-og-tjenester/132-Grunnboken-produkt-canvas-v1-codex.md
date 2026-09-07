@@ -21,7 +21,7 @@ KART-003
 **Deduksjon:** Modenheten er høy fordi Grunnboken ikke bare er et historisk register, men et aktivt rettighetsgrunnlag som mange sektorer må kunne stole på i operative prosesser. Verdien avhenger samtidig av korrekt tinglysing og tydelig samspill med Matrikkelen.
 
 ## Kort beskrivelse
-Grunnboken er det nasjonale registeret for tinglyste rettigheter, hjemmelsopplysninger og heftelser knyttet til fast eiendom og borettslagsandeler. Produktet gjør det mulig å kontrollere hvem som er registrert som tinglyst eier, hvilke rettigheter som er heftet på en eiendom, og hvilke dokumenterte forpliktelser som følger eiendommen. I nasjonal arkitektur er Grunnboken særlig relevant som tverrgående datagrunnlag når flere virksomheter trenger et pålitelig rettslig bilde av eiendomsforhold.
+Grunnboken er det nasjonale registeret for tinglyste rettigheter, hjemmelsopplysninger og heftelser knyttet til fast eiendom og borettslagsandeler. Produktet gjør det mulig å kontrollere hvem som er registrert som tinglyst eier, hvilke rettigheter som er heftet på en eiendom, og hvilke dokumenterte forpliktelser som følger eiendommen. Grunnboken er et tverrgående datagrunnlag når flere virksomheter trenger et pålitelig rettslig bilde av eiendomsforhold.
 
 ## Kapabiliteter
 - **Datakilder: Grunndata** er kjernefunksjonen ved at Grunnboken fungerer som autoritativ kilde for tinglyste rettigheter, heftelser og hjemmelsopplysninger.

@@ -22,7 +22,7 @@ KS-015
 ## Kort beskrivelse
 KS Bekymringsmelding er en nasjonal digital meldingstjeneste for innsending av bekymringsmeldinger til kommunale barnevernstjenester. Løsningen gir privatpersoner og offentlige ansatte en sikker kanal for innsending, og gjør det mulig for kommuner å motta meldinger strukturert i fagsystem eller gjennom alternative mottaksløp.
 
-Produktet har tydelig NA-relevans fordi det kobler flere aktører i en kritisk samfunnsprosess: melder, kommunal barnevernstjeneste, fagsystemleverandører og nasjonale forvaltere. Tjenesten reduserer manuell håndtering og styrker både kvalitet og sporbarhet i meldingsflyten.
+Tjenesten kobler flere aktører i en kritisk samfunnsprosess: melder, kommunal barnevernstjeneste, fagsystemleverandører og nasjonale forvaltere. Tjenesten reduserer manuell håndtering og styrker både kvalitet og sporbarhet i meldingsflyten.
 
 ## Kapabiliteter
 - **Datautveksling og integrasjon: Meldingsutveksling**

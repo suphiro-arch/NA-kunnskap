@@ -17,7 +17,7 @@ FHI-004
 **Deduksjon:** Reseptregisteret er fortsatt viktig som historisk referanse og dokumentasjonsspor for legemiddeldata fra 2004 til 2021, men det er ikke lenger riktig å beskrive det som et aktivt førstelinjeregister for nye analyse- eller datatilgangsløp. Den operative videreføringen ligger nå i Legemiddelregisteret.
 
 ## Kort beskrivelse
-Reseptregisteret (NorPD) var det nasjonale registeret for reseptutskrevne og utleverte legemidler i Norge i perioden fra 1. januar 2004 til 31. desember 2021. Ressursen er fortsatt relevant i nasjonal arkitektur som historisk datagrunnlag, som dokumentasjon av eldre variabler og som forklaring på hvordan dagens Legemiddelregister viderefører data og formål fra den tidligere registerperioden.
+Reseptregisteret (NorPD) var det nasjonale registeret for reseptutskrevne og utleverte legemidler i Norge i perioden fra 1. januar 2004 til 31. desember 2021. Ressursen har fortsatt verdi som historisk datagrunnlag, som dokumentasjon av eldre variabler og som forklaring på hvordan dagens Legemiddelregister viderefører data og formål fra den tidligere registerperioden.
 
 Ressursen bør ikke lenger forstås som et aktivt mål for nye datatilgangsprosesser. Nye søknader om legemiddeldata skal rettes til Legemiddelregisteret, mens Reseptregisteret først og fremst har verdi som avgrenset registerhistorikk, overgangsspor og referanse for prosjekter som allerede bruker eller sammenligner eldre datasett.
 

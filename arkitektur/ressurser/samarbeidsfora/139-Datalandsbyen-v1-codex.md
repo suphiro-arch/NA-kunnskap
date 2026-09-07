@@ -18,7 +18,7 @@ Aktiv
 ## Kort beskrivelse
 Datalandsbyen er et åpent nettforum for datadeling og informasjonsforvaltning. Arenaen gjør det mulig for datatilbydere, datakonsumenter, fagpersoner og andre interesserte å stille spørsmål, etterspørre datasett og API-er, dele erfaringer og gi tilbakemeldinger på data.norge.no og relaterte katalogressurser.
 
-Ressursen er relevant i analysearbeid fordi den synliggjør praktiske behov, uklarheter, etterspørsel og brukeropplevd verdi rundt datadeling. Den bør forstås som en lavterskel samhandlingsressurs, ikke som et styringsråd eller et formelt beslutningsforum.
+Ressursen synliggjør praktiske behov, uklarheter, etterspørsel og brukeropplevd verdi rundt datadeling. Den bør forstås som en lavterskel samhandlingsressurs, ikke som et styringsråd eller et formelt beslutningsforum.
 
 ## Mandat og rolle
 Datalandsbyen har rolle som åpen dialog- og erfaringsarena. Kildene beskriver arenaen som et sted der brukere kan møte andre som arbeider med data og datadeling i offentlig og privat sektor, dele erfaringer, stille spørsmål og få hjelp til å finne data.

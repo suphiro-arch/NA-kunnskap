@@ -16,7 +16,7 @@ Faglig nettverk
 Aktiv
 
 ## Kort beskrivelse
-Faglig arena for informasjonsforvaltning og deling av data er et åpent faglig nettverk som samler mennesker fra hele offentlig sektor som arbeider med informasjonsforvaltning, datakvalitet og datadeling. Forumet er en møteplass for erfaringsutveksling, faglig modning og samordning av praksis innen feltene. Det er viktig i analysearbeid fordi det reflekterer praksis-modenhet, identifiserer hindringer og kan styrke forankring av normerende ressurser.
+Faglig arena for informasjonsforvaltning og deling av data er et åpent faglig nettverk som samler mennesker fra hele offentlig sektor som arbeider med informasjonsforvaltning, datakvalitet og datadeling. Forumet er en møteplass for erfaringsutveksling, faglig modning og samordning av praksis innen feltene. Arenaen reflekterer praksis-modenhet, identifiserer hindringer og kan styrke forankringen av normerende ressurser.
 
 ## Mandat og rolle
 Det faglige nettverket skal:

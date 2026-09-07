@@ -19,7 +19,7 @@ FLERE-002
 ## Kort beskrivelse
 DSOP-tjenester er den operative leveranseflaten i DSOP-arbeidet: konkrete datadelings- og samhandlingsløp mellom offentlige virksomheter og finansnæringen. Ressursen bør forstås som en portefølje av tjenester, integrasjoner og bruksmønstre som er satt i drift eller modnet for drift, ikke som selve samarbeidsforumet som prioriterer og styrer initiativene.
 
-Avgrensningen er viktig i analysearbeid. `DSOP-samarbeidet` er styrings- og realiseringsarenaen som prioriterer og forankrer initiativer, mens `DSOP-tjenester` er de operative løpene som faktisk brukes når data skal deles eller innhentes i konkrete offentlig-private prosesser.
+Avgrensningen mellom de to er tydelig. `DSOP-samarbeidet` er styrings- og realiseringsarenaen som prioriterer og forankrer initiativer, mens `DSOP-tjenester` er de operative løpene som faktisk brukes når data skal deles eller innhentes i konkrete offentlig-private prosesser.
 
 ## Kapabiliteter
 - **Datautveksling og integrasjon: Dele data med andre** gjør det mulig å etablere kontrollerte delingsløp mellom offentlige virksomheter og finansnæringen i konkrete brukssituasjoner.

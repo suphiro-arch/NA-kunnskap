@@ -18,7 +18,7 @@ Aktiv. Ressursen framstår som et pågående og offentlig tilgjengelig metode- o
 ## Kort beskrivelse
 Rammeverk for innovasjon i offentlig sektor er en normerende ressurs som samler Digdirs forståelse av hva innovasjon i offentlig sektor er, hvilke arbeidsformer som fremmer den, og hvilke virkemidler som brukes for å støtte den i praksis. Ressursen gir et felles språk for brukerorientert utforskning, eksperimentering, ledelse, kompetanse og samarbeid på tvers av virksomheter.
 
-Ressursen har verdi i nasjonal arkitektur fordi den motvirker løsning-først-arbeid i komplekse utviklingsløp. Den gjør det lettere å koble innovasjon til konkrete brukerbehov, tverrsektorielt samarbeid og tidlig avklaring av om en utfordring bør møtes med ny løsning, ny organisering eller bedre gjenbruk av det som allerede finnes.
+Rammeverket motvirker løsning-først-arbeid i komplekse utviklingsløp. Den gjør det lettere å koble innovasjon til konkrete brukerbehov, tverrsektorielt samarbeid og tidlig avklaring av om en utfordring bør møtes med ny løsning, ny organisering eller bedre gjenbruk av det som allerede finnes.
 
 ## Formål og normerende rolle
 Formålet er å styrke offentlig sektors evne til å utforske og gjennomføre endring på en mer systematisk måte. Ressursen skal hjelpe virksomheter å koble innovasjon til styring, kompetanse, tjenesteutvikling og samarbeid, i stedet for å behandle innovasjon som enkeltstående idéarbeid.
