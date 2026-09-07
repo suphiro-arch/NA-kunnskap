@@ -14,12 +14,14 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Økonomi
       <label>Eier <select class="resource-filter" data-filter="owner"><option value="">Alle</option>
         <option value="DIGDIR">Digdir</option>
         <option value="FLERE">Flere virksomheter</option>
+        <option value="LANE">LANE</option>
       </select></label>
       <label>Type <select class="resource-filter" data-filter="type"><option value="">Alle</option>
         <option value="&#216;konomiske og juridiske rammer og virkemidler">&#216;konomiske og juridiske rammer og virkemidler</option>
       </select></label>
       <label>Kapabilitet <select class="resource-filter" data-filter="capability"><option value="">Alle</option>
         <option value="Arkitekturstyring">Arkitekturstyring</option>
+        <option value="Bruke data fra andre">Bruke data fra andre</option>
         <option value="Finansiering">Finansiering</option>
         <option value="Forvaltningsstandarder">Forvaltningsstandarder</option>
         <option value="Organisatorisk samhandling">Organisatorisk samhandling</option>
@@ -30,7 +32,7 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Økonomi
         <option value="Utvikling og formidling av veiledning">Utvikling og formidling av veiledning</option>
       </select></label>
     </div>
-    <p class="resource-filters__result" data-role="count">Viser 7 av 7 ressurser</p>
+    <p class="resource-filters__result" data-role="count">Viser 8 av 8 ressurser</p>
   </div>
   <div class="resource-cards">
 <article class="resource-card" data-owner="DIGDIR" data-type="&#216;konomiske og juridiske rammer og virkemidler" data-capabilities="samordning forvaltningsstandarder" data-emne="Rundskriv" data-search="digitaliseringsrundskrivet digdir-044 digdir digdir &#248;konomiske og juridiske rammer og virkemidler &#248;konomiske og juridiske rammer og virkemidler digitaliseringsrundskrivet er statens samlede virkemiddel for krav, anbefalinger og veiledning om digitalisering i statlig sektor. ressursen gir et felles styringsgrunnlag for hvordan virksomheter skal prioritere, planlegge og gjennomf&#248;re digitaliseringstiltak. samordning forvaltningsstandarder rundskriv">
@@ -88,6 +90,14 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Økonomi
   <p class="resource-card__description">Tilsynet for universell utforming av ikt f&#248;rer tilsyn med at ikt-l&#248;sninger rettet mot brukere i Norge er universelt utformet. Tilsynet er organisert under Digdir og arbeider for et samfunn uten digitale barrierer, med b&#229;de veiledning og myndighetsut&#248;velse som virkemidler. Dette er det juridiske virkemiddelet som gj&#248;r...</p>
   <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/juridisk-samhandling/regelverkstolkning/">Regelverkstolkning</a> <a class="capability-chip" href="../../../kapabiliteter/veiledning/utvikling-og-formidling-av-veiledning/">Utvikling og formidling av veiledning</a> <a class="capability-chip" href="../../../kapabiliteter/tjenesteutvikling/tjenestedesign/">Tjenestedesign</a></div>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/150-Tilsyn-og-kontroll-universell-utforming-av-ikt-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.uutilsynet.no/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="LANE" data-type="&#216;konomiske og juridiske rammer og virkemidler" data-capabilities="finansiering bruke data fra andre regelverkstolkning" data-emne="Stipend- og l&#229;neordning for utdanning" data-search="utdanningsst&#248;tte fra l&#229;nekassen lane-001 lane lane &#248;konomiske og juridiske rammer og virkemidler &#248;konomiske og juridiske rammer og virkemidler utdanningsst&#248;tte fra l&#229;nekassen er den nasjonale ordningen for stipend og l&#229;n til utdanning. ordningen er hjemlet i lov 3. juni 2005 nr. 37 om utdanningsst&#248;tte, og forvaltes av statens l&#229;nekasse for utdanning, et ordin&#230;rt bruttobudsjettert statlig forvaltningsorgan under kunnskapsdepartementet. for elever i... finansiering bruke data fra andre regelverkstolkning stipend- og l&#229;neordning for utdanning">
+  <h2 class="resource-card__title">Utdanningsst&#248;tte fra L&#229;nekassen</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>LANE-001</code> | <strong>Siste versjon:</strong> v1 (claude)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> LANE | <strong>Type:</strong> &#216;konomiske og juridiske rammer og virkemidler</p>
+  <p class="resource-card__description">Utdanningsst&#248;tte fra L&#229;nekassen er den nasjonale ordningen for stipend og l&#229;n til utdanning. Ordningen er hjemlet i lov 3. juni 2005 nr. 37 om utdanningsst&#248;tte, og forvaltes av Statens l&#229;nekasse for utdanning, et ordin&#230;rt bruttobudsjettert statlig forvaltningsorgan under Kunnskapsdepartementet. For elever i...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/strategisk-styring/finansiering/">Finansiering</a> <a class="capability-chip" href="../../../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/">Bruke data fra andre</a> <a class="capability-chip" href="../../../kapabiliteter/juridisk-samhandling/regelverkstolkning/">Regelverkstolkning</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/155-Utdanningsstotte-fra-Lanekassen-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://lanekassen.no/">Offisiell lenke</a></p>
 </article>
   </div>
   <script>

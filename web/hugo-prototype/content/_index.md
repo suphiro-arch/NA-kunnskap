@@ -4,9 +4,7 @@ weight: 1
 description: "Inngang til dokumentasjonen for nasjonal arkitektur, prinsipper, kapabiliteter og nasjonale fellesressurser."
 ---
 
-Kapabiliteter, prinsipper og ressurser for digital samhandling i offentlig sektor. Bruk siden når du skal utrede, anskaffe eller utvikle digitale tjenester og trenger å vite hva som allerede finnes.
-
-Siden er under utvikling og oppdateres fortløpende. Se kildekoden på GitHub eller gi en tilbakemelding.
+Denne dokumentasjonen samler kapabiliteter, prinsipper og ressurser for digital samhandling i offentlig sektor. Den viser hvordan kunnskapsgrunnlaget er bygd opp, og hvordan det kan brukes videre i analyser og utvikling.
 
 Selve rammeverket er beskrevet i [Nasjonal arkitektur for et felles digitalt økosystem](https://digdir.github.io/nasjonal-arkitektur/).
 
@@ -24,7 +22,7 @@ Svarene ligger i hver sin hovedseksjon:
 - [Prinsipper](prinsipper/) forklarer hvilke arkitekturfaglige føringer som bør styre utviklingen.
 - [Ressursoversikt](ressursoversikt/) samler konkrete produkter og fellesløsninger.
 
-Nettsiden er ikke et mål i seg selv, men en visualisering av kunnskapsgrunnlaget som skal brukes i ulike typer analyser for videreutvikling av økosystemet.
+Nettsiden er ikke et mål i seg selv, men en visning av kunnskapsgrunnlaget som brukes i analyser for videreutvikling av økosystemet.
 
 ## Hvem er den for?
 
@@ -54,6 +52,4 @@ Verktøy som brukes i dag:
 - Kontrollskript som stopper publisering ved tegnkodingsfeil, versjonsavvik mellom register og kapabilitetsmapping, ressursbeskrivelser som mangler seksjoner malen krever, syntaksfeil i innebygd JavaScript, og kildelenker som ikke er registrert.
 - Hugo for bygging og visning av nettstedet.
 
-Vil du se hvordan dette henger sammen, ligger både kildefilene og skriptene åpent i [repoet](https://github.com/suphiro-arch/NA-kunnskap).
-
-Innholdet i GitHub-repositoriet kan også brukes som grunnlag for KI-analyse.
+Vil du se hvordan dette henger sammen, ligger både kildefilene og skriptene åpent i [repoet](https://github.com/suphiro-arch/NA-kunnskap). Innholdet i GitHub-repositoriet kan også brukes som grunnlag for KI-analyse.

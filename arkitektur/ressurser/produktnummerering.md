@@ -46,6 +46,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | `DTIL` | Datatilsynet | Datatilsynet | Personvernfaglige ressurser, veiledning og virkemidler forvaltet av Datatilsynet |
 | `UDIR` | Utdanningsdirektoratet | Utdanningsdirektoratet | Nasjonale registre, kodeverk og dataressurser for barnehage og grunnopplæring |
 | `BUFDIR` | Bufdir | Barne-, ungdoms- og familiedirektoratet | Nasjonale registre og fagressurser for barnevern, oppvekst og familie |
+| `LANE` | Lånekassen | Statens lånekasse for utdanning | Utdanningsstøtteordninger og tilhørende ressurser forvaltet av Lånekassen |
 
 ### Slik lages en ny eierkode
 
@@ -191,6 +192,13 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 | Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
 |---:|---|---|---|---|---|---|
 | 153 | `BUFDIR-001` | Barnevernsregisteret | Gjenbrukbare løsninger | Nasjonalt rapporteringsregister for kommunalt barnevern | Dele data med andre<br>Dataanalyse<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/153-Barnevernsregisteret-v1-claude.md) |
+| 157 | `BUFDIR-002` | ung.no | Gjenbrukbare løsninger | Statens informasjonskanal for ungdom | Sammenhengende tjenester<br>Utvikling og formidling av veiledning<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/157-ung-no-v1-claude.md) |
+
+## Lånekassen (`LANE`)
+
+| Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
+|---:|---|---|---|---|---|---|
+| 155 | `LANE-001` | Utdanningsstøtte fra Lånekassen | Økonomiske og juridiske rammer og virkemidler | Stipend- og låneordning for utdanning | Finansiering<br>Bruke data fra andre<br>Regelverkstolkning | [Åpne](../../arkitektur/ressurser/rammer-og-virkemidler/155-Utdanningsstotte-fra-Lanekassen-v1-claude.md) |
 
 ## Helsedirektoratet (`HDIR`)
 
@@ -288,6 +296,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 | 62 | `FLERE-002` | DSOP-tjenester | Gjenbrukbare løsninger | Offentlig–privat datadeling | Dele data med andre<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/62-DSOP-tjenester-produkt-canvas-v2-codex.md) |
 | 141 | `FLERE-003` | Stimulab | Økonomiske og juridiske rammer og virkemidler | Stimuleringsordning / tilskudds- og utviklingsvirkemiddel | Innovasjon<br>Samordning<br>Tjenestedesign | [Åpne](../../arkitektur/ressurser/rammer-og-virkemidler/141-Stimulab-v1-copilot.md) |
 | 146 | `FLERE-004` | Nasjonal indeks for digital inkludering | Standarder og veiledning | Måleverktøy og kunnskapsgrunnlag | Dataanalyse<br>Samordning | [Åpne](../../arkitektur/ressurser/normerende-ressurser/146-Nasjonal-indeks-for-digital-inkludering-v1-claude.md) |
+| 156 | `FLERE-005` | DigiHelsestasjon | Gjenbrukbare løsninger | Digital dialog med helsestasjon og skolehelsetjeneste | Sammenhengende tjenester<br>Meldingsutveksling<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/156-DigiHelsestasjon-v1-claude.md) |
 
 
 

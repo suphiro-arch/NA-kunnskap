@@ -4,7 +4,7 @@ headerTitle: "Veiledning - Utvikling og formidling av veiledning"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å utarbeide, kvalitetssikre og tilgjengeliggjøre veiledning. ### Begrunnelse (Hvorfor) Kapabiliteten sikrer at politikk, juss og teknologisk beste praksis kan omsettes til forståelige og distribuerte verktøy som kan brukes av virksomheter i økosystemet. Den løser behovet for felles veiledning som gjør det enklere å forstå hvordan regelverk, prinsipper, standarder, referansearkitekturer og samhandlingsmønstre skal anvendes i praksis. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Utarbeide veiledning som forklarer hvordan relevant regelverk skal forstås og anvendes i digital samhandling, uten å erstatte formelle rettskilder eller myndighetsansvar. - **Organisatorisk (Høy vekt):** Etablere rutiner for å utarbeide, kvalitetssikre, godkjenne, publisere, forvalte og oppdatere veiledning i samarbeid med relevante fagmiljøer. - **Semantisk (Høy vekt):** Bruke omforente begreper, tydelige beskrivelser, felles maler og konsistent terminologi, slik at veiledningen forstås likt på tvers av virksomheter. - **Teknisk (Middels vekt):** Tilgjengeliggjøre veiledning i digitale kanaler, kataloger, repositorier eller kunnskapsbaser, med versjonering, lenking og struktur som gjør innholdet lett å finne og gjenbruke. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten bidrar til sammenhengende tjenester ved å gjøre det enklere for virksomheter å bygge løsninger etter felles prinsipper, referansearkitekturer, standarder, samhandlingsmønstre og beskrivelser av beste praksis. Når veiledning er kvalitetssikret og tilgjengelig, reduseres lokale tolkninger og ulik praksis. For det felles økosystemet gir kapabiliteten bedre etterlevelse, mer gjenbruk og raskere innføring av felles arkitektur og standarder. For sluttbrukeren betyr dette mer konsistente og sammenhengende digitale tjenester, fordi virksomhetene utvikler og forvalter løsninger etter samme kunnskapsgrunnlag."
-cardMeta: "6 produkter"
+cardMeta: "7 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -38,6 +38,11 @@ productsMarkdown: |
       <p class="capability-product-link__type">Rammer og virkemidler</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/150-Tilsyn-og-kontroll-universell-utforming-av-ikt-v1-claude.md">Tilsyn og kontroll med regelverk for universell utforming av ikt</a></h3>
       <p class="capability-product-link__description">Tilsynet utvikler og publiserer veiledning om universell utforming, kartlegginger og statusmålinger som virksomheter kan bruke uten selv å være under tilsyn.</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/157-ung-no-v1-claude.md">ung.no</a></h3>
+      <p class="capability-product-link__description">Spørretjenesten produserer kvalitetssikrede svar fra et fagpanel, og svarene publiseres som varig veiledningsinnhold.</p>
     </article>
   </div>
 ---

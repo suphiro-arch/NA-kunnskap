@@ -317,6 +317,12 @@ Sist redigert: 2026-06-17.
 - Folkeregisteret: https://www.skatteetaten.no/nn/skjema/opplysninger-i-folkeregisteret/ (lagt til 2026-08-28)
 
 ### Helse
+- DigiHelsestasjon hos KS: https://www.ks.no/fagomrader/digitalisering/felleslosninger/digihelsestasjon/ (lagt til 2026-09-07)
+- DigiHelsestasjon for ungdom: https://www.ks.no/fagomrader/digitalisering/felleslosninger/digihelsestasjon/digihelsestasjon-for-ungdom/ (lagt til 2026-09-07)
+- DigiHelsestasjon innføringshåndbok: https://www.ks.no/fagomrader/digitalisering/felleslosninger/digihelsestasjon/digihelsestasjon---innforingshandbok/ (lagt til 2026-09-07)
+- Helsestasjons- og skolehelsetjenesten på Helsenorge, NHN: https://www.nhn.no/tjenester/helsenorge/informasjon-per-malgruppe/helsenorge-for-kommuner/helsestasjons-og-skolehelsetjenesten (lagt til 2026-09-07)
+- Retningslinje for helsestasjons- og skolehelsetjenesten: https://www.helsedirektoratet.no/retningslinjer/helsestasjons-og-skolehelsetjenesten (lagt til 2026-09-07)
+- Nasjonal digitaliseringsmonitor, DigiHelsestasjon: https://www.helsedirektoratet.no/statistikk/nasjonal-digitaliseringsmonitor/digihelsestasjon (lagt til 2026-09-07)
 - Norsk helsenett på GitHub, klientbibliotek og eksempelkode: https://github.com/NorskHelsenett (lagt til 2026-09-05)
 - Kjernejournal på Helsenorge: https://www.helsenorge.no/helseopplysninger-som-deles/kjernejournal/
 - Helsedata.no: https://helsedata.no/
@@ -409,10 +415,20 @@ Sist redigert: 2026-06-17.
 - Nasjonal vegdatabank (NVDB): https://www.vegvesen.no/fag/fokusomrader/nasjonal-vegdatabank/ (lagt til 2026-03-19)
 
 ### Bufdir og barnevern
+- ung.no, statens informasjonskanal for ungdom: https://www.ung.no/ (lagt til 2026-09-07)
+- DigiUng-samarbeidet: https://www.digiung.no/ (lagt til 2026-09-07)
+- Digital ungdomsportal, DigiUng: https://www.digiung.no/digital-ungdomsportal (lagt til 2026-09-07)
+- ung.no som datasett i Felles datakatalog: https://data.norge.no/en/datasets/0d45b3e6-467a-3b5e-bab2-2672002fd13e/ungno-det-offentliges-informasjonskanal-for-ungdom (lagt til 2026-09-07)
 - Barnevernsregisteret: https://www.bufdir.no/fagstotte/barnevern-oppvekst/barnevernsregisteret/ (lagt til 2026-09-07)
 - Data fra Bufdir, informasjonsmodeller og meldingsformater: https://data.bufdir.no/ (lagt til 2026-09-07)
 - DigiBarnevern hos Bufdir: https://www.bufdir.no/prosjekter/digibarnevern/ (lagt til 2026-09-07)
 - DigiBarnevern hos KS: https://www.ks.no/fagomrader/digitalisering/felleslosninger/digibarnevern/ (lagt til 2026-09-07)
+
+### Lånekassen
+- Lånekassen: https://lanekassen.no/ (lagt til 2026-09-07)
+- Stipend og lån fra Lånekassen for videregående, via vilbli.no: https://www.vilbli.no/nb/no/a/stipend-og-lan-fra-lanekassen-6 (lagt til 2026-09-07)
+- Virksomhets- og økonomiinstruks for Lånekassen: https://www.regjeringen.no/contentassets/27d3c565a1594d629a77d519ed546218/virksomhets-og-okonomiinstruks-for-lanekassen-2023.pdf (lagt til 2026-09-07)
+- Statens lånekasse for utdanning i Store norske leksikon: https://snl.no/Statens_l%C3%A5nekasse_for_utdanning (lagt til 2026-09-07)
 
 ### Utdanningsdirektoratet
 - Data fra Utdanningsdirektoratet, samleside: https://www.udir.no/om-udir/data/ (lagt til 2026-09-07)

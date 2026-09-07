@@ -4,7 +4,7 @@ headerTitle: "Samarbeid - Organisatorisk samhandling"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å effektivisere forretningsprosesser og verdikjeder på tvers av organisatoriske grenser. ### Begrunnelse (Hvorfor) For å lage sammenhengende tjenester må uavhengige etater og virksomheter fungere som ett lag. Denne hovedkapabiliteten sikrer tverrgående styring og finansiering nasjonalt. Det skal bidra til å minske at virksomheter prioriterer egne, interne oppgaver framfor helhetlige brukerreiser som krever samarbeid. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Overordnede rammeverk for samarbeidsavtaler og nasjonale føringer, som Digitaliseringsrundskrivet, regulerer plikten til å samhandle og dele data. - **Organisatorisk (Svært høy vekt):** Nasjonale styringsmodeller, samstyring, finansieringsordninger og porteføljestyring avklarer strategisk ansvar, prioriteringer og spilleregler for samarbeid. - **Semantisk (Middels vekt):** Felles forståelse av organisatoriske roller, ansvar, eierskap og tjenestekjeder gjør det tydelig hvem som har ansvar på tvers av sektorer og livshendelser. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten bygger bro mellom organisatoriske siloer og sikrer bredere enighet om prioriteringer, ansvar og økonomi på forhånd. Dette gir operative team mandatet de trenger for å utvikle sømløse tjenester på tvers av virksomheter. For sluttbrukeren betyr det at offentlig sektor i større grad kan opptre som én samordnet aktør, selv om tjenestene leveres av flere uavhengige virksomheter."
-cardMeta: "21 produkter"
+cardMeta: "23 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -113,6 +113,16 @@ productsMarkdown: |
       <p class="capability-product-link__type">Rammer og virkemidler</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/141-Stimulab-v1-copilot.md">Stimulab</a></h3>
       <p class="capability-product-link__description">Stimulab støtter tverrsektorielle prosjekter og samler læring mellom virksomheter, Digdir og DOGA</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/156-DigiHelsestasjon-v1-claude.md">DigiHelsestasjon</a></h3>
+      <p class="capability-product-link__description">Løsningen etablerer et felles samhandlingsmønster mellom kommunale helsetjenester og innbyggere på tvers av kommunegrenser, med KS og Norsk helsenett i felles innføringsløp.</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/157-ung-no-v1-claude.md">ung.no</a></h3>
+      <p class="capability-product-link__description">Innholdet og tjenestetilbudet utvikles gjennom DigiUng-samarbeidet på tvers av sektorer og forvaltningsnivåer.</p>
     </article>
   </div>
 ---

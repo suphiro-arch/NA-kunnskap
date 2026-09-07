@@ -13,7 +13,7 @@ hideSectionOverview: true
   <article class="resource-type-card">
     <h3><a href="ressurser/operative-losninger-og-tjenester/">Gjenbrukbare løsninger</a></h3>
     <p>Tekniske komponenter, applikasjoner og tjenester som leverer funksjonalitet eller dataprodukter som kan brukes av flere.</p>
-    <p class="resource-type-card__count">84 ressurser</p>
+    <p class="resource-type-card__count">86 ressurser</p>
   </article>
   <article class="resource-type-card">
     <h3><a href="ressurser/normerende-ressurser/">Standarder og veiledning</a></h3>
@@ -28,7 +28,7 @@ hideSectionOverview: true
   <article class="resource-type-card">
     <h3><a href="ressurser/rammer-og-virkemidler/">Økonomiske og juridiske rammer og virkemidler</a></h3>
     <p>Finansielle og regulative virkemidler som muliggjør gjennomføring og setter handlingsrom.</p>
-    <p class="resource-type-card__count">7 ressurser</p>
+    <p class="resource-type-card__count">8 ressurser</p>
   </article>
 </div>
 
@@ -49,6 +49,7 @@ hideSectionOverview: true
         <option value="HELFO">Helfo</option>
         <option value="KART">Kartverket</option>
         <option value="KS">KS Digital</option>
+        <option value="LANE">LANE</option>
         <option value="NAV">NAV</option>
         <option value="NHN">Norsk helsenett</option>
         <option value="NOVARI">Novari</option>
@@ -111,7 +112,7 @@ hideSectionOverview: true
         <option value="&#197;pne data">&#197;pne data</option>
       </select></label>
     </div>
-    <p class="resource-filters__result" data-role="count">Viser 131 av 131 ressurser</p>
+    <p class="resource-filters__result" data-role="count">Viser 134 av 134 ressurser</p>
   </div>
   <div class="resource-cards">
 <article class="resource-card" data-owner="DIGDIR" data-type="Gjenbrukbare l&#248;sninger" data-capabilities="sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester" data-emne="Innlogging og identitet" data-search="id-porten digdir-001 digdir digdir gjenbrukbare l&#248;sninger gjenbrukbare l&#248;sninger id-porten er den nasjonale fellesl&#248;sningen for sikker innlogging til offentlige digitale tjenester. l&#248;sningen gir innbyggere &#233;n gjenkjennelig inngang til tjenester p&#229; tvers av virksomheter, og gir tjenesteeiere en felles autentiseringskomponent i stedet for lokale innloggingsl&#248;sninger. id-porten er s&#230;rlig relevant n&#229;r... sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester innlogging og identitet">
@@ -1201,6 +1202,30 @@ hideSectionOverview: true
   <p class="resource-card__description">vilbli.no er den nasjonale informasjonstjenesten om videreg&#229;ende oppl&#230;ring. Tjenesten samler informasjon om utdanningsprogram, programomr&#229;der, yrker og kompetanser, sammen med regelverk, inntakskrav, inntaksregler og s&#248;knadsprosedyrer. Tjenesten eies av fylkeskommunene og forvaltes av Novari IKS. Innholdet om hvilke...</p>
   <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/">Sammenhengende tjenester</a> <a class="capability-chip" href="../kapabiliteter/informasjonsforvaltning/oversikt-over-tjenester/">Oversikt over tjenester</a></div>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/154-vilbli-no-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.vilbli.no/nb/no/a/om-vilbli-no-6">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="LANE" data-type="&#216;konomiske og juridiske rammer og virkemidler" data-capabilities="finansiering bruke data fra andre regelverkstolkning" data-emne="Stipend- og l&#229;neordning for utdanning" data-search="utdanningsst&#248;tte fra l&#229;nekassen lane-001 lane lane &#248;konomiske og juridiske rammer og virkemidler &#248;konomiske og juridiske rammer og virkemidler utdanningsst&#248;tte fra l&#229;nekassen er den nasjonale ordningen for stipend og l&#229;n til utdanning. ordningen er hjemlet i lov 3. juni 2005 nr. 37 om utdanningsst&#248;tte, og forvaltes av statens l&#229;nekasse for utdanning, et ordin&#230;rt bruttobudsjettert statlig forvaltningsorgan under kunnskapsdepartementet. for elever i... finansiering bruke data fra andre regelverkstolkning stipend- og l&#229;neordning for utdanning">
+  <h2 class="resource-card__title">Utdanningsst&#248;tte fra L&#229;nekassen</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>LANE-001</code> | <strong>Siste versjon:</strong> v1 (claude)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> LANE | <strong>Type:</strong> &#216;konomiske og juridiske rammer og virkemidler</p>
+  <p class="resource-card__description">Utdanningsst&#248;tte fra L&#229;nekassen er den nasjonale ordningen for stipend og l&#229;n til utdanning. Ordningen er hjemlet i lov 3. juni 2005 nr. 37 om utdanningsst&#248;tte, og forvaltes av Statens l&#229;nekasse for utdanning, et ordin&#230;rt bruttobudsjettert statlig forvaltningsorgan under Kunnskapsdepartementet. For elever i...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/strategisk-styring/finansiering/">Finansiering</a> <a class="capability-chip" href="../kapabiliteter/datautveksling-og-integrasjon/bruke-data-fra-andre/">Bruke data fra andre</a> <a class="capability-chip" href="../kapabiliteter/juridisk-samhandling/regelverkstolkning/">Regelverkstolkning</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/155-Utdanningsstotte-fra-Lanekassen-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://lanekassen.no/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="FLERE" data-type="Gjenbrukbare l&#248;sninger" data-capabilities="sammenhengende tjenester meldingsutveksling organisatorisk samhandling" data-emne="Digital dialog med helsestasjon og skolehelsetjeneste" data-search="digihelsestasjon flere-005 flere flere virksomheter gjenbrukbare l&#248;sninger gjenbrukbare l&#248;sninger digihelsestasjon er den nasjonale l&#248;sningen for digital dialog mellom innbyggere og de kommunale helsestasjonstjenestene. l&#248;sningen dekker helsestasjon, skolehelsetjeneste og helsestasjon for ungdom, og leveres gjennom helsenorge. innbyggeren kan sende meldinger, bestille og avbestille timer, motta varsler og f&#229;... sammenhengende tjenester meldingsutveksling organisatorisk samhandling digital dialog med helsestasjon og skolehelsetjeneste">
+  <h2 class="resource-card__title">DigiHelsestasjon</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>FLERE-005</code> | <strong>Siste versjon:</strong> v1 (claude)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> Flere virksomheter | <strong>Type:</strong> Gjenbrukbare l&#248;sninger</p>
+  <p class="resource-card__description">DigiHelsestasjon er den nasjonale l&#248;sningen for digital dialog mellom innbyggere og de kommunale helsestasjonstjenestene. L&#248;sningen dekker helsestasjon, skolehelsetjeneste og helsestasjon for ungdom, og leveres gjennom Helsenorge. Innbyggeren kan sende meldinger, bestille og avbestille timer, motta varsler og f&#229;...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/">Sammenhengende tjenester</a> <a class="capability-chip" href="../kapabiliteter/datautveksling-og-integrasjon/meldingsutveksling/">Meldingsutveksling</a> <a class="capability-chip" href="../kapabiliteter/samarbeid/organisatorisk-samhandling/">Organisatorisk samhandling</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/156-DigiHelsestasjon-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.ks.no/fagomrader/digitalisering/felleslosninger/digihelsestasjon/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="BUFDIR" data-type="Gjenbrukbare l&#248;sninger" data-capabilities="sammenhengende tjenester utvikling og formidling av veiledning organisatorisk samhandling" data-emne="Statens informasjonskanal for ungdom" data-search="ung.no bufdir-002 bufdir bufdir gjenbrukbare l&#248;sninger gjenbrukbare l&#248;sninger ung.no er det offentliges informasjonskanal for ungdom. tjenesten samler kvalitetssikret informasjon om rettigheter, muligheter og plikter fra offentlige virksomheter p&#229; ett sted, rettet mot aldersgruppen 13 til 20 &#229;r. tjenesten har to hoveddeler. den ene er redaksjonelt innhold om temaer ungdom trenger informasjon... sammenhengende tjenester utvikling og formidling av veiledning organisatorisk samhandling statens informasjonskanal for ungdom">
+  <h2 class="resource-card__title">ung.no</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>BUFDIR-002</code> | <strong>Siste versjon:</strong> v1 (claude)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> BUFDIR | <strong>Type:</strong> Gjenbrukbare l&#248;sninger</p>
+  <p class="resource-card__description">ung.no er det offentliges informasjonskanal for ungdom. Tjenesten samler kvalitetssikret informasjon om rettigheter, muligheter og plikter fra offentlige virksomheter p&#229; ett sted, rettet mot aldersgruppen 13 til 20 &#229;r. Tjenesten har to hoveddeler. Den ene er redaksjonelt innhold om temaer ungdom trenger informasjon...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/">Sammenhengende tjenester</a> <a class="capability-chip" href="../kapabiliteter/veiledning/utvikling-og-formidling-av-veiledning/">Utvikling og formidling av veiledning</a> <a class="capability-chip" href="../kapabiliteter/samarbeid/organisatorisk-samhandling/">Organisatorisk samhandling</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/157-ung-no-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.ung.no/">Offisiell lenke</a></p>
 </article>
   </div>
   <script>

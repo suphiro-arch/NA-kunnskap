@@ -5274,6 +5274,126 @@
                     "explanation": "vilbli.no er den nasjonale oversikten over hvilke utdanningstilbud som finnes hvor i videregående opplæring."
                 }
             ]
+        },
+        {
+            "product_id": 155,
+            "product_name": "Utdanningsstøtte fra Lånekassen",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/rammer-og-virkemidler/155-Utdanningsstotte-fra-Lanekassen-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/155-Utdanningsstotte-fra-Lanekassen-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
+                    "capability_name": "Strategisk styring",
+                    "capability_slug": "strategisk-styring",
+                    "subcapability_id": "id-ecdde89168314bfb94b6a6ac70a55bc7",
+                    "subcapability_name": "Finansiering",
+                    "subcapability_slug": "finansiering",
+                    "mapping_label": "Strategisk styring: Finansiering",
+                    "explanation": "Ordningen er et nasjonalt finansieringsvirkemiddel som fordeler om lag 38 milliarder kroner årlig i stipend og lån til utdanning."
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
+                    "subcapability_name": "Bruke data fra andre",
+                    "subcapability_slug": "bruke-data-fra-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+                    "explanation": "Automatisert saksbehandling forutsetter at Lånekassen henter opplysninger fra andre offentlige kilder framfor å be søkeren dokumentere dem. Lånekassen oppgir at automatiserte vedtak knyttes til opplysninger innhentet fra NAV."
+                },
+                {
+                    "capability_id": "id-299fc063873a4f278a1d3c0ac9480467",
+                    "capability_name": "Juridisk samhandling",
+                    "capability_slug": "juridisk-samhandling",
+                    "subcapability_id": "id-0209483504444508a40415aa6e3fc39c",
+                    "subcapability_name": "Regelverkstolkning",
+                    "subcapability_slug": "regelverkstolkning",
+                    "mapping_label": "Juridisk samhandling: Regelverkstolkning",
+                    "explanation": "Lånekassen forvalter og publiserer den autoritative tolkningen av utdanningsstøtteregelverket, med et detaljert tildelingsregelverk som avgjør hvem som har rett til hva."
+                }
+            ]
+        },
+        {
+            "product_id": 156,
+            "product_name": "DigiHelsestasjon",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/156-DigiHelsestasjon-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/156-DigiHelsestasjon-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
+                    "subcapability_name": "Sammenhengende tjenester",
+                    "subcapability_slug": "sammenhengende-tjenester",
+                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                    "explanation": "Løsningen gir innbyggeren én kjent inngang til tre ulike kommunale helsetjenester gjennom en nasjonal flate, framfor lokale kanaler som varierer mellom kommuner."
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                    "subcapability_name": "Meldingsutveksling",
+                    "subcapability_slug": "meldingsutveksling",
+                    "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
+                    "explanation": "Kjernefunksjonen er sikker meldingsutveksling mellom innbygger og tjeneste, med henvendelser som registreres direkte i journalsystemet."
+                },
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
+                    "subcapability_name": "Organisatorisk samhandling",
+                    "subcapability_slug": "organisatorisk-samhandling",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "Løsningen etablerer et felles samhandlingsmønster mellom kommunale helsetjenester og innbyggere på tvers av kommunegrenser, med KS og Norsk helsenett i felles innføringsløp."
+                }
+            ]
+        },
+        {
+            "product_id": 157,
+            "product_name": "ung.no",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/157-ung-no-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/157-ung-no-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
+                    "subcapability_name": "Sammenhengende tjenester",
+                    "subcapability_slug": "sammenhengende-tjenester",
+                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                    "explanation": "Tjenesten samler informasjon og tjenester fra mange offentlige virksomheter i én flate, slik at ungdom ikke må vite hvilken etat som har ansvaret for hva."
+                },
+                {
+                    "capability_id": "id-c0547226c598467a942dced879d0c18b",
+                    "capability_name": "Veiledning",
+                    "capability_slug": "veiledning",
+                    "subcapability_id": "id-0bfa29018e7144578b2184e70414b7e8",
+                    "subcapability_name": "Utvikling og formidling av veiledning",
+                    "subcapability_slug": "utvikling-og-formidling-av-veiledning",
+                    "mapping_label": "Veiledning: Utvikling og formidling av veiledning",
+                    "explanation": "Spørretjenesten produserer kvalitetssikrede svar fra et fagpanel, og svarene publiseres som varig veiledningsinnhold."
+                },
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
+                    "subcapability_name": "Organisatorisk samhandling",
+                    "subcapability_slug": "organisatorisk-samhandling",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "Innholdet og tjenestetilbudet utvikles gjennom DigiUng-samarbeidet på tvers av sektorer og forvaltningsnivåer."
+                }
+            ]
         }
     ],
     "capabilities": [
