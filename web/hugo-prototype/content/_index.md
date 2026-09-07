@@ -6,7 +6,9 @@ description: "Inngang til dokumentasjonen for nasjonal arkitektur, prinsipper, k
 
 # Om denne dokumentasjonen
 
-Denne prototypen samler arbeidsgrunnlag for nasjonal arkitektur i én lesbar dokumentasjonsflate. Målet er å gjøre det enklere å se sammenhengen mellom kapabiliteter, prinsipper og felles ressurser som støtter samhandling på tvers av virksomheter.
+Nasjonal arkitektur beskriver hvilke evner (kapabiliteter), prinsipper og ressurser offentlig sektor har for å løse oppgaver på tvers av virksomheter og sektorer.
+
+Siden er under utvikling og oppdateres fortløpende. Se kildekoden på GitHub eller gi en tilbakemelding.
 
 ## Hva finner du her?
 

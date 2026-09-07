@@ -4,7 +4,7 @@ headerTitle: "Standardisering - Forvaltningsstandarder"
 eyebrow: "Kapabilitet"
 weight: 2
 description: "Evne til å implementere og ta i bruk nasjonale standarder. ### Begrunnelse (Hvorfor) Kapabiliteten sikrer at virksomheter faktisk implementerer og tar i bruk nasjonale standarder i tjenester, løsninger, anskaffelser og samhandlingsprosesser. Den løser behovet for felles praksis som gjør at data, tjenester og tekniske grensesnitt fungerer sammen på tvers av offentlig sektor. Kapabiliteten inkluderer også EU-harmoniserte standarder som er vedtatt i norsk forvaltning. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Etterleve krav og føringer knyttet til nasjonale forvaltningsstandarder og EU-harmoniserte standarder som er vedtatt i norsk forvaltning. - **Organisatorisk (Høy vekt):** Etablere rutiner for å vurdere, innføre, følge opp og dokumentere bruk av relevante standarder i prosjekter, anskaffelser og forvaltning. - **Semantisk (Høy vekt):** Bruke standardiserte begreper, metadata, informasjonsmodeller og beskrivelser som sikrer lik forståelse av data og tjenester på tvers av virksomheter. - **Teknisk (Høy vekt):** Implementere standardiserte formater, protokoller, API-spesifikasjoner, sikkerhetsmekanismer og tekniske grensesnitt som gjør løsninger interoperable og gjenbrukbare. ### Bidrag til sammenhengende tjenester og felles økosystem Forvaltningsstandarder gjør det mulig å bygge tjenester og løsninger som følger samme regler, formater og samhandlingsmønstre. Når virksomheter implementerer og bruker de samme standardene, blir det enklere å dele data, koble systemer sammen og gjenbruke løsninger på tvers av sektorer og forvaltningsnivåer. Kapabiliteten styrker det felles økosystemet ved å redusere lokale avvik, særtilpasninger og kostbare integrasjoner. For sluttbrukeren betyr dette mer stabile og sammenhengende tjenester, der digitale løsninger fungerer bedre sammen uavhengig av hvilken virksomhet som leverer dem."
-cardMeta: "22 produkter"
+cardMeta: "24 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -53,6 +53,11 @@ productsMarkdown: |
       <p class="capability-product-link__type">Normerende ressurs</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/72-FINT-Informasjonsmodell-v2-claude.md">FINT Informasjonsmodell</a></h3>
       <p class="capability-product-link__description">Ressursen fungerer som et omforent normerende grunnlag for hvordan informasjon skal representeres og utveksles innenfor de delene av fylkeskommunal samhandling som FINT dekker.</p>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/82-VIGO-Kodeverk-og-kodeverksbase-v1-claude.md">VIGO Kodeverk og kodeverksbase</a></h3>
+      <p class="capability-product-link__description">Ressursen operasjonaliserer nasjonale koder fra Grep og Nasjonalt skoleregister til en felles praksis i fylkeskommunal sektor.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
@@ -118,6 +123,11 @@ productsMarkdown: |
       <p class="capability-product-link__type">Normerende ressurs</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/149-Felles-informasjonsmodeller-v1-claude.md">Felles informasjonsmodeller</a></h3>
       <p class="capability-product-link__description">Ressursen operasjonaliserer nasjonale standarder for modellbeskrivelse, blant annet ModellDCAT-AP-NO og standardiserte datatyper fra XSD, RDFS og ISO/TC 211.</p>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/151-Grep-v1-claude.md">Grep</a></h3>
+      <p class="capability-product-link__description">Fagkodene fungerer som nasjonal forvaltningsstandard i utdanningsdomenet, og gjenbrukes av kodeverk og løsninger utenfor Utdanningsdirektoratet.</p>
     </article>
   </div>
 ---

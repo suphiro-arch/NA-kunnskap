@@ -274,6 +274,9 @@ Sist redigert: 2026-06-17.
 - MinKommune: https://min.kommune.no/ (lagt til 2026-08-28)
 
 ### Novari / fylkeskommunal sektor
+- VIGO-systemet: https://novari.no/tjenester/vigosystemet (lagt til 2026-09-07)
+- vigo.no, søknadstjenesten: https://www.vigo.no/nyvigo/vigo (lagt til 2026-09-07)
+- vilbli.no om registrering av søknad på vigo.no: https://www.vilbli.no/en/no/a/registrer-soknaden-din-pa-vigo-no-6 (lagt til 2026-09-07)
 - FINTLabs på GitHub, kildekode for FINT og VIGO-komponenter: https://github.com/FINTLabs (lagt til 2026-09-05)
 - Novari tjenester: https://novari.no/tjenester/ (lagt til 2026-04-09)
 - FINT Felleskomponent: https://novari.no/tjenester/fint-felleskomponent/ (lagt til 2026-04-09)
@@ -401,6 +404,17 @@ Sist redigert: 2026-06-17.
 - API for tekniske kjøretøyopplysninger med eierinformasjon: https://www.vegvesen.no/fag/teknologi/apne-data/et-utvalg-apne-data/api-for-tekniske-kjoretoyopplysninger-med-eierinformasjon/ (lagt til 2026-03-27)
 - API for kjøretøyopplysninger: https://www.vegvesen.no/om-oss/om-organisasjonen/apne-data/et-utvalg-apne-data/api-for-kjoretoyopplysninger/ (lagt til 2026-03-27)
 - Nasjonal vegdatabank (NVDB): https://www.vegvesen.no/fag/fokusomrader/nasjonal-vegdatabank/ (lagt til 2026-03-19)
+
+### Utdanningsdirektoratet
+- Data fra Utdanningsdirektoratet, samleside: https://www.udir.no/om-udir/data/ (lagt til 2026-09-07)
+- Grep, nasjonal database for fag og læreplaner: https://www.udir.no/om-udir/data/kl06-grep/ (lagt til 2026-09-07)
+- API for nasjonale registre (NSR, NBR, NOR, NLR, NPR, NFR): https://www.udir.no/om-udir/data/nxr/ (lagt til 2026-09-07)
+- Grep REST-endepunkter: https://data.udir.no/kl06/ (lagt til 2026-09-07)
+- Nasjonalt skoleregister, API: https://data-nsr.udir.no/v3 (lagt til 2026-09-07)
+- Nasjonalt barnehageregister, API: https://data-nbr.udir.no/v3 (lagt til 2026-09-07)
+- Grep-wiki, teknisk dokumentasjon: https://grepwiki.udir.no/index.php?title=Hovedside (lagt til 2026-09-07)
+- Utdanningsdirektoratet på GitHub: https://github.com/Utdanningsdirektoratet (lagt til 2026-09-07)
+- Grep SPARQL-endepunkt, beskrivelse: https://github.com/Utdanningsdirektoratet/Grep_SPARQL (lagt til 2026-09-07)
 
 ### Utdanning
 - Nasjonalt utdanningsregister: https://sikt.no/tiltak/nasjonalt-utdanningsregister

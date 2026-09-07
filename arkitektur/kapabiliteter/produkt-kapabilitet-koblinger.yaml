@@ -2822,6 +2822,76 @@
             ]
         },
         {
+            "product_id": 82,
+            "product_name": "VIGO Kodeverk og kodeverksbase",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/82-VIGO-Kodeverk-og-kodeverksbase-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/82-VIGO-Kodeverk-og-kodeverksbase-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-5c6c20d50b6a4b168524901372f0ca6e",
+                    "subcapability_name": "Informasjonsarkitektur",
+                    "subcapability_slug": "informasjonsarkitektur",
+                    "mapping_label": "Informasjonsforvaltning: Informasjonsarkitektur",
+                    "explanation": "Kodeverket strukturerer fag, tilbud, skoler og VIGO-spesifikke begreper i en samlet modell som brukes likt på tvers av fylkeskommunene."
+                },
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-dc38d2667240445db35f7f0f38fc1e15",
+                    "subcapability_name": "Oversikt over begreper",
+                    "subcapability_slug": "oversikt-over-begreper",
+                    "mapping_label": "Informasjonsforvaltning: Oversikt over begreper",
+                    "explanation": "Kodeverksbasen er et åpent og kvalitetssikret oppslagsverk for begrepene som brukes i videregående opplæring."
+                },
+                {
+                    "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
+                    "capability_name": "Standardisering",
+                    "capability_slug": "standardisering",
+                    "subcapability_id": "id-b99fcd8160d24e5f8ea3c17b15072f7a",
+                    "subcapability_name": "Forvaltningsstandarder",
+                    "subcapability_slug": "forvaltningsstandarder",
+                    "mapping_label": "Standardisering: Forvaltningsstandarder",
+                    "explanation": "Ressursen operasjonaliserer nasjonale koder fra Grep og Nasjonalt skoleregister til en felles praksis i fylkeskommunal sektor."
+                }
+            ]
+        },
+        {
+            "product_id": 84,
+            "product_name": "vigo.no",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/84-vigo-no-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/84-vigo-no-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
+                    "subcapability_name": "Sammenhengende tjenester",
+                    "subcapability_slug": "sammenhengende-tjenester",
+                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                    "explanation": "Tjenesten samler søknad, prioritering, statusoppfølging og svar i én flate for søkeren, på tvers av fylkeskommunale inntakskontorer."
+                },
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "subcapability_id": "id-825b1ea1217b4eedb6caae165aeb8e41",
+                    "subcapability_name": "Tjenestekjeder",
+                    "subcapability_slug": "tjenestekjeder",
+                    "mapping_label": "Sluttbrukertjenester: Tjenestekjeder",
+                    "explanation": "vigo.no er første ledd i en kjede som fortsetter i fylkeskommunal inntaksbehandling, skoleplassering og senere dokumentasjon av opplæringen."
+                }
+            ]
+        },
+        {
             "product_id": 85,
             "product_name": "Rammeverk for digital samhandling",
             "version": 2,
@@ -5052,6 +5122,86 @@
                     "subcapability_slug": "tjenestedesign",
                     "mapping_label": "Tjenesteutvikling: Tjenestedesign",
                     "explanation": "Kravene setter minimumsrammen for utforming av brukergrensesnitt i offentlige tjenester, og etterlevelse forutsetter at universell utforming ligger inne i utviklingsarbeidet framfor å rettes i ettertid."
+                }
+            ]
+        },
+        {
+            "product_id": 151,
+            "product_name": "Grep",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/151-Grep-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/151-Grep-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-5c6c20d50b6a4b168524901372f0ca6e",
+                    "subcapability_name": "Informasjonsarkitektur",
+                    "subcapability_slug": "informasjonsarkitektur",
+                    "mapping_label": "Informasjonsforvaltning: Informasjonsarkitektur",
+                    "explanation": "Grep strukturerer og modellerer læreplanverket slik at fag, læreplaner og tilbudsstruktur kan tolkes likt på tvers av virksomheter og systemer."
+                },
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-dc38d2667240445db35f7f0f38fc1e15",
+                    "subcapability_name": "Oversikt over begreper",
+                    "subcapability_slug": "oversikt-over-begreper",
+                    "mapping_label": "Informasjonsforvaltning: Oversikt over begreper",
+                    "explanation": "Databasen er den autoritative begrepsoversikten for fag, læreplaner, vurderingsordninger og vitnemålsmerknader i grunnopplæringen."
+                },
+                {
+                    "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
+                    "capability_name": "Standardisering",
+                    "capability_slug": "standardisering",
+                    "subcapability_id": "id-b99fcd8160d24e5f8ea3c17b15072f7a",
+                    "subcapability_name": "Forvaltningsstandarder",
+                    "subcapability_slug": "forvaltningsstandarder",
+                    "mapping_label": "Standardisering: Forvaltningsstandarder",
+                    "explanation": "Fagkodene fungerer som nasjonal forvaltningsstandard i utdanningsdomenet, og gjenbrukes av kodeverk og løsninger utenfor Utdanningsdirektoratet."
+                }
+            ]
+        },
+        {
+            "product_id": 152,
+            "product_name": "Nasjonale registre for barnehage og grunnopplæring",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/152-Nasjonale-registre-for-barnehage-og-grunnopplaering-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/152-Nasjonale-registre-for-barnehage-og-grunnopplaering-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "Registrene er den autoritative kilden til hvilke barnehager, skoler og tilhørende virksomheter som finnes, med eier- og ansvarsforhold."
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Hvert register eksponeres som eget versjonert REST-API som andre virksomheter og leverandører konsumerer direkte."
+                },
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-db4f30a87ae84561a4058d4d264177b1",
+                    "subcapability_name": "Åpne data",
+                    "subcapability_slug": "apne-data",
+                    "mapping_label": "Datakilder: Åpne data",
+                    "explanation": "Datasettene er lisensiert under Norsk lisens for offentlige data, og de fleste registrene er tilgjengelige uten autentisering."
                 }
             ]
         }

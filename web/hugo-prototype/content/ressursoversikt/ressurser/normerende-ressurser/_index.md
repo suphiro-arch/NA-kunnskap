@@ -16,6 +16,7 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Standard
         <option value="DTIL">DTIL</option>
         <option value="FLERE">Flere virksomheter</option>
         <option value="NOVARI">Novari</option>
+        <option value="UDIR">UDIR</option>
       </select></label>
       <label>Type <select class="resource-filter" data-filter="type"><option value="">Alle</option>
         <option value="Standarder og veiledning">Standarder og veiledning</option>
@@ -34,6 +35,7 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Standard
         <option value="Informasjonsarkitektur">Informasjonsarkitektur</option>
         <option value="Meldingsutveksling">Meldingsutveksling</option>
         <option value="Organisatorisk samhandling">Organisatorisk samhandling</option>
+        <option value="Oversikt over begreper">Oversikt over begreper</option>
         <option value="Oversikt over datasett">Oversikt over datasett</option>
         <option value="Oversikt over informasjonsmodeller">Oversikt over informasjonsmodeller</option>
         <option value="Regelverkstolkning">Regelverkstolkning</option>
@@ -46,7 +48,7 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Standard
         <option value="Utvikling og formidling av veiledning">Utvikling og formidling av veiledning</option>
       </select></label>
     </div>
-    <p class="resource-filters__result" data-role="count">Viser 27 av 27 ressurser</p>
+    <p class="resource-filters__result" data-role="count">Viser 29 av 29 ressurser</p>
   </div>
   <div class="resource-cards">
 <article class="resource-card" data-owner="NOVARI" data-type="Standarder og veiledning" data-capabilities="informasjonsarkitektur oversikt over informasjonsmodeller forvaltningsstandarder" data-emne="Informasjonsmodell" data-search="fint informasjonsmodell novari-003 novari novari standarder og veiledning standarder og veiledning fint informasjonsmodell er den felles semantiske og strukturelle modellen som beskriver hvilken informasjon fylkeskommunene kan utveksle gjennom fint-&#248;kosystemet. modellen gir et felles spr&#229;k for data p&#229; tvers av fylkeskommuner, fagsystemer og leverand&#248;rer, og er en sentral forutsetning for at fint felleskomponent,... informasjonsarkitektur oversikt over informasjonsmodeller forvaltningsstandarder informasjonsmodell">
@@ -57,6 +59,15 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Standard
   <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let med ressursen er &#229; etablere en omforent informasjonsstruktur for fylkeskommunal datadeling. Den normerende rollen ligger f&#248;rst og fremst i at modellen definerer hvilke objekter, relasjoner...</p>
   <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/informasjonsforvaltning/informasjonsarkitektur/">Informasjonsarkitektur</a> <a class="capability-chip" href="../../../kapabiliteter/informasjonsforvaltning/oversikt-over-informasjonsmodeller/">Oversikt over informasjonsmodeller</a> <a class="capability-chip" href="../../../kapabiliteter/standardisering/forvaltningsstandarder/">Forvaltningsstandarder</a></div>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/72-FINT-Informasjonsmodell-v2-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://novari.no/tjenester/fint-informasjonsmodell/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="NOVARI" data-type="Standarder og veiledning" data-capabilities="informasjonsarkitektur oversikt over begreper forvaltningsstandarder" data-emne="Kodeverk" data-search="vigo kodeverk og kodeverksbase novari-007 novari novari standarder og veiledning standarder og veiledning vigo kodeverk er det samlede kodeverket for videreg&#229;ende oppl&#230;ring. det kombinerer nasjonale koder for fag, l&#230;replaner og oppl&#230;ringstilbud fra `grep`, skoleopplysninger fra nasjonalt skoleregister, og vigo-spesifikke koder som fylkeskommunene trenger i inntak, fagoppl&#230;ring og dokumentasjon. kodeverksbasen er den... informasjonsarkitektur oversikt over begreper forvaltningsstandarder kodeverk">
+  <h2 class="resource-card__title">VIGO Kodeverk og kodeverksbase</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>NOVARI-007</code> | <strong>Siste versjon:</strong> v1 (claude)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> Novari | <strong>Type:</strong> Standarder og veiledning</p>
+  <p class="resource-card__description">VIGO Kodeverk er det samlede kodeverket for videreg&#229;ende oppl&#230;ring. Det kombinerer nasjonale koder for fag, l&#230;replaner og oppl&#230;ringstilbud fra `Grep`, skoleopplysninger fra Nasjonalt skoleregister, og VIGO-spesifikke koder som fylkeskommunene trenger i inntak, fagoppl&#230;ring og dokumentasjon. Kodeverksbasen er den...</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let er &#229; gi videreg&#229;ende oppl&#230;ring ett omforent kodeverk, slik at fag, tilbud og skoler refereres likt p&#229; tvers av fylkeskommuner, nasjonale myndigheter og de virksomhetene som bruker...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/informasjonsforvaltning/informasjonsarkitektur/">Informasjonsarkitektur</a> <a class="capability-chip" href="../../../kapabiliteter/informasjonsforvaltning/oversikt-over-begreper/">Oversikt over begreper</a> <a class="capability-chip" href="../../../kapabiliteter/standardisering/forvaltningsstandarder/">Forvaltningsstandarder</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/82-VIGO-Kodeverk-og-kodeverksbase-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://novari.no/tjenester/vigo-kodeverk-og-kodeverkbase/">Offisiell lenke</a></p>
 </article>
 <article class="resource-card" data-owner="DIGDIR" data-type="Standarder og veiledning" data-capabilities="forvaltningsstandarder dele data med andre organisatorisk samhandling regelverkstolkning" data-emne="Rammeverk" data-search="rammeverk for digital samhandling digdir-025 digdir digdir standarder og veiledning standarder og veiledning rammeverk for digital samhandling er en normerende ressurs som samler retning, begreper og vurderingsdimensjoner for hvordan offentlige virksomheter kan utvikle l&#248;sninger og tjenester som virker sammen p&#229; tvers av virksomheter, sektorer og forvaltningsniv&#229;er. ressursen er s&#230;rlig viktig fordi den gj&#248;r digital... forvaltningsstandarder dele data med andre organisatorisk samhandling regelverkstolkning rammeverk">
   <h2 class="resource-card__title">Rammeverk for digital samhandling</h2>
@@ -291,6 +302,15 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Standard
   <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let er &#229; etablere felles designgrunnlag for informasjonsmodeller som skal deles p&#229; tvers av offentlige virksomheter. De etablerte fellesmodellene er kjernemodeller: en overordnet modell for...</p>
   <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/informasjonsforvaltning/informasjonsarkitektur/">Informasjonsarkitektur</a> <a class="capability-chip" href="../../../kapabiliteter/informasjonsforvaltning/oversikt-over-informasjonsmodeller/">Oversikt over informasjonsmodeller</a> <a class="capability-chip" href="../../../kapabiliteter/standardisering/forvaltningsstandarder/">Forvaltningsstandarder</a></div>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/149-Felles-informasjonsmodeller-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/informasjonsforvaltning/prinsipper-informasjonsmodeller/3030">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="UDIR" data-type="Standarder og veiledning" data-capabilities="informasjonsarkitektur oversikt over begreper forvaltningsstandarder" data-emne="Nasjonal database for fag, l&#230;replaner og oppl&#230;ringstilbud" data-search="grep udir-001 udir udir standarder og veiledning standarder og veiledning grep er utdanningsdirektoratets nasjonale database for fag, l&#230;replaner og oppl&#230;ringstilbud i grunnoppl&#230;ringen. alle fastsatte l&#230;replaner i kunnskapsl&#248;ftet legges inn i grep, sammen med fagkoder, tilbudsstruktur, vurderingsordninger og de merknadene som brukes n&#229;r oppl&#230;ring skal dokumenteres p&#229; et vitnem&#229;l eller... informasjonsarkitektur oversikt over begreper forvaltningsstandarder nasjonal database for fag, l&#230;replaner og oppl&#230;ringstilbud">
+  <h2 class="resource-card__title">Grep</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>UDIR-001</code> | <strong>Siste versjon:</strong> v1 (claude)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> UDIR | <strong>Type:</strong> Standarder og veiledning</p>
+  <p class="resource-card__description">Grep er Utdanningsdirektoratets nasjonale database for fag, l&#230;replaner og oppl&#230;ringstilbud i grunnoppl&#230;ringen. Alle fastsatte l&#230;replaner i Kunnskapsl&#248;ftet legges inn i Grep, sammen med fagkoder, tilbudsstruktur, vurderingsordninger og de merknadene som brukes n&#229;r oppl&#230;ring skal dokumenteres p&#229; et vitnem&#229;l eller...</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let er &#229; gi &#233;n autoritativ representasjon av l&#230;replanverket, slik at fag, l&#230;replaner og oppl&#230;ringstilbud kan refereres entydig p&#229; tvers av systemer og forvaltningsniv&#229;er.</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/informasjonsforvaltning/informasjonsarkitektur/">Informasjonsarkitektur</a> <a class="capability-chip" href="../../../kapabiliteter/informasjonsforvaltning/oversikt-over-begreper/">Oversikt over begreper</a> <a class="capability-chip" href="../../../kapabiliteter/standardisering/forvaltningsstandarder/">Forvaltningsstandarder</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/151-Grep-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.udir.no/om-udir/data/kl06-grep/">Offisiell lenke</a></p>
 </article>
   </div>
   <script>

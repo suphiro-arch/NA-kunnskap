@@ -3,7 +3,7 @@ title: "Datautveksling og integrasjon"
 eyebrow: "Kapabilitet"
 weight: 4
 description: "Evne til å sikkert, effektivt og standardisert utveksle data mellom aktører i økosystemet. ### Begrunnelse (Hvorfor) Kapabiliteten gjør det mulig for aktører i økosystemet å utveksle data på en sikker, effektiv og standardisert måte. Den fungerer som en strategisk paraply for deling, gjenbruk, integrasjon, meldingsutveksling, hendelsesdrevet samhandling og digital lommebok. Uten denne kapabiliteten blir tjenester avhengige av manuelle prosesser, særskilte punkt-til-punkt-integrasjoner og gjentatt innsamling av informasjon. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Overordnede rettslige rammer må sikre behandlingsgrunnlag, ansvar, tilgang og etterlevelse ved datautveksling mellom selvstendige aktører. - **Organisatorisk (Høy vekt):** Felles samhandlingsmodeller, avtaler, roller og forvaltningsprosesser må sikre at aktørene kan dele og bruke data på en forutsigbar måte. - **Semantisk (Høy vekt):** Felles begreper, informasjonsmodeller, metadata og standardiserte beskrivelser må sikre at data forstås likt på tvers av virksomheter. - **Teknisk (Svært høy vekt):** Standardiserte API-er, meldingsutveksling, hendelsesstrømmer, sikkerhetsmekanismer og felles infrastruktur må gjøre systemer i stand til å utveksle data kontrollert og skalerbart. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten gjør at data kan flyte sikkert og strukturert mellom virksomheter i en tjenestekjede. Den reduserer behovet for at brukeren selv må hente, dokumentere eller formidle informasjon mellom offentlige aktører. Når datautveksling og integrasjon skjer etter felles rammer, blir det enklere å utvikle sammenhengende tjenester, gjenbruke eksisterende data og koble uavhengige løsninger sammen i et mer effektivt felles økosystem."
-cardMeta: "4 delkapabiliteter / 64 produkter"
+cardMeta: "4 delkapabiliteter / 65 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -263,6 +263,10 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/139-Datalandsbyen-v1-codex.md">Datalandsbyen</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/152-Nasjonale-registre-for-barnehage-og-grunnopplaering-v1-claude.md">Nasjonale registre for barnehage og grunnopplæring</a></h3>
     </article>
   </div>
 ---

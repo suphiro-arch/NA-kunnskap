@@ -44,6 +44,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | `OPP` | OpenPeppol | Ikke relevant | Internasjonale fellesressurser og styringsrammeverk for Peppol-økosystemet |
 | `EU` | EU / Europakommisjonen | Ikke relevant | Relevante europeiske felleskomponenter og byggesteiner |
 | `DTIL` | Datatilsynet | Datatilsynet | Personvernfaglige ressurser, veiledning og virkemidler forvaltet av Datatilsynet |
+| `UDIR` | Utdanningsdirektoratet | Utdanningsdirektoratet | Nasjonale registre, kodeverk og dataressurser for barnehage og grunnopplæring |
 
 ### Slik lages en ny eierkode
 
@@ -177,6 +178,13 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 
 
 
+## Utdanningsdirektoratet (`UDIR`)
+
+| Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
+|---:|---|---|---|---|---|---|
+| 151 | `UDIR-001` | Grep | Standarder og veiledning | Nasjonal database for fag, læreplaner og opplæringstilbud | Informasjonsarkitektur<br>Oversikt over begreper<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/normerende-ressurser/151-Grep-v1-claude.md) |
+| 152 | `UDIR-002` | Nasjonale registre for barnehage og grunnopplæring | Gjenbrukbare løsninger | Registerfamilie for barnehager, skoler, PP-tjenester, SFO og lærebedrifter | Grunndata<br>Dele data med andre<br>Åpne data | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/152-Nasjonale-registre-for-barnehage-og-grunnopplaering-v1-claude.md) |
+
 ## Helsedirektoratet (`HDIR`)
 
 | Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
@@ -286,9 +294,9 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 | 73 | `NOVARI-004` | VIGO | Gjenbrukbare løsninger | Felles løsning for inntak og administrasjon i videregående opplæring | Organisatorisk samhandling<br>Sammenhengende tjenester<br>Dele data med andre<br>Datastyring<br>Oversikt over tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v2-codex.md) |
 | 80 | `NOVARI-005` | VIGO-portalen | Gjenbrukbare løsninger | Brukerflate for VIGO-tjenester | Sammenhengende tjenester<br>Tjenestekjeder | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/80-VIGO-portalen-v2-codex.md) |
 | 81 | `NOVARI-006` | VIGO Sentralbase | Gjenbrukbare løsninger | Felles datagrunnlag for VIGO | Grunndata<br>Datastyring<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/81-VIGO-Sentralbase-v1-codex.md) |
-| 82 | `NOVARI-007` | VIGO Kodeverk og kodeverksbase | Standarder og veiledning | Kodeverk | Informasjonsarkitektur<br>Forvaltningsstandarder | - |
+| 82 | `NOVARI-007` | VIGO Kodeverk og kodeverksbase | Standarder og veiledning | Kodeverk | Informasjonsarkitektur<br>Oversikt over begreper<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/normerende-ressurser/82-VIGO-Kodeverk-og-kodeverksbase-v1-claude.md) |
 | 83 | `NOVARI-008` | Arkivintegrasjoner | Gjenbrukbare løsninger | Integrasjonstjeneste for arkivflyt | Dele data med andre<br>Bruke data fra andre<br>Organisatorisk samhandling | - |
-| 84 | `NOVARI-009` | vigo.no | Gjenbrukbare løsninger | Soknads- og informasjonstjeneste for videregaende opplaering | Sammenhengende tjenester<br>Tjenestekjeder | - |
+| 84 | `NOVARI-009` | vigo.no | Gjenbrukbare løsninger | Søknads- og informasjonstjeneste for videregående opplæring | Sammenhengende tjenester<br>Tjenestekjeder | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/84-vigo-no-v1-claude.md) |
 
 
 

@@ -12,13 +12,13 @@ Denne oversikten viser siste registrerte versjon per ressurs, gruppert etter ram
 
 Tekniske komponenter, applikasjoner og tjenester som leverer funksjonalitet eller dataprodukter som kan brukes av flere.
 
-Antall ressurser: **80**
+Antall ressurser: **82**
 
 ## [Standarder og veiledning](./normerende-ressurser/)
 
 Ressurser som setter regler eller gir retning, som standarder, veiledere, referansearkitekturer og metodikk.
 
-Antall ressurser: **27**
+Antall ressurser: **29**
 
 ## [Samhandlingsarenaer og organisering](./samarbeidsfora/)
 

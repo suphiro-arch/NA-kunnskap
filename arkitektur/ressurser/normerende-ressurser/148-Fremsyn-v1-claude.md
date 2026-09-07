@@ -20,7 +20,7 @@ Fremsyn er Digdirs metodegrunnlag for å arbeide systematisk med langsiktig usik
 
 Ressursen har to sider. Den ene er publisert veiledningsmateriale: en beskrivelse av hva fremsyn er, en anbefalt arbeidsgang, og fire konkrete metoder med hver sin metodebeskrivelse. Den andre er et rådgivningstilbud der Digdir bistår virksomheter i egne fremsynsløp, deltar i styrings- eller referansegrupper eller holder innledninger.
 
-For arkitekturarbeid er fremsyn relevant fordi det er den nasjonale metoderessursen for tidligfase: den brukes før konseptvalg og målbilde er låst, når spørsmålet fortsatt er hvilke framtider løsningen skal tåle.
+Metodene brukes i tidligfase, før konseptvalg og målbilde er låst, når spørsmålet fortsatt er hvilke framtider en løsning skal tåle.
 
 ## Formål og normerende rolle
 Formålet er å bygge endringskapasitet og gjøre offentlige virksomheter i stand til å håndtere usikkerhet på en strukturert måte. Digdir er tydelig på at fremsyn ikke er prognoser eller framskrivninger: poenget er å utvikle flere alternative framtidsbilder, ikke å velge det mest sannsynlige.
@@ -138,7 +138,7 @@ Tolkes metodene ulikt, blir resultatene vanskelige å sammenligne på tvers av v
 | Forankring | Fremsyn er veiledende og har ingen kobling til styring eller finansiering | Resultatene kan bli liggende uten å påvirke beslutninger | Avklare tidlig hvilke beslutninger fremsynet skal støtte, slik Digdirs arbeidsgang anbefaler |
 | Semantisk kvalitet | Scenarioer er kvalitative og bygger på forutsetninger som ikke alltid dokumenteres | Vanskelig å etterprøve og gjenbruke | Dokumentere drivkrefter og forutsetninger sammen med scenarioene |
 | Endringsstyring | Ingen kjent formell revisjonssyklus for metodematerialet | Uklart om og når innholdet oppdateres | Kontrollere publiseringsdato på metodesidene ved bruk |
-| Sammenheng med gjenbrukbare løsninger | Metodene er teknologinøytrale og peker ikke på nasjonale fellesløsninger | Fremsynsresultater kan ende i løsningsforslag som overser eksisterende felleskomponenter | Koble fremsynsløpet til ressursoversikten i etterarbeidet |
+| Sammenheng med gjenbrukbare løsninger | Metodene er teknologinøytrale og peker ikke på nasjonale fellesløsninger | Fremsynsresultater kan ende i løsningsforslag som overser eksisterende felleskomponenter | Koble fremsynsløpet til en gjenbruksvurdering av eksisterende fellesløsninger i etterarbeidet |
 
 ## Publiseringsform og tilgjengelighet
 Materialet er publisert som åpne nettsider på digdir.no under innovasjonsområdet, med en hovedside for fremsyn i politikk, strategi og innovasjon, undersider for arbeidsgang og for hver metode, en ordliste, og en side som beskriver hva Digdir kan bidra med. Metodeverktøy er også gjort tilgjengelig gjennom Samarbeidsportalen. Alt er fritt tilgjengelig uten pålogging.

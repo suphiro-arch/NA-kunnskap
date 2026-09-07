@@ -20,7 +20,7 @@ Aktiv.
 ## Kort beskrivelse
 Styringsråd for Digitaliseringsdirektoratets fellesløsninger er Digdirs rådgivende organ for styring av nasjonale fellesløsninger. Mandatet beskriver rådet som et forum for «forpliktende samarbeid og dialog» mellom Digdir og representanter fra tjenesteeierne, med formål å sikre at løsningene utvikles i tråd med brukers behov og i en samordnet modell for felles styring, organisering og finansiering.
 
-Rådet er viktig i analysearbeid fordi det representerer grenseflaten mellom forvalterens porteføljestyring og brukervirksomhetenes behov for retning, prioritering og forankring. Forumet har også konkret ansvar for å påvirke finansiering, prioritering og eventuell utfasing av løsninger i porteføljen.
+Rådet er grenseflaten mellom forvalterens porteføljestyring og brukervirksomhetenes behov for retning, prioritering og forankring. Forumet har konkret ansvar for å påvirke finansiering, prioritering og eventuell utfasing av løsninger i porteføljen.
 
 ## Formål
 Forumet skal bistå Digdir i styringen av fellesløsningene gjennom reell brukermedvirkning, forpliktende samarbeid og tydelige prioriteringsinnspill om drift, forvaltning, videreutvikling og finansiering.
@@ -248,6 +248,7 @@ Avgrenset revisjon. Analysen og formuleringene fra `v3` er beholdt; endringene u
 - **Ny seksjon `Hvilke ressurser forumet påvirker`:** Malseksjonen manglet i `v3` og ble fanget av `tools/check-resource-structure.py`. Seksjonen skiller mellom hva rådet faktisk påvirker gjennom prioritering og økonomi, og hva som ligger utenfor mandatet.
 - **Navnefeil rettet:** `Styringsråd forDigitaliseringsdirektoratets fellesløsninger` manglet mellomrom i tittel, `Navn` og `Kort beskrivelse`. Rettet i fila. Samme feil er rettet i `produktnummerering.md`.
 - **Skrivefeil rettet:** `Styresådet`, `referatforing`, `3-årers perioder` og `reelle brukerarrangementer`, der det siste åpenbart skulle være `reelle brukerbehov`.
+- **Kort beskrivelse:** Fjernet formuleringen om at rådet er «viktig i analysearbeid». En ressursbeskrivelse skal beskrive ressursen, ikke hvilken nytte den har for arbeidet med ressursoversikten.
 - **Endringslogg:** Loggen for `v2 → v3` er fjernet. Versjonshistorikken ligger i Git, og seksjonen viser bare siste endringssett.
 
 Ikke endret i denne revisjonen: `Ressurskategori` står fortsatt som `Samarbeidsforum` og overskriften `Type forum` er beholdt. Begge avviker fra nyere praksis og fra malen, men åtte søsterfiler i samme mappe har samme form, og en harmonisering bør gjøres for hele kategorien samtidig framfor i én fil.

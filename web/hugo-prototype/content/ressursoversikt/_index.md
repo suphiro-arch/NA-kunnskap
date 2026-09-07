@@ -13,12 +13,12 @@ hideSectionOverview: true
   <article class="resource-type-card">
     <h3><a href="ressurser/operative-losninger-og-tjenester/">Gjenbrukbare løsninger</a></h3>
     <p>Tekniske komponenter, applikasjoner og tjenester som leverer funksjonalitet eller dataprodukter som kan brukes av flere.</p>
-    <p class="resource-type-card__count">80 ressurser</p>
+    <p class="resource-type-card__count">82 ressurser</p>
   </article>
   <article class="resource-type-card">
     <h3><a href="ressurser/normerende-ressurser/">Standarder og veiledning</a></h3>
     <p>Ressurser som setter regler eller gir retning, som standarder, veiledere, referansearkitekturer og metodikk.</p>
-    <p class="resource-type-card__count">27 ressurser</p>
+    <p class="resource-type-card__count">29 ressurser</p>
   </article>
   <article class="resource-type-card">
     <h3><a href="ressurser/samarbeidsfora/">Samhandlingsarenaer og organisering</a></h3>
@@ -56,6 +56,7 @@ hideSectionOverview: true
         <option value="SKATT">Skatteetaten</option>
         <option value="SSB">SSB</option>
         <option value="SVV">Statens vegvesen</option>
+        <option value="UDIR">UDIR</option>
       </select></label>
       <label>Type <select class="resource-filter" data-filter="type"><option value="">Alle</option>
         <option value="Gjenbrukbare l&#248;sninger">Gjenbrukbare l&#248;sninger</option>
@@ -106,9 +107,10 @@ hideSectionOverview: true
         <option value="Tjenestekjeder">Tjenestekjeder</option>
         <option value="Utvikling og formidling av veiledning">Utvikling og formidling av veiledning</option>
         <option value="Utviklings- og kj&#248;retidsmilj&#248;">Utviklings- og kj&#248;retidsmilj&#248;</option>
+        <option value="&#197;pne data">&#197;pne data</option>
       </select></label>
     </div>
-    <p class="resource-filters__result" data-role="count">Viser 125 av 125 ressurser</p>
+    <p class="resource-filters__result" data-role="count">Viser 129 av 129 ressurser</p>
   </div>
   <div class="resource-cards">
 <article class="resource-card" data-owner="DIGDIR" data-type="Gjenbrukbare l&#248;sninger" data-capabilities="sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester" data-emne="Innlogging og identitet" data-search="id-porten digdir-001 digdir digdir gjenbrukbare l&#248;sninger gjenbrukbare l&#248;sninger id-porten er den nasjonale fellesl&#248;sningen for sikker innlogging til offentlige digitale tjenester. l&#248;sningen gir innbyggere &#233;n gjenkjennelig inngang til tjenester p&#229; tvers av virksomheter, og gir tjenesteeiere en felles autentiseringskomponent i stedet for lokale innloggingsl&#248;sninger. id-porten er s&#230;rlig relevant n&#229;r... sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester innlogging og identitet">
@@ -623,6 +625,23 @@ hideSectionOverview: true
   <p class="resource-card__description">VIGO Sentralbase er den felles databaseressursen for videreg&#229;ende oppl&#230;ring i Norge, forvaltet i Novari-samarbeidet. Ressursen samler historiske og l&#248;pende data og fungerer som kildelag for webapplikasjoner og sentrale leveranser i VIGO-&#248;kosystemet. Ressursen er viktig i nasjonal arkitektur fordi den gir et...</p>
   <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/datakilder/grunndata/">Grunndata</a> <a class="capability-chip" href="../kapabiliteter/informasjonsforvaltning/datastyring/">Datastyring</a> <a class="capability-chip" href="../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a></div>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/81-VIGO-Sentralbase-v1-codex.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://novari.no/tjenester/vigo-sentralbase/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="NOVARI" data-type="Standarder og veiledning" data-capabilities="informasjonsarkitektur oversikt over begreper forvaltningsstandarder" data-emne="Kodeverk" data-search="vigo kodeverk og kodeverksbase novari-007 novari novari standarder og veiledning standarder og veiledning vigo kodeverk er det samlede kodeverket for videreg&#229;ende oppl&#230;ring. det kombinerer nasjonale koder for fag, l&#230;replaner og oppl&#230;ringstilbud fra `grep`, skoleopplysninger fra nasjonalt skoleregister, og vigo-spesifikke koder som fylkeskommunene trenger i inntak, fagoppl&#230;ring og dokumentasjon. kodeverksbasen er den... informasjonsarkitektur oversikt over begreper forvaltningsstandarder kodeverk">
+  <h2 class="resource-card__title">VIGO Kodeverk og kodeverksbase</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>NOVARI-007</code> | <strong>Siste versjon:</strong> v1 (claude)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> Novari | <strong>Type:</strong> Standarder og veiledning</p>
+  <p class="resource-card__description">VIGO Kodeverk er det samlede kodeverket for videreg&#229;ende oppl&#230;ring. Det kombinerer nasjonale koder for fag, l&#230;replaner og oppl&#230;ringstilbud fra `Grep`, skoleopplysninger fra Nasjonalt skoleregister, og VIGO-spesifikke koder som fylkeskommunene trenger i inntak, fagoppl&#230;ring og dokumentasjon. Kodeverksbasen er den...</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let er &#229; gi videreg&#229;ende oppl&#230;ring ett omforent kodeverk, slik at fag, tilbud og skoler refereres likt p&#229; tvers av fylkeskommuner, nasjonale myndigheter og de virksomhetene som bruker...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/informasjonsforvaltning/informasjonsarkitektur/">Informasjonsarkitektur</a> <a class="capability-chip" href="../kapabiliteter/informasjonsforvaltning/oversikt-over-begreper/">Oversikt over begreper</a> <a class="capability-chip" href="../kapabiliteter/standardisering/forvaltningsstandarder/">Forvaltningsstandarder</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/82-VIGO-Kodeverk-og-kodeverksbase-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://novari.no/tjenester/vigo-kodeverk-og-kodeverkbase/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="NOVARI" data-type="Gjenbrukbare l&#248;sninger" data-capabilities="sammenhengende tjenester tjenestekjeder" data-emne="S&#248;knads- og informasjonstjeneste for videreg&#229;ende oppl&#230;ring" data-search="vigo.no novari-009 novari novari gjenbrukbare l&#248;sninger gjenbrukbare l&#248;sninger vigo.no er den nasjonale s&#248;knads- og informasjonstjenesten for videreg&#229;ende oppl&#230;ring. ungdom som skal s&#248;ke videreg&#229;ende, logger inn med minid, velger og prioriterer utdanningsprogram, og f&#248;lger s&#248;knaden fram til svar og eventuell venteliste. tjenesten er s&#248;kerens flate mot vigo-systemet. selve inntaksbehandlingen... sammenhengende tjenester tjenestekjeder s&#248;knads- og informasjonstjeneste for videreg&#229;ende oppl&#230;ring">
+  <h2 class="resource-card__title">vigo.no</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>NOVARI-009</code> | <strong>Siste versjon:</strong> v1 (claude)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> Novari | <strong>Type:</strong> Gjenbrukbare l&#248;sninger</p>
+  <p class="resource-card__description">vigo.no er den nasjonale s&#248;knads- og informasjonstjenesten for videreg&#229;ende oppl&#230;ring. Ungdom som skal s&#248;ke videreg&#229;ende, logger inn med MinID, velger og prioriterer utdanningsprogram, og f&#248;lger s&#248;knaden fram til svar og eventuell venteliste. Tjenesten er s&#248;kerens flate mot VIGO-systemet. Selve inntaksbehandlingen...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/">Sammenhengende tjenester</a> <a class="capability-chip" href="../kapabiliteter/sluttbrukertjenester/tjenestekjeder/">Tjenestekjeder</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/84-vigo-no-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://novari.no/tjenester/vigo-soknad/">Offisiell lenke</a></p>
 </article>
 <article class="resource-card" data-owner="DIGDIR" data-type="Standarder og veiledning" data-capabilities="forvaltningsstandarder dele data med andre organisatorisk samhandling regelverkstolkning" data-emne="Rammeverk" data-search="rammeverk for digital samhandling digdir-025 digdir digdir standarder og veiledning standarder og veiledning rammeverk for digital samhandling er en normerende ressurs som samler retning, begreper og vurderingsdimensjoner for hvordan offentlige virksomheter kan utvikle l&#248;sninger og tjenester som virker sammen p&#229; tvers av virksomheter, sektorer og forvaltningsniv&#229;er. ressursen er s&#230;rlig viktig fordi den gj&#248;r digital... forvaltningsstandarder dele data med andre organisatorisk samhandling regelverkstolkning rammeverk">
   <h2 class="resource-card__title">Rammeverk for digital samhandling</h2>
@@ -1148,6 +1167,23 @@ hideSectionOverview: true
   <p class="resource-card__description">Tilsynet for universell utforming av ikt f&#248;rer tilsyn med at ikt-l&#248;sninger rettet mot brukere i Norge er universelt utformet. Tilsynet er organisert under Digdir og arbeider for et samfunn uten digitale barrierer, med b&#229;de veiledning og myndighetsut&#248;velse som virkemidler. Dette er det juridiske virkemiddelet som gj&#248;r...</p>
   <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/juridisk-samhandling/regelverkstolkning/">Regelverkstolkning</a> <a class="capability-chip" href="../kapabiliteter/veiledning/utvikling-og-formidling-av-veiledning/">Utvikling og formidling av veiledning</a> <a class="capability-chip" href="../kapabiliteter/tjenesteutvikling/tjenestedesign/">Tjenestedesign</a></div>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/150-Tilsyn-og-kontroll-universell-utforming-av-ikt-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.uutilsynet.no/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="UDIR" data-type="Standarder og veiledning" data-capabilities="informasjonsarkitektur oversikt over begreper forvaltningsstandarder" data-emne="Nasjonal database for fag, l&#230;replaner og oppl&#230;ringstilbud" data-search="grep udir-001 udir udir standarder og veiledning standarder og veiledning grep er utdanningsdirektoratets nasjonale database for fag, l&#230;replaner og oppl&#230;ringstilbud i grunnoppl&#230;ringen. alle fastsatte l&#230;replaner i kunnskapsl&#248;ftet legges inn i grep, sammen med fagkoder, tilbudsstruktur, vurderingsordninger og de merknadene som brukes n&#229;r oppl&#230;ring skal dokumenteres p&#229; et vitnem&#229;l eller... informasjonsarkitektur oversikt over begreper forvaltningsstandarder nasjonal database for fag, l&#230;replaner og oppl&#230;ringstilbud">
+  <h2 class="resource-card__title">Grep</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>UDIR-001</code> | <strong>Siste versjon:</strong> v1 (claude)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> UDIR | <strong>Type:</strong> Standarder og veiledning</p>
+  <p class="resource-card__description">Grep er Utdanningsdirektoratets nasjonale database for fag, l&#230;replaner og oppl&#230;ringstilbud i grunnoppl&#230;ringen. Alle fastsatte l&#230;replaner i Kunnskapsl&#248;ftet legges inn i Grep, sammen med fagkoder, tilbudsstruktur, vurderingsordninger og de merknadene som brukes n&#229;r oppl&#230;ring skal dokumenteres p&#229; et vitnem&#229;l eller...</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let er &#229; gi &#233;n autoritativ representasjon av l&#230;replanverket, slik at fag, l&#230;replaner og oppl&#230;ringstilbud kan refereres entydig p&#229; tvers av systemer og forvaltningsniv&#229;er.</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/informasjonsforvaltning/informasjonsarkitektur/">Informasjonsarkitektur</a> <a class="capability-chip" href="../kapabiliteter/informasjonsforvaltning/oversikt-over-begreper/">Oversikt over begreper</a> <a class="capability-chip" href="../kapabiliteter/standardisering/forvaltningsstandarder/">Forvaltningsstandarder</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/151-Grep-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.udir.no/om-udir/data/kl06-grep/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="UDIR" data-type="Gjenbrukbare l&#248;sninger" data-capabilities="grunndata dele data med andre &#229;pne data" data-emne="Registerfamilie for barnehager, skoler, PP-tjenester, SFO og l&#230;rebedrifter" data-search="nasjonale registre for barnehage og grunnoppl&#230;ring udir-002 udir udir gjenbrukbare l&#248;sninger gjenbrukbare l&#248;sninger nasjonale registre for barnehage og grunnoppl&#230;ring er utdanningsdirektoratets familie av autoritative registre over virksomhetene i barnehage- og skolesektoren. familien best&#229;r av nasjonalt barnehageregister, nasjonalt skoleregister, nasjonalt register for oppl&#230;ringskontorer, register for l&#230;rebedrifter, nasjonalt... grunndata dele data med andre &#229;pne data registerfamilie for barnehager, skoler, pp-tjenester, sfo og l&#230;rebedrifter">
+  <h2 class="resource-card__title">Nasjonale registre for barnehage og grunnoppl&#230;ring</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>UDIR-002</code> | <strong>Siste versjon:</strong> v1 (claude)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> UDIR | <strong>Type:</strong> Gjenbrukbare l&#248;sninger</p>
+  <p class="resource-card__description">Nasjonale registre for barnehage og grunnoppl&#230;ring er Utdanningsdirektoratets familie av autoritative registre over virksomhetene i barnehage- og skolesektoren. Familien best&#229;r av Nasjonalt barnehageregister, Nasjonalt skoleregister, Nasjonalt register for oppl&#230;ringskontorer, Register for l&#230;rebedrifter, Nasjonalt...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/datakilder/grunndata/">Grunndata</a> <a class="capability-chip" href="../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a> <a class="capability-chip" href="../kapabiliteter/datakilder/apne-data/">&#197;pne data</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/152-Nasjonale-registre-for-barnehage-og-grunnopplaering-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.udir.no/om-udir/data/nxr/">Offisiell lenke</a></p>
 </article>
   </div>
   <script>
