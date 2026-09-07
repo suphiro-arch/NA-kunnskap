@@ -6,9 +6,9 @@ description: "Inngang til dokumentasjonen for nasjonal arkitektur, prinsipper, k
 
 Kapabiliteter, prinsipper og ressurser for digital samhandling i offentlig sektor. Bruk siden når du skal utrede, anskaffe eller utvikle digitale tjenester og trenger å vite hva som allerede finnes.
 
-Selve rammeverket er beskrevet i [Nasjonal arkitektur for et felles digitalt økosystem](https://digdir.github.io/nasjonal-arkitektur/).
+Siden er under utvikling og oppdateres fortløpende. Se kildekoden på GitHub eller gi en tilbakemelding.
 
-Siden er under utvikling. Se kildekoden på GitHub eller gi en tilbakemelding.
+Selve rammeverket er beskrevet i [Nasjonal arkitektur for et felles digitalt økosystem](https://digdir.github.io/nasjonal-arkitektur/).
 
 ## Hva finner du her?
 
@@ -23,6 +23,8 @@ Svarene ligger i hver sin hovedseksjon:
 - [Kapabiliteter](kapabiliteter/) beskriver hvilke evner som må finnes i økosystemet.
 - [Prinsipper](prinsipper/) forklarer hvilke arkitekturfaglige føringer som bør styre utviklingen.
 - [Ressursoversikt](ressursoversikt/) samler konkrete produkter og fellesløsninger.
+
+Nettsiden er ikke et mål i seg selv, men en visualisering av kunnskapsgrunnlaget som skal brukes i ulike typer analyser for videreutvikling av økosystemet.
 
 ## Hvem er den for?
 
@@ -54,4 +56,4 @@ Verktøy som brukes i dag:
 
 Vil du se hvordan dette henger sammen, ligger både kildefilene og skriptene åpent i [repoet](https://github.com/suphiro-arch/NA-kunnskap).
 
-Struktur, innhold og presentasjon justeres fortløpende etter hvert som ressursgrunnlaget modnes.
+Innholdet i GitHub-repositoriet kan også brukes som grunnlag for KI-analyse.
