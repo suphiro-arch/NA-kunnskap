@@ -4,15 +4,15 @@ weight: 1
 description: "Inngang til dokumentasjonen for nasjonal arkitektur, prinsipper, kapabiliteter og nasjonale fellesressurser."
 ---
 
-# Om denne dokumentasjonen
+Kapabiliteter, prinsipper og ressurser for digital samhandling i offentlig sektor. Bruk siden når du skal utrede, anskaffe eller utvikle digitale tjenester og trenger å vite hva som allerede finnes.
 
-Nasjonal arkitektur beskriver hvilke evner (kapabiliteter), prinsipper og ressurser offentlig sektor har for å løse oppgaver på tvers av virksomheter og sektorer.
+Selve rammeverket er beskrevet i [Nasjonal arkitektur for et felles digitalt økosystem](https://digdir.github.io/nasjonal-arkitektur/).
 
-Siden er under utvikling og oppdateres fortløpende. Se kildekoden på GitHub eller gi en tilbakemelding.
+Siden er under utvikling. Se kildekoden på GitHub eller gi en tilbakemelding.
 
 ## Hva finner du her?
 
-Denne dokumentasjonen er bygget opp rundt tre spørsmål:
+Siden er bygget opp rundt tre spørsmål:
 
 - Hvilke evner må økosystemet ha for å lykkes?
 - Hvilke føringer bør styre valg av løsninger og prioriteringer?
@@ -26,7 +26,7 @@ Svarene ligger i hver sin hovedseksjon:
 
 ## Hvem er den for?
 
-Prototypen er særlig relevant for:
+Siden er særlig relevant for:
 
 - arkitekter som trenger en felles referanse for samhandling på tvers
 - produktledere og forvaltere som må plassere egne løsninger i en større sammenheng
@@ -35,7 +35,7 @@ Prototypen er særlig relevant for:
 
 ## Hvordan ressursoversikten bygges
 
-Ressursoversikten og ressursbeskrivelsene er bygget fra kildedata i repoet, lenkesjekkede kilder og KI-assistert utforming. Alt arbeidsgrunnlaget er åpent: registeret, ressursbeskrivelsene, kapabilitetskoblingene og genereringsskriptene ligger i [NA-kunnskap på GitHub](https://github.com/suphiro-arch/NA-kunnskap).
+Ressursoversikten og ressursbeskrivelsene er bygget fra kildedata i repoet, lenkesjekkede kilder og KI-assistert utforming. Alt arbeidsgrunnlaget er åpent: registeret, ressursbeskrivelsene, kapabilitetskoblingene og genereringsskriptene ligger i [NA-kunnskap på GitHub](https://github.com/suphiro-arch/NA-kunnskap), der du også finner [produktnummerering.md](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/produktnummerering.md). Innholdet i GitHub-repositoriet kan også brukes som grunnlag for KI-analyse.
 
 Prosess i korte trekk:
 
@@ -54,4 +54,4 @@ Verktøy som brukes i dag:
 
 Vil du se hvordan dette henger sammen, ligger både kildefilene og skriptene åpent i [repoet](https://github.com/suphiro-arch/NA-kunnskap).
 
-Løsningen er fortsatt en testflate. Struktur, innhold og presentasjon justeres fortløpende etter hvert som ressursgrunnlaget modnes.
+Struktur, innhold og presentasjon justeres fortløpende etter hvert som ressursgrunnlaget modnes.

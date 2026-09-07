@@ -45,6 +45,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | `EU` | EU / Europakommisjonen | Ikke relevant | Relevante europeiske felleskomponenter og byggesteiner |
 | `DTIL` | Datatilsynet | Datatilsynet | Personvernfaglige ressurser, veiledning og virkemidler forvaltet av Datatilsynet |
 | `UDIR` | Utdanningsdirektoratet | Utdanningsdirektoratet | Nasjonale registre, kodeverk og dataressurser for barnehage og grunnopplæring |
+| `BUFDIR` | Bufdir | Barne-, ungdoms- og familiedirektoratet | Nasjonale registre og fagressurser for barnevern, oppvekst og familie |
 
 ### Slik lages en ny eierkode
 
@@ -185,6 +186,12 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 | 151 | `UDIR-001` | Grep | Standarder og veiledning | Nasjonal database for fag, læreplaner og opplæringstilbud | Informasjonsarkitektur<br>Oversikt over begreper<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/normerende-ressurser/151-Grep-v1-claude.md) |
 | 152 | `UDIR-002` | Nasjonale registre for barnehage og grunnopplæring | Gjenbrukbare løsninger | Registerfamilie for barnehager, skoler, PP-tjenester, SFO og lærebedrifter | Grunndata<br>Dele data med andre<br>Åpne data | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/152-Nasjonale-registre-for-barnehage-og-grunnopplaering-v1-claude.md) |
 
+## Bufdir (`BUFDIR`)
+
+| Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
+|---:|---|---|---|---|---|---|
+| 153 | `BUFDIR-001` | Barnevernsregisteret | Gjenbrukbare løsninger | Nasjonalt rapporteringsregister for kommunalt barnevern | Dele data med andre<br>Dataanalyse<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/153-Barnevernsregisteret-v1-claude.md) |
+
 ## Helsedirektoratet (`HDIR`)
 
 | Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
@@ -297,6 +304,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 | 82 | `NOVARI-007` | VIGO Kodeverk og kodeverksbase | Standarder og veiledning | Kodeverk | Informasjonsarkitektur<br>Oversikt over begreper<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/normerende-ressurser/82-VIGO-Kodeverk-og-kodeverksbase-v1-claude.md) |
 | 83 | `NOVARI-008` | Arkivintegrasjoner | Gjenbrukbare løsninger | Integrasjonstjeneste for arkivflyt | Dele data med andre<br>Bruke data fra andre<br>Organisatorisk samhandling | - |
 | 84 | `NOVARI-009` | vigo.no | Gjenbrukbare løsninger | Søknads- og informasjonstjeneste for videregående opplæring | Sammenhengende tjenester<br>Tjenestekjeder | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/84-vigo-no-v1-claude.md) |
+| 154 | `NOVARI-010` | vilbli.no | Gjenbrukbare løsninger | Informasjonstjeneste om videregående opplæring | Sammenhengende tjenester<br>Oversikt over tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/154-vilbli-no-v1-claude.md) |
 
 
 

@@ -13,6 +13,7 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Gjenbruk
       <label>Søk <input type="search" class="resource-filter" data-filter="search" placeholder="Navn, ID, kapabilitet" /></label>
       <label>Eier <select class="resource-filter" data-filter="owner"><option value="">Alle</option>
         <option value="BRREG">Br&#248;nn&#248;ysundregistrene</option>
+        <option value="BUFDIR">BUFDIR</option>
         <option value="DIGDIR">Digdir</option>
         <option value="FHI">FHI</option>
         <option value="FLERE">Flere virksomheter</option>
@@ -37,6 +38,7 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Gjenbruk
         <option value="Autentisering">Autentisering</option>
         <option value="Bruke data fra andre">Bruke data fra andre</option>
         <option value="Datastyring">Datastyring</option>
+        <option value="Dataanalyse">Dataanalyse</option>
         <option value="Dele data med andre">Dele data med andre</option>
         <option value="Forvaltningsstandarder">Forvaltningsstandarder</option>
         <option value="Gjenbrukbare tjenester">Gjenbrukbare tjenester</option>
@@ -71,7 +73,7 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Gjenbruk
         <option value="&#197;pne data">&#197;pne data</option>
       </select></label>
     </div>
-    <p class="resource-filters__result" data-role="count">Viser 82 av 82 ressurser</p>
+    <p class="resource-filters__result" data-role="count">Viser 84 av 84 ressurser</p>
   </div>
   <div class="resource-cards">
 <article class="resource-card" data-owner="DIGDIR" data-type="Gjenbrukbare l&#248;sninger" data-capabilities="sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester" data-emne="Innlogging og identitet" data-search="id-porten digdir-001 digdir digdir gjenbrukbare l&#248;sninger gjenbrukbare l&#248;sninger id-porten er den nasjonale fellesl&#248;sningen for sikker innlogging til offentlige digitale tjenester. l&#248;sningen gir innbyggere &#233;n gjenkjennelig inngang til tjenester p&#229; tvers av virksomheter, og gir tjenesteeiere en felles autentiseringskomponent i stedet for lokale innloggingsl&#248;sninger. id-porten er s&#230;rlig relevant n&#229;r... sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester innlogging og identitet">
@@ -729,6 +731,22 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Gjenbruk
   <p class="resource-card__description">Nasjonale registre for barnehage og grunnoppl&#230;ring er Utdanningsdirektoratets familie av autoritative registre over virksomhetene i barnehage- og skolesektoren. Familien best&#229;r av Nasjonalt barnehageregister, Nasjonalt skoleregister, Nasjonalt register for oppl&#230;ringskontorer, Register for l&#230;rebedrifter, Nasjonalt...</p>
   <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/datakilder/grunndata/">Grunndata</a> <a class="capability-chip" href="../../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a> <a class="capability-chip" href="../../../kapabiliteter/datakilder/apne-data/">&#197;pne data</a></div>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/152-Nasjonale-registre-for-barnehage-og-grunnopplaering-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.udir.no/om-udir/data/nxr/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="BUFDIR" data-type="Gjenbrukbare l&#248;sninger" data-capabilities="dele data med andre dataanalyse forvaltningsstandarder" data-emne="Nasjonalt rapporteringsregister for kommunalt barnevern" data-search="barnevernsregisteret bufdir-001 bufdir bufdir gjenbrukbare l&#248;sninger gjenbrukbare l&#248;sninger barnevernsregisteret er det nasjonale registeret der alle kommunale barnevernstjenester rapporterer data om sin virksomhet. registeret erstatter rapportering som tidligere gikk i separate l&#248;p til statistisk sentralbyr&#229; og bufdir, og samler kostra-rapporteringen og kommunenes halv&#229;rsrapporter i &#233;n ordning. bufdir er... dele data med andre dataanalyse forvaltningsstandarder nasjonalt rapporteringsregister for kommunalt barnevern">
+  <h2 class="resource-card__title">Barnevernsregisteret</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>BUFDIR-001</code> | <strong>Siste versjon:</strong> v1 (claude)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> BUFDIR | <strong>Type:</strong> Gjenbrukbare l&#248;sninger</p>
+  <p class="resource-card__description">Barnevernsregisteret er det nasjonale registeret der alle kommunale barnevernstjenester rapporterer data om sin virksomhet. Registeret erstatter rapportering som tidligere gikk i separate l&#248;p til Statistisk sentralbyr&#229; og Bufdir, og samler KOSTRA-rapporteringen og kommunenes halv&#229;rsrapporter i &#233;n ordning. Bufdir er...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a> <a class="capability-chip" href="../../../kapabiliteter/datadrevet/dataanalyse/">Dataanalyse</a> <a class="capability-chip" href="../../../kapabiliteter/standardisering/forvaltningsstandarder/">Forvaltningsstandarder</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/153-Barnevernsregisteret-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.bufdir.no/fagstotte/barnevern-oppvekst/barnevernsregisteret/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="NOVARI" data-type="Gjenbrukbare l&#248;sninger" data-capabilities="sammenhengende tjenester oversikt over tjenester" data-emne="Informasjonstjeneste om videreg&#229;ende oppl&#230;ring" data-search="vilbli.no novari-010 novari novari gjenbrukbare l&#248;sninger gjenbrukbare l&#248;sninger vilbli.no er den nasjonale informasjonstjenesten om videreg&#229;ende oppl&#230;ring. tjenesten samler informasjon om utdanningsprogram, programomr&#229;der, yrker og kompetanser, sammen med regelverk, inntakskrav, inntaksregler og s&#248;knadsprosedyrer. tjenesten eies av fylkeskommunene og forvaltes av novari iks. innholdet om hvilke... sammenhengende tjenester oversikt over tjenester informasjonstjeneste om videreg&#229;ende oppl&#230;ring">
+  <h2 class="resource-card__title">vilbli.no</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>NOVARI-010</code> | <strong>Siste versjon:</strong> v1 (claude)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> Novari | <strong>Type:</strong> Gjenbrukbare l&#248;sninger</p>
+  <p class="resource-card__description">vilbli.no er den nasjonale informasjonstjenesten om videreg&#229;ende oppl&#230;ring. Tjenesten samler informasjon om utdanningsprogram, programomr&#229;der, yrker og kompetanser, sammen med regelverk, inntakskrav, inntaksregler og s&#248;knadsprosedyrer. Tjenesten eies av fylkeskommunene og forvaltes av Novari IKS. Innholdet om hvilke...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/">Sammenhengende tjenester</a> <a class="capability-chip" href="../../../kapabiliteter/informasjonsforvaltning/oversikt-over-tjenester/">Oversikt over tjenester</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/154-vilbli-no-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.vilbli.no/nb/no/a/om-vilbli-no-6">Offisiell lenke</a></p>
 </article>
   </div>
   <script>

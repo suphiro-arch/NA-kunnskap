@@ -5204,6 +5204,76 @@
                     "explanation": "Datasettene er lisensiert under Norsk lisens for offentlige data, og de fleste registrene er tilgjengelige uten autentisering."
                 }
             ]
+        },
+        {
+            "product_id": 153,
+            "product_name": "Barnevernsregisteret",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/153-Barnevernsregisteret-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/153-Barnevernsregisteret-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Registeret er kanalen der kommunale barnevernstjenester deler data med staten, i nye fagsystemer automatisk og daglig framfor gjennom periodiske manuelle innsendinger."
+                },
+                {
+                    "capability_id": "id-98df6c2b4df340c7a3a3ad32d99ca37e",
+                    "capability_name": "Datadrevet",
+                    "capability_slug": "datadrevet",
+                    "subcapability_id": "id-fa54a429cbd84db09da1b2b2165fc352",
+                    "subcapability_name": "Dataanalyse",
+                    "subcapability_slug": "dataanalyse",
+                    "mapping_label": "Datadrevet: Dataanalyse",
+                    "explanation": "Dataene brukes til å utvikle statistikk, styringsinformasjon og analyser om barnevernstjenesten."
+                },
+                {
+                    "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
+                    "capability_name": "Standardisering",
+                    "capability_slug": "standardisering",
+                    "subcapability_id": "id-b99fcd8160d24e5f8ea3c17b15072f7a",
+                    "subcapability_name": "Forvaltningsstandarder",
+                    "subcapability_slug": "forvaltningsstandarder",
+                    "mapping_label": "Standardisering: Forvaltningsstandarder",
+                    "explanation": "Rapporteringskravene er publisert som et maskinlesbart skjema som fagsystemleverandørene må implementere, og som dermed fungerer som nasjonal rapporteringsstandard på området."
+                }
+            ]
+        },
+        {
+            "product_id": 154,
+            "product_name": "vilbli.no",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/154-vilbli-no-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/154-vilbli-no-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
+                    "subcapability_name": "Sammenhengende tjenester",
+                    "subcapability_slug": "sammenhengende-tjenester",
+                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                    "explanation": "Tjenesten samler nasjonalt regelverk og fylkesspesifikke tilbud i én flate, slik at søkeren ikke må orientere seg hos nitten fylkeskommuner hver for seg."
+                },
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-d9374751da7d4b36bb0b3be609ff7d28",
+                    "subcapability_name": "Oversikt over tjenester",
+                    "subcapability_slug": "oversikt-over-tjenester",
+                    "mapping_label": "Informasjonsforvaltning: Oversikt over tjenester",
+                    "explanation": "vilbli.no er den nasjonale oversikten over hvilke utdanningstilbud som finnes hvor i videregående opplæring."
+                }
+            ]
         }
     ],
     "capabilities": [

@@ -274,6 +274,9 @@ Sist redigert: 2026-06-17.
 - MinKommune: https://min.kommune.no/ (lagt til 2026-08-28)
 
 ### Novari / fylkeskommunal sektor
+- vilbli.no, informasjonstjenesten: https://novari.no/tjenester/vilbli/ (lagt til 2026-09-07)
+- Om vilbli.no: https://www.vilbli.no/nb/no/a/om-vilbli-no-6 (lagt til 2026-09-07)
+- Videreutvikling av vilbli.no: https://novari.no/tjenester/vilbli-videreutvikling/ (lagt til 2026-09-07)
 - VIGO-systemet: https://novari.no/tjenester/vigosystemet (lagt til 2026-09-07)
 - vigo.no, søknadstjenesten: https://www.vigo.no/nyvigo/vigo (lagt til 2026-09-07)
 - vilbli.no om registrering av søknad på vigo.no: https://www.vilbli.no/en/no/a/registrer-soknaden-din-pa-vigo-no-6 (lagt til 2026-09-07)
@@ -404,6 +407,12 @@ Sist redigert: 2026-06-17.
 - API for tekniske kjøretøyopplysninger med eierinformasjon: https://www.vegvesen.no/fag/teknologi/apne-data/et-utvalg-apne-data/api-for-tekniske-kjoretoyopplysninger-med-eierinformasjon/ (lagt til 2026-03-27)
 - API for kjøretøyopplysninger: https://www.vegvesen.no/om-oss/om-organisasjonen/apne-data/et-utvalg-apne-data/api-for-kjoretoyopplysninger/ (lagt til 2026-03-27)
 - Nasjonal vegdatabank (NVDB): https://www.vegvesen.no/fag/fokusomrader/nasjonal-vegdatabank/ (lagt til 2026-03-19)
+
+### Bufdir og barnevern
+- Barnevernsregisteret: https://www.bufdir.no/fagstotte/barnevern-oppvekst/barnevernsregisteret/ (lagt til 2026-09-07)
+- Data fra Bufdir, informasjonsmodeller og meldingsformater: https://data.bufdir.no/ (lagt til 2026-09-07)
+- DigiBarnevern hos Bufdir: https://www.bufdir.no/prosjekter/digibarnevern/ (lagt til 2026-09-07)
+- DigiBarnevern hos KS: https://www.ks.no/fagomrader/digitalisering/felleslosninger/digibarnevern/ (lagt til 2026-09-07)
 
 ### Utdanningsdirektoratet
 - Data fra Utdanningsdirektoratet, samleside: https://www.udir.no/om-udir/data/ (lagt til 2026-09-07)
