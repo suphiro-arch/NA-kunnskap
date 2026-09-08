@@ -440,6 +440,25 @@ Sist redigert: 2026-06-17.
 - Grep-wiki, teknisk dokumentasjon: https://grepwiki.udir.no/index.php?title=Hovedside (lagt til 2026-09-07)
 - Utdanningsdirektoratet på GitHub: https://github.com/Utdanningsdirektoratet (lagt til 2026-09-07)
 - Grep SPARQL-endepunkt, beskrivelse: https://github.com/Utdanningsdirektoratet/Grep_SPARQL (lagt til 2026-09-07)
+- Grunnskolens informasjonssystem (GSI), om innrapportering: https://www.udir.no/tall-og-forskning/innrapportering/gsi/ (lagt til 2026-09-08)
+- GSI-innsamling, ny teknisk løsning og tilgang: https://www.udir.no/tall-og-forskning/statistikk/gsi-innsamling/ (lagt til 2026-09-08)
+- GSI rapporteringsløsning: https://gsi.udir.no/ (lagt til 2026-09-08)
+- GSI hjelpesider: https://gsi.udir.no/hjelp/ (lagt til 2026-09-08)
+- GSI, nytt i systemet: https://gsi.udir.no/hjelp/nytt/system (lagt til 2026-09-08)
+- Elevundersøkelsen, formål og hjemmel: https://www.udir.no/tall-og-forskning/brukerundersokelser/elevundersokelsen/om-elevundersokelsen/ (lagt til 2026-09-08)
+- Elevundersøkelsen, administrasjon og tilgang: https://www.udir.no/tall-og-forskning/brukerundersokelser/elevundersokelsen/administrere-elevundersokelsen/ (lagt til 2026-09-08)
+- Elevundersøkelsen, informasjon til elever og foreldre: https://www.udir.no/tall-og-forskning/brukerundersokelser/elevundersokelsen/om-elevundersokelsen-til-elever-og-foreldre/ (lagt til 2026-09-08)
+- Elevundersøkelsen, resultater: https://www.udir.no/tall-og-forskning/brukerundersokelser/elevundersokelsen/resultater/ (lagt til 2026-09-08)
+- Elevundersøkelsen, elevflate: https://u.udir.no/elev (lagt til 2026-09-08)
+
+### HK-dir og utdanning.no
+- utdanning.no: https://utdanning.no/ (lagt til 2026-09-08)
+- HK-dir om utdanning.no: https://hkdir.no/ressurser/utdanning-no (lagt til 2026-09-08)
+- API for yrkesbeskrivelser fra utdanning.no: https://utdanning.no/api/v1/data_norge--yrkesbeskrivelse (lagt til 2026-09-08)
+- API for utdanningsbeskrivelser fra utdanning.no: https://utdanning.no/api/v1/data_norge--utdanningsbeskrivelse (lagt til 2026-09-08)
+- Yrkesbeskrivelser fra utdanning.no i Felles datakatalog: https://data.norge.no/nb/datasets/7bf25d6c-d25d-3d68-b721-86ddd512bfbe/yrkesbeskrivelser-fra-utdanningno (lagt til 2026-09-08)
+- Utdanningsbeskrivelser fra utdanning.no i Felles datakatalog: https://data.norge.no/en/datasets/eff568d2-8409-48f6-824c-cd93f42fa3ac/utdanningsbeskrivelser-fra-utdanningno (lagt til 2026-09-08)
+- Database for statistikk om høyere utdanning (DBH): https://dbh.hkdir.no/about (lagt til 2026-09-08)
 
 ### Utdanning
 - Nasjonalt utdanningsregister: https://sikt.no/tiltak/nasjonalt-utdanningsregister
@@ -496,6 +515,12 @@ Sist redigert: 2026-06-17.
 - Interoperable Europe Solutions: https://interoperable-europe.ec.europa.eu/interoperable_solutions (lagt til 2026-03-18)
 - EU Open Source Solutions Catalogue: https://interoperable-europe.ec.europa.eu/eu-oss-catalogue (lagt til 2026-03-18)
 - European Competitiveness Fund: https://single-market-economy.ec.europa.eu/access-finance/european-competitiveness-fund_en (lagt til 2026-09-04)
+- Retningslinjer for beskyttelse av mindreårige etter DSA artikkel 28: https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-protection-minors (lagt til 2026-09-08)
+- Kommisjonens hvitmerkede løsning for aldersverifisering: https://digital-strategy.ec.europa.eu/en/news/commission-makes-available-age-verification-blueprint (lagt til 2026-09-08)
+- European Learning Model (ELM): https://europass.europa.eu/en/qdr-european-learning-model (lagt til 2026-09-08)
+- European Learning Model for interessenter, med versjonsstatus: https://europass.europa.eu/en/european-learning-model-stakeholders (lagt til 2026-09-08)
+- European Digital Credentials for Learning: https://europass.europa.eu/en/european-digital-credentials (lagt til 2026-09-08)
+- ESCO, europeisk klassifikasjon av ferdigheter, kvalifikasjoner og yrker: https://esco.ec.europa.eu/en (lagt til 2026-09-08)
 
 ## Standarder og veiledninger
 
@@ -609,6 +634,7 @@ Sist redigert: 2026-06-17.
 - Ny arkivlov trer i kraft 1. januar 2026: https://www.regjeringen.no/no/aktuelt/ny-arkivlov-trer-i-kraft-1.-januar-2026/id3110253/ (lagt til 2026-08-28)
 - Lov om dokumentasjon og arkiv (arkivlova), Nasjonalarkivet: https://www.nasjonalarkivet.no/offentlig-forvaltning/regelverk-og-standarder/lover-og-forskrifter/lov-om-dokumentasjon-og-arkiv-arkivlova/ (lagt til 2026-08-28)
 - Forskrift om IT-standarder i offentlig forvaltning (FOR-2013-04-05-959): https://lovdata.no/dokument/SF/forskrift/2013-04-05-959 (lagt til 2026-08-28)
+- Opplæringslova § 12-3, nulltoleranse og førebyggjande arbeid (LOV-2023-06-09-30): https://lovdata.no/lov/2023-06-09-30/§12-3 (lagt til 2026-09-08)
 - Forskrift om IT-standarder i offentlig forvaltning, kort URL-form: https://lovdata.no/forskrift/2013-04-05-959 (lagt til 2026-08-28)
 - Norsk pasientregister, forskrift (FOR-2007-12-07-1389): https://lovdata.no/forskrift/2007-12-07-1389 (lagt til 2026-08-28)
 - Kommunalt pasient- og brukerregister, forskrift (FOR-2017-08-25-1292): https://lovdata.no/forskrift/2017-08-25-1292 (lagt til 2026-08-28)

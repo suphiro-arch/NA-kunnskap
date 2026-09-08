@@ -20,6 +20,19 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
 
 ### Ressursarbeid
 
+- Vurdere EU-standardsporet for barn og unge, som eget spor foran den bredere batch 3. To kandidater
+  er avklart nok til å planlegges, se [decisions.md](./decisions.md) 2026-09-08:
+  - Aldersverifisering etter DSA artikkel 28, med Kommisjonens hvitmerkede løsning. Skal avklares
+    mot norsk gjennomføring av DSA og mot forslaget om aldersgrense i sosiale medier, og mot om
+    norsk anvendelse skal skje gjennom EUDI-lommebok eller nasjonal løsning.
+  - European Learning Model og europeiske digitale kvalifikasjonsbevis. Skal avklares mot `Grep`,
+    `VIGO Kodeverk` og `utdanning.no`, som i dag klassifiserer mot NUS og STYRK uten dokumentert
+    mapping mot ESCO og ELM.
+- Koble minst én ressurs til delkapabiliteten `EU standarder`. Delkapabiliteten har i dag null
+  koblede ressurser i `produkt-kapabilitet-koblinger.yaml`, mens `Forvaltningsstandarder` har mange.
+- Fullføre barn-og-unge-sporet med de gjenstående kandidatene: `Barnehagefakta` som mulig peker
+  under `UDIR-002` framfor egen ressurs, `DigiUng` som mulig samhandlingsarena, og
+  `Barnevernsfaglig kvalitetssystem` som fortsatt er ubekreftet i kildene.
 - Kjøre batch 3, det internasjonale sporet: `Digital Europe Programme`, `NOBID`, `European Digital
   Identity Cooperation Group`, `OECD OPSI` og konkrete nordisk-baltiske samarbeidsmekanismer. Eget
   vurderingsspor for `eIDAS 2.0`, `Single Digital Gateway`, `OOTS`, `Interoperable Europe Act` og

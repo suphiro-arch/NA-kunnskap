@@ -3,7 +3,7 @@ title: "Sluttbrukertjenester"
 eyebrow: "Kapabilitet"
 weight: 3
 description: "Evne til å tilby en sammenhengende digital brukeropplevelse gjennom et økosystem av standardiserte og integrerbare tjenester. ### Begrunnelse (Hvorfor) Kapabiliteten sikrer at innbyggere, næringsliv og andre sluttbrukere møter offentlige digitale tjenester som en helhetlig brukeropplevelse, selv om tjenestene leveres av flere uavhengige virksomheter. Den fungerer som en strategisk paraply for brukerorienterte, sammenhengende og proaktive tjenester som bygger på felles data, integrerbare tjenester og standardiserte samhandlingsmønstre. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Overordnede rammer for rettigheter, plikter, personvern, universell utforming og digital kommunikasjon må sikre at sluttbrukertjenester kan tilbys trygt og lovlig på tvers av virksomheter. - **Organisatorisk (Svært høy vekt):** Felles styring, tjenesteeierskap, brukerorienterte arbeidsprosesser og tverrgående ansvar må sikre at tjenestene oppleves helhetlige fra brukerens ståsted. - **Semantisk (Høy vekt):** Felles begreper, tjenestebeskrivelser, informasjonsmodeller og brukerrettet språk må sikre at innhold og veiledning forstås likt på tvers av tjenestene. - **Teknisk (Høy vekt):** Standardiserte og integrerbare tjenester, API-er, fellesløsninger og sikre digitale kanaler må gjøre det mulig å bygge en sammenhengende brukeropplevelse på tvers av systemer. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten gjør sluttbrukerens behov til utgangspunktet for hvordan tjenester settes sammen i økosystemet. Når offentlige tjenester bygger på standardiserte og integrerbare byggeklosser, kan brukeren få en mer sømløs reise der informasjon, veiledning og handlinger henger sammen på tvers av virksomheter. Dette styrker det felles økosystemet ved å fremme gjenbruk, redusere fragmentering og gjøre det enklere å utvikle tjenester som oppleves som én samlet offentlig sektor."
-cardMeta: "3 delkapabiliteter / 27 produkter"
+cardMeta: "3 delkapabiliteter / 28 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -115,6 +115,10 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/157-ung-no-v1-claude.md">ung.no</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/158-utdanning-no-v1-claude.md">utdanning.no</a></h3>
     </article>
   </div>
 ---

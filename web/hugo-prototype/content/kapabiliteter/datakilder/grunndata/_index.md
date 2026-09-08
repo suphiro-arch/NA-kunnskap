@@ -4,7 +4,7 @@ headerTitle: "Datakilder - Grunndata"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å identifisere og formelt anerkjenne autoritative datakilder basert på en systematisk vurdering av deres verdi. ### Begrunnelse (Hvorfor) Kapabiliteten sikrer at økosystemet har felles, autoritative datakilder som kan legges til grunn for tjenester, prosesser og beslutninger på tvers av virksomheter. Den løser problemet med at ulike aktører bruker ulike kopier, tolkninger eller kvalitetsnivåer av sentrale data, noe som kan gi feil, dobbeltarbeid og sviktende tillit i tjenestekjeder. ### Hva det innebærer (Omfang) - **Juridisk (Høy vekt):** Avklare rettslig status, behandlingsgrunnlag, tilgangsregler, ansvar og plikter for autoritative datakilder som Folkeregisteret, Enhetsregisteret, Matrikkelen og Arbeidsgiver- og arbeidstakerregisteret. - **Organisatorisk (Høy vekt):** Etablere tydelig forvaltningsansvar, kvalitetsrutiner og prosesser for å identifisere, vurdere og formelt anerkjenne nasjonale grunndata. - **Semantisk (Svært høy vekt):** Sikre felles begreper, datadefinisjoner, metadata og informasjonsmodeller for nøkkelregistre, slik at dataene forstås likt på tvers av tjenester og sektorer. - **Teknisk (Høy vekt):** Tilgjengeliggjøre grunndata gjennom sikre, stabile og standardiserte grensesnitt, med mekanismer for oppdatering, logging, tilgangskontroll og sporbarhet. ### Bidrag til sammenhengende tjenester og felles økosystem Grunndata gjør det mulig å bygge tjenester på felles autoritative opplysninger i stedet for lokale kopier eller manuell dokumentasjon. Eksempler på kandidater til nasjonale grunndata er Folkeregisteret, Enhetsregisteret, Matrikkelen, Arbeidsgiver- og arbeidstakerregisteret og geografiske grunndata forvaltet av Kartverket. Når slike datakilder er identifisert, anerkjent og gjort tilgjengelige, kan virksomheter gjenbruke samme grunnlag for identitet, virksomheter, eiendom, adresser, arbeidsforhold og geografi. For sluttbrukeren betyr dette færre krav om dokumentasjon, mindre feil og mer sammenhengende tjenester. For økosystemet gir det bedre datakvalitet, økt tillit og mer effektiv samhandling på tvers av virksomheter."
-cardMeta: "28 produkter"
+cardMeta: "30 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -148,6 +148,16 @@ productsMarkdown: |
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/152-Nasjonale-registre-for-barnehage-og-grunnopplaering-v1-claude.md">Nasjonale registre for barnehage og grunnopplæring</a></h3>
       <p class="capability-product-link__description">Registrene er den autoritative kilden til hvilke barnehager, skoler og tilhørende virksomheter som finnes, med eier- og ansvarsforhold.</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/159-Grunnskolens-informasjonssystem-v1-claude.md">Grunnskolens informasjonssystem (GSI)</a></h3>
+      <p class="capability-product-link__description">Løsningen etablerer det autoritative datagrunnlaget om grunnskoleopplæringen, og skoleutvalget hentes fra Nasjonalt skoleregister.</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/160-Elevundersokelsen-v1-claude.md">Elevundersøkelsen</a></h3>
+      <p class="capability-product-link__description">Undersøkelsen etablerer det nasjonale datagrunnlaget om elevenes opplevelse av skolemiljøet, som ikke finnes i noen registerkilde.</p>
     </article>
   </div>
 ---

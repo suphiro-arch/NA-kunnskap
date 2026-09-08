@@ -3,7 +3,7 @@ title: "Datakilder"
 eyebrow: "Kapabilitet"
 weight: 13
 description: "Evne til å tilgjengeliggjøre og forvalte data som en nasjonal fellesressurs, slik at de kan oppdages, forstås og gjenbrukes på en sikker og standardisert måte. ### Begrunnelse (Hvorfor) Kapabiliteten sikrer at data kan behandles som en nasjonal fellesressurs, ikke bare som lokale informasjonsbeholdninger i enkeltvirksomheter. Den gjør det mulig å oppdage, forstå og gjenbruke data på en sikker og standardisert måte på tvers av virksomheter, sektorer og forvaltningsnivåer. Kapabiliteten omfatter også å organisere og styre data innenfor definerte tematiske domener. Dette sikrer helhetlig forvaltning og strategisk utvikling av dataressurser innenfor kritiske samfunnsområder. ### Hva det innebærer (Omfang) - **Juridisk (Høy vekt):** Overordnede rettslige rammer må sikre at datakilder kan tilgjengeliggjøres og gjenbrukes innenfor krav til personvern, taushetsplikt, sikkerhet og lovlig viderebruk. - **Organisatorisk (Svært høy vekt):** Felles styringsmodeller, domeneorganisering og tydelig dataansvar må sikre helhetlig forvaltning og strategisk utvikling av dataressurser. - **Semantisk (Svært høy vekt):** Nasjonale metadata, begreper, informasjonsmodeller og kvalitetsbeskrivelser må gjøre datakildene finnbare, forståelige og vurderbare for gjenbruk. - **Teknisk (Høy vekt):** Standardiserte kataloger, API-er, tilgangsmekanismer og teknisk infrastruktur må gjøre datakilder tilgjengelige på en sikker, stabil og maskinlesbar måte. ### Bidrag til sammenhengende tjenester og felles økosystem Datakilder er et grunnlag for sammenhengende tjenester fordi de gjør relevante data tilgjengelige for gjenbruk på tvers av virksomheter. Når data kan oppdages, forstås og brukes sikkert fra autoritative eller godt forvaltede kilder, slipper brukeren å levere samme informasjon flere ganger. Kapabiliteten styrker det felles økosystemet ved å gjøre data til en felles ressurs for tjenesteutvikling, analyse, automatisering og samhandling. Domeneorganisering gir bedre oversikt, ansvar og strategisk utvikling av data innenfor viktige samfunnsområder, og gjør det enklere å bygge tjenester som henger sammen på tvers av organisatoriske grenser."
-cardMeta: "5 delkapabiliteter / 28 produkter"
+cardMeta: "5 delkapabiliteter / 31 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -119,6 +119,18 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/152-Nasjonale-registre-for-barnehage-og-grunnopplaering-v1-claude.md">Nasjonale registre for barnehage og grunnopplæring</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/158-utdanning-no-v1-claude.md">utdanning.no</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/159-Grunnskolens-informasjonssystem-v1-claude.md">Grunnskolens informasjonssystem (GSI)</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/160-Elevundersokelsen-v1-claude.md">Elevundersøkelsen</a></h3>
     </article>
   </div>
 ---

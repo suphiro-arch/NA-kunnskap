@@ -47,6 +47,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | `UDIR` | Utdanningsdirektoratet | Utdanningsdirektoratet | Nasjonale registre, kodeverk og dataressurser for barnehage og grunnopplæring |
 | `BUFDIR` | Bufdir | Barne-, ungdoms- og familiedirektoratet | Nasjonale registre og fagressurser for barnevern, oppvekst og familie |
 | `LANE` | Lånekassen | Statens lånekasse for utdanning | Utdanningsstøtteordninger og tilhørende ressurser forvaltet av Lånekassen |
+| `HKDIR` | HK-dir | Direktoratet for høyere utdanning og kompetanse | Nasjonale informasjons- og datatjenester for utdanning, yrke og karriereveiledning |
 
 ### Slik lages en ny eierkode
 
@@ -186,6 +187,8 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 |---:|---|---|---|---|---|---|
 | 151 | `UDIR-001` | Grep | Standarder og veiledning | Nasjonal database for fag, læreplaner og opplæringstilbud | Informasjonsarkitektur<br>Oversikt over begreper<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/normerende-ressurser/151-Grep-v1-claude.md) |
 | 152 | `UDIR-002` | Nasjonale registre for barnehage og grunnopplæring | Gjenbrukbare løsninger | Registerfamilie for barnehager, skoler, PP-tjenester, SFO og lærebedrifter | Grunndata<br>Dele data med andre<br>Åpne data | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/152-Nasjonale-registre-for-barnehage-og-grunnopplaering-v1-claude.md) |
+| 159 | `UDIR-003` | Grunnskolens informasjonssystem (GSI) | Gjenbrukbare løsninger | Nasjonal innrapporteringsløsning for grunnskolen | Grunndata<br>Bruke data fra andre<br>Dele data med andre<br>Tilgangsstyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/159-Grunnskolens-informasjonssystem-v1-claude.md) |
+| 160 | `UDIR-004` | Elevundersøkelsen | Gjenbrukbare løsninger | Nasjonal undersøkelse av elevenes skolemiljø | Grunndata<br>Dataanalyse<br>Autentisering<br>Sporbarhet og innsyn | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/160-Elevundersokelsen-v1-claude.md) |
 
 ## Bufdir (`BUFDIR`)
 
@@ -199,6 +202,12 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 | Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
 |---:|---|---|---|---|---|---|
 | 155 | `LANE-001` | Utdanningsstøtte fra Lånekassen | Økonomiske og juridiske rammer og virkemidler | Stipend- og låneordning for utdanning | Finansiering<br>Bruke data fra andre<br>Regelverkstolkning | [Åpne](../../arkitektur/ressurser/rammer-og-virkemidler/155-Utdanningsstotte-fra-Lanekassen-v1-claude.md) |
+
+## HK-dir (`HKDIR`)
+
+| Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
+|---:|---|---|---|---|---|---|
+| 158 | `HKDIR-001` | utdanning.no | Gjenbrukbare løsninger | Nasjonal nettportal for utdanning og yrke | Oversikt over begreper<br>Åpne data<br>Sammenstilling av data<br>Sammenhengende tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/158-utdanning-no-v1-claude.md) |
 
 ## Helsedirektoratet (`HDIR`)
 

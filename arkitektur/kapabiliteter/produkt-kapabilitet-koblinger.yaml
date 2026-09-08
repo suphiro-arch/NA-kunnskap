@@ -5394,6 +5394,156 @@
                     "explanation": "Innholdet og tjenestetilbudet utvikles gjennom DigiUng-samarbeidet på tvers av sektorer og forvaltningsnivåer."
                 }
             ]
+        },
+        {
+            "product_id": 158,
+            "product_name": "utdanning.no",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/158-utdanning-no-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/158-utdanning-no-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-dc38d2667240445db35f7f0f38fc1e15",
+                    "subcapability_name": "Oversikt over begreper",
+                    "subcapability_slug": "oversikt-over-begreper",
+                    "mapping_label": "Informasjonsforvaltning: Oversikt over begreper",
+                    "explanation": "Tjenesten forvalter et redaksjonelt begrepsapparat for yrker og utdanninger med persistente identifikatorer, klassifisert mot STYRK og NUS."
+                },
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-db4f30a87ae84561a4058d4d264177b1",
+                    "subcapability_name": "Åpne data",
+                    "subcapability_slug": "apne-data",
+                    "mapping_label": "Datakilder: Åpne data",
+                    "explanation": "Yrkes- og utdanningsbeskrivelsene er publisert som åpne data under NLOD, med dokumenterte API-er i Felles datakatalog."
+                },
+                {
+                    "capability_id": "id-98df6c2b4df340c7a3a3ad32d99ca37e",
+                    "capability_name": "Datadrevet",
+                    "capability_slug": "datadrevet",
+                    "subcapability_id": "id-7e3d1d3396914d65a177c9d5346d6feb",
+                    "subcapability_name": "Sammenstilling av data",
+                    "subcapability_slug": "sammenstilling-av-data",
+                    "mapping_label": "Datadrevet: Sammenstilling av data",
+                    "explanation": "Tjenesten kobler redaksjonelt innhold med arbeidsmarkedsdata, lønnsdata og opptaksdata, slik at et utdanningsvalg kan vurderes mot utfall."
+                },
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
+                    "subcapability_name": "Sammenhengende tjenester",
+                    "subcapability_slug": "sammenhengende-tjenester",
+                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                    "explanation": "Utdanningstilbud, opptakskrav, yrkesutfall og veiledning samles i én flate, uavhengig av hvilket organ som forvalter hvilken del."
+                }
+            ]
+        },
+        {
+            "product_id": 159,
+            "product_name": "Grunnskolens informasjonssystem (GSI)",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/159-Grunnskolens-informasjonssystem-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/159-Grunnskolens-informasjonssystem-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "Løsningen etablerer det autoritative datagrunnlaget om grunnskoleopplæringen, og skoleutvalget hentes fra Nasjonalt skoleregister."
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
+                    "subcapability_name": "Bruke data fra andre",
+                    "subcapability_slug": "bruke-data-fra-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+                    "explanation": "Løsningen henter skoleopplysninger fra NSR og tar imot filimport fra skoleadministrative systemer framfor å kreve manuell registrering."
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Innsamlede data publiseres videre gjennom Statistikkbanken og brukes av skoleeiere, statsforvaltere, direktorat og departement."
+                },
+                {
+                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
+                    "capability_name": "Tillit",
+                    "capability_slug": "tillit",
+                    "subcapability_id": "id-b440252bc3de42dea8468be54e54b1fa",
+                    "subcapability_name": "Tilgangsstyring",
+                    "subcapability_slug": "tilgangsstyring",
+                    "mapping_label": "Tillit: Tilgangsstyring",
+                    "explanation": "Tilgang til rapportering gis gjennom Altinn, med en egen rettighet som skoleeier må delegere til de som skal rapportere."
+                }
+            ]
+        },
+        {
+            "product_id": 160,
+            "product_name": "Elevundersøkelsen",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/160-Elevundersokelsen-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/160-Elevundersokelsen-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "Undersøkelsen etablerer det nasjonale datagrunnlaget om elevenes opplevelse av skolemiljøet, som ikke finnes i noen registerkilde."
+                },
+                {
+                    "capability_id": "id-98df6c2b4df340c7a3a3ad32d99ca37e",
+                    "capability_name": "Datadrevet",
+                    "capability_slug": "datadrevet",
+                    "subcapability_id": "id-fa54a429cbd84db09da1b2b2165fc352",
+                    "subcapability_name": "Dataanalyse",
+                    "subcapability_slug": "dataanalyse",
+                    "mapping_label": "Datadrevet: Dataanalyse",
+                    "explanation": "Resultatene analyseres og publiseres årlig som statistikk og forskningsrapporter, og brukes i kvalitetsutvikling på skole-, eier- og nasjonalt nivå."
+                },
+                {
+                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
+                    "capability_name": "Tillit",
+                    "capability_slug": "tillit",
+                    "subcapability_id": "id-ec0afaac123d4f9e83889d9022a198c3",
+                    "subcapability_name": "Autentisering",
+                    "subcapability_slug": "autentisering",
+                    "mapping_label": "Tillit: Autentisering",
+                    "explanation": "Administrasjonsløsningen bruker ID-porten og Feide, og elevpåloggingen skjer med Feide eller genererte engangsbrukere."
+                },
+                {
+                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
+                    "capability_name": "Tillit",
+                    "capability_slug": "tillit",
+                    "subcapability_id": "id-2dfe07b3eae740b9a292e0a4a42d22db",
+                    "subcapability_name": "Sporbarhet og innsyn",
+                    "subcapability_slug": "sporbarhet-og-innsyn",
+                    "mapping_label": "Tillit: Sporbarhet og innsyn",
+                    "explanation": "Resultatvisningen er innrettet slik at innsyn gis på aggregert nivå, med prikking som skal hindre gjenkjenning av enkeltelever."
+                }
+            ]
         }
     ],
     "capabilities": [
