@@ -179,6 +179,7 @@ Følg reglene under.
 
 **Gjenbruk og kildekode:**
 - Legg alltid inn et eget underpunkt `**Kildekode:**` i `Gjenbruk`-seksjonen
+- Legg også inn et eget felt `Lisens` når lisensen er kjent, slik at åpen kildekode kan utledes uten å tolke fri tekst
 - Bruk én av disse verdiene: `Åpen kildekode`, `Proprietær`, `Ikke offentlig dokumentert`
 - Hvis åpen kildekode: oppgi lisens (f.eks. MIT, Apache 2.0, EUPL) og lenke til repositorium (f.eks. GitHub)
 - Hvis proprietær eller ukjent: skriv `Ikke offentlig dokumentert` – ikke gjett

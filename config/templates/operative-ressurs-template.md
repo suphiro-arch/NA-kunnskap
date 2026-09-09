@@ -81,6 +81,10 @@ Sky (lokasjon), on-prem eller hybrid.
 Vurder gjenbruksvennlighet av API-er, standarder og lisensiering.
 Legg inn `Vanlige kombinasjoner med andre produkter` når dette gjør produktet lettere å bruke i arkitekturvurderinger.
 
+## Lisens
+Oppgi lisens for ressursen når den er kjent, for eksempel MIT, Apache 2.0 eller EUPL.
+Hvis lisensen ikke er offentlig dokumentert, skriv `Ikke offentlig dokumentert`.
+
 **Kildekode:** Bruk én av verdiene `Åpen kildekode`, `Proprietær` eller
 `Ikke offentlig dokumentert`, og skriv den først i feltet.
 Ved åpen kildekode skal lisens og lenke til repositorium oppgis.

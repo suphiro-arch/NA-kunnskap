@@ -16,7 +16,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/20-Altinn-Studio-produkt-canvas-v3-codex.md">Altinn Studio</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/20-Altinn-Studio-produkt-canvas-v4-claude.md">Altinn Studio</a></h3>
       <p class="capability-product-link__description">– Komponenter-bibliotek og mønstre for enkel gjenbruk</p>
     </article>
     <article class="capability-product-link resource-type--operative">
@@ -31,7 +31,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/118-Felles-designsystem-v2-codex.md">Felles designsystem</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/118-Felles-designsystem-v3-claude.md">Felles designsystem</a></h3>
       <p class="capability-product-link__description">Ressursen gjør frontend-byggesteiner gjenbrukbare gjennom felles kodepakker, komponenter og mønstre som kan brukes i mange ulike tjenester i stedet for å lages på nytt lokalt.</p>
     </article>
   </div>

@@ -20,6 +20,8 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
 
 ### Ressursarbeid
 
+- Følge opp malharmonisering for ressursbeskrivelser før skjema: gjennomgå rapporten i [2026-09-09-malanalyse-ressursbeskrivelser-status-og-tiltak-v1.md](./arbeidsstyring-og-handover/2026-09-09-malanalyse-ressursbeskrivelser-status-og-tiltak-v1.md) og avklare hvilke felt som skal standardiseres på tvers av kategoriene.
+
 - Vurdere EU-standardsporet for barn og unge, som eget spor foran den bredere batch 3. To kandidater
   er avklart nok til å planlegges, se [decisions.md](./decisions.md) 2026-09-08:
   - Aldersverifisering etter DSA artikkel 28, med Kommisjonens hvitmerkede løsning. Skal avklares
@@ -28,6 +30,14 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
   - European Learning Model og europeiske digitale kvalifikasjonsbevis. Skal avklares mot `Grep`,
     `VIGO Kodeverk` og `utdanning.no`, som i dag klassifiserer mot NUS og STYRK uten dokumentert
     mapping mot ESCO og ELM.
+- Gå gjennom de åtte norske oppføringene i DPG-registeret og avklare hvilke som treffer ressurser i
+  oversikten. `Altinn Studio` og `Designsystemet` er ført. Bekreftet uten å være vurdert ennå er
+  API-et til `Yr` og `SimpleAudit` fra Simula og SimulaMet. De øvrige oppføringene er ikke
+  identifisert i kildene, og listen må hentes fra registeret selv.
+- Vurdere `Digital Public Goods Alliance` som egen ressurs i det internasjonale sporet. Norge er
+  medstifter sammen med UNICEF, iSPIRT og Sierra Leones regjering, og DPG-standarden med sine ni
+  krav fungerer som et normerende rammeverk for gjenbrukbarhet. Hører i samme nivåavklaring som
+  resten av batch 3.
 - Koble minst én ressurs til delkapabiliteten `EU standarder`. Delkapabiliteten har i dag null
   koblede ressurser i `produkt-kapabilitet-koblinger.yaml`, mens `Forvaltningsstandarder` har mange.
 - Fullføre barn-og-unge-sporet med de gjenstående kandidatene: `Barnehagefakta` som mulig peker
@@ -39,7 +49,9 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
   `European Digital Identity Wallet`.
 - Avklare tre spørsmål før batch 3 kan gjennomføres:
   - Skal `Digital Europe Programme` og `OECD OPSI` registreres som egne ressurser, eller bare inngå
-    i en bredere ressurs?
+    i en bredere ressurs? For OPSI er ett grunnlag nå avklart: Digdir har rollen som nasjonalt
+    kontaktpunkt i nettverket, og Norge sluttet seg til OECDs erklæring om innovasjon i offentlig
+    sektor 22. mai 2019 sammen med 39 andre land.
   - Er `NOBID` en selvstendig ressurs eller først og fremst et prosjekt-/programspor?
   - For EU-nivå må det skilles tydelig mellom juridisk ramme, felles internasjonal infrastruktur,
     norsk implementering og norsk løsning, slik at registeret ikke får duplikater.
