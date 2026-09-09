@@ -16,7 +16,7 @@ Formål: Sikre lik, analysevennlig og beslutningsrelevant utfylling av ressursbe
 - Bruk `config/templates/normerende-ressurs-template.md`.
 - Lagres i `arkitektur/ressurser/normerende-ressurser/`.
 - Bruk løpenummer fra `arkitektur/ressurser/produktnummerering.md` først i filnavnet.
-- Bruk gjeldende filnavnmønster: `NN-Ressursnavn-vX-format.md` (f.eks. `72-FINT-Informasjonsmodell-v1-codex.md`).
+- Bruk gjeldende filnavnmønster: `NNN-<Ressursnavn>-vN-<forfatter>.md` (f.eks. `72-FINT-Informasjonsmodell-v2-claude.md`). `<forfatter>` er verktøyet eller personen som utfører kjøringen, og arves ikke fra forrige versjon.
 
 ### Trinn 3: Les eksisterende versjon (viktig)
 - Hvis ressursbeskrivelse allerede finnes: les siste versjon først.
@@ -102,22 +102,31 @@ Dette betyr at teksten må svare tydelig på:
 
 En `v1` skal være mer enn et arbeidsutkast og skal kunne brukes direkte i analyser.
 
+Feltnavnene under er malens overskrifter, skrevet ordrett. Bruk dem som de står, slik at instruks,
+mal og ressursfil beskriver samme felt med samme navn.
+
 **Feltene som må være substansielt utfylt:**
-- Navn, ressurs-ID, kategori, type og status
-- Kort beskrivelse
-- Formål/rolle eller mandat
-- Kapabiliteter med korte forklaringer
-- Målgruppe / hvem som skal bruke det
-- Bruksområde / når det bør brukes
-- Scope og avgrensning
-- Relasjon til andre ressurser
-- Forretningsverdi og arkitekturverdi
-- Lenker og kildegrunnlag
+- `Navn`, `Ressurs ID`, `Ressurskategori`, `Type standard eller veiledning` og `Status/Livsfase`
+- `Kort beskrivelse`
+- `Formål og normerende rolle`
+- `Kapabiliteter`, med korte forklaringer under hvert kanoniske navn
+- `Målgruppe og brukere`
+- `Normerende innhold`
+- `Bruksområde`
+- `Scope og avgrensning`
+- `Relasjon til andre ressurser`
+- `Forretningsverdi og arkitekturverdi`
+- `Lenke til dokumentasjon` og `Kildegrunnlag brukt i utfyllingen`
 
 **Analysekritiske felt som bør være fylt ut:**
 - `Forpliktelsesnivå og etterlevelse`
 - `Typiske analyse- og beslutningssituasjoner`
-- `Hva skjer hvis ressursen ikke brukes eller tolkes ulikt`
+- `Når ressursen normalt ikke er tilstrekkelig alene`
+- `Konsekvens ved manglende bruk eller avvik`
+- `Forvaltningsmodell`
+- `Utfordringer og risiko`
+- `Publiseringsform og tilgjengelighet`
+- `Støtter arkitekturprinsipper`
 
 **Anbefaling:**
 - Hvis kildegrunnlaget ikke er godt nok til dette nivået, bruk heller `v0.x` enn å kalle dokumentet `v1`.

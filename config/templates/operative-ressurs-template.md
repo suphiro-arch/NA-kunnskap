@@ -81,15 +81,24 @@ Sky (lokasjon), on-prem eller hybrid.
 Vurder gjenbruksvennlighet av API-er, standarder og lisensiering.
 Legg inn `Vanlige kombinasjoner med andre produkter` når dette gjør produktet lettere å bruke i arkitekturvurderinger.
 
-## Lisens
-Oppgi lisens for ressursen når den er kjent, for eksempel MIT, Apache 2.0 eller EUPL.
-Hvis lisensen ikke er offentlig dokumentert, skriv `Ikke offentlig dokumentert`.
+Avslutt seksjonen med kildekodefeltene under, i denne rekkefølgen og etter
+`Vanlige kombinasjoner med andre produkter`. De er merkede delfelt i `Gjenbruk`, ikke egne
+overskrifter, slik at de kan leses maskinelt uten å bli påkrevde seksjoner i hele kategorien.
 
-**Kildekode:** Bruk én av verdiene `Åpen kildekode`, `Proprietær` eller
-`Ikke offentlig dokumentert`, og skriv den først i feltet.
-Ved åpen kildekode skal lisens og lenke til repositorium oppgis.
-Er kildekodestatus ukjent, skriv `Ikke offentlig dokumentert` — ikke gjett.
-Feltet plasseres sist i `Gjenbruk`, etter `Vanlige kombinasjoner med andre produkter`.
+**Kildekode:** Status for kildekoden. Bruk én av verdiene `Åpen kildekode`, `Proprietær` eller
+`Ikke offentlig dokumentert`, og skriv den først i feltet. Er statusen ukjent, skriv
+`Ikke offentlig dokumentert` — ikke gjett.
+
+**Lisens:** Vilkårene koden er gjort tilgjengelig under. Bruk SPDX-identifikatoren når lisensen er
+kjent, for eksempel `MIT`, `Apache-2.0` eller `EUPL-1.2`. Skriv `Ikke relevant` når kildekoden er
+proprietær, og `Ikke offentlig dokumentert` når lisensen ikke er oppgitt eller ikke er funnet.
+Kontroller lisensen mot repositoriet selv, ikke mot omtale i tredjepartskilder.
+
+**Repositorium:** Lenke til repositoriet ved åpen kildekode. Utelates når kildekoden ikke er åpen.
+
+`Kildekode` og `Lisens` skal alltid være utfylt, og de er uavhengige av hverandre. `Åpen kildekode`
+sammen med `Ikke offentlig dokumentert` som lisens er et gyldig og meningsbærende funn: koden er
+publisert, men vilkårene er ikke oppgitt, og den kan derfor ikke trygt gjenbrukes.
 
 ## Støtter arkitekturprinsipper
 I hvilken grad støttes nasjonale arkitekturprinsipper?

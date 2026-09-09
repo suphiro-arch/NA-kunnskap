@@ -16,7 +16,7 @@ Formål: Sikre lik, analysevennlig og beslutningsrelevant utfylling av ressursbe
 - Bruk `config/templates/samarbeidsforum-template.md`.
 - Lagres i `arkitektur/ressurser/samarbeidsfora/`.
 - Bruk løpenummer fra `arkitektur/ressurser/produktnummerering.md` først i filnavnet.
-- Bruk gjeldende filnavnmønster: `NN-Forumsnavn-vX-format.md` (f.eks. `88-Arkitektur-og-standardiseringsradet-v0-codex.md`).
+- Bruk gjeldende filnavnmønster: `NNN-<Ressursnavn>-vN-<forfatter>.md` (f.eks. `163-DigiUng-v1-claude.md`). `<forfatter>` er verktøyet eller personen som utfører kjøringen, og arves ikke fra forrige versjon.
 
 ### Trinn 3: Les eksisterende versjon (viktig)
 - Hvis ressursbeskrivelse allerede finnes: les siste versjon først.
@@ -119,25 +119,33 @@ Dette betyr at teksten må svare tydelig på:
 
 En `v1` skal være mer enn et arbeidsutkast og skal kunne brukes direkte i analyser.
 
+Feltnavnene under er malens overskrifter, skrevet ordrett. Bruk dem som de står, slik at instruks,
+mal og ressursfil beskriver samme felt med samme navn.
+
 **Feltene som må være substansielt utfylt:**
-- Navn, ressurs-ID, kategori, type og status
-- Kort beskrivelse
-- Formål/rolle eller mandat
-- Deltakere / hvem som er med
-- Bruksområde / når det bør involveres
-- Scope og avgrensning
-- Grensesnitt mot andre fora
-- Relasjon til andre ressurser og fora
-- Forretningsverdi og arkitekturverdi
-- Lenker og kildegrunnlag
+- `Navn`, `Ressurs ID`, `Ressurskategori`, `Type arena eller forum` og `Status/Livsfase`
+- `Kort beskrivelse`
+- `Mandat og rolle`
+- `Kapabiliteter`, med korte forklaringer under hvert kanoniske navn
+- `Deltakere og målgruppe`
+- `Når forumet bør involveres`
+- `Scope og avgrensning`
+- `Grensesnitt mot andre fora`
+- `Relasjon til andre ressurser`
+- `Forretningsverdi og arkitekturverdi`
+- `Lenke til dokumentasjon` og `Kildegrunnlag brukt i utfyllingen`
 
 **Analysekritiske felt som bør være fylt ut:**
 - `Beslutningsmyndighet og forpliktelse`
 - `Hvilke ressurser forumet påvirker`
-- `Når forumet bør involveres`
 - `Typiske saker og leveranser`
-- `Grensesnitt mot andre fora`
+- `Arbeidsform og møtearena`
 - `Slik melder du inn en sak`
+- `Konsekvens ved manglende involvering eller svak forankring`
+- `Forvaltningsmodell`
+- `Utfordringer og risiko`
+- `Publiseringsform og tilgjengelighet`
+- `Støtter arkitekturprinsipper`
 
 **Anbefaling:**
 - Hvis kildegrunnlaget ikke er godt nok til dette nivået, bruk heller `v0.x` enn å kalle dokumentet `v1`.

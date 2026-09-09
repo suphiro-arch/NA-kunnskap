@@ -40,6 +40,34 @@ En ressursbeskrivelse skal normalt ikke merkes som `v1` hvis ett eller flere av 
 
 Hvis kildegrunnlaget ikke støtter dette nivået, behold dokumentet som `v0.x` til videre analyse er gjort.
 
+Feltnavnene under er malens overskrifter, skrevet ordrett. Bruk dem som de står, slik at instruks,
+mal og ressursfil beskriver samme felt med samme navn.
+
+**Feltene som må være substansielt utfylt:**
+- `Navn`, `Ressurs ID` og `Status/Livsfase`
+- `Modenhet`
+- `Kort beskrivelse`
+- `Kapabiliteter`, med forklaring av hvordan produktet bidrar per kanoniske kapabilitet
+- `Produktmål`
+- `Brukerbehov`
+- `Hvem er brukerne og brukersegmentene`
+- `Hovedfunksjoner`, med `Typiske brukssituasjoner (generisk)`, `Når <produktet> normalt ikke er førstevalg` og `Scope og avgrensning` som underseksjoner
+- `Forretningsverdi/Verdiforslag`
+- `Gjenbruk`, med `Vanlige kombinasjoner med andre produkter` og kildekodefeltene
+- `Forvaltning/eier`
+- `Lenke til dokumentasjon` og `Kildegrunnlag brukt i utfyllingen`
+
+**Analysekritiske felt som bør være fylt ut:**
+- `Utfordringer og risiko`
+- `Kanaler`
+- `Plattform`
+- `Veikart over kommende funksjonalitet`
+- `Finansiering`
+- `Støtter arkitekturprinsipper`
+
+Merk at `Scope og avgrensning` er en underseksjon av `Hovedfunksjoner` i denne kategorien, ikke en
+egen hovedseksjon som i de tre andre kategoriene.
+
 ### Trinn 3: Hent kilder (samme hver gang)
 1. Mal: `config/templates/operative-ressurs-template.md`
 2. Kapabiliteter: `arkitektur/kapabiliteter/capabilities.yaml` (kun navnene som finnes her)
@@ -56,7 +84,7 @@ Hvis kildegrunnlaget ikke støtter dette nivået, behold dokumentet som `v0.x` t
 Følg reglene under.
 
 ### Trinn 4A: Kontroller løsningsbredden (OBLIGATORISK)
-- Før du skriver `Kort beskrivelse`, `Hovedfunksjoner`, `Scope og avgrensning` og `Type ressurs` i produktregisteret, skal du eksplisitt kontrollere om produktet består av mer enn én bruksmåte eller leveranseflate.
+- Før du skriver `Kort beskrivelse`, `Hovedfunksjoner`, `Scope og avgrensning` og `Type`-kolonnen i `arkitektur/ressurser/produktnummerering.md`, skal du eksplisitt kontrollere om produktet består av mer enn én bruksmåte eller leveranseflate.
 - Sjekk alltid minst disse vinklene når kildene finnes:
   1. **Brukerflate:** portal, webflate, manuelt arbeidsløp, selvbetjent løsning
   2. **Integrasjonsflate:** API, hendelser, maskin-til-maskin, filutveksling
@@ -131,7 +159,7 @@ Følg reglene under.
 - Ta bare med kapabiliteter der koblingen er sterk og direkte dokumentert eller klart utledbar fra produktets egen funksjon
 - Ikke ta med kapabiliteter som bare berøres indirekte gjennom andre produkter, plattformer eller avhengigheter
 - Hvis du er i tvil om koblingen er sterk nok, skal kapabiliteten utelates
-- Ikke utled nye kapabiliteter bare fordi seksjoner som `Typiske brukssituasjoner`, `Når produktet normalt ikke er førstevalg` eller `Vanlige kombinasjoner med andre produkter` er lagt til. Disse seksjonene er beslutningsstøtte, ikke funksjonsutvidelse.
+- Ikke utled nye kapabiliteter bare fordi seksjoner som `Typiske brukssituasjoner`, `Når <produktet> normalt ikke er førstevalg` eller `Vanlige kombinasjoner med andre produkter` er lagt til. Disse seksjonene er beslutningsstøtte, ikke funksjonsutvidelse.
 - Hvis `Hovedfunksjoner` endres vesentlig, skal du eksplisitt kontrollere om kapabilitetsmappingen fortsatt er riktig. Endre bare mappingen når produktets faktiske funksjonelle rolle er blitt tydeligere eller dokumentert annerledes.
 - Format: `- **Tillit: Autentisering**` etterfulgt av forklaring i vanlig skrift på neste linje eller i samme punkt
 - Navnet på kapabiliteten skal være i fet skrift; forklaringen skal være i vanlig skrift
@@ -178,13 +206,16 @@ Følg reglene under.
 - Legg `Vanlige kombinasjoner med andre produkter` under `Gjenbruk`, ikke under `Hovedfunksjoner`, med mindre det finnes en særskilt grunn til å samle dette annerledes.
 
 **Gjenbruk og kildekode:**
-- Legg alltid inn et eget underpunkt `**Kildekode:**` i `Gjenbruk`-seksjonen
-- Legg også inn et eget felt `Lisens` når lisensen er kjent, slik at åpen kildekode kan utledes uten å tolke fri tekst
-- Bruk én av disse verdiene: `Åpen kildekode`, `Proprietær`, `Ikke offentlig dokumentert`
-- Hvis åpen kildekode: oppgi lisens (f.eks. MIT, Apache 2.0, EUPL) og lenke til repositorium (f.eks. GitHub)
-- Hvis proprietær eller ukjent: skriv `Ikke offentlig dokumentert` – ikke gjett
-- Åpen kildekode er relevant for vurdering av leverandøravhengighet, lokal tilpasning og gjenbruk i andre virksomheter
-- Legg kildekodeinformasjonen som siste underpunkt i `Gjenbruk`, etter `Vanlige kombinasjoner med andre produkter` hvis den seksjonen finnes
+- Legg alltid inn de merkede delfeltene `**Kildekode:**` og `**Lisens:**` i `Gjenbruk`-seksjonen, og `**Repositorium:**` når kildekoden er åpen
+- Bruk merkede delfelt, ikke egne overskrifter. Feltene skal kunne leses maskinelt uten å bli påkrevde seksjoner i hele kategorien
+- `Kildekode` er status og tar én av disse verdiene: `Åpen kildekode`, `Proprietær`, `Ikke offentlig dokumentert`
+- `Lisens` er vilkårene, og oppgis som SPDX-identifikator når lisensen er kjent, for eksempel `MIT`, `Apache-2.0`, `EUPL-1.2`
+- Skriv `Ikke relevant` som lisens når kildekoden er proprietær, og `Ikke offentlig dokumentert` når lisensen ikke er oppgitt eller ikke er funnet
+- Feltene er uavhengige: `Åpen kildekode` med lisens `Ikke offentlig dokumentert` er et gyldig funn og betyr at koden er publisert uten oppgitte vilkår
+- Er kildekodestatus ukjent, skriv `Ikke offentlig dokumentert` i begge feltene – ikke gjett
+- Kontroller lisensen mot repositoriet selv. Ved motstrid mellom repositoriet og en ekstern registeroppføring legges repositoriet til grunn, og avviket beskrives i teksten
+- Åpen kildekode og lisensvilkår er relevante for vurdering av leverandøravhengighet, lokal tilpasning og gjenbruk i andre virksomheter
+- Legg kildekodefeltene sist i `Gjenbruk`, etter `Vanlige kombinasjoner med andre produkter` hvis den seksjonen finnes
 
 **Risiko:**
 - Dekk minst: juridisk, teknisk, sikkerhet, leverandør, bruker-opplevelse
@@ -206,7 +237,7 @@ Følg reglene under.
 - Gi både kvalitative (bedre opplevelse) og kvantitative estimater (hvis mulig)
 - Koble til arkitekturprinsipper og nasjonale satsingsområder
 
-**Type ressurs og kort klassifisering i ressursregisteret:**
+**`Type`-kolonnen og kort klassifisering i `produktnummerering.md`:**
 - Klassifiseringen skal beskrive hele løsningen på riktig nivå, ikke bare ett teknisk grensesnitt.
 - Unngå å bruke `API-basert tjeneste` som hovedtype hvis produktet også har portal, manuelle arbeidsløp, kanalhåndtering eller annen operativ funksjon som er sentral for hva løsningen faktisk er.
 - Bruk heller formuleringer som beskriver løsningens rolle, for eksempel `utsendingstjeneste for digital og fysisk post`, `registertilgangstjeneste`, `plattform for samhandling` eller `portal for oppslag og innsending`.
@@ -241,17 +272,22 @@ Følg reglene under.
 ## Navngiving av filer
 
 ### Obligatorisk format for alle filer
-`NN-<Ressursnavn>-operative-ressurs-canvas-vX-<forfatter>.md`
+`NNN-<Ressursnavn>-vN-<forfatter>.md`
 
-- `NN` = løpenummer (to siffer)
-- `<Ressursnavn>` = kebab-case-navn
-- `vX` = versjonsnummer (`v1`, `v2`, `v3`, ...)
-- `<forfatter>` = hvem som opprettet filen (f.eks. `copilot`, `codex`, `hilros`, `manuel`)
+- `NNN` = løpenummer fra `arkitektur/ressurser/produktnummerering.md`
+- `<Ressursnavn>` = navn med bindestrek, i ren ASCII
+- `vN` = versjonsnummer (`v1`, `v2`, `v3`, ...)
+- `<forfatter>` = det verktøyet eller den personen som utførte kjøringen (f.eks. `claude`, `copilot`, `hilros`). Suffikset følger utførende verktøy i den aktuelle kjøringen, og arves ikke fra forrige versjon
 
 **Eksempler:**
-- `01-ID-porten-operative-ressurs-canvas-v1-copilot.md`
-- `01-ID-porten-operative-ressurs-canvas-v2-codex.md`
-- `21-Altinn-Portal-operative-ressurs-canvas-v3-manuel.md`
+- `161-BASIL-v1-claude.md`
+- `162-Barnehagefakta-v1-claude.md`
+
+Mønsteret håndheves mekanisk av `tools/check-resource-version-sync.py` og
+`tools/sync-resource-metadata.py`. Verktøyene godtar i tillegg det eldre mønsteret
+`NNN-<Ressursnavn>-produkt-canvas-vN-<forfatter>.md`, som mange eksisterende filer bruker. Ikke bruk
+det eldre mønsteret i nye filer, og ikke finn opp mellomformer som
+`-operative-ressurs-canvas-`, som ingen av verktøyene godtar.
 
 **Regler:**
 - Versjonsnummer og forfatter er **alltid obligatorisk** i filnavnet
