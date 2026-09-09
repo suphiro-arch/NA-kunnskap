@@ -13,6 +13,7 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Samhandl
       <label>Søk <input type="search" class="resource-filter" data-filter="search" placeholder="Navn, ID, kapabilitet" /></label>
       <label>Eier <select class="resource-filter" data-filter="owner"><option value="">Alle</option>
         <option value="DIGDIR">Digdir</option>
+        <option value="FLERE">Flere virksomheter</option>
       </select></label>
       <label>Type <select class="resource-filter" data-filter="type"><option value="">Alle</option>
         <option value="Samhandlingsarenaer og organisering">Samhandlingsarenaer og organisering</option>
@@ -23,12 +24,15 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Samhandl
         <option value="Datastyring">Datastyring</option>
         <option value="Dele data med andre">Dele data med andre</option>
         <option value="Forvaltningsstandarder">Forvaltningsstandarder</option>
+        <option value="Organisatorisk samhandling">Organisatorisk samhandling</option>
         <option value="Samarbeidsarenaer og nettverk">Samarbeidsarenaer og nettverk</option>
+        <option value="Sammenhengende tjenester">Sammenhengende tjenester</option>
         <option value="Samordning">Samordning</option>
         <option value="Sikring av informasjonsflyt og datautveksling">Sikring av informasjonsflyt og datautveksling</option>
+        <option value="Tjenestedesign">Tjenestedesign</option>
       </select></label>
     </div>
-    <p class="resource-filters__result" data-role="count">Viser 11 av 11 ressurser</p>
+    <p class="resource-filters__result" data-role="count">Viser 12 av 12 ressurser</p>
   </div>
   <div class="resource-cards">
 <article class="resource-card" data-owner="DIGDIR" data-type="Samhandlingsarenaer og organisering" data-capabilities="samarbeidsarenaer og nettverk forvaltningsstandarder arkitekturstyring" data-emne="Arkitekturr&#229;d" data-search="arkitektur- og standardiseringsr&#229;det digdir-028 digdir digdir samhandlingsarenaer og organisering samhandlingsarenaer og organisering arkitektur- og standardiseringsr&#229;det er en nasjonal samordningsarena der representanter fra digdir, sektordepartement, kommuner, fylkeskommuner og andre virksomheter dr&#248;fter felles arkitektur- og standardiseringssp&#248;rsm&#229;l for digital samhandling i offentlig sektor. r&#229;det sin rolle er &#229; gi anbefalinger, prioritere... samarbeidsarenaer og nettverk forvaltningsstandarder arkitekturstyring arkitekturr&#229;d">
@@ -129,6 +133,15 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Samhandl
   <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Kildene beskriver nettverket som et brukerdrevet samarbeid for erfaringsutveksling og gjensidig st&#248;tte til modenhetsutvikling innenfor PPP(P)-omr&#229;det.</p>
   <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/samarbeid/samarbeidsarenaer-og-nettverk/">Samarbeidsarenaer og nettverk</a> <a class="capability-chip" href="../../../kapabiliteter/strategisk-styring/samordning/">Samordning</a></div>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/143-PPP-P-nettverket-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digdir.no/prosjektstyring/nettverk-prosjekt-program-og-portefoljestyring/1428">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="FLERE" data-type="Samhandlingsarenaer og organisering" data-capabilities="organisatorisk samhandling samarbeidsarenaer og nettverk sammenhengende tjenester tjenestedesign" data-emne="Tverrsektorielt samarbeid om digitale tjenester for ungdom" data-search="digiung flere-006 flere flere virksomheter samhandlingsarenaer og organisering samhandlingsarenaer og organisering digiung er det tverrsektorielle samarbeidet som samler offentlige tjenester og informasjon for ungdom p&#229; `ung.no`. form&#229;let er at unge ikke skal m&#229;tte forholde seg til hver sektor i forvaltningen for seg, men m&#248;te et samlet tilbud i &#233;n flate. helsedirektoratet og bufdir deler eierskapet, og bufdir leder b&#229;de... organisatorisk samhandling samarbeidsarenaer og nettverk sammenhengende tjenester tjenestedesign tverrsektorielt samarbeid om digitale tjenester for ungdom">
+  <h2 class="resource-card__title">DigiUng</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>FLERE-006</code> | <strong>Siste versjon:</strong> v1 (claude)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> Flere virksomheter | <strong>Type:</strong> Samhandlingsarenaer og organisering</p>
+  <p class="resource-card__description">DigiUng er det tverrsektorielle samarbeidet som samler offentlige tjenester og informasjon for ungdom p&#229; `ung.no`. Form&#229;let er at unge ikke skal m&#229;tte forholde seg til hver sektor i forvaltningen for seg, men m&#248;te et samlet tilbud i &#233;n flate. Helsedirektoratet og Bufdir deler eierskapet, og Bufdir leder b&#229;de...</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Samarbeidet skal tilby ungdom sammenhengende informasjon og tjenester p&#229; tvers av sektorgrenser, styrke informasjonstilbudet for aldersgruppen 13 til 20 &#229;r, og — slik m&#229;lsettingen er formulert i...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/samarbeid/organisatorisk-samhandling/">Organisatorisk samhandling</a> <a class="capability-chip" href="../../../kapabiliteter/samarbeid/samarbeidsarenaer-og-nettverk/">Samarbeidsarenaer og nettverk</a> <a class="capability-chip" href="../../../kapabiliteter/sluttbrukertjenester/sammenhengende-tjenester/">Sammenhengende tjenester</a> <details class="capability-chip-disclosure"><summary class="capability-chip capability-chip--more" title="Vis/skjul flere kapabiliteter">+1</summary><span class="capability-chip-disclosure__items"> <a class="capability-chip" href="../../../kapabiliteter/tjenesteutvikling/tjenestedesign/">Tjenestedesign</a></span></details></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/163-DigiUng-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.digiung.no/">Offisiell lenke</a></p>
 </article>
   </div>
   <script>

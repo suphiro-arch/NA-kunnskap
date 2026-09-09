@@ -72,7 +72,8 @@ Beskriv status på ressursen, for eksempel:
 Ikke bruk dette feltet til å beskrive modenhet eller dokumentstatus.
 
 ## Kort beskrivelse
-Kort og selvstendig beskrivelse av hva ressursen er, hva den brukes til, og hvorfor den er viktig i arkitektur- og analysearbeid.
+Kort og selvstendig beskrivelse av hva ressursen er, hva den brukes til, og hvilken rolle den har i sitt eget domene.
+Ikke begrunn hvorfor ressursen er interessant for arkitekturarbeid, analysearbeid eller ressursoversikten. Se regelen i `AGENTS.md`.
 
 ## Formål og normerende rolle
 Beskriv:

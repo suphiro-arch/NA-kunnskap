@@ -3,7 +3,7 @@ title: "Juridisk samhandling"
 eyebrow: "Kapabilitet"
 weight: 11
 description: "Evne til å etablere, forvalte og formidle et helhetlig juridisk rammeverk som muliggjør og regulerer sikker og effektiv digital samhandling. ### 1. Begrunnelse (Hvorfor) Digital samhandling og datadeling på tvers av uavhengige virksomheter krever en trygg og felles juridisk grunnmur. Uten denne kapabiliteten vil uklarheter rundt lovlighet, personvern og deling av opplysninger skape usikkerhet, føre til unødig lange utredningsprosesser og i verste fall stanse utviklingen av tverrgående digitale tjenester fordi aktørene ikke har avklart om de har lov til å samhandle. ### 2. Hva det innebærer (Omfang) - **Juridisk (Svært høy vekt):** Dette utgjør selve kjernen i kapabiliteten. Det innebærer å foreslå, koordinere og harmonisere endringer i regelverket (regelverksutvikling) samt å tilby felles, autoritative tolkninger av eksisterende regelverk (regelverkstolkning). Det sikrer at det rettslige hjemmelsgrunnlaget for deling av data er på plass og i tråd med nasjonale lover og europeiske forordninger (som GDPR og eIDAS). - **Organisatorisk (Høy vekt):** Etablere tverrgående samarbeidsarenaer og nettverk mellom jurister, departementer og etater for å samordne forvaltningspraksis. Dette sikrer en koordinert tilnærming til rettslige problemstillinger og fjerner silobaserte tolkninger som hindrer samhandling. - **Semantisk (Middels vekt):** Oversette komplekse juridiske begreper, vilkår og lovtekster til en omforent forståelse, slik at lovens intensjon tolkes likt av saksbehandlere og virksomheter i hele økosystemet. - **Teknisk (Lav vekt):** Underbygge prinsippet om digitaliseringsvennlig regelverk, der lover og forskrifter utformes med tanke på at rettslige regler, plikter og rettigheter senere skal kunne omsettes til maskinlesbar logikk og automatiserte saksbehandlingsprosesser. ### 3. Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten rydder bort juridiske gråsoner og hindringer bak fasaden, slik at data lovlig kan flyte mellom uavhengige aktører i en tjenestekjede. For sluttbrukeren betyr dette en sømløs opplevelse der det offentlige kan samhandle på tvers av etater uten at brukeren selv må fungere som budbringer av attester, vedtak eller dokumentasjon."
-cardMeta: "2 delkapabiliteter / 7 produkter"
+cardMeta: "2 delkapabiliteter / 8 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -35,6 +35,10 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--policy">
       <p class="capability-product-link__type">Rammer og virkemidler</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/155-Utdanningsstotte-fra-Lanekassen-v1-claude.md">Utdanningsstøtte fra Lånekassen</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/164-Barnevernsfaglig-kvalitetssystem-v1-claude.md">Barnevernsfaglig kvalitetssystem (BFK)</a></h3>
     </article>
   </div>
 ---

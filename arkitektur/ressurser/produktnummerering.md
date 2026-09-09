@@ -189,6 +189,8 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 | 152 | `UDIR-002` | Nasjonale registre for barnehage og grunnopplæring | Gjenbrukbare løsninger | Registerfamilie for barnehager, skoler, PP-tjenester, SFO og lærebedrifter | Grunndata<br>Dele data med andre<br>Åpne data | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/152-Nasjonale-registre-for-barnehage-og-grunnopplaering-v1-claude.md) |
 | 159 | `UDIR-003` | Grunnskolens informasjonssystem (GSI) | Gjenbrukbare løsninger | Nasjonal innrapporteringsløsning for grunnskolen | Grunndata<br>Bruke data fra andre<br>Dele data med andre<br>Tilgangsstyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/159-Grunnskolens-informasjonssystem-v1-claude.md) |
 | 160 | `UDIR-004` | Elevundersøkelsen | Gjenbrukbare løsninger | Nasjonal undersøkelse av elevenes skolemiljø | Grunndata<br>Dataanalyse<br>Autentisering<br>Sporbarhet og innsyn | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/160-Elevundersokelsen-v1-claude.md) |
+| 161 | `UDIR-005` | BASIL | Gjenbrukbare løsninger | Nasjonal innrapporteringsløsning for barnehagesektoren | Grunndata<br>Dele data med andre<br>Tilgangsstyring<br>Representasjon | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/161-BASIL-v1-claude.md) |
+| 162 | `UDIR-006` | Barnehagefakta | Gjenbrukbare løsninger | Nøkkeltall om barnehager for foreldre | Sammenhengende tjenester<br>Visualisering<br>Åpne data<br>Sporbarhet og innsyn | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/162-Barnehagefakta-v1-claude.md) |
 
 ## Bufdir (`BUFDIR`)
 
@@ -196,6 +198,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 |---:|---|---|---|---|---|---|
 | 153 | `BUFDIR-001` | Barnevernsregisteret | Gjenbrukbare løsninger | Nasjonalt rapporteringsregister for kommunalt barnevern | Dele data med andre<br>Dataanalyse<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/153-Barnevernsregisteret-v1-claude.md) |
 | 157 | `BUFDIR-002` | ung.no | Gjenbrukbare løsninger | Statens informasjonskanal for ungdom | Sammenhengende tjenester<br>Utvikling og formidling av veiledning<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/157-ung-no-v1-claude.md) |
+| 164 | `BUFDIR-003` | Barnevernsfaglig kvalitetssystem (BFK) | Standarder og veiledning | Faglig og juridisk rammeverk for kommunalt barnevern | Oversikt over begreper<br>Forvaltningsstandarder<br>Åpne data<br>Utvikling og formidling av veiledning<br>Regelverkstolkning | [Åpne](../../arkitektur/ressurser/normerende-ressurser/164-Barnevernsfaglig-kvalitetssystem-v1-claude.md) |
 
 ## Lånekassen (`LANE`)
 
@@ -306,6 +309,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 | 141 | `FLERE-003` | Stimulab | Økonomiske og juridiske rammer og virkemidler | Stimuleringsordning / tilskudds- og utviklingsvirkemiddel | Innovasjon<br>Samordning<br>Tjenestedesign | [Åpne](../../arkitektur/ressurser/rammer-og-virkemidler/141-Stimulab-v1-copilot.md) |
 | 146 | `FLERE-004` | Nasjonal indeks for digital inkludering | Standarder og veiledning | Måleverktøy og kunnskapsgrunnlag | Dataanalyse<br>Samordning | [Åpne](../../arkitektur/ressurser/normerende-ressurser/146-Nasjonal-indeks-for-digital-inkludering-v1-claude.md) |
 | 156 | `FLERE-005` | DigiHelsestasjon | Gjenbrukbare løsninger | Digital dialog med helsestasjon og skolehelsetjeneste | Sammenhengende tjenester<br>Meldingsutveksling<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/156-DigiHelsestasjon-v1-claude.md) |
+| 163 | `FLERE-006` | DigiUng | Samhandlingsarenaer og organisering | Tverrsektorielt samarbeid om digitale tjenester for ungdom | Organisatorisk samhandling<br>Samarbeidsarenaer og nettverk<br>Sammenhengende tjenester<br>Tjenestedesign | [Åpne](../../arkitektur/ressurser/samarbeidsfora/163-DigiUng-v1-claude.md) |
 
 
 

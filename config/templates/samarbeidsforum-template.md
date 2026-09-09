@@ -82,7 +82,8 @@ Beskriv status på forumet, for eksempel:
 Ikke bruk dette feltet til å beskrive modenhet eller dokumentstatus.
 
 ## Kort beskrivelse
-Kort og selvstendig beskrivelse av hva forumet er, hvorfor det finnes, og hvorfor det er viktig i arkitektur- og analysearbeid.
+Kort og selvstendig beskrivelse av hva forumet er, hvorfor det finnes, og hvilken rolle det har i styring, samordning eller forankring.
+Ikke begrunn hvorfor forumet er interessant for arkitekturarbeid, analysearbeid eller ressursoversikten. Se regelen i `AGENTS.md`.
 
 ## Mandat og rolle
 Beskriv:

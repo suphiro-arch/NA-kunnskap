@@ -5544,6 +5544,216 @@
                     "explanation": "Resultatvisningen er innrettet slik at innsyn gis på aggregert nivå, med prikking som skal hindre gjenkjenning av enkeltelever."
                 }
             ]
+        },
+        {
+            "product_id": 161,
+            "product_name": "BASIL",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/161-BASIL-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/161-BASIL-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-3dbd3a9115cb4c54876490cbf02b0c58",
+                    "subcapability_name": "Grunndata",
+                    "subcapability_slug": "grunndata",
+                    "mapping_label": "Datakilder: Grunndata",
+                    "explanation": "Løsningen etablerer det autoritative datagrunnlaget om barnehagesektoren, som Statistisk sentralbyrå bruker til offisiell statistikk."
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Innsamlede data brukes videre i offisiell statistikk, i tilskuddsforvaltning og som kilde til nøkkeltallene på Barnehagefakta."
+                },
+                {
+                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
+                    "capability_name": "Tillit",
+                    "capability_slug": "tillit",
+                    "subcapability_id": "id-b440252bc3de42dea8468be54e54b1fa",
+                    "subcapability_name": "Tilgangsstyring",
+                    "subcapability_slug": "tilgangsstyring",
+                    "mapping_label": "Tillit: Tilgangsstyring",
+                    "explanation": "Pålogging skjer med ID-porten, og rettigheter må være delegert i Altinn for barnehage, barnehagemyndighet og statsforvalter."
+                },
+                {
+                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
+                    "capability_name": "Tillit",
+                    "capability_slug": "tillit",
+                    "subcapability_id": "id-b2aafe1f4c534db6b92c40b1eef605f2",
+                    "subcapability_name": "Representasjon",
+                    "subcapability_slug": "representasjon",
+                    "mapping_label": "Tillit: Representasjon",
+                    "explanation": "Løsningen skiller mellom å rapportere som barnehage, å godkjenne som kommunal barnehagemyndighet og å godkjenne som statsforvalter, med ulike rettigheter i hvert ledd."
+                }
+            ]
+        },
+        {
+            "product_id": 162,
+            "product_name": "Barnehagefakta",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/162-Barnehagefakta-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/162-Barnehagefakta-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
+                    "subcapability_name": "Sammenhengende tjenester",
+                    "subcapability_slug": "sammenhengende-tjenester",
+                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                    "explanation": "Tjenesten samler nøkkeltall om alle barnehager i én flate, uavhengig av om barnehagen er kommunal eller privat og hvilken kommune den ligger i."
+                },
+                {
+                    "capability_id": "id-98df6c2b4df340c7a3a3ad32d99ca37e",
+                    "capability_name": "Datadrevet",
+                    "capability_slug": "datadrevet",
+                    "subcapability_id": "id-8914d57f4f1442b1b562252a3630a686",
+                    "subcapability_name": "Visualisering",
+                    "subcapability_slug": "visualisering",
+                    "mapping_label": "Datadrevet: Visualisering",
+                    "explanation": "Nøkkeltallene presenteres med kartsøk, kommuneoversikt og mulighet for å sammenligne et utvalg barnehager mot hverandre."
+                },
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-db4f30a87ae84561a4058d4d264177b1",
+                    "subcapability_name": "Åpne data",
+                    "subcapability_slug": "apne-data",
+                    "mapping_label": "Datakilder: Åpne data",
+                    "explanation": "Datasettet bak tjenesten er beskrevet og publisert i Felles datakatalog."
+                },
+                {
+                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
+                    "capability_name": "Tillit",
+                    "capability_slug": "tillit",
+                    "subcapability_id": "id-2dfe07b3eae740b9a292e0a4a42d22db",
+                    "subcapability_name": "Sporbarhet og innsyn",
+                    "subcapability_slug": "sporbarhet-og-innsyn",
+                    "mapping_label": "Tillit: Sporbarhet og innsyn",
+                    "explanation": "Tjenesten gir foreldre innsyn i konkrete, kvalitetssikrede tall om den barnehagen barnet deres går i eller skal søke til."
+                }
+            ]
+        },
+        {
+            "product_id": 163,
+            "product_name": "DigiUng",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/samarbeidsfora/163-DigiUng-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/163-DigiUng-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
+                    "subcapability_name": "Organisatorisk samhandling",
+                    "subcapability_slug": "organisatorisk-samhandling",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "Samarbeidet er selve mekanismen som får virksomheter fra sju departementsområder til å levere inn i samme brukerflate."
+                },
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "subcapability_id": "id-b4a86e2e430c472b9f74bedb7f66fd74",
+                    "subcapability_name": "Samarbeidsarenaer og nettverk",
+                    "subcapability_slug": "samarbeidsarenaer-og-nettverk",
+                    "mapping_label": "Samarbeid: Samarbeidsarenaer og nettverk",
+                    "explanation": "Fageierforum og prosjektportefølje er de konkrete arenaene der deltakerne møtes og forpliktelsen etableres."
+                },
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
+                    "subcapability_name": "Sammenhengende tjenester",
+                    "subcapability_slug": "sammenhengende-tjenester",
+                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                    "explanation": "Formålet er at ungdom skal møte et samlet tilbud framfor å måtte kjenne forvaltningens ansvarsdeling."
+                },
+                {
+                    "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
+                    "capability_name": "Tjenesteutvikling",
+                    "capability_slug": "tjenesteutvikling",
+                    "subcapability_id": "id-379e167f7b9c4fbea9c6969425ba7f6c",
+                    "subcapability_name": "Tjenestedesign",
+                    "subcapability_slug": "tjenestedesign",
+                    "mapping_label": "Tjenesteutvikling: Tjenestedesign",
+                    "explanation": "Brukermedvirkning er et eget innsatsområde, og Digitaliseringsrådet omtaler det som kjernen i arbeidet."
+                }
+            ]
+        },
+        {
+            "product_id": 164,
+            "product_name": "Barnevernsfaglig kvalitetssystem (BFK)",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/164-Barnevernsfaglig-kvalitetssystem-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/164-Barnevernsfaglig-kvalitetssystem-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-dc38d2667240445db35f7f0f38fc1e15",
+                    "subcapability_name": "Oversikt over begreper",
+                    "subcapability_slug": "oversikt-over-begreper",
+                    "mapping_label": "Informasjonsforvaltning: Oversikt over begreper",
+                    "explanation": "Kunnskapsmodellen «Barnets behov i sentrum» gir en felles begrepsstruktur for hvordan barnets situasjon forstås og beskrives i barnevernssaker."
+                },
+                {
+                    "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
+                    "capability_name": "Standardisering",
+                    "capability_slug": "standardisering",
+                    "subcapability_id": "id-b99fcd8160d24e5f8ea3c17b15072f7a",
+                    "subcapability_name": "Forvaltningsstandarder",
+                    "subcapability_slug": "forvaltningsstandarder",
+                    "mapping_label": "Standardisering: Forvaltningsstandarder",
+                    "explanation": "Rammeverket er publisert som en versjonert, maskinlesbar standard som fagsystemleverandører implementerer."
+                },
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-db4f30a87ae84561a4058d4d264177b1",
+                    "subcapability_name": "Åpne data",
+                    "subcapability_slug": "apne-data",
+                    "mapping_label": "Datakilder: Åpne data",
+                    "explanation": "Innholdet er publisert i Felles datakatalog under norsk lisens for offentlige data, med versjonert distribusjon."
+                },
+                {
+                    "capability_id": "id-c0547226c598467a942dced879d0c18b",
+                    "capability_name": "Veiledning",
+                    "capability_slug": "veiledning",
+                    "subcapability_id": "id-0bfa29018e7144578b2184e70414b7e8",
+                    "subcapability_name": "Utvikling og formidling av veiledning",
+                    "subcapability_slug": "utvikling-og-formidling-av-veiledning",
+                    "mapping_label": "Veiledning: Utvikling og formidling av veiledning",
+                    "explanation": "Rammeverket er faglig og juridisk veiledning, formidlet gjennom fagsystemet framfor gjennom et dokument."
+                },
+                {
+                    "capability_id": "id-299fc063873a4f278a1d3c0ac9480467",
+                    "capability_name": "Juridisk samhandling",
+                    "capability_slug": "juridisk-samhandling",
+                    "subcapability_id": "id-0209483504444508a40415aa6e3fc39c",
+                    "subcapability_name": "Regelverkstolkning",
+                    "subcapability_slug": "regelverkstolkning",
+                    "mapping_label": "Juridisk samhandling: Regelverkstolkning",
+                    "explanation": "Rammeverket omsetter barnevernsrettens krav til konkrete vurderingspunkter i saksforløpet."
+                }
+            ]
         }
     ],
     "capabilities": [

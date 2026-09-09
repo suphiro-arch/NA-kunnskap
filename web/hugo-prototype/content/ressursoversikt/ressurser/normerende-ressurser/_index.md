@@ -12,6 +12,7 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Standard
     <div class="resource-filters__row">
       <label>Søk <input type="search" class="resource-filter" data-filter="search" placeholder="Navn, ID, kapabilitet" /></label>
       <label>Eier <select class="resource-filter" data-filter="owner"><option value="">Alle</option>
+        <option value="BUFDIR">BUFDIR</option>
         <option value="DIGDIR">Digdir</option>
         <option value="DTIL">DTIL</option>
         <option value="FLERE">Flere virksomheter</option>
@@ -46,9 +47,10 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Standard
         <option value="Tjenestedesign">Tjenestedesign</option>
         <option value="Tjenestekjeder">Tjenestekjeder</option>
         <option value="Utvikling og formidling av veiledning">Utvikling og formidling av veiledning</option>
+        <option value="&#197;pne data">&#197;pne data</option>
       </select></label>
     </div>
-    <p class="resource-filters__result" data-role="count">Viser 29 av 29 ressurser</p>
+    <p class="resource-filters__result" data-role="count">Viser 30 av 30 ressurser</p>
   </div>
   <div class="resource-cards">
 <article class="resource-card" data-owner="NOVARI" data-type="Standarder og veiledning" data-capabilities="informasjonsarkitektur oversikt over informasjonsmodeller forvaltningsstandarder" data-emne="Informasjonsmodell" data-search="fint informasjonsmodell novari-003 novari novari standarder og veiledning standarder og veiledning fint informasjonsmodell er den felles semantiske og strukturelle modellen som beskriver hvilken informasjon fylkeskommunene kan utveksle gjennom fint-&#248;kosystemet. modellen gir et felles spr&#229;k for data p&#229; tvers av fylkeskommuner, fagsystemer og leverand&#248;rer, og er en sentral forutsetning for at fint felleskomponent,... informasjonsarkitektur oversikt over informasjonsmodeller forvaltningsstandarder informasjonsmodell">
@@ -311,6 +313,15 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Standard
   <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let er &#229; gi &#233;n autoritativ representasjon av l&#230;replanverket, slik at fag, l&#230;replaner og oppl&#230;ringstilbud kan refereres entydig p&#229; tvers av systemer og forvaltningsniv&#229;er.</p>
   <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/informasjonsforvaltning/informasjonsarkitektur/">Informasjonsarkitektur</a> <a class="capability-chip" href="../../../kapabiliteter/informasjonsforvaltning/oversikt-over-begreper/">Oversikt over begreper</a> <a class="capability-chip" href="../../../kapabiliteter/standardisering/forvaltningsstandarder/">Forvaltningsstandarder</a></div>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/151-Grep-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.udir.no/om-udir/data/kl06-grep/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="BUFDIR" data-type="Standarder og veiledning" data-capabilities="oversikt over begreper forvaltningsstandarder &#229;pne data utvikling og formidling av veiledning regelverkstolkning" data-emne="Faglig og juridisk rammeverk for kommunalt barnevern" data-search="barnevernsfaglig kvalitetssystem (bfk) bufdir-003 bufdir bufdir standarder og veiledning standarder og veiledning barnevernsfaglig kvalitetssystem er rammeverket som skal gi barnevernsfaglig og juridisk kvalitetsst&#248;tte til de kommunale barnevernstjenestenes arbeid med barnevernssaker. det dekker hele saksforl&#248;pet, fra bekymringsmelding til avslutning, med s&#230;rlig vekt p&#229; analyse, vurdering og beslutning. ressursen er ikke bare et... oversikt over begreper forvaltningsstandarder &#229;pne data utvikling og formidling av veiledning regelverkstolkning faglig og juridisk rammeverk for kommunalt barnevern">
+  <h2 class="resource-card__title">Barnevernsfaglig kvalitetssystem (BFK)</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>BUFDIR-003</code> | <strong>Siste versjon:</strong> v1 (claude)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> BUFDIR | <strong>Type:</strong> Standarder og veiledning</p>
+  <p class="resource-card__description">Barnevernsfaglig kvalitetssystem er rammeverket som skal gi barnevernsfaglig og juridisk kvalitetsst&#248;tte til de kommunale barnevernstjenestenes arbeid med barnevernssaker. Det dekker hele saksforl&#248;pet, fra bekymringsmelding til avslutning, med s&#230;rlig vekt p&#229; analyse, vurdering og beslutning. Ressursen er ikke bare et...</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let er &#229; bidra til likere og mer kvalitetssikret ut&#248;velse av barnevernsfaglig arbeid p&#229; tvers av landets kommunale barnevernstjenester. Rammeverket skal gi b&#229;de faglig og juridisk st&#248;tte i saker...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/informasjonsforvaltning/oversikt-over-begreper/">Oversikt over begreper</a> <a class="capability-chip" href="../../../kapabiliteter/standardisering/forvaltningsstandarder/">Forvaltningsstandarder</a> <a class="capability-chip" href="../../../kapabiliteter/datakilder/apne-data/">&#197;pne data</a> <details class="capability-chip-disclosure"><summary class="capability-chip capability-chip--more" title="Vis/skjul flere kapabiliteter">+2</summary><span class="capability-chip-disclosure__items"> <a class="capability-chip" href="../../../kapabiliteter/veiledning/utvikling-og-formidling-av-veiledning/">Utvikling og formidling av veiledning</a> <a class="capability-chip" href="../../../kapabiliteter/juridisk-samhandling/regelverkstolkning/">Regelverkstolkning</a></span></details></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/164-Barnevernsfaglig-kvalitetssystem-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.bufdir.no/fagstotte/barnevern-oppvekst/bfk/">Offisiell lenke</a></p>
 </article>
   </div>
   <script>
