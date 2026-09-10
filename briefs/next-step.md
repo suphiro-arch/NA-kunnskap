@@ -74,11 +74,6 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
   kontrollen som skulle fanget dem finnes fortsatt ikke. En mulig tilnærming er en ordliste over
   vanlige strippede former, eller en test på om en norsk tekstfil har mistenkelig få norske tegn
   i forhold til lengden.
-- Vurdere om `check-resource-structure.py` skal skille gjeldende versjoner fra erstattede i
-  oppsummeringen. Tallet er nå 46 advarsler i 41 filer, men bare én av filene er en gjeldende
-  versjon, og det avviket er et bevisst valg dokumentert i endringsloggen til
-  `120-Styringsradet-for-felleslosningene-v4-claude.md`. Slik tallet framstår nå, ser
-  strukturgjelden mye større ut enn den er, og reell gjeld blir vanskelig å se.
 - Vurdere et tredje nivå `valgfrie` per kategori i `check-resource-structure.py`, ved siden av
   `kjernefelt` (feil) og malens overskrifter (advarsel). Da kan et nytt felt legges inn uten å bli
   gjeld i hele kategorien før etterfyllingsrunden er kjørt.

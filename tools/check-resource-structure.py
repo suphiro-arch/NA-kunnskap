@@ -180,6 +180,20 @@ def malseksjoner(template_name: str) -> list[str]:
     return [h for h in headings if h not in MAL_INNLEDNING]
 
 
+def gjeldende_filnavn() -> set[str]:
+    """Filnavnene registeret peker på, altså gjeldende versjon av hver ressurs.
+
+    Registeret er autoritativt for hvilken versjon som gjelder, jf. beslutningen
+    om streng versjonspeking. Erstattede versjoner beholdes som historikk, og
+    avvik i dem er ikke gjeld som skal ryddes.
+    """
+    register = REPO_ROOT / "arkitektur" / "ressurser" / "produktnummerering.md"
+    if not register.exists():
+        return set()
+    tekst = register.read_text(encoding="utf-8")
+    return set(re.findall(r"([^/()\s]+\.md)\)", tekst))
+
+
 def changed_files() -> set[Path]:
     """Filer som er nye eller endret i arbeidskopien, sammenlignet med HEAD."""
     try:
@@ -326,14 +340,34 @@ def main() -> int:
 
     if advarsler_per_fil:
         antall = sum(len(v) for v in advarsler_per_fil.values())
+        gjeldende = gjeldende_filnavn()
+        aktive = [p for p in advarsler_per_fil if p.name in gjeldende]
+        historiske = [p for p in advarsler_per_fil if p.name not in gjeldende]
         print(
             "%d advarsler i %d filer (ufullstendige maler og avvikende overskrifter)."
             % (antall, len(advarsler_per_fil))
         )
+        if gjeldende:
+            print(
+                "  Av disse er %d %s og %d %s."
+                % (
+                    len(aktive),
+                    "gjeldende versjon" if len(aktive) == 1 else "gjeldende versjoner",
+                    len(historiske),
+                    "erstattet versjon" if len(historiske) == 1 else "erstattede versjoner",
+                )
+            )
+            if aktive:
+                print("  Reell strukturgjeld ligger i de gjeldende versjonene:")
+                for path in sorted(aktive):
+                    print("    %s" % path.relative_to(REPO_ROOT).as_posix())
+            else:
+                print("  Ingen gjeldende versjon har avvik. Resten er historikk.")
         if args.advarsler:
             print()
             for path in sorted(advarsler_per_fil):
-                print("%s" % path.relative_to(REPO_ROOT).as_posix())
+                merke = "" if path.name in gjeldende else "  [erstattet versjon]"
+                print("%s%s" % (path.relative_to(REPO_ROOT).as_posix(), merke))
                 for melding in advarsler_per_fil[path]:
                     print("  - %s" % melding)
                 print()
