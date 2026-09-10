@@ -1,4 +1,4 @@
-# Gjenbrukbar løsning-canvas mal (Markdown)
+# Mal for gjenbrukbare løsninger (Markdown)
 
 Kilde: konvertert fra `sources/Mal - Produkt canvas.docx`.
 

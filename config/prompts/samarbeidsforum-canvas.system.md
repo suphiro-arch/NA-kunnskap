@@ -1,4 +1,4 @@
-# Standardprompt: Samhandlingsarena og organisering-canvas
+# Standardprompt: Samhandlingsarenaer og organisering
 
 Formål: Sikre lik, analysevennlig og beslutningsrelevant utfylling av ressursbeskrivelser for samhandlingsarenaer og organisering (råd, nettverk, åpne digitale samhandlingsarenaer, nettfora, samordningsarenaer, roller og styringsarenaer, osv.).
 

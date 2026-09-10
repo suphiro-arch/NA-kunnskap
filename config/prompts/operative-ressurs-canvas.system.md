@@ -1,4 +1,4 @@
-# Standardprompt: Gjenbrukbar løsning-canvas
+# Standardprompt: Gjenbrukbare løsninger
 
 Formål: Sikre lik, detaljert og grundig utfylling av ressursbeskrivelser for gjenbrukbare løsninger som brukes i arkitekturvurderinger, analyser og gjenbruk.
 

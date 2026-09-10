@@ -1,4 +1,4 @@
-# Standardprompt: Rammer og virkemidler-canvas
+# Standardprompt: Økonomiske og juridiske rammer og virkemidler
 
 Formål: Sikre lik, analysevennlig og beslutningsrelevant utfylling av ressursbeskrivelser for økonomiske og juridiske rammer og virkemidler (forskrifter, rundskriv, finansieringsordninger, styringsmekanismer osv.).
 

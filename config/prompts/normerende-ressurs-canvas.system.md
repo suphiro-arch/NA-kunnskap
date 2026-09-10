@@ -1,4 +1,4 @@
-# Standardprompt: Standarder og veiledning-canvas
+# Standardprompt: Standarder og veiledning
 
 Formål: Sikre lik, analysevennlig og beslutningsrelevant utfylling av ressursbeskrivelser for standarder og veiledning (standarder, veiledere, referansearkitektur, informasjonsmodeller, rammeverk, osv.).
 

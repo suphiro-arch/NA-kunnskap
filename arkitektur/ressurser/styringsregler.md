@@ -241,6 +241,27 @@ Hvis svaret ikke er tydelig ja på minst fire av fem spørsmål, bør ressursen 
 - `config/templates/samarbeidsforum-template.md` brukes foreløpig for samhandlingsarenaer og organisering
 - `config/templates/okonomiske-og-juridiske-rammer-og-virkemidler-template.md` brukes for økonomiske og juridiske rammer og virkemidler
 
+### Tilgjengelige instrukser
+- `config/prompts/operative-ressurs-canvas.system.md` for gjenbrukbare løsninger
+- `config/prompts/normerende-ressurs-canvas.system.md` for standarder og veiledning
+- `config/prompts/samarbeidsforum-canvas.system.md` for samhandlingsarenaer og organisering
+- `config/prompts/okonomiske-og-juridiske-rammer-og-virkemidler-canvas.system.md` for økonomiske og juridiske rammer og virkemidler
+
+### Kategorinavn og kortformer
+Kategorinavnet er det samme i rammeverket, på nettstedet, i `Type`-kolonnen i
+`produktnummerering.md` og i feltet `Ressurskategori` i ressursfilene. Katalog- og filnavn bruker
+eldre ASCII-kortformer som ikke er avledet av kategorinavnet, og som beholdes fordi de er bygget
+inn i registeret, lenkene, generatorene og publiserte URL-er. Sammenhengen er:
+
+| Kategori | Katalog under `arkitektur/ressurser/` og på nettstedet | Mal og instruks |
+|---|---|---|
+| Gjenbrukbare løsninger | `operative-losninger-og-tjenester` | `operative-ressurs-*` |
+| Standarder og veiledning | `normerende-ressurser` | `normerende-ressurs-*` |
+| Samhandlingsarenaer og organisering | `samarbeidsfora` | `samarbeidsforum-*` |
+| Økonomiske og juridiske rammer og virkemidler | `rammer-og-virkemidler` | `okonomiske-og-juridiske-rammer-og-virkemidler-*` |
+
+Kortformene er ikke gyldige verdier i `Ressurskategori`. Der skal kategorinavnet stå ordrett.
+
 ## Første arbeidsklassifisering av omtalte ressurser
 | Ressurs | Primærkategori | Kommentar |
 |---|---|---|
