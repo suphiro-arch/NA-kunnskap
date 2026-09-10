@@ -20,16 +20,19 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
 
 ### Ressursarbeid
 
-- Fjerne selvrefererende formuleringer i to gjeldende filer utenfor samhandlingsarenaene:
-  `113-Prosjektveiviseren-v1-codex.md` («I analysearbeid er modellen nyttig fordi …») og
-  `73-VIGO-v2-codex.md` («Dette er viktig i analyser av gjenbruk og gap»). Den forrige
-  gjennomgangen fanget dem ikke, fordi søkemønsteret ikke dekket varianter med «analysearbeid» og
-  «i analyser av». Begge krever ny versjon, siden det er innholdsendring.
-- Fullføre innholdsrevisjonen av `Samhandlingsarenaer og organisering`. Fire av tolv gjeldende
-  filer er revidert. Gjenstår: `122-NIFS`, `123-DSOP-samarbeidet`,
-  `124-Felles-sikkerhet-i-forvaltningen`, `125-KI-Norge`, `139-Datalandsbyen` og
-  `143-PPP-P-nettverket`. Alle seks bruker faktiske prinsippnavn og har ingen pseudokilder, så
-  arbeidet er kildesjekk og merking framfor omskriving.
+- Fjerne selvrefererende formuleringer i tre gjeldende filer utenfor samhandlingsarenaene:
+  `113-Prosjektveiviseren-v1-codex.md` («I analysearbeid er modellen nyttig fordi …»),
+  `73-VIGO-v2-codex.md` («Dette er viktig i analyser av gjenbruk og gap») og
+  `150-Tilsyn-og-kontroll-universell-utforming-av-ikt-v1-claude.md` («For arkitektur- og
+  analysearbeid er ressursen viktig fordi …»). Alle tre krever ny versjon, siden det er
+  innholdsendring. Et bredt søk 2026-09-10 gav 39 treff i 32 gjeldende filer, men de fleste er
+  falske: der «analyse» viser til ressursens eget domene, som forskning på registerdata, er
+  formuleringen riktig og skal stå.
+- Velge neste kategori for innholdsrevisjon. `Samhandlingsarenaer og organisering` er ferdig: alle
+  tolv gjeldende filer er revidert mot kildene. `Standarder og veiledning` er den største
+  gjenstående kategorien med tretti gjeldende filer, og atten av dem er `v0`-filer som mangler
+  `Forpliktelsesnivå og etterlevelse`, `Typiske analyse- og beslutningssituasjoner` og
+  `Konsekvens ved manglende bruk eller avvik`.
 - Kjøre en strukturrevisjon av eksisterende ressursbeskrivelser mot de oppdaterte malene. Malene og
   instruksene er harmonisert, og navnegjelden i `Ressurskategori` og `Type ...` er ryddet i
   gjeldende versjoner. Det som gjenstår er å vurdere selve innholdet i eldre beskrivelser mot det

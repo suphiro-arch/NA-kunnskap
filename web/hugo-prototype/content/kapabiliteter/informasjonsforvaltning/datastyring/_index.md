@@ -96,7 +96,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/139-Datalandsbyen-v1-codex.md">Datalandsbyen</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/139-Datalandsbyen-v2-claude.md">Datalandsbyen</a></h3>
       <p class="capability-product-link__description">Datalandsbyen kan synliggjøre utfordringer med metadata, beskrivelser, ansvar og kvalitet, og dermed gi praksisnær innsikt til informasjonsforvaltning.</p>
     </article>
   </div>

@@ -570,6 +570,7 @@ Sist redigert: 2026-06-17.
 - Digitaliseringsrådets anbefalingsbrev, publisert arkiv: https://www.digdir.no/digitaliseringsradet/digitaliseringsradets-anbefalingsbrev/1785 (lagt til 2026-09-10)
 - Faglig arena for datadeling og informasjonsforvaltning: https://www.digdir.no/informasjonsforvaltning/faglig-arena-datadeling-og-informasjonsforvaltning/2120 (lagt til 2026-09-10)
 - Fagleg arena for informasjonsforvaltning og deling av data: https://www.digdir.no/datadeling/fagleg-arena-informasjonsforvaltning-og-deling-av-data/4266 (lagt til 2026-09-10)
+- Digdir lanserer nettsamfunnet Datalandsbyen: https://www.digdir.no/datadeling/digdir-lanserer-nettsamfunn-alle-som-vil-dele-data/2681 (lagt til 2026-09-10)
 - Skate-saker: https://www.digdir.no/skate/skate-saker/1269 (lagt til 2026-04-09)
 - Referansekatalogen for IT-standarder: https://www.digdir.no/standarder/referansekatalogen-it-standardar/1480 (oppdatert 2026-05-04)
 - Arbeidsmetodikk for referansekatalogen: https://www.digdir.no/standarder/arbeidsmetodikk-referansekatalogen/5622 (oppdatert 2026-05-04)
