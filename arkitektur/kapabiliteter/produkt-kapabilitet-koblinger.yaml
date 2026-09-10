@@ -2960,10 +2960,10 @@
         {
             "product_id": 86,
             "product_name": "Referansekatalogen for IT-standarder",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/86-Referansekatalogen-for-IT-standarder-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/86-Referansekatalogen-for-IT-standarder-v1-codex.md",
+            "version": 2,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/86-Referansekatalogen-for-IT-standarder-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/86-Referansekatalogen-for-IT-standarder-v2-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
@@ -2973,7 +2973,17 @@
                     "subcapability_name": "Forvaltningsstandarder",
                     "subcapability_slug": "forvaltningsstandarder",
                     "mapping_label": "Standardisering: Forvaltningsstandarder",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Referansekatalogen for IT-standarder basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Katalogen er selve mekanismen for å fastsette hvilke standarder som gjelder i norsk forvaltning, og på hvilket forpliktelsesnivå."
+                },
+                {
+                    "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
+                    "capability_name": "Standardisering",
+                    "capability_slug": "standardisering",
+                    "subcapability_id": "id-697145d3768b40d39f9463667b78f749",
+                    "subcapability_name": "EU standarder",
+                    "subcapability_slug": "eu-standarder",
+                    "mapping_label": "Standardisering: EU standarder",
+                    "explanation": "Flere av standardene i katalogen er internasjonale, og obligatoriske standarder må notifiseres til ESA før de kan fastsettes."
                 },
                 {
                     "capability_id": "id-896e4c1434604caa891b94bcce964720",
@@ -2983,7 +2993,17 @@
                     "subcapability_name": "Informasjonsarkitektur",
                     "subcapability_slug": "informasjonsarkitektur",
                     "mapping_label": "Informasjonsforvaltning: Informasjonsarkitektur",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Referansekatalogen for IT-standarder basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "Bruksområdene dekker blant annet beskrivelse av datasett og datatjenester, tegnsett og pekere til offentlige ressurser på nett, som er byggesteiner i informasjonsarkitekturen."
+                },
+                {
+                    "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
+                    "capability_name": "Strategisk styring",
+                    "capability_slug": "strategisk-styring",
+                    "subcapability_id": "id-dabf94e621f644ffa53ebb44dcc9ff79",
+                    "subcapability_name": "Arkitekturstyring",
+                    "subcapability_slug": "arkitekturstyring",
+                    "mapping_label": "Strategisk styring: Arkitekturstyring",
+                    "explanation": "Katalogen gir et felles grunnlag som virksomheter kan styre arkitekturvalg og anskaffelser mot."
                 }
             ]
         },

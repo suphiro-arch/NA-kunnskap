@@ -28,11 +28,18 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
   innholdsendring. Et bredt søk 2026-09-10 gav 39 treff i 32 gjeldende filer, men de fleste er
   falske: der «analyse» viser til ressursens eget domene, som forskning på registerdata, er
   formuleringen riktig og skal stå.
-- Velge neste kategori for innholdsrevisjon. `Samhandlingsarenaer og organisering` er ferdig: alle
-  tolv gjeldende filer er revidert mot kildene. `Standarder og veiledning` er den største
-  gjenstående kategorien med tretti gjeldende filer, og atten av dem er `v0`-filer som mangler
-  `Forpliktelsesnivå og etterlevelse`, `Typiske analyse- og beslutningssituasjoner` og
-  `Konsekvens ved manglende bruk eller avvik`.
+- Fullføre innholdsrevisjonen av `Standarder og veiledning`. Tretti gjeldende filer, hvorav én er
+  revidert. Kartleggingen 2026-09-10 viser at kategorien er i bedre stand enn ventet: alle tretti
+  har de tre analysekritiske feltene, ingen har pseudokilder, og alle bruker faktiske prinsippnavn
+  med riktig P-kode. Den reelle svakheten er tynt innhold og manglende merking av fakta og
+  deduksjon. Toogtyve av tretti filer har null merker.
+  Prioriter etter tynnhet. Disse seks er under 800 ord, mot en median på rundt 1550:
+  `106-Nasjonal-verktoykasse-for-deling-av-data` (726), `115-Digitaliseringsvennlig-regelverk`
+  (751), `104-Orden-i-eget-hus` (776), `99-Sjekkliste-for-sammenhengende-tjenester` (779),
+  `100-Kart-for-tjenestekjeder` (792) og `114-Klart-sprak` (797).
+  Merk at `99` og `104` ble forsøkt revidert 2026-09-10, men stoppet fordi kildene ikke lot seg
+  hente: sjekklista ligger bare som PDF bak `digdir.no/media/1850/download`, og
+  `orden-eget-hus/2717` gav 403. Begge må kildesjekkes på nytt før de kan fylles ut.
 - Kjøre en strukturrevisjon av eksisterende ressursbeskrivelser mot de oppdaterte malene. Malene og
   instruksene er harmonisert, og navnegjelden i `Ressurskategori` og `Type ...` er ryddet i
   gjeldende versjoner. Det som gjenstår er å vurdere selve innholdet i eldre beskrivelser mot det

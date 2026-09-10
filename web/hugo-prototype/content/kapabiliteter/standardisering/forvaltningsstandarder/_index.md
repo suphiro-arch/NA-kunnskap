@@ -66,8 +66,8 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/86-Referansekatalogen-for-IT-standarder-v1-codex.md">Referansekatalogen for IT-standarder</a></h3>
-      <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Referansekatalogen for IT-standarder basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/86-Referansekatalogen-for-IT-standarder-v2-claude.md">Referansekatalogen for IT-standarder</a></h3>
+      <p class="capability-product-link__description">Katalogen er selve mekanismen for å fastsette hvilke standarder som gjelder i norsk forvaltning, og på hvilket forpliktelsesnivå.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
