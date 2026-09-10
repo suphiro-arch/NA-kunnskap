@@ -7,7 +7,7 @@ Forskrift om IT-standarder i offentlig forvaltning
 DIGDIR-060
 
 ## Ressurskategori
-Økonomisk eller juridisk ramme og virkemiddel
+Økonomiske og juridiske rammer og virkemidler
 
 ## Type virkemiddel
 Forskrift

@@ -7,7 +7,7 @@ Digitaliseringsrundskrivet
 DIGDIR-044
 
 ## Ressurskategori
-Økonomisk eller juridisk ramme og virkemiddel
+Økonomiske og juridiske rammer og virkemidler
 
 ## Type virkemiddel
 Rundskriv

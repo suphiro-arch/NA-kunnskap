@@ -7,7 +7,7 @@ Felles informasjonsmodeller
 DIGDIR-069
 
 ## Ressurskategori
-Normerende ressurs
+Standarder og veiledning
 
 ## Type standard eller veiledning
 Prinsipper og modelleringsregler for informasjonsmodellering

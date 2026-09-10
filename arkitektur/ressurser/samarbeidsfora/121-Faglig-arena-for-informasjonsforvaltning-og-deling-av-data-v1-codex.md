@@ -7,9 +7,9 @@ Faglig arena for informasjonsforvaltning og deling av data
 DIGDIR-053
 
 ## Ressurskategori
-Samarbeidsforum
+Samhandlingsarenaer og organisering
 
-## Type forum
+## Type arena eller forum
 Faglig nettverk
 
 ## Status/Livsfase

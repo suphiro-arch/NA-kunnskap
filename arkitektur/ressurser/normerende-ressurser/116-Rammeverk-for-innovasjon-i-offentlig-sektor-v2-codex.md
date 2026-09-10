@@ -7,9 +7,9 @@ Rammeverk for innovasjon i offentlig sektor
 DIGDIR-048
 
 ## Ressurskategori
-Normerende ressurs
+Standarder og veiledning
 
-## Type normerende ressurs
+## Type standard eller veiledning
 Rammeverk
 
 ## Status/Livsfase

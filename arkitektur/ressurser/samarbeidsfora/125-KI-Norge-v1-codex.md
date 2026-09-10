@@ -7,9 +7,9 @@ KI Norge
 DIGDIR-057
 
 ## Ressurskategori
-Samarbeidsforum
+Samhandlingsarenaer og organisering
 
-## Type forum
+## Type arena eller forum
 Nasjonal arena for kunstig intelligens
 
 ## Status/Livsfase

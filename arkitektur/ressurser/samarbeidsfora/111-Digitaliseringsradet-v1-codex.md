@@ -7,9 +7,9 @@ Digitaliseringsrådet
 DIGDIR-043
 
 ## Ressurskategori
-Samarbeidsforum
+Samhandlingsarenaer og organisering
 
-## Type forum
+## Type arena eller forum
 Rådgivende arena
 
 ## Status/Livsfase

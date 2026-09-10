@@ -7,9 +7,9 @@ Arkitektur- og standardiseringsrådet
 DIGDIR-028
 
 ## Ressurskategori
-Samarbeidsforum
+Samhandlingsarenaer og organisering
 
-## Type forum
+## Type arena eller forum
 Arkitekturråd
 
 ## Status/Livsfase

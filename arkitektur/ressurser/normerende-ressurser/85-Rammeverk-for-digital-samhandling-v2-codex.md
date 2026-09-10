@@ -9,7 +9,7 @@ DIGDIR-025
 ## Ressurskategori
 Standarder og veiledning
 
-## Type normerende ressurs
+## Type standard eller veiledning
 Rammeverk
 
 ## Status/Livsfase

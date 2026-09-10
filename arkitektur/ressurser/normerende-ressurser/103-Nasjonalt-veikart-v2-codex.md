@@ -7,9 +7,9 @@ Nasjonalt veikart
 DIGDIR-035
 
 ## Ressurskategori
-Normerende ressurs
+Standarder og veiledning
 
-## Type normerende ressurs
+## Type standard eller veiledning
 Veikart
 
 ## Status/Livsfase

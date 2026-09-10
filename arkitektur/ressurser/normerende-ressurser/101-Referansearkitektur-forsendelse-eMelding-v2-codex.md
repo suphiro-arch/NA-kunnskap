@@ -7,9 +7,9 @@ Referansearkitektur forsendelse (eMelding)
 DIGDIR-033
 
 ## Ressurskategori
-Normerende ressurs
+Standarder og veiledning
 
-## Type normerende ressurs
+## Type standard eller veiledning
 Referansearkitektur
 
 ## Status/Livsfase

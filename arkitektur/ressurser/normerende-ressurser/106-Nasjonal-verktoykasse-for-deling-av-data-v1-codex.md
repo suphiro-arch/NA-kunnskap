@@ -7,9 +7,9 @@ Nasjonal verktøykasse for deling av data
 DIGDIR-038
 
 ## Ressurskategori
-Normerende ressurs
+Standarder og veiledning
 
-## Type normerende ressurs
+## Type standard eller veiledning
 Veileder
 
 ## Status/Livsfase

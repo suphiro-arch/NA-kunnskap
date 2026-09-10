@@ -82,7 +82,12 @@ Kanonisk ressurs-ID når dette er etablert.
 Hvis egen ID ikke er etablert ennå, skriv `Ikke fastsatt ennå`.
 
 ## Ressurskategori
-Økonomisk eller juridisk ramme og virkemiddel
+Økonomiske og juridiske rammer og virkemidler
+
+Bruk rammeverkskategorien ordrett, slik den står i `Type`-kolonnen i
+`arkitektur/ressurser/produktnummerering.md`. De fire gyldige verdiene er `Gjenbrukbare løsninger`,
+`Standarder og veiledning`, `Samhandlingsarenaer og organisering` og
+`Økonomiske og juridiske rammer og virkemidler`.
 
 ## Type virkemiddel
 For eksempel:

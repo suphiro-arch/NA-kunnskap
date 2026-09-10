@@ -7,9 +7,9 @@ Skate
 DIGDIR-042
 
 ## Ressurskategori
-Samarbeidsforum
+Samhandlingsarenaer og organisering
 
-## Type forum
+## Type arena eller forum
 Tverrsektoriell samordningsarena
 
 ## Status/Livsfase

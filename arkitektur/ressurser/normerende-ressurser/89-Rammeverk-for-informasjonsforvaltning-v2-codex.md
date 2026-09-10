@@ -7,9 +7,9 @@ Rammeverk for informasjonsforvaltning
 DIGDIR-029
 
 ## Ressurskategori
-Normerende ressurs
+Standarder og veiledning
 
-## Type normerende ressurs
+## Type standard eller veiledning
 Rammeverk
 
 ## Status/Livsfase

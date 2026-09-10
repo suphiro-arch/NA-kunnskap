@@ -9,7 +9,7 @@ DIGDIR-030
 ## Ressurskategori
 Standarder og veiledning
 
-## Type normerende ressurs
+## Type standard eller veiledning
 Prinsipper
 
 ## Status/Livsfase

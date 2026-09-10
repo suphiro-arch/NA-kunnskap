@@ -7,9 +7,9 @@ NIFS
 DIGDIR-054
 
 ## Ressurskategori
-Samarbeidsforum
+Samhandlingsarenaer og organisering
 
-## Type forum
+## Type arena eller forum
 Nettverk for informasjonssikkerhet
 
 ## Status/Livsfase

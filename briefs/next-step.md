@@ -77,14 +77,10 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
 - Vurdere et tredje nivå `valgfrie` per kategori i `check-resource-structure.py`, ved siden av
   `kjernefelt` (feil) og malens overskrifter (advarsel). Da kan et nytt felt legges inn uten å bli
   gjeld i hele kategorien før etterfyllingsrunden er kjørt.
-- Harmonisere overskriften `Type ...` i `normerende-ressurser`. Tjuetre gjeldende filer bruker
-  `Type normerende ressurs`, mens malen og sju gjeldende filer bruker `Type standard eller
-  veiledning`, som er navnet som følger rammeverkskategorien. Kontrollen godtar begge i dag, så
-  dette er navnegjeld og ikke feil, men det må avklares før feltnavn låses i et skjema.
-- Harmonisere `Ressurskategori` og overskriften `Type ...` i eldre `samarbeidsfora`-filer. Ni filer
-  bruker fortsatt `Samarbeidsforum` og `Type forum`, mens nyere filer og malen bruker
-  rammeverkskategorien `Samhandlingsarenaer og organisering` og `Type arena eller forum`. Bør tas
-  for hele kategorien i én runde, ikke fil for fil.
+- Vurdere om `Ressurskategori` skal legges til i den operative malen. Feltet finnes i de tre andre
+  kategoriene, men i ingen av de 127 operative filene. Kategorien er utledbar fra katalogen og fra
+  registeret, så dette er et skjemaspørsmål og ikke gjeld: enten skal feltet være i alle fire
+  kategorier, eller i ingen.
 
 Kandidater som er identifisert, men ikke vurdert ferdig:
 

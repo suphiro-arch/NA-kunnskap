@@ -7,7 +7,7 @@ Fremsyn
 DIGDIR-068
 
 ## Ressurskategori
-Normerende ressurs
+Standarder og veiledning
 
 ## Type standard eller veiledning
 Metode- og veiledningsressurs, med tilhørende rådgivningstilbud fra Digdir

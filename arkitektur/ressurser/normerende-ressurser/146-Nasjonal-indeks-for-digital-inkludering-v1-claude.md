@@ -7,7 +7,7 @@ Nasjonal indeks for digital inkludering (DI-indeks)
 FLERE-004
 
 ## Ressurskategori
-Normerende ressurs
+Standarder og veiledning
 
 ## Type standard eller veiledning
 Måleverktøy og kunnskapsgrunnlag

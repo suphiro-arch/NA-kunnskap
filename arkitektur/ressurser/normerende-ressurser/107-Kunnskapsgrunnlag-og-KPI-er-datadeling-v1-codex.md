@@ -7,9 +7,9 @@ Kunnskapsgrunnlag og KPI-er for datadeling
 DIGDIR-039
 
 ## Ressurskategori
-Normerende ressurs
+Standarder og veiledning
 
-## Type normerende ressurs
+## Type standard eller veiledning
 Kunnskapsgrunnlag
 
 ## Status/Livsfase

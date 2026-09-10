@@ -7,7 +7,7 @@ Stimulab
 FLERE-003
 
 ## Ressurskategori
-Økonomisk eller juridisk ramme og virkemiddel
+Økonomiske og juridiske rammer og virkemidler
 
 ## Type virkemiddel
 Stimuleringsordning / tilskudds- og utviklingsvirkemiddel

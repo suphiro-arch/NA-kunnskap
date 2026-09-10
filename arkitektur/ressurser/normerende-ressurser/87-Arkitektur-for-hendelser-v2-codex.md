@@ -9,7 +9,7 @@ DIGDIR-027
 ## Ressurskategori
 Standarder og veiledning
 
-## Type normerende ressurs
+## Type standard eller veiledning
 Referansearkitektur / beste praksis
 
 ## Status/Livsfase

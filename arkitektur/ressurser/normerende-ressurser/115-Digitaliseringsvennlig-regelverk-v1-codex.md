@@ -7,9 +7,9 @@ Digitaliseringsvennlig regelverk
 DIGDIR-047
 
 ## Ressurskategori
-Normerende ressurs
+Standarder og veiledning
 
-## Type normerende ressurs
+## Type standard eller veiledning
 Veileder
 
 ## Status/Livsfase

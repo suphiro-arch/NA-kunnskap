@@ -7,9 +7,9 @@ Felles sikkerhet i forvaltningen
 DIGDIR-056
 
 ## Ressurskategori
-Samarbeidsforum
+Samhandlingsarenaer og organisering
 
-## Type forum
+## Type arena eller forum
 Tverrsektorielt sikkerhetssamarbeid
 
 ## Status/Livsfase

@@ -7,7 +7,7 @@ Utdanningsstøtte fra Lånekassen
 LANE-001
 
 ## Ressurskategori
-Økonomisk eller juridisk ramme og virkemiddel
+Økonomiske og juridiske rammer og virkemidler
 
 ## Type virkemiddel
 Lovhjemlet stipend- og låneordning

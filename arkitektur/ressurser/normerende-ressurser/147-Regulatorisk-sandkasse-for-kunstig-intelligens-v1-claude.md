@@ -7,7 +7,7 @@ Datatilsynets regulatoriske sandkasse for kunstig intelligens
 DTIL-001
 
 ## Ressurskategori
-Normerende ressurs
+Standarder og veiledning
 
 ## Type standard eller veiledning
 Veiledningstjeneste med publiserte prosjektrapporter

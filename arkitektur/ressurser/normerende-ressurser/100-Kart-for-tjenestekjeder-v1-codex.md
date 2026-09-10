@@ -7,9 +7,9 @@ Kart for tjenestekjeder
 DIGDIR-032
 
 ## Ressurskategori
-Normerende ressurs
+Standarder og veiledning
 
-## Type normerende ressurs
+## Type standard eller veiledning
 Metodeverktøy
 
 ## Status/Livsfase

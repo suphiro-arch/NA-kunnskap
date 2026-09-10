@@ -7,7 +7,7 @@ VIGO Kodeverk og kodeverksbase
 NOVARI-007
 
 ## Ressurskategori
-Normerende ressurs
+Standarder og veiledning
 
 ## Type standard eller veiledning
 Kodeverk, med åpen kodeverksbase for oppslag

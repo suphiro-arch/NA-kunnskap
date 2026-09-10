@@ -7,9 +7,9 @@ DSOP-samarbeidet
 DIGDIR-055
 
 ## Ressurskategori
-Samarbeidsforum
+Samhandlingsarenaer og organisering
 
-## Type forum
+## Type arena eller forum
 Offentlig-privat samhandlingsarena
 
 ## Status/Livsfase

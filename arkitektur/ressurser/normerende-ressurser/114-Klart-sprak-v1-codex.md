@@ -7,9 +7,9 @@ Klart språk
 DIGDIR-046
 
 ## Ressurskategori
-Normerende ressurs
+Standarder og veiledning
 
-## Type normerende ressurs
+## Type standard eller veiledning
 Veileder
 
 ## Status/Livsfase

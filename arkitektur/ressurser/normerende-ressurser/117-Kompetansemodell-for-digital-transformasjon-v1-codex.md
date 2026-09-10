@@ -7,9 +7,9 @@ Kompetansemodell for digital transformasjon
 DIGDIR-049
 
 ## Ressurskategori
-Normerende ressurs
+Standarder og veiledning
 
-## Type normerende ressurs
+## Type standard eller veiledning
 Kompetansemodell
 
 ## Status/Livsfase

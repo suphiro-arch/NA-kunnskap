@@ -105,6 +105,11 @@ Hvis egen ID ikke er etablert ennå, skriv `Ikke fastsatt ennå`.
 ## Ressurskategori
 Samhandlingsarenaer og organisering
 
+Bruk rammeverkskategorien ordrett, slik den står i `Type`-kolonnen i
+`arkitektur/ressurser/produktnummerering.md`. De fire gyldige verdiene er `Gjenbrukbare løsninger`,
+`Standarder og veiledning`, `Samhandlingsarenaer og organisering` og
+`Økonomiske og juridiske rammer og virkemidler`.
+
 ## Type arena eller forum
 For eksempel:
 - styringsråd

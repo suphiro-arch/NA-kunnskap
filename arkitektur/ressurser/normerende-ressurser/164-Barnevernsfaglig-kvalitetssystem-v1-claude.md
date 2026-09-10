@@ -7,7 +7,7 @@ Barnevernsfaglig kvalitetssystem (BFK)
 BUFDIR-003
 
 ## Ressurskategori
-Normerende ressurs
+Standarder og veiledning
 
 ## Type standard eller veiledning
 Faglig og juridisk rammeverk med tilhørende maskinlesbart innhold, ment for implementering i barnevernets fagsystemer.

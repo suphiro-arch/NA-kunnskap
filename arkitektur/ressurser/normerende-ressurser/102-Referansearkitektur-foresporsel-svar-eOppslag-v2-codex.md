@@ -9,7 +9,7 @@ DIGDIR-034
 ## Ressurskategori
 Standarder og veiledning
 
-## Type normerende ressurs
+## Type standard eller veiledning
 Referansearkitektur
 
 ## Status/Livsfase

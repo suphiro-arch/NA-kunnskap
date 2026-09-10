@@ -7,9 +7,9 @@ FINT Informasjonsmodell
 NOVARI-003
 
 ## Ressurskategori
-Normerende ressurs
+Standarder og veiledning
 
-## Type normerende ressurs
+## Type standard eller veiledning
 Informasjonsmodell
 
 ## Forpliktelsesnivå og etterlevelse

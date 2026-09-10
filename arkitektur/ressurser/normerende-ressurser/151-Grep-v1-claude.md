@@ -7,7 +7,7 @@ Grep
 UDIR-001
 
 ## Ressurskategori
-Normerende ressurs
+Standarder og veiledning
 
 ## Type standard eller veiledning
 Nasjonal kodeverks- og læreplandatabase, tilgjengelig som API

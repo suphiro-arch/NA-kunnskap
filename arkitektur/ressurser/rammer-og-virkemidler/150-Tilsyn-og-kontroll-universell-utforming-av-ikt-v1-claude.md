@@ -7,7 +7,7 @@ Tilsyn og kontroll med regelverk for universell utforming av ikt
 DIGDIR-070
 
 ## Ressurskategori
-Økonomisk eller juridisk ramme og virkemiddel
+Økonomiske og juridiske rammer og virkemidler
 
 ## Type virkemiddel
 Tilsyns- og kontrollvirkemiddel med hjemmel i lov og forskrift
