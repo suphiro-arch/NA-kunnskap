@@ -241,7 +241,7 @@ Vurdering av svakheter og spenninger:
 - Nettkilde: https://samarbeid.digdir.no/ (samarbeidsportalen – rekontrollert direkte, v3)
 - Nettkilde: https://samarbeid.digdir.no/digital-postkasse/mandat-brukerradet-digdirs-digitale-felleslosninger/129 (mandat for brukerrådet, versjon 1.2 datert 19. februar 2020 – kontrollert 2026-09-04, v4)
 
-## Endringer fra forrige versjon (v3 → v4)
+## Endringer fra forrige versjon
 Avgrenset revisjon. Analysen og formuleringene fra `v3` er beholdt; endringene under er tillegg og rettinger.
 
 - **Grensesnitt mot andre fora:** Lagt til `Brukerrådet for Digdirs digitale fellesløsninger` som eget grensesnitt. Brukerrådet er den brede, åpne kundearenaen for samme portefølje, og skillet mot Styringsrådet var ikke beskrevet i tidligere versjoner. Kilden er brukerrådets publiserte mandat.

@@ -140,10 +140,19 @@ Følg reglene under.
   - "Sikker datautveksling med kryptering" (ikke "Secure data exchange with encryption")
 
 ### Håndtering av usikkerhet
-- Bruk `**Usikkert:**` kun når kilder ikke gir grunnlag
-- **Ikke** la usikkerhet være en unnskyldning for å hoppe over seksjonen
-- Prøvd derimot å **dedusere fra kontekst**: Hvis produktet er i produksjon, hvordan oppfyller det sine formål?
-- Eks.: "Status er ikke eksplisitt dokumentert, men ut fra at produktet er aktivt i bruk, vurderes det som i Produksjon"
+Skill aktivt mellom det som er bekreftet og det som er tolket. Bruk de samme tre merkene som malen,
+som delfelt i teksten og ikke som egne overskrifter:
+
+- `**Fakta:**` – bekreftet i åpne kilder eller i repoets egne kilder. Oppgi hvem som sier det
+- `**Deduksjon:**` – rimelig tolkning ut fra kjent kontekst. Skal kunne etterprøves, og skal ikke framstilles som bekreftet
+- `**Ikke offentlig dokumentert i denne arbeidsøkten:**` – forhold som ikke ble funnet i kildene. Si hva som mangler, ikke bare at noe mangler
+
+Regler for bruken:
+- **Ikke** la usikkerhet være en unnskyldning for å hoppe over seksjonen. Skriv det som er kjent, og merk resten
+- Prøv å **dedusere fra kontekst**: hvis produktet er i produksjon, hvordan oppfyller det sine formål?
+- Eks.: `**Deduksjon:** Status er ikke eksplisitt dokumentert, men ut fra at produktet er aktivt i bruk, vurderes det som i produksjon`
+- Merkene brukes særlig i `Status/Livsfase`, `Modenhet`, `Veikart over kommende funksjonalitet`, `Plattform` og `Forvaltning/eier`, der kildene ofte er ufullstendige
+- `**Usikkert:**` er en eldre variant som bare finnes i noen få filer. Ikke bruk den i nye tekster
 
 ### Spesifikke felt
 

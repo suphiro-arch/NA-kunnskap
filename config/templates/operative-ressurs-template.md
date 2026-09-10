@@ -13,8 +13,38 @@ Kilde: konvertert fra `sources/Mal - Produkt canvas.docx`.
 
 Hvis kildegrunnlaget ikke er godt nok for dette nivået, behold dokumentet som `v0.x`.
 
+## Merking av fakta, deduksjon og usikkerhet
+Skill aktivt mellom det som er bekreftet og det som er tolket. Bruk disse merkene som delfelt i
+teksten, ikke som egne overskrifter:
+
+- `**Fakta:**` — bekreftet i åpne kilder eller i repoets egne kilder. Oppgi hvem som sier det.
+- `**Deduksjon:**` — rimelig tolkning ut fra kjent kontekst. Skal kunne etterprøves av leseren, og
+  skal ikke framstilles som bekreftet.
+- `**Ikke offentlig dokumentert i denne arbeidsøkten:**` — forhold som ikke ble funnet i kildene.
+  Si hva som mangler, ikke bare at noe mangler.
+
+Merkene brukes særlig i `Status/Livsfase`, `Modenhet`, `Veikart over kommende funksjonalitet`,
+`Plattform` og `Forvaltning/eier`, der kildene ofte er ufullstendige. Usikkerhet er ikke en grunn til å
+hoppe over en seksjon: skriv det som er kjent, og merk resten.
+
+### Aksepterte seksjoner utenfor feltlista
+Noen seksjoner er i utstrakt bruk uten å stå i feltlista under. De er godtatt av
+`tools/check-resource-structure.py`, og skal skrives med disse navnene:
+
+- `Endringer fra forrige versjon` — obligatorisk i revisjoner, utelates i `v1`. Bruk dette navnet
+  uten versjonsnummer i parentes. `Endringer i denne revisjonen` finnes i noen eldre filer, men
+  skal ikke brukes i nye.
+- `Scope og avgrensning` — malen har denne som underseksjon av `Hovedfunksjoner`. Atten gjeldende
+  filer har løftet den til egen seksjon, og begge plasseringer er godtatt. Velg én per fil.
+
+
 ## Navn
 Det offisielle navnet på produktet eller løsningen.
+
+H1-tittelen øverst i fila er den korte visningstittelen, og skal følge filnavnet. Dette feltet er
+det offisielle navnet. De to kan avvike når det offisielle navnet er langt: `# BASIL` med
+`## Navn` satt til `BASIL — Barnehage-Statistikk-InnrapporteringsLøsning` er riktig bruk, ikke et
+avvik som skal rettes.
 
 ## Ressurs ID
 Kanonisk ressurs-ID fra `arkitektur/ressurser/produktnummerering.md`, for eksempel `DIGDIR-001`.
@@ -23,9 +53,18 @@ Ikke bruk bare internt løpenummer i dette feltet.
 ## Status/Livsfase
 Planlagt / Under utvikling / Pilot / Produksjon / Utfasing
 
+Skriv statusen først, i fet skrift, med en kort begrunnelse på samme linje. Følg opp med et
+`**Fakta:**`-avsnitt som viser hva statusen bygger på. Er statusen ikke eksplisitt dokumentert,
+utled den og merk avsnittet `**Deduksjon:**`.
+
 ## Modenhet
 Teknisk tilstand, teknologisk stabilitet og brukermodenhet.
 Vurder teknisk, organisatorisk, markedsmessig og regulatorisk modenhet.
+
+Skriv en samlet vurdering først, i fet skrift, og bygg den opp med punkter som hver kan spores til
+en kilde. Avslutt med et `**Deduksjon:**`-avsnitt som sier hva modenheten faktisk betyr for den som
+vurderer bruk, inkludert det svakeste leddet. En modenhetsvurdering uten et svakt punkt er sjelden
+etterprøvbar.
 
 ## Kort beskrivelse
 Kort om produktet sett fra et forretningsperspektiv.
@@ -40,6 +79,9 @@ Ta bare med kapabiliteter med sterk, direkte kobling til produktets egen funksjo
 
 ## Produktmål
 Strategiske og operative mål. Hva skal produktet oppnå?
+
+Skill mellom dokumenterte mål og mål som er utledet av kildene, og merk hvilke som er hva. Det gjør
+det mulig for leseren å se hva forvalteren selv har sagt, og hva som er vår tolkning.
 
 ## Brukerbehov
 Hvilket problem eller behov løser produktet?
@@ -69,13 +111,22 @@ Beskrivelse av kjent eller antatt veikart.
 Forretnings- og samfunnsverdi, inkludert brukeropplevd verdi.
 
 ## Utfordringer og risiko
-Juridisk, teknisk, sikkerhet, leverandoer- og brukerrisiko.
+Juridisk, teknisk, sikkerhet, leverandør- og brukerrisiko.
+
+Bruk tabell med kolonnene `Område | Risiko | Håndtering eller observasjon`. Vær konkret: en risiko
+som «integrasjonsrisiko» uten innhold er ikke beslutningsstøtte. Skriv `Uavklart` eller
+`Ikke offentlig dokumentert i denne arbeidsøkten` i håndteringskolonnen framfor å oppgi et tiltak
+kildene ikke viser.
 
 ## Kanaler
 Leveransekanaler og tilgjengelighet.
+Ta med om kanalen krever innlogging, hvilken påloggingsmekanisme som brukes, og om det finnes en
+maskinell kanal ved siden av brukerflaten.
 
 ## Plattform
 Sky (lokasjon), on-prem eller hybrid.
+Er dette ikke dokumentert i kildene, skriv `Ikke offentlig dokumentert i denne arbeidsøkten` og si
+hva som faktisk er kjent. Ikke utled skyleverandør eller driftsmodell fra indisier.
 
 ## Gjenbruk
 Vurder gjenbruksvennlighet av API-er, standarder og lisensiering.
@@ -104,11 +155,26 @@ publisert, men vilkårene er ikke oppgitt, og den kan derfor ikke trygt gjenbruk
 I hvilken grad støttes nasjonale arkitekturprinsipper?
 Bruk `arkitektur/prinsipper/principles.md` som kilde for prinsippnavn og koblinger.
 
+Skriv `- **PN: Prinsippnavn**` med forklaringen i vanlig skrift under, og si hvordan produktet
+faktisk støtter prinsippet. Bruk `Støttes delvis` når koblingen er reell men begrenset.
+
+Avslutt seksjonen med et avsnitt om spenning og begrensning: hvilke prinsipper produktet står i
+strid med eller bare delvis oppfyller, og hvorfor. Dette er den delen av seksjonen som gir mest
+beslutningsstøtte, og den skal ikke utelates fordi produktet framstår velfungerende.
+
 ## Finansiering
 Type finansiering for utvikling og drift.
+Skill mellom finansiering av utvikling og av drift når kildene gjør det, og mellom
+bevilgningsfinansiering, brukerbetaling og tjenesteeierfinansiering. Er modellen ikke dokumentert,
+skriv det framfor å beskrive den generelt.
 
 ## Forvaltning/eier
 Del opp i produktansvar, driftsansvar, budsjettansvar og styringsmodell.
+
+Bruk tabell med kolonnene `Ansvarsområde | Organisasjon / vurdering | Grunnlag`. Grunnlagskolonnen
+skal si hvor opplysningen kommer fra, slik at en leser kan etterprøve ansvarsfordelingen. Er et
+ansvar ukjent, ta raden med og skriv `Ikke offentlig dokumentert i denne arbeidsøkten` framfor å
+utelate raden.
 
 ## Lenke til dokumentasjon
 Hoveddokumentasjon, kom i gang, vilkår/pris (om relevant), status/drift.

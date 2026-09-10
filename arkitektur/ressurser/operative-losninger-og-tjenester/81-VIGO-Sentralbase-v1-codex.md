@@ -1,5 +1,8 @@
 # VIGO Sentralbase
 
+## Navn
+VIGO Sentralbase
+
 ## Ressurs ID
 NOVARI-006
 

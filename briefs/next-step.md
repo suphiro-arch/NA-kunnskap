@@ -31,9 +31,10 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
     `VIGO Kodeverk` og `utdanning.no`, som i dag klassifiserer mot NUS og STYRK uten dokumentert
     mapping mot ESCO og ELM.
 - Gå gjennom de åtte norske oppføringene i DPG-registeret og avklare hvilke som treffer ressurser i
-  oversikten. `Altinn Studio` og `Designsystemet` er ført. Bekreftet uten å være vurdert ennå er
-  API-et til `Yr` og `SimpleAudit` fra Simula og SimulaMet. De øvrige oppføringene er ikke
-  identifisert i kildene, og listen må hentes fra registeret selv.
+  oversikten. Alle de åtte er oppført i DPG Registry, så spørsmålet er opptak i NA-oversikten, ikke
+  om de eksisterer. `Altinn Studio` og `Designsystemet` er allerede ført. Bekreftet uten å være
+  vurdert ennå er API-et til `Yr` og `SimpleAudit` fra Simula og SimulaMet. De øvrige oppføringene
+  må vurderes direkte mot registeret og opptakskriteriene.
 - Vurdere `Digital Public Goods Alliance` som egen ressurs i det internasjonale sporet. Norge er
   medstifter sammen med UNICEF, iSPIRT og Sierra Leones regjering, og DPG-standarden med sine ni
   krav fungerer som et normerende rammeverk for gjenbrukbarhet. Hører i samme nivåavklaring som
@@ -73,6 +74,25 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
   kontrollen som skulle fanget dem finnes fortsatt ikke. En mulig tilnærming er en ordliste over
   vanlige strippede former, eller en test på om en norsk tekstfil har mistenkelig få norske tegn
   i forhold til lengden.
+- Vurdere om `check-resource-structure.py` skal skille gjeldende versjoner fra erstattede i
+  oppsummeringen. Tallet er nå 46 advarsler i 41 filer, men bare én av filene er en gjeldende
+  versjon, og det avviket er et bevisst valg dokumentert i endringsloggen til
+  `120-Styringsradet-for-felleslosningene-v4-claude.md`. Slik tallet framstår nå, ser
+  strukturgjelden mye større ut enn den er, og reell gjeld blir vanskelig å se.
+- Vurdere et tredje nivå `valgfrie` per kategori i `check-resource-structure.py`, ved siden av
+  `kjernefelt` (feil) og malens overskrifter (advarsel). Da kan et nytt felt legges inn uten å bli
+  gjeld i hele kategorien før etterfyllingsrunden er kjørt.
+- Rydde duplisert struktur i `120-Styringsradet-for-felleslosningene-v4-claude.md`. Fila har både
+  malens overskrifter og den eldre strukturen fra `v3` side om side: `Formål` ved siden av
+  `Mandat og rolle`, `Medlemssammensetning` og `Medlemmer` ved siden av `Deltakere og målgruppe`,
+  `Møtestruktur` ved siden av `Arbeidsform og møtearena`, og `Saker som behandles` ved siden av
+  `Typiske saker og leveranser`. Dubleringen oppsto da malseksjonene ble lagt til i `v4` uten at de
+  gamle ble slått sammen. Bør slås sammen i en `v5`, siden det er en innholdsomlegging og ikke en
+  ren defektretting.
+- Harmonisere overskriften `Type ...` i `normerende-ressurser`. Tjuetre gjeldende filer bruker
+  `Type normerende ressurs`, mens malen og sju gjeldende filer bruker `Type standard eller
+  veiledning`, som er navnet som følger rammeverkskategorien. Kontrollen godtar begge i dag, så
+  dette er navnegjeld og ikke feil, men det må avklares før feltnavn låses i et skjema.
 - Harmonisere `Ressurskategori` og overskriften `Type ...` i eldre `samarbeidsfora`-filer. Ni filer
   bruker fortsatt `Samarbeidsforum` og `Type forum`, mens nyere filer og malen bruker
   rammeverkskategorien `Samhandlingsarenaer og organisering` og `Type arena eller forum`. Bør tas

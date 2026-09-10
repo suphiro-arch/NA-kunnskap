@@ -156,13 +156,17 @@ AKSEPTERTE_TILLEGG = {
     "Scope og avgrensning",
 }
 
-# Innledende seksjoner i malfilene som er instruks til den som skriver, ikke
-# seksjoner som skal finnes i selve ressursfila.
+# Seksjoner i malfilene som er instruks til den som skriver, ikke seksjoner som
+# skal finnes i selve ressursfila. Kontrollen utleder de forventede seksjonene
+# fra malens overskrifter, så en ny instruksjonsseksjon i en mal må føres opp her.
+# Ellers blir den umiddelbart rapportert som manglende i hver fil i kategorien.
 MAL_INNLEDNING = {
     "Arbeidsregel for v0.1",
     "Forventning til v1",
     "Kort v1-sjekkliste",
     "Minstekrav for v1",
+    "Merking av fakta, deduksjon og usikkerhet",
+    "To typer arenaer i samme mal",
 }
 
 

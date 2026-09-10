@@ -50,8 +50,53 @@ Se også:
 - Er grensesnitt mot andre fora tydelig nok til å unngå feil bruk av forumet?
 - Er kapabilitetslisten skrevet med rene, kanoniske kapabilitetsnavn?
 
+## Merking av fakta, deduksjon og usikkerhet
+Skill aktivt mellom det som er bekreftet og det som er tolket. Bruk disse merkene som delfelt i
+teksten, ikke som egne overskrifter:
+
+- `**Fakta:**` — bekreftet i åpne kilder eller i repoets egne kilder. Oppgi hvem som sier det.
+- `**Deduksjon:**` — rimelig tolkning ut fra kjent kontekst. Skal kunne etterprøves av leseren, og
+  skal ikke framstilles som bekreftet.
+- `**Ikke offentlig dokumentert i denne arbeidsøkten:**` — forhold som ikke ble funnet i kildene.
+  Si hva som mangler, ikke bare at noe mangler.
+
+Merkene brukes særlig i `Status/Livsfase`, `Beslutningsmyndighet og forpliktelse`,
+`Arbeidsform og møtearena`, `Slik melder du inn en sak` og `Forvaltningsmodell`, der kildene ofte er
+ufullstendige. Usikkerhet er ikke en grunn til å
+hoppe over en seksjon: skriv det som er kjent, og merk resten.
+
+### Aksepterte seksjoner utenfor feltlista
+Noen seksjoner er i utstrakt bruk uten å stå i feltlista under. De er godtatt av
+`tools/check-resource-structure.py`, og skal skrives med disse navnene:
+
+- `Endringer fra forrige versjon` — obligatorisk i revisjoner, utelates i `v1`. Bruk dette navnet
+  uten versjonsnummer i parentes. `Endringer i denne revisjonen` finnes i noen eldre filer, men
+  skal ikke brukes i nye.
+
+
+## To typer arenaer i samme mal
+Kategorien rommer både formelle organer og åpne arenaer, og malen skal dekke begge uten at noen av
+dem må dikte opp felt de ikke har.
+
+- **Formelt organ**: råd, styringsråd, utvalg, fageierforum. Har vedtatt mandat, definert
+  medlemskap, møtesyklus og et sekretariat. Alle mandat- og deltakerfeltene skal normalt fylles ut.
+- **Åpen arena**: nettforum, fagfellesskap, lavterskelnettverk, praksisfellesskap. Har ofte ingen
+  vedtatt mandat, ingen fast medlemsliste og ingen møtesyklus. Da skal feltene beskrive hvordan
+  arenaen faktisk virker, ikke et formelt apparat den ikke har.
+
+Skriv `Ikke relevant for denne arenatypen` med én setning om hvorfor, framfor å presse inn en
+mandatformulering, en medlemsliste eller en møtesyklus som ikke finnes. En oppdiktet mandattekst er
+en verre feil enn et tomt felt, fordi den gir inntrykk av forpliktelse arenaen ikke har.
+
+Hvilken av de to typene arenaen er, skal framgå av `Type arena eller forum`.
+
 ## Navn
 Det offisielle navnet på samhandlingsarenaen, forumet eller organiseringsressursen.
+
+H1-tittelen øverst i fila er den korte visningstittelen, og skal følge filnavnet. Dette feltet er
+det offisielle navnet. De to kan avvike når det offisielle navnet er langt: `# BASIL` med
+`## Navn` satt til `BASIL — Barnehage-Statistikk-InnrapporteringsLøsning` er riktig bruk, ikke et
+avvik som skal rettes.
 
 ## Ressurs ID
 Kanonisk ressurs-ID når dette er etablert.
@@ -91,11 +136,20 @@ Beskriv:
 - hvilken rolle det har i styring, samordning eller forankring
 - om det er rådgivende, koordinerende, besluttende eller forankrende
 
+For en åpen arena uten vedtatt mandat: beskriv formålet arenaen faktisk fyller, og si eksplisitt at
+det ikke finnes et vedtatt mandat. Skill mellom det arenaen er ment å være og det den er i praksis
+når kildene viser forskjell.
+
 ## Beslutningsmyndighet og forpliktelse
 Beskriv eksplisitt:
-- om forumet kan fatte beslutninger, gi råd eller bare dele erfaringer
+- om forumet kan fatte beslutninger, gi råd, fasilitere dialog eller bare dele erfaringer
 - hvem som forventes å følge opp det som kommer ut av forumet
 - om føringer, anbefalinger eller beslutninger er bindende, styrende eller veiledende
+
+`Ingen beslutningsmyndighet` er et gyldig og informativt svar, og gjelder de fleste åpne arenaer.
+Det skal skrives eksplisitt framfor å utelates, fordi fravær av myndighet er nettopp det en leser
+trenger å vite før hen bringer en sak dit. Er myndigheten uavklart i kildene, skriv det, og ikke
+gjett i noen av retningene.
 
 ## Kapabiliteter
 Hvilke kapabiliteter i Nasjonal arkitektur støtter forumet direkte?
@@ -104,6 +158,9 @@ Bruk bare rene kapabilitetsnavn i listen. Legg forklaring i tilhørende tekst, i
 
 ## Deltakere og målgruppe
 Beskriv deltakerbildet eksplisitt i segmenter.
+For en åpen arena uten fast medlemskap: beskriv hvem arenaen er åpen for og hvem som faktisk
+deltar, framfor å konstruere en medlemsliste. Si om deltakelsen er personlig eller på vegne av en
+virksomhet, siden det avgjør hvor forpliktende innspill derfra er.
 Bruk gjerne tabell med:
 `Deltakersegment | Primært behov | Rolle i forumet | Kommentar`
 
@@ -119,6 +176,9 @@ Aktuelle vinkler:
 
 ## Arbeidsform og møtearena
 Beskriv hvordan forumet faktisk arbeider.
+For en åpen arena uten møtesyklus: beskriv kanalen arbeidet skjer i, og hvordan aktiviteten faktisk
+oppstår. En arena som lever i en kanal og ikke i møter, skal beskrives slik, ikke tvinges inn i en
+møtestruktur.
 
 Aktuelle vinkler:
 - møtesyklus
