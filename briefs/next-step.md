@@ -44,8 +44,6 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
   medstifter sammen med UNICEF, iSPIRT og Sierra Leones regjering, og DPG-standarden med sine ni
   krav fungerer som et normerende rammeverk for gjenbrukbarhet. Hører i samme nivåavklaring som
   resten av batch 3.
-- Koble minst én ressurs til delkapabiliteten `EU standarder`. Delkapabiliteten har i dag null
-  koblede ressurser i `produkt-kapabilitet-koblinger.yaml`, mens `Forvaltningsstandarder` har mange.
 - Fullføre barn-og-unge-sporet med de gjenstående kandidatene: `Barnehagefakta` som mulig peker
   under `UDIR-002` framfor egen ressurs, `DigiUng` som mulig samhandlingsarena, og
   `Barnevernsfaglig kvalitetssystem` som fortsatt er ubekreftet i kildene.
@@ -71,6 +69,12 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
 - Følge opp `DIGDIR-039`, `DIGDIR-040` og `DIGDIR-041` med vanlig kvalitetsrevisjon hvis de viser
   svak kildeforankring, tynn kapabilitetskobling eller ujevn beslutningsstøtte.
 - Vurdere `HELFO-001` KUHR, eller en egen avklaring av eier- og forvaltningslinjen for `HDIR-001`.
+- Få `sync-resource-metadata.py` til å oppdatere kapabilitetskoblinger for ressurser som allerede
+  finnes i mappingen. Verktøyet oppdaterer i dag navn, versjon, forfatter, sti og forklaringer, men
+  aldri selve koblingslista. Legger en revisjon til en ny kapabilitet, blir den stille ignorert, og
+  ressursen dukker aldri opp på den kapabilitetssiden. Oppdaget da `DIGDIR-028` fikk `EU standarder`
+  i `v2`. Midlertidig framgangsmåte er å slette produktet fra mappingen og kjøre `--apply` på nytt,
+  slik at det bygges opp igjen fra registeret og ressursfila.
 - Utvide tegnkodingskontrollene til å fange tegn som er strippet til ASCII, ikke bare mojibake i
   form av doble tegnsekvenser. Bakgrunnen er logget i [decisions.md](./decisions.md) 2026-09-04:
   to ressursfiler var systematisk strippet for `æ`, `ø` og `å` uten at

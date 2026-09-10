@@ -76,8 +76,8 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/88-Arkitektur-og-standardiseringsradet-v1-codex.md">Arkitektur- og standardiseringsrådet</a></h3>
-      <p class="capability-product-link__description">vurderer og anbefaler standarder og arkitekturmønstre som påvirker digital samhandling.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/88-Arkitektur-og-standardiseringsradet-v2-claude.md">Arkitektur- og standardiseringsrådet</a></h3>
+      <p class="capability-product-link__description">Rådet vurderer om en standard bør være obligatorisk, anbefalt eller til inspirasjon, og er det faglige leddet i saksgangen for Referansekatalogen.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>

@@ -3020,10 +3020,10 @@
         {
             "product_id": 88,
             "product_name": "Arkitektur- og standardiseringsrådet",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/samarbeidsfora/88-Arkitektur-og-standardiseringsradet-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/88-Arkitektur-og-standardiseringsradet-v1-codex.md",
+            "version": 2,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/samarbeidsfora/88-Arkitektur-og-standardiseringsradet-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/88-Arkitektur-og-standardiseringsradet-v2-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
@@ -3033,7 +3033,7 @@
                     "subcapability_name": "Samarbeidsarenaer og nettverk",
                     "subcapability_slug": "samarbeidsarenaer-og-nettverk",
                     "mapping_label": "Samarbeid: Samarbeidsarenaer og nettverk",
-                    "explanation": "er en fast arena for samordning av arkitektur- og standardiseringsspørsmål på tvers av offentlig sektor."
+                    "explanation": "Rådet er en fast, mandatfestet arena der stat, kommunesektor og standardiseringsmiljøer møtes om arkitektur og standarder."
                 },
                 {
                     "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
@@ -3043,7 +3043,17 @@
                     "subcapability_name": "Forvaltningsstandarder",
                     "subcapability_slug": "forvaltningsstandarder",
                     "mapping_label": "Standardisering: Forvaltningsstandarder",
-                    "explanation": "vurderer og anbefaler standarder og arkitekturmønstre som påvirker digital samhandling."
+                    "explanation": "Rådet vurderer om en standard bør være obligatorisk, anbefalt eller til inspirasjon, og er det faglige leddet i saksgangen for Referansekatalogen."
+                },
+                {
+                    "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
+                    "capability_name": "Standardisering",
+                    "capability_slug": "standardisering",
+                    "subcapability_id": "id-697145d3768b40d39f9463667b78f749",
+                    "subcapability_name": "EU standarder",
+                    "subcapability_slug": "eu-standarder",
+                    "mapping_label": "Standardisering: EU standarder",
+                    "explanation": "Mandatet pålegger rådet å følge utviklingstrekk internasjonalt, og vurderingene omfatter europeiske standarder. Obligatoriske standarder må i tillegg notifiseres til ESA før de kan fastsettes."
                 },
                 {
                     "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
@@ -3053,7 +3063,7 @@
                     "subcapability_name": "Arkitekturstyring",
                     "subcapability_slug": "arkitekturstyring",
                     "mapping_label": "Strategisk styring: Arkitekturstyring",
-                    "explanation": "gir råd og anbefalinger som brukes i overordnet arkitekturstyring og modenhetsvurdering."
+                    "explanation": "Rådet anbefaler prioriteringer for arkitektur- og standardiseringsarbeidet og vurderer arkitekturprodukter."
                 }
             ]
         },

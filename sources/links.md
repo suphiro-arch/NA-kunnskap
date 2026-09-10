@@ -569,6 +569,8 @@ Sist redigert: 2026-06-17.
 - Referansekatalogen for IT-standarder: https://www.digdir.no/standarder/referansekatalogen-it-standardar/1480 (oppdatert 2026-05-04)
 - Arbeidsmetodikk for referansekatalogen: https://www.digdir.no/standarder/arbeidsmetodikk-referansekatalogen/5622 (oppdatert 2026-05-04)
 - Arkitektur- og standardiseringsrådet: https://www.digdir.no/digitalisering-og-samordning/arkitektur-og-standardiseringsradet/3918
+- Mandat for Arkitektur- og standardiseringsrådet: https://www.digdir.no/digitalisering-og-samordning/mandat-arkitektur-og-standardiseringsradet/3974 (lagt til 2026-09-10)
+- Medlemmer i Arkitektur- og standardiseringsrådet: https://www.digdir.no/digitalisering-og-samordning/medlemmar-i-arkitektur-og-standardiseringsradet/3973 (lagt til 2026-09-10)
 
 ### EHF og Peppol
 - Elektronisk handelsformat (EHF): https://www.anskaffelser.no/hva-skal-du-kjope/fagsystemer-digitale-anskaffelser/elektronisk-handelsformat-ehf (lagt til 2026-03-18)
