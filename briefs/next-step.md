@@ -77,13 +77,6 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
 - Vurdere et tredje nivå `valgfrie` per kategori i `check-resource-structure.py`, ved siden av
   `kjernefelt` (feil) og malens overskrifter (advarsel). Da kan et nytt felt legges inn uten å bli
   gjeld i hele kategorien før etterfyllingsrunden er kjørt.
-- Rydde duplisert struktur i `120-Styringsradet-for-felleslosningene-v4-claude.md`. Fila har både
-  malens overskrifter og den eldre strukturen fra `v3` side om side: `Formål` ved siden av
-  `Mandat og rolle`, `Medlemssammensetning` og `Medlemmer` ved siden av `Deltakere og målgruppe`,
-  `Møtestruktur` ved siden av `Arbeidsform og møtearena`, og `Saker som behandles` ved siden av
-  `Typiske saker og leveranser`. Dubleringen oppsto da malseksjonene ble lagt til i `v4` uten at de
-  gamle ble slått sammen. Bør slås sammen i en `v5`, siden det er en innholdsomlegging og ikke en
-  ren defektretting.
 - Harmonisere overskriften `Type ...` i `normerende-ressurser`. Tjuetre gjeldende filer bruker
   `Type normerende ressurs`, mens malen og sju gjeldende filer bruker `Type standard eller
   veiledning`, som er navnet som følger rammeverkskategorien. Kontrollen godtar begge i dag, så

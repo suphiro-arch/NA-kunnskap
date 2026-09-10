@@ -3988,10 +3988,10 @@
         {
             "product_id": 120,
             "product_name": "Styringsråd for Digitaliseringsdirektoratets fellesløsninger",
-            "version": 4,
+            "version": 5,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v4-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v4-claude.md",
+            "relative_path": "arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v5-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v5-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
