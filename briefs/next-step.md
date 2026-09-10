@@ -20,7 +20,12 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
 
 ### Ressursarbeid
 
-- Følge opp malharmonisering for ressursbeskrivelser før skjema: gjennomgå rapporten i [2026-09-09-malanalyse-ressursbeskrivelser-status-og-tiltak-v1.md](./arbeidsstyring-og-handover/2026-09-09-malanalyse-ressursbeskrivelser-status-og-tiltak-v1.md) og avklare hvilke felt som skal standardiseres på tvers av kategoriene.
+- Kjøre en strukturrevisjon av eksisterende ressursbeskrivelser mot de oppdaterte malene. Malene og
+  instruksene er harmonisert, og navnegjelden i `Ressurskategori` og `Type ...` er ryddet i
+  gjeldende versjoner. Det som gjenstår er å vurdere selve innholdet i eldre beskrivelser mot det
+  hevede nivået i malen, særlig `Modenhet`, `Utfordringer og risiko`, `Forvaltning` og avsnittet om
+  spenning og begrensning i prinsippvurderingen. Dette er en innholdsjobb per fil, ikke en
+  mekanisk retting, og bør tas kategorivis.
 
 - Vurdere EU-standardsporet for barn og unge, som eget spor foran den bredere batch 3. To kandidater
   er avklart nok til å planlegges, se [decisions.md](./decisions.md) 2026-09-08:
