@@ -4,7 +4,7 @@ headerTitle: "Veiledning - Anvendelse av veiledning"
 eyebrow: "Kapabilitet"
 weight: 2
 description: "Evne til å tolke og benytte veiledere i prosjekter og tiltak. ### Begrunnelse (Hvorfor) Kapabiliteten sikrer at veiledningsmateriell faktisk blir brukt til å forstå og anvende felles anbefalinger, prinsipper, standarder og beste praksis i egne prosjekter og tiltak. Den løser behovet for å omsette veiledning fra generell kunnskap til praktiske valg i tjenesteutvikling, arkitekturarbeid og digital samhandling. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Bruke veiledning til å forstå hvordan relevant regelverk, føringer og krav bør anvendes i konkrete prosjekter og tiltak. - **Organisatorisk (Høy vekt):** Innarbeide bruk av veiledere i prosjektmetodikk, beslutningsprosesser, kvalitetssikring og gevinstarbeid, slik at anbefalingene faktisk påvirker gjennomføring. - **Semantisk (Middels vekt):** Tolke begreper, prinsipper, modeller og beskrivelser i veiledningsmateriellet likt, slik at prosjekter legger samme forståelse til grunn. - **Teknisk (Middels vekt):** Bruke tekniske veiledere, referansearkitekturer, standarder og samhandlingsmønstre som grunnlag for løsningsvalg, integrasjoner og teknisk utforming. ### Bidrag til sammenhengende tjenester og felles økosystem Anvendelse av veiledning bidrar til at prosjekter og tiltak bygger på samme kunnskapsgrunnlag og følger felles anbefalinger. Når veiledningsmateriell brukes aktivt i egne prosjekter, reduseres lokale avvik, ulik praksis og risikoen for løsninger som ikke passer inn i felles økosystem. Kapabiliteten styrker sammenhengende tjenester ved å gjøre det enklere for virksomheter å utvikle løsninger som følger felles prinsipper, standarder og samhandlingsmønstre. For sluttbrukeren gir dette mer konsistente og helhetlige digitale tjenester på tvers av virksomheter."
-cardMeta: "5 produkter"
+cardMeta: "6 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -28,6 +28,11 @@ productsMarkdown: |
       <p class="capability-product-link__type">Normerende ressurs</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v1-codex.md">Digitaliseringsvennlig regelverk</a></h3>
       <p class="capability-product-link__description">Ressursen brukes direkte i analyse- og utviklingsløp for å vurdere juridiske barrierer og forbedre beslutningsgrunnlaget tidlig i tiltaksgjennomføring.</p>
+    </article>
+    <article class="capability-product-link resource-type--forum">
+      <p class="capability-product-link__type">Samarbeidsforum</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/121-Faglig-arena-for-informasjonsforvaltning-og-deling-av-data-v2-claude.md">Faglig arena for datadeling og informasjonsforvaltning</a></h3>
+      <p class="capability-product-link__description">Deltakerne bringer erfaringer med å ta i bruk rammeverk, kataloger og standarder i praksis, og lærer av hverandres anvendelse.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>

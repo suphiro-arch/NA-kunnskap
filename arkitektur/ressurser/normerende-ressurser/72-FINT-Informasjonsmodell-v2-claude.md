@@ -32,7 +32,7 @@ Forpliktelsen gjelder bare innenfor FINT. Modellen har ingen status utenfor fylk
 
 Omleggingen er likevel ikke fullført: klientene i fylkeskommunene legges gradvis om fram mot oktober 2026, og testperioden løper parallelt for både HR- og utdanningsdomenet. Produksjonsdatoen ble utsatt én gang, fra 10. mars til 17. april 2026, etter at InSchool varslet forsinkelse i omleggingen av utdanningsressurser.
 
-**Konsekvens for analysebruk:** i perioden fram til oktober 2026 må det forventes at fylkeskommuner ligger på ulike versjoner. Versjonsforutsetningen bør avklares eksplisitt i konkrete integrasjonsvurderinger.
+**Konsekvens for bruk:** i perioden fram til oktober 2026 må det forventes at fylkeskommuner ligger på ulike versjoner. Versjonsforutsetningen bør avklares eksplisitt i konkrete integrasjonsvurderinger.
 
 ## Kort beskrivelse
 FINT Informasjonsmodell er den felles semantiske og strukturelle modellen som beskriver hvilken informasjon fylkeskommunene kan utveksle gjennom FINT-økosystemet. Modellen gir et felles språk for data på tvers av fylkeskommuner, fagsystemer og leverandører, og er en sentral forutsetning for at FINT Felleskomponent, FINT Arkiv og tilhørende integrasjoner kan fungere på en standardisert og leverandøruavhengig måte.

@@ -3,7 +3,7 @@ title: "Veiledning"
 eyebrow: "Kapabilitet"
 weight: 12
 description: "Evne til å sikre at veiledninger for digital samhandling utarbeides, formidles og benyttes. Dette innebærer: * Beskrivelser av beste praksis * Omforente prinsipper, mønstre og standarder for hvordan løsninger skal bygges for å fungere optimalt, sikkert og sammenhengende i det nasjonale økosystemet. * Referansearkitekturer * hva som er god faglig praksis * hvordan relevant regelverk skal tolkes * hvilke prioriteringer som er i samsvar med vedtatt politikk Veiledere kan ha ulik grad av styrke: * Bør benyttes: en sterk anbefaling/råd som vil gjelde de aller fleste. Denne er så klart faglig forankret at det sjelden er forsvarlig ikke å gjøre som anbefalt * Kan eller foreslår: en svak anbefaling/råd der ulike valg kan være riktig."
-cardMeta: "2 delkapabiliteter / 11 produkter"
+cardMeta: "2 delkapabiliteter / 12 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -27,6 +27,10 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v1-codex.md">Digitaliseringsvennlig regelverk</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--forum">
+      <p class="capability-product-link__type">Samarbeidsforum</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/121-Faglig-arena-for-informasjonsforvaltning-og-deling-av-data-v2-claude.md">Faglig arena for datadeling og informasjonsforvaltning</a></h3>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>

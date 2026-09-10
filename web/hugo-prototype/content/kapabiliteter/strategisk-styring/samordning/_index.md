@@ -26,8 +26,8 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/110-Skate-v1-codex.md">Skate</a></h3>
-      <p class="capability-product-link__description">bidrar til felles retning og prioritering i nasjonal digitalisering på tvers av sektorer.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/110-Skate-v2-claude.md">Skate</a></h3>
+      <p class="capability-product-link__description">Mandatet gir rådet ansvar for å utvikle og følge opp digitaliseringsstrategien og gi råd om tverrgående strategier.</p>
     </article>
     <article class="capability-product-link resource-type--policy">
       <p class="capability-product-link__type">Rammer og virkemidler</p>

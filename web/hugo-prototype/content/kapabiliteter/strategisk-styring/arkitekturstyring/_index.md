@@ -26,12 +26,12 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/110-Skate-v1-codex.md">Skate</a></h3>
-      <p class="capability-product-link__description">Skate støtter særlig kapabiliteter knyttet til samordning, strategisk retning og faste arenaer for samarbeid på tvers av virksomheter.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/110-Skate-v2-claude.md">Skate</a></h3>
+      <p class="capability-product-link__description">Retningen rådet anbefaler legger premisser for hvordan felles økosystem styres, uten at rådet fastsetter arkitekturkrav selv.</p>
     </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v1-codex.md">Digitaliseringsrådet</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v2-claude.md">Digitaliseringsrådet</a></h3>
       <p class="capability-product-link__description">Digitaliseringsrådet støtter særlig kapabiliteter knyttet til læring på tvers, rådgivende samspill og bedre strategisk styring av krevende digitaliseringstiltak.</p>
     </article>
     <article class="capability-product-link resource-type--normative">

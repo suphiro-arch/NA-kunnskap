@@ -20,6 +20,16 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
 
 ### Ressursarbeid
 
+- Fjerne selvrefererende formuleringer i to gjeldende filer utenfor samhandlingsarenaene:
+  `113-Prosjektveiviseren-v1-codex.md` («I analysearbeid er modellen nyttig fordi …») og
+  `73-VIGO-v2-codex.md` («Dette er viktig i analyser av gjenbruk og gap»). Den forrige
+  gjennomgangen fanget dem ikke, fordi søkemønsteret ikke dekket varianter med «analysearbeid» og
+  «i analyser av». Begge krever ny versjon, siden det er innholdsendring.
+- Fullføre innholdsrevisjonen av `Samhandlingsarenaer og organisering`. Fire av tolv gjeldende
+  filer er revidert. Gjenstår: `122-NIFS`, `123-DSOP-samarbeidet`,
+  `124-Felles-sikkerhet-i-forvaltningen`, `125-KI-Norge`, `139-Datalandsbyen` og
+  `143-PPP-P-nettverket`. Alle seks bruker faktiske prinsippnavn og har ingen pseudokilder, så
+  arbeidet er kildesjekk og merking framfor omskriving.
 - Kjøre en strukturrevisjon av eksisterende ressursbeskrivelser mot de oppdaterte malene. Malene og
   instruksene er harmonisert, og navnegjelden i `Ressurskategori` og `Type ...` er ryddet i
   gjeldende versjoner. Det som gjenstår er å vurdere selve innholdet i eldre beskrivelser mot det

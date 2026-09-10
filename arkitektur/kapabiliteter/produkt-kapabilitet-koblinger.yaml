@@ -3608,10 +3608,10 @@
         {
             "product_id": 110,
             "product_name": "Skate",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/samarbeidsfora/110-Skate-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/110-Skate-v1-codex.md",
+            "version": 2,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/samarbeidsfora/110-Skate-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/110-Skate-v2-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
@@ -3621,7 +3621,7 @@
                     "subcapability_name": "Samarbeidsarenaer og nettverk",
                     "subcapability_slug": "samarbeidsarenaer-og-nettverk",
                     "mapping_label": "Samarbeid: Samarbeidsarenaer og nettverk",
-                    "explanation": "er en fast tverrsektoriell samordningsarena for toppledere i offentlig sektor."
+                    "explanation": "Rådet er den faste, mandatfestede arenaen for samordning på toppledernivå på tvers av stat og kommunesektor."
                 },
                 {
                     "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
@@ -3631,7 +3631,17 @@
                     "subcapability_name": "Samordning",
                     "subcapability_slug": "samordning",
                     "mapping_label": "Strategisk styring: Samordning",
-                    "explanation": "bidrar til felles retning og prioritering i nasjonal digitalisering på tvers av sektorer."
+                    "explanation": "Mandatet gir rådet ansvar for å utvikle og følge opp digitaliseringsstrategien og gi råd om tverrgående strategier."
+                },
+                {
+                    "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
+                    "capability_name": "Strategisk styring",
+                    "capability_slug": "strategisk-styring",
+                    "subcapability_id": "id-ecdde89168314bfb94b6a6ac70a55bc7",
+                    "subcapability_name": "Finansiering",
+                    "subcapability_slug": "finansiering",
+                    "mapping_label": "Strategisk styring: Finansiering",
+                    "explanation": "Rådet skal anbefale styrings- og finansieringsmodeller for felles økosystem, og gi råd om tverrgående investeringer."
                 },
                 {
                     "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
@@ -3641,17 +3651,17 @@
                     "subcapability_name": "Arkitekturstyring",
                     "subcapability_slug": "arkitekturstyring",
                     "mapping_label": "Strategisk styring: Arkitekturstyring",
-                    "explanation": "Skate støtter særlig kapabiliteter knyttet til samordning, strategisk retning og faste arenaer for samarbeid på tvers av virksomheter."
+                    "explanation": "Retningen rådet anbefaler legger premisser for hvordan felles økosystem styres, uten at rådet fastsetter arkitekturkrav selv."
                 }
             ]
         },
         {
             "product_id": 111,
             "product_name": "Digitaliseringsrådet",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v1-codex.md",
+            "version": 2,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v2-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
@@ -3661,7 +3671,7 @@
                     "subcapability_name": "Samarbeidsarenaer og nettverk",
                     "subcapability_slug": "samarbeidsarenaer-og-nettverk",
                     "mapping_label": "Samarbeid: Samarbeidsarenaer og nettverk",
-                    "explanation": "er en rådgivende arena der virksomheter får erfaringsbasert læring og sparring på tvers."
+                    "explanation": "Foreløpig automatisk opprettet kobling for Digitaliseringsrådet basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
                 },
                 {
                     "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
@@ -4027,22 +4037,12 @@
         },
         {
             "product_id": 121,
-            "product_name": "Faglig arena for informasjonsforvaltning og deling av data",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/samarbeidsfora/121-Faglig-arena-for-informasjonsforvaltning-og-deling-av-data-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/121-Faglig-arena-for-informasjonsforvaltning-og-deling-av-data-v1-codex.md",
+            "product_name": "Faglig arena for datadeling og informasjonsforvaltning",
+            "version": 2,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/samarbeidsfora/121-Faglig-arena-for-informasjonsforvaltning-og-deling-av-data-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/121-Faglig-arena-for-informasjonsforvaltning-og-deling-av-data-v2-claude.md",
             "capabilities": [
-                {
-                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
-                    "capability_name": "Informasjonsforvaltning",
-                    "capability_slug": "informasjonsforvaltning",
-                    "subcapability_id": "id-5852d070415849fab42749cb488d984a",
-                    "subcapability_name": "Datastyring",
-                    "subcapability_slug": "datastyring",
-                    "mapping_label": "Informasjonsforvaltning: Datastyring",
-                    "explanation": "støtter erfaringsdeling og faglig samordning om hvordan informasjon og data bør forvaltes."
-                },
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
                     "capability_name": "Samarbeid",
@@ -4051,7 +4051,27 @@
                     "subcapability_name": "Samarbeidsarenaer og nettverk",
                     "subcapability_slug": "samarbeidsarenaer-og-nettverk",
                     "mapping_label": "Samarbeid: Samarbeidsarenaer og nettverk",
-                    "explanation": "fungerer som en åpen møteplass for dialog, innspill og koordinering på tvers av virksomheter."
+                    "explanation": "Ukentlig åpen arena på tvers av virksomheter og sektorer, uten krav om medlemskap."
+                },
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-5852d070415849fab42749cb488d984a",
+                    "subcapability_name": "Datastyring",
+                    "subcapability_slug": "datastyring",
+                    "mapping_label": "Informasjonsforvaltning: Datastyring",
+                    "explanation": "Temaene er forvaltning, deling og bruk av data, og arenaen er der praksis på dette feltet formes og deles."
+                },
+                {
+                    "capability_id": "id-c0547226c598467a942dced879d0c18b",
+                    "capability_name": "Veiledning",
+                    "capability_slug": "veiledning",
+                    "subcapability_id": "id-a601bb3d7b11478185903149965f7842",
+                    "subcapability_name": "Anvendelse av veiledning",
+                    "subcapability_slug": "anvendelse-av-veiledning",
+                    "mapping_label": "Veiledning: Anvendelse av veiledning",
+                    "explanation": "Deltakerne bringer erfaringer med å ta i bruk rammeverk, kataloger og standarder i praksis, og lærer av hverandres anvendelse."
                 }
             ]
         },
