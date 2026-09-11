@@ -141,7 +141,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v2-codex.md">VIGO</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v3-claude.md">VIGO</a></h3>
       <p class="capability-product-link__description">VIGO leverer data til internt og eksternt bruk, blant annet til Utdanningsdirektoratet og Statistisk sentralbyrå.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
@@ -161,8 +161,8 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v1-codex.md">Nasjonal verktøykasse for deling av data</a></h3>
-      <p class="capability-product-link__description">Verktøykassen gir konkrete steg og anbefalinger for å etablere datadeling som en varig praksis, og støtter derfor virksomheter som skal dele data med andre aktører.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v2-claude.md">Nasjonal verktøykasse for deling av data</a></h3>
+      <p class="capability-product-link__description">Veilederen er skrevet for rollen som datatilbyder, og beskriver hele løpet fra valg av distribusjonsform til drift av delingstjenesten.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>

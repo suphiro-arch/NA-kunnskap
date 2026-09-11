@@ -2694,10 +2694,10 @@
         {
             "product_id": 73,
             "product_name": "VIGO",
-            "version": 2,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v2-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v2-codex.md",
+            "version": 3,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v3-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v3-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
@@ -3498,10 +3498,10 @@
         {
             "product_id": 106,
             "product_name": "Nasjonal verktøykasse for deling av data",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v1-codex.md",
+            "version": 2,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v2-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
@@ -3511,7 +3511,17 @@
                     "subcapability_name": "Dele data med andre",
                     "subcapability_slug": "dele-data-med-andre",
                     "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "Verktøykassen gir konkrete steg og anbefalinger for å etablere datadeling som en varig praksis, og støtter derfor virksomheter som skal dele data med andre aktører."
+                    "explanation": "Veilederen er skrevet for rollen som datatilbyder, og beskriver hele løpet fra valg av distribusjonsform til drift av delingstjenesten."
+                },
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-3c6f94ba791a4aa298809ef3f46bdc87",
+                    "subcapability_name": "Oversikt over datasett",
+                    "subcapability_slug": "oversikt-over-datasett",
+                    "mapping_label": "Informasjonsforvaltning: Oversikt over datasett",
+                    "explanation": "Veilederen fastslår at offentlige virksomheter skal synliggjøre egne datasett og datatjenester på `data.norge.no` (`DIGDIR-014`), enten ved registrering direkte, gjennom Geonorge, eller ved å publisere en katalog som høstes."
                 },
                 {
                     "capability_id": "id-896e4c1434604caa891b94bcce964720",
@@ -3521,7 +3531,17 @@
                     "subcapability_name": "Datastyring",
                     "subcapability_slug": "datastyring",
                     "mapping_label": "Informasjonsforvaltning: Datastyring",
-                    "explanation": "Ressursen vektlegger dataoversikt, metadata, tilgangsnivåer og forvaltningsrutiner, og bidrar dermed til mer systematisk datastyring i virksomheter som tilbyr data."
+                    "explanation": "Veilederen stiller krav til hvilke opplysninger et datasett skal beskrives med, og til at beskrivelsene holdes oppdatert over tid."
+                },
+                {
+                    "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
+                    "capability_name": "Standardisering",
+                    "capability_slug": "standardisering",
+                    "subcapability_id": "id-b99fcd8160d24e5f8ea3c17b15072f7a",
+                    "subcapability_name": "Forvaltningsstandarder",
+                    "subcapability_slug": "forvaltningsstandarder",
+                    "mapping_label": "Standardisering: Forvaltningsstandarder",
+                    "explanation": "Veilederen peker på konkrete standarder for hvordan data og datatjenester skal tilbys og beskrives, blant annet OpenAPI Specification og GraphQL for datatjenester."
                 },
                 {
                     "capability_id": "id-c0547226c598467a942dced879d0c18b",
@@ -3738,10 +3758,10 @@
         {
             "product_id": 113,
             "product_name": "Prosjektveiviseren",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v1-codex.md",
+            "version": 2,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v2-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
@@ -5138,10 +5158,10 @@
         {
             "product_id": 150,
             "product_name": "Tilsyn og kontroll med regelverk for universell utforming av ikt",
-            "version": 1,
+            "version": 2,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/rammer-og-virkemidler/150-Tilsyn-og-kontroll-universell-utforming-av-ikt-v1-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/150-Tilsyn-og-kontroll-universell-utforming-av-ikt-v1-claude.md",
+            "relative_path": "arkitektur/ressurser/rammer-og-virkemidler/150-Tilsyn-og-kontroll-universell-utforming-av-ikt-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/150-Tilsyn-og-kontroll-universell-utforming-av-ikt-v2-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-299fc063873a4f278a1d3c0ac9480467",
@@ -11541,28 +11561,12 @@
                     "capability_slug": "veiledning"
                 },
                 {
-                    "product_id": 106,
-                    "product_name": "Nasjonal verktøykasse for deling av data",
-                    "version": 1,
-                    "author": "codex",
-                    "relative_path": "arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v1-codex.md",
-                    "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v1-codex.md",
-                    "mapping_label": "Veiledning: Utvikling og formidling av veiledning",
-                    "explanation": "Ressursen samler og formidler praktiske veiledere for virksomheter som skal etablere, beskrive og forvalte datadeling på en mer standardisert og samhandlingsorientert måte.",
-                    "subcapability_id": "id-0bfa29018e7144578b2184e70414b7e8",
-                    "subcapability_name": "Utvikling og formidling av veiledning",
-                    "subcapability_slug": "utvikling-og-formidling-av-veiledning",
-                    "capability_id": "id-c0547226c598467a942dced879d0c18b",
-                    "capability_name": "Veiledning",
-                    "capability_slug": "veiledning"
-                },
-                {
                     "product_id": 113,
                     "product_name": "Prosjektveiviseren",
-                    "version": 1,
-                    "author": "codex",
-                    "relative_path": "arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v1-codex.md",
-                    "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v1-codex.md",
+                    "version": 2,
+                    "author": "claude",
+                    "relative_path": "arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v2-claude.md",
+                    "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v2-claude.md",
                     "mapping_label": "Veiledning: Anvendelse av veiledning",
                     "explanation": "Ressursen er en generell metode- og veiledningsressurs som brukes for å strukturere analyse, planlegging og gjennomføring av samhandlingsnære digitaliseringstiltak.",
                     "subcapability_id": "id-a601bb3d7b11478185903149965f7842",
@@ -11643,22 +11647,6 @@
                             "capability_id": "id-c0547226c598467a942dced879d0c18b",
                             "capability_name": "Veiledning",
                             "capability_slug": "veiledning"
-                        },
-                        {
-                            "product_id": 106,
-                            "product_name": "Nasjonal verktøykasse for deling av data",
-                            "version": 1,
-                            "author": "codex",
-                            "relative_path": "arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v1-codex.md",
-                            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v1-codex.md",
-                            "mapping_label": "Veiledning: Utvikling og formidling av veiledning",
-                            "explanation": "Ressursen samler og formidler praktiske veiledere for virksomheter som skal etablere, beskrive og forvalte datadeling på en mer standardisert og samhandlingsorientert måte.",
-                            "subcapability_id": "id-0bfa29018e7144578b2184e70414b7e8",
-                            "subcapability_name": "Utvikling og formidling av veiledning",
-                            "subcapability_slug": "utvikling-og-formidling-av-veiledning",
-                            "capability_id": "id-c0547226c598467a942dced879d0c18b",
-                            "capability_name": "Veiledning",
-                            "capability_slug": "veiledning"
                         }
                     ],
                     "capability_id": "id-c0547226c598467a942dced879d0c18b",
@@ -11707,10 +11695,10 @@
                         {
                             "product_id": 113,
                             "product_name": "Prosjektveiviseren",
-                            "version": 1,
-                            "author": "codex",
-                            "relative_path": "arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v1-codex.md",
-                            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v1-codex.md",
+                            "version": 2,
+                            "author": "claude",
+                            "relative_path": "arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v2-claude.md",
+                            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v2-claude.md",
                             "mapping_label": "Veiledning: Anvendelse av veiledning",
                             "explanation": "Ressursen er en generell metode- og veiledningsressurs som brukes for å strukturere analyse, planlegging og gjennomføring av samhandlingsnære digitaliseringstiltak.",
                             "subcapability_id": "id-a601bb3d7b11478185903149965f7842",

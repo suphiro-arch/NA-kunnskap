@@ -26,7 +26,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v1-codex.md">Prosjektveiviseren</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v2-claude.md">Prosjektveiviseren</a></h3>
       <p class="capability-product-link__description">Modellen er relevant i tidligfase og konseptarbeid, der behov skal avklares og tiltak skal utformes før gjennomføring.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
@@ -66,7 +66,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--policy">
       <p class="capability-product-link__type">Rammer og virkemidler</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/150-Tilsyn-og-kontroll-universell-utforming-av-ikt-v1-claude.md">Tilsyn og kontroll med regelverk for universell utforming av ikt</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/150-Tilsyn-og-kontroll-universell-utforming-av-ikt-v2-claude.md">Tilsyn og kontroll med regelverk for universell utforming av ikt</a></h3>
       <p class="capability-product-link__description">Kravene setter minimumsrammen for utforming av brukergrensesnitt i offentlige tjenester, og etterlevelse forutsetter at universell utforming ligger inne i utviklingsarbeidet framfor å rettes i ettertid.</p>
     </article>
     <article class="capability-product-link resource-type--forum">

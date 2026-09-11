@@ -16,7 +16,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v1-codex.md">Prosjektveiviseren</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v2-claude.md">Prosjektveiviseren</a></h3>
       <p class="capability-product-link__description">Ressursen er en generell metode- og veiledningsressurs som brukes for å strukturere analyse, planlegging og gjennomføring av samhandlingsnære digitaliseringstiltak.</p>
     </article>
     <article class="capability-product-link resource-type--normative">

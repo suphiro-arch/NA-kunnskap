@@ -20,23 +20,15 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
 
 ### Ressursarbeid
 
-- Fjerne selvrefererende formuleringer i tre gjeldende filer utenfor samhandlingsarenaene:
-  `113-Prosjektveiviseren-v1-codex.md` («I analysearbeid er modellen nyttig fordi …»),
-  `73-VIGO-v2-codex.md` («Dette er viktig i analyser av gjenbruk og gap») og
-  `150-Tilsyn-og-kontroll-universell-utforming-av-ikt-v1-claude.md` («For arkitektur- og
-  analysearbeid er ressursen viktig fordi …»). Alle tre krever ny versjon, siden det er
-  innholdsendring. Et bredt søk 2026-09-10 gav 39 treff i 32 gjeldende filer, men de fleste er
-  falske: der «analyse» viser til ressursens eget domene, som forskning på registerdata, er
-  formuleringen riktig og skal stå.
-- Fullføre innholdsrevisjonen av `Standarder og veiledning`. Tretti gjeldende filer, hvorav én er
+- Fullføre innholdsrevisjonen av `Standarder og veiledning`. Tretti gjeldende filer, hvorav to er
   revidert. Kartleggingen 2026-09-10 viser at kategorien er i bedre stand enn ventet: alle tretti
   har de tre analysekritiske feltene, ingen har pseudokilder, og alle bruker faktiske prinsippnavn
   med riktig P-kode. Den reelle svakheten er tynt innhold og manglende merking av fakta og
   deduksjon. Toogtyve av tretti filer har null merker.
-  Prioriter etter tynnhet. Disse seks er under 800 ord, mot en median på rundt 1550:
-  `106-Nasjonal-verktoykasse-for-deling-av-data` (726), `115-Digitaliseringsvennlig-regelverk`
-  (751), `104-Orden-i-eget-hus` (776), `99-Sjekkliste-for-sammenhengende-tjenester` (779),
-  `100-Kart-for-tjenestekjeder` (792) og `114-Klart-sprak` (797).
+  Prioriter etter tynnhet. Disse gjenstår av de seks som var under 800 ord, mot en median på rundt
+  1550: `115-Digitaliseringsvennlig-regelverk` (751), `104-Orden-i-eget-hus` (776),
+  `99-Sjekkliste-for-sammenhengende-tjenester` (779), `100-Kart-for-tjenestekjeder` (792) og
+  `114-Klart-sprak` (797).
   Merk at `99` og `104` ble forsøkt revidert 2026-09-10, men stoppet fordi kildene ikke lot seg
   hente: sjekklista ligger bare som PDF bak `digdir.no/media/1850/download`, og
   `orden-eget-hus/2717` gav 403. Begge må kildesjekkes på nytt før de kan fylles ut.
