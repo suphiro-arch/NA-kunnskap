@@ -34,6 +34,15 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
   Merk at `99` og `104` ble forsøkt revidert 2026-09-10, men stoppet fordi kildene ikke lot seg
   hente: sjekklista ligger bare som PDF bak `digdir.no/media/1850/download`, og
   `orden-eget-hus/2717` gav 403. Begge må kildesjekkes på nytt før de kan fylles ut.
+- Etterfylle rettslig forankring i `standarder og veiledning` etter regelen som ble lagt inn
+  2026-09-13, se [decisions.md](./decisions.md). Kartleggingen samme dag viste at bare én av de
+  tretti gjeldende filene i kategorien har kobling til `Juridisk samhandling`, mens flere omtaler
+  seg som bindende. Jobben er å gå gjennom de filene som oppgir forpliktelsesnivå `Obligatorisk`
+  eller `Styrende`, kontrollere om hjemmelen faktisk er navngitt, og vurdere juridisk
+  kapabilitetskobling. Tas sammen med den ordinære innholdsrevisjonen per fil, ikke som egen
+  mekanisk runde. `86-Referansekatalogen-for-IT-standarder` er et konkret tilfelle: fila sier at
+  avvik fra en obligatorisk standard er brudd på et rettslig krav, og navngir forskriften, men har
+  ingen juridisk kapabilitetskobling.
 - Kjøre en strukturrevisjon av eksisterende ressursbeskrivelser mot de oppdaterte malene. Malene og
   instruksene er harmonisert, og navnegjelden i `Ressurskategori` og `Type ...` er ryddet i
   gjeldende versjoner. Det som gjenstår er å vurdere selve innholdet i eldre beskrivelser mot det

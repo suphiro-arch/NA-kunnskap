@@ -121,14 +121,25 @@ Beskriv:
 ## Forpliktelsesnivå og etterlevelse
 Beskriv eksplisitt:
 - hvor bindende ressursen er i praksis
+- hva som gjør den bindende: lov, forskrift, rundskriv eller vedtak, med navn. Er nivået
+  `Obligatorisk` eller `Styrende`, skal hjemmelen oppgis. Finnes ingen, skal det stå
+- hvilken del av ressursen hjemmelen dekker, når bare deler av den er rettslig forankret
 - hvem som forventes å følge den
 - om avvik må begrunnes, godkjennes eller bare vurderes
 - hvordan etterlevelse normalt skjer, for eksempel gjennom styring, arkitekturarbeid, anskaffelser eller faglig veiledning
+
+Er ressursen rettslig forankret, nevn hjemmelen i `Relasjon til andre ressurser` med ressurs-ID der
+den selv er registrert.
 
 ## Kapabiliteter
 Hvilke kapabiliteter i Nasjonal arkitektur støtter ressursen direkte?
 Bruk bare kapabiliteter med tydelig og sterk kobling.
 Bruk bare rene kapabilitetsnavn i listen. Legg forklaring i tilhørende tekst, ikke i selve navnelabelen.
+
+Er ressursen rettslig forankret, vurder `Juridisk samhandling: Regelverkstolkning` når ressursen
+sier hvordan et regelverk skal forstås eller anvendes, og `Juridisk samhandling:
+Regelverksutvikling` når den former hvordan nytt regelverk blir til. Vurderingen skal gjøres, men
+koblingen skal bare settes når den er reell.
 
 ## Målgruppe og brukere
 Beskriv brukerbildet eksplisitt i segmenter.

@@ -63,10 +63,28 @@ Dette betyr at teksten må svare tydelig på:
 ### Forpliktelsesnivå må være eksplisitt
 - Beskriv forpliktelsesnivå tydelig. Det er ikke nok å skrive at ressursen er "viktig".
 - Gjør det klart om ressursen er:
-  - **Obligatorisk** (må bruges/følges)
+  - **Obligatorisk** (må brukes eller følges)
   - **Styrende** (gir tydelig retning)
   - **Anbefalt** (bør vurderes)
   - **Veiledende** (hjelper til orientering)
+
+### Rettslig forankring skal oppgis der den finnes
+En standard eller veileder kan være rettslig forankret uten å være et juridisk virkemiddel. Skillet
+mellom `Obligatorisk` og de tre andre nivåene er som regel nettopp at det finnes en hjemmel.
+
+- Oppgi alltid **hva** som gjør ressursen bindende når nivået er `Obligatorisk` eller `Styrende`:
+  lov, forskrift, rundskriv eller vedtak, med navn. Å skrive at noe er obligatorisk uten å si hvor
+  kravet kommer fra, gir leseren en forpliktelse uten mulighet til å etterprøve den.
+- Skriv hvilken **del** av ressursen hjemmelen dekker. Mange ressurser er delvis forankret: noen
+  krav følger av forskrift, resten er anbefalinger. Da er ett samlet forpliktelsesnivå misvisende,
+  og de to delene skal skilles i teksten.
+- Er ressursen rettslig forankret, skal hjemmelen også føres som ressurs der den finnes i
+  registeret, og nevnes i `Relasjon til andre ressurser` med ressurs-ID.
+- Finner du ingen hjemmel, skriv det. `Veiledende, uten rettslig forankring i kildene` er et
+  presist svar og et annet svar enn taushet.
+- Vurder samtidig om ressursen egentlig hører i kategorien `økonomiske og juridiske rammer og
+  virkemidler`. Er det rettslige selve ressursen, og ikke en egenskap ved den, gjelder
+  `config/prompts/okonomiske-og-juridiske-rammer-og-virkemidler-canvas.system.md`.
 
 ### Analyse- og beslutningskontekst
 - Beskriv typiske analyse- og beslutningssituasjoner, ikke bare generell bruk.
@@ -83,6 +101,14 @@ Dette betyr at teksten må svare tydelig på:
 - Bruk bare kanoniske kapabilitetsnavn i selve kapabilitetslisten.
 - Legg forklaring, begrunnelse og nyanser i egen tekst rundt listen, ikke inne i navnelabelen.
 - Unngå formuleringer som gjør kapabilitetsseksjonen vanskelig å gjenbruke i web, filtrering eller senere analyser.
+- Er ressursen rettslig forankret, vurder eksplisitt `Juridisk samhandling: Regelverkstolkning` og
+  `Juridisk samhandling: Regelverksutvikling`. `Regelverkstolkning` er aktuell når ressursen sier
+  hvordan et regelverk skal forstås eller anvendes i praksis. `Regelverksutvikling` er aktuell når
+  ressursen former hvordan nytt regelverk blir til. Uten en slik kobling blir ressursen usynlig på
+  kapabilitetssiden der noen leter etter det rettslige grunnlaget for et krav.
+- Kravet er at vurderingen gjøres, ikke at koblingen settes. En standard som er hjemlet i forskrift
+  uten selv å tolke eller utvikle regelverk, skal ikke ha koblingen. Skriv da kort i teksten rundt
+  lista hvorfor den rettslige forankringen ikke gir en juridisk kapabilitet.
 
 ---
 
