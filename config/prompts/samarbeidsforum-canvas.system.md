@@ -96,6 +96,14 @@ Dette betyr at teksten må svare tydelig på:
 
 ### Kapabiliteter skal være rene nok for videre bruk
 - Bruk bare kanoniske kapabilitetsnavn i selve kapabilitetslisten.
+- Ta bare med kapabiliteter ressursen selv er med på å realisere, ikke kapabiliteter den forbruker
+  fra andre ressurser. Kapabilitetene er definert som evner: `Autentisering` er evnen til å
+  verifisere en digital identitet, ikke det å ha innlogging. En løsning som logger inn med
+  `ID-porten` eller `Feide`, forbruker evnen og skal ikke ha `Tillit: Autentisering`.
+- Test koblingen slik: ville kapabiliteten forsvunnet fra nasjonal arkitektur hvis denne ressursen
+  ble borte? Er svaret nei, fordi en annen ressurs leverer evnen, skal koblingen ikke settes.
+- Avhengigheten skal fortsatt beskrives, men som avhengighet i `Relasjon til andre ressurser`, med
+  navn på ressursen som leverer evnen.
 - Legg forklaring, begrunnelse og nyanser i egen tekst rundt listen, ikke inne i navnelabelen.
 - Unngå formuleringer som gjør kapabilitetsseksjonen vanskelig å gjenbruke i web, filtrering eller senere analyser.
 

@@ -5518,10 +5518,10 @@
         {
             "product_id": 159,
             "product_name": "Grunnskolens informasjonssystem (GSI)",
-            "version": 1,
+            "version": 2,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/159-Grunnskolens-informasjonssystem-v1-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/159-Grunnskolens-informasjonssystem-v1-claude.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/159-Grunnskolens-informasjonssystem-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/159-Grunnskolens-informasjonssystem-v2-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
@@ -5552,26 +5552,16 @@
                     "subcapability_slug": "dele-data-med-andre",
                     "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
                     "explanation": "Innsamlede data publiseres videre gjennom Statistikkbanken og brukes av skoleeiere, statsforvaltere, direktorat og departement."
-                },
-                {
-                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
-                    "subcapability_id": "id-b440252bc3de42dea8468be54e54b1fa",
-                    "subcapability_name": "Tilgangsstyring",
-                    "subcapability_slug": "tilgangsstyring",
-                    "mapping_label": "Tillit: Tilgangsstyring",
-                    "explanation": "Tilgang til rapportering gis gjennom Altinn, med en egen rettighet som skoleeier må delegere til de som skal rapportere."
                 }
             ]
         },
         {
             "product_id": 160,
             "product_name": "Elevundersøkelsen",
-            "version": 1,
+            "version": 2,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/160-Elevundersokelsen-v1-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/160-Elevundersokelsen-v1-claude.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/160-Elevundersokelsen-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/160-Elevundersokelsen-v2-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
@@ -5597,16 +5587,6 @@
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
                     "capability_name": "Tillit",
                     "capability_slug": "tillit",
-                    "subcapability_id": "id-ec0afaac123d4f9e83889d9022a198c3",
-                    "subcapability_name": "Autentisering",
-                    "subcapability_slug": "autentisering",
-                    "mapping_label": "Tillit: Autentisering",
-                    "explanation": "Administrasjonsløsningen bruker ID-porten og Feide, og elevpåloggingen skjer med Feide eller genererte engangsbrukere."
-                },
-                {
-                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
                     "subcapability_id": "id-2dfe07b3eae740b9a292e0a4a42d22db",
                     "subcapability_name": "Sporbarhet og innsyn",
                     "subcapability_slug": "sporbarhet-og-innsyn",
@@ -5618,10 +5598,10 @@
         {
             "product_id": 161,
             "product_name": "BASIL",
-            "version": 1,
+            "version": 2,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/161-BASIL-v1-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/161-BASIL-v1-claude.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/161-BASIL-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/161-BASIL-v2-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
@@ -5642,26 +5622,6 @@
                     "subcapability_slug": "dele-data-med-andre",
                     "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
                     "explanation": "Innsamlede data brukes videre i offisiell statistikk, i tilskuddsforvaltning og som kilde til nøkkeltallene på Barnehagefakta."
-                },
-                {
-                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
-                    "subcapability_id": "id-b440252bc3de42dea8468be54e54b1fa",
-                    "subcapability_name": "Tilgangsstyring",
-                    "subcapability_slug": "tilgangsstyring",
-                    "mapping_label": "Tillit: Tilgangsstyring",
-                    "explanation": "Pålogging skjer med ID-porten, og rettigheter må være delegert i Altinn for barnehage, barnehagemyndighet og statsforvalter."
-                },
-                {
-                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
-                    "subcapability_id": "id-b2aafe1f4c534db6b92c40b1eef605f2",
-                    "subcapability_name": "Representasjon",
-                    "subcapability_slug": "representasjon",
-                    "mapping_label": "Tillit: Representasjon",
-                    "explanation": "Løsningen skiller mellom å rapportere som barnehage, å godkjenne som kommunal barnehagemyndighet og å godkjenne som statsforvalter, med ulike rettigheter i hvert ledd."
                 }
             ]
         },

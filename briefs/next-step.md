@@ -34,15 +34,34 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
   Merk at `99` og `104` ble forsøkt revidert 2026-09-10, men stoppet fordi kildene ikke lot seg
   hente: sjekklista ligger bare som PDF bak `digdir.no/media/1850/download`, og
   `orden-eget-hus/2717` gav 403. Begge må kildesjekkes på nytt før de kan fylles ut.
+- Gjennomgå de resterende kapabilitetskoblingene mot regelen fra 2026-09-13 om at kapabiliteter
+  kobles der de realiseres, ikke der de forbrukes, se [decisions.md](./decisions.md). Fire
+  koblinger i `159`, `160` og `161` er ryddet. Disse står igjen til vurdering:
+  - `17` data.altinn.no og `22` Dialogporten har `Tillit: Autentisering` med forklaringer som
+    beskriver bruk av `Maskinporten` og `ID-porten`. Dialogporten har i tillegg
+    `Tillit: Tilgangskontroll` forklart som at den bygger på `Altinn Autorisasjon`. Disse er
+    grensetilfeller: Altinn-familien både forbruker og videreformidler evnene, og bør vurderes
+    samlet framfor én fil om gangen.
+  - `160` Elevundersøkelsen og `162` Barnehagefakta har `Tillit: Sporbarhet og innsyn` begrunnet
+    med prikking og publisering av statistikk. Dette er en annen feiltype enn forbruk:
+    kapabiliteten er definert som logging og innsyn i tillitstjenester, ikke som personvern i
+    statistikkpublisering. Krever egen vurdering av hvilken kapabilitet som er riktig, eventuelt
+    ingen.
 - Etterfylle rettslig forankring i `standarder og veiledning` etter regelen som ble lagt inn
-  2026-09-13, se [decisions.md](./decisions.md). Kartleggingen samme dag viste at bare én av de
-  tretti gjeldende filene i kategorien har kobling til `Juridisk samhandling`, mens flere omtaler
-  seg som bindende. Jobben er å gå gjennom de filene som oppgir forpliktelsesnivå `Obligatorisk`
-  eller `Styrende`, kontrollere om hjemmelen faktisk er navngitt, og vurdere juridisk
-  kapabilitetskobling. Tas sammen med den ordinære innholdsrevisjonen per fil, ikke som egen
-  mekanisk runde. `86-Referansekatalogen-for-IT-standarder` er et konkret tilfelle: fila sier at
-  avvik fra en obligatorisk standard er brudd på et rettslig krav, og navngir forskriften, men har
-  ingen juridisk kapabilitetskobling.
+  2026-09-13, se [decisions.md](./decisions.md). Alle tretti gjeldende filer er gjennomgått
+  2026-09-13, og behovet er mindre enn ventet: kategorien er allerede eksplisitt om manglende
+  binding. Filer som `114`, `117`, `138` og `146` sier rett ut at de ikke er juridisk bindende,
+  som er nettopp det regelen ber om. `101` eMelding er forbilledlig: den forklarer at
+  referansearkitekturer ikke er pålagt, men at binding kan oppstå gjennom digitaliseringsrundskrivet
+  eller Referansekatalogen.
+  Det som gjenstår:
+  - `87-Arkitektur-for-hendelser` oppgir `anbefalt/styrende` uten å si hva styringen bygger på og
+    uten å si at hjemmel mangler. Eneste reelle kandidat, og det mangler bare en setning. Tas ved
+    neste ordinære revisjon av fila framfor som egen versjon.
+  - `86-Referansekatalogen-for-IT-standarder` navngir forskriften og sier at avvik fra en
+    obligatorisk standard er brudd på et rettslig krav, men har ingen kobling til
+    `Juridisk samhandling`. Vurder om katalogen tolker regelverk eller bare er hjemlet i det.
+    Bare én av de tretti filene har juridisk kapabilitetskobling i dag.
 - Kjøre en strukturrevisjon av eksisterende ressursbeskrivelser mot de oppdaterte malene. Malene og
   instruksene er harmonisert, og navnegjelden i `Ressurskategori` og `Type ...` er ryddet i
   gjeldende versjoner. Det som gjenstår er å vurdere selve innholdet i eldre beskrivelser mot det

@@ -167,6 +167,10 @@ Regler for bruken:
 - Beskriv *hvordan* produktet bidrar (ikke bare list opp navn)
 - Ta bare med kapabiliteter der koblingen er sterk og direkte dokumentert eller klart utledbar fra produktets egen funksjon
 - Ikke ta med kapabiliteter som bare berøres indirekte gjennom andre produkter, plattformer eller avhengigheter
+- Skill mellom kapabiliteter produktet **realiserer** og kapabiliteter det **forbruker**. Bare de første skal med. Kapabilitetene er definert som evner: `Autentisering` er evnen til å verifisere en digital identitet, ikke det å ha innlogging. Et fagsystem som logger inn med `ID-porten` eller `Feide`, forbruker evnen, og skal ikke ha `Tillit: Autentisering`. Det samme gjelder `Tilgangsstyring` og `Representasjon` når rettighetene i praksis delegeres i `Altinn Autorisasjon`
+- Testen er: ville kapabiliteten forsvunnet fra nasjonal arkitektur hvis produktet ble borte? Er svaret nei, fordi en annen ressurs leverer evnen, skal koblingen ikke settes. At produktet ikke ville fungert uten evnen, er ikke det samme som at det bidrar til den
+- Avhengigheten skal fortsatt beskrives, men under `Gjenbruk`, `Avhengigheter` eller `Vanlige kombinasjoner med andre produkter`, med navn på produktet som leverer evnen. Feilen er ikke å nevne avhengigheten, men å føre den som kapabilitet
+- Grensetilfellet er produkter som både forbruker og videreformidler en evne til andre virksomheter. En fellesløsning som tilbyr tilgangsstyring som del av sin egen tjeneste, realiserer kapabiliteten selv om den bygger på et annet produkt. Begrunn da valget i forklaringen under kapabilitetspunktet
 - Hvis du er i tvil om koblingen er sterk nok, skal kapabiliteten utelates
 - Ikke utled nye kapabiliteter bare fordi seksjoner som `Typiske brukssituasjoner`, `Når <produktet> normalt ikke er førstevalg` eller `Vanlige kombinasjoner med andre produkter` er lagt til. Disse seksjonene er beslutningsstøtte, ikke funksjonsutvidelse.
 - Hvis `Hovedfunksjoner` endres vesentlig, skal du eksplisitt kontrollere om kapabilitetsmappingen fortsatt er riktig. Endre bare mappingen når produktets faktiske funksjonelle rolle er blitt tydeligere eller dokumentert annerledes.

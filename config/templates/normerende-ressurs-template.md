@@ -136,6 +136,11 @@ Hvilke kapabiliteter i Nasjonal arkitektur støtter ressursen direkte?
 Bruk bare kapabiliteter med tydelig og sterk kobling.
 Bruk bare rene kapabilitetsnavn i listen. Legg forklaring i tilhørende tekst, ikke i selve navnelabelen.
 
+Ta bare med kapabiliteter ressursen selv er med på å realisere, ikke kapabiliteter den forbruker
+fra andre. Test koblingen slik: ville kapabiliteten forsvunnet fra nasjonal arkitektur hvis denne
+ressursen ble borte? Er svaret nei, fordi en annen ressurs leverer evnen, hører koblingen et annet
+sted. Avhengigheten beskrives da i stedet under `Relasjon til andre ressurser`.
+
 Er ressursen rettslig forankret, vurder `Juridisk samhandling: Regelverkstolkning` når ressursen
 sier hvordan et regelverk skal forstås eller anvendes, og `Juridisk samhandling:
 Regelverksutvikling` når den former hvordan nytt regelverk blir til. Vurderingen skal gjøres, men

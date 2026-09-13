@@ -151,17 +151,17 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/159-Grunnskolens-informasjonssystem-v1-claude.md">Grunnskolens informasjonssystem (GSI)</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/159-Grunnskolens-informasjonssystem-v2-claude.md">Grunnskolens informasjonssystem (GSI)</a></h3>
       <p class="capability-product-link__description">Løsningen etablerer det autoritative datagrunnlaget om grunnskoleopplæringen, og skoleutvalget hentes fra Nasjonalt skoleregister.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/160-Elevundersokelsen-v1-claude.md">Elevundersøkelsen</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/160-Elevundersokelsen-v2-claude.md">Elevundersøkelsen</a></h3>
       <p class="capability-product-link__description">Undersøkelsen etablerer det nasjonale datagrunnlaget om elevenes opplevelse av skolemiljøet, som ikke finnes i noen registerkilde.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/161-BASIL-v1-claude.md">BASIL</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/161-BASIL-v2-claude.md">BASIL</a></h3>
       <p class="capability-product-link__description">Løsningen etablerer det autoritative datagrunnlaget om barnehagesektoren, som Statistisk sentralbyrå bruker til offisiell statistikk.</p>
     </article>
   </div>
