@@ -16,8 +16,8 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v1-codex.md">Digitaliseringsvennlig regelverk</a></h3>
-      <p class="capability-product-link__description">Ressursen er en veileder som utvikles og formidles for å støtte virksomheter i vurdering av juridisk handlingsrom og regelverksbehov i samhandlingsnære digitaliseringstiltak.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v2-claude.md">Digitaliseringsvennlig regelverk</a></h3>
+      <p class="capability-product-link__description">Ressursen er Digdirs formidling av hvordan regelverksarbeid bør gjøres når digitalisering er et hensyn.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>

@@ -16,8 +16,8 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v1-codex.md">Digitaliseringsvennlig regelverk</a></h3>
-      <p class="capability-product-link__description">Ressursen brukes til å avklare juridisk handlingsrom i eksisterende regelverk og gir et felles grunnlag for tolkning på tvers av fag og virksomheter.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v2-claude.md">Digitaliseringsvennlig regelverk</a></h3>
+      <p class="capability-product-link__description">Veiledningen ber virksomheter først kartlegge handlingsrommet i gjeldende regelverk, før endring vurderes som virkemiddel.</p>
     </article>
     <article class="capability-product-link resource-type--policy">
       <p class="capability-product-link__type">Rammer og virkemidler</p>

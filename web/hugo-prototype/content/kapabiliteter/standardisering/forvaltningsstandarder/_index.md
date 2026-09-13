@@ -116,8 +116,8 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v1-codex.md">Digitaliseringsvennlig regelverk</a></h3>
-      <p class="capability-product-link__description">gir anbefalinger og sjekklister for hvordan regelverk kan utformes og vurderes mer digitaliseringsvennlig.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v2-claude.md">Digitaliseringsvennlig regelverk</a></h3>
+      <p class="capability-product-link__description">Anbefalingene om begrepsharmonisering og klart språk knytter regelverksutforming til felles begrepsbruk på tvers av virksomheter.</p>
     </article>
     <article class="capability-product-link resource-type--policy">
       <p class="capability-product-link__type">Rammer og virkemidler</p>

@@ -20,15 +20,17 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
 
 ### Ressursarbeid
 
-- Fullføre innholdsrevisjonen av `Standarder og veiledning`. Tretti gjeldende filer, hvorav to er
+- Fullføre innholdsrevisjonen av `Standarder og veiledning`. Tretti gjeldende filer, hvorav tre er
   revidert. Kartleggingen 2026-09-10 viser at kategorien er i bedre stand enn ventet: alle tretti
-  har de tre analysekritiske feltene, ingen har pseudokilder, og alle bruker faktiske prinsippnavn
-  med riktig P-kode. Den reelle svakheten er tynt innhold og manglende merking av fakta og
-  deduksjon. Toogtyve av tretti filer har null merker.
+  har de tre analysekritiske feltene og ingen har pseudokilder. Den reelle svakheten er tynt
+  innhold og manglende merking av fakta og deduksjon. Toogtyve av tretti filer har null merker.
+  Påstanden om at alle brukte faktiske prinsippnavn med riktig P-kode holdt ikke helt:
+  `115` oppgav `P3: Ta hensyn til juridiske og organisatoriske rammer`, mens prinsippet heter
+  `Bidra til digitaliseringsvennlige regelverk`. Rettet i `v2`. En mekanisk kontroll av alle 141
+  gjeldende filer 2026-09-11 fant ingen andre avvik.
   Prioriter etter tynnhet. Disse gjenstår av de seks som var under 800 ord, mot en median på rundt
-  1550: `115-Digitaliseringsvennlig-regelverk` (751), `104-Orden-i-eget-hus` (776),
-  `99-Sjekkliste-for-sammenhengende-tjenester` (779), `100-Kart-for-tjenestekjeder` (792) og
-  `114-Klart-sprak` (797).
+  1550: `104-Orden-i-eget-hus` (776), `99-Sjekkliste-for-sammenhengende-tjenester` (779),
+  `100-Kart-for-tjenestekjeder` (792) og `114-Klart-sprak` (797).
   Merk at `99` og `104` ble forsøkt revidert 2026-09-10, men stoppet fordi kildene ikke lot seg
   hente: sjekklista ligger bare som PDF bak `digdir.no/media/1850/download`, og
   `orden-eget-hus/2717` gav 403. Begge må kildesjekkes på nytt før de kan fylles ut.
@@ -145,6 +147,12 @@ med her slik at neste gjennomgang slipper å gjøre vurderingen på nytt:
 
 ### Register og kontroller
 
+- Legge prinsippkontroll inn i `check-resource-structure.py`: sammenligne `**Pn: navn**` i
+  seksjonen `Støtter arkitekturprinsipper` mot de kanoniske navnene i
+  [principles.md](../arkitektur/prinsipper/principles.md), og stoppe filer der P-koden og navnet
+  ikke hører sammen. Behovet er logget i [decisions.md](./decisions.md) 2026-09-10, der feilen
+  beskrives som usynlig for kontrollene. Et engangsskript brukt 2026-09-11 fant ett avvik i
+  `115`, som nå er rettet, men kontrollen finnes fortsatt ikke i verktøykjeden.
 - Utvide [check-resource-version-sync.py](../tools/check-resource-version-sync.py) slik at
   ressursfiler og mapping-oppføringer uten rad i registeret fanges. Kontrollen validerer i dag at
   pekere fra registeret stemmer, ikke at alt som finnes er registerført. Denne blindsonen gjorde at

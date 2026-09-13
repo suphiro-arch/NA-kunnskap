@@ -26,8 +26,8 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v1-codex.md">Digitaliseringsvennlig regelverk</a></h3>
-      <p class="capability-product-link__description">Ressursen brukes direkte i analyse- og utviklingsløp for å vurdere juridiske barrierer og forbedre beslutningsgrunnlaget tidlig i tiltaksgjennomføring.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v2-claude.md">Digitaliseringsvennlig regelverk</a></h3>
+      <p class="capability-product-link__description">Sjekklista er utformet for direkte bruk i et pågående regelverksarbeid, med kontrollspørsmål per anbefaling.</p>
     </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
