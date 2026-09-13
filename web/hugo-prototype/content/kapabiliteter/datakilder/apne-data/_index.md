@@ -21,7 +21,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/162-Barnehagefakta-v1-claude.md">Barnehagefakta</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/162-Barnehagefakta-v2-claude.md">Barnehagefakta</a></h3>
       <p class="capability-product-link__description">Datasettet bak tjenesten er beskrevet og publisert i Felles datakatalog.</p>
     </article>
     <article class="capability-product-link resource-type--normative">

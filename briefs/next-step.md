@@ -42,11 +42,6 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
     `Tillit: Tilgangskontroll` forklart som at den bygger på `Altinn Autorisasjon`. Disse er
     grensetilfeller: Altinn-familien både forbruker og videreformidler evnene, og bør vurderes
     samlet framfor én fil om gangen.
-  - `160` Elevundersøkelsen og `162` Barnehagefakta har `Tillit: Sporbarhet og innsyn` begrunnet
-    med prikking og publisering av statistikk. Dette er en annen feiltype enn forbruk:
-    kapabiliteten er definert som logging og innsyn i tillitstjenester, ikke som personvern i
-    statistikkpublisering. Krever egen vurdering av hvilken kapabilitet som er riktig, eventuelt
-    ingen.
 - Etterfylle rettslig forankring i `standarder og veiledning` etter regelen som ble lagt inn
   2026-09-13, se [decisions.md](./decisions.md). Alle tretti gjeldende filer er gjennomgått
   2026-09-13, og behovet er mindre enn ventet: kategorien er allerede eksplisitt om manglende

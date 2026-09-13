@@ -5558,10 +5558,10 @@
         {
             "product_id": 160,
             "product_name": "Elevundersøkelsen",
-            "version": 2,
+            "version": 3,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/160-Elevundersokelsen-v2-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/160-Elevundersokelsen-v2-claude.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/160-Elevundersokelsen-v3-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/160-Elevundersokelsen-v3-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
@@ -5582,16 +5582,6 @@
                     "subcapability_slug": "dataanalyse",
                     "mapping_label": "Datadrevet: Dataanalyse",
                     "explanation": "Resultatene analyseres og publiseres årlig som statistikk og forskningsrapporter, og brukes i kvalitetsutvikling på skole-, eier- og nasjonalt nivå."
-                },
-                {
-                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
-                    "subcapability_id": "id-2dfe07b3eae740b9a292e0a4a42d22db",
-                    "subcapability_name": "Sporbarhet og innsyn",
-                    "subcapability_slug": "sporbarhet-og-innsyn",
-                    "mapping_label": "Tillit: Sporbarhet og innsyn",
-                    "explanation": "Resultatvisningen er innrettet slik at innsyn gis på aggregert nivå, med prikking som skal hindre gjenkjenning av enkeltelever."
                 }
             ]
         },
@@ -5628,10 +5618,10 @@
         {
             "product_id": 162,
             "product_name": "Barnehagefakta",
-            "version": 1,
+            "version": 2,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/162-Barnehagefakta-v1-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/162-Barnehagefakta-v1-claude.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/162-Barnehagefakta-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/162-Barnehagefakta-v2-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
@@ -5662,16 +5652,6 @@
                     "subcapability_slug": "apne-data",
                     "mapping_label": "Datakilder: Åpne data",
                     "explanation": "Datasettet bak tjenesten er beskrevet og publisert i Felles datakatalog."
-                },
-                {
-                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
-                    "subcapability_id": "id-2dfe07b3eae740b9a292e0a4a42d22db",
-                    "subcapability_name": "Sporbarhet og innsyn",
-                    "subcapability_slug": "sporbarhet-og-innsyn",
-                    "mapping_label": "Tillit: Sporbarhet og innsyn",
-                    "explanation": "Tjenesten gir foreldre innsyn i konkrete, kvalitetssikrede tall om den barnehagen barnet deres går i eller skal søke til."
                 }
             ]
         },
