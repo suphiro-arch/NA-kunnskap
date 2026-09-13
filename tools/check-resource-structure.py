@@ -7,11 +7,15 @@ obligatoriske seksjoner. Denne kontrollen lukker det hullet.
 
 Kontrollen skiller mellom to nivåer:
 
-Feil    Manglende h1-tittel, manglende kjernefelt eller en seksjon uten
-        innhold. Kjernefeltene er de seksjonene som i dag finnes i samtlige
-        ressursfiler i kategorien, så en feil betyr at fila er dårligere
-        strukturert enn alt annet i porteføljen. Dette er signalet som
-        fanger skade.
+Feil    Manglende h1-tittel, manglende kjernefelt, en seksjon uten innhold,
+        eller en prinsippreferanse der koden og navnet ikke hører sammen.
+        Kjernefeltene er de seksjonene som i dag finnes i samtlige ressursfiler
+        i kategorien, så en feil betyr at fila er dårligere strukturert enn alt
+        annet i porteføljen. Dette er signalet som fanger skade.
+
+        Prinsippkontrollen sammenligner `**Pn: navn**` mot de kanoniske navnene
+        i arkitektur/prinsipper/principles.md, og gjelder bare gjeldende
+        versjoner. Erstattede versjoner er historikk og skal ikke ryddes.
 
 Advarsel Seksjoner malen har, men som fila mangler, og overskrifter som
         verken står i malen eller er en kjent variant. Dette er synlig gjeld,
@@ -35,9 +39,20 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[1]
 RESOURCE_ROOT = REPO_ROOT / "arkitektur" / "ressurser"
 TEMPLATE_ROOT = REPO_ROOT / "config" / "templates"
+PRINCIPLES_PATH = REPO_ROOT / "arkitektur" / "prinsipper" / "principles.md"
 
 HEADING_PATTERN = re.compile(r"^## (.+?)\s*$", re.M)
 VERSION_PATTERN = re.compile(r"-v(\d+)-")
+
+# Prinsippkoden og prinsippnavnet slik de står i ressursfilene, for eksempel
+# `- **P3: Bidra til digitaliseringsvennlige regelverk**`. Både kolon og punktum
+# forekommer som skille.
+PRINCIPLE_REF_PATTERN = re.compile(r"\*\*(P\d+)[:.]\s*([^*]+?)\s*\*\*")
+
+# Kanonisk kode og navn i principles.md, som er kuratert kilde for prinsippene.
+PRINCIPLE_CANON_PATTERN = re.compile(
+    r"principle-panel__code\">(P\d+)</p>\s*<h3>([^<]+)</h3>"
+)
 
 # Kjernefeltene er utledet mekanisk: for hver kategori er dette snittet av
 # overskriftene i alle eksisterende ressursfiler. Settet kan strammes inn etter
@@ -180,6 +195,47 @@ def malseksjoner(template_name: str) -> list[str]:
     return [h for h in headings if h not in MAL_INNLEDNING]
 
 
+def kanoniske_prinsipper() -> dict[str, str]:
+    """Prinsippkode til prinsippnavn, hentet fra den kuraterte prinsippfila.
+
+    Returnerer tomt oppslag hvis fila mangler eller ikke lar seg lese. Kontrollen
+    skal ikke stoppe arbeidet fordi prinsippfila er flyttet; da faller
+    prinsippkontrollen bare bort.
+    """
+    if not PRINCIPLES_PATH.exists():
+        return {}
+    tekst = PRINCIPLES_PATH.read_text(encoding="utf-8")
+    return {m.group(1): m.group(2).strip() for m in PRINCIPLE_CANON_PATTERN.finditer(tekst)}
+
+
+def prinsippfeil(text: str, kanon: dict[str, str]) -> list[str]:
+    """Prinsippreferanser der koden og navnet ikke hører sammen.
+
+    Bakgrunn: to filer oppgav prinsippnavn som ikke finnes, en tredje brukte
+    riktig navn med feil P-kode, og en fjerde hadde et navn fra et helt annet
+    rammeverk. Feilen er usynlig for de øvrige kontrollene, fordi strukturen er
+    korrekt og bare innholdet er galt. Den er samtidig alvorlig: en
+    prinsippreferanse er et sporbarhetsløfte, og en leser som slår opp koden
+    finner noe annet enn det fila påstår.
+    """
+    if not kanon:
+        return []
+    feil = []
+    for match in PRINCIPLE_REF_PATTERN.finditer(text):
+        kode, navn = match.group(1), match.group(2).strip().rstrip(".")
+        if kode not in kanon:
+            feil.append(
+                "prinsippkoden %s finnes ikke i principles.md (gyldige: %s)"
+                % (kode, ", ".join(sorted(kanon)))
+            )
+        elif navn.casefold() != kanon[kode].casefold():
+            feil.append(
+                "%s er oppgitt som '%s', men heter '%s' i principles.md"
+                % (kode, navn, kanon[kode])
+            )
+    return feil
+
+
 def gjeldende_filnavn() -> set[str]:
     """Filnavnene registeret peker på, altså gjeldende versjon av hver ressurs.
 
@@ -244,7 +300,13 @@ def tomme_seksjoner(text: str) -> list[str]:
     return tomme
 
 
-def kontroller(category: str, path: Path, mal: list[str]) -> tuple[list[str], list[str]]:
+def kontroller(
+    category: str,
+    path: Path,
+    mal: list[str],
+    kanon: dict[str, str] | None = None,
+    er_gjeldende: bool = True,
+) -> tuple[list[str], list[str]]:
     text = path.read_text(encoding="utf-8")
     funnet = HEADING_PATTERN.findall(text)
     funnet_sett = set(funnet)
@@ -266,6 +328,11 @@ def kontroller(category: str, path: Path, mal: list[str]) -> tuple[list[str], li
 
     for seksjon in tomme_seksjoner(text):
         feil.append("seksjonen '%s' er tom" % seksjon)
+
+    # Prinsippnavn kontrolleres bare i gjeldende versjoner. Erstattede versjoner
+    # er bevart som historikk, og avvik i dem skal ikke ryddes.
+    if er_gjeldende:
+        feil.extend(prinsippfeil(text, kanon or {}))
 
     kjente = set(mal) | AKSEPTERTE_TILLEGG
     for gruppe in regler["alternativer"]:
@@ -294,7 +361,7 @@ def main() -> int:
     parser.add_argument(
         "--strict",
         action="store_true",
-        help="avslutt med kode 1 hvis en ressursfil mangler kjernestruktur",
+        help="avslutt med kode 1 hvis en ressursfil har strukturfeil",
     )
     parser.add_argument(
         "--new-only",
@@ -315,18 +382,27 @@ def main() -> int:
         print("OK: Ingen ressursfiler å kontrollere.")
         return 0
 
+    kanon = kanoniske_prinsipper()
+    gjeldende = gjeldende_filnavn()
+
     feil_per_fil: dict[Path, list[str]] = {}
     advarsler_per_fil: dict[Path, list[str]] = {}
 
     for category, path in files:
-        feil, advarsler = kontroller(category, path, maler[category])
+        feil, advarsler = kontroller(
+            category,
+            path,
+            maler[category],
+            kanon=kanon,
+            er_gjeldende=path.name in gjeldende,
+        )
         if feil:
             feil_per_fil[path] = feil
         if advarsler:
             advarsler_per_fil[path] = advarsler
 
     if feil_per_fil:
-        print("FEIL: %d ressursfiler mangler kjernestruktur.\n" % len(feil_per_fil))
+        print("FEIL: %d ressursfiler har strukturfeil.\n" % len(feil_per_fil))
         for path in sorted(feil_per_fil):
             print("%s" % path.relative_to(REPO_ROOT).as_posix())
             for melding in feil_per_fil[path]:
@@ -336,11 +412,14 @@ def main() -> int:
         print("Ved uhell under redigering: hent tapte seksjoner tilbake med")
         print("git show <commit>:<sti> framfor å skrive dem på nytt.\n")
     else:
-        print("OK: Alle %d ressursfiler har kjernestrukturen malen krever." % len(files))
+        print(
+            "OK: Alle %d ressursfiler har kjernestrukturen malen krever, og"
+            % len(files)
+        )
+        print("    prinsippreferansene i gjeldende versjoner stemmer med principles.md.")
 
     if advarsler_per_fil:
         antall = sum(len(v) for v in advarsler_per_fil.values())
-        gjeldende = gjeldende_filnavn()
         aktive = [p for p in advarsler_per_fil if p.name in gjeldende]
         historiske = [p for p in advarsler_per_fil if p.name not in gjeldende]
         print(
