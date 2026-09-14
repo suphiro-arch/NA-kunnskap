@@ -11,7 +11,7 @@ productsMarkdown: |
   <div class="capability-product-links">
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/17-data-altinn-no-produkt-canvas-v4-codex.md">data.altinn.no</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/17-data-altinn-no-produkt-canvas-v5-claude.md">data.altinn.no</a></h3>
       <p class="capability-product-link__description">støtter datapakker som kombinerer informasjon fra én eller flere kilder og samtidig minimerer datamengden som deles</p>
     </article>
     <article class="capability-product-link resource-type--operative">

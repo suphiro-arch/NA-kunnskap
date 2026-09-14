@@ -26,7 +26,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/17-data-altinn-no-produkt-canvas-v4-codex.md">data.altinn.no</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/17-data-altinn-no-produkt-canvas-v5-claude.md">data.altinn.no</a></h3>
       <p class="capability-product-link__description">bruker samme tekniske mønster på tvers av produkter og gjør nye datadelingstjenester lettere å integrere</p>
     </article>
     <article class="capability-product-link resource-type--operative">
@@ -41,7 +41,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/22-Dialogporten-produkt-canvas-v5-codex.md">Dialogporten</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/22-Dialogporten-produkt-canvas-v6-claude.md">Dialogporten</a></h3>
       <p class="capability-product-link__description">gir tjenesteeiere og plattformer et felles mønster for å eksponere dialoger</p>
     </article>
     <article class="capability-product-link resource-type--operative">

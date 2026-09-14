@@ -27,6 +27,8 @@ Sist redigert: 2026-06-17.
 - Maskinporten - delegering i Maskinporten: https://docs.digdir.no/docs/Maskinporten/maskinporten_func_delegering.html (lagt til 2026-06-25)
 - Maskinporten - systembruker for virksomheter: https://docs.digdir.no/docs/Maskinporten/maskinporten_func_systembruker.html (lagt til 2026-06-25)
 - Maskinporten - samtykketoken i Maskinporten: https://docs.digdir.no/docs/Maskinporten/maskinporten_func_samtykke.html (lagt til 2026-06-25)
+- Altinn - utviklingsguide for samtykke: https://altinn.github.io/docs/utviklingsguider/samtykke/ (lagt til 2026-09-14)
+- Altinn 3 - full overgang i 2026: https://samarbeid.digdir.no/felleslosninger/altinn-3-naermer-seg-full-overgang-dette-skjer-i-2026/3500 (lagt til 2026-09-14)
 - Maskinporten - statistikk: https://samarbeid.digdir.no/maskinporten/statistikk-maskinporten/3423 (lagt til 2026-05-05)
 - Maskinporten - årsrapport 2025: https://samarbeid.digdir.no/maskinporten/maskinporten-2025/3526 (lagt til 2026-05-05)
 - eIDAS-node (Norge): https://www.digdir.no/digital-identitet/eidas/ (lagt til 2026-03-19)
@@ -350,6 +352,7 @@ Sist redigert: 2026-06-17.
 - Regjeringen - helsedata: https://www.regjeringen.no/no/tema/helse-og-omsorg/digitalisering-av-helse-og-omsorgstjenestene/innsikt/helsedata/id3019347/
 - Norsk helsenett - tjenesteoversikt: https://www.nhn.no/tjenester/
 - Kjernejournal (om tjenesten): https://www.nhn.no/tjenester/kjernejournal/om-tjenesten
+- Kjernejournal - spørsmål og svar: https://www.nhn.no/tjenester/kjernejournal/sporsmal-og-svar (lagt til 2026-09-14)
 - E-resept: https://www.nhn.no/tjenester/e-resept
 - E-resept (om tjenesten): https://www.nhn.no/tjenester/e-resept/om-e-resept (lagt til 2026-03-18)
 - Helsenorge: https://www.helsenorge.no/
@@ -357,6 +360,8 @@ Sist redigert: 2026-06-17.
 - Helseopplysninger som deles: https://www.helsenorge.no/helseopplysninger-som-deles
 - Resepter på Helsenorge: https://www.helsenorge.no/legemidler/resepter
 - Helsenorge - om vaksinetjenesten: https://www.helsenorge.no/vaksiner/om/ (lagt til 2026-06-07)
+- Helsenorge - personverninnstillinger: https://www.helsenorge.no/personverninnstillinger/ (lagt til 2026-09-14)
+- Helsenorge - om innstillinger: https://www.helsenorge.no/innstillinger/om-innstillinger/ (lagt til 2026-09-14)
 - HelseID (hva er HelseID): https://www.nhn.no/tjenester/helseid/hva-er-helseid
 - HelseID tjenestetilbud: https://www.nhn.no/tjenester/helseid/tjenestetilbud
 - Hvorfor bruke HelseID: https://www.nhn.no/tjenester/helseid/hvorfor-bruke-helseid (lagt til 2026-03-27)

@@ -34,14 +34,16 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
   Merk at `99` og `104` ble forsøkt revidert 2026-09-10, men stoppet fordi kildene ikke lot seg
   hente: sjekklista ligger bare som PDF bak `digdir.no/media/1850/download`, og
   `orden-eget-hus/2717` gav 403. Begge må kildesjekkes på nytt før de kan fylles ut.
-- Gjennomgå de resterende kapabilitetskoblingene mot regelen fra 2026-09-13 om at kapabiliteter
-  kobles der de realiseres, ikke der de forbrukes, se [decisions.md](./decisions.md). Fire
-  koblinger i `159`, `160` og `161` er ryddet. Disse står igjen til vurdering:
-  - `17` data.altinn.no og `22` Dialogporten har `Tillit: Autentisering` med forklaringer som
-    beskriver bruk av `Maskinporten` og `ID-porten`. Dialogporten har i tillegg
-    `Tillit: Tilgangskontroll` forklart som at den bygger på `Altinn Autorisasjon`. Disse er
-    grensetilfeller: Altinn-familien både forbruker og videreformidler evnene, og bør vurderes
-    samlet framfor én fil om gangen.
+- Vurdere `Tillit: Samtykke` på `4` Altinn Autorisasjon. Kildesjekken 2026-09-14 konkluderte med at
+  samtykke i Altinn er en funksjon i autorisasjonsløsningen, ikke en egen ressurs, se
+  [decisions.md](./decisions.md). Koblingen er ikke satt, fordi `4` ikke var en del av den avtalte
+  endringen. Settes den, bør `04-Altinn-autorisasjon` revideres i samme runde, siden gjeldende
+  beskrivelse ikke omtaler samtykke.
+- Gjennomgå `Tillit`-koblingene i resten av porteføljen mot regelen fra 2026-09-14 om at
+  håndhevingspunkter realiserer `Tilgangskontroll`. `33` HelseID og `47` Feide har samme par
+  `Autentisering` og `Tilgangskontroll` som Altinn-familien ble vurdert på, og bør kontrolleres
+  mot det samme skillet. `24` Altinn Varsling er den svakeste gjenstående: forklaringen beskriver
+  oppslag for å finne mottakere, ikke håndheving av noens tilgang.
 - Etterfylle rettslig forankring i `standarder og veiledning` etter regelen som ble lagt inn
   2026-09-13, se [decisions.md](./decisions.md). Alle tretti gjeldende filer er gjennomgått
   2026-09-13, og behovet er mindre enn ventet: kategorien er allerede eksplisitt om manglende
@@ -170,12 +172,6 @@ med her slik at neste gjennomgang slipper å gjøre vurderingen på nytt:
 
 ### Register og kontroller
 
-- Legge prinsippkontroll inn i `check-resource-structure.py`: sammenligne `**Pn: navn**` i
-  seksjonen `Støtter arkitekturprinsipper` mot de kanoniske navnene i
-  [principles.md](../arkitektur/prinsipper/principles.md), og stoppe filer der P-koden og navnet
-  ikke hører sammen. Behovet er logget i [decisions.md](./decisions.md) 2026-09-10, der feilen
-  beskrives som usynlig for kontrollene. Et engangsskript brukt 2026-09-11 fant ett avvik i
-  `115`, som nå er rettet, men kontrollen finnes fortsatt ikke i verktøykjeden.
 - Utvide [check-resource-version-sync.py](../tools/check-resource-version-sync.py) slik at
   ressursfiler og mapping-oppføringer uten rad i registeret fanges. Kontrollen validerer i dag at
   pekere fra registeret stemmer, ikke at alt som finnes er registerført. Denne blindsonen gjorde at
@@ -191,6 +187,12 @@ med her slik at neste gjennomgang slipper å gjøre vurderingen på nytt:
   [produkt-kapabilitet-koblinger.yaml](../arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml),
   ikke bare toppnivået. Listene er ryddet manuelt 2026-09-05, men verktøyet etterlater dem fortsatt
   utdaterte ved neste versjonsløft, og da stopper `check-resource-version-sync.py` arbeidet.
+  Omfanget ble målt 2026-09-14 og er langt større enn antatt: **86 av 141 produkter mangler helt
+  eller delvis i de avledede listene**. `21` Altinn Portal har fem koblinger i produktoppføringen
+  sin og står i ingen av dem, og vises derfor ikke på en eneste kapabilitetsside på nettstedet.
+  Avviket går bare én vei, så ingen side viser produkter som ikke skal være der; problemet er at
+  sidene underrapporterer. `check-resource-version-sync.py` melder `synkronisert` likevel, så
+  kontrollen bør utvides til å sammenligne produktoppføringene med de avledede listene.
 - Planlegge trinnvis innføring av feltet `Type` i ressursbeskrivelser, med samme kategorier som i
   registeret, slik at koblingen mellom register og enkeltbeskrivelser blir entydig.
 - Vurdere om `DIGDIR-048` Rammeverk for innovasjon i offentlig sektor bør stå som normerende
