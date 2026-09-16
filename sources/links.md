@@ -14,6 +14,7 @@ Sist redigert: 2026-06-17.
 - Om Samarbeidsportalen: https://samarbeid.digdir.no/digital-postkasse/om-samarbeidsportalen/82 (lagt til 2026-04-10)
 - Altinn: https://www.altinn.no
 - Altinn dokumentasjon: https://docs.altinn.studio/nb/ (mest oppdatert for Altinn)
+- Altinn Authorization - samtykke for systemleverandoerer: https://docs.altinn.studio/en/authorization/guides/system-vendor/consent/ (lagt til 2026-09-15)
 - Altinn - tjenesteutvikling: https://samarbeid.digdir.no/altinn/tjenesteutvikling/2634
 - Altinn - portaler og brukeroppleving: https://samarbeid.digdir.no/altinn/portalar-og-brukaroppleving/2485
 - Altinn - bruksvilkår: https://samarbeid.digdir.no/altinn/bruksvilkar-altinn/3639 (lagt til 2026-05-27)

@@ -13,6 +13,7 @@ CAPABILITIES_FILE = REPO_ROOT / "arkitektur" / "kapabiliteter" / "capabilities.y
 MAP_FILE = REPO_ROOT / "arkitektur" / "kapabiliteter" / "produkt-kapabilitet-koblinger.yaml"
 CAPABILITY_WEB_DIR = REPO_ROOT / "web" / "hugo-prototype" / "content" / "kapabiliteter"
 CAPABILITY_GENERATOR = REPO_ROOT / "web" / "hugo-prototype" / "scripts" / "generate-capabilities.py"
+METADATA_SYNC = REPO_ROOT / "tools" / "sync-resource-metadata.py"
 SOURCE_DIRS = [
     REPO_ROOT / "arkitektur" / "ressurser" / "operative-losninger-og-tjenester",
     REPO_ROOT / "arkitektur" / "ressurser" / "normerende-ressurser",
@@ -135,6 +136,64 @@ def check_capability_map(latest: dict[int, dict]) -> list[str]:
                 f"({latest[product_id]['relative_path']})"
             )
     return findings
+
+
+def check_capability_index() -> list[str]:
+    """De avledede produktlistene under `capabilities` skal speile `products`.
+
+    `products` er autoritativ. Listene under `capabilities` er avledet, og
+    ingen sidegenerator leser dem: både `generate-capabilities.py` og
+    `generate-products.ps1` bygger på `products`. Listene er likevel en del av
+    mappingen, og `check_nested_product_references` validerer stiene i dem, så
+    utdaterte oppføringer stopper arbeidet ved neste versjonsløft.
+
+    Kontrollen fanger både manglende og utdaterte oppføringer, inkludert
+    forklaringstekst som er endret i produktoppføringen uten å bli speilet.
+    Kjør `python tools/sync-resource-metadata.py --apply` for å rette.
+    """
+    findings: list[str] = []
+    module = load_metadata_sync_helpers()
+    data = json.loads(MAP_FILE.read_text(encoding="utf-8-sig"))
+
+    expected_capability: dict[str, list[dict]] = {}
+    expected_subcapability: dict[tuple[str, str], list[dict]] = {}
+    for product in sorted(data.get("products", []), key=lambda item: item["product_id"]):
+        for capability in product.get("capabilities", []):
+            entry = module.derived_product_entry(product, capability)
+            expected_capability.setdefault(capability.get("capability_id", ""), []).append(entry)
+            key = (capability.get("capability_id", ""), capability.get("subcapability_id", ""))
+            expected_subcapability.setdefault(key, []).append(entry)
+
+    for capability in data.get("capabilities", []):
+        capability_id = capability.get("capability_id", "")
+        name = capability.get("capability_name")
+        if capability.get("products") != expected_capability.get(capability_id, []):
+            findings.append(
+                f"{MAP_FILE.relative_to(REPO_ROOT)}: den avledede produktlista for kapabilitet "
+                f"{name} stemmer ikke med produktoppføringene"
+            )
+        for sub in capability.get("subcapabilities", []):
+            key = (capability_id, sub.get("subcapability_id", ""))
+            if sub.get("products") != expected_subcapability.get(key, []):
+                findings.append(
+                    f"{MAP_FILE.relative_to(REPO_ROOT)}: den avledede produktlista for "
+                    f"{name}: {sub.get('subcapability_name')} stemmer ikke med produktoppføringene"
+                )
+
+    if findings:
+        findings.append(
+            "  Rett med: python tools/sync-resource-metadata.py --apply"
+        )
+    return findings
+
+
+def load_metadata_sync_helpers():
+    spec = importlib.util.spec_from_file_location("sync_resource_metadata", METADATA_SYNC)
+    if spec is None or spec.loader is None:
+        raise RuntimeError(f"Kunne ikke laste {METADATA_SYNC.relative_to(REPO_ROOT)}")
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
 
 
 def load_capability_helpers():
@@ -289,6 +348,7 @@ def main() -> int:
     findings = check_register(latest)
     findings.extend(check_capability_map(latest))
     findings.extend(check_nested_product_references(latest))
+    findings.extend(check_capability_index())
     findings.extend(check_capability_slugs())
     findings.extend(check_generated_capability_pages())
 
