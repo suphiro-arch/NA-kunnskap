@@ -176,13 +176,6 @@ med her slik at neste gjennomgang slipper å gjøre vurderingen på nytt:
   forklaringstekst i mappingen 2026-08-28, men kapabilitetssidene var sist regenerert 2026-06-25, så
   nettstedet viste den gamle teksten i over to måneder uten at noen kontroll sa fra. Enten bør
   kontrollen sammenligne teksten, eller den bør varsle når en generert side er eldre enn kilden sin.
-- Vurdere om de avledede produktlistene under `capabilities` i
-  [produkt-kapabilitet-koblinger.yaml](../arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml)
-  bør fjernes helt. De er nå verktøygenererte og konsistente, men ingen sidegenerator leser dem:
-  både `generate-capabilities.py` og `generate-products.ps1` bygger på `products`. De utgjør
-  mesteparten av fila og er ren duplisering. Argumentet for å beholde dem er at `mcp_server.py` og
-  framtidige konsumenter kan lese dem som ferdig indeks, og at `check_nested_product_references`
-  validerer stiene. Avgjøres før neste større opprydding i mappingen.
 - Planlegge trinnvis innføring av feltet `Type` i ressursbeskrivelser, med samme kategorier som i
   registeret, slik at koblingen mellom register og enkeltbeskrivelser blir entydig.
 - Vurdere om `DIGDIR-048` Rammeverk for innovasjon i offentlig sektor bør stå som normerende

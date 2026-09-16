@@ -230,73 +230,6 @@ def build_capability_entries(product_name: str, labels: list[dict], main_lookup:
     return entries
 
 
-def derived_product_entry(product: dict, capability: dict) -> dict:
-    """En oppføring i de avledede produktlistene under `capabilities`.
-
-    Feltrekkefølgen følger de eksisterende oppføringene i mappingen, slik at
-    gjenoppbygging ikke gir unødig diff.
-    """
-    return {
-        "product_id": product["product_id"],
-        "product_name": product["product_name"],
-        "version": product["version"],
-        "author": product["author"],
-        "relative_path": product["relative_path"],
-        "product_url": product["product_url"],
-        "mapping_label": capability.get("mapping_label", ""),
-        "explanation": capability.get("explanation", ""),
-        "subcapability_id": capability.get("subcapability_id", ""),
-        "subcapability_name": capability.get("subcapability_name", ""),
-        "subcapability_slug": capability.get("subcapability_slug", ""),
-        "capability_id": capability.get("capability_id", ""),
-        "capability_name": capability.get("capability_name", ""),
-        "capability_slug": capability.get("capability_slug", ""),
-    }
-
-
-def rebuild_capability_index(data: dict) -> list[str]:
-    """Bygg de avledede produktlistene under `capabilities` på nytt fra `products`.
-
-    `products` er den autoritative siden av mappingen. Listene under
-    `capabilities` er avledet, og ble tidligere liggende igjen utdaterte fordi
-    ingenting oppdaterte dem. Måling 2026-09-14 viste at 86 av 141 produkter
-    manglet helt eller delvis, slik at genererte kapabilitetssider
-    underrapporterte hvilke ressurser som realiserer en kapabilitet.
-
-    Oppføringene sorteres på produktnummer, og beholder rekkefølgen
-    kapabilitetene har i produktoppføringen.
-    """
-    by_capability: dict[str, list[dict]] = {}
-    by_subcapability: dict[tuple[str, str], list[dict]] = {}
-
-    for product in sorted(data.get("products", []), key=lambda item: item["product_id"]):
-        for capability in product.get("capabilities", []):
-            entry = derived_product_entry(product, capability)
-            by_capability.setdefault(capability.get("capability_id", ""), []).append(entry)
-            key = (capability.get("capability_id", ""), capability.get("subcapability_id", ""))
-            by_subcapability.setdefault(key, []).append(entry)
-
-    changes: list[str] = []
-    for capability in data.get("capabilities", []):
-        capability_id = capability.get("capability_id", "")
-        rebuilt = by_capability.get(capability_id, [])
-        if capability.get("products") != rebuilt:
-            capability["products"] = rebuilt
-            changes.append(f"Bygde produktlista for kapabilitet {capability.get('capability_name')} på nytt")
-
-        for sub in capability.get("subcapabilities", []):
-            key = (capability_id, sub.get("subcapability_id", ""))
-            rebuilt_sub = by_subcapability.get(key, [])
-            if sub.get("products") != rebuilt_sub:
-                sub["products"] = rebuilt_sub
-                changes.append(
-                    f"Bygde produktlista for {capability.get('capability_name')}: "
-                    f"{sub.get('subcapability_name')} på nytt"
-                )
-
-    return changes
-
-
 def sync(apply_changes: bool) -> int:
     latest = latest_files_by_id()
     register = parse_register()
@@ -370,8 +303,6 @@ def sync(apply_changes: bool) -> int:
 
     products.sort(key=lambda item: item["product_id"])
     data["products"] = products
-
-    changes.extend(rebuild_capability_index(data))
 
     if not changes:
         print("Ingen endringer foreslått.")

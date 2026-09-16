@@ -1,9 +1,0 @@
-{
-  "servers": {
-    "arkifix-mcp": {
-      "type": "stdio",
-      "command": "python",
-      "args": ["tools/mcp_server.py"]
-    }
-  }
-}
