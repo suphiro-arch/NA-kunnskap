@@ -34,10 +34,6 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
   Merk at `99` og `104` ble forsøkt revidert 2026-09-10, men stoppet fordi kildene ikke lot seg
   hente: sjekklista ligger bare som PDF bak `digdir.no/media/1850/download`, og
   `orden-eget-hus/2717` gav 403. Begge må kildesjekkes på nytt før de kan fylles ut.
-- Gjennomgå `Tillit`-koblingene i resten av porteføljen mot regelen fra 2026-09-14 om at
-  håndhevingspunkter realiserer `Tilgangskontroll`. `33` HelseID og `47` Feide har samme par
-  `Autentisering` og `Tilgangskontroll` som Altinn-familien ble vurdert på, og bør kildesjekkes mot
-  det samme skillet. Altinn-familien er ferdig gjennomgått 2026-09-15.
 - Etterfylle rettslig forankring i `standarder og veiledning` etter regelen som ble lagt inn
   2026-09-13, se [decisions.md](./decisions.md). Alle tretti gjeldende filer er gjennomgått
   2026-09-13, og behovet er mindre enn ventet: kategorien er allerede eksplisitt om manglende

@@ -1,7 +1,6 @@
 .venv/
 **/__pycache__/
 *.pyc
-.vscode/mcp.json
 .local-normalize-backup-*/
 .tmp_pptx_extract/
 history-rewrite-backup-*.bundle

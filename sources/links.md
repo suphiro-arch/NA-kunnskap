@@ -508,6 +508,7 @@ Sist redigert: 2026-06-17.
 - Vitnemålsportalen: https://sikt.no/tjenester/vitnemalsportalen (lagt til 2026-03-18)
 - Feide videreutvikling: https://sikt.no/tiltak/feide-videreutvikling (lagt til 2026-03-18)
 - Feide teknisk dokumentasjon: https://docs.feide.no/ (lagt til 2026-03-18)
+- Feide - styre tilgang til datakilde: https://docs.feide.no/data_sharing/data_provider/managing_access_to_a_data_source.html (lagt til 2026-09-16)
 - Feide: https://kunde.feide.no (lagt til 2026-08-28)
 - Feide: https://www.feide.no/driftsmeldinger (lagt til 2026-08-28)
 - Feide: https://www.feide.no/om-feide (lagt til 2026-08-28)

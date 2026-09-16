@@ -172,7 +172,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 
 | Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
 |---:|---|---|---|---|---|---|
-| 47 | `SIKT-001` | Feide | Gjenbrukbare løsninger | Autentisering | Dele data med andre<br>Sikring av informasjonsflyt og datautveksling<br>Autentisering<br>Tilgangskontroll | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/47-Feide-produkt-canvas-v1-codex.md) |
+| 47 | `SIKT-001` | Feide | Gjenbrukbare løsninger | Autentisering | Dele data med andre<br>Sikring av informasjonsflyt og datautveksling<br>Autentisering<br>Tilgangskontroll | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/47-Feide-produkt-canvas-v2-claude.md) |
 | 48 | `SIKT-002` | Felles studentsystem (FS) | Gjenbrukbare løsninger | Studentdata | Bruke data fra andre<br>Dele data med andre<br>Datastyring<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/48-Felles-studentsystem-produkt-canvas-v1-codex.md) |
 | 49 | `SIKT-003` | Opptaksløsninger | Gjenbrukbare løsninger | Opptaksløsning | Bruke data fra andre<br>Organisatorisk samhandling<br>Sammenhengende tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/49-Opptakslosninger-produkt-canvas-v2-codex.md) |
 | 50 | `SIKT-004` | Nasjonal vitnemålsdatabase (NVB) | Gjenbrukbare løsninger | Vitnemål | Grunndata<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/50-Nasjonal-vitnemalsdatabase-produkt-canvas-v1-codex.md) |
@@ -239,7 +239,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 | Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
 |---:|---|---|---|---|---|---|
 | 32 | `NHN-001` | Helsenorge | Gjenbrukbare løsninger | Innbyggerportal | Sammenhengende tjenester<br>Tjenestekjeder<br>Representasjon<br>Samtykke<br>Tilgangsstyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/32-Helsenorge-produkt-canvas-v2-claude.md) |
-| 33 | `NHN-002` | HelseID | Gjenbrukbare løsninger | Tillits- og autentiseringskomponent for helse | Bruke data fra andre<br>Sikring av informasjonsflyt og datautveksling<br>Autentisering<br>Tilgangskontroll | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/33-HelseID-produkt-canvas-v1-codex.md) |
+| 33 | `NHN-002` | HelseID | Gjenbrukbare løsninger | Tillits- og autentiseringskomponent for helse | Bruke data fra andre<br>Sikring av informasjonsflyt og datautveksling<br>Autentisering | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/33-HelseID-produkt-canvas-v2-claude.md) |
 | 34 | `NHN-003` | Kjernejournal | Gjenbrukbare løsninger | Pasientdata | Bruke data fra andre<br>Dele data med andre<br>Organisatorisk samhandling<br>Sporbarhet og innsyn<br>Tilgangskontroll | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/34-Kjernejournal-produkt-canvas-v3-claude.md) |
 | 35 | `NHN-004` | e-resept | Gjenbrukbare løsninger | Reseptsystem | Bruke data fra andre<br>Meldingsutveksling<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/35-e-resept-produkt-canvas-v1-codex.md) |
 | 79 | `NHN-005` | Videokonsultasjon (VIO) | Gjenbrukbare løsninger | Digital konsultasjonstjeneste | Sammenhengende tjenester<br>Dele data med andre | - |
