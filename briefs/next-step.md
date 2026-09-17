@@ -28,12 +28,17 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
   `115` oppgav `P3: Ta hensyn til juridiske og organisatoriske rammer`, mens prinsippet heter
   `Bidra til digitaliseringsvennlige regelverk`. Rettet i `v2`. En mekanisk kontroll av alle 141
   gjeldende filer 2026-09-11 fant ingen andre avvik.
-  Prioriter etter tynnhet. Disse gjenstår av de seks som var under 800 ord, mot en median på rundt
-  1550: `104-Orden-i-eget-hus` (776), `99-Sjekkliste-for-sammenhengende-tjenester` (779),
-  `100-Kart-for-tjenestekjeder` (792) og `114-Klart-sprak` (797).
-  Merk at `99` og `104` ble forsøkt revidert 2026-09-10, men stoppet fordi kildene ikke lot seg
-  hente: sjekklista ligger bare som PDF bak `digdir.no/media/1850/download`, og
-  `orden-eget-hus/2717` gav 403. Begge må kildesjekkes på nytt før de kan fylles ut.
+  Alle fire filene som var under 800 ord er revidert 2026-09-17, mot en median på rundt 1550:
+  `104-Orden-i-eget-hus` (776 til 1824), `99-Sjekkliste-for-sammenhengende-tjenester` (779 til 2400),
+  `100-Kart-for-tjenestekjeder` (792 til 2014) og `114-Klart-sprak` (797 til 1879).
+  Alle fire hadde de samme fire manglene: formuleringen `Ressursen er viktig fordi` i åpningen,
+  kapabiliteter uten forklaring, ingen merking av fakta og deduksjon, og forpliktelsesnivå uten
+  å si om hjemmel finnes. Neste runde bør gå på de neste filene etter ordantall, og lete etter
+  samme fire mønstre framfor å lese hver fil fra scratch.
+  Blokkeringen fra 2026-09-10 var delvis feildiagnostisert. `104` var ikke utilgjengelig; URL-en i
+  fila var feil. `/orden-eget-hus/orden-eget-hus/2717` gir 403, men
+  `/informasjonsforvaltning/veileder-orden-i-eget-hus/2716` virker. Lærdommen er å prøve alternative
+  adresser før en kilde føres som utilgjengelig.
 - Etterfylle rettslig forankring i `standarder og veiledning` etter regelen som ble lagt inn
   2026-09-13, se [decisions.md](./decisions.md). Alle tretti gjeldende filer er gjennomgått
   2026-09-13, og behovet er mindre enn ventet: kategorien er allerede eksplisitt om manglende
@@ -194,6 +199,11 @@ Ikke besluttet, ikke påbegynt. Står her for ikke å gå tapt, ikke som forplik
 - **Viderekobling fra gamle web-URL-er.** Hugo `aliases` i `generate-products.ps1` for URL-er som
   forsvinner ved omstrukturering. Vurdert 2026-09-01 og lagt bort: adressene det gjaldt viste feil
   innhold, og nettstedet er merket som under arbeid.
+- **Digital videreutvikling av `99` Sjekkliste for sammenhengende tjenester.** Verktøyet er bygget
+  for Miro, men distribueres som PDF-eksport av et lysbildesett. Innholdet er gjennomarbeidet, men
+  formen gjør at hver bruker må gjenskape oppsettet selv før verktøyet kan brukes som tenkt. En
+  digital utgave ville vært et lavthengende løft. Ideen er ikke forankret hos Digdir, og hører
+  sammen med å avklare statusen på `v. 2.5` fra 2022 mot veilederen fra februar 2024.
 - **Evalueringsrubrikk i analysemalen** med score for sporbarhet, gjenbrukbarhet, styringsrelevans
   og presisjon.
 - **Eiernavn i to lag** i ressursregisteret: lesbart visningsnavn og registrert navn fra

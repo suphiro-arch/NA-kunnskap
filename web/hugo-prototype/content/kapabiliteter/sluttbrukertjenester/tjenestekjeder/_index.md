@@ -41,8 +41,8 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/100-Kart-for-tjenestekjeder-v1-codex.md">Kart for tjenestekjeder</a></h3>
-      <p class="capability-product-link__description">Ressursen gir en felles metode for å kartlegge tverrvirksomhetlige forløp, avhengigheter og overgangspunkter, og styrker derfor arbeidet med tjenestekjeder som sammenhengende helheter.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/100-Kart-for-tjenestekjeder-v2-claude.md">Kart for tjenestekjeder</a></h3>
+      <p class="capability-product-link__description">gir metoden for å avgrense og beskrive en tjenestekjede, fra hendelse til utløste tjenester til berørte datakilder, og gjør kjeden til et analyserbart objekt framfor en løs betegnelse</p>
     </article>
   </div>
 ---

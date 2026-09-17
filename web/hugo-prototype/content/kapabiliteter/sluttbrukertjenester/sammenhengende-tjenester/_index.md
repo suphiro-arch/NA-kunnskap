@@ -96,13 +96,13 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/99-Sjekkliste-for-sammenhengende-tjenester-v1-codex.md">Sjekkliste for sammenhengende tjenester</a></h3>
-      <p class="capability-product-link__description">Sjekklisten brukes for å avdekke brudd i brukerreiser på tvers av virksomheter og styrker derfor arbeidet med sammenhengende tjenester fra sluttbrukerperspektiv.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/99-Sjekkliste-for-sammenhengende-tjenester-v2-claude.md">Sjekkliste for sammenhengende tjenester</a></h3>
+      <p class="capability-product-link__description">definerer hvilke arbeidsområder som må være avklart for at en livshendelse skal fungere på tvers av aktører, og gjør sammenheng etterprøvbart område for område</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v1-codex.md">Klart språk</a></h3>
-      <p class="capability-product-link__description">styrker forståelige og sammenhengende brukerreiser ved å gjøre språk og kommunikasjon lettere å forstå.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v2-claude.md">Klart språk</a></h3>
+      <p class="capability-product-link__description">retter rådene mot menyer, navigasjon, knapper, hjelpetekster og feilmeldinger, altså punktene der et forløp brytes for brukeren</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>

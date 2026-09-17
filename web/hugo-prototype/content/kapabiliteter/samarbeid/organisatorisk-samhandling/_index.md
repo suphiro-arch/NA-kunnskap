@@ -96,8 +96,8 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/100-Kart-for-tjenestekjeder-v1-codex.md">Kart for tjenestekjeder</a></h3>
-      <p class="capability-product-link__description">Kartleggingen synliggjør ansvarsoverganger mellom aktører og brukes som grunnlag for samordning av tiltak på tvers av virksomheter, noe som understøtter organisatorisk samhandling.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/100-Kart-for-tjenestekjeder-v2-claude.md">Kart for tjenestekjeder</a></h3>
+      <p class="capability-product-link__description">navngir aktører og tjenesteleverandører per tjeneste, slik at ansvarsovergangene samordningen må håndtere blir synlige</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>

@@ -21,8 +21,8 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/99-Sjekkliste-for-sammenhengende-tjenester-v1-codex.md">Sjekkliste for sammenhengende tjenester</a></h3>
-      <p class="capability-product-link__description">Ressursen oversetter overordnede prinsipper til konkrete kontrollspørsmål som brukes i tjenestedesign og konseptutforming av tverrgående forløp.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/99-Sjekkliste-for-sammenhengende-tjenester-v2-claude.md">Sjekkliste for sammenhengende tjenester</a></h3>
+      <p class="capability-product-link__description">brukes gjennom alle faser av arbeidet, med brukerreisen som utgangspunkt i tjenestekjede-området</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
@@ -31,8 +31,8 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v1-codex.md">Klart språk</a></h3>
-      <p class="capability-product-link__description">behandler språk som en integrert del av utforming av digitale tjenester, ikke bare som etterredigering.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v2-claude.md">Klart språk</a></h3>
+      <p class="capability-product-link__description">plasserer språkarbeidet i prosjektfasene og foreskriver tverrfaglige aktiviteter mellom tekst og design framfor sekvensiell overlevering</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>

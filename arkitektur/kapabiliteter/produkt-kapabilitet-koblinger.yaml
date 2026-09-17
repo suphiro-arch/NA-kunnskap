@@ -3298,10 +3298,10 @@
         {
             "product_id": 99,
             "product_name": "Sjekkliste for sammenhengende tjenester",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/99-Sjekkliste-for-sammenhengende-tjenester-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/99-Sjekkliste-for-sammenhengende-tjenester-v1-codex.md",
+            "version": 2,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/99-Sjekkliste-for-sammenhengende-tjenester-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/99-Sjekkliste-for-sammenhengende-tjenester-v2-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
@@ -3311,7 +3311,7 @@
                     "subcapability_name": "Sammenhengende tjenester",
                     "subcapability_slug": "sammenhengende-tjenester",
                     "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-                    "explanation": "Sjekklisten brukes for å avdekke brudd i brukerreiser på tvers av virksomheter og styrker derfor arbeidet med sammenhengende tjenester fra sluttbrukerperspektiv."
+                    "explanation": "definerer hvilke arbeidsområder som må være avklart for at en livshendelse skal fungere på tvers av aktører, og gjør sammenheng etterprøvbart område for område"
                 },
                 {
                     "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
@@ -3321,7 +3321,7 @@
                     "subcapability_name": "Tjenestedesign",
                     "subcapability_slug": "tjenestedesign",
                     "mapping_label": "Tjenesteutvikling: Tjenestedesign",
-                    "explanation": "Ressursen oversetter overordnede prinsipper til konkrete kontrollspørsmål som brukes i tjenestedesign og konseptutforming av tverrgående forløp."
+                    "explanation": "brukes gjennom alle faser av arbeidet, med brukerreisen som utgangspunkt i tjenestekjede-området"
                 },
                 {
                     "capability_id": "id-c0547226c598467a942dced879d0c18b",
@@ -3331,17 +3331,17 @@
                     "subcapability_name": "Anvendelse av veiledning",
                     "subcapability_slug": "anvendelse-av-veiledning",
                     "mapping_label": "Veiledning: Anvendelse av veiledning",
-                    "explanation": "Ressursen er en praktisk sjekkliste og veileder som brukes direkte av virksomheter for å vurdere og forbedre sammenhengende tjenester i samspill med andre aktører."
+                    "explanation": "er laget for å tas i bruk i konkrete tiltak, med sjekklister som besvares og gjenbesøkes ved milepæler"
                 }
             ]
         },
         {
             "product_id": 100,
             "product_name": "Kart for tjenestekjeder",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/100-Kart-for-tjenestekjeder-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/100-Kart-for-tjenestekjeder-v1-codex.md",
+            "version": 2,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/100-Kart-for-tjenestekjeder-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/100-Kart-for-tjenestekjeder-v2-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
@@ -3351,7 +3351,7 @@
                     "subcapability_name": "Tjenestekjeder",
                     "subcapability_slug": "tjenestekjeder",
                     "mapping_label": "Sluttbrukertjenester: Tjenestekjeder",
-                    "explanation": "Ressursen gir en felles metode for å kartlegge tverrvirksomhetlige forløp, avhengigheter og overgangspunkter, og styrker derfor arbeidet med tjenestekjeder som sammenhengende helheter."
+                    "explanation": "gir metoden for å avgrense og beskrive en tjenestekjede, fra hendelse til utløste tjenester til berørte datakilder, og gjør kjeden til et analyserbart objekt framfor en løs betegnelse"
                 },
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
@@ -3361,7 +3361,7 @@
                     "subcapability_name": "Organisatorisk samhandling",
                     "subcapability_slug": "organisatorisk-samhandling",
                     "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "Kartleggingen synliggjør ansvarsoverganger mellom aktører og brukes som grunnlag for samordning av tiltak på tvers av virksomheter, noe som understøtter organisatorisk samhandling."
+                    "explanation": "navngir aktører og tjenesteleverandører per tjeneste, slik at ansvarsovergangene samordningen må håndtere blir synlige"
                 }
             ]
         },
@@ -3458,10 +3458,10 @@
         {
             "product_id": 104,
             "product_name": "Orden i eget hus",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/104-Orden-i-eget-hus-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/104-Orden-i-eget-hus-v1-codex.md",
+            "version": 2,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/104-Orden-i-eget-hus-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/104-Orden-i-eget-hus-v2-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-896e4c1434604caa891b94bcce964720",
@@ -3471,7 +3471,7 @@
                     "subcapability_name": "Datastyring",
                     "subcapability_slug": "datastyring",
                     "mapping_label": "Informasjonsforvaltning: Datastyring",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Orden i eget hus basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "normerer ansvarsplassering, prosess og varig forvaltning av dataressursene gjennom steg 1 om forankring og steg 7 om å styre og forvalte"
                 },
                 {
                     "capability_id": "id-896e4c1434604caa891b94bcce964720",
@@ -3481,7 +3481,7 @@
                     "subcapability_name": "Oversikt over datasett",
                     "subcapability_slug": "oversikt-over-datasett",
                     "mapping_label": "Informasjonsforvaltning: Oversikt over datasett",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Orden i eget hus basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
+                    "explanation": "normerer hvordan dataoversikten blir til og gjøres brukbar for andre: kartlegging, beskrivelse med metadata og tilgjengeliggjøring internt og eksternt"
                 }
             ]
         },
@@ -3818,10 +3818,10 @@
         {
             "product_id": 114,
             "product_name": "Klart språk",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v1-codex.md",
+            "version": 2,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v2-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
@@ -3831,7 +3831,7 @@
                     "subcapability_name": "Sammenhengende tjenester",
                     "subcapability_slug": "sammenhengende-tjenester",
                     "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-                    "explanation": "styrker forståelige og sammenhengende brukerreiser ved å gjøre språk og kommunikasjon lettere å forstå."
+                    "explanation": "retter rådene mot menyer, navigasjon, knapper, hjelpetekster og feilmeldinger, altså punktene der et forløp brytes for brukeren"
                 },
                 {
                     "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
@@ -3841,7 +3841,7 @@
                     "subcapability_name": "Tjenestedesign",
                     "subcapability_slug": "tjenestedesign",
                     "mapping_label": "Tjenesteutvikling: Tjenestedesign",
-                    "explanation": "behandler språk som en integrert del av utforming av digitale tjenester, ikke bare som etterredigering."
+                    "explanation": "plasserer språkarbeidet i prosjektfasene og foreskriver tverrfaglige aktiviteter mellom tekst og design framfor sekvensiell overlevering"
                 },
                 {
                     "capability_id": "id-c0547226c598467a942dced879d0c18b",
@@ -3851,7 +3851,7 @@
                     "subcapability_name": "Anvendelse av veiledning",
                     "subcapability_slug": "anvendelse-av-veiledning",
                     "mapping_label": "Veiledning: Anvendelse av veiledning",
-                    "explanation": "Ressursen er en veiledningsressurs som brukes direkte for å utforme tydeligere og mer forståelige tekster og tjenester i samhandling med brukere."
+                    "explanation": "er formet som aktiviteter et team kan gjennomføre, ikke som prinsipper alene"
                 }
             ]
         },

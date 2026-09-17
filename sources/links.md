@@ -565,6 +565,7 @@ Sist redigert: 2026-06-17.
 - Rammeverk for nasjonal arkitektur: https://digdir.github.io/nasjonal-arkitektur/ (lagt til 2026-06-04)
 - Overordnede arkitekturprinsipper: https://www.digdir.no/digital-samhandling/overordnede-arkitekturprinsipper/1065 (kanonisk URL oppdatert 2026-06-19)
 - Sjekkliste for sammenhengende tjenester: https://www.digdir.no/media/1850/download (lagt til 2026-04-09)
+- Oppdatert veileder om sammenhengende tjenester, DFOe og Digdir 27.02.2024: https://www.digdir.no/sammenhengende-tjenester/oppdatert-veileder-om-sammenhengende-tjenester/5551 (lagt til 2026-09-17)
 - Rammeverk for digital samhandling: https://www.digdir.no/digital-samhandling/rammeverk-digital-samhandling/2149 (kanonisk URL oppdatert 2026-06-19)
 - Arkitektur for hendelser: https://www.digdir.no/digital-samhandling/innledning/4169 (kanonisk URL oppdatert 2026-06-19)
 - Arkitektur for hendelser - eldre kortlenke: https://www.digdir.no/samhandling/arkitektur-hendelser/4691
@@ -606,7 +607,11 @@ Sist redigert: 2026-06-17.
 - Rammeverk for informasjonsforvaltning: https://www.digdir.no/digitalisering-og-samordning/rammeverk-informasjonsforvaltning/2419
 - Rammeverk for informasjonsforvaltning (oppdatert URL): https://www.digdir.no/informasjonsforvaltning/rammeverk-informasjonsforvaltning/3626 (lagt til 2026-06-07)
 - Informasjonsforvaltning hos Digdir: https://www.digdir.no/informasjonsforvaltning/informasjonsforvaltning/2113 (lagt til 2026-06-07)
-- Orden i eget hus: https://www.digdir.no/orden-eget-hus/orden-eget-hus/2717
+- Orden i eget hus (gammel adresse, gir 403 per 2026-09-17): https://www.digdir.no/orden-eget-hus/orden-eget-hus/2717
+- Veileder for orden i eget hus: https://www.digdir.no/informasjonsforvaltning/veileder-orden-i-eget-hus/2716 (lagt til 2026-09-17)
+- Orden i eget hus - hvordan bruke veilederen: https://www.digdir.no/informasjonsforvaltning/hvordan-bruker-dere-denne-veilederen-til-skape-orden-i-eget-hus/2794 (lagt til 2026-09-17)
+- Veileder for orden i eget hus, kildekode: https://github.com/Informasjonsforvaltning/veileder-orden-i-eget-hus (lagt til 2026-09-17)
+- Modenhetsmodell for orden i eget hus: https://informasjonsforvaltning.github.io/modenhetsmodell/ (lagt til 2026-09-17)
 - Rammeverk for nasjonale grunndata - spesifikasjon: https://data.norge.no/specification/nasjonale-grunndata-rammeverk (lagt til 2026-06-07)
 - Nasjonale grunndata hos Digdir: https://www.digdir.no/datadeling/nasjonale-grunndata/7575 (lagt til 2026-06-07)
 - Valgt tilnærming for nasjonale grunndata: https://www.digdir.no/datadeling/valgt-tilnaerming/7554 (lagt til 2026-06-07)

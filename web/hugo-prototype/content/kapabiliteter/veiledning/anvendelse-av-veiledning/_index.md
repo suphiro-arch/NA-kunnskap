@@ -11,8 +11,8 @@ productsMarkdown: |
   <div class="capability-product-links">
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/99-Sjekkliste-for-sammenhengende-tjenester-v1-codex.md">Sjekkliste for sammenhengende tjenester</a></h3>
-      <p class="capability-product-link__description">Ressursen er en praktisk sjekkliste og veileder som brukes direkte av virksomheter for å vurdere og forbedre sammenhengende tjenester i samspill med andre aktører.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/99-Sjekkliste-for-sammenhengende-tjenester-v2-claude.md">Sjekkliste for sammenhengende tjenester</a></h3>
+      <p class="capability-product-link__description">er laget for å tas i bruk i konkrete tiltak, med sjekklister som besvares og gjenbesøkes ved milepæler</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
@@ -21,8 +21,8 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v1-codex.md">Klart språk</a></h3>
-      <p class="capability-product-link__description">Ressursen er en veiledningsressurs som brukes direkte for å utforme tydeligere og mer forståelige tekster og tjenester i samhandling med brukere.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v2-claude.md">Klart språk</a></h3>
+      <p class="capability-product-link__description">er formet som aktiviteter et team kan gjennomføre, ikke som prinsipper alene</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
