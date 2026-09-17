@@ -3718,10 +3718,10 @@
         {
             "product_id": 111,
             "product_name": "Digitaliseringsrådet",
-            "version": 2,
+            "version": 3,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v2-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v2-claude.md",
+            "relative_path": "arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v3-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v3-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
@@ -3731,17 +3731,7 @@
                     "subcapability_name": "Samarbeidsarenaer og nettverk",
                     "subcapability_slug": "samarbeidsarenaer-og-nettverk",
                     "mapping_label": "Samarbeid: Samarbeidsarenaer og nettverk",
-                    "explanation": "Foreløpig automatisk opprettet kobling for Digitaliseringsrådet basert på register og ressursbeskrivelse. Må kvalitetssikres faglig."
-                },
-                {
-                    "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
-                    "capability_name": "Strategisk styring",
-                    "capability_slug": "strategisk-styring",
-                    "subcapability_id": "id-dabf94e621f644ffa53ebb44dcc9ff79",
-                    "subcapability_name": "Arkitekturstyring",
-                    "subcapability_slug": "arkitekturstyring",
-                    "mapping_label": "Strategisk styring: Arkitekturstyring",
-                    "explanation": "Digitaliseringsrådet støtter særlig kapabiliteter knyttet til læring på tvers, rådgivende samspill og bedre strategisk styring av krevende digitaliseringstiltak."
+                    "explanation": "realiseres direkte som fast arena med oppnevnte rådsmedlemmer, sekretariat i Digdir og en dokumentert prosess i sju trinn. De 137 publiserte anbefalingsbrevene gjør den enkelte drøftingen om til kunnskapsdeling på tvers av 17 departementsområder"
                 }
             ]
         },

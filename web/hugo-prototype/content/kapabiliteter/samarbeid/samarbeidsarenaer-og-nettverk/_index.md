@@ -21,8 +21,8 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v2-claude.md">Digitaliseringsrådet</a></h3>
-      <p class="capability-product-link__description">Foreløpig automatisk opprettet kobling for Digitaliseringsrådet basert på register og ressursbeskrivelse. Må kvalitetssikres faglig.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v3-claude.md">Digitaliseringsrådet</a></h3>
+      <p class="capability-product-link__description">realiseres direkte som fast arena med oppnevnte rådsmedlemmer, sekretariat i Digdir og en dokumentert prosess i sju trinn. De 137 publiserte anbefalingsbrevene gjør den enkelte drøftingen om til kunnskapsdeling på tvers av 17 departementsområder</p>
     </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>

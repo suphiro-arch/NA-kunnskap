@@ -177,6 +177,17 @@ med her slik at neste gjennomgang slipper å gjøre vurderingen på nytt:
   forklaringstekst i mappingen 2026-08-28, men kapabilitetssidene var sist regenerert 2026-06-25, så
   nettstedet viste den gamle teksten i over to måneder uten at noen kontroll sa fra. Enten bør
   kontrollen sammenligne teksten, eller den bør varsle når en generert side er eldre enn kilden sin.
+- Rette `27` Fiks SvarUt, der `Grunnlag`-teksten etter kulelista er trukket inn i forklaringen for
+  siste kapabilitet i kapabilitetsmappingen. Dette er den eneste gjenværende forurensede
+  forklaringen; målt 2026-09-17 mot alle gjeldende filer. Fiksen må gjøres i ressursfila ved å
+  flytte `Grunnlag`-teksten foran lista, ikke i mappingen, siden `sync-resource-metadata.py` ellers
+  skriver feilen inn igjen ved neste kjøring.
+- Vurdere en kontroll som stopper kapabilitetspunkter uten forklaring. Erfaringen fra `104` og `111`
+  er at manglende forklaring er årsaken til at feilkoblinger overlever: en kobling uten begrunnelse
+  blir aldri prøvd mot definisjonen i `capabilities.yaml`. To forsøk på å måle omfanget mekanisk
+  2026-09-17 gav upålitelige tall, fordi filene bruker minst to ulike kulepunktformater. En kontroll
+  må derfor håndtere begge formatene: forklaring på samme linje som labelen, og forklaring på linja
+  under.
 - Planlegge trinnvis innføring av feltet `Type` i ressursbeskrivelser, med samme kategorier som i
   registeret, slik at koblingen mellom register og enkeltbeskrivelser blir entydig.
 - Vurdere om `DIGDIR-048` Rammeverk for innovasjon i offentlig sektor bør stå som normerende
@@ -199,11 +210,6 @@ Ikke besluttet, ikke påbegynt. Står her for ikke å gå tapt, ikke som forplik
 - **Viderekobling fra gamle web-URL-er.** Hugo `aliases` i `generate-products.ps1` for URL-er som
   forsvinner ved omstrukturering. Vurdert 2026-09-01 og lagt bort: adressene det gjaldt viste feil
   innhold, og nettstedet er merket som under arbeid.
-- **Digital videreutvikling av `99` Sjekkliste for sammenhengende tjenester.** Verktøyet er bygget
-  for Miro, men distribueres som PDF-eksport av et lysbildesett. Innholdet er gjennomarbeidet, men
-  formen gjør at hver bruker må gjenskape oppsettet selv før verktøyet kan brukes som tenkt. En
-  digital utgave ville vært et lavthengende løft. Ideen er ikke forankret hos Digdir, og hører
-  sammen med å avklare statusen på `v. 2.5` fra 2022 mot veilederen fra februar 2024.
 - **Evalueringsrubrikk i analysemalen** med score for sporbarhet, gjenbrukbarhet, styringsrelevans
   og presisjon.
 - **Eiernavn i to lag** i ressursregisteret: lesbart visningsnavn og registrert navn fra
