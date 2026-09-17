@@ -202,25 +202,8 @@ Spenning og begrensning: ordningen støtter prinsippene om brukerorientering, ri
 ## Endringer fra forrige versjon
 
 ### Rettede feil
-- `v1` hadde tre selvrefererende passasjer: «For analysebruk betyr dette», «Det gjør forumet nyttig i analyser som ellers lett blir for tekniske» og «I analyser bør dette tas med». Slike formuleringer skal ikke stå i en ressursbeskrivelse, jf. regelen i `AGENTS.md`. Innholdet er skrevet om til utsagn om ordningen selv.
-- `v1` skrev at anbefalingsbrevene «er knyttet til konkrete saker og virksomheter», som gav inntrykk av at de ikke er offentlige. Brevene publiseres i sin helhet og kan lastes ned fra eInnsyn.
-
-### Faktaretting mot kilde
-- Arbeidsformen er erstattet med det dokumenterte løpet i sju trinn, med de konkrete fristene: dokumentasjon senest to uker før møtet, og anbefalingsbrev innen én uke etter.
-- Oppfølgingen er konkretisert: tilbakemeldingssamtale etter møtet, og erfaringsdrøfting om lag ett år senere.
-- Målgruppen er presisert. Ordningen gjelder statlige virksomheter, men også løp der statlige aktører samarbeider med privat, kommunal eller frivillig sektor.
-- `Digdirs virkemiddeloversikt (intern presentasjon, mars 2026)` er fjernet fra kildegrunnlaget. Alt som var hentet derfra er nå dekket av åpne kilder.
-
-### Nytt innhold
-- Anbefalingsbrevene som publisert erfaringsbase: 137 brev fra 2016 til 2026, fordelt på 17 departementsområder.
-- Merking av fakta og deduksjon. `v1` gjorde samme skille i prosa, men uten de merkene malen nå definerer.
-- Kryssreferanser med ressurs-ID til `DIGDIR-028`, `DIGDIR-042` og `DIGDIR-045`.
-
-## Endringer fra v2 til v3
-
-### Rettede feil
 - `Kapabiliteter` er rettet opp. `v2` listet to kapabiliteter uten forklaring, og hadde en avsluttende setning etter kulelista. AGENTS.md krever at slik tekst står før lista, fordi `sync-resource-metadata.py` ellers trekker den inn i forklaringen for den siste kapabiliteten. Det hadde skjedd: setningen om læring på tvers lå som forklaring på `Arkitekturstyring` i kapabilitetsmappingen, og `Samarbeidsarenaer og nettverk` sto igjen med teksten «Foreløpig automatisk opprettet kobling ... må kvalitetssikres faglig».
-- `Strategisk styring: Arkitekturstyring` er fjernet. Kapabiliteten gjelder å styre en felles, forpliktende nasjonal arkitektur. Digitaliseringsrådet gir ikke-bindende råd til én virksomhet om dens eget tiltak, og beskrivelsen viser selv arkitekturspørsmål videre til `Arkitektur- og standardiseringsrådet`. Koblingen var en følge av at forklaringsteksten manglet: uten krav om begrunnelse ble den aldri prøvd mot definisjonen.
+- `Strategisk styring: Arkitekturstyring` er fjernet. Kapabiliteten gjelder å styre en felles, forpliktende nasjonal arkitektur med prinsipper, referansearkitekturer, standarder og byggeklosser. Digitaliseringsrådet gir ikke-bindende råd til én virksomhet om dens eget tiltak, og beskrivelsen viser selv arkitekturspørsmål videre til `Arkitektur- og standardiseringsrådet`. Koblingen var en følge av at forklaringsteksten manglet: uten krav om begrunnelse ble den aldri prøvd mot definisjonen.
 
 ### Nytt innhold
 - `Samarbeid: Samarbeidsarenaer og nettverk` har fått en begrunnelse forankret i den faste arenaen, sekretariatsfunksjonen, prosessen i sju trinn og brevarkivet som kunnskapsdeling på tvers.
