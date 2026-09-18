@@ -12,7 +12,7 @@ Denne oversikten viser siste registrerte versjon per ressurs, gruppert etter ram
 
 Tekniske komponenter, applikasjoner og tjenester som leverer funksjonalitet eller dataprodukter som kan brukes av flere.
 
-Antall ressurser: **91**
+Antall ressurser: **92**
 
 ## [Standarder og veiledning](./normerende-ressurser/)
 

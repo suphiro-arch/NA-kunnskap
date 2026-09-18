@@ -39,6 +39,33 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
   fila var feil. `/orden-eget-hus/orden-eget-hus/2717` gir 403, men
   `/informasjonsforvaltning/veileder-orden-i-eget-hus/2716` virker. Lærdommen er å prøve alternative
   adresser før en kilde føres som utilgjengelig.
+- Følge opp de fire uavklarte punktene i arbeidsdelingen mellom `21` Altinn.no og `18` Norge.no.
+  Selve overlappen er dokumentert i begge canvasene 2026-09-18, se [decisions.md](./decisions.md).
+  Det som gjenstår er å finne ut om noe av dette faktisk er avklart et sted vi ikke har funnet:
+  hvor grensen går for innbyggerrettede Altinn-tjenester, hvem som avgjør enkelttilfeller, om
+  Norge.no har en egen publisert innholdsstrategi, og hva statusen er for den mulige sammenslåingen
+  av de to portalene som Altinns innholdsstrategi nevner. Dette krever kilder vi ikke fant i åpne
+  søk, og bør antakelig avklares direkte med produktmiljøene framfor gjennom flere søkerunder.
+- Rette den gjenstående referansen til det gamle navnet `Altinn Portal` i
+  `23-Altinn-3-Melding-produkt-canvas-v5-codex.md`, som er gjeldende versjon. Den står i ett
+  kulepunkt under `Vanlige kombinasjoner`. Ikke verdt en egen versjon for ett ord; tas ved neste
+  ordinære revisjon av fila. Eldre versjoner og historiske notater beholder navnet som historikk.
+- Melde fra om, eller finne ny adresse for, om-sidene til Norge.no. Både
+  `www.norge.no/om-norge-no` og `www.norge.no/en/about-norgeno` svarer `404`. De var
+  primærkilder i `v3` av `18`, og er nå merket som døde i `sources/links.md`. Portalens forsiden
+  lot seg heller ikke lese maskinelt, så vi har i dag ingen egenpresentasjon fra Norge.no selv.
+- Vurdere om `Tjenestekjeder` er riktig koblet på de øvrige ressursene som har den. Kapabiliteten
+  er nå fjernet fra både `21` og `18` fordi den gjelder å koordinere og automatisere informasjonsflyt
+  mellom uavhengige tjenester, ikke å lenke redaksjonelt mellom dem. Samme test bør kjøres på resten
+  av porteføljen, siden begge tilfellene så plausible ut helt til definisjonen ble lest.
+- Sammenligne den øvrige porteføljen mot Digdirs egen fellesløsningsoversikt
+  (https://samarbeid.digdir.no/felleslosninger/felleslosninger/1309). Sammenligningen 2026-09-17
+  fant to avvik: `Arbeidsflate`, som nå er opprettet som `165`, og `ki.norge.no`, som er dekket som
+  publiseringsflate i `125-KI-Norge-v3-claude.md` framfor som egen ressurs. Prosjektsporet på siden
+  (`Digitalt dødsbo`, `Digital representasjon`, `MinID i skolen`, `Moderniseringen av Altinn`,
+  `Ny finansieringsmodell for fellesløsningene`) er bevisst holdt utenfor: oversikten dekker
+  ressurser, ikke prosjekter. `Ny finansieringsmodell for fellesløsningene` bør likevel følges,
+  fordi utfallet treffer både `120` Styringsrådet og `142` Medfinansieringsordningen.
 - Etterfylle rettslig forankring i `standarder og veiledning` etter regelen som ble lagt inn
   2026-09-13, se [decisions.md](./decisions.md). Alle tretti gjeldende filer er gjennomgått
   2026-09-13, og behovet er mindre enn ventet: kategorien er allerede eksplisitt om manglende

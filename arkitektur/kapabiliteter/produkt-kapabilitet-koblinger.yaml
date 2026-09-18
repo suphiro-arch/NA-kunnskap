@@ -914,11 +914,21 @@
         {
             "product_id": 18,
             "product_name": "Norge.no",
-            "version": 3,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/18-Norge-no-produkt-canvas-v3-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/18-Norge-no-produkt-canvas-v3-codex.md",
+            "version": 4,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/18-Norge-no-v4-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/18-Norge-no-v4-claude.md",
             "capabilities": [
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-d9374751da7d4b36bb0b3be609ff7d28",
+                    "subcapability_name": "Oversikt over tjenester",
+                    "subcapability_slug": "oversikt-over-tjenester",
+                    "mapping_label": "Informasjonsforvaltning: Oversikt over tjenester",
+                    "explanation": "Norge.no gjør offentlige tjenester og informasjon oppdagbare i en felles katalog- og veiviserflate på tvers av stat og kommune, og er den bredeste innbyggerrettede tjenesteoversikten i porteføljen."
+                },
                 {
                     "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
                     "capability_name": "Sluttbrukertjenester",
@@ -927,17 +937,7 @@
                     "subcapability_name": "Sammenhengende tjenester",
                     "subcapability_slug": "sammenhengende-tjenester",
                     "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-                    "explanation": "Helhetlig brukerreise på tvers av offentlig sektor."
-                },
-                {
-                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
-                    "capability_name": "Sluttbrukertjenester",
-                    "capability_slug": "sluttbrukertjenester",
-                    "subcapability_id": "id-825b1ea1217b4eedb6caae165aeb8e41",
-                    "subcapability_name": "Tjenestekjeder",
-                    "subcapability_slug": "tjenestekjeder",
-                    "mapping_label": "Sluttbrukertjenester: Tjenestekjeder",
-                    "explanation": "Lenker relaterte tjenester i relevante livshendelser."
+                    "explanation": "Portalen gir innbyggeren en mer helhetlig brukerreise på tvers av mange offentlige tjenester og informasjonskilder, ved å skjule hvilken virksomhet som har ansvar for hva."
                 },
                 {
                     "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
@@ -947,17 +947,7 @@
                     "subcapability_name": "Tjenestedesign",
                     "subcapability_slug": "tjenestedesign",
                     "mapping_label": "Tjenesteutvikling: Tjenestedesign",
-                    "explanation": "Behovsbasert navigasjon og informasjonsstruktur."
-                },
-                {
-                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
-                    "capability_name": "Informasjonsforvaltning",
-                    "capability_slug": "informasjonsforvaltning",
-                    "subcapability_id": "id-d9374751da7d4b36bb0b3be609ff7d28",
-                    "subcapability_name": "Oversikt over tjenester",
-                    "subcapability_slug": "oversikt-over-tjenester",
-                    "mapping_label": "Informasjonsforvaltning: Oversikt over tjenester",
-                    "explanation": "Katalog og oppdagelse av offentlige tjenester."
+                    "explanation": "Behovsbasert navigasjon, livssituasjoner og en struktur som tar utgangspunkt i hva brukeren prøver å få gjort, er tjenestedesign anvendt som produktets bærende grep."
                 }
             ]
         },
@@ -1053,12 +1043,22 @@
         },
         {
             "product_id": 21,
-            "product_name": "Altinn Portal",
-            "version": 3,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/21-Altinn-Portal-produkt-canvas-v3-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/21-Altinn-Portal-produkt-canvas-v3-codex.md",
+            "product_name": "Altinn.no",
+            "version": 4,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/21-Altinn-no-v4-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/21-Altinn-no-v4-claude.md",
             "capabilities": [
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-d9374751da7d4b36bb0b3be609ff7d28",
+                    "subcapability_name": "Oversikt over tjenester",
+                    "subcapability_slug": "oversikt-over-tjenester",
+                    "mapping_label": "Informasjonsforvaltning: Oversikt over tjenester",
+                    "explanation": "Portalen registrerer, kvalitetssikrer og publiserer oversikten over skjema og tjenester fra mange offentlige virksomheter, med søk som dekker både tjenester og tilhørende informasjon. Uten portalen ville denne oversikten ikke finnes samlet for Altinn-tjenestene."
+                },
                 {
                     "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
                     "capability_name": "Sluttbrukertjenester",
@@ -1067,47 +1067,7 @@
                     "subcapability_name": "Sammenhengende tjenester",
                     "subcapability_slug": "sammenhengende-tjenester",
                     "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-                    "explanation": "samler tjenester, meldinger, kvitteringer og tilgangsstyring i én helhetlig arbeidsflate."
-                },
-                {
-                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
-                    "capability_name": "Sluttbrukertjenester",
-                    "capability_slug": "sluttbrukertjenester",
-                    "subcapability_id": "id-825b1ea1217b4eedb6caae165aeb8e41",
-                    "subcapability_name": "Tjenestekjeder",
-                    "subcapability_slug": "tjenestekjeder",
-                    "mapping_label": "Sluttbrukertjenester: Tjenestekjeder",
-                    "explanation": "lar brukeren gå fra søk eller varsel til konkret oppfølging i tjeneste uten å bytte kontekst unødig."
-                },
-                {
-                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
-                    "subcapability_id": "id-b2aafe1f4c534db6b92c40b1eef605f2",
-                    "subcapability_name": "Representasjon",
-                    "subcapability_slug": "representasjon",
-                    "mapping_label": "Tillit: Representasjon",
-                    "explanation": "gjør det mulig å opptre på vegne av virksomhet eller andre når fullmakter og rettigheter er etablert."
-                },
-                {
-                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
-                    "subcapability_id": "id-2dfe07b3eae740b9a292e0a4a42d22db",
-                    "subcapability_name": "Sporbarhet og innsyn",
-                    "subcapability_slug": "sporbarhet-og-innsyn",
-                    "mapping_label": "Tillit: Sporbarhet og innsyn",
-                    "explanation": "understøttes gjennom meldingshistorikk, status og administrasjon av fullmakter og tilganger."
-                },
-                {
-                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
-                    "subcapability_id": "id-b440252bc3de42dea8468be54e54b1fa",
-                    "subcapability_name": "Tilgangsstyring",
-                    "subcapability_slug": "tilgangsstyring",
-                    "mapping_label": "Tillit: Tilgangsstyring",
-                    "explanation": "gir oversikt over hvem som kan gjøre hva, både for virksomheter og privatpersoner."
+                    "explanation": "Portalen gir én inngang til offentlige tjenester på tvers av etatsgrenser, og skjuler hvilken virksomhet som står bak den enkelte tjenesten. Bidraget ligger i å finne fram og komme i gang, ikke i å følge en sak gjennom flere virksomheter."
                 }
             ]
         },
@@ -4238,10 +4198,10 @@
         {
             "product_id": 125,
             "product_name": "KI Norge",
-            "version": 2,
+            "version": 3,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/samarbeidsfora/125-KI-Norge-v2-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/125-KI-Norge-v2-claude.md",
+            "relative_path": "arkitektur/ressurser/samarbeidsfora/125-KI-Norge-v3-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/125-KI-Norge-v3-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
@@ -4262,6 +4222,16 @@
                     "subcapability_slug": "samordning",
                     "mapping_label": "Strategisk styring: Samordning",
                     "explanation": "Arenaen skal være bindeledd mellom initiativer og bidra til mer samlet retning i hvordan KI tas i bruk på tvers av sektorer."
+                },
+                {
+                    "capability_id": "id-c0547226c598467a942dced879d0c18b",
+                    "capability_name": "Veiledning",
+                    "capability_slug": "veiledning",
+                    "subcapability_id": "id-0bfa29018e7144578b2184e70414b7e8",
+                    "subcapability_name": "Utvikling og formidling av veiledning",
+                    "subcapability_slug": "utvikling-og-formidling-av-veiledning",
+                    "mapping_label": "Veiledning: Utvikling og formidling av veiledning",
+                    "explanation": "KI Norge utvikler og publiserer veiledning om ansvarlig bruk av kunstig intelligens, og formidler den gjennom `ki.norge.no` som nasjonal inngang. Veiledningen omfatter blant annet hva KI er og kan brukes til, hvordan virksomheter gjør egne data klare for KI, og hva KI-loven vil bety for norske virksomheter."
                 }
             ]
         },
@@ -5772,6 +5742,46 @@
                     "subcapability_slug": "regelverkstolkning",
                     "mapping_label": "Juridisk samhandling: Regelverkstolkning",
                     "explanation": "Rammeverket omsetter barnevernsrettens krav til konkrete vurderingspunkter i saksforløpet."
+                }
+            ]
+        },
+        {
+            "product_id": 165,
+            "product_name": "Arbeidsflate",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/165-Arbeidsflate-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/165-Arbeidsflate-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
+                    "subcapability_name": "Sammenhengende tjenester",
+                    "subcapability_slug": "sammenhengende-tjenester",
+                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                    "explanation": "Arbeidsflate samler meldinger, oppgaver og dialoger fra mange offentlige virksomheter i én oversikt, slik at brukeren slipper å oppsøke hver enkelt etat for å se hva som venter. Der Dialogporten gjør dialogene tilgjengelige i et felles format, er det Arbeidsflate som gir brukeren den samlede flaten."
+                },
+                {
+                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
+                    "capability_name": "Tillit",
+                    "capability_slug": "tillit",
+                    "subcapability_id": "id-2dfe07b3eae740b9a292e0a4a42d22db",
+                    "subcapability_name": "Sporbarhet og innsyn",
+                    "subcapability_slug": "sporbarhet-og-innsyn",
+                    "mapping_label": "Tillit: Sporbarhet og innsyn",
+                    "explanation": "Løsningen gir sluttbrukeren innsyn i egen dialoghistorikk, status på innsendinger og arkiverte meldinger, inkludert historikk overført fra Altinn II. Innsynet er brukerrettet og gjelder egne eller representerte parters dialoger, ikke innsyn på vegne av offentligheten."
+                },
+                {
+                    "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
+                    "capability_name": "Tjenesteutvikling",
+                    "capability_slug": "tjenesteutvikling",
+                    "subcapability_id": "id-f696350f5d844a96854deadb83bc3c81",
+                    "subcapability_name": "Gjenbrukbare tjenester",
+                    "subcapability_slug": "gjenbrukbare-tjenester",
+                    "mapping_label": "Tjenesteutvikling: Gjenbrukbare tjenester",
+                    "explanation": "Brukergrensesnittet er bygget som en gjenbrukbar flate som kan gjøres tilgjengelig i flere portaler, og kildekoden er publisert under åpen lisens. Virksomheter som trenger en dialogoversikt kan dermed ta i bruk en felles flate framfor å bygge og forvalte sin egen."
                 }
             ]
         }

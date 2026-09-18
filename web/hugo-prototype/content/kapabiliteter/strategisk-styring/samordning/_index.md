@@ -66,7 +66,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/125-KI-Norge-v2-claude.md">KI Norge</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/125-KI-Norge-v3-claude.md">KI Norge</a></h3>
       <p class="capability-product-link__description">Arenaen skal være bindeledd mellom initiativer og bidra til mer samlet retning i hvordan KI tas i bruk på tvers av sektorer.</p>
     </article>
     <article class="capability-product-link resource-type--policy">

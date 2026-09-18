@@ -4,7 +4,7 @@ headerTitle: "Informasjonsforvaltning - Oversikt over tjenester"
 eyebrow: "Kapabilitet"
 weight: 7
 description: "Evne til å gi oversikt over og oppdage tjenester som tilbys av eller på vegne av offentlig sektor. ### Begrunnelse (Hvorfor) Kapabiliteten gjør det mulig å finne, forstå og vurdere tjenester som tilbys av eller på vegne av offentlig sektor. Den løser problemet med at tjenester ofte beskrives ulikt, ligger spredt eller er vanskelige å oppdage for innbyggere, næringsliv, virksomheter og andre tjenestekonsumenter. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Tjenestebeskrivelser må synliggjøre relevante rettigheter, plikter, vilkår, ansvar og eventuelle rettslige grunnlag knyttet til tjenesten. - **Organisatorisk (Høy vekt):** Etablere rutiner for å registrere, kvalitetssikre, publisere og vedlikeholde oversikt over tjenester, med tydelig ansvar for tjenesteeier og forvaltning. - **Semantisk (Svært høy vekt):** Beskrive tjenester med felles begreper, metadata, målgrupper, livshendelser, tjenestetyper og relasjoner til andre tjenester, slik at de kan forstås og sammenlignes på tvers. - **Teknisk (Middels vekt):** Tilgjengeliggjøre tjenesteoversikter i kataloger, portaler og maskinlesbare grensesnitt, slik at tjenester kan søkes opp, kobles til og gjenbrukes i digitale tjenestekjeder. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten bidrar til sammenhengende tjenester ved å gjøre det lettere å se hvilke tjenester som finnes, hvem som tilbyr dem, og hvordan de henger sammen med andre tjenester. Når tjenester kan oppdages og beskrives på en standardisert måte, blir det enklere å sette dem sammen til helhetlige brukerreiser på tvers av virksomheter. For det felles økosystemet gir kapabiliteten bedre oversikt, mer gjenbruk og mindre dobbeltutvikling. Den gjør det enklere for aktører å finne relevante tjenester, bygge videre på eksisterende tilbud og utvikle løsninger som fremstår mer helhetlige for sluttbrukeren."
-cardMeta: "6 produkter"
+cardMeta: "7 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -16,8 +16,13 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/18-Norge-no-produkt-canvas-v3-codex.md">Norge.no</a></h3>
-      <p class="capability-product-link__description">Katalog og oppdagelse av offentlige tjenester.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/18-Norge-no-v4-claude.md">Norge.no</a></h3>
+      <p class="capability-product-link__description">Norge.no gjør offentlige tjenester og informasjon oppdagbare i en felles katalog- og veiviserflate på tvers av stat og kommune, og er den bredeste innbyggerrettede tjenesteoversikten i porteføljen.</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/21-Altinn-no-v4-claude.md">Altinn.no</a></h3>
+      <p class="capability-product-link__description">Portalen registrerer, kvalitetssikrer og publiserer oversikten over skjema og tjenester fra mange offentlige virksomheter, med søk som dekker både tjenester og tilhørende informasjon. Uten portalen ville denne oversikten ikke finnes samlet for Altinn-tjenestene.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>

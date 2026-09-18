@@ -11,11 +11,6 @@ productsMarkdown: |
   <div class="capability-product-links">
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/21-Altinn-Portal-produkt-canvas-v3-codex.md">Altinn Portal</a></h3>
-      <p class="capability-product-link__description">understøttes gjennom meldingshistorikk, status og administrasjon av fullmakter og tilganger.</p>
-    </article>
-    <article class="capability-product-link resource-type--operative">
-      <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/23-Altinn-3-Melding-produkt-canvas-v5-codex.md">Altinn Melding</a></h3>
       <p class="capability-product-link__description">understøttes gjennom omfattende logging av hendelser og prosesser</p>
     </article>
@@ -23,6 +18,11 @@ productsMarkdown: |
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/34-Kjernejournal-produkt-canvas-v3-claude.md">Kjernejournal</a></h3>
       <p class="capability-product-link__description">dokumenterer hvert oppslag i en bruksslogg som pasienten har rett til å se etter kjernejournalforskriften § 6, slik at bruken av opplysningene kan etterprøves</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/165-Arbeidsflate-v1-claude.md">Arbeidsflate</a></h3>
+      <p class="capability-product-link__description">Løsningen gir sluttbrukeren innsyn i egen dialoghistorikk, status på innsendinger og arkiverte meldinger, inkludert historikk overført fra Altinn II. Innsynet er brukerrettet og gjelder egne eller representerte parters dialoger, ikke innsyn på vegne av offentligheten.</p>
     </article>
   </div>
 ---

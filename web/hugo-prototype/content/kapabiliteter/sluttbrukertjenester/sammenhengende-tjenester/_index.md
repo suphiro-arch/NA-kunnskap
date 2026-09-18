@@ -4,7 +4,7 @@ headerTitle: "Sluttbrukertjenester - Sammenhengende tjenester"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å levere en digital brukerorienterte tjenester som fremstår som en logisk og uavbrutt prosess for brukeren, selv når den involverer og koordinerer handlinger og tjenester fra flere, uavhengige virksomheter. ### Begrunnelse (Hvorfor) Når digitale tjenester er splittet opp mellom ulike uavhengige etater, blir brukeren ofte stående som en manuell budbringer av egne data mellom systemene. Denne underkapabiliteten løser det funksjonelle problemet med fragmenterte brukeropplevelser, brutte digitale reiser og silobaserte prosesser. Den sikrer at den bakenforliggende kompleksiteten i forvaltningen skjules helt, slik at brukeren opplever en helhetlig offentlig sektor. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Harmoniserte avklaringsprosesser under forvaltningsloven og personopplysningsloven sikrer det rettslige fundamentet for tverretatlig datadeling. - **Organisatorisk (Svært høy vekt):** Utforming av tverrgående arbeidsprosesser understøtter en uavbrutt og guidet reise der brukeren ledes steg-for-steg uten å måtte forholde seg til statlige eller kommunale grenser. - **Semantisk (Middels vekt):** Operasjonalisering av \"kun én gang\"-prinsippet sikrer at oppgitte data gjenbrukes via felles informasjonsmodeller. - **Teknisk (Høy vekt):** Teknisk integrasjon via standardiserte grensesnitt (API-er) og fellesløsninger sikrer at data deles og gjenbrukes. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten er selve nøkkelen til at innbyggere og næringsliv skal oppleve forvaltningen som én samordnet aktør. Ved å binde uavhengige tjenester sammen til flytende kjeder, elimineres behovet for at brukeren må gjenta informasjon eller lete etter neste saksbehandlingssteg. Dette reduserer tidsbruk og feil, noe som gir et vesentlig mer ressurseffektivt felles økosystem."
-cardMeta: "28 produkter"
+cardMeta: "29 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -21,13 +21,13 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/18-Norge-no-produkt-canvas-v3-codex.md">Norge.no</a></h3>
-      <p class="capability-product-link__description">Helhetlig brukerreise på tvers av offentlig sektor.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/18-Norge-no-v4-claude.md">Norge.no</a></h3>
+      <p class="capability-product-link__description">Portalen gir innbyggeren en mer helhetlig brukerreise på tvers av mange offentlige tjenester og informasjonskilder, ved å skjule hvilken virksomhet som har ansvar for hva.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/21-Altinn-Portal-produkt-canvas-v3-codex.md">Altinn Portal</a></h3>
-      <p class="capability-product-link__description">samler tjenester, meldinger, kvitteringer og tilgangsstyring i én helhetlig arbeidsflate.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/21-Altinn-no-v4-claude.md">Altinn.no</a></h3>
+      <p class="capability-product-link__description">Portalen gir én inngang til offentlige tjenester på tvers av etatsgrenser, og skjuler hvilken virksomhet som står bak den enkelte tjenesten. Bidraget ligger i å finne fram og komme i gang, ikke i å følge en sak gjennom flere virksomheter.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -148,6 +148,11 @@ productsMarkdown: |
       <p class="capability-product-link__type">Samarbeidsforum</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/163-DigiUng-v1-claude.md">DigiUng</a></h3>
       <p class="capability-product-link__description">Formålet er at ungdom skal møte et samlet tilbud framfor å måtte kjenne forvaltningens ansvarsdeling.</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/165-Arbeidsflate-v1-claude.md">Arbeidsflate</a></h3>
+      <p class="capability-product-link__description">Arbeidsflate samler meldinger, oppgaver og dialoger fra mange offentlige virksomheter i én oversikt, slik at brukeren slipper å oppsøke hver enkelt etat for å se hva som venter. Der Dialogporten gjør dialogene tilgjengelige i et felles format, er det Arbeidsflate som gir brukeren den samlede flaten.</p>
     </article>
   </div>
 ---

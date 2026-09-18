@@ -11,8 +11,8 @@ productsMarkdown: |
   <div class="capability-product-links">
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/18-Norge-no-produkt-canvas-v3-codex.md">Norge.no</a></h3>
-      <p class="capability-product-link__description">Behovsbasert navigasjon og informasjonsstruktur.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/18-Norge-no-v4-claude.md">Norge.no</a></h3>
+      <p class="capability-product-link__description">Behovsbasert navigasjon, livssituasjoner og en struktur som tar utgangspunkt i hva brukeren prøver å få gjort, er tjenestedesign anvendt som produktets bærende grep.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
