@@ -261,6 +261,84 @@ def check_capability_slugs() -> list[str]:
     return findings
 
 
+def canonical_capability_names() -> tuple[set[str], dict[str, set[str]]]:
+    """Navn på hovedkapabiliteter, og hvilke hovedkapabiliteter hvert delkapabilitetsnavn hører under."""
+    helper = load_capability_helpers()
+    model = helper.parse_capabilities_yaml(CAPABILITIES_FILE)
+    capability_names: set[str] = set()
+    parents_by_subcapability: dict[str, set[str]] = {}
+
+    for capability in model.get("kapabiliteter", []):
+        name = capability["navn"].strip()
+        capability_names.add(name)
+        for subcapability in capability.get("delkapabiliteter", []):
+            parents_by_subcapability.setdefault(subcapability["navn"].strip(), set()).add(name)
+
+    return capability_names, parents_by_subcapability
+
+
+def check_capability_labels(latest: dict[int, dict]) -> list[str]:
+    """Merkelapper i ressursfiler og register skal være navn fra capabilities.yaml.
+
+    `check_capability_slugs` verner mappingfila, men den bygges fra
+    `## Kapabiliteter` i ressursfila og fra registerkolonnen. Står det noe der
+    som ikke er en kapabilitet, blir koblingen stille utelatt i stedet for å
+    feile. Det skjedde med `141` Stimulab, som hadde en ressursreferanse der
+    det skulle stått en kapabilitet.
+
+    Begge skrivemåter godtas: `Hovedkapabilitet: Delkapabilitet` og bare navnet
+    alene. Er prefikset med, skal det være den faktiske hovedkapabiliteten.
+
+    Bare gjeldende versjoner kontrolleres. Erstattede versjoner er historikk, og
+    et navnebytte i modellen skal ikke gjøre dem til feil i ettertid.
+    """
+    findings: list[str] = []
+    capability_names, parents_by_subcapability = canonical_capability_names()
+
+    def validate(label: str, origin: str) -> None:
+        prefix, _, name = label.rpartition(":")
+        prefix, name = prefix.strip(), name.strip()
+        if not name:
+            return
+        parents = parents_by_subcapability.get(name)
+        if parents is None and name not in capability_names:
+            findings.append(f"{origin}: «{label}» er ikke en kapabilitet i capabilities.yaml")
+            return
+        if prefix and parents is not None and prefix not in parents:
+            findings.append(
+                f"{origin}: «{label}» oppgir {prefix} som hovedkapabilitet, "
+                f"men {name} hører under {', '.join(sorted(parents))}"
+            )
+        elif prefix and parents is None and prefix != name:
+            findings.append(f"{origin}: «{label}» gir prefiks til hovedkapabiliteten {name}")
+
+    for product_id in sorted(latest):
+        path = latest[product_id]["path"]
+        in_section = False
+        for lineno, raw in enumerate(path.read_text(encoding="utf-8-sig").splitlines(), start=1):
+            line = raw.strip()
+            if re.match(r"^##\s+Kapabiliteter\s*$", line):
+                in_section = True
+                continue
+            if in_section and line.startswith("## "):
+                break
+            if not in_section:
+                continue
+            match = re.match(r"^-\s+\*\*(?P<label>.+?)\*\*", line)
+            if match:
+                validate(match.group("label"), f"{latest[product_id]['relative_path']}:{lineno}")
+
+    for lineno, raw in enumerate(REGISTER_FILE.read_text(encoding="utf-8-sig").splitlines(), start=1):
+        cells = [cell.strip() for cell in raw.strip().strip("|").split("|")]
+        if not raw.startswith("|") or len(cells) < 7 or not cells[0].isdigit():
+            continue
+        for label in cells[5].split("<br>"):
+            if label.strip() and label.strip() != "-":
+                validate(label, f"{REGISTER_FILE.relative_to(REPO_ROOT).as_posix()}:{lineno}")
+
+    return findings
+
+
 def check_generated_capability_pages() -> list[str]:
     findings: list[str] = []
     if not CAPABILITY_WEB_DIR.exists():
@@ -298,6 +376,7 @@ def main() -> int:
     findings.extend(check_capability_map(latest))
     findings.extend(check_nested_product_references(latest))
     findings.extend(check_capability_slugs())
+    findings.extend(check_capability_labels(latest))
     findings.extend(check_generated_capability_pages())
 
     if findings:

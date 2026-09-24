@@ -93,8 +93,9 @@ slugger og kode.
 
   Konsekvensen er at en feil kapabilitetskobling må rettes to steder: i `## Kapabiliteter` i
   ressursfila, som er kilden, og i denne fila. Å bare rette ressursfila og kjøre sync er ikke nok.
-  Kontroller etterpå at merkelappene finnes i `capabilities.yaml`; `check-resource-version-sync.py`
-  sammenligner register og mapping, men fanger ikke en merkelapp som ikke er en kapabilitet.
+  `check-resource-version-sync.py` kontrollerer at merkelappene i gjeldende ressursfiler og i
+  registeret er navn fra `capabilities.yaml`, og at et eventuelt prefiks er riktig hovedkapabilitet.
+  Kjør den etter endringer i `## Kapabiliteter`.
 - **`capabilities.yaml` har CRLF i arbeidskopien.** Git normaliserer til LF. Ikke tolk
   linjeskiftvarsler som en reell endring.
 
