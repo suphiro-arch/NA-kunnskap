@@ -4851,17 +4851,17 @@
                     "subcapability_name": "Finansiering",
                     "subcapability_slug": "finansiering",
                     "mapping_label": "Strategisk styring: Finansiering",
-                    "explanation": "ordningen bruker økonomiske midler som styringsvirkemiddel for å få fram prioriterte innovasjonsprosjekter"
+                    "explanation": "Ordningen tildeler økonomiske midler til utviklingsprosjekter og styrer gjennom prioritering av hvilke prosjekter som får støtte."
                 },
                 {
-                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
-                    "capability_name": "Samarbeid",
-                    "capability_slug": "samarbeid",
-                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
-                    "subcapability_name": "Organisatorisk samhandling",
-                    "subcapability_slug": "organisatorisk-samhandling",
-                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "Stimulab støtter tverrsektorielle prosjekter og samler læring mellom virksomheter, Digdir og DOGA"
+                    "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
+                    "capability_name": "Strategisk styring",
+                    "capability_slug": "strategisk-styring",
+                    "subcapability_id": "id-034543e002414306a8fbecc8c9d8e496",
+                    "subcapability_name": "Samordning",
+                    "subcapability_slug": "samordning",
+                    "mapping_label": "Strategisk styring: Samordning",
+                    "explanation": "Ordningen brukes ofte i tverrsektorielle utviklingsløp og bidrar til å samordne behov, læring og gjennomføring."
                 },
                 {
                     "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
@@ -4871,7 +4871,7 @@
                     "subcapability_name": "Tjenestedesign",
                     "subcapability_slug": "tjenestedesign",
                     "mapping_label": "Tjenesteutvikling: Tjenestedesign",
-                    "explanation": "ordningen krever brukerorientert og designdrevet arbeid i prosjektene som får støtte"
+                    "explanation": "Stimulab forutsetter brukerorientert og designdrevet arbeid som en sentral del av virkemiddelbruken."
                 }
             ]
         },

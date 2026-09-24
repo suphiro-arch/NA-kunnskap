@@ -123,7 +123,7 @@ def parse_register() -> dict[int, dict]:
         if not line.startswith("|") or line.startswith("|---"):
             continue
         cells = [c.strip() for c in line.strip("|").split("|")]
-        if len(cells) < 6 or not cells[0].isdigit():
+        if len(cells) < 7 or not cells[0].isdigit():
             continue
         link = LINK_PATTERN.search(line)
         if not link:
@@ -134,7 +134,8 @@ def parse_register() -> dict[int, dict]:
             "resource_id": cells[1].replace("`", "").strip(),
             "product_name": cells[2].replace("`", "").strip(),
             "resource_type": cells[3].replace("`", "").strip(),
-            "capability_labels": [part.strip() for part in cells[4].split("<br>") if part.strip() and part.strip() != "-"],
+            "subject": cells[4].replace("`", "").strip(),
+            "capability_labels": [part.strip() for part in cells[5].split("<br>") if part.strip() and part.strip() != "-"],
             "relative_path": relative_doc,
             "lineno": lineno,
         }

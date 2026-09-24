@@ -83,8 +83,18 @@ slugger og kode.
   innhold der.
 - **`web/hugo-prototype/content/` er generert.** Endre kildene i `arkitektur/` og regenerer; ikke
   håndrediger genererte oversikter.
-- **`arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml` vedlikeholdes manuelt** og er
-  autoritativ. Ingen generator retter den for deg.
+- **`arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml` er delvis generert.**
+  `tools/sync-resource-metadata.py --apply` skriver til fila, men bare deler av den:
+  - Den oppdaterer `product_name`, `version`, `author`, `relative_path` og `product_url`, og
+    overskriver `explanation` med teksten fra `## Kapabiliteter` i ressursfila. Håndskrevne
+    forklaringer her overlever ikke neste kjøring — skriv dem i ressursfila i stedet.
+  - Den bygger `capabilities` bare for ressurser som **ikke** står i fila fra før. For eksisterende
+    ressurser røres koblingene aldri, uansett hva ressursfila sier.
+
+  Konsekvensen er at en feil kapabilitetskobling må rettes to steder: i `## Kapabiliteter` i
+  ressursfila, som er kilden, og i denne fila. Å bare rette ressursfila og kjøre sync er ikke nok.
+  Kontroller etterpå at merkelappene finnes i `capabilities.yaml`; `check-resource-version-sync.py`
+  sammenligner register og mapping, men fanger ikke en merkelapp som ikke er en kapabilitet.
 - **`capabilities.yaml` har CRLF i arbeidskopien.** Git normaliserer til LF. Ikke tolk
   linjeskiftvarsler som en reell endring.
 

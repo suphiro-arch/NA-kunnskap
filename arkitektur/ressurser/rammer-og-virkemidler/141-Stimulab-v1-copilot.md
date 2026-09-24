@@ -29,13 +29,13 @@ Stimulab er ikke juridisk bindende for hele forvaltningen, men er bindende for p
 Etterlevelse skjer gjennom utlysning, utvelgelse, prosjektoppfølging, metodisk veiledning og krav til leveranser og læring.
 
 ## Kapabiliteter
-- **Innovasjon: Rammeverk for innovasjon i offentlig sektor**
-  Stimulab konkretiserer innovasjonsrammeverket gjennom støtte til prosjekter som skal teste og utvikle nye løsninger.
+- **Strategisk styring: Finansiering**
+  Ordningen tildeler økonomiske midler til utviklingsprosjekter og styrer gjennom prioritering av hvilke prosjekter som får støtte.
 
 - **Strategisk styring: Samordning**
   Ordningen brukes ofte i tverrsektorielle utviklingsløp og bidrar til å samordne behov, læring og gjennomføring.
 
-- **Tjenestedesign: Tjenestedesign**
+- **Tjenesteutvikling: Tjenestedesign**
   Stimulab forutsetter brukerorientert og designdrevet arbeid som en sentral del av virkemiddelbruken.
 
 ## Målgruppe og berørte aktører
