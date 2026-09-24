@@ -1852,6 +1852,186 @@
             ]
         },
         {
+            "product_id": 41,
+            "product_name": "European Digital Identity Wallet",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/41-European-Digital-Identity-Wallet-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/41-European-Digital-Identity-Wallet-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
+                    "capability_name": "Tillit",
+                    "capability_slug": "tillit",
+                    "subcapability_id": "id-ec0afaac123d4f9e83889d9022a198c3",
+                    "subcapability_name": "Autentisering",
+                    "subcapability_slug": "autentisering",
+                    "mapping_label": "Tillit: Autentisering",
+                    "explanation": "gir en felles europeisk mekanisme for å verifisere en digital identitet på høyt sikkerhetsnivå, uavhengig av hvilket land brukeren kommer fra. Lommeboka leverer evnen selv, og er ikke avhengig av at brukerstedet har egen innloggingsløsning."
+                },
+                {
+                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
+                    "capability_name": "Tillit",
+                    "capability_slug": "tillit",
+                    "subcapability_id": "id-f5214c3db8de4738ab03abb7b7e553ed",
+                    "subcapability_name": "Signering",
+                    "subcapability_slug": "signering",
+                    "mapping_label": "Tillit: Signering",
+                    "explanation": "gjør det mulig for innbyggeren å opprette rettslig bindende elektroniske signaturer direkte fra lommeboka, innenfor det samme tillitsrammeverket. Koblingene er satt fordi lommeboka selv utsteder og presenterer identitetsbevis og signaturer. Evnen til å bekrefte identitet på tvers av landegrenser ville ikke blitt levert av noen annen ressurs i porteføljen hvis lommeboka ble borte. Lommeboka bruker samtidig attributter fra nasjonale registre og utstedere; den avhengigheten er beskrevet under `Gjenbruk`, ikke som egen kapabilitet."
+                }
+            ]
+        },
+        {
+            "product_id": 42,
+            "product_name": "eID Building Block",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/42-eID-Building-Block-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/42-eID-Building-Block-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
+                    "capability_name": "Tillit",
+                    "capability_slug": "tillit",
+                    "subcapability_id": "id-ec0afaac123d4f9e83889d9022a198c3",
+                    "subcapability_name": "Autentisering",
+                    "subcapability_slug": "autentisering",
+                    "mapping_label": "Tillit: Autentisering",
+                    "explanation": "gir mekanismen for at en tjeneste i ett land kan verifisere en innlogging utført med en eID fra et annet land, innenfor eIDAS-rammeverkets sikkerhetsnivåer."
+                },
+                {
+                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
+                    "capability_name": "Tillit",
+                    "capability_slug": "tillit",
+                    "subcapability_id": "id-4b66bbf964834654b5f0c61e955b91b1",
+                    "subcapability_name": "Identifisering",
+                    "subcapability_slug": "identifisering",
+                    "mapping_label": "Tillit: Identifisering",
+                    "explanation": "overfører et minimumsdatasett som identifiserer personen eller virksomheten entydig på tvers av landegrenser, slik at mottakeren kan koble identiteten videre i egen tjenestelogikk. Koblingene er satt fordi byggesteinen selv leverer den grensekryssende delen av evnen. Uten den ville en norsk tjeneste måtte bygge egne løsninger mot hvert enkelt lands eID-ordning. De nasjonale eID-ene som brukes gjennom nettverket, eies av andre aktører, og evnen til å utstede dem hører hos dem."
+                }
+            ]
+        },
+        {
+            "product_id": 43,
+            "product_name": "eDelivery Building Block",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/43-eDelivery-Building-Block-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/43-eDelivery-Building-Block-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                    "subcapability_name": "Meldingsutveksling",
+                    "subcapability_slug": "meldingsutveksling",
+                    "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
+                    "explanation": "gir et felles mønster for å sende og motta meldinger mellom parter som ikke har avtale med hverandre fra før, gjennom aksesspunkt og dynamisk oppslag av mottakerens kapabiliteter."
+                },
+                {
+                    "capability_id": "id-48c9873ae59341a49c2dca27379fab55",
+                    "capability_name": "Informasjonssikkerhet",
+                    "capability_slug": "informasjonssikkerhet",
+                    "subcapability_id": "id-34d3d64b3afe4327a29ee6c2f7f74dff",
+                    "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
+                    "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling",
+                    "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
+                    "explanation": "leverer signerte mottakskvitteringer, kryptering og et sertifikatbasert tillitsoppsett som gjør utvekslingen etterprøvbar."
+                },
+                {
+                    "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
+                    "capability_name": "Standardisering",
+                    "capability_slug": "standardisering",
+                    "subcapability_id": "id-697145d3768b40d39f9463667b78f749",
+                    "subcapability_name": "EU standarder",
+                    "subcapability_slug": "eu-standarder",
+                    "mapping_label": "Standardisering: EU standarder",
+                    "explanation": "forvalter selve AS4-profilen og tjenestemetadataspesifikasjonene, og gjør dem tilgjengelige med konformitetstesting, slik at europeiske standarder faktisk kan tas i bruk. Koblingene er satt fordi byggesteinen selv eier profilen, referanseprogramvaren og testregimet. Innholdet i meldingene og de forretningsmessige prosessene rundt dem leveres av de økosystemene som bruker byggesteinen, og hører ikke her."
+                }
+            ]
+        },
+        {
+            "product_id": 44,
+            "product_name": "eSignature Building Block",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/44-eSignature-Building-Block-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/44-eSignature-Building-Block-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
+                    "capability_name": "Tillit",
+                    "capability_slug": "tillit",
+                    "subcapability_id": "id-f5214c3db8de4738ab03abb7b7e553ed",
+                    "subcapability_name": "Signering",
+                    "subcapability_slug": "signering",
+                    "mapping_label": "Tillit: Signering",
+                    "explanation": "gir programvarekomponentene og tillitsgrunnlaget som gjør det mulig å opprette og verifisere avanserte og kvalifiserte elektroniske signaturer på tvers av land."
+                },
+                {
+                    "capability_id": "id-48c9873ae59341a49c2dca27379fab55",
+                    "capability_name": "Informasjonssikkerhet",
+                    "capability_slug": "informasjonssikkerhet",
+                    "subcapability_id": "id-34d3d64b3afe4327a29ee6c2f7f74dff",
+                    "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
+                    "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling",
+                    "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
+                    "explanation": "gjør det mulig å påvise at et dokument ikke er endret etter signering, og hvem som står bak det, uavhengig av hvilken kanal dokumentet er sendt gjennom."
+                },
+                {
+                    "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
+                    "capability_name": "Standardisering",
+                    "capability_slug": "standardisering",
+                    "subcapability_id": "id-697145d3768b40d39f9463667b78f749",
+                    "subcapability_name": "EU standarder",
+                    "subcapability_slug": "eu-standarder",
+                    "mapping_label": "Standardisering: EU standarder",
+                    "explanation": "forvalter og tilgjengeliggjør signaturformatene og valideringsreglene fra ETSI i en form som lar seg ta i bruk, med konformitetskontroll. Koblingene er satt fordi byggesteinen selv leverer programvaren og tillitsoppslaget. Den enkelte signeringstjenesten og de kvalifiserte tillitstjenestetilbyderne er egne aktører, og evnen til å utstede kvalifiserte sertifikater hører hos dem."
+                }
+            ]
+        },
+        {
+            "product_id": 45,
+            "product_name": "Once-Only Technical System (OOTS)",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/45-Once-Only-Technical-System-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/45-Once-Only-Technical-System-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "gjør at en norsk bevisutsteder kan gjøre dokumentasjon tilgjengelig for myndigheter i andre land innenfor et definert og rettslig forankret formål."
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
+                    "subcapability_name": "Bruke data fra andre",
+                    "subcapability_slug": "bruke-data-fra-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
+                    "explanation": "gjør at en norsk tjeneste kan hente inn bevis fra utenlandske registre i stedet for å be brukeren om å skaffe dem selv."
+                },
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
+                    "subcapability_name": "Organisatorisk samhandling",
+                    "subcapability_slug": "organisatorisk-samhandling",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "effektiviserer forretningsprosessene på tvers av organisatoriske og nasjonale grenser, ved at søknadsbehandling i ett land kan trekke på registerdata i et annet. Koblingene er satt fordi OOTS selv etablerer mekanismen for grensekryssende bevisutveksling. Den underliggende transporten leveres av `eDelivery Building Block`, og autentiseringen av brukeren av eIDAS-rammeverket. Begge er avhengigheter, ikke kapabiliteter i denne ressursen."
+                }
+            ]
+        },
+        {
             "product_id": 46,
             "product_name": "Enhetsregisteret",
             "version": 1,
@@ -2118,6 +2298,96 @@
                     "subcapability_id": "id-5852d070415849fab42749cb488d984a",
                     "subcapability_name": "Datastyring",
                     "subcapability_slug": "datastyring"
+                }
+            ]
+        },
+        {
+            "product_id": 53,
+            "product_name": "EU Open Source Solutions Catalogue",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/53-EU-Open-Source-Solutions-Catalogue-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/53-EU-Open-Source-Solutions-Catalogue-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
+                    "capability_name": "Tjenesteutvikling",
+                    "capability_slug": "tjenesteutvikling",
+                    "subcapability_id": "id-f696350f5d844a96854deadb83bc3c81",
+                    "subcapability_name": "Gjenbrukbare tjenester",
+                    "subcapability_slug": "gjenbrukbare-tjenester",
+                    "mapping_label": "Tjenesteutvikling: Gjenbrukbare tjenester",
+                    "explanation": "gjør det praktisk mulig å finne løsninger som allerede er utviklet i offentlig sektor i andre land, som et alternativ til å utvikle eller anskaffe på nytt."
+                },
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-d9374751da7d4b36bb0b3be609ff7d28",
+                    "subcapability_name": "Oversikt over tjenester",
+                    "subcapability_slug": "oversikt-over-tjenester",
+                    "mapping_label": "Informasjonsforvaltning: Oversikt over tjenester",
+                    "explanation": "gir en samlet, søkbar oversikt over programvare som tilbys av eller på vegne av offentlig sektor i Europa, med maskinlesbare metadata. Koblingene er satt fordi katalogen selv leverer oversikten og aggregeringen. Selve løsningene den peker til, forvaltes av andre, og evnene de leverer hører hos dem."
+                }
+            ]
+        },
+        {
+            "product_id": 54,
+            "product_name": "Interoperable Europe Solutions",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/54-Interoperable-Europe-Solutions-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/54-Interoperable-Europe-Solutions-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
+                    "capability_name": "Standardisering",
+                    "capability_slug": "standardisering",
+                    "subcapability_id": "id-697145d3768b40d39f9463667b78f749",
+                    "subcapability_name": "EU standarder",
+                    "subcapability_slug": "eu-standarder",
+                    "mapping_label": "Standardisering: EU standarder",
+                    "explanation": "gir en samlet, søkbar inngang til de europeiske spesifikasjonene, vokabularene og rammeverkene som faktisk skal tas i bruk, med en anerkjennelsesordning som skiller anbefalte løsninger fra øvrige oppføringer."
+                },
+                {
+                    "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
+                    "capability_name": "Tjenesteutvikling",
+                    "capability_slug": "tjenesteutvikling",
+                    "subcapability_id": "id-f696350f5d844a96854deadb83bc3c81",
+                    "subcapability_name": "Gjenbrukbare tjenester",
+                    "subcapability_slug": "gjenbrukbare-tjenester",
+                    "mapping_label": "Tjenesteutvikling: Gjenbrukbare tjenester",
+                    "explanation": "gjør løsninger utviklet i én forvaltning tilgjengelige for bruk i nye sammenhenger i andre land og sektorer. Koblingene er satt fordi katalogen selv leverer oversikten og anerkjennelsen. Løsningene den viser til, forvaltes av andre, og evnene de leverer hører hos dem. Forholdet til forordningen som hjemler anerkjennelsesordningen, er beskrevet under `Relasjon til andre ressurser`."
+                }
+            ]
+        },
+        {
+            "product_id": 55,
+            "product_name": "Core Vocabularies",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/55-Core-Vocabularies-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/55-Core-Vocabularies-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-5c6c20d50b6a4b168524901372f0ca6e",
+                    "subcapability_name": "Informasjonsarkitektur",
+                    "subcapability_slug": "informasjonsarkitektur",
+                    "mapping_label": "Informasjonsforvaltning: Informasjonsarkitektur",
+                    "explanation": "gir felles, standardiserte modeller for hvordan sentrale dataenheter struktureres, slik at data blir finnbare, forståelige og gjenbrukbare for både mennesker og maskiner på tvers av forvaltninger."
+                },
+                {
+                    "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
+                    "capability_name": "Standardisering",
+                    "capability_slug": "standardisering",
+                    "subcapability_id": "id-697145d3768b40d39f9463667b78f749",
+                    "subcapability_name": "EU standarder",
+                    "subcapability_slug": "eu-standarder",
+                    "mapping_label": "Standardisering: EU standarder",
+                    "explanation": "forvalter og tilgjengeliggjør de europeiske kjernemodellene som skal tas i bruk, med dokumentert metode for utvikling og endring. Koblingene er satt fordi vokabularene selv er modellene, og fordi SEMIC forvalter dem med en definert prosess. De registrene og tjenestene som tar modellene i bruk, leverer sine egne evner, og de hører ikke her."
                 }
             ]
         },
@@ -3104,6 +3374,116 @@
                     "subcapability_slug": "forvaltningsstandarder",
                     "mapping_label": "Standardisering: Forvaltningsstandarder",
                     "explanation": "Rammeverket peker virksomheter inn mot felles standarder, spesifikasjoner og beskrivelser som må brukes samlet for å få mer konsistent informasjonsforvaltning."
+                }
+            ]
+        },
+        {
+            "product_id": 90,
+            "product_name": "Interoperable Europe Act",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/rammer-og-virkemidler/90-Interoperable-Europe-Act-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/90-Interoperable-Europe-Act-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
+                    "capability_name": "Strategisk styring",
+                    "capability_slug": "strategisk-styring",
+                    "subcapability_id": "id-dabf94e621f644ffa53ebb44dcc9ff79",
+                    "subcapability_name": "Arkitekturstyring",
+                    "subcapability_slug": "arkitekturstyring",
+                    "mapping_label": "Strategisk styring: Arkitekturstyring",
+                    "explanation": "gjør samhandlingsevne til et forpliktende rammeverk med vurderingsplikt, styre og felles rammeverk, framfor et faglig råd uten konsekvens."
+                },
+                {
+                    "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
+                    "capability_name": "Standardisering",
+                    "capability_slug": "standardisering",
+                    "subcapability_id": "id-697145d3768b40d39f9463667b78f749",
+                    "subcapability_name": "EU standarder",
+                    "subcapability_slug": "eu-standarder",
+                    "mapping_label": "Standardisering: EU standarder",
+                    "explanation": "gir hjemmelen for anerkjennelsesordningen for Interoperable Europe-løsninger og for det europeiske rammeverket for interoperabilitet, og gjør det dermed forpliktende å vurdere europeiske standarder."
+                },
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "subcapability_id": "id-b4a86e2e430c472b9f74bedb7f66fd74",
+                    "subcapability_name": "Samarbeidsarenaer og nettverk",
+                    "subcapability_slug": "samarbeidsarenaer-og-nettverk",
+                    "mapping_label": "Samarbeid: Samarbeidsarenaer og nettverk",
+                    "explanation": "etablerer styret for Interoperable Europe og portalen som faste arenaer for samordning mellom medlemsstatene og Kommisjonen. Koblingene er satt fordi forordningen selv skaper pliktene, organene og rammeverket. De enkelte løsningene og verktøyene som brukes for å oppfylle pliktene, er egne ressurser, og evnene de leverer hører hos dem."
+                }
+            ]
+        },
+        {
+            "product_id": 91,
+            "product_name": "Assessment Toolbox",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/91-Assessment-Toolbox-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/91-Assessment-Toolbox-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
+                    "capability_name": "Strategisk styring",
+                    "capability_slug": "strategisk-styring",
+                    "subcapability_id": "id-dabf94e621f644ffa53ebb44dcc9ff79",
+                    "subcapability_name": "Arkitekturstyring",
+                    "subcapability_slug": "arkitekturstyring",
+                    "mapping_label": "Strategisk styring: Arkitekturstyring",
+                    "explanation": "gir metoden og arbeidsflyten som gjør interoperabilitetsvurderingen til et reelt styringsgrep i regelverks- og løsningsarbeid, ikke bare et krav på papiret."
+                },
+                {
+                    "capability_id": "id-c0547226c598467a942dced879d0c18b",
+                    "capability_name": "Veiledning",
+                    "capability_slug": "veiledning",
+                    "subcapability_id": "id-0bfa29018e7144578b2184e70414b7e8",
+                    "subcapability_name": "Utvikling og formidling av veiledning",
+                    "subcapability_slug": "utvikling-og-formidling-av-veiledning",
+                    "mapping_label": "Veiledning: Utvikling og formidling av veiledning",
+                    "explanation": "utarbeider, kvalitetssikrer og tilgjengeliggjør retningslinjer, brukerveiledninger og læringseksempler for et avgrenset og krevende arbeidsområde."
+                },
+                {
+                    "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
+                    "capability_name": "Standardisering",
+                    "capability_slug": "standardisering",
+                    "subcapability_id": "id-697145d3768b40d39f9463667b78f749",
+                    "subcapability_name": "EU standarder",
+                    "subcapability_slug": "eu-standarder",
+                    "mapping_label": "Standardisering: EU standarder",
+                    "explanation": "definerer et felles vokabular og en datamodell for hvordan vurderinger beskrives og utveksles, slik at de kan sammenlignes på tvers av land. Koblingene er satt fordi verktøykassa selv leverer metoden, veiledningen og datamodellen. Selve plikten kommer fra forordningen, og den hører hos `Interoperable Europe Act`."
+                }
+            ]
+        },
+        {
+            "product_id": 92,
+            "product_name": "Assessment reports repository",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/92-Assessment-reports-repository-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/92-Assessment-reports-repository-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
+                    "capability_name": "Strategisk styring",
+                    "capability_slug": "strategisk-styring",
+                    "subcapability_id": "id-dabf94e621f644ffa53ebb44dcc9ff79",
+                    "subcapability_name": "Arkitekturstyring",
+                    "subcapability_slug": "arkitekturstyring",
+                    "mapping_label": "Strategisk styring: Arkitekturstyring",
+                    "explanation": "gjør etterlevelsen av vurderingsplikten synlig og etterprøvbar, og gir styret for Interoperable Europe et datagrunnlag for å følge opp hvordan samhandlingshensyn faktisk ivaretas."
+                },
+                {
+                    "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
+                    "capability_name": "Strategisk styring",
+                    "capability_slug": "strategisk-styring",
+                    "subcapability_id": "id-034543e002414306a8fbecc8c9d8e496",
+                    "subcapability_name": "Samordning",
+                    "subcapability_slug": "samordning",
+                    "mapping_label": "Strategisk styring: Samordning",
+                    "explanation": "gjør det mulig å se vurderinger fra ulike land og sektorer i sammenheng, slik at like problemstillinger kan løses likt framfor hver for seg. Koblingene er satt fordi registeret selv leverer innsynet og den samlede oversikten. Selve plikten kommer fra forordningen, og metoden fra verktøykassa; begge hører hos de ressursene."
                 }
             ]
         },

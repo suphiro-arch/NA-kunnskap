@@ -4,7 +4,7 @@ headerTitle: "Datautveksling og integrasjon - Meldingsutveksling"
 eyebrow: "Kapabilitet"
 weight: 3
 description: "Evne til å utveksle strukturert informasjon som meldinger mellom aktører, basert på avtalte prosesser, standarder, informasjonsmodeller, sikkerhetskrav og kvitterings-/avviksmekanismer. ### Begrunnelse (Hvorfor) Meldingsutveksling gjør det mulig for virksomheter å samhandle digitalt uten at alle aktører må etablere egne punkt-til-punkt-integrasjoner. Kapabiliteten reduserer fragmentering, legger til rette for standardisert informasjonsflyt og sikrer at meldinger kan forstås, behandles og følges opp på tvers av uavhengige virksomheter. Dette er særlig viktig for sammenhengende tjenester der flere aktører inngår i samme tjenestekjede. ### Hva det innebærer (Omfang) - **Juridisk (Høy vekt):** Sikrer at meldinger kan utveksles med nødvendig behandlingsgrunnlag, avklarte ansvar, krav til taushetsplikt, personvern, journalføring og arkivering. - **Organisatorisk (Svært høy vekt):** Etablerer felles samhandlingsprosesser, roller, ansvar, avtaler og forventninger mellom avsender, mottaker og eventuelle felles tjenesteeiere. - **Semantisk (Svært høy vekt):** Sikrer felles forståelse av meldingstyper, begreper, informasjonsmodeller, statusverdier, kvitteringer og avvik. - **Teknisk (Høy vekt):** Bygger på felles standarder, grensesnitt, sikkerhetsmekanismer og infrastruktur som gjør systemer i stand til å sende, motta og behandle meldinger, f.eks. en meldingsformidler ### Bidrag til sammenhengende tjenester og felles økosystem Meldingsutveksling bidrar til sammenhengende tjenester ved å sikre at nødvendig informasjon kan flyte strukturert og pålitelig mellom virksomheter i en tjenestekjede. Brukeren slipper å være bærer av informasjon mellom aktørene, og virksomhetene kan behandle saker mer helhetlig og effektivt. Kapabiliteten styrker det felles digitale økosystemet ved å redusere behovet for særskilte integrasjoner, øke gjenbruk av standarder og legge til rette for mer forutsigbar samhandling mellom offentlige og private aktører."
-cardMeta: "14 produkter"
+cardMeta: "15 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -58,6 +58,11 @@ productsMarkdown: |
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/35-e-resept-produkt-canvas-v1-codex.md">e-resept</a></h3>
       <p class="capability-product-link__description">Produktets kjerne er sikker formidling av reseptrelatert informasjon mellom forskrivere, apotek og andre berørte aktører.</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/43-eDelivery-Building-Block-v1-claude.md">eDelivery Building Block</a></h3>
+      <p class="capability-product-link__description">gir et felles mønster for å sende og motta meldinger mellom parter som ikke har avtale med hverandre fra før, gjennom aksesspunkt og dynamisk oppslag av mottakerens kapabiliteter.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>

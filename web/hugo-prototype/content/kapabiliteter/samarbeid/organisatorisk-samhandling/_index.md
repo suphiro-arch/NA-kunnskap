@@ -51,6 +51,11 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/45-Once-Only-Technical-System-v1-claude.md">Once-Only Technical System (OOTS)</a></h3>
+      <p class="capability-product-link__description">effektiviserer forretningsprosessene på tvers av organisatoriske og nasjonale grenser, ved at søknadsbehandling i ett land kan trekke på registerdata i et annet. Koblingene er satt fordi OOTS selv etablerer mekanismen for grensekryssende bevisutveksling. Den underliggende transporten leveres av `eDelivery Building Block`, og autentiseringen av brukeren av eIDAS-rammeverket. Begge er avhengigheter, ikke kapabiliteter i denne ressursen.</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/48-Felles-studentsystem-produkt-canvas-v1-codex.md">Felles studentsystem (FS)</a></h3>
       <p class="capability-product-link__description">FS er en felles sektorløsning som brukes av mange utdanningsinstitusjoner med Sikt som felles forvalter.</p>
     </article>
@@ -108,11 +113,6 @@ productsMarkdown: |
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/129-MSIS-produkt-canvas-v2-codex.md">MSIS</a></h3>
       <p class="capability-product-link__description">MSIS understøtter koordinering mellom helsemyndigheter, smittevernmiljø og tjenesteaktører i beredskapsarbeid.</p>
-    </article>
-    <article class="capability-product-link resource-type--policy">
-      <p class="capability-product-link__type">Rammer og virkemidler</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/141-Stimulab-v1-copilot.md">Stimulab</a></h3>
-      <p class="capability-product-link__description">Stimulab støtter tverrsektorielle prosjekter og samler læring mellom virksomheter, Digdir og DOGA</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>

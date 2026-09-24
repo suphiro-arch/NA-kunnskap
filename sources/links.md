@@ -560,6 +560,16 @@ Sist redigert: 2026-06-17.
 - European Learning Model for interessenter, med versjonsstatus: https://europass.europa.eu/en/european-learning-model-stakeholders (lagt til 2026-09-08)
 - European Digital Credentials for Learning: https://europass.europa.eu/en/european-digital-credentials (lagt til 2026-09-08)
 - ESCO, europeisk klassifikasjon av ferdigheter, kvalifikasjoner og yrker: https://esco.ec.europa.eu/en (lagt til 2026-09-08)
+- eID Building Block: https://ec.europa.eu/digital-building-blocks/sites/display/DIGITAL/eID (lagt til 2026-09-24)
+- eDelivery Building Block: https://ec.europa.eu/digital-building-blocks/sites/display/DIGITAL/eDelivery (lagt til 2026-09-24)
+- eDelivery AS4-profilen: https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467117620/eDelivery+AS4 (lagt til 2026-09-24)
+- eSignature Building Block: https://ec.europa.eu/digital-building-blocks/sites/display/DIGITAL/eSignature (lagt til 2026-09-24)
+- DSS, referansebibliotek for elektroniske signaturer, med lisensvilkår: https://github.com/esig/dss (lagt til 2026-09-24)
+- Om Once-Only Technical System (OOTS): https://ec.europa.eu/digital-building-blocks/sites/spaces/OOTS/pages/610468075/About+OOTS (lagt til 2026-09-24)
+- Nordisk ministerråd om Once Only Technical System 2.0: https://www.norden.org/en/project/once-only-technical-system-20-oots (lagt til 2026-09-24)
+- Digdir om prosjekt for testing av SDG og OOTS, svarte 403 ved maskinell henting 2026-09-24: https://www.digdir.no/internasjonalt-arbeid/project-testing-single-digital-gateway-once-only-technical-system/5042 (lagt til 2026-09-24)
+- Digdir om tre EU-regelverk og én digital infrastruktur, eIDAS2, SDG og IEA: https://www.digdir.no/digitalisering-og-samordning/tre-eu-regelverk-en-digital-infrastruktur/8120 (lagt til 2026-09-24)
+- Digdir om implementering av eIDAS 2.0: https://samarbeid.digdir.no/digital-lommebok/implementering-av-eidas-20/2921 (lagt til 2026-09-24)
 
 ## Standarder og veiledninger
 
@@ -609,6 +619,11 @@ Sist redigert: 2026-06-17.
 - Core Vocabularies: https://interoperable-europe.ec.europa.eu/collection/semic-support-centre/solution/core-vocabularies (lagt til 2026-03-18)
 - Assessment Toolbox: https://interoperable-europe.ec.europa.eu/collection/assessments/assessment-toolbox (lagt til 2026-03-18)
 - Assessment reports repository: https://interoperable-europe.ec.europa.eu/collection/assessments/assessment-reports-repository (lagt til 2026-03-18)
+- Området for interoperabilitetsvurderinger: https://interoperable-europe.ec.europa.eu/collection/assessments (lagt til 2026-09-24)
+- Retningslinjer kapittel 2, når en interoperabilitetsvurdering er rettslig påkrevd: https://interoperable-europe.ec.europa.eu/collection/assessments/guidelines-chapter-2-when-interoperability-assessment-legally-required (lagt til 2026-09-24)
+- Retningslinjer kapittel 3, hvordan en interoperabilitetsvurdering gjennomføres: https://interoperable-europe.ec.europa.eu/collection/assessments/guidelines-chapter-3-how-carry-out-interoperability-assessment (lagt til 2026-09-24)
+- Forordning (EU) 2024/903 i EUR-Lex: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R0903 (lagt til 2026-09-24)
+- EØS-notat om Interoperable Europe Act: https://www.regjeringen.no/no/sub/eos-notatbasen/notatene/2023/feb/forslag-om-interoperable-europe-act/id2991186/ (lagt til 2026-09-24)
 
 ### Informasjonsforvaltning og styring
 - Slik blir du en god datatilbyder: https://www.digdir.no/datadeling/slik-blir-du-en-god-datatilbyder/2248

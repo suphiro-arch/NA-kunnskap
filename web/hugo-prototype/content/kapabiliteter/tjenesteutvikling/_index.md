@@ -3,7 +3,7 @@ title: "Tjenesteutvikling"
 eyebrow: "Kapabilitet"
 weight: 8
 description: "Evne til å utvikle sammenhengende digitale tjenester. ### Begrunnelse (Hvorfor) Offentlig og privat sektor må øke digitaliseringstakten for å løse felles samfunnsutfordringer og unngå fragmenterte løsninger. Denne hovedkapabiliteten eksisterer som en strategisk paraply for å styrke den felles prosess- og kompetanseevnen på tvers av økosystemet. Den løser problemet med silobasert og isolert systemutvikling ved å samordne innsatsen rundt helhetlig metodikk, design, koding og samarbeid. ### Hva det innebærer (Omfang) - **Organisatorisk (Svært høy vekt):** Felles smidige metodikker, brukerorienterte designdrevne prosesser og tverrgående samarbeidsmodeller sikrer helhetlig produktutvikling. - **Semantisk (Middels vekt):** Nasjonale referansemodeller og omforent begrepsforståelse legges systematisk til grunn under modellering av nye tjenestegrensesnitt. - **Teknisk (Høy vekt):** Overordnede plattformstrategier for standardiserte byggeklosser, integrerbare API-er og felles kjøretidsmiljøer sikrer teknologisk samsvar. ### Bidrag til sammenhengende tjenester og felles økosystem Hovedkapabiliteten gir det strategiske fundamentet som kreves for at uavhengige virksomheter skal kunne bygge løsninger som fungerer sømløst sammen. Ved å harmonisere kompetansen innen design, koding og gjenbruk på et overordnet nivå, elimineres metodiske ulikheter før utviklingen starter. For sluttbrukeren betyr dette at nye tverrgående tjenestekjeder kan etableres raskere, slik at de oppleves helhetlig og uavbrutt."
-cardMeta: "4 delkapabiliteter / 28 produkter"
+cardMeta: "4 delkapabiliteter / 30 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -51,6 +51,14 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/25-FIKS-plattformen-produkt-canvas-v1-codex.md">Fiks-plattformen</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/53-EU-Open-Source-Solutions-Catalogue-v1-claude.md">EU Open Source Solutions Catalogue</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/54-Interoperable-Europe-Solutions-v1-claude.md">Interoperable Europe Solutions</a></h3>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>

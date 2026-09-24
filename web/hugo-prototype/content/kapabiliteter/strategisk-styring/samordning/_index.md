@@ -4,11 +4,16 @@ headerTitle: "Strategisk styring - Samordning"
 eyebrow: "Kapabilitet"
 weight: 3
 description: "Evne til å harmonisere og koordinere strategisk retning, beslutninger og ressursbruk på tvers av virksomheter, for å realisere felles samfunnsmål og sammenhengende tjenester. ### Begrunnelse (Hvorfor) For å lykkes med sammenhengende digitale tjenester kan ikke virksomheter lenger optimalisere kun for seg selv. Kapabiliteten krever en tydelig styring eller et mandat som forplikter uavhengige aktører til å tilpasse seg hverandre, slik at offentlig sektor kan opptre koordinert og effektivt. ### Hva det innebærer (Omfang) - **Juridisk:** Å sørge for at juss og forvaltningspraksis i ulike virksomheter er kompatible, slik at det rettslige hjemmelsgrunnlaget for deling av data er på plass (f.eks. mellom Skatteetaten og NAV). - **Organisatorisk:** Å sørge for felles arbeidsprosesser og en tydelig ansvarsfordeling mellom de samhandlende virksomhetene for å definere stegene i en tjenestekjede. - **Semantisk:** Å sørge for en omforent og felles forståelse av hva dataene betyr (f.eks. at begrepet \"ansatt\" betyr det samme i to ulike systemer), slik at maskiner kan forstå hverandre. - **Teknisk:** Å sørge for at felles standarder og nasjonale fellesløsninger blir tatt i bruk, fremfor at virksomheter bygger egne, proprietære løsninger. ### Bidrag til sammenhengende tjenester og felles økosystem Samordning kobler strategi, arkitektur, beslutninger og ressurser på tvers, slik at offentlig sektor kan levere helhetlige tjenester rundt brukerens behov."
-cardMeta: "15 produkter"
+cardMeta: "17 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
   <div class="capability-product-links">
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/92-Assessment-reports-repository-v1-claude.md">Assessment reports repository</a></h3>
+      <p class="capability-product-link__description">gjør det mulig å se vurderinger fra ulike land og sektorer i sammenheng, slik at like problemstillinger kan løses likt framfor hver for seg. Koblingene er satt fordi registeret selv leverer innsynet og den samlede oversikten. Selve plikten kommer fra forordningen, og metoden fra verktøykassa; begge hører hos de ressursene.</p>
+    </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/103-Nasjonalt-veikart-v2-codex.md">Nasjonalt veikart</a></h3>
@@ -68,6 +73,11 @@ productsMarkdown: |
       <p class="capability-product-link__type">Samarbeidsforum</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/125-KI-Norge-v3-claude.md">KI Norge</a></h3>
       <p class="capability-product-link__description">Arenaen skal være bindeledd mellom initiativer og bidra til mer samlet retning i hvordan KI tas i bruk på tvers av sektorer.</p>
+    </article>
+    <article class="capability-product-link resource-type--policy">
+      <p class="capability-product-link__type">Rammer og virkemidler</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/141-Stimulab-v1-copilot.md">Stimulab</a></h3>
+      <p class="capability-product-link__description">Ordningen brukes ofte i tverrsektorielle utviklingsløp og bidrar til å samordne behov, læring og gjennomføring.</p>
     </article>
     <article class="capability-product-link resource-type--policy">
       <p class="capability-product-link__type">Rammer og virkemidler</p>

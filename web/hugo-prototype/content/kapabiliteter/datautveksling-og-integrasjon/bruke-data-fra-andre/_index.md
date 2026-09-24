@@ -4,7 +4,7 @@ headerTitle: "Datautveksling og integrasjon - Bruke data fra andre"
 eyebrow: "Kapabilitet"
 weight: 2
 description: "Evne til å gjenbruke data fra andre i egne tjenester og prosesser. ### Begrunnelse (Hvorfor) Kapabiliteten gjør at virksomheter ikke skal behøve å samle inn den samme informasjonen på nytt. Den løser problemet med dobbeltinnsamling, manuelle avklaringer og fragmenterte tjenesteløp ved å gjøre data fra andre aktører tilgjengelige for lovlig, sikker og effektiv gjenbruk i egne tjenester og prosesser. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Avklare behandlingsgrunnlag, formål, tilgangsrettigheter og eventuelle krav til taushetsplikt, personvern og viderebruk før data fra andre tas i bruk. - **Organisatorisk (Svært høy vekt):** Etablere rutiner for å identifisere databehov, inngå nødvendige avtaler med datatilbydere og innarbeide gjenbrukte data i egne arbeidsprosesser. - **Semantisk (Middels vekt):** Sikre at begreper, metadata, informasjonsmodeller og datakvalitet forstås likt, slik at data fra andre tolkes riktig i egen kontekst. - **Teknisk (Høy vekt):** Bruke grensesnitt basert på API, f.eks. REST, GraphQL eller andre klare, standardiserte og gjenbrukbare grensesnitt, med nødvendig autentisering, autorisering, logging og feilhåndtering. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten gjør at data kan følge brukerens behov på tvers av virksomheter, i stedet for at brukeren selv må oppgi samme informasjon flere ganger. Når virksomheter kan bruke data fra andre på en kontrollert og standardisert måte, blir tjenestene mer sammenhengende, raskere og mer treffsikre. Dette styrker det felles økosystemet ved å øke gjenbruk av data, redusere dobbeltarbeid og gjøre det enklere å bygge tjenester på tvers av organisatoriske grenser."
-cardMeta: "23 produkter"
+cardMeta: "24 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -63,6 +63,11 @@ productsMarkdown: |
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/36-Aa-registeret-produkt-canvas-v2-codex.md">Aa-registeret</a></h3>
       <p class="capability-product-link__description">Registeret bygger på løpende rapportering fra arbeidsgivere gjennom a-ordningen og bruker dette som oppdateringsgrunnlag for de delingstjenestene Nav tilbyr videre.</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/45-Once-Only-Technical-System-v1-claude.md">Once-Only Technical System (OOTS)</a></h3>
+      <p class="capability-product-link__description">gjør at en norsk tjeneste kan hente inn bevis fra utenlandske registre i stedet for å be brukeren om å skaffe dem selv.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>

@@ -4,7 +4,7 @@ headerTitle: "Samarbeid - Samarbeidsarenaer og nettverk"
 eyebrow: "Kapabilitet"
 weight: 2
 description: "Evne til å effektivisere, etablere, forvalte og fasilitere arenaer, nettverk og prosesser som fremmer kunnskapsdeling, dialog og samordning på tvers av virksomheter i økosystemet. ### Begrunnelse (Hvorfor) Sammenhengende tjenester kan ikke bygges i isolasjon. Aktørene i økosystemet må møtes for å dele erfaringer, løse felles utfordringer og samordne planer. Denne kapabiliteten sikrer velfungerende møteplasser som reduserer dobbeltarbeid, motvirker silotenking og gjør det mulig å koordinere utvikling på tvers av virksomheter. ### Hva det innebærer (Omfang) - **Organisatorisk (Svært høy vekt):** Sette opp og drifte konkrete nettverk, faggrupper og forum. Avklare roller, mandater og spilleregler for deltakelse, samt sikre at arbeidet er forankret hos ledelsen i virksomhetene. - **Semantisk (Middels vekt):** Bruke arenaene til å bygge felles kultur, terminologi og forståelse mellom arkitekter, jurister, utviklere og fagmiljøer fra ulike sektorer. ### Bidrag til sammenhengende tjenester og felles økosystem Når fagfolk møtes på tvers av organisasjoner, blir det lettere å oppdage hvor tjenester berører hverandre. Arenaene bidrar til å identifisere nye tverrgående brukerreiser, dele erfaringer og koordinere endringer i økosystemet. Dette gir bedre grunnlag for sammenhengende tjenester og gjør at virksomhetene kan utvikle løsninger som henger bedre sammen for sluttbrukeren."
-cardMeta: "13 produkter"
+cardMeta: "14 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -13,6 +13,11 @@ productsMarkdown: |
       <p class="capability-product-link__type">Samarbeidsforum</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/88-Arkitektur-og-standardiseringsradet-v2-claude.md">Arkitektur- og standardiseringsrådet</a></h3>
       <p class="capability-product-link__description">Rådet er en fast, mandatfestet arena der stat, kommunesektor og standardiseringsmiljøer møtes om arkitektur og standarder.</p>
+    </article>
+    <article class="capability-product-link resource-type--policy">
+      <p class="capability-product-link__type">Rammer og virkemidler</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/90-Interoperable-Europe-Act-v1-claude.md">Interoperable Europe Act</a></h3>
+      <p class="capability-product-link__description">etablerer styret for Interoperable Europe og portalen som faste arenaer for samordning mellom medlemsstatene og Kommisjonen. Koblingene er satt fordi forordningen selv skaper pliktene, organene og rammeverket. De enkelte løsningene og verktøyene som brukes for å oppfylle pliktene, er egne ressurser, og evnene de leverer hører hos dem.</p>
     </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>

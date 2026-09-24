@@ -4,7 +4,7 @@ headerTitle: "Tillit - Autentisering"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å på en sikker og entydig måte verifisere den digitale identiteten til brukere og systemer. ### Begrunnelse (Hvorfor) Kapabiliteten sikrer at digitale tjenester kan vite hvem eller hvilket system som forsøker å få tilgang. Den løser behovet for trygg innlogging, entydig verifisering av digital identitet og riktig sikkerhetsnivå i tjenester som inngår i felles økosystem. Autentisering skal samtidig være tilgjengelig og brukervennlig. Det innebærer å tilby sikre, tilgjengelige og moderne innloggingsmekanismer, for eksempel biometri, passordfrie løsninger, app og web, på ulike sikkerhetsnivåer. ### Hva det innebærer (Omfang) - **Juridisk (Høy vekt):** Sikre at autentisering skjer i tråd med krav til eID, personvern, sikkerhet, sporbarhet og regelverk for digitale tillitstjenester. - **Organisatorisk (Høy vekt):** Etablere rutiner for å risikovurdere og tilpasse eID-nivået i samarbeid med tjenesteeiere, slik at terskelen for bruk ikke blir unødvendig høy. - **Semantisk (Middels vekt):** Sikre felles forståelse av begreper som digital identitet, autentiseringsnivå, eID-nivå, bruker, system, innloggingsmekanisme og tillitsnivå. - **Teknisk (Svært høy vekt):** Tilby sikre, tilgjengelige og moderne innloggingsmekanismer på ulike sikkerhetsnivåer, med støtte for biometri, passordfrie løsninger, app og web, samt tekniske mekanismer for token, sesjonshåndtering, logging og integrasjon mot felles autentiseringstjenester. ### Bidrag til sammenhengende tjenester og felles økosystem Autentisering gjør det mulig å etablere tillit til hvem som bruker en digital tjeneste, enten det er en person, virksomhet eller et system. Når autentisering skjer på en sikker og standardisert måte, kan tjenester på tvers av virksomheter bygge på samme tillitsgrunnlag. Kapabiliteten styrker sammenhengende tjenester ved at brukeren kan bevege seg tryggere mellom tjenester uten unødvendige innloggingsbarrierer. For det felles økosystemet gir autentisering et nødvendig grunnlag for tilgangsstyring, tilgangskontroll, representasjon, sporbarhet og sikker datadeling."
-cardMeta: "9 produkter"
+cardMeta: "11 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -28,6 +28,16 @@ productsMarkdown: |
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/33-HelseID-produkt-canvas-v2-claude.md">HelseID</a></h3>
       <p class="capability-product-link__description">er en kjernefunksjon ved at HelseID bekrefter identiteten til helsepersonell, systemer og virksomheter</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/41-European-Digital-Identity-Wallet-v1-claude.md">European Digital Identity Wallet</a></h3>
+      <p class="capability-product-link__description">gir en felles europeisk mekanisme for å verifisere en digital identitet på høyt sikkerhetsnivå, uavhengig av hvilket land brukeren kommer fra. Lommeboka leverer evnen selv, og er ikke avhengig av at brukerstedet har egen innloggingsløsning.</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/42-eID-Building-Block-v1-claude.md">eID Building Block</a></h3>
+      <p class="capability-product-link__description">gir mekanismen for at en tjeneste i ett land kan verifisere en innlogging utført med en eID fra et annet land, innenfor eIDAS-rammeverkets sikkerhetsnivåer.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>

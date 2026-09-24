@@ -343,17 +343,17 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 
 | Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
 |---:|---|---|---|---|---|---|
-| 41 | `EU-001` | European Digital Identity Wallet | Gjenbrukbare løsninger | Digital identitetslommebok | Autentisering<br>Signering | - |
-| 42 | `EU-002` | eID Building Block | Gjenbrukbare løsninger | E-identifikasjonskomponent | Autentisering<br>Bruke data fra andre | - |
-| 43 | `EU-003` | eDelivery Building Block | Gjenbrukbare løsninger | Byggestein / referanseramme for eDelivery | Meldingsutveksling<br>Sikring av informasjonsflyt og datautveksling | - |
-| 44 | `EU-004` | eSignature Building Block | Gjenbrukbare løsninger | Signaturkomponent | Signering<br>Sikring av informasjonsflyt og datautveksling | - |
-| 45 | `EU-005` | Once-Only Technical System (OOTS) | Gjenbrukbare løsninger | Grensekryssende datadelingsinfrastruktur | Dele data med andre<br>Organisatorisk samhandling | - |
-| 53 | `EU-006` | EU Open Source Solutions Catalogue | Gjenbrukbare løsninger | Åpen kildekode-katalog for offentlig sektor | Gjenbrukbare tjenester<br>Integrerbare tjenester | - |
-| 54 | `EU-007` | Interoperable Europe Solutions | Standarder og veiledning | Løsningskatalog for interoperabilitet | Samarbeidsarenaer og nettverk<br>Forvaltningsstandarder | - |
-| 55 | `EU-008` | Core Vocabularies | Standarder og veiledning | Semantisk interoperabilitetsressurs | Informasjonsarkitektur<br>Forvaltningsstandarder | - |
-| 90 | `EU-009` | Interoperable Europe Act | Økonomiske og juridiske rammer og virkemidler | Regulering og rammeverk | Samarbeidsarenaer og nettverk<br>Forvaltningsstandarder | - |
-| 91 | `EU-010` | Assessment Toolbox | Standarder og veiledning | Vurderingsverktøy | Forvaltningsstandarder<br>Arkitekturstyring | - |
-| 92 | `EU-011` | Assessment reports repository | Standarder og veiledning | Erfaringsbibliotek | Samarbeidsarenaer og nettverk<br>Samordning | - |
+| 41 | `EU-001` | European Digital Identity Wallet | Gjenbrukbare løsninger | Digital identitetslommebok | Autentisering<br>Signering | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/41-European-Digital-Identity-Wallet-v1-claude.md) |
+| 42 | `EU-002` | eID Building Block | Gjenbrukbare løsninger | E-identifikasjonskomponent | Autentisering<br>Identifisering | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/42-eID-Building-Block-v1-claude.md) |
+| 43 | `EU-003` | eDelivery Building Block | Gjenbrukbare løsninger | Byggestein / referanseramme for eDelivery | Meldingsutveksling<br>Sikring av informasjonsflyt og datautveksling<br>EU standarder | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/43-eDelivery-Building-Block-v1-claude.md) |
+| 44 | `EU-004` | eSignature Building Block | Gjenbrukbare løsninger | Signaturkomponent | Signering<br>Sikring av informasjonsflyt og datautveksling<br>EU standarder | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/44-eSignature-Building-Block-v1-claude.md) |
+| 45 | `EU-005` | Once-Only Technical System (OOTS) | Gjenbrukbare løsninger | Grensekryssende datadelingsinfrastruktur | Dele data med andre<br>Bruke data fra andre<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/45-Once-Only-Technical-System-v1-claude.md) |
+| 53 | `EU-006` | EU Open Source Solutions Catalogue | Gjenbrukbare løsninger | Åpen kildekode-katalog for offentlig sektor | Gjenbrukbare tjenester<br>Oversikt over tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/53-EU-Open-Source-Solutions-Catalogue-v1-claude.md) |
+| 54 | `EU-007` | Interoperable Europe Solutions | Standarder og veiledning | Løsningskatalog for interoperabilitet | EU standarder<br>Gjenbrukbare tjenester | [Åpne](../../arkitektur/ressurser/normerende-ressurser/54-Interoperable-Europe-Solutions-v1-claude.md) |
+| 55 | `EU-008` | Core Vocabularies | Standarder og veiledning | Semantisk interoperabilitetsressurs | Informasjonsarkitektur<br>EU standarder | [Åpne](../../arkitektur/ressurser/normerende-ressurser/55-Core-Vocabularies-v1-claude.md) |
+| 90 | `EU-009` | Interoperable Europe Act | Økonomiske og juridiske rammer og virkemidler | Regulering og rammeverk | Arkitekturstyring<br>EU standarder<br>Samarbeidsarenaer og nettverk | [Åpne](../../arkitektur/ressurser/rammer-og-virkemidler/90-Interoperable-Europe-Act-v1-claude.md) |
+| 91 | `EU-010` | Assessment Toolbox | Standarder og veiledning | Vurderingsverktøy | Arkitekturstyring<br>Utvikling og formidling av veiledning<br>EU standarder | [Åpne](../../arkitektur/ressurser/normerende-ressurser/91-Assessment-Toolbox-v1-claude.md) |
+| 92 | `EU-011` | Assessment reports repository | Standarder og veiledning | Erfaringsbibliotek | Arkitekturstyring<br>Samordning | [Åpne](../../arkitektur/ressurser/normerende-ressurser/92-Assessment-reports-repository-v1-claude.md) |
 
 
 

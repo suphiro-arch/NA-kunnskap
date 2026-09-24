@@ -52,7 +52,7 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--policy">
       <p class="capability-product-link__type">Rammer og virkemidler</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/141-Stimulab-v1-copilot.md">Stimulab</a></h3>
-      <p class="capability-product-link__description">ordningen krever brukerorientert og designdrevet arbeid i prosjektene som får støtte</p>
+      <p class="capability-product-link__description">Stimulab forutsetter brukerorientert og designdrevet arbeid som en sentral del av virkemiddelbruken.</p>
     </article>
     <article class="capability-product-link resource-type--policy">
       <p class="capability-product-link__type">Rammer og virkemidler</p>

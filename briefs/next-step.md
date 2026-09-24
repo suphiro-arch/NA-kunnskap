@@ -108,18 +108,31 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
 - Fullføre barn-og-unge-sporet med de gjenstående kandidatene: `Barnehagefakta` som mulig peker
   under `UDIR-002` framfor egen ressurs, `DigiUng` som mulig samhandlingsarena, og
   `Barnevernsfaglig kvalitetssystem` som fortsatt er ubekreftet i kildene.
-- Kjøre batch 3, det internasjonale sporet: `Digital Europe Programme`, `NOBID`, `European Digital
-  Identity Cooperation Group`, `OECD OPSI` og konkrete nordisk-baltiske samarbeidsmekanismer. Eget
-  vurderingsspor for `eIDAS 2.0`, `Single Digital Gateway`, `OOTS`, `Interoperable Europe Act` og
-  `European Digital Identity Wallet`.
+- Kjøre resten av batch 3, det internasjonale sporet: `Digital Europe Programme`, `NOBID`,
+  `European Digital Identity Cooperation Group`, `OECD OPSI` og konkrete nordisk-baltiske
+  samarbeidsmekanismer. EU-gruppen `EU-001` til `EU-011` er skrevet som `v1` 2026-09-24, se
+  [decisions.md](./decisions.md), og dekker `OOTS`, `Interoperable Europe Act` og
+  `European Digital Identity Wallet`. `eIDAS 2.0` og `Single Digital Gateway` er ikke opprettet som
+  egne ressurser: begge er omtalt som rettsgrunnlag i `EU-001` og `EU-005`, og en egen ressurs bør
+  bare vurderes hvis forordningene trengs som selvstendige virkemiddelressurser på linje med
+  `EU-009`.
+- Opprette ressursbeskrivelse for `DIGDIR-024` eIDAS-node (Norge), som er den norske implementasjonen
+  `EU-002` viser til. Den er nå den tydeligste luken i EU-sporet: `42-eID-Building-Block-v1-claude.md`
+  peker til den flere steder, men fila finnes ikke. Fire andre ressurser mangler også canvas:
+  `KS-011`, `KS-013`, `NHN-005` og `NOVARI-008`.
+- Avklare norsk status for `EU-005` OOTS. Kildene i arbeidsøkta 2026-09-24 dokumenterer ikke hvilke
+  norske bevisleverandører og bevismottakere som er koblet til, og Digdirs egen prosjektside svarte
+  `403` ved maskinell henting. Bør avklares direkte med Digdir framfor gjennom flere søkerunder.
 - Avklare tre spørsmål før batch 3 kan gjennomføres:
   - Skal `Digital Europe Programme` og `OECD OPSI` registreres som egne ressurser, eller bare inngå
     i en bredere ressurs? For OPSI er ett grunnlag nå avklart: Digdir har rollen som nasjonalt
     kontaktpunkt i nettverket, og Norge sluttet seg til OECDs erklæring om innovasjon i offentlig
     sektor 22. mai 2019 sammen med 39 andre land.
   - Er `NOBID` en selvstendig ressurs eller først og fremst et prosjekt-/programspor?
-  - For EU-nivå må det skilles tydelig mellom juridisk ramme, felles internasjonal infrastruktur,
-    norsk implementering og norsk løsning, slik at registeret ikke får duplikater.
+  - Skillet mellom juridisk ramme, felles internasjonal infrastruktur, norsk implementering og norsk
+    løsning er avklart for EU-gruppen 2026-09-24, se [decisions.md](./decisions.md). De elleve
+    EU-filene beskriver det europeiske nivået, og norsk implementering er holdt utenfor som eget
+    spor. Samme skille må brukes for de gjenstående kandidatene i batch 3.
 - Kontrollere hjemmelsgrunnlaget for `DIGDIR-066` eForvaltningsforskriften på nytt når ny
   forvaltningslov (lov 20. juni 2025 nr. 81) settes i kraft. Ikrafttredelsen er ikke bestemt.
   Forskriften er i kraft i dag, så `v1` og status `aktiv` står inntil videre.

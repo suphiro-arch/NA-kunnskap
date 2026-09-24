@@ -3,7 +3,7 @@ title: "Samarbeid"
 eyebrow: "Kapabilitet"
 weight: 2
 description: "Evne til å samarbeid og samhandling på tvers av offentlig og privat forvaltning. ### Begrunnelse (Hvorfor) Sammenhengende tjenester kan ikke bygges i isolasjon. Aktørene i økosystemet må fungere som ett lag for å løse felles utfordringer, unngå dobbeltarbeid og bryte ned silotenking. Denne overordnede pilaren eksisterer for å sikre helhetlig samfunnsverdi og felles strategisk retning. Den løser problemet med at virksomheter prioriterer interne oppgaver fremfor tverrgående brukerreiser. ### Hva det innebærer (Omfang) - **Organisatorisk (Svært høy vekt):** Overordnede styringsmodeller, samstyring og finansiering koordinerer samhandlingsmodeller og avtaler for å tilpasse tjenestekjeder og prosesser. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten bygger bro mellom organisatoriske siloer og sikrer overordnet strategisk koordinering. Når man er enige om prioriteringer, økonomi og spilleregler på forhånd, sikres et tydelig mandat for samarbeid. Dette gir de operative teamene fundamentet de trenger for å binde tjenester sammen til en uavbrutt og guidet reise, slik at sluttbrukeren opplever forvaltningen som én samordnet aktør."
-cardMeta: "3 delkapabiliteter / 37 produkter"
+cardMeta: "3 delkapabiliteter / 38 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -46,6 +46,10 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/45-Once-Only-Technical-System-v1-claude.md">Once-Only Technical System (OOTS)</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/48-Felles-studentsystem-produkt-canvas-v1-codex.md">Felles studentsystem (FS)</a></h3>
     </article>
     <article class="capability-product-link resource-type--operative">
@@ -75,6 +79,10 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/88-Arkitektur-og-standardiseringsradet-v2-claude.md">Arkitektur- og standardiseringsrådet</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--policy">
+      <p class="capability-product-link__type">Rammer og virkemidler</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/90-Interoperable-Europe-Act-v1-claude.md">Interoperable Europe Act</a></h3>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -135,10 +143,6 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/139-Datalandsbyen-v2-claude.md">Datalandsbyen</a></h3>
-    </article>
-    <article class="capability-product-link resource-type--policy">
-      <p class="capability-product-link__type">Rammer og virkemidler</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/141-Stimulab-v1-copilot.md">Stimulab</a></h3>
     </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>

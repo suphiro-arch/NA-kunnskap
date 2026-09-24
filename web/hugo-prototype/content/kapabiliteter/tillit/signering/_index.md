@@ -4,7 +4,7 @@ headerTitle: "Tillit - Signering"
 eyebrow: "Kapabilitet"
 weight: 6
 description: "Evne til juridisk bindende signerering av dokumenter eller transaksjoner. ### Begrunnelse (Hvorfor) Kapabiliteten sikrer at digitale signaturer er juridisk gyldige, ikke bare i dag, men også i fremtiden. Den løser behovet for å binde en person eller virksomhet rettslig til et dokument eller en transaksjon på en måte som kan dokumenteres og etterprøves over tid. Signering gir juridisk forpliktelse ved at en person eller virksomhet bindes til et dokument eller en transaksjon på rettslig grunnlag. Kapabiliteten skal også sikre langvarig bevisverdi, slik at det i ettertid kan bevises at signaturen var gyldig da den ble avlagt, selv om for eksempel personens eID-sertifikat senere har utløpt. ### Hva det innebærer (Omfang) - **Juridisk (Svært høy vekt):** Sikre juridisk bindende signering av dokumenter og transaksjoner i tråd med relevant regelverk, inkludert eIDAS-krav til elektroniske signaturer og signeringsnære tillitstjenester. - **Organisatorisk (Middels vekt):** Etablere rutiner for bruk, forvaltning og kontroll av elektronisk signering i tjenesteprosesser, inkludert ansvar for dokumentasjon, arkivering og etterprøvbarhet. - **Semantisk (Middels vekt):** Sikre felles forståelse av begreper som signatur, juridisk forpliktelse, kvalifisert tidsstempling, sertifikat, uavviselighet og langsiktig bevisverdi. - **Teknisk (Høy vekt):** Forvalte fellesløsninger for elektronisk signatur, inkludert kvalifisert tidsstempling, sertifikathåndtering og mekanismer for Long-Term Validation (LTV). Systemet må låse signaturen med et offisielt tidsstempel slik at gyldighet kan dokumenteres også etter at sertifikater er utløpt eller trukket tilbake. ### Bidrag til sammenhengende tjenester og felles økosystem Signering gjør det mulig å gjennomføre rettslig bindende handlinger digitalt på tvers av virksomheter og tjenestekjeder. Når dokumenter og transaksjoner kan signeres med langvarig bevisverdi, kan tjenester fullføres digitalt uten papirbaserte prosesser eller manuell etterkontroll. Kapabiliteten styrker det felles økosystemet ved å gi felles mekanismer for uavviselighet, sporbarhet og juridisk bevisverdi. For sluttbrukeren betyr dette tryggere og mer effektive digitale tjenester der avtaler, søknader, vedtak og andre rettslige handlinger kan gjennomføres sømløst på tvers av offentlige og private aktører."
-cardMeta: "2 produkter"
+cardMeta: "4 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -13,6 +13,16 @@ productsMarkdown: |
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/03-eSignering-produkt-canvas-v3-codex.md">eSignering</a></h3>
       <p class="capability-product-link__description">er produktets kjernefunksjon og gjør det mulig å gjennomføre elektronisk signering av dokumenter i en nasjonal fellestjeneste</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/41-European-Digital-Identity-Wallet-v1-claude.md">European Digital Identity Wallet</a></h3>
+      <p class="capability-product-link__description">gjør det mulig for innbyggeren å opprette rettslig bindende elektroniske signaturer direkte fra lommeboka, innenfor det samme tillitsrammeverket. Koblingene er satt fordi lommeboka selv utsteder og presenterer identitetsbevis og signaturer. Evnen til å bekrefte identitet på tvers av landegrenser ville ikke blitt levert av noen annen ressurs i porteføljen hvis lommeboka ble borte. Lommeboka bruker samtidig attributter fra nasjonale registre og utstedere; den avhengigheten er beskrevet under `Gjenbruk`, ikke som egen kapabilitet.</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/44-eSignature-Building-Block-v1-claude.md">eSignature Building Block</a></h3>
+      <p class="capability-product-link__description">gir programvarekomponentene og tillitsgrunnlaget som gjør det mulig å opprette og verifisere avanserte og kvalifiserte elektroniske signaturer på tvers av land.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>

@@ -17,7 +17,7 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--policy">
       <p class="capability-product-link__type">Rammer og virkemidler</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/141-Stimulab-v1-copilot.md">Stimulab</a></h3>
-      <p class="capability-product-link__description">ordningen bruker økonomiske midler som styringsvirkemiddel for å få fram prioriterte innovasjonsprosjekter</p>
+      <p class="capability-product-link__description">Ordningen tildeler økonomiske midler til utviklingsprosjekter og styrer gjennom prioritering av hvilke prosjekter som får støtte.</p>
     </article>
     <article class="capability-product-link resource-type--policy">
       <p class="capability-product-link__type">Rammer og virkemidler</p>

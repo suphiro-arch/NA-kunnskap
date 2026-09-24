@@ -4,7 +4,7 @@ headerTitle: "Tjenesteutvikling - Gjenbrukbare tjenester"
 eyebrow: "Kapabilitet"
 weight: 3
 description: "Evne til å utvikle og benytte tjenester som kan brukes i nye sammenhenger på tvers av offentlig forvaltning og næringsliv. ### Begrunnelse (Hvorfor) Gjenbrukbare tjenester leverer forretningsmessig verdi ved å løse funksjonelle problemer som er felles for flere virksomheter. Det er en kritisk nyanse her: Et system kan være teknisk integrerbart (ha et API) uten å være gjenbrukbart, dersom forretningslogikken er for spesifikk eller låst til én kontekst. Kapabiliteten løser problemet med at virksomheter kaster bort ressurser på å duplisere og kode den samme forretningslogikken hver for seg i isolerte siloer. ### Hva det innebærer (Omfang) - **Organisatorisk (Svært høy vekt):** Rutiner for å identifisere generiske forretningsbehov som deles av flere aktører i økosystemet. Etablering av felles forvaltningsmodeller og insentiver som oppmuntrer virksomheter til å gjenbruke andres tjenester fremfor å bygge egne. - **Semantisk (Middels vekt):** Omforente definisjoner av funksjonelle tjenester og forretningsregler i felles katalog. Standardisering av tjenestetaksonomier for å sikre lik forståelse av hva en delt tjeneste faktisk utfører. - **Teknisk (Middels vekt):** Utvikling av modulær forretningslogikk som er frikoblet fra spesifikke, proprietære fagsystemer. Anvendelse av arkitekturmønstre som sikrer at tjenestekomponenten enkelt kan plugges inn i helt nye sammenhenger. ### Bidrag til sammenhengende tjenester og felles økosystem Når virksomheter gjenbruker de samme funksjonelle tjenestene og forretningsreglene, harmoniseres prosessene i bakgrunnen automatisk. Dette gjør det langt enklere å sy sammen tverrgående tjenestekjeder for de prioriterte livshendelsene. For sluttbrukeren betyr dette en mer forutsigbar og gjenkjennelig digital reise, fordi forvaltningen opptrer med lik logikk og adferd uavhengig av hvilken etat brukeren samhandler med."
-cardMeta: "6 produkter"
+cardMeta: "8 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -18,6 +18,16 @@ productsMarkdown: |
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/20-Altinn-Studio-produkt-canvas-v4-claude.md">Altinn Studio</a></h3>
       <p class="capability-product-link__description">– Komponenter-bibliotek og mønstre for enkel gjenbruk</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/53-EU-Open-Source-Solutions-Catalogue-v1-claude.md">EU Open Source Solutions Catalogue</a></h3>
+      <p class="capability-product-link__description">gjør det praktisk mulig å finne løsninger som allerede er utviklet i offentlig sektor i andre land, som et alternativ til å utvikle eller anskaffe på nytt.</p>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/54-Interoperable-Europe-Solutions-v1-claude.md">Interoperable Europe Solutions</a></h3>
+      <p class="capability-product-link__description">gjør løsninger utviklet i én forvaltning tilgjengelige for bruk i nye sammenhenger i andre land og sektorer. Koblingene er satt fordi katalogen selv leverer oversikten og anerkjennelsen. Løsningene den viser til, forvaltes av andre, og evnene de leverer hører hos dem. Forholdet til forordningen som hjemler anerkjennelsesordningen, er beskrevet under `Relasjon til andre ressurser`.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
