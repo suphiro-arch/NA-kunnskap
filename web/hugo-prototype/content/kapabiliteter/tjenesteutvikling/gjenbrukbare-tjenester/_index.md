@@ -4,7 +4,7 @@ headerTitle: "Tjenesteutvikling - Gjenbrukbare tjenester"
 eyebrow: "Kapabilitet"
 weight: 3
 description: "Evne til å utvikle og benytte tjenester som kan brukes i nye sammenhenger på tvers av offentlig forvaltning og næringsliv. ### Begrunnelse (Hvorfor) Gjenbrukbare tjenester leverer forretningsmessig verdi ved å løse funksjonelle problemer som er felles for flere virksomheter. Det er en kritisk nyanse her: Et system kan være teknisk integrerbart (ha et API) uten å være gjenbrukbart, dersom forretningslogikken er for spesifikk eller låst til én kontekst. Kapabiliteten løser problemet med at virksomheter kaster bort ressurser på å duplisere og kode den samme forretningslogikken hver for seg i isolerte siloer. ### Hva det innebærer (Omfang) - **Organisatorisk (Svært høy vekt):** Rutiner for å identifisere generiske forretningsbehov som deles av flere aktører i økosystemet. Etablering av felles forvaltningsmodeller og insentiver som oppmuntrer virksomheter til å gjenbruke andres tjenester fremfor å bygge egne. - **Semantisk (Middels vekt):** Omforente definisjoner av funksjonelle tjenester og forretningsregler i felles katalog. Standardisering av tjenestetaksonomier for å sikre lik forståelse av hva en delt tjeneste faktisk utfører. - **Teknisk (Middels vekt):** Utvikling av modulær forretningslogikk som er frikoblet fra spesifikke, proprietære fagsystemer. Anvendelse av arkitekturmønstre som sikrer at tjenestekomponenten enkelt kan plugges inn i helt nye sammenhenger. ### Bidrag til sammenhengende tjenester og felles økosystem Når virksomheter gjenbruker de samme funksjonelle tjenestene og forretningsreglene, harmoniseres prosessene i bakgrunnen automatisk. Dette gjør det langt enklere å sy sammen tverrgående tjenestekjeder for de prioriterte livshendelsene. For sluttbrukeren betyr dette en mer forutsigbar og gjenkjennelig digital reise, fordi forvaltningen opptrer med lik logikk og adferd uavhengig av hvilken etat brukeren samhandler med."
-cardMeta: "8 produkter"
+cardMeta: "10 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -41,6 +41,11 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/83-FINT-Arkivintegrasjoner-v1-claude.md">Arkivintegrasjoner</a></h3>
+      <p class="capability-product-link__description">Et integrasjonsoppsett som er laget én gang, kan brukes av flere fylkeskommuner med samme fagsystem, og plattformen reduserer dermed antallet integrasjoner som må bygges i sektoren samlet. Koblingene er satt fordi tjenesten selv leverer arbeidsflyten og gjenbruket av integrasjonsoppsett. Selve tilgangen til arkivinformasjon leveres av `FINT Arkiv` gjennom felles API og informasjonsmodell, og evnene til å dele og bruke arkivdata hører hos den ressursen. Avhengigheten er beskrevet under `Gjenbruk`.</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/118-Felles-designsystem-v3-claude.md">Felles designsystem</a></h3>
       <p class="capability-product-link__description">Ressursen gjør frontend-byggesteiner gjenbrukbare gjennom felles kodepakker, komponenter og mønstre som kan brukes i mange ulike tjenester i stedet for å lages på nytt lokalt.</p>
     </article>
@@ -48,6 +53,11 @@ productsMarkdown: |
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/165-Arbeidsflate-v1-claude.md">Arbeidsflate</a></h3>
       <p class="capability-product-link__description">Brukergrensesnittet er bygget som en gjenbrukbar flate som kan gjøres tilgjengelig i flere portaler, og kildekoden er publisert under åpen lisens. Virksomheter som trenger en dialogoversikt kan dermed ta i bruk en felles flate framfor å bygge og forvalte sin egen.</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/166-Simpl-v1-claude.md">Simpl</a></h3>
+      <p class="capability-product-link__description">Plattformen er modulær og publisert som åpen kildekode under European Union Public Licence 1.2, slik at komponentene kan brukes i nye sammenhenger på tvers av sektorer og land framfor å utvikles på nytt per dataområde.</p>
     </article>
   </div>
 ---

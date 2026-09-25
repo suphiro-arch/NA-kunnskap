@@ -4,7 +4,7 @@ headerTitle: "Standardisering - Forvaltningsstandarder"
 eyebrow: "Kapabilitet"
 weight: 2
 description: "Evne til å implementere og ta i bruk nasjonale standarder. ### Begrunnelse (Hvorfor) Kapabiliteten sikrer at virksomheter faktisk implementerer og tar i bruk nasjonale standarder i tjenester, løsninger, anskaffelser og samhandlingsprosesser. Den løser behovet for felles praksis som gjør at data, tjenester og tekniske grensesnitt fungerer sammen på tvers av offentlig sektor. Kapabiliteten inkluderer også EU-harmoniserte standarder som er vedtatt i norsk forvaltning. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Etterleve krav og føringer knyttet til nasjonale forvaltningsstandarder og EU-harmoniserte standarder som er vedtatt i norsk forvaltning. - **Organisatorisk (Høy vekt):** Etablere rutiner for å vurdere, innføre, følge opp og dokumentere bruk av relevante standarder i prosjekter, anskaffelser og forvaltning. - **Semantisk (Høy vekt):** Bruke standardiserte begreper, metadata, informasjonsmodeller og beskrivelser som sikrer lik forståelse av data og tjenester på tvers av virksomheter. - **Teknisk (Høy vekt):** Implementere standardiserte formater, protokoller, API-spesifikasjoner, sikkerhetsmekanismer og tekniske grensesnitt som gjør løsninger interoperable og gjenbrukbare. ### Bidrag til sammenhengende tjenester og felles økosystem Forvaltningsstandarder gjør det mulig å bygge tjenester og løsninger som følger samme regler, formater og samhandlingsmønstre. Når virksomheter implementerer og bruker de samme standardene, blir det enklere å dele data, koble systemer sammen og gjenbruke løsninger på tvers av sektorer og forvaltningsnivåer. Kapabiliteten styrker det felles økosystemet ved å redusere lokale avvik, særtilpasninger og kostbare integrasjoner. For sluttbrukeren betyr dette mer stabile og sammenhengende tjenester, der digitale løsninger fungerer bedre sammen uavhengig av hvilken virksomhet som leverer dem."
-cardMeta: "27 produkter"
+cardMeta: "28 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -83,6 +83,11 @@ productsMarkdown: |
       <p class="capability-product-link__type">Normerende ressurs</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/89-Rammeverk-for-informasjonsforvaltning-v2-codex.md">Rammeverk for informasjonsforvaltning</a></h3>
       <p class="capability-product-link__description">Rammeverket peker virksomheter inn mot felles standarder, spesifikasjoner og beskrivelser som må brukes samlet for å få mer konsistent informasjonsforvaltning.</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/94-Fiks-protokoll-v1-claude.md">Fiks protokoll</a></h3>
+      <p class="capability-product-link__description">Fiks protokoll definerer og forvalter de felles grensesnittene som kommunal sektor faktisk utveksler etter, og gjør dem tilgjengelige for leverandørene. Uten denne ressursen ville hver leverandørkobling vært en egen avtale.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>

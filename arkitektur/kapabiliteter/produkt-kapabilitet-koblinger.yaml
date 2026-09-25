@@ -2392,6 +2392,36 @@
             ]
         },
         {
+            "product_id": 56,
+            "product_name": "eIDAS-node (Norge)",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/56-eIDAS-node-Norge-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/56-eIDAS-node-Norge-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
+                    "capability_name": "Tillit",
+                    "capability_slug": "tillit",
+                    "subcapability_id": "id-ec0afaac123d4f9e83889d9022a198c3",
+                    "subcapability_name": "Autentisering",
+                    "subcapability_slug": "autentisering",
+                    "mapping_label": "Tillit: Autentisering",
+                    "explanation": "gjør det mulig for en norsk tjeneste å verifisere en innlogging utført med en notifisert eID fra et annet EØS-land, på eIDAS-nivå betydelig eller høyt. Uten noden ville evnen til å autentisere utenlandske brukere forsvinne fra norsk arkitektur; den leveres ikke av ID-porten selv."
+                },
+                {
+                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
+                    "capability_name": "Tillit",
+                    "capability_slug": "tillit",
+                    "subcapability_id": "id-4b66bbf964834654b5f0c61e955b91b1",
+                    "subcapability_name": "Identifisering",
+                    "subcapability_slug": "identifisering",
+                    "mapping_label": "Tillit: Identifisering",
+                    "explanation": "knytter den utenlandske identiteten til en norsk personidentifikator gjennom oppslag i Folkeregisteret, slik at tjenesten kan bruke identiteten videre i egen saks- og tjenestelogikk. Koblingene er satt fordi noden selv utfører rutingen mot utlandet og matchingen mot Folkeregisteret. Selve eID-en utstedes i brukerens hjemland, og persondataene eies av Folkeregisteret; begge er avhengigheter og er beskrevet under `Gjenbruk`."
+                }
+            ]
+        },
+        {
             "product_id": 57,
             "product_name": "SvarInn",
             "version": 2,
@@ -3002,6 +3032,66 @@
             ]
         },
         {
+            "product_id": 74,
+            "product_name": "Felles mal for innføring av digitale fellestjenester",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/74-Felles-mal-for-innforing-av-digitale-fellestjenester-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/74-Felles-mal-for-innforing-av-digitale-fellestjenester-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-c0547226c598467a942dced879d0c18b",
+                    "capability_name": "Veiledning",
+                    "capability_slug": "veiledning",
+                    "subcapability_id": "id-0bfa29018e7144578b2184e70414b7e8",
+                    "subcapability_name": "Utvikling og formidling av veiledning",
+                    "subcapability_slug": "utvikling-og-formidling-av-veiledning",
+                    "mapping_label": "Veiledning: Utvikling og formidling av veiledning",
+                    "explanation": "KS Digital utarbeider, kvalitetssikrer og tilgjengeliggjør malen som felles veiledning for hele kommunesektoren, og oppdaterer den gjennom erfaring fra konkrete innføringsløp."
+                },
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
+                    "subcapability_name": "Organisatorisk samhandling",
+                    "subcapability_slug": "organisatorisk-samhandling",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "Malen effektiviserer arbeidsprosessene mellom KS Digital og den enkelte kommunen ved at begge parter arbeider etter samme faseinndeling, med avklarte forventninger om hvem som gjør hva og når. Koblingene er satt fordi malen selv er veiledningen og selv definerer samarbeidsmønsteret. De tjenestene som innføres med malen, leverer sine egne evner, og de hører ikke her."
+                }
+            ]
+        },
+        {
+            "product_id": 79,
+            "product_name": "Videokonsultasjon (VIO)",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/79-Videokonsultasjon-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/79-Videokonsultasjon-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
+                    "subcapability_name": "Sammenhengende tjenester",
+                    "subcapability_slug": "sammenhengende-tjenester",
+                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                    "explanation": "Pasienten starter videotimen fra Helsenorge, mens behandleren starter den fra timeboken i EPJ-systemet. Konsultasjonen blir dermed ett sammenhengende løp på tvers av innbyggerflate og fagsystem, framfor to separate handlinger som brukeren selv må knytte sammen."
+                },
+                {
+                    "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
+                    "capability_name": "Tjenesteutvikling",
+                    "capability_slug": "tjenesteutvikling",
+                    "subcapability_id": "id-60827614648541ef8520df87fa25d100",
+                    "subcapability_name": "Integrerbare tjenester",
+                    "subcapability_slug": "integrerbare-tjenester",
+                    "mapping_label": "Tjenesteutvikling: Integrerbare tjenester",
+                    "explanation": "Løsningen eksponeres som en integrerbar tjeneste mot EPJ-systemene, slik at videokonsultasjon kan bygges inn i det arbeidsløpet helsepersonellet allerede bruker, uten en egen applikasjon ved siden av. Koblingene er satt fordi tjenesten selv leverer både det sammenhengende løpet og integrasjonsflaten. Autentiseringen skjer med HelseID, og den evnen hører hos `HelseID`; avhengigheten er beskrevet under `Gjenbruk`."
+                }
+            ]
+        },
+        {
             "product_id": 80,
             "product_name": "VIGO-portalen",
             "version": 2,
@@ -3108,6 +3198,36 @@
                     "subcapability_slug": "forvaltningsstandarder",
                     "mapping_label": "Standardisering: Forvaltningsstandarder",
                     "explanation": "Ressursen operasjonaliserer nasjonale koder fra Grep og Nasjonalt skoleregister til en felles praksis i fylkeskommunal sektor."
+                }
+            ]
+        },
+        {
+            "product_id": 83,
+            "product_name": "Arkivintegrasjoner",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/83-FINT-Arkivintegrasjoner-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/83-FINT-Arkivintegrasjoner-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
+                    "subcapability_name": "Organisatorisk samhandling",
+                    "subcapability_slug": "organisatorisk-samhandling",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "Tjenesten effektiviserer arbeidsprosessene mellom fagområde og arkiv ved at dokumenter og saksopplysninger flyter automatisk inn i arkivet, framfor at saksbehandleren overfører dem manuelt mellom to systemer."
+                },
+                {
+                    "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
+                    "capability_name": "Tjenesteutvikling",
+                    "capability_slug": "tjenesteutvikling",
+                    "subcapability_id": "id-f696350f5d844a96854deadb83bc3c81",
+                    "subcapability_name": "Gjenbrukbare tjenester",
+                    "subcapability_slug": "gjenbrukbare-tjenester",
+                    "mapping_label": "Tjenesteutvikling: Gjenbrukbare tjenester",
+                    "explanation": "Et integrasjonsoppsett som er laget én gang, kan brukes av flere fylkeskommuner med samme fagsystem, og plattformen reduserer dermed antallet integrasjoner som må bygges i sektoren samlet. Koblingene er satt fordi tjenesten selv leverer arbeidsflyten og gjenbruket av integrasjonsoppsett. Selve tilgangen til arkivinformasjon leveres av `FINT Arkiv` gjennom felles API og informasjonsmodell, og evnene til å dele og bruke arkivdata hører hos den ressursen. Avhengigheten er beskrevet under `Gjenbruk`."
                 }
             ]
         },
@@ -3524,6 +3644,36 @@
                     "subcapability_slug": "dele-data-med-andre",
                     "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
                     "explanation": "Tjenesten deler og overfører søknads- og saksdata kontrollert mellom statlige og kommunale systemer gjennom Fiks API-er og meldingskanaler."
+                }
+            ]
+        },
+        {
+            "product_id": 94,
+            "product_name": "Fiks protokoll",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/94-Fiks-protokoll-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/94-Fiks-protokoll-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
+                    "capability_name": "Standardisering",
+                    "capability_slug": "standardisering",
+                    "subcapability_id": "id-b99fcd8160d24e5f8ea3c17b15072f7a",
+                    "subcapability_name": "Forvaltningsstandarder",
+                    "subcapability_slug": "forvaltningsstandarder",
+                    "mapping_label": "Standardisering: Forvaltningsstandarder",
+                    "explanation": "Fiks protokoll definerer og forvalter de felles grensesnittene som kommunal sektor faktisk utveksler etter, og gjør dem tilgjengelige for leverandørene. Uten denne ressursen ville hver leverandørkobling vært en egen avtale."
+                },
+                {
+                    "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
+                    "capability_name": "Tjenesteutvikling",
+                    "capability_slug": "tjenesteutvikling",
+                    "subcapability_id": "id-60827614648541ef8520df87fa25d100",
+                    "subcapability_name": "Integrerbare tjenester",
+                    "subcapability_slug": "integrerbare-tjenester",
+                    "mapping_label": "Tjenesteutvikling: Integrerbare tjenester",
+                    "explanation": "Grensesnittene er standardiserte og maskinlesbare, slik at et fagsystem kan oppdage og integrere mot arkiv, matrikkel eller plan uten å kjenne det enkelte produktet på motsatt side. Koblingene er satt fordi ressursen selv eier grensesnittene og standardiseringen. Selve meldingsutvekslingen og sikringen av den leveres av `Fiks melding` og `Fiks-plattformen`, og de evnene hører hos dem. Avhengigheten er beskrevet under `Gjenbruk`."
                 }
             ]
         },
@@ -6162,6 +6312,46 @@
                     "subcapability_slug": "gjenbrukbare-tjenester",
                     "mapping_label": "Tjenesteutvikling: Gjenbrukbare tjenester",
                     "explanation": "Brukergrensesnittet er bygget som en gjenbrukbar flate som kan gjøres tilgjengelig i flere portaler, og kildekoden er publisert under åpen lisens. Virksomheter som trenger en dialogoversikt kan dermed ta i bruk en felles flate framfor å bygge og forvalte sin egen."
+                }
+            ]
+        },
+        {
+            "product_id": 166,
+            "product_name": "Simpl",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/166-Simpl-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/166-Simpl-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Simpl gir mekanismen for å gjøre data tilgjengelige for andre deltakere i et dataområde, med tilgangsstyring som blir hos den som eier dataene. Uten plattformen måtte hvert dataområde bygge sin egen delingsmekanisme."
+                },
+                {
+                    "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
+                    "capability_name": "Tjenesteutvikling",
+                    "capability_slug": "tjenesteutvikling",
+                    "subcapability_id": "id-f696350f5d844a96854deadb83bc3c81",
+                    "subcapability_name": "Gjenbrukbare tjenester",
+                    "subcapability_slug": "gjenbrukbare-tjenester",
+                    "mapping_label": "Tjenesteutvikling: Gjenbrukbare tjenester",
+                    "explanation": "Plattformen er modulær og publisert som åpen kildekode under European Union Public Licence 1.2, slik at komponentene kan brukes i nye sammenhenger på tvers av sektorer og land framfor å utvikles på nytt per dataområde."
+                },
+                {
+                    "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
+                    "capability_name": "Standardisering",
+                    "capability_slug": "standardisering",
+                    "subcapability_id": "id-697145d3768b40d39f9463667b78f749",
+                    "subcapability_name": "EU standarder",
+                    "subcapability_slug": "eu-standarder",
+                    "mapping_label": "Standardisering: EU standarder",
+                    "explanation": "Komponentene er bygget for å følge EU-standarder for datakvalitet og datadeling, og gjør dem dermed praktisk anvendelige i konkrete løsninger framfor bare dokumenterte. Koblingene er satt fordi plattformen selv leverer delingsmekanismen, komponentene og standardetterlevelsen. De enkelte dataområdene som bygger på Simpl, leverer sine egne evner innenfor sine fagområder, og de hører ikke her."
                 }
             ]
         }

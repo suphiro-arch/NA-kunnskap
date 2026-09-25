@@ -116,10 +116,20 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
   egne ressurser: begge er omtalt som rettsgrunnlag i `EU-001` og `EU-005`, og en egen ressurs bør
   bare vurderes hvis forordningene trengs som selvstendige virkemiddelressurser på linje med
   `EU-009`.
-- Opprette ressursbeskrivelse for `DIGDIR-024` eIDAS-node (Norge), som er den norske implementasjonen
-  `EU-002` viser til. Den er nå den tydeligste luken i EU-sporet: `42-eID-Building-Block-v1-claude.md`
-  peker til den flere steder, men fila finnes ikke. Fire andre ressurser mangler også canvas:
-  `KS-011`, `KS-013`, `NHN-005` og `NOVARI-008`.
+- Avklare forkortelsen `VIO` i registernavnet `Videokonsultasjon (VIO)` for `NHN-005`. Forkortelsen
+  er ikke funnet i åpne kilder hos Norsk helsenett eller Helsenorge 2026-09-25. Navnet i registeret
+  er beholdt uendret inntil den er avklart, og usikkerheten står i ressursfila. Avklares enklest
+  direkte med Norsk helsenett.
+- Avklare om `Helse Nord` bruker `NHN-005` Videokonsultasjon. Norsk helsenett navngir Helse Vest,
+  Helse Sør-Øst og Helse Midt-Norge, men ikke Helse Nord, og kildene sier ikke om det skyldes
+  manglende innføring eller et annet valg.
+- Vurdere `FINT Flyt` som egen ressurs. `NOVARI-008` FINT Arkivintegrasjoner er arkivsporet på
+  plattformen, men selve integrasjonsplattformen er ikke registrert. Novari fører begge som egne
+  tjenester.
+- Følge forvaltningsmodellen for `EU-012` Simpl etter den treårige kontraktsperioden. Hvem som
+  overtar eierskapet er ikke dokumentert, og det er den vesentligste usikkerheten for om plattformen
+  kan legges til grunn i norske planer. Norsk deltakelse i Simpl er heller ikke dokumentert og bør
+  avklares med Digdir.
 - Avklare norsk status for `EU-005` OOTS. Kildene i arbeidsøkta 2026-09-24 dokumenterer ikke hvilke
   norske bevisleverandører og bevismottakere som er koblet til, og Digdirs egen prosjektside svarte
   `403` ved maskinell henting. Bør avklares direkte med Digdir framfor gjennom flere søkerunder.

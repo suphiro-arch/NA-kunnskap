@@ -4,7 +4,7 @@ headerTitle: "Samarbeid - Organisatorisk samhandling"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å effektivisere forretningsprosesser og verdikjeder på tvers av organisatoriske grenser. ### Begrunnelse (Hvorfor) For å lage sammenhengende tjenester må uavhengige etater og virksomheter fungere som ett lag. Denne hovedkapabiliteten sikrer tverrgående styring og finansiering nasjonalt. Det skal bidra til å minske at virksomheter prioriterer egne, interne oppgaver framfor helhetlige brukerreiser som krever samarbeid. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Overordnede rammeverk for samarbeidsavtaler og nasjonale føringer, som Digitaliseringsrundskrivet, regulerer plikten til å samhandle og dele data. - **Organisatorisk (Svært høy vekt):** Nasjonale styringsmodeller, samstyring, finansieringsordninger og porteføljestyring avklarer strategisk ansvar, prioriteringer og spilleregler for samarbeid. - **Semantisk (Middels vekt):** Felles forståelse av organisatoriske roller, ansvar, eierskap og tjenestekjeder gjør det tydelig hvem som har ansvar på tvers av sektorer og livshendelser. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten bygger bro mellom organisatoriske siloer og sikrer bredere enighet om prioriteringer, ansvar og økonomi på forhånd. Dette gir operative team mandatet de trenger for å utvikle sømløse tjenester på tvers av virksomheter. For sluttbrukeren betyr det at offentlig sektor i større grad kan opptre som én samordnet aktør, selv om tjenestene leveres av flere uavhengige virksomheter."
-cardMeta: "24 produkter"
+cardMeta: "26 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -83,6 +83,16 @@ productsMarkdown: |
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v3-claude.md">VIGO</a></h3>
       <p class="capability-product-link__description">VIGO er felles eid og finansiert av fylkeskommunene og Oslo kommune, og understøtter samhandling mellom flere aktører i utdanningssektoren.</p>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/74-Felles-mal-for-innforing-av-digitale-fellestjenester-v1-claude.md">Felles mal for innføring av digitale fellestjenester</a></h3>
+      <p class="capability-product-link__description">Malen effektiviserer arbeidsprosessene mellom KS Digital og den enkelte kommunen ved at begge parter arbeider etter samme faseinndeling, med avklarte forventninger om hvem som gjør hva og når. Koblingene er satt fordi malen selv er veiledningen og selv definerer samarbeidsmønsteret. De tjenestene som innføres med malen, leverer sine egne evner, og de hører ikke her.</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/83-FINT-Arkivintegrasjoner-v1-claude.md">Arkivintegrasjoner</a></h3>
+      <p class="capability-product-link__description">Tjenesten effektiviserer arbeidsprosessene mellom fagområde og arkiv ved at dokumenter og saksopplysninger flyter automatisk inn i arkivet, framfor at saksbehandleren overfører dem manuelt mellom to systemer.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>

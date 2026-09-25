@@ -4,7 +4,7 @@ headerTitle: "Sluttbrukertjenester - Sammenhengende tjenester"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å levere en digital brukerorienterte tjenester som fremstår som en logisk og uavbrutt prosess for brukeren, selv når den involverer og koordinerer handlinger og tjenester fra flere, uavhengige virksomheter. ### Begrunnelse (Hvorfor) Når digitale tjenester er splittet opp mellom ulike uavhengige etater, blir brukeren ofte stående som en manuell budbringer av egne data mellom systemene. Denne underkapabiliteten løser det funksjonelle problemet med fragmenterte brukeropplevelser, brutte digitale reiser og silobaserte prosesser. Den sikrer at den bakenforliggende kompleksiteten i forvaltningen skjules helt, slik at brukeren opplever en helhetlig offentlig sektor. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Harmoniserte avklaringsprosesser under forvaltningsloven og personopplysningsloven sikrer det rettslige fundamentet for tverretatlig datadeling. - **Organisatorisk (Svært høy vekt):** Utforming av tverrgående arbeidsprosesser understøtter en uavbrutt og guidet reise der brukeren ledes steg-for-steg uten å måtte forholde seg til statlige eller kommunale grenser. - **Semantisk (Middels vekt):** Operasjonalisering av \"kun én gang\"-prinsippet sikrer at oppgitte data gjenbrukes via felles informasjonsmodeller. - **Teknisk (Høy vekt):** Teknisk integrasjon via standardiserte grensesnitt (API-er) og fellesløsninger sikrer at data deles og gjenbrukes. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten er selve nøkkelen til at innbyggere og næringsliv skal oppleve forvaltningen som én samordnet aktør. Ved å binde uavhengige tjenester sammen til flytende kjeder, elimineres behovet for at brukeren må gjenta informasjon eller lete etter neste saksbehandlingssteg. Dette reduserer tidsbruk og feil, noe som gir et vesentlig mer ressurseffektivt felles økosystem."
-cardMeta: "29 produkter"
+cardMeta: "30 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -68,6 +68,11 @@ productsMarkdown: |
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v3-claude.md">VIGO</a></h3>
       <p class="capability-product-link__description">Løsningen kobler sammen søknad, inntak, fagopplæring og oppfølging i et samlet sektorløp.</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/79-Videokonsultasjon-v1-claude.md">Videokonsultasjon (VIO)</a></h3>
+      <p class="capability-product-link__description">Pasienten starter videotimen fra Helsenorge, mens behandleren starter den fra timeboken i EPJ-systemet. Konsultasjonen blir dermed ett sammenhengende løp på tvers av innbyggerflate og fagsystem, framfor to separate handlinger som brukeren selv må knytte sammen.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>

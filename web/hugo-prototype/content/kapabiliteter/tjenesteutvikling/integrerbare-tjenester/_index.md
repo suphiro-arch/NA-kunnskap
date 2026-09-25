@@ -4,7 +4,7 @@ headerTitle: "Tjenesteutvikling - Integrerbare tjenester"
 eyebrow: "Kapabilitet"
 weight: 2
 description: "Evne til å designe, utvikle og eksponere data og funksjonalitet som selvstendige, standardiserte og maskinlesbare tjenester (API-er), slik at de enkelt kan oppdages, forstås og integreres i nye, tverrgående prosesser og løsninger. ### Begrunnelse (Hvorfor) Tradisjonell systemutvikling låser ofte data og funksjonalitet til spesifikke brukerapplikasjoner eller lukkede fagsystemer. Dette tvinger eksterne virksomheter til å bygge kostbare, skreddersydde og tette integrasjoner for hvert nye behov. Underkapabiliteten løser problemet med fragmentert arkitektur og teknisk gjeld ved å frikoble forretningslogikk og gjøre den universelt tilgjengelig via standardiserte, pluggbare grensesnitt. ### Hva det innebærer (Omfang) - **Organisatorisk (Middels vekt):** Operasjonalisering av en robust livssyklusforvaltning for digitale byggeklosser. Etablering av klare rutiner for versjonering, kontinuerlig vedlikehold og forutsigbar utfasing av tjenester for å sikre varig stabilitet for konsumentene. - **Semantisk (Middels vekt):** Dokumentasjon og publisering av funksjonalitet i felles kataloger. Sikring av at tekniske grensesnitt og tilhørende datafelter utformes standardisert, slik at de er enkle å oppdage og tolke korrekt av eksterne utviklere. - **Teknisk (Svært høy vekt):** Konkret anvendelse av \"API-først\"-metodikk der det maskinlesbare grensesnittet utvikles som det primære produktet, uavhengig av spesifikke applikasjoner. Teknisk implementering av innebygd sikkerhet og kontrollert tilgangsstyring i grensesnittet, slik at data kun utveksles ved lovlig grunnlag og legitimt behov. ### Bidrag til sammenhengende tjenester og felles økosystem Når virksomheter eksponerer sine kjernefunksjoner som integrerbare, frittstående API-er, fjernes den tekniske friksjonen mellom uavhengige systemer. Dette gjør det mulig for samarbeidende etater å hente og oppdatere nødvendig informasjon i sanntid. For sluttbrukeren betyr dette en mer sammenhengende brukerreise uten, der forvaltningens underliggende systemgrenser blir skjult."
-cardMeta: "14 produkter"
+cardMeta: "16 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -68,6 +68,16 @@ productsMarkdown: |
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/71-FINT-Arkiv-v1-codex.md">FINT Arkiv</a></h3>
       <p class="capability-product-link__description">FINT Arkiv tilbyr en operativ integrasjonsflate som kan brukes direkte i arkivintegrasjoner og tilknyttede tjenester.</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/79-Videokonsultasjon-v1-claude.md">Videokonsultasjon (VIO)</a></h3>
+      <p class="capability-product-link__description">Løsningen eksponeres som en integrerbar tjeneste mot EPJ-systemene, slik at videokonsultasjon kan bygges inn i det arbeidsløpet helsepersonellet allerede bruker, uten en egen applikasjon ved siden av. Koblingene er satt fordi tjenesten selv leverer både det sammenhengende løpet og integrasjonsflaten. Autentiseringen skjer med HelseID, og den evnen hører hos `HelseID`; avhengigheten er beskrevet under `Gjenbruk`.</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/94-Fiks-protokoll-v1-claude.md">Fiks protokoll</a></h3>
+      <p class="capability-product-link__description">Grensesnittene er standardiserte og maskinlesbare, slik at et fagsystem kan oppdage og integrere mot arkiv, matrikkel eller plan uten å kjenne det enkelte produktet på motsatt side. Koblingene er satt fordi ressursen selv eier grensesnittene og standardiseringen. Selve meldingsutvekslingen og sikringen av den leveres av `Fiks melding` og `Fiks-plattformen`, og de evnene hører hos dem. Avhengigheten er beskrevet under `Gjenbruk`.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>

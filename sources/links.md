@@ -284,6 +284,7 @@ Sist redigert: 2026-06-17.
 - Fiks Kjoretoyregister: https://ksdigital.no/tjenestene/fiks-kjoretoyregister/ (lagt til 2026-08-28)
 - KS Bekymringsmelding: https://bekymringsmelding.fiks.ks.no/ (lagt til 2026-08-28)
 - MinKommune: https://min.kommune.no/ (lagt til 2026-08-28)
+- Fiks politisk behandling hos KS: https://www.ks.no/fagomrader/digitalisering/felleslosninger/verktoykasse-plan--og-byggesak/verktoy/sammenhengende-tjenester---integrasjoner/fiks-politisk-behandling/ (lagt til 2026-09-25)
 
 ### Novari / fylkeskommunal sektor
 - vilbli.no, informasjonstjenesten: https://novari.no/tjenester/vilbli/ (lagt til 2026-09-07)
@@ -334,6 +335,10 @@ Sist redigert: 2026-06-17.
 - DigiHelsestasjon innføringshåndbok: https://www.ks.no/fagomrader/digitalisering/felleslosninger/digihelsestasjon/digihelsestasjon---innforingshandbok/ (lagt til 2026-09-07)
 - Helsestasjons- og skolehelsetjenesten på Helsenorge, NHN: https://www.nhn.no/tjenester/helsenorge/informasjon-per-malgruppe/helsenorge-for-kommuner/helsestasjons-og-skolehelsetjenesten (lagt til 2026-09-07)
 - Retningslinje for helsestasjons- og skolehelsetjenesten: https://www.helsedirektoratet.no/retningslinjer/helsestasjons-og-skolehelsetjenesten (lagt til 2026-09-07)
+- Videotjenester hos Norsk helsenett: https://www.nhn.no/tjenester/video (lagt til 2026-09-25)
+- Video for spesialisthelsetjenesten: https://www.nhn.no/tjenester/video/for-spesialisthelsetjenesten (lagt til 2026-09-25)
+- Videokonsultasjon for spesialisthelsetjenesten: https://www.nhn.no/tjenester/video/for-spesialisthelsetjenesten/videokonsultasjon (lagt til 2026-09-25)
+- Videokonsultasjon via Helsenorge: https://www.helsenorge.no/en/about-services-on-helsenorge/video-consultations-via-Helsenorge/ (lagt til 2026-09-25)
 - Nasjonal digitaliseringsmonitor, DigiHelsestasjon: https://www.helsedirektoratet.no/statistikk/nasjonal-digitaliseringsmonitor/digihelsestasjon (lagt til 2026-09-07)
 - Norsk helsenett på GitHub, klientbibliotek og eksempelkode: https://github.com/NorskHelsenett (lagt til 2026-09-05)
 - Kjernejournal på Helsenorge: https://www.helsenorge.no/helseopplysninger-som-deles/kjernejournal/
@@ -541,6 +546,9 @@ Sist redigert: 2026-06-17.
 - BankID: https://www.bankid.no
 - Buypass: https://www.buypass.no
 - Commfides: https://www.commfides.no
+- Digdir om elektronisk identitet: https://www.digdir.no/digital-identitet/elektronisk-identitet-eid/4047 (lagt til 2026-09-25)
+- Digdir om identitetsmatching på tvers av grensene: https://www.digdir.no/internasjonalt-arbeid/identity-matching/6681 (lagt til 2026-09-25)
+- Digdir om identitetsmatching, Samarbeidsportalen: https://samarbeid.digdir.no/digital-lommebok/identitetsmatching-pa-tvers-av-grensene/3223 (lagt til 2026-09-25)
 
 ### EU / Europa
 - European Digital Identity Wallet: https://commission.europa.eu/topics/digital-economy-and-society/european-digital-identity_en (lagt til 2026-03-18)
@@ -570,6 +578,9 @@ Sist redigert: 2026-06-17.
 - Digdir om prosjekt for testing av SDG og OOTS, svarte 403 ved maskinell henting 2026-09-24: https://www.digdir.no/internasjonalt-arbeid/project-testing-single-digital-gateway-once-only-technical-system/5042 (lagt til 2026-09-24)
 - Digdir om tre EU-regelverk og én digital infrastruktur, eIDAS2, SDG og IEA: https://www.digdir.no/digitalisering-og-samordning/tre-eu-regelverk-en-digital-infrastruktur/8120 (lagt til 2026-09-24)
 - Digdir om implementering av eIDAS 2.0: https://samarbeid.digdir.no/digital-lommebok/implementering-av-eidas-20/2921 (lagt til 2026-09-24)
+- Simpl, Kommisjonens policyside: https://digital-strategy.ec.europa.eu/en/policies/simpl (lagt til 2026-09-25)
+- Simpl-programmets egen side: https://simpl-programme.ec.europa.eu/ (lagt til 2026-09-25)
+- Simpl-Open i EUs kodeplattform, med lisensvilkår: https://code.europa.eu/simpl/simpl-open (lagt til 2026-09-25)
 
 ## Standarder og veiledninger
 

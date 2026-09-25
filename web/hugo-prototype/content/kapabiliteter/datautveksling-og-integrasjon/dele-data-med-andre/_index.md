@@ -4,7 +4,7 @@ headerTitle: "Datautveksling og integrasjon - Dele data med andre"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er, slik at andre aktører med lovlig grunnlag enkelt kan oppdage og gjenbruke dem. ### Begrunnelse (Hvorfor) Kapabiliteten gjør det mulig for andre aktører med lovlig grunnlag å oppdage, forstå og gjenbruke data i egne tjenester og prosesser. Den løser problemet med at verdifulle data forblir låst i enkeltvirksomheter, og legger til rette for at informasjon kan brukes på tvers uten unødvendige manuelle henvendelser, særskilte integrasjoner eller ny innsamling. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Avklare behandlingsgrunnlag, formål, tilgangsrettigheter, taushetsplikt og vilkår for viderebruk før data gjøres tilgjengelig for andre. - **Organisatorisk (Svært høy vekt):** Etablere rutiner for eierskap, forvaltning, publisering, kvalitetssikring og oppfølging av datatilbudet overfor konsumenter. - **Semantisk (Middels vekt):** Publisere og dokumentere dataene i Felles datakatalog, slik at de blir lette å finne, forstå og vurdere for gjenbruk. - **Teknisk (Høy vekt):** Etablere og forvalte sikre API-er etter nasjonale standarder, med robuste systemer for tilgangsstyring som sikrer at data kun deles med de som har lov til det, f.eks. via Maskinporten. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten gjør at andre virksomheter kan bygge tjenester på data som allerede finnes, i stedet for å hente inn samme informasjon på nytt. Når data deles gjennom sikre, standardiserte og godt dokumenterte grensesnitt, kan tjenestekjeder kobles sammen på en mer forutsigbar måte. For sluttbrukeren betyr dette færre gjentakelser, mindre dokumentasjonsbyrde og mer sømløse tjenester på tvers av virksomheter. For økosystemet gir det økt gjenbruk, bedre datakvalitet og mer effektiv ressursutnyttelse."
-cardMeta: "48 produkter"
+cardMeta: "49 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -248,6 +248,11 @@ productsMarkdown: |
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/161-BASIL-v2-claude.md">BASIL</a></h3>
       <p class="capability-product-link__description">Innsamlede data brukes videre i offisiell statistikk, i tilskuddsforvaltning og som kilde til nøkkeltallene på Barnehagefakta.</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/166-Simpl-v1-claude.md">Simpl</a></h3>
+      <p class="capability-product-link__description">Simpl gir mekanismen for å gjøre data tilgjengelige for andre deltakere i et dataområde, med tilgangsstyring som blir hos den som eier dataene. Uten plattformen måtte hvert dataområde bygge sin egen delingsmekanisme.</p>
     </article>
   </div>
 ---

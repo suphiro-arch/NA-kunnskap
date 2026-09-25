@@ -17,6 +17,7 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Standard
         <option value="DTIL">DTIL</option>
         <option value="EU">EU</option>
         <option value="FLERE">Flere virksomheter</option>
+        <option value="KS">KS Digital</option>
         <option value="NOVARI">Novari</option>
         <option value="UDIR">UDIR</option>
       </select></label>
@@ -53,7 +54,7 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Standard
         <option value="&#197;pne data">&#197;pne data</option>
       </select></label>
     </div>
-    <p class="resource-filters__result" data-role="count">Viser 34 av 34 ressurser</p>
+    <p class="resource-filters__result" data-role="count">Viser 35 av 35 ressurser</p>
   </div>
   <div class="resource-cards">
 <article class="resource-card" data-owner="EU" data-type="Standarder og veiledning" data-capabilities="eu standarder gjenbrukbare tjenester" data-emne="L&#248;sningskatalog for interoperabilitet" data-search="interoperable europe solutions eu-007 eu eu standarder og veiledning standarder og veiledning interoperable europe solutions er katalogen over interoperabilitetsl&#248;sninger p&#229; europakommisjonens interoperable europe-portal. katalogen omfatter programvare, vokabularer, rammeverk, spesifikasjoner, standarder og oppl&#230;ringstilbud som kan gjenbrukes i grensekryssende digitale offentlige tjenester. katalogen har tre... eu standarder gjenbrukbare tjenester l&#248;sningskatalog for interoperabilitet">
@@ -82,6 +83,15 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Standard
   <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let med ressursen er &#229; etablere en omforent informasjonsstruktur for fylkeskommunal datadeling. Den normerende rollen ligger f&#248;rst og fremst i at modellen definerer hvilke objekter, relasjoner...</p>
   <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/informasjonsforvaltning/informasjonsarkitektur/">Informasjonsarkitektur</a> <a class="capability-chip" href="../../../kapabiliteter/informasjonsforvaltning/oversikt-over-informasjonsmodeller/">Oversikt over informasjonsmodeller</a> <a class="capability-chip" href="../../../kapabiliteter/standardisering/forvaltningsstandarder/">Forvaltningsstandarder</a></div>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/72-FINT-Informasjonsmodell-v2-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://novari.no/tjenester/fint-informasjonsmodell/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="KS" data-type="Standarder og veiledning" data-capabilities="utvikling og formidling av veiledning organisatorisk samhandling" data-emne="Innf&#248;ringsveileder" data-search="felles mal for innf&#248;ring av digitale fellestjenester ks-011 ks ks digital standarder og veiledning standarder og veiledning felles mal for innf&#248;ring av digitale fellestjenester er ks digitals rammeverk for hvordan en ny digital fellestjeneste tas i bruk i kommuner og fylkeskommuner. malen beskriver innf&#248;ringen som en egen fase med to underfaser, planlegging og gjennomf&#248;ring, og lister aktivitetene som skal gjennomf&#248;res i hver av dem. etter... utvikling og formidling av veiledning organisatorisk samhandling innf&#248;ringsveileder">
+  <h2 class="resource-card__title">Felles mal for innf&#248;ring av digitale fellestjenester</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>KS-011</code> | <strong>Siste versjon:</strong> v1 (claude)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> KS Digital | <strong>Type:</strong> Standarder og veiledning</p>
+  <p class="resource-card__description">Felles mal for innf&#248;ring av digitale fellestjenester er KS Digitals rammeverk for hvordan en ny digital fellestjeneste tas i bruk i kommuner og fylkeskommuner. Malen beskriver innf&#248;ringen som en egen fase med to underfaser, planlegging og gjennomf&#248;ring, og lister aktivitetene som skal gjennomf&#248;res i hver av dem. Etter...</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Form&#229;let er &#229; gj&#248;re innf&#248;ringen forutsigbar og raskere, slik at gevinstene kommer tidligere. KS Digital oppgir tre m&#229;l: bedre st&#248;tte til fylkeskommuner og kommuner n&#229;r nye l&#248;sninger tas i bruk,...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/veiledning/utvikling-og-formidling-av-veiledning/">Utvikling og formidling av veiledning</a> <a class="capability-chip" href="../../../kapabiliteter/samarbeid/organisatorisk-samhandling/">Organisatorisk samhandling</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/74-Felles-mal-for-innforing-av-digitale-fellestjenester-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://ksdigital.no/tjenestene/felles-mal-for-innforing-av-digitale-fellestjenester/">Offisiell lenke</a></p>
 </article>
 <article class="resource-card" data-owner="NOVARI" data-type="Standarder og veiledning" data-capabilities="informasjonsarkitektur oversikt over begreper forvaltningsstandarder" data-emne="Kodeverk" data-search="vigo kodeverk og kodeverksbase novari-007 novari novari standarder og veiledning standarder og veiledning vigo kodeverk er det samlede kodeverket for videreg&#229;ende oppl&#230;ring. det kombinerer nasjonale koder for fag, l&#230;replaner og oppl&#230;ringstilbud fra `grep`, skoleopplysninger fra nasjonalt skoleregister, og vigo-spesifikke koder som fylkeskommunene trenger i inntak, fagoppl&#230;ring og dokumentasjon. kodeverksbasen er den... informasjonsarkitektur oversikt over begreper forvaltningsstandarder kodeverk">
   <h2 class="resource-card__title">VIGO Kodeverk og kodeverksbase</h2>
