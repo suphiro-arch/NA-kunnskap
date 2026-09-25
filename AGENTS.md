@@ -134,6 +134,7 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
   `python tools/sync-resource-metadata.py --apply`
   `python tools/check-resource-version-sync.py`
 - `check-resource-version-sync.py` kontrollerer også at merkelappene under `## Kapabiliteter` i gjeldende ressursfiler, og i kapabilitetskolonnen i registeret, er navn fra `capabilities.yaml`. Både `Hovedkapabilitet: Delkapabilitet` og navnet alene godtas, men er prefikset med, må det være riktig hovedkapabilitet. Erstattede versjoner kontrolleres ikke, siden et navnebytte i modellen ikke skal gjøre historikk til feil.
+- Kapabilitetskoblinger skal alltid ned på laveste nivå. Har hovedkapabiliteten delkapabiliteter, er det en av dem som skal oppgis, ikke hovedkapabiliteten. Bare hovedkapabiliteter uten delkapabiliteter er selv laveste nivå, jf. `selvstendig: true` i tolkningsreglene i `capabilities.yaml`. Dette håndheves av kontrollen over, som også lister hvilke delkapabiliteter du kan velge mellom.
 - Seksjonsstruktur mot malen for kategorien:
   `python tools/check-resource-structure.py --strict`
 - Eksterne lenker som er brukt uten å være registrert i `sources/links.md`:

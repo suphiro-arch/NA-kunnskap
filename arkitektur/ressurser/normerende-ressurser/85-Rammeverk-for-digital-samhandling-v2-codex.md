@@ -33,9 +33,9 @@ Forpliktelsesnivået er anbefalt/styrende. Rammeverket får praktisk virkning n�
 Etterlevelse bør dokumenteres gjennom tydelige arkitekturbeslutninger: hva slags samhandling tiltaket krever, hvilke aktører som har ansvar, hvilke data som deles, hvilke standarder som brukes, hvilke rettslige rammer som gjelder, og hvilke tekniske mønstre som er valgt. Avvik kan være riktig, men bør begrunnes når de påvirker samhandlingsevne, gjenbruk, tillit eller sammenhengende tjenester.
 
 ## Kapabiliteter
-- **Juridisk samhandling**
+- **Regelverkstolkning**
 
-  Rammeverket støtter juridisk samhandling ved å synliggjøre at digital samhandling må ha et rettslig handlingsrom. Tiltak må avklare hjemmel, behandlingsgrunnlag, taushetsplikt, ansvar, avtaler og regelverkstolkning før data eller tjenester kobles sammen på tvers.
+  Rammeverket støtter tolkning av regelverk ved å synliggjøre at digital samhandling må ha et rettslig handlingsrom. Tiltak må avklare hjemmel, behandlingsgrunnlag, taushetsplikt, ansvar, avtaler og regelverkstolkning før data eller tjenester kobles sammen på tvers.
 
 - **Organisatorisk samhandling**
 

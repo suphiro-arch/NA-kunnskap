@@ -261,20 +261,26 @@ def check_capability_slugs() -> list[str]:
     return findings
 
 
-def canonical_capability_names() -> tuple[set[str], dict[str, set[str]]]:
-    """Navn på hovedkapabiliteter, og hvilke hovedkapabiliteter hvert delkapabilitetsnavn hører under."""
+def canonical_capability_names() -> tuple[set[str], dict[str, set[str]], dict[str, list[str]]]:
+    """Gyldige merkelappnavn, forelder per delkapabilitet, og delkapabiliteter per hovedkapabilitet."""
     helper = load_capability_helpers()
     model = helper.parse_capabilities_yaml(CAPABILITIES_FILE)
     capability_names: set[str] = set()
     parents_by_subcapability: dict[str, set[str]] = {}
+    children_by_capability: dict[str, list[str]] = {}
 
     for capability in model.get("kapabiliteter", []):
         name = capability["navn"].strip()
-        capability_names.add(name)
-        for subcapability in capability.get("delkapabiliteter", []):
-            parents_by_subcapability.setdefault(subcapability["navn"].strip(), set()).add(name)
+        children = [sub["navn"].strip() for sub in capability.get("delkapabiliteter", [])]
+        children_by_capability[name] = children
+        # Hovedkapabiliteter uten delkapabiliteter er selv laveste nivå, jf.
+        # tolkningsreglene i capabilities.yaml om `selvstendig: true`.
+        if not children:
+            capability_names.add(name)
+        for child in children:
+            parents_by_subcapability.setdefault(child, set()).add(name)
 
-    return capability_names, parents_by_subcapability
+    return capability_names, parents_by_subcapability, children_by_capability
 
 
 def check_capability_labels(latest: dict[int, dict]) -> list[str]:
@@ -289,11 +295,15 @@ def check_capability_labels(latest: dict[int, dict]) -> list[str]:
     Begge skrivemåter godtas: `Hovedkapabilitet: Delkapabilitet` og bare navnet
     alene. Er prefikset med, skal det være den faktiske hovedkapabiliteten.
 
+    Merkelappen skal ned på laveste nivå. Har hovedkapabiliteten delkapabiliteter,
+    er det en av dem som skal oppgis. Bare hovedkapabiliteter uten delkapabiliteter
+    er selv laveste nivå.
+
     Bare gjeldende versjoner kontrolleres. Erstattede versjoner er historikk, og
     et navnebytte i modellen skal ikke gjøre dem til feil i ettertid.
     """
     findings: list[str] = []
-    capability_names, parents_by_subcapability = canonical_capability_names()
+    capability_names, parents_by_subcapability, children_by_capability = canonical_capability_names()
 
     def validate(label: str, origin: str) -> None:
         prefix, _, name = label.rpartition(":")
@@ -302,7 +312,14 @@ def check_capability_labels(latest: dict[int, dict]) -> list[str]:
             return
         parents = parents_by_subcapability.get(name)
         if parents is None and name not in capability_names:
-            findings.append(f"{origin}: «{label}» er ikke en kapabilitet i capabilities.yaml")
+            children = children_by_capability.get(name)
+            if children:
+                findings.append(
+                    f"{origin}: «{label}» stopper på hovedkapabiliteten {name}. "
+                    f"Velg delkapabilitet: {', '.join(children)}"
+                )
+            else:
+                findings.append(f"{origin}: «{label}» er ikke en kapabilitet i capabilities.yaml")
             return
         if prefix and parents is not None and prefix not in parents:
             findings.append(
