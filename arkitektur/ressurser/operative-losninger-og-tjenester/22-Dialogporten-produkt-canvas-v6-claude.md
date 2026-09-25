@@ -151,7 +151,11 @@ Felles dialoglag i Altinn-porteføljen med API-er, GraphQL, hendelser og integra
 - **Altinn Varsling** – varsler sendes parallelt med at dialog opprettes eller oppdateres.
 - **Altinn Autorisasjon** – styrer hvem som har tilgang til å se og behandle dialoger.
 
-**Kildekode:** Åpen kildekode. Lisens: MIT. Kildekode: [github.com/Altinn/dialogporten](https://github.com/Altinn/dialogporten).
+**Kildekode:** Åpen kildekode.
+
+**Lisens:** MIT, kontrollert mot repositoriet 2026-09-25.
+
+**Repositorium:** [github.com/Altinn/dialogporten](https://github.com/Altinn/dialogporten)
 
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** gjør dialogmetadata tilgjengelig på tvers av løsninger.

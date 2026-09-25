@@ -104,6 +104,8 @@ Ressursen har høy gjenbruksverdi i tidligfasearbeid fordi flere aktører kan te
 
 **Kildekode:** Ikke offentlig dokumentert.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P5: Del og gjenbruk løsninger**
   Sandkassen gjør at aktører kan gjenbruke et felles testmiljø i stedet for å bygge parallelle oppsett hver for seg.

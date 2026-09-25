@@ -11,7 +11,7 @@ productsMarkdown: |
   <div class="capability-product-links">
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v2-claude.md">Digitaliseringsvennlig regelverk</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v3-claude.md">Digitaliseringsvennlig regelverk</a></h3>
       <p class="capability-product-link__description">Anbefalingene er skrevet for dem som utformer nytt regelverk, og dekker både detaljnivå, teknologinøytralitet og hvordan bestemmelser bør struktureres.</p>
     </article>
   </div>

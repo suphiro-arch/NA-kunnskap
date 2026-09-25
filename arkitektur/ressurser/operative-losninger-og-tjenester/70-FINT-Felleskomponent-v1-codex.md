@@ -119,7 +119,11 @@ Ressursen har høy gjenbruksverdi fordi den er laget nettopp for å være et fel
 - `FINT Flyt` når det er behov for dataomforming og oppsett av integrasjonsløp
 - fylkeskommunale fagsystemer og adaptere som eksponerer eller konsumerer data gjennom FINT
 
-**Kildekode:** Åpen kildekode. Felleskomponenten er publisert på [github.com/FINTLabs](https://github.com/FINTLabs) i `fint-core`-repositoriene, i hovedsak under MIT-lisens.
+**Kildekode:** Åpen kildekode. Felleskomponenten er publisert på [github.com/FINTLabs](https://github.com/FINTLabs) i `fint-core`-repositoriene.
+
+**Lisens:** Varierer per repositorium. Ved kontroll 2026-09-25 har 12 av 38 aktive `fint-core`-repositorier MIT, mens resten, blant annet `fint-core` selv, ikke har lisensfil. Tidligere angivelse «i hovedsak MIT» er derfor ikke dekkende, og lisens må kontrolleres per komponent.
+
+**Repositorium:** [github.com/FINTLabs](https://github.com/FINTLabs)
 
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data**  

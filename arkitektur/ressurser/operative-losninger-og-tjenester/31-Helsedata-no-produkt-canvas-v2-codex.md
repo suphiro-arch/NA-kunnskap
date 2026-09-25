@@ -130,6 +130,8 @@ Helsedata.no er en nasjonal portal- og tilgangsflate med kobling til metadata, s
 
 **Kildekode:** Ikke offentlig dokumentert.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P2: Ta arkitekturbeslutninger på rett nivå** styrkes ved at Helsedata.no samler nok oversikt og prosessforståelse til at brukere kan avklare databehov før de går for tidlig inn i registerspesifikke løp.
 - **P4: Del og gjenbruk data** styrkes ved at løsningen gjør det enklere å oppdage og bruke eksisterende helsedatakilder fremfor å etablere nye parallelle innsamlinger.

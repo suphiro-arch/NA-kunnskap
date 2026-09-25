@@ -149,6 +149,8 @@ Nasjonal innbyggertjeneste levert gjennom Helsenorge, med integrasjon mot kommun
 
 **Kildekode:** Ikke offentlig dokumentert. Selve løsningen er ikke publisert som kildekode. KS publiserer innføringsmateriell og Norsk helsenett publiserer teknisk dokumentasjon for Helsenorge-tjenester, men kildene beskriver ikke åpen kildekode for DigiHelsestasjon.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P1: Ta utgangspunkt i brukernes behov**
   Egen funksjonalitet for ungdom fra 13 år viser at løsningen er utformet etter hvem som faktisk skal bruke den, ikke etter kommunens interne organisering av tre ulike tjenester.

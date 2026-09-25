@@ -138,6 +138,8 @@ Produktet er også relevant når behovet gjelder maskinell bruk av virksomhetsda
 
 **Kildekode:** Ikke offentlig dokumentert. Registerløsningen er ikke publisert. Brønnøysundregistrene publiserer API-spesifikasjoner på [github.com/brreg](https://github.com/brreg) i repositoriet `openAPI`.
 
+**Lisens:** Ikke offentlig dokumentert. Heller ikke repositoriet `openAPI` har lisensfil ved kontroll 2026-09-25.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** realiseres ved at Enhetsregisteret tilbyr felles virksomhetsgrunndata som kan brukes på tvers av sektorer.
 - **P5: Del og gjenbruk løsninger** styrkes ved at samfunnet kan bygge på ett virksomhetsregister i stedet for parallelle varianter.

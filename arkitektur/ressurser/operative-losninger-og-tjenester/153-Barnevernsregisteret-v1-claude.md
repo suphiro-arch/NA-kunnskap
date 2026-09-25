@@ -143,6 +143,8 @@ Sentralt rapporteringsregister driftet av Statistisk sentralbyrå på Bufdirs ve
 
 **Kildekode:** Ikke offentlig dokumentert. Selve registeret er ikke publisert som kildekode. Bufdir publiserer rapporteringskravene som maskinlesbart skjema på [data.bufdir.no](https://data.bufdir.no/).
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data**
   Registeret samler rapportering som tidligere gikk i to separate løp, slik at kommunen leverer data én gang og flere statlige aktører bruker dem.

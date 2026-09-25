@@ -135,7 +135,9 @@ HelseID er en felles tillits- og autentiseringsplattform for helse- og omsorgsse
 - Det er særlig relevant når behovet er pålogging og sikring av tilgang til helseopplysninger og sektorfelles API-er.
 - Det er mindre relevant dersom behovet er generell innbyggerinnlogging eller en ren lokal tilgangsløsning uten samhandling på tvers.
 
-**Kildekode:** Ikke offentlig dokumentert. Selve tjenesten er ikke publisert, men Norsk helsenett publiserer klientbibliotek og eksempelkode på [github.com/NorskHelsenett](https://github.com/NorskHelsenett), blant annet `HelseID.Library.Java` under MIT-lisens.
+**Kildekode:** Ikke offentlig dokumentert. Selve tjenesten er ikke publisert, men Norsk helsenett publiserer klientbibliotek og eksempelkode på [github.com/NorskHelsenett](https://github.com/NorskHelsenett), blant annet `HelseID.Library.Java`.
+
+**Lisens:** Ikke offentlig dokumentert for selve tjenesten. Klientbibliotekene `HelseID.Library.Java` og `HelseID.Library` har MIT, kontrollert mot repositoriene 2026-09-25.
 
 ## Støtter arkitekturprinsipper
 - **P5: Del og gjenbruk løsninger** realiseres ved at sektoren kan bruke én felles tillitskomponent i stedet for mange lokale ordninger.

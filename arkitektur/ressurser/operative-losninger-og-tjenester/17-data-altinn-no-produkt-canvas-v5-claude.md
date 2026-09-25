@@ -147,7 +147,11 @@ Felles datadelingsløsning i Altinn-porteføljen med generisk API-modell, tjenes
 - **Altinn Autorisasjon** – brukes for delegering og tilgangsstyring i tjenestekonteksten.
 - **Enhetsregisteret, Folkeregisteret, Skatteetatens delingstjenester** – er eksempler på kilderegistre som deles via data.altinn.no.
 
-**Kildekode:** Åpen kildekode. Lisens: MIT. Kildekode: [github.com/Altinn/altinn-accessmanagement](https://github.com/Altinn/altinn-accessmanagement).
+**Kildekode:** Åpen kildekode.
+
+**Lisens:** Ikke offentlig dokumentert for kjernen. Repositoriet `Altinn/altinn-accessmanagement` som tidligere var lenket, finnes ikke ved kontroll 2026-09-25, og MIT-lisensen som var oppgitt for det, er ikke bekreftet. Koden for data.altinn.no er publisert i organisasjonen `data-altinn-no`, der kjernen `core` ikke har lisensfil, mens flere plugin-repositorier har MIT.
+
+**Repositorium:** [github.com/data-altinn-no](https://github.com/data-altinn-no)
 
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** er direkte relevant fordi produktet er laget for å hente og gjenbruke data fra kilden.

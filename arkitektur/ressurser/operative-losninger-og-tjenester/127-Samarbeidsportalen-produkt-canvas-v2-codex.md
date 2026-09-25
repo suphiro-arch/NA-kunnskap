@@ -132,6 +132,8 @@ Samarbeidsportalen er en nettbasert kunde- og forvaltningsflate med både offent
 
 **Kildekode:** Ikke offentlig dokumentert.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P1: Ta utgangspunkt i brukernes behov** støttes når portalen gjør det enklere å finne riktig inngang, forstå hva virksomheten må gjøre og redusere unødig letearbeid.
 - **P5: Del og gjenbruk løsninger** støttes ved at Digdir bruker én felles kunde- og informasjonsflate rundt flere løsninger i stedet for å bygge alt separat.

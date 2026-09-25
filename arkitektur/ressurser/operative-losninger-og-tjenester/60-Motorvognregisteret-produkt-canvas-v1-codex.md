@@ -96,6 +96,8 @@ Produktet er særlig relevant når flere aktører trenger samme grunnlag om kjø
 
 **Kildekode:** Ikke offentlig dokumentert.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data**
 - **P7: Sørg for tillit til oppgaveløsningen**

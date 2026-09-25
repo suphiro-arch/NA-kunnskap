@@ -128,6 +128,8 @@ SYSVAK er et sentralt helseregister med tilknyttede arbeidsflater for registreri
 
 **Kildekode:** Ikke offentlig dokumentert.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** styrkes ved at samme vaksinasjonsopplysninger kan brukes i registrering, innsyn, statistikk og forskning uten lokale kopier som sannhetskilde.
 - **P6: Lag digitale løsninger som støtter samhandling** styrkes ved at vaksinasjonssteder, innbyggerflater og myndighetsoppfølging bygger på samme nasjonale registergrunnlag.

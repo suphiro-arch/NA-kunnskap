@@ -122,6 +122,8 @@ Produktet har høy gjenbruksverdi i barneverndomenet på tvers av kommuner, ford
 
 **Kildekode:** Ikke offentlig dokumentert. Selve tjenesten er ikke publisert som åpen kildekode, men klientbibliotek og SDK-er for Fiks-plattformen er tilgjengelige på [github.com/ks-no](https://github.com/ks-no), flere av dem under MIT-lisens.
 
+**Lisens:** Ikke offentlig dokumentert for selve tjenesten. Klientbibliotekene på [github.com/ks-no](https://github.com/ks-no) er lisensiert per repositorium: flere har MIT, blant annet `fiks-io-klient-java` og `fiks-svarut-klient`, mens andre mangler lisensfil (kontrollert mot repositoriene 2026-09-25).
+
 ## Støtter arkitekturprinsipper
 - **P6: Lag digitale løsninger som støtter samhandling**
   Produktet binder sammen melder, kommune og fagsystem i et felles, nasjonalt samhandlingsløp.

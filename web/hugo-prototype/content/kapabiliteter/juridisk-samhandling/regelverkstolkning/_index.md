@@ -4,7 +4,7 @@ headerTitle: "Juridisk samhandling - Regelverkstolkning"
 eyebrow: "Kapabilitet"
 weight: 2
 description: "Evne til å tilby felles, autoritative tolkninger av relevant regelverk. ### Begrunnelse (Hvorfor) Når flere uavhengige virksomheter skal samarbeide om å levere en sammenhengende tjeneste, oppstår det ofte usikkerhet om hvordan lovverket skal forstås. Hvis hver virksomhet gjør sine egne isolerte og silobaserte tolkninger, fører det til unødig risikoaversjon, lange utredningsprosesser og barrierer for datadeling. Denne kapabiliteten løser problemet ved å etablere en felles rettslig forutsigbarhet på tvers av organisasjonsgrensene. ### Hva det innebærer (Omfang) - **Juridisk (Svært høy vekt):** Operasjonalisering av tverrgående lover og forordninger (som Forvaltningsloven, Offentleglova, Personopplysningsloven/GDPR og eIDAS) til konkrete, felles rettslige fortolkninger. Dette innebærer å avklare det spesifikke handlingsrommet for datadeling, gjenbruk av opplysninger og digital saksbehandling i konkrete samhandlingstiltak. - **Organisatorisk (Høy vekt):** Etablering av konkrete tverrgående juristnettverk, faste samarbeidsrutiner og eskaleringsprosesser for å løse tolkningsavvik mellom etater. Det omfatter også operasjonell utarbeidelse og formidling av felles veiledere som saksbehandlere i de ulike virksomhetene kan støtte seg på i hverdagen. - **Semantisk (Middels vekt):** Presisering og harmonisering av spesifikke juridiske kjernebegreper, rettslige vilkår og skjønsmessige vurderinger (f.eks. nøyaktig hva som utgjør \"saklig behov\" eller \"gyldig samtykke\" i en gitt kontekst), slik at de tolkes identisk av alle parter. - **Teknisk (Middels vekt):** Tilgjengeliggjøring av de autoritative tolkningene og rettskildene i felles nasjonale kunnskapsbaser eller portaler (f.eks. Samarbeidsportalen), samt strukturering av tolkningene på en måte som gjør at de funksjonelt kan omsettes til maskinlesbare forretningsregler og logikk i saksbehandlingssystemene. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten gir virksomhetene den nødvendige juridiske tryggheten til å koble sine prosesser og data sammen med andre aktører. For sluttbrukeren betyr dette kortere saksbehandlingstid og mer proaktive tjenester, fordi etatene bak kulissene allerede er enige om de rettslige spillereglene og slipper å stoppe opp \"stafetten\" for å utrede juss på nytt."
-cardMeta: "8 produkter"
+cardMeta: "7 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -16,13 +16,8 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v2-claude.md">Digitaliseringsvennlig regelverk</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v3-claude.md">Digitaliseringsvennlig regelverk</a></h3>
       <p class="capability-product-link__description">Veiledningen ber virksomheter først kartlegge handlingsrommet i gjeldende regelverk, før endring vurderes som virkemiddel.</p>
-    </article>
-    <article class="capability-product-link resource-type--policy">
-      <p class="capability-product-link__type">Rammer og virkemidler</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v2-copilot.md">Forskrift om IT-standarder i offentlig forvaltning</a></h3>
-      <p class="capability-product-link__description">Forskriften krever felles regelverkstolkning i samhandlingssituasjoner der standardvalg får rettslige og praktiske konsekvenser.</p>
     </article>
     <article class="capability-product-link resource-type--policy">
       <p class="capability-product-link__type">Rammer og virkemidler</p>

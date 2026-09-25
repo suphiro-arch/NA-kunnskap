@@ -61,8 +61,8 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/138-Veileder-for-virksomhetsautentisering-v1-codex.md">Veileder for virksomhetsautentisering</a></h3>
-      <p class="capability-product-link__description">Veilederen støtter `Tillit: Autentisering` ved å beskrive hvordan mottakerens identitet kan fastslås mer presist enn på virksomhetsnivå alene, særlig når standard virksomhetssertifikat ikke er tilstrekkelig.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/138-Veileder-for-virksomhetsautentisering-v2-claude.md">Veileder for virksomhetsautentisering</a></h3>
+      <p class="capability-product-link__description">normeres i veilederens del om autentisering: systemspesifikke asymmetriske nøkler som førstevalg for å unngå universalnøkkel-problemet, ingen statiske hemmeligheter, hyppig nøkkelrotasjon og kontroll av samhandlingspartens identitet mot aktuelle registre.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>

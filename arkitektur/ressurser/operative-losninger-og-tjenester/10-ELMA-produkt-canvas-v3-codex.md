@@ -139,6 +139,8 @@ ELMA er en norsk oppslagstjeneste i Peppol-sammenheng, og fungerer som nasjonal 
 
 **Kildekode:** Ikke offentlig dokumentert.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P5 Del og gjenbruk løsninger** - ELMA er en nasjonal komponent som kan brukes av mange aktører i samme samhandlingsmønster.
 - **P6 Lag digitale løsninger som støtter samhandling** - produktet er laget for å muliggjøre standardisert samhandling mellom avsendere, mottakere og aksesspunkt.

@@ -127,6 +127,8 @@ DSOP-tjenester er ikke én enkelt teknisk plattform, men en operativ portefølje
 
 **Kildekode:** Ikke offentlig dokumentert.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** styrkes når samme datagrunnlag brukes direkte i samhandlingsløpet i stedet for å etterspørres manuelt flere ganger.
 - **P5: Del og gjenbruk løsninger** støttes fordi porteføljen søker felles mønstre og operative løp som flere kan bruke.

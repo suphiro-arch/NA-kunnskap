@@ -147,6 +147,8 @@ eSignering er en nasjonal plattform for digital gjennomføring av signeringsoppd
 
 **Kildekode:** Ikke offentlig dokumentert.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P5: Del og gjenbruk løsninger** realiseres ved at signering tilbys som nasjonal fellestjeneste i stedet for lokale særvarianter.
 - **P6: Lag digitale løsninger som støtter samhandling** styrkes fordi virksomheter kan bygge signering inn i tverrgående prosesser på en standardisert måte.

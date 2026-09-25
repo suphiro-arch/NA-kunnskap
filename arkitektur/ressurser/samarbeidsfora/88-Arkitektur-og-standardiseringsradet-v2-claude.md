@@ -172,7 +172,6 @@ Inngår ikke:
 - `Referansekatalogen for IT-standarder` (`DIGDIR-026`) er ressursen rådets anbefalinger ender i, og den tydeligste relasjonen.
 - `Rammeverk for digital samhandling` (`DIGDIR-025`) definerer de fire samhandlingsdimensjonene rådet arbeider innenfor.
 - `Overordnede arkitekturprinsipper for offentlig sektor` (`DIGDIR-030`) er et arkitekturprodukt av den typen rådet vurderer.
-- `Nasjonalt veikart` (`DIGDIR-035`) berører prioritering av nasjonale tiltak, der rådet anbefaler prioriteringer på sitt felt.
 - `Skate` (`DIGDIR-042`), `Styringsråd for Digitaliseringsdirektoratets fellesløsninger` (`DIGDIR-052`), `Faglig arena for informasjonsforvaltning og deling av data` (`DIGDIR-053`) og `NIFS` (`DIGDIR-054`) er de nærmeste arenaene, beskrevet over.
 
 ## Forretningsverdi og arkitekturverdi
@@ -252,5 +251,5 @@ Spenning og begrensning: den tydeligste spenningen er at Digdir er medlem, sekre
 - Saksgangen for Referansekatalogen i fire ledd, med hvem som beslutter hva, og at dissens dokumenteres.
 - Skillet mellom hvem som fastsetter anbefalte og obligatoriske standarder, inkludert notifisering til ESA og kongelig resolusjon.
 - Merking av fakta, deduksjon og udokumenterte forhold gjennom hele dokumentet, som `v1` manglet helt.
-- Kryssreferanser med ressurs-ID til `DIGDIR-025`, `DIGDIR-026`, `DIGDIR-030`, `DIGDIR-035`, `DIGDIR-042`, `DIGDIR-052`, `DIGDIR-053` og `DIGDIR-054`.
+- Kryssreferanser med ressurs-ID til `DIGDIR-025`, `DIGDIR-026`, `DIGDIR-030`, `DIGDIR-042`, `DIGDIR-052`, `DIGDIR-053` og `DIGDIR-054`.
 - Observasjon om at medlemslisten oppgir Direktoratet for e-helse, som ble slått sammen med Helsedirektoratet i 2024.

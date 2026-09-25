@@ -4,7 +4,7 @@ headerTitle: "Standardisering - EU standarder"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å forstå og ta i bruk EU-standarder i økosystemet ### Begrunnelse (Hvorfor) Kapabiliteten sikrer at nasjonal arkitektur kan bygge på relevante europeiske standarder, spesifikasjoner og referansearkitekturer. Den løser behovet for at norske digitale tjenester kan samhandle bedre med europeiske løsninger, regelverk og dataområder, og at nasjonale valg ikke utvikles isolert fra europeisk digitaliseringspolitikk. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Avklare hvilke EU-standarder, forordninger og harmoniserte krav som er relevante for norsk forvaltning og hvordan de skal innarbeides i nasjonale rammer. - **Organisatorisk (Høy vekt):** Etablere prosesser for å følge med på, vurdere, prioritere og ta i bruk relevante EU-standarder i nasjonale tiltak, veiledning og arkitekturstyring. - **Semantisk (Høy vekt):** Sikre at europeiske begreper, informasjonsmodeller, metadata og klassifikasjoner forstås og mappes riktig til norske begreper og nasjonale modeller. - **Teknisk (Høy vekt):** Ta i bruk tekniske spesifikasjoner, referansearkitekturer, API-standarder, sikkerhetskrav og interoperabilitetsprofiler fra EU der de er relevante for norske fellesløsninger og digital samhandling. ### Bidrag til sammenhengende tjenester og felles økosystem EU-standarder bidrar til at norske digitale tjenester kan utvikles i samsvar med europeiske krav og samhandlingsmønstre. Når relevante standarder forstås og tas i bruk, blir det enklere å bygge løsninger som fungerer både nasjonalt og på tvers av landegrenser. Kapabiliteten styrker det felles økosystemet ved å redusere særnorske avvik, øke gjenbruk av europeiske spesifikasjoner og gjøre nasjonal arkitektur mer robust mot endringer i europeisk regelverk og teknologiutvikling. For sluttbrukeren kan dette gi mer sømløse tjenester når rettigheter, data og digitale løsninger må fungere på tvers av sektorer og landegrenser."
-cardMeta: "9 produkter"
+cardMeta: "10 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -48,6 +48,11 @@ productsMarkdown: |
       <p class="capability-product-link__type">Normerende ressurs</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/91-Assessment-Toolbox-v1-claude.md">Assessment Toolbox</a></h3>
       <p class="capability-product-link__description">definerer et felles vokabular og en datamodell for hvordan vurderinger beskrives og utveksles, slik at de kan sammenlignes på tvers av land. Koblingene er satt fordi verktøykassa selv leverer metoden, veiledningen og datamodellen. Selve plikten kommer fra forordningen, og den hører hos `Interoperable Europe Act`.</p>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/108-Kunnskapsgrunnlag-dataspaces-v2-claude.md">Kunnskapsgrunnlag - dataspaces</a></h3>
+      <p class="capability-product-link__description">realiseres ved at kunnskapsgrunnlaget gjør de felleseuropeiske dataområdene forståelige for norske virksomheter og viser hvor norske aktører deltar. Kapabiliteten omfatter å følge med på, vurdere og prioritere europeiske standarder og referansearkitekturer for dataområder i nasjonale tiltak, og kartleggingen av norsk deltakelse er nettopp dette grunnlaget.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>

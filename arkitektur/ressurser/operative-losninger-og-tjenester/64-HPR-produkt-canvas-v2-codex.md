@@ -126,6 +126,8 @@ HPR er en nasjonal register- og oppslagsressurs med offentlig visning og styrt d
 
 **Kildekode:** Ikke offentlig dokumentert.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** styrkes ved at samme autoritative registeropplysninger kan brukes av virksomheter, forvaltning og innbyggere i stedet for lokale kopier.
 - **P6: Lag digitale løsninger som støtter samhandling** styrkes ved at sektoren kan bygge kontroll- og oppslagsløp på samme nasjonale statusgrunnlag.

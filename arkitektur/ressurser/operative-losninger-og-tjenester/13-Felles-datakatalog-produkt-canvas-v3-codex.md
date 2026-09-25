@@ -150,7 +150,11 @@ Felles datakatalog er en nasjonal metadata- og publiseringsløsning for dataress
 - **Maskinporten** – API-er som er beskrevet i katalogen er gjerne beskyttet av Maskinporten.
 - **data.altinn.no** – tilbyr kontrollert datadeling for de dataressursene som er dokumentert i katalogen.
 
-**Kildekode:** Åpen kildekode. Lisens: Apache-2.0. Kildekode: [github.com/Informasjonsforvaltning](https://github.com/Informasjonsforvaltning).
+**Kildekode:** Åpen kildekode.
+
+**Lisens:** Apache-2.0 for kodelagrene i organisasjonen, blant annet `dataset-catalog`, kontrollert 2026-09-25. Enkelte dokumentasjonsrepositorier i samme organisasjon har ingen lisensfil, så lisens må kontrolleres per repositorium.
+
+**Repositorium:** [github.com/Informasjonsforvaltning](https://github.com/Informasjonsforvaltning)
 
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** realiseres ved at dataressurser blir synlige og vurderbare for viderebruk.

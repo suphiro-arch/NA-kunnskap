@@ -138,7 +138,11 @@ Felles designsystem er en nettbasert design- og frontendplattform som kombinerer
 - Godkjenningen er knyttet til bærekraftsmål 16 og 17, og forutsetter at løsningen oppfyller DPG-standarden med krav om åpen kildekode, personvern og anerkjent sikkerhetspraksis.
 - Statusen er en dokumentert bekreftelse på at gjenbrukbarheten holder mål utenfor Norge, og gjør løsningen gjenfinnbar for andre land som leter etter ferdige komponenter.
 
-**Kildekode:** Åpen kildekode. MIT-lisens. Repositorium: https://github.com/digdir/designsystemet
+**Kildekode:** Åpen kildekode.
+
+**Lisens:** MIT, kontrollert mot repositoriet 2026-09-25.
+
+**Repositorium:** https://github.com/digdir/designsystemet
 
 ## Støtter arkitekturprinsipper
 - **P1: Ta utgangspunkt i brukernes behov** støttes ved at ressursen er laget for å gi mer forståelige, tilgjengelige og gjenkjennelige tjenester på tvers.

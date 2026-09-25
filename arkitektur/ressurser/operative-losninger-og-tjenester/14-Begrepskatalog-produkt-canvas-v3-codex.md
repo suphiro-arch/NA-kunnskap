@@ -147,7 +147,11 @@ Begrepskatalog er en spesialisert delkatalog for standardisert publisering og op
 - **data.norge.no** – portal der begreper publiseres og søkes frem.
 - **API-katalog og informasjonsmodellkatalog** – begreper brukes gjerne som semantisk grunnlag for informasjonsmodeller og API-beskrivelser.
 
-**Kildekode:** Åpen kildekode. Lisens: Apache-2.0. Kildekode: [github.com/Informasjonsforvaltning](https://github.com/Informasjonsforvaltning).
+**Kildekode:** Åpen kildekode.
+
+**Lisens:** Apache-2.0 for kodelagrene i organisasjonen, blant annet `concept-catalog`, kontrollert 2026-09-25. Enkelte dokumentasjonsrepositorier i samme organisasjon har ingen lisensfil, så lisens må kontrolleres per repositorium.
+
+**Repositorium:** [github.com/Informasjonsforvaltning](https://github.com/Informasjonsforvaltning)
 
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** støttes ved at data kan forstås bedre når begrepene er beskrevet og delbare.

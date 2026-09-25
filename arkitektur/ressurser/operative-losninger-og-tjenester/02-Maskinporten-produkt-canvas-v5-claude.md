@@ -156,6 +156,8 @@ Maskinporten er en nasjonal plattform for klientautentisering og tokenutstedelse
 
 **Kildekode:** Ikke offentlig dokumentert i brukte kilder.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P5: Del og gjenbruk løsninger** realiseres ved at autentisering for API-bruk tilbys som felleskomponent.
 - **P6: Lag digitale løsninger som støtter samhandling** styrkes fordi flere virksomheter kan bygge på samme sikkerhetsmønster og samme utvidelser for delegering og samtykke.

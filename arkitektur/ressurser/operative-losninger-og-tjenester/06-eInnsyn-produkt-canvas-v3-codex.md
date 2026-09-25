@@ -141,7 +141,11 @@ eInnsyn er en felles publiserings- og innsynsplattform som samhandler med virkso
 - **FIKS SvarUt** – brukes av kommunale fagsystemer som alternativ til eFormidling for å publisere til eInnsyn.
 - **Lokale sak- og arkivsystemer** – produserer journalpostene som publiseres gjennom eInnsyn.
 
-**Kildekode:** Åpen kildekode. Lisens: EUPL-1.2. Kildekode: [github.com/felleslosninger/einnsyn-klient](https://github.com/felleslosninger/einnsyn-klient).
+**Kildekode:** Åpen kildekode.
+
+**Lisens:** BSD-3-Clause for gjeldende eInnsyn-repositorier, blant annet `einnsyn-backend` og `einnsyn-frontend`, kontrollert mot repositoriene 2026-09-25. Repositoriet `einnsyn-klient` som tidligere var lenket, finnes ikke ved samme kontroll, og lisensen EUPL-1.2 som var oppgitt for det, er ikke bekreftet.
+
+**Repositorium:** [github.com/felleslosninger/einnsyn-backend](https://github.com/felleslosninger/einnsyn-backend) og [github.com/felleslosninger/einnsyn-frontend](https://github.com/felleslosninger/einnsyn-frontend)
 
 ## Støtter arkitekturprinsipper
 - **P5: Del og gjenbruk løsninger** realiseres ved at publisering og innsyn tilbys som en felles løsning i stedet for mange lokale særvarianter.

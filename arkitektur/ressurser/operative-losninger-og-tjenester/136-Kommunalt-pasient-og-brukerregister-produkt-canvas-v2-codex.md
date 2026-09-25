@@ -130,6 +130,8 @@ KPR er et sentralt helseregister med nasjonal rapporteringsrolle og sekundærbru
 
 **Kildekode:** Ikke offentlig dokumentert.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** styrkes ved at kommunale tjenestedata kan brukes som felles grunnlag i stedet for å holdes som spredte lokale sannhetskilder.
 - **P6: Lag digitale løsninger som støtter samhandling** styrkes ved at kommuner og nasjonale myndigheter kan bygge på samme registergrunnlag i styring, analyse og forskning.

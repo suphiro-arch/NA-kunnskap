@@ -152,6 +152,8 @@ Digital postkasse er en nasjonal distribusjonsløsning som kombinerer avsenderin
 
 **Kildekode:** Ikke offentlig dokumentert.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P1: Ta utgangspunkt i brukernes behov** støttes ved at innbygger får én samlet mottaksflate for offentlig post, mens virksomheten får ett felles utsendingsløp.
 - **P5: Del og gjenbruk løsninger** realiseres ved at offentlig sektor kan bruke samme nasjonale distribusjonsløsning i stedet for mange lokale ordninger.

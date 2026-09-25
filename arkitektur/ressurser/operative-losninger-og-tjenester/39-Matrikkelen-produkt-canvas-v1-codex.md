@@ -132,6 +132,8 @@ Matrikkelen er et nasjonalt register- og forvaltningssystem for eiendomsinformas
 
 **Kildekode:** Ikke offentlig dokumentert.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** realiseres ved at Matrikkelen tilbyr felles og autoritative grunndata om eiendom og adresser.
 - **P5: Del og gjenbruk løsninger** styrkes ved at mange sektorer kan bygge på samme register i stedet for lokale varianter.

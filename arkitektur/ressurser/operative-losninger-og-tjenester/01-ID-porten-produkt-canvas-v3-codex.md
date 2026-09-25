@@ -151,6 +151,8 @@ ID-porten er en nasjonal autentiseringsplattform bygget rundt føderering mot ek
 
 **Kildekode:** Ikke offentlig dokumentert.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P1: Ta utgangspunkt i brukernes behov** gir en gjenkjennelig innloggingsopplevelse på tvers av tjenester.
 - **P5: Del og gjenbruk løsninger** er en kjerneegenskap, fordi autentisering tilbys som nasjonal felleskomponent i stedet for lokale særvarianter.

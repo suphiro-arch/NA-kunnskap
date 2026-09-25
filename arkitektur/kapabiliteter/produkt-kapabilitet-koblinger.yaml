@@ -1494,10 +1494,10 @@
         {
             "product_id": 32,
             "product_name": "Helsenorge",
-            "version": 2,
+            "version": 3,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/32-Helsenorge-produkt-canvas-v2-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/32-Helsenorge-produkt-canvas-v2-claude.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/32-Helsenorge-v3-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/32-Helsenorge-v3-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
@@ -1508,16 +1508,6 @@
                     "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
                     "subcapability_name": "Sammenhengende tjenester",
                     "subcapability_slug": "sammenhengende-tjenester"
-                },
-                {
-                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
-                    "capability_name": "Sluttbrukertjenester",
-                    "capability_slug": "sluttbrukertjenester",
-                    "mapping_label": "Sluttbrukertjenester: Tjenestekjeder",
-                    "explanation": "Helsenorge lar brukeren bevege seg mellom informasjon, innlogging og flere helserelaterte tjenester i samme produktflate.",
-                    "subcapability_id": "id-825b1ea1217b4eedb6caae165aeb8e41",
-                    "subcapability_name": "Tjenestekjeder",
-                    "subcapability_slug": "tjenestekjeder"
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
@@ -3094,10 +3084,10 @@
         {
             "product_id": 80,
             "product_name": "VIGO-portalen",
-            "version": 2,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/80-VIGO-portalen-v2-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/80-VIGO-portalen-v2-codex.md",
+            "version": 3,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/80-VIGO-portalen-v3-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/80-VIGO-portalen-v3-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
@@ -3108,16 +3098,6 @@
                     "subcapability_slug": "sammenhengende-tjenester",
                     "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
                     "explanation": "VIGO-portalen samler flere VIGO-tjenester i én inngang og reduserer fragmentering i brukerreisen."
-                },
-                {
-                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
-                    "capability_name": "Sluttbrukertjenester",
-                    "capability_slug": "sluttbrukertjenester",
-                    "subcapability_id": "id-825b1ea1217b4eedb6caae165aeb8e41",
-                    "subcapability_name": "Tjenestekjeder",
-                    "subcapability_slug": "tjenestekjeder",
-                    "mapping_label": "Sluttbrukertjenester: Tjenestekjeder",
-                    "explanation": "Portalen kobler sammen moduler i utdanningsløpet, slik at brukere kan bevege seg mellom relaterte funksjoner i samme økosystem."
                 }
             ]
         },
@@ -3234,10 +3214,10 @@
         {
             "product_id": 84,
             "product_name": "vigo.no",
-            "version": 1,
+            "version": 2,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/84-vigo-no-v1-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/84-vigo-no-v1-claude.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/84-vigo-no-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/84-vigo-no-v2-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
@@ -3248,16 +3228,6 @@
                     "subcapability_slug": "sammenhengende-tjenester",
                     "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
                     "explanation": "Tjenesten samler søknad, prioritering, statusoppfølging og svar i én flate for søkeren, på tvers av fylkeskommunale inntakskontorer."
-                },
-                {
-                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
-                    "capability_name": "Sluttbrukertjenester",
-                    "capability_slug": "sluttbrukertjenester",
-                    "subcapability_id": "id-825b1ea1217b4eedb6caae165aeb8e41",
-                    "subcapability_name": "Tjenestekjeder",
-                    "subcapability_slug": "tjenestekjeder",
-                    "mapping_label": "Sluttbrukertjenester: Tjenestekjeder",
-                    "explanation": "vigo.no er første ledd i en kjede som fortsetter i fylkeskommunal inntaksbehandling, skoleplassering og senere dokumentasjon av opplæringen."
                 }
             ]
         },
@@ -3720,10 +3690,10 @@
         {
             "product_id": 97,
             "product_name": "KS Min kommune",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/97-MinKommune-produkt-canvas-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/97-MinKommune-produkt-canvas-v1-codex.md",
+            "version": 2,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/97-KS-Min-kommune-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/97-KS-Min-kommune-v2-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
@@ -3734,16 +3704,6 @@
                     "subcapability_slug": "sammenhengende-tjenester",
                     "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
                     "explanation": "MinKommune samler flere kommunale tjenester i en felles innbyggerreise fremfor separate innlogginger og grensesnitt."
-                },
-                {
-                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
-                    "capability_name": "Sluttbrukertjenester",
-                    "capability_slug": "sluttbrukertjenester",
-                    "subcapability_id": "id-825b1ea1217b4eedb6caae165aeb8e41",
-                    "subcapability_name": "Tjenestekjeder",
-                    "subcapability_slug": "tjenestekjeder",
-                    "mapping_label": "Sluttbrukertjenester: Tjenestekjeder",
-                    "explanation": "Portalen kobler sammen post, faktura, eiendom, byggesak og skjema i kjeder som understøtter oppgave- og saksoppfølging over tid."
                 }
             ]
         },
@@ -3788,10 +3748,10 @@
         {
             "product_id": 99,
             "product_name": "Sjekkliste for sammenhengende tjenester",
-            "version": 2,
+            "version": 3,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/99-Sjekkliste-for-sammenhengende-tjenester-v2-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/99-Sjekkliste-for-sammenhengende-tjenester-v2-claude.md",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/99-Sjekkliste-for-sammenhengende-tjenester-v3-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/99-Sjekkliste-for-sammenhengende-tjenester-v3-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
@@ -3801,7 +3761,7 @@
                     "subcapability_name": "Sammenhengende tjenester",
                     "subcapability_slug": "sammenhengende-tjenester",
                     "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-                    "explanation": "definerer hvilke arbeidsområder som må være avklart for at en livshendelse skal fungere på tvers av aktører, og gjør sammenheng etterprøvbart område for område"
+                    "explanation": "Normeres direkte. Verktøyet definerer hvilke områder som må være avklart for at en livshendelse skal fungere på tvers av aktører, og gjør sammenheng til noe som kan etterprøves område for område."
                 },
                 {
                     "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
@@ -3811,17 +3771,17 @@
                     "subcapability_name": "Tjenestedesign",
                     "subcapability_slug": "tjenestedesign",
                     "mapping_label": "Tjenesteutvikling: Tjenestedesign",
-                    "explanation": "brukes gjennom alle faser av arbeidet, med brukerreisen som utgangspunkt i tjenestekjede-området"
+                    "explanation": "Normeres gjennom at verktøyet brukes gjennom alle faser av arbeidet, med brukerreisen som utgangspunkt i tjenestekjede-området."
                 },
                 {
                     "capability_id": "id-c0547226c598467a942dced879d0c18b",
                     "capability_name": "Veiledning",
                     "capability_slug": "veiledning",
-                    "subcapability_id": "id-a601bb3d7b11478185903149965f7842",
-                    "subcapability_name": "Anvendelse av veiledning",
-                    "subcapability_slug": "anvendelse-av-veiledning",
-                    "mapping_label": "Veiledning: Anvendelse av veiledning",
-                    "explanation": "er laget for å tas i bruk i konkrete tiltak, med sjekklister som besvares og gjenbesøkes ved milepæler"
+                    "subcapability_id": "id-0bfa29018e7144578b2184e70414b7e8",
+                    "subcapability_name": "Utvikling og formidling av veiledning",
+                    "subcapability_slug": "utvikling-og-formidling-av-veiledning",
+                    "mapping_label": "Veiledning: Utvikling og formidling av veiledning",
+                    "explanation": "Verktøyet er publisert og versjonert veiledning, forvaltet av DFØ og Digdir, som omsetter kravene til sammenhengende tjenester til sjekklister virksomheter kan bruke uten å utvikle egne."
                 }
             ]
         },
@@ -3841,7 +3801,7 @@
                     "subcapability_name": "Tjenestekjeder",
                     "subcapability_slug": "tjenestekjeder",
                     "mapping_label": "Sluttbrukertjenester: Tjenestekjeder",
-                    "explanation": "gir metoden for å avgrense og beskrive en tjenestekjede, fra hendelse til utløste tjenester til berørte datakilder, og gjør kjeden til et analyserbart objekt framfor en løs betegnelse"
+                    "explanation": "normeres i designfasen. Kapabiliteten er evnen til å sette sammen, koordinere og automatisere informasjonsflyt og prosesser på tvers av uavhengige tjenester. Kartet foreskriver hvordan en slik kjede skal beskrives før den kan koordineres: hvilken hendelse som utløser tjenester hos hvilke aktører, hvilke data som opprettes eller endres i hvilke kilder, og hvor flyten brytes på juridisk, organisatorisk, semantisk eller teknisk nivå. Det er samme inndeling som definisjonen bruker for hva kapabiliteten innebærer. Kartet normerer ikke selve integrasjonen eller automatiseringen, som hører hjemme i operative løsninger og i `Arkitektur for hendelser`."
                 },
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
@@ -3916,36 +3876,6 @@
             ]
         },
         {
-            "product_id": 103,
-            "product_name": "Nasjonalt veikart",
-            "version": 2,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/103-Nasjonalt-veikart-v2-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/103-Nasjonalt-veikart-v2-codex.md",
-            "capabilities": [
-                {
-                    "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
-                    "capability_name": "Strategisk styring",
-                    "capability_slug": "strategisk-styring",
-                    "subcapability_id": "id-034543e002414306a8fbecc8c9d8e496",
-                    "subcapability_name": "Samordning",
-                    "subcapability_slug": "samordning",
-                    "mapping_label": "Strategisk styring: Samordning",
-                    "explanation": "Veikartet støtter `Strategisk styring: Samordning` ved å samle kunnskapsgrunnlag, prioritering og oppfølging av tiltak som må ses i sammenheng på tvers av virksomheter og sektorer."
-                },
-                {
-                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
-                    "capability_name": "Samarbeid",
-                    "capability_slug": "samarbeid",
-                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
-                    "subcapability_name": "Organisatorisk samhandling",
-                    "subcapability_slug": "organisatorisk-samhandling",
-                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "Veikartet støtter `Strategisk styring: Samordning` ved å samle vurderinger av hvilke tiltak som bør prioriteres og ses i sammenheng på tvers av virksomheter. Det støtter `Samarbeid: Organisatorisk samhandling` ved at virksomheter, KS, Skate, Digdir og departementer får tydeligere roller i å melde inn behov, løfte tiltak og følge dem opp i felles strukturer."
-                }
-            ]
-        },
-        {
             "product_id": 104,
             "product_name": "Orden i eget hus",
             "version": 2,
@@ -3978,10 +3908,10 @@
         {
             "product_id": 105,
             "product_name": "Rammeverk for Nasjonale grunndata",
-            "version": 2,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/105-Rammeverk-for-Nasjonale-grunndata-v2-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/105-Rammeverk-for-Nasjonale-grunndata-v2-codex.md",
+            "version": 3,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/105-Rammeverk-for-Nasjonale-grunndata-v3-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/105-Rammeverk-for-Nasjonale-grunndata-v3-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
@@ -3991,7 +3921,7 @@
                     "subcapability_name": "Grunndata",
                     "subcapability_slug": "grunndata",
                     "mapping_label": "Datakilder: Grunndata",
-                    "explanation": "Rammeverket definerer hvilke data som bør behandles som nasjonale grunndata, og hvilke kriterier som må være oppfylt for at autoritative data skal kunne forvaltes helhetlig på tvers av sektorer."
+                    "explanation": "Rammeverket realiserer evnen til å identifisere og formelt anerkjenne autoritative datakilder ut fra en systematisk vurdering av verdi. Kriteriene for nasjonale grunndata, grunndataoversikten og fasene fra behov til løpende forvaltning er nettopp denne vurderingen og anerkjennelsen, og ingen annen ressurs i porteføljen fastsetter kriteriene."
                 },
                 {
                     "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
@@ -4001,7 +3931,7 @@
                     "subcapability_name": "Samordning",
                     "subcapability_slug": "samordning",
                     "mapping_label": "Strategisk styring: Samordning",
-                    "explanation": "Rammeverket beskriver styrende organ, grunndatakoordinator, grunndataforvaltere og prioriteringsprosesser som skal samordne utvikling og forvaltning av data med høy nasjonal verdi."
+                    "explanation": "Rammeverket beskriver rollemodellen som skal koordinere prioritering og ressursbruk på tvers av sektorer: et styrende organ som prioriterer og beslutter tiltak, en nasjonal grunndatakoordinator med samlet oversikt og grunndataforvaltere som eier dataene. Koblingen gjelder modellen; rollene er ennå ikke formelt etablert."
                 }
             ]
         },
@@ -4068,10 +3998,10 @@
         {
             "product_id": 107,
             "product_name": "Kunnskapsgrunnlag og KPI-er datadeling",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/107-Kunnskapsgrunnlag-og-KPI-er-datadeling-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/107-Kunnskapsgrunnlag-og-KPI-er-datadeling-v1-codex.md",
+            "version": 2,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/107-Kunnskapsgrunnlag-og-KPI-er-datadeling-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/107-Kunnskapsgrunnlag-og-KPI-er-datadeling-v2-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
@@ -4081,47 +4011,27 @@
                     "subcapability_name": "Samordning",
                     "subcapability_slug": "samordning",
                     "mapping_label": "Strategisk styring: Samordning",
-                    "explanation": "Gir et felles grunnlag for å sammenligne status, effekt og prioriteringsbehov i datadelingsarbeid på tvers av tiltak og virksomheter."
-                },
-                {
-                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
-                    "capability_name": "Informasjonsforvaltning",
-                    "capability_slug": "informasjonsforvaltning",
-                    "subcapability_id": "id-5852d070415849fab42749cb488d984a",
-                    "subcapability_name": "Datastyring",
-                    "subcapability_slug": "datastyring",
-                    "mapping_label": "Informasjonsforvaltning: Datastyring",
-                    "explanation": "Gjør det lettere å strukturere hva som faktisk bør måles og følges opp når virksomheter arbeider mer systematisk med deling, bruk og styring av data."
+                    "explanation": "Nøkkeltall for datadeling brukes i oppfølgingen av digitaliseringsstrategien, som er det felles grunnlaget for å harmonisere strategisk retning og prioritering på tvers av virksomheter. Koblingen er en deduksjon og bør prøves på nytt hvis Digdir publiserer ressursen."
                 }
             ]
         },
         {
             "product_id": 108,
             "product_name": "Kunnskapsgrunnlag - dataspaces",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/108-Kunnskapsgrunnlag-dataspaces-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/108-Kunnskapsgrunnlag-dataspaces-v1-codex.md",
+            "version": 2,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/108-Kunnskapsgrunnlag-dataspaces-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/108-Kunnskapsgrunnlag-dataspaces-v2-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
                     "capability_name": "Standardisering",
                     "capability_slug": "standardisering",
-                    "subcapability_id": "id-b99fcd8160d24e5f8ea3c17b15072f7a",
-                    "subcapability_name": "Forvaltningsstandarder",
-                    "subcapability_slug": "forvaltningsstandarder",
-                    "mapping_label": "Standardisering: Forvaltningsstandarder",
-                    "explanation": "Peker mot felles referansearkitekturer, standarder og styringsmønstre som bør vurderes når dataspaces diskuteres i norsk kontekst."
-                },
-                {
-                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-                    "capability_name": "Datautveksling og integrasjon",
-                    "capability_slug": "datautveksling-og-integrasjon",
-                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
-                    "subcapability_name": "Dele data med andre",
-                    "subcapability_slug": "dele-data-med-andre",
-                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
-                    "explanation": "Er relevant fordi dataspaces i praksis handler om hvordan data kan tilgjengeliggjøres, deles og brukes på tvers av aktører med tydeligere felles rammer."
+                    "subcapability_id": "id-697145d3768b40d39f9463667b78f749",
+                    "subcapability_name": "EU standarder",
+                    "subcapability_slug": "eu-standarder",
+                    "mapping_label": "Standardisering: EU standarder",
+                    "explanation": "realiseres ved at kunnskapsgrunnlaget gjør de felleseuropeiske dataområdene forståelige for norske virksomheter og viser hvor norske aktører deltar. Kapabiliteten omfatter å følge med på, vurdere og prioritere europeiske standarder og referansearkitekturer for dataområder i nasjonale tiltak, og kartleggingen av norsk deltakelse er nettopp dette grunnlaget."
                 }
             ]
         },
@@ -4258,10 +4168,10 @@
         {
             "product_id": 113,
             "product_name": "Prosjektveiviseren",
-            "version": 2,
+            "version": 3,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v2-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v2-claude.md",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v3-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/113-Prosjektveiviseren-v3-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
@@ -4287,41 +4197,11 @@
                     "capability_id": "id-c0547226c598467a942dced879d0c18b",
                     "capability_name": "Veiledning",
                     "capability_slug": "veiledning",
-                    "subcapability_id": "id-a601bb3d7b11478185903149965f7842",
-                    "subcapability_name": "Anvendelse av veiledning",
-                    "subcapability_slug": "anvendelse-av-veiledning",
-                    "mapping_label": "Veiledning: Anvendelse av veiledning",
-                    "explanation": "Ressursen er en generell metode- og veiledningsressurs som brukes for å strukturere analyse, planlegging og gjennomføring av samhandlingsnære digitaliseringstiltak."
-                }
-            ]
-        },
-        {
-            "product_id": 114,
-            "product_name": "Klart språk",
-            "version": 2,
-            "author": "claude",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v2-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v2-claude.md",
-            "capabilities": [
-                {
-                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
-                    "capability_name": "Sluttbrukertjenester",
-                    "capability_slug": "sluttbrukertjenester",
-                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
-                    "subcapability_name": "Sammenhengende tjenester",
-                    "subcapability_slug": "sammenhengende-tjenester",
-                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
-                    "explanation": "retter rådene mot menyer, navigasjon, knapper, hjelpetekster og feilmeldinger, altså punktene der et forløp brytes for brukeren"
-                },
-                {
-                    "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
-                    "capability_name": "Tjenesteutvikling",
-                    "capability_slug": "tjenesteutvikling",
-                    "subcapability_id": "id-379e167f7b9c4fbea9c6969425ba7f6c",
-                    "subcapability_name": "Tjenestedesign",
-                    "subcapability_slug": "tjenestedesign",
-                    "mapping_label": "Tjenesteutvikling: Tjenestedesign",
-                    "explanation": "plasserer språkarbeidet i prosjektfasene og foreskriver tverrfaglige aktiviteter mellom tekst og design framfor sekvensiell overlevering"
+                    "subcapability_id": "id-0bfa29018e7144578b2184e70414b7e8",
+                    "subcapability_name": "Utvikling og formidling av veiledning",
+                    "subcapability_slug": "utvikling-og-formidling-av-veiledning",
+                    "mapping_label": "Veiledning: Utvikling og formidling av veiledning",
+                    "explanation": "Prosjektveiviseren er Digdirs publiserte prosjektmodell, med faser, maler og temainnhold på prosjektveiviseren.digdir.no."
                 },
                 {
                     "capability_id": "id-c0547226c598467a942dced879d0c18b",
@@ -4331,17 +4211,57 @@
                     "subcapability_name": "Anvendelse av veiledning",
                     "subcapability_slug": "anvendelse-av-veiledning",
                     "mapping_label": "Veiledning: Anvendelse av veiledning",
-                    "explanation": "er formet som aktiviteter et team kan gjennomføre, ikke som prinsipper alene"
+                    "explanation": "Modellen er prosjektmetodikk som bygger bruk av veiledning inn i prosjektløpet: tema som gevinster, virksomhetsarkitektur, informasjonssikkerhet, personvern og anskaffelser skal behandles i alle faser, og beslutningspunktene gjør det etterprøvbart om det er gjort."
+                }
+            ]
+        },
+        {
+            "product_id": 114,
+            "product_name": "Klart språk",
+            "version": 3,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v3-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/114-Klart-sprak-v3-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
+                    "subcapability_name": "Sammenhengende tjenester",
+                    "subcapability_slug": "sammenhengende-tjenester",
+                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                    "explanation": "Styrkes fordi språket er det brukeren faktisk møter i overgangene mellom tjenester. Veilederen retter rådene mot menyer, navigasjon, knapper, hjelpetekster og feilmeldinger, altså punktene der et forløp brytes for brukeren."
+                },
+                {
+                    "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
+                    "capability_name": "Tjenesteutvikling",
+                    "capability_slug": "tjenesteutvikling",
+                    "subcapability_id": "id-379e167f7b9c4fbea9c6969425ba7f6c",
+                    "subcapability_name": "Tjenestedesign",
+                    "subcapability_slug": "tjenestedesign",
+                    "mapping_label": "Tjenesteutvikling: Tjenestedesign",
+                    "explanation": "Normeres direkte. Veilederen plasserer språkarbeidet i prosjektfasene og foreskriver tverrfaglige aktiviteter mellom tekst og design framfor sekvensiell overlevering."
+                },
+                {
+                    "capability_id": "id-c0547226c598467a942dced879d0c18b",
+                    "capability_name": "Veiledning",
+                    "capability_slug": "veiledning",
+                    "subcapability_id": "id-0bfa29018e7144578b2184e70414b7e8",
+                    "subcapability_name": "Utvikling og formidling av veiledning",
+                    "subcapability_slug": "utvikling-og-formidling-av-veiledning",
+                    "mapping_label": "Veiledning: Utvikling og formidling av veiledning",
+                    "explanation": "Veilederen er Digdirs publiserte veiledning om klart språk i utvikling av digitale tjenester, formet som aktiviteter et team kan gjennomføre i hver fase, ikke som prinsipper alene."
                 }
             ]
         },
         {
             "product_id": 115,
             "product_name": "Digitaliseringsvennlig regelverk",
-            "version": 2,
+            "version": 3,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v2-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v2-claude.md",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v3-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v3-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
@@ -4391,38 +4311,18 @@
                     "subcapability_name": "Utvikling og formidling av veiledning",
                     "subcapability_slug": "utvikling-og-formidling-av-veiledning",
                     "mapping_label": "Veiledning: Utvikling og formidling av veiledning",
-                    "explanation": "Ressursen er Digdirs formidling av hvordan regelverksarbeid bør gjøres når digitalisering er et hensyn."
-                },
-                {
-                    "capability_id": "id-c0547226c598467a942dced879d0c18b",
-                    "capability_name": "Veiledning",
-                    "capability_slug": "veiledning",
-                    "subcapability_id": "id-a601bb3d7b11478185903149965f7842",
-                    "subcapability_name": "Anvendelse av veiledning",
-                    "subcapability_slug": "anvendelse-av-veiledning",
-                    "mapping_label": "Veiledning: Anvendelse av veiledning",
-                    "explanation": "Sjekklista er utformet for direkte bruk i et pågående regelverksarbeid, med kontrollspørsmål per anbefaling."
+                    "explanation": "Ressursen er Digdirs formidling av hvordan regelverksarbeid bør gjøres når digitalisering er et hensyn, med generelle anbefalinger og en sjekkliste med kontrollspørsmål per anbefaling for bruk i et pågående regelverksarbeid."
                 }
             ]
         },
         {
             "product_id": 116,
             "product_name": "Rammeverk for innovasjon i offentlig sektor",
-            "version": 2,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/116-Rammeverk-for-innovasjon-i-offentlig-sektor-v2-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/116-Rammeverk-for-innovasjon-i-offentlig-sektor-v2-codex.md",
+            "version": 3,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/116-Rammeverk-for-innovasjon-i-offentlig-sektor-v3-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/116-Rammeverk-for-innovasjon-i-offentlig-sektor-v3-claude.md",
             "capabilities": [
-                {
-                    "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
-                    "capability_name": "Strategisk styring",
-                    "capability_slug": "strategisk-styring",
-                    "subcapability_id": "id-034543e002414306a8fbecc8c9d8e496",
-                    "subcapability_name": "Samordning",
-                    "subcapability_slug": "samordning",
-                    "mapping_label": "Strategisk styring: Samordning",
-                    "explanation": "Rammeverket gir et felles språk for hvordan innovasjonsarbeid bør forankres, prioriteres og samordnes når utfordringer går på tvers av virksomheter og forvaltningsnivåer."
-                },
                 {
                     "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
                     "capability_name": "Tjenesteutvikling",
@@ -4431,37 +4331,37 @@
                     "subcapability_name": "Tjenestedesign",
                     "subcapability_slug": "tjenestedesign",
                     "mapping_label": "Tjenesteutvikling: Tjenestedesign",
-                    "explanation": "Rammeverket kobler innovasjon til behovsdrevet utforskning, designmetoder og eksperimentering før løsning velges eller skaleres."
+                    "explanation": "Veiledningen normerer hvordan brukerinnsikt skal styre utviklingen. Designsiden beskriver tjenestedesign, systemisk design og interaksjonsdesign, fem prinsipper for tjenestedesign og den triple diamanten, der mer tid brukes på å forstå problemet før løsning velges."
+                },
+                {
+                    "capability_id": "id-c0547226c598467a942dced879d0c18b",
+                    "capability_name": "Veiledning",
+                    "capability_slug": "veiledning",
+                    "subcapability_id": "id-0bfa29018e7144578b2184e70414b7e8",
+                    "subcapability_name": "Utvikling og formidling av veiledning",
+                    "subcapability_slug": "utvikling-og-formidling-av-veiledning",
+                    "mapping_label": "Veiledning: Utvikling og formidling av veiledning",
+                    "explanation": "Digdir utarbeider og publiserer veiledning om innovasjon i eget navn: definisjon, prinsipper, metodeveiledning og kunnskapsgrunnlag. Veiledningen omsetter stortingsmeldingens prinsipper til praktiske arbeidsformer for virksomhetene."
                 }
             ]
         },
         {
             "product_id": 117,
             "product_name": "Kompetansemodell for digital transformasjon",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/117-Kompetansemodell-for-digital-transformasjon-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/117-Kompetansemodell-for-digital-transformasjon-v1-codex.md",
+            "version": 2,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/117-Kompetansemodell-for-digital-transformasjon-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/117-Kompetansemodell-for-digital-transformasjon-v2-claude.md",
             "capabilities": [
                 {
-                    "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
-                    "capability_name": "Strategisk styring",
-                    "capability_slug": "strategisk-styring",
-                    "subcapability_id": "id-034543e002414306a8fbecc8c9d8e496",
-                    "subcapability_name": "Samordning",
-                    "subcapability_slug": "samordning",
-                    "mapping_label": "Strategisk styring: Samordning",
-                    "explanation": "Modellen gir et felles språk for hvordan ledelse, styring og kompetansebygging kan samordnes rundt digital transformasjon i hele virksomheten."
-                },
-                {
-                    "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
-                    "capability_name": "Tjenesteutvikling",
-                    "capability_slug": "tjenesteutvikling",
-                    "subcapability_id": "id-379e167f7b9c4fbea9c6969425ba7f6c",
-                    "subcapability_name": "Tjenestedesign",
-                    "subcapability_slug": "tjenestedesign",
-                    "mapping_label": "Tjenesteutvikling: Tjenestedesign",
-                    "explanation": "Modellen understøtter tjenesteutvikling ved å løfte fram brukerorientering, tverrfaglighet og evnen til å utvikle bedre tjenester som del av transformasjonen."
+                    "capability_id": "id-c0547226c598467a942dced879d0c18b",
+                    "capability_name": "Veiledning",
+                    "capability_slug": "veiledning",
+                    "subcapability_id": "id-0bfa29018e7144578b2184e70414b7e8",
+                    "subcapability_name": "Utvikling og formidling av veiledning",
+                    "subcapability_slug": "utvikling-og-formidling-av-veiledning",
+                    "mapping_label": "Veiledning: Utvikling og formidling av veiledning",
+                    "explanation": "Digdir har utarbeidet modellen sammen med fagmiljø, leverandører og akademia, og publiserer og vedlikeholder den som åpen veiledning. Modellen omsetter politiske føringer til konkrete lederkompetanser og fagområder som virksomheter kan bygge kompetanseplaner på."
                 }
             ]
         },
@@ -5188,10 +5088,10 @@
         {
             "product_id": 137,
             "product_name": "Forskrift om IT-standarder i offentlig forvaltning",
-            "version": 2,
-            "author": "copilot",
-            "relative_path": "arkitektur/ressurser/rammer-og-virkemidler/137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v2-copilot.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v2-copilot.md",
+            "version": 3,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/rammer-og-virkemidler/137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v3-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v3-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
@@ -5201,7 +5101,7 @@
                     "subcapability_name": "Forvaltningsstandarder",
                     "subcapability_slug": "forvaltningsstandarder",
                     "mapping_label": "Standardisering: Forvaltningsstandarder",
-                    "explanation": "Forskriften gir et bindende grunnlag for hvilke standarder som skal brukes eller vurderes i offentlig sektor."
+                    "explanation": "realiseres direkte. Forskriften definerer selv begrepet forvaltningsstandard i § 2 bokstav b, og §§ 4–13 fastsetter hvilke standarder som skal legges til grunn i hele forvaltningen, blant annet UTF-8, EHF og Peppol BIS, HTTP over TLS, IPv6 og HTML5."
                 },
                 {
                     "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
@@ -5211,28 +5111,28 @@
                     "subcapability_name": "Arkitekturstyring",
                     "subcapability_slug": "arkitekturstyring",
                     "mapping_label": "Strategisk styring: Arkitekturstyring",
-                    "explanation": "Forskriften setter rettslige premisser for styring av standardvalg og arkitekturbeslutninger."
-                },
-                {
-                    "capability_id": "id-299fc063873a4f278a1d3c0ac9480467",
-                    "capability_name": "Juridisk samhandling",
-                    "capability_slug": "juridisk-samhandling",
-                    "subcapability_id": "id-0209483504444508a40415aa6e3fc39c",
-                    "subcapability_name": "Regelverkstolkning",
-                    "subcapability_slug": "regelverkstolkning",
-                    "mapping_label": "Juridisk samhandling: Regelverkstolkning",
-                    "explanation": "Forskriften krever felles regelverkstolkning i samhandlingssituasjoner der standardvalg får rettslige og praktiske konsekvenser."
+                    "explanation": "realiseres ved at forskriften gjør standardvalg til et forpliktende rammeverk for hele forvaltningen, inkludert kommunal sektor, og gir Arkitektur- og standardiseringsrådet rollen som rådgiver for Digdir om IT-arkitektur og IT-standarder. Kapabilitetsdefinisjonen nevner regulatoriske pålegg knyttet til åpne standarder, som er innholdet i § 14."
                 }
             ]
         },
         {
             "product_id": 138,
             "product_name": "Veileder for virksomhetsautentisering",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/138-Veileder-for-virksomhetsautentisering-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/138-Veileder-for-virksomhetsautentisering-v1-codex.md",
+            "version": 2,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/138-Veileder-for-virksomhetsautentisering-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/138-Veileder-for-virksomhetsautentisering-v2-claude.md",
             "capabilities": [
+                {
+                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
+                    "capability_name": "Tillit",
+                    "capability_slug": "tillit",
+                    "subcapability_id": "id-4b66bbf964834654b5f0c61e955b91b1",
+                    "subcapability_name": "Identifisering",
+                    "subcapability_slug": "identifisering",
+                    "mapping_label": "Tillit: Identifisering",
+                    "explanation": "normeres direkte i veilederens første del. Den gir anbefalinger for hvordan virksomheter uten registreringsrett kan få en identitet som kan brukes flere ganger og på tvers av sektorer, for eksempel ved å identifisere personer med en bemyndiget rolle i et autoritativt register, eller ved å bruke sertifikater på sektor- eller hovedenhetsnivå."
+                },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
                     "capability_name": "Tillit",
@@ -5241,7 +5141,7 @@
                     "subcapability_name": "Autentisering",
                     "subcapability_slug": "autentisering",
                     "mapping_label": "Tillit: Autentisering",
-                    "explanation": "Veilederen støtter `Tillit: Autentisering` ved å beskrive hvordan mottakerens identitet kan fastslås mer presist enn på virksomhetsnivå alene, særlig når standard virksomhetssertifikat ikke er tilstrekkelig."
+                    "explanation": "normeres i veilederens del om autentisering: systemspesifikke asymmetriske nøkler som førstevalg for å unngå universalnøkkel-problemet, ingen statiske hemmeligheter, hyppig nøkkelrotasjon og kontroll av samhandlingspartens identitet mot aktuelle registre."
                 },
                 {
                     "capability_id": "id-48c9873ae59341a49c2dca27379fab55",
@@ -5251,17 +5151,7 @@
                     "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
                     "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling",
                     "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
-                    "explanation": "Veilederen støtter `Tillit: Autentisering` ved å beskrive hvordan mottakerens identitet kan fastslås mer presist enn på virksomhetsnivå alene. Den støtter `Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling` ved å knytte identifisering, adressering, sertifikatbehandling, logging og sporing til trygg praktisk gjennomføring av datadeling."
-                },
-                {
-                    "capability_id": "id-c0547226c598467a942dced879d0c18b",
-                    "capability_name": "Veiledning",
-                    "capability_slug": "veiledning",
-                    "subcapability_id": "id-a601bb3d7b11478185903149965f7842",
-                    "subcapability_name": "Anvendelse av veiledning",
-                    "subcapability_slug": "anvendelse-av-veiledning",
-                    "mapping_label": "Veiledning: Anvendelse av veiledning",
-                    "explanation": "Ressursen er en konkret veileder som anvendes direkte i virksomheters arbeid med identifisering, adressering og trygg mottakerhåndtering ved datadeling."
+                    "explanation": "normeres gjennom delene om adressering og om sertifikatbehandling, logging og sporing. Veilederen beskriver hvordan data kan begrenses til riktig del av mottakerens organisasjon, hvordan virksomhetssertifikatet skal beskyttes, og hvordan sporing skal sikres. Det er trafikkstyringen og kontrollen med hvem som mottar data, som kapabiliteten omfatter."
                 },
                 {
                     "capability_id": "id-c0547226c598467a942dced879d0c18b",
@@ -5271,7 +5161,7 @@
                     "subcapability_name": "Utvikling og formidling av veiledning",
                     "subcapability_slug": "utvikling-og-formidling-av-veiledning",
                     "mapping_label": "Veiledning: Utvikling og formidling av veiledning",
-                    "explanation": "Veilederen er utviklet og publisert som felles normerende støtte for virksomhetsautentisering, og inngår i Digdirs samlede veiledningsarbeid for trygg datadeling."
+                    "explanation": "Veilederen er Digdirs publiserte veiledning for virksomhetsautentisering, med anbefalinger i fire deler og en egen juridisk vurdering."
                 }
             ]
         },

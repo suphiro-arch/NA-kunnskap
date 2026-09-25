@@ -136,6 +136,8 @@ Aa-registeret er en nasjonal register- og delingsplattform for arbeidsforholdsda
 
 **Kildekode:** Ikke offentlig dokumentert.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** støttes ved at arbeidsforholdsdata kan brukes av flere aktører med hjemmel i stedet for at hver virksomhet etablerer egne parallelle kilder.
 - **P6: Lag digitale løsninger som støtter samhandling** støttes fordi registeret kombinerer felles datagrunnlag, standardiserte delingstjenester og sluttbrukerinnsyn på tvers av virksomheter.

@@ -117,7 +117,11 @@ Ressursen har høy gjenbruksverdi innenfor arkivområdet fordi den gjør det mul
 - `FINT Flyt` for dataomforming, oppsett og vedlikehold av integrasjoner
 - fagsystemer som skal sende eller hente arkivinformasjon
 
-**Kildekode:** Åpen kildekode. Arkivkomponentene er publisert på [github.com/FINTLabs](https://github.com/FINTLabs), blant annet `fint-consumer-arkiv-noark`, `fint-sikri-arkiv-adapter` og `fint-p360-rpc-arkiv-adapter`, i hovedsak under MIT-lisens.
+**Kildekode:** Åpen kildekode. Arkivkomponentene er publisert på [github.com/FINTLabs](https://github.com/FINTLabs), blant annet `fint-consumer-arkiv-noark`, `fint-sikri-arkiv-adapter` og `fint-p360-rpc-arkiv-adapter`.
+
+**Lisens:** MIT for `fint-consumer-arkiv-noark`, `fint-sikri-arkiv-adapter` og `fint-p360-rpc-arkiv-adapter`, kontrollert mot repositoriene 2026-09-25.
+
+**Repositorium:** [github.com/FINTLabs](https://github.com/FINTLabs)
 
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data**  

@@ -16,7 +16,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/32-Helsenorge-produkt-canvas-v2-claude.md">Helsenorge</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/32-Helsenorge-v3-claude.md">Helsenorge</a></h3>
       <p class="capability-product-link__description">er stedet innbyggeren gir, endrer og trekker tilbake samtykke, blant annet samtykke til at barn mellom 13 og 16 år kan bruke enkelte tjenester, og samtykke til at apotek kan hente ut reseptvarer</p>
     </article>
   </div>

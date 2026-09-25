@@ -111,6 +111,8 @@ MinID gjenbrukes funksjonelt ved at offentlige tjenester kan tilby innlogging me
 
 **Kildekode:** Ikke offentlig dokumentert.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 MinID støtter prinsipper om deling og gjenbruk ved at en felles eID kan brukes på tvers av offentlige tjenester. Den støtter også brukerorientering ved å gi et offentlig alternativ for innlogging og ved å være del av arbeid med trygg bruk og opplæring.
 

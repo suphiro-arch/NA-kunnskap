@@ -157,6 +157,8 @@ Inngår ikke:
 
 **Kildekode:** Ikke offentlig dokumentert. Kildene beskriver ikke om løsningens kode er publisert.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data**
   Ett datasett samles inn én gang i året og brukes videre av Statistisk sentralbyrå, av kommunene i tilskuddsforvaltningen og av Barnehagefakta, framfor at hver bruker samler inn selv.

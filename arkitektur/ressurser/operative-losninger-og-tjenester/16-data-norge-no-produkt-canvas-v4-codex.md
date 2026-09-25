@@ -156,7 +156,11 @@ Nasjonal webportal for oppdagelse, metadataforvaltning, veiledning og fellesskap
 - **Maskinporten** – etter å ha funnet et API på data.norge.no er Maskinporten neste steg for å skaffe tilgang.
 - **data.altinn.no** – noen datasett dokumentert her er tilgjengelige for deling via data.altinn.no.
 
-**Kildekode:** Åpen kildekode. Lisens: Apache-2.0. Kildekode: [github.com/Informasjonsforvaltning/fdk-portal](https://github.com/Informasjonsforvaltning/fdk-portal).
+**Kildekode:** Åpen kildekode.
+
+**Lisens:** Apache-2.0, kontrollert mot repositoriet 2026-09-25.
+
+**Repositorium:** [github.com/Informasjonsforvaltning/fdk-portal](https://github.com/Informasjonsforvaltning/fdk-portal)
 
 ## Støtter arkitekturprinsipper
 - **P4 Del og gjenbruk data** - Portalen er direkte innrettet mot oppdagelse og viderebruk av data.

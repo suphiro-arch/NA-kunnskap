@@ -82,6 +82,11 @@ Sist redigert: 2026-06-17.
 - Digdir om prinsipp for digitaliseringstiltak: https://www.digdir.no/krav-og-anbefalinger/folg-prinsipp-digitaliseringstiltak/3101 (lagt til 2026-04-10)
 - Veileder for virksomhetsautentisering: https://www.digdir.no/datadeling/veileder-virksomhetsautentisering/2435 (lagt til 2026-05-03)
 - Juridiske vurderinger relevante for virksomhetsautentisering: https://www.digdir.no/datadeling/juridiske-vurderinger-relevante-virksomhetsautentisering/2488 (lagt til 2026-05-03)
+- Virksomhetsautentisering - utfordringsbildet ved bruk av virksomhetssertifikat: https://www.digdir.no/datadeling/utfordringsbildet-ved-bruk-av-virksomhetssertifikat/2482 (lagt til 2026-09-25)
+- Virksomhetsautentisering - identifisering: https://www.digdir.no/datadeling/identifisering/2436 (lagt til 2026-09-25)
+- Virksomhetsautentisering - adressering: https://www.digdir.no/datadeling/adressering/2437 (lagt til 2026-09-25)
+- Virksomhetsautentisering - sertifikatbehandling, logging og sporing: https://www.digdir.no/datadeling/sertifikatbehandling-logging-og-sporing/2438 (lagt til 2026-09-25)
+- Virksomhetsautentisering - autentisering: https://www.digdir.no/datadeling/autentisering/2439 (lagt til 2026-09-25)
 - Veiledere og hjelpemidler for eID: https://www.digdir.no/digital-identitet/veiledere-og-hjelpemidler/7311 (lagt til 2026-05-05)
 - Prosjektveiviseren: https://prosjektveiviseren.digdir.no/ (lagt til 2026-04-10)
 - Prosjektveiviseren - modellen: https://prosjektveiviseren.digdir.no/dokumentasjon/modellen/148 (lagt til 2026-04-10)
@@ -181,7 +186,7 @@ Sist redigert: 2026-06-17.
 - Maskinporten: https://samarbeid.digdir.no/maskinporten/kostnadsmodell-maskinporten/64 (lagt til 2026-08-28)
 - Maskinporten: https://samarbeid.digdir.no/maskinporten/ta-i-bruk-maskinporten/97 (lagt til 2026-08-28)
 - MinID: https://status.digdir.no/ (lagt til 2026-08-28)
-- Nasjonalt veikart: https://www.digdir.no/digital-samhandling/felles-struktur-og-arkitektur-samhandling/2150 (lagt til 2026-08-28)
+- Felles struktur og arkitektur for samhandling: https://www.digdir.no/digital-samhandling/felles-struktur-og-arkitektur-samhandling/2150 (lagt til 2026-08-28)
 - NIFS: https://www.digdir.no/informasjonssikkerhet/bli-medlem-i-nifs/2192 (lagt til 2026-08-28)
 - NIFS: https://www.digdir.no/informasjonssikkerhet/om-nettverksmotene/2193 (lagt til 2026-08-28)
 - Norge.no: https://www.norge.no/en/about-norgeno (lagt til 2026-08-28; svarer 404, kontrollert 2026-09-18)
@@ -341,6 +346,7 @@ Sist redigert: 2026-06-17.
 - Videokonsultasjon via Helsenorge: https://www.helsenorge.no/en/about-services-on-helsenorge/video-consultations-via-Helsenorge/ (lagt til 2026-09-25)
 - Nasjonal digitaliseringsmonitor, DigiHelsestasjon: https://www.helsedirektoratet.no/statistikk/nasjonal-digitaliseringsmonitor/digihelsestasjon (lagt til 2026-09-07)
 - Norsk helsenett på GitHub, klientbibliotek og eksempelkode: https://github.com/NorskHelsenett (lagt til 2026-09-05)
+- Helsenorge på GitHub, kildekode for designsystem og skjemakomponenter: https://github.com/helsenorge (lagt til 2026-09-25)
 - Kjernejournal på Helsenorge: https://www.helsenorge.no/helseopplysninger-som-deles/kjernejournal/
 - Helsedata.no: https://helsedata.no/
 - Helsedata.no kontakt: https://helsedata.no/en/contact/ (lagt til 2026-03-27)
@@ -598,10 +604,10 @@ Sist redigert: 2026-06-17.
 - Oppdatert veileder om sammenhengende tjenester, DFOe og Digdir 27.02.2024: https://www.digdir.no/sammenhengende-tjenester/oppdatert-veileder-om-sammenhengende-tjenester/5551 (lagt til 2026-09-17)
 - Rammeverk for digital samhandling: https://www.digdir.no/digital-samhandling/rammeverk-digital-samhandling/2149 (kanonisk URL oppdatert 2026-06-19)
 - Arkitektur for hendelser: https://www.digdir.no/digital-samhandling/innledning/4169 (kanonisk URL oppdatert 2026-06-19)
+- Status på digitaliseringsstrategien: https://www.digdir.no/digitalisering-og-samordning/status-pa-digitaliseringsstrategien/8228 (lagt til 2026-09-25)
+- Rikets digitale tilstand 2024 – samlet vurdering av måloppnåelse: https://www.digdir.no/rikets-digitale-tilstand/samlet-vurdering-av-maloppnaelse-i-rikets-digitale-tilstand-2024/5859 (lagt til 2026-09-25)
 - Arkitektur for hendelser - eldre kortlenke: https://www.digdir.no/samhandling/arkitektur-hendelser/4691
 - Kart for tjenestekjeder: https://www.digdir.no/samhandling/kart-tjenestekjeder/4168
-- Nasjonalt veikart: https://www.digdir.no/digitalisering-og-samordning/nasjonalt-veikart/7022 (oppdatert 2026-05-04)
-- Erfaringene fra de syv prioriterte livshendelsene inngår nå i nasjonalt veikart: https://www.digdir.no/digitalisering-og-samordning/erfaringene-fra-de-syv-prioriterte-livshendelsene-inngar-na-i-nasjonalt-veikart/7937 (lagt til 2026-05-04)
 - Skate: https://www.digdir.no/skate/skate/1259 (lagt til 2026-04-09)
 - Mandat for Skate: https://www.digdir.no/digitalisering-og-samordning/mandat-skate/1261 (lagt til 2026-09-10)
 - Skate-medlemmer: https://www.digdir.no/skate/skate-medlemmer/1333 (lagt til 2026-09-10)
@@ -625,7 +631,12 @@ Sist redigert: 2026-06-17.
 - Bruksvilkår for ELMA: https://samarbeid.digdir.no/elma/bruksvilkar-elma/2072 (lagt til 2026-03-18)
 
 ### EU interoperabilitet
-- DIGITAL Building Blocks, ogsaa brukt som kilde om dataspaces: https://interoperable-europe.ec.europa.eu/collection/digital-building-blocks
+- DIGITAL Building Blocks (omtaler ikke dataområder, jf. revisjon av 108 2026-09-25): https://interoperable-europe.ec.europa.eu/collection/digital-building-blocks
+- Europeiske dataområder (Digdir): https://www.digdir.no/digital-samhandling/europeiske-dataomrader/8041 (lagt til 2026-09-25)
+- Norsk deltakelse i europeiske dataområder: https://www.digdir.no/datadeling/norsk-deltakelse-i-europeiske-dataomrader/7612 (lagt til 2026-09-25)
+- Hvorfor er dataområder viktige for din virksomhet: https://www.digdir.no/datadeling/hvorfor-er-dataomrader-viktige-din-virksomhet/8216 (lagt til 2026-09-25)
+- Hva gir dataområder oss: https://www.digdir.no/datadeling/hva-gir-dataomrader-oss/8186 (lagt til 2026-09-25)
+- Common European data spaces (Europakommisjonen): https://digital-strategy.ec.europa.eu/en/policies/data-spaces (lagt til 2026-09-25)
 - Interoperable Europe Act: https://interoperable-europe.ec.europa.eu/Interoperable-Europe-Act-Regulation (lagt til 2026-03-18)
 - Core Vocabularies: https://interoperable-europe.ec.europa.eu/collection/semic-support-centre/solution/core-vocabularies (lagt til 2026-03-18)
 - Assessment Toolbox: https://interoperable-europe.ec.europa.eu/collection/assessments/assessment-toolbox (lagt til 2026-03-18)
@@ -656,6 +667,7 @@ Sist redigert: 2026-06-17.
 - Felles modelleringsregler for offentlig forvaltning: https://www.digdir.no/informasjonsforvaltning/felles-modelleringsregler-offentlig-forvaltning/3029 (lagt til 2026-09-04)
 - Veileder for beskrivelse av informasjonsmodeller (ModellDCAT-AP-NO): https://data.norge.no/guide/veileder-modelldcat-ap-no (lagt til 2026-09-04)
 - Referansemodeller innen informasjonsforvaltning: https://www.digdir.no/informasjonsforvaltning/referansemodeller-innen-informasjonsforvaltning/2156 (lagt til 2026-09-04)
+- Sentralt styringsdokument for prosjekt «Deling av data»: https://www.digdir.no/datadeling/sentralt-styringsdokument-prosjekt-deling-av-data/2598 (lagt til 2026-09-25)
 
 ### Fremsyn og innovasjon
 - Fremsyn i politikk, strategi og innovasjon: https://www.digdir.no/innovasjon/fremsyn-i-politikk-strategi-og-innovasjon/3632 (lagt til 2026-09-04)
@@ -665,6 +677,8 @@ Sist redigert: 2026-06-17.
 - Blindsonemetoden: https://www.digdir.no/innovasjon/blindsonemetoden/3583 (lagt til 2026-09-04)
 - Dette kan Digdir bidra med i fremsynsarbeid: https://www.digdir.no/innovasjon/dette-kan-vi-bidra-med-i-ditt-fremsynsarbeid/3629 (lagt til 2026-09-04)
 - Fremsyn i livshendelsene: https://www.digdir.no/innovasjon/fremsyn-i-livshendelsene/3793 (lagt til 2026-09-04)
+- Design (Digdir, innovasjon): https://www.digdir.no/innovasjon/design/3075 (lagt til 2026-09-25)
+- Meld. St. 30 (2019–2020) En innovativ offentlig sektor: https://www.regjeringen.no/no/dokumenter/meld.-st.-30-20192020/id2715113/ (lagt til 2026-09-25)
 
 ### Informasjonssikkerhet og personvern
 - Sikkert.no: https://www.sikkert.no/ (lagt til 2026-03-18)

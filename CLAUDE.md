@@ -39,6 +39,9 @@ pwsh tools/check-mojibake.ps1
 python tools/sync-resource-metadata.py --apply
 python tools/check-resource-version-sync.py
 
+# forklaring under hvert kapabilitetspunkt i gjeldende ressursfiler
+python tools/check-capability-explanations.py
+
 # strukturkontroll av ressursbeskrivelser mot malen
 python tools/check-resource-structure.py --strict
 

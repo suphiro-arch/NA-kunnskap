@@ -146,7 +146,11 @@ eFormidling er en formidlingstjeneste med et tydelig teknisk skille mellom virks
 - **Digital postkasse** – eFormidling kan formidle post til innbyggers digitale postkasse som del av avsenderens kanalvalg.
 - **Kontakt- og reservasjonsregisteret** – brukes for å avklare om mottakeren kan nås digitalt.
 
-**Kildekode:** Åpen kildekode. Lisens: MIT/EUPL. Kildekode: [github.com/felleslosninger/efm-integrasjonspunkt](https://github.com/felleslosninger/efm-integrasjonspunkt).
+**Kildekode:** Åpen kildekode.
+
+**Lisens:** BSD-3-Clause, kontrollert mot repositoriet 2026-09-25. Tidligere oppgitt lisens MIT/EUPL samsvarer ikke med repositoriet.
+
+**Repositorium:** [github.com/felleslosninger/efm-integrasjonspunkt](https://github.com/felleslosninger/efm-integrasjonspunkt)
 
 ## Støtter arkitekturprinsipper
 - **P5 Del og gjenbruk løsninger** - eFormidling er en felles formidlingstjeneste som kan brukes av mange virksomheter.

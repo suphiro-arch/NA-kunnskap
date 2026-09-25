@@ -138,6 +138,8 @@ Fiks folkeregister er en registertilgangstjeneste i KS Digital og inngår funksj
 
 **Kildekode:** Ikke offentlig dokumentert. Selve tjenesten er ikke publisert som åpen kildekode, men klientbibliotek og SDK-er for Fiks-plattformen er tilgjengelige på [github.com/ks-no](https://github.com/ks-no), flere av dem under MIT-lisens.
 
+**Lisens:** Ikke offentlig dokumentert for selve tjenesten. Klientbibliotekene på [github.com/ks-no](https://github.com/ks-no) er lisensiert per repositorium: flere har MIT, blant annet `fiks-io-klient-java` og `fiks-svarut-klient`, mens andre mangler lisensfil (kontrollert mot repositoriene 2026-09-25).
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** - løsningen gjør autoritative folkeregisterdata tilgjengelige for gjenbruk i kommunale arbeidsprosesser.
 - **P7: Sørg for tillit til oppgaveløsningen** - tilgang styres etter roller, hjemmel og dataminimering, noe som er avgjørende for trygg bruk av personopplysninger.

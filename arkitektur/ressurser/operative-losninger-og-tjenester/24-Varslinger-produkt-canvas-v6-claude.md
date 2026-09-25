@@ -148,7 +148,11 @@ API-basert varslingsløsning i Altinn-porteføljen med oppslag mot nasjonale reg
 - **Kontakt- og reservasjonsregisteret** – kontaktopplysninger og reservasjonsstatus hentes for å finne riktig kanal.
 - **Dialogporten** – varsel sendes når ny dialog opprettes eller oppdateres med handlingsbehov.
 
-**Kildekode:** Åpen kildekode. Lisens: MIT. Kildekode: [github.com/Altinn/altinn-notifications](https://github.com/Altinn/altinn-notifications).
+**Kildekode:** Åpen kildekode.
+
+**Lisens:** MIT, kontrollert mot repositoriet 2026-09-25.
+
+**Repositorium:** [github.com/Altinn/altinn-notifications](https://github.com/Altinn/altinn-notifications)
 
 ## Støtter arkitekturprinsipper
 - **P1: Ta utgangspunkt i brukernes behov** støtter rettidig varsling i kanalene brukerne faktisk bruker.

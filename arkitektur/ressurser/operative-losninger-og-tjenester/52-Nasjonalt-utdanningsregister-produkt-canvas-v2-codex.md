@@ -110,6 +110,8 @@ Ressursen har høy gjenbruksverdi for aktører som trenger en stabil nasjonal re
 
 **Kildekode:** Ikke offentlig dokumentert.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data**  
   Registeret gjør utdanningsdata lettere å gjenbruke på tvers ved å samle dem i én kvalitetssikret og autoritativ kilde.

@@ -136,6 +136,8 @@ Kjernejournal er en nasjonal delings- og oppslagsløsning i helsesektoren. Platt
 
 **Kildekode:** Ikke offentlig dokumentert.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** styrkes ved at relevante opplysninger kan brukes der behovet oppstår i stedet for å gjenskapes manuelt flere steder.
 - **P6: Lag digitale løsninger som støtter samhandling** støttes fordi Kjernejournal er laget nettopp for behandlingssituasjoner som går på tvers av virksomheter og nivåer.

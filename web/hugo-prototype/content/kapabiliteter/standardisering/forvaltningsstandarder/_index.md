@@ -4,7 +4,7 @@ headerTitle: "Standardisering - Forvaltningsstandarder"
 eyebrow: "Kapabilitet"
 weight: 2
 description: "Evne til å implementere og ta i bruk nasjonale standarder. ### Begrunnelse (Hvorfor) Kapabiliteten sikrer at virksomheter faktisk implementerer og tar i bruk nasjonale standarder i tjenester, løsninger, anskaffelser og samhandlingsprosesser. Den løser behovet for felles praksis som gjør at data, tjenester og tekniske grensesnitt fungerer sammen på tvers av offentlig sektor. Kapabiliteten inkluderer også EU-harmoniserte standarder som er vedtatt i norsk forvaltning. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Etterleve krav og føringer knyttet til nasjonale forvaltningsstandarder og EU-harmoniserte standarder som er vedtatt i norsk forvaltning. - **Organisatorisk (Høy vekt):** Etablere rutiner for å vurdere, innføre, følge opp og dokumentere bruk av relevante standarder i prosjekter, anskaffelser og forvaltning. - **Semantisk (Høy vekt):** Bruke standardiserte begreper, metadata, informasjonsmodeller og beskrivelser som sikrer lik forståelse av data og tjenester på tvers av virksomheter. - **Teknisk (Høy vekt):** Implementere standardiserte formater, protokoller, API-spesifikasjoner, sikkerhetsmekanismer og tekniske grensesnitt som gjør løsninger interoperable og gjenbrukbare. ### Bidrag til sammenhengende tjenester og felles økosystem Forvaltningsstandarder gjør det mulig å bygge tjenester og løsninger som følger samme regler, formater og samhandlingsmønstre. Når virksomheter implementerer og bruker de samme standardene, blir det enklere å dele data, koble systemer sammen og gjenbruke løsninger på tvers av sektorer og forvaltningsnivåer. Kapabiliteten styrker det felles økosystemet ved å redusere lokale avvik, særtilpasninger og kostbare integrasjoner. For sluttbrukeren betyr dette mer stabile og sammenhengende tjenester, der digitale løsninger fungerer bedre sammen uavhengig av hvilken virksomhet som leverer dem."
-cardMeta: "28 produkter"
+cardMeta: "27 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -109,11 +109,6 @@ productsMarkdown: |
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v2-claude.md">Nasjonal verktøykasse for deling av data</a></h3>
       <p class="capability-product-link__description">Veilederen peker på konkrete standarder for hvordan data og datatjenester skal tilbys og beskrives, blant annet OpenAPI Specification og GraphQL for datatjenester.</p>
     </article>
-    <article class="capability-product-link resource-type--normative">
-      <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/108-Kunnskapsgrunnlag-dataspaces-v1-codex.md">Kunnskapsgrunnlag - dataspaces</a></h3>
-      <p class="capability-product-link__description">Peker mot felles referansearkitekturer, standarder og styringsmønstre som bør vurderes når dataspaces diskuteres i norsk kontekst.</p>
-    </article>
     <article class="capability-product-link resource-type--policy">
       <p class="capability-product-link__type">Rammer og virkemidler</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/112-Digitaliseringsrundskrivet-v2-copilot.md">Digitaliseringsrundskrivet</a></h3>
@@ -121,13 +116,13 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v2-claude.md">Digitaliseringsvennlig regelverk</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v3-claude.md">Digitaliseringsvennlig regelverk</a></h3>
       <p class="capability-product-link__description">Anbefalingene om begrepsharmonisering og klart språk knytter regelverksutforming til felles begrepsbruk på tvers av virksomheter.</p>
     </article>
     <article class="capability-product-link resource-type--policy">
       <p class="capability-product-link__type">Rammer og virkemidler</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v2-copilot.md">Forskrift om IT-standarder i offentlig forvaltning</a></h3>
-      <p class="capability-product-link__description">Forskriften gir et bindende grunnlag for hvilke standarder som skal brukes eller vurderes i offentlig sektor.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v3-claude.md">Forskrift om IT-standarder i offentlig forvaltning</a></h3>
+      <p class="capability-product-link__description">realiseres direkte. Forskriften definerer selv begrepet forvaltningsstandard i § 2 bokstav b, og §§ 4–13 fastsetter hvilke standarder som skal legges til grunn i hele forvaltningen, blant annet UTF-8, EHF og Peppol BIS, HTTP over TLS, IPv6 og HTML5.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>

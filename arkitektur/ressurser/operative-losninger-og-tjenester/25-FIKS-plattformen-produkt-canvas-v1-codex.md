@@ -133,6 +133,8 @@ FIKS-plattformen er en felles plattformtjeneste levert for kommunal sektor.
 
 **Kildekode:** Ikke offentlig dokumentert. Selve tjenesten er ikke publisert som åpen kildekode, men klientbibliotek og SDK-er for Fiks-plattformen er tilgjengelige på [github.com/ks-no](https://github.com/ks-no), flere av dem under MIT-lisens.
 
+**Lisens:** Ikke offentlig dokumentert for selve tjenesten. Klientbibliotekene på [github.com/ks-no](https://github.com/ks-no) er lisensiert per repositorium: flere har MIT, blant annet `fiks-io-klient-java` og `fiks-svarut-klient`, mens andre mangler lisensfil (kontrollert mot repositoriene 2026-09-25).
+
 ## Støtter arkitekturprinsipper
 - **P5 Del og gjenbruk løsninger** - plattformen samler felles tekniske byggeklosser som kan brukes på tvers av kommunal sektor.
 - **P6 Lag digitale løsninger som støtter samhandling** - plattformen er laget for å koble tjenester, aktører og data sammen gjennom felles grensesnitt og forvaltningsmønstre.

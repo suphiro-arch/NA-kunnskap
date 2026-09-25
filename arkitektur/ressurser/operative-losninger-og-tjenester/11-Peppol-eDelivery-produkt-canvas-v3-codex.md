@@ -141,7 +141,11 @@ Peppol eDelivery er ikke én sentral plattform, men et føderert meldingsøkosys
 - **eFormidling** – bruker Peppol-infrastruktur for deler av formidlingen mellom offentlige virksomheter.
 - **EHF-standarder** – innholdet i dokumentene som sendes via Peppol eDelivery følger EHF-profiler.
 
-**Kildekode:** Åpen kildekode for infrastrukturdelen. AS4-implementasjonen `phase4` er publisert på [github.com/phax/phase4](https://github.com/phax/phase4) under Apache-2.0. [github.com/OpenPeppol](https://github.com/OpenPeppol) inneholder i hovedsak spesifikasjoner og transformasjoner, som `peppol-bis-invoice-3`, og lisens må kontrolleres per repositorium. Selve det fødererte økosystemet drives av aksesspunktleverandører og er ikke én publisert kodebase.
+**Kildekode:** Åpen kildekode for infrastrukturdelen. AS4-implementasjonen `phase4` er publisert på [github.com/phax/phase4](https://github.com/phax/phase4). [github.com/OpenPeppol](https://github.com/OpenPeppol) inneholder i hovedsak spesifikasjoner og transformasjoner, som `peppol-bis-invoice-3`. Selve det fødererte økosystemet drives av aksesspunktleverandører og er ikke én publisert kodebase.
+
+**Lisens:** Apache-2.0 for `phase4`, kontrollert mot repositoriet 2026-09-25. De fleste repositoriene under OpenPeppol, blant annet `peppol-bis-invoice-3`, har ingen lisensfil ved samme kontroll, så vilkårene for gjenbruk av dem er ikke offentlig dokumentert der.
+
+**Repositorium:** [github.com/phax/phase4](https://github.com/phax/phase4) og [github.com/OpenPeppol](https://github.com/OpenPeppol)
 
 ## Støtter arkitekturprinsipper
 - **P5 Del og gjenbruk løsninger** - Peppol eDelivery gir et felles mønster som mange aktører kan bruke i stedet for lokale spesialløsninger.

@@ -148,7 +148,11 @@ Felles autorisasjonsprodukt i Altinn-porteføljen med brukerflate, API-er og ark
 
 **Vanlige kombinasjoner med andre produkter:**
 
-**Kildekode:** Åpen kildekode. Lisens: MIT. Kildekode: [github.com/Altinn/altinn-access-management](https://github.com/Altinn/altinn-access-management).
+**Kildekode:** Åpen kildekode.
+
+**Lisens:** MIT, kontrollert mot repositoriet 2026-09-25. Repositoriet er arkivert, og tilgangsstyringen forvaltes nå i monorepoet [github.com/Altinn/altinn-auth](https://github.com/Altinn/altinn-auth), som også har MIT-lisens.
+
+**Repositorium:** [github.com/Altinn/altinn-access-management](https://github.com/Altinn/altinn-access-management)
 
 ## Støtter arkitekturprinsipper
 - **P5: Del og gjenbruk løsninger** realiseres ved at flere tjenester kan bruke samme autorisasjonsgrunnlag.

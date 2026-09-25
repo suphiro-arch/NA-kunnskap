@@ -135,6 +135,9 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
   `python tools/check-resource-version-sync.py`
 - `check-resource-version-sync.py` kontrollerer også at merkelappene under `## Kapabiliteter` i gjeldende ressursfiler, og i kapabilitetskolonnen i registeret, er navn fra `capabilities.yaml`. Både `Hovedkapabilitet: Delkapabilitet` og navnet alene godtas, men er prefikset med, må det være riktig hovedkapabilitet. Erstattede versjoner kontrolleres ikke, siden et navnebytte i modellen ikke skal gjøre historikk til feil.
 - Kapabilitetskoblinger skal alltid ned på laveste nivå. Har hovedkapabiliteten delkapabiliteter, er det en av dem som skal oppgis, ikke hovedkapabiliteten. Bare hovedkapabiliteter uten delkapabiliteter er selv laveste nivå, jf. `selvstendig: true` i tolkningsreglene i `capabilities.yaml`. Dette håndheves av kontrollen over, som også lister hvilke delkapabiliteter du kan velge mellom.
+- Forklaring under hvert kapabilitetspunkt i gjeldende ressursfiler:
+  `python tools/check-capability-explanations.py`
+- `check-capability-explanations.py` tolker alle kulepunktformatene i porteføljen: forklaring på samme linje som labelen, på innrykket linje under, som innrykket underpunkt og som fortsettelseslinje. Et punkt uten forklaring er feil. En forklaring med færre enn åtte ord utover labelen gir advarsel, og tekst etter siste kulepunkt gir merknad fordi `sync-resource-metadata.py` trekker den inn i forklaringen til siste kapabilitet. Bruk `--new-only` for filer som er endret i kjøringen, `--strict` når kontrollen skal gi feilkode, `--advarsler` for å se advarsler og merknader, og `--mapping` for å sammenligne med `explanation` i `produkt-kapabilitet-koblinger.yaml`.
 - Seksjonsstruktur mot malen for kategorien:
   `python tools/check-resource-structure.py --strict`
 - Eksterne lenker som er brukt uten å være registrert i `sources/links.md`:

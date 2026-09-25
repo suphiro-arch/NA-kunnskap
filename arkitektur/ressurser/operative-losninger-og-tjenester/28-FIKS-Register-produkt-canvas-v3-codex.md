@@ -139,6 +139,8 @@ Fiks register er en fellestjeneste på KS Digitals Fiks-plattform og fungerer so
 
 **Kildekode:** Ikke offentlig dokumentert. Selve tjenesten er ikke publisert som åpen kildekode, men klientbibliotek og SDK-er for Fiks-plattformen er tilgjengelige på [github.com/ks-no](https://github.com/ks-no), flere av dem under MIT-lisens.
 
+**Lisens:** Ikke offentlig dokumentert for selve tjenesten. Klientbibliotekene på [github.com/ks-no](https://github.com/ks-no) er lisensiert per repositorium: flere har MIT, blant annet `fiks-io-klient-java` og `fiks-svarut-klient`, mens andre mangler lisensfil (kontrollert mot repositoriene 2026-09-25).
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** - produktet gjør det enklere for kommunal sektor å bruke autoritative registerdata fra andre virksomheter på en kontrollert måte.
 - **P6: Lag digitale løsninger som støtter samhandling** - løsningen gir et mer standardisert samhandlingsmønster for registeroppslag og bruk av nasjonale datakilder på tvers av aktører.

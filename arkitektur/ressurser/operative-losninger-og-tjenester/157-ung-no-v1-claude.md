@@ -142,6 +142,8 @@ Nettbasert informasjonstjeneste med redaksjonelt innhold og spørretjeneste, dri
 
 **Kildekode:** Ikke offentlig dokumentert. Kildene beskriver ikke om nettstedets kode er publisert.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P1: Ta utgangspunkt i brukernes behov**
   Tjenesten er organisert etter ungdommens spørsmål framfor etter forvaltningens ansvarsdeling, og brukermedvirkning er et eget innsatsområde i samarbeidet.

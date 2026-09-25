@@ -45,7 +45,7 @@ Etterlevelse skjer gjennom tjenestedesign, arkitekturanalyse, konseptutredning o
 ## Kapabiliteter
 Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot Digdirs side for kart for tjenestekjeder og mot malen i verktøydokumentasjonen.
 
-- **Sluttbrukertjenester: Tjenestekjeder** normeres direkte. Verktøyet gir metoden for å avgrense og beskrive en tjenestekjede, fra hendelse til utløste tjenester til berørte datakilder, og gjør kjeden til et analyserbart objekt framfor en løs betegnelse.
+- **Sluttbrukertjenester: Tjenestekjeder** normeres i designfasen. Kapabiliteten er evnen til å sette sammen, koordinere og automatisere informasjonsflyt og prosesser på tvers av uavhengige tjenester. Kartet foreskriver hvordan en slik kjede skal beskrives før den kan koordineres: hvilken hendelse som utløser tjenester hos hvilke aktører, hvilke data som opprettes eller endres i hvilke kilder, og hvor flyten brytes på juridisk, organisatorisk, semantisk eller teknisk nivå. Det er samme inndeling som definisjonen bruker for hva kapabiliteten innebærer. Kartet normerer ikke selve integrasjonen eller automatiseringen, som hører hjemme i operative løsninger og i `Arkitektur for hendelser`.
 - **Samarbeid: Organisatorisk samhandling** normeres gjennom at kartet navngir aktører og tjenesteleverandører per tjeneste. Ansvarsovergangene blir synlige, og det er dem samordningen må håndtere.
 
 **Deduksjon:** `Strategisk styring: Samordning` ble oppgitt i `v1`, men er tatt ut. Kartet gir et bedre grunnlag for samordning, men normerer ikke selve samordningen: det er hverken styringsmodell, mandat eller beslutningsprosess. Samordning er en effekt av å bruke verktøyet, ikke en evne verktøyet foreskriver.

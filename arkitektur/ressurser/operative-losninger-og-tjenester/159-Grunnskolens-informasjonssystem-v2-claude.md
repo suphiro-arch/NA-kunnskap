@@ -155,6 +155,8 @@ Inngår ikke:
 
 **Kildekode:** Ikke offentlig dokumentert. Kildene beskriver ikke om løsningens kode er publisert.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data**
   Løsningen henter skoleutvalget fra NSR framfor å vedlikeholde eget register, tar imot filimport framfor å kreve manuell registrering, og publiserer resultatene videre i Statistikkbanken.

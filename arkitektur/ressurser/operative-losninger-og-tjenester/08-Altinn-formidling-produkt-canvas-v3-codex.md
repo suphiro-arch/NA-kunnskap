@@ -148,7 +148,11 @@ Formidlingstjeneste i Altinn-porteføljen med API-er, hendelsesabonnementer og k
 - **Altinn Events** – brukes parallelt for hendelsesvarsling knyttet til leveranser og statusendringer.
 - **Altinn Autorisasjon** – brukes for tilgangskontroll til hvem som kan sende og hente leveranser.
 
-**Kildekode:** Åpen kildekode. Lisens: MIT. Kildekode: [github.com/Altinn/altinn-broker](https://github.com/Altinn/altinn-broker).
+**Kildekode:** Åpen kildekode.
+
+**Lisens:** Ikke offentlig dokumentert. Repositoriet har ingen lisensfil ved kontroll 2026-09-25, og MIT-lisensen som tidligere var oppgitt, er ikke bekreftet. Koden er publisert, men vilkårene for gjenbruk er ikke oppgitt.
+
+**Repositorium:** [github.com/Altinn/altinn-broker](https://github.com/Altinn/altinn-broker)
 
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** støttes ved at data kan deles gjennom en felles, kontrollert overføringsmekanisme.

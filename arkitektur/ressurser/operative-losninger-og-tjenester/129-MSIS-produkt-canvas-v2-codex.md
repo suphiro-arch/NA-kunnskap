@@ -128,6 +128,8 @@ MSIS er et nasjonalt meldings- og overvåkingssystem med flere operative flater:
 
 **Kildekode:** Ikke offentlig dokumentert.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** styrkes ved at sykdomsdata kan brukes i både statistikk, forskning, råd og styring fra ett nasjonalt meldingsgrunnlag.
 - **P6: Lag digitale løsninger som støtter samhandling** er direkte relevant fordi MSIS bygger på koordinert samspill mellom kliniske miljøer, laboratorier, smittevern og myndigheter.

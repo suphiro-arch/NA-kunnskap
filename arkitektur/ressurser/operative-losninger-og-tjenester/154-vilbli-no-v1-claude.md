@@ -140,6 +140,8 @@ Nettbasert informasjonstjeneste forvaltet av Novari IKS på vegne av fylkeskommu
 
 **Kildekode:** Ikke offentlig dokumentert. Tjenesten er ikke publisert som samlet løsning. Enkelte VIGO-relaterte komponenter er publisert på [github.com/FINTLabs](https://github.com/FINTLabs), med varierende lisens per repositorium.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P1: Ta utgangspunkt i brukernes behov**
   Tjenesten er bygget rundt søkerens informasjonsbehov før et valg, og henvender seg eksplisitt også til rådgivere og foresatte som støtter valget.

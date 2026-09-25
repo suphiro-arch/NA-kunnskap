@@ -121,6 +121,8 @@ NVDB er en nasjonal data- og delingsressurs for veginformasjon, forvaltet av Sta
 
 **Kildekode:** Ikke offentlig dokumentert. Selve databasen og API-tjenesten er ikke publisert. Statens vegvesen publiserer tilgrensende materiale på [github.com/vegvesen](https://github.com/vegvesen), blant annet `NVDB-Datakatalogen` og `nvdb-arcmap-plugin`.
 
+**Lisens:** Ikke offentlig dokumentert. Heller ikke de tilgrensende repositoriene `NVDB-Datakatalogen` og `nvdb-arcmap-plugin` har lisensfil i rotmappen ved kontroll 2026-09-25.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** støttes tydelig ved at NVDB gjør vegdata tilgjengelige som felles datagrunnlag for flere aktører.
 - **P5: Del og gjenbruk løsninger** støttes delvis ved at mange kan bygge videre på samme nasjonale informasjonsgrunnlag i stedet for å etablere egne varianter.

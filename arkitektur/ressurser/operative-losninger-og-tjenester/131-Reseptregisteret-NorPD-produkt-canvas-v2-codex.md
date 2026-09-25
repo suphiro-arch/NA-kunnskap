@@ -126,6 +126,8 @@ Reseptregisteret er ikke lenger en selvstendig operativ plattform for nye datati
 
 **Kildekode:** Ikke offentlig dokumentert.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** støttes ved at historiske legemiddeldata fortsatt kan brukes gjennom en tydelig videreføring til Legemiddelregisteret, i stedet for at tidsserien brytes.
 - **P7: Sørg for tillit til oppgaveløsningen** er sentralt fordi overgangen mellom gammelt og nytt registerspor må være tydelig, dokumentert og kontrollert for at data skal kunne brukes trygt.

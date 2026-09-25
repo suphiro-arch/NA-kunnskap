@@ -97,6 +97,8 @@ Produktet er særlig relevant der flere aktører må dele og bruke reseptinforma
 
 **Kildekode:** Ikke offentlig dokumentert.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data**
 - **P6: Lag digitale løsninger som støtter samhandling**

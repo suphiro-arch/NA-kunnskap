@@ -128,6 +128,8 @@ FS er en nasjonal studieadministrativ plattform med databaser, integrasjoner, AP
 
 **Kildekode:** Ikke offentlig dokumentert.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** realiseres ved at studie- og studentdata kan brukes i flere tjenester og prosesser.
 - **P5: Del og gjenbruk løsninger** styrkes ved at sektoren bruker en felles plattform i stedet for mange lokale varianter.

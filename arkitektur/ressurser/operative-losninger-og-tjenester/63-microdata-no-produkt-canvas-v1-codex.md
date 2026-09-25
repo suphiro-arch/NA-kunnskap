@@ -108,7 +108,11 @@ microdata.no er en kontrollert analyseplattform for bruk av koblede registerdata
 
 Produktet har særlig verdi for aktører som trenger sikker og standardisert analyse av sensitive data, men er mindre relevant som generell datadelings- eller innbyggerrettet ressurs.
 
-**Kildekode:** Åpen kildekode. Komponenter er publisert på [github.com/statisticsnorway](https://github.com/statisticsnorway), blant annet `microdata-datastore-api`. SSB oppgir åpen kildekode som uttalt praksis, og repositoriene bruker i hovedsak MIT-lisens.
+**Kildekode:** Åpen kildekode. Komponenter er publisert på [github.com/statisticsnorway](https://github.com/statisticsnorway), blant annet `microdata-datastore-api`. SSB oppgir åpen kildekode som uttalt praksis.
+
+**Lisens:** MIT for `microdata-datastore-api` og de øvrige aktive microdata-repositoriene, kontrollert 2026-09-25. De fleste repositoriene i organisasjonen har MIT, men lisens må kontrolleres per komponent.
+
+**Repositorium:** [github.com/statisticsnorway](https://github.com/statisticsnorway)
 
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data**

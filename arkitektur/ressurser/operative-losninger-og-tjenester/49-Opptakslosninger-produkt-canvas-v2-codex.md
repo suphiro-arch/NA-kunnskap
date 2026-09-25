@@ -127,6 +127,8 @@ Sammensatt sektorløsning for samordnet opptak med både administrativ systemst�
 
 **Kildekode:** Ikke offentlig dokumentert.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** ved samordnet bruk av data fra flere kilder i én opptaksprosess.
 - **P5: Del og gjenbruk løsninger** ved at sektoren bruker én felles løsning i stedet for mange lokale varianter.

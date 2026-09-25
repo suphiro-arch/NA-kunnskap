@@ -135,6 +135,8 @@ Ansattporten er en skybasert fellestjeneste for ansattautentisering med egne pro
 
 **Kildekode:** Ikke offentlig dokumentert.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P5: Del og gjenbruk løsninger** støttes ved at ansattpålogging tilbys som én felles fellestjeneste i stedet for mange lokale varianter.
 - **P6: Lag digitale løsninger som støtter samhandling** støttes fordi Ansattporten gjør det lettere å samordne autentisering i tjenester der flere virksomheter og representasjonsforhold må spille sammen.

@@ -123,7 +123,6 @@ Inngår ikke:
 - **Rammeverk for digital samhandling**: leverer samhandlingsnivåene og økosystembegrepet verktøyet bygger arbeidsområdene på.
 - **Overordnede arkitekturprinsipper**: gir prinsippretning som sjekklistene konkretiserer i tjenesteforløp.
 - **Prosjektveiviseren**: gir metode for hvordan sjekklistene brukes i prosjektløp.
-- **Nasjonalt veikart**: peker på hvilke felleskomponenter som finnes, og er en naturlig kilde når verktøyet spør om ressurser i felles økosystem kan brukes framfor å bygge eget.
 
 ## Forretningsverdi og arkitekturverdi
 Forretningsverdien er bedre brukeropplevelse, færre brudd i forløp og mer målrettet forbedringsarbeid. Arkitekturverdien er tydeligere samhandlingskrav, bedre helhetsvurdering og tidligere avdekking av tverrgående avhengigheter.
@@ -183,4 +182,3 @@ Svakheter, spenninger og begrensninger mot prinsippene: Verktøyet må kombinere
 - Formuleringen «Ressursen er viktig fordi» er fjernet fra `Kort beskrivelse`. AGENTS.md krever at beskrivelsen sier hva ressursen gjør, ikke hvorfor den er interessant.
 - Brødteksten som sto etter kulelista i `Kapabiliteter` er fjernet, og kapabilitetspunktene har fått forklaring i selve fila. AGENTS.md krever at avsluttende tekst står før lista, fordi `sync-resource-metadata.py` ellers trekker den inn i forklaringen for den siste kapabiliteten.
 - Fakta og deduksjon er merket gjennom dokumentet. `v1` hadde ingen slike merker.
-- `Nasjonalt veikart` er lagt til under `Relasjon til andre ressurser`, siden verktøyet spør om ressurser i felles økosystem kan brukes.

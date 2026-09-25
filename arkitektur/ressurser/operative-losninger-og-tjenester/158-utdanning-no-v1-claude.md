@@ -153,6 +153,8 @@ Inngår ikke:
 
 **Kildekode:** Ikke offentlig dokumentert. Kildene beskriver ikke om nettstedets eller API-enes kode er publisert. Innholdet er derimot åpne data under NLOD 2.0.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P1: Ta utgangspunkt i brukernes behov**
   Tjenesten er organisert etter valget brukeren står i, ikke etter hvilket organ som forvalter hvilken del av utdanningssystemet.

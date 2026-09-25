@@ -151,7 +151,11 @@ Utviklingsflate i Altinn-porteføljen som leder videre til deploy og kjøring i 
 - Det er `altinn-studio`-repositoriet som er vurdert som kjernekomponent i registreringen. DPG-oppføringen omtaler altså utviklingsflaten, ikke Altinn-plattformen som helhet.
 - Merk at DPG-profilen oppgir BSD-3-Clause som lisens, mens repositoriet oppgir MIT ved kontroll 2026-09-09. Avviket er ikke avklart i kildene. Legg repositoriets egen lisensangivelse til grunn i gjenbruksvurderinger, og ikke registeroppføringen.
 
-**Kildekode:** Åpen kildekode. Lisens: MIT. Kildekode: [github.com/Altinn/altinn-studio](https://github.com/Altinn/altinn-studio). Lisensen er kontrollert mot repositoriet 2026-09-09.
+**Kildekode:** Åpen kildekode.
+
+**Lisens:** MIT. Lisensen er kontrollert mot repositoriet 2026-09-09.
+
+**Repositorium:** [github.com/Altinn/altinn-studio](https://github.com/Altinn/altinn-studio)
 
 ## Støtter arkitekturprinsipper
 - **P1: Ta utgangspunkt i brukernes behov** støttes gjennom vekt på tilgjengelige og brukervennlige tjenester.

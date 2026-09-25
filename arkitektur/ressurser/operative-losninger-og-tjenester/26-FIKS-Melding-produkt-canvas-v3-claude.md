@@ -144,6 +144,8 @@ Fiks melding er en sentralt forvaltet fellestjeneste i KS Digital og et eget kom
 
 **Kildekode:** Ikke offentlig dokumentert. Selve tjenesten er ikke publisert som åpen kildekode, men klientbibliotek og SDK-er for Fiks-plattformen er tilgjengelige på [github.com/ks-no](https://github.com/ks-no), flere av dem under MIT-lisens.
 
+**Lisens:** Ikke offentlig dokumentert for selve tjenesten. Klientbibliotekene på [github.com/ks-no](https://github.com/ks-no) er lisensiert per repositorium: flere har MIT, blant annet `fiks-io-klient-java` og `fiks-svarut-klient`, mens andre mangler lisensfil (kontrollert mot repositoriene 2026-09-25).
+
 ## Støtter arkitekturprinsipper
 - **P6: Lag digitale løsninger som støtter samhandling** - produktet er laget for strukturert kommunikasjon og meldingsutveksling mellom kommuner, innbyggere og andre virksomheter gjennom et felles kanalgrunnlag.
 - **P7: Sørg for tillit til oppgaveløsningen** - sikker kommunikasjon og publisert sikkerhetsunderlag er sentrale deler av produktets verdi og praktiske bruk.

@@ -127,6 +127,8 @@ Dødsårsaksregisteret er et sentralt helseregister med tilknyttede innmeldings-
 
 **Kildekode:** Ikke offentlig dokumentert.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** styrkes ved at ett nasjonalt registergrunnlag brukes i statistikk, forskning og styring i stedet for lokale eller parallelle tolkninger av samme domene.
 - **P6: Lag digitale løsninger som støtter samhandling** styrkes ved at meldende miljø, forvaltning, forskning og statistikkbanker bygger på samme kilde og avklarte rollefordelinger.

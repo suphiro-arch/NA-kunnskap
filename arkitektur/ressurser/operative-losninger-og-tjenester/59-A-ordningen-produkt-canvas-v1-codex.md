@@ -129,6 +129,8 @@ A-ordningen er en samordnet rapporterings- og datadelingsordning som fungerer p�
 
 **Kildekode:** Ikke offentlig dokumentert.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** realiseres ved at rapporterte opplysninger brukes videre av flere etater og andre aktører.
 - **P5: Del og gjenbruk løsninger** styrkes ved at flere rapporteringsløp er samlet i én felles ordning.

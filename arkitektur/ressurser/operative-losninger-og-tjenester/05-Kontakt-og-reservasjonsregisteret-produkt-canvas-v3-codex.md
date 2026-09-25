@@ -147,6 +147,8 @@ Kontakt- og reservasjonsregisteret er en nasjonal registertjeneste som gir oppsl
 
 **Kildekode:** Ikke offentlig dokumentert.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** realiseres ved at kontaktopplysninger og reservasjonsstatus tilbys som felles grunnlag for mange virksomheter.
 - **P5: Del og gjenbruk løsninger** styrkes fordi offentlig sektor kan bygge på samme register i stedet for lokale kopier og særordninger.

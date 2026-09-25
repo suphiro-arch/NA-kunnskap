@@ -148,7 +148,11 @@ Felles hendelsesplattform i Altinn-porteføljen med publish/subscribe-mønster, 
 - **Maskinporten** – brukes for autentisering av systemer som skal abonnere på hendelsesstrømmer.
 - **Altinn Autorisasjon** – styrer tilgangen til hvilke hendelseskilder en klient kan abonnere på.
 
-**Kildekode:** Åpen kildekode. Lisens: MIT. Kildekode: [github.com/Altinn/altinn-events](https://github.com/Altinn/altinn-events).
+**Kildekode:** Åpen kildekode.
+
+**Lisens:** MIT, kontrollert mot repositoriet 2026-09-25.
+
+**Repositorium:** [github.com/Altinn/altinn-events](https://github.com/Altinn/altinn-events)
 
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** støttes ved at hendelser kan deles mellom autoriserte parter.

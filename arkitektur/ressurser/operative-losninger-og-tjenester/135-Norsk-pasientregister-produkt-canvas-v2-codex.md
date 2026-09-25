@@ -132,6 +132,8 @@ NPR er et sentralt helseregister med nasjonal rapporteringsrolle, styringsrolle 
 
 **Kildekode:** Ikke offentlig dokumentert.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** styrkes ved at samme nasjonale registergrunnlag kan brukes til styring, forskning, kvalitetsarbeid og andre lovlige sekundærformål.
 - **P6: Lag digitale løsninger som støtter samhandling** styrkes ved at mange rapporteringspliktige virksomheter leverer til samme nasjonale register og bruker samme referansegrunnlag.

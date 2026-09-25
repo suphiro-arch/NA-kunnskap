@@ -147,7 +147,11 @@ API-katalog er en spesialisert delkatalog for publisering og oppdagelse av API-b
 - **Maskinporten** – API-er beskrevet i katalogen er gjerne beskyttet av Maskinporten.
 - **Begrepskatalog** – begrepsgrunnlaget for dataene i API-et kan kobles til beskrivelsen i katalogen.
 
-**Kildekode:** Åpen kildekode. Lisens: Apache-2.0. Kildekode: [github.com/Informasjonsforvaltning](https://github.com/Informasjonsforvaltning).
+**Kildekode:** Åpen kildekode.
+
+**Lisens:** Apache-2.0 for kodelagrene i organisasjonen, kontrollert 2026-09-25. Enkelte dokumentasjonsrepositorier i samme organisasjon har ingen lisensfil, så lisens må kontrolleres per repositorium.
+
+**Repositorium:** [github.com/Informasjonsforvaltning](https://github.com/Informasjonsforvaltning)
 
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** støttes ved at API-er synliggjøres som kanal for gjenbruk av data.

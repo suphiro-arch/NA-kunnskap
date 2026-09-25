@@ -240,6 +240,13 @@ For eksempel:
 - repository
 - prosjekt- eller samarbeidsflate
 
+**Lisens:** Valgfritt delfelt. Brukes når innholdet gjenbrukes eller bearbeides av andre, som
+informasjonsmodeller, kodeverk, begrepsapparat, spesifikasjoner, datasett og maler. Oppgi
+SPDX-identifikatoren for innholdet når den er kjent, for eksempel `CC-BY-4.0`, `NLOD-2.0` eller
+`CC0-1.0`, og `Ikke offentlig dokumentert` når forvalteren ikke oppgir lisens. Kontroller mot
+forvalterens egen publisering. Utelat feltet for rene veiledere og for lov og forskrift, der
+lisensen ikke avgjør om ressursen kan tas i bruk.
+
 ## Støtter arkitekturprinsipper
 Beskriv hvordan ressursen støtter prinsippene i `arkitektur/prinsipper/principles.md`.
 

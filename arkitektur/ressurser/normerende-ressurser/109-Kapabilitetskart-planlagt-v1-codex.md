@@ -88,8 +88,6 @@ Inngår ikke:
 - **Nasjonal arkitektur**  
   Kapabilitetskartet bør forstås som en operasjonalisering av nasjonal arkitektur, ikke som et parallelt styringsspor.
 
-- **Nasjonalt veikart**  
-  Kartet kan gi bedre struktur for å forstå hvilke kapabiliteter veikartet faktisk prøver å styrke.
 
 - **Produkt- og ressursoversikten**  
   Ressursoversikten viser hva som finnes, mens kapabilitetskartet kan gjøre det tydeligere hvilke behov disse ressursene dekker godt, svakt eller ikke i det hele tatt.

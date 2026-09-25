@@ -4,7 +4,7 @@ headerTitle: "Informasjonsforvaltning - Datastyring"
 eyebrow: "Kapabilitet"
 weight: 8
 description: "Evne til å sikre enhetlig og ansvarlig forvaltning av dataressurser gjennom felles rammeverk, klar ansvarsplassering og systematisk kvalitetsarbeid. ### Begrunnelse (Hvorfor) Datastyring er rammeverket av roller, ansvar, prosesser og standarder som sikrer effektiv og forsvarlig forvaltning av data som en strategisk ressurs gjennom hele livssyklusen. Kapabiliteten løser behovet for tydelig ansvar, felles praksis og systematisk kvalitetsarbeid, slik at data kan deles, forstås og brukes trygt på tvers av virksomheter. ### Hva det innebærer (Omfang) - **Juridisk (Høy vekt):** Sikre at data forvaltes i tråd med krav til personvern, taushetsplikt, arkivering, innsyn, behandlingsgrunnlag og ansvar for datadeling. - **Organisatorisk (Svært høy vekt):** Etablere roller, ansvar, styringsprosesser og beslutningsstrukturer for dataeierskap, datakvalitet, tilgang, deling og livssyklusforvaltning. - **Semantisk (Høy vekt):** Forvalte felles begreper, metadata, kvalitetskrav, informasjonsmodeller og klassifikasjoner som sikrer at data forstås likt og kan gjenbrukes. - **Teknisk (Middels vekt):** Bruke kataloger, dataplattformer, tilgangsmekanismer, kvalitetsverktøy og sporbarhetsløsninger som støtter praktisk styring og kontroll av dataressurser. ### Bidrag til sammenhengende tjenester og felles økosystem Datastyring gir grunnlaget for at data kan brukes som en pålitelig ressurs i sammenhengende tjenester. Når ansvar, kvalitet, metadata og tilgang er avklart, kan virksomheter tryggere dele og gjenbruke data i tjenestekjeder. Kapabiliteten styrker det felles økosystemet ved å gjøre data mer forutsigbare, etterprøvbare og gjenbrukbare. For sluttbrukeren betyr dette bedre datakvalitet, færre feil, mindre behov for gjentatt dokumentasjon og mer helhetlige tjenester på tvers av virksomheter."
-cardMeta: "18 produkter"
+cardMeta: "17 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -58,11 +58,6 @@ productsMarkdown: |
       <p class="capability-product-link__type">Normerende ressurs</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v2-claude.md">Nasjonal verktøykasse for deling av data</a></h3>
       <p class="capability-product-link__description">Veilederen stiller krav til hvilke opplysninger et datasett skal beskrives med, og til at beskrivelsene holdes oppdatert over tid.</p>
-    </article>
-    <article class="capability-product-link resource-type--normative">
-      <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/107-Kunnskapsgrunnlag-og-KPI-er-datadeling-v1-codex.md">Kunnskapsgrunnlag og KPI-er datadeling</a></h3>
-      <p class="capability-product-link__description">Gjør det lettere å strukturere hva som faktisk bør måles og følges opp når virksomheter arbeider mer systematisk med deling, bruk og styring av data.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>

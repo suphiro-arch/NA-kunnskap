@@ -140,6 +140,8 @@ Register over reelle rettighetshavere er et nasjonalt register- og delingssystem
 
 **Kildekode:** Ikke offentlig dokumentert. Registerløsningen er ikke publisert. Brønnøysundregistrene publiserer API-spesifikasjoner på [github.com/brreg](https://github.com/brreg).
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** realiseres ved at registeret samler og tilgjengeliggjør ett nasjonalt datagrunnlag om faktisk eierskap og kontroll.
 - **P5: Del og gjenbruk løsninger** styrkes ved at flere hjemlede aktører kan bruke samme kontrollgrunnlag i stedet for egne, parallelle oppsett.

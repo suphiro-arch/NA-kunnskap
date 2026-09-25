@@ -94,6 +94,8 @@ Produktet er først og fremst relevant der det er behov for et felles, regelstyr
 
 **Kildekode:** Ikke offentlig dokumentert.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data**
 - **P7: Sørg for tillit til oppgaveløsningen**

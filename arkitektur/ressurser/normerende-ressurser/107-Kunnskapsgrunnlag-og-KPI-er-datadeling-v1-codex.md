@@ -91,8 +91,6 @@ Inngår ikke:
 - **Rammeverk - nasjonale grunndata**  
   Rammeverket avklarer hva som bør forvaltes som felles dataressurser, mens KPI-sporet er mer opptatt av oppfølging og styring av utviklingen rundt deling og bruk.
 
-- **Nasjonalt veikart**  
-  Ressursen kan gi et mer konsistent grunnlag for å prioritere og følge opp innsatsområder i veikart og samordningsarbeid.
 
 ## Forretningsverdi og arkitekturverdi
 Forretningsverdien ligger i bedre prioritering, tydeligere oppfølging og lavere risiko for at datadelingsarbeid bare beskrives gjennom aktivitet i stedet for effekt. Ressursen gjør det lettere å se hvor innsatsen faktisk gir framgang, og hvor den fortsatt er preget av svak styring eller lite læring på tvers.

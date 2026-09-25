@@ -96,6 +96,13 @@ mellom `Obligatorisk` og de tre andre nivåene er som regel nettopp at det finne
 ### Scope og gjenbruk
 - Beskriv eksplisitt scope og avgrensning.
 - Beskriv hvilke andre ressurser som naturlig kobles til denne.
+- Legg inn det merkede delfeltet `**Lisens:**` i `Publiseringsform og tilgjengelighet` når ressursen
+  består av innhold som gjenbrukes eller bearbeides av andre, som informasjonsmodeller, kodeverk,
+  begrepsapparat, spesifikasjoner, datasett og maler. Feltet er valgfritt, og kan utelates for rene
+  veiledere og for lov og forskrift.
+- Oppgi lisensen som SPDX-identifikator når den er kjent, for eksempel `CC-BY-4.0`, `NLOD-2.0` eller
+  `CC0-1.0`. Skriv `Ikke offentlig dokumentert` når forvalteren ikke oppgir lisens. Kontroller mot
+  forvalterens egen publisering, ikke mot omtale i tredjepartskilder.
 
 ### Kapabiliteter skal være rene nok for videre bruk
 - Bruk bare kanoniske kapabilitetsnavn i selve kapabilitetslisten.

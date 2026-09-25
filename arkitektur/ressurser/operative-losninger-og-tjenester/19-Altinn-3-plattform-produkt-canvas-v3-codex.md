@@ -143,7 +143,11 @@ Altinn 3 plattform er selv plattformlaget i denne produktbeskrivelsen, og omfatt
 - **Altinn Melding og Dialogporten** – brukes for korrespondanse og dialogeksponering fra apper på plattformen.
 - **ID-porten** – brukes for innlogging i tjenester som er deployet på Altinn.
 
-**Kildekode:** Åpen kildekode. Lisens: MIT. Kildekode: [github.com/Altinn](https://github.com/Altinn) (flere repositorier).
+**Kildekode:** Åpen kildekode, fordelt på flere repositorier.
+
+**Lisens:** Varierer per repositorium. Ved kontroll 2026-09-25 har 48 av 88 aktive repositorier i organisasjonen MIT, noen har BSD-3-Clause eller Apache-2.0, og 33 har ingen lisensfil, blant annet `altinn-storage` og `altinn-register`. Lisens må kontrolleres per komponent.
+
+**Repositorium:** [github.com/Altinn](https://github.com/Altinn)
 
 ## Støtter arkitekturprinsipper
 - **P5: Del og gjenbruk løsninger** realiseres ved at flere tjenester kan bygge på samme plattformgrunnlag.

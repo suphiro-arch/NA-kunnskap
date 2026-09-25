@@ -88,7 +88,6 @@ Inngår ikke:
 ## Relasjon til andre ressurser
 - **Nasjonal arkitektur** er hovedkonteksten der kapabilitetskartet inngår som ett av flere utviklingsspor.
 - **Ressursoversikten** gjør det mulig å koble kapabilitetsbehov til faktiske løsninger, normerende ressurser og samarbeidsfora.
-- **Nasjonalt veikart** kan bruke kapabilitetslogikken for å vise hvilke evner tiltak faktisk skal styrke.
 - **Rammeverk for informasjonsforvaltning og andre normerende ressurser** er viktige supplement når gapanalyse skal oversettes til mer konkrete føringer.
 
 ## Forretningsverdi og arkitekturverdi

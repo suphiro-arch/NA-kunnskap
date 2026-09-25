@@ -153,6 +153,8 @@ Inngår ikke:
 
 **Kildekode:** Ikke offentlig dokumentert. Kildene beskriver ikke om nettstedets kode er publisert.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P1: Ta utgangspunkt i brukernes behov**
   Tjenesten er innrettet mot foreldre som står i et konkret valg, og presenterer tall på det nivået valget faktisk gjelder: den enkelte barnehagen.

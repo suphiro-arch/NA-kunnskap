@@ -154,6 +154,8 @@ Inngår ikke:
 
 **Kildekode:** Ikke offentlig dokumentert. Kildene beskriver ikke om løsningens kode er publisert.
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P1: Ta utgangspunkt i brukernes behov**
   Undersøkelsen henter elevenes egen vurdering framfor å bygge kvalitetsarbeidet på de voksnes inntrykk, og lar eleven avstå fra å svare.

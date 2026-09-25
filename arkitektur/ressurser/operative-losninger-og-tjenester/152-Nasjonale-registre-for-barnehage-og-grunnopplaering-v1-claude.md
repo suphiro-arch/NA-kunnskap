@@ -142,6 +142,8 @@ Kildene beskriver ikke et samlet veikart for registerfamilien. Utdanningsdirekto
 
 **Kildekode:** Ikke offentlig dokumentert. Selve registerløsningene er ikke publisert, men Utdanningsdirektoratet publiserer teknisk dokumentasjon og kode for tilgrensende dataressurser på [github.com/Utdanningsdirektoratet](https://github.com/Utdanningsdirektoratet).
 
+**Lisens:** Ikke offentlig dokumentert.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data**
   Direkte og sterk støtte. Registrene er åpne, autoritative og lisensiert for viderebruk under NLOD.

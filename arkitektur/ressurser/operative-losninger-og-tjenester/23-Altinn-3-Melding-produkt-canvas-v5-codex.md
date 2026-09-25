@@ -152,7 +152,11 @@ Meldingstjeneste i Altinn-porteføljen med API-er, vedleggshåndtering, statusfl
 - **Altinn Autorisasjon** – styrer tilgang til meldinger for representanter og delegater.
 - **ID-porten** – brukes av innbygger for å logge inn og lese meldingen i Altinn Portal eller Arbeidsflate.
 
-**Kildekode:** Åpen kildekode. Lisens: MIT. Kildekode: [github.com/Altinn/altinn-correspondence](https://github.com/Altinn/altinn-correspondence).
+**Kildekode:** Åpen kildekode.
+
+**Lisens:** Ikke offentlig dokumentert. Repositoriet har ingen lisensfil ved kontroll 2026-09-25, og MIT-lisensen som tidligere var oppgitt, er ikke bekreftet. Koden er publisert, men vilkårene for gjenbruk er ikke oppgitt.
+
+**Repositorium:** [github.com/Altinn/altinn-correspondence](https://github.com/Altinn/altinn-correspondence)
 
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data** gjør meldingsstatus og hendelser tilgjengelige for videre bruk i prosesser.
