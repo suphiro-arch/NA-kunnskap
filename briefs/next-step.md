@@ -79,9 +79,20 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
   fortsatt ligger i `normerende-ressurser/` selv om ressursen er flyttet til
   `rammer-og-virkemidler/`. Den er historikk og røres ikke av kontrollene, men plasseringen er
   misvisende.
-- Vurdere om kapabilitetsmodellen mangler en kapabilitet for kompetanse og kompetanseutvikling.
-  `117` Kompetansemodell for digital transformasjon har nå bare én smal kobling, fordi ingen
-  kapabilitet dekker det modellen faktisk gjør.
+- Vurdere senere om delkapabilitetene under `Veiledning` fungerer optimalt. Modellen er arvet fra
+  rammeverket i `digdir/nasjonal-arkitektur`, så en endring krever forankring der og gjøres ikke
+  her. Utfordringene slik de står 2026-09-25:
+  - `Anvendelse av veiledning` er definert som virksomhetens egen evne til å bruke veiledere i
+    prosjekter. Nesten ingen nasjonal ressurs realiserer den; etter regelen i
+    [decisions.md](./decisions.md) står bare `113` og `121` igjen.
+  - Modellen mangler kompetanse og kompetanseutvikling, slik at `117`, tilskuddet til digital
+    kompetanse og mulige kandidater som DigiUng ikke har noen naturlig kobling. En omdøping til
+    noe som `Kompetanse og støtte til anvendelse` kunne løst begge punktene.
+  - Beskrivelsen av hovedkapabiliteten nevner både standarder og regelverkstolkning, som
+    overlapper `Standardisering` og `Juridisk samhandling: Regelverkstolkning`.
+  - Delkapabilitetene deler etter aktør, den som lager og den som bruker, ikke etter type
+    veiledning. `Utvikling og formidling av veiledning` blir derfor en samlepost for alle
+    veiledere, med lite analyseverdi.
 - Sammenligne den øvrige porteføljen mot Digdirs egen fellesløsningsoversikt
   (https://samarbeid.digdir.no/felleslosninger/felleslosninger/1309). Sammenligningen 2026-09-17
   fant to avvik: `Arbeidsflate`, som nå er opprettet som `165`, og `ki.norge.no`, som er dekket som
