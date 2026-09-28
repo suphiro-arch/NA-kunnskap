@@ -121,8 +121,8 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--policy">
       <p class="capability-product-link__type">Rammer og virkemidler</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/144-eForvaltningsforskriften-v2-copilot.md">eForvaltningsforskriften</a></h3>
-      <p class="capability-product-link__description">Kapittel 3 stiller krav til styring og kontroll med informasjonssikkerheten, og kapittel 4 til 6 regulerer sikkerhetstjenester, beskyttelse av signaturnøkler og behandling av krypterte og signerte meldinger.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/144-eForvaltningsforskriften-v3-claude.md">eForvaltningsforskriften</a></h3>
+      <p class="capability-product-link__description">§ 5 og § 8 fjerde ledd krever at risikoen for uberettiget innsyn forebygges når taushetsbelagte opplysninger og enkeltvedtak utveksles elektronisk, og kapittel 4 til 6 regulerer kryptering, beskyttelse av dekrypteringsnøkler og kontroll av signerte meldinger.</p>
     </article>
   </div>
 ---

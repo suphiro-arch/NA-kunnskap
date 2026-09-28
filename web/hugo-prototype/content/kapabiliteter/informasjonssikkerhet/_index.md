@@ -98,7 +98,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--policy">
       <p class="capability-product-link__type">Rammer og virkemidler</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/144-eForvaltningsforskriften-v2-copilot.md">eForvaltningsforskriften</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/144-eForvaltningsforskriften-v3-claude.md">eForvaltningsforskriften</a></h3>
     </article>
   </div>
 ---

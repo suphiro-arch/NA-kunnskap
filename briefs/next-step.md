@@ -32,9 +32,15 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
   - Referansearkitekturene for eMelding og eOppslag (`101` og `102`) er udaterte og beskriver
     situasjonen rundt 2020. Om Digdir planlegger revisjon, avklares enklest direkte.
   - Det er ikke kontrollert mot Referansekatalogen om spesifikasjonene i `89` er obligatoriske.
-- Revidere de gjenværende ikke-`claude`-filene i `rammer-og-virkemidler/` med samme mønstersøk:
-  `141` Stimulab, `142` Medfinansieringsordningen og `144` eForvaltningsforskriften (alle
-  `-copilot`). `144` bør samtidig prøves for `Regelverkstolkning`, se punktet under.
+- Følge ordningene i `rammer-og-virkemidler/` som endrer seg fra år til år, etter revisjonen av
+  `141` og `142` 2026-09-28:
+  - `142` Medfinansieringsordningen: Digdir skulle foreslå reviderte retningslinjer med virkning
+    fra 2027, med frist 1.8.2026. Om de er fastsatt, er ikke offentlig dokumentert. Neste
+    utlysning er varslet til høsten 2026. Kuttet i revidert nasjonalbudsjett 2026 på post 25, som
+    Altinget meldte om, er ikke kontrollert mot Prop. 96 S (2025–2026) og står merket som usikkert.
+  - `141` Stimulab: følge oppfølgingen av evalueringen fra Oslo Economics (april 2026) og
+    fornyingen av virkemidlene for innovasjon som tildelingsbrevet for 2026 varsler, og om det
+    kommer utlysning for 2027.
 - Følge opp de fire uavklarte punktene i arbeidsdelingen mellom `21` Altinn.no og `18` Norge.no.
   Selve overlappen er dokumentert i begge canvasene 2026-09-18, se [decisions.md](./decisions.md).
   Det som gjenstår er å finne ut om noe av dette faktisk er avklart et sted vi ikke har funnet:
@@ -63,8 +69,6 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
   uten at det er kontrollert mot lisensfila. Vurdere også om `94` Fiks protokoll og `83` FINT
   Arkivintegrasjoner har riktig `Kildekode`-status, siden relaterte spesifikasjoner og
   `fint-flyt`-repoer er publisert.
-- Prøve `144` eForvaltningsforskriften for `Regelverkstolkning` med samme test som ble brukt på
-  `137`: en forskrift er regelverket som tolkes, ikke en ressurs som tolker.
 - Rydde den gamle fila `137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v1-codex.md`, som
   fortsatt ligger i `normerende-ressurser/` selv om ressursen er flyttet til
   `rammer-og-virkemidler/`. Den er historikk og røres ikke av kontrollene, men plasseringen er
@@ -90,7 +94,8 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
   (`Digitalt dødsbo`, `Digital representasjon`, `MinID i skolen`, `Moderniseringen av Altinn`,
   `Ny finansieringsmodell for fellesløsningene`) er bevisst holdt utenfor: oversikten dekker
   ressurser, ikke prosjekter. `Ny finansieringsmodell for fellesløsningene` bør likevel følges,
-  fordi utfallet treffer både `120` Styringsrådet og `142` Medfinansieringsordningen.
+  fordi den gjelder fra 1.1.2027 og treffer `120` Styringsrådet. Kildene om modellen nevner ikke
+  medfinansieringsordningen, så sammenhengen med `142` er svakere enn tidligere antatt.
 - Etterfylle rettslig forankring i `standarder og veiledning` etter regelen som ble lagt inn
   2026-09-13, se [decisions.md](./decisions.md). Alle tretti gjeldende filer er gjennomgått
   2026-09-13, og behovet er mindre enn ventet: kategorien er allerede eksplisitt om manglende
@@ -166,8 +171,10 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
     EU-filene beskriver det europeiske nivået, og norsk implementering er holdt utenfor som eget
     spor. Samme skille må brukes for de gjenstående kandidatene i batch 3.
 - Kontrollere hjemmelsgrunnlaget for `DIGDIR-066` eForvaltningsforskriften på nytt når ny
-  forvaltningslov (lov 20. juni 2025 nr. 81) settes i kraft. Ikrafttredelsen er ikke bestemt.
-  Forskriften er i kraft i dag, så `v1` og status `aktiv` står inntil videre.
+  forvaltningslov (lov 20. juni 2025 nr. 81) settes i kraft. Ikrafttredelsen er ikke bestemt per
+  2026-09-28. Ny lov § 10 fjerde ledd og § 99 gir hjemmel for videreføring og overgangsregler.
+  Forskriften hviler allerede på overgangsregler for to opphevede lover, esignaturloven 2001 og
+  arkivloven 1992. Status `aktiv` i `v3` står inntil videre.
 - Gjennomføre canvas-konsekvensanalyse av kapabilitetsbeskrivelsene fra modelloppdateringen.
   Navne- og ID-effekten er håndtert, men den brede faglige vurderingen av nye beskrivelser mot
   ressurscanvasene gjenstår. Grunnlaget ligger i

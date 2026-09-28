@@ -16,13 +16,13 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--policy">
       <p class="capability-product-link__type">Rammer og virkemidler</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/141-Stimulab-v1-copilot.md">Stimulab</a></h3>
-      <p class="capability-product-link__description">Ordningen tildeler økonomiske midler til utviklingsprosjekter og styrer gjennom prioritering av hvilke prosjekter som får støtte.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/141-Stimulab-v2-claude.md">Stimulab</a></h3>
+      <p class="capability-product-link__description">Stimulab er selv et finansielt virkemiddel med egen budsjettpost og eget tilskuddsregelverk. Ordningen tildeler midler etter kriterier om brukerfokus, innovasjonspotensial, gevinstpotensial og overføringsverdi, og krever egenandel fra mottakeren.</p>
     </article>
     <article class="capability-product-link resource-type--policy">
       <p class="capability-product-link__type">Rammer og virkemidler</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/142-Medfinansieringsordningen-v1-copilot.md">Medfinansieringsordningen</a></h3>
-      <p class="capability-product-link__description">Ordningen er et direkte finansielt virkemiddel og påvirker prioritering og gjennomføringsevne.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/142-Medfinansieringsordningen-v2-claude.md">Medfinansieringsordningen</a></h3>
+      <p class="capability-product-link__description">Ordningen er det statlige virkemiddelet for søknadsbasert medfinansiering av digitaliseringstiltak, med egen budsjettpost, tilsagnsfullmakt og retningslinjer. Den fordeler kostnadene mellom staten og mottakeren, krever forpliktende gevinstrealiseringsplaner, og tar ut halvparten av netto gevinster som budsjettkutt, også i andre statlige virksomheter som får gevinster over fem millioner kroner. Det er kostnadsdeling og tverrgående gevinstrealisering slik kapabiliteten beskriver dem.</p>
     </article>
     <article class="capability-product-link resource-type--policy">
       <p class="capability-product-link__type">Rammer og virkemidler</p>
