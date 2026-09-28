@@ -12,7 +12,7 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/92-Assessment-reports-repository-v1-claude.md">Assessment reports repository</a></h3>
-      <p class="capability-product-link__description">gjør det mulig å se vurderinger fra ulike land og sektorer i sammenheng, slik at like problemstillinger kan løses likt framfor hver for seg. Koblingene er satt fordi registeret selv leverer innsynet og den samlede oversikten. Selve plikten kommer fra forordningen, og metoden fra verktøykassa; begge hører hos de ressursene.</p>
+      <p class="capability-product-link__description">gjør det mulig å se vurderinger fra ulike land og sektorer i sammenheng, slik at like problemstillinger kan løses likt framfor hver for seg.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
@@ -31,8 +31,8 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--policy">
       <p class="capability-product-link__type">Rammer og virkemidler</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/112-Digitaliseringsrundskrivet-v2-copilot.md">Digitaliseringsrundskrivet</a></h3>
-      <p class="capability-product-link__description">Rundskrivet setter felles retning for hvordan digitalisering skal samordnes på tvers av statlige virksomheter.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/112-Digitaliseringsrundskrivet-v3-claude.md">Digitaliseringsrundskrivet</a></h3>
+      <p class="capability-product-link__description">Rundskrivet gir mandatet som forplikter statlige virksomheter til å tilpasse seg hverandre og kommunesektoren. Punkt 2 pålegger prinsipper for likeverdig samstyring med kommunal sektor, tidlig drøfting med KS og vurdering av felles løsninger og kostnadsdeling, og punkt 1.9 pålegger bruk av nasjonale felleskomponenter framfor egne løsninger.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
@@ -42,7 +42,7 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v5-claude.md">Styringsråd for Digitaliseringsdirektoratets fellesløsninger</a></h3>
-      <p class="capability-product-link__description">bidrar til prioritering og styring av Digdirs nasjonale fellesløsninger på tvers av brukere og tjenesteeiere.</p>
+      <p class="capability-product-link__description">støttes fordi forumet bistår med å prioritere, avveie og samordne behov på tvers av løsninger og brukergrupper i porteføljekontekst.</p>
     </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>

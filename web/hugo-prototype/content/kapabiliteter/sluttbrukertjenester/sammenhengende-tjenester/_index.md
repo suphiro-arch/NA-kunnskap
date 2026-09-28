@@ -12,12 +12,12 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/06-eInnsyn-produkt-canvas-v3-codex.md">eInnsyn</a></h3>
-      <p class="capability-product-link__description">gir brukerne ett felles sted å lete etter offentlig informasjon på tvers av mange virksomheter, i stedet for mange separate innsynsløsninger</p>
+      <p class="capability-product-link__description">gir brukerne ett felles sted å lete etter offentlig informasjon på tvers av mange virksomheter, i stedet for mange separate innsynsløsninger.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/09-Digital-postkasse-produkt-canvas-v3-codex.md">Digital postkasse</a></h3>
-      <p class="capability-product-link__description">gir innbygger én felles mottaksflate for post fra det offentlige, selv om avsenderne er mange og kanalvalget varierer</p>
+      <p class="capability-product-link__description">gir innbygger én felles mottaksflate for post fra det offentlige, selv om avsenderne er mange og kanalvalget varierer.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -32,22 +32,22 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/22-Dialogporten-produkt-canvas-v6-claude.md">Dialogporten</a></h3>
-      <p class="capability-product-link__description">gjør dialoger fra flere plattformer tilgjengelige i samme representasjon og brukerreise</p>
+      <p class="capability-product-link__description">gjør dialoger fra flere plattformer tilgjengelige i samme representasjon og brukerreise.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/27-FIKS-SvarUt-produkt-canvas-v4-claude.md">Fiks SvarUt</a></h3>
-      <p class="capability-product-link__description">Fiks SvarUt bidrar til en mer sammenhengende mottakeropplevelse ved at samme forsendelse kan nå fram gjennom riktig kanal uten at avsender bygger ulike løsninger per kanal. Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot dokumentert funksjon i KS Digitals produkt- og utviklerdokumentasjon kontrollert 2026-03-25.</p>
+      <p class="capability-product-link__description">Fiks SvarUt bidrar til en mer sammenhengende mottakeropplevelse ved at samme forsendelse kan nå fram gjennom riktig kanal uten at avsender bygger ulike løsninger per kanal.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v2-codex.md">Helsedata.no</a></h3>
-      <p class="capability-product-link__description">Portalen binder sammen orientering, veiledning og søknadsløp i en helhetlig brukerreise.</p>
+      <p class="capability-product-link__description">Portalen binder sammen orientering, veiledning, søknad og oppfølging i en mer helhetlig brukerreise enn om hver dataforvalter hadde separate løp.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/32-Helsenorge-v3-claude.md">Helsenorge</a></h3>
-      <p class="capability-product-link__description">Helsenorge samler informasjon og digitale helsetjenester i en felles innbyggerflate.</p>
+      <p class="capability-product-link__description">samler flere helsetjenester og informasjonsløp i én felles inngang for innbyggere.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -62,7 +62,7 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/51-Vitnemalsportalen-produkt-canvas-v1-codex.md">Vitnemålsportalen</a></h3>
-      <p class="capability-product-link__description">samler innsyn, uthenting og deling av resultater i én brukerrettet arbeidsflate som knytter sammen utdanningssektor og mottakere utenfor sektoren</p>
+      <p class="capability-product-link__description">samler innsyn, uthenting og deling av resultater i én brukerrettet arbeidsflate som knytter sammen utdanningssektor og mottakere utenfor sektoren.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -117,7 +117,7 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/128-SYSVAK-produkt-canvas-v2-codex.md">SYSVAK</a></h3>
-      <p class="capability-product-link__description">SYSVAK-data inngår i sammenhengende tjenesteforløp der innbygger og helsepersonell møter samme oppdaterte vaksinasjonsgrunnlag.</p>
+      <p class="capability-product-link__description">SYSVAK bidrar direkte til sammenhengende tjenester ved at samme vaksinasjonsgrunnlag kan brukes både i helsepersonells arbeidsprosesser og i innbyggernes innsynsflate på Helsenorge.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>

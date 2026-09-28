@@ -20,25 +20,21 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
 
 ### Ressursarbeid
 
-- Fullføre innholdsrevisjonen av `Standarder og veiledning`. Kartleggingen 2026-09-10 viser at kategorien er i bedre stand enn ventet: alle tretti
-  har de tre analysekritiske feltene og ingen har pseudokilder. Den reelle svakheten er tynt
-  innhold og manglende merking av fakta og deduksjon. Toogtyve av tretti filer har null merker.
-  Påstanden om at alle brukte faktiske prinsippnavn med riktig P-kode holdt ikke helt:
-  `115` oppgav `P3: Ta hensyn til juridiske og organisatoriske rammer`, mens prinsippet heter
-  `Bidra til digitaliseringsvennlige regelverk`. Rettet i `v2`. En mekanisk kontroll av alle 141
-  gjeldende filer 2026-09-11 fant ingen andre avvik.
-  Revidert etter mønstersøket: `104`, `99`, `100` og `114` 2026-09-17, og `105`, `107`, `108`,
-  `116`, `117` og `138` 2026-09-25, pluss `137` i `rammer-og-virkemidler/`. Alle hadde de
-  samme fire manglene: formuleringen `Ressursen er viktig fordi` i åpningen, kapabiliteter uten
-  forklaring, ingen merking av fakta og deduksjon, og forpliktelsesnivå uten å si om hjemmel
-  finnes. Runden 2026-09-25 viste også at kildene må leses på nytt, ikke bare språket: `107` har
-  ingen åpen kilde som beskriver ressursen, og hovedkilden i `108` nevnte ikke dataområder. De gjenstående `-codex`-filene etter ordantall er `98`,
-  `112`, `89`, `109`, `85`, `101`, `102` og `87`. `89` og `109` er de to siste filene i porteføljen
-  med kapabilitetspunkter uten forklaring.
-  Blokkeringen fra 2026-09-10 var delvis feildiagnostisert. `104` var ikke utilgjengelig; URL-en i
-  fila var feil. `/orden-eget-hus/orden-eget-hus/2717` gir 403, men
-  `/informasjonsforvaltning/veileder-orden-i-eget-hus/2716` virker. Lærdommen er å prøve alternative
-  adresser før en kilde føres som utilgjengelig.
+- Følge opp funnene fra innholdsrevisjonen av `Standarder og veiledning`, som ble fullført for
+  alle gjeldende filer 2026-09-25. Mønstersøket etter de fire faste manglene holdt gjennom hele
+  kategorien, men kildene måtte leses på nytt i hver fil: flere hovedkilder var flyttet eller
+  avpublisert, og `109` Kapabilitetskart var publisert selv om registeret fortsatt kaller det
+  planlagt. Det som gjenstår:
+  - Registernavnet `Kapabilitetskart (planlagt)` for `109` stemmer ikke lenger, siden kartet er
+    publisert i `digdir/nasjonal-arkitektur`.
+  - `capabilities.yaml` bygger på modellfila fra 2026-05-20, mens Digdir har publisert nyere
+    versjoner, sist 2026-09-02. Vurder om modellen skal oppdateres.
+  - Referansearkitekturene for eMelding og eOppslag (`101` og `102`) er udaterte og beskriver
+    situasjonen rundt 2020. Om Digdir planlegger revisjon, avklares enklest direkte.
+  - Det er ikke kontrollert mot Referansekatalogen om spesifikasjonene i `89` er obligatoriske.
+- Revidere de gjenværende ikke-`claude`-filene i `rammer-og-virkemidler/` med samme mønstersøk:
+  `141` Stimulab, `142` Medfinansieringsordningen og `144` eForvaltningsforskriften (alle
+  `-copilot`). `144` bør samtidig prøves for `Regelverkstolkning`, se punktet under.
 - Følge opp de fire uavklarte punktene i arbeidsdelingen mellom `21` Altinn.no og `18` Norge.no.
   Selve overlappen er dokumentert i begge canvasene 2026-09-18, se [decisions.md](./decisions.md).
   Det som gjenstår er å finne ut om noe av dette faktisk er avklart et sted vi ikke har funnet:
@@ -55,14 +51,8 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
   primærkilder i `v3` av `18`, og er nå merket som døde i `sources/links.md`. Portalens forsiden
   lot seg heller ikke lese maskinelt, så vi har i dag ingen egenpresentasjon fra Norge.no selv.
 - Bruke regelen for `Veiledning`-kapabilitetene fra 2026-09-25 (se [decisions.md](./decisions.md))
-  på de normerende ressursene som er publisert veiledning, men ikke har
-  `Utvikling og formidling av veiledning`: `85`, `89`, `98`, `100`, `101`, `102`, `87`, `104` og
-  `105`. Hovedkapabiliteten nevner referansearkitekturer, prinsipper og beste praksis uttrykkelig.
-  Tas ved neste ordinære revisjon av hver fil framfor som egne versjoner; de fleste står uansett i
-  køen av `-codex`-filer over.
-- Vurdere om noen ressurs faktisk leverer `Tjenestekjeder`. Etter opprydningen 2026-09-25 står
-  kapabiliteten bare på `100`, som normerer beskrivelsen av kjeder, og ingen operativ ressurs
-  realiserer den. Nærmeste kandidater er `22` Dialogporten og `87` Arkitektur for hendelser.
+  på de tre gjenværende veilederne som ikke har `Utvikling og formidling av veiledning`: `100`,
+  `104` og `105`. Tas ved neste ordinære revisjon av hver fil framfor som egne versjoner.
 - Fylle det valgfrie delfeltet `**Lisens:**` i de normerende ressursene der innholdet gjenbrukes
   maskinelt: `72` FINT Informasjonsmodell, `82` VIGO Kodeverk, `149` Felles informasjonsmodeller og
   `55` Core Vocabularies. `151` Grep og `164` Barnevernsfaglig kvalitetssystem oppgir allerede NLOD
@@ -109,9 +99,6 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
   referansearkitekturer ikke er pålagt, men at binding kan oppstå gjennom digitaliseringsrundskrivet
   eller Referansekatalogen.
   Det som gjenstår:
-  - `87-Arkitektur-for-hendelser` oppgir `anbefalt/styrende` uten å si hva styringen bygger på og
-    uten å si at hjemmel mangler. Eneste reelle kandidat, og det mangler bare en setning. Tas ved
-    neste ordinære revisjon av fila framfor som egen versjon.
   - `86-Referansekatalogen-for-IT-standarder` navngir forskriften og sier at avvik fra en
     obligatorisk standard er brudd på et rettslig krav, men har ingen kobling til
     `Juridisk samhandling`. Vurder om katalogen tolker regelverk eller bare er hjemlet i det.
@@ -265,23 +252,10 @@ med her slik at neste gjennomgang slipper å gjøre vurderingen på nytt:
   forklaringstekst i mappingen 2026-08-28, men kapabilitetssidene var sist regenerert 2026-06-25, så
   nettstedet viste den gamle teksten i over to måneder uten at noen kontroll sa fra. Enten bør
   kontrollen sammenligne teksten, eller den bør varsle når en generert side er eldre enn kilden sin.
-- Rette `sync-resource-metadata.py` etter funnene fra
-  [check-capability-explanations.py](../tools/check-capability-explanations.py) 2026-09-25:
-  - Forklaring på samme linje som merkelappen blir aldri ført over til mappingen, fordi hele linja
-    leses som merkelapp. Det gjelder 196 punkter i 61 filer, og mappingen har eldre tekst for 192 av
-    dem. Bør rettes før eller sammen med etterfyllingen, ellers kommer nye forklaringer ikke fram.
-  - Merkelapper uten prefiks (`**Samordning**`) blir aldri oppdatert, fordi sync slår opp på
-    `Hoved: Del`. Gjelder 16 punkter i `85`, `87`, `98`, `101`, `102`, `107` og `108`.
-  - Labelkontrollen i `check-resource-version-sync.py` ser bare fete merkelapper, så merkelapper
-    uten fet skrift blir aldri kontrollert.
-- Flytte tekst som står etter kulelista under `## Kapabiliteter` foran lista, og rense de
-  forurensede forklaringene i mappingen. Kontrollen gir merknad for 57 filer, og 18 forklaringer i
-  mappingen har fått slik tekst inn: `27` Fiks SvarUt har `Grunnlag`-teksten, og `41`–`45`,
-  `53`–`56`, `74`, `79`, `83`, `90`–`92`, `94` og `166` har avsnittet «Koblingene er satt fordi …».
-  Rettingen må gjøres i ressursfila, siden sync ellers skriver feilen inn igjen.
-- Kjøre `check-capability-explanations.py --strict` på hele porteføljen når `89` og `109` er fylt
-  ut. Til da gjelder `--new-only --strict` for endrede filer. Korte forklaringer (11 punkter, mest i
-  eldre operative `-codex`-filer) er advarsel og skal ikke gi feilkode.
+- Flytte tekst som står etter kulelista under `## Kapabiliteter` foran lista.
+  `check-capability-explanations.py` gir merknad for 57 filer. Teksten skader ikke lenger
+  mappingen, siden sync stopper ved første avsnitt etter lista, men den vises heller ingen steder
+  utenfor ressursfila. Tas ved ordinær revisjon av hver fil.
 - Planlegge trinnvis innføring av feltet `Type` i ressursbeskrivelser, med samme kategorier som i
   registeret, slik at koblingen mellom register og enkeltbeskrivelser blir entydig.
 - Vurdere å gi `DIGDIR-048` et navn Digdir selv bruker, for eksempel `Veiledning om innovasjon i

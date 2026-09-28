@@ -12,12 +12,12 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/43-eDelivery-Building-Block-v1-claude.md">eDelivery Building Block</a></h3>
-      <p class="capability-product-link__description">forvalter selve AS4-profilen og tjenestemetadataspesifikasjonene, og gjør dem tilgjengelige med konformitetstesting, slik at europeiske standarder faktisk kan tas i bruk. Koblingene er satt fordi byggesteinen selv eier profilen, referanseprogramvaren og testregimet. Innholdet i meldingene og de forretningsmessige prosessene rundt dem leveres av de økosystemene som bruker byggesteinen, og hører ikke her.</p>
+      <p class="capability-product-link__description">forvalter selve AS4-profilen og tjenestemetadataspesifikasjonene, og gjør dem tilgjengelige med konformitetstesting, slik at europeiske standarder faktisk kan tas i bruk.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/44-eSignature-Building-Block-v1-claude.md">eSignature Building Block</a></h3>
-      <p class="capability-product-link__description">forvalter og tilgjengeliggjør signaturformatene og valideringsreglene fra ETSI i en form som lar seg ta i bruk, med konformitetskontroll. Koblingene er satt fordi byggesteinen selv leverer programvaren og tillitsoppslaget. Den enkelte signeringstjenesten og de kvalifiserte tillitstjenestetilbyderne er egne aktører, og evnen til å utstede kvalifiserte sertifikater hører hos dem.</p>
+      <p class="capability-product-link__description">forvalter og tilgjengeliggjør signaturformatene og valideringsreglene fra ETSI i en form som lar seg ta i bruk, med konformitetskontroll.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
@@ -27,7 +27,7 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/55-Core-Vocabularies-v1-claude.md">Core Vocabularies</a></h3>
-      <p class="capability-product-link__description">forvalter og tilgjengeliggjør de europeiske kjernemodellene som skal tas i bruk, med dokumentert metode for utvikling og endring. Koblingene er satt fordi vokabularene selv er modellene, og fordi SEMIC forvalter dem med en definert prosess. De registrene og tjenestene som tar modellene i bruk, leverer sine egne evner, og de hører ikke her.</p>
+      <p class="capability-product-link__description">forvalter og tilgjengeliggjør de europeiske kjernemodellene som skal tas i bruk, med dokumentert metode for utvikling og endring.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
@@ -47,7 +47,7 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/91-Assessment-Toolbox-v1-claude.md">Assessment Toolbox</a></h3>
-      <p class="capability-product-link__description">definerer et felles vokabular og en datamodell for hvordan vurderinger beskrives og utveksles, slik at de kan sammenlignes på tvers av land. Koblingene er satt fordi verktøykassa selv leverer metoden, veiledningen og datamodellen. Selve plikten kommer fra forordningen, og den hører hos `Interoperable Europe Act`.</p>
+      <p class="capability-product-link__description">definerer et felles vokabular og en datamodell for hvordan vurderinger beskrives og utveksles, slik at de kan sammenlignes på tvers av land.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
@@ -57,7 +57,7 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/166-Simpl-v1-claude.md">Simpl</a></h3>
-      <p class="capability-product-link__description">Komponentene er bygget for å følge EU-standarder for datakvalitet og datadeling, og gjør dem dermed praktisk anvendelige i konkrete løsninger framfor bare dokumenterte. Koblingene er satt fordi plattformen selv leverer delingsmekanismen, komponentene og standardetterlevelsen. De enkelte dataområdene som bygger på Simpl, leverer sine egne evner innenfor sine fagområder, og de hører ikke her.</p>
+      <p class="capability-product-link__description">Komponentene er bygget for å følge EU-standarder for datakvalitet og datadeling, og gjør dem dermed praktisk anvendelige i konkrete løsninger framfor bare dokumenterte.</p>
     </article>
   </div>
 ---

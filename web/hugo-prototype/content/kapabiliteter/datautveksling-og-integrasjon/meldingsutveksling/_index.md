@@ -12,42 +12,42 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/07-eFormidling-produkt-canvas-v3-codex.md">eFormidling</a></h3>
-      <p class="capability-product-link__description">Standardisert protokoll for meldingsutveksling.</p>
+      <p class="capability-product-link__description">er selve kjernefunksjonen i produktet, fordi løsningen pakker, ruter og leverer meldinger mellom avsender og mottaker.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/08-Altinn-formidling-produkt-canvas-v3-codex.md">Altinn Formidling</a></h3>
-      <p class="capability-product-link__description">Sikker transport av data via broker</p>
+      <p class="capability-product-link__description">er kjernefunksjonen og dekker sikker, asynkron overføring og oppfølging av leveranser.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/09-Digital-postkasse-produkt-canvas-v3-codex.md">Digital postkasse</a></h3>
-      <p class="capability-product-link__description">gir en felles og standardisert kanal for å sende post og motta kvitteringer mellom offentlige avsendere, meldingsformidler og postkasseleverandører</p>
+      <p class="capability-product-link__description">gir en felles og standardisert kanal for å sende post og motta kvitteringer mellom offentlige avsendere, meldingsformidler og postkasseleverandører.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/10-ELMA-produkt-canvas-v3-codex.md">ELMA</a></h3>
-      <p class="capability-product-link__description">støtter oppslag av mottakeradresse og transportprofil i meldingsutvekslingen</p>
+      <p class="capability-product-link__description">støtter ruting av meldinger ved å gi nødvendig oppslagsgrunnlag før dokumentet sendes til riktig mottaker og aksesspunkt.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/11-Peppol-eDelivery-produkt-canvas-v3-codex.md">Peppol eDelivery</a></h3>
-      <p class="capability-product-link__description">gir et føderert mønster for standardisert dokumentutveksling mellom virksomheter</p>
+      <p class="capability-product-link__description">gir et føderert mønster for standardisert dokumentutveksling mellom virksomheter.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/23-Altinn-3-Melding-produkt-canvas-v5-codex.md">Altinn Melding</a></h3>
-      <p class="capability-product-link__description">håndterer sikker digital utsending og mottak av meldinger med status og livssyklus</p>
+      <p class="capability-product-link__description">håndterer sikker digital utsending og mottak av meldinger med status og livssyklus.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/24-Varslinger-produkt-canvas-v6-claude.md">Altinn Varsling</a></h3>
-      <p class="capability-product-link__description">brukes til programmatisk utsending og leveringsoppfølging av varsler</p>
+      <p class="capability-product-link__description">brukes til programmatisk utsending og leveringsoppfølging av varsler.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/26-FIKS-Melding-produkt-canvas-v3-claude.md">Fiks melding</a></h3>
-      <p class="capability-product-link__description">gir kommunene en felles tjeneste for å sende meldinger og dokumenter gjennom flere kanaler fra samme løsning.</p>
+      <p class="capability-product-link__description">er produktets kjernefunksjon fordi løsningen pakker, sender, mottar og leverer meldinger og dokumenter gjennom flere valgbare kanaler fra samme tjenestegrunnlag.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -67,7 +67,7 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/57-SvarInn-produkt-canvas-v2-claude.md">SvarInn</a></h3>
-      <p class="capability-product-link__description">henter innkommende forsendelser fra SvarUt og leverer dem videre til mottakersystemene gjennom et standardisert mottaksløp.</p>
+      <p class="capability-product-link__description">er kjernefunksjonen fordi SvarInn henter, dekrypterer og leverer forsendelser videre til mottakersystemene i kommunen.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -76,8 +76,8 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/101-Referansearkitektur-forsendelse-eMelding-v2-codex.md">Referansearkitektur forsendelse (eMelding)</a></h3>
-      <p class="capability-product-link__description">Referansearkitekturen gir et felles mønster for meldingsbasert forsendelse fra avsender til kjent mottaker, med vekt på roller, ansvar, meldingsflyt og krav til strukturert meldingsutveksling.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/101-Referansearkitektur-forsendelse-eMelding-v3-claude.md">Referansearkitektur forsendelse (eMelding)</a></h3>
+      <p class="capability-product-link__description">Referansearkitekturen normerer evnen direkte. Den beskriver prosessene klargjør for melding, send melding og motta melding, med avtaler mellom avsender og mottaker, registrering av kapabiliteter, adresser og sertifikater, kryptering, signering med elektronisk segl, sporing og validering av forsendelsen. Det er de avtalte prosessene, sikkerhetskravene og kvitterings- og valideringsmekanismene definisjonen av meldingsutveksling omfatter.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>

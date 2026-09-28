@@ -12,12 +12,12 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/05-Kontakt-og-reservasjonsregisteret-produkt-canvas-v3-codex.md">Kontakt- og reservasjonsregisteret</a></h3>
-      <p class="capability-product-link__description">fungerer som en felles autoritativ kilde for kontaktopplysninger og reservasjonsstatus som andre offentlige løsninger kan bygge på</p>
+      <p class="capability-product-link__description">fungerer som en felles autoritativ kilde for kontaktopplysninger og reservasjonsstatus som andre offentlige løsninger kan bygge på.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/28-FIKS-Register-produkt-canvas-v3-codex.md">Fiks register</a></h3>
-      <p class="capability-product-link__description">gjør nasjonale grunndata og registeropplysninger tilgjengelige for kommunal sektor gjennom et samlet tilgangslag.</p>
+      <p class="capability-product-link__description">er relevant fordi Fiks register gjør flere autoritative datakilder operative i kommunal sektor gjennom ett samlet og kontrollert tilgangslag.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -27,22 +27,22 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/37-Folkeregisteret-produkt-canvas-v1-codex.md">Folkeregisteret</a></h3>
-      <p class="capability-product-link__description">Folkeregisteret er et nasjonalt grunndataregister og den autoritative kilden for sentrale personopplysninger i Norge.</p>
+      <p class="capability-product-link__description">er kjernefunksjonen ved at Folkeregisteret er den autoritative kilden for sentrale personopplysninger i Norge.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/39-Matrikkelen-produkt-canvas-v1-codex.md">Matrikkelen</a></h3>
-      <p class="capability-product-link__description">er kjernefunksjonen ved at Matrikkelen fungerer som autoritativ kilde for sentrale opplysninger om eiendommer, bygninger og adresser</p>
+      <p class="capability-product-link__description">er kjernefunksjonen ved at Matrikkelen fungerer som autoritativ kilde for sentrale opplysninger om eiendommer, bygninger og adresser.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/46-Enhetsregisteret-produkt-canvas-v1-codex.md">Enhetsregisteret</a></h3>
-      <p class="capability-product-link__description">Enhetsregisteret er den autoritative kilden for basisopplysninger om virksomheter og tildeler organisasjonsnummer som felles identifikator.</p>
+      <p class="capability-product-link__description">er kjernefunksjonen ved at Enhetsregisteret fungerer som autoritativ kilde for basisopplysninger om virksomheter.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/50-Nasjonal-vitnemalsdatabase-produkt-canvas-v1-codex.md">Nasjonal vitnemålsdatabase (NVB)</a></h3>
-      <p class="capability-product-link__description">NVB forvalter autoritative vitnemålsopplysninger som brukes i opptak, dokumentasjon, statistikk og forskning.</p>
+      <p class="capability-product-link__description">er relevant fordi NVB forvalter autoritative vitnemålsopplysninger som mange andre prosesser bygger videre på.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -52,7 +52,7 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/59-A-ordningen-produkt-canvas-v1-codex.md">A-ordningen</a></h3>
-      <p class="capability-product-link__description">A-ordningen samler inn og vedlikeholder sentrale opplysninger om inntekt og arbeidsforhold som brukes bredt i offentlig forvaltning.</p>
+      <p class="capability-product-link__description">er relevant fordi ordningen produserer og vedlikeholder sentrale opplysninger om arbeidsforhold og inntekt som brukes bredt i offentlig forvaltning.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -62,12 +62,12 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/61-NVDB-produkt-canvas-v1-codex.md">NVDB</a></h3>
-      <p class="capability-product-link__description">NVDB er en nasjonal og autoritativ datakilde for vegnett og vegrelaterte objekter som mange aktører bygger videre på.</p>
+      <p class="capability-product-link__description">er relevant fordi NVDB fungerer som en autoritativ kilde til sentrale vegdata som andre aktører kan bygge videre på.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/64-HPR-produkt-canvas-v2-codex.md">HPR</a></h3>
-      <p class="capability-product-link__description">HPR er den autoritative kilden for grunnleggende opplysninger om helsepersonell og offentlig godkjenningsstatus som andre aktører legger til grunn.</p>
+      <p class="capability-product-link__description">HPR er den autoritative kilden for grunnleggende opplysninger om helsepersonell og offentlig godkjenningsstatus. Det gir et felles registergrunnlag for virksomheter, innbyggere og forvaltning, i stedet for lokale kopier og varierende kontrollrutiner.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -77,17 +77,17 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/67-FIKS-Folkeregister-produkt-canvas-v2-codex.md">Fiks folkeregister</a></h3>
-      <p class="capability-product-link__description">gjør autoritative folkeregisteropplysninger tilgjengelige for kommunal sektor gjennom et kontrollert tilgangslag i FIKS.</p>
+      <p class="capability-product-link__description">er direkte relevant fordi løsningen gjør autoritative folkeregisteropplysninger tilgjengelige for kommunal sektor gjennom et kontrollert tilgangslag.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v2-codex.md">Fiks skatte- og inntektsopplysninger</a></h3>
-      <p class="capability-product-link__description">gjør autoritative skatte- og inntektsopplysninger fra Skatteetaten tilgjengelige for kommunal sektor gjennom et kontrollert tilgangslag i Fiks.</p>
+      <p class="capability-product-link__description">er direkte relevant fordi løsningen gjør autoritative skatte- og inntektsopplysninger fra Skatteetaten anvendbare i kommunale prosesser gjennom et kontrollert tilgangslag.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/69-FIKS-Kjoretoyregister-produkt-canvas-v2-claude.md">Fiks kjøretøyregister</a></h3>
-      <p class="capability-product-link__description">gjør autoritative kjøretøyopplysninger fra Statens vegvesen tilgjengelige for kommunal sektor gjennom et kontrollert tilgangslag i Fiks.</p>
+      <p class="capability-product-link__description">er direkte relevant fordi løsningen gjør autoritative kjøretøyopplysninger fra Statens vegvesen tilgjengelige for kommunal sektor gjennom et kontrollert tilgangslag.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -102,17 +102,17 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/128-SYSVAK-produkt-canvas-v2-codex.md">SYSVAK</a></h3>
-      <p class="capability-product-link__description">SYSVAK fungerer som nasjonal grunndatakilde for vaksinasjonsopplysninger og gir et felles, autoritativt datagrunnlag.</p>
+      <p class="capability-product-link__description">SYSVAK er den nasjonale autoritative kilden for vaksinasjonsopplysninger på individnivå og gir et felles datagrunnlag for helsepersonell, innbyggertjenester og myndighetsoppfølging.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/129-MSIS-produkt-canvas-v2-codex.md">MSIS</a></h3>
-      <p class="capability-product-link__description">MSIS forvalter sentrale nasjonale data om meldingspliktige smittsomme sykdommer.</p>
+      <p class="capability-product-link__description">MSIS forvalter det nasjonale grunnlaget for meldingspliktige smittsomme sykdommer og gjør forekomstdata sammenlignbare over tid og mellom geografiske områder.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/130-Dodsarsaksregisteret-produkt-canvas-v2-codex.md">Dødsårsaksregisteret</a></h3>
-      <p class="capability-product-link__description">Registeret er nasjonal autoritativ kilde for opplysninger om dødsfall og dødsårsaker, og gir et konsistent grunnlag for videre bruk på tvers av virksomheter.</p>
+      <p class="capability-product-link__description">Dødsårsaksregisteret er den autoritative nasjonale kilden for opplysninger om dødsfall og dødsårsaker og gir et konsistent grunnlag for videre bruk over tid.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -122,27 +122,27 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/132-Grunnboken-produkt-canvas-v1-codex.md">Grunnboken</a></h3>
-      <p class="capability-product-link__description">Grunnboken er den autoritative kilden for tinglyste rettigheter, hjemmelsopplysninger og heftelser knyttet til fast eiendom og borettslagsandeler.</p>
+      <p class="capability-product-link__description">er kjernefunksjonen ved at Grunnboken fungerer som autoritativ kilde for tinglyste rettigheter, heftelser og hjemmelsopplysninger.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/133-Register-over-reelle-rettighetshavere-produkt-canvas-v1-codex.md">Register over reelle rettighetshavere</a></h3>
-      <p class="capability-product-link__description">Registeret gir autoritative opplysninger om hvilke fysiske personer som i siste instans eier eller kontrollerer en registreringspliktig virksomhet.</p>
+      <p class="capability-product-link__description">er kjernefunksjonen ved at registeret gir autoritative opplysninger om faktisk eierskap og kontroll for registrerte virksomheter.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/134-Sentralt-stedsnavnregister-produkt-canvas-v1-codex.md">Sentralt stedsnavnregister</a></h3>
-      <p class="capability-product-link__description">Sentralt stedsnavnregister er den autoritative kilden for offisielle stedsnavn og navneformer som mange aktører må bruke likt.</p>
+      <p class="capability-product-link__description">er kjernefunksjonen ved at registeret gir autoritative opplysninger om offisielle stedsnavn og navneformer.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v2-codex.md">Norsk pasientregister (NPR)</a></h3>
-      <p class="capability-product-link__description">NPR er den autoritative nasjonale datakilden for opplysninger om aktivitet og pasienter i spesialisthelsetjenesten.</p>
+      <p class="capability-product-link__description">NPR er den nasjonale autoritative kilden for aktivitets- og pasientdata i spesialisthelsetjenesten og gir et felles datagrunnlag for styring og analyse.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v2-codex.md">Kommunalt pasient- og brukerregister (KPR)</a></h3>
-      <p class="capability-product-link__description">KPR er den autoritative nasjonale datakilden for aktivitet og tjenestebruk i kommunale helse- og omsorgstjenester.</p>
+      <p class="capability-product-link__description">KPR er den nasjonale autoritative kilden for data om kommunale helse- og omsorgstjenester og gir et felles grunnlag på tvers av kommuner og tjenestetyper.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>

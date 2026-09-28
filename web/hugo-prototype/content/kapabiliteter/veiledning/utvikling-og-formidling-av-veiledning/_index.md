@@ -4,7 +4,7 @@ headerTitle: "Veiledning - Utvikling og formidling av veiledning"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å utarbeide, kvalitetssikre og tilgjengeliggjøre veiledning. ### Begrunnelse (Hvorfor) Kapabiliteten sikrer at politikk, juss og teknologisk beste praksis kan omsettes til forståelige og distribuerte verktøy som kan brukes av virksomheter i økosystemet. Den løser behovet for felles veiledning som gjør det enklere å forstå hvordan regelverk, prinsipper, standarder, referansearkitekturer og samhandlingsmønstre skal anvendes i praksis. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Utarbeide veiledning som forklarer hvordan relevant regelverk skal forstås og anvendes i digital samhandling, uten å erstatte formelle rettskilder eller myndighetsansvar. - **Organisatorisk (Høy vekt):** Etablere rutiner for å utarbeide, kvalitetssikre, godkjenne, publisere, forvalte og oppdatere veiledning i samarbeid med relevante fagmiljøer. - **Semantisk (Høy vekt):** Bruke omforente begreper, tydelige beskrivelser, felles maler og konsistent terminologi, slik at veiledningen forstås likt på tvers av virksomheter. - **Teknisk (Middels vekt):** Tilgjengeliggjøre veiledning i digitale kanaler, kataloger, repositorier eller kunnskapsbaser, med versjonering, lenking og struktur som gjør innholdet lett å finne og gjenbruke. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten bidrar til sammenhengende tjenester ved å gjøre det enklere for virksomheter å bygge løsninger etter felles prinsipper, referansearkitekturer, standarder, samhandlingsmønstre og beskrivelser av beste praksis. Når veiledning er kvalitetssikret og tilgjengelig, reduseres lokale tolkninger og ulik praksis. For det felles økosystemet gir kapabiliteten bedre etterlevelse, mer gjenbruk og raskere innføring av felles arkitektur og standarder. For sluttbrukeren betyr dette mer konsistente og sammenhengende digitale tjenester, fordi virksomhetene utvikler og forvalter løsninger etter samme kunnskapsgrunnlag."
-cardMeta: "16 produkter"
+cardMeta: "22 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -16,13 +16,43 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v3-claude.md">Rammeverk for digital samhandling</a></h3>
+      <p class="capability-product-link__description">Rammeverket er Digdirs publiserte veiledning for digital samhandling, med prinsipper, modeller og en framgangsmåte i fire steg for å bruke dem i konkrete endringer.</p>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/87-Arkitektur-for-hendelser-v3-claude.md">Arkitektur for hendelser</a></h3>
+      <p class="capability-product-link__description">Ressursen er Digdirs publiserte beste praksis for hendelser, og hovedkapabiliteten `Veiledning` regner beste praksis uttrykkelig med i det evnen innebærer.</p>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/89-Rammeverk-for-informasjonsforvaltning-v3-claude.md">Rammeverk for informasjonsforvaltning</a></h3>
+      <p class="capability-product-link__description">Rammeverket er publisert veiledning. Seks av delressursene er veiledere som Digdir utarbeider og forvalter, og samlesiden er inngangen som gjør dem tilgjengelige i sammenheng.</p>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/91-Assessment-Toolbox-v1-claude.md">Assessment Toolbox</a></h3>
       <p class="capability-product-link__description">utarbeider, kvalitetssikrer og tilgjengeliggjør retningslinjer, brukerveiledninger og læringseksempler for et avgrenset og krevende arbeidsområde.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/98-Overordnede-arkitekturprinsipper-for-offentlig-sektor-v3-claude.md">Overordnede arkitekturprinsipper for offentlig sektor</a></h3>
+      <p class="capability-product-link__description">Prinsippene er publisert veiledning av den typen hovedkapabiliteten nevner uttrykkelig: omforente prinsipper for hvordan løsninger skal bygges. Hvert prinsipp har begrunnelse, anbefalinger for etterlevelse og lenker til veiledning og ressurser.</p>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/99-Sjekkliste-for-sammenhengende-tjenester-v3-claude.md">Sjekkliste for sammenhengende tjenester</a></h3>
       <p class="capability-product-link__description">Verktøyet er publisert og versjonert veiledning, forvaltet av DFØ og Digdir, som omsetter kravene til sammenhengende tjenester til sjekklister virksomheter kan bruke uten å utvikle egne.</p>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/101-Referansearkitektur-forsendelse-eMelding-v3-claude.md">Referansearkitektur forsendelse (eMelding)</a></h3>
+      <p class="capability-product-link__description">Referansearkitekturen er publisert veiledning fra Digdir, og Digdir beskriver referansearkitekturer som veiledning til utforming av arkitekturer og løsninger innen et avgrenset område.</p>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/102-Referansearkitektur-foresporsel-svar-eOppslag-v3-claude.md">Referansearkitektur forespørsel-svar (eOppslag)</a></h3>
+      <p class="capability-product-link__description">Referansearkitekturen er publisert veiledning fra Digdir, og Digdir beskriver referansearkitekturer som veiledning til utforming av arkitekturer og løsninger innen et avgrenset område.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>

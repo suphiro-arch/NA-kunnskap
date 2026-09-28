@@ -12,12 +12,12 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/14-Begrepskatalog-produkt-canvas-v3-codex.md">Begrepskatalog</a></h3>
-      <p class="capability-product-link__description">gir et semantisk grunnlag som kan brukes i modeller, API-er og databeskrivelser</p>
+      <p class="capability-product-link__description">gir et semantisk grunnlag som kan brukes i modeller, API-er og databeskrivelser.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/15-API-katalog-produkt-canvas-v3-codex.md">API-katalog</a></h3>
-      <p class="capability-product-link__description">gjør API-er synlige som del av en større struktur av dataressurser, modeller og sammenhenger</p>
+      <p class="capability-product-link__description">gjør API-er synlige som del av en større struktur av dataressurser, modeller og sammenhenger.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
@@ -51,8 +51,8 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/89-Rammeverk-for-informasjonsforvaltning-v2-codex.md">Rammeverk for informasjonsforvaltning</a></h3>
-      <p class="capability-product-link__description">Rammeverket gir retning for begrepsarbeid, informasjonsmodeller og sammenheng mellom beskrivelser av data på tvers av virksomheter.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/89-Rammeverk-for-informasjonsforvaltning-v3-claude.md">Rammeverk for informasjonsforvaltning</a></h3>
+      <p class="capability-product-link__description">Rammeverket normerer hvordan informasjon struktureres og modelleres gjennom prinsipper for informasjonsmodeller, felles modelleringsregler, veiledning for beskrivelse av informasjonsmodeller og de felles informasjonsmodellene for person, enhet og adresse.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>

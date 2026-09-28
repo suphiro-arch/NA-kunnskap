@@ -12,12 +12,12 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/17-data-altinn-no-produkt-canvas-v5-claude.md">data.altinn.no</a></h3>
-      <p class="capability-product-link__description">støtter datapakker som kombinerer informasjon fra én eller flere kilder og samtidig minimerer datamengden som deles</p>
+      <p class="capability-product-link__description">støttes når flere datasett og datakilder kombineres i samme tjenestekontekst.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/24-Varslinger-produkt-canvas-v6-claude.md">Altinn Varsling</a></h3>
-      <p class="capability-product-link__description">kombinerer kontaktdata, reservasjonsstatus og autorisasjonsinformasjon for å velge riktig mottaker og kanal</p>
+      <p class="capability-product-link__description">kombinerer kontaktdata, reservasjonsstatus og autorisasjonsinformasjon for å velge riktig mottaker og kanal.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>

@@ -12,27 +12,27 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/01-ID-porten-produkt-canvas-v3-codex.md">ID-porten</a></h3>
-      <p class="capability-product-link__description">kobler innloggingen til en entydig digital identitet som tjenesteeier kan bruke videre i sin saks- og tjenestelogikk</p>
+      <p class="capability-product-link__description">kobler innloggingen til en entydig digital identitet som tjenesteeier kan bruke videre i sin saks- og tjenestelogikk.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/10-ELMA-produkt-canvas-v3-codex.md">ELMA</a></h3>
-      <p class="capability-product-link__description">kobler virksomhet og deltakeradresse til entydige identifikatorer i Peppol-økosystemet</p>
+      <p class="capability-product-link__description">knytter virksomheter og deltakere til entydige identifikatorer som kan brukes i adressering og oppslag i meldingsøkosystemet.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/11-Peppol-eDelivery-produkt-canvas-v3-codex.md">Peppol eDelivery</a></h3>
-      <p class="capability-product-link__description">baserer ruting og adressering på entydige deltakeridentifikatorer</p>
+      <p class="capability-product-link__description">baserer ruting og adressering på entydige deltakeridentifikatorer.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/42-eID-Building-Block-v1-claude.md">eID Building Block</a></h3>
-      <p class="capability-product-link__description">overfører et minimumsdatasett som identifiserer personen eller virksomheten entydig på tvers av landegrenser, slik at mottakeren kan koble identiteten videre i egen tjenestelogikk. Koblingene er satt fordi byggesteinen selv leverer den grensekryssende delen av evnen. Uten den ville en norsk tjeneste måtte bygge egne løsninger mot hvert enkelt lands eID-ordning. De nasjonale eID-ene som brukes gjennom nettverket, eies av andre aktører, og evnen til å utstede dem hører hos dem.</p>
+      <p class="capability-product-link__description">overfører et minimumsdatasett som identifiserer personen eller virksomheten entydig på tvers av landegrenser, slik at mottakeren kan koble identiteten videre i egen tjenestelogikk.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/56-eIDAS-node-Norge-v1-claude.md">eIDAS-node (Norge)</a></h3>
-      <p class="capability-product-link__description">knytter den utenlandske identiteten til en norsk personidentifikator gjennom oppslag i Folkeregisteret, slik at tjenesten kan bruke identiteten videre i egen saks- og tjenestelogikk. Koblingene er satt fordi noden selv utfører rutingen mot utlandet og matchingen mot Folkeregisteret. Selve eID-en utstedes i brukerens hjemland, og persondataene eies av Folkeregisteret; begge er avhengigheter og er beskrevet under `Gjenbruk`.</p>
+      <p class="capability-product-link__description">knytter den utenlandske identiteten til en norsk personidentifikator gjennom oppslag i Folkeregisteret, slik at tjenesten kan bruke identiteten videre i egen saks- og tjenestelogikk.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>

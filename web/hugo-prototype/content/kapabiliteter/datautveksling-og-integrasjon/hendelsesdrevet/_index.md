@@ -12,22 +12,22 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/12-Altinn-events-produkt-canvas-v3-codex.md">Altinn Events</a></h3>
-      <p class="capability-product-link__description">– Publisering og abonnement på hendelser</p>
+      <p class="capability-product-link__description">er produktets kjernefunksjon og dekker publish/subscribe-mønsteret.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/22-Dialogporten-produkt-canvas-v6-claude.md">Dialogporten</a></h3>
-      <p class="capability-product-link__description">bruker hendelser og abonnementer for å oppdage endringer uten kontinuerlig polling</p>
+      <p class="capability-product-link__description">bruker hendelser og abonnementer for å oppdage endringer uten kontinuerlig polling.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/23-Altinn-3-Melding-produkt-canvas-v5-codex.md">Altinn Melding</a></h3>
-      <p class="capability-product-link__description">støtter abonnementer og oppfølging av hendelser knyttet til sendte meldinger</p>
+      <p class="capability-product-link__description">støtter abonnementer og oppfølging av hendelser knyttet til sendte meldinger.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/87-Arkitektur-for-hendelser-v2-codex.md">Arkitektur for hendelser</a></h3>
-      <p class="capability-product-link__description">Ressursen gir et felles mønster for hendelsesdrevet samhandling, med vekt på hendelseseierskap, publisering, abonnement, metadata, tilgang og robust konsumenthåndtering.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/87-Arkitektur-for-hendelser-v3-claude.md">Arkitektur for hendelser</a></h3>
+      <p class="capability-product-link__description">Ressursen normerer evnen direkte. Den definerer rollene tilbyder og konsument og mekanismen for hendelseshåndtering, beskriver tre utvekslingsmønstre (Event Notification, Event-Carried State Transfer og Event Sourcing) og to måter å få tilgang på (push til abonnenter og pull fra en hendelsesstrøm), og sier at abonnement enten er selvbetjent eller styrt gjennom tilgangsstyring.</p>
     </article>
   </div>
 ---

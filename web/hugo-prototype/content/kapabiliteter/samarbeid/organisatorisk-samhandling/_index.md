@@ -12,17 +12,17 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/06-eInnsyn-produkt-canvas-v3-codex.md">eInnsyn</a></h3>
-      <p class="capability-product-link__description">gjør det mulig for mange virksomheter å publisere informasjon gjennom et felles oppsett og et felles brukergrensesnitt for innsyn</p>
+      <p class="capability-product-link__description">gjør det mulig for mange virksomheter å publisere informasjon gjennom et felles oppsett og et felles brukergrensesnitt for innsyn.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/07-eFormidling-produkt-canvas-v3-codex.md">eFormidling</a></h3>
-      <p class="capability-product-link__description">Standardisert samhandling mellom virksomheter.</p>
+      <p class="capability-product-link__description">støtter samhandling mellom virksomheter ved at samme løsning kan brukes på tvers av organisatoriske grenser og ulike mottakergrupper.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/08-Altinn-formidling-produkt-canvas-v3-codex.md">Altinn Formidling</a></h3>
-      <p class="capability-product-link__description">Enabler samhandling mellom organisasjoner</p>
+      <p class="capability-product-link__description">gjør det mulig å etablere standardiserte leveranseløp mellom virksomheter.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -32,7 +32,7 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/26-FIKS-Melding-produkt-canvas-v3-claude.md">Fiks melding</a></h3>
-      <p class="capability-product-link__description">brukes til kommunikasjon mellom kommuner, innbyggere og andre virksomheter gjennom et felles kanalgrunnlag.</p>
+      <p class="capability-product-link__description">er direkte relevant fordi løsningen gir kommuner, innbyggere og andre virksomheter et felles kanalgrunnlag for digital kommunikasjon.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -42,7 +42,7 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/34-Kjernejournal-produkt-canvas-v3-claude.md">Kjernejournal</a></h3>
-      <p class="capability-product-link__description">Kjernejournal støtter samhandling mellom helsevirksomheter gjennom felles tilgang til sentrale opplysninger.</p>
+      <p class="capability-product-link__description">støtter samhandling mellom helsevirksomheter som ellers ville vært avhengige av mer fragmentert informasjonsdeling.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -52,12 +52,12 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/45-Once-Only-Technical-System-v1-claude.md">Once-Only Technical System (OOTS)</a></h3>
-      <p class="capability-product-link__description">effektiviserer forretningsprosessene på tvers av organisatoriske og nasjonale grenser, ved at søknadsbehandling i ett land kan trekke på registerdata i et annet. Koblingene er satt fordi OOTS selv etablerer mekanismen for grensekryssende bevisutveksling. Den underliggende transporten leveres av `eDelivery Building Block`, og autentiseringen av brukeren av eIDAS-rammeverket. Begge er avhengigheter, ikke kapabiliteter i denne ressursen.</p>
+      <p class="capability-product-link__description">effektiviserer forretningsprosessene på tvers av organisatoriske og nasjonale grenser, ved at søknadsbehandling i ett land kan trekke på registerdata i et annet.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/48-Felles-studentsystem-produkt-canvas-v1-codex.md">Felles studentsystem (FS)</a></h3>
-      <p class="capability-product-link__description">FS er en felles sektorløsning som brukes av mange utdanningsinstitusjoner med Sikt som felles forvalter.</p>
+      <p class="capability-product-link__description">er relevant fordi FS er en felles sektorløsning som brukes av mange institusjoner med Sikt som felles forvalter.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -67,17 +67,17 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/57-SvarInn-produkt-canvas-v2-claude.md">SvarInn</a></h3>
-      <p class="capability-product-link__description">gir kommuner og andre offentlige virksomheter et felles mønster for innkommende digital post mellom aktører som bruker samme samhandlingsløp.</p>
+      <p class="capability-product-link__description">er direkte relevant fordi løsningen gir et felles mønster for innkommende post mellom kommuner og andre offentlige virksomheter som bruker samme samhandlingsløp.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/59-A-ordningen-produkt-canvas-v1-codex.md">A-ordningen</a></h3>
-      <p class="capability-product-link__description">A-ordningen er en samforvaltet ordning mellom Skatteetaten, NAV og SSB med felles rapporterings- og datagrunnlag.</p>
+      <p class="capability-product-link__description">er sentralt fordi ordningen forvaltes og brukes i et samspill mellom flere offentlige virksomheter.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/62-DSOP-tjenester-produkt-canvas-v2-codex.md">DSOP-tjenester</a></h3>
-      <p class="capability-product-link__description">DSOP bygger på organisert samhandling og felles utvikling mellom offentlig og privat sektor.</p>
+      <p class="capability-product-link__description">er nødvendig fordi tjenestene realiseres og forvaltes i samspill mellom aktører som ikke deler samme styringslinje.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -87,7 +87,7 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/74-Felles-mal-for-innforing-av-digitale-fellestjenester-v1-claude.md">Felles mal for innføring av digitale fellestjenester</a></h3>
-      <p class="capability-product-link__description">Malen effektiviserer arbeidsprosessene mellom KS Digital og den enkelte kommunen ved at begge parter arbeider etter samme faseinndeling, med avklarte forventninger om hvem som gjør hva og når. Koblingene er satt fordi malen selv er veiledningen og selv definerer samarbeidsmønsteret. De tjenestene som innføres med malen, leverer sine egne evner, og de hører ikke her.</p>
+      <p class="capability-product-link__description">Malen effektiviserer arbeidsprosessene mellom KS Digital og den enkelte kommunen ved at begge parter arbeider etter samme faseinndeling, med avklarte forventninger om hvem som gjør hva og når.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -96,8 +96,8 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v2-codex.md">Rammeverk for digital samhandling</a></h3>
-      <p class="capability-product-link__description">Rammeverket gir felles struktur for roller, ansvar, styring og forvaltning når flere aktører skal samhandle digitalt.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/85-Rammeverk-for-digital-samhandling-v3-claude.md">Rammeverk for digital samhandling</a></h3>
+      <p class="capability-product-link__description">Organisatorisk samhandling er ett av de fem samhandlingsområdene i lagmodellen, og rammeverket beskriver den som tilpasning av tjenestekjeder og forretningsprosesser på tvers av virksomheter. Framgangsmåten for praktisk bruk krever at konsekvensene for samarbeidende virksomheter kartlegges og forankres hos tredjeparter før endringen gjennomføres.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -112,12 +112,12 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/100-Kart-for-tjenestekjeder-v2-claude.md">Kart for tjenestekjeder</a></h3>
-      <p class="capability-product-link__description">navngir aktører og tjenesteleverandører per tjeneste, slik at ansvarsovergangene samordningen må håndtere blir synlige</p>
+      <p class="capability-product-link__description">normeres gjennom at kartet navngir aktører og tjenesteleverandører per tjeneste. Ansvarsovergangene blir synlige, og det er dem samordningen må håndtere.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/129-MSIS-produkt-canvas-v2-codex.md">MSIS</a></h3>
-      <p class="capability-product-link__description">MSIS understøtter koordinering mellom helsemyndigheter, smittevernmiljø og tjenesteaktører i beredskapsarbeid.</p>
+      <p class="capability-product-link__description">MSIS binder sammen leger, laboratorier, smittevernmiljøer og myndigheter i ett felles nasjonalt meldings- og analyseopplegg.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>

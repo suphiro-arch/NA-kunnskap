@@ -12,17 +12,17 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/02-Maskinporten-produkt-canvas-v5-claude.md">Maskinporten</a></h3>
-      <p class="capability-product-link__description">forvalter scopes, klientregistrering og API-delegering som nasjonal fellesmekanisme for API-sikring og tokenforvaltning, slik at virksomheter kan definere, delegere og trekke tilbake maskinell tilgang til egne API-er</p>
+      <p class="capability-product-link__description">forvalter scopes, klientregistrering og API-delegering som nasjonal fellesmekanisme for API-sikring og tokenforvaltning, slik at virksomheter kan definere, delegere og trekke tilbake maskinell tilgang til egne API-er.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/04-Altinn-autorisasjon-produkt-canvas-v5-claude.md">Altinn Autorisasjon</a></h3>
-      <p class="capability-product-link__description">gjør det mulig å forvalte roller, rettigheter og delegeringer som grunnlag for autorisasjonsbeslutninger</p>
+      <p class="capability-product-link__description">gir mekanismer for å registrere ressurser, definere policyer, administrere rettigheter og forvalte tilganger over tid.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/32-Helsenorge-v3-claude.md">Helsenorge</a></h3>
-      <p class="capability-product-link__description">lar innbyggeren definere, avgrense og trekke tilbake hvem som skal ha tilgang til egne helseopplysninger, gjennom fullmakter, sperring og blokkering av utvalgte helsepersonell</p>
+      <p class="capability-product-link__description">lar innbyggeren definere, avgrense og trekke tilbake hvem som skal ha tilgang til egne helseopplysninger, gjennom fullmakter, sperring og blokkering av utvalgte helsepersonell.</p>
     </article>
   </div>
 ---

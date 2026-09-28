@@ -12,47 +12,47 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/01-ID-porten-produkt-canvas-v3-codex.md">ID-porten</a></h3>
-      <p class="capability-product-link__description">gjør autentisering gjenbrukbar gjennom standardiserte grensesnitt og dokumenterte integrasjonsmønstre</p>
+      <p class="capability-product-link__description">gjør autentisering gjenbrukbar gjennom standardiserte grensesnitt og dokumenterte integrasjonsmønstre.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/08-Altinn-formidling-produkt-canvas-v3-codex.md">Altinn Formidling</a></h3>
-      <p class="capability-product-link__description">Standardisert API for integrasjon</p>
+      <p class="capability-product-link__description">tilbyr API-er og integrasjonsmønstre som kan brukes av fagsystemer og integrasjonsmiljøer.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/12-Altinn-events-produkt-canvas-v3-codex.md">Altinn Events</a></h3>
-      <p class="capability-product-link__description">– Standard API for hendelsesintegrasjon</p>
+      <p class="capability-product-link__description">gjør det mulig å bruke standardiserte grensesnitt og hendelsesmønstre i egne løsninger.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/17-data-altinn-no-produkt-canvas-v5-claude.md">data.altinn.no</a></h3>
-      <p class="capability-product-link__description">bruker samme tekniske mønster på tvers av produkter og gjør nye datadelingstjenester lettere å integrere</p>
+      <p class="capability-product-link__description">gjør det mulig å etablere flere datadelingstjenester innenfor samme grunnmønster.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/19-Altinn-3-plattform-produkt-canvas-v3-codex.md">Altinn 3 plattform</a></h3>
-      <p class="capability-product-link__description">– Standard API-er for integrasjon med andre systemer</p>
+      <p class="capability-product-link__description">gjør det mulig å koble tjenester til andre Altinn-produkter og eksterne systemer gjennom standardiserte API-er og plattformtjenester.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/20-Altinn-Studio-produkt-canvas-v4-claude.md">Altinn Studio</a></h3>
-      <p class="capability-product-link__description">– API-er og integrasjonsmønstre mot Altinn og felleskomponenter</p>
+      <p class="capability-product-link__description">gjør det mulig å bygge tjenester som bruker eksterne datakilder, API-er og andre Altinn-komponenter.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/22-Dialogporten-produkt-canvas-v6-claude.md">Dialogporten</a></h3>
-      <p class="capability-product-link__description">gir tjenesteeiere og plattformer et felles mønster for å eksponere dialoger</p>
+      <p class="capability-product-link__description">gir tjenesteeiere og plattformer et felles mønster for å eksponere dialoger.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/23-Altinn-3-Melding-produkt-canvas-v5-codex.md">Altinn Melding</a></h3>
-      <p class="capability-product-link__description">tilbyr API-er for sending, mottak og automatisert meldingshåndtering</p>
+      <p class="capability-product-link__description">tilbyr API-er for sending, mottak og automatisert meldingshåndtering.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/24-Varslinger-produkt-canvas-v6-claude.md">Altinn Varsling</a></h3>
-      <p class="capability-product-link__description">tilbyr API-er for integrasjon med Altinn Apps, Altinn-tjenester og tjenesteeiersystemer</p>
+      <p class="capability-product-link__description">tilbyr API-er for integrasjon med Altinn Apps, Altinn-tjenester og tjenesteeiersystemer.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -72,12 +72,12 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/79-Videokonsultasjon-v1-claude.md">Videokonsultasjon (VIO)</a></h3>
-      <p class="capability-product-link__description">Løsningen eksponeres som en integrerbar tjeneste mot EPJ-systemene, slik at videokonsultasjon kan bygges inn i det arbeidsløpet helsepersonellet allerede bruker, uten en egen applikasjon ved siden av. Koblingene er satt fordi tjenesten selv leverer både det sammenhengende løpet og integrasjonsflaten. Autentiseringen skjer med HelseID, og den evnen hører hos `HelseID`; avhengigheten er beskrevet under `Gjenbruk`.</p>
+      <p class="capability-product-link__description">Løsningen eksponeres som en integrerbar tjeneste mot EPJ-systemene, slik at videokonsultasjon kan bygges inn i det arbeidsløpet helsepersonellet allerede bruker, uten en egen applikasjon ved siden av.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/94-Fiks-protokoll-v1-claude.md">Fiks protokoll</a></h3>
-      <p class="capability-product-link__description">Grensesnittene er standardiserte og maskinlesbare, slik at et fagsystem kan oppdage og integrere mot arkiv, matrikkel eller plan uten å kjenne det enkelte produktet på motsatt side. Koblingene er satt fordi ressursen selv eier grensesnittene og standardiseringen. Selve meldingsutvekslingen og sikringen av den leveres av `Fiks melding` og `Fiks-plattformen`, og de evnene hører hos dem. Avhengigheten er beskrevet under `Gjenbruk`.</p>
+      <p class="capability-product-link__description">Grensesnittene er standardiserte og maskinlesbare, slik at et fagsystem kan oppdage og integrere mot arkiv, matrikkel eller plan uten å kjenne det enkelte produktet på motsatt side.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>

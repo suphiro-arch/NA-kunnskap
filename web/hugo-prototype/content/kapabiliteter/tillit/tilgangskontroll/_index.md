@@ -12,37 +12,37 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/02-Maskinporten-produkt-canvas-v5-claude.md">Maskinporten</a></h3>
-      <p class="capability-product-link__description">gir grunnlag for å slippe inn bare systemer som har riktig token, scope og godkjent tilgang til den aktuelle ressursen</p>
+      <p class="capability-product-link__description">gir grunnlag for å slippe inn bare systemer som har riktig token, scope og godkjent tilgang til den aktuelle ressursen.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/04-Altinn-autorisasjon-produkt-canvas-v5-claude.md">Altinn Autorisasjon</a></h3>
-      <p class="capability-product-link__description">er kjernefunksjonen og avgjør om en bruker, virksomhet eller system får utføre en bestemt handling eller bruke en bestemt ressurs</p>
+      <p class="capability-product-link__description">er produktets kjernefunksjon og avgjør om brukere og systemer kan utføre en operasjon på en ressurs.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/17-data-altinn-no-produkt-canvas-v5-claude.md">data.altinn.no</a></h3>
-      <p class="capability-product-link__description">håndterer tilgang gjennom tjenestekontekst, rettigheter og definerte datakilder</p>
+      <p class="capability-product-link__description">er sentral fordi tjenestekontekst og regler styrer hvilke data som kan hentes.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/22-Dialogporten-produkt-canvas-v6-claude.md">Dialogporten</a></h3>
-      <p class="capability-product-link__description">bygger på Altinn Autorisasjon, autoriserte parter og tjenesteressurser</p>
+      <p class="capability-product-link__description">bygger på Altinn Autorisasjon, autoriserte parter og tjenesteressurser.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/23-Altinn-3-Melding-produkt-canvas-v5-codex.md">Altinn Melding</a></h3>
-      <p class="capability-product-link__description">sørger for at kun autoriserte brukere og systemer får tilgang til meldinger og vedlegg</p>
+      <p class="capability-product-link__description">sørger for at kun autoriserte brukere og systemer får tilgang til meldinger og vedlegg.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/34-Kjernejournal-produkt-canvas-v3-claude.md">Kjernejournal</a></h3>
-      <p class="capability-product-link__description">håndhever ved hvert oppslag at bare helsepersonell med tjenstlig behov får tilgang, og at pasientens sperring eller blokkering av bestemte deler eller bestemte personer respekteres</p>
+      <p class="capability-product-link__description">håndhever ved hvert oppslag at bare helsepersonell med tjenstlig behov får tilgang, og at pasientens sperring eller blokkering av bestemte deler eller bestemte personer respekteres.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/47-Feide-produkt-canvas-v2-claude.md">Feide</a></h3>
-      <p class="capability-product-link__description">håndhever ved hvert innloggings- og datauttrekk hvilke tjenester som får hvilke opplysninger, etter tilgangsnivået dataeier har satt i kundeportalen: fri tilgang innvilges automatisk, mens nivåer som krever godkjenning må godkjennes eller avslås av dataeier før tjenesten slipper til</p>
+      <p class="capability-product-link__description">håndhever ved hvert innloggings- og datauttrekk hvilke tjenester som får hvilke opplysninger, etter tilgangsnivået dataeier har satt i kundeportalen: fri tilgang innvilges automatisk, mens nivåer som krever godkjenning må godkjennes eller avslås av dataeier før tjenesten slipper til.</p>
     </article>
   </div>
 ---

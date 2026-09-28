@@ -13,6 +13,7 @@ CAPABILITIES_FILE = REPO_ROOT / "arkitektur" / "kapabiliteter" / "capabilities.y
 MAP_FILE = REPO_ROOT / "arkitektur" / "kapabiliteter" / "produkt-kapabilitet-koblinger.yaml"
 CAPABILITY_WEB_DIR = REPO_ROOT / "web" / "hugo-prototype" / "content" / "kapabiliteter"
 CAPABILITY_GENERATOR = REPO_ROOT / "web" / "hugo-prototype" / "scripts" / "generate-capabilities.py"
+EXPLANATIONS_CHECK = REPO_ROOT / "tools" / "check-capability-explanations.py"
 SOURCE_DIRS = [
     REPO_ROOT / "arkitektur" / "ressurser" / "operative-losninger-og-tjenester",
     REPO_ROOT / "arkitektur" / "ressurser" / "normerende-ressurser",
@@ -142,6 +143,17 @@ def load_capability_helpers():
     if spec is None or spec.loader is None:
         raise RuntimeError(f"Kunne ikke laste {CAPABILITY_GENERATOR.relative_to(REPO_ROOT)}")
     module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+def load_point_parser():
+    spec = importlib.util.spec_from_file_location("check_capability_explanations", EXPLANATIONS_CHECK)
+    if spec is None or spec.loader is None:
+        raise RuntimeError(f"Kunne ikke laste {EXPLANATIONS_CHECK.relative_to(REPO_ROOT)}")
+    module = importlib.util.module_from_spec(spec)
+    # dataclasses i modulen krever at den er registrert i sys.modules.
+    sys.modules[spec.name] = module
     spec.loader.exec_module(module)
     return module
 
@@ -329,21 +341,16 @@ def check_capability_labels(latest: dict[int, dict]) -> list[str]:
         elif prefix and parents is None and prefix != name:
             findings.append(f"{origin}: «{label}» gir prefiks til hovedkapabiliteten {name}")
 
+    # Kulepunktene leses med parseren i check-capability-explanations.py, slik at
+    # merkelapper med og uten fet skrift kontrolleres, og slik at kontrollen og
+    # sync-resource-metadata.py tolker seksjonen likt. Innrykkede underpunkter
+    # er forklaring, ikke merkelapper.
+    point_parser = load_point_parser()
+    known_labels = point_parser.valid_labels(sys.modules[__name__])
     for product_id in sorted(latest):
         path = latest[product_id]["path"]
-        in_section = False
-        for lineno, raw in enumerate(path.read_text(encoding="utf-8-sig").splitlines(), start=1):
-            line = raw.strip()
-            if re.match(r"^##\s+Kapabiliteter\s*$", line):
-                in_section = True
-                continue
-            if in_section and line.startswith("## "):
-                break
-            if not in_section:
-                continue
-            match = re.match(r"^-\s+\*\*(?P<label>.+?)\*\*", line)
-            if match:
-                validate(match.group("label"), f"{latest[product_id]['relative_path']}:{lineno}")
+        for point in point_parser.parse_section(path, known_labels).points:
+            validate(point.label, f"{latest[product_id]['relative_path']}:{point.lineno}")
 
     for lineno, raw in enumerate(REGISTER_FILE.read_text(encoding="utf-8-sig").splitlines(), start=1):
         cells = [cell.strip() for cell in raw.strip().strip("|").split("|")]

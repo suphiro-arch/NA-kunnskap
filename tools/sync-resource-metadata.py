@@ -1,6 +1,26 @@
+"""Synkroniserer produkt-kapabilitet-koblinger.yaml med register og ressursfiler.
+
+For ressurser som allerede står i mappingfila oppdateres bare metadata
+(`product_name`, `version`, `author`, `relative_path`, `product_url`) og
+`explanation` for koblinger som finnes fra før. Koblingslista bygges bare for
+ressurser som mangler i mappingfila.
+
+`## Kapabiliteter` i ressursfila tolkes med samme parser som
+`tools/check-capability-explanations.py`, slik at sync og kontroll leser
+kulepunktene likt: forklaring på samme linje som labelen, på innrykket linje
+eller som innrykket underpunkt under, merkelapp med eller uten fet skrift og med
+eller uten prefiks. Et eget avsnitt etter kulelista (blank linje fulgt av tekst
+uten innrykk) hører ikke til siste punkt og tas ikke med i forklaringen.
+
+Bruk:
+    python tools/sync-resource-metadata.py            dry-run, viser foreslåtte endringer
+    python tools/sync-resource-metadata.py --apply    skriver mappingfila
+"""
+
 from __future__ import annotations
 
 import argparse
+import importlib.util
 import json
 import re
 import sys
@@ -11,6 +31,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 REGISTER_FILE = REPO_ROOT / "arkitektur" / "ressurser" / "produktnummerering.md"
 MAP_FILE = REPO_ROOT / "arkitektur" / "kapabiliteter" / "produkt-kapabilitet-koblinger.yaml"
 CAPABILITIES_FILE = REPO_ROOT / "arkitektur" / "kapabiliteter" / "capabilities.yaml"
+EXPLANATIONS_CHECK = REPO_ROOT / "tools" / "check-capability-explanations.py"
 SOURCE_DIRS = [
     REPO_ROOT / "arkitektur" / "ressurser" / "operative-losninger-og-tjenester",
     REPO_ROOT / "arkitektur" / "ressurser" / "normerende-ressurser",
@@ -23,8 +44,6 @@ CURRENT_PATTERN = re.compile(r"^(?P<id>\d+)-(?P<name>.+)-produkt-canvas-v(?P<ver
 RESOURCE_PATTERN = re.compile(r"^(?P<id>\d+)-(?P<name>.+)-v(?P<ver>\d+)-(?P<author>[^.]+)\.md$")
 NO_AUTHOR_PATTERN = re.compile(r"^(?P<id>\d+)-(?P<name>.+)-produkt-canvas-v(?P<ver>\d+)\.md$")
 LINK_PATTERN = re.compile(r"\((?P<path>[^)]+\.md)\)")
-CAP_SECTION_PATTERN = re.compile(r"^##\s+Kapabiliteter\s*$")
-BULLET_PATTERN = re.compile(r"^-\s+(?:\*\*)?(?P<label>.+?)(?:\*\*)?(?:\s{2,}.*)?$")
 
 
 def parse_versioned_file(path: Path) -> dict | None:
@@ -142,44 +161,65 @@ def parse_register() -> dict[int, dict]:
     return rows
 
 
-def extract_capabilities_from_markdown(path: Path) -> list[dict]:
-    items: list[dict] = []
-    lines = path.read_text(encoding="utf-8-sig").splitlines()
-    in_section = False
-    pending: dict | None = None
-    for raw in lines:
-        line = raw.rstrip()
-        if CAP_SECTION_PATTERN.match(line):
-            in_section = True
-            continue
-        if in_section and line.startswith("## "):
-            if pending:
-                items.append(pending)
-            break
-        if not in_section:
-            continue
-        match = BULLET_PATTERN.match(line.strip())
-        if match:
-            if pending:
-                items.append(pending)
-            label = match.group("label").strip()
-            pending = {"label": label, "explanation": ""}
-            continue
-        if pending and line.strip():
-            text = line.strip()
-            pending["explanation"] = f"{pending['explanation']} {text}".strip()
-    if pending:
-        items.append(pending)
+def load_point_parser():
+    """Parseren for kapabilitetspunkter i check-capability-explanations.py, og
+    settet av gyldige merkelapper den trenger for kulepunkter uten fet skrift."""
+    spec = importlib.util.spec_from_file_location("check_capability_explanations", EXPLANATIONS_CHECK)
+    if spec is None or spec.loader is None:
+        raise RuntimeError(f"Kunne ikke laste {EXPLANATIONS_CHECK.relative_to(REPO_ROOT)}")
+    module = importlib.util.module_from_spec(spec)
+    # dataclasses i modulen krever at den er registrert i sys.modules.
+    sys.modules[spec.name] = module
+    spec.loader.exec_module(module)
+    labels = module.valid_labels(module.load_version_sync())
+    return module, labels
 
+
+def extract_capabilities_from_markdown(path: Path, parser, labels: set[str]) -> list[dict]:
+    """Kapabilitetspunktene under `## Kapabiliteter`.
+
+    `label` er navnet uten prefiks, `prefix` er hovedkapabiliteten hvis den er
+    oppgitt, og `mapping_label` er merkelappen slik den står i ressursfila.
+    """
     normalized: list[dict] = []
-    for item in items:
-        label = item["label"].replace("**", "").strip()
-        explanation = item["explanation"].strip()
+    for point in parser.parse_section(path, labels).points:
+        label = point.label.replace("**", "").strip()
         if not label:
             continue
-        lookup_label = label.split(":", 1)[1].strip() if ":" in label else label
-        normalized.append({"label": lookup_label, "mapping_label": label, "explanation": explanation})
+        prefix, _, name = label.rpartition(":")
+        normalized.append(
+            {
+                "label": name.strip(),
+                "prefix": prefix.strip(),
+                "mapping_label": label,
+                "explanation": point.explanation.strip(),
+            }
+        )
     return normalized
+
+
+def find_source_explanation(cap: dict, markdown_labels: list[dict]) -> str:
+    """Forklaringen i ressursfila for en kobling som finnes i mappingfila.
+
+    Oppslaget går på navnet på laveste nivå (`subcapability_name`, eller
+    `capability_name` for hovedkapabiliteter uten delkapabiliteter), slik at
+    merkelapper uten prefiks også treffer. Er prefikset oppgitt, må det være
+    koblingens hovedkapabilitet. Et punkt med riktig prefiks går foran et
+    punkt uten prefiks.
+    """
+    short_name = (cap.get("subcapability_name") or cap.get("capability_name") or "").strip()
+    parent = (cap.get("capability_name") or "").strip()
+    if not short_name:
+        return ""
+    unprefixed = ""
+    for item in markdown_labels:
+        if item["label"] != short_name:
+            continue
+        if item["prefix"] == parent:
+            return item["explanation"]
+        if not item["prefix"] and not unprefixed:
+            unprefixed = item["explanation"]
+    return unprefixed
 
 
 def build_capability_entries(product_name: str, labels: list[dict], main_lookup: dict[str, dict], sub_lookup: dict[str, dict]) -> list[dict]:
@@ -235,6 +275,7 @@ def sync(apply_changes: bool) -> int:
     latest = latest_files_by_id()
     register = parse_register()
     main_lookup, sub_lookup = load_capability_catalog()
+    point_parser, valid_labels = load_point_parser()
     data = json.loads(MAP_FILE.read_text(encoding="utf-8-sig"))
     products = data.get("products", [])
     by_id = {item["product_id"]: item for item in products}
@@ -246,12 +287,7 @@ def sync(apply_changes: bool) -> int:
         if register_entry is None:
             continue
 
-        markdown_labels = extract_capabilities_from_markdown(latest_entry["path"])
-        label_explanations = {}
-        for item in markdown_labels:
-            label_explanations[item["mapping_label"]] = item.get("explanation", "").strip()
-            if ":" in item["mapping_label"]:
-                label_explanations[item["mapping_label"].split(":", 1)[1].strip()] = item.get("explanation", "").strip()
+        markdown_labels = extract_capabilities_from_markdown(latest_entry["path"], point_parser, valid_labels)
 
         existing = by_id.get(product_id)
         if existing:
@@ -272,16 +308,15 @@ def sync(apply_changes: bool) -> int:
                 existing["product_url"] = product_url
                 changes.append(f"Oppdaterte product_url for {product_id}")
 
-            updated_any = False
+            updated = 0
             for cap in existing.get("capabilities", []):
-                label = cap.get("mapping_label") or cap.get("subcapability_name") or cap.get("capability_name")
-                better = label_explanations.get(label, "").strip()
+                better = find_source_explanation(cap, markdown_labels)
                 current = (cap.get("explanation") or "").strip()
                 if better and current != better:
                     cap["explanation"] = better
-                    updated_any = True
-            if updated_any:
-                changes.append(f"Oppdaterte forklaringer i mapping for {product_id}")
+                    updated += 1
+            if updated:
+                changes.append(f"Oppdaterte {updated} forklaringer i mapping for {product_id}")
             continue
 
         labels = [{"label": label, "mapping_label": label, "explanation": ""} for label in register_entry["capability_labels"]]

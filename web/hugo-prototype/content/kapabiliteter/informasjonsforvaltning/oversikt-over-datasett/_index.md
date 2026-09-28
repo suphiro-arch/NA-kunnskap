@@ -12,37 +12,37 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/13-Felles-datakatalog-produkt-canvas-v3-codex.md">Felles datakatalog</a></h3>
-      <p class="capability-product-link__description">er en kjernefunksjon ved at datasett beskrives, publiseres og gjøres søkbare på tvers av virksomheter</p>
+      <p class="capability-product-link__description">er en kjernefunksjon ved at datasett beskrives, publiseres og gjøres søkbare på tvers av virksomheter.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/16-data-norge-no-produkt-canvas-v4-codex.md">data.norge.no</a></h3>
-      <p class="capability-product-link__description">gir nasjonal oversikt over publiserte datasett og gjør dem søkbare på tvers av virksomheter</p>
+      <p class="capability-product-link__description">gir nasjonal oversikt over publiserte datasett og gjør dem søkbare på tvers av virksomheter.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/30-FIKS-Digiorden-produkt-canvas-v2-claude.md">Fiks digiorden</a></h3>
-      <p class="capability-product-link__description">gir oversikt over hvilke datasett som finnes i kommunens digitale landskap.</p>
+      <p class="capability-product-link__description">er direkte relevant fordi produktet gir kommunen oversikt over hvilke datasett som finnes i eget landskap.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v2-codex.md">Helsedata.no</a></h3>
-      <p class="capability-product-link__description">Helsedata.no gir brukere en samlet inngang til å oppdage og vurdere relevante helsedatakilder før søknad.</p>
+      <p class="capability-product-link__description">Helsedata.no gir én samlet inngang til datakilder, variabler og åpne data, slik at brukere kan oppdage og vurdere relevante helsedatakilder før de søker.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/40-Geonorge-produkt-canvas-v1-codex.md">Geonorge</a></h3>
-      <p class="capability-product-link__description">Geonorge gir nasjonal oversikt over tilgjengelige geodata og metadata fra mange offentlige datatilbydere.</p>
+      <p class="capability-product-link__description">er kjernefunksjon ved at Geonorge gir nasjonal oversikt over tilgjengelige geodata og metadata.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/61-NVDB-produkt-canvas-v1-codex.md">NVDB</a></h3>
-      <p class="capability-product-link__description">NVDB gir et felles og forståelig informasjonsgrunnlag om vegnett og vegrelaterte objekter som kan brukes i flere sammenhenger.</p>
+      <p class="capability-product-link__description">er relevant fordi ressursen gjør vegdata forståelige og tilgjengelige som et felles informasjonsgrunnlag.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/104-Orden-i-eget-hus-v2-claude.md">Orden i eget hus</a></h3>
-      <p class="capability-product-link__description">normerer hvordan dataoversikten blir til og gjøres brukbar for andre: kartlegging, beskrivelse med metadata og tilgjengeliggjøring internt og eksternt</p>
+      <p class="capability-product-link__description">normerer hvordan oversikten blir til og gjøres brukbar for andre: kartlegging, beskrivelse med metadata og tilgjengeliggjøring internt og eksternt.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>

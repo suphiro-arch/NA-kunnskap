@@ -12,12 +12,12 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/23-Altinn-3-Melding-produkt-canvas-v5-codex.md">Altinn Melding</a></h3>
-      <p class="capability-product-link__description">understøttes gjennom omfattende logging av hendelser og prosesser</p>
+      <p class="capability-product-link__description">understøttes gjennom omfattende logging av hendelser og prosesser.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/34-Kjernejournal-produkt-canvas-v3-claude.md">Kjernejournal</a></h3>
-      <p class="capability-product-link__description">dokumenterer hvert oppslag i en bruksslogg som pasienten har rett til å se etter kjernejournalforskriften § 6, slik at bruken av opplysningene kan etterprøves</p>
+      <p class="capability-product-link__description">dokumenterer hvert oppslag i en bruksslogg som pasienten har rett til å se etter kjernejournalforskriften § 6, slik at bruken av opplysningene kan etterprøves.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>

@@ -12,47 +12,47 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/02-Maskinporten-produkt-canvas-v5-claude.md">Maskinporten</a></h3>
-      <p class="capability-product-link__description">gjør det mulig for datakonsumenter å hente data fra andre virksomheter gjennom samme nasjonale tillitsmønster</p>
+      <p class="capability-product-link__description">gjør det mulig for datakonsumenter å hente data fra andre virksomheter gjennom samme nasjonale tillitsmønster.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/07-eFormidling-produkt-canvas-v3-codex.md">eFormidling</a></h3>
-      <p class="capability-product-link__description">Mottak og automatisering av innkommende meldinger.</p>
+      <p class="capability-product-link__description">gjør det mulig å motta innkommende meldinger i ønsket kanal og integrere dem videre i egne arbeidsprosesser og fagsystemer.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/08-Altinn-formidling-produkt-canvas-v3-codex.md">Altinn Formidling</a></h3>
-      <p class="capability-product-link__description">Mottaker henter data fra formidlingstjeneste</p>
+      <p class="capability-product-link__description">gjør det mulig for mottakere å hente formidlede filer gjennom en kontrollert tjeneste.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/12-Altinn-events-produkt-canvas-v3-codex.md">Altinn Events</a></h3>
-      <p class="capability-product-link__description">– Abonnent mottar hendelser</p>
+      <p class="capability-product-link__description">gjør det mulig for abonnenter å motta og bruke hendelser fra andre tjenester.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/17-data-altinn-no-produkt-canvas-v5-claude.md">data.altinn.no</a></h3>
-      <p class="capability-product-link__description">gjør det mulig for konsumenter å hente data direkte fra kilden gjennom en standardisert API-modell</p>
+      <p class="capability-product-link__description">gjør det mulig for konsumenter å hente data direkte fra kilder gjennom en standardisert modell.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/22-Dialogporten-produkt-canvas-v6-claude.md">Dialogporten</a></h3>
-      <p class="capability-product-link__description">gir sluttbrukersystemer og portaler tilgang til dialogdata gjennom standardiserte API-er</p>
+      <p class="capability-product-link__description">gir sluttbrukersystemer og portaler tilgang til dialogdata gjennom standardiserte API-er.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/28-FIKS-Register-produkt-canvas-v3-codex.md">Fiks register</a></h3>
-      <p class="capability-product-link__description">gir fagsystemer og forvaltere et standardisert løp for å hente registerdata fra andre virksomheter.</p>
+      <p class="capability-product-link__description">er kjernefunksjonen fordi produktet gir kommuner og fylkeskommuner et standardisert løp for å hente og bruke data fra andre virksomheters registre.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/33-HelseID-produkt-canvas-v2-claude.md">HelseID</a></h3>
-      <p class="capability-product-link__description">gjør det mulig å bruke sektorfelles API-er og informasjonstjenester gjennom et felles tillits- og autentiseringsmønster</p>
+      <p class="capability-product-link__description">gjør det mulig å bruke sektorfelles API-er og informasjonstjenester gjennom et felles tillits- og autentiseringsmønster.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/34-Kjernejournal-produkt-canvas-v3-claude.md">Kjernejournal</a></h3>
-      <p class="capability-product-link__description">Kjernejournal bruker opplysninger fra flere kilder for å gi helsepersonell relevant informasjon ved behov.</p>
+      <p class="capability-product-link__description">gjør det mulig å sammenstille og bruke relevante helseopplysninger fra flere kilder i én behandlingssituasjon.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -72,7 +72,7 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/48-Felles-studentsystem-produkt-canvas-v1-codex.md">Felles studentsystem (FS)</a></h3>
-      <p class="capability-product-link__description">FS inngår i flere samhandlingsløp og mottar opplysninger som del av studieadministrative prosesser.</p>
+      <p class="capability-product-link__description">er relevant fordi FS inngår i flere samhandlingsløp og mottar opplysninger i studieadministrative prosesser.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -87,17 +87,17 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/67-FIKS-Folkeregister-produkt-canvas-v2-codex.md">Fiks folkeregister</a></h3>
-      <p class="capability-product-link__description">gir fagsystemer og saksbehandlere et standardisert løp for å bruke folkeregisterdata fra Skatteetaten i kommunale prosesser.</p>
+      <p class="capability-product-link__description">er kjernefunksjonen fordi kommunale fagsystemer og saksbehandlere bruker løsningen for å hente data fra en annen virksomhets register i egne prosesser.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v2-codex.md">Fiks skatte- og inntektsopplysninger</a></h3>
-      <p class="capability-product-link__description">gir kommunale fagsystemer og saksbehandlere et standardisert løp for å bruke skatte- og inntektsopplysninger fra Skatteetaten i egne arbeidsprosesser.</p>
+      <p class="capability-product-link__description">er kjernefunksjonen fordi kommuner og kommunale fagsystemer bruker løsningen for å hente og anvende data fra en annen virksomhets delingstjenester i egne arbeidsprosesser.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/69-FIKS-Kjoretoyregister-produkt-canvas-v2-claude.md">Fiks kjøretøyregister</a></h3>
-      <p class="capability-product-link__description">gir kommunale fagsystemer et standardisert løp for å bruke kjøretøyopplysninger fra Statens vegvesen i operative prosesser.</p>
+      <p class="capability-product-link__description">er kjernefunksjonen fordi kommunale fagsystemer bruker løsningen til å hente data fra en annen virksomhets register i egne operative prosesser.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -111,8 +111,8 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/102-Referansearkitektur-foresporsel-svar-eOppslag-v2-codex.md">Referansearkitektur forespørsel-svar (eOppslag)</a></h3>
-      <p class="capability-product-link__description">Ressursen gir et felles mønster for oppslagsbasert bruk av data fra datatilbyder, med vekt på formål, tilgang, ansvar, datakvalitet, sporbarhet og teknisk robusthet.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/102-Referansearkitektur-foresporsel-svar-eOppslag-v3-claude.md">Referansearkitektur forespørsel-svar (eOppslag)</a></h3>
+      <p class="capability-product-link__description">Konsumentsiden normeres gjennom prosessene få tilgang til data, delegere rettigheter til databehandler og innhente data: finne API-et, inngå avtale, registrere klienten, innhente samtykke ved behov, hente sikkerhetsbillett og utføre kallet. Dokumentet beskriver også hvordan en leverandør kan opptre på vegne av konsumenten som har behandlingsgrunnlaget.</p>
     </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>

@@ -40,7 +40,7 @@ python tools/sync-resource-metadata.py --apply
 python tools/check-resource-version-sync.py
 
 # forklaring under hvert kapabilitetspunkt i gjeldende ressursfiler
-python tools/check-capability-explanations.py
+python tools/check-capability-explanations.py --strict
 
 # strukturkontroll av ressursbeskrivelser mot malen
 python tools/check-resource-structure.py --strict
@@ -91,6 +91,10 @@ slugger og kode.
   - Den oppdaterer `product_name`, `version`, `author`, `relative_path` og `product_url`, og
     overskriver `explanation` med teksten fra `## Kapabiliteter` i ressursfila. Håndskrevne
     forklaringer her overlever ikke neste kjøring — skriv dem i ressursfila i stedet.
+  - Den leser `## Kapabiliteter` med parseren i `tools/check-capability-explanations.py`, med alle
+    kulepunktformater, med og uten prefiks, og finner forklaringen for en eksisterende kobling via
+    delkapabilitetsnavnet. En `explanation` som avviker fra ressursfila
+    (`check-capability-explanations.py --mapping`) betyr derfor bare at `--apply` ikke er kjørt.
   - Den bygger `capabilities` bare for ressurser som **ikke** står i fila fra før. For eksisterende
     ressurser røres koblingene aldri, uansett hva ressursfila sier.
 

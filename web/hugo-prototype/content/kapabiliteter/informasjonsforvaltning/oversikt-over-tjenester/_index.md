@@ -12,7 +12,7 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/16-data-norge-no-produkt-canvas-v4-codex.md">data.norge.no</a></h3>
-      <p class="capability-product-link__description">viser relevante offentlige tjenester som del av ressursbildet</p>
+      <p class="capability-product-link__description">viser relevante offentlige tjenester som del av ressursbildet.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -27,12 +27,12 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/30-FIKS-Digiorden-produkt-canvas-v2-claude.md">Fiks digiorden</a></h3>
-      <p class="capability-product-link__description">gjør det enklere å se hvilke applikasjoner og fellestjenester som allerede er i bruk og bør gjenbrukes.</p>
+      <p class="capability-product-link__description">er relevant fordi løsningen gjør det enklere å se hvilke applikasjoner og fellestjenester som allerede er i bruk og dermed hvilke ressurser som bør gjenbrukes.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/53-EU-Open-Source-Solutions-Catalogue-v1-claude.md">EU Open Source Solutions Catalogue</a></h3>
-      <p class="capability-product-link__description">gir en samlet, søkbar oversikt over programvare som tilbys av eller på vegne av offentlig sektor i Europa, med maskinlesbare metadata. Koblingene er satt fordi katalogen selv leverer oversikten og aggregeringen. Selve løsningene den peker til, forvaltes av andre, og evnene de leverer hører hos dem.</p>
+      <p class="capability-product-link__description">gir en samlet, søkbar oversikt over programvare som tilbys av eller på vegne av offentlig sektor i Europa, med maskinlesbare metadata.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>

@@ -26,10 +26,16 @@ Advarsel  Forklaring som er kortere enn terskelen (`--min-ord`, standard 8 ord
           utover labelen), eller som bare gjentar labelen.
 
 Merknad   Tekst etter siste kulepunkt i seksjonen, som `Grunnlag:`-linjer eller
-          et samlende avsnitt. `tools/sync-resource-metadata.py` trekker slik
-          tekst inn i forklaringen til siste kapabilitet i
-          produkt-kapabilitet-koblinger.yaml. AGENTS.md sier at avsluttende
-          brødtekst skal stå før kulelista.
+          et samlende avsnitt. AGENTS.md sier at avsluttende brødtekst skal stå
+          før kulelista. Sync-verktøyet tar ikke lenger med slik tekst i
+          forklaringen, men den blir heller ikke vist noe sted utenfor
+          ressursfila.
+
+Parseren her (`parse_section`, `valid_labels`) brukes også av
+`tools/sync-resource-metadata.py`, som fører forklaringene over til
+produkt-kapabilitet-koblinger.yaml, og av labelkontrollen i
+`tools/check-resource-version-sync.py`. Endringer i tolkningen slår derfor ut i
+alle tre.
 
 Bare gjeldende versjoner kontrolleres, med samme versjonsvalg som
 `tools/check-resource-version-sync.py`. Erstattede versjoner er historikk.
@@ -142,8 +148,8 @@ def split_plain_bullet(body: str, labels: set[str]) -> tuple[str, str]:
     """Kulepunkt uten fet skrift: finn lengste kjente merkelapp i starten.
 
     `- Hoved: Del: forklaring` og `- Hoved: Del – forklaring` gir label og
-    forklaring. Finnes ingen kjent merkelapp, er hele teksten label, slik
-    sync-verktøyet også tolker den.
+    forklaring. Finnes ingen kjent merkelapp, er hele teksten label, og
+    labelkontrollen i check-resource-version-sync.py melder den som ukjent.
     """
     text = body.strip()
     best = ""
@@ -271,8 +277,8 @@ def check_mapping(
     """Forklaringene i mappingfila: tomme, plassholdere og forurensede.
 
     Sammenligner også med forklaringen kontrollen leser i ressursfila. Avvik
-    betyr at sync-verktøyet ikke har ført forklaringen videre, typisk fordi den
-    står på samme linje som labelen eller fordi labelen mangler prefiks.
+    betyr at `tools/sync-resource-metadata.py --apply` ikke er kjørt etter at
+    ressursfila ble endret.
     """
     counts: Counter = Counter()
     findings: list[str] = []
@@ -398,8 +404,7 @@ def main() -> int:
             if len(preview) > 70:
                 preview = preview[:67] + "..."
             notes[rel].append(
-                f"linje {first_line}: tekst etter kulepunkt trekkes inn i forklaringen til «{section.points[-1].label}» "
-                f"av sync-verktøyet: «{preview}»"
+                f"linje {first_line}: tekst etter siste kulepunkt, skal stå før kulelista: «{preview}»"
             )
 
     missing = sum(c["uten forklaring"] for c in per_category.values())

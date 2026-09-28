@@ -17,7 +17,7 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--policy">
       <p class="capability-product-link__type">Rammer og virkemidler</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/90-Interoperable-Europe-Act-v1-claude.md">Interoperable Europe Act</a></h3>
-      <p class="capability-product-link__description">etablerer styret for Interoperable Europe og portalen som faste arenaer for samordning mellom medlemsstatene og Kommisjonen. Koblingene er satt fordi forordningen selv skaper pliktene, organene og rammeverket. De enkelte løsningene og verktøyene som brukes for å oppfylle pliktene, er egne ressurser, og evnene de leverer hører hos dem.</p>
+      <p class="capability-product-link__description">etablerer styret for Interoperable Europe og portalen som faste arenaer for samordning mellom medlemsstatene og Kommisjonen.</p>
     </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
@@ -27,12 +27,12 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/111-Digitaliseringsradet-v3-claude.md">Digitaliseringsrådet</a></h3>
-      <p class="capability-product-link__description">realiseres direkte som fast arena med oppnevnte rådsmedlemmer, sekretariat i Digdir og en dokumentert prosess i sju trinn. De 137 publiserte anbefalingsbrevene gjør den enkelte drøftingen om til kunnskapsdeling på tvers av 17 departementsområder</p>
+      <p class="capability-product-link__description">realiseres direkte. Ordningen er en fast arena med oppnevnte rådsmedlemmer, sekretariat i Digdir og en dokumentert prosess i sju trinn. De 137 publiserte anbefalingsbrevene gjør dessuten den enkelte drøftingen om til kunnskapsdeling på tvers av 17 departementsområder, som er kjernen i kapabiliteten.</p>
     </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v5-claude.md">Styringsråd for Digitaliseringsdirektoratets fellesløsninger</a></h3>
-      <p class="capability-product-link__description">er en fast arena for brukermedvirkning, dialog og samordning rundt Digdirs fellesløsninger.</p>
+      <p class="capability-product-link__description">støttes fordi rådet er en fast og formalisert arena for samordning mellom forvalter, tjenesteeiermiljøer og interessenter rundt fellesløsningene.</p>
     </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>

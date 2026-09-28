@@ -12,12 +12,12 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/19-Altinn-3-plattform-produkt-canvas-v3-codex.md">Altinn 3 plattform</a></h3>
-      <p class="capability-product-link__description">– Byggeklosser og mønstre for rask tjenesteutvikling</p>
+      <p class="capability-product-link__description">gir standardiserte byggeklosser og plattformmønstre som kan brukes på tvers av mange tjenester.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/20-Altinn-Studio-produkt-canvas-v4-claude.md">Altinn Studio</a></h3>
-      <p class="capability-product-link__description">– Komponenter-bibliotek og mønstre for enkel gjenbruk</p>
+      <p class="capability-product-link__description">støttes gjennom standardkomponenter, maler og mønstre som kan brukes i flere tjenester.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -27,7 +27,7 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/54-Interoperable-Europe-Solutions-v1-claude.md">Interoperable Europe Solutions</a></h3>
-      <p class="capability-product-link__description">gjør løsninger utviklet i én forvaltning tilgjengelige for bruk i nye sammenhenger i andre land og sektorer. Koblingene er satt fordi katalogen selv leverer oversikten og anerkjennelsen. Løsningene den viser til, forvaltes av andre, og evnene de leverer hører hos dem. Forholdet til forordningen som hjemler anerkjennelsesordningen, er beskrevet under `Relasjon til andre ressurser`.</p>
+      <p class="capability-product-link__description">gjør løsninger utviklet i én forvaltning tilgjengelige for bruk i nye sammenhenger i andre land og sektorer.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -42,7 +42,7 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/83-FINT-Arkivintegrasjoner-v1-claude.md">Arkivintegrasjoner</a></h3>
-      <p class="capability-product-link__description">Et integrasjonsoppsett som er laget én gang, kan brukes av flere fylkeskommuner med samme fagsystem, og plattformen reduserer dermed antallet integrasjoner som må bygges i sektoren samlet. Koblingene er satt fordi tjenesten selv leverer arbeidsflyten og gjenbruket av integrasjonsoppsett. Selve tilgangen til arkivinformasjon leveres av `FINT Arkiv` gjennom felles API og informasjonsmodell, og evnene til å dele og bruke arkivdata hører hos den ressursen. Avhengigheten er beskrevet under `Gjenbruk`.</p>
+      <p class="capability-product-link__description">Et integrasjonsoppsett som er laget én gang, kan brukes av flere fylkeskommuner med samme fagsystem, og plattformen reduserer dermed antallet integrasjoner som må bygges i sektoren samlet.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>

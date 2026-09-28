@@ -4,7 +4,7 @@ headerTitle: "Informasjonsforvaltning - Datastyring"
 eyebrow: "Kapabilitet"
 weight: 8
 description: "Evne til å sikre enhetlig og ansvarlig forvaltning av dataressurser gjennom felles rammeverk, klar ansvarsplassering og systematisk kvalitetsarbeid. ### Begrunnelse (Hvorfor) Datastyring er rammeverket av roller, ansvar, prosesser og standarder som sikrer effektiv og forsvarlig forvaltning av data som en strategisk ressurs gjennom hele livssyklusen. Kapabiliteten løser behovet for tydelig ansvar, felles praksis og systematisk kvalitetsarbeid, slik at data kan deles, forstås og brukes trygt på tvers av virksomheter. ### Hva det innebærer (Omfang) - **Juridisk (Høy vekt):** Sikre at data forvaltes i tråd med krav til personvern, taushetsplikt, arkivering, innsyn, behandlingsgrunnlag og ansvar for datadeling. - **Organisatorisk (Svært høy vekt):** Etablere roller, ansvar, styringsprosesser og beslutningsstrukturer for dataeierskap, datakvalitet, tilgang, deling og livssyklusforvaltning. - **Semantisk (Høy vekt):** Forvalte felles begreper, metadata, kvalitetskrav, informasjonsmodeller og klassifikasjoner som sikrer at data forstås likt og kan gjenbrukes. - **Teknisk (Middels vekt):** Bruke kataloger, dataplattformer, tilgangsmekanismer, kvalitetsverktøy og sporbarhetsløsninger som støtter praktisk styring og kontroll av dataressurser. ### Bidrag til sammenhengende tjenester og felles økosystem Datastyring gir grunnlaget for at data kan brukes som en pålitelig ressurs i sammenhengende tjenester. Når ansvar, kvalitet, metadata og tilgang er avklart, kan virksomheter tryggere dele og gjenbruke data i tjenestekjeder. Kapabiliteten styrker det felles økosystemet ved å gjøre data mer forutsigbare, etterprøvbare og gjenbrukbare. For sluttbrukeren betyr dette bedre datakvalitet, færre feil, mindre behov for gjentatt dokumentasjon og mer helhetlige tjenester på tvers av virksomheter."
-cardMeta: "17 produkter"
+cardMeta: "16 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -12,22 +12,22 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/14-Begrepskatalog-produkt-canvas-v3-codex.md">Begrepskatalog</a></h3>
-      <p class="capability-product-link__description">støtter forvaltning av begreper som en del av virksomhetenes samlede informasjonsforvaltning</p>
+      <p class="capability-product-link__description">støtter forvaltning av begreper som en del av virksomhetenes samlede informasjonsforvaltning.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/30-FIKS-Digiorden-produkt-canvas-v2-claude.md">Fiks digiorden</a></h3>
-      <p class="capability-product-link__description">gir kommunen styringsstøtte og samlet oversikt over applikasjoner, data og sentrale forvaltningsopplysninger.</p>
+      <p class="capability-product-link__description">er direkte relevant fordi løsningen brukes som styringsverktøy for å holde oversikt over applikasjoner, data og tilhørende forvaltningsinformasjon.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v2-codex.md">Helsedata.no</a></h3>
-      <p class="capability-product-link__description">Løsningen støtter datastyring ved å strukturere tilgangsinformasjon, roller og prosesser på tvers av flere dataforvaltere.</p>
+      <p class="capability-product-link__description">Løsningen støtter datastyring ved å strukturere tilgangsinformasjon, roller, prosessforventninger og metadata på tvers av mange dataforvaltere.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/48-Felles-studentsystem-produkt-canvas-v1-codex.md">Felles studentsystem (FS)</a></h3>
-      <p class="capability-product-link__description">FS forvalter og vedlikeholder store mengder studie- og studentdata som må struktureres og kvalitetssikres over tid.</p>
+      <p class="capability-product-link__description">er sentralt fordi FS forvalter, strukturerer og vedlikeholder store mengder studie- og studentdata som grunnlag for mange prosesser.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -46,23 +46,18 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/89-Rammeverk-for-informasjonsforvaltning-v2-codex.md">Rammeverk for informasjonsforvaltning</a></h3>
-      <p class="capability-product-link__description">Rammeverket gjør datastyring til et styrt virksomhetsområde ved å koble ansvar, metadata, orden i eget hus og delingsbehov til samme arbeidslogikk.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/89-Rammeverk-for-informasjonsforvaltning-v3-claude.md">Rammeverk for informasjonsforvaltning</a></h3>
+      <p class="capability-product-link__description">Rammeverket er den felles strukturen for roller, ansvar og kvalitetsarbeid som kapabiliteten beskriver. Veilederne Orden i eget hus, modenhetsmodellen, kvalitetsbeskrivelser for datasett og Internkontroll i praksis dekker ansvarsplassering, oversikt og systematisk kvalitetsarbeid, og rammeverket er det som setter dem sammen til ett løp.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/104-Orden-i-eget-hus-v2-claude.md">Orden i eget hus</a></h3>
-      <p class="capability-product-link__description">normerer ansvarsplassering, prosess og varig forvaltning av dataressursene gjennom steg 1 om forankring og steg 7 om å styre og forvalte</p>
+      <p class="capability-product-link__description">normerer ansvarsplassering, prosess og varig forvaltning av dataressursene. Steg 1 om forankring og steg 7 om å styre og forvalte er nettopp det rammeverket av roller, ansvar og rutiner som kapabiliteten beskriver.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/106-Nasjonal-verktoykasse-for-deling-av-data-v2-claude.md">Nasjonal verktøykasse for deling av data</a></h3>
       <p class="capability-product-link__description">Veilederen stiller krav til hvilke opplysninger et datasett skal beskrives med, og til at beskrivelsene holdes oppdatert over tid.</p>
-    </article>
-    <article class="capability-product-link resource-type--normative">
-      <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/109-Kapabilitetskart-planlagt-v2-codex.md">Kapabilitetskart (planlagt)</a></h3>
-      <p class="capability-product-link__description">Kapabilitetskartet gjør det lettere å koble informasjonsbehov, datadeling og ressursvalg til mer presise utviklings- og styringsbehov.</p>
     </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
@@ -72,7 +67,7 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/130-Dodsarsaksregisteret-produkt-canvas-v2-codex.md">Dødsårsaksregisteret</a></h3>
-      <p class="capability-product-link__description">Registeret understøtter nasjonal styring av et kritisk folkehelsedomene ved å tilby standardiserte, dokumenterte og kvalitetssikrede data.</p>
+      <p class="capability-product-link__description">Ressursen understøtter nasjonal datastyring av et kritisk helsedomene gjennom standardiserte variabler, lovforankret formål og kontrollert tilgang.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -82,12 +77,12 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v2-codex.md">Norsk pasientregister (NPR)</a></h3>
-      <p class="capability-product-link__description">NPR understøtter nasjonal styring og finansiering av spesialisthelsetjenesten gjennom systematisk innsamling og forvaltning av aktivitetsdata.</p>
+      <p class="capability-product-link__description">NPR understøtter nasjonal datastyring ved å standardisere innrapportering, samle data i én nasjonal kilde og bruke dette som grunnlag for finansiering, kvalitet og oppfølging.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v2-codex.md">Kommunalt pasient- og brukerregister (KPR)</a></h3>
-      <p class="capability-product-link__description">KPR understøtter nasjonal styring og finansiering av kommunale helse- og omsorgstjenester gjennom systematisk dataforvaltning.</p>
+      <p class="capability-product-link__description">KPR understøtter datastyring ved å strukturere nasjonal rapportering, samle data i ett register og bruke dette som grunnlag for oppfølging, finansiering og utvikling.</p>
     </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>

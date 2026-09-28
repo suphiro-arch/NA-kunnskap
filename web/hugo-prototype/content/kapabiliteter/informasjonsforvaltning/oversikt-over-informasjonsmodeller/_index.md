@@ -12,12 +12,12 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/13-Felles-datakatalog-produkt-canvas-v3-codex.md">Felles datakatalog</a></h3>
-      <p class="capability-product-link__description">gjør det mulig å synliggjøre modeller som forklarer struktur og sammenheng i dataene</p>
+      <p class="capability-product-link__description">gjør det mulig å synliggjøre modeller som forklarer struktur og sammenheng i dataene.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/16-data-norge-no-produkt-canvas-v4-codex.md">data.norge.no</a></h3>
-      <p class="capability-product-link__description">synliggjør modeller som kan brukes til semantisk avklaring og bedre tolkning</p>
+      <p class="capability-product-link__description">synliggjør modeller som kan brukes til semantisk avklaring og bedre tolkning.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
