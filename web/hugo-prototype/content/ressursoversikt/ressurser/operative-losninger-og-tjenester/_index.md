@@ -67,6 +67,7 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Gjenbruk
         <option value="Signering">Signering</option>
         <option value="Sikring av informasjonsflyt og datautveksling">Sikring av informasjonsflyt og datautveksling</option>
         <option value="Sporbarhet og innsyn">Sporbarhet og innsyn</option>
+        <option value="Testdata">Testdata</option>
         <option value="Tilgangskontroll">Tilgangskontroll</option>
         <option value="Tilgangsstyring">Tilgangsstyring</option>
         <option value="Tjenestedesign">Tjenestedesign</option>
@@ -77,7 +78,7 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Gjenbruk
         <option value="&#197;pne data">&#197;pne data</option>
       </select></label>
     </div>
-    <p class="resource-filters__result" data-role="count">Viser 103 av 103 ressurser</p>
+    <p class="resource-filters__result" data-role="count">Viser 104 av 104 ressurser</p>
   </div>
   <div class="resource-cards">
 <article class="resource-card" data-owner="DIGDIR" data-type="Gjenbrukbare l&#248;sninger" data-capabilities="sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester" data-emne="Innlogging og identitet" data-search="id-porten digdir-001 digdir digdir gjenbrukbare l&#248;sninger gjenbrukbare l&#248;sninger id-porten er den nasjonale fellesl&#248;sningen for sikker innlogging til offentlige digitale tjenester. l&#248;sningen gir innbyggere &#233;n gjenkjennelig inngang til tjenester p&#229; tvers av virksomheter, og gir tjenesteeiere en felles autentiseringskomponent i stedet for lokale innloggingsl&#248;sninger. id-porten er s&#230;rlig relevant n&#229;r... sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester innlogging og identitet">
@@ -903,6 +904,14 @@ Denne siden viser siste registrerte versjon av ressurser i kategorien **Gjenbruk
   <p class="resource-card__description">Simpl er Europakommisjonens &#229;pne mellomvareplattform for felles europeiske dataomr&#229;der og for f&#248;derasjoner fra sky til kant. Plattformen skal gj&#248;re det mulig &#229; dele data p&#229; tvers av datainfrastrukturer og tjenester uten at dataeieren gir fra seg kontrollen over hvem som f&#229;r tilgang til hva. Simpl er modul&#230;r og bygget...</p>
   <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a> <a class="capability-chip" href="../../../kapabiliteter/tjenesteutvikling/gjenbrukbare-tjenester/">Gjenbrukbare tjenester</a> <a class="capability-chip" href="../../../kapabiliteter/standardisering/eu-standarder/">EU standarder</a></div>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/166-Simpl-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://digital-strategy.ec.europa.eu/en/policies/simpl">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="SKATT" data-type="Gjenbrukbare l&#248;sninger" data-capabilities="testdata utviklings- og kj&#248;retidsmilj&#248; dele data med andre" data-emne="Syntetiske testdata" data-search="tenor testdatas&#248;k skatt-003 skatt skatteetaten gjenbrukbare l&#248;sninger gjenbrukbare l&#248;sninger tenor testdatas&#248;k er en s&#248;kel&#248;sning som gir tilgang til syntetiske testdata fra test-norge. test-norge er en syntetisk parallellverden med over &#233;n million innbyggere som har syntetiske personnumre, virksomheter, inntekter, arbeidsforhold og kj&#248;ret&#248;y, bygget slik at de speiler kompleksiteten i reelle data uten &#229;... testdata utviklings- og kj&#248;retidsmilj&#248; dele data med andre syntetiske testdata">
+  <h2 class="resource-card__title">Tenor testdatas&#248;k</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>SKATT-003</code> | <strong>Siste versjon:</strong> v1 (claude)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> Skatteetaten | <strong>Type:</strong> Gjenbrukbare l&#248;sninger</p>
+  <p class="resource-card__description">Tenor testdatas&#248;k er en s&#248;kel&#248;sning som gir tilgang til syntetiske testdata fra Test-Norge. Test-Norge er en syntetisk parallellverden med over &#233;n million innbyggere som har syntetiske personnumre, virksomheter, inntekter, arbeidsforhold og kj&#248;ret&#248;y, bygget slik at de speiler kompleksiteten i reelle data uten &#229;...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../../../kapabiliteter/datakilder/testdata/">Testdata</a> <a class="capability-chip" href="../../../kapabiliteter/tjenesteutvikling/utviklings-og-kjoretidsmiljo/">Utviklings- og kj&#248;retidsmilj&#248;</a> <a class="capability-chip" href="../../../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/167-Tenor-testdatasok-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.skatteetaten.no/testdata/">Offisiell lenke</a></p>
 </article>
   </div>
   <script>

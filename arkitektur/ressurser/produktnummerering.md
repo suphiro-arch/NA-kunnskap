@@ -269,6 +269,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 |---:|---|---|---|---|---|---|
 | 37 | `SKATT-001` | Folkeregisteret | Gjenbrukbare løsninger | Persondata | Grunndata<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/37-Folkeregisteret-produkt-canvas-v1-codex.md) |
 | 38 | `SKATT-002` | Skatteetatens delingstjenester | Gjenbrukbare løsninger | API-basert deling | Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/38-Skatteetatens-delingstjenester-produkt-canvas-v1-codex.md) |
+| 167 | `SKATT-003` | Tenor testdatasøk | Gjenbrukbare løsninger | Syntetiske testdata | Testdata<br>Utviklings- og kjøretidsmiljø<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/167-Tenor-testdatasok-v1-claude.md) |
 
 
 

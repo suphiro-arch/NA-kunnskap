@@ -6220,6 +6220,46 @@
                     "explanation": "Komponentene er bygget for å følge EU-standarder for datakvalitet og datadeling, og gjør dem dermed praktisk anvendelige i konkrete løsninger framfor bare dokumenterte."
                 }
             ]
+        },
+        {
+            "product_id": 167,
+            "product_name": "Tenor testdatasøk",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/167-Tenor-testdatasok-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/167-Tenor-testdatasok-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-68ec332ee94c483e878a3a2ae903863f",
+                    "subcapability_name": "Testdata",
+                    "subcapability_slug": "testdata",
+                    "mapping_label": "Datakilder: Testdata",
+                    "explanation": "genererer og tilgjengeliggjør representative og personvernsikre datasett, som er kapabilitetens kjerne. Test-Norge speiler statistiske egenskaper i reelle registerdata uten å inneholde personopplysninger, og Tenor er inngangen til det grunnlaget."
+                },
+                {
+                    "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
+                    "capability_name": "Tjenesteutvikling",
+                    "capability_slug": "tjenesteutvikling",
+                    "subcapability_id": "id-ce84b9b6943f4789bca153c0ed15245a",
+                    "subcapability_name": "Utviklings- og kjøretidsmiljø",
+                    "subcapability_slug": "utviklings-og-kjoretidsmiljo",
+                    "mapping_label": "Tjenesteutvikling: Utviklings- og kjøretidsmiljø",
+                    "explanation": "inngår som felles verktøy i verktøykassen for utvikling av digitale tjenester. Uten et felles testdatagrunnlag må hver virksomhet bygge og vedlikeholde sitt eget, og testdata blir en kostnad i hvert enkelt utviklingsløp framfor en delt byggekloss."
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "tilgjengeliggjør testdataene som et dokumentert og sikret API, slik at andre virksomheter kan finne og gjenbruke dem i egne automatiserte tester i stedet for å hente dem manuelt."
+                }
+            ]
         }
     ]
 }

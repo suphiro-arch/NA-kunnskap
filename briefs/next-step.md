@@ -274,6 +274,13 @@ med her slik at neste gjennomgang slipper å gjøre vurderingen på nytt:
 
 Ikke besluttet, ikke påbegynt. Står her for ikke å gå tapt, ikke som forpliktelse.
 
+- **NAVs `testnorge` og `Dolly` som egen ressurskandidat.** Dukket opp under arbeidet med `167`
+  Tenor 2026-09-28. `navikt/testnorge` er NAVs egne orkestreringsapper over syntetiske testdata,
+  med selvbetjeningsløsningen `Dolly` og et «Mini-Norge» på rundt 200 000 testpersoner. Løsningen
+  vant Datatilsynets pris for innebygd personvern i 2019. Dette er noe annet enn Skatteetatens
+  Test-Norge, tross navnelikheten. Uavklart om den har bred nok tverrsektoriell rolle til å høre
+  hjemme i porteføljen, eller om den er NAV-intern verktøystøtte.
+
 - **Forhåndsvisning av nettstedet før publisering.** En egen arbeidsflyt som bygger på branch og
   laster opp resultatet som artefakt, slik at endringer kan ses før de treffer `main`. Vurdert
   2026-09-01 og lagt bort inntil videre til fordel for å prøve og feile direkte mot `main`.
