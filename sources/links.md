@@ -127,6 +127,7 @@ Sist redigert: 2026-06-17.
 - Medfinansieringsordningen - søknad: https://www.digdir.no/finansiering/soknad-om-medfinansiering/1963 (lagt til 2026-09-28)
 - Medfinansieringsordningen - retningslinjer (PDF): https://www.digdir.no/media/3754/download (lagt til 2026-09-28)
 - Medfinansieringsordningen - prosjekter med støtte: https://www.digdir.no/finansiering/prosjekt-med-stotte-fra-medfinansieringsordningen/884 (lagt til 2026-09-28)
+- Medfinansieringsordningen - Skatteetaten, nasjonal tilgang til syntetiske persondata for testformål: https://www.digdir.no/medfinansieringsordningen/skatteetaten-nasjonal-tilgang-til-syntetiske-persondata-testformal/994 (lagt til 2026-09-29)
 - Tildelingsbrev 2026 til Digdir (PDF): https://www.regjeringen.no/contentassets/9c922694cba941a5884132809284fe07/2026-tildelingsbrev-digitaliseringsdirektoratet.pdf (lagt til 2026-09-28)
 - DFØ-notat 2025:2 - tilskudds- og finansieringsordninger: https://www.dfo.no/3-tilskudds-og-finansieringsordninger (lagt til 2026-09-28)
 - Faglig arena for informasjonsforvaltning og deling av data: https://www.digdir.no/informasjonsforvaltning/faglig-arena-informasjonsforvaltning-og-deling-av-data/3543 (lagt til 2026-04-10)
@@ -334,6 +335,10 @@ Sist redigert: 2026-06-17.
 
 ### Skatteetaten
 - Skatteetaten på GitHub, API-dokumentasjon og spesifikasjoner: https://github.com/Skatteetaten (lagt til 2026-09-05)
+- Tenor testdatasøk: https://www.skatteetaten.no/testdata/ (lagt til 2026-09-29)
+- Tenor testdatasøk, teknisk dokumentasjon: https://skatteetaten.github.io/testnorge-tenor-dokumentasjon/ (lagt til 2026-09-29)
+- Tenor testdatasøk, kildeoversikt: https://skatteetaten.github.io/testnorge-tenor-dokumentasjon/kilder/ (lagt til 2026-09-29)
+- Tenor testdatasøk i Skatteetatens API-dokumentasjon: https://skatteetaten.github.io/api-dokumentasjon/en/test/tenor (lagt til 2026-09-29)
 - Folkeregisteret: https://www.skatteetaten.no/person/folkeregister/
 - Dette er Folkeregisteret: https://www.skatteetaten.no/person/folkeregister/om/om/ (lagt til 2026-03-27)
 - A-ordningen: https://www.a-ordningen.no/ (lagt til 2026-03-19)
@@ -713,6 +718,7 @@ Sist redigert: 2026-06-17.
 
 ### Informasjonssikkerhet og personvern
 - Sikkert.no: https://www.sikkert.no/ (lagt til 2026-03-18)
+- Sikkert.no - om portalen og samarbeidet: https://www.sikkert.no/om-oss (lagt til 2026-09-29)
 - Sikkert.no for bedrifter: https://www.sikkert.no/bedrift (lagt til 2026-03-18)
 - Sikkert.no for offentlig sektor: https://www.sikkert.no/offentlig (lagt til 2026-03-18)
 - Grunnprinsipper for sikkerhet: https://www.sikkert.no/bedrift/artikler/grunnprinsipper-for-sikkerhet (lagt til 2026-03-18)

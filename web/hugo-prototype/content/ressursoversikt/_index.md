@@ -18,7 +18,7 @@ hideSectionOverview: true
   <article class="resource-type-card">
     <h3><a href="ressurser/normerende-ressurser/">Standarder og veiledning</a></h3>
     <p>Ressurser som setter regler eller gir retning, som standarder, veiledere, referansearkitekturer og metodikk.</p>
-    <p class="resource-type-card__count">34 ressurser</p>
+    <p class="resource-type-card__count">35 ressurser</p>
   </article>
   <article class="resource-type-card">
     <h3><a href="ressurser/samarbeidsfora/">Samhandlingsarenaer og organisering</a></h3>
@@ -118,7 +118,7 @@ hideSectionOverview: true
         <option value="&#197;pne data">&#197;pne data</option>
       </select></label>
     </div>
-    <p class="resource-filters__result" data-role="count">Viser 159 av 159 ressurser</p>
+    <p class="resource-filters__result" data-role="count">Viser 160 av 160 ressurser</p>
   </div>
   <div class="resource-cards">
 <article class="resource-card" data-owner="DIGDIR" data-type="Gjenbrukbare l&#248;sninger" data-capabilities="sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester" data-emne="Innlogging og identitet" data-search="id-porten digdir-001 digdir digdir gjenbrukbare l&#248;sninger gjenbrukbare l&#248;sninger id-porten er den nasjonale fellesl&#248;sningen for sikker innlogging til offentlige digitale tjenester. l&#248;sningen gir innbyggere &#233;n gjenkjennelig inngang til tjenester p&#229; tvers av virksomheter, og gir tjenesteeiere en felles autentiseringskomponent i stedet for lokale innloggingsl&#248;sninger. id-porten er s&#230;rlig relevant n&#229;r... sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester innlogging og identitet">
@@ -1438,6 +1438,15 @@ hideSectionOverview: true
   <p class="resource-card__description">Tenor testdatas&#248;k er en s&#248;kel&#248;sning som gir tilgang til syntetiske testdata fra Test-Norge. Test-Norge er en syntetisk parallellverden med over &#233;n million innbyggere som har syntetiske personnumre, virksomheter, inntekter, arbeidsforhold og kj&#248;ret&#248;y, bygget slik at de speiler kompleksiteten i reelle data uten &#229;...</p>
   <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/datakilder/testdata/">Testdata</a> <a class="capability-chip" href="../kapabiliteter/tjenesteutvikling/utviklings-og-kjoretidsmiljo/">Utviklings- og kj&#248;retidsmilj&#248;</a> <a class="capability-chip" href="../kapabiliteter/datautveksling-og-integrasjon/dele-data-med-andre/">Dele data med andre</a></div>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/167-Tenor-testdatasok-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.skatteetaten.no/testdata/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="FLERE" data-type="Standarder og veiledning" data-capabilities="utvikling og formidling av veiledning organisatorisk samhandling" data-emne="Felles myndighetsportal for digital sikkerhet" data-search="sikkert.no flere-007 flere flere virksomheter standarder og veiledning standarder og veiledning sikkert.no er en felles myndighetsportal for digital sikkerhet, utviklet av nasjonal sikkerhetsmyndighet i tett samarbeid med datatilsynet, digitaliseringsdirektoratet og politiet. portalen samler r&#229;d og veiledning som tidligere l&#229; spredt hos den enkelte etaten, og henviser videre til riktig myndighet. innholdet er... utvikling og formidling av veiledning organisatorisk samhandling felles myndighetsportal for digital sikkerhet">
+  <h2 class="resource-card__title">Sikkert.no</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>FLERE-007</code> | <strong>Siste versjon:</strong> v1 (claude)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> Flere virksomheter | <strong>Type:</strong> Standarder og veiledning</p>
+  <p class="resource-card__description">Sikkert.no er en felles myndighetsportal for digital sikkerhet, utviklet av Nasjonal sikkerhetsmyndighet i tett samarbeid med Datatilsynet, Digitaliseringsdirektoratet og Politiet. Portalen samler r&#229;d og veiledning som tidligere l&#229; spredt hos den enkelte etaten, og henviser videre til riktig myndighet. Innholdet er...</p>
+  <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Fakta: NSM beskriver form&#229;let som &#229; styrke Norges digitale motstandskraft ved &#229; gi &#171;tydelige, like og korrekte r&#229;d om digital sikkerhet&#187;.</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/veiledning/utvikling-og-formidling-av-veiledning/">Utvikling og formidling av veiledning</a> <a class="capability-chip" href="../kapabiliteter/samarbeid/organisatorisk-samhandling/">Organisatorisk samhandling</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/168-sikkert-no-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.sikkert.no/">Offisiell lenke</a></p>
 </article>
   </div>
   <script>

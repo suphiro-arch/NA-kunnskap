@@ -4,7 +4,7 @@ headerTitle: "Samarbeid - Organisatorisk samhandling"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å effektivisere forretningsprosesser og verdikjeder på tvers av organisatoriske grenser. ### Begrunnelse (Hvorfor) For å lage sammenhengende tjenester må uavhengige etater og virksomheter fungere som ett lag. Denne hovedkapabiliteten sikrer tverrgående styring og finansiering nasjonalt. Det skal bidra til å minske at virksomheter prioriterer egne, interne oppgaver framfor helhetlige brukerreiser som krever samarbeid. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Overordnede rammeverk for samarbeidsavtaler og nasjonale føringer, som Digitaliseringsrundskrivet, regulerer plikten til å samhandle og dele data. - **Organisatorisk (Svært høy vekt):** Nasjonale styringsmodeller, samstyring, finansieringsordninger og porteføljestyring avklarer strategisk ansvar, prioriteringer og spilleregler for samarbeid. - **Semantisk (Middels vekt):** Felles forståelse av organisatoriske roller, ansvar, eierskap og tjenestekjeder gjør det tydelig hvem som har ansvar på tvers av sektorer og livshendelser. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten bygger bro mellom organisatoriske siloer og sikrer bredere enighet om prioriteringer, ansvar og økonomi på forhånd. Dette gir operative team mandatet de trenger for å utvikle sømløse tjenester på tvers av virksomheter. For sluttbrukeren betyr det at offentlig sektor i større grad kan opptre som én samordnet aktør, selv om tjenestene leveres av flere uavhengige virksomheter."
-cardMeta: "25 produkter"
+cardMeta: "26 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -133,6 +133,11 @@ productsMarkdown: |
       <p class="capability-product-link__type">Samarbeidsforum</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/163-DigiUng-v1-claude.md">DigiUng</a></h3>
       <p class="capability-product-link__description">Samarbeidet er selve mekanismen som får virksomheter fra sju departementsområder til å levere inn i samme brukerflate.</p>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/168-sikkert-no-v1-claude.md">Sikkert.no</a></h3>
+      <p class="capability-product-link__description">gjør prosessen med å få hjelp eller melde fra om en hendelse enklere på tvers av etatsgrensene. Portalen tydeliggjør hvilken myndighet som håndterer hva, slik at brukeren slipper å kjenne ansvarsdelingen mellom NSM, Politiet, Datatilsynet og Digdir på forhånd.</p>
     </article>
   </div>
 ---

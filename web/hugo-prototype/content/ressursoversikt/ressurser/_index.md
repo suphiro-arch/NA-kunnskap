@@ -18,7 +18,7 @@ Antall ressurser: **104**
 
 Ressurser som setter regler eller gir retning, som standarder, veiledere, referansearkitekturer og metodikk.
 
-Antall ressurser: **34**
+Antall ressurser: **35**
 
 ## [Samhandlingsarenaer og organisering](./samarbeidsfora/)
 

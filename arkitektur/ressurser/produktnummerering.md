@@ -311,6 +311,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 | 146 | `FLERE-004` | Nasjonal indeks for digital inkludering | Standarder og veiledning | Måleverktøy og kunnskapsgrunnlag | Dataanalyse<br>Samordning | [Åpne](../../arkitektur/ressurser/normerende-ressurser/146-Nasjonal-indeks-for-digital-inkludering-v1-claude.md) |
 | 156 | `FLERE-005` | DigiHelsestasjon | Gjenbrukbare løsninger | Digital dialog med helsestasjon og skolehelsetjeneste | Sammenhengende tjenester<br>Meldingsutveksling<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/156-DigiHelsestasjon-v1-claude.md) |
 | 163 | `FLERE-006` | DigiUng | Samhandlingsarenaer og organisering | Tverrsektorielt samarbeid om digitale tjenester for ungdom | Organisatorisk samhandling<br>Samarbeidsarenaer og nettverk<br>Sammenhengende tjenester<br>Tjenestedesign | [Åpne](../../arkitektur/ressurser/samarbeidsfora/163-DigiUng-v1-claude.md) |
+| 168 | `FLERE-007` | Sikkert.no | Standarder og veiledning | Felles myndighetsportal for digital sikkerhet | Utvikling og formidling av veiledning<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/normerende-ressurser/168-sikkert-no-v1-claude.md) |
 
 
 

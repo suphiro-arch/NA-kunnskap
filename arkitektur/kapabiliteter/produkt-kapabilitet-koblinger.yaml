@@ -6260,6 +6260,36 @@
                     "explanation": "tilgjengeliggjør testdataene som et dokumentert og sikret API, slik at andre virksomheter kan finne og gjenbruke dem i egne automatiserte tester i stedet for å hente dem manuelt."
                 }
             ]
+        },
+        {
+            "product_id": 168,
+            "product_name": "Sikkert.no",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/168-sikkert-no-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/168-sikkert-no-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-c0547226c598467a942dced879d0c18b",
+                    "capability_name": "Veiledning",
+                    "capability_slug": "veiledning",
+                    "subcapability_id": "id-0bfa29018e7144578b2184e70414b7e8",
+                    "subcapability_name": "Utvikling og formidling av veiledning",
+                    "subcapability_slug": "utvikling-og-formidling-av-veiledning",
+                    "mapping_label": "Veiledning: Utvikling og formidling av veiledning",
+                    "explanation": "utarbeider, kvalitetssikrer og tilgjengeliggjør veiledning om digital sikkerhet, tilpasset tre definerte målgrupper. Dette er portalens kjernefunksjon, og den omsetter regelverk og fagkunnskap fra fire etater til råd som kan brukes direkte."
+                },
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
+                    "subcapability_name": "Organisatorisk samhandling",
+                    "subcapability_slug": "organisatorisk-samhandling",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "gjør prosessen med å få hjelp eller melde fra om en hendelse enklere på tvers av etatsgrensene. Portalen tydeliggjør hvilken myndighet som håndterer hva, slik at brukeren slipper å kjenne ansvarsdelingen mellom NSM, Politiet, Datatilsynet og Digdir på forhånd."
+                }
+            ]
         }
     ]
 }
