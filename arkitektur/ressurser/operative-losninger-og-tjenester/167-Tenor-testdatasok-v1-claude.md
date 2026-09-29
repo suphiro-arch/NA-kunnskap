@@ -139,6 +139,10 @@ Tenor brukes typisk sammen med den fellesløsningen som faktisk skal testes. Dig
 
 Løsningen har også en kobling til `142` Medfinansieringsordningen, som finansierte etableringen. Den koblingen er historisk og forklarer hvordan løsningen ble til, men er ikke en driftsavhengighet.
 
+**Kildekode:** Ikke offentlig dokumentert. Skatteetaten publiserer flere repositorier på GitHub som hører til testdataområdet, blant annet `Skatteetaten/tdg-backend` for generering av syntetiske testdata og `Skatteetaten/testnorge-tenor-adapter` som eksempelintegrasjon mot Tenors kildeeier-API. Selve søkeløsningen Tenor ser ikke ut til å være publisert som åpen kildekode.
+
+**Lisens:** Ikke offentlig dokumentert for selve søkeløsningen. Kontrollert mot repositoriene: `tdg-backend` er `Apache-2.0`, mens `testnorge-tenor-adapter` ikke har lisensangivelse. Ingen av dem er Tenors egen kildekode, så lisensen deres sier ikke noe om vilkårene for løsningen.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data**
   Tenor gjør syntetiske data fra flere etater tilgjengelige gjennom ett felles inngangspunkt, i stedet for at hver virksomhet henter dem kildevis.
