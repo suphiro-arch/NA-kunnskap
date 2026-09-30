@@ -20,14 +20,15 @@ Vil du bruke innholdet mot din egen problemstilling i et KI-verktøy, står opps
 
 | Mappe | Innhold |
 | --- | --- |
-| `arkitektur/ressurser/` | ressursbeskrivelser, fordelt på gjenbrukbare løsninger, standarder og veiledning, samhandlingsarenaer og organisering, og økonomiske eller juridiske rammer og virkemidler |
+| `arkitektur/ressurser/` | registeret, styringsreglene og ressursbeskrivelsene, fordelt på `operative-losninger-og-tjenester/` (gjenbrukbare løsninger), `normerende-ressurser/` (standarder og veiledning), `samarbeidsfora/` (samhandlingsarenaer og organisering) og `rammer-og-virkemidler/` (økonomiske eller juridiske rammer og virkemidler) |
 | `arkitektur/kapabiliteter/` | kapabilitetsstrukturen og koblingen mellom ressurser og kapabiliteter |
 | `arkitektur/prinsipper/` | arkitekturprinsipper og hvordan de henger på hovedkapabilitetene |
 | `arkitektur/maal/` | kuratert målspor for arkitekturmodellen |
-| `analyser/` | kapabilitetsanalyser, case-analyser og modenhetsanalyser |
-| `sources/` | råkilder og lenkelister, blant annet kapabilitetsmodellen i ArchiMate-format |
-| `briefs/` | arbeidsstyring, beslutningslogg og handover |
+| `Analyser/` | kapabilitetsanalyser og case-analyser, med modenhetsanalyser i egen undermappe |
+| `sources/` | råkilder, avviksrapporter og lenkelister, blant annet kapabilitetsmodellen i ArchiMate-format |
+| `briefs/` | arbeidsstyring, beslutningslogg og handover, med større arbeidsnotater i `arbeidsstyring-og-handover/` |
 | `config/` | systempromter, maler og språkregler som styrer innholdsarbeidet |
+| `tools/` | kontrollskriptene som kjøres i endringsarbeidet, og oppsett av lokale git-hooks |
 | `web/hugo-prototype/` | Hugo-kildekoden bak nettstedet |
 
 ## Mastergrunnlag
