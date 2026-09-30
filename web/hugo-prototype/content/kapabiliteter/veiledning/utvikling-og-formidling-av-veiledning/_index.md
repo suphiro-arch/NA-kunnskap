@@ -96,8 +96,8 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/147-Regulatorisk-sandkasse-for-kunstig-intelligens-v1-claude.md">Regulatorisk sandkasse for kunstig intelligens</a></h3>
-      <p class="capability-product-link__description">Sandkassen utvikler og publiserer veiledningsmateriale om personvern i KI-løsninger gjennom sluttrapporter fra hvert prosjekt.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/147-Regulatorisk-sandkasse-for-kunstig-intelligens-v2-claude.md">Regulatorisk sandkasse for kunstig intelligens</a></h3>
+      <p class="capability-product-link__description">Sandkassen utvikler og publiserer veiledningsmateriale om personvern i KI-løsninger gjennom sluttrapporter fra hvert prosjekt, og gjør enkeltvurderinger tilgjengelige som eksempelmateriale for andre.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>

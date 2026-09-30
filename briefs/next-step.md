@@ -32,6 +32,24 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
   - Referansearkitekturene for eMelding og eOppslag (`101` og `102`) er udaterte og beskriver
     situasjonen rundt 2020. Om Digdir planlegger revisjon, avklares enklest direkte.
   - Det er ikke kontrollert mot Referansekatalogen om spesifikasjonene i `89` er obligatoriske.
+  - Merking av fakta og deduksjon mangler fortsatt i fem gjeldende filer, målt 2026-09-30:
+    `113` Prosjektveiviseren, `148` Fremsyn, `149` Felles informasjonsmodeller, `151` Grep og
+    `82` VIGO Kodeverk. Alle fem er faglig solide og har forpliktelsesnivået avklart, og de bruker
+    deduksjon i teksten uten å merke den som delfelt. De er derfor bevisst ikke revidert i denne
+    runden, se [decisions.md](./decisions.md) 2026-09-30. Merkene tas ved neste ordinære revisjon
+    av hver fil, sammen med nytt kildegrunnlag.
+  - Målt status for kategorien 2026-09-30, til bruk i neste runde: 35 gjeldende filer, median
+    rundt 1980 ord, ingen kapabilitetspunkter uten forklaring, og fem filer uten merking. Det er
+    et vesentlig bedre utgangspunkt enn kartleggingen 2026-09-10 beskrev, og mønstersøket etter
+    de fire faste manglene gir nå lite utbytte. Neste runde bør heller gå på kildekontroll, som
+    var det som faktisk ga funn både 2026-09-25 og 2026-09-30.
+- Vurdere den nasjonale regulatoriske KI-sandkassen som egen ressurs. Den etableres etter
+  KI-forordningen artikkel 57 og 58, drives i formelt samarbeid mellom Digdir, Datatilsynet og
+  Nkom, og plasseres organisatorisk hos Digdir som del av `KI Norge`. Loven ventes å gjelde fra
+  sensommeren 2026. Den er ikke den samme ressursen som `DTIL-001` Datatilsynets sandkasse: ulik
+  hjemmel, ulikt omfang og ulik forvalter, se [decisions.md](./decisions.md) 2026-09-30. Avklar
+  samtidig hva som skjer med `DTIL-001` når den nye ordningen er på plass, siden kildene ikke sier
+  om den videreføres, går inn i den nye eller avvikles.
 - Følge ordningene i `rammer-og-virkemidler/` som endrer seg fra år til år, etter revisjonen av
   `141` og `142` 2026-09-28:
   - `142` Medfinansieringsordningen: Digdir skulle foreslå reviderte retningslinjer med virkning

@@ -66,8 +66,8 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/146-Nasjonal-indeks-for-digital-inkludering-v1-claude.md">Nasjonal indeks for digital inkludering</a></h3>
-      <p class="capability-product-link__description">Indeksen er utviklet i samarbeid mellom to myndigheter og gir et felles kunnskapsgrunnlag som flere aktører kan prioritere ut fra.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/146-Nasjonal-indeks-for-digital-inkludering-v2-claude.md">Nasjonal indeks for digital inkludering</a></h3>
+      <p class="capability-product-link__description">Indeksen er utviklet i samarbeid mellom to myndigheter og gir et felles kunnskapsgrunnlag som flere aktører kan prioritere ut fra, framfor at hver sektor måler digital inkludering på sin egen måte.</p>
     </article>
   </div>
 ---

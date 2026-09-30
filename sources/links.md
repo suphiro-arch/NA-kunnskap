@@ -734,6 +734,9 @@ Sist redigert: 2026-06-17.
 - Datatilsynets regulatoriske sandkasse for kunstig intelligens: https://www.datatilsynet.no/regelverk-og-verktoy/sandkasse-for-kunstig-intelligens/ (lagt til 2026-08-28)
 - Sandkasse for kunstig intelligens - spørsmål og svar: https://www.datatilsynet.no/regelverk-og-verktoy/sporsmal-svar/sandkasse-for-kunstig-intelligens/ (lagt til 2026-08-28)
 - Sandbox for artificial intelligence (engelsk versjon): https://www.datatilsynet.no/en/regulations-and-tools/sandbox-for-artificial-intelligence/ (lagt til 2026-08-28)
+- Rammeverk for Datatilsynets sandkasse: https://www.datatilsynet.no/en/regulations-and-tools/sandbox-for-artificial-intelligence/framework-for-the-regulatory-sandbox/ (lagt til 2026-09-30)
+- Rapporter fra sandkasseprosjektene: https://www.datatilsynet.no/en/regulations-and-tools/reports-on-specific-subjects/reports/ (lagt til 2026-09-30)
+- Nkom om den nasjonale regulatoriske KI-sandkassen etter KI-forordningen artikkel 57: https://nkom.no/ki/regulering/regulatorisk-sandkasse (lagt til 2026-09-30)
 - Veiledning for KI i offentlig sektor: https://www.digdir.no/kunstig-intelligens/veiledning-ki-i-offentlig-sektor/4132 (lagt til 2026-03-18)
 - Om Digdirs KI-veiledning: https://www.digdir.no/kunstig-intelligens/om-digdirs-ki-veiledning/4601 (lagt til 2026-03-18)
 - Råd for ansvarlig utvikling og bruk av kunstig intelligens i offentlig sektor: https://www.digdir.no/kunstig-intelligens/rad-ansvarlig-utvikling-og-bruk-av-kunstig-intelligens-i-offentlig-sektor/4272 (lagt til 2026-03-18)
@@ -786,7 +789,10 @@ Sist redigert: 2026-06-17.
 - Digital inkludering, Digdirs temaside: https://www.digdir.no/digital-inkludering/digital-inkludering/5760 (lagt til 2026-08-28)
 - Tilskudd til etablering av kommunale opplæringstilbud i digital kompetanse: https://www.digdir.no/finansiering/tilskudd-til-etablering-av-kommunale-opplaeringstilbud-i-digital-kompetanse-til-innbyggerne/5728 (lagt til 2026-08-28)
 - Nasjonal indeks for digital inkludering (DI-indeks): https://www.uutilsynet.no/innsikt-og-analyse/nasjonal-indeks-digital-inkludering-di-indeks/2897 (lagt til 2026-08-28)
-- Ny nasjonal indeks for digital inkludering: https://www.uutilsynet.no/innsikt-og-analyse/ny-nasjonal-indeks-digital-inkludering/2947 (lagt til 2026-08-28)
+- Ny nasjonal indeks for digital inkludering: https://www.uutilsynet.no/innsikt-og-analyse/ny-nasjonal-indeks-digital-inkludering/2947 (lagt til 2026-08-28, svarte 403 ved maskinell henting 2026-09-30)
+- DI-indeksen, metodebeskrivelse `Korleis har vi rekna?`: https://www.uutilsynet.no/innsikt-og-analyse/korleis-har-vi-rekna/2924 (lagt til 2026-09-30)
+- Pressemelding om ny nasjonal indeks for digital inkludering: https://www.uutilsynet.no/innsikt-og-analyse/pressemelding-ny-nasjonal-indeks-skal-male-digital-inkludering-i-noreg/3069 (lagt til 2026-09-30)
+- Nkom om digital inkludering: https://nkom.no/digital-inkludering (lagt til 2026-09-30)
 
 ### Universell utforming av ikt
 - Tilsynet for universell utforming av ikt: https://www.uutilsynet.no/ (lagt til 2026-09-04)
