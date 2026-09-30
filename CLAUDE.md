@@ -71,6 +71,13 @@ slugger og kode.
 ## Git
 
 - Ikke commit eller push uten at det er bedt om det.
+- Commit med eksplisitt filliste: `git commit -- <sti> <sti> -m ...`, aldri bare `git commit`.
+  Dette repoet har parallelle økter, og en bar commit tar med alt som ligger i indeksen, også det en
+  annen økt har staget i mellomtiden. Regelen i `AGENTS.md` om eksplisitt `git add` lukker ikke
+  dette hullet: det oppstår mellom `add` og `commit`, ikke i `add`.
+- Les kolonne 1 i `git status` rett før commit. Ligger det stagede filer du ikke har laget, lar du
+  dem stå og sier fra i oppsummeringen. Halvferdig arbeid fra en annen økt henger ofte sammen på
+  tvers av flere filer, så det å ta med «bare én av dem» gjør skaden verre, ikke mindre.
 - Git-identiteten skal være `suphiro-arch` med noreply-adresse. Ikke bruk jobbmail i
   commit-metadata.
 - Oppretter du en fil som register, kapabilitetsmapping eller publiseringsgrunnlag peker til, skal
