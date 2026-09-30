@@ -43,7 +43,7 @@ Fire filer er operativ master. Endres noe annet, skal disse følge etter i samme
 - [principles.md](arkitektur/prinsipper/principles.md): prinsipper og kobling til hovedkapabiliteter.
 
 Kapabiliteter, prinsipper og målspor er kuratert fra
-`sources/Nasjonal Arkitektur kapabilitetsmodell-2026-05-20.archimate`, som er modellversjonen
+`sources/Nasjonal Arkitektur kapabilitetsmodell-2026-09-30.archimate`, som er modellversjonen
 arbeidet så langt bygger på. Masterkilde for videre oppdatering av modellen er Digdirs rammeverk for
 nasjonal arkitektur: <https://digdir.github.io/nasjonal-arkitektur/>. Ved avvik er rammeverket
 autoritativt, og de kuraterte filene her skal justeres etter det.

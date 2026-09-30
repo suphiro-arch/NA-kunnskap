@@ -9,7 +9,7 @@ Denne mappa samler det strukturerte arkitekturgrunnlaget i repoet.
 - `ressurser/`: styringsgrunnlag og videre struktur for ressursområdet etter rammeverkskategoriene
 
 ## Kilde og kuratering
-- `sources/Nasjonal Arkitektur kapabilitetsmodell-2026-05-20.archimate` er råkilde for kapabilitets- og prinsippmodellen.
+- `sources/Nasjonal Arkitektur kapabilitetsmodell-2026-09-30.archimate` er råkilde for kapabilitets- og prinsippmodellen.
 - `kapabiliteter/capabilities.yaml` er repoets kuraterte arbeidsfil for kapabilitetsstrukturen.
 - `prinsipper/principles.md` er repoets kuraterte arbeidsfil for prinsipper og koblingen til hovedkapabiliteter.
 - `maal/maal.md` er repoets kuraterte arbeidsfil for målsporet i modellen.

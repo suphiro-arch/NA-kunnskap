@@ -27,8 +27,6 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
   planlagt. Det som gjenstår:
   - Registernavnet `Kapabilitetskart (planlagt)` for `109` stemmer ikke lenger, siden kartet er
     publisert i `digdir/nasjonal-arkitektur`.
-  - `capabilities.yaml` bygger på modellfila fra 2026-05-20, mens Digdir har publisert nyere
-    versjoner, sist 2026-09-02. Vurder om modellen skal oppdateres.
   - Referansearkitekturene for eMelding og eOppslag (`101` og `102`) er udaterte og beskriver
     situasjonen rundt 2020. Om Digdir planlegger revisjon, avklares enklest direkte.
   - Det er ikke kontrollert mot Referansekatalogen om spesifikasjonene i `89` er obligatoriske.
@@ -77,20 +75,12 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
 - Bruke regelen for `Veiledning`-kapabilitetene fra 2026-09-25 (se [decisions.md](./decisions.md))
   på de tre gjenværende veilederne som ikke har `Utvikling og formidling av veiledning`: `100`,
   `104` og `105`. Tas ved neste ordinære revisjon av hver fil framfor som egne versjoner.
-- Følge opp funnene fra lisensryddingen 2026-09-30, som er gjennomført for `41`, `42`, `43`, `55`,
-  `72`, `82`, `83`, `94`, `149`, `151`, `164` og `166`. Det som gjenstår er ikke dokumentasjon, men
-  avklaringer med forvalterne:
-  - `83` FINT Arkivintegrasjoner: `fint-flyt`-repoene er offentlige, men ingen av de kontrollerte
-    har lisensfil. Koden kan derfor ikke trygt gjenbrukes utenfor Novari. Bør tas opp med Novari,
-    som allerede publiserer `fint-informasjonsmodell` under `MIT`.
-  - `94` Fiks protokoll: `MIT` på spesifikasjonen og de sentrale klientene, ingen lisens på
-    `fiks-arkiv`, `fiks-politiskbehandling` og `fiks-plan-client-dotnet`. Bør tas opp med KS.
-  - `82` VIGO Kodeverk: kodeverksbasen omtales som åpen, men uten oppgitt lisens.
-  - `55` Core Vocabularies: Kommisjonen oppgir `EUPL` uten versjon, og `SEMICeu`-repoene har ingen
-    lisensfil. Avviket er skrevet ut i fila.
-  - `45` OOTS og `53` EU Open Source Solutions Catalogue står fortsatt med `Ikke offentlig
-    dokumentert` på både `Kildekode` og `Lisens`. De var utenfor denne rundens avgrensning og er
-    ikke kontrollert mot repositorier.
+- Kontrollere `Kildekode` og `Lisens` for `45` OOTS og `53` EU Open Source Solutions Catalogue, som
+  står med `Ikke offentlig dokumentert` på begge felt. De var utenfor avgrensningen i
+  lisensryddingen 2026-09-30 og er ikke kontrollert mot repositorier. De øvrige tilfellene der
+  lisens mangler, `83` FINT Arkivintegrasjoner, `94` Fiks protokoll, `82` VIGO Kodeverk og `55` Core
+  Vocabularies, er ferdig behandlet: manglende lisensangivelse i åpne kilder er svaret, ikke et hull
+  som skal lukkes gjennom henvendelser til forvalterne, se [decisions.md](./decisions.md) 2026-09-30.
 - Rydde den gamle fila `137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v1-codex.md`, som
   fortsatt ligger i `normerende-ressurser/` selv om ressursen er flyttet til
   `rammer-og-virkemidler/`. Den er historikk og røres ikke av kontrollene, men plasseringen er
@@ -270,6 +260,13 @@ med her slik at neste gjennomgang slipper å gjøre vurderingen på nytt:
 - `NOKIOS`, `Digitaliseringskonferansen` og `eIDAS-konferansen`: arrangementer, ikke ressurser.
 
 ### Register og kontroller
+
+- Følge nye versjoner av kapabilitetsmodellen i `digdir/nasjonal-arkitektur`. Modellen ble oppdatert
+  til `2026-09-30` samme dag, og differanseanalysen viste at fire modellversjoner ga to endrede
+  beskrivelser og null endringer i kapabiliteter, mål og prinsipper. Arbeidsmåten som fungerte:
+  sammenlign kapabiliteter på id framfor navn, skill ut elementer i mappa `Strategy / Metamodell`,
+  og kontroller at id-settet i `capabilities.yaml` er identisk med modellens reelle kapabiliteter
+  før noe endres. Det tar minutter og gjør oppdateringen trygg.
 
 - Utvide [check-resource-version-sync.py](../tools/check-resource-version-sync.py) slik at
   ressursfiler og mapping-oppføringer uten rad i registeret fanges. Kontrollen validerer i dag at
