@@ -139,9 +139,11 @@ Avhengigheter som ikke er kapabiliteter her: `Fiks melding` leverer meldingsutve
 - Noark-baserte sak- og arkivsystemer i kommunen, som er motparten for `Fiks arkiv`.
 - `FINT Arkivintegrasjoner` som den fylkeskommunale parallellen til det samme behovet.
 
-**Kildekode:** Ikke offentlig dokumentert. Kildene i denne arbeidsøkten sier ikke om grensesnittspesifikasjonene eller implementasjonene er publisert som åpen kildekode.
+**Kildekode:** Åpen kildekode. KS publiserer grensesnittspesifikasjoner, klientbiblioteker og en valideringstjeneste som offentlige repositorier i organisasjonen `ks-no` på GitHub, blant annet `fiks-arkiv-specification`, `fiks-protokoll-validator`, `fiks-arkiv-client-dotnet`, `fiks-arkiv-client-java`, `fiks-politiskbehandling` og `fiks-plan-client-dotnet`.
 
-**Lisens:** Ikke offentlig dokumentert.
+**Lisens:** Blandet. Kontrollert mot repositoriene 30. september 2026: `fiks-arkiv-specification`, `fiks-protokoll-validator`, `fiks-arkiv-client-dotnet` og `fiks-arkiv-client-java` oppgir `MIT`, mens `fiks-arkiv`, `fiks-politiskbehandling` og `fiks-plan-client-dotnet` ikke har lisensfil. Spesifikasjonen og de sentrale klientene kan dermed gjenbrukes på kjente vilkår, mens flere av de øvrige repositoriene er publisert uten oppgitte vilkår og ikke uten videre kan gjenbrukes.
+
+**Repositorium:** https://github.com/ks-no/fiks-arkiv-specification
 
 ## Støtter arkitekturprinsipper
 - **P5: Del og gjenbruk løsninger**

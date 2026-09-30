@@ -133,6 +133,8 @@ Vokabularene publiseres på Interoperable Europe-portalen under SEMIC, med dokum
 
 Løsningene er gjort tilgjengelige under European Union Public Licence.
 
+**Lisens:** `EUPL`. Europakommisjonen oppgir at European Union Public Licence gjelder for løsningene, uten å angi versjon. Merk avviket: kontroll av utviklingsrepositoriene under `SEMICeu` på GitHub 30. september 2026 fant ingen lisensfil i `Core-Person`, `Core-Business`, `Core-Location` eller `CPSV-AP`. Lisensen er dermed oppgitt av forvalteren på portalen, men ikke bekreftet i repositoriene der vokabularene faktisk utvikles.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data**
   Felles semantikk er forutsetningen for at delte data faktisk kan brukes av mottakeren, ikke bare overføres.

@@ -77,16 +77,20 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
 - Bruke regelen for `Veiledning`-kapabilitetene fra 2026-09-25 (se [decisions.md](./decisions.md))
   på de tre gjenværende veilederne som ikke har `Utvikling og formidling av veiledning`: `100`,
   `104` og `105`. Tas ved neste ordinære revisjon av hver fil framfor som egne versjoner.
-- Fylle det valgfrie delfeltet `**Lisens:**` i de normerende ressursene der innholdet gjenbrukes
-  maskinelt: `72` FINT Informasjonsmodell, `82` VIGO Kodeverk, `149` Felles informasjonsmodeller og
-  `55` Core Vocabularies. `151` Grep og `164` Barnevernsfaglig kvalitetssystem oppgir allerede NLOD
-  i brødteksten og kan flyttes over til feltet. Kan gjøres uten versjonsløft, siden feltet er nytt
-  i malen.
-- Følge opp lisensfeltet i de operative filene som hadde det fra før: `41`, `42` og `43` sier
-  `Åpen kildekode` uten kontrollert lisens og uten `Repositorium`, og `166` Simpl oppgir EUPL-1.2
-  uten at det er kontrollert mot lisensfila. Vurdere også om `94` Fiks protokoll og `83` FINT
-  Arkivintegrasjoner har riktig `Kildekode`-status, siden relaterte spesifikasjoner og
-  `fint-flyt`-repoer er publisert.
+- Følge opp funnene fra lisensryddingen 2026-09-30, som er gjennomført for `41`, `42`, `43`, `55`,
+  `72`, `82`, `83`, `94`, `149`, `151`, `164` og `166`. Det som gjenstår er ikke dokumentasjon, men
+  avklaringer med forvalterne:
+  - `83` FINT Arkivintegrasjoner: `fint-flyt`-repoene er offentlige, men ingen av de kontrollerte
+    har lisensfil. Koden kan derfor ikke trygt gjenbrukes utenfor Novari. Bør tas opp med Novari,
+    som allerede publiserer `fint-informasjonsmodell` under `MIT`.
+  - `94` Fiks protokoll: `MIT` på spesifikasjonen og de sentrale klientene, ingen lisens på
+    `fiks-arkiv`, `fiks-politiskbehandling` og `fiks-plan-client-dotnet`. Bør tas opp med KS.
+  - `82` VIGO Kodeverk: kodeverksbasen omtales som åpen, men uten oppgitt lisens.
+  - `55` Core Vocabularies: Kommisjonen oppgir `EUPL` uten versjon, og `SEMICeu`-repoene har ingen
+    lisensfil. Avviket er skrevet ut i fila.
+  - `45` OOTS og `53` EU Open Source Solutions Catalogue står fortsatt med `Ikke offentlig
+    dokumentert` på både `Kildekode` og `Lisens`. De var utenfor denne rundens avgrensning og er
+    ikke kontrollert mot repositorier.
 - Rydde den gamle fila `137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v1-codex.md`, som
   fortsatt ligger i `normerende-ressurser/` selv om ressursen er flyttet til
   `rammer-og-virkemidler/`. Den er historikk og røres ikke av kontrollene, men plasseringen er

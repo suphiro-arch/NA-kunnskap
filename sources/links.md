@@ -1,7 +1,7 @@
 # Nasjonale fellestjenester og felleskomponenter
 
 Formål: Samlet lenkeliste over nasjonale fellesløsninger, sektorkilder og relevante standarder og veiledningsressurser.
-Sist redigert: 2026-06-17.
+Sist redigert: 2026-09-30.
 
 ## Fellesløsninger
 
@@ -128,6 +128,7 @@ Sist redigert: 2026-06-17.
 - Medfinansieringsordningen - retningslinjer (PDF): https://www.digdir.no/media/3754/download (lagt til 2026-09-28)
 - Medfinansieringsordningen - prosjekter med støtte: https://www.digdir.no/finansiering/prosjekt-med-stotte-fra-medfinansieringsordningen/884 (lagt til 2026-09-28)
 - Medfinansieringsordningen - Skatteetaten, nasjonal tilgang til syntetiske persondata for testformål: https://www.digdir.no/medfinansieringsordningen/skatteetaten-nasjonal-tilgang-til-syntetiske-persondata-testformal/994 (lagt til 2026-09-29)
+- Medfinansieringsordningen - tildeling juni 2026, 112,7 millioner kroner til fem tiltak: https://www.digdir.no/medfinansieringsordningen/1127-millioner-kroner-til-fem-digitaliseringstiltak-med-betydelige-samfunnsgevinster/8196 (lagt til 2026-09-30)
 - Tildelingsbrev 2026 til Digdir (PDF): https://www.regjeringen.no/contentassets/9c922694cba941a5884132809284fe07/2026-tildelingsbrev-digitaliseringsdirektoratet.pdf (lagt til 2026-09-28)
 - DFØ-notat 2025:2 - tilskudds- og finansieringsordninger: https://www.dfo.no/3-tilskudds-og-finansieringsordninger (lagt til 2026-09-28)
 - Faglig arena for informasjonsforvaltning og deling av data: https://www.digdir.no/informasjonsforvaltning/faglig-arena-informasjonsforvaltning-og-deling-av-data/3543 (lagt til 2026-04-10)
@@ -148,7 +149,8 @@ Sist redigert: 2026-06-17.
 - Ansattporten - statistikk: https://samarbeid.digdir.no/ansattporten/statistikk-ansattporten/3430 (lagt til 2026-05-05)
 - Altinn 3 plattform: https://github.com/Altinn (lagt til 2026-08-28)
 - Altinn 3 plattform: https://www.altinn.no/ (lagt til 2026-08-28)
-- Altinn Autorisasjon: https://github.com/Altinn/altinn-access-management (lagt til 2026-08-28)
+- Altinn Autorisasjon, arkivert repositorium per kontroll 2026-09-25, se altinn-auth: https://github.com/Altinn/altinn-access-management (lagt til 2026-08-28)
+- Altinn Autorisasjon - gjeldende monorepo for tilgangsstyring: https://github.com/Altinn/altinn-auth (lagt til 2026-09-30)
 - Altinn Events: https://github.com/Altinn/altinn-events (lagt til 2026-08-28)
 - Altinn Formidling: https://github.com/Altinn/altinn-broker (lagt til 2026-08-28)
 - Altinn Melding: https://github.com/Altinn/altinn-correspondence (lagt til 2026-08-28)
@@ -167,7 +169,7 @@ Sist redigert: 2026-06-17.
 - Arkitektur- og standardiseringsrådet: https://www.digdir.no/arkitektur-og-standardisering/radene-vi-arbeider-gjennom/2772 (lagt til 2026-08-28)
 - Begrepskatalog: https://data.norge.no/about (lagt til 2026-08-28)
 - data.altinn.no: https://data.altinn.no/products (lagt til 2026-08-28)
-- data.altinn.no: https://github.com/Altinn/altinn-accessmanagement (lagt til 2026-08-28)
+- data.altinn.no - gjeldende kildekodeorganisasjon: https://github.com/data-altinn-no (lagt til 2026-09-30)
 - data.norge.no: https://github.com/Informasjonsforvaltning/fdk-portal (lagt til 2026-08-28)
 - data.norge.no: https://www.digdir.no/felles-datakatalog/om-felles-datakatalog/2274 (lagt til 2026-08-28)
 - Datalandsbyen: https://data.norge.no/nb/docs/finding-data (lagt til 2026-08-28)
@@ -177,7 +179,8 @@ Sist redigert: 2026-06-17.
 - eFormidling: https://github.com/felleslosninger/efm-integrasjonspunkt (lagt til 2026-08-28)
 - eFormidling: https://samarbeid.digdir.no/eformidling/dette-er-eformidling/46 (lagt til 2026-08-28)
 - eFormidling: https://samarbeid.digdir.no/eformidling/statistikk-eformidling/3425 (lagt til 2026-08-28)
-- eInnsyn: https://github.com/felleslosninger/einnsyn-klient (lagt til 2026-08-28)
+- eInnsyn - kildekode for tjenestelaget: https://github.com/felleslosninger/einnsyn-backend (lagt til 2026-09-30)
+- eInnsyn - kildekode for brukerflaten: https://github.com/felleslosninger/einnsyn-frontend (lagt til 2026-09-30)
 - eInnsyn: https://samarbeid.digdir.no/einnsyn/dette-er-einnsyn/81 (lagt til 2026-08-28)
 - eInnsyn: https://samarbeid.digdir.no/einnsyn/einnsyn/997 (lagt til 2026-08-28)
 - eInnsyn: https://samarbeid.digdir.no/einnsyn/kostnadsmodell-einnsyn/101 (lagt til 2026-08-28)
@@ -307,6 +310,7 @@ Sist redigert: 2026-06-17.
 - Fiks Kjoretoyregister: https://ksdigital.no/tjenestene/fiks-kjoretoyregister/ (lagt til 2026-08-28)
 - KS Bekymringsmelding: https://bekymringsmelding.fiks.ks.no/ (lagt til 2026-08-28)
 - MinKommune: https://min.kommune.no/ (lagt til 2026-08-28)
+- Spesifikasjonen for Fiks arkiv, med lisensvilkår: https://github.com/ks-no/fiks-arkiv-specification (lagt til 2026-09-30)
 - Fiks politisk behandling hos KS: https://www.ks.no/fagomrader/digitalisering/felleslosninger/verktoykasse-plan--og-byggesak/verktoy/sammenhengende-tjenester---integrasjoner/fiks-politisk-behandling/ (lagt til 2026-09-25)
 
 ### Novari / fylkeskommunal sektor
@@ -582,6 +586,7 @@ Sist redigert: 2026-06-17.
 - European Digital Identity Wallet: https://commission.europa.eu/topics/digital-economy-and-society/european-digital-identity_en (lagt til 2026-03-18)
 - Interoperable Europe Solutions: https://interoperable-europe.ec.europa.eu/interoperable_solutions (lagt til 2026-03-18)
 - EU Open Source Solutions Catalogue: https://interoperable-europe.ec.europa.eu/eu-oss-catalogue (lagt til 2026-03-18)
+- EU Open Source Solutions Catalogue - nyhetssak om lanseringen: https://interoperable-europe.ec.europa.eu/interoperable-europe/news/eu-open-source-solutions-catalogue-now-live (lagt til 2026-09-30)
 - European Competitiveness Fund: https://single-market-economy.ec.europa.eu/access-finance/european-competitiveness-fund_en (lagt til 2026-09-04)
 - DPG-registeret hos Digital Public Goods Alliance: https://www.digitalpublicgoods.net/registry (lagt til 2026-09-09)
 - DPG-profil for Altinn Studio: https://digitalpublicgoods.net/r/altinn (lagt til 2026-09-09)
@@ -601,6 +606,8 @@ Sist redigert: 2026-06-17.
 - eDelivery AS4-profilen: https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467117620/eDelivery+AS4 (lagt til 2026-09-24)
 - eSignature Building Block: https://ec.europa.eu/digital-building-blocks/sites/display/DIGITAL/eSignature (lagt til 2026-09-24)
 - DSS, referansebibliotek for elektroniske signaturer, med lisensvilkår: https://github.com/esig/dss (lagt til 2026-09-24)
+- Referanseimplementasjonen for EUDI-lommeboka, med lisensvilkår per komponent: https://github.com/eu-digital-identity-wallet (lagt til 2026-09-30)
+- Domibus i EUs kodeplattform, med lisensvilkår for eDelivery-referanseprogramvaren: https://code.europa.eu/edelivery/domibus (lagt til 2026-09-30)
 - Om Once-Only Technical System (OOTS): https://ec.europa.eu/digital-building-blocks/sites/spaces/OOTS/pages/610468075/About+OOTS (lagt til 2026-09-24)
 - Nordisk ministerråd om Once Only Technical System 2.0: https://www.norden.org/en/project/once-only-technical-system-20-oots (lagt til 2026-09-24)
 - Digdir om prosjekt for testing av SDG og OOTS, svarte 403 ved maskinell henting 2026-09-24: https://www.digdir.no/internasjonalt-arbeid/project-testing-single-digital-gateway-once-only-technical-system/5042 (lagt til 2026-09-24)
@@ -609,6 +616,7 @@ Sist redigert: 2026-06-17.
 - Simpl, Kommisjonens policyside: https://digital-strategy.ec.europa.eu/en/policies/simpl (lagt til 2026-09-25)
 - Simpl-programmets egen side: https://simpl-programme.ec.europa.eu/ (lagt til 2026-09-25)
 - Simpl-Open i EUs kodeplattform, med lisensvilkår: https://code.europa.eu/simpl/simpl-open (lagt til 2026-09-25)
+- Simpl - Kommisjonens omtale av kontraktstildelingen på 41 millioner euro: https://digital-strategy.ec.europa.eu/en/news/commission-awards-eu41-million-contract-develop-infrastructure-common-european-data-spaces-0 (lagt til 2026-09-30)
 
 ## Standarder og veiledninger
 
@@ -677,6 +685,7 @@ Sist redigert: 2026-06-17.
 - Core Vocabularies: https://interoperable-europe.ec.europa.eu/collection/semic-support-centre/solution/core-vocabularies (lagt til 2026-03-18)
 - Assessment Toolbox: https://interoperable-europe.ec.europa.eu/collection/assessments/assessment-toolbox (lagt til 2026-03-18)
 - Assessment reports repository: https://interoperable-europe.ec.europa.eu/collection/assessments/assessment-reports-repository (lagt til 2026-03-18)
+- Interoperability assessments: one year on, Kommisjonens statusnotat: https://interoperable-europe.ec.europa.eu/collection/portal-support/news/interoperability-assessments-one-year (lagt til 2026-09-30)
 - Området for interoperabilitetsvurderinger: https://interoperable-europe.ec.europa.eu/collection/assessments (lagt til 2026-09-24)
 - Retningslinjer kapittel 2, når en interoperabilitetsvurdering er rettslig påkrevd: https://interoperable-europe.ec.europa.eu/collection/assessments/guidelines-chapter-2-when-interoperability-assessment-legally-required (lagt til 2026-09-24)
 - Retningslinjer kapittel 3, hvordan en interoperabilitetsvurdering gjennomføres: https://interoperable-europe.ec.europa.eu/collection/assessments/guidelines-chapter-3-how-carry-out-interoperability-assessment (lagt til 2026-09-24)
@@ -719,10 +728,13 @@ Sist redigert: 2026-06-17.
 ### Informasjonssikkerhet og personvern
 - Sikkert.no: https://www.sikkert.no/ (lagt til 2026-03-18)
 - Sikkert.no - om portalen og samarbeidet: https://www.sikkert.no/om-oss (lagt til 2026-09-29)
+- Sikkert.no - NSMs omtale av lanseringen, Sikkert.no skal styrke Norges digitale motstandskraft: https://nsm.no/aktuelt/article-3640 (lagt til 2026-09-30)
+- Sikkert.no - Datatilsynets omtale av felles portal for økt digital motstandskraft: https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/felles-portal-for-okt-digital-motstandskraft/ (lagt til 2026-09-30)
 - Sikkert.no for bedrifter: https://www.sikkert.no/bedrift (lagt til 2026-03-18)
 - Sikkert.no for offentlig sektor: https://www.sikkert.no/offentlig (lagt til 2026-03-18)
 - Grunnprinsipper for sikkerhet: https://www.sikkert.no/bedrift/artikler/grunnprinsipper-for-sikkerhet (lagt til 2026-03-18)
 - Cybersjekk: https://www.sikkert.no/bedrift/artikler/cybersjekk (lagt til 2026-03-18)
+- Cybersjekk - NSMs omtale av tjenesten: https://nsm.no/aktuelt/cybersjekk-sjekker-virksomhetens-digitale-sikkerhetstilstand (lagt til 2026-09-30)
 - Veileder i digitalsikkerhetsloven og -forskriften: https://www.sikkert.no/offentlig/artikler/digitalsikkerhetsloven-og-forskriften/veileder-i-digitalsikkerhetsloven-og-forskriften (lagt til 2026-03-18)
 - Introduksjon til digitalsikkerhetsloven og -forskriften: https://www.sikkert.no/offentlig/artikler/digitalsikkerhetsloven-og-forskriften/introduksjon (lagt til 2026-03-18)
 - Datatilsynet: https://www.datatilsynet.no/ (lagt til 2026-03-18)

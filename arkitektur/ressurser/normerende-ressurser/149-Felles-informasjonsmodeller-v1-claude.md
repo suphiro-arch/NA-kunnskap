@@ -155,6 +155,8 @@ Tolkes reglene ulikt, oppstår modeller som formelt følger anbefalingene men ik
 ## Publiseringsform og tilgjengelighet
 Føringene er publisert som åpne nettsider på digdir.no under informasjonsforvaltning, med en hovedside for felles informasjonsmodeller og egne undersider for designprinsippene og for modelleringsreglene. ModellDCAT-AP-NO og tilhørende veileder for beskrivelse av informasjonsmodeller er publisert på data.norge.no. Alt er fritt tilgjengelig uten pålogging.
 
+**Lisens:** `CC-BY-4.0` for spesifikasjonen ModellDCAT-AP-NO, som reglene forutsetter at modeller beskrives etter. Kontrollert mot publiseringen på data.norge.no 30. september 2026. Selve designprinsippene og modelleringsreglene er publisert som veiledningssider på digdir.no uten egen lisensangivelse.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data**
   Direkte støtte. Hele formålet er å gjøre datastrukturer forståelige og gjenbrukbare på tvers av virksomheter.

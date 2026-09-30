@@ -156,6 +156,8 @@ For virksomheter som ikke har fulgt opp API-nøkkelkravet fra 1. september 2026,
 ## Publiseringsform og tilgjengelighet
 Grep publiseres som API, ikke som nettsted. REST-endepunktene ligger under `data.udir.no/kl06/`, med versjon i URL-en, og returnerer JSON og XML. Et RDF- og SPARQL-endepunkt gir grafbasert tilgang. Teknisk dokumentasjon ligger i to offentlige wikier, og Utdanningsdirektoratet har publisert beskrivelsen av SPARQL-endepunktet på GitHub. Datasettene er lisensiert under Norsk lisens for offentlige data. Fra 1. september 2026 kreves API-nøkkel for REST-kall, med registrering åpnet 1. juni 2026, og anonyme kall er ratebegrenset til om lag hundre kall per minutt.
 
+**Lisens:** `NLOD-2.0`. Kontrollert mot datasettet `Læreplaner og fag i Kunnskapsløftet` i Felles datakatalog 30. september 2026, der alle tre distribusjonene, REST, Swagger og SPARQL, er publisert under Norsk lisens for offentlige data versjon 2.0. Utdanningsdirektoratet skal oppgis som kilde ved bruk.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data**
   Direkte og sterk støtte. Grep er en autoritativ nasjonal datakilde som deles åpent under NLOD og gjenbrukes bredt i sektoren.

@@ -158,6 +158,8 @@ Ved manglende versjonsdisiplin i den pågående omleggingen er konsekvensen konk
 ## Publiseringsform og tilgjengelighet
 Ressursen publiseres gjennom Novaris tjeneste- og prosjektsider, og Novari viser videre til komplett modell, Java-modeller, C#-modeller, utfyllende beskrivelse, releasenotater og statusmateriale for versjon 4.0. Dette gjør ressursen tilgjengelig både som overordnet faglig beskrivelse og som teknisk implementasjonsgrunnlag.
 
+**Lisens:** `MIT`. Kontrollert mot repositoriet `FINTLabs/fint-informasjonsmodell` 30. september 2026, som publiserer beskrivelsen av fellesmodellen både som binær EAP-fil og som XMI.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data**  
   Ressursen gjør det mulig å beskrive data på en måte som kan deles og gjenbrukes på tvers av fylkeskommuner og systemleverandører.

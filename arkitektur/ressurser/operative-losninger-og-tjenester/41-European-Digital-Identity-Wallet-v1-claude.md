@@ -142,9 +142,11 @@ Avhengigheter som ikke er kapabiliteter i denne ressursen: lommeboka henter attr
 - `Once-Only Technical System` for utveksling av dokumentasjon mellom myndigheter, der lommeboka dekker det brukerstyrte alternativet.
 - `Altinn Autorisasjon` for rettigheter på vegne av virksomhet i norsk kontekst.
 
-**Kildekode:** Åpen kildekode. Kommisjonen publiserer en referanseimplementasjon med kodebiblioteker og modulære komponenter.
+**Kildekode:** Åpen kildekode. Kommisjonen publiserer referanseimplementasjonen som 85 offentlige repositorier i organisasjonen `eu-digital-identity-wallet` på GitHub, med kodebiblioteker og modulære komponenter.
 
-**Lisens:** Ikke offentlig dokumentert. Lisensvilkårene for referanseimplementasjonen er ikke kontrollert mot repositoriet i denne arbeidsøkten.
+**Lisens:** Blandet. Kontrollert mot repositoriene 30. september 2026: 64 av de 85 repositoriene oppgir `Apache-2.0`, fem oppgir `EUPL-1.2`, og 16 har enten ingen lisensangivelse eller en lisens GitHub ikke gjenkjenner, deriblant hovedrepositoriet for Architecture and Reference Framework. Det finnes ingen samlet lisens for referanseimplementasjonen som helhet, og vilkårene må derfor kontrolleres per komponent før gjenbruk.
+
+**Repositorium:** https://github.com/eu-digital-identity-wallet
 
 ## Støtter arkitekturprinsipper
 - **P1: Ta utgangspunkt i brukernes behov**

@@ -152,7 +152,7 @@ Avhengigheter som ikke er kapabiliteter her: plattformen bygger på skyinfrastru
 
 **Kildekode:** Åpen kildekode. Simpl-Open er publisert på `code.europa.eu`, og repositoriet ble åpnet i slutten av juni 2024.
 
-**Lisens:** `EUPL-1.2`. European Union Public Licence versjon 1.2 er oppgitt som lisens for Simpl-Open. Lisensen er ikke kontrollert mot lisensfila i repositoriet i denne arbeidsøkten, og bør bekreftes der før koden gjenbrukes.
+**Lisens:** `EUPL-1.2`. Kontrollert mot lisensfila i repositoriet 30. september 2026, som innledes med `EUROPEAN UNION PUBLIC LICENCE v. 1.2` og viser videre til lisensteksten på `eupl.eu`. Lisensfila opplyser i tillegg at Simpl krediterer de åpne prosjektene den bygger på i en egen `CREDITS.pdf`.
 
 **Repositorium:** https://code.europa.eu/simpl/simpl-open
 

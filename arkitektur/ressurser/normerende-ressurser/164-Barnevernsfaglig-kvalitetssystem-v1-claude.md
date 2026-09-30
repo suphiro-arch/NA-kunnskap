@@ -157,6 +157,8 @@ Katalogen oppgir at det ikke er registrert API-tilgang for datasettet. Distribus
 
 Kontaktpunktet for leverandører er `leverandor.digibarnevern@bufdir.no`.
 
+**Lisens:** `NLOD-2.0`. Kontrollert mot datasettet `Barnevernfaglig kvalitetssystem (BFK)` i Felles datakatalog 30. september 2026, der både versjon 3.0.1 og 2.0.3 er publisert under Norsk lisens for offentlige data versjon 2.0, med Barne-, ungdoms- og familiedirektoratet som utgiver.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data**
   Det faglige innholdet er publisert som versjonerte åpne data i Felles datakatalog under norsk lisens for offentlige data, framfor bare som dokument.

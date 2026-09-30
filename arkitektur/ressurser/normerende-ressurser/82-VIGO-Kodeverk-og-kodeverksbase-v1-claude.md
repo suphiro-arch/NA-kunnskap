@@ -163,6 +163,8 @@ Tolkes lagdelingen ulikt, oppstår den mest sannsynlige avviksformen: et behov l
 ## Publiseringsform og tilgjengelighet
 Kodeverksbasen er publisert som et åpent oppslagsverk, beskrevet som felles, oppdatert og kvalitetssikret og tilgjengelig for alle. Novari publiserer tjenestebeskrivelsen på egne tjenestesider. Kildene beskriver ikke om basen også tilbys som API med versjonerte endepunkter, og det bør kontrolleres ved integrasjonsarbeid.
 
+**Lisens:** Ikke offentlig dokumentert. Novari omtaler kodeverksbasen som et åpent oppslagsverk tilgjengelig for alle, men oppgir ingen lisens for innholdet. Kontrollert 30. september 2026. Vilkårene bør avklares med Novari før kodeverket gjenbrukes maskinelt utenfor fylkeskommunal sektor.
+
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data**
   Kodeverksbasen er åpen for alle, og kodene gjenbrukes av fylkeskommuner, nasjonale myndigheter og leverandører.

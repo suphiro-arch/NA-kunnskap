@@ -137,9 +137,11 @@ Avhengigheter som ikke er kapabiliteter her: tillitsmodellen bygger på sertifik
 - `eFormidling`, som er den norske fellesløsningen for sikker dokumentutveksling i offentlig sektor.
 - `eSignature Building Block`, når innholdet i meldingen også skal signeres og valideres.
 
-**Kildekode:** Åpen kildekode. Domibus og DomiSMP publiseres av Europakommisjonen som referanseprogramvare.
+**Kildekode:** Åpen kildekode. Domibus og DomiSMP publiseres av Europakommisjonen som referanseprogramvare i EUs kodeplattform `code.europa.eu`, under gruppen `edelivery`.
 
-**Lisens:** Ikke offentlig dokumentert. Lisensvilkårene er ikke kontrollert mot repositoriet i denne arbeidsøkten.
+**Lisens:** `EUPL-1.2`. Kontrollert mot repositoriene 30. september 2026: `edelivery/domibus` oppgir European Union Public License 1.2 med lisensfila `LICENSE.txt`, og `edelivery/domismp` det samme med `License.txt`.
+
+**Repositorium:** https://code.europa.eu/edelivery/domibus
 
 ## Støtter arkitekturprinsipper
 - **P4: Del og gjenbruk data**

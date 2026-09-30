@@ -133,9 +133,9 @@ Avhengigheter som ikke er kapabiliteter her: nasjonale eID-ordninger leverer sel
 - `European Digital Identity Wallet` som neste generasjon av det samme behovet.
 - `Once-Only Technical System`, som forutsetter autentisering etter eIDAS før dokumentasjon kan hentes.
 
-**Kildekode:** Åpen kildekode. eIDAS-noden publiseres som referanseimplementasjon av Europakommisjonen.
+**Kildekode:** Åpen kildekode. eIDAS-noden publiseres som referanseimplementasjon av Europakommisjonen, distribuert som nedlastbar integrasjonspakke fra plattformen for DIGITAL Building Blocks framfor fra et offentlig kodelager. Gjeldende versjon er oppgitt som 3.1.0.
 
-**Lisens:** Ikke offentlig dokumentert. Lisensvilkårene er ikke kontrollert mot repositoriet i denne arbeidsøkten.
+**Lisens:** `EUPL-1.2`. Kommisjonen oppgir at støtte og vedlikehold av referanseimplementasjonen leveres etter vilkårene i European Union Public Licence, og distribusjonssiden viser til versjon 1.2. Merk forbeholdet: lisensen er lest fra distribusjonssiden, ikke fra en lisensfil i et offentlig repositorium, fordi koden ikke publiseres slik. Et søk i `code.europa.eu` 30. september 2026 fant ingen eIDAS-node der.
 
 ## Støtter arkitekturprinsipper
 - **P5: Del og gjenbruk løsninger**

@@ -142,9 +142,11 @@ Avhengigheter som ikke er kapabiliteter her: `FINT Arkiv` leverer arkivgrensesni
 - `eGrunnerverv`, som Novari oppgir som et konkret eksempel på arkivintegrasjon.
 - `Fiks protokoll` som den kommunale parallellen til samme behov.
 
-**Kildekode:** Ikke offentlig dokumentert. Kildene i denne arbeidsøkten sier ikke om FINT Flyt eller arkivintegrasjonene er publisert som åpen kildekode. Flere andre FINT-komponenter er publisert åpent, men det er ikke kontrollert mot repositoriet for denne tjenesten.
+**Kildekode:** Åpen kildekode. Komponentene i FINT Flyt er publisert som offentlige repositorier i organisasjonen `FINTLabs` på GitHub, med et eget sett `fint-flyt-*`-repositorier, blant dem `fint-flyt-archive-gateway`, `fint-flyt-integration-service`, `fint-flyt-mapping-service` og `fint-flyt-frontend`.
 
-**Lisens:** Ikke offentlig dokumentert.
+**Lisens:** Ikke offentlig dokumentert. Kontrollert mot repositoriene 30. september 2026: ingen av de kontrollerte `fint-flyt`-repositoriene har lisensfil eller lisensangivelse. Koden er dermed publisert uten oppgitte vilkår, og kan ikke trygt gjenbrukes utenfor Novari uten en avklaring med forvalteren. Dette skiller seg fra `FINT Informasjonsmodell`, som er publisert under `MIT`.
+
+**Repositorium:** https://github.com/FINTLabs
 
 ## Støtter arkitekturprinsipper
 - **P5: Del og gjenbruk løsninger**
