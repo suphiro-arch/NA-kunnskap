@@ -608,6 +608,7 @@ Sist redigert: 2026-09-30.
 - DSS, referansebibliotek for elektroniske signaturer, med lisensvilkår: https://github.com/esig/dss (lagt til 2026-09-24)
 - Referanseimplementasjonen for EUDI-lommeboka, med lisensvilkår per komponent: https://github.com/eu-digital-identity-wallet (lagt til 2026-09-30)
 - Domibus i EUs kodeplattform, med lisensvilkår for eDelivery-referanseprogramvaren: https://code.europa.eu/edelivery/domibus (lagt til 2026-09-30)
+- OOTS-komponentene i EUs kodeplattform, med lisensvilkår: https://code.europa.eu/oots (lagt til 2026-09-30)
 - Om Once-Only Technical System (OOTS): https://ec.europa.eu/digital-building-blocks/sites/spaces/OOTS/pages/610468075/About+OOTS (lagt til 2026-09-24)
 - Nordisk ministerråd om Once Only Technical System 2.0: https://www.norden.org/en/project/once-only-technical-system-20-oots (lagt til 2026-09-24)
 - Digdir om prosjekt for testing av SDG og OOTS, svarte 403 ved maskinell henting 2026-09-24: https://www.digdir.no/internasjonalt-arbeid/project-testing-single-digital-gateway-once-only-technical-system/5042 (lagt til 2026-09-24)

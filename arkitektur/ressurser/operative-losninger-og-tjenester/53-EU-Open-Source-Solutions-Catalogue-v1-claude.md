@@ -128,7 +128,11 @@ Avhengigheter som ikke er kapabiliteter her: innholdet kommer fra nasjonale og l
 - `Interoperable Europe Act`, som etablerer plikten til å dele og vurdere gjenbruk av interoperabilitetsløsninger.
 - `Assessment Toolbox`, når gjenbruksvurderingen inngår i en interoperabilitetsvurdering.
 
-**Kildekode:** Ikke offentlig dokumentert. Kildene i denne arbeidsøkten sier ikke om katalogplattformen selv publiseres som åpen kildekode. Løsningene katalogen viser til, er derimot åpen kildekode.
+**Kildekode:** Ikke offentlig dokumentert for selve katalogplattformen. Kontrollert 30. september 2026: det finnes ingen repositorier for Interoperable Europe-portalen eller for katalogen verken på EUs kodeplattform `code.europa.eu` eller på offentlig GitHub.
+
+Sporet stopper et bestemt sted. Forgjengeren `Joinup` var publisert som åpen kildekode under `EUPL-1.2` i `ec-europa/joinup-dev`, men det repositoriet ble arkivert i 2022 med melding om at prosjektet er flyttet til `git.fpfis.eu`, som ikke er offentlig tilgjengelig. Plattformkoden har dermed gått fra åpen til lukket publisering. Det er verdt å merke seg ved vurdering av ressursen: katalogen fremmer gjenbruk av åpen kildekode i offentlig sektor, men er selv ikke lenger publisert på de vilkårene den katalogiserer.
+
+Løsningene katalogen viser til, er derimot åpen kildekode, og det er dem ressursen har verdi gjennom.
 
 **Lisens:** Ikke offentlig dokumentert for selve katalogplattformen.
 
@@ -164,4 +168,5 @@ Avhengigheter som ikke er kapabiliteter her: innholdet kommer fra nasjonale og l
 ## Kildegrunnlag brukt i utfyllingen
 - Europakommisjonen, EU Open Source Solutions Catalogue, hentet 24. september 2026.
 - Europakommisjonen, nyhetssaker om lansering og vekst i katalogen, hentet 24. september 2026.
+- Søk etter katalogplattformens kildekode på `code.europa.eu` og offentlig GitHub 30. september 2026, uten treff. Det arkiverte `ec-europa/joinup-dev` oppgir `EUPL-1.2` og viser videre til `git.fpfis.eu`, som ikke svarte på forespørsel.
 - Lokale kilder: `arkitektur/ressurser/produktnummerering.md`, `arkitektur/kapabiliteter/capabilities.yaml`, `arkitektur/prinsipper/principles.md`, `sources/links.md`.

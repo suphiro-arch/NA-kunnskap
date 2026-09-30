@@ -139,9 +139,13 @@ Avhengigheter som ikke er kapabiliteter her: `eDelivery Building Block` leverer 
 - `European Digital Identity Wallet` som det brukerstyrte alternativet til myndighetsstyrt bevisutveksling.
 - `Core Vocabularies` og de semantiske modellene som gjør bevisene forståelige på tvers.
 
-**Kildekode:** Ikke offentlig dokumentert. Kildene i denne arbeidsøkten sier ikke om fellestjenestene eller referansekomponentene publiseres som åpen kildekode.
+**Kildekode:** Åpen kildekode for deler av systemet. Kommisjonen publiserer OOTS-komponenter i gruppen `oots` på EUs kodeplattform `code.europa.eu`. Den mest omfattende er `oots/tdd/oots-bridge-monorepo`, som inneholder OOTS Bridge med frontend og backend for både bridge og prosedyreportal, sist oppdatert 25. september 2026. I tillegg publiseres `oots/tdd/tdd_chapters` med innholdet i de tekniske designdokumentene, `oots/tdd/oots_ex`, og en egen kanal for sikkerhetsvarsling.
 
-**Lisens:** Ikke offentlig dokumentert.
+Avgrensningen er viktig: det som er publisert, er bridge-programvare og designdokumentasjon. Fellestjenestene bevismegler, tjenestekatalog og semantisk register driftes sentralt av Kommisjonen, og kildene i denne arbeidsøkten viser ingen publisert kildekode for dem.
+
+**Lisens:** `EUPL-1.2`. Kontrollert mot lisensfilene i repositoriene 30. september 2026. Merk et avvik i metadataene: GitLab klassifiserer `tdd_chapters` og `oots_ex` som `other`, mens lisensfilene i begge entydig innledes med `EUROPEAN UNION PUBLIC LICENCE v. 1.2`. Lisensfilene er lagt til grunn, i tråd med regelen om at repositoriet går foran registeroppføringen.
+
+**Repositorium:** https://code.europa.eu/oots
 
 ## Støtter arkitekturprinsipper
 - **P1: Ta utgangspunkt i brukernes behov**
@@ -181,4 +185,5 @@ Avhengigheter som ikke er kapabiliteter her: `eDelivery Building Block` leverer 
 - Digdir, Tre EU-regelverk, én digital infrastruktur, hentet 24. september 2026.
 - Nordisk ministerråd, Once Only Technical System 2.0, hentet 24. september 2026.
 - Digdirs side om prosjektet for testing av SDG og OOTS svarte `403` ved maskinell henting 24. september 2026, og er derfor bare brukt som referanse til at prosjektet finnes.
+- Gruppen `oots` på `code.europa.eu`, med lisensfilene i `oots-bridge-monorepo`, `tdd_chapters` og `oots_ex`, kontrollert 30. september 2026.
 - Lokale kilder: `arkitektur/ressurser/produktnummerering.md`, `arkitektur/kapabiliteter/capabilities.yaml`, `arkitektur/prinsipper/principles.md`, `sources/links.md`.

@@ -75,12 +75,6 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
 - Bruke regelen for `Veiledning`-kapabilitetene fra 2026-09-25 (se [decisions.md](./decisions.md))
   på de tre gjenværende veilederne som ikke har `Utvikling og formidling av veiledning`: `100`,
   `104` og `105`. Tas ved neste ordinære revisjon av hver fil framfor som egne versjoner.
-- Kontrollere `Kildekode` og `Lisens` for `45` OOTS og `53` EU Open Source Solutions Catalogue, som
-  står med `Ikke offentlig dokumentert` på begge felt. De var utenfor avgrensningen i
-  lisensryddingen 2026-09-30 og er ikke kontrollert mot repositorier. De øvrige tilfellene der
-  lisens mangler, `83` FINT Arkivintegrasjoner, `94` Fiks protokoll, `82` VIGO Kodeverk og `55` Core
-  Vocabularies, er ferdig behandlet: manglende lisensangivelse i åpne kilder er svaret, ikke et hull
-  som skal lukkes gjennom henvendelser til forvalterne, se [decisions.md](./decisions.md) 2026-09-30.
 - Rydde den gamle fila `137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v1-codex.md`, som
   fortsatt ligger i `normerende-ressurser/` selv om ressursen er flyttet til
   `rammer-og-virkemidler/`. Den er historikk og røres ikke av kontrollene, men plasseringen er
