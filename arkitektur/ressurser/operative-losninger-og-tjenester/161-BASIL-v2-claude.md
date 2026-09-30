@@ -186,13 +186,13 @@ Løsningen forvaltes av Utdanningsdirektoratet som del av direktoratets ordinær
 | Driftsansvar og styringsmodell | Ikke offentlig dokumentert i denne arbeidsøkten | — |
 
 ## Lenke til dokumentasjon
-- https://www.udir.no/tall-og-forskning/datainnsamling--kilder/basil/basil-arsmelding-og-kommuneskjema/
-- https://www.udir.no/tall-og-forskning/datainnsamling--kilder/basil/palogging-og-tilgangsstyring/
+- https://www.udir.no/tall-og-forskning/innrapportering/basil/basil-arsmelding-og-kommuneskjema/
+- https://www.udir.no/tall-og-forskning/innrapportering/basil/palogging-og-tilgangsstyring/
 - https://www.udir.no/tall-og-forskning/statistikk/statistikk-barnehage/
 
 ## Kildegrunnlag brukt i utfyllingen
-- https://www.udir.no/tall-og-forskning/datainnsamling--kilder/basil/basil-arsmelding-og-kommuneskjema/, kontrollert 2026-09-09
-- https://www.udir.no/tall-og-forskning/datainnsamling--kilder/basil/palogging-og-tilgangsstyring/, kontrollert 2026-09-09
+- https://www.udir.no/tall-og-forskning/innrapportering/basil/basil-arsmelding-og-kommuneskjema/, kontrollert 2026-09-30
+- https://www.udir.no/tall-og-forskning/innrapportering/basil/palogging-og-tilgangsstyring/, kontrollert 2026-09-30
 - https://www.udir.no/tall-og-forskning/statistikk/statistikk-barnehage/, kontrollert 2026-09-09
 - `arkitektur/ressurser/operative-losninger-og-tjenester/159-Grunnskolens-informasjonssystem-v1-claude.md`, kontrollert 2026-09-09
 - `arkitektur/ressurser/operative-losninger-og-tjenester/152-Nasjonale-registre-for-barnehage-og-grunnopplaering-v1-claude.md`, kontrollert 2026-09-09

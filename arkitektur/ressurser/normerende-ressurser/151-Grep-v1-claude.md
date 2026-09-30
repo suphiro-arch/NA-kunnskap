@@ -176,7 +176,7 @@ Begrensninger og spenninger: Grep er styrende i praksis uten å være hjemlet so
 ## Lenke til dokumentasjon
 - https://www.udir.no/om-udir/data/kl06-grep/
 - https://www.udir.no/om-udir/data/
-- https://grepwiki.udir.no/index.php?title=Hovedside
+- https://github.com/Utdanningsdirektoratet/KL06-LK20-public/wiki
 - https://github.com/Utdanningsdirektoratet/KL06-LK20-public/wiki
 - https://github.com/Utdanningsdirektoratet/Grep_SPARQL
 

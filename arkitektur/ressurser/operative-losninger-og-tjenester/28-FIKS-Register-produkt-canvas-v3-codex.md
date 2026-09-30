@@ -114,7 +114,7 @@ Produktområdet rommer flere undertjenester med ulik karakter, blant annet Fiks 
 - https://ksdigital.no/tjenestene/fiks-register/
 - https://forvaltning.fiks.ks.no/
 - https://ksdigital.no/avtaler-og-priser/fakturalinjer/
-- https://ksdigital.no/tjenestene/segmentsamarbeid/
+- https://ksdigital.no/tjenestene/deling-av-data-segmentsamarbeid/
 
 ## Plattform
 Fiks register er en fellestjeneste på KS Digitals Fiks-plattform og fungerer som overordnet registerfamilie for kommunal bruk av nasjonale registerdata.
@@ -162,7 +162,7 @@ Fiks register er en fellestjeneste på KS Digitals Fiks-plattform og fungerer so
 ## Lenke til dokumentasjon
 - https://ksdigital.no/tjenestene/fiks-register/
 - https://ksdigital.no/avtaler-og-priser/fakturalinjer/
-- https://ksdigital.no/tjenestene/segmentsamarbeid/
+- https://ksdigital.no/tjenestene/deling-av-data-segmentsamarbeid/
 - https://forvaltning.fiks.ks.no/
 
 ## Kildegrunnlag brukt i utfyllingen
@@ -176,7 +176,7 @@ Fiks register er en fellestjeneste på KS Digitals Fiks-plattform og fungerer so
 - Lokal fil: `arkitektur/ressurser/operative-losninger-og-tjenester/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v2-codex.md`
 - Nettkilde: https://ksdigital.no/tjenestene/fiks-register/ (hentet 2026-05-26)
 - Nettkilde: https://ksdigital.no/avtaler-og-priser/fakturalinjer/ (hentet 2026-05-26)
-- Nettkilde: https://ksdigital.no/tjenestene/segmentsamarbeid/ (hentet 2026-05-26)
+- Nettkilde: https://ksdigital.no/tjenestene/deling-av-data-segmentsamarbeid/ (hentet 2026-05-26)
 
 ## Endringer fra forrige versjon
 ### Analyseforbedringer

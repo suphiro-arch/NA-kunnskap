@@ -107,7 +107,7 @@ Operative mål utledet fra kildene:
 
 ## Kanaler
 - https://ksdigital.no/tjenestene/svarut-tjenesten/svarinn/
-- https://ksdigital.no/tjenestene/svarut-tjenesten/ks-svarinn/
+- https://ksdigital.no/tjenestene/svarut-tjenesten/svarinn/
 - https://status.fiks.ks.no
 
 ## Plattform
@@ -153,7 +153,7 @@ SvarInn er en sentralt forvaltet mottakstjeneste i KS Digital og inngår i samme
 
 ## Lenke til dokumentasjon
 - https://ksdigital.no/tjenestene/svarut-tjenesten/svarinn/
-- https://ksdigital.no/tjenestene/svarut-tjenesten/ks-svarinn/
+- https://ksdigital.no/tjenestene/svarut-tjenesten/svarinn/
 - https://status.fiks.ks.no
 
 ## Kildegrunnlag brukt i utfyllingen
@@ -163,7 +163,7 @@ SvarInn er en sentralt forvaltet mottakstjeneste i KS Digital og inngår i samme
 - Lokal fil: `arkitektur/ressurser/produktnummerering.md`
 - Lokal fil: `sources/links.md`
 - Nettkilde: https://ksdigital.no/tjenestene/svarut-tjenesten/svarinn/ (hentet 2026-03-19)
-- Nettkilde: https://ksdigital.no/tjenestene/svarut-tjenesten/ks-svarinn/ (hentet 2026-03-19)
+- Nettkilde: https://ksdigital.no/tjenestene/svarut-tjenesten/svarinn/ (hentet 2026-03-19)
 - Nettkilde: https://status.fiks.ks.no/ (hentet 2026-03-19)
 - Nettkilde: https://ksdigital.no/avtaler-og-priser/ (hentet 2026-03-19)
 - Nettkilde: https://ksdigital.no/tjenester-2/ (KS Digitals tjenesteoversikt, kontrollert 2026-09-05)

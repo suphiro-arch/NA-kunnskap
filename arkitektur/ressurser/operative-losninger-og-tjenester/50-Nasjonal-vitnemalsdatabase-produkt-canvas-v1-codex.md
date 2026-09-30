@@ -118,7 +118,7 @@ Operative mål utledet fra de samme kildene:
 | Juridisk og personvern | Deling av vitnemålsdata må være korrekt avgrenset og hjemlet | Streng tilgangsstyring og tydelig formålsstyring |
 
 ## Kanaler
-- Nasjonal vitnemålsdatabase: https://sikt.no/nb/tjenester/nasjonal-vitnemalsdatabase
+- Nasjonal vitnemålsdatabase: https://www.sikt.no/nb/tjenester/nasjonal-vitnemalsdatabase
 - NVB i tjenestekatalogen: https://fs.sikt.no/tjenestekatalog/nvb/
 - Tjenestekatalog studieadministrasjon: https://fs.sikt.no/tjenestekatalog/
 
@@ -163,7 +163,7 @@ NVB er en nasjonal register- og delingsløsning for elektroniske vitnemålsdata.
 | Styringsmodell | Sikt som hovedforvalter i samspill med HK-dir og skoleeiermiljøer | Produktsiden og tjenestekatalogen |
 
 ## Lenke til dokumentasjon
-- https://sikt.no/nb/tjenester/nasjonal-vitnemalsdatabase
+- https://www.sikt.no/nb/tjenester/nasjonal-vitnemalsdatabase
 - https://fs.sikt.no/tjenestekatalog/nvb/
 - https://fs.sikt.no/tjenestekatalog/
 
@@ -174,7 +174,7 @@ NVB er en nasjonal register- og delingsløsning for elektroniske vitnemålsdata.
 - Lokal fil: `arkitektur/prinsipper/principles.md`
 - Lokal fil: `arkitektur/ressurser/produktnummerering.md`
 - Lokal fil: `sources/links.md`
-- Nettkilde: https://sikt.no/nb/tjenester/nasjonal-vitnemalsdatabase (kontrollert 2026-03-27)
+- Nettkilde: https://www.sikt.no/nb/tjenester/nasjonal-vitnemalsdatabase (kontrollert 2026-09-30)
 - Nettkilde: https://fs.sikt.no/tjenestekatalog/nvb/ (kontrollert 2026-03-27)
 - Nettkilde: https://fs.sikt.no/tjenestekatalog/ (kontrollert 2026-03-27)
 

@@ -106,9 +106,9 @@ Operative mål utledet fra de samme kildene:
 | Brukeropplevelse | Brukere kan bli usikre på hvilke resultater som finnes og hvordan de kan deles | Klare brukerforklaringer, forutsigbare delingsløp og god støtte i grensesnittet |
 
 ## Kanaler
-- Sikts tjenesteside: https://sikt.no/tjenester/vitnemalsportalen
+- Sikts tjenesteside: https://www.sikt.no/tjenester/vitnemalsportalen
 - Logg inn i tjenesten: https://www.vitnemalsportalen.no
-- Nasjonal vitnemålsdatabase: https://sikt.no/nb/tjenester/nasjonal-vitnemalsdatabase
+- Nasjonal vitnemålsdatabase: https://www.sikt.no/nb/tjenester/nasjonal-vitnemalsdatabase
 
 ## Plattform
 Vitnemålsportalen er en nasjonal delingsportal som henter resultater fra etablerte resultatsystemer og underliggende nasjonale kilder.
@@ -154,9 +154,9 @@ Vitnemålsportalen er en nasjonal delingsportal som henter resultater fra etable
 | Styringsmodell | Tjenesten hører inn under Porteføljestyret for utdanning og administrasjon og Produktråd for studieadministrasjon | Produkt- og tjenestevilkårene på tjenestesiden |
 
 ## Lenke til dokumentasjon
-- https://sikt.no/tjenester/vitnemalsportalen
+- https://www.sikt.no/tjenester/vitnemalsportalen
 - https://www.vitnemalsportalen.no
-- https://sikt.no/nb/tjenester/nasjonal-vitnemalsdatabase
+- https://www.sikt.no/nb/tjenester/nasjonal-vitnemalsdatabase
 
 ## Kildegrunnlag brukt i utfyllingen
 - Lokal fil: `config/templates/produkt-canvas-template.md`
@@ -164,7 +164,7 @@ Vitnemålsportalen er en nasjonal delingsportal som henter resultater fra etable
 - Lokal fil: `arkitektur/prinsipper/principles.md`
 - Lokal fil: `arkitektur/ressurser/produktnummerering.md`
 - Lokal fil: `sources/links.md`
-- Nettkilde: https://sikt.no/tjenester/vitnemalsportalen (hentet 2026-03-18)
-- Nettkilde: https://sikt.no/nb/tjenester/nasjonal-vitnemalsdatabase (hentet 2026-03-18)
+- Nettkilde: https://www.sikt.no/tjenester/vitnemalsportalen (hentet 2026-03-18)
+- Nettkilde: https://www.sikt.no/nb/tjenester/nasjonal-vitnemalsdatabase (hentet 2026-03-18)
 
 

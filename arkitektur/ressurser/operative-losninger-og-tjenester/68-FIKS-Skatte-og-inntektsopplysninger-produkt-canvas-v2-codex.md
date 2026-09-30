@@ -114,7 +114,7 @@ En sentral del av funksjonen er endrings- og forvaltningsarbeidet rundt Skatteet
 ## Kanaler
 - https://ksdigital.no/tjenestene/fiks-register/fiks-skatte-og-inntektsopplysninger/
 - https://developers.fiks.ks.no/tjenester/register/skatteoginntektsopplysninger_ny/
-- https://ksdigital.no/tjenestene/segmentsamarbeid/
+- https://ksdigital.no/tjenestene/deling-av-data-segmentsamarbeid/
 - https://www.skatteetaten.no/deling/bruksvilkar-for-delingstjenester/
 
 ## Plattform
@@ -163,7 +163,7 @@ Fiks skatte- og inntektsopplysninger er en registertilgangstjeneste i KS Digital
 ## Lenke til dokumentasjon
 - https://ksdigital.no/tjenestene/fiks-register/fiks-skatte-og-inntektsopplysninger/
 - https://developers.fiks.ks.no/tjenester/register/skatteoginntektsopplysninger_ny/
-- https://ksdigital.no/tjenestene/segmentsamarbeid/
+- https://ksdigital.no/tjenestene/deling-av-data-segmentsamarbeid/
 - https://www.skatteetaten.no/deling/bruksvilkar-for-delingstjenester/
 
 ## Kildegrunnlag brukt i utfyllingen
@@ -175,7 +175,7 @@ Fiks skatte- og inntektsopplysninger er en registertilgangstjeneste i KS Digital
 - Lokal fil: `arkitektur/ressurser/operative-losninger-og-tjenester/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v1-codex.md`
 - Nettkilde: https://ksdigital.no/tjenestene/fiks-register/fiks-skatte-og-inntektsopplysninger/ (hentet 2026-05-26)
 - Nettkilde: https://developers.fiks.ks.no/tjenester/register/skatteoginntektsopplysninger_ny/ (hentet 2026-05-26)
-- Nettkilde: https://ksdigital.no/tjenestene/segmentsamarbeid/ (hentet 2026-05-26)
+- Nettkilde: https://ksdigital.no/tjenestene/deling-av-data-segmentsamarbeid/ (hentet 2026-05-26)
 - Nettkilde: https://www.skatteetaten.no/deling/bruksvilkar-for-delingstjenester/ (hentet 2026-05-26)
 
 ## Endringer fra forrige versjon

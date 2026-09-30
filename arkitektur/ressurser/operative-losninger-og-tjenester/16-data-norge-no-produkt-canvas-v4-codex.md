@@ -128,7 +128,7 @@ Operative mål utledet fra de samme kildene:
 | Brukeropplevelse | KI-søket kan gi ufullstendige eller feil svar som brukere overvurderer | Tydelig forbehold, standard søk som alternativ og støtte via veiledning |
 
 ## Kanaler
-- Webportal: https://data.norge.no/
+- Webportal: https://data.norge.no/nb
 - Om løsningen: https://data.norge.no/nb/about
 - Brukerveiledning: https://data.norge.no/nb/docs
 - Nettforum / Datalandsbyen: https://data.norge.no/nb/docs/community
@@ -182,7 +182,7 @@ Nasjonal webportal for oppdagelse, metadataforvaltning, veiledning og fellesskap
 | Styringsmodell | Digdir forvalter løsningen, mens virksomhetene selv forvalter eget kataloginnhold | Om Data.norge.no |
 
 ## Lenke til dokumentasjon
-- https://data.norge.no/
+- https://data.norge.no/nb
 - https://data.norge.no/nb/about
 - https://data.norge.no/nb/docs
 - https://data.norge.no/nb/docs/community
@@ -198,7 +198,7 @@ Nasjonal webportal for oppdagelse, metadataforvaltning, veiledning og fellesskap
 - Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Lokal fil: `arkitektur/ressurser/produktnummerering.md`
 - Lokal fil: `sources/links.md`
-- Nettkilde: https://data.norge.no/ (hentet 2026-03-10)
+- Nettkilde: https://data.norge.no/nb (hentet 2026-03-10)
 - Nettkilde: https://data.norge.no/nb/about (hentet 2026-03-10)
 - Nettkilde: https://data.norge.no/nb/docs (hentet 2026-03-10)
 - Nettkilde: https://data.norge.no/nb/docs/community (hentet 2026-03-10)

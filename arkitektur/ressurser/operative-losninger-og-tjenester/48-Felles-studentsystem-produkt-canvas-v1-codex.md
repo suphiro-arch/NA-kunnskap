@@ -108,7 +108,7 @@ Operative mål utledet fra de samme kildene:
 | Avhengighet | Tilknyttede tjenester kan bli tett avhengige av FS-data og endringer i grensesnitt | Stabil integrasjonsforvaltning og varsling |
 
 ## Kanaler
-- Felles studentsystem: https://sikt.no/nb/tjenester/felles-studentsystem
+- Felles studentsystem: https://www.sikt.no/tjenester/fs
 - FS.sikt.no: https://fs.sikt.no/
 - FS-API: https://docs.sikt.no/docs/datadeling/teknisk-plattform/api/fs/
 - API-katalog for studieadministrasjon: https://fs.sikt.no/tjenester/api/
@@ -149,7 +149,7 @@ FS er en nasjonal studieadministrativ plattform med databaser, integrasjoner, AP
 | Styringsmodell | Felles sektorløsning for universiteter, høgskoler og fagskoler | Produktsidene og API-dokumentasjonen |
 
 ## Lenke til dokumentasjon
-- https://sikt.no/nb/tjenester/felles-studentsystem
+- https://www.sikt.no/tjenester/fs
 - https://fs.sikt.no/
 - https://docs.sikt.no/docs/datadeling/teknisk-plattform/api/fs/
 - https://fs.sikt.no/tjenester/api/
@@ -161,7 +161,7 @@ FS er en nasjonal studieadministrativ plattform med databaser, integrasjoner, AP
 - Lokal fil: `arkitektur/prinsipper/principles.md`
 - Lokal fil: `arkitektur/ressurser/produktnummerering.md`
 - Lokal fil: `sources/links.md`
-- Nettkilde: https://sikt.no/nb/tjenester/felles-studentsystem (kontrollert 2026-03-27)
+- Nettkilde: https://www.sikt.no/tjenester/fs (kontrollert 2026-09-30)
 - Nettkilde: https://fs.sikt.no/ (kontrollert 2026-03-27)
 - Nettkilde: https://docs.sikt.no/docs/datadeling/teknisk-plattform/api/fs/ (kontrollert 2026-03-27)
 - Nettkilde: https://fs.sikt.no/tjenester/api/ (kontrollert 2026-03-27)

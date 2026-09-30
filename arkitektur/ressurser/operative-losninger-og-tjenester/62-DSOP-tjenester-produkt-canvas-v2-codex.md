@@ -109,7 +109,7 @@ Dokumenterte og tydelig utledbare mål for ressursen er å:
 | Brukerverdi | Etableringen kan bli for tung i forhold til faktisk volum eller behov | Bruke DSOP bare der problemet er reelt gjentakende og tverrsektorielt nok |
 
 ## Kanaler
-- Hovedside: https://www.dsop.no/
+- Hovedside: https://bits.no/project/dsop/
 - Dokumentasjon: https://dokumentasjon.dsop.no/
 
 ## Plattform
@@ -152,7 +152,7 @@ Vurdering av svakheter og spenninger:
 | Budsjettmodell | Ikke samlet offentlig dokumentert | Ikke bekreftet i lokale kilder |
 
 ## Lenke til dokumentasjon
-- https://www.dsop.no/
+- https://bits.no/project/dsop/
 - https://dokumentasjon.dsop.no/
 
 ## Kildegrunnlag brukt i utfyllingen
@@ -162,7 +162,7 @@ Vurdering av svakheter og spenninger:
 - Lokal fil: `arkitektur/ressurser/produktnummerering.md`
 - Lokal fil: `arkitektur/ressurser/samarbeidsfora/123-DSOP-samarbeidet-v1-codex.md`
 - Lokal fil: `sources/links.md`
-- Nettkilde fra repoets lenkegrunnlag: https://www.dsop.no/ (ikke rekontrollert direkte i denne arbeidsøkten)
+- Nettkilde fra repoets lenkegrunnlag: https://bits.no/project/dsop/ (ikke rekontrollert direkte i denne arbeidsøkten)
 - Nettkilde fra repoets lenkegrunnlag: https://dokumentasjon.dsop.no/ (ikke rekontrollert direkte i denne arbeidsøkten)
 
 ## Endringer fra forrige versjon

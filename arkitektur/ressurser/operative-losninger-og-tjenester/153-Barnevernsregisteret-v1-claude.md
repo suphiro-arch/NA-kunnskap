@@ -173,12 +173,12 @@ Kildene beskriver ingen egen finansieringsmodell eller brukerbetaling. Registere
 - https://www.bufdir.no/fagstotte/barnevern-oppvekst/barnevernsregisteret/
 - https://data.bufdir.no/
 - https://www.bufdir.no/prosjekter/digibarnevern/
-- https://www.ks.no/fagomrader/digitalisering/felleslosninger/digibarnevern/
+- https://www.ks.no/fagomrader/digitalisering/digibarnevern/
 
 ## Kildegrunnlag brukt i utfyllingen
 - https://www.bufdir.no/fagstotte/barnevern-oppvekst/barnevernsregisteret/, kontrollert 2026-09-07
 - https://www.bufdir.no/prosjekter/digibarnevern/, kontrollert 2026-09-07
-- https://www.ks.no/fagomrader/digitalisering/felleslosninger/digibarnevern/, kontrollert 2026-09-07
+- https://www.ks.no/fagomrader/digitalisering/digibarnevern/, kontrollert 2026-09-30
 - `arkitektur/ressurser/operative-losninger-og-tjenester/96-KS-Bekymringsmelding-produkt-canvas-v1-codex.md`, kontrollert 2026-09-07
 - `arkitektur/kapabiliteter/capabilities.yaml`, kontrollert 2026-09-07
 - `arkitektur/prinsipper/principles.md`, kontrollert 2026-09-07

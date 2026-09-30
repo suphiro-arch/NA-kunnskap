@@ -118,7 +118,7 @@ Operative mål utledet fra de samme kildene:
 ## Kanaler
 - Om grunnboken: https://www.kartverket.no/en/property/bestille-fra-grunnboken/hva-er-grunnboken
 - Eiendomsdata: https://www.kartverket.no/api-og-data/eiendomsdata
-- Eiendomsregisteret: https://seeiendom.kartverket.no/
+- Eiendomsregisteret: https://eiendomsregisteret.kartverket.no/
 
 ## Plattform
 Grunnboken er et nasjonalt register- og dokumentasjonssystem for tinglyste rettigheter og heftelser, forvaltet av Kartverket som del av den samlede eiendomsdataforvaltningen.
@@ -163,7 +163,7 @@ Grunnboken er et nasjonalt register- og dokumentasjonssystem for tinglyste retti
 ## Lenke til dokumentasjon
 - https://www.kartverket.no/en/property/bestille-fra-grunnboken/hva-er-grunnboken
 - https://www.kartverket.no/api-og-data/eiendomsdata
-- https://seeiendom.kartverket.no/
+- https://eiendomsregisteret.kartverket.no/
 
 ## Kildegrunnlag brukt i utfyllingen
 - Lokal fil: `config/prompts/produkt-canvas.system.md`

@@ -116,7 +116,7 @@ Operative mål utledet fra de samme kildene:
 - OpenPeppol: https://peppol.org/
 - OpenPeppol dokumentasjon: https://peppol.org/documentation/
 - Peppol eDelivery-dokumentasjon: https://docs.peppol.eu/edelivery/
-- EHF: https://www.anskaffelser.no/hva-skal-du-kjope/fagsystemer-digitale-anskaffelser/elektronisk-handelsformat-ehf
+- EHF: https://www.anskaffelser.no/kategorispesifik-veiledning/fagsystemer-digitale-anskaffelser/elektronisk-handelsformat-ehf
 - Aksesspunkt: https://www.anskaffelser.no/verktoy/veiledere/aksesspunkt
 
 ## Plattform
@@ -168,7 +168,7 @@ Peppol eDelivery er ikke én sentral plattform, men et føderert meldingsøkosys
 - https://peppol.org/
 - https://peppol.org/documentation/
 - https://docs.peppol.eu/edelivery/
-- https://www.anskaffelser.no/hva-skal-du-kjope/fagsystemer-digitale-anskaffelser/elektronisk-handelsformat-ehf
+- https://www.anskaffelser.no/kategorispesifik-veiledning/fagsystemer-digitale-anskaffelser/elektronisk-handelsformat-ehf
 - https://www.anskaffelser.no/verktoy/veiledere/aksesspunkt
 
 ## Kildegrunnlag brukt i utfyllingen
@@ -180,7 +180,7 @@ Peppol eDelivery er ikke én sentral plattform, men et føderert meldingsøkosys
 - Nettkilde: https://peppol.org/ (hentet 2026-03-18)
 - Nettkilde: https://peppol.org/documentation/ (hentet 2026-03-18)
 - Nettkilde: https://docs.peppol.eu/edelivery/ (hentet 2026-03-18)
-- Nettkilde: https://www.anskaffelser.no/hva-skal-du-kjope/fagsystemer-digitale-anskaffelser/elektronisk-handelsformat-ehf (hentet 2026-03-18)
+- Nettkilde: https://www.anskaffelser.no/kategorispesifik-veiledning/fagsystemer-digitale-anskaffelser/elektronisk-handelsformat-ehf (hentet 2026-03-18)
 - Nettkilde: https://www.anskaffelser.no/verktoy/veiledere/aksesspunkt (hentet 2026-03-18)
 
 ---

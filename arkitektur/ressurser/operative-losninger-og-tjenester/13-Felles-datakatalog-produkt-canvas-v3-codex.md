@@ -126,7 +126,7 @@ Operative mål utledet fra de samme kildene:
 - Produktside hos Digdir: https://www.digdir.no/felleslosninger/felles-datakatalog/790
 - Samarbeidsportalen, oversikt: https://samarbeid.digdir.no/felles-datakatalog/dette-er-felles-datakatalog/1616
 - Samarbeidsportalen, ta i bruk: https://samarbeid.digdir.no/felles-datakatalog/ta-i-bruk-felles-datakatalog/1619
-- data.norge.no: https://data.norge.no/
+- data.norge.no: https://data.norge.no/nb
 - data.norge.no, om løsningen: https://data.norge.no/nb/about
 - Krav/anbefaling om registrering av datasett: https://www.digdir.no/krav-og-anbefalinger/registrer-datasett-i-felles-datakatalog/3088
 
@@ -179,7 +179,7 @@ Felles datakatalog er en nasjonal metadata- og publiseringsløsning for dataress
 - https://www.digdir.no/felleslosninger/felles-datakatalog/790
 - https://samarbeid.digdir.no/felles-datakatalog/dette-er-felles-datakatalog/1616
 - https://samarbeid.digdir.no/felles-datakatalog/ta-i-bruk-felles-datakatalog/1619
-- https://data.norge.no/
+- https://data.norge.no/nb
 - https://data.norge.no/nb/about
 - https://www.digdir.no/krav-og-anbefalinger/registrer-datasett-i-felles-datakatalog/3088
 

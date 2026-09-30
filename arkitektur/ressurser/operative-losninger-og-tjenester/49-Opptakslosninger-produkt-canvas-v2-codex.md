@@ -111,7 +111,7 @@ Ikke offentlig dokumentert som ett samlet, detaljert veikart i kildene brukt i d
 | Brukeropplevelse | Uklart språk eller ujevn prosessinformasjon kan øke feil og henvendelser | Bedre søkerkommunikasjon og kontinuerlig forbedring av brukerflater |
 
 ## Kanaler
-- https://sikt.no/tjenester/opptakslosninger
+- https://www.sikt.no/tjenester/opptakslosninger
 - https://www.samordnaopptak.no/
 
 ## Plattform
@@ -151,7 +151,7 @@ Ikke offentlig dokumentert i detalj i kildene brukt i denne revisjonen.
 | Styringsmodell | Delt modell mellom systemforvaltning og opptaksforvaltning | Oppgitt rollefordeling i kildene |
 
 ## Lenke til dokumentasjon
-- https://sikt.no/tjenester/opptakslosninger
+- https://www.sikt.no/tjenester/opptakslosninger
 - https://www.samordnaopptak.no/
 
 ## Kildegrunnlag brukt i utfyllingen
@@ -159,7 +159,7 @@ Ikke offentlig dokumentert i detalj i kildene brukt i denne revisjonen.
 - Lokal fil: `arkitektur/ressurser/produktnummerering.md`
 - Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Lokal fil: `arkitektur/prinsipper/principles.md`
-- Nettkilde: https://sikt.no/tjenester/opptakslosninger (kontrollert 2026-05-26)
+- Nettkilde: https://www.sikt.no/tjenester/opptakslosninger (kontrollert 2026-09-30)
 - Nettkilde: https://www.samordnaopptak.no/ (kontrollert 2026-05-26)
 
 ## Endringer fra forrige versjon

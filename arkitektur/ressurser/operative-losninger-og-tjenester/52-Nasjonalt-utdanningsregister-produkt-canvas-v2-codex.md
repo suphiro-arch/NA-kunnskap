@@ -94,8 +94,8 @@ Offentlige kilder beskriver tiltaket som gjennomført i perioden 2023–2025. De
 
 ## Kanaler
 - https://fs.sikt.no/tjenester/nasjonale-register/utdanningsregister/
-- https://sikt.no/nb/tiltak/nasjonalt-utdanningsregister
-- https://sikt.no/tiltak/nasjonalt-utdanningsregister/horing-nytt-nasjonalt-utdanningsregister
+- https://www.sikt.no/nb/tiltak/nasjonalt-utdanningsregister
+- https://www.sikt.no/tiltak/nasjonalt-utdanningsregister/horing-nytt-nasjonalt-utdanningsregister
 
 ## Plattform
 Nasjonalt register i Sikt sitt studieadministrative økosystem. Offisielle kilder i denne runden beskriver funksjon og styring tydeligere enn teknisk plattformdetaljering.
@@ -136,8 +136,8 @@ Utviklingen ble satt i gang på oppdrag fra Kunnskapsdepartementet. Offentlige k
 
 ## Lenke til dokumentasjon
 - https://fs.sikt.no/tjenester/nasjonale-register/utdanningsregister/
-- https://sikt.no/nb/tiltak/nasjonalt-utdanningsregister
-- https://sikt.no/tiltak/nasjonalt-utdanningsregister/horing-nytt-nasjonalt-utdanningsregister
+- https://www.sikt.no/nb/tiltak/nasjonalt-utdanningsregister
+- https://www.sikt.no/tiltak/nasjonalt-utdanningsregister/horing-nytt-nasjonalt-utdanningsregister
 
 ## Kildegrunnlag brukt i utfyllingen
 - `sources/links.md`, kontrollert 2026-05-31
@@ -145,5 +145,5 @@ Utviklingen ble satt i gang på oppdrag fra Kunnskapsdepartementet. Offentlige k
 - `arkitektur/prinsipper/principles.md`, kontrollert 2026-05-31
 - `arkitektur/ressurser/produktnummerering.md`, kontrollert 2026-05-31
 - https://fs.sikt.no/tjenester/nasjonale-register/utdanningsregister/, kontrollert 2026-05-31
-- https://sikt.no/nb/tiltak/nasjonalt-utdanningsregister, kontrollert 2026-05-31
-- https://sikt.no/tiltak/nasjonalt-utdanningsregister/horing-nytt-nasjonalt-utdanningsregister, kontrollert 2026-05-31
+- https://www.sikt.no/nb/tiltak/nasjonalt-utdanningsregister, kontrollert 2026-09-30
+- https://www.sikt.no/tiltak/nasjonalt-utdanningsregister/horing-nytt-nasjonalt-utdanningsregister, kontrollert 2026-09-30

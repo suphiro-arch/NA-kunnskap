@@ -133,7 +133,7 @@ Samarbeidsportalen har egen side for kostnader ved bruk av MinID. Detaljert fina
 - MinID i Samarbeidsportalen: https://samarbeid.digdir.no/minid/minid/3634
 - Driftsmeldinger for MinID: https://status.digdir.no/
 - Teknisk veiledning for Digdirs fellesløsninger: https://docs.digdir.no/
-- Brukerhjelp for privatpersoner: https://www.norge.no/
+- Brukerhjelp for privatpersoner: https://www.norge.no/nb
 
 ## Kildegrunnlag brukt i utfyllingen
 - Samarbeidsportalen - MinID: https://samarbeid.digdir.no/minid/minid/3634 (kontrollert 2026-06-22)

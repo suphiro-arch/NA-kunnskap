@@ -6,13 +6,13 @@ Sist redigert: 2026-09-30.
 ## Fellesløsninger
 
 ### Digdir
-- DSOP - digital samhandling offentlig privat: https://www.dsop.no/
+- DSOP - digital samhandling offentlig privat: https://bits.no/project/dsop/
 - DSOP - dokumentasjon av felleskomponenter og integrasjoner: https://dokumentasjon.dsop.no/
 - Nasjonale fellesløsninger: https://www.digdir.no/felleslosninger/nasjonale-felleslosninger/750
 - Samlet teknisk dokumentasjon: https://docs.digdir.no/
 - Samarbeidsportalen: https://samarbeid.digdir.no/
 - Om Samarbeidsportalen: https://samarbeid.digdir.no/digital-postkasse/om-samarbeidsportalen/82 (lagt til 2026-04-10)
-- Altinn: https://www.altinn.no
+- Altinn: https://info.altinn.no/
 - Altinn dokumentasjon: https://docs.altinn.studio/nb/ (mest oppdatert for Altinn)
 - Altinn Authorization - samtykke for systemleverandoerer: https://docs.altinn.studio/en/authorization/guides/system-vendor/consent/ (lagt til 2026-09-15)
 - Altinn - tjenesteutvikling: https://samarbeid.digdir.no/altinn/tjenesteutvikling/2634
@@ -64,7 +64,7 @@ Sist redigert: 2026-09-30.
 - Felles datakatalog - dette er Felles datakatalog: https://samarbeid.digdir.no/felles-datakatalog/dette-er-felles-datakatalog/1616
 - Felles datakatalog - ta i bruk: https://samarbeid.digdir.no/felles-datakatalog/ta-i-bruk-felles-datakatalog/1619 (lagt til 2026-03-27)
 - Felles datakatalog - registrer datasett: https://www.digdir.no/krav-og-anbefalinger/registrer-datasett-i-felles-datakatalog/3088 (lagt til 2026-03-27)
-- data.norge.no: https://data.norge.no/
+- data.norge.no: https://data.norge.no/nb
 - Begrepskatalogen: https://data.norge.no/catalogs/concepts (lagt til 2026-03-27)
 - API-katalogen: https://data.norge.no/catalogs/data-services (lagt til 2026-03-27)
 - data.norge.no teknisk dokumentasjon: https://data.norge.no/nb/technical (lagt til 2026-03-27)
@@ -74,7 +74,7 @@ Sist redigert: 2026-09-30.
 - data.norge.no i Samarbeidsportalen: https://samarbeid.digdir.no/felles-datakatalog/datanorgeno/1617
 - data.altinn.no: https://data.altinn.no/
 - data.altinn.no dokumentasjon: https://docs.data.altinn.no/
-- Norge.no: https://www.norge.no/
+- Norge.no: https://www.norge.no/nb
 - Om tjenestene på Norge.no: https://www.norge.no/om-norge-no (svarer 404, kontrollert 2026-09-18; ny adresse ikke funnet)
 - Ansattporten dokumentasjon: https://docs.digdir.no/docs/ansattporten/ansattporten_wellknown.html (lagt til 2026-04-10)
 - Ansattporten protokoll: https://docs.digdir.no/docs/ansattporten/ansattporten_protocol.html (lagt til 2026-04-10)
@@ -137,8 +137,7 @@ Sist redigert: 2026-09-30.
 - Felles sikkerhet i forvaltningen - omtaleside: https://www.digdir.no/informasjonssikkerhet/felles-sikkerhet-i-forvaltningen/4115 (lagt til 2026-04-10)
 - Felles sikkerhet i forvaltningen - Digdir-notat: https://www.digdir.no/informasjonssikkerhet/felles-sikkerhet-i-forvaltningen/4106 (lagt til 2026-04-10)
 - Felles sikkerhet i forvaltningen - oppdatert temaside: https://www.digdir.no/informasjonssikkerhet/felles-sikkerhet-i-forvaltningen/5957 (lagt til 2026-06-07)
-- DSOP hos Bits: https://bits.no/project/dsop/ (lagt til 2026-06-07)
-- DSOP dokumentasjon hos Bits: https://www.bits.no/document/5620-2/ (lagt til 2026-06-07)
+- DSOP dokumentasjon hos Bits: https://bits.no/document/5620-2/ (lagt til 2026-06-07)
 - Designsystemet: https://designsystemet.no/ (lagt til 2026-04-10)
 - Designsystemet - React: https://designsystemet.no/no/fundamentals/code/react (lagt til 2026-04-10)
 - Mandat for styringsråd for Digdirs fellesløsninger: https://www.digdir.no/media/1977/download (lagt til 2026-04-10)
@@ -148,15 +147,13 @@ Sist redigert: 2026-09-30.
 - eInnsyn - årsrapport 2025: https://samarbeid.digdir.no/einnsyn/einnsyn-2025/3518 (lagt til 2026-05-05)
 - Ansattporten - statistikk: https://samarbeid.digdir.no/ansattporten/statistikk-ansattporten/3430 (lagt til 2026-05-05)
 - Altinn 3 plattform: https://github.com/Altinn (lagt til 2026-08-28)
-- Altinn 3 plattform: https://www.altinn.no/ (lagt til 2026-08-28)
-- Altinn Autorisasjon, arkivert repositorium per kontroll 2026-09-25, se altinn-auth: https://github.com/Altinn/altinn-access-management (lagt til 2026-08-28)
+- Altinn Autorisasjon, arkivert repositorium per kontroll 2026-09-25, se altinn-auth: https://github.com/Altinn/altinn-access-management-archive (lagt til 2026-08-28)
 - Altinn Autorisasjon - gjeldende monorepo for tilgangsstyring: https://github.com/Altinn/altinn-auth (lagt til 2026-09-30)
 - Altinn Events: https://github.com/Altinn/altinn-events (lagt til 2026-08-28)
 - Altinn Formidling: https://github.com/Altinn/altinn-broker (lagt til 2026-08-28)
 - Altinn Melding: https://github.com/Altinn/altinn-correspondence (lagt til 2026-08-28)
 - Arbeidsflate - innboks: https://af.altinn.no/ui/messages/inbox (lagt til 2026-08-28)
 - Altinn Autorisasjon - brukerflate for tilgangsstyring: https://am.ui.altinn.no/ (lagt til 2026-08-28)
-- Altinn.no: https://info.altinn.no/ (lagt til 2026-08-28)
 - Altinn.no - innholdsstrategi for Altinn informasjonsportal: https://info.altinn.no/om-altinn/innholdsstrategi-altinn-informasjonsportal/ (lagt til 2026-09-18)
 - Altinn.no som kanal for etablerere og næringsdrivende: https://www.digdir.no/digitalisering-og-samordning/bruk-altinn-som-kanal-etablerarar-og-naeringsdrivande/3117 (lagt til 2026-09-18)
 - Altinn.no - kildekode for infoportalen: https://github.com/Altinn/info.altinn.no (lagt til 2026-09-17)
@@ -182,7 +179,7 @@ Sist redigert: 2026-09-30.
 - eInnsyn - kildekode for tjenestelaget: https://github.com/felleslosninger/einnsyn-backend (lagt til 2026-09-30)
 - eInnsyn - kildekode for brukerflaten: https://github.com/felleslosninger/einnsyn-frontend (lagt til 2026-09-30)
 - eInnsyn: https://samarbeid.digdir.no/einnsyn/dette-er-einnsyn/81 (lagt til 2026-08-28)
-- eInnsyn: https://samarbeid.digdir.no/einnsyn/einnsyn/997 (lagt til 2026-08-28)
+- eInnsyn: https://samarbeid.digdir.no/einnsyn/statistikk-einnsyn/3427 (lagt til 2026-08-28)
 - eInnsyn: https://samarbeid.digdir.no/einnsyn/kostnadsmodell-einnsyn/101 (lagt til 2026-08-28)
 - eInnsyn: https://samarbeid.digdir.no/einnsyn/ta-i-bruk-einnsyn/99 (lagt til 2026-08-28)
 - eSignering: https://samarbeid.digdir.no/esignering/dette-er-esignering/102 (lagt til 2026-08-28)
@@ -276,34 +273,30 @@ Sist redigert: 2026-09-30.
 - Digitaliseringsrådet - Om: https://www.digdir.no/digitaliseringsradet/om-digitaliseringsradet/7589
 - Digitaliseringsrådet - Mandat: https://www.digdir.no/digitaliseringsradet/digitaliseringsradets-mandat/1878
 - Digitaliseringsrådet - Arbeid: https://www.digdir.no/digitaliseringsradet/digitaliseringsradets-arbeid/1875
-- KS Digital - Felles tjenesteplattform: https://ksdigital.no/tjenestene/utviklingsprosjekter/felles-tjenesteplattform/ (lagt til 2026-03-18)
+- KS Digital - Felles tjenesteplattform: https://ksdigital.no/tjenestene/prosjekter-i-utvikling/felles-tjenesteplattform-2/ (lagt til 2026-03-18)
 - Digiorden: https://ksdigital.no/tjenestene/digiorden/
 - Fiks Digiorden - nyhetsside: https://ksdigital.no/2022/06/14/nyheter-om-fiks-digiorden/ (lagt til 2026-03-18)
 - Fiks Digisos: https://ksdigital.no/tjenestene/fiks-digisos/
 - Fiks Melding: https://ksdigital.no/tjenestene/fiks-melding/
 - Fikslinjer på faktura: https://ksdigital.no/avtaler-og-priser/fakturalinjer/ (lagt til 2026-06-07)
 - Fiks Melding - Fiks SMS: https://developers.fiks.ks.no/tjenester/fiksmelding/fiks-sms/ (lagt til 2026-03-19)
-- Fiks Folkeregister: https://ksdigital.no/tjenester/fiks-folkeregister/ (lagt til 2026-03-19)
-- Fiks Folkeregister - oppdatert produktside: https://ksdigital.no/tjenestene/fiks-register/fiks-folkeregister/ (lagt til 2026-06-07)
+- Fiks Folkeregister: https://ksdigital.no/tjenestene/fiks-register/fiks-folkeregister/ (lagt til 2026-03-19)
 - Fiks Protokoll: https://ksdigital.no/tjenestene/fiks-protokoll/
 - Fiks Register: https://ksdigital.no/tjenestene/fiks-register/
 - Fiks skatte- og inntektsopplysninger - produktside: https://ksdigital.no/tjenestene/fiks-register/fiks-skatte-og-inntektsopplysninger/ (lagt til 2026-06-07)
-- Segmentsamarbeid hos KS Digital: https://ksdigital.no/tjenestene/segmentsamarbeid/ (lagt til 2026-06-07)
+- Segmentsamarbeid hos KS Digital: https://ksdigital.no/tjenestene/deling-av-data-segmentsamarbeid/ (lagt til 2026-06-07)
 - Fiks Smittevern: https://ksdigital.no/tjenestene/fiks-smittevern/
 - SvarUt: https://ksdigital.no/tjenestene/svarut-tjenesten/
 - SvarUt - utviklerdokumentasjon: https://developers.fiks.ks.no/tjenester/svarut/ (lagt til 2026-03-19)
-- SvarInn: https://ksdigital.no/tjenester/svarinn/ (lagt til 2026-03-19)
-- SvarInn - detaljert produktside: https://ksdigital.no/tjenestene/svarut-tjenesten/svarinn/ (lagt til 2026-03-19)
-- KS SvarInn - teknisk og funksjonell beskrivelse: https://ksdigital.no/tjenestene/svarut-tjenesten/ks-svarinn/ (lagt til 2026-03-19)
+- SvarInn: https://ksdigital.no/tjenestene/svarut-tjenesten/svarinn/ (lagt til 2026-03-19)
 - Avtaler og priser: https://ksdigital.no/avtaler-og-priser/ (lagt til 2026-03-19)
 - Fiks Register endringslogg: https://ksdigital.no/tjenestene/fiks-register/fiks_register_endringslogg/ (lagt til 2026-03-19)
-- Fiks Folkeregister - produktside: https://ksdigital.no/tjenestene/fiks-register/fiks-folkeregister-2/ (lagt til 2026-03-19)
 - Fiks Vaksine: https://ksdigital.no/tjenestene/fiks-vaksine/
 - KS Bekymringsmelding: https://ksdigital.no/tjenestene/ks-bekymringsmelding/
 - KS Bibliotek: https://ksdigital.no/tjenestene/ks-bibliotek/
 - KS Digitalt ledsagerbevis: https://ksdigital.no/tjenestene/ks-digitalt-ledsagerbevis/
 - KS Hjelpemiddel: https://ksdigital.no/tjenestene/ks-hjelpemiddel/
-- KS Kunnskap: https://ksdigital.no/tjenestene/ks-kunnskap/
+- KS Kunnskap: https://ksdigital.no/tjenestene/ks-kunnskap-2/
 - MinKommune: https://ksdigital.no/tjenestene/minkommune/
 - Min kommune barnevern: https://ksdigital.no/tjenestene/min-kommune-barnevern/
 - Fiks Digisos: https://www.nav.no/samarbeidspartner/digisos (lagt til 2026-08-28)
@@ -332,7 +325,7 @@ Sist redigert: 2026-09-30.
 - VIGO Sentralbase: https://novari.no/tjenester/vigo-sentralbase/ (lagt til 2026-04-09)
 - VIGO Kodeverk og kodeverksbase: https://novari.no/tjenester/vigo-kodeverk-og-kodeverkbase/ (lagt til 2026-04-09)
 - vigo.no: https://novari.no/tjenester/vigo-soknad/ (lagt til 2026-04-09)
-- Modernisering av VIGO: https://novari.no/prosjekter/prosjekt-z-2/ (lagt til 2026-04-09)
+- Modernisering av VIGO: https://novari.no/prosjekter/prosjekt-modernisering-av-vigo/ (lagt til 2026-04-09)
 - Anskaffelse for modernisering av VIGO-systemet: https://novari.no/nyheter/anskaffelse-for-modernisering-av-vigo-systemet/ (lagt til 2026-04-09)
 - FINT Felleskomponent: https://novari.no/tjenester/fint-flyt/ (lagt til 2026-08-28)
 - VIGO-portalen: https://www.vigo.no/nyvigo/portalen/portalen.html (lagt til 2026-08-28)
@@ -350,7 +343,6 @@ Sist redigert: 2026-09-30.
 - Kontakt a-ordningen: https://www.skatteetaten.no/bedrift-og-organisasjon/arbeidsgiver/a-meldingen/om-a-ordningen/kontakt-a-ordningen/ (lagt til 2026-03-27)
 - A-ordningen informasjonsmøte 12. mars 2026: https://www.skatteetaten.no/samarbeidspartnere/sluttbrukersystemer/sbs-nyheter/a-ordningen---informasjonsmote-12.-mars/ (lagt til 2026-03-27)
 - Digital plattforminformasjon (DPI): https://www.skatteetaten.no/bedrift-og-organisasjon/rapportering-og-bransjer/tredjepartsopplysninger/andre-bransjer/digital-plattforminformasjon-dpi/veiledning-for-digital-plattforminformasjon-dpi/
-- KS-Skatteetaten segmentsamarbeid: https://ksdigital.no/tjenestene/fiks-register/segmentsamarbeid/
 - Skatteetaten - deling: https://www.skatteetaten.no/deling/ (lagt til 2026-03-18)
 - Hvorfor vi deler data: https://www.skatteetaten.no/deling/hvorfor-vi-deler-data/ (lagt til 2026-03-27)
 - Kontakt oss om deling av data: https://www.skatteetaten.no/deling/kontakt/ (lagt til 2026-03-27)
@@ -385,14 +377,13 @@ Sist redigert: 2026-09-30.
 - Kommunalt pasient- og brukerregister (KPR): https://www.fhi.no/he/kpr/ (lagt til 2026-04-28)
 - Om KPR: https://www.fhi.no/he/kpr/om-kpr/ (lagt til 2026-06-17)
 - Søk om data fra KPR: https://www.fhi.no/he/kpr/sok-om-data-fra-kpr/ (lagt til 2026-04-28)
-- SYSVAK (FHI): https://www.fhi.no/hn/helseregistre-og-registre/sysvak/ (lagt til 2026-04-11)
+- SYSVAK (FHI): https://www.fhi.no/va/sysvak/ (lagt til 2026-04-11)
 - SYSVAK (FHI) - oppdatert URL: https://www.fhi.no/helseregistre/sysvak (lagt til 2026-06-07)
 - SYSVAK hos Helsedata: https://helsedata.no/no/forvaltere/folkehelseinstituttet/nasjonalt-vaksinasjonsregister/ (lagt til 2026-06-07)
 - MSIS (FHI): https://www.fhi.no/sv/smittsomme-sykdommer/msis/ (lagt til 2026-04-11)
 - MSIS (FHI) - oppdatert URL: https://www.fhi.no/ut/msis/ (lagt til 2026-06-07)
 - MSIS hos Helsedata: https://helsedata.no/no/forvaltere/folkehelseinstituttet/meldingssystem-for-smittsomme-sykdommer/ (lagt til 2026-06-07)
-- Dødsårsaksregisteret (FHI): https://www.fhi.no/hn/helseregistre-og-registre/dodsarsaksregisteret/ (lagt til 2026-04-11)
-- Dødsårsaksregisteret (FHI) - oppdatert URL: https://www.fhi.no/op/dodsarsaksregisteret/ (lagt til 2026-06-07)
+- Dødsårsaksregisteret (FHI): https://www.fhi.no/op/dodsarsaksregisteret/ (lagt til 2026-04-11)
 - Dødsårsaksregisteret hos Helsedata: https://helsedata.no/no/forvaltere/folkehelseinstituttet/dodsarsaksregisteret/ (lagt til 2026-06-07)
 - Reseptregisteret / NorPD (FHI): https://www.fhi.no/hn/helseregistre-og-registre/reseptregisteret/ (lagt til 2026-04-11)
 - Helsedirektoratet - helseregistre og helsedata: https://www.helsedirektoratet.no/helseregistre-og-helsedata
@@ -407,7 +398,7 @@ Sist redigert: 2026-09-30.
 - Helseopplysninger som deles: https://www.helsenorge.no/helseopplysninger-som-deles
 - Resepter på Helsenorge: https://www.helsenorge.no/legemidler/resepter
 - Helsenorge - om vaksinetjenesten: https://www.helsenorge.no/vaksiner/om/ (lagt til 2026-06-07)
-- Helsenorge - personverninnstillinger: https://www.helsenorge.no/personverninnstillinger/ (lagt til 2026-09-14)
+- Helsenorge - personverninnstillinger: https://www.helsenorge.no/innstillinger (lagt til 2026-09-14)
 - Helsenorge - om innstillinger: https://www.helsenorge.no/innstillinger/om-innstillinger/ (lagt til 2026-09-14)
 - HelseID (hva er HelseID): https://www.nhn.no/tjenester/helseid/hva-er-helseid
 - HelseID tjenestetilbud: https://www.nhn.no/tjenester/helseid/tjenestetilbud
@@ -454,7 +445,7 @@ Sist redigert: 2026-09-30.
 - Geonorge API-er: https://www.geonorge.no/en/for-developers/apis/ (lagt til 2026-03-27)
 - API-er for kartkatalogen: https://www.geonorge.no/verktoy/APIer-og-grensesnitt/apier-for-kartkatalogen/ (lagt til 2026-03-27)
 - Stedsnavndata / Sentralt stedsnavnregister: https://www.kartverket.no/api-og-data/stedsnavndata (lagt til 2026-04-28)
-- Grunnboken: https://seeiendom.kartverket.no/ (lagt til 2026-08-28)
+- Grunnboken: https://eiendomsregisteret.kartverket.no/ (lagt til 2026-08-28)
 - Matrikkelen: https://kartverket.no/en/about-kartverket/nyheter/eiendom/2023/august/en-moderne-matrikkel (lagt til 2026-08-28)
 
 ### Statens vegvesen
@@ -474,7 +465,7 @@ Sist redigert: 2026-09-30.
 - Barnevernsregisteret: https://www.bufdir.no/fagstotte/barnevern-oppvekst/barnevernsregisteret/ (lagt til 2026-09-07)
 - Data fra Bufdir, informasjonsmodeller og meldingsformater: https://data.bufdir.no/ (lagt til 2026-09-07)
 - DigiBarnevern hos Bufdir: https://www.bufdir.no/prosjekter/digibarnevern/ (lagt til 2026-09-07)
-- DigiBarnevern hos KS: https://www.ks.no/fagomrader/digitalisering/felleslosninger/digibarnevern/ (lagt til 2026-09-07)
+- DigiBarnevern hos KS: https://www.ks.no/fagomrader/digitalisering/digibarnevern/ (lagt til 2026-09-07)
 - Barnevernsfaglig kvalitetssystem (BFK), fagstøtte: https://www.bufdir.no/fagstotte/barnevern-oppvekst/bfk/ (lagt til 2026-09-09)
 - Barnevernsfaglig kvalitetssystem, egen flate: https://bfk.bufdir.no/ (lagt til 2026-09-09)
 - BFK i Felles datakatalog: https://data.norge.no/en/datasets/5f41f578-2841-3c74-92dc-6a3db859ec16/barnevernfaglig-kvalitetssystem-bfk (lagt til 2026-09-09)
@@ -498,16 +489,13 @@ Sist redigert: 2026-09-30.
 - Grep REST-endepunkter: https://data.udir.no/kl06/ (lagt til 2026-09-07)
 - Nasjonalt skoleregister, API: https://data-nsr.udir.no/v3 (lagt til 2026-09-07)
 - Nasjonalt barnehageregister, API: https://data-nbr.udir.no/v3 (lagt til 2026-09-07)
-- Grep-wiki, teknisk dokumentasjon: https://grepwiki.udir.no/index.php?title=Hovedside (lagt til 2026-09-07)
+- Grep-wiki, teknisk dokumentasjon: https://github.com/Utdanningsdirektoratet/KL06-LK20-public/wiki (lagt til 2026-09-07)
 - Utdanningsdirektoratet på GitHub: https://github.com/Utdanningsdirektoratet (lagt til 2026-09-07)
 - Grep SPARQL-endepunkt, beskrivelse: https://github.com/Utdanningsdirektoratet/Grep_SPARQL (lagt til 2026-09-07)
 - Grunnskolens informasjonssystem (GSI), om innrapportering: https://www.udir.no/tall-og-forskning/innrapportering/gsi/ (lagt til 2026-09-08)
 - GSI-innsamling, ny teknisk løsning og tilgang: https://www.udir.no/tall-og-forskning/statistikk/gsi-innsamling/ (lagt til 2026-09-08)
-- GSI rapporteringsløsning: https://gsi.udir.no/ (lagt til 2026-09-08)
-- GSI hjelpesider: https://gsi.udir.no/hjelp/ (lagt til 2026-09-08)
-- GSI, nytt i systemet: https://gsi.udir.no/hjelp/nytt/system (lagt til 2026-09-08)
-- BASIL, årsmeldingsskjema og kommuneskjema: https://www.udir.no/tall-og-forskning/datainnsamling--kilder/basil/basil-arsmelding-og-kommuneskjema/ (lagt til 2026-09-09)
-- BASIL, pålogging og tilgangsstyring: https://www.udir.no/tall-og-forskning/datainnsamling--kilder/basil/palogging-og-tilgangsstyring/ (lagt til 2026-09-09)
+- BASIL, årsmeldingsskjema og kommuneskjema: https://www.udir.no/tall-og-forskning/innrapportering/basil/basil-arsmelding-og-kommuneskjema/ (lagt til 2026-09-09)
+- BASIL, pålogging og tilgangsstyring: https://www.udir.no/tall-og-forskning/innrapportering/basil/palogging-og-tilgangsstyring/ (lagt til 2026-09-09)
 - Udirs barnehagestatistikk, samleside: https://www.udir.no/tall-og-forskning/statistikk/statistikk-barnehage/ (lagt til 2026-09-09)
 - Barnehagefakta: https://barnehagefakta.no/ (lagt til 2026-09-09)
 - Om Barnehagefakta: https://barnehagefakta.udir.no/om-barnehagefakta (lagt til 2026-09-09)
@@ -529,30 +517,30 @@ Sist redigert: 2026-09-30.
 - Database for statistikk om høyere utdanning (DBH): https://dbh.hkdir.no/about (lagt til 2026-09-08)
 
 ### Utdanning
-- Nasjonalt utdanningsregister: https://sikt.no/tiltak/nasjonalt-utdanningsregister
-- Nasjonalt utdanningsregister - høring om nytt register: https://sikt.no/tiltak/nasjonalt-utdanningsregister/horing-nytt-nasjonalt-utdanningsregister
+- Nasjonalt utdanningsregister: https://www.sikt.no/tiltak/nasjonalt-utdanningsregister
+- Nasjonalt utdanningsregister - høring om nytt register: https://www.sikt.no/tiltak/nasjonalt-utdanningsregister/horing-nytt-nasjonalt-utdanningsregister
 - Samordna opptak: https://www.samordnaopptak.no
 - Utdanning.no: https://utdanning.no/
 - Om Utdanning.no: https://utdanning.no/tema/om_utdanning.no/om_utdanning.no (lagt til 2026-03-18)
-- Om Sikt: https://sikt.no/om-sikt (lagt til 2026-03-18)
-- Se hva vi kan tilby: https://sikt.no/se-hva-vi-kan-tilby (lagt til 2026-03-18)
-- Utdanning og administrasjon i Sikt: https://sikt.no/se-hva-vi-kan-tilby/utdanning-og-administrasjon (lagt til 2026-03-18)
-- Feide hos Sikt: https://sikt.no/tjenester/feide (lagt til 2026-03-18)
+- Om Sikt: https://www.sikt.no/om-sikt (lagt til 2026-03-18)
+- Se hva vi kan tilby: https://www.sikt.no/se-hva-vi-kan-tilby (lagt til 2026-03-18)
+- Utdanning og administrasjon i Sikt: https://www.sikt.no/se-hva-vi-kan-tilby/utdanning-og-administrasjon (lagt til 2026-03-18)
+- Feide hos Sikt: https://www.sikt.no/tjenester/feide (lagt til 2026-03-18)
 - Felles studentsystem (FS): https://sikt.no/tjenester/felles-studentsystem-fs (lagt til 2026-03-18)
 - FS offisiell side: https://www.fs.no/ (lagt til 2026-03-19)
-- Felles studentsystem hos Sikt: https://sikt.no/nb/tjenester/felles-studentsystem (lagt til 2026-03-27)
+- Felles studentsystem hos Sikt: https://www.sikt.no/tjenester/fs (lagt til 2026-03-27)
 - FS.sikt.no: https://fs.sikt.no/ (lagt til 2026-03-27)
 - FS-API: https://docs.sikt.no/docs/datadeling/teknisk-plattform/api/fs/ (lagt til 2026-03-27)
 - API-katalog for studieadministrasjon: https://fs.sikt.no/tjenester/api/ (lagt til 2026-03-27)
-- Opptaksløsninger: https://sikt.no/tjenester/opptakslosninger (lagt til 2026-03-18)
-- Nasjonal vitnemålsdatabase (NVB): https://sikt.no/nb/tjenester/nasjonal-vitnemalsdatabase (lagt til 2026-03-18)
+- Opptaksløsninger: https://www.sikt.no/tjenester/opptakslosninger (lagt til 2026-03-18)
+- Nasjonal vitnemålsdatabase (NVB): https://www.sikt.no/nb/tjenester/nasjonal-vitnemalsdatabase (lagt til 2026-03-18)
 - NVB i tjenestekatalogen: https://fs.sikt.no/tjenestekatalog/nvb/ (lagt til 2026-03-27)
 - Tjenestekatalog studieadministrasjon: https://fs.sikt.no/tjenestekatalog/ (lagt til 2026-03-27)
 - Nasjonalt utdanningsregister hos FS: https://fs.sikt.no/tjenester/nasjonale-register/utdanningsregister/ (lagt til 2026-03-27)
-- Nasjonalt utdanningsregister tiltak (bokmål): https://sikt.no/nb/tiltak/nasjonalt-utdanningsregister (lagt til 2026-06-07)
+- Nasjonalt utdanningsregister tiltak (bokmål): https://www.sikt.no/nb/tiltak/nasjonalt-utdanningsregister (lagt til 2026-06-07)
 - Nasjonalt utdanningsregister utprøving: https://sikt.no/aktuelt/nasjonalt-utdanningsregister-pa-gang (lagt til 2026-03-27)
-- Vitnemålsportalen: https://sikt.no/tjenester/vitnemalsportalen (lagt til 2026-03-18)
-- Feide videreutvikling: https://sikt.no/tiltak/feide-videreutvikling (lagt til 2026-03-18)
+- Vitnemålsportalen: https://www.sikt.no/tjenester/vitnemalsportalen (lagt til 2026-03-18)
+- Feide videreutvikling: https://www.sikt.no/tiltak/feide-videreutvikling (lagt til 2026-03-18)
 - Feide teknisk dokumentasjon: https://docs.feide.no/ (lagt til 2026-03-18)
 - Feide - styre tilgang til datakilde: https://docs.feide.no/data_sharing/data_provider/managing_access_to_a_data_source.html (lagt til 2026-09-16)
 - Feide: https://kunde.feide.no (lagt til 2026-08-28)
@@ -575,9 +563,9 @@ Sist redigert: 2026-09-30.
 - SSB API for statistikktabeller: https://data.ssb.no/api/v0/no/table/ (lagt til 2026-05-05)
 
 ### eID tilbydere
-- BankID: https://www.bankid.no
+- BankID: https://bankid.no/
 - Buypass: https://www.buypass.no
-- Commfides: https://www.commfides.no
+- Commfides: https://www.commfides.com/
 - Digdir om elektronisk identitet: https://www.digdir.no/digital-identitet/elektronisk-identitet-eid/4047 (lagt til 2026-09-25)
 - Digdir om identitetsmatching på tvers av grensene: https://www.digdir.no/internasjonalt-arbeid/identity-matching/6681 (lagt til 2026-09-25)
 - Digdir om identitetsmatching, Samarbeidsportalen: https://samarbeid.digdir.no/digital-lommebok/identitetsmatching-pa-tvers-av-grensene/3223 (lagt til 2026-09-25)
@@ -589,7 +577,7 @@ Sist redigert: 2026-09-30.
 - EU Open Source Solutions Catalogue - nyhetssak om lanseringen: https://interoperable-europe.ec.europa.eu/interoperable-europe/news/eu-open-source-solutions-catalogue-now-live (lagt til 2026-09-30)
 - European Competitiveness Fund: https://single-market-economy.ec.europa.eu/access-finance/european-competitiveness-fund_en (lagt til 2026-09-04)
 - DPG-registeret hos Digital Public Goods Alliance: https://www.digitalpublicgoods.net/registry (lagt til 2026-09-09)
-- DPG-profil for Altinn Studio: https://digitalpublicgoods.net/r/altinn (lagt til 2026-09-09)
+- DPG-profil for Altinn Studio: https://www.digitalpublicgoods.net/r/altinn (lagt til 2026-09-09)
 - DPG-profil for Designsystemet: https://www.digitalpublicgoods.net/r/designsystemet (lagt til 2026-09-09)
 - Digdir om Designsystemet som digitalt fellesgode: https://www.digdir.no/universell-utforming/norsk-designsystem-far-internasjonal-status/7472 (lagt til 2026-09-09)
 - Designsystemet om DPG-godkjenningen: https://designsystemet.no/en/blog/digital-public-good/ (lagt til 2026-09-09)
@@ -617,7 +605,6 @@ Sist redigert: 2026-09-30.
 - Simpl, Kommisjonens policyside: https://digital-strategy.ec.europa.eu/en/policies/simpl (lagt til 2026-09-25)
 - Simpl-programmets egen side: https://simpl-programme.ec.europa.eu/ (lagt til 2026-09-25)
 - Simpl-Open i EUs kodeplattform, med lisensvilkår: https://code.europa.eu/simpl/simpl-open (lagt til 2026-09-25)
-- Simpl - Kommisjonens omtale av kontraktstildelingen på 41 millioner euro: https://digital-strategy.ec.europa.eu/en/news/commission-awards-eu41-million-contract-develop-infrastructure-common-european-data-spaces-0 (lagt til 2026-09-30)
 
 ## Standarder og veiledninger
 
@@ -668,11 +655,11 @@ Sist redigert: 2026-09-30.
 - Medlemmer i Arkitektur- og standardiseringsrådet: https://www.digdir.no/digitalisering-og-samordning/medlemmar-i-arkitektur-og-standardiseringsradet/3973 (lagt til 2026-09-10)
 
 ### EHF og Peppol
-- Elektronisk handelsformat (EHF): https://www.anskaffelser.no/hva-skal-du-kjope/fagsystemer-digitale-anskaffelser/elektronisk-handelsformat-ehf (lagt til 2026-03-18)
+- Elektronisk handelsformat (EHF): https://www.anskaffelser.no/kategorispesifik-veiledning/fagsystemer-digitale-anskaffelser/elektronisk-handelsformat-ehf (lagt til 2026-03-18)
 - Veiledningspakke for systemleverandører: https://www.anskaffelser.no/verktoy/verktoypakker/veiledningspakke-systemleverandorer (lagt til 2026-03-18)
 - Aksesspunkt: https://www.anskaffelser.no/verktoy/veiledere/aksesspunkt (lagt til 2026-03-18)
-- Aksesspunkter for EHF- og BIS-formater: https://anskaffelser.no/verktoy/veiledere/aksesspunkter-ehf-og-bis-formater (lagt til 2026-03-18)
-- EHF prosessdefinisjoner: https://anskaffelser.no/verktoy/verktoypakker/elektronisk-handelsformat-ehf-prosessdefinisjoner (lagt til 2026-03-18)
+- Aksesspunkter for EHF- og BIS-formater: https://www.anskaffelser.no/verktoy/veileder/aksesspunkter-ehf-og-bis-formater (lagt til 2026-03-18)
+- EHF prosessdefinisjoner: https://www.anskaffelser.no/verktoy/verktoypakker/elektronisk-handelsformat-ehf-prosessdefinisjoner (lagt til 2026-03-18)
 - Bruksvilkår for ELMA: https://samarbeid.digdir.no/elma/bruksvilkar-elma/2072 (lagt til 2026-03-18)
 
 ### EU interoperabilitet
@@ -771,10 +758,10 @@ Sist redigert: 2026-09-30.
 - Å lykkes med åpenhet ved bruk av kunstig intelligens: https://www.datatilsynet.no/regelverk-og-verktoy/sandkasse-for-kunstig-intelligens/ferdige-prosjekter-og-rapporter/a-lykkes-med-apenhet-hvordan-informere-om-bruk-av-kunstig-intelligens/ (lagt til 2026-03-18)
 
 ### Arkiv og dokumentforvaltning
-- Arkivverket hovedside: https://www.arkivverket.no/
-- eArk-standarden: https://www.arkivverket.no/norske-standarder/eark-standard
-- NOARK-standarden: https://www.arkivverket.no/arkivering/noark
-- Digital forvaltning av dokumenter: https://www.arkivverket.no/arkivering/digitalisering
+- Arkivverket hovedside: https://www.nasjonalarkivet.no/
+- eArk-standarden: https://www.nasjonalarkivet.no/norske-standarder/eark-standard
+- NOARK-standarden: https://www.nasjonalarkivet.no/offentlig-forvaltning/regelverk-og-standarder/noark/
+- Digital forvaltning av dokumenter: https://www.nasjonalarkivet.no/arkivering/digitalisering
 - Fiks arkiv i Fiks protokoll: https://developers.fiks.ks.no/tjenester/fiksprotokoll/fiksarkiv/ (lagt til 2026-03-19)
 
 ### Juridisk og rettslig infrastruktur
@@ -792,7 +779,7 @@ Sist redigert: 2026-09-30.
 - Forskrift om IT-standarder i offentlig forvaltning, kort URL-form: https://lovdata.no/forskrift/2013-04-05-959 (lagt til 2026-08-28)
 - Norsk pasientregister, forskrift (FOR-2007-12-07-1389): https://lovdata.no/forskrift/2007-12-07-1389 (lagt til 2026-08-28)
 - Kommunalt pasient- og brukerregister, forskrift (FOR-2017-08-25-1292): https://lovdata.no/forskrift/2017-08-25-1292 (lagt til 2026-08-28)
-- Lovdata: https://www.lovdata.no/
+- Lovdata: https://lovdata.no/
 - Domstolverket: https://www.domstolverket.no/
 - Riksadvokaten: https://www.riksadvokaten.no/
 - Påtaleinstitusjonene: https://www.domstolverket.no/organisation/prosecuting-authority/

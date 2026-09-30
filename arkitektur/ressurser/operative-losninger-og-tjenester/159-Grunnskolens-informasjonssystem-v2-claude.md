@@ -130,7 +130,7 @@ Inngår ikke:
 | Kontinuitet i tidsserien | Justeringer i skjemaet kan gjøre enkelte felt ikke direkte sammenlignbare over omleggingen | Udir omtaler endringene som mindre justeringer, men konsekvensen for tidsserien er ikke dokumentert |
 
 ## Kanaler
-- Rapporteringsløsningen på https://gsi.udir.no/ med tre separate innganger for grunnskole, voksenopplæring og kulturskole.
+- Rapporteringsløsningen på https://www.udir.no/tall-og-forskning/innrapportering/gsi/ med tre separate innganger for grunnskole, voksenopplæring og kulturskole.
 - Altinn som tilgangs- og innloggingskanal.
 - Filimport fra skoleadministrative systemer.
 - Statistikkbanken hos Udir for publisering av resultatene.
@@ -185,9 +185,9 @@ Løsningen forvaltes av Utdanningsdirektoratet som del av direktoratets ordinær
 ## Lenke til dokumentasjon
 - https://www.udir.no/tall-og-forskning/innrapportering/gsi/
 - https://www.udir.no/tall-og-forskning/statistikk/gsi-innsamling/
-- https://gsi.udir.no/
-- https://gsi.udir.no/hjelp/
-- https://gsi.udir.no/hjelp/nytt/system
+- https://www.udir.no/tall-og-forskning/innrapportering/gsi/
+- https://www.udir.no/tall-og-forskning/innrapportering/gsi/
+- https://www.udir.no/tall-og-forskning/innrapportering/gsi/
 
 ## Kildegrunnlag brukt i utfyllingen
 - https://www.udir.no/tall-og-forskning/innrapportering/gsi/, kontrollert 2026-09-08

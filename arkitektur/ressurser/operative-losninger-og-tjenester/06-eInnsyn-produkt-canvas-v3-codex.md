@@ -120,7 +120,7 @@ Operative mål utledet fra de samme kildene:
 - Samarbeidsportal: https://samarbeid.digdir.no/einnsyn/dette-er-einnsyn/81
 - Ta i bruk: https://samarbeid.digdir.no/einnsyn/ta-i-bruk-einnsyn/99
 - Kostnadsmodell: https://samarbeid.digdir.no/einnsyn/kostnadsmodell-einnsyn/101
-- Tjenesteside: https://samarbeid.digdir.no/einnsyn/einnsyn/997
+- Tjenesteside: https://samarbeid.digdir.no/einnsyn/statistikk-einnsyn/3427
 
 ## Plattform
 eInnsyn er en felles publiserings- og innsynsplattform som samhandler med virksomhetenes egne sak- og arkivsystemer.
@@ -171,7 +171,7 @@ eInnsyn er en felles publiserings- og innsynsplattform som samhandler med virkso
 - https://samarbeid.digdir.no/einnsyn/dette-er-einnsyn/81
 - https://samarbeid.digdir.no/einnsyn/ta-i-bruk-einnsyn/99
 - https://samarbeid.digdir.no/einnsyn/kostnadsmodell-einnsyn/101
-- https://samarbeid.digdir.no/einnsyn/einnsyn/997
+- https://samarbeid.digdir.no/einnsyn/statistikk-einnsyn/3427
 
 ## Kildegrunnlag brukt i utfyllingen
 - Lokal fil: `arkitektur/ressurser/operative-losninger-og-tjenester/06-eInnsyn-produkt-canvas-v2-copilot.md`
@@ -185,7 +185,7 @@ eInnsyn er en felles publiserings- og innsynsplattform som samhandler med virkso
 - Nettkilde: https://samarbeid.digdir.no/einnsyn/dette-er-einnsyn/81 (hentet 2026-03-17)
 - Nettkilde: https://samarbeid.digdir.no/einnsyn/ta-i-bruk-einnsyn/99 (hentet 2026-03-17)
 - Nettkilde: https://samarbeid.digdir.no/einnsyn/kostnadsmodell-einnsyn/101 (hentet 2026-03-17)
-- Nettkilde: https://samarbeid.digdir.no/einnsyn/einnsyn/997 (hentet 2026-03-17)
+- Nettkilde: https://samarbeid.digdir.no/einnsyn/statistikk-einnsyn/3427 (hentet 2026-03-17)
 
 ---
 

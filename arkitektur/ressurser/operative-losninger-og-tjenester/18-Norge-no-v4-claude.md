@@ -177,7 +177,7 @@ Spenninger og begrensninger: den tydeligste spenningen gjelder **P5**. To nasjon
 | Styringsmodell | Styringsrådet for Digitaliseringsdirektoratets fellesløsninger er styringsarena for Digdirs fellesløsninger | Samarbeidsportalens sider om styringsrådet |
 
 ## Lenke til dokumentasjon
-- Portal: https://www.norge.no/
+- Portal: https://www.norge.no/nb
 - Produktgruppe portaler og brukeropplevelse: https://samarbeid.digdir.no/altinn/portalar-og-brukaroppleving/2485
 - Fellesløsninger, samlet oversikt: https://samarbeid.digdir.no/felleslosninger/felleslosninger/1309
 - Innholdsstrategi for Altinn informasjonsportal, som dokumenterer arbeidsdelingen: https://info.altinn.no/om-altinn/innholdsstrategi-altinn-informasjonsportal/
@@ -194,7 +194,7 @@ Spenninger og begrensninger: den tydeligste spenningen gjelder **P5**. To nasjon
 - https://samarbeid.digdir.no/felleslosninger/felleslosninger/1309, kontrollert 2026-09-18
 - https://info.altinn.no/om-altinn/innholdsstrategi-altinn-informasjonsportal/, kontrollert 2026-09-18
 - https://www.digdir.no/digitalisering-og-samordning/bruk-altinn-som-kanal-etablerarar-og-naeringsdrivande/3117, kontrollert 2026-09-18
-- https://www.norge.no/, forsøkt lest 2026-09-18; innholdet lot seg ikke lese maskinelt
+- https://www.norge.no/nb, forsøkt lest 2026-09-18; innholdet lot seg ikke lese maskinelt
 - https://www.norge.no/om-norge-no, kontrollert 2026-09-18; svarer `404`
 - https://www.norge.no/en/about-norgeno, kontrollert 2026-09-18; svarer `404`
 

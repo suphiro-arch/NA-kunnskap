@@ -121,7 +121,7 @@ Produktet omfatter samtidig ikke alle Altinn-funksjoner som egne innebygde delpr
 - Altinn Studio dokumentasjon: https://docs.altinn.studio/nb/
 - Hva får du med Altinn Studio: https://docs.altinn.studio/nb/altinn-studio/v8/what-do-you-get/
 - Altinn Apps arkitektur: https://docs.altinn.studio/en/technology/architecture/capabilities/runtime/appdeploy/
-- Altinn.no: https://www.altinn.no/
+- Altinn.no: https://info.altinn.no/
 
 ## Plattform
 Altinn 3 plattform er selv plattformlaget i denne produktbeskrivelsen, og omfatter både utviklingsflate, kjøretidsmiljø og felles tekniske kapabiliteter i Altinn.
@@ -170,7 +170,7 @@ Altinn 3 plattform er selv plattformlaget i denne produktbeskrivelsen, og omfatt
 - https://docs.altinn.studio/nb/
 - https://docs.altinn.studio/nb/altinn-studio/v8/what-do-you-get/
 - https://docs.altinn.studio/en/technology/architecture/capabilities/runtime/appdeploy/
-- https://www.altinn.no/
+- https://info.altinn.no/
 - https://samarbeid.digdir.no/altinn/bruksvilkar-altinn/3639
 
 ## Kildegrunnlag brukt i utfyllingen
@@ -184,7 +184,7 @@ Altinn 3 plattform er selv plattformlaget i denne produktbeskrivelsen, og omfatt
 - Nettkilde: https://docs.altinn.studio/nb/ (kontrollert 2026-03-26)
 - Nettkilde: https://docs.altinn.studio/nb/altinn-studio/v8/what-do-you-get/ (kontrollert 2026-03-26)
 - Nettkilde: https://docs.altinn.studio/en/technology/architecture/capabilities/runtime/appdeploy/ (kontrollert 2026-03-26)
-- Nettkilde: https://www.altinn.no/ (kontrollert 2026-03-26)
+- Nettkilde: https://info.altinn.no/ (kontrollert 2026-09-30)
 - Nettkilde: https://samarbeid.digdir.no/altinn/bruksvilkar-altinn/3639 (kontrollert 2026-05-27)
 
 ---

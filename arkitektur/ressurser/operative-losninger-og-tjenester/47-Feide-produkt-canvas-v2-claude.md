@@ -116,7 +116,7 @@ Operative mål utledet fra de samme kildene:
 
 ## Kanaler
 - Feide: https://www.feide.no/om-feide
-- Sikts tjenesteside: https://sikt.no/tjenester/feide
+- Sikts tjenesteside: https://www.sikt.no/tjenester/feide
 - Kundeportal: https://kunde.feide.no
 - Teknisk dokumentasjon: https://docs.feide.no/
 - Driftsmeldinger: https://www.feide.no/driftsmeldinger
@@ -166,7 +166,7 @@ Feide er en nasjonal føderert identitets- og datadelingsløsning for utdannings
 
 ## Lenke til dokumentasjon
 - https://www.feide.no/om-feide
-- https://sikt.no/tjenester/feide
+- https://www.sikt.no/tjenester/feide
 - https://docs.feide.no/
 - https://docs.feide.no/data_sharing/data_provider/managing_access_to_a_data_source.html
 - https://www.feide.no/priser-vertsorganisasjoner
@@ -179,7 +179,7 @@ Feide er en nasjonal føderert identitets- og datadelingsløsning for utdannings
 - Lokal fil: `arkitektur/ressurser/produktnummerering.md`
 - Lokal fil: `sources/links.md`
 - Nettkilde: https://www.feide.no/om-feide (hentet 2026-03-18)
-- Nettkilde: https://sikt.no/tjenester/feide (hentet 2026-03-18)
+- Nettkilde: https://www.sikt.no/tjenester/feide (hentet 2026-03-18)
 - Nettkilde: https://docs.feide.no/ (hentet 2026-03-18)
 - Nettkilde: https://www.feide.no/priser-vertsorganisasjoner (hentet 2026-03-18)
 - Nettkilde: https://www.feide.no/sterk-autentisering (hentet 2026-03-18)

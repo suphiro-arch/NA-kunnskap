@@ -174,7 +174,7 @@ ELMA er en norsk oppslagstjeneste i Peppol-sammenheng, og fungerer som nasjonal 
 - Nettkilde: https://docs.digdir.no/docs/ELMA/ (hentet 2026-03-18)
 - Nettkilde: https://samarbeid.digdir.no/elma/dette-er-elma/108 (hentet 2026-03-18)
 - Nettkilde: https://samarbeid.digdir.no/elma/bruksvilkar-elma/2072 (hentet 2026-03-18)
-- Nettkilde: https://www.anskaffelser.no/hva-skal-du-kjope/fagsystemer-digitale-anskaffelser/elektronisk-handelsformat-ehf (hentet 2026-03-18)
+- Nettkilde: https://www.anskaffelser.no/kategorispesifik-veiledning/fagsystemer-digitale-anskaffelser/elektronisk-handelsformat-ehf (hentet 2026-03-18)
 
 ---
 

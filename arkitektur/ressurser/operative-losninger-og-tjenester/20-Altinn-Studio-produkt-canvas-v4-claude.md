@@ -195,7 +195,7 @@ Utviklingsflate i Altinn-porteføljen som leder videre til deploy og kjøring i 
 - Nettkilde: https://docs.altinn.studio/en/altinn-studio/v8/getting-started/ (kontrollert 2026-03-26)
 - Nettkilde: https://docs.altinn.studio/nb/altinn-studio/guides/development/setup/developer-guides/local-test/ (kontrollert 2026-03-26)
 - Nettkilde: https://samarbeid.digdir.no/altinn/bruksvilkar-altinn/3639 (kontrollert 2026-05-27)
-- Nettkilde: https://digitalpublicgoods.net/r/altinn (kontrollert 2026-09-09)
+- Nettkilde: https://www.digitalpublicgoods.net/r/altinn (kontrollert 2026-09-30)
 
 ---
 

@@ -150,7 +150,7 @@ DSOP støtter samhandling og gjenbruk, men gjør også avhengigheter og kompromi
 ## Lenke til dokumentasjon
 - https://bits.no/project/dsop/
 - https://dokumentasjon.dsop.no/
-- https://www.bits.no/document/5620-2/
+- https://bits.no/document/5620-2/
 
 ## Kildegrunnlag brukt i utfyllingen
 - `sources/links.md`, kontrollert 2026-05-06
@@ -159,7 +159,7 @@ DSOP støtter samhandling og gjenbruk, men gjør også avhengigheter og kompromi
 - `arkitektur/prinsipper/principles.md`, kontrollert 2026-05-06
 - https://bits.no/project/dsop/, kontrollert 2026-05-06
 - https://dokumentasjon.dsop.no/, kontrollert 2026-05-06
-- https://www.bits.no/document/5620-2/, kontrollert 2026-05-06
+- https://bits.no/document/5620-2/, kontrollert 2026-09-30
 
 ## Endringer fra forrige versjon
 - Analyseforbedringer: erstattet generelle antakelser med konkret styringsmodell, beslutningsnivå, innmeldingsløp og dokumentert deltakelse fra samarbeidserklæringen og DSOP-dokumentasjonen.
