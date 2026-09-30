@@ -1,6 +1,6 @@
 # Nasjonal Arkitektur Kapabilitetsmodell
-# Kilde: sources/Nasjonal Arkitektur kapabilitetsmodell-2026-05-20.archimate
-# Oppdatert: 2026-05-21
+# Kilde: sources/Nasjonal Arkitektur kapabilitetsmodell-2026-09-30.archimate
+# Oppdatert: 2026-09-30
 
 kapabilitetsmodell:
   id: id-ba60560a9ed64b4d87b2fd4fa6b32937
@@ -270,9 +270,9 @@ kapabilitetsmodell:
             data deles og gjenbrukes. ### Bidrag til sammenhengende tjenester og felles økosystem
             Kapabiliteten er selve nøkkelen til at innbyggere og næringsliv skal oppleve
             forvaltningen som én samordnet aktør. Ved å binde uavhengige tjenester sammen til
-            flytende kjeder, elimineres behovet for at brukeren må gjenta informasjon eller lete
-            etter neste saksbehandlingssteg. Dette reduserer tidsbruk og feil, noe som gir et
-            vesentlig mer ressurseffektivt felles økosystem.
+            flytende kjeder, fjernes behovet for at brukeren må gjenta informasjon eller lete etter
+            neste steg. Dette reduserer tidsbruk og feil, noe som gir et mer ressurseffektivt felles
+            økosystem.
         - id: id-825b1ea1217b4eedb6caae165aeb8e41
           navn: Tjenestekjeder
           beskrivelse: >
@@ -1360,9 +1360,10 @@ kapabilitetsmodell:
             standarder, spesifikasjoner og referansearkitekturer. Den løser behovet for at norske
             digitale tjenester kan samhandle bedre med europeiske løsninger, regelverk og
             dataområder, og at nasjonale valg ikke utvikles isolert fra europeisk
-            digitaliseringspolitikk. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):**
+            digitaliseringspolitikk. ### Hva det innebærer (Omfang) - **Juridisk (Høy vekt):**
             Avklare hvilke EU-standarder, forordninger og harmoniserte krav som er relevante for
-            norsk forvaltning og hvordan de skal innarbeides i nasjonale rammer. - **Organisatorisk
+            norsk forvaltning og hvordan de skal innarbeides i nasjonale rammer. NB! Harmoniserte
+            standarder fra EU er sterkt knyttet til regulatoriske støtteverktøy. - **Organisatorisk
             (Høy vekt):** Etablere prosesser for å følge med på, vurdere, prioritere og ta i bruk
             relevante EU-standarder i nasjonale tiltak, veiledning og arkitekturstyring. -
             **Semantisk (Høy vekt):** Sikre at europeiske begreper, informasjonsmodeller, metadata
