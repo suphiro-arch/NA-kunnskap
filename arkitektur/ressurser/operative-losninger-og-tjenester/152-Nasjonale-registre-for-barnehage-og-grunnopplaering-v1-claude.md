@@ -119,8 +119,8 @@ Kildene beskriver ikke et samlet veikart for registerfamilien. Utdanningsdirekto
 
 ## Kanaler
 - https://www.udir.no/om-udir/data/nxr/
-- https://data-nsr.udir.no/v3
-- https://data-nbr.udir.no/v3
+- https://data-nsr.udir.no/swagger/index.html
+- https://data-nbr.udir.no/swagger/index.html
 - https://www.udir.no/om-udir/data/
 
 ## Plattform
@@ -170,8 +170,8 @@ Kildene beskriver ingen egen finansieringsmodell eller vederlag for bruk. Regist
 ## Lenke til dokumentasjon
 - https://www.udir.no/om-udir/data/nxr/
 - https://www.udir.no/om-udir/data/
-- https://data-nsr.udir.no/v3
-- https://data-nbr.udir.no/v3
+- https://data-nsr.udir.no/swagger/index.html
+- https://data-nbr.udir.no/swagger/index.html
 
 ## Kildegrunnlag brukt i utfyllingen
 - https://www.udir.no/om-udir/data/nxr/, kontrollert 2026-09-07

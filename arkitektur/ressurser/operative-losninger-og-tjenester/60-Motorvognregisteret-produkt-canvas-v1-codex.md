@@ -84,7 +84,7 @@ Ikke offentlig samlet verifisert i denne arbeidsøkten.
 - https://www.vegvesen.no/kjoretoy/kjop-og-salg/kjoretoyopplysninger/om-utlevering-av-kjoretoyopplysninger/
 - https://www.vegvesen.no/fag/teknologi/apne-data/et-utvalg-apne-data/api-for-tekniske-kjoretoyopplysninger/
 - https://www.vegvesen.no/fag/teknologi/apne-data/et-utvalg-apne-data/api-for-tekniske-kjoretoyopplysninger-med-eierinformasjon/
-- https://www.vegvesen.no/om-oss/om-organisasjonen/apne-data/et-utvalg-apne-data/api-for-kjoretoyopplysninger/
+- https://www.vegvesen.no/fag/teknologi/apne-data/et-utvalg-apne-data/api-for-tekniske-kjoretoyopplysninger/
 
 ## Plattform
 Motorvognregisteret er et nasjonalt register- og delingsprodukt for kjøretøyopplysninger.
@@ -115,7 +115,7 @@ Ikke offentlig samlet verifisert i denne arbeidsøkten.
 - https://www.vegvesen.no/kjoretoy/kjop-og-salg/kjoretoyopplysninger/om-utlevering-av-kjoretoyopplysninger/
 - https://www.vegvesen.no/fag/teknologi/apne-data/et-utvalg-apne-data/api-for-tekniske-kjoretoyopplysninger/
 - https://www.vegvesen.no/fag/teknologi/apne-data/et-utvalg-apne-data/api-for-tekniske-kjoretoyopplysninger-med-eierinformasjon/
-- https://www.vegvesen.no/om-oss/om-organisasjonen/apne-data/et-utvalg-apne-data/api-for-kjoretoyopplysninger/
+- https://www.vegvesen.no/fag/teknologi/apne-data/et-utvalg-apne-data/api-for-tekniske-kjoretoyopplysninger/
 
 ## Kildegrunnlag brukt i utfyllingen
 - Lokal fil: `config/prompts/produkt-canvas.system.md`
@@ -124,10 +124,10 @@ Ikke offentlig samlet verifisert i denne arbeidsøkten.
 - Lokal fil: `arkitektur/prinsipper/principles.md`
 - Lokal fil: `arkitektur/ressurser/produktnummerering.md`
 - Lokal fil: `sources/links.md`
-- Nettkilde: https://www.vegvesen.no/kjoretoy/kjop-og-salg/kjoretoyopplysninger/om-utlevering-av-kjoretoyopplysninger/ (kontrollert 2026-03-27)
-- Nettkilde: https://www.vegvesen.no/fag/teknologi/apne-data/et-utvalg-apne-data/api-for-tekniske-kjoretoyopplysninger/ (kontrollert 2026-03-27)
-- Nettkilde: https://www.vegvesen.no/fag/teknologi/apne-data/et-utvalg-apne-data/api-for-tekniske-kjoretoyopplysninger-med-eierinformasjon/ (kontrollert 2026-03-27)
-- Nettkilde: https://www.vegvesen.no/om-oss/om-organisasjonen/apne-data/et-utvalg-apne-data/api-for-kjoretoyopplysninger/ (kontrollert 2026-03-27)
+- Nettkilde: https://www.vegvesen.no/kjoretoy/kjop-og-salg/kjoretoyopplysninger/om-utlevering-av-kjoretoyopplysninger/ (kontrollert 2026-09-30)
+- Nettkilde: https://www.vegvesen.no/fag/teknologi/apne-data/et-utvalg-apne-data/api-for-tekniske-kjoretoyopplysninger/ (kontrollert 2026-09-30)
+- Nettkilde: https://www.vegvesen.no/fag/teknologi/apne-data/et-utvalg-apne-data/api-for-tekniske-kjoretoyopplysninger-med-eierinformasjon/ (kontrollert 2026-09-30)
+- Nettkilde: https://www.vegvesen.no/fag/teknologi/apne-data/et-utvalg-apne-data/api-for-tekniske-kjoretoyopplysninger/ (kontrollert 2026-09-30)
 
 ## Endringer i denne revisjonen
 - Opprettet manglende `v1`-fil for Motorvognregisteret og skrevet den på samme detaljeringsnivå som de sterkere produktbeskrivelsene

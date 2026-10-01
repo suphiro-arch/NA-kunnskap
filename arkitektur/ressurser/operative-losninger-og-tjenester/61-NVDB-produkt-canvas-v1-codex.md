@@ -104,7 +104,7 @@ Operative mål utledet fra de samme kildene:
 | Tverrsektoriell bruk | Ressursen kan undervurderes som fellesressurs hvis den beskrives for smalt | Beskrive og bruke den eksplisitt som delt nasjonalt datagrunnlag |
 
 ## Kanaler
-- https://www.vegvesen.no/fag/fokusomrader/nasjonal-vegdatabank/
+- https://www.vegvesen.no/fag/teknologi/nasjonal-vegdatabank/
 
 ## Plattform
 NVDB er en nasjonal data- og delingsressurs for veginformasjon, forvaltet av Statens vegvesen.
@@ -144,7 +144,7 @@ Ikke offentlig samlet verifisert i denne arbeidsøkten.
 | Styringsmodell | Del av Statens vegvesens nasjonale forvaltning av vegdata | Utledet fra samme kilder |
 
 ## Lenke til dokumentasjon
-- https://www.vegvesen.no/fag/fokusomrader/nasjonal-vegdatabank/
+- https://www.vegvesen.no/fag/teknologi/nasjonal-vegdatabank/
 
 ## Kildegrunnlag brukt i utfyllingen
 - Lokal fil: `config/prompts/produkt-canvas.system.md`
@@ -153,4 +153,4 @@ Ikke offentlig samlet verifisert i denne arbeidsøkten.
 - Lokal fil: `arkitektur/ressurser/produktnummerering.md`
 - Lokal fil: `sources/links.md`
 - Lokal fil: `briefs/arbeidsstyring-og-handover/2026-04-11-vurdering-av-nye-ressurskandidater-v1.md`
-- Nettkilde: https://www.vegvesen.no/fag/fokusomrader/nasjonal-vegdatabank/ (kontrollert 2026-04-28)
+- Nettkilde: https://www.vegvesen.no/fag/teknologi/nasjonal-vegdatabank/ (kontrollert 2026-09-30)

@@ -142,7 +142,7 @@ Svakheter, spenninger og begrensninger mot prinsippene: Veilederen gir ikke alen
 ## Lenke til dokumentasjon
 - https://www.digdir.no/informasjonsforvaltning/veileder-orden-i-eget-hus/2716
 - https://www.digdir.no/informasjonsforvaltning/hvordan-bruker-dere-denne-veilederen-til-skape-orden-i-eget-hus/2794
-- https://www.digdir.no/digitalisering-og-samordning/rammeverk-informasjonsforvaltning/2419
+- https://www.digdir.no/informasjonsforvaltning/rammeverk-informasjonsforvaltning/3626
 - https://github.com/Informasjonsforvaltning/veileder-orden-i-eget-hus
 - https://informasjonsforvaltning.github.io/modenhetsmodell/
 
@@ -152,7 +152,7 @@ Svakheter, spenninger og begrensninger mot prinsippene: Veilederen gir ikke alen
 - `arkitektur/kapabiliteter/capabilities.yaml`, kontrollert 2026-09-17
 - https://www.digdir.no/informasjonsforvaltning/veileder-orden-i-eget-hus/2716 , kontrollert 2026-09-17
 - https://www.digdir.no/informasjonsforvaltning/hvordan-bruker-dere-denne-veilederen-til-skape-orden-i-eget-hus/2794 , kontrollert 2026-09-17
-- https://www.digdir.no/digitalisering-og-samordning/rammeverk-informasjonsforvaltning/2419 , kontrollert 2026-04-30, ikke rekontrollert i denne kjøringen
+- https://www.digdir.no/informasjonsforvaltning/rammeverk-informasjonsforvaltning/3626 , kontrollert 2026-09-30, ikke rekontrollert i denne kjøringen
 - https://github.com/Informasjonsforvaltning/veileder-orden-i-eget-hus , kontrollert 2026-09-17
 - https://informasjonsforvaltning.github.io/modenhetsmodell/ , kontrollert 2026-09-17
 

@@ -129,7 +129,7 @@ Operative mål utledet fra de samme kildene:
 - Om Helsenorge: https://www.helsenorge.no/om-helsenorge-no/
 - Norsk helsenett - tjenesteoversikt: https://www.nhn.no/tjenester/
 - Personverninnstillinger: https://www.helsenorge.no/innstillinger
-- Om innstillinger på Helsenorge: https://www.helsenorge.no/innstillinger/om-innstillinger/
+- Om innstillinger på Helsenorge: https://www.helsenorge.no/innstillinger
 
 ## Plattform
 Helsenorge er en nasjonal portal- og tjenesteflate for innbyggere i helsesektoren.
@@ -176,7 +176,7 @@ Helsenorge er en nasjonal portal- og tjenesteflate for innbyggere i helsesektore
 - https://www.helsenorge.no/om-helsenorge-no/
 - https://www.nhn.no/tjenester/
 - https://www.helsenorge.no/innstillinger
-- https://www.helsenorge.no/innstillinger/om-innstillinger/
+- https://www.helsenorge.no/innstillinger
 
 ## Kildegrunnlag brukt i utfyllingen
 - Lokal fil: `config/prompts/produkt-canvas.system.md`
@@ -189,7 +189,7 @@ Helsenorge er en nasjonal portal- og tjenesteflate for innbyggere i helsesektore
 - Nettkilde: https://www.helsenorge.no/om-helsenorge-no/ (kontrollert 2026-03-27)
 - Nettkilde: https://www.nhn.no/tjenester/ (kontrollert 2026-03-27)
 - Nettkilde: https://www.helsenorge.no/innstillinger (kontrollert 2026-09-30)
-- Nettkilde: https://www.helsenorge.no/innstillinger/om-innstillinger/ (kontrollert 2026-09-14)
+- Nettkilde: https://www.helsenorge.no/innstillinger (kontrollert 2026-09-30)
 - Nettkilde: https://github.com/helsenorge (kontrollert 2026-09-25)
 
 ## Endringer fra forrige versjon

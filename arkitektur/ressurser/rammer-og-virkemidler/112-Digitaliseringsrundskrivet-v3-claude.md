@@ -175,7 +175,7 @@ Spenning og begrensning: Rundskrivet binder bare staten. I tiltak på tvers av f
 - https://www.regjeringen.no/no/tema/statlig-forvaltning/it-politikk/hva-er-digitaliseringsrundskrivet/id2462894/ , kontrollert 2026-09-25; siden er ikke oppdatert etter 2024
 - https://www.digdir.no/krav-og-anbefalinger/krav-og-anbefalingar-innan-digitalisering/2617 , kontrollert 2026-09-25
 - https://www.digdir.no/krav-og-anbefalinger/folg-prinsipp-digitaliseringstiltak/3101 , kontrollert 2026-09-25
-- https://www.digdir.no/styring-og-organisering/digitaliseringsrundskrivet/1230 , svarte ikke 2026-09-25 (404) og er fjernet som dokumentasjonslenke
+- Digdirs tidligere side for digitaliseringsrundskrivet (`styring-og-organisering/digitaliseringsrundskrivet/1230`) svarte ikke 2026-09-25 (404) og er fjernet som dokumentasjonslenke. Rundskrivet ligger hos Regjeringen, se kilden over.
 
 ## Endringer fra forrige versjon
 

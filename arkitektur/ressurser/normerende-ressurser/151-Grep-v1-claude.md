@@ -61,7 +61,7 @@ En praktisk endring bør merkes: fra 1. september 2026 krever REST-tilgangen API
 ## Normerende innhold
 Grep inneholder de fastsatte læreplanene i Kunnskapsløftet, både LK06 og LK20, og skiller mellom dem i egne endepunkter. Ut over læreplantekstene selv inneholder databasen fagkoderegisteret, tilbudsstrukturen for videregående opplæring, vurderingsordninger, og de fag- og vitnemålsmerknadene som brukes ved dokumentasjon av opplæring.
 
-Data er tilgjengelig i to former. REST-endepunktene følger mønsteret `https://data.udir.no/kl06/<versjon>/<type i flertall>/<kode>` og returnerer JSON og XML. I tillegg finnes et RDF- og SPARQL-endepunkt som gjør det mulig å spørre på grafstrukturen framfor å hente enkeltressurser. Det siste er relevant for semantisk arbeid, fordi relasjonene mellom læreplan, fag, kompetansemål og tilbud da kan traverseres direkte.
+Data er tilgjengelig i to former. REST-endepunktene følger mønsteret `https://data.udir.no/kl06<versjon>/<type i flertall>/<kode>` og returnerer JSON og XML. I tillegg finnes et RDF- og SPARQL-endepunkt som gjør det mulig å spørre på grafstrukturen framfor å hente enkeltressurser. Det siste er relevant for semantisk arbeid, fordi relasjonene mellom læreplan, fag, kompetansemål og tilbud da kan traverseres direkte.
 
 Versjonering er en del av det normerende innholdet. Endepunktene er versjonert i selve URL-en, slik at en konsument kan låse seg til en kjent versjon av datamodellen framfor å følge endringer fortløpende.
 

@@ -120,7 +120,7 @@ Novari har et eget spor for videreutvikling av vilbli.no, med arbeidsgrupper fra
 ## Kanaler
 - https://www.vilbli.no/nb/no/a/om-vilbli-no-6
 - https://novari.no/tjenester/vilbli/
-- https://novari.no/tjenester/vilbli-videreutvikling/
+- https://www.vilbli.no/
 
 ## Plattform
 Nettbasert informasjonstjeneste forvaltet av Novari IKS på vegne av fylkeskommunene, med tilbudsdata hentet fra VIGO-systemet.
@@ -169,13 +169,13 @@ Tjenesten eies av fylkeskommunene og forvaltes av Novari IKS, som eies av fylkes
 ## Lenke til dokumentasjon
 - https://www.vilbli.no/nb/no/a/om-vilbli-no-6
 - https://novari.no/tjenester/vilbli/
-- https://novari.no/tjenester/vilbli-videreutvikling/
-- https://novari.no/tjenester/vigosystemet
+- https://www.vilbli.no/
+- https://novari.no/vigo/
 
 ## Kildegrunnlag brukt i utfyllingen
 - https://novari.no/tjenester/vilbli/, kontrollert 2026-09-07
 - https://www.vilbli.no/nb/no/a/om-vilbli-no-6, kontrollert 2026-09-07
-- https://novari.no/tjenester/vilbli-videreutvikling/, kontrollert 2026-09-07
+- https://www.vilbli.no/, kontrollert 2026-09-30
 - `arkitektur/ressurser/operative-losninger-og-tjenester/84-vigo-no-v1-claude.md`, kontrollert 2026-09-07
 - `arkitektur/kapabiliteter/capabilities.yaml`, kontrollert 2026-09-07
 - `arkitektur/prinsipper/principles.md`, kontrollert 2026-09-07

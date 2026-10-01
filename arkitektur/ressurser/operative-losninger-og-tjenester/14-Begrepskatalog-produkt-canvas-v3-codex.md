@@ -122,7 +122,7 @@ Operative mål utledet fra de samme kildene:
 | Avgrensning | Brukere kan forveksle Begrepskatalog med hele Felles datakatalog eller med lokal terminologiforvaltning | Klar produktbeskrivelse og tydelig rolle i katalogfamilien |
 
 ## Kanaler
-- Begrepskatalogen: https://data.norge.no/catalogs/concepts
+- Begrepskatalogen: https://data.norge.no/concepts
 - data.norge.no, om løsningen: https://data.norge.no/about
 - data.norge.no, teknisk dokumentasjon: https://data.norge.no/nb/technical
 - Digdir, Felles datakatalog: https://www.digdir.no/felleslosninger/felles-datakatalog/790
@@ -173,7 +173,7 @@ Begrepskatalog er en spesialisert delkatalog for standardisert publisering og op
 | Styringsmodell | Del av Felles datakatalog og Digdirs arbeid med informasjonsforvaltning | Digdir og data.norge.no |
 
 ## Lenke til dokumentasjon
-- https://data.norge.no/catalogs/concepts
+- https://data.norge.no/concepts
 - https://data.norge.no/about
 - https://data.norge.no/nb/technical
 - https://www.digdir.no/felleslosninger/felles-datakatalog/790
@@ -187,7 +187,7 @@ Begrepskatalog er en spesialisert delkatalog for standardisert publisering og op
 - Lokal fil: `arkitektur/prinsipper/principles.md`
 - Lokal fil: `arkitektur/ressurser/produktnummerering.md`
 - Lokal fil: `sources/links.md`
-- Nettkilde: https://data.norge.no/catalogs/concepts (kontrollert 2026-03-27)
+- Nettkilde: https://data.norge.no/concepts (kontrollert 2026-09-30)
 - Nettkilde: https://data.norge.no/about (kontrollert 2026-03-27)
 - Nettkilde: https://data.norge.no/nb/technical (kontrollert 2026-03-27)
 - Nettkilde: https://www.digdir.no/felleslosninger/felles-datakatalog/790 (kontrollert 2026-03-27)

@@ -119,7 +119,7 @@ Operative mål utledet fra de samme kildene:
 ## Kanaler
 - Reelle rettighetshavere: https://www.brreg.no/reelle-rettighetshavere/
 - Data om reelle rettighetshavere: https://www.brreg.no/bruke-data-fra-bronnoysundregistrene/datasett-og-api/data-om-reelle-rettighetshavere/
-- Teknisk beskrivelse: https://brreg.github.io/bo-registeret-api/
+- Teknisk beskrivelse: https://www.brreg.no/bruke-data-fra-bronnoysundregistrene/datasett-og-api/
 
 ## Plattform
 Register over reelle rettighetshavere er et nasjonalt register- og delingssystem for opplysninger om faktisk eierskap og kontroll, forvaltet av Brønnøysundregistrene.
@@ -164,7 +164,7 @@ Register over reelle rettighetshavere er et nasjonalt register- og delingssystem
 ## Lenke til dokumentasjon
 - https://www.brreg.no/reelle-rettighetshavere/
 - https://www.brreg.no/bruke-data-fra-bronnoysundregistrene/datasett-og-api/data-om-reelle-rettighetshavere/
-- https://brreg.github.io/bo-registeret-api/
+- https://www.brreg.no/bruke-data-fra-bronnoysundregistrene/datasett-og-api/
 
 ## Kildegrunnlag brukt i utfyllingen
 - Lokal fil: `config/prompts/produkt-canvas.system.md`
@@ -175,4 +175,4 @@ Register over reelle rettighetshavere er et nasjonalt register- og delingssystem
 - Lokal fil: `sources/links.md`
 - Nettkilde: https://www.brreg.no/reelle-rettighetshavere/ (kontrollert 2026-04-30)
 - Nettkilde: https://www.brreg.no/bruke-data-fra-bronnoysundregistrene/datasett-og-api/data-om-reelle-rettighetshavere/ (kontrollert 2026-04-30)
-- Nettkilde: https://brreg.github.io/bo-registeret-api/ (kontrollert 2026-04-30)
+- Nettkilde: https://www.brreg.no/bruke-data-fra-bronnoysundregistrene/datasett-og-api/ (kontrollert 2026-09-30)

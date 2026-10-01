@@ -97,7 +97,7 @@ Ingen egen samlet offentlig veikartsplan for sentralbasen er hentet i denne arbe
 | Modernisering | Endringer i kjernearkitektur kan påvirke kompatibilitet | Trinnvis modernisering og koordinert migrering |
 
 ## Kanaler
-- https://novari.no/tjenester/vigo-sentralbase/
+- https://novari.no/vigo/
 - https://www.vigo.no/nyvigo/portalen/portalen.html (tilknyttet portalinngang)
 
 ## Plattform
@@ -135,14 +135,14 @@ Forvaltet gjennom felles fylkeskommunal finansiering i Novari-samarbeidet.
 | Budsjettansvar | Fylkeskommunene og Oslo kommune i fellesskap |
 
 ## Lenke til dokumentasjon
-- https://novari.no/tjenester/vigo-sentralbase/
-- https://novari.no/tjenester/vigo/
+- https://novari.no/vigo/
+- https://novari.no/vigo/
 
 ## Kildegrunnlag brukt i utfyllingen
 - Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Lokal fil: `arkitektur/prinsipper/principles.md`
 - Lokal fil: `arkitektur/ressurser/produktnummerering.md`
 - Lokal fil: `sources/links.md`
-- Nettkilde: https://novari.no/tjenester/vigo-sentralbase/ (kontrollert 2026-05-03)
-- Nettkilde: https://novari.no/tjenester/vigo-2/ (kontrollert 2026-05-03)
-- Nettkilde: https://novari.no/tjenester/vigo/ (kontrollert 2026-05-03)
+- Nettkilde: https://novari.no/vigo/ (kontrollert 2026-09-30)
+- Nettkilde: https://novari.no/vigo/ (kontrollert 2026-09-30)
+- Nettkilde: https://novari.no/vigo/ (kontrollert 2026-09-30)

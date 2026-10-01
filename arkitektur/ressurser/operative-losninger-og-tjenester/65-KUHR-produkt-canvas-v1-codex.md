@@ -81,7 +81,7 @@ Ikke offentlig verifisert i denne arbeidsøkten.
 | Brukeropplevelse | svak sammenheng mellom oppgjørssystemet og eksterne brukerflater kan gjøre feil vanskelige å forstå for innsendere | tydelig veiledning, gode kvitteringer og samspill med øvrige tjenester |
 
 ## Kanaler
-- https://www.helfo.no/om-helfo/kuhr
+- https://www.helfo.no/om-helfo/
 - https://www.helfo.no/kontroll/Kontroll-i-Helfo
 
 ## Plattform
@@ -110,7 +110,7 @@ Ikke offentlig samlet verifisert i denne arbeidsøkten.
 | Forvaltningsansvar | Helfo | kontroll- og oppgjørskildene |
 
 ## Lenke til dokumentasjon
-- https://www.helfo.no/om-helfo/kuhr
+- https://www.helfo.no/om-helfo/
 - https://www.helfo.no/kontroll/Kontroll-i-Helfo
 
 ## Kildegrunnlag brukt i utfyllingen
@@ -120,7 +120,7 @@ Ikke offentlig samlet verifisert i denne arbeidsøkten.
 - Lokal fil: `arkitektur/prinsipper/principles.md`
 - Lokal fil: `arkitektur/ressurser/produktnummerering.md`
 - Lokal fil: `sources/links.md`
-- Nettkilde: https://www.helfo.no/om-helfo/kuhr (kontrollert 2026-03-27)
+- Nettkilde: https://www.helfo.no/om-helfo/ (kontrollert 2026-09-30)
 - Nettkilde: https://www.helfo.no/kontroll/Kontroll-i-Helfo (kontrollert 2026-03-27)
 - Nettkilde: https://www.helfo.no/fritt-behandlingsvalg/oppgjor-for-fbv-leverandorer (kontrollert 2026-03-27)
 

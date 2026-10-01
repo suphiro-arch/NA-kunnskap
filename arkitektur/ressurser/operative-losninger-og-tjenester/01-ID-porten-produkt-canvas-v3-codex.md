@@ -127,7 +127,7 @@ Operative mål utledet fra de samme kildene:
 - Teknisk dokumentasjon: https://docs.digdir.no/docs/idporten/
 - Samarbeidsportal: https://samarbeid.digdir.no/id-porten/tillitstenester/2479
 - Ta i bruk: https://samarbeid.digdir.no/id-porten/ta-i-bruk-id-porten/477
-- Prismodell: https://samarbeid.digdir.no/id-porten/id-portens-prismodell/78
+- Prismodell: https://samarbeid.digdir.no/id-porten/ta-i-bruk-id-porten/477
 
 ## Plattform
 ID-porten er en nasjonal autentiseringsplattform bygget rundt føderering mot eksterne eID-er og standardiserte integrasjonsgrensesnitt mot tjenesteeiere.
@@ -177,7 +177,7 @@ ID-porten er en nasjonal autentiseringsplattform bygget rundt føderering mot ek
 - https://docs.digdir.no/docs/idporten/
 - https://samarbeid.digdir.no/id-porten/tillitstenester/2479
 - https://samarbeid.digdir.no/id-porten/ta-i-bruk-id-porten/477
-- https://samarbeid.digdir.no/id-porten/id-portens-prismodell/78
+- https://samarbeid.digdir.no/id-porten/ta-i-bruk-id-porten/477
 
 ## Kildegrunnlag brukt i utfyllingen
 - Lokal fil: `arkitektur/ressurser/operative-losninger-og-tjenester/01-ID-porten-produkt-canvas-v2-copilot.md`
@@ -192,7 +192,7 @@ ID-porten er en nasjonal autentiseringsplattform bygget rundt føderering mot ek
 - Nettkilde: https://docs.digdir.no/docs/idporten/saml/saml_overview_old/ (hentet 2026-03-17)
 - Nettkilde: https://samarbeid.digdir.no/id-porten/tillitstenester/2479 (hentet 2026-03-17)
 - Nettkilde: https://samarbeid.digdir.no/id-porten/ta-i-bruk-id-porten/477 (hentet 2026-03-17)
-- Nettkilde: https://samarbeid.digdir.no/id-porten/id-portens-prismodell/78 (hentet 2026-03-17)
+- Nettkilde: https://samarbeid.digdir.no/id-porten/ta-i-bruk-id-porten/477 (hentet 2026-03-17)
 
 ---
 

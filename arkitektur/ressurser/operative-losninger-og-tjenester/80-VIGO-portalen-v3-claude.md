@@ -85,7 +85,7 @@ Det er ikke identifisert en separat offentlig veikartsplan for portalen alene i 
 | Tilgang | Ulik tilgangsstyring mellom moduler kan gi ujevn opplevelse | Felles prinsipper for tilgang og klar brukerkommunikasjon |
 
 ## Kanaler
-- https://novari.no/tjenester/vigo-2/
+- https://novari.no/vigo/
 - https://www.vigo.no/nyvigo/portalen/portalen.html
 
 ## Plattform
@@ -124,7 +124,7 @@ Forvaltes som del av den fylkeskommunale fellessatsingen gjennom Novari IKS.
 | Budsjettansvar | Fylkeskommunene og Oslo kommune gjennom felles finansiering |
 
 ## Lenke til dokumentasjon
-- https://novari.no/tjenester/vigo-2/
+- https://novari.no/vigo/
 - https://www.vigo.no/nyvigo/portalen/portalen.html
 
 ## Kildegrunnlag brukt i utfyllingen
@@ -132,7 +132,7 @@ Forvaltes som del av den fylkeskommunale fellessatsingen gjennom Novari IKS.
 - Lokal fil: `arkitektur/prinsipper/principles.md`
 - Lokal fil: `arkitektur/ressurser/produktnummerering.md`
 - Lokal fil: `sources/links.md`
-- Nettkilde: https://novari.no/tjenester/vigo-2/ (kontrollert 2026-05-26)
+- Nettkilde: https://novari.no/vigo/ (kontrollert 2026-09-30)
 - Nettkilde: https://www.vigo.no/nyvigo/portalen/portalen.html (kontrollert 2026-05-26)
 - Nettkilde: https://github.com/FINTLabs (repositorier med `vigo` i navnet, kontrollert 2026-09-25)
 

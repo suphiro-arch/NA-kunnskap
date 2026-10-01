@@ -146,16 +146,16 @@ Novari opplyser at alle 14 fylkeskommuner og Oslo kommune eier og finansierer ut
 | Styringsmodell | Felles eierskap og samordnet forvaltning gjennom Novari IKS |
 
 ## Lenke til dokumentasjon
-- VIGO-systemet: https://novari.no/tjenester/vigo/
-- VIGO-portalen: https://novari.no/tjenester/vigo-2/
-- VIGO Sentralbase: https://novari.no/tjenester/vigo-sentralbase/
+- VIGO-systemet: https://novari.no/vigo/
+- VIGO-portalen: https://novari.no/vigo/
+- VIGO Sentralbase: https://novari.no/vigo/
 - VIGO Kodeverk og kodeverksbase: https://novari.no/tjenester/vigo-kodeverk-og-kodeverkbase/
 - Anskaffelse for modernisering av VIGO-systemet: https://novari.no/nyheter/anskaffelse-for-modernisering-av-vigo-systemet/
 
 ## Kildegrunnlag brukt i utfyllingen
 - `sources/links.md`, kontrollert 2026-05-26
-- https://novari.no/tjenester/vigo/ , kontrollert 2026-05-26
-- https://novari.no/tjenester/vigo-2/ , kontrollert 2026-05-26
-- https://novari.no/tjenester/vigo-sentralbase/ , kontrollert 2026-05-26
+- https://novari.no/vigo/ , kontrollert 2026-09-30
+- https://novari.no/vigo/ , kontrollert 2026-09-30
+- https://novari.no/vigo/ , kontrollert 2026-09-30
 - https://novari.no/tjenester/vigo-kodeverk-og-kodeverkbase/ , kontrollert 2026-05-26
 - https://novari.no/nyheter/anskaffelse-for-modernisering-av-vigo-systemet/ , kontrollert 2026-05-26

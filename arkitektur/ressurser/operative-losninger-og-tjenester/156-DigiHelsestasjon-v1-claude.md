@@ -126,7 +126,7 @@ Innføringen fortsetter i 2026 som del av KS sitt nasjonale program for standard
 
 ## Kanaler
 - https://www.ks.no/fagomrader/digitalisering/felleslosninger/digihelsestasjon/
-- https://www.ks.no/fagomrader/digitalisering/felleslosninger/digihelsestasjon/digihelsestasjon-for-ungdom/
+- https://www.ks.no/fagomrader/digitalisering/felleslosninger/digihelsestasjon/
 - https://www.nhn.no/tjenester/helsenorge/informasjon-per-malgruppe/helsenorge-for-kommuner/helsestasjons-og-skolehelsetjenesten
 - https://www.helsedirektoratet.no/statistikk/nasjonal-digitaliseringsmonitor/digihelsestasjon
 
@@ -179,14 +179,14 @@ Ansvaret er delt mellom KS, Norsk helsenett og Helsedirektoratet, og ressursen e
 
 ## Lenke til dokumentasjon
 - https://www.ks.no/fagomrader/digitalisering/felleslosninger/digihelsestasjon/
-- https://www.ks.no/fagomrader/digitalisering/felleslosninger/digihelsestasjon/digihelsestasjon---innforingshandbok/
-- https://www.ks.no/fagomrader/digitalisering/felleslosninger/digihelsestasjon/digihelsestasjon-for-ungdom/
+- https://www.ks.no/fagomrader/digitalisering/felleslosninger/digihelsestasjon/
+- https://www.ks.no/fagomrader/digitalisering/felleslosninger/digihelsestasjon/
 - https://www.nhn.no/tjenester/helsenorge/informasjon-per-malgruppe/helsenorge-for-kommuner/helsestasjons-og-skolehelsetjenesten
 - https://www.helsedirektoratet.no/retningslinjer/helsestasjons-og-skolehelsetjenesten
 
 ## Kildegrunnlag brukt i utfyllingen
 - https://www.ks.no/fagomrader/digitalisering/felleslosninger/digihelsestasjon/, kontrollert 2026-09-07
-- https://www.ks.no/fagomrader/digitalisering/felleslosninger/digihelsestasjon/digihelsestasjon-for-ungdom/, kontrollert 2026-09-07
+- https://www.ks.no/fagomrader/digitalisering/felleslosninger/digihelsestasjon/, kontrollert 2026-09-30
 - https://www.nhn.no/tjenester/helsenorge/informasjon-per-malgruppe/helsenorge-for-kommuner/helsestasjons-og-skolehelsetjenesten, kontrollert 2026-09-07
 - https://www.helsedirektoratet.no/statistikk/nasjonal-digitaliseringsmonitor/digihelsestasjon, kontrollert 2026-09-07
 - `arkitektur/kapabiliteter/capabilities.yaml`, kontrollert 2026-09-07

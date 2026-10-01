@@ -182,13 +182,13 @@ Begrensninger og spenninger: ressursen er et påbygg på nasjonale kilder, og ve
 
 ## Lenke til dokumentasjon
 - https://novari.no/tjenester/vigo-kodeverk-og-kodeverkbase/
-- https://novari.no/tjenester/vigosystemet
+- https://novari.no/vigo/
 - https://www.udir.no/om-udir/data/kl06-grep/
 - https://www.udir.no/om-udir/data/nxr/
 
 ## Kildegrunnlag brukt i utfyllingen
 - https://novari.no/tjenester/vigo-kodeverk-og-kodeverkbase/, kontrollert 2026-09-07
-- https://novari.no/tjenester/vigosystemet, kontrollert 2026-09-07
+- https://novari.no/vigo/, kontrollert 2026-09-30
 - https://www.udir.no/om-udir/data/kl06-grep/, kontrollert 2026-09-07
 - https://www.udir.no/om-udir/data/nxr/, kontrollert 2026-09-07
 - `arkitektur/kapabiliteter/capabilities.yaml`, kontrollert 2026-09-07

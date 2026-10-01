@@ -116,11 +116,11 @@ Operative mål utledet fra de samme kildene:
 
 ## Kanaler
 - Produktside: https://www.nhn.no/tjenester/helseid
-- Hva er HelseID: https://www.nhn.no/tjenester/helseid/hva-er-helseid
-- Tjenestetilbud: https://www.nhn.no/tjenester/helseid/tjenestetilbud
+- Hva er HelseID: https://www.nhn.no/tjenester/helseid
+- Tjenestetilbud: https://www.nhn.no/tjenester/helseid/ta-i-bruk
 - Hvorfor bruke HelseID: https://www.nhn.no/tjenester/helseid/hvorfor-bruke-helseid
 - Spørsmål og svar: https://www.nhn.no/tjenester/helseid/sporsmal-og-svar
-- Utviklerportal: https://utviklerportal.nhn.no/information-services/helseid
+- Utviklerportal: https://utviklerportal.nhn.no/en/information-services/helseid
 
 ## Plattform
 HelseID er en felles tillits- og autentiseringsplattform for helse- og omsorgssektoren, levert av Norsk helsenett SF.
@@ -159,13 +159,13 @@ HelseID er en felles tillits- og autentiseringsplattform for helse- og omsorgsse
 
 ## Lenke til dokumentasjon
 - https://www.nhn.no/tjenester/helseid
-- https://www.nhn.no/tjenester/helseid/hva-er-helseid
-- https://www.nhn.no/tjenester/helseid/tjenestetilbud
+- https://www.nhn.no/tjenester/helseid
+- https://www.nhn.no/tjenester/helseid/ta-i-bruk
 - https://www.nhn.no/tjenester/helseid/hvorfor-bruke-helseid
 - https://www.nhn.no/tjenester/helseid/sporsmal-og-svar
 - https://www.nhn.no/tjenester/helseid/personvern-i-helseid
-- https://www.nhn.no/tjenester/helseid/tjenestetilbud/utbredelse-av-tjenesten
-- https://utviklerportal.nhn.no/information-services/helseid
+- https://www.nhn.no/tjenester/helseid
+- https://utviklerportal.nhn.no/en/information-services/helseid
 
 ## Kildegrunnlag brukt i utfyllingen
 - Lokal fil: `config/prompts/produkt-canvas.system.md`
@@ -175,13 +175,13 @@ HelseID er en felles tillits- og autentiseringsplattform for helse- og omsorgsse
 - Lokal fil: `arkitektur/ressurser/produktnummerering.md`
 - Lokal fil: `sources/links.md`
 - Nettkilde: https://www.nhn.no/tjenester/helseid (kontrollert 2026-03-27)
-- Nettkilde: https://www.nhn.no/tjenester/helseid/hva-er-helseid (kontrollert 2026-03-27)
-- Nettkilde: https://www.nhn.no/tjenester/helseid/tjenestetilbud (kontrollert 2026-03-27)
+- Nettkilde: https://www.nhn.no/tjenester/helseid (kontrollert 2026-09-30)
+- Nettkilde: https://www.nhn.no/tjenester/helseid/ta-i-bruk (kontrollert 2026-09-30)
 - Nettkilde: https://www.nhn.no/tjenester/helseid/hvorfor-bruke-helseid (kontrollert 2026-03-27)
 - Nettkilde: https://www.nhn.no/tjenester/helseid/sporsmal-og-svar (rekontrollert 2026-09-16) (kontrollert 2026-03-27)
 - Nettkilde: https://www.nhn.no/tjenester/helseid/personvern-i-helseid (kontrollert 2026-03-27)
-- Nettkilde: https://www.nhn.no/tjenester/helseid/tjenestetilbud/utbredelse-av-tjenesten (kontrollert 2026-03-27)
-- Nettkilde: https://utviklerportal.nhn.no/information-services/helseid (kontrollert 2026-03-27)
+- Nettkilde: https://www.nhn.no/tjenester/helseid (kontrollert 2026-09-30)
+- Nettkilde: https://utviklerportal.nhn.no/en/information-services/helseid (kontrollert 2026-09-30)
 
 ## Endringer fra forrige versjon
 

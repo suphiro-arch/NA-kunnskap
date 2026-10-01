@@ -187,7 +187,7 @@ Avhengigheter som ikke er kapabiliteter her: plattformen bygger på skyinfrastru
 - Kommisjonens policyside for Simpl: https://digital-strategy.ec.europa.eu/en/policies/simpl
 - Simpl-programmets egen side: https://simpl-programme.ec.europa.eu/
 - Simpl-Open i EUs kodeplattform: https://code.europa.eu/simpl/simpl-open
-- Kommisjonens omtale av kontraktstildelingen: https://digital-strategy.ec.europa.eu/en/news/commission-awards-eu41-million-contract-develop-infrastructure-common-european-data-spaces-0
+- Kommisjonens omtale av kontraktstildelingen: https://digital-strategy.ec.europa.eu/en/news/commission-awards-eu41-million-contract-develop-infrastructure-common-european-data-spaces
 
 ## Kildegrunnlag brukt i utfyllingen
 - Europakommisjonen, Simpl: Cloud-to-edge federations empowering EU data spaces, hentet 25. september 2026.

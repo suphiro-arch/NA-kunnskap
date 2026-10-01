@@ -117,7 +117,7 @@ Novari har varslet modernisering av VIGO-systemet gjennom egen anskaffelse. Kild
 | Digital inkludering | Søkere uten tilstrekkelig digital tilgang eller kompetanse kan få problemer med en fristbundet søknad | Alternative kanaler gjennom skole og inntakskontor |
 
 ## Kanaler
-- https://novari.no/tjenester/vigo-soknad/
+- https://novari.no/vigo/
 - https://www.vigo.no/nyvigo/vigo
 - https://www.vigo.no/nyvigo/portalen/portalen.html
 
@@ -167,14 +167,14 @@ Tjenesten forvaltes av Novari på vegne av fylkeskommunene og Oslo kommune, som 
 | Fag- og tilbudskodeverk | Utdanningsdirektoratet og Novari | Grep og VIGO Kodeverk |
 
 ## Lenke til dokumentasjon
-- https://novari.no/tjenester/vigo-soknad/
-- https://novari.no/tjenester/vigosystemet
+- https://novari.no/vigo/
+- https://novari.no/vigo/
 - https://www.vigo.no/nyvigo/vigo
 - https://www.vilbli.no/en/no/a/registrer-soknaden-din-pa-vigo-no-6
 
 ## Kildegrunnlag brukt i utfyllingen
-- https://novari.no/tjenester/vigo-soknad/, kontrollert 2026-09-07
-- https://novari.no/tjenester/vigosystemet, kontrollert 2026-09-07
+- https://novari.no/vigo/, kontrollert 2026-09-30
+- https://novari.no/vigo/, kontrollert 2026-09-30
 - https://www.vilbli.no/en/no/a/registrer-soknaden-din-pa-vigo-no-6, kontrollert 2026-09-07
 - `arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v2-codex.md`, kontrollert 2026-09-07
 - `arkitektur/kapabiliteter/capabilities.yaml`, kontrollert 2026-09-07

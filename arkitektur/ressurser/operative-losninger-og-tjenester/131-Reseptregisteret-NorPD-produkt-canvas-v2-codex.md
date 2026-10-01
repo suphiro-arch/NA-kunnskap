@@ -153,14 +153,14 @@ Vurdering av svakheter og spenninger:
 ## Lenke til dokumentasjon
 - https://helsedata.no/no/forvaltere/folkehelseinstituttet/reseptbasert-legemiddelregister/
 - https://helsedata.no/no/forvaltere/folkehelseinstituttet/legemiddelregisteret/
-- https://www.fhi.no/he/reseptregisteret/
+- https://www.fhi.no/en/he/norwegian-prescribed-drug-registry/
 - https://www.fhi.no/he/legemiddelregisteret/
 
 ## Kildegrunnlag brukt i utfyllingen
 - Lokal fil: `sources/links.md`
 - Nettkilde: https://helsedata.no/no/forvaltere/folkehelseinstituttet/reseptbasert-legemiddelregister/ (kontrollert 2026-05-10)
 - Nettkilde: https://helsedata.no/no/forvaltere/folkehelseinstituttet/legemiddelregisteret/ (kontrollert 2026-05-10)
-- Nettkilde: https://www.fhi.no/he/reseptregisteret/ (kontrollert via offisiell FHI-søketreff 2026-05-10)
+- Nettkilde: https://www.fhi.no/en/he/norwegian-prescribed-drug-registry/ (kontrollert via offisiell FHI-søketreff 2026-05-10)
 - Nettkilde: https://www.fhi.no/he/legemiddelregisteret/ (kontrollert via offisiell FHI-søketreff 2026-05-10)
 
 ## Endringer fra forrige versjon

@@ -121,7 +121,7 @@ Operative mål utledet fra de samme kildene:
 | Brukeropplevelse | Katalogen kan oppleves som for teknisk eller for tynn hvis metadataene bare peker videre | Tydeligere beskrivelser og bedre kvalitet i publiserte oppføringer |
 
 ## Kanaler
-- API-katalogen: https://data.norge.no/catalogs/data-services
+- API-katalogen: https://data.norge.no/data-services
 - data.norge.no, om løsningen: https://data.norge.no/about
 - data.norge.no, teknisk dokumentasjon for API: https://data.norge.no/nb/technical/api
 - Digdir, Felles datakatalog: https://www.digdir.no/felleslosninger/felles-datakatalog/790
@@ -173,7 +173,7 @@ API-katalog er en spesialisert delkatalog for publisering og oppdagelse av API-b
 | Styringsmodell | Del av Felles datakatalog og Digdirs arbeid med informasjonsforvaltning | Digdir og data.norge.no |
 
 ## Lenke til dokumentasjon
-- https://data.norge.no/catalogs/data-services
+- https://data.norge.no/data-services
 - https://data.norge.no/about
 - https://data.norge.no/nb/technical/api
 - https://www.digdir.no/felleslosninger/felles-datakatalog/790
@@ -187,7 +187,7 @@ API-katalog er en spesialisert delkatalog for publisering og oppdagelse av API-b
 - Lokal fil: `arkitektur/prinsipper/principles.md`
 - Lokal fil: `arkitektur/ressurser/produktnummerering.md`
 - Lokal fil: `sources/links.md`
-- Nettkilde: https://data.norge.no/catalogs/data-services (kontrollert 2026-03-27)
+- Nettkilde: https://data.norge.no/data-services (kontrollert 2026-09-30)
 - Nettkilde: https://data.norge.no/about (kontrollert 2026-03-27)
 - Nettkilde: https://data.norge.no/nb/technical/api (kontrollert 2026-03-27)
 - Nettkilde: https://www.digdir.no/felleslosninger/felles-datakatalog/790 (kontrollert 2026-03-27)
