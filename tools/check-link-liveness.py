@@ -115,10 +115,12 @@ def sjekk(url: str, linje: int, tittel: str, timeout: float) -> Resultat:
                     return Resultat(url, linje, tittel, FLYTTET, sporer.permanent_til)
                 return Resultat(url, linje, tittel, OK, str(svar.status))
         except urllib.error.HTTPError as feil:
+            # Noen tjenere svarer 404 paa HEAD og 200 paa GET for samme adresse.
+            # Derfor gjentas alt som feiler paa HEAD med GET foer noe konkluderes.
+            if metode == "HEAD":
+                continue
             if feil.code in (404, 410):
                 return Resultat(url, linje, tittel, DOED, "HTTP %d" % feil.code)
-            if metode == "HEAD" and feil.code in (400, 403, 405, 406, 501):
-                continue
             return Resultat(url, linje, tittel, USIKKER, "HTTP %d" % feil.code)
         except urllib.error.URLError as feil:
             return Resultat(url, linje, tittel, USIKKER, str(feil.reason))
