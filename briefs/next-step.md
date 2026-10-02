@@ -282,6 +282,11 @@ med her slik at neste gjennomgang slipper å gjøre vurderingen på nytt:
   offentlig sektor`, og rette `Type` i registeret fra `Rammeverk`. Kategorien er avgjort
   2026-09-25, se [decisions.md](./decisions.md), men registeret bruker fortsatt det gamle navnet
   og typen.
+- Gi ressursmappene under `arkitektur/ressurser/` navn etter rammeverkskategoriene, etter
+  [planen for omdøping av ressursmappene](./arbeidsstyring-og-handover/2026-10-02-omdoping-av-ressursmapper-v1.md).
+  Planen er klar, men skal først gjennomføres når ingen andre økter arbeider i repoet og
+  arbeidstreet er tomt. Flyttingen berører over 300 filer, og en økt som skriver i en gammel mappe
+  underveis, får konflikter eller lager filer på feil sted.
 
 ## Løse ideer
 

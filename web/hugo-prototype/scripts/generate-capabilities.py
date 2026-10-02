@@ -10,17 +10,9 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[3]
 CAPABILITIES_FILE = REPO_ROOT / 'arkitektur' / 'kapabiliteter' / 'capabilities.yaml'
 MAP_FILE = REPO_ROOT / 'arkitektur' / 'kapabiliteter' / 'produkt-kapabilitet-koblinger.yaml'
-SOURCE_DIRS = [
-    REPO_ROOT / 'arkitektur' / 'ressurser' / 'operative-losninger-og-tjenester',
-    REPO_ROOT / 'arkitektur' / 'ressurser' / 'normerende-ressurser',
-    REPO_ROOT / 'arkitektur' / 'ressurser' / 'samarbeidsfora',
-]
 OUT_DIR = REPO_ROOT / 'web' / 'hugo-prototype' / 'content' / 'kapabiliteter'
 REPO_BLOB_BASE = 'https://github.com/suphiro-arch/NA-kunnskap/blob/main'
 
-CURRENT_PATTERN = re.compile(r'^(?P<id>\d+)-(?P<name>.+)-produkt-canvas-v(?P<ver>\d+)-(?P<author>[^.]+)\.md$')
-NO_AUTHOR_PATTERN = re.compile(r'^(?P<id>\d+)-(?P<name>.+)-produkt-canvas-v(?P<ver>\d+)\.md$')
-LEGACY_PATTERN = re.compile(r'^(?P<id>\d+)-(?P<name>.+)-produkt-canvas(?:-(?P<author>[^.]+))?\.md$')
 SECTION_PATTERN = re.compile(r'^##\s+(.+?)\s*$')
 BOLD_BULLET_PATTERN = re.compile(r'^-\s+\*\*(.+?)\*\*(?:\s*(?:[–-]\s*)?(.+))?$')
 
@@ -222,61 +214,6 @@ def first_nonempty_line(text: str) -> str:
         if stripped:
             return stripped
     return ''
-
-
-def latest_product_files() -> list[dict]:
-    items: list[dict] = []
-    for source_dir in SOURCE_DIRS:
-        if not source_dir.exists():
-            continue
-        for path in source_dir.glob('*.md'):
-            match = CURRENT_PATTERN.match(path.name)
-            if match:
-                items.append({
-                    'id': int(match.group('id')),
-                    'name': match.group('name'),
-                    'version': int(match.group('ver')),
-                    'author': match.group('author'),
-                    'path': path,
-                    'relative_path': path.relative_to(REPO_ROOT).as_posix(),
-                    'filename': path.name,
-                })
-                continue
-            match = NO_AUTHOR_PATTERN.match(path.name)
-            if match:
-                items.append({
-                    'id': int(match.group('id')),
-                    'name': match.group('name'),
-                    'version': int(match.group('ver')),
-                    'author': 'ukjent',
-                    'path': path,
-                    'relative_path': path.relative_to(REPO_ROOT).as_posix(),
-                    'filename': path.name,
-                })
-                continue
-            match = LEGACY_PATTERN.match(path.name)
-            if match:
-                items.append({
-                    'id': int(match.group('id')),
-                    'name': match.group('name'),
-                    'version': 0,
-                    'author': match.group('author') or 'legacy',
-                    'path': path,
-                    'relative_path': path.relative_to(REPO_ROOT).as_posix(),
-                    'filename': path.name,
-                })
-
-    latest_by_id: dict[int, dict] = {}
-    for item in items:
-        current = latest_by_id.get(item['id'])
-        if current is None:
-            latest_by_id[item['id']] = item
-            continue
-        key = (item['version'], item['path'].stat().st_mtime, item['filename'])
-        current_key = (current['version'], current['path'].stat().st_mtime, current['filename'])
-        if key > current_key:
-            latest_by_id[item['id']] = item
-    return [latest_by_id[key] for key in sorted(latest_by_id)]
 
 
 def extract_display_name(markdown: str, fallback: str) -> str:
