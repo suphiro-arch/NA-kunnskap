@@ -51,7 +51,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/37-Folkeregisteret-produkt-canvas-v1-codex.md">Folkeregisteret</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/37-Folkeregisteret-produkt-canvas-v2-claude.md">Folkeregisteret</a></h3>
       <p class="capability-product-link__description">gjør opplysninger tilgjengelige for andre virksomheter gjennom kontrollerte delingstjenester og oppslag basert på hjemmel.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
@@ -81,7 +81,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/47-Feide-produkt-canvas-v2-claude.md">Feide</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/47-Feide-produkt-canvas-v3-claude.md">Feide</a></h3>
       <p class="capability-product-link__description">gjør det mulig å dele nødvendige identitets- og organisasjonsopplysninger fra vertsorganisasjonen til tilknyttede tjenester på en kontrollert måte.</p>
     </article>
     <article class="capability-product-link resource-type--operative">

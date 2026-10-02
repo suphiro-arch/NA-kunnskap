@@ -46,7 +46,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/109-Kapabilitetskart-planlagt-v3-claude.md">Kapabilitetskart (planlagt)</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/109-Kapabilitetskart-v4-claude.md">Kapabilitetskart</a></h3>
       <p class="capability-product-link__description">Kartet er den felles kapabilitetsmodellen som kapabiliteten sier må forvaltes og tolkes likt av alle virksomheter, og det er grunnlaget Digdir vil bruke for å vurdere om nasjonale ressurser dekker behovene og for å prioritere gap. Definisjonen nevner forvaltning av felles metamodeller, bruk av ArchiMate og evaluering av modenhet for kapabiliteter, som er det modellen gjør.</p>
     </article>
     <article class="capability-product-link resource-type--forum">

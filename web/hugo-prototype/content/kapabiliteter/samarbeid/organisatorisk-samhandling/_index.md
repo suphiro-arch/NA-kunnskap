@@ -111,8 +111,8 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/100-Kart-for-tjenestekjeder-v2-claude.md">Kart for tjenestekjeder</a></h3>
-      <p class="capability-product-link__description">normeres gjennom at kartet navngir aktører og tjenesteleverandører per tjeneste. Ansvarsovergangene blir synlige, og det er dem samordningen må håndtere.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/100-Kart-for-tjenestekjeder-v3-claude.md">Kart for tjenestekjeder</a></h3>
+      <p class="capability-product-link__description">Normeres gjennom at kartet navngir aktører og tjenesteleverandører per tjeneste. Ansvarsovergangene blir synlige, og det er dem samordningen må håndtere.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>

@@ -36,10 +36,8 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
 - Følge opp funnene fra innholdsrevisjonen av `Standarder og veiledning`, som ble fullført for
   alle gjeldende filer 2026-09-25. Mønstersøket etter de fire faste manglene holdt gjennom hele
   kategorien, men kildene måtte leses på nytt i hver fil: flere hovedkilder var flyttet eller
-  avpublisert, og `109` Kapabilitetskart var publisert selv om registeret fortsatt kaller det
-  planlagt. Det som gjenstår:
-  - Registernavnet `Kapabilitetskart (planlagt)` for `109` stemmer ikke lenger, siden kartet er
-    publisert i `digdir/nasjonal-arkitektur`.
+  avpublisert, og `109` Kapabilitetskart var publisert selv om registeret kalte det planlagt.
+  Det som gjenstår:
   - Referansearkitekturene for eMelding og eOppslag (`101` og `102`) er udaterte og beskriver
     situasjonen rundt 2020. Om Digdir planlegger revisjon, avklares enklest direkte.
   - Det er ikke kontrollert mot Referansekatalogen om spesifikasjonene i `89` er obligatoriske.
@@ -85,9 +83,6 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
   `www.norge.no/om-norge-no` og `www.norge.no/en/about-norgeno` svarer `404`. De var
   primærkilder i `v3` av `18`, og er nå merket som døde i `sources/links.md`. Portalens forsiden
   lot seg heller ikke lese maskinelt, så vi har i dag ingen egenpresentasjon fra Norge.no selv.
-- Bruke regelen for `Veiledning`-kapabilitetene fra 2026-09-25 (se [decisions.md](./decisions.md))
-  på de tre gjenværende veilederne som ikke har `Utvikling og formidling av veiledning`: `100`,
-  `104` og `105`. Tas ved neste ordinære revisjon av hver fil framfor som egne versjoner.
 - Rydde den gamle fila `137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v1-codex.md`, som
   fortsatt ligger i `normerende-ressurser/` selv om ressursen er flyttet til
   `rammer-og-virkemidler/`. Den er historikk og røres ikke av kontrollene, men plasseringen er

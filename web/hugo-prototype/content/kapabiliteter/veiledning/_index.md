@@ -3,7 +3,7 @@ title: "Veiledning"
 eyebrow: "Kapabilitet"
 weight: 12
 description: "Evne til å sikre at veiledninger for digital samhandling utarbeides, formidles og benyttes. Dette innebærer: * Beskrivelser av beste praksis * Omforente prinsipper, mønstre og standarder for hvordan løsninger skal bygges for å fungere optimalt, sikkert og sammenhengende i det nasjonale økosystemet. * Referansearkitekturer * hva som er god faglig praksis * hvordan relevant regelverk skal tolkes * hvilke prioriteringer som er i samsvar med vedtatt politikk Veiledere kan ha ulik grad av styrke: * Bør benyttes: en sterk anbefaling/råd som vil gjelde de aller fleste. Denne er så klart faglig forankret at det sjelden er forsvarlig ikke å gjøre som anbefalt * Kan eller foreslår: en svak anbefaling/råd der ulike valg kan være riktig."
-cardMeta: "2 delkapabiliteter / 24 produkter"
+cardMeta: "2 delkapabiliteter / 27 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -38,11 +38,23 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/100-Kart-for-tjenestekjeder-v3-claude.md">Kart for tjenestekjeder</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/101-Referansearkitektur-forsendelse-eMelding-v3-claude.md">Referansearkitektur forsendelse (eMelding)</a></h3>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/102-Referansearkitektur-foresporsel-svar-eOppslag-v3-claude.md">Referansearkitektur forespørsel-svar (eOppslag)</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/104-Orden-i-eget-hus-v3-claude.md">Orden i eget hus</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/105-Rammeverk-for-Nasjonale-grunndata-v4-claude.md">Rammeverk for Nasjonale grunndata</a></h3>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>

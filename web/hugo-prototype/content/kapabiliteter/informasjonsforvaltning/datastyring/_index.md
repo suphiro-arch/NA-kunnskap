@@ -51,8 +51,8 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/104-Orden-i-eget-hus-v2-claude.md">Orden i eget hus</a></h3>
-      <p class="capability-product-link__description">normerer ansvarsplassering, prosess og varig forvaltning av dataressursene. Steg 1 om forankring og steg 7 om å styre og forvalte er nettopp det rammeverket av roller, ansvar og rutiner som kapabiliteten beskriver.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/104-Orden-i-eget-hus-v3-claude.md">Orden i eget hus</a></h3>
+      <p class="capability-product-link__description">Normerer ansvarsplassering, prosess og varig forvaltning av dataressursene. Steg 1 om forankring og steg 7 om å styre og forvalte er nettopp det rammeverket av roller, ansvar og rutiner som kapabiliteten beskriver.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>

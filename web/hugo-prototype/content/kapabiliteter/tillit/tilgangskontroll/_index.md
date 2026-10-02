@@ -16,7 +16,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/04-Altinn-autorisasjon-produkt-canvas-v5-claude.md">Altinn Autorisasjon</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/04-Altinn-autorisasjon-produkt-canvas-v6-claude.md">Altinn Autorisasjon</a></h3>
       <p class="capability-product-link__description">er produktets kjernefunksjon og avgjør om brukere og systemer kan utføre en operasjon på en ressurs.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
@@ -41,7 +41,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/47-Feide-produkt-canvas-v2-claude.md">Feide</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/47-Feide-produkt-canvas-v3-claude.md">Feide</a></h3>
       <p class="capability-product-link__description">håndhever ved hvert innloggings- og datauttrekk hvilke tjenester som får hvilke opplysninger, etter tilgangsnivået dataeier har satt i kundeportalen: fri tilgang innvilges automatisk, mens nivåer som krever godkjenning må godkjennes eller avslås av dataeier før tjenesten slipper til.</p>
     </article>
   </div>

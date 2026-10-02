@@ -3774,10 +3774,10 @@
         {
             "product_id": 100,
             "product_name": "Kart for tjenestekjeder",
-            "version": 2,
+            "version": 3,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/100-Kart-for-tjenestekjeder-v2-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/100-Kart-for-tjenestekjeder-v2-claude.md",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/100-Kart-for-tjenestekjeder-v3-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/100-Kart-for-tjenestekjeder-v3-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
@@ -3787,7 +3787,7 @@
                     "subcapability_name": "Tjenestekjeder",
                     "subcapability_slug": "tjenestekjeder",
                     "mapping_label": "Sluttbrukertjenester: Tjenestekjeder",
-                    "explanation": "normeres i designfasen. Kapabiliteten er evnen til å sette sammen, koordinere og automatisere informasjonsflyt og prosesser på tvers av uavhengige tjenester. Kartet foreskriver hvordan en slik kjede skal beskrives før den kan koordineres: hvilken hendelse som utløser tjenester hos hvilke aktører, hvilke data som opprettes eller endres i hvilke kilder, og hvor flyten brytes på juridisk, organisatorisk, semantisk eller teknisk nivå. Det er samme inndeling som definisjonen bruker for hva kapabiliteten innebærer. Kartet normerer ikke selve integrasjonen eller automatiseringen, som hører hjemme i operative løsninger og i `Arkitektur for hendelser`."
+                    "explanation": "Normeres i designfasen. Kapabiliteten er evnen til å sette sammen, koordinere og automatisere informasjonsflyt og prosesser på tvers av uavhengige tjenester. Kartet foreskriver hvordan en slik kjede skal beskrives før den kan koordineres: hvilken hendelse som utløser tjenester hos hvilke aktører, hvilke data som opprettes eller endres i hvilke kilder, og hvor flyten brytes på juridisk, organisatorisk, semantisk eller teknisk nivå. Det er samme inndeling som definisjonen bruker for hva kapabiliteten innebærer. Kartet normerer ikke selve integrasjonen eller automatiseringen, som hører hjemme i operative løsninger og i `Arkitektur for hendelser`."
                 },
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
@@ -3797,7 +3797,17 @@
                     "subcapability_name": "Organisatorisk samhandling",
                     "subcapability_slug": "organisatorisk-samhandling",
                     "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "normeres gjennom at kartet navngir aktører og tjenesteleverandører per tjeneste. Ansvarsovergangene blir synlige, og det er dem samordningen må håndtere."
+                    "explanation": "Normeres gjennom at kartet navngir aktører og tjenesteleverandører per tjeneste. Ansvarsovergangene blir synlige, og det er dem samordningen må håndtere."
+                },
+                {
+                    "capability_id": "id-c0547226c598467a942dced879d0c18b",
+                    "capability_name": "Veiledning",
+                    "capability_slug": "veiledning",
+                    "subcapability_id": "id-0bfa29018e7144578b2184e70414b7e8",
+                    "subcapability_name": "Utvikling og formidling av veiledning",
+                    "subcapability_slug": "utvikling-og-formidling-av-veiledning",
+                    "mapping_label": "Veiledning: Utvikling og formidling av veiledning",
+                    "explanation": "Kartet er publisert som åpen metode- og veiledningsressurs på digdir.no, med en mal virksomheter kan bruke direkte når de beskriver en tjenestekjede."
                 }
             ]
         },
@@ -3894,10 +3904,10 @@
         {
             "product_id": 104,
             "product_name": "Orden i eget hus",
-            "version": 2,
+            "version": 3,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/104-Orden-i-eget-hus-v2-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/104-Orden-i-eget-hus-v2-claude.md",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/104-Orden-i-eget-hus-v3-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/104-Orden-i-eget-hus-v3-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-896e4c1434604caa891b94bcce964720",
@@ -3907,7 +3917,7 @@
                     "subcapability_name": "Datastyring",
                     "subcapability_slug": "datastyring",
                     "mapping_label": "Informasjonsforvaltning: Datastyring",
-                    "explanation": "normerer ansvarsplassering, prosess og varig forvaltning av dataressursene. Steg 1 om forankring og steg 7 om å styre og forvalte er nettopp det rammeverket av roller, ansvar og rutiner som kapabiliteten beskriver."
+                    "explanation": "Normerer ansvarsplassering, prosess og varig forvaltning av dataressursene. Steg 1 om forankring og steg 7 om å styre og forvalte er nettopp det rammeverket av roller, ansvar og rutiner som kapabiliteten beskriver."
                 },
                 {
                     "capability_id": "id-896e4c1434604caa891b94bcce964720",
@@ -3917,17 +3927,27 @@
                     "subcapability_name": "Oversikt over datasett",
                     "subcapability_slug": "oversikt-over-datasett",
                     "mapping_label": "Informasjonsforvaltning: Oversikt over datasett",
-                    "explanation": "normerer hvordan oversikten blir til og gjøres brukbar for andre: kartlegging, beskrivelse med metadata og tilgjengeliggjøring internt og eksternt."
+                    "explanation": "Normerer hvordan oversikten blir til og gjøres brukbar for andre: kartlegging, beskrivelse med metadata og tilgjengeliggjøring internt og eksternt."
+                },
+                {
+                    "capability_id": "id-c0547226c598467a942dced879d0c18b",
+                    "capability_name": "Veiledning",
+                    "capability_slug": "veiledning",
+                    "subcapability_id": "id-0bfa29018e7144578b2184e70414b7e8",
+                    "subcapability_name": "Utvikling og formidling av veiledning",
+                    "subcapability_slug": "utvikling-og-formidling-av-veiledning",
+                    "mapping_label": "Veiledning: Utvikling og formidling av veiledning",
+                    "explanation": "Veilederen er Digdirs publiserte veiledning for orden i eget hus, med en tilhørende modenhetsmodell og kildekode i eget åpent repositorium."
                 }
             ]
         },
         {
             "product_id": 105,
             "product_name": "Rammeverk for Nasjonale grunndata",
-            "version": 3,
+            "version": 4,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/105-Rammeverk-for-Nasjonale-grunndata-v3-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/105-Rammeverk-for-Nasjonale-grunndata-v3-claude.md",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/105-Rammeverk-for-Nasjonale-grunndata-v4-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/105-Rammeverk-for-Nasjonale-grunndata-v4-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
@@ -3948,6 +3968,16 @@
                     "subcapability_slug": "samordning",
                     "mapping_label": "Strategisk styring: Samordning",
                     "explanation": "Rammeverket beskriver rollemodellen som skal koordinere prioritering og ressursbruk på tvers av sektorer: et styrende organ som prioriterer og beslutter tiltak, en nasjonal grunndatakoordinator med samlet oversikt og grunndataforvaltere som eier dataene. Koblingen gjelder modellen; rollene er ennå ikke formelt etablert."
+                },
+                {
+                    "capability_id": "id-c0547226c598467a942dced879d0c18b",
+                    "capability_name": "Veiledning",
+                    "capability_slug": "veiledning",
+                    "subcapability_id": "id-0bfa29018e7144578b2184e70414b7e8",
+                    "subcapability_name": "Utvikling og formidling av veiledning",
+                    "subcapability_slug": "utvikling-og-formidling-av-veiledning",
+                    "mapping_label": "Veiledning: Utvikling og formidling av veiledning",
+                    "explanation": "Rammeverket er publisert som åpen, versjonert spesifikasjon på data.norge.no, med kriterier, roller, prinsipper og faser som virksomheter kan legge til grunn når de vurderer og forvalter grunndata."
                 }
             ]
         },
@@ -4053,11 +4083,11 @@
         },
         {
             "product_id": 109,
-            "product_name": "Kapabilitetskart (planlagt)",
-            "version": 3,
+            "product_name": "Kapabilitetskart",
+            "version": 4,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/109-Kapabilitetskart-planlagt-v3-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/109-Kapabilitetskart-planlagt-v3-claude.md",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/109-Kapabilitetskart-v4-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/109-Kapabilitetskart-v4-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",

@@ -16,8 +16,8 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/100-Kart-for-tjenestekjeder-v2-claude.md">Kart for tjenestekjeder</a></h3>
-      <p class="capability-product-link__description">normeres i designfasen. Kapabiliteten er evnen til å sette sammen, koordinere og automatisere informasjonsflyt og prosesser på tvers av uavhengige tjenester. Kartet foreskriver hvordan en slik kjede skal beskrives før den kan koordineres: hvilken hendelse som utløser tjenester hos hvilke aktører, hvilke data som opprettes eller endres i hvilke kilder, og hvor flyten brytes på juridisk, organisatorisk, semantisk eller teknisk nivå. Det er samme inndeling som definisjonen bruker for hva kapabiliteten innebærer. Kartet normerer ikke selve integrasjonen eller automatiseringen, som hører hjemme i operative løsninger og i `Arkitektur for hendelser`.</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/100-Kart-for-tjenestekjeder-v3-claude.md">Kart for tjenestekjeder</a></h3>
+      <p class="capability-product-link__description">Normeres i designfasen. Kapabiliteten er evnen til å sette sammen, koordinere og automatisere informasjonsflyt og prosesser på tvers av uavhengige tjenester. Kartet foreskriver hvordan en slik kjede skal beskrives før den kan koordineres: hvilken hendelse som utløser tjenester hos hvilke aktører, hvilke data som opprettes eller endres i hvilke kilder, og hvor flyten brytes på juridisk, organisatorisk, semantisk eller teknisk nivå. Det er samme inndeling som definisjonen bruker for hva kapabiliteten innebærer. Kartet normerer ikke selve integrasjonen eller automatiseringen, som hører hjemme i operative løsninger og i `Arkitektur for hendelser`.</p>
     </article>
   </div>
 ---
