@@ -20,6 +20,19 @@ fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
 
 ### Ressursarbeid
 
+- Dialogporten `v6` står uendret etter kildeundersøkelsen 2026-10-02, og bør ikke tas opp igjen uten
+  nytt kildegrunnlag. De tre andre ressursene i samme undersøkelse er revidert og er ute av lista.
+  Det som ble undersøkt og hva kildene ga:
+  - `toveis dialog` er ikke en mangel i beskrivelsen. Altinns egen dokumentasjon sier at Dialogporten
+    er skrivebeskyttet for sluttbrukere, og at tjenesteplattformen skriver på vegne av tjenesteeier.
+    Gjeldende tekst i `v6` er altså riktig, og premisset i forslaget var feil. En transmission kan
+    ha partens representant som avsender, men det er tjenesteplattformen som utfører skrivingen.
+  - Volumkrav eller kapasitetsgrenser er ikke dokumentert i åpne kilder.
+  - Krav til tjenesteeier er dokumentert, men ikke langs skillet offentlig eller ikke. Kravet er at
+    tjenesteeier autentiserer seg som tjenesteeier og bruker en tjenesteressurs i ressursregisteret
+    der `hasCompetentAuthority` matcher organisasjonsnummeret. Dokumentasjonen omtaler tjenesteeier
+    som «vanligvis en offentlig aktør», altså beskrivende og ikke som et vilkår.
+
 - Følge opp funnene fra innholdsrevisjonen av `Standarder og veiledning`, som ble fullført for
   alle gjeldende filer 2026-09-25. Mønstersøket etter de fire faste manglene holdt gjennom hele
   kategorien, men kildene måtte leses på nytt i hver fil: flere hovedkilder var flyttet eller

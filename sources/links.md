@@ -529,6 +529,7 @@ Sist redigert: 2026-09-30.
 - Feide: https://www.feide.no/om-feide (lagt til 2026-08-28)
 - Feide: https://www.feide.no/priser-vertsorganisasjoner (lagt til 2026-08-28)
 - Feide: https://www.feide.no/sterk-autentisering (lagt til 2026-08-28)
+- Feide - ofte stilte spørsmål: https://www.feide.no/ofte-stilte-sporsmal-om-feide (lagt til 2026-10-02)
 - Opptaksløsninger: https://www.samordnaopptak.no/ (lagt til 2026-08-28)
 - Vitnemålsportalen: https://www.vitnemalsportalen.no (lagt til 2026-08-28)
 

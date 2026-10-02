@@ -70,7 +70,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 | 1 | `DIGDIR-001` | ID-porten | Gjenbrukbare løsninger | Innlogging og identitet | Sikring av informasjonsflyt og datautveksling<br>Autentisering<br>Identifisering<br>Representasjon<br>Integrerbare tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/01-ID-porten-produkt-canvas-v3-codex.md) |
 | 2 | `DIGDIR-002` | Maskinporten | Gjenbrukbare løsninger | Maskinell tilgang | Bruke data fra andre<br>Dele data med andre<br>Sikring av informasjonsflyt og datautveksling<br>Autentisering<br>Tilgangskontroll<br>Tilgangsstyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/02-Maskinporten-produkt-canvas-v5-claude.md) |
 | 3 | `DIGDIR-003` | eSignering | Gjenbrukbare løsninger | Signering | Sikring av informasjonsflyt og datautveksling<br>Autentisering<br>Signering | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/03-eSignering-produkt-canvas-v3-codex.md) |
-| 4 | `DIGDIR-004` | Altinn Autorisasjon | Gjenbrukbare løsninger | Autorisasjon og delegering | Representasjon<br>Samtykke<br>Tilgangskontroll<br>Tilgangsstyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/04-Altinn-autorisasjon-produkt-canvas-v5-claude.md) |
+| 4 | `DIGDIR-004` | Altinn Autorisasjon | Gjenbrukbare løsninger | Autorisasjon og delegering | Representasjon<br>Samtykke<br>Tilgangskontroll<br>Tilgangsstyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/04-Altinn-autorisasjon-produkt-canvas-v6-claude.md) |
 | 5 | `DIGDIR-005` | Kontakt- og reservasjonsregisteret | Gjenbrukbare løsninger | Kontaktopplysninger og reservasjon | Grunndata<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/05-Kontakt-og-reservasjonsregisteret-produkt-canvas-v3-codex.md) |
 | 6 | `DIGDIR-006` | eInnsyn | Gjenbrukbare løsninger | Innsyn og offentlighet | Organisatorisk samhandling<br>Sammenhengende tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/06-eInnsyn-produkt-canvas-v3-codex.md) |
 | 7 | `DIGDIR-007` | eFormidling | Gjenbrukbare løsninger | Meldingsflyt | Bruke data fra andre<br>Dele data med andre<br>Meldingsutveksling<br>Sikring av informasjonsflyt og datautveksling<br>Organisatorisk samhandling<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/07-eFormidling-produkt-canvas-v3-codex.md) |
@@ -172,7 +172,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 
 | Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
 |---:|---|---|---|---|---|---|
-| 47 | `SIKT-001` | Feide | Gjenbrukbare løsninger | Autentisering | Dele data med andre<br>Sikring av informasjonsflyt og datautveksling<br>Autentisering<br>Tilgangskontroll | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/47-Feide-produkt-canvas-v2-claude.md) |
+| 47 | `SIKT-001` | Feide | Gjenbrukbare løsninger | Autentisering | Dele data med andre<br>Sikring av informasjonsflyt og datautveksling<br>Autentisering<br>Tilgangskontroll | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/47-Feide-produkt-canvas-v3-claude.md) |
 | 48 | `SIKT-002` | Felles studentsystem (FS) | Gjenbrukbare løsninger | Studentdata | Bruke data fra andre<br>Dele data med andre<br>Datastyring<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/48-Felles-studentsystem-produkt-canvas-v1-codex.md) |
 | 49 | `SIKT-003` | Opptaksløsninger | Gjenbrukbare løsninger | Opptaksløsning | Bruke data fra andre<br>Organisatorisk samhandling<br>Sammenhengende tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/49-Opptakslosninger-produkt-canvas-v2-codex.md) |
 | 50 | `SIKT-004` | Nasjonal vitnemålsdatabase (NVB) | Gjenbrukbare løsninger | Vitnemål | Grunndata<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/50-Nasjonal-vitnemalsdatabase-produkt-canvas-v1-codex.md) |
@@ -267,7 +267,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 
 | Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
 |---:|---|---|---|---|---|---|
-| 37 | `SKATT-001` | Folkeregisteret | Gjenbrukbare løsninger | Persondata | Grunndata<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/37-Folkeregisteret-produkt-canvas-v1-codex.md) |
+| 37 | `SKATT-001` | Folkeregisteret | Gjenbrukbare løsninger | Persondata | Grunndata<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/37-Folkeregisteret-produkt-canvas-v2-claude.md) |
 | 38 | `SKATT-002` | Skatteetatens delingstjenester | Gjenbrukbare løsninger | API-basert deling | Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/38-Skatteetatens-delingstjenester-produkt-canvas-v1-codex.md) |
 | 167 | `SKATT-003` | Tenor testdatasøk | Gjenbrukbare løsninger | Syntetiske testdata | Testdata<br>Utviklings- og kjøretidsmiljø<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/167-Tenor-testdatasok-v1-claude.md) |
 
