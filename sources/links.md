@@ -130,6 +130,9 @@ Sist redigert: 2026-09-30.
 - Medfinansieringsordningen - tildeling juni 2026, 112,7 millioner kroner til fem tiltak: https://www.digdir.no/medfinansieringsordningen/1127-millioner-kroner-til-fem-digitaliseringstiltak-med-betydelige-samfunnsgevinster/8196 (lagt til 2026-09-30)
 - Tildelingsbrev 2026 til Digdir (PDF): https://www.regjeringen.no/contentassets/9c922694cba941a5884132809284fe07/2026-tildelingsbrev-digitaliseringsdirektoratet.pdf (lagt til 2026-09-28)
 - DFØ-notat 2025:2 - tilskudds- og finansieringsordninger: https://www.dfo.no/3-tilskudds-og-finansieringsordninger (lagt til 2026-09-28)
+- Utredning av statlige tiltak hos DFØ: https://dfo.no/fagomrader/utredning (lagt til 2026-10-07)
+- Veileder til utredningsinstruksen (DFØ): https://dfo.no/fagomrader/utredning-og-analyse-av-statlige-tiltak/veileder-til-utredningsinstruksen (lagt til 2026-10-07)
+- Veileder i samfunnsøkonomiske analyser (DFØ): https://dfo.no/fagomrader/utredning-og-analyse-av-statlige-tiltak/samfunnsokonomiske-analyser/veileder-i-samfunnsokonomiske-analyser (lagt til 2026-10-07)
 - Faglig arena for informasjonsforvaltning og deling av data: https://www.digdir.no/informasjonsforvaltning/faglig-arena-informasjonsforvaltning-og-deling-av-data/3543 (lagt til 2026-04-10)
 - NIFS - eksempel på møteside med nettverksbeskrivelse: https://www.digdir.no/informasjonssikkerhet/nifs-mote-informasjonssikkerheit-gjennom-10-ar/4984 (lagt til 2026-04-10)
 - NIFS - nettverk for informasjonssikkerhet: https://www.digdir.no/informasjonssikkerhet/nettverk-informasjonssikkerhet-nifs/2186 (lagt til 2026-06-07)
@@ -758,6 +761,8 @@ Sist redigert: 2026-09-30.
 ### Juridisk og rettslig infrastruktur
 - Forvaltningsloven (LOV-1967-02-10), oppheves av lov 20. juni 2025 nr. 81: https://lovdata.no/dokument/NL/lov/1967-02-10 (lagt til 2026-08-28)
 - eForvaltningsforskriften (FOR-2004-06-25-988): https://lovdata.no/dokument/SF/forskrift/2004-06-25-988 (lagt til 2026-08-28)
+- Utredningsinstruksen (FOR-2016-02-19-184): https://lovdata.no/dokument/INS/forskrift/2016-02-19-184 (lagt til 2026-10-07)
+- Utredningsinstruksen på regjeringen.no: https://www.regjeringen.no/no/dokumenter/instruks-om-utredning-av-statlige-tiltak-utredningsinstruksen/id2476518/ (lagt til 2026-10-07)
 - Endringsforskrift til eForvaltningsforskriften (FOR-2022-12-20-2304): https://lovdata.no/dokument/LTI/forskrift/2022-12-20-2304 (lagt til 2026-09-28)
 - Endringsforskrift til eForvaltningsforskriften, digital kommunikasjon som hovedregel (FOR-2014-02-07-102): https://lovdata.no/dokument/LTI/forskrift/2014-02-07-102 (lagt til 2026-09-28)
 - Lov om elektroniske tillitstjenester (LOV-2018-06-15-44): https://lovdata.no/dokument/NL/lov/2018-06-15-44 (lagt til 2026-09-28)

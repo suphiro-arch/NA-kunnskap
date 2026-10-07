@@ -29,22 +29,20 @@ Klare til å skrives, kildesjekket 2026-10-07:
    `Standarder og veiledning`).
 3. `Norge digitalt` (Kartverket, `Samhandlingsarenaer og organisering`). Kontroller
    paragrafhenvisningene i geodataloven mot Lovdata.
-4. `Utredningsinstruksen` (Finansdepartementet og DFØ, `Økonomiske og juridiske rammer og
-   virkemidler`).
 
 Kildesjekket, men med åpne punkter:
 
-5. `Noark 5` versjon 6.0 (ny eierkode for Nasjonalarkivet, `Standarder og veiledning`). Les kravene
+4. `Noark 5` versjon 6.0 (ny eierkode for Nasjonalarkivet, `Standarder og veiledning`). Les kravene
    i ny arkivforskrift fra 1.1.2026 i primærkilde.
-6. `Digitalsikkerhetsloven` (JD og NSM). Finn forskriften i Lovdata og offisiell status for NIS2 i
+5. `Digitalsikkerhetsloven` (JD og NSM). Finn forskriften i Lovdata og offisiell status for NIS2 i
    EØS.
-7. `Statens standardavtaler` (DFØ, `Standarder og veiledning`). Avklar om bruken er pålagt staten.
-8. `Vergemål og fremtidsfullmakter` (Sivilrettsforvaltningen, `Gjenbrukbare løsninger`). Finn
+6. `Statens standardavtaler` (DFØ, eierkode `DFO`, `Standarder og veiledning`). Avklar om bruken er pålagt staten.
+7. `Vergemål og fremtidsfullmakter` (Sivilrettsforvaltningen, `Gjenbrukbare løsninger`). Finn
    primærkilde for registeret og rettsgrunnlaget, og avklar forholdet til vergefullmaktene i
    Folkeregisteret og digital fullmakt i `04` Altinn Autorisasjon.
-9. `Konsultasjonsordningen mellom staten og kommunesektoren` (KDD og KS). Finn ny adresse for
+8. `Konsultasjonsordningen mellom staten og kommunesektoren` (KDD og KS). Finn ny adresse for
    temasiden på regjeringen.no.
-10. `Ny forvaltningslov` (JD). Opprettes når ikrafttredelsen er fastsatt. Kontroller samtidig
+9. `Ny forvaltningslov` (JD). Opprettes når ikrafttredelsen er fastsatt. Kontroller samtidig
     hjemmelsgrunnlaget for `144` eForvaltningsforskriften.
 
 Ikke kildesjekket ennå:

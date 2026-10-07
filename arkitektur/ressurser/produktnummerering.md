@@ -48,6 +48,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | `BUFDIR` | Bufdir | Barne-, ungdoms- og familiedirektoratet | Nasjonale registre og fagressurser for barnevern, oppvekst og familie |
 | `LANE` | Lånekassen | Statens lånekasse for utdanning | Utdanningsstøtteordninger og tilhørende ressurser forvaltet av Lånekassen |
 | `HKDIR` | HK-dir | Direktoratet for høyere utdanning og kompetanse | Nasjonale informasjons- og datatjenester for utdanning, yrke og karriereveiledning |
+| `DFO` | DFØ | Direktoratet for forvaltning og økonomistyring | Styrings-, utrednings- og økonomiforvaltningsressurser for staten som forvaltes av DFØ |
 
 ### Slik lages en ny eierkode
 
@@ -366,6 +367,13 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 |---:|---|---|---|---|---|---|
 | 147 | `DTIL-001` | Regulatorisk sandkasse for kunstig intelligens | Standarder og veiledning | Veiledning om personvern i KI | Utvikling og formidling av veiledning<br>Regelverkstolkning | [Åpne](../../arkitektur/ressurser/normerende-ressurser/147-Regulatorisk-sandkasse-for-kunstig-intelligens-v2-claude.md) |
 
+
+
+## DFØ (`DFO`)
+
+| Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
+|---:|---|---|---|---|---|---|
+| 170 | `DFO-001` | Utredningsinstruksen | Økonomiske og juridiske rammer og virkemidler | Instruks om utredning av statlige tiltak | Regelverksutvikling<br>Samordning | [Åpne](../../arkitektur/ressurser/rammer-og-virkemidler/170-Utredningsinstruksen-v1-claude.md) |
 
 
 ## Ekstra verifiserte kilder brukt i denne utvidelsen

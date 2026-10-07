@@ -4,7 +4,7 @@ headerTitle: "Juridisk samhandling - Regelverksutvikling"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å foreslå og koordinere endringer i regelverket for å tilpasse det til teknologisk utvikling og nye behov. ### Begrunnelse (Hvorfor) I arbeidet med sammenhengende digitale tjenester viser det seg ofte at det ikke er teknologien, men gårsdagens lovverk som setter rammene for hva som er mulig å få til. For å kunne tilby sømløse tjenester på tvers av sektorer må det regulatoriske rammeverket utvikle seg i takt med teknologien og samfunnets behov. Denne kapabiliteten løser problemet med fragmentert lovgivning som utilsiktet blokkerer for datadeling og digital samhandling. ### Hva det innebærer (Omfang) - **Juridisk (Svært høy vekt):** Dette utgjør kjernen i kapabiliteten og innebærer å foreslå og koordinere endringer i regelverket for å tilpasse det til teknologisk utvikling og nye behov. Det inkluderer eine systematisk tilnærming til å identifisere motstridende regelverk der harmonisering er nødvendig, og fremme endringer for å tilpasse lovverket til en digital virkelighet. - **Organisatorisk (Høy vekt):** Etablere tverrgående prosesser og samarbeidsarenaer mellom departementer, etater og lovgivere for å koordinere lovarbeid. Dette sikrer at endringsforslag ikke utformes i isolerte siloer, men tar høyde for tverrsektorielle behov og felles nasjonale mål. - **Semantisk (Middels vekt):** Sikre at juridiske begreper, definisjoner og hjemler i nye lover utformes på en måte som er entydig og harmonisert på tvers av sektorer, slik at de understøtter felles begrepsforståelse og automatisert saksbehandling. - **Teknisk (Lav vekt):** Legge til rette for digitaliseringsvennlig regelverk, der lover og forskrifter utformes med tanke på at de senere skal kunne omsettes til maskinlesbar logikk, kode og automatiserte forretningsregler i økosystemet. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten rydder bort de juridiske hindringene og harmoniserer motstridende regelverk, slik at data lovlig kan flyte mellom uavhengige virksomheter i en tjenestekjede. Dette gjør det mulig å fjerne manuelle dokumentasjonskrav for innbyggere og næringsliv, og baner vei for helautomatiserte og proaktive brukeropplevelser."
-cardMeta: "1 produkter"
+cardMeta: "2 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -13,6 +13,11 @@ productsMarkdown: |
       <p class="capability-product-link__type">Normerende ressurs</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/115-Digitaliseringsvennlig-regelverk-v3-claude.md">Digitaliseringsvennlig regelverk</a></h3>
       <p class="capability-product-link__description">Anbefalingene er skrevet for dem som utformer nytt regelverk, og dekker både detaljnivå, teknologinøytralitet og hvordan bestemmelser bør struktureres.</p>
+    </article>
+    <article class="capability-product-link resource-type--policy">
+      <p class="capability-product-link__type">Rammer og virkemidler</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/170-Utredningsinstruksen-v1-claude.md">Utredningsinstruksen</a></h3>
+      <p class="capability-product-link__description">Instruksen er prosessrammen for hvordan forslag til lover og forskrifter blir til i staten. Kapittel 4 setter krav til utforming, Lovavdelingens lovtekniske gjennomgang og Regelrådets rolle, og kapittel 3 krever at regelverksforslag alltid forelegges berørte departementer og normalt sendes på høring.</p>
     </article>
   </div>
 ---

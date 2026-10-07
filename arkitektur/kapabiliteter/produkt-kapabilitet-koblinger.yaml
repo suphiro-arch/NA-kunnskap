@@ -6350,6 +6350,36 @@
                     "explanation": "KOSTRA-tallene publiseres åpent i Statistikkbanken, ordnet etter tjenesteområde og kommune, med fast publiseringsplan i mars og juni. Dataene er tilgjengelige for innbyggere, forskere, presse og næringsliv uten tilgangskontroll, og kan hentes maskinelt gjennom SSBs API for statistikktabeller."
                 }
             ]
+        },
+        {
+            "product_id": 170,
+            "product_name": "Utredningsinstruksen",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/rammer-og-virkemidler/170-Utredningsinstruksen-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/170-Utredningsinstruksen-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-299fc063873a4f278a1d3c0ac9480467",
+                    "capability_name": "Juridisk samhandling",
+                    "capability_slug": "juridisk-samhandling",
+                    "subcapability_id": "id-0119029984674da59dbbfdc3a8ca3e95",
+                    "subcapability_name": "Regelverksutvikling",
+                    "subcapability_slug": "regelverksutvikling",
+                    "mapping_label": "Juridisk samhandling: Regelverksutvikling",
+                    "explanation": "Instruksen er prosessrammen for hvordan forslag til lover og forskrifter blir til i staten. Kapittel 4 setter krav til utforming, Lovavdelingens lovtekniske gjennomgang og Regelrådets rolle, og kapittel 3 krever at regelverksforslag alltid forelegges berørte departementer og normalt sendes på høring."
+                },
+                {
+                    "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
+                    "capability_name": "Strategisk styring",
+                    "capability_slug": "strategisk-styring",
+                    "subcapability_id": "id-034543e002414306a8fbecc8c9d8e496",
+                    "subcapability_name": "Samordning",
+                    "subcapability_slug": "samordning",
+                    "mapping_label": "Strategisk styring: Samordning",
+                    "explanation": "Instruksen forplikter departementer og etater til å koordinere seg før beslutninger tas. Berørte departementer skal involveres så tidlig som mulig, og forslag med vesentlige virkninger skal forelegges dem med minst tre ukers frist før høring (§ 3-1 og § 3-2)."
+                }
+            ]
         }
     ]
 }

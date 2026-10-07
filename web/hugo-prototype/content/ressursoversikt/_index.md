@@ -28,7 +28,7 @@ hideSectionOverview: true
   <article class="resource-type-card">
     <h3><a href="ressurser/rammer-og-virkemidler/">Økonomiske og juridiske rammer og virkemidler</a></h3>
     <p>Finansielle og regulative virkemidler som muliggjør gjennomføring og setter handlingsrom.</p>
-    <p class="resource-type-card__count">9 ressurser</p>
+    <p class="resource-type-card__count">10 ressurser</p>
   </article>
 </div>
 
@@ -41,6 +41,7 @@ hideSectionOverview: true
       <label>Eier <select class="resource-filter" data-filter="owner"><option value="">Alle</option>
         <option value="BRREG">Br&#248;nn&#248;ysundregistrene</option>
         <option value="BUFDIR">BUFDIR</option>
+        <option value="DFO">DFO</option>
         <option value="DIGDIR">Digdir</option>
         <option value="DTIL">DTIL</option>
         <option value="EU">EU</option>
@@ -118,7 +119,7 @@ hideSectionOverview: true
         <option value="&#197;pne data">&#197;pne data</option>
       </select></label>
     </div>
-    <p class="resource-filters__result" data-role="count">Viser 161 av 161 ressurser</p>
+    <p class="resource-filters__result" data-role="count">Viser 162 av 162 ressurser</p>
   </div>
   <div class="resource-cards">
 <article class="resource-card" data-owner="DIGDIR" data-type="Gjenbrukbare l&#248;sninger" data-capabilities="sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester" data-emne="Innlogging og identitet" data-search="id-porten digdir-001 digdir digdir gjenbrukbare l&#248;sninger gjenbrukbare l&#248;sninger id-porten er den nasjonale fellesl&#248;sningen for sikker innlogging til offentlige digitale tjenester. l&#248;sningen gir innbyggere &#233;n gjenkjennelig inngang til tjenester p&#229; tvers av virksomheter, og gir tjenesteeiere en felles autentiseringskomponent i stedet for lokale innloggingsl&#248;sninger. id-porten er s&#230;rlig relevant n&#229;r... sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester innlogging og identitet">
@@ -1455,6 +1456,14 @@ hideSectionOverview: true
   <p class="resource-card__description">KOSTRA er det nasjonale systemet for rapportering av styringsinformasjon fra kommuner og fylkeskommuner til staten. Kommunesektoren rapporterer tjenestedata, ressursbruk og regnskap til Statistisk sentralbyr&#229; (SSB) hvert &#229;r. SSB kontrollerer dataene, sammenstiller dem med befolkningsdata og publiserer n&#248;kkeltall som...</p>
   <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/datadrevet/sammenstilling-av-data/">Sammenstilling av data</a> <a class="capability-chip" href="../kapabiliteter/datakilder/apne-data/">&#197;pne data</a></div>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/169-KOSTRA-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.ssb.no/offentlig-sektor/kostra">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="DFO" data-type="&#216;konomiske og juridiske rammer og virkemidler" data-capabilities="regelverksutvikling samordning" data-emne="Instruks om utredning av statlige tiltak" data-search="instruks om utredning av statlige tiltak (utredningsinstruksen) dfo-001 dfo dfo &#248;konomiske og juridiske rammer og virkemidler &#248;konomiske og juridiske rammer og virkemidler utredningsinstruksen fastsetter hvilke krav statlige forvaltningsorganer skal oppfylle n&#229;r de lager beslutningsgrunnlag for statlige tiltak. statlige tiltak omfatter blant annet reformer, regelendringer, investeringer og andre endringer som staten setter i gang. kjernen er seks sp&#248;rsm&#229;l som enhver utredning skal... regelverksutvikling samordning instruks om utredning av statlige tiltak">
+  <h2 class="resource-card__title">Instruks om utredning av statlige tiltak (utredningsinstruksen)</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>DFO-001</code> | <strong>Siste versjon:</strong> v1 (claude)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> DFO | <strong>Type:</strong> &#216;konomiske og juridiske rammer og virkemidler</p>
+  <p class="resource-card__description">Utredningsinstruksen fastsetter hvilke krav statlige forvaltningsorganer skal oppfylle n&#229;r de lager beslutningsgrunnlag for statlige tiltak. Statlige tiltak omfatter blant annet reformer, regelendringer, investeringer og andre endringer som staten setter i gang. Kjernen er seks sp&#248;rsm&#229;l som enhver utredning skal...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/juridisk-samhandling/regelverksutvikling/">Regelverksutvikling</a> <a class="capability-chip" href="../kapabiliteter/strategisk-styring/samordning/">Samordning</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/170-Utredningsinstruksen-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://lovdata.no/dokument/INS/forskrift/2016-02-19-184">Offisiell lenke</a></p>
 </article>
   </div>
   <script>
