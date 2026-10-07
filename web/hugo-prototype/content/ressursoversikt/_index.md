@@ -13,7 +13,7 @@ hideSectionOverview: true
   <article class="resource-type-card">
     <h3><a href="ressurser/operative-losninger-og-tjenester/">Gjenbrukbare løsninger</a></h3>
     <p>Tekniske komponenter, applikasjoner og tjenester som leverer funksjonalitet eller dataprodukter som kan brukes av flere.</p>
-    <p class="resource-type-card__count">104 ressurser</p>
+    <p class="resource-type-card__count">105 ressurser</p>
   </article>
   <article class="resource-type-card">
     <h3><a href="ressurser/normerende-ressurser/">Standarder og veiledning</a></h3>
@@ -118,7 +118,7 @@ hideSectionOverview: true
         <option value="&#197;pne data">&#197;pne data</option>
       </select></label>
     </div>
-    <p class="resource-filters__result" data-role="count">Viser 160 av 160 ressurser</p>
+    <p class="resource-filters__result" data-role="count">Viser 161 av 161 ressurser</p>
   </div>
   <div class="resource-cards">
 <article class="resource-card" data-owner="DIGDIR" data-type="Gjenbrukbare l&#248;sninger" data-capabilities="sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester" data-emne="Innlogging og identitet" data-search="id-porten digdir-001 digdir digdir gjenbrukbare l&#248;sninger gjenbrukbare l&#248;sninger id-porten er den nasjonale fellesl&#248;sningen for sikker innlogging til offentlige digitale tjenester. l&#248;sningen gir innbyggere &#233;n gjenkjennelig inngang til tjenester p&#229; tvers av virksomheter, og gir tjenesteeiere en felles autentiseringskomponent i stedet for lokale innloggingsl&#248;sninger. id-porten er s&#230;rlig relevant n&#229;r... sikring av informasjonsflyt og datautveksling autentisering identifisering representasjon integrerbare tjenester innlogging og identitet">
@@ -1447,6 +1447,14 @@ hideSectionOverview: true
   <p class="resource-card__purpose"><strong>Formaal/mandat:</strong> Fakta: NSM beskriver form&#229;let som &#229; styrke Norges digitale motstandskraft ved &#229; gi &#171;tydelige, like og korrekte r&#229;d om digital sikkerhet&#187;.</p>
   <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/veiledning/utvikling-og-formidling-av-veiledning/">Utvikling og formidling av veiledning</a> <a class="capability-chip" href="../kapabiliteter/samarbeid/organisatorisk-samhandling/">Organisatorisk samhandling</a></div>
   <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/168-sikkert-no-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.sikkert.no/">Offisiell lenke</a></p>
+</article>
+<article class="resource-card" data-owner="SSB" data-type="Gjenbrukbare l&#248;sninger" data-capabilities="sammenstilling av data &#229;pne data" data-emne="Rapportering og statistikk fra kommunesektoren til staten" data-search="kostra – kommune-stat-rapportering ssb-002 ssb ssb gjenbrukbare l&#248;sninger gjenbrukbare l&#248;sninger kostra er det nasjonale systemet for rapportering av styringsinformasjon fra kommuner og fylkeskommuner til staten. kommunesektoren rapporterer tjenestedata, ressursbruk og regnskap til statistisk sentralbyr&#229; (ssb) hvert &#229;r. ssb kontrollerer dataene, sammenstiller dem med befolkningsdata og publiserer n&#248;kkeltall som... sammenstilling av data &#229;pne data rapportering og statistikk fra kommunesektoren til staten">
+  <h2 class="resource-card__title">KOSTRA – Kommune-Stat-Rapportering</h2>
+  <p class="resource-card__meta"><strong>Ressurs-ID:</strong> <code>SSB-002</code> | <strong>Siste versjon:</strong> v1 (claude)</p>
+  <p class="resource-card__facts"><strong>Eier:</strong> SSB | <strong>Type:</strong> Gjenbrukbare l&#248;sninger</p>
+  <p class="resource-card__description">KOSTRA er det nasjonale systemet for rapportering av styringsinformasjon fra kommuner og fylkeskommuner til staten. Kommunesektoren rapporterer tjenestedata, ressursbruk og regnskap til Statistisk sentralbyr&#229; (SSB) hvert &#229;r. SSB kontrollerer dataene, sammenstiller dem med befolkningsdata og publiserer n&#248;kkeltall som...</p>
+  <div class="resource-card__capabilities"><strong>Kapabiliteter:</strong> <a class="capability-chip" href="../kapabiliteter/datadrevet/sammenstilling-av-data/">Sammenstilling av data</a> <a class="capability-chip" href="../kapabiliteter/datakilder/apne-data/">&#197;pne data</a></div>
+  <p class="resource-card__actions"><a class="resource-card__button resource-card__button--primary" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/169-KOSTRA-v1-claude.md">Full beskrivelse (md-fil)</a> <a class="resource-card__button resource-card__button--ghost" href="https://www.ssb.no/offentlig-sektor/kostra">Offisiell lenke</a></p>
 </article>
   </div>
   <script>

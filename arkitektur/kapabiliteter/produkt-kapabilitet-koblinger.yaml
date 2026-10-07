@@ -6320,6 +6320,36 @@
                     "explanation": "gjør prosessen med å få hjelp eller melde fra om en hendelse enklere på tvers av etatsgrensene. Portalen tydeliggjør hvilken myndighet som håndterer hva, slik at brukeren slipper å kjenne ansvarsdelingen mellom NSM, Politiet, Datatilsynet og Digdir på forhånd."
                 }
             ]
+        },
+        {
+            "product_id": 169,
+            "product_name": "KOSTRA",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/169-KOSTRA-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/169-KOSTRA-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-98df6c2b4df340c7a3a3ad32d99ca37e",
+                    "capability_name": "Datadrevet",
+                    "capability_slug": "datadrevet",
+                    "subcapability_id": "id-7e3d1d3396914d65a177c9d5346d6feb",
+                    "subcapability_name": "Sammenstilling av data",
+                    "subcapability_slug": "sammenstilling-av-data",
+                    "mapping_label": "Datadrevet: Sammenstilling av data",
+                    "explanation": "KOSTRA henter tjeneste-, ressurs- og regnskapsdata fra alle kommuner og fylkeskommuner, kombinerer dem med befolkningsdata og foredler dem til nøkkeltall. Forskriftens felles kontoplan med arter og funksjoner gjør at regnskap fra ulike kommuner kan tolkes samlet, og resultatet er et helhetlig beslutningsgrunnlag for kommunene og departementene."
+                },
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-db4f30a87ae84561a4058d4d264177b1",
+                    "subcapability_name": "Åpne data",
+                    "subcapability_slug": "apne-data",
+                    "mapping_label": "Datakilder: Åpne data",
+                    "explanation": "KOSTRA-tallene publiseres åpent i Statistikkbanken, ordnet etter tjenesteområde og kommune, med fast publiseringsplan i mars og juni. Dataene er tilgjengelige for innbyggere, forskere, presse og næringsliv uten tilgangskontroll, og kan hentes maskinelt gjennom SSBs API for statistikktabeller."
+                }
+            ]
         }
     ]
 }

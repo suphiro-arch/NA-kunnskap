@@ -543,6 +543,17 @@ Sist redigert: 2026-09-30.
 - SSB tabell 10609 – Nettskytjenester i statlige virksomheter: https://www.ssb.no/statbank/table/10609 (lagt til 2026-05-05)
 - SSB tabell 12031 – Ivaretakelse av IKT-funksjoner i offentlig sektor: https://www.ssb.no/statbank/table/12031 (lagt til 2026-05-05)
 - SSB API for statistikktabeller: https://data.ssb.no/api/v0/no/table/ (lagt til 2026-05-05)
+- KOSTRA hos SSB: https://www.ssb.no/offentlig-sektor/kostra (lagt til 2026-10-07)
+- Om KOSTRA: https://www.ssb.no/offentlig-sektor/kostra/statistikk/kostra-kommune-stat-rapportering/om-kostra (lagt til 2026-10-07)
+- KOSTRA-innrapportering: https://www.ssb.no/innrapportering/kostra-innrapportering (lagt til 2026-10-07)
+- Organisering av arbeidet i KOSTRA: https://www.ssb.no/kostra/om-kostra/organisering-av-arbeidet-i-kostra (lagt til 2026-10-07)
+- Samordningsrådet for KOSTRA: https://www.ssb.no/kostra/om-kostra/samordningsradet-for-kostra (lagt til 2026-10-07)
+- Statistikkbanken, KOSTRA: https://www.ssb.no/statbank?subject=kostrahoved (lagt til 2026-10-07)
+- KOSTRA-forskriften: https://lovdata.no/dokument/SF/forskrift/2019-10-18-1412 (lagt til 2026-10-07)
+- Veileder til KOSTRA-forskriften: https://www.regjeringen.no/no/dokumenter/veileder-til-kostra-forskriften/id2703425/ (lagt til 2026-10-07)
+- KOSTRA hos KDD: https://www.regjeringen.no/no/tema/kommuner-og-regioner/kommuneokonomi/kostra/id1233/ (lagt til 2026-10-07)
+- Kommunalt rapporteringsregister (Brønnøysundregistrene): https://www.brreg.no/offentlig-sektor/rapporteringsplikt/kommunalt-rapporteringsregister/ (lagt til 2026-10-07)
+- KOSTRA kontrollprogram - kildekode: https://github.com/statisticsnorway/kostra-kontrollprogram (lagt til 2026-10-07)
 
 ### eID tilbydere
 - BankID: https://bankid.no/

@@ -298,6 +298,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 | Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
 |---:|---|---|---|---|---|---|
 | 63 | `SSB-001` | microdata.no | Gjenbrukbare løsninger | Analyseplattform | Sammenstilling av data<br>Bruke data fra andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/63-microdata-no-produkt-canvas-v1-codex.md) |
+| 169 | `SSB-002` | KOSTRA | Gjenbrukbare løsninger | Rapportering og statistikk fra kommunesektoren til staten | Sammenstilling av data<br>Åpne data | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/169-KOSTRA-v1-claude.md) |
 
 
 
