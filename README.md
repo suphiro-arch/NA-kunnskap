@@ -169,3 +169,13 @@ Krav:
 - Merk ekstern informasjon eksplisitt som ekstern.
 - Ikke konkluder på min beslutning. Vis hva som må avklares før den kan tas.
 ```
+
+## Lisens
+
+Innholdet og koden i repoet er lisensiert under [MIT-lisensen](LICENSE), med Digdir som
+rettighetshaver. Det er samme lisens som Digdir bruker i [ASR-repoet](https://github.com/digdir/ASR).
+Alle kan bruke, endre og dele materialet videre, også kommersielt, så lenge lisensteksten og
+opphavsmerknaden følger med.
+
+Lisensen gjelder materialet som er laget i dette repoet. Sitater, utdrag og filer fra andre kilder
+beholder vilkårene til den som har publisert dem, og kilden skal stå oppgitt der materialet er brukt.
