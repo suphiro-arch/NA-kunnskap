@@ -1286,7 +1286,8 @@ a:hover {
   margin-bottom: 1.15rem;
 }
 
-.section-kapabiliteter .content-card__body .prose > p:first-child {
+.section-kapabiliteter .content-card__body .prose > p:first-child,
+.section-ressursoversikt .content-card__body .prose > p:first-child {
   max-width: none;
 }
 
