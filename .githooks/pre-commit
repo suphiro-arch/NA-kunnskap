@@ -11,6 +11,16 @@ else
   exit 1
 fi
 
-python tools/check-resource-version-sync.py
-python tools/check-resource-structure.py --new-only --strict
-python tools/check-inline-js.py --strict
+# Windows-aliaset for python kan peke til Store-snarveien; bruk py-launcheren da.
+if python --version >/dev/null 2>&1; then
+  PY="python"
+elif py -3 --version >/dev/null 2>&1; then
+  PY="py -3"
+else
+  echo "ERROR: Neither python nor py was found. Cannot run checks." >&2
+  exit 1
+fi
+
+$PY tools/check-resource-version-sync.py
+$PY tools/check-resource-structure.py --new-only --strict
+$PY tools/check-inline-js.py --strict
