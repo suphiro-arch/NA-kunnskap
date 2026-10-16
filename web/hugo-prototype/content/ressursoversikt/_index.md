@@ -7,6 +7,8 @@ hideToc: true
 hideSectionOverview: true
 ---
 
+Ressursoversikten er en prototype. Vi tester ut hvilke typer ressurser det er relevant å registrere, og utvalget er ikke en komplett eller offisiell katalog.
+
 ## Utforsk per type
 
 <div class="resource-type-grid">

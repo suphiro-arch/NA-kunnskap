@@ -8,6 +8,8 @@ Denne dokumentasjonen samler kapabiliteter, prinsipper og ressurser for digital 
 
 Selve rammeverket er beskrevet i [Nasjonal arkitektur for et felles digitalt økosystem](https://digdir.github.io/nasjonal-arkitektur/).
 
+**Dette er en prototype.** Nettstedet er en testflate, ikke en offisiell eller komplett oversikt. Vi bruker den til å prøve ut hvilke typer ressurser det er relevant å registrere, og hvordan de bør beskrives og kobles til kapabilitetene. Utvalget og beskrivelsene endrer seg underveis.
+
 ## Hva finner du her?
 
 Siden er bygget opp rundt tre spørsmål:

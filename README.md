@@ -6,6 +6,11 @@ analyser, publisert som en lettlest dokumentasjonsprototype.
 - Nettsted: <https://suphiro-arch.github.io/NA-kunnskap/>
 - Repo: <https://github.com/suphiro-arch/NA-kunnskap>
 
+**NA-kunnskap er en prototype.** Vi bruker den til å teste ut hvilke typer ressurser det er
+relevant å registrere i en oversikt for nasjonal arkitektur, og hvordan de bør beskrives og kobles
+til kapabilitetene. Utvalget er ikke komplett, og kategorier og regler endres etter hvert som vi
+lærer.
+
 Innholdet er arbeidsmateriale bygget på åpne kilder, ikke vedtatt styringsdokumentasjon. Det egner
 seg til tidlig problemavklaring og til å finne mulig gjenbruk før nye tiltak settes i gang. Det er
 ikke tilstrekkelig alene som grunnlag for juridiske vurderinger, anskaffelser eller styringsvedtak.

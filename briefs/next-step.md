@@ -16,11 +16,15 @@ Fila er et planleggingsverktøy. Den viser hva som er åpent nå, ikke hva som h
 Punkter som er ferdige, fjernes herfra i stedet for å bli stående som logg. Punkter som ikke er
 fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
 
+## Avklares: skal lover tas inn som ressurs i «Økonomiske og juridiske rammer og virkemidler»?
+
+Satt på vent 2026-10-17. Forslaget til avgrensningsregel og spørsmålene som må avklares, står i
+[decisions.md](./decisions.md). Ingen lover tas inn før regelen er besluttet der.
+
 ## Nye ressurser i prioritert rekkefølge
 
-Før lovene tas inn, skal det besluttes en avgrensningsregel i [decisions.md](./decisions.md): bare
-regelverk som direkte regulerer digital samhandling eller deling av opplysninger. Nye kilder legges
-i `sources/links.md` når ressursen skrives.
+Lovene på lista under venter på avgrensningsregelen over. Nye kilder legges i `sources/links.md`
+når ressursen skrives.
 
 Klare til å skrives, kildesjekket 2026-10-07:
 
