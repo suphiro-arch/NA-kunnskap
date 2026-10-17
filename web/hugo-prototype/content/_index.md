@@ -4,54 +4,17 @@ weight: 1
 description: "Inngang til dokumentasjonen for nasjonal arkitektur, prinsipper, kapabiliteter og nasjonale fellesressurser."
 ---
 
-Denne dokumentasjonen samler kapabiliteter, prinsipper og ressurser for digital samhandling i offentlig sektor. Den viser hvordan kunnskapsgrunnlaget er bygd opp, og hvordan det kan brukes videre i analyser og utvikling.
-
-Selve rammeverket er beskrevet i [Nasjonal arkitektur for et felles digitalt økosystem](https://digdir.github.io/nasjonal-arkitektur/).
-
-**Dette er en prototype.** Nettstedet er en testflate, ikke en offisiell eller komplett oversikt. Vi bruker den til å prøve ut hvilke typer ressurser det er relevant å registrere, og hvordan de bør beskrives og kobles til kapabilitetene. Utvalget og beskrivelsene endrer seg underveis.
-
-## Hva finner du her?
-
-Siden er bygget opp rundt tre spørsmål:
-
-- Hvilke evner må økosystemet ha for å lykkes?
-- Hvilke føringer bør styre valg av løsninger og prioriteringer?
-- Hvilke felles ressurser og produkter kan brukes i praksis?
-
-Svarene ligger i hver sin hovedseksjon:
-
-- [Kapabiliteter](kapabiliteter/) beskriver hvilke evner som må finnes i økosystemet.
-- [Prinsipper](prinsipper/) forklarer hvilke arkitekturfaglige føringer som bør styre utviklingen.
-- [Ressursoversikt](ressursoversikt/) samler konkrete produkter og fellesløsninger.
-
-Nettsiden er ikke et mål i seg selv, men en visning av kunnskapsgrunnlaget som brukes i analyser for videreutvikling av økosystemet.
+Nettsiden viser kunnskapsgrunnlaget fra kapabilitetskartet, arkitekturprinsippene og en oversikt over felles ressurser. Oversikten omfatter forskrifter, standarder og veiledere, fellesløsninger og samarbeidsfora. Hver ressurs er koblet til kapabilitetene den støtter.
 
 ## Hvem er den for?
 
-Siden er særlig relevant for:
-
 - arkitekter som trenger en felles referanse for samhandling på tvers
-- produktledere og forvaltere som må plassere egne løsninger i en større sammenheng
-- utviklingsteam som trenger oversikt over tilgjengelige fellesressurser
-- beslutningstakere som vil forstå koblingen mellom mål, prinsipper og virkemidler
+- produktledere og forvaltere som vil plassere egne løsninger i en større sammenheng
+- utviklingsteam som leter etter fellesressurser de kan bruke
+- beslutningstakere som vil se koblingen mellom mål, prinsipper og virkemidler
 
-## Hvordan ressursoversikten bygges
+## Hvordan innholdet er laget
 
-Ressursoversikten og ressursbeskrivelsene er bygget fra kildedata i repoet, lenkesjekkede kilder og KI-assistert utforming. Alt arbeidsgrunnlaget er åpent: registeret, ressursbeskrivelsene, kapabilitetskoblingene og genereringsskriptene ligger i [NA-kunnskap på GitHub](https://github.com/suphiro-arch/NA-kunnskap), der du også finner [produktnummerering.md](https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/produktnummerering.md). Innholdet i GitHub-repositoriet kan også brukes som grunnlag for KI-analyse.
+Ressursbeskrivelsene bygger på åpne kilder. KI er brukt til førsteutkast og struktur, og innholdet er deretter justert manuelt. Hovedkapabilitetene er hentet fra rammeverket. Delkapabilitetene og koblingene mellom ressurser og kapabiliteter er laget med KI-støtte og bør kvalitetssikres faglig.
 
-Prosess i korte trekk:
-
-1. Ressurser registreres med ressurs-ID, type og dokumentlenke i registeret.
-2. Relevante eksterne lenker brukes som kildegrunnlag ved utfylling av korte beskrivelser.
-3. KI brukes til førsteutkast og strukturering, deretter justeres innholdet manuelt.
-4. Kapabilitetskoblinger er hentet fra rammeverket. Delkapabiliteter og konkrete koblinger mellom ressurser og kapabiliteter er utarbeidet med KI-støtte og bør kvalitetssikres faglig.
-5. Genereringsscript bygger oversiktssider med filtrering, kapabilitetsvisning og lenker til detaljerte md-filer.
-
-Verktøy som brukes i dag:
-
-- PowerShell-script for generering av ressurssider.
-- Python-script for sammenstilling av kapabilitetssider og koblinger.
-- Kontrollskript som stopper publisering ved tegnkodingsfeil, versjonsavvik mellom register og kapabilitetsmapping, ressursbeskrivelser som mangler seksjoner malen krever, syntaksfeil i innebygd JavaScript, og kildelenker som ikke er registrert.
-- Hugo for bygging og visning av nettstedet.
-
-Vil du se hvordan dette henger sammen, ligger både kildefilene og skriptene åpent i [repoet](https://github.com/suphiro-arch/NA-kunnskap). Innholdet i GitHub-repositoriet kan også brukes som grunnlag for KI-analyse.
+Registeret, ressursbeskrivelsene, koblingene og skriptene ligger åpent i [NA-kunnskap på GitHub](https://github.com/suphiro-arch/NA-kunnskap). Innholdet kan brukes videre, også som grunnlag for egne analyser med KI.
