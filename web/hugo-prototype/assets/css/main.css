@@ -1294,7 +1294,9 @@ a:hover {
 }
 
 .section-kapabiliteter .content-card__body .prose > p:first-child,
-.section-ressursoversikt .content-card__body .prose > p:first-child {
+.section-ressursoversikt .content-card__body .prose > p:first-child,
+.page-home .content-card__body .prose > p,
+.page-home .content-card__body .prose > ul {
   max-width: none;
 }
 
