@@ -77,7 +77,7 @@ a:hover {
 }
 
 .site-header {
-  background: #ffffff;
+  background: var(--digdir-blue-soft);
   color: var(--ink-strong);
   border-bottom: 1px solid var(--line-subtle);
 }
@@ -139,12 +139,12 @@ a:hover {
 }
 
 .site-header__nav a:hover {
-  background: var(--surface-soft);
+  background: var(--brand-soft);
   color: var(--ink-strong);
 }
 
 .site-header__nav a.is-current {
-  background: var(--brand-soft);
+  background: var(--digdir-blue-fill);
   color: var(--brand-deep);
   font-weight: 700;
 }
