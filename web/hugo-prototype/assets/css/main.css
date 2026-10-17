@@ -11,7 +11,7 @@
   --digdir-blue-soft: #e8f4fe;
 
   --surface-page: #ffffff;
-  --surface-card: #ffffff;
+  --surface-card: #f4faff;
   --surface-soft: var(--digdir-blue-soft);
   --surface-strong: var(--digdir-blue-fill);
   --ink-strong: var(--digdir-navy);
@@ -1113,13 +1113,13 @@ a:hover {
   position: relative;
   overflow: hidden;
   padding: 1.15rem 1.15rem 1.1rem;
-  background: var(--surface-card);
+  background: var(--surface-soft);
   border-color: var(--line-strong);
   transition: background-color 140ms ease;
 }
 
 .section-card--capability:hover {
-  background: var(--surface-soft);
+  background: var(--brand-soft);
 }
 
 .section-card--capability h3 {
