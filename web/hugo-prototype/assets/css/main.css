@@ -514,8 +514,9 @@ a:hover {
 .principles-intro,
 .principles-note {
   padding: 1rem 1.05rem;
+  border: 1px solid var(--line-subtle);
   border-radius: var(--radius-md);
-  background: var(--digdir-coral-fill);
+  background: var(--surface-soft);
 }
 
 .principles-intro__lead {
@@ -575,9 +576,17 @@ a:hover {
 
 .principle-panel__capabilities {
   padding: 0.9rem 1rem;
-  border: 1px solid var(--line-subtle);
-  border-radius: 12px;
-  background: var(--surface-soft);
+  border-radius: var(--radius-md);
+  background: var(--digdir-coral-fill);
+}
+
+.principle-panel__capabilities .capability-chip {
+  background: #ffffff;
+  border-color: #f6c7c8;
+}
+
+.principle-panel__capabilities .capability-chip:hover {
+  background: #fff3f3;
 }
 
 .principle-panel__label {
