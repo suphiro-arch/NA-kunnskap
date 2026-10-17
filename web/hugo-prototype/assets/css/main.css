@@ -9,6 +9,7 @@
   --digdir-yellow-fill-hover: #f3d797;
   --digdir-blue-fill: #b9dffc;
   --digdir-blue-soft: #e8f4fe;
+  --digdir-coral-fill: #fddfe0;
 
   --surface-page: #ffffff;
   --surface-card: #f4faff;
@@ -513,9 +514,8 @@ a:hover {
 .principles-intro,
 .principles-note {
   padding: 1rem 1.05rem;
-  border: 1px solid var(--line-subtle);
   border-radius: var(--radius-md);
-  background: var(--surface-soft);
+  background: var(--digdir-coral-fill);
 }
 
 .principles-intro__lead {
