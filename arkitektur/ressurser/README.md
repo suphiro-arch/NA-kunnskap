@@ -4,7 +4,7 @@ Denne mappa samler styringsgrunnlag, registerføring og ressursbeskrivelser for 
 
 ## Formål
 - Gi én felles inngang til ressurser etter rammeverkskategoriene.
-- Skille tydelig mellom gjenbrukbare løsninger, standarder og veiledning, samhandlingsarenaer og organisering, og økonomiske eller juridiske rammer og virkemidler.
+- Skille tydelig mellom gjenbrukbare løsninger, standarder og veiledning, samhandlingsarenaer og organisering, og økonomiske og juridiske rammer og virkemidler.
 - Gjøre det lett å registrere og finne ressurser på nettsiden.
 
 ## Hvor kategoriene kommer fra

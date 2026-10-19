@@ -19,7 +19,7 @@ Denne mappa samler det strukturerte arkitekturgrunnlaget i repoet.
 - `principles.md` brukes videre som kuratert kilde for prinsippnavn og prinsipp-kapabilitetskoblinger i analyser, produktbeskrivelser og prinsippsiden i weben.
 - `maal/maal.md` brukes videre som kuratert referanse når analyser eller dokumentasjon trenger kobling mellom nasjonal arkitektur og strategiske mål.
 - Webens prinsippside synkes fra `prinsipper/principles.md`, slik at repoet har én styrende fil for prinsippinnholdet.
-- `ressurser/styringsregler.md` brukes som styrende kilde for klassifisering av gjenbrukbare løsninger, standarder og veiledning, samhandlingsarenaer og organisering, og økonomiske eller juridiske rammer og virkemidler.
+- `ressurser/styringsregler.md` brukes som styrende kilde for klassifisering av gjenbrukbare løsninger, standarder og veiledning, samhandlingsarenaer og organisering, og økonomiske og juridiske rammer og virkemidler.
 
 ## Avgrensning mellom filer
 - `capabilities.yaml` skal beskrive kapabilitetsstrukturen, ikke være en samlefil for mål- og prinsipptekst.
@@ -38,4 +38,4 @@ Mappa brukes som faglig kildeområde. Produktbeskrivelser ligger i `arkitektur/r
 
 Produktbeskrivelser ligger nå i `arkitektur/ressurser/operative-losninger-og-tjenester/`, mens `arkitektur/ressurser/produktnummerering.md` er den operative masterfila for produktregister, ressurs-ID-er og statusoversikt.
 
-Innenfor `ressurser/` er `styringsregler.md` den styrende fila for hva som skal regnes som gjenbrukbare løsninger, standarder og veiledning, samhandlingsarenaer og organisering, og økonomiske eller juridiske rammer og virkemidler.
+Innenfor `ressurser/` er `styringsregler.md` den styrende fila for hva som skal regnes som gjenbrukbare løsninger, standarder og veiledning, samhandlingsarenaer og organisering, og økonomiske og juridiske rammer og virkemidler.

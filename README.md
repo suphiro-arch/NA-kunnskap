@@ -36,7 +36,7 @@ ressurser som allerede dekker den.
 - **Ressursbeskrivelsen, ikke bare registerlinja.** Registeret sier at en ressurs finnes;
   beskrivelsen sier hva den dekker, hvem som eier den og hvor moden den er.
 - **Alle ressurstypene, ikke bare tekniske løsninger.** En løsning er bare én av fire kategorier
-  her. Standarder og veiledning, samhandlingsarenaer og organisering, og økonomiske eller juridiske
+  her. Standarder og veiledning, samhandlingsarenaer og organisering, og økonomiske og juridiske
   rammer og virkemidler kan også dekke behovet, helt eller delvis. Ofte er svaret en standard som
   allerede finnes eller en arena som allerede har mandatet, ikke noe som skal bygges.
 - **Hva verktøyet ikke fant.** Registeret er ikke komplett. At en ressurs mangler her, betyr ikke at
@@ -70,7 +70,7 @@ Svarformat:
 3. Restbehov etter gjenbruk, uttrykt som kapabiliteter som må styrkes eller etableres
 4. Prinsipper som er relevante for retningen, og hva de krever av løsningen
 5. Relevante ressurser i de øvrige kategoriene: standarder og veiledning, samhandlingsarenaer og
-   organisering, og økonomiske eller juridiske rammer og virkemidler
+   organisering, og økonomiske og juridiske rammer og virkemidler
 6. Gap og avklaringer før beslutning, inkludert hva du ikke fant grunnlag for i repoet
 7. Konkrete neste steg med lav terskel og lav kost
 
@@ -90,7 +90,7 @@ Krav:
 
 | Mappe | Innhold |
 | --- | --- |
-| `arkitektur/ressurser/` | registeret, styringsreglene og ressursbeskrivelsene, fordelt på `operative-losninger-og-tjenester/` (gjenbrukbare løsninger), `normerende-ressurser/` (standarder og veiledning), `samarbeidsfora/` (samhandlingsarenaer og organisering) og `rammer-og-virkemidler/` (økonomiske eller juridiske rammer og virkemidler) |
+| `arkitektur/ressurser/` | registeret, styringsreglene og ressursbeskrivelsene, fordelt på `operative-losninger-og-tjenester/` (gjenbrukbare løsninger), `normerende-ressurser/` (standarder og veiledning), `samarbeidsfora/` (samhandlingsarenaer og organisering) og `rammer-og-virkemidler/` (økonomiske og juridiske rammer og virkemidler) |
 | `arkitektur/kapabiliteter/` | kapabilitetsstrukturen og koblingen mellom ressurser og kapabiliteter |
 | `arkitektur/prinsipper/` | arkitekturprinsipper og hvordan de henger på hovedkapabilitetene |
 | `arkitektur/maal/` | kuratert målspor for arkitekturmodellen |

@@ -4,7 +4,7 @@ Denne fila definerer hvordan ressursområdet skal struktureres og klassifiseres 
 
 ## Formål
 - gi tydelige kriterier for hva som skal inn i ressursområdet
-- skille mellom gjenbrukbare løsninger, standarder og veiledning, samhandlingsarenaer og organisering, og økonomiske eller juridiske rammer og virkemidler
+- skille mellom gjenbrukbare løsninger, standarder og veiledning, samhandlingsarenaer og organisering, og økonomiske og juridiske rammer og virkemidler
 - gjøre klassifisering mer forutsigbar når nye ressurser legges inn i analyser, register eller webstruktur
 
 ## Kilde for kategoriene
@@ -192,7 +192,7 @@ Hvis svaret ikke er tydelig ja på minst fire av fem spørsmål, bør ressursen 
 
 ## Forholdet til produkt-canvas
 - dagens `produkt-canvas` passer fortsatt godt for gjenbrukbare løsninger som beskrives som produkter, plattformer, registre eller felleskomponenter
-- standarder og veiledning, samhandlingsarenaer og organisering, og økonomiske eller juridiske rammer skal ikke presses inn i produkt-canvas uten bevisst tilpasning
+- standarder og veiledning, samhandlingsarenaer og organisering, og økonomiske og juridiske rammer skal ikke presses inn i produkt-canvas uten bevisst tilpasning
 - når repoet utvides videre, bør det vurderes egne eller tydelig navngitte maler for de fire rammeverkskategoriene
 
 ## Vurdering av dagens mal som utgangspunkt

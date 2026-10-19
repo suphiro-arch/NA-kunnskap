@@ -53,7 +53,7 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Lokale hooks for encoding-kontroll skal være aktive (`tools/setup-git-hooks.ps1`) slik at både commit og push stoppes automatisk ved mojibake.
 - I beskrivelser av standarder og veiledning skal `Status/Livsfase` beskrive status på selve ressursen, ikke status på dokumentutkastet eller ressursbeskrivelsen.
 - Tidlige versjoner av beskrivelser for standarder og veiledning skal som hovedregel beholde hele malstrukturen, og uferdige felt skal merkes eksplisitt i teksten i stedet for å utelates.
-- `v1` for standarder og veiledning, samhandlingsarenaer og organisering, og økonomiske eller juridiske rammer og virkemidler skal bare brukes når dokumentet er godt nok til å fungere som direkte analysegrunnlag, ikke bare som arbeidsutkast.
+- `v1` for standarder og veiledning, samhandlingsarenaer og organisering, og økonomiske og juridiske rammer og virkemidler skal bare brukes når dokumentet er godt nok til å fungere som direkte analysegrunnlag, ikke bare som arbeidsutkast.
 - `v1` for disse ikke-operative kategoriene krever at analysekritiske felt er substansielt utfylt, at påstander med høy betydning er kildeforankret, og at tydelig usikkerhet er markert der åpne kilder ikke er nok.
 - I beskrivelser av samhandlingsarenaer og organisering skal det være eksplisitt om arenaen er rådgivende, koordinerende eller besluttende, hvilke ressurser den påvirker, og når den bør involveres i analyse- eller utviklingsløp.
 - I seksjonen `Støtter arkitekturprinsipper` skal beskrivelser også vurdere tydelige svakheter, spenninger eller begrensninger mot viktige prinsipper når dette er relevant for mulig bruk.
