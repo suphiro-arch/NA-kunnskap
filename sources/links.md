@@ -1,7 +1,7 @@
 # Nasjonale fellestjenester og felleskomponenter
 
 Formål: Samlet lenkeliste over nasjonale fellesløsninger, sektorkilder og relevante standarder og veiledningsressurser.
-Sist redigert: 2026-09-30.
+Sist redigert: 2026-10-19.
 
 ## Fellesløsninger
 
@@ -18,6 +18,7 @@ Sist redigert: 2026-09-30.
 - Altinn - tjenesteutvikling: https://samarbeid.digdir.no/altinn/tjenesteutvikling/2634
 - Altinn - portaler og brukeroppleving: https://samarbeid.digdir.no/altinn/portalar-og-brukaroppleving/2485
 - Altinn - bruksvilkår: https://samarbeid.digdir.no/altinn/bruksvilkar-altinn/3639 (lagt til 2026-05-27)
+- Altinn - tilgangspakker for sluttbrukere: https://samarbeid.digdir.no/altinn/tilgangspakker-hva-betyr-dette-sluttbruker-virksomhet-eller-privatperson/3242 (lagt til 2026-10-19)
 - ID-porten: https://www.digdir.no/id-porten/om-id-porten/1507
 - ID-porten dokumentasjon: https://docs.digdir.no/docs/idporten/
 - ID-porten - tillitstjenester: https://samarbeid.digdir.no/id-porten/tillitstenester/2479
@@ -339,8 +340,12 @@ Sist redigert: 2026-09-30.
 - Kontakt oss om deling av data: https://www.skatteetaten.no/deling/kontakt/ (lagt til 2026-03-27)
 - Bruksvilkår for delingstjenester om inntekt, skatt og restanser: https://www.skatteetaten.no/deling/bruksvilkar-for-delingstjenester/ (lagt til 2026-03-27)
 - Få tilgang til data fra Folkeregisteret: https://www.skatteetaten.no/nn/deling/folkeregisteret/intro/fa-tilgang/ (lagt til 2026-03-27)
+- Folkeregisteret - rettighetspakker: https://www.skatteetaten.no/deling/folkeregisteret/intro/finne-data/rettighetspakker/ (lagt til 2026-10-19)
 - Folkeregisterhåndboken - delingstjenester: https://www.skatteetaten.no/en/rettskilder/type/handboker/folkeregisterhandboken/gjeldende/kapittel10-utlevering-av-opplysninger-fra-registeret/ID-10-1.001/ID-10-1.003/ (lagt til 2026-03-27)
+- Folkeregisterhåndboken - utlevering av taushetsbelagte opplysninger (§ 10-2): https://www.skatteetaten.no/rettskilder/type/handboker/folkeregisterhandboken/gjeldende/kapittel10-utlevering-av-opplysninger-fra-registeret/ID-10-3.001/ (lagt til 2026-10-19)
 - Folkeregisterhåndboken - om registeret: https://www.skatteetaten.no/rettskilder/type/handboker/folkeregisterhandboken/gjeldende/kapittel1-innledende-bestemmelser/ID-1-1.001/ID-1-1.002/ (lagt til 2026-03-27)
+- Folkeregisterhåndboken - hvilke opplysninger som registreres (§ 3-1 første ledd): https://www.skatteetaten.no/rettskilder/type/handboker/folkeregisterhandboken/gjeldende/kapittel3-hvilke-opplysninger-som-registreres/ID-3-1.001/ID-3-1.002/ (lagt til 2026-10-19)
+- Skatteetaten - reetablering i Altinn, privatpersoner (gjelder overgangen til Altinn 3, trolig tidsavgrenset): https://www.skatteetaten.no/samarbeidspartnere/reetablering-altinn/privatpersoner/ (lagt til 2026-10-19)
 - Folkeregisteret: https://www.skatteetaten.no/nn/skjema/opplysninger-i-folkeregisteret/ (lagt til 2026-08-28)
 
 ### Helse
