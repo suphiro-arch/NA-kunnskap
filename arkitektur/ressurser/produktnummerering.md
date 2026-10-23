@@ -173,7 +173,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 
 | Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
 |---:|---|---|---|---|---|---|
-| 47 | `SIKT-001` | Feide | Gjenbrukbare løsninger | Autentisering | Dele data med andre<br>Sikring av informasjonsflyt og datautveksling<br>Autentisering<br>Tilgangskontroll | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/47-Feide-produkt-canvas-v3-claude.md) |
+| 47 | `SIKT-001` | Feide | Gjenbrukbare løsninger | Autentisering | Dele data med andre<br>Sikring av informasjonsflyt og datautveksling<br>Autentisering<br>Tilgangskontroll<br>Tilgangsstyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/47-Feide-produkt-canvas-v4-claude.md) |
 | 48 | `SIKT-002` | Felles studentsystem (FS) | Gjenbrukbare løsninger | Studentdata | Bruke data fra andre<br>Dele data med andre<br>Datastyring<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/48-Felles-studentsystem-produkt-canvas-v1-codex.md) |
 | 49 | `SIKT-003` | Opptaksløsninger | Gjenbrukbare løsninger | Opptaksløsning | Bruke data fra andre<br>Organisatorisk samhandling<br>Sammenhengende tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/49-Opptakslosninger-produkt-canvas-v2-codex.md) |
 | 50 | `SIKT-004` | Nasjonal vitnemålsdatabase (NVB) | Gjenbrukbare løsninger | Vitnemål | Grunndata<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/50-Nasjonal-vitnemalsdatabase-produkt-canvas-v1-codex.md) |
@@ -268,7 +268,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 
 | Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
 |---:|---|---|---|---|---|---|
-| 37 | `SKATT-001` | Folkeregisteret | Gjenbrukbare løsninger | Persondata | Grunndata<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/37-Folkeregisteret-produkt-canvas-v2-claude.md) |
+| 37 | `SKATT-001` | Folkeregisteret | Gjenbrukbare løsninger | Persondata | Grunndata<br>Dele data med andre<br>Hendelsesdrevet | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/37-Folkeregisteret-produkt-canvas-v3-claude.md) |
 | 38 | `SKATT-002` | Skatteetatens delingstjenester | Gjenbrukbare løsninger | API-basert deling | Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/38-Skatteetatens-delingstjenester-produkt-canvas-v1-codex.md) |
 | 167 | `SKATT-003` | Tenor testdatasøk | Gjenbrukbare løsninger | Syntetiske testdata | Testdata<br>Utviklings- og kjøretidsmiljø<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/167-Tenor-testdatasok-v1-claude.md) |
 

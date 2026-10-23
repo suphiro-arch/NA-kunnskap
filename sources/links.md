@@ -1,7 +1,7 @@
 # Nasjonale fellestjenester og felleskomponenter
 
 Formål: Samlet lenkeliste over nasjonale fellesløsninger, sektorkilder og relevante standarder og veiledningsressurser.
-Sist redigert: 2026-10-19.
+Sist redigert: 2026-10-23.
 
 ## Fellesløsninger
 
@@ -341,6 +341,7 @@ Sist redigert: 2026-10-19.
 - Bruksvilkår for delingstjenester om inntekt, skatt og restanser: https://www.skatteetaten.no/deling/bruksvilkar-for-delingstjenester/ (lagt til 2026-03-27)
 - Få tilgang til data fra Folkeregisteret: https://www.skatteetaten.no/nn/deling/folkeregisteret/intro/fa-tilgang/ (lagt til 2026-03-27)
 - Folkeregisteret - rettighetspakker: https://www.skatteetaten.no/deling/folkeregisteret/intro/finne-data/rettighetspakker/ (lagt til 2026-10-19)
+- Folkeregisteret - hendelsesliste (API-dokumentasjon): https://skatteetaten.github.io/folkeregisteret-api-dokumentasjon/hendelsesliste (lagt til 2026-10-23)
 - Folkeregisterhåndboken - delingstjenester: https://www.skatteetaten.no/en/rettskilder/type/handboker/folkeregisterhandboken/gjeldende/kapittel10-utlevering-av-opplysninger-fra-registeret/ID-10-1.001/ID-10-1.003/ (lagt til 2026-03-27)
 - Folkeregisterhåndboken - utlevering av taushetsbelagte opplysninger (§ 10-2): https://www.skatteetaten.no/rettskilder/type/handboker/folkeregisterhandboken/gjeldende/kapittel10-utlevering-av-opplysninger-fra-registeret/ID-10-3.001/ (lagt til 2026-10-19)
 - Folkeregisterhåndboken - om registeret: https://www.skatteetaten.no/rettskilder/type/handboker/folkeregisterhandboken/gjeldende/kapittel1-innledende-bestemmelser/ID-1-1.001/ID-1-1.002/ (lagt til 2026-03-27)

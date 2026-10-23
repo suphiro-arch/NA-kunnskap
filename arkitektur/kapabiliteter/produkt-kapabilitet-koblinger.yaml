@@ -1734,10 +1734,10 @@
         {
             "product_id": 37,
             "product_name": "Folkeregisteret",
-            "version": 2,
+            "version": 3,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/37-Folkeregisteret-produkt-canvas-v2-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/37-Folkeregisteret-produkt-canvas-v2-claude.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/37-Folkeregisteret-produkt-canvas-v3-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/37-Folkeregisteret-produkt-canvas-v3-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
@@ -1758,6 +1758,16 @@
                     "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
                     "subcapability_name": "Dele data med andre",
                     "subcapability_slug": "dele-data-med-andre"
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-64811e71d98647e5a678a0a2e79ae617",
+                    "subcapability_name": "Hendelsesdrevet",
+                    "subcapability_slug": "hendelsesdrevet",
+                    "mapping_label": "Datautveksling og integrasjon: Hendelsesdrevet",
+                    "explanation": "realiseres gjennom hendelseslista, som publiserer endringer i registeret fortløpende som en feed med sekvensnummer, slik at virksomheter med tilgang kan holde egne registre oppdatert og reagere på endringer uten periodiske oppslag."
                 }
             ]
         },
@@ -2054,10 +2064,10 @@
         {
             "product_id": 47,
             "product_name": "Feide",
-            "version": 3,
+            "version": 4,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/47-Feide-produkt-canvas-v3-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/47-Feide-produkt-canvas-v3-claude.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/47-Feide-produkt-canvas-v4-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/47-Feide-produkt-canvas-v4-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
@@ -2098,6 +2108,16 @@
                     "subcapability_slug": "tilgangskontroll",
                     "mapping_label": "Tillit: Tilgangskontroll",
                     "explanation": "håndhever ved hvert innloggings- og datauttrekk hvilke tjenester som får hvilke opplysninger, etter tilgangsnivået dataeier har satt i kundeportalen: fri tilgang innvilges automatisk, mens nivåer som krever godkjenning må godkjennes eller avslås av dataeier før tjenesten slipper til."
+                },
+                {
+                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
+                    "capability_name": "Tillit",
+                    "capability_slug": "tillit",
+                    "subcapability_id": "id-b440252bc3de42dea8468be54e54b1fa",
+                    "subcapability_name": "Tilgangsstyring",
+                    "subcapability_slug": "tilgangsstyring",
+                    "mapping_label": "Tillit: Tilgangsstyring",
+                    "explanation": "realiseres i kundeportalen, der dataeier setter tilgangsnivå per datakilde og godkjenner eller avslår forespørsler fra tjenester. Dette er forvaltningen av rettighetene som Tilgangskontroll deretter håndhever ved hver innlogging og hvert datauttrekk."
                 }
             ]
         },
