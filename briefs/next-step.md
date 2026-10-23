@@ -29,24 +29,22 @@ når ressursen skrives.
 Klare til å skrives, kildesjekket 2026-10-07:
 
 1. `KLASS` (SSB, `Gjenbrukbare løsninger`). Bekreft lisensen i primærkilde.
-2. `NSMs grunnprinsipper for IKT-sikkerhet`, versjon 2.1 (ny eierkode `NSM`,
-   `Standarder og veiledning`).
-3. `Norge digitalt` (Kartverket, `Samhandlingsarenaer og organisering`). Kontroller
+2. `Norge digitalt` (Kartverket, `Samhandlingsarenaer og organisering`). Kontroller
    paragrafhenvisningene i geodataloven mot Lovdata.
 
 Kildesjekket, men med åpne punkter:
 
-4. `Noark 5` versjon 6.0 (ny eierkode for Nasjonalarkivet, `Standarder og veiledning`). Les kravene
+3. `Noark 5` versjon 6.0 (ny eierkode for Nasjonalarkivet, `Standarder og veiledning`). Les kravene
    i ny arkivforskrift fra 1.1.2026 i primærkilde.
-5. `Digitalsikkerhetsloven` (JD og NSM). Finn forskriften i Lovdata og offisiell status for NIS2 i
+4. `Digitalsikkerhetsloven` (JD og NSM). Finn forskriften i Lovdata og offisiell status for NIS2 i
    EØS.
-6. `Statens standardavtaler` (DFØ, eierkode `DFO`, `Standarder og veiledning`). Avklar om bruken er pålagt staten.
-7. `Vergemål og fremtidsfullmakter` (Sivilrettsforvaltningen, `Gjenbrukbare løsninger`). Finn
+5. `Statens standardavtaler` (DFØ, eierkode `DFO`, `Standarder og veiledning`). Avklar om bruken er pålagt staten.
+6. `Vergemål og fremtidsfullmakter` (Sivilrettsforvaltningen, `Gjenbrukbare løsninger`). Finn
    primærkilde for registeret og rettsgrunnlaget, og avklar forholdet til vergefullmaktene i
    Folkeregisteret og digital fullmakt i `04` Altinn Autorisasjon.
-8. `Konsultasjonsordningen mellom staten og kommunesektoren` (KDD og KS). Finn ny adresse for
+7. `Konsultasjonsordningen mellom staten og kommunesektoren` (KDD og KS). Finn ny adresse for
    temasiden på regjeringen.no.
-9. `Ny forvaltningslov` (JD). Opprettes når ikrafttredelsen er fastsatt. Kontroller samtidig
+8. `Ny forvaltningslov` (JD). Opprettes når ikrafttredelsen er fastsatt. Kontroller samtidig
     hjemmelsgrunnlaget for `144` eForvaltningsforskriften.
 
 Ikke kildesjekket ennå:

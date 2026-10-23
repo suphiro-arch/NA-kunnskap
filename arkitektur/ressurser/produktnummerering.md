@@ -49,6 +49,10 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | `LANE` | Lånekassen | Statens lånekasse for utdanning | Utdanningsstøtteordninger og tilhørende ressurser forvaltet av Lånekassen |
 | `HKDIR` | HK-dir | Direktoratet for høyere utdanning og kompetanse | Nasjonale informasjons- og datatjenester for utdanning, yrke og karriereveiledning |
 | `DFO` | DFØ | Direktoratet for forvaltning og økonomistyring | Styrings-, utrednings- og økonomiforvaltningsressurser for staten som forvaltes av DFØ |
+| `ENTUR` | Entur | Entur AS | Nasjonale rute- og sanntidsdata for kollektivtransport forvaltet av Entur |
+| `MET` | Meteorologisk institutt | Meteorologisk institutt | Vær- og klimadata og API-er forvaltet av Meteorologisk institutt |
+| `NSM` | Nasjonal sikkerhetsmyndighet | Nasjonal sikkerhetsmyndighet | Normerende sikkerhetsveiledning forvaltet av NSM |
+| `HL7` | HL7 Norge | HL7 Norge | Norske FHIR-profiler og helsestandarder utgitt og forvaltet av HL7 Norge |
 
 ### Slik lages en ny eierkode
 
@@ -122,7 +126,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 | 121 | `DIGDIR-053` | Faglig arena for datadeling og informasjonsforvaltning | Samhandlingsarenaer og organisering | Åpen digital fagarena | Samarbeidsarenaer og nettverk<br>Datastyring<br>Anvendelse av veiledning | [Åpne](../../arkitektur/ressurser/samarbeidsfora/121-Faglig-arena-for-informasjonsforvaltning-og-deling-av-data-v2-claude.md) |
 | 122 | `DIGDIR-054` | NIFS | Samhandlingsarenaer og organisering | Nettverk for informasjonssikkerhet | Sikring av informasjonsflyt og datautveksling<br>Samarbeidsarenaer og nettverk | [Åpne](../../arkitektur/ressurser/samarbeidsfora/122-NIFS-v2-claude.md) |
 | 123 | `DIGDIR-055` | DSOP-samarbeidet | Samhandlingsarenaer og organisering | Offentlig-privat samhandlingsarena | Dele data med andre<br>Samarbeidsarenaer og nettverk<br>Samordning | [Åpne](../../arkitektur/ressurser/samarbeidsfora/123-DSOP-samarbeidet-v2-claude.md) |
-| 124 | `DIGDIR-056` | Felles sikkerhet i forvaltningen | Samhandlingsarenaer og organisering | Tverrsektorielt sikkerhetssamarbeid | Sikring av informasjonsflyt og datautveksling<br>Samarbeidsarenaer og nettverk<br>Samordning | [Åpne](../../arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v2-claude.md) |
+| 124 | `DIGDIR-056` | Felles sikkerhet i forvaltningen | Samhandlingsarenaer og organisering | Tverrsektorielt sikkerhetssamarbeid | Sikring av informasjonsflyt og datautveksling<br>Samarbeidsarenaer og nettverk<br>Samordning<br>Styringssystem | [Åpne](../../arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v3-claude.md) |
 | 125 | `DIGDIR-057` | KI Norge | Samhandlingsarenaer og organisering | Nasjonal arena for kunstig intelligens | Samarbeidsarenaer og nettverk<br>Samordning<br>Utvikling og formidling av veiledning | [Åpne](../../arkitektur/ressurser/samarbeidsfora/125-KI-Norge-v3-claude.md) |
 | 126 | `DIGDIR-058` | Nasjonal sandkasse for digital lommebok | Gjenbrukbare løsninger | Sandkasse og testmiljø for digital lommebok | Autentisering<br>Signering<br>Utviklings- og kjøretidsmiljø<br>Integrerbare tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/126-Nasjonal-sandkasse-for-digital-lommebok-produkt-canvas-v2-codex.md) |
 | 127 | `DIGDIR-059` | Samarbeidsportalen | Gjenbrukbare løsninger | Portal for forvaltning, informasjon og ta-i-bruk av fellesløsninger | Oversikt over tjenester<br>Tjenesteforvaltning<br>Samarbeidsarenaer og nettverk | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/127-Samarbeidsportalen-produkt-canvas-v2-codex.md) |
@@ -219,6 +223,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 |---:|---|---|---|---|---|---|
 | 31 | `HDIR-001` | Helsedata.no | Gjenbrukbare løsninger | Datatilgang | Oversikt over datasett<br>Datastyring<br>Sammenhengende tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v2-codex.md) |
 | 64 | `HDIR-002` | HPR | Gjenbrukbare løsninger | Register over helsepersonell | Grunndata<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/64-HPR-produkt-canvas-v2-codex.md) |
+| 177 | `HDIR-003` | Statistikkbanken Folkehelsestatistikk | Gjenbrukbare løsninger | Folkehelsestatistikk | Åpne data | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/177-Statistikkbanken-Folkehelsestatistikk-v0-claude.md) |
 
 
 
@@ -279,7 +284,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 | Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
 |---:|---|---|---|---|---|---|
 | 39 | `KART-001` | Matrikkelen | Gjenbrukbare løsninger | Eiendoms- og adresseregister | Grunndata<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/39-Matrikkelen-produkt-canvas-v1-codex.md) |
-| 40 | `KART-002` | Geonorge | Gjenbrukbare løsninger | Geodataportal / metadata- og delingsplattform | Oversikt over datasett<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/40-Geonorge-produkt-canvas-v1-codex.md) |
+| 40 | `KART-002` | Geonorge | Gjenbrukbare løsninger | Geodataportal / metadata- og delingsplattform | Oversikt over datasett<br>Dele data med andre<br>Visualisering | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/40-Geonorge-produkt-canvas-v2-claude.md) |
 | 132 | `KART-003` | Grunnboken | Gjenbrukbare løsninger | Rettighetsregister for fast eiendom | Grunndata<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/132-Grunnboken-produkt-canvas-v1-codex.md) |
 | 134 | `KART-004` | Sentralt stedsnavnregister | Gjenbrukbare løsninger | Register for offisielle stedsnavn | Grunndata<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/134-Sentralt-stedsnavnregister-produkt-canvas-v1-codex.md) |
 
@@ -291,6 +296,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 |---:|---|---|---|---|---|---|
 | 60 | `SVV-001` | Motorvognregisteret | Gjenbrukbare løsninger | Kjøretøydata | Grunndata<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/60-Motorvognregisteret-produkt-canvas-v1-codex.md) |
 | 61 | `SVV-002` | NVDB | Gjenbrukbare løsninger | Vegdata | Grunndata<br>Oversikt over datasett<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/61-NVDB-produkt-canvas-v1-codex.md) |
+| 172 | `SVV-003` | DATEX II trafikkinformasjon | Gjenbrukbare løsninger | Sanntids vegtrafikkdata | Sanntidsdata<br>Åpne data<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/172-DATEX-II-trafikkinformasjon-v1-claude.md) |
 
 
 
@@ -300,6 +306,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 |---:|---|---|---|---|---|---|
 | 63 | `SSB-001` | microdata.no | Gjenbrukbare løsninger | Analyseplattform | Sammenstilling av data<br>Bruke data fra andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/63-microdata-no-produkt-canvas-v1-codex.md) |
 | 169 | `SSB-002` | KOSTRA | Gjenbrukbare løsninger | Rapportering og statistikk fra kommunesektoren til staten | Sammenstilling av data<br>Åpne data | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/169-KOSTRA-v1-claude.md) |
+| 176 | `SSB-003` | Statistikkbanken og PxWebApi | Gjenbrukbare løsninger | Åpent API mot offisiell statistikk | Åpne data | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/176-SSB-Statistikkbanken-PxWebApi-v1-claude.md) |
 
 
 
@@ -375,6 +382,30 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 |---:|---|---|---|---|---|---|
 | 170 | `DFO-001` | Utredningsinstruksen | Økonomiske og juridiske rammer og virkemidler | Instruks om utredning av statlige tiltak | Regelverksutvikling<br>Samordning | [Åpne](../../arkitektur/ressurser/rammer-og-virkemidler/170-Utredningsinstruksen-v1-claude.md) |
 
+
+## Entur (`ENTUR`)
+
+| Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
+|---:|---|---|---|---|---|---|
+| 171 | `ENTUR-001` | Entur sanntids- og rutedata | Gjenbrukbare løsninger | Sanntidsdata kollektivtrafikk | Sanntidsdata<br>Åpne data<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/171-Entur-sanntidsdata-v1-claude.md) |
+
+## Meteorologisk institutt (`MET`)
+
+| Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
+|---:|---|---|---|---|---|---|
+| 173 | `MET-001` | Frost og MET Weather API | Gjenbrukbare løsninger | Vær- og klimadata | Åpne data<br>Sanntidsdata<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/173-MET-Frost-API-v1-claude.md) |
+
+## Nasjonal sikkerhetsmyndighet (`NSM`)
+
+| Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
+|---:|---|---|---|---|---|---|
+| 174 | `NSM-001` | NSMs grunnprinsipper for IKT-sikkerhet | Standarder og veiledning | Grunnprinsipper for IKT-sikkerhet | Styringssystem<br>Sikring av informasjonsflyt og datautveksling<br>Utvikling og formidling av veiledning | [Åpne](../../arkitektur/ressurser/normerende-ressurser/174-NSMs-grunnprinsipper-for-IKT-sikkerhet-v1-claude.md) |
+
+## HL7 Norge (`HL7`)
+
+| Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
+|---:|---|---|---|---|---|---|
+| 178 | `HL7-001` | Norske basisprofiler for HL7 FHIR | Standarder og veiledning | Norsk informasjonsmodell for FHIR | Informasjonsarkitektur<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/normerende-ressurser/178-HL7-FHIR-norske-basisprofiler-v1-claude.md) |
 
 ## Ekstra verifiserte kilder brukt i denne utvidelsen
 

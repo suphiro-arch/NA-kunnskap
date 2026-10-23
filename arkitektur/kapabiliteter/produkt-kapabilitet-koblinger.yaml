@@ -1824,10 +1824,10 @@
         {
             "product_id": 40,
             "product_name": "Geonorge",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/40-Geonorge-produkt-canvas-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/40-Geonorge-produkt-canvas-v1-codex.md",
+            "version": 2,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/40-Geonorge-produkt-canvas-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/40-Geonorge-produkt-canvas-v2-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-896e4c1434604caa891b94bcce964720",
@@ -1848,6 +1848,16 @@
                     "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
                     "subcapability_name": "Dele data med andre",
                     "subcapability_slug": "dele-data-med-andre"
+                },
+                {
+                    "capability_id": "id-98df6c2b4df340c7a3a3ad32d99ca37e",
+                    "capability_name": "Datadrevet",
+                    "capability_slug": "datadrevet",
+                    "subcapability_id": "id-8914d57f4f1442b1b562252a3630a686",
+                    "subcapability_name": "Visualisering",
+                    "subcapability_slug": "visualisering",
+                    "mapping_label": "Datadrevet: Visualisering",
+                    "explanation": "er relevant fordi Geonorge har en egen kartløsning der datasett med tilknyttet visningstjeneste (WMS) kan legges til og vises i kart fra Kartkatalogen, og fordi karttjenestene fra Geonorge kan brukes til kartvisning i nettlesere, webapplikasjoner og kartprogrammer."
                 }
             ]
         },
@@ -4644,10 +4654,10 @@
         {
             "product_id": 124,
             "product_name": "Felles sikkerhet i forvaltningen",
-            "version": 2,
+            "version": 3,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v2-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v2-claude.md",
+            "relative_path": "arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v3-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v3-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-48c9873ae59341a49c2dca27379fab55",
@@ -4678,6 +4688,16 @@
                     "subcapability_slug": "samordning",
                     "mapping_label": "Strategisk styring: Samordning",
                     "explanation": "FSIF arbeider eksplisitt med å samordne anbefalinger, veiledning og tiltak på et område der fragmentering ellers gir svakere effekt."
+                },
+                {
+                    "capability_id": "id-48c9873ae59341a49c2dca27379fab55",
+                    "capability_name": "Informasjonssikkerhet",
+                    "capability_slug": "informasjonssikkerhet",
+                    "subcapability_id": "id-980043f78fa94eec8ecf46338a5b9c6b",
+                    "subcapability_name": "Styringssystem",
+                    "subcapability_slug": "styringssystem",
+                    "mapping_label": "Informasjonssikkerhet: Styringssystem",
+                    "explanation": "FSIF bidrar til kapabiliteten ved å utvikle og spre felles anbefalinger for hvordan offentlige virksomheter bør styre informasjonssikkerhet og personopplysningsvern. Første leveranse (P1) beskriver styringsaktivitetene virksomhetene bør ha, blant dem ledelsens styring og oppfølging og måling, evaluering og revisjon. Selve styringssystemet etableres og forbedres i hver virksomhet; FSIF driver ikke et styringssystem."
                 }
             ]
         },
@@ -6398,6 +6418,236 @@
                     "subcapability_slug": "samordning",
                     "mapping_label": "Strategisk styring: Samordning",
                     "explanation": "Instruksen forplikter departementer og etater til å koordinere seg før beslutninger tas. Berørte departementer skal involveres så tidlig som mulig, og forslag med vesentlige virkninger skal forelegges dem med minst tre ukers frist før høring (§ 3-1 og § 3-2)."
+                }
+            ]
+        },
+        {
+            "product_id": 171,
+            "product_name": "Entur sanntids- og rutedata",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/171-Entur-sanntidsdata-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/171-Entur-sanntidsdata-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-711390c3ddaa4b67914ccbcc2f1831aa",
+                    "subcapability_name": "Sanntidsdata",
+                    "subcapability_slug": "sanntidsdata",
+                    "mapping_label": "Datakilder: Sanntidsdata",
+                    "explanation": "Entur samler sanntidsdata fra kollektivoperatørene i hele landet og distribuerer dem videre som kontinuerlige strømmer i SIRI ET, VM og SX og i GTFS-RT, oppdatert hvert 15. sekund i GTFS-RT."
+                },
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-db4f30a87ae84561a4058d4d264177b1",
+                    "subcapability_name": "Åpne data",
+                    "subcapability_slug": "apne-data",
+                    "mapping_label": "Datakilder: Åpne data",
+                    "explanation": "Entur publiserer rute-, stoppesteds- og sanntidsdata som åpne data under NLOD, gratis og uten avtale, i maskinlesbare standardformater med offentlig dokumentasjon."
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Entur gjør data fra 60 operatører tilgjengelige for andre gjennom dokumenterte grensesnitt for abonnement, oppslag og nedlasting, slik at mottakeren ikke må hente data fra hver operatør."
+                }
+            ]
+        },
+        {
+            "product_id": 172,
+            "product_name": "DATEX II trafikkinformasjon",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/172-DATEX-II-trafikkinformasjon-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/172-DATEX-II-trafikkinformasjon-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-711390c3ddaa4b67914ccbcc2f1831aa",
+                    "subcapability_name": "Sanntidsdata",
+                    "subcapability_slug": "sanntidsdata",
+                    "mapping_label": "Datakilder: Sanntidsdata",
+                    "explanation": "Statens vegvesen publiserer trafikkmeldinger fortløpende, værmålinger hvert tiende minutt og reisetider hvert femte minutt fra eget måle- og meldingsapparat langs vegnettet."
+                },
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-db4f30a87ae84561a4058d4d264177b1",
+                    "subcapability_name": "Åpne data",
+                    "subcapability_slug": "apne-data",
+                    "mapping_label": "Datakilder: Åpne data",
+                    "explanation": "Statens vegvesen gjør DATEX-dataene tilgjengelige gratis under NLOD i et maskinlesbart standardformat; tilgangen krever registrering, men ikke betaling eller særskilt formål."
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "Statens vegvesen deler trafikk- og værdata med media, trafikkinformasjonstjenester og andre aktører gjennom dokumenterte DATEX-endepunkter, slik at de kan bruke dataene i egne tjenester."
+                }
+            ]
+        },
+        {
+            "product_id": 173,
+            "product_name": "Frost og MET Weather API",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/173-MET-Frost-API-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/173-MET-Frost-API-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-db4f30a87ae84561a4058d4d264177b1",
+                    "subcapability_name": "Åpne data",
+                    "subcapability_slug": "apne-data",
+                    "mapping_label": "Datakilder: Åpne data",
+                    "explanation": "MET publiserer egne observasjoner, prognoser og varsler maskinlesbart under NLOD 2.0 og CC BY 4.0, slik at alle kan bruke og dele dem mot kreditering."
+                },
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-711390c3ddaa4b67914ccbcc2f1831aa",
+                    "subcapability_name": "Sanntidsdata",
+                    "subcapability_slug": "sanntidsdata",
+                    "mapping_label": "Datakilder: Sanntidsdata",
+                    "explanation": "api.met.no distribuerer kontinuerlig oppdaterte data fra METs radarnett, med korttidsvarsel for nedbør hvert femte minutt, radarbilder hvert femte minutt og løpende farevarsler."
+                },
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "MET tilgjengeliggjør egne data gjennom dokumenterte og versjonerte REST-API-er med publiserte vilkår, slik at andre kan bygge dem inn i egne tjenester."
+                }
+            ]
+        },
+        {
+            "product_id": 174,
+            "product_name": "NSMs grunnprinsipper for IKT-sikkerhet",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/174-NSMs-grunnprinsipper-for-IKT-sikkerhet-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/174-NSMs-grunnprinsipper-for-IKT-sikkerhet-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-48c9873ae59341a49c2dca27379fab55",
+                    "capability_name": "Informasjonssikkerhet",
+                    "capability_slug": "informasjonssikkerhet",
+                    "subcapability_id": "id-980043f78fa94eec8ecf46338a5b9c6b",
+                    "subcapability_name": "Styringssystem",
+                    "subcapability_slug": "styringssystem",
+                    "mapping_label": "Informasjonssikkerhet: Styringssystem",
+                    "explanation": "grunnprinsippene og støtteproduktene gir en tiltakskatalog med prioriteringsforslag, kobling til ISO/IEC 27002 og et verktøy for risikovurdering som virksomheter bruker når de vurderer og forbedrer egne sikkerhetstiltak. NSM sier selv at prinsippene ikke erstatter virksomhetens sikkerhetsstyring."
+                },
+                {
+                    "capability_id": "id-48c9873ae59341a49c2dca27379fab55",
+                    "capability_name": "Informasjonssikkerhet",
+                    "capability_slug": "informasjonssikkerhet",
+                    "subcapability_id": "id-34d3d64b3afe4327a29ee6c2f7f74dff",
+                    "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
+                    "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling",
+                    "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
+                    "explanation": "normeres direkte i prinsipp 2.5 «Kontroller dataflyt» og 2.7 «Beskytt data i ro og i transitt», som gir anbefalte tiltak for kontroll med hvor data flyter og for beskyttelse av data under overføring."
+                },
+                {
+                    "capability_id": "id-c0547226c598467a942dced879d0c18b",
+                    "capability_name": "Veiledning",
+                    "capability_slug": "veiledning",
+                    "subcapability_id": "id-0bfa29018e7144578b2184e70414b7e8",
+                    "subcapability_name": "Utvikling og formidling av veiledning",
+                    "subcapability_slug": "utvikling-og-formidling-av-veiledning",
+                    "mapping_label": "Veiledning: Utvikling og formidling av veiledning",
+                    "explanation": "grunnprinsippene er NSMs publiserte veiledning for IKT-sikkerhet, utgitt i versjoner, med støtteprodukter, engelsk utgave og et eget e-læringskurs."
+                }
+            ]
+        },
+        {
+            "product_id": 176,
+            "product_name": "Statistikkbanken og PxWebApi",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/176-SSB-Statistikkbanken-PxWebApi-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/176-SSB-Statistikkbanken-PxWebApi-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-db4f30a87ae84561a4058d4d264177b1",
+                    "subcapability_name": "Åpne data",
+                    "subcapability_slug": "apne-data",
+                    "mapping_label": "Datakilder: Åpne data",
+                    "explanation": "Statistikkbanken publiserer SSBs offisielle statistikk som åpne data under CC BY 4.0, og PxWebApi gjør alle tabellene maskinelt tilgjengelige uten registrering."
+                }
+            ]
+        },
+        {
+            "product_id": 177,
+            "product_name": "Statistikkbanken Folkehelsestatistikk",
+            "version": 0,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/177-Statistikkbanken-Folkehelsestatistikk-v0-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/177-Statistikkbanken-Folkehelsestatistikk-v0-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-db4f30a87ae84561a4058d4d264177b1",
+                    "subcapability_name": "Åpne data",
+                    "subcapability_slug": "apne-data",
+                    "mapping_label": "Datakilder: Åpne data",
+                    "explanation": "Statistikkbanken gjør folkehelsestatistikk for kommuner, bydeler, fylker og hele landet åpent tilgjengelig i tabeller, figurer, nedlastbare filer og et åpent API."
+                }
+            ]
+        },
+        {
+            "product_id": 178,
+            "product_name": "Norske basisprofiler for HL7 FHIR",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/178-HL7-FHIR-norske-basisprofiler-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/178-HL7-FHIR-norske-basisprofiler-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-5c6c20d50b6a4b168524901372f0ca6e",
+                    "subcapability_name": "Informasjonsarkitektur",
+                    "subcapability_slug": "informasjonsarkitektur",
+                    "mapping_label": "Informasjonsforvaltning: Informasjonsarkitektur",
+                    "explanation": "profilene strukturerer og modellerer grunnleggende helseinformasjon på en standardisert måte, med norske identifikatorer som fødselsnummer, D-nummer, HPR-nummer og organisasjonsnummer, og med norske kodeverk og utvidelser."
+                },
+                {
+                    "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
+                    "capability_name": "Standardisering",
+                    "capability_slug": "standardisering",
+                    "subcapability_id": "id-b99fcd8160d24e5f8ea3c17b15072f7a",
+                    "subcapability_name": "Forvaltningsstandarder",
+                    "subcapability_slug": "forvaltningsstandarder",
+                    "mapping_label": "Standardisering: Forvaltningsstandarder",
+                    "explanation": "profilene er en nasjonal tilpasning av en internasjonal standard, forvaltet i åpen prosess av HL7 Norge og med status anbefalt standard i Referansekatalogen for e-helse."
                 }
             ]
         }

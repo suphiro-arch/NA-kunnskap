@@ -404,6 +404,16 @@ Sist redigert: 2026-10-23.
 - Helsepersonellregisteret (HPR): https://www.helsedirektoratet.no/tema/autorisasjon-og-spesialistutdanning/helsepersonellregisteret (lagt til 2026-03-19)
 - Helsepersonellregisteret (HPR) - helsedata og tilgang: https://www.helsedirektoratet.no/statistikk-registre-og-rapporter/helsedata-og-helseregistre/helsepersonellregisteret-hpr (lagt til 2026-06-07)
 - Helsedirektoratets utviklerportal: https://utvikler.helsedirektoratet.no/ (lagt til 2026-06-07)
+- Folkehelsestatistikk og folkehelseprofiler (Helsedirektoratet): https://www.helsedirektoratet.no/forebygging-diagnose-og-behandling/forebygging-og-levevaner/folkehelsestatistikk-og-profiler (lagt til 2026-10-23)
+- Statistikkbanken Folkehelsestatistikk erstatter Kommunehelsa og Norgeshelsa: https://www.helsedirektoratet.no/forebygging-diagnose-og-behandling/forebygging-og-levevaner/folkehelsestatistikk-og-profiler/statistikkbanken-folkehelsestatistikk-erstatter-kommunehelsa-og-norgeshelsa (lagt til 2026-10-23)
+- Bruk av Statistikkbanken Folkehelsestatistikk: https://www.helsedirektoratet.no/forebygging-diagnose-og-behandling/forebygging-og-levevaner/folkehelsestatistikk-og-profiler/bruk-av-statistikkbanken (lagt til 2026-10-23)
+- FHI Statistikk - åpent API: https://www.fhi.no/ta/statistikkalender_og_statistikk/apen-api-og-statistikk/ (lagt til 2026-10-23)
+- Norske basisprofiler for HL7 FHIR (Helsedirektoratet): https://www.helsedirektoratet.no/standarder/norske-basisprofiler-for-hl7-fhir (lagt til 2026-10-23)
+- Anbefaling om bruk av HL7 FHIR for datadeling: https://www.helsedirektoratet.no/veiledere/anbefaling-om-bruk-av-hl7-fhir-for-datadeling (lagt til 2026-10-23)
+- Om Helsedirektoratets normerende produkter: https://www.helsedirektoratet.no/om-oss/om-helsedirektoratets-normerende-produkter (lagt til 2026-10-23)
+- HL7 Norge: https://hl7.no/ (lagt til 2026-10-23)
+- Norske basisprofiler for HL7 FHIR - forvaltning på GitHub: https://github.com/HL7Norway/basisprofiler-r4 (lagt til 2026-10-23)
+- Norske basisprofiler for HL7 FHIR på Simplifier: https://simplifier.net/hl7norwayno-basis (lagt til 2026-10-23)
 - KUHR: https://www.helfo.no/om-helfo/ (lagt til 2026-03-19)
 - Norsk Helsenett SF: https://www.nhn.no/
 - Videokonsultasjon (VIO): https://www.nhn.no/tjenester/video
@@ -435,6 +445,9 @@ Sist redigert: 2026-10-23.
 - Geografisk infrastruktur: https://www.geonorge.no/Geodataarbeid/geografisk-infrastruktur/ (lagt til 2026-03-27)
 - Distribuere data gjennom Geonorge: https://www.geonorge.no/aktuelt/om-geonorge/slik-bruker-du-geonorge/distribuere-data-gjennom-geonorge/ (lagt til 2026-03-27)
 - Geonorge API-er: https://www.geonorge.no/en/for-developers/apis/ (lagt til 2026-03-27)
+- Geonorge - se på kart: https://www.geonorge.no/aktuelt/om-geonorge/slik-bruker-du-geonorge/se-pa-kart/ (lagt til 2026-10-23)
+- Geonorge - bruke tjenester og API-er: https://www.geonorge.no/aktuelt/om-geonorge/slik-bruker-du-geonorge/bruke-tjenester-og-api-er/ (lagt til 2026-10-23)
+- Norgeskart: https://www.kartverket.no/til-lands/kart/norgeskart (lagt til 2026-10-23)
 - API-er for kartkatalogen: https://www.geonorge.no/verktoy/APIer-og-grensesnitt/apier-for-kartkatalogen/ (lagt til 2026-03-27)
 - Stedsnavndata / Sentralt stedsnavnregister: https://www.kartverket.no/api-og-data/stedsnavndata (lagt til 2026-04-28)
 - Grunnboken: https://eiendomsregisteret.kartverket.no/ (lagt til 2026-08-28)
@@ -447,6 +460,26 @@ Sist redigert: 2026-10-23.
 - API for tekniske kjøretøyopplysninger: https://www.vegvesen.no/fag/teknologi/apne-data/et-utvalg-apne-data/api-for-tekniske-kjoretoyopplysninger/ (lagt til 2026-03-27)
 - API for tekniske kjøretøyopplysninger med eierinformasjon: https://www.vegvesen.no/fag/teknologi/apne-data/et-utvalg-apne-data/api-for-tekniske-kjoretoyopplysninger-med-eierinformasjon/ (lagt til 2026-03-27)
 - Nasjonal vegdatabank (NVDB): https://www.vegvesen.no/fag/teknologi/nasjonal-vegdatabank/ (lagt til 2026-03-19)
+- DATEX - trafikkinformasjon fra Statens vegvesen: https://www.vegvesen.no/nn/fag/teknologi/data-og-api-ar/et-utvalg-apne-data/kva-er-datex/ (lagt til 2026-10-23)
+- DATEX - få tilgang: https://www.vegvesen.no/nn/fag/teknologi/data-og-api-ar/et-utvalg-apne-data/kva-er-datex/fa-tilgang/ (lagt til 2026-10-23)
+- DATEX - planlagt sanering av reisetidsdata: https://www.vegvesen.no/nn/fag/teknologi/data-og-api-ar/et-utvalg-apne-data/kva-er-datex/informasjon-og-nyheiter/planlagt-sanering-av-reisetidsdata/ (lagt til 2026-10-23)
+- DATEX II - europeisk standard: https://www.datex2.eu/ (lagt til 2026-10-23)
+
+### Entur
+- Enturs åpne data: https://developer.entur.no/open-data (lagt til 2026-10-23)
+- Enturs sanntidsdata: https://developer.entur.no/open-data/realtime (lagt til 2026-10-23)
+- Enturs åpne tjenester: https://developer.entur.no/docs/open-services (lagt til 2026-10-23)
+- Enturs bruksvilkår for åpne data og tjenester: https://developer.entur.no/terms-of-service (lagt til 2026-10-23)
+- Enturs stoppested- og rutedata: https://developer.entur.org/stops-and-timetable-data (lagt til 2026-10-23)
+- Entur AS hos Samferdselsdepartementet: https://www.regjeringen.no/no/dep/sd/org/selskaper/entur-as/id2550682 (lagt til 2026-10-23)
+
+### Meteorologisk institutt
+- MET Weather API: https://api.met.no/ (lagt til 2026-10-23)
+- MET Weather API - lisens: https://api.met.no/doc/License (lagt til 2026-10-23)
+- MET Weather API - bruksvilkår: https://api.met.no/doc/TermsOfService (lagt til 2026-10-23)
+- Frost: https://frost.met.no/index.html (lagt til 2026-10-23)
+- MET - lisensiering og kreditering: https://www.met.no/en/Free-Meteorological-Data/Licensing-And-Crediting (lagt til 2026-10-23)
+- MET - frie meteorologiske data: https://www.met.no/en/free-meteorological-data (lagt til 2026-10-23)
 
 ### Bufdir og barnevern
 - ung.no, statens informasjonskanal for ungdom: https://www.ung.no/ (lagt til 2026-09-07)
@@ -563,6 +596,10 @@ Sist redigert: 2026-10-23.
 - KOSTRA hos KDD: https://www.regjeringen.no/no/tema/kommuner-og-regioner/kommuneokonomi/kostra/id1233/ (lagt til 2026-10-07)
 - Kommunalt rapporteringsregister (Brønnøysundregistrene): https://www.brreg.no/offentlig-sektor/rapporteringsplikt/kommunalt-rapporteringsregister/ (lagt til 2026-10-07)
 - KOSTRA kontrollprogram - kildekode: https://github.com/statisticsnorway/kostra-kontrollprogram (lagt til 2026-10-07)
+- PxWebApi - Statistikkbankens API: https://www.ssb.no/api/pxwebapi (lagt til 2026-10-23)
+- PxWebApi v2: https://www.ssb.no/api/pxwebapiv2 (lagt til 2026-10-23)
+- PxWebApi - kildekode: https://github.com/PxTools/PxWebApi (lagt til 2026-10-23)
+- PxWebApi v2 hos SCB: https://www.scb.se/vara-tjanster/oppna-data/pxwebapi/pxwebapi-v2/ (lagt til 2026-10-23)
 
 ### eID tilbydere
 - BankID: https://bankid.no/
@@ -723,6 +760,13 @@ Sist redigert: 2026-10-23.
 - Grunnprinsipper for sikkerhet: https://www.sikkert.no/bedrift/artikler/grunnprinsipper-for-sikkerhet (lagt til 2026-03-18)
 - Cybersjekk: https://www.sikkert.no/bedrift/artikler/cybersjekk (lagt til 2026-03-18)
 - Cybersjekk - NSMs omtale av tjenesten: https://nsm.no/aktuelt/cybersjekk-sjekker-virksomhetens-digitale-sikkerhetstilstand (lagt til 2026-09-30)
+- NSMs grunnprinsipper for IKT-sikkerhet: https://nsm.no/regelverk-og-hjelp/rad-og-anbefalinger/grunnprinsipper-for-ikt-sikkerhet/ (lagt til 2026-10-23)
+- NSMs grunnprinsipper - støtteprodukter: https://nsm.no/regelverk-og-hjelp/rad-og-anbefalinger/stotteprodukter/stotteprodukter-til-nsms-grunnprinsipper-for-ikt-sikkerhet (lagt til 2026-10-23)
+- NSMs grunnprinsipper - historikk og eldre versjoner: https://nsm.no/regelverk-og-hjelp/rad-og-anbefalinger/historikk-og-eldre-versjoner/ (lagt til 2026-10-23)
+- NSMs grunnprinsipper - målgruppe: https://nsm.no/regelverk-og-hjelp/rad-og-anbefalinger/introduksjon/malgruppe/ (lagt til 2026-10-23)
+- NSM ICT Security Principles (engelsk utgave): https://nsm.no/advice-and-guidance/publications/nsm-ict-security-principles (lagt til 2026-10-23)
+- Normen - mapping mot NSMs grunnprinsipper og ISO: https://www.helsedirektoratet.no/digitalisering-og-e-helse/normen-personvern-og-informasjonssikkerhet/normen/oversikt-over-normens-krav-og-mapping-mellom-nsms-grunnprinsipper-iso-og-ccm (lagt til 2026-10-23)
+- Sikkert.no - styring av informasjonssikkerhet og personopplysningsvern: https://www.sikkert.no/offentlig/artikler/styring-av-informasjonssikkerhet-og-personopplysningsvern (lagt til 2026-10-23)
 - Veileder i digitalsikkerhetsloven og -forskriften: https://www.sikkert.no/offentlig/artikler/digitalsikkerhetsloven-og-forskriften/veileder-i-digitalsikkerhetsloven-og-forskriften (lagt til 2026-03-18)
 - Introduksjon til digitalsikkerhetsloven og -forskriften: https://www.sikkert.no/offentlig/artikler/digitalsikkerhetsloven-og-forskriften/introduksjon (lagt til 2026-03-18)
 - Datatilsynet: https://www.datatilsynet.no/ (lagt til 2026-03-18)
