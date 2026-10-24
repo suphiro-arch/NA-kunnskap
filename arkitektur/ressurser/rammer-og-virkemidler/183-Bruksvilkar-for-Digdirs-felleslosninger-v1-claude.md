@@ -17,7 +17,7 @@ Aktiv.
 
 **Fakta:** Bruksvilkår for offentlige kunder er i versjon 1.8, gjeldende fra 5. januar 2026. Vilkårene ble første gang samlet for alle fellesløsningene i versjon 1.0 fra 1. juni 2018, og fikk dagens tittel og struktur med ett kapittel per løsning i versjon 1.7 fra 6. januar 2022. Signeringsdokumentet «Avtale om bruk av Digdirs fellesløsninger» er i versjon 1.4, gjeldende fra 1. januar 2021, og er fortsatt det dokumentet som signeres. Digdir fører en offentlig endringslogg for vilkårene på Samarbeidsportalen.
 
-**Fakta:** Digdir arbeider med en ny finansieringsmodell for fellesløsningene, med mål om at den kan tas i bruk fra 1. januar 2027. Arbeidet skjer i samarbeid med Digitaliserings- og forvaltningsdepartementet, og Styringsrådet for fellesløsningene er arena for involvering av brukervirksomhetene.
+**Fakta:** Regjeringen har vedtatt en ny finansieringsmodell for fellesløsningene med virkning fra 1. januar 2027, jf. Prop. 1 S (2026–2027) fra Digitaliserings- og forvaltningsdepartementet. Modellen er beskrevet i `DIGDIR-074` Finansieringsmodell for Digdirs fellesløsninger. Arbeidet skjer i samarbeid med Digitaliserings- og forvaltningsdepartementet, og Styringsrådet for fellesløsningene er arena for involvering av brukervirksomhetene.
 
 **Ikke offentlig dokumentert i denne arbeidsøkten:** Om og hvordan bruksvilkårene skal endres som følge av den nye finansieringsmodellen.
 

@@ -24,11 +24,12 @@ Ressursen er derfor mer enn en vanlig informasjonsside. Den fungerer som en fell
 Helsedata.no er samtidig ikke selv et helseregister, et analysemiljø eller en generell tverrsektoriell datakatalog. Rollen er å være felles inngang og prosessflate for helsedata, mens de underliggende registrene, registerforvalterne og analysemiljøene håndterer datainnhold, utlevering og videre bruk.
 
 ## Kapabiliteter
+
+Grunnlag: Kapabilitetssettet er beholdt fra gjeldende mapping, men begrunnelsene er skjerpet med tydeligere skille mellom oversikt, styring og brukerreise.
+
 - **Informasjonsforvaltning: Oversikt over datasett** Helsedata.no gir én samlet inngang til datakilder, variabler og åpne data, slik at brukere kan oppdage og vurdere relevante helsedatakilder før de søker.
 - **Informasjonsforvaltning: Datastyring** Løsningen støtter datastyring ved å strukturere tilgangsinformasjon, roller, prosessforventninger og metadata på tvers av mange dataforvaltere.
 - **Sluttbrukertjenester: Sammenhengende tjenester** Portalen binder sammen orientering, veiledning, søknad og oppfølging i en mer helhetlig brukerreise enn om hver dataforvalter hadde separate løp.
-
-Grunnlag: Kapabilitetssettet er beholdt fra gjeldende mapping, men begrunnelsene er skjerpet med tydeligere skille mellom oversikt, styring og brukerreise.
 
 ## Produktmål
 Dokumenterte og tydelig utledbare mål for ressursen er å:

@@ -24,11 +24,11 @@ FLERE-001
 A-ordningen er den samordnede nasjonale ordningen for at arbeidsgivere skal rapportere opplysninger om inntekt, arbeidsforhold, forskuddstrekk, utleggstrekk, arbeidsgiveravgift og finansskatt. Produktet erstatter flere tidligere skjema- og rapporteringsløp med én digital a-melding, og fungerer samtidig som en felles datakilde for Skatteetaten, NAV, SSB og andre aktører som har lovlig grunnlag for videre bruk. Verdien ligger både i forenklet rapportering og i at opplysningene kan gjenbrukes på tvers av etater og tjenester.
 
 ## Kapabiliteter
+Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot Skatteetatens beskrivelse av ordningen, styringsmodellen og viderebruk av opplysningene.
+
 - **Datakilder: Grunndata** er relevant fordi ordningen produserer og vedlikeholder sentrale opplysninger om arbeidsforhold og inntekt som brukes bredt i offentlig forvaltning.
 - **Datautveksling og integrasjon: Dele data med andre** er en kjernefunksjon ved at opplysningene distribueres videre til etater og andre aktører med hjemmel eller samtykke.
 - **Samarbeid: Organisatorisk samhandling** er sentralt fordi ordningen forvaltes og brukes i et samspill mellom flere offentlige virksomheter.
-
-Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot Skatteetatens beskrivelse av ordningen, styringsmodellen og viderebruk av opplysningene.
 
 ## Produktmål
 **Primærkilder:** Skatteetatens side `Om a-ordningen` og tilhørende informasjon om kontakt og bruk av opplysningene.

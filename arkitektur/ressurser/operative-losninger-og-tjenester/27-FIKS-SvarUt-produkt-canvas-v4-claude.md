@@ -24,14 +24,15 @@ KS-003
 Fiks SvarUt er KS Digitals sentraliserte utsendingstjeneste for utgående dokumentformidling. Tjenesten gjør det mulig for kommuner og andre offentlige virksomheter å sende dokumenter gjennom én felles distribusjonsmekanisme, i stedet for å bygge separate løp mot hver mottakerkanal. Fiks SvarUt kan brukes både gjennom integrasjon fra sak-/arkivsystemer og andre fagsystemer, og gjennom portalbaserte og manuelle arbeidsmåter. Tjenesten håndterer utgående post og formidler den videre til blant annet digital post til innbygger, Altinn, SvarInn eller print, avhengig av mottakertype og kanaltilgjengelighet.
 
 ## Kapabiliteter
+
+Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot dokumentert funksjon i KS Digitals produkt- og utviklerdokumentasjon kontrollert 2026-03-25.
+
 - **Datautveksling og integrasjon: Meldingsutveksling**
   Fiks SvarUt sin kjernefunksjon er å motta, rute og levere dokumentforsendelser til riktig kanal og mottaker.
 - **Samarbeid: Organisatorisk samhandling**
   Løsningen muliggjør et felles utsendingsløp mellom kommuner, andre offentlige virksomheter og sentrale mottakerkanaler.
 - **Sluttbrukertjenester: Sammenhengende tjenester**
   Fiks SvarUt bidrar til en mer sammenhengende mottakeropplevelse ved at samme forsendelse kan nå fram gjennom riktig kanal uten at avsender bygger ulike løsninger per kanal.
-
-Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot dokumentert funksjon i KS Digitals produkt- og utviklerdokumentasjon kontrollert 2026-03-25.
 
 ## Produktmål
 Dokumenterte mål:

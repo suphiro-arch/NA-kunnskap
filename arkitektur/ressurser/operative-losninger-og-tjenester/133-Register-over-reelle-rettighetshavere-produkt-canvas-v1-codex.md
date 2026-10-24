@@ -24,10 +24,11 @@ BRREG-004
 Register over reelle rettighetshavere er den nasjonale ressursen for opplysninger om hvilke fysiske personer som i siste instans eier eller kontrollerer en registreringspliktig virksomhet. Produktet gjør det mulig å avdekke faktisk kontroll bak juridiske enheter og er derfor særlig relevant i analyser og samhandling som handler om kontroll, tilsyn, økonomisk kriminalitet, anskaffelser, sikkerhet og andre situasjoner der formell registrering alene ikke er tilstrekkelig.
 
 ## Kapabiliteter
-- **Datakilder: Grunndata** er kjernefunksjonen ved at registeret gir autoritative opplysninger om faktisk eierskap og kontroll for registrerte virksomheter.
-- **Datautveksling og integrasjon: Dele data med andre** er en direkte og sterk kapabilitet fordi registeret har egen API-basert tilgjengeliggjøring for definerte brukergrupper og hjemler.
 
 Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot Brønnøysundregistrenes sider om registeret og API-tilgang til data om reelle rettighetshavere.
+
+- **Datakilder: Grunndata** er kjernefunksjonen ved at registeret gir autoritative opplysninger om faktisk eierskap og kontroll for registrerte virksomheter.
+- **Datautveksling og integrasjon: Dele data med andre** er en direkte og sterk kapabilitet fordi registeret har egen API-basert tilgjengeliggjøring for definerte brukergrupper og hjemler.
 
 ## Produktmål
 **Primærkilder:** Brønnøysundregistrenes sider `Reelle rettighetshavere` og `Data om reelle rettighetshavere`.

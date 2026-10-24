@@ -24,11 +24,12 @@ KART-002
 Geonorge er den nasjonale fellesløsningen for å finne, beskrive, registrere og distribuere kartdata og annen stedfestet informasjon i Norge. Produktet samler metadata om datasett og tjenester, tilbyr søk og API-er, og støtter flere distribusjonsmåter for geodata fra mange offentlige datatilbydere. Geonorge er derfor både en portal, en metadata- og katalogløsning og en delingsinfrastruktur for geodata på tvers av sektorer.
 
 ## Kapabiliteter
+
+Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot Kartverkets og Geonorges beskrivelser av katalog, API-er og distribusjon.
+
 - **Informasjonsforvaltning: Oversikt over datasett** er kjernefunksjon ved at Geonorge gir nasjonal oversikt over tilgjengelige geodata og metadata.
 - **Datautveksling og integrasjon: Dele data med andre** er relevant fordi Geonorge støtter distribusjon, API-er og tilgjengeliggjøring av geodata fra mange aktører.
 - **Datadrevet: Visualisering** er relevant fordi Geonorge har en egen kartløsning der datasett med tilknyttet visningstjeneste (WMS) kan legges til og vises i kart fra Kartkatalogen, og fordi karttjenestene fra Geonorge kan brukes til kartvisning i nettlesere, webapplikasjoner og kartprogrammer.
-
-Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot Kartverkets og Geonorges beskrivelser av katalog, API-er og distribusjon.
 
 ## Produktmål
 **Primærkilder:** Sidene `Om Geonorge`, `Geografisk infrastruktur`, `Distribuere data gjennom Geonorge` og utviklersidene for API-er.

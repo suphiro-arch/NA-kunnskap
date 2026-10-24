@@ -24,11 +24,12 @@ SKATT-001
 Folkeregisteret er det nasjonale grunndataregisteret for personopplysninger i Norge. Produktet forvalter autoritative opplysninger om identitet, navn, adresse, statsborgerskap, familierelasjoner, foreldreansvar, sivilstand og andre sentrale forhold som mange offentlige og private aktører bygger sine tjenester på. Folkeregisteret er derfor mer enn en innbyggertjeneste for oppdatering og attester: det er den sentrale registerressursen som gir samfunnet ett felles og pålitelig persongrunnlag.
 
 ## Kapabiliteter
+
+Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot Skatteetatens beskrivelser av Folkeregisteret og delingstjenestene.
+
 - **Datakilder: Grunndata** er kjernefunksjonen ved at Folkeregisteret er den autoritative kilden for sentrale personopplysninger i Norge.
 - **Datautveksling og integrasjon: Dele data med andre** gjør opplysninger tilgjengelige for andre virksomheter gjennom kontrollerte delingstjenester og oppslag basert på hjemmel.
 - **Datautveksling og integrasjon: Hendelsesdrevet** realiseres gjennom hendelseslista, som publiserer endringer i registeret fortløpende som en feed med sekvensnummer, slik at virksomheter med tilgang kan holde egne registre oppdatert og reagere på endringer uten periodiske oppslag.
-
-Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot Skatteetatens beskrivelser av Folkeregisteret og delingstjenestene.
 
 ## Produktmål
 **Primærkilder:** Skatteetatens sider `Dette er Folkeregisteret`, `Folkeregister` og informasjon om delingstjenestene.

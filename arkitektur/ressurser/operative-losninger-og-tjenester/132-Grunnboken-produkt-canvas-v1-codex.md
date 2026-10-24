@@ -24,10 +24,11 @@ KART-003
 Grunnboken er det nasjonale registeret for tinglyste rettigheter, hjemmelsopplysninger og heftelser knyttet til fast eiendom og borettslagsandeler. Produktet gjør det mulig å kontrollere hvem som er registrert som tinglyst eier, hvilke rettigheter som er heftet på en eiendom, og hvilke dokumenterte forpliktelser som følger eiendommen. Grunnboken er et tverrgående datagrunnlag når flere virksomheter trenger et pålitelig rettslig bilde av eiendomsforhold.
 
 ## Kapabiliteter
-- **Datakilder: Grunndata** er kjernefunksjonen ved at Grunnboken fungerer som autoritativ kilde for tinglyste rettigheter, heftelser og hjemmelsopplysninger.
-- **Datautveksling og integrasjon: Dele data med andre** er sentralt fordi opplysninger fra Grunnboken brukes i eiendomshandel, kredittvurdering, offentlig kontroll og annen saksbehandling på tvers av sektorer og nivåer.
 
 Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot Kartverkets beskrivelser av Grunnboken og Kartverkets oversikt over eiendomsdata.
+
+- **Datakilder: Grunndata** er kjernefunksjonen ved at Grunnboken fungerer som autoritativ kilde for tinglyste rettigheter, heftelser og hjemmelsopplysninger.
+- **Datautveksling og integrasjon: Dele data med andre** er sentralt fordi opplysninger fra Grunnboken brukes i eiendomshandel, kredittvurdering, offentlig kontroll og annen saksbehandling på tvers av sektorer og nivåer.
 
 ## Produktmål
 **Primærkilder:** Kartverkets sider `Om grunnboken` og `Tilgang til eiendomsdata`.

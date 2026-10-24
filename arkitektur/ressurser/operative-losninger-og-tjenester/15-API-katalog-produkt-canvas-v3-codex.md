@@ -24,11 +24,12 @@ DIGDIR-013
 API-katalog er den nasjonale delkatalogen for å beskrive og synliggjøre API-er i offentlig sektor. Produktet gjør det mulig å publisere standardiserte beskrivelser av datatjenester, søke i dem og se hvordan API-er henger sammen med datasett og informasjonsmodeller. Løsningen er en del av Felles datakatalog, men skiller seg fra den overordnede katalogen ved å være spesialisert på maskinelle grensesnitt og datatjenester, ikke på hele bredden av dataressurser.
 
 ## Kapabiliteter
+
+Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot API-katalogen på data.norge.no, teknisk dokumentasjon og Digdirs sider om Felles datakatalog.
+
 - **Informasjonsforvaltning: Informasjonsarkitektur** gjør API-er synlige som del av en større struktur av dataressurser, modeller og sammenhenger.
 - **Informasjonsforvaltning: Oversikt over API** er produktets kjernefunksjon ved at API-beskrivelser kan publiseres, søkes opp og vurderes.
 - **Standardisering: Forvaltningsstandarder** bygger på standardisert beskrivelse av datatjenester og gjør API-metadata mer sammenlignbare og gjenbrukbare.
-
-Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot API-katalogen på data.norge.no, teknisk dokumentasjon og Digdirs sider om Felles datakatalog.
 
 ## Produktmål
 **Primærkilder:** API-katalogen på data.norge.no, data.norge.no `About` og teknisk dokumentasjon for data.norge.no.

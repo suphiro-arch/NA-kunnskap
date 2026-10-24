@@ -24,11 +24,12 @@ Ressursen har flere operative flater enn det som vises i en ren registerbeskrive
 Dødsårsaksregisteret skal ikke forstås som en generell analyseplattform, et klinisk oppfølgingssystem eller en bred innbyggerportal. Rollen er å være den nasjonale sannhetskilden for dødsårsaksopplysninger og å gjøre disse tilgjengelige gjennom kontrollerte statistikk- og datatilgangsløp.
 
 ## Kapabiliteter
+
+Grunnlag: Kapabilitetssettet er beholdt fra gjeldende mapping, men teksten er skjerpet med tydeligere kobling til statistikk, datatilgang og styringsbruk.
+
 - **Datakilder: Grunndata** Dødsårsaksregisteret er den autoritative nasjonale kilden for opplysninger om dødsfall og dødsårsaker og gir et konsistent grunnlag for videre bruk over tid.
 - **Datautveksling og integrasjon: Dele data med andre** Registeret deler data gjennom åpne statistikkbanker og søknadsbasert tilgjengeliggjøring via helsedata.no og Folkehelseinstituttet.
 - **Informasjonsforvaltning: Datastyring** Ressursen understøtter nasjonal datastyring av et kritisk helsedomene gjennom standardiserte variabler, lovforankret formål og kontrollert tilgang.
-
-Grunnlag: Kapabilitetssettet er beholdt fra gjeldende mapping, men teksten er skjerpet med tydeligere kobling til statistikk, datatilgang og styringsbruk.
 
 ## Produktmål
 Dokumenterte og tydelig utledbare mål for ressursen er å:

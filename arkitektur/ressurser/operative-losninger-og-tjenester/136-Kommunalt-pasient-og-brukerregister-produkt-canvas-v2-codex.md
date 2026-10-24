@@ -24,11 +24,12 @@ Ressursen er viktig fordi den gir et felles nasjonalt grunnlag for planlegging, 
 KPR er samtidig tydelig avgrenset. Det er ikke et journalsystem, ikke en generell sektoruavhengig dataplattform og ikke en erstatning for Helsedata.no som felles inngang til datatilgang. Rollen er å være autoritativ registerkilde for kommunale helse- og omsorgstjenester og å gjøre dette grunnlaget tilgjengelig gjennom kontrollerte løp.
 
 ## Kapabiliteter
+
+Grunnlag: Kapabilitetssettet er beholdt fra gjeldende mapping, men begrunnelsene er skjerpet med tydeligere kobling til nasjonal rapportering, sekundærbruk og kommunal styringsverdi.
+
 - **Datakilder: Grunndata** KPR er den nasjonale autoritative kilden for data om kommunale helse- og omsorgstjenester og gir et felles grunnlag på tvers av kommuner og tjenestetyper.
 - **Datautveksling og integrasjon: Dele data med andre** Registeret gjør opplysninger tilgjengelige gjennom kontrollerte søknads- og utleveringsløp for forskning, analyse, styring og andre lovlige formål.
 - **Informasjonsforvaltning: Datastyring** KPR understøtter datastyring ved å strukturere nasjonal rapportering, samle data i ett register og bruke dette som grunnlag for oppfølging, finansiering og utvikling.
-
-Grunnlag: Kapabilitetssettet er beholdt fra gjeldende mapping, men begrunnelsene er skjerpet med tydeligere kobling til nasjonal rapportering, sekundærbruk og kommunal styringsverdi.
 
 ## Produktmål
 Dokumenterte og tydelig utledbare mål for ressursen er å:

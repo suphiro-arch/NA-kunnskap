@@ -21,11 +21,12 @@ KS-006
 Fiks digiorden er KS Digitals styrings- og oversiktsløsning for kommunal informasjonsforvaltning. Løsningen hjelper kommuner med å få oversikt over applikasjoner, datasett og sentrale styringsopplysninger i eget digitalt landskap, slik at det blir lettere å planlegge prosjekter, vurdere konsekvenser og bruke fellesløsninger mer målrettet. Produktet er særlig relevant når kommunen trenger beslutningsstøtte og systematisk oversikt over hvilke data, systemer og tjenester som allerede finnes.
 
 ## Kapabiliteter
+
+Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot dokumentert funksjon i KS Digitals kilder brukt i denne arbeidsøkten.
+
 - **Informasjonsforvaltning: Datastyring** er direkte relevant fordi løsningen brukes som styringsverktøy for å holde oversikt over applikasjoner, data og tilhørende forvaltningsinformasjon.
 - **Informasjonsforvaltning: Oversikt over datasett** er direkte relevant fordi produktet gir kommunen oversikt over hvilke datasett som finnes i eget landskap.
 - **Informasjonsforvaltning: Oversikt over tjenester** er relevant fordi løsningen gjør det enklere å se hvilke applikasjoner og fellestjenester som allerede er i bruk og dermed hvilke ressurser som bør gjenbrukes.
-
-Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot dokumentert funksjon i KS Digitals kilder brukt i denne arbeidsøkten.
 
 ## Produktmål
 Dokumenterte mål:

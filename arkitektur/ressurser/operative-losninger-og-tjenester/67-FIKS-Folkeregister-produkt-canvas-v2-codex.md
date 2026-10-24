@@ -24,10 +24,11 @@ KS-008
 Fiks folkeregister gir kommuner og fylkeskommuner kontrollert tilgang til opplysninger fra Folkeregisteret gjennom Fiks. Produktet kan brukes både som oppslagsløsning i Fiks forvaltning og som maskin-til-maskin-integrasjon mot kommunale fagsystemer. Løsningen er særskilt relevant når kommunal sektor trenger oppdaterte person- og kontaktopplysninger i operative arbeidsprosesser, men ønsker å bruke et felles kommunalt tilgangslag med innebygd rolleforvaltning, dataminimering og hjemmelsstyring.
 
 ## Kapabiliteter
-- **Datakilder: Grunndata** er direkte relevant fordi løsningen gjør autoritative folkeregisteropplysninger tilgjengelige for kommunal sektor gjennom et kontrollert tilgangslag.
-- **Datautveksling og integrasjon: Bruke data fra andre** er kjernefunksjonen fordi kommunale fagsystemer og saksbehandlere bruker løsningen for å hente data fra en annen virksomhets register i egne prosesser.
 
 Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot dokumentert funksjon i KS Digitals og Skatteetatens kilder kontrollert 2026-05-26.
+
+- **Datakilder: Grunndata** er direkte relevant fordi løsningen gjør autoritative folkeregisteropplysninger tilgjengelige for kommunal sektor gjennom et kontrollert tilgangslag.
+- **Datautveksling og integrasjon: Bruke data fra andre** er kjernefunksjonen fordi kommunale fagsystemer og saksbehandlere bruker løsningen for å hente data fra en annen virksomhets register i egne prosesser.
 
 ## Produktmål
 Dokumenterte mål:

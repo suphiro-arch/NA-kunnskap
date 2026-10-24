@@ -24,13 +24,14 @@ DIGDIR-011
 Felles datakatalog er den nasjonale fellesløsningen for å beskrive og synliggjøre dataressurser på en standardisert måte. Produktet gjør det mulig å registrere eller høste metadata om datasett, API-er, begreper og informasjonsmodeller, og å gjøre disse ressursene søkbare og forståelige på tvers av virksomheter. data.norge.no er den viktigste brukerflaten for å oppdage innholdet, men Felles datakatalog er bredere enn portalen: det er et samlet produktområde for metadataforvaltning, publisering og gjenfinning av dataressurser.
 
 ## Kapabiliteter
+
+Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot Digdir-sidene for Felles datakatalog, Samarbeidsportalen og data.norge.no.
+
 - **Informasjonsforvaltning: Oversikt over API** gjør maskinelle grensesnitt synlige som del av en felles nasjonal oversikt over tilgjengelige dataressurser.
 - **Informasjonsforvaltning: Oversikt over begreper** kobler dataressurser til begrepsbeskrivelser og styrker felles forståelse av hva data betyr.
 - **Informasjonsforvaltning: Oversikt over datasett** er en kjernefunksjon ved at datasett beskrives, publiseres og gjøres søkbare på tvers av virksomheter.
 - **Informasjonsforvaltning: Oversikt over informasjonsmodeller** gjør det mulig å synliggjøre modeller som forklarer struktur og sammenheng i dataene.
 - **Standardisering: Forvaltningsstandarder** bygger på standardiserte metadataformater og felles publiseringspraksis som gjør innholdet sammenlignbart og høstbart.
-
-Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot Digdir-sidene for Felles datakatalog, Samarbeidsportalen og data.norge.no.
 
 ## Produktmål
 **Primærkilder:** Digdir-siden for Felles datakatalog, Samarbeidsportalen og Digdirs kravside for registrering av datasett.

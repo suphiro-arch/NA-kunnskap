@@ -115,7 +115,7 @@ Operative mål utledet fra de samme kildene:
 | Avhengigheter | eInnsyn kan bli vurdert som erstatning for lokale dokument- og arkivløsninger | Tydelig avgrensning mellom publisering, innsyn og intern forvaltning |
 
 ## Kanaler
-- Produktside: https://www.digdir.no/einnsyn/om-einnsyn/2262
+- Tjenesten: https://einnsyn.no/
 - Teknisk dokumentasjon: https://docs.digdir.no/docs/eInnsyn/index.html
 - Samarbeidsportal: https://samarbeid.digdir.no/einnsyn/dette-er-einnsyn/81
 - Ta i bruk: https://samarbeid.digdir.no/einnsyn/ta-i-bruk-einnsyn/99
@@ -166,7 +166,7 @@ eInnsyn er en felles publiserings- og innsynsplattform som samhandler med virkso
 | Styringsmodell | Del av Digdirs portefølje for eInnsyn | Samarbeidsportalen |
 
 ## Lenke til dokumentasjon
-- https://www.digdir.no/einnsyn/om-einnsyn/2262
+- https://einnsyn.no/
 - https://docs.digdir.no/docs/eInnsyn/index.html
 - https://samarbeid.digdir.no/einnsyn/dette-er-einnsyn/81
 - https://samarbeid.digdir.no/einnsyn/ta-i-bruk-einnsyn/99

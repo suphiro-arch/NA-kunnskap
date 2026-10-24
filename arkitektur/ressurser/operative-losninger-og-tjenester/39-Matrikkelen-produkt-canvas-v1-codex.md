@@ -24,10 +24,11 @@ KART-001
 Matrikkelen er det nasjonale grunndataregisteret for eiendommer, bygninger, adresser og offisielle eiendomsidentifikatorer i Norge. Produktet gjør det mulig å registrere, forvalte og bruke autoritative opplysninger om fast eiendom og tilhørende objekter på tvers av sektorer og forvaltningsnivåer. Matrikkelen er derfor mer enn en innsynstjeneste: den er den sentrale registerløsningen som mange andre tjenester og beslutningsprosesser bygger på når de trenger pålitelig informasjon om eiendom, bygg og adresser.
 
 ## Kapabiliteter
-- **Datakilder: Grunndata** er kjernefunksjonen ved at Matrikkelen fungerer som autoritativ kilde for sentrale opplysninger om eiendommer, bygninger og adresser.
-- **Datautveksling og integrasjon: Dele data med andre** gjør opplysninger fra Matrikkelen tilgjengelige for mange andre virksomheter og tjenester som trenger eiendoms- og adressegrunnlag.
 
 Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot Kartverkets beskrivelser av Matrikkelen som offisielt register, nasjonal fellesløsning og statlig felleskomponent.
+
+- **Datakilder: Grunndata** er kjernefunksjonen ved at Matrikkelen fungerer som autoritativ kilde for sentrale opplysninger om eiendommer, bygninger og adresser.
+- **Datautveksling og integrasjon: Dele data med andre** gjør opplysninger fra Matrikkelen tilgjengelige for mange andre virksomheter og tjenester som trenger eiendoms- og adressegrunnlag.
 
 ## Produktmål
 **Primærkilder:** Kartverkets side `Dette er matrikkelen`, tilgangssider for Matrikkelen og veiledningssider om bygninger og adresser i Matrikkelen.

@@ -24,10 +24,11 @@ DIGDIR-005
 Kontakt- og reservasjonsregisteret er den nasjonale fellesløsningen for å finne innbyggeres digitale kontaktopplysninger og kontrollere om en innbygger er reservert mot digital kommunikasjon. Produktet gir offentlige virksomheter én felles kilde før de sender digital post, varsler eller annen digital kommunikasjon. Løsningen er særlig relevant når en virksomhet trenger pålitelig grunnlag for kanalvalg, men den erstatter ikke selve utsendings- eller varslingsløsningen.
 
 ## Kapabiliteter
-- **Datakilder: Grunndata** fungerer som en felles autoritativ kilde for kontaktopplysninger og reservasjonsstatus som andre offentlige løsninger kan bygge på.
-- **Datautveksling og integrasjon: Dele data med andre** gjør grunndata tilgjengelig for offentlige virksomheter gjennom et standardisert oppslag og bruksløp.
 
 Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot dokumentert funksjon i Digdir Docs og Samarbeidsportalen.
+
+- **Datakilder: Grunndata** fungerer som en felles autoritativ kilde for kontaktopplysninger og reservasjonsstatus som andre offentlige løsninger kan bygge på.
+- **Datautveksling og integrasjon: Dele data med andre** gjør grunndata tilgjengelig for offentlige virksomheter gjennom et standardisert oppslag og bruksløp.
 
 ## Produktmål
 **Primærkilder:** Digdir Docs for Kontaktregisteret og Samarbeidsportalen for produktområdet.

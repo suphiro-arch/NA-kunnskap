@@ -24,10 +24,11 @@ KART-004
 Sentralt stedsnavnregister er den nasjonale ressursen for offisielle stedsnavn og godkjente navneformer i Norge. Produktet gjør det mulig å bruke et felles og autoritativt navnegrunnlag i kart, saksbehandling, beredskap, analyse, kommunikasjon og digitale tjenester. Konsistente stedsnavn er en forutsetning når data, hendelser og tjenester skal kobles til samme geografiske virkelighet på tvers av sektorer og forvaltningsnivåer.
 
 ## Kapabiliteter
-- **Datakilder: Grunndata** er kjernefunksjonen ved at registeret gir autoritative opplysninger om offisielle stedsnavn og navneformer.
-- **Datautveksling og integrasjon: Dele data med andre** er direkte relevant fordi stedsnavndata må kunne brukes videre i kartløsninger, geodatatjenester, beredskapssystemer og andre digitale løsninger på tvers.
 
 Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot Kartverkets beskrivelser av stedsnavndata som nasjonal datakilde og del av felles geodatagrunnlag.
+
+- **Datakilder: Grunndata** er kjernefunksjonen ved at registeret gir autoritative opplysninger om offisielle stedsnavn og navneformer.
+- **Datautveksling og integrasjon: Dele data med andre** er direkte relevant fordi stedsnavndata må kunne brukes videre i kartløsninger, geodatatjenester, beredskapssystemer og andre digitale løsninger på tvers.
 
 ## Produktmål
 **Primærkilde:** Kartverkets side `Stedsnavndata / Sentralt stedsnavnregister`.

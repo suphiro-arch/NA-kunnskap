@@ -26,10 +26,11 @@ Ressursen må i praksis forstås bredere enn selve registerkjernen. For analyse-
 Enhetsregisteret er det nasjonale grunndataregisteret for virksomheter i Norge. Produktet samler og tilgjengeliggjør basisopplysninger om juridiske enheter og andre virksomheter, og tildeler organisasjonsnummer som felles identifikator. Enhetsregisteret er derfor mer enn en registreringstjeneste: det er den sentrale virksomhetsressursen som mange andre registre, tjenester og integrasjoner bygger på når de trenger autoritative opplysninger om organisasjoner.
 
 ## Kapabiliteter
-- **Datakilder: Grunndata** er kjernefunksjonen ved at Enhetsregisteret fungerer som autoritativ kilde for basisopplysninger om virksomheter.
-- **Datautveksling og integrasjon: Dele data med andre** gjør grunndata tilgjengelige gjennom åpne tjenester, daglige endringer og maskinell tilgang for offentlig og privat sektor.
 
 Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot Brønnøysundregistrenes beskrivelser av Enhetsregisteret og maskinell tilgang.
+
+- **Datakilder: Grunndata** er kjernefunksjonen ved at Enhetsregisteret fungerer som autoritativ kilde for basisopplysninger om virksomheter.
+- **Datautveksling og integrasjon: Dele data med andre** gjør grunndata tilgjengelige gjennom åpne tjenester, daglige endringer og maskinell tilgang for offentlig og privat sektor.
 
 ## Produktmål
 **Primærkilder:** Brønnøysundregistrenes sider `Om Enhetsregisteret`, `Om organisasjonsnummeret` og `Full tilgang Enhetsregisteret`.

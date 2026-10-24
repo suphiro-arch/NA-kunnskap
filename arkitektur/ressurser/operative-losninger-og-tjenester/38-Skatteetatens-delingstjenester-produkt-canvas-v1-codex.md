@@ -24,9 +24,10 @@ SKATT-002
 Skatteetatens delingstjenester er den samlede produktflaten for kontrollert viderebruk av data fra Skatteetaten. Produktet gjør det mulig for andre virksomheter å hente ut opplysninger gjennom API-er og tilhørende avtale- og tilgangsløp, i stedet for å basere seg på manuelle bestillinger eller punktvise filutvekslinger. Verdien ligger ikke bare i de enkelte datasettene, men i at Skatteetaten tilbyr en felles og styrt delingsmodell for datakonsumenter på tvers av sektorer og bransjer.
 
 ## Kapabiliteter
-- **Datautveksling og integrasjon: Dele data med andre** er kjernefunksjonen ved at produktet er laget for å tilgjengeliggjøre data fra Skatteetaten til andre virksomheter gjennom API-er og kontrollerte tilgangsløp.
 
 Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot Skatteetatens sider for deling, bruksvilkår og kontakt-/samhandlingsmodell.
+
+- **Datautveksling og integrasjon: Dele data med andre** er kjernefunksjonen ved at produktet er laget for å tilgjengeliggjøre data fra Skatteetaten til andre virksomheter gjennom API-er og kontrollerte tilgangsløp.
 
 ## Produktmål
 **Primærkilder:** Skatteetatens sider `Bruke data fra Skatteetaten`, `Hvorfor vi deler data`, `Kontakt oss om deling av data` og `Bruksvilkår for delingstjenester om inntekt, skatt og restanser`.

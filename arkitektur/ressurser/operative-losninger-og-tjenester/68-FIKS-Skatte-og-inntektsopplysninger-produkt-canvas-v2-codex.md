@@ -24,10 +24,11 @@ KS-009
 Fiks skatte- og inntektsopplysninger er KS Digitals tilgangstjeneste for kommunal bruk av skatte- og inntektsdata fra Skatteetaten gjennom Fiks. Løsningen er laget for konkrete kommunale tjenesteområder der saksbehandlere trenger oppdatert og relevant inntektsgrunnlag som del av vedtak og beregninger. Produktet kan brukes både i en nettsideløsning for oppslag i Fiks forvaltning og som integrert tjeneste i kommunens egne fagsystemer. I praksis fungerer det som et spesialisert tilgangslag og beregningsnært overbygg over Skatteetatens delingstjenester, med innebygd dataminimering, rollebasert tilgang og hjemmelsstyring per tjenesteområde.
 
 ## Kapabiliteter
-- **Datakilder: Grunndata** er direkte relevant fordi løsningen gjør autoritative skatte- og inntektsopplysninger fra Skatteetaten anvendbare i kommunale prosesser gjennom et kontrollert tilgangslag.
-- **Datautveksling og integrasjon: Bruke data fra andre** er kjernefunksjonen fordi kommuner og kommunale fagsystemer bruker løsningen for å hente og anvende data fra en annen virksomhets delingstjenester i egne arbeidsprosesser.
 
 Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot KS Digitals produkt-, utvikler- og segmentsider samt Skatteetatens bruksvilkår kontrollert 2026-05-26.
+
+- **Datakilder: Grunndata** er direkte relevant fordi løsningen gjør autoritative skatte- og inntektsopplysninger fra Skatteetaten anvendbare i kommunale prosesser gjennom et kontrollert tilgangslag.
+- **Datautveksling og integrasjon: Bruke data fra andre** er kjernefunksjonen fordi kommuner og kommunale fagsystemer bruker løsningen for å hente og anvende data fra en annen virksomhets delingstjenester i egne arbeidsprosesser.
 
 ## Produktmål
 Dokumenterte mål:

@@ -23,11 +23,12 @@ SVV-002
 NVDB er den nasjonale datakilden for informasjon om vegnettet og en lang rekke vegrelaterte objekter i Norge. Ressursen samler, forvalter og tilgjengeliggjør vegdata som brukes i forvaltning, analyse, planlegging og digital samhandling. NVDB er derfor ikke bare et fagregister for samferdsel, men et nasjonalt informasjonsgrunnlag med verdi på tvers, blant annet for beredskap, sikkerhet, klima- og bærekraftsarbeid, arealplanlegging og samordning mellom stat, fylke og kommune.
 
 ## Kapabiliteter
+
+Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot NVDB som nasjonal datakilde og delingsressurs for vegrelatert informasjon.
+
 - **Datakilder: Grunndata** er relevant fordi NVDB fungerer som en autoritativ kilde til sentrale vegdata som andre aktører kan bygge videre på.
 - **Informasjonsforvaltning: Oversikt over datasett** er relevant fordi ressursen gjør vegdata forståelige og tilgjengelige som et felles informasjonsgrunnlag.
 - **Datautveksling og integrasjon: Dele data med andre** er relevant fordi verdien av NVDB nettopp ligger i at data kan brukes og gjenbrukes av mange ulike aktører og løsninger.
-
-Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot NVDB som nasjonal datakilde og delingsressurs for vegrelatert informasjon.
 
 ## Produktmål
 **Primærkilde:** Statens vegvesens side om Nasjonal vegdatabank.

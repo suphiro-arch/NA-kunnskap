@@ -22,10 +22,11 @@ DSOP-tjenester er den operative leveranseflaten i DSOP-arbeidet: konkrete datade
 Avgrensningen mellom de to er tydelig. `DSOP-samarbeidet` er styrings- og realiseringsarenaen som prioriterer og forankrer initiativer, mens `DSOP-tjenester` er de operative løpene som faktisk brukes når data skal deles eller innhentes i konkrete offentlig-private prosesser.
 
 ## Kapabiliteter
-- **Datautveksling og integrasjon: Dele data med andre** gjør det mulig å etablere kontrollerte delingsløp mellom offentlige virksomheter og finansnæringen i konkrete brukssituasjoner.
-- **Samarbeid: Organisatorisk samhandling** er nødvendig fordi tjenestene realiseres og forvaltes i samspill mellom aktører som ikke deler samme styringslinje.
 
 Grunnlag: Kapabilitetene er beholdt fra gjeldende mapping, men forklaringene er strammet inn for å skille tydeligere mellom den operative tjenesteporteføljen og samarbeidsforumet rundt den.
+
+- **Datautveksling og integrasjon: Dele data med andre** gjør det mulig å etablere kontrollerte delingsløp mellom offentlige virksomheter og finansnæringen i konkrete brukssituasjoner.
+- **Samarbeid: Organisatorisk samhandling** er nødvendig fordi tjenestene realiseres og forvaltes i samspill mellom aktører som ikke deler samme styringslinje.
 
 ## Produktmål
 Dokumenterte og tydelig utledbare mål for ressursen er å:

@@ -24,10 +24,11 @@ KS-010
 Fiks kjøretøyregister er KS Digitals API-baserte tilgangstjeneste til Statens vegvesens kjøretøyregister via Fiks-plattformen. Produktet gjør det mulig for kommunale fagsystemer å slå opp kjøretøy og eierforhold uten å etablere egne separate tilkoblinger mot Statens vegvesens grensesnitt. Løsningen speiler sentrale oppslagstjenester fra kilden, men legger dem inn i Fiks sitt autentiserings- og integrasjonsmønster. Produktet er særlig relevant der kommuner trenger kjøretøyopplysninger som del av operative prosesser som parkering, gebyrhåndtering, feilparkering, brøyting og andre oppgaver knyttet til kjøretøy i kommunal forvaltning.
 
 ## Kapabiliteter
-- **Datakilder: Grunndata** er direkte relevant fordi løsningen gjør autoritative kjøretøyopplysninger fra Statens vegvesen tilgjengelige for kommunal sektor gjennom et kontrollert tilgangslag.
-- **Datautveksling og integrasjon: Bruke data fra andre** er kjernefunksjonen fordi kommunale fagsystemer bruker løsningen til å hente data fra en annen virksomhets register i egne operative prosesser.
 
 Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot dokumentert funksjon i KS Digitals produkt- og utviklerdokumentasjon kontrollert 2026-03-26.
+
+- **Datakilder: Grunndata** er direkte relevant fordi løsningen gjør autoritative kjøretøyopplysninger fra Statens vegvesen tilgjengelige for kommunal sektor gjennom et kontrollert tilgangslag.
+- **Datautveksling og integrasjon: Bruke data fra andre** er kjernefunksjonen fordi kommunale fagsystemer bruker løsningen til å hente data fra en annen virksomhets register i egne operative prosesser.
 
 ## Produktmål
 Dokumenterte mål:

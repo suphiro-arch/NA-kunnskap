@@ -24,12 +24,13 @@ DIGDIR-012
 Begrepskatalog er den nasjonale delkatalogen for å beskrive og synliggjøre begreper som brukes i offentlig sektor. Produktet gjør det mulig å publisere begrepsbeskrivelser etter en felles standard, søke i dem, sammenligne begreper og bruke dem som semantisk grunnlag for datasett, API-er og informasjonsmodeller. Løsningen er en del av Felles datakatalog, men skiller seg fra den overordnede katalogen ved å være spesialisert på begrepsforståelse og semantisk avklaring.
 
 ## Kapabiliteter
+
+Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot data.norge.no, teknisk dokumentasjon og Digdirs sider om Felles datakatalog.
+
 - **Informasjonsforvaltning: Datastyring** støtter forvaltning av begreper som en del av virksomhetenes samlede informasjonsforvaltning.
 - **Informasjonsforvaltning: Informasjonsarkitektur** gir et semantisk grunnlag som kan brukes i modeller, API-er og databeskrivelser.
 - **Informasjonsforvaltning: Oversikt over begreper** er produktets kjernefunksjon ved at begreper kan publiseres, søkes opp og sammenlignes.
 - **Standardisering: Forvaltningsstandarder** bygger på felles standard for begrepsbeskrivelser og gjør innholdet mer sammenlignbart og gjenbrukbart.
-
-Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot data.norge.no, teknisk dokumentasjon og Digdirs sider om Felles datakatalog.
 
 ## Produktmål
 **Primærkilder:** Begrepskatalogen på data.norge.no, teknisk dokumentasjon for data.norge.no og Digdir-sidene for Felles datakatalog.

@@ -24,10 +24,11 @@ KS-004
 Fiks register er KS Digitals overordnede registerfamilie for kommunal tilgang til nasjonale registerdata. Løsningen samler flere kilder og undertjenester i samme tjenesteområde, slik at kommuner og fylkeskommuner kan bruke et felles oppslags- og integrasjonsmønster i stedet for å etablere separate løp mot hver datakilde. Produktet kan brukes både gjennom Fiks forvaltning for saksbehandlere og gjennom integrasjon mot kommunale fagsystemer. Verdien ligger derfor i tilgangslaget, styringen og den felles forvaltningen av registerbruk, ikke i eierskap til de underliggende dataene.
 
 ## Kapabiliteter
-- **Datakilder: Grunndata** er relevant fordi Fiks register gjør flere autoritative datakilder operative i kommunal sektor gjennom ett samlet og kontrollert tilgangslag.
-- **Datautveksling og integrasjon: Bruke data fra andre** er kjernefunksjonen fordi produktet gir kommuner og fylkeskommuner et standardisert løp for å hente og bruke data fra andre virksomheters registre.
 
 Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot KS Digitals produkt- og prismateriale kontrollert 2026-05-26.
+
+- **Datakilder: Grunndata** er relevant fordi Fiks register gjør flere autoritative datakilder operative i kommunal sektor gjennom ett samlet og kontrollert tilgangslag.
+- **Datautveksling og integrasjon: Bruke data fra andre** er kjernefunksjonen fordi produktet gir kommuner og fylkeskommuner et standardisert løp for å hente og bruke data fra andre virksomheters registre.
 
 ## Produktmål
 Dokumenterte mål:

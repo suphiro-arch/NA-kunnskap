@@ -24,12 +24,13 @@ SIKT-002
 Felles studentsystem (FS) er den nasjonale plattformen for studieadministrative data og prosesser i høyere utdanning. Produktet forvalter og tilgjengeliggjør informasjon om studenter, studier, opptak, resultater og kvalifikasjoner, og fungerer som informasjonsnav for både interne arbeidsprosesser, studentnære tjenester og maskinell datadeling. FS er derfor mer enn ett administrativt system: det er den felles sektorløsningen som gjør det mulig å bygge sammenheng mellom studieadministrasjon, opptak, resultatutveksling og videre bruk av studentdata.
 
 ## Kapabiliteter
+
+Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot Sikts tjenestesider, FS-dokumentasjonen og API-katalogen.
+
 - **Datautveksling og integrasjon: Bruke data fra andre** er relevant fordi FS inngår i flere samhandlingsløp og mottar opplysninger i studieadministrative prosesser.
 - **Datautveksling og integrasjon: Dele data med andre** er en kjernefunksjon ved at FS tilbyr API-er, meldingskøer og andre integrasjonsflater for videre bruk av data.
 - **Informasjonsforvaltning: Datastyring** er sentralt fordi FS forvalter, strukturerer og vedlikeholder store mengder studie- og studentdata som grunnlag for mange prosesser.
 - **Samarbeid: Organisatorisk samhandling** er relevant fordi FS er en felles sektorløsning som brukes av mange institusjoner med Sikt som felles forvalter.
-
-Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot Sikts tjenestesider, FS-dokumentasjonen og API-katalogen.
 
 ## Produktmål
 **Primærkilder:** Sikts sider for `Felles studentsystem`, `fs.sikt.no` og teknisk dokumentasjon for FS-API.

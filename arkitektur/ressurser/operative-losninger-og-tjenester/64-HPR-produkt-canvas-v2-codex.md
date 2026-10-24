@@ -24,10 +24,11 @@ Ressursen er mer enn en passiv registerdatabase. Den har en offentlig søkeflate
 HPR bør samtidig avgrenses tydelig. Registeret er ikke et journalsystem, et HR-system eller en full tilgangsstyringsløsning. Dets rolle er å vise gjeldende offentlig godkjenningsstatus og relevant historikk, slik at andre aktører kan bruke samme nasjonale grunnlag i sine egne arbeidsprosesser.
 
 ## Kapabiliteter
-- **Datakilder: Grunndata** HPR er den autoritative kilden for grunnleggende opplysninger om helsepersonell og offentlig godkjenningsstatus. Det gir et felles registergrunnlag for virksomheter, innbyggere og forvaltning, i stedet for lokale kopier og varierende kontrollrutiner.
-- **Datautveksling og integrasjon: Dele data med andre** Registeret gjør opplysninger tilgjengelige gjennom offentlig søk og kontrollert datatilgang for virksomheter som har rettslig grunnlag. Dette gjør HPR til en aktiv delingsressurs, ikke bare en intern registerbase.
 
 Grunnlag: Kapabilitetene er beholdt fra gjeldende mapping, men begrunnelsene er skjerpet med tydeligere skille mellom HPR som sannhetskilde og HPR som delt oppslags- og datagrunnlag.
+
+- **Datakilder: Grunndata** HPR er den autoritative kilden for grunnleggende opplysninger om helsepersonell og offentlig godkjenningsstatus. Det gir et felles registergrunnlag for virksomheter, innbyggere og forvaltning, i stedet for lokale kopier og varierende kontrollrutiner.
+- **Datautveksling og integrasjon: Dele data med andre** Registeret gjør opplysninger tilgjengelige gjennom offentlig søk og kontrollert datatilgang for virksomheter som har rettslig grunnlag. Dette gjør HPR til en aktiv delingsressurs, ikke bare en intern registerbase.
 
 ## Produktmål
 Dokumenterte og tydelig utledbare mål for ressursen er å:

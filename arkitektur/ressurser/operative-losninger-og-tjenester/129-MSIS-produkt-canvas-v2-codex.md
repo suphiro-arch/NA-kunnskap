@@ -24,11 +24,12 @@ MSIS består av mer enn en database. FHI tilbyr egne meldings- og veiledningsspo
 MSIS skal ikke forstås som et generelt journalsystem, en bred innbyggerportal eller en fullstendig katalog over alle helsedatakilder. Rollen er å samle, strukturere og bruke meldingspliktig informasjon om smittsomme sykdommer på en måte som gir nasjonal situasjonsforståelse og grunnlag for handling.
 
 ## Kapabiliteter
+
+Grunnlag: Kapabilitetssettet er beholdt fra gjeldende mapping, men tekstgrunnlaget er skjerpet med tydeligere vekt på meldingsløp, statistikk og beredskap.
+
 - **Datakilder: Grunndata** MSIS forvalter det nasjonale grunnlaget for meldingspliktige smittsomme sykdommer og gjør forekomstdata sammenlignbare over tid og mellom geografiske områder.
 - **Datautveksling og integrasjon: Dele data med andre** Ressursen deler data gjennom åpne statistikkflater og kontrollerte datatilgangsløp for forskning, analyse og styring.
 - **Samarbeid: Organisatorisk samhandling** MSIS binder sammen leger, laboratorier, smittevernmiljøer og myndigheter i ett felles nasjonalt meldings- og analyseopplegg.
-
-Grunnlag: Kapabilitetssettet er beholdt fra gjeldende mapping, men tekstgrunnlaget er skjerpet med tydeligere vekt på meldingsløp, statistikk og beredskap.
 
 ## Produktmål
 Dokumenterte og tydelig utledbare mål for ressursen er å:

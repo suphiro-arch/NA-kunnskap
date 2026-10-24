@@ -24,11 +24,12 @@ Ressursen er sentral fordi den gir ett felles faktagrunnlag for administrasjon, 
 NPR er samtidig tydelig avgrenset. Det er ikke et journalsystem, ikke en generell dataplattform for hele offentlig sektor, og ikke primær inngang til søknad om helsedata. Rollen er å være autoritativ nasjonal registerkilde for spesialisthelsetjenestens aktivitets- og pasientdata, mens Helsedata.no og Helsedataservice håndterer felles inngang til datatilgang.
 
 ## Kapabiliteter
+
+Grunnlag: Kapabilitetssettet er beholdt fra gjeldende mapping, men begrunnelsene er skjerpet med tydeligere skille mellom registerrolle, delingsrolle og styringsrolle.
+
 - **Datakilder: Grunndata** NPR er den nasjonale autoritative kilden for aktivitets- og pasientdata i spesialisthelsetjenesten og gir et felles datagrunnlag for styring og analyse.
 - **Datautveksling og integrasjon: Dele data med andre** Registeret gjør opplysninger tilgjengelige gjennom kontrollerte utleverings- og sammenstillingsløp til forskning, analyse, statistikk og andre lovlige formål.
 - **Informasjonsforvaltning: Datastyring** NPR understøtter nasjonal datastyring ved å standardisere innrapportering, samle data i én nasjonal kilde og bruke dette som grunnlag for finansiering, kvalitet og oppfølging.
-
-Grunnlag: Kapabilitetssettet er beholdt fra gjeldende mapping, men begrunnelsene er skjerpet med tydeligere skille mellom registerrolle, delingsrolle og styringsrolle.
 
 ## Produktmål
 Dokumenterte og tydelig utledbare mål for ressursen er å:

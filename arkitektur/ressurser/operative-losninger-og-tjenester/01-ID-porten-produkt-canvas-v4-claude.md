@@ -52,7 +52,7 @@ Operative mål utledet fra de samme kildene:
 - Tjenesteeiere trenger en felles innloggingskomponent som er juridisk, sikkerhetsmessig og teknisk innarbeidet.
 - Integrasjonsteam trenger standardiserte protokoller og tydelig dokumentasjon for å koble egne tjenester til nasjonal autentisering.
 - Tjenester med bruker-kontekst i API-er trenger tilgangstoken og identitetsinformasjon som kan brukes videre i egne tjenester.
-- Tjenester der brukeren opptrer i en virksomhetskontekst trenger støtte for innlogging med valgt virksomhet eller delegert sammenheng.
+- Tjenester der en innbygger handler på vegne av en annen person, for eksempel som verge eller fullmektig, trenger støtte for innlogging der fullmaktsforholdet er kontrollert mot en autoritativ kilde. Innlogging på vegne av en virksomhet dekkes av Ansattporten, ikke av ID-porten.
 
 ## Hvem er brukerne og brukersegmentene
 | Brukersegment | Primære behov | Bruksområde | Kommentar |
@@ -68,7 +68,7 @@ Operative mål utledet fra de samme kildene:
 - **Sikker innlogging for innbyggere til offentlige tjenester.** ID-porten håndterer selve autentiseringen og lar brukeren logge inn med støttede eID-er som BankID, Buypass og Commfides. Dette dekker behovet for en felles, nasjonal innloggingsmekanisme når en offentlig tjeneste trenger å vite hvem brukeren er.
 - **Standardisert integrasjon for tjenesteeiere.** Produktet tilbyr dokumenterte integrasjonsmønstre med OpenID Connect som anbefalt løsning, og støtter også SAML for eldre eller eksisterende integrasjoner. Dette gjør at tjenesteeiere kan gjenbruke etablerte sikkerhetsmønstre i stedet for å bygge autentisering selv.
 - **Token- og identitetsgrunnlag for videre bruk i tjenestelogikk.** ID-porten utsteder grunnlaget tjenesteeier trenger for å kjenne igjen brukeren i egne løsninger og, ved behov, for å bruke autentisert bruker-kontekst videre i API-er. Dette er viktig for tjenester som ikke bare trenger en innloggingsknapp, men også sikker videre bruk av identiteten i egne prosesser.
-- **Støtte for bruker-kontekst i virksomhetssammenheng.** Dokumentasjonen viser at ID-porten kan brukes i scenarier der en innbygger opptrer med valgt virksomhet. Dette gjør løsningen relevant i grenseflaten mellom personinnlogging og handling på vegne av virksomhet, men ikke som full erstatning for egne autorisasjons- og representasjonsløsninger.
+- **Støtte for innlogging på vegne av en annen person.** Dokumentasjonen beskriver fullmaktspålogging, der en innlogget innbygger velger en fullmaktsgiver i ID-portens fullmaktsvelger og logger inn på vegne av denne personen. Fullmaktsforholdet, som vergemål eller fullmakt, må være registrert i en autoritativ kilde, og valget formidles til tjenesten i `authorization_details` av typen `idporten:fullmakt`. Digdir omtaler funksjonen som beta-funksjonalitet, med pilot i 2025. Innlogging på vegne av en virksomhet hører til Ansattporten, ikke ID-porten. Funksjonen erstatter ikke egne autorisasjons- og representasjonsløsninger.
 - **Kontrollert innføring og forvaltning.** Tjenesteeiere får støtte gjennom avtale, testmiljø og produksjonssetting. Det gjør produktet egnet som nasjonal felleskomponent også organisatorisk, ikke bare teknisk.
 
 ### Scope og avgrensning
@@ -77,13 +77,13 @@ Operative mål utledet fra de samme kildene:
 | Autentisering av brukere mot offentlige tjenester | Full autorisasjon til faglige ressurser i hver enkelt tjeneste |
 | Standardiserte integrasjoner for innlogging | Maskin-til-maskin-autentisering uten bruker-kontekst |
 | Token- og identitetsgrunnlag for videre bruk hos tjenesteeier | Signering av dokumenter eller transaksjoner |
-| Støtte for bruker-kontekst i enkelte virksomhetsscenarier | Fagspesifikk tilgangsstyring og vedtak om rettigheter |
+| Innlogging på vegne av en annen person (fullmaktspålogging, beta) | Fagspesifikk tilgangsstyring og vedtak om rettigheter |
 | Test, avtale og produksjonsløp for tilkobling | Erstatning for alle andre tillitstjenester i Digdir-porteføljen |
 ### Typiske brukssituasjoner (generisk)
 - Ny offentlig tjeneste trenger brukerautentisering og skal ikke bygge lokalt innloggingssystem.
 - Eksisterende tjeneste vil erstatte lokal innloggingsløsning med en nasjonal felleskomponent.
 - Tjeneste trenger autentisert bruker-kontekst i API-kall, for eksempel der brukeren henter egne data fra et register.
-- Innbygger skal handle i en tjeneste i eget navn eller i kontekst av en valgt virksomhet.
+- Innbygger skal handle i en tjeneste i eget navn eller på vegne av en annen person, for eksempel som verge eller fullmektig.
 - Statlig tjeneste som er forpliktet til å bruke ID-porten som standard innloggingsløsning.
 
 ### Når ID-porten normalt ikke er førstevalg

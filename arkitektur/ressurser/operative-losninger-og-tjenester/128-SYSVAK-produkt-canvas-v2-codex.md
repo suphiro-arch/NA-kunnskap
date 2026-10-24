@@ -24,11 +24,12 @@ Ressursen har flere operative flater enn en ren registerdatabase. Helsepersonell
 SYSVAK bør ikke forstås som et generelt journalsystem, et bookingsystem for vaksinering eller en fullstendig helsedataplattform. Rollen er å være nasjonal sannhetskilde for vaksinasjonsopplysninger og å understøtte tjenester og beslutninger som bygger på dette grunnlaget.
 
 ## Kapabiliteter
+
+Grunnlag: Kapabilitetssettet er beholdt fra gjeldende mapping, men begrunnelsene er skjerpet med tydeligere skille mellom registerrolle, delingsrolle og innbyggerflate.
+
 - **Datakilder: Grunndata** SYSVAK er den nasjonale autoritative kilden for vaksinasjonsopplysninger på individnivå og gir et felles datagrunnlag for helsepersonell, innbyggertjenester og myndighetsoppfølging.
 - **Datautveksling og integrasjon: Dele data med andre** Registeret gjør vaksinasjonsopplysninger tilgjengelige i kontrollerte delingsløp, blant annet til Helsenorge, statistikkbanker og datatilgangsprosesser for analyse og forskning.
 - **Sluttbrukertjenester: Sammenhengende tjenester** SYSVAK bidrar direkte til sammenhengende tjenester ved at samme vaksinasjonsgrunnlag kan brukes både i helsepersonells arbeidsprosesser og i innbyggernes innsynsflate på Helsenorge.
-
-Grunnlag: Kapabilitetssettet er beholdt fra gjeldende mapping, men begrunnelsene er skjerpet med tydeligere skille mellom registerrolle, delingsrolle og innbyggerflate.
 
 ## Produktmål
 Dokumenterte og tydelig utledbare mål for ressursen er å:

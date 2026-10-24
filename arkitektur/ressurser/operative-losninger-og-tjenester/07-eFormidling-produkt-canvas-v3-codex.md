@@ -23,14 +23,15 @@ DIGDIR-007
 eFormidling er Digdirs fellesløsning for standardisert og sikker meldingsutveksling. Produktet gjør det mulig å sende og motta digitale meldinger uten å bygge egne punkt-til-punkt-integrasjoner for hver mottaker, og skjuler samtidig forskjeller mellom ulike mottakerkanaler. Løsningen er særlig relevant når offentlige virksomheter trenger pålitelig og sporbar utveksling av dokumenter og meldinger på tvers av organisatoriske grenser.
 
 ## Kapabiliteter
+
+Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot dokumentert funksjon i Digdir Docs og Samarbeidsportalen.
+
 - **Datautveksling og integrasjon: Dele data med andre** gjør det mulig å sende digitale meldinger og dokumenter sikkert til andre virksomheter og mottakere gjennom et felles formidlingsmønster.
 - **Datautveksling og integrasjon: Bruke data fra andre** gjør det mulig å motta innkommende meldinger i ønsket kanal og integrere dem videre i egne arbeidsprosesser og fagsystemer.
 - **Datautveksling og integrasjon: Meldingsutveksling** er selve kjernefunksjonen i produktet, fordi løsningen pakker, ruter og leverer meldinger mellom avsender og mottaker.
 - **Samarbeid: Organisatorisk samhandling** støtter samhandling mellom virksomheter ved at samme løsning kan brukes på tvers av organisatoriske grenser og ulike mottakergrupper.
 - **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** ivaretar krav til sikker, sporbar og kontrollert meldingsutveksling.
 - **Standardisering: Forvaltningsstandarder** bygger på standardiserte dokument- og meldingsmønstre, blant annet Peppol og AS4.
-
-Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot dokumentert funksjon i Digdir Docs og Samarbeidsportalen.
 
 ## Produktmål
 **Primærkilder:** Digdir Docs `Om eFormidling`, `Introduksjon`, `Egenskaper` og Samarbeidsportalen `Dette er eFormidling`.

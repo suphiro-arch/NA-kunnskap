@@ -24,10 +24,11 @@ SIKT-004
 Nasjonal vitnemålsdatabase (NVB) er den nasjonale databasen for elektroniske vitnemål fra videregående opplæring. Produktet lagrer og kvalitetssikrer vitnemål og gjør dem tilgjengelige for opptak, dokumentasjon, statistikk og forskning. NVB er derfor mer enn et arkiv: det er en nasjonal register- og delingsressurs som gjør at samme vitnemålsgrunnlag kan brukes på tvers av skoler, opptaksprosesser og analyseformål.
 
 ## Kapabiliteter
-- **Datakilder: Grunndata** er relevant fordi NVB forvalter autoritative vitnemålsopplysninger som mange andre prosesser bygger videre på.
-- **Datautveksling og integrasjon: Dele data med andre** er en kjernefunksjon ved at opplysningene brukes i opptak, dokumentasjon, statistikk og forskning.
 
 Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot Sikts beskrivelser av NVB som database, kvalitetsmekanisme og delingsressurs.
+
+- **Datakilder: Grunndata** er relevant fordi NVB forvalter autoritative vitnemålsopplysninger som mange andre prosesser bygger videre på.
+- **Datautveksling og integrasjon: Dele data med andre** er en kjernefunksjon ved at opplysningene brukes i opptak, dokumentasjon, statistikk og forskning.
 
 ## Produktmål
 **Primærkilder:** Sikts sider for `Nasjonal vitnemålsdatabase` og NVB i tjenestekatalogen.
