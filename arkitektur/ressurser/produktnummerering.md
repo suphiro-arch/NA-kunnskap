@@ -53,6 +53,8 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | `MET` | Meteorologisk institutt | Meteorologisk institutt | Vær- og klimadata og API-er forvaltet av Meteorologisk institutt |
 | `NSM` | Nasjonal sikkerhetsmyndighet | Nasjonal sikkerhetsmyndighet | Normerende sikkerhetsveiledning forvaltet av NSM |
 | `HL7` | HL7 Norge | HL7 Norge | Norske FHIR-profiler og helsestandarder utgitt og forvaltet av HL7 Norge |
+| `ARKIV` | Nasjonalarkivet | Nasjonalarkivet | Arkivstandarder og arkivfaglige ressurser forvaltet av Nasjonalarkivet |
+| `KYST` | Kystverket | Kystverket | Sjøsikkerhets- og havdatatjenester forvaltet av Kystverket, blant annet BarentsWatch |
 
 ### Slik lages en ny eierkode
 
@@ -143,6 +145,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 | 150 | `DIGDIR-070` | Tilsyn og kontroll med regelverk for universell utforming av ikt | Økonomiske og juridiske rammer og virkemidler | Tilsyns- og kontrollvirkemiddel | Regelverkstolkning<br>Utvikling og formidling av veiledning<br>Tjenestedesign | [Åpne](../../arkitektur/ressurser/rammer-og-virkemidler/150-Tilsyn-og-kontroll-universell-utforming-av-ikt-v2-claude.md) |
 | 165 | `DIGDIR-071` | Arbeidsflate | Gjenbrukbare løsninger | Innboks og felles brukerflate for digital dialog | Sammenhengende tjenester<br>Sporbarhet og innsyn<br>Gjenbrukbare tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/165-Arbeidsflate-v1-claude.md) |
 | 179 | `DIGDIR-072` | Internkontroll i praksis – informasjonssikkerhet | Standarder og veiledning | Veiledning for styringssystem for informasjonssikkerhet | Styringssystem<br>Utvikling og formidling av veiledning | [Åpne](../../arkitektur/ressurser/normerende-ressurser/179-Internkontroll-i-praksis-informasjonssikkerhet-v1-claude.md) |
+| 183 | `DIGDIR-073` | Bruksvilkår for Digdirs fellesløsninger | Økonomiske og juridiske rammer og virkemidler | Avtaleverk for bruk av fellesløsninger | Tjenesteforvaltning | [Åpne](../../arkitektur/ressurser/rammer-og-virkemidler/183-Bruksvilkar-for-Digdirs-felleslosninger-v1-claude.md) |
 
 ## Brønnøysundregistrene (`BRREG`)
 
@@ -289,6 +292,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 | 132 | `KART-003` | Grunnboken | Gjenbrukbare løsninger | Rettighetsregister for fast eiendom | Grunndata<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/132-Grunnboken-produkt-canvas-v1-codex.md) |
 | 134 | `KART-004` | Sentralt stedsnavnregister | Gjenbrukbare løsninger | Register for offisielle stedsnavn | Grunndata<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/134-Sentralt-stedsnavnregister-produkt-canvas-v1-codex.md) |
 | 181 | `KART-005` | Norge digitalt | Samhandlingsarenaer og organisering | Samarbeid om geografisk informasjon | Samarbeidsarenaer og nettverk<br>Samordning | [Åpne](../../arkitektur/ressurser/samarbeidsfora/181-Norge-digitalt-v1-claude.md) |
+| 186 | `KART-006` | SOSI – standarder for geografisk informasjon | Standarder og veiledning | Standarder for geografisk informasjon | Informasjonsarkitektur<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/normerende-ressurser/186-SOSI-v1-claude.md) |
 
 
 
@@ -324,6 +328,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 | 156 | `FLERE-005` | DigiHelsestasjon | Gjenbrukbare løsninger | Digital dialog med helsestasjon og skolehelsetjeneste | Sammenhengende tjenester<br>Meldingsutveksling<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/156-DigiHelsestasjon-v1-claude.md) |
 | 163 | `FLERE-006` | DigiUng | Samhandlingsarenaer og organisering | Tverrsektorielt samarbeid om digitale tjenester for ungdom | Organisatorisk samhandling<br>Samarbeidsarenaer og nettverk<br>Sammenhengende tjenester<br>Tjenestedesign | [Åpne](../../arkitektur/ressurser/samarbeidsfora/163-DigiUng-v1-claude.md) |
 | 168 | `FLERE-007` | Sikkert.no | Standarder og veiledning | Felles myndighetsportal for digital sikkerhet | Utvikling og formidling av veiledning<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/normerende-ressurser/168-sikkert-no-v1-claude.md) |
+| 188 | `FLERE-008` | Konsultasjonsordningen mellom staten og kommunesektoren | Samhandlingsarenaer og organisering | Dialog mellom staten og kommunesektoren | Samarbeidsarenaer og nettverk<br>Samordning | [Åpne](../../arkitektur/ressurser/samarbeidsfora/188-Konsultasjonsordningen-v1-claude.md) |
 
 
 
@@ -385,6 +390,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 |---:|---|---|---|---|---|---|
 | 170 | `DFO-001` | Utredningsinstruksen | Økonomiske og juridiske rammer og virkemidler | Instruks om utredning av statlige tiltak | Regelverksutvikling<br>Samordning | [Åpne](../../arkitektur/ressurser/rammer-og-virkemidler/170-Utredningsinstruksen-v1-claude.md) |
 | 182 | `DFO-002` | Statens standardavtaler (SSA) | Standarder og veiledning | Standardavtaler for IT-anskaffelser | Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/normerende-ressurser/182-Statens-standardavtaler-v1-claude.md) |
+| 185 | `DFO-003` | EHF (Elektronisk handelsformat) | Standarder og veiledning | Elektronisk faktura og handelsdokumenter | Forvaltningsstandarder<br>Informasjonsarkitektur | [Åpne](../../arkitektur/ressurser/normerende-ressurser/185-EHF-Elektronisk-handelsformat-v1-claude.md) |
 
 
 ## Entur (`ENTUR`)
@@ -410,6 +416,18 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 | Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
 |---:|---|---|---|---|---|---|
 | 178 | `HL7-001` | Norske basisprofiler for HL7 FHIR | Standarder og veiledning | Norsk informasjonsmodell for FHIR | Informasjonsarkitektur<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/normerende-ressurser/178-HL7-FHIR-norske-basisprofiler-v1-claude.md) |
+
+## Nasjonalarkivet (`ARKIV`)
+
+| Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
+|---:|---|---|---|---|---|---|
+| 184 | `ARKIV-001` | Noark 5 | Standarder og veiledning | Standard for dokumentasjons- og arkivsystemer | Informasjonsarkitektur<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/normerende-ressurser/184-Noark-5-v1-claude.md) |
+
+## Kystverket (`KYST`)
+
+| Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
+|---:|---|---|---|---|---|---|
+| 187 | `KYST-001` | BarentsWatch | Gjenbrukbare løsninger | Hav- og kystdata, AIS | Dele data med andre<br>Åpne data<br>Sanntidsdata | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/187-BarentsWatch-v1-claude.md) |
 
 ## Ekstra verifiserte kilder brukt i denne utvidelsen
 

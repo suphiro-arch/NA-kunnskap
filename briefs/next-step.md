@@ -26,27 +26,19 @@ Satt på vent 2026-10-17. Forslaget til avgrensningsregel og spørsmålene som m
 Lovene på lista under venter på avgrensningsregelen over. Nye kilder legges i `sources/links.md`
 når ressursen skrives.
 
-Klare til å skrives, kildesjekket 2026-10-24:
-
-1. `Bruksvilkår for Digdirs fellesløsninger` (Digdir, `Økonomiske og juridiske rammer og
-   virkemidler`). Avgrens mot `127` Samarbeidsportalen.
-2. `Noark 5` versjon 6.0 (ny eierkode `ARKIV` for Nasjonalarkivet, `Standarder og veiledning`).
-3. `EHF` (DFØ, eierkode `DFO`, `Standarder og veiledning`). Avgrens mot `10` ELMA, `11` Peppol
-   eDelivery og `137` forskrift om IT-standarder.
-4. `SOSI` (Kartverket, `Standarder og veiledning`). Avgrens mot `40` Geonorge og `181` Norge digitalt.
-5. `BarentsWatch` (ny eierkode `KYST` for Kystverket, `Gjenbrukbare løsninger`). Les hovedinstruksen
-   og AIS-dokumentasjonen.
-6. `Konsultasjonsordningen mellom staten og kommunesektoren` (`FLERE`, `Samhandlingsarenaer og
-   organisering`). Avgrens mot `DigiFin` og partnerskapet med KS.
-
 Venter:
 
-7. `Digitalsikkerhetsloven` (JD og NSM). Finn forskriften i Lovdata og offisiell status for NIS2 i
+1. `Digitalsikkerhetsloven` (JD og NSM). Finn forskriften i Lovdata og offisiell status for NIS2 i
    EØS.
-8. `Ny forvaltningslov` (JD). Opprettes når ikrafttredelsen er fastsatt. Kontroller samtidig
+2. `Ny forvaltningslov` (JD). Opprettes når ikrafttredelsen er fastsatt. Kontroller samtidig
    hjemmelsgrunnlaget for `144` eForvaltningsforskriften.
-9. `Digitale vergefullmakter` (Statens sivilrettsforvaltning). Venter på lansering.
-10. `Normen` (helse- og omsorgssektoren, `Standarder og veiledning`).
+3. `Digitale vergefullmakter` (Statens sivilrettsforvaltning). Venter på lansering.
+4. `Normen` (helse- og omsorgssektoren, `Standarder og veiledning`).
+
+Revisjoner etter pakke 3b:
+
+- `10` ELMA og `11` Peppol eDelivery: beskriv delingen av Peppol-myndigheten mellom DFØ og Digdir.
+- `127` Samarbeidsportalen: vurder koblingen `Tjenesteforvaltning` mot `183` Bruksvilkår.
 
 Ikke kildesjekket ennå:
 

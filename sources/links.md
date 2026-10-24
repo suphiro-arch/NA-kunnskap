@@ -18,6 +18,10 @@ Sist redigert: 2026-10-24.
 - Altinn - tjenesteutvikling: https://samarbeid.digdir.no/altinn/tjenesteutvikling/2634
 - Altinn - portaler og brukeroppleving: https://samarbeid.digdir.no/altinn/portalar-og-brukaroppleving/2485
 - Altinn - bruksvilkår: https://samarbeid.digdir.no/altinn/bruksvilkar-altinn/3639 (lagt til 2026-05-27)
+- Bruksvilkår for Digdirs fellesløsninger: https://samarbeid.digdir.no/felleslosninger/bruksvilkar/69 (lagt til 2026-10-24)
+- Bruksvilkår for offentlige kunder: https://samarbeid.digdir.no/felleslosninger/bruksvilkar-offentlige-kunder/70 (lagt til 2026-10-24)
+- Endringslogg for bruksvilkårene: https://samarbeid.digdir.no/digital-postkasse/endringslogg-bruksvilkar/608 (lagt til 2026-10-24)
+- Bruksvilkår for eInnsyn: https://samarbeid.digdir.no/einnsyn/bruksvilkar-einnsyn/71 (lagt til 2026-10-24)
 - Altinn - tilgangspakker for sluttbrukere: https://samarbeid.digdir.no/altinn/tilgangspakker-hva-betyr-dette-sluttbruker-virksomhet-eller-privatperson/3242 (lagt til 2026-10-19)
 - ID-porten: https://www.digdir.no/id-porten/om-id-porten/1507
 - ID-porten dokumentasjon: https://docs.digdir.no/docs/idporten/
@@ -301,6 +305,10 @@ Sist redigert: 2026-10-24.
 - MinKommune: https://min.kommune.no/ (lagt til 2026-08-28)
 - Spesifikasjonen for Fiks arkiv, med lisensvilkår: https://github.com/ks-no/fiks-arkiv-specification (lagt til 2026-09-30)
 - Fiks politisk behandling hos KS: https://www.ks.no/fagomrader/digitalisering/felleslosninger/verktoykasse-plan--og-byggesak/verktoy/sammenhengende-tjenester---integrasjoner/fiks-politisk-behandling/ (lagt til 2026-09-25)
+- Forholdet mellom kommunene og staten: https://www.regjeringen.no/no/tema/kommuner-og-regioner/kommunalrett-og-kommunal-inndeling/forholdet-kommune-stat/id2340288/ (lagt til 2026-10-24)
+- Om konsultasjonsordningen: https://www.regjeringen.no/no/tema/kommuner-og-regioner/kommunalrett-og-kommunal-inndeling/forholdet-kommune-stat/om-ordningen/id544787/ (lagt til 2026-10-24)
+- Bilaterale samarbeidsavtaler mellom staten og KS: https://www.regjeringen.no/no/tema/kommuner-og-regioner/kommunalrett-og-kommunal-inndeling/forholdet-kommune-stat/bilaterale-samarbeidsavtaler-mellom-stat/id544798/ (lagt til 2026-10-24)
+- Rettleiar for konsultasjonsordninga: https://www.regjeringen.no/no/dokumenter/rettleiar-for-konsultasjonsordninga/id2439875/ (lagt til 2026-10-24)
 
 ### Novari / fylkeskommunal sektor
 - vilbli.no, informasjonstjenesten: https://novari.no/tjenester/vilbli/ (lagt til 2026-09-07)
@@ -451,6 +459,12 @@ Sist redigert: 2026-10-24.
 - Norge digitalt: https://www.kartverket.no/geodataarbeid/norge-digitalt (lagt til 2026-10-24)
 - Organisering av Norge digitalt: https://www.kartverket.no/geodataarbeid/norge-digitalt/organisering-av-norge-digitalt (lagt til 2026-10-24)
 - Norge digitalt - Styret for fellesløsninger: https://www.kartverket.no/geodataarbeid/norge-digitalt/organisering-av-norge-digitalt/styret-for-felleslosninger (lagt til 2026-10-24)
+- SOSI og standardisering i Geonorge: https://www.geonorge.no/Geodataarbeid/standardisering/ (lagt til 2026-10-24)
+- Standarder under SOSI-paraplyen: https://www.geonorge.no/Geodataarbeid/standardisering/standarder-under-sosi-paraplyen/ (lagt til 2026-10-24)
+- Standardiseringskomiteen for geomatikk: https://www.geonorge.no/Geodataarbeid/standardisering/slik-jobber-vi-med-standardisering/standardiseringskomiteen-for-geomatikk/ (lagt til 2026-10-24)
+- SOSI-registeret: https://register.geonorge.no/standarder/sosi (lagt til 2026-10-24)
+- Register over produktspesifikasjoner: https://register.geonorge.no/produktspesifikasjoner (lagt til 2026-10-24)
+- SOSI i Referansekatalogen: https://www.digdir.no/standarder/sosi-samordna-opplegg-stadfesta-informasjon/1729 (lagt til 2026-10-24)
 - API-er for kartkatalogen: https://www.geonorge.no/verktoy/APIer-og-grensesnitt/apier-for-kartkatalogen/ (lagt til 2026-03-27)
 - Stedsnavndata / Sentralt stedsnavnregister: https://www.kartverket.no/api-og-data/stedsnavndata (lagt til 2026-04-28)
 - Grunnboken: https://eiendomsregisteret.kartverket.no/ (lagt til 2026-08-28)
@@ -483,6 +497,16 @@ Sist redigert: 2026-10-24.
 - Frost: https://frost.met.no/index.html (lagt til 2026-10-23)
 - MET - lisensiering og kreditering: https://www.met.no/en/Free-Meteorological-Data/Licensing-And-Crediting (lagt til 2026-10-23)
 - MET - frie meteorologiske data: https://www.met.no/en/free-meteorological-data (lagt til 2026-10-23)
+
+### Kystverket
+- BarentsWatch: https://www.barentswatch.no/ (lagt til 2026-10-24)
+- BarentsWatch - om oss: https://www.barentswatch.no/en/contact-us/about-us/ (lagt til 2026-10-24)
+- Ny instruks for BarentsWatch: https://www.barentswatch.no/kontakt-oss/ny-instruks-for-barentswatch/ (lagt til 2026-10-24)
+- Åpne data via BarentsWatch: https://barentswatch.no/en/articles/open-data-via-barentswatch (lagt til 2026-10-24)
+- BarentsWatch - vilkår for API: https://www.barentswatch.no/en/articles/api-terms-and-conditions/ (lagt til 2026-10-24)
+- BarentsWatch for utviklere: https://developer.barentswatch.no/ (lagt til 2026-10-24)
+- Tilgang til AIS-data (Kystverket): https://www.kystverket.no/en/sea-transport-and-ports/ais/access-to-ais-data/ (lagt til 2026-10-24)
+- BarentsWatch hos Kystverket: https://www.kystverket.no/en/about-us/barentswatch/ (lagt til 2026-10-24)
 
 ### Bufdir og barnevern
 - ung.no, statens informasjonskanal for ungdom: https://www.ung.no/ (lagt til 2026-09-07)
@@ -710,6 +734,12 @@ Sist redigert: 2026-10-24.
 - SSA-enes historie og bakgrunn: https://www.anskaffelser.no/anskaffelsesregelverk/statens-standardavtaler-ssa/ssa-enes-historie-og-bakgrunn (lagt til 2026-10-24)
 - Veileder om rettigheter til data i SSA-ene: https://www.anskaffelser.no/avtaler-og-regelverk/statens-standardavtaler-ssa/veileder-om-rettigheter-til-data-i-ssa-ene (lagt til 2026-10-24)
 - Standardavtaler i offentlig sektor (Referansekatalogen): https://www.digdir.no/standarder/standardavtalar-i-offentleg-sektor/1497 (lagt til 2026-10-24)
+- EHF-spesifikasjoner etter tildeling: https://anskaffelser.dev/postaward/g3/spec/ (lagt til 2026-10-24)
+- EHF Billing 3.0, norske regler: https://anskaffelser.dev/postaward/g3/spec/current/billing-3.0/norway/ (lagt til 2026-10-24)
+- EHF-spesifikasjoner før tildeling: https://anskaffelser.dev/preaward/g2/spec/ (lagt til 2026-10-24)
+- Peppol BIS Billing 3.0: https://docs.peppol.eu/poacc/billing/3.0/ (lagt til 2026-10-24)
+- DFØ som Peppol-myndighet: https://anskaffelser.no/public-procurement/e-procurement/peppol (lagt til 2026-10-24)
+- Digitale anskaffelser i Referansekatalogen: https://www.digdir.no/standarder/digitale-anskaffelser/1486 (lagt til 2026-10-24)
 
 ### EU interoperabilitet
 - DIGITAL Building Blocks (omtaler ikke dataområder, jf. revisjon av 108 2026-09-25): https://interoperable-europe.ec.europa.eu/collection/digital-building-blocks
@@ -819,10 +849,12 @@ Sist redigert: 2026-10-24.
 - Å lykkes med åpenhet ved bruk av kunstig intelligens: https://www.datatilsynet.no/regelverk-og-verktoy/sandkasse-for-kunstig-intelligens/ferdige-prosjekter-og-rapporter/a-lykkes-med-apenhet-hvordan-informere-om-bruk-av-kunstig-intelligens/ (lagt til 2026-03-18)
 
 ### Arkiv og dokumentforvaltning
-- Arkivverket hovedside: https://www.nasjonalarkivet.no/
+- Nasjonalarkivet hovedside: https://www.nasjonalarkivet.no/
 - NOARK-standarden: https://www.nasjonalarkivet.no/offentlig-forvaltning/regelverk-og-standarder/noark/
 - Andre arkivstandarder (DIAS), omfatter E-ARK: https://www.nasjonalarkivet.no/offentlig-forvaltning/regelverk-og-standarder/andre-arkivstandarder-dias/
 - Regelverk og standarder for arkiv: https://www.nasjonalarkivet.no/offentlig-forvaltning/regelverk-og-standarder/
+- Noark 5 versjon 6.0: https://www.nasjonalarkivet.no/content/uploads/2025/10/Noark-5-versjon-6.pdf (lagt til 2026-10-24)
+- Arkivstandarder i Referansekatalogen: https://www.digdir.no/standarder/arkivstandarder/1482 (lagt til 2026-10-24)
 - Fiks arkiv i Fiks protokoll: https://developers.fiks.ks.no/tjenester/fiksprotokoll/ (lagt til 2026-03-19)
 
 ### Juridisk og rettslig infrastruktur
@@ -830,6 +862,9 @@ Sist redigert: 2026-10-24.
 - eForvaltningsforskriften (FOR-2004-06-25-988): https://lovdata.no/dokument/SF/forskrift/2004-06-25-988 (lagt til 2026-08-28)
 - Geodataloven: https://lovdata.no/dokument/NL/lov/2010-09-03-56 (lagt til 2026-10-24)
 - Geodataforskriften: https://lovdata.no/dokument/SF/forskrift/2012-08-08-797 (lagt til 2026-10-24)
+- Arkivforskrifta (FOR-2025-12-17-2647): https://lovdata.no/dokument/SF/forskrift/2025-12-17-2647 (lagt til 2026-10-24)
+- Kart- og planforskriften (FOR-2025-01-20-52): https://lovdata.no/dokument/SF/forskrift/2025-01-20-52 (lagt til 2026-10-24)
+- Forskrift om elektronisk faktura i offentlige anskaffelser: https://lovdata.no/dokument/SF/forskrift/2019-04-01-444 (lagt til 2026-10-24)
 - Utredningsinstruksen (FOR-2016-02-19-184): https://lovdata.no/dokument/INS/forskrift/2016-02-19-184 (lagt til 2026-10-07)
 - Utredningsinstruksen på regjeringen.no: https://www.regjeringen.no/no/dokumenter/instruks-om-utredning-av-statlige-tiltak-utredningsinstruksen/id2476518/ (lagt til 2026-10-07)
 - Endringsforskrift til eForvaltningsforskriften (FOR-2022-12-20-2304): https://lovdata.no/dokument/LTI/forskrift/2022-12-20-2304 (lagt til 2026-09-28)

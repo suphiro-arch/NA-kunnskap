@@ -6770,6 +6770,186 @@
                     "explanation": "SSA er en anbefalt standard i Referansekatalogen for IT-standarder som gir offentlige virksomheter felles kontraktsvilkår i IT-anskaffelser, blant annet felles bestemmelser om rettigheter til data, tilgang til egne data og tilbakelevering av data ved avtalens slutt."
                 }
             ]
+        },
+        {
+            "product_id": 183,
+            "product_name": "Bruksvilkår for Digdirs fellesløsninger",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/rammer-og-virkemidler/183-Bruksvilkar-for-Digdirs-felleslosninger-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/183-Bruksvilkar-for-Digdirs-felleslosninger-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "subcapability_id": "id-3f59d920995e4d488e56f61356dcf97a",
+                    "subcapability_name": "Tjenesteforvaltning",
+                    "subcapability_slug": "tjenesteforvaltning",
+                    "mapping_label": "Samarbeid: Tjenesteforvaltning",
+                    "explanation": "Bruksvilkårene er den formelle avtalen som fastsetter roller, ansvar og tjenestenivåer mellom Digdir og brukervirksomhetene, med tilgjengelighetskrav, varslingsplikter, frakobling, behandlingsansvar og databehandlerroller for hver fellesløsning."
+                }
+            ]
+        },
+        {
+            "product_id": 184,
+            "product_name": "Noark 5",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/184-Noark-5-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/184-Noark-5-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-5c6c20d50b6a4b168524901372f0ca6e",
+                    "subcapability_name": "Informasjonsarkitektur",
+                    "subcapability_slug": "informasjonsarkitektur",
+                    "mapping_label": "Informasjonsforvaltning: Informasjonsarkitektur",
+                    "explanation": "standarden fastsetter en konseptuell informasjonsmodell for dokumentasjon, en logisk datamodell med 29 objekter og en metadatakatalog med 183 metadataelementer, som arkivsystemer og arkivuttrekk struktureres etter."
+                },
+                {
+                    "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
+                    "capability_name": "Standardisering",
+                    "capability_slug": "standardisering",
+                    "subcapability_id": "id-b99fcd8160d24e5f8ea3c17b15072f7a",
+                    "subcapability_name": "Forvaltningsstandarder",
+                    "subcapability_slug": "forvaltningsstandarder",
+                    "mapping_label": "Standardisering: Forvaltningsstandarder",
+                    "explanation": "Noark 5 er den nasjonale standarden for dokumentasjons- og arkivsystemer i forvaltningen, forvaltet av Nasjonalarkivet, og arkivforskrifta § 28 gjør uttrekksreglene bindende for statlige organer som avleverer fra Noark 5-systemer."
+                }
+            ]
+        },
+        {
+            "product_id": 185,
+            "product_name": "EHF (Elektronisk handelsformat)",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/185-EHF-Elektronisk-handelsformat-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/185-EHF-Elektronisk-handelsformat-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
+                    "capability_name": "Standardisering",
+                    "capability_slug": "standardisering",
+                    "subcapability_id": "id-b99fcd8160d24e5f8ea3c17b15072f7a",
+                    "subcapability_name": "Forvaltningsstandarder",
+                    "subcapability_slug": "forvaltningsstandarder",
+                    "mapping_label": "Standardisering: Forvaltningsstandarder",
+                    "explanation": "EHF er den nasjonale standarden for elektronisk faktura og andre handelsdokumenter, utviklet og forvaltet av DFØ, med fakturadelen gjort obligatorisk i forskrift og ført i Referansekatalogen for IT-standarder."
+                },
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-5c6c20d50b6a4b168524901372f0ca6e",
+                    "subcapability_name": "Informasjonsarkitektur",
+                    "subcapability_slug": "informasjonsarkitektur",
+                    "mapping_label": "Informasjonsforvaltning: Informasjonsarkitektur",
+                    "explanation": "spesifikasjonene strukturerer innholdet i handelsdokumentene med felles semantisk modell, syntaks, kodelister og valideringsregler, slik at dokumentene kan behandles maskinelt likt hos avsender og mottaker."
+                }
+            ]
+        },
+        {
+            "product_id": 186,
+            "product_name": "SOSI – standarder for geografisk informasjon",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/186-SOSI-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/186-SOSI-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-5c6c20d50b6a4b168524901372f0ca6e",
+                    "subcapability_name": "Informasjonsarkitektur",
+                    "subcapability_slug": "informasjonsarkitektur",
+                    "mapping_label": "Informasjonsforvaltning: Informasjonsarkitektur",
+                    "explanation": "SOSI fastsetter reglene for hvordan geografisk informasjon modelleres i UML, realiseres i SOSI-format og GML og beskrives med metadata, og gir en felles objektkatalog som produktspesifikasjonene bygger på."
+                },
+                {
+                    "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
+                    "capability_name": "Standardisering",
+                    "capability_slug": "standardisering",
+                    "subcapability_id": "id-b99fcd8160d24e5f8ea3c17b15072f7a",
+                    "subcapability_name": "Forvaltningsstandarder",
+                    "subcapability_slug": "forvaltningsstandarder",
+                    "mapping_label": "Standardisering: Forvaltningsstandarder",
+                    "explanation": "SOSI er den nasjonale bransjestandarden for geografisk informasjon, utviklet og vedtatt i en egen standardiseringsprosess under Kartverket og tilpasset de internasjonale ISO 19100-standardene."
+                }
+            ]
+        },
+        {
+            "product_id": 187,
+            "product_name": "BarentsWatch",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/187-BarentsWatch-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/187-BarentsWatch-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-efe1a2676c124eeab946802af96a1ab7",
+                    "subcapability_name": "Dele data med andre",
+                    "subcapability_slug": "dele-data-med-andre",
+                    "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
+                    "explanation": "BarentsWatch gjør data fra Kystverket, Fiskeridirektoratet, Mattilsynet, Veterinærinstituttet, Meteorologisk institutt og andre dataeiere tilgjengelige gjennom dokumenterte API-er, kart- og nedlastingstjenester, slik at mottakeren ikke må hente dataene fra hver etat."
+                },
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-db4f30a87ae84561a4058d4d264177b1",
+                    "subcapability_name": "Åpne data",
+                    "subcapability_slug": "apne-data",
+                    "mapping_label": "Datakilder: Åpne data",
+                    "explanation": "BarentsWatch publiserer AIS-, fiskehelse-, havbruks-, fiskeri- og varslingsdata maskinlesbart under NLOD, med fast kildeangivelse, slik at alle kan bruke dem også kommersielt."
+                },
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-711390c3ddaa4b67914ccbcc2f1831aa",
+                    "subcapability_name": "Sanntidsdata",
+                    "subcapability_slug": "sanntidsdata",
+                    "mapping_label": "Datakilder: Sanntidsdata",
+                    "explanation": "Live AIS-API-et er en strømmetjeneste der klienten mottar nye AIS-meldinger med posisjoner og skipsdata fortløpende så lenge forbindelsen er åpen, med data fra Kystverkets nasjonale AIS-nett."
+                }
+            ]
+        },
+        {
+            "product_id": 188,
+            "product_name": "Konsultasjonsordningen mellom staten og kommunesektoren",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/samarbeidsfora/188-Konsultasjonsordningen-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/188-Konsultasjonsordningen-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "subcapability_id": "id-b4a86e2e430c472b9f74bedb7f66fd74",
+                    "subcapability_name": "Samarbeidsarenaer og nettverk",
+                    "subcapability_slug": "samarbeidsarenaer-og-nettverk",
+                    "mapping_label": "Samarbeid: Samarbeidsarenaer og nettverk",
+                    "explanation": "Konsultasjonsordningen etablerer og forvalter den faste politiske og administrative arenaen der regjeringen og KS møtes gjennom året, med to faste konsultasjonsmøter, eget møte om digitalisering, bilaterale møter med fagdepartementene og et felles sekretariat."
+                },
+                {
+                    "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
+                    "capability_name": "Strategisk styring",
+                    "capability_slug": "strategisk-styring",
+                    "subcapability_id": "id-034543e002414306a8fbecc8c9d8e496",
+                    "subcapability_name": "Samordning",
+                    "subcapability_slug": "samordning",
+                    "mapping_label": "Strategisk styring: Samordning",
+                    "explanation": "De bilaterale samarbeidsavtalene binder departementene og KS til felles mål og utskrevne plikter for hver part, og brukes som alternativ til lovfesting og øremerking. Ordningen krever også at departementene samordner sine saker rettet mot kommunesektoren før de legges fram for KS, slik at staten opptrer samlet."
+                }
+            ]
         }
     ]
 }
