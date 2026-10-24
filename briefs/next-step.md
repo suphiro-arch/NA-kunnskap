@@ -35,10 +35,10 @@ Venter:
 3. `Digitale vergefullmakter` (Statens sivilrettsforvaltning). Venter på lansering.
 4. `Normen` (helse- og omsorgssektoren, `Standarder og veiledning`).
 
-Revisjoner etter pakke 3b:
+Revisjoner:
 
-- `10` ELMA og `11` Peppol eDelivery: beskriv delingen av Peppol-myndigheten mellom DFØ og Digdir.
-- `127` Samarbeidsportalen: vurder koblingen `Tjenesteforvaltning` mot `183` Bruksvilkår.
+- `01` ID-porten: tre steder i `v4` omtaler «valgt virksomhet», mens representasjon i ID-porten gjelder fullmakt mellom personer.
+- `170` Utredningsinstruksen: beskriv endringene fra 2024 ut fra den gjeldende instruksen på regjeringen.no.
 
 Ikke kildesjekket ennå:
 
