@@ -1,7 +1,7 @@
 # Nasjonale fellestjenester og felleskomponenter
 
 Formål: Samlet lenkeliste over nasjonale fellesløsninger, sektorkilder og relevante standarder og veiledningsressurser.
-Sist redigert: 2026-10-24.
+Sist redigert: 2026-10-25.
 
 ## Fellesløsninger
 
@@ -21,6 +21,10 @@ Sist redigert: 2026-10-24.
 - Bruksvilkår for Digdirs fellesløsninger: https://samarbeid.digdir.no/felleslosninger/bruksvilkar/69 (lagt til 2026-10-24)
 - Bruksvilkår for offentlige kunder: https://samarbeid.digdir.no/felleslosninger/bruksvilkar-offentlige-kunder/70 (lagt til 2026-10-24)
 - Endringslogg for bruksvilkårene: https://samarbeid.digdir.no/digital-postkasse/endringslogg-bruksvilkar/608 (lagt til 2026-10-24)
+- Digdir har levert forslag til nye finansieringsmodeller: https://samarbeid.digdir.no/eformidling/digdir-har-levert-forslag-til-nye-finansieringsmodeller/3291 (lagt til 2026-10-25)
+- Status i arbeidet med ny finansieringsmodell: https://samarbeid.digdir.no/altinn/status-i-arbeidet-med-ny-finansieringsmodell/2823 (lagt til 2026-10-25)
+- Priser på Altinn-tjenester 2027: https://samarbeid.digdir.no/felleslosninger/priser-pa-altinn-tjenester-2027-er-klare/3610 (lagt til 2026-10-25)
+- Prop. 1 S (2026–2027) Digitaliserings- og forvaltningsdepartementet: https://www.regjeringen.no/no/dokumenter/prop.-1-s-20262027/id3175298/ (lagt til 2026-10-25)
 - Bruksvilkår for eInnsyn: https://samarbeid.digdir.no/einnsyn/bruksvilkar-einnsyn/71 (lagt til 2026-10-24)
 - Altinn - tilgangspakker for sluttbrukere: https://samarbeid.digdir.no/altinn/tilgangspakker-hva-betyr-dette-sluttbruker-virksomhet-eller-privatperson/3242 (lagt til 2026-10-19)
 - ID-porten: https://www.digdir.no/id-porten/om-id-porten/1507
@@ -55,7 +59,7 @@ Sist redigert: 2026-10-24.
 - Sertifikattjenester: https://www.digdir.no/digital-sikkerhet/sertifikattjenester/1538
 - eSignering og sealing: https://www.digdir.no/digital-sikkerhet/esignering/1487
 - eSignering dokumentasjon: https://docs.digdir.no/docs/eSignering/
-- eInnsyn: https://www.digdir.no/einnsyn/om-einnsyn/2262
+- eInnsyn: https://einnsyn.no/ (oppdatert 2026-10-25)
 - eInnsyn dokumentasjon: https://docs.digdir.no/docs/eInnsyn/
 - eInnsyn - innsyn og oppslag: https://samarbeid.digdir.no/einnsyn/innsyn-og-oppslag/2484
 - eFormidling: https://www.digdir.no/eformidling/om-eformidling/2182
@@ -255,6 +259,9 @@ Sist redigert: 2026-10-24.
 - Aa-registeret - arbeidsforhold: https://www.nav.no/aa-registeret/arbeidsforhold (lagt til 2026-03-27)
 - Aa-registeret - brukerstøtte: https://www.nav.no/samarbeidspartner/brukerstotte-aa-registeret (lagt til 2026-03-27)
 - Aa-registeret: https://www.nav.no/samarbeidspartner/web-oppslag (lagt til 2026-08-28)
+- Om sykmeldingen (samarbeidspartnere): https://www.nav.no/samarbeidspartner/om-sykmeldingen (lagt til 2026-10-25)
+- Digital sykmelding og dialogmeldinger – tekniske spesifikasjoner: https://www.nav.no/samarbeidspartner/digital-sykmelding-og-dialogmeldinger-tekniske-spesifikasjoner (lagt til 2026-10-25)
+- Sykmelding for arbeidsgivere: https://www.nav.no/arbeidsgiver/sykmelding (lagt til 2026-10-25)
 
 ### KS / kommunal sektor
 - KS Digital tjenesteoversikt: https://ksdigital.no/tjenester-2/ (lagt til 2026-09-04)
@@ -309,6 +316,10 @@ Sist redigert: 2026-10-24.
 - Om konsultasjonsordningen: https://www.regjeringen.no/no/tema/kommuner-og-regioner/kommunalrett-og-kommunal-inndeling/forholdet-kommune-stat/om-ordningen/id544787/ (lagt til 2026-10-24)
 - Bilaterale samarbeidsavtaler mellom staten og KS: https://www.regjeringen.no/no/tema/kommuner-og-regioner/kommunalrett-og-kommunal-inndeling/forholdet-kommune-stat/bilaterale-samarbeidsavtaler-mellom-stat/id544798/ (lagt til 2026-10-24)
 - Rettleiar for konsultasjonsordninga: https://www.regjeringen.no/no/dokumenter/rettleiar-for-konsultasjonsordninga/id2439875/ (lagt til 2026-10-24)
+- DigiFin – finansieringsordning for digitaliseringsprosjekter: https://www.ks.no/fagomrader/digitalisering/styring-og-organisering/finansieringsordning-for-digitaliseringsprosjekter/ (lagt til 2026-10-25)
+- Samstyringsstrukturen i kommunesektoren: https://www.ks.no/fagomrader/digitalisering/styring-og-organisering/samstyringsstruktur/ (lagt til 2026-10-25)
+- Regionale digitaliseringsnettverk: https://www.ks.no/fagomrader/digitalisering/styring-og-organisering/regionale-digitaliseringsnettverk/ (lagt til 2026-10-25)
+- Fiks digisos for utviklere: https://developers.fiks.ks.no/tjenester/digisos/ (lagt til 2026-10-25)
 
 ### Novari / fylkeskommunal sektor
 - vilbli.no, informasjonstjenesten: https://novari.no/tjenester/vilbli/ (lagt til 2026-09-07)
@@ -422,6 +433,9 @@ Sist redigert: 2026-10-24.
 - HL7 Norge: https://www.hl7.no/ (lagt til 2026-10-23, oppdatert 2026-10-24)
 - Norske basisprofiler for HL7 FHIR - forvaltning på GitHub: https://github.com/HL7Norway/basisprofiler-r4 (lagt til 2026-10-23)
 - Norske basisprofiler for HL7 FHIR på Simplifier: https://simplifier.net/hl7norwayno-basis (lagt til 2026-10-23)
+- Helsenorge – logg over bruk: https://www.helsenorge.no/en/usage-log (lagt til 2026-10-25)
+- Helsenorge – kjernejournal: https://www.helsenorge.no/kjernejournal/ (lagt til 2026-10-25)
+- HelseID Selvbetjening – dokumentasjon: https://selvbetjening.nhn.no/docs (lagt til 2026-10-25)
 - KUHR: https://www.helfo.no/om-helfo/ (lagt til 2026-03-19)
 - Norsk Helsenett SF: https://www.nhn.no/
 - Videokonsultasjon (VIO): https://www.nhn.no/tjenester/video
@@ -507,6 +521,12 @@ Sist redigert: 2026-10-24.
 - BarentsWatch for utviklere: https://developer.barentswatch.no/ (lagt til 2026-10-24)
 - Tilgang til AIS-data (Kystverket): https://www.kystverket.no/en/sea-transport-and-ports/ais/access-to-ais-data/ (lagt til 2026-10-24)
 - BarentsWatch hos Kystverket: https://www.kystverket.no/en/navigation-and-monitoring/barentswatch/ (lagt til 2026-10-24, oppdatert 2026-10-24)
+
+### DiBK
+- Fellestjenester BYGG: https://www.dibk.no/verktoy-og-veivisere/andre-fagomrader/fellestjenester-bygg (lagt til 2026-10-25)
+- Dette er Fellestjenester BYGG: https://www.dibk.no/verktoy-og-veivisere/andre-fagomrader/fellestjenester-bygg/dette-er-fellestjenester-bygg (lagt til 2026-10-25)
+- Fellestjenester BYGG – teknisk dokumentasjon: https://dibk.atlassian.net/wiki/spaces/FB/overview (lagt til 2026-10-25)
+- ByggNett – strategien for en digital byggsektor: https://www.dibk.no/saksbehandling-tilsyn-og-kontroll/digitalisering-av-byggesak/byggnett--strategien-for-en-digital-byggsektor (lagt til 2026-10-25)
 
 ### Bufdir og barnevern
 - ung.no, statens informasjonskanal for ungdom: https://www.ung.no/ (lagt til 2026-09-07)
@@ -675,6 +695,7 @@ Sist redigert: 2026-10-24.
 - Simpl-programmets egen side: https://simpl-programme.ec.europa.eu/ (lagt til 2026-09-25)
 - Simpl-Open i EUs kodeplattform, med lisensvilkår: https://code.europa.eu/simpl/simpl-open (lagt til 2026-09-25)
 - Simpl - Kommisjonens omtale av kontraktstildelingen på 41 millioner euro: https://digital-strategy.ec.europa.eu/en/news/commission-awards-eu41-million-contract-develop-infrastructure-common-european-data-spaces (lagt til 2026-09-30)
+- EUDI Wallet – Architecture and Reference Framework: https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework (lagt til 2026-10-25)
 
 ## Standarder og veiledninger
 
@@ -706,6 +727,9 @@ Sist redigert: 2026-10-24.
 - Referansearkitektur eOppslag (PDF): https://www.digdir.no/media/3740/download (lagt til 2026-09-25)
 - Arkitektur for hendelser: https://www.digdir.no/digital-samhandling/innledning/4169 (kanonisk URL oppdatert 2026-06-19)
 - Status på digitaliseringsstrategien: https://www.digdir.no/digitalisering-og-samordning/status-pa-digitaliseringsstrategien/8228 (lagt til 2026-09-25)
+- Fremtidens digitale Norge – nasjonal digitaliseringsstrategi: https://www.regjeringen.no/no/dokumenter/fremtidens-digitale-norge/id3054645/ (lagt til 2026-10-25)
+- Fremtidens digitale Norge hos Digdir: https://www.digdir.no/digitalisering-og-samordning/fremtidens-digitale-norge/7014 (lagt til 2026-10-25)
+- Revisjon av utredningsinstruksen (2024): https://www.regjeringen.no/no/aktuelt/revisjon-av-utredningsinstruksen/id3060950/ (lagt til 2026-10-25)
 - Rikets digitale tilstand 2024 – samlet vurdering av måloppnåelse: https://www.digdir.no/rikets-digitale-tilstand/samlet-vurdering-av-maloppnaelse-i-rikets-digitale-tilstand-2024/5859 (lagt til 2026-09-25)
 - Arkitektur for hendelser - eldre kortlenke: https://www.digdir.no/samhandling/arkitektur-hendelser/4691
 - Kart for tjenestekjeder: https://www.digdir.no/samhandling/kart-tjenestekjeder/4168
@@ -820,6 +844,10 @@ Sist redigert: 2026-10-24.
 - Internkontroll i praksis - Stifinneren: https://www.digdir.no/informasjonssikkerhet/stifinneren/2620 (lagt til 2026-10-24)
 - Internkontroll i praksis - regelverkskrav og anbefalinger: https://www.digdir.no/informasjonssikkerhet/regelverkskrav-og-anbefalinger-internkontroll-informasjonssikkerhet/3229 (lagt til 2026-10-24)
 - Internkontroll i praksis - endringslogg: https://www.digdir.no/informasjonssikkerhet/endringslogg-internkontroll-i-praksis-informasjonssikkerhet/3231 (lagt til 2026-10-24)
+- Normen – Norm for informasjonssikkerhet og personvern i helse- og omsorgssektoren: https://www.helsedirektoratet.no/normen/norm-for-informasjonssikkerhet-og-personvern-i-helse-og-omsorgssektoren (lagt til 2026-10-25)
+- Om Normen: https://www.helsedirektoratet.no/digitalisering-og-e-helse/normen-personvern-og-informasjonssikkerhet/normen/om-normen (lagt til 2026-10-25)
+- Ny lov om digital sikkerhet trer i kraft: https://www.regjeringen.no/no/aktuelt/ny-lov-om-digital-sikkerhet-trer-i-kraft-i-dag/id3121009/ (lagt til 2026-10-25)
+- Vurdere personvernkonsekvenser (DPIA): https://www.datatilsynet.no/rettigheter-og-plikter/virksomhetenes-plikter/vurdere-personvernkonsekvenser/ (lagt til 2026-10-25)
 
 ### Kunstig intelligens
 - Datatilsynets regulatoriske sandkasse for kunstig intelligens: https://www.datatilsynet.no/regelverk-og-verktoy/sandkasse-for-kunstig-intelligens/ (lagt til 2026-08-28)
@@ -864,6 +892,11 @@ Sist redigert: 2026-10-24.
 - Geodataforskriften: https://lovdata.no/dokument/SF/forskrift/2012-08-08-797 (lagt til 2026-10-24)
 - Arkivforskrifta (FOR-2025-12-17-2647): https://lovdata.no/dokument/SF/forskrift/2025-12-17-2647 (lagt til 2026-10-24)
 - Kart- og planforskriften (FOR-2025-01-20-52): https://lovdata.no/dokument/SF/forskrift/2025-01-20-52 (lagt til 2026-10-24)
+- Digitalsikkerhetsloven (LOV-2023-12-20-108): https://lovdata.no/dokument/NL/lov/2023-12-20-108 (lagt til 2026-10-25)
+- Digitalsikkerhetsforskriften (FOR-2025-06-20-1131): https://lovdata.no/dokument/SF/forskrift/2025-06-20-1131 (lagt til 2026-10-25)
+- Personopplysningsloven (LOV-2018-06-15-38): https://lovdata.no/dokument/NL/lov/2018-06-15-38 (lagt til 2026-10-25)
+- A-opplysningsloven (LOV-2012-06-22-43): https://lovdata.no/dokument/NL/lov/2012-06-22-43 (lagt til 2026-10-25)
+- Lovdata API – åpne data: https://api.lovdata.no/om-api-tjenesten/ (lagt til 2026-10-25)
 - Forskrift om elektronisk faktura i offentlige anskaffelser: https://lovdata.no/dokument/SF/forskrift/2019-04-01-444 (lagt til 2026-10-24)
 - Utredningsinstruksen (FOR-2016-02-19-184): https://lovdata.no/dokument/INS/forskrift/2016-02-19-184 (lagt til 2026-10-07)
 - Utredningsinstruksen på regjeringen.no: https://www.regjeringen.no/no/dokumenter/utredningsinstruksen/id3060944/ (lagt til 2026-10-07, oppdatert 2026-10-24)

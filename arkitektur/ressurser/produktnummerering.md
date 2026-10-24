@@ -28,7 +28,7 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 |---|---|---|---|
 | `DIGDIR` | Digdir | Digitaliseringsdirektoratet | Digitale fellesløsninger og Altinn-relaterte løsninger som forvaltes i Digdir-regi |
 | `BRREG` | Brønnøysundregistrene | Registerenheten i Brønnøysund | Register- og samhandlingsløsninger som forvaltes av Brønnøysundregistrene |
-| `KS` | KS Digital | KS-Digitale Fellestjenester AS | Kommunale fellesløsninger og KS-plattformtjenester |
+| `KS` | KS | KS – Kommunesektorens organisasjon og KS-Digitale Fellestjenester AS | Kommunale fellesløsninger, KS-plattformtjenester og virkemidler forvaltet av KS og KS Digital |
 | `SIKT` | Sikt | SIKT - Kunnskapssektorens tjenesteleverandør | Nasjonale fellesløsninger for utdanning og forskning |
 | `HDIR` | Helsedirektoratet | Helsedirektoratet | Helsedirektoratets nasjonale ressurser og registre |
 | `FHI` | Folkehelseinstituttet | Folkehelseinstituttet | Nasjonale helseregistre og smittevernrelaterte dataressurser |
@@ -55,6 +55,10 @@ Kilde: arbeidsregister bygget fra eksisterende produktliste, siste produktversjo
 | `HL7` | HL7 Norge | HL7 Norge | Norske FHIR-profiler og helsestandarder utgitt og forvaltet av HL7 Norge |
 | `ARKIV` | Nasjonalarkivet | Nasjonalarkivet | Arkivstandarder og arkivfaglige ressurser forvaltet av Nasjonalarkivet |
 | `KYST` | Kystverket | Kystverket | Sjøsikkerhets- og havdatatjenester forvaltet av Kystverket, blant annet BarentsWatch |
+| `JD` | Justis- og beredskapsdepartementet | Justis- og beredskapsdepartementet | Lover forvaltet av Justis- og beredskapsdepartementet uten eget fagdirektorat |
+| `DFD` | Digitaliserings- og forvaltningsdepartementet | Digitaliserings- og forvaltningsdepartementet | Strategier og styringsdokumenter forvaltet av departementet |
+| `DIBK` | DiBK | Direktoratet for byggkvalitet | Fellestjenester og standarder for digitale byggesøknader |
+| `LOVDAT` | Lovdata | Stiftelsen Lovdata | Åpne data og tjenester for lover, forskrifter og Norsk Lovtidend |
 
 ### Slik lages en ny eierkode
 
@@ -124,7 +128,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 | 117 | `DIGDIR-049` | Kompetansemodell for digital transformasjon | Standarder og veiledning | Kompetansemodell | Utvikling og formidling av veiledning | [Åpne](../../arkitektur/ressurser/normerende-ressurser/117-Kompetansemodell-for-digital-transformasjon-v2-claude.md) |
 | 118 | `DIGDIR-050` | Felles designsystem | Gjenbrukbare løsninger | Designsystem | Sammenhengende tjenester<br>Gjenbrukbare tjenester<br>Tjenestedesign | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/118-Felles-designsystem-v3-claude.md) |
 | 119 | `DIGDIR-051` | Ansattporten | Gjenbrukbare løsninger | Autentiseringstjeneste for ansatte | Sikring av informasjonsflyt og datautveksling<br>Autentisering<br>Integrerbare tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/119-Ansattporten-v2-codex.md) |
-| 120 | `DIGDIR-052` | Styringsråd for Digitaliseringsdirektoratets fellesløsninger | Samhandlingsarenaer og organisering | Styringsråd | Samarbeidsarenaer og nettverk<br>Samordning | [Åpne](../../arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v5-claude.md) |
+| 120 | `DIGDIR-052` | Styringsråd for Digitaliseringsdirektoratets fellesløsninger | Samhandlingsarenaer og organisering | Styringsråd | Samarbeidsarenaer og nettverk<br>Samordning<br>Tjenesteforvaltning | [Åpne](../../arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v6-claude.md) |
 | 121 | `DIGDIR-053` | Faglig arena for datadeling og informasjonsforvaltning | Samhandlingsarenaer og organisering | Åpen digital fagarena | Samarbeidsarenaer og nettverk<br>Datastyring<br>Anvendelse av veiledning | [Åpne](../../arkitektur/ressurser/samarbeidsfora/121-Faglig-arena-for-informasjonsforvaltning-og-deling-av-data-v2-claude.md) |
 | 122 | `DIGDIR-054` | NIFS | Samhandlingsarenaer og organisering | Nettverk for informasjonssikkerhet | Sikring av informasjonsflyt og datautveksling<br>Samarbeidsarenaer og nettverk | [Åpne](../../arkitektur/ressurser/samarbeidsfora/122-NIFS-v2-claude.md) |
 | 123 | `DIGDIR-055` | DSOP-samarbeidet | Samhandlingsarenaer og organisering | Offentlig-privat samhandlingsarena | Dele data med andre<br>Samarbeidsarenaer og nettverk<br>Samordning | [Åpne](../../arkitektur/ressurser/samarbeidsfora/123-DSOP-samarbeidet-v2-claude.md) |
@@ -146,6 +150,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 | 165 | `DIGDIR-071` | Arbeidsflate | Gjenbrukbare løsninger | Innboks og felles brukerflate for digital dialog | Sammenhengende tjenester<br>Sporbarhet og innsyn<br>Gjenbrukbare tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/165-Arbeidsflate-v1-claude.md) |
 | 179 | `DIGDIR-072` | Internkontroll i praksis – informasjonssikkerhet | Standarder og veiledning | Veiledning for styringssystem for informasjonssikkerhet | Styringssystem<br>Utvikling og formidling av veiledning | [Åpne](../../arkitektur/ressurser/normerende-ressurser/179-Internkontroll-i-praksis-informasjonssikkerhet-v1-claude.md) |
 | 183 | `DIGDIR-073` | Bruksvilkår for Digdirs fellesløsninger | Økonomiske og juridiske rammer og virkemidler | Avtaleverk for bruk av fellesløsninger | Tjenesteforvaltning | [Åpne](../../arkitektur/ressurser/rammer-og-virkemidler/183-Bruksvilkar-for-Digdirs-felleslosninger-v1-claude.md) |
+| 193 | `DIGDIR-074` | Finansieringsmodell for Digdirs fellesløsninger | Økonomiske og juridiske rammer og virkemidler | Kostnadsfordeling for drift og forvaltning av fellesløsninger | Finansiering | [Åpne](../../arkitektur/ressurser/rammer-og-virkemidler/193-Finansieringsmodell-for-felleslosningene-v1-claude.md) |
 
 ## Brønnøysundregistrene (`BRREG`)
 
@@ -156,7 +161,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 
 
 
-## KS Digital (`KS`)
+## KS og KS Digital (`KS`)
 
 | Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
 |---:|---|---|---|---|---|---|
@@ -170,10 +175,11 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 | 68 | `KS-009` | Fiks skatte- og inntektsopplysninger | Gjenbrukbare løsninger | Tilgang til skatte- og inntektsopplysninger via Fiks | Grunndata<br>Bruke data fra andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/68-FIKS-Skatte-og-inntektsopplysninger-produkt-canvas-v2-codex.md) |
 | 69 | `KS-010` | Fiks kjøretøyregister | Gjenbrukbare løsninger | Tilgang til kjøretøyopplysninger via Fiks | Grunndata<br>Bruke data fra andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/69-FIKS-Kjoretoyregister-produkt-canvas-v2-claude.md) |
 | 74 | `KS-011` | Felles mal for innføring av digitale fellestjenester | Standarder og veiledning | Innføringsveileder | Utvikling og formidling av veiledning<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/normerende-ressurser/74-Felles-mal-for-innforing-av-digitale-fellestjenester-v1-claude.md) |
-| 93 | `KS-012` | Fiks digisos | Gjenbrukbare løsninger | Tjeneste for digital sosialhjelp | Organisatorisk samhandling<br>Sammenhengende tjenester<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/93-Fiks-Digisos-produkt-canvas-v1-codex.md) |
+| 93 | `KS-012` | Fiks digisos | Gjenbrukbare løsninger | Tjeneste for digital sosialhjelp | Organisatorisk samhandling<br>Sammenhengende tjenester<br>Dele data med andre<br>Sporbarhet og innsyn | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/93-Fiks-Digisos-produkt-canvas-v2-claude.md) |
 | 94 | `KS-013` | Fiks protokoll | Gjenbrukbare løsninger | Standardiserte grensesnitt for systemsamhandling på Fiks-plattformen | Forvaltningsstandarder<br>Integrerbare tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/94-Fiks-protokoll-v1-claude.md) |
 | 96 | `KS-015` | KS Bekymringsmelding | Gjenbrukbare løsninger | Digital meldingstjeneste for bekymringsmeldinger | Meldingsutveksling<br>Organisatorisk samhandling<br>Sammenhengende tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/96-KS-Bekymringsmelding-produkt-canvas-v1-codex.md) |
 | 97 | `KS-016` | KS Min kommune | Gjenbrukbare løsninger | Innbyggerportal for kommunale tjenester | Sammenhengende tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/97-KS-Min-kommune-v2-claude.md) |
+| 192 | `KS-017` | DigiFin | Økonomiske og juridiske rammer og virkemidler | Finansieringsordning for felles kommunale digitaliseringsprosjekter | Finansiering | [Åpne](../../arkitektur/ressurser/rammer-og-virkemidler/192-DigiFin-v1-claude.md) |
 
 
 
@@ -248,8 +254,8 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 
 | Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
 |---:|---|---|---|---|---|---|
-| 32 | `NHN-001` | Helsenorge | Gjenbrukbare løsninger | Innbyggerportal | Sammenhengende tjenester<br>Representasjon<br>Samtykke<br>Tilgangsstyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/32-Helsenorge-v3-claude.md) |
-| 33 | `NHN-002` | HelseID | Gjenbrukbare løsninger | Tillits- og autentiseringskomponent for helse | Bruke data fra andre<br>Sikring av informasjonsflyt og datautveksling<br>Autentisering | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/33-HelseID-produkt-canvas-v2-claude.md) |
+| 32 | `NHN-001` | Helsenorge | Gjenbrukbare løsninger | Innbyggerportal | Sammenhengende tjenester<br>Representasjon<br>Samtykke<br>Tilgangsstyring<br>Sporbarhet og innsyn | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/32-Helsenorge-v4-claude.md) |
+| 33 | `NHN-002` | HelseID | Gjenbrukbare løsninger | Tillits- og autentiseringskomponent for helse | Bruke data fra andre<br>Sikring av informasjonsflyt og datautveksling<br>Autentisering<br>Tilgangsstyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/33-HelseID-produkt-canvas-v3-claude.md) |
 | 34 | `NHN-003` | Kjernejournal | Gjenbrukbare løsninger | Pasientdata | Bruke data fra andre<br>Dele data med andre<br>Organisatorisk samhandling<br>Sporbarhet og innsyn<br>Tilgangskontroll | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/34-Kjernejournal-produkt-canvas-v3-claude.md) |
 | 35 | `NHN-004` | e-resept | Gjenbrukbare løsninger | Reseptsystem | Bruke data fra andre<br>Meldingsutveksling<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/35-e-resept-produkt-canvas-v1-codex.md) |
 | 79 | `NHN-005` | Videokonsultasjon (VIO) | Gjenbrukbare løsninger | Digital konsultasjonstjeneste | Sammenhengende tjenester<br>Integrerbare tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/79-Videokonsultasjon-v1-claude.md) |
@@ -270,6 +276,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 |---:|---|---|---|---|---|---|
 | 36 | `NAV-001` | Aa-registeret | Gjenbrukbare løsninger | Arbeidsforholdsregister og delingstjeneste | Grunndata<br>Bruke data fra andre<br>Dele data med andre<br>Sammenhengende tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/36-Aa-registeret-produkt-canvas-v2-codex.md) |
 | 66 | `NAV-002` | NAIS | Gjenbrukbare løsninger | Plattform for applikasjoner | Gjenbrukbare tjenester<br>Utviklings- og kjøretidsmiljø | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/66-NAIS-produkt-canvas-v2-codex.md) |
+| 198 | `NAV-003` | Digital sykmelding | Gjenbrukbare løsninger | Digital innsending og formidling av sykmelding | Meldingsutveksling<br>Sammenhengende tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/198-Digital-sykmelding-v1-claude.md) |
 
 
 
@@ -329,6 +336,8 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 | 163 | `FLERE-006` | DigiUng | Samhandlingsarenaer og organisering | Tverrsektorielt samarbeid om digitale tjenester for ungdom | Organisatorisk samhandling<br>Samarbeidsarenaer og nettverk<br>Sammenhengende tjenester<br>Tjenestedesign | [Åpne](../../arkitektur/ressurser/samarbeidsfora/163-DigiUng-v1-claude.md) |
 | 168 | `FLERE-007` | Sikkert.no | Standarder og veiledning | Felles myndighetsportal for digital sikkerhet | Utvikling og formidling av veiledning<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/normerende-ressurser/168-sikkert-no-v1-claude.md) |
 | 188 | `FLERE-008` | Konsultasjonsordningen mellom staten og kommunesektoren | Samhandlingsarenaer og organisering | Dialog mellom staten og kommunesektoren | Samarbeidsarenaer og nettverk<br>Samordning | [Åpne](../../arkitektur/ressurser/samarbeidsfora/188-Konsultasjonsordningen-v1-claude.md) |
+| 195 | `FLERE-009` | Normen | Standarder og veiledning | Bransjenorm for informasjonssikkerhet og personvern i helse- og omsorgssektoren | Styringssystem<br>Sikring av informasjonsflyt og datautveksling<br>Regelverkstolkning<br>Utvikling og formidling av veiledning | [Åpne](../../arkitektur/ressurser/normerende-ressurser/195-Normen-v1-claude.md) |
+| 197 | `FLERE-010` | Regionale digitaliseringsnettverk | Samhandlingsarenaer og organisering | Regionale samarbeid om digitalisering i kommunesektoren | Samarbeidsarenaer og nettverk<br>Organisatorisk samhandling<br>Samordning | [Åpne](../../arkitektur/ressurser/samarbeidsfora/197-Regionale-digitaliseringsnettverk-v1-claude.md) |
 
 
 
@@ -361,11 +370,11 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 
 | Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
 |---:|---|---|---|---|---|---|
-| 41 | `EU-001` | European Digital Identity Wallet | Gjenbrukbare løsninger | Digital identitetslommebok | Autentisering<br>Signering | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/41-European-Digital-Identity-Wallet-v1-claude.md) |
+| 41 | `EU-001` | European Digital Identity Wallet | Gjenbrukbare løsninger | Digital identitetslommebok | Autentisering<br>Signering<br>Samtykke | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/41-European-Digital-Identity-Wallet-v2-claude.md) |
 | 42 | `EU-002` | eID Building Block | Gjenbrukbare løsninger | E-identifikasjonskomponent | Autentisering<br>Identifisering | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/42-eID-Building-Block-v1-claude.md) |
 | 43 | `EU-003` | eDelivery Building Block | Gjenbrukbare løsninger | Byggestein / referanseramme for eDelivery | Meldingsutveksling<br>Sikring av informasjonsflyt og datautveksling<br>EU standarder | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/43-eDelivery-Building-Block-v1-claude.md) |
 | 44 | `EU-004` | eSignature Building Block | Gjenbrukbare løsninger | Signaturkomponent | Signering<br>Sikring av informasjonsflyt og datautveksling<br>EU standarder | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/44-eSignature-Building-Block-v1-claude.md) |
-| 45 | `EU-005` | Once-Only Technical System (OOTS) | Gjenbrukbare løsninger | Grensekryssende datadelingsinfrastruktur | Dele data med andre<br>Bruke data fra andre<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/45-Once-Only-Technical-System-v1-claude.md) |
+| 45 | `EU-005` | Once-Only Technical System (OOTS) | Gjenbrukbare løsninger | Grensekryssende datadelingsinfrastruktur | Dele data med andre<br>Bruke data fra andre<br>Organisatorisk samhandling<br>Tjenestekjeder | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/45-Once-Only-Technical-System-v2-claude.md) |
 | 53 | `EU-006` | EU Open Source Solutions Catalogue | Gjenbrukbare løsninger | Åpen kildekode-katalog for offentlig sektor | Gjenbrukbare tjenester<br>Oversikt over tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/53-EU-Open-Source-Solutions-Catalogue-v1-claude.md) |
 | 54 | `EU-007` | Interoperable Europe Solutions | Standarder og veiledning | Løsningskatalog for interoperabilitet | EU standarder<br>Gjenbrukbare tjenester | [Åpne](../../arkitektur/ressurser/normerende-ressurser/54-Interoperable-Europe-Solutions-v1-claude.md) |
 | 55 | `EU-008` | Core Vocabularies | Standarder og veiledning | Semantisk interoperabilitetsressurs | Informasjonsarkitektur<br>EU standarder | [Åpne](../../arkitektur/ressurser/normerende-ressurser/55-Core-Vocabularies-v1-claude.md) |
@@ -381,6 +390,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 | Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
 |---:|---|---|---|---|---|---|
 | 147 | `DTIL-001` | Regulatorisk sandkasse for kunstig intelligens | Standarder og veiledning | Veiledning om personvern i KI | Utvikling og formidling av veiledning<br>Regelverkstolkning | [Åpne](../../arkitektur/ressurser/normerende-ressurser/147-Regulatorisk-sandkasse-for-kunstig-intelligens-v2-claude.md) |
+| 190 | `DTIL-002` | Personopplysningsloven og personvernforordningen | Økonomiske og juridiske rammer og virkemidler | Personvern og behandling av personopplysninger | Styringssystem<br>Sikring av informasjonsflyt og datautveksling | [Åpne](../../arkitektur/ressurser/rammer-og-virkemidler/190-Personopplysningsloven-og-personvernforordningen-v1-claude.md) |
 
 
 
@@ -388,7 +398,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 
 | Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
 |---:|---|---|---|---|---|---|
-| 170 | `DFO-001` | Utredningsinstruksen | Økonomiske og juridiske rammer og virkemidler | Instruks om utredning av statlige tiltak | Regelverksutvikling<br>Samordning | [Åpne](../../arkitektur/ressurser/rammer-og-virkemidler/170-Utredningsinstruksen-v1-claude.md) |
+| 170 | `DFO-001` | Utredningsinstruksen | Økonomiske og juridiske rammer og virkemidler | Instruks om utredning av statlige tiltak | Regelverksutvikling<br>Samordning | [Åpne](../../arkitektur/ressurser/rammer-og-virkemidler/170-Utredningsinstruksen-v2-claude.md) |
 | 182 | `DFO-002` | Statens standardavtaler (SSA) | Standarder og veiledning | Standardavtaler for IT-anskaffelser | Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/normerende-ressurser/182-Statens-standardavtaler-v1-claude.md) |
 | 185 | `DFO-003` | EHF (Elektronisk handelsformat) | Standarder og veiledning | Elektronisk faktura og handelsdokumenter | Forvaltningsstandarder<br>Informasjonsarkitektur | [Åpne](../../arkitektur/ressurser/normerende-ressurser/185-EHF-Elektronisk-handelsformat-v1-claude.md) |
 
@@ -410,6 +420,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 | Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
 |---:|---|---|---|---|---|---|
 | 174 | `NSM-001` | NSMs grunnprinsipper for IKT-sikkerhet | Standarder og veiledning | Grunnprinsipper for IKT-sikkerhet | Styringssystem<br>Sikring av informasjonsflyt og datautveksling<br>Utvikling og formidling av veiledning | [Åpne](../../arkitektur/ressurser/normerende-ressurser/174-NSMs-grunnprinsipper-for-IKT-sikkerhet-v1-claude.md) |
+| 189 | `NSM-002` | Digitalsikkerhetsloven | Økonomiske og juridiske rammer og virkemidler | Digital sikkerhet for samfunnsviktige tjenester (NIS) | Styringssystem | [Åpne](../../arkitektur/ressurser/rammer-og-virkemidler/189-Digitalsikkerhetsloven-v1-claude.md) |
 
 ## HL7 Norge (`HL7`)
 
@@ -428,6 +439,30 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 | Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
 |---:|---|---|---|---|---|---|
 | 187 | `KYST-001` | BarentsWatch | Gjenbrukbare løsninger | Hav- og kystdata, AIS | Dele data med andre<br>Åpne data<br>Sanntidsdata | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/187-BarentsWatch-v1-claude.md) |
+
+## Justis- og beredskapsdepartementet (`JD`)
+
+| Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
+|---:|---|---|---|---|---|---|
+| 191 | `JD-001` | Forvaltningsloven | Økonomiske og juridiske rammer og virkemidler | Saksbehandling, automatisering og deling i forvaltningen | Regelverksutvikling | [Åpne](../../arkitektur/ressurser/rammer-og-virkemidler/191-Forvaltningsloven-v1-claude.md) |
+
+## Digitaliserings- og forvaltningsdepartementet (`DFD`)
+
+| Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
+|---:|---|---|---|---|---|---|
+| 194 | `DFD-001` | Fremtidens digitale Norge | Økonomiske og juridiske rammer og virkemidler | Nasjonal digitaliseringsstrategi | Samordning | [Åpne](../../arkitektur/ressurser/rammer-og-virkemidler/194-Fremtidens-digitale-Norge-v1-claude.md) |
+
+## Lovdata (`LOVDAT`)
+
+| Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
+|---:|---|---|---|---|---|---|
+| 196 | `LOVDAT-001` | Lovdatas åpne data og API | Gjenbrukbare løsninger | Åpne datasett med gjeldende regelverk og Norsk Lovtidend | Åpne data | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/196-Lovdata-apne-data-og-API-v1-claude.md) |
+
+## DiBK (`DIBK`)
+
+| Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
+|---:|---|---|---|---|---|---|
+| 199 | `DIBK-001` | Fellestjenester BYGG | Gjenbrukbare løsninger | Felles tjenester for digitale byggesøknader | Meldingsutveksling<br>Gjenbrukbare tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/199-Fellestjenester-BYGG-v1-claude.md) |
 
 ## Ekstra verifiserte kilder brukt i denne utvidelsen
 

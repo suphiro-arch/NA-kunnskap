@@ -16,39 +16,18 @@ Fila er et planleggingsverktøy. Den viser hva som er åpent nå, ikke hva som h
 Punkter som er ferdige, fjernes herfra i stedet for å bli stående som logg. Punkter som ikke er
 fulgt opp og heller ikke er besluttet, flyttes ned til `Løse ideer`.
 
-## Avklares: skal lover tas inn som ressurs i «Økonomiske og juridiske rammer og virkemidler»?
-
-Satt på vent 2026-10-17. Forslaget til avgrensningsregel og spørsmålene som må avklares, står i
-[decisions.md](./decisions.md). Ingen lover tas inn før regelen er besluttet der.
-
 ## Nye ressurser i prioritert rekkefølge
 
-Lovene på lista under venter på avgrensningsregelen over. Nye kilder legges i `sources/links.md`
-når ressursen skrives.
+Nye kilder legges i `sources/links.md` når ressursen skrives.
 
 Venter:
 
-1. `Digitalsikkerhetsloven` (JD og NSM). Finn forskriften i Lovdata og offisiell status for NIS2 i
-   EØS.
-2. `Ny forvaltningslov` (JD). Opprettes når ikrafttredelsen er fastsatt. Kontroller samtidig
-   hjemmelsgrunnlaget for `144` eForvaltningsforskriften.
-3. `Digitale vergefullmakter` (Statens sivilrettsforvaltning). Venter på lansering.
-4. `Normen` (helse- og omsorgssektoren, `Standarder og veiledning`).
-
-Revisjoner:
-
-- `01` ID-porten: tre steder i `v4` omtaler «valgt virksomhet», mens representasjon i ID-porten gjelder fullmakt mellom personer.
-- `170` Utredningsinstruksen: beskriv endringene fra 2024 ut fra den gjeldende instruksen på regjeringen.no.
+- `Digitale vergefullmakter` (Statens sivilrettsforvaltning). Venter på lansering.
 
 Ikke kildesjekket ennå:
 
-- `Standarder og veiledning`: `Nasjonalt ID-senter` (Politiet).
-- `Gjenbrukbare løsninger`: `Digital sykmelding` (NAV), `Fellestjenester BYGG` (DiBK),
-  `Nødvarsel` (DSB), `KommuneCSIRT` (KS) og `Lovdatas åpne data og API` (Lovdata).
-- `Økonomiske og juridiske rammer og virkemidler`: `Personopplysningsloven og
-  personvernforordningen`, `DigiFin` (KS) og `Fremtidens digitale Norge` (KDD).
-- `Samhandlingsarenaer og organisering`: `Regionale digitaliseringsnettverk` i kommunesektoren, som
-  én samleressurs.
+- `KommuneCERT` (Norsk helsenett, responsmiljø for kommunesektoren). Avklar kategori og forholdet
+  til `FLERE-007` Sikkert.no.
 
 ## Andre kandidater
 

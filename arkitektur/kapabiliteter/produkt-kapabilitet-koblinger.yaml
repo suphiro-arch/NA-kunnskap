@@ -1484,10 +1484,10 @@
         {
             "product_id": 32,
             "product_name": "Helsenorge",
-            "version": 3,
+            "version": 4,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/32-Helsenorge-v3-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/32-Helsenorge-v3-claude.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/32-Helsenorge-v4-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/32-Helsenorge-v4-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
@@ -1528,16 +1528,25 @@
                     "subcapability_slug": "tilgangsstyring",
                     "mapping_label": "Tillit: Tilgangsstyring",
                     "explanation": "lar innbyggeren definere, avgrense og trekke tilbake hvem som skal ha tilgang til egne helseopplysninger, gjennom fullmakter, sperring og blokkering av utvalgte helsepersonell."
+                },
+                {
+                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
+                    "capability_name": "Tillit",
+                    "capability_slug": "tillit",
+                    "subcapability_id": "id-2dfe07b3eae740b9a292e0a4a42d22db",
+                    "subcapability_name": "Sporbarhet og innsyn",
+                    "subcapability_slug": "sporbarhet-og-innsyn",
+                    "explanation": "er innbyggerens innsynsflate for bruk av egne helseopplysninger: under «Logg over bruk» ser innbyggeren hvilke helsepersonell som har åpnet kjernejournalen, og her kan innbyggeren også se hvem som har sett på reseptene, mens loggføringen av oppslagene skjer i `Kjernejournal` (NHN-003) og de andre kildeløsningene; i tillegg logger Helsenorge selv når innbyggeren, eller noen med foreldreansvar eller fullmakt, har brukt en tjeneste på innbyggerens vegne."
                 }
             ]
         },
         {
             "product_id": 33,
             "product_name": "HelseID",
-            "version": 2,
+            "version": 3,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/33-HelseID-produkt-canvas-v2-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/33-HelseID-produkt-canvas-v2-claude.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/33-HelseID-produkt-canvas-v3-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/33-HelseID-produkt-canvas-v3-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
@@ -1568,6 +1577,15 @@
                     "subcapability_slug": "autentisering",
                     "mapping_label": "Tillit: Autentisering",
                     "explanation": "er en kjernefunksjon ved at HelseID bekrefter identiteten til helsepersonell, systemer og virksomheter."
+                },
+                {
+                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
+                    "capability_name": "Tillit",
+                    "capability_slug": "tillit",
+                    "subcapability_id": "id-b440252bc3de42dea8468be54e54b1fa",
+                    "subcapability_name": "Tilgangsstyring",
+                    "subcapability_slug": "tilgangsstyring",
+                    "explanation": "forvalter tilgangen til API-ressurser i helse- og omsorgssektoren: tjenestetilbydere definerer scopes for API-ene sine i HelseID Selvbetjening, klienter ber om tilgang der, scopes er enten åpne, godkjennes av tjenestetilbyderen eller godkjennes automatisk når bruksvilkår er signert, og HelseID utsteder bare token med scopes klienten har tilgang til. Koblingen gjelder tilgang til API-er og systemer, ikke tilgang til helseopplysninger, som tjenestetilbyderne selv avgjør."
                 }
             ]
         },
@@ -1854,10 +1872,10 @@
         {
             "product_id": 41,
             "product_name": "European Digital Identity Wallet",
-            "version": 1,
+            "version": 2,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/41-European-Digital-Identity-Wallet-v1-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/41-European-Digital-Identity-Wallet-v1-claude.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/41-European-Digital-Identity-Wallet-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/41-European-Digital-Identity-Wallet-v2-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
@@ -1878,6 +1896,15 @@
                     "subcapability_slug": "signering",
                     "mapping_label": "Tillit: Signering",
                     "explanation": "gjør det mulig for innbyggeren å opprette rettslig bindende elektroniske signaturer direkte fra lommeboka, innenfor det samme tillitsrammeverket."
+                },
+                {
+                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
+                    "capability_name": "Tillit",
+                    "capability_slug": "tillit",
+                    "subcapability_id": "id-809f454dc4024d56ab54079252fdfe29",
+                    "subcapability_name": "Samtykke",
+                    "subcapability_slug": "samtykke",
+                    "explanation": "lommeboka ber brukeren om eksplisitt godkjenning før hver framvisning av attributter til et brukersted, i alle brukstilfeller og også når brukerstedet er en offentlig myndighet. Før godkjenningen viser lommeboka hvem brukerstedet er, hvilke attributter det ber om og hva de skal brukes til, og brukeren kan godkjenne eller avslå de enkelte attributtene. Et dashbord med logg over alle delinger lar brukeren se hva som er delt med hvem, be brukerstedet slette opplysningene og melde mistenkelige forespørsler til datatilsynsmyndigheten. Architecture and Reference Framework presiserer at brukerens godkjenning ikke er behandlingsgrunnlag etter personvernforordningen, og at brukerstedet må ha eget rettslig grunnlag. Koblingen gjelder derfor evnen til å godkjenne, spore og følge opp hver deling, ikke samtykke som rettslig grunnlag for brukerstedets behandling."
                 }
             ]
         },
@@ -1994,10 +2021,10 @@
         {
             "product_id": 45,
             "product_name": "Once-Only Technical System (OOTS)",
-            "version": 1,
+            "version": 2,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/45-Once-Only-Technical-System-v1-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/45-Once-Only-Technical-System-v1-claude.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/45-Once-Only-Technical-System-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/45-Once-Only-Technical-System-v2-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
@@ -2028,6 +2055,15 @@
                     "subcapability_slug": "organisatorisk-samhandling",
                     "mapping_label": "Samarbeid: Organisatorisk samhandling",
                     "explanation": "effektiviserer forretningsprosessene på tvers av organisatoriske og nasjonale grenser, ved at søknadsbehandling i ett land kan trekke på registerdata i et annet."
+                },
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "subcapability_id": "id-825b1ea1217b4eedb6caae165aeb8e41",
+                    "subcapability_name": "Tjenestekjeder",
+                    "subcapability_slug": "tjenestekjeder",
+                    "explanation": "kobler prosedyreportalen hos en myndighet i ett land og datatjenesten hos bevisleverandører i ett eller flere andre land til ett automatisert løp i brukerens prosedyre, uten at brukeren må hente og levere dokumentasjonen selv. Bevismottakeren slår opp i bevismegleren hvilke bevistyper som oppfyller et krav, og i tjenestekatalogen hvilke bevisleverandører som kan levere dem, i stedet for å bygge faste punkt-til-punkt-integrasjoner mot hvert land. Gjennomføringsforordning (EU) 2022/1463 gir den felles rettslige og tekniske rammen, det semantiske registeret lagrer de felles informasjonsmodellene, og utvekslingen skjer som korrelerte forespørsels- og svarmeldinger mellom kompetente myndigheter. Det er den løst koblede og automatiserte sammensetningen av uavhengige tjenester definisjonen beskriver, avgrenset til de prosedyrene og bevistypene som er listet i regelverket."
                 }
             ]
         },
@@ -3594,10 +3630,10 @@
         {
             "product_id": 93,
             "product_name": "Fiks digisos",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/93-Fiks-Digisos-produkt-canvas-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/93-Fiks-Digisos-produkt-canvas-v1-codex.md",
+            "version": 2,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/93-Fiks-Digisos-produkt-canvas-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/93-Fiks-Digisos-produkt-canvas-v2-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
@@ -3628,6 +3664,15 @@
                     "subcapability_slug": "dele-data-med-andre",
                     "mapping_label": "Datautveksling og integrasjon: Dele data med andre",
                     "explanation": "Tjenesten deler og overfører søknads- og saksdata kontrollert mellom statlige og kommunale systemer gjennom Fiks API-er og meldingskanaler."
+                },
+                {
+                    "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
+                    "capability_name": "Tillit",
+                    "capability_slug": "tillit",
+                    "subcapability_id": "id-2dfe07b3eae740b9a292e0a4a42d22db",
+                    "subcapability_name": "Sporbarhet og innsyn",
+                    "subcapability_slug": "sporbarhet-og-innsyn",
+                    "explanation": "Fiks Digisos dokumenterer saksgangen som tidsstemplede hendelser fra kommunens fagsystem, som tildelt NAV-kontor, søknadsstatus, etterspurt dokumentasjon, vedtak og utbetaling, og hver saksoppdatering inneholder hele historikken, slik at søkeren på nav.no ser hva som har skjedd i egen sak og når; NAV-ansattes oppslag i saksopplysningene logges i Fiks Audit."
                 }
             ]
         },
@@ -4504,10 +4549,10 @@
         {
             "product_id": 120,
             "product_name": "Styringsråd for Digitaliseringsdirektoratets fellesløsninger",
-            "version": 5,
+            "version": 6,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v5-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v5-claude.md",
+            "relative_path": "arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v6-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v6-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
@@ -4528,6 +4573,15 @@
                     "subcapability_slug": "samordning",
                     "mapping_label": "Strategisk styring: Samordning",
                     "explanation": "støttes fordi forumet bistår med å prioritere, avveie og samordne behov på tvers av løsninger og brukergrupper i porteføljekontekst."
+                },
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "subcapability_id": "id-3f59d920995e4d488e56f61356dcf97a",
+                    "subcapability_name": "Tjenesteforvaltning",
+                    "subcapability_slug": "tjenesteforvaltning",
+                    "explanation": "støttes som grensetilfelle. Mandatet gir rådet i oppgave å behandle endringer i styrings- og finansieringsmodellen for fellesløsningene, og avtalen om bruk av Digdirs fellesløsninger fastsetter at Digdir ved vesentlig endring av bruksvilkårene skal legge endringsforslaget fram for rådet til behandling. Det samme gjelder endringsforslag fra kunder som Digdir støtter. Bruksvilkårene er avtalen som fordeler ansvar mellom Digdir som forvalter og brukervirksomhetene, og produktrådene som rådet og Digdir kan opprette, rapporterer til rådet. Rådet er rådgivende, og beslutningsmyndigheten ligger hos Digdir. Bidraget er at roller, ansvar og avtaler mellom forvalter og brukervirksomheter har en fast arena for behandling og forankring."
                 }
             ]
         },
@@ -6374,10 +6428,10 @@
         {
             "product_id": 170,
             "product_name": "Utredningsinstruksen",
-            "version": 1,
+            "version": 2,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/rammer-og-virkemidler/170-Utredningsinstruksen-v1-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/170-Utredningsinstruksen-v1-claude.md",
+            "relative_path": "arkitektur/ressurser/rammer-og-virkemidler/170-Utredningsinstruksen-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/170-Utredningsinstruksen-v2-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-299fc063873a4f278a1d3c0ac9480467",
@@ -6387,7 +6441,7 @@
                     "subcapability_name": "Regelverksutvikling",
                     "subcapability_slug": "regelverksutvikling",
                     "mapping_label": "Juridisk samhandling: Regelverksutvikling",
-                    "explanation": "Instruksen er prosessrammen for hvordan forslag til lover og forskrifter blir til i staten. Kapittel 4 setter krav til utforming, Lovavdelingens lovtekniske gjennomgang og Regelrådets rolle, og kapittel 3 krever at regelverksforslag alltid forelegges berørte departementer og normalt sendes på høring."
+                    "explanation": "Instruksen er prosessrammen for hvordan forslag til lover og forskrifter blir til i staten. Kapittel 4 setter krav til utforming, Lovavdelingens lovtekniske gjennomgang og Regelrådets rolle, og kapittel 3 krever at regelverksforslag alltid forelegges berørte departementer og normalt sendes på høring. Kapittel 5 setter krav til når og hvordan EØS- og Schengen-regelverk skal gjennomføres i norsk rett (§ 5-6)."
                 },
                 {
                     "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
@@ -6397,7 +6451,7 @@
                     "subcapability_name": "Samordning",
                     "subcapability_slug": "samordning",
                     "mapping_label": "Strategisk styring: Samordning",
-                    "explanation": "Instruksen forplikter departementer og etater til å koordinere seg før beslutninger tas. Berørte departementer skal involveres så tidlig som mulig, og forslag med vesentlige virkninger skal forelegges dem med minst tre ukers frist før høring (§ 3-1 og § 3-2)."
+                    "explanation": "Instruksen forplikter departementer og etater til å koordinere seg før beslutninger tas. Berørte departementer skal involveres så tidlig som mulig, og forslag med vesentlige virkninger skal forelegges dem med minst tre ukers frist før høring (§ 3-1 og § 3-2). I EØS- og Schengen-saker skal ansvarlig departement involvere andre berørte departementer, blant annet gjennom spesialutvalgene (§ 5-2)."
                 }
             ]
         },
@@ -6928,6 +6982,306 @@
                     "subcapability_slug": "samordning",
                     "mapping_label": "Strategisk styring: Samordning",
                     "explanation": "De bilaterale samarbeidsavtalene binder departementene og KS til felles mål og utskrevne plikter for hver part, og brukes som alternativ til lovfesting og øremerking. Ordningen krever også at departementene samordner sine saker rettet mot kommunesektoren før de legges fram for KS, slik at staten opptrer samlet."
+                }
+            ]
+        },
+        {
+            "product_id": 189,
+            "product_name": "Digitalsikkerhetsloven",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/rammer-og-virkemidler/189-Digitalsikkerhetsloven-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/189-Digitalsikkerhetsloven-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-48c9873ae59341a49c2dca27379fab55",
+                    "capability_name": "Informasjonssikkerhet",
+                    "capability_slug": "informasjonssikkerhet",
+                    "subcapability_id": "id-980043f78fa94eec8ecf46338a5b9c6b",
+                    "subcapability_name": "Styringssystem",
+                    "subcapability_slug": "styringssystem",
+                    "mapping_label": "Informasjonssikkerhet: Styringssystem",
+                    "explanation": "Forskriften § 6 krever at tilbydere av samfunnsviktige tjenester etablerer et dokumentert styringssystem for sikkerhet basert på anerkjente standarder, som inngår i virksomhetsstyringen og gjennomgås minst årlig for å forbedre sikkerhetsarbeidet. §§ 7 og 8 krever risikovurdering og risikohåndteringsplan som grunnlag for tiltakene."
+                }
+            ]
+        },
+        {
+            "product_id": 190,
+            "product_name": "Personopplysningsloven og personvernforordningen",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/rammer-og-virkemidler/190-Personopplysningsloven-og-personvernforordningen-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/190-Personopplysningsloven-og-personvernforordningen-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-48c9873ae59341a49c2dca27379fab55",
+                    "capability_name": "Informasjonssikkerhet",
+                    "capability_slug": "informasjonssikkerhet",
+                    "subcapability_id": "id-980043f78fa94eec8ecf46338a5b9c6b",
+                    "subcapability_name": "Styringssystem",
+                    "subcapability_slug": "styringssystem",
+                    "mapping_label": "Informasjonssikkerhet: Styringssystem",
+                    "explanation": "Artikkel 24 krever egnede tekniske og organisatoriske tiltak som skal gjennomgås og oppdateres ved behov, og artikkel 5 nr. 2 krever at den behandlingsansvarlige kan påvise etterlevelse. Artikkel 32 nr. 1 bokstav d krever en prosess for regelmessig testing og vurdering av hvor effektive sikkerhetstiltakene er, og artikkel 35 krever risikovurdering før behandling med høy risiko."
+                },
+                {
+                    "capability_id": "id-48c9873ae59341a49c2dca27379fab55",
+                    "capability_name": "Informasjonssikkerhet",
+                    "capability_slug": "informasjonssikkerhet",
+                    "subcapability_id": "id-34d3d64b3afe4327a29ee6c2f7f74dff",
+                    "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
+                    "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling",
+                    "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
+                    "explanation": "Artikkel 32 krever tiltak for konfidensialitet og integritet, med pseudonymisering og kryptering som eksempler, og artikkel 28 krever avtale som regulerer hva en databehandler kan gjøre med opplysningene. Kapittel V stiller vilkår for når personopplysninger kan overføres til land utenfor EØS."
+                }
+            ]
+        },
+        {
+            "product_id": 191,
+            "product_name": "Forvaltningsloven",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/rammer-og-virkemidler/191-Forvaltningsloven-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/191-Forvaltningsloven-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-299fc063873a4f278a1d3c0ac9480467",
+                    "capability_name": "Juridisk samhandling",
+                    "capability_slug": "juridisk-samhandling",
+                    "subcapability_id": "id-0119029984674da59dbbfdc3a8ca3e95",
+                    "subcapability_name": "Regelverksutvikling",
+                    "subcapability_slug": "regelverksutvikling",
+                    "mapping_label": "Juridisk samhandling: Regelverksutvikling",
+                    "explanation": "§§ 94–97 er den generelle prosessrammen for forskrifter i hele forvaltningen, også i kommunene: utredning av behov, alternativer og virkninger, åpen høring med minst tre måneders frist og kunngjøring i Norsk Lovtidend. Loven gir i tillegg Kongen hjemmel til å utvikle forskrifter om automatiserte avgjørelser (§§ 11 og 12) og om deling av taushetsbelagte opplysninger (§ 35)."
+                }
+            ]
+        },
+        {
+            "product_id": 192,
+            "product_name": "DigiFin",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/rammer-og-virkemidler/192-DigiFin-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/192-DigiFin-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
+                    "capability_name": "Strategisk styring",
+                    "capability_slug": "strategisk-styring",
+                    "subcapability_id": "id-ecdde89168314bfb94b6a6ac70a55bc7",
+                    "subcapability_name": "Finansiering",
+                    "subcapability_slug": "finansiering",
+                    "mapping_label": "Strategisk styring: Finansiering",
+                    "explanation": "DigiFin er et etablert finansielt virkemiddel som mellomfinansierer felles digitaliseringsprosjekter i kommunesektoren og fordeler utviklingskostnaden på kommunene og fylkeskommunene som tar løsningen i bruk, gjennom en prosjektavgift med fastsatte prinsipper for kostnadsdeling."
+                }
+            ]
+        },
+        {
+            "product_id": 193,
+            "product_name": "Finansieringsmodell for Digdirs fellesløsninger",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/rammer-og-virkemidler/193-Finansieringsmodell-for-felleslosningene-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/193-Finansieringsmodell-for-felleslosningene-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
+                    "capability_name": "Strategisk styring",
+                    "capability_slug": "strategisk-styring",
+                    "subcapability_id": "id-ecdde89168314bfb94b6a6ac70a55bc7",
+                    "subcapability_name": "Finansiering",
+                    "subcapability_slug": "finansiering",
+                    "mapping_label": "Strategisk styring: Finansiering",
+                    "explanation": "Modellen er den regjeringsvedtatte fordelingen av kostnadene til drift, forvaltning og videreutvikling av Digdirs fellesløsninger mellom sentral finansiering og brukerbetaling, med publiserte prisprinsipper, faktureringsenheter og avregning mot faktisk bruk."
+                }
+            ]
+        },
+        {
+            "product_id": 194,
+            "product_name": "Fremtidens digitale Norge",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/rammer-og-virkemidler/194-Fremtidens-digitale-Norge-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/194-Fremtidens-digitale-Norge-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
+                    "capability_name": "Strategisk styring",
+                    "capability_slug": "strategisk-styring",
+                    "subcapability_id": "id-034543e002414306a8fbecc8c9d8e496",
+                    "subcapability_name": "Samordning",
+                    "subcapability_slug": "samordning",
+                    "mapping_label": "Strategisk styring: Samordning",
+                    "explanation": "Strategien er regjeringens felles retning, mål og tiltak for digitalisering på tvers av departementer, sektorer og forvaltningsnivåer, og brukes som kriterium når digitaliseringstiltak prioriteres i statsbudsjettprosessen og i andre virkemidler."
+                }
+            ]
+        },
+        {
+            "product_id": 195,
+            "product_name": "Normen",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/195-Normen-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/195-Normen-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-48c9873ae59341a49c2dca27379fab55",
+                    "capability_name": "Informasjonssikkerhet",
+                    "capability_slug": "informasjonssikkerhet",
+                    "subcapability_id": "id-980043f78fa94eec8ecf46338a5b9c6b",
+                    "subcapability_name": "Styringssystem",
+                    "subcapability_slug": "styringssystem",
+                    "mapping_label": "Informasjonssikkerhet: Styringssystem",
+                    "explanation": "Normen stiller krav til roller og ansvar, styringssystem, ledelsens gjennomgang, risikovurdering og risikohåndtering, som virksomhetene bruker til å etablere og forbedre egen styring av informasjonssikkerhet og personvern."
+                },
+                {
+                    "capability_id": "id-48c9873ae59341a49c2dca27379fab55",
+                    "capability_name": "Informasjonssikkerhet",
+                    "capability_slug": "informasjonssikkerhet",
+                    "subcapability_id": "id-34d3d64b3afe4327a29ee6c2f7f74dff",
+                    "subcapability_name": "Sikring av informasjonsflyt og datautveksling",
+                    "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling",
+                    "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
+                    "explanation": "Normen har egne krav til kommunikasjonssikkerhet, digital kommunikasjon med den registrerte og leverandørforhold, og skal gi gjensidig tillit mellom virksomheter som utveksler helseopplysninger, blant annet gjennom helsenettet."
+                },
+                {
+                    "capability_id": "id-299fc063873a4f278a1d3c0ac9480467",
+                    "capability_name": "Juridisk samhandling",
+                    "capability_slug": "juridisk-samhandling",
+                    "subcapability_id": "id-0209483504444508a40415aa6e3fc39c",
+                    "subcapability_name": "Regelverkstolkning",
+                    "subcapability_slug": "regelverkstolkning",
+                    "mapping_label": "Juridisk samhandling: Regelverkstolkning",
+                    "explanation": "Normen omsetter krav fra blant annet personvernregelverket, helselovgivningen og digitalsikkerhetsloven til felles skal-krav for sektoren, og vedlegget om lovkrav viser hjemmelen for hvert skal-krav."
+                },
+                {
+                    "capability_id": "id-c0547226c598467a942dced879d0c18b",
+                    "capability_name": "Veiledning",
+                    "capability_slug": "veiledning",
+                    "subcapability_id": "id-0bfa29018e7144578b2184e70414b7e8",
+                    "subcapability_name": "Utvikling og formidling av veiledning",
+                    "subcapability_slug": "utvikling-og-formidling-av-veiledning",
+                    "mapping_label": "Veiledning: Utvikling og formidling av veiledning",
+                    "explanation": "Styringsgruppen utgir faktaark, veiledere og maler til Normen, blant annet en egen veileder for leverandører, og formidler Normen gjennom kurs, webinarer, nyhetsbrev og en årlig konferanse."
+                }
+            ]
+        },
+        {
+            "product_id": 196,
+            "product_name": "Lovdatas åpne data og API",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/196-Lovdata-apne-data-og-API-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/196-Lovdata-apne-data-og-API-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-db4f30a87ae84561a4058d4d264177b1",
+                    "subcapability_name": "Åpne data",
+                    "subcapability_slug": "apne-data",
+                    "mapping_label": "Datakilder: Åpne data",
+                    "explanation": "Lovdata publiserer konsoliderte, gjeldende lover og sentrale forskrifter og kunngjøringene i Norsk Lovtidend som maskinlesbare datapakker under NLOD 2.0, oppdatert hver natt og tilgjengelige for alle uten registrering."
+                }
+            ]
+        },
+        {
+            "product_id": 197,
+            "product_name": "Regionale digitaliseringsnettverk",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/samarbeidsfora/197-Regionale-digitaliseringsnettverk-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/197-Regionale-digitaliseringsnettverk-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "subcapability_id": "id-b4a86e2e430c472b9f74bedb7f66fd74",
+                    "subcapability_name": "Samarbeidsarenaer og nettverk",
+                    "subcapability_slug": "samarbeidsarenaer-og-nettverk",
+                    "mapping_label": "Samarbeid: Samarbeidsarenaer og nettverk",
+                    "explanation": "Nettverkene etablerer og driver de regionale arenaene der kommuner og fylkeskommuner deler erfaringer, bygger kompetanse og organiserer faggrupper som kan speile den nasjonale samstyringsstrukturen."
+                },
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
+                    "subcapability_name": "Organisatorisk samhandling",
+                    "subcapability_slug": "organisatorisk-samhandling",
+                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
+                    "explanation": "Nettverkene legger til rette for at kommunene i regionen tar i bruk felleskommunale og nasjonale løsninger, med erfaringsutveksling og endringsledelse, og er kontaktpunktet mellom kommunene, KS og KS Digital når fellesløsninger skal innføres."
+                },
+                {
+                    "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
+                    "capability_name": "Strategisk styring",
+                    "capability_slug": "strategisk-styring",
+                    "subcapability_id": "id-034543e002414306a8fbecc8c9d8e496",
+                    "subcapability_name": "Samordning",
+                    "subcapability_slug": "samordning",
+                    "mapping_label": "Strategisk styring: Samordning",
+                    "explanation": "Nettverkene prioriterer og forvalter en regional portefølje med utgangspunkt i den nasjonale porteføljen, og spiller inn behov og representanter til KS' samstyringsstruktur, slik at kommunene i regionen trekker i samme retning."
+                }
+            ]
+        },
+        {
+            "product_id": 198,
+            "product_name": "Digital sykmelding",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/198-Digital-sykmelding-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/198-Digital-sykmelding-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                    "subcapability_name": "Meldingsutveksling",
+                    "subcapability_slug": "meldingsutveksling",
+                    "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
+                    "explanation": "Nav har fastsatt meldingsformatet for sykmelding og dialogmeldinger, med XML-skjema, informasjonsmodell, krav til signering og kryptering og en avvisningsmekanisme der behandleren får melding i journalsystemet når sykmeldingen ikke kan tas imot."
+                },
+                {
+                    "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
+                    "capability_name": "Sluttbrukertjenester",
+                    "capability_slug": "sluttbrukertjenester",
+                    "subcapability_id": "id-0aa7eced8c5c460f8bc64b77bd6a16c4",
+                    "subcapability_name": "Sammenhengende tjenester",
+                    "subcapability_slug": "sammenhengende-tjenester",
+                    "mapping_label": "Sluttbrukertjenester: Sammenhengende tjenester",
+                    "explanation": "Sykmeldingen følger den sykmeldte fra behandleren via Nav til arbeidsgiveren uten at den sykmeldte må bære papirkopier mellom aktørene, og arbeidsgiveren mottar en versjon uten medisinske opplysninger."
+                }
+            ]
+        },
+        {
+            "product_id": 199,
+            "product_name": "Fellestjenester BYGG",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/199-Fellestjenester-BYGG-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/199-Fellestjenester-BYGG-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
+                    "capability_name": "Datautveksling og integrasjon",
+                    "capability_slug": "datautveksling-og-integrasjon",
+                    "subcapability_id": "id-c447ce23ba0c49a9bf0f8c8820c29234",
+                    "subcapability_name": "Meldingsutveksling",
+                    "subcapability_slug": "meldingsutveksling",
+                    "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
+                    "explanation": "Fellestjenester BYGG sender byggesøknaden som maskinlesbar XML og en utskriftsvennlig versjon til riktig kommune, i et felles format med fastsatte dokumenttyper og navnemønster for vedlegg, uansett hvilket søknadssystem som er brukt."
+                },
+                {
+                    "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
+                    "capability_name": "Tjenesteutvikling",
+                    "capability_slug": "tjenesteutvikling",
+                    "subcapability_id": "id-f696350f5d844a96854deadb83bc3c81",
+                    "subcapability_name": "Gjenbrukbare tjenester",
+                    "subcapability_slug": "gjenbrukbare-tjenester",
+                    "mapping_label": "Tjenesteutvikling: Gjenbrukbare tjenester",
+                    "explanation": "Fellestjenester BYGG gir alle konsesjonshavere de samme tjenestene for automatisk kontroll av søknaden mot regelverket, innsending, signering av erklæringer og nabovarsel, slik at forretningsreglene for byggesøknader ikke må bygges i hvert søknadssystem."
                 }
             ]
         }
