@@ -211,6 +211,3 @@ Svakheter, spenninger og begrensninger mot prinsippene: Veiledningen er laget fo
 - `arkitektur/ressurser/rammer-og-virkemidler/144-eForvaltningsforskriften-v3-claude.md`, kontrollert 2026-10-24
 - `arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v3-claude.md`, for de felles anbefalingene om styringsaktiviteter, kontrollert 2026-10-24
 - `arkitektur/ressurser/normerende-ressurser/89-Rammeverk-for-informasjonsforvaltning-v3-claude.md`, kontrollert 2026-10-24
-
-## Endringer fra forrige versjon
-Dette er første publiserte versjon av ressursbeskrivelsen.

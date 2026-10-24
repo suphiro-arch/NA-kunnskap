@@ -196,6 +196,3 @@ Hentet 2026-10-23:
 - MET, Free meteorological data: https://www.met.no/en/free-meteorological-data
 - MET, About MET Norway: https://www.met.no/en/About-us/About-MET-Norway
 - Yr, bunntekst om samarbeidet mellom NRK og Meteorologisk institutt: https://www.yr.no/
-
-## Endringer fra forrige versjon
-Dette er første publiserte versjon av ressursbeskrivelsen.

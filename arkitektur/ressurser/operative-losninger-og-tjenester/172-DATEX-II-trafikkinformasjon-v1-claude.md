@@ -168,6 +168,3 @@ DATEX-dataene er åpne under NLOD, gratis og i et europeisk standardformat, men 
 - Nettkilde: https://www.vegvesen.no/en/fag/technology/open-data/a-selection-of-open-data/what-is-datex/ (kontrollert 2026-10-23)
 - Nettkilde: https://dataut.vegvesen.no/en/dataset/trafikkmeldinger/resource/542496d4-be2b-4053-8dff-e37d93e4a739 (kontrollert 2026-10-23)
 - Nettkilde: https://www.datex2.eu/ (kontrollert 2026-10-23)
-
-## Endringer fra forrige versjon
-Første publiserte versjon. Det finnes ingen tidligere versjon av ressursen i repoet.

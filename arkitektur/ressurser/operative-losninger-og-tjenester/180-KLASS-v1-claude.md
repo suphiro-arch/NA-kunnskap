@@ -202,6 +202,3 @@ Hentet 2026-10-24:
 Lokale kilder:
 - `arkitektur/ressurser/operative-losninger-og-tjenester/176-SSB-Statistikkbanken-PxWebApi-v1-claude.md`
 - `arkitektur/ressurser/operative-losninger-og-tjenester/169-KOSTRA-v1-claude.md`
-
-## Endringer fra forrige versjon
-Dette er første publiserte versjon av ressursbeskrivelsen.

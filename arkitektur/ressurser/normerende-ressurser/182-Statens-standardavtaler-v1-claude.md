@@ -165,6 +165,3 @@ Svakheter, spenninger og begrensninger mot prinsippene: Fordi bruken er anbefalt
 - https://www.anskaffelser.no/avtaler-og-regelverk/statens-standardavtaler-ssa/veileder-om-rettigheter-til-data-i-ssa-ene , oppdatert 19. mars 2026, kontrollert 2026-10-24
 - https://www.digdir.no/standarder/standardavtalar-i-offentleg-sektor/1497 , sist endret 6. oktober 2023, kontrollert 2026-10-24
 - https://www.digdir.no/standarder/ssa-statens-standardavtalar/1730 , sist oppdatert 23. oktober 2025, kontrollert 2026-10-24
-
-## Endringer fra forrige versjon
-Dette er første publiserte versjon av ressursbeskrivelsen.

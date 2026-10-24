@@ -183,6 +183,3 @@ Svakheter, spenninger og begrensninger mot prinsippene: Grunnprinsippene er lage
 - https://www.helsedirektoratet.no/digitalisering-og-e-helse/normen-personvern-og-informasjonssikkerhet/normen/oversikt-over-normens-krav-og-mapping-mellom-nsms-grunnprinsipper-iso-og-ccm , sist faglig oppdatert 18. desember 2024, kontrollert 2026-10-23
 - https://nsm.no/aktuelt/cybersjekk-sjekker-virksomhetens-digitale-sikkerhetstilstand , kontrollert 2026-10-23
 - `arkitektur/ressurser/rammer-og-virkemidler/144-eForvaltningsforskriften-v3-claude.md`, for innholdet i § 15, kontrollert 2026-10-23
-
-## Endringer fra forrige versjon
-Dette er første publiserte versjon av ressursbeskrivelsen.

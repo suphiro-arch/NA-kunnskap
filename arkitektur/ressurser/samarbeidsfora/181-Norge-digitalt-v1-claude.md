@@ -180,6 +180,3 @@ Begrensningen er at samarbeidet bare forplikter dem som har signert partsavtalen
 - https://www.kartverket.no/geodataarbeid/norge-digitalt/organisering-av-norge-digitalt/styret-for-felleslosninger, kontrollert 2026-10-24
 - https://lovdata.no/dokument/NL/lov/2010-09-03-56, kontrollert 2026-10-24
 - https://lovdata.no/dokument/SF/forskrift/2012-08-08-797, kontrollert 2026-10-24
-
-## Endringer fra forrige versjon
-- Første publiserte versjon.

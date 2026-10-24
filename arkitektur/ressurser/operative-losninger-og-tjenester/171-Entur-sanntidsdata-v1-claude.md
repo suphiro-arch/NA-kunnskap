@@ -171,6 +171,3 @@ Ressursen er laget for gjenbruk: dataene er åpne under NLOD, tilgjengelige uten
 - Nettkilde: https://developer.entur.org/stops-and-timetable-data (kontrollert 2026-10-23)
 - Nettkilde: https://www.regjeringen.no/no/dep/sd/org/selskaper/entur-as/id2550682 (kontrollert 2026-10-23)
 - Nettkilde: https://github.com/entur/anshar (kontrollert 2026-10-23)
-
-## Endringer fra forrige versjon
-Første publiserte versjon. Det finnes ingen tidligere versjon av ressursen i repoet.

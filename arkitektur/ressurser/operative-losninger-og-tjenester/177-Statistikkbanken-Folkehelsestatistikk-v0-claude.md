@@ -182,6 +182,3 @@ Hentet 2026-10-23:
 
 Lokale kilder:
 - `arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v2-codex.md`
-
-## Endringer fra forrige versjon
-Dette er første publiserte versjon av ressursbeskrivelsen.
