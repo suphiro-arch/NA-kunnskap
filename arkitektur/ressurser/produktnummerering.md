@@ -215,12 +215,6 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 | 157 | `BUFDIR-002` | ung.no | Gjenbrukbare løsninger | Statens informasjonskanal for ungdom | Sammenhengende tjenester<br>Utvikling og formidling av veiledning<br>Organisatorisk samhandling | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/157-ung-no-v1-claude.md) |
 | 164 | `BUFDIR-003` | Barnevernsfaglig kvalitetssystem (BFK) | Standarder og veiledning | Faglig og juridisk rammeverk for kommunalt barnevern | Oversikt over begreper<br>Forvaltningsstandarder<br>Åpne data<br>Utvikling og formidling av veiledning<br>Regelverkstolkning | [Åpne](../../arkitektur/ressurser/normerende-ressurser/164-Barnevernsfaglig-kvalitetssystem-v1-claude.md) |
 
-## Lånekassen (`LANE`)
-
-| Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
-|---:|---|---|---|---|---|---|
-| 155 | `LANE-001` | Utdanningsstøtte fra Lånekassen | Økonomiske og juridiske rammer og virkemidler | Stipend- og låneordning for utdanning | Finansiering<br>Bruke data fra andre<br>Regelverkstolkning | [Åpne](../../arkitektur/ressurser/rammer-og-virkemidler/155-Utdanningsstotte-fra-Lanekassen-v1-claude.md) |
-
 ## HK-dir (`HKDIR`)
 
 | Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |

@@ -147,7 +147,7 @@ Inngår ikke:
 - `Grep` (`UDIR-001`) forvalter læreplanverket og fagkodene som utdanning.no beskriver i redaksjonell form.
 - `vilbli.no` (`NOVARI-010`) dekker de fylkesspesifikke detaljene om videregående opplæring som utdanning.no ikke går inn i.
 - `vigo.no` (`NOVARI-009`) er søknadsflaten som følger etter informasjonsinnhentingen på utdanning.no.
-- `Utdanningsstøtte fra Lånekassen` (`LANE-001`) er ordningen som avgjør om et utdanningsvalg er økonomisk mulig.
+- Utdanningsstøtte fra Lånekassen er ordningen som avgjør om et utdanningsvalg er økonomisk mulig.
 - `ung.no` (`BUFDIR-002`) dekker det bredere informasjonsbehovet hos ungdom og henviser videre til utdanningsvalget.
 - `Felles datakatalog` (`DIGDIR-011`) der datasettene og API-ene er beskrevet.
 

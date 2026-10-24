@@ -5826,46 +5826,6 @@
             ]
         },
         {
-            "product_id": 155,
-            "product_name": "Utdanningsstøtte fra Lånekassen",
-            "version": 1,
-            "author": "claude",
-            "relative_path": "arkitektur/ressurser/rammer-og-virkemidler/155-Utdanningsstotte-fra-Lanekassen-v1-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/155-Utdanningsstotte-fra-Lanekassen-v1-claude.md",
-            "capabilities": [
-                {
-                    "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
-                    "capability_name": "Strategisk styring",
-                    "capability_slug": "strategisk-styring",
-                    "subcapability_id": "id-ecdde89168314bfb94b6a6ac70a55bc7",
-                    "subcapability_name": "Finansiering",
-                    "subcapability_slug": "finansiering",
-                    "mapping_label": "Strategisk styring: Finansiering",
-                    "explanation": "Ordningen er et nasjonalt finansieringsvirkemiddel som fordeler om lag 38 milliarder kroner årlig i stipend og lån til utdanning."
-                },
-                {
-                    "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
-                    "capability_name": "Datautveksling og integrasjon",
-                    "capability_slug": "datautveksling-og-integrasjon",
-                    "subcapability_id": "id-84629318a3b84213ac3a83bdb6a1aad9",
-                    "subcapability_name": "Bruke data fra andre",
-                    "subcapability_slug": "bruke-data-fra-andre",
-                    "mapping_label": "Datautveksling og integrasjon: Bruke data fra andre",
-                    "explanation": "Automatisert saksbehandling forutsetter at Lånekassen henter opplysninger fra andre offentlige kilder framfor å be søkeren dokumentere dem. Lånekassen oppgir at automatiserte vedtak knyttes til opplysninger innhentet fra NAV."
-                },
-                {
-                    "capability_id": "id-299fc063873a4f278a1d3c0ac9480467",
-                    "capability_name": "Juridisk samhandling",
-                    "capability_slug": "juridisk-samhandling",
-                    "subcapability_id": "id-0209483504444508a40415aa6e3fc39c",
-                    "subcapability_name": "Regelverkstolkning",
-                    "subcapability_slug": "regelverkstolkning",
-                    "mapping_label": "Juridisk samhandling: Regelverkstolkning",
-                    "explanation": "Lånekassen forvalter og publiserer den autoritative tolkningen av utdanningsstøtteregelverket, med et detaljert tildelingsregelverk som avgjør hvem som har rett til hva."
-                }
-            ]
-        },
-        {
             "product_id": 156,
             "product_name": "DigiHelsestasjon",
             "version": 1,

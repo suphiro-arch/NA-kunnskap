@@ -85,7 +85,7 @@ Innholdet utvikles gjennom DigiUng-samarbeidet mellom offentlige virksomheter og
 
 ### Når ung.no normalt ikke er førstevalg
 - Når situasjonen er akutt eller alvorlig. Tjenesten formidler informasjon og henviser videre, men er ikke en akuttkanal.
-- Når ungdommen skal utføre en konkret handling i en tjeneste, som å søke skoleplass gjennom `vigo.no` (`NOVARI-009`) eller støtte fra Lånekassen (`LANE-001`).
+- Når ungdommen skal utføre en konkret handling i en tjeneste, som å søke skoleplass gjennom `vigo.no` (`NOVARI-009`) eller støtte fra Lånekassen.
 - Når behovet er dialog med egen helsetjeneste. Da er `DigiHelsestasjon` (`FLERE-005`) kanalen.
 - Når brukeren er utenfor målgruppen 13 til 20 år.
 - Når behovet gjelder saksbehandling eller innsyn i egen sak.
@@ -137,7 +137,7 @@ Nettbasert informasjonstjeneste med redaksjonelt innhold og spørretjeneste, dri
 - `DigiHelsestasjon` (`FLERE-005`) er en tjeneste i samme ungdomsrettede økosystem, og dekker dialog med helsetjenesten der ung.no dekker informasjon.
 - `Barnevernsregisteret` (`BUFDIR-001`) er forvaltet av samme direktorat, men møter målgruppen fra rapporteringssiden framfor gjennom en innbyggerflate.
 - `vigo.no` (`NOVARI-009`) og `vilbli.no` (`NOVARI-010`) dekker utdanningsvalget, som ung.no informerer om på et mer generelt nivå.
-- `Utdanningsstøtte fra Lånekassen` (`LANE-001`) er en ordning ungdom trenger informasjon om, og som ung.no kan henvise videre til.
+- Utdanningsstøtte fra Lånekassen er en ordning ungdom trenger informasjon om, og som ung.no kan henvise videre til.
 - `Felles datakatalog` (`DIGDIR-011`) der datasettet om tjenesten er beskrevet.
 
 **Kildekode:** Ikke offentlig dokumentert. Kildene beskriver ikke om nettstedets kode er publisert.
