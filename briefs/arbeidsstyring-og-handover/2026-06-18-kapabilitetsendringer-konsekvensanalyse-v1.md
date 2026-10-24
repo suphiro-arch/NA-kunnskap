@@ -1,7 +1,7 @@
 ---
 date: 2026-06-18
 author: codex
-status: aktiv
+status: gjennomfort
 topic: kapabilitetsendringer-konsekvensanalyse
 ---
 

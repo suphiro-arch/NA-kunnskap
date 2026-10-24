@@ -1,7 +1,7 @@
 ---
 date: 2026-05-27
 author: codex
-status: draft
+status: gjennomfort
 topic: overgang-til-rammeverkskategorier
 sources:
   - brukerinnspill-med-modellbilde-2026-05-27

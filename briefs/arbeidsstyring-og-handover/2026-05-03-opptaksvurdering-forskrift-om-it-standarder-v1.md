@@ -1,7 +1,7 @@
 ---
 date: 2026-05-03
 author: codex
-status: aktiv
+status: gjennomfort
 topic: opptaksvurdering
 ---
 

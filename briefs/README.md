@@ -4,15 +4,15 @@ Denne fila beskriver hvordan `briefs/` brukes til arbeidsstyring, handover og be
 
 ## Rolle i repoet
 - `briefs/` brukes for arbeidsstyring, handover, avklaringer, beslutninger og mellomdokumenter.
-- `analyser/` brukes for faglige leveranser som skal gjenbrukes direkte.
+- `Analyser/` brukes for faglige leveranser som skal gjenbrukes direkte.
 - Hvis et dokument primært er et arbeidsnotat eller en skisse, hører det hjemme i `briefs/`.
-- Hvis et dokument er en faglig leveranse eller et innholdsdokument som skal gjenbrukes direkte, hører det hjemme i `analyser/`.
+- Hvis et dokument er en faglig leveranse eller et innholdsdokument som skal gjenbrukes direkte, hører det hjemme i `Analyser/`.
 
 ## Struktur i `briefs/`
-- `briefs/next-step.md`: kort status over hva som er gjort og hva som gjenstår.
+- `briefs/next-step.md`: planflate for det som er åpent nå. Hva som er gjort, ligger i Git-historikken.
 - `briefs/decisions.md`: varige beslutninger om metode, struktur og arkitektur.
 - `briefs/arbeidsstyring-og-handover/`: arbeidsdokumenter, skisser, handover-notater og større mellomleveranser som ikke er faglige sluttresultater.
-- Bruk `analyser/` for leveranser som skal fungere som kunnskapsgrunnlag eller ferdig innhold; bruk `briefs/` for arbeidsstyring og overgang mellom økter.
+- Bruk `Analyser/` for leveranser som skal fungere som kunnskapsgrunnlag eller ferdig innhold; bruk `briefs/` for arbeidsstyring og overgang mellom økter.
 
 ## Minimum metadata i nye markdownfiler
 Bruk denne frontmatteren:
@@ -20,8 +20,8 @@ Bruk denne frontmatteren:
 ```yaml
 ---
 date: YYYY-MM-DD
-author: codex|copilot|manual
-status: draft|review|final
+author: claude|codex|copilot|manual
+status: draft|review|final|gjennomfort|avviklet
 topic: kort-tema
 sources:
   - path/eller-url
@@ -34,7 +34,7 @@ Nye tekstfiler som opprettes av assistenter i dette repoet skal:
 
 - skrives på norsk
 - bruke vanlig norsk tegnsett i løpende tekst
-- skrive `æ`, `ø` og `å` bare der tekniske begrensninger krever det, for eksempel i filnavn, slugger eller kode
+- skrive `æ`, `ø` og `å` i løpende tekst, og bruke ASCII bare der tekniske begrensninger krever det, for eksempel i filnavn, slugger eller kode
 
 Begrunnelse:
 
@@ -45,8 +45,8 @@ Dette gjelder som standard for nye markdown- og dokumentasjonsfiler. Hvis en bes
 
 ## Foreslått arbeidsprosess
 1. Legg kilder i `sources/`.
-2. Skriv oppsummering/leveranse i `analyser/` med kildehenvisning.
-3. Oppdater `briefs/next-step.md` med hva som er gjort og hva som gjenstår.
+2. Skriv oppsummering/leveranse i `Analyser/` med kildehenvisning.
+3. Oppdater `briefs/next-step.md` med det som fortsatt er åpent, og fjern punkter som er ferdige.
 4. Logg viktige valg i `briefs/decisions.md`.
 5. Legg arbeidsdokumenter og handover-notater i `briefs/arbeidsstyring-og-handover/`.
 

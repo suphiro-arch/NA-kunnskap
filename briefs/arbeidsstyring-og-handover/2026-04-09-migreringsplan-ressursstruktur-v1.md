@@ -1,7 +1,7 @@
 ---
 date: 2026-04-09
 author: codex
-status: draft
+status: gjennomfort
 topic: migreringsplan-ressursstruktur
 sources:
   - arkitektur/ressurser/produktnummerering.md

@@ -10,10 +10,10 @@ Det er derfor ikke mulig å verifisere 1:1 fra råfilen at alle løsningene unde
 
 ## Kildegrunnlag
 
-- Råmodell: [sources/2025-03-18-Nasjonal Arkitektur.xml](../sources/2025-03-18-Nasjonal%20Arkitektur.xml)
-- Kapabilitetsmaster: [arkitektur/kapabiliteter/capabilities.yaml](../arkitektur/kapabiliteter/capabilities.yaml)
-- Produktmapping (autoritativ): [arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml](../arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml)
-- Tidligere avklaring: [sources/2026-03-18-avviksrapport-produktbeskrivelser-og-kapabiliteter.md](../sources/2026-03-18-avviksrapport-produktbeskrivelser-og-kapabiliteter.md)
+- Råmodell: [sources/2025-03-18-Nasjonal Arkitektur.xml](../../sources/2025-03-18-Nasjonal%20Arkitektur.xml)
+- Kapabilitetsmaster: [arkitektur/kapabiliteter/capabilities.yaml](../../arkitektur/kapabiliteter/capabilities.yaml)
+- Produktmapping (autoritativ): [arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml](../../arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml)
+- Tidligere avklaring: [sources/2026-03-18-avviksrapport-produktbeskrivelser-og-kapabiliteter.md](../../sources/2026-03-18-avviksrapport-produktbeskrivelser-og-kapabiliteter.md)
 
 ## Kontroll av ny XML-eksport (2025-04-09)
 
@@ -27,11 +27,11 @@ En fullstendig analyse av `Nasjonal Arkitektur.xml` (lokal eksport fra 2025-04-0
 
 ## Hva råfila faktisk viser
 
-- Samarbeid finnes som egen kapabilitet: [sources/2025-03-18-Nasjonal Arkitektur.xml](../sources/2025-03-18-Nasjonal%20Arkitektur.xml#L527)
+- Samarbeid finnes som egen kapabilitet: [sources/2025-03-18-Nasjonal Arkitektur.xml](../../sources/2025-03-18-Nasjonal%20Arkitektur.xml#L527)
 - Samarbeid aggregerer delkapabiliteter:
-  - Organisatorisk samhandling: [sources/2025-03-18-Nasjonal Arkitektur.xml](../sources/2025-03-18-Nasjonal%20Arkitektur.xml#L1094)
-  - Samarbeidsarenaer og nettverk: [sources/2025-03-18-Nasjonal Arkitektur.xml](../sources/2025-03-18-Nasjonal%20Arkitektur.xml#L1095)
-  - Tjenesteforvaltning: [sources/2025-03-18-Nasjonal Arkitektur.xml](../sources/2025-03-18-Nasjonal%20Arkitektur.xml#L1096)
+  - Organisatorisk samhandling: [sources/2025-03-18-Nasjonal Arkitektur.xml](../../sources/2025-03-18-Nasjonal%20Arkitektur.xml#L1094)
+  - Samarbeidsarenaer og nettverk: [sources/2025-03-18-Nasjonal Arkitektur.xml](../../sources/2025-03-18-Nasjonal%20Arkitektur.xml#L1095)
+  - Tjenesteforvaltning: [sources/2025-03-18-Nasjonal Arkitektur.xml](../../sources/2025-03-18-Nasjonal%20Arkitektur.xml#L1096)
 - Råfilen viser ikke eksplisitte relasjoner fra konkrete produkter/ressurser til disse delkapabilitetene.
 
 ## Kontroll av dagens Samarbeid-mapping
@@ -62,5 +62,5 @@ Tabellen under viser alle produkter som i dag er mappet til Samarbeid i masterfi
 ## Anbefalt videre bruk
 
 - Bruk produktmapping-fila som sannhetskilde for hvilke løsninger som støtter Samarbeid:
-  [arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml](../arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml)
+  [arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml](../../arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml)
 - Bruk rå XML til å validere struktur (kapabilitet, delkapabilitet, prinsipper), ikke produktnivå-mapping.

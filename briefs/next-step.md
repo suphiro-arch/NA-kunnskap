@@ -1,5 +1,5 @@
 ---
-date: 2026-09-01
+date: 2026-10-24
 author: claude
 status: aktiv
 topic: neste-steg
@@ -26,30 +26,31 @@ Satt på vent 2026-10-17. Forslaget til avgrensningsregel og spørsmålene som m
 Lovene på lista under venter på avgrensningsregelen over. Nye kilder legges i `sources/links.md`
 når ressursen skrives.
 
-Klare til å skrives, kildesjekket 2026-10-07:
+Klare til å skrives, kildesjekket 2026-10-24:
 
-1. `KLASS` (SSB, `Gjenbrukbare løsninger`). Bekreft lisensen i primærkilde.
-2. `Norge digitalt` (Kartverket, `Samhandlingsarenaer og organisering`). Kontroller
-   paragrafhenvisningene i geodataloven mot Lovdata.
+1. `Bruksvilkår for Digdirs fellesløsninger` (Digdir, `Økonomiske og juridiske rammer og
+   virkemidler`). Avgrens mot `127` Samarbeidsportalen.
+2. `Noark 5` versjon 6.0 (ny eierkode `ARKIV` for Nasjonalarkivet, `Standarder og veiledning`).
+3. `EHF` (DFØ, eierkode `DFO`, `Standarder og veiledning`). Avgrens mot `10` ELMA, `11` Peppol
+   eDelivery og `137` forskrift om IT-standarder.
+4. `SOSI` (Kartverket, `Standarder og veiledning`). Avgrens mot `40` Geonorge og `181` Norge digitalt.
+5. `BarentsWatch` (ny eierkode `KYST` for Kystverket, `Gjenbrukbare løsninger`). Les hovedinstruksen
+   og AIS-dokumentasjonen.
+6. `Konsultasjonsordningen mellom staten og kommunesektoren` (`FLERE`, `Samhandlingsarenaer og
+   organisering`). Avgrens mot `DigiFin` og partnerskapet med KS.
 
-Kildesjekket, men med åpne punkter:
+Venter:
 
-3. `Noark 5` versjon 6.0 (ny eierkode for Nasjonalarkivet, `Standarder og veiledning`). Les kravene
-   i ny arkivforskrift fra 1.1.2026 i primærkilde.
-4. `Digitalsikkerhetsloven` (JD og NSM). Finn forskriften i Lovdata og offisiell status for NIS2 i
+7. `Digitalsikkerhetsloven` (JD og NSM). Finn forskriften i Lovdata og offisiell status for NIS2 i
    EØS.
-5. `Statens standardavtaler` (DFØ, eierkode `DFO`, `Standarder og veiledning`). Avklar om bruken er pålagt staten.
-6. `Vergemål og fremtidsfullmakter` (Sivilrettsforvaltningen, `Gjenbrukbare løsninger`). Finn
-   primærkilde for registeret og rettsgrunnlaget, og avklar forholdet til vergefullmaktene i
-   Folkeregisteret og digital fullmakt i `04` Altinn Autorisasjon.
-7. `Konsultasjonsordningen mellom staten og kommunesektoren` (KDD og KS). Finn ny adresse for
-   temasiden på regjeringen.no.
 8. `Ny forvaltningslov` (JD). Opprettes når ikrafttredelsen er fastsatt. Kontroller samtidig
-    hjemmelsgrunnlaget for `144` eForvaltningsforskriften.
+   hjemmelsgrunnlaget for `144` eForvaltningsforskriften.
+9. `Digitale vergefullmakter` (Statens sivilrettsforvaltning). Venter på lansering.
+10. `Normen` (helse- og omsorgssektoren, `Standarder og veiledning`).
 
 Ikke kildesjekket ennå:
 
-- `Standarder og veiledning`: `SOSI` (Kartverket) og `Nasjonalt ID-senter` (Politiet).
+- `Standarder og veiledning`: `Nasjonalt ID-senter` (Politiet).
 - `Gjenbrukbare løsninger`: `Digital sykmelding` (NAV), `Fellestjenester BYGG` (DiBK),
   `Nødvarsel` (DSB), `KommuneCSIRT` (KS) og `Lovdatas åpne data og API` (Lovdata).
 - `Økonomiske og juridiske rammer og virkemidler`: `Personopplysningsloven og
@@ -63,25 +64,24 @@ Ikke kildesjekket ennå:
   og Nkom). Ikke den samme ressursen som `DTIL-001`, se [decisions.md](./decisions.md) 2026-09-30.
 - EU-sporet for barn og unge: aldersverifisering etter DSA artikkel 28, og European Learning Model
   med europeiske digitale kvalifikasjonsbevis.
-- Batch 3, det internasjonale sporet: `Digital Europe Programme`, `NOBID`,
-  `European Digital Identity Cooperation Group`, `OECD OPSI`, `Digital Public Goods Alliance`, EUs
+- Batch 3, det internasjonale sporet: `Digital Europe Programme`, `European Competitiveness Fund`,
+  `NOBID`, `European Digital Identity Cooperation Group`, `OECD OPSI`, `Digital Public Goods Alliance`, EUs
   dataforordninger (`Data Act`, `Data Governance Act` og høyverdidatasett) og nordisk-baltiske
   samarbeidsmekanismer. Bruk samme skille mellom europeisk nivå og norsk implementering som i
   EU-gruppen, se [decisions.md](./decisions.md) 2026-09-24.
-- Norske oppføringer i DPG-registeret som ikke er ført: blant annet API-et til `Yr` og
-  `SimpleAudit` fra Simula og SimulaMet.
-- `FINT Flyt` (Novari), `FIKS IO` (KS), `Legemiddelregisteret`, `Kreftregisteret` og `DHIS2`.
+- Norske oppføringer i DPG-registeret som ikke er ført: blant annet `SimpleAudit` fra Simula og
+  SimulaMet.
+- `FINT Flyt` (Novari), `Legemiddelregisteret`, `Kreftregisteret` og `DHIS2`.
 - Åtte KS Digital-tjenester: `Fiks eiendomsavtaler`, `Fiks konsesjon`, `Fiks smittevern`,
   `KS Bibliotek`, `KS Digitalt ledsagerbevis`, `KS Hjelpemiddel`, `KS Kunnskap` og
   `KS Min kommune – barnevern`.
-- Fra Digdirs virkemiddeloversikt: `Nasjonal portefølje`, `KI-laben`, `Dynamisk kunnskapsgrunnlag`
+- Digdir-virkemidler: `Nasjonal portefølje`, `KI-laben`, `Dynamisk kunnskapsgrunnlag`
   og `Partnerskap med KS`.
 
 ## Register og kontroller
 
 - Få `sync-resource-metadata.py` til å oppdatere kapabilitetskoblinger for ressurser som allerede
-  finnes i mappingen. I dag blir en ny kobling i en revisjon stille ignorert. Midlertidig
-  framgangsmåte er å slette produktet fra mappingen og kjøre `--apply` på nytt.
+  finnes i mappingen. I dag blir en ny kobling i en revisjon stille ignorert.
 - Utvide [check-resource-version-sync.py](../tools/check-resource-version-sync.py) slik at
   ressursfiler og mapping-oppføringer uten rad i registeret fanges.
 - Varsle når en generert kapabilitetsside er eldre enn forklaringsteksten i mappingen.
