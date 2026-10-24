@@ -10,11 +10,11 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Bruk vanlig norsk tegnsett i dokumentinnhold: `æ`, `ø` og `å`.
 - Bruk ASCII bare der tekniske begrensninger krever det, for eksempel i filnavn, slugger, kode eller enkelte lokale git-hooker.
 - Committer fra dette repoet skal bruke en eksplisitt Git-identitet med ønsket brukernavn og en `noreply`-adresse, ikke personlig jobbmail eller privatmail som eksponeres i commit-metadata.
-- Bevar etablert struktur i repoet: `arkitektur/` for faglig arkitekturgrunnlag, `config/` for regler og maler, `web/` for Hugo-prototypen, `sources/` for kildegrunnlag, `analyser/` for analyser og `briefs/` for arbeidsstyring og handover.
+- Bevar etablert struktur i repoet: `arkitektur/` for faglig arkitekturgrunnlag, `config/` for regler og maler, `web/` for Hugo-prototypen, `sources/` for kildegrunnlag, `Analyser/` for analyser og `briefs/` for arbeidsstyring og handover.
 - Tolking av mapper:
   - `arkitektur/` brukes for strukturert arkitekturgrunnlag, som kapabiliteter, mål, prinsipper og produktnummerering.
   - `arkitektur/ressurser/` brukes for styringsregler og struktur for ressursområdet utover klassiske produktbeskrivelser.
-  - `analyser/` brukes for kapabilitetsanalyser, case-analyser og andre faglige leveranser som skal kunne gjenbrukes direkte.
+  - `Analyser/` brukes for kapabilitetsanalyser, case-analyser og andre faglige leveranser som skal kunne gjenbrukes direkte.
   - `briefs/` brukes for arbeidsstyring, handover, beslutninger og mellomdokumenter.
   - `briefs/arbeidsstyring-og-handover/` brukes for større arbeidsnotater, MVP-skisser, handover-dokumenter og lignende som ikke er sluttleveranser.
   - `print/` brukes som lokal og gitignorert plass for presentasjoner og figurer.
@@ -102,7 +102,7 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 
 ## Hugo-prototype
 - Når produktbeskrivelser som mater web-oversikter endres, oppdater relevante genererte oversikter i `web/hugo-prototype/content/`.
-- Bruk `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml` som autoritativ masterfil for koblingen mellom produkter og kapabiliteter når weboversikter eller kapabilitetssider oppdateres.
+- Bruk `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml` som kilde for koblingen mellom produkter og kapabiliteter når weboversikter eller kapabilitetssider oppdateres. Fila er delvis generert: `tools/sync-resource-metadata.py --apply` henter forklaringene fra `## Kapabiliteter` i ressursfila, mens koblingene for eksisterende ressurser bare endres for hånd og må rettes både i ressursfila og i denne fila.
 - Bruk `arkitektur/prinsipper/principles.md` som kuratert kilde for prinsipper i analyser, produktbeskrivelser og webinnhold.
 - Hugo-prototypen publiseres fra `web/hugo-prototype/` via GitHub Pages artifact-deploy, ikke ved å commite bygget HTML tilbake til repoet.
 - Bevar nettstedet som en lettlest dokumentasjonsside med tydelig navigasjon og lesbar tekst.
@@ -113,7 +113,7 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Oppdater `briefs/next-step.md` når arbeid endrer hva som er gjort eller hva som gjenstår.
 - Oppdater `briefs/decisions.md` når det tas varige metode- eller arkitekturvalg.
 - Bruk `briefs/decisions.md` som felles beslutningslogg på tvers av prosesser og arbeidsløp, i stedet for å opprette nye beslutningsdokumenter med mindre det finnes et tydelig særskilt behov.
-- Legg nye arbeidsdokumenter og handover-notater i `briefs/arbeidsstyring-og-handover/` når de ikke er faglige leveranser som hører hjemme i `analyser/` eller `arkitektur/`.
+- Legg nye arbeidsdokumenter og handover-notater i `briefs/arbeidsstyring-og-handover/` når de ikke er faglige leveranser som hører hjemme i `Analyser/` eller `arkitektur/`.
 - Når `arkitektur/ressurser/produktnummerering.md` eller `arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml` oppdateres til å peke på en ny eller høyere ressursversjon, skal den aktuelle ressursfila være opprettet og sporet av Git i samme endringssett.
 - Det skal ikke innføres pekere fra register eller kapabilitetsmapping til ressursfiler som fortsatt er `untracked`.
 - Hvis nye generelle regler blir viktige for repoet, legg dem i denne fila heller enn å spre dem tilfeldig i enkeltfiler.

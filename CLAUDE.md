@@ -89,8 +89,6 @@ slugger og kode.
 - **`briefs/next-step.md` står i `.gitignore`, men er sporet fra før.** Dette er bevisst og
   dokumentert i `AGENTS.md`. Fila skal oppdateres som normalt — ikke konkluder ut fra `.gitignore`
   at den er utenfor repoet, og ikke prøv å «rette» oppføringen.
-- **`print/` og `tmp-overordnet-malbilde/` er gitignorert og lokale.** Ikke forsøk å committe
-  innhold der.
 - **`web/hugo-prototype/content/` er generert.** Endre kildene i `arkitektur/` og regenerer; ikke
   håndrediger genererte oversikter.
 - **`arkitektur/kapabiliteter/produkt-kapabilitet-koblinger.yaml` er delvis generert.**
