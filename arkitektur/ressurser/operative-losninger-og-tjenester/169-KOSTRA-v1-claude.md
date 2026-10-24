@@ -197,7 +197,7 @@ SSBs egne sider oppgir både 18 og 19 arbeidsgrupper. Tallet er derfor ikke oppg
 - KOSTRA hos SSB: https://www.ssb.no/offentlig-sektor/kostra
 - Om KOSTRA: https://www.ssb.no/offentlig-sektor/kostra/statistikk/kostra-kommune-stat-rapportering/om-kostra
 - Innrapportering: https://www.ssb.no/innrapportering/kostra-innrapportering
-- Statistikkbanken, KOSTRA: https://www.ssb.no/statbank?subject=kostrahoved
+- Statistikkbanken, KOSTRA: https://www.ssb.no/statbank/?subject=kostrahoved
 - KOSTRA-forskriften: https://lovdata.no/dokument/SF/forskrift/2019-10-18-1412
 - Kontrollprogrammet: https://github.com/statisticsnorway/kostra-kontrollprogram
 

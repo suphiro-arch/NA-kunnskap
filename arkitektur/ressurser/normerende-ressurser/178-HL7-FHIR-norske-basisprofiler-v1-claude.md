@@ -152,4 +152,4 @@ Svakheter, spenninger og begrensninger mot prinsippene: Profilene er sektorspesi
 - https://simplifier.net/hl7norwayno-basis , kontrollert 2026-10-23
 - https://packages.simplifier.net/hl7.fhir.no.basis , pakkeoversikt og endringslogg til versjon 2.2.2, kontrollert 2026-10-23
 - https://github.com/HL7Norway/basisprofiler-r4 , README og innhold, kontrollert 2026-10-23
-- https://hl7.no/ , kontrollert 2026-10-23
+- https://www.hl7.no/ , kontrollert 2026-10-23

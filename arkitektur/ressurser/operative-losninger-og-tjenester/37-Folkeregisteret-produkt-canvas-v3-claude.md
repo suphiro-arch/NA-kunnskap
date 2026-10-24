@@ -123,7 +123,7 @@ Operative mål utledet fra de samme kildene:
 - Bruke data fra Skatteetaten: https://www.skatteetaten.no/deling/
 - Få tilgang til data fra Folkeregisteret: https://www.skatteetaten.no/nn/deling/folkeregisteret/intro/fa-tilgang/
 - Delingstjenestene: https://www.skatteetaten.no/en/rettskilder/type/handboker/folkeregisterhandboken/gjeldende/kapittel10-utlevering-av-opplysninger-fra-registeret/ID-10-1.001/ID-10-1.003/
-- Mine opplysninger i Folkeregisteret: https://www.skatteetaten.no/nn/skjema/opplysninger-i-folkeregisteret/
+- Mine opplysninger i Folkeregisteret: https://www.skatteetaten.no/skjema/opplysninger-i-folkeregisteret/
 - Rettighetspakker og taushetsbelagte opplysninger: https://www.skatteetaten.no/deling/folkeregisteret/intro/finne-data/rettighetspakker/
 
 ## Plattform
@@ -168,7 +168,7 @@ Folkeregisteret er et nasjonalt register- og delingssystem for personopplysninge
 - https://www.skatteetaten.no/deling/
 - https://www.skatteetaten.no/nn/deling/folkeregisteret/intro/fa-tilgang/
 - https://www.skatteetaten.no/en/rettskilder/type/handboker/folkeregisterhandboken/gjeldende/kapittel10-utlevering-av-opplysninger-fra-registeret/ID-10-1.001/ID-10-1.003/
-- https://www.skatteetaten.no/nn/skjema/opplysninger-i-folkeregisteret/
+- https://www.skatteetaten.no/skjema/opplysninger-i-folkeregisteret/
 - https://www.skatteetaten.no/rettskilder/type/handboker/folkeregisterhandboken/gjeldende/kapittel1-innledende-bestemmelser/ID-1-1.001/ID-1-1.002/
 - https://www.skatteetaten.no/rettskilder/type/handboker/folkeregisterhandboken/gjeldende/kapittel3-hvilke-opplysninger-som-registreres/ID-3-1.001/ID-3-1.002/
 - https://www.skatteetaten.no/rettskilder/type/handboker/folkeregisterhandboken/gjeldende/familie/ID-14-6.001/ID-14-6.003/

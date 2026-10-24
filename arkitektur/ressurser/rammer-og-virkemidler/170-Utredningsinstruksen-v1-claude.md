@@ -174,9 +174,9 @@ Spenning og begrensning: Instruksen nevner ikke digitalisering, gjenbruk eller d
 
 ## Lenke til dokumentasjon
 - https://lovdata.no/dokument/INS/forskrift/2016-02-19-184
-- https://www.regjeringen.no/no/dokumenter/instruks-om-utredning-av-statlige-tiltak-utredningsinstruksen/id2476518/
-- https://dfo.no/fagomrader/utredning-og-analyse-av-statlige-tiltak/veileder-til-utredningsinstruksen
-- https://dfo.no/fagomrader/utredning-og-analyse-av-statlige-tiltak/samfunnsokonomiske-analyser/veileder-i-samfunnsokonomiske-analyser
+- https://www.regjeringen.no/no/dokumenter/utredningsinstruksen/id3060944/
+- https://www.dfo.no/fagomrader/utrede-statlige-tiltak/veileder-til-utredningsinstruksen
+- https://www.dfo.no/fagomrader/utrede-statlige-tiltak/samfunnsokonomiske-analyser/veileder-i-samfunnsokonomiske-analyser
 
 ## Kildegrunnlag brukt i utfyllingen
 - `sources/links.md`, kontrollert 2026-10-07
@@ -184,9 +184,9 @@ Spenning og begrensning: Instruksen nevner ikke digitalisering, gjenbruk eller d
 - `arkitektur/kapabiliteter/capabilities.yaml`, kontrollert 2026-10-07
 - `arkitektur/ressurser/produktnummerering.md`, kontrollert 2026-10-07
 - https://lovdata.no/dokument/INS/forskrift/2016-02-19-184 , instruksen med endringer til og med 18. oktober 2024, lest 2026-10-07
-- https://www.regjeringen.no/no/dokumenter/instruks-om-utredning-av-statlige-tiltak-utredningsinstruksen/id2476518/ , kontrollert 2026-10-07; kilde for delegeringen av forvaltningsansvaret til DFØ
-- https://dfo.no/fagomrader/utredning , kontrollert 2026-10-07
-- https://dfo.no/fagomrader/utredning-og-analyse-av-statlige-tiltak/veileder-til-utredningsinstruksen , kontrollert 2026-10-07
-- https://dfo.no/fagomrader/utredning-og-analyse-av-statlige-tiltak/samfunnsokonomiske-analyser/veileder-i-samfunnsokonomiske-analyser , kontrollert 2026-10-07
+- https://www.regjeringen.no/no/dokumenter/utredningsinstruksen/id3060944/ , kontrollert 2026-10-07; kilde for delegeringen av forvaltningsansvaret til DFØ
+- https://www.dfo.no/fagomrader/utrede-statlige-tiltak , kontrollert 2026-10-07
+- https://www.dfo.no/fagomrader/utrede-statlige-tiltak/veileder-til-utredningsinstruksen , kontrollert 2026-10-07
+- https://www.dfo.no/fagomrader/utrede-statlige-tiltak/samfunnsokonomiske-analyser/veileder-i-samfunnsokonomiske-analyser , kontrollert 2026-10-07
 - Enhetsregisteret, organisasjonsnummer 986252932, kontrollert 2026-10-07
 - Den kongelige resolusjonen om endringene 18. oktober 2024 på regjeringen.no var ikke tilgjengelig 2026-10-07 og er ikke brukt.

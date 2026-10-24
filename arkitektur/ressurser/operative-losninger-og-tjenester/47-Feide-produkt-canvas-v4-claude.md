@@ -175,7 +175,7 @@ Feide er en nasjonal føderert identitets- og datadelingsløsning for utdannings
 - https://docs.feide.no/data_sharing/data_provider/managing_access_to_a_data_source.html
 - https://www.feide.no/priser-vertsorganisasjoner
 - https://www.feide.no/sterk-autentisering
-- https://www.feide.no/ofte-stilte-sporsmal-om-feide
+- https://www.feide.no/ofte-stilte-sporsmal
 
 ## Kildegrunnlag brukt i utfyllingen
 - Lokal fil: `config/templates/operative-ressurs-template.md`
@@ -188,7 +188,7 @@ Feide er en nasjonal føderert identitets- og datadelingsløsning for utdannings
 - Nettkilde: https://docs.feide.no/ (hentet 2026-03-18)
 - Nettkilde: https://www.feide.no/priser-vertsorganisasjoner (hentet 2026-03-18)
 - Nettkilde: https://www.feide.no/sterk-autentisering (hentet 2026-03-18)
-- Nettkilde: https://www.feide.no/ofte-stilte-sporsmal-om-feide (kontrollert 2026-10-02)
+- Nettkilde: https://www.feide.no/ofte-stilte-sporsmal (kontrollert 2026-10-02)
 
 ## Endringer fra forrige versjon
 

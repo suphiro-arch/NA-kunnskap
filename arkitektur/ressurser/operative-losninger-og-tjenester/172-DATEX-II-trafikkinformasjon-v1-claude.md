@@ -155,7 +155,7 @@ DATEX-dataene er åpne under NLOD, gratis og i et europeisk standardformat, men 
 - Spesifikasjoner for DATEX 3.1: https://git.vegvesen.no/projects/DATEX2/repos/datex2-spesifications/browse/3.1
 - Datasettoppføring: https://dataut.vegvesen.no/en/dataset/trafikkmeldinger/resource/542496d4-be2b-4053-8dff-e37d93e4a739
 - Vegvesen trafikk: https://dit.vegvesen.no/
-- DATEX II: https://www.datex2.eu/
+- DATEX II: https://datex2.eu/
 
 ## Kildegrunnlag brukt i utfyllingen
 - Lokal fil: `config/prompts/operative-ressurs-canvas.system.md`
@@ -167,4 +167,4 @@ DATEX-dataene er åpne under NLOD, gratis og i et europeisk standardformat, men 
 - Nettkilde: https://www.vegvesen.no/nn/fag/teknologi/data-og-api-ar/et-utvalg-apne-data/kva-er-datex/informasjon-og-nyheiter/planlagt-sanering-av-reisetidsdata/ (kontrollert 2026-10-23)
 - Nettkilde: https://www.vegvesen.no/en/fag/technology/open-data/a-selection-of-open-data/what-is-datex/ (kontrollert 2026-10-23)
 - Nettkilde: https://dataut.vegvesen.no/en/dataset/trafikkmeldinger/resource/542496d4-be2b-4053-8dff-e37d93e4a739 (kontrollert 2026-10-23)
-- Nettkilde: https://www.datex2.eu/ (kontrollert 2026-10-23)
+- Nettkilde: https://datex2.eu/ (kontrollert 2026-10-23)

@@ -162,9 +162,9 @@ Ressursen publiseres som åpne nettsider på nsm.no, med én side per prinsipp, 
 Svakheter, spenninger og begrensninger mot prinsippene: Grunnprinsippene er laget for den enkelte virksomhetens egne systemer. De sier lite om sikkerhet i tjenestekjeder der ansvaret er delt mellom flere virksomheter, og mot `P5: Del og gjenbruk løsninger` gir de ingen anbefaling om felles sikkerhetsløsninger. At tiltakene velges ut fra hver virksomhets egen risikotoleranse, kan gi ulikt sikkerhetsnivå i samme kjede.
 
 ## Lenke til dokumentasjon
-- https://nsm.no/regelverk-og-hjelp/rad-og-anbefalinger/grunnprinsipper-for-ikt-sikkerhet/
+- https://nsm.no/regelverk-og-hjelp/rad-og-anbefalinger/ta-i-bruk-grunnprinsippene/
 - https://nsm.no/getfile.php/1313975-1717589722/NSM/Filer/Dokumenter/Veiledere/NSMs%20Grunnprinsipper%20for%20IKT-sikkerhet%20v2.1.pdf
-- https://nsm.no/regelverk-og-hjelp/rad-og-anbefalinger/stotteprodukter/stotteprodukter-til-nsms-grunnprinsipper-for-ikt-sikkerhet
+- https://nsm.no/regelverk-og-hjelp/rad-og-anbefalinger/stotteprodukter/
 - https://nsm.no/getfile.php/136603-1718717207/NSM/Filer/Bildegalleri/Bilder%20til%20grunnprinsipper/Risikovurdering%20av%20IKT-systemer.pdf
 - https://nsm.no/advice-and-guidance/publications/nsm-ict-security-principles
 
@@ -172,13 +172,13 @@ Svakheter, spenninger og begrensninger mot prinsippene: Grunnprinsippene er lage
 - `arkitektur/kapabiliteter/capabilities.yaml`, kontrollert 2026-10-23
 - `arkitektur/prinsipper/principles.md`, kontrollert 2026-10-23
 - `arkitektur/ressurser/produktnummerering.md`, kontrollert 2026-10-23
-- https://nsm.no/regelverk-og-hjelp/rad-og-anbefalinger/grunnprinsipper-for-ikt-sikkerhet/ , publisert 4. juni 2024, sist oppdatert 28. oktober 2024, kontrollert 2026-10-23
+- https://nsm.no/regelverk-og-hjelp/rad-og-anbefalinger/ta-i-bruk-grunnprinsippene/ , publisert 4. juni 2024, sist oppdatert 28. oktober 2024, kontrollert 2026-10-23
 - https://nsm.no/getfile.php/1313975-1717589722/NSM/Filer/Dokumenter/Veiledere/NSMs%20Grunnprinsipper%20for%20IKT-sikkerhet%20v2.1.pdf , kontrollert 2026-10-23
 - https://nsm.no/regelverk-og-hjelp/rad-og-anbefalinger/introduksjon/hva-er-nsms-grunnprinsipper-for-ikt-sikkerhet/ , kontrollert 2026-10-23
 - https://nsm.no/regelverk-og-hjelp/rad-og-anbefalinger/introduksjon/malgruppe/ , sist oppdatert 30. april 2024, kontrollert 2026-10-23
 - https://nsm.no/regelverk-og-hjelp/rad-og-anbefalinger/introduksjon/forholdet-mellom-kategori-prinsipp-og-tiltak/ , kontrollert 2026-10-23
 - https://nsm.no/regelverk-og-hjelp/rad-og-anbefalinger/historikk-og-eldre-versjoner/ , sist oppdatert 5. juni 2024, kontrollert 2026-10-23
-- https://nsm.no/regelverk-og-hjelp/rad-og-anbefalinger/stotteprodukter/stotteprodukter-til-nsms-grunnprinsipper-for-ikt-sikkerhet , sist oppdatert 8. november 2024, kontrollert 2026-10-23
+- https://nsm.no/regelverk-og-hjelp/rad-og-anbefalinger/stotteprodukter/ , sist oppdatert 8. november 2024, kontrollert 2026-10-23
 - https://nsm.no/getfile.php/136603-1718717207/NSM/Filer/Bildegalleri/Bilder%20til%20grunnprinsipper/Risikovurdering%20av%20IKT-systemer.pdf , kontrollert 2026-10-23
 - https://www.helsedirektoratet.no/digitalisering-og-e-helse/normen-personvern-og-informasjonssikkerhet/normen/oversikt-over-normens-krav-og-mapping-mellom-nsms-grunnprinsipper-iso-og-ccm , sist faglig oppdatert 18. desember 2024, kontrollert 2026-10-23
 - https://nsm.no/aktuelt/cybersjekk-sjekker-virksomhetens-digitale-sikkerhetstilstand , kontrollert 2026-10-23

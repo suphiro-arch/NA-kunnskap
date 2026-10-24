@@ -191,7 +191,7 @@ Spenningen ligger mellom bredde og forpliktelse. BarentsWatch samler data fra ma
 ## Lenke til dokumentasjon
 - BarentsWatch: https://www.barentswatch.no/
 - Ny instruks for BarentsWatch: https://www.barentswatch.no/kontakt-oss/ny-instruks-for-barentswatch/
-- Åpne data via BarentsWatch: https://barentswatch.no/en/articles/open-data-via-barentswatch
+- Åpne data via BarentsWatch: https://www.barentswatch.no/en/articles/open-data-via-barentswatch
 - API-vilkår: https://www.barentswatch.no/en/articles/api-terms-and-conditions/
 - Utviklerdokumentasjon: https://developer.barentswatch.no/
 - Live AIS-API, OpenAPI-dokumentasjon: https://live.ais.barentswatch.no/
@@ -203,11 +203,11 @@ Hentet 2026-10-24:
 - BarentsWatch, Ny instruks for BarentsWatch: https://www.barentswatch.no/kontakt-oss/ny-instruks-for-barentswatch/
 - BarentsWatch, Målsettinger og mandat (utgått, fastsatt 2017): https://www.barentswatch.no/kontakt-oss/malsettinger-og-mandat/
 - BarentsWatch, About us: https://www.barentswatch.no/en/contact-us/about-us/
-- BarentsWatch, Open data (API) via BarentsWatch: https://barentswatch.no/en/articles/open-data-via-barentswatch
+- BarentsWatch, Open data (API) via BarentsWatch: https://www.barentswatch.no/en/articles/open-data-via-barentswatch
 - BarentsWatch, API terms and conditions: https://www.barentswatch.no/en/articles/api-terms-and-conditions/
 - BarentsWatch Developer, Live AIS API: https://developer.barentswatch.no/docs/AIS/live-ais-api
 - BarentsWatch, AIS Live API, OpenAPI-beskrivelse: https://live.ais.barentswatch.no/
 - Kystverket, Access to AIS data: https://www.kystverket.no/en/sea-transport-and-ports/ais/access-to-ais-data/
 - Kystverket, AIS Norway: https://kystverket.no/en/sea-transport-and-ports/ais/ais-norge
-- Kystverket, BarentsWatch: https://www.kystverket.no/en/about-us/barentswatch/
+- Kystverket, BarentsWatch: https://www.kystverket.no/en/navigation-and-monitoring/barentswatch/
 - Teknisk Ukeblad, Ny nettjeneste viser sjøtrafikken langs norskekysten i sanntid (2022), om at NAIS er utviklet av BarentsWatch for Kystverket: https://www.tu.no/artikler/ny-nettjeneste-viser-sjotrafikken-langs-norskekysten-i-sanntid/519917

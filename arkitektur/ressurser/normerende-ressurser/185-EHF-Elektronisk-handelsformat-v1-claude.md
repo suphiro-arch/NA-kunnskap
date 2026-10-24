@@ -164,7 +164,7 @@ Svakheter, spenninger og begrensninger mot prinsippene: Den sterke koblingen til
 - https://docs.peppol.eu/poacc/billing/3.0/
 - https://lovdata.no/dokument/SF/forskrift/2019-04-01-444
 - https://www.digdir.no/standarder/digitale-anskaffelser/1486
-- https://anskaffelser.no/public-procurement/e-procurement/peppol
+- https://www.anskaffelser.no/english/e-procurement/norwegian-agency-public-and-financial-management-dfo-peppol-authority
 
 ## Kildegrunnlag brukt i utfyllingen
 - `arkitektur/kapabiliteter/capabilities.yaml`, kontrollert 2026-10-24
@@ -174,7 +174,7 @@ Svakheter, spenninger og begrensninger mot prinsippene: Den sterke koblingen til
 - `arkitektur/ressurser/operative-losninger-og-tjenester/11-Peppol-eDelivery-produkt-canvas-v3-codex.md`, kontrollert 2026-10-24
 - `arkitektur/ressurser/rammer-og-virkemidler/137-Forskrift-om-IT-standarder-i-offentlig-forvaltning-v3-claude.md`, kontrollert 2026-10-24
 - https://www.anskaffelser.no/kategorispesifik-veiledning/fagsystemer-digitale-anskaffelser/elektronisk-handelsformat-ehf , oppdatert 13. august 2026, kontrollert 2026-10-24
-- https://anskaffelser.no/public-procurement/e-procurement/peppol , oppdatert 15. desember 2025, kontrollert 2026-10-24
+- https://www.anskaffelser.no/english/e-procurement/norwegian-agency-public-and-financial-management-dfo-peppol-authority , oppdatert 15. desember 2025, kontrollert 2026-10-24
 - https://anskaffelser.dev/postaward/g3/spec/current/billing-3.0/norway/ , versjon 3.0.3, kontrollert 2026-10-24
 - https://anskaffelser.dev/postaward/g3/spec/ , kontrollert 2026-10-24
 - https://anskaffelser.dev/preaward/g2/spec/ , kontrollert 2026-10-24

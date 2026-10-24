@@ -149,7 +149,7 @@ Novari opplyser at alle 14 fylkeskommuner og Oslo kommune eier og finansierer ut
 - VIGO-systemet: https://novari.no/vigo/
 - VIGO-portalen: https://novari.no/vigo/
 - VIGO Sentralbase: https://novari.no/vigo/
-- VIGO Kodeverk og kodeverksbase: https://novari.no/tjenester/vigo-kodeverk-og-kodeverkbase/
+- VIGO Kodeverk og kodeverksbase: https://novari.no/vigo-kodeverk-og-kodeverkbase/
 - Anskaffelse for modernisering av VIGO-systemet: https://novari.no/nyheter/anskaffelse-for-modernisering-av-vigo-systemet/
 
 ## Kildegrunnlag brukt i utfyllingen
@@ -157,5 +157,5 @@ Novari opplyser at alle 14 fylkeskommuner og Oslo kommune eier og finansierer ut
 - https://novari.no/vigo/ , kontrollert 2026-09-30
 - https://novari.no/vigo/ , kontrollert 2026-09-30
 - https://novari.no/vigo/ , kontrollert 2026-09-30
-- https://novari.no/tjenester/vigo-kodeverk-og-kodeverkbase/ , kontrollert 2026-05-26
+- https://novari.no/vigo-kodeverk-og-kodeverkbase/ , kontrollert 2026-05-26
 - https://novari.no/nyheter/anskaffelse-for-modernisering-av-vigo-systemet/ , kontrollert 2026-05-26

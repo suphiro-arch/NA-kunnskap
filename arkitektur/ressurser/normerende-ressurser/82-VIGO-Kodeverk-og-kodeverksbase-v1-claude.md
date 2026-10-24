@@ -181,13 +181,13 @@ Kodeverksbasen er publisert som et åpent oppslagsverk, beskrevet som felles, op
 Begrensninger og spenninger: ressursen er et påbygg på nasjonale kilder, og verdien avhenger av at både Grep og skoleregisteret holdes oppdatert. Det gir en avhengighetskjede i tre ledd som er sårbar for treghet. Forpliktelsesnivået er styrende i praksis men uten hjemmel, og det er uklart for nye aktører. Og fordi påbygget forvaltes i sektoren selv, finnes det en innebygd risiko for at kodebehov løses lokalt framfor å løftes nasjonalt — noe som svekker P2 over tid selv om strukturen i utgangspunktet støtter prinsippet.
 
 ## Lenke til dokumentasjon
-- https://novari.no/tjenester/vigo-kodeverk-og-kodeverkbase/
+- https://novari.no/vigo-kodeverk-og-kodeverkbase/
 - https://novari.no/vigo/
 - https://www.udir.no/om-udir/data/kl06-grep/
 - https://www.udir.no/om-udir/data/nxr/
 
 ## Kildegrunnlag brukt i utfyllingen
-- https://novari.no/tjenester/vigo-kodeverk-og-kodeverkbase/, kontrollert 2026-09-07
+- https://novari.no/vigo-kodeverk-og-kodeverkbase/, kontrollert 2026-09-07
 - https://novari.no/vigo/, kontrollert 2026-09-30
 - https://www.udir.no/om-udir/data/kl06-grep/, kontrollert 2026-09-07
 - https://www.udir.no/om-udir/data/nxr/, kontrollert 2026-09-07
