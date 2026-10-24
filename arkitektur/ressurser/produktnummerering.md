@@ -142,6 +142,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 | 149 | `DIGDIR-069` | Felles informasjonsmodeller | Standarder og veiledning | Prinsipper og modelleringsregler for informasjonsmodellering | Informasjonsarkitektur<br>Oversikt over informasjonsmodeller<br>Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/normerende-ressurser/149-Felles-informasjonsmodeller-v1-claude.md) |
 | 150 | `DIGDIR-070` | Tilsyn og kontroll med regelverk for universell utforming av ikt | Økonomiske og juridiske rammer og virkemidler | Tilsyns- og kontrollvirkemiddel | Regelverkstolkning<br>Utvikling og formidling av veiledning<br>Tjenestedesign | [Åpne](../../arkitektur/ressurser/rammer-og-virkemidler/150-Tilsyn-og-kontroll-universell-utforming-av-ikt-v2-claude.md) |
 | 165 | `DIGDIR-071` | Arbeidsflate | Gjenbrukbare løsninger | Innboks og felles brukerflate for digital dialog | Sammenhengende tjenester<br>Sporbarhet og innsyn<br>Gjenbrukbare tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/165-Arbeidsflate-v1-claude.md) |
+| 179 | `DIGDIR-072` | Internkontroll i praksis – informasjonssikkerhet | Standarder og veiledning | Veiledning for styringssystem for informasjonssikkerhet | Styringssystem<br>Utvikling og formidling av veiledning | [Åpne](../../arkitektur/ressurser/normerende-ressurser/179-Internkontroll-i-praksis-informasjonssikkerhet-v1-claude.md) |
 
 ## Brønnøysundregistrene (`BRREG`)
 
@@ -221,7 +222,6 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 
 | Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
 |---:|---|---|---|---|---|---|
-| 31 | `HDIR-001` | Helsedata.no | Gjenbrukbare løsninger | Datatilgang | Oversikt over datasett<br>Datastyring<br>Sammenhengende tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v2-codex.md) |
 | 64 | `HDIR-002` | HPR | Gjenbrukbare løsninger | Register over helsepersonell | Grunndata<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/64-HPR-produkt-canvas-v2-codex.md) |
 | 177 | `HDIR-003` | Statistikkbanken Folkehelsestatistikk | Gjenbrukbare løsninger | Folkehelsestatistikk | Åpne data | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/177-Statistikkbanken-Folkehelsestatistikk-v0-claude.md) |
 
@@ -237,6 +237,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 | 131 | `FHI-004` | Reseptregisteret (NorPD) | Gjenbrukbare løsninger | Historisk legemiddelregister (2004-2021) | Grunndata<br>Dele data med andre<br>Datastyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/131-Reseptregisteret-NorPD-produkt-canvas-v2-codex.md) |
 | 135 | `FHI-005` | Norsk pasientregister (NPR) | Gjenbrukbare løsninger | Nasjonalt helseregister for spesialisthelsetjenesten | Grunndata<br>Dele data med andre<br>Datastyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/135-Norsk-pasientregister-produkt-canvas-v2-codex.md) |
 | 136 | `FHI-006` | Kommunalt pasient- og brukerregister (KPR) | Gjenbrukbare løsninger | Nasjonalt helseregister for kommunale helse- og omsorgstjenester | Grunndata<br>Dele data med andre<br>Datastyring | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/136-Kommunalt-pasient-og-brukerregister-produkt-canvas-v2-codex.md) |
+| 31 | `FHI-007` | Helsedata.no | Gjenbrukbare løsninger | Datatilgang | Oversikt over datasett<br>Datastyring<br>Sammenhengende tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/31-Helsedata-no-produkt-canvas-v2-codex.md) |
 
 
 
@@ -287,6 +288,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 | 40 | `KART-002` | Geonorge | Gjenbrukbare løsninger | Geodataportal / metadata- og delingsplattform | Oversikt over datasett<br>Dele data med andre<br>Visualisering | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/40-Geonorge-produkt-canvas-v2-claude.md) |
 | 132 | `KART-003` | Grunnboken | Gjenbrukbare løsninger | Rettighetsregister for fast eiendom | Grunndata<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/132-Grunnboken-produkt-canvas-v1-codex.md) |
 | 134 | `KART-004` | Sentralt stedsnavnregister | Gjenbrukbare løsninger | Register for offisielle stedsnavn | Grunndata<br>Dele data med andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/134-Sentralt-stedsnavnregister-produkt-canvas-v1-codex.md) |
+| 181 | `KART-005` | Norge digitalt | Samhandlingsarenaer og organisering | Samarbeid om geografisk informasjon | Samarbeidsarenaer og nettverk<br>Samordning | [Åpne](../../arkitektur/ressurser/samarbeidsfora/181-Norge-digitalt-v1-claude.md) |
 
 
 
@@ -307,6 +309,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 | 63 | `SSB-001` | microdata.no | Gjenbrukbare løsninger | Analyseplattform | Sammenstilling av data<br>Bruke data fra andre | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/63-microdata-no-produkt-canvas-v1-codex.md) |
 | 169 | `SSB-002` | KOSTRA | Gjenbrukbare løsninger | Rapportering og statistikk fra kommunesektoren til staten | Sammenstilling av data<br>Åpne data | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/169-KOSTRA-v1-claude.md) |
 | 176 | `SSB-003` | Statistikkbanken og PxWebApi | Gjenbrukbare løsninger | Åpent API mot offisiell statistikk | Åpne data | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/176-SSB-Statistikkbanken-PxWebApi-v1-claude.md) |
+| 180 | `SSB-004` | KLASS | Gjenbrukbare løsninger | Klassifikasjoner og kodelister | Informasjonsarkitektur<br>Forvaltningsstandarder<br>Åpne data | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/180-KLASS-v1-claude.md) |
 
 
 
@@ -381,6 +384,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 | Løpenr | Ressurs-ID | Navn | Type | Emne | Kapabiliteter | Dokument |
 |---:|---|---|---|---|---|---|
 | 170 | `DFO-001` | Utredningsinstruksen | Økonomiske og juridiske rammer og virkemidler | Instruks om utredning av statlige tiltak | Regelverksutvikling<br>Samordning | [Åpne](../../arkitektur/ressurser/rammer-og-virkemidler/170-Utredningsinstruksen-v1-claude.md) |
+| 182 | `DFO-002` | Statens standardavtaler (SSA) | Standarder og veiledning | Standardavtaler for IT-anskaffelser | Forvaltningsstandarder | [Åpne](../../arkitektur/ressurser/normerende-ressurser/182-Statens-standardavtaler-v1-claude.md) |
 
 
 ## Entur (`ENTUR`)

@@ -1,7 +1,7 @@
 # Nasjonale fellestjenester og felleskomponenter
 
 Formål: Samlet lenkeliste over nasjonale fellesløsninger, sektorkilder og relevante standarder og veiledningsressurser.
-Sist redigert: 2026-10-23.
+Sist redigert: 2026-10-24.
 
 ## Fellesløsninger
 
@@ -448,6 +448,9 @@ Sist redigert: 2026-10-23.
 - Geonorge - se på kart: https://www.geonorge.no/aktuelt/om-geonorge/slik-bruker-du-geonorge/se-pa-kart/ (lagt til 2026-10-23)
 - Geonorge - bruke tjenester og API-er: https://www.geonorge.no/aktuelt/om-geonorge/slik-bruker-du-geonorge/bruke-tjenester-og-api-er/ (lagt til 2026-10-23)
 - Norgeskart: https://www.kartverket.no/til-lands/kart/norgeskart (lagt til 2026-10-23)
+- Norge digitalt: https://www.kartverket.no/geodataarbeid/norge-digitalt (lagt til 2026-10-24)
+- Organisering av Norge digitalt: https://www.kartverket.no/geodataarbeid/norge-digitalt/organisering-av-norge-digitalt (lagt til 2026-10-24)
+- Norge digitalt - Styret for fellesløsninger: https://www.kartverket.no/geodataarbeid/norge-digitalt/organisering-av-norge-digitalt/styret-for-felleslosninger (lagt til 2026-10-24)
 - API-er for kartkatalogen: https://www.geonorge.no/verktoy/APIer-og-grensesnitt/apier-for-kartkatalogen/ (lagt til 2026-03-27)
 - Stedsnavndata / Sentralt stedsnavnregister: https://www.kartverket.no/api-og-data/stedsnavndata (lagt til 2026-04-28)
 - Grunnboken: https://eiendomsregisteret.kartverket.no/ (lagt til 2026-08-28)
@@ -600,6 +603,9 @@ Sist redigert: 2026-10-23.
 - PxWebApi v2: https://www.ssb.no/api/pxwebapiv2 (lagt til 2026-10-23)
 - PxWebApi - kildekode: https://github.com/PxTools/PxWebApi (lagt til 2026-10-23)
 - PxWebApi v2 hos SCB: https://www.scb.se/vara-tjanster/oppna-data/pxwebapi/pxwebapi-v2/ (lagt til 2026-10-23)
+- KLASS - klassifikasjoner og kodelister: https://dataportal.ssb.no/classifications (lagt til 2026-10-24)
+- Om KLASS: https://www.ssb.no/metadata/om-klass (lagt til 2026-10-24)
+- Statistikkloven: https://lovdata.no/dokument/NL/lov/2019-06-21-32 (lagt til 2026-10-24)
 
 ### eID tilbydere
 - BankID: https://bankid.no/
@@ -700,6 +706,10 @@ Sist redigert: 2026-10-23.
 - Aksesspunkter for EHF- og BIS-formater: https://www.anskaffelser.no/verktoy/veileder/aksesspunkter-ehf-og-bis-formater (lagt til 2026-03-18)
 - EHF prosessdefinisjoner: https://www.anskaffelser.no/verktoy/verktoypakker/elektronisk-handelsformat-ehf-prosessdefinisjoner (lagt til 2026-03-18)
 - Bruksvilkår for ELMA: https://samarbeid.digdir.no/elma/bruksvilkar-elma/2072 (lagt til 2026-03-18)
+- Statens standardavtaler (SSA): https://www.anskaffelser.no/anskaffelsesregelverk/statens-standardavtaler-ssa (lagt til 2026-10-24)
+- SSA-enes historie og bakgrunn: https://www.anskaffelser.no/anskaffelsesregelverk/statens-standardavtaler-ssa/ssa-enes-historie-og-bakgrunn (lagt til 2026-10-24)
+- Veileder om rettigheter til data i SSA-ene: https://www.anskaffelser.no/avtaler-og-regelverk/statens-standardavtaler-ssa/veileder-om-rettigheter-til-data-i-ssa-ene (lagt til 2026-10-24)
+- Standardavtaler i offentlig sektor (Referansekatalogen): https://www.digdir.no/standarder/standardavtalar-i-offentleg-sektor/1497 (lagt til 2026-10-24)
 
 ### EU interoperabilitet
 - DIGITAL Building Blocks (omtaler ikke dataområder, jf. revisjon av 108 2026-09-25): https://interoperable-europe.ec.europa.eu/collection/digital-building-blocks
@@ -773,6 +783,13 @@ Sist redigert: 2026-10-23.
 - Etablere internkontroll: https://www.datatilsynet.no/rettigheter-og-plikter/virksomhetenes-plikter/informasjonssikkerhet-internkontroll/etablere-internkontroll/ (lagt til 2026-03-18)
 - Iverksette styringssystem for informasjonssikkerhet: https://www.datatilsynet.no/rettigheter-og-plikter/virksomhetenes-plikter/informasjonssikkerhet-internkontroll/etablere-internkontroll/iverksette-styringssystem-for-informasjonssikkerhet/ (lagt til 2026-03-18)
 - Informasjonssikkerhet hos virksomheter: https://www.datatilsynet.no/regelverk-og-verktoy/sporsmal-svar/Informasjonssikkerhet-hos-virksomheter/ (lagt til 2026-03-18)
+- Internkontroll i praksis - informasjonssikkerhet: https://www.digdir.no/informasjonssikkerhet/internkontroll-i-praksis-informasjonssikkerhet/2601 (lagt til 2026-10-24)
+- Om Internkontroll i praksis: https://www.digdir.no/informasjonssikkerhet/om-internkontroll-i-praksis-informasjonssikkerhet/3177 (lagt til 2026-10-24)
+- Internkontroll i praksis - styringsaktiviteter: https://www.digdir.no/informasjonssikkerhet/styringsaktiviteter/3153 (lagt til 2026-10-24)
+- Internkontroll i praksis - etableringsaktiviteter: https://www.digdir.no/informasjonssikkerhet/etableringsaktiviteter/3046 (lagt til 2026-10-24)
+- Internkontroll i praksis - Stifinneren: https://www.digdir.no/informasjonssikkerhet/stifinneren/2620 (lagt til 2026-10-24)
+- Internkontroll i praksis - regelverkskrav og anbefalinger: https://www.digdir.no/informasjonssikkerhet/regelverkskrav-og-anbefalinger-internkontroll-informasjonssikkerhet/3229 (lagt til 2026-10-24)
+- Internkontroll i praksis - endringslogg: https://www.digdir.no/informasjonssikkerhet/endringslogg-internkontroll-i-praksis-informasjonssikkerhet/3231 (lagt til 2026-10-24)
 
 ### Kunstig intelligens
 - Datatilsynets regulatoriske sandkasse for kunstig intelligens: https://www.datatilsynet.no/regelverk-og-verktoy/sandkasse-for-kunstig-intelligens/ (lagt til 2026-08-28)
@@ -811,6 +828,8 @@ Sist redigert: 2026-10-23.
 ### Juridisk og rettslig infrastruktur
 - Forvaltningsloven (LOV-1967-02-10), oppheves av lov 20. juni 2025 nr. 81: https://lovdata.no/dokument/NL/lov/1967-02-10 (lagt til 2026-08-28)
 - eForvaltningsforskriften (FOR-2004-06-25-988): https://lovdata.no/dokument/SF/forskrift/2004-06-25-988 (lagt til 2026-08-28)
+- Geodataloven: https://lovdata.no/dokument/NL/lov/2010-09-03-56 (lagt til 2026-10-24)
+- Geodataforskriften: https://lovdata.no/dokument/SF/forskrift/2012-08-08-797 (lagt til 2026-10-24)
 - Utredningsinstruksen (FOR-2016-02-19-184): https://lovdata.no/dokument/INS/forskrift/2016-02-19-184 (lagt til 2026-10-07)
 - Utredningsinstruksen på regjeringen.no: https://www.regjeringen.no/no/dokumenter/instruks-om-utredning-av-statlige-tiltak-utredningsinstruksen/id2476518/ (lagt til 2026-10-07)
 - Endringsforskrift til eForvaltningsforskriften (FOR-2022-12-20-2304): https://lovdata.no/dokument/LTI/forskrift/2022-12-20-2304 (lagt til 2026-09-28)

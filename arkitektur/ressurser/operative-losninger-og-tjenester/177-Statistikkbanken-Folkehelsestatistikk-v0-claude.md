@@ -71,7 +71,7 @@ Den fjerde er **maskinell henting gjennom FHI Statistikk Open API**. Folkehelses
 - finne bakgrunnstall for indikatorene i folkehelseprofilene
 
 ### Når Statistikkbanken Folkehelsestatistikk normalt ikke er førstevalg
-Banken er ikke førstevalg når analysen trenger data på individnivå eller fra enkeltregistre. Da går veien gjennom registerforvalterne og søknadsløpet som `HDIR-001` Helsedata.no gir inngang til.
+Banken er ikke førstevalg når analysen trenger data på individnivå eller fra enkeltregistre. Da går veien gjennom registerforvalterne og søknadsløpet som `FHI-007` Helsedata.no gir inngang til.
 
 Den er heller ikke førstevalg for generell befolknings- og samfunnsstatistikk utenfor folkehelseområdet. Den finnes i `SSB-003` Statistikkbanken hos SSB.
 
@@ -125,7 +125,7 @@ Statistikken kan gjenbrukes gjennom nedlasting og gjennom FHI Statistikk Open AP
 Ressursen er avhengig av FHI Statistikk som publiserings- og API-plattform.
 
 ### Vanlige kombinasjoner med andre produkter
-- `HDIR-001` Helsedata.no, når analysen trenger helsedata på individnivå i tillegg til aggregert statistikk.
+- `FHI-007` Helsedata.no, når analysen trenger helsedata på individnivå i tillegg til aggregert statistikk.
 - `SSB-003` Statistikkbanken og PxWebApi, for befolknings- og samfunnsstatistikk utenfor folkehelseområdet.
 - `FHI-003` Dødsårsaksregisteret, som også publiserer statistikk på FHI Statistikk.
 - `SSB-002` KOSTRA, når folkehelsetall skal ses sammen med kommunale tjenestedata.

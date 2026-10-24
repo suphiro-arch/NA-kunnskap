@@ -6650,6 +6650,126 @@
                     "explanation": "profilene er en nasjonal tilpasning av en internasjonal standard, forvaltet i åpen prosess av HL7 Norge og med status anbefalt standard i Referansekatalogen for e-helse."
                 }
             ]
+        },
+        {
+            "product_id": 179,
+            "product_name": "Internkontroll i praksis – informasjonssikkerhet",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/179-Internkontroll-i-praksis-informasjonssikkerhet-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/179-Internkontroll-i-praksis-informasjonssikkerhet-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-48c9873ae59341a49c2dca27379fab55",
+                    "capability_name": "Informasjonssikkerhet",
+                    "capability_slug": "informasjonssikkerhet",
+                    "subcapability_id": "id-980043f78fa94eec8ecf46338a5b9c6b",
+                    "subcapability_name": "Styringssystem",
+                    "subcapability_slug": "styringssystem",
+                    "mapping_label": "Informasjonssikkerhet: Styringssystem",
+                    "explanation": "veiledningen beskriver selve styringssystemet: ni styringsaktiviteter fra ledelsens styring og oppfølging til måling, evaluering og revisjon, ti etableringsaktiviteter for å bygge det opp, og maler og støtteark for risikovurdering, fellessikring og ledelsens gjennomgang."
+                },
+                {
+                    "capability_id": "id-c0547226c598467a942dced879d0c18b",
+                    "capability_name": "Veiledning",
+                    "capability_slug": "veiledning",
+                    "subcapability_id": "id-0bfa29018e7144578b2184e70414b7e8",
+                    "subcapability_name": "Utvikling og formidling av veiledning",
+                    "subcapability_slug": "utvikling-og-formidling-av-veiledning",
+                    "mapping_label": "Veiledning: Utvikling og formidling av veiledning",
+                    "explanation": "veiledningen er Digdirs publiserte og versjonerte anbefaling etter eForvaltningsforskriften § 15 annet ledd, med endringslogg, maler på bokmål og nynorsk og åpen lisens for gjenbruk."
+                }
+            ]
+        },
+        {
+            "product_id": 180,
+            "product_name": "KLASS",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/180-KLASS-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/180-KLASS-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-896e4c1434604caa891b94bcce964720",
+                    "capability_name": "Informasjonsforvaltning",
+                    "capability_slug": "informasjonsforvaltning",
+                    "subcapability_id": "id-5c6c20d50b6a4b168524901372f0ca6e",
+                    "subcapability_name": "Informasjonsarkitektur",
+                    "subcapability_slug": "informasjonsarkitektur",
+                    "mapping_label": "Informasjonsforvaltning: Informasjonsarkitektur",
+                    "explanation": "KLASS strukturerer kodeverk etter en felles modell med versjoner, gyldighetsperioder, varianter og korrespondanser, slik at koder kan tolkes entydig på et gitt tidspunkt og oversettes mellom inndelinger."
+                },
+                {
+                    "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
+                    "capability_name": "Standardisering",
+                    "capability_slug": "standardisering",
+                    "subcapability_id": "id-b99fcd8160d24e5f8ea3c17b15072f7a",
+                    "subcapability_name": "Forvaltningsstandarder",
+                    "subcapability_slug": "forvaltningsstandarder",
+                    "mapping_label": "Standardisering: Forvaltningsstandarder",
+                    "explanation": "KLASS publiserer SSBs offisielle klassifikasjoner, som Standard for kommuneinndeling og Standard for næringsgruppering, i maskinlesbar form, slik at virksomheter kan ta standardene i bruk direkte i egne systemer."
+                },
+                {
+                    "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
+                    "capability_name": "Datakilder",
+                    "capability_slug": "datakilder",
+                    "subcapability_id": "id-db4f30a87ae84561a4058d4d264177b1",
+                    "subcapability_name": "Åpne data",
+                    "subcapability_slug": "apne-data",
+                    "mapping_label": "Datakilder: Åpne data",
+                    "explanation": "KLASS gjør alle klassifikasjoner og kodelister fritt tilgjengelige under CC BY 4.0, både i dataportalen og gjennom et åpent API uten registrering."
+                }
+            ]
+        },
+        {
+            "product_id": 181,
+            "product_name": "Norge digitalt",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/samarbeidsfora/181-Norge-digitalt-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/181-Norge-digitalt-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
+                    "capability_name": "Samarbeid",
+                    "capability_slug": "samarbeid",
+                    "subcapability_id": "id-b4a86e2e430c472b9f74bedb7f66fd74",
+                    "subcapability_name": "Samarbeidsarenaer og nettverk",
+                    "subcapability_slug": "samarbeidsarenaer-og-nettverk",
+                    "mapping_label": "Samarbeid: Samarbeidsarenaer og nettverk",
+                    "explanation": "Norge digitalt etablerer og forvalter en fast arena for rundt 495 parter fra stat, fylke, kommune og enkelte private virksomheter, med samordningsgruppe, styre, fagforum og fylkesvise utvalg der partene koordinerer arbeidet med geografisk informasjon."
+                },
+                {
+                    "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",
+                    "capability_name": "Strategisk styring",
+                    "capability_slug": "strategisk-styring",
+                    "subcapability_id": "id-034543e002414306a8fbecc8c9d8e496",
+                    "subcapability_name": "Samordning",
+                    "subcapability_slug": "samordning",
+                    "mapping_label": "Strategisk styring: Samordning",
+                    "explanation": "Partsavtalen binder selvstendige virksomheter til felles avtalte tekniske og administrative krav, og samordningsgruppen er øverste beslutningsmyndighet for partene. Samarbeidet koordinerer dermed retning og ressursbruk på tvers av virksomheter som ellers ikke har felles styringslinje."
+                }
+            ]
+        },
+        {
+            "product_id": 182,
+            "product_name": "Statens standardavtaler (SSA)",
+            "version": 1,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/182-Statens-standardavtaler-v1-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/182-Statens-standardavtaler-v1-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-c3f87c86b19547359c677a333b16f03b",
+                    "capability_name": "Standardisering",
+                    "capability_slug": "standardisering",
+                    "subcapability_id": "id-b99fcd8160d24e5f8ea3c17b15072f7a",
+                    "subcapability_name": "Forvaltningsstandarder",
+                    "subcapability_slug": "forvaltningsstandarder",
+                    "mapping_label": "Standardisering: Forvaltningsstandarder",
+                    "explanation": "SSA er en anbefalt standard i Referansekatalogen for IT-standarder som gir offentlige virksomheter felles kontraktsvilkår i IT-anskaffelser, blant annet felles bestemmelser om rettigheter til data, tilgang til egne data og tilbakelevering av data ved avtalens slutt."
+                }
+            ]
         }
     ]
 }

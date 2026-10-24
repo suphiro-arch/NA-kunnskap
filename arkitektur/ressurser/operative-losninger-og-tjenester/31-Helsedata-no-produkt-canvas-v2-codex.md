@@ -4,7 +4,7 @@
 Helsedata.no
 
 ## Ressurs ID
-HDIR-001
+FHI-007
 
 ## Status/Livsfase
 **Produksjon** - etablert nasjonal portal- og tilgangsflate for sekundærbruk av helsedata.
