@@ -292,34 +292,27 @@ function Extract-OwnerFromResourceId {
   return 'UKJENT'
 }
 
+$script:ownerDisplayNames = $null
+
 function Get-OwnerDisplayName {
   param([string]$OwnerCode)
-
-  $ownerMap = @{
-    'DIGDIR' = 'Digdir'
-    'KS'     = 'KS Digital'
-    'NHN'    = 'Norsk helsenett'
-    'NAV'    = 'NAV'
-    'SKATT'  = 'Skatteetaten'
-    'KART'   = 'Kartverket'
-    'BRREG'  = 'Brønnøysundregistrene'
-    'SIKT'   = 'Sikt'
-    'HDIR'   = 'Helsedirektoratet'
-    'HELFO'  = 'Helfo'
-    'SSB'    = 'SSB'
-    'SVV'    = 'Statens vegvesen'
-    'NOVARI' = 'Novari'
-    'FHI'    = 'FHI'
-    'OPP'    = 'OpenPeppol'
-    'FLERE'  = 'Flere virksomheter'
-  }
 
   if ([string]::IsNullOrWhiteSpace($OwnerCode)) {
     return ''
   }
 
-  if ($ownerMap.ContainsKey($OwnerCode)) {
-    return $ownerMap[$OwnerCode]
+  # Visningsnavnet hentes fra eierkodetabellen i registeret, slik at nye eierkoder får navn uten endring her.
+  if ($null -eq $script:ownerDisplayNames) {
+    $script:ownerDisplayNames = @{}
+    foreach ($line in [System.IO.File]::ReadAllLines($registerFile, $utf8NoBom)) {
+      if ($line -match '^\|\s*`([A-Z0-9]+)`\s*\|\s*([^|]+?)\s*\|') {
+        $script:ownerDisplayNames[$Matches[1]] = $Matches[2]
+      }
+    }
+  }
+
+  if ($script:ownerDisplayNames.ContainsKey($OwnerCode)) {
+    return $script:ownerDisplayNames[$OwnerCode]
   }
 
   return $OwnerCode

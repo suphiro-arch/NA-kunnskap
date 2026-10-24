@@ -61,7 +61,7 @@ Forumet påvirker også indirekte operative løsninger og sammenhengende tjenest
 ## Arbeidsform og møtearena
 **Fakta:** Samarbeidet kombinerer strategidokument, programorganisering og faglig utredning. FSIF-siden viser til et strategidokument fra 2024, en grunnutredning fra 2022 og videre arbeid med tiltak som skal støtte målsettingene.
 
-Den første leveransen kom i januar 2026: felles anbefalinger om styring av informasjonssikkerhet og personopplysningsvern, publisert på sikkert.no. Anbefalingene dekker ti styringsaktiviteter, blant dem ledelsens styring, oversikt og prioritering, risikovurdering, risikohåndtering, måling og evaluering, overvåking og hendelseshåndtering, kompetanseutvikling, anskaffelser og kommunikasjon.
+Den første leveransen kom i januar 2026: felles anbefalinger om styring av informasjonssikkerhet og personopplysningsvern, publisert på sikkert.no. Anbefalingene dekker ni styringsaktiviteter, blant dem ledelsens styring, oversikt og prioritering, risikovurdering, risikohåndtering, måling og evaluering, overvåking og hendelseshåndtering, kompetanseutvikling, anskaffelser og kommunikasjon.
 
 Historikken på Digdirs side viser at styringsgruppen hadde sitt første møte i april 2023, og at samarbeidet ble etablert som program i juni 2025 med programstyre og programsekretariat. Dette tilsier en arbeidsform der strategisk retning, programstyring og faglig utvikling går parallelt.
 
@@ -176,7 +176,7 @@ Begrensningen er at FSIF ikke alene kan sikre etterlevelse. Dersom anbefalinger 
 - En selvrefererende passasje er fjernet: «I analyse kan manglende bruk av FSIF føre til at problemer feilaktig beskrives som lokale …». Slike formuleringer skal ikke stå i en ressursbeskrivelse, jf. regelen i `AGENTS.md`.
 
 ### Nytt innhold
-- Første konkrete leveranse: «Felles anbefalinger om styring av informasjonssikkerhet og personopplysningsvern», publisert på sikkert.no i januar 2026, med ti styringsaktiviteter. Dette endrer bildet av samarbeidet fra strategiarbeid til et samarbeid som har levert.
+- Første konkrete leveranse: «Felles anbefalinger om styring av informasjonssikkerhet og personopplysningsvern», publisert på sikkert.no i januar 2026, med ni styringsaktiviteter. Dette endrer bildet av samarbeidet fra strategiarbeid til et samarbeid som har levert.
 - De seks virksomhetene som står bak anbefalingene, navngitt: Datatilsynet, NSM, KS, DFØ, Helsedirektoratet og Digdir. `v1` beskrev samarbeidet uten å oppgi deltakerne.
 - Merking av fakta og deduksjon.
 - `Type arena eller forum` er satt til `Formelt organ`, i tråd med skillet malen fikk mellom formelt organ og åpen arena. FSIF har programstyre og programsekretariat og hører klart i den første kategorien.
