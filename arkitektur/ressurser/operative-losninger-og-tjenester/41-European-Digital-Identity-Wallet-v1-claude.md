@@ -31,13 +31,13 @@ European Digital Identity Wallet er en personlig digital lommebok som innbyggere
 Lommeboka er brukerstyrt. Innbyggeren har selv kontroll over hvilke opplysninger som deles med hvilket brukersted, og kan dele utvalgte attributter framfor hele dokumenter.
 
 ## Kapabiliteter
+Koblingene er satt fordi lommeboka selv utsteder og presenterer identitetsbevis og signaturer. Evnen til å bekrefte identitet på tvers av landegrenser ville ikke blitt levert av noen annen ressurs i porteføljen hvis lommeboka ble borte. Lommeboka bruker samtidig attributter fra nasjonale registre og utstedere; den avhengigheten er beskrevet under `Gjenbruk`, ikke som egen kapabilitet.
+
 - **Tillit: Autentisering**
   gir en felles europeisk mekanisme for å verifisere en digital identitet på høyt sikkerhetsnivå, uavhengig av hvilket land brukeren kommer fra. Lommeboka leverer evnen selv, og er ikke avhengig av at brukerstedet har egen innloggingsløsning.
 
 - **Tillit: Signering**
   gjør det mulig for innbyggeren å opprette rettslig bindende elektroniske signaturer direkte fra lommeboka, innenfor det samme tillitsrammeverket.
-
-Koblingene er satt fordi lommeboka selv utsteder og presenterer identitetsbevis og signaturer. Evnen til å bekrefte identitet på tvers av landegrenser ville ikke blitt levert av noen annen ressurs i porteføljen hvis lommeboka ble borte. Lommeboka bruker samtidig attributter fra nasjonale registre og utstedere; den avhengigheten er beskrevet under `Gjenbruk`, ikke som egen kapabilitet.
 
 ## Produktmål
 **Dokumenterte mål**, slik Europakommisjonen beskriver rammeverket:

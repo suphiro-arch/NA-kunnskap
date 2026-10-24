@@ -41,13 +41,13 @@ Rapportene er ikke bindende for andre enn som uttrykk for Datatilsynets forståe
 **Fakta:** Den kommende nasjonale KI-sandkassen får et annet forpliktelsesbilde. Den er hjemlet i KI-forordningen artikkel 57 og 58, og deltakerne får et avgrenset vern mot overtredelsesgebyr, et såkalt amnesti, forutsatt at de følger den avtalte sandkasseplanen, vilkårene for deltakelse og veiledningen fra ansvarlig myndighet i god tro. Heller ikke den er en frisone: ansvar og plikter etter forordningen ligger fortsatt hos aktørene i verdikjeden.
 
 ## Kapabiliteter
+Koblingene er satt fordi sandkassen selv produserer både tolkningen og veiledningsmaterialet. Merk at `Regelverkstolkning` her er satt på Datatilsynet som myndighet. I `DIGDIR-057` KI Norge er den samme kapabiliteten bevisst utelatt, fordi den juridiske myndigheten i det samarbeidet ligger hos Datatilsynet og Nkom; se `briefs/decisions.md` 2026-09-17.
+
 - **Veiledning: Utvikling og formidling av veiledning**
   Sandkassen utvikler og publiserer veiledningsmateriale om personvern i KI-løsninger gjennom sluttrapporter fra hvert prosjekt, og gjør enkeltvurderinger tilgjengelige som eksempelmateriale for andre.
 
 - **Juridisk samhandling: Regelverkstolkning**
   Kjernen i tjenesten er å tolke personvernregelverket for konkrete KI-anvendelser, og gjøre tolkningen tilgjengelig for andre. Datatilsynet er personvernmyndighet, og tolkningen har derfor autoritet ut over en ordinær faglig vurdering.
-
-Koblingene er satt fordi sandkassen selv produserer både tolkningen og veiledningsmaterialet. Merk at `Regelverkstolkning` her er satt på Datatilsynet som myndighet. I `DIGDIR-057` KI Norge er den samme kapabiliteten bevisst utelatt, fordi den juridiske myndigheten i det samarbeidet ligger hos Datatilsynet og Nkom; se `briefs/decisions.md` 2026-09-17.
 
 ## Målgruppe og brukere
 | Brukersegment | Primært behov | Bruksområde | Kommentar |

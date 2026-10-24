@@ -29,13 +29,13 @@ eIDAS-node (Norge) er Norges tilknytning til det europeiske nettverket for gjens
 Noden er ikke en egen brukerflate. Den er eksponert gjennom ID-porten, og en tjenesteeier aktiverer den ved å be om `eidas-loa-high` eller `eidas-loa-substantial` i `acr_values`. Den er dermed en infrastrukturkomponent i innloggingsflyten, ikke en tjeneste virksomheter integrerer mot direkte.
 
 ## Kapabiliteter
+Koblingene er satt fordi noden selv utfører rutingen mot utlandet og matchingen mot Folkeregisteret. Selve eID-en utstedes i brukerens hjemland, og persondataene eies av Folkeregisteret; begge er avhengigheter og er beskrevet under `Gjenbruk`.
+
 - **Tillit: Autentisering**
   gjør det mulig for en norsk tjeneste å verifisere en innlogging utført med en notifisert eID fra et annet EØS-land, på eIDAS-nivå betydelig eller høyt. Uten noden ville evnen til å autentisere utenlandske brukere forsvinne fra norsk arkitektur; den leveres ikke av ID-porten selv.
 
 - **Tillit: Identifisering**
   knytter den utenlandske identiteten til en norsk personidentifikator gjennom oppslag i Folkeregisteret, slik at tjenesten kan bruke identiteten videre i egen saks- og tjenestelogikk.
-
-Koblingene er satt fordi noden selv utfører rutingen mot utlandet og matchingen mot Folkeregisteret. Selve eID-en utstedes i brukerens hjemland, og persondataene eies av Folkeregisteret; begge er avhengigheter og er beskrevet under `Gjenbruk`.
 
 ## Produktmål
 **Dokumenterte mål**, slik Digdir beskriver funksjonen:

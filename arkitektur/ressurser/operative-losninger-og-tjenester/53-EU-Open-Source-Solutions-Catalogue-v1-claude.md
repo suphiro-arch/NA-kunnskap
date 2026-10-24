@@ -27,13 +27,13 @@ EU Open Source Solutions Catalogue er Europakommisjonens samlede katalog over å
 Katalogen er en oppdagelsesflate, ikke en distribusjonsplattform. Den peker videre til det stedet løsningen faktisk forvaltes, og den vurderer ikke om en løsning er egnet for et bestemt formål.
 
 ## Kapabiliteter
+Koblingene er satt fordi katalogen selv leverer oversikten og aggregeringen. Selve løsningene den peker til, forvaltes av andre, og evnene de leverer hører hos dem.
+
 - **Tjenesteutvikling: Gjenbrukbare tjenester**
   gjør det praktisk mulig å finne løsninger som allerede er utviklet i offentlig sektor i andre land, som et alternativ til å utvikle eller anskaffe på nytt.
 
 - **Informasjonsforvaltning: Oversikt over tjenester**
   gir en samlet, søkbar oversikt over programvare som tilbys av eller på vegne av offentlig sektor i Europa, med maskinlesbare metadata.
-
-Koblingene er satt fordi katalogen selv leverer oversikten og aggregeringen. Selve løsningene den peker til, forvaltes av andre, og evnene de leverer hører hos dem.
 
 ## Produktmål
 **Dokumenterte mål** slik Kommisjonen beskriver katalogen:

@@ -44,10 +44,10 @@ Rådet er mer operativt og porteføljenært enn strategiske topplederfora som `S
 - Eierdepartementet kan delta som observatør og får oversikt over rådets arbeid gjennom Digdirs rapportering.
 
 ## Kapabiliteter
+Grunnlag: Kapabilitetene er konsistent med gjeldende mapping. `Tjenesteforvaltning` er tatt ut av eksplisitt kapabilitetsliste for å holde konsistens med register, men behandles som viktig del av rådets virkning i brødteksten.
+
 - **Samarbeidsarenaer og nettverk** støttes fordi rådet er en fast og formalisert arena for samordning mellom forvalter, tjenesteeiermiljøer og interessenter rundt fellesløsningene.
 - **Samordning** støttes fordi forumet bistår med å prioritere, avveie og samordne behov på tvers av løsninger og brukergrupper i porteføljekontekst.
-
-Grunnlag: Kapabilitetene er konsistent med gjeldende mapping. `Tjenesteforvaltning` er tatt ut av eksplisitt kapabilitetsliste for å holde konsistens med register, men behandles som viktig del av rådets virkning i brødteksten.
 
 ## Deltakere og målgruppe
 **Fakta:** Mandatet gir konkret struktur for medlemssammensetning: 12–14 medlemmer fordelt på følgende kategorier:

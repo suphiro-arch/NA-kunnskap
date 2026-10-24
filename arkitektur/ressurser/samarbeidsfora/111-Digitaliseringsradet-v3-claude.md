@@ -42,9 +42,9 @@ At anbefalingsbrevene publiseres, gir ordningen en forpliktende side den ellers 
 ## Kapabiliteter
 Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot Digdirs sider om mandat, arbeid og anbefalingsbrev.
 
-- **Samarbeid: Samarbeidsarenaer og nettverk** realiseres direkte. Ordningen er en fast arena med oppnevnte rådsmedlemmer, sekretariat i Digdir og en dokumentert prosess i sju trinn. De 137 publiserte anbefalingsbrevene gjør dessuten den enkelte drøftingen om til kunnskapsdeling på tvers av 17 departementsområder, som er kjernen i kapabiliteten.
-
 **Deduksjon:** `Strategisk styring: Arkitekturstyring` sto i `v2`, men er tatt ut. Kapabiliteten gjelder å etablere, forvalte og styre en helhetlig nasjonal arkitektur som et felles, forpliktende rammeverk med prinsipper, referansearkitekturer, standarder og byggeklosser. Digitaliseringsrådet gir ikke-bindende råd til én virksomhet om dens eget tiltak, og er uttrykkelig mindre relevant når saken gjelder faglig vurdering av en enkelt standard. Beskrivelsen viser selv slike spørsmål videre til `Arkitektur- og standardiseringsrådet` (`DIGDIR-028`), som er der koblingen hører hjemme.
+
+- **Samarbeid: Samarbeidsarenaer og nettverk** realiseres direkte. Ordningen er en fast arena med oppnevnte rådsmedlemmer, sekretariat i Digdir og en dokumentert prosess i sju trinn. De 137 publiserte anbefalingsbrevene gjør dessuten den enkelte drøftingen om til kunnskapsdeling på tvers av 17 departementsområder, som er kjernen i kapabiliteten.
 
 ## Deltakere og målgruppe
 

@@ -39,6 +39,8 @@ Etterlevelse skjer gjennom regelverks- og utredningsarbeid. Avvik fra verktøyka
 **Deduksjon:** For norske virksomheter er ingen av delene rettslig bindende i dag, siden forordningen ikke er innlemmet i EØS-avtalen. Verktøykassa kan likevel brukes fritt, og er den mest konkrete forberedelsen som finnes.
 
 ## Kapabiliteter
+Koblingene er satt fordi verktøykassa selv leverer metoden, veiledningen og datamodellen. Selve plikten kommer fra forordningen, og den hører hos `Interoperable Europe Act`.
+
 - **Strategisk styring: Arkitekturstyring**
   gir metoden og arbeidsflyten som gjør interoperabilitetsvurderingen til et reelt styringsgrep i regelverks- og løsningsarbeid, ikke bare et krav på papiret.
 
@@ -47,8 +49,6 @@ Etterlevelse skjer gjennom regelverks- og utredningsarbeid. Avvik fra verktøyka
 
 - **Standardisering: EU standarder**
   definerer et felles vokabular og en datamodell for hvordan vurderinger beskrives og utveksles, slik at de kan sammenlignes på tvers av land.
-
-Koblingene er satt fordi verktøykassa selv leverer metoden, veiledningen og datamodellen. Selve plikten kommer fra forordningen, og den hører hos `Interoperable Europe Act`.
 
 ## Målgruppe og brukere
 | Brukersegment | Primært behov | Bruksområde | Kommentar |

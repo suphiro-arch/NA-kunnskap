@@ -31,6 +31,8 @@ Once-Only Technical System er EUs infrastruktur for at offentlige myndigheter sk
 Utvekslingen skjer mellom myndigheter, ikke gjennom brukeren, men brukeren har kontroll: en forhåndsvisningsflate lar innbyggeren se hva som skal overføres før det godkjennes. Systemet er avgrenset til de prosedyrene og bevistypene som er listet i regelverket.
 
 ## Kapabiliteter
+Koblingene er satt fordi OOTS selv etablerer mekanismen for grensekryssende bevisutveksling. Den underliggende transporten leveres av `eDelivery Building Block`, og autentiseringen av brukeren av eIDAS-rammeverket. Begge er avhengigheter, ikke kapabiliteter i denne ressursen.
+
 - **Datautveksling og integrasjon: Dele data med andre**
   gjør at en norsk bevisutsteder kan gjøre dokumentasjon tilgjengelig for myndigheter i andre land innenfor et definert og rettslig forankret formål.
 
@@ -39,8 +41,6 @@ Utvekslingen skjer mellom myndigheter, ikke gjennom brukeren, men brukeren har k
 
 - **Samarbeid: Organisatorisk samhandling**
   effektiviserer forretningsprosessene på tvers av organisatoriske og nasjonale grenser, ved at søknadsbehandling i ett land kan trekke på registerdata i et annet.
-
-Koblingene er satt fordi OOTS selv etablerer mekanismen for grensekryssende bevisutveksling. Den underliggende transporten leveres av `eDelivery Building Block`, og autentiseringen av brukeren av eIDAS-rammeverket. Begge er avhengigheter, ikke kapabiliteter i denne ressursen.
 
 ## Produktmål
 **Dokumenterte mål** slik Kommisjonen og regelverket beskriver systemet:

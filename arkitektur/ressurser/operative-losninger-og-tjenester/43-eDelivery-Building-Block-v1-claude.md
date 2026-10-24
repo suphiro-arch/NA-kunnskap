@@ -29,6 +29,8 @@ eDelivery Building Block er Europakommisjonens felles byggestein for sikker og e
 Modellen er føderert: deltakerne kommuniserer gjennom aksesspunkt som følger samme profil, og finner hverandre gjennom tjenestemetadata. Kommunikasjonen krever digitalt signerte kvitteringer for mottak, og bruker kryptering for å beskytte integritet og konfidensialitet. Byggesteinen er innholdsnøytral: den transporterer meldinger uten å definere hva som står i dem.
 
 ## Kapabiliteter
+Koblingene er satt fordi byggesteinen selv eier profilen, referanseprogramvaren og testregimet. Innholdet i meldingene og de forretningsmessige prosessene rundt dem leveres av de økosystemene som bruker byggesteinen, og hører ikke her.
+
 - **Datautveksling og integrasjon: Meldingsutveksling**
   gir et felles mønster for å sende og motta meldinger mellom parter som ikke har avtale med hverandre fra før, gjennom aksesspunkt og dynamisk oppslag av mottakerens kapabiliteter.
 
@@ -37,8 +39,6 @@ Modellen er føderert: deltakerne kommuniserer gjennom aksesspunkt som følger s
 
 - **Standardisering: EU standarder**
   forvalter selve AS4-profilen og tjenestemetadataspesifikasjonene, og gjør dem tilgjengelige med konformitetstesting, slik at europeiske standarder faktisk kan tas i bruk.
-
-Koblingene er satt fordi byggesteinen selv eier profilen, referanseprogramvaren og testregimet. Innholdet i meldingene og de forretningsmessige prosessene rundt dem leveres av de økosystemene som bruker byggesteinen, og hører ikke her.
 
 ## Produktmål
 **Dokumenterte mål** slik Kommisjonen beskriver byggesteinen:

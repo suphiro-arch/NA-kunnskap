@@ -35,13 +35,13 @@ Malen er **veiledende**. Det finnes ingen lov, forskrift eller vedtak som gjør 
 Den som forventes å følge den, er i praksis to parter: KS Digital i sin egen prosjektgjennomføring, og den enkelte kommunen eller fylkeskommunen i sine forberedelser. Etterlevelse skjer gjennom prosjektarbeid og innføringsplaner, ikke gjennom kontroll. Avvik krever ingen begrunnelse, men en kommune som hopper over de forberedende tiltakene, vil merke det i gjennomføringsfasen.
 
 ## Kapabiliteter
+Koblingene er satt fordi malen selv er veiledningen og selv definerer samarbeidsmønsteret. De tjenestene som innføres med malen, leverer sine egne evner, og de hører ikke her.
+
 - **Veiledning: Utvikling og formidling av veiledning**
   KS Digital utarbeider, kvalitetssikrer og tilgjengeliggjør malen som felles veiledning for hele kommunesektoren, og oppdaterer den gjennom erfaring fra konkrete innføringsløp.
 
 - **Samarbeid: Organisatorisk samhandling**
   Malen effektiviserer arbeidsprosessene mellom KS Digital og den enkelte kommunen ved at begge parter arbeider etter samme faseinndeling, med avklarte forventninger om hvem som gjør hva og når.
-
-Koblingene er satt fordi malen selv er veiledningen og selv definerer samarbeidsmønsteret. De tjenestene som innføres med malen, leverer sine egne evner, og de hører ikke her.
 
 ## Målgruppe og brukere
 | Brukersegment | Primært behov | Bruksområde | Kommentar |

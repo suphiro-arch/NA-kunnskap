@@ -33,13 +33,13 @@ Tjenesten er én av flere videotjenester Norsk helsenett tilbyr. Plattformen er 
 Plattformen er tilgjengelig både over internett og over helsenettet, slik at kommunikasjonen kan opprettholdes selv om internettforbindelsen faller ut.
 
 ## Kapabiliteter
+Koblingene er satt fordi tjenesten selv leverer både det sammenhengende løpet og integrasjonsflaten. Autentiseringen skjer med HelseID, og den evnen hører hos `HelseID`; avhengigheten er beskrevet under `Gjenbruk`.
+
 - **Sluttbrukertjenester: Sammenhengende tjenester**
   Pasienten starter videotimen fra Helsenorge, mens behandleren starter den fra timeboken i EPJ-systemet. Konsultasjonen blir dermed ett sammenhengende løp på tvers av innbyggerflate og fagsystem, framfor to separate handlinger som brukeren selv må knytte sammen.
 
 - **Tjenesteutvikling: Integrerbare tjenester**
   Løsningen eksponeres som en integrerbar tjeneste mot EPJ-systemene, slik at videokonsultasjon kan bygges inn i det arbeidsløpet helsepersonellet allerede bruker, uten en egen applikasjon ved siden av.
-
-Koblingene er satt fordi tjenesten selv leverer både det sammenhengende løpet og integrasjonsflaten. Autentiseringen skjer med HelseID, og den evnen hører hos `HelseID`; avhengigheten er beskrevet under `Gjenbruk`.
 
 ## Produktmål
 **Dokumenterte mål**, slik Norsk helsenett beskriver tjenesten:

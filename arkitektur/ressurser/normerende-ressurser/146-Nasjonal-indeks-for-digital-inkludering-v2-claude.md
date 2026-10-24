@@ -37,13 +37,13 @@ Indeksen er **ikke bindende**. Den stiller ingen krav til virksomheter og har in
 Virkningen ligger i at indeksen gir et omforent tallgrunnlag for området, som kan brukes i styring og prioritering. Etterlevelse er derfor ikke et meningsfullt begrep her: spørsmålet er om noen faktisk bruker tallene, ikke om noen følger dem.
 
 ## Kapabiliteter
+Koblingene er satt fordi indeksen selv utfører sammenstillingen og etablerer det felles målebildet. De underliggende undersøkelsene eies av SSB, DFØ, HK-dir, Rambøll, Digdir, Uu-tilsynet og Nkom, og evnen til å produsere de dataene hører hos dem.
+
 - **Datadrevet: Dataanalyse**
   Indeksen er et statistisk måleverktøy som sammenstiller 71 indikatorer fra seks ulike datakilder til et samlet bilde av digital inkludering, og gjør utviklingen målbar over tid.
 
 - **Strategisk styring: Samordning**
   Indeksen er utviklet i samarbeid mellom to myndigheter og gir et felles kunnskapsgrunnlag som flere aktører kan prioritere ut fra, framfor at hver sektor måler digital inkludering på sin egen måte.
-
-Koblingene er satt fordi indeksen selv utfører sammenstillingen og etablerer det felles målebildet. De underliggende undersøkelsene eies av SSB, DFØ, HK-dir, Rambøll, Digdir, Uu-tilsynet og Nkom, og evnen til å produsere de dataene hører hos dem.
 
 ## Målgruppe og brukere
 | Brukersegment | Primært behov | Bruksområde | Kommentar |

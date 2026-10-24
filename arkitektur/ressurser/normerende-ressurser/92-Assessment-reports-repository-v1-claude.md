@@ -39,13 +39,13 @@ Etterlevelse skjer gjennom det nettbaserte vurderingsverktøyet, som sender rapp
 **Deduksjon:** For norske virksomheter finnes ingen publiseringsplikt i dag, siden forordningen ikke er innlemmet i EØS-avtalen. Registeret er derfor en kilde, ikke et krav.
 
 ## Kapabiliteter
+Koblingene er satt fordi registeret selv leverer innsynet og den samlede oversikten. Selve plikten kommer fra forordningen, og metoden fra verktøykassa; begge hører hos de ressursene.
+
 - **Strategisk styring: Arkitekturstyring**
   gjør etterlevelsen av vurderingsplikten synlig og etterprøvbar, og gir styret for Interoperable Europe et datagrunnlag for å følge opp hvordan samhandlingshensyn faktisk ivaretas.
 
 - **Strategisk styring: Samordning**
   gjør det mulig å se vurderinger fra ulike land og sektorer i sammenheng, slik at like problemstillinger kan løses likt framfor hver for seg.
-
-Koblingene er satt fordi registeret selv leverer innsynet og den samlede oversikten. Selve plikten kommer fra forordningen, og metoden fra verktøykassa; begge hører hos de ressursene.
 
 ## Målgruppe og brukere
 | Brukersegment | Primært behov | Bruksområde | Kommentar |

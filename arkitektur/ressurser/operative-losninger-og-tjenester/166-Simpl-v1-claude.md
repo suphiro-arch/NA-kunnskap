@@ -34,6 +34,8 @@ Simpl er modulær og bygget for å integrere eksisterende løsninger framfor å 
 Plattformen leveres i tre former. **Simpl-Open** er selve programvarestakken, publisert som åpen kildekode. **Simpl-Labs** er et testmiljø der et dataområde kan prøve ut komponentene og vurdere hvor godt de passer mot en eksisterende løsning før den tas i bruk. **Simpl-Live** er konkrete instanser av Simpl-Open satt i drift for utvalgte dataområder, der Kommisjonen selv deltar i forvaltningen.
 
 ## Kapabiliteter
+Koblingene er satt fordi plattformen selv leverer delingsmekanismen, komponentene og standardetterlevelsen. De enkelte dataområdene som bygger på Simpl, leverer sine egne evner innenfor sine fagområder, og de hører ikke her.
+
 - **Datautveksling og integrasjon: Dele data med andre**
   Simpl gir mekanismen for å gjøre data tilgjengelige for andre deltakere i et dataområde, med tilgangsstyring som blir hos den som eier dataene. Uten plattformen måtte hvert dataområde bygge sin egen delingsmekanisme.
 
@@ -42,8 +44,6 @@ Plattformen leveres i tre former. **Simpl-Open** er selve programvarestakken, pu
 
 - **Standardisering: EU standarder**
   Komponentene er bygget for å følge EU-standarder for datakvalitet og datadeling, og gjør dem dermed praktisk anvendelige i konkrete løsninger framfor bare dokumenterte.
-
-Koblingene er satt fordi plattformen selv leverer delingsmekanismen, komponentene og standardetterlevelsen. De enkelte dataområdene som bygger på Simpl, leverer sine egne evner innenfor sine fagområder, og de hører ikke her.
 
 ## Produktmål
 **Dokumenterte mål**, slik Kommisjonen beskriver programmet:

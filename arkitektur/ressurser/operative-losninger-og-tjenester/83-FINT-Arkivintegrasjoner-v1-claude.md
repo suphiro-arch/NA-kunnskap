@@ -33,13 +33,13 @@ Tjenesten skiller seg fra `FINT Arkiv` ved å ligge et nivå over. `FINT Arkiv` 
 Den sentrale egenskapen er at integrasjoner kan settes opp uten utviklere. Domeneeksperter oppretter integrasjoner mellom støttede fagsystemer og konfigurerer dataomforming selv, og kan følge med på dataoverføringene og rette feil.
 
 ## Kapabiliteter
+Koblingene er satt fordi tjenesten selv leverer arbeidsflyten og gjenbruket av integrasjonsoppsett. Selve tilgangen til arkivinformasjon leveres av `FINT Arkiv` gjennom felles API og informasjonsmodell, og evnene til å dele og bruke arkivdata hører hos den ressursen. Avhengigheten er beskrevet under `Gjenbruk`.
+
 - **Samarbeid: Organisatorisk samhandling**
   Tjenesten effektiviserer arbeidsprosessene mellom fagområde og arkiv ved at dokumenter og saksopplysninger flyter automatisk inn i arkivet, framfor at saksbehandleren overfører dem manuelt mellom to systemer.
 
 - **Tjenesteutvikling: Gjenbrukbare tjenester**
   Et integrasjonsoppsett som er laget én gang, kan brukes av flere fylkeskommuner med samme fagsystem, og plattformen reduserer dermed antallet integrasjoner som må bygges i sektoren samlet.
-
-Koblingene er satt fordi tjenesten selv leverer arbeidsflyten og gjenbruket av integrasjonsoppsett. Selve tilgangen til arkivinformasjon leveres av `FINT Arkiv` gjennom felles API og informasjonsmodell, og evnene til å dele og bruke arkivdata hører hos den ressursen. Avhengigheten er beskrevet under `Gjenbruk`.
 
 ## Produktmål
 **Dokumenterte mål**, slik Novari beskriver FINT Flyt og arkivintegrasjonene:

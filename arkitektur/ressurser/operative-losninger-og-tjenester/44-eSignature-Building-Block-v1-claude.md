@@ -27,6 +27,8 @@ eSignature Building Block er Europakommisjonens felles byggestein for elektronis
 Byggesteinen består av tre praktiske deler: DSS-biblioteket for å bygge signatur- og valideringsfunksjonalitet inn i egne løsninger, Trusted List Browser for å slå opp kvalifiserte tillitstjenestetilbydere i Europa, og et valideringsverktøy som kontrollerer at en signatur er i samsvar med ETSI-standardene. Byggesteinen leverer ikke selve signeringstjenesten til sluttbrukere; den gir grunnlaget som slike tjenester bygges på.
 
 ## Kapabiliteter
+Koblingene er satt fordi byggesteinen selv leverer programvaren og tillitsoppslaget. Den enkelte signeringstjenesten og de kvalifiserte tillitstjenestetilbyderne er egne aktører, og evnen til å utstede kvalifiserte sertifikater hører hos dem.
+
 - **Tillit: Signering**
   gir programvarekomponentene og tillitsgrunnlaget som gjør det mulig å opprette og verifisere avanserte og kvalifiserte elektroniske signaturer på tvers av land.
 
@@ -35,8 +37,6 @@ Byggesteinen består av tre praktiske deler: DSS-biblioteket for å bygge signat
 
 - **Standardisering: EU standarder**
   forvalter og tilgjengeliggjør signaturformatene og valideringsreglene fra ETSI i en form som lar seg ta i bruk, med konformitetskontroll.
-
-Koblingene er satt fordi byggesteinen selv leverer programvaren og tillitsoppslaget. Den enkelte signeringstjenesten og de kvalifiserte tillitstjenestetilbyderne er egne aktører, og evnen til å utstede kvalifiserte sertifikater hører hos dem.
 
 ## Produktmål
 **Dokumenterte mål** slik Kommisjonen beskriver byggesteinen:

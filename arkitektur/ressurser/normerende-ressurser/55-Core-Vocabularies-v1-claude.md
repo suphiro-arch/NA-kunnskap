@@ -37,13 +37,13 @@ Etterlevelse skjer gjennom arkitekturarbeid og informasjonsforvaltning: vokabula
 **Deduksjon:** For norske virksomheter er den praktiske forpliktelsen i dag lav. Verdien ligger i å unngå framtidig kartleggingsgjeld, ikke i å oppfylle et krav.
 
 ## Kapabiliteter
+Koblingene er satt fordi vokabularene selv er modellene, og fordi SEMIC forvalter dem med en definert prosess. De registrene og tjenestene som tar modellene i bruk, leverer sine egne evner, og de hører ikke her.
+
 - **Informasjonsforvaltning: Informasjonsarkitektur**
   gir felles, standardiserte modeller for hvordan sentrale dataenheter struktureres, slik at data blir finnbare, forståelige og gjenbrukbare for både mennesker og maskiner på tvers av forvaltninger.
 
 - **Standardisering: EU standarder**
   forvalter og tilgjengeliggjør de europeiske kjernemodellene som skal tas i bruk, med dokumentert metode for utvikling og endring.
-
-Koblingene er satt fordi vokabularene selv er modellene, og fordi SEMIC forvalter dem med en definert prosess. De registrene og tjenestene som tar modellene i bruk, leverer sine egne evner, og de hører ikke her.
 
 ## Målgruppe og brukere
 | Brukersegment | Primært behov | Bruksområde | Kommentar |

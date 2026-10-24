@@ -29,13 +29,13 @@ eID Building Block er Europakommisjonens felles byggestein for gjensidig anerkje
 Byggesteinen dekker fire samhandlingsdimensjoner: juridisk, organisatorisk, semantisk og teknisk. Den leverer ikke selve eID-en, men mekanismen som gjør at en eID utstedt i ett land kan verifiseres og forstås i et annet.
 
 ## Kapabiliteter
+Koblingene er satt fordi byggesteinen selv leverer den grensekryssende delen av evnen. Uten den ville en norsk tjeneste måtte bygge egne løsninger mot hvert enkelt lands eID-ordning. De nasjonale eID-ene som brukes gjennom nettverket, eies av andre aktører, og evnen til å utstede dem hører hos dem.
+
 - **Tillit: Autentisering**
   gir mekanismen for at en tjeneste i ett land kan verifisere en innlogging utført med en eID fra et annet land, innenfor eIDAS-rammeverkets sikkerhetsnivåer.
 
 - **Tillit: Identifisering**
   overfører et minimumsdatasett som identifiserer personen eller virksomheten entydig på tvers av landegrenser, slik at mottakeren kan koble identiteten videre i egen tjenestelogikk.
-
-Koblingene er satt fordi byggesteinen selv leverer den grensekryssende delen av evnen. Uten den ville en norsk tjeneste måtte bygge egne løsninger mot hvert enkelt lands eID-ordning. De nasjonale eID-ene som brukes gjennom nettverket, eies av andre aktører, og evnen til å utstede dem hører hos dem.
 
 ## Produktmål
 **Dokumenterte mål** slik Kommisjonen beskriver byggesteinen:

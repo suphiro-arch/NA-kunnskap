@@ -45,6 +45,8 @@ Etterlevelse skjer gjennom regelverksarbeid og styringslinjer, ikke gjennom tils
 **Deduksjon:** For norske virksomheter er forpliktelsen i dag en forberedelsesplikt, ikke en rettslig plikt, siden forordningen ikke er innlemmet i EØS-avtalen.
 
 ## Kapabiliteter
+Koblingene er satt fordi forordningen selv skaper pliktene, organene og rammeverket. De enkelte løsningene og verktøyene som brukes for å oppfylle pliktene, er egne ressurser, og evnene de leverer hører hos dem.
+
 - **Strategisk styring: Arkitekturstyring**
   gjør samhandlingsevne til et forpliktende rammeverk med vurderingsplikt, styre og felles rammeverk, framfor et faglig råd uten konsekvens.
 
@@ -53,8 +55,6 @@ Etterlevelse skjer gjennom regelverksarbeid og styringslinjer, ikke gjennom tils
 
 - **Samarbeid: Samarbeidsarenaer og nettverk**
   etablerer styret for Interoperable Europe og portalen som faste arenaer for samordning mellom medlemsstatene og Kommisjonen.
-
-Koblingene er satt fordi forordningen selv skaper pliktene, organene og rammeverket. De enkelte løsningene og verktøyene som brukes for å oppfylle pliktene, er egne ressurser, og evnene de leverer hører hos dem.
 
 ## Målgruppe og berørte aktører
 | Aktørsegment | Primært behov | Bruksområde | Kommentar |

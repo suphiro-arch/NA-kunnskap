@@ -31,13 +31,13 @@ Merk at navnet lett misforstås. Fiks protokoll er ikke møteprotokoller eller s
 Formålet er leverandøruavhengighet. En kommune skal kunne kombinere fagsystem fra én leverandør med sak- og arkivsystem fra en annen, uten at det krever en egen integrasjon mellom nettopp de to produktene.
 
 ## Kapabiliteter
+Koblingene er satt fordi ressursen selv eier grensesnittene og standardiseringen. Selve meldingsutvekslingen og sikringen av den leveres av `Fiks melding` og `Fiks-plattformen`, og de evnene hører hos dem. Avhengigheten er beskrevet under `Gjenbruk`.
+
 - **Standardisering: Forvaltningsstandarder**
   Fiks protokoll definerer og forvalter de felles grensesnittene som kommunal sektor faktisk utveksler etter, og gjør dem tilgjengelige for leverandørene. Uten denne ressursen ville hver leverandørkobling vært en egen avtale.
 
 - **Tjenesteutvikling: Integrerbare tjenester**
   Grensesnittene er standardiserte og maskinlesbare, slik at et fagsystem kan oppdage og integrere mot arkiv, matrikkel eller plan uten å kjenne det enkelte produktet på motsatt side.
-
-Koblingene er satt fordi ressursen selv eier grensesnittene og standardiseringen. Selve meldingsutvekslingen og sikringen av den leveres av `Fiks melding` og `Fiks-plattformen`, og de evnene hører hos dem. Avhengigheten er beskrevet under `Gjenbruk`.
 
 ## Produktmål
 **Dokumenterte mål**, slik KS Digital beskriver tjenesten:
