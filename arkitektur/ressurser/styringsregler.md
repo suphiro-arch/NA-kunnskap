@@ -104,12 +104,32 @@ Kjennetegn:
 
 Typiske eksempler:
 - forskrifter og rundskriv
-- finansieringsordninger
+- finansieringsordninger for digitalisering og felles løsninger
 - juridiske rammer for digital samhandling
 - økonomiske virkemidler og styringsmekanismer
 
 Presisering:
 - denne kategorien kan inkludere både finansielle og regulative virkemidler
+
+Avgrensning: virkemiddelet må virke på digital samhandling.
+- Kapabilitetene i kategorien, særlig `Strategisk styring: Finansiering` og `Juridisk samhandling`, er
+  delkapabiliteter under `Nasjonal arkitektur for samhandling` i `capabilities.yaml`. `Finansiering`
+  er evnen til å styre digitalisering med finansielle virkemidler, og `Juridisk samhandling` er
+  rammeverket som muliggjør og regulerer digital samhandling. En ressurs hører derfor bare hjemme her
+  når virkemiddelet virker på digitalisering, digital samhandling, deling av opplysninger, digital
+  sikkerhet eller felles løsninger i offentlig sektor.
+- Still spørsmålet: hva er dette et virkemiddel for? Er svaret et sektorformål for en målgruppe,
+  som utdanning, helse, bolig, inntektssikring eller næringsutvikling, hører ressursen ikke hjemme i
+  oversikten, selv om saksbehandlingen er digital eller automatisert.
+- Ytelser, stønader, lån, stipend, tilskudd og rettigheter til innbyggere, næringsliv eller andre
+  målgrupper tas ikke inn. Det samme gjelder sektorregelverk som bare regulerer sektorens egen
+  virksomhet.
+- Lover og forskrifter tas inn når de har vesentlig betydning for digitalisering, enten fordi de
+  muliggjør digital samhandling og deling, eller fordi de stiller krav som arkitekturvalg må ta
+  hensyn til, som personvern og digital sikkerhet.
+- At en ordning bruker data fra andre eller har automatisert saksbehandling, gjør den ikke til en
+  ressurs. Det er et eksempel på bruk av andre ressurser og kan omtales i analyser eller i
+  beskrivelsen av ressursene den bruker.
 
 Foreløpig arbeidsregel:
 - de fleste eksisterende normerende ressurser blir liggende under `Standarder og veiledning`

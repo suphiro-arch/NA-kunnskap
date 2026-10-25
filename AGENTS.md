@@ -33,6 +33,7 @@ Denne fila beskriver generelle regler som skal gjelde ved arbeid i dette repoet.
 - Ved opprettelse eller revisjon av `økonomiske og juridiske rammer og virkemidler`, bruk `config/prompts/okonomiske-og-juridiske-rammer-og-virkemidler-canvas.system.md` sammen med `config/templates/okonomiske-og-juridiske-rammer-og-virkemidler-template.md`.
 - Nye ressurser innen `standarder og veiledning` skal lagres i `arkitektur/ressurser/normerende-ressurser/`, og nye ressurser innen `samhandlingsarenaer og organisering` skal lagres i `arkitektur/ressurser/samarbeidsfora/`.
 - Nye ressurser innen `økonomiske og juridiske rammer og virkemidler` skal lagres i `arkitektur/ressurser/rammer-og-virkemidler/` når klassifiseringen er vurdert mot styringsreglene.
+- `økonomiske og juridiske rammer og virkemidler` gjelder bare virkemidler som virker på digitalisering og digital samhandling i offentlig sektor, i tråd med at kapabilitetene ligger under `Nasjonal arkitektur for samhandling`. Ytelser, stønader, lån, stipend, tilskudd og rettigheter for en målgruppe, og sektorregelverk som bare regulerer sektorens egen virksomhet, tas ikke inn, selv om saksbehandlingen er digital. Se avgrensningen i `arkitektur/ressurser/styringsregler.md`.
 
 ## Produktbeskrivelser
 - Bruk alltid høyeste eksisterende versjonsnummer for et produkt som primært utgangspunkt, uavhengig av om siste versjon er laget av `copilot`, `chatgpt`, `claude`, eller annet verktøy.

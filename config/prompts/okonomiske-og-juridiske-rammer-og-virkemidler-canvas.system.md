@@ -8,6 +8,7 @@ Formål: Sikre lik, analysevennlig og beslutningsrelevant utfylling av ressursbe
 
 ### Trinn 1: Fastslå ressurskategori
 - Bruk `arkitektur/ressurser/styringsregler.md` til å avgjøre om ressursen hører til **økonomiske og juridiske rammer og virkemidler**.
+- Kontroller først avgrensningen i styringsreglene: virkemiddelet må virke på digitalisering, digital samhandling, deling av opplysninger, digital sikkerhet eller felles løsninger i offentlig sektor. Spør hva ressursen er et virkemiddel for. Er svaret et sektorformål for en målgruppe, som utdanning, helse, bolig eller inntektssikring, skal ressursen ikke tas inn. Stopp og rapporter det i stedet for å skrive fila. Det gjelder også ytelser, stønader, lån, stipend og tilskudd, selv om saksbehandlingen er digital eller automatisert.
 - Hvis ressursen i praksis er en gjenbrukbar løsning, bruk ikke denne prompten. Da gjelder `config/prompts/operative-ressurs-canvas.system.md`.
 - Hvis ressursen primært er en standard eller veileder, bruk `config/prompts/normerende-ressurs-canvas.system.md`.
 - Hvis ressursen primært er en samhandlingsarena, bruk `config/prompts/samarbeidsforum-canvas.system.md`.
