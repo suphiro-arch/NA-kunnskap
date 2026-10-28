@@ -58,6 +58,22 @@ def normalize(url: str) -> str:
     return url.rstrip(".,;:")
 
 
+def canonical(url: str) -> str:
+    """Sammenligningsform som ser bort fra protokoll, www-prefiks og avsluttende skraastrek.
+
+    Uten dette blir https://sikt.no/x og https://www.sikt.no/x/ rapportert som
+    uregistrert selv om samme side staar i sources/links.md, og stoeyen gjoer at
+    reelle mangler drukner i rapporten.
+    """
+    parts = urlsplit(url)
+    host = parts.netloc.lower()
+    if host.startswith("www."):
+        host = host[4:]
+    path = parts.path.rstrip("/")
+    query = "?" + parts.query if parts.query else ""
+    return host + path + query
+
+
 def load_registered_links() -> str:
     if not LINKS_FILE.exists():
         print("FEIL: finner ikke %s" % LINKS_FILE.relative_to(REPO_ROOT))
@@ -110,6 +126,9 @@ def main() -> int:
     args = parser.parse_args()
 
     registered = load_registered_links()
+    registered_canonical = {
+        canonical(normalize(u)) for u in URL_PATTERN.findall(registered)
+    }
     files = collect_resource_files(args.new_only)
 
     if not files:
@@ -128,7 +147,7 @@ def main() -> int:
             if is_technical_doc(url):
                 continue
             occurrences += 1
-            if url not in registered:
+            if url not in registered and canonical(url) not in registered_canonical:
                 missing[url].add(path.name)
 
     if not missing:

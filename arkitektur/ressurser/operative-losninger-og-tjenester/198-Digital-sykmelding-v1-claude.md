@@ -189,7 +189,7 @@ Spenningen ligger i overgangen og i avhengigheten av journalleverandørene. Meld
 - Digital sykmelding og dialogmeldinger – tekniske spesifikasjoner: https://www.nav.no/samarbeidspartner/digital-sykmelding-og-dialogmeldinger-tekniske-spesifikasjoner
 - Sykmelding for arbeidsgivere: https://www.nav.no/arbeidsgiver/sykmelding
 - Tilganger for arbeidsgivere: https://www.nav.no/arbeidsgiver/tilganger
-- Sykmelding for den sykmeldte: https://www.nav.no/sykmelding
+- Har blitt sykmeldt, for den sykmeldte: https://www.nav.no/sykmeldt
 - Skjema Sykmelding 2013 v1.4: https://github.com/navikt/Sykmelding_v1.4
 
 ## Kildegrunnlag brukt i utfyllingen
@@ -198,7 +198,7 @@ Hentet 2026-10-25:
 - Nav, Digital sykmelding og dialogmeldinger – tekniske spesifikasjoner: https://www.nav.no/samarbeidspartner/digital-sykmelding-og-dialogmeldinger-tekniske-spesifikasjoner
 - Nav, Sykmelding (for arbeidsgivere): https://www.nav.no/arbeidsgiver/sykmelding
 - Nav, Tilganger for arbeidsgivere: https://www.nav.no/arbeidsgiver/tilganger
-- Nav, Sykmelding (for den sykmeldte): https://www.nav.no/sykmelding
+- Nav, Sykmelding (for den sykmeldte): https://www.nav.no/sykmelding (viderekobler 2026-10-28 til sykepengesiden; siden for den sykmeldte er nå https://www.nav.no/sykmeldt)
 - Lovdata, forskrift om elektronisk kommunikasjon med Nav: https://lovdata.no/nav/forskrift/2009-10-02-1285
 - Lovdata, forskrift om unntak fra pålegg om elektronisk kommunikasjon: https://lovdata.no/nav/forskrift/2009-12-07-1480
 - GitHub, navikt/Sykmelding_v1.4: https://github.com/navikt/Sykmelding_v1.4

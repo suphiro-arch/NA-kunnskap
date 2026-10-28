@@ -32,8 +32,8 @@ stopp og spør.
 Primærskallet er PowerShell, ikke bash. Det slår ut på flere av verktøyene repoet bruker:
 
 ```powershell
-# encoding-kontroll (kjør alltid før commit)
-pwsh tools/check-mojibake.ps1
+# encoding-kontroll (kjør alltid før commit; pwsh er ikke installert på denne maskinen)
+.\tools\check-mojibake.ps1 -Root .
 
 # register og kapabilitetsmapping
 python tools/sync-resource-metadata.py --apply
@@ -45,6 +45,9 @@ python tools/check-capability-explanations.py --strict
 # strukturkontroll av ressursbeskrivelser mot malen
 python tools/check-resource-structure.py --strict
 
+# eksterne lenker i nye og endrede ressursfiler som mangler i sources/links.md
+python tools/check-source-links.py --new-only
+
 # syntakskontroll av innebygd JavaScript i Hugo-maler (krever node)
 python tools/check-inline-js.py --strict
 
@@ -54,6 +57,15 @@ python web/hugo-prototype/scripts/validate-text-encoding.py
 
 `&&` og `||` finnes ikke i Windows PowerShell 5.1. Bruk `;` eller `if ($?) { ... }`. Bash-verktøyet
 er også tilgjengelig hvis en POSIX-kommando er enklere — men da gjelder bash-syntaks fullt ut.
+
+Svarer `python` med en melding om Microsoft Store, er det bare app-aliaset som svarer. Bruk da
+`py` i stedet, for eksempel `py tools/check-source-links.py --new-only`. En kontroll som ikke
+starter, er ikke en kontroll som har bestått.
+
+Lenkekontrollen skriver bare rapport og avslutter alltid med 0 uten `--strict`. Les rapporten:
+hver lenke den lister for filene i kjøringen skal enten inn i `sources/links.md` eller nevnes med
+begrunnelse i oppsummeringen. Kjørt uten `--new-only` viser den også eldre, vurderte lenker, og da
+drukner det kjøringen selv har tilført.
 
 ## Encoding er ikke valgfritt
 

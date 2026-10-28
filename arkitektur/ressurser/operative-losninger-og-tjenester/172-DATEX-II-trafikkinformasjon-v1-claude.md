@@ -109,7 +109,7 @@ DATEX II er en europeisk standard for utveksling av trafikkinformasjon mellom ve
 ## Kanaler
 - Maskinelt grensesnitt: DATEX II 3.1-endepunkter for pull av øyeblikksbilder, med SOAP og WSDL tilgjengelig.
 - Tilgang krever bestilling og registrering som DATEX-bruker. Brukeren oppgir organisasjon, organisasjonsnummer og formål, godtar bruksvilkårene og får brukernavn og passord som er knyttet til DATEX-tjenesten.
-- Brukerflate: Vegvesen trafikk (dit.vegvesen.no) viser DATEX-data i kart. Trafikkinformasjonen finnes også som WMS- og WFS-kartlag.
+- Brukerflate: Vegvesen trafikk (vegvesen.no/trafikk) viser DATEX-data i kart. Trafikkinformasjonen finnes også som WMS- og WFS-kartlag.
 - Nyheter om DATEX publiseres i en RSS-strøm.
 
 ## Plattform
@@ -154,7 +154,7 @@ DATEX-dataene er åpne under NLOD, gratis og i et europeisk standardformat, men 
 - Engelsk versjon: https://www.vegvesen.no/en/fag/technology/open-data/a-selection-of-open-data/what-is-datex/
 - Spesifikasjoner for DATEX 3.1: https://git.vegvesen.no/projects/DATEX2/repos/datex2-spesifications/browse/3.1
 - Datasettoppføring: https://dataut.vegvesen.no/en/dataset/trafikkmeldinger/resource/542496d4-be2b-4053-8dff-e37d93e4a739
-- Vegvesen trafikk: https://dit.vegvesen.no/
+- Vegvesen trafikk: https://www.vegvesen.no/trafikk
 - DATEX II: https://datex2.eu/
 
 ## Kildegrunnlag brukt i utfyllingen

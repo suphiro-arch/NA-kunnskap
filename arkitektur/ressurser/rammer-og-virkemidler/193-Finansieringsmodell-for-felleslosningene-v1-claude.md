@@ -175,7 +175,7 @@ Spenning og begrensning: Brukerbetaling per transaksjon kan gjøre tjenestedesig
 - https://samarbeid.digdir.no/felleslosninger/ny-finansieringsmodell-felleslosningene/2711
 - https://samarbeid.digdir.no/eformidling/digdir-har-levert-forslag-til-nye-finansieringsmodeller/3291
 - https://samarbeid.digdir.no/felleslosninger/priser-pa-altinn-tjenester-2027-er-klare/3610
-- https://samarbeid.digdir.no/felleslosninger/faq-nye-priser-altinn/3604
+- https://samarbeid.digdir.no/felleslosninger/faq-og-informasjon-om-nye-priser-altinn-tjenester/3604
 - https://www.regjeringen.no/no/dokumenter/prop.-1-s-20262027/id3175298/
 
 ## Kildegrunnlag brukt i utfyllingen
@@ -189,5 +189,5 @@ Spenning og begrensning: Brukerbetaling per transaksjon kan gjøre tjenestedesig
 - https://samarbeid.digdir.no/altinn/status-i-arbeidet-med-ny-finansieringsmodell/2823 , status februar 2025, lest 2026-10-25
 - https://samarbeid.digdir.no/eformidling/digdir-har-levert-forslag-til-nye-finansieringsmodeller/3291 , forslag levert, opprettet 17. oktober 2025, lest 2026-10-25
 - https://samarbeid.digdir.no/felleslosninger/priser-pa-altinn-tjenester-2027-er-klare/3610 , publisert 29. april 2026, lest 2026-10-25
-- https://samarbeid.digdir.no/felleslosninger/faq-nye-priser-altinn/3604 , spørsmål og svar om priser for Altinn-tjenester, lest 2026-10-25
+- https://samarbeid.digdir.no/felleslosninger/faq-og-informasjon-om-nye-priser-altinn-tjenester/3604 , spørsmål og svar om priser for Altinn-tjenester, lest 2026-10-25
 - https://www.regjeringen.no/no/dokumenter/prop.-1-s-20262027/id3175298/ , Prop. 1 S (2026–2027) Digitaliserings- og forvaltningsdepartementet, kap. 1540 postene 01, 22, 23 og 29 og kap. 4540, lest 2026-10-25

@@ -180,7 +180,7 @@ eInnsyn er en felles publiserings- og innsynsplattform som samhandler med virkso
 - Lokal fil: `arkitektur/kapabiliteter/capabilities.yaml`
 - Lokal fil: `arkitektur/ressurser/produktnummerering.md`
 - Lokal fil: `sources/links.md`
-- Nettkilde: https://www.digdir.no/einnsyn/om-einnsyn/2262 (hentet 2026-03-17)
+- Nettkilde: https://www.digdir.no/einnsyn/om-einnsyn/2262 (hentet 2026-03-17; adressen viser 2026-10-28 til en annen Digdir-side og gjelder ikke lenger eInnsyn)
 - Nettkilde: https://docs.digdir.no/docs/eInnsyn/index.html (hentet 2026-03-17)
 - Nettkilde: https://samarbeid.digdir.no/einnsyn/dette-er-einnsyn/81 (hentet 2026-03-17)
 - Nettkilde: https://samarbeid.digdir.no/einnsyn/ta-i-bruk-einnsyn/99 (hentet 2026-03-17)
