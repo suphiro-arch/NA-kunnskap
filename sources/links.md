@@ -1,7 +1,7 @@
 # Nasjonale fellestjenester og felleskomponenter
 
 Formål: Samlet lenkeliste over nasjonale fellesløsninger, sektorkilder og relevante standarder og veiledningsressurser.
-Sist redigert: 2026-10-28.
+Sist redigert: 2026-11-10.
 
 ## Fellesløsninger
 
@@ -971,3 +971,5 @@ Sist redigert: 2026-10-28.
 - Slik fører tilsynet tilsyn med nettsteder og apper: https://www.uutilsynet.no/tilsyn/slik-forer-vi-tilsyn-med-nettsteder-og-apper/84 (lagt til 2026-09-04)
 - Testprosedyrer for nettsteder og apper: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader-og-appar/709 (lagt til 2026-09-04)
 - EUs webdirektiv (WAD): https://www.uutilsynet.no/webdirektivet-wad/eus-webdirektiv-wad/265 (lagt til 2026-09-04)
+- uustatus.no, løsning for tilgjengelighetserklæringer og leverandørvurderinger: https://uustatus.no/ (lagt til 2026-11-10)
+- Om tilgjengelighetserklæring: https://www.uutilsynet.no/tilgjengelighetserklaering/tilgjengelighetserklaering/1127 (lagt til 2026-11-10)

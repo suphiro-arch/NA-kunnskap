@@ -7244,6 +7244,26 @@
                     "explanation": "Fellestjenester BYGG gir alle konsesjonshavere de samme tjenestene for automatisk kontroll av søknaden mot regelverket, innsending, signering av erklæringer og nabovarsel, slik at forretningsreglene for byggesøknader ikke må bygges i hvert søknadssystem."
                 }
             ]
+        },
+        {
+            "product_id": 200,
+            "product_name": "uustatus.no",
+            "version": 0,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/200-Uustatus-no-v0-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/200-Uustatus-no-v0-claude.md",
+            "capabilities": [
+                {
+                    "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
+                    "capability_name": "Tjenesteutvikling",
+                    "capability_slug": "tjenesteutvikling",
+                    "subcapability_id": "id-f696350f5d844a96854deadb83bc3c81",
+                    "subcapability_name": "Gjenbrukbare tjenester",
+                    "subcapability_slug": "gjenbrukbare-tjenester",
+                    "mapping_label": "Tjenesteutvikling: Gjenbrukbare tjenester",
+                    "explanation": "Leverandørportalen lar en privat leverandør dokumentere én leverandørvurdering som flere offentlige kunder kan gjenbruke i egne tilgjengelighetserklæringer og anskaffelser, i stedet for at hver virksomhet bestiller eller gjennomfører egen vurdering av samme løsning."
+                }
+            ]
         }
     ]
 }

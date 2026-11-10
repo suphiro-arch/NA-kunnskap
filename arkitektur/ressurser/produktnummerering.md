@@ -151,6 +151,7 @@ En eierkode skal ikke endres etter at den er tatt i bruk, fordi den inngår i re
 | 179 | `DIGDIR-072` | Internkontroll i praksis – informasjonssikkerhet | Standarder og veiledning | Veiledning for styringssystem for informasjonssikkerhet | Styringssystem<br>Utvikling og formidling av veiledning | [Åpne](../../arkitektur/ressurser/normerende-ressurser/179-Internkontroll-i-praksis-informasjonssikkerhet-v1-claude.md) |
 | 183 | `DIGDIR-073` | Bruksvilkår for Digdirs fellesløsninger | Økonomiske og juridiske rammer og virkemidler | Avtaleverk for bruk av fellesløsninger | Tjenesteforvaltning | [Åpne](../../arkitektur/ressurser/rammer-og-virkemidler/183-Bruksvilkar-for-Digdirs-felleslosninger-v1-claude.md) |
 | 193 | `DIGDIR-074` | Finansieringsmodell for Digdirs fellesløsninger | Økonomiske og juridiske rammer og virkemidler | Kostnadsfordeling for drift og forvaltning av fellesløsninger | Finansiering | [Åpne](../../arkitektur/ressurser/rammer-og-virkemidler/193-Finansieringsmodell-for-felleslosningene-v1-claude.md) |
+| 200 | `DIGDIR-075` | uustatus.no | Gjenbrukbare løsninger | Verktøy for tilgjengelighetserklæringer og leverandørvurderinger | Gjenbrukbare tjenester | [Åpne](../../arkitektur/ressurser/operative-losninger-og-tjenester/200-Uustatus-no-v0-claude.md) |
 
 ## Brønnøysundregistrene (`BRREG`)
 
