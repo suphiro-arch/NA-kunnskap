@@ -47,7 +47,7 @@ Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vur
 
 `Datautveksling og integrasjon: Dele data med andre` og `Standardisering: Forvaltningsstandarder` er tatt ut. Den første gjelder evnen til å tilgjengeliggjøre egne data som sikre API-er, som realiseres av dataområdene og av virksomhetene som deltar, ikke av et kunnskapsgrunnlag om dem. Den andre gjelder implementering av nasjonale standarder, og kunnskapsgrunnlaget normerer ingen slike. Rettslig forankring finnes ikke, så `Juridisk samhandling` er ikke aktuell.
 
-- **Standardisering: EU standarder** realiseres ved at kunnskapsgrunnlaget gjør de felleseuropeiske dataområdene forståelige for norske virksomheter og viser hvor norske aktører deltar. Kapabiliteten omfatter å følge med på, vurdere og prioritere europeiske standarder og referansearkitekturer for dataområder i nasjonale tiltak, og kartleggingen av norsk deltakelse er nettopp dette grunnlaget.
+- **Standardisering: EU-standarder** realiseres ved at kunnskapsgrunnlaget gjør de felleseuropeiske dataområdene forståelige for norske virksomheter og viser hvor norske aktører deltar. Kapabiliteten omfatter å følge med på, vurdere og prioritere europeiske standarder og referansearkitekturer for dataområder i nasjonale tiltak, og kartleggingen av norsk deltakelse er nettopp dette grunnlaget.
 
 ## Målgruppe og brukere
 | Brukersegment | Primært behov | Bruksområde | Kommentar |

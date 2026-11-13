@@ -3,15 +3,15 @@ title: "Sammenhengende tjenester"
 headerTitle: "Sluttbrukertjenester - Sammenhengende tjenester"
 eyebrow: "Kapabilitet"
 weight: 1
-description: "Evne til å levere en digital brukerorienterte tjenester som fremstår som en logisk og uavbrutt prosess for brukeren, selv når den involverer og koordinerer handlinger og tjenester fra flere, uavhengige virksomheter. ### Begrunnelse (Hvorfor) Når digitale tjenester er splittet opp mellom ulike uavhengige etater, blir brukeren ofte stående som en manuell budbringer av egne data mellom systemene. Denne underkapabiliteten løser det funksjonelle problemet med fragmenterte brukeropplevelser, brutte digitale reiser og silobaserte prosesser. Den sikrer at den bakenforliggende kompleksiteten i forvaltningen skjules helt, slik at brukeren opplever en helhetlig offentlig sektor. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Harmoniserte avklaringsprosesser under forvaltningsloven og personopplysningsloven sikrer det rettslige fundamentet for tverretatlig datadeling. - **Organisatorisk (Svært høy vekt):** Utforming av tverrgående arbeidsprosesser understøtter en uavbrutt og guidet reise der brukeren ledes steg-for-steg uten å måtte forholde seg til statlige eller kommunale grenser. - **Semantisk (Middels vekt):** Operasjonalisering av \"kun én gang\"-prinsippet sikrer at oppgitte data gjenbrukes via felles informasjonsmodeller. - **Teknisk (Høy vekt):** Teknisk integrasjon via standardiserte grensesnitt (API-er) og fellesløsninger sikrer at data deles og gjenbrukes. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten er selve nøkkelen til at innbyggere og næringsliv skal oppleve forvaltningen som én samordnet aktør. Ved å binde uavhengige tjenester sammen til flytende kjeder, fjernes behovet for at brukeren må gjenta informasjon eller lete etter neste steg. Dette reduserer tidsbruk og feil, noe som gir et mer ressurseffektivt felles økosystem."
-cardMeta: "30 produkter"
+description: "Evne til å levere brukerorienterte digitale tjenester som fremstår som en logisk og uavbrutt prosess for brukeren, selv når den involverer og koordinerer handlinger og tjenester fra flere, uavhengige virksomheter. ### Begrunnelse (Hvorfor) Når digitale tjenester er splittet opp mellom ulike uavhengige etater, blir brukeren ofte stående som en manuell budbringer av egne data mellom systemene. Denne underkapabiliteten løser det funksjonelle problemet med fragmenterte brukeropplevelser, brutte digitale reiser og silobaserte prosesser. Den sikrer at den bakenforliggende kompleksiteten i forvaltningen skjules helt, slik at brukeren opplever en helhetlig offentlig sektor. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Harmoniserte avklaringsprosesser under forvaltningsloven og personopplysningsloven sikrer det rettslige fundamentet for tverretatlig datadeling. - **Organisatorisk (Svært høy vekt):** Utforming av tverrgående arbeidsprosesser understøtter en uavbrutt og guidet reise der brukeren ledes steg-for-steg uten å måtte forholde seg til statlige eller kommunale grenser. - **Semantisk (Høy vekt):** Operasjonalisering av \"kun én gang\"-prinsippet sikrer at oppgitte data gjenbrukes via felles informasjonsmodeller. - **Teknisk (Høy vekt):** Teknisk integrasjon via standardiserte grensesnitt (API-er) og fellesløsninger sikrer at data deles og gjenbrukes. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten er selve nøkkelen til at innbyggere og næringsliv skal oppleve forvaltningen som én samordnet aktør. Ved å binde uavhengige tjenester sammen til flytende kjeder, fjernes behovet for at brukeren må gjenta informasjon eller lete etter neste steg. Dette reduserer tidsbruk og feil, noe som gir et mer ressurseffektivt felles økosystem."
+cardMeta: "31 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
   <div class="capability-product-links">
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/06-eInnsyn-produkt-canvas-v3-codex.md">eInnsyn</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/06-eInnsyn-produkt-canvas-v4-claude.md">eInnsyn</a></h3>
       <p class="capability-product-link__description">gir brukerne ett felles sted å lete etter offentlig informasjon på tvers av mange virksomheter, i stedet for mange separate innsynsløsninger.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
@@ -36,7 +36,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/27-FIKS-SvarUt-produkt-canvas-v4-claude.md">Fiks SvarUt</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/27-FIKS-SvarUt-produkt-canvas-v5-claude.md">Fiks SvarUt</a></h3>
       <p class="capability-product-link__description">Fiks SvarUt bidrar til en mer sammenhengende mottakeropplevelse ved at samme forsendelse kan nå fram gjennom riktig kanal uten at avsender bygger ulike løsninger per kanal.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
@@ -46,7 +46,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/32-Helsenorge-v3-claude.md">Helsenorge</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/32-Helsenorge-v4-claude.md">Helsenorge</a></h3>
       <p class="capability-product-link__description">samler flere helsetjenester og informasjonsløp i én felles inngang for innbyggere.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
@@ -66,7 +66,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v3-claude.md">VIGO</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v4-claude.md">VIGO</a></h3>
       <p class="capability-product-link__description">Løsningen kobler sammen søknad, inntak, fagopplæring og oppfølging i et samlet sektorløp.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
@@ -86,7 +86,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/93-Fiks-Digisos-produkt-canvas-v1-codex.md">Fiks digisos</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/93-Fiks-Digisos-produkt-canvas-v2-claude.md">Fiks digisos</a></h3>
       <p class="capability-product-link__description">Søker kan sende søknad, ettersende dokumentasjon og følge saksgang i en sammenhengende brukerreise på nav.no.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
@@ -131,12 +131,12 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/156-DigiHelsestasjon-v1-claude.md">DigiHelsestasjon</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/156-DigiHelsestasjon-v2-claude.md">DigiHelsestasjon</a></h3>
       <p class="capability-product-link__description">Løsningen gir innbyggeren én kjent inngang til tre ulike kommunale helsetjenester gjennom en nasjonal flate, framfor lokale kanaler som varierer mellom kommuner.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/157-ung-no-v1-claude.md">ung.no</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/157-ung-no-v2-claude.md">ung.no</a></h3>
       <p class="capability-product-link__description">Tjenesten samler informasjon og tjenester fra mange offentlige virksomheter i én flate, slik at ungdom ikke må vite hvilken etat som har ansvaret for hva.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
@@ -159,7 +159,12 @@ productsMarkdown: |
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/165-Arbeidsflate-v1-claude.md">Arbeidsflate</a></h3>
       <p class="capability-product-link__description">Arbeidsflate samler meldinger, oppgaver og dialoger fra mange offentlige virksomheter i én oversikt, slik at brukeren slipper å oppsøke hver enkelt etat for å se hva som venter. Der Dialogporten gjør dialogene tilgjengelige i et felles format, er det Arbeidsflate som gir brukeren den samlede flaten.</p>
     </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/198-Digital-sykmelding-v1-claude.md">Digital sykmelding</a></h3>
+      <p class="capability-product-link__description">Sykmeldingen følger den sykmeldte fra behandleren via Nav til arbeidsgiveren uten at den sykmeldte må bære papirkopier mellom aktørene, og arbeidsgiveren mottar en versjon uten medisinske opplysninger.</p>
+    </article>
   </div>
 ---
 
-Evne til å levere en digital brukerorienterte tjenester som fremstår som en logisk og uavbrutt prosess for brukeren, selv når den involverer og koordinerer handlinger og tjenester fra flere, uavhengige virksomheter. ### Begrunnelse (Hvorfor) Når digitale tjenester er splittet opp mellom ulike uavhengige etater, blir brukeren ofte stående som en manuell budbringer av egne data mellom systemene. Denne underkapabiliteten løser det funksjonelle problemet med fragmenterte brukeropplevelser, brutte digitale reiser og silobaserte prosesser. Den sikrer at den bakenforliggende kompleksiteten i forvaltningen skjules helt, slik at brukeren opplever en helhetlig offentlig sektor. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Harmoniserte avklaringsprosesser under forvaltningsloven og personopplysningsloven sikrer det rettslige fundamentet for tverretatlig datadeling. - **Organisatorisk (Svært høy vekt):** Utforming av tverrgående arbeidsprosesser understøtter en uavbrutt og guidet reise der brukeren ledes steg-for-steg uten å måtte forholde seg til statlige eller kommunale grenser. - **Semantisk (Middels vekt):** Operasjonalisering av "kun én gang"-prinsippet sikrer at oppgitte data gjenbrukes via felles informasjonsmodeller. - **Teknisk (Høy vekt):** Teknisk integrasjon via standardiserte grensesnitt (API-er) og fellesløsninger sikrer at data deles og gjenbrukes. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten er selve nøkkelen til at innbyggere og næringsliv skal oppleve forvaltningen som én samordnet aktør. Ved å binde uavhengige tjenester sammen til flytende kjeder, fjernes behovet for at brukeren må gjenta informasjon eller lete etter neste steg. Dette reduserer tidsbruk og feil, noe som gir et mer ressurseffektivt felles økosystem.
+Evne til å levere brukerorienterte digitale tjenester som fremstår som en logisk og uavbrutt prosess for brukeren, selv når den involverer og koordinerer handlinger og tjenester fra flere, uavhengige virksomheter. ### Begrunnelse (Hvorfor) Når digitale tjenester er splittet opp mellom ulike uavhengige etater, blir brukeren ofte stående som en manuell budbringer av egne data mellom systemene. Denne underkapabiliteten løser det funksjonelle problemet med fragmenterte brukeropplevelser, brutte digitale reiser og silobaserte prosesser. Den sikrer at den bakenforliggende kompleksiteten i forvaltningen skjules helt, slik at brukeren opplever en helhetlig offentlig sektor. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Harmoniserte avklaringsprosesser under forvaltningsloven og personopplysningsloven sikrer det rettslige fundamentet for tverretatlig datadeling. - **Organisatorisk (Svært høy vekt):** Utforming av tverrgående arbeidsprosesser understøtter en uavbrutt og guidet reise der brukeren ledes steg-for-steg uten å måtte forholde seg til statlige eller kommunale grenser. - **Semantisk (Høy vekt):** Operasjonalisering av "kun én gang"-prinsippet sikrer at oppgitte data gjenbrukes via felles informasjonsmodeller. - **Teknisk (Høy vekt):** Teknisk integrasjon via standardiserte grensesnitt (API-er) og fellesløsninger sikrer at data deles og gjenbrukes. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten er selve nøkkelen til at innbyggere og næringsliv skal oppleve forvaltningen som én samordnet aktør. Ved å binde uavhengige tjenester sammen til flytende kjeder, fjernes behovet for at brukeren må gjenta informasjon eller lete etter neste steg. Dette reduserer tidsbruk og feil, noe som gir et mer ressurseffektivt felles økosystem.

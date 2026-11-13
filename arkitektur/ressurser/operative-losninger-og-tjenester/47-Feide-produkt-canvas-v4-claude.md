@@ -25,9 +25,9 @@ Kontrollen over hvilke opplysninger en tjeneste får, ligger hos dataeier. I kun
 ## Kapabiliteter
 - **Datautveksling og integrasjon: Dele data med andre** gjør det mulig å dele nødvendige identitets- og organisasjonsopplysninger fra vertsorganisasjonen til tilknyttede tjenester på en kontrollert måte.
 - **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** beskytter påloggingsflyt, tokenutstedelse og overføring av brukeropplysninger mellom vertsorganisasjoner og tjenesteleverandører.
-- **Tillit: Autentisering** er kjernefunksjonen og gjør det mulig å bekrefte identiteten til brukere på tvers av mange tjenester i sektoren.
-- **Tillit: Tilgangskontroll** håndhever ved hvert innloggings- og datauttrekk hvilke tjenester som får hvilke opplysninger, etter tilgangsnivået dataeier har satt i kundeportalen: fri tilgang innvilges automatisk, mens nivåer som krever godkjenning må godkjennes eller avslås av dataeier før tjenesten slipper til.
-- **Tillit: Tilgangsstyring** realiseres i kundeportalen, der dataeier setter tilgangsnivå per datakilde og godkjenner eller avslår forespørsler fra tjenester. Dette er forvaltningen av rettighetene som Tilgangskontroll deretter håndhever ved hver innlogging og hvert datauttrekk.
+- **Digital tillit: Autentisering** er kjernefunksjonen og gjør det mulig å bekrefte identiteten til brukere på tvers av mange tjenester i sektoren.
+- **Digital tillit: Tilgangskontroll** håndhever ved hvert innloggings- og datauttrekk hvilke tjenester som får hvilke opplysninger, etter tilgangsnivået dataeier har satt i kundeportalen: fri tilgang innvilges automatisk, mens nivåer som krever godkjenning må godkjennes eller avslås av dataeier før tjenesten slipper til.
+- **Digital tillit: Tilgangsstyring** realiseres i kundeportalen, der dataeier setter tilgangsnivå per datakilde og godkjenner eller avslår forespørsler fra tjenester. Dette er forvaltningen av rettighetene som Tilgangskontroll deretter håndhever ved hver innlogging og hvert datauttrekk.
 
 ## Produktmål
 **Primærkilder:** Feide `Om Feide`, Sikts tjenesteside for Feide og Feides prisside.

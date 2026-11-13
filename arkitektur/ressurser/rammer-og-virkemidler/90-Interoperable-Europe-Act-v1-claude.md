@@ -50,7 +50,7 @@ Koblingene er satt fordi forordningen selv skaper pliktene, organene og rammever
 - **Strategisk styring: Arkitekturstyring**
   gjør samhandlingsevne til et forpliktende rammeverk med vurderingsplikt, styre og felles rammeverk, framfor et faglig råd uten konsekvens.
 
-- **Standardisering: EU standarder**
+- **Standardisering: EU-standarder**
   gir hjemmelen for anerkjennelsesordningen for Interoperable Europe-løsninger og for det europeiske rammeverket for interoperabilitet, og gjør det dermed forpliktende å vurdere europeiske standarder.
 
 - **Samarbeid: Samarbeidsarenaer og nettverk**

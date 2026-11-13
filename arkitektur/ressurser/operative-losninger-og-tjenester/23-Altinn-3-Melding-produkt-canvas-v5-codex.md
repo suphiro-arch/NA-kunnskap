@@ -28,8 +28,8 @@ Produktet har både en tjenesteflate og en integrasjonsflate. Tjenesteflaten bes
 - **Datautveksling og integrasjon: Hendelsesdrevet** støtter abonnementer og oppfølging av hendelser knyttet til sendte meldinger.
 - **Datautveksling og integrasjon: Meldingsutveksling** håndterer sikker digital utsending og mottak av meldinger med status og livssyklus.
 - **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** beskytter innhold, vedlegg og overføringer i meldingsflyten.
-- **Tillit: Sporbarhet og innsyn** understøttes gjennom omfattende logging av hendelser og prosesser.
-- **Tillit: Tilgangskontroll** sørger for at kun autoriserte brukere og systemer får tilgang til meldinger og vedlegg.
+- **Digital tillit: Sporbarhet og innsyn** understøttes gjennom omfattende logging av hendelser og prosesser.
+- **Digital tillit: Tilgangskontroll** sørger for at kun autoriserte brukere og systemer får tilgang til meldinger og vedlegg.
 - **Tjenesteutvikling: Integrerbare tjenester** tilbyr API-er for sending, mottak og automatisert meldingshåndtering.
 
 ## Produktmål

@@ -3,8 +3,8 @@ title: "Samarbeidsarenaer og nettverk"
 headerTitle: "Samarbeid - Samarbeidsarenaer og nettverk"
 eyebrow: "Kapabilitet"
 weight: 2
-description: "Evne til å effektivisere, etablere, forvalte og fasilitere arenaer, nettverk og prosesser som fremmer kunnskapsdeling, dialog og samordning på tvers av virksomheter i økosystemet. ### Begrunnelse (Hvorfor) Sammenhengende tjenester kan ikke bygges i isolasjon. Aktørene i økosystemet må møtes for å dele erfaringer, løse felles utfordringer og samordne planer. Denne kapabiliteten sikrer velfungerende møteplasser som reduserer dobbeltarbeid, motvirker silotenking og gjør det mulig å koordinere utvikling på tvers av virksomheter. ### Hva det innebærer (Omfang) - **Organisatorisk (Svært høy vekt):** Sette opp og drifte konkrete nettverk, faggrupper og forum. Avklare roller, mandater og spilleregler for deltakelse, samt sikre at arbeidet er forankret hos ledelsen i virksomhetene. - **Semantisk (Middels vekt):** Bruke arenaene til å bygge felles kultur, terminologi og forståelse mellom arkitekter, jurister, utviklere og fagmiljøer fra ulike sektorer. ### Bidrag til sammenhengende tjenester og felles økosystem Når fagfolk møtes på tvers av organisasjoner, blir det lettere å oppdage hvor tjenester berører hverandre. Arenaene bidrar til å identifisere nye tverrgående brukerreiser, dele erfaringer og koordinere endringer i økosystemet. Dette gir bedre grunnlag for sammenhengende tjenester og gjør at virksomhetene kan utvikle løsninger som henger bedre sammen for sluttbrukeren."
-cardMeta: "14 produkter"
+description: "Evne til å etablere, forvalte og fasilitere arenaer, nettverk og prosesser som fremmer kunnskapsdeling, dialog og samordning på tvers av virksomheter i økosystemet. ### Begrunnelse (Hvorfor) Sammenhengende tjenester kan ikke bygges i isolasjon. Aktørene i økosystemet må møtes for å dele erfaringer, løse felles utfordringer og samordne planer. Denne kapabiliteten sikrer velfungerende møteplasser som reduserer dobbeltarbeid, motvirker silotenking og gjør det mulig å koordinere utvikling på tvers av virksomheter. ### Hva det innebærer (Omfang) - **Juridisk (Ikke relevant):** Arenaer og nettverk er frivillige samarbeidsformer uten egne juridiske forpliktelser. - **Organisatorisk (Svært høy vekt):** Sette opp og drifte konkrete nettverk, faggrupper og forum. Avklare roller, mandater og spilleregler for deltakelse, samt sikre at arbeidet er forankret hos ledelsen i virksomhetene. - **Semantisk (Middels vekt):** Bruke arenaene til å bygge felles kultur, terminologi og forståelse mellom arkitekter, jurister, utviklere og fagmiljøer fra ulike sektorer. - **Teknisk (Ikke relevant):** Kapabiliteten handler om møteplasser og faglige nettverk, ikke om tekniske løsninger. ### Bidrag til sammenhengende tjenester og felles økosystem Når fagfolk møtes på tvers av organisasjoner, blir det lettere å oppdage hvor tjenester berører hverandre. Arenaene bidrar til å identifisere nye tverrgående brukerreiser, dele erfaringer og koordinere endringer i økosystemet. Dette gir bedre grunnlag for sammenhengende tjenester og gjør at virksomhetene kan utvikle løsninger som henger bedre sammen for sluttbrukeren."
+cardMeta: "17 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -31,7 +31,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v5-claude.md">Styringsråd for Digitaliseringsdirektoratets fellesløsninger</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v6-claude.md">Styringsråd for Digitaliseringsdirektoratets fellesløsninger</a></h3>
       <p class="capability-product-link__description">støttes fordi rådet er en fast og formalisert arena for samordning mellom forvalter, tjenesteeiermiljøer og interessenter rundt fellesløsningene.</p>
     </article>
     <article class="capability-product-link resource-type--forum">
@@ -51,7 +51,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v2-claude.md">Felles sikkerhet i forvaltningen</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v3-claude.md">Felles sikkerhet i forvaltningen</a></h3>
       <p class="capability-product-link__description">Samarbeidet samler sentrale aktører fra stat og kommune for å utvikle felles retning og koordinert oppfølging.</p>
     </article>
     <article class="capability-product-link resource-type--forum">
@@ -61,7 +61,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/127-Samarbeidsportalen-produkt-canvas-v2-codex.md">Samarbeidsportalen</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/127-Samarbeidsportalen-produkt-canvas-v3-claude.md">Samarbeidsportalen</a></h3>
       <p class="capability-product-link__description">Ressursen bidrar også til samhandling på tvers ved å synliggjøre prosjekter, arrangementer, nyheter og kundedialog rundt fellesløsningene.</p>
     </article>
     <article class="capability-product-link resource-type--forum">
@@ -79,7 +79,22 @@ productsMarkdown: |
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/163-DigiUng-v1-claude.md">DigiUng</a></h3>
       <p class="capability-product-link__description">Fageierforum og prosjektportefølje er de konkrete arenaene der deltakerne møtes og forpliktelsen etableres.</p>
     </article>
+    <article class="capability-product-link resource-type--forum">
+      <p class="capability-product-link__type">Samarbeidsforum</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/181-Norge-digitalt-v1-claude.md">Norge digitalt</a></h3>
+      <p class="capability-product-link__description">Norge digitalt etablerer og forvalter en fast arena for rundt 495 parter fra stat, fylke, kommune og enkelte private virksomheter, med samordningsgruppe, styre, fagforum og fylkesvise utvalg der partene koordinerer arbeidet med geografisk informasjon.</p>
+    </article>
+    <article class="capability-product-link resource-type--forum">
+      <p class="capability-product-link__type">Samarbeidsforum</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/188-Konsultasjonsordningen-v1-claude.md">Konsultasjonsordningen mellom staten og kommunesektoren</a></h3>
+      <p class="capability-product-link__description">Konsultasjonsordningen etablerer og forvalter den faste politiske og administrative arenaen der regjeringen og KS møtes gjennom året, med to faste konsultasjonsmøter, eget møte om digitalisering, bilaterale møter med fagdepartementene og et felles sekretariat.</p>
+    </article>
+    <article class="capability-product-link resource-type--forum">
+      <p class="capability-product-link__type">Samarbeidsforum</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/197-Regionale-digitaliseringsnettverk-v2-claude.md">Regionale digitaliseringsnettverk</a></h3>
+      <p class="capability-product-link__description">Nettverkene etablerer og driver de regionale arenaene der kommuner og fylkeskommuner deler erfaringer, bygger kompetanse og organiserer faggrupper som kan speile den nasjonale samstyringsstrukturen.</p>
+    </article>
   </div>
 ---
 
-Evne til å effektivisere, etablere, forvalte og fasilitere arenaer, nettverk og prosesser som fremmer kunnskapsdeling, dialog og samordning på tvers av virksomheter i økosystemet. ### Begrunnelse (Hvorfor) Sammenhengende tjenester kan ikke bygges i isolasjon. Aktørene i økosystemet må møtes for å dele erfaringer, løse felles utfordringer og samordne planer. Denne kapabiliteten sikrer velfungerende møteplasser som reduserer dobbeltarbeid, motvirker silotenking og gjør det mulig å koordinere utvikling på tvers av virksomheter. ### Hva det innebærer (Omfang) - **Organisatorisk (Svært høy vekt):** Sette opp og drifte konkrete nettverk, faggrupper og forum. Avklare roller, mandater og spilleregler for deltakelse, samt sikre at arbeidet er forankret hos ledelsen i virksomhetene. - **Semantisk (Middels vekt):** Bruke arenaene til å bygge felles kultur, terminologi og forståelse mellom arkitekter, jurister, utviklere og fagmiljøer fra ulike sektorer. ### Bidrag til sammenhengende tjenester og felles økosystem Når fagfolk møtes på tvers av organisasjoner, blir det lettere å oppdage hvor tjenester berører hverandre. Arenaene bidrar til å identifisere nye tverrgående brukerreiser, dele erfaringer og koordinere endringer i økosystemet. Dette gir bedre grunnlag for sammenhengende tjenester og gjør at virksomhetene kan utvikle løsninger som henger bedre sammen for sluttbrukeren.
+Evne til å etablere, forvalte og fasilitere arenaer, nettverk og prosesser som fremmer kunnskapsdeling, dialog og samordning på tvers av virksomheter i økosystemet. ### Begrunnelse (Hvorfor) Sammenhengende tjenester kan ikke bygges i isolasjon. Aktørene i økosystemet må møtes for å dele erfaringer, løse felles utfordringer og samordne planer. Denne kapabiliteten sikrer velfungerende møteplasser som reduserer dobbeltarbeid, motvirker silotenking og gjør det mulig å koordinere utvikling på tvers av virksomheter. ### Hva det innebærer (Omfang) - **Juridisk (Ikke relevant):** Arenaer og nettverk er frivillige samarbeidsformer uten egne juridiske forpliktelser. - **Organisatorisk (Svært høy vekt):** Sette opp og drifte konkrete nettverk, faggrupper og forum. Avklare roller, mandater og spilleregler for deltakelse, samt sikre at arbeidet er forankret hos ledelsen i virksomhetene. - **Semantisk (Middels vekt):** Bruke arenaene til å bygge felles kultur, terminologi og forståelse mellom arkitekter, jurister, utviklere og fagmiljøer fra ulike sektorer. - **Teknisk (Ikke relevant):** Kapabiliteten handler om møteplasser og faglige nettverk, ikke om tekniske løsninger. ### Bidrag til sammenhengende tjenester og felles økosystem Når fagfolk møtes på tvers av organisasjoner, blir det lettere å oppdage hvor tjenester berører hverandre. Arenaene bidrar til å identifisere nye tverrgående brukerreiser, dele erfaringer og koordinere endringer i økosystemet. Dette gir bedre grunnlag for sammenhengende tjenester og gjør at virksomhetene kan utvikle løsninger som henger bedre sammen for sluttbrukeren.

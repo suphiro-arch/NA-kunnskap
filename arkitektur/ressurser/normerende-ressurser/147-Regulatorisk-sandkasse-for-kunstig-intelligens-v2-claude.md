@@ -46,7 +46,7 @@ Koblingene er satt fordi sandkassen selv produserer både tolkningen og veiledni
 - **Veiledning: Utvikling og formidling av veiledning**
   Sandkassen utvikler og publiserer veiledningsmateriale om personvern i KI-løsninger gjennom sluttrapporter fra hvert prosjekt, og gjør enkeltvurderinger tilgjengelige som eksempelmateriale for andre.
 
-- **Juridisk samhandling: Regelverkstolkning**
+- **Regelverk og rettslig grunnlag: Regelverkstolkning**
   Kjernen i tjenesten er å tolke personvernregelverket for konkrete KI-anvendelser, og gjøre tolkningen tilgjengelig for andre. Datatilsynet er personvernmyndighet, og tolkningen har derfor autoritet ut over en ordinær faglig vurdering.
 
 ## Målgruppe og brukere

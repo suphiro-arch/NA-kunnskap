@@ -37,7 +37,7 @@ Etterlevelse skjer i praksis gjennom arkitekturarbeid og anskaffelser. En virkso
 ## Kapabiliteter
 Koblingene er satt fordi katalogen selv leverer oversikten og anerkjennelsen. Løsningene den viser til, forvaltes av andre, og evnene de leverer hører hos dem. Forholdet til forordningen som hjemler anerkjennelsesordningen, er beskrevet under `Relasjon til andre ressurser`.
 
-- **Standardisering: EU standarder**
+- **Standardisering: EU-standarder**
   gir en samlet, søkbar inngang til de europeiske spesifikasjonene, vokabularene og rammeverkene som faktisk skal tas i bruk, med en anerkjennelsesordning som skiller anbefalte løsninger fra øvrige oppføringer.
 
 - **Tjenesteutvikling: Gjenbrukbare tjenester**

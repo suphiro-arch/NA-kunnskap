@@ -21,10 +21,10 @@ MinID bør forstås som en eID/tillitstjeneste, ikke som en generell innloggings
 - **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling**  
   MinID bidrar til å beskytte innloggingsflyten gjennom kontrollert autentisering, tofaktorautentisering og et dokumentert sikkerhetsnivå. Dette reduserer risikoen for at offentlige tjenester baserer seg på svake eller uensartede innloggingsmekanismer.
 
-- **Tillit: Autentisering**  
+- **Digital tillit: Autentisering**  
   MinID er direkte knyttet til autentisering av personer. Den gjør det mulig å bekrefte at brukeren kontrollerer en personlig eID før tilgang til en offentlig digital tjeneste gis.
 
-- **Tillit: Identifisering**  
+- **Digital tillit: Identifisering**  
   MinID knytter innloggingen til en identifisert person og gir offentlige tjenester et felles grunnlag for å vite hvem brukeren er. Dette er særlig viktig i tjenester der virksomheten må skille mellom anonyme besøk og tjenester som krever kjent bruker.
 
 ## Produktmål

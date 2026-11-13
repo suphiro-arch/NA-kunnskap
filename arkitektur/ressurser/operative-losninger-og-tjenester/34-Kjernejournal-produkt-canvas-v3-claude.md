@@ -29,8 +29,8 @@ Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vur
 - **Datautveksling og integrasjon: Bruke data fra andre** gjør det mulig å sammenstille og bruke relevante helseopplysninger fra flere kilder i én behandlingssituasjon.
 - **Datautveksling og integrasjon: Dele data med andre** gjør utvalgte opplysninger tilgjengelige for andre behandlingssteder som trenger dem for å yte helsehjelp.
 - **Samarbeid: Organisatorisk samhandling** støtter samhandling mellom helsevirksomheter som ellers ville vært avhengige av mer fragmentert informasjonsdeling.
-- **Tillit: Sporbarhet og innsyn** dokumenterer hvert oppslag i en bruksslogg som pasienten har rett til å se etter kjernejournalforskriften § 6, slik at bruken av opplysningene kan etterprøves.
-- **Tillit: Tilgangskontroll** håndhever ved hvert oppslag at bare helsepersonell med tjenstlig behov får tilgang, og at pasientens sperring eller blokkering av bestemte deler eller bestemte personer respekteres.
+- **Digital tillit: Sporbarhet og innsyn** dokumenterer hvert oppslag i en bruksslogg som pasienten har rett til å se etter kjernejournalforskriften § 6, slik at bruken av opplysningene kan etterprøves.
+- **Digital tillit: Tilgangskontroll** håndhever ved hvert oppslag at bare helsepersonell med tjenstlig behov får tilgang, og at pasientens sperring eller blokkering av bestemte deler eller bestemte personer respekteres.
 
 ## Produktmål
 Dokumenterte og tydelig utledbare mål for ressursen er å:

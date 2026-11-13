@@ -39,7 +39,7 @@ Unntak håndteres ulikt i de to sektorene. Offentlige virksomheter vurderer selv
 Etterlevelse skjer gjennom tilsyn, kontroll og oppfølging av vedtak, ikke gjennom styringsdialog eller frivillig rapportering.
 
 ## Kapabiliteter
-- **Juridisk samhandling: Regelverkstolkning**
+- **Regelverk og rettslig grunnlag: Regelverkstolkning**
   Tilsynet gir felles, autoritativ tolkning av hva kravene betyr i praksis, blant annet gjennom publiserte testprosedyrer for nettsteder og apper og gjennom tilsynsrapporter som viser hvordan enkeltkrav vurderes.
 
 - **Veiledning: Utvikling og formidling av veiledning**

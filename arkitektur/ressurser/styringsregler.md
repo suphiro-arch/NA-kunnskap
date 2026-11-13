@@ -112,10 +112,11 @@ Presisering:
 - denne kategorien kan inkludere både finansielle og regulative virkemidler
 
 Avgrensning: virkemiddelet må virke på digital samhandling.
-- Kapabilitetene i kategorien, særlig `Strategisk styring: Finansiering` og `Juridisk samhandling`, er
-  delkapabiliteter under `Nasjonal arkitektur for samhandling` i `capabilities.yaml`. `Finansiering`
-  er evnen til å styre digitalisering med finansielle virkemidler, og `Juridisk samhandling` er
-  rammeverket som muliggjør og regulerer digital samhandling. En ressurs hører derfor bare hjemme her
+- Kapabilitetene i kategorien, særlig `Strategisk styring: Finansiering` og `Regelverk og rettslig
+  grunnlag`, er delkapabiliteter under `Nasjonal arkitektur for samhandling` i `capabilities.yaml`.
+  `Finansiering` er evnen til å styre digitalisering med finansielle virkemidler, og `Regelverk og
+  rettslig grunnlag` er evnen til å utvikle, forvalte, tolke og anvende regelverk som gir rettslig
+  grunnlag for digital samhandling. En ressurs hører derfor bare hjemme her
   når virkemiddelet virker på digitalisering, digital samhandling, deling av opplysninger, digital
   sikkerhet eller felles løsninger i offentlig sektor.
 - Still spørsmålet: hva er dette et virkemiddel for? Er svaret et sektorformål for en målgruppe,

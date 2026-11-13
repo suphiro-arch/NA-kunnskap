@@ -27,10 +27,10 @@ Produktet er derfor bredere enn en ren tilgangskontrollmotor. Dokumentasjonen vi
 Samtykke er en egen tilgangsform i produktet, ved siden av delegering og rettigheter. Tjenesteeier oppretter en samtykkeressurs i ressursregisteret og bestemmer hva som kan deles og hvor lenge samtykket er gyldig. Datakonsumenten ber om samtykke, sluttbrukeren sendes til Altinn for å godkjenne eller avslå, og resultatet hentes som samtykketoken gjennom `Maskinporten`.
 
 ## Kapabiliteter
-- **Tillit: Representasjon** gjør det mulig å opptre på vegne av virksomhet eller annen part gjennom delegering og valg av hvem man handler for.
-- **Tillit: Tilgangskontroll** er produktets kjernefunksjon og avgjør om brukere og systemer kan utføre en operasjon på en ressurs.
-- **Tillit: Samtykke** gir mekanismer for å definere en samtykkeressurs, innhente sluttbrukerens godkjenning, sette gyldighetstid, avslå, og gjøre resultatet tilgjengelig som samtykketoken for datakonsumenten.
-- **Tillit: Tilgangsstyring** gir mekanismer for å registrere ressurser, definere policyer, administrere rettigheter og forvalte tilganger over tid.
+- **Digital tillit: Representasjon** gjør det mulig å opptre på vegne av virksomhet eller annen part gjennom delegering og valg av hvem man handler for.
+- **Digital tillit: Tilgangskontroll** er produktets kjernefunksjon og avgjør om brukere og systemer kan utføre en operasjon på en ressurs.
+- **Digital tillit: Samtykke** gir mekanismer for å definere en samtykkeressurs, innhente sluttbrukerens godkjenning, sette gyldighetstid, avslå, og gjøre resultatet tilgjengelig som samtykketoken for datakonsumenten.
+- **Digital tillit: Tilgangsstyring** gir mekanismer for å registrere ressurser, definere policyer, administrere rettigheter og forvalte tilganger over tid.
 
 ## Produktmål
 **Primærkilder:** Altinn Authorization-dokumentasjonen, «About», «What do you get?» og referansearkitektur.

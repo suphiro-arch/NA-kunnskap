@@ -4,14 +4,14 @@ headerTitle: "Informasjonssikkerhet - Sikring av informasjonsflyt og datautveksl
 eyebrow: "Kapabilitet"
 weight: 2
 description: "Evne til å sikre at informasjon som utveksles mellom virksomheter er beskyttet mot innsyn og manipulering, og at dataflyten er kontrollert gjennom nødvendige tekniske og organisatoriske tiltak. Dette innebærer: * Det offentlige skal kunne garantere at dataene er trygge når de sendes fra ett system til et annet. * Konfidensialitet: Informasjonen krypteres og sikres slik at uvedkommende ikke kan lese dataene. * Integritet: Det brukes tekniske mekanismer som oppdager og hindrer at dataene blir endret, slettet eller manipulert på veien fra avsender til mottaker. * Trafikkstyring: Virksomhetene har kontroll på nøyaktig hvor dataene sendes, hvem som har lov til å motta dem ### Begrunnelse (Hvorfor) Kapabiliteten sikrer at det offentlige kan garantere at dataene er trygge når de sendes fra ett system til et annet. Den løser behovet for kontrollert og sikker informasjonsflyt mellom virksomheter, slik at data ikke blir lest, endret, slettet eller manipulert av uvedkommende under utveksling. Kapabiliteten er nødvendig for å opprettholde tillit til digital samhandling, særlig når informasjon deles på tvers av virksomheter, sektorer og tjenestekjeder. ### Hva det innebærer (Omfang) - **Juridisk (Høy vekt):** Sikre at informasjonsutveksling skjer i tråd med krav til personvern, taushetsplikt, informasjonssikkerhet, behandlingsgrunnlag, ansvar og lovlig deling av data. - **Organisatorisk (Høy vekt):** Etablere rutiner, ansvar og kontrollmekanismer for sikker dataflyt, inkludert avklaringer om hvem som kan sende, motta og behandle informasjon. - **Semantisk (Middels vekt):** Bruke klassifisering, metadata og felles forståelse av beskyttelsesbehov, slik at aktørene vet hvilke sikkerhetskrav som gjelder for informasjonen som utveksles. - **Teknisk (Svært høy vekt):** Sikre konfidensialitet gjennom kryptering og beskyttelse mot uautorisert innsyn. Sikre integritet gjennom tekniske mekanismer som oppdager og hindrer at data blir endret, slettet eller manipulert på vei fra avsender til mottaker. Sikre trafikkstyring slik at virksomhetene har kontroll på hvor data sendes og hvem som har lov til å motta dem. ### Bidrag til sammenhengende tjenester og felles økosystem Sikring av informasjonsflyt og datautveksling gjør det mulig å dele data på tvers av virksomheter uten å svekke konfidensialitet, integritet eller kontroll. Når informasjon kan utveksles trygt, kan flere aktører inngå i samme tjenestekjede og bruke hverandres data med nødvendig tillit. Kapabiliteten styrker det felles økosystemet ved å redusere risiko ved datadeling og gjøre sikker samhandling mer forutsigbar. For sluttbrukeren betyr dette tryggere og mer sammenhengende tjenester, der opplysninger kan flyte mellom relevante aktører uten at brukeren selv må bære informasjonen mellom dem."
-cardMeta: "23 produkter"
+cardMeta: "26 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
   <div class="capability-product-links">
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/01-ID-porten-produkt-canvas-v3-codex.md">ID-porten</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/01-ID-porten-produkt-canvas-v4-claude.md">ID-porten</a></h3>
       <p class="capability-product-link__description">beskytter innloggingsflyt, tokenutstedelse og overføring av identitetsinformasjon mellom ID-porten og tjenesteeier.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
@@ -26,12 +26,12 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/07-eFormidling-produkt-canvas-v3-codex.md">eFormidling</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/07-eFormidling-produkt-canvas-v4-claude.md">eFormidling</a></h3>
       <p class="capability-product-link__description">ivaretar krav til sikker, sporbar og kontrollert meldingsutveksling.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/08-Altinn-formidling-produkt-canvas-v3-codex.md">Altinn Formidling</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/08-Altinn-formidling-produkt-canvas-v4-claude.md">Altinn Formidling</a></h3>
       <p class="capability-product-link__description">støttes gjennom tilgangskontroll, logging og sikker håndtering av innhold.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
@@ -41,7 +41,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/11-Peppol-eDelivery-produkt-canvas-v3-codex.md">Peppol eDelivery</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/11-Peppol-eDelivery-produkt-canvas-v4-claude.md">Peppol eDelivery</a></h3>
       <p class="capability-product-link__description">bruker sertifikater og tillitsrammeverk for å sikre transport og validering i nettverket.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
@@ -66,12 +66,12 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/26-FIKS-Melding-produkt-canvas-v3-claude.md">Fiks melding</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/26-FIKS-Melding-produkt-canvas-v4-claude.md">Fiks melding</a></h3>
       <p class="capability-product-link__description">er direkte relevant fordi produktet brukes til sikker kommunikasjon og KS Digital publiserer eget sikkerhetsunderlag for ROS og DPIA for deler av funksjonssettet.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/33-HelseID-produkt-canvas-v2-claude.md">HelseID</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/33-HelseID-produkt-canvas-v3-claude.md">HelseID</a></h3>
       <p class="capability-product-link__description">beskytter innloggingsflyt, tokenbruk og deling av identitets- og tilgangsinformasjon i digital samhandling.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
@@ -86,7 +86,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/47-Feide-produkt-canvas-v3-claude.md">Feide</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/47-Feide-produkt-canvas-v4-claude.md">Feide</a></h3>
       <p class="capability-product-link__description">beskytter påloggingsflyt, tokenutstedelse og overføring av brukeropplysninger mellom vertsorganisasjoner og tjenesteleverandører.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
@@ -106,7 +106,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v2-claude.md">Felles sikkerhet i forvaltningen</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v3-claude.md">Felles sikkerhet i forvaltningen</a></h3>
       <p class="capability-product-link__description">FSIF retter seg direkte mot bedre felles forutsetninger for sikker samhandling, deling av data og styring av risiko i sammenhengende tjenester.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
@@ -123,6 +123,21 @@ productsMarkdown: |
       <p class="capability-product-link__type">Rammer og virkemidler</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/144-eForvaltningsforskriften-v3-claude.md">eForvaltningsforskriften</a></h3>
       <p class="capability-product-link__description">§ 5 og § 8 fjerde ledd krever at risikoen for uberettiget innsyn forebygges når taushetsbelagte opplysninger og enkeltvedtak utveksles elektronisk, og kapittel 4 til 6 regulerer kryptering, beskyttelse av dekrypteringsnøkler og kontroll av signerte meldinger.</p>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/174-NSMs-grunnprinsipper-for-IKT-sikkerhet-v1-claude.md">NSMs grunnprinsipper for IKT-sikkerhet</a></h3>
+      <p class="capability-product-link__description">normeres direkte i prinsipp 2.5 «Kontroller dataflyt» og 2.7 «Beskytt data i ro og i transitt», som gir anbefalte tiltak for kontroll med hvor data flyter og for beskyttelse av data under overføring.</p>
+    </article>
+    <article class="capability-product-link resource-type--policy">
+      <p class="capability-product-link__type">Rammer og virkemidler</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/190-Personopplysningsloven-og-personvernforordningen-v1-claude.md">Personopplysningsloven og personvernforordningen</a></h3>
+      <p class="capability-product-link__description">Artikkel 32 krever tiltak for konfidensialitet og integritet, med pseudonymisering og kryptering som eksempler, og artikkel 28 krever avtale som regulerer hva en databehandler kan gjøre med opplysningene. Kapittel V stiller vilkår for når personopplysninger kan overføres til land utenfor EØS.</p>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/195-Normen-v1-claude.md">Normen</a></h3>
+      <p class="capability-product-link__description">Normen har egne krav til kommunikasjonssikkerhet, digital kommunikasjon med den registrerte og leverandørforhold, og skal gi gjensidig tillit mellom virksomheter som utveksler helseopplysninger, blant annet gjennom helsenettet.</p>
     </article>
   </div>
 ---

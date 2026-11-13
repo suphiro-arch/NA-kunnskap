@@ -34,7 +34,6 @@
         <p class="principle-panel__label">Særlig relevant for</p>
         <p class="principle-panel__chips">
           <a class="capability-chip" href="../kapabiliteter/strategisk-styring/">Strategisk styring</a>
-          <a class="capability-chip" href="../kapabiliteter/samarbeid/">Samarbeid</a>
         </p>
       </div>
     </div>
@@ -50,7 +49,7 @@
       <div class="principle-panel__capabilities">
         <p class="principle-panel__label">Særlig relevant for</p>
         <p class="principle-panel__chips">
-          <a class="capability-chip" href="../kapabiliteter/juridisk-samhandling/">Juridisk samhandling</a>
+          <a class="capability-chip" href="../kapabiliteter/regelverk-og-rettslig-grunnlag/">Regelverk og rettslig grunnlag</a>
         </p>
       </div>
     </div>
@@ -69,6 +68,7 @@
           <a class="capability-chip" href="../kapabiliteter/datakilder/">Datakilder</a>
           <a class="capability-chip" href="../kapabiliteter/datautveksling-og-integrasjon/">Datautveksling og integrasjon</a>
           <a class="capability-chip" href="../kapabiliteter/datadrevet/">Datadrevet</a>
+          <a class="capability-chip" href="../kapabiliteter/informasjonsforvaltning/">Informasjonsforvaltning</a>
         </p>
       </div>
     </div>
@@ -84,7 +84,7 @@
       <div class="principle-panel__capabilities">
         <p class="principle-panel__label">Særlig relevant for</p>
         <p class="principle-panel__chips">
-          <a class="capability-chip" href="../kapabiliteter/sluttbrukertjenester/">Sluttbrukertjenester</a>
+          <a class="capability-chip" href="../kapabiliteter/strategisk-styring/">Strategisk styring</a>
           <a class="capability-chip" href="../kapabiliteter/tjenesteutvikling/">Tjenesteutvikling</a>
         </p>
       </div>
@@ -101,7 +101,7 @@
       <div class="principle-panel__capabilities">
         <p class="principle-panel__label">Særlig relevant for</p>
         <p class="principle-panel__chips">
-          <a class="capability-chip" href="../kapabiliteter/sluttbrukertjenester/">Sluttbrukertjenester</a>
+          <a class="capability-chip" href="../kapabiliteter/tjenesteutvikling/">Tjenesteutvikling</a>
           <a class="capability-chip" href="../kapabiliteter/samarbeid/">Samarbeid</a>
           <a class="capability-chip" href="../kapabiliteter/datautveksling-og-integrasjon/">Datautveksling og integrasjon</a>
           <a class="capability-chip" href="../kapabiliteter/informasjonsforvaltning/">Informasjonsforvaltning</a>
@@ -122,9 +122,9 @@
       <div class="principle-panel__capabilities">
         <p class="principle-panel__label">Særlig relevant for</p>
         <p class="principle-panel__chips">
-          <a class="capability-chip" href="../kapabiliteter/tillit/">Tillit</a>
+          <a class="capability-chip" href="../kapabiliteter/digital-tillit/">Digital tillit</a>
           <a class="capability-chip" href="../kapabiliteter/informasjonssikkerhet/">Informasjonssikkerhet</a>
-          <a class="capability-chip" href="../kapabiliteter/juridisk-samhandling/">Juridisk samhandling</a>
+          <a class="capability-chip" href="../kapabiliteter/regelverk-og-rettslig-grunnlag/">Regelverk og rettslig grunnlag</a>
         </p>
       </div>
     </div>

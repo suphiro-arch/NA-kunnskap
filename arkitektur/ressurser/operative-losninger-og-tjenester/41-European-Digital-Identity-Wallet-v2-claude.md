@@ -33,13 +33,13 @@ Lommeboka er brukerstyrt. Innbyggeren har selv kontroll over hvilke opplysninger
 ## Kapabiliteter
 Koblingene er satt fordi lommeboka selv utsteder og presenterer identitetsbevis og signaturer. Evnen til å bekrefte identitet på tvers av landegrenser ville ikke blitt levert av noen annen ressurs i porteføljen hvis lommeboka ble borte. Lommeboka bruker samtidig attributter fra nasjonale registre og utstedere; den avhengigheten er beskrevet under `Gjenbruk`, ikke som egen kapabilitet.
 
-- **Tillit: Autentisering**
+- **Digital tillit: Autentisering**
   gir en felles europeisk mekanisme for å verifisere en digital identitet på høyt sikkerhetsnivå, uavhengig av hvilket land brukeren kommer fra. Lommeboka leverer evnen selv, og er ikke avhengig av at brukerstedet har egen innloggingsløsning.
 
-- **Tillit: Signering**
+- **Digital tillit: Signering**
   gjør det mulig for innbyggeren å opprette rettslig bindende elektroniske signaturer direkte fra lommeboka, innenfor det samme tillitsrammeverket.
 
-- **Tillit: Samtykke**
+- **Digital tillit: Samtykke**
   lommeboka ber brukeren om eksplisitt godkjenning før hver framvisning av attributter til et brukersted, i alle brukstilfeller og også når brukerstedet er en offentlig myndighet. Før godkjenningen viser lommeboka hvem brukerstedet er, hvilke attributter det ber om og hva de skal brukes til, og brukeren kan godkjenne eller avslå de enkelte attributtene. Et dashbord med logg over alle delinger lar brukeren se hva som er delt med hvem, be brukerstedet slette opplysningene og melde mistenkelige forespørsler til datatilsynsmyndigheten. Architecture and Reference Framework presiserer at brukerens godkjenning ikke er behandlingsgrunnlag etter personvernforordningen, og at brukerstedet må ha eget rettslig grunnlag. Koblingen gjelder derfor evnen til å godkjenne, spore og følge opp hver deling, ikke samtykke som rettslig grunnlag for brukerstedets behandling.
 
 ## Produktmål

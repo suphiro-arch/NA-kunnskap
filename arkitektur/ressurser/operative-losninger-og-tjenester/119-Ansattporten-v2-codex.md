@@ -27,7 +27,7 @@ Ressursen må ikke forstås som en ren kopi av ID-porten. Ansattporten er en ege
 - **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling**
   Ansattporten beskytter innloggingsflyt, tokenutstedelse og metadatautveksling i løsninger der ansatte eller virksomhetsrepresentanter skal få sikker tilgang.
 
-- **Tillit: Autentisering**
+- **Digital tillit: Autentisering**
   Ressursen verifiserer identiteten til sluttbrukeren i ansattkontekst og tilbyr et felles nasjonalt mønster for sikker innlogging i slike tjenester.
 
 - **Tjenesteutvikling: Integrerbare tjenester**

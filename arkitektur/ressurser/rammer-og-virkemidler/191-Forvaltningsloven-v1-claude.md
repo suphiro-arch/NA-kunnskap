@@ -52,7 +52,7 @@ Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vur
 
 `Juridisk samhandling: Regelverkstolkning` er ikke satt: loven er selv regelverket som tolkes. `Datautveksling og integrasjon: Dele data med andre` er vurdert og ikke satt. Kapittel 5 gir rettslig adgang til å dele opplysninger, men evnen til å dele data leveres av løsningene som brukes. `Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling` er heller ikke satt. § 10 krever sikker kommunikasjon og gir forskriftshjemmel, men de konkrete kravene står i eForvaltningsforskriften (`DIGDIR-066`).
 
-- **Juridisk samhandling: Regelverksutvikling**
+- **Regelverk og rettslig grunnlag: Regelverksutvikling**
   §§ 94–97 er den generelle prosessrammen for forskrifter i hele forvaltningen, også i kommunene: utredning av behov, alternativer og virkninger, åpen høring med minst tre måneders frist og kunngjøring i Norsk Lovtidend. Loven gir i tillegg Kongen hjemmel til å utvikle forskrifter om automatiserte avgjørelser (§§ 11 og 12) og om deling av taushetsbelagte opplysninger (§ 35).
 
 ## Målgruppe og berørte aktører

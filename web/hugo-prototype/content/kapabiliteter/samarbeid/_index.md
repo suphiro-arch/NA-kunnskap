@@ -2,55 +2,19 @@
 title: "Samarbeid"
 eyebrow: "Kapabilitet"
 weight: 2
-description: "Evne til å samarbeid og samhandling på tvers av offentlig og privat forvaltning. ### Begrunnelse (Hvorfor) Sammenhengende tjenester kan ikke bygges i isolasjon. Aktørene i økosystemet må fungere som ett lag for å løse felles utfordringer, unngå dobbeltarbeid og bryte ned silotenking. Denne overordnede pilaren eksisterer for å sikre helhetlig samfunnsverdi og felles strategisk retning. Den løser problemet med at virksomheter prioriterer interne oppgaver fremfor tverrgående brukerreiser. ### Hva det innebærer (Omfang) - **Organisatorisk (Svært høy vekt):** Overordnede styringsmodeller, samstyring og finansiering koordinerer samhandlingsmodeller og avtaler for å tilpasse tjenestekjeder og prosesser. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten bygger bro mellom organisatoriske siloer og sikrer overordnet strategisk koordinering. Når man er enige om prioriteringer, økonomi og spilleregler på forhånd, sikres et tydelig mandat for samarbeid. Dette gir de operative teamene fundamentet de trenger for å binde tjenester sammen til en uavbrutt og guidet reise, slik at sluttbrukeren opplever forvaltningen som én samordnet aktør."
-cardMeta: "3 delkapabiliteter / 40 produkter"
+description: "Evne til å samarbeide og samhandle på tvers av virksomheter i offentlig og privat sektor. ### Begrunnelse (Hvorfor) Sammenhengende tjenester kan ikke bygges i isolasjon. Når en tjeneste krever bidrag fra flere virksomheter, må de arbeide sammen om prosesser, ansvar og forvaltning, ikke bare utveksle data. Kapabiliteten fungerer som en paraply for organisatorisk samhandling, samarbeidsarenaer og nettverk og tjenesteforvaltning. Den løser problemet med at virksomheter prioriterer interne oppgaver fremfor tverrgående brukerreiser. Strategisk styring setter retning, gir mandat og fordeler ressurser. Samarbeid handler om hvordan virksomhetene arbeider sammen innenfor disse rammene. ### Hva det innebærer (Omfang) - **Juridisk (Høy vekt):** Samarbeidsavtaler, tjenesteavtaler og andre forpliktende rammer må gi et tydelig grunnlag for ansvarsdeling og felles forvaltning mellom virksomhetene. - **Organisatorisk (Svært høy vekt):** Felles arbeidsprosesser, avklarte roller og ansvar, møteplasser og forvaltningsmodeller må gjøre det mulig for virksomhetene å levere og videreutvikle tjenester sammen. - **Semantisk (Middels vekt):** Felles begreper og beskrivelser må sikre at samarbeidende virksomheter har samme forståelse av roller, ansvar og tjenester. - **Teknisk (Middels vekt):** Felles verktøy og digitale samarbeidsflater må understøtte forvaltning og samhandling på tvers av virksomheter. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten bygger bro mellom organisatoriske siloer. Når virksomhetene har avklart hvem som gjør hva, hvordan arbeidet overleveres og hvem som har ansvar for helheten, kan tjenester bindes sammen til en uavbrutt reise for brukeren. For det felles økosystemet gir dette mindre dobbeltarbeid, raskere avklaringer og tjenester som kan forvaltes og videreutvikles i fellesskap. For sluttbrukeren betyr det at forvaltningen oppleves som én samordnet aktør."
+cardMeta: "3 delkapabiliteter / 32 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
   <div class="capability-product-links">
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/06-eInnsyn-produkt-canvas-v3-codex.md">eInnsyn</a></h3>
-    </article>
-    <article class="capability-product-link resource-type--operative">
-      <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/07-eFormidling-produkt-canvas-v3-codex.md">eFormidling</a></h3>
-    </article>
-    <article class="capability-product-link resource-type--operative">
-      <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/08-Altinn-formidling-produkt-canvas-v3-codex.md">Altinn Formidling</a></h3>
-    </article>
-    <article class="capability-product-link resource-type--operative">
-      <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/19-Altinn-3-plattform-produkt-canvas-v3-codex.md">Altinn 3 plattform</a></h3>
-    </article>
-    <article class="capability-product-link resource-type--operative">
-      <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/25-FIKS-plattformen-produkt-canvas-v1-codex.md">Fiks-plattformen</a></h3>
-    </article>
-    <article class="capability-product-link resource-type--operative">
-      <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/26-FIKS-Melding-produkt-canvas-v3-claude.md">Fiks melding</a></h3>
-    </article>
-    <article class="capability-product-link resource-type--operative">
-      <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/27-FIKS-SvarUt-produkt-canvas-v4-claude.md">Fiks SvarUt</a></h3>
-    </article>
-    <article class="capability-product-link resource-type--operative">
-      <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/34-Kjernejournal-produkt-canvas-v3-claude.md">Kjernejournal</a></h3>
-    </article>
-    <article class="capability-product-link resource-type--operative">
-      <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/35-e-resept-produkt-canvas-v1-codex.md">e-resept</a></h3>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/45-Once-Only-Technical-System-v1-claude.md">Once-Only Technical System (OOTS)</a></h3>
-    </article>
-    <article class="capability-product-link resource-type--operative">
-      <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/48-Felles-studentsystem-produkt-canvas-v1-codex.md">Felles studentsystem (FS)</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/45-Once-Only-Technical-System-v3-claude.md">Once-Only Technical System (OOTS)</a></h3>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -62,23 +26,19 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/59-A-ordningen-produkt-canvas-v1-codex.md">A-ordningen</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/59-A-ordningen-produkt-canvas-v2-claude.md">A-ordningen</a></h3>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/62-DSOP-tjenester-produkt-canvas-v2-codex.md">DSOP-tjenester</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/62-DSOP-tjenester-produkt-canvas-v3-claude.md">DSOP-tjenester</a></h3>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v3-claude.md">VIGO</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v4-claude.md">VIGO</a></h3>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/74-Felles-mal-for-innforing-av-digitale-fellestjenester-v1-claude.md">Felles mal for innføring av digitale fellestjenester</a></h3>
-    </article>
-    <article class="capability-product-link resource-type--operative">
-      <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/83-FINT-Arkivintegrasjoner-v1-claude.md">Arkivintegrasjoner</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/74-Felles-mal-for-innforing-av-digitale-fellestjenester-v2-claude.md">Felles mal for innføring av digitale fellestjenester</a></h3>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
@@ -94,7 +54,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/93-Fiks-Digisos-produkt-canvas-v1-codex.md">Fiks digisos</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/93-Fiks-Digisos-produkt-canvas-v2-claude.md">Fiks digisos</a></h3>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -114,7 +74,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v5-claude.md">Styringsråd for Digitaliseringsdirektoratets fellesløsninger</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/120-Styringsradet-for-felleslosningene-v6-claude.md">Styringsråd for Digitaliseringsdirektoratets fellesløsninger</a></h3>
     </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
@@ -130,7 +90,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v2-claude.md">Felles sikkerhet i forvaltningen</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v3-claude.md">Felles sikkerhet i forvaltningen</a></h3>
     </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
@@ -138,11 +98,11 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/127-Samarbeidsportalen-produkt-canvas-v2-codex.md">Samarbeidsportalen</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/127-Samarbeidsportalen-produkt-canvas-v3-claude.md">Samarbeidsportalen</a></h3>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/129-MSIS-produkt-canvas-v2-codex.md">MSIS</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/129-MSIS-produkt-canvas-v3-claude.md">MSIS</a></h3>
     </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
@@ -152,14 +112,6 @@ productsMarkdown: |
       <p class="capability-product-link__type">Samarbeidsforum</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/143-PPP-P-nettverket-v2-claude.md">PPP(P)-nettverket</a></h3>
     </article>
-    <article class="capability-product-link resource-type--operative">
-      <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/156-DigiHelsestasjon-v1-claude.md">DigiHelsestasjon</a></h3>
-    </article>
-    <article class="capability-product-link resource-type--operative">
-      <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/157-ung-no-v1-claude.md">ung.no</a></h3>
-    </article>
     <article class="capability-product-link resource-type--forum">
       <p class="capability-product-link__type">Samarbeidsforum</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/163-DigiUng-v1-claude.md">DigiUng</a></h3>
@@ -168,7 +120,23 @@ productsMarkdown: |
       <p class="capability-product-link__type">Normerende ressurs</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/168-sikkert-no-v1-claude.md">Sikkert.no</a></h3>
     </article>
+    <article class="capability-product-link resource-type--forum">
+      <p class="capability-product-link__type">Samarbeidsforum</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/181-Norge-digitalt-v1-claude.md">Norge digitalt</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--policy">
+      <p class="capability-product-link__type">Rammer og virkemidler</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/183-Bruksvilkar-for-Digdirs-felleslosninger-v1-claude.md">Bruksvilkår for Digdirs fellesløsninger</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--forum">
+      <p class="capability-product-link__type">Samarbeidsforum</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/188-Konsultasjonsordningen-v1-claude.md">Konsultasjonsordningen mellom staten og kommunesektoren</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--forum">
+      <p class="capability-product-link__type">Samarbeidsforum</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/197-Regionale-digitaliseringsnettverk-v2-claude.md">Regionale digitaliseringsnettverk</a></h3>
+    </article>
   </div>
 ---
 
-Evne til å samarbeid og samhandling på tvers av offentlig og privat forvaltning. ### Begrunnelse (Hvorfor) Sammenhengende tjenester kan ikke bygges i isolasjon. Aktørene i økosystemet må fungere som ett lag for å løse felles utfordringer, unngå dobbeltarbeid og bryte ned silotenking. Denne overordnede pilaren eksisterer for å sikre helhetlig samfunnsverdi og felles strategisk retning. Den løser problemet med at virksomheter prioriterer interne oppgaver fremfor tverrgående brukerreiser. ### Hva det innebærer (Omfang) - **Organisatorisk (Svært høy vekt):** Overordnede styringsmodeller, samstyring og finansiering koordinerer samhandlingsmodeller og avtaler for å tilpasse tjenestekjeder og prosesser. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten bygger bro mellom organisatoriske siloer og sikrer overordnet strategisk koordinering. Når man er enige om prioriteringer, økonomi og spilleregler på forhånd, sikres et tydelig mandat for samarbeid. Dette gir de operative teamene fundamentet de trenger for å binde tjenester sammen til en uavbrutt og guidet reise, slik at sluttbrukeren opplever forvaltningen som én samordnet aktør.
+Evne til å samarbeide og samhandle på tvers av virksomheter i offentlig og privat sektor. ### Begrunnelse (Hvorfor) Sammenhengende tjenester kan ikke bygges i isolasjon. Når en tjeneste krever bidrag fra flere virksomheter, må de arbeide sammen om prosesser, ansvar og forvaltning, ikke bare utveksle data. Kapabiliteten fungerer som en paraply for organisatorisk samhandling, samarbeidsarenaer og nettverk og tjenesteforvaltning. Den løser problemet med at virksomheter prioriterer interne oppgaver fremfor tverrgående brukerreiser. Strategisk styring setter retning, gir mandat og fordeler ressurser. Samarbeid handler om hvordan virksomhetene arbeider sammen innenfor disse rammene. ### Hva det innebærer (Omfang) - **Juridisk (Høy vekt):** Samarbeidsavtaler, tjenesteavtaler og andre forpliktende rammer må gi et tydelig grunnlag for ansvarsdeling og felles forvaltning mellom virksomhetene. - **Organisatorisk (Svært høy vekt):** Felles arbeidsprosesser, avklarte roller og ansvar, møteplasser og forvaltningsmodeller må gjøre det mulig for virksomhetene å levere og videreutvikle tjenester sammen. - **Semantisk (Middels vekt):** Felles begreper og beskrivelser må sikre at samarbeidende virksomheter har samme forståelse av roller, ansvar og tjenester. - **Teknisk (Middels vekt):** Felles verktøy og digitale samarbeidsflater må understøtte forvaltning og samhandling på tvers av virksomheter. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten bygger bro mellom organisatoriske siloer. Når virksomhetene har avklart hvem som gjør hva, hvordan arbeidet overleveres og hvem som har ansvar for helheten, kan tjenester bindes sammen til en uavbrutt reise for brukeren. For det felles økosystemet gir dette mindre dobbeltarbeid, raskere avklaringer og tjenester som kan forvaltes og videreutvikles i fellesskap. For sluttbrukeren betyr det at forvaltningen oppleves som én samordnet aktør.

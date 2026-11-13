@@ -4,7 +4,7 @@ headerTitle: "Datautveksling og integrasjon - Hendelsesdrevet"
 eyebrow: "Kapabilitet"
 weight: 4
 description: "Evne til å publisere og reagere på digitale hendelser og kontinuerlige datastrømmer når de inntreffer. ### Begrunnelse (Hvorfor) Hendelsesdrevet arkitektur gjør det mulig å utveksle informasjon mellom distribuerte løsninger uten komplekse og tett koblede integrasjoner. Når en relevant hendelse oppstår, kan andre tjenester reagere automatisk uten at avsender må kjenne alle mottakere eller deres interne prosesser. Dette gjør det enklere å knytte tjenester sammen i tjenestekjeder, monitorere og analysere datastrømmer, og tilby proaktive tjenester basert på hendelser og analyser. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Avklarer behandlingsgrunnlag, ansvar, formål, dataminimering og tilgang til hendelser som kan inneholde personopplysninger eller annen beskyttet informasjon. - **Organisatorisk (Svært høy vekt):** Etablerer roller, ansvar og rutiner for publisering, abonnement, forvaltning, endring og oppfølging av hendelser på tvers av tjenesteeiere og konsumenter. - **Semantisk (Høy vekt):** Sikrer felles forståelse av hendelsestyper, hendelsesnavn, tilstander, begreper, metadata og informasjonsinnhold i hendelser. - **Teknisk (Svært høy vekt):** Forvalter tekniske mekanismer for hendelsespublisering, abonnement, ruting, filtrering, sikkerhet, overvåking, feilhåndtering og leveransegarantier. ### Bidrag til sammenhengende tjenester og felles økosystem Hendelsesdrevet arkitektur bidrar til sammenhengende tjenester ved at virksomheter kan reagere på relevante endringer når de skjer, i stedet for å basere seg på manuelle avklaringer, periodiske oppslag eller tette integrasjoner. Dette gjør tjenestekjeder mer responsive og legger til rette for proaktive tjenester der brukeren får hjelp før vedkommende selv må ta initiativ. Kapabiliteten styrker det felles digitale økosystemet ved å redusere avhengigheter mellom systemer og virksomheter. En hendelse kan publiseres én gang og brukes av flere aktører, uten at avsender må bygge egne integrasjoner mot hver enkelt mottaker. Dette gir bedre skalerbarhet, mer gjenbruk og større fleksibilitet i utviklingen av nye digitale tjenester. Hendelsesdrevet samhandling gjør det også enklere å analysere data- og hendelsesstrømmer på tvers av løsninger, for eksempel innen IoT, sensordata, saksbehandling, varsling og automatisert oppfølging. Dermed kan offentlig sektor utvikle mer dynamiske, datadrevne og brukerorienterte tjenester."
-cardMeta: "4 produkter"
+cardMeta: "5 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -23,6 +23,11 @@ productsMarkdown: |
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/23-Altinn-3-Melding-produkt-canvas-v5-codex.md">Altinn Melding</a></h3>
       <p class="capability-product-link__description">støtter abonnementer og oppfølging av hendelser knyttet til sendte meldinger.</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/37-Folkeregisteret-produkt-canvas-v3-claude.md">Folkeregisteret</a></h3>
+      <p class="capability-product-link__description">realiseres gjennom hendelseslista, som publiserer endringer i registeret fortløpende som en feed med sekvensnummer, slik at virksomheter med tilgang kan holde egne registre oppdatert og reagere på endringer uten periodiske oppslag.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>

@@ -4,7 +4,7 @@ headerTitle: "Datautveksling og integrasjon - Dele data med andre"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å tilgjengeliggjøre egne data som veldokumenterte og sikre API-er, slik at andre aktører med lovlig grunnlag enkelt kan oppdage og gjenbruke dem. ### Begrunnelse (Hvorfor) Kapabiliteten gjør det mulig for andre aktører med lovlig grunnlag å oppdage, forstå og gjenbruke data i egne tjenester og prosesser. Den løser problemet med at verdifulle data forblir låst i enkeltvirksomheter, og legger til rette for at informasjon kan brukes på tvers uten unødvendige manuelle henvendelser, særskilte integrasjoner eller ny innsamling. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Avklare behandlingsgrunnlag, formål, tilgangsrettigheter, taushetsplikt og vilkår for viderebruk før data gjøres tilgjengelig for andre. - **Organisatorisk (Svært høy vekt):** Etablere rutiner for eierskap, forvaltning, publisering, kvalitetssikring og oppfølging av datatilbudet overfor konsumenter. - **Semantisk (Middels vekt):** Publisere og dokumentere dataene i Felles datakatalog, slik at de blir lette å finne, forstå og vurdere for gjenbruk. - **Teknisk (Høy vekt):** Etablere og forvalte sikre API-er etter nasjonale standarder, med robuste systemer for tilgangsstyring som sikrer at data kun deles med de som har lov til det, f.eks. via Maskinporten. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten gjør at andre virksomheter kan bygge tjenester på data som allerede finnes, i stedet for å hente inn samme informasjon på nytt. Når data deles gjennom sikre, standardiserte og godt dokumenterte grensesnitt, kan tjenestekjeder kobles sammen på en mer forutsigbar måte. For sluttbrukeren betyr dette færre gjentakelser, mindre dokumentasjonsbyrde og mer sømløse tjenester på tvers av virksomheter. For økosystemet gir det økt gjenbruk, bedre datakvalitet og mer effektiv ressursutnyttelse."
-cardMeta: "49 produkter"
+cardMeta: "53 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -21,12 +21,12 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/07-eFormidling-produkt-canvas-v3-codex.md">eFormidling</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/07-eFormidling-produkt-canvas-v4-claude.md">eFormidling</a></h3>
       <p class="capability-product-link__description">gjør det mulig å sende digitale meldinger og dokumenter sikkert til andre virksomheter og mottakere gjennom et felles formidlingsmønster.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/08-Altinn-formidling-produkt-canvas-v3-codex.md">Altinn Formidling</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/08-Altinn-formidling-produkt-canvas-v4-claude.md">Altinn Formidling</a></h3>
       <p class="capability-product-link__description">gjør det mulig for avsendere å levere filer til andre virksomheter gjennom en felles kanal.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
@@ -41,7 +41,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/34-Kjernejournal-produkt-canvas-v3-claude.md">Kjernejournal</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/34-Kjernejournal-produkt-canvas-v4-claude.md">Kjernejournal</a></h3>
       <p class="capability-product-link__description">gjør utvalgte opplysninger tilgjengelige for andre behandlingssteder som trenger dem for å yte helsehjelp.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
@@ -51,7 +51,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/37-Folkeregisteret-produkt-canvas-v2-claude.md">Folkeregisteret</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/37-Folkeregisteret-produkt-canvas-v3-claude.md">Folkeregisteret</a></h3>
       <p class="capability-product-link__description">gjør opplysninger tilgjengelige for andre virksomheter gjennom kontrollerte delingstjenester og oppslag basert på hjemmel.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
@@ -66,12 +66,12 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/40-Geonorge-produkt-canvas-v1-codex.md">Geonorge</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/40-Geonorge-produkt-canvas-v2-claude.md">Geonorge</a></h3>
       <p class="capability-product-link__description">er relevant fordi Geonorge støtter distribusjon, API-er og tilgjengeliggjøring av geodata fra mange aktører.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/45-Once-Only-Technical-System-v1-claude.md">Once-Only Technical System (OOTS)</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/45-Once-Only-Technical-System-v3-claude.md">Once-Only Technical System (OOTS)</a></h3>
       <p class="capability-product-link__description">gjør at en norsk bevisutsteder kan gjøre dokumentasjon tilgjengelig for myndigheter i andre land innenfor et definert og rettslig forankret formål.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
@@ -81,12 +81,12 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/47-Feide-produkt-canvas-v3-claude.md">Feide</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/47-Feide-produkt-canvas-v4-claude.md">Feide</a></h3>
       <p class="capability-product-link__description">gjør det mulig å dele nødvendige identitets- og organisasjonsopplysninger fra vertsorganisasjonen til tilknyttede tjenester på en kontrollert måte.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/48-Felles-studentsystem-produkt-canvas-v1-codex.md">Felles studentsystem (FS)</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/48-Felles-studentsystem-produkt-canvas-v2-claude.md">Felles studentsystem (FS)</a></h3>
       <p class="capability-product-link__description">er en kjernefunksjon ved at FS tilbyr API-er, meldingskøer og andre integrasjonsflater for videre bruk av data.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
@@ -106,7 +106,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/59-A-ordningen-produkt-canvas-v1-codex.md">A-ordningen</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/59-A-ordningen-produkt-canvas-v2-claude.md">A-ordningen</a></h3>
       <p class="capability-product-link__description">er en kjernefunksjon ved at opplysningene distribueres videre til etater og andre aktører med hjemmel eller samtykke.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
@@ -121,7 +121,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/62-DSOP-tjenester-produkt-canvas-v2-codex.md">DSOP-tjenester</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/62-DSOP-tjenester-produkt-canvas-v3-claude.md">DSOP-tjenester</a></h3>
       <p class="capability-product-link__description">gjør det mulig å etablere kontrollerte delingsløp mellom offentlige virksomheter og finansnæringen i konkrete brukssituasjoner.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
@@ -146,7 +146,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v3-claude.md">VIGO</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v4-claude.md">VIGO</a></h3>
       <p class="capability-product-link__description">VIGO leverer data til internt og eksternt bruk, blant annet til Utdanningsdirektoratet og Statistisk sentralbyrå.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
@@ -156,7 +156,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/93-Fiks-Digisos-produkt-canvas-v1-codex.md">Fiks digisos</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/93-Fiks-Digisos-produkt-canvas-v2-claude.md">Fiks digisos</a></h3>
       <p class="capability-product-link__description">Tjenesten deler og overfører søknads- og saksdata kontrollert mellom statlige og kommunale systemer gjennom Fiks API-er og meldingskanaler.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
@@ -181,7 +181,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/129-MSIS-produkt-canvas-v2-codex.md">MSIS</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/129-MSIS-produkt-canvas-v3-claude.md">MSIS</a></h3>
       <p class="capability-product-link__description">Ressursen deler data gjennom åpne statistikkflater og kontrollerte datatilgangsløp for forskning, analyse og styring.</p>
     </article>
     <article class="capability-product-link resource-type--operative">
@@ -253,6 +253,26 @@ productsMarkdown: |
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/167-Tenor-testdatasok-v1-claude.md">Tenor testdatasøk</a></h3>
       <p class="capability-product-link__description">tilgjengeliggjør testdataene som et dokumentert og sikret API, slik at andre virksomheter kan finne og gjenbruke dem i egne automatiserte tester i stedet for å hente dem manuelt.</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/171-Entur-sanntidsdata-v1-claude.md">Entur sanntids- og rutedata</a></h3>
+      <p class="capability-product-link__description">Entur gjør data fra 60 operatører tilgjengelige for andre gjennom dokumenterte grensesnitt for abonnement, oppslag og nedlasting, slik at mottakeren ikke må hente data fra hver operatør.</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/172-DATEX-II-trafikkinformasjon-v1-claude.md">DATEX II trafikkinformasjon</a></h3>
+      <p class="capability-product-link__description">Statens vegvesen deler trafikk- og værdata med media, trafikkinformasjonstjenester og andre aktører gjennom dokumenterte DATEX-endepunkter, slik at de kan bruke dataene i egne tjenester.</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/173-MET-Frost-API-v1-claude.md">Frost og MET Weather API</a></h3>
+      <p class="capability-product-link__description">MET tilgjengeliggjør egne data gjennom dokumenterte og versjonerte REST-API-er med publiserte vilkår, slik at andre kan bygge dem inn i egne tjenester.</p>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/187-BarentsWatch-v1-claude.md">BarentsWatch</a></h3>
+      <p class="capability-product-link__description">BarentsWatch gjør data fra Kystverket, Fiskeridirektoratet, Mattilsynet, Veterinærinstituttet, Meteorologisk institutt og andre dataeiere tilgjengelige gjennom dokumenterte API-er, kart- og nedlastingstjenester, slik at mottakeren ikke må hente dataene fra hver etat.</p>
     </article>
   </div>
 ---

@@ -54,7 +54,7 @@ Normen er selv kravsettet som virksomheter i helse- og omsorgssektoren forplikte
 
 - **Informasjonssikkerhet: Styringssystem** Normen stiller krav til roller og ansvar, styringssystem, ledelsens gjennomgang, risikovurdering og risikohåndtering, som virksomhetene bruker til å etablere og forbedre egen styring av informasjonssikkerhet og personvern.
 - **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** Normen har egne krav til kommunikasjonssikkerhet, digital kommunikasjon med den registrerte og leverandørforhold, og skal gi gjensidig tillit mellom virksomheter som utveksler helseopplysninger, blant annet gjennom helsenettet.
-- **Juridisk samhandling: Regelverkstolkning** Normen omsetter krav fra blant annet personvernregelverket, helselovgivningen og digitalsikkerhetsloven til felles skal-krav for sektoren, og vedlegget om lovkrav viser hjemmelen for hvert skal-krav.
+- **Regelverk og rettslig grunnlag: Regelverkstolkning** Normen omsetter krav fra blant annet personvernregelverket, helselovgivningen og digitalsikkerhetsloven til felles skal-krav for sektoren, og vedlegget om lovkrav viser hjemmelen for hvert skal-krav.
 - **Veiledning: Utvikling og formidling av veiledning** Styringsgruppen utgir faktaark, veiledere og maler til Normen, blant annet en egen veileder for leverandører, og formidler Normen gjennom kurs, webinarer, nyhetsbrev og en årlig konferanse.
 
 ## Målgruppe og brukere

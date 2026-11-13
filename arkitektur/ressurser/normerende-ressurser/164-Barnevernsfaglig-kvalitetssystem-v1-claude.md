@@ -49,7 +49,7 @@ Ressursen normerer altså både faget og systemstøtten. Det er den kombinasjone
   Innholdet er publisert i Felles datakatalog under norsk lisens for offentlige data, med versjonert distribusjon.
 - **Veiledning: Utvikling og formidling av veiledning**
   Rammeverket er faglig og juridisk veiledning, formidlet gjennom fagsystemet framfor gjennom et dokument.
-- **Juridisk samhandling: Regelverkstolkning**
+- **Regelverk og rettslig grunnlag: Regelverkstolkning**
   Rammeverket omsetter barnevernsrettens krav til konkrete vurderingspunkter i saksforløpet.
 
 ## Målgruppe og brukere

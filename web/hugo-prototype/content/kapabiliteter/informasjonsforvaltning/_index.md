@@ -2,8 +2,8 @@
 title: "Informasjonsforvaltning"
 eyebrow: "Kapabilitet"
 weight: 9
-description: "Evne til å ha et felles rammeverk og styringsmodell for informasjonsforvaltning, slik at offentlige virksomheter kan utveksle og dele data og beskrivelser. ### Begrunnelse (Hvorfor) Kapabiliteten sikrer at offentlige virksomheter kan utveksle og dele data og beskrivelser innenfor et felles rammeverk og en felles styringsmodell. Den løser behovet for enhetlig praksis for hvordan informasjon beskrives, forvaltes, kvalitetssikres og gjøres tilgjengelig på tvers av virksomheter. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Informasjonsforvaltningen må støtte etterlevelse av krav til personvern, taushetsplikt, arkivering, innsyn, behandlingsgrunnlag og lovlig deling av data. - **Organisatorisk (Svært høy vekt):** Etablere felles rammeverk, styringsmodell, roller, ansvar og prosesser for forvaltning av data, begreper, informasjonsmodeller og metadata. - **Semantisk (Svært høy vekt):** Sikre felles beskrivelser, begreper, metadata, informasjonsmodeller og kvalitetskrav, slik at data og beskrivelser kan forstås og gjenbrukes på tvers. - **Teknisk (Høy vekt):** Bruke kataloger, modellverktøy, dataplattformer, API-beskrivelser og maskinlesbare metadata som gjør informasjon finnbart, delbart og teknisk tilgjengelig. ### Bidrag til sammenhengende tjenester og felles økosystem Informasjonsforvaltning gir grunnlaget for at virksomheter kan dele og bruke data med felles forståelse av innhold, kvalitet og ansvar. Når data, begreper og beskrivelser forvaltes etter felles rammer, blir det enklere å bygge tjenester som henger sammen på tvers av virksomheter. Kapabiliteten styrker det felles økosystemet ved å gjøre informasjon mer finnbart, forståelig, pålitelig og gjenbrukbart. For sluttbrukeren betyr dette mindre behov for å oppgi samme informasjon flere ganger, færre feil og mer helhetlige digitale tjenester."
-cardMeta: "8 delkapabiliteter / 36 produkter"
+description: "Evne til å ha et felles rammeverk og styringsmodell for informasjonsforvaltning, slik at offentlige virksomheter kan utveksle og dele data og beskrivelser. ### Begrunnelse (Hvorfor) Kapabiliteten sikrer at offentlige virksomheter kan utveksle og dele data og beskrivelser innenfor et felles rammeverk og en felles styringsmodell. Den løser behovet for enhetlig praksis for hvordan informasjon beskrives, forvaltes, kvalitetssikres og gjøres tilgjengelig på tvers av virksomheter. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Informasjonsforvaltningen må støtte etterlevelse av krav til personvern, taushetsplikt, arkivering, innsyn, behandlingsgrunnlag og lovlig deling av data. - **Organisatorisk (Svært høy vekt):** Etablere felles rammeverk, styringsmodell, roller, ansvar og prosesser for forvaltning av data, begreper, informasjonsmodeller og metadata. - **Semantisk (Svært høy vekt):** Sikre felles beskrivelser, begreper, metadata, informasjonsmodeller og kvalitetskrav, slik at data og beskrivelser kan forstås og gjenbrukes på tvers. - **Teknisk (Høy vekt):** Bruke kataloger, modellverktøy, dataplattformer, API-beskrivelser og maskinlesbare metadata som gjør informasjon finnbart, delbart og teknisk tilgjengelig. ### Bidrag til sammenhengende tjenester og felles økosystem Informasjonsforvaltning gir grunnlaget for at virksomheter kan dele og bruke data med felles forståelse av innhold, kvalitet og ansvar. Når data, begreper og beskrivelser forvaltes etter felles rammer, blir det enklere å bygge tjenester som henger sammen på tvers av virksomheter. Kapabiliteten styrker det felles økosystemet ved å gjøre informasjon finnbar, forståelig, pålitelig og gjenbrukbart. For sluttbrukeren betyr dette mindre behov for å oppgi samme informasjon flere ganger, færre feil og mer helhetlige digitale tjenester."
+cardMeta: "8 delkapabiliteter / 41 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
@@ -42,11 +42,11 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/40-Geonorge-produkt-canvas-v1-codex.md">Geonorge</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/40-Geonorge-produkt-canvas-v2-claude.md">Geonorge</a></h3>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/48-Felles-studentsystem-produkt-canvas-v1-codex.md">Felles studentsystem (FS)</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/48-Felles-studentsystem-produkt-canvas-v2-claude.md">Felles studentsystem (FS)</a></h3>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -78,7 +78,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v3-claude.md">VIGO</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v4-claude.md">VIGO</a></h3>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -110,7 +110,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/127-Samarbeidsportalen-produkt-canvas-v2-codex.md">Samarbeidsportalen</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/127-Samarbeidsportalen-produkt-canvas-v3-claude.md">Samarbeidsportalen</a></h3>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -152,7 +152,27 @@ productsMarkdown: |
       <p class="capability-product-link__type">Normerende ressurs</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/164-Barnevernsfaglig-kvalitetssystem-v1-claude.md">Barnevernsfaglig kvalitetssystem (BFK)</a></h3>
     </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/178-HL7-FHIR-norske-basisprofiler-v1-claude.md">Norske basisprofiler for HL7 FHIR</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/180-KLASS-v1-claude.md">KLASS</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/184-Noark-5-v1-claude.md">Noark 5</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/185-EHF-Elektronisk-handelsformat-v1-claude.md">EHF (Elektronisk handelsformat)</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/186-SOSI-v1-claude.md">SOSI – standarder for geografisk informasjon</a></h3>
+    </article>
   </div>
 ---
 
-Evne til å ha et felles rammeverk og styringsmodell for informasjonsforvaltning, slik at offentlige virksomheter kan utveksle og dele data og beskrivelser. ### Begrunnelse (Hvorfor) Kapabiliteten sikrer at offentlige virksomheter kan utveksle og dele data og beskrivelser innenfor et felles rammeverk og en felles styringsmodell. Den løser behovet for enhetlig praksis for hvordan informasjon beskrives, forvaltes, kvalitetssikres og gjøres tilgjengelig på tvers av virksomheter. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Informasjonsforvaltningen må støtte etterlevelse av krav til personvern, taushetsplikt, arkivering, innsyn, behandlingsgrunnlag og lovlig deling av data. - **Organisatorisk (Svært høy vekt):** Etablere felles rammeverk, styringsmodell, roller, ansvar og prosesser for forvaltning av data, begreper, informasjonsmodeller og metadata. - **Semantisk (Svært høy vekt):** Sikre felles beskrivelser, begreper, metadata, informasjonsmodeller og kvalitetskrav, slik at data og beskrivelser kan forstås og gjenbrukes på tvers. - **Teknisk (Høy vekt):** Bruke kataloger, modellverktøy, dataplattformer, API-beskrivelser og maskinlesbare metadata som gjør informasjon finnbart, delbart og teknisk tilgjengelig. ### Bidrag til sammenhengende tjenester og felles økosystem Informasjonsforvaltning gir grunnlaget for at virksomheter kan dele og bruke data med felles forståelse av innhold, kvalitet og ansvar. Når data, begreper og beskrivelser forvaltes etter felles rammer, blir det enklere å bygge tjenester som henger sammen på tvers av virksomheter. Kapabiliteten styrker det felles økosystemet ved å gjøre informasjon mer finnbart, forståelig, pålitelig og gjenbrukbart. For sluttbrukeren betyr dette mindre behov for å oppgi samme informasjon flere ganger, færre feil og mer helhetlige digitale tjenester.
+Evne til å ha et felles rammeverk og styringsmodell for informasjonsforvaltning, slik at offentlige virksomheter kan utveksle og dele data og beskrivelser. ### Begrunnelse (Hvorfor) Kapabiliteten sikrer at offentlige virksomheter kan utveksle og dele data og beskrivelser innenfor et felles rammeverk og en felles styringsmodell. Den løser behovet for enhetlig praksis for hvordan informasjon beskrives, forvaltes, kvalitetssikres og gjøres tilgjengelig på tvers av virksomheter. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Informasjonsforvaltningen må støtte etterlevelse av krav til personvern, taushetsplikt, arkivering, innsyn, behandlingsgrunnlag og lovlig deling av data. - **Organisatorisk (Svært høy vekt):** Etablere felles rammeverk, styringsmodell, roller, ansvar og prosesser for forvaltning av data, begreper, informasjonsmodeller og metadata. - **Semantisk (Svært høy vekt):** Sikre felles beskrivelser, begreper, metadata, informasjonsmodeller og kvalitetskrav, slik at data og beskrivelser kan forstås og gjenbrukes på tvers. - **Teknisk (Høy vekt):** Bruke kataloger, modellverktøy, dataplattformer, API-beskrivelser og maskinlesbare metadata som gjør informasjon finnbart, delbart og teknisk tilgjengelig. ### Bidrag til sammenhengende tjenester og felles økosystem Informasjonsforvaltning gir grunnlaget for at virksomheter kan dele og bruke data med felles forståelse av innhold, kvalitet og ansvar. Når data, begreper og beskrivelser forvaltes etter felles rammer, blir det enklere å bygge tjenester som henger sammen på tvers av virksomheter. Kapabiliteten styrker det felles økosystemet ved å gjøre informasjon finnbar, forståelig, pålitelig og gjenbrukbart. For sluttbrukeren betyr dette mindre behov for å oppgi samme informasjon flere ganger, færre feil og mer helhetlige digitale tjenester.

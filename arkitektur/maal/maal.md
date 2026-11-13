@@ -1,7 +1,7 @@
 # Mål for nasjonal arkitektur
 
 Kildegrunnlag:
-- `sources/Nasjonal Arkitektur kapabilitetsmodell-2026-09-30.archimate`
+- `sources/Nasjonal Arkitektur kapabilitetsmodell-2026-11-04.archimate`
 
 Denne fila samler de operative målene som faktisk er modellert i ArchiMate-kilden, og beskriver hvordan de er koblet til den overordnede arkitekturmodellen.
 

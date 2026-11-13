@@ -62,6 +62,11 @@ Ikke kildesjekket ennå:
 - Gi `DIGDIR-048` et navn Digdir selv bruker, og rett `Type` i registeret fra `Rammeverk`.
 - Følge nye versjoner av kapabilitetsmodellen i `digdir/nasjonal-arkitektur`. Sammenlign på id, og
   kontroller id-settet i `capabilities.yaml` før noe endres.
+- Vurdere de eksisterende koblingene mot de endrede beskrivelsene i modellen `2026-11-04` for
+  `Veiledning`, `Forvaltningsstandarder`, `Regelverk og rettslig grunnlag` og
+  `Samarbeidsarenaer og nettverk`. `Organisatorisk samhandling` og `Tjenesteforvaltning` er gjort.
+- Kildesjekke `Samarbeid: Tjenesteforvaltning` for `FLERE-001` A-ordningen og `DIGDIR-055`
+  DSOP-samarbeidet.
 - Gi ressursmappene navn etter rammeverkskategoriene, etter
   [planen for omdøping av ressursmappene](./arbeidsstyring-og-handover/2026-10-02-omdoping-av-ressursmapper-v1.md).
   Gjennomføres bare når ingen andre økter arbeider i repoet og arbeidstreet er tomt.

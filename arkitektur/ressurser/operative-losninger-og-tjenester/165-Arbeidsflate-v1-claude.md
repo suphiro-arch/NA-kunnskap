@@ -33,7 +33,7 @@ Arbeidsflate er avhengig av flere kapabiliteter som realiseres andre steder. Aut
 - **Sluttbrukertjenester: Sammenhengende tjenester**
   Arbeidsflate samler meldinger, oppgaver og dialoger fra mange offentlige virksomheter i én oversikt, slik at brukeren slipper å oppsøke hver enkelt etat for å se hva som venter. Der Dialogporten gjør dialogene tilgjengelige i et felles format, er det Arbeidsflate som gir brukeren den samlede flaten.
 
-- **Tillit: Sporbarhet og innsyn**
+- **Digital tillit: Sporbarhet og innsyn**
   Løsningen gir sluttbrukeren innsyn i egen dialoghistorikk, status på innsendinger og arkiverte meldinger, inkludert historikk overført fra Altinn II. Innsynet er brukerrettet og gjelder egne eller representerte parters dialoger, ikke innsyn på vegne av offentligheten.
 
 - **Tjenesteutvikling: Gjenbrukbare tjenester**

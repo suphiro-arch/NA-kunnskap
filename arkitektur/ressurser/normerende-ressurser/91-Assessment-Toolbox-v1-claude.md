@@ -47,7 +47,7 @@ Koblingene er satt fordi verktøykassa selv leverer metoden, veiledningen og dat
 - **Veiledning: Utvikling og formidling av veiledning**
   utarbeider, kvalitetssikrer og tilgjengeliggjør retningslinjer, brukerveiledninger og læringseksempler for et avgrenset og krevende arbeidsområde.
 
-- **Standardisering: EU standarder**
+- **Standardisering: EU-standarder**
   definerer et felles vokabular og en datamodell for hvordan vurderinger beskrives og utveksles, slik at de kan sammenlignes på tvers av land.
 
 ## Målgruppe og brukere

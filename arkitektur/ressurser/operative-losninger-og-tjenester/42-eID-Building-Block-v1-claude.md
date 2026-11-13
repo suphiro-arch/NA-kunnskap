@@ -31,10 +31,10 @@ Byggesteinen dekker fire samhandlingsdimensjoner: juridisk, organisatorisk, sema
 ## Kapabiliteter
 Koblingene er satt fordi byggesteinen selv leverer den grensekryssende delen av evnen. Uten den ville en norsk tjeneste måtte bygge egne løsninger mot hvert enkelt lands eID-ordning. De nasjonale eID-ene som brukes gjennom nettverket, eies av andre aktører, og evnen til å utstede dem hører hos dem.
 
-- **Tillit: Autentisering**
+- **Digital tillit: Autentisering**
   gir mekanismen for at en tjeneste i ett land kan verifisere en innlogging utført med en eID fra et annet land, innenfor eIDAS-rammeverkets sikkerhetsnivåer.
 
-- **Tillit: Identifisering**
+- **Digital tillit: Identifisering**
   overfører et minimumsdatasett som identifiserer personen eller virksomheten entydig på tvers av landegrenser, slik at mottakeren kan koble identiteten videre i egen tjenestelogikk.
 
 ## Produktmål

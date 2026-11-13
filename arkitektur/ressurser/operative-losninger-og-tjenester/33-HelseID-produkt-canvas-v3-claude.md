@@ -32,8 +32,8 @@ Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vur
 
 - **Datautveksling og integrasjon: Bruke data fra andre** gjør det mulig å bruke sektorfelles API-er og informasjonstjenester gjennom et felles tillits- og autentiseringsmønster.
 - **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** beskytter innloggingsflyt, tokenbruk og deling av identitets- og tilgangsinformasjon i digital samhandling.
-- **Tillit: Autentisering** er en kjernefunksjon ved at HelseID bekrefter identiteten til helsepersonell, systemer og virksomheter.
-- **Tillit: Tilgangsstyring** forvalter tilgangen til API-ressurser i helse- og omsorgssektoren: tjenestetilbydere definerer scopes for API-ene sine i HelseID Selvbetjening, klienter ber om tilgang der, scopes er enten åpne, godkjennes av tjenestetilbyderen eller godkjennes automatisk når bruksvilkår er signert, og HelseID utsteder bare token med scopes klienten har tilgang til. Koblingen gjelder tilgang til API-er og systemer, ikke tilgang til helseopplysninger, som tjenestetilbyderne selv avgjør.
+- **Digital tillit: Autentisering** er en kjernefunksjon ved at HelseID bekrefter identiteten til helsepersonell, systemer og virksomheter.
+- **Digital tillit: Tilgangsstyring** forvalter tilgangen til API-ressurser i helse- og omsorgssektoren: tjenestetilbydere definerer scopes for API-ene sine i HelseID Selvbetjening, klienter ber om tilgang der, scopes er enten åpne, godkjennes av tjenestetilbyderen eller godkjennes automatisk når bruksvilkår er signert, og HelseID utsteder bare token med scopes klienten har tilgang til. Koblingen gjelder tilgang til API-er og systemer, ikke tilgang til helseopplysninger, som tjenestetilbyderne selv avgjør.
 
 ## Produktmål
 **Primærkilder:** NHNs sider `Hva er HelseID`, `Tjenestetilbud`, `Hvorfor bruke HelseID` og `Spørsmål og svar`.

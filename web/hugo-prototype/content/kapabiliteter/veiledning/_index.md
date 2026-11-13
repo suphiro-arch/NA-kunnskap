@@ -2,15 +2,15 @@
 title: "Veiledning"
 eyebrow: "Kapabilitet"
 weight: 12
-description: "Evne til å sikre at veiledninger for digital samhandling utarbeides, formidles og benyttes. Dette innebærer: * Beskrivelser av beste praksis * Omforente prinsipper, mønstre og standarder for hvordan løsninger skal bygges for å fungere optimalt, sikkert og sammenhengende i det nasjonale økosystemet. * Referansearkitekturer * hva som er god faglig praksis * hvordan relevant regelverk skal tolkes * hvilke prioriteringer som er i samsvar med vedtatt politikk Veiledere kan ha ulik grad av styrke: * Bør benyttes: en sterk anbefaling/råd som vil gjelde de aller fleste. Denne er så klart faglig forankret at det sjelden er forsvarlig ikke å gjøre som anbefalt * Kan eller foreslår: en svak anbefaling/råd der ulike valg kan være riktig."
-cardMeta: "2 delkapabiliteter / 27 produkter"
+description: "Evne til å sikre at veiledninger for digital samhandling utarbeides, formidles og benyttes. ### Begrunnelse (Hvorfor) Kapabiliteten sikrer at virksomheter i økosystemet får veiledning på hva som er god faglig praksis, hvordan relevant regelverk bør forstås i digital samhandling, og hvilke prioriteringer som er i samsvar med vedtatt politikk. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Veiledning må forklare hvordan regelverk, føringer og krav kan anvendes i digital samhandling, uten å erstatte formelle rettskilder, regelverkstolkning eller myndighetsansvar. - **Organisatorisk (Høy vekt):** Det må finnes rutiner for å utarbeide, kvalitetssikre, forvalte og formidle veiledning, med tydelig angivelse av veiledningens styrke (bør benyttes eller kan benyttes). - **Semantisk (Høy vekt):** Beskrivelser av beste praksis, prinsipper, mønstre og referansearkitekturer må bruke omforente begreper og felles maler, slik at veiledningen forstås og anvendes likt på tvers av virksomheter. - **Teknisk (Middels vekt):** Veiledning må være tilgjengelig i digitale kanaler, kataloger og kunnskapsbaser med versjonering og lenking, og tekniske veiledere og referansearkitekturer må kunne brukes direkte som grunnlag for løsningsvalg. ### Bidrag til sammenhengende tjenester og felles økosystem Når veiledningen er kvalitetssikret, lett tilgjengelig og brukes aktivt, reduseres lokale tolkninger og ulik praksis, og felles prinsipper og standarder tas raskere i bruk. For felles økosystem gir dette bedre etterlevelse og mer gjenbruk. For sluttbrukeren betyr det mer konsistente og sammenhengende digitale tjenester, fordi virksomhetene utvikler og forvalter løsninger etter samme kunnskapsgrunnlag."
+cardMeta: "2 delkapabiliteter / 30 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
   <div class="capability-product-links">
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/74-Felles-mal-for-innforing-av-digitale-fellestjenester-v1-claude.md">Felles mal for innføring av digitale fellestjenester</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/74-Felles-mal-for-innforing-av-digitale-fellestjenester-v2-claude.md">Felles mal for innføring av digitale fellestjenester</a></h3>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
@@ -106,7 +106,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/157-ung-no-v1-claude.md">ung.no</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/157-ung-no-v2-claude.md">ung.no</a></h3>
     </article>
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
@@ -116,7 +116,19 @@ productsMarkdown: |
       <p class="capability-product-link__type">Normerende ressurs</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/168-sikkert-no-v1-claude.md">Sikkert.no</a></h3>
     </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/174-NSMs-grunnprinsipper-for-IKT-sikkerhet-v1-claude.md">NSMs grunnprinsipper for IKT-sikkerhet</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/179-Internkontroll-i-praksis-informasjonssikkerhet-v1-claude.md">Internkontroll i praksis – informasjonssikkerhet</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/195-Normen-v1-claude.md">Normen</a></h3>
+    </article>
   </div>
 ---
 
-Evne til å sikre at veiledninger for digital samhandling utarbeides, formidles og benyttes. Dette innebærer: * Beskrivelser av beste praksis * Omforente prinsipper, mønstre og standarder for hvordan løsninger skal bygges for å fungere optimalt, sikkert og sammenhengende i det nasjonale økosystemet. * Referansearkitekturer * hva som er god faglig praksis * hvordan relevant regelverk skal tolkes * hvilke prioriteringer som er i samsvar med vedtatt politikk Veiledere kan ha ulik grad av styrke: * Bør benyttes: en sterk anbefaling/råd som vil gjelde de aller fleste. Denne er så klart faglig forankret at det sjelden er forsvarlig ikke å gjøre som anbefalt * Kan eller foreslår: en svak anbefaling/råd der ulike valg kan være riktig.
+Evne til å sikre at veiledninger for digital samhandling utarbeides, formidles og benyttes. ### Begrunnelse (Hvorfor) Kapabiliteten sikrer at virksomheter i økosystemet får veiledning på hva som er god faglig praksis, hvordan relevant regelverk bør forstås i digital samhandling, og hvilke prioriteringer som er i samsvar med vedtatt politikk. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Veiledning må forklare hvordan regelverk, føringer og krav kan anvendes i digital samhandling, uten å erstatte formelle rettskilder, regelverkstolkning eller myndighetsansvar. - **Organisatorisk (Høy vekt):** Det må finnes rutiner for å utarbeide, kvalitetssikre, forvalte og formidle veiledning, med tydelig angivelse av veiledningens styrke (bør benyttes eller kan benyttes). - **Semantisk (Høy vekt):** Beskrivelser av beste praksis, prinsipper, mønstre og referansearkitekturer må bruke omforente begreper og felles maler, slik at veiledningen forstås og anvendes likt på tvers av virksomheter. - **Teknisk (Middels vekt):** Veiledning må være tilgjengelig i digitale kanaler, kataloger og kunnskapsbaser med versjonering og lenking, og tekniske veiledere og referansearkitekturer må kunne brukes direkte som grunnlag for løsningsvalg. ### Bidrag til sammenhengende tjenester og felles økosystem Når veiledningen er kvalitetssikret, lett tilgjengelig og brukes aktivt, reduseres lokale tolkninger og ulik praksis, og felles prinsipper og standarder tas raskere i bruk. For felles økosystem gir dette bedre etterlevelse og mer gjenbruk. For sluttbrukeren betyr det mer konsistente og sammenhengende digitale tjenester, fordi virksomhetene utvikler og forvalter løsninger etter samme kunnskapsgrunnlag.

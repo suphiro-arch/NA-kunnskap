@@ -29,10 +29,10 @@ Portalen er også stedet der innbyggeren styrer sitt eget personvern i helsesekt
 Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot Helsenorges om-side, personverninnstillingene og NHNs rollebeskrivelse. Tillitskapabilitetene er knyttet til personverninnstillingene, der innbyggeren selv forvalter rettigheter. Håndhevingen av de samme rettighetene skjer i de underliggende løsningene, blant annet `Kjernejournal`.
 
 - **Sluttbrukertjenester: Sammenhengende tjenester** samler flere helsetjenester og informasjonsløp i én felles inngang for innbyggere.
-- **Tillit: Representasjon** gjør det mulig å opptre på vegne av andre gjennom fullmakt med selvvalgt omfang, og gir foreldre representasjon for barn under 16 år.
-- **Tillit: Samtykke** er stedet innbyggeren gir, endrer og trekker tilbake samtykke, blant annet samtykke til at barn mellom 13 og 16 år kan bruke enkelte tjenester, og samtykke til at apotek kan hente ut reseptvarer.
-- **Tillit: Sporbarhet og innsyn** er innbyggerens innsynsflate for bruk av egne helseopplysninger: under «Logg over bruk» ser innbyggeren hvilke helsepersonell som har åpnet kjernejournalen, og her kan innbyggeren også se hvem som har sett på reseptene, mens loggføringen av oppslagene skjer i `Kjernejournal` (NHN-003) og de andre kildeløsningene; i tillegg logger Helsenorge selv når innbyggeren, eller noen med foreldreansvar eller fullmakt, har brukt en tjeneste på innbyggerens vegne.
-- **Tillit: Tilgangsstyring** lar innbyggeren definere, avgrense og trekke tilbake hvem som skal ha tilgang til egne helseopplysninger, gjennom fullmakter, sperring og blokkering av utvalgte helsepersonell.
+- **Digital tillit: Representasjon** gjør det mulig å opptre på vegne av andre gjennom fullmakt med selvvalgt omfang, og gir foreldre representasjon for barn under 16 år.
+- **Digital tillit: Samtykke** er stedet innbyggeren gir, endrer og trekker tilbake samtykke, blant annet samtykke til at barn mellom 13 og 16 år kan bruke enkelte tjenester, og samtykke til at apotek kan hente ut reseptvarer.
+- **Digital tillit: Sporbarhet og innsyn** er innbyggerens innsynsflate for bruk av egne helseopplysninger: under «Logg over bruk» ser innbyggeren hvilke helsepersonell som har åpnet kjernejournalen, og her kan innbyggeren også se hvem som har sett på reseptene, mens loggføringen av oppslagene skjer i `Kjernejournal` (NHN-003) og de andre kildeløsningene; i tillegg logger Helsenorge selv når innbyggeren, eller noen med foreldreansvar eller fullmakt, har brukt en tjeneste på innbyggerens vegne.
+- **Digital tillit: Tilgangsstyring** lar innbyggeren definere, avgrense og trekke tilbake hvem som skal ha tilgang til egne helseopplysninger, gjennom fullmakter, sperring og blokkering av utvalgte helsepersonell.
 
 ## Produktmål
 **Primærkilder:** Helsenorges side `Om Helsenorge` og NHNs overordnede tjenestebeskrivelser.

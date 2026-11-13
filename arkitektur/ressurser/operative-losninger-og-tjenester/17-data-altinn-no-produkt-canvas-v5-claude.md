@@ -30,7 +30,7 @@ Produktet har både en tjenesteflate og en integrasjonsflate. Tjenesteflaten bes
 - **Datautveksling og integrasjon: Dele data med andre** gjør det mulig for datatilbydere å eksponere data gjennom en felles Altinn-løsning.
 - **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** er sentral fordi produktet håndterer kontrollert tilgang til ikke-åpne data og personopplysninger.
 - **Standardisering: Forvaltningsstandarder** realiseres gjennom en generisk og gjenbrukbar API-modell på tvers av flere tjenester.
-- **Tillit: Tilgangskontroll** er sentral fordi tjenestekontekst og regler styrer hvilke data som kan hentes.
+- **Digital tillit: Tilgangskontroll** er sentral fordi tjenestekontekst og regler styrer hvilke data som kan hentes.
 - **Tjenesteutvikling: Integrerbare tjenester** gjør det mulig å etablere flere datadelingstjenester innenfor samme grunnmønster.
 
 ## Produktmål

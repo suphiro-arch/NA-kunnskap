@@ -25,8 +25,8 @@ eSignering er den nasjonale fellesløsningen for digital innhenting av underskri
 
 ## Kapabiliteter
 - **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** beskytter dokumenter, signeringsoppdrag og statusmeldinger gjennom hele signeringsprosessen.
-- **Tillit: Autentisering** brukes for å sikre at den som signerer identifiserer seg med støttet eID før signeringen gjennomføres.
-- **Tillit: Signering** er produktets kjernefunksjon og gjør det mulig å gjennomføre elektronisk signering av dokumenter i en nasjonal fellestjeneste.
+- **Digital tillit: Autentisering** brukes for å sikre at den som signerer identifiserer seg med støttet eID før signeringen gjennomføres.
+- **Digital tillit: Signering** er produktets kjernefunksjon og gjør det mulig å gjennomføre elektronisk signering av dokumenter i en nasjonal fellestjeneste.
 
 ## Produktmål
 **Primærkilder:** Digdir Docs for eSignering og Samarbeidsportalen for produktområdet.

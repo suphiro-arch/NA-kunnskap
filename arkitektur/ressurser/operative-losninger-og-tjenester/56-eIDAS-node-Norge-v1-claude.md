@@ -31,10 +31,10 @@ Noden er ikke en egen brukerflate. Den er eksponert gjennom ID-porten, og en tje
 ## Kapabiliteter
 Koblingene er satt fordi noden selv utfører rutingen mot utlandet og matchingen mot Folkeregisteret. Selve eID-en utstedes i brukerens hjemland, og persondataene eies av Folkeregisteret; begge er avhengigheter og er beskrevet under `Gjenbruk`.
 
-- **Tillit: Autentisering**
+- **Digital tillit: Autentisering**
   gjør det mulig for en norsk tjeneste å verifisere en innlogging utført med en notifisert eID fra et annet EØS-land, på eIDAS-nivå betydelig eller høyt. Uten noden ville evnen til å autentisere utenlandske brukere forsvinne fra norsk arkitektur; den leveres ikke av ID-porten selv.
 
-- **Tillit: Identifisering**
+- **Digital tillit: Identifisering**
   knytter den utenlandske identiteten til en norsk personidentifikator gjennom oppslag i Folkeregisteret, slik at tjenesten kan bruke identiteten videre i egen saks- og tjenestelogikk.
 
 ## Produktmål

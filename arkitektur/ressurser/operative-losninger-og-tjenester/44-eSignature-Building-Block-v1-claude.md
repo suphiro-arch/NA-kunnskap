@@ -29,13 +29,13 @@ Byggesteinen består av tre praktiske deler: DSS-biblioteket for å bygge signat
 ## Kapabiliteter
 Koblingene er satt fordi byggesteinen selv leverer programvaren og tillitsoppslaget. Den enkelte signeringstjenesten og de kvalifiserte tillitstjenestetilbyderne er egne aktører, og evnen til å utstede kvalifiserte sertifikater hører hos dem.
 
-- **Tillit: Signering**
+- **Digital tillit: Signering**
   gir programvarekomponentene og tillitsgrunnlaget som gjør det mulig å opprette og verifisere avanserte og kvalifiserte elektroniske signaturer på tvers av land.
 
 - **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling**
   gjør det mulig å påvise at et dokument ikke er endret etter signering, og hvem som står bak det, uavhengig av hvilken kanal dokumentet er sendt gjennom.
 
-- **Standardisering: EU standarder**
+- **Standardisering: EU-standarder**
   forvalter og tilgjengeliggjør signaturformatene og valideringsreglene fra ETSI i en form som lar seg ta i bruk, med konformitetskontroll.
 
 ## Produktmål

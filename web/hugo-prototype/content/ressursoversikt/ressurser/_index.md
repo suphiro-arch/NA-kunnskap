@@ -12,22 +12,22 @@ Denne oversikten viser siste registrerte versjon per ressurs, gruppert etter ram
 
 Tekniske komponenter, applikasjoner og tjenester som leverer funksjonalitet eller dataprodukter som kan brukes av flere.
 
-Antall ressurser: **105**
+Antall ressurser: **116**
 
 ## [Standarder og veiledning](./normerende-ressurser/)
 
 Ressurser som setter regler eller gir retning, som standarder, veiledere, referansearkitekturer og metodikk.
 
-Antall ressurser: **35**
+Antall ressurser: **43**
 
 ## [Samhandlingsarenaer og organisering](./samarbeidsfora/)
 
 Organiserte nettverk og styringsorganer for dialog, strategisk samarbeid og samordning.
 
-Antall ressurser: **12**
+Antall ressurser: **15**
 
 ## [Økonomiske og juridiske rammer og virkemidler](./rammer-og-virkemidler/)
 
 Finansielle og regulative virkemidler som muliggjør gjennomføring og setter handlingsrom.
 
-Antall ressurser: **10**
+Antall ressurser: **16**

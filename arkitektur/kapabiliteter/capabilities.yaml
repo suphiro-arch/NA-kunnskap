@@ -1,6 +1,6 @@
 # Nasjonal Arkitektur Kapabilitetsmodell
-# Kilde: sources/Nasjonal Arkitektur kapabilitetsmodell-2026-09-30.archimate
-# Oppdatert: 2026-09-30
+# Kilde: sources/Nasjonal Arkitektur kapabilitetsmodell-2026-11-04.archimate
+# Oppdatert: 2026-11-04
 
 kapabilitetsmodell:
   id: id-ba60560a9ed64b4d87b2fd4fa6b32937
@@ -43,6 +43,7 @@ kapabilitetsmodell:
         sektor som tilbyr en helhetlig og sømløs brukeropplevelse.
       prinsipper:
         - id-dbfcb14c3e024a40b6cb71138311abc0  # P2
+        - id-d0918d8701a4408b93a9ab278ecbb85e  # P5
       delkapabiliteter:
         - id: id-ecdde89168314bfb94b6a6ac70a55bc7
           navn: Finansiering
@@ -52,12 +53,16 @@ kapabilitetsmodell:
             finansieringsmodeller følger i stor grad den enkelte virksomhets budsjettrammer. Dette
             skaper store utfordringer for tverrgående digitale tiltak. Ofte må én enkelt virksomhet
             ta hele utviklingskostnaden, mens gevinstene hentes ut av andre aktører eller av
-            samfunnet som helhet. Det skal sikre langsiktige og forutsigbare økonomiske rammer for
-            felles digital infrastruktur og tverrgående digitale tjenester. ### Hva det innebærer
-            (Omfang) - **Organisatorisk (Svært høy vekt):** Konkrete prosesser for søknad om statlig
+            samfunnet som helhet. Kapabiliteten skal sikre langsiktige og forutsigbare økonomiske
+            rammer for felles digital infrastruktur og tverrgående digitale tjenester. ### Hva det
+            innebærer (Omfang) - **Juridisk (Ikke relevant):** Kapabiliteten handler om
+            finansieringsmodeller og kostnadsdeling, mens økonomiregelverket er en ytre ramme. -
+            **Organisatorisk (Svært høy vekt):** Konkrete prosesser for søknad om statlig
             medfinansiering. Etablering av bindende avtaler om kostnadsdeling mellom samhandlende
             virksomheter. Utarbeidelse av forretningsmodeller og rutiner for tverrgående
-            gevinstrealisering. ### Bidrag til sammenhengende tjenester og felles økosystem
+            gevinstrealisering. - **Semantisk (Ikke relevant):** Kapabiliteten handler ikke om
+            betydningen av data eller begreper. - **Teknisk (Ikke relevant):** Kapabiliteten handler
+            ikke om tekniske løsninger. ### Bidrag til sammenhengende tjenester og felles økosystem
             Kapabiliteten bidrar til sammenhengende tjenester ved å redusere de økonomiske
             barrierene som ofte bremser tverrgående digitaliseringstiltak. Når finansiering av
             utvikling, drift, forvaltning og videreutvikling er avklart, får virksomhetene bedre
@@ -120,102 +125,123 @@ kapabilitetsmodell:
             virksomheter lenger optimalisere kun for seg selv. Kapabiliteten krever en tydelig
             styring eller et mandat som forplikter uavhengige aktører til å tilpasse seg hverandre,
             slik at offentlig sektor kan opptre koordinert og effektivt. ### Hva det innebærer
-            (Omfang) - **Juridisk:** Å sørge for at juss og forvaltningspraksis i ulike virksomheter
-            er kompatible, slik at det rettslige hjemmelsgrunnlaget for deling av data er på plass
-            (f.eks. mellom Skatteetaten og NAV). - **Organisatorisk:** Å sørge for felles
-            arbeidsprosesser og en tydelig ansvarsfordeling mellom de samhandlende virksomhetene for
-            å definere stegene i en tjenestekjede. - **Semantisk:** Å sørge for en omforent og
-            felles forståelse av hva dataene betyr (f.eks. at begrepet "ansatt" betyr det samme i to
-            ulike systemer), slik at maskiner kan forstå hverandre. - **Teknisk:** Å sørge for at
-            felles standarder og nasjonale fellesløsninger blir tatt i bruk, fremfor at virksomheter
-            bygger egne, proprietære løsninger. ### Bidrag til sammenhengende tjenester og felles
-            økosystem Samordning kobler strategi, arkitektur, beslutninger og ressurser på tvers,
-            slik at offentlig sektor kan levere helhetlige tjenester rundt brukerens behov.
+            (Omfang) - **Juridisk (Middels vekt):** Koordinere at juss og forvaltningspraksis i
+            ulike virksomheter gjøres kompatible, og at nødvendig hjemmelsgrunnlag for deling av
+            data avklares på tvers (f.eks. mellom Skatteetaten og NAV). - **Organisatorisk (Svært
+            høy vekt):** Etablere mandat, felles beslutningsarenaer og tydelig ansvarsfordeling som
+            forplikter samhandlende virksomheter til felles arbeidsprosesser, prioriteringer og
+            ressursbruk i tjenestekjeder. - **Semantisk (Middels vekt):** Sørge for at virksomhetene
+            forplikter seg til omforente begreper og en felles forståelse av hva dataene betyr
+            (f.eks. at «ansatt» betyr det samme i to ulike systemer), slik at maskiner kan forstå
+            hverandre. - **Teknisk (Middels vekt):** Sørge for at felles standarder og nasjonale
+            fellesløsninger blir valgt og tatt i bruk, fremfor at virksomheter bygger egne,
+            proprietære løsninger. ### Bidrag til sammenhengende tjenester og felles økosystem
+            Samordning kobler strategi, arkitektur, beslutninger og ressurser på tvers, slik at
+            offentlig sektor kan levere helhetlige tjenester rundt brukerens behov.
     - id: id-e67a4f2983ce40f9823ec34ba460055a
       navn: Samarbeid
       ikon: users
       beskrivelse: >
-        Evne til å samarbeid og samhandling på tvers av offentlig og privat forvaltning. ###
-        Begrunnelse (Hvorfor) Sammenhengende tjenester kan ikke bygges i isolasjon. Aktørene i
-        økosystemet må fungere som ett lag for å løse felles utfordringer, unngå dobbeltarbeid og
-        bryte ned silotenking. Denne overordnede pilaren eksisterer for å sikre helhetlig
-        samfunnsverdi og felles strategisk retning. Den løser problemet med at virksomheter
-        prioriterer interne oppgaver fremfor tverrgående brukerreiser. ### Hva det innebærer
-        (Omfang) - **Organisatorisk (Svært høy vekt):** Overordnede styringsmodeller, samstyring og
-        finansiering koordinerer samhandlingsmodeller og avtaler for å tilpasse tjenestekjeder og
-        prosesser. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten bygger
-        bro mellom organisatoriske siloer og sikrer overordnet strategisk koordinering. Når man er
-        enige om prioriteringer, økonomi og spilleregler på forhånd, sikres et tydelig mandat for
-        samarbeid. Dette gir de operative teamene fundamentet de trenger for å binde tjenester
-        sammen til en uavbrutt og guidet reise, slik at sluttbrukeren opplever forvaltningen som én
-        samordnet aktør.
+        Evne til å samarbeide og samhandle på tvers av virksomheter i offentlig og privat sektor.
+        ### Begrunnelse (Hvorfor) Sammenhengende tjenester kan ikke bygges i isolasjon. Når en
+        tjeneste krever bidrag fra flere virksomheter, må de arbeide sammen om prosesser, ansvar og
+        forvaltning, ikke bare utveksle data. Kapabiliteten fungerer som en paraply for
+        organisatorisk samhandling, samarbeidsarenaer og nettverk og tjenesteforvaltning. Den løser
+        problemet med at virksomheter prioriterer interne oppgaver fremfor tverrgående brukerreiser.
+        Strategisk styring setter retning, gir mandat og fordeler ressurser. Samarbeid handler om
+        hvordan virksomhetene arbeider sammen innenfor disse rammene. ### Hva det innebærer (Omfang)
+        - **Juridisk (Høy vekt):** Samarbeidsavtaler, tjenesteavtaler og andre forpliktende rammer
+        må gi et tydelig grunnlag for ansvarsdeling og felles forvaltning mellom virksomhetene. -
+        **Organisatorisk (Svært høy vekt):** Felles arbeidsprosesser, avklarte roller og ansvar,
+        møteplasser og forvaltningsmodeller må gjøre det mulig for virksomhetene å levere og
+        videreutvikle tjenester sammen. - **Semantisk (Middels vekt):** Felles begreper og
+        beskrivelser må sikre at samarbeidende virksomheter har samme forståelse av roller, ansvar
+        og tjenester. - **Teknisk (Middels vekt):** Felles verktøy og digitale samarbeidsflater må
+        understøtte forvaltning og samhandling på tvers av virksomheter. ### Bidrag til
+        sammenhengende tjenester og felles økosystem Kapabiliteten bygger bro mellom organisatoriske
+        siloer. Når virksomhetene har avklart hvem som gjør hva, hvordan arbeidet overleveres og
+        hvem som har ansvar for helheten, kan tjenester bindes sammen til en uavbrutt reise for
+        brukeren. For det felles økosystemet gir dette mindre dobbeltarbeid, raskere avklaringer og
+        tjenester som kan forvaltes og videreutvikles i fellesskap. For sluttbrukeren betyr det at
+        forvaltningen oppleves som én samordnet aktør.
       prinsipper:
-        - id-dbfcb14c3e024a40b6cb71138311abc0  # P2
         - id-0007ec16e9a1406d9f6aabd1f975d993  # P6
       delkapabiliteter:
         - id: id-9ea8fbaeb19243fa971013c57c3e96f9
           navn: Organisatorisk samhandling
           beskrivelse: >
-            Evne til å effektivisere forretningsprosesser og verdikjeder på tvers av organisatoriske
-            grenser. ### Begrunnelse (Hvorfor) For å lage sammenhengende tjenester må uavhengige
-            etater og virksomheter fungere som ett lag. Denne hovedkapabiliteten sikrer tverrgående
-            styring og finansiering nasjonalt. Det skal bidra til å minske at virksomheter
-            prioriterer egne, interne oppgaver framfor helhetlige brukerreiser som krever samarbeid.
-            ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Overordnede rammeverk for
-            samarbeidsavtaler og nasjonale føringer, som Digitaliseringsrundskrivet, regulerer
-            plikten til å samhandle og dele data. - **Organisatorisk (Svært høy vekt):** Nasjonale
-            styringsmodeller, samstyring, finansieringsordninger og porteføljestyring avklarer
-            strategisk ansvar, prioriteringer og spilleregler for samarbeid. - **Semantisk (Middels
-            vekt):** Felles forståelse av organisatoriske roller, ansvar, eierskap og tjenestekjeder
-            gjør det tydelig hvem som har ansvar på tvers av sektorer og livshendelser. ### Bidrag
-            til sammenhengende tjenester og felles økosystem Kapabiliteten bygger bro mellom
-            organisatoriske siloer og sikrer bredere enighet om prioriteringer, ansvar og økonomi på
-            forhånd. Dette gir operative team mandatet de trenger for å utvikle sømløse tjenester på
-            tvers av virksomheter. For sluttbrukeren betyr det at offentlig sektor i større grad kan
-            opptre som én samordnet aktør, selv om tjenestene leveres av flere uavhengige
-            virksomheter.
+            Evne til å tilpasse og samordne arbeidsprosesser, roller og ansvar på tvers av
+            virksomheter, slik at de henger sammen ### Begrunnelse (Hvorfor) Når en tjeneste går på
+            tvers av virksomheter, oppstår det overganger der ansvar, informasjon og arbeid skal
+            flyttes fra én aktør til en annen. Uten avklarte arbeidsprosesser blir disse overgangene
+            manuelle, uklare eller brutte, og brukeren må selv koordinere mellom virksomhetene.
+            Kapabiliteten løser dette ved å gjøre tverrgående arbeidsprosesser, overleveringer og
+            ansvarsdeling eksplisitte og omforente. Kapabiliteten dekker det operative arbeidet på
+            tvers. Strategisk retning og finansiering hører til Strategisk styring, og formelle
+            avtaler om eierskap og tjenestenivå hører til Tjenesteforvaltning. ### Hva det innebærer
+            (Omfang) - **Juridisk (Middels vekt):** Rettslige rammer for ansvar, saksbehandling og
+            informasjonsdeling må være avklart når arbeidsprosesser går på tvers av virksomheter. -
+            **Organisatorisk (Svært høy vekt):** Kartlegge og tilpasse tverrgående arbeidsprosesser,
+            avklare roller og ansvar i hvert steg, og etablere rutiner for overlevering, oppfølging
+            og håndtering av avvik mellom virksomhetene. - **Semantisk (Middels vekt):** Felles
+            forståelse av roller, ansvar, prosessteg og overgangspunkter må gjøre det tydelig hvem
+            som gjør hva på tvers av sektorer og livshendelser. - **Teknisk (Ikke relevant):**
+            Kapabiliteten handler om arbeidsprosesser, roller og ansvarsdeling, ikke om tekniske
+            løsninger. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten
+            gjør at arbeid kan flyte mellom virksomheter uten å stoppe opp i overgangene. Når hver
+            virksomhet vet hvilket steg den har ansvar for og hvordan arbeidet overleveres, kan en
+            tjenestekjede fungere som én sammenhengende prosess. For sluttbrukeren betyr det at
+            offentlig sektor kan opptre som én samordnet aktør, selv om tjenestene leveres av flere
+            uavhengige virksomheter.
         - id: id-b4a86e2e430c472b9f74bedb7f66fd74
           navn: Samarbeidsarenaer og nettverk
           beskrivelse: >
-            Evne til å effektivisere, etablere, forvalte og fasilitere arenaer, nettverk og
-            prosesser som fremmer kunnskapsdeling, dialog og samordning på tvers av virksomheter i
-            økosystemet. ### Begrunnelse (Hvorfor) Sammenhengende tjenester kan ikke bygges i
-            isolasjon. Aktørene i økosystemet må møtes for å dele erfaringer, løse felles
-            utfordringer og samordne planer. Denne kapabiliteten sikrer velfungerende møteplasser
-            som reduserer dobbeltarbeid, motvirker silotenking og gjør det mulig å koordinere
-            utvikling på tvers av virksomheter. ### Hva det innebærer (Omfang) - **Organisatorisk
-            (Svært høy vekt):** Sette opp og drifte konkrete nettverk, faggrupper og forum. Avklare
-            roller, mandater og spilleregler for deltakelse, samt sikre at arbeidet er forankret hos
+            Evne til å etablere, forvalte og fasilitere arenaer, nettverk og prosesser som fremmer
+            kunnskapsdeling, dialog og samordning på tvers av virksomheter i økosystemet. ###
+            Begrunnelse (Hvorfor) Sammenhengende tjenester kan ikke bygges i isolasjon. Aktørene i
+            økosystemet må møtes for å dele erfaringer, løse felles utfordringer og samordne planer.
+            Denne kapabiliteten sikrer velfungerende møteplasser som reduserer dobbeltarbeid,
+            motvirker silotenking og gjør det mulig å koordinere utvikling på tvers av virksomheter.
+            ### Hva det innebærer (Omfang) - **Juridisk (Ikke relevant):** Arenaer og nettverk er
+            frivillige samarbeidsformer uten egne juridiske forpliktelser. - **Organisatorisk (Svært
+            høy vekt):** Sette opp og drifte konkrete nettverk, faggrupper og forum. Avklare roller,
+            mandater og spilleregler for deltakelse, samt sikre at arbeidet er forankret hos
             ledelsen i virksomhetene. - **Semantisk (Middels vekt):** Bruke arenaene til å bygge
             felles kultur, terminologi og forståelse mellom arkitekter, jurister, utviklere og
-            fagmiljøer fra ulike sektorer. ### Bidrag til sammenhengende tjenester og felles
-            økosystem Når fagfolk møtes på tvers av organisasjoner, blir det lettere å oppdage hvor
-            tjenester berører hverandre. Arenaene bidrar til å identifisere nye tverrgående
-            brukerreiser, dele erfaringer og koordinere endringer i økosystemet. Dette gir bedre
-            grunnlag for sammenhengende tjenester og gjør at virksomhetene kan utvikle løsninger som
-            henger bedre sammen for sluttbrukeren.
+            fagmiljøer fra ulike sektorer. - **Teknisk (Ikke relevant):** Kapabiliteten handler om
+            møteplasser og faglige nettverk, ikke om tekniske løsninger. ### Bidrag til
+            sammenhengende tjenester og felles økosystem Når fagfolk møtes på tvers av
+            organisasjoner, blir det lettere å oppdage hvor tjenester berører hverandre. Arenaene
+            bidrar til å identifisere nye tverrgående brukerreiser, dele erfaringer og koordinere
+            endringer i økosystemet. Dette gir bedre grunnlag for sammenhengende tjenester og gjør
+            at virksomhetene kan utvikle løsninger som henger bedre sammen for sluttbrukeren.
         - id: id-3f59d920995e4d488e56f61356dcf97a
           navn: Tjenesteforvaltning
           beskrivelse: >
-            Evne til å formalisere samarbeid gjennom tydelig definerte roller, ansvar og avtaler for
-            å sikre forutsigbar og effektiv felles styring mellom samhandlende virksomheter. ###
-            Begrunnelse (Hvorfor) Når tjenester settes sammen av bidrag fra flere ulike
-            virksomheter, oppstår det nye og komplekse styringsutfordringer. Kapabiliteten handler
-            om å designe og implementere styringsmodeller tilpasset tverrgående tjenestekjeder og
-            digitale økosystemer. Den løser behovet for forutsigbar felles styring, tydelig
-            ansvarsplassering og avklarte avtaler mellom samhandlende virksomheter. ### Hva det
-            innebærer (Omfang) - **Juridisk (Høy vekt):** Inngåelse av formelle avtaler mellom
-            virksomhetene, inkludert samforståelsesmemorandum som sikrer rettslig forankring og
-            gjensidig forpliktelse. - **Organisatorisk (Svært høy vekt):** Etablering av klare
-            roller, ansvar og avtalefesting gjennom SLA og governance i tjenestekjeder. Tydelig
-            plassering av ansvar for hele kjeden fra ende til ende, slik at hver virksomhet vet hva
-            som forventes av dem i samarbeidet. - **Teknisk (Middels vekt):** Operasjonalisering og
-            oppfølging av tjenestenivåavtaler gjennom teknisk måling og felles monitorering av
-            tjenestekjedene. ### Bidrag til sammenhengende tjenester og felles økosystem
-            Kapabiliteten plasserer ansvaret for at den helhetlige tjenestekjeden fungerer fra ende
-            til ende. Ved å avklare spilleregler, roller, ansvar og økonomi på forhånd, unngår man
+            Evne til å forvalte tjenester som leveres i samhandling mellom flere virksomheter, med
+            tydelig eierskap, avtalefestet ansvar og styring gjennom hele livsløpet. ### Begrunnelse
+            (Hvorfor) Når tjenester settes sammen av bidrag fra flere virksomheter, oppstår nye
+            styrings- og forvaltningsutfordringer. Det må være klart hvem som eier tjenesten, hvem
+            som har ansvar når noe feiler, og hvordan den kan endres eller fases ut uten at andre
+            aktører rammes. Uten en slik evne har ingen ansvar for at tjenestekjeden fungerer fra
+            ende til ende, selv om hver virksomhet forvalter sin egen del. Kapabiliteten skiller seg
+            fra Integrerbare tjenester, som dekker livssyklusen til enkelte API-er og byggeklosser,
+            og fra Organisatorisk samhandling, som dekker arbeidsprosessene på tvers.
+            Tjenesteforvaltning dekker eierskapet, avtalene og forvaltningen av tjenesten som
+            helhet. ### Hva det innebærer (Omfang) - **Juridisk (Høy vekt):** Inngåelse av formelle
+            avtaler mellom virksomhetene, inkludert samforståelsesmemorandum, som sikrer rettslig
+            forankring og gjensidig forpliktelse. - **Organisatorisk (Svært høy vekt):** Etablere
+            eierskap, roller og ansvar for hele tjenestekjeden fra ende til ende, avtalefeste
+            tjenestenivå (SLA), og ha rutiner for endring, versjonering, brukerstøtte,
+            driftsvarsling og utfasing. - **Semantisk (Ikke relevant):** Kapabiliteten handler om
+            eierskap, drift og livssyklus for tjenester, mens tjenestebeskrivelser ivaretas av
+            Oversikt over tjenester. - **Teknisk (Middels vekt):** Operasjonalisering og oppfølging
+            av tjenestenivåavtaler gjennom teknisk måling og felles monitorering av tjenestekjedene.
+            ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten plasserer
+            ansvaret for at tjenesten og tjenestekjeden fungerer fra ende til ende, gjennom hele
+            livsløpet. Ved å avklare spilleregler, roller, ansvar og økonomi på forhånd unngår man
             at digitale samhandlingstiltak stopper opp i interne prioriteringer. For sluttbrukeren
-            betyr dette en mer stabil og forutsigbar leveranse der offentlig og privat sektor kan
+            betyr dette en mer stabil og forutsigbar leveranse, der offentlig og privat sektor kan
             fremstå som én samordnet aktør.
     - id: id-1be148b57796458993c3f7f5f24815ca
       navn: Sluttbrukertjenester
@@ -245,13 +271,11 @@ kapabilitetsmodell:
         enklere å utvikle tjenester som oppleves som én samlet offentlig sektor.
       prinsipper:
         - id-94f7473fb4184e3b94bb92c35186b88f  # P1
-        - id-d0918d8701a4408b93a9ab278ecbb85e  # P5
-        - id-0007ec16e9a1406d9f6aabd1f975d993  # P6
       delkapabiliteter:
         - id: id-0aa7eced8c5c460f8bc64b77bd6a16c4
           navn: Sammenhengende tjenester
           beskrivelse: >
-            Evne til å levere en digital brukerorienterte tjenester som fremstår som en logisk og
+            Evne til å levere brukerorienterte digitale tjenester som fremstår som en logisk og
             uavbrutt prosess for brukeren, selv når den involverer og koordinerer handlinger og
             tjenester fra flere, uavhengige virksomheter. ### Begrunnelse (Hvorfor) Når digitale
             tjenester er splittet opp mellom ulike uavhengige etater, blir brukeren ofte stående som
@@ -264,7 +288,7 @@ kapabilitetsmodell:
             tverretatlig datadeling. - **Organisatorisk (Svært høy vekt):** Utforming av tverrgående
             arbeidsprosesser understøtter en uavbrutt og guidet reise der brukeren ledes
             steg-for-steg uten å måtte forholde seg til statlige eller kommunale grenser. -
-            **Semantisk (Middels vekt):** Operasjonalisering av "kun én gang"-prinsippet sikrer at
+            **Semantisk (Høy vekt):** Operasjonalisering av "kun én gang"-prinsippet sikrer at
             oppgitte data gjenbrukes via felles informasjonsmodeller. - **Teknisk (Høy vekt):**
             Teknisk integrasjon via standardiserte grensesnitt (API-er) og fellesløsninger sikrer at
             data deles og gjenbrukes. ### Bidrag til sammenhengende tjenester og felles økosystem
@@ -289,7 +313,7 @@ kapabilitetsmodell:
             samarbeidsavtaler og rettslige rammer sikrer lovlig automatisert informasjonsflyt mellom
             selvstendige tjenesteeiere. - **Organisatorisk (Svært høy vekt):** Avtalefesting av
             operasjonelt ansvar (SLA) og etablering av tverrgående arbeidsprosesser definerer
-            stegene i tjenestekjeden. - **Semantisk (Middels vekt):** Anvendelse av spesifikke
+            stegene i tjenestekjeden. - **Semantisk (Høy vekt):** Anvendelse av spesifikke
             informasjonsmodeller og standardiserte dataformater sikrer korrekt tolking av data som
             utveksles mellom tjenestene. - **Teknisk (Svært høy vekt):** Implementering av tekniske
             grensesnitt (API-er) og hendelsesdrevet arkitektur kobler distribuerte løsninger sammen
@@ -319,7 +343,7 @@ kapabilitetsmodell:
             søknad. - **Organisatorisk (Svært høy vekt):** Etablering av operative rutiner for
             personalisert og kanal-uavhengig varsling via brukerens foretrukne digitale kanal.
             Utforming av nye arbeidsprosesser for å igangsette forhåndsutfylte tjenester og proaktiv
-            veiledning som avlaster kommunikasjonssentre. - **Semantisk (Middels vekt):**
+            veiledning som avlaster kommunikasjonssentre. - **Semantisk (Høy vekt):**
             Standardisering av logiske forretningsregler og relevanskriterier på tvers av sektorer.
             Harmonisering av datastrukturer og begreper knyttet til viktige tjenester for å sikre
             treffsikker og intelligent regelstyring. - **Teknisk (Svært høy vekt):** Bruk av
@@ -327,14 +351,13 @@ kapabilitetsmodell:
             Folkeregisteret og Enhetsregisteret. Implementering av tekniske integrasjoner for
             utsendelse av sikre, betimelige varsler og automatisert generering av forhåndsutfylte
             søknadsskjemaer. ### Bidrag til sammenhengende tjenester og felles økosystem
-            Kapabiliteten representerer et paradigmeskifte der offentlig sektor oppleves som en
-            hjelpende hånd og en partner fremfor en byråkratisk motpart. Ved å varsle brukeren om
-            rettigheter, plikter og muligheter før de selv har etterspurt det, bindes uavhengige
-            etaters tjenester sammen til en flytende og uavbrutt reise. Dette sikrer at
-            velferdsstatens goder når effektivt frem, og at det blir enklere for næringsliv og
-            innbyggere å overholde plikter. For det felles økosystemet gir dette radikal
-            effektivisering og frigjør enorme ressurser fra rutinemessig saksbehandling, samtidig
-            som det bygger dyp samfunnstillit.
+            Kapabiliteten bidrar til at offentlig sektor oppleves som en hjelpende hånd og en
+            partner fremfor en byråkratisk motpart. Ved å varsle brukeren om rettigheter, plikter og
+            muligheter før de selv har etterspurt det, bindes uavhengige etaters tjenester sammen
+            til en flytende og uavbrutt reise. Dette sikrer at brukers rettigheter når effektivt
+            frem, og at det blir enklere for næringsliv og innbyggere å overholde plikter. For det
+            felles økosystemet gir dette effektivisering og frigjør ressurser fra rutinemessig
+            saksbehandling, samtidig som det bygger samfunnstillit.
     - id: id-ad6f81e892a74590840828b6aabb270d
       navn: Datautveksling og integrasjon
       ikon: workflow
@@ -431,7 +454,7 @@ kapabilitetsmodell:
             felles forståelse av meldingstyper, begreper, informasjonsmodeller, statusverdier,
             kvitteringer og avvik. - **Teknisk (Høy vekt):** Bygger på felles standarder,
             grensesnitt, sikkerhetsmekanismer og infrastruktur som gjør systemer i stand til å
-            sende, motta og behandle meldinger, f.eks. en meldingsformidler ### Bidrag til
+            sende, motta og behandle meldinger, f.eks. en meldingsformidler. ### Bidrag til
             sammenhengende tjenester og felles økosystem Meldingsutveksling bidrar til
             sammenhengende tjenester ved å sikre at nødvendig informasjon kan flyte strukturert og
             pålitelig mellom virksomheter i en tjenestekjede. Brukeren slipper å være bærer av
@@ -472,10 +495,10 @@ kapabilitetsmodell:
             saksbehandling, varsling og automatisert oppfølging. Dermed kan offentlig sektor utvikle
             mer dynamiske, datadrevne og brukerorienterte tjenester.
     - id: id-d503cf06faa1417b8acd4b26a5c0741e
-      navn: Tillit
+      navn: Digital tillit
       ikon: shield-check
       beskrivelse: >
-        Evne å tilby tillitstjenester som muliggjører autentisering og autorisasjon på tvers av
+        Evne til å tilby tillitstjenester som muliggjører autentisering og autorisasjon på tvers av
         tjenestekjeder, og støtte en distribuert arkitektur og føderering mellom ulike domener og
         tjeneste. ### Begrunnelse (Hvorfor) Kapabiliteten gir et felles tillitsgrunnlag for digital
         samhandling på tvers av virksomheter, domener og tjenestekjeder. Den fungerer som en
@@ -507,31 +530,30 @@ kapabilitetsmodell:
         - id: id-ec0afaac123d4f9e83889d9022a198c3
           navn: Autentisering
           beskrivelse: >
-            Evne til å på en sikker og entydig måte verifisere den digitale identiteten til brukere
-            og systemer. ### Begrunnelse (Hvorfor) Kapabiliteten sikrer at digitale tjenester kan
-            vite hvem eller hvilket system som forsøker å få tilgang. Den løser behovet for trygg
-            innlogging, entydig verifisering av digital identitet og riktig sikkerhetsnivå i
-            tjenester som inngår i felles økosystem. Autentisering skal samtidig være tilgjengelig
-            og brukervennlig. Det innebærer å tilby sikre, tilgjengelige og moderne
-            innloggingsmekanismer, for eksempel biometri, passordfrie løsninger, app og web, på
-            ulike sikkerhetsnivåer. ### Hva det innebærer (Omfang) - **Juridisk (Høy vekt):** Sikre
-            at autentisering skjer i tråd med krav til eID, personvern, sikkerhet, sporbarhet og
-            regelverk for digitale tillitstjenester. - **Organisatorisk (Høy vekt):** Etablere
-            rutiner for å risikovurdere og tilpasse eID-nivået i samarbeid med tjenesteeiere, slik
-            at terskelen for bruk ikke blir unødvendig høy. - **Semantisk (Middels vekt):** Sikre
-            felles forståelse av begreper som digital identitet, autentiseringsnivå, eID-nivå,
-            bruker, system, innloggingsmekanisme og tillitsnivå. - **Teknisk (Svært høy vekt):**
-            Tilby sikre, tilgjengelige og moderne innloggingsmekanismer på ulike sikkerhetsnivåer,
-            med støtte for biometri, passordfrie løsninger, app og web, samt tekniske mekanismer for
-            token, sesjonshåndtering, logging og integrasjon mot felles autentiseringstjenester. ###
-            Bidrag til sammenhengende tjenester og felles økosystem Autentisering gjør det mulig å
-            etablere tillit til hvem som bruker en digital tjeneste, enten det er en person,
-            virksomhet eller et system. Når autentisering skjer på en sikker og standardisert måte,
-            kan tjenester på tvers av virksomheter bygge på samme tillitsgrunnlag. Kapabiliteten
-            styrker sammenhengende tjenester ved at brukeren kan bevege seg tryggere mellom
-            tjenester uten unødvendige innloggingsbarrierer. For det felles økosystemet gir
-            autentisering et nødvendig grunnlag for tilgangsstyring, tilgangskontroll,
-            representasjon, sporbarhet og sikker datadeling.
+            Evne til å verifisere den digitale identiteten til brukere og systemer. ### Begrunnelse
+            (Hvorfor) Kapabiliteten sikrer at digitale tjenester kan vite hvem eller hvilket system
+            som forsøker å få tilgang. Den løser behovet for trygg innlogging, entydig verifisering
+            av digital identitet og riktig sikkerhetsnivå i tjenester som inngår i felles økosystem.
+            Autentisering skal samtidig være tilgjengelig og brukervennlig. Det innebærer å tilby
+            sikre, tilgjengelige og moderne innloggingsmekanismer, for eksempel biometri,
+            passordfrie løsninger, app og web, på ulike sikkerhetsnivåer. ### Hva det innebærer
+            (Omfang) - **Juridisk (Høy vekt):** Sikre at autentisering skjer i tråd med krav til
+            eID, personvern, sikkerhet, sporbarhet og regelverk for digitale tillitstjenester. -
+            **Organisatorisk (Høy vekt):** Etablere rutiner for å risikovurdere og tilpasse
+            eID-nivået i samarbeid med tjenesteeiere, slik at terskelen for bruk ikke blir
+            unødvendig høy. - **Semantisk (Middels vekt):** Sikre felles forståelse av begreper som
+            digital identitet, autentiseringsnivå, eID-nivå, bruker, system, innloggingsmekanisme og
+            tillitsnivå. - **Teknisk (Svært høy vekt):** Tilby sikre, tilgjengelige og moderne
+            innloggingsmekanismer på ulike sikkerhetsnivåer, med støtte for biometri, passordfrie
+            løsninger, app og web, samt tekniske mekanismer for token, sesjonshåndtering, logging og
+            integrasjon mot felles autentiseringstjenester. ### Bidrag til sammenhengende tjenester
+            og felles økosystem Autentisering gjør det mulig å etablere tillit til hvem som bruker
+            en digital tjeneste, enten det er en person, virksomhet eller et system. Når
+            autentisering skjer på en sikker og standardisert måte, kan tjenester på tvers av
+            virksomheter bygge på samme tillitsgrunnlag. Kapabiliteten styrker sammenhengende
+            tjenester ved at brukeren kan bevege seg tryggere mellom tjenester uten unødvendige
+            innloggingsbarrierer. For det felles økosystemet gir autentisering et nødvendig grunnlag
+            for tilgangsstyring, tilgangskontroll, representasjon, sporbarhet og sikker datadeling.
         - id: id-a8a1eb0181f04006ba7d3b5ab2fa9ca8
           navn: Tilgangskontroll
           beskrivelse: >
@@ -593,66 +615,66 @@ kapabilitetsmodell:
         - id: id-b2aafe1f4c534db6b92c40b1eef605f2
           navn: Representasjon
           beskrivelse: >
-            Evne til å kunne opptre eller utføre handlinger digitalt på vegne av andre. ###
-            Begrunnelse (Hvorfor) Kapabiliteten gjør det mulig å etablere, validere, forvalte og
-            dokumentere representasjonsforhold mellom en representant og en representert, slik at
-            rettigheter og myndighet kan utøves på vegne av andre i henhold til lovverk, fullmakter
-            eller vedtak. Representasjon betyr at en person eller virksomhet har rett til å handle
-            på vegne av en annen person eller virksomhet på en slik måte at den representerte blir
-            bundet av handlingen. Kapabiliteten løser behovet for trygg, sporbar og digital
-            håndtering av slike forhold i tjenester og prosesser. Representasjon inkluderer bl.a. -
-            Fullmakt (avtaleregulert representasjonsforhold), som innebærer kunne gi en
-            viljeserklæringvder den som gir fullmakt tildeler en person eller en virksomhet
-            (fullmektigen) myndighet til å opptre eller gjøre noe på sine vegne. - Vergemål
-            (lovregulert representasjonsforhold) - Foreldreansvar (lovregulert
-            representasjonsforhold) ### Hva det innebærer (Omfang) - **Juridisk (Svært høy vekt):**
-            Håndtere representasjonsforhold som følger av lovverk, fullmakter eller vedtak, herunder
-            fullmakt, vergemål og foreldreansvar. - **Organisatorisk (Høy vekt):** Etablere rutiner
-            for å opprette, delegere, administrere, validere, dokumentere og tilbakekalle
-            representasjonsforhold og digitale fullmakter. - **Semantisk (Høy vekt):** Skille
-            tydelig mellom representant, representert, fullmektig, fullmaktsgiver, verge,
-            foreldreansvar og andre roller, slik at myndighet og ansvar forstås likt på tvers av
-            tjenester. - **Teknisk (Høy vekt):** Sikre integrasjon med autoritative kilder for
-            representasjon, for eksempel Enhetsregisteret, vergemålsinformasjon og foreldreansvar,
-            samt mekanismer for tilgangskontroll, sporbarhet og oversikt. ### Bidrag til
-            sammenhengende tjenester og felles økosystem Representasjon gjør det mulig for
-            innbyggere og virksomheter å få hjelp, delegere myndighet og opptre digitalt på vegne av
-            andre på en kontrollert måte. Dette er nødvendig i mange sammenhengende tjenester der en
-            bruker ikke alltid handler som privatperson, men som verge, forelder, ansatt, daglig
-            leder, regnskapsfører eller annen representant. Kapabiliteten styrker det felles
-            økosystemet ved å gi felles mekanismer for å dokumentere hvem som kan opptre på vegne av
-            hvem. Det gir bedre sporbarhet, økt tillit og mer helhetlige tjenester der rettigheter
-            kan utøves på tvers av virksomheter uten manuelle fullmaktsprosesser.
+            Evne til å opptre eller utføre handlinger digitalt på vegne av andre. ### Begrunnelse
+            (Hvorfor) Kapabiliteten gjør det mulig å etablere, validere, forvalte og dokumentere
+            representasjonsforhold mellom en representant og en representert, slik at rettigheter og
+            myndighet kan utøves på vegne av andre i henhold til lovverk, fullmakter eller vedtak.
+            Representasjon betyr at en person eller virksomhet har rett til å handle på vegne av en
+            annen person eller virksomhet på en slik måte at den representerte blir bundet av
+            handlingen. Det løser behovet for trygg, sporbar og digital håndtering av slike forhold
+            i tjenester og prosesser. Representasjon inkluderer bl.a. - Fullmakt (avtaleregulert
+            representasjonsforhold), som innebærer kunne gi en viljeserklæring der den som gir
+            fullmakt tildeler en person eller en virksomhet (fullmektigen) myndighet til å opptre
+            eller gjøre noe på sine vegne. - Vergemål (lovregulert representasjonsforhold) -
+            Foreldreansvar (lovregulert representasjonsforhold) ### Hva det innebærer (Omfang) -
+            **Juridisk (Svært høy vekt):** Håndtere representasjonsforhold som følger av lovverk,
+            fullmakter eller vedtak, herunder fullmakt, vergemål og foreldreansvar. -
+            **Organisatorisk (Høy vekt):** Etablere rutiner for å opprette, delegere, administrere,
+            validere, dokumentere og tilbakekalle representasjonsforhold og digitale fullmakter. -
+            **Semantisk (Høy vekt):** Skille tydelig mellom representant, representert, fullmektig,
+            fullmaktsgiver, verge, foreldreansvar og andre roller, slik at myndighet og ansvar
+            forstås likt på tvers av tjenester. - **Teknisk (Høy vekt):** Sikre integrasjon med
+            autoritative kilder for representasjon, for eksempel Enhetsregisteret,
+            vergemålsinformasjon og foreldreansvar, samt mekanismer for tilgangskontroll, sporbarhet
+            og oversikt. ### Bidrag til sammenhengende tjenester og felles økosystem Representasjon
+            gjør det mulig for innbyggere og virksomheter å få hjelp, delegere myndighet og opptre
+            digitalt på vegne av andre på en kontrollert måte. Dette er nødvendig i mange
+            sammenhengende tjenester der en bruker ikke alltid handler som privatperson, men som
+            verge, forelder, ansatt, daglig leder, regnskapsfører eller annen representant.
+            Kapabiliteten styrker det felles økosystemet ved å gi felles mekanismer for å
+            dokumentere hvem som kan opptre på vegne av hvem. Det gir bedre sporbarhet, økt tillit
+            og mer helhetlige tjenester der rettigheter kan utøves på tvers av virksomheter uten
+            manuelle fullmaktsprosesser.
         - id: id-2dfe07b3eae740b9a292e0a4a42d22db
           navn: Sporbarhet og innsyn
           beskrivelse: >
-            Evne til dokumentasjon og logging av oppysninger for bruk i innsyn, forvaltning og
-            kontroll av tillitstjenester. ### Begrunnelse (Hvorfor) Kapabiliteten sikrer at
-            opplysninger, digitale hendelser og transaksjoner kan dokumenteres, logges og
-            etterprøves for å støtte innsyn, kontroll og juridisk etterredelighet. Den løser behovet
-            for at innbyggere, virksomheter og kontrollorganer kan se hvem som gjorde hva, når det
-            skjedde, og at tillitstjenestene ble brukt på riktig måte. ### Hva det innebærer
-            (Omfang) - **Juridisk (Høy vekt):** Sikre juridisk etterprøvbarhet, innsyn,
-            dokumentasjon og kontroll i tråd med krav til personvern, arkivering, sporbarhet,
-            bevisverdi og ansvarlig bruk av tillitstjenester. - **Organisatorisk (Høy vekt):**
-            Etablere rutiner for logging, kontroll, revisjon, innsynshåndtering og oppfølging av
-            avvik i bruk av opplysninger, digitale hendelser og transaksjoner. - **Semantisk
-            (Middels vekt):** Sikre felles forståelse av logghendelser, transaksjoner, oppslag,
-            aktører, tidspunkt, formål og behandlingskontekst, slik at sporbarheten kan tolkes
-            korrekt. - **Teknisk (Svært høy vekt):** Etablere uforanderlige transaksjonslogger der
-            alle hendelser, oppslag og transaksjoner loggføres automatisk på en måte som hindrer
-            sletting eller manipulering i ettertid. ### Bidrag til sammenhengende tjenester og
-            felles økosystem Sporbarhet og innsyn gir tillit til at data, rettigheter og
-            tillitstjenester brukes korrekt på tvers av virksomheter. Når bruk av opplysninger og
-            digitale handlinger kan dokumenteres og etterprøves, blir det tryggere å koble tjenester
-            sammen i felles tjenestekjeder. Kapabiliteten styrker det felles økosystemet ved å gjøre
-            samhandling mer transparent, kontrollerbar og etterrettelig. For sluttbrukeren betyr
-            dette bedre innsyn i egne data og handlinger, og større trygghet for at digitale
-            tjenester brukes i tråd med regelverk, formål og forventninger.
+            Evne til å dokumentere og logge opplysninger for bruk i innsyn, forvaltning og kontroll
+            av tillitstjenester. ### Begrunnelse (Hvorfor) Kapabiliteten sikrer at opplysninger,
+            digitale hendelser og transaksjoner kan dokumenteres, logges og etterprøves for å støtte
+            innsyn, kontroll og juridisk etterrettelighet. Den løser behovet for at innbyggere,
+            virksomheter og kontrollorganer kan se hvem som gjorde hva, når det skjedde, og at
+            tillitstjenestene ble brukt på riktig måte. ### Hva det innebærer (Omfang) - **Juridisk
+            (Høy vekt):** Sikre juridisk etterprøvbarhet, innsyn, dokumentasjon og kontroll i tråd
+            med krav til personvern, arkivering, sporbarhet, bevisverdi og ansvarlig bruk av
+            tillitstjenester. - **Organisatorisk (Høy vekt):** Etablere rutiner for logging,
+            kontroll, revisjon, innsynshåndtering og oppfølging av avvik i bruk av opplysninger,
+            digitale hendelser og transaksjoner. - **Semantisk (Middels vekt):** Sikre felles
+            forståelse av logghendelser, transaksjoner, oppslag, aktører, tidspunkt, formål og
+            behandlingskontekst, slik at sporbarheten kan tolkes korrekt. - **Teknisk (Svært høy
+            vekt):** Etablere uforanderlige transaksjonslogger der alle hendelser, oppslag og
+            transaksjoner loggføres automatisk på en måte som hindrer sletting eller manipulering i
+            ettertid. ### Bidrag til sammenhengende tjenester og felles økosystem Sporbarhet og
+            innsyn gir tillit til at data, rettigheter og tillitstjenester brukes korrekt på tvers
+            av virksomheter. Når bruk av opplysninger og digitale handlinger kan dokumenteres og
+            etterprøves, blir det tryggere å koble tjenester sammen i felles tjenestekjeder.
+            Kapabiliteten styrker det felles økosystemet ved å gjøre samhandling mer transparent,
+            kontrollerbar og etterrettelig. For sluttbrukeren betyr dette bedre innsyn i egne data
+            og handlinger, og større trygghet for at digitale tjenester brukes i tråd med regelverk,
+            formål og forventninger.
         - id: id-f5214c3db8de4738ab03abb7b7e553ed
           navn: Signering
           beskrivelse: >
-            Evne til juridisk bindende signerering av dokumenter eller transaksjoner. ###
+            Evne til å signere dokumenter eller transaksjoner på en juridisk bindende måte. ###
             Begrunnelse (Hvorfor) Kapabiliteten sikrer at digitale signaturer er juridisk gyldige,
             ikke bare i dag, men også i fremtiden. Den løser behovet for å binde en person eller
             virksomhet rettslig til et dokument eller en transaksjon på en måte som kan dokumenteres
@@ -686,44 +708,45 @@ kapabilitetsmodell:
             Evne til å akseptere, godkjenne eller gi tillatelse til at en handling kan foretas på
             vegne av seg selv eller andre, der det foreligger et representasjonsforhold. ###
             Begrunnelse (Hvorfor) Kapabiliteten gjør det mulig å innhente, administrere og
-            dokumentere gyldige, frivillige og informerte samtykker fra personer for behandling og
-            deling av deres opplysninger. Den sikrer at samtykker kan gis, spores og enkelt trekkes
-            tilbake. Et samtykke er en aktiv, frivillig og informert viljeserklæring fra en person
-            som gir en annen part tillatelse til å utføre en bestemt handling som berører dem eller
-            deres data. Samtykke er i utgangspunktet ikke en formell form for representasjon, men
-            det kan oppstå situasjoner der en representant må gi et samtykke på vegne av den de
-            representerer. Eksempler: - Jeg gir noen lov til å gjøre noe overfor meg eller med mine
-            data. Handlingen er rettet mot meg selv eller min sfære. - Jeg gir Altinn (tjenesteyter)
-            lov til å hente mine skattedata. Altinn handler ikke på mine vegne, de utfører en
-            handling jeg har gitt dem tillatelse til. Det kan oppstå situasjoner der en representant
-            må gi et samtykke på vegne av den de representerer. Eksempel: En verge (representant)
-            gir samtykke til en medisinsk behandling for et barn (den representerte). I dette
-            tilfellet ser vi hvordan konseptene virker sammen: Vergen utøver sin representasjonsrett
-            til å avgi et samtykke på vegne av barnet. Men selve samtykket og representasjonen er
-            fortsatt to distinkte juridiske handlinger. ### Hva det innebærer (Omfang) - **Juridisk
-            (Svært høy vekt):** Sikre at samtykker er gyldige, frivillige, informerte, dokumenterte
-            og mulige å trekke tilbake, i tråd med personvernregelverket og relevante regler for
-            representasjon. - **Organisatorisk (Høy vekt):** Etablere rutiner for innhenting,
-            administrasjon, kontroll, tilbaketrekking og dokumentasjon av samtykker i
-            tjenesteprosesser. - **Semantisk (Høy vekt):** Skille tydelig mellom samtykke,
-            representasjon, fullmakt, tillatelse og godkjenning, slik at aktørene forstår hvilken
-            juridisk handling som faktisk utføres. - **Teknisk (Høy vekt):** Tilby mekanismer for
-            digital innhenting, lagring, validering, logging, oppslag og tilbaketrekking av
-            samtykker, med sporbarhet og kobling til relevante tjenester, data og
-            representasjonsforhold. ### Bidrag til sammenhengende tjenester og felles økosystem
-            Samtykke gjør det mulig å dele og bruke opplysninger på en kontrollert måte når brukeren
-            selv gir tillatelse til en handling som berører dem eller deres data. For eksempel kan
-            en person gi en tjenesteyter lov til å hente skattedata uten at tjenesteyteren handler
-            på personens vegne. Kapabiliteten styrker sammenhengende tjenester ved å gjøre det mulig
-            å dokumentere og etterprøve at data brukes med riktig tillatelse. Den støtter også
-            situasjoner der en representant, for eksempel en verge, gir samtykke på vegne av den
-            representerte. For det felles økosystemet gir dette bedre tillit, sporbarhet og mer
-            forutsigbar samhandling på tvers av virksomheter.
+            dokumentere gyldige, frivillige og informerte samtykker fra personer, både for
+            behandling og deling av deres opplysninger og for andre handlinger som berører dem. Den
+            sikrer at samtykker kan gis, spores og enkelt trekkes tilbake. Et samtykke er en aktiv,
+            frivillig og informert viljeserklæring fra en person som gir en annen part tillatelse
+            til å utføre en bestemt handling som berører dem eller deres data. Samtykke er i
+            utgangspunktet ikke en formell form for representasjon, men det kan oppstå situasjoner
+            der en representant må gi et samtykke på vegne av den de representerer. Eksempler: - Jeg
+            gir noen lov til å gjøre noe overfor meg eller med mine data. Handlingen er rettet mot
+            meg selv eller min sfære. - Jeg gir Altinn (tjenesteyter) lov til å hente mine
+            skattedata. Altinn handler ikke på mine vegne, de utfører en handling jeg har gitt dem
+            tillatelse til. Det kan oppstå situasjoner der en representant må gi et samtykke på
+            vegne av den de representerer. Eksempel: En verge (representant) gir samtykke til en
+            medisinsk behandling for et barn (den representerte). I dette tilfellet ser vi hvordan
+            konseptene virker sammen: Vergen utøver sin representasjonsrett til å avgi et samtykke
+            på vegne av barnet. Men selve samtykket og representasjonen er fortsatt to distinkte
+            juridiske handlinger. ### Hva det innebærer (Omfang) - **Juridisk (Svært høy vekt):**
+            Sikre at samtykker er gyldige, frivillige, informerte, dokumenterte og mulige å trekke
+            tilbake, i tråd med personvernregelverket og relevante regler for representasjon. -
+            **Organisatorisk (Høy vekt):** Etablere rutiner for innhenting, administrasjon,
+            kontroll, tilbaketrekking og dokumentasjon av samtykker i tjenesteprosesser. -
+            **Semantisk (Høy vekt):** Skille tydelig mellom samtykke, representasjon, fullmakt,
+            tillatelse og godkjenning, slik at aktørene forstår hvilken juridisk handling som
+            faktisk utføres. - **Teknisk (Høy vekt):** Tilby mekanismer for digital innhenting,
+            lagring, validering, logging, oppslag og tilbaketrekking av samtykker, med sporbarhet og
+            kobling til relevante tjenester, data og representasjonsforhold. ### Bidrag til
+            sammenhengende tjenester og felles økosystem Samtykke gjør det mulig å dele og bruke
+            opplysninger på en kontrollert måte når brukeren selv gir tillatelse til en handling som
+            berører dem eller deres data. For eksempel kan en person gi en tjenesteyter lov til å
+            hente skattedata uten at tjenesteyteren handler på personens vegne. Kapabiliteten
+            styrker sammenhengende tjenester ved å gjøre det mulig å dokumentere og etterprøve at
+            data brukes med riktig tillatelse. Den støtter også situasjoner der en representant, for
+            eksempel en verge, gir samtykke på vegne av den representerte. For det felles
+            økosystemet gir dette bedre tillit, sporbarhet og mer forutsigbar samhandling på tvers
+            av virksomheter.
         - id: id-4b66bbf964834654b5f0c61e955b91b1
           navn: Identifisering
           beskrivelse: >
-            Evne til entydig å fastslå og registrere identiteter (personer, virksomheter eller
-            systemer) gjennom pålitelige metoder og kilder. ### Begrunnelse (Hvorfor) Kapabiliteten
+            Evne til å fastslå og registrere identiteter (personer, virksomheter eller systemer)
+            entydig, gjennom pålitelige metoder og kilder. ### Begrunnelse (Hvorfor) Kapabiliteten
             sikrer at personer, virksomheter og systemer kan fastslås og registreres entydig gjennom
             pålitelige metoder og kilder. Dette gjør at identitetene senere kan gjenkjennes og
             skilles fra andre, uavhengig av kontekst. Kapabiliteten legger til rette for sikker
@@ -762,9 +785,9 @@ kapabilitetsmodell:
         og ansvarlig datautnyttelse krever at all bruk av data skjer på en sikker, lovlig og etisk
         forsvarlig måte som ivaretar personvern og rettssikkerhet. - **Organisatorisk (Høy vekt):**
         Virksomhetene må etablere styring, kompetanse, prosesser og ansvar som gjør data til en
-        aktiv del av beslutninger, tjenesteutvikling og forbedringsarbeid. - **Semantisk (Høy
+        aktiv del av beslutninger, tjenesteutvikling og forbedringsarbeid. - **Semantisk (Svært høy
         vekt):** Felles begreper, metadata, informasjonsmodeller og datakvalitet må sikre at data
-        kan forstås og brukes riktig på tvers av virksomheter. - **Teknisk (Høy vekt):**
+        kan forstås og brukes riktig på tvers av virksomheter. - **Teknisk (Svært høy vekt):**
         Analyseplattformer, automatisering, KI-verktøy, datadeling og sikker teknisk infrastruktur
         må gjøre det mulig å hente ut verdi fra data i praksis. ### Bidrag til sammenhengende
         tjenester og felles økosystem Kapabiliteten gjør det mulig å bruke data til å forstå behov,
@@ -780,28 +803,27 @@ kapabilitetsmodell:
           navn: Dataanalyse
           beskrivelse: >
             Evne til å transformere rådata til meningsfull innsikt og bygge prediktive modeller. ###
-            Begrunnelse (Hvorfor) KI er ikke bare en forlengelse av dataanalyse; det er en
-            kapabilitet som muliggjør helt nye måter å jobbe på. Kapabiliteten gir bedre
-            beslutningsgrunnlag ved å analysere komplekse datasett og avdekke innsikter og
-            sammenhenger som er vanskelige for mennesker å oppdage. Dataanalyse og KI kan gi radikal
-            effektivisering ved å automatisere kognitive oppgaver som tidligere krevde menneskelig
-            vurdering. Dette kan frigjøre ressurser fra rutinemessig saksbehandling til mer
-            komplekse og verdifulle oppgaver. Kapabiliteten muliggjør mer intelligente og treffsikre
-            tjenester. KI-modeller kan vurdere et komplekst sett av variabler for å gi innbyggere og
-            virksomheter skreddersydde råd eller proaktive tjenester som er mer treffsikre enn
-            generelle regler. Kapabiliteten øker også innovasjonsevnen. Den kan brukes til å løse
-            problemer som tidligere var vanskelige å håndtere, for eksempel analyse av medisinske
-            bilder, overvåking av miljøendringer via satellittdata eller optimalisering av
-            trafikkflyt i sanntid. ### Hva det innebærer (Omfang) - **Juridisk (Høy vekt):**
-            Etablere og følge strenge retningslinjer som sikrer at dataanalyse og KI-modeller er
-            rettferdige, transparente, forklarbare og ikke-diskriminerende, og at bruken er i tråd
-            med personvernregelverket. - **Organisatorisk (Høy vekt):** Bygge kompetanse, rutiner og
-            ansvar for utvikling, validering, bruk og oppfølging av analyser og prediktive modeller
-            i konkrete tjeneste- og saksbehandlingsprosesser. - **Semantisk (Høy vekt):** Sikre at
-            rådata, treningsdata, variabler, klassifikasjoner og resultater forstås riktig, slik at
-            modeller og analyser bygger på korrekt betydning og kontekst. - **Teknisk (Svært høy
-            vekt):** Utvikle, trene og validere maskinlæringsmodeller for klassifisering, prediksjon
-            og mønstergjenkjenning. Bruke KI-teknikker, særlig språkmodeller (NLP), til å tolke,
+            Begrunnelse (Hvorfor) Dataanalyse og spesielt bruk av KI muliggjør nye måter å jobbe på
+            i fremtiden. Kapabiliteten gir bedre beslutningsgrunnlag ved å analysere komplekse
+            datasett og avdekke innsikter og sammenhenger som er vanskelige for mennesker å oppdage.
+            Dataanalyse kan gi effektivisering ved å automatisere oppgaver som tidligere krevde
+            menneskelig vurdering. Dette kan frigjøre ressurser fra rutinemessig saksbehandling til
+            andre oppgaver. Kapabiliteten muliggjør også mer treffsikre tjenester. Ved hjelp av
+            dataanalyse kan man vurdere et komplekst sett av variabler for å gi innbyggere og
+            virksomheter skreddersydde råd eller proaktive tjenester. Kapabiliteten øker også
+            innovasjonsevnen. Den kan brukes til å løse problemer som tidligere var vanskelige å
+            håndtere, for eksempel analyse av medisinske bilder, overvåking av miljøendringer via
+            satellittdata eller optimalisering av trafikkflyt i sanntid. ### Hva det innebærer
+            (Omfang) - **Juridisk (Høy vekt):** Etablere og følge strenge retningslinjer som sikrer
+            at dataanalyse og KI-modeller er rettferdige, transparente, forklarbare og
+            ikke-diskriminerende, og at bruken er i tråd med personvernregelverket. -
+            **Organisatorisk (Høy vekt):** Bygge kompetanse, rutiner og ansvar for utvikling,
+            validering, bruk og oppfølging av analyser og prediktive modeller i konkrete tjeneste-
+            og saksbehandlingsprosesser. - **Semantisk (Svært høy vekt):** Sikre at rådata,
+            treningsdata, variabler, klassifikasjoner og resultater forstås riktig, slik at modeller
+            og analyser bygger på korrekt betydning og kontekst. - **Teknisk (Svært høy vekt):**
+            Utvikle, trene og validere maskinlæringsmodeller for klassifisering, prediksjon og
+            mønstergjenkjenning. Bruke KI-teknikker, særlig språkmodeller (NLP), til å tolke,
             sortere og hente ut informasjon fra ustrukturert tekst som søknader, høringsinnspill og
             e-poster. Etablere MLOps for produksjonssetting, overvåking og kontinuerlig forbedring
             av KI-modeller over tid. ### Bidrag til sammenhengende tjenester og felles økosystem
@@ -847,7 +869,9 @@ kapabilitetsmodell:
             økosystem er dette kritisk for å drive datadrevet historiefortelling, slik at fakta
             presenteres på en måte som gjør det enkelt å kommunisere komplekse budskap til andre og
             skape felles situasjonsforståelse på tvers av virksomheter. ### Hva det innebærer
-            (Omfang) - **Organisatorisk (Høy vekt):** Etablere rutiner og metoder for datadrevet
+            (Omfang) - **Juridisk (Middels vekt):** Personvern og risiko for reidentifisering må
+            ivaretas når data sammenstilles og publiseres i dashboards og visualiseringer. -
+            **Organisatorisk (Høy vekt):** Etablere rutiner og metoder for datadrevet
             historiefortelling og jevnlig oppdatering av visuelle dashboards for ledelse og
             saksbehandling. Sikre kompetanse hos ansatte til å tolke komplekse data, designe gode
             visuelle fremstillinger og bruke dashboards som beslutningsstøtte. - **Semantisk (Høy
@@ -964,27 +988,30 @@ kapabilitetsmodell:
         fragmenterte løsninger. Denne hovedkapabiliteten eksisterer som en strategisk paraply for å
         styrke den felles prosess- og kompetanseevnen på tvers av økosystemet. Den løser problemet
         med silobasert og isolert systemutvikling ved å samordne innsatsen rundt helhetlig metodikk,
-        design, koding og samarbeid. ### Hva det innebærer (Omfang) - **Organisatorisk (Svært høy
-        vekt):** Felles smidige metodikker, brukerorienterte designdrevne prosesser og tverrgående
-        samarbeidsmodeller sikrer helhetlig produktutvikling. - **Semantisk (Middels vekt):**
-        Nasjonale referansemodeller og omforent begrepsforståelse legges systematisk til grunn under
-        modellering av nye tjenestegrensesnitt. - **Teknisk (Høy vekt):** Overordnede
-        plattformstrategier for standardiserte byggeklosser, integrerbare API-er og felles
-        kjøretidsmiljøer sikrer teknologisk samsvar. ### Bidrag til sammenhengende tjenester og
-        felles økosystem Hovedkapabiliteten gir det strategiske fundamentet som kreves for at
-        uavhengige virksomheter skal kunne bygge løsninger som fungerer sømløst sammen. Ved å
-        harmonisere kompetansen innen design, koding og gjenbruk på et overordnet nivå, elimineres
-        metodiske ulikheter før utviklingen starter. For sluttbrukeren betyr dette at nye
-        tverrgående tjenestekjeder kan etableres raskere, slik at de oppleves helhetlig og uavbrutt.
+        design, koding og samarbeid. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):**
+        Krav til personvern, universell utforming og innebygd regelverksetterlevelse må ivaretas
+        tidlig i utviklingen av tjenester. - **Organisatorisk (Svært høy vekt):** Felles smidige
+        metodikker, brukerorienterte designdrevne prosesser og tverrgående samarbeidsmodeller sikrer
+        helhetlig produktutvikling. - **Semantisk (Middels vekt):** Nasjonale referansemodeller og
+        omforent begrepsforståelse legges systematisk til grunn under modellering av nye
+        tjenestegrensesnitt. - **Teknisk (Høy vekt):** Overordnede plattformstrategier for
+        standardiserte byggeklosser, integrerbare API-er og felles kjøretidsmiljøer sikrer
+        teknologisk samsvar. ### Bidrag til sammenhengende tjenester og felles økosystem
+        Hovedkapabiliteten gir det strategiske fundamentet som kreves for at uavhengige virksomheter
+        skal kunne bygge løsninger som fungerer sømløst sammen. Ved å harmonisere kompetansen innen
+        design, koding og gjenbruk på et overordnet nivå, elimineres metodiske ulikheter før
+        utviklingen starter. For sluttbrukeren betyr dette at nye tverrgående tjenestekjeder kan
+        etableres raskere, slik at de oppleves helhetlig og uavbrutt.
       prinsipper:
         - id-94f7473fb4184e3b94bb92c35186b88f  # P1
         - id-d0918d8701a4408b93a9ab278ecbb85e  # P5
+        - id-0007ec16e9a1406d9f6aabd1f975d993  # P6
       delkapabiliteter:
         - id: id-ce84b9b6943f4789bca153c0ed15245a
           navn: Utviklings- og kjøretidsmiljø
           beskrivelse: >
             Evne til å tilby og forvalte en felles, skalerbar teknisk plattform og en tilhørende
-            verktøykasse med standardiserte byggeklosser, verktøy og utviklingsmiljøe som forenkler
+            verktøykasse med standardiserte byggeklosser, verktøy og utviklingsmiljøer som forenkler
             og akselererer utviklingen av digitale tjenester. ### Begrunnelse (Hvorfor)
             Tjenesteutvikling foregår i stor grad i sektorene og den enkelte virksomhet. Det vil
             allikevel være behov for å tilby felles utviklings- og kjøretidsmiljø for hele offentlig
@@ -993,20 +1020,22 @@ kapabilitetsmodell:
             akselererer utviklingen av digitale tjenester. ### Hva det innebærer (Omfang) -
             **Juridisk (Lav vekt):** Inngåelse og oppfølging av databehandleravtaler for sky- og
             plattformtjenester. Sikring av at kjøretidsmiljøene etterlever spesifikke krav. -
-            **Organisatorisk (Middels vekt):** Konkrete arbeidsprosesser for onboarding av
+            **Organisatorisk (Høy vekt):** Konkrete arbeidsprosesser for onboarding av
             utviklingsteam til felles plattformer. Definering av operative roller, supportrutiner og
-            tjenestenivåavtaler (SLA) som regulerer oppetid og plattformforvaltning. - **Teknisk
-            (Svært høy vekt):** Operasjonell drift av skalerbar skyinfrastruktur,
-            container-teknologi og automatiserte prosesser for kontinuerlig integrasjon og leveranse
-            (CI/CD). Tilgjengeliggjøring av standardiserte verktøykasser, kodebiblioteker og
-            felleskomponenter for applikasjonsutvikling og sanntidsovervåking. ### Bidrag til
-            sammenhengende tjenester og felles økosystem Når uavhengige virksomheter benytter
-            harmoniserte verktøy og kjøretidsmiljøer, fjernes store teknologiske ulikheter i bunn.
-            Dette gjør det vesentlig enklere å koble uavhengige applikasjoner sammen til tverrgående
-            tjenestekjeder. For sluttbrukeren betyr dette en stabil digital reise der feil rettes
-            raskere, og nye sammenhengende funksjoner kan rulles ut fortløpende uten avbrudd i
-            tjenestene. Kapabiliteten styrker det felles økosystemet ved å legge til rette for
-            gjenbruk, standardisering og mer effektiv utvikling på tvers av virksomheter.
+            tjenestenivåavtaler (SLA) som regulerer oppetid og plattformforvaltning. - **Semantisk
+            (Ikke relevant):** Kapabiliteten handler om plattform og infrastruktur for utvikling og
+            drift, ikke om betydningen av data. - **Teknisk (Svært høy vekt):** Operasjonell drift
+            av skalerbar skyinfrastruktur, container-teknologi og automatiserte prosesser for
+            kontinuerlig integrasjon og leveranse (CI/CD). Tilgjengeliggjøring av standardiserte
+            verktøykasser, kodebiblioteker og felleskomponenter for applikasjonsutvikling og
+            sanntidsovervåking. ### Bidrag til sammenhengende tjenester og felles økosystem Når
+            uavhengige virksomheter benytter harmoniserte verktøy og kjøretidsmiljøer, fjernes store
+            teknologiske ulikheter i bunn. Dette gjør det vesentlig enklere å koble uavhengige
+            applikasjoner sammen til tverrgående tjenestekjeder. For sluttbrukeren betyr dette en
+            stabil digital reise der feil rettes raskere, og nye sammenhengende funksjoner kan
+            rulles ut fortløpende uten avbrudd i tjenestene. Kapabiliteten styrker det felles
+            økosystemet ved å legge til rette for gjenbruk, standardisering og mer effektiv
+            utvikling på tvers av virksomheter.
         - id: id-60827614648541ef8520df87fa25d100
           navn: Integrerbare tjenester
           beskrivelse: >
@@ -1018,23 +1047,24 @@ kapabilitetsmodell:
             bygge kostbare, skreddersydde og tette integrasjoner for hvert nye behov.
             Underkapabiliteten løser problemet med fragmentert arkitektur og teknisk gjeld ved å
             frikoble forretningslogikk og gjøre den universelt tilgjengelig via standardiserte,
-            pluggbare grensesnitt. ### Hva det innebærer (Omfang) - **Organisatorisk (Middels
-            vekt):** Operasjonalisering av en robust livssyklusforvaltning for digitale
-            byggeklosser. Etablering av klare rutiner for versjonering, kontinuerlig vedlikehold og
-            forutsigbar utfasing av tjenester for å sikre varig stabilitet for konsumentene. -
-            **Semantisk (Middels vekt):** Dokumentasjon og publisering av funksjonalitet i felles
-            kataloger. Sikring av at tekniske grensesnitt og tilhørende datafelter utformes
-            standardisert, slik at de er enkle å oppdage og tolke korrekt av eksterne utviklere. -
-            **Teknisk (Svært høy vekt):** Konkret anvendelse av "API-først"-metodikk der det
-            maskinlesbare grensesnittet utvikles som det primære produktet, uavhengig av spesifikke
-            applikasjoner. Teknisk implementering av innebygd sikkerhet og kontrollert
-            tilgangsstyring i grensesnittet, slik at data kun utveksles ved lovlig grunnlag og
-            legitimt behov. ### Bidrag til sammenhengende tjenester og felles økosystem Når
-            virksomheter eksponerer sine kjernefunksjoner som integrerbare, frittstående API-er,
-            fjernes den tekniske friksjonen mellom uavhengige systemer. Dette gjør det mulig for
-            samarbeidende etater å hente og oppdatere nødvendig informasjon i sanntid. For
-            sluttbrukeren betyr dette en mer sammenhengende brukerreise uten, der forvaltningens
-            underliggende systemgrenser blir skjult.
+            pluggbare grensesnitt. ### Hva det innebærer (Omfang) - **Juridisk (Ikke relevant):**
+            Kapabiliteten handler om teknisk og organisatorisk integrerbarhet, mens juridiske rammer
+            for bruk ivaretas i datautveksling og tilgangsstyring. - **Organisatorisk (Høy vekt):**
+            Operasjonalisering av en robust livssyklusforvaltning for digitale tjenester. Etablering
+            av klare rutiner for versjonering, kontinuerlig vedlikehold og forutsigbar utfasing av
+            API-er og tjenester for å sikre varig stabilitet for konsumentene. - **Semantisk
+            (Middels vekt):** Dokumentasjon og publisering av funksjonalitet i felles kataloger.
+            Sikring av at tekniske grensesnitt og tilhørende datafelter utformes standardisert, slik
+            at de er enkle å oppdage og tolke korrekt av eksterne utviklere. - **Teknisk (Svært høy
+            vekt):** Konkret anvendelse av "API-først"-metodikk der det maskinlesbare grensesnittet
+            utvikles som det primære produktet, uavhengig av spesifikke applikasjoner. Teknisk
+            implementering av innebygd sikkerhet og kontrollert tilgangsstyring i grensesnittet,
+            slik at data kun utveksles ved lovlig grunnlag og legitimt behov. ### Bidrag til
+            sammenhengende tjenester og felles økosystem Når virksomheter eksponerer sine
+            kjernefunksjoner som integrerbare, frittstående API-er, fjernes den tekniske friksjonen
+            mellom uavhengige systemer. Dette gjør det mulig for samarbeidende etater å hente og
+            oppdatere nødvendig informasjon i sanntid. For sluttbrukeren betyr dette en mer
+            sammenhengende brukerreise der forvaltningens underliggende systemgrenser blir skjult.
         - id: id-f696350f5d844a96854deadb83bc3c81
           navn: Gjenbrukbare tjenester
           beskrivelse: >
@@ -1045,21 +1075,23 @@ kapabilitetsmodell:
             integrerbart (ha et API) uten å være gjenbrukbart, dersom forretningslogikken er for
             spesifikk eller låst til én kontekst. Kapabiliteten løser problemet med at virksomheter
             kaster bort ressurser på å duplisere og kode den samme forretningslogikken hver for seg
-            i isolerte siloer. ### Hva det innebærer (Omfang) - **Organisatorisk (Svært høy vekt):**
-            Rutiner for å identifisere generiske forretningsbehov som deles av flere aktører i
-            økosystemet. Etablering av felles forvaltningsmodeller og insentiver som oppmuntrer
-            virksomheter til å gjenbruke andres tjenester fremfor å bygge egne. - **Semantisk
-            (Middels vekt):** Omforente definisjoner av funksjonelle tjenester og forretningsregler
-            i felles katalog. Standardisering av tjenestetaksonomier for å sikre lik forståelse av
-            hva en delt tjeneste faktisk utfører. - **Teknisk (Middels vekt):** Utvikling av modulær
-            forretningslogikk som er frikoblet fra spesifikke, proprietære fagsystemer. Anvendelse
-            av arkitekturmønstre som sikrer at tjenestekomponenten enkelt kan plugges inn i helt nye
-            sammenhenger. ### Bidrag til sammenhengende tjenester og felles økosystem Når
-            virksomheter gjenbruker de samme funksjonelle tjenestene og forretningsreglene,
-            harmoniseres prosessene i bakgrunnen automatisk. Dette gjør det langt enklere å sy
-            sammen tverrgående tjenestekjeder for de prioriterte livshendelsene. For sluttbrukeren
-            betyr dette en mer forutsigbar og gjenkjennelig digital reise, fordi forvaltningen
-            opptrer med lik logikk og adferd uavhengig av hvilken etat brukeren samhandler med.
+            i isolerte siloer. ### Hva det innebærer (Omfang) - **Juridisk (Ikke relevant):** Rammer
+            for bruk av gjenbrukbare tjenester ivaretas i tjenesteforvaltning og avtaleverk. -
+            **Organisatorisk (Svært høy vekt):** Rutiner for å identifisere generiske
+            forretningsbehov som deles av flere aktører i økosystemet. Etablering av felles
+            forvaltningsmodeller og insentiver som oppmuntrer virksomheter til å gjenbruke andres
+            tjenester fremfor å bygge egne. - **Semantisk (Middels vekt):** Omforente definisjoner
+            av funksjonelle tjenester og forretningsregler i felles katalog. Standardisering av
+            tjenestetaksonomier for å sikre lik forståelse av hva en delt tjeneste faktisk utfører.
+            - **Teknisk (Middels vekt):** Utvikling av modulær forretningslogikk som er frikoblet
+            fra spesifikke, proprietære fagsystemer. Anvendelse av arkitekturmønstre som sikrer at
+            tjenestekomponenten enkelt kan plugges inn i helt nye sammenhenger. ### Bidrag til
+            sammenhengende tjenester og felles økosystem Når virksomheter gjenbruker de samme
+            funksjonelle tjenestene og forretningsreglene, harmoniseres prosessene i bakgrunnen
+            automatisk. Dette gjør det langt enklere å sy sammen tverrgående tjenestekjeder for de
+            prioriterte livshendelsene. For sluttbrukeren betyr dette en mer forutsigbar og
+            gjenkjennelig digital reise, fordi forvaltningen opptrer med lik logikk og adferd
+            uavhengig av hvilken etat brukeren samhandler med.
         - id: id-379e167f7b9c4fbea9c6969425ba7f6c
           navn: Tjenestedesign
           beskrivelse: >
@@ -1079,8 +1111,10 @@ kapabilitetsmodell:
             utenforskap. - **Semantisk (Middels vekt):** Harmonisering av brukernes naturlige språk
             og terminologi med forvaltningens interne fagbegreper. Sikring av at
             tjenestebeskrivelser, skjemaer og veiledninger utformes slik at innholdet er umiddelbart
-            forståelig for innbyggere og næringsliv. ### Bidrag til sammenhengende tjenester og
-            felles økosystem Kapabiliteten gjør at komplekse prosesser bak fasaden skjules for
+            forståelig for innbyggere og næringsliv. - **Teknisk (Ikke relevant):** Kapabiliteten
+            handler om brukerinnsikt og design av tjenesteforløp, mens teknisk realisering ivaretas
+            i andre kapabiliteter under Tjenesteutvikling. ### Bidrag til sammenhengende tjenester
+            og felles økosystem Kapabiliteten gjør at komplekse prosesser bak fasaden skjules for
             brukeren, slik at opplevelsen fremstår som én uavbrutt og guidet reise. Ved å designe
             tjenester på tvers av organisatoriske grenser slipper innbyggeren å oppgi samme
             informasjon flere ganger eller strande i "døde ender". Sluttbrukeren opplever i stedet
@@ -1107,20 +1141,21 @@ kapabilitetsmodell:
         grunnlaget for at virksomheter kan dele og bruke data med felles forståelse av innhold,
         kvalitet og ansvar. Når data, begreper og beskrivelser forvaltes etter felles rammer, blir
         det enklere å bygge tjenester som henger sammen på tvers av virksomheter. Kapabiliteten
-        styrker det felles økosystemet ved å gjøre informasjon mer finnbart, forståelig, pålitelig
-        og gjenbrukbart. For sluttbrukeren betyr dette mindre behov for å oppgi samme informasjon
-        flere ganger, færre feil og mer helhetlige digitale tjenester.
+        styrker det felles økosystemet ved å gjøre informasjon finnbar, forståelig, pålitelig og
+        gjenbrukbart. For sluttbrukeren betyr dette mindre behov for å oppgi samme informasjon flere
+        ganger, færre feil og mer helhetlige digitale tjenester.
       prinsipper:
         - id-0007ec16e9a1406d9f6aabd1f975d993  # P6
+        - id-a27833cb9e324549916a528f31481dce  # P4
       delkapabiliteter:
         - id: id-5c6c20d50b6a4b168524901372f0ca6e
           navn: Informasjonsarkitektur
           beskrivelse: >
             Evne til å strukturere og modellere informasjon på en standardisert måte, slik at data
-            og innhold blir finnbart, forståelig og gjenbrukbart for både mennesker og maskiner på
-            tvers av hele økosystemet. ### Begrunnelse (Hvorfor) Kapabiliteten sikrer at informasjon
-            kan beskrives, struktureres og modelleres på en måte som gjør den forståelig og
-            gjenbrukbar på tvers av virksomheter, systemer og tjenestekjeder. Den løser problemet
+            og innformasjon blir finnbart, forståelig og gjenbrukbart for både mennesker og maskiner
+            på tvers av hele økosystemet. ### Begrunnelse (Hvorfor) Kapabiliteten sikrer at
+            informasjon kan beskrives, struktureres og modelleres på en måte som gjør den forståelig
+            og gjenbrukbar på tvers av virksomheter, systemer og tjenestekjeder. Den løser problemet
             med at data og innhold ofte blir låst til lokale begreper, formater og
             systemforståelser. Informasjonsarkitektur innebærer arkitekturbeskrivelse gjennom et
             sett av krav, prinsipper og modeller som er nødvendig for fleksibel deling og utveksling
@@ -1353,9 +1388,9 @@ kapabilitetsmodell:
         - id-0007ec16e9a1406d9f6aabd1f975d993  # P6
       delkapabiliteter:
         - id: id-697145d3768b40d39f9463667b78f749
-          navn: EU standarder
+          navn: EU-standarder
           beskrivelse: >
-            Evne til å forstå og ta i bruk EU-standarder i økosystemet ### Begrunnelse (Hvorfor)
+            Evne til å forstå og ta i bruk EU-standarder i økosystemet. ### Begrunnelse (Hvorfor)
             Kapabiliteten sikrer at nasjonal arkitektur kan bygge på relevante europeiske
             standarder, spesifikasjoner og referansearkitekturer. Den løser behovet for at norske
             digitale tjenester kan samhandle bedre med europeiske løsninger, regelverk og
@@ -1382,7 +1417,8 @@ kapabilitetsmodell:
         - id: id-b99fcd8160d24e5f8ea3c17b15072f7a
           navn: Forvaltningsstandarder
           beskrivelse: >
-            Evne til å implementere og ta i bruk nasjonale standarder. ### Begrunnelse (Hvorfor)
+            Evne til å implementere og ta i bruk nasjonale standarder, herunder
+            forvaltningsstandarder og normerende sektorstandarder. ### Begrunnelse (Hvorfor)
             Kapabiliteten sikrer at virksomheter faktisk implementerer og tar i bruk nasjonale
             standarder i tjenester, løsninger, anskaffelser og samhandlingsprosesser. Den løser
             behovet for felles praksis som gjør at data, tjenester og tekniske grensesnitt fungerer
@@ -1406,20 +1442,20 @@ kapabilitetsmodell:
             der digitale løsninger fungerer bedre sammen uavhengig av hvilken virksomhet som leverer
             dem.
     - id: id-299fc063873a4f278a1d3c0ac9480467
-      navn: Juridisk samhandling
+      navn: Regelverk og rettslig grunnlag
       ikon: scale
       beskrivelse: >
-        Evne til å etablere, forvalte og formidle et helhetlig juridisk rammeverk som muliggjør og
-        regulerer sikker og effektiv digital samhandling. ### 1. Begrunnelse (Hvorfor) Digital
-        samhandling og datadeling på tvers av uavhengige virksomheter krever en trygg og felles
-        juridisk grunnmur. Uten denne kapabiliteten vil uklarheter rundt lovlighet, personvern og
-        deling av opplysninger skape usikkerhet, føre til unødig lange utredningsprosesser og i
-        verste fall stanse utviklingen av tverrgående digitale tjenester fordi aktørene ikke har
-        avklart om de har lov til å samhandle. ### 2. Hva det innebærer (Omfang) - **Juridisk (Svært
-        høy vekt):** Dette utgjør selve kjernen i kapabiliteten. Det innebærer å foreslå, koordinere
-        og harmonisere endringer i regelverket (regelverksutvikling) samt å tilby felles,
-        autoritative tolkninger av eksisterende regelverk (regelverkstolkning). Det sikrer at det
-        rettslige hjemmelsgrunnlaget for deling av data er på plass og i tråd med nasjonale lover og
+        Evne til å utvikle, forvalte, tolke og anvende regelverk som gir rettslig grunnlag for
+        sikker og effektiv digital samhandling. ### Begrunnelse (Hvorfor) Digital samhandling og
+        datadeling på tvers av uavhengige virksomheter krever en trygg og felles juridisk grunnmur.
+        Uten denne kapabiliteten vil uklarheter rundt lovlighet, personvern og deling av
+        opplysninger skape usikkerhet, føre til unødig lange utredningsprosesser og i verste fall
+        stanse utviklingen av tverrgående digitale tjenester fordi aktørene ikke har avklart om de
+        har lov til å samhandle. ### Hva det innebærer (Omfang) - **Juridisk (Svært høy vekt):**
+        Dette utgjør selve kjernen i kapabiliteten. Det innebærer å foreslå, koordinere og
+        harmonisere endringer i regelverket (regelverksutvikling) samt å tilby felles, autoritative
+        tolkninger av eksisterende regelverk (regelverkstolkning). Det sikrer at det rettslige
+        hjemmelsgrunnlaget for deling av data er på plass og i tråd med nasjonale lover og
         europeiske forordninger (som GDPR og eIDAS). - **Organisatorisk (Høy vekt):** Etablere
         tverrgående samarbeidsarenaer og nettverk mellom jurister, departementer og etater for å
         samordne forvaltningspraksis. Dette sikrer en koordinert tilnærming til rettslige
@@ -1429,12 +1465,11 @@ kapabilitetsmodell:
         i hele økosystemet. - **Teknisk (Lav vekt):** Underbygge prinsippet om
         digitaliseringsvennlig regelverk, der lover og forskrifter utformes med tanke på at
         rettslige regler, plikter og rettigheter senere skal kunne omsettes til maskinlesbar logikk
-        og automatiserte saksbehandlingsprosesser. ### 3. Bidrag til sammenhengende tjenester og
-        felles økosystem Kapabiliteten rydder bort juridiske gråsoner og hindringer bak fasaden,
-        slik at data lovlig kan flyte mellom uavhengige aktører i en tjenestekjede. For
-        sluttbrukeren betyr dette en sømløs opplevelse der det offentlige kan samhandle på tvers av
-        etater uten at brukeren selv må fungere som budbringer av attester, vedtak eller
-        dokumentasjon.
+        og automatiserte saksbehandlingsprosesser. ### Bidrag til sammenhengende tjenester og felles
+        økosystem Kapabiliteten rydder bort juridiske gråsoner og hindringer bak fasaden, slik at
+        data lovlig kan flyte mellom uavhengige aktører i en tjenestekjede. For sluttbrukeren betyr
+        dette en sømløs opplevelse der det offentlige kan samhandle på tvers av etater uten at
+        brukeren selv må fungere som budbringer av attester, vedtak eller dokumentasjon.
       prinsipper:
         - id-7d62a886cdc14d20a5b361cf68da5754  # P3
         - id-5b6ec861e2d246ce90c99ea282d35610  # P7
@@ -1451,7 +1486,7 @@ kapabilitetsmodell:
             fragmentert lovgivning som utilsiktet blokkerer for datadeling og digital samhandling.
             ### Hva det innebærer (Omfang) - **Juridisk (Svært høy vekt):** Dette utgjør kjernen i
             kapabiliteten og innebærer å foreslå og koordinere endringer i regelverket for å
-            tilpasse det til teknologisk utvikling og nye behov. Det inkluderer eine systematisk
+            tilpasse det til teknologisk utvikling og nye behov. Det inkluderer en systematisk
             tilnærming til å identifisere motstridende regelverk der harmonisering er nødvendig, og
             fremme endringer for å tilpasse lovverket til en digital virkelighet. - **Organisatorisk
             (Høy vekt):** Etablere tverrgående prosesser og samarbeidsarenaer mellom departementer,
@@ -1487,7 +1522,7 @@ kapabilitetsmodell:
             omfatter også operasjonell utarbeidelse og formidling av felles veiledere som
             saksbehandlere i de ulike virksomhetene kan støtte seg på i hverdagen. - **Semantisk
             (Middels vekt):** Presisering og harmonisering av spesifikke juridiske kjernebegreper,
-            rettslige vilkår og skjønsmessige vurderinger (f.eks. nøyaktig hva som utgjør "saklig
+            rettslige vilkår og skjønnsmessige vurderinger (f.eks. nøyaktig hva som utgjør "saklig
             behov" eller "gyldig samtykke" i en gitt kontekst), slik at de tolkes identisk av alle
             parter. - **Teknisk (Middels vekt):** Tilgjengeliggjøring av de autoritative tolkningene
             og rettskildene i felles nasjonale kunnskapsbaser eller portaler (f.eks.
@@ -1504,14 +1539,25 @@ kapabilitetsmodell:
       ikon: book-open
       beskrivelse: >
         Evne til å sikre at veiledninger for digital samhandling utarbeides, formidles og benyttes.
-        Dette innebærer: * Beskrivelser av beste praksis * Omforente prinsipper, mønstre og
-        standarder for hvordan løsninger skal bygges for å fungere optimalt, sikkert og
-        sammenhengende i det nasjonale økosystemet. * Referansearkitekturer * hva som er god faglig
-        praksis * hvordan relevant regelverk skal tolkes * hvilke prioriteringer som er i samsvar
-        med vedtatt politikk Veiledere kan ha ulik grad av styrke: * Bør benyttes: en sterk
-        anbefaling/råd som vil gjelde de aller fleste. Denne er så klart faglig forankret at det
-        sjelden er forsvarlig ikke å gjøre som anbefalt * Kan eller foreslår: en svak anbefaling/råd
-        der ulike valg kan være riktig.
+        ### Begrunnelse (Hvorfor) Kapabiliteten sikrer at virksomheter i økosystemet får veiledning
+        på hva som er god faglig praksis, hvordan relevant regelverk bør forstås i digital
+        samhandling, og hvilke prioriteringer som er i samsvar med vedtatt politikk. ### Hva det
+        innebærer (Omfang) - **Juridisk (Middels vekt):** Veiledning må forklare hvordan regelverk,
+        føringer og krav kan anvendes i digital samhandling, uten å erstatte formelle rettskilder,
+        regelverkstolkning eller myndighetsansvar. - **Organisatorisk (Høy vekt):** Det må finnes
+        rutiner for å utarbeide, kvalitetssikre, forvalte og formidle veiledning, med tydelig
+        angivelse av veiledningens styrke (bør benyttes eller kan benyttes). - **Semantisk (Høy
+        vekt):** Beskrivelser av beste praksis, prinsipper, mønstre og referansearkitekturer må
+        bruke omforente begreper og felles maler, slik at veiledningen forstås og anvendes likt på
+        tvers av virksomheter. - **Teknisk (Middels vekt):** Veiledning må være tilgjengelig i
+        digitale kanaler, kataloger og kunnskapsbaser med versjonering og lenking, og tekniske
+        veiledere og referansearkitekturer må kunne brukes direkte som grunnlag for løsningsvalg.
+        ### Bidrag til sammenhengende tjenester og felles økosystem Når veiledningen er
+        kvalitetssikret, lett tilgjengelig og brukes aktivt, reduseres lokale tolkninger og ulik
+        praksis, og felles prinsipper og standarder tas raskere i bruk. For felles økosystem gir
+        dette bedre etterlevelse og mer gjenbruk. For sluttbrukeren betyr det mer konsistente og
+        sammenhengende digitale tjenester, fordi virksomhetene utvikler og forvalter løsninger etter
+        samme kunnskapsgrunnlag.
       prinsipper:
         - id-0007ec16e9a1406d9f6aabd1f975d993  # P6
       delkapabiliteter:
@@ -1656,7 +1702,7 @@ kapabilitetsmodell:
         - id: id-db4f30a87ae84561a4058d4d264177b1
           navn: Åpne data
           beskrivelse: >
-            Evne til å tilgjengeliggjøre åpne data slik at den kan leses og tolkes av både maskiner
+            Evne til å tilgjengeliggjøre åpne data slik at de kan leses og tolkes av både maskiner
             og mennesker, og som alle kan få tilgang til, bruke og dele. ### Begrunnelse (Hvorfor)
             Kapabiliteten utvider verdien av offentlige data utover forvaltningens egne grenser og
             gir avkastning i hele samfunnet. Åpne data styrker demokrati og åpenhet ved å gi

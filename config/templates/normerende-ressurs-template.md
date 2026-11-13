@@ -141,8 +141,8 @@ fra andre. Test koblingen slik: ville kapabiliteten forsvunnet fra nasjonal arki
 ressursen ble borte? Er svaret nei, fordi en annen ressurs leverer evnen, hører koblingen et annet
 sted. Avhengigheten beskrives da i stedet under `Relasjon til andre ressurser`.
 
-Er ressursen rettslig forankret, vurder `Juridisk samhandling: Regelverkstolkning` når ressursen
-sier hvordan et regelverk skal forstås eller anvendes, og `Juridisk samhandling:
+Er ressursen rettslig forankret, vurder `Regelverk og rettslig grunnlag: Regelverkstolkning` når
+ressursen sier hvordan et regelverk skal forstås eller anvendes, og `Regelverk og rettslig grunnlag:
 Regelverksutvikling` når den former hvordan nytt regelverk blir til. Vurderingen skal gjøres, men
 koblingen skal bare settes når den er reell.
 

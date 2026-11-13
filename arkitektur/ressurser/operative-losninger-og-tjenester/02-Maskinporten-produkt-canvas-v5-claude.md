@@ -27,9 +27,9 @@ Maskinporten er den nasjonale fellesløsningen for virksomhetsautentisering og t
 - **Datautveksling og integrasjon: Bruke data fra andre** gjør det mulig for datakonsumenter å hente data fra andre virksomheter gjennom samme nasjonale tillitsmønster.
 - **Datautveksling og integrasjon: Dele data med andre** gjør det mulig for datatilbydere å eksponere API-er på en standardisert og sikker måte for andre virksomheter.
 - **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** beskytter tokenutstedelse, klientautentisering og overføring av tilgangsgrunnlag i integrasjonsflyten.
-- **Tillit: Autentisering** bekrefter identiteten til virksomheter og systemer som skal bruke API-er eller hente data maskinelt.
-- **Tillit: Tilgangskontroll** gir grunnlag for å slippe inn bare systemer som har riktig token, scope og godkjent tilgang til den aktuelle ressursen.
-- **Tillit: Tilgangsstyring** forvalter scopes, klientregistrering og API-delegering som nasjonal fellesmekanisme for API-sikring og tokenforvaltning, slik at virksomheter kan definere, delegere og trekke tilbake maskinell tilgang til egne API-er.
+- **Digital tillit: Autentisering** bekrefter identiteten til virksomheter og systemer som skal bruke API-er eller hente data maskinelt.
+- **Digital tillit: Tilgangskontroll** gir grunnlag for å slippe inn bare systemer som har riktig token, scope og godkjent tilgang til den aktuelle ressursen.
+- **Digital tillit: Tilgangsstyring** forvalter scopes, klientregistrering og API-delegering som nasjonal fellesmekanisme for API-sikring og tokenforvaltning, slik at virksomheter kan definere, delegere og trekke tilbake maskinell tilgang til egne API-er.
 
 ## Produktmål
 **Primærkilder:** Digdir Docs for Maskinporten, inkludert overordnet beskrivelse og funksjonssidene for delegering, systembruker og samtykke.

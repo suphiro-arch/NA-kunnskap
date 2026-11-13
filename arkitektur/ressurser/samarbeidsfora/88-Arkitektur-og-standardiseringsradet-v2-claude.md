@@ -57,7 +57,7 @@ Dissens dokumenteres når rådet utformer sin endelige anbefaling etter høring.
   Rådet er en fast, mandatfestet arena der stat, kommunesektor og standardiseringsmiljøer møtes om arkitektur og standarder.
 - **Standardisering: Forvaltningsstandarder**
   Rådet vurderer om en standard bør være obligatorisk, anbefalt eller til inspirasjon, og er det faglige leddet i saksgangen for Referansekatalogen.
-- **Standardisering: EU standarder**
+- **Standardisering: EU-standarder**
   Mandatet pålegger rådet å følge utviklingstrekk internasjonalt, og vurderingene omfatter europeiske standarder. Obligatoriske standarder må i tillegg notifiseres til ESA før de kan fastsettes.
 - **Strategisk styring: Arkitekturstyring**
   Rådet anbefaler prioriteringer for arkitektur- og standardiseringsarbeidet og vurderer arkitekturprodukter.

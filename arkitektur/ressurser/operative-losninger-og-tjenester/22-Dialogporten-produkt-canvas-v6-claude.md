@@ -28,7 +28,7 @@ Produktet er mer enn et teknisk API. Dokumentasjonen viser at Dialogporten også
 - **Datautveksling og integrasjon: Bruke data fra andre** gir sluttbrukersystemer og portaler tilgang til dialogdata gjennom standardiserte API-er.
 - **Datautveksling og integrasjon: Hendelsesdrevet** bruker hendelser og abonnementer for å oppdage endringer uten kontinuerlig polling.
 - **Sluttbrukertjenester: Sammenhengende tjenester** gjør dialoger fra flere plattformer tilgjengelige i samme representasjon og brukerreise.
-- **Tillit: Tilgangskontroll** bygger på Altinn Autorisasjon, autoriserte parter og tjenesteressurser.
+- **Digital tillit: Tilgangskontroll** bygger på Altinn Autorisasjon, autoriserte parter og tjenesteressurser.
 - **Tjenesteutvikling: Integrerbare tjenester** gir tjenesteeiere og plattformer et felles mønster for å eksponere dialoger.
 
 ## Produktmål

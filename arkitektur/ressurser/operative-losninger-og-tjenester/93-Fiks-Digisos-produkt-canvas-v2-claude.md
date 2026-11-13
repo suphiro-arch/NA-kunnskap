@@ -31,7 +31,7 @@ Produktet skaper verdi ved at innbygger får et mer sammenhengende søknads- og 
   Søker kan sende søknad, ettersende dokumentasjon og følge saksgang i en sammenhengende brukerreise på nav.no.
 - **Datautveksling og integrasjon: Dele data med andre**
   Tjenesten deler og overfører søknads- og saksdata kontrollert mellom statlige og kommunale systemer gjennom Fiks API-er og meldingskanaler.
-- **Tillit: Sporbarhet og innsyn**
+- **Digital tillit: Sporbarhet og innsyn**
   Fiks Digisos dokumenterer saksgangen som tidsstemplede hendelser fra kommunens fagsystem, som tildelt NAV-kontor, søknadsstatus, etterspurt dokumentasjon, vedtak og utbetaling, og hver saksoppdatering inneholder hele historikken, slik at søkeren på nav.no ser hva som har skjedd i egen sak og når; NAV-ansattes oppslag i saksopplysningene logges i Fiks Audit.
 
 ## Produktmål

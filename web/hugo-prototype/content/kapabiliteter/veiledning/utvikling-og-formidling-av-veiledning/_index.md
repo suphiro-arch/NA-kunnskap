@@ -4,14 +4,14 @@ headerTitle: "Veiledning - Utvikling og formidling av veiledning"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å utarbeide, kvalitetssikre og tilgjengeliggjøre veiledning. ### Begrunnelse (Hvorfor) Kapabiliteten sikrer at politikk, juss og teknologisk beste praksis kan omsettes til forståelige og distribuerte verktøy som kan brukes av virksomheter i økosystemet. Den løser behovet for felles veiledning som gjør det enklere å forstå hvordan regelverk, prinsipper, standarder, referansearkitekturer og samhandlingsmønstre skal anvendes i praksis. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Utarbeide veiledning som forklarer hvordan relevant regelverk skal forstås og anvendes i digital samhandling, uten å erstatte formelle rettskilder eller myndighetsansvar. - **Organisatorisk (Høy vekt):** Etablere rutiner for å utarbeide, kvalitetssikre, godkjenne, publisere, forvalte og oppdatere veiledning i samarbeid med relevante fagmiljøer. - **Semantisk (Høy vekt):** Bruke omforente begreper, tydelige beskrivelser, felles maler og konsistent terminologi, slik at veiledningen forstås likt på tvers av virksomheter. - **Teknisk (Middels vekt):** Tilgjengeliggjøre veiledning i digitale kanaler, kataloger, repositorier eller kunnskapsbaser, med versjonering, lenking og struktur som gjør innholdet lett å finne og gjenbruke. ### Bidrag til sammenhengende tjenester og felles økosystem Kapabiliteten bidrar til sammenhengende tjenester ved å gjøre det enklere for virksomheter å bygge løsninger etter felles prinsipper, referansearkitekturer, standarder, samhandlingsmønstre og beskrivelser av beste praksis. Når veiledning er kvalitetssikret og tilgjengelig, reduseres lokale tolkninger og ulik praksis. For det felles økosystemet gir kapabiliteten bedre etterlevelse, mer gjenbruk og raskere innføring av felles arkitektur og standarder. For sluttbrukeren betyr dette mer konsistente og sammenhengende digitale tjenester, fordi virksomhetene utvikler og forvalter løsninger etter samme kunnskapsgrunnlag."
-cardMeta: "26 produkter"
+cardMeta: "29 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
   <div class="capability-product-links">
     <article class="capability-product-link resource-type--normative">
       <p class="capability-product-link__type">Normerende ressurs</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/74-Felles-mal-for-innforing-av-digitale-fellestjenester-v1-claude.md">Felles mal for innføring av digitale fellestjenester</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/74-Felles-mal-for-innforing-av-digitale-fellestjenester-v2-claude.md">Felles mal for innføring av digitale fellestjenester</a></h3>
       <p class="capability-product-link__description">KS Digital utarbeider, kvalitetssikrer og tilgjengeliggjør malen som felles veiledning for hele kommunesektoren, og oppdaterer den gjennom erfaring fra konkrete innføringsløp.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
@@ -126,7 +126,7 @@ productsMarkdown: |
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/157-ung-no-v1-claude.md">ung.no</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/157-ung-no-v2-claude.md">ung.no</a></h3>
       <p class="capability-product-link__description">Spørretjenesten produserer kvalitetssikrede svar fra et fagpanel, og svarene publiseres som varig veiledningsinnhold.</p>
     </article>
     <article class="capability-product-link resource-type--normative">
@@ -138,6 +138,21 @@ productsMarkdown: |
       <p class="capability-product-link__type">Normerende ressurs</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/168-sikkert-no-v1-claude.md">Sikkert.no</a></h3>
       <p class="capability-product-link__description">utarbeider, kvalitetssikrer og tilgjengeliggjør veiledning om digital sikkerhet, tilpasset tre definerte målgrupper. Dette er portalens kjernefunksjon, og den omsetter regelverk og fagkunnskap fra fire etater til råd som kan brukes direkte.</p>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/174-NSMs-grunnprinsipper-for-IKT-sikkerhet-v1-claude.md">NSMs grunnprinsipper for IKT-sikkerhet</a></h3>
+      <p class="capability-product-link__description">grunnprinsippene er NSMs publiserte veiledning for IKT-sikkerhet, utgitt i versjoner, med støtteprodukter, engelsk utgave og et eget e-læringskurs.</p>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/179-Internkontroll-i-praksis-informasjonssikkerhet-v1-claude.md">Internkontroll i praksis – informasjonssikkerhet</a></h3>
+      <p class="capability-product-link__description">veiledningen er Digdirs publiserte og versjonerte anbefaling etter eForvaltningsforskriften § 15 annet ledd, med endringslogg, maler på bokmål og nynorsk og åpen lisens for gjenbruk.</p>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/195-Normen-v1-claude.md">Normen</a></h3>
+      <p class="capability-product-link__description">Styringsgruppen utgir faktaark, veiledere og maler til Normen, blant annet en egen veileder for leverandører, og formidler Normen gjennom kurs, webinarer, nyhetsbrev og en årlig konferanse.</p>
     </article>
   </div>
 ---

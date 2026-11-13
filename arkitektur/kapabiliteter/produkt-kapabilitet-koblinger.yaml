@@ -21,22 +21,22 @@
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-ec0afaac123d4f9e83889d9022a198c3",
                     "subcapability_name": "Autentisering",
                     "subcapability_slug": "autentisering",
-                    "mapping_label": "Tillit: Autentisering",
+                    "mapping_label": "Digital tillit: Autentisering",
                     "explanation": "verifiserer brukerens identitet gjennom godkjente eID-er og gir et felles sikkerhetsnivå på tvers av offentlige tjenester."
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-4b66bbf964834654b5f0c61e955b91b1",
                     "subcapability_name": "Identifisering",
                     "subcapability_slug": "identifisering",
-                    "mapping_label": "Tillit: Identifisering",
+                    "mapping_label": "Digital tillit: Identifisering",
                     "explanation": "kobler innloggingen til en entydig digital identitet som tjenesteeier kan bruke videre i sin saks- og tjenestelogikk."
                 },
                 {
@@ -91,32 +91,32 @@
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-ec0afaac123d4f9e83889d9022a198c3",
                     "subcapability_name": "Autentisering",
                     "subcapability_slug": "autentisering",
-                    "mapping_label": "Tillit: Autentisering",
+                    "mapping_label": "Digital tillit: Autentisering",
                     "explanation": "bekrefter identiteten til virksomheter og systemer som skal bruke API-er eller hente data maskinelt."
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-a8a1eb0181f04006ba7d3b5ab2fa9ca8",
                     "subcapability_name": "Tilgangskontroll",
                     "subcapability_slug": "tilgangskontroll",
-                    "mapping_label": "Tillit: Tilgangskontroll",
+                    "mapping_label": "Digital tillit: Tilgangskontroll",
                     "explanation": "gir grunnlag for å slippe inn bare systemer som har riktig token, scope og godkjent tilgang til den aktuelle ressursen."
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-b440252bc3de42dea8468be54e54b1fa",
                     "subcapability_name": "Tilgangsstyring",
                     "subcapability_slug": "tilgangsstyring",
-                    "mapping_label": "Tillit: Tilgangsstyring",
+                    "mapping_label": "Digital tillit: Tilgangsstyring",
                     "explanation": "forvalter scopes, klientregistrering og API-delegering som nasjonal fellesmekanisme for API-sikring og tokenforvaltning, slik at virksomheter kan definere, delegere og trekke tilbake maskinell tilgang til egne API-er."
                 }
             ]
@@ -141,22 +141,22 @@
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-ec0afaac123d4f9e83889d9022a198c3",
                     "subcapability_name": "Autentisering",
                     "subcapability_slug": "autentisering",
-                    "mapping_label": "Tillit: Autentisering",
+                    "mapping_label": "Digital tillit: Autentisering",
                     "explanation": "brukes for å sikre at den som signerer identifiserer seg med støttet eID før signeringen gjennomføres."
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-f5214c3db8de4738ab03abb7b7e553ed",
                     "subcapability_name": "Signering",
                     "subcapability_slug": "signering",
-                    "mapping_label": "Tillit: Signering",
+                    "mapping_label": "Digital tillit: Signering",
                     "explanation": "er produktets kjernefunksjon og gjør det mulig å gjennomføre elektronisk signering av dokumenter i en nasjonal fellestjeneste."
                 }
             ]
@@ -171,42 +171,42 @@
             "capabilities": [
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-b2aafe1f4c534db6b92c40b1eef605f2",
                     "subcapability_name": "Representasjon",
                     "subcapability_slug": "representasjon",
-                    "mapping_label": "Tillit: Representasjon",
+                    "mapping_label": "Digital tillit: Representasjon",
                     "explanation": "gjør det mulig å opptre på vegne av virksomhet eller annen part gjennom delegering og valg av hvem man handler for."
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-809f454dc4024d56ab54079252fdfe29",
                     "subcapability_name": "Samtykke",
                     "subcapability_slug": "samtykke",
-                    "mapping_label": "Tillit: Samtykke",
+                    "mapping_label": "Digital tillit: Samtykke",
                     "explanation": "gir mekanismer for å definere en samtykkeressurs, innhente sluttbrukerens godkjenning, sette gyldighetstid, avslå, og gjøre resultatet tilgjengelig som samtykketoken for datakonsumenten."
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-a8a1eb0181f04006ba7d3b5ab2fa9ca8",
                     "subcapability_name": "Tilgangskontroll",
                     "subcapability_slug": "tilgangskontroll",
-                    "mapping_label": "Tillit: Tilgangskontroll",
+                    "mapping_label": "Digital tillit: Tilgangskontroll",
                     "explanation": "er produktets kjernefunksjon og avgjør om brukere og systemer kan utføre en operasjon på en ressurs."
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-b440252bc3de42dea8468be54e54b1fa",
                     "subcapability_name": "Tilgangsstyring",
                     "subcapability_slug": "tilgangsstyring",
-                    "mapping_label": "Tillit: Tilgangsstyring",
+                    "mapping_label": "Digital tillit: Tilgangsstyring",
                     "explanation": "gir mekanismer for å registrere ressurser, definere policyer, administrere rettigheter og forvalte tilganger over tid."
                 }
             ]
@@ -244,21 +244,11 @@
         {
             "product_id": 6,
             "product_name": "eInnsyn",
-            "version": 3,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/06-eInnsyn-produkt-canvas-v3-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/06-eInnsyn-produkt-canvas-v3-codex.md",
+            "version": 4,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/06-eInnsyn-produkt-canvas-v4-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/06-eInnsyn-produkt-canvas-v4-claude.md",
             "capabilities": [
-                {
-                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
-                    "capability_name": "Samarbeid",
-                    "capability_slug": "samarbeid",
-                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
-                    "subcapability_name": "Organisatorisk samhandling",
-                    "subcapability_slug": "organisatorisk-samhandling",
-                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "gjør det mulig for mange virksomheter å publisere informasjon gjennom et felles oppsett og et felles brukergrensesnitt for innsyn."
-                },
                 {
                     "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
                     "capability_name": "Sluttbrukertjenester",
@@ -274,10 +264,10 @@
         {
             "product_id": 7,
             "product_name": "eFormidling",
-            "version": 3,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/07-eFormidling-produkt-canvas-v3-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/07-eFormidling-produkt-canvas-v3-codex.md",
+            "version": 4,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/07-eFormidling-produkt-canvas-v4-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/07-eFormidling-produkt-canvas-v4-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
@@ -310,16 +300,6 @@
                     "explanation": "er selve kjernefunksjonen i produktet, fordi løsningen pakker, ruter og leverer meldinger mellom avsender og mottaker."
                 },
                 {
-                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
-                    "capability_name": "Samarbeid",
-                    "capability_slug": "samarbeid",
-                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
-                    "subcapability_name": "Organisatorisk samhandling",
-                    "subcapability_slug": "organisatorisk-samhandling",
-                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "støtter samhandling mellom virksomheter ved at samme løsning kan brukes på tvers av organisatoriske grenser og ulike mottakergrupper."
-                },
-                {
                     "capability_id": "id-48c9873ae59341a49c2dca27379fab55",
                     "capability_name": "Informasjonssikkerhet",
                     "capability_slug": "informasjonssikkerhet",
@@ -344,10 +324,10 @@
         {
             "product_id": 8,
             "product_name": "Altinn Formidling",
-            "version": 3,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/08-Altinn-formidling-produkt-canvas-v3-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/08-Altinn-formidling-produkt-canvas-v3-codex.md",
+            "version": 4,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/08-Altinn-formidling-produkt-canvas-v4-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/08-Altinn-formidling-produkt-canvas-v4-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
@@ -388,16 +368,6 @@
                     "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling",
                     "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
                     "explanation": "støttes gjennom tilgangskontroll, logging og sikker håndtering av innhold."
-                },
-                {
-                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
-                    "capability_name": "Samarbeid",
-                    "capability_slug": "samarbeid",
-                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
-                    "subcapability_name": "Organisatorisk samhandling",
-                    "subcapability_slug": "organisatorisk-samhandling",
-                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "gjør det mulig å etablere standardiserte leveranseløp mellom virksomheter."
                 },
                 {
                     "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
@@ -471,12 +441,12 @@
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-4b66bbf964834654b5f0c61e955b91b1",
                     "subcapability_name": "Identifisering",
                     "subcapability_slug": "identifisering",
-                    "mapping_label": "Tillit: Identifisering",
+                    "mapping_label": "Digital tillit: Identifisering",
                     "explanation": "knytter virksomheter og deltakere til entydige identifikatorer som kan brukes i adressering og oppslag i meldingsøkosystemet."
                 }
             ]
@@ -521,12 +491,12 @@
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-4b66bbf964834654b5f0c61e955b91b1",
                     "subcapability_name": "Identifisering",
                     "subcapability_slug": "identifisering",
-                    "mapping_label": "Tillit: Identifisering",
+                    "mapping_label": "Digital tillit: Identifisering",
                     "explanation": "baserer ruting og adressering på entydige deltakeridentifikatorer."
                 }
             ]
@@ -881,12 +851,12 @@
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-a8a1eb0181f04006ba7d3b5ab2fa9ca8",
                     "subcapability_name": "Tilgangskontroll",
                     "subcapability_slug": "tilgangskontroll",
-                    "mapping_label": "Tillit: Tilgangskontroll",
+                    "mapping_label": "Digital tillit: Tilgangskontroll",
                     "explanation": "er sentral fordi tjenestekontekst og regler styrer hvilke data som kan hentes."
                 },
                 {
@@ -944,21 +914,11 @@
         {
             "product_id": 19,
             "product_name": "Altinn 3 plattform",
-            "version": 3,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/19-Altinn-3-plattform-produkt-canvas-v3-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/19-Altinn-3-plattform-produkt-canvas-v3-codex.md",
+            "version": 4,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/19-Altinn-3-plattform-produkt-canvas-v4-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/19-Altinn-3-plattform-produkt-canvas-v4-claude.md",
             "capabilities": [
-                {
-                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
-                    "capability_name": "Samarbeid",
-                    "capability_slug": "samarbeid",
-                    "subcapability_id": "id-3f59d920995e4d488e56f61356dcf97a",
-                    "subcapability_name": "Tjenesteforvaltning",
-                    "subcapability_slug": "tjenesteforvaltning",
-                    "mapping_label": "Samarbeid: Tjenesteforvaltning",
-                    "explanation": "støtter felles plattformforvaltning, livsløp og styring av tjenester som bygges og kjøres i Altinn."
-                },
                 {
                     "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
                     "capability_name": "Tjenesteutvikling",
@@ -1101,12 +1061,12 @@
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-a8a1eb0181f04006ba7d3b5ab2fa9ca8",
                     "subcapability_name": "Tilgangskontroll",
                     "subcapability_slug": "tilgangskontroll",
-                    "mapping_label": "Tillit: Tilgangskontroll",
+                    "mapping_label": "Digital tillit: Tilgangskontroll",
                     "explanation": "bygger på Altinn Autorisasjon, autoriserte parter og tjenesteressurser."
                 },
                 {
@@ -1161,22 +1121,22 @@
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-2dfe07b3eae740b9a292e0a4a42d22db",
                     "subcapability_name": "Sporbarhet og innsyn",
                     "subcapability_slug": "sporbarhet-og-innsyn",
-                    "mapping_label": "Tillit: Sporbarhet og innsyn",
+                    "mapping_label": "Digital tillit: Sporbarhet og innsyn",
                     "explanation": "understøttes gjennom omfattende logging av hendelser og prosesser."
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-a8a1eb0181f04006ba7d3b5ab2fa9ca8",
                     "subcapability_name": "Tilgangskontroll",
                     "subcapability_slug": "tilgangskontroll",
-                    "mapping_label": "Tillit: Tilgangskontroll",
+                    "mapping_label": "Digital tillit: Tilgangskontroll",
                     "explanation": "sørger for at kun autoriserte brukere og systemer får tilgang til meldinger og vedlegg."
                 },
                 {
@@ -1254,21 +1214,11 @@
         {
             "product_id": 25,
             "product_name": "Fiks-plattformen",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/25-FIKS-plattformen-produkt-canvas-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/25-FIKS-plattformen-produkt-canvas-v1-codex.md",
+            "version": 2,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/25-FIKS-plattformen-produkt-canvas-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/25-FIKS-plattformen-produkt-canvas-v2-claude.md",
             "capabilities": [
-                {
-                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
-                    "capability_name": "Samarbeid",
-                    "capability_slug": "samarbeid",
-                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
-                    "subcapability_name": "Organisatorisk samhandling",
-                    "subcapability_slug": "organisatorisk-samhandling",
-                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "gir kommunal sektor et felles plattformgrunnlag for samhandling på tvers av kommuner, fylkeskommuner, leverandører og statlige aktører."
-                },
                 {
                     "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
                     "capability_name": "Tjenesteutvikling",
@@ -1294,10 +1244,10 @@
         {
             "product_id": 26,
             "product_name": "Fiks melding",
-            "version": 3,
+            "version": 4,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/26-FIKS-Melding-produkt-canvas-v3-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/26-FIKS-Melding-produkt-canvas-v3-claude.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/26-FIKS-Melding-produkt-canvas-v4-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/26-FIKS-Melding-produkt-canvas-v4-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
@@ -1318,26 +1268,16 @@
                     "subcapability_slug": "sikring-av-informasjonsflyt-og-datautveksling",
                     "mapping_label": "Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling",
                     "explanation": "er direkte relevant fordi produktet brukes til sikker kommunikasjon og KS Digital publiserer eget sikkerhetsunderlag for ROS og DPIA for deler av funksjonssettet."
-                },
-                {
-                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
-                    "capability_name": "Samarbeid",
-                    "capability_slug": "samarbeid",
-                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
-                    "subcapability_name": "Organisatorisk samhandling",
-                    "subcapability_slug": "organisatorisk-samhandling",
-                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "er direkte relevant fordi løsningen gir kommuner, innbyggere og andre virksomheter et felles kanalgrunnlag for digital kommunikasjon."
                 }
             ]
         },
         {
             "product_id": 27,
             "product_name": "Fiks SvarUt",
-            "version": 4,
+            "version": 5,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/27-FIKS-SvarUt-produkt-canvas-v4-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/27-FIKS-SvarUt-produkt-canvas-v4-claude.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/27-FIKS-SvarUt-produkt-canvas-v5-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/27-FIKS-SvarUt-produkt-canvas-v5-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
@@ -1348,16 +1288,6 @@
                     "subcapability_slug": "meldingsutveksling",
                     "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                     "explanation": "Fiks SvarUt sin kjernefunksjon er å motta, rute og levere dokumentforsendelser til riktig kanal og mottaker."
-                },
-                {
-                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
-                    "capability_name": "Samarbeid",
-                    "capability_slug": "samarbeid",
-                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
-                    "subcapability_name": "Organisatorisk samhandling",
-                    "subcapability_slug": "organisatorisk-samhandling",
-                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "Løsningen muliggjør et felles utsendingsløp mellom kommuner, andre offentlige virksomheter og sentrale mottakerkanaler."
                 },
                 {
                     "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
@@ -1501,38 +1431,38 @@
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-b2aafe1f4c534db6b92c40b1eef605f2",
                     "subcapability_name": "Representasjon",
                     "subcapability_slug": "representasjon",
-                    "mapping_label": "Tillit: Representasjon",
+                    "mapping_label": "Digital tillit: Representasjon",
                     "explanation": "gjør det mulig å opptre på vegne av andre gjennom fullmakt med selvvalgt omfang, og gir foreldre representasjon for barn under 16 år."
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-809f454dc4024d56ab54079252fdfe29",
                     "subcapability_name": "Samtykke",
                     "subcapability_slug": "samtykke",
-                    "mapping_label": "Tillit: Samtykke",
+                    "mapping_label": "Digital tillit: Samtykke",
                     "explanation": "er stedet innbyggeren gir, endrer og trekker tilbake samtykke, blant annet samtykke til at barn mellom 13 og 16 år kan bruke enkelte tjenester, og samtykke til at apotek kan hente ut reseptvarer."
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-b440252bc3de42dea8468be54e54b1fa",
                     "subcapability_name": "Tilgangsstyring",
                     "subcapability_slug": "tilgangsstyring",
-                    "mapping_label": "Tillit: Tilgangsstyring",
+                    "mapping_label": "Digital tillit: Tilgangsstyring",
                     "explanation": "lar innbyggeren definere, avgrense og trekke tilbake hvem som skal ha tilgang til egne helseopplysninger, gjennom fullmakter, sperring og blokkering av utvalgte helsepersonell."
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-2dfe07b3eae740b9a292e0a4a42d22db",
                     "subcapability_name": "Sporbarhet og innsyn",
                     "subcapability_slug": "sporbarhet-og-innsyn",
@@ -1570,18 +1500,18 @@
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-ec0afaac123d4f9e83889d9022a198c3",
                     "subcapability_name": "Autentisering",
                     "subcapability_slug": "autentisering",
-                    "mapping_label": "Tillit: Autentisering",
+                    "mapping_label": "Digital tillit: Autentisering",
                     "explanation": "er en kjernefunksjon ved at HelseID bekrefter identiteten til helsepersonell, systemer og virksomheter."
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-b440252bc3de42dea8468be54e54b1fa",
                     "subcapability_name": "Tilgangsstyring",
                     "subcapability_slug": "tilgangsstyring",
@@ -1592,10 +1522,10 @@
         {
             "product_id": 34,
             "product_name": "Kjernejournal",
-            "version": 3,
+            "version": 4,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/34-Kjernejournal-produkt-canvas-v3-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/34-Kjernejournal-produkt-canvas-v3-claude.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/34-Kjernejournal-produkt-canvas-v4-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/34-Kjernejournal-produkt-canvas-v4-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
@@ -1618,33 +1548,23 @@
                     "subcapability_slug": "dele-data-med-andre"
                 },
                 {
-                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
-                    "capability_name": "Samarbeid",
-                    "capability_slug": "samarbeid",
-                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "støtter samhandling mellom helsevirksomheter som ellers ville vært avhengige av mer fragmentert informasjonsdeling.",
-                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
-                    "subcapability_name": "Organisatorisk samhandling",
-                    "subcapability_slug": "organisatorisk-samhandling"
-                },
-                {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-2dfe07b3eae740b9a292e0a4a42d22db",
                     "subcapability_name": "Sporbarhet og innsyn",
                     "subcapability_slug": "sporbarhet-og-innsyn",
-                    "mapping_label": "Tillit: Sporbarhet og innsyn",
+                    "mapping_label": "Digital tillit: Sporbarhet og innsyn",
                     "explanation": "dokumenterer hvert oppslag i en bruksslogg som pasienten har rett til å se etter kjernejournalforskriften § 6, slik at bruken av opplysningene kan etterprøves."
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-a8a1eb0181f04006ba7d3b5ab2fa9ca8",
                     "subcapability_name": "Tilgangskontroll",
                     "subcapability_slug": "tilgangskontroll",
-                    "mapping_label": "Tillit: Tilgangskontroll",
+                    "mapping_label": "Digital tillit: Tilgangskontroll",
                     "explanation": "håndhever ved hvert oppslag at bare helsepersonell med tjenstlig behov får tilgang, og at pasientens sperring eller blokkering av bestemte deler eller bestemte personer respekteres."
                 }
             ]
@@ -1879,28 +1799,28 @@
             "capabilities": [
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-ec0afaac123d4f9e83889d9022a198c3",
                     "subcapability_name": "Autentisering",
                     "subcapability_slug": "autentisering",
-                    "mapping_label": "Tillit: Autentisering",
+                    "mapping_label": "Digital tillit: Autentisering",
                     "explanation": "gir en felles europeisk mekanisme for å verifisere en digital identitet på høyt sikkerhetsnivå, uavhengig av hvilket land brukeren kommer fra. Lommeboka leverer evnen selv, og er ikke avhengig av at brukerstedet har egen innloggingsløsning."
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-f5214c3db8de4738ab03abb7b7e553ed",
                     "subcapability_name": "Signering",
                     "subcapability_slug": "signering",
-                    "mapping_label": "Tillit: Signering",
+                    "mapping_label": "Digital tillit: Signering",
                     "explanation": "gjør det mulig for innbyggeren å opprette rettslig bindende elektroniske signaturer direkte fra lommeboka, innenfor det samme tillitsrammeverket."
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-809f454dc4024d56ab54079252fdfe29",
                     "subcapability_name": "Samtykke",
                     "subcapability_slug": "samtykke",
@@ -1918,22 +1838,22 @@
             "capabilities": [
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-ec0afaac123d4f9e83889d9022a198c3",
                     "subcapability_name": "Autentisering",
                     "subcapability_slug": "autentisering",
-                    "mapping_label": "Tillit: Autentisering",
+                    "mapping_label": "Digital tillit: Autentisering",
                     "explanation": "gir mekanismen for at en tjeneste i ett land kan verifisere en innlogging utført med en eID fra et annet land, innenfor eIDAS-rammeverkets sikkerhetsnivåer."
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-4b66bbf964834654b5f0c61e955b91b1",
                     "subcapability_name": "Identifisering",
                     "subcapability_slug": "identifisering",
-                    "mapping_label": "Tillit: Identifisering",
+                    "mapping_label": "Digital tillit: Identifisering",
                     "explanation": "overfører et minimumsdatasett som identifiserer personen eller virksomheten entydig på tvers av landegrenser, slik at mottakeren kan koble identiteten videre i egen tjenestelogikk."
                 }
             ]
@@ -1971,9 +1891,9 @@
                     "capability_name": "Standardisering",
                     "capability_slug": "standardisering",
                     "subcapability_id": "id-697145d3768b40d39f9463667b78f749",
-                    "subcapability_name": "EU standarder",
+                    "subcapability_name": "EU-standarder",
                     "subcapability_slug": "eu-standarder",
-                    "mapping_label": "Standardisering: EU standarder",
+                    "mapping_label": "Standardisering: EU-standarder",
                     "explanation": "forvalter selve AS4-profilen og tjenestemetadataspesifikasjonene, og gjør dem tilgjengelige med konformitetstesting, slik at europeiske standarder faktisk kan tas i bruk."
                 }
             ]
@@ -1988,12 +1908,12 @@
             "capabilities": [
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-f5214c3db8de4738ab03abb7b7e553ed",
                     "subcapability_name": "Signering",
                     "subcapability_slug": "signering",
-                    "mapping_label": "Tillit: Signering",
+                    "mapping_label": "Digital tillit: Signering",
                     "explanation": "gir programvarekomponentene og tillitsgrunnlaget som gjør det mulig å opprette og verifisere avanserte og kvalifiserte elektroniske signaturer på tvers av land."
                 },
                 {
@@ -2011,9 +1931,9 @@
                     "capability_name": "Standardisering",
                     "capability_slug": "standardisering",
                     "subcapability_id": "id-697145d3768b40d39f9463667b78f749",
-                    "subcapability_name": "EU standarder",
+                    "subcapability_name": "EU-standarder",
                     "subcapability_slug": "eu-standarder",
-                    "mapping_label": "Standardisering: EU standarder",
+                    "mapping_label": "Standardisering: EU-standarder",
                     "explanation": "forvalter og tilgjengeliggjør signaturformatene og valideringsreglene fra ETSI i en form som lar seg ta i bruk, med konformitetskontroll."
                 }
             ]
@@ -2021,10 +1941,10 @@
         {
             "product_id": 45,
             "product_name": "Once-Only Technical System (OOTS)",
-            "version": 2,
+            "version": 3,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/45-Once-Only-Technical-System-v2-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/45-Once-Only-Technical-System-v2-claude.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/45-Once-Only-Technical-System-v3-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/45-Once-Only-Technical-System-v3-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
@@ -2054,7 +1974,7 @@
                     "subcapability_name": "Organisatorisk samhandling",
                     "subcapability_slug": "organisatorisk-samhandling",
                     "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "effektiviserer forretningsprosessene på tvers av organisatoriske og nasjonale grenser, ved at søknadsbehandling i ett land kan trekke på registerdata i et annet."
+                    "explanation": "fastsetter roller og prosedyrer for bevisutveksling mellom myndigheter i ulike land. Bevismottakeren og bevisleverandøren har hver sin rolle i de prosedyrene forordningen lister, brukeren godkjenner overføringen i en forhåndsvisning, og verdien oppstår først når begge rollene er koblet til i hvert landpar."
                 },
                 {
                     "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
@@ -2127,32 +2047,32 @@
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-ec0afaac123d4f9e83889d9022a198c3",
                     "subcapability_name": "Autentisering",
                     "subcapability_slug": "autentisering",
-                    "mapping_label": "Tillit: Autentisering",
+                    "mapping_label": "Digital tillit: Autentisering",
                     "explanation": "er kjernefunksjonen og gjør det mulig å bekrefte identiteten til brukere på tvers av mange tjenester i sektoren."
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-a8a1eb0181f04006ba7d3b5ab2fa9ca8",
                     "subcapability_name": "Tilgangskontroll",
                     "subcapability_slug": "tilgangskontroll",
-                    "mapping_label": "Tillit: Tilgangskontroll",
+                    "mapping_label": "Digital tillit: Tilgangskontroll",
                     "explanation": "håndhever ved hvert innloggings- og datauttrekk hvilke tjenester som får hvilke opplysninger, etter tilgangsnivået dataeier har satt i kundeportalen: fri tilgang innvilges automatisk, mens nivåer som krever godkjenning må godkjennes eller avslås av dataeier før tjenesten slipper til."
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-b440252bc3de42dea8468be54e54b1fa",
                     "subcapability_name": "Tilgangsstyring",
                     "subcapability_slug": "tilgangsstyring",
-                    "mapping_label": "Tillit: Tilgangsstyring",
+                    "mapping_label": "Digital tillit: Tilgangsstyring",
                     "explanation": "realiseres i kundeportalen, der dataeier setter tilgangsnivå per datakilde og godkjenner eller avslår forespørsler fra tjenester. Dette er forvaltningen av rettighetene som Tilgangskontroll deretter håndhever ved hver innlogging og hvert datauttrekk."
                 }
             ]
@@ -2160,10 +2080,10 @@
         {
             "product_id": 48,
             "product_name": "Felles studentsystem (FS)",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/48-Felles-studentsystem-produkt-canvas-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/48-Felles-studentsystem-produkt-canvas-v1-codex.md",
+            "version": 2,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/48-Felles-studentsystem-produkt-canvas-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/48-Felles-studentsystem-produkt-canvas-v2-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
@@ -2194,16 +2114,6 @@
                     "subcapability_id": "id-5852d070415849fab42749cb488d984a",
                     "subcapability_name": "Datastyring",
                     "subcapability_slug": "datastyring"
-                },
-                {
-                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
-                    "capability_name": "Samarbeid",
-                    "capability_slug": "samarbeid",
-                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "er relevant fordi FS er en felles sektorløsning som brukes av mange institusjoner med Sikt som felles forvalter.",
-                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
-                    "subcapability_name": "Organisatorisk samhandling",
-                    "subcapability_slug": "organisatorisk-samhandling"
                 }
             ]
         },
@@ -2390,9 +2300,9 @@
                     "capability_name": "Standardisering",
                     "capability_slug": "standardisering",
                     "subcapability_id": "id-697145d3768b40d39f9463667b78f749",
-                    "subcapability_name": "EU standarder",
+                    "subcapability_name": "EU-standarder",
                     "subcapability_slug": "eu-standarder",
-                    "mapping_label": "Standardisering: EU standarder",
+                    "mapping_label": "Standardisering: EU-standarder",
                     "explanation": "gir en samlet, søkbar inngang til de europeiske spesifikasjonene, vokabularene og rammeverkene som faktisk skal tas i bruk, med en anerkjennelsesordning som skiller anbefalte løsninger fra øvrige oppføringer."
                 },
                 {
@@ -2430,9 +2340,9 @@
                     "capability_name": "Standardisering",
                     "capability_slug": "standardisering",
                     "subcapability_id": "id-697145d3768b40d39f9463667b78f749",
-                    "subcapability_name": "EU standarder",
+                    "subcapability_name": "EU-standarder",
                     "subcapability_slug": "eu-standarder",
-                    "mapping_label": "Standardisering: EU standarder",
+                    "mapping_label": "Standardisering: EU-standarder",
                     "explanation": "forvalter og tilgjengeliggjør de europeiske kjernemodellene som skal tas i bruk, med dokumentert metode for utvikling og endring."
                 }
             ]
@@ -2447,22 +2357,22 @@
             "capabilities": [
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-ec0afaac123d4f9e83889d9022a198c3",
                     "subcapability_name": "Autentisering",
                     "subcapability_slug": "autentisering",
-                    "mapping_label": "Tillit: Autentisering",
+                    "mapping_label": "Digital tillit: Autentisering",
                     "explanation": "gjør det mulig for en norsk tjeneste å verifisere en innlogging utført med en notifisert eID fra et annet EØS-land, på eIDAS-nivå betydelig eller høyt. Uten noden ville evnen til å autentisere utenlandske brukere forsvinne fra norsk arkitektur; den leveres ikke av ID-porten selv."
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-4b66bbf964834654b5f0c61e955b91b1",
                     "subcapability_name": "Identifisering",
                     "subcapability_slug": "identifisering",
-                    "mapping_label": "Tillit: Identifisering",
+                    "mapping_label": "Digital tillit: Identifisering",
                     "explanation": "knytter den utenlandske identiteten til en norsk personidentifikator gjennom oppslag i Folkeregisteret, slik at tjenesten kan bruke identiteten videre i egen saks- og tjenestelogikk."
                 }
             ]
@@ -2500,10 +2410,10 @@
         {
             "product_id": 59,
             "product_name": "A-ordningen",
-            "version": 1,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/59-A-ordningen-produkt-canvas-v1-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/59-A-ordningen-produkt-canvas-v1-codex.md",
+            "version": 2,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/59-A-ordningen-produkt-canvas-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/59-A-ordningen-produkt-canvas-v2-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
@@ -2530,7 +2440,7 @@
                     "capability_name": "Samarbeid",
                     "capability_slug": "samarbeid",
                     "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "er sentralt fordi ordningen forvaltes og brukes i et samspill mellom flere offentlige virksomheter.",
+                    "explanation": "er sentralt fordi ordningen samordner rapporteringsprosessen på tvers av Skatteetaten, NAV og SSB: arbeidsgiveren sender én a-melding i stedet for fem skjemaer, og ansvaret for mottak, kontroll og videre bruk er fordelt mellom etatene.",
                     "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
                     "subcapability_name": "Organisatorisk samhandling",
                     "subcapability_slug": "organisatorisk-samhandling"
@@ -2610,10 +2520,10 @@
         {
             "product_id": 62,
             "product_name": "DSOP-tjenester",
-            "version": 2,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/62-DSOP-tjenester-produkt-canvas-v2-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/62-DSOP-tjenester-produkt-canvas-v2-codex.md",
+            "version": 3,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/62-DSOP-tjenester-produkt-canvas-v3-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/62-DSOP-tjenester-produkt-canvas-v3-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-ad6f81e892a74590840828b6aabb270d",
@@ -2630,7 +2540,7 @@
                     "capability_name": "Samarbeid",
                     "capability_slug": "samarbeid",
                     "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "er nødvendig fordi tjenestene realiseres og forvaltes i samspill mellom aktører som ikke deler samme styringslinje.",
+                    "explanation": "er nødvendig fordi tjenestene kobler sammen reelle arbeidsprosesser mellom offentlige virksomheter og finansnæringen, med felles dokumentasjon og avklart ansvar for hvem som gjør hva i hvert tjenesteløp.",
                     "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
                     "subcapability_name": "Organisatorisk samhandling",
                     "subcapability_slug": "organisatorisk-samhandling"
@@ -3020,20 +2930,20 @@
         {
             "product_id": 73,
             "product_name": "VIGO",
-            "version": 3,
+            "version": 4,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v3-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v3-claude.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v4-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/73-VIGO-v4-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
                     "capability_name": "Samarbeid",
                     "capability_slug": "samarbeid",
-                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
-                    "subcapability_name": "Organisatorisk samhandling",
-                    "subcapability_slug": "organisatorisk-samhandling",
-                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "VIGO er felles eid og finansiert av fylkeskommunene og Oslo kommune, og understøtter samhandling mellom flere aktører i utdanningssektoren."
+                    "subcapability_id": "id-3f59d920995e4d488e56f61356dcf97a",
+                    "subcapability_name": "Tjenesteforvaltning",
+                    "subcapability_slug": "tjenesteforvaltning",
+                    "mapping_label": "Samarbeid: Tjenesteforvaltning",
+                    "explanation": "Alle 14 fylkeskommuner og Oslo kommune eier og finansierer VIGO i fellesskap, og løsningen forvaltes og videreutvikles samordnet på deres vegne gjennom Novari IKS. Eierskapet og forvaltningen dekker hele livsløpet, også den varslede moderniseringen av systemfamilien."
                 },
                 {
                     "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
@@ -3080,10 +2990,10 @@
         {
             "product_id": 74,
             "product_name": "Felles mal for innføring av digitale fellestjenester",
-            "version": 1,
+            "version": 2,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/normerende-ressurser/74-Felles-mal-for-innforing-av-digitale-fellestjenester-v1-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/74-Felles-mal-for-innforing-av-digitale-fellestjenester-v1-claude.md",
+            "relative_path": "arkitektur/ressurser/normerende-ressurser/74-Felles-mal-for-innforing-av-digitale-fellestjenester-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/74-Felles-mal-for-innforing-av-digitale-fellestjenester-v2-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-c0547226c598467a942dced879d0c18b",
@@ -3103,7 +3013,7 @@
                     "subcapability_name": "Organisatorisk samhandling",
                     "subcapability_slug": "organisatorisk-samhandling",
                     "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "Malen effektiviserer arbeidsprosessene mellom KS Digital og den enkelte kommunen ved at begge parter arbeider etter samme faseinndeling, med avklarte forventninger om hvem som gjør hva og når."
+                    "explanation": "Malen avklarer arbeidsprosessene mellom KS Digital og den enkelte kommunen ved at begge parter arbeider etter samme faseinndeling, med avklarte forventninger om hvem som gjør hva og når."
                 }
             ]
         },
@@ -3240,21 +3150,11 @@
         {
             "product_id": 83,
             "product_name": "Arkivintegrasjoner",
-            "version": 1,
+            "version": 2,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/83-FINT-Arkivintegrasjoner-v1-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/83-FINT-Arkivintegrasjoner-v1-claude.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/83-FINT-Arkivintegrasjoner-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/83-FINT-Arkivintegrasjoner-v2-claude.md",
             "capabilities": [
-                {
-                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
-                    "capability_name": "Samarbeid",
-                    "capability_slug": "samarbeid",
-                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
-                    "subcapability_name": "Organisatorisk samhandling",
-                    "subcapability_slug": "organisatorisk-samhandling",
-                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "Tjenesten effektiviserer arbeidsprosessene mellom fagområde og arkiv ved at dokumenter og saksopplysninger flyter automatisk inn i arkivet, framfor at saksbehandleren overfører dem manuelt mellom to systemer."
-                },
                 {
                     "capability_id": "id-cd3b6a8989a448a2b4dfbf430a41bad4",
                     "capability_name": "Tjenesteutvikling",
@@ -3350,9 +3250,9 @@
                     "capability_name": "Standardisering",
                     "capability_slug": "standardisering",
                     "subcapability_id": "id-697145d3768b40d39f9463667b78f749",
-                    "subcapability_name": "EU standarder",
+                    "subcapability_name": "EU-standarder",
                     "subcapability_slug": "eu-standarder",
-                    "mapping_label": "Standardisering: EU standarder",
+                    "mapping_label": "Standardisering: EU-standarder",
                     "explanation": "Flere av standardene i katalogen er internasjonale, og obligatoriske standarder må notifiseres til ESA før de kan fastsettes."
                 },
                 {
@@ -3450,9 +3350,9 @@
                     "capability_name": "Standardisering",
                     "capability_slug": "standardisering",
                     "subcapability_id": "id-697145d3768b40d39f9463667b78f749",
-                    "subcapability_name": "EU standarder",
+                    "subcapability_name": "EU-standarder",
                     "subcapability_slug": "eu-standarder",
-                    "mapping_label": "Standardisering: EU standarder",
+                    "mapping_label": "Standardisering: EU-standarder",
                     "explanation": "Mandatet pålegger rådet å følge utviklingstrekk internasjonalt, og vurderingene omfatter europeiske standarder. Obligatoriske standarder må i tillegg notifiseres til ESA før de kan fastsettes."
                 },
                 {
@@ -3540,9 +3440,9 @@
                     "capability_name": "Standardisering",
                     "capability_slug": "standardisering",
                     "subcapability_id": "id-697145d3768b40d39f9463667b78f749",
-                    "subcapability_name": "EU standarder",
+                    "subcapability_name": "EU-standarder",
                     "subcapability_slug": "eu-standarder",
-                    "mapping_label": "Standardisering: EU standarder",
+                    "mapping_label": "Standardisering: EU-standarder",
                     "explanation": "gir hjemmelen for anerkjennelsesordningen for Interoperable Europe-løsninger og for det europeiske rammeverket for interoperabilitet, og gjør det dermed forpliktende å vurdere europeiske standarder."
                 },
                 {
@@ -3590,9 +3490,9 @@
                     "capability_name": "Standardisering",
                     "capability_slug": "standardisering",
                     "subcapability_id": "id-697145d3768b40d39f9463667b78f749",
-                    "subcapability_name": "EU standarder",
+                    "subcapability_name": "EU-standarder",
                     "subcapability_slug": "eu-standarder",
-                    "mapping_label": "Standardisering: EU standarder",
+                    "mapping_label": "Standardisering: EU-standarder",
                     "explanation": "definerer et felles vokabular og en datamodell for hvordan vurderinger beskrives og utveksles, slik at de kan sammenlignes på tvers av land."
                 }
             ]
@@ -3667,8 +3567,8 @@
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-2dfe07b3eae740b9a292e0a4a42d22db",
                     "subcapability_name": "Sporbarhet og innsyn",
                     "subcapability_slug": "sporbarhet-og-innsyn",
@@ -4139,9 +4039,9 @@
                     "capability_name": "Standardisering",
                     "capability_slug": "standardisering",
                     "subcapability_id": "id-697145d3768b40d39f9463667b78f749",
-                    "subcapability_name": "EU standarder",
+                    "subcapability_name": "EU-standarder",
                     "subcapability_slug": "eu-standarder",
-                    "mapping_label": "Standardisering: EU standarder",
+                    "mapping_label": "Standardisering: EU-standarder",
                     "explanation": "realiseres ved at kunnskapsgrunnlaget gjør de felleseuropeiske dataområdene forståelige for norske virksomheter og viser hvor norske aktører deltar. Kapabiliteten omfatter å følge med på, vurdere og prioritere europeiske standarder og referansearkitekturer for dataområder i nasjonale tiltak, og kartleggingen av norsk deltakelse er nettopp dette grunnlaget."
                 }
             ]
@@ -4386,22 +4286,22 @@
                 },
                 {
                     "capability_id": "id-299fc063873a4f278a1d3c0ac9480467",
-                    "capability_name": "Juridisk samhandling",
-                    "capability_slug": "juridisk-samhandling",
+                    "capability_name": "Regelverk og rettslig grunnlag",
+                    "capability_slug": "regelverk-og-rettslig-grunnlag",
                     "subcapability_id": "id-0119029984674da59dbbfdc3a8ca3e95",
                     "subcapability_name": "Regelverksutvikling",
                     "subcapability_slug": "regelverksutvikling",
-                    "mapping_label": "Juridisk samhandling: Regelverksutvikling",
+                    "mapping_label": "Regelverk og rettslig grunnlag: Regelverksutvikling",
                     "explanation": "Anbefalingene er skrevet for dem som utformer nytt regelverk, og dekker både detaljnivå, teknologinøytralitet og hvordan bestemmelser bør struktureres."
                 },
                 {
                     "capability_id": "id-299fc063873a4f278a1d3c0ac9480467",
-                    "capability_name": "Juridisk samhandling",
-                    "capability_slug": "juridisk-samhandling",
+                    "capability_name": "Regelverk og rettslig grunnlag",
+                    "capability_slug": "regelverk-og-rettslig-grunnlag",
                     "subcapability_id": "id-0209483504444508a40415aa6e3fc39c",
                     "subcapability_name": "Regelverkstolkning",
                     "subcapability_slug": "regelverkstolkning",
-                    "mapping_label": "Juridisk samhandling: Regelverkstolkning",
+                    "mapping_label": "Regelverk og rettslig grunnlag: Regelverkstolkning",
                     "explanation": "Veiledningen ber virksomheter først kartlegge handlingsrommet i gjeldende regelverk, før endring vurderes som virkemiddel."
                 },
                 {
@@ -4526,12 +4426,12 @@
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-ec0afaac123d4f9e83889d9022a198c3",
                     "subcapability_name": "Autentisering",
                     "subcapability_slug": "autentisering",
-                    "mapping_label": "Tillit: Autentisering",
+                    "mapping_label": "Digital tillit: Autentisering",
                     "explanation": "Ressursen verifiserer identiteten til sluttbrukeren i ansattkontekst og tilbyr et felles nasjonalt mønster for sikker innlogging i slike tjenester."
                 },
                 {
@@ -4795,22 +4695,22 @@
             "capabilities": [
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-ec0afaac123d4f9e83889d9022a198c3",
                     "subcapability_name": "Autentisering",
                     "subcapability_slug": "autentisering",
-                    "mapping_label": "Tillit: Autentisering",
+                    "mapping_label": "Digital tillit: Autentisering",
                     "explanation": "Sandkassen brukes til å teste innlogging og identitetsbekreftelse med digital lommebok før eventuell produksjonsinnføring."
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-f5214c3db8de4738ab03abb7b7e553ed",
                     "subcapability_name": "Signering",
                     "subcapability_slug": "signering",
-                    "mapping_label": "Tillit: Signering",
+                    "mapping_label": "Digital tillit: Signering",
                     "explanation": "Ressursen brukes til å prøve ut signeringsscenarier med lommebokbaserte mekanismer i kontrollerte omgivelser."
                 },
                 {
@@ -4908,10 +4808,10 @@
         {
             "product_id": 129,
             "product_name": "MSIS",
-            "version": 2,
-            "author": "codex",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/129-MSIS-produkt-canvas-v2-codex.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/129-MSIS-produkt-canvas-v2-codex.md",
+            "version": 3,
+            "author": "claude",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/129-MSIS-produkt-canvas-v3-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/129-MSIS-produkt-canvas-v3-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-d7aa97e6319a492d8a1345bcaa8e154a",
@@ -4941,7 +4841,7 @@
                     "subcapability_name": "Organisatorisk samhandling",
                     "subcapability_slug": "organisatorisk-samhandling",
                     "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "MSIS binder sammen leger, laboratorier, smittevernmiljøer og myndigheter i ett felles nasjonalt meldings- og analyseopplegg."
+                    "explanation": "MSIS fordeler rollene i det nasjonale meldingsløpet for smittsomme sykdommer: leger og laboratorier melder gjennom egne spor, FHI mottar og overvåker, og smittevernmiljøer og myndigheter bruker grunnlaget i sitt arbeid."
                 }
             ]
         },
@@ -5235,22 +5135,22 @@
             "capabilities": [
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-4b66bbf964834654b5f0c61e955b91b1",
                     "subcapability_name": "Identifisering",
                     "subcapability_slug": "identifisering",
-                    "mapping_label": "Tillit: Identifisering",
+                    "mapping_label": "Digital tillit: Identifisering",
                     "explanation": "normeres direkte i veilederens første del. Den gir anbefalinger for hvordan virksomheter uten registreringsrett kan få en identitet som kan brukes flere ganger og på tvers av sektorer, for eksempel ved å identifisere personer med en bemyndiget rolle i et autoritativt register, eller ved å bruke sertifikater på sektor- eller hovedenhetsnivå."
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-ec0afaac123d4f9e83889d9022a198c3",
                     "subcapability_name": "Autentisering",
                     "subcapability_slug": "autentisering",
-                    "mapping_label": "Tillit: Autentisering",
+                    "mapping_label": "Digital tillit: Autentisering",
                     "explanation": "normeres i veilederens del om autentisering: systemspesifikke asymmetriske nøkler som førstevalg for å unngå universalnøkkel-problemet, ingen statiske hemmeligheter, hyppig nøkkelrotasjon og kontroll av samhandlingspartens identitet mot aktuelle registre."
                 },
                 {
@@ -5335,22 +5235,22 @@
             "capabilities": [
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-ec0afaac123d4f9e83889d9022a198c3",
                     "subcapability_name": "Autentisering",
                     "subcapability_slug": "autentisering",
-                    "mapping_label": "Tillit: Autentisering",
+                    "mapping_label": "Digital tillit: Autentisering",
                     "explanation": "MinID er direkte knyttet til autentisering av personer. Den gjør det mulig å bekrefte at brukeren kontrollerer en personlig eID før tilgang til en offentlig digital tjeneste gis."
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-4b66bbf964834654b5f0c61e955b91b1",
                     "subcapability_name": "Identifisering",
                     "subcapability_slug": "identifisering",
-                    "mapping_label": "Tillit: Identifisering",
+                    "mapping_label": "Digital tillit: Identifisering",
                     "explanation": "MinID knytter innloggingen til en identifisert person og gir offentlige tjenester et felles grunnlag for å vite hvem brukeren er. Dette er særlig viktig i tjenester der virksomheten må skille mellom anonyme besøk og tjenester som krever kjent bruker."
                 },
                 {
@@ -5545,12 +5445,12 @@
                 },
                 {
                     "capability_id": "id-299fc063873a4f278a1d3c0ac9480467",
-                    "capability_name": "Juridisk samhandling",
-                    "capability_slug": "juridisk-samhandling",
+                    "capability_name": "Regelverk og rettslig grunnlag",
+                    "capability_slug": "regelverk-og-rettslig-grunnlag",
                     "subcapability_id": "id-0209483504444508a40415aa6e3fc39c",
                     "subcapability_name": "Regelverkstolkning",
                     "subcapability_slug": "regelverkstolkning",
-                    "mapping_label": "Juridisk samhandling: Regelverkstolkning",
+                    "mapping_label": "Regelverk og rettslig grunnlag: Regelverkstolkning",
                     "explanation": "Kjernen i tjenesten er å tolke personvernregelverket for konkrete KI-anvendelser, og gjøre tolkningen tilgjengelig for andre. Datatilsynet er personvernmyndighet, og tolkningen har derfor autoritet ut over en ordinær faglig vurdering."
                 }
             ]
@@ -5645,12 +5545,12 @@
             "capabilities": [
                 {
                     "capability_id": "id-299fc063873a4f278a1d3c0ac9480467",
-                    "capability_name": "Juridisk samhandling",
-                    "capability_slug": "juridisk-samhandling",
+                    "capability_name": "Regelverk og rettslig grunnlag",
+                    "capability_slug": "regelverk-og-rettslig-grunnlag",
                     "subcapability_id": "id-0209483504444508a40415aa6e3fc39c",
                     "subcapability_name": "Regelverkstolkning",
                     "subcapability_slug": "regelverkstolkning",
-                    "mapping_label": "Juridisk samhandling: Regelverkstolkning",
+                    "mapping_label": "Regelverk og rettslig grunnlag: Regelverkstolkning",
                     "explanation": "Tilsynet gir felles, autoritativ tolkning av hva kravene betyr i praksis, blant annet gjennom publiserte testprosedyrer for nettsteder og apper og gjennom tilsynsrapporter som viser hvordan enkeltkrav vurderes."
                 },
                 {
@@ -5828,10 +5728,10 @@
         {
             "product_id": 156,
             "product_name": "DigiHelsestasjon",
-            "version": 1,
+            "version": 2,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/156-DigiHelsestasjon-v1-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/156-DigiHelsestasjon-v1-claude.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/156-DigiHelsestasjon-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/156-DigiHelsestasjon-v2-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
@@ -5852,26 +5752,16 @@
                     "subcapability_slug": "meldingsutveksling",
                     "mapping_label": "Datautveksling og integrasjon: Meldingsutveksling",
                     "explanation": "Kjernefunksjonen er sikker meldingsutveksling mellom innbygger og tjeneste, med henvendelser som registreres direkte i journalsystemet."
-                },
-                {
-                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
-                    "capability_name": "Samarbeid",
-                    "capability_slug": "samarbeid",
-                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
-                    "subcapability_name": "Organisatorisk samhandling",
-                    "subcapability_slug": "organisatorisk-samhandling",
-                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "Løsningen etablerer et felles samhandlingsmønster mellom kommunale helsetjenester og innbyggere på tvers av kommunegrenser, med KS og Norsk helsenett i felles innføringsløp."
                 }
             ]
         },
         {
             "product_id": 157,
             "product_name": "ung.no",
-            "version": 1,
+            "version": 2,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/157-ung-no-v1-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/157-ung-no-v1-claude.md",
+            "relative_path": "arkitektur/ressurser/operative-losninger-og-tjenester/157-ung-no-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/157-ung-no-v2-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-1be148b57796458993c3f7f5f24815ca",
@@ -5892,16 +5782,6 @@
                     "subcapability_slug": "utvikling-og-formidling-av-veiledning",
                     "mapping_label": "Veiledning: Utvikling og formidling av veiledning",
                     "explanation": "Spørretjenesten produserer kvalitetssikrede svar fra et fagpanel, og svarene publiseres som varig veiledningsinnhold."
-                },
-                {
-                    "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
-                    "capability_name": "Samarbeid",
-                    "capability_slug": "samarbeid",
-                    "subcapability_id": "id-9ea8fbaeb19243fa971013c57c3e96f9",
-                    "subcapability_name": "Organisatorisk samhandling",
-                    "subcapability_slug": "organisatorisk-samhandling",
-                    "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "Innholdet og tjenestetilbudet utvikles gjennom DigiUng-samarbeidet på tvers av sektorer og forvaltningsnivåer."
                 }
             ]
         },
@@ -6195,12 +6075,12 @@
                 },
                 {
                     "capability_id": "id-299fc063873a4f278a1d3c0ac9480467",
-                    "capability_name": "Juridisk samhandling",
-                    "capability_slug": "juridisk-samhandling",
+                    "capability_name": "Regelverk og rettslig grunnlag",
+                    "capability_slug": "regelverk-og-rettslig-grunnlag",
                     "subcapability_id": "id-0209483504444508a40415aa6e3fc39c",
                     "subcapability_name": "Regelverkstolkning",
                     "subcapability_slug": "regelverkstolkning",
-                    "mapping_label": "Juridisk samhandling: Regelverkstolkning",
+                    "mapping_label": "Regelverk og rettslig grunnlag: Regelverkstolkning",
                     "explanation": "Rammeverket omsetter barnevernsrettens krav til konkrete vurderingspunkter i saksforløpet."
                 }
             ]
@@ -6225,12 +6105,12 @@
                 },
                 {
                     "capability_id": "id-d503cf06faa1417b8acd4b26a5c0741e",
-                    "capability_name": "Tillit",
-                    "capability_slug": "tillit",
+                    "capability_name": "Digital tillit",
+                    "capability_slug": "digital-tillit",
                     "subcapability_id": "id-2dfe07b3eae740b9a292e0a4a42d22db",
                     "subcapability_name": "Sporbarhet og innsyn",
                     "subcapability_slug": "sporbarhet-og-innsyn",
-                    "mapping_label": "Tillit: Sporbarhet og innsyn",
+                    "mapping_label": "Digital tillit: Sporbarhet og innsyn",
                     "explanation": "Løsningen gir sluttbrukeren innsyn i egen dialoghistorikk, status på innsendinger og arkiverte meldinger, inkludert historikk overført fra Altinn II. Innsynet er brukerrettet og gjelder egne eller representerte parters dialoger, ikke innsyn på vegne av offentligheten."
                 },
                 {
@@ -6278,9 +6158,9 @@
                     "capability_name": "Standardisering",
                     "capability_slug": "standardisering",
                     "subcapability_id": "id-697145d3768b40d39f9463667b78f749",
-                    "subcapability_name": "EU standarder",
+                    "subcapability_name": "EU-standarder",
                     "subcapability_slug": "eu-standarder",
-                    "mapping_label": "Standardisering: EU standarder",
+                    "mapping_label": "Standardisering: EU-standarder",
                     "explanation": "Komponentene er bygget for å følge EU-standarder for datakvalitet og datadeling, og gjør dem dermed praktisk anvendelige i konkrete løsninger framfor bare dokumenterte."
                 }
             ]
@@ -6395,12 +6275,12 @@
             "capabilities": [
                 {
                     "capability_id": "id-299fc063873a4f278a1d3c0ac9480467",
-                    "capability_name": "Juridisk samhandling",
-                    "capability_slug": "juridisk-samhandling",
+                    "capability_name": "Regelverk og rettslig grunnlag",
+                    "capability_slug": "regelverk-og-rettslig-grunnlag",
                     "subcapability_id": "id-0119029984674da59dbbfdc3a8ca3e95",
                     "subcapability_name": "Regelverksutvikling",
                     "subcapability_slug": "regelverksutvikling",
-                    "mapping_label": "Juridisk samhandling: Regelverksutvikling",
+                    "mapping_label": "Regelverk og rettslig grunnlag: Regelverksutvikling",
                     "explanation": "Instruksen er prosessrammen for hvordan forslag til lover og forskrifter blir til i staten. Kapittel 4 setter krav til utforming, Lovavdelingens lovtekniske gjennomgang og Regelrådets rolle, og kapittel 3 krever at regelverksforslag alltid forelegges berørte departementer og normalt sendes på høring. Kapittel 5 setter krav til når og hvordan EØS- og Schengen-regelverk skal gjennomføres i norsk rett (§ 5-6)."
                 },
                 {
@@ -7005,12 +6885,12 @@
             "capabilities": [
                 {
                     "capability_id": "id-299fc063873a4f278a1d3c0ac9480467",
-                    "capability_name": "Juridisk samhandling",
-                    "capability_slug": "juridisk-samhandling",
+                    "capability_name": "Regelverk og rettslig grunnlag",
+                    "capability_slug": "regelverk-og-rettslig-grunnlag",
                     "subcapability_id": "id-0119029984674da59dbbfdc3a8ca3e95",
                     "subcapability_name": "Regelverksutvikling",
                     "subcapability_slug": "regelverksutvikling",
-                    "mapping_label": "Juridisk samhandling: Regelverksutvikling",
+                    "mapping_label": "Regelverk og rettslig grunnlag: Regelverksutvikling",
                     "explanation": "§§ 94–97 er den generelle prosessrammen for forskrifter i hele forvaltningen, også i kommunene: utredning av behov, alternativer og virkninger, åpen høring med minst tre måneders frist og kunngjøring i Norsk Lovtidend. Loven gir i tillegg Kongen hjemmel til å utvikle forskrifter om automatiserte avgjørelser (§§ 11 og 12) og om deling av taushetsbelagte opplysninger (§ 35)."
                 }
             ]
@@ -7105,12 +6985,12 @@
                 },
                 {
                     "capability_id": "id-299fc063873a4f278a1d3c0ac9480467",
-                    "capability_name": "Juridisk samhandling",
-                    "capability_slug": "juridisk-samhandling",
+                    "capability_name": "Regelverk og rettslig grunnlag",
+                    "capability_slug": "regelverk-og-rettslig-grunnlag",
                     "subcapability_id": "id-0209483504444508a40415aa6e3fc39c",
                     "subcapability_name": "Regelverkstolkning",
                     "subcapability_slug": "regelverkstolkning",
-                    "mapping_label": "Juridisk samhandling: Regelverkstolkning",
+                    "mapping_label": "Regelverk og rettslig grunnlag: Regelverkstolkning",
                     "explanation": "Normen omsetter krav fra blant annet personvernregelverket, helselovgivningen og digitalsikkerhetsloven til felles skal-krav for sektoren, og vedlegget om lovkrav viser hjemmelen for hvert skal-krav."
                 },
                 {
@@ -7148,10 +7028,10 @@
         {
             "product_id": 197,
             "product_name": "Regionale digitaliseringsnettverk",
-            "version": 1,
+            "version": 2,
             "author": "claude",
-            "relative_path": "arkitektur/ressurser/samarbeidsfora/197-Regionale-digitaliseringsnettverk-v1-claude.md",
-            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/197-Regionale-digitaliseringsnettverk-v1-claude.md",
+            "relative_path": "arkitektur/ressurser/samarbeidsfora/197-Regionale-digitaliseringsnettverk-v2-claude.md",
+            "product_url": "https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/197-Regionale-digitaliseringsnettverk-v2-claude.md",
             "capabilities": [
                 {
                     "capability_id": "id-e67a4f2983ce40f9823ec34ba460055a",
@@ -7171,7 +7051,7 @@
                     "subcapability_name": "Organisatorisk samhandling",
                     "subcapability_slug": "organisatorisk-samhandling",
                     "mapping_label": "Samarbeid: Organisatorisk samhandling",
-                    "explanation": "Nettverkene legger til rette for at kommunene i regionen tar i bruk felleskommunale og nasjonale løsninger, med erfaringsutveksling og endringsledelse, og er kontaktpunktet mellom kommunene, KS og KS Digital når fellesløsninger skal innføres."
+                    "explanation": "Mandatet gir nettverkene faste roller når felleskommunale og nasjonale løsninger skal innføres: hvert nettverk er regionalt kontaktpunkt mot KS og KS Digital og regional mottaker når en løsning skal innføres kommune for kommune, med endringsledelse og koordinering i regionen."
                 },
                 {
                     "capability_id": "id-682d96a51e604ed2a00e1f4824023bab",

@@ -27,8 +27,8 @@ ID-porten er den nasjonale fellesløsningen for sikker innlogging til offentlige
 Representasjonsforholdene forvaltes ikke i ID-porten, men i Altinn Autorisasjon (`DIGDIR-004`) og andre autoritative kilder. ID-porten har ingen egen database over fullmakter: løsningen lar brukeren velge et eksisterende representasjonsforhold, kontrollerer det mot kilden og formidler valget til tjenesten i token.
 
 - **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling** beskytter innloggingsflyt, tokenutstedelse og overføring av identitetsinformasjon mellom ID-porten og tjenesteeier.
-- **Tillit: Autentisering** verifiserer brukerens identitet gjennom godkjente eID-er og gir et felles sikkerhetsnivå på tvers av offentlige tjenester.
-- **Tillit: Identifisering** kobler innloggingen til en entydig digital identitet som tjenesteeier kan bruke videre i sin saks- og tjenestelogikk.
+- **Digital tillit: Autentisering** verifiserer brukerens identitet gjennom godkjente eID-er og gir et felles sikkerhetsnivå på tvers av offentlige tjenester.
+- **Digital tillit: Identifisering** kobler innloggingen til en entydig digital identitet som tjenesteeier kan bruke videre i sin saks- og tjenestelogikk.
 - **Tjenesteutvikling: Integrerbare tjenester** gjør autentisering gjenbrukbar gjennom standardiserte grensesnitt og dokumenterte integrasjonsmønstre.
 
 ## Produktmål

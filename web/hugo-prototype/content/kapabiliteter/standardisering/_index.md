@@ -3,18 +3,18 @@ title: "Standardisering"
 eyebrow: "Kapabilitet"
 weight: 10
 description: "Evne til å identifisere, vedta, forvalte og fremme bruk av omforente standarder og spesifikasjoner som sikrer interoperabilitet og gjenbruk på tvers av sektorer og landegrenser. ### Begrunnelse (Hvorfor) Kapabiliteten sikrer at virksomheter i økosystemet bygger tjenester, løsninger og informasjonsutveksling på omforente standarder og spesifikasjoner. Den reduserer lokale avvik, særtilpasninger og teknisk fragmentering, og gjør det mulig å oppnå interoperabilitet og gjenbruk på tvers av sektorer og landegrenser. ### Hva det innebærer (Omfang) - **Juridisk (Middels vekt):** Nasjonale føringer, forskrifter og EU-harmoniserte standarder må gi forutsigbare rammer for hvilke standarder som skal eller bør brukes. - **Organisatorisk (Svært høy vekt):** Livssyklusforvaltning må sikre prosesser for å vurdere nye standarder, vedlikeholde eksisterende og fase ut foreldede standarder i takt med teknologisk utvikling. - **Semantisk (Høy vekt):** Harmonisering må sikre at nasjonale standarder er i samsvar med internasjonale standarder, slik at begreper, data og tjenester kan forstås på tvers. - **Teknisk (Høy vekt):** Standarder og spesifikasjoner må gjøre det mulig å bygge tekniske grensesnitt, formater og løsninger som fungerer sammen og kan gjenbrukes. ### Bidrag til sammenhengende tjenester og felles økosystem Standardisering gjør det enklere å utvikle tjenester og løsninger som passer sammen på tvers av virksomheter, sektorer og landegrenser. Veiledning gjør standardene tilgjengelige og forståelige, slik at de enklere kan implementeres i tjenester og løsninger. Kapabiliteten styrker det felles økosystemet ved å legge til rette for etterlevelse, slik at fellesløsninger og virksomheter faktisk tar i bruk vedtatte forvaltningsstandarder i anskaffelser og utviklingsløp. For sluttbrukeren betyr dette mer stabile, forutsigbare og sammenhengende tjenester, der digitale løsninger følger samme samhandlingsmønstre og lettere kan kobles sammen."
-cardMeta: "2 delkapabiliteter / 31 produkter"
+cardMeta: "2 delkapabiliteter / 37 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
   <div class="capability-product-links">
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/07-eFormidling-produkt-canvas-v3-codex.md">eFormidling</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/07-eFormidling-produkt-canvas-v4-claude.md">eFormidling</a></h3>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
-      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/11-Peppol-eDelivery-produkt-canvas-v3-codex.md">Peppol eDelivery</a></h3>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/11-Peppol-eDelivery-produkt-canvas-v4-claude.md">Peppol eDelivery</a></h3>
     </article>
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
@@ -131,6 +131,30 @@ productsMarkdown: |
     <article class="capability-product-link resource-type--operative">
       <p class="capability-product-link__type">Operativ løsning</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/166-Simpl-v1-claude.md">Simpl</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/178-HL7-FHIR-norske-basisprofiler-v1-claude.md">Norske basisprofiler for HL7 FHIR</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--operative">
+      <p class="capability-product-link__type">Operativ løsning</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/operative-losninger-og-tjenester/180-KLASS-v1-claude.md">KLASS</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/182-Statens-standardavtaler-v1-claude.md">Statens standardavtaler (SSA)</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/184-Noark-5-v1-claude.md">Noark 5</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/185-EHF-Elektronisk-handelsformat-v1-claude.md">EHF (Elektronisk handelsformat)</a></h3>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/186-SOSI-v1-claude.md">SOSI – standarder for geografisk informasjon</a></h3>
     </article>
   </div>
 ---

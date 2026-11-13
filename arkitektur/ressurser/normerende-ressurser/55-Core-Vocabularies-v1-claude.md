@@ -42,7 +42,7 @@ Koblingene er satt fordi vokabularene selv er modellene, og fordi SEMIC forvalte
 - **Informasjonsforvaltning: Informasjonsarkitektur**
   gir felles, standardiserte modeller for hvordan sentrale dataenheter struktureres, slik at data blir finnbare, forståelige og gjenbrukbare for både mennesker og maskiner på tvers av forvaltninger.
 
-- **Standardisering: EU standarder**
+- **Standardisering: EU-standarder**
   forvalter og tilgjengeliggjør de europeiske kjernemodellene som skal tas i bruk, med dokumentert metode for utvikling og endring.
 
 ## Målgruppe og brukere

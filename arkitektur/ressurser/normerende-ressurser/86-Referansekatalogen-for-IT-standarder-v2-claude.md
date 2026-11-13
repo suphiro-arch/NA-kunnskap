@@ -44,7 +44,7 @@ Etterlevelse skjer normalt gjennom arkitekturstyring, anskaffelser, utviklingsl�
 ## Kapabiliteter
 - **Standardisering: Forvaltningsstandarder**
   Katalogen er selve mekanismen for å fastsette hvilke standarder som gjelder i norsk forvaltning, og på hvilket forpliktelsesnivå.
-- **Standardisering: EU standarder**
+- **Standardisering: EU-standarder**
   Flere av standardene i katalogen er internasjonale, og obligatoriske standarder må notifiseres til ESA før de kan fastsettes.
 - **Informasjonsforvaltning: Informasjonsarkitektur**
   Bruksområdene dekker blant annet beskrivelse av datasett og datatjenester, tegnsett og pekere til offentlige ressurser på nett, som er byggesteiner i informasjonsarkitekturen.

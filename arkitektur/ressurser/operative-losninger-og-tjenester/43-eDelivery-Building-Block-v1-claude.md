@@ -37,7 +37,7 @@ Koblingene er satt fordi byggesteinen selv eier profilen, referanseprogramvaren 
 - **Informasjonssikkerhet: Sikring av informasjonsflyt og datautveksling**
   leverer signerte mottakskvitteringer, kryptering og et sertifikatbasert tillitsoppsett som gjør utvekslingen etterprøvbar.
 
-- **Standardisering: EU standarder**
+- **Standardisering: EU-standarder**
   forvalter selve AS4-profilen og tjenestemetadataspesifikasjonene, og gjør dem tilgjengelige med konformitetstesting, slik at europeiske standarder faktisk kan tas i bruk.
 
 ## Produktmål

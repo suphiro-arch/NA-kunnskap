@@ -109,15 +109,15 @@ mellom `Obligatorisk` og de tre andre nivåene er som regel nettopp at det finne
 - Ta bare med kapabiliteter ressursen selv er med på å realisere, ikke kapabiliteter den forbruker
   fra andre ressurser. Kapabilitetene er definert som evner: `Autentisering` er evnen til å
   verifisere en digital identitet, ikke det å ha innlogging. En løsning som logger inn med
-  `ID-porten` eller `Feide`, forbruker evnen og skal ikke ha `Tillit: Autentisering`.
+  `ID-porten` eller `Feide`, forbruker evnen og skal ikke ha `Digital tillit: Autentisering`.
 - Test koblingen slik: ville kapabiliteten forsvunnet fra nasjonal arkitektur hvis denne ressursen
   ble borte? Er svaret nei, fordi en annen ressurs leverer evnen, skal koblingen ikke settes.
 - Avhengigheten skal fortsatt beskrives, men som avhengighet i `Relasjon til andre ressurser`, med
   navn på ressursen som leverer evnen.
 - Legg forklaring, begrunnelse og nyanser i egen tekst rundt listen, ikke inne i navnelabelen.
 - Unngå formuleringer som gjør kapabilitetsseksjonen vanskelig å gjenbruke i web, filtrering eller senere analyser.
-- Er ressursen rettslig forankret, vurder eksplisitt `Juridisk samhandling: Regelverkstolkning` og
-  `Juridisk samhandling: Regelverksutvikling`. `Regelverkstolkning` er aktuell når ressursen sier
+- Er ressursen rettslig forankret, vurder eksplisitt `Regelverk og rettslig grunnlag: Regelverkstolkning` og
+  `Regelverk og rettslig grunnlag: Regelverksutvikling`. `Regelverkstolkning` er aktuell når ressursen sier
   hvordan et regelverk skal forstås eller anvendes i praksis. `Regelverksutvikling` er aktuell når
   ressursen former hvordan nytt regelverk blir til. Uten en slik kobling blir ressursen usynlig på
   kapabilitetssiden der noen leter etter det rettslige grunnlaget for et krav.

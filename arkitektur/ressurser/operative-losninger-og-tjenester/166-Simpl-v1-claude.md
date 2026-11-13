@@ -42,7 +42,7 @@ Koblingene er satt fordi plattformen selv leverer delingsmekanismen, komponenten
 - **Tjenesteutvikling: Gjenbrukbare tjenester**
   Plattformen er modulær og publisert som åpen kildekode under European Union Public Licence 1.2, slik at komponentene kan brukes i nye sammenhenger på tvers av sektorer og land framfor å utvikles på nytt per dataområde.
 
-- **Standardisering: EU standarder**
+- **Standardisering: EU-standarder**
   Komponentene er bygget for å følge EU-standarder for datakvalitet og datadeling, og gjør dem dermed praktisk anvendelige i konkrete løsninger framfor bare dokumenterte.
 
 ## Produktmål

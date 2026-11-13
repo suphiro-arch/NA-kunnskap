@@ -78,7 +78,7 @@ Bruk formatet:
 Ta bare med kapabiliteter med sterk, direkte kobling til produktets egen funksjon.
 
 Ta bare med kapabiliteter produktet selv er med på å realisere, ikke kapabiliteter det forbruker
-fra andre. At produktet logger inn med `ID-porten` eller `Feide` gir ikke `Tillit: Autentisering`;
+fra andre. At produktet logger inn med `ID-porten` eller `Feide` gir ikke `Digital tillit: Autentisering`;
 den evnen leveres av `ID-porten` og `Feide`. Test koblingen slik: ville kapabiliteten forsvunnet
 fra nasjonal arkitektur hvis produktet ble borte? Er svaret nei, hører koblingen et annet sted.
 

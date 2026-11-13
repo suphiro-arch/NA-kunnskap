@@ -4,15 +4,45 @@ headerTitle: "Informasjonssikkerhet - Styringssystem"
 eyebrow: "Kapabilitet"
 weight: 1
 description: "Evne til å evaluere, forbedre, fornye styringssystem for informasjonssikkerhet. ### Begrunnelse (Hvorfor) Kapabiliteten sikrer at virksomheten systematisk vurderer hvordan det nåværende sikkerhetsstyringssystemet fungerer, identifiserer forbedringsområder og tilpasser eller oppdaterer systemet for å møte nye trusler, sårbarheter og endringer i virksomhetens behov eller omgivelser. Den løser behovet for kontinuerlig forbedring av informasjonssikkerheten, slik at sikkerhetstiltak ikke blir statiske, utdaterte eller utilstrekkelige i møte med endringer i risiko, teknologi, regelverk og tjenestekjeder. ### Hva det innebærer (Omfang) - **Juridisk (Høy vekt):** Sikre at styringssystemet understøtter etterlevelse av krav til informasjonssikkerhet, personvern, internkontroll, risikostyring, dokumentasjon og ansvar. - **Organisatorisk (Svært høy vekt):** Gjennomføre regelmessige risikovurderinger, kontrollere om sikkerhetstiltak er effektive og implementere tiltak for å lukke identifiserte sikkerhetsgap. - **Semantisk (Middels vekt):** Sikre felles forståelse av risiko, trusler, sårbarheter, sikkerhetstiltak, avvik, kontrollmål og modenhetsnivå, slik at vurderinger og rapportering kan sammenlignes på tvers. - **Teknisk (Høy vekt):** Bruke verktøy og mekanismer for risikoregistrering, avvikshåndtering, kontrolloppfølging, måling av sikkerhetstilstand, dokumentasjon og overvåking av tekniske sikkerhetstiltak. ### Bidrag til sammenhengende tjenester og felles økosystem Et velfungerende styringssystem for informasjonssikkerhet gir virksomheter bedre kontroll på risiko og sikkerhetstiltak når de inngår i felles tjenestekjeder. Når sikkerhet vurderes, forbedres og dokumenteres systematisk, blir det tryggere å dele data, bruke fellesløsninger og koble tjenester sammen på tvers av virksomheter. Kapabiliteten styrker det felles økosystemet ved å øke tilliten til at aktørene håndterer informasjonssikkerhet på en strukturert og etterprøvbar måte. For sluttbrukeren betyr dette tryggere og mer stabile digitale tjenester, der informasjon beskyttes også når den flyter mellom flere aktører."
-cardMeta: "1 produkter"
+cardMeta: "7 produkter"
 productsMarkdown: |
   ## Relaterte ressurser
   
   <div class="capability-product-links">
+    <article class="capability-product-link resource-type--forum">
+      <p class="capability-product-link__type">Samarbeidsforum</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/samarbeidsfora/124-Felles-sikkerhet-i-forvaltningen-v3-claude.md">Felles sikkerhet i forvaltningen</a></h3>
+      <p class="capability-product-link__description">FSIF bidrar til kapabiliteten ved å utvikle og spre felles anbefalinger for hvordan offentlige virksomheter bør styre informasjonssikkerhet og personopplysningsvern. Første leveranse (P1) beskriver styringsaktivitetene virksomhetene bør ha, blant dem ledelsens styring og oppfølging og måling, evaluering og revisjon. Selve styringssystemet etableres og forbedres i hver virksomhet; FSIF driver ikke et styringssystem.</p>
+    </article>
     <article class="capability-product-link resource-type--policy">
       <p class="capability-product-link__type">Rammer og virkemidler</p>
       <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/144-eForvaltningsforskriften-v3-claude.md">eForvaltningsforskriften</a></h3>
       <p class="capability-product-link__description">§ 15 krever at hvert forvaltningsorgan som bruker elektronisk kommunikasjon, har dokumenterte mål og strategi for informasjonssikkerhet som grunnlag for internkontroll, at internkontrollen bygger på anerkjente standarder for styringssystem for informasjonssikkerhet, og at omfanget er tilpasset risiko.</p>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/174-NSMs-grunnprinsipper-for-IKT-sikkerhet-v1-claude.md">NSMs grunnprinsipper for IKT-sikkerhet</a></h3>
+      <p class="capability-product-link__description">grunnprinsippene og støtteproduktene gir en tiltakskatalog med prioriteringsforslag, kobling til ISO/IEC 27002 og et verktøy for risikovurdering som virksomheter bruker når de vurderer og forbedrer egne sikkerhetstiltak. NSM sier selv at prinsippene ikke erstatter virksomhetens sikkerhetsstyring.</p>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/179-Internkontroll-i-praksis-informasjonssikkerhet-v1-claude.md">Internkontroll i praksis – informasjonssikkerhet</a></h3>
+      <p class="capability-product-link__description">veiledningen beskriver selve styringssystemet: ni styringsaktiviteter fra ledelsens styring og oppfølging til måling, evaluering og revisjon, ti etableringsaktiviteter for å bygge det opp, og maler og støtteark for risikovurdering, fellessikring og ledelsens gjennomgang.</p>
+    </article>
+    <article class="capability-product-link resource-type--policy">
+      <p class="capability-product-link__type">Rammer og virkemidler</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/189-Digitalsikkerhetsloven-v1-claude.md">Digitalsikkerhetsloven</a></h3>
+      <p class="capability-product-link__description">Forskriften § 6 krever at tilbydere av samfunnsviktige tjenester etablerer et dokumentert styringssystem for sikkerhet basert på anerkjente standarder, som inngår i virksomhetsstyringen og gjennomgås minst årlig for å forbedre sikkerhetsarbeidet. §§ 7 og 8 krever risikovurdering og risikohåndteringsplan som grunnlag for tiltakene.</p>
+    </article>
+    <article class="capability-product-link resource-type--policy">
+      <p class="capability-product-link__type">Rammer og virkemidler</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/rammer-og-virkemidler/190-Personopplysningsloven-og-personvernforordningen-v1-claude.md">Personopplysningsloven og personvernforordningen</a></h3>
+      <p class="capability-product-link__description">Artikkel 24 krever egnede tekniske og organisatoriske tiltak som skal gjennomgås og oppdateres ved behov, og artikkel 5 nr. 2 krever at den behandlingsansvarlige kan påvise etterlevelse. Artikkel 32 nr. 1 bokstav d krever en prosess for regelmessig testing og vurdering av hvor effektive sikkerhetstiltakene er, og artikkel 35 krever risikovurdering før behandling med høy risiko.</p>
+    </article>
+    <article class="capability-product-link resource-type--normative">
+      <p class="capability-product-link__type">Normerende ressurs</p>
+      <h3 class="capability-product-link__title"><a class="capability-product-link__title-link" href="https://github.com/suphiro-arch/NA-kunnskap/blob/main/arkitektur/ressurser/normerende-ressurser/195-Normen-v1-claude.md">Normen</a></h3>
+      <p class="capability-product-link__description">Normen stiller krav til roller og ansvar, styringssystem, ledelsens gjennomgang, risikovurdering og risikohåndtering, som virksomhetene bruker til å etablere og forbedre egen styring av informasjonssikkerhet og personvern.</p>
     </article>
   </div>
 ---

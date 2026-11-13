@@ -99,7 +99,7 @@ Dette betyr at teksten må svare tydelig på:
 - Ta bare med kapabiliteter ressursen selv er med på å realisere, ikke kapabiliteter den forbruker
   fra andre ressurser. Kapabilitetene er definert som evner: `Autentisering` er evnen til å
   verifisere en digital identitet, ikke det å ha innlogging. En løsning som logger inn med
-  `ID-porten` eller `Feide`, forbruker evnen og skal ikke ha `Tillit: Autentisering`.
+  `ID-porten` eller `Feide`, forbruker evnen og skal ikke ha `Digital tillit: Autentisering`.
 - Test koblingen slik: ville kapabiliteten forsvunnet fra nasjonal arkitektur hvis denne ressursen
   ble borte? Er svaret nei, fordi en annen ressurs leverer evnen, skal koblingen ikke settes.
 - Avhengigheten skal fortsatt beskrives, men som avhengighet i `Relasjon til andre ressurser`, med

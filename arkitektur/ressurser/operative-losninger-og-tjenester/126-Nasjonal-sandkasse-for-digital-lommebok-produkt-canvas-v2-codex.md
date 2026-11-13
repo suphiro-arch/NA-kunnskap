@@ -18,10 +18,10 @@ Nasjonal sandkasse for digital lommebok er en operativ utprøvings- og testressu
 Ressursen er mer enn en informasjonsarena. Åpne kilder viser at den tilbyr konkret testkapasitet, publiserte bruksvilkår og et formalisert ta-i-bruk-løp, med samarbeid mellom Digdir og Brønnøysundregistrene.
 
 ## Kapabiliteter
-- **Tillit: Autentisering**
+- **Digital tillit: Autentisering**
   Sandkassen brukes til å teste innlogging og identitetsbekreftelse med digital lommebok før eventuell produksjonsinnføring.
 
-- **Tillit: Signering**
+- **Digital tillit: Signering**
   Ressursen brukes til å prøve ut signeringsscenarier med lommebokbaserte mekanismer i kontrollerte omgivelser.
 
 - **Tjenesteutvikling: Utviklings- og kjøretidsmiljø**

@@ -69,7 +69,7 @@ Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vur
 
 `Strategisk styring: Finansiering` er vurdert og ikke satt. Kravet om samfunnsøkonomisk analyse i § 2-2 påvirker hvilke tiltak som prioriteres, men instruksen etablerer ikke noe finansielt virkemiddel. `Juridisk samhandling: Regelverkstolkning` er vurdert og ikke satt: instruksen gir regler for prosessen, ikke autoritative tolkninger av annet regelverk. Plikten i § 5-7 til å følge rettsutviklingen gjelder departementenes eget ansvar for sektorregelverket, ikke tolkning som tilbys andre. `Standardisering: EU standarder` er vurdert og ikke satt: kapittel 5 gjelder innlemmelse og gjennomføring av EØS- og Schengen-regelverk, ikke standarder.
 
-- **Juridisk samhandling: Regelverksutvikling**
+- **Regelverk og rettslig grunnlag: Regelverksutvikling**
   Instruksen er prosessrammen for hvordan forslag til lover og forskrifter blir til i staten. Kapittel 4 setter krav til utforming, Lovavdelingens lovtekniske gjennomgang og Regelrådets rolle, og kapittel 3 krever at regelverksforslag alltid forelegges berørte departementer og normalt sendes på høring. Kapittel 5 setter krav til når og hvordan EØS- og Schengen-regelverk skal gjennomføres i norsk rett (§ 5-6).
 - **Strategisk styring: Samordning**
   Instruksen forplikter departementer og etater til å koordinere seg før beslutninger tas. Berørte departementer skal involveres så tidlig som mulig, og forslag med vesentlige virkninger skal forelegges dem med minst tre ukers frist før høring (§ 3-1 og § 3-2). I EØS- og Schengen-saker skal ansvarlig departement involvere andre berørte departementer, blant annet gjennom spesialutvalgene (§ 5-2).

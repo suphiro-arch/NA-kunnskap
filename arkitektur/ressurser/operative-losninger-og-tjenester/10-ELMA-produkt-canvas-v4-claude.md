@@ -27,7 +27,7 @@ ELMA er den norske oppslagstjenesten som gjør det mulig å finne riktig elektro
 Grunnlag: Kapabilitetsnavn fra `arkitektur/kapabiliteter/capabilities.yaml`, vurdert mot Digdirs produkt- og dokumentasjonssider for ELMA og mot rollen ELMA har i norsk Peppol-infrastruktur.
 
 - **Datautveksling og integrasjon: Meldingsutveksling** støtter ruting av meldinger ved å gi nødvendig oppslagsgrunnlag før dokumentet sendes til riktig mottaker og aksesspunkt.
-- **Tillit: Identifisering** knytter virksomheter og deltakere til entydige identifikatorer som kan brukes i adressering og oppslag i meldingsøkosystemet.
+- **Digital tillit: Identifisering** knytter virksomheter og deltakere til entydige identifikatorer som kan brukes i adressering og oppslag i meldingsøkosystemet.
 
 ## Produktmål
 **Primærkilder:** Digdirs produktside for ELMA, Digdir Docs for ELMA og bruksvilkår for ELMA.

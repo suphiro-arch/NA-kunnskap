@@ -34,9 +34,9 @@ Ressursen er normerende ved at den gir anbefalinger for hvordan jurister, fagmil
 **Deduksjon:** Det forklarer hvorfor ressursen er formet som anbefalinger og ikke som krav. Digdir eier ingen av regelverkene veiledningen gjelder. Den som skriver en lov, sitter i et departement, og den som støter på barrieren, sitter som regel i en etat uten hjemmel til å endre noe. Ressursens normerende kraft ligger derfor i å gi de to partene et felles sett med spørsmål, ikke i å pålegge et utfall.
 
 ## Kapabiliteter
-- **Juridisk samhandling: Regelverksutvikling**
+- **Regelverk og rettslig grunnlag: Regelverksutvikling**
   Anbefalingene er skrevet for dem som utformer nytt regelverk, og dekker både detaljnivå, teknologinøytralitet og hvordan bestemmelser bør struktureres.
-- **Juridisk samhandling: Regelverkstolkning**
+- **Regelverk og rettslig grunnlag: Regelverkstolkning**
   Veiledningen ber virksomheter først kartlegge handlingsrommet i gjeldende regelverk, før endring vurderes som virkemiddel.
 - **Veiledning: Utvikling og formidling av veiledning**
   Ressursen er Digdirs formidling av hvordan regelverksarbeid bør gjøres når digitalisering er et hensyn, med generelle anbefalinger og en sjekkliste med kontrollspørsmål per anbefaling for bruk i et pågående regelverksarbeid.
